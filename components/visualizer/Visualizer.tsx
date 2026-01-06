@@ -5,10 +5,11 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, PerspectiveCamera, Grid } from '@react-three/drei';
 import FaceMesh from './FaceMesh';
 import { useAppStore } from '@/lib/store';
+import { transformLandmarksFor3D } from '@/lib/transformLandmarks';
 import { motion } from 'framer-motion';
 
 export default function Visualizer() {
-  const { landmarks } = useAppStore();
+  const { landmarks, videoDimensions } = useAppStore();
 
   if (!landmarks || landmarks.length === 0) {
     return (
@@ -18,17 +19,21 @@ export default function Visualizer() {
     );
   }
 
-  const normalizedLandmarks = landmarks.map((lm: any) => [
-    lm.x * 2 - 1,
-    lm.y * 2 - 1,
-    (lm.z || 0) * 2,
-  ]);
+  if (!videoDimensions) {
+    return (
+      <div className="glass rounded-lg h-full flex items-center justify-center">
+        <p className="text-primary/50 text-sm">Processing scan data...</p>
+      </div>
+    );
+  }
+
+  const transformedLandmarks = transformLandmarksFor3D(landmarks, videoDimensions);
 
   return (
     <div className="relative w-full h-full rounded-lg overflow-hidden glass">
       <Canvas className="bg-black/20">
         <Suspense fallback={null}>
-          <PerspectiveCamera makeDefault position={[0, 0, 2]} fov={50} />
+          <PerspectiveCamera makeDefault position={[1, 0.5, 3]} fov={50} />
           <ambientLight intensity={0.5} />
           <pointLight position={[10, 10, 10]} intensity={1} color="#00E5FF" />
           <pointLight position={[-10, -10, -10]} intensity={0.5} color="#FF0055" />
@@ -41,12 +46,13 @@ export default function Visualizer() {
             fadeDistance={15}
             fadeStrength={1}
           />
-          <FaceMesh landmarks={normalizedLandmarks} />
+          <FaceMesh landmarks={transformedLandmarks} />
           <OrbitControls
             enableDamping
             dampingFactor={0.05}
             minDistance={1.5}
             maxDistance={5}
+            target={[0, 0, 0]}
           />
         </Suspense>
       </Canvas>

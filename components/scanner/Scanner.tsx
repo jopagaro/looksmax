@@ -101,11 +101,16 @@ export default function Scanner() {
 
     let lastVideoTime = -1;
     let scanStartTime: number | null = null;
-    const SCAN_DURATION = 3000;
+    let hasProcessedResults = false;
+    const SCAN_DURATION = 5000;
 
     function processFrame() {
-      if (!video || video.readyState !== video.HAVE_ENOUGH_DATA) {
+      if (!video || video.readyState !== video.HAVE_ENOUGH_DATA || !ctx || !faceLandmarker || !drawingUtils) {
         animationFrameRef.current = requestAnimationFrame(processFrame);
+        return;
+      }
+
+      if (hasProcessedResults) {
         return;
       }
 
@@ -123,6 +128,7 @@ export default function Scanner() {
       ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
 
       const startTimeInMs = performance.now();
+      
       if (lastVideoTime !== video.currentTime) {
         lastVideoTime = video.currentTime;
 
@@ -139,22 +145,63 @@ export default function Scanner() {
             lineWidth: 0.5,
           });
 
-          if (elapsed >= SCAN_DURATION) {
+          if (elapsed >= SCAN_DURATION && !hasProcessedResults) {
+            hasProcessedResults = true;
+            console.log('Processing scan results...', {
+              elapsed,
+              landmarksCount: landmarks.length,
+              videoWidth: video.videoWidth,
+              videoHeight: video.videoHeight,
+            });
+            
             try {
               const analysis = analyzeFace(results);
+              console.log('Analysis complete:', {
+                metricsCount: Object.keys(analysis.metrics).length,
+                baselineType: analysis.baseline.baselineType,
+              });
+              
               setResults({
                 landmarks: analysis.landmarks,
                 metrics: analysis.metrics,
-                demographic: analysis.demographic,
+                baseline: analysis.baseline,
+                videoDimensions: {
+                  width: video.videoWidth,
+                  height: video.videoHeight,
+                },
               });
-              setScanComplete(true);
+              
+              setTimeout(() => {
+                setScanComplete(true);
+                setScanning(false);
+                setScanProgress(0);
+              }, 100);
+              
+              ctx.restore();
+              return;
+            } catch (err: any) {
+              console.error('Analysis error:', err);
+              console.error('Error details:', {
+                message: err?.message,
+                stack: err?.stack,
+                results: results?.faceLandmarks?.length,
+                landmarksLength: landmarks?.length,
+              });
+              setError(`Failed to process scan: ${err?.message || 'Unknown error'}`);
               setScanning(false);
               setScanProgress(0);
+              hasProcessedResults = false;
+              ctx.restore();
               return;
-            } catch (err) {
-              console.error('Analysis error:', err);
             }
           }
+        } else if (elapsed >= SCAN_DURATION && !hasProcessedResults) {
+          hasProcessedResults = true;
+          setError('No face detected during scan. Please try again.');
+          setScanning(false);
+          setScanProgress(0);
+          ctx.restore();
+          return;
         }
       }
 
@@ -214,7 +261,7 @@ export default function Scanner() {
         {isScanning && (
           <div className="absolute top-4 left-4 glass px-4 py-2 rounded border border-primary/50">
             <p className="text-sm text-primary text-glow animate-pulse-glow">
-              SCANNING... {scanProgress}%
+              {scanProgress < 100 ? `SCANNING... ${scanProgress}%` : 'PROCESSING DATA...'}
             </p>
           </div>
         )}

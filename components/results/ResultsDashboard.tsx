@@ -6,42 +6,42 @@ import { motion } from 'framer-motion';
 import { Activity, TrendingUp } from 'lucide-react';
 
 export default function ResultsDashboard() {
-  const { metrics, demographic } = useAppStore();
+  const { metrics, baseline } = useAppStore();
 
-  if (!metrics || !demographic) {
+  if (!metrics || !baseline) {
     return null;
   }
 
   const metricConfigs = [
     {
-      label: 'Canthal Tilt',
+      label: 'Orbital Vector',
       value: metrics.canthalTilt,
-      ideal: demographic.idealCanthalTilt,
-      term: 'Orbital Vector',
+      ideal: baseline.idealCanthalTilt,
+      term: 'Canthal Tilt',
     },
     {
-      label: 'fWHR',
+      label: 'Mandibular Width',
       value: metrics.fwhr,
-      ideal: demographic.idealFwhr * 50,
-      term: 'Maxillary Prominence',
+      ideal: baseline.idealFwhr * 50,
+      term: 'fWHR',
     },
     {
       label: 'Midface Ratio',
       value: metrics.midfaceRatio,
-      ideal: demographic.idealMidfaceRatio * 100,
+      ideal: baseline.idealMidfaceRatio * 100,
       term: 'Zygomatic Width',
     },
     {
-      label: 'Jawline Definition',
+      label: 'Gonial Angle',
       value: metrics.jawlineDefinition,
-      ideal: demographic.idealJawlineDefinition,
-      term: 'Gonial Angle',
+      ideal: baseline.idealJawlineDefinition,
+      term: 'Jawline Definition',
     },
     {
-      label: 'Skin Smoothness',
+      label: 'Dermal Integrity',
       value: metrics.skinSmoothness,
       ideal: 85,
-      term: 'Dermal Integrity',
+      term: 'Skin Smoothness',
     },
   ];
 
@@ -90,7 +90,7 @@ export default function ResultsDashboard() {
         <div className="flex items-center gap-2 text-sm text-primary/70">
           <TrendingUp className="w-4 h-4" />
           <span>
-            Calibrated against {demographic.ethnicity} aesthetic benchmarks
+            Structural Baseline: Optimized
           </span>
         </div>
       </div>

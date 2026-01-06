@@ -8,8 +8,8 @@ export interface FacialMetrics {
   skinSmoothness: number;
 }
 
-export interface DemographicData {
-  ethnicity: string;
+export interface BaselineData {
+  baselineType: 'type_a' | 'type_b' | 'type_c';
   idealCanthalTilt: number;
   idealFwhr: number;
   idealMidfaceRatio: number;
@@ -40,92 +40,111 @@ function calculateAngle(
   return (angle * 180) / Math.PI;
 }
 
-function detectDemographic(landmarks: any[]): DemographicData {
-  const noseTip = landmarks[4];
-  const noseLeft = landmarks[131];
-  const noseRight = landmarks[360];
-  const leftEyeInner = landmarks[33];
-  const rightEyeInner = landmarks[263];
-  const leftEyeOuter = landmarks[7];
-  const rightEyeOuter = landmarks[249];
-
-  const nasalWidth = calculateDistance(noseLeft, noseRight);
-  const nasalHeight = Math.abs(noseTip.y - (noseLeft.y + noseRight.y) / 2);
-  const nasalIndex = nasalWidth / nasalHeight;
-
-  const intercanthalDistance = calculateDistance(leftEyeInner, rightEyeInner);
-  const eyeWidth = calculateDistance(leftEyeOuter, rightEyeOuter);
-  const intercanthalRatio = intercanthalDistance / eyeWidth;
-
-  let ethnicity = 'White';
-  
-  if (nasalIndex > 0.7 && intercanthalRatio < 0.4) {
-    ethnicity = 'Asian';
-  } else if (nasalIndex > 0.8) {
-    ethnicity = 'Black';
-  } else if (nasalIndex < 0.6 && intercanthalRatio > 0.45) {
-    ethnicity = 'White';
+function calculateDemographicBaseline(landmarks: any[]): BaselineData {
+  if (!landmarks || landmarks.length < 400) {
+    return {
+      baselineType: 'type_a',
+      idealCanthalTilt: 8,
+      idealFwhr: 1.80,
+      idealMidfaceRatio: 1.0,
+      idealJawlineDefinition: 80,
+    };
   }
 
-  const idealMetrics: Record<string, DemographicData> = {
-    Asian: {
-      ethnicity: 'Asian',
-      idealCanthalTilt: 5,
-      idealFwhr: 1.85,
-      idealMidfaceRatio: 0.95,
-      idealJawlineDefinition: 75,
-    },
-    Black: {
-      ethnicity: 'Black',
-      idealCanthalTilt: 2,
-      idealFwhr: 1.95,
-      idealMidfaceRatio: 0.90,
-      idealJawlineDefinition: 70,
-    },
-    White: {
-      ethnicity: 'White',
+  const leftEyeInner = landmarks[33];
+  const rightEyeInner = landmarks[263];
+  const noseTip1 = landmarks[1];
+  const noseTip2 = landmarks[2];
+
+  if (!leftEyeInner || !rightEyeInner || !noseTip1 || !noseTip2) {
+    return {
+      baselineType: 'type_a',
+      idealCanthalTilt: 8,
+      idealFwhr: 1.80,
+      idealMidfaceRatio: 1.0,
+      idealJawlineDefinition: 80,
+    };
+  }
+
+  const intercanthalDistance = calculateDistance(leftEyeInner, rightEyeInner);
+  const nasalWidth = calculateDistance(noseTip1, noseTip2);
+  
+  const nasalIndex = nasalWidth / (intercanthalDistance || 0.001);
+  const intercanthalRatio = intercanthalDistance / (calculateDistance(landmarks[7] || leftEyeInner, landmarks[249] || rightEyeInner) || 0.001);
+
+  let baselineType: 'type_a' | 'type_b' | 'type_c' = 'type_a';
+  
+  if (nasalIndex < 0.55 && intercanthalRatio > 0.45) {
+    baselineType = 'type_a';
+  } else if (nasalIndex > 0.7 && intercanthalRatio < 0.4) {
+    baselineType = 'type_b';
+  } else if (nasalIndex > 0.75) {
+    baselineType = 'type_c';
+  }
+
+  const idealMetrics: Record<string, BaselineData> = {
+    type_a: {
+      baselineType: 'type_a',
       idealCanthalTilt: 8,
       idealFwhr: 1.80,
       idealMidfaceRatio: 1.0,
       idealJawlineDefinition: 80,
     },
+    type_b: {
+      baselineType: 'type_b',
+      idealCanthalTilt: 5,
+      idealFwhr: 1.85,
+      idealMidfaceRatio: 0.95,
+      idealJawlineDefinition: 75,
+    },
+    type_c: {
+      baselineType: 'type_c',
+      idealCanthalTilt: 2,
+      idealFwhr: 1.95,
+      idealMidfaceRatio: 0.90,
+      idealJawlineDefinition: 70,
+    },
   };
 
-  return idealMetrics[ethnicity] || idealMetrics['White'];
+  return idealMetrics[baselineType] || idealMetrics['type_a'];
 }
 
 export function calculateCanthalTilt(landmarks: any[]): number {
   const leftEyeInner = landmarks[33];
-  const leftEyeOuter = landmarks[7];
-  const rightEyeInner = landmarks[263];
-  const rightEyeOuter = landmarks[249];
+  const leftEyeOuter = landmarks[133];
 
-  const leftAngle = Math.atan2(
+  if (!leftEyeInner || !leftEyeOuter) {
+    return 50;
+  }
+
+  const angle = Math.atan2(
     leftEyeOuter.y - leftEyeInner.y,
     leftEyeOuter.x - leftEyeInner.x
   );
-  const rightAngle = Math.atan2(
-    rightEyeOuter.y - rightEyeInner.y,
-    rightEyeOuter.x - rightEyeInner.x
-  );
 
-  const avgAngle = ((leftAngle + rightAngle) / 2) * (180 / Math.PI);
+  const angleDegrees = angle * (180 / Math.PI);
   
   const idealTilt = 8;
-  const deviation = Math.abs(avgAngle - idealTilt);
+  const deviation = Math.abs(angleDegrees - idealTilt);
   const score = Math.max(0, 100 - deviation * 5);
   
   return Math.min(100, Math.max(0, score));
 }
 
 export function calculateFwhr(landmarks: any[]): number {
-  const leftCheek = landmarks[234];
-  const rightCheek = landmarks[454];
+  const leftJaw = landmarks[172];
+  const rightJaw = landmarks[397];
   const foreheadTop = landmarks[10];
-  const chinBottom = landmarks[175];
+  const chinBottom = landmarks[164];
 
-  const faceWidth = calculateDistance(leftCheek, rightCheek);
+  if (!leftJaw || !rightJaw || !foreheadTop || !chinBottom) {
+    return 50;
+  }
+
+  const faceWidth = calculateDistance(leftJaw, rightJaw);
   const faceHeight = Math.abs(foreheadTop.y - chinBottom.y);
+
+  if (faceHeight === 0) return 50;
 
   const fwhr = faceWidth / faceHeight;
   
@@ -156,14 +175,16 @@ export function calculateMidfaceRatio(landmarks: any[]): number {
 }
 
 export function calculateJawlineDefinition(landmarks: any[]): number {
+  const chin = landmarks[152];
   const leftGonial = landmarks[172];
-  const rightGonial = landmarks[397];
-  const chin = landmarks[175];
-  const leftCheek = landmarks[234];
-  const rightCheek = landmarks[454];
+  const foreheadTop = landmarks[10];
 
-  const leftAngle = calculateAngle(leftGonial, chin, leftCheek);
-  const rightAngle = calculateAngle(rightGonial, chin, rightCheek);
+  if (!chin || !leftGonial || !foreheadTop) {
+    return 50;
+  }
+
+  const leftAngle = calculateAngle(leftGonial, chin, foreheadTop);
+  const rightAngle = calculateAngle(landmarks[397] || leftGonial, chin, foreheadTop);
   const avgAngle = (leftAngle + rightAngle) / 2;
 
   const idealAngle = 120;
@@ -190,7 +211,7 @@ export function calculateSkinSmoothness(landmarks: any[]): number {
 
 export function analyzeFace(result: FaceLandmarkerResult): {
   metrics: FacialMetrics;
-  demographic: DemographicData;
+  baseline: BaselineData;
   landmarks: any[];
 } {
   if (!result.faceLandmarks || result.faceLandmarks.length === 0) {
@@ -199,7 +220,7 @@ export function analyzeFace(result: FaceLandmarkerResult): {
 
   const landmarks = result.faceLandmarks[0];
 
-  const demographic = detectDemographic(landmarks);
+  const baseline = calculateDemographicBaseline(landmarks);
 
   const metrics: FacialMetrics = {
     canthalTilt: calculateCanthalTilt(landmarks),
@@ -209,6 +230,6 @@ export function analyzeFace(result: FaceLandmarkerResult): {
     skinSmoothness: calculateSkinSmoothness(landmarks),
   };
 
-  return { metrics, demographic, landmarks };
+  return { metrics, baseline, landmarks };
 }
 

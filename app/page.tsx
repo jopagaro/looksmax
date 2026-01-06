@@ -14,7 +14,9 @@ export default function Home() {
   const { scanComplete, reset } = useAppStore();
 
   useEffect(() => {
-    document.body.classList.add('dark');
+    if (typeof document !== 'undefined') {
+      document.body.classList.add('dark');
+    }
   }, []);
 
   return (
