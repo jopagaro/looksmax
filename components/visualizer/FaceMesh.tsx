@@ -26,18 +26,27 @@ export default function FaceMesh({ landmarks }: FaceMeshProps) {
       positions[i * 3 + 2] = landmark.z * scale;
     });
 
-    const tesselation = FaceLandmarker.FACE_LANDMARKS_TESSELATION;
-    if (!tesselation || tesselation.length === 0) {
-      return null;
+    let tesselation: any[] = [];
+    try {
+      tesselation = FaceLandmarker.FACE_LANDMARKS_TESSELATION || [];
+    } catch (e) {
+      console.warn('Could not access FACE_LANDMARKS_TESSELATION, using fallback connections');
     }
 
     const lineIndices: number[] = [];
-    for (let i = 0; i < tesselation.length; i++) {
-      const connection = tesselation[i] as any;
-      if (connection && typeof connection.start === 'number' && typeof connection.end === 'number') {
-        if (connection.start < landmarks.length && connection.end < landmarks.length) {
-          lineIndices.push(connection.start, connection.end);
+    
+    if (tesselation && tesselation.length > 0) {
+      for (let i = 0; i < tesselation.length; i++) {
+        const connection = tesselation[i] as any;
+        if (connection && typeof connection.start === 'number' && typeof connection.end === 'number') {
+          if (connection.start < landmarks.length && connection.end < landmarks.length) {
+            lineIndices.push(connection.start, connection.end);
+          }
         }
+      }
+    } else {
+      for (let i = 0; i < landmarks.length - 1; i++) {
+        lineIndices.push(i, i + 1);
       }
     }
 

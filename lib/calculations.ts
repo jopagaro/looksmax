@@ -6,6 +6,12 @@ export interface FacialMetrics {
   midfaceRatio: number;
   jawlineDefinition: number;
   skinSmoothness: number;
+  actualMeasurements: {
+    canthalTiltDegrees: number;
+    fwhrValue: number;
+    midfaceRatioValue: number;
+    jawlineAngle: number;
+  };
 }
 
 export interface BaselineData {
@@ -70,7 +76,10 @@ function calculateDemographicBaseline(landmarks: any[]): BaselineData {
   const nasalWidth = calculateDistance(noseTip1, noseTip2);
   
   const nasalIndex = nasalWidth / (intercanthalDistance || 0.001);
-  const intercanthalRatio = intercanthalDistance / (calculateDistance(landmarks[7] || leftEyeInner, landmarks[249] || rightEyeInner) || 0.001);
+  const landmark7 = landmarks[7];
+  const landmark249 = landmarks[249];
+  const faceWidth = calculateDistance(landmark7 || leftEyeInner, landmark249 || rightEyeInner);
+  const intercanthalRatio = intercanthalDistance / (faceWidth || 0.001);
 
   let baselineType: 'type_a' | 'type_b' | 'type_c' = 'type_a';
   
@@ -109,12 +118,12 @@ function calculateDemographicBaseline(landmarks: any[]): BaselineData {
   return idealMetrics[baselineType] || idealMetrics['type_a'];
 }
 
-export function calculateCanthalTilt(landmarks: any[]): number {
+export function calculateCanthalTilt(landmarks: any[]): { score: number; actualDegrees: number } {
   const leftEyeInner = landmarks[33];
   const leftEyeOuter = landmarks[133];
 
   if (!leftEyeInner || !leftEyeOuter) {
-    return 50;
+    return { score: 50, actualDegrees: 0 };
   }
 
   const angle = Math.atan2(
@@ -128,23 +137,23 @@ export function calculateCanthalTilt(landmarks: any[]): number {
   const deviation = Math.abs(angleDegrees - idealTilt);
   const score = Math.max(0, 100 - deviation * 5);
   
-  return Math.min(100, Math.max(0, score));
+  return { score: Math.min(100, Math.max(0, score)), actualDegrees: Math.round(angleDegrees * 10) / 10 };
 }
 
-export function calculateFwhr(landmarks: any[]): number {
+export function calculateFwhr(landmarks: any[]): { score: number; actualValue: number } {
   const leftJaw = landmarks[172];
   const rightJaw = landmarks[397];
   const foreheadTop = landmarks[10];
   const chinBottom = landmarks[164];
 
   if (!leftJaw || !rightJaw || !foreheadTop || !chinBottom) {
-    return 50;
+    return { score: 50, actualValue: 0 };
   }
 
   const faceWidth = calculateDistance(leftJaw, rightJaw);
   const faceHeight = Math.abs(foreheadTop.y - chinBottom.y);
 
-  if (faceHeight === 0) return 50;
+  if (faceHeight === 0) return { score: 50, actualValue: 0 };
 
   const fwhr = faceWidth / faceHeight;
   
@@ -152,18 +161,24 @@ export function calculateFwhr(landmarks: any[]): number {
   const deviation = Math.abs(fwhr - idealFwhr);
   const score = Math.max(0, 100 - deviation * 50);
   
-  return Math.min(100, Math.max(0, score));
+  return { score: Math.min(100, Math.max(0, score)), actualValue: Math.round(fwhr * 100) / 100 };
 }
 
-export function calculateMidfaceRatio(landmarks: any[]): number {
+export function calculateMidfaceRatio(landmarks: any[]): { score: number; actualValue: number } {
   const leftEyeInner = landmarks[33];
   const rightEyeInner = landmarks[263];
   const upperLip = landmarks[13];
+
+  if (!leftEyeInner || !rightEyeInner || !upperLip) {
+    return { score: 50, actualValue: 0 };
+  }
 
   const eyeDistance = calculateDistance(leftEyeInner, rightEyeInner);
   const midfaceHeight = Math.abs(
     (leftEyeInner.y + rightEyeInner.y) / 2 - upperLip.y
   );
+
+  if (midfaceHeight === 0) return { score: 50, actualValue: 0 };
 
   const ratio = eyeDistance / midfaceHeight;
   
@@ -171,33 +186,38 @@ export function calculateMidfaceRatio(landmarks: any[]): number {
   const deviation = Math.abs(ratio - idealRatio);
   const score = Math.max(0, 100 - deviation * 100);
   
-  return Math.min(100, Math.max(0, score));
+  return { score: Math.min(100, Math.max(0, score)), actualValue: Math.round(ratio * 100) / 100 };
 }
 
-export function calculateJawlineDefinition(landmarks: any[]): number {
+export function calculateJawlineDefinition(landmarks: any[]): { score: number; actualAngle: number } {
   const chin = landmarks[152];
   const leftGonial = landmarks[172];
+  const rightGonial = landmarks[397];
   const foreheadTop = landmarks[10];
 
   if (!chin || !leftGonial || !foreheadTop) {
-    return 50;
+    return { score: 50, actualAngle: 0 };
   }
 
   const leftAngle = calculateAngle(leftGonial, chin, foreheadTop);
-  const rightAngle = calculateAngle(landmarks[397] || leftGonial, chin, foreheadTop);
+  const rightAngle = calculateAngle(rightGonial || leftGonial, chin, foreheadTop);
   const avgAngle = (leftAngle + rightAngle) / 2;
 
   const idealAngle = 120;
   const deviation = Math.abs(avgAngle - idealAngle);
   const score = Math.max(0, 100 - deviation * 2);
   
-  return Math.min(100, Math.max(0, score));
+  return { score: Math.min(100, Math.max(0, score)), actualAngle: Math.round(avgAngle * 10) / 10 };
 }
 
 export function calculateSkinSmoothness(landmarks: any[]): number {
   const leftCheek = landmarks[234];
   const rightCheek = landmarks[454];
   
+  if (!leftCheek || !rightCheek) {
+    return 50;
+  }
+
   const cheekArea = {
     left: { x: leftCheek.x - 0.05, y: leftCheek.y - 0.05 },
     right: { x: rightCheek.x + 0.05, y: rightCheek.y - 0.05 },
@@ -222,12 +242,23 @@ export function analyzeFace(result: FaceLandmarkerResult): {
 
   const baseline = calculateDemographicBaseline(landmarks);
 
+  const canthalTiltResult = calculateCanthalTilt(landmarks);
+  const fwhrResult = calculateFwhr(landmarks);
+  const midfaceRatioResult = calculateMidfaceRatio(landmarks);
+  const jawlineResult = calculateJawlineDefinition(landmarks);
+
   const metrics: FacialMetrics = {
-    canthalTilt: calculateCanthalTilt(landmarks),
-    fwhr: calculateFwhr(landmarks),
-    midfaceRatio: calculateMidfaceRatio(landmarks),
-    jawlineDefinition: calculateJawlineDefinition(landmarks),
+    canthalTilt: canthalTiltResult.score,
+    fwhr: fwhrResult.score,
+    midfaceRatio: midfaceRatioResult.score,
+    jawlineDefinition: jawlineResult.score,
     skinSmoothness: calculateSkinSmoothness(landmarks),
+    actualMeasurements: {
+      canthalTiltDegrees: canthalTiltResult.actualDegrees,
+      fwhrValue: fwhrResult.actualValue,
+      midfaceRatioValue: midfaceRatioResult.actualValue,
+      jawlineAngle: jawlineResult.actualAngle,
+    },
   };
 
   return { metrics, baseline, landmarks };

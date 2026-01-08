@@ -14,34 +14,42 @@ export default function ResultsDashboard() {
 
   const metricConfigs = [
     {
-      label: 'Orbital Vector',
+      label: 'Canthal Tilt',
       value: metrics.canthalTilt,
-      ideal: baseline.idealCanthalTilt,
-      term: 'Canthal Tilt',
+      ideal: 85,
+      actualValue: metrics.actualMeasurements.canthalTiltDegrees,
+      unit: '°',
+      term: 'Eye Angle',
     },
     {
-      label: 'Mandibular Width',
+      label: 'Face Width-to-Height Ratio',
       value: metrics.fwhr,
-      ideal: baseline.idealFwhr * 50,
+      ideal: 85,
+      actualValue: metrics.actualMeasurements.fwhrValue,
+      unit: '',
       term: 'fWHR',
     },
     {
       label: 'Midface Ratio',
       value: metrics.midfaceRatio,
-      ideal: baseline.idealMidfaceRatio * 100,
-      term: 'Zygomatic Width',
+      ideal: 85,
+      actualValue: metrics.actualMeasurements.midfaceRatioValue,
+      unit: '',
+      term: 'Eye-to-Mouth Ratio',
     },
     {
-      label: 'Gonial Angle',
+      label: 'Jawline Angle',
       value: metrics.jawlineDefinition,
-      ideal: baseline.idealJawlineDefinition,
-      term: 'Jawline Definition',
+      ideal: 85,
+      actualValue: metrics.actualMeasurements.jawlineAngle,
+      unit: '°',
+      term: 'Gonial Angle',
     },
     {
-      label: 'Dermal Integrity',
+      label: 'Skin Quality',
       value: metrics.skinSmoothness,
       ideal: 85,
-      term: 'Skin Smoothness',
+      term: 'Dermal Integrity',
     },
   ];
 
@@ -77,9 +85,11 @@ export default function ResultsDashboard() {
               transition={{ delay: index * 0.1 }}
             >
               <MetricBar
-                label={`${config.label} (${config.term})`}
+                label={config.label}
                 value={config.value}
                 ideal={config.ideal}
+                actualValue={config.actualValue}
+                unit={config.unit}
                 delay={index * 100}
               />
             </motion.div>

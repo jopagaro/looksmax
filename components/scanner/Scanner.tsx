@@ -1,10 +1,11 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { FaceLandmarker, FilesetResolver, DrawingUtils } from '@mediapipe/tasks-vision';
+import { FaceLandmarker, FilesetResolver, DrawingUtils, FaceLandmarkerResult } from '@mediapipe/tasks-vision';
 import { useAppStore } from '@/lib/store';
 import { analyzeFace } from '@/lib/calculations';
-import { Scan } from 'lucide-react';
+import { aggregateLandmarks, filterLandmarksByPose } from '@/lib/aggregateLandmarks';
+import { Scan, RotateCw } from 'lucide-react';
 
 export default function Scanner() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -12,9 +13,11 @@ export default function Scanner() {
   const [isInitialized, setIsInitialized] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [scanProgress, setScanProgress] = useState(0);
+  const [scanPhase, setScanPhase] = useState<'idle' | 'scanning' | 'processing'>('idle');
   const faceLandmarkerRef = useRef<FaceLandmarker | null>(null);
   const drawingUtilsRef = useRef<DrawingUtils | null>(null);
   const animationFrameRef = useRef<number | null>(null);
+  const collectedLandmarksRef = useRef<{ landmarks: any[]; timestamp: number }[]>([]);
 
   const { isScanning, setScanning, setResults, setScanComplete } = useAppStore();
 
@@ -102,7 +105,11 @@ export default function Scanner() {
     let lastVideoTime = -1;
     let scanStartTime: number | null = null;
     let hasProcessedResults = false;
-    const SCAN_DURATION = 5000;
+    let lastSampleTime = 0;
+    const SCAN_DURATION = 8000;
+    const SAMPLE_INTERVAL = 200;
+    collectedLandmarksRef.current = [];
+    let lastGoodLandmarks: any[] | null = null;
 
     function processFrame() {
       if (!video || video.readyState !== video.HAVE_ENOUGH_DATA || !ctx || !faceLandmarker || !drawingUtils) {
@@ -123,6 +130,17 @@ export default function Scanner() {
       const progress = Math.min(100, Math.floor((elapsed / SCAN_DURATION) * 100));
       setScanProgress(progress);
 
+      const phaseProgress = (elapsed / SCAN_DURATION) * 100;
+      if (phaseProgress < 25) {
+        setScanPhase('scanning');
+      } else if (phaseProgress < 50) {
+        setScanPhase('scanning');
+      } else if (phaseProgress < 75) {
+        setScanPhase('scanning');
+      } else {
+        setScanPhase('scanning');
+      }
+
       ctx.save();
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
@@ -136,6 +154,16 @@ export default function Scanner() {
 
         if (results.faceLandmarks && results.faceLandmarks.length > 0) {
           const landmarks = results.faceLandmarks[0];
+          lastGoodLandmarks = landmarks;
+          
+          if (elapsed - lastSampleTime >= SAMPLE_INTERVAL && elapsed < SCAN_DURATION) {
+            collectedLandmarksRef.current.push({
+              landmarks: landmarks.map((l: any) => ({ x: l.x, y: l.y, z: l.z || 0 })),
+              timestamp: currentTime,
+            });
+            lastSampleTime = elapsed;
+          }
+
           drawingUtils.drawLandmarks(landmarks, {
             radius: 1,
             color: '#00E5FF',
@@ -147,22 +175,72 @@ export default function Scanner() {
 
           if (elapsed >= SCAN_DURATION && !hasProcessedResults) {
             hasProcessedResults = true;
+            setScanPhase('processing');
+            
             console.log('Processing scan results...', {
               elapsed,
+              samplesCollected: collectedLandmarksRef.current.length,
               landmarksCount: landmarks.length,
               videoWidth: video.videoWidth,
               videoHeight: video.videoHeight,
             });
             
             try {
-              const analysis = analyzeFace(results);
+              let landmarksToUse: any[];
+              
+              if (collectedLandmarksRef.current.length > 0) {
+                const filteredLandmarks = filterLandmarksByPose(collectedLandmarksRef.current, 60, 40);
+                
+                if (filteredLandmarks.length > 0) {
+                  const aggregatedLandmarks = aggregateLandmarks(filteredLandmarks);
+                  landmarksToUse = aggregatedLandmarks.map(l => ({
+                    x: l.x,
+                    y: l.y,
+                    z: l.z || 0,
+                    visibility: 1.0,
+                  }));
+                  
+                  console.log('Using aggregated landmarks:', {
+                    sampleCount: filteredLandmarks.length,
+                    aggregatedCount: aggregatedLandmarks.length,
+                  });
+                } else {
+                  console.warn('Pose filtering removed all samples, using all collected samples');
+                  const aggregatedLandmarks = aggregateLandmarks(
+                    collectedLandmarksRef.current.map(s => s.landmarks)
+                  );
+                  landmarksToUse = aggregatedLandmarks.map(l => ({
+                    x: l.x,
+                    y: l.y,
+                    z: l.z || 0,
+                    visibility: 1.0,
+                  }));
+                }
+              } else if (lastGoodLandmarks) {
+                console.warn('No collected samples, using last detected landmarks');
+                landmarksToUse = lastGoodLandmarks.map((l: any) => ({
+                  x: l.x,
+                  y: l.y,
+                  z: l.z || 0,
+                  visibility: l.visibility || 1.0,
+                }));
+              } else {
+                throw new Error('No face detected during scan. Please try again.');
+              }
+
+              const aggregatedResults: FaceLandmarkerResult = {
+                ...results,
+                faceLandmarks: [landmarksToUse],
+              };
+
+              const analysis = analyzeFace(aggregatedResults);
               console.log('Analysis complete:', {
                 metricsCount: Object.keys(analysis.metrics).length,
                 baselineType: analysis.baseline.baselineType,
               });
               
               setResults({
-                landmarks: analysis.landmarks,
+                landmarks: landmarksToUse,
                 metrics: analysis.metrics,
                 baseline: analysis.baseline,
                 videoDimensions: {
@@ -175,6 +253,8 @@ export default function Scanner() {
                 setScanComplete(true);
                 setScanning(false);
                 setScanProgress(0);
+                setScanPhase('idle');
+                collectedLandmarksRef.current = [];
               }, 100);
               
               ctx.restore();
@@ -186,10 +266,13 @@ export default function Scanner() {
                 stack: err?.stack,
                 results: results?.faceLandmarks?.length,
                 landmarksLength: landmarks?.length,
+                samplesCollected: collectedLandmarksRef.current.length,
               });
               setError(`Failed to process scan: ${err?.message || 'Unknown error'}`);
               setScanning(false);
               setScanProgress(0);
+              setScanPhase('idle');
+              collectedLandmarksRef.current = [];
               hasProcessedResults = false;
               ctx.restore();
               return;
@@ -197,9 +280,59 @@ export default function Scanner() {
           }
         } else if (elapsed >= SCAN_DURATION && !hasProcessedResults) {
           hasProcessedResults = true;
-          setError('No face detected during scan. Please try again.');
-          setScanning(false);
-          setScanProgress(0);
+          
+          if (lastGoodLandmarks && collectedLandmarksRef.current.length > 0) {
+            try {
+              setScanPhase('processing');
+              
+              const aggregatedLandmarks = aggregateLandmarks(
+                collectedLandmarksRef.current.map(s => s.landmarks)
+              );
+              
+              const landmarksToUse = aggregatedLandmarks.map(l => ({
+                x: l.x,
+                y: l.y,
+                z: l.z || 0,
+                visibility: 1.0,
+              }));
+
+              const aggregatedResults: FaceLandmarkerResult = {
+                ...results,
+                faceLandmarks: [landmarksToUse],
+              };
+
+              const analysis = analyzeFace(aggregatedResults);
+              
+              setResults({
+                landmarks: landmarksToUse,
+                metrics: analysis.metrics,
+                baseline: analysis.baseline,
+                videoDimensions: {
+                  width: video.videoWidth,
+                  height: video.videoHeight,
+                },
+              });
+              
+              setTimeout(() => {
+                setScanComplete(true);
+                setScanning(false);
+                setScanProgress(0);
+                setScanPhase('idle');
+                collectedLandmarksRef.current = [];
+              }, 100);
+            } catch (err: any) {
+              console.error('Fallback processing error:', err);
+              setError('Failed to process scan. Please try again.');
+              setScanning(false);
+              setScanProgress(0);
+              setScanPhase('idle');
+            }
+          } else {
+            setError('No face detected during scan. Please ensure your face is visible and try again.');
+            setScanning(false);
+            setScanProgress(0);
+            setScanPhase('idle');
+          }
           ctx.restore();
           return;
         }
@@ -223,6 +356,9 @@ export default function Scanner() {
     setScanning(true);
     setScanComplete(false);
     setScanProgress(0);
+    setScanPhase('scanning');
+    setError(null);
+    collectedLandmarksRef.current = [];
   };
 
   if (error) {
@@ -242,6 +378,7 @@ export default function Scanner() {
           playsInline
           muted
           className="w-full h-full object-cover"
+          style={{ minHeight: '500px' }}
         />
         <canvas
           ref={canvasRef}
@@ -259,11 +396,40 @@ export default function Scanner() {
           </div>
         )}
         {isScanning && (
-          <div className="absolute top-4 left-4 glass px-4 py-2 rounded border border-primary/50">
-            <p className="text-sm text-primary text-glow animate-pulse-glow">
-              {scanProgress < 100 ? `SCANNING... ${scanProgress}%` : 'PROCESSING DATA...'}
-            </p>
-          </div>
+          <>
+            <div className="absolute top-4 left-4 glass px-4 py-2 rounded border border-primary/50 z-20 backdrop-blur-md">
+              <p className="text-sm text-primary text-glow animate-pulse-glow font-mono">
+                {scanPhase === 'processing' 
+                  ? 'PROCESSING DATA...' 
+                  : `SCANNING... ${scanProgress}%`}
+              </p>
+            </div>
+            <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 pointer-events-none z-10">
+              <div className="glass-strong rounded-lg px-6 py-3 border border-primary/50 backdrop-blur-md">
+                <div className="flex items-center gap-3">
+                  <RotateCw 
+                    className="w-5 h-5 text-primary animate-spin" 
+                    style={{ animationDuration: '2s' }}
+                  />
+                  <div className="text-center">
+                    <p className="text-sm font-semibold text-primary text-glow font-mono">
+                      MOVE YOUR FACE IN A CIRCLE
+                    </p>
+                    <div className="relative w-20 h-20 mx-auto mt-2">
+                      <div className="absolute inset-0 border-2 border-primary/40 rounded-full" />
+                      <div 
+                        className="absolute top-0 left-1/2 w-1.5 h-1.5 bg-primary rounded-full"
+                        style={{
+                          transform: `translateX(-50%) rotate(${scanProgress * 3.6}deg) translateY(40px)`,
+                          transition: 'transform 0.1s linear',
+                        }}
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </>
         )}
       </div>
     </div>
