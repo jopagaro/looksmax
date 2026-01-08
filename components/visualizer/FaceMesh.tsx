@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef, useMemo } from 'react';
+import { useRef, useMemo, useEffect } from 'react';
 import { useFrame } from '@react-three/fiber';
 import * as THREE from 'three';
 import { FaceLandmarker } from '@mediapipe/tasks-vision';
@@ -11,6 +11,14 @@ interface FaceMeshProps {
 
 export default function FaceMesh({ landmarks }: FaceMeshProps) {
   const meshRef = useRef<THREE.Mesh>(null);
+  
+  useEffect(() => {
+    if (meshRef.current) {
+      meshRef.current.rotation.x = 0;
+      meshRef.current.rotation.y = 0;
+      meshRef.current.rotation.z = 0;
+    }
+  }, [landmarks]);
 
   const geometry = useMemo(() => {
     if (!landmarks || landmarks.length === 0) {
@@ -74,10 +82,9 @@ export default function FaceMesh({ landmarks }: FaceMeshProps) {
     []
   );
 
-  useFrame((state) => {
+  useFrame((state, delta) => {
     if (meshRef.current) {
-      meshRef.current.rotation.y = state.mouse.x * 0.5;
-      meshRef.current.rotation.x = state.mouse.y * 0.3;
+      meshRef.current.rotation.y += delta * 0.3;
     }
   });
 

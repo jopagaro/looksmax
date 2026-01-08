@@ -21,42 +21,45 @@ export function transformLandmarksFor3D(
     return [];
   }
 
-  const NOSE_TIP_INDEX = 1;
   const aspectRatio = videoDimensions.height / videoDimensions.width;
   
-  const noseTip = landmarks[NOSE_TIP_INDEX] || landmarks[0];
-  if (!noseTip) return [];
-
-  const noseTipX = noseTip.x;
-  const noseTipY = noseTip.y;
-  const noseTipZ = noseTip.z || 0;
-
-  let minZ = Infinity;
-  let maxZ = -Infinity;
+  let minX = Infinity, maxX = -Infinity;
+  let minY = Infinity, maxY = -Infinity;
+  let minZ = Infinity, maxZ = -Infinity;
   
   landmarks.forEach((landmark) => {
-    if (landmark && typeof landmark.z === 'number') {
-      const z = landmark.z - noseTipZ;
+    if (landmark && typeof landmark.x === 'number' && typeof landmark.y === 'number') {
+      minX = Math.min(minX, landmark.x);
+      maxX = Math.max(maxX, landmark.x);
+      minY = Math.min(minY, landmark.y);
+      maxY = Math.max(maxY, landmark.y);
+      const z = landmark.z || 0;
       minZ = Math.min(minZ, z);
       maxZ = Math.max(maxZ, z);
     }
   });
 
-  const zRange = maxZ - minZ || 0.1;
-  const depthScale = Math.max(1.5, Math.min(3.0, 0.3 / zRange));
+  const centerX = (minX + maxX) / 2;
+  const centerY = (minY + maxY) / 2;
+  const centerZ = (minZ + maxZ) / 2;
+
+  const xRange = maxX - minX || 0.001;
+  const yRange = maxY - minY || 0.001;
+  const zRange = Math.abs(maxZ - minZ) || 0.001;
+  
+  const maxXYRange = Math.max(xRange, yRange * aspectRatio);
+  
+  const scale = 1.0;
+  const zScale = (maxXYRange / zRange) * 0.8;
 
   return landmarks.map((landmark) => {
     if (!landmark || typeof landmark.x !== 'number' || typeof landmark.y !== 'number') {
       return { x: 0, y: 0, z: 0 };
     }
 
-    const normalizedX = landmark.x - noseTipX;
-    const normalizedY = (landmark.y - noseTipY) * aspectRatio;
-    const normalizedZ = ((landmark.z || 0) - noseTipZ) * depthScale;
-
-    const x = normalizedX - 0.5;
-    const y = normalizedY - 0.5;
-    const z = normalizedZ;
+    const x = (landmark.x - centerX) * scale;
+    const y = ((landmark.y - centerY) * aspectRatio) * scale;
+    const z = ((landmark.z || 0) - centerZ) * zScale;
 
     return { x, y, z };
   });
