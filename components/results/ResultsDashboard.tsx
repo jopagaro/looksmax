@@ -14,12 +14,28 @@ export default function ResultsDashboard() {
 
   const metricConfigs = [
     {
-      label: 'Canthal Tilt',
-      value: metrics.canthalTilt,
+      label: 'Gonial Sharpness',
+      value: (metrics as any).gonialSharpness ?? metrics.jawlineDefinition,
+      ideal: 85,
+      actualValue: metrics.actualMeasurements.jawlineAngle,
+      unit: '°',
+      term: 'Gonial Angle',
+    },
+    {
+      label: 'Mandibular Plane',
+      value: (metrics as any).mandibularPlane ?? 75,
+      ideal: 85,
+      actualValue: (metrics.actualMeasurements.jawlineAngle - 90).toFixed(1),
+      unit: '°',
+      term: 'Mandibular Angle',
+    },
+    {
+      label: 'Orbital Vector',
+      value: (metrics as any).orbitalVector ?? metrics.canthalTilt,
       ideal: 85,
       actualValue: metrics.actualMeasurements.canthalTiltDegrees,
       unit: '°',
-      term: 'Eye Angle',
+      term: 'Orbital Ratio',
     },
     {
       label: 'Face Width-to-Height Ratio',
@@ -36,20 +52,6 @@ export default function ResultsDashboard() {
       actualValue: metrics.actualMeasurements.midfaceRatioValue,
       unit: '',
       term: 'Eye-to-Mouth Ratio',
-    },
-    {
-      label: 'Jawline Angle',
-      value: metrics.jawlineDefinition,
-      ideal: 85,
-      actualValue: metrics.actualMeasurements.jawlineAngle,
-      unit: '°',
-      term: 'Gonial Angle',
-    },
-    {
-      label: 'Skin Quality',
-      value: metrics.skinSmoothness,
-      ideal: 85,
-      term: 'Dermal Integrity',
     },
   ];
 

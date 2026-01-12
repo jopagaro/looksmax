@@ -1,25 +1,50 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { FaceLandmarker, FilesetResolver, DrawingUtils, FaceLandmarkerResult } from '@mediapipe/tasks-vision';
+import { FaceLandmarker, FilesetResolver, DrawingUtils } from '@mediapipe/tasks-vision';
 import { useAppStore } from '@/lib/store';
-import { analyzeFace } from '@/lib/calculations';
-import { aggregateLandmarks, filterLandmarksByPose } from '@/lib/aggregateLandmarks';
-import { Scan, RotateCw } from 'lucide-react';
+import { aggregateLandmarks } from '@/lib/aggregateLandmarks';
+import { calculateTrueMetrics } from '@/lib/fuseMultiAngleData';
+import { Scan } from 'lucide-react';
+
+type CaptureStep = 'idle' | 'front' | 'rightProfile' | 'leftProfile' | 'processing';
 
 export default function Scanner() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [isInitialized, setIsInitialized] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [scanProgress, setScanProgress] = useState(0);
-  const [scanPhase, setScanPhase] = useState<'idle' | 'scanning' | 'processing'>('idle');
+  const [captureStep, setCaptureStep] = useState<CaptureStep>('idle');
+  const [countdown, setCountdown] = useState(0);
+  const [isCapturing, setIsCapturing] = useState(false);
   const faceLandmarkerRef = useRef<FaceLandmarker | null>(null);
   const drawingUtilsRef = useRef<DrawingUtils | null>(null);
   const animationFrameRef = useRef<number | null>(null);
+  
   const collectedLandmarksRef = useRef<{ landmarks: any[]; timestamp: number }[]>([]);
+  const sessionDataRef = useRef<{
+    front: { landmarks: any[]; videoDimensions: { width: number; height: number } } | null;
+    rightProfile: { landmarks: any[]; videoDimensions: { width: number; height: number } } | null;
+    leftProfile: { landmarks: any[]; videoDimensions: { width: number; height: number } } | null;
+  }>({
+    front: null,
+    rightProfile: null,
+    leftProfile: null,
+  });
 
-  const { isScanning, setScanning, setResults, setScanComplete } = useAppStore();
+  const stepStateRef = useRef<{
+    countdownStartTime: number | null;
+    captureStartTime: number | null;
+    hasCaptured: boolean;
+    waitingForFace: boolean;
+  }>({
+    countdownStartTime: null,
+    captureStartTime: null,
+    hasCaptured: false,
+    waitingForFace: true,
+  });
+
+  const { isScanning, setScanning, setResults, setScanComplete, setSessionData } = useAppStore();
 
   useEffect(() => {
     async function initializeMediaPipe() {
@@ -90,9 +115,7 @@ export default function Scanner() {
   }, [isInitialized]);
 
   useEffect(() => {
-    if (!isScanning || !isInitialized || !videoRef.current || !canvasRef.current) {
-      return;
-    }
+    if (!isInitialized || !videoRef.current || !canvasRef.current) return;
 
     const video = videoRef.current;
     const canvas = canvasRef.current;
@@ -102,14 +125,9 @@ export default function Scanner() {
 
     if (!ctx || !faceLandmarker || !drawingUtils) return;
 
-    let lastVideoTime = -1;
-    let scanStartTime: number | null = null;
-    let hasProcessedResults = false;
+    const COUNTDOWN_DURATION = 3000;
+    const CAPTURE_DURATION = 2000;
     let lastSampleTime = 0;
-    const SCAN_DURATION = 8000;
-    const SAMPLE_INTERVAL = 200;
-    collectedLandmarksRef.current = [];
-    let lastGoodLandmarks: any[] | null = null;
 
     function processFrame() {
       if (!video || video.readyState !== video.HAVE_ENOUGH_DATA || !ctx || !faceLandmarker || !drawingUtils) {
@@ -117,53 +135,20 @@ export default function Scanner() {
         return;
       }
 
-      if (hasProcessedResults) {
-        return;
-      }
-
-      const currentTime = performance.now();
-      if (scanStartTime === null) {
-        scanStartTime = currentTime;
-      }
-
-      const elapsed = currentTime - scanStartTime;
-      const progress = Math.min(100, Math.floor((elapsed / SCAN_DURATION) * 100));
-      setScanProgress(progress);
-
-      const phaseProgress = (elapsed / SCAN_DURATION) * 100;
-      if (phaseProgress < 25) {
-        setScanPhase('scanning');
-      } else if (phaseProgress < 50) {
-        setScanPhase('scanning');
-      } else if (phaseProgress < 75) {
-        setScanPhase('scanning');
-      } else {
-        setScanPhase('scanning');
-      }
-
       ctx.save();
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
 
+      const currentTime = performance.now();
       const startTimeInMs = performance.now();
-      
-      if (lastVideoTime !== video.currentTime) {
-        lastVideoTime = video.currentTime;
 
+      if (video.currentTime !== undefined) {
         const results = faceLandmarker.detectForVideo(video, startTimeInMs);
+        const hasFace = results.faceLandmarks && results.faceLandmarks.length > 0;
 
-        if (results.faceLandmarks && results.faceLandmarks.length > 0) {
-          const landmarks = results.faceLandmarks[0];
-          lastGoodLandmarks = landmarks;
+        if (hasFace) {
+          const landmarks = results.faceLandmarks![0];
           
-          if (elapsed - lastSampleTime >= SAMPLE_INTERVAL && elapsed < SCAN_DURATION) {
-            collectedLandmarksRef.current.push({
-              landmarks: landmarks.map((l: any) => ({ x: l.x, y: l.y, z: l.z || 0 })),
-              timestamp: currentTime,
-            });
-            lastSampleTime = elapsed;
-          }
-
           drawingUtils.drawLandmarks(landmarks, {
             radius: 1,
             color: '#00E5FF',
@@ -173,168 +158,136 @@ export default function Scanner() {
             lineWidth: 0.5,
           });
 
-          if (elapsed >= SCAN_DURATION && !hasProcessedResults) {
-            hasProcessedResults = true;
-            setScanPhase('processing');
-            
-            console.log('Processing scan results...', {
-              elapsed,
-              samplesCollected: collectedLandmarksRef.current.length,
-              landmarksCount: landmarks.length,
-              videoWidth: video.videoWidth,
-              videoHeight: video.videoHeight,
-            });
-            
-            try {
-              let landmarksToUse: any[];
-              
-              if (collectedLandmarksRef.current.length > 0) {
-                const filteredLandmarks = filterLandmarksByPose(collectedLandmarksRef.current, 60, 40);
-                
-                if (filteredLandmarks.length > 0) {
-                  const aggregatedLandmarks = aggregateLandmarks(filteredLandmarks);
-                  landmarksToUse = aggregatedLandmarks.map(l => ({
-                    x: l.x,
-                    y: l.y,
-                    z: l.z || 0,
-                    visibility: 1.0,
-                  }));
-                  
-                  console.log('Using aggregated landmarks:', {
-                    sampleCount: filteredLandmarks.length,
-                    aggregatedCount: aggregatedLandmarks.length,
-                  });
-                } else {
-                  console.warn('Pose filtering removed all samples, using all collected samples');
-                  const aggregatedLandmarks = aggregateLandmarks(
-                    collectedLandmarksRef.current.map(s => s.landmarks)
-                  );
-                  landmarksToUse = aggregatedLandmarks.map(l => ({
-                    x: l.x,
-                    y: l.y,
-                    z: l.z || 0,
-                    visibility: 1.0,
-                  }));
+          if (captureStep !== 'idle' && captureStep !== 'processing') {
+            const state = stepStateRef.current;
+
+            if (state.waitingForFace) {
+              state.waitingForFace = false;
+              state.countdownStartTime = currentTime;
+              setIsCapturing(true);
+            }
+
+            if (state.countdownStartTime !== null && !state.hasCaptured) {
+              const countdownElapsed = currentTime - state.countdownStartTime;
+              const remainingCountdown = Math.max(0, COUNTDOWN_DURATION - countdownElapsed);
+              const countdownSeconds = Math.ceil(remainingCountdown / 1000);
+              setCountdown(countdownSeconds);
+
+              if (remainingCountdown <= 0) {
+                if (state.captureStartTime === null) {
+                  state.captureStartTime = currentTime;
+                  setCountdown(0);
+                  collectedLandmarksRef.current = [];
+                  lastSampleTime = currentTime;
                 }
-              } else if (lastGoodLandmarks) {
-                console.warn('No collected samples, using last detected landmarks');
-                landmarksToUse = lastGoodLandmarks.map((l: any) => ({
-                  x: l.x,
-                  y: l.y,
-                  z: l.z || 0,
-                  visibility: l.visibility || 1.0,
-                }));
-              } else {
-                throw new Error('No face detected during scan. Please try again.');
+
+                const captureElapsed = currentTime - state.captureStartTime!;
+
+                if (captureElapsed < CAPTURE_DURATION) {
+                  if (currentTime - lastSampleTime >= 100) {
+                    collectedLandmarksRef.current.push({
+                      landmarks: landmarks.map((l: any) => ({ x: l.x, y: l.y, z: l.z || 0 })),
+                      timestamp: currentTime,
+                    });
+                    lastSampleTime = currentTime;
+                  }
+                } else if (!state.hasCaptured) {
+                  state.hasCaptured = true;
+                  
+                  if (collectedLandmarksRef.current.length > 0) {
+                    const aggregatedLandmarks = aggregateLandmarks(
+                      collectedLandmarksRef.current.map(s => s.landmarks)
+                    );
+                    
+                    const videoDimensions = {
+                      width: video.videoWidth,
+                      height: video.videoHeight,
+                    };
+
+                    const landmarkData = {
+                      landmarks: aggregatedLandmarks.map(l => ({
+                        x: l.x,
+                        y: l.y,
+                        z: l.z || 0,
+                        visibility: 1.0,
+                      })),
+                      videoDimensions,
+                    };
+
+                    if (captureStep === 'front') {
+                      sessionDataRef.current.front = landmarkData;
+                      setCaptureStep('rightProfile');
+                      resetStepState();
+                    } else if (captureStep === 'rightProfile') {
+                      sessionDataRef.current.rightProfile = landmarkData;
+                      setCaptureStep('leftProfile');
+                      resetStepState();
+                    } else if (captureStep === 'leftProfile') {
+                      sessionDataRef.current.leftProfile = landmarkData;
+                      setCaptureStep('processing');
+                      setIsCapturing(false);
+                      
+                      setTimeout(() => {
+                        try {
+                          const sessionData = {
+                            front: sessionDataRef.current.front!,
+                            rightProfile: sessionDataRef.current.rightProfile!,
+                            leftProfile: sessionDataRef.current.leftProfile!,
+                          };
+
+                          setSessionData(sessionData);
+                          
+                          const { fusedLandmarks, metrics, baseline, pixelToMm } = calculateTrueMetrics(sessionData);
+                          
+                          setResults({
+                            landmarks: fusedLandmarks,
+                            metrics: metrics as any,
+                            baseline,
+                            videoDimensions: sessionData.front.videoDimensions,
+                          });
+                          
+                          setTimeout(() => {
+                            setScanComplete(true);
+                            setScanning(false);
+                            setCaptureStep('idle');
+                            setCountdown(0);
+                            setIsCapturing(false);
+                            collectedLandmarksRef.current = [];
+                            sessionDataRef.current = {
+                              front: null,
+                              rightProfile: null,
+                              leftProfile: null,
+                            };
+                            resetStepState();
+                          }, 100);
+                        } catch (err: any) {
+                          console.error('Processing error:', err);
+                          setError(`Failed to process scan: ${err?.message || 'Unknown error'}`);
+                          setScanning(false);
+                          setCaptureStep('idle');
+                          setCountdown(0);
+                          setIsCapturing(false);
+                          resetStepState();
+                        }
+                      }, 100);
+                    }
+                  } else {
+                    resetStepState();
+                    setError('No landmarks collected. Please try again.');
+                    setTimeout(() => setError(null), 2000);
+                  }
+                }
               }
-
-              const aggregatedResults: FaceLandmarkerResult = {
-                ...results,
-                faceLandmarks: [landmarksToUse],
-              };
-
-              const analysis = analyzeFace(aggregatedResults);
-              console.log('Analysis complete:', {
-                metricsCount: Object.keys(analysis.metrics).length,
-                baselineType: analysis.baseline.baselineType,
-              });
-              
-              setResults({
-                landmarks: landmarksToUse,
-                metrics: analysis.metrics,
-                baseline: analysis.baseline,
-                videoDimensions: {
-                  width: video.videoWidth,
-                  height: video.videoHeight,
-                },
-              });
-              
-              setTimeout(() => {
-                setScanComplete(true);
-                setScanning(false);
-                setScanProgress(0);
-                setScanPhase('idle');
-                collectedLandmarksRef.current = [];
-              }, 100);
-              
-              ctx.restore();
-              return;
-            } catch (err: any) {
-              console.error('Analysis error:', err);
-              console.error('Error details:', {
-                message: err?.message,
-                stack: err?.stack,
-                results: results?.faceLandmarks?.length,
-                landmarksLength: landmarks?.length,
-                samplesCollected: collectedLandmarksRef.current.length,
-              });
-              setError(`Failed to process scan: ${err?.message || 'Unknown error'}`);
-              setScanning(false);
-              setScanProgress(0);
-              setScanPhase('idle');
-              collectedLandmarksRef.current = [];
-              hasProcessedResults = false;
-              ctx.restore();
-              return;
             }
           }
-        } else if (elapsed >= SCAN_DURATION && !hasProcessedResults) {
-          hasProcessedResults = true;
-          
-          if (lastGoodLandmarks && collectedLandmarksRef.current.length > 0) {
-            try {
-              setScanPhase('processing');
-              
-              const aggregatedLandmarks = aggregateLandmarks(
-                collectedLandmarksRef.current.map(s => s.landmarks)
-              );
-              
-              const landmarksToUse = aggregatedLandmarks.map(l => ({
-                x: l.x,
-                y: l.y,
-                z: l.z || 0,
-                visibility: 1.0,
-              }));
-
-              const aggregatedResults: FaceLandmarkerResult = {
-                ...results,
-                faceLandmarks: [landmarksToUse],
-              };
-
-              const analysis = analyzeFace(aggregatedResults);
-              
-              setResults({
-                landmarks: landmarksToUse,
-                metrics: analysis.metrics,
-                baseline: analysis.baseline,
-                videoDimensions: {
-                  width: video.videoWidth,
-                  height: video.videoHeight,
-                },
-              });
-              
-              setTimeout(() => {
-                setScanComplete(true);
-                setScanning(false);
-                setScanProgress(0);
-                setScanPhase('idle');
-                collectedLandmarksRef.current = [];
-              }, 100);
-            } catch (err: any) {
-              console.error('Fallback processing error:', err);
-              setError('Failed to process scan. Please try again.');
-              setScanning(false);
-              setScanProgress(0);
-              setScanPhase('idle');
-            }
-          } else {
-            setError('No face detected during scan. Please ensure your face is visible and try again.');
-            setScanning(false);
-            setScanProgress(0);
-            setScanPhase('idle');
+        } else if (captureStep !== 'idle' && captureStep !== 'processing') {
+          const state = stepStateRef.current;
+          if (!state.waitingForFace && state.countdownStartTime !== null) {
+            state.waitingForFace = true;
+            state.countdownStartTime = null;
+            state.captureStartTime = null;
+            setIsCapturing(false);
           }
-          ctx.restore();
-          return;
         }
       }
 
@@ -349,22 +302,65 @@ export default function Scanner() {
         cancelAnimationFrame(animationFrameRef.current);
       }
     };
-  }, [isScanning, isInitialized, setResults, setScanComplete, setScanning]);
+  }, [captureStep, isInitialized, setResults, setScanComplete, setScanning, setSessionData]);
+
+  const resetStepState = () => {
+    stepStateRef.current = {
+      countdownStartTime: null,
+      captureStartTime: null,
+      hasCaptured: false,
+      waitingForFace: true,
+    };
+    setIsCapturing(false);
+    setCountdown(0);
+    collectedLandmarksRef.current = [];
+  };
 
   const handleStartScan = () => {
     if (!isInitialized) return;
     setScanning(true);
     setScanComplete(false);
-    setScanProgress(0);
-    setScanPhase('scanning');
+    setCaptureStep('front');
+    setCountdown(0);
+    setIsCapturing(false);
     setError(null);
     collectedLandmarksRef.current = [];
+    sessionDataRef.current = {
+      front: null,
+      rightProfile: null,
+      leftProfile: null,
+    };
+    resetStepState();
+  };
+
+  const getStepInstructions = () => {
+    switch (captureStep) {
+      case 'front':
+        return 'Face front';
+      case 'rightProfile':
+        return 'Turn 90° right';
+      case 'leftProfile':
+        return 'Turn 90° left';
+      case 'processing':
+        return 'Processing...';
+      default:
+        return '';
+    }
   };
 
   if (error) {
     return (
       <div className="glass rounded-lg p-8 text-center">
         <p className="text-accent text-glow">{error}</p>
+        <button
+          onClick={() => {
+            setError(null);
+            setCaptureStep('idle');
+          }}
+          className="mt-4 glass-strong px-4 py-2 rounded border border-primary/50 hover:bg-primary/10"
+        >
+          Try Again
+        </button>
       </div>
     );
   }
@@ -384,55 +380,55 @@ export default function Scanner() {
           ref={canvasRef}
           className="absolute top-0 left-0 w-full h-full pointer-events-none"
         />
+        
         {!isScanning && isInitialized && (
-          <div className="absolute inset-0 flex items-center justify-center bg-black/60 backdrop-blur-sm">
+          <div className="absolute top-4 right-4 z-30">
             <button
               onClick={handleStartScan}
-              className="glass-strong px-8 py-4 rounded-lg border-2 border-primary glow-primary hover:bg-primary/10 transition-all duration-300 flex items-center gap-3 text-xl font-semibold text-glow"
+              className="glass-strong px-4 py-3 rounded-lg border-2 border-primary glow-primary hover:bg-primary/10 transition-all duration-300 flex items-center gap-2 text-sm font-semibold text-glow"
             >
-              <Scan className="w-6 h-6" />
-              INITIATE SCAN
+              <Scan className="w-4 h-4" />
+              START
             </button>
           </div>
         )}
-        {isScanning && (
-          <>
-            <div className="absolute top-4 left-4 glass px-4 py-2 rounded border border-primary/50 z-20 backdrop-blur-md">
-              <p className="text-sm text-primary text-glow animate-pulse-glow font-mono">
-                {scanPhase === 'processing' 
-                  ? 'PROCESSING DATA...' 
-                  : `SCANNING... ${scanProgress}%`}
+
+        {isScanning && captureStep !== 'idle' && captureStep !== 'processing' && (
+          <div className="absolute top-4 right-4 z-30 pointer-events-none">
+            <div className="glass px-3 py-2 rounded border border-primary/50 backdrop-blur-md">
+              <p className="text-xs text-primary text-glow font-mono">
+                {getStepInstructions()}
               </p>
             </div>
-            <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 pointer-events-none z-10">
-              <div className="glass-strong rounded-lg px-6 py-3 border border-primary/50 backdrop-blur-md">
-                <div className="flex items-center gap-3">
-                  <RotateCw 
-                    className="w-5 h-5 text-primary animate-spin" 
-                    style={{ animationDuration: '2s' }}
-                  />
-                  <div className="text-center">
-                    <p className="text-sm font-semibold text-primary text-glow font-mono">
-                      MOVE YOUR FACE IN A CIRCLE
-                    </p>
-                    <div className="relative w-20 h-20 mx-auto mt-2">
-                      <div className="absolute inset-0 border-2 border-primary/40 rounded-full" />
-                      <div 
-                        className="absolute top-0 left-1/2 w-1.5 h-1.5 bg-primary rounded-full"
-                        style={{
-                          transform: `translateX(-50%) rotate(${scanProgress * 3.6}deg) translateY(40px)`,
-                          transition: 'transform 0.1s linear',
-                        }}
-                      />
-                    </div>
-                  </div>
+          </div>
+        )}
+
+        {isScanning && isCapturing && captureStep !== 'processing' && (
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 pointer-events-none">
+            <div className="text-center">
+              {countdown > 0 ? (
+                <div className="text-7xl font-bold text-primary text-glow font-mono drop-shadow-2xl">
+                  {countdown}
                 </div>
-              </div>
+              ) : (
+                <div className="text-2xl font-semibold text-primary text-glow font-mono drop-shadow-lg">
+                  CAPTURING
+                </div>
+              )}
             </div>
-          </>
+          </div>
+        )}
+
+        {captureStep === 'processing' && (
+          <div className="absolute top-4 right-4 z-30 pointer-events-none">
+            <div className="glass px-3 py-2 rounded border border-primary/50 backdrop-blur-md">
+              <p className="text-xs text-primary text-glow animate-pulse-glow font-mono">
+                PROCESSING DATA...
+              </p>
+            </div>
+          </div>
         )}
       </div>
     </div>
   );
 }
-

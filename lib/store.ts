@@ -7,6 +7,21 @@ interface VideoDimensions {
   height: number;
 }
 
+export interface MultiAngleSessionData {
+  front: {
+    landmarks: any[];
+    videoDimensions: VideoDimensions;
+  };
+  rightProfile: {
+    landmarks: any[];
+    videoDimensions: VideoDimensions;
+  };
+  leftProfile: {
+    landmarks: any[];
+    videoDimensions: VideoDimensions;
+  };
+}
+
 interface AppState {
   isScanning: boolean;
   scanComplete: boolean;
@@ -14,6 +29,7 @@ interface AppState {
   metrics: FacialMetrics | null;
   baseline: BaselineData | null;
   videoDimensions: VideoDimensions | null;
+  sessionData: MultiAngleSessionData | null;
   setScanning: (scanning: boolean) => void;
   setScanComplete: (complete: boolean) => void;
   setResults: (result: {
@@ -22,6 +38,7 @@ interface AppState {
     baseline: BaselineData;
     videoDimensions: VideoDimensions;
   }) => void;
+  setSessionData: (data: MultiAngleSessionData) => void;
   reset: () => void;
 }
 
@@ -32,6 +49,7 @@ export const useAppStore = create<AppState>((set) => ({
   metrics: null,
   baseline: null,
   videoDimensions: null,
+  sessionData: null,
   setScanning: (scanning) => set({ isScanning: scanning }),
   setScanComplete: (complete) => set({ scanComplete: complete }),
   setResults: (result) =>
@@ -42,6 +60,7 @@ export const useAppStore = create<AppState>((set) => ({
       videoDimensions: result.videoDimensions,
       scanComplete: true,
     }),
+  setSessionData: (data) => set({ sessionData: data }),
   reset: () =>
     set({
       isScanning: false,
@@ -50,5 +69,6 @@ export const useAppStore = create<AppState>((set) => ({
       metrics: null,
       baseline: null,
       videoDimensions: null,
+      sessionData: null,
     }),
 }));

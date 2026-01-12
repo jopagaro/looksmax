@@ -46,7 +46,7 @@ function calculateAngle(
   return (angle * 180) / Math.PI;
 }
 
-function calculateDemographicBaseline(landmarks: any[]): BaselineData {
+export function calculateDemographicBaseline(landmarks: any[]): BaselineData {
   if (!landmarks || landmarks.length < 400) {
     return {
       baselineType: 'type_a',

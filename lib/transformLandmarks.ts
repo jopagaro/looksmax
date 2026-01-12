@@ -58,7 +58,7 @@ export function transformLandmarksFor3D(
     }
 
     const x = (landmark.x - centerX) * scale;
-    const y = ((landmark.y - centerY) * aspectRatio) * scale;
+    const y = (landmark.y - centerY) * scale * aspectRatio;
     const z = ((landmark.z || 0) - centerZ) * zScale;
 
     return { x, y, z };
