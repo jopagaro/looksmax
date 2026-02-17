@@ -47,14 +47,14 @@ export default function Results() {
       name: 'Face Ratio',
       score: metrics.fwhr,
       description: 'Width-to-height proportion',
-      ideal: 'Ideal ~0.77',
+      ideal: '~0.82 ideal',
       actual: `${metrics.actualMeasurements.fwhrValue.toFixed(2)}`,
     },
     {
       name: 'Midface Harmony',
       score: metrics.midfaceRatio,
       description: 'Eye span vs lower-face height',
-      ideal: 'Ideal ~1.65',
+      ideal: '~1.6 ratio',
       actual: `${metrics.actualMeasurements.midfaceRatioValue.toFixed(2)}`,
     },
     {
