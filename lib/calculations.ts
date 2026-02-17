@@ -99,9 +99,10 @@ export function computeFwhr(lm: any[]): { score: number; value: number } {
 
   const fwhr = realWidth / realHeight;
 
-  // Total face fWHR: typical attractive range 1.55–1.95, ideal ~1.75.
-  // Most people fall between 1.3 and 2.1. Tolerance ±0.55.
-  const score = bandScore(fwhr, 1.75, 0.55);
+  // After 16:9 aspect correction, total face width/height for real humans:
+  // Typical range: 0.60–0.95. Ideal (well-proportioned face): ~0.77.
+  // Tolerance ±0.22 covers essentially everyone (0.55 → 0.99).
+  const score = bandScore(fwhr, 0.77, 0.22);
   return { score, value: Math.round(fwhr * 100) / 100 };
 }
 
@@ -118,8 +119,10 @@ export function computeMidfaceRatio(lm: any[]): { score: number; value: number }
 
   const ratio = realEyeSpan / realLowerFace;
 
-  // Eye span / lower face typically 0.7–1.3, ideal ~1.0. Tolerance ±0.4.
-  const score = bandScore(ratio, 1.0, 0.4);
+  // After 16:9 aspect correction, eye span / lower-face height:
+  // Typical range: 1.2–2.2. Ideal (balanced midface): ~1.65.
+  // Tolerance ±0.55 covers essentially everyone.
+  const score = bandScore(ratio, 1.65, 0.55);
   return { score, value: Math.round(ratio * 100) / 100 };
 }
 
