@@ -1,91 +1,66 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useState } from 'react';
 import Scanner from '@/components/scanner/Scanner';
-import CompactFaceMesh from '@/components/visualizer/CompactFaceMesh';
-import ResultsDashboard from '@/components/results/ResultsDashboard';
-import AffiliateRecommendations from '@/components/affiliate/AffiliateRecommendations';
-import BackgroundGrid from '@/components/ui/BackgroundGrid';
-import DataNodes from '@/components/ui/DataNodes';
+import Results from '@/components/results/Results';
 import { useAppStore } from '@/lib/store';
-import { RotateCcw } from 'lucide-react';
 
 export default function Home() {
-  const { scanComplete, reset, landmarks, videoDimensions } = useAppStore();
-
-  useEffect(() => {
-    if (typeof document !== 'undefined') {
-      document.body.classList.add('dark');
-    }
-  }, []);
+  const { scanComplete, reset } = useAppStore();
 
   return (
-    <main className="min-h-screen bg-background text-primary relative overflow-x-hidden">
-      <BackgroundGrid />
-      <DataNodes />
-      
-      <div className="relative z-10">
-        <div className="container mx-auto px-4 pt-6 pb-4">
-          <header className="mb-4">
-            <h1 className="text-3xl md:text-4xl font-bold text-glow mb-1 font-mono">
-              BIOMETRIC FACIAL ANALYSIS
-            </h1>
-            <p className="text-primary/60 text-xs md:text-sm font-mono">
-              Advanced 3D Landmark Detection & Aesthetic Optimization System
-            </p>
-          </header>
-        </div>
-
-        <div className="w-full relative">
-          <div className="relative w-full" style={{ minHeight: '70vh' }}>
-            <div className="glass-strong rounded-lg overflow-hidden border border-primary/30 mx-4">
-              <div className="relative w-full" style={{ aspectRatio: '16/9', minHeight: '500px' }}>
-                <Scanner />
-                {scanComplete && landmarks && videoDimensions && landmarks.length > 0 && (
-                  <div className="absolute bottom-4 right-4 w-48 h-48 z-30 pointer-events-none">
-                    <CompactFaceMesh landmarks={landmarks} videoDimensions={videoDimensions} />
-                  </div>
-                )}
-              </div>
+    <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
+      {/* Header */}
+      <header className="border-b border-gray-200 bg-white/80 backdrop-blur-sm sticky top-0 z-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center h-16">
+            <div>
+              <h1 className="text-xl font-semibold text-gray-900">Facial Analysis</h1>
+              <p className="text-xs text-gray-500">AI-Powered Aesthetic Assessment</p>
             </div>
+            {scanComplete && (
+              <button
+                onClick={reset}
+                className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-colors"
+              >
+                New Scan
+              </button>
+            )}
           </div>
-
-          {scanComplete && (
-            <div className="container mx-auto px-4 py-6 space-y-6">
-              <div className="flex items-center justify-between mb-4">
-                <h2 className="text-2xl font-bold text-glow font-mono">
-                  ANALYSIS RESULTS
-                </h2>
-                <button
-                  onClick={reset}
-                  className="glass rounded-lg px-4 py-2 border border-primary/50 hover:bg-primary/10 transition-all duration-300 flex items-center gap-2 text-sm font-mono"
-                >
-                  <RotateCcw className="w-4 h-4" />
-                  RESET SCAN
-                </button>
-              </div>
-
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                <div>
-                  <ResultsDashboard />
-                </div>
-                <div>
-                  <AffiliateRecommendations />
-                </div>
-              </div>
-            </div>
-          )}
         </div>
+      </header>
 
-        <footer className="mt-12 pt-8 pb-6 border-t border-primary/20">
-          <div className="container mx-auto px-4">
-            <p className="text-xs text-primary/40 text-center font-mono">
-              Privacy-First Architecture • On-Device Processing • Real-Time Analysis
-            </p>
+      {/* Main Content */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {!scanComplete ? (
+          <div className="space-y-6">
+            {/* Introduction */}
+            <div className="text-center max-w-2xl mx-auto mb-8">
+              <h2 className="text-3xl font-bold text-gray-900 mb-3">
+                Discover Your Facial Harmony
+              </h2>
+              <p className="text-gray-600 leading-relaxed">
+                Get instant analysis of your facial proportions and receive personalized
+                recommendations to enhance your natural features.
+              </p>
+            </div>
+
+            {/* Scanner */}
+            <Scanner />
           </div>
-        </footer>
+        ) : (
+          <Results />
+        )}
       </div>
+
+      {/* Footer */}
+      <footer className="border-t border-gray-200 mt-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <p className="text-center text-sm text-gray-500">
+            All processing happens locally in your browser. No data is stored or transmitted.
+          </p>
+        </div>
+      </footer>
     </main>
   );
 }
-

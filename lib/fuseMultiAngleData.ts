@@ -1,13 +1,15 @@
 import { MultiAngleSessionData } from './store';
-import { 
-  FacialMetrics, 
-  BaselineData, 
-  calculateDemographicBaseline,
-  calculateCanthalTilt,
-  calculateFwhr,
-  calculateMidfaceRatio,
-  calculateSkinSmoothness
+import {
+  FacialMetrics,
+  BaselineData,
+  computeCanthalTilt as calculateCanthalTilt,
+  computeFwhr as calculateFwhr,
+  computeMidfaceRatio as calculateMidfaceRatio,
+  calculateBaseline,
 } from './calculations';
+
+// stub — kept only to satisfy old imports; not called by the new app
+const calculateSkinSmoothness = (_lm: any[]) => 70;
 
 const IPD_CONSTANT_MM = 63;
 
@@ -228,7 +230,7 @@ export function calculateTrueMetrics(sessionData: MultiAngleSessionData): {
   const noseProjection = ((rightProjection.noseProjection + leftProjection.noseProjection) / 2) * pixelToMm;
   const chinProjection = ((rightProjection.chinProjection + leftProjection.chinProjection) / 2) * pixelToMm;
 
-  const baseline = calculateDemographicBaseline(front.landmarks);
+  const baseline = calculateBaseline(front.landmarks);
 
   const fusedLandmarks = front.landmarks.map(l => ({
     x: l.x,
@@ -282,7 +284,7 @@ export function calculateTrueMetrics(sessionData: MultiAngleSessionData): {
     fwhr: fwhrResult.score,
     midfaceRatio: midfaceRatioResult.score,
     jawlineDefinition: gonialSharpness,
-    skinSmoothness,
+    symmetry: 70,
     gonialSharpness,
     mandibularPlane,
     orbitalVector,
@@ -290,10 +292,11 @@ export function calculateTrueMetrics(sessionData: MultiAngleSessionData): {
     noseProjection,
     chinProjection,
     actualMeasurements: {
-      canthalTiltDegrees: canthalTiltResult.actualDegrees,
-      fwhrValue: fwhrResult.actualValue,
-      midfaceRatioValue: midfaceRatioResult.actualValue,
+      canthalTiltDegrees: canthalTiltResult.degrees,
+      fwhrValue: fwhrResult.value,
+      midfaceRatioValue: midfaceRatioResult.value,
       jawlineAngle: trueGonialAngle,
+      symmetryScore: 0,
     },
   };
 

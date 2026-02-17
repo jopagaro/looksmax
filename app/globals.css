@@ -2,34 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
-
 @layer base {
+  * {
+    @apply border-gray-200;
+  }
+
   body {
-    @apply bg-background text-primary font-mono antialiased;
-    font-family: 'JetBrains Mono', monospace;
+    @apply bg-white text-gray-900 antialiased;
   }
 }
 
 @layer utilities {
-  .glass {
-    @apply bg-black/20 backdrop-blur-md border border-primary/30;
-  }
-  
-  .glass-strong {
-    @apply bg-black/40 backdrop-blur-lg border border-primary/50;
-  }
-  
-  .glow-primary {
-    box-shadow: 0 0 20px rgba(0, 229, 255, 0.3);
-  }
-  
-  .glow-accent {
-    box-shadow: 0 0 20px rgba(255, 0, 85, 0.3);
-  }
-  
-  .text-glow {
-    text-shadow: 0 0 10px currentColor;
+  .text-balance {
+    text-wrap: balance;
   }
 }
-
