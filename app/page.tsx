@@ -4,10 +4,11 @@ import Scanner from '@/components/scanner/Scanner';
 import Results from '@/components/results/Results';
 import Survey from '@/components/survey/Survey';
 import Plan from '@/components/plan/Plan';
+import Library from '@/components/library/Library';
 import { useAppStore } from '@/lib/store';
 
 export default function Home() {
-  const { stage, reset } = useAppStore();
+  const { stage, reset, openLibrary, closeLibrary } = useAppStore();
 
   return (
     <main className="min-h-screen bg-cream">
@@ -19,7 +20,15 @@ export default function Home() {
               LOOKS<span className="text-pop">MAX</span>★
             </h1>
             <div className="flex items-center gap-3">
-              {stage !== 'scan' && (
+              <button
+                onClick={() => (stage === 'library' ? closeLibrary() : openLibrary())}
+                className={`btn-brutal text-xs px-4 py-2 ${
+                  stage === 'library' ? 'bg-pop text-white' : 'bg-white text-ink'
+                }`}
+              >
+                {stage === 'library' ? '← Back' : 'The Index'}
+              </button>
+              {stage !== 'scan' && stage !== 'library' && (
                 <button
                   onClick={reset}
                   className="btn-brutal bg-white text-ink text-xs px-4 py-2"
@@ -64,6 +73,7 @@ export default function Home() {
         {stage === 'results' && <Results />}
         {stage === 'survey' && <Survey />}
         {stage === 'plan' && <Plan />}
+        {stage === 'library' && <Library />}
       </div>
 
       {/* Footer */}

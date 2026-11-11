@@ -7,7 +7,7 @@ interface VideoDimensions {
   height: number;
 }
 
-export type Stage = 'scan' | 'results' | 'survey' | 'plan';
+export type Stage = 'scan' | 'results' | 'survey' | 'plan' | 'library';
 
 interface AppState {
   stage: Stage;
@@ -22,7 +22,12 @@ interface AppState {
   surveyAnswers: Record<string, number>; // questionId -> selected option index
   surveyResult: SurveyResult | null;
 
+  /** Stage to return to when closing the library. */
+  libraryReturn: Stage;
+
   setStage: (stage: Stage) => void;
+  openLibrary: () => void;
+  closeLibrary: () => void;
   setScanning: (scanning: boolean) => void;
   setScanComplete: (complete: boolean) => void;
   setResults: (result: {
@@ -46,8 +51,12 @@ export const useAppStore = create<AppState>((set) => ({
   videoDimensions: null,
   surveyAnswers: {},
   surveyResult: null,
+  libraryReturn: 'scan',
 
   setStage: (stage) => set({ stage }),
+  openLibrary: () =>
+    set((s) => (s.stage === 'library' ? s : { libraryReturn: s.stage, stage: 'library' })),
+  closeLibrary: () => set((s) => ({ stage: s.libraryReturn })),
   setScanning: (scanning) => set({ isScanning: scanning }),
   setScanComplete: (complete) => set({ scanComplete: complete }),
   setResults: (result) =>
@@ -73,5 +82,6 @@ export const useAppStore = create<AppState>((set) => ({
       videoDimensions: null,
       surveyAnswers: {},
       surveyResult: null,
+      libraryReturn: 'scan',
     }),
 }));

@@ -1,8 +1,9 @@
 'use client';
 
 import { FacialMetrics } from '@/lib/calculations';
+import { useAppStore } from '@/lib/store';
 import { motion } from 'framer-motion';
-import { ExternalLink, Sparkles } from 'lucide-react';
+import { ArrowRight, ExternalLink, Sparkles } from 'lucide-react';
 
 interface Product {
   name: string;
@@ -17,6 +18,7 @@ interface RecommendationsProps {
 }
 
 export default function Recommendations({ metrics }: RecommendationsProps) {
+  const openLibrary = useAppStore((s) => s.openLibrary);
   const products: Product[] = [];
 
   // Jawline products
@@ -116,6 +118,21 @@ export default function Recommendations({ metrics }: RecommendationsProps) {
           </motion.div>
         ))}
       </div>
+
+      <button
+        onClick={openLibrary}
+        className="w-full mt-6 border-[3px] border-ink bg-ink text-cream shadow-brutal-sm p-5 flex items-center justify-between gap-4 text-left hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none transition-all"
+      >
+        <div>
+          <p className="font-display text-lg uppercase leading-tight">
+            Browse the full <span className="text-pop">Index</span>
+          </p>
+          <p className="text-xs font-bold text-cream/70 mt-1 uppercase tracking-wide">
+            Every compound &amp; every piece of gear, rated by evidence
+          </p>
+        </div>
+        <ArrowRight className="w-6 h-6 shrink-0 text-pop" strokeWidth={3} />
+      </button>
 
       <p className="text-[11px] font-bold uppercase tracking-wide text-ink-mute text-center mt-6">
         * We earn a commission on qualifying purchases — costs you nothing extra
