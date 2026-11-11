@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { FacialMetrics, BaselineData } from './calculations';
-import { SurveyResult } from './survey';
+import { SurveyResult, SurveyTier } from './survey';
 
 interface VideoDimensions {
   width: number;
@@ -19,8 +19,10 @@ interface AppState {
   videoDimensions: VideoDimensions | null;
 
   // Survey
+  surveyTier: SurveyTier | null; // chosen depth; null = picker shown
   surveyAnswers: Record<string, number>; // questionId -> selected option index
   surveyResult: SurveyResult | null;
+  setSurveyTier: (tier: SurveyTier | null) => void;
 
   /** Stage to return to when closing the library. */
   libraryReturn: Stage;
@@ -49,10 +51,12 @@ export const useAppStore = create<AppState>((set) => ({
   metrics: null,
   baseline: null,
   videoDimensions: null,
+  surveyTier: null,
   surveyAnswers: {},
   surveyResult: null,
   libraryReturn: 'scan',
 
+  setSurveyTier: (tier) => set({ surveyTier: tier }),
   setStage: (stage) => set({ stage }),
   openLibrary: () =>
     set((s) => (s.stage === 'library' ? s : { libraryReturn: s.stage, stage: 'library' })),
@@ -80,6 +84,7 @@ export const useAppStore = create<AppState>((set) => ({
       metrics: null,
       baseline: null,
       videoDimensions: null,
+      surveyTier: null,
       surveyAnswers: {},
       surveyResult: null,
       libraryReturn: 'scan',

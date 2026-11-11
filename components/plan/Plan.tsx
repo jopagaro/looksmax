@@ -2,8 +2,9 @@
 
 import { useMemo } from 'react';
 import { motion } from 'framer-motion';
-import { Zap, Hammer, Mountain } from 'lucide-react';
+import { Zap, Hammer, Mountain, PhoneCall } from 'lucide-react';
 import { useAppStore } from '@/lib/store';
+import { computeOverallScore } from '@/lib/calculations';
 import { CATEGORIES, FIXES, Fix } from '@/lib/survey';
 import Recommendations from '@/components/results/Recommendations';
 
@@ -21,17 +22,7 @@ const DIFFICULTY_GROUPS: {
 export default function Plan() {
   const { metrics, surveyResult } = useAppStore();
 
-  const faceScore = useMemo(() => {
-    if (!metrics) return null;
-    const scores = [
-      metrics.symmetry,
-      metrics.canthalTilt,
-      metrics.fwhr,
-      metrics.midfaceRatio,
-      metrics.jawlineDefinition,
-    ];
-    return Math.round(scores.reduce((a, b) => a + b, 0) / scores.length);
-  }, [metrics]);
+  const faceScore = useMemo(() => (metrics ? computeOverallScore(metrics) : null), [metrics]);
 
   const habitsScore = surveyResult?.overallScore ?? null;
 
@@ -55,6 +46,8 @@ export default function Plan() {
       }
       if (metrics.symmetry < 65) add('stomach-sleeping');
       if (metrics.canthalTilt < 50) add('sleep-debt');
+      if (metrics.gonialAngle < 60) add('forward-head');
+      if (metrics.teethWhiteness !== null && metrics.teethWhiteness < 65) add('teeth-color');
     }
     return out.filter((f) => FIXES[f]);
   }, [surveyResult, metrics]);
@@ -210,6 +203,39 @@ export default function Plan() {
             </div>
           );
         })}
+      </div>
+
+      {/* 1-on-1 consult — coming soon */}
+      <div className="card-brutal !shadow-brutal-pop overflow-hidden">
+        <div className="px-6 py-3 border-b-[3px] border-ink bg-pop">
+          <p className="font-display text-xs uppercase tracking-widest text-white">
+            ★ Want a human to walk you through it?
+          </p>
+        </div>
+        <div className="p-6 flex flex-wrap items-center gap-6 bg-white">
+          <div className="w-14 h-14 border-[3px] border-ink bg-ink text-pop shadow-brutal-xs flex items-center justify-center shrink-0">
+            <PhoneCall className="w-7 h-7" strokeWidth={2.5} />
+          </div>
+          <div className="flex-1 min-w-[220px]">
+            <h4 className="font-display text-xl uppercase leading-tight">
+              1-on-1 Looks Consult
+            </h4>
+            <p className="text-sm font-medium text-ink-soft mt-1">
+              A 60-minute video call with a consultant who reads your scan + survey and builds your
+              roadmap live. Hyper-specific, no generic advice.
+            </p>
+          </div>
+          <div className="text-right">
+            <p className="font-display text-3xl">$199</p>
+            <button
+              disabled
+              className="btn-brutal bg-white text-ink-mute text-xs px-4 py-2.5 mt-2 cursor-not-allowed"
+              title="Coming soon"
+            >
+              Coming Soon
+            </button>
+          </div>
+        </div>
       </div>
 
       {/* Products */}

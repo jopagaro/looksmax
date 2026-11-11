@@ -3,11 +3,19 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { FaceLandmarker, FilesetResolver, DrawingUtils } from '@mediapipe/tasks-vision';
 import { useAppStore } from '@/lib/store';
-import { analyzeFrame, averageMetrics, calculateBaseline, FacialMetrics } from '@/lib/calculations';
-import { Camera, Loader2, Upload, ScanLine, RefreshCw, Sparkles } from 'lucide-react';
+import {
+  analyzeFrame,
+  medianMetrics,
+  calculateBaseline,
+  computePose,
+  sampleTeethColor,
+  FacialMetrics,
+} from '@/lib/calculations';
+import { Camera, Loader2, Upload, ScanLine, RefreshCw, Sparkles, Smile } from 'lucide-react';
 
 type Mode = 'camera' | 'upload';
 type CameraState = 'pending' | 'active' | 'denied' | 'unavailable';
+type CapturePhase = 'idle' | 'neutral' | 'smile';
 
 const DEMO_METRICS: FacialMetrics = {
   canthalTilt: 72,
@@ -15,12 +23,22 @@ const DEMO_METRICS: FacialMetrics = {
   midfaceRatio: 61,
   jawlineDefinition: 78,
   symmetry: 90,
+  gonialAngle: 74,
+  eyeSpacing: 88,
+  lowerThird: 69,
+  mouthNose: 81,
+  teethWhiteness: 58,
   actualMeasurements: {
     canthalTiltDegrees: 4.2,
     fwhrValue: 0.91,
     midfaceRatioValue: 2.35,
     jawlineAngle: 0.76,
     symmetryScore: 0.95,
+    gonialAngleDegrees: 112.4,
+    eyeSpacingValue: 0.448,
+    lowerThirdValue: 1.78,
+    mouthNoseValue: 1.62,
+    teethYellowness: 32,
   },
 };
 
@@ -38,11 +56,19 @@ export default function Scanner() {
   const [countdown, setCountdown] = useState(0);
   const [isProcessing, setIsProcessing] = useState(false);
   const [captureProgress, setCaptureProgress] = useState(0);
+  const [capturePhase, setCapturePhase] = useState<CapturePhase>('idle');
+  const [holdStillHint, setHoldStillHint] = useState(false);
   const [uploadPreview, setUploadPreview] = useState(false);
   const [isDemo, setIsDemo] = useState(false);
 
   const faceLandmarkerRef = useRef<FaceLandmarker | null>(null);
   const animationFrameRef = useRef<number | null>(null);
+  const teethCanvasRef = useRef<HTMLCanvasElement | null>(null);
+
+  const getTeethCanvas = () => {
+    if (!teethCanvasRef.current) teethCanvasRef.current = document.createElement('canvas');
+    return teethCanvasRef.current;
+  };
 
   const { isScanning, setScanning, setResults, setScanComplete } = useAppStore();
 
@@ -188,32 +214,86 @@ export default function Scanner() {
       const faceLandmarker = faceLandmarkerRef.current;
       const aspect = video.videoWidth / video.videoHeight || 16 / 9;
 
-      // Collect ~40 frames over 1.6s and average — removes single-frame noise
-      const TOTAL_FRAMES = 40;
+      // ── Phase 1: NEUTRAL — pose-gated capture ──────────────────────────────
+      // Only frames with a frontal, level head are scored; the median of
+      // accepted frames is the result. This is what makes repeat scans stable.
+      const TARGET_FRAMES = 36;
+      const MAX_ATTEMPTS = 150; // ~6s worst case
       const FRAME_INTERVAL_MS = 40;
       const collected: ReturnType<typeof analyzeFrame>[] = [];
       let lastLandmarks: any[] = [];
+      let recentRejects = 0;
 
-      for (let i = 0; i < TOTAL_FRAMES; i++) {
+      setCapturePhase('neutral');
+
+      for (let i = 0; i < MAX_ATTEMPTS && collected.length < TARGET_FRAMES; i++) {
         await new Promise((r) => setTimeout(r, FRAME_INTERVAL_MS));
         if (!video || video.readyState !== video.HAVE_ENOUGH_DATA) continue;
 
         const results = faceLandmarker.detectForVideo(video, performance.now());
         if (results.faceLandmarks && results.faceLandmarks.length > 0) {
           const landmarks = results.faceLandmarks[0];
-          collected.push(analyzeFrame(landmarks, aspect));
-          lastLandmarks = landmarks;
+          const pose = computePose(landmarks, aspect);
+          if (pose.frontal) {
+            collected.push(analyzeFrame(landmarks, aspect));
+            lastLandmarks = landmarks;
+            recentRejects = Math.max(0, recentRejects - 1);
+          } else {
+            recentRejects++;
+          }
+        } else {
+          recentRejects++;
         }
-        setCaptureProgress(Math.round(((i + 1) / TOTAL_FRAMES) * 100));
+        setHoldStillHint(recentRejects >= 6);
+        // Neutral phase fills 0→70% of the progress bar
+        setCaptureProgress(Math.round((collected.length / TARGET_FRAMES) * 70));
+      }
+      setHoldStillHint(false);
+
+      if (collected.length < 8) {
+        throw new Error(
+          'Could not get a stable frontal reading. Face the camera straight on, good lighting, hold still.'
+        );
       }
 
-      if (collected.length < 5) {
-        throw new Error('Could not get a clear reading. Make sure your face is well-lit and fully visible.');
+      // ── Phase 2: SMILE — teeth color sampling ──────────────────────────────
+      setCapturePhase('smile');
+      const teethSamples: { score: number; yellowIndex: number }[] = [];
+      const SMILE_ATTEMPTS = 75; // ~3s
+      const smileStart = collected.length;
+
+      for (let i = 0; i < SMILE_ATTEMPTS; i++) {
+        await new Promise((r) => setTimeout(r, FRAME_INTERVAL_MS));
+        if (!video || video.readyState !== video.HAVE_ENOUGH_DATA) continue;
+
+        const results = faceLandmarker.detectForVideo(video, performance.now());
+        if (results.faceLandmarks && results.faceLandmarks.length > 0) {
+          const sample = sampleTeethColor(
+            video,
+            results.faceLandmarks[0],
+            video.videoWidth,
+            video.videoHeight,
+            getTeethCanvas()
+          );
+          if (sample) teethSamples.push(sample);
+        }
+        setCaptureProgress(70 + Math.round(((i + 1) / SMILE_ATTEMPTS) * 30));
+        // Got plenty of good samples — no need to hold the smile longer
+        if (teethSamples.length >= 15) break;
+      }
+      void smileStart;
+
+      const metrics = medianMetrics(collected);
+      if (teethSamples.length >= 3) {
+        const mid = Math.floor(teethSamples.length / 2);
+        const byScore = [...teethSamples].sort((a, b) => a.score - b.score);
+        metrics.teethWhiteness = byScore[mid].score;
+        metrics.actualMeasurements.teethYellowness = byScore[mid].yellowIndex;
       }
 
       setResults({
         landmarks: lastLandmarks,
-        metrics: averageMetrics(collected),
+        metrics,
         baseline: calculateBaseline(lastLandmarks),
         videoDimensions: { width: video.videoWidth, height: video.videoHeight },
       });
@@ -226,6 +306,8 @@ export default function Scanner() {
       setScanning(false);
       setIsProcessing(false);
       setCaptureProgress(0);
+      setCapturePhase('idle');
+      setHoldStillHint(false);
     }
   };
 
@@ -288,9 +370,23 @@ export default function Scanner() {
         // Brief pause so the user sees the detection overlay
         await new Promise((r) => setTimeout(r, 900));
 
+        // Teeth color — works when the photo is a smile showing teeth
+        const metrics = analyzeFrame(landmarks, aspect);
+        const teeth = sampleTeethColor(
+          img,
+          landmarks,
+          img.naturalWidth,
+          img.naturalHeight,
+          getTeethCanvas()
+        );
+        if (teeth) {
+          metrics.teethWhiteness = teeth.score;
+          metrics.actualMeasurements.teethYellowness = teeth.yellowIndex;
+        }
+
         setResults({
           landmarks,
-          metrics: analyzeFrame(landmarks, aspect),
+          metrics,
           baseline: calculateBaseline(landmarks),
           videoDimensions: { width: img.naturalWidth, height: img.naturalHeight },
         });
@@ -388,7 +484,7 @@ export default function Scanner() {
                   <div className="text-center">
                     <p className="font-display text-cream uppercase text-sm mb-1">Drop in a selfie</p>
                     <p className="text-xs text-cream/60 font-medium">
-                      Front-facing, well-lit, no tilt — JPG or PNG
+                      Front-facing, well-lit, no tilt — smile with teeth for a teeth score
                     </p>
                   </div>
                 </button>
@@ -469,12 +565,38 @@ export default function Scanner() {
             </div>
           )}
 
+          {/* SMILE prompt — teeth phase */}
+          {capturePhase === 'smile' && (
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+              <div className="bg-pop text-white border-[3px] border-ink shadow-brutal px-8 py-5 text-center animate-slide-up">
+                <Smile className="w-8 h-8 mx-auto mb-2" strokeWidth={2.5} />
+                <p className="font-display text-2xl uppercase leading-none">Now smile</p>
+                <p className="text-xs font-bold uppercase tracking-widest mt-1.5">
+                  Show teeth — checking the whites
+                </p>
+              </div>
+            </div>
+          )}
+
+          {/* Hold-still hint — frames being rejected for head pose */}
+          {capturePhase === 'neutral' && holdStillHint && (
+            <div className="absolute top-5 left-1/2 -translate-x-1/2 pointer-events-none">
+              <div className="bg-ink text-cream border-[3px] border-pop font-display text-xs uppercase tracking-widest px-4 py-2">
+                ⚠ Face straight · hold still
+              </div>
+            </div>
+          )}
+
           {/* Processing HUD */}
           {isProcessing && (
             <div className="absolute inset-x-0 bottom-0 p-5 bg-gradient-to-t from-ink via-ink/80 to-transparent">
               <div className="max-w-xs mx-auto text-center">
                 <p className="font-display text-[11px] uppercase tracking-widest text-pop mb-2">
-                  {mode === 'camera' ? `Capturing · ${captureProgress}%` : 'Analyzing photo…'}
+                  {mode === 'camera'
+                    ? capturePhase === 'smile'
+                      ? `Teeth check · ${captureProgress}%`
+                      : `Measuring · ${captureProgress}%`
+                    : 'Analyzing photo…'}
                 </p>
                 {mode === 'camera' && (
                   <div className="h-3 border-2 border-cream bg-ink">
@@ -528,7 +650,7 @@ export default function Scanner() {
 
           <p className="text-[11px] font-bold uppercase tracking-wide text-ink-mute">
             {mode === 'camera'
-              ? 'Good lighting · face the camera straight on'
+              ? 'Good lighting · face straight · smile when asked'
               : 'Analyzed on-device. Nothing uploaded. Ever.'}
           </p>
 

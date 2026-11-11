@@ -1,57 +1,100 @@
 'use client';
 
 import { useAppStore } from '@/lib/store';
+import { computeOverallScore } from '@/lib/calculations';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import Recommendations from './Recommendations';
-import { QUESTIONS } from '@/lib/survey';
 
 export default function Results() {
   const { metrics, setStage } = useAppStore();
 
   if (!metrics) return null;
 
-  const metricsList = [
+  const a = metrics.actualMeasurements;
+  const metricsList: {
+    name: string;
+    score: number | null;
+    description: string;
+    ideal: string;
+    actual: string;
+  }[] = [
     {
       name: 'Symmetry',
       score: metrics.symmetry ?? 70,
       description: 'Left–right facial balance',
       ideal: 'Across eyes, jaw, cheeks',
-      actual: `${Math.round((metrics.actualMeasurements?.symmetryScore ?? 0) * 100)}%`,
+      actual: `${Math.round((a?.symmetryScore ?? 0) * 100)}%`,
     },
     {
       name: 'Canthal Tilt',
       score: metrics.canthalTilt,
       description: 'Eye angle — outer vs inner corner',
       ideal: 'Ideal +3° to +8°',
-      actual: `${metrics.actualMeasurements.canthalTiltDegrees.toFixed(1)}°`,
+      actual: `${a.canthalTiltDegrees.toFixed(1)}°`,
+    },
+    {
+      name: 'Eye Spacing',
+      score: metrics.eyeSpacing ?? null,
+      description: 'ES ratio — pupil distance vs face width',
+      ideal: 'Ideal ~0.46',
+      actual: a.eyeSpacingValue ? a.eyeSpacingValue.toFixed(3) : '—',
     },
     {
       name: 'fWHR',
       score: metrics.fwhr,
       description: 'Width-to-height proportion',
       ideal: 'Ideal ~0.82',
-      actual: `${metrics.actualMeasurements.fwhrValue.toFixed(2)}`,
+      actual: a.fwhrValue.toFixed(2),
     },
     {
       name: 'Midface',
       score: metrics.midfaceRatio,
       description: 'Eye span vs lower-face height',
       ideal: 'Ideal ~1.9',
-      actual: `${metrics.actualMeasurements.midfaceRatioValue.toFixed(2)}`,
+      actual: a.midfaceRatioValue.toFixed(2),
     },
     {
       name: 'Jawline',
       score: metrics.jawlineDefinition,
       description: 'Jaw width vs cheekbone width',
       ideal: 'Ideal ~0.78',
-      actual: `${metrics.actualMeasurements.jawlineAngle.toFixed(2)}`,
+      actual: a.jawlineAngle.toFixed(2),
+    },
+    {
+      name: 'Gonial Angle',
+      score: metrics.gonialAngle ?? null,
+      description: 'Jaw corner sharpness',
+      ideal: 'Ideal ~120°',
+      actual: a.gonialAngleDegrees ? `${a.gonialAngleDegrees.toFixed(0)}°` : '—',
+    },
+    {
+      name: 'Lower Third',
+      score: metrics.lowerThird ?? null,
+      description: 'Philtrum vs chin height (1:2 rule)',
+      ideal: 'Ideal ~2.2',
+      actual: a.lowerThirdValue ? a.lowerThirdValue.toFixed(2) : '—',
+    },
+    {
+      name: 'Mouth : Nose',
+      score: metrics.mouthNose ?? null,
+      description: 'Mouth width vs nose width',
+      ideal: 'Ideal ~1.55',
+      actual: a.mouthNoseValue ? a.mouthNoseValue.toFixed(2) : '—',
+    },
+    {
+      name: 'Teeth',
+      score: metrics.teethWhiteness,
+      description: 'Whiteness from your smile',
+      ideal: 'Lower yellow = better',
+      actual:
+        a.teethYellowness !== null && a.teethYellowness !== undefined
+          ? `Yellow idx ${a.teethYellowness}`
+          : 'No smile caught',
     },
   ];
 
-  const overallScore = Math.round(
-    metricsList.reduce((sum, m) => sum + m.score, 0) / metricsList.length
-  );
+  const overallScore = computeOverallScore(metrics);
 
   const verdict =
     overallScore >= 80 ? 'Elite tier. Barely.' :
@@ -59,7 +102,10 @@ export default function Results() {
     overallScore >= 50 ? 'Solid base. Work to do.' :
     'High growth potential.';
 
-  const weakest = [...metricsList].sort((a, b) => a.score - b.score)[0];
+  const scored = metricsList.filter(
+    (m): m is typeof m & { score: number } => m.score !== null
+  );
+  const weakest = [...scored].sort((x, y) => x.score - y.score)[0];
 
   return (
     <div className="space-y-10 animate-slide-up max-w-3xl">
@@ -98,7 +144,7 @@ export default function Results() {
             Find out <span className="text-pop">why</span> you&apos;re not a 90.
           </p>
           <p className="text-sm font-medium text-cream/70 mt-1.5">
-            {QUESTIONS.length} questions · 10 categories · zero sugarcoating · your personal fix plan
+            Pick your depth: 24, 68, or 124 questions · zero sugarcoating · your personal fix plan
           </p>
         </div>
         <span className="btn-brutal bg-pop text-white text-sm px-5 py-3 shrink-0 pointer-events-none">
@@ -113,26 +159,29 @@ export default function Results() {
         </h3>
         <div className="grid gap-4 sm:grid-cols-2">
           {metricsList.map((metric, index) => {
-            const weak = metric.score < 65;
+            const na = metric.score === null;
+            const weak = !na && metric.score! < 65;
             return (
               <motion.div
                 key={metric.name}
                 initial={{ opacity: 0, y: 16 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.07 }}
+                transition={{ delay: index * 0.05 }}
                 className={`border-[3px] border-ink p-5 shadow-brutal-sm ${
-                  weak ? 'bg-pop text-white' : 'bg-white'
+                  weak ? 'bg-pop text-white' : na ? 'bg-cream' : 'bg-white'
                 }`}
               >
                 <div className="flex items-baseline justify-between mb-3">
                   <span className="font-display text-sm uppercase">{metric.name}</span>
-                  <span className="font-display text-4xl tabular-nums">{Math.round(metric.score)}</span>
+                  <span className="font-display text-4xl tabular-nums">
+                    {na ? '—' : Math.round(metric.score!)}
+                  </span>
                 </div>
                 <div className={`h-3.5 border-[3px] ${weak ? 'border-white bg-pop' : 'border-ink bg-white'}`}>
                   <motion.div
                     initial={{ width: 0 }}
-                    animate={{ width: `${metric.score}%` }}
-                    transition={{ duration: 0.7, delay: index * 0.07 }}
+                    animate={{ width: `${metric.score ?? 0}%` }}
+                    transition={{ duration: 0.7, delay: index * 0.05 }}
                     className={`h-full ${weak ? 'bg-white' : 'bg-ink'}`}
                   />
                 </div>
@@ -141,7 +190,11 @@ export default function Results() {
                   <span>You: {metric.actual}</span>
                 </div>
                 <p className={`text-xs font-medium mt-1 ${weak ? 'text-white/80' : 'text-ink-mute'}`}>
-                  {weak ? '← your weak spot. fixable.' : metric.description}
+                  {na
+                    ? 'Not captured — rescan and smile when prompted.'
+                    : weak
+                    ? '← your weak spot. fixable.'
+                    : metric.description}
                 </p>
               </motion.div>
             );

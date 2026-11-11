@@ -784,7 +784,659 @@ export const FIXES: Record<string, Fix> = {
   'no-daylight':         { title: 'Daily daylight', description: '20–30 minutes of morning daylight anchors circadian rhythm, improves sleep, and supports vitamin D.', difficulty: 'easy', timeframe: '1–2 weeks' },
   'substances':          { title: 'Reduce substance use', description: 'Recreational drugs compound sleep, skin, and recovery damage. Reduction shows in the mirror within weeks.', difficulty: 'hard', timeframe: 'Varies' },
   'consistency':         { title: 'Systems over motivation', description: 'Attach new habits to existing ones, start embarrassingly small, track streaks. Every fix on this list only works if repeated.', difficulty: 'moderate', timeframe: 'Ongoing' },
+
+  // ── Deep-tier hyper-specific fixes (each maps to exact products) ────────────
+  'wrong-cleanser':      { title: 'Match cleanser to skin type', description: 'Oily → gel cleanser with salicylic acid. Dry → cream cleanser. Bar soap strips the barrier and makes everything worse.', difficulty: 'easy', timeframe: '2 weeks' },
+  'no-spf-reapply':      { title: 'SPF reapplication stick', description: 'One coat at 8am is gone by noon. Keep a sunscreen stick in your bag/car and reapply every 2 hours outdoors.', difficulty: 'easy', timeframe: 'Immediate' },
+  'no-vitc':             { title: 'Morning vitamin C serum', description: '10–20% L-ascorbic acid (or a stable derivative) under SPF. Brightens, fades marks, and doubles your UV defense.', difficulty: 'easy', timeframe: '4–8 weeks' },
+  'over-exfoliation':    { title: 'Stop over-exfoliating', description: 'Daily acids wreck the barrier → redness, breakouts, sensitivity. Cap at 2–3×/week and add a ceramide moisturizer.', difficulty: 'easy', timeframe: '2–3 weeks' },
+  'no-exfoliation':      { title: 'Add a chemical exfoliant', description: 'Start BHA (salicylic) or AHA (glycolic/lactic) 2×/week at night. Smoother texture and brighter tone in a month.', difficulty: 'easy', timeframe: '4 weeks' },
+  'no-ceramides':        { title: 'Upgrade to a ceramide moisturizer', description: 'Ceramides rebuild the barrier that holds water in. The difference between "moisturized" and actually repaired.', difficulty: 'easy', timeframe: '2–4 weeks' },
+  'razor-burn':          { title: 'Fix the shave', description: 'Safety razor, shave with the grain on a warm face, finish with an alcohol-free balm. Exfoliating pads prevent ingrowns.', difficulty: 'easy', timeframe: '2–4 weeks' },
+  'hot-water-face':      { title: 'Lukewarm water only', description: 'Hot water strips the skin barrier and triggers redness. Lukewarm to wash, cool to finish.', difficulty: 'easy', timeframe: '1–2 weeks' },
+  'redness':             { title: 'Redness protocol', description: 'Azelaic acid 10% is the OTC hero for persistent redness. Niacinamide helps. Constant flushing → dermatologist (rosacea).', difficulty: 'moderate', timeframe: '6–10 weeks' },
+  'hair-loss-untreated': { title: 'Start treatment NOW', description: 'Every month untreated is follicles you may not get back. Minoxidil is OTC; finasteride talk with a doctor. Laser caps stack on top.', difficulty: 'moderate', timeframe: '3–6 months' },
+  'harsh-shampoo':       { title: 'Gentler wash routine', description: 'Sulfate-free shampoo, 2–4×/week, conditioner mid-length. Daily harsh washing dries the scalp and dulls hair.', difficulty: 'easy', timeframe: '2–4 weeks' },
+  'heat-damage':         { title: 'Heat protectant, always', description: 'A $10 spray before any dryer/straightener prevents cumulative fry. Damaged hair never un-fries.', difficulty: 'easy', timeframe: 'Immediate' },
+  'hair-mechanical-damage': { title: 'Stop wrecking wet hair', description: 'Wet hair is at its weakest. Microfiber towel, pat dry, wide-tooth comb only. Never brush soaking-wet hair.', difficulty: 'easy', timeframe: 'Immediate' },
+  'beard-patchy':        { title: 'Patchy beard playbook', description: 'Either commit to the length where it connects (8–12 weeks of patience) or pick a style that works with your pattern — heavy stubble beats patchy full beard every time.', difficulty: 'moderate', timeframe: '2–3 months' },
+  'no-edge-tool':        { title: 'Get an edge trimmer', description: 'A $25 precision trimmer keeps the neckline and sideburns sharp for the 3 weeks between cuts. Sharpest ROI in grooming.', difficulty: 'easy', timeframe: 'Immediate' },
+  'never-whitened':      { title: 'Whitening strips, this week', description: 'Peroxide strips are ~$35, ADA-backed, and shift teeth several shades in 2 weeks. Single fastest smile upgrade.', difficulty: 'easy', timeframe: '2–3 weeks' },
+  'no-floss':            { title: 'Floss or water-floss daily', description: 'Inflamed gums frame your teeth badly and cause recession. A water flosser makes it a 60-second habit.', difficulty: 'easy', timeframe: '2–4 weeks' },
+  'manual-brush':        { title: 'Switch to electric', description: 'Electric brushes remove measurably more plaque with a built-in timer. Whiter-looking, healthier teeth on autopilot.', difficulty: 'easy', timeframe: '4 weeks' },
+  'staining-drinks':     { title: 'Outsmart the stains', description: 'Straw for iced drinks, water rinse after coffee/wine, whitening toothpaste for maintenance. Keep the coffee, lose the stains.', difficulty: 'easy', timeframe: '2–4 weeks' },
+  'no-tongue-scrape':    { title: 'Tongue scraper', description: '$8, ten seconds a day, dramatically fresher breath. Breath is part of your presentation whether you like it or not.', difficulty: 'easy', timeframe: 'Immediate' },
+  'gum-health':          { title: 'Bleeding gums = see a dentist', description: 'Bleeding is gingivitis until proven otherwise. Cleaning + daily floss reverses it; ignoring it costs you gum line permanently.', difficulty: 'moderate', timeframe: '4–8 weeks' },
+  'eye-rubbing':         { title: 'Stop rubbing your eyes', description: 'Chronic rubbing darkens and loosens under-eye skin. Treat the allergy (antihistamine, cold compress) instead of the itch.', difficulty: 'easy', timeframe: '2–4 weeks' },
+  'no-eye-cream':        { title: 'Caffeine eye cream', description: 'Caffeine constricts vessels under the eye — less shadow, less puff. Nightly retinol eye cream builds thicker skin long-term.', difficulty: 'easy', timeframe: '4–6 weeks' },
+  'tear-trough':         { title: 'Tear trough reality check', description: 'Hollow under-eyes are mostly genetic/structural. Sleep + hydration minimize it; beyond that it is a filler consult, not a cream.', difficulty: 'hard', timeframe: 'Varies' },
+  'sparse-lashes':       { title: 'Brow & lash density', description: 'Castor oil is cheap but weak; brow tinting adds instant density; a lash/brow serum over 3 months does the real work.', difficulty: 'easy', timeframe: '2–3 months' },
+  'frames-mismatch':     { title: 'Frames that fit your face', description: 'Glasses sit on your face all day — frame shape should counter your face shape (round face → angular frames, and vice versa). Get sized properly.', difficulty: 'easy', timeframe: 'Next purchase' },
+  'no-progression':      { title: 'Progressive overload', description: 'Muscles adapt to what they must. Log lifts, add weight or reps weekly. Same dumbbells for a year = same body for a year.', difficulty: 'moderate', timeframe: '8–12 weeks' },
+  'no-creatine':         { title: 'Creatine, daily, forever', description: '5g monohydrate daily. The most-proven supplement in existence: strength, size, and recovery. Costs pennies.', difficulty: 'easy', timeframe: '4–8 weeks' },
+  'no-vtaper':           { title: 'Build the V-taper', description: 'Lateral raises, overhead press, pull-ups, rows. Wider shoulders make the waist and face look leaner by contrast.', difficulty: 'moderate', timeframe: '3–6 months' },
+  'no-tracking':         { title: 'Track or guess forever', description: 'Monthly photos (same light, same angle) + a tape measure. You cannot improve what you refuse to measure.', difficulty: 'easy', timeframe: 'Immediate' },
+  'alcohol-sleep':       { title: 'No alcohol near bedtime', description: 'Alcohol within 3 hours of bed destroys REM and dehydrates you into a puffier morning face. Move drinks earlier or cut them.', difficulty: 'moderate', timeframe: '2 weeks' },
+  'cotton-pillowcase':   { title: 'Silk/satin pillowcase', description: 'Less friction = fewer sleep lines and less hair breakage. Cheap upgrade you benefit from 8 hours a night.', difficulty: 'easy', timeframe: 'Immediate' },
+  'no-omega3':           { title: 'Omega-3 baseline', description: 'Fatty fish 2×/week or 1–2g EPA/DHA daily. Anti-inflammatory base for skin, scalp, and recovery.', difficulty: 'easy', timeframe: '8–12 weeks' },
+  'no-vitd':             { title: 'Test and fix vitamin D', description: 'Low D is rampant and shows up in skin, hair, and energy. Test it; supplement 1000–4000 IU if low.', difficulty: 'easy', timeframe: '8–12 weeks' },
+  'low-collagen-aa':     { title: 'Collagen amino acids', description: 'Glycine/proline from bone broth, gelatin, or collagen peptides supports skin and joints. Evidence is modest — fundamentals first.', difficulty: 'easy', timeframe: '8–12 weeks' },
+  'crash-diet':          { title: 'Never crash again', description: 'Rapid loss eats muscle and deflates the face. Cap the deficit at ~500 kcal, keep protein high, lift weights while cutting.', difficulty: 'moderate', timeframe: 'Ongoing' },
+  'pillow-height':       { title: 'Fix your pillow stack', description: 'Stacked pillows crane the neck forward all night — training tech-neck while you sleep. One pillow, neutral spine.', difficulty: 'easy', timeframe: '2–4 weeks' },
+  'no-tailor':           { title: 'Tailor your top 5 pieces', description: '$15–40 per piece to make shoulders, taper, and length actually fit. Fit upgrades your whole wardrobe more than new clothes.', difficulty: 'easy', timeframe: '2 weeks' },
+  'clothes-care':        { title: 'Clothes maintenance kit', description: 'Steamer + lint roller + fabric shaver = every outfit reads intentional. Wrinkled clothing undoes everything else.', difficulty: 'easy', timeframe: 'Immediate' },
+  'chapped':             { title: 'Lip + hand upkeep', description: 'Lip balm with SPF in your pocket, hand cream at your desk, cuticle oil at night. Small details people absolutely notice.', difficulty: 'easy', timeframe: '1–2 weeks' },
 };
+
+// ═════════════════════════════════════════════════════════════════════════════
+// SURVEY TIERS
+//   quick = 24 core questions (~3 min)   — the pulse check
+//   full  = 68 questions (~10 min)       — the standard audit
+//   deep  = 128 questions (~30 min)      — hyper-specific, product-targeted
+// ═════════════════════════════════════════════════════════════════════════════
+
+export type SurveyTier = 'quick' | 'full' | 'deep';
+
+export const TIER_META: Record<
+  SurveyTier,
+  { name: string; tagline: string; count: number; minutes: string }
+> = {
+  quick: { name: 'The Pulse', tagline: 'Fast read on the big levers', count: 24, minutes: '~3 min' },
+  full: { name: 'The Audit', tagline: 'Full habits breakdown + fix plan', count: 68, minutes: '~10 min' },
+  deep: { name: 'The Deep Scan', tagline: 'Hyper-specific — maps every issue to exact products', count: 128, minutes: '~30 min' },
+};
+
+// The 24 highest-signal questions for the quick tier
+const QUICK_IDS = new Set([
+  'skin-1', 'skin-3', 'skin-5',
+  'hair-2', 'hair-3', 'hair-6',
+  'jaw-2', 'jaw-5', 'jaw-8',
+  'eyes-1', 'eyes-4',
+  'body-1', 'body-2', 'body-6',
+  'sleep-1', 'sleep-3',
+  'nutrition-1', 'nutrition-2',
+  'posture-1',
+  'style-1', 'style-2',
+  'habits-1', 'habits-2', 'habits-3',
+]);
+
+// ── Deep-dive questions (deep tier only) ─────────────────────────────────────
+// Hyper-specific: each flag maps to an exact product or protocol in FIXES.
+export const DEEP_QUESTIONS: SurveyQuestion[] = [
+  // SKIN (10)
+  {
+    id: 'dskin-1', category: 'skin',
+    text: 'Does your cleanser match your skin type?',
+    options: [
+      { label: 'Yes — chosen for my skin type', points: 10 },
+      { label: 'No idea what type it is', points: 4, flags: ['wrong-cleanser'] },
+      { label: 'I use bar soap / body wash on my face', points: 1, flags: ['wrong-cleanser'] },
+    ],
+  },
+  {
+    id: 'dskin-2', category: 'skin',
+    text: 'What retinoid are you on?',
+    options: [
+      { label: 'Prescription tretinoin/adapalene', points: 10 },
+      { label: 'OTC retinol', points: 8 },
+      { label: 'None', points: 3, flags: ['no-actives'] },
+    ],
+  },
+  {
+    id: 'dskin-3', category: 'skin',
+    text: 'Do you reapply sunscreen when outside more than 2 hours?',
+    options: [
+      { label: 'Yes — stick or spray on me', points: 10 },
+      { label: 'One morning coat only', points: 5, flags: ['no-spf-reapply'] },
+      { label: "I don't wear SPF at all", points: 0, flags: ['no-spf'] },
+    ],
+  },
+  {
+    id: 'dskin-4', category: 'skin',
+    text: 'Do you use a vitamin C serum in the morning?',
+    options: [
+      { label: 'Yes, daily under SPF', points: 10 },
+      { label: 'Own one, rarely use it', points: 5, flags: ['no-vitc'] },
+      { label: 'No', points: 4, flags: ['no-vitc'] },
+    ],
+  },
+  {
+    id: 'dskin-5', category: 'skin',
+    text: 'How often do you chemically exfoliate (AHA/BHA)?',
+    options: [
+      { label: '2–3× a week', points: 10 },
+      { label: 'Daily — more is better, right?', points: 3, flags: ['over-exfoliation'] },
+      { label: 'Never', points: 4, flags: ['no-exfoliation'] },
+    ],
+  },
+  {
+    id: 'dskin-6', category: 'skin',
+    text: 'Does your moisturizer contain ceramides or is it just "lotion"?',
+    options: [
+      { label: 'Ceramide/barrier formula', points: 10 },
+      { label: 'Whatever was cheapest', points: 5, flags: ['no-ceramides'] },
+      { label: "I don't moisturize", points: 2, flags: ['no-routine'] },
+    ],
+  },
+  {
+    id: 'dskin-7', category: 'skin',
+    text: 'Do you get razor burn or ingrown hairs after shaving?',
+    options: [
+      { label: 'No', points: 10 },
+      { label: 'Sometimes on the neck', points: 5, flags: ['razor-burn'] },
+      { label: 'Every shave', points: 2, flags: ['razor-burn'] },
+    ],
+  },
+  {
+    id: 'dskin-8', category: 'skin',
+    text: 'How hot is the water you wash your face with?',
+    options: [
+      { label: 'Lukewarm/cool', points: 10 },
+      { label: 'Warm', points: 7 },
+      { label: 'Hot — shower-steam hot', points: 3, flags: ['hot-water-face'] },
+    ],
+  },
+  {
+    id: 'dskin-9', category: 'skin',
+    text: 'Do you deal with persistent redness or flushing (cheeks, nose)?',
+    options: [
+      { label: 'No', points: 10 },
+      { label: 'Occasional flushing', points: 6, flags: ['redness'] },
+      { label: 'Constant visible redness', points: 2, flags: ['redness'] },
+    ],
+  },
+  {
+    id: 'dskin-10', category: 'skin',
+    text: 'Lips: chapped or maintained?',
+    options: [
+      { label: 'Maintained — balm with SPF', points: 10 },
+      { label: 'Balm when they crack', points: 6, flags: ['chapped'] },
+      { label: 'Chronically chapped', points: 2, flags: ['chapped'] },
+    ],
+  },
+
+  // HAIR (6)
+  {
+    id: 'dhair-1', category: 'hair',
+    text: 'If your hair is thinning: are you treating it?',
+    options: [
+      { label: 'Not thinning', points: 10 },
+      { label: 'Thinning + on minoxidil/finasteride', points: 8 },
+      { label: 'Thinning + doing nothing', points: 1, flags: ['hair-loss-untreated'] },
+    ],
+  },
+  {
+    id: 'dhair-2', category: 'hair',
+    text: 'Does your shampoo have harsh sulfates, and do you wash daily?',
+    options: [
+      { label: 'Gentle shampoo, 2–4×/week', points: 10 },
+      { label: 'Whatever shampoo, daily', points: 5, flags: ['harsh-shampoo'] },
+      { label: 'No idea what’s in it', points: 4, flags: ['harsh-shampoo'] },
+    ],
+  },
+  {
+    id: 'dhair-3', category: 'hair',
+    text: 'Do you use heat (dryer, straightener) without protectant?',
+    options: [
+      { label: 'Heat protectant always / no heat', points: 10 },
+      { label: 'Sometimes skip it', points: 6, flags: ['heat-damage'] },
+      { label: 'Raw heat daily', points: 2, flags: ['heat-damage'] },
+    ],
+  },
+  {
+    id: 'dhair-4', category: 'hair',
+    text: 'How do you dry your hair?',
+    options: [
+      { label: 'Pat dry / microfiber / air', points: 10 },
+      { label: 'Vigorous towel scrub', points: 4, flags: ['hair-mechanical-damage'] },
+      { label: 'Scrub + brush it soaking wet', points: 2, flags: ['hair-mechanical-damage'] },
+    ],
+  },
+  {
+    id: 'dhair-5', category: 'hair',
+    text: 'Beard (if you grow one): is patchiness an issue?',
+    options: [
+      { label: 'No beard / fills in fine', points: 10 },
+      { label: 'Patchy — I let it ride', points: 4, flags: ['beard-patchy'] },
+      { label: 'Patchy — ruins the look', points: 2, flags: ['beard-patchy'] },
+    ],
+  },
+  {
+    id: 'dhair-6', category: 'hair',
+    text: 'Between barber visits, do you maintain your neckline/edges?',
+    options: [
+      { label: 'Yes — own an edge trimmer', points: 10 },
+      { label: 'Let it grow wild until the next cut', points: 4, flags: ['no-edge-tool'] },
+    ],
+  },
+
+  // JAW & DENTAL (7)
+  {
+    id: 'djaw-1', category: 'jaw',
+    text: 'Have you ever actually whitened your teeth?',
+    options: [
+      { label: 'Yes — strips/trays, maintained', points: 10 },
+      { label: 'Once, years ago', points: 5, flags: ['never-whitened'] },
+      { label: 'Never', points: 3, flags: ['never-whitened'] },
+    ],
+  },
+  {
+    id: 'djaw-2', category: 'jaw',
+    text: 'How often do you floss (or water floss)?',
+    options: [
+      { label: 'Daily', points: 10 },
+      { label: 'Few times a week', points: 6, flags: ['no-floss'] },
+      { label: 'Basically never', points: 1, flags: ['no-floss'] },
+    ],
+  },
+  {
+    id: 'djaw-3', category: 'jaw',
+    text: 'Electric or manual toothbrush?',
+    options: [
+      { label: 'Electric', points: 10 },
+      { label: 'Manual, thorough', points: 7, flags: ['manual-brush'] },
+      { label: 'Manual, 30-second scrub', points: 3, flags: ['manual-brush'] },
+    ],
+  },
+  {
+    id: 'djaw-4', category: 'jaw',
+    text: 'Coffee, tea, or red wine — how do they hit your teeth?',
+    options: [
+      { label: 'Rarely drink them / use a straw + rinse', points: 10 },
+      { label: 'Daily coffee, no countermeasures', points: 4, flags: ['staining-drinks'] },
+      { label: 'Multiple staining drinks daily', points: 2, flags: ['staining-drinks'] },
+    ],
+  },
+  {
+    id: 'djaw-5', category: 'jaw',
+    text: 'Do you scrape your tongue?',
+    options: [
+      { label: 'Daily', points: 10 },
+      { label: 'Sometimes', points: 6 },
+      { label: 'Never heard of it', points: 3, flags: ['no-tongue-scrape'] },
+    ],
+  },
+  {
+    id: 'djaw-6', category: 'jaw',
+    text: 'Do your gums bleed when brushing or flossing?',
+    options: [
+      { label: 'No', points: 10 },
+      { label: 'Occasionally', points: 5, flags: ['gum-health'] },
+      { label: 'Regularly', points: 1, flags: ['gum-health'] },
+    ],
+  },
+  {
+    id: 'djaw-7', category: 'jaw',
+    text: 'If you grind your teeth: do you wear a night guard?',
+    options: [
+      { label: "Don't grind", points: 10 },
+      { label: 'Grind + wear a guard', points: 8 },
+      { label: 'Grind + no guard', points: 2, flags: ['bruxism'] },
+    ],
+  },
+
+  // EYES (6)
+  {
+    id: 'deyes-1', category: 'eyes',
+    text: 'Do you rub your eyes a lot (allergies, habit)?',
+    options: [
+      { label: 'Rarely', points: 10 },
+      { label: 'Allergy season only', points: 6, flags: ['eye-rubbing'] },
+      { label: 'Constantly', points: 2, flags: ['eye-rubbing'] },
+    ],
+  },
+  {
+    id: 'deyes-2', category: 'eyes',
+    text: 'Do you use an eye cream (caffeine or retinol-based)?',
+    options: [
+      { label: 'Yes, nightly', points: 10 },
+      { label: 'Sporadically', points: 6, flags: ['no-eye-cream'] },
+      { label: 'No', points: 4, flags: ['no-eye-cream'] },
+    ],
+  },
+  {
+    id: 'deyes-3', category: 'eyes',
+    text: 'Your under-eyes: hollow/sunken, or puffy/baggy?',
+    options: [
+      { label: 'Neither, flat and smooth', points: 10 },
+      { label: 'Hollow — visible tear trough', points: 4, flags: ['tear-trough'] },
+      { label: 'Puffy bags', points: 4, flags: ['puffiness'] },
+    ],
+  },
+  {
+    id: 'deyes-4', category: 'eyes',
+    text: 'Lashes and brows: thin or sparse?',
+    options: [
+      { label: 'Full', points: 10 },
+      { label: 'Brows sparse at the tails', points: 5, flags: ['sparse-lashes'] },
+      { label: 'Both thin/sparse', points: 3, flags: ['sparse-lashes'] },
+    ],
+  },
+  {
+    id: 'deyes-5', category: 'eyes',
+    text: 'Long screen sessions: do you take breaks (20-20-20)?',
+    options: [
+      { label: 'Yes, regularly', points: 10 },
+      { label: 'When I remember', points: 6 },
+      { label: 'Hours of unbroken staring', points: 2, flags: ['eye-strain'] },
+    ],
+  },
+  {
+    id: 'deyes-6', category: 'eyes',
+    text: 'If you wear glasses: do the frames fit your face shape?',
+    options: [
+      { label: 'Chosen for my face / no glasses', points: 10 },
+      { label: 'Never considered frame shape', points: 5, flags: ['frames-mismatch'] },
+      { label: 'They slide, sit crooked, wrong size', points: 3, flags: ['frames-mismatch'] },
+    ],
+  },
+
+  // BODY (6)
+  {
+    id: 'dbody-1', category: 'body',
+    text: 'Is your training progressive (adding weight/reps over time)?',
+    options: [
+      { label: 'Yes, tracked and progressing', points: 10 },
+      { label: 'Same weights for months', points: 5, flags: ['no-progression'] },
+      { label: "Don't train", points: 2, flags: ['no-training'] },
+    ],
+  },
+  {
+    id: 'dbody-2', category: 'body',
+    text: 'Do you train your neck directly?',
+    options: [
+      { label: 'Yes, weekly', points: 10 },
+      { label: 'No, but traps get work', points: 6 },
+      { label: 'Never touched it', points: 4, flags: ['thin-neck'] },
+    ],
+  },
+  {
+    id: 'dbody-3', category: 'body',
+    text: 'Do you take creatine?',
+    options: [
+      { label: 'Daily 5g', points: 10 },
+      { label: 'On and off', points: 6, flags: ['no-creatine'] },
+      { label: 'No', points: 5, flags: ['no-creatine'] },
+    ],
+  },
+  {
+    id: 'dbody-4', category: 'body',
+    text: 'Do you train side delts and upper back for the V-taper?',
+    options: [
+      { label: 'Yes — lateral raises, rows, pull-ups', points: 10 },
+      { label: 'Mostly chest and arms', points: 5, flags: ['no-vtaper'] },
+      { label: "Don't train", points: 2, flags: ['no-training'] },
+    ],
+  },
+  {
+    id: 'dbody-5', category: 'body',
+    text: 'Do you track progress (photos, tape measurements, scale trend)?',
+    options: [
+      { label: 'Yes, consistently', points: 10 },
+      { label: 'Scale only', points: 6, flags: ['no-tracking'] },
+      { label: 'Nothing tracked', points: 3, flags: ['no-tracking'] },
+    ],
+  },
+  {
+    id: 'dbody-6', category: 'body',
+    text: 'Daily step count?',
+    options: [
+      { label: '8k+', points: 10 },
+      { label: '4–8k', points: 6 },
+      { label: 'Under 4k', points: 2, flags: ['sedentary'] },
+    ],
+  },
+
+  // SLEEP (5)
+  {
+    id: 'dsleep-1', category: 'sleep',
+    text: 'Alcohol within 3 hours of bed?',
+    options: [
+      { label: 'Never / rarely', points: 10 },
+      { label: 'Weekends', points: 5, flags: ['alcohol-sleep'] },
+      { label: 'Most nights', points: 1, flags: ['alcohol-sleep'] },
+    ],
+  },
+  {
+    id: 'dsleep-2', category: 'sleep',
+    text: 'What is your pillowcase made of?',
+    options: [
+      { label: 'Silk/satin', points: 10 },
+      { label: 'Cotton, washed weekly', points: 7 },
+      { label: 'Cotton, rarely washed', points: 2, flags: ['cotton-pillowcase', 'dirty-pillowcase'] },
+    ],
+  },
+  {
+    id: 'dsleep-3', category: 'sleep',
+    text: 'Do you get sunlight within 30 minutes of waking?',
+    options: [
+      { label: 'Most days', points: 10 },
+      { label: 'Sometimes', points: 6 },
+      { label: 'Phone in bed, blinds closed', points: 2, flags: ['no-daylight'] },
+    ],
+  },
+  {
+    id: 'dsleep-4', category: 'sleep',
+    text: 'Bedroom temperature at night?',
+    options: [
+      { label: 'Cool (18–20°C / 65–68°F)', points: 10 },
+      { label: 'Warm but tolerable', points: 6 },
+      { label: 'Hot / stuffy', points: 2, flags: ['sleep-environment'] },
+    ],
+  },
+  {
+    id: 'dsleep-5', category: 'sleep',
+    text: 'Head position: flat, one pillow, or stacked pillows?',
+    options: [
+      { label: 'One supportive pillow, neutral neck', points: 10 },
+      { label: 'Two+ stacked pillows', points: 4, flags: ['pillow-height'] },
+      { label: 'Face-down in the pillow', points: 2, flags: ['stomach-sleeping'] },
+    ],
+  },
+
+  // NUTRITION (6)
+  {
+    id: 'dnut-1', category: 'nutrition',
+    text: 'Omega-3s: fatty fish 2×/week or a supplement?',
+    options: [
+      { label: 'Yes', points: 10 },
+      { label: 'Occasionally', points: 6, flags: ['no-omega3'] },
+      { label: 'Neither', points: 3, flags: ['no-omega3'] },
+    ],
+  },
+  {
+    id: 'dnut-2', category: 'nutrition',
+    text: 'Vitamin D: tested or supplemented?',
+    options: [
+      { label: 'Tested and in range / supplementing', points: 10 },
+      { label: 'No idea, lots of sun though', points: 6 },
+      { label: 'Never tested, no supplement, indoors', points: 3, flags: ['no-vitd'] },
+    ],
+  },
+  {
+    id: 'dnut-3', category: 'nutrition',
+    text: 'Collagen-supporting protein (bone broth, gelatin, glycine)?',
+    options: [
+      { label: 'Regular part of diet', points: 10 },
+      { label: 'Rarely', points: 6, flags: ['low-collagen-aa'] },
+      { label: 'Never — muscle meat only', points: 4, flags: ['low-collagen-aa'] },
+    ],
+  },
+  {
+    id: 'dnut-4', category: 'nutrition',
+    text: 'Liquid calories: sodas, juices, sweet coffees per day?',
+    options: [
+      { label: 'Zero to one', points: 10 },
+      { label: 'Two', points: 5, flags: ['sugar'] },
+      { label: 'Three or more', points: 1, flags: ['sugar'] },
+    ],
+  },
+  {
+    id: 'dnut-5', category: 'nutrition',
+    text: 'Have you ever crash-dieted (very low calories, fast loss)?',
+    options: [
+      { label: 'No, steady habits', points: 10 },
+      { label: 'Once or twice', points: 6, flags: ['crash-diet'] },
+      { label: 'It’s my pattern', points: 2, flags: ['crash-diet'] },
+    ],
+  },
+  {
+    id: 'dnut-6', category: 'nutrition',
+    text: 'Late-night eating (within 2h of bed)?',
+    options: [
+      { label: 'Rarely', points: 10 },
+      { label: 'Sometimes', points: 6 },
+      { label: 'Every night — wake up puffy', points: 2, flags: ['sodium'] },
+    ],
+  },
+
+  // POSTURE (4)
+  {
+    id: 'dpos-1', category: 'posture',
+    text: 'Is your monitor/laptop at eye level?',
+    options: [
+      { label: 'Yes — riser or stand', points: 10 },
+      { label: 'Slightly below', points: 6, flags: ['tech-neck'] },
+      { label: 'Laptop flat on a desk/lap all day', points: 2, flags: ['tech-neck'] },
+    ],
+  },
+  {
+    id: 'dpos-2', category: 'posture',
+    text: 'Do you do chin tucks or deep neck flexor work?',
+    options: [
+      { label: 'Yes, part of my routine', points: 10 },
+      { label: 'Know about them, don’t do them', points: 5, flags: ['forward-head'] },
+      { label: 'Never heard of them', points: 4, flags: ['forward-head'] },
+    ],
+  },
+  {
+    id: 'dpos-3', category: 'posture',
+    text: 'Hours seated without standing up?',
+    options: [
+      { label: 'Break every 30–60 min', points: 10 },
+      { label: '2–3 hour blocks', points: 5, flags: ['sedentary'] },
+      { label: 'Marathon 4h+ sits', points: 2, flags: ['sedentary'] },
+    ],
+  },
+  {
+    id: 'dpos-4', category: 'posture',
+    text: 'In candid photos, is your head jutting forward?',
+    options: [
+      { label: 'No, stacked and tall', points: 10 },
+      { label: 'Sometimes', points: 5, flags: ['forward-head'] },
+      { label: 'Every photo', points: 1, flags: ['forward-head'] },
+    ],
+  },
+
+  // STYLE (5)
+  {
+    id: 'dstyle-1', category: 'style',
+    text: 'Have you ever had anything tailored?',
+    options: [
+      { label: 'Yes — key pieces are tailored', points: 10 },
+      { label: 'No, but sizes fit okay', points: 6, flags: ['no-tailor'] },
+      { label: 'Everything off the rack, baggy', points: 2, flags: ['no-tailor', 'fit'] },
+    ],
+  },
+  {
+    id: 'dstyle-2', category: 'style',
+    text: 'Do your sunglasses flatter your face shape?',
+    options: [
+      { label: 'Yes, picked deliberately', points: 10 },
+      { label: 'Gas station specials', points: 5, flags: ['frames-mismatch'] },
+      { label: 'Don’t wear any', points: 6 },
+    ],
+  },
+  {
+    id: 'dstyle-3', category: 'style',
+    text: 'Shoes: clean and maintained?',
+    options: [
+      { label: 'Clean, shaped, rotated', points: 10 },
+      { label: 'Decent but tired', points: 6 },
+      { label: 'Beat up', points: 2, flags: ['grooming-neglect'] },
+    ],
+  },
+  {
+    id: 'dstyle-4', category: 'style',
+    text: 'Hands: nails, cuticles, skin — maintained?',
+    options: [
+      { label: 'Yes — filed, cuticle oil, hand cream', points: 10 },
+      { label: 'Clipped when long', points: 6 },
+      { label: 'Bitten / cracked / neglected', points: 2, flags: ['chapped', 'grooming-neglect'] },
+    ],
+  },
+  {
+    id: 'dstyle-5', category: 'style',
+    text: 'Clothes care: steamer/iron, lint roller, de-piller?',
+    options: [
+      { label: 'Own and use them', points: 10 },
+      { label: 'Iron in emergencies', points: 6 },
+      { label: 'Wrinkled is my texture', points: 2, flags: ['clothes-care'] },
+    ],
+  },
+
+  // HABITS (5)
+  {
+    id: 'dhab-1', category: 'habits',
+    text: 'Do you take progress photos (face + body)?',
+    options: [
+      { label: 'Monthly, same lighting', points: 10 },
+      { label: 'Random selfies count?', points: 5, flags: ['no-tracking'] },
+      { label: 'Never', points: 4, flags: ['no-tracking'] },
+    ],
+  },
+  {
+    id: 'dhab-2', category: 'habits',
+    text: 'Daily grooming time (shower aside)?',
+    options: [
+      { label: '10–20 min — routine runs itself', points: 10 },
+      { label: '5 min rush', points: 6 },
+      { label: 'Roll out of bed and go', points: 2, flags: ['grooming-neglect'] },
+    ],
+  },
+  {
+    id: 'dhab-3', category: 'habits',
+    text: 'How is your hydration tracked?',
+    options: [
+      { label: 'Bottle with me all day', points: 10 },
+      { label: 'Drink when thirsty', points: 6, flags: ['dehydration'] },
+      { label: 'Mostly coffee and soda', points: 2, flags: ['dehydration'] },
+    ],
+  },
+  {
+    id: 'dhab-4', category: 'habits',
+    text: 'Monthly budget you could put toward looksmaxxing?',
+    options: [
+      { label: 'Under $25 — fundamentals only', points: 10 },
+      { label: '$25–100', points: 10 },
+      { label: '$100–300', points: 10 },
+      { label: '$300+ — give me everything', points: 10 },
+    ],
+  },
+  {
+    id: 'dhab-5', category: 'habits',
+    text: 'Biggest blocker to following a plan?',
+    options: [
+      { label: 'Nothing — just need the plan', points: 10 },
+      { label: 'Time', points: 7, flags: ['consistency'] },
+      { label: 'Money', points: 7 },
+      { label: 'Motivation', points: 5, flags: ['consistency'] },
+    ],
+  },
+];
+
+export const ALL_QUESTIONS: SurveyQuestion[] = [...QUESTIONS, ...DEEP_QUESTIONS];
+
+/** Question list for a tier, grouped so categories stay contiguous. */
+export function getQuestionsForTier(tier: SurveyTier): SurveyQuestion[] {
+  const pool =
+    tier === 'quick'
+      ? QUESTIONS.filter((q) => QUICK_IDS.has(q.id))
+      : tier === 'full'
+      ? QUESTIONS
+      : ALL_QUESTIONS;
+  return CATEGORIES.flatMap((c) => pool.filter((q) => q.category === c.id));
+}
 
 // ── Scoring helpers ──────────────────────────────────────────────────────────
 export interface SurveyResult {
@@ -797,7 +1449,7 @@ export function scoreSurvey(answers: Record<string, number>): SurveyResult {
   const byCategory: Record<string, { earned: number; max: number }> = {};
   const flags: string[] = [];
 
-  for (const q of QUESTIONS) {
+  for (const q of ALL_QUESTIONS) {
     const idx = answers[q.id];
     if (idx === undefined || !q.options[idx]) continue;
     const opt = q.options[idx];
