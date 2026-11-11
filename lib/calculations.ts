@@ -40,24 +40,29 @@ const L = {
 };
 
 // MediaPipe gives normalised [0,1] coords in SCREEN space.
-// Video is 16:9, so 1 x-unit ≠ 1 y-unit in real pixels.
-// We correct every mixed horizontal/vertical calculation by this factor.
-const ASPECT = 16 / 9; // videoWidth / videoHeight
+// A 16:9 video means 1 x-unit ≠ 1 y-unit in real pixels.
+// Every mixed horizontal/vertical calculation is corrected by the source's
+// actual aspect ratio (width / height); 16:9 is the webcam default.
+const ASPECT = 16 / 9;
 
 // Convert normalised landmark to aspect-corrected "pixel-proportional" space
 function px(lm: { x: number; y: number }) {
   return { x: lm.x * ASPECT, y: lm.y };
 }
 
-// Score that peaks at `ideal`, is 100 there, and falls to 0 at ±`tolerance`
-function bandScore(value: number, ideal: number, tolerance: number): number {
-  return Math.max(0, Math.min(100, 100 * (1 - Math.abs(value - ideal) / tolerance)));
+// Score that peaks at `ideal` (100) and falls off smoothly (gaussian).
+// `sigma` = deviation at which the score is ~61; 2×sigma ≈ 14; never hard-zero.
+// A smooth curve matters because camera distance, head pitch, and lens
+// perspective shift these ratios — a hard linear band punishes normal faces.
+function bandScore(value: number, ideal: number, sigma: number): number {
+  const z = (value - ideal) / sigma;
+  return Math.max(0, Math.min(100, 100 * Math.exp(-0.5 * z * z)));
 }
 
 // ─── 1. Canthal tilt ─────────────────────────────────────────────────────────
 // Positive = outer eye corner is HIGHER than inner (aesthetically desirable)
 // Corrected atan2 direction + aspect ratio applied to x component.
-export function computeCanthalTilt(lm: any[]): { score: number; degrees: number } {
+export function computeCanthalTilt(lm: any[], aspect: number = ASPECT): { score: number; degrees: number } {
   const lo = lm[L.leftEyeOuter],  li = lm[L.leftEyeInner];
   const ri = lm[L.rightEyeInner], ro = lm[L.rightEyeOuter];
   if (!lo || !li || !ri || !ro) return { score: 50, degrees: 0 };
@@ -67,59 +72,64 @@ export function computeCanthalTilt(lm: any[]): { score: number; degrees: number 
   // Positive tilt ⟹ outer is HIGHER ⟹ inner.y > outer.y ⟹ dy > 0
   const leftDeg = Math.atan2(
     li.y - lo.y,              // dy — positive when outer is higher ✓
-    (li.x - lo.x) * ASPECT   // dx corrected for aspect ratio
+    (li.x - lo.x) * aspect   // dx corrected for aspect ratio
   ) * (180 / Math.PI);
 
   // Right eye: vector from inner (362) → outer (263)
   // Outer is RIGHT of inner. Positive tilt ⟹ outer is higher ⟹ inner.y > outer.y
   const rightDeg = Math.atan2(
     ri.y - ro.y,              // dy — positive when outer is higher ✓
-    (ro.x - ri.x) * ASPECT   // dx corrected
+    (ro.x - ri.x) * aspect   // dx corrected
   ) * (180 / Math.PI);
 
   const avg = (leftDeg + rightDeg) / 2;
 
-  // Attractive range: +3° to +10°, ideal ~+6°. Tolerance ±10°.
-  const score = bandScore(avg, 6, 10);
+  // Attractive range: +3° to +10°, ideal ~+6°. Sigma 7°.
+  const score = bandScore(avg, 6, 7);
   return { score, degrees: Math.round(avg * 10) / 10 };
 }
 
 // ─── 2. Face Width-to-Height Ratio ───────────────────────────────────────────
 // Uses aspect-corrected pixel proportions for a real-world ratio.
-export function computeFwhr(lm: any[]): { score: number; value: number } {
+export function computeFwhr(lm: any[], aspect: number = ASPECT): { score: number; value: number } {
   const lc = lm[L.leftCheek], rc = lm[L.rightCheek];
   const ft = lm[L.foreheadTop], cb = lm[L.chinBottom];
   if (!lc || !rc || !ft || !cb) return { score: 50, value: 0 };
 
-  // Horizontal distance — multiply by ASPECT for real pixel proportions
-  const realWidth  = Math.abs(rc.x - lc.x) * ASPECT;
+  // Horizontal distance — multiply by aspect for real pixel proportions
+  const realWidth  = Math.abs(rc.x - lc.x) * aspect;
   // Vertical distance — no correction needed
   const realHeight = Math.abs(cb.y - ft.y);
   if (realHeight === 0) return { score: 50, value: 0 };
 
   const fwhr = realWidth / realHeight;
 
-  // Total face fWHR: typical attractive range 1.55–1.95, ideal ~1.75.
-  // Most people fall between 1.3 and 2.1. Tolerance ±0.55.
-  const score = bandScore(fwhr, 1.75, 0.55);
+  // CALIBRATED TO THIS FORMULA'S REAL OUTPUT, not the literature fWHR
+  // (which divides by brow-to-lip height, not full face height).
+  // Width / full-face-height for real faces lands ~0.70–0.95 after aspect
+  // correction (bizygomatic ~13.9cm vs forehead-to-chin ~17.5cm ≈ 0.79).
+  // Ideal ~0.82, sigma 0.15.
+  const score = bandScore(fwhr, 0.82, 0.15);
   return { score, value: Math.round(fwhr * 100) / 100 };
 }
 
 // ─── 3. Midface Ratio ────────────────────────────────────────────────────────
 // Eye span (horizontal) vs lower-face height (vertical), aspect-corrected.
-export function computeMidfaceRatio(lm: any[]): { score: number; value: number } {
+export function computeMidfaceRatio(lm: any[], aspect: number = ASPECT): { score: number; value: number } {
   const lo = lm[L.leftEyeOuter], ro = lm[L.rightEyeOuter];
   const ul = lm[L.upperLip],     cb = lm[L.chinBottom];
   if (!lo || !ro || !ul || !cb) return { score: 50, value: 0 };
 
-  const realEyeSpan   = Math.abs(ro.x - lo.x) * ASPECT;
+  const realEyeSpan   = Math.abs(ro.x - lo.x) * aspect;
   const realLowerFace = Math.abs(cb.y - ul.y);
   if (realLowerFace === 0) return { score: 50, value: 0 };
 
   const ratio = realEyeSpan / realLowerFace;
 
-  // Eye span / lower face typically 0.7–1.3, ideal ~1.0. Tolerance ±0.4.
-  const score = bandScore(ratio, 1.0, 0.4);
+  // CALIBRATED TO THIS FORMULA'S REAL OUTPUT: outer-canthus span (~9cm)
+  // over upper-lip-to-chin (~5cm) lands ~1.5–2.4 in practice; webcam
+  // perspective pushes it higher. Ideal ~1.9, sigma 0.45.
+  const score = bandScore(ratio, 1.9, 0.45);
   return { score, value: Math.round(ratio * 100) / 100 };
 }
 
@@ -135,9 +145,9 @@ export function computeJawlineAngle(lm: any[]): { score: number; angle: number }
   const faceWidth = Math.abs(rc.x - lc.x);
   if (faceWidth === 0) return { score: 50, angle: 0 };
 
-  // Jaw-to-face width ratio. ~0.7–0.85 is well-defined. Ideal ~0.78.
+  // Jaw-to-face width ratio. ~0.7–0.85 is well-defined. Ideal ~0.78, sigma 0.12.
   const ratio = jawWidth / faceWidth;
-  const score = bandScore(ratio, 0.78, 0.2);
+  const score = bandScore(ratio, 0.78, 0.12);
 
   // Return ratio × 100 as the "angle" field so the UI can display it
   return { score, angle: Math.round(ratio * 100) / 100 };
@@ -181,8 +191,8 @@ export function calculateBaseline(_lm: any[]): BaselineData {
   return {
     baselineType: 'balanced',
     idealCanthalTilt: 6,
-    idealFwhr: 1.75,
-    idealMidfaceRatio: 1.0,
+    idealFwhr: 0.82,
+    idealMidfaceRatio: 1.9,
     idealJawlineDefinition: 78,
   };
 }
@@ -212,10 +222,10 @@ export function averageMetrics(frames: FacialMetrics[]): FacialMetrics {
 }
 
 // ─── Single frame analysis ───────────────────────────────────────────────────
-export function analyzeFrame(landmarks: any[]): FacialMetrics {
-  const ct = computeCanthalTilt(landmarks);
-  const fw = computeFwhr(landmarks);
-  const mf = computeMidfaceRatio(landmarks);
+export function analyzeFrame(landmarks: any[], aspect: number = ASPECT): FacialMetrics {
+  const ct = computeCanthalTilt(landmarks, aspect);
+  const fw = computeFwhr(landmarks, aspect);
+  const mf = computeMidfaceRatio(landmarks, aspect);
   const jw = computeJawlineAngle(landmarks);
   const sy = computeSymmetry(landmarks);
 

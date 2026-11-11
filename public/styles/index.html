@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LOOKSMAX — Style Directions</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#17181B; color:#E8E8E8; font-family: -apple-system, 'Inter', sans-serif; padding: 48px 24px; }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 24px; margin-bottom: 6px; }
+  p.sub { color:#9A9A9A; font-size: 14px; margin-bottom: 32px; }
+  a.card { display:block; text-decoration:none; color:inherit; border:1px solid #2E3035; border-radius: 12px; padding: 22px 24px; margin-bottom: 14px; transition: border-color .15s, background .15s; }
+  a.card:hover { border-color:#6B6E76; background:#1D1F23; }
+  .row { display:flex; justify-content:space-between; align-items:baseline; margin-bottom: 6px;}
+  .name { font-weight: 700; font-size: 17px; }
+  .tag { font-size: 11px; color:#9A9A9A; letter-spacing:.08em; text-transform: uppercase; }
+  .desc { font-size: 13px; color:#B9B9B9; line-height:1.55; }
+  .chips { margin-top:10px; display:flex; gap:6px; }
+  .chip { width: 22px; height: 22px; border-radius: 6px; border:1px solid rgba(255,255,255,.18); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Style Directions</h1>
+    <p class="sub">Four ways LOOKSMAX could look. Click through each — same product, four personalities.</p>
+
+    <a class="card" href="/styles/clinical.html">
+      <div class="row"><span class="name">A — Clinical Editorial</span><span class="tag">Light · Serif</span></div>
+      <div class="desc">Dermatology-report energy. Warm paper background, Fraunces serif headlines, hairline rules, restrained green accent. Feels credible, premium, adult.</div>
+      <div class="chips"><span class="chip" style="background:#FAF8F4"></span><span class="chip" style="background:#1A1A18"></span><span class="chip" style="background:#2F5A3C"></span></div>
+    </a>
+
+    <a class="card" href="/styles/instrument.html">
+      <div class="row"><span class="name">B — Instrument Lab</span><span class="tag">Dark · Mono</span></div>
+      <div class="desc">Precision-instrument UI. Monochrome panels on a hard grid, IBM Plex Mono readouts, one amber signal color, zero glow. Feels technical and serious, not gamer-y.</div>
+      <div class="chips"><span class="chip" style="background:#0B0C0E"></span><span class="chip" style="background:#D7DBE0"></span><span class="chip" style="background:#FFB224"></span></div>
+    </a>
+
+    <a class="card" href="/styles/noir.html">
+      <div class="row"><span class="name">C — Luxury Noir</span><span class="tag">Black · Gold</span></div>
+      <div class="desc">High-end grooming house. Cormorant serif, champagne-gold accents, generous whitespace, wide letter-spaced caps. Feels exclusive and expensive — sells product recs well.</div>
+      <div class="chips"><span class="chip" style="background:#0A0908"></span><span class="chip" style="background:#C9A96A"></span><span class="chip" style="background:#EDE6DA"></span></div>
+    </a>
+
+    <a class="card" href="/styles/brutalist.html">
+      <div class="row"><span class="name">D — Neo-Brutalist</span><span class="tag">Loud · Pop</span></div>
+      <div class="desc">TikTok-native energy. Cream background, Archivo Black type, hard 3px borders and offset shadows, orange pop color. Feels fun, shareable, meme-aware — closest to Umax's audience.</div>
+      <div class="chips"><span class="chip" style="background:#F2EEE3"></span><span class="chip" style="background:#121212"></span><span class="chip" style="background:#FF4D00"></span></div>
+    </a>
+  </div>
+</body>
+</html>

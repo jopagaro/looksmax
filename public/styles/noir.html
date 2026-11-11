@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Style C — Luxury Noir</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --black: #0A0908;
+    --coal: #141210;
+    --gold: #C9A96A;
+    --gold-dim: #8A744C;
+    --cream: #EDE6DA;
+    --dim: #7A7265;
+    --line: #2A2622;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background: var(--black); color: var(--cream); font-family:'Jost',sans-serif; font-weight:300; -webkit-font-smoothing:antialiased; }
+  .serif { font-family:'Cormorant Garamond',serif; }
+  .wrap { max-width: 820px; margin:0 auto; padding: 0 32px; }
+
+  header { border-bottom: 1px solid var(--line); }
+  .nav { display:flex; justify-content:space-between; align-items:center; height: 72px; }
+  .logo { font-family:'Cormorant Garamond',serif; font-size: 22px; letter-spacing: 0.32em; text-transform: uppercase; }
+  .logo b { color: var(--gold); font-weight: 500; }
+  .nav span { font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--dim); }
+
+  .hero { text-align:center; padding: 84px 0 56px; }
+  .eyebrow { font-size: 10px; letter-spacing: 0.42em; text-transform: uppercase; color: var(--gold); margin-bottom: 28px; }
+  .eyebrow::before, .eyebrow::after { content:'—'; color: var(--line); margin: 0 16px; }
+  h1 { font-family:'Cormorant Garamond',serif; font-weight: 400; font-size: 64px; line-height: 1.08; letter-spacing: 0.01em; }
+  h1 em { font-style: italic; color: var(--gold); }
+  .lede { margin: 26px auto 0; max-width: 46ch; font-size: 15px; line-height: 1.9; color: var(--dim); letter-spacing: 0.04em; }
+
+  .frame { position:relative; margin: 20px 0 72px; padding: 10px; border: 1px solid var(--line); }
+  .frame::before { content:''; position:absolute; inset:-5px; border: 1px solid var(--line); pointer-events:none; opacity:.4;}
+  .viewport { aspect-ratio: 16/8.5; background: radial-gradient(ellipse at 50% 40%, #171411, #0A0908 70%); position:relative; display:flex; align-items:center; justify-content:center; }
+  .guide { width: 180px; height: 240px; border:1px solid rgba(201,169,106,.45); border-radius: 50%; }
+  .vp-label { position:absolute; bottom: 20px; width:100%; text-align:center; font-size:10px; letter-spacing:.38em; text-transform:uppercase; color: var(--gold-dim); }
+  .frame-foot { display:flex; align-items:center; justify-content:center; gap: 22px; padding: 26px 10px 16px; }
+  .btn { background:none; border: 1px solid var(--gold); color: var(--gold); font: 400 11px 'Jost'; letter-spacing: .34em; text-transform: uppercase; padding: 17px 44px; cursor:pointer; transition: all .25s;}
+  .btn:hover { background: var(--gold); color: var(--black); }
+  .btn.quiet { border-color: var(--line); color: var(--dim); }
+  .btn.quiet:hover { border-color: var(--dim); background:none; color: var(--cream); }
+
+  .divider { text-align:center; color: var(--gold-dim); font-size: 14px; margin: 0 0 44px; letter-spacing: .5em;}
+
+  .metrics { display:grid; grid-template-columns: repeat(3, 1fr); gap: 36px 48px; margin-bottom: 72px; }
+  .metric { text-align:center; padding-top: 18px; border-top: 1px solid var(--line); }
+  .m-score { font-family:'Cormorant Garamond',serif; font-size: 54px; line-height:1; color: var(--cream); }
+  .m-score.gold { color: var(--gold); }
+  .m-name { font-size: 10px; letter-spacing: .3em; text-transform: uppercase; color: var(--dim); margin-top: 10px; }
+  .m-val { font-size: 12px; color: var(--gold-dim); margin-top: 6px; font-style: italic; font-family:'Cormorant Garamond',serif; font-size:15px;}
+
+  .invite { text-align:center; border: 1px solid var(--line); padding: 44px 32px; margin-bottom: 64px; background: var(--coal);}
+  .invite h2 { font-family:'Cormorant Garamond',serif; font-weight:400; font-size: 30px; margin-bottom: 10px;}
+  .invite h2 em { font-style:italic; color:var(--gold); }
+  .invite p { font-size: 13px; color: var(--dim); letter-spacing:.05em; margin-bottom: 26px;}
+
+  footer { border-top: 1px solid var(--line); padding: 26px 0 64px; text-align:center; font-size: 10px; letter-spacing: .24em; text-transform: uppercase; color: var(--dim); }
+</style>
+</head>
+<body>
+  <header><div class="wrap nav">
+    <div class="logo">Looks<b>max</b></div>
+    <span>Private Assessment</span>
+  </div></header>
+
+  <div class="wrap">
+    <section class="hero">
+      <p class="eyebrow">Biometric Atelier</p>
+      <h1>The face you have.<br>The face you <em>could</em> have.</h1>
+      <p class="lede">A precise, private reading of your facial architecture — four hundred and seventy-eight points of it — followed by a considered programme of improvement. Nothing leaves your device.</p>
+    </section>
+
+    <div class="frame">
+      <div class="viewport">
+        <div class="guide"></div>
+        <div class="vp-label">Compose yourself within the oval</div>
+      </div>
+      <div class="frame-foot">
+        <button class="btn">Begin the Reading</button>
+        <button class="btn quiet">Submit a Portrait</button>
+      </div>
+    </div>
+
+    <p class="divider">· · ·</p>
+
+    <div class="metrics">
+      <div class="metric"><div class="m-score">72</div><div class="m-name">Canthal Tilt</div><div class="m-val">+4.2 degrees</div></div>
+      <div class="metric"><div class="m-score gold">85</div><div class="m-name">Facial Ratio</div><div class="m-val">0.91</div></div>
+      <div class="metric"><div class="m-score">61</div><div class="m-name">Midface</div><div class="m-val">2.35</div></div>
+      <div class="metric"><div class="m-score">78</div><div class="m-name">Jawline</div><div class="m-val">0.76</div></div>
+      <div class="metric"><div class="m-score gold">90</div><div class="m-name">Symmetry</div><div class="m-val">95 percent</div></div>
+      <div class="metric"><div class="m-score">77</div><div class="m-name">Composite</div><div class="m-val">of one hundred</div></div>
+    </div>
+
+    <div class="invite">
+      <h2>The <em>Consultation</em></h2>
+      <p>Sixty-eight questions. Ten disciplines. One tailored programme.</p>
+      <button class="btn">Proceed</button>
+    </div>
+
+    <footer>All analysis performed privately on your device — not medical advice</footer>
+  </div>
+</body>
+</html>

@@ -1,63 +1,79 @@
 'use client';
 
-import { useState } from 'react';
 import Scanner from '@/components/scanner/Scanner';
 import Results from '@/components/results/Results';
+import Survey from '@/components/survey/Survey';
+import Plan from '@/components/plan/Plan';
 import { useAppStore } from '@/lib/store';
 
 export default function Home() {
-  const { scanComplete, reset } = useAppStore();
+  const { stage, reset } = useAppStore();
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
+    <main className="min-h-screen bg-cream">
       {/* Header */}
-      <header className="border-b border-gray-200 bg-white/80 backdrop-blur-sm sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <header className="border-b-[3px] border-ink bg-cream sticky top-0 z-50">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div>
-              <h1 className="text-xl font-semibold text-gray-900">Facial Analysis</h1>
-              <p className="text-xs text-gray-500">AI-Powered Aesthetic Assessment</p>
-            </div>
-            {scanComplete && (
+            <h1 className="font-display text-xl tracking-tight">
+              LOOKS<span className="text-pop">MAX</span>★
+            </h1>
+            <div className="flex items-center gap-3">
+              {stage !== 'scan' && (
+                <button
+                  onClick={reset}
+                  className="btn-brutal bg-white text-ink text-xs px-4 py-2"
+                >
+                  New Scan
+                </button>
+              )}
               <button
-                onClick={reset}
-                className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-colors"
+                className="btn-brutal bg-ink text-cream text-xs px-4 py-2"
+                title="Coming soon"
               >
-                New Scan
+                Sign In
               </button>
-            )}
+            </div>
           </div>
         </div>
       </header>
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {!scanComplete ? (
-          <div className="space-y-6">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {stage === 'scan' && (
+          <div className="space-y-10">
             {/* Introduction */}
-            <div className="text-center max-w-2xl mx-auto mb-8">
-              <h2 className="text-3xl font-bold text-gray-900 mb-3">
-                Discover Your Facial Harmony
+            <div className="max-w-2xl">
+              <h2 className="font-display text-5xl sm:text-7xl uppercase leading-[0.95] tracking-tight mb-6">
+                Your face.
+                <br />
+                <span className="text-outline">Rated.</span>{' '}
+                <span className="text-pop">Fixed.</span>
               </h2>
-              <p className="text-gray-600 leading-relaxed">
-                Get instant analysis of your facial proportions and receive personalized
-                recommendations to enhance your natural features.
+              <p className="text-lg font-medium leading-relaxed max-w-xl">
+                478-point scan. Brutally honest scores. Then a{' '}
+                <b className="bg-ink text-cream px-1.5 py-0.5">68-question</b> deep-dive
+                finds exactly what&apos;s dragging you down — and how to fix it.
               </p>
             </div>
 
             {/* Scanner */}
             <Scanner />
           </div>
-        ) : (
-          <Results />
         )}
+        {stage === 'results' && <Results />}
+        {stage === 'survey' && <Survey />}
+        {stage === 'plan' && <Plan />}
       </div>
 
       {/* Footer */}
-      <footer className="border-t border-gray-200 mt-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <p className="text-center text-sm text-gray-500">
-            All processing happens locally in your browser. No data is stored or transmitted.
+      <footer className="border-t-[3px] border-ink mt-24">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+          <p className="text-[11px] font-bold uppercase tracking-wider text-center">
+            LOOKSMAX ★ All processing local — nothing uploaded, ever ★ Not medical advice
+          </p>
+          <p className="text-[10px] font-bold uppercase tracking-widest text-center text-ink-mute mt-2">
+            © {new Date().getFullYear()} Convivium LLC™ — All rights reserved
           </p>
         </div>
       </footer>

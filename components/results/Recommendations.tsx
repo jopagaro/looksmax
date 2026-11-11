@@ -79,51 +79,46 @@ export default function Recommendations({ metrics }: RecommendationsProps) {
 
   return (
     <div>
-      <div className="flex items-center gap-2 mb-4">
-        <Sparkles className="w-5 h-5 text-primary-600" />
-        <h3 className="text-lg font-semibold text-gray-900">Recommended Products</h3>
+      <div className="flex items-center gap-2.5 mb-5">
+        <Sparkles className="w-5 h-5 text-pop" strokeWidth={2.5} />
+        <h3 className="font-display text-2xl uppercase">
+          The <span className="text-pop">Gear</span>
+        </h3>
       </div>
-      <p className="text-sm text-gray-600 mb-6">
-        Based on your analysis, here are personalized recommendations to enhance your features
-      </p>
 
-      <div className="grid gap-4 md:grid-cols-2">
+      <div className="grid gap-5 md:grid-cols-2">
         {topProducts.map((product, index) => (
           <motion.div
             key={product.name}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: index * 0.1 }}
-            className="bg-white border border-gray-200 rounded-xl p-5 hover:shadow-md transition-shadow"
+            transition={{ delay: index * 0.08 }}
+            className="border-[3px] border-ink bg-white shadow-brutal-sm p-5 flex flex-col"
           >
-            <div className="flex justify-between items-start mb-3">
-              <div>
-                <h4 className="font-semibold text-gray-900 mb-1">{product.name}</h4>
-                <p className="text-sm text-gray-600 mb-2">{product.description}</p>
-                <p className="text-xs text-primary-600 bg-primary-50 inline-block px-2 py-1 rounded">
-                  {product.reason}
-                </p>
-              </div>
-            </div>
+            <h4 className="font-display text-sm uppercase mb-1.5">{product.name}</h4>
+            <p className="text-sm font-medium text-ink-soft mb-3">{product.description}</p>
+            <span className="chip-brutal !shadow-none self-start !bg-pop !text-white !border-ink mb-4">
+              {product.reason}
+            </span>
 
-            <div className="flex items-center justify-between mt-4 pt-4 border-t border-gray-100">
-              <span className="text-lg font-bold text-gray-900">{product.price}</span>
+            <div className="flex items-center justify-between mt-auto pt-4 border-t-2 border-ink/15">
+              <span className="font-display text-lg">{product.price}</span>
               <a
                 href={product.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors"
+                className="btn-brutal bg-ink text-cream text-xs px-4 py-2.5"
               >
-                View Product
-                <ExternalLink className="w-4 h-4" />
+                Get It
+                <ExternalLink className="w-3.5 h-3.5" />
               </a>
             </div>
           </motion.div>
         ))}
       </div>
 
-      <p className="text-xs text-gray-500 text-center mt-6">
-        * We earn a commission on qualifying purchases at no extra cost to you
+      <p className="text-[11px] font-bold uppercase tracking-wide text-ink-mute text-center mt-6">
+        * We earn a commission on qualifying purchases — costs you nothing extra
       </p>
     </div>
   );

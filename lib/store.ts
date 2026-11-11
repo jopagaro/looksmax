@@ -1,35 +1,28 @@
 import { create } from 'zustand';
-import { FaceLandmarkerResult } from '@mediapipe/tasks-vision';
 import { FacialMetrics, BaselineData } from './calculations';
+import { SurveyResult } from './survey';
 
 interface VideoDimensions {
   width: number;
   height: number;
 }
 
-export interface MultiAngleSessionData {
-  front: {
-    landmarks: any[];
-    videoDimensions: VideoDimensions;
-  };
-  rightProfile: {
-    landmarks: any[];
-    videoDimensions: VideoDimensions;
-  };
-  leftProfile: {
-    landmarks: any[];
-    videoDimensions: VideoDimensions;
-  };
-}
+export type Stage = 'scan' | 'results' | 'survey' | 'plan';
 
 interface AppState {
+  stage: Stage;
   isScanning: boolean;
   scanComplete: boolean;
   landmarks: any[] | null;
   metrics: FacialMetrics | null;
   baseline: BaselineData | null;
   videoDimensions: VideoDimensions | null;
-  sessionData: MultiAngleSessionData | null;
+
+  // Survey
+  surveyAnswers: Record<string, number>; // questionId -> selected option index
+  surveyResult: SurveyResult | null;
+
+  setStage: (stage: Stage) => void;
   setScanning: (scanning: boolean) => void;
   setScanComplete: (complete: boolean) => void;
   setResults: (result: {
@@ -38,18 +31,23 @@ interface AppState {
     baseline: BaselineData;
     videoDimensions: VideoDimensions;
   }) => void;
-  setSessionData: (data: MultiAngleSessionData) => void;
+  answerQuestion: (questionId: string, optionIndex: number) => void;
+  finishSurvey: (result: SurveyResult) => void;
   reset: () => void;
 }
 
 export const useAppStore = create<AppState>((set) => ({
+  stage: 'scan',
   isScanning: false,
   scanComplete: false,
   landmarks: null,
   metrics: null,
   baseline: null,
   videoDimensions: null,
-  sessionData: null,
+  surveyAnswers: {},
+  surveyResult: null,
+
+  setStage: (stage) => set({ stage }),
   setScanning: (scanning) => set({ isScanning: scanning }),
   setScanComplete: (complete) => set({ scanComplete: complete }),
   setResults: (result) =>
@@ -59,16 +57,21 @@ export const useAppStore = create<AppState>((set) => ({
       baseline: result.baseline,
       videoDimensions: result.videoDimensions,
       scanComplete: true,
+      stage: 'results',
     }),
-  setSessionData: (data) => set({ sessionData: data }),
+  answerQuestion: (questionId, optionIndex) =>
+    set((s) => ({ surveyAnswers: { ...s.surveyAnswers, [questionId]: optionIndex } })),
+  finishSurvey: (result) => set({ surveyResult: result, stage: 'plan' }),
   reset: () =>
     set({
+      stage: 'scan',
       isScanning: false,
       scanComplete: false,
       landmarks: null,
       metrics: null,
       baseline: null,
       videoDimensions: null,
-      sessionData: null,
+      surveyAnswers: {},
+      surveyResult: null,
     }),
 }));

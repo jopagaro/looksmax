@@ -2,66 +2,49 @@
 
 import { useAppStore } from '@/lib/store';
 import { motion } from 'framer-motion';
-import { TrendingUp, TrendingDown, Minus } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import Recommendations from './Recommendations';
+import { QUESTIONS } from '@/lib/survey';
 
 export default function Results() {
-  const { metrics, baseline } = useAppStore();
+  const { metrics, setStage } = useAppStore();
 
   if (!metrics) return null;
-
-  const getScoreColor = (score: number) => {
-    if (score >= 80) return 'text-green-600';
-    if (score >= 60) return 'text-yellow-600';
-    return 'text-orange-600';
-  };
-
-  const getScoreBgColor = (score: number) => {
-    if (score >= 80) return 'bg-green-50 border-green-200';
-    if (score >= 60) return 'bg-yellow-50 border-yellow-200';
-    return 'bg-orange-50 border-orange-200';
-  };
-
-  const getScoreIcon = (score: number) => {
-    if (score >= 75) return <TrendingUp className="w-4 h-4" />;
-    if (score >= 50) return <Minus className="w-4 h-4" />;
-    return <TrendingDown className="w-4 h-4" />;
-  };
 
   const metricsList = [
     {
       name: 'Symmetry',
-      score: (metrics as any).symmetry ?? 70,
-      description: 'Left-right facial balance',
-      ideal: 'Measured across eyes, jaw, cheeks',
-      actual: `${Math.round(((metrics as any).actualMeasurements?.symmetryScore ?? 0) * 100)}%`,
+      score: metrics.symmetry ?? 70,
+      description: 'Left–right facial balance',
+      ideal: 'Across eyes, jaw, cheeks',
+      actual: `${Math.round((metrics.actualMeasurements?.symmetryScore ?? 0) * 100)}%`,
     },
     {
       name: 'Canthal Tilt',
       score: metrics.canthalTilt,
       description: 'Eye angle — outer vs inner corner',
-      ideal: '+3° to +8° upward tilt',
+      ideal: 'Ideal +3° to +8°',
       actual: `${metrics.actualMeasurements.canthalTiltDegrees.toFixed(1)}°`,
     },
     {
-      name: 'Face Ratio',
+      name: 'fWHR',
       score: metrics.fwhr,
       description: 'Width-to-height proportion',
-      ideal: '~0.82 ideal',
+      ideal: 'Ideal ~0.82',
       actual: `${metrics.actualMeasurements.fwhrValue.toFixed(2)}`,
     },
     {
-      name: 'Midface Harmony',
+      name: 'Midface',
       score: metrics.midfaceRatio,
       description: 'Eye span vs lower-face height',
-      ideal: '~1.6 ratio',
+      ideal: 'Ideal ~1.9',
       actual: `${metrics.actualMeasurements.midfaceRatioValue.toFixed(2)}`,
     },
     {
       name: 'Jawline',
       score: metrics.jawlineDefinition,
       description: 'Jaw width vs cheekbone width',
-      ideal: '~0.78 jaw/face ratio',
+      ideal: 'Ideal ~0.78',
       actual: `${metrics.actualMeasurements.jawlineAngle.toFixed(2)}`,
     },
   ];
@@ -70,71 +53,99 @@ export default function Results() {
     metricsList.reduce((sum, m) => sum + m.score, 0) / metricsList.length
   );
 
+  const verdict =
+    overallScore >= 80 ? 'Elite tier. Barely.' :
+    overallScore >= 65 ? 'Above average. Not done.' :
+    overallScore >= 50 ? 'Solid base. Work to do.' :
+    'High growth potential.';
+
+  const weakest = [...metricsList].sort((a, b) => a.score - b.score)[0];
+
   return (
-    <div className="space-y-8 animate-slide-up">
+    <div className="space-y-10 animate-slide-up max-w-3xl">
       {/* Overall Score */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 border border-primary-200"
+        className="card-brutal p-8 flex flex-wrap items-center gap-8"
       >
-        <div className="text-center">
-          <p className="text-sm font-medium text-primary-700 mb-2">Overall Score</p>
-          <div className={`text-6xl font-bold mb-3 ${getScoreColor(overallScore)}`}>
-            {overallScore}
+        <div>
+          <p className="font-display text-xs uppercase tracking-widest mb-2">The Number</p>
+          <div className="flex items-baseline">
+            <span className="font-display text-8xl leading-none tabular-nums">{overallScore}</span>
+            <span className="font-display text-2xl text-ink-mute">/100</span>
           </div>
-          <div className="flex items-center justify-center gap-2 text-sm text-gray-600">
-            {getScoreIcon(overallScore)}
-            <span>
-              {overallScore >= 75 ? 'Excellent' : overallScore >= 50 ? 'Good' : 'Room for improvement'}
-            </span>
-          </div>
+        </div>
+        <div className="flex-1 min-w-[200px]">
+          <p className="font-display text-xl uppercase leading-tight mb-2">{verdict}</p>
+          <p className="text-sm font-medium text-ink-soft">
+            Weakest link: <b className="bg-pop text-white px-1.5 py-0.5 uppercase text-xs font-display">{weakest.name}</b>{' '}
+            — fixable. The survey finds out how.
+          </p>
         </div>
       </motion.div>
 
+      {/* Survey CTA */}
+      <motion.button
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.12 }}
+        onClick={() => setStage('survey')}
+        className="w-full card-brutal !bg-ink !shadow-brutal-pop p-7 flex items-center justify-between gap-6 text-left group hover:!shadow-[4px_4px_0_#FF4D00] hover:translate-x-[2px] hover:translate-y-[2px] transition-all"
+      >
+        <div>
+          <p className="font-display text-2xl uppercase text-cream leading-tight">
+            Find out <span className="text-pop">why</span> you&apos;re not a 90.
+          </p>
+          <p className="text-sm font-medium text-cream/70 mt-1.5">
+            {QUESTIONS.length} questions · 10 categories · zero sugarcoating · your personal fix plan
+          </p>
+        </div>
+        <span className="btn-brutal bg-pop text-white text-sm px-5 py-3 shrink-0 pointer-events-none">
+          Start <ArrowRight className="w-4 h-4" />
+        </span>
+      </motion.button>
+
       {/* Individual Metrics */}
       <div>
-        <h3 className="text-lg font-semibold text-gray-900 mb-4">Detailed Analysis</h3>
-        <div className="grid gap-4">
-          {metricsList.map((metric, index) => (
-            <motion.div
-              key={metric.name}
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: index * 0.1 }}
-              className={`p-4 rounded-xl border ${getScoreBgColor(metric.score)}`}
-            >
-              <div className="flex items-center justify-between mb-2">
-                <div>
-                  <h4 className="font-semibold text-gray-900">{metric.name}</h4>
-                  <p className="text-sm text-gray-600">{metric.description}</p>
+        <h3 className="font-display text-2xl uppercase mb-5">
+          The <span className="text-pop">Damage</span> Report
+        </h3>
+        <div className="grid gap-4 sm:grid-cols-2">
+          {metricsList.map((metric, index) => {
+            const weak = metric.score < 65;
+            return (
+              <motion.div
+                key={metric.name}
+                initial={{ opacity: 0, y: 16 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.07 }}
+                className={`border-[3px] border-ink p-5 shadow-brutal-sm ${
+                  weak ? 'bg-pop text-white' : 'bg-white'
+                }`}
+              >
+                <div className="flex items-baseline justify-between mb-3">
+                  <span className="font-display text-sm uppercase">{metric.name}</span>
+                  <span className="font-display text-4xl tabular-nums">{Math.round(metric.score)}</span>
                 </div>
-                <div className={`text-3xl font-bold ${getScoreColor(metric.score)}`}>
-                  {Math.round(metric.score)}
-                </div>
-              </div>
-
-              {/* Progress Bar */}
-              <div className="mt-3">
-                <div className="h-1.5 bg-gray-200 rounded-full overflow-hidden">
+                <div className={`h-3.5 border-[3px] ${weak ? 'border-white bg-pop' : 'border-ink bg-white'}`}>
                   <motion.div
                     initial={{ width: 0 }}
                     animate={{ width: `${metric.score}%` }}
-                    transition={{ duration: 0.8, delay: index * 0.1 }}
-                    className={`h-full rounded-full ${
-                      metric.score >= 80 ? 'bg-green-500' :
-                      metric.score >= 60 ? 'bg-yellow-500' :
-                      'bg-orange-500'
-                    }`}
+                    transition={{ duration: 0.7, delay: index * 0.07 }}
+                    className={`h-full ${weak ? 'bg-white' : 'bg-ink'}`}
                   />
                 </div>
-                <div className="flex justify-between mt-1.5">
-                  <p className="text-xs text-gray-500">{metric.ideal}</p>
-                  <p className="text-xs font-mono text-gray-700">You: {metric.actual}</p>
+                <div className="flex justify-between mt-2.5 text-xs font-bold">
+                  <span className={weak ? 'text-white/80' : 'text-ink-mute'}>{metric.ideal}</span>
+                  <span>You: {metric.actual}</span>
                 </div>
-              </div>
-            </motion.div>
-          ))}
+                <p className={`text-xs font-medium mt-1 ${weak ? 'text-white/80' : 'text-ink-mute'}`}>
+                  {weak ? '← your weak spot. fixable.' : metric.description}
+                </p>
+              </motion.div>
+            );
+          })}
         </div>
       </div>
 

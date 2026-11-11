@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Style A — Clinical Editorial</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #FAF8F4;
+    --ink: #1A1A18;
+    --muted: #6E6A61;
+    --rule: #DDD8CE;
+    --accent: #2F5A3C;
+    --accent-soft: #EAF0EB;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+  .serif { font-family: 'Fraunces', serif; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 32px; }
+
+  header { border-bottom: 1px solid var(--rule); }
+  .nav { display: flex; justify-content: space-between; align-items: baseline; padding: 22px 0; }
+  .logo { font-family: 'Fraunces', serif; font-size: 20px; font-weight: 600; letter-spacing: -0.01em; }
+  .logo em { font-style: italic; font-weight: 400; }
+  .nav-note { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+
+  .hero { padding: 72px 0 48px; }
+  .kicker { font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); margin-bottom: 20px; }
+  h1 { font-family: 'Fraunces', serif; font-size: 56px; line-height: 1.05; font-weight: 500; letter-spacing: -0.02em; max-width: 14ch; }
+  h1 em { font-style: italic; }
+  .lede { margin-top: 20px; font-size: 16px; line-height: 1.65; color: var(--muted); max-width: 52ch; }
+
+  .panel { border: 1px solid var(--rule); background: #fff; margin: 24px 0 64px; }
+  .panel-head { display: flex; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid var(--rule); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+  .viewport { aspect-ratio: 16/8.2; background: #111210; position: relative; display:flex; align-items:center; justify-content:center; }
+  .guide { width: 190px; height: 250px; border: 1px solid rgba(250,248,244,.5); border-radius: 50%; }
+  .viewport p { position: absolute; bottom: 18px; width:100%; text-align:center; color: rgba(250,248,244,.55); font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; }
+  .panel-foot { padding: 20px; display: flex; gap: 14px; align-items: center; }
+  .btn { background: var(--ink); color: var(--paper); border: none; font: 500 13px 'Inter'; letter-spacing: 0.1em; text-transform: uppercase; padding: 15px 34px; cursor: pointer; }
+  .btn:hover { background: #000; }
+  .btn-ghost { background: none; color: var(--ink); border: 1px solid var(--rule); padding: 14px 24px; }
+  .foot-note { margin-left: auto; font-size: 12px; color: var(--muted); }
+
+  .section-title { font-family:'Fraunces',serif; font-size: 24px; font-weight: 500; padding-bottom: 14px; border-bottom: 1px solid var(--ink); display:flex; justify-content:space-between; align-items: baseline;}
+  .section-title span { font-family:'Inter'; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+  .metric { display: grid; grid-template-columns: 200px 1fr 90px 60px; gap: 24px; align-items: center; padding: 18px 0; border-bottom: 1px solid var(--rule); }
+  .m-name { font-weight: 600; font-size: 14px; }
+  .m-desc { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .track { height: 2px; background: var(--rule); position: relative; }
+  .fill { position: absolute; inset: 0 auto 0 0; background: var(--accent); }
+  .fill::after { content:''; position:absolute; right:-3px; top:-3px; width:8px; height:8px; border-radius:50%; background:var(--accent); }
+  .m-val { font-size: 12px; color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+  .m-score { font-family: 'Fraunces', serif; font-size: 26px; text-align: right; font-variant-numeric: tabular-nums; }
+
+  .verdict { display:flex; gap: 40px; align-items: baseline; margin: 56px 0 24px; padding: 32px 0; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--rule);}
+  .big { font-family:'Fraunces',serif; font-size: 88px; font-weight: 500; line-height: 1;}
+  .big sub { font-size: 20px; color: var(--muted); }
+  .verdict p { font-size: 14px; line-height: 1.6; color: var(--muted); max-width: 40ch;}
+  .verdict strong { color: var(--ink); }
+  .pill { display:inline-block; background: var(--accent-soft); color: var(--accent); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; padding: 6px 12px; margin-top: 10px;}
+
+  footer { padding: 28px 0 60px; font-size: 11px; color: var(--muted); letter-spacing: .05em;}
+</style>
+</head>
+<body>
+  <header><div class="wrap nav">
+    <div class="logo">Looksmax <em>Atelier</em></div>
+    <div class="nav-note">Facial Morphology Report · № 0147</div>
+  </div></header>
+
+  <div class="wrap">
+    <section class="hero">
+      <p class="kicker">478-Point Biometric Assessment</p>
+      <h1>An honest reading of <em>your</em> face.</h1>
+      <p class="lede">Clinical-grade landmark analysis of proportion, symmetry, and structure — followed by a sixty-eight question consultation to build your improvement protocol. Processed entirely on your device.</p>
+    </section>
+
+    <div class="panel">
+      <div class="panel-head"><span>Live Capture</span><span>Camera 01 — Ready</span></div>
+      <div class="viewport"><div class="guide"></div><p>Align face within the oval</p></div>
+      <div class="panel-foot">
+        <button class="btn">Begin Assessment</button>
+        <button class="btn btn-ghost">Upload Photograph</button>
+        <span class="foot-note">No images stored or transmitted.</span>
+      </div>
+    </div>
+
+    <div class="section-title">Findings <span>Section II</span></div>
+    <div class="metric">
+      <div><div class="m-name">Canthal Tilt</div><div class="m-desc">Eye angle, outer vs inner</div></div>
+      <div class="track"><div class="fill" style="width:72%"></div></div>
+      <div class="m-val">+4.2° · ideal ~6°</div><div class="m-score">72</div>
+    </div>
+    <div class="metric">
+      <div><div class="m-name">Facial Ratio</div><div class="m-desc">Width to height</div></div>
+      <div class="track"><div class="fill" style="width:85%"></div></div>
+      <div class="m-val">0.91 · ideal ~0.82</div><div class="m-score">85</div>
+    </div>
+    <div class="metric">
+      <div><div class="m-name">Jawline Definition</div><div class="m-desc">Gonial width ratio</div></div>
+      <div class="track"><div class="fill" style="width:78%"></div></div>
+      <div class="m-val">0.76 · ideal ~0.78</div><div class="m-score">78</div>
+    </div>
+
+    <div class="verdict">
+      <div class="big">77<sub>/100</sub></div>
+      <div>
+        <p><strong>Above average, with clear headroom.</strong> Primary limiters are midface balance and under-eye condition — both responsive to the protocol outlined in your consultation.</p>
+        <span class="pill">Proceed to consultation →</span>
+      </div>
+    </div>
+
+    <footer>LOOKSMAX ATELIER — All analysis performed locally in the browser. This report is informational, not medical advice.</footer>
+  </div>
+</body>
+</html>

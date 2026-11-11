@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Style B — Instrument Lab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0B0C0E;
+    --panel: #111317;
+    --line: #23262C;
+    --text: #D7DBE0;
+    --dim: #70767F;
+    --signal: #FFB224; /* single amber signal color */
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background: var(--bg); color: var(--text); font-family:'Space Grotesk',sans-serif; -webkit-font-smoothing: antialiased; }
+  .mono { font-family: 'IBM Plex Mono', monospace; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 0 28px; }
+
+  header { border-bottom: 1px solid var(--line); }
+  .nav { display:flex; justify-content:space-between; align-items:center; height: 56px; }
+  .logo { font-weight: 700; letter-spacing: 0.02em; font-size: 15px; }
+  .logo::before { content:'▣ '; color: var(--signal); }
+  .sys { font-family:'IBM Plex Mono',monospace; font-size: 11px; color: var(--dim); }
+  .sys b { color: var(--signal); font-weight: 500; }
+
+  .grid { display: grid; grid-template-columns: 1.5fr 1fr; gap: 1px; background: var(--line); border: 1px solid var(--line); margin: 40px 0; }
+  .cell { background: var(--panel); padding: 24px; }
+
+  .hero { padding: 48px 0 8px; display:flex; justify-content:space-between; align-items:flex-end; }
+  h1 { font-size: 40px; font-weight: 700; line-height: 1.04; letter-spacing: -0.015em; text-transform: uppercase; }
+  h1 span { color: var(--dim); }
+  .hero .mono { font-size: 11px; color: var(--dim); text-align:right; line-height: 1.8; }
+
+  .viewport { aspect-ratio: 4/3; background: #060708; position:relative; overflow:hidden; }
+  .reticle { position:absolute; inset:0; background:
+    linear-gradient(var(--line) 1px, transparent 1px) 0 0/ 100% 25%,
+    linear-gradient(90deg, var(--line) 1px, transparent 1px) 0 0/ 25% 100%; opacity:.5; }
+  .guide { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width: 150px; height: 200px; border:1px dashed rgba(255,178,36,.65); border-radius:50%; }
+  .corner { position:absolute; width:14px; height:14px; border-color: var(--text); border-style: solid; border-width: 0;}
+  .c1{top:10px;left:10px;border-top-width:1px;border-left-width:1px}
+  .c2{top:10px;right:10px;border-top-width:1px;border-right-width:1px}
+  .c3{bottom:10px;left:10px;border-bottom-width:1px;border-left-width:1px}
+  .c4{bottom:10px;right:10px;border-bottom-width:1px;border-right-width:1px}
+  .vp-label { position:absolute; bottom:10px; left:50%; transform:translateX(-50%); font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:.2em; color:var(--dim); }
+
+  .cell h3 { font-family:'IBM Plex Mono',monospace; font-size: 10px; font-weight:500; letter-spacing:.22em; color: var(--dim); text-transform: uppercase; margin-bottom: 18px; }
+  .readout { display:flex; justify-content:space-between; align-items:baseline; padding: 11px 0; border-bottom: 1px solid var(--line); }
+  .readout:last-of-type{ border:none; }
+  .r-name { font-size: 13px; font-weight:500; }
+  .r-data { font-family:'IBM Plex Mono',monospace; font-size: 12px; color: var(--dim); }
+  .r-data b { color: var(--text); font-weight:500; margin-left: 10px; }
+  .bar { height: 3px; background: var(--line); margin-top:6px; }
+  .bar i { display:block; height:100%; background: var(--text); }
+  .bar.warn i { background: var(--signal); }
+
+  .actions { display:flex; gap: 1px; background: var(--line); border:1px solid var(--line); margin-bottom: 48px;}
+  .btn { flex:1; background: var(--text); color: var(--bg); border:none; padding: 18px; font: 700 13px 'Space Grotesk'; letter-spacing: .14em; text-transform: uppercase; cursor:pointer; }
+  .btn:hover { background:#fff; }
+  .btn.alt { background: var(--panel); color: var(--text); }
+  .btn.alt:hover { color:#fff; }
+
+  .score-row { display:flex; gap:1px; background:var(--line); border:1px solid var(--line); margin-bottom:40px; }
+  .score { flex:1; background:var(--panel); padding: 20px 24px; }
+  .score .mono { font-size:10px; letter-spacing:.2em; color:var(--dim); text-transform:uppercase;}
+  .score .num { font-size: 46px; font-weight: 700; line-height:1.15; font-variant-numeric: tabular-nums;}
+  .score .num.signal { color: var(--signal); }
+
+  footer { border-top:1px solid var(--line); padding: 18px 0 48px; font-family:'IBM Plex Mono',monospace; font-size:10px; color:var(--dim); letter-spacing:.08em;}
+</style>
+</head>
+<body>
+  <header><div class="wrap nav">
+    <div class="logo">LOOKSMAX·OS</div>
+    <div class="sys">MP-478 MESH <b>●</b> LOCAL ONLY / NO UPLINK</div>
+  </div></header>
+
+  <div class="wrap">
+    <div class="hero">
+      <h1>Facial<br>Telemetry <span>v2</span></h1>
+      <div class="mono">SUBJECT: UNREGISTERED<br>LANDMARKS: 478/478<br>PIPELINE: ON-DEVICE</div>
+    </div>
+
+    <div class="grid">
+      <div class="cell" style="padding:0">
+        <div class="viewport">
+          <div class="reticle"></div>
+          <div class="guide"></div>
+          <div class="corner c1"></div><div class="corner c2"></div><div class="corner c3"></div><div class="corner c4"></div>
+          <div class="vp-label">CAM.0 — ALIGN AND HOLD</div>
+        </div>
+      </div>
+      <div class="cell">
+        <h3>Live Readouts</h3>
+        <div class="readout"><div><div class="r-name">Canthal Tilt</div><div class="bar"><i style="width:72%"></i></div></div><div class="r-data">+4.2°<b>72</b></div></div>
+        <div class="readout"><div><div class="r-name">fWHR</div><div class="bar"><i style="width:85%"></i></div></div><div class="r-data">0.91<b>85</b></div></div>
+        <div class="readout"><div><div class="r-name">Midface</div><div class="bar warn"><i style="width:61%"></i></div></div><div class="r-data">2.35<b>61</b></div></div>
+        <div class="readout"><div><div class="r-name">Jawline</div><div class="bar"><i style="width:78%"></i></div></div><div class="r-data">0.76<b>78</b></div></div>
+        <div class="readout"><div><div class="r-name">Symmetry</div><div class="bar"><i style="width:90%"></i></div></div><div class="r-data">95%<b>90</b></div></div>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button class="btn">▶ Run Scan</button>
+      <button class="btn alt">Load Image</button>
+      <button class="btn alt">68-Q Diagnostic</button>
+    </div>
+
+    <div class="score-row">
+      <div class="score"><div class="mono">Face</div><div class="num">77</div></div>
+      <div class="score"><div class="mono">Habits</div><div class="num signal">64</div></div>
+      <div class="score"><div class="mono">Composite</div><div class="num">71</div></div>
+      <div class="score" style="flex:2"><div class="mono">Primary Limiters</div><div style="font-size:14px; line-height:1.9; padding-top:6px">SKIN.ROUTINE — POSTURE.FWD_HEAD — JAW.MOUTH_BREATHING</div></div>
+    </div>
+
+    <footer>LOOKSMAX·OS // ALL PROCESSING LOCAL // NOT MEDICAL ADVICE // BUILD 2026.11</footer>
+  </div>
+</body>
+</html>

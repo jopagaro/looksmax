@@ -4,16 +4,54 @@
 
 @layer base {
   * {
-    @apply border-gray-200;
+    @apply border-ink;
   }
 
   body {
-    @apply bg-white text-gray-900 antialiased;
+    @apply bg-cream text-ink antialiased;
+  }
+
+  ::selection {
+    @apply bg-pop text-white;
+  }
+}
+
+@layer components {
+  /* Hard-edged brutalist button */
+  .btn-brutal {
+    @apply inline-flex items-center justify-center gap-2 font-display uppercase tracking-wide
+      border-[3px] border-ink shadow-brutal-sm transition-all duration-100 cursor-pointer select-none;
+  }
+  .btn-brutal:hover:not(:disabled) {
+    transform: translate(2px, 2px);
+    @apply shadow-brutal-pressed;
+  }
+  .btn-brutal:active:not(:disabled) {
+    transform: translate(4px, 4px);
+    box-shadow: 0 0 0 #121212;
+  }
+  .btn-brutal:disabled {
+    @apply bg-cream-dark text-ink-mute border-ink-mute shadow-none cursor-not-allowed;
+  }
+
+  /* Card with hard border + offset shadow */
+  .card-brutal {
+    @apply border-[3px] border-ink bg-white shadow-brutal;
+  }
+
+  .chip-brutal {
+    @apply inline-flex items-center gap-1.5 border-2 border-ink bg-white px-2.5 py-1
+      text-[11px] font-bold uppercase tracking-wide shadow-brutal-xs;
   }
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .text-outline {
+    color: #f2eee3;
+    -webkit-text-stroke: 2.5px #121212;
   }
 }

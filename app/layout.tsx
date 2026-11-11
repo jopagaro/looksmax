@@ -1,12 +1,23 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Archivo, Archivo_Black } from 'next/font/google';
 import './globals.css';
 
-const inter = Inter({ subsets: ['latin'] });
+const archivo = Archivo({
+  subsets: ['latin'],
+  weight: ['400', '500', '700', '900'],
+  variable: '--font-archivo',
+});
+
+const archivoBlack = Archivo_Black({
+  subsets: ['latin'],
+  weight: '400',
+  variable: '--font-archivo-black',
+});
 
 export const metadata: Metadata = {
-  title: 'Facial Analysis - Looksmaxxing Guide',
-  description: 'AI-powered facial analysis with personalized aesthetic recommendations',
+  title: 'LOOKSMAX — Your face. Rated. Fixed.',
+  description:
+    'AI facial analysis with brutally honest scores and a personalized fix plan. All processing happens on-device.',
 };
 
 export default function RootLayout({
@@ -15,8 +26,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={`${archivo.variable} ${archivoBlack.variable}`}>
+      <body className={archivo.className}>{children}</body>
     </html>
   );
 }

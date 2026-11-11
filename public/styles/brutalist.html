@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Style D — Neo-Brutalist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Archivo+Black&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F2EEE3;
+    --ink: #121212;
+    --pop: #FF4D00;
+    --shadow: 6px 6px 0 var(--ink);
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background: var(--bg); color: var(--ink); font-family:'Archivo',sans-serif; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 0 28px; }
+
+  header { border-bottom: 3px solid var(--ink); background: var(--bg); }
+  .nav { display:flex; justify-content:space-between; align-items:center; height: 62px; }
+  .logo { font-family:'Archivo Black'; font-size: 20px; letter-spacing: -0.01em; }
+  .logo span { color: var(--pop); }
+  .badge { font-weight: 700; font-size: 11px; border: 2px solid var(--ink); padding: 6px 12px; background: #fff; box-shadow: 3px 3px 0 var(--ink); text-transform: uppercase; }
+
+  .hero { padding: 56px 0 36px; }
+  h1 { font-family:'Archivo Black'; font-size: 72px; line-height: 0.95; letter-spacing: -0.025em; text-transform: uppercase; }
+  h1 .hl { color: var(--pop); }
+  h1 .outline { color: var(--bg); -webkit-text-stroke: 2.5px var(--ink); }
+  .lede { margin-top: 22px; font-size: 17px; font-weight: 500; line-height: 1.5; max-width: 54ch; }
+  .lede b { background: var(--ink); color: var(--bg); padding: 1px 7px; }
+
+  .panel { border: 3px solid var(--ink); background: #fff; box-shadow: var(--shadow); margin: 28px 0 56px; }
+  .panel-head { display:flex; justify-content:space-between; padding: 12px 18px; border-bottom: 3px solid var(--ink); font-weight: 900; font-size: 12px; text-transform: uppercase; letter-spacing: .06em;}
+  .panel-head .dot { color: var(--pop); }
+  .viewport { aspect-ratio: 16/8; background: var(--ink); position: relative; display:flex; align-items:center; justify-content:center;}
+  .guide { width: 180px; height: 235px; border: 3px dashed var(--pop); border-radius: 50%; }
+  .vp-tag { position:absolute; bottom:14px; left:50%; transform:translateX(-50%); background: var(--pop); color:#fff; font-weight:900; font-size: 11px; text-transform: uppercase; letter-spacing:.08em; padding: 6px 14px; }
+  .panel-foot { display:flex; gap: 16px; padding: 18px; border-top: 3px solid var(--ink); background: var(--bg); align-items:center;}
+  .btn { font-family:'Archivo Black'; font-size: 15px; text-transform: uppercase; background: var(--pop); color: #fff; border: 3px solid var(--ink); box-shadow: 4px 4px 0 var(--ink); padding: 15px 30px; cursor: pointer; transition: transform .08s, box-shadow .08s; }
+  .btn:hover { transform: translate(2px,2px); box-shadow: 2px 2px 0 var(--ink); }
+  .btn.alt { background: #fff; color: var(--ink); }
+  .foot-note { margin-left:auto; font-weight:700; font-size: 11px; text-transform: uppercase; }
+
+  h2 { font-family:'Archivo Black'; font-size: 28px; text-transform: uppercase; margin-bottom: 20px; }
+  h2 span { color: var(--pop); }
+  .cards { display:grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-bottom: 56px; }
+  .card { border: 3px solid var(--ink); background: #fff; box-shadow: var(--shadow); padding: 18px; }
+  .card.pop { background: var(--pop); color: #fff; }
+  .card .row { display:flex; justify-content:space-between; align-items:baseline; margin-bottom: 10px;}
+  .card .name { font-weight: 900; font-size: 14px; text-transform: uppercase; }
+  .card .score { font-family:'Archivo Black'; font-size: 42px; line-height:1; }
+  .meter { height: 14px; border: 3px solid var(--ink); background: #fff; }
+  .card.pop .meter { border-color:#fff; background: var(--pop); }
+  .meter i { display:block; height: 100%; background: var(--ink); }
+  .card.pop .meter i { background: #fff; }
+  .card .sub { font-weight: 500; font-size: 12px; margin-top: 8px; }
+
+  .shout { border: 3px solid var(--ink); background: var(--ink); color: var(--bg); box-shadow: 6px 6px 0 var(--pop); padding: 30px; display:flex; justify-content:space-between; align-items:center; gap: 24px; margin-bottom: 64px;}
+  .shout h3 { font-family:'Archivo Black'; font-size: 26px; text-transform: uppercase; line-height: 1.05;}
+  .shout h3 span { color: var(--pop); }
+  .shout p { font-size: 13px; font-weight:500; margin-top: 8px; opacity:.8;}
+
+  footer { border-top: 3px solid var(--ink); padding: 20px 0 56px; font-weight: 700; font-size: 11px; text-transform: uppercase; }
+</style>
+</head>
+<body>
+  <header><div class="wrap nav">
+    <div class="logo">LOOKS<span>MAX</span>★</div>
+    <div class="badge">100% On-Device</div>
+  </div></header>
+
+  <div class="wrap">
+    <section class="hero">
+      <h1>Your face.<br><span class="outline">Rated.</span> <span class="hl">Fixed.</span></h1>
+      <p class="lede">478-point scan. Brutally honest scores. Then a <b>68-question</b> deep-dive finds exactly what's dragging you down — and how to fix it.</p>
+    </section>
+
+    <div class="panel">
+      <div class="panel-head"><span><span class="dot">●</span> LIVE SCANNER</span><span>CAM READY</span></div>
+      <div class="viewport">
+        <div class="guide"></div>
+        <div class="vp-tag">Put your face here</div>
+      </div>
+      <div class="panel-foot">
+        <button class="btn">Scan Me</button>
+        <button class="btn alt">Upload Pic</button>
+        <span class="foot-note">Nothing uploaded. Ever.</span>
+      </div>
+    </div>
+
+    <h2>The <span>Damage</span> Report</h2>
+    <div class="cards">
+      <div class="card"><div class="row"><span class="name">Symmetry</span><span class="score">90</span></div><div class="meter"><i style="width:90%"></i></div><div class="sub">95% — basically a mirror</div></div>
+      <div class="card"><div class="row"><span class="name">fWHR</span><span class="score">85</span></div><div class="meter"><i style="width:85%"></i></div><div class="sub">0.91 vs ideal 0.82</div></div>
+      <div class="card pop"><div class="row"><span class="name">Midface</span><span class="score">61</span></div><div class="meter"><i style="width:61%"></i></div><div class="sub">← your weak spot. fixable.</div></div>
+      <div class="card"><div class="row"><span class="name">Jawline</span><span class="score">78</span></div><div class="meter"><i style="width:78%"></i></div><div class="sub">0.76 — solid, could sharpen</div></div>
+    </div>
+
+    <div class="shout">
+      <div>
+        <h3>Find out <span>why</span> you're not a 90.</h3>
+        <p>68 questions · 10 categories · zero sugarcoating · your personal fix plan</p>
+      </div>
+      <button class="btn">Start the Survey →</button>
+    </div>
+
+    <footer>LOOKSMAX ★ ALL LOCAL ★ NOT MEDICAL ADVICE ★ 2026</footer>
+  </div>
+</body>
+</html>
