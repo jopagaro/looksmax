@@ -48,6 +48,9 @@ export default function Plan() {
       if (metrics.canthalTilt < 50) add('sleep-debt');
       if (metrics.gonialAngle < 60) add('forward-head');
       if (metrics.teethWhiteness !== null && metrics.teethWhiteness < 65) add('teeth-color');
+      if (metrics.darkCircles !== null && metrics.darkCircles < 65) add('dark-circles');
+      if (metrics.skinRedness !== null && metrics.skinRedness < 65) add('redness');
+      if (metrics.skinEvenness !== null && metrics.skinEvenness < 65) add('no-vitc');
     }
     return out.filter((f) => FIXES[f]);
   }, [surveyResult, metrics]);

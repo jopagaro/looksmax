@@ -26,6 +26,10 @@ export interface FacialMetrics {
   mouthNose: number;
   /** Null when no open-mouth smile was captured. */
   teethWhiteness: number | null;
+  /** Pixel-based skin scores — null when pixels weren't sampleable. */
+  skinEvenness: number | null;
+  skinRedness: number | null;
+  darkCircles: number | null;
   actualMeasurements: {
     symmetryScore: number;
     canthalTiltDegrees: number;
@@ -37,6 +41,9 @@ export interface FacialMetrics {
     lowerThirdValue: number; // chin-height / philtrum-height
     mouthNoseValue: number; // mouth width / nose width
     teethYellowness: number | null; // yellow index, lower = whiter
+    chromaSpread: number | null; // skin tone drift across zones (lower = more even)
+    rednessDelta: number | null; // cheeks redder than forehead/chin by this much
+    underEyeRatio: number | null; // under-eye brightness vs cheek (1.0 = no shadow)
   };
 }
 
@@ -384,6 +391,160 @@ export function sampleTeethColor(
   }
 }
 
+// ─── 11. Skin quality (pixel sampling at landmark-guided patches) ────────────
+// The landmarks say WHERE skin is; the camera pixels say what COLOR it is.
+// All three scores compare regions of the same face against each other, which
+// cancels out most lighting differences:
+//   evenness    — how far skin tone drifts between forehead, cheeks, and chin
+//   redness     — how much redder the cheeks run vs forehead+chin (flush zones)
+//   darkCircles — under-eye brightness vs cheek brightness
+
+const SKIN_ZONES = {
+  forehead: 151, // center forehead
+  chin: 18, // front of chin
+  leftCheek: 205,
+  rightCheek: 425,
+  leftUnderEye: 117,
+  rightUnderEye: 346,
+};
+
+export interface SkinSample {
+  evenness: { score: number; chromaSpread: number };
+  redness: { score: number; delta: number };
+  darkCircles: { score: number; ratio: number };
+}
+
+function samplePatch(
+  ctx: CanvasRenderingContext2D,
+  source: CanvasImageSource,
+  cx: number,
+  cy: number,
+  half: number,
+  srcW: number,
+  srcH: number
+): { r: number; g: number; b: number; lum: number } | null {
+  const x0 = Math.max(0, Math.round(cx - half));
+  const y0 = Math.max(0, Math.round(cy - half));
+  const size = Math.min(Math.round(half * 2), srcW - x0, srcH - y0);
+  if (size < 4) return null;
+
+  try {
+    ctx.canvas.width = size;
+    ctx.canvas.height = size;
+    ctx.drawImage(source, x0, y0, size, size, 0, 0, size, size);
+    const data = ctx.getImageData(0, 0, size, size).data;
+
+    let r = 0,
+      g = 0,
+      b = 0,
+      count = 0;
+    for (let i = 0; i < data.length; i += 4) {
+      const lum = 0.299 * data[i] + 0.587 * data[i + 1] + 0.114 * data[i + 2];
+      // Drop specular highlights, shadows, hair, and glasses frames
+      if (lum < 30 || lum > 242) continue;
+      r += data[i];
+      g += data[i + 1];
+      b += data[i + 2];
+      count++;
+    }
+    if (count < size * size * 0.3) return null; // patch mostly unusable
+
+    r /= count;
+    g /= count;
+    b /= count;
+    return { r, g, b, lum: 0.299 * r + 0.587 * g + 0.114 * b };
+  } catch {
+    return null;
+  }
+}
+
+export function sampleSkinQuality(
+  source: CanvasImageSource,
+  lm: any[],
+  srcW: number,
+  srcH: number,
+  workCanvas: HTMLCanvasElement
+): SkinSample | null {
+  const lc = lm[L.leftCheek],
+    rc = lm[L.rightCheek];
+  if (!lc || !rc) return null;
+
+  const faceWidthPx = Math.abs(rc.x - lc.x) * srcW;
+  const half = Math.max(5, Math.min(28, faceWidthPx * 0.035));
+
+  const ctx = workCanvas.getContext('2d', { willReadFrequently: true });
+  if (!ctx) return null;
+
+  const patches: Partial<Record<keyof typeof SKIN_ZONES, { r: number; g: number; b: number; lum: number }>> = {};
+  for (const [zone, idx] of Object.entries(SKIN_ZONES) as [keyof typeof SKIN_ZONES, number][]) {
+    const p = lm[idx];
+    if (!p) continue;
+    const sample = samplePatch(ctx, source, p.x * srcW, p.y * srcH, half, srcW, srcH);
+    if (sample) patches[zone] = sample;
+  }
+
+  const tonal = [patches.forehead, patches.chin, patches.leftCheek, patches.rightCheek].filter(
+    (p): p is NonNullable<typeof p> => !!p
+  );
+  if (tonal.length < 3) return null;
+
+  // Chromaticity (brightness-normalized color) per patch
+  const chroma = tonal.map((p) => {
+    const sum = p.r + p.g + p.b || 1;
+    return { rn: p.r / sum, gn: p.g / sum };
+  });
+
+  // Evenness: mean pairwise chromaticity distance across zones
+  let distSum = 0,
+    pairs = 0;
+  for (let i = 0; i < chroma.length; i++) {
+    for (let j = i + 1; j < chroma.length; j++) {
+      distSum += Math.hypot(chroma[i].rn - chroma[j].rn, chroma[i].gn - chroma[j].gn);
+      pairs++;
+    }
+  }
+  const chromaSpread = distSum / pairs; // ~0.005 even … 0.04+ blotchy
+  const evennessScore = Math.round(
+    Math.max(0, Math.min(100, 100 * Math.exp(-0.5 * Math.pow(chromaSpread / 0.018, 2))))
+  );
+
+  // Redness: cheeks vs forehead+chin red fraction (positive = flushed cheeks)
+  const rFrac = (p: { r: number; g: number; b: number }) => p.r / (p.r + p.g + p.b || 1);
+  const cheeks = [patches.leftCheek, patches.rightCheek].filter((p): p is NonNullable<typeof p> => !!p);
+  const neutral = [patches.forehead, patches.chin].filter((p): p is NonNullable<typeof p> => !!p);
+  let rednessScore = 50,
+    rednessDelta = 0;
+  if (cheeks.length > 0 && neutral.length > 0) {
+    const cheekR = cheeks.reduce((s, p) => s + rFrac(p), 0) / cheeks.length;
+    const neutralR = neutral.reduce((s, p) => s + rFrac(p), 0) / neutral.length;
+    rednessDelta = cheekR - neutralR;
+    const penal = Math.max(0, rednessDelta); // only cheeks-redder counts against you
+    rednessScore = Math.round(
+      Math.max(0, Math.min(100, 100 * Math.exp(-0.5 * Math.pow(penal / 0.016, 2))))
+    );
+  }
+
+  // Dark circles: under-eye brightness vs cheek brightness
+  const underEyes = [patches.leftUnderEye, patches.rightUnderEye].filter(
+    (p): p is NonNullable<typeof p> => !!p
+  );
+  let dcScore = 50,
+    underEyeRatio = 1;
+  if (underEyes.length > 0 && cheeks.length > 0) {
+    const ueLum = underEyes.reduce((s, p) => s + p.lum, 0) / underEyes.length;
+    const cheekLum = cheeks.reduce((s, p) => s + p.lum, 0) / cheeks.length;
+    underEyeRatio = cheekLum > 0 ? ueLum / cheekLum : 1;
+    // ≥0.98 = no shadow (100); 0.70 = heavy circles (~0)
+    dcScore = Math.round(Math.max(0, Math.min(100, 100 - Math.max(0, 0.98 - underEyeRatio) * 350)));
+  }
+
+  return {
+    evenness: { score: evennessScore, chromaSpread: Math.round(chromaSpread * 1000) },
+    redness: { score: rednessScore, delta: Math.round(rednessDelta * 1000) },
+    darkCircles: { score: dcScore, ratio: Math.round(underEyeRatio * 100) / 100 },
+  };
+}
+
 // ─── Overall score: weighted composite ───────────────────────────────────────
 const WEIGHTS: { key: keyof FacialMetrics; w: number }[] = [
   { key: 'symmetry', w: 0.16 },
@@ -396,6 +557,9 @@ const WEIGHTS: { key: keyof FacialMetrics; w: number }[] = [
   { key: 'lowerThird', w: 0.08 },
   { key: 'mouthNose', w: 0.05 },
   { key: 'teethWhiteness', w: 0.07 },
+  { key: 'skinEvenness', w: 0.1 },
+  { key: 'skinRedness', w: 0.06 },
+  { key: 'darkCircles', w: 0.08 },
 ];
 
 export function computeOverallScore(m: FacialMetrics): number {
@@ -448,6 +612,9 @@ export function medianMetrics(frames: FacialMetrics[]): FacialMetrics {
     lowerThird: med((f) => f.lowerThird),
     mouthNose: med((f) => f.mouthNose),
     teethWhiteness: null, // filled in separately from the smile phase
+    skinEvenness: null, // filled in separately from pixel sampling
+    skinRedness: null,
+    darkCircles: null,
     actualMeasurements: {
       symmetryScore: medA((f) => f.actualMeasurements.symmetryScore),
       canthalTiltDegrees: medA((f) => f.actualMeasurements.canthalTiltDegrees),
@@ -459,6 +626,9 @@ export function medianMetrics(frames: FacialMetrics[]): FacialMetrics {
       lowerThirdValue: medA((f) => f.actualMeasurements.lowerThirdValue),
       mouthNoseValue: medA((f) => f.actualMeasurements.mouthNoseValue),
       teethYellowness: null,
+      chromaSpread: null,
+      rednessDelta: null,
+      underEyeRatio: null,
     },
   };
 }
@@ -489,6 +659,9 @@ export function analyzeFrame(landmarks: any[], aspect: number = ASPECT): FacialM
     lowerThird: lt.score,
     mouthNose: mn.score,
     teethWhiteness: null,
+    skinEvenness: null,
+    skinRedness: null,
+    darkCircles: null,
     actualMeasurements: {
       symmetryScore: sy.value,
       canthalTiltDegrees: ct.degrees,
@@ -500,6 +673,9 @@ export function analyzeFrame(landmarks: any[], aspect: number = ASPECT): FacialM
       lowerThirdValue: lt.value,
       mouthNoseValue: mn.value,
       teethYellowness: null,
+      chromaSpread: null,
+      rednessDelta: null,
+      underEyeRatio: null,
     },
   };
 }

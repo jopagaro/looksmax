@@ -9,7 +9,9 @@ import {
   calculateBaseline,
   computePose,
   sampleTeethColor,
+  sampleSkinQuality,
   FacialMetrics,
+  SkinSample,
 } from '@/lib/calculations';
 import { Camera, Loader2, Upload, ScanLine, RefreshCw, Sparkles, Smile } from 'lucide-react';
 
@@ -28,6 +30,9 @@ const DEMO_METRICS: FacialMetrics = {
   lowerThird: 69,
   mouthNose: 81,
   teethWhiteness: 58,
+  skinEvenness: 76,
+  skinRedness: 62,
+  darkCircles: 55,
   actualMeasurements: {
     canthalTiltDegrees: 4.2,
     fwhrValue: 0.91,
@@ -39,8 +44,26 @@ const DEMO_METRICS: FacialMetrics = {
     lowerThirdValue: 1.78,
     mouthNoseValue: 1.62,
     teethYellowness: 32,
+    chromaSpread: 16,
+    rednessDelta: 19,
+    underEyeRatio: 0.84,
   },
 };
+
+// Median-combine skin samples from multiple frames into final metrics.
+function applySkinSamples(metrics: FacialMetrics, samples: SkinSample[]) {
+  if (samples.length === 0) return;
+  const mid = (vals: number[]) => {
+    const s = [...vals].sort((a, b) => a - b);
+    return s[Math.floor(s.length / 2)];
+  };
+  metrics.skinEvenness = mid(samples.map((s) => s.evenness.score));
+  metrics.skinRedness = mid(samples.map((s) => s.redness.score));
+  metrics.darkCircles = mid(samples.map((s) => s.darkCircles.score));
+  metrics.actualMeasurements.chromaSpread = mid(samples.map((s) => s.evenness.chromaSpread));
+  metrics.actualMeasurements.rednessDelta = mid(samples.map((s) => s.redness.delta));
+  metrics.actualMeasurements.underEyeRatio = mid(samples.map((s) => s.darkCircles.ratio));
+}
 
 export default function Scanner() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -221,6 +244,7 @@ export default function Scanner() {
       const MAX_ATTEMPTS = 150; // ~6s worst case
       const FRAME_INTERVAL_MS = 40;
       const collected: ReturnType<typeof analyzeFrame>[] = [];
+      const skinSamples: SkinSample[] = [];
       let lastLandmarks: any[] = [];
       let recentRejects = 0;
 
@@ -238,6 +262,18 @@ export default function Scanner() {
             collected.push(analyzeFrame(landmarks, aspect));
             lastLandmarks = landmarks;
             recentRejects = Math.max(0, recentRejects - 1);
+            // Sample skin pixels on every 4th good frame (it reads the canvas,
+            // so keep it off the hot path of every frame)
+            if (collected.length % 4 === 1) {
+              const skin = sampleSkinQuality(
+                video,
+                landmarks,
+                video.videoWidth,
+                video.videoHeight,
+                getTeethCanvas()
+              );
+              if (skin) skinSamples.push(skin);
+            }
           } else {
             recentRejects++;
           }
@@ -284,6 +320,7 @@ export default function Scanner() {
       void smileStart;
 
       const metrics = medianMetrics(collected);
+      applySkinSamples(metrics, skinSamples);
       if (teethSamples.length >= 3) {
         const mid = Math.floor(teethSamples.length / 2);
         const byScore = [...teethSamples].sort((a, b) => a.score - b.score);
@@ -370,8 +407,18 @@ export default function Scanner() {
         // Brief pause so the user sees the detection overlay
         await new Promise((r) => setTimeout(r, 900));
 
-        // Teeth color — works when the photo is a smile showing teeth
+        // Skin quality from the photo's pixels
         const metrics = analyzeFrame(landmarks, aspect);
+        const skin = sampleSkinQuality(
+          img,
+          landmarks,
+          img.naturalWidth,
+          img.naturalHeight,
+          getTeethCanvas()
+        );
+        if (skin) applySkinSamples(metrics, [skin]);
+
+        // Teeth color — works when the photo is a smile showing teeth
         const teeth = sampleTeethColor(
           img,
           landmarks,

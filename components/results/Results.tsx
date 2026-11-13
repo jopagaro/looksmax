@@ -92,6 +92,30 @@ export default function Results() {
           ? `Yellow idx ${a.teethYellowness}`
           : 'No smile caught',
     },
+    {
+      name: 'Skin Tone',
+      score: metrics.skinEvenness,
+      description: 'Tone evenness across forehead, cheeks, chin',
+      ideal: 'Lower drift = better',
+      actual: a.chromaSpread !== null && a.chromaSpread !== undefined ? `Drift ${a.chromaSpread}` : '—',
+    },
+    {
+      name: 'Redness',
+      score: metrics.skinRedness,
+      description: 'Cheek flush vs rest of face',
+      ideal: 'Even = best',
+      actual: a.rednessDelta !== null && a.rednessDelta !== undefined ? `Cheeks +${Math.max(0, a.rednessDelta)}` : '—',
+    },
+    {
+      name: 'Dark Circles',
+      score: metrics.darkCircles,
+      description: 'Under-eye shadow vs cheek brightness',
+      ideal: 'Ideal ~100%',
+      actual:
+        a.underEyeRatio !== null && a.underEyeRatio !== undefined
+          ? `${Math.round(a.underEyeRatio * 100)}% bright`
+          : '—',
+    },
   ];
 
   const overallScore = computeOverallScore(metrics);

@@ -10,6 +10,7 @@ import {
   structureUrl,
 } from '@/lib/compounds';
 import { GearItem, GEAR_CATEGORY_META, OUTCOME_META } from '@/lib/gear';
+import { buyActionFor } from '@/lib/affiliates';
 
 export type LibraryItem =
   | { kind: 'compound'; item: Compound }
@@ -159,38 +160,74 @@ export default function ItemModal({
 
           {/* Buy / status area */}
           <div className="pt-1">
-            {kind === 'compound' && item.status === 'rx' ? (
-              <div className="border-[3px] border-ink bg-cream px-4 py-3 text-center">
-                <p className="font-display text-sm uppercase">℞ Prescription only</p>
-                <p className="text-xs font-bold text-ink-mute mt-0.5">
-                  This one goes through a doctor, not a cart.
-                </p>
-              </div>
-            ) : kind === 'compound' && item.status === 'research' ? (
-              <div className="border-[3px] border-ink bg-ink px-4 py-3 text-center">
-                <p className="font-display text-sm uppercase text-pop">⚠ Research compound</p>
-                <p className="text-xs font-bold text-cream/70 mt-0.5">
-                  Not approved for human use. We don&apos;t sell it.
-                </p>
-              </div>
-            ) : item.buyLink ? (
-              <a
-                href={item.buyLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-brutal bg-pop text-white w-full justify-center text-sm px-5 py-3"
-              >
-                {kind === 'gear' && item.price ? `Get It · ${item.price}` : 'Get It'}
-                <ExternalLink className="w-4 h-4" />
-              </a>
-            ) : (
-              <button
-                disabled
-                className="btn-brutal bg-white text-ink-mute w-full justify-center text-sm px-5 py-3 cursor-not-allowed"
-              >
-                {kind === 'gear' && item.price ? `${item.price} · Link coming soon` : 'Link coming soon'}
-              </button>
-            )}
+            {(() => {
+              const buy = buyActionFor(selected);
+
+              if (buy?.kind === 'telehealth') {
+                return (
+                  <div className="space-y-1.5">
+                    <a
+                      href={buy.url}
+                      target="_blank"
+                      rel="noopener noreferrer sponsored"
+                      className="btn-brutal bg-pop text-white w-full justify-center text-sm px-5 py-3"
+                    >
+                      {buy.label}
+                      <ExternalLink className="w-4 h-4" />
+                    </a>
+                    <p className="text-[10px] font-bold uppercase tracking-wide text-ink-mute text-center">
+                      ℞ A licensed provider decides if it&apos;s right for you
+                    </p>
+                  </div>
+                );
+              }
+
+              if (kind === 'compound' && item.status === 'rx') {
+                return (
+                  <div className="border-[3px] border-ink bg-cream px-4 py-3 text-center">
+                    <p className="font-display text-sm uppercase">℞ Prescription only</p>
+                    <p className="text-xs font-bold text-ink-mute mt-0.5">
+                      This one goes through a doctor, not a cart.
+                    </p>
+                  </div>
+                );
+              }
+
+              if (kind === 'compound' && item.status === 'research') {
+                return (
+                  <div className="border-[3px] border-ink bg-ink px-4 py-3 text-center">
+                    <p className="font-display text-sm uppercase text-pop">⚠ Research compound</p>
+                    <p className="text-xs font-bold text-cream/70 mt-0.5">
+                      Not approved for human use. We don&apos;t sell it.
+                    </p>
+                  </div>
+                );
+              }
+
+              if (buy) {
+                const price = kind === 'gear' ? item.price : undefined;
+                return (
+                  <a
+                    href={buy.url}
+                    target="_blank"
+                    rel="noopener noreferrer sponsored"
+                    className="btn-brutal bg-pop text-white w-full justify-center text-sm px-5 py-3"
+                  >
+                    {price ? `${buy.label} · ${price}` : buy.label}
+                    <ExternalLink className="w-4 h-4" />
+                  </a>
+                );
+              }
+
+              return (
+                <button
+                  disabled
+                  className="btn-brutal bg-white text-ink-mute w-full justify-center text-sm px-5 py-3 cursor-not-allowed"
+                >
+                  Sourced in person — no link
+                </button>
+              );
+            })()}
           </div>
         </div>
       </motion.div>
