@@ -44,6 +44,7 @@ const gate = {
   'arctic-shift.photon-reddit.com': throttle(2500),
   'web.archive.org': throttle(1500),
   'grokipedia.com': throttle(400),
+  't-nation.com': throttle(1300),
 };
 async function get(url, { json = false, tries = 3 } = {}) {
   if (url.includes('arctic-shift')) tries = Math.max(tries, 5);
@@ -386,12 +387,31 @@ async function looksmaxOrg(item, terms) {
   return list;
 }
 
+// T Nation forums (Discourse JSON search — open, no bot wall). Strong on steroids, peptides, TRT, training.
+async function tnation(item, terms) {
+  const topics = new Map();
+  let calls = 0, fails = 0;
+  for (const term of terms.slice(0, 2)) {
+    const r = await get(`https://t-nation.com/search.json?q=${encodeURIComponent(term)}`, { json: true });
+    calls++; if (!r) { fails++; continue; }
+    const blurbs = new Map();
+    (r.posts || []).forEach((p) => { if (!blurbs.has(p.topic_id)) blurbs.set(p.topic_id, (p.blurb || '').replace(/\s+/g, ' ').slice(0, 400)); });
+    for (const t of r.topics || []) {
+      if (topics.has(t.id)) continue;
+      topics.set(t.id, { id: t.id, title: t.title, url: `https://t-nation.com/t/${t.slug}/${t.id}`, posts: t.posts_count || 0,
+        year: Number(String(t.created_at || '').slice(0, 4)) || null, blurb: blurbs.get(t.id) || '' });
+    }
+  }
+  if (calls && fails === calls) return { __failed: true };
+  return [...topics.values()].sort((a, b) => b.posts - a.posts).slice(0, 15);
+}
+
 // ───────── run ─────────
 // --sources wiki,grok,pubmed,reddit,looksmax (default: all). Results merge into the
 // existing raw file; a source is only re-fetched if it previously failed or is missing.
 const SRC_ARG = process.argv.includes('--sources') ? process.argv[process.argv.indexOf('--sources') + 1].split(',') : ['wiki', 'grok', 'pubmed', 'reddit', 'looksmax'];
 const CONC = Number(process.argv.includes('--conc') ? process.argv[process.argv.indexOf('--conc') + 1] : 5);
-const FN = { wiki: ['wikipedia', wikipedia], grok: ['grokipedia', grokipedia], pubmed: ['pubmed', pubmed], reddit: ['reddit', reddit], looksmax: ['looksmax', looksmaxOrg] };
+const FN = { tnation: ['tnation', tnation], wiki: ['wikipedia', wikipedia], grok: ['grokipedia', grokipedia], pubmed: ['pubmed', pubmed], reddit: ['reddit', reddit], looksmax: ['looksmax', looksmaxOrg] };
 const { allEntries } = await import('./entries.mjs');
 const ENTRIES = allEntries().filter((e) => !ONLY || e.item.name === ONLY);
 

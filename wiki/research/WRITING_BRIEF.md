@@ -7,7 +7,7 @@ looksmax.org threads with post excerpts, first-pass notes) plus reference text.
 
 Dossier source tags: [W] Wikipedia, [WC] links the Wikipedia article cites, [G] Grokipedia, [P] PubMed (with abstracts),
 [O] OpenAlex (with citation counts — high counts = landmark papers), [E] Europe PMC, [CT] ClinicalTrials.gov registrations,
-[FDA] the US drug label on DailyMed, [S]/[F] first-pass finds, [R] Reddit threads + top comments, [L] looksmax.org threads + posts.
+[FDA] the US drug label on DailyMed, [S]/[F] first-pass finds, [R] Reddit threads + top comments, [L] looksmax.org threads + posts, [T] T Nation forum threads + excerpts.
 
 For each entry, read its dossier and write `research/deep/<slug>.json` (same slug as the dossier filename).
 Write each file as soon as that entry is done — don't batch. Validate each with

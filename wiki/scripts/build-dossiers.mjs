@@ -73,6 +73,7 @@ for (const { kind, item, pending } of allEntries()) {
     (t.posts || []).slice(0, 3).forEach((p, j) => L.push(`     ${j === 0 ? 'OP' : 'reply'}: ${clip(p, j === 0 ? 1100 : 400)}`));
   });
   (fp.forums || []).forEach((x, i) => L.push(`[F${i + 1}] ${x.site || ''} "${x.title}" — ${x.url}`));
+  (Array.isArray(raw.tnation) ? raw.tnation : []).slice(0, 10).forEach((t, i) => L.push(`[T${i + 1}] T Nation forum "${t.title}" (${t.posts} posts, ${t.year || '?'}) — ${t.url}${t.blurb ? `\n     excerpt: ${clip(t.blurb, 300)}` : ''}`));
 
   // Reference text — Wikipedia first (by priority), then Grokipedia.
   let budget = CAP - L.join('\n').length;

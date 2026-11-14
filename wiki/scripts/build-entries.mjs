@@ -46,20 +46,27 @@ for (const { kind, item } of ENTRIES) {
   const forums = [];
   const seenF = new Set();
   const addForum = (x) => { const k = norm(x.url); if (!okUrl(x.url) || seenF.has(k)) return; seenF.add(k); forums.push(x); };
+  const TN = Array.isArray(raw.tnation) ? raw.tnation : [];
   LM.slice(0, 16).forEach((t) => addForum({ title: t.title, url: t.url, site: 'looksmax.org', archived: t.archived || `https://web.archive.org/web/${t.ts}/${t.url}` }));
+  TN.slice(0, 6).forEach((t) => addForum({ title: t.title, url: t.url, site: `T Nation · ${t.posts} posts${t.year ? ' · ' + t.year : ''}` }));
   (fp.forums || []).forEach((x) => { if (!/reddit\.com/.test(x.url) || !reddit.some((r) => norm(r.url) === norm(x.url))) addForum({ title: x.title, url: x.url, site: x.site }); });
 
   const X = readJSON(join(root, 'research', 'extra', s + '.json')) || {};
   const IMG = readJSON(join(root, 'research', 'images', s + '.json')) || {};
-  const gallery = (IMG.images || []).filter((g) => okUrl(g.url) && okUrl(g.page || '')).slice(0, 12)
+  const galleryRaw = (IMG.images || []).filter((g) => okUrl(g.url) && okUrl(g.page || ''))
     .map((g) => ({ url: g.thumb || g.url, full: g.url, title: g.title, license: g.license, creator: g.creator, page: g.page, source: g.source }));
-
-  // ── Image: gear prefers the item photo the first pass picked; compounds prefer Wikipedia's lead image
+  // ── Image: only use a picture we're confident actually shows THIS entry.
+  const normT = (t) => String(t || '').toLowerCase().replace(/\s*\(.*?\)\s*/g, ' ').replace(/[^a-z0-9]+/g, ' ').trim();
+  // Name, aka and the single most specific search term only — broader terms ("microneedling") picked wrong photos.
+  const termList = [...new Set([item.name, item.aka, (raw.terms || item.terms || [])[0]].filter(Boolean).flatMap((t) => String(t).split('/')).map(normT).filter((t) => t.length > 2))];
+  const matches = (text) => { const n = ' ' + normT(text) + ' '; return termList.some((t) => n.includes(' ' + t + ' ') || (t.split(' ').length > 1 && t.split(' ').every((w) => n.includes(' ' + w)))); };
   let image = null;
-  const wImg = W?.image?.url && /^https:\/\/upload\.wikimedia\.org\//.test(W.image.url) ? { url: W.image.url, credit: W.image.page, caption: W.title, source: 'Wikimedia Commons via Wikipedia' } : null;
+  const wikiIsAboutIt = W && !W.viaSearch && matches(W.title);
+  const wImg = wikiIsAboutIt && W?.image?.url && /^https:\/\/upload\.wikimedia\.org\//.test(W.image.url) ? { url: W.image.url, credit: W.image.page, caption: W.title, source: 'Wikimedia Commons via Wikipedia' } : null;
   const fImg = okUrl(fp.image) ? { url: fp.image, credit: fp.imageCredit, caption: item.name, source: 'Wikimedia Commons' } : null;
-  image = kind === 'gear' ? (fImg || (W && !W.viaSearch ? wImg : null) || wImg) : (wImg || null);
-  if (!image && gallery.length) image = { url: gallery[0].url, credit: gallery[0].page, caption: gallery[0].title, source: gallery[0].source };
+  const gallery = galleryRaw.filter((g) => matches(g.title)).slice(0, 12);
+  const gImg = gallery[0];
+  image = kind === 'compound' ? wImg : (fImg || wImg || (gImg ? { url: gImg.url, credit: gImg.page, caption: gImg.title, source: gImg.source } : null));
   if (image) stats.images++;
 
   // ── Allowed citation URLs = everything we actually scraped or the first pass verified
@@ -68,7 +75,7 @@ for (const { kind, item } of ENTRIES) {
     ...(X.trials || []).map((t) => t.url), X.fda?.url,
     ...((deep && deep.webSources) || []).map((w) => w && w.url),
     W?.url, ...(W?.citedLinks || []), G?.url, fp.grokipedia,
-    ...PM.flatMap((p) => [p.url, p.pmc]), ...RD.map((p) => p.url), ...LM.flatMap((t) => [t.url, t.archived]),
+    ...PM.flatMap((p) => [p.url, p.pmc]), ...RD.map((p) => p.url), ...TN.map((t) => t.url), ...LM.flatMap((t) => [t.url, t.archived]),
     ...(fp.scholarly || []).map((x) => x.url), ...(fp.forums || []).map((x) => x.url),
   ].filter(Boolean).map(norm));
 
@@ -85,7 +92,7 @@ for (const { kind, item } of ENTRIES) {
     trials: (X.trials || []).map((t) => ({ title: t.title, url: t.url, nct: t.nct, status: t.status, phase: t.phase, start: t.start, enrollment: t.enrollment })),
     label: X.fda?.url ? { url: X.fda.url, brands: X.fda.brands, generic: X.fda.generic } : null,
     reddit: RD.map((p) => ({ title: p.title, url: p.url, sub: p.sub, score: p.score, comments: p.comments, year: p.year })).sort((a, b) => (b.score + b.comments) - (a.score + a.comments)),
-    forums: [...forums, ...LM.slice(16).map((t) => ({ title: t.title, url: t.url, site: 'looksmax.org', archived: t.archived || `https://web.archive.org/web/${t.ts}/${t.url}` }))],
+    forums: [...forums, ...TN.slice(6).map((t) => ({ title: t.title, url: t.url, site: `T Nation · ${t.posts} posts${t.year ? ' · ' + t.year : ''}` })), ...LM.slice(16).map((t) => ({ title: t.title, url: t.url, site: 'looksmax.org', archived: t.archived || `https://web.archive.org/web/${t.ts}/${t.url}` }))],
     web: [W && { title: W.title + ' — Wikipedia', url: W.url }, G && { title: item.name + ' — Grokipedia', url: G.url }, ...((deep && deep.webSources) || []).filter((w) => w && okUrl(w.url)).map((w) => ({ title: w.title || w.url, url: w.url }))].filter(Boolean),
   };
 
