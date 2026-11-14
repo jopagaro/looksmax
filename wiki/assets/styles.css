@@ -360,3 +360,12 @@ sup.ref a { border: 0; font-weight: 700; color: var(--pop-dark); }
 .timeline b { font-family: var(--display); }
 .linklist li { position: relative; }
 .linklist .arch { position: absolute; right: 12px; bottom: 8px; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-mute); border: 0 !important; padding: 0 !important; display: inline !important; }
+
+/* Quick take / In-depth toggle */
+.viewtoggle { display: inline-grid; grid-template-columns: 1fr 1fr; border: var(--b); box-shadow: var(--sh-xs); margin-top: 16px; background: #fff; }
+.viewtoggle a { text-decoration: none; color: var(--ink); text-align: center; font-family: var(--display); text-transform: uppercase; font-size: 13px; letter-spacing: .03em; padding: 10px 18px; border: 0; background: #fff; cursor: pointer; }
+.viewtoggle a + a { border-left: var(--b); }
+.viewtoggle a:hover { background: var(--cream); }
+.viewtoggle a.on { background: var(--ink); color: var(--cream); }
+.viewtoggle a.on:last-child { background: var(--pop); color: #fff; }
+.viewtoggle small { font-family: var(--font); font-size: 9px; font-weight: 700; letter-spacing: .08em; opacity: .7; margin-left: 4px; }

@@ -107,6 +107,11 @@ for (const { kind, item } of ENTRIES) {
   stats.studies += studies.length; stats.reddit += reddit.length; stats.forum += forums.length;
   writeFileSync(join(outDir, s + '.json'), JSON.stringify({
     name: item.name, deep: !!deep, image,
+    // Quick take = the short first-pass write-up; always present.
+    casual: {
+      lead: (fp.overview || '').split(/\n\s*\n/).filter(Boolean),
+      sections: [fp.mechanism && { h: 'How it works', paras: [fp.mechanism], subs: [] }, fp.risks && { h: 'Risks and caveats', paras: [fp.risks], subs: [] }].filter(Boolean),
+    },
     wikipedia: W ? { title: W.title, url: W.url } : null,
     grokipedia: G?.url || fp.grokipedia || null,
     lead, infobox, sections, lore, timeline, refs, studies: studies.slice(0, 16), reddit, forums,

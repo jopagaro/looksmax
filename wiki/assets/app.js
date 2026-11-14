@@ -287,6 +287,8 @@
   }
 
   // ───────── entry article (Wikipedia-style) ─────────
+  // Quick take (default) vs In-depth — remembered per viewer.
+  let VIEW = 'quick'; // set by the router: #/<kind>/<slug> = quick take, #/<kind>/<slug>/deep = in-depth
   const DETAIL = new Map(); // slug → loaded data/entries/<slug>.json (or 'error')
   function loadDetail(s) {
     if (DETAIL.has(s)) return Promise.resolve(DETAIL.get(s));
@@ -295,13 +297,21 @@
   }
   const VERDICT = { supported: ['Supported', 'tag-strong'], mixed: ['Mixed', 'tag-moderate'], unsupported: ['Unsupported', 'tag-unproven'], dangerous: ['Dangerous', 'tag-unproven'], unknown: ['Unknown', 'tag-limited'] };
 
-  function pageEntry(kind, s) {
+  function pageEntry(kind, s, view) {
+    VIEW = view === 'deep' ? 'deep' : 'quick';
     const e = bySlug[kind] && bySlug[kind].get(s);
     if (!e) return pageNotFound();
     const { item } = e;
     const X = DETAIL.get(e.slug);
     const loading = X === undefined;
-    const R = X && X !== 'error' ? X : { lead: [], sections: [], refs: [], studies: [], reddit: [], forums: [], infobox: [], timeline: [] };
+    let R = X && X !== 'error' ? X : { lead: [], sections: [], refs: [], studies: [], reddit: [], forums: [], infobox: [], timeline: [] };
+    const hasDeep = !!R.deep;
+    const deepView = VIEW === 'deep' && hasDeep;
+    if (!deepView) {
+      // Quick take: the short write-up, trimmed lists, no citations/lore/timeline.
+      const c = R.casual || {};
+      R = { ...R, lead: c.lead || (hasDeep ? [] : R.lead), sections: c.sections || (hasDeep ? [] : R.sections), timeline: [], lore: null, infobox: [], refs: [] };
+    }
     const meta = catMeta(kind)[item.category];
     const siblings = ENTRIES.filter((x) => x.kind === kind && x.item.category === item.category);
     const idx = siblings.indexOf(e);
@@ -309,7 +319,7 @@
     const related = siblings.filter((x) => x !== e)
       .sort((a, b) => D.evidenceMeta[a.item.evidence].rank - D.evidenceMeta[b.item.evidence].rank).slice(0, 6);
     const back = [...(BACKLINKS.get(kind + ':' + e.slug) || [])].map((g) => guideBySlug.get(g));
-    const here = `#/${kind}/${e.slug}`;
+    const here = `#/${kind}/${e.slug}${VIEW === 'deep' ? '/deep' : ''}`;
     // Escaped prose with [n] → superscript citation links
     const cite = (t) => esc(t).replace(/\[(\d+)\]/g, (m, n) => (R.refs[n - 1] ? `<sup class="ref"><a href="${here}" data-jump="ref-${n}" title="${esc(R.refs[n - 1].title)}">[${n}]</a></sup>` : ''));
     const P = (arr) => (arr || []).map((p) => `<p>${cite(p)}</p>`).join('');
@@ -396,7 +406,12 @@
         <header class="art-head">
           <span class="kicker">★ ${kind === 'compound' ? 'Compound file' : 'Gear file'}</span>
           <h1 class="h-page">${esc(item.name)}</h1>
-          <p class="from">From LOOKSMAX Wiki, the evidence-first looksmaxxing encyclopedia${R.deep ? '' : loading ? ' · loading full article…' : ''}</p>
+          <p class="from">From LOOKSMAX Wiki, the evidence-first looksmaxxing encyclopedia</p>
+          <div class="viewtoggle" role="tablist" aria-label="Article length">
+            <a role="tab" href="#/${kind}/${e.slug}" aria-selected="${VIEW !== 'deep'}" class="${VIEW === 'deep' ? '' : 'on'}">Quick take</a>
+            <a role="tab" href="#/${kind}/${e.slug}/deep" aria-selected="${VIEW === 'deep'}" class="${VIEW === 'deep' ? 'on' : ''}">In-depth${hasDeep || loading ? '' : ' <small>soon</small>'}</a>
+          </div>
+          ${VIEW === 'deep' && !hasDeep && !loading ? '<p class="callout" style="margin-top:14px">The full in-depth article for this entry is still being written — here is the quick take for now.</p>' : ''}
         </header>
         <div class="prose wp">
           ${infobox}
@@ -519,7 +534,7 @@
       case 'guide': { const g = guideBySlug.get(seg[1]); html = pageGuide(seg[1]); title = g ? g.title : 'Not found'; nav = 'guides'; break; }
       case 'compound':
       case 'gear': {
-        const e = bySlug[seg[0]].get(seg[1]); html = pageEntry(seg[0], seg[1]); title = e ? e.item.name : 'Not found'; nav = 'index';
+        const e = bySlug[seg[0]].get(seg[1]); html = pageEntry(seg[0], seg[1], seg[2]); title = e ? e.item.name + (seg[2] === 'deep' ? ' (in-depth)' : '') : 'Not found'; nav = 'index';
         if (e && !DETAIL.has(e.slug)) {
           const want = location.hash;
           loadDetail(e.slug).then(() => { if (location.hash === want) { keepScroll = true; route(); } });
