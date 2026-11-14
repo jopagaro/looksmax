@@ -41,7 +41,7 @@ function throttle(ms) {
 const gate = {
   'en.wikipedia.org': throttle(400),
   'eutils.ncbi.nlm.nih.gov': throttle(380),
-  'arctic-shift.photon-reddit.com': throttle(2500),
+  'arctic-shift.photon-reddit.com': throttle(1600),
   'web.archive.org': throttle(1500),
   'grokipedia.com': throttle(400),
   't-nation.com': throttle(1300),
@@ -326,7 +326,7 @@ async function pubmed(item, terms) {
 }
 
 async function reddit(item, terms) {
-  const subs = SUBS[item.category] || ['LooksmaxingAdvice', 'Looksmaxx'];
+  const subs = (SUBS[item.category] || ['LooksmaxingAdvice', 'Looksmaxx']).slice(0, 4);
   const seen = new Map();
   let calls = 0, fails = 0;
   for (const sub of subs) {
@@ -354,9 +354,31 @@ async function reddit(item, terms) {
   return posts;
 }
 
+// Local copy of the looksmax.org thread index (built once by discover.mjs) — far faster than per-entry CDX queries.
+let LMX_INDEX = null;
+function lmxIndex() {
+  if (LMX_INDEX) return LMX_INDEX;
+  const tsv = join(root, 'research', 'discovery', 'looksmax-threads.tsv');
+  const key = join(root, 'research', 'discovery', 'cdx-resume.key');
+  if (!existsSync(tsv) || !existsSync(key) || readFileSync(key, 'utf8').trim() !== 'DONE') return null;
+  LMX_INDEX = readFileSync(tsv, 'utf8').split('\n').filter(Boolean).map((l) => { const [id, sl, ts] = l.split('\t'); return { id: Number(id), slug: sl, ts: ts || '' }; });
+  return LMX_INDEX;
+}
 async function looksmaxOrg(item, terms) {
   const pats = terms.map((t) => slug(t)).filter((s) => s.length >= 3);
   if (!pats.length) return [];
+  const idx = lmxIndex();
+  if (idx) {
+    const rx = new RegExp(`(^|-)(${pats.map((p) => p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})(-|$)`);
+    const hits = idx.filter((t) => rx.test(t.slug)).map((t) => ({ url: `https://looksmax.org/threads/${t.slug}.${t.id}/`, ts: t.ts, id: t.id, title: t.slug.replace(/-/g, ' ') }));
+    const list = hits.sort((a, b) => {
+      const sa = pats.some((p) => a.title.startsWith(p.replace(/-/g, ' '))) ? 1 : 0;
+      const sb = pats.some((p) => b.title.startsWith(p.replace(/-/g, ' '))) ? 1 : 0;
+      return sb - sa || b.id - a.id;
+    }).slice(0, 30);
+    for (const t of list.slice(0, 3)) await fetchArchivedThread(t);
+    return list;
+  }
   const re = `.*(${pats.join('|')}).*`;
   const cdx = await get(`https://web.archive.org/cdx/search/cdx?url=looksmax.org/threads/&matchType=prefix&filter=original:${encodeURIComponent(re)}&filter=statuscode:200&collapse=urlkey&limit=400&fl=original,timestamp`);
   if (cdx === null || /Temporarily Offline/i.test(cdx)) return { __failed: true };
@@ -374,17 +396,18 @@ async function looksmaxOrg(item, terms) {
     const sb = pats.some((p) => b.title.startsWith(p.replace(/-/g, ' '))) ? 1 : 0;
     return sb - sa || b.id - a.id;
   }).slice(0, 25);
-  // Pull archived first posts for the top 5 (the long "guides" and theories).
-  for (const t of list.slice(0, 5)) {
-    const h = await get(`https://web.archive.org/web/${t.ts}id_/${t.url}`, { tries: 2 });
-    if (!h) continue;
-    const realTitle = (h.match(/<h1 class="p-title-value">([\s\S]*?)<\/h1>/) || [])[1];
-    if (realTitle) t.title = htmlToText(realTitle);
-    const posts = [...h.matchAll(/<div class="bbWrapper">([\s\S]*?)<\/div>\s*(?:<div class="js-selectToQuote|<\/div>\s*<\/article>|<div class="message-lastEdit|<\/article>)/g)].map((m) => htmlToText(m[1]));
-    t.posts = posts.filter((p) => p.length > 60).slice(0, 4).map((p) => p.slice(0, 1800));
-    t.archived = `https://web.archive.org/web/${t.ts}/${t.url}`;
-  }
+  // Pull archived first posts for the top 4 (the long "guides" and theories).
+  for (const t of list.slice(0, 4)) await fetchArchivedThread(t);
   return list;
+}
+async function fetchArchivedThread(t) {
+  const h = await get(`https://web.archive.org/web/${t.ts ? t.ts + 'id_' : '2id_'}/${t.url}`, { tries: 2 });
+  t.archived = `https://web.archive.org/web/${t.ts || '2'}/${t.url}`;
+  if (!h) return;
+  const realTitle = (h.match(/<h1 class="p-title-value">([\s\S]*?)<\/h1>/) || [])[1];
+  if (realTitle) t.title = htmlToText(realTitle);
+  const posts = [...h.matchAll(/<div class="bbWrapper">([\s\S]*?)<\/div>\s*(?:<div class="js-selectToQuote|<\/div>\s*<\/article>|<div class="message-lastEdit|<\/article>)/g)].map((m) => htmlToText(m[1]));
+  t.posts = posts.filter((p) => p.length > 60).slice(0, 4).map((p) => p.slice(0, 1800));
 }
 
 // T Nation forums (Discourse JSON search — open, no bot wall). Strong on steroids, peptides, TRT, training.

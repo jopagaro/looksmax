@@ -31,7 +31,7 @@ const seen = new Set(existsSync(tsv) ? readFileSync(tsv, 'utf8').split('\n').map
 let key = existsSync(keyFile) ? readFileSync(keyFile, 'utf8').trim() : '';
 if (key !== 'DONE') {
   for (let page = 0; page < MAX_PAGES; page++) {
-    const url = `https://web.archive.org/cdx/search/cdx?url=looksmax.org/threads/&matchType=prefix&collapse=urlkey&fl=original&filter=statuscode:200&limit=20000&showResumeKey=true${key ? '&resumeKey=' + encodeURIComponent(key) : ''}`;
+    const url = `https://web.archive.org/cdx/search/cdx?url=looksmax.org/threads/&matchType=prefix&collapse=urlkey&fl=original,timestamp&filter=statuscode:200&limit=20000&showResumeKey=true${key ? '&resumeKey=' + encodeURIComponent(key) : ''}`;
     const body = await get(url);
     if (!body) { console.log('CDX page failed; stopping (rerun to resume)'); break; }
     const lines = body.split('\n');
@@ -43,9 +43,9 @@ if (key !== 'DONE') {
     let added = 0;
     const out = [];
     for (const l of lines) {
-      const m = l.match(/looksmax\.org\/threads\/([^/?#]+?)\.(\d+)\//);
+      const m = l.match(/looksmax\.org\/threads\/([^/?#\s]+?)\.(\d+)\/\S*\s+(\d+)/);
       if (!m || seen.has(m[2])) continue;
-      seen.add(m[2]); out.push(`${m[2]}\t${m[1]}`); added++;
+      seen.add(m[2]); out.push(`${m[2]}\t${m[1]}\t${m[3]}`); added++;
     }
     if (out.length) appendFileSync(tsv, out.join('\n') + '\n');
     console.log(`CDX page ${page + 1}: +${added} threads (total ${seen.size})${next ? '' : ' — end of index'}`);
@@ -55,6 +55,7 @@ if (key !== 'DONE') {
   }
 }
 
+if (process.argv.includes('--cdx-only')) { console.log('CDX index done'); process.exit(0); }
 // ── 2. Wikipedia categories
 const CATS = [
   'Peptide hormones', 'Selective androgen receptor modulators', 'Growth hormone secretagogues', 'Anabolic–androgenic steroids',

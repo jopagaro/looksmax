@@ -37,9 +37,8 @@ window.LM_GUIDES = [
 </ol>`,
       },
       {
-        h: 'Contested areas',
-        body: `<p>Several popular practices — such as mewing, bonesmashing, jaw exercisers and many supplements — are strongly endorsed by parts of the community while having limited or no published research behind them. The [[guide:myths|Contested Claims]] page sets out what proponents believe alongside what researchers and clinicians have reported.</p>
-<p>Prescription drugs are marked <span class="tag">℞ Rx only</span>, and nothing in this wiki is medical advice.</p>`,
+        h: 'How articles are written',
+        body: `<p>Each article records what practitioners and proponents say about a method alongside what published research, regulators and clinicians report, with sources for both. Prescription drugs are marked <span class="tag">℞ Rx only</span>, and nothing in this wiki is medical advice.</p>`,
       },
     ],
   },
@@ -227,43 +226,6 @@ window.LM_GUIDES = [
     ],
   },
   {
-    slug: 'myths',
-    title: 'Contested Claims',
-    kicker: 'Claims & evidence',
-    summary: 'Popular looksmaxxing claims, what proponents say, and what published research reports.',
-    sections: [
-      {
-        h: 'About this page',
-        body: `<p>This page documents claims that are widely held in looksmaxxing communities but debated or untested in the research literature. For each, it sets out what proponents say and what researchers and clinicians have reported. It takes no position.</p>`,
-      },
-      {
-        h: 'Mewing and adult jaw development',
-        body: `<p><b>Proponents' view:</b> Practitioners, following orthotropics as developed by John and Mike Mew, hold that sustained correct tongue posture against the palate can gradually reshape the maxilla and jawline, including in adults. Many forum users post before-and-after photos as support. Related products include [[Mewing appliances]] and [[Mouth tape]].</p>
-<p><b>Research and expert view:</b> There are few controlled studies of mewing in adults. Orthodontic literature describes tongue posture as one influence on facial growth in children; most orthodontists describe adult skeletal change as requiring orthodontic or surgical treatment. Evidence status: <span class="tag tag-unproven">Unproven</span>.</p>`,
-      },
-      {
-        h: 'Chewing and jaw definition',
-        body: `<p><b>Proponents' view:</b> Users of a [[Jaw exerciser]] or [[Mastic / hard gum]] say that training the masseter muscles produces a sharper, more defined jaw.</p>
-<p><b>Research and expert view:</b> Studies show resistance chewing can increase masseter size. Clinicians note that larger masseters widen the lower face, and that overuse is associated with temporomandibular joint symptoms. Evidence status for "more definition": <span class="tag tag-limited">Limited</span>.</p>`,
-      },
-      {
-        h: 'Straps, clips and tape',
-        body: `<p><b>Proponents' view:</b> Sellers and some users say a [[Face slimming strap]], [[Nose reshaping clip]] or [[Facial lifting tape]] can reshape the face over time.</p>
-<p><b>Research and expert view:</b> No published studies have demonstrated lasting structural change; any effect described in the literature is temporary tissue compression. Evidence status: <span class="tag tag-unproven">Unproven</span>.</p>`,
-      },
-      {
-        h: 'Tanning supplements and injections',
-        body: `<p><b>Proponents' view:</b> Users of [[Melanotan II]] and tanning pills such as [[Canthaxanthin]] report fast, deep tans with less sun exposure.</p>
-<p><b>Research and expert view:</b> Melanotan II is not approved by any major regulator, and regulators including the FDA, MHRA and TGA have issued warnings. Canthaxanthin at tanning doses has been associated with retinal crystal deposits. [[Dihydroxyacetone]] (the active in [[Self-tanning mousse|self-tanners]]) is the approved cosmetic option.</p>`,
-      },
-      {
-        h: 'Research peptides',
-        body: `<p><b>Proponents' view:</b> Users of [[BPC-157]], [[TB-500]], [[MK-677]] and SARMs such as [[Ostarine]] report faster recovery, muscle gain or fat loss, often citing animal studies.</p>
-<p><b>Research and expert view:</b> These compounds are not approved for human use; human trial data are limited or absent for the uses described, and products sold online are not quality-controlled. Several have regulatory warnings.</p>`,
-      },
-    ],
-  },
-  {
     slug: 'glossary',
     title: 'Slang Glossary',
     kicker: 'Terms',
@@ -278,7 +240,7 @@ window.LM_GUIDES = [
 <dt>Hardmaxxing</dt><dd>Surgery, injectables and drugs. See [[guide:what-is-looksmaxxing|What Is Looksmaxxing]].</dd>
 <dt>Hunter eyes</dt><dd>Forum term for deep-set eyes with positive tilt and little visible upper eyelid.</dd>
 <dt>Leanmaxxing</dt><dd>Reducing body fat to reveal facial structure. See [[guide:fat-loss|Fat Loss]].</dd>
-<dt>Mewing</dt><dd>Resting the whole tongue against the palate. See [[guide:myths|Contested Claims]].</dd>
+<dt>Mewing</dt><dd>Resting the whole tongue against the palate, associated with orthotropics.</dd>
 <dt>Mogging</dt><dd>Being judged better-looking than someone else.</dd>
 <dt>Softmaxxing</dt><dd>Non-invasive improvements.</dd>
 <dt>Skinmaxxing</dt><dd>A focus on skincare. See [[guide:skincare|Skincare 101]].</dd>
