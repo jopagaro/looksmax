@@ -335,6 +335,8 @@
 
   // ───────── entry article (Wikipedia-style) ─────────
   // Quick take (default) vs In-depth — remembered per viewer.
+  const socialLi = (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc(r.site)} · ▲ ${r.score} · ${r.comments} comments${r.year ? ' · ' + r.year : ''} ↗</span></a></li>`;
+  const newsLi = (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc(r.site || '')}${r.date ? ' · ' + esc(r.date.slice(0, 4)) : ''} ↗</span></a></li>`;
   let VIEW = 'quick'; // set by the router: #/<kind>/<slug> = quick take, #/<kind>/<slug>/deep = in-depth
   const DETAIL = new Map(); // slug → loaded data/entries/<slug>.json (or 'error')
   function loadDetail(s) {
@@ -433,8 +435,6 @@
     const L = R.links || {};
     const allLinksHref = `#/${kind}/${e.slug}/links`;
     const totalLinks = (L.studies || []).length + (L.trials || []).length + (L.reddit || []).length + (L.forums || []).length + (L.social || []).length + (L.news || []).length + (L.web || []).length + (L.label ? 1 : 0);
-    const socialLi = (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc(r.site)} · ▲ ${r.score} · ${r.comments} comments${r.year ? ' · ' + r.year : ''} ↗</span></a></li>`;
-    const newsLi = (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc(r.site || '')}${r.date ? ' · ' + esc(r.date.slice(0, 4)) : ''} ↗</span></a></li>`;
     const studyLi = (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc([r.kind, r.source, r.year, r.cites != null ? `cited ${Number(r.cites).toLocaleString()}×` : null].filter(Boolean).join(' · '))} ↗</span></a></li>`;
     const redditLi = (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>r/${esc(r.sub)} · ▲ ${r.score} · ${r.comments} comments${r.year ? ' · ' + r.year : ''} ↗</span></a></li>`;
     const forumLi = (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc(r.site || '')} ↗</span></a>${r.archived ? `<a class="arch" href="${esc(r.archived)}" target="_blank" rel="noopener">archived copy</a>` : ''}</li>`;

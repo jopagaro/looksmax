@@ -37,6 +37,26 @@ const stats = { entries: 0, raw: 0, deep: 0, droppedRefs: 0, studies: 0, reddit:
 const ENTRIES = allEntries({ withPending: false });
 // Forum popularity: how many indexed looksmax.org thread titles mention each entry.
 const LMX = (() => { try { return readFileSync(join(root, 'research', 'discovery', 'looksmax-threads.tsv'), 'utf8').split('\n').filter(Boolean).map((l) => '-' + l.split('\t')[1] + '-'); } catch { return []; } })();
+// Social search (HN, Lemmy) is keyword-only, so most hits are off-topic. Keep a thread only when its title names the
+// entry as a whole phrase, isn't a tech/meme post, and either reads as a health/looks thread or names a multi-word term.
+const OFF_COMM = /meme|shitpost|comic|^196$|politic|news|technology|linux|fediverse|europe|^world$|^til$|showerthought|joke|^cats?$|onion|motorsport|osrs|^pics$|ecosocial|pravda|game|programming|privacy|android|selfhost|asklemmy|ask_?reddit|nostupidquestions|movies|music|anime|lemmy_?support|dataisbeautiful|mildly|aww|^art$|books|pcgaming|steam|wikipedia/i;
+const TECH = /\b(programming|software|startup|crypto|bitcoin|javascript|typescript|python|rust|golang|linux|api|github|apple|google|netflix|microsoft|ember|compiler|llm|gpt|kernel|database|sql|framework|browser|show hn: .*(app|tool|library)|ycombinator|\.js|c\+\+|struct|function pointers?)\b/i;
+const BODY = /\b(health|hair|bald|alopecia|skin|acne|derm\w*|face|facial|body|weight|fat|obes\w*|muscle|fitness|gym|lift\w*|diet|nutrition|sleep|drug|medic\w*|supplement|trial|testosterone|hormone|estrogen|beauty|cosmetic|surger\w*|aging|ageing|longevity|height|tall|teeth|dental|posture|exercise|workout|look\w*|appearance|attractive\w*|steroid|peptide|vitamin|fda|doctor|patients?|clinical|brain|cancer|heart|men|women|male|female|tan\w*|sun|wrinkle\w*|collagen|shav\w*|beard|groom\w*|fashion|style|cloth\w*|confidence|anxiety|mental)\b/i;
+function socialFilter(item, raw) {
+  const strip = (t) => String(t || '').replace(/\s*\(.*?\)\s*/g, ' ').trim().toLowerCase();
+  const split = (t) => strip(t).split(/\s*(?:\/|,|\bor\b|\+|&)\s*/).map((x) => x.trim()).filter((x) => x.length >= 4);
+  // The entry's own name/aliases count as-is; extra search terms only when they're multi-word (single words are too generic).
+  const phrases = [...new Set([...split(item.name), ...split(item.aka), ...[...(item.terms || []), ...(raw.terms || [])].flatMap(split).filter((x) => /[\s-]/.test(x))])];
+  const esc = (t) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const rx = phrases.map((p) => ({ multi: /[\s-]/.test(p) && p.length >= 8, re: new RegExp('(^|[^a-z0-9])' + esc(p) + '(s|es)?([^a-z0-9]|$)', 'i') }));
+  return (title) => {
+    const t = String(title || '');
+    if (TECH.test(t)) return false;
+    const hit = rx.filter((r) => r.re.test(t));
+    return hit.length > 0 && BODY.test(t);
+  };
+}
+
 function mentionsFor(item, raw) {
   if (!LMX.length) return null;
   const terms = [...new Set([...(raw.terms || []), ...(item.terms || []), item.name].map((t) => slug(String(t).replace(/\s*\(.*?\)\s*/g, ' '))).filter((t) => t.length >= 4))];
@@ -59,8 +79,9 @@ for (const { kind, item } of ENTRIES) {
   const RD = Array.isArray(raw.reddit) ? raw.reddit : [];
   const LM = Array.isArray(raw.looksmax) ? raw.looksmax : [];
   const NW = Array.isArray(raw.news) ? raw.news.filter((n) => cleanTitle(n.title) && okUrl(n.url)) : [];
-  const HN = Array.isArray(raw.hackernews) ? raw.hackernews.filter((n) => cleanTitle(n.title)) : [];
-  const LY = Array.isArray(raw.lemmy) ? raw.lemmy.filter((n) => cleanTitle(n.title) && okUrl(n.url)) : [];
+  const onTopic = socialFilter(item, raw);
+  const HN = Array.isArray(raw.hackernews) ? raw.hackernews.filter((n) => cleanTitle(n.title) && onTopic(n.title)) : [];
+  const LY = Array.isArray(raw.lemmy) ? raw.lemmy.filter((n) => cleanTitle(n.title) && okUrl(n.url) && !OFF_COMM.test(n.community || '') && onTopic(n.title)) : [];
 
   // ── Studies: PubMed (verified via E-utilities) + first-pass scholarly, de-duplicated
   const studies = [];
