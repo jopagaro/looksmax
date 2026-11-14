@@ -1,0 +1,89 @@
+{
+  "name": "Body fat calipers",
+  "card": {
+    "summary": "Pinch-style skinfold calipers estimate body fat from fold thickness; cheap and good for tracking your own changes, less reliable as an absolute percentage.",
+    "aka": "Skinfold calipers, plicometer, pinch test",
+    "evidence": "moderate",
+    "outcome": "durable",
+    "price": null,
+    "note": "Measures subcutaneous fat only; results depend on technique and chosen formula.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "Skinfold calipers are hand-held tools that measure the thickness of a pinched fold of skin and fat at set body sites. The readings are entered into a formula, such as Durnin-Womersley or Jackson-Pollock, to estimate body density and then body fat percentage.\n\nIn lean-gaining and cutting circles they are used to track progress without scales or scans. Sources describe them as most useful for following change over time when the same person uses the same technique, rather than as a precise absolute number.",
+    "mechanism": "The caliper applies a standard pressure to a pinched fold at chosen sites. Subcutaneous fat thickness is converted into an estimate of total body fat using population-based equations, with a second equation such as Siri or Brozek turning body density into a percentage.",
+    "risks": "No physical risk, but accuracy depends on site placement, pressure, caliper type and the equation used. It captures only fat under the skin and not visceral fat, and two people with similar readings can differ in total body fat."
+  },
+  "lead": [
+    "Body fat calipers, also called skinfold calipers or plicometers, are hand-held instruments that measure the thickness of a pinched fold of skin and the fat beneath it at standardized body sites. The readings are used in equations that estimate whole-body fat percentage. The method is also known as the pinch test.[1]",
+    "Reference methods such as the Durnin-Womersley and Jackson-Pollock formulas estimate body density from skinfold sums, and a second formula such as Siri or Brozek converts density to body fat percentage, which compounds the statistical error.[1] Accuracy depends on precise site placement and consistent pressure, and sources describe the method as better for tracking change within one person than for giving a true absolute figure.[1]",
+    "Validation studies have compared skinfold calipers with ultrasound and computed tomography for subcutaneous fat measurement, and a 1979 study examined how compressible skinfolds are, one reason caliper readings vary.[2][3]"
+  ],
+  "infobox": [
+    ["Type", "Hand-held measuring instrument"],
+    ["Measures", "Subcutaneous skinfold thickness"],
+    ["Common equations", "Durnin-Womersley, Jackson-Pollock"],
+    ["Number of sites", "Three to seven, depending on formula"],
+    ["Regulatory status", "Non-medical measuring tool; no clearance needed for typical consumer use"]
+  ],
+  "sections": [
+    {
+      "h": "How it works",
+      "paras": [
+        "The examiner pinches a fold of skin and underlying fat at a defined site, applies the caliper jaws, and reads the thickness. Formulas use between three and seven sites. The number of sites is reported to matter less than an individual's own fat distribution.[1]",
+        "Because the sum of skinfolds predicts body density rather than fat directly, a conversion equation is applied, and population-specific equations may be less accurate for people outside the group on which they were developed, such as highly athletic older people.[1]"
+      ]
+    },
+    {
+      "h": "Accuracy and limitations",
+      "paras": [
+        "A comparison of skinfold calipers, ultrasound and computed tomography for subcutaneous fat measurement examined how well the methods agree.[3] An earlier study examined how compressible skinfolds are, which affects the reading depending on tissue and pressure.[2] Research that used skinfolds, ultrasound and body mass index to characterize the subcutaneous fat layer has been used in electromyography studies as a correction factor.[4]",
+        "Wikipedia notes the technique measures only subcutaneous fat, not visceral fat, so similar readings can correspond to different total body fat, and that results vary with caliper type and examiner technique.[1] It also states that the method may not give a true body fat reading but reliably tracks change when the same person uses the same technique.[1]"
+      ]
+    },
+    {
+      "h": "Use in looksmaxxing",
+      "paras": [
+        "Calipers are discussed in bodybuilding and physique communities as a low-cost way to follow fat loss during a cut and to compare against scale weight. Users often prefer them to bioimpedance scales, citing consumer pricing and portability. Caliper types range from inexpensive plastic pinch devices to spring-loaded metal models, and the reliability of the reading depends on a consistent operator."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No clinical trials of calipers as an intervention were found. Methodological studies have compared skinfold calipers with ultrasound and computed tomography for measuring subcutaneous fat, and have examined how skinfold compressibility affects readings.[2][3] A 1962 paper described the measurement of total body fat with skinfold calipers.[5]"
+      ]
+    }
+  ],
+  "timeline": [
+    { "year": "1962", "event": "A paper on measuring total body fat with skinfold calipers appears in Clinical Science.[5]" },
+    { "year": "1979", "event": "A study examines the compressibility of skinfolds in measuring subcutaneous fatness.[2]" },
+    { "year": "1994", "event": "Skinfold calipers are compared with ultrasound and CT for subcutaneous fat measurement.[3]" }
+  ],
+  "lore": {
+    "intro": "Calipers are a recurring tool in fitness communities for tracking body fat during cutting phases.",
+    "claims": [
+      {
+        "claim": "Calipers give a cheap, accurate body fat percentage at home",
+        "believers": "Users say that a consistent self-measurement gives a useful number without the cost of scans.",
+        "experts": "Wikipedia reports the method may not give a true body fat reading, and accuracy depends on technique and equation choice.[1]",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "Calipers are best for tracking change over time",
+        "believers": "Many users measure the same sites on a schedule and compare trends rather than absolute values.",
+        "experts": "Wikipedia notes the method reliably tracks change when the same person uses the same technique.[1]",
+        "evidence": "supported"
+      }
+    ]
+  },
+  "refs": [
+    { "id": 1, "title": "Skinfold test", "url": "https://en.wikipedia.org/wiki/Skinfold_test", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
+    { "id": 2, "title": "Compressibility of skinfolds and the measurement of subcutaneous fatness", "url": "https://pubmed.ncbi.nlm.nih.gov/463811/", "source": "American Journal of Clinical Nutrition", "year": 1979, "type": "study" },
+    { "id": 3, "title": "Accuracy of subcutaneous fat measurement: comparison of skinfold calipers, ultrasound, and computed tomography", "url": "https://pubmed.ncbi.nlm.nih.gov/8046177/", "source": "Journal of the American Dietetic Association", "year": 1994, "type": "study" },
+    { "id": 4, "title": "Influence of the subcutaneous fat layer, as measured by ultrasound, skinfold calipers and BMI, on the EMG amplitude", "url": "https://pubmed.ncbi.nlm.nih.gov/12712347/", "source": "European Journal of Applied Physiology", "year": 2003, "type": "study" },
+    { "id": 5, "title": "The measurement of total body fat with skinfold calipers", "url": "https://pubmed.ncbi.nlm.nih.gov/13893583/", "source": "Clinical Science", "year": 1962, "type": "study" }
+  ],
+  "webSources": [
+    { "url": "https://en.wikipedia.org/wiki/Skinfold_test", "title": "Skinfold test" }
+  ]
+}

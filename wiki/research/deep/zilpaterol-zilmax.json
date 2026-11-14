@@ -1,0 +1,52 @@
+{
+"name": "Zilpaterol (Zilmax)",
+"card": {
+ "summary": "A beta-agonist cattle feed additive that grows lean beef; there are no human studies and no documented appearance use in the sources.",
+ "aka": "Zilmax, RU 42173, zilpaterol hydrochloride",
+ "evidence": "unproven",
+ "status": "research",
+ "risk": null,
+ "price": null,
+ "note": "Veterinary product only; banned in China, Russia, Taiwan and many EU countries for livestock.",
+ "structure": "Zilpaterol"
+},
+"quick": {
+ "overview": "Zilpaterol is a beta-2 adrenergic agonist fed to feedlot cattle in the last weeks before slaughter to increase muscle yield and feed efficiency. It is sold as Zilmax.\n\nIt is sometimes mentioned alongside clenbuterol as a related beta-agonist, but the sources reviewed describe only veterinary use and contain no human trials or community accounts.",
+ "mechanism": "As a beta-2 agonist it shifts nutrient use in cattle toward lean muscle rather than fat. Cattle studies report greater carcass weight, leaner carcasses and better feed efficiency.",
+ "risks": "No human safety data for deliberate use exist in the sources. In cattle, a 2013 episode in which animals arrived at a Tyson plant with missing hooves in hot weather led to Tyson refusing Zilmax-fed cattle. Some studies report lower meat tenderness. It is prescription-only in Canada and Australia and banned for livestock in several countries."
+},
+"lead": [
+ "Zilpaterol is a synthetic beta-2 adrenergic agonist given orally to cattle under the brand name Zilmax, produced by Merck's animal-health unit Intervet. It is fed during the last three to six weeks in a feedlot, with a withdrawal period before slaughter, to increase muscle mass and feed efficiency. [5][6]",
+ "No human clinical studies of zilpaterol were identified; published research concerns cattle performance, carcass traits and meat quality. [1][2][3][4] Its mention in appearance-related contexts is as a veterinary relative of clenbuterol, but the literature reviewed contains no documentation of human use."
+],
+"infobox": [
+ ["Drug class", "Beta-2 adrenergic agonist"],
+ ["Species", "Cattle (feed additive)"],
+ ["Trade name", "Zilmax"],
+ ["Developer", "Merck (as RU 42173)"],
+ ["Legal status", "Approved for cattle in about 17 countries; banned in China, Russia, Taiwan, many EU states"]
+],
+"sections": [
+ {"h": "Uses", "paras": ["Zilpaterol is a veterinary feed additive. Feedlot trials have tested it in steers and heifers to increase growth performance and carcass yield. [3][7]"]},
+ {"h": "Effectiveness", "paras": ["A meta-analysis of zilpaterol and ractopamine effects in cattle examined feedlot performance, carcass traits and shear force of meat. [4] Trials report improved carcass characteristics in cattle fed zilpaterol, with some reporting increases in shear force (reduced tenderness) compared with controls. [1][2][4]", "Wikipedia notes that some studies found no meaningful flavor or juiciness differences while others found reduced tenderness and marbling. [5]"]},
+ {"h": "Society and culture", "subs": [
+  {"h": "Regulatory status", "paras": ["As of 2017 zilpaterol was approved in 17 countries including the US, Canada, South Africa, South Korea, Ukraine and Brazil, while China, Taiwan, Russia and many EU countries ban it. [5]", "In August 2013 Tyson Foods announced it would no longer accept Zilmax-fed cattle after animals arrived at its plants with missing hooves during hot weather. [5]"]}
+ ]},
+ {"h": "Clinical studies", "paras": ["No studies found in humans. Controlled research is limited to cattle trials, which compare zilpaterol with control diets and with ractopamine and clenbuterol on growth and carcass measures. [1][2][3][4]"]}
+],
+"timeline": [
+ {"year": "2012", "event": "Major US meatpackers adopt Zilmax-fed cattle. [5]"},
+ {"year": "2013", "event": "Tyson Foods stops accepting Zilmax-fed cattle after the missing-hooves reports. [5]"}
+],
+"lore": null,
+"refs": [
+ {"id": 1, "title": "Effects of two beta-adrenergic agonists on finishing performance, carcass characteristics, and meat quality of feedlot steers", "url": "https://pubmed.ncbi.nlm.nih.gov/17093218/", "source": "Journal of Animal Science", "year": 2006, "type": "study"},
+ {"id": 2, "title": "The comparison of three beta-agonists for growth performance, carcass characteristics and meat quality of feedlot cattle", "url": "https://pubmed.ncbi.nlm.nih.gov/20416591/", "source": "Meat Science", "year": 2009, "type": "study"},
+ {"id": 3, "title": "Effects of duration of zilpaterol hydrochloride feeding on feedlot cattle performance and carcass traits", "url": "https://pubmed.ncbi.nlm.nih.gov/18469048/", "source": "Journal of Animal Science", "year": 2008, "type": "study"},
+ {"id": 4, "title": "A meta-analysis of zilpaterol and ractopamine effects on feedlot performance, carcass traits and shear strength of meat in cattle", "url": "https://pubmed.ncbi.nlm.nih.gov/25548908/", "source": "PLoS ONE", "year": 2014, "type": "review"},
+ {"id": 5, "title": "Zilpaterol", "url": "https://en.wikipedia.org/wiki/Zilpaterol", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"},
+ {"id": 6, "title": "Dietary zilpaterol hydrochloride. I. Feedlot performance and carcass traits of steers and heifers", "url": "https://pubmed.ncbi.nlm.nih.gov/19098247/", "source": "Journal of Animal Science", "year": 2009, "type": "study"},
+ {"id": 7, "title": "Comparative effects of ractopamine hydrochloride and zilpaterol hydrochloride on growth performance, carcass traits, and longissimus tenderness of finishing steers", "url": "https://pubmed.ncbi.nlm.nih.gov/20042550/", "source": "Journal of Animal Science", "year": 2010, "type": "study"}
+],
+"webSources": [ {"url": "https://en.wikipedia.org/wiki/Zilpaterol", "title": "Zilpaterol - Wikipedia"} ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Style AI apps / virtual try-on",
+  "lead": [
+    "Style AI apps and virtual try-on tools are software that let a user preview clothing, accessories or hairstyles on a photo, video feed or avatar of themselves, and in some cases suggest outfits or looks automatically. Appearance communities discuss them as a way to test a style before buying or committing to it.",
+    "Encyclopedic coverage of the broader category, virtual dressing rooms, describes size-recommendation systems, body scanners, 3D avatars and augmented-reality overlays that track the user on a camera feed.[1] The article gives no accuracy metrics or independent evaluations, and does not discuss artificial-intelligence methods explicitly.[1] Evidence on how well AI style apps predict real-world appearance or satisfaction is limited."
+  ],
+  "infobox": [
+    ["Type", "Software / app category"],
+    ["Inputs", "Photo, camera feed, body measurements"],
+    ["Related terms", "Virtual fitting room, virtual dressing room, AR try-on"],
+    ["Regulatory status", "Consumer software; no specific regulation"]
+  ],
+  "sections": [
+    {
+      "h": "Description",
+      "paras": [
+        "Wikipedia describes a virtual dressing room as the online equivalent of an in-store changing room.[1] Approaches it lists include size recommendation from measurements, webcam or phone-camera body scanning, 3D avatars personalised by skin tone, hair or the customer's face, photographed mannequins, and dress-up systems that allow mix-and-match.[1] Augmented reality overlays a garment or accessory on live video and follows the user's movement.[1]"
+      ]
+    },
+    {
+      "h": "History",
+      "paras": [
+        "Fit technologies began emerging around 2005, when the Intellifit body scanner was used by Levi's, and were widely reported from 2010. Unique Solutions bought Intellifit in 2009 and rebranded it Me-ality in 2011, and Paxar introduced an RFID mirror in 2007.[1] Retail AR previews also expanded into furniture, where apps such as Ikea Place let shoppers place true-to-scale 3D models in a room.[2]"
+      ]
+    },
+    {
+      "h": "Limitations and concerns",
+      "paras": [
+        "Webcam methods can require a fixed distance and a reference object, advanced scanners are bulky and expensive, and avatars depend on self-measurement.[1] AR in general needs stable registration, legible contrast under varied lighting and low latency, and camera-based devices raise privacy concerns because they record and analyse the environment.[2]"
+      ]
+    },
+    {
+      "h": "In looksmaxxing culture",
+      "paras": [
+        "Proponents in style-focused communities say AI previews let people try cuts or outfits cheaply and avoid a costly mistake. Sceptics point to rendering quality and the gap between a filtered preview and the real result. No published study has measured whether such apps improve perceived attractiveness or satisfaction."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found."
+      ]
+    }
+  ],
+  "timeline": [
+    { "year": "2005", "event": "Intellifit body scanner used by Levi's, an early fit technology.[1]" },
+    { "year": "2007", "event": "Paxar introduces an RFID mirror.[1]" },
+    { "year": "2011", "event": "Intellifit rebranded Me-ality after the 2009 acquisition by Unique Solutions.[1]" }
+  ],
+  "lore": null,
+  "refs": [
+    { "id": 1, "title": "Virtual dressing room", "url": "https://en.wikipedia.org/wiki/Virtual_dressing_room", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
+    { "id": 2, "title": "Augmented reality", "url": "https://en.wikipedia.org/wiki/Augmented_reality", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" }
+  ],
+  "webSources": [
+    { "url": "https://en.wikipedia.org/wiki/Virtual_dressing_room", "title": "Virtual dressing room" },
+    { "url": "https://en.wikipedia.org/wiki/Augmented_reality", "title": "Augmented reality" }
+  ],
+  "card": {
+    "summary": "Apps that preview outfits or looks on your own photo; handy for browsing, with no evidence on how well previews match reality.",
+    "aka": "Virtual fitting room, AR try-on",
+    "evidence": "unproven",
+    "risk": "low",
+    "note": "Camera and face-photo uploads raise privacy questions; accuracy is not independently evaluated.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "Style AI apps and virtual try-on tools overlay clothes or looks on a photo or live camera view of you. Some also suggest outfits automatically.\n\nPeople use them to preview a style before buying or committing.",
+    "mechanism": "They combine camera input, body or face measurements and 3D or image-based rendering, with augmented reality tracking the user's movement in live video.",
+    "risks": "Documented limits include fixed-distance requirements, self-measurement errors and lighting sensitivity. Uploading face or body images raises privacy concerns, and no independent accuracy data were found."
+  }
+}

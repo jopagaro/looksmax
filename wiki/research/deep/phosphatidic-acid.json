@@ -1,0 +1,83 @@
+{
+  "name": "Phosphatidic acid",
+  "card": {
+    "summary": "A membrane lipid sold as a pre-workout supplement because it signals to mTOR in cells; direct human evidence for added muscle is small and thin.",
+    "aka": "PA; Mediator PA (supplement ingredient)",
+    "evidence": "limited",
+    "status": "otc",
+    "note": "Cell-biology findings on mTOR are well established; evidence that oral supplements add muscle in people rests on very few small trials.",
+    "structure": "Phosphatidic acid"
+  },
+  "quick": {
+    "overview": "Phosphatidic acid (PA) is a naturally occurring phospholipid found in every cell membrane. It is also sold as an over-the-counter supplement marketed to people who lift weights, on the premise that it activates the mTOR growth pathway.\n\nThe cell-biology link between PA and mTOR is well documented. Whether swallowing PA raises PA levels in muscle, and whether that produces extra muscle in people, has been tested in only a few small trials, and the ClinicalTrials.gov registrations for such studies are small.",
+    "mechanism": "In cell experiments, PA binds a domain of the mTOR protein and is needed for mitogen-driven activation of mTOR signaling, which regulates protein synthesis and cell growth [1][2]. Supplement proponents extrapolate from this to muscle growth after resistance training. Other work shows mTORC1 controls the location of lipin 1, an enzyme that processes PA [3].",
+    "risks": "PA is sold as a dietary supplement in the US, where supplements are regulated as foods and manufacturers are responsible for confirming safety [4]. Published safety data for supplemental PA in healthy lifters are limited. Because it is a general cell-signaling lipid, its role in other tissues has been studied mainly in laboratory research."
+  },
+  "lead": [
+    "Phosphatidic acid (PA) is the simplest glycerophospholipid: a glycerol backbone carrying two fatty acid chains and a phosphate group. It is a precursor for other membrane lipids and also acts as a signaling molecule inside cells [5][6].",
+    "In looksmaxxing and bodybuilding communities PA is discussed as an over-the-counter, mTOR-activating supplement taken around resistance training with the aim of adding muscle size and strength. The marketing rationale draws on a 2001 Science paper reporting that PA binds mTOR and is required for its activation in cultured cells [1].",
+    "The cell-level mechanism is well characterised, but evidence that oral PA supplements increase muscle in humans is limited to a small number of short trials, and published independent replication is sparse."
+  ],
+  "infobox": [
+    ["Type", "Phospholipid (glycerophospholipid)"],
+    ["Role", "Membrane lipid, lipid second messenger"],
+    ["Supplement form", "Soy- or egg-derived PA powder or capsules"],
+    ["Regulatory status (US)", "Sold as a dietary supplement [4]"],
+    ["Marketed for", "Muscle size and strength with resistance training"]
+  ],
+  "sections": [
+    {
+      "h": "Biology",
+      "paras": [
+        "PA is made in cells by several routes: acylation of lysophosphatidic acid, cleavage of phosphatidylcholine by phospholipase D, and phosphorylation of diacylglycerol by diacylglycerol kinase. It is broken down to diacylglycerol or lysophosphatidic acid [5][6].",
+        "Its small headgroup shapes membrane curvature, and it recruits and regulates proteins, including mTOR, Raf1, protein kinase C epsilon and several ion channels [5][6]. Researchers still debate how much PA signals directly versus acting mainly as a precursor to diacylglycerol, and different fatty-acid species may have different activities [5]."
+      ]
+    },
+    {
+      "h": "Relation to mTOR",
+      "paras": [
+        "The 2001 study reported that mitogen stimulation raised phospholipase D-dependent PA in cells, that this PA was required to activate mTOR effectors, and that PA interacted directly with the mTOR domain targeted by the drug rapamycin [1]. A 2011 Cell paper showed mTOR complex 1 in turn regulates the lipid-processing enzyme lipin 1, which converts PA to diacylglycerol, linking mTOR to lipid synthesis [2].",
+        "Resistance training activates mTORC1 signaling and muscle protein synthesis, which is the basis of the hypothesis that supplying PA could amplify that response [7]. Encyclopedia entries on the compound describe its cellular roles but do not address oral supplementation [5][6]."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "Few registered human trials exist. One completed trial, \"Determining the Muscle Anabolic Properties of Phosphatidic Acid,\" enrolled 16 participants with sarcopenia as a focus condition (started 2015) [8]. A second registration, \"Effects of Phosphatidic Acid on Strength and Hypertrophy,\" planned 45 participants (started 2020) and its status is listed as unknown [9]. The registration records do not report results in the material reviewed, so the size of any effect is not established here.",
+        "Other registered trials of related compounds (for example, a PA-derived lipid under study for knee osteoarthritis) address different conditions and are not evidence for muscle gain."
+      ]
+    }
+  ],
+  "timeline": [
+    { "year": "2001", "event": "Science paper identifies PA as a component of mitogenic mTOR signaling [1]." },
+    { "year": "2011", "event": "Cell paper links mTORC1 to lipin 1 (a PA phosphatase) and the SREBP lipid pathway [2]." },
+    { "year": "2015", "event": "A small trial of PA's muscle-anabolic properties begins [8]." }
+  ],
+  "lore": {
+    "intro": "PA appears in supplement marketing as an \"mTOR activator\" for lifters; no forum material is cited here, so the claims below reflect how products are positioned rather than specific forum threads.",
+    "claims": [
+      {
+        "claim": "Taking PA around training activates mTOR and adds extra muscle.",
+        "believers": "Proponents point to the cell studies showing PA binds and activates mTOR and reason that supplying more PA amplifies the post-workout growth signal [1].",
+        "experts": "The cell-level mechanism is published [1][2], but only a few small human trials have been registered and detailed outcome data are limited [8][9].",
+        "evidence": "untested"
+      }
+    ]
+  },
+  "refs": [
+    { "id": 1, "title": "Phosphatidic acid-mediated mitogenic activation of mTOR signaling", "url": "https://pubmed.ncbi.nlm.nih.gov/11729323/", "source": "Science", "year": 2001, "type": "study" },
+    { "id": 2, "title": "mTOR complex 1 regulates lipin 1 localization to control the SREBP pathway", "url": "https://pubmed.ncbi.nlm.nih.gov/21816276/", "source": "Cell", "year": 2011, "type": "study" },
+    { "id": 3, "title": "mTOR complex 1 regulates lipin 1 localization (full text)", "url": "https://europepmc.org/article/PMC/PMC3336367", "source": "Europe PMC", "year": 2011, "type": "study" },
+    { "id": 4, "title": "Dietary supplement", "url": "https://en.wikipedia.org/wiki/Dietary_supplement", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
+    { "id": 5, "title": "Phosphatidic acid", "url": "https://en.wikipedia.org/wiki/Phosphatidic_acid", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
+    { "id": 6, "title": "Phosphatidic acid", "url": "https://grokipedia.com/page/Phosphatidic_acid", "source": "Grokipedia", "year": 2026, "type": "encyclopedia" },
+    { "id": 7, "title": "Muscle hypertrophy", "url": "https://en.wikipedia.org/wiki/Muscle_hypertrophy", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
+    { "id": 8, "title": "NCT03446924 Determining the Muscle Anabolic Properties of Phosphatidic Acid", "url": "https://clinicaltrials.gov/study/NCT03446924", "source": "ClinicalTrials.gov", "year": 2015, "type": "trial" },
+    { "id": 9, "title": "NCT04277364 Effects of Phosphatidic Acid on Strength and Hypertrophy", "url": "https://clinicaltrials.gov/study/NCT04277364", "source": "ClinicalTrials.gov", "year": 2020, "type": "trial" }
+  ],
+  "webSources": [
+    { "url": "https://en.wikipedia.org/wiki/Phosphatidic_acid", "title": "Phosphatidic acid - Wikipedia" },
+    { "url": "https://en.wikipedia.org/wiki/Dietary_supplement", "title": "Dietary supplement - Wikipedia" },
+    { "url": "https://en.wikipedia.org/wiki/Muscle_hypertrophy", "title": "Muscle hypertrophy - Wikipedia" }
+  ]
+}

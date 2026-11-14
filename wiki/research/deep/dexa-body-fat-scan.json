@@ -1,0 +1,107 @@
+{
+  "name": "DEXA body fat scan",
+  "card": {
+    "summary": "A low-dose X-ray scan that splits the body into fat, lean and bone, and the reference most forum members use to check their body fat number.",
+    "aka": "DXA scan, dual-energy X-ray absorptiometry body composition scan",
+    "evidence": "strong",
+    "outcome": null,
+    "risk": "low",
+    "price": null,
+    "note": "Results vary with hydration, machine make and positioning, so readings from different scanners are not directly comparable.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "A DEXA (or DXA) scan uses two X-ray beams of different energies to estimate how much of the body is bone, fat and lean soft tissue. It was developed mainly to measure bone density and diagnose osteoporosis, but the same scan can report whole-body and regional body composition.\n\nIn looksmaxxing communities it is treated as a measuring tool rather than a treatment: members cite DEXA readings to establish how lean they actually are before discussing facial-fat reduction or other body-contouring options.",
+    "mechanism": "Tissues absorb the two X-ray energies differently. Software subtracts the bone signal and, for pixels without bone, calculates the relative fractions of fat and lean soft tissue. Wikipedia describes its accuracy as comparable to hydrostatic weighing and strongly correlated with MRI and CT.",
+    "risks": "Radiation exposure from modern machines is very low (Wikipedia gives figures as low as about 0.001 mSv). Known limitations include dependence of lean-mass readings on hydration, size and weight limits of the table, roughly 40 percent of pixels that cannot be classified because soft tissue overlaps bone, and differences between manufacturers' scanners."
+  },
+  "lead": [
+    "Dual-energy X-ray absorptiometry (DEXA or DXA) is an imaging test that passes X-rays at two energy levels through the body and uses the difference in absorption to separate bone from soft tissue. It is the most widely used technology for measuring bone mineral density and is chiefly used to diagnose and monitor osteopenia and osteoporosis [1]. The same scan can also report whole-body and regional fat mass and lean mass, which is the use that appears in looksmaxxing discussions.",
+    "For body composition, pixels that contain no bone are treated as a mixture of fat and lean soft tissue and their proportions are calculated. Wikipedia describes the accuracy as comparable to hydrostatic weighing, with strong correlation to MRI and CT, while listing limitations: lean mass is affected by hydration, patients above certain size limits cannot be scanned, and about 40 percent of pixels cannot be measured because soft tissue overlaps bone [1].",
+    "In forum discussions the scan is mentioned as a way to verify a body-fat percentage before considering fat-reduction procedures. One looksmax.org reply, for example, advises confirming a sub-10 percent body-fat figure with a DEXA before consulting a clinic about ultrasound cavitation [2]."
+  ],
+  "infobox": [
+    ["Type", "Imaging / body composition measurement"],
+    ["Primary medical use", "Bone mineral density testing for osteoporosis [1]"],
+    ["Measures", "Bone mineral, fat mass, lean soft-tissue mass (whole body and regions)"],
+    ["Radiation dose", "As low as about 0.001 mSv on modern systems [1]"],
+    ["Comparable methods", "Hydrostatic weighing, MRI, CT, bioelectrical impedance"]
+  ],
+  "sections": [
+    {
+      "h": "How it works",
+      "paras": [
+        "A DEXA scanner emits X-ray beams at two energy levels. Because bone and soft tissue attenuate the two energies differently, the soft-tissue contribution can be subtracted to quantify bone mineral. Where pixels contain no bone, the software estimates the ratio of fat to lean soft tissue [1].",
+        "Standard bone-density reports give areal density (mass per area) rather than true volumetric density, which is one reason results can overestimate bone density in taller or larger-boned people and underestimate it in smaller-boned people [1]."
+      ]
+    },
+    {
+      "h": "Uses",
+      "subs": [
+        {
+          "h": "Medical uses",
+          "paras": [
+            "The main clinical use is diagnosing and following osteoporosis and osteopenia, using T-score thresholds defined by the World Health Organization for postmenopausal women [1]. The US Preventive Services Task Force recommends DXA screening for women over 65 [1].",
+            "DEXA is also used in research on bone and muscle loss, for example in a study of cosmonauts that measured bone and lean-tissue change before and after long-duration spaceflight [3], and in clinical trials of weight-loss drugs that track changes in fat and lean mass [1]."
+          ]
+        },
+        {
+          "h": "Use in appearance contexts",
+          "paras": [
+            "Because it separates fat from lean tissue, DEXA is used by people who want a body-fat figure more detailed than a scale or skinfold reading. Wikipedia notes its use in fat-distribution and lipodystrophy assessment [1]."
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Accuracy and limitations",
+      "paras": [
+        "Wikipedia reports that hydration status affects lean-mass estimates, that some studies find biases when measuring changes in fat mass, and that scanners from different manufacturers can give significantly different results, so cross-calibration is recommended [1].",
+        "Comparison with other imaging: quantitative CT correlates more strongly with fracture risk, but both CT and DXA discriminate between people with and without fractures [1]. Interpretation can also be affected by degenerative spine changes, which can inflate DEXA readings [4], and by misreading of children's scans, which has been linked to overdiagnosis of osteoporosis in children [5]."
+      ]
+    },
+    {
+      "h": "Safety",
+      "paras": [
+        "Modern DEXA systems deliver a very small radiation dose, as low as about 0.001 mSv, which is lower than a standard chest or dental X-ray and lower than quantitative CT. Older radioisotope-based systems used higher doses [1]."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "DEXA itself is a measurement method rather than an appearance intervention, so no trials test it as a treatment. It has been validated and used extensively in bone and body-composition research, including studies of bone and lean-tissue loss in spaceflight [3] and comparisons of DEXA T-scores against CT-derived bone measures [4]. For its use as a tool in looksmaxxing, no studies specific to that setting were found."
+      ]
+    },
+    {
+      "h": "In looksmaxxing culture",
+      "paras": [
+        "Members of looksmax.org mention DEXA as the benchmark for body fat, sometimes advising that a confirmed low body-fat reading come before considering procedures such as ultrasound cavitation [2]."
+      ]
+    }
+  ],
+  "timeline": [
+    { "year": "2000", "event": "DEXA scans used in a study of bone and lean-tissue changes in cosmonauts on the Mir space station [3]." },
+    { "year": "2025", "event": "The US FDA qualified total hip bone mineral density from DXA as a surrogate endpoint for osteoporosis drug trials [1]." }
+  ],
+  "lore": {
+    "intro": "Within looksmaxxing forums DEXA is referenced as the accurate way to know body fat, usually as a precondition before discussing fat-loss procedures [2].",
+    "claims": [
+      {
+        "claim": "A DEXA scan is the way to confirm your real body-fat percentage.",
+        "believers": "Forum members describe DEXA as the check to use before considering fat-removal options, citing a sub-10 percent threshold [2].",
+        "experts": "Wikipedia describes DEXA as comparable in accuracy to hydrostatic weighing and well correlated with MRI and CT, while noting hydration effects, unmeasurable pixels and differences between machines [1].",
+        "evidence": "supported"
+      }
+    ]
+  },
+  "refs": [
+    { "id": 1, "title": "Dual-energy X-ray absorptiometry", "url": "https://en.wikipedia.org/wiki/Dual-energy_X-ray_absorptiometry", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
+    { "id": 2, "title": "Ultra sonic cavitation (looksmax.org thread)", "url": "https://looksmax.org/threads/ultra-sonic-cavitation.1778343/", "source": "looksmax.org", "year": 2023, "type": "forum" },
+    { "id": 3, "title": "Bone mineral and lean tissue loss after long duration space flight", "url": "https://pubmed.ncbi.nlm.nih.gov/15758512/", "source": "Journal of Musculoskeletal & Neuronal Interactions", "year": 2000, "type": "study" },
+    { "id": 4, "title": "Diagnostic efficacy of Hounsfield units in spine CT for the assessment of real bone mineral density of degenerative spine", "url": "https://pubmed.ncbi.nlm.nih.gov/27177734/", "source": "Acta Neurochirurgica", "year": 2016, "type": "study" },
+    { "id": 5, "title": "Overdiagnosis of osteoporosis in children due to misinterpretation of dual-energy x-ray absorptiometry (DEXA)", "url": "https://pubmed.ncbi.nlm.nih.gov/14760271/", "source": "The Journal of Pediatrics", "year": 2004, "type": "study" }
+  ],
+  "webSources": [
+    { "url": "https://en.wikipedia.org/wiki/Dual-energy_X-ray_absorptiometry", "title": "Dual-energy X-ray absorptiometry (Wikipedia)" }
+  ]
+}

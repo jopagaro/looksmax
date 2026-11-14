@@ -1,0 +1,121 @@
+{
+  "name": "Bone age X-ray (growth plate check)",
+  "card": {
+    "summary": "A hand and wrist X-ray used by pediatric clinicians to gauge skeletal maturity, and by height-focused forum users to ask whether growth plates are still open.",
+    "aka": "Bone age scan; skeletal age assessment; growth plate X-ray; Greulich-Pyle",
+    "evidence": "strong",
+    "risk": "low",
+    "note": "A validated clinical test in children; as an adult 'growth potential' check it is an informal use, and results are approximate.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "A bone age X-ray images the left hand and wrist and compares the bones with reference standards to estimate how mature the skeleton is. Clinicians use it to evaluate growth disorders, early or delayed puberty, and to estimate remaining growth in children.\n\nIn looksmaxxing communities, people post their results and ask whether their growth plates are open or closed, often with the aim of knowing whether height gain is still possible. Online threads also debate whether anabolic steroids, growth hormone or peptides advance bone age.",
+    "mechanism": "Growth plates are cartilage zones near the ends of long bones where lengthening happens; rising sex hormones, especially estrogen, drive their maturation and eventual replacement by bone. The X-ray reads the appearance of the wrist and hand bones against an atlas (Greulich-Pyle) or scores individual bones (Tanner-Whitehouse). Software and deep-learning tools have also been developed.",
+    "risks": "The radiation dose from a hand X-ray is described as low. Results are estimates with inter-observer variability, and the commonly used atlas was built from mid-twentieth-century US children, so accuracy may differ for other populations. A bone age reading alone does not predict a specific adult height."
+  },
+  "lead": [
+    "Bone age is the degree of skeletal maturity, usually assessed from a radiograph of the left hand and wrist and expressed as the age at which an average child shows the same development [1][2]. It differs from chronological age and is used to help diagnose and monitor conditions such as constitutional growth delay, precocious puberty, thyroid disease and growth hormone deficiency, and to predict adult height [1][2].",
+    "The two best-known methods are the Greulich and Pyle atlas, first published in 1950, in which a reader matches the radiograph to reference images, and the Tanner-Whitehouse method, in which individual bones are graded and summed [1][2]. Computer-based systems, including deep-learning models evaluated in the RSNA Pediatric Bone Age Machine Learning Challenge, have been developed to reduce subjectivity [3][4].",
+    "In looksmaxxing and height forums, a bone age or growth plate X-ray is treated as the way to find out whether further height growth is biologically possible, and users post and interpret their own results [5][6]."
+  ],
+  "infobox": [
+    ["Type", "Radiographic skeletal maturity assessment"],
+    ["Imaging", "Left hand and wrist X-ray"],
+    ["Main methods", "Greulich-Pyle atlas (1950); Tanner-Whitehouse (1962, 1975, 2001)"],
+    ["Clinical uses", "Growth disorders, puberty timing, adult height prediction"],
+    ["Radiation", "Low dose; ionising"]
+  ],
+  "sections": [
+    {
+      "h": "Description",
+      "paras": [
+        "Long bones grow in length at growth plates (epiphyseal plates), cartilage plates near each end of the bone. In children the plate adds length as cartilage cells divide and older cells are replaced by bone; in adults it is replaced by a bony epiphyseal line [7]. Wikipedia states that complete fusion can occur as early as age 12 in girls and 14 in boys, most commonly at 14 to 15 and 15 to 17 respectively [7].",
+        "Rising estrogen during puberty, in both males and females, increases cell death in the growth plate, slowing and eventually ending growth [7]. A 1995 case report of siblings with aromatase deficiency, a condition in which the body cannot make estrogen from androgens, is cited in the endocrine literature as evidence of estrogen's role in skeletal maturation in both sexes [8]."
+      ]
+    },
+    {
+      "h": "Methods and history",
+      "paras": [
+        "The first atlas of the left hand and wrist was published by John Poland in 1898; Greulich and Pyle published their atlas in 1950, and Tanner and Whitehouse published their scoring method in 1962, with revisions in 1975 (TW2) and 2001 (TW3) [1]. Grokipedia credits T. Wingate Todd's radiographic collection as the basis of the Greulich-Pyle atlas [2].",
+        "Wikipedia notes that the Greulich-Pyle atlas drew on healthy white children in Cleveland, Ohio, in the 1930s and 1940s and has not been updated since 1959, so it may be less accurate for other groups; different readers can assign different bone ages to the same radiograph [1]. A bone age is generally treated as abnormal when it differs from chronological age by more than two standard deviations [1]."
+      ]
+    },
+    {
+      "h": "Height prediction",
+      "paras": [
+        "Tables relate bone age to the percentage of adult height already attained, allowing a predicted adult height; the Bayley-Pinneau tables are included with the Greulich-Pyle atlas [1][2]. Wikipedia states that predictions are less accurate in atypical growth such as children born small for gestational age who remain short [1]."
+      ]
+    },
+    {
+      "h": "Automated assessment",
+      "paras": [
+        "A 2018 study in Radiology reported performance of a deep-learning neural network in assessing skeletal maturity on pediatric hand radiographs [3], and the 2019 RSNA challenge compared machine-learning approaches on a large shared dataset [4]. Registered clinical studies have evaluated AI-based bone age software in Chinese children and in a validation study of 1,903 participants [9][10]."
+      ]
+    },
+    {
+      "h": "Safety",
+      "paras": [
+        "The method uses ionising radiation; imaging only the left hand and wrist is described as keeping exposure low, and cervical-vertebra methods can avoid an extra X-ray when a neck image already exists [1]. Ultrasound and MRI approaches are described as non-ionising alternatives that require further validation [2]."
+      ]
+    },
+    {
+      "h": "In looksmaxxing culture",
+      "paras": [
+        "Users of height forums post wrist radiographs and ask others whether plates are open or closed, and describe bone age results as decisive for whether a height-increasing plan is worthwhile [5][6]. One thread describes a user, who reports prior heavy use of anabolic steroids and growth hormone, getting a wrist X-ray to see whether his bone age had run ahead of his chronological age, and posing the question of whether androgens act on bone maturation apart from the estrogen pathway [5]. Another thread proposes combinations of a senolytic compound and peptides intended to keep bone age from advancing; its author presents this as theory [6]."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "Human research on bone age assessment is extensive in pediatric endocrinology, including the deep-learning and machine-learning validation studies above [3][4][9][10]. No studies found test whether the substances discussed in forum threads slow bone age advancement in healthy people."
+      ]
+    }
+  ],
+  "timeline": [
+    { "year": "1898", "event": "John Poland publishes the first hand and wrist atlas [1]" },
+    { "year": "1950", "event": "Greulich and Pyle publish their atlas [1]" },
+    { "year": "1962", "event": "Tanner-Whitehouse method published [1]" },
+    { "year": "2001", "event": "TW3 revision published [1]" },
+    { "year": "2018", "event": "Deep-learning bone age model reported in Radiology [3]" },
+    { "year": "2019", "event": "RSNA Pediatric Bone Age Machine Learning Challenge reported [4]" }
+  ],
+  "lore": {
+    "intro": "On height-focused forums, bone age and growth plate X-rays are discussed as the arbiter of whether further height gain is possible, and as a way to test ideas about how hormones and peptides affect skeletal maturation.",
+    "claims": [
+      {
+        "claim": "A wrist X-ray shows whether you can still grow taller.",
+        "believers": "Users post radiographs and ask for readings of open or closed plates, treating the result as decisive for height plans [5].",
+        "experts": "Clinicians use bone age with current height and tables to estimate remaining growth in children, with variability between readers and less accuracy in atypical growth [1]. Adult height is generally considered to end once plates fuse [7].",
+        "evidence": "supported"
+      },
+      {
+        "claim": "Anabolic steroids, growth hormone and peptides can accelerate bone age and fuse the plates early.",
+        "believers": "One user planned a scan after heavy use of androgens and growth hormone to test whether bone age had advanced beyond his chronological age [5].",
+        "experts": "Estrogen, including estrogen made from androgens, is described as driving growth plate maturation [7][8]. No published study in the sources reviewed tests this for the specific substances and patterns described in the thread.",
+        "evidence": "untested"
+      },
+      {
+        "claim": "A stack of a senolytic, a bioregulator peptide and a PTH analogue could keep bone age younger.",
+        "believers": "The thread's author describes a theory that clearing senescent cells in growth cartilage might slow maturation [6].",
+        "experts": "No published human studies were found testing this combination for slowing bone age.",
+        "evidence": "untested"
+      }
+    ]
+  },
+  "refs": [
+    { "id": 1, "title": "Bone age", "url": "https://en.wikipedia.org/wiki/Bone_age", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
+    { "id": 2, "title": "Bone age", "url": "https://grokipedia.com/page/Bone_age", "source": "Grokipedia", "year": 2026, "type": "encyclopedia" },
+    { "id": 3, "title": "Performance of a Deep-Learning Neural Network Model in Assessing Skeletal Maturity on Pediatric Hand Radiographs", "url": "https://pubmed.ncbi.nlm.nih.gov/29095675/", "source": "Radiology", "year": 2018, "type": "study" },
+    { "id": 4, "title": "The RSNA Pediatric Bone Age Machine Learning Challenge", "url": "https://pubmed.ncbi.nlm.nih.gov/30480490/", "source": "Radiology", "year": 2019, "type": "study" },
+    { "id": 5, "title": "Bone Age and Epiphyseal Growth Plate Status", "url": "https://looksmax.org/threads/bone-age-and-epiphyseal-growth-plate-status.1789914/", "source": "looksmax.org", "year": 2025, "type": "forum" },
+    { "id": 6, "title": "Fox04dri and epithalon and abolo to keep bone age younger", "url": "https://looksmax.org/threads/fox04dri-and-epithalon-and-abolo-to-keep-bone-age-younger.1845159/", "source": "looksmax.org", "year": 2025, "type": "forum" },
+    { "id": 7, "title": "Epiphyseal plate", "url": "https://en.wikipedia.org/wiki/Epiphyseal_plate", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
+    { "id": 8, "title": "Aromatase deficiency in male and female siblings caused by a novel mutation and the physiological role of estrogens", "url": "https://pubmed.ncbi.nlm.nih.gov/8530621/", "source": "J Clin Endocrinol Metab", "year": 1995, "type": "study" },
+    { "id": 9, "title": "NCT05137301 Bone age assessment software based on deep learning in Chinese children", "url": "https://clinicaltrials.gov/study/NCT05137301", "source": "ClinicalTrials.gov", "year": 2022, "type": "trial" },
+    { "id": 10, "title": "NCT03530098 Validation of an AI-based algorithm for skeletal age assessment", "url": "https://clinicaltrials.gov/study/NCT03530098", "source": "ClinicalTrials.gov", "year": 2018, "type": "trial" }
+  ],
+  "webSources": [
+    { "url": "https://en.wikipedia.org/wiki/Bone_age", "title": "Bone age (Wikipedia)" },
+    { "url": "https://en.wikipedia.org/wiki/Epiphyseal_plate", "title": "Epiphyseal plate (Wikipedia)" }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Symmetry photo mirroring tools",
+  "card": {
+    "summary": "Apps and editors that build left-left and right-right face composites to visualise asymmetry; a research method with known artefacts.",
+    "aka": "Left-left / right-right composites",
+    "evidence": "limited",
+    "risk": "low",
+    "note": "Mirrored composites can create artificial features, which researchers cite as a criticism of the method.",
+    "price": null
+  },
+  "quick": {
+    "overview": "Symmetry photo mirroring tools take a front-facing photo, split it down the midline and mirror each half to create two composite faces, one built from two left sides and one from two right sides. Users compare them with the original to see how asymmetric the face looks.\n\nThe technique is also used in academic research on facial symmetry and attractiveness, where it has been criticised for the artefacts it can produce.",
+    "mechanism": "The tool duplicates and flips one half of the face over a chosen midline. The result depends on where the midline is placed and on head rotation and tilt in the photo.",
+    "risks": "No physical risk. Because the composites exaggerate or hide particular features, the method has been criticised as a basis for conclusions about a face."
+  },
+  "lead": [
+    "Symmetry photo mirroring tools produce composite images from a single face photograph by mirroring its left half or right half across the midline, yielding a left-left and a right-right version. Looksmaxxing communities use them to visualise asymmetry and to compare the composites with the unaltered face.",
+    "The same technique appears in facial attractiveness research, which tested the symmetry-attractiveness link by mirroring face halves and blending faces. Critics note that mirroring can create artificial features; for example a slightly bent nose can appear oversized or unnaturally small depending on which side is copied [1]."
+  ],
+  "infobox": [
+    ["Type", "Photo-editing technique / app"],
+    ["Output", "Left-left and right-right composite faces"],
+    ["Research use", "Facial symmetry and attractiveness studies"]
+  ],
+  "sections": [
+    {
+      "h": "Background",
+      "paras": [
+        "Facial symmetry is one measure of bodily symmetry and is considered alongside averageness and youthfulness in judgments of attractiveness. Bilateral symmetry is usually defined through fluctuating asymmetry, meaning random left-right differences relative to the midline [1].",
+        "Studies summarised in the literature report higher attractiveness ratings for more symmetrical faces, with the effect described as stronger for female faces, and symmetry and averageness appear to contribute independently [1]. Alongside this, a directional aurofacial asymmetry exists, in which the face on average sits slightly left relative to the ears, with an offset that decreases from about 2 degrees at birth to about 0.5 degrees in adults [1]."
+      ]
+    },
+    {
+      "h": "Limitations",
+      "paras": [
+        "Researchers have criticised mirroring because it can generate artificial features and so distort conclusions about a real face [1]. Photo angle and head tilt also affect the apparent midline, which is a general consideration for any such tool."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found. Research exists on facial symmetry and attractiveness that used mirrored composites, but no study evaluates the consumer tools themselves."
+      ]
+    }
+  ],
+  "timeline": [],
+  "lore": null,
+  "refs": [
+    {"id": 1, "title": "Facial symmetry", "url": "https://en.wikipedia.org/wiki/Facial_symmetry", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"}
+  ],
+  "webSources": [
+    {"url": "https://en.wikipedia.org/wiki/Facial_symmetry", "title": "Facial symmetry - Wikipedia"}
+  ]
+}

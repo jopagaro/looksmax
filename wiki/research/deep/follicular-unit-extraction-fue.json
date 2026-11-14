@@ -1,0 +1,80 @@
+{
+  "name": "Follicular unit extraction (FUE)",
+  "card": {
+    "summary": "Hair transplant method that removes follicles one by one from the donor scalp, avoiding a linear scar at the cost of longer surgery.",
+    "aka": "FUE, follicular unit excision, FOX procedure",
+    "evidence": "moderate",
+    "risk": "moderate",
+    "note": "Results depend on the surgeon; ongoing native hair loss may require further procedures.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "Follicular unit extraction is a hair transplant technique in which small circular punches remove individual follicular units, usually one to four hairs, from the back and sides of the scalp. They are then implanted in thinning or bald areas.\n\nIt was introduced in the early 2000s as an alternative to strip harvesting (FUT), which leaves a linear scar. Descriptions in the literature cite tiny scattered scars instead, though outcomes depend on technique and patient.",
+    "mechanism": "Grafts taken from the donor zone keep their genetic resistance to pattern hair loss, a principle called donor dominance, so transplanted hair is described as long-lasting. Extraction is done under local anaesthetic, with grafts placed into small recipient incisions.",
+    "risks": "Described effects include temporary swelling, temporary shedding of transplanted hair (shock loss), folliculitis, numbness, transected follicles and, in rare cases, scarring. Over-harvesting can leave a thinned donor area, and native hair loss can continue after surgery."
+  },
+  "lead": [
+    "Follicular unit extraction (FUE) is a hair restoration technique in which individual follicular units are removed from the donor scalp with small punches, instead of excising a strip of skin, and transplanted to areas of hair loss [1][2]. The term was coined in a 2002 paper that introduced the approach as minimally invasive surgery for hair transplantation [1].",
+    "Wikipedia describes FUE as using 0.6 to 1.0 mm punches under local anaesthesia, leaving small scattered scars and shorter recovery, while noting drawbacks of longer surgery time, higher cost and a steep learning curve [2]. Robotic systems have been developed to assist, with US approvals reported for NeoGraft in 2009 and ARTAS in 2011 [2].",
+    "FUE is a major topic in hair loss and hairline discussions, including variants such as sapphire FUE and DHI."
+  ],
+  "infobox": [
+    ["Type", "Hair transplant harvesting technique"],
+    ["Introduced", "Described in 2002 (Rassman et al.) [1]"],
+    ["Anaesthesia", "Local"],
+    ["Scarring", "Small punctate donor scars [2]"],
+    ["Related", "FUT, sapphire FUE, DHI"]
+  ],
+  "sections": [
+    {
+      "h": "Procedure",
+      "paras": [
+        "The donor area, typically the back and sides of the scalp, is usually shaved short, and punches of roughly 0.7 to 1.2 mm extract units of one to four hairs; grafts are stored in chilled solution and implanted into recipient sites made with fine needles or blades [3]. A session is described as commonly yielding 1,500 to 3,000 grafts [3]."
+      ]
+    },
+    {
+      "h": "History",
+      "paras": [
+        "Modern hair transplantation traces to Norman Orentreich's late-1950s demonstration of donor dominance, and to strip-harvest follicular unit methods of the 1990s [2]. Grokipedia credits Masumi Inaba with a manual follicular extraction approach in 1988, and reports that John Cole introduced smaller punches in the early 2000s [3]. The 2002 Rassman and colleagues paper presented the FOX procedure as a response to donor scarring from strip excision [1]. In 2017 the ISHRS reportedly favoured the term follicular unit excision [3]."
+      ]
+    },
+    {
+      "h": "Reported outcomes and complications",
+      "paras": [
+        "Grokipedia reports new growth at three to four months and full results at 12 to 18 months, with graft survival of 85 to 95 percent, and lists edema, sterile folliculitis, numbness, transection and rare infection or hypertrophic scarring as complications [3]. These figures come from an AI-generated source and have not been independently verified here. Wikipedia notes that some surgeons report a lower proportion of successfully transplanted follicles than with FUT [2]."
+      ]
+    },
+    {
+      "h": "Cost",
+      "paras": [
+        "Wikipedia reports cost depends on graft numbers, citing about US$1.07 per graft in Turkey to US$7.00 in Canada [2]. Grokipedia gives broader per-graft ranges and says insurance rarely covers it [3]."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "The founding 2002 paper introduced FUE as an alternative to strip surgery, aimed at avoiding linear donor scars [1]. Registered trials include one on wound dressings after FUE [4], one of topical rifamycin SV for wound healing after sapphire FUE [5], and a planned study of a protocol to maximise follicle survival [6]."
+      ]
+    }
+  ],
+  "timeline": [
+    {"year": "1988", "event": "Masumi Inaba described manual follicular extraction, per Grokipedia [3]."},
+    {"year": "2002", "event": "Rassman and colleagues published the FUE procedure [1]."},
+    {"year": "2009", "event": "NeoGraft receives FDA approval, per Wikipedia [2]."},
+    {"year": "2011", "event": "ARTAS robotic system cleared [2][3]."},
+    {"year": "2017", "event": "ISHRS renames the procedure follicular unit excision, per Grokipedia [3]."}
+  ],
+  "lore": null,
+  "refs": [
+    {"id": 1, "title": "Follicular unit extraction: minimally invasive surgery for hair transplantation", "url": "https://pubmed.ncbi.nlm.nih.gov/12174065/", "source": "Dermatologic Surgery", "year": 2002, "type": "study"},
+    {"id": 2, "title": "Hair transplantation", "url": "https://en.wikipedia.org/wiki/Hair_transplantation", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"},
+    {"id": 3, "title": "Follicular unit extraction", "url": "https://grokipedia.com/page/Follicular_unit_extraction", "source": "Grokipedia", "year": 2025, "type": "encyclopedia"},
+    {"id": 4, "title": "NCT05984862: Role of bandage after FUE hair transplantation", "url": "https://clinicaltrials.gov/study/NCT05984862", "source": "ClinicalTrials.gov", "year": 2023, "type": "trial"},
+    {"id": 5, "title": "NCT07155408: Topical rifamycin SV after sapphire FUE", "url": "https://clinicaltrials.gov/study/NCT07155408", "source": "ClinicalTrials.gov", "year": 2021, "type": "trial"},
+    {"id": 6, "title": "NCT07850011: Protocol to maximize follicle survival in FUE", "url": "https://clinicaltrials.gov/study/NCT07850011", "source": "ClinicalTrials.gov", "year": 2026, "type": "trial"}
+  ],
+  "webSources": [
+    {"url": "https://en.wikipedia.org/wiki/Hair_transplantation", "title": "Hair transplantation (Wikipedia)"},
+    {"url": "https://grokipedia.com/page/Follicular_unit_extraction", "title": "Follicular unit extraction (Grokipedia)"}
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Hairstyle simulators / AI haircut preview",
+  "lead": [
+    "Hairstyle simulators, including AI haircut preview tools, are apps and websites that overlay or generate a hairstyle on a user's photo so they can see a cut on their own face before visiting a stylist.",
+    "Reference sources say little about the tools themselves. Wikipedia's hairstyle article notes that aesthetic choices may depend on physical attributes such as hair type and face and head shape, alongside desired self-image and the stylist's judgment, but that section is flagged as uncited and gives no guidance on how to match a style to a face.[1] No published study has tested whether previews predict real results."
+  ],
+  "infobox": [
+    ["Type", "Software / app category"],
+    ["Input", "Selfie or uploaded photo"],
+    ["Related", "Virtual try-on, face-shape guides"],
+    ["Regulatory status", "Consumer software"]
+  ],
+  "sections": [
+    {
+      "h": "Description",
+      "paras": [
+        "These tools belong to the wider family of virtual try-on technology, which includes avatars personalised with a customer's face and augmented-reality overlays that track the user on camera.[2] Users upload or capture a photo and choose from a library of cuts or colours, and AI-based versions generate the style rather than pasting a fixed template."
+      ]
+    },
+    {
+      "h": "Face shape and styling",
+      "paras": [
+        "Face shape is shaped mainly by the skull's bones, including the maxilla, mandible and zygomatic bones, with soft tissue also contributing.[3] Wikipedia's face article does not offer hairstyle guidance for particular face shapes and presents no evidence for or against such guidance.[3] Popular face-shape rules are common on style websites and forums, but the encyclopedic sources reviewed do not evaluate them."
+      ]
+    },
+    {
+      "h": "Limitations",
+      "paras": [
+        "Virtual try-on methods in general depend on lighting, camera distance and image quality, and no independent accuracy evaluations are described in the reference literature.[2] A preview cannot account for a person's hair texture, density or growth pattern, factors the hairstyle article lists among the physical attributes affecting results.[1]"
+      ]
+    },
+    {
+      "h": "In looksmaxxing culture",
+      "paras": [
+        "Proponents say a preview helps people pick a cut that suits their features and reduces the risk of an unwanted haircut, and some use it to show a barber a reference. Others in these communities say previews look more flattering than real results. No research has compared previews with outcomes."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found."
+      ]
+    }
+  ],
+  "timeline": [],
+  "lore": null,
+  "refs": [
+    { "id": 1, "title": "Hairstyle", "url": "https://en.wikipedia.org/wiki/Hairstyle", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
+    { "id": 2, "title": "Virtual dressing room", "url": "https://en.wikipedia.org/wiki/Virtual_dressing_room", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
+    { "id": 3, "title": "Face", "url": "https://en.wikipedia.org/wiki/Face_shape", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" }
+  ],
+  "webSources": [
+    { "url": "https://en.wikipedia.org/wiki/Hairstyle", "title": "Hairstyle" },
+    { "url": "https://en.wikipedia.org/wiki/Virtual_dressing_room", "title": "Virtual dressing room" },
+    { "url": "https://en.wikipedia.org/wiki/Face_shape", "title": "Face shape" }
+  ],
+  "card": {
+    "summary": "Preview a haircut on your own selfie before committing; useful for ideas, with no data on how closely previews match results.",
+    "aka": "AI haircut preview, virtual hair try-on",
+    "evidence": "unproven",
+    "risk": "low",
+    "note": "Previews ignore hair texture and density; face photos uploaded to apps raise privacy questions.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "Hairstyle simulators place a chosen cut or colour on a photo of your face. AI versions generate the style rather than overlaying a template.\n\nPeople use them to preview options before visiting a barber or stylist.",
+    "mechanism": "The app detects the face and head in a photo, then renders a hairstyle onto it. Face shape, hair type and head shape are factors the reference sources say affect real-world results.",
+    "risks": "Risks are low. Previews may not reflect hair texture or growth patterns, and uploading face photos raises privacy concerns. No studies test preview accuracy."
+  }
+}

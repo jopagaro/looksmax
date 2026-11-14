@@ -1,0 +1,62 @@
+{
+  "name": "Macro tracking apps",
+  "lead": [
+    "Macro tracking apps let users log food and drink against daily calorie and macronutrient (protein, carbohydrate, fat) targets. The best-known example is MyFitnessPal, which describes itself as an app and website for looking up the nutritional content of foods, logging intake against goals, building meal plans and tracking exercise.[1]",
+    "In physique and looksmaxxing communities, logging is used to manage bulking and cutting phases and protein targets. Research on tracking is not covered by the sources used for this entry, so its effect on body composition is not described here."
+  ],
+  "infobox": [
+    ["Type", "Food-logging software"],
+    ["Best-known app", "MyFitnessPal (launched Sept 2005)"],
+    ["Platforms", "Android, iOS, watchOS, Wear OS, web"],
+    ["Business model", "Free tier with ads; paid premium"]
+  ],
+  "sections": [
+    {
+      "h": "MyFitnessPal",
+      "paras": [
+        "Mike Lee developed MyFitnessPal in 2004 as a web-based calorie tracking tool and launched it in September 2005; his brother Albert joined as co-founder in 2008. Under Armour acquired it in 2015 for $475 million, when it had about 80 million users, and agreed in 2020 to sell it to Francisco Partners for $345 million.[1] The company says it has 280 million users as of 2026.[1]",
+        "On March 29, 2018, Under Armour disclosed a breach affecting about 150 million accounts; exposed data included usernames, email addresses and hashed passwords, and payment card numbers were not reported as compromised.[1]"
+      ]
+    },
+    {
+      "h": "Accuracy limits",
+      "paras": [
+        "Grokipedia, an AI-generated source, cites self-report limitations: omission rates of about 18% of items in dietary-recall studies, one natural-use study with energy intake underestimated by roughly 445 kcal per day, frequent inaccuracies in restaurant entries, and no automatic calorie-burn estimate for strength training.[2] These figures were not verified against the original papers."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found in the sources reviewed for this entry."
+      ]
+    }
+  ],
+  "timeline": [
+    {"year": "2005", "event": "MyFitnessPal launches.[1]"},
+    {"year": "2015", "event": "Under Armour acquires it for $475 million.[1]"},
+    {"year": "2018", "event": "Breach disclosed affecting about 150 million accounts.[1]"},
+    {"year": "2020", "event": "Agreement to sell to Francisco Partners for $345 million.[1]"}
+  ],
+  "lore": null,
+  "refs": [
+    {"id": 1, "title": "MyFitnessPal", "url": "https://en.wikipedia.org/wiki/MyFitnessPal", "source": "Wikipedia", "year": 2026, "type": "encyclopedia"},
+    {"id": 2, "title": "MyFitnessPal", "url": "https://grokipedia.com/page/MyFitnessPal", "source": "Grokipedia", "year": 2026, "type": "encyclopedia"}
+  ],
+  "webSources": [
+    {"url": "https://en.wikipedia.org/wiki/MyFitnessPal", "title": "MyFitnessPal (Wikipedia)"},
+    {"url": "https://grokipedia.com/page/MyFitnessPal", "title": "MyFitnessPal (Grokipedia)"}
+  ],
+  "card": {
+    "summary": "Food-logging apps like MyFitnessPal for hitting calorie and protein targets; popular, with self-report accuracy limits.",
+    "aka": "Calorie counters, MyFitnessPal-style apps",
+    "evidence": "limited",
+    "risk": "low",
+    "note": "Self-reported logging has documented under-reporting; 2018 MyFitnessPal breach exposed about 150 million accounts.",
+    "price": null
+  },
+  "quick": {
+    "overview": "Macro tracking apps record what you eat against calorie and protein, carb and fat goals. MyFitnessPal is the best-known.\n\nThey are used to run bulks and cuts with numbers instead of guesses.",
+    "mechanism": "Users search a food database or scan barcodes and compare daily totals with targets the app estimates or the user sets.",
+    "risks": "Reference sources cite logging inaccuracy (under-reporting and unreliable restaurant entries) and a 2018 data breach at MyFitnessPal. Other harms were not covered in the sources reviewed."
+  }
+}
