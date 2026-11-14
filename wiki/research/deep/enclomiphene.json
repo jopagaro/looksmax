@@ -1,162 +1,442 @@
 {
-  "name": "Enclomiphene",
-  "card": {
-    "summary": "The trans-isomer of clomiphene, studied for raising testosterone in men with secondary hypogonadism; forum use for appearance or height is largely untested.",
-    "aka": "Enclomiphene citrate, Androxal (development name), trans-clomiphene",
-    "evidence": "limited",
-    "status": "research",
-    "note": "Not approved by the FDA for any use; trials were in men with low testosterone, not for cosmetic or growth purposes.",
-    "structure": "Enclomiphene"
-  },
-  "quick": {
-    "overview": "Enclomiphene is one of the two geometric isomers that make up clomiphene citrate, a drug long prescribed for female ovulatory dysfunction. It was developed as an oral treatment for men whose low testosterone stems from reduced pituitary signalling (secondary hypogonadism).\n\nIn looksmaxxing and bodybuilding forums it is discussed as a way to raise testosterone without injecting it, as a component of post-cycle protocols, and, in some threads, in relation to height or bone growth. Clinical trials exist for the hypogonadism use; none have tested it for appearance outcomes.",
-    "mechanism": "Enclomiphene blocks estrogen receptors in the hypothalamus and pituitary. Reduced estrogen feedback is reported to raise luteinizing hormone (LH) and follicle-stimulating hormone (FSH), which prompts the testes to make more testosterone themselves.",
-    "risks": "Published trials describe short-term safety comparable to placebo and testosterone gel, but long-term data are limited. Forum users report fatigue, mood effects and other complaints. Enclomiphene has no FDA approval, and products obtained outside prescriptions are of uncertain quality. Trial data in teenagers are absent."
-  },
-  "lead": [
-    "Enclomiphene (also called trans-clomiphene; the citrate salt was developed under the name Androxal) is a non-steroidal selective estrogen receptor modulator that behaves mainly as an estrogen receptor antagonist. It is the trans-stereoisomer of clomiphene citrate, a drug widely prescribed for decades for ovulatory dysfunction in women [3][5].",
-    "Its main investigated use is in men with secondary hypogonadism, where it is reported to raise endogenous testosterone by increasing gonadotropins, while preserving sperm counts in trials that compared it with topical testosterone [3][5][7]. A 2025 meta-analysis of randomized trials of clomiphene or enclomiphene reported higher total testosterone, LH and FSH than placebo, with considerable heterogeneity between studies [1].",
-    "In online appearance and physique communities, enclomiphene is discussed as a testosterone-raising option, as part of post-cycle or TRT-adjacent protocols, and by some posters in connection with height or bone growth. No published trial has tested it for those purposes, and it is not approved by regulators as a finished drug product."
+ "name": "Enclomiphene",
+ "card": {
+  "summary": "The trans-isomer of clomiphene, studied for raising testosterone in men with secondary hypogonadism; forum use for appearance or height is largely untested.",
+  "aka": "Enclomiphene citrate, Androxal (development name), trans-clomiphene",
+  "evidence": "limited",
+  "status": "research",
+  "note": "Not approved by the FDA for any use; trials were in men with low testosterone, not for cosmetic or growth purposes.",
+  "structure": "Enclomiphene"
+ },
+ "quick": {
+  "overview": "Enclomiphene is one of the two geometric isomers that make up clomiphene citrate, a drug long prescribed for female ovulatory dysfunction. It was developed as an oral treatment for men whose low testosterone stems from reduced pituitary signalling (secondary hypogonadism).\n\nIn looksmaxxing and bodybuilding forums it is discussed as a way to raise testosterone without injecting it, as a component of post-cycle protocols, and, in some threads, in relation to height or bone growth. Clinical trials exist for the hypogonadism use; none have tested it for appearance outcomes.",
+  "mechanism": "Enclomiphene blocks estrogen receptors in the hypothalamus and pituitary. Reduced estrogen feedback is reported to raise luteinizing hormone (LH) and follicle-stimulating hormone (FSH), which prompts the testes to make more testosterone themselves.",
+  "risks": "Published trials describe short-term safety comparable to placebo and testosterone gel, but long-term data are limited. Forum users report fatigue, mood effects and other complaints. Enclomiphene has no FDA approval, and products obtained outside prescriptions are of uncertain quality. Trial data in teenagers are absent."
+ },
+ "lead": [
+  "Enclomiphene (also called trans-clomiphene; the citrate salt was developed under the name Androxal) is a non-steroidal selective estrogen receptor modulator that behaves mainly as an estrogen receptor antagonist. It is the trans-stereoisomer of clomiphene citrate, a drug widely prescribed for decades for ovulatory dysfunction in women [3][5].",
+  "Its main investigated use is in men with secondary hypogonadism, where it is reported to raise endogenous testosterone by increasing gonadotropins, while preserving sperm counts in trials that compared it with topical testosterone [3][5][7]. A 2025 meta-analysis of randomized trials of clomiphene or enclomiphene reported higher total testosterone, LH and FSH than placebo, with considerable heterogeneity between studies [1].",
+  "In online appearance and physique communities, enclomiphene is discussed as a testosterone-raising option, as part of post-cycle or TRT-adjacent protocols, and by some posters in connection with height or bone growth. No published trial has tested it for those purposes, and it is not approved by regulators as a finished drug product."
+ ],
+ "infobox": [
+  [
+   "Drug class",
+   "Selective estrogen receptor modulator (estrogen receptor antagonist)"
   ],
-  "infobox": [
-    ["Drug class", "Selective estrogen receptor modulator (estrogen receptor antagonist)"],
-    ["Route", "Oral"],
-    ["Parent compound", "Clomiphene citrate (trans-isomer) [3]"],
-    ["Developer", "Repros Therapeutics (as Androxal) [3]"],
-    ["Investigated for", "Secondary hypogonadism in men [5]"],
-    ["Legal status", "Investigational; no FDA approval reflected in the trial literature"]
+  [
+   "Route",
+   "Oral"
   ],
-  "sections": [
+  [
+   "Parent compound",
+   "Clomiphene citrate (trans-isomer) [3]"
+  ],
+  [
+   "Developer",
+   "Repros Therapeutics (as Androxal) [3]"
+  ],
+  [
+   "Investigated for",
+   "Secondary hypogonadism in men [5]"
+  ],
+  [
+   "Legal status",
+   "Investigational; no FDA approval reflected in the trial literature"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Clomiphene citrate is a mixture of two geometric isomers: enclomiphene (trans) and zuclomiphene (cis). Enclomiphene acts mostly as an estrogen receptor antagonist, while zuclomiphene has been described as predominantly estrogenic in early rodent work comparing the isomers [39]. Because of this difference, enclomiphene was proposed as a purer way to raise testosterone in men than the racemic mixture [3].",
+    "Clomiphene has been used off-label for many years in male hypogonadism, particularly where fertility is a concern [5]. Enclomiphene was developed to provide the antagonist activity without the zuclomiphene component, which pharmacokinetic studies in women found accumulates because it is cleared more slowly [12]."
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "subs": [
     {
-      "h": "Description",
-      "paras": [
-        "Clomiphene citrate is a mixture of two geometric isomers: enclomiphene (trans) and zuclomiphene (cis). Enclomiphene acts mostly as an estrogen receptor antagonist, while zuclomiphene has been described as predominantly estrogenic in early rodent work comparing the isomers [4]. Because of this difference, enclomiphene was proposed as a purer way to raise testosterone in men than the racemic mixture [3].",
-        "Clomiphene has been used off-label for many years in male hypogonadism, particularly where fertility is a concern [5]. Enclomiphene was developed to provide the antagonist activity without the zuclomiphene component, which pharmacokinetic studies in women found accumulates because it is cleared more slowly [12]."
-      ]
+     "h": "Mechanism of action",
+     "paras": [
+      "By blocking estrogen receptors at the hypothalamic-pituitary level, enclomiphene reduces negative feedback and is reported to increase LH and FSH release. The testes respond with increased testosterone production, an approach described as restoration of the body's own signalling rather than replacement with exogenous testosterone [3][11]."
+     ]
     },
     {
-      "h": "Pharmacology",
-      "subs": [
-        {
-          "h": "Mechanism of action",
-          "paras": [
-            "By blocking estrogen receptors at the hypothalamic-pituitary level, enclomiphene reduces negative feedback and is reported to increase LH and FSH release. The testes respond with increased testosterone production, an approach described as restoration of the body's own signalling rather than replacement with exogenous testosterone [3][11]."
-          ]
-        },
-        {
-          "h": "Pharmacokinetics",
-          "paras": [
-            "A pharmacodynamics and pharmacokinetics study in men with secondary hypogonadism described the relationship between enclomiphene dosing and the testosterone, LH and FSH response [7]. Studies in women receiving clomiphene have measured serum concentrations of the two isomers across treatment cycles [12]."
-          ]
-        }
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "A phase II randomized trial compared oral enclomiphene with 1% topical testosterone gel in men with secondary hypogonadism. Enclomiphene raised morning testosterone, estradiol and LH, and the authors reported that it avoided the fall in sperm concentration seen with topical testosterone [7]. A related report in the Journal of Sexual Medicine reached similar conclusions [5][6].",
-        "Phase III registrations include a morning-testosterone normalization study in overweight men with secondary hypogonadism (n=181), a safety study (n=499), an extension study (n=300) and a bone mineral density study (n=300) [CT3][CT8][CT7][CT2]. A BJU International report described a phase III randomized trial in obese hypogonadal men in which enclomiphene raised testosterone and preserved sperm counts, unlike topical testosterone [11]. A phase II trial registered in 2016 examined body composition and metabolic parameters with diet and exercise in men with acquired hypogonadotropic hypogonadism and obesity [CT1].",
-        "A 2023 meta-analysis of men with obesity-related functional androgen deficiency, pooling seven studies of clomiphene or enclomiphene over 1.5 to 4 months, reported significant testosterone increases [6]. A 2025 meta-analysis of randomized trials reported a mean difference of about 274 ng/dL in total testosterone versus placebo, no significant difference from testosterone gel, and high heterogeneity across trials [1]. Reviews describe short-term safety as comparable to placebo and gel, and note a favourable effect on fasting glucose in early trials [3][13].",
-        "A registered trial of enclomiphene in male infertility was withdrawn [CT4]. No published trial has examined enclomiphene for height, bone length, facial appearance or physique outcomes in healthy or adolescent males."
-      ]
-    },
-    {
-      "h": "Adverse effects",
-      "paras": [
-        "Reviews of the clinical trials describe short-term safety as satisfactory and similar to placebo and testosterone gel, while noting that data on long-term use are limited [3][5][13]. Because the compound raises estradiol along with testosterone, trials have measured estradiol and some users on forums attribute symptoms to estrogen changes [7].",
-        "Forum posts describe individual reports including fatigue and sleepiness after dosing, numbness or other genital sensations, and changes in mood [L3][T9]. These are anecdotal reports and have not been verified in controlled studies."
-      ]
-    },
-    {
-      "h": "Use in looksmaxxing and physique communities",
-      "paras": [
-        "On looksmax.org, enclomiphene is discussed under headings such as testosterone maxxing, usage by teenagers, and bone or height maxxing [L1][L2][L9][L10]. Posters frequently describe it as a way to raise testosterone without testicular shutdown, and ask whether it affects growth plates or how to manage estrogen. Replies in those threads commonly note that testosterone-related pathways are not the main driver of bone length and that growth plates in older teens are mostly closed [L1][L2].",
-        "On T Nation and similar forums, enclomiphene appears in discussions of TRT adjuncts, 'testosterone augmentation therapy', post-cycle therapy and stacks with other compounds [T1][T2][T5][T6][T10]. Users describe obtaining it through telehealth clinics and from overseas suppliers; the quality of non-prescription products has not been assessed in the sources reviewed."
-      ]
-    },
-    {
-      "h": "Research",
-      "paras": [
-        "Reviews list enclomiphene alongside selective androgen receptor modulators and novel testosterone formulations as an investigational approach to hypogonadism that may preserve fertility [4][14]. Clomiphene isomers have also been examined in unrelated laboratory contexts, such as antiviral activity in cell models [E6], and in anti-doping studies of clomiphene metabolism [CT9]."
-      ]
+     "h": "Pharmacokinetics",
+     "paras": [
+      "A pharmacodynamics and pharmacokinetics study in men with secondary hypogonadism described the relationship between enclomiphene dosing and the testosterone, LH and FSH response [7]. Studies in women receiving clomiphene have measured serum concentrations of the two isomers across treatment cycles [12]."
+     ]
     }
-  ],
-  "timeline": [
-    {"year": "1981", "event": "Rodent studies compare the estrogenic and antiestrogenic activity of enclomiphene and zuclomiphene [4]."},
-    {"year": "2006", "event": "A phase III registration of Androxal in men with secondary hypogonadism begins [CT6]."},
-    {"year": "2014", "event": "A phase II randomized trial comparing enclomiphene with topical testosterone is published in Fertility and Sterility [7]."},
-    {"year": "2016", "event": "A BJU International report of a phase III trial in obese hypogonadal men is published [11]."},
-    {"year": "2025", "event": "A meta-analysis of randomized trials of clomiphene and enclomiphene in functional hypogonadism is published [1]."}
-  ],
-  "lore": {
-    "intro": "Forum discussions treat enclomiphene as a testosterone-raising tool, sometimes framed around puberty, height or post-cycle recovery [L9][L2].",
-    "claims": [
-      {
-        "claim": "Enclomiphene can raise testosterone into a high percentile range.",
-        "believers": "Posters describe lab results after starting it and argue it works through the body's own signalling [L4].",
-        "experts": "Trials in men with low testosterone report increases to the normal range; meta-analysis reports a large mean rise versus placebo, with high heterogeneity. Results in men with normal testosterone have not been established [1][7].",
-        "evidence": "mixed"
-      },
-      {
-        "claim": "Enclomiphene can help height or bone growth.",
-        "believers": "Some users ask whether it could support bone maxxing; other posters reply that growth hormone, not testosterone, is the main route and that most plates are closed [L1][L2].",
-        "experts": "No published trial has tested enclomiphene for height or bone growth.",
-        "evidence": "untested"
-      },
-      {
-        "claim": "It is a safer alternative to testosterone because it preserves fertility and testicle size.",
-        "believers": "Users switching from TRT or HCG describe it as helping keep natural production and fertility [T7][T10].",
-        "experts": "Phase II and III trials report preserved sperm counts compared with topical testosterone, over short durations; long-term outcomes are not established [7][11].",
-        "evidence": "mixed"
-      },
-      {
-        "claim": "Enclomiphene is useful in post-cycle therapy or after stopping TRT.",
-        "believers": "Posters describe it in recovery protocols, citing that it lacks zuclomiphene [T2][T8].",
-        "experts": "Published trials examined men with secondary hypogonadism, not recovery after anabolic steroid use.",
-        "evidence": "untested"
-      },
-      {
-        "claim": "Enclomiphene causes fatigue or estrogen spikes in some people.",
-        "believers": "Users report tiredness, numbness or low mood after starting it and suspect estrogen changes or poor product quality [L3][T9].",
-        "experts": "Trials reported raised estradiol alongside testosterone and described short-term safety as comparable to placebo; individual symptom reports have not been systematically studied [7][13].",
-        "evidence": "mixed"
-      }
-    ]
+   ]
   },
-  "refs": [
-    {"id": 1, "title": "Clomiphene or enclomiphene citrate for the treatment of male hypogonadism: a systematic review and meta-analysis of randomized controlled trials", "url": "https://pubmed.ncbi.nlm.nih.gov/41066380/", "source": "Archives of Endocrinology and Metabolism", "year": 2025, "type": "review"},
-    {"id": 3, "title": "Enclomiphene, an estrogen receptor antagonist for the treatment of testosterone deficiency in men", "url": "https://pubmed.ncbi.nlm.nih.gov/19204885/", "source": "IDrugs", "year": 2009, "type": "review"},
-    {"id": 4, "title": "Geometric isomers of substituted triphenylethylenes and antiestrogen action", "url": "https://pubmed.ncbi.nlm.nih.gov/6781873/", "source": "Endocrinology", "year": 1981, "type": "study"},
-    {"id": 5, "title": "Enclomiphene citrate for the treatment of secondary male hypogonadism", "url": "https://pubmed.ncbi.nlm.nih.gov/27337642/", "source": "Expert Opinion on Pharmacotherapy", "year": 2016, "type": "review"},
-    {"id": 6, "title": "Selective modulation of estrogen receptor in obese men with androgen deficiency: a systematic review and meta-analysis", "url": "https://pubmed.ncbi.nlm.nih.gov/36604313/", "source": "Andrology", "year": 2023, "type": "review"},
-    {"id": 7, "title": "Enclomiphene citrate stimulates testosterone production while preventing oligospermia: a randomized phase II clinical trial comparing topical testosterone", "url": "https://pubmed.ncbi.nlm.nih.gov/25044085/", "source": "Fertility and Sterility", "year": 2014, "type": "trial"},
-    {"id": 11, "title": "Oral enclomiphene citrate raises testosterone and preserves sperm counts in obese hypogonadal men, unlike topical testosterone", "url": "https://pubmed.ncbi.nlm.nih.gov/26496621/", "source": "BJU International", "year": 2016, "type": "trial"},
-    {"id": 12, "title": "Evaluation of the relationship between plasma concentrations of en- and zuclomiphene and induction of ovulation in anovulatory women", "url": "https://pubmed.ncbi.nlm.nih.gov/18353317/", "source": "Fertility and Sterility", "year": 2009, "type": "study"},
-    {"id": 13, "title": "Safety and efficacy of enclomiphene and clomiphene for hypogonadal men", "url": "https://pubmed.ncbi.nlm.nih.gov/39434750/", "source": "Translational Andrology and Urology", "year": 2024, "type": "review"},
-    {"id": 14, "title": "Enclomiphene citrate: a treatment that maintains fertility in men with secondary hypogonadism", "url": "https://pubmed.ncbi.nlm.nih.gov/31063005/", "source": "Expert Review of Endocrinology & Metabolism", "year": 2019, "type": "review"},
-    {"id": 15, "title": "Clomiphene and its isomers block Ebola virus particle entry and infection with similar potency", "url": "https://pubmed.ncbi.nlm.nih.gov/27490565/", "source": "Viruses", "year": 2016, "type": "study"},
-    {"id": 16, "title": "NCT02651688: Body composition and metabolic parameters with enclomiphene", "url": "https://clinicaltrials.gov/study/NCT02651688", "source": "ClinicalTrials.gov", "year": 2016, "type": "trial"},
-    {"id": 17, "title": "NCT01619683: Enclomiphene and bone mineral density", "url": "https://clinicaltrials.gov/study/NCT01619683", "source": "ClinicalTrials.gov", "year": 2012, "type": "trial"},
-    {"id": 18, "title": "NCT01739595: Morning testosterone normalization in overweight men", "url": "https://clinicaltrials.gov/study/NCT01739595", "source": "ClinicalTrials.gov", "year": 2012, "type": "trial"},
-    {"id": 19, "title": "NCT02160704: Androxal in male infertility (withdrawn)", "url": "https://clinicaltrials.gov/study/NCT02160704", "source": "ClinicalTrials.gov", "year": 2014, "type": "trial"},
-    {"id": 20, "title": "NCT01067365: Androxal in men with secondary hypogonadism", "url": "https://clinicaltrials.gov/study/NCT01067365", "source": "ClinicalTrials.gov", "year": 2006, "type": "trial"},
-    {"id": 21, "title": "NCT01739582: Extension study of enclomiphene citrate", "url": "https://clinicaltrials.gov/study/NCT01739582", "source": "ClinicalTrials.gov", "year": 2012, "type": "trial"},
-    {"id": 22, "title": "NCT01534208: Safety study of enclomiphene citrate", "url": "https://clinicaltrials.gov/study/NCT01534208", "source": "ClinicalTrials.gov", "year": 2012, "type": "trial"},
-    {"id": 23, "title": "NCT03028532: Clomiphene metabolism in an anti-doping setting", "url": "https://clinicaltrials.gov/study/NCT03028532", "source": "ClinicalTrials.gov", "year": 2017, "type": "trial"},
-    {"id": 24, "title": "enclomiphene citrate for height and bone maxxing?", "url": "https://looksmax.org/threads/enclomiphene-citrate-for-height-and-bone-maxxing.1429548/", "source": "looksmax.org", "year": 2024, "type": "forum"},
-    {"id": 25, "title": "Enclomiphene usage at 16", "url": "https://looksmax.org/threads/enclomiphene-usage-at-16.1293401/", "source": "looksmax.org", "year": 2023, "type": "forum"},
-    {"id": 26, "title": "Enclomiphene fatigue", "url": "https://looksmax.org/threads/enclomiphene-fatigue.1072740/", "source": "looksmax.org", "year": 2022, "type": "forum"},
-    {"id": 27, "title": "enclomiphene will give you 90 99 percentile testosterone", "url": "https://looksmax.org/threads/enclomiphene-will-give-you-90-99-percentile-testosterone.589538/", "source": "looksmax.org", "year": 2021, "type": "forum"},
-    {"id": 28, "title": "magic drug enclomiphene complete guide to testosterone maxxing for pubertycels", "url": "https://looksmax.org/threads/magic-drug-enclomiphene-complete-guide-to-testosterone-maxxing-for-pubertycels.1179871/", "source": "looksmax.org", "year": 2023, "type": "forum"},
-    {"id": 29, "title": "how should i take enclomiphene citrate safely at 15", "url": "https://looksmax.org/threads/how-should-i-take-enclomiphene-citrate-safely-at-15-without-fucking-up-estrogen-levels-should-i-even.920002/", "source": "looksmax.org", "year": 2022, "type": "forum"},
-    {"id": 30, "title": "Just. Don't. Suck. Vol. 2", "url": "https://t-nation.com/t/just-dont-suck-vol-2/273858", "source": "T Nation", "year": 2021, "type": "forum"},
-    {"id": 31, "title": "Advice for PCT? (Post Accutane Syndrome)", "url": "https://t-nation.com/t/advice-for-pct-post-accutane-syndrome/251530", "source": "T Nation", "year": 2019, "type": "forum"},
-    {"id": 32, "title": "Anastrazole and Enclomiphene During TRT", "url": "https://t-nation.com/t/anastrazole-and-enclomiphene-during-trt/282463", "source": "T Nation", "year": 2023, "type": "forum"},
-    {"id": 33, "title": "First Cycle: Test Only", "url": "https://t-nation.com/t/first-cycle-test-only/277738", "source": "T Nation", "year": 2022, "type": "forum"},
-    {"id": 34, "title": "Enclomiphene - Conclusion Now on TRT", "url": "https://t-nation.com/t/enclomiphene-conclusion-now-on-trt/233600", "source": "T Nation", "year": 2017, "type": "forum"},
-    {"id": 35, "title": "Testosterone Cypionate Help", "url": "https://t-nation.com/t/testosterone-cypionate-help/277789", "source": "T Nation", "year": 2022, "type": "forum"},
-    {"id": 36, "title": "Enclomiphene Side Effects. Continue with PCT or Return to TRT?", "url": "https://t-nation.com/t/enclomiphene-side-effects-continue-with-pct-or-return-to-trt/272964", "source": "T Nation", "year": 2021, "type": "forum"},
-    {"id": 37, "title": "Experiences with Enclomiphene?", "url": "https://t-nation.com/t/experiences-with-enclomiphene/272300", "source": "T Nation", "year": 2021, "type": "forum"}
-  ],
-  "webSources": []
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A phase II randomized trial compared oral enclomiphene with 1% topical testosterone gel in men with secondary hypogonadism. Enclomiphene raised morning testosterone, estradiol and LH, and the authors reported that it avoided the fall in sperm concentration seen with topical testosterone [7]. A related report in the Journal of Sexual Medicine compared oral enclomiphene with testosterone gel [38].",
+    "Phase III registrations include a morning-testosterone normalization study in overweight men with secondary hypogonadism (n=181), a safety study (n=499), an extension study (n=300) and a bone mineral density study (n=300) [18][22][21][17]. A BJU International report described a phase III randomized trial in obese hypogonadal men in which enclomiphene raised testosterone and preserved sperm counts, unlike topical testosterone [11]. A phase II trial registered in 2016 examined body composition and metabolic parameters with diet and exercise in men with acquired hypogonadotropic hypogonadism and obesity [16].",
+    "A 2023 meta-analysis of men with obesity-related functional androgen deficiency, pooling seven studies of clomiphene or enclomiphene over 1.5 to 4 months, reported significant testosterone increases [6]. A 2025 meta-analysis of randomized trials reported a mean difference of about 274 ng/dL in total testosterone versus placebo, no significant difference from testosterone gel, and high heterogeneity across trials [1]. Reviews describe short-term safety as comparable to placebo and gel, and note a favourable effect on fasting glucose in early trials [3][13].",
+    "A registered trial of enclomiphene in male infertility was withdrawn [19]. No published trial has examined enclomiphene for height, bone length, facial appearance or physique outcomes in healthy or adolescent males."
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "paras": [
+    "Reviews of the clinical trials describe short-term safety as satisfactory and similar to placebo and testosterone gel, while noting that data on long-term use are limited [3][5][13]. Because the compound raises estradiol along with testosterone, trials have measured estradiol and some users on forums attribute symptoms to estrogen changes [7].",
+    "Forum posts describe individual reports including fatigue and sleepiness after dosing, numbness or other genital sensations, and changes in mood [26][36]. These are anecdotal reports and have not been verified in controlled studies."
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing and physique communities",
+   "paras": [
+    "On looksmax.org, enclomiphene is discussed under headings such as testosterone maxxing, usage by teenagers, and bone or height maxxing [24][25][28][29]. Posters frequently describe it as a way to raise testosterone without testicular shutdown, and ask whether it affects growth plates or how to manage estrogen. Replies in those threads commonly note that testosterone-related pathways are not the main driver of bone length and that growth plates in older teens are mostly closed [24][25].",
+    "On T Nation and similar forums, enclomiphene appears in discussions of TRT adjuncts, 'testosterone augmentation therapy', post-cycle therapy and stacks with other compounds [30][31][32][33][37]. Users describe obtaining it through telehealth clinics and from overseas suppliers; the quality of non-prescription products has not been assessed in the published literature."
+   ]
+  },
+  {
+   "h": "Research",
+   "paras": [
+    "Reviews list enclomiphene alongside selective androgen receptor modulators and novel testosterone formulations as an investigational approach to hypogonadism that may preserve fertility [4][14]. Clomiphene isomers have also been examined in unrelated laboratory contexts, such as antiviral activity in cell models [15], and in anti-doping studies of clomiphene metabolism [23]."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1981",
+   "event": "Rodent studies compare the estrogenic and antiestrogenic activity of enclomiphene and zuclomiphene [39]."
+  },
+  {
+   "year": "2006",
+   "event": "A phase III registration of Androxal in men with secondary hypogonadism begins [20]."
+  },
+  {
+   "year": "2014",
+   "event": "A phase II randomized trial comparing enclomiphene with topical testosterone is published in Fertility and Sterility [7]."
+  },
+  {
+   "year": "2016",
+   "event": "A BJU International report of a phase III trial in obese hypogonadal men is published [11]."
+  },
+  {
+   "year": "2025",
+   "event": "A meta-analysis of randomized trials of clomiphene and enclomiphene in functional hypogonadism is published [1]."
+  }
+ ],
+ "lore": {
+  "intro": "Forum discussions treat enclomiphene as a testosterone-raising tool, sometimes framed around puberty, height or post-cycle recovery [28][25].",
+  "claims": [
+   {
+    "claim": "Enclomiphene can raise testosterone into a high percentile range.",
+    "believers": "Posters describe lab results after starting it and argue it works through the body's own signalling [27].",
+    "experts": "Trials in men with low testosterone report increases to the normal range; meta-analysis reports a large mean rise versus placebo, with high heterogeneity. Results in men with normal testosterone have not been established [1][7].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Enclomiphene can help height or bone growth.",
+    "believers": "Some users ask whether it could support bone maxxing; other posters reply that growth hormone, not testosterone, is the main route and that most plates are closed [24][25].",
+    "experts": "No published trial has tested enclomiphene for height or bone growth.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "It is a safer alternative to testosterone because it preserves fertility and testicle size.",
+    "believers": "Users switching from TRT or HCG describe it as helping keep natural production and fertility [34][37].",
+    "experts": "Phase II and III trials report preserved sperm counts compared with topical testosterone, over short durations; long-term outcomes are not established [7][11].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Enclomiphene is useful in post-cycle therapy or after stopping TRT.",
+    "believers": "Posters describe it in recovery protocols, citing that it lacks zuclomiphene [31][35].",
+    "experts": "Published trials examined men with secondary hypogonadism, not recovery after anabolic steroid use.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Enclomiphene causes fatigue or estrogen spikes in some people.",
+    "believers": "Users report tiredness, numbness or low mood after starting it and suspect estrogen changes or poor product quality [26][36].",
+    "experts": "Trials reported raised estradiol alongside testosterone and described short-term safety as comparable to placebo; individual symptom reports have not been systematically studied [7][13].",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Clomiphene or enclomiphene citrate for the treatment of male hypogonadism: a systematic review and meta-analysis of randomized controlled trials",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41066380/",
+   "source": "Archives of Endocrinology and Metabolism",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 2,
+   "title": "Enclomiphene, an estrogen receptor antagonist for the treatment of testosterone deficiency in men",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19204885/",
+   "source": "IDrugs",
+   "year": 2009,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Enclomiphene citrate for the treatment of secondary male hypogonadism",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27337642/",
+   "source": "Expert Opinion on Pharmacotherapy",
+   "year": 2016,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Selective modulation of estrogen receptor in obese men with androgen deficiency: a systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36604313/",
+   "source": "Andrology",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Enclomiphene citrate stimulates testosterone production while preventing oligospermia: a randomized phase II clinical trial comparing topical testosterone",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25044085/",
+   "source": "Fertility and Sterility",
+   "year": 2014,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Oral enclomiphene citrate raises testosterone and preserves sperm counts in obese hypogonadal men, unlike topical testosterone",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26496621/",
+   "source": "BJU International",
+   "year": 2016,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Evaluation of the relationship between plasma concentrations of en- and zuclomiphene and induction of ovulation in anovulatory women",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18353317/",
+   "source": "Fertility and Sterility",
+   "year": 2009,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Safety and efficacy of enclomiphene and clomiphene for hypogonadal men",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39434750/",
+   "source": "Translational Andrology and Urology",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "Enclomiphene citrate: a treatment that maintains fertility in men with secondary hypogonadism",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31063005/",
+   "source": "Expert Review of Endocrinology & Metabolism",
+   "year": 2019,
+   "type": "review"
+  },
+  {
+   "id": 10,
+   "title": "Clomiphene and its isomers block Ebola virus particle entry and infection with similar potency",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27490565/",
+   "source": "Viruses",
+   "year": 2016,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "NCT02651688: Body composition and metabolic parameters with enclomiphene",
+   "url": "https://clinicaltrials.gov/study/NCT02651688",
+   "source": "ClinicalTrials.gov",
+   "year": 2016,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "NCT01619683: Enclomiphene and bone mineral density",
+   "url": "https://clinicaltrials.gov/study/NCT01619683",
+   "source": "ClinicalTrials.gov",
+   "year": 2012,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "NCT01739595: Morning testosterone normalization in overweight men",
+   "url": "https://clinicaltrials.gov/study/NCT01739595",
+   "source": "ClinicalTrials.gov",
+   "year": 2012,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "NCT02160704: Androxal in male infertility (withdrawn)",
+   "url": "https://clinicaltrials.gov/study/NCT02160704",
+   "source": "ClinicalTrials.gov",
+   "year": 2014,
+   "type": "trial"
+  },
+  {
+   "id": 15,
+   "title": "NCT01067365: Androxal in men with secondary hypogonadism",
+   "url": "https://clinicaltrials.gov/study/NCT01067365",
+   "source": "ClinicalTrials.gov",
+   "year": 2006,
+   "type": "trial"
+  },
+  {
+   "id": 16,
+   "title": "NCT01739582: Extension study of enclomiphene citrate",
+   "url": "https://clinicaltrials.gov/study/NCT01739582",
+   "source": "ClinicalTrials.gov",
+   "year": 2012,
+   "type": "trial"
+  },
+  {
+   "id": 17,
+   "title": "NCT01534208: Safety study of enclomiphene citrate",
+   "url": "https://clinicaltrials.gov/study/NCT01534208",
+   "source": "ClinicalTrials.gov",
+   "year": 2012,
+   "type": "trial"
+  },
+  {
+   "id": 18,
+   "title": "NCT03028532: Clomiphene metabolism in an anti-doping setting",
+   "url": "https://clinicaltrials.gov/study/NCT03028532",
+   "source": "ClinicalTrials.gov",
+   "year": 2017,
+   "type": "trial"
+  },
+  {
+   "id": 19,
+   "title": "enclomiphene citrate for height and bone maxxing?",
+   "url": "https://looksmax.org/threads/enclomiphene-citrate-for-height-and-bone-maxxing.1429548/",
+   "source": "looksmax.org",
+   "year": 2024,
+   "type": "forum"
+  },
+  {
+   "id": 20,
+   "title": "Enclomiphene usage at 16",
+   "url": "https://looksmax.org/threads/enclomiphene-usage-at-16.1293401/",
+   "source": "looksmax.org",
+   "year": 2023,
+   "type": "forum"
+  },
+  {
+   "id": 21,
+   "title": "Enclomiphene fatigue",
+   "url": "https://looksmax.org/threads/enclomiphene-fatigue.1072740/",
+   "source": "looksmax.org",
+   "year": 2022,
+   "type": "forum"
+  },
+  {
+   "id": 22,
+   "title": "enclomiphene will give you 90 99 percentile testosterone",
+   "url": "https://looksmax.org/threads/enclomiphene-will-give-you-90-99-percentile-testosterone.589538/",
+   "source": "looksmax.org",
+   "year": 2021,
+   "type": "forum"
+  },
+  {
+   "id": 23,
+   "title": "magic drug enclomiphene complete guide to testosterone maxxing for pubertycels",
+   "url": "https://looksmax.org/threads/magic-drug-enclomiphene-complete-guide-to-testosterone-maxxing-for-pubertycels.1179871/",
+   "source": "looksmax.org",
+   "year": 2023,
+   "type": "forum"
+  },
+  {
+   "id": 24,
+   "title": "how should i take enclomiphene citrate safely at 15",
+   "url": "https://looksmax.org/threads/how-should-i-take-enclomiphene-citrate-safely-at-15-without-fucking-up-estrogen-levels-should-i-even.920002/",
+   "source": "looksmax.org",
+   "year": 2022,
+   "type": "forum"
+  },
+  {
+   "id": 25,
+   "title": "Just. Don't. Suck. Vol. 2",
+   "url": "https://t-nation.com/t/just-dont-suck-vol-2/273858",
+   "source": "T Nation",
+   "year": 2021,
+   "type": "forum"
+  },
+  {
+   "id": 26,
+   "title": "Advice for PCT? (Post Accutane Syndrome)",
+   "url": "https://t-nation.com/t/advice-for-pct-post-accutane-syndrome/251530",
+   "source": "T Nation",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 27,
+   "title": "Anastrazole and Enclomiphene During TRT",
+   "url": "https://t-nation.com/t/anastrazole-and-enclomiphene-during-trt/282463",
+   "source": "T Nation",
+   "year": 2023,
+   "type": "forum"
+  },
+  {
+   "id": 28,
+   "title": "First Cycle: Test Only",
+   "url": "https://t-nation.com/t/first-cycle-test-only/277738",
+   "source": "T Nation",
+   "year": 2022,
+   "type": "forum"
+  },
+  {
+   "id": 29,
+   "title": "Enclomiphene - Conclusion Now on TRT",
+   "url": "https://t-nation.com/t/enclomiphene-conclusion-now-on-trt/233600",
+   "source": "T Nation",
+   "year": 2017,
+   "type": "forum"
+  },
+  {
+   "id": 30,
+   "title": "Testosterone Cypionate Help",
+   "url": "https://t-nation.com/t/testosterone-cypionate-help/277789",
+   "source": "T Nation",
+   "year": 2022,
+   "type": "forum"
+  },
+  {
+   "id": 31,
+   "title": "Enclomiphene Side Effects. Continue with PCT or Return to TRT?",
+   "url": "https://t-nation.com/t/enclomiphene-side-effects-continue-with-pct-or-return-to-trt/272964",
+   "source": "T Nation",
+   "year": 2021,
+   "type": "forum"
+  },
+  {
+   "id": 32,
+   "title": "Experiences with Enclomiphene?",
+   "url": "https://t-nation.com/t/experiences-with-enclomiphene/272300",
+   "source": "T Nation",
+   "year": 2021,
+   "type": "forum"
+  },
+  {
+   "id": 33,
+   "title": "Leydig stem cells and future therapies for hypogonadism",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33003069/",
+   "source": "Current Opinion in Endocrinology, Diabetes and Obesity",
+   "year": 2020,
+   "type": "review"
+  },
+  {
+   "id": 34,
+   "title": "Oral enclomiphene citrate stimulates the endogenous production of testosterone and sperm counts in men with low testosterone: comparison with testosterone gel",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23530575/",
+   "source": "Journal of Sexual Medicine",
+   "year": 2013,
+   "type": "trial"
+  },
+  {
+   "id": 35,
+   "title": "Geometric isomers of substituted triphenylethylenes and antiestrogen action",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6781873/",
+   "source": "Endocrinology",
+   "year": 1981,
+   "type": "study"
+  }
+ ],
+ "webSources": []
 }

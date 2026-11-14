@@ -26,8 +26,7 @@ let n = 0, sizes = [];
 const { allEntries } = await import('./entries.mjs');
 for (const { kind, item, pending } of allEntries()) {
   const s = slug(item.name);
-  const raw = readJSON(join(root, 'research', 'raw', s + '.json'));
-  if (!raw) continue;
+  const raw = readJSON(join(root, 'research', 'raw', s + '.json')) || { name: item.name, terms: item.terms || [] };
   const fp = first[item.name] || {};
   const W = raw.wikipedia && !raw.wikipedia.error && !raw.wikipedia.__failed ? raw.wikipedia : null;
   const G = raw.grokipedia && !raw.grokipedia.error ? raw.grokipedia : null;
