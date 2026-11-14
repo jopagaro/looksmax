@@ -15,6 +15,8 @@ const readJSON = (p) => { try { return JSON.parse(readFileSync(p, 'utf8')); } ca
 const okUrl = (u) => typeof u === 'string' && /^https:\/\/[^\s"<>]+$/.test(u);
 const norm = (u) => String(u || '').replace(/^https?:\/\/(www\.)?/, '').replace(/[?#].*$/, '').replace(/\/+$/, '').toLowerCase();
 
+const neutral = {};
+try { for (const f of readdirSync(join(root, 'research', 'neutral')).filter((f) => /\.json$/.test(f))) Object.assign(neutral, readJSON(join(root, 'research', 'neutral', f)) || {}); } catch {}
 const first = {};
 for (const f of readdirSync(join(root, 'research')).filter((f) => /^\d\d-.*\.json$/.test(f))) Object.assign(first, readJSON(join(root, 'research', f)) || {});
 
@@ -38,8 +40,10 @@ for (const { kind, item } of ENTRIES) {
   const studies = [];
   const seenS = new Set();
   const addStudy = (x) => { const k = norm(x.url); if (!okUrl(x.url) || seenS.has(k)) return; seenS.add(k); studies.push(x); };
-  PM.forEach((p) => addStudy({ title: p.title, url: p.url, source: p.source, year: p.year, kind: (p.types || []).find((t) => /meta-analysis|systematic|review|randomized|clinical trial/i.test(t)) || null }));
+  // Quick-take "Clinical studies" = only studies a researcher confirmed are about this entry
+  // (first-pass picks + refs the in-depth writer cited as studies). Raw keyword hits stay in links.studies.
   (fp.scholarly || []).forEach((x) => addStudy({ title: x.title, url: x.url, source: x.source, year: x.year || null, kind: null }));
+  const relevantPM = PM;
 
   // ── Community: Reddit (archive API) + looksmax.org (Wayback index) + first-pass forums
   const reddit = RD.slice(0, 14).map((p) => ({ title: p.title, url: p.url, sub: p.sub, score: p.score, comments: p.comments, year: p.year }));
@@ -86,6 +90,7 @@ for (const { kind, item } of ENTRIES) {
   (X.openalex || []).forEach((w) => addA({ title: w.title, url: w.url, source: w.source, year: w.year, cites: w.cites ?? null, kind: w.type === 'review' ? 'Review' : null }));
   (X.europepmc || []).forEach((x) => addA({ title: x.title, url: x.url, source: x.source, year: x.year, cites: x.cites ?? null, kind: (x.types || []).find((t) => /review|meta|trial/i.test(t)) || null }));
   studies.forEach((x) => addA({ ...x, cites: null }));
+  relevantPM.forEach((p) => addA({ title: p.title, url: p.url, source: p.source, year: p.year, cites: null, kind: (p.types || []).find((t) => /meta-analysis|systematic|review|randomized|clinical trial/i.test(t)) || null }));
   allStudies.sort((a, b) => (b.cites ?? -1) - (a.cites ?? -1) || (b.year || 0) - (a.year || 0));
   const links = {
     studies: allStudies,
@@ -122,6 +127,14 @@ for (const { kind, item } of ENTRIES) {
       lore = { intro: fix(deep.lore.intro), claims: deep.lore.claims.map((c) => ({ claim: fix(c.claim), verdict: ['supported', 'mixed', 'unsupported', 'unknown', 'dangerous'].includes(c.verdict) ? c.verdict : 'unknown', note: fix(c.note) })) };
     }
     timeline = (deep.timeline || []).filter((t) => t && t.year && t.event).map((t) => ({ year: String(t.year), event: fix(t.event) })).slice(0, 14);
+    // Clinical studies for the quick take = exactly the refs cited in the article's "Clinical studies" section.
+    const cs = sections.find((x) => /clinical stud/i.test(x.h));
+    if (cs) {
+      const ids = new Set();
+      [...cs.paras, ...cs.subs.flatMap((y) => y.paras)].join(' ').replace(/\[(\d+)\]/g, (m, n) => { ids.add(Number(n)); return m; });
+      studies.length = 0;
+      [...ids].sort((a, b) => a - b).map((n) => refs[n - 1]).filter(Boolean).forEach((r) => studies.push({ title: r.title, url: r.url, source: r.source, year: r.year, kind: null }));
+    }
   } else {
     // First-pass fallback
     lead = (fp.overview || '').split(/\n\s*\n/).filter(Boolean);
@@ -136,7 +149,7 @@ for (const { kind, item } of ENTRIES) {
     name: item.name, deep: !!deep, image,
     // Quick take = the short first-pass write-up; always present.
     casual: (() => {
-      const q = fp.overview ? fp : (deep && deep.quick) || {};
+      const q = neutral[item.name] && neutral[item.name].overview ? neutral[item.name] : fp.overview ? fp : (deep && deep.quick) || {};
       return {
         lead: String(q.overview || '').split(/\n\s*\n/).filter(Boolean),
         sections: [q.mechanism && { h: 'How it works', paras: [q.mechanism], subs: [] }, q.risks && { h: 'Risks and caveats', paras: [q.risks], subs: [] }].filter(Boolean),

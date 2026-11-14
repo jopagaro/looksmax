@@ -1,0 +1,3189 @@
+[
+ {
+  "issue": "hair-loss",
+  "summary": "Methods used for androgenetic alopecia and receding hairlines include DHT blockers, vasodilators, procedures, devices, supplements, oils and folk remedies; finasteride, minoxidil and hair transplantation have the most published clinical support, while most other options have limited or no controlled data.",
+  "approaches": [
+   {
+    "name": "Finasteride (Propecia)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "fin",
+    "terms": [
+     "finasteride",
+     "propecia"
+    ],
+    "tier": "evidence",
+    "why": "Oral 5-alpha-reductase II inhibitor, first-line DHT blocker",
+    "seenAt": null
+   },
+   {
+    "name": "Dutasteride",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "dut",
+    "terms": [
+     "dutasteride",
+     "avodart"
+    ],
+    "tier": "mainstream",
+    "why": "Stronger type I+II 5-ARI, off-label for hair",
+    "seenAt": null
+   },
+   {
+    "name": "Topical finasteride",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "topical finasteride"
+    ],
+    "tier": "mainstream",
+    "why": "Scalp-applied finasteride, intended to lower systemic exposure",
+    "seenAt": null
+   },
+   {
+    "name": "Minoxidil (Rogaine)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "min",
+    "terms": [
+     "minoxidil",
+     "rogaine"
+    ],
+    "tier": "evidence",
+    "why": "Topical vasodilator that prolongs anagen",
+    "seenAt": null
+   },
+   {
+    "name": "Oral minoxidil",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": true,
+    "aka": "loniten|oral min",
+    "terms": [
+     "oral minoxidil"
+    ],
+    "tier": "mainstream",
+    "why": "Low-dose pill minoxidil for hair",
+    "seenAt": null
+   },
+   {
+    "name": "Minoxidil + finasteride stack",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": true,
+    "aka": "fin+min",
+    "terms": [
+     "fin+min"
+    ],
+    "tier": "forum",
+    "why": "Combination of minoxidil and finasteride commonly discussed on forums",
+    "seenAt": null
+   },
+   {
+    "name": "RU58841",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "RU",
+    "terms": [
+     "ru58841"
+    ],
+    "tier": "forum",
+    "why": "Research-chemical topical antiandrogen",
+    "seenAt": null
+   },
+   {
+    "name": "Pyrilutamide (KX-826)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "kx-826",
+     "pyrilutamide"
+    ],
+    "tier": "forum",
+    "why": "Topical androgen receptor blocker in trials",
+    "seenAt": null
+   },
+   {
+    "name": "Clascoterone (Winlevi)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "clascoterone",
+     "breezula"
+    ],
+    "tier": "mainstream",
+    "why": "Topical antiandrogen, hair trials as Breezula",
+    "seenAt": null
+   },
+   {
+    "name": "Spironolactone",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "spiro",
+    "terms": [
+     "spironolactone"
+    ],
+    "tier": "mainstream",
+    "why": "Antiandrogen used mainly for women's hair loss",
+    "seenAt": null
+   },
+   {
+    "name": "Ketoconazole (Nizoral)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "ketoconazole",
+     "nizoral"
+    ],
+    "tier": "mainstream",
+    "why": "Antifungal shampoo with mild anti-DHT claims",
+    "seenAt": null
+   },
+   {
+    "name": "Caffeine shampoo (Alpecin)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "caffeine shampoo",
+     "alpecin"
+    ],
+    "tier": "mainstream",
+    "why": "Topical caffeine to counter DHT",
+    "seenAt": null
+   },
+   {
+    "name": "Saw palmetto",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "saw palmetto"
+    ],
+    "tier": "mainstream",
+    "why": "Herbal weak 5-ARI supplement",
+    "seenAt": null
+   },
+   {
+    "name": "Pumpkin seed oil",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "pumpkin seed oil"
+    ],
+    "tier": "mainstream",
+    "why": "Oral/topical oil, small trial in AGA",
+    "seenAt": null
+   },
+   {
+    "name": "Biotin (Vitamin B7)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "biotin"
+    ],
+    "tier": "mainstream",
+    "why": "Hair supplement; benefit reported mainly where a deficiency is corrected",
+    "seenAt": null
+   },
+   {
+    "name": "Rosemary oil",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "rosemary oil"
+    ],
+    "tier": "forum",
+    "why": "Essential oil compared to minoxidil in one small trial",
+    "seenAt": null
+   },
+   {
+    "name": "Onion juice",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "onion juice"
+    ],
+    "tier": "fringe",
+    "why": "Raw onion juice on scalp for alopecia areata/hair growth",
+    "seenAt": null
+   },
+   {
+    "name": "Tea tree oil",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "tea tree oil"
+    ],
+    "tier": "fringe",
+    "why": "Scalp oil claimed for follicle health",
+    "seenAt": null
+   },
+   {
+    "name": "Latanoprost",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "latanoprost"
+    ],
+    "tier": "forum",
+    "why": "Prostaglandin analog tested for scalp growth",
+    "seenAt": null
+   },
+   {
+    "name": "Bimatoprost (Latisse)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "bimatoprost"
+    ],
+    "tier": "forum",
+    "why": "Prostaglandin analog sometimes used on scalp",
+    "seenAt": null
+   },
+   {
+    "name": "Dutasteride mesotherapy",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "dutasteride mesotherapy"
+    ],
+    "tier": "mainstream",
+    "why": "Dut microinjected into scalp",
+    "seenAt": null
+   },
+   {
+    "name": "Hair transplant (FUE/FUT)",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": true,
+    "aka": "Turkey hair transplant",
+    "terms": [
+     "hair transplant",
+     "fue"
+    ],
+    "tier": "evidence",
+    "why": "Surgical follicle relocation",
+    "seenAt": null
+   },
+   {
+    "name": "Laser hair-growth cap",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "laser cap",
+     "low-level laser"
+    ],
+    "tier": "mainstream",
+    "why": "LLLT helmet for follicle stimulation",
+    "seenAt": null
+   },
+   {
+    "name": "Laser comb",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "laser comb"
+    ],
+    "tier": "mainstream",
+    "why": "Handheld LLLT device",
+    "seenAt": null
+   },
+   {
+    "name": "Scalp microneedling roller",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "scalp microneedling",
+     "derma roller scalp"
+    ],
+    "tier": "forum",
+    "why": "Needling the scalp, often with minoxidil",
+    "seenAt": null
+   },
+   {
+    "name": "Scalp massager",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "scalp massage"
+    ],
+    "tier": "forum",
+    "why": "Mechanical stretching/massage for follicle growth claims",
+    "seenAt": null
+   },
+   {
+    "name": "Hair fibers",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": true,
+    "aka": "Toppik",
+    "terms": [
+     "hair fibers"
+    ],
+    "tier": "mainstream",
+    "why": "Keratin fiber powder to hide thinning",
+    "seenAt": null
+   },
+   {
+    "name": "Hairline concealer / powder",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "hairline powder"
+    ],
+    "tier": "mainstream",
+    "why": "Colored powder to cover bald patches",
+    "seenAt": null
+   },
+   {
+    "name": "Hair system / toupee",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "toupee",
+     "hair system"
+    ],
+    "tier": "mainstream",
+    "why": "Non-surgical hair replacement unit",
+    "seenAt": null
+   },
+   {
+    "name": "Wig (lace front)",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "wig",
+     "lace front"
+    ],
+    "tier": "mainstream",
+    "why": "Full cover wig",
+    "seenAt": null
+   },
+   {
+    "name": "Hair oiling",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "hair oiling"
+    ],
+    "tier": "forum",
+    "why": "Oil massage routines for growth",
+    "seenAt": null
+   },
+   {
+    "name": "Hairstyle maxxing",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "hairstyle maxxing"
+    ],
+    "tier": "forum",
+    "why": "Hide recession with cut and styling",
+    "seenAt": null
+   },
+   {
+    "name": "Pro clippers + edge trimmer",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "buzz cut",
+     "clippers"
+    ],
+    "tier": "mainstream",
+    "why": "Buzz cut and lineup to conceal thinning",
+    "seenAt": null
+   },
+   {
+    "name": "Scalp micropigmentation",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "SMP",
+    "terms": [
+     "scalp micropigmentation",
+     "smp"
+    ],
+    "tier": "mainstream",
+    "why": "Tattooed pinpoints simulating a shaved hair look",
+    "seenAt": null
+   },
+   {
+    "name": "PRP for hair",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "platelet-rich plasma",
+    "terms": [
+     "prp hair",
+     "prp scalp"
+    ],
+    "tier": "mainstream",
+    "why": "Injection of own platelet-rich plasma into scalp",
+    "seenAt": null
+   },
+   {
+    "name": "Exosome hair therapy",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "exosome hair"
+    ],
+    "tier": "fringe",
+    "why": "Exosome serum or injection claimed to revive follicles",
+    "seenAt": null
+   },
+   {
+    "name": "Stem cell hair therapy",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "stem cell hair"
+    ],
+    "tier": "fringe",
+    "why": "Cell-based regrowth clinics; most approaches have limited published trial data",
+    "seenAt": null
+   },
+   {
+    "name": "Hair cloning",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "follicle neogenesis",
+    "terms": [
+     "hair cloning"
+    ],
+    "tier": "fringe",
+    "why": "Future promise of cultured follicles",
+    "seenAt": null
+   },
+   {
+    "name": "Redensyl",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "redensyl"
+    ],
+    "tier": "forum",
+    "why": "Cosmetic anti-hair-loss serum ingredient",
+    "seenAt": null
+   },
+   {
+    "name": "Capixyl",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "biotinoyl tripeptide-1",
+    "terms": [
+     "capixyl"
+    ],
+    "tier": "forum",
+    "why": "Peptide complex in anti-loss serums",
+    "seenAt": null
+   },
+   {
+    "name": "Procapil",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "procapil"
+    ],
+    "tier": "forum",
+    "why": "Cosmetic peptide/apigenin hair serum ingredient",
+    "seenAt": null
+   },
+   {
+    "name": "Copper peptide scalp serum",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "copper peptide hair",
+     "ghk-cu scalp"
+    ],
+    "tier": "forum",
+    "why": "GHK-Cu applied to scalp",
+    "seenAt": null
+   },
+   {
+    "name": "Topical melatonin hair",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "melatonin scalp"
+    ],
+    "tier": "fringe",
+    "why": "Melatonin solution tested on androgenetic alopecia",
+    "seenAt": null
+   },
+   {
+    "name": "Azelaic acid scalp",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "azelaic acid hair"
+    ],
+    "tier": "forum",
+    "why": "Mild 5-ARI claims, used in anti-hair-loss stacks",
+    "seenAt": null
+   },
+   {
+    "name": "Tretinoin for scalp",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "tretinoin minoxidil"
+    ],
+    "tier": "forum",
+    "why": "Retinoid added to minoxidil to boost absorption",
+    "seenAt": null
+   },
+   {
+    "name": "Cetirizine topical",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "cetirizine hair"
+    ],
+    "tier": "fringe",
+    "why": "Antihistamine lotion small PGD2 trial",
+    "seenAt": null
+   },
+   {
+    "name": "Setipiprant",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "setipiprant"
+    ],
+    "tier": "forum",
+    "why": "PGD2 receptor antagonist; did not show benefit in hair trials",
+    "seenAt": null
+   },
+   {
+    "name": "Platelet PGD2 inhibitors",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "pgd2 hair"
+    ],
+    "tier": "fringe",
+    "why": "Targeting prostaglandin D2 to reverse miniaturization",
+    "seenAt": null
+   },
+   {
+    "name": "Ritlecitinib (Litfulo)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "ritlecitinib",
+     "jak inhibitor"
+    ],
+    "tier": "evidence",
+    "why": "JAK inhibitor for alopecia areata",
+    "seenAt": null
+   },
+   {
+    "name": "Baricitinib (Olumiant)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "baricitinib"
+    ],
+    "tier": "evidence",
+    "why": "JAK inhibitor for severe alopecia areata",
+    "seenAt": null
+   },
+   {
+    "name": "Verteporfin hair",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "verteporfin"
+    ],
+    "tier": "fringe",
+    "why": "Experimental hair growth compound",
+    "seenAt": null
+   },
+   {
+    "name": "Oral cyproterone acetate",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "cyproterone"
+    ],
+    "tier": "mainstream",
+    "why": "Antiandrogen for women",
+    "seenAt": null
+   },
+   {
+    "name": "Nutrafol",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "nutrafol"
+    ],
+    "tier": "mainstream",
+    "why": "Branded multi-ingredient hair supplement",
+    "seenAt": null
+   },
+   {
+    "name": "Viviscal",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "viviscal"
+    ],
+    "tier": "mainstream",
+    "why": "Marine-protein hair supplement",
+    "seenAt": null
+   },
+   {
+    "name": "Marine collagen / hair vitamins",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "hair vitamins"
+    ],
+    "tier": "mainstream",
+    "why": "Supplement stacks for hair",
+    "seenAt": null
+   },
+   {
+    "name": "Iron",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "ferritin",
+    "terms": [
+     "iron",
+     "ferritin"
+    ],
+    "tier": "evidence",
+    "why": "Correcting low ferritin for shedding",
+    "seenAt": null
+   },
+   {
+    "name": "Vitamin D",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "vitamin d"
+    ],
+    "tier": "mainstream",
+    "why": "Deficiency linked to telogen shedding",
+    "seenAt": null
+   },
+   {
+    "name": "Zinc",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "zinc"
+    ],
+    "tier": "mainstream",
+    "why": "Deficiency correction",
+    "seenAt": null
+   },
+   {
+    "name": "Castor oil hair",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "castor oil hair"
+    ],
+    "tier": "fringe",
+    "why": "Castor oil applied to scalp",
+    "seenAt": null
+   },
+   {
+    "name": "Garlic / ginseng / aloe scalp remedies",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "garlic hair",
+     "aloe hair"
+    ],
+    "tier": "fringe",
+    "why": "Folk topical remedies",
+    "seenAt": null
+   },
+   {
+    "name": "Black seed oil hair",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "black seed oil"
+    ],
+    "tier": "fringe",
+    "why": "Nigella sativa claims for hair",
+    "seenAt": null
+   },
+   {
+    "name": "Hair growth shampoo with DHT blockers",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "dht blocker shampoo"
+    ],
+    "tier": "mainstream",
+    "why": "Shampoos with saw palmetto or ketoconazole",
+    "seenAt": null
+   },
+   {
+    "name": "Hair loss concealing hat/cap",
+    "kind": "gear",
+    "category": "style",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "hat for balding"
+    ],
+    "tier": "mainstream",
+    "why": "Cap or beanie cover",
+    "seenAt": null
+   },
+   {
+    "name": "Shave your head",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "shave head",
+     "baldmaxx"
+    ],
+    "tier": "mainstream",
+    "why": "Shaving the head as a response to hair loss",
+    "seenAt": null
+   },
+   {
+    "name": "Stress and sleep management for hair",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "telogen effluvium"
+    ],
+    "tier": "mainstream",
+    "why": "Fixing shedding triggers",
+    "seenAt": null
+   },
+   {
+    "name": "Inversion method / scalp stretching exercises",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "inversion method",
+     "scalp exercises"
+    ],
+    "tier": "fringe",
+    "why": "Blood-flow and scalp tension routines",
+    "seenAt": null
+   },
+   {
+    "name": "Dermastamping with minoxidil",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "microneedle minoxidil"
+    ],
+    "tier": "forum",
+    "why": "Microneedle then minoxidil for absorption",
+    "seenAt": null
+   },
+   {
+    "name": "Low-dose finasteride microdosing",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "finasteride microdose"
+    ],
+    "tier": "forum",
+    "why": "Lowering dose to reduce side effects",
+    "seenAt": null
+   },
+   {
+    "name": "Post-finasteride syndrome concerns",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": "PFS",
+    "terms": [
+     "post finasteride syndrome",
+     "pfs"
+    ],
+    "tier": "forum",
+    "why": "Forum discussion of finasteride side effects",
+    "seenAt": null
+   },
+   {
+    "name": "Hairline lowering surgery",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "forehead reduction",
+    "terms": [
+     "hairline lowering"
+    ],
+    "tier": "mainstream",
+    "why": "Scalp advancement to lower forehead",
+    "seenAt": null
+   },
+   {
+    "name": "Nanoneedling / hair microneedle patches",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "dissolving microneedle patch"
+    ],
+    "tier": "fringe",
+    "why": "Patch devices delivering actives",
+    "seenAt": null
+   },
+   {
+    "name": "Red light therapy for scalp",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "red light hair"
+    ],
+    "tier": "mainstream",
+    "why": "LED masks and panels on scalp",
+    "seenAt": null
+   },
+   {
+    "name": "Hair loss vaccine / peptides (BPC-157 for hair)",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "bpc-157 hair"
+    ],
+    "tier": "fringe",
+    "why": "Peptide stacks for scalp claims",
+    "seenAt": null
+   },
+   {
+    "name": "Hairline tattoo",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "hairline tattoo"
+    ],
+    "tier": "mainstream",
+    "why": "SMP on the hairline",
+    "seenAt": null
+   }
+  ]
+ },
+ {
+  "issue": "hair-quality",
+  "summary": "Approaches to hair thickness, shine and manageability include haircare products, heat tools, supplements, cuts and styling, as well as social-media and ayurvedic trends.",
+  "approaches": [
+   {
+    "name": "Hair oiling",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "hair oiling"
+    ],
+    "tier": "forum",
+    "why": "Pre-wash oil massage",
+    "seenAt": null
+   },
+   {
+    "name": "Hairstyle maxxing",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "hairstyle maxxing"
+    ],
+    "tier": "forum",
+    "why": "Optimize cut to face shape",
+    "seenAt": null
+   },
+   {
+    "name": "Hair styling clay & pomade",
+    "kind": "gear",
+    "category": "style",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "pomade",
+     "clay"
+    ],
+    "tier": "mainstream",
+    "why": "Hold and texture products",
+    "seenAt": null
+   },
+   {
+    "name": "Straightening hair brush (DAFNI)",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "hot brush"
+    ],
+    "tier": "mainstream",
+    "why": "Heated brush straightener",
+    "seenAt": null
+   },
+   {
+    "name": "Flat iron / hair straightener (ceramic flat iron)",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "flat iron"
+    ],
+    "tier": "mainstream",
+    "why": "Heat straightening",
+    "seenAt": null
+   },
+   {
+    "name": "Hair dryer brush / hot air brush (Revlon One-Step)",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "hair dryer brush"
+    ],
+    "tier": "mainstream",
+    "why": "Volume blowout tool",
+    "seenAt": null
+   },
+   {
+    "name": "Hair dye / bleaching hair",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "hair dye",
+     "bleach"
+    ],
+    "tier": "mainstream",
+    "why": "Color change",
+    "seenAt": null
+   },
+   {
+    "name": "Biotin (Vitamin B7)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "biotin"
+    ],
+    "tier": "mainstream",
+    "why": "Hair supplement",
+    "seenAt": null
+   },
+   {
+    "name": "Collagen peptides",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "collagen"
+    ],
+    "tier": "mainstream",
+    "why": "Supplement for hair thickness claims",
+    "seenAt": null
+   },
+   {
+    "name": "Rosemary oil",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "rosemary oil"
+    ],
+    "tier": "forum",
+    "why": "Scalp oil for thickness",
+    "seenAt": null
+   },
+   {
+    "name": "Scalp massager",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "scalp massager"
+    ],
+    "tier": "forum",
+    "why": "Daily scalp massage",
+    "seenAt": null
+   },
+   {
+    "name": "Caffeine shampoo (Alpecin)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "alpecin"
+    ],
+    "tier": "mainstream",
+    "why": "Caffeine shampoo",
+    "seenAt": null
+   },
+   {
+    "name": "Ketoconazole (Nizoral)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "nizoral"
+    ],
+    "tier": "mainstream",
+    "why": "Anti-dandruff shampoo",
+    "seenAt": null
+   },
+   {
+    "name": "Tea tree oil",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "tea tree oil"
+    ],
+    "tier": "mainstream",
+    "why": "Dandruff scalp oil",
+    "seenAt": null
+   },
+   {
+    "name": "Minoxidil (Rogaine)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "minoxidil"
+    ],
+    "tier": "evidence",
+    "why": "Products claimed to thicken fine hair",
+    "seenAt": null
+   },
+   {
+    "name": "Hair fibers",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "hair fibers"
+    ],
+    "tier": "mainstream",
+    "why": "Products marketed for immediate hair thickness",
+    "seenAt": null
+   },
+   {
+    "name": "Curly girl method",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "CGM",
+    "terms": [
+     "curly girl method"
+    ],
+    "tier": "forum",
+    "why": "Sulfate-free, no-brush curl routine",
+    "seenAt": null
+   },
+   {
+    "name": "Sulfate-free shampoo",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "sulfate free"
+    ],
+    "tier": "mainstream",
+    "why": "Gentler cleansing",
+    "seenAt": null
+   },
+   {
+    "name": "Co-washing",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "co-washing"
+    ],
+    "tier": "forum",
+    "why": "Washing with conditioner only",
+    "seenAt": null
+   },
+   {
+    "name": "Olaplex bond builder",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "olaplex",
+     "bond repair"
+    ],
+    "tier": "mainstream",
+    "why": "Bond-repair treatments",
+    "seenAt": null
+   },
+   {
+    "name": "Keratin smoothing treatment",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "Brazilian blowout",
+    "terms": [
+     "keratin treatment"
+    ],
+    "tier": "mainstream",
+    "why": "Salon straightening; formaldehyde exposure concerns reported",
+    "seenAt": null
+   },
+   {
+    "name": "Perm / texture perm",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "perm",
+     "texturizer"
+    ],
+    "tier": "mainstream",
+    "why": "Chemical curl for men, curtain perms",
+    "seenAt": null
+   },
+   {
+    "name": "Hair relaxer / chemical straightener",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "hair relaxer"
+    ],
+    "tier": "dangerous",
+    "why": "Lye-based relaxers; chemical burns and cancer-risk concerns reported",
+    "seenAt": null
+   },
+   {
+    "name": "Hair botox / hair filler treatment",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "hair botox"
+    ],
+    "tier": "mainstream",
+    "why": "Protein smoothing treatment",
+    "seenAt": null
+   },
+   {
+    "name": "Deep conditioner / hair mask",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "hair mask"
+    ],
+    "tier": "mainstream",
+    "why": "Conditioning treatment",
+    "seenAt": null
+   },
+   {
+    "name": "Leave-in conditioner",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "leave-in"
+    ],
+    "tier": "mainstream",
+    "why": "Daily moisture",
+    "seenAt": null
+   },
+   {
+    "name": "Cold water rinse",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "cold rinse"
+    ],
+    "tier": "forum",
+    "why": "Cold finish for shine",
+    "seenAt": null
+   },
+   {
+    "name": "Apple cider vinegar rinse",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "ACV rinse",
+    "terms": [
+     "acv rinse"
+    ],
+    "tier": "fringe",
+    "why": "Clarifying rinse",
+    "seenAt": null
+   },
+   {
+    "name": "Rice water rinse",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "rice water"
+    ],
+    "tier": "fringe",
+    "why": "Fermented rice water for strength",
+    "seenAt": null
+   },
+   {
+    "name": "Egg hair mask",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "egg mask"
+    ],
+    "tier": "fringe",
+    "why": "Protein mask",
+    "seenAt": null
+   },
+   {
+    "name": "Castor oil",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "castor oil"
+    ],
+    "tier": "fringe",
+    "why": "Thick oil for hair",
+    "seenAt": null
+   },
+   {
+    "name": "Ayurvedic amla / bhringraj / shikakai",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "amla",
+     "bhringraj"
+    ],
+    "tier": "fringe",
+    "why": "Traditional herbs",
+    "seenAt": null
+   },
+   {
+    "name": "Silk pillowcase",
+    "kind": "gear",
+    "category": "sleep",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "silk pillowcase"
+    ],
+    "tier": "mainstream",
+    "why": "Less friction",
+    "seenAt": null
+   },
+   {
+    "name": "Satin bonnet / durag",
+    "kind": "gear",
+    "category": "style",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "durag",
+     "satin bonnet"
+    ],
+    "tier": "mainstream",
+    "why": "Wave and protection",
+    "seenAt": null
+   },
+   {
+    "name": "360 waves / wave brush",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "360 waves",
+     "wave brush"
+    ],
+    "tier": "forum",
+    "why": "Brush training for waves",
+    "seenAt": null
+   },
+   {
+    "name": "Hair texture powder / sea salt spray",
+    "kind": "gear",
+    "category": "style",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "sea salt spray",
+     "texture powder"
+    ],
+    "tier": "mainstream",
+    "why": "Volume and texture",
+    "seenAt": null
+   },
+   {
+    "name": "Blow-dry and volumizing routine",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "blow dry hair"
+    ],
+    "tier": "forum",
+    "why": "Blow-dry upward for volume",
+    "seenAt": null
+   },
+   {
+    "name": "Heat protectant",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "heat protectant"
+    ],
+    "tier": "mainstream",
+    "why": "Heat shield",
+    "seenAt": null
+   },
+   {
+    "name": "Diffuser curl drying",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "diffuser"
+    ],
+    "tier": "mainstream",
+    "why": "Curl definition",
+    "seenAt": null
+   },
+   {
+    "name": "Shower filter",
+    "kind": "gear",
+    "category": "bodyCare",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "shower filter"
+    ],
+    "tier": "fringe",
+    "why": "Hard-water filter",
+    "seenAt": null
+   },
+   {
+    "name": "Scalp exfoliation",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "scalp scrub"
+    ],
+    "tier": "mainstream",
+    "why": "Scalp scrubs and acids",
+    "seenAt": null
+   },
+   {
+    "name": "Salicylic acid",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "salicylic acid"
+    ],
+    "tier": "mainstream",
+    "why": "Scalp seb treatment",
+    "seenAt": null
+   },
+   {
+    "name": "Omega-3 (EPA/DHA)",
+    "kind": "compound",
+    "category": "longevity",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "omega-3"
+    ],
+    "tier": "mainstream",
+    "why": "Diet for hair thickness",
+    "seenAt": null
+   },
+   {
+    "name": "Iron",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "iron"
+    ],
+    "tier": "evidence",
+    "why": "Correct deficiency",
+    "seenAt": null
+   },
+   {
+    "name": "Zinc",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "zinc"
+    ],
+    "tier": "mainstream",
+    "why": "Correct deficiency",
+    "seenAt": null
+   },
+   {
+    "name": "Protein intake for hair",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "protein hair"
+    ],
+    "tier": "mainstream",
+    "why": "Protein intake as the basis for hair structure (keratin)",
+    "seenAt": null
+   },
+   {
+    "name": "Gelatin / bone broth",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "bone broth hair"
+    ],
+    "tier": "fringe",
+    "why": "Collagen foods",
+    "seenAt": null
+   },
+   {
+    "name": "Brushing technique (boar bristle)",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "boar bristle brush"
+    ],
+    "tier": "mainstream",
+    "why": "Natural oil distribution",
+    "seenAt": null
+   },
+   {
+    "name": "Haircut for face shape",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "face shape haircut"
+    ],
+    "tier": "forum",
+    "why": "Pick cut by proportions",
+    "seenAt": null
+   },
+   {
+    "name": "Middle part / curtains / textured crop trends",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "curtains",
+     "textured crop"
+    ],
+    "tier": "forum",
+    "why": "Trending men's cuts",
+    "seenAt": null
+   },
+   {
+    "name": "Gray hair reversal supplements",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "gray hair reversal"
+    ],
+    "tier": "fringe",
+    "why": "Copper, B12 etc",
+    "seenAt": null
+   },
+   {
+    "name": "Hair gloss / glaze",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "hair gloss"
+    ],
+    "tier": "mainstream",
+    "why": "Shine glaze",
+    "seenAt": null
+   },
+   {
+    "name": "Hair tape-in / clip-in extensions",
+    "kind": "gear",
+    "category": "style",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "extensions"
+    ],
+    "tier": "mainstream",
+    "why": "Added volume",
+    "seenAt": null
+   }
+  ]
+ },
+ {
+  "issue": "beard",
+  "summary": "Patchy or sparse beards are addressed with minoxidil and microneedling, supplements, grooming techniques and transplants; beard growth depends largely on genetically determined androgen sensitivity, and clinical evidence for most treatments is limited.",
+  "approaches": [
+   {
+    "name": "Minoxidil (Rogaine)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "Kirkland",
+    "terms": [
+     "minoxidil beard"
+    ],
+    "tier": "forum",
+    "why": "Topical minoxidil for beard fill, widely discussed on forums",
+    "seenAt": null
+   },
+   {
+    "name": "Oral minoxidil",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "oral minoxidil"
+    ],
+    "tier": "forum",
+    "why": "Pill route for beard",
+    "seenAt": null
+   },
+   {
+    "name": "Beard growth roller",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "beard roller",
+     "derma roller"
+    ],
+    "tier": "forum",
+    "why": "Needling for beard",
+    "seenAt": null
+   },
+   {
+    "name": "Microneedle stamp (microneedle stamping device)",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "dermastamp"
+    ],
+    "tier": "forum",
+    "why": "Stamp for beard",
+    "seenAt": null
+   },
+   {
+    "name": "Microneedling pen (electric)",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "dermapen"
+    ],
+    "tier": "forum",
+    "why": "Electric microneedling",
+    "seenAt": null
+   },
+   {
+    "name": "Beard transplant",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "beard transplant"
+    ],
+    "tier": "evidence",
+    "why": "Surgical fill",
+    "seenAt": null
+   },
+   {
+    "name": "Beard maxxing",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "beard maxxing"
+    ],
+    "tier": "forum",
+    "why": "Overall beard optimization",
+    "seenAt": null
+   },
+   {
+    "name": "Beard oil",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "beard oil"
+    ],
+    "tier": "mainstream",
+    "why": "Conditioning oil",
+    "seenAt": null
+   },
+   {
+    "name": "Beard balm",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "beard balm"
+    ],
+    "tier": "mainstream",
+    "why": "Styling balm",
+    "seenAt": null
+   },
+   {
+    "name": "Beard dye",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "beard dye"
+    ],
+    "tier": "mainstream",
+    "why": "Cover gray or patches",
+    "seenAt": null
+   },
+   {
+    "name": "Beard shaping guide",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "beard shaper"
+    ],
+    "tier": "mainstream",
+    "why": "Neckline and cheek line tool",
+    "seenAt": null
+   },
+   {
+    "name": "Precision beard trimmer",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "beard trimmer"
+    ],
+    "tier": "mainstream",
+    "why": "Trimming",
+    "seenAt": null
+   },
+   {
+    "name": "Heated beard straightener",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "beard straightener"
+    ],
+    "tier": "mainstream",
+    "why": "Tame curl",
+    "seenAt": null
+   },
+   {
+    "name": "Pro clippers + edge trimmer",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "edge trimmer"
+    ],
+    "tier": "mainstream",
+    "why": "Lineups",
+    "seenAt": null
+   },
+   {
+    "name": "Testosterone / TRT for beard",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "trt beard"
+    ],
+    "tier": "forum",
+    "why": "Claimed to raise androgens",
+    "seenAt": null
+   },
+   {
+    "name": "DHT / Androgel for facial structure",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "dht gel beard"
+    ],
+    "tier": "forum",
+    "why": "Topical DHT claims",
+    "seenAt": null
+   },
+   {
+    "name": "Dihydrotestosterone (DHT) (Androstanolone)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "dht"
+    ],
+    "tier": "dangerous",
+    "why": "Direct DHT",
+    "seenAt": null
+   },
+   {
+    "name": "Mesterolone (Proviron)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "proviron"
+    ],
+    "tier": "forum",
+    "why": "DHT derivative for beard",
+    "seenAt": null
+   },
+   {
+    "name": "Biotin (Vitamin B7)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "biotin"
+    ],
+    "tier": "mainstream",
+    "why": "Beard supplement",
+    "seenAt": null
+   },
+   {
+    "name": "Beard vitamins (zinc, B-complex, D)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "beard vitamins"
+    ],
+    "tier": "mainstream",
+    "why": "Multivitamin stack",
+    "seenAt": null
+   },
+   {
+    "name": "Vitamin D",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "vitamin d"
+    ],
+    "tier": "mainstream",
+    "why": "Deficiency fix",
+    "seenAt": null
+   },
+   {
+    "name": "Zinc",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "zinc"
+    ],
+    "tier": "mainstream",
+    "why": "Deficiency fix",
+    "seenAt": null
+   },
+   {
+    "name": "Iron",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "iron"
+    ],
+    "tier": "mainstream",
+    "why": "Deficiency fix",
+    "seenAt": null
+   },
+   {
+    "name": "Tretinoin for beard",
+    "kind": "compound",
+    "category": "skin",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "tretinoin beard"
+    ],
+    "tier": "forum",
+    "why": "Added to min for absorption",
+    "seenAt": null
+   },
+   {
+    "name": "Beard growth serum / Kirkland minox foam",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "beard serum"
+    ],
+    "tier": "mainstream",
+    "why": "Commercial products",
+    "seenAt": null
+   },
+   {
+    "name": "Beard growth supplements (Beardalicious, etc.)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "beard growth pills"
+    ],
+    "tier": "fringe",
+    "why": "Branded pills",
+    "seenAt": null
+   },
+   {
+    "name": "Shave to thicken myth",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "shaving thickens"
+    ],
+    "tier": "fringe",
+    "why": "Claim that shaving increases beard growth; controlled studies report no change",
+    "seenAt": null
+   },
+   {
+    "name": "Growing it out 12 weeks",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "beard 12 week rule"
+    ],
+    "tier": "forum",
+    "why": "Waiting for beard development over time",
+    "seenAt": null
+   },
+   {
+    "name": "Beard fillers / fibers / pencils",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "beard filler",
+     "beard pencil"
+    ],
+    "tier": "mainstream",
+    "why": "Cosmetic fill-in",
+    "seenAt": null
+   },
+   {
+    "name": "Beard concealer powder",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "beard powder"
+    ],
+    "tier": "mainstream",
+    "why": "Cover patches",
+    "seenAt": null
+   },
+   {
+    "name": "Chinstrap / goatee / designer stubble styling",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "stubble",
+     "goatee"
+    ],
+    "tier": "forum",
+    "why": "Style around patchiness",
+    "seenAt": null
+   },
+   {
+    "name": "Beard brush / comb",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "beard brush"
+    ],
+    "tier": "mainstream",
+    "why": "Brush for training",
+    "seenAt": null
+   },
+   {
+    "name": "Beard wash / conditioner",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "beard wash"
+    ],
+    "tier": "mainstream",
+    "why": "Skin care",
+    "seenAt": null
+   },
+   {
+    "name": "Ingrown hair prevention (salicylic)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "beard ingrown"
+    ],
+    "tier": "mainstream",
+    "why": "Beard-area skin care",
+    "seenAt": null
+   },
+   {
+    "name": "Sleep and testosterone optimization",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "raise testosterone"
+    ],
+    "tier": "forum",
+    "why": "Lifestyle T boost",
+    "seenAt": null
+   },
+   {
+    "name": "Lift heavy / low body fat for T",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "testosterone lifestyle"
+    ],
+    "tier": "forum",
+    "why": "Training for T",
+    "seenAt": null
+   },
+   {
+    "name": "Clomiphene / enclomiphene",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "clomid",
+    "terms": [
+     "clomiphene"
+    ],
+    "tier": "forum",
+    "why": "Boost endogenous T",
+    "seenAt": null
+   },
+   {
+    "name": "hCG",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "hcg"
+    ],
+    "tier": "forum",
+    "why": "Test stimulation",
+    "seenAt": null
+   },
+   {
+    "name": "Castor oil beard",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "castor oil beard"
+    ],
+    "tier": "fringe",
+    "why": "Oil claims",
+    "seenAt": null
+   },
+   {
+    "name": "Genetics acceptance / shave clean",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "clean shaven"
+    ],
+    "tier": "mainstream",
+    "why": "Remaining clean-shaven",
+    "seenAt": null
+   },
+   {
+    "name": "Safety razor",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "safety razor"
+    ],
+    "tier": "mainstream",
+    "why": "Clean shave",
+    "seenAt": null
+   }
+  ]
+ },
+ {
+  "issue": "brows-lashes",
+  "summary": "Methods for fuller brows and lashes include prostaglandin serums, minoxidil, cosmetic shaping and tinting, lamination and transplants.",
+  "approaches": [
+   {
+    "name": "Bimatoprost (Latisse)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "latisse",
+     "careprost"
+    ],
+    "tier": "evidence",
+    "why": "FDA-approved prostaglandin analog for lash hypotrichosis",
+    "seenAt": null
+   },
+   {
+    "name": "Latanoprost",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "latanoprost lashes"
+    ],
+    "tier": "forum",
+    "why": "Cheaper prostaglandin for lashes",
+    "seenAt": null
+   },
+   {
+    "name": "Minoxidil (Rogaine)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "minoxidil brows"
+    ],
+    "tier": "forum",
+    "why": "Brow regrowth",
+    "seenAt": null
+   },
+   {
+    "name": "Castor oil lashes",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "castor oil lashes"
+    ],
+    "tier": "fringe",
+    "why": "Folk oil",
+    "seenAt": null
+   },
+   {
+    "name": "Lash growth serum (peptide)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "lash serum"
+    ],
+    "tier": "mainstream",
+    "why": "Cosmetic serums",
+    "seenAt": null
+   },
+   {
+    "name": "Eyebrow transplant",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "eyebrow transplant"
+    ],
+    "tier": "evidence",
+    "why": "Surgical brow",
+    "seenAt": null
+   },
+   {
+    "name": "Brow tint kit",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "brow tint"
+    ],
+    "tier": "mainstream",
+    "why": "Dye",
+    "seenAt": null
+   },
+   {
+    "name": "Brow lamination kit",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "brow lamination"
+    ],
+    "tier": "mainstream",
+    "why": "Set brows upward",
+    "seenAt": null
+   },
+   {
+    "name": "Clear brow gel",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "brow gel"
+    ],
+    "tier": "mainstream",
+    "why": "Hold",
+    "seenAt": null
+   },
+   {
+    "name": "Eyebrow pencil / powder",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "brow pencil"
+    ],
+    "tier": "mainstream",
+    "why": "Fill",
+    "seenAt": null
+   },
+   {
+    "name": "Brow tweezers + scissors",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "tweezers"
+    ],
+    "tier": "mainstream",
+    "why": "Shaping",
+    "seenAt": null
+   },
+   {
+    "name": "Eyelash curler",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "lash curler"
+    ],
+    "tier": "mainstream",
+    "why": "Curl",
+    "seenAt": null
+   },
+   {
+    "name": "Lash lift kit",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "lash lift"
+    ],
+    "tier": "mainstream",
+    "why": "Perm for lashes",
+    "seenAt": null
+   },
+   {
+    "name": "Threading kit (hair threading)",
+    "kind": "gear",
+    "category": "hairRemoval",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "threading"
+    ],
+    "tier": "mainstream",
+    "why": "Brow shaping",
+    "seenAt": null
+   },
+   {
+    "name": "Wax kit",
+    "kind": "gear",
+    "category": "hairRemoval",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "brow wax"
+    ],
+    "tier": "mainstream",
+    "why": "Brow shaping",
+    "seenAt": null
+   },
+   {
+    "name": "Microblading",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "microblading"
+    ],
+    "tier": "mainstream",
+    "why": "Semi-permanent hair strokes",
+    "seenAt": null
+   },
+   {
+    "name": "Brow microshading / powder brows",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "powder brows"
+    ],
+    "tier": "mainstream",
+    "why": "Tattoo shading",
+    "seenAt": null
+   },
+   {
+    "name": "Brow henna",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": false,
+    "aka": "henna brows",
+    "terms": [
+     "brow henna"
+    ],
+    "tier": "mainstream",
+    "why": "Stain",
+    "seenAt": null
+   },
+   {
+    "name": "Lash tint",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "lash tint"
+    ],
+    "tier": "mainstream",
+    "why": "Dye",
+    "seenAt": null
+   },
+   {
+    "name": "Lash extensions",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "lash extensions"
+    ],
+    "tier": "mainstream",
+    "why": "Salon extension",
+    "seenAt": null
+   },
+   {
+    "name": "Mascara / waterproof mascara",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "mascara"
+    ],
+    "tier": "mainstream",
+    "why": "Cosmetic",
+    "seenAt": null
+   },
+   {
+    "name": "Individual false lashes / magnetic lashes",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "false lashes"
+    ],
+    "tier": "mainstream",
+    "why": "Artificial strip or cluster lashes",
+    "seenAt": null
+   },
+   {
+    "name": "Brow soap / brow styling soap",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "soap brows"
+    ],
+    "tier": "forum",
+    "why": "Fluffy brows trend",
+    "seenAt": null
+   },
+   {
+    "name": "Brow shaping guide / stencil",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "brow stencil"
+    ],
+    "tier": "mainstream",
+    "why": "Template",
+    "seenAt": null
+   },
+   {
+    "name": "Brow growth serum",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "brow serum"
+    ],
+    "tier": "mainstream",
+    "why": "Peptide serums",
+    "seenAt": null
+   },
+   {
+    "name": "Rosemary oil",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "rosemary oil"
+    ],
+    "tier": "fringe",
+    "why": "Applied to brows",
+    "seenAt": null
+   },
+   {
+    "name": "Biotin (Vitamin B7)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "biotin"
+    ],
+    "tier": "mainstream",
+    "why": "Supplement",
+    "seenAt": null
+   },
+   {
+    "name": "Vaseline on lashes/brows",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "vaseline lashes"
+    ],
+    "tier": "fringe",
+    "why": "Conditioning claim",
+    "seenAt": null
+   },
+   {
+    "name": "Brow lift (surgical)",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "brow lift"
+    ],
+    "tier": "mainstream",
+    "why": "Raise brow",
+    "seenAt": null
+   },
+   {
+    "name": "Botox brow lift",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "botox brow"
+    ],
+    "tier": "mainstream",
+    "why": "Lift tails",
+    "seenAt": null
+   },
+   {
+    "name": "Don't over-pluck / regrow",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "regrow brows"
+    ],
+    "tier": "mainstream",
+    "why": "Refraining from plucking brows",
+    "seenAt": null
+   },
+   {
+    "name": "Eyebrow gel with fibers",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "brow fibers"
+    ],
+    "tier": "mainstream",
+    "why": "Fiber gel",
+    "seenAt": null
+   },
+   {
+    "name": "Brow dyeing blonde / bleaching",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "bleached brows"
+    ],
+    "tier": "forum",
+    "why": "Bleached brows",
+    "seenAt": null
+   },
+   {
+    "name": "Brow slitting / cuts",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "brow slit"
+    ],
+    "tier": "forum",
+    "why": "Style",
+    "seenAt": null
+   },
+   {
+    "name": "Unibrow trimming / bridge shaping",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "unibrow"
+    ],
+    "tier": "mainstream",
+    "why": "Shape",
+    "seenAt": null
+   }
+  ]
+ },
+ {
+  "issue": "body-hair",
+  "summary": "Removal or management of facial and body hair includes shaving, trimming, waxing, depilatories, light-based devices and electrolysis, along with grooming trends and some DIY methods associated with reported skin injury.",
+  "approaches": [
+   {
+    "name": "Safety razor",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "safety razor"
+    ],
+    "tier": "mainstream",
+    "why": "Blade shaving",
+    "seenAt": null
+   },
+   {
+    "name": "Cartridge razor (multi-blade razor)",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "cartridge razor"
+    ],
+    "tier": "mainstream",
+    "why": "Shave",
+    "seenAt": null
+   },
+   {
+    "name": "Electric shaver (foil/rotary) (electric razor)",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "electric razor"
+    ],
+    "tier": "mainstream",
+    "why": "Shave",
+    "seenAt": null
+   },
+   {
+    "name": "Straight razor (cut-throat)",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "straight razor"
+    ],
+    "tier": "mainstream",
+    "why": "Shave",
+    "seenAt": null
+   },
+   {
+    "name": "Shaving brush (badger brush)",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "shaving brush"
+    ],
+    "tier": "mainstream",
+    "why": "Lather",
+    "seenAt": null
+   },
+   {
+    "name": "Shaving soap / cream",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "shaving cream"
+    ],
+    "tier": "mainstream",
+    "why": "Lather",
+    "seenAt": null
+   },
+   {
+    "name": "Nose + ear trimmer",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "nose trimmer"
+    ],
+    "tier": "mainstream",
+    "why": "Trim",
+    "seenAt": null
+   },
+   {
+    "name": "Wax kit",
+    "kind": "gear",
+    "category": "hairRemoval",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "waxing"
+    ],
+    "tier": "mainstream",
+    "why": "Wax removal",
+    "seenAt": null
+   },
+   {
+    "name": "Sugaring paste (sugar wax)",
+    "kind": "gear",
+    "category": "hairRemoval",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "sugaring"
+    ],
+    "tier": "mainstream",
+    "why": "Sugar removal",
+    "seenAt": null
+   },
+   {
+    "name": "Threading kit (hair threading)",
+    "kind": "gear",
+    "category": "hairRemoval",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "threading"
+    ],
+    "tier": "mainstream",
+    "why": "Thread removal",
+    "seenAt": null
+   },
+   {
+    "name": "Depilatory cream",
+    "kind": "gear",
+    "category": "hairRemoval",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "nair",
+     "depilatory"
+    ],
+    "tier": "mainstream",
+    "why": "Chemical removal",
+    "seenAt": null
+   },
+   {
+    "name": "IPL hair removal device",
+    "kind": "gear",
+    "category": "hairRemoval",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "ipl"
+    ],
+    "tier": "mainstream",
+    "why": "Light reduction",
+    "seenAt": null
+   },
+   {
+    "name": "Home laser hair removal",
+    "kind": "gear",
+    "category": "hairRemoval",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "laser hair removal"
+    ],
+    "tier": "mainstream",
+    "why": "Laser",
+    "seenAt": null
+   },
+   {
+    "name": "Hair-growth inhibitor lotion (hair growth inhibitor)",
+    "kind": "gear",
+    "category": "hairRemoval",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "hair growth inhibitor"
+    ],
+    "tier": "mainstream",
+    "why": "Slow regrowth",
+    "seenAt": null
+   },
+   {
+    "name": "Pro clippers + edge trimmer",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "body trimmer"
+    ],
+    "tier": "mainstream",
+    "why": "Trimming",
+    "seenAt": null
+   },
+   {
+    "name": "Dermaplaning razor",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "dermaplaning"
+    ],
+    "tier": "mainstream",
+    "why": "Peach fuzz removal",
+    "seenAt": null
+   },
+   {
+    "name": "Eflornithine (Vaniqa)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "eflornithine",
+     "vaniqa"
+    ],
+    "tier": "evidence",
+    "why": "Prescription cream to slow facial hair",
+    "seenAt": null
+   },
+   {
+    "name": "Electrolysis",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "electrolysis"
+    ],
+    "tier": "evidence",
+    "why": "Permanent follicle destruction",
+    "seenAt": null
+   },
+   {
+    "name": "Professional laser hair removal",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "laser hair removal clinic"
+    ],
+    "tier": "evidence",
+    "why": "Clinic laser",
+    "seenAt": null
+   },
+   {
+    "name": "Spironolactone",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "spironolactone hirsutism"
+    ],
+    "tier": "mainstream",
+    "why": "Hirsutism drug",
+    "seenAt": null
+   },
+   {
+    "name": "Hair-removal epilator",
+    "kind": "gear",
+    "category": "hairRemoval",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "epilator"
+    ],
+    "tier": "mainstream",
+    "why": "Pulls hairs",
+    "seenAt": null
+   },
+   {
+    "name": "Body groomer (manscaping trimmer)",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "manscaping"
+    ],
+    "tier": "mainstream",
+    "why": "Body hair trimmer",
+    "seenAt": null
+   },
+   {
+    "name": "Back shaver",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "back shaver"
+    ],
+    "tier": "mainstream",
+    "why": "Extended handle",
+    "seenAt": null
+   },
+   {
+    "name": "Bleaching body hair",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "bleach arm hair"
+    ],
+    "tier": "mainstream",
+    "why": "Lighten rather than remove",
+    "seenAt": null
+   },
+   {
+    "name": "Ingrown hair treatments (salicylic, tend skin)",
+    "kind": "gear",
+    "category": "bodyCare",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "ingrown hair"
+    ],
+    "tier": "mainstream",
+    "why": "After-shave",
+    "seenAt": null
+   },
+   {
+    "name": "Aftershave balm / witch hazel",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "aftershave"
+    ],
+    "tier": "mainstream",
+    "why": "Soothe",
+    "seenAt": null
+   },
+   {
+    "name": "Chest/body shaving for gym",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "body shaving"
+    ],
+    "tier": "forum",
+    "why": "Show muscle definition",
+    "seenAt": null
+   },
+   {
+    "name": "Full manscaping routine",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "manscaping"
+    ],
+    "tier": "forum",
+    "why": "Groom body hair",
+    "seenAt": null
+   },
+   {
+    "name": "Brazilian / intimate waxing",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "brazilian wax"
+    ],
+    "tier": "mainstream",
+    "why": "Intimate area",
+    "seenAt": null
+   },
+   {
+    "name": "Turmeric / gram flour hair removal paste",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "ubtan"
+    ],
+    "tier": "fringe",
+    "why": "Folk paste",
+    "seenAt": null
+   },
+   {
+    "name": "Papaya enzyme hair inhibitor",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "papaya hair inhibitor"
+    ],
+    "tier": "fringe",
+    "why": "Folk",
+    "seenAt": null
+   },
+   {
+    "name": "Sugar scrub / pumice exfoliation",
+    "kind": "gear",
+    "category": "bodyCare",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "pumice hair"
+    ],
+    "tier": "fringe",
+    "why": "Abrasion",
+    "seenAt": null
+   },
+   {
+    "name": "Hair removal via topical hair-removal sprays",
+    "kind": "gear",
+    "category": "hairRemoval",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "hair removal spray"
+    ],
+    "tier": "mainstream",
+    "why": "Spray depilatory",
+    "seenAt": null
+   },
+   {
+    "name": "Don't shave: hair-growth encouragement for body",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "body hair growth"
+    ],
+    "tier": "forum",
+    "why": "Chest hair maxxing",
+    "seenAt": null
+   },
+   {
+    "name": "Minoxidil for chest hair",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "minoxidil chest"
+    ],
+    "tier": "forum",
+    "why": "Forum",
+    "seenAt": null
+   },
+   {
+    "name": "Hairy chest transplant / body hair transplant",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "body hair transplant"
+    ],
+    "tier": "mainstream",
+    "why": "FUE to body",
+    "seenAt": null
+   },
+   {
+    "name": "Laser for ingrown (pseudofolliculitis barbae)",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "PFB",
+    "terms": [
+     "pseudofolliculitis barbae"
+    ],
+    "tier": "mainstream",
+    "why": "Laser for razor bumps",
+    "seenAt": null
+   }
+  ]
+ }
+]

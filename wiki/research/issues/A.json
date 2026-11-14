@@ -1,0 +1,3518 @@
+[
+ {
+  "issue": "tan",
+  "summary": "Darker or more golden skin tone is sought through UV exposure, sunless tanners, makeup, pigment-stimulating peptides and carotenoid-rich diets; options range from cosmetics to unregulated injectable peptides.",
+  "approaches": [
+   {
+    "name": "Dihydroxyacetone (DHA self-tanner)",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "dha",
+     "self tanner"
+    ],
+    "tier": "mainstream",
+    "why": "Sugar-derived compound that browns outer skin layer without UV",
+    "seenAt": null
+   },
+   {
+    "name": "Self-tanning mousse",
+    "kind": "gear",
+    "category": "tanGear",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "tanning mousse"
+    ],
+    "tier": "mainstream",
+    "why": "Foam self-tanner for even application",
+    "seenAt": null
+   },
+   {
+    "name": "Self-tanning drops",
+    "kind": "gear",
+    "category": "tanGear",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "tanning drops"
+    ],
+    "tier": "mainstream",
+    "why": "Drops mixed into moisturiser for a custom gradual tan",
+    "seenAt": null
+   },
+   {
+    "name": "Tanning mitt",
+    "kind": "gear",
+    "category": "tanGear",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "tanning mitt"
+    ],
+    "tier": "mainstream",
+    "why": "Applicator mitt for streak-free self-tan",
+    "seenAt": null
+   },
+   {
+    "name": "Gradual tanning lotion",
+    "kind": "gear",
+    "category": "tanGear",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "gradual tan"
+    ],
+    "tier": "mainstream",
+    "why": "Daily lotion with low DHA for a slow build",
+    "seenAt": null
+   },
+   {
+    "name": "Spray-tan booth",
+    "kind": "gear",
+    "category": "tanGear",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "spray tan"
+    ],
+    "tier": "mainstream",
+    "why": "Salon or booth airbrushed DHA tan",
+    "seenAt": null
+   },
+   {
+    "name": "Bronzer",
+    "kind": "gear",
+    "category": "tanGear",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "bronzer"
+    ],
+    "tier": "mainstream",
+    "why": "Wash-off tint for instant color",
+    "seenAt": null
+   },
+   {
+    "name": "Tanning accelerator",
+    "kind": "gear",
+    "category": "tanGear",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "tanning accelerator"
+    ],
+    "tier": "mainstream",
+    "why": "Tyrosine/oil lotions claimed to speed UV tanning",
+    "seenAt": null
+   },
+   {
+    "name": "UV tanning bed",
+    "kind": "gear",
+    "category": "tanGear",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "tanning bed",
+     "sunbed"
+    ],
+    "tier": "dangerous",
+    "why": "Indoor UV tanning, carcinogenic",
+    "seenAt": null
+   },
+   {
+    "name": "Home UVB booth",
+    "kind": "gear",
+    "category": "tanGear",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "uvb booth"
+    ],
+    "tier": "dangerous",
+    "why": "DIY or home UV booth for vitamin D and tan",
+    "seenAt": null
+   },
+   {
+    "name": "Tinted facial SPF",
+    "kind": "gear",
+    "category": "tanGear",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "tinted spf"
+    ],
+    "tier": "mainstream",
+    "why": "Tinted sunscreen that adds color while protecting",
+    "seenAt": null
+   },
+   {
+    "name": "Broad-spectrum sunscreen",
+    "kind": "gear",
+    "category": "tanGear",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "sunscreen"
+    ],
+    "tier": "evidence",
+    "why": "Used to reduce burn risk and keep skin tone even while tanning",
+    "seenAt": null
+   },
+   {
+    "name": "Melanotan II (MT-II)",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "melanotan 2",
+     "mt2"
+    ],
+    "tier": "dangerous",
+    "why": "Unlicensed injectable melanocortin peptide reported to darken skin",
+    "seenAt": null
+   },
+   {
+    "name": "Afamelanotide (Melanotan I / Scenesse)",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "melanotan 1",
+     "scenesse"
+    ],
+    "tier": "evidence",
+    "why": "Approved implant for EPP, forum-used for tanning",
+    "seenAt": null
+   },
+   {
+    "name": "Bremelanotide (PT-141 / Vyleesi)",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "pt-141"
+    ],
+    "tier": "forum",
+    "why": "MT-II relative with some pigmenting effect",
+    "seenAt": null
+   },
+   {
+    "name": "Dersimelagon (MT-7117)",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "mt-7117"
+    ],
+    "tier": "evidence",
+    "why": "Oral MC1R agonist in trials for photosensitivity disorders",
+    "seenAt": null
+   },
+   {
+    "name": "Canthaxanthin",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "tan pills",
+     "canthaxanthin"
+    ],
+    "tier": "dangerous",
+    "why": "Tanning pill carotenoid linked to retinal crystals",
+    "seenAt": null
+   },
+   {
+    "name": "Beta-carotene",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "beta carotene"
+    ],
+    "tier": "mainstream",
+    "why": "Carotenoid supplement for golden skin tint",
+    "seenAt": null
+   },
+   {
+    "name": "Lycopene",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "lycopene"
+    ],
+    "tier": "mainstream",
+    "why": "Tomato carotenoid for orange-red tone and photoprotection",
+    "seenAt": null
+   },
+   {
+    "name": "Astaxanthin",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "astaxanthin"
+    ],
+    "tier": "forum",
+    "why": "Algae carotenoid claimed to boost tan and UV resilience",
+    "seenAt": null
+   },
+   {
+    "name": "Polypodium leucotomos",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "polypodium"
+    ],
+    "tier": "mainstream",
+    "why": "Fern extract oral photoprotectant used while tanning",
+    "seenAt": null
+   },
+   {
+    "name": "Melatonin (topical)",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "melatonin tan"
+    ],
+    "tier": "fringe",
+    "why": "Claimed tanning/photoprotection by topical melatonin",
+    "seenAt": null
+   },
+   {
+    "name": "Carrot maxxing",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "carrot tan",
+     "carotenemia"
+    ],
+    "tier": "forum",
+    "why": "Eating lots of carrots/carotenoids to tint skin golden",
+    "seenAt": null
+   },
+   {
+    "name": "Sunbathing / tanmaxxing (tanmaxxing)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "tanmaxxing",
+     "sunbathing"
+    ],
+    "tier": "forum",
+    "why": "Deliberate sun exposure protocols to build a tan",
+    "seenAt": null
+   },
+   {
+    "name": "Tyrosine supplements for tanning",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "tyrosine tan"
+    ],
+    "tier": "fringe",
+    "why": "L-tyrosine pills/lotion claimed to feed melanin production",
+    "seenAt": null
+   },
+   {
+    "name": "Baby oil tanning",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "baby oil tan"
+    ],
+    "tier": "dangerous",
+    "why": "Slathering oil to fry skin faster in the sun",
+    "seenAt": null
+   },
+   {
+    "name": "Psoralen (PUVA, bergamot oil tanning)",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "psoralen",
+     "bergamot oil tan"
+    ],
+    "tier": "dangerous",
+    "why": "Photosensitizer that boosts tanning; phototoxic and carcinogenic",
+    "seenAt": null
+   },
+   {
+    "name": "Nasal tanning spray",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "melanotan nasal spray"
+    ],
+    "tier": "dangerous",
+    "why": "Unregulated melanotan nasal sprays sold online",
+    "seenAt": null
+   },
+   {
+    "name": "Sunbed + MT2 stack",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "mt2 sunbed stack"
+    ],
+    "tier": "dangerous",
+    "why": "Combining melanotan with tanning bed sessions to speed pigment",
+    "seenAt": null
+   },
+   {
+    "name": "Primer tan / base tan",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "base tan"
+    ],
+    "tier": "dangerous",
+    "why": "Pre-tanning intended to protect against later burns; dermatology bodies state a base tan gives little protection",
+    "seenAt": null
+   },
+   {
+    "name": "Red light tan myth",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "red light tanning"
+    ],
+    "tier": "fringe",
+    "why": "Claim that red-light devices prime skin to tan",
+    "seenAt": null
+   },
+   {
+    "name": "Tan lines meta",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "tan lines"
+    ],
+    "tier": "forum",
+    "why": "Deliberately managing or hiding tan lines for look",
+    "seenAt": null
+   },
+   {
+    "name": "Vitamin D / UVB for tan",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "vitamin d tan"
+    ],
+    "tier": "mainstream",
+    "why": "Vitamin D sun exposure tangled with tan goals",
+    "seenAt": null
+   },
+   {
+    "name": "Tanning oil",
+    "kind": "gear",
+    "category": "tanGear",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "tanning oil"
+    ],
+    "tier": "mainstream",
+    "why": "SPF-lite oils applied for sun tanning",
+    "seenAt": null
+   },
+   {
+    "name": "Tanning drops (Isle of Paradise style)",
+    "kind": "gear",
+    "category": "tanGear",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "tanning drops brand"
+    ],
+    "tier": "mainstream",
+    "why": "Brand drops mixed into skincare",
+    "seenAt": null
+   },
+   {
+    "name": "Tanning wipes / towelettes",
+    "kind": "gear",
+    "category": "tanGear",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "tan wipes"
+    ],
+    "tier": "mainstream",
+    "why": "Pre-soaked DHA wipes for quick application",
+    "seenAt": null
+   },
+   {
+    "name": "Body makeup / leg makeup",
+    "kind": "gear",
+    "category": "tanGear",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "body makeup"
+    ],
+    "tier": "mainstream",
+    "why": "Cosmetic camouflage to even or darken tone for photos",
+    "seenAt": null
+   },
+   {
+    "name": "Tan-extender moisturizer",
+    "kind": "gear",
+    "category": "tanGear",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "tan extender"
+    ],
+    "tier": "mainstream",
+    "why": "Hydrators that prolong self-tan fade",
+    "seenAt": null
+   },
+   {
+    "name": "Exfoliating before tanning",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "tan prep"
+    ],
+    "tier": "mainstream",
+    "why": "Scrubbing to prevent patchy self-tan",
+    "seenAt": null
+   },
+   {
+    "name": "Instagram tan filter / photo editing",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "tan filter"
+    ],
+    "tier": "forum",
+    "why": "Editing or lighting to appear tanner in photos",
+    "seenAt": null
+   },
+   {
+    "name": "Sunless tan injections ('tan jabs')",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "tan jab"
+    ],
+    "tier": "dangerous",
+    "why": "Peptide tanning injections sold on forums and gyms",
+    "seenAt": null
+   },
+   {
+    "name": "Tanning gummies / supplements",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "tanning supplement"
+    ],
+    "tier": "fringe",
+    "why": "Marketed tan-boost chews with carotenoids/copper peptide",
+    "seenAt": null
+   },
+   {
+    "name": "Indoor tanning salon sessions",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "tanning salon"
+    ],
+    "tier": "dangerous",
+    "why": "Commercial sunbed salons",
+    "seenAt": null
+   },
+   {
+    "name": "Heliotherapy sunlamp",
+    "kind": "gear",
+    "category": "tanGear",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "sunlamp"
+    ],
+    "tier": "dangerous",
+    "why": "Old-style UV sunlamps used at home",
+    "seenAt": null
+   }
+  ]
+ },
+ {
+  "issue": "even-skin",
+  "summary": "Dark spots, melasma and post-inflammatory marks are addressed with tyrosinase inhibitors, retinoids, acids, sunscreen, lasers and peels; some skin-lightening practices have documented toxicity risks.",
+  "approaches": [
+   {
+    "name": "Hydroquinone",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "hydroquinone"
+    ],
+    "tier": "evidence",
+    "why": "Gold-standard depigmenting agent",
+    "seenAt": null
+   },
+   {
+    "name": "Tranexamic acid",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "tranexamic acid"
+    ],
+    "tier": "evidence",
+    "why": "Oral/topical for melasma",
+    "seenAt": null
+   },
+   {
+    "name": "Azelaic acid",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "azelaic acid"
+    ],
+    "tier": "evidence",
+    "why": "Treats PIH and acne marks",
+    "seenAt": null
+   },
+   {
+    "name": "Niacinamide",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "niacinamide"
+    ],
+    "tier": "evidence",
+    "why": "Reduces pigment transfer, evens tone",
+    "seenAt": null
+   },
+   {
+    "name": "Vitamin C (topical) (L-ascorbic acid)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "vitamin c serum"
+    ],
+    "tier": "mainstream",
+    "why": "Antioxidant brightening serum",
+    "seenAt": null
+   },
+   {
+    "name": "Alpha-arbutin",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "alpha arbutin"
+    ],
+    "tier": "mainstream",
+    "why": "Tyrosinase inhibitor for dark spots",
+    "seenAt": null
+   },
+   {
+    "name": "Kojic acid",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "kojic acid"
+    ],
+    "tier": "mainstream",
+    "why": "Fungal-derived lightening agent",
+    "seenAt": null
+   },
+   {
+    "name": "Cysteamine",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "cysteamine cream"
+    ],
+    "tier": "mainstream",
+    "why": "Topical depigmenter for melasma",
+    "seenAt": null
+   },
+   {
+    "name": "Tretinoin (Retin-A)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "tretinoin"
+    ],
+    "tier": "evidence",
+    "why": "Speeds turnover, fades PIH",
+    "seenAt": null
+   },
+   {
+    "name": "Retinol",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "retinol"
+    ],
+    "tier": "mainstream",
+    "why": "OTC retinoid for tone",
+    "seenAt": null
+   },
+   {
+    "name": "Adapalene (Differin)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "adapalene"
+    ],
+    "tier": "evidence",
+    "why": "Retinoid shown to fade acne marks",
+    "seenAt": null
+   },
+   {
+    "name": "Tazarotene",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "tazarotene"
+    ],
+    "tier": "mainstream",
+    "why": "Strong retinoid for pigment",
+    "seenAt": null
+   },
+   {
+    "name": "Glycolic acid",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "glycolic acid"
+    ],
+    "tier": "mainstream",
+    "why": "AHA exfoliant and peel",
+    "seenAt": null
+   },
+   {
+    "name": "Lactic acid",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "lactic acid"
+    ],
+    "tier": "mainstream",
+    "why": "Gentle AHA for tone",
+    "seenAt": null
+   },
+   {
+    "name": "Salicylic acid",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "salicylic acid"
+    ],
+    "tier": "mainstream",
+    "why": "BHA exfoliant for post-acne marks",
+    "seenAt": null
+   },
+   {
+    "name": "Mandelic acid",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "mandelic acid"
+    ],
+    "tier": "mainstream",
+    "why": "Gentle AHA suited to darker skin",
+    "seenAt": null
+   },
+   {
+    "name": "Glutathione",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "glutathione skin"
+    ],
+    "tier": "fringe",
+    "why": "Oral whitening claims",
+    "seenAt": null
+   },
+   {
+    "name": "Glutathione (IV)",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "glutathione iv"
+    ],
+    "tier": "dangerous",
+    "why": "Whitening drips, regulatory warnings",
+    "seenAt": null
+   },
+   {
+    "name": "Skin bleaching injections (glutathione IV) (whitening drips)",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "whitening drip"
+    ],
+    "tier": "dangerous",
+    "why": "Injectable whitening cocktails",
+    "seenAt": null
+   },
+   {
+    "name": "Skin whitening/bleaching",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "skin bleaching"
+    ],
+    "tier": "dangerous",
+    "why": "Broad skin-lightening culture",
+    "seenAt": null
+   },
+   {
+    "name": "Mercury skin lightening",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "mercury cream"
+    ],
+    "tier": "dangerous",
+    "why": "Toxic mercury creams",
+    "seenAt": null
+   },
+   {
+    "name": "Clobetasol propionate",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "clobetasol"
+    ],
+    "tier": "dangerous",
+    "why": "Steroid in illicit lightening creams",
+    "seenAt": null
+   },
+   {
+    "name": "Decapeptide-12",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "decapeptide-12"
+    ],
+    "tier": "mainstream",
+    "why": "Cosmetic tyrosinase-inhibiting peptide",
+    "seenAt": null
+   },
+   {
+    "name": "Rice water",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "rice water"
+    ],
+    "tier": "fringe",
+    "why": "Traditional rinse or toner used for brightening",
+    "seenAt": null
+   },
+   {
+    "name": "Turmeric (topical)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "turmeric mask"
+    ],
+    "tier": "fringe",
+    "why": "Traditional mask used to fade spots",
+    "seenAt": null
+   },
+   {
+    "name": "Powdered pearl",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "pearl powder"
+    ],
+    "tier": "fringe",
+    "why": "Traditional brightening powder",
+    "seenAt": null
+   },
+   {
+    "name": "Polypodium leucotomos",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "polypodium"
+    ],
+    "tier": "mainstream",
+    "why": "Oral photoprotection for melasma",
+    "seenAt": null
+   },
+   {
+    "name": "Broad-spectrum sunscreen",
+    "kind": "gear",
+    "category": "tanGear",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "sunscreen melasma"
+    ],
+    "tier": "evidence",
+    "why": "Used to reduce burn risk and keep skin tone even while tanning",
+    "seenAt": null
+   },
+   {
+    "name": "Tinted facial SPF",
+    "kind": "gear",
+    "category": "tanGear",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "iron oxide spf"
+    ],
+    "tier": "evidence",
+    "why": "Iron-oxide tinted SPF blocks visible light pigment",
+    "seenAt": null
+   },
+   {
+    "name": "Fractional laser resurfacing",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "fraxel"
+    ],
+    "tier": "mainstream",
+    "why": "Laser for scars and pigment",
+    "seenAt": null
+   },
+   {
+    "name": "Professional microneedling / RF microneedling",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "microneedling pigment"
+    ],
+    "tier": "mainstream",
+    "why": "In-clinic microneedling with brightening serums",
+    "seenAt": null
+   },
+   {
+    "name": "At-home fractional laser",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "home fraxel"
+    ],
+    "tier": "mainstream",
+    "why": "Consumer fractional device",
+    "seenAt": null
+   },
+   {
+    "name": "Intense pulsed light (IPL photofacial)",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "ipl photofacial",
+     "bbl photofacial"
+    ],
+    "tier": "mainstream",
+    "why": "Light therapy for sun spots",
+    "seenAt": null
+   },
+   {
+    "name": "Q-switched / picosecond laser for pigment",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "pico laser",
+     "q-switch"
+    ],
+    "tier": "mainstream",
+    "why": "Targets lentigines and melasma",
+    "seenAt": null
+   },
+   {
+    "name": "Chemical peels (TCA, Jessner)",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "tca peel",
+     "jessner peel"
+    ],
+    "tier": "mainstream",
+    "why": "Medium-depth peels for pigment",
+    "seenAt": null
+   },
+   {
+    "name": "Hydroquinone-tretinoin-steroid triple cream (Kligman formula)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "triple cream",
+     "tri-luma"
+    ],
+    "tier": "evidence",
+    "why": "Classic melasma prescription",
+    "seenAt": null
+   },
+   {
+    "name": "Thiamidol",
+    "kind": "compound",
+    "category": "skin",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "thiamidol"
+    ],
+    "tier": "mainstream",
+    "why": "Newer tyrosinase inhibitor in OTC serums",
+    "seenAt": null
+   },
+   {
+    "name": "Licorice root extract (glabridin)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "licorice extract"
+    ],
+    "tier": "mainstream",
+    "why": "Botanical lightener",
+    "seenAt": null
+   },
+   {
+    "name": "Vitamin E / ferulic acid",
+    "kind": "compound",
+    "category": "skin",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "ferulic acid"
+    ],
+    "tier": "mainstream",
+    "why": "Antioxidant brightening combos",
+    "seenAt": null
+   },
+   {
+    "name": "Lemon juice on skin",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "lemon juice dark spots"
+    ],
+    "tier": "dangerous",
+    "why": "Home spot treatment associated with phytophotodermatitis",
+    "seenAt": null
+   },
+   {
+    "name": "Hydroxypinacolone retinoate (HPR / Granactive Retinoid)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "hpr"
+    ],
+    "tier": "mainstream",
+    "why": "Gentler retinoid ester for tone",
+    "seenAt": null
+   },
+   {
+    "name": "Retinaldehyde (Retinal) (Retinal)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "retinal"
+    ],
+    "tier": "mainstream",
+    "why": "Retinoid used for tone and texture",
+    "seenAt": null
+   },
+   {
+    "name": "Cica / Centella asiatica",
+    "kind": "compound",
+    "category": "skin",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "cica"
+    ],
+    "tier": "mainstream",
+    "why": "Soothing for PIH recovery",
+    "seenAt": null
+   },
+   {
+    "name": "Pimple patches",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "pimple patches"
+    ],
+    "tier": "mainstream",
+    "why": "Prevent picking and PIH",
+    "seenAt": null
+   },
+   {
+    "name": "Oral cysteine / NAC for pigment",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "nac skin"
+    ],
+    "tier": "fringe",
+    "why": "Antioxidant precursor claimed to lighten",
+    "seenAt": null
+   },
+   {
+    "name": "Dermaplaning razor",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "dermaplaning"
+    ],
+    "tier": "mainstream",
+    "why": "Exfoliation to brighten",
+    "seenAt": null
+   },
+   {
+    "name": "Korean exfoliating mitt",
+    "kind": "gear",
+    "category": "bodyCare",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "italy towel"
+    ],
+    "tier": "mainstream",
+    "why": "Body tone exfoliation",
+    "seenAt": null
+   },
+   {
+    "name": "Sun avoidance / hat protocol",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "sun avoidance"
+    ],
+    "tier": "evidence",
+    "why": "Strict sun avoidance to prevent melasma",
+    "seenAt": null
+   },
+   {
+    "name": "Sunscreen + vitamin C layering routine",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "brightening routine"
+    ],
+    "tier": "mainstream",
+    "why": "Standard brightening routine",
+    "seenAt": null
+   },
+   {
+    "name": "Skincare 'skin cycling'",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "skin cycling"
+    ],
+    "tier": "forum",
+    "why": "TikTok retinoid/exfoliant rotation routine",
+    "seenAt": null
+   }
+  ]
+ },
+ {
+  "issue": "glow",
+  "summary": "Skin clarity, redness and radiance are addressed through barrier repair, exfoliation, vascular lasers, diet and lifestyle approaches, and a range of traditional and home remedies.",
+  "approaches": [
+   {
+    "name": "Niacinamide",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "niacinamide"
+    ],
+    "tier": "evidence",
+    "why": "Reduces redness, evens and clears",
+    "seenAt": null
+   },
+   {
+    "name": "Azelaic acid",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "azelaic acid rosacea"
+    ],
+    "tier": "evidence",
+    "why": "Rosacea and redness treatment",
+    "seenAt": null
+   },
+   {
+    "name": "Vitamin C (topical) (L-ascorbic acid)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "vitamin c"
+    ],
+    "tier": "mainstream",
+    "why": "Radiance serum",
+    "seenAt": null
+   },
+   {
+    "name": "Hyaluronic acid",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "hyaluronic acid"
+    ],
+    "tier": "mainstream",
+    "why": "Hydration plumping",
+    "seenAt": null
+   },
+   {
+    "name": "Ceramides",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "ceramides"
+    ],
+    "tier": "evidence",
+    "why": "Barrier repair for dull reactive skin",
+    "seenAt": null
+   },
+   {
+    "name": "Squalane",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "squalane"
+    ],
+    "tier": "mainstream",
+    "why": "Lightweight emollient for glow",
+    "seenAt": null
+   },
+   {
+    "name": "Glycolic acid",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "glycolic"
+    ],
+    "tier": "mainstream",
+    "why": "Exfoliation for radiance",
+    "seenAt": null
+   },
+   {
+    "name": "Lactic acid",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "lactic"
+    ],
+    "tier": "mainstream",
+    "why": "Gentle exfoliation",
+    "seenAt": null
+   },
+   {
+    "name": "Retinol",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "retinol"
+    ],
+    "tier": "mainstream",
+    "why": "Cell turnover for clarity",
+    "seenAt": null
+   },
+   {
+    "name": "Tretinoin (Retin-A)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "tretinoin"
+    ],
+    "tier": "evidence",
+    "why": "Clearer, brighter skin",
+    "seenAt": null
+   },
+   {
+    "name": "Snail mucin (snail secretion filtrate)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "snail mucin"
+    ],
+    "tier": "forum",
+    "why": "K-beauty glass-skin staple",
+    "seenAt": null
+   },
+   {
+    "name": "Centella asiatica (cica, madecassoside)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "cica"
+    ],
+    "tier": "mainstream",
+    "why": "Calming redness",
+    "seenAt": null
+   },
+   {
+    "name": "Bakuchiol",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "bakuchiol"
+    ],
+    "tier": "mainstream",
+    "why": "Retinol alternative",
+    "seenAt": null
+   },
+   {
+    "name": "Omega-3 (EPA/DHA)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "fish oil"
+    ],
+    "tier": "mainstream",
+    "why": "Inflammation and skin health",
+    "seenAt": null
+   },
+   {
+    "name": "Zinc",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "zinc"
+    ],
+    "tier": "mainstream",
+    "why": "Skin clarity support",
+    "seenAt": null
+   },
+   {
+    "name": "Collagen peptides",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "collagen"
+    ],
+    "tier": "mainstream",
+    "why": "Glow-through-collagen supplement",
+    "seenAt": null
+   },
+   {
+    "name": "Curcumin",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "curcumin"
+    ],
+    "tier": "mainstream",
+    "why": "Anti-inflammatory",
+    "seenAt": null
+   },
+   {
+    "name": "Astaxanthin",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "astaxanthin"
+    ],
+    "tier": "forum",
+    "why": "Oral antioxidant for glow",
+    "seenAt": null
+   },
+   {
+    "name": "Beta-carotene",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "carotenoid glow"
+    ],
+    "tier": "mainstream",
+    "why": "Carotenoid glow/warmth",
+    "seenAt": null
+   },
+   {
+    "name": "Lycopene",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "lycopene"
+    ],
+    "tier": "mainstream",
+    "why": "Tomato carotenoid for skin color",
+    "seenAt": null
+   },
+   {
+    "name": "Glutathione",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "glutathione"
+    ],
+    "tier": "fringe",
+    "why": "Brightening pills",
+    "seenAt": null
+   },
+   {
+    "name": "Isotretinoin (Accutane)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "accutane"
+    ],
+    "tier": "evidence",
+    "why": "Clears severe acne, reduces oil",
+    "seenAt": null
+   },
+   {
+    "name": "Rice water",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "rice water"
+    ],
+    "tier": "fringe",
+    "why": "Traditional rinse or toner used for brightening",
+    "seenAt": null
+   },
+   {
+    "name": "Powdered pearl",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "pearl powder"
+    ],
+    "tier": "fringe",
+    "why": "Traditional glow powder",
+    "seenAt": null
+   },
+   {
+    "name": "Sonic cleansing brush",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "clarisonic"
+    ],
+    "tier": "mainstream",
+    "why": "Deep cleansing for glow",
+    "seenAt": null
+   },
+   {
+    "name": "Red light LED mask",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "led mask"
+    ],
+    "tier": "mainstream",
+    "why": "Anti-inflammatory, glow",
+    "seenAt": null
+   },
+   {
+    "name": "Microcurrent device",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "microcurrent"
+    ],
+    "tier": "mainstream",
+    "why": "Instant glow/tone",
+    "seenAt": null
+   },
+   {
+    "name": "Dermaplaning razor",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "dermaplaning"
+    ],
+    "tier": "mainstream",
+    "why": "Instant smoothness",
+    "seenAt": null
+   },
+   {
+    "name": "High-frequency wand",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "high frequency wand"
+    ],
+    "tier": "mainstream",
+    "why": "Antibacterial clarity claim",
+    "seenAt": null
+   },
+   {
+    "name": "Gua sha stone",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "gua sha"
+    ],
+    "tier": "forum",
+    "why": "Lymph drainage glow ritual",
+    "seenAt": null
+   },
+   {
+    "name": "Ice roller",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "ice roller"
+    ],
+    "tier": "forum",
+    "why": "Depuff and redness",
+    "seenAt": null
+   },
+   {
+    "name": "Silk pillowcase",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "silk pillowcase"
+    ],
+    "tier": "forum",
+    "why": "Reduces sleep creases",
+    "seenAt": null
+   },
+   {
+    "name": "Humidifier",
+    "kind": "gear",
+    "category": "sleep",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "humidifier"
+    ],
+    "tier": "mainstream",
+    "why": "Hydration while sleeping",
+    "seenAt": null
+   },
+   {
+    "name": "Concealer (for men)",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "concealer"
+    ],
+    "tier": "mainstream",
+    "why": "Redness cover",
+    "seenAt": null
+   },
+   {
+    "name": "Tinted facial SPF",
+    "kind": "gear",
+    "category": "tanGear",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "tinted spf"
+    ],
+    "tier": "mainstream",
+    "why": "Evens redness, protects",
+    "seenAt": null
+   },
+   {
+    "name": "Pulsed dye laser / V-beam for redness",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "pulsed dye laser",
+     "vbeam"
+    ],
+    "tier": "evidence",
+    "why": "Vascular laser for redness and broken capillaries",
+    "seenAt": null
+   },
+   {
+    "name": "Intense pulsed light (IPL photofacial)",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "ipl"
+    ],
+    "tier": "mainstream",
+    "why": "Treats redness and tone",
+    "seenAt": null
+   },
+   {
+    "name": "Hydrafacial",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "hydrafacial"
+    ],
+    "tier": "mainstream",
+    "why": "In-clinic cleansing facial",
+    "seenAt": null
+   },
+   {
+    "name": "Chemical peels (TCA, Jessner)",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "chemical peel"
+    ],
+    "tier": "mainstream",
+    "why": "Resurfacing for brightness",
+    "seenAt": null
+   },
+   {
+    "name": "Metronidazole / ivermectin (rosacea creams)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "metronidazole",
+     "ivermectin cream"
+    ],
+    "tier": "evidence",
+    "why": "Rx for rosacea redness",
+    "seenAt": null
+   },
+   {
+    "name": "Brimonidine gel (Mirvaso)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "mirvaso"
+    ],
+    "tier": "evidence",
+    "why": "Temporary redness reducer",
+    "seenAt": null
+   },
+   {
+    "name": "Oxymetazoline cream (Rhofade)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "rhofade"
+    ],
+    "tier": "evidence",
+    "why": "Vasoconstrictor for redness",
+    "seenAt": null
+   },
+   {
+    "name": "Glass skin routine",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "glass skin"
+    ],
+    "tier": "forum",
+    "why": "K-beauty multi-step glow routine",
+    "seenAt": null
+   },
+   {
+    "name": "Skin cycling",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "skin cycling"
+    ],
+    "tier": "forum",
+    "why": "Rotating actives for clarity",
+    "seenAt": null
+   },
+   {
+    "name": "Alcohol/sugar/dairy face avoidance",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "no sugar skin"
+    ],
+    "tier": "forum",
+    "why": "Cutting triggers for clearer skin",
+    "seenAt": null
+   },
+   {
+    "name": "Low-glycemic / anti-inflammatory diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "low glycemic acne"
+    ],
+    "tier": "mainstream",
+    "why": "Diet for acne and redness",
+    "seenAt": null
+   },
+   {
+    "name": "Carnivore diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "carnivore skin"
+    ],
+    "tier": "fringe",
+    "why": "Meat-only diet that proponents say helps skin or reduces bloat",
+    "seenAt": null
+   },
+   {
+    "name": "Sleepmaxxing",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "sleepmaxxing"
+    ],
+    "tier": "forum",
+    "why": "Sleep optimization for skin",
+    "seenAt": null
+   },
+   {
+    "name": "Cold showers",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "cold shower skin"
+    ],
+    "tier": "forum",
+    "why": "Claimed glow and redness effects",
+    "seenAt": null
+   },
+   {
+    "name": "Cold plunge / face ice dunk",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "ice bath face"
+    ],
+    "tier": "forum",
+    "why": "Ice-water face dunk for tone and depuff",
+    "seenAt": null
+   },
+   {
+    "name": "Facial steaming / sauna",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "face steaming"
+    ],
+    "tier": "fringe",
+    "why": "Heat sessions for glow",
+    "seenAt": null
+   },
+   {
+    "name": "Hydration / water chugging",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "water for skin"
+    ],
+    "tier": "fringe",
+    "why": "Drinking gallons of water for glowy skin",
+    "seenAt": null
+   },
+   {
+    "name": "Sunscreen daily habit",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "daily spf"
+    ],
+    "tier": "evidence",
+    "why": "Prevents dullness and redness",
+    "seenAt": null
+   },
+   {
+    "name": "Urine therapy (urotherapy)",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "urine therapy"
+    ],
+    "tier": "fringe",
+    "why": "Urine on face claims",
+    "seenAt": null
+   },
+   {
+    "name": "Oil cleansing method",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "oil cleansing"
+    ],
+    "tier": "forum",
+    "why": "Oil-based cleanser routine",
+    "seenAt": null
+   },
+   {
+    "name": "Face tanning for 'glow'",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "tan glow"
+    ],
+    "tier": "mainstream",
+    "why": "Bronzer/tan to hide redness and look healthy",
+    "seenAt": null
+   }
+  ]
+ },
+ {
+  "issue": "body-skin",
+  "summary": "Stretch marks, keratosis pilaris, back and chest acne, body texture and scars are each addressed with different treatments, from keratolytic lotions to lasers; forum users also discuss traditional and unregulated products.",
+  "approaches": [
+   {
+    "name": "Tretinoin (Retin-A)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "tretinoin stretch marks"
+    ],
+    "tier": "evidence",
+    "why": "Improves new stretch marks and KP",
+    "seenAt": null
+   },
+   {
+    "name": "Urea",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "urea cream"
+    ],
+    "tier": "evidence",
+    "why": "Keratolytic for KP",
+    "seenAt": null
+   },
+   {
+    "name": "Lactic acid",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "lactic acid kp"
+    ],
+    "tier": "evidence",
+    "why": "AHA lotion for KP",
+    "seenAt": null
+   },
+   {
+    "name": "Salicylic acid",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "salicylic body wash"
+    ],
+    "tier": "evidence",
+    "why": "Body wash for back acne and KP",
+    "seenAt": null
+   },
+   {
+    "name": "Glycolic acid",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "glycolic body"
+    ],
+    "tier": "mainstream",
+    "why": "Body exfoliant",
+    "seenAt": null
+   },
+   {
+    "name": "Benzoyl peroxide",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "benzoyl peroxide body"
+    ],
+    "tier": "evidence",
+    "why": "Back acne wash",
+    "seenAt": null
+   },
+   {
+    "name": "Adapalene (Differin)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "adapalene back"
+    ],
+    "tier": "evidence",
+    "why": "Body/back acne retinoid",
+    "seenAt": null
+   },
+   {
+    "name": "Tazarotene",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "tazarotene"
+    ],
+    "tier": "mainstream",
+    "why": "Stretch marks/KP retinoid",
+    "seenAt": null
+   },
+   {
+    "name": "Trifarotene (Aklief) (Aklief)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "aklief"
+    ],
+    "tier": "evidence",
+    "why": "Approved for truncal acne",
+    "seenAt": null
+   },
+   {
+    "name": "Clascoterone (Winlevi)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "winlevi"
+    ],
+    "tier": "mainstream",
+    "why": "Topical antiandrogen acne",
+    "seenAt": null
+   },
+   {
+    "name": "Isotretinoin (Accutane)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "accutane"
+    ],
+    "tier": "evidence",
+    "why": "Back/chest acne scarring prevention",
+    "seenAt": null
+   },
+   {
+    "name": "Spironolactone",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "spironolactone"
+    ],
+    "tier": "mainstream",
+    "why": "Hormonal acne",
+    "seenAt": null
+   },
+   {
+    "name": "Ceramides",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "ceramides"
+    ],
+    "tier": "mainstream",
+    "why": "Barrier moisturisers for KP/eczema",
+    "seenAt": null
+   },
+   {
+    "name": "Hyaluronic acid",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "hyaluronic body"
+    ],
+    "tier": "mainstream",
+    "why": "Hydration for stretch marks claims",
+    "seenAt": null
+   },
+   {
+    "name": "Centella asiatica (cica, madecassoside)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "centella stretch marks"
+    ],
+    "tier": "mainstream",
+    "why": "Stretch mark creams",
+    "seenAt": null
+   },
+   {
+    "name": "Tea tree oil",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "tea tree"
+    ],
+    "tier": "mainstream",
+    "why": "Natural back acne remedy",
+    "seenAt": null
+   },
+   {
+    "name": "Sulfur (topical)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "sulfur wash"
+    ],
+    "tier": "mainstream",
+    "why": "Body acne wash",
+    "seenAt": null
+   },
+   {
+    "name": "Collagen peptides",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "collagen"
+    ],
+    "tier": "mainstream",
+    "why": "Supplement for stretch mark claims",
+    "seenAt": null
+   },
+   {
+    "name": "Vitamin D",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "vitamin d skin"
+    ],
+    "tier": "mainstream",
+    "why": "Low D linked to skin issues",
+    "seenAt": null
+   },
+   {
+    "name": "Zinc",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "zinc acne"
+    ],
+    "tier": "mainstream",
+    "why": "Acne supplement",
+    "seenAt": null
+   },
+   {
+    "name": "Silicone scar sheets",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "silicone sheets"
+    ],
+    "tier": "evidence",
+    "why": "Scar flattening sheets",
+    "seenAt": null
+   },
+   {
+    "name": "Silicone scar tape",
+    "kind": "gear",
+    "category": "bodyCare",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "scar tape"
+    ],
+    "tier": "evidence",
+    "why": "Tape for body scars",
+    "seenAt": null
+   },
+   {
+    "name": "Korean exfoliating mitt",
+    "kind": "gear",
+    "category": "bodyCare",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "italy towel",
+     "exfoliating mitt"
+    ],
+    "tier": "mainstream",
+    "why": "Physical exfoliation for texture",
+    "seenAt": null
+   },
+   {
+    "name": "Dry brush",
+    "kind": "gear",
+    "category": "bodyCare",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "dry brushing"
+    ],
+    "tier": "fringe",
+    "why": "Dry brushing for texture and cellulite claims",
+    "seenAt": null
+   },
+   {
+    "name": "Derma roller (home)",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "derma roller"
+    ],
+    "tier": "mainstream",
+    "why": "Stretch mark microneedling",
+    "seenAt": null
+   },
+   {
+    "name": "Microneedling pen (electric) (Dermapen, derma pen)",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "dermapen"
+    ],
+    "tier": "mainstream",
+    "why": "Body scar/stretch mark",
+    "seenAt": null
+   },
+   {
+    "name": "At-home fractional laser",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "home fractional laser"
+    ],
+    "tier": "mainstream",
+    "why": "Texture/scars",
+    "seenAt": null
+   },
+   {
+    "name": "Fractional laser resurfacing",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "fractional co2"
+    ],
+    "tier": "evidence",
+    "why": "Scar/stretch mark laser",
+    "seenAt": null
+   },
+   {
+    "name": "Pulsed dye laser for stretch marks",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "pdl striae"
+    ],
+    "tier": "evidence",
+    "why": "Targets red early striae",
+    "seenAt": null
+   },
+   {
+    "name": "Excimer laser for stretch marks",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "excimer striae"
+    ],
+    "tier": "mainstream",
+    "why": "Repigments white striae",
+    "seenAt": null
+   },
+   {
+    "name": "Professional microneedling / RF microneedling",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "rf microneedling"
+    ],
+    "tier": "mainstream",
+    "why": "Clinic treatments for marks",
+    "seenAt": null
+   },
+   {
+    "name": "Chemical peels (TCA, Jessner)",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "body peel"
+    ],
+    "tier": "mainstream",
+    "why": "Back acne/texture peels",
+    "seenAt": null
+   },
+   {
+    "name": "PRP for stretch marks",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "prp striae"
+    ],
+    "tier": "mainstream",
+    "why": "Platelet-rich plasma injections",
+    "seenAt": null
+   },
+   {
+    "name": "PDRN / Polynucleotides",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "pdrn"
+    ],
+    "tier": "mainstream",
+    "why": "Regenerative injectables",
+    "seenAt": null
+   },
+   {
+    "name": "Poly-L-lactic acid (Sculptra) (PLLA / Sculptra)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "sculptra body"
+    ],
+    "tier": "mainstream",
+    "why": "Collagen stimulator body use",
+    "seenAt": null
+   },
+   {
+    "name": "Subcision / TCA CROSS",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "subcision"
+    ],
+    "tier": "mainstream",
+    "why": "Scar procedures",
+    "seenAt": null
+   },
+   {
+    "name": "Cortisone injections for keloids",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "keloid injection"
+    ],
+    "tier": "evidence",
+    "why": "Intralesional steroid for keloids",
+    "seenAt": null
+   },
+   {
+    "name": "Keloid surgery + radiation",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "keloid surgery"
+    ],
+    "tier": "evidence",
+    "why": "Excision with adjuvant radiation",
+    "seenAt": null
+   },
+   {
+    "name": "Mederma / onion extract scar gel",
+    "kind": "compound",
+    "category": "skin",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "mederma"
+    ],
+    "tier": "mainstream",
+    "why": "OTC scar gel",
+    "seenAt": null
+   },
+   {
+    "name": "Bio-Oil",
+    "kind": "compound",
+    "category": "skin",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "bio oil"
+    ],
+    "tier": "fringe",
+    "why": "Popular stretch mark oil with weak evidence",
+    "seenAt": null
+   },
+   {
+    "name": "Cocoa butter / shea / coconut oil",
+    "kind": "compound",
+    "category": "skin",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "cocoa butter stretch marks"
+    ],
+    "tier": "fringe",
+    "why": "Traditional oils used for stretch mark prevention",
+    "seenAt": null
+   },
+   {
+    "name": "Rosehip oil",
+    "kind": "compound",
+    "category": "skin",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "rosehip oil"
+    ],
+    "tier": "fringe",
+    "why": "Natural scar/stretch oil",
+    "seenAt": null
+   },
+   {
+    "name": "Folliculitis shower hygiene (post-gym shower)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "bacne routine"
+    ],
+    "tier": "mainstream",
+    "why": "Showering after sweat to prevent bacne",
+    "seenAt": null
+   },
+   {
+    "name": "Loose cotton clothing / washing sheets",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "bacne clothing"
+    ],
+    "tier": "mainstream",
+    "why": "Reduce friction/occlusion acne",
+    "seenAt": null
+   },
+   {
+    "name": "Chlorhexidine / antibacterial body wash",
+    "kind": "compound",
+    "category": "skin",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "chlorhexidine wash"
+    ],
+    "tier": "mainstream",
+    "why": "Used for body folliculitis",
+    "seenAt": null
+   },
+   {
+    "name": "Antibiotics (doxycycline) for back acne",
+    "kind": "compound",
+    "category": "skin",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "doxycycline"
+    ],
+    "tier": "mainstream",
+    "why": "Oral antibiotic",
+    "seenAt": null
+   },
+   {
+    "name": "Photodynamic therapy",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "pdt"
+    ],
+    "tier": "mainstream",
+    "why": "ALA-PDT for acne",
+    "seenAt": null
+   },
+   {
+    "name": "Sunless tan / body makeup to hide marks",
+    "kind": "gear",
+    "category": "tanGear",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "body makeup"
+    ],
+    "tier": "mainstream",
+    "why": "Camouflage for stretch marks and scars",
+    "seenAt": null
+   },
+   {
+    "name": "Dermablend / tattoo cover",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "body concealer"
+    ],
+    "tier": "mainstream",
+    "why": "Camouflage products",
+    "seenAt": null
+   },
+   {
+    "name": "Scar tattooing / micropigmentation",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "scar tattoo"
+    ],
+    "tier": "mainstream",
+    "why": "Pigment into scars",
+    "seenAt": null
+   },
+   {
+    "name": "Stretch mark surgery / tummy tuck",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "abdominoplasty"
+    ],
+    "tier": "mainstream",
+    "why": "Excise stretched skin",
+    "seenAt": null
+   },
+   {
+    "name": "Slow bulking / slow growth to avoid stretch marks",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "avoid stretch marks"
+    ],
+    "tier": "forum",
+    "why": "Gradual weight or muscle gain intended to reduce striae from rapid growth",
+    "seenAt": null
+   },
+   {
+    "name": "Cellulite lasers / Cellfina",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "cellfina"
+    ],
+    "tier": "mainstream",
+    "why": "Cellulite devices",
+    "seenAt": null
+   },
+   {
+    "name": "Body shaving / hair removal for skin texture",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "body shaving"
+    ],
+    "tier": "forum",
+    "why": "Remove hair to smooth look",
+    "seenAt": null
+   },
+   {
+    "name": "Brazilian tan / spray tan to even skin",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "body tan"
+    ],
+    "tier": "mainstream",
+    "why": "Cosmetic evening",
+    "seenAt": null
+   },
+   {
+    "name": "Estrogen/hormone skin theories (DHT acne)",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "steroid acne"
+    ],
+    "tier": "forum",
+    "why": "Forum acne from DHT/steroids talk",
+    "seenAt": null
+   },
+   {
+    "name": "Steroid back acne management",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "bacne steroids"
+    ],
+    "tier": "forum",
+    "why": "Handling cycle-induced bacne",
+    "seenAt": null
+   }
+  ]
+ },
+ {
+  "issue": "puffiness",
+  "summary": "Facial puffiness is attributed by users to sodium, alcohol, sleep, allergies, inflammation and body fat; approaches include cold therapy, lymph drainage, diet changes, diuretics and water-cutting, which is associated with health risks.",
+  "approaches": [
+   {
+    "name": "Caffeine (topical)",
+    "kind": "compound",
+    "category": "depuff",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "caffeine eye cream"
+    ],
+    "tier": "mainstream",
+    "why": "Vasoconstricting eye/face serums",
+    "seenAt": null
+   },
+   {
+    "name": "Hesperidin",
+    "kind": "compound",
+    "category": "depuff",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "hesperidin"
+    ],
+    "tier": "fringe",
+    "why": "Flavonoid for circulation/edema",
+    "seenAt": null
+   },
+   {
+    "name": "Dandelion extract",
+    "kind": "compound",
+    "category": "depuff",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "dandelion"
+    ],
+    "tier": "fringe",
+    "why": "Natural diuretic",
+    "seenAt": null
+   },
+   {
+    "name": "Potassium",
+    "kind": "compound",
+    "category": "depuff",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "potassium"
+    ],
+    "tier": "mainstream",
+    "why": "Offsets sodium bloat",
+    "seenAt": null
+   },
+   {
+    "name": "Magnesium",
+    "kind": "compound",
+    "category": "depuff",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "magnesium"
+    ],
+    "tier": "mainstream",
+    "why": "Water retention support",
+    "seenAt": null
+   },
+   {
+    "name": "Furosemide (Lasix)",
+    "kind": "compound",
+    "category": "depuff",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "lasix"
+    ],
+    "tier": "dangerous",
+    "why": "Prescription diuretic abused for dryness",
+    "seenAt": null
+   },
+   {
+    "name": "Spironolactone",
+    "kind": "compound",
+    "category": "depuff",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "spironolactone"
+    ],
+    "tier": "mainstream",
+    "why": "Anti-androgen diuretic",
+    "seenAt": null
+   },
+   {
+    "name": "Omega-3 (EPA/DHA)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "fish oil"
+    ],
+    "tier": "mainstream",
+    "why": "Anti-inflammatory",
+    "seenAt": null
+   },
+   {
+    "name": "Bromelain",
+    "kind": "compound",
+    "category": "depuff",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "bromelain"
+    ],
+    "tier": "mainstream",
+    "why": "Pineapple enzyme for swelling",
+    "seenAt": null
+   },
+   {
+    "name": "Curcumin",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "curcumin"
+    ],
+    "tier": "mainstream",
+    "why": "Anti-inflammatory",
+    "seenAt": null
+   },
+   {
+    "name": "Quercetin",
+    "kind": "compound",
+    "category": "longevity",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "quercetin"
+    ],
+    "tier": "fringe",
+    "why": "Antihistamine flavonoid for allergy puff",
+    "seenAt": null
+   },
+   {
+    "name": "Semaglutide (Ozempic / Wegovy)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "semaglutide"
+    ],
+    "tier": "mainstream",
+    "why": "Weight loss slims face",
+    "seenAt": null
+   },
+   {
+    "name": "Tirzepatide (Mounjaro / Zepbound)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "tirzepatide"
+    ],
+    "tier": "mainstream",
+    "why": "Weight loss slims face",
+    "seenAt": null
+   },
+   {
+    "name": "Weight-loss jabs (GLP-1) for face leaning (Ozempic face)",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "ozempic face"
+    ],
+    "tier": "forum",
+    "why": "Face leaning via GLP-1",
+    "seenAt": null
+   },
+   {
+    "name": "Antihistamines / allergy treatment",
+    "kind": "compound",
+    "category": "depuff",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "antihistamine puffy face"
+    ],
+    "tier": "mainstream",
+    "why": "Reduce allergic facial swelling",
+    "seenAt": null
+   },
+   {
+    "name": "Creatine water retention concerns",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "creatine bloat"
+    ],
+    "tier": "mainstream",
+    "why": "Concern about bloat",
+    "seenAt": null
+   },
+   {
+    "name": "Ice roller",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "ice roller"
+    ],
+    "tier": "forum",
+    "why": "Cold depuffing",
+    "seenAt": null
+   },
+   {
+    "name": "Gua sha stone",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "gua sha"
+    ],
+    "tier": "forum",
+    "why": "Lymph massage",
+    "seenAt": null
+   },
+   {
+    "name": "Under-eye cooling mask",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "eye patches"
+    ],
+    "tier": "mainstream",
+    "why": "Cooling eye patches",
+    "seenAt": null
+   },
+   {
+    "name": "Cooling eye mask",
+    "kind": "gear",
+    "category": "sleep",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "gel eye mask"
+    ],
+    "tier": "mainstream",
+    "why": "Reusable gel masks",
+    "seenAt": null
+   },
+   {
+    "name": "Eye massage device (Foreo Iris)",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "eye massager"
+    ],
+    "tier": "mainstream",
+    "why": "Vibrating eye depuff",
+    "seenAt": null
+   },
+   {
+    "name": "Microcurrent device",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "microcurrent"
+    ],
+    "tier": "mainstream",
+    "why": "Claimed lymph/tone",
+    "seenAt": null
+   },
+   {
+    "name": "Multi-head facial tool",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "facial massager"
+    ],
+    "tier": "mainstream",
+    "why": "Facial massage multi-tools",
+    "seenAt": null
+   },
+   {
+    "name": "Face slimming strap",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "slimming strap"
+    ],
+    "tier": "fringe",
+    "why": "V-line straps",
+    "seenAt": null
+   },
+   {
+    "name": "Facial exerciser",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "facial exerciser"
+    ],
+    "tier": "fringe",
+    "why": "Resistance exerciser",
+    "seenAt": null
+   },
+   {
+    "name": "Humidifier",
+    "kind": "gear",
+    "category": "sleep",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "humidifier"
+    ],
+    "tier": "mainstream",
+    "why": "Sleep environment",
+    "seenAt": null
+   },
+   {
+    "name": "Cervical pillow",
+    "kind": "gear",
+    "category": "posture",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "cervical pillow"
+    ],
+    "tier": "mainstream",
+    "why": "Neck/sleep alignment",
+    "seenAt": null
+   },
+   {
+    "name": "Elevated head sleeping / wedge pillow",
+    "kind": "gear",
+    "category": "sleep",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "wedge pillow"
+    ],
+    "tier": "mainstream",
+    "why": "Raising head to reduce morning fluid pooling",
+    "seenAt": null
+   },
+   {
+    "name": "Facial lifting tape",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "face tape"
+    ],
+    "tier": "fringe",
+    "why": "Tape for instant lift",
+    "seenAt": null
+   },
+   {
+    "name": "Lymphatic drainage massage",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "lymphatic drainage"
+    ],
+    "tier": "mainstream",
+    "why": "Manual lymph drainage",
+    "seenAt": null
+   },
+   {
+    "name": "Face yoga / face exercises",
+    "kind": "meta",
+    "category": "bonehacks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "face yoga"
+    ],
+    "tier": "fringe",
+    "why": "Exercises to reduce puffiness",
+    "seenAt": null
+   },
+   {
+    "name": "Cold plunge / face ice dunk",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "ice face"
+    ],
+    "tier": "forum",
+    "why": "Ice bowl face dunk",
+    "seenAt": null
+   },
+   {
+    "name": "Cold showers",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "cold showers"
+    ],
+    "tier": "forum",
+    "why": "Cold exposure",
+    "seenAt": null
+   },
+   {
+    "name": "Alcohol/sugar/dairy face avoidance",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "no dairy face"
+    ],
+    "tier": "forum",
+    "why": "Dietary elimination for bloat",
+    "seenAt": null
+   },
+   {
+    "name": "Low-sodium diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "low sodium face"
+    ],
+    "tier": "mainstream",
+    "why": "Cut salt to reduce water retention",
+    "seenAt": null
+   },
+   {
+    "name": "Seed oil avoidance",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "seed oils"
+    ],
+    "tier": "fringe",
+    "why": "Seed oil elimination for inflammation",
+    "seenAt": null
+   },
+   {
+    "name": "Carnivore diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "carnivore"
+    ],
+    "tier": "fringe",
+    "why": "Meat-only diet that proponents say helps skin or reduces bloat",
+    "seenAt": null
+   },
+   {
+    "name": "Gluten-free diet for bloat",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "gluten face"
+    ],
+    "tier": "fringe",
+    "why": "Gluten elimination for face puff",
+    "seenAt": null
+   },
+   {
+    "name": "Fasting for face fat (intermittent fasting)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "fasting"
+    ],
+    "tier": "mainstream",
+    "why": "Fasting slims face",
+    "seenAt": null
+   },
+   {
+    "name": "Extreme dieting / low body fat",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "low body fat face"
+    ],
+    "tier": "mainstream",
+    "why": "Leanness for sharp face",
+    "seenAt": null
+   },
+   {
+    "name": "Water cutting / dehydration",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "water cut"
+    ],
+    "tier": "dangerous",
+    "why": "Bodybuilder water cut for dry look",
+    "seenAt": null
+   },
+   {
+    "name": "Sleepmaxxing",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "sleepmaxxing"
+    ],
+    "tier": "forum",
+    "why": "Sleep for less puffiness",
+    "seenAt": null
+   },
+   {
+    "name": "Sleeping position for face symmetry (sleep posture)",
+    "kind": "meta",
+    "category": "bonehacks",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "sleep on back"
+    ],
+    "tier": "forum",
+    "why": "Sleeping on back for no face puff",
+    "seenAt": null
+   },
+   {
+    "name": "Cortisol face / stress face claims (cortisol spikes)",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "cortisol face"
+    ],
+    "tier": "forum",
+    "why": "Moon face from stress theory",
+    "seenAt": null
+   },
+   {
+    "name": "Nasal breathing meta",
+    "kind": "meta",
+    "category": "bonehacks",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "nasal breathing"
+    ],
+    "tier": "forum",
+    "why": "Nasal breathing for face",
+    "seenAt": null
+   },
+   {
+    "name": "Mouth tape",
+    "kind": "gear",
+    "category": "teeth",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "mouth tape"
+    ],
+    "tier": "forum",
+    "why": "Tape for nose breathing/sleep",
+    "seenAt": null
+   },
+   {
+    "name": "Nasal dilator / strips",
+    "kind": "gear",
+    "category": "sleep",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "nasal strips"
+    ],
+    "tier": "mainstream",
+    "why": "Airflow at night",
+    "seenAt": null
+   },
+   {
+    "name": "Hydration / water chugging",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "drink water bloat"
+    ],
+    "tier": "mainstream",
+    "why": "Drinking water to flush sodium",
+    "seenAt": null
+   },
+   {
+    "name": "Cardio / sweating",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "cardio puffy face"
+    ],
+    "tier": "mainstream",
+    "why": "Exercise to shed fluid",
+    "seenAt": null
+   },
+   {
+    "name": "Sauna / steam",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "sauna bloat"
+    ],
+    "tier": "mainstream",
+    "why": "Sweat sessions",
+    "seenAt": null
+   },
+   {
+    "name": "Coffee / green tea ritual",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "coffee depuff"
+    ],
+    "tier": "fringe",
+    "why": "Caffeine drinks for depuff",
+    "seenAt": null
+   },
+   {
+    "name": "Salt-water / sodium bicarbonate claims",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "salt face"
+    ],
+    "tier": "fringe",
+    "why": "Home remedies claimed to reduce puffiness",
+    "seenAt": null
+   },
+   {
+    "name": "Buccal fat removal (buccal fat pad removal, bichectomy)",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "buccal fat removal"
+    ],
+    "tier": "mainstream",
+    "why": "Surgical cheek slimming",
+    "seenAt": null
+   },
+   {
+    "name": "Liposuction / chin lipo (submental lipo)",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "chin lipo"
+    ],
+    "tier": "mainstream",
+    "why": "Removes lower-face fat",
+    "seenAt": null
+   },
+   {
+    "name": "Deoxycholic acid (Kybella) (Kybella / Belkyra)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "kybella"
+    ],
+    "tier": "mainstream",
+    "why": "Fat-dissolving injection",
+    "seenAt": null
+   },
+   {
+    "name": "Botulinum toxin A (Botox)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "botox face slim"
+    ],
+    "tier": "mainstream",
+    "why": "Masseter botox slimming",
+    "seenAt": null
+   },
+   {
+    "name": "Masseter Botox (jaw slimming botox)",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "masseter botox"
+    ],
+    "tier": "mainstream",
+    "why": "Jaw slimming",
+    "seenAt": null
+   },
+   {
+    "name": "Thyroid/hypothyroid evaluation",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "hypothyroid face"
+    ],
+    "tier": "mainstream",
+    "why": "Medical causes of face puff",
+    "seenAt": null
+   },
+   {
+    "name": "Alcohol cutting (quit drinking)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "quit alcohol face"
+    ],
+    "tier": "evidence",
+    "why": "Quitting alcohol de-puffs",
+    "seenAt": null
+   },
+   {
+    "name": "Facial icing with green tea ice cubes",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "tea ice cube"
+    ],
+    "tier": "fringe",
+    "why": "Tea ice cubes TikTok",
+    "seenAt": null
+   }
+  ]
+ }
+]

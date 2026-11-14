@@ -8,14 +8,14 @@ import { join } from 'node:path';
 import { root, slug, loadData } from './entries.mjs';
 
 export const META_CATEGORIES = {
-  hardmaxx: { name: 'Hardmaxx procedures', blurb: 'Surgery, injectables and implants — real medicine, real risks, real price tags' },
-  bonehacks: { name: 'Bone & structure hacks', blurb: 'DIY attempts to change the skeleton. Adult bone mostly says no.' },
-  height: { name: 'Height hacks', blurb: 'From insoles to limb lengthening — what moves the tape and what doesn’t' },
-  protocols: { name: 'Drug & hormone protocols', blurb: 'Forum stacks and cycles. Documented, not recommended.' },
-  lifestyle: { name: 'Diet & lifestyle protocols', blurb: 'Eating, sleeping, abstaining and freezing your way to a better face' },
-  fringe: { name: 'Fringe & pseudoscience', blurb: 'Clearly BS — but people do it, so here’s what it is and why it doesn’t work' },
-  frameworks: { name: 'Forum frameworks', blurb: 'The ratings, ratios and theories the forums use to judge faces' },
-  stylemetas: { name: 'Style & grooming metas', blurb: 'Hair, clothes and presentation trends that actually move the needle' },
+  hardmaxx: { name: 'Hardmaxx procedures', blurb: 'Surgery, injectables and implants' },
+  bonehacks: { name: 'Bone & structure practices', blurb: 'Non-surgical practices aimed at changing facial or skeletal structure' },
+  height: { name: 'Height', blurb: 'Methods people use to increase or appear to increase height' },
+  protocols: { name: 'Drug & hormone protocols', blurb: 'Stacks, cycles and regimens discussed in forums' },
+  lifestyle: { name: 'Diet & lifestyle protocols', blurb: 'Diets, abstinence, cold, sun and other lifestyle practices' },
+  fringe: { name: 'Alternative & fringe practices', blurb: 'Unconventional practices with little or no published research' },
+  frameworks: { name: 'Forum frameworks', blurb: 'Rating systems, ratios, terminology and theories used in the community' },
+  stylemetas: { name: 'Style & grooming metas', blurb: 'Presentation trends: hair, clothing, grooming and photos' },
 };
 const EV = ['strong', 'moderate', 'limited', 'unproven'];
 const RISK = ['low', 'moderate', 'high', 'extreme'];

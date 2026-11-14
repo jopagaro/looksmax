@@ -1,0 +1,5556 @@
+[
+ {
+  "issue": "height",
+  "summary": "Adult height is largely determined by genetics and is fixed after growth plates close; options include pediatric endocrine care, surgical limb lengthening, shoe lifts, styling and clothing choices, and a range of supplements and programs marketed for height.",
+  "approaches": [
+   {
+    "name": "Limb lengthening surgery (LL) (leg lengthening)",
+    "kind": "meta",
+    "category": "height",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "limb lengthening surgery (ll)"
+    ],
+    "tier": "mainstream",
+    "why": "Surgical leg lengthening via osteotomy and gradual distraction",
+    "seenAt": null
+   },
+   {
+    "name": "Cosmetic leg lengthening (Precice nails) (magnetic intramedullary nail)",
+    "kind": "meta",
+    "category": "height",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "cosmetic leg lengthening (precice nails)"
+    ],
+    "tier": "mainstream",
+    "why": "Magnetic intramedullary nail lengthening for cosmetic height",
+    "seenAt": null
+   },
+   {
+    "name": "Bone-extending procedures",
+    "kind": "meta",
+    "category": "height",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "bone-extending procedures"
+    ],
+    "tier": "mainstream",
+    "why": "Umbrella term for surgical stature lengthening",
+    "seenAt": null
+   },
+   {
+    "name": "Ilizarov external fixator lengthening",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "Taylor Spatial Frame",
+    "terms": [
+     "ilizarov",
+     "external fixator"
+    ],
+    "tier": "dangerous",
+    "why": "Older ring-fixator distraction method; reported complication rates are higher than with nails",
+    "seenAt": null
+   },
+   {
+    "name": "Lengthening over nail (LON)",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "lengthening over nail"
+    ],
+    "tier": "mainstream",
+    "why": "Hybrid fixator plus nail technique to shorten fixator time",
+    "seenAt": null
+   },
+   {
+    "name": "Femur vs tibia lengthening",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "tibia lengthening",
+     "femur lengthening"
+    ],
+    "tier": "forum",
+    "why": "Choosing bone segment: femur faster, tibia riskier for nerves",
+    "seenAt": null
+   },
+   {
+    "name": "Leg lengthening medical tourism",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "leg lengthening abroad"
+    ],
+    "tier": "forum",
+    "why": "Travelling abroad (e.g. Turkey, Asia, Poland) for cheaper LL",
+    "seenAt": null
+   },
+   {
+    "name": "Medical tourism (Turkey/Istanbul/Korea) (Turkey trip)",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "medical tourism (turkey/istanbul/korea)"
+    ],
+    "tier": "forum",
+    "why": "Cheap overseas surgery packages used for LL and others",
+    "seenAt": null
+   },
+   {
+    "name": "HGH for height",
+    "kind": "meta",
+    "category": "height",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "hgh for height"
+    ],
+    "tier": "mainstream",
+    "why": "Growth hormone injections, approved for pediatric deficiency and idiopathic short stature",
+    "seenAt": null
+   },
+   {
+    "name": "Somatropin (HGH)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "somatropin (hgh)"
+    ],
+    "tier": "mainstream",
+    "why": "Recombinant growth hormone; used off-label by some adults for height",
+    "seenAt": null
+   },
+   {
+    "name": "MK-677 (Ibutamoren)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "mk-677 (ibutamoren)"
+    ],
+    "tier": "forum",
+    "why": "Oral GH secretagogue taken for IGF-1 and growth claims",
+    "seenAt": null
+   },
+   {
+    "name": "CJC-1295",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "cjc-1295"
+    ],
+    "tier": "forum",
+    "why": "GHRH analog used in teen height stacks",
+    "seenAt": null
+   },
+   {
+    "name": "Ipamorelin",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "ipamorelin"
+    ],
+    "tier": "forum",
+    "why": "GH secretagogue peptide paired with CJC-1295",
+    "seenAt": null
+   },
+   {
+    "name": "Sermorelin",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "sermorelin"
+    ],
+    "tier": "mainstream",
+    "why": "GHRH analog used clinically for GH deficiency",
+    "seenAt": null
+   },
+   {
+    "name": "IGF-1 LR3",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "igf-1 lr3"
+    ],
+    "tier": "dangerous",
+    "why": "IGF-1 analog; claimed to affect growth plates, with reported safety concerns",
+    "seenAt": null
+   },
+   {
+    "name": "Growth-plate peptides (IGF-1/MK-677 for height)",
+    "kind": "meta",
+    "category": "height",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "growth-plate peptides (igf-1/mk-677 for height)"
+    ],
+    "tier": "forum",
+    "why": "Peptide stacks aimed at open growth plates",
+    "seenAt": null
+   },
+   {
+    "name": "Letrozole / aromatase inhibitors for height (AI for height)",
+    "kind": "meta",
+    "category": "height",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "letrozole / aromatase inhibitors for height"
+    ],
+    "tier": "forum",
+    "why": "Delay growth plate closure by lowering estrogen in teen boys",
+    "seenAt": null
+   },
+   {
+    "name": "Anastrozole (Arimidex)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "anastrozole (arimidex)"
+    ],
+    "tier": "forum",
+    "why": "Aromatase inhibitor used off-label to extend growth in short boys",
+    "seenAt": null
+   },
+   {
+    "name": "Letrozole (Femara)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "letrozole (femara)"
+    ],
+    "tier": "forum",
+    "why": "Aromatase inhibitor used off-label for height in boys",
+    "seenAt": null
+   },
+   {
+    "name": "Oxandrolone (Anavar)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "oxandrolone (anavar)"
+    ],
+    "tier": "mainstream",
+    "why": "Mild anabolic given historically to girls with Turner syndrome for height",
+    "seenAt": null
+   },
+   {
+    "name": "Leuprolide (GnRH agonist puberty blocker)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "leuprolide",
+     "puberty blocker for height"
+    ],
+    "tier": "mainstream",
+    "why": "Delays puberty and growth plate fusion in some short-stature protocols",
+    "seenAt": null
+   },
+   {
+    "name": "Bone age X-ray (growth plate check)",
+    "kind": "meta",
+    "category": "height",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "bone age",
+     "growth plate x-ray"
+    ],
+    "tier": "mainstream",
+    "why": "Hand/wrist X-ray to see if growth plates are still open",
+    "seenAt": null
+   },
+   {
+    "name": "Hanging / stretching for height (decompression, hanging)",
+    "kind": "meta",
+    "category": "height",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "hanging / stretching for height"
+    ],
+    "tier": "forum",
+    "why": "Dead hangs and stretching to decompress the spine",
+    "seenAt": null
+   },
+   {
+    "name": "Height-stretching devices / inversion",
+    "kind": "meta",
+    "category": "height",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "height-stretching devices / inversion"
+    ],
+    "tier": "forum",
+    "why": "Inversion tables and traction devices claimed to add height",
+    "seenAt": null
+   },
+   {
+    "name": "Squatmaxxing / spinal loading",
+    "kind": "meta",
+    "category": "height",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "squatmaxxing / spinal loading"
+    ],
+    "tier": "fringe",
+    "why": "Heavy squat claims for taller or stronger spine",
+    "seenAt": null
+   },
+   {
+    "name": "Posture for height (rib/pelvic tilt)",
+    "kind": "meta",
+    "category": "height",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "posture for height"
+    ],
+    "tier": "mainstream",
+    "why": "Fixing slouch and pelvic tilt to regain up to 1-2 cm",
+    "seenAt": null
+   },
+   {
+    "name": "Morning height measurement trick",
+    "kind": "meta",
+    "category": "height",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "morning height",
+     "stadiometer"
+    ],
+    "tier": "forum",
+    "why": "Measuring right after waking to read the tallest value",
+    "seenAt": null
+   },
+   {
+    "name": "Raw milk for height (Raw Milk + Healthy = Holy Height)",
+    "kind": "meta",
+    "category": "height",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "raw milk for height"
+    ],
+    "tier": "fringe",
+    "why": "Raw milk and dairy as a growth meta",
+    "seenAt": null
+   },
+   {
+    "name": "Height-increasing supplements",
+    "kind": "meta",
+    "category": "height",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "height-increasing supplements"
+    ],
+    "tier": "fringe",
+    "why": "Calcium/D/herbal pills sold as height growth formulas",
+    "seenAt": null
+   },
+   {
+    "name": "Grow Taller 4 Idiots",
+    "kind": "meta",
+    "category": "height",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "grow taller 4 idiots",
+     "height growth program"
+    ],
+    "tier": "fringe",
+    "why": "Paid program of stretches and diet claiming adult height gain",
+    "seenAt": null
+   },
+   {
+    "name": "Vitamin D",
+    "kind": "compound",
+    "category": "bone",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "vitamin d"
+    ],
+    "tier": "evidence",
+    "why": "Corrects deficiency that can impair bone growth",
+    "seenAt": null
+   },
+   {
+    "name": "Calcium",
+    "kind": "compound",
+    "category": "bone",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "calcium"
+    ],
+    "tier": "evidence",
+    "why": "Bone mineralisation support during growth years",
+    "seenAt": null
+   },
+   {
+    "name": "Vitamin K2 (MK-4 / MK-7)",
+    "kind": "compound",
+    "category": "bone",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "vitamin k2 (mk-4 / mk-7)"
+    ],
+    "tier": "forum",
+    "why": "Directs calcium to bone; popular in height stacks",
+    "seenAt": null
+   },
+   {
+    "name": "Zinc",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "zinc"
+    ],
+    "tier": "mainstream",
+    "why": "Zinc deficiency can stunt growth",
+    "seenAt": null
+   },
+   {
+    "name": "Ashwagandha",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "ashwagandha"
+    ],
+    "tier": "fringe",
+    "why": "Ayurvedic herb marketed for height and growth hormone",
+    "seenAt": null
+   },
+   {
+    "name": "Sleepmaxxing",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "sleepmaxxing"
+    ],
+    "tier": "mainstream",
+    "why": "Deep sleep for natural GH pulses during growth years",
+    "seenAt": null
+   },
+   {
+    "name": "Sprint/HIIT for growth hormone",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "hiit growth hormone"
+    ],
+    "tier": "forum",
+    "why": "Intense exercise spikes GH; claimed height aid for teens",
+    "seenAt": null
+   },
+   {
+    "name": "Jumping / basketball / swimming for height",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "swimming for height"
+    ],
+    "tier": "fringe",
+    "why": "Sports said to stimulate growth plates",
+    "seenAt": null
+   },
+   {
+    "name": "Yoga / Surya Namaskar for height",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "yoga for height"
+    ],
+    "tier": "fringe",
+    "why": "Stretch routines marketed for adding height",
+    "seenAt": null
+   },
+   {
+    "name": "Height subliminals",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "height subliminal"
+    ],
+    "tier": "fringe",
+    "why": "Audio subliminals that claim to make you grow",
+    "seenAt": null
+   },
+   {
+    "name": "Protein-heavy growth diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "protein-heavy growth diet"
+    ],
+    "tier": "mainstream",
+    "why": "Adequate protein/calories during puberty for max genetic height",
+    "seenAt": null
+   },
+   {
+    "name": "Shoe lifts / elevator shoes",
+    "kind": "gear",
+    "category": "training",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "shoe lifts / elevator shoes"
+    ],
+    "tier": "forum",
+    "why": "Hidden internal lifts adding 2-4 inches",
+    "seenAt": null
+   },
+   {
+    "name": "Foot orthotic insoles",
+    "kind": "gear",
+    "category": "posture",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "foot orthotic insoles"
+    ],
+    "tier": "mainstream",
+    "why": "Insoles that add small height and correct stance",
+    "seenAt": null
+   },
+   {
+    "name": "Hidden heel lifts / insoles",
+    "kind": "gear",
+    "category": "training",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "heel lifts",
+     "height insoles"
+    ],
+    "tier": "forum",
+    "why": "Removable inserts giving 1-3 cm unnoticed",
+    "seenAt": null
+   },
+   {
+    "name": "Cuban heel / Chelsea boots",
+    "kind": "gear",
+    "category": "style",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "cuban heel boots"
+    ],
+    "tier": "forum",
+    "why": "Built-in heel boots that add 1-2 inches",
+    "seenAt": null
+   },
+   {
+    "name": "Platform sneakers",
+    "kind": "gear",
+    "category": "style",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "platform shoes men"
+    ],
+    "tier": "forum",
+    "why": "Thick-soled shoes for easy extra height",
+    "seenAt": null
+   },
+   {
+    "name": "Hair volume / quiff for height",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "quiff",
+     "hair volume"
+    ],
+    "tier": "forum",
+    "why": "Styling hair upward for added perceived height",
+    "seenAt": null
+   },
+   {
+    "name": "Monochrome and vertical-line outfits",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "monochrome outfit height"
+    ],
+    "tier": "forum",
+    "why": "Same-colour head-to-toe to look taller",
+    "seenAt": null
+   },
+   {
+    "name": "High-rise tailored trousers",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "leg lengthening trousers"
+    ],
+    "tier": "forum",
+    "why": "High rise and hemmed pants lengthening leg line",
+    "seenAt": null
+   },
+   {
+    "name": "Tailoring (any clothes)",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "tailoring (any clothes)"
+    ],
+    "tier": "mainstream",
+    "why": "Proper fit makes short frames look longer",
+    "seenAt": null
+   },
+   {
+    "name": "Lean physique looks taller",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "lean physique looks taller"
+    ],
+    "tier": "forum",
+    "why": "Lower body fat reads as taller",
+    "seenAt": null
+   },
+   {
+    "name": "Manlet / height tiers (manlet)",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "manlet / height tiers"
+    ],
+    "tier": "forum",
+    "why": "Height thresholds used in the dating hierarchy",
+    "seenAt": null
+   },
+   {
+    "name": "Lying about height / dating app height",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "tall lie"
+    ],
+    "tier": "forum",
+    "why": "Overstating height on dating profiles, reported in community discussion",
+    "seenAt": null
+   },
+   {
+    "name": "Heightpill / height blackpill",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "heightpill"
+    ],
+    "tier": "forum",
+    "why": "Belief that height decides dating outcomes",
+    "seenAt": null
+   }
+  ]
+ },
+ {
+  "issue": "fat-loss",
+  "summary": "Reducing body fat is discussed as a major influence on facial and body appearance; approaches include GLP-1 and other prescription drugs, stimulants and DNP, many diets, training, and body-contouring procedures.",
+  "approaches": [
+   {
+    "name": "Semaglutide (Ozempic / Wegovy)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "semaglutide (ozempic / wegovy)"
+    ],
+    "tier": "evidence",
+    "why": "GLP-1 agonist giving ~15% weight loss",
+    "seenAt": null
+   },
+   {
+    "name": "Tirzepatide (Mounjaro / Zepbound)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "tirzepatide (mounjaro / zepbound)"
+    ],
+    "tier": "evidence",
+    "why": "GIP/GLP-1 dual agonist, ~20% loss",
+    "seenAt": null
+   },
+   {
+    "name": "Liraglutide (Saxenda)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "liraglutide (saxenda)"
+    ],
+    "tier": "evidence",
+    "why": "Daily GLP-1 for obesity",
+    "seenAt": null
+   },
+   {
+    "name": "Retatrutide",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "retatrutide"
+    ],
+    "tier": "forum",
+    "why": "Triple agonist peptide; obtained through unregulated channels by some users",
+    "seenAt": null
+   },
+   {
+    "name": "Cagrilintide",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "cagrilintide"
+    ],
+    "tier": "forum",
+    "why": "Amylin analog often stacked with semaglutide",
+    "seenAt": null
+   },
+   {
+    "name": "CagriSema",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "cagrisema"
+    ],
+    "tier": "mainstream",
+    "why": "Cagrilintide + semaglutide combo",
+    "seenAt": null
+   },
+   {
+    "name": "Survodutide",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "survodutide"
+    ],
+    "tier": "mainstream",
+    "why": "Glucagon/GLP-1 agonist in trials",
+    "seenAt": null
+   },
+   {
+    "name": "VK2735",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "vk2735"
+    ],
+    "tier": "forum",
+    "why": "Dual GLP-1/GIP agonist in trials",
+    "seenAt": null
+   },
+   {
+    "name": "Mazdutide",
+    "kind": "compound",
+    "category": "fat",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "mazdutide"
+    ],
+    "tier": "forum",
+    "why": "GLP-1/glucagon dual agonist approved in China",
+    "seenAt": null
+   },
+   {
+    "name": "Orforglipron",
+    "kind": "compound",
+    "category": "fat",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "orforglipron"
+    ],
+    "tier": "mainstream",
+    "why": "Oral non-peptide GLP-1 agonist",
+    "seenAt": null
+   },
+   {
+    "name": "Oral semaglutide (Rybelsus)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "oral semaglutide (rybelsus)"
+    ],
+    "tier": "mainstream",
+    "why": "Pill form of semaglutide",
+    "seenAt": null
+   },
+   {
+    "name": "Exenatide (Byetta)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "exenatide (byetta)"
+    ],
+    "tier": "mainstream",
+    "why": "Older GLP-1 agonist injection",
+    "seenAt": null
+   },
+   {
+    "name": "Setmelanotide",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "setmelanotide"
+    ],
+    "tier": "mainstream",
+    "why": "MC4R agonist for rare genetic obesity",
+    "seenAt": null
+   },
+   {
+    "name": "Tesamorelin",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "tesamorelin"
+    ],
+    "tier": "mainstream",
+    "why": "GHRH analog that cuts visceral fat",
+    "seenAt": null
+   },
+   {
+    "name": "AOD-9604",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "aod-9604"
+    ],
+    "tier": "forum",
+    "why": "GH fragment peptide marketed for fat loss",
+    "seenAt": null
+   },
+   {
+    "name": "HGH Fragment 176-191",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "hgh fragment 176-191"
+    ],
+    "tier": "forum",
+    "why": "GH tail fragment peptide for lipolysis",
+    "seenAt": null
+   },
+   {
+    "name": "5-Amino-1MQ",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "5-amino-1mq"
+    ],
+    "tier": "forum",
+    "why": "NNMT inhibitor sold as fat-loss research chem",
+    "seenAt": null
+   },
+   {
+    "name": "Tesofensine",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "tesofensine"
+    ],
+    "tier": "forum",
+    "why": "Triple reuptake inhibitor appetite suppressant",
+    "seenAt": null
+   },
+   {
+    "name": "Orlistat (Xenical / Alli)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "orlistat (xenical / alli)"
+    ],
+    "tier": "mainstream",
+    "why": "Blocks dietary fat absorption",
+    "seenAt": null
+   },
+   {
+    "name": "Naltrexone/Bupropion (Contrave) (Contrave)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "naltrexone/bupropion (contrave)"
+    ],
+    "tier": "mainstream",
+    "why": "Appetite and craving drug combo",
+    "seenAt": null
+   },
+   {
+    "name": "Phentermine (Adipex)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "phentermine (adipex)"
+    ],
+    "tier": "mainstream",
+    "why": "Prescription stimulant appetite suppressant",
+    "seenAt": null
+   },
+   {
+    "name": "Phentermine/Topiramate (Qsymia) (Qsymia)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "phentermine/topiramate (qsymia)"
+    ],
+    "tier": "mainstream",
+    "why": "Combo appetite drug",
+    "seenAt": null
+   },
+   {
+    "name": "Sibutramine (Meridia)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "sibutramine (meridia)"
+    ],
+    "tier": "dangerous",
+    "why": "Drug withdrawn from the market; regulators have found it in some supplements",
+    "seenAt": null
+   },
+   {
+    "name": "Clenbuterol (Clen)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "clenbuterol (clen)"
+    ],
+    "tier": "dangerous",
+    "why": "Beta-agonist stimulant used for cutting",
+    "seenAt": null
+   },
+   {
+    "name": "2,4-Dinitrophenol (DNP) (DNP)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "2,4-dinitrophenol (dnp)"
+    ],
+    "tier": "dangerous",
+    "why": "Mitochondrial uncoupler; fatal overdoses have been reported",
+    "seenAt": null
+   },
+   {
+    "name": "Ephedrine (ECA stack)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "ephedrine (eca stack)"
+    ],
+    "tier": "mainstream",
+    "why": "Ephedrine, caffeine, aspirin thermogenic stack",
+    "seenAt": null
+   },
+   {
+    "name": "Synephrine (bitter orange)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "synephrine (bitter orange)"
+    ],
+    "tier": "mainstream",
+    "why": "Ephedra substitute in fat burners",
+    "seenAt": null
+   },
+   {
+    "name": "Yohimbine",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "yohimbine"
+    ],
+    "tier": "forum",
+    "why": "Alpha-2 blocker for stubborn fat",
+    "seenAt": null
+   },
+   {
+    "name": "Liothyronine (T3) (Cytomel)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "liothyronine (t3) (cytomel)"
+    ],
+    "tier": "dangerous",
+    "why": "Thyroid hormone used off-label for cutting",
+    "seenAt": null
+   },
+   {
+    "name": "Berberine",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "berberine"
+    ],
+    "tier": "forum",
+    "why": "\"Nature's Ozempic\" supplement",
+    "seenAt": null
+   },
+   {
+    "name": "Metformin",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "metformin"
+    ],
+    "tier": "mainstream",
+    "why": "Diabetes drug used off-label for weight",
+    "seenAt": null
+   },
+   {
+    "name": "L-Carnitine",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "l-carnitine"
+    ],
+    "tier": "mainstream",
+    "why": "Supplement claimed to aid fat oxidation",
+    "seenAt": null
+   },
+   {
+    "name": "EGCG (Green tea catechins)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "egcg (green tea catechins)"
+    ],
+    "tier": "mainstream",
+    "why": "Green tea extract thermogenic",
+    "seenAt": null
+   },
+   {
+    "name": "Capsaicin",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "capsaicin"
+    ],
+    "tier": "mainstream",
+    "why": "Chili compound mild thermogenic",
+    "seenAt": null
+   },
+   {
+    "name": "Caffeine (topical)",
+    "kind": "compound",
+    "category": "depuff",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "caffeine (topical)"
+    ],
+    "tier": "mainstream",
+    "why": "Topical caffeine for cellulite/puffiness",
+    "seenAt": null
+   },
+   {
+    "name": "Cardarine (GW501516) (GW-501516 / Endurobol)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "cardarine (gw501516)"
+    ],
+    "tier": "dangerous",
+    "why": "PPAR-delta agonist for endurance; cancer findings in animal studies",
+    "seenAt": null
+   },
+   {
+    "name": "SR9009 (Stenabolic) (Stenabolic)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "sr9009 (stenabolic)"
+    ],
+    "tier": "forum",
+    "why": "Rev-Erb agonist sold as exercise in a bottle",
+    "seenAt": null
+   },
+   {
+    "name": "Trenbolone (Tren)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "trenbolone (tren)"
+    ],
+    "tier": "dangerous",
+    "why": "Cutting/recomp steroid",
+    "seenAt": null
+   },
+   {
+    "name": "Stanozolol (Winstrol)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "stanozolol (winstrol)"
+    ],
+    "tier": "dangerous",
+    "why": "Cutting steroid",
+    "seenAt": null
+   },
+   {
+    "name": "Oxandrolone (Anavar)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "oxandrolone (anavar)"
+    ],
+    "tier": "forum",
+    "why": "Mild cutting anabolic",
+    "seenAt": null
+   },
+   {
+    "name": "Drostanolone (Masteron)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "drostanolone (masteron)"
+    ],
+    "tier": "dangerous",
+    "why": "Dry-look cutting steroid",
+    "seenAt": null
+   },
+   {
+    "name": "Furosemide (Lasix)",
+    "kind": "compound",
+    "category": "depuff",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "furosemide (lasix)"
+    ],
+    "tier": "dangerous",
+    "why": "Loop diuretic used for water cutting",
+    "seenAt": null
+   },
+   {
+    "name": "Dandelion extract",
+    "kind": "compound",
+    "category": "depuff",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "dandelion extract"
+    ],
+    "tier": "fringe",
+    "why": "Herbal diuretic for dehydration cuts",
+    "seenAt": null
+   },
+   {
+    "name": "Garcinia cambogia",
+    "kind": "compound",
+    "category": "fat",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "garcinia cambogia"
+    ],
+    "tier": "fringe",
+    "why": "HCA supplement; trials report small or inconsistent effects",
+    "seenAt": null
+   },
+   {
+    "name": "Raspberry ketones",
+    "kind": "compound",
+    "category": "fat",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "raspberry ketones"
+    ],
+    "tier": "fringe",
+    "why": "Fat-burner supplement; limited published evidence",
+    "seenAt": null
+   },
+   {
+    "name": "Conjugated linoleic acid (CLA)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "conjugated linoleic acid (cla)"
+    ],
+    "tier": "mainstream",
+    "why": "Supplement associated with modest fat loss in studies",
+    "seenAt": null
+   },
+   {
+    "name": "Forskolin",
+    "kind": "compound",
+    "category": "fat",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "forskolin"
+    ],
+    "tier": "fringe",
+    "why": "Coleus extract fat-burner claim",
+    "seenAt": null
+   },
+   {
+    "name": "Fucoxanthin",
+    "kind": "compound",
+    "category": "fat",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "fucoxanthin"
+    ],
+    "tier": "fringe",
+    "why": "Brown seaweed extract fat burner",
+    "seenAt": null
+   },
+   {
+    "name": "Glucomannan",
+    "kind": "compound",
+    "category": "fat",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "glucomannan"
+    ],
+    "tier": "mainstream",
+    "why": "Fiber supplement for fullness",
+    "seenAt": null
+   },
+   {
+    "name": "Psyllium husk",
+    "kind": "compound",
+    "category": "fat",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "psyllium husk"
+    ],
+    "tier": "mainstream",
+    "why": "Soluble fiber for satiety",
+    "seenAt": null
+   },
+   {
+    "name": "Apple cider vinegar",
+    "kind": "compound",
+    "category": "fat",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "apple cider vinegar"
+    ],
+    "tier": "fringe",
+    "why": "Drinking ACV for fat loss",
+    "seenAt": null
+   },
+   {
+    "name": "Green coffee bean extract",
+    "kind": "compound",
+    "category": "fat",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "green coffee bean extract"
+    ],
+    "tier": "fringe",
+    "why": "Chlorogenic acid supplement",
+    "seenAt": null
+   },
+   {
+    "name": "Chromium picolinate",
+    "kind": "compound",
+    "category": "fat",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "chromium picolinate"
+    ],
+    "tier": "fringe",
+    "why": "Supplement claimed to cut cravings",
+    "seenAt": null
+   },
+   {
+    "name": "Lipo-C / MIC B12 injections",
+    "kind": "compound",
+    "category": "fat",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "mic injections",
+     "lipo-c"
+    ],
+    "tier": "fringe",
+    "why": "Methionine-inositol-choline fat-burn shots",
+    "seenAt": null
+   },
+   {
+    "name": "Whey protein",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "whey protein"
+    ],
+    "tier": "evidence",
+    "why": "High-protein shake for satiety and lean mass",
+    "seenAt": null
+   },
+   {
+    "name": "Creatine monohydrate",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "creatine monohydrate"
+    ],
+    "tier": "evidence",
+    "why": "Retains muscle while cutting",
+    "seenAt": null
+   },
+   {
+    "name": "Detox / slimming teas",
+    "kind": "compound",
+    "category": "fat",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "flat tummy tea"
+    ],
+    "tier": "dangerous",
+    "why": "Senna-based teas that act as laxatives",
+    "seenAt": null
+   },
+   {
+    "name": "Laxatives for weight loss",
+    "kind": "compound",
+    "category": "fat",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "laxatives for weight loss"
+    ],
+    "tier": "dangerous",
+    "why": "Laxative use for short-term water-weight reduction",
+    "seenAt": null
+   },
+   {
+    "name": "Compounded semaglutide / microdosing GLP-1",
+    "kind": "compound",
+    "category": "fat",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "glp-1 microdosing"
+    ],
+    "tier": "forum",
+    "why": "Low-dose gray-market GLP-1 regimens",
+    "seenAt": null
+   },
+   {
+    "name": "Weight-loss jabs (GLP-1) for face leaning (Ozempic face)",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "weight-loss jabs (glp-1) for face leaning"
+    ],
+    "tier": "forum",
+    "why": "Using GLP-1 to lose face fat, \"Ozempic face\"",
+    "seenAt": null
+   },
+   {
+    "name": "Calorie deficit / calorie counting",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "calorie deficit / calorie counting"
+    ],
+    "tier": "evidence",
+    "why": "Tracking intake below maintenance",
+    "seenAt": null
+   },
+   {
+    "name": "High-protein diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "high-protein diet"
+    ],
+    "tier": "evidence",
+    "why": "Protein-forward eating to keep muscle and satiety",
+    "seenAt": null
+   },
+   {
+    "name": "Fasting for face fat (intermittent fasting)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "fasting for face fat (intermittent fasting)"
+    ],
+    "tier": "mainstream",
+    "why": "16:8 and similar eating windows",
+    "seenAt": null
+   },
+   {
+    "name": "OMAD (one meal a day)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "omad"
+    ],
+    "tier": "forum",
+    "why": "Single daily meal fasting protocol",
+    "seenAt": null
+   },
+   {
+    "name": "Extended water fasting",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "water fast"
+    ],
+    "tier": "dangerous",
+    "why": "Multi-day water-only fasts for rapid loss",
+    "seenAt": null
+   },
+   {
+    "name": "5:2 diet / alternate-day fasting",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "5:2 diet / alternate-day fasting"
+    ],
+    "tier": "mainstream",
+    "why": "Two low days per week or every other day",
+    "seenAt": null
+   },
+   {
+    "name": "Keto diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "keto diet"
+    ],
+    "tier": "mainstream",
+    "why": "Very low carb high fat",
+    "seenAt": null
+   },
+   {
+    "name": "Carnivore diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "carnivore diet"
+    ],
+    "tier": "forum",
+    "why": "Meat-only elimination diet",
+    "seenAt": null
+   },
+   {
+    "name": "Raw meat / raw liver diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "raw meat / raw liver diet"
+    ],
+    "tier": "dangerous",
+    "why": "Eating raw animal foods; associated with parasite and bacterial infection risk",
+    "seenAt": null
+   },
+   {
+    "name": "Lion diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "lion diet"
+    ],
+    "tier": "fringe",
+    "why": "Ruminant meat, salt and water only",
+    "seenAt": null
+   },
+   {
+    "name": "Carb cycling / refeeds",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "carb cycling / refeeds"
+    ],
+    "tier": "forum",
+    "why": "Alternating high and low carb days",
+    "seenAt": null
+   },
+   {
+    "name": "Volume eating",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "volume eating"
+    ],
+    "tier": "forum",
+    "why": "Low-energy-density foods for fullness",
+    "seenAt": null
+   },
+   {
+    "name": "Avoiding ultra-processed foods",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "avoiding ultra-processed foods"
+    ],
+    "tier": "mainstream",
+    "why": "Whole-food diet to cut fat",
+    "seenAt": null
+   },
+   {
+    "name": "Seed oil avoidance",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "seed oil avoidance"
+    ],
+    "tier": "fringe",
+    "why": "Cutting seed oils for fat loss and face",
+    "seenAt": null
+   },
+   {
+    "name": "Alcohol/sugar/dairy face avoidance",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "alcohol/sugar/dairy face avoidance"
+    ],
+    "tier": "forum",
+    "why": "Cutting inflammatory foods for lean face",
+    "seenAt": null
+   },
+   {
+    "name": "Extreme dieting / low body fat",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "extreme dieting / low body fat"
+    ],
+    "tier": "dangerous",
+    "why": "Dropping to ~8-10% body fat for face",
+    "seenAt": null
+   },
+   {
+    "name": "Tapeworm diet",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "tapeworm diet"
+    ],
+    "tier": "dangerous",
+    "why": "Swallowing parasites for weight loss",
+    "seenAt": null
+   },
+   {
+    "name": "Cotton ball diet",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "cotton ball diet"
+    ],
+    "tier": "dangerous",
+    "why": "Swallowing cotton balls to feel full",
+    "seenAt": null
+   },
+   {
+    "name": "Master Cleanse / juice cleanse",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "master cleanse / juice cleanse"
+    ],
+    "tier": "fringe",
+    "why": "Lemon-syrup or juice fasts",
+    "seenAt": null
+   },
+   {
+    "name": "Dehydration cuts / water cutting",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "water cut"
+    ],
+    "tier": "dangerous",
+    "why": "Sweat and water depletion to look shredded",
+    "seenAt": null
+   },
+   {
+    "name": "Cold plunge / face ice dunk",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "cold plunge / face ice dunk"
+    ],
+    "tier": "forum",
+    "why": "Cold exposure claimed to raise brown fat and de-puff",
+    "seenAt": null
+   },
+   {
+    "name": "Cold showers",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "cold showers"
+    ],
+    "tier": "forum",
+    "why": "Daily cold showers for metabolism claims",
+    "seenAt": null
+   },
+   {
+    "name": "Zone 2 cardio",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "zone 2 cardio"
+    ],
+    "tier": "mainstream",
+    "why": "Low-intensity steady cardio",
+    "seenAt": null
+   },
+   {
+    "name": "HIIT",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "hiit"
+    ],
+    "tier": "mainstream",
+    "why": "Interval training for fat loss",
+    "seenAt": null
+   },
+   {
+    "name": "10k steps / NEAT",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "10k steps / neat"
+    ],
+    "tier": "mainstream",
+    "why": "Raise daily movement",
+    "seenAt": null
+   },
+   {
+    "name": "12-3-30 incline walking",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "12-3-30"
+    ],
+    "tier": "forum",
+    "why": "Viral treadmill incline walk routine",
+    "seenAt": null
+   },
+   {
+    "name": "Rucking",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "rucking"
+    ],
+    "tier": "forum",
+    "why": "Walking with a loaded pack",
+    "seenAt": null
+   },
+   {
+    "name": "Fasted cardio",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "fasted cardio"
+    ],
+    "tier": "forum",
+    "why": "Morning cardio before eating",
+    "seenAt": null
+   },
+   {
+    "name": "Sauna / sweat suits",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "sauna suit"
+    ],
+    "tier": "fringe",
+    "why": "Sweating for weight loss; weight lost is primarily water",
+    "seenAt": null
+   },
+   {
+    "name": "Spot reduction exercises",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "spot reduction exercises"
+    ],
+    "tier": "fringe",
+    "why": "Targeted exercises claimed to reduce local fat; studies of spot reduction report little effect",
+    "seenAt": null
+   },
+   {
+    "name": "Bulk and cut / body recomposition",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "recomp"
+    ],
+    "tier": "mainstream",
+    "why": "Cycling surplus and deficit phases",
+    "seenAt": null
+   },
+   {
+    "name": "Gymmaxxing",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "gymmaxxing"
+    ],
+    "tier": "forum",
+    "why": "Lifting-centered lifestyle meta",
+    "seenAt": null
+   },
+   {
+    "name": "Macro tracking apps",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "macro tracking"
+    ],
+    "tier": "mainstream",
+    "why": "Logging food in MyFitnessPal-style apps",
+    "seenAt": null
+   },
+   {
+    "name": "DEXA body fat scan",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "dexa scan"
+    ],
+    "tier": "mainstream",
+    "why": "Body composition measurement by dual-energy X-ray absorptiometry (DEXA)",
+    "seenAt": null
+   },
+   {
+    "name": "Gastric sleeve",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "gastric sleeve"
+    ],
+    "tier": "mainstream",
+    "why": "Bariatric surgery removing most of the stomach",
+    "seenAt": null
+   },
+   {
+    "name": "Gastric bypass (Roux-en-Y)",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "gastric bypass"
+    ],
+    "tier": "mainstream",
+    "why": "Bariatric bypass surgery",
+    "seenAt": null
+   },
+   {
+    "name": "Gastric balloon / endoscopic sleeve",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "gastric balloon"
+    ],
+    "tier": "mainstream",
+    "why": "Non-surgical stomach reduction",
+    "seenAt": null
+   },
+   {
+    "name": "Liposuction / chin lipo (submental lipo)",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "liposuction / chin lipo (submental lipo)"
+    ],
+    "tier": "mainstream",
+    "why": "Surgical fat removal",
+    "seenAt": null
+   },
+   {
+    "name": "Buccal fat removal (buccal fat pad removal, bichectomy)",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "buccal fat removal (buccal fat pad removal, bichectomy)"
+    ],
+    "tier": "mainstream",
+    "why": "Removing cheek fat pads",
+    "seenAt": null
+   },
+   {
+    "name": "CoolSculpting (cryolipolysis)",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "cryolipolysis",
+     "coolsculpting"
+    ],
+    "tier": "mainstream",
+    "why": "Freezing fat cells",
+    "seenAt": null
+   },
+   {
+    "name": "Laser lipolysis (SculpSure)",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "sculpsure"
+    ],
+    "tier": "mainstream",
+    "why": "Heating fat with laser",
+    "seenAt": null
+   },
+   {
+    "name": "Ultrasound cavitation / body contouring",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "cavitation"
+    ],
+    "tier": "fringe",
+    "why": "Ultrasound body contouring; clinical evidence is limited",
+    "seenAt": null
+   },
+   {
+    "name": "EMSculpt muscle stimulation",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "emsculpt"
+    ],
+    "tier": "mainstream",
+    "why": "HIFEM contractions to add muscle and burn fat",
+    "seenAt": null
+   },
+   {
+    "name": "Lipodissolve (phosphatidylcholine injections)",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "lipodissolve"
+    ],
+    "tier": "dangerous",
+    "why": "Unapproved injections to dissolve fat",
+    "seenAt": null
+   },
+   {
+    "name": "Deoxycholic acid (Kybella) (Kybella / Belkyra)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "deoxycholic acid (kybella)"
+    ],
+    "tier": "mainstream",
+    "why": "Injection dissolving chin fat",
+    "seenAt": null
+   },
+   {
+    "name": "Smart scale",
+    "kind": "gear",
+    "category": "training",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "smart scale"
+    ],
+    "tier": "mainstream",
+    "why": "Body-composition tracking scale",
+    "seenAt": null
+   },
+   {
+    "name": "Walking pad",
+    "kind": "gear",
+    "category": "training",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "walking pad"
+    ],
+    "tier": "mainstream",
+    "why": "Under-desk treadmill",
+    "seenAt": null
+   },
+   {
+    "name": "Weighted vest",
+    "kind": "gear",
+    "category": "training",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "weighted vest"
+    ],
+    "tier": "mainstream",
+    "why": "Added load for walking",
+    "seenAt": null
+   },
+   {
+    "name": "Jump rope",
+    "kind": "gear",
+    "category": "training",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "jump rope"
+    ],
+    "tier": "mainstream",
+    "why": "Cardio tool",
+    "seenAt": null
+   },
+   {
+    "name": "EMS ab belt",
+    "kind": "gear",
+    "category": "training",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "ems ab belt"
+    ],
+    "tier": "fringe",
+    "why": "Electro-stimulation ab belts",
+    "seenAt": null
+   },
+   {
+    "name": "Waist trainer",
+    "kind": "gear",
+    "category": "training",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "waist trainer"
+    ],
+    "tier": "fringe",
+    "why": "Corsets for \"slimming\"",
+    "seenAt": null
+   },
+   {
+    "name": "Dry brush",
+    "kind": "gear",
+    "category": "bodyCare",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "dry brush"
+    ],
+    "tier": "fringe",
+    "why": "Dry brushing for cellulite/fat",
+    "seenAt": null
+   },
+   {
+    "name": "Body fat calipers",
+    "kind": "gear",
+    "category": "training",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "skinfold calipers"
+    ],
+    "tier": "mainstream",
+    "why": "Skinfold fat measurement",
+    "seenAt": null
+   },
+   {
+    "name": "Body wraps",
+    "kind": "gear",
+    "category": "bodyCare",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "body wrap"
+    ],
+    "tier": "fringe",
+    "why": "Plastic or neoprene wraps for temporary inches",
+    "seenAt": null
+   }
+  ]
+ },
+ {
+  "issue": "muscle-frame",
+  "summary": "Muscle and frame are developed through training and nutrition and, in some forum communities, a range of anabolic drugs; surgery and clothing are also used to change apparent shoulder width and size.",
+  "approaches": [
+   {
+    "name": "Gymmaxxing",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "gymmaxxing"
+    ],
+    "tier": "forum",
+    "why": "Lifting-centered looksmaxxing meta",
+    "seenAt": null
+   },
+   {
+    "name": "Squatmaxxing / spinal loading",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "squatmaxxing / spinal loading"
+    ],
+    "tier": "forum",
+    "why": "Heavy squats and deadlifts",
+    "seenAt": null
+   },
+   {
+    "name": "Anabolic steroid stacks (looksmaxxing) (steroids, cycles)",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "anabolic steroid stacks (looksmaxxing)"
+    ],
+    "tier": "dangerous",
+    "why": "Steroid cycles for muscle and frame",
+    "seenAt": null
+   },
+   {
+    "name": "Pentastack",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "pentastack"
+    ],
+    "tier": "forum",
+    "why": "Five-compound forum stack",
+    "seenAt": null
+   },
+   {
+    "name": "Short steroid cycles myth",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "short steroid cycles myth"
+    ],
+    "tier": "forum",
+    "why": "Belief among some users that brief cycles limit harm",
+    "seenAt": null
+   },
+   {
+    "name": "Peptide stacks (Wolverine stack) (BPC-157 TB-500 stack)",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "peptide stacks (wolverine stack)"
+    ],
+    "tier": "forum",
+    "why": "BPC/TB-500 stacks for recovery",
+    "seenAt": null
+   },
+   {
+    "name": "Testosterone",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "testosterone"
+    ],
+    "tier": "mainstream",
+    "why": "TRT/cycles for mass",
+    "seenAt": null
+   },
+   {
+    "name": "Nandrolone (Deca-Durabolin)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "nandrolone (deca-durabolin)"
+    ],
+    "tier": "dangerous",
+    "why": "Mass steroid",
+    "seenAt": null
+   },
+   {
+    "name": "Methandienone (Dianabol / Metandienone)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "methandienone (dianabol / metandienone)"
+    ],
+    "tier": "dangerous",
+    "why": "Oral bulker",
+    "seenAt": null
+   },
+   {
+    "name": "Oxymetholone (Anadrol)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "oxymetholone (anadrol)"
+    ],
+    "tier": "dangerous",
+    "why": "Strong oral mass drug",
+    "seenAt": null
+   },
+   {
+    "name": "Boldenone (Equipoise / EQ)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "boldenone (equipoise / eq)"
+    ],
+    "tier": "dangerous",
+    "why": "Veterinary-origin steroid",
+    "seenAt": null
+   },
+   {
+    "name": "Trenbolone (Tren)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "trenbolone (tren)"
+    ],
+    "tier": "dangerous",
+    "why": "Potent steroid",
+    "seenAt": null
+   },
+   {
+    "name": "Methasterone (Superdrol)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "methasterone (superdrol)"
+    ],
+    "tier": "dangerous",
+    "why": "Oral steroid associated with liver toxicity",
+    "seenAt": null
+   },
+   {
+    "name": "Trestolone (MENT) (MENT)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "trestolone (ment) (ment)"
+    ],
+    "tier": "dangerous",
+    "why": "Experimental androgen",
+    "seenAt": null
+   },
+   {
+    "name": "Ostarine (Enobosarm / MK-2866)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "ostarine (enobosarm / mk-2866)"
+    ],
+    "tier": "forum",
+    "why": "SARM",
+    "seenAt": null
+   },
+   {
+    "name": "LGD-4033 (Ligandrol)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "lgd-4033 (ligandrol)"
+    ],
+    "tier": "forum",
+    "why": "SARM",
+    "seenAt": null
+   },
+   {
+    "name": "RAD-140 (Testolone)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "rad-140 (testolone)"
+    ],
+    "tier": "forum",
+    "why": "SARM",
+    "seenAt": null
+   },
+   {
+    "name": "YK-11",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "yk-11"
+    ],
+    "tier": "dangerous",
+    "why": "Myostatin-pathway SARM-like compound",
+    "seenAt": null
+   },
+   {
+    "name": "Follistatin-344",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "follistatin-344"
+    ],
+    "tier": "dangerous",
+    "why": "Myostatin inhibitor gene-like peptide",
+    "seenAt": null
+   },
+   {
+    "name": "Bimagrumab",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "bimagrumab"
+    ],
+    "tier": "mainstream",
+    "why": "Activin antibody that builds muscle while cutting fat",
+    "seenAt": null
+   },
+   {
+    "name": "Somatropin (HGH)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "somatropin (hgh)"
+    ],
+    "tier": "dangerous",
+    "why": "GH for bodybuilding",
+    "seenAt": null
+   },
+   {
+    "name": "MK-677 (Ibutamoren)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "mk-677 (ibutamoren)"
+    ],
+    "tier": "forum",
+    "why": "Oral GH booster",
+    "seenAt": null
+   },
+   {
+    "name": "Ipamorelin",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "ipamorelin"
+    ],
+    "tier": "forum",
+    "why": "GH secretagogue",
+    "seenAt": null
+   },
+   {
+    "name": "IGF-1 LR3",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "igf-1 lr3"
+    ],
+    "tier": "dangerous",
+    "why": "Local growth stacks",
+    "seenAt": null
+   },
+   {
+    "name": "Peg-MGF (mechano growth factor)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "peg-mgf",
+     "mgf"
+    ],
+    "tier": "forum",
+    "why": "Pegylated IGF-1Ec peptide",
+    "seenAt": null
+   },
+   {
+    "name": "Insulin (bodybuilding use)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "slin",
+     "insulin bodybuilding"
+    ],
+    "tier": "dangerous",
+    "why": "Slin for nutrient partitioning",
+    "seenAt": null
+   },
+   {
+    "name": "Prohormones (1-Andro, 4-AD)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "prohormones"
+    ],
+    "tier": "dangerous",
+    "why": "Pro-steroids once sold as supplements",
+    "seenAt": null
+   },
+   {
+    "name": "Clenbuterol (Clen)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "clenbuterol (clen)"
+    ],
+    "tier": "dangerous",
+    "why": "Beta-agonist",
+    "seenAt": null
+   },
+   {
+    "name": "Cardarine (GW501516) (GW-501516 / Endurobol)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "cardarine (gw501516)"
+    ],
+    "tier": "dangerous",
+    "why": "PPAR-delta endurance",
+    "seenAt": null
+   },
+   {
+    "name": "Creatine monohydrate",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "creatine monohydrate"
+    ],
+    "tier": "evidence",
+    "why": "Strength supplement",
+    "seenAt": null
+   },
+   {
+    "name": "Whey protein",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "whey protein"
+    ],
+    "tier": "evidence",
+    "why": "Protein powder",
+    "seenAt": null
+   },
+   {
+    "name": "Casein protein",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "casein"
+    ],
+    "tier": "mainstream",
+    "why": "Slow protein before bed",
+    "seenAt": null
+   },
+   {
+    "name": "Leucine",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "leucine"
+    ],
+    "tier": "mainstream",
+    "why": "Anabolic amino acid",
+    "seenAt": null
+   },
+   {
+    "name": "HMB",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "hmb"
+    ],
+    "tier": "mainstream",
+    "why": "Leucine metabolite",
+    "seenAt": null
+   },
+   {
+    "name": "Beta-alanine",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "beta-alanine"
+    ],
+    "tier": "mainstream",
+    "why": "Buffer for reps",
+    "seenAt": null
+   },
+   {
+    "name": "Citrulline malate",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "citrulline malate"
+    ],
+    "tier": "mainstream",
+    "why": "Pump pre-workout",
+    "seenAt": null
+   },
+   {
+    "name": "Betaine",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "betaine"
+    ],
+    "tier": "mainstream",
+    "why": "Trimethylglycine for power",
+    "seenAt": null
+   },
+   {
+    "name": "Turkesterone",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "turkesterone"
+    ],
+    "tier": "fringe",
+    "why": "Ecdysteroid claims",
+    "seenAt": null
+   },
+   {
+    "name": "Ecdysterone",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "ecdysterone"
+    ],
+    "tier": "fringe",
+    "why": "Ecdysteroid claimed anabolic",
+    "seenAt": null
+   },
+   {
+    "name": "Ashwagandha",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "ashwagandha"
+    ],
+    "tier": "mainstream",
+    "why": "Adaptogen strength claims",
+    "seenAt": null
+   },
+   {
+    "name": "Tongkat ali (Eurycoma longifolia)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "tongkat ali (eurycoma longifolia)"
+    ],
+    "tier": "fringe",
+    "why": "Herbal T-booster",
+    "seenAt": null
+   },
+   {
+    "name": "Laxogenin",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "laxogenin"
+    ],
+    "tier": "fringe",
+    "why": "Plant steroid claims",
+    "seenAt": null
+   },
+   {
+    "name": "Tribulus terrestris",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "tribulus"
+    ],
+    "tier": "fringe",
+    "why": "Supplement marketed as a testosterone booster; limited human evidence",
+    "seenAt": null
+   },
+   {
+    "name": "Caffeine pre-workout",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "pre-workout"
+    ],
+    "tier": "mainstream",
+    "why": "Stimulant ergogenic",
+    "seenAt": null
+   },
+   {
+    "name": "Essential amino acids (EAAs)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "eaa"
+    ],
+    "tier": "mainstream",
+    "why": "EAA supplements",
+    "seenAt": null
+   },
+   {
+    "name": "Epicatechin",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "epicatechin"
+    ],
+    "tier": "fringe",
+    "why": "Cocoa flavanol myostatin claim",
+    "seenAt": null
+   },
+   {
+    "name": "Phosphatidic acid",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "phosphatidic acid"
+    ],
+    "tier": "fringe",
+    "why": "mTOR-activating supplement",
+    "seenAt": null
+   },
+   {
+    "name": "Mass gainer powders",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "mass gainer"
+    ],
+    "tier": "mainstream",
+    "why": "High-calorie shakes",
+    "seenAt": null
+   },
+   {
+    "name": "BPC-157",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "bpc-157"
+    ],
+    "tier": "forum",
+    "why": "Healing peptide for training",
+    "seenAt": null
+   },
+   {
+    "name": "TB-500 (Thymosin β4 fragment)",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "tb-500 (thymosin β4 fragment)"
+    ],
+    "tier": "forum",
+    "why": "Healing peptide",
+    "seenAt": null
+   },
+   {
+    "name": "Site enhancement oil (Synthol)",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "synthol",
+     "seo"
+    ],
+    "tier": "dangerous",
+    "why": "Injecting oil into muscle for size; associated with complications",
+    "seenAt": null
+   },
+   {
+    "name": "Progressive overload hypertrophy training",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "progressive overload hypertrophy training"
+    ],
+    "tier": "evidence",
+    "why": "Add load/volume over time",
+    "seenAt": null
+   },
+   {
+    "name": "Push/pull/legs (PPL)",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "ppl split"
+    ],
+    "tier": "mainstream",
+    "why": "Common split",
+    "seenAt": null
+   },
+   {
+    "name": "Bro split",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "bro split"
+    ],
+    "tier": "forum",
+    "why": "One muscle per day",
+    "seenAt": null
+   },
+   {
+    "name": "Beginner strength programs (5x5, SS, GZCLP)",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "5x5",
+     "starting strength"
+    ],
+    "tier": "mainstream",
+    "why": "Linear progression programs",
+    "seenAt": null
+   },
+   {
+    "name": "High intensity training (HIT / Mentzer)",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "hit",
+     "mike mentzer"
+    ],
+    "tier": "forum",
+    "why": "Few sets to failure",
+    "seenAt": null
+   },
+   {
+    "name": "Renaissance Periodization (RP) volume training",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "rp hypertrophy"
+    ],
+    "tier": "forum",
+    "why": "Israetel volume landmarks",
+    "seenAt": null
+   },
+   {
+    "name": "Blood flow restriction (BFR) training",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "bfr"
+    ],
+    "tier": "mainstream",
+    "why": "Cuffs and light loads for hypertrophy",
+    "seenAt": null
+   },
+   {
+    "name": "Lengthened partials / stretch training",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "lengthened partials"
+    ],
+    "tier": "forum",
+    "why": "Overloaded stretch position reps",
+    "seenAt": null
+   },
+   {
+    "name": "Myo-reps / drop sets",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "myo-reps"
+    ],
+    "tier": "forum",
+    "why": "Intensity techniques",
+    "seenAt": null
+   },
+   {
+    "name": "Shoulder-width training (lateral raises, delts)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "lateral raises",
+     "shoulder width"
+    ],
+    "tier": "forum",
+    "why": "Build delts to widen the frame",
+    "seenAt": null
+   },
+   {
+    "name": "V-taper / shoulder-to-waist ratio",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "v-taper",
+     "shoulder to waist ratio"
+    ],
+    "tier": "forum",
+    "why": "Ideal shoulder:waist ratio goals",
+    "seenAt": null
+   },
+   {
+    "name": "Biacromial / clavicle width",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "clavicle width",
+     "biacromial width"
+    ],
+    "tier": "forum",
+    "why": "Skeletal (clavicle) width as a determinant of shoulder width",
+    "seenAt": null
+   },
+   {
+    "name": "Clavicle lengthening osteotomy",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "clavicle surgery"
+    ],
+    "tier": "dangerous",
+    "why": "Surgery to widen shoulders; rarely performed",
+    "seenAt": null
+   },
+   {
+    "name": "Stomach vacuum / waist training",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "stomach vacuum"
+    ],
+    "tier": "forum",
+    "why": "Pulling in transverse abs for smaller waist",
+    "seenAt": null
+   },
+   {
+    "name": "Neckmaxxing / neck training",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "neckmaxxing"
+    ],
+    "tier": "forum",
+    "why": "Thick neck for frame and jaw",
+    "seenAt": null
+   },
+   {
+    "name": "Grip and forearm training",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "forearm training"
+    ],
+    "tier": "forum",
+    "why": "Forearm size",
+    "seenAt": null
+   },
+   {
+    "name": "Calisthenics / gymnast physique",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "calisthenics"
+    ],
+    "tier": "forum",
+    "why": "Bodyweight frame building",
+    "seenAt": null
+   },
+   {
+    "name": "Ring training / planche progressions",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "ring training / planche progressions"
+    ],
+    "tier": "forum",
+    "why": "Gymnastic strength",
+    "seenAt": null
+   },
+   {
+    "name": "Dirty bulk / lean bulk",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "lean bulk",
+     "dirty bulk"
+    ],
+    "tier": "forum",
+    "why": "Surplus strategies",
+    "seenAt": null
+   },
+   {
+    "name": "Anabolic diet / high calorie eating",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "anabolic diet / high calorie eating"
+    ],
+    "tier": "forum",
+    "why": "Heavy eating for size",
+    "seenAt": null
+   },
+   {
+    "name": "Carnivore diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "carnivore diet"
+    ],
+    "tier": "forum",
+    "why": "Meat-only for muscle",
+    "seenAt": null
+   },
+   {
+    "name": "Beef organ / liver diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "beef organs"
+    ],
+    "tier": "forum",
+    "why": "Organ meats for nutrients",
+    "seenAt": null
+   },
+   {
+    "name": "Raw meat / raw liver diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "raw meat / raw liver diet"
+    ],
+    "tier": "dangerous",
+    "why": "Raw animal foods",
+    "seenAt": null
+   },
+   {
+    "name": "Sleepmaxxing",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "sleepmaxxing"
+    ],
+    "tier": "mainstream",
+    "why": "Sleep for recovery",
+    "seenAt": null
+   },
+   {
+    "name": "Calf implants",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "calf implants"
+    ],
+    "tier": "mainstream",
+    "why": "Silicone calf implants",
+    "seenAt": null
+   },
+   {
+    "name": "Pec / bicep implants",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "pec / bicep implants"
+    ],
+    "tier": "mainstream",
+    "why": "Silicone muscle implants",
+    "seenAt": null
+   },
+   {
+    "name": "Deltoid / shoulder implants",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "shoulder implants"
+    ],
+    "tier": "fringe",
+    "why": "Implants for shoulder width",
+    "seenAt": null
+   },
+   {
+    "name": "Padded shoulders / structured jackets",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "shoulder pads"
+    ],
+    "tier": "forum",
+    "why": "Optical shoulder width",
+    "seenAt": null
+   },
+   {
+    "name": "Horizontal stripes and layering for width",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "layering"
+    ],
+    "tier": "forum",
+    "why": "Add visual bulk",
+    "seenAt": null
+   },
+   {
+    "name": "Tailoring (any clothes)",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "tailoring (any clothes)"
+    ],
+    "tier": "mainstream",
+    "why": "Fit to emphasize V-taper",
+    "seenAt": null
+   },
+   {
+    "name": "Adjustable dumbbells",
+    "kind": "gear",
+    "category": "training",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "adjustable dumbbells"
+    ],
+    "tier": "mainstream",
+    "why": "Home training",
+    "seenAt": null
+   },
+   {
+    "name": "Resistance bands",
+    "kind": "gear",
+    "category": "training",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "resistance bands"
+    ],
+    "tier": "mainstream",
+    "why": "Band training",
+    "seenAt": null
+   },
+   {
+    "name": "Pull-up bar",
+    "kind": "gear",
+    "category": "training",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "pull-up bar"
+    ],
+    "tier": "mainstream",
+    "why": "Lat width tool",
+    "seenAt": null
+   },
+   {
+    "name": "Barbell + plates",
+    "kind": "gear",
+    "category": "training",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "barbell + plates"
+    ],
+    "tier": "mainstream",
+    "why": "Home barbell",
+    "seenAt": null
+   },
+   {
+    "name": "Kettlebells",
+    "kind": "gear",
+    "category": "training",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "kettlebells"
+    ],
+    "tier": "mainstream",
+    "why": "Kettlebell training",
+    "seenAt": null
+   },
+   {
+    "name": "Dip bars",
+    "kind": "gear",
+    "category": "training",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "dip bars"
+    ],
+    "tier": "mainstream",
+    "why": "Chest/tri tool",
+    "seenAt": null
+   },
+   {
+    "name": "Gymnastic rings",
+    "kind": "gear",
+    "category": "training",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "rings"
+    ],
+    "tier": "forum",
+    "why": "Ring training",
+    "seenAt": null
+   },
+   {
+    "name": "Weighted vest",
+    "kind": "gear",
+    "category": "training",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "weighted vest"
+    ],
+    "tier": "mainstream",
+    "why": "Added load",
+    "seenAt": null
+   },
+   {
+    "name": "Neck training harness",
+    "kind": "gear",
+    "category": "posture",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "neck training harness"
+    ],
+    "tier": "forum",
+    "why": "Neck loading",
+    "seenAt": null
+   },
+   {
+    "name": "Compression undershirt",
+    "kind": "gear",
+    "category": "style",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "compression undershirt"
+    ],
+    "tier": "forum",
+    "why": "Shapewear to look bigger",
+    "seenAt": null
+   },
+   {
+    "name": "Fat Gripz / grip thickeners",
+    "kind": "gear",
+    "category": "training",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "fat gripz"
+    ],
+    "tier": "forum",
+    "why": "Forearm thickening",
+    "seenAt": null
+   },
+   {
+    "name": "EMS suit / electrical muscle stimulation",
+    "kind": "gear",
+    "category": "training",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "ems suit"
+    ],
+    "tier": "fringe",
+    "why": "Electrostim for muscle",
+    "seenAt": null
+   },
+   {
+    "name": "Gynecomastia compression vest",
+    "kind": "gear",
+    "category": "bodyCare",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "gynecomastia compression vest"
+    ],
+    "tier": "mainstream",
+    "why": "Hide chest fat",
+    "seenAt": null
+   },
+   {
+    "name": "Gynecomastia surgery",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "gynecomastia surgery"
+    ],
+    "tier": "mainstream",
+    "why": "Removing glandular tissue",
+    "seenAt": null
+   },
+   {
+    "name": "Tamoxifen (Nolvadex)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "tamoxifen (nolvadex)"
+    ],
+    "tier": "mainstream",
+    "why": "SERM for gyno",
+    "seenAt": null
+   },
+   {
+    "name": "Anastrozole (Arimidex)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "anastrozole (arimidex)"
+    ],
+    "tier": "mainstream",
+    "why": "AI used on cycles",
+    "seenAt": null
+   }
+  ]
+ },
+ {
+  "issue": "posture",
+  "summary": "Posture topics include forward head, rounded shoulders and pelvic tilt; approaches range from exercise and ergonomics studied in clinical research to braces, bodywork methods and looksmax concepts such as hyoid position and mewing.",
+  "approaches": [
+   {
+    "name": "Posture for height (rib/pelvic tilt)",
+    "kind": "meta",
+    "category": "height",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "posture for height"
+    ],
+    "tier": "mainstream",
+    "why": "Posture fixes add apparent height",
+    "seenAt": null
+   },
+   {
+    "name": "Hyoid / neck posture meta (hyoid positioning)",
+    "kind": "meta",
+    "category": "bonehacks",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "hyoid / neck posture meta (hyoid positioning)"
+    ],
+    "tier": "forum",
+    "why": "Neck posture linked to face",
+    "seenAt": null
+   },
+   {
+    "name": "Mewing (orthotropics, tongue posture)",
+    "kind": "meta",
+    "category": "bonehacks",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "mewing (orthotropics, tongue posture)"
+    ],
+    "tier": "forum",
+    "why": "Tongue posture for face and posture",
+    "seenAt": null
+   },
+   {
+    "name": "Nasal breathing meta",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "nasal breathing meta"
+    ],
+    "tier": "forum",
+    "why": "Breathing and head position link",
+    "seenAt": null
+   },
+   {
+    "name": "Sleeping position for face symmetry (sleep posture)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "sleeping position for face symmetry (sleep posture)"
+    ],
+    "tier": "forum",
+    "why": "Sleep position and neck",
+    "seenAt": null
+   },
+   {
+    "name": "Chin tucks",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "chin tuck"
+    ],
+    "tier": "mainstream",
+    "why": "Deep neck flexor strengthening",
+    "seenAt": null
+   },
+   {
+    "name": "Wall angels",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "wall angels"
+    ],
+    "tier": "mainstream",
+    "why": "Scapular mobility drill",
+    "seenAt": null
+   },
+   {
+    "name": "Face pulls / band pull-aparts",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "face pulls"
+    ],
+    "tier": "mainstream",
+    "why": "Rear-delt and external rotator work",
+    "seenAt": null
+   },
+   {
+    "name": "Thoracic extension over foam roller",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "thoracic extension"
+    ],
+    "tier": "mainstream",
+    "why": "Mobilising upper back",
+    "seenAt": null
+   },
+   {
+    "name": "Doorway pec stretch",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "pec stretch"
+    ],
+    "tier": "mainstream",
+    "why": "Open tight chest",
+    "seenAt": null
+   },
+   {
+    "name": "Hip flexor stretching (couch stretch)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "hip flexor stretch",
+     "couch stretch"
+    ],
+    "tier": "mainstream",
+    "why": "Reduce anterior pelvic tilt",
+    "seenAt": null
+   },
+   {
+    "name": "Glute bridges / glute activation",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "glute bridges / glute activation"
+    ],
+    "tier": "mainstream",
+    "why": "Counter anterior pelvic tilt",
+    "seenAt": null
+   },
+   {
+    "name": "Anterior pelvic tilt correction",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "pelvic tilt fix"
+    ],
+    "tier": "forum",
+    "why": "Pelvic tilt fixes",
+    "seenAt": null
+   },
+   {
+    "name": "Core stability (plank, dead bug)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "core stability (plank, dead bug)"
+    ],
+    "tier": "mainstream",
+    "why": "Trunk stability",
+    "seenAt": null
+   },
+   {
+    "name": "McGill Big 3",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "mcgill big 3"
+    ],
+    "tier": "mainstream",
+    "why": "Back-sparing core trio",
+    "seenAt": null
+   },
+   {
+    "name": "Lower trap / serratus work",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "lower trap raise"
+    ],
+    "tier": "mainstream",
+    "why": "Scapular control",
+    "seenAt": null
+   },
+   {
+    "name": "Rib flare correction / diaphragm breathing",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "rib flare"
+    ],
+    "tier": "forum",
+    "why": "Breathing to fix rib flare",
+    "seenAt": null
+   },
+   {
+    "name": "Jefferson curl",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "jefferson curl"
+    ],
+    "tier": "forum",
+    "why": "Loaded spinal flexion mobility",
+    "seenAt": null
+   },
+   {
+    "name": "Back extension / deadlift strength",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "back extension / deadlift strength"
+    ],
+    "tier": "mainstream",
+    "why": "Posterior chain strength",
+    "seenAt": null
+   },
+   {
+    "name": "Hanging / stretching for height (decompression, hanging)",
+    "kind": "meta",
+    "category": "height",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "hanging / stretching for height"
+    ],
+    "tier": "forum",
+    "why": "Dead hangs for spine decompression",
+    "seenAt": null
+   },
+   {
+    "name": "Yoga for posture",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "yoga posture"
+    ],
+    "tier": "mainstream",
+    "why": "Mobility practice",
+    "seenAt": null
+   },
+   {
+    "name": "Pilates",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "pilates"
+    ],
+    "tier": "mainstream",
+    "why": "Core and posture training",
+    "seenAt": null
+   },
+   {
+    "name": "Alexander Technique",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "alexander technique"
+    ],
+    "tier": "mainstream",
+    "why": "Awareness-based posture re-education",
+    "seenAt": null
+   },
+   {
+    "name": "Feldenkrais Method",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "feldenkrais method"
+    ],
+    "tier": "fringe",
+    "why": "Movement awareness lessons",
+    "seenAt": null
+   },
+   {
+    "name": "Egoscue method",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "egoscue"
+    ],
+    "tier": "fringe",
+    "why": "Posture therapy exercises",
+    "seenAt": null
+   },
+   {
+    "name": "Rolfing / structural integration",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "rolfing"
+    ],
+    "tier": "fringe",
+    "why": "Fascial bodywork for alignment",
+    "seenAt": null
+   },
+   {
+    "name": "Chiropractic adjustments",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "chiropractor"
+    ],
+    "tier": "mainstream",
+    "why": "Spinal manipulation, mixed evidence",
+    "seenAt": null
+   },
+   {
+    "name": "Chiropractic BioPhysics (CBP) cervical lordosis",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "cbp"
+    ],
+    "tier": "fringe",
+    "why": "Cervical curve traction protocols",
+    "seenAt": null
+   },
+   {
+    "name": "Physiotherapy for posture",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "physiotherapy"
+    ],
+    "tier": "evidence",
+    "why": "Supervised corrective exercise",
+    "seenAt": null
+   },
+   {
+    "name": "Postural Restoration Institute (PRI)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "pri"
+    ],
+    "tier": "forum",
+    "why": "Breathing/asymmetry exercises",
+    "seenAt": null
+   },
+   {
+    "name": "Kinesiology tape posture taping",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "posture tape"
+    ],
+    "tier": "fringe",
+    "why": "Tape to cue shoulder position",
+    "seenAt": null
+   },
+   {
+    "name": "Dry needling / acupuncture",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "dry needling"
+    ],
+    "tier": "fringe",
+    "why": "Needling tight muscles",
+    "seenAt": null
+   },
+   {
+    "name": "Cervical traction",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "neck traction"
+    ],
+    "tier": "mainstream",
+    "why": "Neck traction devices or clinic traction",
+    "seenAt": null
+   },
+   {
+    "name": "Spinal decompression therapy",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "spinal decompression therapy"
+    ],
+    "tier": "fringe",
+    "why": "Table traction for discs",
+    "seenAt": null
+   },
+   {
+    "name": "Ergonomic setup (monitor at eye level)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "ergonomics"
+    ],
+    "tier": "mainstream",
+    "why": "Desk ergonomics for forward-head posture",
+    "seenAt": null
+   },
+   {
+    "name": "Phone at eye level / tech neck avoidance",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "tech neck"
+    ],
+    "tier": "forum",
+    "why": "Reducing downward neck flexion",
+    "seenAt": null
+   },
+   {
+    "name": "Barefoot / minimalist shoes",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "barefoot shoes"
+    ],
+    "tier": "forum",
+    "why": "Foot strength for alignment",
+    "seenAt": null
+   },
+   {
+    "name": "Sleeping without a pillow",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "sleeping without a pillow"
+    ],
+    "tier": "fringe",
+    "why": "Reduce forward head at night",
+    "seenAt": null
+   },
+   {
+    "name": "Chestmaxxing / chest-out posture",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "chest out"
+    ],
+    "tier": "forum",
+    "why": "Looksmax posture of open chest",
+    "seenAt": null
+   },
+   {
+    "name": "Posture Botox / muscle relaxants",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "posture botox / muscle relaxants"
+    ],
+    "tier": "fringe",
+    "why": "Botox into trapezius or neck for tension",
+    "seenAt": null
+   },
+   {
+    "name": "Scoliosis bracing / fusion surgery",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "scoliosis brace"
+    ],
+    "tier": "mainstream",
+    "why": "Spinal deformity correction",
+    "seenAt": null
+   },
+   {
+    "name": "Frenotomy / tongue tie release for face",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "frenotomy / tongue tie release for face"
+    ],
+    "tier": "fringe",
+    "why": "Release tongue tie to improve posture claims",
+    "seenAt": null
+   },
+   {
+    "name": "Posture corrector brace",
+    "kind": "gear",
+    "category": "posture",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "posture corrector brace"
+    ],
+    "tier": "mainstream",
+    "why": "Shoulder-retracting brace",
+    "seenAt": null
+   },
+   {
+    "name": "Foam roller",
+    "kind": "gear",
+    "category": "posture",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "foam roller"
+    ],
+    "tier": "mainstream",
+    "why": "Self-myofascial release",
+    "seenAt": null
+   },
+   {
+    "name": "Chin tuck trainer",
+    "kind": "gear",
+    "category": "posture",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "chin tuck trainer"
+    ],
+    "tier": "forum",
+    "why": "Device cuing chin tuck",
+    "seenAt": null
+   },
+   {
+    "name": "Cervical pillow",
+    "kind": "gear",
+    "category": "posture",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "cervical pillow"
+    ],
+    "tier": "mainstream",
+    "why": "Contoured neck pillow",
+    "seenAt": null
+   },
+   {
+    "name": "Standing desk / riser",
+    "kind": "gear",
+    "category": "posture",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "standing desk / riser"
+    ],
+    "tier": "mainstream",
+    "why": "Sit-stand desk",
+    "seenAt": null
+   },
+   {
+    "name": "Neck training harness",
+    "kind": "gear",
+    "category": "posture",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "neck training harness"
+    ],
+    "tier": "forum",
+    "why": "Neck strengthening",
+    "seenAt": null
+   },
+   {
+    "name": "Foot orthotic insoles",
+    "kind": "gear",
+    "category": "posture",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "foot orthotic insoles"
+    ],
+    "tier": "mainstream",
+    "why": "Arch support",
+    "seenAt": null
+   },
+   {
+    "name": "Mattress (medium-firm)",
+    "kind": "gear",
+    "category": "sleep",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "mattress (medium-firm)"
+    ],
+    "tier": "mainstream",
+    "why": "Spine-friendly bed",
+    "seenAt": null
+   },
+   {
+    "name": "Resistance bands",
+    "kind": "gear",
+    "category": "training",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "resistance bands"
+    ],
+    "tier": "mainstream",
+    "why": "Band pull-aparts",
+    "seenAt": null
+   },
+   {
+    "name": "Pull-up bar",
+    "kind": "gear",
+    "category": "training",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "pull-up bar"
+    ],
+    "tier": "mainstream",
+    "why": "Decompression hangs",
+    "seenAt": null
+   },
+   {
+    "name": "Posture tracker wearable (Upright Go)",
+    "kind": "gear",
+    "category": "posture",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "upright go",
+     "posture trainer"
+    ],
+    "tier": "mainstream",
+    "why": "Wearable that vibrates when slouching is detected",
+    "seenAt": null
+   },
+   {
+    "name": "Neck hammock / cervical stretcher",
+    "kind": "gear",
+    "category": "posture",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "neck hammock"
+    ],
+    "tier": "fringe",
+    "why": "Over-door neck traction",
+    "seenAt": null
+   },
+   {
+    "name": "Lacrosse ball / massage gun",
+    "kind": "gear",
+    "category": "posture",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "massage gun",
+     "lacrosse ball"
+    ],
+    "tier": "mainstream",
+    "why": "Trigger point release",
+    "seenAt": null
+   },
+   {
+    "name": "Lumbar support cushion / seat wedge",
+    "kind": "gear",
+    "category": "posture",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "lumbar cushion"
+    ],
+    "tier": "mainstream",
+    "why": "Chair add-ons",
+    "seenAt": null
+   },
+   {
+    "name": "Kneeling or balance-ball chair",
+    "kind": "gear",
+    "category": "posture",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "kneeling chair"
+    ],
+    "tier": "fringe",
+    "why": "Alt seating for posture",
+    "seenAt": null
+   },
+   {
+    "name": "Treadmill desk",
+    "kind": "gear",
+    "category": "posture",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "treadmill desk"
+    ],
+    "tier": "mainstream",
+    "why": "Walk while working",
+    "seenAt": null
+   },
+   {
+    "name": "Yoga wheel",
+    "kind": "gear",
+    "category": "posture",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "yoga wheel"
+    ],
+    "tier": "forum",
+    "why": "Back extension tool",
+    "seenAt": null
+   },
+   {
+    "name": "Roman chair / hyperextension bench",
+    "kind": "gear",
+    "category": "training",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "roman chair / hyperextension bench"
+    ],
+    "tier": "mainstream",
+    "why": "Spinal erector training",
+    "seenAt": null
+   },
+   {
+    "name": "Inversion table",
+    "kind": "gear",
+    "category": "posture",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "inversion table"
+    ],
+    "tier": "fringe",
+    "why": "Inverted hanging for spinal traction",
+    "seenAt": null
+   },
+   {
+    "name": "Compression undershirt",
+    "kind": "gear",
+    "category": "style",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "compression undershirt"
+    ],
+    "tier": "forum",
+    "why": "Shapewear for posture cue",
+    "seenAt": null
+   },
+   {
+    "name": "Tailoring (any clothes)",
+    "kind": "gear",
+    "category": "style",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "tailoring (any clothes)"
+    ],
+    "tier": "mainstream",
+    "why": "Fit that disguises slouch",
+    "seenAt": null
+   }
+  ]
+ },
+ {
+  "issue": "hormones",
+  "summary": "Testosterone optimisation includes prescribed TRT and fertility-preserving drugs, herbal booster supplements, lifestyle and diet approaches, and fringe practices such as testicle sunning and organ-eating.",
+  "approaches": [
+   {
+    "name": "Testosterone",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "testosterone"
+    ],
+    "tier": "mainstream",
+    "why": "TRT/testosterone replacement",
+    "seenAt": null
+   },
+   {
+    "name": "TRT / testosterone for jaw (DHT for jaw)",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "trt / testosterone for jaw (dht for jaw)"
+    ],
+    "tier": "forum",
+    "why": "Testosterone/DHT for masculine features",
+    "seenAt": null
+   },
+   {
+    "name": "DHT / Androgel for facial structure",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "dht / androgel for facial structure"
+    ],
+    "tier": "forum",
+    "why": "Topical DHT claims",
+    "seenAt": null
+   },
+   {
+    "name": "Dihydrotestosterone (DHT) (Androstanolone)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "dihydrotestosterone (dht) (androstanolone)"
+    ],
+    "tier": "dangerous",
+    "why": "Potent androgen",
+    "seenAt": null
+   },
+   {
+    "name": "Testosterone gel (AndroGel)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "androgel"
+    ],
+    "tier": "mainstream",
+    "why": "Transdermal TRT",
+    "seenAt": null
+   },
+   {
+    "name": "Nasal testosterone (Natesto)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "natesto"
+    ],
+    "tier": "mainstream",
+    "why": "Intranasal TRT",
+    "seenAt": null
+   },
+   {
+    "name": "Oral testosterone undecanoate (Jatenzo / Kyzatrex)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "oral testosterone undecanoate (jatenzo / kyzatrex)"
+    ],
+    "tier": "mainstream",
+    "why": "Oral TRT",
+    "seenAt": null
+   },
+   {
+    "name": "Testosterone pellets (Testopel)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "testosterone pellets (testopel)"
+    ],
+    "tier": "mainstream",
+    "why": "Implanted pellets",
+    "seenAt": null
+   },
+   {
+    "name": "Testosterone undecanoate injection (Aveed)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "testosterone undecanoate injection (aveed)"
+    ],
+    "tier": "mainstream",
+    "why": "Long-acting depot",
+    "seenAt": null
+   },
+   {
+    "name": "Sustanon (testosterone blend)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "sustanon (testosterone blend)"
+    ],
+    "tier": "forum",
+    "why": "Blended esters",
+    "seenAt": null
+   },
+   {
+    "name": "Human chorionic gonadotropin (hCG) (hCG)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "human chorionic gonadotropin (hcg) (hcg)"
+    ],
+    "tier": "mainstream",
+    "why": "LH mimic",
+    "seenAt": null
+   },
+   {
+    "name": "Gonadorelin (GnRH)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "gonadorelin (gnrh)"
+    ],
+    "tier": "mainstream",
+    "why": "GnRH peptide for testicular maintenance",
+    "seenAt": null
+   },
+   {
+    "name": "Clomiphene (Clomid)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "clomiphene (clomid)"
+    ],
+    "tier": "mainstream",
+    "why": "SERM to raise LH/FSH",
+    "seenAt": null
+   },
+   {
+    "name": "Enclomiphene",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "enclomiphene"
+    ],
+    "tier": "mainstream",
+    "why": "Purer isomer for secondary hypogonadism",
+    "seenAt": null
+   },
+   {
+    "name": "Tamoxifen (Nolvadex)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "tamoxifen (nolvadex)"
+    ],
+    "tier": "mainstream",
+    "why": "SERM",
+    "seenAt": null
+   },
+   {
+    "name": "Kisspeptin (Kisspeptin-10)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "kisspeptin (kisspeptin-10)"
+    ],
+    "tier": "forum",
+    "why": "Upstream GnRH trigger peptide",
+    "seenAt": null
+   },
+   {
+    "name": "Anastrozole (Arimidex)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "anastrozole (arimidex)"
+    ],
+    "tier": "mainstream",
+    "why": "Estrogen reduction",
+    "seenAt": null
+   },
+   {
+    "name": "Exemestane (Aromasin)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "exemestane (aromasin)"
+    ],
+    "tier": "mainstream",
+    "why": "Steroidal AI",
+    "seenAt": null
+   },
+   {
+    "name": "Letrozole (Femara)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "letrozole (femara)"
+    ],
+    "tier": "mainstream",
+    "why": "Strong AI",
+    "seenAt": null
+   },
+   {
+    "name": "Cabergoline",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "cabergoline"
+    ],
+    "tier": "mainstream",
+    "why": "Prolactin lowering dopamine agonist",
+    "seenAt": null
+   },
+   {
+    "name": "FSH / Menopur (HMG)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "menopur"
+    ],
+    "tier": "mainstream",
+    "why": "Fertility-preserving gonadotropins",
+    "seenAt": null
+   },
+   {
+    "name": "Tongkat ali (Eurycoma longifolia)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "tongkat ali (eurycoma longifolia)"
+    ],
+    "tier": "forum",
+    "why": "Herbal T-booster",
+    "seenAt": null
+   },
+   {
+    "name": "Fadogia agrestis",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "fadogia agrestis"
+    ],
+    "tier": "forum",
+    "why": "Herbal supplement discussed on the Huberman Lab podcast",
+    "seenAt": null
+   },
+   {
+    "name": "Shilajit",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "shilajit"
+    ],
+    "tier": "forum",
+    "why": "Resin supplement",
+    "seenAt": null
+   },
+   {
+    "name": "Cistanche (Cistanche tubulosa)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "cistanche (cistanche tubulosa)"
+    ],
+    "tier": "forum",
+    "why": "Herbal T claims",
+    "seenAt": null
+   },
+   {
+    "name": "Ashwagandha",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "ashwagandha"
+    ],
+    "tier": "mainstream",
+    "why": "Adaptogen with T-boost studies",
+    "seenAt": null
+   },
+   {
+    "name": "DHEA (Dehydroepiandrosterone)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "dhea (dehydroepiandrosterone)"
+    ],
+    "tier": "mainstream",
+    "why": "Androgen precursor",
+    "seenAt": null
+   },
+   {
+    "name": "Pregnenolone",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "pregnenolone"
+    ],
+    "tier": "forum",
+    "why": "Neurosteroid precursor",
+    "seenAt": null
+   },
+   {
+    "name": "Androstenedione (Andro)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "androstenedione (andro)"
+    ],
+    "tier": "dangerous",
+    "why": "Prohormone",
+    "seenAt": null
+   },
+   {
+    "name": "Zinc",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "zinc"
+    ],
+    "tier": "evidence",
+    "why": "Corrects deficiency",
+    "seenAt": null
+   },
+   {
+    "name": "Magnesium",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "magnesium"
+    ],
+    "tier": "mainstream",
+    "why": "Sleep and T support",
+    "seenAt": null
+   },
+   {
+    "name": "Vitamin D",
+    "kind": "compound",
+    "category": "bone",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "vitamin d"
+    ],
+    "tier": "evidence",
+    "why": "Low D linked to low T",
+    "seenAt": null
+   },
+   {
+    "name": "Boron",
+    "kind": "compound",
+    "category": "bone",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "boron"
+    ],
+    "tier": "forum",
+    "why": "Free-T claims",
+    "seenAt": null
+   },
+   {
+    "name": "Vitamin K2 (MK-4 / MK-7)",
+    "kind": "compound",
+    "category": "bone",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "vitamin k2 (mk-4 / mk-7)"
+    ],
+    "tier": "fringe",
+    "why": "Said to support T",
+    "seenAt": null
+   },
+   {
+    "name": "Turkesterone",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "turkesterone"
+    ],
+    "tier": "fringe",
+    "why": "Ecdysteroid",
+    "seenAt": null
+   },
+   {
+    "name": "Fenugreek",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "fenugreek"
+    ],
+    "tier": "fringe",
+    "why": "Herbal T-booster",
+    "seenAt": null
+   },
+   {
+    "name": "D-aspartic acid (DAA)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "d-aspartic acid"
+    ],
+    "tier": "fringe",
+    "why": "Amino acid T claims",
+    "seenAt": null
+   },
+   {
+    "name": "Tribulus terrestris",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "tribulus terrestris"
+    ],
+    "tier": "fringe",
+    "why": "Supplement with small reported effects on testosterone",
+    "seenAt": null
+   },
+   {
+    "name": "Horny goat weed (Epimedium)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "horny goat weed"
+    ],
+    "tier": "fringe",
+    "why": "Herbal libido",
+    "seenAt": null
+   },
+   {
+    "name": "Maca root",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "maca"
+    ],
+    "tier": "fringe",
+    "why": "Libido herb",
+    "seenAt": null
+   },
+   {
+    "name": "Panax ginseng",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "ginseng"
+    ],
+    "tier": "fringe",
+    "why": "Herbal T claims",
+    "seenAt": null
+   },
+   {
+    "name": "Mucuna pruriens",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "mucuna"
+    ],
+    "tier": "fringe",
+    "why": "L-DOPA source for dopamine/T",
+    "seenAt": null
+   },
+   {
+    "name": "DIM (diindolylmethane)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "dim"
+    ],
+    "tier": "fringe",
+    "why": "Estrogen metabolism supplement",
+    "seenAt": null
+   },
+   {
+    "name": "Calcium-D-glucarate",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "calcium-d-glucarate"
+    ],
+    "tier": "fringe",
+    "why": "Estrogen clearance claim",
+    "seenAt": null
+   },
+   {
+    "name": "Chrysin",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "chrysin"
+    ],
+    "tier": "fringe",
+    "why": "Weak aromatase inhibitor claim",
+    "seenAt": null
+   },
+   {
+    "name": "Nettle root",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "stinging nettle root"
+    ],
+    "tier": "fringe",
+    "why": "SHBG binder claim",
+    "seenAt": null
+   },
+   {
+    "name": "Saw palmetto",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "saw palmetto"
+    ],
+    "tier": "fringe",
+    "why": "5-AR inhibition herb",
+    "seenAt": null
+   },
+   {
+    "name": "Pumpkin seed oil",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "pumpkin seed oil"
+    ],
+    "tier": "fringe",
+    "why": "DHT claim",
+    "seenAt": null
+   },
+   {
+    "name": "Test booster blends (Prime Male, TestoFuel)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "test boosters"
+    ],
+    "tier": "fringe",
+    "why": "Multi-herbal T-booster products",
+    "seenAt": null
+   },
+   {
+    "name": "Desiccated beef testicle supplements",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "testicle supplement"
+    ],
+    "tier": "fringe",
+    "why": "\"Like supports like\" organ capsules",
+    "seenAt": null
+   },
+   {
+    "name": "Finasteride (Propecia)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "finasteride (propecia)"
+    ],
+    "tier": "mainstream",
+    "why": "5-AR inhibitor, DHT lowering",
+    "seenAt": null
+   },
+   {
+    "name": "Dutasteride",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "dutasteride"
+    ],
+    "tier": "mainstream",
+    "why": "Stronger 5-AR inhibitor",
+    "seenAt": null
+   },
+   {
+    "name": "Spironolactone",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "spironolactone"
+    ],
+    "tier": "mainstream",
+    "why": "Anti-androgen for acne",
+    "seenAt": null
+   },
+   {
+    "name": "Cyproterone acetate",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "cyproterone acetate"
+    ],
+    "tier": "mainstream",
+    "why": "Anti-androgen",
+    "seenAt": null
+   },
+   {
+    "name": "Flutamide",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "flutamide"
+    ],
+    "tier": "mainstream",
+    "why": "Antiandrogen",
+    "seenAt": null
+   },
+   {
+    "name": "Bicalutamide",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "bicalutamide"
+    ],
+    "tier": "mainstream",
+    "why": "Antiandrogen",
+    "seenAt": null
+   },
+   {
+    "name": "Liothyronine (T3) (Cytomel)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "liothyronine (t3) (cytomel)"
+    ],
+    "tier": "dangerous",
+    "why": "Thyroid hormone",
+    "seenAt": null
+   },
+   {
+    "name": "Somatropin (HGH)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "somatropin (hgh)"
+    ],
+    "tier": "dangerous",
+    "why": "GH optimization",
+    "seenAt": null
+   },
+   {
+    "name": "MK-677 (Ibutamoren)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "mk-677 (ibutamoren)"
+    ],
+    "tier": "forum",
+    "why": "GH booster",
+    "seenAt": null
+   },
+   {
+    "name": "Melatonin (topical)",
+    "kind": "compound",
+    "category": "pigment",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "melatonin (topical)"
+    ],
+    "tier": "fringe",
+    "why": "Melatonin claims",
+    "seenAt": null
+   },
+   {
+    "name": "Oxytocin nasal spray",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "oxytocin"
+    ],
+    "tier": "fringe",
+    "why": "Oxytocin products sold online",
+    "seenAt": null
+   },
+   {
+    "name": "Estradiol / HRT (feminising or menopause)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "hrt",
+     "estradiol"
+    ],
+    "tier": "mainstream",
+    "why": "Hormone therapy for skin and body",
+    "seenAt": null
+   },
+   {
+    "name": "Combined oral contraceptive pill for acne",
+    "kind": "compound",
+    "category": "skin",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "birth control for acne"
+    ],
+    "tier": "mainstream",
+    "why": "Hormonal acne control",
+    "seenAt": null
+   },
+   {
+    "name": "Pentastack",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "pentastack"
+    ],
+    "tier": "forum",
+    "why": "Forum steroid stack",
+    "seenAt": null
+   },
+   {
+    "name": "Anti-estrogen / AI for masculine look",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "anti-estrogen / ai for masculine look"
+    ],
+    "tier": "forum",
+    "why": "Estrogen suppression for lean look",
+    "seenAt": null
+   },
+   {
+    "name": "Short steroid cycles myth",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "short steroid cycles myth"
+    ],
+    "tier": "forum",
+    "why": "Belief that short steroid cycles are safe",
+    "seenAt": null
+   },
+   {
+    "name": "Natural TRT / \"enclo + hCG\" protocols",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "natural trt"
+    ],
+    "tier": "forum",
+    "why": "Non-testosterone TRT alternatives",
+    "seenAt": null
+   },
+   {
+    "name": "TRT clinics (online telehealth)",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "trt clinic"
+    ],
+    "tier": "mainstream",
+    "why": "Telehealth TRT providers",
+    "seenAt": null
+   },
+   {
+    "name": "Hormone bloodwork panel (total/free T, SHBG, E2, LH)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "testosterone blood test"
+    ],
+    "tier": "evidence",
+    "why": "Blood testing of hormone levels before treatment",
+    "seenAt": null
+   },
+   {
+    "name": "NoFap / semen retention (nofap)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "nofap / semen retention (nofap)"
+    ],
+    "tier": "fringe",
+    "why": "Abstinence for T/energy",
+    "seenAt": null
+   },
+   {
+    "name": "Cold showers",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "cold showers"
+    ],
+    "tier": "fringe",
+    "why": "Cold exposure T claim",
+    "seenAt": null
+   },
+   {
+    "name": "Sleepmaxxing",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "sleepmaxxing"
+    ],
+    "tier": "evidence",
+    "why": "Sleep restriction lowers T",
+    "seenAt": null
+   },
+   {
+    "name": "Heavy compound lifting for testosterone",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "heavy compound lifting for testosterone"
+    ],
+    "tier": "mainstream",
+    "why": "Squats/deadlifts",
+    "seenAt": null
+   },
+   {
+    "name": "Losing body fat to raise testosterone",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "losing body fat to raise testosterone"
+    ],
+    "tier": "evidence",
+    "why": "Fat loss raises T",
+    "seenAt": null
+   },
+   {
+    "name": "Carnivore diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "carnivore diet"
+    ],
+    "tier": "forum",
+    "why": "Meat/cholesterol for T",
+    "seenAt": null
+   },
+   {
+    "name": "Raw meat / raw liver diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "raw meat / raw liver diet"
+    ],
+    "tier": "dangerous",
+    "why": "Raw organ T claims",
+    "seenAt": null
+   },
+   {
+    "name": "Eating testicles / Rocky Mountain oysters",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "rocky mountain oysters"
+    ],
+    "tier": "fringe",
+    "why": "Eating organ meats for T",
+    "seenAt": null
+   },
+   {
+    "name": "Raw eggs / oysters / zinc-rich foods",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "raw eggs / oysters / zinc-rich foods"
+    ],
+    "tier": "fringe",
+    "why": "Foods to raise T",
+    "seenAt": null
+   },
+   {
+    "name": "Cruciferous vegetables for estrogen",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "cruciferous vegetables for estrogen"
+    ],
+    "tier": "fringe",
+    "why": "Estrogen metabolism claim",
+    "seenAt": null
+   },
+   {
+    "name": "Seed oil avoidance",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "seed oil avoidance"
+    ],
+    "tier": "fringe",
+    "why": "Seed oils lower T claims",
+    "seenAt": null
+   },
+   {
+    "name": "Avoiding soy (\"soy boy\" meta)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "soy boy"
+    ],
+    "tier": "fringe",
+    "why": "Concern that dietary phytoestrogens lower testosterone",
+    "seenAt": null
+   },
+   {
+    "name": "Avoiding plastics / BPA / phthalates",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "xenoestrogens",
+     "microplastics"
+    ],
+    "tier": "forum",
+    "why": "Endocrine disruptor avoidance",
+    "seenAt": null
+   },
+   {
+    "name": "Alcohol/sugar/dairy face avoidance",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "alcohol/sugar/dairy face avoidance"
+    ],
+    "tier": "forum",
+    "why": "Cut alcohol for T",
+    "seenAt": null
+   },
+   {
+    "name": "Sunbathing / tanmaxxing (tanmaxxing)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "sunbathing / tanmaxxing (tanmaxxing)"
+    ],
+    "tier": "forum",
+    "why": "Sun/vitamin D for T",
+    "seenAt": null
+   },
+   {
+    "name": "Testicular sun / red light exposure",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "testicle sunning",
+     "testicular red light"
+    ],
+    "tier": "fringe",
+    "why": "Shining sun or red light on testes",
+    "seenAt": null
+   },
+   {
+    "name": "Scrotal cooling / ball icing",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "ball icing"
+    ],
+    "tier": "fringe",
+    "why": "Cooling testes for sperm/T",
+    "seenAt": null
+   },
+   {
+    "name": "Loose underwear / avoiding heat",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "boxers"
+    ],
+    "tier": "fringe",
+    "why": "Loose underwear and avoiding laptop heat, for scrotal temperature",
+    "seenAt": null
+   },
+   {
+    "name": "Phone-in-pocket / EMF avoidance",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "emf testicles"
+    ],
+    "tier": "fringe",
+    "why": "Concern that phone radiation lowers testosterone",
+    "seenAt": null
+   },
+   {
+    "name": "Cortisol management / stress reduction",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "cortisol"
+    ],
+    "tier": "mainstream",
+    "why": "Lower cortisol to protect T",
+    "seenAt": null
+   },
+   {
+    "name": "Cortisol face / stress face claims (cortisol spikes)",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "cortisol face / stress face claims (cortisol spikes)"
+    ],
+    "tier": "fringe",
+    "why": "Claim linking stress and cortisol to facial appearance",
+    "seenAt": null
+   },
+   {
+    "name": "Fluoride avoidance",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "fluoride avoidance"
+    ],
+    "tier": "fringe",
+    "why": "Fluoride-T claim",
+    "seenAt": null
+   },
+   {
+    "name": "Extreme dieting / low body fat",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "extreme dieting / low body fat"
+    ],
+    "tier": "dangerous",
+    "why": "Very low BF suppresses T",
+    "seenAt": null
+   },
+   {
+    "name": "Weight-loss jabs (GLP-1) for face leaning (Ozempic face)",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": true,
+    "aka": "",
+    "terms": [
+     "weight-loss jabs (glp-1) for face leaning"
+    ],
+    "tier": "forum",
+    "why": "GLP-1 raising T by weight loss",
+    "seenAt": null
+   },
+   {
+    "name": "Sperm retention / abstinence rituals",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "semen retention"
+    ],
+    "tier": "fringe",
+    "why": "Semen retention claims",
+    "seenAt": null
+   },
+   {
+    "name": "Looksmaxxing \"Testosterone maxxing\"",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": "",
+    "terms": [
+     "testosterone maxxing"
+    ],
+    "tier": "forum",
+    "why": "Optimizing T as a looks base",
+    "seenAt": null
+   }
+  ]
+ }
+]

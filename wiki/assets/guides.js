@@ -1,84 +1,95 @@
-// Hand-written wiki articles. Body HTML supports wiki links:
-//   [[Tretinoin]]              → links to that Index entry (compound or gear, by exact name)
-//   [[Tretinoin|the gold standard]]  → same, custom label
+// Hand-written wiki articles. Neutral point of view: describe what practitioners believe and what
+// published research / medical bodies report, with attribution. No verdicts.
+// Body HTML supports wiki links:
+//   [[Tretinoin]]              → links to that entry (compound, gear or meta, by exact name)
+//   [[Tretinoin|label]]        → same, custom label
 //   [[guide:skincare|Skincare 101]]  → links to another guide
-//   [[cat:skin|Skin & Wrinkles]]     → links to a category page (compound or gear id)
+//   [[cat:skin|Skin & Wrinkles]]     → links to a category page
 window.LM_GUIDES = [
   {
     slug: 'what-is-looksmaxxing',
     title: 'What Is Looksmaxxing',
     kicker: 'Start here',
-    summary: 'The term, the two camps, and the honest order of operations.',
+    summary: 'The term, its origins, the two main approaches, and how the community prioritises.',
     sections: [
       {
         h: 'Definition',
-        body: `<p><b>Looksmaxxing</b> is the practice of deliberately improving your appearance to its realistic ceiling. The word came out of online forums, but the underlying idea is old: grooming, fitness, skincare, and style, done on purpose instead of by accident.</p>
-<p>This wiki takes one position above all others: <b>evidence first</b>. Every entry in [[guide:index-explained|The Index]] is rated by what studies actually show, not by what a product page claims.</p>`,
+        body: `<p><b>Looksmaxxing</b> (from "looks maximising") is the practice of deliberately trying to improve one's physical appearance. The term originated on online forums in the 2010s and spread widely on TikTok, YouTube and Reddit in the 2020s. It covers everything from grooming, fitness and skincare to drugs, surgery and practices that have little or no research behind them.</p>
+<p>This wiki documents the full range of practices. For each one it records what practitioners say about it and what published research and medical bodies report, using the evidence levels explained in [[guide:index-explained|How to Read This Wiki]].</p>`,
       },
       {
-        h: 'Softmaxxing vs hardmaxxing',
-        body: `<p><b>Softmaxxing</b> means non-invasive changes: sleep, body fat, skincare, teeth, hair, grooming, posture, and clothes. It is cheap, reversible, and where nearly all of the realistic gains live.</p>
-<p><b>Hardmaxxing</b> means surgery, injectables, and prescription or research drugs. Some of it is legitimate medicine (a dermatologist prescribing [[Tretinoin]], a doctor managing [[Finasteride]]). A lot of it is gray-market chemistry with real risks — see [[cat:muscle|Muscle]] and [[cat:recovery|Recovery]] for how many "research chems" sit there.</p>
-<div class="callout">Rule of thumb: exhaust the soft list before you even read about the hard one.</div>`,
+        h: 'Softmaxxing and hardmaxxing',
+        body: `<p>The community commonly divides methods into two groups. <b>Softmaxxing</b> refers to non-invasive changes such as sleep, body-fat reduction, skincare, dental care, haircuts, grooming, posture and clothing. <b>Hardmaxxing</b> refers to surgery, injectables, and prescription or unregulated drugs.</p>
+<p>Some hardmaxxing methods are established medical treatments prescribed by doctors, such as [[Tretinoin]] or [[Finasteride]]. Others involve compounds sold as research chemicals that are not approved for human use; see [[cat:muscle|Muscle]] and [[cat:recovery|Recovery]].</p>`,
       },
       {
-        h: 'The honest priority order',
-        body: `<ol class="steps">
-<li><b>Sleep.</b> Puffiness, dark circles, skin repair, and training recovery all run through it. See [[cat:sleep|Sleep & Environment]].</li>
-<li><b>Body fat.</b> A leaner body is a leaner face — the jaw and cheekbones you think you lack are often under a few kilos. See [[guide:fat-loss|Fat Loss & Facial Leanness]].</li>
-<li><b>Skin.</b> Sunscreen daily plus a retinoid at night is the highest-evidence routine that exists. See [[guide:skincare|Skincare 101]].</li>
-<li><b>Teeth.</b> [[Whitening strips]] are one of the most reliable cosmetic buys in the whole Index.</li>
-<li><b>Hair.</b> The right cut for your face shape, and early action if your hairline is moving. See [[guide:hair-loss|Hair Loss Primer]].</li>
-<li><b>Grooming.</b> Brows, beard lines, nose and ear hair — zero biology, huge visible return.</li>
-<li><b>Training & posture.</b> Shoulders, neck, and how you stand change your whole silhouette.</li>
-<li><b>Fit & style.</b> [[Tailoring (any clothes)|Tailoring]] beats any supplement on this site.</li>
+        h: 'Commonly recommended priorities',
+        body: `<p>Guides written by community members and by dermatologists and trainers frequently suggest addressing the following areas before considering invasive options. The order below reflects that common advice, not a ranking by this wiki.</p>
+<ol class="steps">
+<li><b>Sleep.</b> Associated with skin appearance, under-eye darkness and recovery. See [[cat:sleep|Sleep & Environment]].</li>
+<li><b>Body fat.</b> Lower body fat changes facial fat distribution and how the jaw and cheekbones appear. See [[guide:fat-loss|Fat Loss & Facial Leanness]].</li>
+<li><b>Skin.</b> Daily sunscreen and a topical retinoid are the most commonly recommended routine in dermatology. See [[guide:skincare|Skincare 101]].</li>
+<li><b>Teeth.</b> [[Whitening strips]] and orthodontics are common steps.</li>
+<li><b>Hair.</b> Haircut choice and, for those with hair loss, early treatment. See [[guide:hair-loss|Hair Loss Primer]].</li>
+<li><b>Grooming.</b> Brows, beard lines, nose and ear hair.</li>
+<li><b>Training and posture.</b> Muscle, shoulders and neck change overall silhouette.</li>
+<li><b>Clothing fit.</b> [[Tailoring (any clothes)|Tailoring]] is a common recommendation in style communities.</li>
 </ol>`,
       },
       {
-        h: 'What looksmaxxing cannot do',
-        body: `<p>No pill, gum, strap, or tongue posture selectively grows an adult jaw or changes bone shape. Anyone selling that is lying. The [[guide:myths|Myths & Scams]] page keeps the list.</p>
-<p>And none of this is a substitute for a doctor. Rx entries are marked <span class="tag">℞ Rx only</span> for a reason.</p>`,
+        h: 'Contested areas',
+        body: `<p>Several popular practices — such as mewing, bonesmashing, jaw exercisers and many supplements — are strongly endorsed by parts of the community while having limited or no published research behind them. The [[guide:myths|Contested Claims]] page sets out what proponents believe alongside what researchers and clinicians have reported.</p>
+<p>Prescription drugs are marked <span class="tag">℞ Rx only</span>, and nothing in this wiki is medical advice.</p>`,
       },
     ],
   },
   {
     slug: 'index-explained',
-    title: 'How to Read The Index',
+    title: 'How to Read This Wiki',
     kicker: 'Ratings',
-    summary: 'Evidence levels, legal status, and outcome labels — what every chip means.',
+    summary: 'Evidence levels, legal status, outcome and risk labels — what every chip means.',
     sections: [
       {
         h: 'Evidence levels',
-        body: `<table class="wtable">
+        body: `<p>Evidence levels describe <b>how much published research exists</b> for the appearance use. They are not a recommendation for or against anything.</p>
+<table class="wtable">
 <tr><th>Label</th><th>Meaning</th></tr>
-<tr><td><span class="tag tag-strong">Strong</span></td><td>Multiple good human trials or clinical consensus. You can expect it to work for its stated use.</td></tr>
-<tr><td><span class="tag tag-moderate">Moderate</span></td><td>Some decent human data. Real effect, often smaller or less consistent than the marketing.</td></tr>
-<tr><td><span class="tag tag-limited">Limited</span></td><td>Small, early, or mostly lab/animal data. Plausible, not proven.</td></tr>
-<tr><td><span class="tag tag-unproven">Unproven</span></td><td>No meaningful human evidence for the appearance claim — or evidence against it.</td></tr>
+<tr><td><span class="tag tag-strong">Strong</span></td><td>Multiple good-quality human trials or established clinical consensus for this use.</td></tr>
+<tr><td><span class="tag tag-moderate">Moderate</span></td><td>Some human trial data; results may be smaller or less consistent.</td></tr>
+<tr><td><span class="tag tag-limited">Limited</span></td><td>Small, early, or mostly laboratory and animal studies.</td></tr>
+<tr><td><span class="tag tag-unproven">Unproven</span></td><td>No published human studies have tested the appearance claim, or studies have not found an effect.</td></tr>
 </table>
-<p>Evidence is rated <b>for the appearance use</b>. [[Afamelanotide]] has strong evidence — for a light-sensitivity disorder, not for a cosmetic tan.</p>`,
+<p>Evidence is rated for the appearance use. [[Afamelanotide]], for example, has strong evidence for a light-sensitivity disorder, which is a different use from cosmetic tanning.</p>`,
       },
       {
         h: 'Status (compounds)',
         body: `<table class="wtable">
 <tr><th>Label</th><th>Meaning</th></tr>
-<tr><td><span class="tag">OTC</span></td><td>Buyable supplement or cosmetic. Still read the note.</td></tr>
-<tr><td><span class="tag">℞ Rx only</span></td><td>Prescription territory. Goes through a doctor, not a cart.</td></tr>
-<tr><td><span class="tag tag-unproven">⚠ Research chem</span></td><td>Not approved for human use. The wiki documents it so you know what you are looking at; it never links to a seller.</td></tr>
+<tr><td><span class="tag">OTC</span></td><td>Sold over the counter as a supplement or cosmetic.</td></tr>
+<tr><td><span class="tag">℞ Rx only</span></td><td>Prescription medicine in most countries.</td></tr>
+<tr><td><span class="tag tag-unproven">⚠ Research chem</span></td><td>Not approved for human use; sold as a "research chemical". Documented here for information; the wiki does not link to sellers.</td></tr>
 </table>`,
       },
       {
         h: 'Outcome (gear)',
         body: `<table class="wtable">
 <tr><th>Label</th><th>Meaning</th></tr>
-<tr><td><span class="tag">Lasting change</span></td><td>Durable biological or physical change — whiter teeth, less hair, more muscle.</td></tr>
-<tr><td><span class="tag">While you use it</span></td><td>Temporary. The [[Ice roller]] de-puffs this morning, not forever.</td></tr>
-<tr><td><span class="tag tag-unproven">Claim unsupported</span></td><td>The structural claim on the box has no evidence. See [[Face slimming strap]].</td></tr>
+<tr><td><span class="tag">Lasting change</span></td><td>Produces a durable change — e.g. whiter teeth, less hair.</td></tr>
+<tr><td><span class="tag">While you use it</span></td><td>Effects reported are temporary, e.g. an [[Ice roller]].</td></tr>
+<tr><td><span class="tag tag-unproven">Claim unproven</span></td><td>The structural claim it is marketed on has not been demonstrated in published studies, e.g. [[Face slimming strap]].</td></tr>
 </table>`,
       },
       {
+        h: 'Risk (metas)',
+        body: `<p>Metas — forum practices, protocols and procedures — carry a risk label summarising documented harms: <span class="tag">Low risk</span>, <span class="tag tag-white">Moderate risk</span>, <span class="tag tag-unproven">High risk</span>, <span class="tag tag-unproven">Extreme risk</span>. These are based on reported adverse events, regulatory warnings and clinical literature.</p>`,
+      },
+      {
+        h: 'Claims & evidence',
+        body: `<p>In-depth articles include a <b>Claims &amp; evidence</b> section. Each row records a claim made by practitioners, what proponents say in support of it, and what published research or medical experts report. The status tag describes the state of the evidence (for example "Supported by studies" or "Untested"); it is not an endorsement or a rebuttal.</p>`,
+      },
+      {
         h: 'Buy links',
-        body: `<p>Some OTC entries show a <b>Find on Amazon</b> button. These are plain searches, and may become affiliate links that support the site. A link is never an endorsement — the evidence chip is the endorsement, or the lack of one.</p>`,
+        body: `<p>Some entries show a buy button. These may be affiliate links. A link is not an endorsement.</p>`,
       },
     ],
   },
@@ -86,43 +97,43 @@ window.LM_GUIDES = [
     slug: 'facial-metrics',
     title: 'Facial Metrics Glossary',
     kicker: 'Measurements',
-    summary: 'Canthal tilt, fWHR, gonial angle and the rest — what the LOOKSMAX scanner measures and the targets it scores against.',
+    summary: 'Canthal tilt, fWHR, gonial angle and the other measurements used in looksmaxxing communities and attractiveness research.',
     sections: [
       {
-        h: 'A warning first',
-        body: `<p>These ratios come from forum culture and a handful of attractiveness studies. They are averages, not laws. Plenty of very attractive faces sit outside every "ideal" below. Treat them as vocabulary, not a verdict.</p>`,
+        h: 'About these measurements',
+        body: `<p>These measurements come from looksmaxxing forum culture and from attractiveness research. Research generally reports them as population averages and statistical associations; the values below are those commonly cited in the community.</p>`,
       },
       {
         h: 'Eye area',
         body: `<dl class="defs">
-<dt>Canthal tilt</dt><dd>The angle of the line from inner to outer eye corner. Positive = outer corner higher. The scanner scores against roughly <b>+3° to +10°</b>, ideal about <b>+6°</b>.</dd>
-<dt>Eye spacing (ES ratio)</dt><dd>Interpupillary distance divided by cheekbone width. Typical value ≈ 0.45; the scanner's target is <b>0.46</b>.</dd>
-<dt>Dark circles / under-eye ratio</dt><dd>Under-eye brightness vs the cheek. 1.0 = no shadow. Sleep, [[Caffeine (topical)]], and [[cat:depuff|De-Puff]] entries are relevant.</dd>
+<dt>Canthal tilt</dt><dd>The angle of the line from the inner to the outer eye corner. Positive means the outer corner sits higher. Forum discussions commonly cite a mildly positive tilt (roughly <b>+4° to +8°</b>) as the preferred range.</dd>
+<dt>Eye spacing (ES ratio)</dt><dd>Interpupillary distance divided by cheekbone width. Typical adult values are around <b>0.45–0.47</b>.</dd>
+<dt>Dark circles / under-eye ratio</dt><dd>Under-eye brightness relative to the cheek. 1.0 = no shadow. See [[Caffeine (topical)]] and [[cat:depuff|De-Puff]].</dd>
 </dl>`,
       },
       {
         h: 'Face shape',
         body: `<dl class="defs">
-<dt>fWHR</dt><dd>Facial width-to-height ratio. In the scanner it is cheekbone width over full forehead-to-chin height (≈ 0.70–0.95), target <b>0.82</b>.</dd>
-<dt>Midface ratio</dt><dd>Eye-to-mouth vertical distance relative to the lower face. Target around <b>1.9</b> in the scanner's formula.</dd>
-<dt>Symmetry</dt><dd>Average left/right mismatch across paired landmarks around a midline. Nobody is perfectly symmetric.</dd>
+<dt>fWHR</dt><dd>Facial width-to-height ratio. Usually bizygomatic (cheekbone) width divided by upper-face height (brow to upper lip); forums commonly cite values around <b>1.9–2.0</b> as preferred for men. Some tools use full face height instead, which gives smaller numbers.</dd>
+<dt>Midface ratio</dt><dd>The vertical distance between the eyes and the mouth relative to the width between the pupils; forums associate a shorter, more compact midface with attractiveness.</dd>
+<dt>Symmetry</dt><dd>Average left/right difference across paired landmarks. All faces show some asymmetry.</dd>
 </dl>`,
       },
       {
         h: 'Jaw & lower face',
         body: `<dl class="defs">
-<dt>Gonial angle</dt><dd>The angle at the corner of the jaw. Forums cite <b>115–125°</b> in profile; the scanner uses a front-view proxy targeting about <b>120°</b>.</dd>
-<dt>Jawline definition</dt><dd>Jaw width over cheek width, target about <b>0.78</b>. Body fat changes this reading more than anything else.</dd>
-<dt>Lower third</dt><dd>Chin height vs philtrum height. The classic rule is about 1:2; the scanner targets <b>2.2</b>.</dd>
+<dt>Gonial angle</dt><dd>The angle at the corner of the jaw. Measured in profile; forums commonly cite <b>115–125°</b>.</dd>
+<dt>Bigonial-to-bizygomatic ratio</dt><dd>Jaw width relative to cheekbone width; forums discuss a ratio of roughly 0.75–0.85. Body fat affects how the jaw appears.</dd>
+<dt>Lower third</dt><dd>Chin height vs philtrum height. A philtrum-to-chin ratio of about <b>1:2</b> is commonly cited.</dd>
 <dt>Mouth-to-nose</dt><dd>Mouth width divided by nose width.</dd>
 </dl>`,
       },
       {
         h: 'Skin & teeth',
         body: `<dl class="defs">
-<dt>Skin evenness</dt><dd>How much skin tone drifts across zones. Sunscreen and pigment entries like [[Azelaic acid]] and [[Tranexamic acid]] target this.</dd>
-<dt>Redness</dt><dd>How much redder the cheeks are than forehead and chin.</dd>
-<dt>Teeth whiteness</dt><dd>A yellowness index sampled from an open smile. [[Whitening strips]] move it.</dd>
+<dt>Skin evenness</dt><dd>How much skin tone varies across facial zones. See [[Azelaic acid]] and [[Tranexamic acid]].</dd>
+<dt>Redness</dt><dd>How much redder the cheeks are than the forehead and chin.</dd>
+<dt>Teeth whiteness</dt><dd>A yellowness index sampled from an open smile. See [[Whitening strips]].</dd>
 </dl>`,
       },
     ],
@@ -131,33 +142,34 @@ window.LM_GUIDES = [
     slug: 'skincare',
     title: 'Skincare 101',
     kicker: 'Routine',
-    summary: 'The short routine with the most evidence behind it.',
+    summary: 'The routine most commonly recommended by dermatologists, and the actives people add.',
     sections: [
       {
-        h: 'The core three',
-        body: `<ol class="steps">
-<li><b>Cleanse</b> — gentle, nothing that leaves skin squeaky.</li>
-<li><b>Moisturize</b> — [[Ceramides]] and [[Hyaluronic acid]] are boring and effective.</li>
-<li><b>Sunscreen, every morning</b> — [[Broad-spectrum sunscreen]] is the single best anti-aging product sold. [[Tinted facial SPF]] if you want it to double as tone-evening.</li>
+        h: 'The core routine',
+        body: `<p>Dermatology guidance and skincare communities most commonly describe a three-step base:</p>
+<ol class="steps">
+<li><b>Cleanse</b> with a gentle cleanser.</li>
+<li><b>Moisturise</b> — [[Ceramides]] and [[Hyaluronic acid]] are common ingredients.</li>
+<li><b>Sunscreen</b> each morning — [[Broad-spectrum sunscreen]] is the step dermatologists most often emphasise for photoaging; [[Tinted facial SPF]] is a common variant.</li>
 </ol>`,
       },
       {
-        h: 'Add a retinoid',
-        body: `<p>At night, a retinoid is the next step. In ascending strength: [[Retinol]] (OTC) → [[Adapalene]] (strongest OTC) → [[Tretinoin]] or [[Tazarotene]] (Rx). Start every other night; irritation is normal for the first weeks.</p>
-<div class="callout">Retinoids increase sun sensitivity. No SPF, no retinoid.</div>`,
+        h: 'Retinoids',
+        body: `<p>A night-time retinoid is the most frequently recommended addition. In ascending strength: [[Retinol]] (OTC), [[Adapalene]] (strongest OTC), then [[Tretinoin]] or [[Tazarotene]] (Rx). Product labelling and dermatologists typically advise gradual introduction because irritation is common early on.</p>
+<div class="callout">Retinoid labels warn of increased sun sensitivity; daily sunscreen is generally advised alongside them.</div>`,
       },
       {
         h: 'Targeted actives',
         body: `<ul>
-<li><b>Acne:</b> [[Salicylic acid]], [[Azelaic acid]], [[Adapalene]], [[Pimple patches]]. Severe or scarring acne → a dermatologist and possibly [[Isotretinoin]].</li>
+<li><b>Acne:</b> [[Salicylic acid]], [[Azelaic acid]], [[Adapalene]], [[Pimple patches]]; severe or scarring acne is often treated by dermatologists with [[Isotretinoin]].</li>
 <li><b>Dark spots & uneven tone:</b> [[Niacinamide]], [[Azelaic acid]], [[Tranexamic acid]], [[Vitamin C (topical)]].</li>
-<li><b>Texture:</b> [[Glycolic acid]] or [[Lactic acid]] a few times a week.</li>
-<li><b>Fine lines:</b> retinoids first; peptides like [[GHK-Cu]] and [[Matrixyl]] are much weaker evidence.</li>
+<li><b>Texture:</b> [[Glycolic acid]] or [[Lactic acid]].</li>
+<li><b>Fine lines:</b> retinoids have the largest body of evidence; peptides such as [[GHK-Cu]] and [[Matrixyl]] have less published research.</li>
 </ul>`,
       },
       {
-        h: 'Devices worth knowing',
-        body: `<p>[[Red light LED mask]] and [[At-home fractional laser]] have real trial data. [[Microcurrent device]] lifts are temporary. Skip home [[Derma roller (home)|derma rolling]] — professional microneedling is a different thing.</p>`,
+        h: 'Devices',
+        body: `<p>[[Red light LED mask|LED masks]] and [[At-home fractional laser|at-home fractional lasers]] have published trial data. Reported [[Microcurrent device|microcurrent]] effects are temporary in available studies. Professional microneedling has clinical studies; [[Derma roller (home)|home derma rolling]] has less research and carries an infection risk noted by dermatologists.</p>`,
       },
     ],
   },
@@ -165,26 +177,26 @@ window.LM_GUIDES = [
     slug: 'hair-loss',
     title: 'Hair Loss Primer',
     kicker: 'Hairline',
-    summary: 'Male-pattern hair loss responds best to early action. Here is the evidence ladder.',
+    summary: 'Male-pattern hair loss and the treatments people use, by level of evidence.',
     sections: [
       {
-        h: 'Why early matters',
-        body: `<p>Androgenetic alopecia is driven by DHT shrinking follicles over years. Medication is far better at <b>keeping</b> hair than regrowing it, so the best time to act is when you first notice.</p>`,
+        h: 'Background',
+        body: `<p>Androgenetic alopecia is driven by dihydrotestosterone (DHT) gradually miniaturising hair follicles. Clinical literature generally reports that medication is more effective at maintaining existing hair than regrowing lost hair, which is why many guides emphasise starting early.</p>`,
       },
       {
-        h: 'The evidence ladder',
+        h: 'Treatments by evidence level',
         body: `<table class="wtable">
-<tr><th>Tier</th><th>Entries</th></tr>
-<tr><td><span class="tag tag-strong">Strong</span></td><td>[[Finasteride]], [[Dutasteride]] (Rx, DHT blockers) and [[Minoxidil]] (OTC, growth stimulant). Most protocols combine a blocker with minoxidil.</td></tr>
-<tr><td><span class="tag tag-moderate">Device</span></td><td>[[Laser hair-growth cap]], [[Laser comb]], [[Scalp microneedling roller]] — supporting players.</td></tr>
-<tr><td><span class="tag tag-limited">Limited</span></td><td>[[Saw palmetto]], [[Pumpkin seed oil]], [[Melatonin (topical)]], [[Biotin]] (only helps if you are deficient).</td></tr>
-<tr><td><span class="tag tag-unproven">Research</span></td><td>[[RU58841]], [[Pyrilutamide]] — not approved, quality unknown.</td></tr>
+<tr><th>Evidence</th><th>Entries</th></tr>
+<tr><td><span class="tag tag-strong">Strong</span></td><td>[[Finasteride]], [[Dutasteride]] (Rx, DHT blockers) and [[Minoxidil]] (OTC). Many treatment protocols combine a DHT blocker with minoxidil.</td></tr>
+<tr><td><span class="tag tag-moderate">Devices</span></td><td>[[Laser hair-growth cap]], [[Laser comb]], [[Scalp microneedling roller]].</td></tr>
+<tr><td><span class="tag tag-limited">Limited</span></td><td>[[Saw palmetto]], [[Pumpkin seed oil]], [[Melatonin (topical)]], [[Biotin]] (studied mainly in deficiency).</td></tr>
+<tr><td><span class="tag tag-unproven">Research compounds</span></td><td>[[RU58841]], [[Pyrilutamide]] — not approved for human use; used on hair-loss forums.</td></tr>
 </table>`,
       },
       {
-        h: 'Cosmetic cover',
-        body: `<p>While treatment works: a shorter cut from someone good with [[Pro clippers + edge trimmer|clippers]], [[Hair fibers]], [[Hairline concealer / powder]], or a [[Thickening spray]].</p>
-<p>Check [[Iron]] and [[Vitamin D]] levels with a doctor if shedding is sudden or diffuse — that is often not pattern loss at all.</p>`,
+        h: 'Cosmetic options',
+        body: `<p>Common cosmetic approaches include shorter haircuts, [[Hair fibers]], [[Hairline concealer / powder]] and [[Thickening spray]].</p>
+<p>Clinicians often check [[Iron]] and [[Vitamin D]] levels when shedding is sudden or diffuse, since that pattern can have causes other than androgenetic alopecia.</p>`,
       },
     ],
   },
@@ -192,53 +204,62 @@ window.LM_GUIDES = [
     slug: 'fat-loss',
     title: 'Fat Loss & Facial Leanness',
     kicker: 'Body comp',
-    summary: 'The jawline upgrade that is usually just a calorie deficit.',
+    summary: 'How body fat relates to facial appearance, and the methods people use.',
     sections: [
       {
-        h: 'Why it matters for the face',
-        body: `<p>Facial fat sits over the exact features looksmaxxing obsesses over — jaw angle, cheekbones, under-chin. Dropping body fat changes [[guide:facial-metrics|jawline definition]] readings more than any jaw gadget ever will.</p>`,
+        h: 'Body fat and the face',
+        body: `<p>Facial fat overlies features the looksmaxxing community focuses on — jaw angle, cheekbones and the area under the chin. Changes in body fat therefore change the readings for [[guide:facial-metrics|jawline definition]] and similar measures.</p>`,
       },
       {
-        h: 'The basics',
+        h: 'Common methods',
         body: `<ul>
-<li>A modest calorie deficit, high protein ([[Whey protein]] is just convenient food).</li>
-<li>Lift to keep muscle: [[Adjustable dumbbells]], [[Pull-up bar]], [[Barbell + plates]] — the best evidence-to-cost ratio in the catalog.</li>
-<li>Walk a lot. A [[Walking pad]] counts.</li>
-<li>Track trends, not days: [[Smart scale]] and [[Measuring tape]].</li>
+<li>A calorie deficit with high protein intake ([[Whey protein]] is a common convenience food).</li>
+<li>Resistance training to retain muscle: [[Adjustable dumbbells]], [[Pull-up bar]], [[Barbell + plates]].</li>
+<li>Increased daily walking, e.g. a [[Walking pad]].</li>
+<li>Tracking trends with a [[Smart scale]] and [[Measuring tape]].</li>
 </ul>`,
       },
       {
-        h: 'Medication',
-        body: `<p>GLP-1 drugs — [[Semaglutide]], [[Tirzepatide]], [[Liraglutide]] — have strong evidence for weight loss and are prescription medicine. [[Retatrutide]] and [[Cagrilintide]] are still in trials; gray-market versions are research chems.</p>
-<p>Fat burners like [[EGCG]] and [[Capsaicin]] are rounding error. [[EMS ab belt|EMS belts]] and [[Waist trainer|waist trainers]] do not remove fat.</p>`,
+        h: 'Medication and supplements',
+        body: `<p>GLP-1 receptor agonists — [[Semaglutide]], [[Tirzepatide]], [[Liraglutide]] — are prescription medicines with strong trial evidence for weight loss. [[Retatrutide]] and [[Cagrilintide]] are in clinical trials; versions sold online outside trials are unregulated.</p>
+<p>Supplements such as [[EGCG]] and [[Capsaicin]] show small effects in published studies. Manufacturers market [[EMS ab belt|EMS belts]] and [[Waist trainer|waist trainers]] for fat loss; published studies have not shown fat reduction from them.</p>`,
       },
     ],
   },
   {
     slug: 'myths',
-    title: 'Myths & Scams',
-    kicker: 'Debunked',
-    summary: 'Popular looksmaxxing claims that the evidence does not support.',
+    title: 'Contested Claims',
+    kicker: 'Claims & evidence',
+    summary: 'Popular looksmaxxing claims, what proponents say, and what published research reports.',
     sections: [
       {
-        h: '"Mewing will rebuild my jaw"',
-        body: `<p>Tongue posture does not remodel adult bone in any meaningful way. [[Mewing appliances]] and [[Mouth tape]] claims for adult jaw change are unsupported. Real skeletal change in adults means orthodontics or surgery.</p>`,
+        h: 'About this page',
+        body: `<p>This page documents claims that are widely held in looksmaxxing communities but debated or untested in the research literature. For each, it sets out what proponents say and what researchers and clinicians have reported. It takes no position.</p>`,
       },
       {
-        h: '"Chewing makes a sharper jaw"',
-        body: `<p>A [[Jaw exerciser]] or [[Mastic / hard gum]] can grow the masseter muscles — which makes the lower face <b>wider</b>, not more defined. Overuse can aggravate TMJ.</p>`,
+        h: 'Mewing and adult jaw development',
+        body: `<p><b>Proponents' view:</b> Practitioners, following orthotropics as developed by John and Mike Mew, hold that sustained correct tongue posture against the palate can gradually reshape the maxilla and jawline, including in adults. Many forum users post before-and-after photos as support. Related products include [[Mewing appliances]] and [[Mouth tape]].</p>
+<p><b>Research and expert view:</b> There are few controlled studies of mewing in adults. Orthodontic literature describes tongue posture as one influence on facial growth in children; most orthodontists describe adult skeletal change as requiring orthodontic or surgical treatment. Evidence status: <span class="tag tag-unproven">Unproven</span>.</p>`,
       },
       {
-        h: '"Straps, clips, and tape reshape your face"',
-        body: `<p>[[Face slimming strap]], [[Nose reshaping clip]], and [[Facial lifting tape]] do nothing lasting. At most they compress tissue for a few minutes.</p>`,
+        h: 'Chewing and jaw definition',
+        body: `<p><b>Proponents' view:</b> Users of a [[Jaw exerciser]] or [[Mastic / hard gum]] say that training the masseter muscles produces a sharper, more defined jaw.</p>
+<p><b>Research and expert view:</b> Studies show resistance chewing can increase masseter size. Clinicians note that larger masseters widen the lower face, and that overuse is associated with temporomandibular joint symptoms. Evidence status for "more definition": <span class="tag tag-limited">Limited</span>.</p>`,
       },
       {
-        h: '"Tanning pills and injections are a shortcut"',
-        body: `<p>[[Canthaxanthin]] is linked to crystal deposits in the retina. [[Melanotan II]] is unapproved and gray-market. The proven tan in a bottle is [[Dihydroxyacetone]] — i.e. [[Self-tanning mousse]]. Skip the [[UV tanning bed]].</p>`,
+        h: 'Straps, clips and tape',
+        body: `<p><b>Proponents' view:</b> Sellers and some users say a [[Face slimming strap]], [[Nose reshaping clip]] or [[Facial lifting tape]] can reshape the face over time.</p>
+<p><b>Research and expert view:</b> No published studies have demonstrated lasting structural change; any effect described in the literature is temporary tissue compression. Evidence status: <span class="tag tag-unproven">Unproven</span>.</p>`,
       },
       {
-        h: '"Peptides from a research site are basically supplements"',
-        body: `<p>They are not. [[BPC-157]], [[TB-500]], [[MK-677]], and SARMs like [[Ostarine]] are not approved for human use, have thin human data, and are sold with no quality guarantees.</p>`,
+        h: 'Tanning supplements and injections',
+        body: `<p><b>Proponents' view:</b> Users of [[Melanotan II]] and tanning pills such as [[Canthaxanthin]] report fast, deep tans with less sun exposure.</p>
+<p><b>Research and expert view:</b> Melanotan II is not approved by any major regulator, and regulators including the FDA, MHRA and TGA have issued warnings. Canthaxanthin at tanning doses has been associated with retinal crystal deposits. [[Dihydroxyacetone]] (the active in [[Self-tanning mousse|self-tanners]]) is the approved cosmetic option.</p>`,
+      },
+      {
+        h: 'Research peptides',
+        body: `<p><b>Proponents' view:</b> Users of [[BPC-157]], [[TB-500]], [[MK-677]] and SARMs such as [[Ostarine]] report faster recovery, muscle gain or fat loss, often citing animal studies.</p>
+<p><b>Research and expert view:</b> These compounds are not approved for human use; human trial data are limited or absent for the uses described, and products sold online are not quality-controlled. Several have regulatory warnings.</p>`,
       },
     ],
   },
@@ -246,21 +267,21 @@ window.LM_GUIDES = [
     slug: 'glossary',
     title: 'Slang Glossary',
     kicker: 'Terms',
-    summary: 'Forum vocabulary, translated.',
+    summary: 'Forum vocabulary, defined.',
     sections: [
       {
         h: 'A–Z',
         body: `<dl class="defs">
-<dt>Ascend / ascension</dt><dd>Noticeably improving your looks over time.</dd>
-<dt>Bloat</dt><dd>Water retention and puffiness, often from sodium, alcohol, or poor sleep. See [[cat:depuff|De-Puff]].</dd>
+<dt>Ascend / ascension</dt><dd>Noticeably improving one's looks over time.</dd>
+<dt>Bloat</dt><dd>Water retention and facial puffiness. See [[cat:depuff|De-Puff]].</dd>
 <dt>Canthal tilt</dt><dd>Eye-corner angle. See [[guide:facial-metrics|Facial Metrics]].</dd>
-<dt>Hardmaxxing</dt><dd>Surgery, injectables, drugs. See [[guide:what-is-looksmaxxing|What Is Looksmaxxing]].</dd>
-<dt>Hunter eyes</dt><dd>Forum shorthand for deep-set eyes with positive tilt and low upper-eyelid exposure.</dd>
-<dt>Leanmaxxing</dt><dd>Getting lean to reveal facial structure. See [[guide:fat-loss|Fat Loss]].</dd>
-<dt>Mewing</dt><dd>Resting the whole tongue on the palate. Fine for posture; not a bone-remodeling tool. See [[guide:myths|Myths]].</dd>
-<dt>Mogging</dt><dd>Out-looking someone. Mostly a forum game; ignore it.</dd>
-<dt>Softmaxxing</dt><dd>Non-invasive improvements — where most real gains are.</dd>
-<dt>Skinmaxxing</dt><dd>A skincare focus. See [[guide:skincare|Skincare 101]].</dd>
+<dt>Hardmaxxing</dt><dd>Surgery, injectables and drugs. See [[guide:what-is-looksmaxxing|What Is Looksmaxxing]].</dd>
+<dt>Hunter eyes</dt><dd>Forum term for deep-set eyes with positive tilt and little visible upper eyelid.</dd>
+<dt>Leanmaxxing</dt><dd>Reducing body fat to reveal facial structure. See [[guide:fat-loss|Fat Loss]].</dd>
+<dt>Mewing</dt><dd>Resting the whole tongue against the palate. See [[guide:myths|Contested Claims]].</dd>
+<dt>Mogging</dt><dd>Being judged better-looking than someone else.</dd>
+<dt>Softmaxxing</dt><dd>Non-invasive improvements.</dd>
+<dt>Skinmaxxing</dt><dd>A focus on skincare. See [[guide:skincare|Skincare 101]].</dd>
 </dl>`,
       },
     ],

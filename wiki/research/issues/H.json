@@ -1,0 +1,4992 @@
+[
+ {
+  "issue": "style",
+  "summary": "Presentation covers clothes, hair, glasses, makeup, color analysis and photography, from tailoring and haircuts to contouring, lens and angle choices, and fashion subcultures.",
+  "approaches": [
+   {
+    "name": "Tailoring (any clothes)",
+    "kind": "gear",
+    "category": "style",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "tailoring (any clothes)"
+    ],
+    "tier": "mainstream",
+    "why": "Altering off-the-rack clothes to fit shoulders, waist and hem",
+    "seenAt": null
+   },
+   {
+    "name": "Clothes steamer",
+    "kind": "gear",
+    "category": "style",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "clothes steamer"
+    ],
+    "tier": "mainstream",
+    "why": "Removes wrinkles quickly for a sharper look",
+    "seenAt": null
+   },
+   {
+    "name": "Fabric shaver",
+    "kind": "gear",
+    "category": "style",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "fabric shaver"
+    ],
+    "tier": "mainstream",
+    "why": "Removes pilling to make knitwear look new",
+    "seenAt": null
+   },
+   {
+    "name": "Compression undershirt",
+    "kind": "gear",
+    "category": "style",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "compression undershirt"
+    ],
+    "tier": "mainstream",
+    "why": "Smooths torso under shirts",
+    "seenAt": null
+   },
+   {
+    "name": "Collar stays",
+    "kind": "gear",
+    "category": "style",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "collar stays"
+    ],
+    "tier": "mainstream",
+    "why": "Keeps dress shirt collars crisp",
+    "seenAt": null
+   },
+   {
+    "name": "Shoe trees + polish kit",
+    "kind": "gear",
+    "category": "style",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "shoe trees + polish kit"
+    ],
+    "tier": "mainstream",
+    "why": "Maintains shoe shape and shine",
+    "seenAt": null
+   },
+   {
+    "name": "Good sunglasses",
+    "kind": "gear",
+    "category": "style",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "good sunglasses"
+    ],
+    "tier": "mainstream",
+    "why": "Frames that suit face shape, also hide under-eye issues",
+    "seenAt": null
+   },
+   {
+    "name": "Hairstyle maxxing",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "hairstyle maxxing"
+    ],
+    "tier": "forum",
+    "why": "Choosing a cut to suit face shape and hide flaws",
+    "seenAt": null
+   },
+   {
+    "name": "Color analysis",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "seasonal color analysis"
+    ],
+    "tier": "forum",
+    "why": "Seasonal palette (e.g. 12-season) to pick flattering clothing colors",
+    "seenAt": null
+   },
+   {
+    "name": "Dripmaxxing / fashion",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": true,
+    "aka": "drip",
+    "terms": [
+     "dripmaxxing"
+    ],
+    "tier": "forum",
+    "why": "Optimising clothing and outfits for attractiveness",
+    "seenAt": null
+   },
+   {
+    "name": "Beard maxxing",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "beard maxxing"
+    ],
+    "tier": "forum",
+    "why": "Beard shaping to improve jaw and face proportions",
+    "seenAt": null
+   },
+   {
+    "name": "Squintmaxxing",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "squintmaxxing"
+    ],
+    "tier": "forum",
+    "why": "Slight squint to create hunter-eye look in photos",
+    "seenAt": null
+   },
+   {
+    "name": "Dental work / teeth maxxing",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "dental work / teeth maxxing"
+    ],
+    "tier": "forum",
+    "why": "Whitening, alignment and veneers as part of overall presentation",
+    "seenAt": null
+   },
+   {
+    "name": "Hair dye / bleaching",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "hair dye / bleaching"
+    ],
+    "tier": "forum",
+    "why": "Changing hair color; bleached or dark hair for contrast",
+    "seenAt": null
+   },
+   {
+    "name": "Voice maxxing",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "voice maxxing"
+    ],
+    "tier": "forum",
+    "why": "Training deeper voice and resonance as presentation",
+    "seenAt": null
+   },
+   {
+    "name": "Smellmaxxing",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "smellmaxxing"
+    ],
+    "tier": "forum",
+    "why": "Fragrance and scent hygiene as attractiveness lever",
+    "seenAt": null
+   },
+   {
+    "name": "Face rating apps / AI scoring",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "face rating apps / ai scoring"
+    ],
+    "tier": "forum",
+    "why": "Using apps to score face photos and choose a photo angle/style",
+    "seenAt": null
+   },
+   {
+    "name": "Pheromone cologne",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "pheromone cologne"
+    ],
+    "tier": "fringe",
+    "why": "Fragrances marketed with human pheromones",
+    "seenAt": null
+   },
+   {
+    "name": "Cologne / perfume (eau de parfum)",
+    "kind": "gear",
+    "category": "style",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "cologne / perfume (eau de parfum)"
+    ],
+    "tier": "mainstream",
+    "why": "Signature fragrance",
+    "seenAt": null
+   },
+   {
+    "name": "Concealer (for men)",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "concealer (for men)"
+    ],
+    "tier": "forum",
+    "why": "Covering dark circles and blemishes",
+    "seenAt": null
+   },
+   {
+    "name": "Eyebrow pencil / powder",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "eyebrow pencil / powder"
+    ],
+    "tier": "mainstream",
+    "why": "Filling sparse brows",
+    "seenAt": null
+   },
+   {
+    "name": "Hair styling clay & pomade",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "hair styling clay & pomade"
+    ],
+    "tier": "mainstream",
+    "why": "Texture and hold for cut styling",
+    "seenAt": null
+   },
+   {
+    "name": "Colored / circle contact lenses",
+    "kind": "gear",
+    "category": "style",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "colored / circle contact lenses"
+    ],
+    "tier": "mainstream",
+    "why": "Changing eye color or apparent size",
+    "seenAt": null
+   },
+   {
+    "name": "Brow tint kit",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "brow tint kit"
+    ],
+    "tier": "mainstream",
+    "why": "Darkening brows for definition",
+    "seenAt": null
+   },
+   {
+    "name": "Brow lamination kit",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "brow lamination kit"
+    ],
+    "tier": "mainstream",
+    "why": "Brushed-up fuller brows",
+    "seenAt": null
+   },
+   {
+    "name": "Eyelash curler",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "eyelash curler"
+    ],
+    "tier": "mainstream",
+    "why": "Opens eyes",
+    "seenAt": null
+   },
+   {
+    "name": "Lash lift kit",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "lash lift kit"
+    ],
+    "tier": "mainstream",
+    "why": "Semi-permanent lash curl",
+    "seenAt": null
+   },
+   {
+    "name": "Pro clippers + edge trimmer",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "pro clippers + edge trimmer"
+    ],
+    "tier": "mainstream",
+    "why": "Sharp fades and lineups at home",
+    "seenAt": null
+   },
+   {
+    "name": "Hairline concealer / powder",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "hairline concealer / powder"
+    ],
+    "tier": "mainstream",
+    "why": "Fill thinning hairline for photos",
+    "seenAt": null
+   },
+   {
+    "name": "Foot orthotic insoles",
+    "kind": "gear",
+    "category": "posture",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "foot orthotic insoles"
+    ],
+    "tier": "mainstream",
+    "why": "Comfort, posture and some height",
+    "seenAt": null
+   },
+   {
+    "name": "Shoe lifts / elevator shoes",
+    "kind": "gear",
+    "category": "posture",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "shoe lifts / elevator shoes"
+    ],
+    "tier": "forum",
+    "why": "Hidden height inside shoes",
+    "seenAt": null
+   },
+   {
+    "name": "Posture corrector brace",
+    "kind": "gear",
+    "category": "posture",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "posture corrector brace"
+    ],
+    "tier": "mainstream",
+    "why": "Pulls shoulders back to look taller/broader",
+    "seenAt": null
+   },
+   {
+    "name": "Wig (lace front)",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "wig (lace front)"
+    ],
+    "tier": "mainstream",
+    "why": "Full hair replacement look",
+    "seenAt": null
+   },
+   {
+    "name": "Hair system / toupee",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "hair system / toupee"
+    ],
+    "tier": "mainstream",
+    "why": "Non-surgical bonded hair piece",
+    "seenAt": null
+   },
+   {
+    "name": "Silk pillowcase",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "silk pillowcase"
+    ],
+    "tier": "mainstream",
+    "why": "Less hair frizz and sleep creases",
+    "seenAt": null
+   },
+   {
+    "name": "Wardrobe capsule / minimalist wardrobe",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "wardrobe capsule / minimalist wardrobe"
+    ],
+    "tier": "mainstream",
+    "why": "Small set of well-fitting interchangeable basics",
+    "seenAt": null
+   },
+   {
+    "name": "Old money / quiet luxury style",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "old money / quiet luxury style"
+    ],
+    "tier": "forum",
+    "why": "Understated, logo-free tailored aesthetic",
+    "seenAt": null
+   },
+   {
+    "name": "Streetwear / techwear style",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "streetwear / techwear style"
+    ],
+    "tier": "forum",
+    "why": "Aesthetic-driven subculture clothing",
+    "seenAt": null
+   },
+   {
+    "name": "Preppy / Ivy style",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "preppy / ivy style"
+    ],
+    "tier": "forum",
+    "why": "Oxford shirts, chinos, loafers",
+    "seenAt": null
+   },
+   {
+    "name": "Fit-focused dressing for body type (shoulder-to-waist illusion)",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "v-taper dressing"
+    ],
+    "tier": "forum",
+    "why": "Clothes cut to emphasise V-taper and hide frame flaws",
+    "seenAt": null
+   },
+   {
+    "name": "Vertical stripes / monochrome elongation",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "monochrome outfit"
+    ],
+    "tier": "forum",
+    "why": "Dressing monochrome to look taller and slimmer",
+    "seenAt": null
+   },
+   {
+    "name": "Photo angle maxxing",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "photomaxxing"
+    ],
+    "tier": "forum",
+    "why": "Learning best camera angle, lens distance and head tilt",
+    "seenAt": null
+   },
+   {
+    "name": "Camera lens distortion (portrait lens 85mm)",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "selfie distortion"
+    ],
+    "tier": "forum",
+    "why": "Use longer focal length and distance to avoid nose/face distortion",
+    "seenAt": null
+   },
+   {
+    "name": "Photo lighting / golden hour",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "photo lighting / golden hour"
+    ],
+    "tier": "forum",
+    "why": "Soft side or window light for flattering photos",
+    "seenAt": null
+   },
+   {
+    "name": "Dating-profile photo optimization",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "photofeeler"
+    ],
+    "tier": "forum",
+    "why": "Choosing and ordering photos using data (e.g. Photofeeler)",
+    "seenAt": null
+   },
+   {
+    "name": "Photofeeler testing",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "photofeeler testing"
+    ],
+    "tier": "forum",
+    "why": "Crowd-rating profile photos for attractiveness and trust",
+    "seenAt": null
+   },
+   {
+    "name": "Glasses frame selection by face shape",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "glasses frame selection by face shape"
+    ],
+    "tier": "mainstream",
+    "why": "Frames that balance face shape or add hunter-eyes look",
+    "seenAt": null
+   },
+   {
+    "name": "Glasses to mask facial flaws",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "glasses to mask facial flaws"
+    ],
+    "tier": "forum",
+    "why": "Thick frames to hide bags, asymmetry or nose",
+    "seenAt": null
+   },
+   {
+    "name": "Colored lenses / blue light glasses",
+    "kind": "gear",
+    "category": "style",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "colored lenses / blue light glasses"
+    ],
+    "tier": "fringe",
+    "why": "Tinted lenses claimed to reduce eye strain/puffiness",
+    "seenAt": null
+   },
+   {
+    "name": "Skin-tone matching foundation / BB cream for men",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "skin-tone matching foundation / bb cream for men"
+    ],
+    "tier": "forum",
+    "why": "Light base makeup to even skin tone",
+    "seenAt": null
+   },
+   {
+    "name": "Men's makeup (contour, bronzer, highlight)",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "contouring for men"
+    ],
+    "tier": "forum",
+    "why": "Subtle contouring to enhance jaw and cheekbones",
+    "seenAt": null
+   },
+   {
+    "name": "Bronzer",
+    "kind": "gear",
+    "category": "tanGear",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "bronzer"
+    ],
+    "tier": "mainstream",
+    "why": "Instant tan-tone for face",
+    "seenAt": null
+   },
+   {
+    "name": "Lip balm / tinted lip color",
+    "kind": "gear",
+    "category": "grooming",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "lip balm / tinted lip color"
+    ],
+    "tier": "mainstream",
+    "why": "Healthy lip color",
+    "seenAt": null
+   },
+   {
+    "name": "Teeth whitening before photos",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "teeth whitening before photos"
+    ],
+    "tier": "mainstream",
+    "why": "Quick whitening for photos",
+    "seenAt": null
+   },
+   {
+    "name": "Undercut / fade with textured top",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "textured crop"
+    ],
+    "tier": "forum",
+    "why": "Haircut frequently recommended in community discussion",
+    "seenAt": null
+   },
+   {
+    "name": "Buzz cut for thinning hair",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "buzz cut for thinning hair"
+    ],
+    "tier": "forum",
+    "why": "Shaving down to mask hair loss",
+    "seenAt": null
+   },
+   {
+    "name": "Hair length for face shape (long hair maxxing)",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "hair length for face shape (long hair maxxing)"
+    ],
+    "tier": "forum",
+    "why": "Longer hair to frame a face or soften features",
+    "seenAt": null
+   },
+   {
+    "name": "Facial hair as camouflage (weak chin)",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "facial hair as camouflage (weak chin)"
+    ],
+    "tier": "forum",
+    "why": "Beard used to mask recessed chin or jaw",
+    "seenAt": null
+   },
+   {
+    "name": "Posture awareness",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "posture awareness"
+    ],
+    "tier": "mainstream",
+    "why": "Standing tall to improve presence",
+    "seenAt": null
+   },
+   {
+    "name": "Body language / presence training",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "body language / presence training"
+    ],
+    "tier": "mainstream",
+    "why": "Open stance, eye contact, slower movements",
+    "seenAt": null
+   },
+   {
+    "name": "Jewelry / watch / accessories",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "jewelry / watch / accessories"
+    ],
+    "tier": "mainstream",
+    "why": "Minimal accessories to elevate outfit",
+    "seenAt": null
+   },
+   {
+    "name": "Grooming routine (nails, ear/nose hair)",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "grooming routine (nails, ear/nose hair)"
+    ],
+    "tier": "mainstream",
+    "why": "Basic hygiene details raising perceived polish",
+    "seenAt": null
+   },
+   {
+    "name": "Skin-care baseline routine",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "skin-care baseline routine"
+    ],
+    "tier": "mainstream",
+    "why": "Cleanser, moisturiser and SPF as foundation for appearance",
+    "seenAt": null
+   },
+   {
+    "name": "Style subreddit / fit-check culture (r/malefashionadvice)",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "style subreddit / fit-check culture (r/malefashionadvice)"
+    ],
+    "tier": "forum",
+    "why": "Community outfit feedback",
+    "seenAt": null
+   },
+   {
+    "name": "Style AI apps / virtual try-on",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "style ai apps / virtual try-on"
+    ],
+    "tier": "forum",
+    "why": "AI to suggest hairstyles or outfits",
+    "seenAt": null
+   },
+   {
+    "name": "Hairstyle simulators / AI haircut preview",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "hairstyle simulators / ai haircut preview"
+    ],
+    "tier": "forum",
+    "why": "Preview cuts on your face before committing",
+    "seenAt": null
+   }
+  ]
+ },
+ {
+  "issue": "sleep-recovery",
+  "summary": "Sleep and recovery are discussed in relation to facial puffiness, skin and hormones; approaches range from darkness and breathing aids to supplement stacks, peptides and sedatives.",
+  "approaches": [
+   {
+    "name": "Blackout curtains",
+    "kind": "gear",
+    "category": "sleep",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "blackout curtains"
+    ],
+    "tier": "mainstream",
+    "why": "Blackout sleeping environment for sleep",
+    "seenAt": null
+   },
+   {
+    "name": "Sleep mask",
+    "kind": "gear",
+    "category": "sleep",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "sleep mask"
+    ],
+    "tier": "mainstream",
+    "why": "Blocks light",
+    "seenAt": null
+   },
+   {
+    "name": "Humidifier",
+    "kind": "gear",
+    "category": "sleep",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "humidifier"
+    ],
+    "tier": "mainstream",
+    "why": "Reduces dry skin/airway overnight",
+    "seenAt": null
+   },
+   {
+    "name": "White noise machine",
+    "kind": "gear",
+    "category": "sleep",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "white noise machine"
+    ],
+    "tier": "mainstream",
+    "why": "Masks noise",
+    "seenAt": null
+   },
+   {
+    "name": "Cooling eye mask",
+    "kind": "gear",
+    "category": "sleep",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "cooling eye mask"
+    ],
+    "tier": "mainstream",
+    "why": "Reduces morning puffiness",
+    "seenAt": null
+   },
+   {
+    "name": "Nasal dilator / strips",
+    "kind": "gear",
+    "category": "sleep",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "nasal dilator / strips"
+    ],
+    "tier": "mainstream",
+    "why": "Easier nasal breathing at night",
+    "seenAt": null
+   },
+   {
+    "name": "Sunrise alarm clock",
+    "kind": "gear",
+    "category": "sleep",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "sunrise alarm clock"
+    ],
+    "tier": "mainstream",
+    "why": "Gradual light wake-up",
+    "seenAt": null
+   },
+   {
+    "name": "Anti-wrinkle pillow",
+    "kind": "gear",
+    "category": "sleep",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "anti-wrinkle pillow"
+    ],
+    "tier": "mainstream",
+    "why": "Reduces sleep creases",
+    "seenAt": null
+   },
+   {
+    "name": "Mattress (medium-firm)",
+    "kind": "gear",
+    "category": "sleep",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "mattress (medium-firm)"
+    ],
+    "tier": "mainstream",
+    "why": "Support and spinal alignment",
+    "seenAt": null
+   },
+   {
+    "name": "Light box / SAD lamp",
+    "kind": "gear",
+    "category": "sleep",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "light box / sad lamp"
+    ],
+    "tier": "mainstream",
+    "why": "Morning bright light to set circadian rhythm",
+    "seenAt": null
+   },
+   {
+    "name": "Silk pillowcase",
+    "kind": "gear",
+    "category": "hairGear",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "silk pillowcase"
+    ],
+    "tier": "mainstream",
+    "why": "Less friction on skin/hair",
+    "seenAt": null
+   },
+   {
+    "name": "Mouth tape",
+    "kind": "gear",
+    "category": "teeth",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "mouth tape"
+    ],
+    "tier": "forum",
+    "why": "Taping lips closed at night for nasal breathing",
+    "seenAt": null
+   },
+   {
+    "name": "Bruxism night guard",
+    "kind": "gear",
+    "category": "teeth",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "bruxism night guard"
+    ],
+    "tier": "mainstream",
+    "why": "Protects teeth from grinding",
+    "seenAt": null
+   },
+   {
+    "name": "Mandibular advancement device (MAD)",
+    "kind": "gear",
+    "category": "teeth",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "mandibular advancement device (mad)"
+    ],
+    "tier": "mainstream",
+    "why": "Oral appliance for snoring and mild OSA",
+    "seenAt": null
+   },
+   {
+    "name": "Sleepmaxxing",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "sleepmaxxing"
+    ],
+    "tier": "forum",
+    "why": "Umbrella forum term for optimising sleep for looks",
+    "seenAt": null
+   },
+   {
+    "name": "Sleeping position for face symmetry (sleep posture)",
+    "kind": "meta",
+    "category": "bonehacks",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "sleeping position for face symmetry (sleep posture)"
+    ],
+    "tier": "forum",
+    "why": "Sleeping on the back, claimed to reduce facial asymmetry and wrinkles",
+    "seenAt": null
+   },
+   {
+    "name": "Sleep on your back (anti-wrinkle)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "sleep on your back (anti-wrinkle)"
+    ],
+    "tier": "mainstream",
+    "why": "Avoids sleep lines and facial compression",
+    "seenAt": null
+   },
+   {
+    "name": "Nasal breathing meta",
+    "kind": "meta",
+    "category": "bonehacks",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "nasal breathing meta"
+    ],
+    "tier": "forum",
+    "why": "Breathing through nose all day and night",
+    "seenAt": null
+   },
+   {
+    "name": "Melatonin (oral)",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "melatonin (oral)"
+    ],
+    "tier": "mainstream",
+    "why": "Common sleep-onset supplement",
+    "seenAt": null
+   },
+   {
+    "name": "Magnesium",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "magnesium"
+    ],
+    "tier": "mainstream",
+    "why": "Magnesium glycinate/threonate for sleep",
+    "seenAt": null
+   },
+   {
+    "name": "Glycine",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "glycine"
+    ],
+    "tier": "mainstream",
+    "why": "3g before bed for sleep quality",
+    "seenAt": null
+   },
+   {
+    "name": "Apigenin",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "apigenin"
+    ],
+    "tier": "forum",
+    "why": "Chamomile flavonoid popularised by Huberman sleep stack",
+    "seenAt": null
+   },
+   {
+    "name": "L-theanine",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "l-theanine"
+    ],
+    "tier": "mainstream",
+    "why": "Calming amino acid for sleep",
+    "seenAt": null
+   },
+   {
+    "name": "Ashwagandha",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "ashwagandha"
+    ],
+    "tier": "forum",
+    "why": "Adaptogen for stress and sleep",
+    "seenAt": null
+   },
+   {
+    "name": "Magnesium threonate",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "magnesium threonate"
+    ],
+    "tier": "forum",
+    "why": "Brain-penetrant magnesium form in Huberman stack",
+    "seenAt": null
+   },
+   {
+    "name": "Huberman sleep stack",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "huberman sleep stack"
+    ],
+    "tier": "forum",
+    "why": "Magnesium threonate + apigenin + theanine at bedtime",
+    "seenAt": null
+   },
+   {
+    "name": "Inositol",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "inositol"
+    ],
+    "tier": "forum",
+    "why": "Added to sleep stacks for calming",
+    "seenAt": null
+   },
+   {
+    "name": "Valerian root",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "valerian root"
+    ],
+    "tier": "mainstream",
+    "why": "Herbal sedative",
+    "seenAt": null
+   },
+   {
+    "name": "Passionflower / chamomile tea",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "passionflower / chamomile tea"
+    ],
+    "tier": "mainstream",
+    "why": "Herbal bedtime tea",
+    "seenAt": null
+   },
+   {
+    "name": "Tart cherry juice",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "tart cherry juice"
+    ],
+    "tier": "forum",
+    "why": "Natural melatonin source for sleep",
+    "seenAt": null
+   },
+   {
+    "name": "Kiwi before bed",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "kiwi before bed"
+    ],
+    "tier": "forum",
+    "why": "Studies suggest kiwi aids sleep",
+    "seenAt": null
+   },
+   {
+    "name": "GABA supplement",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "gaba supplement"
+    ],
+    "tier": "fringe",
+    "why": "Supplement with low reported oral bioavailability",
+    "seenAt": null
+   },
+   {
+    "name": "Phenibut",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "phenibut"
+    ],
+    "tier": "dangerous",
+    "why": "GABA-B agonist; dependence and withdrawal risks",
+    "seenAt": null
+   },
+   {
+    "name": "Diphenhydramine / doxylamine sleep aids",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "diphenhydramine / doxylamine sleep aids"
+    ],
+    "tier": "dangerous",
+    "why": "Sedating antihistamines; tolerance and cognitive risks",
+    "seenAt": null
+   },
+   {
+    "name": "Cannabis / CBD for sleep",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "cannabis / cbd for sleep"
+    ],
+    "tier": "mainstream",
+    "why": "Used for sleep onset",
+    "seenAt": null
+   },
+   {
+    "name": "Alcohol as sleep aid",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "alcohol as sleep aid"
+    ],
+    "tier": "dangerous",
+    "why": "Sedating; studies report reduced sleep quality and facial fluid retention",
+    "seenAt": null
+   },
+   {
+    "name": "Trazodone / prescription sleep meds",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "trazodone / prescription sleep meds"
+    ],
+    "tier": "mainstream",
+    "why": "Prescription route for insomnia",
+    "seenAt": null
+   },
+   {
+    "name": "Zolpidem (Ambien)",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "zolpidem (ambien)"
+    ],
+    "tier": "dangerous",
+    "why": "Z-drug; dependence risk",
+    "seenAt": null
+   },
+   {
+    "name": "DSIP (delta sleep-inducing peptide)",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "dsip (delta sleep-inducing peptide)"
+    ],
+    "tier": "fringe",
+    "why": "Research peptide claimed to promote deep sleep",
+    "seenAt": null
+   },
+   {
+    "name": "Growth hormone peptides at bedtime",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "growth hormone peptides at bedtime"
+    ],
+    "tier": "forum",
+    "why": "Taking ipamorelin/CJC pre-bed to amplify nocturnal GH pulse",
+    "seenAt": null
+   },
+   {
+    "name": "Ipamorelin",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "ipamorelin"
+    ],
+    "tier": "forum",
+    "why": "GH secretagogue taken before bed",
+    "seenAt": null
+   },
+   {
+    "name": "CJC-1295",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "cjc-1295"
+    ],
+    "tier": "forum",
+    "why": "GHRH analog dosed before bed",
+    "seenAt": null
+   },
+   {
+    "name": "MK-677 (Ibutamoren)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "mk-677 (ibutamoren)"
+    ],
+    "tier": "forum",
+    "why": "Oral GH secretagogue, claims deeper sleep",
+    "seenAt": null
+   },
+   {
+    "name": "Morning sunlight viewing",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "morning sunlight viewing"
+    ],
+    "tier": "forum",
+    "why": "10-30 min outside after waking to anchor circadian clock",
+    "seenAt": null
+   },
+   {
+    "name": "Blue light blocking glasses",
+    "kind": "gear",
+    "category": "sleep",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "blue light blocking glasses"
+    ],
+    "tier": "fringe",
+    "why": "Amber glasses at night to protect melatonin",
+    "seenAt": null
+   },
+   {
+    "name": "Red light at night",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "red light at night"
+    ],
+    "tier": "forum",
+    "why": "Using red bulbs instead of white in evening",
+    "seenAt": null
+   },
+   {
+    "name": "Screen curfew / dopamine detox",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "screen curfew / dopamine detox"
+    ],
+    "tier": "forum",
+    "why": "No screens before bed",
+    "seenAt": null
+   },
+   {
+    "name": "Consistent sleep schedule",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "consistent sleep schedule"
+    ],
+    "tier": "evidence",
+    "why": "Same bed/wake time",
+    "seenAt": null
+   },
+   {
+    "name": "Bedroom temperature (cold room, 65F)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "bedroom temperature (cold room, 65f)"
+    ],
+    "tier": "evidence",
+    "why": "Cool bedroom temperature for sleep",
+    "seenAt": null
+   },
+   {
+    "name": "Cooling mattress pad (Eight Sleep)",
+    "kind": "gear",
+    "category": "sleep",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "cooling mattress pad (eight sleep)"
+    ],
+    "tier": "mainstream",
+    "why": "Active temperature-controlled bed",
+    "seenAt": null
+   },
+   {
+    "name": "Weighted blanket",
+    "kind": "gear",
+    "category": "sleep",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "weighted blanket"
+    ],
+    "tier": "mainstream",
+    "why": "Pressure for relaxation",
+    "seenAt": null
+   },
+   {
+    "name": "Sleep tracker (Oura / Whoop / Eight Sleep)",
+    "kind": "gear",
+    "category": "sleep",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "sleep tracker (oura / whoop / eight sleep)"
+    ],
+    "tier": "mainstream",
+    "why": "Tracking sleep stages and HRV",
+    "seenAt": null
+   },
+   {
+    "name": "Sleep hygiene basics",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "sleep hygiene basics"
+    ],
+    "tier": "evidence",
+    "why": "Dark, cool, quiet, regular schedule",
+    "seenAt": null
+   },
+   {
+    "name": "CBT-I",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "cbt-i"
+    ],
+    "tier": "evidence",
+    "why": "CBT-I, recommended as first-line insomnia therapy in clinical guidelines",
+    "seenAt": null
+   },
+   {
+    "name": "Caffeine cutoff (no caffeine after noon)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "caffeine cutoff (no caffeine after noon)"
+    ],
+    "tier": "mainstream",
+    "why": "Limiting late-day caffeine",
+    "seenAt": null
+   },
+   {
+    "name": "Late-night eating cutoff",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "late-night eating cutoff"
+    ],
+    "tier": "mainstream",
+    "why": "Not eating for 3 hours before bed, claimed to reduce puffiness and improve sleep",
+    "seenAt": null
+   },
+   {
+    "name": "Evening hot shower / bath",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "evening hot shower / bath"
+    ],
+    "tier": "mainstream",
+    "why": "Warm shower promotes sleep onset",
+    "seenAt": null
+   },
+   {
+    "name": "Cold showers",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "cold showers"
+    ],
+    "tier": "forum",
+    "why": "Cold exposure claimed to improve recovery and alertness",
+    "seenAt": null
+   },
+   {
+    "name": "Cold plunge / face ice dunk",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "cold plunge / face ice dunk"
+    ],
+    "tier": "forum",
+    "why": "Ice water for de-puffing and recovery",
+    "seenAt": null
+   },
+   {
+    "name": "Sauna",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "sauna"
+    ],
+    "tier": "forum",
+    "why": "Heat for recovery and sleep",
+    "seenAt": null
+   },
+   {
+    "name": "Magnesium oil / Epsom salt bath",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "magnesium oil / epsom salt bath"
+    ],
+    "tier": "fringe",
+    "why": "Transdermal magnesium claims",
+    "seenAt": null
+   },
+   {
+    "name": "Grounding / earthing mat",
+    "kind": "gear",
+    "category": "sleep",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "grounding / earthing mat"
+    ],
+    "tier": "fringe",
+    "why": "Sleep on grounded sheets for better sleep",
+    "seenAt": null
+   },
+   {
+    "name": "Mouth breathing correction / myofunctional therapy",
+    "kind": "meta",
+    "category": "bonehacks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "mouth breathing correction / myofunctional therapy"
+    ],
+    "tier": "mainstream",
+    "why": "Tongue and lip exercises to improve nasal breathing and OSA",
+    "seenAt": null
+   },
+   {
+    "name": "CPAP (sleep apnea)",
+    "kind": "gear",
+    "category": "sleep",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "cpap (sleep apnea)"
+    ],
+    "tier": "evidence",
+    "why": "Treats sleep apnea, improves puffiness and face",
+    "seenAt": null
+   },
+   {
+    "name": "Sleep apnea surgery / MMA",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "sleep apnea surgery / mma"
+    ],
+    "tier": "mainstream",
+    "why": "Jaw advancement for apnea; popular for looks",
+    "seenAt": null
+   },
+   {
+    "name": "Elevated head sleeping / wedge pillow",
+    "kind": "gear",
+    "category": "sleep",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "elevated head sleeping / wedge pillow"
+    ],
+    "tier": "mainstream",
+    "why": "Reduce morning facial puffiness",
+    "seenAt": null
+   },
+   {
+    "name": "Cervical pillow",
+    "kind": "gear",
+    "category": "posture",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "cervical pillow"
+    ],
+    "tier": "mainstream",
+    "why": "Neck alignment while sleeping",
+    "seenAt": null
+   },
+   {
+    "name": "Face tape / sleep patches for wrinkles",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "face tape / sleep patches for wrinkles"
+    ],
+    "tier": "forum",
+    "why": "Overnight forehead/face patches",
+    "seenAt": null
+   },
+   {
+    "name": "Overnight skin repair routine (retinol at night)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "overnight skin repair routine (retinol at night)"
+    ],
+    "tier": "mainstream",
+    "why": "Using night skin barrier repair",
+    "seenAt": null
+   },
+   {
+    "name": "Overnight lip/eye masks",
+    "kind": "gear",
+    "category": "faceDevices",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "overnight lip/eye masks"
+    ],
+    "tier": "mainstream",
+    "why": "Sleeping masks for skin",
+    "seenAt": null
+   },
+   {
+    "name": "Polyphasic sleep",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "polyphasic sleep"
+    ],
+    "tier": "fringe",
+    "why": "Sleep schedule hacks claiming less sleep",
+    "seenAt": null
+   },
+   {
+    "name": "Napping / NSDR / yoga nidra",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "napping / nsdr / yoga nidra"
+    ],
+    "tier": "forum",
+    "why": "Short rest protocols for recovery",
+    "seenAt": null
+   },
+   {
+    "name": "Deload weeks / rest days",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "deload weeks / rest days"
+    ],
+    "tier": "evidence",
+    "why": "Recovery management for training",
+    "seenAt": null
+   },
+   {
+    "name": "Massage / foam rolling / recovery gear",
+    "kind": "gear",
+    "category": "posture",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "massage / foam rolling / recovery gear"
+    ],
+    "tier": "mainstream",
+    "why": "Muscle recovery",
+    "seenAt": null
+   },
+   {
+    "name": "Foam roller",
+    "kind": "gear",
+    "category": "posture",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "foam roller"
+    ],
+    "tier": "mainstream",
+    "why": "Self myofascial release",
+    "seenAt": null
+   },
+   {
+    "name": "Creatine for sleep deprivation",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "creatine for sleep deprivation"
+    ],
+    "tier": "fringe",
+    "why": "Claimed to offset sleep loss",
+    "seenAt": null
+   },
+   {
+    "name": "Melatonin (topical)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "melatonin (topical)"
+    ],
+    "tier": "fringe",
+    "why": "Topical melatonin for skin",
+    "seenAt": null
+   },
+   {
+    "name": "Vitamin D",
+    "kind": "compound",
+    "category": "longevity",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "vitamin d"
+    ],
+    "tier": "mainstream",
+    "why": "Dosed in morning to avoid sleep disruption",
+    "seenAt": null
+   },
+   {
+    "name": "Sleep banking",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "sleep banking"
+    ],
+    "tier": "fringe",
+    "why": "Sleeping extra ahead of deprivation",
+    "seenAt": null
+   },
+   {
+    "name": "Sleep to look attractive (beauty sleep research)",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "sleep to look attractive (beauty sleep research)"
+    ],
+    "tier": "evidence",
+    "why": "Studies show sleep-deprived faces rated less attractive",
+    "seenAt": null
+   },
+   {
+    "name": "Eight hours target / 'sleep is looksmaxxing'",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "eight hours target / 'sleep is looksmaxxing'"
+    ],
+    "tier": "forum",
+    "why": "View of sleep as a foundational appearance factor in community discussion",
+    "seenAt": null
+   }
+  ]
+ },
+ {
+  "issue": "diet",
+  "summary": "Diet approaches include carnivore and raw-food eating, fasting, bulking and leanmaxxing, along with supplements, fat burners, and extreme practices with documented health risks.",
+  "approaches": [
+   {
+    "name": "Carnivore diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "carnivore diet"
+    ],
+    "tier": "forum",
+    "why": "Meat-only eating for skin, leanness and testosterone claims",
+    "seenAt": null
+   },
+   {
+    "name": "Raw meat / raw liver diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "raw meat / raw liver diet"
+    ],
+    "tier": "dangerous",
+    "why": "Eating raw beef/liver; parasite and bacterial risks",
+    "seenAt": null
+   },
+   {
+    "name": "Raw milk",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "raw milk"
+    ],
+    "tier": "dangerous",
+    "why": "Unpasteurised milk for skin/height/jaw claims; pathogen risk",
+    "seenAt": null
+   },
+   {
+    "name": "Seed oil avoidance",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "seed oil avoidance"
+    ],
+    "tier": "forum",
+    "why": "Avoiding canola/soy/sunflower oils for inflammation claims",
+    "seenAt": null
+   },
+   {
+    "name": "Fasting for face fat (intermittent fasting)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "fasting for face fat (intermittent fasting)"
+    ],
+    "tier": "forum",
+    "why": "Fasting windows to lose facial fat",
+    "seenAt": null
+   },
+   {
+    "name": "Extreme dieting / low body fat",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "extreme dieting / low body fat"
+    ],
+    "tier": "dangerous",
+    "why": "Single-digit body fat for gaunt/defined face",
+    "seenAt": null
+   },
+   {
+    "name": "Tapeworm diet",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "tapeworm diet"
+    ],
+    "tier": "dangerous",
+    "why": "Ingesting tapeworm for weight loss; associated with serious infection risk",
+    "seenAt": null
+   },
+   {
+    "name": "Alcohol/sugar/dairy face avoidance",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "alcohol/sugar/dairy face avoidance"
+    ],
+    "tier": "forum",
+    "why": "Cutting these for clearer, less puffy skin",
+    "seenAt": null
+   },
+   {
+    "name": "Carrot maxxing",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "carrot tan"
+    ],
+    "tier": "forum",
+    "why": "Eating carrots/carotenoids for golden skin tone",
+    "seenAt": null
+   },
+   {
+    "name": "Keto / ketogenic diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "keto / ketogenic diet"
+    ],
+    "tier": "mainstream",
+    "why": "Very low carb for leaning out and acne claims",
+    "seenAt": null
+   },
+   {
+    "name": "Low-carb diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "low-carb diet"
+    ],
+    "tier": "mainstream",
+    "why": "Moderate carb reduction",
+    "seenAt": null
+   },
+   {
+    "name": "Lion diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "lion diet"
+    ],
+    "tier": "forum",
+    "why": "Ruminant meat, salt and water only elimination diet",
+    "seenAt": null
+   },
+   {
+    "name": "Beef, salt and water diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "beef, salt and water diet"
+    ],
+    "tier": "forum",
+    "why": "Extreme carnivore variant",
+    "seenAt": null
+   },
+   {
+    "name": "Zero-carb carnivore",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "zero-carb carnivore"
+    ],
+    "tier": "forum",
+    "why": "No plant foods at all",
+    "seenAt": null
+   },
+   {
+    "name": "Ribeye and water carnivore",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "ribeye and water carnivore"
+    ],
+    "tier": "forum",
+    "why": "Strict carnivore monotony",
+    "seenAt": null
+   },
+   {
+    "name": "Carnivore-ish / animal-based diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "animal-based diet"
+    ],
+    "tier": "forum",
+    "why": "Meat, fruit, honey and raw dairy (Paul Saladino style)",
+    "seenAt": null
+   },
+   {
+    "name": "Raw egg consumption",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "raw eggs"
+    ],
+    "tier": "dangerous",
+    "why": "Raw eggs for protein, Rocky-style; salmonella and avidin risks",
+    "seenAt": null
+   },
+   {
+    "name": "Liver / organ meats (beef liver)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "beef liver"
+    ],
+    "tier": "forum",
+    "why": "Nutrient-dense organ meat for vitality and skin claims",
+    "seenAt": null
+   },
+   {
+    "name": "Desiccated organ supplements (beef organs capsules)",
+    "kind": "compound",
+    "category": "longevity",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "desiccated organ supplements (beef organs capsules)"
+    ],
+    "tier": "forum",
+    "why": "Freeze-dried liver/organ capsules as 'nature's multivitamin'",
+    "seenAt": null
+   },
+   {
+    "name": "Bone marrow / bone broth",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "bone marrow / bone broth"
+    ],
+    "tier": "forum",
+    "why": "Broth for collagen and skin claims",
+    "seenAt": null
+   },
+   {
+    "name": "Collagen peptides",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "collagen peptides"
+    ],
+    "tier": "mainstream",
+    "why": "Powder for skin and joint claims",
+    "seenAt": null
+   },
+   {
+    "name": "Beef tallow",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "beef tallow"
+    ],
+    "tier": "forum",
+    "why": "Cooking in and applying beef fat; also used as skincare",
+    "seenAt": null
+   },
+   {
+    "name": "Tallow skincare",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "tallow skincare"
+    ],
+    "tier": "fringe",
+    "why": "Rubbing beef tallow on the face as moisturiser",
+    "seenAt": null
+   },
+   {
+    "name": "Raw honey / bee pollen",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "raw honey / bee pollen"
+    ],
+    "tier": "fringe",
+    "why": "Honey and bee products for skin and testosterone claims",
+    "seenAt": null
+   },
+   {
+    "name": "Fruitarian diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "fruitarian diet"
+    ],
+    "tier": "fringe",
+    "why": "Eating only fruit for 'clean' skin",
+    "seenAt": null
+   },
+   {
+    "name": "Raw vegan diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "raw vegan diet"
+    ],
+    "tier": "fringe",
+    "why": "Uncooked plant-only diet",
+    "seenAt": null
+   },
+   {
+    "name": "Vegan diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "vegan diet"
+    ],
+    "tier": "mainstream",
+    "why": "Plant-based for skin/leanness",
+    "seenAt": null
+   },
+   {
+    "name": "Vegetarian / pescatarian",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "vegetarian / pescatarian"
+    ],
+    "tier": "mainstream",
+    "why": "Reduced meat diets",
+    "seenAt": null
+   },
+   {
+    "name": "Mediterranean diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "mediterranean diet"
+    ],
+    "tier": "evidence",
+    "why": "Mediterranean-style diet, studied for skin and general health",
+    "seenAt": null
+   },
+   {
+    "name": "Anti-inflammatory diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "anti-inflammatory diet"
+    ],
+    "tier": "mainstream",
+    "why": "Avoiding processed foods for less puffiness and acne",
+    "seenAt": null
+   },
+   {
+    "name": "Low-glycemic diet (for acne)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "low-glycemic diet (for acne)"
+    ],
+    "tier": "evidence",
+    "why": "Low-GI diet shown to modestly improve acne",
+    "seenAt": null
+   },
+   {
+    "name": "Dairy-free for skin",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "dairy-free for skin"
+    ],
+    "tier": "forum",
+    "why": "Dropping milk to reduce acne and facial puffiness",
+    "seenAt": null
+   },
+   {
+    "name": "No-sugar / sugar-free lifestyle",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "no-sugar / sugar-free lifestyle"
+    ],
+    "tier": "mainstream",
+    "why": "Avoiding sugar for glycation and acne",
+    "seenAt": null
+   },
+   {
+    "name": "Gluten-free for skin",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "gluten-free for skin"
+    ],
+    "tier": "fringe",
+    "why": "Gluten avoidance for acne/inflammation claims",
+    "seenAt": null
+   },
+   {
+    "name": "Low-sodium for face de-puffing",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "low-sodium for face de-puffing"
+    ],
+    "tier": "mainstream",
+    "why": "Reducing salt intake to limit facial water retention",
+    "seenAt": null
+   },
+   {
+    "name": "Water loading / hydration maxxing",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "water loading / hydration maxxing"
+    ],
+    "tier": "forum",
+    "why": "Drinking lots of water for skin and depuffing",
+    "seenAt": null
+   },
+   {
+    "name": "Water fasting",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "water fasting"
+    ],
+    "tier": "dangerous",
+    "why": "Extended water-only fasts",
+    "seenAt": null
+   },
+   {
+    "name": "OMAD (one meal a day)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "omad (one meal a day)"
+    ],
+    "tier": "forum",
+    "why": "One meal daily for leanness",
+    "seenAt": null
+   },
+   {
+    "name": "16:8 time-restricted eating",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "16:8 time-restricted eating"
+    ],
+    "tier": "mainstream",
+    "why": "Eight-hour eating window",
+    "seenAt": null
+   },
+   {
+    "name": "Alternate-day fasting",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "alternate-day fasting"
+    ],
+    "tier": "mainstream",
+    "why": "Every other day fasting",
+    "seenAt": null
+   },
+   {
+    "name": "5:2 diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "5:2 diet"
+    ],
+    "tier": "mainstream",
+    "why": "Two low-calorie days per week",
+    "seenAt": null
+   },
+   {
+    "name": "Fasting-mimicking diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "fasting-mimicking diet"
+    ],
+    "tier": "mainstream",
+    "why": "Five-day low calorie cycle (Longo)",
+    "seenAt": null
+   },
+   {
+    "name": "Dry fasting",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "dry fasting"
+    ],
+    "tier": "dangerous",
+    "why": "Dry fasting; associated with dehydration risk",
+    "seenAt": null
+   },
+   {
+    "name": "Bulking",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "bulking"
+    ],
+    "tier": "forum",
+    "why": "Calorie surplus to build muscle and a fuller frame",
+    "seenAt": null
+   },
+   {
+    "name": "Dirty bulk",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "dirty bulk"
+    ],
+    "tier": "forum",
+    "why": "Unrestricted high-calorie eating to gain weight quickly",
+    "seenAt": null
+   },
+   {
+    "name": "Lean bulk",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "lean bulk"
+    ],
+    "tier": "forum",
+    "why": "Small surplus to limit fat gain",
+    "seenAt": null
+   },
+   {
+    "name": "Cutting",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "cutting"
+    ],
+    "tier": "forum",
+    "why": "Calorie deficit to reveal definition",
+    "seenAt": null
+   },
+   {
+    "name": "Leanmaxxing",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "leanmaxxing"
+    ],
+    "tier": "forum",
+    "why": "Dropping body fat to reveal facial bone structure",
+    "seenAt": null
+   },
+   {
+    "name": "Recomp",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "recomp"
+    ],
+    "tier": "forum",
+    "why": "Building muscle while losing fat",
+    "seenAt": null
+   },
+   {
+    "name": "Mini-cut",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "mini-cut"
+    ],
+    "tier": "forum",
+    "why": "Short aggressive cut",
+    "seenAt": null
+   },
+   {
+    "name": "Calorie counting",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "calorie counting"
+    ],
+    "tier": "evidence",
+    "why": "Tracking intake for fat loss",
+    "seenAt": null
+   },
+   {
+    "name": "Macro tracking / IIFYM",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "macro tracking / iifym"
+    ],
+    "tier": "mainstream",
+    "why": "Tracking protein/carb/fat",
+    "seenAt": null
+   },
+   {
+    "name": "High-protein diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "high-protein diet"
+    ],
+    "tier": "evidence",
+    "why": "Protein for muscle and satiety",
+    "seenAt": null
+   },
+   {
+    "name": "Protein shakes / whey",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "protein shakes / whey"
+    ],
+    "tier": "mainstream",
+    "why": "Convenience protein",
+    "seenAt": null
+   },
+   {
+    "name": "Whey protein",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "whey protein"
+    ],
+    "tier": "mainstream",
+    "why": "Common supplement",
+    "seenAt": null
+   },
+   {
+    "name": "Creatine monohydrate",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "creatine monohydrate"
+    ],
+    "tier": "evidence",
+    "why": "Standard strength supplement",
+    "seenAt": null
+   },
+   {
+    "name": "Gallon of milk a day (GOMAD)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "gallon of milk a day (gomad)"
+    ],
+    "tier": "forum",
+    "why": "Strength-lifter weight-gain method",
+    "seenAt": null
+   },
+   {
+    "name": "Big dirty bulk (Fast-food bulking)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "big dirty bulk (fast-food bulking)"
+    ],
+    "tier": "forum",
+    "why": "Calorie-dense processed food for weight gain",
+    "seenAt": null
+   },
+   {
+    "name": "Eating for jaw (chewing hard foods)",
+    "kind": "meta",
+    "category": "bonehacks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "eating for jaw (chewing hard foods)"
+    ],
+    "tier": "forum",
+    "why": "Tough foods for masseter growth",
+    "seenAt": null
+   },
+   {
+    "name": "Mastic / hard gum",
+    "kind": "gear",
+    "category": "teeth",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "mastic / hard gum"
+    ],
+    "tier": "forum",
+    "why": "Hard chewing gum for masseter growth",
+    "seenAt": null
+   },
+   {
+    "name": "Chewing for jaw",
+    "kind": "meta",
+    "category": "bonehacks",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "chewing for jaw"
+    ],
+    "tier": "forum",
+    "why": "Chewing-maxxing",
+    "seenAt": null
+   },
+   {
+    "name": "Low-carb to lose face puffiness",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "low-carb to lose face puffiness"
+    ],
+    "tier": "forum",
+    "why": "Glycogen-water drop",
+    "seenAt": null
+   },
+   {
+    "name": "Carb cycling",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "carb cycling"
+    ],
+    "tier": "mainstream",
+    "why": "Alternating carb intake",
+    "seenAt": null
+   },
+   {
+    "name": "Refeed days / diet breaks",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "refeed days / diet breaks"
+    ],
+    "tier": "mainstream",
+    "why": "Planned higher-calorie days",
+    "seenAt": null
+   },
+   {
+    "name": "Sodium/potassium manipulation (peak week)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "sodium/potassium manipulation (peak week)"
+    ],
+    "tier": "mainstream",
+    "why": "Bodybuilder water/salt manipulation for photo shoots",
+    "seenAt": null
+   },
+   {
+    "name": "Water cutting / dehydration pre-photo",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "water cutting / dehydration pre-photo"
+    ],
+    "tier": "dangerous",
+    "why": "Dehydration to look dry",
+    "seenAt": null
+   },
+   {
+    "name": "Furosemide (Lasix)",
+    "kind": "compound",
+    "category": "depuff",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "furosemide (lasix)"
+    ],
+    "tier": "dangerous",
+    "why": "Diuretic used for drying out",
+    "seenAt": null
+   },
+   {
+    "name": "Dandelion extract",
+    "kind": "compound",
+    "category": "depuff",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "dandelion extract"
+    ],
+    "tier": "fringe",
+    "why": "Herbal diuretic",
+    "seenAt": null
+   },
+   {
+    "name": "Potassium",
+    "kind": "compound",
+    "category": "depuff",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "potassium"
+    ],
+    "tier": "mainstream",
+    "why": "Balances sodium",
+    "seenAt": null
+   },
+   {
+    "name": "Whole-food / unprocessed diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "whole-food / unprocessed diet"
+    ],
+    "tier": "mainstream",
+    "why": "Reducing ultra-processed food",
+    "seenAt": null
+   },
+   {
+    "name": "Clean eating",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "clean eating"
+    ],
+    "tier": "mainstream",
+    "why": "Chicken, rice and broccoli staple",
+    "seenAt": null
+   },
+   {
+    "name": "Eat the rainbow / skin nutrient diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "eat the rainbow / skin nutrient diet"
+    ],
+    "tier": "mainstream",
+    "why": "Antioxidant-rich produce for skin",
+    "seenAt": null
+   },
+   {
+    "name": "Oatmeal / fibre for gut-skin axis",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "oatmeal / fibre for gut-skin axis"
+    ],
+    "tier": "mainstream",
+    "why": "Gut health for clear skin",
+    "seenAt": null
+   },
+   {
+    "name": "Probiotics / fermented food for skin",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "probiotics / fermented food for skin"
+    ],
+    "tier": "mainstream",
+    "why": "Probiotics, kefir, kimchi for acne claims",
+    "seenAt": null
+   },
+   {
+    "name": "Gut health protocols (gut-skin axis)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "gut health protocols (gut-skin axis)"
+    ],
+    "tier": "forum",
+    "why": "Elimination and probiotic protocols",
+    "seenAt": null
+   },
+   {
+    "name": "Elimination diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "elimination diet"
+    ],
+    "tier": "mainstream",
+    "why": "Removing trigger foods to find skin triggers",
+    "seenAt": null
+   },
+   {
+    "name": "Low-histamine diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "low-histamine diet"
+    ],
+    "tier": "fringe",
+    "why": "For flushing and skin claims",
+    "seenAt": null
+   },
+   {
+    "name": "Paleo diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "paleo diet"
+    ],
+    "tier": "mainstream",
+    "why": "Whole foods, no grains or dairy",
+    "seenAt": null
+   },
+   {
+    "name": "Whole30",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "whole30"
+    ],
+    "tier": "mainstream",
+    "why": "30-day elimination",
+    "seenAt": null
+   },
+   {
+    "name": "Bryan Johnson Blueprint diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "blueprint protocol"
+    ],
+    "tier": "forum",
+    "why": "Longevity vegan meal plan (Don't Die)",
+    "seenAt": null
+   },
+   {
+    "name": "Longevity / Blue Zones diets",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "longevity / blue zones diets"
+    ],
+    "tier": "mainstream",
+    "why": "Diets based on long-lived populations",
+    "seenAt": null
+   },
+   {
+    "name": "Orange juice / vitamin C diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "orange juice / vitamin c diet"
+    ],
+    "tier": "fringe",
+    "why": "Mega-dose citrus for skin",
+    "seenAt": null
+   },
+   {
+    "name": "Cinnamon / apple cider vinegar shots",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "cinnamon / apple cider vinegar shots"
+    ],
+    "tier": "fringe",
+    "why": "ACV for fat loss and skin claims",
+    "seenAt": null
+   },
+   {
+    "name": "Fat burner supplements",
+    "kind": "compound",
+    "category": "fat",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "fat burner supplements"
+    ],
+    "tier": "dangerous",
+    "why": "Stimulant stacks",
+    "seenAt": null
+   },
+   {
+    "name": "Synephrine (bitter orange)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "synephrine (bitter orange)"
+    ],
+    "tier": "dangerous",
+    "why": "Stimulant",
+    "seenAt": null
+   },
+   {
+    "name": "Berberine",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "berberine"
+    ],
+    "tier": "forum",
+    "why": "Called nature's Ozempic",
+    "seenAt": null
+   },
+   {
+    "name": "Green tea / EGCG",
+    "kind": "compound",
+    "category": "fat",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "green tea / egcg"
+    ],
+    "tier": "mainstream",
+    "why": "Mild thermogenic",
+    "seenAt": null
+   },
+   {
+    "name": "Caffeine",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "caffeine"
+    ],
+    "tier": "mainstream",
+    "why": "Appetite and performance",
+    "seenAt": null
+   },
+   {
+    "name": "Capsaicin",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "capsaicin"
+    ],
+    "tier": "fringe",
+    "why": "Thermogenic",
+    "seenAt": null
+   },
+   {
+    "name": "DNP (2,4-dinitrophenol)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "dnp (2,4-dinitrophenol)"
+    ],
+    "tier": "dangerous",
+    "why": "Industrial chemical (DNP) sold as a fat burner; fatal overdoses reported",
+    "seenAt": null
+   },
+   {
+    "name": "Clenbuterol",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "clenbuterol"
+    ],
+    "tier": "dangerous",
+    "why": "Beta-agonist fat burner",
+    "seenAt": null
+   },
+   {
+    "name": "Semaglutide (Ozempic / Wegovy)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "semaglutide (ozempic / wegovy)"
+    ],
+    "tier": "mainstream",
+    "why": "GLP-1 for fat loss",
+    "seenAt": null
+   },
+   {
+    "name": "Tirzepatide (Mounjaro / Zepbound)",
+    "kind": "compound",
+    "category": "fat",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "tirzepatide (mounjaro / zepbound)"
+    ],
+    "tier": "mainstream",
+    "why": "Dual agonist",
+    "seenAt": null
+   },
+   {
+    "name": "Weight-loss jabs (GLP-1) for face leaning",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "weight-loss jabs (glp-1) for face leaning"
+    ],
+    "tier": "forum",
+    "why": "Using GLP-1 to lean the face",
+    "seenAt": null
+   },
+   {
+    "name": "Vitamin D",
+    "kind": "compound",
+    "category": "longevity",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "vitamin d"
+    ],
+    "tier": "mainstream",
+    "why": "Common deficiency",
+    "seenAt": null
+   },
+   {
+    "name": "Zinc",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "zinc"
+    ],
+    "tier": "mainstream",
+    "why": "Acne",
+    "seenAt": null
+   },
+   {
+    "name": "Omega-3 (EPA/DHA)",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "omega-3 (epa/dha)"
+    ],
+    "tier": "mainstream",
+    "why": "Fish oil",
+    "seenAt": null
+   },
+   {
+    "name": "Magnesium",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "magnesium"
+    ],
+    "tier": "mainstream",
+    "why": "Common",
+    "seenAt": null
+   },
+   {
+    "name": "Vitamin K2 (MK-4 / MK-7)",
+    "kind": "compound",
+    "category": "bone",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "vitamin k2 (mk-4 / mk-7)"
+    ],
+    "tier": "forum",
+    "why": "Bone and jaw claims",
+    "seenAt": null
+   },
+   {
+    "name": "Calcium",
+    "kind": "compound",
+    "category": "bone",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "calcium"
+    ],
+    "tier": "mainstream",
+    "why": "Bone health",
+    "seenAt": null
+   },
+   {
+    "name": "Boron",
+    "kind": "compound",
+    "category": "bone",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "boron"
+    ],
+    "tier": "forum",
+    "why": "T and bone claims",
+    "seenAt": null
+   },
+   {
+    "name": "Iron",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "iron"
+    ],
+    "tier": "mainstream",
+    "why": "Deficiency affects hair",
+    "seenAt": null
+   },
+   {
+    "name": "Vitamin A (retinyl palmitate) from liver",
+    "kind": "compound",
+    "category": "skin",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "vitamin a (retinyl palmitate) from liver"
+    ],
+    "tier": "dangerous",
+    "why": "Excess preformed vitamin A toxicity from liver",
+    "seenAt": null
+   },
+   {
+    "name": "Cod liver oil",
+    "kind": "compound",
+    "category": "longevity",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "cod liver oil"
+    ],
+    "tier": "forum",
+    "why": "Vitamin A/D source; Weston Price",
+    "seenAt": null
+   },
+   {
+    "name": "Fermented cod liver oil / butter oil (Weston A. Price)",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "fermented cod liver oil / butter oil (weston a. price)"
+    ],
+    "tier": "fringe",
+    "why": "Weston Price high-vitamin butter oil protocol",
+    "seenAt": null
+   },
+   {
+    "name": "Weston A. Price diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "weston a. price diet"
+    ],
+    "tier": "forum",
+    "why": "Traditional foods dietary philosophy",
+    "seenAt": null
+   },
+   {
+    "name": "Ray Peat diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "ray peat"
+    ],
+    "tier": "fringe",
+    "why": "Orange juice, milk, sugar, low PUFA; thyroid and metabolism claims",
+    "seenAt": null
+   },
+   {
+    "name": "Bioenergetic diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "bioenergetic diet"
+    ],
+    "tier": "fringe",
+    "why": "Ray Peat derived eating",
+    "seenAt": null
+   },
+   {
+    "name": "Raw carrot salad (Ray Peat)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "raw carrot salad (ray peat)"
+    ],
+    "tier": "fringe",
+    "why": "Raw carrot for estrogen/endotoxin claims",
+    "seenAt": null
+   },
+   {
+    "name": "Low-PUFA diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "low-pufa diet"
+    ],
+    "tier": "fringe",
+    "why": "Minimise polyunsaturated fats",
+    "seenAt": null
+   },
+   {
+    "name": "Fruit-and-honey diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "fruit-and-honey diet"
+    ],
+    "tier": "fringe",
+    "why": "Sugar-forward",
+    "seenAt": null
+   },
+   {
+    "name": "Anti-estrogen diet (cruciferous / DIM)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "anti-estrogen diet (cruciferous / dim)"
+    ],
+    "tier": "fringe",
+    "why": "Foods/supplements to reduce estrogen",
+    "seenAt": null
+   },
+   {
+    "name": "DIM (diindolylmethane)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "dim (diindolylmethane)"
+    ],
+    "tier": "fringe",
+    "why": "Claimed estrogen metaboliser",
+    "seenAt": null
+   },
+   {
+    "name": "Testosterone-boosting diet (eggs, oysters, red meat)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "testosterone-boosting diet (eggs, oysters, red meat)"
+    ],
+    "tier": "forum",
+    "why": "Foods marketed to raise T",
+    "seenAt": null
+   },
+   {
+    "name": "Oysters / shellfish for zinc",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "oysters / shellfish for zinc"
+    ],
+    "tier": "forum",
+    "why": "Zinc source",
+    "seenAt": null
+   },
+   {
+    "name": "Tongkat ali (Eurycoma longifolia)",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "tongkat ali (eurycoma longifolia)"
+    ],
+    "tier": "forum",
+    "why": "T-booster",
+    "seenAt": null
+   },
+   {
+    "name": "Boron + zinc + D3 test-boost stack",
+    "kind": "meta",
+    "category": "protocols",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "boron + zinc + d3 test-boost stack"
+    ],
+    "tier": "forum",
+    "why": "Test supplements",
+    "seenAt": null
+   },
+   {
+    "name": "Soy avoidance",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "soy avoidance"
+    ],
+    "tier": "forum",
+    "why": "Concern that phytoestrogens lower testosterone",
+    "seenAt": null
+   },
+   {
+    "name": "Plastic / endocrine disruptor avoidance",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "plastic / endocrine disruptor avoidance"
+    ],
+    "tier": "forum",
+    "why": "BPA/phthalate avoidance for T",
+    "seenAt": null
+   },
+   {
+    "name": "Tap water / fluoride avoidance",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "tap water / fluoride avoidance"
+    ],
+    "tier": "fringe",
+    "why": "Filtered water for health claims",
+    "seenAt": null
+   },
+   {
+    "name": "Filtered / spring water",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "filtered / spring water"
+    ],
+    "tier": "fringe",
+    "why": "Avoiding fluoride and chlorine",
+    "seenAt": null
+   },
+   {
+    "name": "Alcohol avoidance (sober maxxing)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "alcohol avoidance (sober maxxing)"
+    ],
+    "tier": "mainstream",
+    "why": "Quitting alcohol for skin",
+    "seenAt": null
+   },
+   {
+    "name": "Quitting smoking / vaping",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "quitting smoking / vaping"
+    ],
+    "tier": "evidence",
+    "why": "Skin aging",
+    "seenAt": null
+   },
+   {
+    "name": "Caffeine avoidance",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "caffeine avoidance"
+    ],
+    "tier": "forum",
+    "why": "Less puffiness",
+    "seenAt": null
+   },
+   {
+    "name": "Coffee for skin / Cold brew",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "coffee for skin / cold brew"
+    ],
+    "tier": "fringe",
+    "why": "Coffee claims",
+    "seenAt": null
+   },
+   {
+    "name": "Nutritional yeast / B-vitamin loading",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "nutritional yeast / b-vitamin loading"
+    ],
+    "tier": "fringe",
+    "why": "B vitamins for skin/hair",
+    "seenAt": null
+   },
+   {
+    "name": "Biotin (Vitamin B7)",
+    "kind": "compound",
+    "category": "hair",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "biotin (vitamin b7)"
+    ],
+    "tier": "mainstream",
+    "why": "Hair/nail supplement",
+    "seenAt": null
+   },
+   {
+    "name": "Heavy cream / butter diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "heavy cream / butter diet"
+    ],
+    "tier": "forum",
+    "why": "High-fat dairy variant",
+    "seenAt": null
+   },
+   {
+    "name": "Ketovore",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "ketovore"
+    ],
+    "tier": "forum",
+    "why": "Keto plus meat-heavy with some plants",
+    "seenAt": null
+   },
+   {
+    "name": "Eat like a bodybuilder (rice/chicken/broccoli)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "eat like a bodybuilder (rice/chicken/broccoli)"
+    ],
+    "tier": "mainstream",
+    "why": "Bodybuilding-style diet",
+    "seenAt": null
+   },
+   {
+    "name": "Meal prep",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "meal prep"
+    ],
+    "tier": "mainstream",
+    "why": "Pre-cooked meals",
+    "seenAt": null
+   },
+   {
+    "name": "Hot-sauce thermogenics / spicy food",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "hot-sauce thermogenics / spicy food"
+    ],
+    "tier": "fringe",
+    "why": "Metabolism",
+    "seenAt": null
+   },
+   {
+    "name": "Sea moss / chlorella / spirulina",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "sea moss / chlorella / spirulina"
+    ],
+    "tier": "fringe",
+    "why": "Superfood supplements",
+    "seenAt": null
+   },
+   {
+    "name": "Greens powders (AG1)",
+    "kind": "compound",
+    "category": "longevity",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "greens powders (ag1)"
+    ],
+    "tier": "mainstream",
+    "why": "Marketed daily greens",
+    "seenAt": null
+   },
+   {
+    "name": "Colloidal silver",
+    "kind": "compound",
+    "category": "skin",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "colloidal silver"
+    ],
+    "tier": "dangerous",
+    "why": "Causes argyria blue-gray skin",
+    "seenAt": null
+   },
+   {
+    "name": "Tapeworm / sanitized parasite diet",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "tapeworm / sanitized parasite diet"
+    ],
+    "tier": "dangerous",
+    "why": "Deliberate parasite for weight loss",
+    "seenAt": null
+   },
+   {
+    "name": "Chewing and spitting",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "chewing and spitting"
+    ],
+    "tier": "dangerous",
+    "why": "Behavior associated with eating disorders",
+    "seenAt": null
+   },
+   {
+    "name": "Extended fasting 'dopamine fasts'",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "extended fasting 'dopamine fasts'"
+    ],
+    "tier": "fringe",
+    "why": "Abstain from pleasures",
+    "seenAt": null
+   },
+   {
+    "name": "Alkaline water / alkaline diet",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "alkaline water / alkaline diet"
+    ],
+    "tier": "fringe",
+    "why": "pH claims",
+    "seenAt": null
+   },
+   {
+    "name": "Detox teas / juice cleanses",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "detox teas / juice cleanses"
+    ],
+    "tier": "fringe",
+    "why": "Detox claims",
+    "seenAt": null
+   },
+   {
+    "name": "Fruit juice cleanse",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "fruit juice cleanse"
+    ],
+    "tier": "fringe",
+    "why": "Juice fasts",
+    "seenAt": null
+   },
+   {
+    "name": "Urine therapy",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "urine therapy"
+    ],
+    "tier": "dangerous",
+    "why": "Drinking or applying urine",
+    "seenAt": null
+   },
+   {
+    "name": "Sungazing",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "sungazing"
+    ],
+    "tier": "dangerous",
+    "why": "Eye damage risk",
+    "seenAt": null
+   },
+   {
+    "name": "Cold-pressed oils / olive oil",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "cold-pressed oils / olive oil"
+    ],
+    "tier": "mainstream",
+    "why": "Replace seed oils",
+    "seenAt": null
+   },
+   {
+    "name": "Butter / ghee",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "butter / ghee"
+    ],
+    "tier": "forum",
+    "why": "Butter instead of vegetable oils",
+    "seenAt": null
+   },
+   {
+    "name": "Grass-fed beef / ethical-sourcing",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "grass-fed beef / ethical-sourcing"
+    ],
+    "tier": "forum",
+    "why": "Nutrient claims",
+    "seenAt": null
+   },
+   {
+    "name": "Sardines / oily fish",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "sardines / oily fish"
+    ],
+    "tier": "mainstream",
+    "why": "Omega-3 for skin",
+    "seenAt": null
+   },
+   {
+    "name": "Eggs (egg yolk)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "eggs (egg yolk)"
+    ],
+    "tier": "mainstream",
+    "why": "Choline, biotin",
+    "seenAt": null
+   },
+   {
+    "name": "Oats / rice-and-chicken carbs for bulking",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "oats / rice-and-chicken carbs for bulking"
+    ],
+    "tier": "mainstream",
+    "why": "Standard bulk",
+    "seenAt": null
+   },
+   {
+    "name": "Sweet potato / carb timing",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "sweet potato / carb timing"
+    ],
+    "tier": "forum",
+    "why": "Carb timing",
+    "seenAt": null
+   },
+   {
+    "name": "Eating disorder-adjacent restriction ('thinspo' leanness)",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "eating disorder-adjacent restriction ('thinspo' leanness)"
+    ],
+    "tier": "dangerous",
+    "why": "Restrictive eating pattern associated with eating disorders",
+    "seenAt": null
+   },
+   {
+    "name": "Pre-workout / stim stacks",
+    "kind": "compound",
+    "category": "muscle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "pre-workout / stim stacks"
+    ],
+    "tier": "dangerous",
+    "why": "High caffeine",
+    "seenAt": null
+   }
+  ]
+ },
+ {
+  "issue": "mindset",
+  "summary": "Mindset topics include body image, body dysmorphic disorder, and forum ideologies (blackpill, PSL, mogging), alongside therapy and self-improvement approaches.",
+  "approaches": [
+   {
+    "name": "Body dysmorphia & mirror checking",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "body dysmorphia & mirror checking"
+    ],
+    "tier": "dangerous",
+    "why": "BDD and compulsive mirror checking in looksmax communities",
+    "seenAt": null
+   },
+   {
+    "name": "Body dysmorphic disorder (BDD)",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "body dysmorphic disorder (bdd)"
+    ],
+    "tier": "evidence",
+    "why": "Clinical disorder of perceived flaws",
+    "seenAt": null
+   },
+   {
+    "name": "CBT for BDD",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "cbt for bdd"
+    ],
+    "tier": "evidence",
+    "why": "Therapy with exposure/response prevention",
+    "seenAt": null
+   },
+   {
+    "name": "SSRIs for BDD",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "ssris for bdd"
+    ],
+    "tier": "evidence",
+    "why": "Medication treatment for BDD",
+    "seenAt": null
+   },
+   {
+    "name": "Mirror checking / mirror avoidance",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "mirror checking / mirror avoidance"
+    ],
+    "tier": "dangerous",
+    "why": "Compulsive behaviours",
+    "seenAt": null
+   },
+   {
+    "name": "Reassurance seeking (rate me threads)",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "reassurance seeking (rate me threads)"
+    ],
+    "tier": "dangerous",
+    "why": "Posting for ratings",
+    "seenAt": null
+   },
+   {
+    "name": "Face rating apps / AI scoring",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "face rating apps / ai scoring"
+    ],
+    "tier": "forum",
+    "why": "Scoring face",
+    "seenAt": null
+   },
+   {
+    "name": "PSL scale (Perceived Sexual Levels)",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "psl scale (perceived sexual levels)"
+    ],
+    "tier": "forum",
+    "why": "Rating scale",
+    "seenAt": null
+   },
+   {
+    "name": "Black pill ideology",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "black pill ideology"
+    ],
+    "tier": "forum",
+    "why": "Belief appearance determines outcomes",
+    "seenAt": null
+   },
+   {
+    "name": "Blackpill",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "blackpill"
+    ],
+    "tier": "forum",
+    "why": "Framework holding that appearance largely determines outcomes",
+    "seenAt": null
+   },
+   {
+    "name": "Redpill / bluepill / purplepill frameworks",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "redpill / bluepill / purplepill frameworks"
+    ],
+    "tier": "forum",
+    "why": "Colour-pill metaphors for social worldview",
+    "seenAt": null
+   },
+   {
+    "name": "Lookism",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "lookism"
+    ],
+    "tier": "evidence",
+    "why": "Discrimination by appearance; academic concept",
+    "seenAt": null
+   },
+   {
+    "name": "Halo effect",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "halo effect"
+    ],
+    "tier": "evidence",
+    "why": "Attractive people rated better",
+    "seenAt": null
+   },
+   {
+    "name": "Sexual market value (SMV)",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "sexual market value (smv)"
+    ],
+    "tier": "forum",
+    "why": "Market model",
+    "seenAt": null
+   },
+   {
+    "name": "Mogging / AMOG",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "mogging / amog"
+    ],
+    "tier": "forum",
+    "why": "Outclassing in looks",
+    "seenAt": null
+   },
+   {
+    "name": "Ascension",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "ascension"
+    ],
+    "tier": "forum",
+    "why": "Improving looks drastically",
+    "seenAt": null
+   },
+   {
+    "name": "Looksmatching",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "looksmatching"
+    ],
+    "tier": "forum",
+    "why": "Pairing by looks",
+    "seenAt": null
+   },
+   {
+    "name": "Jestermaxxing",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "jestermaxxing"
+    ],
+    "tier": "forum",
+    "why": "Using humour",
+    "seenAt": null
+   },
+   {
+    "name": "Softmaxxing",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "softmaxxing"
+    ],
+    "tier": "forum",
+    "why": "Non-invasive looksmax",
+    "seenAt": null
+   },
+   {
+    "name": "Hardmaxxing",
+    "kind": "meta",
+    "category": "hardmaxx",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "hardmaxxing"
+    ],
+    "tier": "forum",
+    "why": "Invasive looksmax",
+    "seenAt": null
+   },
+   {
+    "name": "Ethnic/genetic fatalism (\"genetics is everything\")",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "ethnic/genetic fatalism (\"genetics is everything\")"
+    ],
+    "tier": "forum",
+    "why": "Belief in fixed genetic outcomes",
+    "seenAt": null
+   },
+   {
+    "name": "LDAR (lay down and rot)",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "ldar (lay down and rot)"
+    ],
+    "tier": "forum",
+    "why": "Slang expressing resignation about self-improvement",
+    "seenAt": null
+   },
+   {
+    "name": "Cope / copium",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "cope / copium"
+    ],
+    "tier": "forum",
+    "why": "Slang for statements viewed as rationalization",
+    "seenAt": null
+   },
+   {
+    "name": "Incel ideology",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "incel ideology"
+    ],
+    "tier": "forum",
+    "why": "Involuntary celibate worldview",
+    "seenAt": null
+   },
+   {
+    "name": "Heightpill / short-king discourse",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "heightpill / short-king discourse"
+    ],
+    "tier": "forum",
+    "why": "Height as outcome",
+    "seenAt": null
+   },
+   {
+    "name": "Wristcel / ringcel / heightcel / ricecel",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "wristcel / ringcel / heightcel / ricecel"
+    ],
+    "tier": "forum",
+    "why": "Self-labels by perceived flaw",
+    "seenAt": null
+   },
+   {
+    "name": "Subhuman / LTN / HTN / Chad tiers",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "subhuman / ltn / htn / chad tiers"
+    ],
+    "tier": "forum",
+    "why": "Tier language",
+    "seenAt": null
+   },
+   {
+    "name": "Canthal tilt theory",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "canthal tilt theory"
+    ],
+    "tier": "forum",
+    "why": "Eye tilt",
+    "seenAt": null
+   },
+   {
+    "name": "Facial symmetry theory",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "facial symmetry theory"
+    ],
+    "tier": "forum",
+    "why": "Symmetry",
+    "seenAt": null
+   },
+   {
+    "name": "Dimorphism theory",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "dimorphism theory"
+    ],
+    "tier": "forum",
+    "why": "Sexual dimorphism",
+    "seenAt": null
+   },
+   {
+    "name": "Golden ratio face analysis",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "golden ratio face analysis"
+    ],
+    "tier": "forum",
+    "why": "Ratios",
+    "seenAt": null
+   },
+   {
+    "name": "Facial width-to-height ratio (FWHR)",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "facial width-to-height ratio (fwhr)"
+    ],
+    "tier": "forum",
+    "why": "Ratio",
+    "seenAt": null
+   },
+   {
+    "name": "Hunter eyes",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "hunter eyes"
+    ],
+    "tier": "forum",
+    "why": "Eye theory",
+    "seenAt": null
+   },
+   {
+    "name": "Carnal tilt",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "carnal tilt"
+    ],
+    "tier": "forum",
+    "why": "Tilt theory",
+    "seenAt": null
+   },
+   {
+    "name": "Norwood scale",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "norwood scale"
+    ],
+    "tier": "evidence",
+    "why": "Hair loss scale",
+    "seenAt": null
+   },
+   {
+    "name": "Subliminals for appearance",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "subliminals for appearance"
+    ],
+    "tier": "fringe",
+    "why": "Audio claimed to change looks",
+    "seenAt": null
+   },
+   {
+    "name": "Manifestation / law of attraction for looks",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "manifestation / law of attraction for looks"
+    ],
+    "tier": "fringe",
+    "why": "Visualisation",
+    "seenAt": null
+   },
+   {
+    "name": "Affirmations / self-talk",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "affirmations / self-talk"
+    ],
+    "tier": "mainstream",
+    "why": "Positive self-statements",
+    "seenAt": null
+   },
+   {
+    "name": "Meditation / mindfulness",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "meditation / mindfulness"
+    ],
+    "tier": "evidence",
+    "why": "Stress and self-image",
+    "seenAt": null
+   },
+   {
+    "name": "Therapy / counselling",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "therapy / counselling"
+    ],
+    "tier": "evidence",
+    "why": "Support for self-esteem",
+    "seenAt": null
+   },
+   {
+    "name": "Journaling / gratitude",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "journaling / gratitude"
+    ],
+    "tier": "mainstream",
+    "why": "Reflective practice",
+    "seenAt": null
+   },
+   {
+    "name": "Stoicism",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "stoicism"
+    ],
+    "tier": "forum",
+    "why": "Philosophy self-improvement",
+    "seenAt": null
+   },
+   {
+    "name": "Social media detox",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "social media detox"
+    ],
+    "tier": "evidence",
+    "why": "Reduces comparison",
+    "seenAt": null
+   },
+   {
+    "name": "Unfollowing comparison accounts",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "unfollowing comparison accounts"
+    ],
+    "tier": "mainstream",
+    "why": "Curate feed",
+    "seenAt": null
+   },
+   {
+    "name": "Gym for confidence (gymmaxxing)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "gym for confidence (gymmaxxing)"
+    ],
+    "tier": "mainstream",
+    "why": "Training",
+    "seenAt": null
+   },
+   {
+    "name": "Gymmaxxing",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "gymmaxxing"
+    ],
+    "tier": "forum",
+    "why": "Training for looks",
+    "seenAt": null
+   },
+   {
+    "name": "Cold exposure for mood",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "cold exposure for mood"
+    ],
+    "tier": "forum",
+    "why": "Cold showers/plunge for discipline",
+    "seenAt": null
+   },
+   {
+    "name": "NoFap / semen retention",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "nofap / semen retention"
+    ],
+    "tier": "fringe",
+    "why": "Abstention claims",
+    "seenAt": null
+   },
+   {
+    "name": "Dopamine detox",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "dopamine detox"
+    ],
+    "tier": "fringe",
+    "why": "Abstain from pleasures",
+    "seenAt": null
+   },
+   {
+    "name": "Self-improvement 'glow-up' content",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "self-improvement 'glow-up' content"
+    ],
+    "tier": "forum",
+    "why": "Transformation videos",
+    "seenAt": null
+   },
+   {
+    "name": "Glow up",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "glow up"
+    ],
+    "tier": "forum",
+    "why": "Transformation",
+    "seenAt": null
+   },
+   {
+    "name": "Social skills / game / pickup",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "social skills / game / pickup"
+    ],
+    "tier": "forum",
+    "why": "Dating skills",
+    "seenAt": null
+   },
+   {
+    "name": "Charisma training",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "charisma training"
+    ],
+    "tier": "mainstream",
+    "why": "Presence",
+    "seenAt": null
+   },
+   {
+    "name": "Exposure therapy for social anxiety",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "exposure therapy for social anxiety"
+    ],
+    "tier": "evidence",
+    "why": "CBT approach",
+    "seenAt": null
+   },
+   {
+    "name": "Approach anxiety challenges",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "approach anxiety challenges"
+    ],
+    "tier": "forum",
+    "why": "Daily approaches",
+    "seenAt": null
+   },
+   {
+    "name": "Eye contact practice",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "eye contact practice"
+    ],
+    "tier": "mainstream",
+    "why": "Presence",
+    "seenAt": null
+   },
+   {
+    "name": "Self-compassion practice",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "self-compassion practice"
+    ],
+    "tier": "evidence",
+    "why": "Body image",
+    "seenAt": null
+   },
+   {
+    "name": "Body neutrality / body positivity",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "body neutrality / body positivity"
+    ],
+    "tier": "mainstream",
+    "why": "Reduce focus on looks",
+    "seenAt": null
+   },
+   {
+    "name": "Intuitive eating",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "intuitive eating"
+    ],
+    "tier": "evidence",
+    "why": "Eating disorder recovery",
+    "seenAt": null
+   },
+   {
+    "name": "Eating disorder recovery",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "eating disorder recovery"
+    ],
+    "tier": "evidence",
+    "why": "Treatment",
+    "seenAt": null
+   },
+   {
+    "name": "Muscle dysmorphia (bigorexia)",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "muscle dysmorphia (bigorexia)"
+    ],
+    "tier": "evidence",
+    "why": "Perceived smallness",
+    "seenAt": null
+   },
+   {
+    "name": "Gender-neutral aesthetics / 'pretty boy' / softboy",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "gender-neutral aesthetics / 'pretty boy' / softboy"
+    ],
+    "tier": "forum",
+    "why": "Soft aesthetic",
+    "seenAt": null
+   },
+   {
+    "name": "Clavicular's looksmaxxing philosophy",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "clavicular"
+    ],
+    "tier": "forum",
+    "why": "Streamer associated with 'ascension' protocols",
+    "seenAt": null
+   },
+   {
+    "name": "Looksmax.org / forum participation",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "looksmax.org / forum participation"
+    ],
+    "tier": "forum",
+    "why": "Community",
+    "seenAt": null
+   },
+   {
+    "name": "Dopamine / porn avoidance",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "dopamine / porn avoidance"
+    ],
+    "tier": "forum",
+    "why": "Dopamine claims",
+    "seenAt": null
+   },
+   {
+    "name": "Alpha / sigma male frameworks",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "alpha / sigma male frameworks"
+    ],
+    "tier": "forum",
+    "why": "Manosphere",
+    "seenAt": null
+   },
+   {
+    "name": "Social proof / status maxxing",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "social proof / status maxxing"
+    ],
+    "tier": "forum",
+    "why": "Status",
+    "seenAt": null
+   },
+   {
+    "name": "Money maxxing / career maxxing",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "money maxxing / career maxxing"
+    ],
+    "tier": "forum",
+    "why": "Alternative status route",
+    "seenAt": null
+   },
+   {
+    "name": "Smile practice / smile maxxing",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "smile practice / smile maxxing"
+    ],
+    "tier": "forum",
+    "why": "Training a better smile",
+    "seenAt": null
+   },
+   {
+    "name": "Voice maxxing",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "voice maxxing"
+    ],
+    "tier": "forum",
+    "why": "Voice",
+    "seenAt": null
+   },
+   {
+    "name": "Posture / frame / body language",
+    "kind": "meta",
+    "category": "stylemetas",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "posture / frame / body language"
+    ],
+    "tier": "mainstream",
+    "why": "Posture",
+    "seenAt": null
+   },
+   {
+    "name": "Photo comparison / flip test",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "photo comparison / flip test"
+    ],
+    "tier": "forum",
+    "why": "Mirror flip test",
+    "seenAt": null
+   },
+   {
+    "name": "Mirror flip / symmetry test",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "mirror flip / symmetry test"
+    ],
+    "tier": "forum",
+    "why": "Compare flipped face",
+    "seenAt": null
+   },
+   {
+    "name": "Mewing",
+    "kind": "meta",
+    "category": "bonehacks",
+    "existing": true,
+    "aka": null,
+    "terms": [
+     "mewing"
+    ],
+    "tier": "forum",
+    "why": "Tongue posture",
+    "seenAt": null
+   },
+   {
+    "name": "Facial analysis YouTube channels",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "facial analysis youtube channels"
+    ],
+    "tier": "forum",
+    "why": "Face analysis content",
+    "seenAt": null
+   },
+   {
+    "name": "Anti-looksmax / 'touch grass' critiques",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "anti-looksmax / 'touch grass' critiques"
+    ],
+    "tier": "mainstream",
+    "why": "Critiques",
+    "seenAt": null
+   },
+   {
+    "name": "Therapy for looks-related anxiety (ACT)",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "therapy for looks-related anxiety (act)"
+    ],
+    "tier": "evidence",
+    "why": "Acceptance and commitment therapy",
+    "seenAt": null
+   },
+   {
+    "name": "Antidepressants / anxiety meds",
+    "kind": "compound",
+    "category": "recovery",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "antidepressants / anxiety meds"
+    ],
+    "tier": "evidence",
+    "why": "Medication",
+    "seenAt": null
+   },
+   {
+    "name": "Psychedelic therapy for self-image",
+    "kind": "meta",
+    "category": "fringe",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "psychedelic therapy for self-image"
+    ],
+    "tier": "fringe",
+    "why": "Experimental",
+    "seenAt": null
+   },
+   {
+    "name": "Social media dysmorphia (filter dysmorphia / Snapchat dysmorphia)",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "social media dysmorphia (filter dysmorphia / snapchat dysmorphia)"
+    ],
+    "tier": "evidence",
+    "why": "Filtered faces affect self-image",
+    "seenAt": null
+   },
+   {
+    "name": "Beauty privilege research (pretty premium)",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "beauty privilege research (pretty premium)"
+    ],
+    "tier": "evidence",
+    "why": "Economic effects",
+    "seenAt": null
+   },
+   {
+    "name": "Evolutionary psychology of attractiveness",
+    "kind": "meta",
+    "category": "frameworks",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "evolutionary psychology of attractiveness"
+    ],
+    "tier": "mainstream",
+    "why": "Evo psych",
+    "seenAt": null
+   },
+   {
+    "name": "Personality maxxing / interests",
+    "kind": "meta",
+    "category": "lifestyle",
+    "existing": false,
+    "aka": null,
+    "terms": [
+     "personality maxxing / interests"
+    ],
+    "tier": "mainstream",
+    "why": "Beyond looks",
+    "seenAt": null
+   }
+  ]
+ }
+]

@@ -377,3 +377,9 @@ sup.ref a { border: 0; font-weight: 700; color: var(--pop-dark); }
 .gallery img { width: 100%; height: 150px; object-fit: cover; display: block; border-bottom: var(--b); }
 .gallery figcaption { font-size: 11px; font-weight: 700; padding: 8px 10px; line-height: 1.35; }
 .gallery figcaption span { display: block; font-weight: 600; color: var(--ink-mute); font-size: 10px; margin-top: 3px; }
+
+/* Issues: not-yet-written approaches render as wiki "red links" */
+.entry.pending { background: var(--cream); border-style: dashed; box-shadow: none; cursor: default; }
+.entry.pending:hover { transform: none; }
+.entry.pending h4 { color: var(--pop-dark); }
+.lore-row .lbl { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; display: inline; }

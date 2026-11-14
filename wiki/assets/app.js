@@ -4,9 +4,26 @@
 
   const D = window.LM_DATA;
   const WIKI = window.LM_WIKI || { entries: [], metaCategories: {}, riskLevels: [] };
+  // Neutral point of view: the wiki documents, it doesn't editorialise. Override app wording here.
+  const NEUTRAL_BLURBS = {
+    pigment: 'Tanning, skin tone and photoprotection', skin: 'Acne, texture, collagen and dark spots', fat: 'Body composition and fat loss',
+    muscle: 'Hypertrophy, strength and the GH/IGF-1 axis', hair: 'Hairline, density, lashes and brows',
+    bone: 'Compounds people use or study for bone and facial structure', recovery: 'Tissue repair and inflammation',
+    longevity: 'Aging biology and longevity compounds', depuff: 'Water retention and puffiness',
+    teeth: 'Whitening, orthodontics, oral care and jaw devices', faceDevices: 'LED, laser, microcurrent, rollers, straps and other facial devices',
+    hairGear: 'Scalp devices, concealers, cutting and styling tools', grooming: 'Beard, brows and lashes',
+    hairRemoval: 'IPL, laser, trimmers, waxing and depilatories', training: 'Training equipment and tracking tools',
+    posture: 'Neck, posture and height-related products', tanGear: 'Self-tanning products and sun protection',
+    bodyCare: 'Hands, feet, scars and body skin', sleep: 'Sleep products and environment', style: 'Clothing fit, care and accessories',
+  };
+  Object.entries(NEUTRAL_BLURBS).forEach(([k, v]) => { if (D.categoryMeta[k]) D.categoryMeta[k].blurb = v; if (D.gearCategoryMeta[k]) D.gearCategoryMeta[k].blurb = v; });
+  if (D.outcomeMeta.unsupported) D.outcomeMeta.unsupported.label = 'Claim unproven';
+  const NEUTRAL = window.LM_NEUTRAL || {};
+  [...D.compounds, ...D.gear].forEach((it) => { const n = NEUTRAL[it.name]; if (n) { if (n.summary) it.summary = n.summary; it.note = n.note || undefined; } });
   const RISK_LABEL = { low: 'Low risk', moderate: 'Moderate risk', high: 'High risk', extreme: 'Extreme risk' };
   const riskTag = (r) => `<span class="tag ${r === 'high' || r === 'extreme' ? 'tag-unproven' : r === 'moderate' ? 'tag-white' : ''}">${esc(RISK_LABEL[r] || r)}</span>`;
   const GUIDES = window.LM_GUIDES || [];
+  const ISSUES = window.LM_ISSUES || [];
   const app = document.getElementById('app');
 
   // ───────── helpers ─────────
@@ -26,6 +43,8 @@
   const bySlug = { compound: new Map(), gear: new Map(), meta: new Map() };
   ENTRIES.forEach((e) => bySlug[e.kind].set(e.slug, e));
   const guideBySlug = new Map(GUIDES.map((g) => [g.slug, g]));
+  const HELPS = new Map(); // entry name (lower) → [issue]
+  ISSUES.forEach((iss) => iss.approaches.forEach((a) => { const k = a.name.toLowerCase(); if (!HELPS.has(k)) HELPS.set(k, []); HELPS.get(k).push(iss); }));
 
   const catMeta = (kind) => (kind === 'compound' ? D.categoryMeta : kind === 'meta' ? WIKI.metaCategories : D.gearCategoryMeta);
   const KINDS = ['compound', 'gear', 'meta'];
@@ -69,7 +88,7 @@
   function resolveLink(target) {
     if (target.startsWith('guide:')) {
       const g = guideBySlug.get(target.slice(6));
-      return g ? { href: `#/guide/${g.slug}`, label: g.title } : null;
+      return g ? { href: `#/wiki/${g.slug}`, label: g.title } : null;
     }
     if (target.startsWith('cat:')) {
       const id = target.slice(4);
@@ -141,8 +160,8 @@
     const nC = ENTRIES.filter((e) => e.kind === 'compound').length, nG = ENTRIES.filter((e) => e.kind === 'gear').length, nM = ENTRIES.filter((e) => e.kind === 'meta').length;
     const strong = ENTRIES.filter((e) => e.item.evidence === 'strong').length;
     const unproven = ENTRIES.filter((e) => e.item.evidence === 'unproven').length;
-    const tick = ENTRIES.filter((e) => e.item.evidence === 'unproven').slice(0, 14)
-      .map((e) => `<span>${esc(e.item.name)}</span><span class="s">✕ unproven</span>`).join('');
+    const tick = ENTRIES.filter((_, i) => i % Math.max(1, Math.floor(ENTRIES.length / 16)) === 0).slice(0, 16)
+      .map((e) => `<span>${esc(e.item.name)}</span><span class="s">★ ${esc(D.evidenceMeta[e.item.evidence].label.toLowerCase())} evidence</span>`).join('');
     const portals = (kind) => {
       const list = ENTRIES.filter((e) => e.kind === kind).map((e) => e.item);
       return Object.entries(catMeta(kind)).map(([id, m]) => {
@@ -154,26 +173,38 @@
     return `<div class="page stack">
       <section class="hero">
         <div>
-          <span class="kicker">★ The evidence-first looksmaxxing encyclopedia</span>
-          <h1 class="h-hero">Every claim.<br><span class="text-outline">Checked.</span> <span class="pop">Rated.</span></h1>
-          <p class="lede" style="margin-top:24px">${ENTRIES.length} compounds, peptides, drugs, gear${nM ? ' and forum metas' : ''} — rated by <span class="inkmark">actual evidence</span> — not marketing. Plus the guides that tell you what to do first.</p>
+          <span class="kicker">★ The looksmaxxing encyclopedia</span>
+          <h1 class="h-hero">Every method.<br><span class="text-outline">Documented.</span> <span class="pop">Sourced.</span></h1>
+          <p class="lede" style="margin-top:24px">${ENTRIES.length} compounds, peptides, drugs, gear${nM ? ' and forum metas' : ''} — each documented with what practitioners say and <span class="inkmark">what the research says</span>.</p>
           <form class="big-search" data-search role="search">${searchIcon}<input name="q" placeholder="Search tretinoin, mewing, LED masks…" aria-label="Search the wiki" autocomplete="off"><button class="btn popb" type="submit">Search</button></form>
         </div>
         <div class="card stats">
           <div class="stat"><b>${nC}</b><span>Compounds</span></div>
           <div class="stat"><b>${nG}${nM ? `<span class="pop" style="font-size:20px"> +${nM}</span>` : ''}</b><span>Gear${nM ? ' + metas' : ''}</span></div>
           <div class="stat"><b class="pop">${strong}</b><span>Strong evidence</span></div>
-          <div class="stat"><b>${unproven}</b><span>Unproven claims</span></div>
+          <div class="stat"><b>${unproven}</b><span>Unproven / untested</span></div>
         </div>
       </section>
 
       <div class="ticker" aria-hidden="true" style="margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw)"><div class="ticker-track">${tick}${tick}</div></div>
 
-      <section>
-        <h2 class="section-h">Start here <small>${GUIDES.length} guides</small></h2>
-        <div class="guide-grid">${GUIDES.slice(0, 6).map((g, i) => guideCard(g, i === 0)).join('')}</div>
-        <p style="margin-top:16px"><a class="btn" href="#/guides">All guides →</a></p>
-      </section>
+      ${ISSUES.length ? `<section>
+        <h2 class="section-h">Browse by topic <small>${ISSUES.length} topics</small></h2>
+        <div class="f-row" style="padding:0">${ISSUES.map((t) => `<a class="chip" href="#/topic/${t.id}">${esc(t.name)} <span class="mute">${t.approaches.length}</span></a>`).join('')}</div>
+      </section>` : ''}
+
+      ${(() => { const f = GUIDES[Math.floor(Date.now() / 86400000) % GUIDES.length]; return f ? `<section class="hero" style="align-items:stretch">
+        <div class="card" style="padding:22px">
+          <span class="kicker">★ Featured article</span>
+          <h3 class="display" style="font-size:28px;line-height:1.05;margin-bottom:10px"><a href="#/wiki/${f.slug}" style="text-decoration:none">${esc(f.title)}</a></h3>
+          <p style="font-weight:500">${esc(f.summary)}</p>
+          <p style="margin-top:14px"><a class="btn" href="#/wiki/${f.slug}">Read article →</a></p>
+        </div>
+        <div class="card" style="padding:22px">
+          <span class="kicker">Core articles</span>
+          <ul style="list-style:none;display:grid;gap:8px">${GUIDES.map((g) => `<li><a class="wl" href="#/wiki/${g.slug}">${esc(g.title)}</a></li>`).join('')}</ul>
+        </div>
+      </section>` : ''; })()}
 
       <section class="hero" style="align-items:stretch">
         <div class="fact">
@@ -188,7 +219,7 @@
           <div style="display:grid;gap:10px">
             ${EV_ORDER.map((e) => `<a class="chip" style="justify-content:space-between" href="#/index?ev=${e}">${evTag(e)}<span>${ENTRIES.filter((x) => x.item.evidence === e).length} entries →</span></a>`).join('')}
           </div>
-          <p style="margin-top:14px;font-size:13px;font-weight:600"><a class="wl" href="#/guide/index-explained">How ratings work</a></p>
+          <p style="margin-top:14px;font-size:13px;font-weight:600"><a class="wl" href="#/wiki/index-explained">How ratings work</a></p>
         </div>
       </section>
 
@@ -202,7 +233,7 @@
       </section>
       ${nM ? `<section>
         <h2 class="section-h">Metas <small>${nM} forum theories, protocols &amp; procedures</small></h2>
-        <p class="blurb-bar" style="margin-bottom:18px">What the forums swear by — from real surgery to gold injections. Documented, rated, not recommended.</p>
+        <p class="blurb-bar" style="margin-bottom:18px">Practices, protocols, procedures and theories from looksmaxxing culture — documented with proponents' claims and the research view.</p>
         <div class="portal-grid">${portals('meta')}</div>
       </section>` : ''}
       ${disclaimer}
@@ -210,16 +241,7 @@
   }
 
   function guideCard(g, feature) {
-    return `<a class="guide-card${feature ? ' feature' : ''}" href="#/guide/${g.slug}"><span class="gk">${esc(g.kicker)}</span><span class="gt">${esc(g.title)}</span><span class="gs">${esc(g.summary)}</span></a>`;
-  }
-
-  function pageGuides() {
-    return `<div class="page">
-      ${crumbs([['Wiki', '#/'], ['Guides']])}
-      <h1 class="h-page" style="margin-bottom:16px">The <span class="pop">Guides</span></h1>
-      <p class="lede" style="margin-bottom:32px">Long-form articles: what to do, in what order, and what to ignore.</p>
-      <div class="guide-grid">${GUIDES.map((g, i) => guideCard(g, i === 0)).join('')}</div>
-    </div>`;
+    return `<a class="guide-card${feature ? ' feature' : ''}" href="#/wiki/${g.slug}"><span class="gk">${esc(g.kicker)}</span><span class="gt">${esc(g.title)}</span><span class="gs">${esc(g.summary)}</span></a>`;
   }
 
   function pageGuide(s) {
@@ -227,19 +249,19 @@
     if (!g) return pageNotFound();
     const i = GUIDES.indexOf(g);
     const prev = GUIDES[i - 1], next = GUIDES[i + 1];
-    const toc = g.sections.map((sec, n) => `<li><a href="#/guide/${g.slug}" data-jump="s${n}">${esc(sec.h)}</a></li>`).join('');
+    const toc = g.sections.map((sec, n) => `<li><a href="#/wiki/${g.slug}" data-jump="s${n}">${esc(sec.h)}</a></li>`).join('');
     return `<div class="page article">
       <aside class="side"><div class="toc"><div class="th">Contents</div><ol>${toc}</ol></div></aside>
       <article>
-        ${crumbs([['Wiki', '#/'], ['Guides', '#/guides'], [g.title]])}
-        <header class="art-head"><span class="kicker">${esc(g.kicker)}</span><h1 class="h-page">${esc(g.title)}</h1></header>
+        ${crumbs([['Wiki', '#/'], [g.title]])}
+        <header class="art-head"><span class="kicker">★ Article · ${esc(g.kicker)}</span><h1 class="h-page">${esc(g.title)}</h1><p class="from">From LOOKSMAX Wiki, the looksmaxxing encyclopedia</p></header>
         <div class="prose">
           <p class="lead-sum">${esc(g.summary)}</p>
           ${g.sections.map((sec, n) => `<h2 id="s${n}">${esc(sec.h)}</h2>${wrapTables(renderWiki(sec.body))}`).join('')}
         </div>
         <div class="prevnext">
-          ${prev ? `<a href="#/guide/${prev.slug}"><small>← Previous</small><b>${esc(prev.title)}</b></a>` : '<span></span>'}
-          ${next ? `<a class="nx" href="#/guide/${next.slug}"><small>Next →</small><b>${esc(next.title)}</b></a>` : '<span></span>'}
+          ${prev ? `<a href="#/wiki/${prev.slug}"><small>← Previous</small><b>${esc(prev.title)}</b></a>` : '<span></span>'}
+          ${next ? `<a class="nx" href="#/wiki/${next.slug}"><small>Next →</small><b>${esc(next.title)}</b></a>` : '<span></span>'}
         </div>
         ${disclaimer}
       </article>
@@ -274,7 +296,7 @@
       <div>
         ${crumbs([['Wiki', '#/'], ['The Index']])}
         <h1 class="h-page" style="margin-bottom:16px">The <span class="pop">Index</span></h1>
-        <p class="lede">Every compound, peptide, drug, piece of gear and forum meta in the looksmaxxing universe — rated by actual evidence, not marketing. Click anything for the full file.</p>
+        <p class="lede">Every compound, peptide, drug, piece of gear and forum meta in looksmaxxing, with the level of published evidence for each. Click anything for the full file.</p>
       </div>
       <div style="display:grid;gap:24px">
         <div class="card filters">
@@ -311,7 +333,7 @@
     return fetch(`data/entries/${s}.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null)
       .then((d) => { DETAIL.set(s, d || 'error'); return DETAIL.get(s); });
   }
-  const VERDICT = { supported: ['Supported', 'tag-strong'], mixed: ['Mixed', 'tag-moderate'], unsupported: ['Unsupported', 'tag-unproven'], dangerous: ['Dangerous', 'tag-unproven'], unknown: ['Unknown', 'tag-limited'] };
+  const VERDICT = { supported: ['Supported by studies', 'tag-strong'], mixed: ['Mixed evidence', 'tag-moderate'], unsupported: ['Not supported by studies', 'tag-limited'], 'not-supported': ['Not supported by studies', 'tag-limited'], dangerous: ['Documented harms', 'tag-unproven'], harms: ['Documented harms', 'tag-unproven'], unknown: ['Untested', 'tag-limited'], untested: ['Untested', 'tag-limited'] };
 
   function pageEntry(kind, s, view) {
     VIEW = view === 'deep' ? 'deep' : 'quick';
@@ -365,6 +387,8 @@
     const group = (h, rows) => (rows.length ? `<tr class="ib-h"><th colspan="2">${esc(h)}</th></tr>${rows.join('')}` : '');
     const basics = [row('Type', { compound: 'Compound', gear: 'Gear', meta: 'Meta (forum theory / protocol)' }[kind]), row('Category', `<a href="${catHref(kind, item.category)}">${esc(meta.name)}</a>`, true)];
     if (item.aka) basics.push(row('Also known as', item.aka));
+    const helps = HELPS.get(item.name.toLowerCase()) || [];
+    if (helps.length) basics.push(row('Topics', helps.map((i) => `<a href="#/topic/${i.id}">${esc(i.name)}</a>`).join(', '), true));
     if (kind === 'gear' && item.price) basics.push(row('Street price', item.price));
     const rating = [row('Evidence', evTag(item.evidence), true),
       kind === 'compound' ? row('Status', esc(D.statusMeta[item.status].label), true) : kind === 'meta' ? row('Risk', riskTag(item.risk), true) : row('Outcome', esc(D.outcomeMeta[item.outcome].label), true)];
@@ -378,7 +402,7 @@
     const infobox = `<aside class="infobox wp-box">
       <div class="ib-title">${esc(item.name)}</div>
       ${visual}
-      <table>${group('Overview', basics)}${group(kind === 'compound' ? 'Clinical & chemical data' : 'Details', details)}${group('LOOKSMAX rating', rating)}${group('Sources', links)}</table>
+      <table>${group('Overview', basics)}${group(kind === 'compound' ? 'Clinical & chemical data' : 'Details', details)}${group('Evidence & status', rating)}${group('Sources', links)}</table>
       <div class="act"><span class="kicker" style="margin-bottom:8px">${kind === 'meta' ? 'Risk' : 'Buy now'}</span>${action}</div>
     </aside>`;
 
@@ -386,7 +410,7 @@
     const outcomeLine = kind === 'meta'
       ? { low: 'Low risk — mostly harmless, even if it does nothing.', moderate: 'Moderate risk — real side effects or costs are possible.', high: 'High risk — documented harms, injuries or legal exposure.', extreme: 'Extreme risk — can cause serious injury, disfigurement or death.' }[item.risk] || 'Risk not yet rated.'
       : kind === 'gear'
-      ? { durable: 'The result is a lasting change — it sticks after you stop.', temporary: 'The effect lasts only while you keep using it.', unsupported: 'The structural claim this is usually sold on has no supporting evidence.' }[item.outcome]
+      ? { durable: 'The result is a lasting change — it sticks after you stop.', temporary: 'The effect lasts only while you keep using it.', unsupported: 'No published studies have demonstrated the structural claim it is marketed on.' }[item.outcome]
       : { otc: 'Available over the counter as a supplement or cosmetic.', rx: 'Prescription only — this goes through a doctor.', research: 'A research compound, not approved for human use. Documented here so you know what it is, not as a recommendation.' }[item.status];
     const evLine = { strong: 'Multiple good human trials or clinical consensus support it for this use.', moderate: 'There is some decent human data; expect a real but modest effect.', limited: 'Evidence is small, early, or mostly from lab and animal work.', unproven: 'There is no meaningful human evidence for the appearance claim.' }[item.evidence];
 
@@ -396,8 +420,8 @@
       S.push([id, sec.h, P(sec.paras) + (sec.subs || []).map((sub, j) => `<h3 id="${id}-${j}">${esc(sub.h)}</h3>${P(sub.paras)}`).join(''), sec.subs || []]);
     });
     if (R.timeline && R.timeline.length) S.push(['timeline', 'Timeline', `<ol class="timeline">${R.timeline.map((t) => `<li><b>${esc(t.year)}</b><span>${cite(t.event)}</span></li>`).join('')}</ol>`]);
-    S.push(['rating', 'LOOKSMAX evidence rating', `<p>Rated ${evTag(item.evidence)} for its appearance use. ${evLine} <a href="#/guide/index-explained">How ratings work</a>.</p><p><b>${kind === 'gear' ? 'Outcome' : kind === 'meta' ? 'Risk' : 'Status'}:</b> ${esc(outcomeLine)}</p>${item.note ? `<p class="warn">⚠ ${esc(item.note)}</p>` : ''}`]);
-    if (R.lore) S.push(['lore', 'Forum lore & theories', `${R.lore.intro ? `<p>${cite(R.lore.intro)}</p>` : ''}<div class="lore">${R.lore.claims.map((c) => `<div class="lore-row"><span class="tag ${VERDICT[c.verdict][1]}">${VERDICT[c.verdict][0]}</span><div><b>“${cite(c.claim)}”</b><p>${cite(c.note)}</p></div></div>`).join('')}</div><p class="mute" style="font-size:12px">Forum claims are collected so you know what's out there — the verdict is ours, based on the sources above.</p>`]);
+    S.push(['rating', 'Evidence level', `<p>Published evidence for its appearance use: ${evTag(item.evidence)}. ${evLine} <a href="#/wiki/index-explained">About evidence levels</a>.</p><p><b>${kind === 'gear' ? 'Outcome' : kind === 'meta' ? 'Risk' : 'Status'}:</b> ${esc(outcomeLine)}</p>${item.note ? `<p class="warn">⚠ ${esc(item.note)}</p>` : ''}`]);
+    if (R.lore) S.push(['lore', 'Claims & evidence', `${R.lore.intro ? `<p>${cite(R.lore.intro)}</p>` : ''}<div class="lore">${R.lore.claims.map((c) => { const v = VERDICT[c.evidence || c.verdict] || VERDICT.unknown; return `<div class="lore-row"><span class="tag ${v[1]}">${v[0]}</span><div><b>“${cite(c.claim)}”</b>${c.believers ? `<p><b class="lbl">Proponents:</b> ${cite(c.believers)}</p>` : ''}${c.experts ? `<p><b class="lbl">Research &amp; experts:</b> ${cite(c.experts)}</p>` : c.note ? `<p>${cite(c.note)}</p>` : ''}</div></div>`; }).join('')}</div><p class="mute" style="font-size:12px">This section records claims made in looksmaxxing communities alongside what published research and clinicians report. The status describes the state of the evidence; it is not an endorsement or a rebuttal.</p>`]);
     const L = R.links || {};
     const allLinksHref = `#/${kind}/${e.slug}/links`;
     const totalLinks = (L.studies || []).length + (L.trials || []).length + (L.reddit || []).length + (L.forums || []).length + (L.web || []).length + (L.label ? 1 : 0);
@@ -407,27 +431,27 @@
     const seeAll = (n, what) => (n > 10 ? `<p><a class="btn" href="${allLinksHref}">See all ${n} ${what} →</a></p>` : '');
     if (deepView) {
       const st = L.studies || [];
-      S.push(['research', 'Research', st.length
-        ? `<p class="mute" style="font-size:13px">Top ${Math.min(10, st.length)} of ${st.length} papers, most-cited first.</p><ul class="linklist">${st.slice(0, 10).map(studyLi).join('')}</ul>${(L.trials || []).length ? `<h3>Clinical trials</h3><ul class="linklist">${L.trials.slice(0, 5).map((t) => `<li><a href="${esc(t.url)}" target="_blank" rel="noopener"><b>${esc(t.title)}</b><span>${esc([t.nct, t.status, t.phase, t.start, t.enrollment ? 'n=' + t.enrollment : null].filter(Boolean).join(' · '))} ↗</span></a></li>`).join('')}</ul>` : ''}${seeAll(st.length + (L.trials || []).length, 'studies & trials')}`
-        : `<p class="mute">No studies indexed yet.</p>`]);
+      const hasStudySection = (R.sections || []).some((x) => /clinical stud/i.test(x.h));
+      if (!hasStudySection) S.push(['research', 'Clinical studies', R.studies.length ? `<ul class="linklist">${R.studies.map(studyLi).join('')}</ul>` : `<p>No studies found.</p>`]);
+      if (st.length) S.push(['literature', 'Related literature', `<p class="mute" style="font-size:13px">Papers matching this topic in PubMed and Europe PMC, most-cited first. These are search results, not a curated list.</p><ul class="linklist">${st.slice(0, 10).map(studyLi).join('')}</ul>${(L.trials || []).length ? `<h3>Registered clinical trials</h3><ul class="linklist">${L.trials.slice(0, 5).map((t) => `<li><a href="${esc(t.url)}" target="_blank" rel="noopener"><b>${esc(t.title)}</b><span>${esc([t.nct, t.status, t.phase, t.start, t.enrollment ? 'n=' + t.enrollment : null].filter(Boolean).join(' · '))} ↗</span></a></li>`).join('')}</ul>` : ''}${seeAll(st.length + (L.trials || []).length, 'papers & trials')}`]);
       const top = [...(L.reddit || []).map((r) => ({ r, pop: (r.score || 0) + (r.comments || 0), li: redditLi(r) })), ...(L.forums || []).map((r, i) => ({ r, pop: 40 - i, li: forumLi(r) }))]
         .sort((a, b) => b.pop - a.pop);
       S.push(['community', 'Community discussion', top.length
         ? `<p class="mute" style="font-size:13px">Top ${Math.min(10, top.length)} of ${top.length} threads by popularity. Forum posts are anecdotes, not evidence.</p><ul class="linklist forum">${top.slice(0, 10).map((x) => x.li).join('')}</ul>${seeAll(top.length, 'threads')}`
-        : `<p class="mute">No threads indexed yet.</p>`]);
+        : `<p>No community discussion found.</p>`]);
       if ((R.gallery || []).length) S.push(['gallery', 'Gallery', `<div class="gallery">${R.gallery.slice(0, 8).map((g) => `<figure><a href="${esc(g.page)}" target="_blank" rel="noopener"><img src="${esc(g.url)}" alt="${esc(g.title)}" loading="lazy" data-gal></a><figcaption>${esc(g.title)}<span>${esc([g.creator, g.license, g.source].filter(Boolean).join(' · '))}</span></figcaption></figure>`).join('')}</div>`]);
     } else {
-      S.push(['research', 'Research', R.studies.length
+      S.push(['research', 'Clinical studies', R.studies.length
         ? `<ul class="linklist">${R.studies.map((r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc([r.kind, r.source, r.year].filter(Boolean).join(' · '))} ↗</span></a></li>`).join('')}</ul>`
-        : `<p class="mute">${loading ? 'Loading…' : 'No studies indexed yet.'} <a href="https://pubmed.ncbi.nlm.nih.gov/?term=${encodeURIComponent(item.name)}" target="_blank" rel="noopener">Search PubMed ↗</a></p>`]);
+        : `<p>${loading ? 'Loading…' : 'No studies found.'}</p>`]);
       const reddit = R.reddit.map(redditLi).join('');
       const forums = R.forums.map(forumLi).join('');
       S.push(['community', 'Community discussion', (reddit || forums)
         ? `${reddit ? `<h3>Reddit</h3><ul class="linklist forum">${reddit}</ul>` : ''}${forums ? `<h3>Forums</h3><ul class="linklist forum">${forums}</ul>` : ''}<p class="mute" style="font-size:12px">Forum posts are anecdotes, not evidence.</p>`
-        : `<p class="mute">${loading ? 'Loading…' : 'No threads indexed yet.'} <a href="https://www.reddit.com/search/?q=${encodeURIComponent(item.name)}" target="_blank" rel="noopener">Search Reddit ↗</a></p>`]);
+        : `<p>${loading ? 'Loading…' : 'No community discussion found.'}</p>`]);
     }
     if (kind !== 'meta') S.push(['where', 'Where to buy', `<div class="buyslot">${action}</div>`]);
-    if (related.length) S.push(['see-also', 'See also', `<div class="grid">${related.map(entryCard).join('')}</div>${back.length ? `<p class="backlinks" style="margin-top:14px">Mentioned in: ${back.map((g) => `<a href="#/guide/${g.slug}">${esc(g.title)}</a>`).join(', ')}</p>` : ''}`]);
+    if (related.length) S.push(['see-also', 'See also', `<div class="grid">${related.map(entryCard).join('')}</div>${back.length ? `<p class="backlinks" style="margin-top:14px">Mentioned in: ${back.map((g) => `<a href="#/wiki/${g.slug}">${esc(g.title)}</a>`).join(', ')}</p>` : ''}`]);
     if (R.refs.length) S.push(['references', 'References', `<ol class="refs">${R.refs.map((r, i) => `<li id="ref-${i + 1}"><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>${r.source ? `. <i>${esc(r.source)}</i>` : ''}${r.year ? ` (${r.year})` : ''}.</li>`).join('')}</ol>`]);
     const ext = [
       R.wikipedia && `<li><a href="${esc(R.wikipedia.url)}" target="_blank" rel="noopener">${esc(R.wikipedia.title)}</a> on Wikipedia</li>`,
@@ -447,7 +471,7 @@
         <header class="art-head">
           <span class="kicker">★ ${{ compound: 'Compound file', gear: 'Gear file', meta: 'Meta file' }[kind]}</span>
           <h1 class="h-page">${esc(item.name)}</h1>
-          <p class="from">From LOOKSMAX Wiki, the evidence-first looksmaxxing encyclopedia</p>
+          <p class="from">From LOOKSMAX Wiki, the looksmaxxing encyclopedia</p>
           <div class="viewtoggle" role="tablist" aria-label="Article length">
             <a role="tab" href="#/${kind}/${e.slug}" aria-selected="${VIEW !== 'deep'}" class="${VIEW === 'deep' ? '' : 'on'}">Quick take</a>
             <a role="tab" href="#/${kind}/${e.slug}/deep" aria-selected="${VIEW === 'deep'}" class="${VIEW === 'deep' ? 'on' : ''}">In-depth${hasDeep || loading ? '' : ' <small>soon</small>'}</a>
@@ -470,6 +494,64 @@
     </div>`;
   }
 
+  // ───────── Topics: tags that connect every entry about the same thing ─────────
+  const ISSUE_GROUPS = [...new Set(ISSUES.map((i) => i.group))];
+  const normQ = (t) => ' ' + String(t || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim() + ' ';
+  // Which topics does a search query point at? (name, goal words and synonyms)
+  function topicsFor(q) {
+    const n = normQ(q);
+    if (n.trim().length < 2) return [];
+    return ISSUES.map((t) => {
+      const keys = [t.name, ...(t.keywords || [])].map(normQ);
+      let score = 0;
+      keys.forEach((k) => { if (n.includes(k)) score = Math.max(score, 3 + k.length / 20); else if (k.includes(n)) score = Math.max(score, 2); });
+      return [t, score];
+    }).filter(([, sc]) => sc > 0).sort((a, b) => b[1] - a[1]).map(([t]) => t);
+  }
+  function topicEntries(t) {
+    const live = [], pending = [];
+    t.approaches.forEach((a) => { const e = byName.get(a.name.toLowerCase()); if (e) live.push(e); else pending.push(a); });
+    return { live, pending };
+  }
+  function topicCard(t) {
+    const { live } = topicEntries(t);
+    return `<a class="portal" href="#/topic/${t.id}"><span class="pt"><span class="pn">${esc(t.name)}</span><span class="pc">${t.approaches.length}</span></span><span class="pb">${esc(t.goal)}</span><span class="pb mute" style="font-size:11px">${live.length} articles</span></a>`;
+  }
+  function topicListing(t, q) {
+    const { live, pending } = topicEntries(t);
+    const f = (arr, txt) => (q ? arr.filter((x) => txt(x).toLowerCase().includes(q)) : arr);
+    const L = f(live, (e) => e.item.name + ' ' + e.item.summary + ' ' + (e.item.aka || ''));
+    const P = f(pending, (a) => a.name + ' ' + a.why);
+    const byKind = KINDS.map((k) => [k, L.filter((e) => e.kind === k).sort((a, b) => a.item.name.localeCompare(b.item.name))]).filter(([, l]) => l.length);
+    return `${byKind.map(([k, l]) => `<section><h2 class="section-h">${KIND_LABEL[k]} <small>${l.length}</small></h2><div class="grid">${l.map(entryCard).join('')}</div></section>`).join('')}
+      ${P.length ? `<section><h2 class="section-h">Not yet written <small>${P.length}</small></h2><div class="grid">${P.sort((a, b) => a.name.localeCompare(b.name)).map((a) => `<div class="entry pending"><div><h4>${esc(a.name)}</h4><p class="aka">${esc({ compound: 'Compound', gear: 'Gear', meta: 'Meta' }[a.kind] || '')}</p></div><p>${esc(a.why)}</p></div>`).join('')}</div></section>` : ''}`;
+  }
+  function pageIssues() {
+    return `<div class="page">
+      ${crumbs([['Wiki', '#/'], ['Topics']])}
+      <h1 class="h-page" style="margin-bottom:16px">Topics</h1>
+      <p class="lede" style="margin-bottom:32px">Every entry is tagged with the topics it relates to. Pick one, or just search — "tanning", "jawline", "hairline" — and everything tagged with it comes up.</p>
+      <div class="stack">${ISSUE_GROUPS.map((g) => `<section><h2 class="section-h">${esc(g)}</h2><div class="portal-grid">${ISSUES.filter((i) => i.group === g).map(topicCard).join('')}</div></section>`).join('')}</div>
+    </div>`;
+  }
+  function pageIssue(id) {
+    const t = ISSUES.find((i) => i.id === id);
+    if (!t) return pageNotFound();
+    const q = (new URLSearchParams(location.hash.split('?')[1] || '').get('q') || '').toLowerCase();
+    const others = ISSUES.filter((i) => i.group === t.group && i.id !== t.id);
+    return `<div class="page">
+      ${crumbs([['Wiki', '#/'], ['Topics', '#/topics'], [t.name]])}
+      <span class="kicker">★ Topic · ${esc(t.group)} · ${t.approaches.length} entries</span>
+      <h1 class="h-page" style="margin-bottom:12px">${esc(t.name)}</h1>
+      <p class="lede" style="margin-bottom:20px">${esc(t.goal)}.</p>
+      <form class="f-search card" data-links-search style="margin-bottom:28px;box-shadow:var(--sh-xs)">${searchIcon}<input name="q" value="${esc(q)}" placeholder="Filter within ${esc(t.name.toLowerCase())}…" aria-label="Filter" autocomplete="off"></form>
+      <div class="stack">
+        ${topicListing(t, q)}
+        ${others.length ? `<section><h2 class="section-h">Related topics</h2><div class="f-row" style="padding:0">${others.map((o) => `<a class="chip" href="#/topic/${o.id}">${esc(o.name)}</a>`).join('')}</div></section>` : ''}
+      </div>
+    </div>`;
+  }
+
   // ───────── all-links page: the second layer under every in-depth article ─────────
   function pageLinks(kind, s) {
     const e = bySlug[kind] && bySlug[kind].get(s);
@@ -483,7 +565,7 @@
     const q = (new URLSearchParams(location.hash.split('?')[1] || '').get('q') || '').toLowerCase();
     const f = (arr) => (q ? arr.filter((x) => JSON.stringify(x).toLowerCase().includes(q)) : arr);
     const groups = [
-      ['studies', 'Studies & papers', 'Most-cited first', f(L.studies || []), (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc([r.kind, r.source, r.year, r.cites != null ? `cited ${Number(r.cites).toLocaleString()}×` : null].filter(Boolean).join(' · '))} ↗</span></a></li>`],
+      ['studies', 'Related literature', 'PubMed / Europe PMC search results, most-cited first', f(L.studies || []), (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc([r.kind, r.source, r.year, r.cites != null ? `cited ${Number(r.cites).toLocaleString()}×` : null].filter(Boolean).join(' · '))} ↗</span></a></li>`],
       ['trials', 'Clinical trials', 'ClinicalTrials.gov registrations', f(L.trials || []), (t) => `<li><a href="${esc(t.url)}" target="_blank" rel="noopener"><b>${esc(t.title)}</b><span>${esc([t.nct, t.status, t.phase, t.start, t.enrollment ? 'n=' + t.enrollment : null].filter(Boolean).join(' · '))} ↗</span></a></li>`],
       ['label', 'Drug label', 'Official US prescribing information', L.label ? [L.label] : [], (l) => `<li><a href="${esc(l.url)}" target="_blank" rel="noopener"><b>${esc(l.generic || item.name)} — DailyMed label</b><span>${esc((l.brands || []).join(', ') || 'US label')} ↗</span></a></li>`],
       ['reddit', 'Reddit threads', 'Highest score + comments first', f(L.reddit || []), (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>r/${esc(r.sub)} · ▲ ${r.score} · ${r.comments} comments${r.year ? ' · ' + r.year : ''} ↗</span></a></li>`],
@@ -532,7 +614,7 @@
   function pageAZ() {
     const all = [
       ...ENTRIES.map((e) => ({ name: e.item.name, href: entryHref(e), k: e.kind })),
-      ...GUIDES.map((g) => ({ name: g.title, href: `#/guide/${g.slug}`, k: 'guide' })),
+      ...GUIDES.map((g) => ({ name: g.title, href: `#/wiki/${g.slug}`, k: 'article' })),
     ].sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }));
     const groups = new Map();
     all.forEach((x) => {
@@ -564,15 +646,18 @@
     };
     const guides = q ? GUIDES.map((g) => ({ g, s: score(g.title, '', g.summary + ' ' + g.sections.map((x) => x.h + ' ' + x.body).join(' ')) })).filter((x) => x.s).sort((a, b) => b.s - a.s) : [];
     const entries = q ? ENTRIES.map((e) => ({ e, s: score(e.item.name, e.item.aka, e.item.summary + ' ' + (e.item.note || '')) })).filter((x) => x.s).sort((a, b) => b.s - a.s || a.e.item.name.localeCompare(b.e.item.name)) : [];
-    const total = guides.length + entries.length;
+    const topicHits = q ? topicsFor(q).slice(0, 3) : [];
+    const topicNames = new Set(topicHits.flatMap((t) => t.approaches.map((a) => a.name.toLowerCase())));
+    const total = guides.length + entries.length + topicHits.reduce((a, t) => a + t.approaches.length, 0);
     return `<div class="page">
       ${crumbs([['Wiki', '#/'], ['Search']])}
       <h1 class="h-page" style="margin-bottom:8px">Search</h1>
       <form class="big-search" data-search role="search" style="margin-bottom:32px">${searchIcon}<input name="q" value="${esc(raw)}" placeholder="Search the wiki…" aria-label="Search the wiki" autocomplete="off"><button class="btn popb" type="submit">Search</button></form>
       ${q ? `<p class="count" style="margin-bottom:24px">${total} <small>results for “${esc(raw)}”</small></p>` : ''}
       <div class="stack">
-        ${guides.length ? `<section><h2 class="section-h">Guides <small>${guides.length}</small></h2><div class="guide-grid">${guides.map((x) => guideCard(x.g)).join('')}</div></section>` : ''}
-        ${entries.length ? `<section><h2 class="section-h">Index entries <small>${entries.length}</small></h2><div class="grid">${entries.map((x) => entryCard(x.e)).join('')}</div></section>` : ''}
+        ${topicHits.map((t, i) => `<section class="topic-hit"><h2 class="section-h">Topic: ${esc(t.name)} <small>${t.approaches.length} entries · <a class="wl" href="#/topic/${t.id}">open topic</a></small></h2>${i === 0 ? topicListing(t, '') : `<p><a class="btn" href="#/topic/${t.id}">See all ${t.approaches.length} entries in ${esc(t.name)} →</a></p>`}</section>`).join('')}
+        ${guides.length ? `<section><h2 class="section-h">Articles <small>${guides.length}</small></h2><div class="guide-grid">${guides.map((x) => guideCard(x.g)).join('')}</div></section>` : ''}
+        ${entries.filter((x) => !topicNames.has(x.e.item.name.toLowerCase())).length ? `<section><h2 class="section-h">${topicHits.length ? 'Other matches' : 'Entries'} <small>${entries.filter((x) => !topicNames.has(x.e.item.name.toLowerCase())).length}</small></h2><div class="grid">${entries.filter((x) => !topicNames.has(x.e.item.name.toLowerCase())).map((x) => entryCard(x.e)).join('')}</div></section>` : ''}
         ${q && !total ? `<p class="empty">Nothing matches “${esc(raw)}”. Try the <a class="wl" href="#/az">A–Z</a>.</p>` : ''}
       </div>
     </div>`;
@@ -589,8 +674,8 @@
 
   // ───────── footer ─────────
   document.getElementById('foot').innerHTML = `
-    <div><h5>Wiki</h5><a href="#/">Home</a><a href="#/index">The Index</a><a href="#/guides">Guides</a><a href="#/az">A–Z</a><a href="#/random">Random article</a></div>
-    <div><h5>Guides</h5>${GUIDES.slice(0, 5).map((g) => `<a href="#/guide/${g.slug}">${esc(g.title)}</a>`).join('')}</div>
+    <div><h5>Wiki</h5><a href="#/">Home</a><a href="#/topics">Topics</a><a href="#/index">The Index</a><a href="#/az">A–Z</a><a href="#/random">Random article</a></div>
+    <div><h5>Articles</h5>${GUIDES.slice(0, 5).map((g) => `<a href="#/wiki/${g.slug}">${esc(g.title)}</a>`).join('')}</div>
     <div><h5>Compounds</h5>${Object.entries(D.categoryMeta).slice(0, 5).map(([k, m]) => `<a href="${catHref('compound', k)}">${esc(m.name)}</a>`).join('')}</div>
     <div><h5>Gear</h5>${Object.entries(D.gearCategoryMeta).slice(0, 5).map(([k, m]) => `<a href="${catHref('gear', k)}">${esc(m.name)}</a>`).join('')}</div>
     ${ENTRIES.some((e) => e.kind === 'meta') ? `<div><h5>Metas</h5>${Object.entries(WIKI.metaCategories).slice(0, 5).map(([k, m]) => `<a href="${catHref('meta', k)}">${esc(m.name)}</a>`).join('')}</div>` : ''}`;
@@ -605,15 +690,16 @@
     let html, title = 'LOOKSMAX Wiki', nav = '';
 
     if (seg[0] === 'random') {
-      const all = [...ENTRIES.map(entryHref), ...GUIDES.map((g) => `#/guide/${g.slug}`)];
+      const all = [...ENTRIES.map(entryHref), ...GUIDES.map((g) => `#/wiki/${g.slug}`)];
       location.replace(all[Math.floor(Math.random() * all.length)]);
       return;
     }
     switch (seg[0]) {
       case undefined: html = pageHome(); break;
       case 'index': html = pageIndex(params); title = 'The Index'; nav = 'index'; break;
-      case 'guides': html = pageGuides(); title = 'Guides'; nav = 'guides'; break;
-      case 'guide': { const g = guideBySlug.get(seg[1]); html = pageGuide(seg[1]); title = g ? g.title : 'Not found'; nav = 'guides'; break; }
+      case 'guides': location.replace('#/az'); return;
+      case 'guide': location.replace('#/wiki/' + (seg[1] || '')); return;
+      case 'wiki': { const g = guideBySlug.get(seg[1]); html = pageGuide(seg[1]); title = g ? g.title : 'Not found'; break; }
       case 'compound':
       case 'gear':
       case 'meta': {
@@ -626,11 +712,15 @@
       }
       case 'category': { const ck = KINDS.includes(seg[1]) ? seg[1] : 'compound'; const m = catMeta(ck)[seg[2]]; html = pageCategory(ck, seg[2]); title = m ? m.name : 'Not found'; nav = 'index'; break; }
       case 'az': html = pageAZ(); title = 'A–Z'; nav = 'az'; break;
+      case 'issues': location.replace('#/topics'); return;
+      case 'issue': location.replace('#/topic/' + (seg[1] || '')); return;
+      case 'topics': html = pageIssues(); title = 'Topics'; nav = 'topics'; break;
+      case 'topic': { const i = ISSUES.find((x) => x.id === seg[1]); html = pageIssue(seg[1]); title = i ? i.name : 'Not found'; nav = 'topics'; break; }
       case 'search': html = pageSearch(params); title = 'Search'; break;
       default: html = pageNotFound(); title = 'Not found';
     }
     app.innerHTML = html;
-    document.title = title === 'LOOKSMAX Wiki' ? 'LOOKSMAX Wiki — The evidence-first looksmaxxing encyclopedia' : `${title} — LOOKSMAX Wiki`;
+    document.title = title === 'LOOKSMAX Wiki' ? 'LOOKSMAX Wiki — The looksmaxxing encyclopedia' : `${title} — LOOKSMAX Wiki`;
     document.querySelectorAll('[data-nav]').forEach((a) => (a.dataset.nav === nav ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current')));
     closeMenu();
     if (!keepScroll) window.scrollTo(0, 0);
