@@ -104,19 +104,24 @@ for (const { kind, item } of ENTRIES) {
   let refs = [], lead = null, sections = null, infobox = [], lore = null, timeline = [];
   if (deep) {
     const keep = new Map();
+    const alias = new Map(); // duplicate URLs → first id
+    const byUrl = new Map();
     (deep.refs || []).forEach((r) => {
-      if (r && okUrl(r.url) && allowed.has(norm(r.url))) keep.set(Number(r.id), r);
-      else stats.droppedRefs++;
+      if (!(r && okUrl(r.url) && allowed.has(norm(r.url)))) { stats.droppedRefs++; return; }
+      const k = norm(r.url);
+      if (byUrl.has(k)) { alias.set(Number(r.id), byUrl.get(k)); return; }
+      byUrl.set(k, Number(r.id)); keep.set(Number(r.id), r);
     });
+    const canon = (id) => alias.get(id) ?? id;
     // Renumber kept refs 1..n in order of first citation.
     const order = [];
-    const scan = (t) => String(t || '').replace(/\[(\d+(?:\s*,\s*\d+)*)\]/g, (m, ids) => { ids.split(',').map((x) => Number(x.trim())).forEach((id) => { if (keep.has(id) && !order.includes(id)) order.push(id); }); return m; });
+    const scan = (t) => String(t || '').replace(/\[(\d+(?:\s*,\s*\d+)*)\]/g, (m, ids) => { ids.split(',').map((x) => canon(Number(x.trim()))).forEach((id) => { if (keep.has(id) && !order.includes(id)) order.push(id); }); return m; });
     const allText = [...(deep.lead || []), ...(deep.sections || []).flatMap((x) => [...(x.paras || []), ...(x.subs || []).flatMap((y) => y.paras || [])]), ...((deep.lore?.claims) || []).map((c) => c.claim + ' ' + c.note), deep.lore?.intro, ...(deep.timeline || []).map((t) => t.event)];
     allText.forEach(scan);
     [...keep.keys()].forEach((id) => { if (!order.includes(id)) order.push(id); });
     const remap = new Map(order.map((id, i) => [id, i + 1]));
     const fix = (t) => String(t || '').replace(/\[(\d+(?:\s*,\s*\d+)*)\]/g, (m, ids) => {
-      const n = ids.split(',').map((x) => remap.get(Number(x.trim()))).filter(Boolean);
+      const n = [...new Set(ids.split(',').map((x) => remap.get(canon(Number(x.trim())))).filter(Boolean))];
       return n.length ? n.map((x) => `[${x}]`).join('') : '';
     }).replace(/\s+([.,;:])/g, '$1').trim();
     refs = order.map((id) => { const r = keep.get(id); return { title: String(r.title || r.url), url: r.url, source: r.source || '', year: Number(r.year) || null, type: r.type || '' }; });
