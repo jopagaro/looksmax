@@ -436,7 +436,9 @@ const SRC_ARG = process.argv.includes('--sources') ? process.argv[process.argv.i
 const CONC = Number(process.argv.includes('--conc') ? process.argv[process.argv.indexOf('--conc') + 1] : 5);
 const FN = { tnation: ['tnation', tnation], wiki: ['wikipedia', wikipedia], grok: ['grokipedia', grokipedia], pubmed: ['pubmed', pubmed], reddit: ['reddit', reddit], looksmax: ['looksmax', looksmaxOrg] };
 const { allEntries } = await import('./entries.mjs');
-const ENTRIES = allEntries().filter((e) => !ONLY || e.item.name === ONLY);
+let ENTRIES = allEntries().filter((e) => !ONLY || e.item.name === ONLY);
+if (process.argv.includes('--reverse')) ENTRIES = ENTRIES.reverse();
+if (process.argv.includes('--slow-wiki')) gate['en.wikipedia.org'] = throttle(2000);
 
 let done = 0;
 async function work(e) {
