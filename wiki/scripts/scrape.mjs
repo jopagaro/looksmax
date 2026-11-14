@@ -19,6 +19,13 @@ const ctx = { window: {} };
 vm.runInNewContext(readFileSync(join(root, 'assets', 'data.js'), 'utf8'), ctx);
 const D = ctx.window.LM_DATA;
 const FORCE = process.argv.includes('--force');
+// Local credentials (wiki/.env.local, git-ignored): REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT
+try {
+  for (const line of readFileSync(join(root, '.env.local'), 'utf8').split('\n')) {
+    const m = line.match(/^\s*([A-Z_]+)\s*=\s*(.*?)\s*$/);
+    if (m && !process.env[m[1]]) process.env[m[1]] = m[2].replace(/^["']|["']$/g, '');
+  }
+} catch {}
 const ONLY = process.argv.includes('--only') ? process.argv[process.argv.indexOf('--only') + 1] : null;
 const UA = 'Mozilla/5.0 (compatible; looksmax-wiki-research/1.0)';
 const slug = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -44,6 +51,8 @@ const gate = {
   'arctic-shift.photon-reddit.com': throttle(6000),
   'web.archive.org': throttle(1500),
   'grokipedia.com': throttle(400),
+  'oauth.reddit.com': throttle(800),
+  'www.reddit.com': throttle(1000),
   't-nation.com': throttle(1300),
 };
 async function get(url, { json = false, tries = 3 } = {}) {
@@ -410,6 +419,59 @@ async function fetchArchivedThread(t) {
   t.posts = posts.filter((p) => p.length > 60).slice(0, 4).map((p) => p.slice(0, 1800));
 }
 
+// Reddit via the official API (app-only OAuth, read-only). Needs REDDIT_CLIENT_ID/SECRET in .env.local.
+let REDDIT_TOKEN = null, REDDIT_TOKEN_EXP = 0;
+async function redditToken() {
+  if (REDDIT_TOKEN && Date.now() < REDDIT_TOKEN_EXP) return REDDIT_TOKEN;
+  const id = process.env.REDDIT_CLIENT_ID, secret = process.env.REDDIT_CLIENT_SECRET;
+  if (!id || !secret) throw new Error('missing REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET in wiki/.env.local');
+  const r = await fetch('https://www.reddit.com/api/v1/access_token', {
+    method: 'POST', body: 'grant_type=client_credentials',
+    headers: { authorization: 'Basic ' + Buffer.from(id + ':' + secret).toString('base64'), 'content-type': 'application/x-www-form-urlencoded', 'user-agent': redditUA() },
+  });
+  if (!r.ok) throw new Error('reddit token ' + r.status);
+  const j = await r.json();
+  REDDIT_TOKEN = j.access_token; REDDIT_TOKEN_EXP = Date.now() + (j.expires_in - 60) * 1000;
+  return REDDIT_TOKEN;
+}
+const redditUA = () => process.env.REDDIT_USER_AGENT || 'script:looksmax-wiki:1.0';
+async function redditGet(path) {
+  for (let i = 0; i < 4; i++) {
+    await gate['oauth.reddit.com']();
+    const r = await fetch('https://oauth.reddit.com' + path, { headers: { authorization: 'Bearer ' + (await redditToken()), 'user-agent': redditUA() }, signal: AbortSignal.timeout(30000) }).catch(() => null);
+    if (r && r.ok) return r.json();
+    if (r && r.status === 401) { REDDIT_TOKEN = null; continue; }
+    await new Promise((s) => setTimeout(s, 5000 * (i + 1)));
+  }
+  return null;
+}
+async function redditOfficial(item, terms) {
+  const subs = (SUBS[item.category] || ['LooksmaxingAdvice', 'Looksmaxx']).slice(0, 4);
+  const seen = new Map();
+  let calls = 0, fails = 0;
+  for (const sub of subs) {
+    for (const term of terms.slice(0, 2)) {
+      const j = await redditGet(`/r/${sub}/search?q=${encodeURIComponent('"' + term + '"')}&restrict_sr=1&sort=relevance&t=all&limit=25&raw_json=1`);
+      calls++; if (!j) { fails++; continue; }
+      for (const c of j.data?.children || []) {
+        const p = c.data;
+        if (!p || seen.has(p.id) || p.removed_by_category || p.selftext === '[removed]' || p.over_18) continue;
+        seen.set(p.id, { id: p.id, sub: p.subreddit, title: p.title, score: p.score || 0, comments: p.num_comments || 0,
+          year: new Date((p.created_utc || 0) * 1000).getUTCFullYear(), url: `https://www.reddit.com${p.permalink}`, text: (p.selftext || '').slice(0, 1200) });
+      }
+    }
+  }
+  if (calls && fails / calls > 0.5) return { __failed: true };
+  const posts = [...seen.values()].sort((a, b) => (b.score + b.comments * 2) - (a.score + a.comments * 2)).slice(0, 20);
+  for (const p of posts.slice(0, 3)) {
+    const j = await redditGet(`/comments/${p.id}?sort=top&limit=8&depth=1&raw_json=1`);
+    const cs = (j && j[1]?.data?.children) || [];
+    p.topComments = cs.map((c) => c.data).filter((c) => c && c.body && c.body.length > 40 && c.body !== '[deleted]' && c.body !== '[removed]')
+      .slice(0, 6).map((c) => ({ score: c.score, text: c.body.slice(0, 700) }));
+  }
+  return posts;
+}
+
 // T Nation forums (Discourse JSON search — open, no bot wall). Strong on steroids, peptides, TRT, training.
 async function tnation(item, terms) {
   const topics = new Map();
@@ -434,7 +496,7 @@ async function tnation(item, terms) {
 // existing raw file; a source is only re-fetched if it previously failed or is missing.
 const SRC_ARG = process.argv.includes('--sources') ? process.argv[process.argv.indexOf('--sources') + 1].split(',') : ['wiki', 'grok', 'pubmed', 'reddit', 'looksmax'];
 const CONC = Number(process.argv.includes('--conc') ? process.argv[process.argv.indexOf('--conc') + 1] : 5);
-const FN = { tnation: ['tnation', tnation], wiki: ['wikipedia', wikipedia], grok: ['grokipedia', grokipedia], pubmed: ['pubmed', pubmed], reddit: ['reddit', reddit], looksmax: ['looksmax', looksmaxOrg] };
+const FN = { redditapi: ['reddit', redditOfficial], tnation: ['tnation', tnation], wiki: ['wikipedia', wikipedia], grok: ['grokipedia', grokipedia], pubmed: ['pubmed', pubmed], reddit: ['reddit', reddit], looksmax: ['looksmax', looksmaxOrg] };
 const { allEntries } = await import('./entries.mjs');
 let ENTRIES = allEntries().filter((e) => !ONLY || e.item.name === ONLY);
 if (process.argv.includes('--reverse')) ENTRIES = ENTRIES.reverse();
