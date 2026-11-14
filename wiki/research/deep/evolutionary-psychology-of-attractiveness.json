@@ -1,23 +1,193 @@
 {
-"name":"Evolutionary psychology of attractiveness",
-"lead":["The evolutionary psychology of attractiveness is the study of human beauty preferences as products of natural and sexual selection. Evolutionary psychology treats the mind as made of specialised mechanisms shaped to solve recurring ancestral problems, including choosing mates.[1] Within this framework, researchers have proposed that preferences for features such as facial symmetry, averageness, sexual dimorphism and particular body ratios evolved because they signalled health, fertility or genetic quality.[1][2]","The approach is widely cited in looksmaxxing and related online communities to justify why certain features are rated highly. Critics within science question whether the correlations between attractive features and health are strong, and point to cultural variation and sampling limits.[2]"],
-"infobox":[["Field","Evolutionary psychology"],["Core idea","Beauty preferences as adaptations for mate choice"],["Commonly studied cues","Symmetry, averageness, sexual dimorphism, waist-hip ratio"],["Main critiques","Weak health correlations, cultural variation, narrow samples"]],
-"sections":[
-{"h":"Theoretical background","paras":["Evolutionary psychology holds that the brain contains many specialised mechanisms shaped by natural selection over deep evolutionary time to solve problems such as food choice, social hierarchy and selecting mates.[1] Its proponents regard traits found across all cultures as good candidates for adaptations, and list the perception of beauty among its research topics, alongside the ability to identify healthier mates.[1] Critics of the field have argued that adaptive explanations can be hard to test; the wider debates are summarised in the general article on evolutionary psychology.[1]"]},
-{"h":"Proposed cues of attractiveness","subs":[
-{"h":"Symmetry","paras":["Symmetry is proposed to signal good development and genetic health, because it is difficult to achieve during growth.[2] Studies report that women are less attracted to asymmetrical faces and that women's preference for the scent of symmetrical men was strongest near peak fertility.[2]"]},
-{"h":"Averageness","paras":["Composite faces made by averaging are often rated more attractive, which researchers attribute either to familiarity or to averageness signalling developmental stability.[2] One study cited in the literature found that the most attractive dimensions matched the average female face but included only white women.[2] Cunningham (1995) reported that attractive female faces combined youthful and sexually mature features.[2]"]},
-{"h":"Sexual dimorphism","paras":["Facial masculinity in men is proposed as a signal of genetic quality, and research reports that women in the follicular phase were more likely to choose masculine faces.[2] This links to the 'sexy son' hypothesis, in which women select genetically attractive fathers.[2] Other researchers argue that once perceived health is accounted for, masculinity contributes little to attractiveness.[2]"]},
-{"h":"Body ratios","paras":["Research reports that men tend to favour women with low waist-hip ratios and that women tend to favour men with narrow waists and broad shoulders.[2] Other work suggests body weight may matter more than waist-hip ratio, and a comparison of Britain and Malaysia found that urban and rural women weighted different body cues.[2]"]}]},
-{"h":"Cross-cultural findings","paras":["Cunningham (1995) found no ethnocentric bias among Asian, Hispanic and White judges.[2] A 28-country study found men preferred feminised female faces, with stronger preference in countries with better national health indices.[2] Studies of the Hadza in Tanzania and rural Gambia found that height was not relevant to mate choice.[2] Buss (2003) reported that across 37 cultures women were on average about 2.5 years younger than their partners.[2]"]},
-{"h":"Critiques","paras":["Reviewers have questioned whether correlations between attractive features and health hold up, argued that height preferences have not been shown to be evolutionary rather than cultural, and noted that several studies used only white European samples or stick-figure stimuli that did not control for confounds.[2]"]},
-{"h":"Clinical studies","paras":["No studies found. The research above consists of psychology experiments on perception and mate preference rather than clinical trials."]},
-{"h":"In looksmaxxing culture","paras":["Evolutionary explanations of attractiveness are a common reference point in appearance communities, used to argue that preferences for particular features are innate. This article does not rely on community sources, and specific community claims are not assessed here."]}
-],
-"timeline":[{"year":"1995","event":"Cunningham reports cross-ethnic agreement on female facial attractiveness cues.[2]"},{"year":"2003","event":"Buss reports age preferences across 37 cultures.[2]"}],
-"lore":null,
-"refs":[{"id":1,"title":"Evolutionary psychology","url":"https://en.wikipedia.org/wiki/Evolutionary_psychology","source":"Wikipedia","year":2025,"type":"encyclopedia"},{"id":2,"title":"Physical attractiveness","url":"https://en.wikipedia.org/wiki/Physical_attractiveness","source":"Wikipedia","year":2025,"type":"encyclopedia"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Physical_attractiveness","title":"Physical attractiveness - Wikipedia"}],
-"card":{"summary":"The theory that beauty preferences are evolved mate-choice adaptations; often cited online, with mixed and contested support in research.","aka":"Evo psych, sexual selection of beauty","evidence":"limited","risk":"low","note":"Correlations between features and health are debated, and samples are often narrow.","price":null},
-"quick":{"overview":"Evolutionary psychologists propose that preferences for symmetry, averageness, sexual dimorphism and certain body ratios evolved because they signalled health or genetic quality.\n\nThe framework is often cited in looksmaxxing discussions to explain why some features are rated highly.","mechanism":"The idea is that natural and sexual selection shaped specialised mate-choice mechanisms in the brain, which respond to cues linked to fertility and health.","risks":"No clinical risks apply. Critics note weak or inconsistent links between attractive features and health, cultural variation in preferences, and studies limited to narrow samples."}
+  "name": "Evolutionary psychology of attractiveness",
+  "lead": [
+    "The evolutionary psychology of attractiveness is the study of human beauty preferences as products of natural and sexual selection. It gives appearance communities a map of which features observers tend to respond to, and therefore where effort tends to pay off: clear healthy-looking skin, a lean waist with broad shoulders for men, balanced facial proportions, and visible signs of fitness. Researchers propose that preferences for features such as facial symmetry, averageness, sexual dimorphism and particular body ratios evolved because they signalled health, fertility or genetic quality.[1][2]",
+    "Evolutionary psychology treats the mind as made up of specialised mechanisms shaped to solve recurring ancestral problems, including choosing mates.[1] Looksmaxxing communities use the framework to explain why features such as a symmetrical face, a defined jaw, narrow waist or healthy skin are rated highly, and to decide which improvements to prioritise. Scientists within the field also debate how strong the links are between attractive features and health, and point to cultural variation and sampling limits.[2][3]"
+  ],
+  "infobox": [
+    [
+      "Field",
+      "Evolutionary psychology"
+    ],
+    [
+      "Core idea",
+      "Beauty preferences as adaptations for mate choice"
+    ],
+    [
+      "Commonly studied cues",
+      "Symmetry, averageness, sexual dimorphism, waist-hip ratio, skin, height"
+    ],
+    [
+      "Related theories",
+      "Good genes, sexy son hypothesis, mutual mate choice"
+    ],
+    [
+      "Main critiques",
+      "Weak health correlations, cultural variation, narrow samples"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Theoretical background",
+      "paras": [
+        "Evolutionary psychology holds that the brain contains many specialised mechanisms shaped by natural selection over deep evolutionary time to solve problems such as food choice, social hierarchy and selecting mates.[1] Its proponents regard traits found across all cultures as good candidates for adaptations, and list the perception of beauty among its research topics, alongside the ability to identify healthier mates.[1] Critics of the field have argued that adaptive explanations can be hard to test; the wider debates are summarised in the general article on evolutionary psychology.[1]"
+      ]
+    },
+    {
+      "h": "Proposed cues of attractiveness",
+      "subs": [
+        {
+          "h": "Symmetry",
+          "paras": [
+            "Symmetry is proposed to signal good development and genetic health, because it is difficult to achieve during growth.[2] Studies report that women are less attracted to asymmetrical faces and that women's preference for the scent of symmetrical men was strongest near peak fertility.[2]"
+          ]
+        },
+        {
+          "h": "Averageness",
+          "paras": [
+            "Composite faces made by averaging are often rated more attractive, which researchers attribute either to familiarity or to averageness signalling developmental stability.[2] One study cited in the literature found that the most attractive dimensions matched the average female face but included only white women.[2] Cunningham (1995) reported that attractive female faces combined youthful and sexually mature features.[2]"
+          ]
+        },
+        {
+          "h": "Sexual dimorphism",
+          "paras": [
+            "Facial masculinity in men is proposed as a signal of genetic quality, and research reports that women in the follicular phase were more likely to choose masculine faces.[2] This links to the 'sexy son' hypothesis, in which women select genetically attractive fathers.[2] Other researchers argue that once perceived health is accounted for, masculinity contributes little to attractiveness.[2]"
+          ]
+        },
+        {
+          "h": "Body ratios",
+          "paras": [
+            "Research reports that men tend to favour women with low waist-hip ratios and that women tend to favour men with narrow waists and broad shoulders.[2] Other work suggests body weight may matter more than waist-hip ratio, and a comparison of Britain and Malaysia found that urban and rural women weighted different body cues.[2]"
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Skin, health and other cues",
+      "paras": [
+        "Wikipedia's summary of human sexual selection reports that people assess skin coloration, symmetry and apparent health in potential partners, and that women are reported to favor height, with one study linking taller men to greater reproductive success.[4] Women's preference for masculine voice, facial shape and body size is reported to strengthen in the fertile phase of the menstrual cycle, and men's preference for feminine faces and voices is reported to rise with their testosterone.[4] One study found that British women preferred men's faces with low cortisol, while Latvian women did not, which the authors took to suggest that societal factors matter.[4] Fat on the hips, buttocks and breasts is proposed to signal the capacity to support pregnancy and lactation.[4]",
+        "Researchers also describe mate choice as mutual: both sexes use face, voice and body to judge a partner's health and reproductive potential.[4]"
+      ]
+    },
+    {
+      "h": "Facial symmetry research",
+      "paras": [
+        "Studies have linked facial symmetry to attractiveness. Grammer and Thornhill (1994) reported that symmetry and averageness both contribute, Rhodes and colleagues (1998) reported a larger role for symmetry in female faces, and Jones and colleagues linked symmetry to perceived health and to perceived skin condition in male faces.[3] Other proposals link symmetry to successful cognitive aging or to the absence of prenatal stressors rather than to superior genes.[3] Critics note that mirroring face halves creates artificial features, that correlation does not establish causation, and that physiognomy as a practice is described as pseudoscience.[3]"
+      ]
+    },
+    {
+      "h": "Cross-cultural findings",
+      "paras": [
+        "Cunningham (1995) found no ethnocentric bias among Asian, Hispanic and White judges.[2] A 28-country study found men preferred feminised female faces, with stronger preference in countries with better national health indices.[2] Studies of the Hadza in Tanzania and rural Gambia found that height was not relevant to mate choice.[2] Buss (2003) reported that across 37 cultures women were on average about 2.5 years younger than their partners.[2]"
+      ]
+    },
+    {
+      "h": "Critiques",
+      "paras": [
+        "Reviewers have questioned whether correlations between attractive features and health hold up, argued that height preferences have not been shown to be evolutionary rather than cultural, and noted that several studies used only white European samples or stick-figure stimuli that did not control for confounds.[2] Beyond the critiques above, the wider literature notes that adaptive explanations can be hard to test.[1] Wikipedia notes that secondary sexual traits in men do not always increase their attractiveness to women, and that explanations for how humans choose mates are not fully understood.[4]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found. The research above consists of psychology experiments on perception and mate preference rather than clinical trials."
+      ]
+    },
+    {
+      "h": "In looksmaxxing culture",
+      "paras": [
+        "Evolutionary explanations of attractiveness are a common reference point in appearance communities. Members cite symmetry, averageness, dimorphism and waist-to-shoulder ratio to explain why certain features are rated highly, and treat modifiable cues (skin quality, body composition, grooming, posture) as the places to work. Researchers in the field themselves describe preferences as shaped by both biology and culture.[2][4]"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1994",
+      "event": "Grammer and Thornhill report that symmetry and averageness contribute to facial attractiveness.[3]"
+    },
+    {
+      "year": "1995",
+      "event": "Cunningham reports cross-ethnic agreement on female facial attractiveness cues.[2]"
+    },
+    {
+      "year": "2003",
+      "event": "Buss reports age preferences across 37 cultures.[2]"
+    },
+    {
+      "year": "2006",
+      "event": "Feinberg and colleagues report stronger female preference for masculine traits in the fertile phase.[4]"
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Evolutionary psychology",
+      "url": "https://en.wikipedia.org/wiki/Evolutionary_psychology",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Physical attractiveness",
+      "url": "https://en.wikipedia.org/wiki/Physical_attractiveness",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "Facial symmetry",
+      "url": "https://en.wikipedia.org/wiki/Facial_symmetry",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 4,
+      "title": "Sexual selection in humans",
+      "url": "https://en.wikipedia.org/wiki/Sexual_selection_in_humans",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Physical_attractiveness",
+      "title": "Physical attractiveness - Wikipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Facial_symmetry",
+      "title": "Facial symmetry - Wikipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sexual_selection_in_humans",
+      "title": "Sexual selection in humans - Wikipedia"
+    }
+  ],
+  "card": {
+    "summary": "The theory that beauty preferences are evolved mate-choice adaptations; often cited online, with mixed and contested support in research.",
+    "aka": "Evo psych, sexual selection of beauty",
+    "evidence": "limited",
+    "risk": "low",
+    "note": "Correlations between features and health are debated, and samples are often narrow.",
+    "price": null
+  },
+  "quick": {
+    "overview": "Evolutionary psychologists propose that preferences for symmetry, averageness, sexual dimorphism and certain body ratios evolved because they signalled health or genetic quality.\n\nThe framework is often cited in looksmaxxing discussions to explain why some features are rated highly.",
+    "mechanism": "The idea is that natural and sexual selection shaped specialised mate-choice mechanisms in the brain, which respond to cues linked to fertility and health.",
+    "risks": "No clinical risks apply. Critics note weak or inconsistent links between attractive features and health, cultural variation in preferences, and studies limited to narrow samples."
+  },
+  "angle": {
+    "goal": "Understanding which features are valued",
+    "chain": [
+      "Researchers propose beauty cues evolved as signals of health and fertility",
+      "Cues such as skin condition, symmetry, waist and shoulder ratio and fitness are studied",
+      "People work on the cues that observers respond to: skin, grooming, body composition, posture"
+    ],
+    "effect": "indirect",
+    "text": "The framework tells people which visible cues observers tend to read as health and vitality, such as skin condition, body proportions and facial balance. Readers use it to choose which parts of their appearance to work on, for example skincare, training for shoulder-to-waist ratio, or grooming around facial structure."
+  }
 }

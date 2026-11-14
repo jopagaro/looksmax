@@ -1,57 +1,152 @@
 {
-  "name": "Microneedling under eyes",
-  "card": {
-    "summary": "Collagen induction with fine needles applied to thin under-eye skin; microneedling is studied elsewhere, but under-eye evidence is thin.",
-    "aka": "Collagen induction therapy, dermarolling, skin needling",
-    "evidence": "limited",
-    "risk": "moderate",
-    "note": "Non-medical settings and blood-based add-ons have drawn infection warnings.",
-    "price": null
-  },
-  "quick": {
-    "overview": "Microneedling, formally collagen induction therapy, repeatedly punctures the skin with tiny sterile needles. Appearance forums discuss it for the under-eye area, where skin is thin and people look for texture and tone improvement.\n\nPublished research on microneedling covers scarring, acne and hair loss among other uses, but none of the registered studies reviewed here focus on the under-eye area.",
-    "mechanism": "The cosmetic rationale is that controlled micro-injury prompts the skin to repair itself and produce collagen. Wikipedia's article does not itself explain the mechanism.",
-    "risks": "Health officials have warned about infection risk when microneedling is combined with platelet-rich plasma (\"vampire facials\") in non-medical settings; in April 2024 the CDC reported three HIV diagnoses among patients of one New Mexico spa [1]."
-  },
-  "lead": [
-    "Microneedling, also called collagen induction therapy, dermarolling or skin needling, is a cosmetic procedure in which tiny sterile needles repeatedly puncture the skin [1]. In looksmaxxing discussion it is applied to the under-eye area for thin, crepey or discolored skin.",
-    "Reported uses of microneedling include scarring and acne, and some studies suggest adding minoxidil improves hair-loss treatment versus minoxidil alone [1]. The benefit of combining it with platelet-rich plasma remains unproven according to Wikipedia [1].",
-    "No studies focused on microneedling under the eyes were found, so evidence for this specific use is limited."
+ "name": "Microneedling under eyes",
+ "lead": [
+  "Microneedling, also called collagen induction therapy, dermarolling or skin needling, is a cosmetic procedure in which tiny sterile needles repeatedly puncture the skin.[1] Applied to the under-eye area, it is used to improve fine lines, crepey texture, mild laxity and uneven tone, and in some clinics for dark circles caused by thin, translucent skin, so the eye area looks smoother and more rested.[1][2]",
+  "Reported uses of microneedling include scarring and acne, and some studies suggest adding minoxidil improves hair-loss treatment versus minoxidil alone.[1] The benefit of combining it with platelet-rich plasma is described by Wikipedia as remaining in question pending further studies.[1]",
+  "For the under-eye area specifically, published research consists of small trials. These include a registered randomized split-face trial comparing microneedling with tranexamic acid versus microneedling with vitamin C for periorbital dark circles.[3] A clinic article notes that the skin around the eye is delicate and treated with shallow needle depths.[2]"
+ ],
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "Fine needles create controlled micro-injuries in the under-eye skin",
+   "Skin remodeling and better product penetration",
+   "Smoother texture and less visible dark circles or fine lines"
   ],
-  "infobox": [
-    ["Type", "Procedure / device (needling)"],
-    ["Also called", "Collagen induction therapy, dermarolling"],
-    ["Site", "Infraorbital skin"],
-    ["Evidence for site", "Limited"]
+  "effect": "direct",
+  "text": "People use microneedling under the eyes to improve crepey texture, fine lines and the look of dark circles. Treatments are usually done in a series, sometimes paired with topical lighteners or other add-ons."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Procedure / device (needling)"
   ],
-  "sections": [
-    {
-      "h": "Description",
-      "paras": [
-        "Microneedling is distinguished from other uses of microneedle devices such as transdermal drug delivery and vaccination [1]. Devices described include stamps and dermarollers [1]. Radiofrequency variants combine needling with heat energy for facial rejuvenation."
-      ]
-    },
-    {
-      "h": "Reported risks",
-      "paras": [
-        "Wikipedia reports health-official warnings that platelet-rich plasma facials performed by people without infection-control training could spread blood-borne infections, citing three HIV diagnoses among patients of one Albuquerque spa reported in April 2024 [1]."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found on microneedling specifically under the eyes. Registered trials on other conditions include a radiofrequency microneedling study for facial photoaging and wrinkles with a post-procedure cream [2] and a comparison of dermatological approaches for melasma [3]."
-      ]
-    }
+  [
+   "Also called",
+   "Collagen induction therapy, dermarolling"
   ],
-  "timeline": [],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Microneedling", "url": "https://en.wikipedia.org/wiki/Microneedling", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Procedure Pairing of a Post-Procedure Cream in Radiofrequency Microneedling for Facial Rejuvenation", "url": "https://clinicaltrials.gov/study/NCT06157853", "source": "ClinicalTrials.gov", "year": 2022, "type": "trial" },
-    { "id": 3, "title": "Different Dermatological Approaches the Treatment of Melasma", "url": "https://clinicaltrials.gov/study/NCT03923062", "source": "ClinicalTrials.gov", "year": 2020, "type": "trial" }
+  [
+   "Site",
+   "Infraorbital skin"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Microneedling", "title": "Microneedling - Wikipedia" }
+  [
+   "Typical depth per clinic",
+   "0.25 to 0.5 mm periorbital[2]"
+  ],
+  [
+   "Typical series per clinic",
+   "3 to 6 sessions, 4 to 6 weeks apart[2]"
+  ],
+  [
+   "Downtime per clinic",
+   "Redness and mild swelling for 1 to 2 days[2]"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Microneedling is distinguished from other uses of microneedle devices such as transdermal drug delivery and vaccination.[1] Devices described include stamps and dermarollers.[1] Radiofrequency variants combine needling with heat energy for facial rejuvenation.[1]",
+    "A clinic page describes under-eye treatment as targeting fine lines, crepey texture, mild laxity and uneven tone, and says it can help dark circles from thin, translucent skin but not those from deep hollowing, allergies or genetic pigmentation. The clinic states that microneedling alone may not correct tear troughs, significant sagging or fat pads.[2]"
+   ]
+  },
+  {
+   "h": "Procedure and recovery",
+   "paras": [
+    "The same clinic describes needle depths of 0.25 to 0.5 mm around the eyes, series of three to four sessions for mild fine lines and four to six for moderate wrinkling, spaced four to six weeks apart, with maintenance once or twice a year. It reports redness and mild swelling for one to two days, dryness or flaking resolving by days five to seven, and advises pausing retinoids and exfoliants for about a week.[2] A registered trial of microneedling for dark circles used a different regimen, with three sessions two weeks apart and a stated needle depth of 2 to 3 mm.[3]"
+   ]
+  },
+  {
+   "h": "Reported risks",
+   "paras": [
+    "The clinic lists temporary redness, swelling and possible pinpoint bruising, and says serious complications are rare when performed by a qualified provider. It lists infection, open wounds, eczema or psoriasis in the area, pregnancy, blood thinners, isotretinoin, keloid history and active cold sores as reasons to consult a provider first, and warns that at-home devices carry higher risks of uneven treatment, infection and injury.[2]",
+    "Wikipedia reports health-official warnings that platelet-rich plasma facials performed by people without infection-control training could spread blood-borne infections, citing three HIV diagnoses among patients of one Albuquerque spa reported by the CDC in April 2024.[1]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A registered Iranian randomized single-blind split-face trial planned to enroll 37 participants aged 18 to 50 to compare microneedling with tranexamic acid on one under-eye area versus microneedling with vitamin C on the other, with three sessions at weeks 0, 2 and 4 and photographic pigmentation outcomes through week 12.[3] Other registered trials relate to broader uses, including a radiofrequency microneedling study for facial photoaging and wrinkles with a post-procedure cream[4] and a comparison of dermatological approaches for melasma.[5] No large trial or systematic review of microneedling specifically under the eyes was found."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2018",
+   "event": "New Mexico Department of Health warns that PRP facials by untrained operators could spread blood-borne infections.[1]"
+  },
+  {
+   "year": "2024",
+   "event": "CDC reports three HIV diagnoses linked to vampire facials at an Albuquerque spa.[1]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Microneedling",
+   "url": "https://en.wikipedia.org/wiki/Microneedling",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Microneedling for Under-Eye Wrinkles and Dark Circles",
+   "url": "https://greenwicheye.com/article/microneedling-under-eye/",
+   "source": "Greenwich Ophthalmology Associates",
+   "year": null,
+   "type": "news"
+  },
+  {
+   "id": 3,
+   "title": "Efficacy of microneedling with tranexamic acid compared with microneedling with vitamin C for periorbital dark circles (IRCT20200302046669N1)",
+   "url": "https://www.irct.ir/trial/56802",
+   "source": "Iranian Registry of Clinical Trials",
+   "year": null,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "Procedure Pairing of a Post-Procedure Cream in Radiofrequency Microneedling for Facial Rejuvenation",
+   "url": "https://clinicaltrials.gov/study/NCT06157853",
+   "source": "ClinicalTrials.gov",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "Different Dermatological Approaches the Treatment of Melasma",
+   "url": "https://clinicaltrials.gov/study/NCT03923062",
+   "source": "ClinicalTrials.gov",
+   "year": 2020,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Microneedling",
+   "title": "Microneedling - Wikipedia"
+  },
+  {
+   "url": "https://greenwicheye.com/article/microneedling-under-eye/",
+   "title": "Microneedling for Under-Eye Wrinkles and Dark Circles - Greenwich Ophthalmology Associates"
+  },
+  {
+   "url": "https://www.irct.ir/trial/56802",
+   "title": "IRCT20200302046669N1 - Iranian Registry of Clinical Trials"
+  }
+ ],
+ "card": {
+  "summary": "Collagen induction with fine needles applied to thin under-eye skin; microneedling is studied elsewhere, but under-eye evidence is thin.",
+  "aka": "Collagen induction therapy, dermarolling, skin needling",
+  "evidence": "limited",
+  "risk": "moderate",
+  "note": "Non-medical settings and blood-based add-ons have drawn infection warnings.",
+  "price": null
+ },
+ "quick": {
+  "overview": "Microneedling, formally collagen induction therapy, repeatedly punctures the skin with tiny sterile needles. Appearance forums discuss it for the under-eye area, where skin is thin and people look for texture and tone improvement.\n\nPublished research on microneedling covers scarring, acne and hair loss among other uses, but none of the registered studies reviewed here focus on the under-eye area.",
+  "mechanism": "The cosmetic rationale is that controlled micro-injury prompts the skin to repair itself and produce collagen. Wikipedia's article does not itself explain the mechanism.",
+  "risks": "Health officials have warned about infection risk when microneedling is combined with platelet-rich plasma (\"vampire facials\") in non-medical settings; in April 2024 the CDC reported three HIV diagnoses among patients of one New Mexico spa [1]."
+ }
 }

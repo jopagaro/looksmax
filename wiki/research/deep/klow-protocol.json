@@ -1,7 +1,7 @@
 {
  "name": "KLOW Protocol",
  "lead": [
-  "KLOW is a four-peptide research blend that circulates in peptide and biohacking communities. It combines GHK-Cu, BPC-157, TB-500 and KPV, and extends the earlier three-peptide GLOW stack with KPV. People discuss it for skin quality, hair, inflammation and recovery, which they link to looking better. [1]",
+  "KLOW is a four-peptide research blend that circulates in peptide and biohacking communities. It combines GHK-Cu, BPC-157, TB-500 and KPV, and extends the earlier three-peptide GLOW stack with KPV. People discuss it for skin quality, hair, inflammation and recovery, which they link to looking better: smoother, firmer, calmer skin and faster recovery between training sessions. [1]",
   "The components are described by promoters as follows: GHK-Cu for collagen and skin remodelling, KPV for calming inflammatory skin conditions such as acne and eczema, and BPC-157 and TB-500 for tissue repair.",
   "The blend is not an approved drug, and the promoter material cited presents no controlled human trial of the combination has been published. Most of the underlying research on individual components is in cell or animal models. [1]"
  ],
@@ -13,7 +13,7 @@
    "Clearer, firmer-looking skin and faster recovery"
   ],
   "effect": "claimed",
-  "text": "Users take the blend hoping for better skin, hair and recovery. The skin case rests mainly on GHK-Cu (collagen) and KPV (inflammation), as described by promoters."
+  "text": "Users take the blend hoping for better skin, hair and recovery. The skin case rests mainly on GHK-Cu, a peptide already used in cosmetics for firming, and KPV for inflammation, as described by promoters."
  },
  "infobox": [
   [
@@ -41,6 +41,30 @@
    ]
   },
   {
+   "h": "The component peptides",
+   "paras": [],
+   "subs": [
+    {
+     "h": "GHK-Cu",
+     "paras": [
+      "GHK-Cu is a naturally occurring copper complex of the tripeptide glycyl-L-histidyl-L-lysine, isolated from human plasma by Loren Pickart and a colleague in 1973. Synthetic GHK-Cu is used in cosmetics as a reparative and anti-ageing ingredient under the INCI name Copper tripeptide-1, and in hair-loss-prevention products. [2] Wikipedia reports several controlled facial studies describing firming and anti-wrinkle effects, noting small sample sizes and short durations. [2]"
+     ]
+    },
+    {
+     "h": "BPC-157",
+     "paras": [
+      "BPC-157 is a synthetic 15-amino-acid peptide derived from a protein in human gastric juice, discovered by Predrag Sikirić of the University of Zagreb and reported in 1993. Most studies are in laboratory animals, with preclinical reports of tissue-healing and anti-inflammatory effects, and human evidence is very limited. It is not approved by drug regulators for human use and is banned by WADA. [3]"
+     ]
+    },
+    {
+     "h": "TB-500 and KPV",
+     "paras": [
+      "TB-500 is described by promoters as a thymosin beta-4 derivative and KPV as a short fragment related to alpha-melanocyte-stimulating hormone; promoter material credits KPV with calming inflammatory skin conditions. [1]"
+     ]
+    }
+   ]
+  },
+  {
    "h": "Use in looksmaxxing",
    "paras": [
     "Promoters describe skin benefits (collagen, elastin, acne and dermatitis), hair growth from GHK-Cu, and faster recovery from training injuries from BPC-157 and TB-500. One promoter reports his own acne improving; such accounts are anecdotal. [1]"
@@ -49,17 +73,27 @@
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found. The promoter material cited names no human trial of the combined KLOW blend. Research on the individual peptides is largely preclinical, with GHK-Cu having the most dermatological research."
+    "No studies found on the KLOW blend. Research on individual components: GHK-Cu has controlled facial studies of small size and short duration, [2] while BPC-157 evidence is largely from animal studies with very limited human data. [3]"
    ]
   },
   {
    "h": "Legal status and risks",
    "paras": [
-    "The blend is not an approved drug and is marketed as a research product. The promoter page cited here presents no safety data for the blend or its individual peptides. [1]"
+    "The blend is not an approved drug and is marketed as a research product. The promoter page cited here presents no safety data for the blend or its individual peptides. [1]",
+    "Wikipedia notes that BPC-157 promotes angiogenesis, which has raised theoretical concerns about cancer, and that health authorities discourage its use because human safety data are insufficient. [3] It adds that GHK-Cu stimulates both collagen synthesis and enzymes that break down dermal proteins, so caution is advised. [2]"
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "1973",
+   "event": "Loren Pickart isolates GHK-Cu from human plasma. [2]"
+  },
+  {
+   "year": "1993",
+   "event": "Predrag Sikirić's group reports BPC-157. [3]"
+  }
+ ],
  "lore": {
   "intro": "KLOW is promoted by peptide vendors and newsletters as an upgrade of the GLOW stack. [1]",
   "claims": [
@@ -98,12 +132,36 @@
    "source": "Hunter's Health Hacks newsletter",
    "year": 2025,
    "type": "news"
+  },
+  {
+   "id": 2,
+   "title": "Copper peptide GHK-Cu (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Copper_peptide_GHK-Cu",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "BPC-157 (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/BPC-157",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
   }
  ],
  "webSources": [
   {
    "url": "https://huntershealthhacks.beehiiv.com/p/the-klow-stack",
    "title": "The KLOW Stack"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Copper_peptide_GHK-Cu",
+   "title": "Copper peptide GHK-Cu - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/BPC-157",
+   "title": "BPC-157 - Wikipedia"
   }
  ]
 }

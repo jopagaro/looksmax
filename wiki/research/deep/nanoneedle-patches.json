@@ -1,17 +1,145 @@
 {
-"name":"Nanoneedle patches",
-"lead":["Nanoneedle patches, often sold as micro-patches or microneedle patches, are small adhesive patches covered in tiny needles that painlessly pierce the outer skin layer. Skincare products use them to carry actives such as hyaluronic acid, peptides or acne ingredients into the skin, aiming at spot-targeted results such as softer fine lines, calmer blemishes or smoother texture.[1]","Most consumer products rely on dissolving tips: the needles are made of water-soluble material containing the active, and they dissolve in the skin so there is nothing to remove.[1] Microneedle delivery has been studied in medicine since the late 1990s, mainly for vaccines and drugs.[1]"],
-"angle":{"goal":"Skin","chain":["Tiny needles open micro-channels in the outer skin","Actives dissolve into the skin","Targeted spot treatment of blemishes or lines"],"effect":"direct","text":"The patch is worn over a pimple, line or dark spot so the active reaches the skin below the surface layer. People use them overnight on specific areas."},
-"infobox":[["Type","Skincare patch with micro-scale needles"],["Common needle types","Solid, coated, hollow, dissolving, hydrogel-forming[1]"],["Typical use","Overnight, on a targeted spot"],["Needle length (research devices)","25-2000 micrometres[1]"]],
-"sections":[
-{"h":"Design and types","paras":["Research describes solid, coated, hollow, dissolving and hydrogel-forming microneedles. Solid ones create pores through which a separate product absorbs; dissolving ones carry the active in the needle material itself; hydrogel-forming ones swell on contact with skin fluid and release their contents.[1] Skincare patches are generally of the dissolving type."]},
-{"h":"History","paras":["Microneedle concepts date to the 1970s and advanced with microfabrication in the 1990s; a 1998 paper from Mark Prausnitz's group at Georgia Tech showed that microneedles could cross the outer skin layer, and clinical trials of drug delivery began in the 2000s.[1]"]},
-{"h":"Safety and risks","paras":["Microneedle procedures commonly cause short-lived redness, swelling, itching or pinpoint bleeding, usually settling within about a day; infection or pigmentation changes are linked mainly to non-sterile tools, and allergic reactions to the active or material are possible.[1]"]},
-{"h":"Clinical studies","paras":["No studies found on commercial cosmetic nanoneedle patches specifically. Related research on microneedling and on microneedle drug delivery, including vaccines and insulin, is summarised in reference literature.[1]"]}],
-"timeline":[{"year":"1998","event":"Georgia Tech group reports microneedles penetrating the skin barrier.[1]"}],
-"lore":null,
-"refs":[{"id":1,"title":"Microneedle drug delivery","url":"https://en.wikipedia.org/wiki/Microneedle_drug_delivery","source":"Wikipedia","year":2025,"type":"encyclopedia"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Microneedle_drug_delivery","title":"Microneedle drug delivery - Wikipedia"}],
-"card":{"summary":"Adhesive patches with dissolving micro-needles that deliver skincare actives into a spot, line or blemish.","aka":"Microneedle patches, micro-patches","evidence":"limited","outcome":"temporary","price":null,"note":"Skin reactions are possible; product claims vary by brand.","structure":null},
-"quick":{"overview":"These are small patches whose tiny needles dissolve in the skin, carrying ingredients like hyaluronic acid or acne actives.\n\nPeople place them over a specific pimple, wrinkle or dark spot, often overnight.","mechanism":"The microscopic needles pass the outer skin layer and dissolve, releasing the active where the patch sits.","risks":"Temporary redness, itching or swelling are common after microneedle use; allergic reaction to ingredients is possible."}
+  "name": "Nanoneedle patches",
+  "card": {
+    "summary": "Adhesive patches with dissolving micro-needles that deliver skincare actives into a spot, line or blemish.",
+    "aka": "Microneedle patches, micro-patches",
+    "evidence": "limited",
+    "outcome": "temporary",
+    "price": null,
+    "note": "Skin reactions are possible; product claims vary by brand.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "These are small patches whose tiny needles dissolve in the skin, carrying ingredients like hyaluronic acid or acne actives.\n\nPeople place them over a specific pimple, wrinkle or dark spot, often overnight.",
+    "mechanism": "The microscopic needles pass the outer skin layer and dissolve, releasing the active where the patch sits.",
+    "risks": "Temporary redness, itching or swelling are common after microneedle use; allergic reaction to ingredients is possible."
+  },
+  "lead": [
+    "Nanoneedle patches, often sold as microneedle patches or micro-patches, are small adhesive patches covered in tiny needles that painlessly pierce the outer skin layer. Skincare products use them to carry actives such as hyaluronic acid, peptides or acne ingredients into the skin, aiming at spot-targeted results such as softer fine lines, calmer blemishes, better hydration or smoother texture [1][2].",
+    "Most consumer products use dissolving tips: the needles are made of water-soluble material, commonly hyaluronic acid, that contains the active and dissolves in the skin so there is nothing to remove [1][2]. Ingredients named in the products include vitamin C, centella asiatica, peptides, niacinamide, arbutin and salicylic acid [2]. They are typically worn on a spot, under the eyes or on a line, often overnight [2].",
+    "Microneedle delivery has been studied in medicine since the late 1990s, mainly for vaccines and drugs [1]. Recent research papers use the term nanoneedle patch for devices that carry drug-loaded particles through the skin barrier, including a 2024 laboratory study of PLA nanoneedle patches [3] and an imaging study comparing topical application with a needle patch [4]."
+  ],
+  "angle": {
+    "goal": "Skin: spots, lines, hydration",
+    "chain": [
+      "Tiny needles open micro-channels in the outer skin",
+      "Actives dissolve into the skin",
+      "Targeted spot treatment of blemishes, lines or dryness"
+    ],
+    "effect": "direct",
+    "text": "The patch is worn over a pimple, line or dark spot so the active reaches the skin below the surface layer. People use them overnight on specific areas, and brand claims include softer fine lines and better hydration [2]."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Skincare patch with micro-scale needles"
+    ],
+    [
+      "Common needle types",
+      "Solid, coated, hollow, dissolving, hydrogel-forming [1]"
+    ],
+    [
+      "Typical use",
+      "Overnight, on a targeted spot [2]"
+    ],
+    [
+      "Needle length (research devices)",
+      "25-2000 micrometres [1]"
+    ],
+    [
+      "Core ingredient (consumer patches)",
+      "Hyaluronic acid [2]"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Design and types",
+      "paras": [
+        "Research describes solid, coated, hollow, dissolving and hydrogel-forming microneedles. Solid ones create pores through which a separate product absorbs; dissolving ones carry the active in the needle material itself; hydrogel-forming ones swell on contact with skin fluid and release their contents [1]. Skincare patches are generally of the dissolving type [2]."
+      ]
+    },
+    {
+      "h": "How it works",
+      "paras": [
+        "The outer skin layer, the stratum corneum, limits how much of a topical product is absorbed, and microneedle and nanoneedle patches are ways to increase that permeation [4]. The needles create micro-channels that proponents say help ingredients reach deeper [2]. Dermatologist Coni Liu of DS Skin & Wellness Clinic says clinical microneedling needs a depth of 0.5 to 1 mm to reach the dermis and that many patches have shorter needles, so they do not match a clinic treatment but can still outperform regular topical application [2]."
+      ]
+    },
+    {
+      "h": "History",
+      "paras": [
+        "Microneedle concepts date to the 1970s and advanced with microfabrication in the 1990s. A 1998 paper from Mark Prausnitz's group at Georgia Tech showed that microneedles could cross the outer skin layer, and clinical trials of drug delivery began in the 2000s [1]."
+      ]
+    },
+    {
+      "h": "Safety and risks",
+      "paras": [
+        "Microneedle procedures commonly cause short-lived redness, swelling, itching or pinpoint bleeding, usually settling within about a day; infection or pigmentation changes are linked mainly to non-sterile tools, and allergic reactions to the active or the needle material are possible [1]. A consumer article describes only slight, brief prickling from the patches [2]."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found on commercial cosmetic microneedle or nanoneedle patches for skin appearance in the sources reviewed. Related research includes laboratory work on nanoneedle patches for transdermal delivery [3], imaging comparison of topical application and needle patches [4], and a patch for sustained delivery of an eye drug [5]. Reference literature summarizes microneedle drug delivery including vaccines and insulin [1]."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1998",
+      "event": "Georgia Tech group reports microneedles penetrating the skin barrier [1]."
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Microneedle drug delivery",
+      "url": "https://en.wikipedia.org/wiki/Microneedle_drug_delivery",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "The Real Deal About Microneedling Patches",
+      "url": "https://www.fzine.com/beauty/what-are-microneedling-patches-skincare",
+      "source": "Fzine",
+      "year": 2024,
+      "type": "news"
+    },
+    {
+      "id": 3,
+      "title": "Fabrication of PLA-Based Nanoneedle Patches Loaded with Transcutol-Modified Chitosan Nanoparticles for the Transdermal Delivery of Levofloxacin",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39339284/",
+      "source": "Molecules",
+      "year": 2024,
+      "type": "study"
+    },
+    {
+      "id": 4,
+      "title": "Evaluation of transdermal drug delivery using terahertz pulsed imaging",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32923058/",
+      "source": "Biomedical Optics Express",
+      "year": 2020,
+      "type": "study"
+    },
+    {
+      "id": 5,
+      "title": "Silicon Nanoneedle Patches for Painless, Sustained Treatment of Macular Degeneration",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41553279/",
+      "source": "ACS Biomaterials Science & Engineering",
+      "year": 2026,
+      "type": "study"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Microneedle_drug_delivery",
+      "title": "Microneedle drug delivery - Wikipedia"
+    },
+    {
+      "url": "https://www.fzine.com/beauty/what-are-microneedling-patches-skincare",
+      "title": "The Real Deal About Microneedling Patches - Fzine"
+    }
+  ]
 }

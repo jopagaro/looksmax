@@ -1,61 +1,153 @@
 {
-  "name": "Orange juice / vitamin C diet",
   "lead": [
-    "The orange juice or vitamin C diet refers to consuming large amounts of citrus juice or vitamin C, in the belief that it improves skin. Vitamin C is a cofactor in collagen synthesis, and this role is the basis for the appearance claims [2].",
-    "No published trial has tested mega-dose orange juice for skin. Wikipedia describes the health value of orange juice as debatable because of its high sugar content [1], and reference authorities set an upper intake level for vitamin C because large doses cause gastrointestinal effects [2]."
+    "The orange juice or vitamin C diet is a practice of drinking large amounts of citrus juice, or taking high amounts of vitamin C, with the aim of a brighter, healthier-looking complexion. The reasoning is that vitamin C is a cofactor for the enzymes that build stable collagen, the protein that gives skin firmness, so people who want firmer, glowing skin try to keep their intake high.[2]",
+    "Orange juice is a convenient source: a 250 mL cup provides a large share of daily vitamin C along with about 21 g of sugar.[1] Some community members treat juice as an add-on to protein-heavy or low-carbohydrate eating, while others discuss it as mostly sugar with some vitamin C.[3]",
+    "Reference sources describe the US recommended intake as 90 mg/day for men and 75 mg/day for women, and note that absorption efficiency falls at large doses and excess is excreted in urine.[2] No published trial has tested orange-juice-centred protocols for skin appearance."
   ],
+  "angle": {
+    "goal": "Skin",
+    "chain": [
+      "Higher vitamin C intake from juice or supplements",
+      "More vitamin C available for collagen-building enzymes",
+      "Firmer, brighter-looking skin (as proponents describe)"
+    ],
+    "effect": "claimed",
+    "text": "Followers drink orange juice or raise vitamin C intake hoping for firmer, brighter skin, since vitamin C is needed for collagen formation. Orange juice also adds fluid and a small amount of citrus flavonoids to the diet."
+  },
   "infobox": [
-    ["Type", "Single-food / high-dose vitamin diet"],
-    ["Main nutrient", "Vitamin C"],
-    ["US upper intake level", "2,000 mg/day (adults)"],
-    ["Evidence level", "Unproven for appearance"]
+    [
+      "Type",
+      "Single-food / high-dose vitamin approach"
+    ],
+    [
+      "Main nutrient",
+      "Vitamin C (ascorbic acid)"
+    ],
+    [
+      "US RDA",
+      "90 mg/day men, 75 mg/day women[2]"
+    ],
+    [
+      "US upper intake level",
+      "2,000 mg/day (adults)[2]"
+    ],
+    [
+      "Goal",
+      "Brighter, firmer-looking skin"
+    ]
   ],
   "sections": [
     {
       "h": "Nutrition",
       "paras": [
-        "A 250 mL cup of orange juice has about 112 calories and 21 g of sugar, and is a rich source of vitamin C [1]. The US recommended dietary allowance is 90 mg/day for men and 75 mg/day for women [2]."
+        "A 250 mL cup of orange juice has about 112 calories and 21 g of sugar and is a rich source of vitamin C.[1] Oranges and lemons contain roughly 53 mg of vitamin C per 100 g, and pasteurisation and cooking reduce the content of foods.[2]"
       ]
     },
     {
       "h": "Vitamin C and skin",
       "paras": [
-        "Vitamin C is needed for enzymes that hydroxylate proline and lysine in collagen, and deficiency causes scurvy [2]."
+        "Vitamin C is needed for enzymes that hydroxylate proline and lysine in collagen, and prolonged deficiency causes scurvy.[2] Active transport absorbs most vitamin C at ordinary intakes, absorption efficiency falls at large doses, and plasma levels saturate at modest intakes.[2]",
+        "Orange juice also contains flavonoids, and reviews have discussed antioxidant and anti-inflammatory properties of orange juice in general.[4]"
+      ]
+    },
+    {
+      "h": "Community use",
+      "paras": [
+        "On looksmax.org, orange juice appears in diet threads where members weigh its vitamin C against its sugar and carbohydrate content, and in light-hearted questions about whether drinking it counts as improving looks.[3]"
       ]
     },
     {
       "h": "Clinical studies",
       "paras": [
-        "No studies found on orange-juice-centred diets for skin appearance."
+        "No studies found on orange-juice-centred diets for skin appearance. Trials of orange juice in other settings include a randomized trial of flavonoid-rich orange juice in young adults with depression and a trial of daily orange consumption in fatty liver disease, which did not look at skin.[5][6]"
       ]
     },
     {
       "h": "Safety",
       "paras": [
-        "The US Institute of Medicine set a 2,000 mg/day upper level in 2000 based on gastrointestinal effects above 3,000 mg/day. Large doses may also cause headache, sleep trouble and flushing [2]. Orange juice is acidic and sugar-rich, and some government guidance favours whole fruit and limiting juice [1]."
+        "The US Institute of Medicine set a 2,000 mg/day upper level in 2000 based on gastrointestinal effects seen above 3,000 mg/day, while the European Food Safety Authority found insufficient evidence to set one.[2] Orange juice is acidic and sugar-rich, and some government guidance favours whole fruit over juice.[1]"
       ]
     }
   ],
   "timeline": [],
   "lore": {
-    "intro": "Online, high-dose citrus and vitamin C are promoted for brighter skin.",
+    "intro": "Online, citrus and vitamin C are discussed for brighter skin, with members debating juice against whole foods and supplements.[3]",
     "claims": [
       {
-        "claim": "Mega-dose vitamin C or orange juice improves skin quality.",
-        "believers": "Proponents cite vitamin C's role in collagen synthesis [2].",
-        "experts": "Reference bodies set upper limits, and no studies of juice-based protocols for skin are listed here [2].",
+        "claim": "High vitamin C or orange juice intake improves skin quality",
+        "believers": "Proponents cite vitamin C's role in collagen synthesis.[2]",
+        "experts": "Reference works describe vitamin C's collagen role and note that absorption saturates; no studies of juice-based protocols for skin were found.[2]",
         "evidence": "untested"
+      },
+      {
+        "claim": "Orange juice is mostly sugar with little nutritional value",
+        "believers": "A looksmax.org thread participant describes juice as largely sugar with a low amount of vitamin C.[3]",
+        "experts": "Reference sources list a cup as about 21 g of sugar and a rich vitamin C source, and describe its health value as debated.[1]",
+        "evidence": "mixed"
       }
     ]
   },
   "refs": [
-    {"id": 1, "title": "Orange juice", "url": "https://en.wikipedia.org/wiki/Orange_juice", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"},
-    {"id": 2, "title": "Vitamin C", "url": "https://en.wikipedia.org/wiki/Vitamin_C", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"}
+    {
+      "id": 1,
+      "title": "Orange juice",
+      "url": "https://en.wikipedia.org/wiki/Orange_juice",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Vitamin C",
+      "url": "https://en.wikipedia.org/wiki/Vitamin_C",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "thoughts on orange juice?",
+      "url": "https://looksmax.org/threads/thoughts-on-orange-juice.495431/",
+      "source": "looksmax.org",
+      "year": 2023,
+      "type": "forum"
+    },
+    {
+      "id": 4,
+      "title": "Antioxidant and Anti-Inflammatory Effects of Orange Juice",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34133600/",
+      "source": "Arquivos Brasileiros de Cardiologia",
+      "year": 2021,
+      "type": "review"
+    },
+    {
+      "id": 5,
+      "title": "Effects of Flavonoid-Rich Orange Juice Intervention on Major Depressive Disorder in Young Adults: A Randomized Controlled Trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36615801/",
+      "source": "Nutrients",
+      "year": 2022,
+      "type": "trial"
+    },
+    {
+      "id": 6,
+      "title": "Daily Orange Consumption Reduces Hepatic Steatosis Prevalence in Patients with Metabolic Dysfunction-Associated Steatotic Liver Disease",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39339791/",
+      "source": "Nutrients",
+      "year": 2024,
+      "type": "trial"
+    }
   ],
   "webSources": [
-    {"url": "https://en.wikipedia.org/wiki/Orange_juice", "title": "Orange juice - Wikipedia"},
-    {"url": "https://en.wikipedia.org/wiki/Vitamin_C", "title": "Vitamin C - Wikipedia"}
+    {
+      "url": "https://en.wikipedia.org/wiki/Orange_juice",
+      "title": "Orange juice"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Vitamin_C",
+      "title": "Vitamin C"
+    }
   ],
+  "name": "Orange juice / vitamin C diet",
   "card": {
     "summary": "Heavy orange juice or vitamin C intake for skin, resting on vitamin C's collagen role; untested for appearance and sugar-heavy.",
     "aka": "Citrus diet, vitamin C mega-dose",

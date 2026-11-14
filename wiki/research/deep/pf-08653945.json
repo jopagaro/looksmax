@@ -1,7 +1,8 @@
 {
  "name": "PF-08653945",
  "lead": [
-  "PF-08653945 (also MET-233i) is an investigational amylin analogue for weight management, listed as being developed by Pfizer. It is not approved and has no published human trial results in the sources reviewed.",
+  "PF-08653945, formerly MET-233i, is an investigational amylin analogue for weight management, now developed by Pfizer after its acquisition of Metsera. It is not approved.[2] Its appearance relevance is through fat loss: amylin analogues aim to reduce appetite and body weight, which people pursue for a leaner body and face.",
+  "Pfizer describes MET-233i as a monthly amylin analogue candidate in Phase 1 development, being evaluated alone and in combination with the incretin candidate MET-097i; initial Phase 1 results were presented at the 61st EASD Annual Meeting on 17 September 2025, and the acquisition was announced on 22 September 2025.[2]",
   "It belongs to the amylin analogue class, which a 2026 narrative review describes as an emerging therapeutic approach to obesity complementing incretin-based drugs.[1]"
  ],
  "infobox": [
@@ -15,7 +16,15 @@
   ],
   [
    "Developer",
-   "Pfizer"
+   "Pfizer (acquired from Metsera)"
+  ],
+  [
+   "Dosing interval studied",
+   "Monthly (candidate)"
+  ],
+  [
+   "Stage",
+   "Phase 1"
   ],
   [
    "Legal status",
@@ -24,13 +33,24 @@
  ],
  "sections": [
   {
+   "h": "Development",
+   "paras": [
+    "Metsera developed MET-233i; Pfizer announced in September 2025 that it would acquire the company. Pfizer's release lists MET-233i as a monthly amylin analogue in Phase 1, studied as monotherapy and combined with MET-097i.[2]"
+   ]
+  },
+  {
    "h": "Clinical studies",
    "paras": [
-    "No studies found. A 2026 review covers amylin-based therapies in obesity more broadly, including early-phase trials of the class.[1]"
+    "No peer-reviewed results for PF-08653945 have been located. Initial Phase 1 results of MET-233i were presented at the EASD meeting in September 2025.[2] A 2026 review covers amylin-based therapies in obesity more broadly, including early-phase trials of the class.[1]"
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "2025",
+   "event": "Initial Phase 1 results for MET-233i presented at EASD (17 September); Pfizer announces Metsera acquisition (22 September).[2]"
+  }
+ ],
  "lore": null,
  "refs": [
   {
@@ -40,9 +60,22 @@
    "source": "Diabetes, Obesity and Metabolism",
    "year": 2026,
    "type": "review"
+  },
+  {
+   "id": 2,
+   "title": "Pfizer to acquire Metsera and its next-generation obesity portfolio",
+   "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-acquire-metsera-and-its-next-generation-obesity",
+   "source": "Pfizer",
+   "year": 2025,
+   "type": "news"
   }
  ],
- "webSources": [],
+ "webSources": [
+  {
+   "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-acquire-metsera-and-its-next-generation-obesity",
+   "title": "Pfizer press release: acquisition of Metsera"
+  }
+ ],
  "card": {
   "summary": "Pfizer's early-stage amylin analogue for obesity; nothing published on it yet.",
   "aka": "MET-233i",
@@ -58,5 +91,16 @@
   "overview": "PF-08653945 is an experimental amylin analogue being developed for weight loss. No trials or results were found for it specifically.\n\nAmylin analogues are a drug class reviewed in 2026 as a possible next step after GLP-1 drugs.",
   "mechanism": "Amylin analogues mimic a pancreatic hormone involved in satiety and slowing of digestion.",
   "risks": "Human safety data for this compound are not public. It is unapproved and not legitimately available."
+ },
+ "angle": {
+  "goal": "Fat loss (leaner body and face)",
+  "chain": [
+   "Mimics amylin, a hormone involved in satiety",
+   "Appetite and food intake fall",
+   "Body weight and fat fall",
+   "Leaner physique"
+  ],
+  "effect": "indirect",
+  "text": "Amylin analogues act on fullness and digestion to lower body weight. People interested in leaner bodies and faces follow the class as a possible next step beyond GLP-1 drugs."
  }
 }

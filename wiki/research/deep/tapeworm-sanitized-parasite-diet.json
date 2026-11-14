@@ -1,20 +1,46 @@
 {
   "name": "Tapeworm / sanitized parasite diet",
   "lead": [
-    "The tapeworm or 'sanitized parasite' diet refers to the idea of deliberately ingesting a tapeworm, or a product claimed to contain one, in order to lose weight. It is discussed as a fringe weight-loss method, not an accepted medical treatment.",
-    "Tapeworm infection is a recognised medical condition. For the pork tapeworm Taenia solium, swallowing eggs can cause cysticercosis, in which cysts can form in the brain; the resulting neurocysticercosis is described as the leading cause of seizures worldwide [1]."
+    "The tapeworm or 'sanitized parasite' diet is the idea of deliberately ingesting a tapeworm, or a product claimed to contain one, so that the parasite absorbs part of the food eaten and the person becomes leaner without cutting calories. The appeal is purely aesthetic: a slimmer body and lower body fat. It is discussed as a fringe weight-loss method and is not an accepted medical treatment.",
+    "The notion rests on a real biological fact: intestinal tapeworms live on nutrients in the gut. Reviews describe tapeworm infection as often asymptomatic or mild but occasionally severe, and as able to contribute to anemia and malnutrition [2]. The broad fish tapeworm, for example, absorbs much of the host's dietary vitamin B12 and can cause B12-deficiency anemia [3]. The same sources also list weight loss, abdominal pain and diarrhea among possible symptoms of infection [3][4].",
+    "Medical references stress the other side of the parasite. Swallowing eggs of the pork tapeworm Taenia solium can cause cysticercosis, in which cysts form in the brain, eyes and muscles; neurocysticercosis is described as the leading cause of seizures worldwide [1][4][5]. No published study has tested deliberate tapeworm ingestion for weight loss or appearance."
   ],
   "infobox": [
-    ["Type", "Fringe weight-loss practice"],
-    ["Mechanism claimed", "Parasite absorbs nutrients"],
-    ["Medical status", "Not an accepted treatment"]
+    [
+      "Type",
+      "Fringe weight-loss practice"
+    ],
+    [
+      "Mechanism claimed",
+      "Parasite absorbs nutrients"
+    ],
+    [
+      "Medical status",
+      "Not an accepted treatment"
+    ],
+    [
+      "Goal",
+      "Weight loss and a leaner body (claimed)"
+    ],
+    [
+      "Medical risks documented",
+      "Cysticercosis, B12 deficiency, malnutrition [1][2][3]"
+    ]
   ],
   "sections": [
+    {
+      "h": "Biological background",
+      "paras": [
+        "Intestinal cestodes are among the most prevalent human parasites worldwide. Infection is often asymptomatic or mild, and heavy or prolonged infection can contribute to anemia and malnutrition; it is most prevalent in resource-poor countries [2]. The broad fish tapeworm Diphyllobothrium latum is acquired from raw or undercooked freshwater fish and, because it absorbs dietary vitamin B12, can cause megaloblastic or pernicious anemia; treatment involves antiparasitic drugs and B12 [3].",
+        "Taenia infection is linked with eating undercooked beef or pork and may cause abdominal symptoms, with segments visible in stool [4]."
+      ]
+    },
     {
       "h": "Medical risks of tapeworm infection",
       "paras": [
         "Humans can acquire cysticercosis by swallowing T. solium eggs in contaminated food or water. Cysts in the brain can cause seizures, headaches, raised intracranial pressure, hydrocephalus, meningitis and, in severe cases, death [1].",
-        "Treatment itself needs careful monitoring because dying cysts can trigger inflammation, particularly in the brain [1]."
+        "Treatment itself needs careful monitoring because dying cysts can trigger inflammation, particularly in the brain [1].",
+        "Neurocysticercosis is the most common helminthic infection of the central nervous system worldwide, with seizures the most common presentation and headache, focal deficits, raised intracranial pressure and cognitive decline also reported; imaging is central to diagnosis and cysticidal drugs have improved the prognosis for most patients [5]."
       ]
     },
     {
@@ -27,10 +53,60 @@
   "timeline": [],
   "lore": null,
   "refs": [
-    { "id": 1, "title": "Taenia solium", "url": "https://en.wikipedia.org/wiki/Taenia_solium", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" }
+    {
+      "id": 1,
+      "title": "Taenia solium",
+      "url": "https://en.wikipedia.org/wiki/Taenia_solium",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Intestinal cestodes",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28737550/",
+      "source": "Current Opinion in Infectious Diseases",
+      "year": 2017,
+      "type": "review"
+    },
+    {
+      "id": 3,
+      "title": "Diphyllobothrium latum",
+      "url": "https://en.wikipedia.org/wiki/Diphyllobothrium_latum",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 4,
+      "title": "Tapeworm",
+      "url": "https://en.wikipedia.org/wiki/Tapeworm",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 5,
+      "title": "Human Neurocysticercosis: An Overview",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36297269/",
+      "source": "Pathogens",
+      "year": 2022,
+      "type": "review"
+    }
   ],
   "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Taenia_solium", "title": "Taenia solium" }
+    {
+      "url": "https://en.wikipedia.org/wiki/Taenia_solium",
+      "title": "Taenia solium"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Diphyllobothrium_latum",
+      "title": "Diphyllobothrium latum - Wikipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tapeworm",
+      "title": "Tapeworm - Wikipedia"
+    }
   ],
   "card": {
     "summary": "Fringe idea of swallowing a parasite to lose weight; untested, and parasitic infection carries serious documented risks.",
@@ -44,5 +120,15 @@
     "overview": "The tapeworm diet is a fringe notion of deliberately ingesting a tapeworm, or a pill said to contain one, to lose weight.\n\nNo studies were found testing it, and it is not an accepted medical treatment.",
     "mechanism": "Proponents' idea is that a parasite absorbs part of the host's nutrient intake; no research was found supporting this as a weight-loss method.",
     "risks": "Infection with Taenia solium can cause cysticercosis, including brain cysts and seizures, and in severe cases death; treatment also needs monitoring."
+  },
+  "angle": {
+    "goal": "Leaner body / weight loss",
+    "chain": [
+      "A tapeworm lives in the gut and takes up some of the host's nutrients",
+      "Fewer calories absorbed from the same food",
+      "Lower body weight and a leaner look (as claimed)"
+    ],
+    "effect": "claimed",
+    "text": "Proponents' idea is that the parasite lets a person eat normally while absorbing less, resulting in weight loss and a slimmer physique. No research supports the method as a weight-loss approach."
   }
 }

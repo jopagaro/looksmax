@@ -1,66 +1,192 @@
 {
-  "name": "Dental cleaning / scale and polish",
-  "card": {
-    "summary": "Hygienist removal of tartar and surface stain; a routine dental service whose benefit for healthy adults is judged uncertain by a Cochrane review.",
-    "aka": "Scaling and polishing, prophylaxis, hygiene visit",
-    "evidence": "limited",
-    "risk": "low",
-    "note": "Polishing removes only some plaque and stain; ultrasonic scaling carries minor enamel and aerosol considerations.",
-    "price": null
-  },
-  "quick": {
-    "overview": "A scale and polish is a routine hygienist visit in which tartar (calculus) and plaque are removed from the teeth, usually with ultrasonic or hand instruments, and the surfaces are polished. Wikipedia notes that polishing removes only some plaque and stain and does not remove calculus.\n\nIn appearance terms it addresses surface stain from sources such as tobacco, tea, coffee and red wine, which professional cleaning can remove. Whitening is a separate process aimed mainly at stain inside the tooth.",
-    "mechanism": "Ultrasonic or sonic scalers use vibration and water flow, and hand scalers and curettes finish the work. Deeper treatment, scaling and root planing, also smooths exposed root surfaces and is used in gum disease.",
-    "risks": "Cited concerns include root sensitivity after root planing, damage by ultrasonic scaling to enamel cracks, early caries and resin restorations, and aerosols from ultrasonic scalers. A 2018 Cochrane review found little to no difference for adults without severe periodontitis between scaling and polishing and no scheduled care."
-  },
-  "lead": [
-    "Dental cleaning, often called scale and polish, is professional removal of plaque, calculus (tartar) and surface stain from the teeth by a dental hygienist or dentist. A regular cleaning includes scaling and polishing but not root planing, which is part of deeper gum treatment [1].",
-    "Wikipedia describes polishing as removing only some plaque and stain, not calculus, so it is paired with scaling [1]. Surface (extrinsic) stains from tobacco, tannin-rich drinks, plaque and calculus can be removed by professional prophylaxis, while whitening targets intrinsic stain [2].",
-    "A 2018 Cochrane review of scaling and polishing found little to no difference for adults without severe periodontitis compared with no scheduled care, while other reviews have been inconclusive or addressed scaling and root planing for periodontitis [1]."
+ "name": "Dental cleaning / scale and polish",
+ "lead": [
+  "Dental cleaning, usually called scale and polish, is a professional visit in which a hygienist or dentist removes plaque, hardened calculus (tartar) and surface stain from the teeth.[1] People use it for a brighter, smoother-looking smile, fresher breath and healthier-looking gums, and it is often done before whitening so the whitening agent works on a clean surface.[2]",
+  "Scaling uses ultrasonic or sonic scalers and hand instruments to take deposits off the teeth, and polishing then removes some remaining plaque and stain.[1] Extrinsic stain from coffee, tea, red wine, tobacco, plaque and calculus sits on the tooth surface and is the kind that cleaning can remove; stain inside the tooth is what whitening targets.[2]",
+  "A 2018 Cochrane review reported that routine scale and polish made little to no difference to gingivitis, probing depth or quality of life in adults without severe periodontitis compared with no scheduled care, and found oral hygiene instruction helpful.[1] Periodontal literature places professional cleaning alongside daily home plaque control as part of managing gum health.[3][4]"
+ ],
+ "angle": {
+  "goal": "Teeth and smile",
+  "chain": [
+   "Plaque, tartar and surface stain removed professionally",
+   "Teeth look cleaner and lighter, gums look less inflamed",
+   "Fresher breath and a brighter smile"
   ],
-  "infobox": [
-    ["Type", "Preventive dental service"],
-    ["Performed by", "Hygienist or dentist"],
-    ["Tools", "Ultrasonic or sonic scalers, hand instruments, polishing"],
-    ["Targets", "Plaque, calculus, surface stain"]
+  "effect": "direct",
+  "text": "Removing tartar and extrinsic stain changes how the teeth look straight away, and a clean surface prepares them for whitening. People book regular hygiene visits to keep the teeth and gumline looking clean."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Preventive dental service"
   ],
-  "sections": [
-    {
-      "h": "Description",
-      "paras": [
-        "Scaling uses ultrasonic or sonic scalers, which act by cavitation and liquid flow, and hand instruments such as scalers and curettes [1]. In deeper treatment, called scaling and root planing, the area is numbed and root surfaces are smoothed, with maintenance visits generally recommended every three to four months for periodontal patients [1]."
-      ]
-    },
-    {
-      "h": "Effect on appearance",
-      "paras": [
-        "Wikipedia's tooth whitening article states that professional prophylaxis or micro-abrasion can remove extrinsic stains and that dentists or hygienists clean the teeth before in-office bleaching [2]."
-      ]
-    },
-    {
-      "h": "Risks",
-      "paras": [
-        "Root planing can damage the root surface and cause sensitivity [1]. A 2018 study cited by Wikipedia found ultrasonic scaling can damage enamel cracks, early caries and resin restorations, and ultrasonic scalers create aerosols that can spread pathogens [1]."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "Evidence concerns periodontal outcomes rather than appearance. A 2018 Cochrane review of scaling and polishing found little to no difference for adults without severe periodontitis compared with no scheduled care, a 2015 British Dental Association review was inconclusive, and a 2016 Canadian review found reduced plaque and gingival index improvement with scaling and root planing at three and six months [1]. No studies of scale and polish specifically for cosmetic outcomes were located."
-      ]
-    }
+  [
+   "Performed by",
+   "Dental hygienist or dentist"
   ],
-  "timeline": [
-    { "year": "1995", "event": "A Leuven study proposed full-mouth ultrasonic debridement within about 24 hours.[1]" },
-    { "year": "2018", "event": "Cochrane review of scaling and polishing for adults without severe periodontitis.[1]" }
+  [
+   "Tools",
+   "Ultrasonic or sonic scalers, hand scalers and curettes, polishing paste[1]"
   ],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Scaling and root planing", "url": "https://en.wikipedia.org/wiki/Dental_scaling", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
-    { "id": 2, "title": "Tooth whitening", "url": "https://en.wikipedia.org/wiki/Tooth_bleaching", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" }
+  [
+   "Targets",
+   "Plaque, calculus, extrinsic stain[1][2]"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Dental_scaling", "title": "Scaling and root planing" },
-    { "url": "https://en.wikipedia.org/wiki/Tooth_bleaching", "title": "Tooth whitening" }
+  [
+   "Related procedure",
+   "Root planing (deeper gum treatment, not part of routine scale and polish)[1]"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Scaling removes plaque and calculus; polishing removes some plaque and stain but not calculus, so it is performed together with scaling.[1] Ultrasonic scalers vibrate at high frequency to break up deposits while a water spray cools the tip and flushes debris, and hand instruments finish the work.[1] Wikipedia notes that research is mixed on whether ultrasonic scalers outperform hand instruments, though they are often faster and less irritating for patients.[1]",
+    "Dental calculus is calcified plaque, and a review of its occurrence reports it is present in most adults worldwide, with levels depending on oral hygiene habits, access to professional care, diet and other factors.[5]"
+   ]
+  },
+  {
+   "h": "Uses",
+   "subs": [
+    {
+     "h": "Cosmetic / appearance uses",
+     "paras": [
+      "Cleaning can remove extrinsic stains from tobacco, tannin-rich drinks and plaque, which can often be lifted by cleaning or whitening toothpaste.[2] Before professional whitening, a dentist or hygienist typically cleans the teeth with an ultrasonic scaler, hand instruments and sometimes polishing paste to remove extrinsic stain, giving the whitening treatment a clean surface.[2]",
+      "Removing plaque and calculus at the gumline is also associated with calmer, less inflamed gums, which affects how the smile frames the teeth.[3]"
+     ]
+    },
+    {
+     "h": "Medical uses",
+     "paras": [
+      "Scaling is the main treatment for periodontal disease and is also used preventively in people without it.[1] Reviews of periodontitis prevention emphasize that lifelong daily plaque removal is the bedrock of management, with professional care as part of the picture.[3][4] Studies in people with type 2 diabetes have examined periodontal treatment and blood sugar control over 12 months.[6]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Safety and side effects",
+   "paras": [
+    "Root planing can cause tooth or root sensitivity and discomfort.[1] Ultrasonic scaling can affect enamel cracks, early caries and resin restorations, so their condition is usually checked first.[1] A 2025 review reports that simple dental cleaning poses minimal bleeding risk and that antiplatelet or anticoagulant therapy can generally be continued through it.[7]"
+   ]
+  },
+  {
+   "h": "Frequency",
+   "paras": [
+    "Periodontal maintenance visits after gum treatment are typically every three to four months, per Wikipedia; it gives no general schedule for routine cleanings.[1]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "The 2018 Cochrane review of routine scale and polish in adults found little to no difference in gingivitis, probing depth or oral health-related quality of life compared with no scheduled care in people without severe periodontitis; it considered scaling and polishing only, not root planing.[1] A working-group systematic review examined primary prevention of periodontitis by controlling gingivitis through home mechanical plaque control and other approaches.[3] A 12-month randomized trial in type 2 diabetes assessed systemic effects of periodontitis treatment.[6]"
+   ]
+  }
+ ],
+ "timeline": [],
+ "lore": {
+  "intro": "Scale and polish is mentioned in looks discussions mainly as a routine step for clean-looking teeth and in dental-health chatter on general forums.",
+  "claims": [
+   {
+    "claim": "Dental health is mostly genetic, with gum health as the part people can control.",
+    "believers": "One T Nation user wrote that dental health is largely genetic but gum health is crucial, and described regular gum care and deep cleanings.[8]",
+    "experts": "Reviews describe plaque removal and behavior change as central to preventing gum disease, alongside risk factors such as smoking.[3]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "A professional cleaning removes the stain whitening cannot reach.",
+    "believers": "Whitening guides describe cleaning first so whitening acts on a clean surface.[2]",
+    "experts": "Wikipedia distinguishes extrinsic stain, removable by cleaning, from intrinsic stain, which is the main target of whitening.[2]",
+    "evidence": "supported"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Dental scaling (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Dental_scaling",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Tooth bleaching (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Tooth_bleaching",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Primary prevention of periodontitis: managing gingivitis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25639826/",
+   "source": "Journal of Clinical Periodontology",
+   "year": 2015,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Mechanical plaque removal in step-1 of care",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38148481/",
+   "source": "Periodontology 2000",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Dental calculus: recent insights into occurrence, formation, prevention, removal and oral health effects of supragingival and subgingival deposits",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9395117/",
+   "source": "European Journal of Oral Sciences",
+   "year": 1997,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Systemic effects of periodontitis treatment in patients with type 2 diabetes: a 12 month, single-centre, investigator-masked, randomised trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30472992/",
+   "source": "The Lancet Diabetes & Endocrinology",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Management of antithrombotic therapy in patients undergoing dental procedures",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39395540/",
+   "source": "Journal of Thrombosis and Haemostasis",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "Dani's Rebel Log",
+   "url": "https://t-nation.com/t/danis-rebel-log/280747",
+   "source": "T Nation forum",
+   "year": 2023,
+   "type": "forum"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Dental_scaling",
+   "title": "Dental scaling - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Tooth_bleaching",
+   "title": "Tooth bleaching - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "Hygienist removal of tartar and surface stain; a routine dental service whose benefit for healthy adults is judged uncertain by a Cochrane review.",
+  "aka": "Scaling and polishing, prophylaxis, hygiene visit",
+  "evidence": "limited",
+  "risk": "low",
+  "note": "Polishing removes only some plaque and stain; ultrasonic scaling carries minor enamel and aerosol considerations.",
+  "price": null
+ },
+ "quick": {
+  "overview": "A scale and polish is a routine hygienist visit in which tartar (calculus) and plaque are removed from the teeth, usually with ultrasonic or hand instruments, and the surfaces are polished. Wikipedia notes that polishing removes only some plaque and stain and does not remove calculus.\n\nIn appearance terms it addresses surface stain from sources such as tobacco, tea, coffee and red wine, which professional cleaning can remove. Whitening is a separate process aimed mainly at stain inside the tooth.",
+  "mechanism": "Ultrasonic or sonic scalers use vibration and water flow, and hand scalers and curettes finish the work. Deeper treatment, scaling and root planing, also smooths exposed root surfaces and is used in gum disease.",
+  "risks": "Cited concerns include root sensitivity after root planing, damage by ultrasonic scaling to enamel cracks, early caries and resin restorations, and aerosols from ultrasonic scalers. A 2018 Cochrane review found little to no difference for adults without severe periodontitis between scaling and polishing and no scheduled care."
+ }
 }

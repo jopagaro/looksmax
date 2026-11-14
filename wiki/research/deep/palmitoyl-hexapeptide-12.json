@@ -1,8 +1,9 @@
 {
  "name": "Palmitoyl hexapeptide-12",
  "lead": [
-  "Palmitoyl hexapeptide-12, sold as Biopeptide EL, is a synthetic fatty-acid-linked peptide derived from a repeating elastin sequence and used in anti-ageing creams. It is marketed as supporting skin elasticity.",
-  "A 2025 laboratory study using label-free imaging techniques examined its short-term effects on human skin composition and mechanics, describing it as a self-assembling peptide with potential skincare benefits [1]. No clinical trial results were found."
+  "Palmitoyl hexapeptide-12, sold as Biopeptide EL, is a synthetic fatty-acid-linked peptide derived from a repeating elastin sequence and used in anti-aging creams. People apply products containing it aiming for firmer, more elastic-looking skin and a smoother appearance of fine lines.",
+  "It belongs to the family of cosmetic signal peptides, which includes palmitoyl pentapeptide-4 (Matrixyl), a five-amino-acid peptide attached to a 16-carbon fatty chain that the manufacturer Sederma launched in 2000.[3] The fatty chain is described as helping such molecules enter skin lipids.[3]",
+  "A 2025 laboratory study using label-free imaging techniques tracked the peptide in full-thickness human skin, found it permeated the stratum corneum and epidermis while forming a gel, and reported that it strengthened and repaired the skin barrier after lipid removal in tests.[1] No clinical trial results were found."
  ],
  "infobox": [
   [
@@ -16,25 +17,46 @@
   [
    "Routes",
    "Topical"
+  ],
+  [
+   "Marketed for",
+   "Skin elasticity and firmness"
+  ],
+  [
+   "Related peptides",
+   "Palmitoyl pentapeptide-4 (Matrixyl), GHK-Cu"
   ]
  ],
  "sections": [
   {
    "h": "Uses and proposed mechanism",
    "paras": [
-    "The peptide is promoted in anti-ageing products for firmness and elasticity. Researchers describe cosmetic self-assembling peptides of this kind as interacting with skin structures, though the short-term impact on composition and mechanics had been unclear before the 2025 study [1]."
+    "The peptide is promoted in anti-aging products for firmness and elasticity. Researchers describe cosmetic self-assembling peptides of this kind as interacting with skin structures, though their short-term impact on composition and mechanics had been unclear before the 2025 study.[1]",
+    "The wider category of palmitoyl matrikine peptides is described as messenger peptides said to activate genes involved in extracellular matrix renewal, an explanation Wikipedia flags as needing citation for Matrixyl.[3]"
+   ]
+  },
+  {
+   "h": "Research",
+   "paras": [
+    "In the 2025 study, orbital trapping secondary ion mass spectrometry distinguished the peptide's sol and gel forms and tracked its self-assembly and penetration, and stimulated Raman scattering and mechanical testing showed barrier strengthening after delipidation, with co-assembly with native skin molecules shown in vitro and in ex vivo histology.[1] The authors describe the work as a methodological benchmark for measuring cosmetic peptide effects on skin mechanics.[1]"
+   ]
+  },
+  {
+   "h": "Use in forums",
+   "paras": [
+    "A T Nation member asking about peptides to improve healing times, scarring and results listed TB-500, GHK, Biopeptide EL and Matrixyl together as options.[4]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found. A 2025 ex vivo/experimental study monitored the peptide in human skin layers with non-invasive techniques and assessed its mechanical interaction with skin components [1]."
+    "No studies found in human clinical trials. A 2025 ex vivo study monitored the peptide in human skin layers with non-invasive techniques and assessed its mechanical interaction with skin components.[1]"
    ]
   },
   {
    "h": "Safety",
    "paras": [
-    "A 2026 paper proposes a framework for safety evaluation of cosmetic peptides generally, as the industry shifts away from animal testing [2]. No ingredient-specific adverse-effect data were found."
+    "A 2026 paper proposes a bioinformatic framework for safety evaluation of cosmetic peptides as the industry shifts away from animal testing; it tested palmitoyl hexapeptide-12 along with other cosmetic peptides, and the framework correctly flagged toxin peptides such as amanitin and conotoxin in the same test set.[2] No ingredient-specific adverse-effect data were found."
    ]
   }
  ],
@@ -69,7 +91,38 @@
    "source": "Current Research in Toxicology",
    "year": 2026,
    "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Matrixyl (palmitoyl pentapeptide-4)",
+   "url": "https://en.wikipedia.org/wiki/Matrixyl",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Peptide Question",
+   "url": "https://t-nation.com/t/peptide-question/189064",
+   "source": "T Nation forum",
+   "year": 2013,
+   "type": "forum"
   }
  ],
- "webSources": []
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Matrixyl",
+   "title": "Matrixyl"
+  }
+ ],
+ "angle": {
+  "goal": "Skin firmness / anti-aging",
+  "chain": [
+   "Peptide applied in a cream or serum",
+   "Penetrates upper skin layers and interacts with skin components",
+   "Firmer, more elastic, smoother-looking skin"
+  ],
+  "effect": "claimed",
+  "text": "People use creams with this peptide hoping for firmer-looking skin and softened fine lines. The 2025 ex vivo study supports penetration and barrier-strengthening in skin samples."
+ }
 }

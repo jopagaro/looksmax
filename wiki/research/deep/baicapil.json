@@ -1,17 +1,40 @@
 {
  "name": "Baicapil",
  "lead": [
-  "Baicapil is a branded cosmetic hair-care active marketed for scalp hair-loss serums. Its name suggests a baicalin-based ingredient, and baicalin is a flavone glycoside found in Scutellaria (skullcap) species.[2]",
-  "A 2025 trichology review lists Baicapil among the topical actives it examines, and describes such ingredients as heavily promoted on social media.[1] The sources reviewed contain no detail on Baicapil's composition, manufacturer or controlled trial results, so this article is brief."
+  "Baicapil is a branded cosmetic hair-care active, developed by the ingredient supplier Provital, that is added to scalp serums and lotions aimed at thinning hair. People use products containing it to support fuller-looking hair and reduce shedding, which affects hairline, density and overall head-hair appearance.[1][2][3]",
+  "According to supplier and retailer descriptions, Baicapil is a plant complex of Scutellaria baicalensis (Baikal skullcap) root extract, wheat sprout extract and soy germ extract, with baicalin, a flavonoid from Scutellaria, as the key active molecule. It is typically described as used at around 2 to 3 percent in leave-on scalp products and as non-hormonal.[2][3]",
+  "A 2025 trichology review lists Baicapil among topical actives such as Redensyl, Procapil, Capixyl and AnaGain that are heavily promoted on social media. The review reports that studies of these actives were mostly of combined formulations with limited sample sizes and in some cases conflicts of interest, and suggests they may find use as add-on therapy.[1] The best-known performance data for Baicapil come from the supplier's own six-month study of 61 volunteers.[3]"
  ],
+ "angle": {
+  "goal": "Hair",
+  "chain": [
+   "Plant complex applied to the scalp in a serum",
+   "Claimed support for follicle vitality and a longer growth phase",
+   "Less shedding and fuller-looking hair"
+  ],
+  "effect": "claimed",
+  "text": "Baicapil is marketed for thinning and shedding hair. Users apply serums containing it to the scalp with the aim of reducing hair fall and improving visible density."
+ },
  "infobox": [
   [
    "Type",
    "Cosmetic hair-care active"
   ],
   [
-   "Related compound",
-   "Baicalin (from Scutellaria species)"
+   "Supplier",
+   "Provital[3]"
+  ],
+  [
+   "Composition",
+   "Scutellaria baicalensis root, wheat sprout and soy germ extracts[2][3]"
+  ],
+  [
+   "Key molecule",
+   "Baicalin"
+  ],
+  [
+   "Typical use level",
+   "About 2 to 3% in leave-on products, per retailer description[2]"
   ],
   [
    "Route",
@@ -24,15 +47,23 @@
  ],
  "sections": [
   {
-   "h": "Clinical studies",
+   "h": "Composition and claimed mechanism",
    "paras": [
-    "No studies found. A 2025 review names Baicapil among topical hair actives but the review abstract does not report a trial specific to it.[1]"
+    "The ingredient list given by a brand that uses it names water, propanediol, Scutellaria baicalensis root extract, wheat sprout extract and soy germ extract.[2] Supplier-side descriptions say baicalin is thought to protect hair follicle cells from oxidative stress and senescence and to extend the anagen (growth) phase. Retailer descriptions present the complex as supporting follicle vitality and the balance of the growth cycle, and as not creating new follicles.[2][3]",
+    "Baicalin is the glucuronide of baicalein, occurs in Scutellaria baicalensis and related species, and is reported in laboratory and animal work to modulate GABA-A receptors and inhibit prolyl endopeptidase. Wikipedia's baicalin article does not discuss hair growth.[4] A 2023 review describes baicalin's pharmacological research in inflammatory diseases, a different context from scalp use.[5]"
    ]
   },
   {
-   "h": "Baicalin background",
+   "h": "Supplier-reported data",
    "paras": [
-    "Baicalin is the glucuronide of baicalein, occurs in Scutellaria baicalensis and related species, and is reported in laboratory and animal work to act as a modulator of GABA-A receptors and to inhibit prolyl endopeptidase.[2] The Wikipedia article on baicalin does not mention hair or hair growth.[2]"
+    "A technical article written by staff of a consultancy about the supplier's product describes tests on human skin fibroblast and mitochondrial cultures reporting higher proliferation and metabolic activity and delayed senescence. It also reports a six-month study of 61 volunteers using a 3 percent solution, with the anagen phase up 10.7 percent, the telogen phase down 34.1 percent, hair density rising from about 183 to 223 hairs per square centimeter and hair fall reduced by up to 60.6 percent.[3] The article is promotional in nature and gives no control-group design or statistical significance values.[3]",
+    "A brand page selling a Baicapil-containing product states that it reports no clinical trial results for Baicapil itself and refers to supplier in vitro and ex vivo data.[2]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No independent published clinical trial specific to Baicapil was found. A 2025 review names Baicapil among topical hair actives and reports that studies of such ingredients are mostly of combined formulations with limited sample sizes, lack of comparison with standard therapies and conflicts of interest.[1] The supplier-reported six-month volunteer study is described above.[3]"
    ]
   }
  ],
@@ -49,14 +80,46 @@
   },
   {
    "id": 2,
+   "title": "Baicapil (ingredient listing)",
+   "url": "https://www.drsu.in/blogs/ingredients-listing/baicapil",
+   "source": "Dr. Su (brand page)",
+   "year": null,
+   "type": "news"
+  },
+  {
+   "id": 3,
+   "title": "Baicapil: Revolutionizing Hair Care With Botanical Science",
+   "url": "https://turkchem.net/baicapil-revolutionizing-hair-care-with-botanical-science",
+   "source": "Turkchem",
+   "year": null,
+   "type": "news"
+  },
+  {
+   "id": 4,
    "title": "Baicalin",
    "url": "https://en.wikipedia.org/wiki/Baicalin",
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
+  },
+  {
+   "id": 5,
+   "title": "The Pharmacological Efficacy of Baicalin in Inflammatory Diseases",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37298268/",
+   "source": "International Journal of Molecular Sciences",
+   "year": 2023,
+   "type": "review"
   }
  ],
  "webSources": [
+  {
+   "url": "https://www.drsu.in/blogs/ingredients-listing/baicapil",
+   "title": "Baicapil - Dr. Su"
+  },
+  {
+   "url": "https://turkchem.net/baicapil-revolutionizing-hair-care-with-botanical-science",
+   "title": "Baicapil: Revolutionizing Hair Care With Botanical Science - Turkchem"
+  },
   {
    "url": "https://en.wikipedia.org/wiki/Baicalin",
    "title": "Baicalin - Wikipedia"

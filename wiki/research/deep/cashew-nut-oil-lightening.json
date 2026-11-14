@@ -1,18 +1,18 @@
 {
- "name": "Cashew nut oil lightening",
  "lead": [
-  "Cashew nut oil lightening is a folk practice in which people apply cashew-derived oil to the skin hoping to lighten it or even tone. It is reported in folk-remedy circles to burn skin.",
-  "The oil in question is usually cashew nutshell liquid, the resin from the shell. Its main components, anacardic acids, cardol and cardanol, are strong skin irritants related to the allergens in poison ivy [1]."
+  "Cashew nut oil lightening is a folk practice in which people apply cashew-derived oil to the skin in the hope of lightening it or evening tone. Wikipedia's article on skin whitening lists it among historical natural preparations, noting that some plant-based preparations of this kind, including cashew nut oil in the Caribbean, caused burns or pain.[1]",
+  "The oil in question is usually cashew nutshell liquid, the resin from the shell. Its main components, anacardic acids, cardol and cardanol, are strong skin irritants related to the allergens in poison ivy.[2][3] Anacardic acid is a salicylic acid carrying a long alkyl chain and is the main component of the liquid; it is described as an acid form of urushiol, the compound behind poison ivy rash.[3] Heating converts it to cardanols, and commercial processing reduces its activity.[3]",
+  "Skin lightening agents in general are described as acting on melanin by inhibiting the enzyme tyrosinase, reducing melanin production, blocking its transfer to skin cells or breaking it down.[1] No published study located tests cashew-derived oil for these effects on human skin; Wikipedia's article on anacardic acid does not mention tyrosinase, and lists antibacterial and enzyme-inhibiting activity in laboratory work.[3]"
  ],
  "angle": {
   "goal": "Skin tone",
   "chain": [
    "Cashew-derived oil applied to skin",
-   "Irritation of the skin surface",
+   "Irritation or chemical burn of the skin surface",
    "Intended: lighter or more even tone"
   ],
   "effect": "claimed",
-  "text": "People try it hoping for a lighter, more even complexion. The oil is an irritant, which is the main reported outcome."
+  "text": "People try it hoping for a lighter, more even complexion. The reported outcome is skin irritation and, in some accounts, burns, which can leave marks; no lightening mechanism has been shown."
  },
  "infobox": [
   [
@@ -21,34 +21,45 @@
   ],
   [
    "Source",
-   "Cashew nutshell liquid"
+   "Cashew nutshell liquid[2]"
   ],
   [
    "Key compounds",
-   "Anacardic acid, cardol, cardanol"
+   "Anacardic acid, cardol, cardanol[2][3]"
   ],
   [
    "Reported risk",
-   "Burns, contact dermatitis"
+   "Burns, contact dermatitis[1][3]"
+  ],
+  [
+   "Related to",
+   "Poison ivy allergens (urushiol)[3]"
   ]
  ],
  "sections": [
   {
    "h": "Description",
    "paras": [
-    "Cashew nutshell liquid is a yellowish resin in the shell's honeycomb structure and a byproduct of cashew processing. It is described as a strong irritant and is dangerous to handle [1]. It has traditional uses in folk medicine [1]."
+    "Cashew nutshell liquid is a yellowish resin found in the shell's honeycomb structure and is a byproduct of cashew processing. It is described as a strong irritant and is dangerous to handle.[2] It has traditional uses in folk medicine.[2]",
+    "Wikipedia's skin-whitening article places cashew nut oil in a list of older plant-based lightening practices, alongside honey and olive oil in ancient Egypt and Greece, rice water in East Asia and turmeric in South Asia, and notes that some of these preparations caused burns or pain.[1]"
+   ]
+  },
+  {
+   "h": "Chemistry",
+   "paras": [
+    "Anacardic acids are phenolic lipids: a salicylic acid with a 15- or 17-carbon side chain, occurring as a mixture whose composition varies by species. They occur in cashew nutshell liquid, cashew nuts and apples, mangoes and some geraniums.[3] Laboratory work has reported antibacterial activity against Gram-positive bacteria and inhibition of lysine acetyltransferase enzymes.[3]"
+   ]
+  },
+  {
+   "h": "Safety and risks",
+   "paras": [
+    "Shell oil compounds can cause contact dermatitis similar to poison ivy, which is why cashews are generally not sold in the shell.[2][3] Because anacardic acid is an acid form of urushiol, contact can cause an allergic rash.[3] Skin-lightening practices in general are associated with irritation, redness, itching, sun sensitivity and uneven pigmentation, per Wikipedia's overview.[1]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
     "No studies found."
-   ]
-  },
-  {
-   "h": "Safety and risks",
-   "paras": [
-    "Shell oil compounds can cause contact dermatitis similar to poison ivy, which is why cashews are generally not sold in the shell [1]."
    ]
   }
  ],
@@ -57,19 +68,44 @@
  "refs": [
   {
    "id": 1,
+   "title": "Skin whitening",
+   "url": "https://en.wikipedia.org/wiki/Skin_whitening",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
    "title": "Cashew",
    "url": "https://en.wikipedia.org/wiki/Cashew",
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Anacardic acid",
+   "url": "https://en.wikipedia.org/wiki/Anacardic_acid",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
   }
  ],
  "webSources": [
   {
+   "url": "https://en.wikipedia.org/wiki/Skin_whitening",
+   "title": "Skin whitening"
+  },
+  {
    "url": "https://en.wikipedia.org/wiki/Cashew",
    "title": "Cashew"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Anacardic_acid",
+   "title": "Anacardic acid"
   }
  ],
+ "name": "Cashew nut oil lightening",
  "card": {
   "summary": "A folk practice of applying cashew-derived oil to skin hoping to lighten tone; the oil is a known irritant.",
   "aka": null,

@@ -1,8 +1,9 @@
 {
  "name": "Chiropractic BioPhysics (CBP) cervical lordosis",
  "lead": [
-  "Chiropractic BioPhysics (CBP) is a posture-focused chiropractic technique founded in 1980 by Donald Harrison, Deanne Harrison and Daniel Murphy. It uses mathematical models of ideal spinal curves, and combines adjustments, exercises and traction to try to restore them [1]. Cervical lordosis, the natural forward curve of the neck, is one of its main targets.",
-  "Proponents claim that restoring the curve reduces pain and improves posture. Grokipedia, which draws mainly on CBP-affiliated sources, describes a body of mostly CBP-authored studies, while noting critics who question whether curve deviations relate to symptoms and point to weak study designs [1]."
+  "Chiropractic BioPhysics (CBP) is a posture-focused chiropractic technique founded in 1980 by Donald Harrison, Deanne Harrison and Daniel Murphy. It uses mathematical models of ideal spinal curves and combines adjustments, exercises and traction to restore them [1]. Cervical lordosis, the natural forward curve of the neck, is one of its main targets.",
+  "For appearance, the interest is in neck and head posture: a restored curve is meant to bring the head back over the shoulders and reduce the forward-head, rounded-shoulder look, which gives a straighter profile, a longer-looking neck and a more upright stance. Forward head posture is described as the ear sitting ahead of the shoulder line with the chin pushed forward [2].",
+  "Proponents also claim that restoring the curve reduces pain and improves function. A 2005 review of CBP publications, written within the chiropractic field, rated CBP evidence as comparable to spinal manipulation for neck pain [3], and a 2017 randomized trial reported that adding Denneroll extension traction to a multimodal program increased cervical lordosis in patients [4]. Grokipedia notes that critics question whether curve deviations relate to symptoms and point to the affiliation of many study authors with CBP [1]."
  ],
  "infobox": [
   [
@@ -34,16 +35,23 @@
    ]
   },
   {
+   "h": "Posture and appearance",
+   "paras": [
+    "Forward head posture places the head forward of the shoulders and is often paired with rounded shoulders, a combination sometimes called upper crossed syndrome; it is associated in the literature with phone and computer use [2]. A review of the literature found cervical lordosis values to be significantly associated with thoracic kyphosis values, and rounded shoulders with increased thoracic kyphosis [5]. CBP treats the neck curve as part of a whole-spine model, so its programs also address head translation and upper-back posture [1]."
+   ]
+  },
+  {
    "h": "Clinical studies",
    "paras": [
-    "According to Grokipedia, a lateral X-ray study reported mean cervical angles of about 34.5 degrees in asymptomatic people, 28.6 in acute neck pain and 22.0 in chronic neck pain [1]. A non-randomized trial of CBP extension-compression traction plus manipulation reported a 13.6 degree gain in C2-C7 Cobb angle and reduced pain, with about 70 percent of participants retaining gains at 14 months while controls showed no change [1]. The same source cites roughly 21 randomized trials among CBP-affiliated publications [1].",
-    "Critics noted in that source observe that sagittal curve deviations occur in many people without symptoms, that many trials are non-randomized with mixed treatments, and that most sources are CBP-affiliated [1]. No independent systematic review was loaded for this article."
+    "A 2005 review of Clinical Biomechanics of Posture publications, the earlier name for CBP, compared controlled trials of CBP and spinal manipulation; it rated CBP evidence as roughly equal to spinal manipulation for neck pain and above the diversified technique taught in chiropractic colleges, and proposed a structural rehabilitation protocol [3].",
+    "A 2017 randomized controlled trial in 72 patients aged 40 to 55 with cervicogenic dizziness, a hypolordotic neck and anterior head translation compared a multimodal program with the same program plus Denneroll cervical traction; the traction group showed greater improvement in cervical lordosis, pain, head repositioning accuracy and dizziness outcomes at ten weeks and at one-year follow-up [4].",
+    "According to Grokipedia, a lateral X-ray study reported mean cervical angles of about 34.5 degrees in asymptomatic people, 28.6 in acute neck pain and 22.0 in chronic neck pain, and a non-randomized trial reported a 13.6 degree gain in C2-C7 Cobb angle with about 70 percent retention at 14 months [1]. Critics noted in the same source observe that curve deviations occur in many people without symptoms and that many trials are non-randomized and CBP-affiliated [1]."
    ]
   },
   {
    "h": "Concerns",
    "paras": [
-    "A rapid review cited by Grokipedia found no good evidence that routine spinal X-rays improve outcomes, raising radiation exposure questions, since CBP uses radiographs to measure curves [1]. Chiropractic neck manipulation in general has been linked to rare vertebral artery stroke, with disputed causality [2]."
+    "A rapid review cited by Grokipedia found no good evidence that routine spinal X-rays improve outcomes, raising radiation exposure questions, since CBP uses radiographs to measure curves [1]. Chiropractic neck manipulation in general has been linked to rare vertebral artery stroke, with disputed causality [6]."
    ]
   }
  ],
@@ -55,6 +63,14 @@
   {
    "year": "1996-2000",
    "event": "Deed Harrison refines cervical traction protocols [1]."
+  },
+  {
+   "year": "2005",
+   "event": "Review of CBP publications proposes a structural rehabilitation protocol [3]"
+  },
+  {
+   "year": "2017",
+   "event": "Randomized trial of Denneroll traction reports lordosis gains at one-year follow-up [4]"
   }
  ],
  "lore": null,
@@ -69,6 +85,38 @@
   },
   {
    "id": 2,
+   "title": "Forward head posture",
+   "url": "https://en.wikipedia.org/wiki/Forward_head_posture",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Evidence-based protocol for structural rehabilitation of the spine and posture: review of clinical biomechanics of posture (CBP) publications",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17549209&resultType=core&format=json&pageSize=1",
+   "source": "J Can Chiropr Assoc (via Europe PMC)",
+   "year": 2005,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "The effect of normalizing the sagittal cervical configuration on dizziness, neck pain, and cervicocephalic kinesthetic sensibility: a 1-year randomized controlled study",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:27575013&resultType=core&format=json&pageSize=1",
+   "source": "Eur J Phys Rehabil Med (via Europe PMC)",
+   "year": 2017,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "Association Between Forward Head, Rounded Shoulders, and Increased Thoracic Kyphosis: A Review of the Literature",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22cervical%20lordosis%22%20AND%20(%22chiropractic%20biophysics%22%20OR%20%22forward%20head%22)%20AND%20(TRIAL%20OR%20review)&resultType=core&format=json&pageSize=10&sort=CITED%20desc",
+   "source": "J Chiropr Med (via Europe PMC)",
+   "year": 2017,
+   "type": "review"
+  },
+  {
+   "id": 6,
    "title": "Spinal manipulation",
    "url": "https://en.wikipedia.org/wiki/Spinal_manipulation",
    "source": "Wikipedia",
@@ -84,6 +132,22 @@
   {
    "url": "https://en.wikipedia.org/wiki/Spinal_manipulation",
    "title": "Spinal manipulation - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Forward_head_posture",
+   "title": "Forward head posture - Wikipedia"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17549209&resultType=core&format=json&pageSize=1",
+   "title": "Europe PMC record 17549209"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:27575013&resultType=core&format=json&pageSize=1",
+   "title": "Europe PMC record 27575013"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22cervical%20lordosis%22%20AND%20(%22chiropractic%20biophysics%22%20OR%20%22forward%20head%22)%20AND%20(TRIAL%20OR%20review)&resultType=core&format=json&pageSize=10&sort=CITED%20desc",
+   "title": "Europe PMC search: cervical lordosis and forward head"
   }
  ],
  "card": {
@@ -99,5 +163,15 @@
   "overview": "CBP is a chiropractic system that tries to restore the neck's forward curve (cervical lordosis) using traction, exercises and adjustments.\n\nMost supporting studies come from CBP-affiliated authors, and critics question whether curve changes relate to symptoms.",
   "mechanism": "Practitioners measure curves on X-rays and apply sustained extension traction, orthotics and Mirror Image positioning intended to produce lasting tissue change.",
   "risks": "Repeated X-rays add radiation exposure, and neck manipulation has been associated with rare stroke. Certification is voluntary."
+ },
+ "angle": {
+  "goal": "Posture",
+  "chain": [
+   "Curve measured on X-ray",
+   "Extension traction, exercises and adjustments",
+   "Head carried further back over the shoulders"
+  ],
+  "effect": "direct",
+  "text": "CBP practitioners aim to reshape the neck curve so the head sits over the shoulders instead of forward of them. People seeking a more upright posture, a more defined neck line and a less forward-jutting chin use it for that outcome."
  }
 }

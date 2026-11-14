@@ -1,10 +1,20 @@
 {
  "name": "WVE-007",
  "lead": [
-  "WVE-007 is an investigational GalNAc-conjugated small interfering RNA (siRNA) developed by Wave Life Sciences for obesity. It is designed to silence INHBE messenger RNA in the liver, lowering circulating Activin E, a liver-secreted protein that is described as restraining fat breakdown in fat cells.[1] The stated goal is preferential loss of visceral fat while preserving lean mass.[1]",
-  "According to company results summarised on Grokipedia, a single-dose Phase 1 cohort of adults with overweight or obesity showed dose-dependent Activin E suppression and, at six months after one dose, placebo-adjusted reductions in visceral fat, with lean mass stable or slightly higher. These are interim company-reported figures from a small early trial and have not been confirmed by peer-reviewed publication in the sources reviewed.[1] The drug is not approved.",
+  "WVE-007 is an investigational GalNAc-conjugated small interfering RNA (siRNA) developed by Wave Life Sciences for obesity. It is designed to silence INHBE messenger RNA in the liver, lowering circulating Activin E, a liver-secreted protein described as restraining fat breakdown in fat cells.[1] The stated goal is preferential loss of visceral (belly) fat while keeping lean mass, which would mean a leaner midsection and body composition without the muscle loss that can accompany weight loss.[1]",
+  "According to company results summarised on Grokipedia, a single-dose Phase 1 cohort in adults with overweight or obesity showed dose-dependent Activin E suppression and, at six months after one dose, placebo-adjusted reductions in visceral fat, with lean mass stable or slightly higher. These are interim company-reported figures from a small early trial and have not been confirmed by peer-reviewed publication.[1] The drug is not approved.",
   "Grokipedia is AI-generated and its account should be treated with caution; the clinical trial registration is the verifiable record.[1][2]"
  ],
+ "angle": {
+  "goal": "Body fat and composition",
+  "chain": [
+   "Liver-targeted siRNA lowers Activin E",
+   "Fat cells break down stored fat, especially visceral fat",
+   "Leaner midsection with lean mass preserved"
+  ],
+  "effect": "claimed",
+  "text": "The compound is designed to cut visceral fat selectively while sparing muscle, which the developer positions as a different profile from weight loss that also reduces lean mass. It is investigational and available only in trials."
+ },
  "infobox": [
   [
    "Drug class",
@@ -21,6 +31,14 @@
   [
    "Target",
    "INHBE mRNA / Activin E"
+  ],
+  [
+   "Route",
+   "Subcutaneous injection (clinical trial)"
+  ],
+  [
+   "Trial",
+   "INLIGHT, NCT06842186[2]"
   ]
  ],
  "sections": [
@@ -32,19 +50,26 @@
      "paras": [
       "The GalNAc attachment directs the siRNA to liver cells through the asialoglycoprotein receptor. Silencing INHBE reduces Activin E, which proponents of the approach say normally inhibits lipolysis in fat cells. Human genetic findings cited by the developer link loss-of-function INHBE variants to less visceral fat and lower type 2 diabetes and cardiovascular risk.[1]"
      ]
+    },
+    {
+     "h": "Platform",
+     "paras": [
+      "The compound uses the developer's Stereopure oligonucleotide chemistry and SpiNA siRNA design.[1]"
+     ]
     }
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "The Phase 1/2a study (NCT06842186) in adults with overweight or obesity started on 31 January 2025, is recruiting, and has a target enrollment of 400.[2] Company-reported interim data summarised on Grokipedia describe a single 240 mg dose producing Activin E reductions of up to about 88 percent and, at six months, placebo-adjusted changes of about -14 percent in visceral fat, -5 percent in total fat, -1 percent in body weight and +2 percent in lean mass; the product was reported as generally well tolerated with mild or moderate adverse events.[1] A multidose portion in people with higher BMI and comorbidities was planned for 2026.[1]"
+    "The Phase 1/2a study (NCT06842186), called INLIGHT, in adults with overweight or obesity started on 31 January 2025, is recruiting, and has a target enrollment of 400.[2] The single-ascending-dose part is randomized and placebo-controlled in people with BMI 28 to 35 without diet or exercise interventions.[1]",
+    "Company-reported interim data summarised on Grokipedia describe a single 240 mg dose producing Activin E reductions of up to about 88 percent, sustained through at least seven months. At six months, placebo-adjusted changes were about -14 percent in visceral fat, -5 percent in total fat, -3 percent in waist circumference, -1 percent in body weight and +2 percent in lean mass; three-month data showed -9 percent visceral fat and +3 percent lean mass. The product was reported as generally well tolerated with mild or moderate adverse events.[1] A multidose portion in people with higher BMI and comorbidities was planned for the second quarter of 2026.[1]"
    ]
   },
   {
    "h": "Preclinical research",
    "paras": [
-    "In diet-induced obese mice, a single dose was reported to reduce Activin E, shrink visceral fat cells and lower weight, with effects described as additive when combined with semaglutide.[1]"
+    "In diet-induced obese mice, a single dose was reported to reduce Activin E, shrink visceral fat cells, reduce fibrosis and inflammatory macrophages in fat tissue and lower weight, with effects described as additive when combined with semaglutide.[1]"
    ]
   }
  ],
@@ -66,7 +91,7 @@
  "refs": [
   {
    "id": 1,
-   "title": "WVE-007",
+   "title": "WVE-007 (Grokipedia)",
    "url": "https://grokipedia.com/page/WVE-007",
    "source": "Grokipedia",
    "year": 2026,

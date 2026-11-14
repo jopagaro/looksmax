@@ -1,38 +1,74 @@
 {
  "name": "EGCG-glucoside",
  "lead": [
-  "EGCG-glucoside (EGCG2) is a glucosylated form of epigallocatechin gallate (EGCG), the main catechin of green tea. In hair-care marketing it is named as one of the two components of Redensyl, alongside dihydroquercetin glucoside.[2]",
-  "Published work on EGCG-glucoside is chiefly biochemical. A 2012 in vitro study found that EGCG and its glucoside both inhibited the human intestinal enzyme maltase, with IC50 values of about 20 and 31.5 micromolar respectively.[1] That study concerns diabetes-related enzymes, not hair."
+  "EGCG-glucoside (also called EGCG2 or EGCG-G1) is a glucosylated form of epigallocatechin gallate (EGCG), the main catechin in green tea. In hair-care products it is one of the two named actives in Redensyl, an ingredient from the Induchem biotechnology company, alongside dihydroquercetin-glucoside (DHQG) derived from larch [2]. Redensyl is added to scalp serums aimed at people who want thicker-looking hair and a fuller hairline, and it is also discussed for beard and brow products.",
+  "A 2014 trade-press feature on Redensyl, based on the developer's materials, describes the ingredient as combined with glycine and zinc and says it activates hair-follicle bulge stem cells, pushes them toward the growth (anagen) phase, supports dermal papilla cells and reduces scalp inflammation. EGCG2 is the component linked in those materials to the anti-inflammatory role [2]. The same article reports company-run tests in which Redensyl scored almost twice as high as minoxidil in an ex vivo assay, and a placebo-controlled trial in volunteers with Norwood grade 3 to 4 alopecia that reported up to 17% more hair over 84 days. The article does not give sample sizes or independent verification [2].",
+  "Independent published work on EGCG-glucoside itself is biochemical. A 2012 laboratory study found that EGCG and EGCG-G1 both inhibited the human intestinal enzyme maltase, with IC50 values of about 20 and 31.5 micromolar [1]. A multi-ingredient Redensyl serum has been tested in a cosmetic clinical evaluation, so effects cannot be assigned to this component alone [3]."
  ],
+ "angle": {
+  "goal": "Hair density",
+  "chain": [
+   "EGCG-glucoside is applied to the scalp inside a Redensyl serum",
+   "Developer materials say it calms scalp inflammation and supports follicle stem cells",
+   "The aim is thicker-looking hair with less shedding"
+  ],
+  "effect": "claimed",
+  "text": "EGCG-glucoside is used as one of two actives in Redensyl scalp serums aimed at fuller hair. The follicle-activation and anti-inflammatory mechanisms come from the developer's materials, and independent human data on the compound alone have not been published [2]."
+ },
  "infobox": [
   [
    "Parent compound",
-   "EGCG (green tea catechin)"
+   "EGCG, green tea catechin [4]"
   ],
   [
-   "Aka",
-   "EGCG2, EGCG-G1"
+   "Also known as",
+   "EGCG2, EGCG-G1 [1][2]"
   ],
   [
    "Marketed as",
-   "Component of Redensyl (cosmetic)"
+   "Component of Redensyl, a cosmetic hair ingredient [2]"
+  ],
+  [
+   "Developer of Redensyl",
+   "Induchem [2]"
+  ],
+  [
+   "Pair component",
+   "Dihydroquercetin-glucoside (DHQG) from larch [2]"
   ]
  ],
  "sections": [
   {
-   "h": "Clinical studies",
+   "h": "Uses",
    "paras": [
-    "No studies found for EGCG-glucoside alone in hair or any human outcome. A multi-ingredient Redensyl serum has been tested in a small cosmetic study, so effects cannot be assigned to this component.[3]"
+    "EGCG-glucoside appears in cosmetic hair-growth serums as part of Redensyl, together with DHQG, glycine and zinc [2]. In the developer's description, DHQG acts on outer root sheath stem cells and EGCG2 on inflammation [2]."
+   ]
+  },
+  {
+   "h": "Redensyl claims",
+   "paras": [
+    "A 2014 feature in Cosmetics Business, drawn from Induchem's materials, reports that Redensyl activates bulge stem cells and pushes them toward anagen, protects them from cell death, boosts dermal papilla fibroblast metabolism and reduces scalp inflammation. It reports up to 17% more hair, 9% more anagen hair and 17% fewer falling hairs over 84 days in a double-blind placebo-controlled trial, with 85% of volunteers showing visible growth [2]. These figures are the developer's and the article does not include the underlying data."
    ]
   },
   {
    "h": "Background on EGCG",
    "paras": [
-    "EGCG is the most abundant catechin in tea and is poorly absorbed orally. Excessive intake has been linked to liver toxicity, and the EFSA stated in 2018 that intakes of 800 mg or more daily could raise liver risk; the FDA has issued warning letters to supplement makers over disease claims.[2] These points concern oral EGCG, not topical cosmetic use."
+    "EGCG is the most abundant catechin in tea and is poorly absorbed orally. Excessive oral intake has been linked to liver toxicity, the European Food Safety Authority stated in 2018 that intakes of 800 mg or more daily could raise liver risk, and the FDA has issued warning letters to supplement makers over disease claims [4]. These points concern oral EGCG, not topical cosmetic use."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found for EGCG-glucoside alone on hair or any human outcome. A 2012 in vitro study showed that EGCG and EGCG-G1 inhibit human intestinal maltase, an enzyme studied in relation to type 2 diabetes [1]. A multi-ingredient Redensyl serum has been evaluated in a cosmetic study in healthy women [3]."
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "2014",
+   "event": "Cosmetics Business publishes a feature describing Redensyl, which contains EGCG2 and DHQG. [2]"
+  }
+ ],
  "lore": null,
  "refs": [
   {
@@ -45,11 +81,11 @@
   },
   {
    "id": 2,
-   "title": "Epigallocatechin gallate",
-   "url": "https://en.wikipedia.org/wiki/Epigallocatechin_gallate",
-   "source": "Wikipedia",
-   "year": 2025,
-   "type": "encyclopedia"
+   "title": "Redensyl - the hair growth galvanizer",
+   "url": "https://cosmeticsbusiness.com/redensyl-the-hair-growth-galvanizer-96717",
+   "source": "Cosmetics Business",
+   "year": 2014,
+   "type": "news"
   },
   {
    "id": 3,
@@ -58,12 +94,24 @@
    "source": "Cureus",
    "year": 2025,
    "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Epigallocatechin gallate",
+   "url": "https://en.wikipedia.org/wiki/Epigallocatechin_gallate",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
   }
  ],
  "webSources": [
   {
+   "url": "https://cosmeticsbusiness.com/redensyl-the-hair-growth-galvanizer-96717",
+   "title": "Redensyl - the hair growth galvanizer"
+  },
+  {
    "url": "https://en.wikipedia.org/wiki/Epigallocatechin_gallate",
-   "title": "Epigallocatechin gallate - Wikipedia"
+   "title": "Epigallocatechin gallate"
   }
  ],
  "card": {

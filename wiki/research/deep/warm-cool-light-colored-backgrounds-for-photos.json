@@ -1,8 +1,21 @@
 {
  "name": "Warm / cool light & colored backgrounds for photos",
+ "card": {
+  "summary": "Matching warm or cool light and background color to your eyes and skin so they look more vivid in photos.",
+  "aka": null,
+  "evidence": "limited",
+  "risk": "low",
+  "note": null
+ },
+ "quick": {
+  "overview": "Background and light color change how eyes and skin look on camera. People pick tones opposite their eye color, or neutral ones, to make features stand out.\n\nCommon pairs are blue and orange, red and green, and yellow and purple.",
+  "mechanism": "Complementary contrast raises the apparent saturation of the feature against its surroundings, while neutral backgrounds leave the subject's own colors dominant.",
+  "risks": "No health risks. Results vary with lighting, camera and editing."
+ },
  "lead": [
-  "Warm and cool light and colored backgrounds are a photo-styling practice in which people choose the tones around them to make their features, especially eye color and skin, look more vivid. The idea draws on complementary colors: blue-orange, red-green and purple-yellow pairs [1].",
-  "Photography guides suggest placing a subject against a color opposite their clothing or features, or using neutral and muted surroundings so the subject's own colors stand out [1]. Community posts apply the same idea to eye color, for example warm tones against blue eyes."
+  "Warm and cool light and colored backgrounds are a photo-styling practice in which people choose the tones around them so that their eyes, skin and hair read as more vivid on camera. The idea draws on complementary colors: blue-orange, red-green and purple-yellow pairs.[1]",
+  "Photography guides suggest placing a subject against a color opposite their clothing or features, or using neutral and muted surroundings so the subject's own colors stand out.[1] Shotkit's headshot guide, for example, says a bright background can be chosen to match the subject's eye color, hair color, skin tones or outfit so the subject pops, and describes grey as a neutral option suited to many subjects.[3] Community posts apply the same idea to eye color, such as warm tones against blue eyes.",
+  "Light itself has color. Low color temperatures (roughly 2,700 to 3,000 K, such as soft-white bulbs) look yellowish or warm, and high ones (above about 5,000 K, such as overcast daylight) look bluish or cool, and cameras use white balance to decide what counts as neutral.[2]"
  ],
  "angle": {
   "goal": "Photo presentation / eye color",
@@ -24,6 +37,14 @@
    "Complementary colors"
   ],
   [
+   "Warm light",
+   "About 2,700-3,000 K, yellowish[2]"
+  ],
+  [
+   "Cool light",
+   "Above about 5,000 K, bluish[2]"
+  ],
+  [
    "Cost",
    "Free to low (wall, backdrop, clothing)"
   ]
@@ -32,13 +53,20 @@
   {
    "h": "Description",
    "paras": [
-    "Warm light (golden, orange-leaning) and cool light (blue-leaning) change how skin and eyes render. Colored backgrounds add contrast or harmony. Guides list complementary pairs as red and green, orange and blue, and purple and yellow [1]."
+    "Warm light (golden, orange-leaning) and cool light (blue-leaning) change how skin and eyes render. Colored backgrounds add contrast or harmony. Guides list complementary pairs as red and green, orange and blue, and purple and yellow.[1]",
+    "Photographers also note that a color cast from mismatched light can be corrected with white balance settings or colored filters, and that the kelvin scale is counterintuitive because hotter, bluer light has the higher number.[2]"
+   ]
+  },
+  {
+   "h": "Matching background to features",
+   "paras": [
+    "Headshot guides recommend picking a backdrop from the subject's eye, hair or skin colors, or using a color wheel to build a complementary or monochrome palette.[3] One guide cautions that a bright background should not distract from the subject, and suggests a rim light to separate dark hair or clothing from a black backdrop.[3]"
    ]
   },
   {
    "h": "Use in looksmaxxing",
    "paras": [
-    "Practitioners match background or light to eye color, such as warm tones for blue eyes or red-undertone shades for green eyes, and use neutral backdrops when they want colors in the subject to dominate [1]."
+    "Practitioners match background or light to eye color, such as warm tones for blue eyes or red-undertone shades for green eyes, and use neutral backdrops when they want colors in the subject to dominate.[1] Because the color of light and surroundings changes how skin and eyes appear, people also compare photos taken in different settings when choosing their profile pictures."
    ]
   },
   {
@@ -58,24 +86,36 @@
    "source": "Digital Photography School",
    "year": 2020,
    "type": "news"
+  },
+  {
+   "id": 2,
+   "title": "Color temperature",
+   "url": "https://en.wikipedia.org/wiki/Color_temperature",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Headshot Background guide",
+   "url": "https://shotkit.com/headshot-background/",
+   "source": "Shotkit",
+   "year": 2024,
+   "type": "news"
   }
  ],
  "webSources": [
   {
    "url": "https://digital-photography-school.com/make-colors-pop-portraits-without-using-photoshop",
    "title": "How to Make Colors Pop in Your Portraits"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Color_temperature",
+   "title": "Color temperature (Wikipedia)"
+  },
+  {
+   "url": "https://shotkit.com/headshot-background/",
+   "title": "Headshot Background guide (Shotkit)"
   }
- ],
- "card": {
-  "summary": "Matching warm or cool light and background color to your eyes and skin so they look more vivid in photos.",
-  "aka": null,
-  "evidence": "limited",
-  "risk": "low",
-  "note": null
- },
- "quick": {
-  "overview": "Background and light color change how eyes and skin look on camera. People pick tones opposite their eye color, or neutral ones, to make features stand out.\n\nCommon pairs are blue and orange, red and green, and yellow and purple.",
-  "mechanism": "Complementary contrast raises the apparent saturation of the feature against its surroundings, while neutral backgrounds leave the subject's own colors dominant.",
-  "risks": "No health risks. Results vary with lighting, camera and editing."
- }
+ ]
 }

@@ -1,61 +1,91 @@
 {
- "name": "Tripeptide-3",
- "lead": [
-  "Tripeptide-3 is an INCI name for a short synthetic peptide used in cosmetics, including products aimed at reducing facial oiliness. Little is published about it under this name.",
-  "A 2024 pharmaceutics study developed nanoemulsions to deliver Tripeptide-3 to the skin and reported that, in healthy volunteers over 28 days, the formulation decreased sebum production and increased skin moisture [1]."
- ],
- "infobox": [
-  [
-   "Type",
-   "Cosmetic peptide"
-  ],
-  [
-   "Route",
-   "Topical"
-  ],
-  [
-   "Claimed use",
-   "Oil (sebum) control"
-  ]
- ],
- "sections": [
-  {
-   "h": "Uses",
-   "paras": [
-    "The cosmetic use examined in the literature is control of excess facial sebum, with the peptide delivered in emulsion-based products [1]."
-   ]
+  "name": "Tripeptide-3",
+  "card": {
+    "summary": "A cosmetic peptide marketed for oil control, with one small 2024 delivery study as its published evidence.",
+    "aka": null,
+    "evidence": "limited",
+    "status": "otc",
+    "note": "Little published under this name.",
+    "structure": null
   },
-  {
-   "h": "Clinical studies",
-   "paras": [
-    "The 2024 study combined formulation development with a test in healthy volunteers. It tested the nanoemulsion for skin irritation and oil-control over 28 days and reported reduced sebum and improved moisture [1]. The abstract does not describe a placebo-controlled design, and the study concerns the delivery system as much as the peptide itself."
-   ]
-  }
- ],
- "timeline": [],
- "lore": null,
- "refs": [
-  {
-   "id": 1,
-   "title": "Microemulsions and Nanoemulsions for Topical Delivery of Tripeptide-3: From Design of Experiment to Anti-Sebum Efficacy on Facial Skin",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/38675215/",
-   "source": "Pharmaceutics",
-   "year": 2024,
-   "type": "study"
-  }
- ],
- "webSources": [],
- "card": {
-  "summary": "A cosmetic peptide marketed for oil control, with one small 2024 delivery study as its published evidence.",
-  "aka": null,
-  "evidence": "limited",
-  "status": "otc",
-  "note": "Little published under this name.",
-  "structure": null
- },
- "quick": {
-  "overview": "Tripeptide-3 is a cosmetic peptide listed in peptide ingredient guides. The one study found describes nanoemulsions carrying it to reduce facial oil.\n\nVolunteers in that study showed lower sebum and higher moisture over 28 days.",
-  "mechanism": "The study focused on how to get the hydrophilic peptide into skin; the mechanism by which it affects sebum is not described in the abstract.",
-  "risks": "The study included an irritation assessment, but details are limited. No wider safety literature was found."
- }
+  "quick": {
+    "overview": "Tripeptide-3 is a cosmetic peptide listed in peptide ingredient guides. The one study found describes nanoemulsions carrying it to reduce facial oil.\n\nVolunteers in that study showed lower sebum and higher moisture over 28 days.",
+    "mechanism": "The study focused on how to get the hydrophilic peptide into skin; the mechanism by which it affects sebum is not described in the abstract.",
+    "risks": "The study included an irritation assessment, but details are limited. No wider safety literature was found."
+  },
+  "lead": [
+    "Tripeptide-3 is the ingredient-list name for a short synthetic peptide used in cosmetics, including products aimed at reducing facial oiliness. People use sebum-control skincare to make the skin look matte and less shiny, which also helps makeup sit better and pores look less congested.",
+    "A 2024 study in Pharmaceutics developed microemulsions and nanoemulsions to carry hydrophilic Tripeptide-3 into facial skin. The researchers optimised the formulation (droplet size about 25.7 nm) and reported that, in healthy volunteers over 28 days, the nanoemulsion decreased sebum production and increased skin moisture [1].",
+    "Most other PubMed results for the term describe unrelated tripeptides in chemistry or pharmacology papers, so the cosmetic literature under this name is small."
+  ],
+  "angle": {
+    "goal": "Skin (oil control)",
+    "chain": [
+      "Peptide delivered to facial skin in an emulsion",
+      "Studied for reducing sebum on the face",
+      "Less shine and a more matte complexion"
+    ],
+    "effect": "claimed",
+    "text": "Tripeptide-3 products are used on the face by people who want less visible oil through the day. The one cosmetic study available reports lower sebum and better hydration over four weeks with its test formulation."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Cosmetic peptide (INCI name)"
+    ],
+    [
+      "Route",
+      "Topical"
+    ],
+    [
+      "Claimed use",
+      "Facial oil (sebum) control"
+    ],
+    [
+      "Formulation studied",
+      "Micro- and nanoemulsions"
+    ],
+    [
+      "Study duration",
+      "28 days in volunteers [1]"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Uses",
+      "paras": [
+        "The cosmetic use examined in the literature is control of excess facial sebum, with the peptide delivered in emulsion-based products [1]. Oil-control products are typically used on the T-zone and cheeks by people with oily or shiny skin."
+      ]
+    },
+    {
+      "h": "Formulation research",
+      "paras": [
+        "Because Tripeptide-3 is hydrophilic, getting it into skin is a formulation problem. The 2024 study used a surfactant and co-surfactant system, a water titration method and a factorial design of experiments to find compositions that formed clear oil-in-water nanoemulsions, then reported higher skin permeation in vitro [1]."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "The 2024 study combined formulation development with a test in healthy volunteers. It evaluated the nanoemulsion for skin irritation and for oil control over 28 days and reported reduced sebum and improved moisture [1]. The abstract does not describe a placebo-controlled design, and the work focuses on the delivery system as well as the peptide itself. No other human studies under this name were identified."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2024",
+      "event": "Pharmaceutics study reports Tripeptide-3 nanoemulsions reducing facial sebum in volunteers [1]."
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Microemulsions and Nanoemulsions for Topical Delivery of Tripeptide-3: From Design of Experiment to Anti-Sebum Efficacy on Facial Skin",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38675215/",
+      "source": "Pharmaceutics",
+      "year": 2024,
+      "type": "study"
+    }
+  ],
+  "webSources": []
 }

@@ -1,51 +1,100 @@
 {
-  "name": "Castor oil eye drops",
-  "card": {
-    "summary": "A folk practice of putting castor oil in the eyes for clarity or brightness; no studies of raw oil for this exist.",
-    "aka": "Castor oil in the eyes",
-    "evidence": "unproven",
-    "risk": "moderate",
-    "status": null,
-    "outcome": null,
-    "price": null,
-    "note": "Distinct from manufactured ophthalmic products; no published studies on unformulated castor oil for eye appearance.",
-    "structure": null
-  },
-  "quick": {
-    "overview": "Placing castor oil in the eyes is a folk practice sometimes said to soothe, clear or brighten them. It is distinct from regulated ophthalmic lubricant products, which are formulated and sterile.\n\nThe sources reviewed describe castor oil as an industrial and traditional-medicine oil and contain no information on its use as eye drops.",
-    "mechanism": "Believers describe a lubricating or soothing effect. Castor oil is mostly ricinoleate fatty acids; the sources reviewed describe no tested mechanism for eye appearance.",
-    "risks": "Unformulated oil is not a sterile ophthalmic product. Encyclopedic sources note castor oil is sometimes claimed to treat diseases without supporting evidence, and note its oral laxative effects; ocular safety of raw oil is not covered by sources reviewed."
-  },
-  "lead": [
-    "Castor oil eye drops is a folk practice in which oil pressed from the seeds of Ricinus communis is placed in the eyes, with claims of soothing or brightening them. No published study of unformulated castor oil for this purpose was found.",
-    "Castor oil is about 90% ricinoleate fatty acids. It is produced mainly for industrial uses, has long served as a laxative, appears in cosmetics, and is used as a vehicle for some injected hormones. Encyclopedic sources note that it is sometimes claimed to cure diseases without supporting evidence [1]."
+ "name": "Castor oil eye drops",
+ "lead": [
+  "Castor oil eye drops is a folk practice in which oil pressed from the seeds of Ricinus communis is placed in or around the eyes, with claims of soothing irritation and giving the eyes a brighter, clearer look. It is part of a wider set of home beauty uses of castor oil, which already appears in cosmetics and skin creams.",
+  "Castor oil is about 90 percent ricinoleate fatty acids, and the seeds are 40 to 60 percent oil [1]. It is produced mainly for industrial uses, has long served as a laxative, appears in cosmetic products including creams and moisturisers, and is used as a vehicle for some injected hormones [1]. Encyclopedic sources note that it is sometimes claimed to cure diseases without supporting evidence [1].",
+  "No published study of unformulated castor oil placed in the eye for appearance was found, and the encyclopedic source on castor oil does not describe ocular use."
+ ],
+ "angle": {
+  "goal": "Eyes",
+  "chain": [
+   "Oil placed on the eye surface",
+   "Claimed soothing and lubrication",
+   "Eyes that look brighter and less irritated"
   ],
-  "infobox": [
-    ["Type", "Folk practice"],
-    ["Substance", "Castor oil (Ricinus communis)"],
-    ["Route", "Topical, ocular"],
-    ["Studied in trials", "No"]
+  "effect": "claimed",
+  "text": "Practitioners use the oil hoping for clearer, less irritated-looking eyes. The claim rests on castor oil's use as an emollient in skin products rather than on any study of eye application."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Folk practice"
   ],
-  "sections": [
-    {
-      "h": "Background on castor oil",
-      "paras": [
-        "The seeds are 40 to 60 percent oil. The seeds contain ricin, a toxic lectin deactivated by heating during oil extraction [1]. The oil has been used as a laxative since at least the Ebers Papyrus, though modern sources describe it as medically discouraged for simple constipation because it can cause violent diarrhoea [1]."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found."
-      ]
-    }
+  [
+   "Substance",
+   "Castor oil (Ricinus communis)"
   ],
-  "timeline": [],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Castor oil", "url": "https://en.wikipedia.org/wiki/Castor_oil", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" }
+  [
+   "Route",
+   "Topical, ocular"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Castor_oil", "title": "Castor oil - Wikipedia" }
+  [
+   "Main component",
+   "Ricinoleic acid (about 90% of fatty acids)"
+  ],
+  [
+   "Studied in trials for this use",
+   "No"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Background on castor oil",
+   "paras": [
+    "The seeds contain ricin, a toxic lectin that is deactivated by heating during oil extraction [1]. The oil has been used as a laxative since at least the Ebers Papyrus, though modern sources describe it as medically discouraged for simple constipation because it can cause violent diarrhoea [1]. Taken orally it commonly causes nausea, vomiting and diarrhoea [1]."
+   ]
+  },
+  {
+   "h": "Cosmetic uses",
+   "paras": [
+    "Castor oil is used in cosmetic products, including creams, and as a moisturiser; it is often combined with zinc oxide into an emollient cream commonly used on infants for nappy rash, and hydrogenated castor oil is used in personal-care products [1]. Ricinoleic acid, the main fatty acid, carries a hydroxyl group that makes it more polar than most fatty acids [1]. These uses concern skin, not the eye surface."
+   ]
+  },
+  {
+   "h": "Safety",
+   "paras": [
+    "A 2008 reference cited by Wikipedia advises that pregnant women before term should not ingest or apply castor oil topically, and data for nursing mothers are lacking [1]. The American Cancer Society states that evidence does not support claims that skin application cures cancer or other diseases [1]. No safety data specific to eye application were found."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found."
+   ]
+  }
+ ],
+ "timeline": [],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Castor oil",
+   "url": "https://en.wikipedia.org/wiki/Castor_oil",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Castor_oil",
+   "title": "Castor oil"
+  }
+ ],
+ "card": {
+  "summary": "A folk practice of putting castor oil in the eyes for clarity or brightness; no studies of raw oil for this exist.",
+  "aka": "Castor oil in the eyes",
+  "evidence": "unproven",
+  "risk": "moderate",
+  "status": null,
+  "outcome": null,
+  "price": null,
+  "note": "Distinct from manufactured ophthalmic products; no published studies on unformulated castor oil for eye appearance.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Placing castor oil in the eyes is a folk practice sometimes said to soothe, clear or brighten them. It is distinct from regulated ophthalmic lubricant products, which are formulated and sterile.\n\nThe sources reviewed describe castor oil as an industrial and traditional-medicine oil and contain no information on its use as eye drops.",
+  "mechanism": "Believers describe a lubricating or soothing effect. Castor oil is mostly ricinoleate fatty acids; the sources reviewed describe no tested mechanism for eye appearance.",
+  "risks": "Unformulated oil is not a sterile ophthalmic product. Encyclopedic sources note castor oil is sometimes claimed to treat diseases without supporting evidence, and note its oral laxative effects; ocular safety of raw oil is not covered by sources reviewed."
+ }
 }

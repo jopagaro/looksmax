@@ -1,10 +1,20 @@
 {
- "name": "ARO-INHBE",
  "lead": [
-  "ARO-INHBE is an investigational RNA interference (RNAi) therapy aimed at the INHBE gene, which encodes a liver-derived protein involved in fat distribution. It is being tested in people with obesity, with and without type 2 diabetes, and in a planned trial in metabolic dysfunction-associated steatohepatitis (MASH). It is not approved for any use anywhere.[1][2]",
-  "The only public information about the compound is its clinical trial registrations. A first-in-human Phase 1/2 study in adults with obesity began in December 2024 and is active but no longer recruiting, with an enrollment of 190.[1] A Phase 2 MASH trial of 252 adults is registered as not yet recruiting, with a start date of September 2026.[2] No results have been posted in the sources reviewed.",
-  "Interest in INHBE-targeting drugs in appearance communities centres on the idea of reducing fat while preserving muscle, a theme discussed for other drugs in the same class. No published human data on ARO-INHBE show whether it does this."
+  "ARO-INHBE is an investigational RNA interference (RNAi) therapy aimed at the INHBE gene, which encodes a liver-produced protein involved in how the body distributes fat. It is being tested in people with obesity, with and without type 2 diabetes, and a trial in metabolic dysfunction-associated steatohepatitis (MASH) is planned. It is not approved for any use anywhere.[1][2]",
+  "The appeal for people interested in body composition is the idea of lowering fat, especially fat stored around the abdomen and organs, while leaving muscle intact, so that the result is a leaner look rather than general weight loss. Whether ARO-INHBE does this in people has not been reported, and the trials are early.[1]",
+  "The only public information located about the compound is its clinical trial registrations. A first-in-human Phase 1/2 study in adults with obesity began on 4 December 2024 and is active but no longer recruiting, with an enrollment of 190.[1] A Phase 2 MASH trial of 252 adults is registered as not yet recruiting, with a start date of September 2026.[2] Its name follows the ARO- convention used for RNAi candidates in the pipeline of Arrowhead Pharmaceuticals, a Pasadena-based company whose pipeline Wikipedia lists as built on RNAi.[3]"
  ],
+ "angle": {
+  "goal": "Fat loss / body composition",
+  "chain": [
+   "siRNA silences INHBE in the liver",
+   "Proposed change in how fat is stored and distributed",
+   "Less fat with muscle preserved",
+   "Leaner appearance"
+  ],
+  "effect": "claimed",
+  "text": "The therapeutic idea is that lowering INHBE activity changes fat distribution and reduces fat mass, which would make people look leaner. Human results for ARO-INHBE have not been published."
+ },
  "infobox": [
   [
    "Drug class",
@@ -19,21 +29,35 @@
    "Obesity; MASH"
   ],
   [
+   "Route",
+   "Not reported in registrations"
+  ],
+  [
    "First-in-human trial start",
    "December 2024[1]"
+  ],
+  [
+   "Legal status",
+   "Not approved anywhere"
   ]
  ],
  "sections": [
   {
+   "h": "Pharmacology",
+   "paras": [
+    "RNAi is a natural gene-silencing process. In therapeutic use, short interfering RNA (siRNA) is delivered to cells, loads into the RNA-induced silencing complex and directs it to cut the matching messenger RNA, so the target protein is not made.[4] All RNAi drugs approved so far address diseases that originate in the liver, using delivery approaches such as GalNAc conjugates or lipid nanoparticles; examples listed on Wikipedia include givosiran, lumasiran, vutrisiran and inclisiran.[4] ARO-INHBE is described in its registrations as targeting INHBE, a liver-expressed gene tied to fat distribution.[1]"
+   ]
+  },
+  {
    "h": "Clinical studies",
    "paras": [
-    "One Phase 1/2 first-in-human trial (NCT06700538) is registered in adults with obesity with or without type 2 diabetes, with 190 participants; it started on 4 December 2024 and its status is active, not recruiting.[1] A Phase 2 trial (NCT07859813) in adults with MASH, planned for 252 participants and a September 2026 start, is registered as not yet recruiting.[2] No peer-reviewed results have been identified in the sources reviewed."
+    "One Phase 1/2 first-in-human trial (NCT06700538) is registered in adults with obesity with or without type 2 diabetes, with 190 participants; it started on 4 December 2024 and its status is active, not recruiting.[1] A Phase 2 trial (NCT07859813) in adults with MASH, planned for 252 participants and a September 2026 start, is registered as not yet recruiting.[2] No peer-reviewed results have been identified."
    ]
   },
   {
    "h": "Research",
    "paras": [
-    "The registered programme spans obesity and a liver disease indication, indicating that the developer is exploring more than one use. Whether the compound changes fat distribution, body weight or liver fat in humans has not been reported in the sources reviewed.[1][2]"
+    "The registered programme spans obesity and a liver disease indication, indicating that the developer is exploring more than one use. Whether the compound changes fat distribution, body weight or liver fat in humans has not been reported.[1][2]"
    ]
   }
  ],
@@ -64,9 +88,35 @@
    "source": "ClinicalTrials.gov",
    "year": 2026,
    "type": "trial"
+  },
+  {
+   "id": 3,
+   "title": "Arrowhead Pharmaceuticals",
+   "url": "https://en.wikipedia.org/wiki/Arrowhead_Pharmaceuticals",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "RNA interference",
+   "url": "https://en.wikipedia.org/wiki/RNA_interference",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
   }
  ],
- "webSources": [],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Arrowhead_Pharmaceuticals",
+   "title": "Arrowhead Pharmaceuticals"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/RNA_interference",
+   "title": "RNA interference"
+  }
+ ],
+ "name": "ARO-INHBE",
  "card": {
   "summary": "An experimental RNAi drug against INHBE aimed at fat distribution; only early trial registrations exist so far.",
   "aka": null,

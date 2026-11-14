@@ -1,18 +1,123 @@
 {
-"name":"AHK-Cu",
-"lead":["AHK-Cu is a copper complex of the tripeptide alanyl-histidyl-lysine, also called copper tripeptide-3. It is marketed in hair-care products and discussed in appearance circles as a hair-growth ingredient, in the way the related GHK-Cu is discussed for skin [1].",
-"Published evidence is limited to a laboratory study on cultured human hair follicle cells. No human trial of AHK-Cu for hair growth was found."],
-"infobox":[["Type","Copper-peptide complex"],["Also known as","Copper tripeptide-3"],["Route","Topical (cosmetic products)"],["Claimed use","Hair growth"],["Status","Cosmetic ingredient / research"]],
-"sections":[
-{"h":"Description","paras":["AHK-Cu is related to GHK-Cu, a copper complex of glycyl-histidyl-lysine first isolated from human plasma by Loren Pickart in the 1970s and used in cosmetics under the name copper tripeptide-1. The Wikipedia article on GHK-Cu mentions AHK-Cu only as a related topic and gives no description of it."]},
-{"h":"Laboratory research","paras":["A 2007 in vitro study reported that a tripeptide-copper complex stimulated proliferation of dermal fibroblasts and raised production of vascular endothelial growth factor while reducing secretion of transforming growth factor-beta1, and examined effects on human dermal papilla cells and hair growth in culture [1]."]},
-{"h":"Clinical studies","paras":["No studies found. A registered early phase 1 trial of systemic and topical interventions assessed with aging clocks (NCT07888595) was listed as enrolling by invitation; its relevance to hair outcomes is not established [2]."]}],
-"timeline":[],
-"lore":null,
-"refs":[
-{"id":1,"title":"The effect of tripeptide-copper complex on human hair growth in vitro","url":"https://pubmed.ncbi.nlm.nih.gov/17703734/","source":"Archives of Pharmacal Research","year":2007,"type":"study"},
-{"id":2,"title":"Systemic and Topical Geroprotective Rejuvenation Assessed by START/REST Aging Clocks (NCT07888595)","url":"https://clinicaltrials.gov/study/NCT07888595","source":"ClinicalTrials.gov","year":2026,"type":"trial"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Copper_peptide_GHK-Cu","title":"Copper peptide GHK-Cu (Wikipedia)"}],
-"card":{"summary":"A copper tripeptide marketed for hair growth, backed so far only by cell-culture research.","aka":"Copper tripeptide-3","evidence":"unproven","status":"research","note":"No human hair-growth trial found.","structure":null},
-"quick":{"overview":"AHK-Cu is a copper-bound three-amino-acid peptide sold in hair products and related to the better-known GHK-Cu.\n\nThe main published work is a lab study on cultured follicle cells. Human results are not available.","mechanism":"In cell culture, a tripeptide-copper complex was reported to boost fibroblast growth and VEGF, and to act on dermal papilla cells, the cells that steer hair follicle growth.","risks":"No human safety or efficacy data specific to AHK-Cu were found."}
+  "name": "AHK-Cu",
+  "lead": [
+    "AHK-Cu is a copper complex of the tripeptide alanyl-histidyl-lysine, also called copper tripeptide-3. It is marketed in hair-care products and discussed in appearance circles as a hair-growth ingredient, with the aim of keeping or thickening hair on the scalp so the hairline and density look fuller, in the way the related GHK-Cu is discussed for skin and hair.[1][3]",
+    "The published research is a 2007 study in Archives of Pharmacal Research in which AHK-Cu at very low concentrations (10 to the minus 12 to minus 9 molar) stimulated elongation of human hair follicles ex vivo and proliferation of cultured dermal papilla cells. At the highest concentration, markers of cell death pointed in the direction of fewer apoptotic papilla cells, although the reduction in apoptotic cell counts was not statistically significant. The authors proposed that AHK-Cu promotes follicle growth by stimulating papilla cell proliferation and limiting apoptosis.[1] No human trial of AHK-Cu for hair growth was found."
+  ],
+  "infobox": [
+    [
+      "Type",
+      "Copper-peptide complex"
+    ],
+    [
+      "Also known as",
+      "Copper tripeptide-3; L-alanyl-L-histidyl-L-lysine-Cu2+ [1]"
+    ],
+    [
+      "Route",
+      "Topical (cosmetic products)"
+    ],
+    [
+      "Claimed use",
+      "Hair growth"
+    ],
+    [
+      "Related compound",
+      "GHK-Cu (copper tripeptide-1) [3]"
+    ],
+    [
+      "Status",
+      "Cosmetic ingredient / research"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Description",
+      "paras": [
+        "AHK-Cu is related to GHK-Cu, a copper complex of glycyl-histidyl-lysine that Loren Pickart (1938-2023) is credited with isolating from human plasma albumin in 1973; the factor was identified as glycyl-L-histidyl-L-lysine in 1977.[3] GHK-Cu is widely used in anti-aging and hair-loss-prevention products as copper tripeptide-1; Wikipedia describes controlled facial studies reporting anti-aging, firming and anti-wrinkle effects, but with small samples and short durations.[3] Wikipedia's GHK-Cu article lists AHK-Cu only as a related topic and gives no description of it.[3]"
+      ]
+    },
+    {
+      "h": "Laboratory research",
+      "paras": [
+        "The 2007 study evaluated L-alanyl-L-histidyl-L-lysine-Cu2+ on human hair growth ex vivo and on cultured dermal papilla cells. Dermal papilla cells are specialised fibroblasts important in hair follicle morphogenesis and growth. AHK-Cu stimulated elongation of human hair follicles ex vivo and proliferation of the papilla cells, and at the highest concentration raised the Bcl-2/Bax ratio and lowered levels of cleaved caspase-3 and PARP, changes the authors read as limiting apoptosis.[1] The study's introduction notes that tripeptide-copper complexes stimulate dermal fibroblast proliferation and raise vascular endothelial growth factor production while lowering transforming growth factor-beta1 secretion.[1]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No human trials of AHK-Cu for hair were found. The published evidence is the 2007 ex vivo and cell-culture study described above.[1] A registered early phase 1 trial of systemic and topical interventions assessed with aging clocks (NCT07888595) was listed as enrolling by invitation; its relevance to hair outcomes is not established.[2]"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1973",
+      "event": "Loren Pickart isolates GHK-Cu from human plasma albumin.[3]"
+    },
+    {
+      "year": "1977",
+      "event": "The factor is identified as glycyl-L-histidyl-L-lysine.[3]"
+    },
+    {
+      "year": "2007",
+      "event": "Ex vivo and cell-culture study reports AHK-Cu stimulates hair follicle elongation and papilla cell proliferation.[1]"
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "The effect of tripeptide-copper complex on human hair growth in vitro",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17703734/",
+      "source": "Archives of Pharmacal Research",
+      "year": 2007,
+      "type": "study"
+    },
+    {
+      "id": 2,
+      "title": "Systemic and Topical Geroprotective Rejuvenation Assessed by START/REST Aging Clocks (NCT07888595)",
+      "url": "https://clinicaltrials.gov/study/NCT07888595",
+      "source": "ClinicalTrials.gov",
+      "year": 2026,
+      "type": "trial"
+    },
+    {
+      "id": 3,
+      "title": "Copper peptide GHK-Cu (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Copper_peptide_GHK-Cu",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Copper_peptide_GHK-Cu",
+      "title": "Copper peptide GHK-Cu (Wikipedia)"
+    }
+  ],
+  "card": {
+    "summary": "A copper tripeptide marketed for hair growth, backed so far only by cell-culture research.",
+    "aka": "Copper tripeptide-3",
+    "evidence": "unproven",
+    "status": "research",
+    "note": "No human hair-growth trial found.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "AHK-Cu is a copper-bound three-amino-acid peptide sold in hair products and related to the better-known GHK-Cu.\n\nThe main published work is a lab study on cultured follicle cells. Human results are not available.",
+    "mechanism": "In cell culture, a tripeptide-copper complex was reported to boost fibroblast growth and VEGF, and to act on dermal papilla cells, the cells that steer hair follicle growth.",
+    "risks": "No human safety or efficacy data specific to AHK-Cu were found."
+  },
+  "angle": {
+    "goal": "Hair",
+    "chain": [
+      "Topical copper tripeptide reaches the scalp",
+      "In lab work it stimulates dermal papilla cells and follicle elongation",
+      "Claimed outcome: more hair growth and fuller-looking hair"
+    ],
+    "effect": "claimed",
+    "text": "AHK-Cu is used as a topical cosmetic ingredient aimed at hair growth. The rationale comes from cell and follicle-culture work in which it stimulated dermal papilla cells, the cells that steer hair follicle growth."
+  }
 }

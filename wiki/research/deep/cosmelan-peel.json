@@ -1,15 +1,119 @@
 {
-"name":"Cosmelan peel",
-"lead":["Cosmelan is a professional depigmenting treatment developed by the Spanish company mesoestetic, marketed for melasma, post-inflammatory hyperpigmentation, solar lentigines and freckles.[1] According to Grokipedia, an AI-generated reference drawing on company material, it has two phases: an in-clinic mask left on for several hours, followed by roughly six months of home cream and sun protection.[1]","The company states it corrects existing spots and regulates melanin production, and is suitable for all phototypes; these are manufacturer claims.[1] No peer-reviewed trials of Cosmelan were found in the sources reviewed."],
-"infobox":[["Type","Depigmenting mask treatment"],["Manufacturer","mesoestetic (Spain)"],["Phases","In-clinic mask, then home maintenance"],["Intended for","Facial hyperpigmentation"]],
-"sections":[
-{"h":"Protocol as described by the manufacturer","paras":["The professional applies the Cosmelan 1 mask, left on for a period set by severity, and the patient later begins a Cosmelan 2 cream regimen supported by barrier-repair products and high-SPF sunscreen. The company says the protocol was revised around 2024 to shorten mask exposure and delay the home phase.[1]"]},
-{"h":"Contraindications","paras":["The manufacturer's consent form lists pregnancy and breastfeeding, product hypersensitivity, current oral isotretinoin, active infection, a history of hypopigmentation such as vitiligo, and open wounds as contraindications, with caution for a history of herpes simplex or keloids.[1]"]},
-{"h":"Clinical studies","paras":["No studies found. The company cites more than one million treatments worldwide, which is a usage figure rather than a study.[1]"]}],
-"timeline":[],
-"lore":null,
-"refs":[{"id":1,"title":"Cosmelan (Grokipedia)","url":"https://grokipedia.com/page/Cosmelan","source":"Grokipedia","year":2025,"type":"encyclopedia"}],
-"webSources":[],
-"card":{"summary":"A mesoestetic depigmenting mask-and-cream protocol for melasma and spots; claims come from the manufacturer and no published trials were found.","aka":"mesoestetic Cosmelan","evidence":"unproven","outcome":null,"risk":"moderate","note":"Rebound pigmentation and irritation are discussed by the company, who stress sun protection; no independent studies found.","structure":null},
-"quick":{"overview":"Cosmelan is a professional depigmentation treatment from mesoestetic: a mask applied in clinic, then months of home cream and sunscreen. It is aimed at melasma and other pigment.\n\nNo published trials were found; information comes from the maker.","mechanism":"The company says it removes existing melanin deposits and regulates melanocyte activity.","risks":"Contraindications listed by the maker include pregnancy, isotretinoin use and vitiligo history; the company stresses sunscreen to avoid rebound pigmentation."}
+  "name": "Cosmelan peel",
+  "lead": [
+    "Cosmelan is a professional depigmenting treatment from the Spanish company mesoestetic, used to even out facial skin tone by lightening melasma, post-inflammatory hyperpigmentation, sun spots (solar lentigines) and freckles. People seek it for a clearer, more uniform complexion when dark patches dominate how the face looks [1].",
+    "According to Grokipedia, an AI-generated reference drawing on company material, the treatment has two phases: an in-clinic mask applied by a trained professional and left on for several hours, followed by about six months of home cream and sun protection [1]. The company says it corrects existing spots and regulates melanin production, and that it suits all phototypes; these are manufacturer claims [1].",
+    "Melasma itself is a chronic, relapsing condition for which dermatology references list topical agents such as hydroquinone, azelaic acid and kojic acid, oral tranexamic acid, chemical peels and lasers, with strict sun protection described as essential [2]. No peer-reviewed trials of Cosmelan were found."
+  ],
+  "angle": {
+    "goal": "Skin tone",
+    "chain": [
+      "Professional depigmenting mask is applied",
+      "Home cream and sun protection continue the regimen",
+      "Dark patches fade and complexion looks more even"
+    ],
+    "effect": "direct",
+    "text": "The treatment is used to lighten brown patches on the face so skin tone looks even. It combines an in-clinic mask with months of home care and sunscreen."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Professional depigmenting protocol"
+    ],
+    [
+      "Developer",
+      "mesoestetic (Spain)"
+    ],
+    [
+      "Phases",
+      "In-clinic mask, then about 6 months of home cream"
+    ],
+    [
+      "Indications (manufacturer)",
+      "Melasma, PIH, solar lentigines, freckles"
+    ],
+    [
+      "Published trials",
+      "None found"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Protocol as described by the manufacturer",
+      "paras": [
+        "A trained professional applies the Cosmelan 1 mask to the face, left on for a period set by severity (described as 6 to 8 hours), and the patient later starts a Cosmelan 2 cream regimen about a week after mask removal, supported by a soothing barrier balm and high-SPF sunscreen. The company says the protocol was revised around 2024 to shorten mask exposure and delay the home phase, and that treatment must be done through authorized centers [1]."
+      ]
+    },
+    {
+      "h": "Melasma background",
+      "paras": [
+        "Melasma causes tan, brown or gray patches, usually on the face. Its cause is thought to involve sun exposure, hormonal influences, genetics and skin irritation, and it is more common in women and in people with darker skin types and sunny climates [2]. It is chronic and relapsing, and even small amounts of sun can bring faded patches back [2].",
+        "Treatments listed include hydroquinone, tretinoin, azelaic acid, cysteamine, kojic acid, alpha arbutin, oral tranexamic acid, chemical peels, microdermabrasion and lasers; combination creams tend to work better than single agents, and treatments can cause irritation, lighter patches or contact dermatitis [2]. Chemical peels in general range from mild alpha hydroxy acid peels to deep phenol-based peels, with deeper peels carrying more risk of complications such as prolonged redness and pigmentary changes [3]."
+      ]
+    },
+    {
+      "h": "Contraindications",
+      "paras": [
+        "The manufacturer's consent form lists pregnancy and breastfeeding, product hypersensitivity, current oral isotretinoin, active infection, a history of hypopigmentation such as vitiligo, and open wounds as contraindications, with caution for a history of herpes simplex or keloids [1]."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found. The company cites more than one million treatments worldwide, which is a usage figure rather than a study [1]."
+      ]
+    }
+  ],
+  "timeline": [],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Cosmelan",
+      "url": "https://grokipedia.com/page/Cosmelan",
+      "source": "Grokipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Melasma",
+      "url": "https://en.wikipedia.org/wiki/Melasma",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "Chemical peel",
+      "url": "https://en.wikipedia.org/wiki/Chemical_peel",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Melasma",
+      "title": "Melasma - Wikipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Chemical_peel",
+      "title": "Chemical peel - Wikipedia"
+    }
+  ],
+  "card": {
+    "summary": "A mesoestetic depigmenting mask-and-cream protocol for melasma and spots; claims come from the manufacturer and no published trials were found.",
+    "aka": "mesoestetic Cosmelan",
+    "evidence": "unproven",
+    "outcome": null,
+    "risk": "moderate",
+    "note": "Rebound pigmentation and irritation are discussed by the company, who stress sun protection; no independent studies found.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "Cosmelan is a professional depigmentation treatment from mesoestetic: a mask applied in clinic, then months of home cream and sunscreen. It is aimed at melasma and other pigment.\n\nNo published trials were found; information comes from the maker.",
+    "mechanism": "The company says it removes existing melanin deposits and regulates melanocyte activity.",
+    "risks": "Contraindications listed by the maker include pregnancy, isotretinoin use and vitiligo history; the company stresses sunscreen to avoid rebound pigmentation."
+  }
 }

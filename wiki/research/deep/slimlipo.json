@@ -1,101 +1,116 @@
 {
- "name": "SlimLipo",
- "lead": [
-  "SlimLipo is a brand of laser lipolysis, a cosmetic procedure that uses laser energy to liquefy small pockets of fat for removal, aimed at body and neck contouring. Laser-assisted liposuction is also called laser lipolysis or \"Smart Lipo,\" and uses laser energy to liquefy fat and to coagulate and tighten skin.[1]",
-  "It is used for contouring areas such as ankles, and general liposuction is the most common cosmetic procedure in the US as of 2015.[1]"
- ],
- "angle": {
-  "goal": "Body",
-  "chain": [
-   "Laser fiber liquefies fat under the skin",
-   "Fat is removed or absorbed",
-   "Slimmer contour with some skin tightening"
+  "name": "SlimLipo",
+  "card": {
+    "summary": "A laser lipolysis procedure that melts stubborn fat and tightens skin for a slimmer contour.",
+    "aka": "laser lipolysis, laser-assisted liposuction",
+    "evidence": "limited",
+    "risk": "moderate",
+    "note": "Surgical procedure with general liposuction risks.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "SlimLipo is a brand of laser lipolysis. A thin laser fiber is placed under the skin to liquefy fat.\n\nPeople use it for contouring small areas and for some skin tightening.",
+    "mechanism": "Laser energy liquefies fat and coagulates tissue, which tightens the overlying skin.",
+    "risks": "As with liposuction generally: bleeding, infection, clots, contour irregularities. Fat can redistribute over months."
+  },
+  "lead": [
+    "SlimLipo is a brand of laser lipolysis, a cosmetic procedure that uses laser energy to liquefy small pockets of fat for removal, aimed at body contouring. People choose it to slim stubborn local areas such as the abdomen, flanks or ankles and to sharpen the outline of the body. Laser-assisted liposuction is also called laser lipolysis or Smart Lipo, and is said to liquefy fat and tighten skin.[1]",
+    "General liposuction removes fat through a thin tube (cannula) with suction and is described as working best for people near a normal weight with good skin elasticity.[1] Wikipedia describes laser-assisted variants as used for ankles, lipedema and debulking, and says liposuction became the most common cosmetic procedure in the US in 2015.[1]"
   ],
-  "effect": "direct",
-  "text": "People use it to reduce stubborn local fat deposits and sharpen contours such as the jawline, waist or flanks."
- },
- "infobox": [
-  [
-   "Type",
-   "Laser-assisted lipolysis"
+  "angle": {
+    "goal": "Body contour",
+    "chain": [
+      "Laser fiber liquefies fat under the skin",
+      "Fat is removed or absorbed",
+      "Slimmer contour with some skin tightening"
+    ],
+    "effect": "direct",
+    "text": "People use it to reduce stubborn local fat deposits and sharpen contours such as the waist, flanks or ankles. Skin tightening is claimed as an added effect of the laser."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Laser-assisted lipolysis"
+    ],
+    [
+      "Setting",
+      "Clinic or surgical procedure"
+    ],
+    [
+      "Aim",
+      "Local fat reduction, skin tightening"
+    ],
+    [
+      "Category",
+      "Laser-assisted liposuction"
+    ]
   ],
-  [
-   "Setting",
-   "Surgical or clinic procedure"
+  "sections": [
+    {
+      "h": "Description",
+      "paras": [
+        "Laser-assisted liposuction liquefies fat and is said to tighten skin and boost collagen.[1] Liposuction in general is used for contouring rather than weight loss, and it can be done under general, regional or local anesthesia.[1] Radiofrequency-assisted liposuction is a newer thermal method that also aims at skin tightening.[1]",
+        "Abdominal etching, first described in 1993, uses liposuction to sharpen the visible contours of abdominal muscles as part of high-definition contouring.[1]"
+      ]
+    },
+    {
+      "h": "Results and recovery",
+      "paras": [
+        "Removed fat cells are gone permanently, but Wikipedia reports that overall body fat typically returns to pre-treatment levels within months, with fat reappearing in the abdomen, and that studies find liposuction ineffective for weight loss.[1] Swelling can last weeks or months, and patients may have pain, bruising and altered sensation that usually resolves over several weeks.[1]"
+      ]
+    },
+    {
+      "h": "History",
+      "paras": [
+        "Modern liposuction began with European surgeons in the late 1960s and 1970s: Arpad and Giorgio Fischer developed the blunt-cannula technique, Yves-Gerard Illouz extended it to the whole body, and Jeffrey Klein introduced tumescent anesthesia in the 1980s.[1]"
+      ]
+    },
+    {
+      "h": "Risks",
+      "paras": [
+        "General liposuction risks include deep vein thrombosis, organ perforation, bleeding, infection, fat embolism, skin necrosis and lidocaine toxicity, with roughly one death per 10,000 cases cited as of 2011.[1] A 2015 study of 4,534 patients found complications in 1.5 percent, with higher risk above 100 ml per unit of BMI.[1] The CDC reported 93 US citizens died after cosmetic surgery in the Dominican Republic from 2009 to 2022, mostly from embolism.[1] Risks specific to laser devices are not detailed in the source reviewed."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found specific to SlimLipo. Wikipedia cites a 2015 systematic review finding liposuction's effects on weight short-lived and a 2009 study of 3,240 tumescent cases reporting no deaths.[1]"
+      ]
+    }
   ],
-  [
-   "Aim",
-   "Local fat reduction, skin tightening"
+  "timeline": [
+    {
+      "year": "1970s",
+      "event": "Fischers develop blunt-cannula suction technique.[1]"
+    },
+    {
+      "year": "1980s",
+      "event": "Klein introduces tumescent anesthesia.[1]"
+    },
+    {
+      "year": "1993",
+      "event": "Abdominal etching first described.[1]"
+    },
+    {
+      "year": "2015",
+      "event": "Liposuction becomes the most common US cosmetic procedure.[1]"
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Liposuction - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Liposuction",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Liposuction",
+      "title": "Liposuction - Wikipedia"
+    }
   ]
- ],
- "sections": [
-  {
-   "h": "Description",
-   "paras": [
-    "Laser-assisted liposuction liquefies fat and coagulates tissue to tighten skin.[1] Liposuction in general is for contouring rather than weight loss, and fat tends to return and redistribute after a few months.[1]"
-   ]
-  },
-  {
-   "h": "History",
-   "paras": [
-    "Modern liposuction began with European surgeons in the late 1960s; the Fischers developed a blunt-cannula technique in the mid-1970s and Klein introduced tumescent anesthesia in the 1980s.[1]"
-   ]
-  },
-  {
-   "h": "Risks",
-   "paras": [
-    "General liposuction risks include deep vein thrombosis, organ perforation, bleeding, infection, seromas, skin necrosis and lidocaine toxicity, with roughly one death per 10,000 cases cited as of 2011.[1] Laser-specific risks are not detailed in this source."
-   ]
-  },
-  {
-   "h": "Clinical studies",
-   "paras": [
-    "No studies found."
-   ]
-  }
- ],
- "timeline": [
-  {
-   "year": "1970s",
-   "event": "Fischers develop blunt-cannula suction technique.[1]"
-  },
-  {
-   "year": "1980s",
-   "event": "Klein introduces tumescent anesthesia.[1]"
-  },
-  {
-   "year": "2015",
-   "event": "Liposuction becomes the most common US cosmetic procedure.[1]"
-  }
- ],
- "lore": null,
- "refs": [
-  {
-   "id": 1,
-   "title": "Liposuction - Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Liposuction",
-   "source": "Wikipedia",
-   "year": 2025,
-   "type": "encyclopedia"
-  }
- ],
- "webSources": [
-  {
-   "url": "https://en.wikipedia.org/wiki/Liposuction",
-   "title": "Liposuction - Wikipedia"
-  }
- ],
- "card": {
-  "summary": "A laser lipolysis procedure that melts stubborn fat and tightens skin for a slimmer contour.",
-  "aka": "laser lipolysis, laser-assisted liposuction",
-  "evidence": "limited",
-  "risk": "moderate",
-  "note": "Surgical procedure with general liposuction risks.",
-  "structure": null
- },
- "quick": {
-  "overview": "SlimLipo is a brand of laser lipolysis. A thin laser fiber is placed under the skin to liquefy fat.\n\nPeople use it for contouring small areas and for some skin tightening.",
-  "mechanism": "Laser energy liquefies fat and coagulates tissue, which tightens the overlying skin.",
-  "risks": "As with liposuction generally: bleeding, infection, clots, contour irregularities. Fat can redistribute over months."
- }
 }

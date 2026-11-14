@@ -16,35 +16,61 @@
     "risks": "The sources reviewed give no specific complication data for this use. Wikipedia lists general lip augmentation complications such as swelling, bruising, asymmetry and lumpiness."
   },
   "lead": [
-    "AlloDerm lip augmentation uses processed donor (cadaver) dermis to add volume to the lips. Wikipedia says it is placed in small rolls in the mucosa to add size, or in the vermilion to sharpen the lip border [1].",
-    "A paper titled \"Alloderm lip augmentation\" appeared in Plastic and Reconstructive Surgery in 2000 [2]. Beyond that, no outcome data were found in the sources reviewed."
+    "AlloDerm lip augmentation uses processed donor (cadaver) dermis, with living cells removed, to add volume or definition to the lips. Wikipedia says it is placed under local anesthesia in small rolls in the mucosa to increase lip size, or in the vermilion to sharpen the border of the lip.[1] People choose it for fuller or better-defined lips that last longer than a temporary filler, because the graft is tissue rather than a gel that is absorbed within months.[1]",
+    "A 2000 letter titled \"Alloderm lip augmentation\" by J. M. Gryskiewicz appeared in Plastic and Reconstructive Surgery as a comment on an earlier article.[2] A 2020 case report in Eplasty described using AlloDerm together with a local advancement flap for lip augmentation in a musician.[3] A 2024 claims analysis of 431 US adults found AlloDerm used mainly in oral cavity reconstruction, septal repair and rhinoplasty, and parotidectomy, with reoperation within 30 days in under 1 percent; its authors were affiliated with the product's maker.[4]",
+    "Wikipedia groups AlloDerm with other lip options including injectable fillers and implant strips such as expanded PTFE, and lists risks common to lip augmentation such as swelling, bruising, asymmetry and implant extrusion.[1] No comparative trial of AlloDerm for lip augmentation was located."
   ],
+  "angle": {
+    "goal": "Lip fullness",
+    "chain": [
+      "Donor dermis placed in rolls in the mucosa or along the lip border",
+      "Added volume and a sharper lip outline",
+      "Fuller, better-defined lips"
+    ],
+    "effect": "direct",
+    "text": "The graft physically adds tissue to the lip, either as volume inside the lip or as a defined border at the vermilion. Surgeons and patients use it as an alternative to repeated filler sessions.[1]"
+  },
   "infobox": [
     [
       "Type",
-      "Surgical / implant-style, donor tissue"
+      "Surgical graft, donor tissue"
     ],
     [
       "Material",
-      "Acellular human dermis [1]"
+      "Acellular human dermis[1]"
     ],
     [
       "Placement",
-      "Mucosal rolls or vermilion border [1]"
+      "Mucosal rolls or vermilion border[1]"
+    ],
+    [
+      "Anesthesia",
+      "Local[1]"
+    ],
+    [
+      "Maker",
+      "AbbVie, per authors of a 2024 study[4]"
     ]
   ],
   "sections": [
     {
       "h": "Description",
       "paras": [
-        "The material is human dermis processed to remove viable cells and used as a graft [1]. Wikipedia describes two placements in lip work: rolls inside the mucosa for volume and a strip at the vermilion to define the lip edge [1]."
+        "The material is human dermis processed to remove viable cells and used as a graft.[1] Wikipedia describes two placements in lip work: rolls inside the mucosa for volume and a strip at the vermilion to define the lip edge. It does not give a duration for the result.[1]"
+      ],
+      "subs": []
+    },
+    {
+      "h": "Context among lip options",
+      "paras": [
+        "Wikipedia lists other lip options: expanded PTFE implant strips, which can shift or extrude; permanent fillers such as PMMA microsphere products, which can form nodules and are generally avoided in the lip body; and hyaluronic and other fillers, with overfilling producing an exaggerated look and uneven results producing lumpiness or ridges. Common reactions include redness, swelling, bruising and uneven lips, lasting several days to a week, and smoking slows healing.[1]"
       ],
       "subs": []
     },
     {
       "h": "Clinical studies",
       "paras": [
-        "No studies found beyond a single 2000 journal paper whose abstract was not available [2]. A registered dental trial of acellular dermal matrix for tooth-socket therapy is unrelated to lip augmentation."
+        "No studies found of AlloDerm for lip augmentation beyond a 2000 letter without an abstract and a 2020 single case report describing AlloDerm with an advancement flap.[2][3] A 2024 claims analysis of AlloDerm in head and neck procedures did not focus on lips.[4]"
       ],
       "subs": []
     }
@@ -52,7 +78,11 @@
   "timeline": [
     {
       "year": "2000",
-      "event": "\"Alloderm lip augmentation\" is published in Plastic and Reconstructive Surgery [2]."
+      "event": "\"Alloderm lip augmentation\" letter by Gryskiewicz is published in Plastic and Reconstructive Surgery.[2]"
+    },
+    {
+      "year": "2020",
+      "event": "Eplasty case report describes AlloDerm with a local advancement flap for lip augmentation.[3]"
     }
   ],
   "lore": null,
@@ -67,17 +97,41 @@
     },
     {
       "id": 2,
-      "title": "Alloderm lip augmentation.",
+      "title": "Alloderm lip augmentation",
       "url": "https://pubmed.ncbi.nlm.nih.gov/11007422/",
       "source": "Plastic and Reconstructive Surgery",
       "year": 2000,
+      "type": "study"
+    },
+    {
+      "id": 3,
+      "title": "Restoring a Musician's Career: The Use of AlloDerm and a Local Advancement Flap in Lip Augmentation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32362991/",
+      "source": "Eplasty",
+      "year": 2020,
+      "type": "study"
+    },
+    {
+      "id": 4,
+      "title": "Real-world Use of AlloDerm Acellular Dermal Matrix in Head and Neck Procedures in the United States",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39600329/",
+      "source": "Plastic and Reconstructive Surgery Global Open",
+      "year": 2024,
       "type": "study"
     }
   ],
   "webSources": [
     {
       "url": "https://en.wikipedia.org/wiki/Lip_augmentation",
-      "title": "Lip augmentation - Wikipedia"
+      "title": "Lip augmentation (Wikipedia)"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32362991/",
+      "title": "Restoring a Musician's Career (Eplasty)"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39600329/",
+      "title": "AlloDerm in head and neck procedures (PRS Global Open)"
     }
   ]
 }

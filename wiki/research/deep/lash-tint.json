@@ -1,18 +1,112 @@
 {
-"name":"Lash tint",
-"lead":["Lash tinting is a salon procedure in which a dye is applied to eyelashes to darken them, so they look fuller without mascara. Wikipedia lists tints, alongside extensions, among popular salon eyelash procedures.[1]","In the United States, the FDA states that hair dyes should not be used on eyebrows or eyelashes, and that no color additives are approved for dyeing them. The agency cites reports of eye injuries, including blindness, from hair dyes used near the eyes.[2]","No published clinical studies of lash tinting were identified, and little other source material is available."],
-"infobox":[["Type","Cosmetic dye service"],["US regulatory position","FDA: no color additives approved for eyelash dyeing[2]"],["Evidence for appearance use","Unproven"]],
-"sections":[
-{"h":"Regulatory position","paras":["The FDA advises that hair dyes not be used on eyebrows or eyelashes and says coal-tar hair dyes are not approved for that use. A color additive intended for lashes or brows would need FDA approval for that specific use.[2]"]},
-{"h":"Clinical studies","paras":["No studies found."]}
-],
-"timeline":[],
-"lore":null,
-"refs":[
-{"id":1,"title":"Eyelash","url":"https://en.wikipedia.org/wiki/Eyelash","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":2,"title":"Hair Dyes","url":"https://www.fda.gov/cosmetics/cosmetic-products/hair-dyes","source":"US FDA","year":2026,"type":"guideline"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Eyelash","title":"Eyelash"},{"url":"https://www.fda.gov/cosmetics/cosmetic-products/hair-dyes","title":"Hair Dyes (FDA)"}],
-"card":{"summary":"Salon dye to darken lashes; regulators in the US say no dyes are approved for the eye area.","aka":"Eyelash tinting","evidence":"unproven","outcome":"temporary","price":null,"note":"The FDA warns against dyeing lashes and brows and cites eye injuries.","structure":null},
-"quick":{"overview":"Lash tinting darkens eyelashes with dye so they appear fuller without mascara. It is offered as a salon service.\n\nThere is very little published research on it.","mechanism":"A dye is applied to the lashes and stains the hair itself, so the colour lasts until lashes shed.","risks":"The FDA says hair dyes should not be used on eyelashes or eyebrows and that no color additives are approved for that use, citing reports of eye injury."}
+ "lead": [
+  "Lash tinting is a salon service in which a dye is applied to the eyelashes to darken them, so that pale or fair lashes look fuller and more defined without mascara. People choose it for an eye area that looks framed and awake from the moment they wake up, and it lasts for a period of weeks rather than a single day.[1]",
+  "Eyelashes are treated as part of facial attractiveness. Wikipedia reports that long, prominent lashes have been regarded as a sign of beauty in many cultures and that women with longer lashes are perceived as healthier and more feminine, while long lashes are also regarded as attractive in men and women.[1] Lash colour often tracks hair colour, tending to be dark on dark-haired people and lighter on light-haired people, which is the gap a tint addresses.[1]",
+  "Tinting sits among cosmetic ways to enhance lashes, alongside mascara, eyelash curlers, lash perms, extensions and growth products; Wikipedia lists permanent eyelash tints and extensions as popular salon procedures.[1] In the United States the FDA states that hair dyes should not be used on eyebrows or eyelashes and that no colour additives are approved for dyeing them, citing reports of eye injuries including blindness.[2]"
+ ],
+ "angle": {
+  "goal": "Eyes",
+  "chain": [
+   "Dye darkens pale lashes",
+   "Lashes look thicker and longer against the eye",
+   "Eyes look more defined without daily mascara"
+  ],
+  "effect": "direct",
+  "text": "A tint colours the lashes, which makes light lashes show up and makes the eyes look more framed. The effect fades as lashes shed and the dye wears off."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Cosmetic dye service"
+  ],
+  [
+   "Appearance effect",
+   "Darker, more visible lashes (temporary)"
+  ],
+  [
+   "US regulatory position",
+   "FDA: no colour additives approved for eyelash dyeing[2]"
+  ],
+  [
+   "Related options",
+   "Mascara, lash lift or perm, extensions, growth serums[1]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Lashes grow in up to six layers on each lid, with an average upper lash length of 7 to 8 mm, and individual lash colour, length and curl are determined largely by genetics.[1] Lashes do not grow continually like scalp hair, and the number of follicles cannot be increased after birth.[1] A tint does not change length or number; it changes how visible the existing lashes are.",
+    "Lashes take about seven to eight weeks to regrow if pulled out, and length, thickness and darkness decrease with age, which is why dense dark lashes are associated with youthfulness.[1]"
+   ]
+  },
+  {
+   "h": "Cosmetic context",
+   "paras": [
+    "Eye makeup to emphasise the eyes has a long history: kohl has been worn since the Bronze Age to darken the lid edge, and convincing false lashes became popular in the 1960s.[1] Lash enhancement now includes curlers and perms for curl, extensions, transplants, and a prostaglandin-based drug, bimatoprost (Latisse), first approved by the FDA for lash growth in 2009.[1] Tinting is the option aimed at colour rather than length or curl."
+   ]
+  },
+  {
+   "h": "Regulatory position",
+   "paras": [
+    "The FDA says coal-tar hair dyes are not approved for use on eyelashes or eyebrows and that required caution labels warn that using them there may cause blindness. The agency is aware of eye injuries, including blindness, from hair dyes used in the eye area, and it notes that no colour additive is approved for dyeing lashes or brows, so a product intended for that use would need approval for that purpose.[2]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2009",
+   "event": "Latisse (bimatoprost) becomes the first FDA-approved drug for eyelash growth.[1]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Eyelash",
+   "url": "https://en.wikipedia.org/wiki/Eyelash",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Hair Dyes",
+   "url": "https://www.fda.gov/cosmetics/cosmetic-products/hair-dyes",
+   "source": "US FDA",
+   "year": 2026,
+   "type": "guideline"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Eyelash",
+   "title": "Eyelash"
+  },
+  {
+   "url": "https://www.fda.gov/cosmetics/cosmetic-products/hair-dyes",
+   "title": "Hair Dyes (FDA)"
+  }
+ ],
+ "name": "Lash tint",
+ "card": {
+  "summary": "Salon dye to darken lashes; regulators in the US say no dyes are approved for the eye area.",
+  "aka": "Eyelash tinting",
+  "evidence": "unproven",
+  "outcome": "temporary",
+  "price": null,
+  "note": "The FDA warns against dyeing lashes and brows and cites eye injuries.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Lash tinting darkens eyelashes with dye so they appear fuller without mascara. It is offered as a salon service.\n\nThere is very little published research on it.",
+  "mechanism": "A dye is applied to the lashes and stains the hair itself, so the colour lasts until lashes shed.",
+  "risks": "The FDA says hair dyes should not be used on eyelashes or eyebrows and that no color additives are approved for that use, citing reports of eye injury."
+ }
 }

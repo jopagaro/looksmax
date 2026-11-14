@@ -1,49 +1,5 @@
 {
   "name": "Flutamide topical (melasma)",
-  "lead": [
-    "Flutamide is a nonsteroidal antiandrogen taken by mouth, used mainly for prostate cancer. It blocks androgen receptors [1]. A 1% topical preparation has been studied as an alternative treatment for melasma, a pigmentation disorder of the face [2].",
-    "Wikipedia's melasma article cites a randomized trial that compared topical 1% flutamide with hydroquinone but does not report its results or safety profile [2]. The oral drug carries a warning for severe liver injury [1]; the sources reviewed contain no data on systemic absorption or safety of the topical form."
-  ],
-  "infobox": [
-    ["Drug class", "Nonsteroidal antiandrogen [1]"],
-    ["Route (this use)", "Topical, 1% [2]"],
-    ["Oral drug first approved", "1989 (US) [1]"],
-    ["Legal status", "Oral flutamide is prescription-only [1]"]
-  ],
-  "sections": [
-    {
-      "h": "Uses",
-      "paras": [
-        "Oral flutamide's main use is prostate cancer, often together with GnRH analogues. It has also been used in women for acne, seborrhea, hirsutism, scalp hair loss and hyperandrogenism, though liver risk limits this and it is no longer recommended as a first- or second-line option [1].",
-        "For melasma, 1% topical flutamide is listed among alternatives to the standard topical depigmenting agents such as hydroquinone, tretinoin, azelaic acid, kojic acid and arbutin [2]."
-      ]
-    },
-    {
-      "h": "Safety",
-      "paras": [
-        "Oral flutamide has caused severe liver injury and deaths, and its risk is described as higher than that of bicalutamide or nilutamide. Liver function monitoring is advised during oral treatment. It is listed as pregnancy category D [1]. Whether these risks apply to topical use is not addressed in the sources reviewed."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "A randomized trial comparing 1% topical flutamide with hydroquinone in melasma is cited on Wikipedia, which does not report its outcomes [2]. No other studies were reviewed here."
-      ]
-    }
-  ],
-  "timeline": [
-    {"year": "1967", "event": "Flutamide first synthesized as a bacteriostatic agent; antiandrogen activity discovered later [1]."},
-    {"year": "1989", "event": "Flutamide approved in the United States [1]."}
-  ],
-  "lore": null,
-  "refs": [
-    {"id": 1, "title": "Flutamide", "url": "https://en.wikipedia.org/wiki/Flutamide", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"},
-    {"id": 2, "title": "Melasma", "url": "https://en.wikipedia.org/wiki/Melasma", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"}
-  ],
-  "webSources": [
-    {"url": "https://en.wikipedia.org/wiki/Flutamide", "title": "Flutamide - Wikipedia"},
-    {"url": "https://en.wikipedia.org/wiki/Melasma", "title": "Melasma - Wikipedia"}
-  ],
   "card": {
     "summary": "An oral prostate-cancer antiandrogen studied as a 1% topical for melasma, with a thin evidence base and liver warnings on the oral drug.",
     "aka": "flutamide 1%, Eulexin",
@@ -58,5 +14,146 @@
     "overview": "Flutamide is an antiandrogen pill used for prostate cancer. A 1% topical version has been tried for melasma as an alternative to hydroquinone.\n\nOnly a single randomized comparison with hydroquinone was found cited, without reported results.",
     "mechanism": "It blocks androgen receptors. How this would affect melasma pigmentation is not explained in the sources reviewed.",
     "risks": "The oral drug is associated with severe liver injury and is prescription-only. Safety of the topical form was not documented in the sources reviewed."
-  }
+  },
+  "lead": [
+    "Topical flutamide for melasma is the use of a 1% flutamide cream to lighten the brown-grey facial patches of melasma and even out skin tone. Flutamide is a nonsteroidal antiandrogen taken by mouth, mainly for prostate cancer, that blocks androgen receptors.[1] Because hormones are thought to play a part in melasma, researchers in Iran tested a cream form against 4% hydroquinone, the standard depigmenting agent, in a 2015 randomized trial.[3][2]",
+    "In that 74-woman trial, both creams (used with sunscreen) improved skin darkness over four months. The authors reported no significant difference between the groups on mexameter melanin readings, a better trend on the Melasma Area and Severity Index (MASI) for flutamide, and higher patient satisfaction with flutamide.[3] The same authors wrote that clinical use should not be recommended until other studies replicate the results.[3]",
+    "Melasma is a common chronic pigmentation disorder, particularly in people with darker skin types, and reviews describe it as challenging to treat, with high recurrence and no universally effective treatment.[4][5] Topical flutamide has appeared in discussions of alternatives to hydroquinone, tretinoin, azelaic acid, kojic acid and arbutin.[2]"
+  ],
+  "angle": {
+    "goal": "Skin tone",
+    "chain": [
+      "Antiandrogen cream applied to melasma patches",
+      "Melanin and MASI scores fall",
+      "Facial pigmentation looks lighter and more even"
+    ],
+    "effect": "claimed",
+    "text": "The aim is a clearer, more even complexion by lightening melasma patches. In the one published trial, a 1% flutamide cream lightened melasma comparably to 4% hydroquinone on one measure and better on another."
+  },
+  "infobox": [
+    [
+      "Drug class",
+      "Nonsteroidal antiandrogen[1]"
+    ],
+    [
+      "Route (this use)",
+      "Topical, 1% cream (trial)[3]"
+    ],
+    [
+      "Compared against",
+      "4% hydroquinone[3]"
+    ],
+    [
+      "Trial",
+      "74 women, 4 months, 2015[3]"
+    ],
+    [
+      "Oral flutamide first approved",
+      "1989 (US)[1]"
+    ],
+    [
+      "Legal status",
+      "Oral flutamide is prescription-only[1]"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Uses",
+      "paras": [
+        "Oral flutamide's main use is prostate cancer, often with GnRH analogues. It has also been used in women for acne, seborrhea, hirsutism, scalp hair loss and hyperandrogenism, though liver risk limits this and it is no longer recommended as a first- or second-line option.[1]",
+        "For melasma, 1% topical flutamide is listed among alternatives to the standard depigmenting agents such as hydroquinone, tretinoin, azelaic acid, kojic acid and arbutin.[2] The trial authors say the idea came from observations of melasma improving in patients with coexisting acne who were treated with flutamide, and from the view that hormonal factors contribute to melasma.[3]"
+      ]
+    },
+    {
+      "h": "Effectiveness",
+      "paras": [
+        "In the 2015 randomized trial, 74 women received 1% flutamide cream or 4% hydroquinone cream with sunscreen for four months. Pigmentation improved in both groups on MASI. A mixed-effects model showed better MASI-based efficacy for flutamide, while mexameter melanin readings did not differ significantly between groups.[3]",
+        "Patient satisfaction scores were higher with flutamide (mean 28.8 versus 18), and total dissatisfaction was 22 percent versus 35 percent, a difference that was not statistically significant.[3]",
+        "Wider reviews of melasma treatment note that hydroquinone is regarded as the standard, that combination therapies gave the best results, that tranexamic acid, microneedling, peels and light-based devices have been studied, and that recurrence is high with all treatments.[4][5]"
+      ]
+    },
+    {
+      "h": "Safety",
+      "paras": [
+        "Oral flutamide has caused severe liver injury and deaths, with a risk described as higher than for bicalutamide or nilutamide; liver monitoring is advised during oral treatment, and it is listed as pregnancy category D.[1] The trial authors cite oral hepatic risk as one reason for preferring a topical route and described the cream as relatively safe compared with hydroquinone, though the paper does not detail specific adverse events.[3] Systemic absorption of the topical form was not reported."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "One published randomized trial has compared 1% topical flutamide with 4% hydroquinone in 74 women with melasma over four months. Both groups improved; flutamide showed a better MASI trend and satisfaction, with no significant mexameter difference. The authors called for replication before clinical recommendation.[3] No larger or independent trial was found."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1967",
+      "event": "Flutamide first synthesized as a bacteriostatic agent; antiandrogen activity discovered later.[1]"
+    },
+    {
+      "year": "1989",
+      "event": "Oral flutamide approved in the United States.[1]"
+    },
+    {
+      "year": "2015",
+      "event": "Randomized trial of 1% topical flutamide versus 4% hydroquinone in melasma published in Drug Design, Development and Therapy.[3]"
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Flutamide",
+      "url": "https://en.wikipedia.org/wiki/Flutamide",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Melasma",
+      "url": "https://en.wikipedia.org/wiki/Melasma",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "The first clinical experience on efficacy of topical flutamide on melasma compared with topical hydroquinone: a randomized clinical trial",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4531037",
+      "source": "Drug Design, Development and Therapy",
+      "year": 2015,
+      "type": "trial"
+    },
+    {
+      "id": 4,
+      "title": "Melasma treatment: a systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33849384/",
+      "source": "Journal of Dermatological Treatment",
+      "year": 2022,
+      "type": "review"
+    },
+    {
+      "id": 5,
+      "title": "An Update on New and Existing Treatments for the Management of Melasma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38896402/",
+      "source": "American Journal of Clinical Dermatology",
+      "year": 2024,
+      "type": "review"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Flutamide",
+      "title": "Flutamide - Wikipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Melasma",
+      "title": "Melasma - Wikipedia"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4531037",
+      "title": "Topical flutamide on melasma vs hydroquinone RCT (PMC)"
+    }
+  ]
 }

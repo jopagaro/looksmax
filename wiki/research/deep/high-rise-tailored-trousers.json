@@ -1,15 +1,115 @@
 {
- "name": "High-rise tailored trousers",
- "lead": ["High-rise tailored trousers sit at or above the natural waist and are hemmed to a clean length. In height and proportion discussions, proponents say they raise the visual waistline and so make the legs look longer relative to the torso.","Trousers are commonly hemmed to adjust leg length, and higher-quality pairs may leave extra seam allowance at the centre back for adjusting the waist.[1]","No studies of trouser rise and perceived leg length were found in this entry's sources."],
- "infobox":[["Type","Tailoring / proportion technique"],["Claimed effect","Longer-looking legs"],["Related","Hemming, waist alterations"]],
- "sections":[
-  {"h":"Description","paras":["Tailors hem trouser legs to prevent fraying and set length, and waists can be adjusted within limits.[1] Rise refers to where the waistband sits; proponents of high rise say a higher waistband shifts the apparent leg-to-torso split upward."]},
-  {"h":"Clinical studies","paras":["No studies found."]}
- ],
- "timeline":[],
- "lore":null,
- "card":{"summary":"Higher waistband plus a tailored hem, said to lengthen the leg line; unstudied.","aka":null,"evidence":"unproven","risk":"low","price":null,"note":"Perceived-height effect not tested in the sources.","structure":null},
- "quick":{"overview":"High-rise trousers with tailored hems are claimed to make legs look longer.\n\nThe idea is part of proportion-focused style advice.","mechanism":"A higher waistband raises the visible waistline, so legs occupy more of the figure.","risks":"Low risk. No studies on the effect were found."},
- "refs":[{"id":1,"title":"Trousers","url":"https://en.wikipedia.org/wiki/Trousers","source":"Wikipedia","year":2025,"type":"encyclopedia"}],
- "webSources":[{"url":"https://en.wikipedia.org/wiki/Trousers","title":"Trousers"}]
+  "name": "High-rise tailored trousers",
+  "card": {
+    "summary": "Higher waistband plus a tailored hem, said to lengthen the leg line; unstudied.",
+    "aka": null,
+    "evidence": "unproven",
+    "risk": "low",
+    "price": null,
+    "note": "Perceived-height effect not tested in the sources.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "High-rise trousers with tailored hems are claimed to make legs look longer.\n\nThe idea is part of proportion-focused style advice.",
+    "mechanism": "A higher waistband raises the visible waistline, so legs occupy more of the figure.",
+    "risks": "Low risk. No studies on the effect were found."
+  },
+  "lead": [
+    "High-rise tailored trousers sit at or above the natural waist and are hemmed to a clean length. In height and proportion discussions, proponents say they raise the visual waistline, so the legs look longer relative to the torso and the overall silhouette looks taller and more balanced.",
+    "Wikipedia defines high-waisted trousers as designed to sit high on or above the hips, usually at least 8 centimetres (3 inches) above the navel, and describes high rises of 10 inches or more [1]. Tailors hem trouser legs to set length and prevent fraying, and higher-quality pairs may leave extra seam allowance at the centre back so the waist can be adjusted [2].",
+    "High rises have gone in and out of fashion: they were worn by zoot suiters in the 1940s, were common in the 1980s and early 1990s, were derided as 'mom jeans' in the 2000s, and have been revived since the mid-2010s according to Wikipedia [1]. No study of trouser rise and perceived leg length was located."
+  ],
+  "angle": {
+    "goal": "Longer-looking legs",
+    "chain": [
+      "Waistband sits higher on the torso",
+      "Visual leg-to-torso split moves upward",
+      "Legs look longer and the frame looks taller"
+    ],
+    "effect": "claimed",
+    "text": "Wearing the waistband higher and hemming to a clean length is said to lengthen the leg line and improve proportion. It changes how height and proportions look rather than actual height."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Tailoring / proportion technique"
+    ],
+    [
+      "Defining feature",
+      "Waistband well above the navel, rise of about 10 inches or more [1]"
+    ],
+    [
+      "Claimed effect",
+      "Longer-looking legs"
+    ],
+    [
+      "Related",
+      "Hemming, waist alterations [2]"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Description",
+      "paras": [
+        "Rise refers to where the waistband sits. High-waisted trousers typically have rises of 10 inches or more and usually leave the navel covered or barely shown [1]. Proponents of high rise say a higher waistband shifts the apparent leg-to-torso division upward. Tailors hem trouser legs to prevent fraying and set length, and waists can be adjusted within limits [2]."
+      ]
+    },
+    {
+      "h": "History",
+      "paras": [
+        "Before the 1950s, European menswear trousers sat level with the navel and were held up by suspenders, and 1940s zoot suits sometimes reached the chest. Lower waists became a counterculture statement in the late 1960s and early 1970s, and higher rises returned in the late 1970s through the 1990s [1]."
+      ]
+    },
+    {
+      "h": "In menswear",
+      "paras": [
+        "High-rise pants, jeans and shorts were popular in men's and boys' clothing in the 1980s and early-to-mid 1990s. In the 2000s and 2010s, high-rise jeans worn by male public figures drew press ridicule [1]."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1940s",
+      "event": "Zoot suiters wear trousers with very high waistbands [1]."
+    },
+    {
+      "year": "Mid-2010s",
+      "event": "High-rise jeans are revived among younger women, according to Wikipedia [1]."
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "High-rise (high-waisted) trousers",
+      "url": "https://en.wikipedia.org/wiki/High-waisted_trousers",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Trousers",
+      "url": "https://en.wikipedia.org/wiki/Trousers",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/High-waisted_trousers",
+      "title": "High-waisted trousers - Wikipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Trousers",
+      "title": "Trousers - Wikipedia"
+    }
+  ]
 }

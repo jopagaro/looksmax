@@ -14,10 +14,20 @@
   "risks": "Risks reported for pigment-lightening in general include recurrence, post-inflammatory darkening and irritation; people with darker skin are described as more prone to hyperpigmentation.[1][3] No lip-specific trials were found."
  },
  "lead": [
-  "Lip bleaching or lightening refers to cosmetic treatments intended to reduce darker pigmentation of the lips, using laser, topical agents or other methods.",
-  "Lip skin has only three to five cell layers compared with up to sixteen on typical facial skin. In lighter skin, fewer melanocytes let blood vessels show through, producing a red tone; in darker skin, more melanin makes lips look darker.[2]",
-  "General sources describe lasers and intense pulsed light as options for hyperpigmentation, with recurrence common and some lasers capable of increasing pigmentation.[1][3] No published trial specific to laser lightening of the lips was identified."
+  "Lip bleaching or lightening refers to cosmetic treatments intended to reduce darker pigmentation of the lips, producing a pinker, more even lip color. Clinics use lasers, topical agents or other methods, and the aim is an even, lighter lip tone that people find more attractive or healthy-looking.",
+  "Lip skin has only three to five cell layers compared with up to sixteen on typical facial skin. In lighter skin, fewer melanocytes let blood vessels show through, producing a red tone; in darker skin, more melanin makes lips look darker.[2] Lasers aimed at melanin are therefore the procedure most often described for lip pigmentation.",
+  "Small dermatology studies of the 532-nm Q-switched Nd:YAG laser have reported improvement in lip melanosis and benign lip hyperpigmentation over a few sessions, alongside side effects such as swelling, crusting and, in some patients, patchy pigmentation.[4][5] General sources describe lasers and intense pulsed light as options for hyperpigmentation, with recurrence common.[1][3]"
  ],
+ "angle": {
+  "goal": "Lips",
+  "chain": [
+   "Laser light is absorbed by excess melanin in the lip",
+   "Pigment breaks up and fades over several sessions",
+   "Lighter, more even lip color"
+  ],
+  "effect": "direct",
+  "text": "People with darker or patchy lip pigmentation use laser treatment to even out and lighten lip color. Studies of the 532-nm Q-switched laser report visible clearing of pigment in many treated patients over roughly two to four sessions."
+ },
  "infobox": [
   [
    "Goal",
@@ -25,40 +35,57 @@
   ],
   [
    "Methods",
-   "Laser, topical agents, other"
+   "Q-switched laser, topical agents, other"
+  ],
+  [
+   "Typical laser in studies",
+   "532-nm Q-switched Nd:YAG"
+  ],
+  [
+   "Sessions in studies",
+   "About 2.5 to 4 (study average)"
   ],
   [
    "Evidence",
-   "Limited; not lip-specific"
+   "Small studies in lip pigmentation"
   ]
  ],
  "sections": [
   {
    "h": "Background",
    "paras": [
-    "Hyperpigmentation is darkening from excess melanin, triggered by sun damage, inflammation, injury, some medications and sometimes by laser procedures themselves.[1] People with darker skin are described as more prone to it.[1]"
+    "Hyperpigmentation is darkening from excess melanin, triggered by sun damage, inflammation, injury, some medications and sometimes by laser procedures themselves.[1] People with darker skin are described as more prone to it.[1]",
+    "Lip color reflects both melanin and the blood beneath very thin tissue, so pigmentation of the lips varies widely between individuals.[2]"
    ]
   },
   {
    "h": "Methods",
    "paras": [
-    "Pigment-lightening in general uses topical agents such as hydroquinone, azulfidine-free options like azelaic acid and kojic acid, and procedures such as fractional lasers, YAG toning and intense pulsed light.[1][3] Hydroquinone is banned in cosmetics in the EU.[3]"
+    "Pigment-lightening in general uses topical agents such as hydroquinone, azelaic acid and kojic acid, and procedures such as fractional lasers, YAG toning and intense pulsed light.[1][3] Hydroquinone is banned in cosmetics in the EU.[3]",
+    "For the lips specifically, dermatology reports have focused on the Q-switched Nd:YAG laser at 532 nm, which delivers nanosecond pulses to targeted melanin.[4][5]"
    ]
   },
   {
    "h": "Reported risks",
    "paras": [
-    "Wikipedia notes recurrence is common after laser treatment for pigmentation and that some lasers can increase pigmentation.[3] Lightened skin is described as potentially more vulnerable to sun damage.[3]"
+    "Wikipedia notes recurrence is common after laser treatment for pigmentation and that some lasers can increase pigmentation.[3] Lightened skin is described as potentially more vulnerable to sun damage.[3]",
+    "Side effects in the lip studies are described under Clinical studies and include immediate whitening, swelling, crusting, hypopigmentation and mottling.[4][5] The pilot study gave prophylactic antiviral medication to patients with a history of cold sores.[4]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found. Registered trials retrieved under bleaching terms concern tooth whitening, not lips."
+    "A prospective pilot study in Saudi Arabia (2019, published 2021) treated 24 women with Fitzpatrick skin types III to V and benign lip hyperpigmentation using a Q-switched 532-nm Nd:YAG laser, with a median of four sessions about two weeks apart. Blinded dermatologists rated photographs three months after the last session: 58.3% showed moderate to excellent improvement, 16.7% mild or none, and 25% worsening or mottling. Changes in the average color score were small and not statistically significant, and the authors called the treatment safe and moderately effective, noting the small sample and short follow-up.[4]",
+    "A prospective study of 20 patients with lip melanosis (focal and diffuse) in India used the 532-nm Q-switched Nd:YAG laser every four weeks. Seven patients (35%) had an excellent response and seven (35%) a good response, clearance took an average of 2.5 sessions, two patients relapsed after three months, and no scarring occurred. Side effects were temporary whitening, mild swelling, crusting and, in one patient, hypopigmentation of the adjacent upper lip.[5]"
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "2021",
+   "event": "Two small prospective studies of the 532-nm Q-switched Nd:YAG laser for lip pigmentation are published.[4][5]"
+  }
+ ],
  "lore": null,
  "refs": [
   {
@@ -84,6 +111,22 @@
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Q-switched double-frequency 532-nm Nd:YAG laser for lip hyperpigmentation (pilot study)",
+   "url": "https://jcadonline.com/q-switched-double-frequency-532-lip",
+   "source": "J Clin Aesthet Dermatol",
+   "year": 2021,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Efficacy of 532-nm Q-switched Nd:YAG Laser in the Treatment of Lip Melanosis",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8423207",
+   "source": "J Cutan Aesthet Surg",
+   "year": 2021,
+   "type": "study"
   }
  ],
  "webSources": [
@@ -98,6 +141,14 @@
   {
    "url": "https://en.wikipedia.org/wiki/Skin_whitening",
    "title": "Skin whitening - Wikipedia"
+  },
+  {
+   "url": "https://jcadonline.com/q-switched-double-frequency-532-lip",
+   "title": "Q-switched double-frequency 532-nm Nd:YAG laser for lip hyperpigmentation"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8423207",
+   "title": "Efficacy of 532-nm Q-switched Nd:YAG Laser in the Treatment of Lip Melanosis"
   }
  ]
 }

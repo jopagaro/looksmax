@@ -2,7 +2,7 @@
  "name": "BNN-27",
  "lead": [
   "BNN-27 (17alpha,20R-epoxypregn-5-ene-3beta,21-diol) is a synthetic neurosteroid analogue of DHEA described as a \"microneurotrophin\" and an NGF mimetic. [1] It is reported to be a selective, high-affinity agonist of the TrkA and p75NTR receptors, to cross the blood-brain barrier, and to lack hormonal activity. [1]",
-  "Evidence is preclinical; in mouse models it showed neuroprotective and neurogenic effects. [1] It has no approved use and no studied appearance role."
+  "It appears in longevity and brain-health discussions as a research compound for nerve protection and cognition, which people connect to staying sharp and healthy-looking as they age. Published work is in cells and animals: studies describe neuroprotective effects in mouse and rat models of Alzheimer's disease, spinal cord injury, retinal and optic nerve injury and diabetic retinopathy. [3][4][5][6] It has no approved use and no studied effect on appearance."
  ],
  "infobox": [
   [
@@ -16,6 +16,14 @@
   [
    "Status",
    "Preclinical research only"
+  ],
+  [
+   "Reported actions",
+   "Neuroprotective, neurogenic, anti-inflammatory in animals [3][5]"
+  ],
+  [
+   "Human data",
+   "None found"
   ]
  ],
  "sections": [
@@ -26,9 +34,16 @@
    ]
   },
   {
+   "h": "Preclinical research",
+   "paras": [
+    "A 2025 study in Molecular Psychiatry examined BNN27 in the 5xFAD mouse model of Alzheimer's disease and linked reduced pathology to cognitive performance.[3] A 2023 study reported that BNN27 reduced astrogliosis and increased neuron density in a mouse spinal cord crush model.[4] A 2025 study reported anti-inflammatory and analgesic effects in a mouse inflammatory pain model.[5]",
+    "In rats, BNN27 counteracted ketamine-induced recognition memory deficits,[6] and a 2020 psychopharmacology study found no anxiolytic or antidepressant effects with its design.[7] Pharmacokinetic work in rodents describes rapid systemic elimination after a single injection.[8]"
+   ]
+  },
+  {
    "h": "Clinical studies",
    "paras": [
-    "No studies found. Reported work is in cells and rodents, including a rat study on recognition memory deficits. [1]"
+    "No studies found in humans. Reported work is in cells and rodents.[3][4][5][6]"
    ]
   }
  ],
@@ -72,12 +87,95 @@
    "source": "Pharmaceuticals",
    "year": 2024,
    "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Multimodal beneficial effects of BNN27, a nerve growth factor synthetic mimetic, in the 5xFAD mouse model of Alzheimer's disease",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39587294/",
+   "source": "Molecular Psychiatry",
+   "year": 2025,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Microneurotrophin BNN27 Reduces Astrogliosis and Increases Density of Neurons and Implanted Neural Stem Cell-Derived Cells after Spinal Cord Injury",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37189788/",
+   "source": "Biomedicines",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Microneurotrophin BNN27 Exerts Significant Anti-Inflammatory Effects on Murine T-Lymphocytes Following CFA-Induced Inflammatory Pain",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40564968/",
+   "source": "International Journal of Molecular Sciences",
+   "year": 2025,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "The novel dehydroepiandrosterone derivative BNN27 counteracts the impairing effects of anesthetic ketamine on rats' recognition memory",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35644273/",
+   "source": "Behavioural Brain Research",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Psychoactive properties of BNN27, a novel neurosteroid derivate, in male and female rats",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32506234/",
+   "source": "Psychopharmacology",
+   "year": 2020,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Quantification of BNN27 in the blood and retina of rodents after single intraperitoneal administration",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33638308/",
+   "source": "Pharmacology Research & Perspectives",
+   "year": 2021,
+   "type": "study"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/BNN-27",
    "title": "BNN-27 - Wikipedia"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39587294/",
+   "title": "Multimodal beneficial effects of BNN27, a nerve growth factor synthetic mimetic, in the 5xFAD mouse model of Alzheimer's disease"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37189788/",
+   "title": "Microneurotrophin BNN27 Reduces Astrogliosis and Increases Density of Neurons and Implanted Neural Stem Cell-Derived Cells after Spinal Cord Injury"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40564968/",
+   "title": "Microneurotrophin BNN27 Exerts Significant Anti-Inflammatory Effects on Murine T-Lymphocytes Following CFA-Induced Inflammatory Pain"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35644273/",
+   "title": "The novel dehydroepiandrosterone derivative BNN27 counteracts the impairing effects of anesthetic ketamine on rats' recognition memory"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32506234/",
+   "title": "Psychoactive properties of BNN27, a novel neurosteroid derivate, in male and female rats"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33638308/",
+   "title": "Quantification of BNN27 in the blood and retina of rodents after single intraperitoneal administration"
   }
- ]
+ ],
+ "angle": {
+  "goal": "Brain health and longevity",
+  "chain": [
+   "Research compound activates NGF receptors TrkA and p75NTR",
+   "Reported neuroprotective effects in animal models",
+   "Claimed: support for cognition and aging brain",
+   "Longevity-oriented goals rather than direct looks effects"
+  ],
+  "effect": "claimed",
+  "text": "BNN-27 is discussed as a way to mimic nerve growth factor without hormonal effects, with interest in cognition and healthy aging. Its appearance link is indirect and unstudied in humans."
+ }
 }

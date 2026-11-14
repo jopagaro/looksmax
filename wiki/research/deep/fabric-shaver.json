@@ -1,16 +1,34 @@
 {
   "name": "Fabric shaver",
   "lead": [
-    "A fabric shaver, also called a lint shaver or fuzz remover, is a handheld electric device with a rotating blade beneath a protective net. It trims pills and fuzz from fabric without cutting the cloth itself, and is used mostly on knitwear such as sweaters, hoodies and wool, angora or cashmere garments, as well as on bedding, curtains and carpets.[1] Models are powered by dry-cell batteries or an internal rechargeable battery.[1]",
-    "In style discussions it is described as a cheap way to make worn knitwear look newer. There are no clinical studies of fabric shavers; the sources for this article are reference descriptions of the device and its development.[1][2]"
+    "A fabric shaver, also called a lint shaver or fuzz remover, is a handheld electric device with a rotating blade beneath a protective net. It trims pills and fuzz from fabric without cutting the cloth itself, which makes worn sweaters, hoodies and wool, angora or cashmere garments look smoother, newer and better kept. It is also used on bedding, curtains and carpets.[1] Models are powered by dry-cell batteries or an internal rechargeable battery.[1]",
+    "Wikipedia describes pilling as a wear-related flaw that most people consider unattractive, formed when washing and wearing push loose fibres out of the cloth and abrasion rolls them into small balls; it recommends shaving the fabric with a fabric shaver to remove them.[3] In style discussions the tool is described as a cheap way to make worn knitwear look newer. There are no clinical studies of fabric shavers; the sources for this article are reference descriptions of the device and its development.[1][2]"
   ],
   "infobox": [
-    ["Type", "Handheld electric garment-care device"],
-    ["Also known as", "Lint shaver, fuzz remover, pill remover"],
-    ["Power", "Dry-cell or rechargeable battery"],
-    ["Typical price (site estimate)", "$10-20"],
-    ["Effect duration", "Pills return with further wear and washing"],
-    ["Regulatory status", "Consumer appliance; no clearance process"]
+    [
+      "Type",
+      "Handheld electric garment-care device"
+    ],
+    [
+      "Also known as",
+      "Lint shaver, fuzz remover, pill remover"
+    ],
+    [
+      "Power",
+      "Dry-cell or rechargeable battery"
+    ],
+    [
+      "Typical price (site estimate)",
+      "$10-20"
+    ],
+    [
+      "Effect duration",
+      "Pills return with further wear and washing"
+    ],
+    [
+      "Regulatory status",
+      "Consumer appliance; no clearance process"
+    ]
   ],
   "sections": [
     {
@@ -18,6 +36,12 @@
       "paras": [
         "A fabric shaver combines a small motor, a blade assembly and a perforated guard in a hand-held housing. Wikipedia describes the rotating blade as sitting under a net, which lets fuzz and pills pass through while limiting contact with the fabric.[1] Grokipedia, an AI-generated source, adds that a collection compartment holds trimmed debris, that guard perforations are small, and that some models offer variable speeds; it also describes non-electric versions that use rollers or combs.[2]",
         "Pills are small balls of tangled fibre that form on a fabric surface through friction during wear and washing. The device is a different tool from the adhesive lint roller and the lint brush, which lift loose lint rather than cutting off attached pills.[1][2]"
+      ]
+    },
+    {
+      "h": "Pilling and why shavers are used",
+      "paras": [
+        "A pill, also called a bobble or fuzzball, is a tiny clump of fibres that stays attached to the fabric through unbroken fibres anchored in the cloth. Pilling usually appears where clothing rubs most, such as collars and cuffs.[3] Wikipedia reports that wool, cotton, polyester, nylon and acrylic pill more than linen and silk, that knitted fabrics pill more than woven ones, and that wool pills can loosen over time while strong synthetics tend to hold them in place.[3] It adds that pills rarely affect how a textile functions, though a heavily pilled area can thin and eventually develop a hole.[3]"
       ]
     },
     {
@@ -65,15 +89,64 @@
     }
   ],
   "timeline": [
-    { "year": "1948", "event": "Early lint-remover designs appear on the US market.[1]" },
-    { "year": "1956", "event": "Nicholas McKay conceives the Lint Pic-Up adhesive roller.[1]" },
-    { "year": "1987-1991", "event": "US design patents are filed and granted for electric pill-cutting devices, per Grokipedia.[2]" },
-    { "year": "2015", "event": "The Gleener manual fuzz remover is launched, per Grokipedia.[2]" }
+    {
+      "year": "1948",
+      "event": "Early lint-remover designs appear on the US market.[1]"
+    },
+    {
+      "year": "1956",
+      "event": "Nicholas McKay conceives the Lint Pic-Up adhesive roller.[1]"
+    },
+    {
+      "year": "1987-1991",
+      "event": "US design patents are filed and granted for electric pill-cutting devices, per Grokipedia.[2]"
+    },
+    {
+      "year": "2015",
+      "event": "The Gleener manual fuzz remover is launched, per Grokipedia.[2]"
+    }
   ],
   "lore": null,
   "refs": [
-    { "id": 1, "title": "Lint remover", "url": "https://en.wikipedia.org/wiki/Lint_remover", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Fabric shaver", "url": "https://grokipedia.com/page/Fabric_shaver", "source": "Grokipedia", "year": 2025, "type": "encyclopedia" }
+    {
+      "id": 1,
+      "title": "Lint remover",
+      "url": "https://en.wikipedia.org/wiki/Lint_remover",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Fabric shaver",
+      "url": "https://grokipedia.com/page/Fabric_shaver",
+      "source": "Grokipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "Pill (textile) (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Pill_(textile)",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    }
   ],
-  "webSources": []
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Pill_(textile)",
+      "title": "Pill (textile) - Wikipedia"
+    }
+  ],
+  "angle": {
+    "goal": "Style / clothing",
+    "chain": [
+      "Blade under a guard trims pills and fuzz",
+      "Knit surface looks smooth again",
+      "Worn clothing looks newer and better kept"
+    ],
+    "effect": "direct",
+    "text": "The shaver removes the fuzz balls that make sweaters and knits look worn, so the same garment looks cleaner and more put-together. The effect lasts until new pills form with further wear and washing."
+  }
 }

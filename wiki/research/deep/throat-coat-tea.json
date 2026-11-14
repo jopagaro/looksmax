@@ -1,7 +1,9 @@
 {
  "name": "Throat Coat tea",
  "lead": [
-  "Throat Coat tea refers to herbal teas sold for throat comfort, commonly built around slippery elm, a plant whose inner bark has long been used in folk medicine for sore throat and sold in the US as an over-the-counter demulcent. [1] Singers and voice-conscious communities use such teas for soothing. No clinical studies of these teas were found."
+  "Throat Coat tea refers to herbal teas sold for throat comfort, commonly built around slippery elm, a plant whose inner bark has long been used in folk medicine for sore throat. [1] People who rely on their voice, such as singers and speakers, drink such teas to soothe the throat before or after heavy voice use, and some in voice-conscious communities do so to keep their voice sounding clear and comfortable.",
+  "Slippery elm bark is described as a demulcent, a soothing agent for irritated mucous membranes, and it is still sold over the counter in the US for that purpose. [1] Wikipedia describes demulcents as mucilaginous preparations that form a soothing film over the membrane, and notes that their relief generally lasts under 30 minutes. [2] Examples listed alongside slippery elm include marshmallow root, licorice root, pectin and honey. [2]",
+  "No clinical studies of Throat Coat-style teas were found. The Wikipedia entry on slippery elm cites no clinical trials of efficacy; its medicinal statements rest on traditional use. [1]"
  ],
  "infobox": [
   [
@@ -10,14 +12,39 @@
   ],
   [
    "Key ingredient (typical)",
-   "Slippery elm bark"
+   "Slippery elm inner bark [1]"
+  ],
+  [
+   "Related herbs",
+   "Marshmallow root, licorice root [2]"
+  ],
+  [
+   "Mode of action (described)",
+   "Demulcent coating of irritated mucous membranes [2]"
+  ],
+  [
+   "Status",
+   "Sold over the counter in the US [1]"
   ]
  ],
  "sections": [
   {
    "h": "Ingredients",
    "paras": [
+    "Slippery elm (Ulmus rubra) gets its common name from its mucilaginous inner bark. Native Americans ate the inner bark raw or boiled, and it has been taken by mouth in folk medicine for sore throat and digestive upset. [1] Dried, ground bark or leaves can be made into a tea. [1]",
     "The Wikipedia entry on slippery elm cites no clinical trials of efficacy; its medicinal claims rest on reference works. [1]"
+   ]
+  },
+  {
+   "h": "How it is described to work",
+   "paras": [
+    "Demulcents form a protective film over mucous membranes that relieves minor pain and inflammation, and the relief is brief, generally under 30 minutes. [2] Wikipedia's demulcent article cites a 2011 clinical inquiry on sore-throat pain relief but does not report its findings. [2]"
+   ]
+  },
+  {
+   "h": "Use in communities",
+   "paras": [
+    "On T Nation, a thread on home remedies includes a brief comment that the tea is \"fabulous\". [3]"
    ]
   },
   {
@@ -28,7 +55,17 @@
   }
  ],
  "timeline": [],
- "lore": null,
+ "lore": {
+  "intro": "Throat Coat tea comes up occasionally in training forums as a home remedy for throat discomfort.",
+  "claims": [
+   {
+    "claim": "Throat Coat tea soothes a sore throat",
+    "believers": "A T Nation user in a remedies thread called it \"fabulous\".[3]",
+    "experts": "Wikipedia describes slippery elm as a traditional demulcent that coats mucous membranes briefly; no clinical trials of the tea were found.[1][2]",
+    "evidence": "untested"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -37,12 +74,32 @@
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Demulcent",
+   "url": "https://en.wikipedia.org/wiki/Demulcent",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "T-Man Remedies",
+   "url": "https://t-nation.com/t/t-man-remedies/116147",
+   "source": "T Nation",
+   "year": 2008,
+   "type": "forum"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Ulmus_rubra",
-   "title": "Ulmus rubra (Wikipedia)"
+   "title": "Ulmus rubra"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Demulcent",
+   "title": "Demulcent"
   }
  ],
  "card": {
@@ -60,5 +117,15 @@
   "overview": "Throat teas are drunk for comfort before or after heavy voice use.\n\nThey rest on traditional use rather than trial data.",
   "mechanism": "Slippery elm is described as a demulcent, a coating soothing agent. [1]",
   "risks": "The sources reviewed did not describe adverse effects."
+ },
+ "angle": {
+  "goal": "Voice and throat comfort",
+  "chain": [
+   "Tea with slippery elm (a mucilage-rich bark) is sipped warm",
+   "Mucilage coats the throat lining briefly",
+   "Throat feels soothed, so speaking or singing is more comfortable"
+  ],
+  "effect": "indirect",
+  "text": "Voice users drink the tea to ease a scratchy or irritated throat so their speaking or singing voice feels clearer and more comfortable. The soothing is described as brief and relies on traditional use."
  }
 }

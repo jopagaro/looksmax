@@ -1,56 +1,236 @@
 {
-"name": "Benzphetamine",
-"lead": [
-"Benzphetamine (brand name Didrex, among others) is a prescription sympathomimetic amine used as an appetite suppressant. In the United States it is labelled as a short-term adjunct, lasting a few weeks, to a calorie-restricted weight-reduction regimen for people with a body mass index of 30 kg/m2 or higher who have not responded to diet and exercise alone. [1][2][3]",
-"It is related to amphetamines and is described as a prodrug that the body converts to amphetamine and methamphetamine. [3][1] It is a controlled substance, listed in Schedule III in the US. [3][1]",
-"Its relevance to appearance culture is as one of the older prescription anorectics used for fat loss. The US label states the drug is not for long-term use, and no published community material about it is catalogued here."
-],
-"infobox": [
-["Drug class","Sympathomimetic amine, anorectic"],
-["Route","Oral"],
-["Brand names","Didrex [3]"],
-["US legal status","Schedule III controlled substance, prescription only [3]"],
-["UK / Canada","Class C (UK); Schedule I (Canada) [3]"],
-["US approval","1960, per Grokipedia [1]"]
-],
-"sections": [
-{"h":"Uses","subs":[{"h":"Medical uses","paras":[
-"The US label indicates benzphetamine for the management of exogenous obesity as a short-term adjunct to caloric restriction in patients with a BMI of 30 kg/m2 or higher who have not responded to diet or exercise alone. [2] Grokipedia states the drug was approved in 1960 and that clinical trials showed modest additional weight loss over placebo that plateaued after the early weeks, with tolerance developing. [1] These trial figures come from an AI-generated source and were not verified against primary trial reports."
-]}]},
-{"h":"Adverse effects","paras":[
-"The label lists palpitations, tachycardia and elevated blood pressure among cardiovascular effects, along with central nervous system effects such as overstimulation, restlessness and insomnia. [2] It warns against combining benzphetamine with other anorectic agents. [2]",
-"The label notes a case-control study in which anorectic drugs used for longer than three months were associated with a 23-fold increase in the risk of pulmonary hypertension, a rare and often fatal condition. [2] Valvular heart disease has been reported with some anorectics such as fenfluramine and dexfenfluramine; the label says no such cases had been reported with benzphetamine. [2] The drug is contraindicated in pregnancy. [2] Listed contraindications include advanced arteriosclerosis, symptomatic cardiovascular disease, hyperthyroidism, glaucoma, agitation, a history of drug misuse and recent monoamine oxidase inhibitor use. [3][1]"
-]},
-{"h":"Pharmacology","paras":[
-"Benzphetamine is thought to act like other amphetamines by promoting release of norepinephrine and dopamine in the hypothalamic feeding center, reducing appetite; Wikipedia notes its exact mechanism is not fully established. [3] Tachyphylaxis and tolerance to appetite-suppressing effects are described for the class. [3] Wikipedia gives its elimination half-life as 4 to 6 hours, while Grokipedia gives 16 to 31 hours, so published figures differ. [3][1] Plasma protein binding is listed as 75 to 99%. [3]"
-]},
-{"h":"Society and culture","paras":[
-"Benzphetamine is scheduled differently across countries: Schedule III in the US, Schedule I in Canada, Class C in the UK, prescription-only (S4) in Australia, and restricted to authorised scientific use in Germany. [3] Wikipedia describes the US Schedule III listing as unusual for an amphetamine-related drug. [3] It is the parent compound of the related anorectic clobenzorex. [3]"
-]},
-{"h":"Clinical studies","paras":[
-"No studies found."
-]}
-],
-"timeline": [{"year":"1960","event":"US FDA approval, according to Grokipedia. [1]"}],
-"lore": null,
-"refs": [
-{"id":1,"title":"Benzphetamine","url":"https://grokipedia.com/page/Benzphetamine","source":"Grokipedia","year":2025,"type":"encyclopedia"},
-{"id":2,"title":"Benzphetamine hydrochloride tablets (US drug label)","url":"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=14d4589d-7f1c-4b6e-9557-59dad39b0960","source":"DailyMed","year":2024,"type":"label"},
-{"id":3,"title":"Benzphetamine","url":"https://en.wikipedia.org/wiki/Benzphetamine","source":"Wikipedia","year":2025,"type":"encyclopedia"}
-],
-"webSources": [{"url":"https://en.wikipedia.org/wiki/Benzphetamine","title":"Benzphetamine - Wikipedia"}],
-"card": {
-"summary": "Old-school prescription amphetamine-type appetite suppressant labelled for a few weeks of use in obesity; Schedule III and not a cosmetic drug.",
-"aka": "Didrex, benzfetamine",
-"evidence": "limited",
-"status": "rx",
-"price": null,
-"note": "Controlled substance; label warns of pulmonary hypertension risk with use beyond three months.",
-"structure": "Benzphetamine"
-},
-"quick": {
-"overview": "Benzphetamine is a prescription appetite suppressant related to amphetamine. In the US it is approved only for short-term use alongside a reduced-calorie diet in people with obesity.\n\nIt is a controlled substance and is not approved for cosmetic weight loss.",
-"mechanism": "It is thought to increase norepinephrine and dopamine release in the brain's feeding centers, reducing appetite, and is converted in the body to amphetamine-type metabolites.",
-"risks": "Reported effects include raised heart rate and blood pressure, insomnia and restlessness. The label cites an association between long-term anorectic use and pulmonary hypertension and contraindicates use in pregnancy. It is Schedule III in the US."
-}
+  "name": "Benzphetamine",
+  "card": {
+    "summary": "Old-school prescription amphetamine-type appetite suppressant labelled for a few weeks of use in obesity; Schedule III and not a cosmetic drug.",
+    "aka": "Didrex, benzfetamine",
+    "evidence": "limited",
+    "status": "rx",
+    "price": null,
+    "note": "Controlled substance; label warns of pulmonary hypertension risk with use beyond three months.",
+    "structure": "Benzphetamine"
+  },
+  "quick": {
+    "overview": "Benzphetamine is a prescription appetite suppressant related to amphetamine. In the US it is approved only for short-term use alongside a reduced-calorie diet in people with obesity.\n\nIt is a controlled substance and is not approved for cosmetic weight loss.",
+    "mechanism": "It is thought to increase norepinephrine and dopamine release in the brain's feeding centers, reducing appetite, and is converted in the body to amphetamine-type metabolites.",
+    "risks": "Reported effects include raised heart rate and blood pressure, insomnia and restlessness. The label cites an association between long-term anorectic use and pulmonary hypertension and contraindicates use in pregnancy. It is Schedule III in the US."
+  },
+  "lead": [
+    "Benzphetamine (brand name Didrex, also spelled benzfetamine) is a prescription appetite suppressant. It is used to reduce hunger so that a person eating fewer calories can lose body fat, which in turn changes how the face and body look: a smaller waist, a slimmer face and more visible muscle definition. In the United States it is labelled as a short-term adjunct, a few weeks, to a calorie-restricted weight-reduction regimen for adults with a body mass index of 30 or higher who have not responded to diet and exercise alone.[1][2]",
+    "It belongs to the sympathomimetic amine class alongside phentermine, diethylpropion and phendimetrazine, the older anorectics approved only for short-term use.[3][4] It is described as a prodrug that the body converts into amphetamine and methamphetamine, and it is a Schedule III controlled substance in the US, which Wikipedia notes is unusual for an amphetamine-related drug.[2][5]",
+    "Benzphetamine is a medical drug, not a cosmetic product, and the label does not describe it for cosmetic weight reduction.[1][5] Within appearance and bodybuilding culture it appears mostly as one of the older fat-loss prescription stimulants, and it is also named on anti-doping prohibited-stimulant lists that circulate in training forums.[6]"
+  ],
+  "angle": {
+    "goal": "Fat loss / leanness",
+    "chain": [
+      "Reduces appetite",
+      "Lower calorie intake",
+      "Body-fat loss",
+      "Leaner face and body"
+    ],
+    "effect": "indirect",
+    "text": "By blunting hunger, benzphetamine makes a calorie-restricted diet easier to follow for a few weeks, and the resulting fat loss is what changes appearance. It is a prescription drug for clinical obesity rather than a cosmetic aid."
+  },
+  "infobox": [
+    [
+      "Drug class",
+      "Sympathomimetic amine, anorectic"
+    ],
+    [
+      "Route",
+      "Oral"
+    ],
+    [
+      "Brand names",
+      "Didrex, others"
+    ],
+    [
+      "Prodrug of",
+      "Amphetamine and methamphetamine"
+    ],
+    [
+      "US legal status",
+      "Schedule III controlled substance, prescription only"
+    ],
+    [
+      "Elsewhere",
+      "Class C (UK); Schedule I (Canada); Schedule 4 (Australia)"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Uses",
+      "subs": [
+        {
+          "h": "Medical uses",
+          "paras": [
+            "The US label indicates benzphetamine for the management of exogenous obesity as a short-term adjunct to caloric restriction in patients with a BMI of 30 kg/m2 or higher who have not responded to appropriate weight-reduction efforts.[1] Reviews group it with diethylpropion, phendimetrazine and phentermine as the sympathomimetic drugs approved only for short-term use, in contrast with newer medications approved for longer treatment.[3][4]",
+            "Grokipedia reports that the drug was approved in 1960 and that trials showed modest additional weight loss over placebo that plateaued after the early weeks as tolerance developed; that source is AI-generated and these figures were not checked against trial reports.[7]"
+          ]
+        },
+        {
+          "h": "Cosmetic / appearance uses",
+          "paras": [
+            "Appetite suppressants are discussed as adjuncts to diet and physical activity, and a drug-insight review describes them as helpful adjuncts for selected patients aiming to achieve and maintain weight loss.[4] Any change in appearance from benzphetamine comes through that fat loss. The US label states the drug is intended for obesity management rather than cosmetic use.[1]"
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Adverse effects",
+      "paras": [
+        "The label lists palpitations, tachycardia and elevated blood pressure among cardiovascular effects, along with central nervous system effects such as overstimulation, restlessness and insomnia.[1] It warns against combining benzphetamine with other anorectic agents, including over-the-counter and herbal products.[1]",
+        "The label cites a case-control study in which anorectic drugs used for longer than three months were associated with a 23-fold increase in the risk of pulmonary hypertension, a rare and often fatal condition.[1] Valvular heart disease has been reported with some other anorectics such as fenfluramine and dexfenfluramine; the label states that no such cases had been reported with benzphetamine.[1] The drug is contraindicated in pregnancy.[1] Contraindications also include advanced arteriosclerosis, symptomatic cardiovascular disease, hyperthyroidism, glaucoma, agitation, a history of drug misuse and recent monoamine oxidase inhibitor use.[5]",
+        "A review of obesity-drug safety notes that the safety record of obesity drugs has historically been poor, citing withdrawn drugs, and reviews the safety of benzphetamine among the currently available agents.[8] Wikipedia lists dependence liability as high.[5]"
+      ]
+    },
+    {
+      "h": "Pharmacology",
+      "paras": [
+        "Benzphetamine is thought to act like other amphetamines by promoting release of norepinephrine and dopamine in the hypothalamic feeding centre, reducing appetite; its exact mechanism is not fully established.[5] Tolerance and tachyphylaxis to the appetite-suppressing effect are described for the class.[5]",
+        "Wikipedia gives an elimination half-life of about 4 to 6 hours and notes that the drug is highly protein-bound and converted in the body to dextroamphetamine and dextromethamphetamine.[5] Grokipedia gives a longer half-life, so published figures differ.[7] A 1987 human laboratory study examined the reinforcing and subjective effects of several anorectics, benzphetamine among them, in healthy volunteers.[9]"
+      ]
+    },
+    {
+      "h": "History and society",
+      "paras": [
+        "Grokipedia gives a US approval year of 1960.[7] Legal status varies: Schedule III in the US, Schedule I in Canada, Class C in the UK, prescription-only (Schedule 4) in Australia, Class F2 in Brazil, and restricted to authorised scientific use in Germany.[5] It is the parent compound of the related anorectic clobenzorex.[5]",
+        "Benzphetamine appears on World Anti-Doping Agency prohibited stimulant lists that T Nation members have posted in supplement and drug-testing threads, and a 2003 thread lists Didrex among several prescription drugs a poster described holding.[6][10]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "Published human work includes a 1969 controlled trial comparing single and divided doses of benzphetamine hydrochloride for pharmacodynamic activity, and a 1987 controlled trial of its reinforcing and subjective effects in healthy volunteers.[9][11] Reviews of weight-loss pharmacotherapy summarise it as one of the short-term sympathomimetic options.[3][4] A 2025 Cureus editorial discusses a theoretical potential of benzphetamine in ADHD.[12] No studies found examining benzphetamine for facial appearance or cosmetic outcomes."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1960",
+      "event": "US approval of benzphetamine, according to Grokipedia (AI-generated).[7]"
+    },
+    {
+      "year": "1969",
+      "event": "A controlled trial compares single and divided doses of benzphetamine hydrochloride.[11]"
+    },
+    {
+      "year": "1987",
+      "event": "A controlled study examines reinforcing and subjective effects of benzphetamine and other anorectics in volunteers.[9]"
+    }
+  ],
+  "lore": {
+    "intro": "Benzphetamine is rarely the subject of looksmaxxing threads; in bodybuilding forums it turns up in lists of banned stimulants and in poster inventories of prescription drugs.[6][10]",
+    "claims": [
+      {
+        "claim": "Didrex is an older prescription option for dropping fat quickly",
+        "believers": "A 2003 T Nation poster listed Didrex among prescription drugs they held in connection with bodybuilding, reflecting its image as a fat-loss stimulant.[10]",
+        "experts": "The US label limits use to a few weeks as an adjunct to calorie restriction in obesity and warns of pulmonary hypertension risk with longer anorectic use.[1]",
+        "evidence": "harms"
+      }
+    ]
+  },
+  "refs": [
+    {
+      "id": 1,
+      "title": "Benzphetamine hydrochloride tablets (US drug label)",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=14d4589d-7f1c-4b6e-9557-59dad39b0960",
+      "source": "DailyMed",
+      "year": 2024,
+      "type": "label"
+    },
+    {
+      "id": 2,
+      "title": "Benzphetamine",
+      "url": "https://en.wikipedia.org/wiki/Benzphetamine",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "Pharmacological management of obesity",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28462579/",
+      "source": "Minerva Endocrinologica",
+      "year": 2018,
+      "type": "review"
+    },
+    {
+      "id": 4,
+      "title": "Drug Insight: appetite suppressants",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16265126/",
+      "source": "Nature Clinical Practice Gastroenterology & Hepatology",
+      "year": 2005,
+      "type": "review"
+    },
+    {
+      "id": 5,
+      "title": "Benzphetamine (Wikipedia: pharmacology, contraindications, legal status)",
+      "url": "https://en.wikipedia.org/wiki/Benzphetamine",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 6,
+      "title": "DHEA in Jack3d (T Nation thread)",
+      "url": "https://t-nation.com/t/dhea-in-jack3d/160007",
+      "source": "T Nation forum",
+      "year": 2011,
+      "type": "forum"
+    },
+    {
+      "id": 7,
+      "title": "Benzphetamine",
+      "url": "https://grokipedia.com/page/Benzphetamine",
+      "source": "Grokipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 8,
+      "title": "Safety of obesity drugs",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16255666/",
+      "source": "Expert Opinion on Drug Safety",
+      "year": 2005,
+      "type": "review"
+    },
+    {
+      "id": 9,
+      "title": "Reinforcing and subjective effects of several anorectics in normal human volunteers",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3656112/",
+      "source": "Journal of Pharmacology and Experimental Therapeutics",
+      "year": 1987,
+      "type": "trial"
+    },
+    {
+      "id": 10,
+      "title": "Perscription Drugs Application to BBing (T Nation thread)",
+      "url": "https://t-nation.com/t/perscription-drugs-application-to-bbing/30917",
+      "source": "T Nation forum",
+      "year": 2003,
+      "type": "forum"
+    },
+    {
+      "id": 11,
+      "title": "Comparative pharmacodynamic activity of single and divided doses of benzphetamine hydrochloride",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/4901011/",
+      "source": "Journal of Pharmaceutical Sciences",
+      "year": 1969,
+      "type": "trial"
+    },
+    {
+      "id": 12,
+      "title": "Exploring the Theoretical Potential of Benzphetamine in the Treatment of Attention-Deficit/Hyperactivity Disorder (ADHD)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41476437/",
+      "source": "Cureus",
+      "year": 2025,
+      "type": "review"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Benzphetamine",
+      "title": "Benzphetamine"
+    }
+  ]
 }

@@ -1,63 +1,131 @@
 {
-  "name": "Hypochlorous acid spray",
-  "lead": [
-    "Hypochlorous acid (HOCl) spray is a mist containing a dilute solution of hypochlorous acid, a weak acid that forms when chlorine dissolves in water. It is marketed as a skin-safe antimicrobial for face and body care [1].",
-    "HOCl is also made naturally by neutrophils, which use it to kill microbes [1]. Since 2016 the US FDA has cleared products with HOCl as the main active ingredient for treating wounds and infections, and it is approved as a saline preservative [1]. No clinical studies of HOCl sprays for cosmetic appearance outcomes such as acne were identified."
+ "name": "Hypochlorous acid spray",
+ "lead": [
+  "Hypochlorous acid (HOCl) spray is a mist containing a dilute solution of hypochlorous acid, a weak acid that forms when chlorine dissolves in water. It is sold as a gentle, skin-compatible antimicrobial for the face and body, and people use it as a quick spritz to keep skin clean and calm in pursuit of clearer-looking skin.[1]",
+  "HOCl is also made naturally in the body: neutrophils, a type of white blood cell, generate it through the enzyme myeloperoxidase to help destroy microbes.[1] Since early 2016 the US FDA has approved products whose main active ingredient is hypochlorous acid for treating wounds and various infections in people and pets, and it is also FDA-approved as a preservative for saline solutions.[1]",
+  "Its antimicrobial action comes from oxidation of microbial proteins, DNA, lipids and energy-producing systems, and in a clinical test it was found non-toxic and non-irritating to eye and skin.[1] No clinical studies of HOCl sprays for cosmetic outcomes such as acne or skin clarity were found; documented research concerns wound care and eyelid hygiene."
+ ],
+ "angle": {
+  "goal": "Clear skin",
+  "chain": [
+   "Mist applied to skin",
+   "Reduces microbes on the surface without a harsh, irritating wash",
+   "Cleaner, calmer-looking skin"
   ],
-  "infobox": [
-    ["Type", "Antimicrobial mist"],
-    ["Active ingredient", "Hypochlorous acid"],
-    ["Shelf life", "Short; solutions degrade to salt water [1]"],
-    ["Regulatory", "FDA-approved wound-care products since 2016 [1]"],
-    ["Typical price", "Not specified in sources"]
+  "effect": "claimed",
+  "text": "People use HOCl sprays as a light-touch antimicrobial step for the face and body, for example after cleansing or shaving, aiming for fewer breakouts and calmer skin. The use is based on its established antimicrobial properties rather than on appearance trials."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Antimicrobial mist"
   ],
-  "sections": [
-    {
-      "h": "How it works",
-      "paras": [
-        "HOCl oxidises sulfur-containing proteins in microbes, causing cross-linking and aggregation, and damages membranes and energy production [1]."
-      ]
-    },
-    {
-      "h": "Uses",
-      "paras": [
-        "Uses described include wound care, eyelid hygiene, and disinfection sprays and wipes [1]. A 2017 study reported that a saline eyelid solution preserved with HOCl cut staphylococci by over 99% after 20 minutes without disrupting overall bacterial diversity, and it was non-irritating on testing [1]. A 2025 case report of refractory dry eye disease lists hypochlorous acid spray among earlier treatments that gave limited relief [2]."
-      ]
-    },
-    {
-      "h": "Safety and stability",
-      "paras": [
-        "The US EPA classifies it as non-hazardous, though as an oxidiser it may irritate or corrode depending on concentration and pH [1]. Solutions lose potency over time, and storage away from heat and light slows this [1]."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": ["No studies found for appearance or acne outcomes of HOCl sprays. Studies noted above concern eyelid hygiene and wound care [1][2]."]
-    }
+  [
+   "Active ingredient",
+   "Hypochlorous acid (HOCl)"
   ],
-  "timeline": [
-    {"year": "2016", "event": "FDA begins approving HOCl-based wound and infection treatments [1]."}
+  [
+   "Discovered",
+   "1834, by chemist Antoine Jerome Balard"
   ],
-  "lore": null,
-  "refs": [
-    {"id": 1, "title": "Hypochlorous acid", "url": "https://en.wikipedia.org/wiki/Hypochlorous_acid", "source": "Wikipedia", "year": 2026, "type": "encyclopedia"},
-    {"id": 2, "title": "Recalcitrant Dry Eye Disease in a 31-Year-Old Female: Favorable Outcomes Following Complete Ocular Lavage Facilitated by an Irrigating Eyelid Retractor", "url": "https://pubmed.ncbi.nlm.nih.gov/40062090/", "source": "Cureus", "year": 2025, "type": "study"}
+  [
+   "Shelf life",
+   "Short; solutions degrade back to salt water"
   ],
-  "webSources": [
-    {"url": "https://en.wikipedia.org/wiki/Hypochlorous_acid", "title": "Hypochlorous acid - Wikipedia"}
+  [
+   "Regulatory",
+   "FDA-approved wound-care products since 2016; approved saline preservative"
   ],
-  "card": {
-    "summary": "Mist version of a chemical your white blood cells make; established in wound and eyelid care, untested for looks.",
-    "aka": "HOCl spray",
-    "evidence": "limited",
-    "outcome": "temporary",
-    "price": null,
-    "note": "Short shelf life; no appearance trials found.",
-    "structure": null
+  [
+   "Safety class",
+   "Non-hazardous per US EPA"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Hypochlorous acid has the formula HOCl and exists in equilibrium with the hypochlorite anion; both act as oxidisers and are the main disinfecting species in chlorine solutions.[1] Sodium hypochlorite, the active ingredient of household bleach, is a related compound, whereas HOCl itself is the weak acid used in mists and eyelid and wound products.[1]",
+    "HOCl was discovered in 1834 by Antoine Jerome Balard, who also named it. It is easy to make but hard to keep stable, and cost-effective production of stable solutions for commercial use developed only in recent years; most hypochlorous acid water still has a short shelf life.[1]"
+   ]
   },
-  "quick": {
-    "overview": "A hypochlorous acid spray is a mild antimicrobial mist used on skin. HOCl is the same chemical neutrophils make to kill microbes.\n\nIt has regulatory clearance and studies in wound and eyelid care, but none specific to cosmetic outcomes were found.",
-    "mechanism": "HOCl oxidises microbial proteins and damages membranes. In one study, an HOCl eyelid solution cut staphylococci by over 99% in 20 minutes.",
-    "risks": "The EPA classes it as non-hazardous, though as an oxidiser it can irritate depending on concentration. Solutions degrade and lose potency with time, heat and light."
+  {
+   "h": "How it works",
+   "paras": [
+    "HOCl reacts with many biomolecules. It oxidises sulfur-containing groups in proteins, causing cross-linking, and affects DNA, lipids and amino acids; proposed explanations for bacterial killing include inhibited glucose oxidation, depletion of adenine nucleotides, inhibited DNA replication and protein unfolding and aggregation, and the source notes these mechanisms are still discussed.[1]"
+   ]
+  },
+  {
+   "h": "Uses",
+   "paras": [
+    "Described uses are wound care, eyelid hygiene, and disinfection through sprays, wipes and aerosols.[1] A 2017 study reported that a saline eyelid solution preserved with HOCl cut staphylococci by over 99 percent after 20 minutes without changing the overall diversity of bacteria on the eyelids.[1] A 2025 case report of refractory dry eye lists a hypochlorous acid spray among earlier treatments that gave limited relief.[2]",
+    "Skin-care sprays apply the same chemistry as a daily mist for the face and body. Because the molecule is made by the body's own immune cells, products are positioned as gentle on skin."
+   ]
+  },
+  {
+   "h": "Safety and stability",
+   "paras": [
+    "The US EPA classifies HOCl as non-hazardous, although as an oxidiser it can be corrosive or irritating depending on concentration and pH; a clinical test of hypochlorous acid water found it non-toxic and non-irritating to eyes and skin.[1] Solutions lose potency over time, and storage away from heat and direct sunlight slows deterioration.[1]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found for appearance or acne outcomes of HOCl sprays. Related research includes the 2017 eyelid hygiene study and clinical use in wound care and infections.[1][2]"
+   ]
   }
+ ],
+ "timeline": [
+  {
+   "year": "1834",
+   "event": "Antoine Jerome Balard discovers hypochlorous acid.[1]"
+  },
+  {
+   "year": "2016",
+   "event": "FDA has approved HOCl-based products for wounds and infections and as a saline preservative.[1]"
+  },
+  {
+   "year": "2017",
+   "event": "Study reports an HOCl-preserved eyelid solution reduced staphylococci by over 99 percent in 20 minutes.[1]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Hypochlorous acid",
+   "url": "https://en.wikipedia.org/wiki/Hypochlorous_acid",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Recalcitrant Dry Eye Disease in a 31-Year-Old Female: Favorable Outcomes Following Complete Ocular Lavage Facilitated by an Irrigating Eyelid Retractor",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40062090/",
+   "source": "Cureus",
+   "year": 2025,
+   "type": "study"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Hypochlorous_acid",
+   "title": "Hypochlorous acid - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "Mist version of a chemical your white blood cells make; established in wound and eyelid care, untested for looks.",
+  "aka": "HOCl spray",
+  "evidence": "limited",
+  "outcome": "temporary",
+  "price": null,
+  "note": "Short shelf life; no appearance trials found.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "A hypochlorous acid spray is a mild antimicrobial mist used on skin. HOCl is the same chemical neutrophils make to kill microbes.\n\nIt has regulatory clearance and studies in wound and eyelid care, but none specific to cosmetic outcomes were found.",
+  "mechanism": "HOCl oxidises microbial proteins and damages membranes. In one study, an HOCl eyelid solution cut staphylococci by over 99% in 20 minutes.",
+  "risks": "The EPA classes it as non-hazardous, though as an oxidiser it can irritate depending on concentration. Solutions degrade and lose potency with time, heat and light."
+ }
 }

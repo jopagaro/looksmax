@@ -14,8 +14,9 @@
   "risks": "In the US, supplements may be sold without premarket approval, and some analyses cited by Wikipedia found mislabeling or undeclared drugs in certain categories. Biotin can interfere with lab tests."
  },
  "lead": [
-  "Beard growth supplements are branded oral products, often vitamin or herbal blends, promoted for facial hair. In the US they are regulated as dietary supplements, which can carry structure/function claims with an FDA disclaimer but are not required to be approved before sale.[1]",
-  "Reference sources report no randomized trials showing biotin helps hair in healthy people, and that dietary supplements are generally not recommended for hair loss.[2][3] No studies found address specific branded beard supplements."
+  "Beard growth supplements are branded oral products, usually vitamin and herbal blends such as biotin-based formulas, promoted for thicker, fuller facial hair. People take them hoping to fill in patchy areas and strengthen the beard they already have, as a lower-effort alternative to treatments such as minoxidil.[1][4]",
+  "Beard growth is driven mainly by hormones and genetics: Wikipedia reports that dihydrotestosterone stimulates follicles in the beard area, including after puberty, and that growth rate is inherited.[5] Marketing for supplements usually points to individual ingredients, especially biotin, which is involved in hair and nail biology.[2][3]",
+  "In the US these products are regulated as dietary supplements, which can carry structure/function claims with an FDA disclaimer but are not required to be approved before sale.[1] Reviews of biotin report limited evidence outside deficiency states and no randomized trials in healthy people.[2][3][6] No studies of specific branded beard supplements were found."
  ],
  "infobox": [
   [
@@ -29,6 +30,10 @@
   [
    "Common ingredients",
    "Biotin, vitamins, herbal extracts"
+  ],
+  [
+   "Beard growth drivers",
+   "DHT and genetics[5]"
   ]
  ],
  "sections": [
@@ -45,15 +50,22 @@
    ]
   },
   {
+   "h": "What determines beard growth",
+   "paras": [
+    "Wikipedia reports that DHT, made from testosterone, stimulates beard-area follicles and continues to act after puberty, and that beard growth rate is inherited.[5] Supplement makers generally describe their products as supporting hair rather than altering these drivers."
+   ]
+  },
+  {
    "h": "Biotin",
    "paras": [
-    "Biotin at 5 mg/day or more can interfere with thyroid and vitamin D immunoassays.[2]"
+    "Biotin at 5 mg/day or more can interfere with thyroid and vitamin D immunoassays.[6]",
+    "A 2017 systematic review in Skin Appendage Disorders found 18 reported cases of biotin use for hair and nail changes, all in patients with an underlying condition affecting growth, all improving, and concluded evidence is limited and insufficient to support supplementation in healthy people.[2] A 2017 review in the Journal of Drugs in Dermatology likewise reported no randomized trials of biotin for hair quality or quantity in humans and described its popularity as exceeding the supporting evidence.[3] A 2019 review of vitamins and minerals in hair loss describes micronutrients as playing an important but not fully clear role in follicle function, notes that deficiency may be a modifiable risk factor, and calls for large placebo-controlled trials.[4]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found."
+    "No studies found of branded beard growth supplements. Related research is limited to reviews of biotin and micronutrients for scalp hair, mainly in people with deficiencies or hair loss conditions.[2][3][4]"
    ]
   }
  ],
@@ -69,13 +81,44 @@
   },
   {
    "id": 2,
+   "title": "A Review of the Use of Biotin for Hair Loss",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28879195/",
+   "source": "Skin Appendage Disorders",
+   "year": 2017,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "The Infatuation With Biotin Supplementation: Is There Truth Behind Its Rising Popularity?",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28628687/",
+   "source": "Journal of Drugs in Dermatology",
+   "year": 2017,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "The Role of Vitamins and Minerals in Hair Loss: A Review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30547302/",
+   "source": "Dermatology and Therapy",
+   "year": 2019,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Beard (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Beard",
+   "source": "Wikipedia",
+   "type": "encyclopedia"
+  },
+  {
+   "id": 6,
    "title": "Biotin (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Biotin",
    "source": "Wikipedia",
    "type": "encyclopedia"
   },
   {
-   "id": 3,
+   "id": 7,
    "title": "Hair loss (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Hair_loss",
    "source": "Wikipedia",
@@ -94,6 +137,33 @@
   {
    "url": "https://en.wikipedia.org/wiki/Hair_loss",
    "title": "Hair loss (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Beard",
+   "title": "Beard (Wikipedia)"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28879195/",
+   "title": "A Review of the Use of Biotin for Hair Loss"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28628687/",
+   "title": "The Infatuation With Biotin Supplementation"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30547302/",
+   "title": "The Role of Vitamins and Minerals in Hair Loss"
   }
- ]
+ ],
+ "angle": {
+  "goal": "Facial hair",
+  "chain": [
+   "Take a vitamin or herbal beard blend",
+   "Supplies nutrients involved in hair growth (biotin, vitamins)",
+   "Claimed: stronger, thicker beard hair",
+   "Fuller-looking beard"
+  ],
+  "effect": "claimed",
+  "text": "Users take beard pills hoping to thicken facial hair and fill patchy areas. Brands typically cite ingredients such as biotin and other vitamins."
+ }
 }

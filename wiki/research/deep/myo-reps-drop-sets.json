@@ -1,83 +1,272 @@
 {
-  "name": "Myo-reps / drop sets",
-  "lead": [
-    "Drop sets and myo-reps are resistance-training intensity techniques meant to pack more hard repetitions into less time. A drop set continues exercising with a lighter weight after reaching muscle failure at a heavier one [1]. Myo-reps are a related method in which a lifter performs an initial high-effort set and then several short mini-sets with brief rests; a 2026 trial compared the approach with traditional straight sets in resistance-trained men [2].",
-    "Drop sets have a longer documented history: Henry Atkins, editor of Body Culture magazine, described the approach in the late 1940s as the multi-poundage system, and drop sets were part of Joe Weider's Weider System in the 1980s [1]. Encyclopedic coverage says drop sets may increase muscle growth more than traditional three-set training, while some researchers report mixed or inconclusive findings [1]."
+ "name": "Myo-reps / drop sets",
+ "card": {
+  "summary": "Time-saving to-failure set techniques; drop sets have a long history, myo-reps are newer and only just trialled.",
+  "aka": "myo-reps, myorep match, drop sets, multi-poundage system",
+  "evidence": "limited",
+  "risk": "low",
+  "note": "Few trials; findings are mixed.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Drop sets keep exercising with lighter weight after failure at a heavier one. Myo-reps use an activation set followed by short mini-sets with brief rests.\n\nSummaries report possible extra muscle growth from drop sets but mixed findings, and myo-reps have only recently been trialled against straight sets.",
+  "mechanism": "Both methods keep a muscle working near failure for more total repetitions in a short time, which advocates say raises the growth stimulus per minute.",
+  "risks": "Working to failure adds fatigue and soreness; general resistance-training injury risks apply. No technique-specific harm data were identified."
+ },
+ "lead": [
+  "Drop sets and myo-reps are resistance-training intensity techniques meant to pack more hard repetitions into less time, which lifters use to build muscle size more efficiently. A drop set continues exercising with a lighter weight immediately after reaching muscle failure at a heavier one. [1] Myo-reps are a related method in which a lifter performs one high-effort activation set and then several short mini-sets with brief rests. [2][3]",
+  "Drop sets have a long documented history: Henry Atkins, editor of Body Culture magazine, described the approach in the late 1940s as the \"multi-poundage system\", and drop sets were part of Joe Weider's Weider System in the 1980s. [1] Myo-reps are newer; a T Nation post credits Borge Fagerli with creating them as a type of rest-pause training. [3]",
+  "For physique-building, the appeal is more working sets near failure in a short session, which proponents say raises the muscle-growth stimulus per minute. A systematic review of drop sets found six studies with 142 participants, [4] and a 2026 meta-analysis of advanced training systems reported a small, significant pooled advantage over traditional training, driven mainly by strength outcomes. [5] A 2026 trial compared myo-reps with straight sets in resistance-trained men. [6]"
+ ],
+ "angle": {
+  "goal": "Muscle size",
+  "chain": [
+   "Sets continue near failure with lighter loads or short rests",
+   "More hard repetitions in less session time",
+   "More growth stimulus per workout, supporting a more muscular physique"
   ],
-  "infobox": [
-    ["Type", "Resistance-training intensity techniques"],
-    ["Drop-set origin", "Described late 1940s by Henry Atkins as the multi-poundage system [1]"],
-    ["Main aim", "More work near failure in less time"],
-    ["Evidence", "Limited, with mixed findings [1]"]
+  "effect": "indirect",
+  "text": "Lifters use drop sets and myo-reps to accumulate hard repetitions quickly, either to shorten sessions or to add intensity to isolation exercises for muscle gain. More muscle on the frame changes the physique. [1][7]"
+ },
+ "infobox": [
+  [
+   "Type",
+   "Resistance-training intensity techniques"
   ],
-  "sections": [
-    {
-      "h": "Description",
-      "paras": [
-        "Drop sets are most often done on weight machines but can also use dumbbells and other free weights [1]. Myo-reps pair a heavy-effort activation set with brief-rest mini-sets, and are promoted as a time-efficient alternative to several straight sets [2]."
-      ]
-    },
-    {
-      "h": "Research",
-      "paras": [
-        "An encyclopedic summary reports that, in adults in their 50s, 12 weeks of thrice-weekly drop-set training improved muscle mass, strength, endurance and functional tasks, and that other researchers have reported mixed or inconclusive results [1].",
-        "A study published in the Journal of Strength and Conditioning Research in 2026 examined session duration, muscle excitation and barbell velocity for a myo-reps protocol versus a traditional protocol in resistance-trained men, alongside a training comparison [2]. A registered trial also compares myo-reps with traditional sets for strength, fat-free mass and time efficiency [3]. Results beyond those described in the study titles are not summarised here."
-      ]
-    },
-    {
-      "h": "Use in looksmaxxing",
-      "paras": [
-        "These techniques appear in general muscle-building advice shared in physique communities. No forum material specific to the entry was identified."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "Human studies exist but are few. A 2026 trial compares myo-reps with straight sets in resistance-trained men [2], a registered 2025 trial examines strength, fat-free mass and time efficiency [3], and drop-set training has been studied in older adults [1]."
-      ]
-    }
+  [
+   "Drop-set origin",
+   "Described in the late 1940s by Henry Atkins as the multi-poundage system [1]"
   ],
-  "timeline": [
-    { "year": "late 1940s", "event": "Henry Atkins describes the multi-poundage system, an early drop-set approach [1]." },
-    { "year": "1980s", "event": "Drop sets feature in Joe Weider's Weider System [1]." },
-    { "year": "2026", "event": "Trial of myo-reps versus straight sets in resistance-trained men published [2]." }
+  [
+   "Myo-rep origin",
+   "Credited by a forum post to Borge Fagerli, as a rest-pause variant [3]"
   ],
-  "lore": {
-    "intro": "Lifters discuss myo-reps and drop sets as ways to save time while still training hard.",
-    "claims": [
-      {
-        "claim": "Myo-reps give the same muscle growth as straight sets in less time.",
-        "believers": "Proponents say the mini-sets keep most reps near failure, shortening workouts.",
-        "experts": "A 2026 trial of this comparison exists [2]; this article does not summarise its outcome, and the evidence base is small.",
-        "evidence": "untested"
-      },
-      {
-        "claim": "Drop sets build more muscle than conventional sets.",
-        "believers": "Advocates say extending the set past failure adds growth stimulus.",
-        "experts": "Encyclopedic summary reports possible greater growth versus three-set training and mixed findings from other researchers [1].",
-        "evidence": "mixed"
-      }
-    ]
+  [
+   "Main aim",
+   "More work near failure in less time"
+  ],
+  [
+   "Typical exercises",
+   "Machines, dumbbells and cable isolation moves [1][3]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Drop sets are most often done on weight machines but can also use dumbbells and other free weights. [1] Variations include fixed-rep steps, wide drops (30% or more per step) versus tight drops (roughly 10-25%), and \"down sets\" with rest between weights. [1]",
+    "Myo-reps pair an activation set, described on T Nation as roughly 9 to 25 or more reps, with up to several mini-sets of 3-5 reps separated by short rests. [3] The method is classed as a rest-pause variant and promoted as a time-efficient alternative to several straight sets. [3][2]"
+   ]
   },
-  "refs": [
-    { "id": 1, "title": "Drop set", "url": "https://en.wikipedia.org/wiki/Drop_set", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Similar Strength and Hypertrophic Adaptations in Less Time? Myo-Reps vs. Traditional Straight-Sets in Resistance-Trained Men", "url": "https://pubmed.ncbi.nlm.nih.gov/42112925/", "source": "Journal of Strength and Conditioning Research", "year": 2026, "type": "study" },
-    { "id": 3, "title": "Myo-Reps Versus Traditional Sets for Muscle Strength, Fat-Free Mass, and Time Efficiency (NCT07914361)", "url": "https://clinicaltrials.gov/study/NCT07914361", "source": "ClinicalTrials.gov", "year": 2025, "type": "trial" }
-  ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Drop_set", "title": "Drop set - Wikipedia" }
-  ],
-  "card": {
-    "summary": "Time-saving to-failure set techniques; drop sets have a long history, myo-reps are newer and only just trialled.",
-    "aka": "myo-reps, myorep match, drop sets, multi-poundage system",
-    "evidence": "limited",
-    "risk": "low",
-    "note": "Few trials; findings are mixed.",
-    "structure": null
+  {
+   "h": "Research and expert views",
+   "paras": [
+    "A narrative review of time-efficient training concluded that advanced techniques such as supersets, drop sets and rest-pause training can roughly halve session time compared with traditional training while maintaining training outcomes. [8] A systematic review of advanced techniques found drop and cluster sets may provide an additional stimulus relative to traditional training. [7]",
+    "Encyclopedic coverage says drop sets may increase muscle growth more than traditional three-set training and cites a 12-week study of adults in their 50s who improved muscle mass, strength, endurance and functional tasks, while noting that some researchers report mixed or inconclusive results. [1]",
+    "A 2026 meta-analysis of 23 studies in recreationally trained adults reported a small, statistically significant overall advantage for advanced systems (g = 0.159), a moderate benefit for strength (g = 0.351) and a small, non-significant effect for hypertrophy (g = 0.046). [5] A 2026 narrative review of 40 recent studies reported that several found no between-method differences, though small samples preclude conclusions of equivalence. [9]"
+   ]
   },
-  "quick": {
-    "overview": "Drop sets keep exercising with lighter weight after failure at a heavier one. Myo-reps use an activation set followed by short mini-sets with brief rests.\n\nSummaries report possible extra muscle growth from drop sets but mixed findings, and myo-reps have only recently been trialled against straight sets.",
-    "mechanism": "Both methods keep a muscle working near failure for more total repetitions in a short time, which advocates say raises the growth stimulus per minute.",
-    "risks": "Working to failure adds fatigue and soreness; general resistance-training injury risks apply. No technique-specific harm data were identified."
+  {
+   "h": "Reported risks",
+   "paras": [
+    "Working to failure adds fatigue and soreness, and the general injury risks of resistance training apply. No technique-specific harm data were located."
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing and physique communities",
+   "paras": [
+    "On T Nation, myo-reps appear regularly in training logs, for example on cable raises, tricep extensions, hammer curls and incline presses, [10][11][12] and one lifter noted that a 12-minute window left room for myo-reps. [13] Lifters also mention drop sets among a long list of intensity techniques for the concentric phase. [14]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A systematic review and meta-analysis of drop sets for hypertrophy included six studies and 142 participants aged 19-27. [4] A systematic review of advanced techniques included 30 articles. [7] A 2015 randomised trial in 14 male strength-trained athletes compared five lower-limb training protocols, including drop sets, using tensiomyography to assess neuromuscular function. [15]",
+    "A 2026 randomised comparison of rest-pause versus drop-set progressive overload assessed body composition and strength in 23 resistance-trained adults. [16] A 2026 study compared myo-reps and straight sets in resistance-trained men for strength, hypertrophy and time. [6] A registered trial (n=34) compares myo-reps with traditional sets for strength, fat-free mass and time efficiency. [6] A 2025 study found cluster sets and traditional sets produced similar hypertrophy when volume and effort were matched. [17]"
+   ]
   }
+ ],
+ "timeline": [
+  {
+   "year": "Late 1940s",
+   "event": "Henry Atkins describes the multi-poundage system, an early drop-set approach. [1]"
+  },
+  {
+   "year": "1980s",
+   "event": "Drop sets feature in Joe Weider's Weider System. [1]"
+  },
+  {
+   "year": "2019",
+   "event": "Systematic review of advanced resistance-training techniques published. [7]"
+  },
+  {
+   "year": "2023",
+   "event": "Systematic review and meta-analysis of drop sets for hypertrophy published. [4]"
+  },
+  {
+   "year": "2026",
+   "event": "Trials of myo-reps versus straight sets and rest-pause versus drop sets published. [6][16]"
+  }
+ ],
+ "lore": {
+  "intro": "Lifters on T Nation use myo-reps and drop sets as finishing techniques and time savers, and share them in training logs. [3][10][13]",
+  "claims": [
+   {
+    "claim": "Myo-reps give similar muscle growth to straight sets in less time",
+    "believers": "Proponents say the mini-sets keep most reps near failure, shortening workouts; a lifter described fitting them into a 12-minute window. [3][13]",
+    "experts": "A 2026 study compared myo-reps with straight sets in resistance-trained men, and a registered trial is also under way; the evidence base is small. [6][6]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Drop sets build more muscle than conventional sets",
+    "believers": "Advocates say extending the set past failure adds growth stimulus.",
+    "experts": "Wikipedia reports greater hypertrophy than three-set training and mixed findings from other researchers. [1] A 2026 meta-analysis found a small, non-significant hypertrophy effect for advanced systems. [5]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Myo-reps are an effective finisher for small muscle groups",
+    "believers": "Training logs show myo-reps on cable and isolation work such as triceps pushdowns and curls. [11][12]",
+    "experts": "No published study has examined this use specifically.",
+    "evidence": "untested"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Drop set (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Drop_set",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Similar Strength and Hypertrophic Adaptations in Less Time? Myo-Reps vs. Traditional Straight-Sets in Resistance-Trained Men",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42112925/",
+   "source": "J Strength Cond Res",
+   "year": 2026,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Just. Don't. Suck (Part 1)",
+   "url": "https://t-nation.com/t/just-dont-suck-part-1/228202",
+   "source": "T Nation",
+   "year": 2017,
+   "type": "forum"
+  },
+  {
+   "id": 4,
+   "title": "Effects of Drop Sets on Skeletal Muscle Hypertrophy: A Systematic Review and Meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37523092/",
+   "source": "Sports Med Open",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Effects of Advanced Resistance Training Systems on Muscle Hypertrophy and Strength in Recreationally Trained Adults",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41718208/",
+   "source": "J Funct Morphol Kinesiol",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Myo-Reps Versus Traditional Sets for Muscle Strength, Fat-Free Mass, and Time Efficiency (NCT07914361)",
+   "url": "https://clinicaltrials.gov/study/NCT07914361",
+   "source": "ClinicalTrials.gov",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Maximizing Muscle Hypertrophy: A Systematic Review of Advanced Resistance Training Techniques and Methods",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31817252/",
+   "source": "Int J Environ Res Public Health",
+   "year": 2019,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "No Time to Lift? Designing Time-Efficient Training Programs for Strength and Hypertrophy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34125411/",
+   "source": "Sports Med",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "Methods and Systems of Resistance Training: A Narrative Review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42646886/",
+   "source": "Sports (Basel)",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 10,
+   "title": "Bagsy's Training Log",
+   "url": "https://t-nation.com/t/bagsys-training-log/268106",
+   "source": "T Nation",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 11,
+   "title": "Velvet's Lifting and Other Fun Stuff Log",
+   "url": "https://t-nation.com/t/velvets-lifting-and-other-fun-stuff-log/234025",
+   "source": "T Nation",
+   "year": 2017,
+   "type": "forum"
+  },
+  {
+   "id": 12,
+   "title": "TCam's Log - The Road to Elite",
+   "url": "https://t-nation.com/t/tcams-log-the-road-to-elite/187939",
+   "source": "T Nation",
+   "year": 2015,
+   "type": "forum"
+  },
+  {
+   "id": 13,
+   "title": "Becoming Canis dirus - SvenG's Training Log",
+   "url": "https://t-nation.com/t/becoming-canis-dirus-svengs-training-log/273583",
+   "source": "T Nation",
+   "year": 2021,
+   "type": "forum"
+  },
+  {
+   "id": 14,
+   "title": "Demigod before 35 (Aldebaran)",
+   "url": "https://t-nation.com/t/demigod-before-35-aldebaran/260532",
+   "source": "T Nation",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 15,
+   "title": "Assessment of neuromuscular function after different strength training protocols using tensiomyography",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25474337/",
+   "source": "J Strength Cond Res",
+   "year": 2015,
+   "type": "trial"
+  },
+  {
+   "id": 16,
+   "title": "Comparison of Repetition-Based Progressive-Overload Strategies: Rest-Pause Versus Drop Sets",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42340141/",
+   "source": "Scand J Med Sci Sports",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 17,
+   "title": "Cluster sets and traditional sets elicit similar muscular hypertrophy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39932536/",
+   "source": "Eur J Appl Physiol",
+   "year": 2025,
+   "type": "study"
+  }
+ ]
 }

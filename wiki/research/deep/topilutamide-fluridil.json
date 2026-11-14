@@ -1,9 +1,9 @@
 {
  "name": "Topilutamide (Fluridil)",
  "lead": [
-  "Topilutamide, also called fluridil (code BP-766), is a topical nonsteroidal antiandrogen applied to the scalp for pattern hair loss in men and women. It is marketed as a 2% product, Eucapil, by Interpharma Praha [1][2].",
-  "Wikipedia describes it as approved for cosmetic use in Europe and sold only in the Czech Republic and Slovakia, with no FDA or EMA approval for androgenetic alopecia [1].",
-  "Evidence is limited to preclinical receptor studies and older small clinical reports described in secondary sources; the sources reviewed give no quantitative trial results [1]."
+  "Topilutamide, also called fluridil (code BP-766), is a topical nonsteroidal antiandrogen applied to the scalp for pattern hair loss in men and women. The idea is to block androgen receptors in the scalp itself so that follicles are less affected by DHT, helping hair stay thicker without changing hormone levels elsewhere in the body. It is marketed as a 2% product, Eucapil, by Interpharma Praha.[1][2]",
+  "Wikipedia describes it as approved for cosmetic use in Europe and sold only in the Czech Republic and Slovakia, with no FDA or EMA approval for androgenetic alopecia.[1] Its design is that it is hydrophobic, applies locally and breaks down in blood serum, which is the basis for claims of low systemic exposure.[1][3]",
+  "A 2002 study in Dermatologic Surgery reported that in 43 men with androgenetic alopecia, 2% fluridil raised the anagen (growth-phase) percentage of hairs from 76% to 85% at three months and 87% at nine months versus no change on placebo.[3] On T Nation, hair-loss threads list fluridil as an alternative to finasteride and RU58841, with posters noting limited information and a poor cost-to-benefit ratio.[4][5]"
  ],
  "infobox": [
   [
@@ -47,17 +47,28 @@
   {
    "h": "Clinical studies",
    "paras": [
-    "Wikipedia mentions a 9-month open study in women and a clinical study in men, both described as showing benefit and safety, but gives no quantitative results and relies on older sources [1]. No randomized controlled trial was found in the sources reviewed."
+    "A 2002 report in Dermatologic Surgery described a first clinical experience. Twenty men wore occlusive forearm patches for 21 days with 2, 4 and 6% fluridil and vehicle controls; fluridil showed no sensitization or irritation potential. In 43 men with Norwood II-Va androgenetic alopecia, 2% fluridil was tested in a double-blind placebo-controlled study: average anagen percentage was unchanged in placebo subjects but rose from 76% to 85% in fluridil subjects at three months and to 87% at nine months, and former placebo subjects rose from 76% to 85% after six months of fluridil. Sexual function, libido, blood counts and blood chemistry stayed normal.[3]",
+    "Wikipedia also mentions a 9-month open study in women and a further clinical study in men, both described as showing benefit and safety, without quantitative detail.[1] Grokipedia, which is AI-generated, reports the women's study as 11 women with Ludwig I-II alopecia showing an increase in hair diameter; this has not been checked against the primary paper.[2] The studies are small and from the early 2000s; larger randomized trials were not found."
    ]
   },
   {
    "h": "History",
    "paras": [
-    "Topilutamide was introduced for medical use in 2003 and its patent expired in 2020 [1]."
+    "Topilutamide was developed in the late 1990s by Biophysica, Inc., according to Grokipedia, introduced for medical use in 2003, and its patent expired in 2020.[1][2]"
+   ]
+  },
+  {
+   "h": "Use in hair-loss communities",
+   "paras": [
+    "A 2007 T Nation hair-treatment thread names fluridil (Eucapil) as something the poster had learned little about and understood to have a longer-acting effect, while a 2009 thread about finasteride and testosterone lists fluridil and RU alongside other options whose cost-to-benefit ratio the poster rates poorly.[4][5] These are personal views, and neither thread reports trial data."
    ]
   }
  ],
  "timeline": [
+  {
+   "year": "2002",
+   "event": "First clinical experience with topical fluridil published in Dermatologic Surgery.[3]"
+  },
   {
    "year": "2003",
    "event": "Introduced for medical (cosmetic) use in Europe [1]."
@@ -67,7 +78,23 @@
    "event": "Patent expires [1]."
   }
  ],
- "lore": null,
+ "lore": {
+  "intro": "Fluridil is mentioned in T Nation hair-loss threads as a lesser-known alternative to finasteride and RU58841.[4][5]",
+  "claims": [
+   {
+    "claim": "Topical fluridil can replace systemic DHT blockers.",
+    "believers": "Posters list fluridil with other topical options as an alternative to finasteride.[5]",
+    "experts": "A 2002 study reported higher anagen percentage in 43 men with no sexual-function changes, but larger randomized trials were not found, and it lacks FDA or EMA approval.[1][3]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Fluridil is too costly or little-known to be worth the effort.",
+    "believers": "One poster says the cost-to-benefit ratio of fluridil and RU 'nose-dives'.[5]",
+    "experts": "It is sold only in the Czech Republic and Slovakia per Wikipedia.[1]",
+    "evidence": "untested"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -84,6 +111,30 @@
    "source": "Grokipedia",
    "year": 2025,
    "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Fluridil, a rationally designed topical agent for androgenetic alopecia: first clinical experience",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12174057/",
+   "source": "Dermatologic Surgery",
+   "year": 2002,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "Hair Treatment Suggestions.",
+   "url": "https://t-nation.com/t/hair-treatment-suggestions/81846",
+   "source": "T Nation",
+   "year": 2007,
+   "type": "forum"
+  },
+  {
+   "id": 5,
+   "title": "Finasteride and Testosterone Quesion",
+   "url": "https://t-nation.com/t/finasteride-and-testosterone-quesion/140972",
+   "source": "T Nation",
+   "year": 2009,
+   "type": "forum"
   }
  ],
  "webSources": [
@@ -107,5 +158,15 @@
   "overview": "Topilutamide (fluridil) is a topical antiandrogen sold as Eucapil for pattern hair loss in two European countries.\n\nThe sources reviewed describe small older studies and lab data; no large randomized trials were found.",
   "mechanism": "It blocks the androgen receptor in the scalp and is reported to break down quickly in human serum.",
   "risks": "Safety data are limited in the sources reviewed. It is not approved by the FDA or EMA for hair loss."
+ },
+ "angle": {
+  "goal": "Hair retention / density",
+  "chain": [
+   "Applied to the scalp as a topical antiandrogen",
+   "Blocks androgen receptors in follicles, with the drug degrading in serum",
+   "Higher share of hairs in growth phase and thicker-looking hair"
+  ],
+  "effect": "direct",
+  "text": "Users apply topilutamide to the scalp to blunt DHT's effect on follicles and keep hair in the growth phase. Small studies report an increase in anagen hair percentage; it is sold only in a few European markets."
  }
 }

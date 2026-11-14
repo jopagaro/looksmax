@@ -1,76 +1,79 @@
 {
- "name": "Instagram tan filter / photo editing",
- "lead": [
-  "Editing or lighting photos to look tanner is a form of digital appearance enhancement in which colour grading, filters or retouching apps darken or warm skin tone in images. It sits within the broader category of social media beauty filters, which smooth skin, reshape features and apply virtual makeup.[1]",
-  "The sources reviewed do not discuss tan-specific filters. Research on filters in general links their use to body-image concerns, though the direction of causation is unknown.[1]"
- ],
- "infobox": [
-  [
-   "Type",
-   "Digital photo editing"
+  "name": "Instagram tan filter / photo editing",
+  "lead": [
+    "The Instagram tan filter is a photo-editing technique in which exposure, white balance, saturation or a dedicated filter or app is used to give skin a warmer, deeper, sun-kissed colour in pictures. People use it to look healthier and more defined on camera: a darker tone tends to even out blotchiness, add contrast to the face and body, and make features such as the jaw and cheekbones read as more sculpted. Because the change happens on the image, it gives the look of a tan without UV exposure or self-tanner.",
+    "The technique belongs to the wider family of social media filters and editing apps. Wikipedia lists beauty filters that smooth skin, erase blemishes, slim the face and add virtual makeup, and editing apps such as VSCO, Snapseed and Lightroom that adjust exposure, white balance and saturation [1]. Filters began with Japanese Purikura photo booths in 1995, Instagram introduced filters in 2010, and Snapchat's 2015 purchase of Looksery brought face-tracking lenses [1].",
+    "Tanned skin has long carried associations with leisure and health in many Western countries. Wikipedia notes that this reversed a pre-1920s pattern in which a tan signalled outdoor labour, and that sunless options such as self-tanners and bronzers exist alongside UV tanning [2]. Researchers who study photo editing in general have examined its links with body image, and reviews report mixed findings [3][4]."
   ],
-  [
-   "Platforms",
-   "Instagram, Snapchat, TikTok, editing apps"
-  ]
- ],
- "sections": [
-  {
-   "h": "Background",
-   "paras": [
-    "Beauty filters trace back to Japanese Purikura photo booths of 1995 and became widespread on Instagram and Snapchat in the 2010s.[1] Common effects listed include skin smoothing, virtual makeup and slimming or reshaping the face.[1]"
-   ]
+  "angle": {
+    "goal": "Skin",
+    "chain": ["Adjust warmth, exposure or filter on the photo", "Skin tone looks deeper and more even", "Photo shows a healthier, more defined look"],
+    "effect": "claimed",
+    "text": "In photos, a tan filter shifts skin colour toward warmer, deeper tones, which many people use to look more even-toned and defined. The effect exists in the image only and does not change actual skin colour."
   },
-  {
-   "h": "Research and concerns",
-   "paras": [
-    "Critics and researchers have raised concerns about unrealistic beauty standards, and terms such as \"filter dysmorphia\" describe insecurity from comparing oneself with filtered images. A correlation between filter use and negative body image has been reported, with causation unestablished.[1]"
-   ]
+  "infobox": [
+    ["Type", "Digital photo editing"],
+    ["Platforms", "Instagram, Snapchat, TikTok, editing apps such as VSCO, Snapseed, Lightroom"],
+    ["Typical adjustments", "Warmth, exposure, saturation, contrast"],
+    ["Related options", "Self-tanner, bronzer, spray tan"],
+    ["Instagram filters introduced", "2010 [1]"]
+  ],
+  "sections": [
+    {
+      "h": "How it is used",
+      "paras": [
+        "Editing apps adjust exposure, white balance and saturation, the settings that determine how warm and dark skin appears [1]. Some beauty filters also smooth skin, remove blemishes and under-eye bags, slim the face and add virtual makeup [1]. Users combine these controls to produce a bronzed look in a photo."
+      ]
+    },
+    {
+      "h": "Tanned skin and appearance",
+      "paras": [
+        "Wikipedia describes how tanning came into fashion in the 1920s, associated with leisure and luxury, after previously being linked with outdoor manual work [2]. It lists self-tanning products, bronzers and spray tans as sunless routes to a tan, and notes that UV tanning is linked to sunburn, skin cancer and accelerated skin aging [2]. A photo edit gives the visual effect without any of these."
+      ]
+    },
+    {
+      "h": "Research on photo editing and filters",
+      "paras": [
+        "A 2022 systematic review of 22 studies on photo-editing and body concerns among women reported mixed findings and suggested a more complex relationship influenced by other factors [3]. A 2015 study in adolescent girls reported an association between self photo editing and body dissatisfaction [4]. A 2024 scoping review looked at photo manipulation and anorexia nervosa in children and adolescents and found limited evidence for that age group [5]. A randomised experiment tested whether captions disclosing that Instagram photos had been edited changed young women's mood and body image [6].",
+        "Wikipedia reports a correlation between filter use and negative body image, with the direction of causation unclear, and describes the terms 'filter dysmorphia' and 'Snapchat dysmorphia' [1]. It also reports that beauty filters tend to favour Eurocentric features such as lighter eyes and smaller noses [1]."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found on tan filters specifically. Related research on photo editing and body image is summarised above [3][4][5][6]."
+      ]
+    }
+  ],
+  "timeline": [
+    { "year": "1995", "event": "Purikura photo booths in Japan offer retouching effects [1]" },
+    { "year": "2010", "event": "Instagram introduces filters [1]" },
+    { "year": "2015", "event": "Snapchat acquires Looksery and launches face-tracking lenses [1]" },
+    { "year": "2024", "event": "Meta announces it will remove third-party filters from its apps by January 2025 [1]" }
+  ],
+  "lore": null,
+  "refs": [
+    { "id": 1, "title": "Filter (social media)", "url": "https://en.wikipedia.org/wiki/Filter_(social_media)", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
+    { "id": 2, "title": "Sun tanning", "url": "https://en.wikipedia.org/wiki/Sun_tanning", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
+    { "id": 3, "title": "The associations between photo-editing and body concerns among females: A systematic review", "url": "https://pubmed.ncbi.nlm.nih.gov/36371869/", "source": "Body Image", "year": 2022, "type": "review" },
+    { "id": 4, "title": "Photoshopping the selfie: Self photo editing and photo investment are associated with body dissatisfaction in adolescent girls", "url": "https://pubmed.ncbi.nlm.nih.gov/26311205/", "source": "International Journal of Eating Disorders", "year": 2015, "type": "study" },
+    { "id": 5, "title": "Photo editing and the risk of anorexia nervosa among children and adolescents", "url": "https://pubmed.ncbi.nlm.nih.gov/39497212/", "source": "Italian Journal of Pediatrics", "year": 2024, "type": "review" },
+    { "id": 6, "title": "The effects of self-disclaimer Instagram captions on young women's mood and body image", "url": "https://pubmed.ncbi.nlm.nih.gov/33964566/", "source": "Body Image", "year": 2021, "type": "trial" }
+  ],
+  "webSources": [
+    { "url": "https://en.wikipedia.org/wiki/Filter_(social_media)", "title": "Filter (social media) - Wikipedia" },
+    { "url": "https://en.wikipedia.org/wiki/Sun_tanning", "title": "Sun tanning - Wikipedia" }
+  ],
+  "card": {
+    "summary": "Editing or filters to look tanner in photos; part of the wider beauty-filter trend.",
+    "aka": null,
+    "evidence": "unproven",
+    "risk": "low",
+    "note": "Filter use in general is linked to body-image concerns."
   },
-  {
-   "h": "Clinical studies",
-   "paras": [
-    "No studies found."
-   ]
+  "quick": {
+    "overview": "Some people use filters, editing apps or lighting to make their skin look darker or warmer in photos.\n\nNothing specific to tan filters has been studied.",
+    "mechanism": "Software adjusts colour and tone in an image; no change to actual skin occurs.",
+    "risks": "Research on beauty filters generally reports a correlation with negative body image, with unclear causation.[1]"
   }
- ],
- "timeline": [
-  {
-   "year": "1995",
-   "event": "Purikura booths introduce retouching effects.[1]"
-  },
-  {
-   "year": "2015",
-   "event": "Snapchat adds face-tracking lenses.[1]"
-  }
- ],
- "lore": null,
- "refs": [
-  {
-   "id": 1,
-   "title": "Filter (social media)",
-   "url": "https://en.wikipedia.org/wiki/Filter_(social_media)",
-   "source": "Wikipedia",
-   "year": 2025,
-   "type": "encyclopedia"
-  }
- ],
- "webSources": [
-  {
-   "url": "https://en.wikipedia.org/wiki/Filter_(social_media)",
-   "title": "Filter (social media) (Wikipedia)"
-  }
- ],
- "card": {
-  "summary": "Editing or filters to look tanner in photos; part of the wider beauty-filter trend.",
-  "aka": null,
-  "evidence": "unproven",
-  "risk": "low",
-  "note": "Filter use in general is linked to body-image concerns."
- },
- "quick": {
-  "overview": "Some people use filters, editing apps or lighting to make their skin look darker or warmer in photos.\n\nNothing specific to tan filters has been studied.",
-  "mechanism": "Software adjusts colour and tone in an image; no change to actual skin occurs.",
-  "risks": "Research on beauty filters generally reports a correlation with negative body image, with unclear causation.[1]"
- }
 }

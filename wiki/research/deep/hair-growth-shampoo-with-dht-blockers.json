@@ -1,8 +1,9 @@
 {
  "name": "Hair growth shampoo with DHT blockers",
  "lead": [
-  "Shampoos marketed as DHT blockers typically contain ingredients such as ketoconazole or saw palmetto, positioned as supporting hair against androgenetic alopecia. The sources reviewed describe the evidence for these ingredients as limited.",
-  "Wikipedia states that ketoconazole shampoo has been used off-label alongside oral 5-alpha-reductase inhibitors, with limited clinical evidence that it may reduce hair loss in some cases [1]."
+  "Shampoos marketed as DHT blockers are used on the scalp by people who want to keep or thicken their hair as it thins with androgenetic alopecia. The goal is a fuller head of hair and a stronger hairline. The usual active ingredients are ketoconazole, an antifungal also sold as dandruff shampoo, and saw palmetto, a botanical extract; DHT is the androgen that shrinks susceptible scalp follicles.[1][2][3]",
+  "Wikipedia's account of hair loss management says follicular 5-alpha-reductase enzymes convert testosterone to DHT, which drives follicle miniaturisation in the scalp.[3] Ketoconazole shampoo has been used off-label alongside oral 5-alpha-reductase inhibitors, with limited clinical evidence that it may reduce hair loss in some cases, and the same article reports that finasteride, minoxidil and ketoconazole together work better than any one alone.[1][3] Some shampoos and ointments also make existing hair look thicker without changing the growth cycle, a cosmetic effect rather than regrowth.[3]",
+  "On forums, DHT-blocker shampoo is usually discussed as a low-cost adjunct to finasteride or minoxidil, and users also post about side effects such as scalp dryness and irritation.[4][5]"
  ],
  "infobox": [
   [
@@ -16,30 +17,66 @@
   [
    "Marketed for",
    "Hair loss / androgenetic alopecia"
+  ],
+  [
+   "Target",
+   "DHT / follicular inflammation"
+  ],
+  [
+   "Usually discussed with",
+   "Finasteride, minoxidil"
   ]
  ],
  "sections": [
   {
    "h": "Ketoconazole",
    "paras": [
-    "Topical ketoconazole is an antifungal used for dandruff and seborrheic dermatitis, possibly by suppressing Malassezia yeast. For androgenetic alopecia, the proposed rationale is reduced follicular inflammation. In one study a 2 percent ketoconazole solution produced regrowth in women comparable to 2 percent minoxidil, with slower onset [1]. Topical forms have not been associated with the liver and adrenal problems seen with oral tablets; redness is a listed side effect [1]."
+    "Topical ketoconazole is an antifungal used for dandruff and seborrheic dermatitis, possibly by suppressing Malassezia yeast. For androgenetic alopecia, the proposed rationale is reduced follicular inflammation. In one study a 2 percent ketoconazole solution produced regrowth in women comparable to 2 percent minoxidil, with slower onset.[1] Wikipedia's hair loss article says ketoconazole may help in women and cites a long-term study of ketoconazole shampoo in androgenetic alopecia and a systematic review of topical ketoconazole.[3] Topical forms have not been associated with the liver and adrenal problems seen with oral tablets; redness is a listed side effect.[1]"
    ]
   },
   {
    "h": "Saw palmetto",
    "paras": [
-    "Saw palmetto extract has been studied for benign prostatic hyperplasia, where reviews are mixed: a 2016 review found a standardized extract may relieve urinary symptoms, while a 2023 review of 27 studies reported little to no benefit [2]. Wikipedia's article does not discuss hair loss [2]."
+    "Saw palmetto extract has been studied for benign prostatic hyperplasia, where reviews are mixed: a 2016 review found a standardized extract may relieve urinary symptoms, while a 2023 review of 27 studies reported little to no benefit.[2] For hair, a 2020 systematic review listed topical saw palmetto among agents that helped prevent hair loss, and oral saw palmetto has one small trial showing tentative benefit in mild to moderate androgenetic alopecia, described as limited evidence.[3]"
+   ]
+  },
+  {
+   "h": "The DHT rationale",
+   "paras": [
+    "Type 1 and 2 5-alpha-reductase in hair follicles convert testosterone to DHT. At the scalp, androgens stimulate signals such as TGF-beta and dickkopf1 that shrink follicles. The prescription 5-alpha-reductase inhibitors finasteride and dutasteride are described as working better to prevent further loss than to regrow hair; finasteride gave about 30 percent improvement at six months in the cited summary, and its side effects include gynecomastia, erectile dysfunction and depression.[3] Shampoos are applied to the scalp surface, and no published study of finished DHT-blocker shampoos measuring scalp DHT was found."
+   ]
+  },
+  {
+   "h": "Use in forums",
+   "paras": [
+    "T Nation members have recommended DHT-blocker shampoos or the actual drugs to a man worried about balding, saying they had seen them work well.[4] Another poster used Nizoral, a ketoconazole shampoo, on oily facial skin and called it a DHT blocker.[5] A looksmax.org user reported dry, irritated skin after washing with ketoconazole shampoo twice a week for about three months.[6]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found of finished DHT-blocker shampoos as a product category in the sources reviewed. Ingredient-level evidence is limited to the ketoconazole findings above [1]."
+    "No studies found of finished DHT-blocker shampoos as a product category. Ingredient-level evidence is limited to the ketoconazole and saw palmetto findings above.[1][3]"
    ]
   }
  ],
  "timeline": [],
- "lore": null,
+ "lore": {
+  "intro": "DHT-blocker shampoo appears in hair-loss threads on T Nation and looksmax.org as a topical add-on or an alternative to drugs.[4][5][6]",
+  "claims": [
+   {
+    "claim": "DHT-blocker shampoos can slow or reverse balding",
+    "believers": "A T Nation poster said they had seen DHT-blocking measures work very well, with some completely reversing balding.[4]",
+    "experts": "Research on ketoconazole shampoo is limited and mostly concerns women or combination use, and no studies of finished DHT-blocker shampoos as a category were found.[1][3]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Ketoconazole shampoo works as a DHT blocker",
+    "believers": "Users describe Nizoral, which contains ketoconazole, as a DHT blocker and apply it to the skin.[5]",
+    "experts": "Wikipedia describes the proposed rationale as reduced follicular inflammation and notes limited clinical evidence for hair loss.[1][3]",
+    "evidence": "mixed"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -56,6 +93,37 @@
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Management of hair loss",
+   "url": "https://en.wikipedia.org/wiki/Management_of_hair_loss",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "What to Do About Balding?",
+   "url": "https://t-nation.com/t/what-to-do-about-balding/150858",
+   "source": "T Nation forum",
+   "year": 2010,
+   "type": "forum"
+  },
+  {
+   "id": 5,
+   "title": "Elevated DHT Level Normal?",
+   "url": "https://t-nation.com/t/elevated-dht-level-normal/242869",
+   "source": "T Nation forum",
+   "year": 2018,
+   "type": "forum"
+  },
+  {
+   "id": 6,
+   "title": "[Method] ketoconazole shampoo causing dry skin / irritating my japseye?",
+   "url": "https://looksmax.org/threads/ketoconazole-shampoo-causing-dry-skin-irritating-my-japseye.5785/",
+   "source": "looksmax.org",
+   "type": "forum"
   }
  ],
  "webSources": [
@@ -66,6 +134,10 @@
   {
    "url": "https://en.wikipedia.org/wiki/Saw_palmetto",
    "title": "Saw palmetto - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Management_of_hair_loss",
+   "title": "Management of hair loss"
   }
  ],
  "card": {
@@ -83,5 +155,15 @@
   "overview": "These shampoos add ingredients like ketoconazole or saw palmetto and are sold to counter hair loss.\n\nEvidence is limited: ketoconazole has some supportive findings, while saw palmetto's evidence concerns the prostate.",
   "mechanism": "Ketoconazole is an antifungal thought to lower scalp inflammation. Saw palmetto is claimed to reduce DHT, which was not described in the sources reviewed.",
   "risks": "Topical ketoconazole is listed with redness; serious effects relate to oral forms."
+ },
+ "angle": {
+  "goal": "Hair density / hairline",
+  "chain": [
+   "Ketoconazole or saw palmetto applied to the scalp",
+   "Proposed reduction of follicular inflammation or local DHT effects",
+   "Hair loss slows and hair looks fuller"
+  ],
+  "effect": "claimed",
+  "text": "People wash with these shampoos to protect or thicken hair on a thinning scalp. Ketoconazole is the better studied ingredient, and the shampoos are often paired with drug treatments."
  }
 }

@@ -1,34 +1,84 @@
 {
  "name": "Sleep to look attractive (beauty sleep research)",
  "lead": [
-  "The idea of beauty sleep holds that adequate sleep improves how a person looks and that sleep-deprived faces are judged less attractive. It is a staple of appearance advice and looksmaxxing discussion.",
-  "Sleep medicine sources note that sleep deprivation produces visible signs including eye bags, periorbital puffiness and styes, and that extreme sleepiness made people feel about 10 years older in one study.[1] This article was written from limited sources; studies that directly measured attractiveness ratings were not available to cite."
+  "Beauty sleep is the idea that getting enough sleep improves how a person looks, and that sleep-deprived faces come across as less healthy and less attractive. It is a staple of appearance advice and looksmaxxing discussion, where adequate sleep is treated as a free way to look more rested, with brighter skin, calmer eyes and a livelier expression.[1][2][3]",
+  "Experimental research has tested this directly. In a 2010 BMJ study, 23 adults were photographed after a normal night's sleep and after 31 hours awake, and 65 untrained observers rated the photos; sleep-deprived people were rated as less healthy, more tired and less attractive.[2] A 2013 follow-up in Sleep had 40 observers rate photos of 10 people and reported that sleep-deprived faces showed hanging eyelids, redder and more swollen eyes, darker under-eye circles, paler skin, more wrinkles and droopier mouth corners.[3]",
+  "Other work has looked at skin. A 2023 study of total sleep deprivation and repeated partial deprivation reported increased facial skin yellowness that persisted after sleep was restored.[4] Sleep medicine sources also list eye bags, periorbital puffiness and styes among visible signs of sleep loss.[1]"
  ],
+ "angle": {
+  "goal": "Skin / Eyes / Overall look",
+  "chain": [
+   "Adequate, regular sleep",
+   "Fewer visible fatigue cues around the eyes, mouth and skin",
+   "A healthier, more rested and more attractive appearance"
+  ],
+  "effect": "direct",
+  "text": "Observers in experiments rate rested faces as healthier, less tired and more attractive than the same faces after sleep loss. Followers treat consistent sleep as a baseline for eye area, skin tone and overall freshness."
+ },
  "infobox": [
   [
    "Type",
-   "Lifestyle theory"
+   "Lifestyle theory with experimental studies"
   ],
   [
    "Claim",
-   "Sleep loss lowers perceived attractiveness"
+   "Sleep loss lowers perceived health and attractiveness"
+  ],
+  [
+   "Key studies",
+   "Axelsson et al., BMJ 2010; Sundelin et al., Sleep 2013"
+  ],
+  [
+   "Observed cues",
+   "Eyelids, eye redness and swelling, dark circles, pale skin, drooping mouth corners"
+  ],
+  [
+   "Related",
+   "Dark circles, eye bags, skin quality"
   ]
  ],
  "sections": [
   {
    "h": "Visible signs of sleep loss",
    "paras": [
-    "Reported visible effects of sleep deprivation include eye bags, puffiness around the eyes and styes.[1] Sleep loss is also associated with irritability and slower reactions, which affect presentation beyond the face.[1]"
+    "Reported visible effects of sleep deprivation include eye bags, puffiness around the eyes and styes.[1] Sleep loss is also associated with irritability and slower reactions, which affect presentation beyond the face.[1]",
+    "In the 2013 Sleep study, sleep-deprived faces were rated as having hanging eyelids, redder and more swollen eyes, darker circles under the eyes, paler skin, more wrinkles and fine lines, and droopier mouth corners; they also looked sadder, while ratings of rash or tense lips were not affected.[3]"
+   ]
+  },
+  {
+   "h": "Perceived health and attractiveness",
+   "paras": [
+    "In the 2010 BMJ study, observers rated photos of people after 31 hours awake as less healthy (63 versus 68 on the scale used), more tired (53 versus 44) and less attractive (38 versus 40) than after normal sleep, and lower health ratings tracked higher tiredness and lower attractiveness ratings.[2]",
+    "A 2023 study of first impressions found that poorer sleepers socialised less but did not rate others as less attractive, and an fMRI experiment reported altered brain responses to negative social feedback after sleep deprivation.[5]"
+   ]
+  },
+  {
+   "h": "Skin",
+   "paras": [
+    "A 2023 paper reported that both a night without sleep (28 participants) and five nights of 4-hour sleep (10 participants) increased facial skin yellowness, an effect that lingered after sleep was restored; circulating yellow chromophores did not change, and facial redness was unaffected.[4]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found in the sources consulted for this entry on attractiveness ratings; the cited material covers general health effects of sleep deprivation only.[1]"
+    "Experimental studies have examined how observers rate faces after sleep deprivation, including the 2010 BMJ study of 23 adults and the 2013 Sleep study of 10 faces rated by 40 observers.[2][3] A 2023 study measured facial skin yellowness after total and partial sleep deprivation.[4] These studies used short-term deprivation in small samples."
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "2010",
+   "event": "Axelsson and colleagues publish the BMJ study on perceived health and attractiveness of sleep-deprived people.[2]"
+  },
+  {
+   "year": "2013",
+   "event": "Sundelin and colleagues publish a study of facial cues of fatigue in Sleep.[3]"
+  },
+  {
+   "year": "2023",
+   "event": "A study reports increased facial skin yellowness after sleep deprivation.[4]"
+  }
+ ],
  "lore": null,
  "refs": [
   {
@@ -38,12 +88,60 @@
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Beauty sleep: experimental study on the perceived health and attractiveness of sleep deprived people",
+   "url": "https://europepmc.org/article/MED/21156746",
+   "source": "BMJ",
+   "year": 2010,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Cues of fatigue: effects of sleep deprivation on facial appearance",
+   "url": "https://europepmc.org/article/MED/23997369",
+   "source": "Sleep",
+   "year": 2013,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Sleep Deprivation Increases Facial Skin Yellowness",
+   "url": "https://europepmc.org/article/MED/36675544",
+   "source": "Journal of Clinical Medicine",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "The Impact of Sleep Deprivation on Brain Networks in Response to Social Evaluation Tasks",
+   "url": "https://europepmc.org/article/MED/37626479",
+   "source": "Brain Sciences",
+   "year": 2023,
+   "type": "study"
   }
  ],
  "webSources": [
   {
+   "url": "https://europepmc.org/article/MED/21156746",
+   "title": "Beauty sleep (BMJ 2010) - Europe PMC"
+  },
+  {
+   "url": "https://europepmc.org/article/MED/23997369",
+   "title": "Cues of fatigue (Sleep 2013) - Europe PMC"
+  },
+  {
+   "url": "https://europepmc.org/article/MED/36675544",
+   "title": "Sleep Deprivation Increases Facial Skin Yellowness - Europe PMC"
+  },
+  {
+   "url": "https://europepmc.org/article/MED/37626479",
+   "title": "Sleep deprivation and social evaluation - Europe PMC"
+  },
+  {
    "url": "https://en.wikipedia.org/wiki/Sleep_deprivation",
-   "title": "Sleep deprivation"
+   "title": "Sleep deprivation - Wikipedia"
   }
  ],
  "card": {

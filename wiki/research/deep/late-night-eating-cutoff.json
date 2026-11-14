@@ -1,81 +1,105 @@
 {
- "name": "Late-night eating cutoff",
- "lead": [
-  "The late-night eating cutoff is the practice of stopping food about three hours before bed. Proponents say it reduces morning facial puffiness and improves sleep.",
-  "Research on meal timing falls under chrononutrition, the study of how eating times interact with circadian rhythms. Wikipedia reports that epidemiological studies link late dinners with higher metabolic risk but that causality needs more research.[1]",
-  "No studies found testing a three-hour cutoff for puffiness or appearance."
- ],
- "infobox": [
-  [
-   "Type",
-   "Meal-timing habit"
-  ],
-  [
-   "Typical rule",
-   "Stop eating about 3 hours before bed"
-  ],
-  [
-   "Related field",
-   "Chrononutrition[1]"
-  ]
- ],
- "sections": [
-  {
-   "h": "Background",
-   "paras": [
-    "Alain Delabos proposed in 1986 that larger meals belong earlier in the day and lighter ones in the evening. Later meals are associated with evening chronotype and postprandial hyperglycemia, and evening chronotypes with night eating.[1]",
-    "Rodent studies found that restricting food to the active phase reduced weight gain.[1]"
-   ]
+  "name": "Late-night eating cutoff",
+  "card": {
+    "summary": "Stop eating about 3h before bed for less puffiness and better sleep; untested in this form.",
+    "aka": "Eating cutoff",
+    "evidence": "unproven",
+    "outcome": null,
+    "risk": "low",
+    "price": null,
+    "note": "Meal-timing research is largely observational.",
+    "status": null,
+    "structure": null
   },
-  {
-   "h": "Clinical studies",
-   "paras": [
-    "No studies found on a three-hour pre-bed eating cutoff and facial puffiness. Observational chrononutrition research links late dinners and meal timing to metabolic outcomes, with causality still under study.[1]"
-   ]
-  }
- ],
- "timeline": [],
- "lore": {
-  "intro": "The cutoff is discussed in looksmaxxing spaces as a way to wake up less puffy.",
-  "claims": [
-   {
-    "claim": "Stopping eating 3 hours before bed reduces puffiness and improves sleep",
-    "believers": "Users report waking with less facial swelling and sleeping better.",
-    "experts": "No studies found on this specific rule; chrononutrition research is observational and causality is unresolved.[1]",
-    "evidence": "untested"
-   }
+  "quick": {
+    "overview": "The habit is to stop eating about three hours before bed.\n\nCommunities say it reduces puffiness and aids sleep. No studies were found testing that specific claim, though meal timing is an active research area.",
+    "mechanism": "Proponents say a lighter digestive load at bedtime aids sleep; chrononutrition research links meal timing to circadian rhythms.",
+    "risks": "No documented harms; people with medical conditions affecting blood sugar are generally guided by clinicians on meal timing."
+  },
+  "lead": [
+    "The late-night eating cutoff is the practice of stopping food about three hours before bed. People adopt it to wake up with less facial puffiness and to sleep better, which they associate with a leaner, fresher-looking face in the morning.",
+    "Research on meal timing falls under chrononutrition, the study of how eating times interact with circadian rhythms. Wikipedia reports that glucose tolerance and insulin sensitivity decline in the evening and overnight, that later meals are linked to higher blood sugar afterward, and that epidemiological studies link regularly eating late dinners with higher metabolic risk, though causality is not confirmed.[1]",
+    "A related approach, time-restricted eating, confines intake to the body's active phase; rodent studies have linked it to less weight gain and better-aligned body clocks.[1] No published study has tested a three-hour pre-bed cutoff for facial puffiness or appearance."
+  ],
+  "angle": {
+    "goal": "Facial puffiness and leanness",
+    "chain": [
+      "Last meal finished about three hours before bed",
+      "Claimed: less overnight bloating and better sleep",
+      "Less puffy face on waking"
+    ],
+    "effect": "claimed",
+    "text": "Practitioners stop eating a few hours before bed expecting a less swollen face in the morning and, over time, less evening snacking. The facial effect is reported anecdotally and has not been measured."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Meal-timing habit"
+    ],
+    [
+      "Typical rule",
+      "Stop eating about 3 hours before bed"
+    ],
+    [
+      "Related field",
+      "Chrononutrition[1]"
+    ],
+    [
+      "Related practice",
+      "Time-restricted eating[1]"
+    ],
+    [
+      "Cost",
+      "None"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Background",
+      "paras": [
+        "Alain Delabos proposed in 1986 that larger meals belong earlier in the day and lighter ones in the evening.[1] Wikipedia notes that evening chronotypes tend to show night eating and that eating more earlier in the day is described as helping the body use glucose for energy rather than storing it.[1] Rodent studies found that restricting food to the active phase reduced weight gain.[1]"
+      ],
+      "subs": []
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found on a three-hour pre-bed eating cutoff and facial puffiness. Observational chrononutrition research links late dinners and meal timing to metabolic outcomes, with causality still under study.[1]"
+      ],
+      "subs": []
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1986",
+      "event": "Alain Delabos proposes larger meals earlier in the day and lighter ones in the evening.[1]"
+    }
+  ],
+  "lore": {
+    "intro": "The cutoff is discussed in looksmaxxing spaces as a way to wake up less puffy.",
+    "claims": [
+      {
+        "claim": "Stopping eating 3 hours before bed reduces puffiness and improves sleep.",
+        "believers": "Users report waking with less facial swelling and sleeping better.",
+        "experts": "No studies found on this specific rule; chrononutrition research is observational and causality is unresolved.[1]",
+        "evidence": "untested"
+      }
+    ]
+  },
+  "refs": [
+    {
+      "id": 1,
+      "title": "Chrononutrition",
+      "url": "https://en.wikipedia.org/wiki/Chrononutrition",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Chrononutrition",
+      "title": "Chrononutrition (Wikipedia)"
+    }
   ]
- },
- "card": {
-  "summary": "Stop eating about 3h before bed for less puffiness and better sleep; untested in this form.",
-  "aka": "Eating cutoff",
-  "evidence": "unproven",
-  "outcome": null,
-  "risk": "low",
-  "price": null,
-  "note": "Meal-timing research is largely observational.",
-  "status": null,
-  "structure": null
- },
- "quick": {
-  "overview": "The habit is to stop eating about three hours before bed.\n\nCommunities say it reduces puffiness and aids sleep. No studies were found testing that specific claim, though meal timing is an active research area.",
-  "mechanism": "Proponents say a lighter digestive load at bedtime aids sleep; chrononutrition research links meal timing to circadian rhythms.",
-  "risks": "No documented harms; people with medical conditions affecting blood sugar are generally guided by clinicians on meal timing."
- },
- "refs": [
-  {
-   "id": 1,
-   "title": "Chrononutrition",
-   "url": "https://en.wikipedia.org/wiki/Chrononutrition",
-   "source": "Wikipedia",
-   "year": 2026,
-   "type": "encyclopedia"
-  }
- ],
- "webSources": [
-  {
-   "url": "https://en.wikipedia.org/wiki/Chrononutrition",
-   "title": "Chrononutrition"
-  }
- ]
 }

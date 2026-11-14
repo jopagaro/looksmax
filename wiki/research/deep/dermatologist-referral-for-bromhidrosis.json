@@ -1,24 +1,50 @@
 {
  "name": "Dermatologist referral for bromhidrosis",
  "lead": [
-  "Bromhidrosis (osmidrosis) is foul-smelling body odor, often associated with excessive sweating that supports bacterial growth, especially in the underarms.[1] In looksmaxxing discussions, getting a medical evaluation is raised as a way to check for an underlying cause of persistent odor.",
-  "Body odor can signal disease, and related conditions include trimethylaminuria, a rare metabolic disorder causing a fishy odor in sweat, urine and breath.[1] Sources advise consulting a physician when odor affects quality of life.[1]"
+  "Bromhidrosis (osmidrosis) is foul-smelling body odor, often associated with excessive sweating that supports bacterial growth, especially in the underarms. A dermatologist referral is the route by which people with persistent odor that hygiene products do not control get it assessed and treated, so they smell fresher and feel more confident in close contact.[1][2]",
+  "Skin bacteria acting on apocrine sweat are the main source of odor, and food, the gut microbiome and genetics also contribute.[1] Wikipedia states that consulting a physician may help when odor affects quality of life, and notes that sudden odor changes can signal disease and that trimethylaminuria, a rare metabolic disorder, causes a fishy odor in sweat, urine and breath.[1]",
+  "In looksmaxxing discussions, medical evaluation is raised as a way to check for an underlying cause of persistent odor. The NHS describes referral to a dermatologist for sweating when self-care and pharmacy options have not helped and there is no obvious cause.[2]"
  ],
+ "angle": {
+  "goal": "Body odor",
+  "chain": [
+   "Persistent odor assessed by a clinician",
+   "Underlying sweating or metabolic cause identified",
+   "Prescription antiperspirant or other treatment reduces odor"
+  ],
+  "effect": "direct",
+  "text": "A clinician can check whether odor stems from heavy sweating or another condition and prescribe treatments such as aluminum chloride antiperspirants, so that a person smells better than over-the-counter products allow."
+ },
  "infobox": [
   [
    "Condition",
-   "Bromhidrosis / osmidrosis"
+   "Bromhidrosis / osmidrosis[1]"
   ],
   [
    "Related",
-   "Hyperhidrosis, trimethylaminuria"
+   "Hyperhidrosis, trimethylaminuria[1]"
+  ],
+  [
+   "Clinician",
+   "Dermatologist or GP[2]"
+  ],
+  [
+   "First-line options",
+   "Prescription antiperspirants[1]"
   ]
  ],
  "sections": [
   {
    "h": "Causes and treatment",
    "paras": [
-    "Skin bacteria acting on apocrine sweat are the main source of odor, and diet, microbiome and genetics contribute.[1] Physicians may prescribe aluminum chloride antiperspirants; severe cases have been treated with endoscopic thoracic sympathectomy, which carries a risk of nerve injury.[1]"
+    "Apocrine glands, concentrated in the armpits and active from puberty, secrete compounds that skin bacteria convert into odorants. Corynebacterium lipases break down sweat lipids into molecules such as butyric acid, and the ABCC11 gene influences how much odor is produced, with a non-functional variant common in East Asian populations.[1]",
+    "Wikipedia lists prescription antiperspirants with aluminum chloride, deodorants, daily antibacterial bathing, and for severe cases endoscopic thoracic sympathectomy, which cuts sweat-controlling nerves and risks harming other nerves.[1] Diet may also matter: one study found men eating more fruit and vegetables had more pleasant-smelling sweat.[1]"
+   ]
+  },
+  {
+   "h": "When and how referral happens",
+   "paras": [
+    "The NHS lists reasons to see a GP about sweating, including self-help not working, sweating lasting six months or more or occurring weekly, interference with daily life, night sweats, or a family history. A GP may arrange tests for other causes, and a dermatologist may suggest tablets, creams, iontophoresis, botulinum toxin injections for the underarms or surgery.[2] The NHS page does not discuss body odor itself."
    ]
   },
   {
@@ -33,6 +59,22 @@
  "refs": [
   {
    "id": 1,
+   "title": "Body odor",
+   "url": "https://en.wikipedia.org/wiki/Body_odor",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Excessive sweating (hyperhidrosis)",
+   "url": "https://www.nhs.uk/conditions/excessive-sweating-hyperhidrosis/",
+   "source": "NHS",
+   "year": 2025,
+   "type": "guideline"
+  },
+  {
+   "id": 3,
    "title": "Bromhidrosis (Body odor)",
    "url": "https://en.wikipedia.org/wiki/Bromhidrosis",
    "source": "Wikipedia",
@@ -41,6 +83,14 @@
   }
  ],
  "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Body_odor",
+   "title": "Body odor - Wikipedia"
+  },
+  {
+   "url": "https://www.nhs.uk/conditions/excessive-sweating-hyperhidrosis/",
+   "title": "Excessive sweating (hyperhidrosis) - NHS"
+  },
   {
    "url": "https://en.wikipedia.org/wiki/Bromhidrosis",
    "title": "Bromhidrosis"

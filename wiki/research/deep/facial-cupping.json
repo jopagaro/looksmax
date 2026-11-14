@@ -1,75 +1,151 @@
 {
-  "name": "Facial cupping",
-  "lead": [
-    "Facial cupping is the application of small suction cups to the skin of the face, usually with a light, gliding or brief-hold technique, with the aim of improving circulation, lifting or toning the skin, or reducing the appearance of sagging and puffiness. It is an area-based variant of cupping therapy, a traditional practice in which suction draws skin and soft tissue into a cup [1].",
-    "Proponents present it as a non-invasive route to a firmer, brighter face. Published research on the face specifically is very limited: a small laboratory imaging study has measured short-term changes in skin blood vessels after facial cupping, but no controlled trial has tested whether it reduces sagging or wrinkles [2]. Reviews of cupping in general describe the evidence for claimed health benefits as weak and of low quality [1]."
+ "name": "Facial cupping",
+ "card": {
+  "summary": "Small suction cups glided over the face to lift and depuff; popular as a self-care ritual, with almost no face-specific research behind it.",
+  "aka": "Face cupping, cupping facial",
+  "evidence": "unproven",
+  "risk": "low",
+  "note": "Can cause bruising or marks; the NCCIH warns cupping may worsen eczema or psoriasis.",
+  "price": null,
+  "structure": null
+ },
+ "quick": {
+  "overview": "Facial cupping adapts traditional cupping therapy to the face, using small cups with light suction to draw skin upward. It is promoted for lifting, depuffing and brightening.\n\nNo controlled trial has tested whether it changes sagging or wrinkles. General reviews of cupping rate the evidence for claimed benefits as weak.",
+  "mechanism": "Suction draws skin and tissue into the cup, which proponents say boosts circulation and loosens tension. A small imaging study found measurable short-term changes in the skin's blood microenvironment during facial cupping; lasting effects have not been studied.",
+  "risks": "Reported effects of cupping include temporary marks, bruising, burns (with fire cupping), and flares of eczema or psoriasis. It is generally considered low-risk with a trained practitioner, but is not suitable for everyone."
+ },
+ "lead": [
+  "Facial cupping is the application of small suction cups to the skin of the face, usually with a light gliding motion or a brief hold, with the aim of lifting and toning the skin, boosting a glow, and reducing the look of puffiness and sagging. It is an area-based variant of cupping therapy, a traditional practice in which suction draws skin and soft tissue into a cup. [1]",
+  "People use it as a skincare ritual: silicone or glass cups are moved over the cheeks, jawline and forehead, and users describe a flushed, plumper look afterwards. Claimed benefits listed by one consumer health site include better blood flow, skin tightening, smaller-looking pores and reduced facial swelling. [2]",
+  "Published research on the face is limited to a small laboratory imaging study that measured short-term changes in facial skin during cupping. No controlled trial has tested whether it reduces sagging or wrinkles. Reviews of cupping in general describe the evidence for claimed health benefits as low in quality. [1][3]"
+ ],
+ "angle": {
+  "goal": "Skin tone, lift and puffiness",
+  "chain": [
+   "Small cups draw facial skin upward with light suction",
+   "Blood flow to the area increases and the skin flushes",
+   "Face looks warmer, fuller and less puffy for a short time"
   ],
-  "infobox": [
-    ["Type", "Suction-based facial massage / traditional-medicine technique"],
-    ["Parent practice", "Cupping therapy (dry, fire, wet variants)"],
-    ["Typical tools", "Small silicone or glass cups"],
-    ["Claimed aims", "Lifting, circulation, depuffing, skin tone"],
-    ["Known effects", "Temporary redness, possible bruising"]
+  "effect": "claimed",
+  "text": "Users glide small cups over the face to get a flushed, lifted look and to reduce puffiness. The immediate effect people describe is a temporary glow and plumpness; claims of longer-term lifting come from proponents and have not been tested in trials."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Suction-based facial massage / traditional-medicine technique"
   ],
-  "sections": [
-    {
-      "h": "Description",
-      "paras": [
-        "Cupping places a cup on the skin and creates negative pressure, either by heating the air inside the cup or with a pump, so that tissue is drawn upward. Practitioners classify it by suction strength, method, materials and treated area, and facial cupping is one of the area-based categories [1].",
-        "Facial versions commonly use small, soft cups and a lighter suction than body cupping, and are often moved across the skin or held briefly rather than left in place for long periods. In the traditional Chinese medicine framework, cupping is said to clear stagnation and improve the flow of qi [1]."
-      ]
-    },
-    {
-      "h": "History",
-      "paras": [
-        "The origins of cupping are unclear. Iranian traditional medicine used wet cupping, and Hippocrates and Roman surgeons used versions of it. The earliest recorded Chinese use is attributed to Ge Hong (281 to 341 AD), and Chinese hospitals have used cupping since the 1950s [1]. The cosmetic face-specific form is a more recent adaptation of this older practice; its dates of origin are not well documented in the sources reviewed."
-      ]
-    },
-    {
-      "h": "Research and expert views",
-      "paras": [
-        "Systematic reviews of cupping in general have described its effectiveness as poorly documented for most conditions, with supportive findings often coming from flawed or low-quality studies. There is low-to-moderate evidence for musculoskeletal pain, though effects may be similar to placebo [1]. The American Cancer Society states that available evidence does not support claimed health benefits [1].",
-        "Facial cupping specifically has been examined in a small laboratory study that used photoacoustic microscopy to image microscopic changes in facial skin during cupping, reporting on changes in the skin's microenvironment such as blood flow. The authors framed this as a way to quantify effects that had not been directly measured before [2]. The study did not assess long-term appearance outcomes."
-      ]
-    },
-    {
-      "h": "Reported risks",
-      "paras": [
-        "Documented local effects of cupping include bruising or linear streaks, burns (particularly with fire cupping), scarring, ulcers, skin darkening, and flares of eczema or psoriasis. The NCCIH has warned that cupping may worsen eczema or psoriasis. It is generally considered low risk when performed by a trained practitioner but is not suitable for everyone [1]. Because facial skin is thin, practitioners of the cosmetic version commonly describe using lighter suction; no safety studies specific to facial cupping were found."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No clinical studies found on facial cupping for sagging, wrinkles or skin tone. The only related published work is a small exploratory imaging study of the skin's response during facial cupping [2], and trials of cupping in other body areas and conditions, which have generally been rated as low quality [1]."
-      ]
-    }
+  [
+   "Parent practice",
+   "Cupping therapy (dry, fire, wet variants) [1]"
   ],
-  "timeline": [
-    { "year": "281-341 AD", "event": "Earliest recorded Chinese use of cupping, attributed to Ge Hong [1]" },
-    { "year": "1950s", "event": "Chinese hospitals begin using cupping [1]" },
-    { "year": "2020", "event": "Photoacoustic imaging study examines skin changes during facial cupping [2]" }
+  [
+   "Typical tools",
+   "Small silicone or glass cups"
   ],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Cupping therapy", "url": "https://en.wikipedia.org/wiki/Cupping_therapy", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Photoacoustic imaging of microenvironmental changes in facial cupping therapy", "url": "https://pubmed.ncbi.nlm.nih.gov/32499932/", "source": "Biomedical Optics Express", "year": 2020, "type": "study" }
+  [
+   "Claimed aims",
+   "Lifting, circulation, depuffing, skin tone"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Cupping_therapy", "title": "Cupping therapy - Wikipedia" }
-  ],
-  "card": {
-    "summary": "Small suction cups glided over the face to lift and depuff; popular as a self-care ritual, with almost no face-specific research behind it.",
-    "aka": "Face cupping, cupping facial",
-    "evidence": "unproven",
-    "risk": "low",
-    "note": "Can cause bruising or marks; the NCCIH warns cupping may worsen eczema or psoriasis.",
-    "price": null,
-    "structure": null
+  [
+   "Known effects",
+   "Temporary redness, possible bruising [1]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Cupping places a cup on the skin and creates negative pressure, either by heating the air inside the cup or with a pump, so that tissue is drawn upward. Practitioners classify cupping by suction strength, method, materials and treated area, and facial cupping is one of the area-based categories. [1]",
+    "Wikipedia notes that cup massage can be performed on nearly any part of the body and is most often applied to the back, chest and limbs, and 'even' the face. It describes cup massage as lasting 10 to 20 minutes with a warm sensation. [1] Facial versions commonly use small, soft cups with lighter suction, moved across the skin or held briefly. [2]"
+   ]
   },
-  "quick": {
-    "overview": "Facial cupping adapts traditional cupping therapy to the face, using small cups with light suction to draw skin upward. It is promoted for lifting, depuffing and brightening.\n\nNo controlled trial has tested whether it changes sagging or wrinkles. General reviews of cupping rate the evidence for claimed benefits as weak.",
-    "mechanism": "Suction draws skin and tissue into the cup, which proponents say boosts circulation and loosens tension. A small imaging study found measurable short-term changes in the skin's blood microenvironment during facial cupping; lasting effects have not been studied.",
-    "risks": "Reported effects of cupping include temporary marks, bruising, burns (with fire cupping), and flares of eczema or psoriasis. It is generally considered low-risk with a trained practitioner, but is not suitable for everyone."
+  {
+   "h": "History",
+   "paras": [
+    "The origins of cupping are unclear. Iranian traditional medicine used wet cupping, and Hippocrates and Roman surgeons used versions of it. The earliest recorded Chinese use is attributed to Ge Hong (281 to 341 AD), and Chinese hospitals have used cupping since the 1950s. [1] The cosmetic face-specific form is a more recent adaptation; Wikipedia cites a Times of India article titled 'Vacuum your face for a glowing skin', but gives no history of facial use. [1]",
+    "Cupping reached a wide audience in 2016 when swimmer Michael Phelps competed at the Olympics with visible cupping marks on his back, prompting commentary on the practice from critics such as Steven Novella. [1]"
+   ]
+  },
+  {
+   "h": "Claimed mechanisms",
+   "paras": [
+    "In the traditional Chinese medicine framework, cupping is said to clear stagnation and improve the flow of qi, and Wikipedia reports proponents also claim it removes 'toxins' or improves circulation. [1] Cosmetic descriptions emphasise increased local blood flow, collagen production and a mild stretch of the skin; the consumer health article reviewing facial cupping notes these claims rest mostly on user reports, and that one cited study suggests cupping can stretch skin layers. [2]"
+   ]
+  },
+  {
+   "h": "Research and expert views",
+   "paras": [
+    "A 2020 laboratory study used optical-resolution photoacoustic microscopy to image the skin during facial cupping, aiming to quantify microenvironmental changes such as those in blood vessels that had not been directly measured before. It was not designed to assess long-term appearance outcomes. [3]",
+    "Cupping in general has been reviewed more widely: a 2011 review concluded that its effectiveness is not well documented for most conditions, and the American Cancer Society says available evidence does not support claimed health benefits. Wikipedia reports low-to-moderate evidence for musculoskeletal pain, which may be indistinguishable from placebo. [1] A consumer health overview of facial cupping describes support as mostly anecdotal and says more studies are needed. [2]"
+   ]
+  },
+  {
+   "h": "Reported risks",
+   "paras": [
+    "Documented local effects of cupping include bruising or streaks, burns (particularly with fire cupping), scarring, ulcers, skin darkening and flares of eczema or psoriasis. The NCCIH has warned that cupping may worsen eczema or psoriasis. It is generally considered low risk when done by a trained practitioner, but is not suitable for everyone. [1]",
+    "The same consumer overview describes the usual side effects as mild bruising and inflammation that fade within hours, notes a possible raised infection risk and occasional nausea or dizziness, and advises against it for pregnant or menstruating women, children, older people, and people with wounds or cardiovascular risk. [2]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No clinical studies found on facial cupping for sagging, wrinkles or skin tone. The related published work is a small exploratory imaging study of the skin's response during facial cupping and trials of cupping in other areas and conditions. [1][3]"
+   ]
   }
+ ],
+ "timeline": [
+  {
+   "year": "281-341 AD",
+   "event": "Earliest recorded Chinese use of cupping, attributed to Ge Hong. [1]"
+  },
+  {
+   "year": "1950s",
+   "event": "Chinese hospitals begin using cupping. [1]"
+  },
+  {
+   "year": "2016",
+   "event": "Cupping marks on Olympic swimmer Michael Phelps bring the practice into mainstream news. [1]"
+  },
+  {
+   "year": "2020",
+   "event": "Photoacoustic imaging study examines skin changes during facial cupping. [3]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Cupping therapy",
+   "url": "https://en.wikipedia.org/wiki/Cupping_therapy",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Facial cupping",
+   "url": "https://www.emedihealth.com/skin-beauty/facial-cupping",
+   "source": "eMediHealth",
+   "year": null,
+   "type": "news"
+  },
+  {
+   "id": 3,
+   "title": "Photoacoustic imaging of microenvironmental changes in facial cupping therapy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32499932/",
+   "source": "Biomedical Optics Express",
+   "year": 2020,
+   "type": "study"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Cupping_therapy",
+   "title": "Cupping therapy - Wikipedia"
+  },
+  {
+   "url": "https://www.emedihealth.com/skin-beauty/facial-cupping",
+   "title": "Facial cupping - eMediHealth"
+  }
+ ]
 }

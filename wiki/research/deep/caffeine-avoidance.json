@@ -1,17 +1,153 @@
 {
-"name":"Caffeine avoidance",
-"lead":["Caffeine avoidance is cutting out coffee, tea and energy drinks, in appearance communities often for the stated aim of reducing facial puffiness and improving sleep.","Caffeine is a central nervous system stimulant that can delay or prevent sleep, and large acute doses of about 250 to 300 mg temporarily increase urine output mainly in people who have abstained, while regular users develop tolerance.[1] No published study was found testing caffeine avoidance for facial puffiness."],
-"infobox":[["Type","Dietary avoidance"],["Appearance claim","Less puffiness"],["Withdrawal","Self-reported ~11% of users[1]"]],
-"sections":[
-{"h":"Effects relevant to the claim","paras":["Around 100 mg a day may disrupt sleep in some regular users, though others develop tolerance.[1] The diuretic effect appears in abstainers and fades with regular use, so the dehydration risk is limited to acute large doses.[1]","Withdrawal affects about 11% by self-report, typically lasting no more than a day at lower intakes, with headache, fatigue and low mood among the symptoms.[1]"]},
-{"h":"Safety limits","paras":["Health Canada and EFSA give 400 mg a day as a limit for healthy adults and 200 to 300 mg for pregnancy, depending on the agency.[1] A 2017 umbrella review found coffee generally safe at usual intakes.[2]"]},
-{"h":"Use in looksmaxxing","paras":["Practitioners link caffeine to puffiness and poor sleep. The sources reviewed do not discuss skin or puffiness effects of caffeine."]},
-{"h":"Clinical studies","paras":["No studies found on caffeine avoidance and facial puffiness."]}
-],
-"timeline":[],
-"lore":null,
-"card":{"summary":"Dropping caffeine to reduce puffiness and improve sleep; sleep effects are documented, puffiness is untested.","aka":null,"evidence":"unproven","risk":"low","note":"Withdrawal headaches are common for a day or so.","price":null},
-"quick":{"overview":"Some people avoid caffeine hoping for a less puffy face and better sleep.\n\nCaffeine can disrupt sleep, but no study links avoiding it to reduced facial puffiness.","mechanism":"Caffeine blocks adenosine receptors, promoting wakefulness and a brief diuretic effect in non-habitual users.","risks":"Quitting can cause withdrawal symptoms such as headache and fatigue for a short time."},
-"refs":[{"id":1,"title":"Caffeine","url":"https://en.wikipedia.org/wiki/Caffeine","source":"Wikipedia","year":2026,"type":"encyclopedia"},{"id":2,"title":"Health effects of coffee","url":"https://en.wikipedia.org/wiki/Health_effects_of_coffee","source":"Wikipedia","year":2026,"type":"encyclopedia"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Caffeine","title":"Caffeine"},{"url":"https://en.wikipedia.org/wiki/Health_effects_of_coffee","title":"Health effects of coffee"}]
+  "name": "Caffeine avoidance",
+  "card": {
+    "summary": "Dropping caffeine to reduce puffiness and improve sleep; sleep effects are documented, puffiness is untested.",
+    "aka": null,
+    "evidence": "unproven",
+    "risk": "low",
+    "note": "Withdrawal headaches are common for a day or so.",
+    "price": null
+  },
+  "quick": {
+    "overview": "Some people avoid caffeine hoping for a less puffy face and better sleep.\n\nCaffeine can disrupt sleep, but no study links avoiding it to reduced facial puffiness.",
+    "mechanism": "Caffeine blocks adenosine receptors, promoting wakefulness and a brief diuretic effect in non-habitual users.",
+    "risks": "Quitting can cause withdrawal symptoms such as headache and fatigue for a short time."
+  },
+  "lead": [
+    "Caffeine avoidance is the practice of cutting out coffee, tea, energy drinks and other caffeinated products. In appearance-focused communities it is usually pursued to improve sleep and, by extension, how rested and un-puffy the face looks the next day, and sometimes to reduce jitteriness or skin flare-ups that people attribute to stimulants.[1]",
+    "Caffeine is a central nervous system stimulant that can delay or prevent sleep and lengthen the time taken to fall asleep; Wikipedia reports that even about 100 mg a day can disrupt sleep in some people, while others show little effect, and that its half-life in healthy adults is about 3 to 7 hours.[1] Sleep is the link practitioners rely on for appearance: Wikipedia's article on periorbital puffiness lists interrupted sleep among common causes of puffy eyes, along with dietary sodium, alcohol, allergies and fluid retention.[3] That article does not name caffeine as a cause.",
+    "Large acute doses (roughly 250 to 300 mg or more) increase urine output, but mainly in people who have gone days or weeks without caffeine; regular users develop tolerance.[1] No published study has tested caffeine avoidance as a way to reduce facial puffiness or improve skin."
+  ],
+  "angle": {
+    "goal": "Face and skin appearance",
+    "chain": [
+      "Stop caffeine intake",
+      "Sleep is easier to start and keep (for people sensitive to caffeine)",
+      "Better rested, less puffy look the next morning"
+    ],
+    "effect": "indirect",
+    "text": "People who avoid caffeine do so to protect sleep and avoid stimulant effects, aiming for a fresher, less puffy-looking face. The link runs through sleep quality, which varies widely between individuals in how much caffeine affects it."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Dietary avoidance"
+    ],
+    [
+      "Appearance aim",
+      "Less puffiness, better-rested look"
+    ],
+    [
+      "Caffeine half-life",
+      "About 3-7 hours in healthy adults[1]"
+    ],
+    [
+      "Withdrawal",
+      "Self-reported in about 11% of users[1]"
+    ],
+    [
+      "Common intake limit",
+      "400 mg/day for healthy adults (EFSA, Health Canada)[1]"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Effects relevant to the appearance aim",
+      "paras": [
+        "Wikipedia reports that around 100 mg a day may disrupt sleep in some regular users, though many develop tolerance to caffeine's effects on blood pressure, heart rate and alertness with regular use.[1]",
+        "The diuretic effect appears in people who have abstained and fades with regular intake, so the fluid-loss effect is limited mainly to acute large doses in non-habitual users.[1]"
+      ]
+    },
+    {
+      "h": "Withdrawal",
+      "paras": [
+        "Mild physical dependence can occur with more than 100 mg a day. Withdrawal is self-reported by about 11 percent of users, though only about half of those show it in laboratory testing, and it typically lasts no more than a day at lower intakes.[1] Symptoms listed under DSM-5 criteria include fatigue, headache, irritability and trouble concentrating.[1] A 2026 study examined acute caffeine withdrawal and headache among regular coffee drinkers.[5]"
+      ]
+    },
+    {
+      "h": "Intake limits and general health",
+      "paras": [
+        "EFSA states that up to 400 mg a day is not a safety concern for healthy adults, and Health Canada advises the same ceiling; for pregnancy and breastfeeding EFSA sets 200 mg and Health Canada 300 mg.[1] The American Academy of Pediatrics advises avoiding caffeine under age 18.[1]",
+        "A 2017 umbrella review summarised on Wikipedia found coffee generally safe at usual intakes.[2]"
+      ]
+    },
+    {
+      "h": "Use in looksmaxxing communities",
+      "paras": [
+        "Members of appearance communities link caffeine to puffiness and poor sleep and may swap it for decaffeinated or herbal drinks. Alongside it, people commonly adjust salt and alcohol, which are also cited as causes of facial puffiness.[3]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found on caffeine avoidance and facial puffiness. Related research includes a review of whether caffeine should be avoided after free-flap surgery and Cochrane reviews of restricted maternal caffeine intake in pregnancy, which address different outcomes.[4][6]"
+      ]
+    }
+  ],
+  "timeline": [],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Caffeine",
+      "url": "https://en.wikipedia.org/wiki/Caffeine",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Health effects of coffee",
+      "url": "https://en.wikipedia.org/wiki/Health_effects_of_coffee",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "Periorbital puffiness",
+      "url": "https://en.wikipedia.org/wiki/Periorbital_puffiness",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 4,
+      "title": "Should Caffeine Be Avoided Following Free Flaps: Fact or Fiction?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40373811/",
+      "source": "Journal of Reconstructive Microsurgery",
+      "year": 2026,
+      "type": "review"
+    },
+    {
+      "id": 5,
+      "title": "Acute effects of caffeine withdrawal on headache among regular caffeinated coffee drinkers",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42174033/",
+      "source": "Scientific Reports",
+      "year": 2026,
+      "type": "study"
+    },
+    {
+      "id": 6,
+      "title": "Effects of restricted caffeine intake by mother on fetal, neonatal and pregnancy outcomes",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26058966/",
+      "source": "Cochrane Database of Systematic Reviews",
+      "year": 2015,
+      "type": "review"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Caffeine",
+      "title": "Caffeine"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Health_effects_of_coffee",
+      "title": "Health effects of coffee"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Periorbital_puffiness",
+      "title": "Periorbital puffiness"
+    }
+  ]
 }

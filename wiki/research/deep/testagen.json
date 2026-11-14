@@ -1,9 +1,34 @@
 {
  "name": "Testagen",
+ "card": {
+  "summary": "A four-amino-acid \"bioregulator\" peptide pitched for testosterone support, with no human evidence behind it.",
+  "aka": "KEDG",
+  "evidence": "unproven",
+  "status": "research",
+  "risk": "moderate",
+  "note": "No human studies; sold as research chemical.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Testagen (Lys-Glu-Asp-Gly) is a short peptide in the Khavinson bioregulator family, promoted for testicular and testosterone support.\n\nThe only published work found shows that such peptides can enter cultured cells, plus an unrelated corrosion-chemistry paper. No studies in people exist.",
+  "mechanism": "Proponents suggest short peptides enter nuclei and interact with DNA to alter gene expression; this has been shown only as cell uptake in culture.",
+  "risks": "No human safety data were found. It is not an approved medicine and is sold unregulated as a research chemical."
+ },
  "lead": [
-  "Testagen is a synthetic tetrapeptide with the sequence Lys-Glu-Asp-Gly (KEDG), part of the family of short \"bioregulator\" peptides associated with Vladimir Khavinson's group in Russia [1]. It is promoted in research-peptide and longevity communities as supporting testicular function and testosterone.",
-  "Evidence is very thin. A laboratory study showed that fluorescent-labeled short peptides including Testagen can enter cells and nuclei in culture [1], and a 2025 materials-science paper examined Testagen as a copper-corrosion inhibitor [2]. No studies of Testagen in people were found."
+  "Testagen is a synthetic tetrapeptide with the sequence Lys-Glu-Asp-Gly (KEDG), part of the family of short \"bioregulator\" peptides associated with the Russian gerontologist Vladimir Khavinson's group in St. Petersburg.[1][4] It is promoted in research-peptide and longevity communities as supporting testicular function and testosterone.",
+  "For appearance goals, the stated chain is that better testicular function and testosterone would support muscle, leanness and the other features people associate with healthy testosterone levels. That is a vendor and community claim: no human study of Testagen has been published.",
+  "The published laboratory work shows that fluorescein-labeled short peptides including Testagen enter cultured cells and their nuclei, and a 2025 materials-science paper examined it as a copper-corrosion inhibitor.[1][2] Khavinson's bioregulator peptides are described in Wikipedia as including six approved peptide medicines and 64 peptide food supplements, though the page does not mention Testagen.[4]"
  ],
+ "angle": {
+  "goal": "Testosterone support (muscle, leanness)",
+  "chain": [
+   "Peptide proposed to enter cells and influence gene expression in testicular tissue",
+   "Claimed support for testosterone production",
+   "Claimed gains in muscle and leanness"
+  ],
+  "effect": "claimed",
+  "text": "Testagen is marketed in research-peptide circles as supporting testicular function and testosterone, which proponents link to physique and vitality. Only cell-culture uptake has been shown; the testosterone effect is a claim."
+ },
  "infobox": [
   [
    "Type",
@@ -12,6 +37,10 @@
   [
    "Also known as",
    "KEDG"
+  ],
+  [
+   "Family",
+   "Khavinson peptide bioregulators"
   ],
   [
    "Approval",
@@ -24,26 +53,51 @@
  ],
  "sections": [
   {
-   "h": "Laboratory research",
+   "h": "Background",
    "paras": [
-    "Fluorescein-labeled Testagen, along with epithalon and pinealon, was seen in the cytoplasm, nucleus and nucleolus of HeLa cells, and the authors reported in vitro interactions of such peptides with DNA oligonucleotides [1]. This work does not address effects on the testes or hormones. A 2025 paper studied the peptide's adsorption on copper surfaces in salt solution, an unrelated chemistry application [2]."
+    "Vladimir Khavinson (1946 to 2024) directed the Institute of Bioregulation and Gerontology in St. Petersburg and is credited with developing peptide bioregulators for slowing aging; Wikipedia lists epitalon among the peptides of note and carries a tag saying parts of the page contain promotional content.[4] Testagen sits in the same short-peptide family as epithalon (Ala-Glu-Asp-Gly) and pinealon (Glu-Asp-Arg).[1]"
    ]
   },
   {
-   "h": "Clinical studies",
+   "h": "Laboratory research",
    "paras": [
-    "No studies found. A registry entry titled \"Testagen TDS-Testosterone\" (NCT02733133) concerns a transdermal testosterone product with a similar brand name; it is registered as not yet recruiting and is not evidently about this peptide [3]."
+    "Fluorescein-labeled Testagen, along with epithalon and pinealon, was seen in the cytoplasm, nucleus and nucleolus of HeLa cells, and the authors reported in vitro interactions of such peptides with DNA oligonucleotides that differed by peptide sequence.[1] This work does not address effects on the testes or hormones. A 2025 paper studied the peptide's adsorption on copper surfaces in salt solution, with about 86 percent inhibition efficiency, an unrelated chemistry application.[2]"
    ]
   },
   {
    "h": "Society and culture",
    "paras": [
-    "Testagen is sold as a research chemical and is not approved as a medicine. Claims about testosterone support come from vendor and community material; no published human data were found to evaluate them."
+    "Testagen is sold as a research chemical and is not approved as a medicine. Claims about testosterone support come from vendor and community material. The name has also been used for an over-the-counter testosterone-booster supplement from a sports-nutrition brand, which T Nation members have asked about and used in supplement stacks and alongside hCG; that product is a separate thing from the KEDG peptide.[5][6]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found. A registry entry titled \"Testagen TDS-Testosterone\" (NCT02733133) concerns a transdermal testosterone product with a similar brand name; it is registered as not yet recruiting and is not evidently about this peptide.[3]"
    ]
   }
  ],
- "timeline": [],
- "lore": null,
+ "timeline": [
+  {
+   "year": "2011",
+   "event": "A Biochemistry (Moscow) paper shows labeled Testagen, epithalon and pinealon entering HeLa cells and nuclei.[1]"
+  },
+  {
+   "year": "2025",
+   "event": "Testagen peptide studied as a copper-corrosion inhibitor in Molecules.[2]"
+  }
+ ],
+ "lore": {
+  "intro": "On T Nation the name Testagen mostly refers to a commercial supplement rather than the KEDG peptide; the peptide itself is discussed in research-peptide and longevity circles.",
+  "claims": [
+   {
+    "claim": "Testagen supports testosterone",
+    "believers": "Vendors and community members describe it as a testicular bioregulator; T Nation members report using a product of that name in bridging and supplement stacks.[5][6]",
+    "experts": "No published human studies have tested the KEDG peptide on testosterone, and the published research is limited to cell uptake and a corrosion study.[1][2]",
+    "evidence": "untested"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -68,21 +122,36 @@
    "source": "ClinicalTrials.gov",
    "year": 2016,
    "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "Vladimir Khavinson",
+   "url": "https://en.wikipedia.org/wiki/Vladimir_Khavinson",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 5,
+   "title": "Shadow Pro Q&A 4.0",
+   "url": "https://t-nation.com/t/shadow-pro-q-a-4-0/209438",
+   "source": "T Nation forum",
+   "year": 2015,
+   "type": "forum"
+  },
+  {
+   "id": 6,
+   "title": "GAT Testagen",
+   "url": "https://t-nation.com/t/gat-testagen/176699",
+   "source": "T Nation forum",
+   "year": 2012,
+   "type": "forum"
   }
  ],
- "webSources": [],
- "card": {
-  "summary": "A four-amino-acid \"bioregulator\" peptide pitched for testosterone support, with no human evidence behind it.",
-  "aka": "KEDG",
-  "evidence": "unproven",
-  "status": "research",
-  "risk": "moderate",
-  "note": "No human studies; sold as research chemical.",
-  "structure": null
- },
- "quick": {
-  "overview": "Testagen (Lys-Glu-Asp-Gly) is a short peptide in the Khavinson bioregulator family, promoted for testicular and testosterone support.\n\nThe only published work found shows that such peptides can enter cultured cells, plus an unrelated corrosion-chemistry paper. No studies in people exist.",
-  "mechanism": "Proponents suggest short peptides enter nuclei and interact with DNA to alter gene expression; this has been shown only as cell uptake in culture.",
-  "risks": "No human safety data were found. It is not an approved medicine and is sold unregulated as a research chemical."
- }
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Vladimir_Khavinson",
+   "title": "Vladimir Khavinson (Wikipedia)"
+  }
+ ]
 }

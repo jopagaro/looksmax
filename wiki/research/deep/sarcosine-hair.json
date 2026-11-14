@@ -1,8 +1,9 @@
 {
  "name": "Sarcosine (hair)",
  "lead": [
-  "Sarcosine, also called N-methylglycine, is a non-proteinogenic amino acid that is the N-methyl derivative of glycine. It occurs naturally in muscle and other tissues as an intermediate in the conversion of choline to glycine.[1]",
-  "In appearance-related discussion it is mentioned as an ingredient in hair-growth blends. No published human study found in the sources reviewed has tested sarcosine itself as a hair-growth ingredient, so evidence for that use is unproven."
+  "Sarcosine, also called N-methylglycine, is a naturally occurring amino acid derivative that appears as an ingredient in some hair-growth and hair-care blends. The appearance idea behind it is that supporting follicle metabolism or scalp conditions might help hair look fuller, though the product claims rest on ingredient-level reasoning rather than on trials of sarcosine for hair.[1]",
+  "Chemically it is the N-methyl derivative of glycine and occurs in muscle and other tissues as an intermediate in the conversion of choline to glycine.[1] A 2023 review of glycine and ageing notes that the enzyme GNMT methylates glycine to form sarcosine and that sarcosine levels decline with age.[2] A 2025 Nature Aging paper reports that sarcosine decreases in sarcopenia and examines its effects on muscle regeneration in anti-inflammatory macrophages.[3]",
+  "No published human study has tested sarcosine itself for hair growth. A related but different compound, N,N-dimethylglycine sodium salt (DMG-Na), has been studied in pattern hair loss, including a 2025 24-week double-blind randomized trial of a topical DMG-Na and caffeine product.[4]"
  ],
  "infobox": [
   [
@@ -20,6 +21,14 @@
   [
    "Appearance use",
    "Ingredient in hair-growth blends"
+  ],
+  [
+   "Related hair-studied compound",
+   "N,N-dimethylglycine sodium salt (DMG-Na)[4]"
+  ],
+  [
+   "Body role",
+   "Intermediate between choline and glycine[1][2]"
   ]
  ],
  "sections": [
@@ -27,6 +36,13 @@
    "h": "Chemistry and occurrence",
    "paras": [
     "Sarcosine (C3H7NO2) is a colourless, highly water-soluble crystalline solid that exists as a zwitterion at neutral pH. Justus von Liebig first isolated it in 1847. It is present in human blood at low micromolar levels.[1]"
+   ]
+  },
+  {
+   "h": "Biological role",
+   "paras": [
+    "Sarcosine is formed when glycine N-methyltransferase transfers a methyl group from S-adenosylmethionine to glycine, a step that helps clear methionine; the 2023 review describes sarcosine as declining with age.[2] It acts on the glycine transporter GlyT1 and NMDA receptor signalling, which is why trials in schizophrenia used 2 g/day add-on sarcosine, a setting unrelated to hair.[1][5]",
+    "In a 2025 Nature Aging study, sarcosine was reported to fall in sarcopenia and to enhance muscle regeneration and adipose thermogenesis via anti-inflammatory macrophages.[3]"
    ]
   },
   {
@@ -38,11 +54,25 @@
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found. Studies of sarcosine in schizophrenia and other conditions exist but do not address hair growth or hair appearance.[1]"
+    "No studies found of sarcosine for hair growth. Human trials of sarcosine have examined schizophrenia, including a 6-week double-blind trial of 60 patients comparing sarcosine and D-serine add-on treatment.[5]",
+    "The nearby compound N,N-dimethylglycine sodium salt has been tested in pattern hair loss, including a 24-week double-blind placebo-controlled trial of a topical DMG-Na and caffeine formulation published in 2025 and a 2026 study on dermal papilla senescence; these concern DMG-Na, not sarcosine.[4][6]"
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "1847",
+   "event": "Justus von Liebig first isolates sarcosine.[1]"
+  },
+  {
+   "year": "2008",
+   "event": "Randomized trial of sarcosine for acute schizophrenia published.[7]"
+  },
+  {
+   "year": "2025",
+   "event": "Nature Aging paper links sarcosine to muscle regeneration; DMG-Na hair trial published.[3][4]"
+  }
+ ],
  "lore": null,
  "refs": [
   {
@@ -52,12 +82,68 @@
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Glycine and aging: Evidence and mechanisms",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37004845/",
+   "source": "Ageing Research Reviews",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Sarcosine decreases in sarcopenia and enhances muscle regeneration and adipose thermogenesis by activating anti-inflammatory macrophages",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40550878/",
+   "source": "Nature Aging",
+   "year": 2025,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "A Novel Approach Against Male Pattern Hair Loss With Topical Dimethylglycine Sodium Salt (DMG-Na) and Caffeine",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40820949/",
+   "source": "J Cosmet Dermatol",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "A randomized, double-blind, placebo-controlled comparison study of sarcosine (N-methylglycine) and D-serine add-on treatment for schizophrenia",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19887019/",
+   "source": "Int J Neuropsychopharmacol",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "N,N-dimethylglycine sodium salt prevents human dermal papilla senescence and promotes hair growth in patients with pattern hair loss",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42431775/",
+   "source": "J Dermatol Sci",
+   "year": 2026,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Sarcosine (N-methylglycine) treatment for acute schizophrenia: a randomized, double-blind study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17659263/",
+   "source": "Biological Psychiatry",
+   "year": 2008,
+   "type": "trial"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Sarcosine",
    "title": "Sarcosine - Wikipedia"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40820949/",
+   "title": "Topical DMG-Na and caffeine in male pattern hair loss"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42431775/",
+   "title": "DMG-Na and dermal papilla senescence"
   }
  ],
  "card": {
@@ -72,5 +158,15 @@
   "overview": "Sarcosine is a small naturally occurring amino acid, an N-methyl form of glycine. It appears in discussion of hair-growth blends as one listed component.\n\nNo clinical study found tests it for hair growth, so its role in these products is unproven.",
   "mechanism": "In the body it is an intermediate in choline-to-glycine metabolism. Any mechanism for hair effects has not been established in published research.",
   "risks": "Sources reviewed describe no hair-specific safety data. Its sarcosinate derivatives are widely used as surfactants in consumer products."
+ },
+ "angle": {
+  "goal": "Hair density / scalp",
+  "chain": [
+   "Small glycine-derived molecule involved in methyl and amino acid metabolism",
+   "Included in hair-growth blends aiming to support follicles",
+   "Possible fuller-looking hair, claimed rather than shown for sarcosine"
+  ],
+  "effect": "claimed",
+  "text": "Sarcosine is listed in some hair-growth formulations as a supporting ingredient, with the aim of fuller-looking hair. The closest published hair research concerns the related compound DMG-Na, not sarcosine."
  }
 }

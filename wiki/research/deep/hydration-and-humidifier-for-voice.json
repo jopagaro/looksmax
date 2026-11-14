@@ -1,77 +1,128 @@
 {
- "name": "Hydration and humidifier for voice",
- "lead": [
-  "Hydration and humidifier use for the voice is a set of practices, drinking water and humidifying room air, that people adopt in the belief that moist vocal folds work better and recover faster. A study of karaoke singers examined hydration together with vocal rest in relation to vocal fatigue. [1]",
-  "Humidifiers are described generally as helping with dry mucous membranes and cough, but also carry contamination and overuse risks. [2]"
- ],
- "infobox": [
-  [
-   "Type",
-   "Lifestyle practice"
+  "name": "Hydration and humidifier for voice",
+  "card": {
+    "summary": "Drinking water and humidifying the room to keep vocal folds moist; studied only loosely, and humidifiers need upkeep.",
+    "aka": null,
+    "evidence": "limited",
+    "status": null,
+    "outcome": "temporary",
+    "risk": "low",
+    "price": null,
+    "note": "Dirty or overused humidifiers can cause problems.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "Hydration and humidifiers are used to keep the voice comfortable and less fatigued.\n\nOne small study of karaoke singers tested hydration with rest; little else is specific to this use.",
+    "mechanism": "Proponents say moisture lubricates the vocal folds; humidifiers add moisture to air.",
+    "risks": "Humidifiers can spread microorganisms if unclean and promote mold when humidity is too high. [2]"
+  },
+  "lead": [
+    "Hydration and humidifier use for the voice is a set of practices, drinking water and humidifying room air, that people adopt in the belief that moist vocal folds produce a clearer, smoother, less strained voice and recover faster after heavy use. A clear, comfortable voice is part of how a person comes across, which is why the topic appears in voice-focused appearance and self-improvement discussions.",
+    "The vocal folds are layered tissue whose lamina propria contains hyaluronic acid, a water-attracting molecule that gives the tissue its shock-absorbing, viscoelastic properties [3]. Researchers distinguish systemic hydration, the fluid within body and vocal fold tissue reached by drinking, from superficial hydration, the fluid on the surface reached by humidified air or nebulised solutions [4].",
+    "A 2010 review by Sivasankar and Leydon reports that both kinds of dehydration appear to hurt vocal fold function in bench and human studies, increasing tissue viscosity, phonation threshold pressure and vocal effort, while benefits of added hydration are inconsistent, small and short-lived [4]. A 2003 Journal of Voice study looked at hydration together with vocal rest in amateur karaoke singers [1]. Humidifiers are described generally as helping with dry mucous membranes and cough, but also carry contamination and overuse risks [2]."
   ],
-  [
-   "Related gear",
-   "Room humidifier"
+  "angle": {
+    "goal": "Voice",
+    "chain": [
+      "Drinking water and humidifying dry air",
+      "Vocal fold tissue and surface kept hydrated",
+      "Less vocal effort and fatigue, a smoother-sounding voice"
+    ],
+    "effect": "indirect",
+    "text": "Practitioners keep themselves and the room hydrated so the voice feels easier to use and sounds less dry or hoarse, especially during long speaking, singing or streaming sessions. It does not change pitch or the structure of the voice."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Lifestyle practice"
+    ],
+    [
+      "Related gear",
+      "Room humidifier"
+    ],
+    [
+      "Two kinds of hydration",
+      "Systemic (drinking) and superficial (humidified air, nebulisers) [4]"
+    ],
+    [
+      "Typical indoor humidity guidance",
+      "About 30-50% [2]"
+    ]
   ],
-  [
-   "Typical indoor humidity guidance",
-   "About 30-50% [2]"
+  "sections": [
+    {
+      "h": "Why hydration matters for the voice",
+      "paras": [
+        "Hyaluronic acid in the vocal fold lamina propria attracts water and gives the tissue its viscoelastic properties; Wikipedia notes that excess fluid, as in Reinke's edema, makes the folds floppy, and that fluid buildup adds mass and lowers pitch [3]. Voice researchers describe vocal fold surface liquid as helping the folds vibrate with less effort [4]."
+      ]
+    },
+    {
+      "h": "Humidifiers",
+      "paras": [
+        "Wikipedia reports that humidifiers can help prevent dry mucous membranes and cough, that most homes should stay around 30-50% relative humidity, and that the EPA says ultrasonic and impeller types spread the most minerals and microorganisms. Overuse can promote mold and dust mites and has been linked to hypersensitivity pneumonitis [2]."
+      ]
+    },
+    {
+      "h": "Research and expert views",
+      "paras": [
+        "Sivasankar and Leydon, writing in Current Opinion in Otolaryngology & Head and Neck Surgery in 2010, conclude that drying increases tissue viscosity, phonation threshold pressure and acoustic perturbation, that systemic and superficial hydration may support voice production, and that robust evidence for hydration treatments is lacking. They add that current clinical hydration recommendations rely largely on anecdotal reports and need validation [4]."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "A 2003 Journal of Voice study looked at the effect of hydration and vocal rest on vocal fatigue in amateur karaoke singers [1]. The 2010 review summarises bench and human studies of systemic and superficial hydration and reports inconsistent, small and short-lived benefits [4]. No dedicated trials of room humidifiers for appearance-related voice goals were found."
+      ]
+    }
+  ],
+  "timeline": [],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Effect of hydration and vocal rest on the vocal fatigue in amateur karaoke singers",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12825654/",
+      "source": "Journal of Voice",
+      "year": 2003,
+      "type": "study"
+    },
+    {
+      "id": 2,
+      "title": "Humidifier",
+      "url": "https://en.wikipedia.org/wiki/Humidifier",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "Vocal cords",
+      "url": "https://en.wikipedia.org/wiki/Vocal_cords",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 4,
+      "title": "The role of hydration in vocal fold physiology",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2925668",
+      "source": "Current Opinion in Otolaryngology & Head and Neck Surgery",
+      "year": 2010,
+      "type": "review"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Humidifier",
+      "title": "Humidifier"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Vocal_cords",
+      "title": "Vocal cords"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2925668",
+      "title": "The role of hydration in vocal fold physiology"
+    }
   ]
- ],
- "sections": [
-  {
-   "h": "Humidifiers",
-   "paras": [
-    "Wikipedia reports that humidifiers can help prevent dry mucous membranes and cough, that most homes should stay around 30-50% relative humidity, and that the EPA says ultrasonic and impeller types spread the most minerals and microorganisms. Overuse can promote mold and dust mites and has been linked to hypersensitivity pneumonitis. [2]"
-   ]
-  },
-  {
-   "h": "Clinical studies",
-   "paras": [
-    "A 2003 Journal of Voice study looked at the effect of hydration and vocal rest on vocal fatigue in amateur karaoke singers. [1] No dedicated trials of room humidifiers for appearance-related voice goals were found."
-   ]
-  }
- ],
- "timeline": [],
- "lore": null,
- "refs": [
-  {
-   "id": 1,
-   "title": "Effect of hydration and vocal rest on the vocal fatigue in amateur karaoke singers",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/12825654/",
-   "source": "Journal of Voice",
-   "year": 2003,
-   "type": "study"
-  },
-  {
-   "id": 2,
-   "title": "Humidifier",
-   "url": "https://en.wikipedia.org/wiki/Humidifier",
-   "source": "Wikipedia",
-   "year": 2025,
-   "type": "encyclopedia"
-  }
- ],
- "webSources": [
-  {
-   "url": "https://en.wikipedia.org/wiki/Humidifier",
-   "title": "Humidifier (Wikipedia)"
-  }
- ],
- "card": {
-  "summary": "Drinking water and humidifying the room to keep vocal folds moist; studied only loosely, and humidifiers need upkeep.",
-  "aka": null,
-  "evidence": "limited",
-  "status": null,
-  "outcome": "temporary",
-  "risk": "low",
-  "price": null,
-  "note": "Dirty or overused humidifiers can cause problems.",
-  "structure": null
- },
- "quick": {
-  "overview": "Hydration and humidifiers are used to keep the voice comfortable and less fatigued.\n\nOne small study of karaoke singers tested hydration with rest; little else is specific to this use.",
-  "mechanism": "Proponents say moisture lubricates the vocal folds; humidifiers add moisture to air.",
-  "risks": "Humidifiers can spread microorganisms if unclean and promote mold when humidity is too high. [2]"
- }
 }

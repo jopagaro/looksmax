@@ -1,9 +1,9 @@
 {
  "name": "Caffeine cutoff (no caffeine after noon)",
  "lead": [
-  "The caffeine cutoff is a habit of stopping caffeine intake by a set time, often noon or early afternoon, to protect sleep. Proponents say better sleep benefits skin and appearance.[1]",
-  "Wikipedia reports caffeine's half-life in healthy adults as about 3 to 7 hours, that it can delay or prevent sleep, and that sensitivity varies widely between people.[1]",
-  "No studies were found testing a specific noon cutoff or its effects on appearance."
+  "The caffeine cutoff is a habit of stopping caffeine intake by a set time, often noon or early afternoon, to protect sleep. Followers do it because better sleep is linked in appearance communities to clearer-looking skin, less puffiness and better energy for training, so the cutoff is a small habit aimed at looking more rested [1][2].",
+  "Wikipedia reports caffeine's half-life in healthy adults as about 3 to 7 hours, that it can delay or prevent sleep, and that sensitivity varies widely between people [1]. A randomized, double-blind, placebo-controlled home study of 400 mg of caffeine taken 0, 3 or 6 hours before habitual bedtime found that sleep was significantly disturbed at all three timings, and the authors said the result supports sleep hygiene advice to avoid substantial caffeine for at least 6 hours before bed [3].",
+  "No study was found testing a noon cutoff specifically or its effects on appearance."
  ],
  "infobox": [
   [
@@ -35,7 +35,7 @@
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found on a noon caffeine cutoff specifically. The sleep-hygiene literature lists avoiding caffeine in the hours before bed among its recommendations.[2]"
+    "A 2013 randomized trial gave 400 mg of caffeine 0, 3 or 6 hours before habitual bedtime versus placebo and measured sleep at home with self-reports and a portable monitor; all three timings significantly disturbed sleep, including the 6-hour condition, which the authors said supports avoiding substantial caffeine for at least 6 hours before bed [3]. No studies were found on a noon caffeine cutoff specifically. The sleep-hygiene literature lists avoiding caffeine in the hours before bed among its recommendations [2]."
    ]
   }
  ],
@@ -46,7 +46,7 @@
    {
     "claim": "No caffeine after noon improves sleep and looks",
     "believers": "Proponents say late caffeine lingers and worsens sleep quality.",
-    "experts": "Caffeine's half-life of 3-7 hours supports a plausible mechanism, but no studies of a noon rule were found.[1]",
+    "experts": "Caffeine's half-life of 3-7 hours and a 2013 trial showing sleep disturbance from a dose taken 6 hours before bed support the mechanism; no studies of a noon rule or of appearance outcomes were found [1][3].",
     "evidence": "mixed"
    }
   ]
@@ -83,6 +83,14 @@
    "source": "Wikipedia",
    "year": 2026,
    "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:24235903%20AND%20SRC:MED&format=json&resultType=core",
+   "source": "Journal of Clinical Sleep Medicine via Europe PMC",
+   "year": 2013,
+   "type": "trial"
   }
  ],
  "webSources": [
@@ -93,6 +101,20 @@
   {
    "url": "https://en.wikipedia.org/wiki/Sleep_hygiene",
    "title": "Sleep hygiene"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:24235903%20AND%20SRC:MED&format=json&resultType=core",
+   "title": "Europe PMC record: Drake et al. 2013, caffeine and sleep timing"
   }
- ]
+ ],
+ "angle": {
+  "goal": "Sleep and skin",
+  "chain": [
+   "Last caffeine around noon",
+   "Less caffeine remaining at bedtime",
+   "Better sleep, more rested appearance"
+  ],
+  "effect": "indirect",
+  "text": "People stop caffeine by midday so less of it is active at bedtime, aiming for better sleep and the more rested look and training recovery that follow."
+ }
 }

@@ -1,83 +1,120 @@
 {
- "name": "Fruit and veg smell diet",
- "lead": [
-  "The fruit and veg smell diet is the practice of eating more fruit and vegetables in the belief that it makes sweat smell more pleasant. Wikipedia reports a study of males in which higher fruit and vegetable intake was associated with more pleasant-smelling sweat, described as floral, fruity, sweet and medicinal in quality.[1]",
-  "Grokipedia likewise says these foods have been associated with more pleasant body odors, but notes the scents are not typically strong.[2]"
- ],
- "infobox": [
-  [
-   "Type",
-   "Dietary pattern"
+  "name": "Fruit and veg smell diet",
+  "card": {
+    "summary": "Eating more fruit and vegetables is associated with more pleasant-smelling sweat in a study of men; effects are described as mild.",
+    "aka": null,
+    "evidence": "limited",
+    "risk": "low",
+    "note": "Association from a small body of work.",
+    "price": null
+  },
+  "quick": {
+    "overview": "Some people eat more fruit and vegetables hoping to smell better. A study of men found higher intake associated with sweat rated as more pleasant.\n\nSources describe the scents as mild.",
+    "mechanism": "Dietary compounds appear in sweat and may alter its perceived scent; the specific mechanism is not detailed in the sources consulted.",
+    "risks": "No risks documented in the sources consulted."
+  },
+  "lead": [
+    "The fruit and veg smell diet is the practice of eating more fruit and vegetables in the belief that it makes sweat and body odor smell more pleasant. The aim is to be more attractive up close, which is part of overall presentation. Wikipedia's body odor article reports a 2017 study by Zuniga, Stevenson, Mahmut and Stephen in Evolution and Human Behavior, titled Diet quality and the attractiveness of male body odor, in which men who ate more fruit and vegetables had sweat described as more pleasant, with floral, fruity, sweet and medicinal qualities [1].",
+    "Body odor arises mainly when skin bacteria such as Corynebacterium break down compounds secreted by apocrine sweat glands, and Wikipedia lists food, drink, gut microbiome and genetics among the factors that can alter it, along with hygiene [1]. Grokipedia likewise says fruit- and vegetable-rich diets have been associated with more pleasant body odors, though the scents are not typically strong [2].",
+    "A related line of research examined meat: a 2006 study in Chemical Senses had 17 men eat a red-meat and a non-meat diet for two weeks each, and women rated the odor from the non-meat diet as more attractive, more pleasant and less intense [3]."
   ],
-  [
-   "Claimed effect",
-   "More pleasant sweat odor"
+  "angle": {
+    "goal": "Pleasant natural scent",
+    "chain": [
+      "Eat more fruit and vegetables",
+      "Changes in sweat chemistry and odor quality",
+      "Body odor rated as more pleasant"
+    ],
+    "effect": "claimed",
+    "text": "People eat more produce hoping their natural scent comes across as pleasant. A 2017 study associated higher fruit and vegetable intake in men with more pleasant-smelling sweat [1]."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Dietary pattern"
+    ],
+    [
+      "Claimed effect",
+      "More pleasant sweat odor"
+    ],
+    [
+      "Key study cited",
+      "Zuniga et al., 2017, Evolution and Human Behavior [1]"
+    ],
+    [
+      "Related finding",
+      "Non-meat diet odor rated more attractive than red-meat diet odor (Havlicek and Lenochova, 2006) [3]"
+    ]
   ],
-  [
-   "Key study cited",
-   "Zuniga et al., 2017 (diet quality and male body odor attractiveness)"
+  "sections": [
+    {
+      "h": "Background",
+      "paras": [
+        "Apocrine sweat itself is largely odorless; the typical smell comes from skin bacteria converting secreted compounds into volatile acids, including butyric, propionic and isovaleric acids [1]. Because diet changes what the body excretes and may influence the skin microbiome, researchers have asked whether foods change perceived odor [1]."
+      ]
+    },
+    {
+      "h": "Research",
+      "paras": [
+        "The Zuniga study associated higher fruit and vegetable consumption with more pleasant sweat in men [1]. Sample details are not given in the reference pages consulted. The Havlicek and Lenochova experiment used a within-subject design with 17 male donors on a meat and a non-meat diet for two weeks each, with women not using hormonal contraceptives rating the samples [3]. The authors concluded that red meat consumption negatively affects perceived pleasantness of body odor [3]."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found of fruit and vegetable intake as an intervention for body odor beyond the observational and experimental work described above. The 2017 finding is an association [1], and the 2006 experiment compared a meat diet with a non-meat diet [3]."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2006",
+      "event": "Havlicek and Lenochova report that non-meat diet body odor was rated more attractive than red-meat diet odor in Chemical Senses [3]."
+    },
+    {
+      "year": "2017",
+      "event": "Zuniga et al. publish on diet quality and the attractiveness of male body odor [1]."
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Body odor",
+      "url": "https://en.wikipedia.org/wiki/Body_odor",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Body odor",
+      "url": "https://grokipedia.com/page/Body_odor",
+      "source": "Grokipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "The effect of meat consumption on body odor attractiveness",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16891352/",
+      "source": "Chemical Senses",
+      "year": 2006,
+      "type": "study"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Body_odor",
+      "title": "Body odor - Wikipedia"
+    },
+    {
+      "url": "https://grokipedia.com/page/Body_odor",
+      "title": "Body odor - Grokipedia"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16891352/",
+      "title": "The effect of meat consumption on body odor attractiveness (Europe PMC record)"
+    }
   ]
- ],
- "sections": [
-  {
-   "h": "Research",
-   "paras": [
-    "The Wikipedia body odor article lists Zuniga and colleagues (2017) on diet quality and the attractiveness of male body odor.[1] Sample details are not given in the pages consulted.[2]"
-   ]
-  },
-  {
-   "h": "Clinical studies",
-   "paras": [
-    "Observational and sample-based research on male body odor and diet exists, as above; no interventional trial is described in the sources consulted. The association reported is not by itself evidence that dietary change causes the difference.[1][2]"
-   ]
-  }
- ],
- "timeline": [
-  {
-   "year": "2017",
-   "event": "Zuniga et al. publish on diet quality and attractiveness of male body odor.[1]"
-  }
- ],
- "lore": null,
- "refs": [
-  {
-   "id": 1,
-   "title": "Body odor - Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Body_odor",
-   "source": "Wikipedia",
-   "year": null,
-   "type": "encyclopedia"
-  },
-  {
-   "id": 2,
-   "title": "Body odor - Grokipedia",
-   "url": "https://grokipedia.com/page/Body_odor",
-   "source": "Grokipedia",
-   "year": null,
-   "type": "encyclopedia"
-  }
- ],
- "webSources": [
-  {
-   "url": "https://en.wikipedia.org/wiki/Body_odor",
-   "title": "Body odor - Wikipedia"
-  },
-  {
-   "url": "https://grokipedia.com/page/Body_odor",
-   "title": "Body odor - Grokipedia"
-  }
- ],
- "card": {
-  "summary": "Eating more fruit and vegetables is associated with more pleasant-smelling sweat in a study of men; effects are described as mild.",
-  "aka": null,
-  "evidence": "limited",
-  "risk": "low",
-  "note": "Association from a small body of work.",
-  "price": null
- },
- "quick": {
-  "overview": "Some people eat more fruit and vegetables hoping to smell better. A study of men found higher intake associated with sweat rated as more pleasant.\n\nSources describe the scents as mild.",
-  "mechanism": "Dietary compounds appear in sweat and may alter its perceived scent; the specific mechanism is not detailed in the sources consulted.",
-  "risks": "No risks documented in the sources consulted."
- }
 }

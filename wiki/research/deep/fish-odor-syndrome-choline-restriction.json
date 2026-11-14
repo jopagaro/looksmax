@@ -1,9 +1,20 @@
 {
  "name": "Fish odor syndrome and choline restriction",
  "lead": [
-  "Trimethylaminuria (TMAU), also called fish odor syndrome, is a rare metabolic condition in which the body cannot adequately convert trimethylamine, a compound that smells like rotting fish, into odourless trimethylamine N-oxide.[1] Choline restriction is one dietary approach discussed for managing it.[1]",
-  "Most cases are inherited through mutations in the FMO3 gene. Wikipedia says there is no known permanent cure and that symptoms are usually managed through diet under medical or nutritional supervision.[1]"
+  "Trimethylaminuria (TMAU), also called fish odor syndrome, is a rare metabolic condition in which the body cannot adequately convert trimethylamine, a compound that smells like rotting fish, into odourless trimethylamine N-oxide.[1] Choline restriction is one dietary approach discussed for managing it. People with the condition and clinicians pursue it to control body odour, which affects how a person smells in daily and social life.[1]",
+  "Most cases are inherited through mutations in the FMO3 gene. Wikipedia says there is no known permanent cure, and symptoms are usually managed through diet under medical or nutritional supervision.[1] The odour is intermittent and tracks diet, and the condition is often unrecognised or mistaken for olfactory reference syndrome.[1]",
+  "On T Nation, a thread about fixing bad body odour mentions TMAU as a real condition, and a thread asking whether fish oils make you smell receives the reply that a person might have it.[2][3]"
  ],
+ "angle": {
+  "goal": "Body odour",
+  "chain": [
+   "Reduce dietary sources of trimethylamine precursors",
+   "Less trimethylamine released in sweat, breath and urine",
+   "Body odour improves for people with TMAU"
+  ],
+  "effect": "indirect",
+  "text": "For people with TMAU, adjusting diet to reduce choline, carnitine and seafood intake can lessen the fishy smell released through sweat and breath, and so how they smell in everyday settings."
+ },
  "infobox": [
   [
    "Condition",
@@ -11,7 +22,7 @@
   ],
   [
    "Cause",
-   "FMO3 deficiency (primary); high precursor intake or organ failure (secondary)"
+   "FMO3 deficiency (primary); high precursor intake or organ failure (secondary)[1]"
   ],
   [
    "Symptom",
@@ -30,7 +41,8 @@
   {
    "h": "Cause and symptoms",
    "paras": [
-    "The FMO3 enzyme normally oxidises trimethylamine; when deficient, it accumulates and is released in urine, sweat and breath. Secondary forms can follow very high intake of precursors such as choline or carnitine, or liver or kidney failure.[1] Odour is intermittent and tracks diet over the previous day or so, and the condition can bring shame, isolation and depression.[1]"
+    "The FMO3 enzyme normally oxidises trimethylamine; when deficient, it accumulates and is released in urine, sweat and breath. More than 40 mutations have been linked to the primary form, which is autosomal recessive. Secondary forms can follow very high supplement intake of precursors such as choline, carnitine or betaine, or liver or kidney failure.[1] Odour is intermittent and tracks diet over the previous day or so, and the condition appears to be more common in women and may worsen around puberty, menstruation, oral contraceptive use and menopause.[1]",
+    "The condition can bring shame, social isolation and low mood, and is frequently unrecognised or misdiagnosed.[1]"
    ]
   },
   {
@@ -42,13 +54,19 @@
   {
    "h": "Diagnosis",
    "paras": [
-    "Screening measures the ratio of trimethylamine to its oxide in urine, and genetic testing is available, though some common FMO3 variants are considered benign. Olfactory reference syndrome, a persistent false belief about one's odour, is often mistaken for TMAU.[1]"
+    "Screening measures the ratio of trimethylamine to its oxide in urine, and genetic testing is available, though some common FMO3 variants are considered benign. Urinary tract infections, bacterial vaginosis, advanced liver or kidney disease and some other conditions can cause false positives. Olfactory reference syndrome, a persistent false belief about one's odour, is often mistaken for TMAU.[1]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Wikipedia notes media attention to a singer in 2014 and appearances of the condition in television and film.[1] Forum users mention TMAU when discussing body odour problems and diet.[2][3]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "Evidence cited by Wikipedia is limited to case reports and one small study of charcoal with copper chlorophyllin; no large trial of choline restriction was found.[1]"
+    "Evidence cited by Wikipedia is limited to case reports and small studies, including riboflavin in two children and a Japanese study of charcoal with copper chlorophyllin; no large trial of choline restriction was found.[1]"
    ]
   }
  ],
@@ -59,6 +77,38 @@
   }
  ],
  "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Trimethylaminuria",
+   "url": "https://en.wikipedia.org/wiki/Trimethylaminuria",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Fixing Bad B.O.",
+   "url": "https://t-nation.com/t/fixing-bad-b-o/179520",
+   "source": "T Nation forum",
+   "year": 2012,
+   "type": "forum"
+  },
+  {
+   "id": 3,
+   "title": "Do Fish Oils Make You Smell?",
+   "url": "https://t-nation.com/t/do-fish-oils-make-you-smell/131122",
+   "source": "T Nation forum",
+   "year": 2009,
+   "type": "forum"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Trimethylaminuria",
+   "title": "Trimethylaminuria"
+  }
+ ],
  "card": {
   "summary": "A diet approach to a rare genetic condition that makes sweat and breath smell fishy; managed by medical supervision.",
   "aka": "Trimethylaminuria, TMAU",
@@ -70,21 +120,5 @@
   "overview": "Trimethylaminuria is a rare condition in which a fishy-smelling compound builds up and appears in sweat, urine and breath. Some people also use the term loosely for unexplained smell worries.\n\nCholine restriction is one of the dietary strategies described for it.",
   "mechanism": "A deficient FMO3 enzyme fails to convert trimethylamine to an odourless form; diets high in choline or carnitine supply more raw material.",
   "risks": "Choline is an essential nutrient, so Wikipedia says complete elimination is not advised and restriction is cautioned against in pregnancy and breastfeeding. Management is described as best done under medical or nutritional supervision.[1]"
- },
- "refs": [
-  {
-   "id": 1,
-   "title": "Trimethylaminuria - Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Trimethylaminuria",
-   "source": "Wikipedia",
-   "year": 2025,
-   "type": "encyclopedia"
-  }
- ],
- "webSources": [
-  {
-   "url": "https://en.wikipedia.org/wiki/Trimethylaminuria",
-   "title": "Trimethylaminuria - Wikipedia"
-  }
- ]
+ }
 }

@@ -1,43 +1,5 @@
 {
  "name": "Don't over-pluck / regrow",
- "lead": [
-  "\"Don't over-pluck\" is advice in looksmaxxing and grooming circles to stop tweezing eyebrows so that sparse areas can fill in. Tweezing is the most common way to shape brows, and Wikipedia notes that plucked hairs can stop growing back over time, though that statement is flagged as needing a citation.[1]",
-  "Hair loss from lashes and brows, called madarosis, depends on whether follicles survive: non-scarring loss may regrow when the cause is removed, while scarring loss is permanent and treated cosmetically, for example with transplantation.[2] Wikipedia also notes that people who have over-tweezed are considered candidates for eyebrow transplants, and that constant pulling of lashes can cause permanent damage.[1][3]"
- ],
- "infobox": [
-  [
-   "Type",
-   "Grooming practice"
-  ],
-  [
-   "Related condition",
-   "Madarosis"
-  ],
-  [
-   "Related treatments",
-   "Eyebrow transplant, minoxidil (alopecia areata), prostaglandin analogs for lashes"
-  ]
- ],
- "sections": [
-  {
-   "h": "Description",
-   "paras": [
-    "Tweezing, waxing and threading remove brow hairs, and men in Western societies have increasingly plucked parts of their brows.[1] Proponents of leaving brows alone say that frequent removal thins them over time and that leaving them untouched lets them recover."
-   ]
-  },
-  {
-   "h": "Research and expert views",
-   "paras": [
-    "Lashes pulled out take about seven to eight weeks to grow back, according to Wikipedia, and constant pulling may cause permanent damage.[3] Madarosis has many causes, including blepharitis, skin conditions, nutritional deficiency and hair-pulling disorders such as trichotillomania; its regrowth depends on whether follicles are scarred.[2] The madarosis article does not specifically discuss over-plucking.[2]"
-   ]
-  },
-  {
-   "h": "Clinical studies",
-   "paras": [
-    "No studies found."
-   ]
-  }
- ],
  "card": {
   "summary": "Stop plucking so brows can fill in; regrowth depends on whether follicles are intact, and no trials test it.",
   "aka": "Brow regrowth, stop tweezing",
@@ -51,6 +13,62 @@
   "mechanism": "Plucking pulls the hair from the follicle. If follicles are not scarred, hair may regrow; if scarred, loss can be permanent.",
   "risks": "Documented consequences of persistent pulling include permanent hair loss, and over-tweezed brows are a recognized reason for transplant surgery. Brow loss can also signal an underlying condition."
  },
+ "lead": [
+  "\"Don't over-pluck\" is grooming advice, common in looksmaxxing and beauty circles, to cut back on tweezing, waxing and threading so that thin or patchy eyebrows can fill in. Fuller, more even brows frame the eyes and are widely treated as part of a more balanced face, so people who have over-tweezed often pause plucking to recover density.[1]",
+  "Tweezing is the most common way to shape brows, and men in Western societies have increasingly plucked parts of theirs.[1] Cleveland Clinic dermatologist Shilpi Khetarpal says most brows grow back within a few months, with new growth taking at least two to three months to appear, though daily plucking can scar follicles so that hairs in them may not return.[4]",
+  "How much comes back depends on whether the follicle is intact. Hair loss from brows and lashes (madarosis) may regrow when non-scarring causes are removed, while scarring loss is permanent and is treated cosmetically, for example by transplantation.[2] Wikipedia notes that people who have over-tweezed are considered candidates for eyebrow transplants, and that constant pulling of lashes can cause permanent damage.[1][3]"
+ ],
+ "angle": {
+  "goal": "Eyebrows",
+  "chain": [
+   "Stop pulling hairs out of the follicle",
+   "Intact follicles resume their growth cycle",
+   "Brows regain density and a fuller frame around the eyes"
+  ],
+  "effect": "indirect",
+  "text": "Leaving the brow hairs in place lets dormant but undamaged follicles resume growing, so brows that looked sparse can look denser over a few months. Practitioners pair it with brow-pencil filling in the meantime, and dermatologists describe transplant as an option when follicles are scarred."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Grooming practice"
+  ],
+  [
+   "Typical regrowth window",
+   "Roughly two to four months for new growth to appear, per one dermatologist[4]"
+  ],
+  [
+   "Related condition",
+   "Madarosis[2]"
+  ],
+  [
+   "Related treatments",
+   "Topical minoxidil, eyebrow transplant, prostaglandin analogs for lashes"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Tweezing, waxing and threading remove brow hairs from the follicle, and the shape people favour has changed repeatedly over the decades. Proponents of leaving brows alone say that frequent removal thins them over time and that stopping lets them recover.[1] Some also say that growing the brows out for several weeks shows what the natural shape and density are before any shaping resumes."
+   ]
+  },
+  {
+   "h": "Regrowth and expert views",
+   "paras": [
+    "Khetarpal told Cleveland Clinic that the brow growth cycle runs about three to four months, that most brows come back within a few months, and that plucking every day can cause damage and possibly scarring.[4] She recommends limiting plucking, waxing and shaving while brows recover, and describes over-the-counter minoxidil as something that can stimulate brow hair, with the caution that it can irritate the eyes and grow hair elsewhere on the face.[4] She lists eyebrow transplant as an option to discuss with a dermatologist if nothing grows after about four months.[4]",
+    "Lashes pulled out take about seven to eight weeks to grow back, according to Wikipedia, and constant pulling may cause permanent damage.[3] Madarosis has many causes, including blepharitis, skin conditions, nutritional deficiency, and hair-pulling disorders such as trichotillomania. Its regrowth depends on whether follicles are scarred.[2] Sudden or severe brow thinning can also have medical causes, which clinicians assess separately.[2]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found. No published trial has tested stopping tweezing as an intervention for brow density; the figures above come from clinician commentary and general references on hair loss.[2][4]"
+   ]
+  }
+ ],
+ "timeline": [],
+ "lore": null,
  "refs": [
   {
    "id": 1,
@@ -75,6 +93,14 @@
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "5 ways to get overplucked eyebrows to grow back",
+   "url": "https://health.clevelandclinic.org/5-ways-to-get-overplucked-eyebrows-to-grow-back/",
+   "source": "Cleveland Clinic",
+   "year": 2024,
+   "type": "news"
   }
  ],
  "webSources": [
@@ -89,8 +115,10 @@
   {
    "url": "https://en.wikipedia.org/wiki/Eyelash",
    "title": "Eyelash - Wikipedia"
+  },
+  {
+   "url": "https://health.clevelandclinic.org/5-ways-to-get-overplucked-eyebrows-to-grow-back/",
+   "title": "5 ways to get overplucked eyebrows to grow back (Cleveland Clinic)"
   }
- ],
- "lore": null,
- "timeline": []
+ ]
 }

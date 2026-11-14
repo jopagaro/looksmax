@@ -1,84 +1,123 @@
 {
- "name": "Straightening hair brush",
- "lead": [
-  "A straightening hair brush is a heated paddle-style brush that straightens hair as the user brushes through it, combining the surface of a hairbrush with the heated plates of a flat iron. According to Wikipedia, a ceramic straightening brush was patented in 2013, and Sharon Rabi released the first one under the DAFNI brand in 2015 [1].",
-  "The tool has a larger heated surface than a traditional flat iron [1]. No published clinical studies of straightening brushes were found; the underlying heat-straightening mechanism is the same as for flat irons, which work by breaking hydrogen bonds in the hair cortex, with bonds able to re-form when hair is exposed to moisture, and which can cause damage when overused [1]."
- ],
- "infobox": [
-  [
-   "Type",
-   "Heated paddle brush for straightening"
+  "name": "Straightening hair brush",
+  "card": {
+    "summary": "Heated paddle brush that straightens as you brush; same heat mechanism as a flat iron, with no dedicated research.",
+    "aka": "DAFNI, ceramic straightening brush",
+    "evidence": "unproven",
+    "status": null,
+    "outcome": "temporary",
+    "risk": null,
+    "price": null,
+    "note": "No studies specific to straightening brushes; general heat-damage cautions apply.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "A straightening brush is a heated paddle brush that straightens hair as it is brushed through, a hybrid of a hairbrush and a flat iron. The first brand-name version, DAFNI, was released in 2015 after a ceramic design was patented in 2013.\n\nNo dedicated studies of these brushes were found.",
+    "mechanism": "Heat reshapes hydrogen bonds in the hair so it can be held straight, as with a flat iron; the bonds can re-form with moisture.",
+    "risks": "Overuse of heated styling tools can cause severe hair damage, and hot surfaces can burn skin."
+  },
+  "lead": [
+    "A straightening hair brush is a heated paddle-style brush that straightens hair as the user brushes through it, combining a hairbrush with the heated ceramic surface of a flat iron. People use it for a quicker, smoother, sleeker result, since a wide brush passes over larger sections of hair than plates clamped around narrow strands.",
+    "According to Wikipedia, a ceramic straightening brush was patented in 2013 (published 21 November 2013, with Sharon Rabi and Yakov Guy listed), and Rabi released the first one under the DAFNI brand in 2015. It has a larger heated surface than a traditional flat iron [1].",
+    "Heat straighteners work by breaking hydrogen bonds in the hair cortex, and the bonds can re-form when hair is exposed to moisture [1]. Wikipedia warns that overuse of heat tools can cause severe hair damage [1]. No published clinical study of straightening brushes was found."
   ],
-  [
-   "Introduced",
-   "Patented 2013; first brand release 2015 (DAFNI) [1]"
+  "angle": {
+    "goal": "Hair",
+    "chain": [
+      "Heated ceramic brush passes through hair",
+      "Hydrogen bonds in the hair cortex are temporarily broken",
+      "Hair dries straight and smooth until moisture returns"
+    ],
+    "effect": "direct",
+    "text": "Brushing hair with a heated brush gives a straight, smooth finish without sectioning hair into strands for a flat iron. Straightness lasts until humidity or washing lets the bonds re-form."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Heated styling brush"
+    ],
+    [
+      "Patent published",
+      "2013 (Sharon Rabi, Yakov Guy)"
+    ],
+    [
+      "First released",
+      "2015, DAFNI brand"
+    ],
+    [
+      "Surface",
+      "Ceramic bristles or teeth on heated plate"
+    ],
+    [
+      "Related tools",
+      "Flat iron, hot comb, blow-dry brush"
+    ]
   ],
-  [
-   "Related tools",
-   "Flat iron, hair dryer brush"
+  "sections": [
+    {
+      "h": "Description",
+      "paras": [
+        "The brush has bristles or teeth set on a heated ceramic surface so that hair is straightened as it is combed through, instead of clamping sections between plates [1]."
+      ]
+    },
+    {
+      "h": "History",
+      "paras": [
+        "Heated hair tools date back to the 1870s, when French hairdresser Marcel Grateau introduced heated metal tools, and Madam C.J. Walker popularised hot combs; Isaac K. Shero patented a straightener of two heated flat irons pressed together in 1909 [1]. The ceramic straightening brush followed with the 2013 patent and the 2015 DAFNI release [1]."
+      ]
+    },
+    {
+      "h": "How it works",
+      "paras": [
+        "Straighteners break the hydrogen bonds in the hair's cortex, and those bonds re-form when the hair is exposed to moisture, which is why straightened hair can revert in humidity [1]. The plates of most modern irons are ceramic [1]."
+      ]
+    },
+    {
+      "h": "Effectiveness and safety",
+      "paras": [
+        "No studies specific to straightening brushes were found. Wikipedia's general warning for heated hair tools is that overuse can cause severe hair damage, although it notes that heated metal tools were gentler than early chemical straighteners [1]."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found. Heat straightening with flat irons has been examined in laboratory work, but no human trial of a straightening brush was identified."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1870s",
+      "event": "Marcel Grateau introduces heated metal tools for hair [1]."
+    },
+    {
+      "year": "1909",
+      "event": "Isaac K. Shero patents a straightener of two heated flat irons [1]."
+    },
+    {
+      "year": "2013",
+      "event": "Ceramic straightening brush patent published [1]."
+    },
+    {
+      "year": "2015",
+      "event": "Sharon Rabi releases the first straightening brush under the DAFNI brand [1]."
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Hair iron",
+      "url": "https://en.wikipedia.org/wiki/Hair_iron",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Hair_iron",
+      "title": "Hair iron - Wikipedia"
+    }
   ]
- ],
- "sections": [
-  {
-   "h": "Description",
-   "paras": [
-    "The brush has bristles or teeth set on a heated ceramic surface so that hair is straightened as it is combed through, in place of clamping sections between plates [1]."
-   ]
-  },
-  {
-   "h": "Effectiveness and safety",
-   "paras": [
-    "No studies specific to straightening brushes were found. Wikipedia's general warning for heated hair tools is that overuse can cause severe hair damage [1]."
-   ]
-  },
-  {
-   "h": "Clinical studies",
-   "paras": [
-    "No studies found. Heat straightening with flat irons has been examined in laboratory work, but no human trial of a straightening brush was identified."
-   ]
-  }
- ],
- "timeline": [
-  {
-   "year": "2013",
-   "event": "Ceramic straightening brush patented [1]"
-  },
-  {
-   "year": "2015",
-   "event": "Sharon Rabi releases the first straightening brush under the DAFNI brand [1]"
-  }
- ],
- "lore": null,
- "refs": [
-  {
-   "id": 1,
-   "title": "Hair iron",
-   "url": "https://en.wikipedia.org/wiki/Hair_iron",
-   "source": "Wikipedia",
-   "year": 2026,
-   "type": "encyclopedia"
-  }
- ],
- "webSources": [
-  {
-   "url": "https://en.wikipedia.org/wiki/Hair_iron",
-   "title": "Hair iron - Wikipedia"
-  }
- ],
- "card": {
-  "summary": "Heated paddle brush that straightens as you brush; same heat mechanism as a flat iron, with no dedicated research.",
-  "aka": "DAFNI, ceramic straightening brush",
-  "evidence": "unproven",
-  "status": null,
-  "outcome": "temporary",
-  "risk": null,
-  "price": null,
-  "note": "No studies specific to straightening brushes; general heat-damage cautions apply.",
-  "structure": null
- },
- "quick": {
-  "overview": "A straightening brush is a heated paddle brush that straightens hair as it is brushed through, a hybrid of a hairbrush and a flat iron. The first brand-name version, DAFNI, was released in 2015 after a ceramic design was patented in 2013.\n\nNo dedicated studies of these brushes were found.",
-  "mechanism": "Heat reshapes hydrogen bonds in the hair so it can be held straight, as with a flat iron; the bonds can re-form with moisture.",
-  "risks": "Overuse of heated styling tools can cause severe hair damage, and hot surfaces can burn skin."
- }
 }

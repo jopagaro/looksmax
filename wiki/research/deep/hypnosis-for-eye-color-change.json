@@ -1,10 +1,33 @@
 {
  "name": "Hypnosis for eye color change",
+ "card": {
+  "summary": "The claim that hypnosis can change iris color; no studies have tested it and reference sources report no evidence hypnosis alters physical traits.",
+  "aka": null,
+  "evidence": "unproven",
+  "risk": "low",
+  "note": "Untested; money spent on courses or recordings is the main reported cost.",
+  "price": null
+ },
+ "quick": {
+  "overview": "Some fringe sources claim hypnosis or suggestion can change eye color.\n\nNo studies have tested this, and general references on hypnosis report no evidence that it alters physical characteristics.",
+  "mechanism": "Proponents say suggestion influences the body. Research on hypnosis describes effects on perception and involuntary responses, not on iris pigment.",
+  "risks": "No direct physical harms are documented. Unproven claims may lead people to delay or substitute other options."
+ },
  "lead": [
-  "Hypnosis for eye color change is a claim, found in fringe corners of appearance culture, that hypnosis, self-hypnosis or suggestion recordings can alter the color of a person's irises.",
-  "Wikipedia describes hypnosis as a state of focused attention and heightened suggestibility and reports no evidence that it alters physical characteristics such as body structure or appearance [1]. Research cited there shows suggestion can affect sensation, perception and some involuntary responses, and that brain imaging changes under suggestion may reflect stronger imagination rather than real perceptual change [1].",
-  "No published studies were found that tested hypnosis for changing eye color."
+  "Hypnosis for eye color change is a claim, found in fringe corners of appearance culture, that hypnosis, self-hypnosis or suggestion recordings can alter the color of a person's irises. The appeal is a lighter or different eye color with no lenses, drops or surgery, and marketed recordings and courses promise it through repeated listening and visualization.",
+  "Wikipedia describes hypnosis as a state of focused attention and heightened suggestibility and reports no evidence that it alters physical characteristics such as body structure or appearance.[1] Research cited there shows suggestion can affect sensation, perception and some involuntary responses, and that brain imaging changes under suggestion may reflect stronger imagination rather than real perceptual change.[1]",
+  "Eye color is described as determined largely by iris pigmentation, with documented natural changes in infancy and from adolescence to adulthood.[2] No published studies were found that tested hypnosis for changing eye color."
  ],
+ "angle": {
+  "goal": "Eye color",
+  "chain": [
+   "Repeated hypnosis or suggestion recordings",
+   "Proponents expect the mind to shift iris pigmentation",
+   "A different-looking eye color (claimed)"
+  ],
+  "effect": "claimed",
+  "text": "Users listen to suggestion recordings or practise self-hypnosis in the hope of lightening or changing their eye color. Hypnosis is better documented for changing perception and sensation than physical structure."
+ },
  "infobox": [
   [
    "Type",
@@ -12,11 +35,15 @@
   ],
   [
    "Method",
-   "Hypnosis or suggestion recordings"
+   "Hypnosis, self-hypnosis or suggestion recordings"
   ],
   [
    "Claimed effect",
    "Change in iris color"
+  ],
+  [
+   "Related claims",
+   "Eye drops and other non-medical eye color methods"
   ]
  ],
  "sections": [
@@ -29,8 +56,9 @@
   {
    "h": "Research and expert views",
    "paras": [
-    "Wikipedia notes that the effectiveness of hypnotherapy has not been accurately assessed, that major bodies such as the UK National Health Service classify it as alternative medicine, and that its article contains no evidence of hypnosis changing physical traits [1].",
-    "Eye color is described as determined largely by iris pigmentation. Documented natural changes occur in infancy and from adolescence to adulthood, and medical causes include certain drugs and diseases [2]."
+    "Wikipedia notes that the effectiveness of hypnotherapy has not been accurately assessed, that major bodies such as the UK National Health Service classify it as alternative medicine, and that its article contains no evidence of hypnosis changing physical traits.[1]",
+    "Eye color is described as determined largely by iris pigmentation. Documented natural changes occur in infancy and from adolescence to adulthood, and medical causes include certain drugs and diseases.[2]",
+    "For a different non-medical approach, a Harvard Health article reports that the American Academy of Ophthalmology answers a firm no on the safety of eye drops promoted online for changing eye color.[3]"
    ]
   },
   {
@@ -47,7 +75,7 @@
    {
     "claim": "Hypnosis or suggestion can change your eye color",
     "believers": "Proponents say the mind can influence the body and that repeated suggestion can shift iris color over time.",
-    "experts": "No published studies have tested this, and general reference sources report no evidence that hypnosis alters physical traits [1].",
+    "experts": "No published studies have tested this, and general reference sources report no evidence that hypnosis alters physical traits.[1]",
     "evidence": "untested"
    }
   ]
@@ -68,6 +96,13 @@
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Color-changing eye drops: Are they safe?",
+   "url": "https://content.health.harvard.edu/blog/color-changing-eye-drops-are-they-safe",
+   "source": "Harvard Health",
+   "type": "news"
   }
  ],
  "webSources": [
@@ -78,19 +113,10 @@
   {
    "url": "https://en.wikipedia.org/wiki/Eye_color",
    "title": "Eye color - Wikipedia"
+  },
+  {
+   "url": "https://content.health.harvard.edu/blog/color-changing-eye-drops-are-they-safe",
+   "title": "Color-changing eye drops: Are they safe? - Harvard Health"
   }
- ],
- "card": {
-  "summary": "The claim that hypnosis can change iris color; no studies have tested it and reference sources report no evidence hypnosis alters physical traits.",
-  "aka": null,
-  "evidence": "unproven",
-  "risk": "low",
-  "note": "Untested; money spent on courses or recordings is the main reported cost.",
-  "price": null
- },
- "quick": {
-  "overview": "Some fringe sources claim hypnosis or suggestion can change eye color.\n\nNo studies have tested this, and general references on hypnosis report no evidence that it alters physical characteristics.",
-  "mechanism": "Proponents say suggestion influences the body. Research on hypnosis describes effects on perception and involuntary responses, not on iris pigment.",
-  "risks": "No direct physical harms are documented. Unproven claims may lead people to delay or substitute other options."
- }
+ ]
 }

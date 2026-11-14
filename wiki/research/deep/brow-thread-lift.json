@@ -1,9 +1,35 @@
 {
  "name": "Brow thread lift",
+ "card": {
+  "summary": "Threads placed to hoist the brow tail without surgery; evidence is thin, with one trial on durability just registered.",
+  "aka": "Thread brow lift, brow suspension",
+  "evidence": "unproven",
+  "outcome": "temporary",
+  "risk": "moderate",
+  "price": null,
+  "note": "No published trial results found; durability is the open question.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "A brow thread lift uses threads under the skin to raise the outer part of the eyebrow, offered as a less invasive alternative to a surgical brow lift.\n\nSources reviewed contain no completed trials. A registered study is planned to test how long the effect lasts.",
+  "mechanism": "Threads are anchored in the brow and forehead tissue to hold the brow tail higher. Surgical lifts instead reposition tissue through incisions, and botulinum toxin raises the brow by relaxing opposing muscles [1].",
+  "risks": "Specific complication rates for brow threads were not found. Brow lifts in general carry risks such as infection, bleeding and numbness [1]."
+ },
  "lead": [
-  "A brow thread lift is a minimally invasive procedure in which threads are placed under the skin to suspend and raise the tail of the eyebrow. It is offered as an alternative to surgical brow lifts, which Wikipedia describes as procedures to raise drooping brows, with types including endoscopic, coronal and direct approaches, and non-surgical options such as botulinum toxin [1].",
-  "Published evidence is limited. One registered trial, not yet recruiting as of its listing, plans to examine whether upper blepharoplasty with ligament release improves the durability of thread-assisted brow suspension [2]. No completed clinical studies were found in the material reviewed."
+  "A brow thread lift is a minimally invasive procedure in which threads are placed under the skin to suspend and raise the tail of the eyebrow. People choose it to lift a drooping or low-set brow tail, which opens up the eye area and gives a more alert, youthful look, without the incisions of a surgical brow lift. [1][2]",
+  "It sits between injectables and surgery. Wikipedia describes surgical brow lifts, with types including endoscopic, coronal and direct approaches, and non-surgical options such as botulinum toxin, which many patients repeat every four to six months. [1] Thread lifts more broadly use barbed sutures to pull facial skin upward without removing skin. [3]",
+  "Published evidence is limited. One registered trial, not yet recruiting as of its listing, plans to examine whether upper blepharoplasty with ligament release improves the durability of thread-assisted brow suspension. [4] A case report has described a vascular complication after a thread brow lift. [5]"
  ],
+ "angle": {
+  "goal": "Eye area and brow position",
+  "chain": [
+   "Threads anchored in brow and forehead tissue",
+   "Brow tail held in a higher position",
+   "More open eye area and lifted look"
+  ],
+  "effect": "direct",
+  "text": "The thread suspension repositions the outer brow upward, which people use to lift a heavy or low brow tail and brighten the eye area without a scalp or forehead incision."
+ },
  "infobox": [
   [
    "Type",
@@ -19,30 +45,47 @@
   ],
   [
    "Trial status",
-   "One registered trial, not yet recruiting [2]"
+   "One registered trial, not yet recruiting [4]"
+  ],
+  [
+   "Reported complication",
+   "Arteriovenous fistula of superficial temporal vessels (case report) [5]"
   ]
  ],
  "sections": [
   {
    "h": "Description",
    "paras": [
-    "Thread-assisted brow suspension uses sutures or threads to hold the brow in a higher position without the incisions of an endoscopic or coronal lift. Surgical brow lifts, by comparison, include endoscopic lifts through small incisions, coronal lifts across the scalp, and direct, mid-forehead and temporal approaches [1]."
+    "Thread-assisted brow suspension uses sutures or threads to hold the brow in a higher position without the incisions of an endoscopic or coronal lift. Surgical brow lifts, by comparison, include endoscopic lifts through small incisions, coronal lifts across the scalp, and direct, mid-forehead, pretrichial, temporal and internal approaches. [1]",
+    "The brow sits at the centre of the upper face: the eyebrow carries expression, and its position and shape have been modified cosmetically across history, from hikimayu in Japan to tattooing in the twenty-first century. [2] Brow lifting was first described in the medical literature in the early twentieth century; Wikipedia credits German surgeon Erich Lexer with a 1910 discussion on forehead lifts. [1]"
    ]
   },
   {
    "h": "Alternatives",
    "paras": [
-    "Botulinum toxin injections can raise the brow temporarily and are repeated every four to six months, according to Wikipedia [1]. The same article notes that absorbable Endotine implants have been used in surgical lifts [1]."
+    "Botulinum toxin injections can raise the brow temporarily and are repeated every four to six months. [1] Absorbable Endotine implants have been used in surgical lifts, though they may not support very thick forehead tissue or heavy brows. [1]"
+   ]
+  },
+  {
+   "h": "Risks",
+   "paras": [
+    "Surgical brow lifts are described as having rare, usually minor complications in trained hands, including numbness, hair loss or hairline change, infection and bleeding. [1] Thread lifts in general can leave threads in the skin, so problems can be hard to reverse; a physician quoted by the BBC called thread lifts among the more hazardous aesthetic procedures, and a BBC investigation of a training course reported poor infection control. [3]",
+    "A 2023 case report described an arteriovenous fistula of the superficial temporal vessels after a thread brow lift. [5]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "A registered interventional trial (NCT07879456) with a planned 90 participants will assess durability of thread-assisted brow suspension combined with ligament release during upper blepharoplasty, in people with brow ptosis and dermatochalasis; it is listed as not yet recruiting [2]. No results were found."
+    "A registered interventional trial (NCT07879456) with a planned 90 participants will assess durability of thread-assisted brow suspension combined with ligament release during upper blepharoplasty, in people with brow ptosis and dermatochalasis; it is listed as not yet recruiting. [4] No results are available. Published human data otherwise consist of case reports. [5]"
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "1910",
+   "event": "Erich Lexer writes the first documented medical discussion of a forehead lift, according to Wikipedia. [1]"
+  }
+ ],
  "lore": null,
  "refs": [
   {
@@ -55,32 +98,45 @@
   },
   {
    "id": 2,
+   "title": "Eyebrow",
+   "url": "https://en.wikipedia.org/wiki/Eyebrow",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Thread lift",
+   "url": "https://en.wikipedia.org/wiki/Thread_lift",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
    "title": "NCT07879456: Enhancing the Durability of Thread-Assisted Brow Suspension Through Upper Blepharoplasty-Assisted Ligament Release",
    "url": "https://clinicaltrials.gov/study/NCT07879456",
    "source": "ClinicalTrials.gov",
    "year": 2026,
    "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "AVF of superficial temporal vessels after thread brow lift, report of a case",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37388255/",
+   "source": "Radiology Case Reports",
+   "year": 2023,
+   "type": "study"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Brow_lift",
-   "title": "Brow lift - Wikipedia"
+   "title": "Brow lift"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Thread_lift",
+   "title": "Thread lift"
   }
- ],
- "card": {
-  "summary": "Threads placed to hoist the brow tail without surgery; evidence is thin, with one trial on durability just registered.",
-  "aka": "Thread brow lift, brow suspension",
-  "evidence": "unproven",
-  "outcome": "temporary",
-  "risk": "moderate",
-  "price": null,
-  "note": "No published trial results found; durability is the open question.",
-  "structure": null
- },
- "quick": {
-  "overview": "A brow thread lift uses threads under the skin to raise the outer part of the eyebrow, offered as a less invasive alternative to a surgical brow lift.\n\nSources reviewed contain no completed trials. A registered study is planned to test how long the effect lasts.",
-  "mechanism": "Threads are anchored in the brow and forehead tissue to hold the brow tail higher. Surgical lifts instead reposition tissue through incisions, and botulinum toxin raises the brow by relaxing opposing muscles [1].",
-  "risks": "Specific complication rates for brow threads were not found. Brow lifts in general carry risks such as infection, bleeding and numbness [1]."
- }
+ ]
 }

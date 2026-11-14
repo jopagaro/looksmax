@@ -17,32 +17,56 @@
     "risks": "Hydrogen peroxide at higher concentrations can irritate or burn mucous membranes, and whitening commonly causes tooth sensitivity. Baking soda is described as low in abrasiveness, but concentration and brushing frequency are not controlled in home mixtures."
   },
   "lead": [
-    "Baking soda and peroxide paste is a home-made tooth-cleaning mixture of sodium bicarbonate and hydrogen peroxide. Wikipedia notes that hydrogen peroxide can be mixed with baking soda and salt to make a homemade toothpaste [1].",
-    "Each ingredient has its own literature. Hydrogen peroxide is the most common active whitening agent in tooth whitening, and baking soda has been described as a low-abrasive stain remover [2]. Studies of the home-mixed paste were not identified in the sources reviewed.",
-    "Regulators set limits on consumer peroxide: the EU limits retail hydrogen peroxide to 0.1 percent, and the US FDA endorses gels under 6 percent hydrogen peroxide [2]."
+    "Baking soda and peroxide paste is a home-made tooth-cleaning mixture of sodium bicarbonate and hydrogen peroxide, used to lift surface stains from coffee, tea and tobacco so teeth look whiter and brighter. People choose it as a cheap alternative to whitening strips and whitening toothpaste. Wikipedia's toothpaste article notes that a baking soda and hydrogen peroxide paste was recommended for brushing as early as 1900 [1].",
+    "Each ingredient has its own role. Hydrogen peroxide is the most common active whitening agent in tooth whitening, working through free radicals that break down pigment molecules, while baking soda is described as a low-abrasive stain remover [2]. Baking soda is one of several abrasives used in toothpaste to remove plaque and food, and Arm & Hammer sold a baking-soda tooth powder in the US until about 2000 [1][3]. The chain people describe is mild abrasion plus oxidation of pigment, leading to a whiter smile.",
+    "Studies of the home-mixed paste were not found. Regulators set limits on consumer peroxide: the EU limits retail hydrogen peroxide to 0.1 percent, and the US FDA endorses gels under 6 percent hydrogen peroxide [2]."
   ],
+  "angle": {
+    "goal": "Whiter teeth",
+    "chain": [
+      "Baking soda gently scrubs surface stain",
+      "Peroxide oxidises pigment molecules",
+      "Stains lighten",
+      "Brighter-looking teeth"
+    ],
+    "effect": "claimed",
+    "text": "Home users brush with the mix hoping to remove surface discoloration cheaply. Strength and frequency vary by user because the preparation is not standardised."
+  },
   "infobox": [
-    ["Type", "Home-made toothpaste / whitening paste"],
-    ["Ingredients", "Sodium bicarbonate, hydrogen peroxide"],
-    ["Proposed actions", "Mild abrasion plus oxidation of pigment [2]"]
+    [
+      "Type",
+      "Home-made toothpaste / whitening paste"
+    ],
+    [
+      "Ingredients",
+      "Sodium bicarbonate, hydrogen peroxide"
+    ],
+    [
+      "Proposed actions",
+      "Mild abrasion plus oxidation of pigment [2]"
+    ],
+    [
+      "Early mention",
+      "Recommended for brushing as early as 1900 [1]"
+    ]
   ],
   "sections": [
     {
       "h": "Description",
       "paras": [
-        "Online communities describe the paste as a cheap alternative to whitening strips. Because mixing ratios, peroxide strength and frequency vary by user, the practice is not standardised, and no preparation instructions are given here."
+        "Online communities describe the paste as a low-cost alternative to commercial whitening. Because mixing ratios, peroxide strength and frequency vary, the practice is not standardised and no preparation instructions are given here. A T Nation forum member describes brushing with baking soda or tooth powder and using 3 percent hydrogen peroxide as a mouthwash [4]; another forum post quotes a home dental formula that adds glycerin to baking soda [5]."
       ]
     },
     {
       "h": "Effectiveness",
       "paras": [
-        "Peroxide whitens by free radicals that break down pigment molecules [2], while a 2017 review cited on Wikipedia describes baking soda as an effective low-abrasive stain remover [2]. Whether combining them at home gives an additive effect has not been established in the sources reviewed."
+        "Peroxide whitens through free radicals that break down pigment molecules, and a 2017 review cited on Wikipedia describes baking soda as an effective low-abrasive stain remover [2]. Wikipedia says abrasion is the main way toothpaste removes stains and that whitening toothpaste cannot change natural tooth color or reverse discoloration beneath the surface [1]. Whether combining the two at home gives an additive effect has not been established."
       ]
     },
     {
       "h": "Safety and risks",
       "paras": [
-        "Hydrogen peroxide at 10 percent or more can damage tissue and cause burning of mucous membranes, and whitening commonly causes sensitivity [2]. Household 3 percent peroxide is noted as potentially dangerous to the eye [1]. Carbamide peroxide has been reported to increase enamel roughness and porosity [2]."
+        "Hydrogen peroxide at 10 percent or more can damage tissue and burn mucous membranes, and whitening commonly causes sensitivity [2]. Household 3 percent peroxide is noted as potentially dangerous to the eye [6]. Carbamide peroxide has been reported to increase enamel roughness and porosity [2]. Toothpaste abrasiveness is rated by Relative Dentin Abrasivity, with products below 250 considered safe for lifelong use by the American Dental Association and ANSI, and overuse of abrasives may wear enamel [1]. Sodium bicarbonate's main listed hazard is serious eye irritation [3]."
       ]
     },
     {
@@ -52,14 +76,81 @@
       ]
     }
   ],
-  "timeline": [],
-  "lore": null,
+  "timeline": [
+    {
+      "year": "1900",
+      "event": "A baking soda and hydrogen peroxide paste is recommended for brushing. [1]"
+    }
+  ],
+  "lore": {
+    "intro": "The mix appears in forum discussions of cheap, natural-sounding dental care.",
+    "claims": [
+      {
+        "claim": "Baking soda with peroxide keeps teeth clean and free of plaque without commercial toothpaste.",
+        "believers": "One T Nation poster says he brushes with baking soda or tooth powder, uses 3 percent peroxide as mouthwash, and reports no cavities or plaque for 20 years [4].",
+        "experts": "Wikipedia describes baking soda as a mild abrasive and a stain remover [2][3] and notes whitening toothpastes cannot change color beneath the surface [1]; no study of the home mixture was found.",
+        "evidence": "untested"
+      }
+    ]
+  },
   "refs": [
-    { "id": 1, "title": "Hydrogen peroxide", "url": "https://en.wikipedia.org/wiki/Hydrogen_peroxide", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
-    { "id": 2, "title": "Tooth whitening", "url": "https://en.wikipedia.org/wiki/Tooth_whitening", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" }
+    {
+      "id": 1,
+      "title": "Toothpaste",
+      "url": "https://en.wikipedia.org/wiki/Toothpaste",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Tooth whitening",
+      "url": "https://en.wikipedia.org/wiki/Tooth_whitening",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "Sodium bicarbonate",
+      "url": "https://en.wikipedia.org/wiki/Sodium_bicarbonate",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 4,
+      "title": "I'm Bothered by my Toothpaste",
+      "url": "https://t-nation.com/t/im-bothered-by-my-toothpaste/121980",
+      "source": "T Nation forum",
+      "year": 2009,
+      "type": "forum"
+    },
+    {
+      "id": 5,
+      "title": "Expert dental opinion needed",
+      "url": "https://t-nation.com/t/expert-dental-opinion-needed/37347",
+      "source": "T Nation forum",
+      "year": 2004,
+      "type": "forum"
+    },
+    {
+      "id": 6,
+      "title": "Hydrogen peroxide",
+      "url": "https://en.wikipedia.org/wiki/Hydrogen_peroxide",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    }
   ],
   "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Hydrogen_peroxide", "title": "Hydrogen peroxide" },
-    { "url": "https://en.wikipedia.org/wiki/Tooth_whitening", "title": "Tooth whitening" }
+    {
+      "url": "https://en.wikipedia.org/wiki/Toothpaste",
+      "title": "Toothpaste"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sodium_bicarbonate",
+      "title": "Sodium bicarbonate"
+    }
   ]
 }

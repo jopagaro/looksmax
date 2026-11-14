@@ -1,8 +1,9 @@
 {
  "name": "Voice transformation software",
  "lead": [
-  "Voice transformation software changes the pitch or timbre of a speaker's voice, in real time or in post-processing. Wikipedia describes voice changers as hardware or software that alters pitch or timbre or adds distortion, with software versions now very common and using many algorithms.[1] The sources reviewed contain no community discussion of its use for appearance or content creation.",
-  "Pitch alteration is described as key to changing a male voice to female or the reverse, and voice cloning software can mimic a specific person from recordings.[1]"
+  "Voice transformation software changes the pitch or timbre of a speaker's voice, in real time or in post-processing. For people who want a deeper, smoother or otherwise different sound on recordings, streams or calls, it offers a way to hear and present a changed voice without surgery or training.[1]",
+  "Wikipedia describes voice changers as hardware or software that alters pitch or timbre or adds distortion, with software versions now very common and using many algorithms. Most adjust amplitude, pitch and tone, and pitch is key to changing a male voice to female or the reverse.[1] Voice cloning software can mimic a specific person from recordings.[1]",
+  "The effect applies to the processed audio rather than the user's own vocal apparatus, so it is used as a presentation tool: lowering pitch on content, testing how a different voice sounds before pursuing voice therapy, or disguising identity.[1] Pitch correction tools are a related category used in music production.[2]"
  ],
  "infobox": [
   [
@@ -20,6 +21,12 @@
  ],
  "sections": [
   {
+   "h": "How it works",
+   "paras": [
+    "Voice changing software adjusts the amplitude, pitch and tone of an audio signal. Early devices were electronic units placed on telephone handsets to disguise callers, and software now performs the same job with many different algorithms.[1] Pitch correction, a related technique, was rare until Antares introduced Auto-Tune in 1997.[2]"
+   ]
+  },
+  {
    "h": "Description and history",
    "paras": [
     "Early voice changers were electronic devices, often used on phones for disguise.[1] Pitch correction was rare until 1997, when Antares introduced Auto-Tune, developed by Andy Hildebrand using autocorrelation methods from seismic mapping. Hardware units later allowed live use.[2] Earlier, engineers had used the Eventide Harmonizer in the late 1970s.[2]"
@@ -29,6 +36,12 @@
    "h": "Uses",
    "paras": [
     "Documented uses include anonymity in documentaries and fictional depictions in media.[1] Extreme pitch-correction settings produced a robotic effect popularised by a 1998 song.[2]"
+   ]
+  },
+  {
+   "h": "Limits of the effect",
+   "paras": [
+    "Because the transformation is applied to audio, it changes what listeners hear through the software, not how the person sounds in person. People who want a lasting change in their own voice turn to voice therapy or, in some cases, surgery.[1]"
    ]
   },
   {
@@ -86,5 +99,15 @@
    "title": "Pitch correction"
   }
  ],
- "lore": null
+ "lore": null,
+ "angle": {
+  "goal": "Voice",
+  "chain": [
+   "Run speech through pitch/timbre software",
+   "Pitch and tone of the audio are shifted",
+   "Deeper or different-sounding voice on recordings and calls"
+  ],
+  "effect": "direct",
+  "text": "People use software to hear and present a lower-pitched or more resonant voice on recordings and streams, since the output audio is changed immediately."
+ }
 }

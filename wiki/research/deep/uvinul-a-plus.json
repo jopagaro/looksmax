@@ -1,102 +1,160 @@
 {
- "lore": null,
- "timeline": [],
- "webSources": [
-  {
-   "url": "https://en.wikipedia.org/wiki/Diethylamino_hydroxybenzoyl_hexyl_benzoate",
-   "title": "Diethylamino hydroxybenzoyl hexyl benzoate - Wikipedia"
-  }
- ],
- "name": "Uvinul A Plus",
- "lead": [
-  "Uvinul A Plus is BASF's trade name for diethylamino hydroxybenzoyl hexyl benzoate (DHHB, also sold as Parsol DHHB), an organic UVA-absorbing sunscreen filter. It is described as photostable and is used in sunscreens and other cosmetics in the European Union at up to 10 percent.[1][2][3]",
-  "Available research is chemical and toxicokinetic: a 2017 photophysics study and a 2020 human metabolism study. No trials of appearance outcomes were found."
- ],
- "infobox": [
-  [
-   "Type",
-   "Organic UVA filter"
+  "name": "Uvinul A Plus",
+  "card": {
+    "summary": "A photostable organic UVA filter used in EU sunscreens, with little published beyond chemistry and metabolism.",
+    "aka": "DHHB, Parsol DHHB, diethylamino hydroxybenzoyl hexyl benzoate",
+    "evidence": "limited",
+    "outcome": "durable",
+    "price": null,
+    "note": "Not a US sunscreen active per Wikipedia."
+  },
+  "quick": {
+    "overview": "Uvinul A Plus is a UVA filter found in some sunscreens, particularly in Europe. It is described as photostable.\n\nSources are thin: chemistry papers and a 2020 human metabolism study, with no appearance trials.",
+    "mechanism": "It absorbs UVA light, peaking near 354 nm, and dissipates the energy.",
+    "risks": "The EU safety committee flagged a manufacturing impurity (di-n-hexyl phthalate) and recommended limits. Human metabolism was studied after oral and dermal doses in 2020."
+  },
+  "lead": [
+    "Uvinul A Plus is BASF's trade name for diethylamino hydroxybenzoyl hexyl benzoate (DHHB, also sold as Parsol DHHB), an organic UVA-absorbing sunscreen filter. It is used in sunscreens and other cosmetics in the European Union at up to 10 percent, and is described as photostable.[1][2][3]",
+    "It helps appearance through photoaging protection. UVA penetrates deeper into skin than UVB and is associated with damage that is not visible as redness, and Wikipedia's sunscreen article says sunlight is a major driver of premature aging and that daily broad-spectrum sunscreen use has been associated with smoother, more resilient skin.[5] A UVA filter such as DHHB is one way formulators build the UVA side of broad-spectrum protection into a sunscreen.[3][5]",
+    "Available research on the filter itself is chemical and toxicokinetic: a 2017 photophysics study, a 2020 human metabolism study, a 2019 urinary biomonitoring method and a 2021 water-degradation study.[1][2][4][6] No trials of appearance outcomes for this filter alone were found."
   ],
-  [
-   "INCI name",
-   "Diethylamino hydroxybenzoyl hexyl benzoate (DHHB)"
+  "angle": {
+    "goal": "Skin aging and UV protection",
+    "chain": [
+      "Filter absorbs UVA in a sunscreen",
+      "Less UVA reaches deeper skin",
+      "Slower photoaging such as wrinkles and dark spots"
+    ],
+    "effect": "indirect",
+    "text": "DHHB absorbs UVA light, the part of sunlight linked to photoaging. Sunscreens containing UVA filters are used to keep skin looking smoother and more even over time."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Organic UVA filter"
+    ],
+    [
+      "INCI name",
+      "Diethylamino hydroxybenzoyl hexyl benzoate (DHHB)"
+    ],
+    [
+      "Trade names",
+      "Uvinul A Plus (BASF), Parsol DHHB (DSM) [3]"
+    ],
+    [
+      "EU limit",
+      "10 percent in cosmetics [1]"
+    ],
+    [
+      "Absorption maximum",
+      "About 354 nm [3]"
+    ],
+    [
+      "EU approval",
+      "2005 [3]"
+    ]
   ],
-  [
-   "Trade names",
-   "Uvinul A Plus (BASF), Parsol DHHB (DSM)[3]"
+  "sections": [
+    {
+      "h": "Uses",
+      "paras": [
+        "DHHB is mainly used in sunscreens, and also appears in other cosmetic products, with a maximum concentration of 10 percent under the EU directive.[1][4] Wikipedia's sunscreen article notes that the EU approves more UV filters than the US because the US treats sunscreen as an over-the-counter drug while the EU treats it as a cosmetic.[5]"
+      ]
+    },
+    {
+      "h": "Chemistry and photophysics",
+      "paras": [
+        "A 2017 photophysical study examined DHHB through transient absorption, emission, phosphorescence and electron paramagnetic resonance spectra, describing it as a photostable UVA absorber.[2] Wikipedia lists a maximum absorbance of 354 nm.[3] Most organic UV filters do not break down significantly in sunlight, according to the sunscreen article.[5]"
+      ]
+    },
+    {
+      "h": "Regulatory status",
+      "paras": [
+        "Wikipedia states that the EU approved DHHB for sunscreens in 2005 at up to 10 percent, and that it is also approved in several countries including Japan and Mexico but is not a US sunscreen active.[3] The EU Scientific Committee on Consumer Safety flagged possible contamination with di-n-hexyl phthalate from manufacturing and recommended limits on the impurity.[3]"
+      ]
+    },
+    {
+      "h": "Human metabolism and environmental studies",
+      "paras": [
+        "A 2020 study gave volunteers a single oral or dermal dose and followed metabolism and urinary excretion over 72 hours; three major urinary metabolites accounted for 52% of the oral dose.[1] A 2019 method for measuring metabolites in urine found them in about 36% of 58 samples from the general German population.[4] A 2021 study found DHHB degrades quickly under drinking-water disinfection conditions,[6] and a 2025 study characterized a human metabolite and its toxicity in a bioluminescence assay.[7]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "A 2020 human study examined metabolism and urinary excretion after single oral and dermal exposure.[1] No studies of skin-appearance or photoprotection outcomes for this filter alone were found."
+      ]
+    }
   ],
-  [
-   "EU limit",
-   "10 percent in cosmetics[1]"
+  "timeline": [
+    {
+      "year": "2005",
+      "event": "EU approves DHHB as a sunscreen filter at up to 10 percent.[3]"
+    }
   ],
-  [
-   "Absorption maximum",
-   "About 354 nm[3]"
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Human metabolism and urinary excretion kinetics of the UV filter Uvinul A plus after a single oral or dermal dosage",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32174481/",
+      "source": "Int J Hyg Environ Health",
+      "year": 2020,
+      "type": "study"
+    },
+    {
+      "id": 2,
+      "title": "Photophysical properties of hexyl diethylaminohydroxybenzoylbenzoate (Uvinul A Plus), a UV-A absorber",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28782789/",
+      "source": "Photochem Photobiol Sci",
+      "year": 2017,
+      "type": "study"
+    },
+    {
+      "id": 3,
+      "title": "Diethylamino hydroxybenzoyl hexyl benzoate",
+      "url": "https://en.wikipedia.org/wiki/Diethylamino_hydroxybenzoyl_hexyl_benzoate",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 4,
+      "title": "A validated UPLC-MS/MS method for the determination of urinary metabolites of Uvinul A plus",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31773225/",
+      "source": "Anal Bioanal Chem",
+      "year": 2019,
+      "type": "study"
+    },
+    {
+      "id": 5,
+      "title": "Sunscreen",
+      "url": "https://en.wikipedia.org/wiki/Sunscreen",
+      "source": "Wikipedia",
+      "year": null,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 6,
+      "title": "Degradation studies of UV filter hexyl 2-[4-(diethylamino)-2-hydroxybenzoyl]-benzoate (DHHB) in aqueous solution",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33271496/",
+      "source": "J Contam Hydrol",
+      "year": 2021,
+      "type": "study"
+    },
+    {
+      "id": 7,
+      "title": "The acyl glucuronide of 2-(4-diethylamino-2-hydroxybenzoyl)benzoic acid: synthesis, occurrence as a human phase II metabolite of Uvinul A Plus and acute aquatic toxicity",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40088695/",
+      "source": "Chemosphere",
+      "year": 2025,
+      "type": "study"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Sunscreen",
+      "title": "Sunscreen"
+    }
   ]
- ],
- "sections": [
-  {
-   "h": "Chemistry and photophysics",
-   "paras": [
-    "A 2017 photophysical study examined DHHB through transient absorption, emission, phosphorescence and electron paramagnetic resonance spectra, describing it as a photostable UVA absorber.[2] Wikipedia lists a maximum absorbance of 354 nm.[3]"
-   ]
-  },
-  {
-   "h": "Regulatory status",
-   "paras": [
-    "Wikipedia states that the EU approved DHHB for sunscreens in 2005 at up to 10 percent, and that it is also approved in several countries including Japan and Mexico but is not a US sunscreen active.[3] The EU Scientific Committee on Consumer Safety flagged possible contamination with di-n-hexyl phthalate from manufacturing and recommended limits on the impurity.[3]"
-   ]
-  },
-  {
-   "h": "Human metabolism",
-   "paras": [
-    "A 2020 study gave volunteers a single oral or dermal dose and followed metabolism and urinary excretion over 72 hours, identifying metabolites with a new UHPLC-MS/MS method.[1]"
-   ]
-  },
-  {
-   "h": "Clinical studies",
-   "paras": [
-    "A 2020 human study examined metabolism and urinary excretion after single oral and dermal exposure.[1] No studies of skin-appearance or photoprotection outcomes for this filter alone were found."
-   ]
-  }
- ],
- "refs": [
-  {
-   "id": 1,
-   "title": "Human metabolism and urinary excretion kinetics of the UV filter Uvinul A plus after a single oral or dermal dosage",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/32174481/",
-   "source": "International Journal of Hygiene and Environmental Health",
-   "year": 2020,
-   "type": "study"
-  },
-  {
-   "id": 2,
-   "title": "Photophysical properties of hexyl diethylaminohydroxybenzoylbenzoate (Uvinul A Plus), a UV-A absorber",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/28782789/",
-   "source": "Photochemical & Photobiological Sciences",
-   "year": 2017,
-   "type": "study"
-  },
-  {
-   "id": 3,
-   "title": "Diethylamino hydroxybenzoyl hexyl benzoate",
-   "url": "https://en.wikipedia.org/wiki/Diethylamino_hydroxybenzoyl_hexyl_benzoate",
-   "source": "Wikipedia",
-   "year": 2025,
-   "type": "encyclopedia"
-  }
- ],
- "card": {
-  "summary": "A photostable organic UVA filter used in EU sunscreens, with little published beyond chemistry and metabolism.",
-  "aka": "DHHB, Parsol DHHB, diethylamino hydroxybenzoyl hexyl benzoate",
-  "evidence": "limited",
-  "outcome": "durable",
-  "price": null,
-  "note": "Not a US sunscreen active per Wikipedia."
- },
- "quick": {
-  "overview": "Uvinul A Plus is a UVA filter found in some sunscreens, particularly in Europe. It is described as photostable.\n\nSources are thin: chemistry papers and a 2020 human metabolism study, with no appearance trials.",
-  "mechanism": "It absorbs UVA light, peaking near 354 nm, and dissipates the energy.",
-  "risks": "The EU safety committee flagged a manufacturing impurity (di-n-hexyl phthalate) and recommended limits. Human metabolism was studied after oral and dermal doses in 2020."
- }
 }

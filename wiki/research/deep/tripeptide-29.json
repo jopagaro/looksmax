@@ -1,58 +1,75 @@
 {
  "name": "Tripeptide-29",
  "lead": [
-  "Tripeptide-29 is a small collagen-derived peptide made of glycine, proline and hydroxyproline, used in firming and anti-aging skincare. It is added to creams and serums to support the skin's look of firmness and smoothness.",
-  "It is a cosmetic ingredient. The FDA says US law does not recognize cosmeceuticals as a category [1]. Published human studies on this specific ingredient are limited."
+  "Tripeptide-29 is a short peptide made of three amino acids, glycine, proline and hydroxyproline (Gly-Pro-Hyp), which is the repeating unit of collagen. It is used in firming and anti-aging skincare, added to creams, serums and neck products, with the aim of making skin look firmer, smoother and more resilient. Collagen loss and fragmentation are central to how aging skin sags and wrinkles, which is why collagen-fragment ingredients are marketed for appearance.",
+  "It belongs to the family of cosmetic peptides sometimes called matrikines or signal peptides, which are fragments of structural proteins that suppliers say prompt skin cells to make new collagen. Another cosmetic peptide in this family, palmitoyl pentapeptide-4 (Matrixyl), launched in 2000 [2]. In the United States such products are regulated as cosmetics, and the FDA says US law does not recognise cosmeceuticals as a category [1].",
+  "Published human trials on topical tripeptide-29 itself are not available. Collagen peptides taken by mouth have been studied in randomised trials for skin hydration, elasticity and wrinkling [3][4][5], and a 2026 review of aesthetic-dermatology peptides concluded that peptide products should be judged individually rather than treated as interchangeable [6]."
  ],
  "angle": {
   "goal": "Skin firmness",
   "chain": [
-   "Collagen-fragment peptide applied topically",
-   "Signals skin cells that collagen is being broken down",
-   "Skin looks firmer and smoother"
+   "A collagen-fragment peptide is applied to the skin daily",
+   "It is proposed to signal fibroblasts to build collagen",
+   "Skin looks firmer and smoother over weeks"
   ],
   "effect": "claimed",
-  "text": "Used in firming creams and serums, tripeptide-29 is applied daily to improve skin firmness and fine lines."
+  "text": "Tripeptide-29 is applied in a cream or serum to improve the look of skin firmness and fine lines. The firming mechanism comes from supplier descriptions of collagen signalling, while human data come from related oral collagen peptide trials [3][4][5]."
  },
  "infobox": [
   [
    "Type",
-   "Cosmetic peptide (3 amino acids)"
+   "Cosmetic peptide (three amino acids)"
   ],
   [
    "Sequence",
-   "Gly-Pro-Hyp (collagen fragment)"
+   "Gly-Pro-Hyp, a collagen fragment"
   ],
   [
    "Route",
    "Topical"
   ],
   [
-   "Legal status",
-   "Cosmetic ingredient"
+   "Related ingredient class",
+   "Matrikine and signal peptides, such as Matrixyl [2]"
+  ],
+  [
+   "Regulatory category",
+   "Cosmetic ingredient; the FDA does not recognise cosmeceuticals as a category [1]"
   ]
  ],
  "sections": [
   {
    "h": "Uses",
    "paras": [
-    "Tripeptide-29 is found in firming serums, neck creams and anti-aging moisturizers, sometimes alongside other peptides."
+    "Tripeptide-29 is found in firming serums, neck creams and anti-aging moisturizers, sometimes alongside other peptides. Users apply it daily in the hope of firmer-looking skin and softer fine lines."
    ]
   },
   {
-   "h": "Mechanism",
+   "h": "Mechanism as described",
    "paras": [
-    "Matrikine-type peptides are fragments of structural proteins; suppliers say they signal skin cells to make new collagen. Another cosmetic peptide, palmitoyl pentapeptide-4 (Matrixyl), is classed similarly and launched in 2000 [2]."
+    "Matrikine-type peptides are fragments of structural proteins. Suppliers say such fragments signal skin cells that collagen is being broken down and prompt new collagen synthesis. Matrixyl, launched in 2000, is classed in the same family [2].",
+    "Collagen-mimetic peptides, whose repeating unit is the Gly-Pro-Hyp motif, have been used since the late 1960s as tools to study collagen and to develop collagen-based biomaterials [7]."
+   ]
+  },
+  {
+   "h": "Safety and regulation",
+   "paras": [
+    "Cosmetics in the US do not require pre-market approval of claims, and the FDA states that the law does not recognise cosmeceuticals as a category [1]. Mild irritation is possible on sensitive skin, as with most cosmetic actives."
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found."
+    "No studies found on topical tripeptide-29 in humans. Related research concerns collagen peptides taken by mouth. A randomised, placebo-controlled trial published in 2015 reported that daily oral collagen peptides raised skin hydration after eight weeks, and that dermal collagen density increased and fragmentation decreased within four weeks, with effects lasting through twelve weeks. Skin explants showed increased collagen and glycosaminoglycan production [3]. A 2014 randomised trial of specific bioactive collagen peptides reported reduced skin wrinkles and increased dermal matrix synthesis [4], and a 2018 randomised, double-blind trial of low-molecular-weight collagen peptide reported improvements in hydration, elasticity and wrinkling [5]. These trials involve ingested peptides, not creams. A 2024 randomised, double-blinded trial of low-molecular-weight collagen peptide supplementation likewise examined skin health [8]."
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "2000",
+   "event": "Matrixyl (palmitoyl pentapeptide-4), a related cosmetic signal peptide, is launched. [2]"
+  }
+ ],
  "lore": null,
  "refs": [
   {
@@ -70,16 +87,60 @@
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "The effect of oral collagen peptide supplementation on skin moisture and the dermal collagen network: evidence from an ex vivo model and randomized, placebo-controlled clinical trials",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26362110/",
+   "source": "Journal of Cosmetic Dermatology",
+   "year": 2015,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "Oral intake of specific bioactive collagen peptides reduces skin wrinkles and increases dermal matrix synthesis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24401291/",
+   "source": "Skin Pharmacology and Physiology",
+   "year": 2014,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "Oral Intake of Low-Molecular-Weight Collagen Peptide Improves Hydration, Elasticity, and Wrinkling in Human Skin",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29949889/",
+   "source": "Nutrients",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Peptides in Aesthetic Dermatology: Classification, Fibroblast-Centered Mechanisms, Delivery Technologies, and Clinical Evidence",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22Gly-Pro-Hyp%22%20AND%20(skin%20OR%20fibroblast)&format=json&pageSize=8&resultType=core",
+   "source": "Life (Basel)",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Collagen Mimetic Peptides",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33466358/",
+   "source": "Bioengineering (Basel)",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "Low-molecular-weight collagen peptides supplement promotes a healthy skin",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37822045/",
+   "source": "Journal of Cosmetic Dermatology",
+   "year": 2024,
+   "type": "trial"
   }
  ],
  "webSources": [
   {
-   "url": "https://en.wikipedia.org/wiki/Cosmeceutical",
-   "title": "Cosmeceutical - Wikipedia"
-  },
-  {
-   "url": "https://en.wikipedia.org/wiki/Matrixyl",
-   "title": "Matrixyl - Wikipedia"
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22Gly-Pro-Hyp%22%20AND%20(skin%20OR%20fibroblast)&format=json&pageSize=8&resultType=core",
+   "title": "Gly-Pro-Hyp, skin and fibroblast literature (Europe PMC search)"
   }
  ],
  "card": {

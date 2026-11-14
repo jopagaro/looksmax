@@ -1,8 +1,9 @@
 {
  "name": "Rismorelin",
  "lead": [
-  "Rismorelin is a synthetic peptide in the growth hormone-releasing hormone (GHRH) analog family, the group of compounds that prompt the pituitary gland to release the body's own growth hormone. People interested in physique and recovery follow this family because growth hormone signalling is associated with lean mass, fat distribution and tissue repair, which feed into how a physique looks.[1]",
-  "Rismorelin is listed alongside sermorelin, the better-known 29-amino-acid GHRH fragment, as a GHRH receptor agonist.[1] Published human data on rismorelin itself are scarce, and its public footprint is much smaller than that of sermorelin or tesamorelin."
+  "Rismorelin is a synthetic peptide in the growth hormone-releasing hormone (GHRH) analog family, the group of compounds that prompt the pituitary gland to release the body's own growth hormone. People interested in physique and recovery follow this family because growth hormone signalling is associated with lean mass, fat distribution and tissue repair, which feed into how a physique looks.[1][2]",
+  "Rismorelin appears in lists of GHRH receptor agonists alongside sermorelin, the 29-amino-acid GHRH fragment, and tesamorelin; Wikipedia's articles on those compounds mention rismorelin only in a navigation template, without description.[1][2][1] Published human data on rismorelin itself were not found, and its public footprint is much smaller than that of sermorelin or tesamorelin.",
+  "GHRH itself is a 44-amino-acid hypothalamic peptide that acts on the pituitary GHRH receptor, and its release and the resulting growth hormone release are pulsatile.[2] Wikipedia says most GHRH analogues remain research chemicals and may be restricted for professional athletes under anti-doping rules because they act as growth hormone secretagogues.[2]"
  ],
  "angle": {
   "goal": "Physique",
@@ -21,11 +22,11 @@
   ],
   [
    "Relatives",
-   "Sermorelin, tesamorelin"
+   "Sermorelin, tesamorelin[2][1]"
   ],
   [
    "Mechanism",
-   "Stimulates pituitary growth hormone release"
+   "Stimulates pituitary growth hormone release[2]"
   ],
   [
    "Legal status",
@@ -39,15 +40,21 @@
     {
      "h": "Mechanism of action",
      "paras": [
-      "GHRH analogs bind the GHRH receptor on pituitary somatotroph cells and stimulate release of growth hormone. For the related compound sermorelin, the resulting release occurs in bursts rather than as a constant level, because somatostatin feedback limits the response.[1]"
+      "GHRH analogs bind the GHRH receptor, a G protein-coupled receptor on pituitary somatotroph cells, which raises cAMP and drives growth hormone gene transcription and release.[2] Release is pulsatile because somatostatin opposes GHRH and the two alternate; for sermorelin, the same negative feedback is said to limit the response.[2][1]"
      ]
     }
    ]
   },
   {
+   "h": "Related compounds",
+   "paras": [
+    "Sermorelin was approved by the FDA in 1997 as Geref, used mainly to test growth hormone secretion and in children with growth hormone deficiency, and its manufacturer discontinued it in 2008 for commercial reasons; it can still be obtained through compounding pharmacies.[1] Tesamorelin (Egrifta) received FDA approval in 2010 for HIV-associated lipodystrophy.[2]"
+   ]
+  },
+  {
    "h": "Society and culture",
    "paras": [
-    "Rismorelin is named in lists of GHRH receptor agonists, but it does not have a dedicated encyclopedia article, and it is far less discussed in training and looksmaxxing communities than sermorelin, which was sold as Geref until its manufacturer stopped production in 2008.[1] Sermorelin remains obtainable through compounding pharmacies according to the same source.[1]"
+    "Rismorelin does not have a dedicated Wikipedia article and is far less discussed in training and looksmaxxing communities than sermorelin.[1] No forum or news discussion of rismorelin specifically was found."
    ]
   },
   {
@@ -57,7 +64,20 @@
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "1997",
+   "event": "Sermorelin, a related GHRH analog, approved by the FDA.[1]"
+  },
+  {
+   "year": "2008",
+   "event": "Sermorelin discontinued by its manufacturer for commercial reasons.[1]"
+  },
+  {
+   "year": "2010",
+   "event": "Tesamorelin approved by the FDA for HIV-associated lipodystrophy.[2]"
+  }
+ ],
  "lore": null,
  "refs": [
   {
@@ -67,12 +87,24 @@
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Growth hormone-releasing hormone",
+   "url": "https://en.wikipedia.org/wiki/Growth_hormone-releasing_hormone",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Sermorelin",
    "title": "Sermorelin - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Growth_hormone-releasing_hormone",
+   "title": "Growth hormone-releasing hormone - Wikipedia"
   }
  ],
  "card": {

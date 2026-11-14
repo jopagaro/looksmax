@@ -1,15 +1,97 @@
 {
- "name": "Lean physique looks taller",
- "lead": ["The claim that a lean physique makes a person look taller is common in appearance forums. Proponents say lower body fat creates a longer, narrower silhouette.","Research on body shape attractiveness, such as waist-hip and waist-chest ratios, addresses attractiveness rather than perceived height; a waist-to-chest ratio has been reported as the largest determinant of male attractiveness.[1]","No studies were found on body fat and perceived height."],
- "infobox":[["Type","Lifestyle claim"],["Related measure","Waist-hip ratio"]],
- "sections":[
-  {"h":"Research background","paras":["The waist-hip ratio is used as an indicator of health, and research on attractiveness has examined waist and chest ratios for men.[1] These findings do not address height perception."]},
-  {"h":"Clinical studies","paras":["No studies found."]}
- ],
- "timeline":[],
- "lore":null,
- "card":{"summary":"Lower body fat is said to read as taller; attractiveness research exists but nothing on height perception.","aka":null,"evidence":"unproven","risk":"low","price":null,"note":"Weight loss carries its own health considerations.","structure":null},
- "quick":{"overview":"Proponents say a leaner body looks taller.\n\nStudies of body proportions concern attractiveness, not stature.","mechanism":"A narrower silhouette is claimed to emphasise vertical length.","risks":"Low as a claim; aggressive dieting has its own health risks. No height-perception studies were found."},
- "refs":[{"id":1,"title":"Waist-hip ratio","url":"https://en.wikipedia.org/wiki/Waist%E2%80%93hip_ratio","source":"Wikipedia","year":2025,"type":"encyclopedia"}],
- "webSources":[{"url":"https://en.wikipedia.org/wiki/Waist%E2%80%93hip_ratio","title":"Waist-hip ratio"}]
+  "name": "Lean physique looks taller",
+  "card": {
+    "summary": "Lower body fat is said to read as taller; attractiveness research exists but nothing on height perception.",
+    "aka": null,
+    "evidence": "unproven",
+    "risk": "low",
+    "price": null,
+    "note": "Weight loss carries its own health considerations.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "Proponents say a leaner body looks taller.\n\nStudies of body proportions concern attractiveness, not stature.",
+    "mechanism": "A narrower silhouette is claimed to emphasise vertical length.",
+    "risks": "Low as a claim; aggressive dieting has its own health risks. No height-perception studies were found."
+  },
+  "lead": [
+    "The idea that a lean physique makes a person look taller is common in appearance communities. Proponents say that lower body fat gives a longer, narrower silhouette, so the same height reads as taller, and that a lean, defined build also shows off shoulder-to-waist shape.",
+    "Perception research gives the idea a basis in one respect: a 2013 set of five experiments by Beck, Emanuele and Savazzi in Psychonomic Bulletin and Review found that taller figures look thinner and that thinner figures also look taller, although the second effect was weaker. The illusion held for rectangles and cylinders and was stronger for photographs and silhouettes of human bodies.[1]",
+    "Other body-proportion research concerns attractiveness. A waist-to-chest ratio has been reported as the largest determinant of male attractiveness, so a lean waist with a broader upper body serves two goals at once.[2]"
+  ],
+  "angle": {
+    "goal": "Height",
+    "chain": [
+      "Lower body fat narrows the silhouette",
+      "A narrower figure looks taller (height-width illusion)",
+      "Waist-to-chest shape also improves",
+      "Same height reads as taller and more athletic"
+    ],
+    "effect": "claimed",
+    "text": "People who cut body fat aim for a narrower silhouette that reads as taller and shows muscle definition. In the laboratory, thinner figures were judged taller, with a weaker effect than the reverse illusion in which taller figures look thinner.[1]"
+  },
+  "infobox": [
+    [
+      "Type",
+      "Lifestyle claim"
+    ],
+    [
+      "Related measures",
+      "Waist-hip ratio, waist-to-chest ratio[2]"
+    ],
+    [
+      "Related research",
+      "Height-width illusion (Beck et al., 2013)[1]"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Research background",
+      "paras": [
+        "The height-width illusion study used drawn and photographed figures rather than real people in a controlled setting, and the authors suggested future work with real bodies.[1]",
+        "The waist-hip ratio is used as an indicator of health, and research on attractiveness has examined waist and chest ratios for men.[2]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found on body fat and perceived height in real people. Related laboratory research on the height-width illusion used figures and silhouettes.[1]"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2013",
+      "event": "Beck, Emanuele and Savazzi report that thinner figures look taller, and taller figures look thinner.[1]"
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "A new illusion of height and width: Taller people are perceived as thinner",
+      "url": "https://experts.illinois.edu/en/publications/a-new-illusion-of-height-and-width-taller-people-are-perceived-as/",
+      "source": "Psychonomic Bulletin & Review",
+      "year": 2013,
+      "type": "study"
+    },
+    {
+      "id": 2,
+      "title": "Waist-hip ratio",
+      "url": "https://en.wikipedia.org/wiki/Waist%E2%80%93hip_ratio",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Waist%E2%80%93hip_ratio",
+      "title": "Waist-hip ratio"
+    },
+    {
+      "url": "https://experts.illinois.edu/en/publications/a-new-illusion-of-height-and-width-taller-people-are-perceived-as/",
+      "title": "Beck, Emanuele & Savazzi 2013"
+    }
+  ]
 }

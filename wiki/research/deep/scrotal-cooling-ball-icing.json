@@ -1,64 +1,205 @@
 {
-"name": "Scrotal cooling / ball icing",
-"card": {
- "summary": "Chilling the testes with ice or cold packs to support sperm or testosterone; rooted in real testicular physiology but untested as a practice.",
- "aka": "ball icing, testicle cooling, cold exposure for testes",
- "evidence": "unproven",
- "risk": "moderate",
- "note": "No studies found; excessive cold can injure skin, and the body already regulates scrotal temperature.",
- "price": null
-},
-"quick": {
- "overview": "Scrotal cooling, or 'ball icing', is a fringe practice of applying cold to the testes in the hope of improving sperm quality or testosterone. It draws on the established fact that the testes work best a few degrees below core body temperature.\n\nNo studies were found testing deliberate cooling in healthy men for these goals. Its logic is an extension of heat-and-fertility research rather than evidence for the practice.",
- "mechanism": "The scrotum normally keeps the testes around two to three degrees Celsius below core temperature, adjusting with the cremaster muscle and dartos fascia. Proponents reason that extra cooling will help sperm production. Reference sources say heat impairs spermatogenesis but do not say that further cooling improves it.",
- "risks": "Reported or plausible concerns include skin cold injury from direct ice contact and the cremasteric reflex that draws the testes upward in cold. The body's own regulation already maintains testicular temperature, and the effect of extra cooling in healthy men has not been studied in the sources reviewed."
-},
-"lead": [
- "Scrotal cooling, informally 'ball icing', is a fringe practice in which men apply ice, cold packs or cold water to the scrotum, hoping to improve sperm quality or testosterone. It is discussed in biohacking and fertility-optimisation circles and occasionally on looksmaxxing forums.",
- "The idea builds on documented physiology: the scrotum keeps the testes about two to three degrees Celsius below core body temperature, and higher temperatures affect spermatogenesis.[1][2] The testes are moved toward or away from the body by the cremaster muscle, and the scrotum tightens in cold.[1][2]",
- "No human studies of deliberate cooling in healthy men were found, so the practice's benefits are untested, though the underlying heat sensitivity of sperm production is well established."
-],
-"infobox": [
- ["Category", "Fringe / fertility biohacking"],
- ["Method", "Applying cold to the scrotum"],
- ["Claimed benefit", "Sperm quality, testosterone"],
- ["Human trials", "None found"],
- ["Normal scrotal temperature", "About 2-3 C below core[1]"]
-],
-"sections": [
- { "h": "Description", "paras": [
-  "Practitioners describe brief applications of cold to the scrotal area. The rationale offered is that cooler testes mean better sperm production, extending the known effects of heat. Details vary by account, and sources suitable for citation were limited to general reference material."
- ]},
- { "h": "Physiology", "paras": [
-  "The scrotum holds the testes at about 35 C, a few degrees below the core temperature of 37 C. The cremaster muscle and the dartos fascia adjust the testes' distance from the body, and the scrotum usually tightens in cold.[1]",
-  "Another reference says sperm production is most efficient slightly below core temperature, with efficiency falling both below and above about 33 C, and that temperatures above roughly 36.7 C impede it.[2] In mice, brief scrotal heat stress caused DNA damage, reduced fertility and abnormal embryonic development.[2] A fertility reference reports that sustained high ambient temperature consistently lowers sperm quality in animals and links heat to lower sperm quality in humans.[3]",
-  "Leydig cells in the testes produce testosterone under pituitary luteinizing hormone control.[2]"
- ]},
- { "h": "Clinical studies", "paras": [
-  "No studies found.",
-  "Related research concerns the effects of heat on spermatogenesis, in humans and animals, but not deliberate cooling of healthy men.[2][3]"
- ]},
- { "h": "Reported risks", "paras": [
-  "The sources reviewed do not describe cooling-specific harms. General concerns include skin cold injury from direct ice contact. Reference sources also note that the cremasteric reflex raises the testes in response to cold.[2]"
- ]}
-],
-"timeline": [],
-"lore": {
- "intro": "Cooling the testes appears in fertility and testosterone biohacking discussions as a counterpart to avoiding heat. No forum sources suitable for citation were available.",
- "claims": [
-  { "claim": "Cooling the testes improves sperm production.", "believers": "Proponents reason that sperm thrive below body temperature, so more cooling should help.", "experts": "References report that heat impairs spermatogenesis and that efficiency falls both below and above about 33 C; none describes benefit from additional cooling.[1][2]", "evidence": "untested" },
-  { "claim": "Cooling raises testosterone.", "believers": "Some advocates say cold supports testicular hormone output.", "experts": "Leydig cell testosterone production is described as regulated by pituitary luteinizing hormone; no studies of cooling were found.[2]", "evidence": "untested" },
-  { "claim": "Heat harms sperm, so cooling is protective.", "believers": "Practitioners cite heat-related declines in semen quality.", "experts": "Heat is associated with lower sperm quality in humans and animals, although the cited reference does not give study details.[3]", "evidence": "mixed" }
+ "name": "Scrotal cooling / ball icing",
+ "card": {
+  "summary": "Chilling the testes with ice or cold packs to support sperm or testosterone; rooted in real testicular physiology but untested as a practice.",
+  "aka": "ball icing, testicle cooling, cold exposure for testes",
+  "evidence": "unproven",
+  "risk": "moderate",
+  "note": "No studies found; excessive cold can injure skin, and the body already regulates scrotal temperature.",
+  "price": null
+ },
+ "quick": {
+  "overview": "Scrotal cooling, or 'ball icing', is a fringe practice of applying cold to the testes in the hope of improving sperm quality or testosterone. It draws on the established fact that the testes work best a few degrees below core body temperature.\n\nNo studies were found testing deliberate cooling in healthy men for these goals. Its logic is an extension of heat-and-fertility research rather than evidence for the practice.",
+  "mechanism": "The scrotum normally keeps the testes around two to three degrees Celsius below core temperature, adjusting with the cremaster muscle and dartos fascia. Proponents reason that extra cooling will help sperm production. Reference sources say heat impairs spermatogenesis but do not say that further cooling improves it.",
+  "risks": "Reported or plausible concerns include skin cold injury from direct ice contact and the cremasteric reflex that draws the testes upward in cold. The body's own regulation already maintains testicular temperature, and the effect of extra cooling in healthy men has not been studied in the sources reviewed."
+ },
+ "lead": [
+  "Scrotal cooling, informally 'ball icing', is a fringe practice in which men apply ice, cold packs or cold water to the scrotum, hoping to improve sperm quality or testosterone. It is discussed in biohacking and fertility-optimisation circles and occasionally on looksmaxxing forums.",
+  "The looks connection is through testosterone: in looksmaxxing culture, higher testosterone is associated with muscle mass, leanness, facial and body hair and other masculine traits, so anything believed to support testicular function is of interest. Sperm quality is a related fertility concern rather than an appearance one.",
+  "The idea builds on documented physiology: the scrotum keeps the testes about two to three degrees Celsius below core body temperature, and higher temperatures affect spermatogenesis.[1][2] A 2013 systematic review found eight articles on scrotal cooling and spermatogenesis and reported insufficient evidence for firm conclusions, with a positive trend toward improved fertility.[4]"
+ ],
+ "angle": {
+  "goal": "Testosterone",
+  "chain": [
+   "Cold lowers testicular temperature toward the optimum for sperm production",
+   "Healthier testicular function is hoped for",
+   "Supporting testosterone and the muscle and masculine traits it influences"
+  ],
+  "effect": "claimed",
+  "text": "Practitioners apply cold to the scrotum to support testicular function, reasoning that testes work best slightly below body temperature. Published work on cooling concerns sperm and fertility; no study measures its effect on testosterone or physique."
+ },
+ "infobox": [
+  [
+   "Category",
+   "Fringe / fertility biohacking"
+  ],
+  [
+   "Method",
+   "Applying cold to the scrotum"
+  ],
+  [
+   "Claimed benefit",
+   "Sperm quality, testosterone"
+  ],
+  [
+   "Human trials",
+   "Small fertility studies and device trials"
+  ],
+  [
+   "Normal scrotal temperature",
+   "About 2-3 C below core [1]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Practitioners describe brief applications of cold to the scrotal area. The rationale offered is that cooler testes mean better sperm production, extending the known effects of heat. Details vary by account."
+   ]
+  },
+  {
+   "h": "Physiology",
+   "paras": [
+    "The scrotum holds the testes at about 35 C, a few degrees below the core temperature of 37 C. The cremaster muscle and the dartos fascia adjust the testes' distance from the body, and the scrotum usually tightens in cold.[1]",
+    "Another reference says sperm production is most efficient slightly below core temperature, with efficiency falling both below and above about 33 C, and that temperatures above roughly 36.7 C impede it.[2] In mice, brief scrotal heat stress caused DNA damage, reduced fertility and abnormal embryonic development.[2] A fertility reference reports that sustained high ambient temperature consistently lowers sperm quality in animals and links heat to lower sperm quality in humans.[3]",
+    "Leydig cells in the testes produce testosterone under pituitary luteinizing hormone control.[2]"
+   ]
+  },
+  {
+   "h": "Cooling devices",
+   "paras": [
+    "Researchers have developed cooling products for fertility research, including a hydrogel scrotal cooling patch tested in a registered randomised controlled trial protocol of men with low sperm counts, and specialised cooling underwear.[6][7] In a prospective study of cyclic cooling underwear, median scrotal skin temperature was 34.6 C in the cooling period versus 35.3 C in the control period, a reduction of 0.7 C, which the authors described as feasible without impairing daily activities.[7]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A 2013 systematic review of eight articles concluded there was insufficient evidence for firm conclusions on scrotal cooling and male fertility, while observing a positive trend, and called for well designed randomised trials.[4] A 2016 review of lifestyle and complementary therapies for male infertility described the data for scrotal cooling, along with acupuncture and several other therapies, as sparse or inconclusive.[5] A 1982 report described testis hypothermia for infertility due to poor semen.[8]",
+    "No studies were found of deliberate home cooling in healthy men for testosterone or appearance."
+   ]
+  },
+  {
+   "h": "Reported risks",
+   "paras": [
+    "The sources reviewed do not describe cooling-specific harms in the research devices. General concerns include skin cold injury from direct ice contact. Reference sources also note that the cremasteric reflex raises the testes in response to cold.[2]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1982",
+   "event": "Clinical report on testis hypothermia for infertility due to poor semen.[8]"
+  },
+  {
+   "year": "2013",
+   "event": "Systematic review of scrotal cooling and male fertility finds insufficient evidence for firm conclusions.[4]"
+  },
+  {
+   "year": "2021",
+   "event": "Cooling underwear study reports a 0.7 C reduction in scrotal skin temperature.[7]"
+  }
+ ],
+ "lore": {
+  "intro": "Cooling the testes appears in fertility and testosterone biohacking discussions as a counterpart to avoiding heat.",
+  "claims": [
+   {
+    "claim": "Cooling the testes improves sperm production",
+    "believers": "Proponents reason that sperm thrive below body temperature, so more cooling should help.",
+    "experts": "References report that heat impairs spermatogenesis and that efficiency falls both below and above about 33 C; a systematic review observed a positive trend for cooling but insufficient evidence.[2][4]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Cooling raises testosterone",
+    "believers": "Some advocates say cold supports testicular hormone output.",
+    "experts": "Leydig cell testosterone production is described as regulated by pituitary luteinizing hormone; no studies of cooling on testosterone were found.[2]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Heat harms sperm, so cooling is protective",
+    "believers": "Practitioners cite heat-related declines in semen quality.",
+    "experts": "Heat is associated with lower sperm quality in humans and animals.[3]",
+    "evidence": "supported"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Scrotum",
+   "url": "https://en.wikipedia.org/wiki/Scrotum",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Testicle",
+   "url": "https://en.wikipedia.org/wiki/Testicle",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Male infertility",
+   "url": "https://en.wikipedia.org/wiki/Male_infertility",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Scrotal cooling and its benefits to male fertility: a systematic review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23654310/",
+   "source": "J Obstet Gynaecol",
+   "year": 2013,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Male infertility: lifestyle factors and holistic, complementary, and alternative therapies",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26952957/",
+   "source": "Asian J Androl",
+   "year": 2016,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "FertilMate Scrotum Cooling Patch SCOP trial protocol",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22540417/",
+   "source": "Trials",
+   "year": 2012,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Stay cool! Special underwear for cyclic cooling significantly decreases scrotal skin temperature",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34729240/",
+   "source": "Cent European J Urol",
+   "year": 2021,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Further clinical experience with testis hypothermia for infertility due to poor semen",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7090114/",
+   "source": "Urology",
+   "year": 1982,
+   "type": "study"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Scrotum",
+   "title": "Scrotum - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Testicle",
+   "title": "Testicle - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Male_infertility",
+   "title": "Male infertility - Wikipedia"
+  }
  ]
-},
-"refs": [
- { "id": 1, "title": "Scrotum", "url": "https://en.wikipedia.org/wiki/Scrotum", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
- { "id": 2, "title": "Testicle", "url": "https://en.wikipedia.org/wiki/Testicle", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
- { "id": 3, "title": "Male infertility", "url": "https://en.wikipedia.org/wiki/Male_infertility", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" }
-],
-"webSources": [
- { "url": "https://en.wikipedia.org/wiki/Scrotum", "title": "Scrotum - Wikipedia" },
- { "url": "https://en.wikipedia.org/wiki/Testicle", "title": "Testicle - Wikipedia" },
- { "url": "https://en.wikipedia.org/wiki/Male_infertility", "title": "Male infertility - Wikipedia" }
-]
 }

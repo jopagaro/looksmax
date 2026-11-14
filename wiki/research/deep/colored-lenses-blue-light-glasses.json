@@ -1,93 +1,135 @@
 {
- "name": "Colored lenses / blue light glasses",
- "lead": [
-  "Colored lenses and blue-light glasses are spectacles with tinted or filtered lenses marketed to reduce eye strain from screens and, in some looksmaxxing circles, to reduce puffiness around the eyes. By the late 2010s such glasses became popular, with claims ranging from dry eyes and eye strain to sleep disruption and macular degeneration.[1]",
-  "Wikipedia reports that the American Academy of Ophthalmology does not recommend special eyewear for computer use and that the UK College of Optometrists says evidence does not support blue-blocking lenses for the general population.[1] No studies were found on tinted lenses reducing eye puffiness."
- ],
- "infobox": [
-  [
-   "Type",
-   "Eyewear (tinted or filtered lenses)"
+  "name": "Colored lenses / blue light glasses",
+  "card": {
+    "summary": "Tinted blue-light lenses sold for eye strain and fresher-looking eyes; eye-care bodies cited by Wikipedia do not recommend them.",
+    "aka": "Blue-blocking glasses, computer glasses",
+    "evidence": "unproven",
+    "outcome": "unsupported",
+    "price": null,
+    "risk": "low",
+    "note": "No studies on eye puffiness; eye-care bodies do not recommend them for general use."
+  },
+  "quick": {
+    "overview": "These are tinted or blue-filtering lenses marketed for screen eye strain and sometimes for less eye puffiness.\n\nThe AAO and UK College of Optometrists, as reported by Wikipedia, do not recommend them for general use, and no studies were found on puffiness.",
+    "mechanism": "Coatings or tints absorb part of the blue end of the light spectrum; yellow tints may slightly adjust colour.",
+    "risks": "Low physical risk. Colour distortion can occur with strongly tinted lenses, and benefits are unproven."
+  },
+  "lead": [
+    "Colored lenses and blue-light glasses are spectacles with tinted or filtered lenses, usually with a faint yellow cast, marketed to reduce eye strain from screens. People wear them for the more comfortable, rested-looking eyes that come with less screen fatigue, and as a glasses style that can be ordered with a prescription in standard frames [1].",
+    "Some products filter blue light from screens, and some are also claimed to block ultraviolet light; Wikipedia states that computer monitors emit no measurable UV [1]. Yellow-tinted computer and gaming glasses have a slight tint said to give minor colour correction, and many look barely tinted [1]. Blue-light filtering lenses typically filter out about 10-25 percent of blue light, according to the lead author of a 2023 Cochrane review [2].",
+    "By the late 2010s such glasses became popular, with claims ranging from dry eyes and eye strain to sleep disruption and macular degeneration [1]. Research has focused on eye strain, sleep and visual performance. No published study has tested their effect on eye puffiness or other facial appearance outcomes."
   ],
-  [
-   "Popularised",
-   "Late 2010s[1]"
+  "angle": {
+    "goal": "Eyes",
+    "chain": [
+      "Tinted or blue-filtering lenses worn at the screen",
+      "Wearers report less strain and glare",
+      "Eyes feel and look less tired, in the wearer's experience"
+    ],
+    "effect": "claimed",
+    "text": "Wearers use them hoping for less screen-related eye fatigue and a fresher look at the end of the day. Glasses in general also change how a face reads, and tinted frames can be part of a style."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Eyewear (tinted or filtered lenses)"
+    ],
+    [
+      "Popularised",
+      "Late 2010s [1]"
+    ],
+    [
+      "Typical filtering",
+      "About 10-25 percent of blue light [2]"
+    ],
+    [
+      "Claimed benefits",
+      "Less eye strain, better sleep, less puffiness"
+    ],
+    [
+      "Can be prescription",
+      "Yes, in standard frames [1]"
+    ]
   ],
-  [
-   "Claimed benefits",
-   "Less eye strain, better sleep, less puffiness"
+  "sections": [
+    {
+      "h": "Description",
+      "paras": [
+        "Some products filter blue light from screens, and some are also claimed to block ultraviolet light; Wikipedia states that computer monitors emit no measurable UV [1]. Yellow-tinted computer glasses are said to offer slight colour correction and to reduce strain from reduced blinking, though the article supports this with commercial sources rather than controlled studies [1]. They can be ordered with prescription lenses in standard frames [1]."
+      ]
+    },
+    {
+      "h": "Effectiveness",
+      "paras": [
+        "The article says long continuous screen use, not blue light, is the likely cause of digital eye strain, and that several studies indicate computer blue light does not cause eye diseases such as macular degeneration. The American Academy of Ophthalmology suggests prescription glasses measured for screen distance where needed, and reducing evening screen time to help sleep [1].",
+        "A 2023 Cochrane review of 17 randomised trials with 619 adults found that blue-light filtering lenses may not reduce short-term eye strain from computer use (low certainty), probably have little or no effect on best-corrected visual acuity, and have inconclusive sleep results: three of six sleep trials found better scores and three found no difference (very low certainty) [2]. No included trial assessed contrast sensitivity, colour discrimination, glare or patient satisfaction [2]."
+      ]
+    },
+    {
+      "h": "Safety",
+      "paras": [
+        "The Cochrane review reported headache, lower mood and discomfort among effects in both blue-light lens and standard-lens groups, generally temporary and mild [2]. Strongly tinted lenses can alter colour perception, which matters for tasks needing accurate colour."
+      ]
+    },
+    {
+      "h": "Use in looksmaxxing",
+      "paras": [
+        "Tinted lenses are discussed in appearance communities as a way to reduce eye strain or puffiness. Little community material about them was found."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "A 2023 Cochrane review pooled 17 trials of blue-light filtering spectacle lenses for eye strain, sleep and visual performance [2]. A 2023 cross-sectional survey of university students found computer vision syndrome in 77.1 percent of undergraduates and 69.1 percent of medical students, with blue-light glasses use associated with higher severity scores; the survey cannot show cause [3]. No studies found on appearance outcomes such as eye puffiness."
+      ]
+    }
   ],
-  [
-   "Evidence level",
-   "Unproven for appearance"
+  "timeline": [],
+  "lore": {
+    "intro": "Tinted lenses are mentioned as a minor appearance accessory and comfort aid.",
+    "claims": [
+      {
+        "claim": "Blue-light glasses reduce eye strain and eye puffiness",
+        "believers": "Proponents say less screen strain means less eye fatigue and a fresher look.",
+        "experts": "The AAO does not recommend special eyewear for computer use, and the UK College of Optometrists says evidence does not support blue-blocking lenses in the general population [1]. The 2023 Cochrane review found they may not reduce short-term eye strain [2]. No studies tested effects on puffiness.",
+        "evidence": "not-supported"
+      }
+    ]
+  },
+  "refs": [
+    {
+      "id": 1,
+      "title": "Blue light glasses",
+      "url": "https://en.wikipedia.org/wiki/Blue_light_glasses",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Blue-light filtering spectacle lenses for visual performance, sleep, and macular health in adults",
+      "url": "https://www.cochrane.org/CD013244/EYES_blue-light-filtering-spectacles-reduce-eye-strain-or-improve-sleep-quality",
+      "source": "Cochrane",
+      "year": 2023,
+      "type": "review"
+    },
+    {
+      "id": 3,
+      "title": "Computer Vision Syndrome in Undergraduate and Medical Students During the COVID-19 Pandemic",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37064959/",
+      "source": "Clinical Ophthalmology",
+      "year": 2023,
+      "type": "study"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Blue_light_glasses",
+      "title": "Blue light glasses"
+    },
+    {
+      "url": "https://www.cochrane.org/CD013244/EYES_blue-light-filtering-spectacles-reduce-eye-strain-or-improve-sleep-quality",
+      "title": "Cochrane summary: blue-light filtering spectacles"
+    }
   ]
- ],
- "sections": [
-  {
-   "h": "Description",
-   "paras": [
-    "Some products filter blue light from screens, and some are also claimed to block ultraviolet light; Wikipedia states that computer monitors emit no measurable UV.[1] Yellow-tinted computer glasses are said to offer slight colour correction and to reduce strain from reduced blinking, though the article supports this with commercial sources rather than controlled studies.[1]"
-   ]
-  },
-  {
-   "h": "Effectiveness",
-   "paras": [
-    "The article says long continuous screen use, not blue light, is the likely cause of digital eye strain, and that several studies indicate computer blue light does not cause eye diseases such as macular degeneration. The AAO suggests prescription glasses measured for screen distance where needed, and reducing evening screen time to help sleep.[1]"
-   ]
-  },
-  {
-   "h": "Use in looksmaxxing",
-   "paras": [
-    "Tinted lenses are claimed in appearance communities to reduce eye strain or puffiness. No community sources were available to quote."
-   ]
-  },
-  {
-   "h": "Clinical studies",
-   "paras": [
-    "No studies found on appearance outcomes such as eye puffiness. Studies of blue-blocking lenses for eye strain are discussed in the broader literature, not tested here."
-   ]
-  }
- ],
- "timeline": [],
- "lore": {
-  "intro": "Tinted lenses are mentioned as a minor appearance accessory.",
-  "claims": [
-   {
-    "claim": "Blue-light glasses reduce eye strain and eye puffiness",
-    "believers": "Proponents say less screen strain means less eye fatigue and a fresher look.",
-    "experts": "The AAO does not recommend special eyewear for computer use, and the College of Optometrists says evidence does not support blue-blocking lenses in the general population.[1] No studies tested effects on puffiness.",
-    "evidence": "not-supported"
-   }
-  ]
- },
- "refs": [
-  {
-   "id": 1,
-   "title": "Blue light glasses",
-   "url": "https://en.wikipedia.org/wiki/Blue_light_glasses",
-   "source": "Wikipedia",
-   "year": "encyclopedia",
-   "type": null
-  }
- ],
- "webSources": [
-  {
-   "url": "https://en.wikipedia.org/wiki/Blue_light_glasses",
-   "title": "Blue light glasses (Wikipedia)"
-  }
- ],
- "card": {
-  "summary": "Tinted blue-light lenses sold for eye strain and fresher-looking eyes; eye-care bodies cited by Wikipedia do not recommend them.",
-  "aka": "Blue-blocking glasses, computer glasses",
-  "evidence": "unproven",
-  "outcome": "unsupported",
-  "price": null,
-  "risk": "low",
-  "note": "No studies on eye puffiness; eye-care bodies do not recommend them for general use."
- },
- "quick": {
-  "overview": "These are tinted or blue-filtering lenses marketed for screen eye strain and sometimes for less eye puffiness.\n\nThe AAO and UK College of Optometrists, as reported by Wikipedia, do not recommend them for general use, and no studies were found on puffiness.",
-  "mechanism": "Coatings or tints absorb part of the blue end of the light spectrum; yellow tints may slightly adjust colour.",
-  "risks": "Low physical risk. Colour distortion can occur with strongly tinted lenses, and benefits are unproven."
- }
 }

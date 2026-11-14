@@ -1,18 +1,106 @@
 {
  "name": "Violet toothpaste (V34 colour corrector)",
- "lead": ["Violet toothpaste, with V34 as a widely discussed example, is a cosmetic product that deposits a thin violet pigment on the teeth. Proponents say that because violet lies opposite yellow on the colour wheel, it makes yellowish teeth look whiter for a short time, without any peroxide.","Colour theory describes complementary colours as those opposite each other on the colour wheel, and says that mixing complementary lights can yield a neutral grey or white appearance; the same source notes this applies to mixing light and that complementary pigments do not behave identically.[1] This is the principle products of this type are said to rely on.","No clinical studies of violet toothpastes were identified. Dental references describe true whitening as breaking down pigment molecules with peroxide-based agents, which is a different mechanism from a coloured cosmetic layer.[2]"],
- "infobox": [["Type","Cosmetic toothpaste / colour corrector"],["Active principle","Violet pigment (optical colour correction)"],["Contains peroxide","Not stated in sources"],["Evidence","No clinical studies found"]],
+ "lead": [
+  "Violet toothpaste, with V34 as a widely discussed example, is a cosmetic product that leaves a thin violet tint on the teeth to make yellowish teeth look whiter for a short time. People use it for a quick brightening effect, for example before photos or an event, without peroxide bleaching.",
+  "The idea rests on colour theory: violet sits opposite yellow on the colour wheel, and complementary colours are described as ones across from each other on the wheel. When complementary lights are mixed in the right proportions they appear as neutral grey or white, though the Wikipedia colour wheel article notes that paint-like pigments do not behave as predictably as light.[1] Proponents apply this to the tooth surface, where a violet layer is said to offset yellow tones.",
+  "No clinical studies of violet toothpastes were identified. True whitening, by contrast, is described as breaking down pigment molecules in enamel and dentine with hydrogen peroxide or carbamide peroxide, a different mechanism from a coloured cosmetic layer.[2]"
+ ],
+ "angle": {
+  "goal": "Whiter-looking teeth",
+  "chain": [
+   "Violet pigment applied to the tooth surface",
+   "Offsets yellow tones optically",
+   "Teeth look brighter for a short time"
+  ],
+  "effect": "claimed",
+  "text": "A violet colour corrector is used for a temporary visual brightening of yellowish teeth. It changes how the teeth look rather than the pigment inside them."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Cosmetic toothpaste / colour corrector"
+  ],
+  [
+   "Active principle",
+   "Violet pigment (optical colour correction)"
+  ],
+  [
+   "Also known as",
+   "V34, violet colour corrector"
+  ],
+  [
+   "Contains peroxide",
+   "Not stated in sources"
+  ],
+  [
+   "Effect duration",
+   "Temporary"
+  ]
+ ],
  "sections": [
-  {"h":"How it is said to work","paras":["Manufacturers and users describe the violet tint as optically neutralising yellow tones in the visible tooth surface, producing a brighter appearance after brushing or after a short application.[1]","Peroxide bleaching, by contrast, uses hydrogen peroxide or carbamide peroxide to degrade chromogens in or on the tooth.[2]"]},
-  {"h":"Clinical studies","paras":["No studies found."]}
+  {
+   "h": "How it is said to work",
+   "paras": [
+    "Manufacturers and users describe the violet tint as optically neutralising yellow tones on the visible tooth surface, producing a brighter appearance after application.[1] The colour wheel article says complementary colours sit opposite each other and that complementary lights mixed in correct proportions appear neutral grey or white, while paint and pigment mixing is less predictable and varies by medium.[1]",
+    "Peroxide whitening uses hydrogen peroxide, or carbamide peroxide that releases it in water, whose free radicals break down pigment molecules in enamel and dentine.[2]"
+   ]
+  },
+  {
+   "h": "Tooth colour and other whitening options",
+   "paras": [
+    "Extrinsic stains come from tobacco, tannin-rich drinks such as coffee, tea and red wine, certain foods and plaque, while intrinsic stains develop during tooth formation or with age through enamel thinning, decay, fluorosis, tetracycline and other causes.[2] At-home options include strips, gels, trays and whitening toothpastes, which use abrasives and detergents and, in some cases, low-concentration peroxide.[2]",
+    "Whitening is described as most effective on yellow teeth and least effective on grey ones, and much of an intensive in-office gain can rebound as teeth rehydrate; re-treatment may be needed every 6 to 12 months.[2] Peroxide whitening can cause sensitivity and gum irritation, and the EU limits retail products to 0.1 percent hydrogen peroxide.[2]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found."
+   ]
+  }
  ],
  "timeline": [],
  "lore": null,
  "refs": [
-  {"id":1,"title":"Color wheel","url":"https://en.wikipedia.org/wiki/Color_wheel","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-  {"id":2,"title":"Tooth whitening","url":"https://en.wikipedia.org/wiki/Tooth_whitening","source":"Wikipedia","year":2025,"type":"encyclopedia"}
+  {
+   "id": 1,
+   "title": "Color wheel",
+   "url": "https://en.wikipedia.org/wiki/Color_wheel",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Tooth whitening",
+   "url": "https://en.wikipedia.org/wiki/Tooth_whitening",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  }
  ],
- "webSources": [{"url":"https://en.wikipedia.org/wiki/Color_wheel","title":"Color wheel"},{"url":"https://en.wikipedia.org/wiki/Tooth_whitening","title":"Tooth whitening"}],
- "card": {"summary":"A purple-tinted toothpaste that makes yellow teeth look whiter through colour optics; no studies back it yet.","aka":"V34, violet colour corrector","evidence":"unproven","outcome":"temporary","price":null,"note":"Cosmetic effect only; no clinical trials found.","structure":null},
- "quick": {"overview":"Violet toothpaste leaves a faint purple tint on teeth, which proponents say cancels yellow tones and makes teeth look brighter right away.\n\nNo published clinical studies on these products were found, so the claims rest on colour theory and user reports.","mechanism":"The idea is optical: violet sits opposite yellow on the colour wheel, so a thin violet layer is said to neutralise yellowish colour visually. It does not remove stain or bleach the tooth.","risks":"No safety or efficacy studies were found for this product type. Reported effects are described as short-lived and cosmetic."}
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Color_wheel",
+   "title": "Color wheel"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Tooth_whitening",
+   "title": "Tooth whitening"
+  }
+ ],
+ "card": {
+  "summary": "A purple-tinted toothpaste that makes yellow teeth look whiter through colour optics; no studies back it yet.",
+  "aka": "V34, violet colour corrector",
+  "evidence": "unproven",
+  "outcome": "temporary",
+  "price": null,
+  "note": "Cosmetic effect only; no clinical trials found.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Violet toothpaste leaves a faint purple tint on teeth, which proponents say cancels yellow tones and makes teeth look brighter right away.\n\nNo published clinical studies on these products were found, so the claims rest on colour theory and user reports.",
+  "mechanism": "The idea is optical: violet sits opposite yellow on the colour wheel, so a thin violet layer is said to neutralise yellowish colour visually. It does not remove stain or bleach the tooth.",
+  "risks": "No safety or efficacy studies were found for this product type. Reported effects are described as short-lived and cosmetic."
+ }
 }

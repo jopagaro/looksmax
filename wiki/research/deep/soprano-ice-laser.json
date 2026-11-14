@@ -16,8 +16,8 @@
   "risks": "General laser hair-removal risks apply: redness, swelling, burns and pigment changes. Specific data on pain reduction versus other devices were not found."
  },
  "lead": [
-  "The Soprano Ice Platinum from Alma Lasers (Germany) is a hair-removal laser that emits a combination of three wavelengths, 755, 810 and 1064 nm, in a single device. [1]",
-  "A 2021 paper in the Journal of Cosmetic Dermatology reported on its efficacy and safety for hair reduction in Fitzpatrick skin types IV to V. [1] The study background notes that laser hair reduction is among the most common laser procedures in dermatology and that ruby, alexandrite, diode and Nd:YAG systems exist. [1]"
+  "Soprano Ice is a line of hair-removal lasers from Alma Lasers, marketed for lower-discomfort treatment. The Soprano Ice Platinum emits three wavelengths, 755, 810 and 1064 nm, in one device [1]. People use laser hair removal to get long-term reduction of facial or body hair, so the skin looks smooth and shaving or waxing is needed less often [2].",
+  "Laser hair removal works by selective photothermolysis: melanin in the hair absorbs the light and heats the follicle's stem cells, damaging them [2]. The three wavelengths correspond to alexandrite (755 nm), diode (810 nm) and Nd:YAG (1064 nm) lasers, which Wikipedia associates with all skin types, pale to medium skin and dark skin respectively [2]. A 2021 paper in the Journal of Cosmetic Dermatology reported on the Platinum's efficacy and safety for hair reduction in Fitzpatrick skin types IV to V [1]."
  ],
  "infobox": [
   [
@@ -31,19 +31,34 @@
   [
    "Use",
    "Laser hair reduction"
+  ],
+  [
+   "Sessions typically needed",
+   "At least eight, 3-8 weeks apart (laser hair removal generally) [2]"
+  ],
+  [
+   "Cooling",
+   "Contact cooling commonly used to reduce pain and side effects [2]"
   ]
  ],
  "sections": [
   {
+   "h": "How laser hair removal works",
+   "paras": [
+    "Melanin is the main chromophore: eumelanin in brown or black hair absorbs laser energy, while white, grey, light blonde and red hair respond poorly [2]. Lasers affect only follicles in the active growth phase, which is why several sessions are needed, and touch-ups may be required later [2].",
+    "Contact cooling, cryogen spray or forced cold air allows higher fluence and reduces pain and side effects, especially in darker skin; numbing cream is also available [2]. Common short-lived effects include itching, redness and swelling lasting two or three days, and rarer ones include burns, pigment change and infection [2]. In the US the FDA approves lasers for permanent hair reduction, meaning long-term reduction rather than complete removal [2]."
+   ]
+  },
+  {
    "h": "Clinical studies",
    "paras": [
-    "A study of the Soprano Ice Platinum in skin types IV to V was published in 2021. [1] No other studies were found, and numerical results are not reported here."
+    "A study of the Soprano Ice Platinum in skin types IV to V was published in 2021 [1]. For laser hair removal in general, Wikipedia cites a randomized trial reporting 69.2% reduction with a diode laser at 12 months and a 2006 review reporting six-month reductions of about 68.8% for alexandrite and 71.7% for diode lasers [2]."
    ]
   },
   {
    "h": "Pain claims",
    "paras": [
-    "The device is described as a pain-reduced hair-removal system; no published trial comparing its pain levels with other systems was found."
+    "The device is marketed as a lower-pain hair-removal system; no published trial comparing its pain levels with other systems was found. Wikipedia notes that cooling is the method generally used by lasers to cut pain [2]."
    ]
   }
  ],
@@ -57,7 +72,30 @@
    "source": "Journal of Cosmetic Dermatology",
    "year": 2021,
    "type": "study"
+  },
+  {
+   "id": 2,
+   "title": "Laser hair removal",
+   "url": "https://en.wikipedia.org/wiki/Laser_hair_removal",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
   }
  ],
- "webSources": []
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Laser_hair_removal",
+   "title": "Laser hair removal (Wikipedia)"
+  }
+ ],
+ "angle": {
+  "goal": "Hair removal / smooth skin",
+  "chain": [
+   "Laser light absorbed by melanin in the hair",
+   "Follicle stem cells are heated and damaged",
+   "Long-term reduction of regrowing hair after a course of sessions"
+  ],
+  "effect": "direct",
+  "text": "Sessions with a laser like the Soprano Ice reduce hair growth on treated areas, leaving smoother skin with less regrowth. Most people need at least eight sessions spaced weeks apart, and men's facial hair often needs more [2]."
+ }
 }

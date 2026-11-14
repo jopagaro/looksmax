@@ -1,9 +1,21 @@
 {
  "name": "Lemon juice on pimples",
  "lead": [
-  "Dabbing lemon juice on pimples is a home remedy for acne and dark marks. Proponents cite its acidity and vitamin C.",
-  "Lemon juice is about 5-6% citric acid and a rich source of vitamin C [1]. Contact between skin and citrus juice followed by sunlight can cause phytophotodermatitis, a reaction that may leave pigmentation lasting years [2]. No studies of lemon juice for acne were found."
+  "Dabbing lemon juice on pimples is a home remedy people use to dry out blemishes and fade the marks they leave, aiming for clearer, more even skin. Proponents point to lemon juice's citric acid and vitamin C, saying the acidity dries excess oil and the vitamin C calms redness.[1]",
+  "Lemon juice is about 5 to 6 percent citric acid and a rich source of vitamin C, according to Wikipedia.[2] Healthline reports that the claimed benefits (reducing oil, killing acne-linked bacteria, easing redness and leftover scars) come mostly from online forums and blogs, and that vitamin C has been studied for acne less than zinc or retinoids.[1]",
+  "Dermatology-oriented coverage lists the documented downsides of applying citrus juice to the skin: dryness, stinging, redness, increased sun sensitivity and possible hyperpigmentation, and Wikipedia describes phytophotodermatitis, a reaction to plant compounds plus UVA light that can leave pigment marks for years.[1][3] No clinical study of lemon juice itself for acne was found."
  ],
+ "angle": {
+  "goal": "Clear skin",
+  "chain": [
+   "Juice applied to a pimple",
+   "Acid and vitamin C claimed to dry oil and calm redness",
+   "Smaller-looking, less red blemish",
+   "Clearer-looking skin"
+  ],
+  "effect": "claimed",
+  "text": "People dab juice on individual pimples hoping the acid dries the spot and the vitamin C reduces redness and fades marks. The goal is a flatter, less visible blemish."
+ },
  "infobox": [
   [
    "Type",
@@ -11,41 +23,97 @@
   ],
   [
    "Main components",
-   "Citric acid 5-6%, vitamin C [1]"
+   "Citric acid about 5-6%, vitamin C [2]"
   ],
   [
    "Application",
-   "Topical"
+   "Topical, spot-applied"
+  ],
+  [
+   "Look goal",
+   "Fewer, less red blemishes; fading of marks"
+  ],
+  [
+   "Known reaction",
+   "Phytophotodermatitis with sun exposure [3]"
   ]
  ],
  "sections": [
   {
-   "h": "Reported risks",
+   "h": "Beliefs and claims",
    "paras": [
-    "Phytophotodermatitis follows contact with light-sensitising plant compounds (furanocoumarins) and UVA exposure; redness and burning appear within 24 hours, blisters can form within 48 hours, and brown or purplish discolouration can last for years [2]. Wikipedia's article names lime juice as the example and does not specifically mention lemon [2]."
+    "Healthline summarises what proponents say: citric acid dries out sebum, the juice kills acne-associated bacteria such as P. acnes, and its vitamin C eases inflammation and redness, including in post-acne marks.[1] The same article says such claims are mostly anecdotal and found in forums and blogs.[1]"
+   ]
+  },
+  {
+   "h": "Composition",
+   "paras": [
+    "Wikipedia reports lemon juice contains roughly 5 to 6 percent citric acid and is a rich source of vitamin C.[2]"
+   ]
+  },
+  {
+   "h": "Research",
+   "paras": [
+    "Healthline notes that vitamin C has been studied for acne less extensively than zinc or vitamin A (retinoids), and that there is no scientific proof for lemon juice fading acne scars; chemical peels and dermabrasion have more research behind them.[1]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found."
+    "No studies found of lemon juice applied to pimples."
+   ]
+  },
+  {
+   "h": "Reported risks",
+   "paras": [
+    "Healthline lists sun sensitivity, dryness, burning, stinging, itching and redness, and says citrus may cause hyperpigmentation, particularly a concern for darker skin tones.[1] Phytophotodermatitis follows contact with light-sensitising plant compounds (furanocoumarins) and UVA exposure; redness and burning appear within 24 hours, blisters can form within 48 hours, and brown or purplish discolouration can last for years.[3] Wikipedia's article names lime juice as its example and does not specifically mention lemon.[3]"
    ]
   }
  ],
  "timeline": [],
- "lore": null,
+ "lore": {
+  "intro": "Lemon juice appears in home-remedy discussions of acne as a spot treatment.[1]",
+  "claims": [
+   {
+    "claim": "Lemon juice dries out pimples",
+    "believers": "Proponents say citric acid dries the oil in a blemish.[1]",
+    "experts": "Healthline says these claims are mostly anecdotal; no clinical study of lemon juice for acne was found.[1]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Lemon juice fades acne marks",
+    "believers": "Proponents credit the vitamin C and acid with lightening leftover marks.[1]",
+    "experts": "Healthline reports no scientific proof for scar fading and notes citrus can cause hyperpigmentation, especially in darker skin tones.[1]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Lemon juice on skin plus sunlight can cause lasting discolouration",
+    "believers": "Proponents do not generally raise this; it is a reported reaction rather than a sought effect.",
+    "experts": "Wikipedia describes phytophotodermatitis from plant compounds plus UVA, with pigmentation that can last years.[3]",
+    "evidence": "harms"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
-   "title": "Lemon (Wikipedia)",
+   "title": "Lemon for acne",
+   "url": "https://healthline.com/health/lemon-for-acne",
+   "source": "Healthline",
+   "year": null,
+   "type": "news"
+  },
+  {
+   "id": 2,
+   "title": "Lemon",
    "url": "https://en.wikipedia.org/wiki/Lemon",
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
   },
   {
-   "id": 2,
-   "title": "Phytophotodermatitis (Wikipedia)",
+   "id": 3,
+   "title": "Phytophotodermatitis",
    "url": "https://en.wikipedia.org/wiki/Phytophotodermatitis",
    "source": "Wikipedia",
    "year": 2025,
@@ -54,12 +122,16 @@
  ],
  "webSources": [
   {
+   "url": "https://healthline.com/health/lemon-for-acne",
+   "title": "Lemon for acne (Healthline)"
+  },
+  {
    "url": "https://en.wikipedia.org/wiki/Lemon",
-   "title": "Lemon (Wikipedia)"
+   "title": "Lemon - Wikipedia"
   },
   {
    "url": "https://en.wikipedia.org/wiki/Phytophotodermatitis",
-   "title": "Phytophotodermatitis (Wikipedia)"
+   "title": "Phytophotodermatitis - Wikipedia"
   }
  ],
  "card": {

@@ -1,9 +1,33 @@
 {
  "name": "Showering twice daily",
+ "card": {
+  "summary": "Morning and evening showers for odour control; common habit, no studies on the twice-daily part.",
+  "aka": null,
+  "evidence": "unproven",
+  "risk": "low",
+  "note": "Some people report skin dryness; unstudied here.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Showering twice daily means washing in the morning and again later, often after exercise or before going out.\n\nIt is a grooming baseline in appearance communities.",
+  "mechanism": "Washing removes sweat, oil and surface bacteria that contribute to odour.",
+  "risks": "No documented harms were found in the sources consulted; skin dryness is a concern some people raise."
+ },
  "lead": [
-  "Showering twice daily is a hygiene routine, usually morning and evening or after exercise, adopted in appearance-focused communities to control body odour and keep skin and hair clean. Personal hygiene is generally described as cleanliness practices for health and social acceptance, and norms vary by culture and era.[1]",
-  "No published trial comparing twice-daily showering with once-daily showering for appearance or odour was found in the sources consulted."
+  "Showering twice daily is a hygiene routine, usually morning and evening or after exercise, adopted in appearance-focused communities to control body odour and keep skin and hair fresh. The look it aims at is clean skin without sweat or oil shine, tidy hair and no scent, which people count as part of overall presentation.[1][2]",
+  "Body odour comes mainly from bacteria acting on secretions of the skin's apocrine sweat glands, which become active at puberty and are concentrated in the armpits; Wikipedia says bathing daily with antibacterial soap reduces the bacteria that are the source of odour.[2] Deodorants reduce odour, and antiperspirants reduce sweating itself.[2]",
+  "Daily or multiple-times-daily bathing is described as common in Western cultures, with some people showering again after exercise or in hot weather.[3] No published trial comparing twice-daily showering with once-daily showering for appearance or odour was found."
  ],
+ "angle": {
+  "goal": "Hygiene",
+  "chain": [
+   "Washing removes sweat, oil and surface bacteria",
+   "Less body odour and shine, cleaner hair and skin",
+   "Fresher overall presentation"
+  ],
+  "effect": "direct",
+  "text": "A second wash removes sweat and skin oil built up during the day or after training, which people use to keep odour down and skin and hair looking clean. Reference sources describe bacteria acting on sweat as the source of body odour."
+ },
  "infobox": [
   [
    "Type",
@@ -20,19 +44,29 @@
   [
    "Cost",
    "Water and soap"
+  ],
+  [
+   "Often paired with",
+   "Deodorant or antiperspirant, fragrance[2]"
   ]
  ],
  "sections": [
   {
    "h": "Description",
    "paras": [
-    "Regular bathing is an old practice; Roman civilisation is noted for it, and Han-dynasty officials were required to bathe every five days.[1] Modern advice and expectations differ between cultures and over time.[1]"
+    "Regular bathing is an old practice; Roman civilisation is noted for it, and Han-dynasty officials were required to bathe every five days.[1] Showers developed from waterfalls and poured jugs to communal Greek and Roman showers; the first known mechanical shower was patented in England in 1767 and showers became common in private homes only in the 1970s.[3] Modern expectations differ between cultures and over time.[1]"
+   ]
+  },
+  {
+   "h": "Body odour and washing",
+   "paras": [
+    "Skin bacteria such as Corynebacterium break down sweat lipids into smaller molecules that smell, and diet, sex, health and genetics also affect how a person smells.[2] Deodorants usually contain alcohol, antibacterial agents and perfume, while antiperspirants, including prescription aluminum chloride products, temporarily block sweat pores.[2]"
    ]
   },
   {
    "h": "Use in looksmaxxing",
    "paras": [
-    "Proponents treat frequent showering as a baseline for grooming and scent, often alongside deodorant and fragrance. Some people also describe skin dryness as a concern with frequent washing; the general hygiene reference consulted does not address this."
+    "Proponents treat frequent showering as a baseline for grooming and scent, often alongside deodorant and fragrance. A T Nation member, discussing health habits in a thread on testosterone, mentioned twice-daily showers with special soaps as something he could do but did not bother with, which shows the routine is known as an optional step.[4] Some people also describe skin dryness as a concern with frequent washing; the reference pages consulted do not address this."
    ]
   },
   {
@@ -42,14 +76,27 @@
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "1767",
+   "event": "First known mechanical shower patented in England.[3]"
+  },
+  {
+   "year": "1839",
+   "event": "Shower cabin invented.[3]"
+  },
+  {
+   "year": "1970s",
+   "event": "Showers become common in private homes.[3]"
+  }
+ ],
  "lore": {
   "intro": "Twice-daily showering is discussed as a grooming baseline.",
   "claims": [
    {
     "claim": "Showering twice a day improves smell and skin presentation",
     "believers": "Proponents say it removes sweat and oil before they cause odour or shine.",
-    "experts": "No published studies were found testing this routine for appearance outcomes.",
+    "experts": "Wikipedia says daily bathing with antibacterial soap lowers the bacteria that cause odour; no published studies were found testing a twice-daily routine for appearance outcomes.[2]",
     "evidence": "untested"
    }
   ]
@@ -62,25 +109,44 @@
    "source": "Wikipedia",
    "year": 2024,
    "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Body odor",
+   "url": "https://en.wikipedia.org/wiki/Body_odor",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Shower",
+   "url": "https://en.wikipedia.org/wiki/Shower",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "What's your Free-Testosterone?",
+   "url": "https://t-nation.com/t/whats-your-free-testosterone/264295",
+   "source": "T Nation forum",
+   "year": 2020,
+   "type": "forum"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Hygiene",
    "title": "Hygiene - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Body_odor",
+   "title": "Body odor - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Shower",
+   "title": "Shower - Wikipedia"
   }
- ],
- "card": {
-  "summary": "Morning and evening showers for odour control; common habit, no studies on the twice-daily part.",
-  "aka": null,
-  "evidence": "unproven",
-  "risk": "low",
-  "note": "Some people report skin dryness; unstudied here.",
-  "structure": null
- },
- "quick": {
-  "overview": "Showering twice daily means washing in the morning and again later, often after exercise or before going out.\n\nIt is a grooming baseline in appearance communities.",
-  "mechanism": "Washing removes sweat, oil and surface bacteria that contribute to odour.",
-  "risks": "No documented harms were found in the sources consulted; skin dryness is a concern some people raise."
- }
+ ]
 }

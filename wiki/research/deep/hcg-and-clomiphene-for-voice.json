@@ -1,10 +1,20 @@
 {
  "name": "HCG and clomiphene for voice",
  "lead": [
-  "In looksmaxxing discussion, human chorionic gonadotropin (hCG) and clomiphene (clomifene) are two prescription drugs sometimes mentioned as ways of raising endogenous testosterone, with the idea that higher testosterone could deepen or maintain a lower voice. Both are used medically for fertility and, off-label, for male hypogonadism.[1][2]",
-  "hCG is a hormone that resembles luteinizing hormone and stimulates the Leydig cells of the testes to make testosterone.[2] Clomiphene is a selective estrogen receptor modulator that blocks estrogen feedback in the hypothalamus, increasing GnRH, FSH and LH release.[1] Encyclopedic sources on both drugs do not describe an effect on adult voice pitch.[1][2]",
-  "No clinical studies of either drug for voice were found. The voice-deepening effect of testosterone is associated with puberty, and the larynx changes of puberty are generally described as lasting."
+  "In looksmaxxing discussion, human chorionic gonadotropin (hCG) and clomiphene (clomifene) are two prescription drugs sometimes mentioned as ways of raising the body's own testosterone, with the idea that higher testosterone could support a deeper, more masculine voice and a more masculine overall presentation. Both are used medically for fertility and, off-label, for male hypogonadism.[1][2]",
+  "hCG is a hormone that resembles luteinizing hormone and stimulates the Leydig cells of the testes to make testosterone.[2] Clomiphene is a selective estrogen receptor modulator that blocks estrogen feedback in the hypothalamus, increasing GnRH, FSH and LH release.[1] Its enclomifene isomer works in a similar way and has been studied in secondary hypogonadism.[3] Encyclopedic sources on these drugs describe fertility and testosterone uses and do not describe an effect on adult voice pitch.[1][2][3]",
+  "No clinical studies of either drug for voice were found. Voice deepening is a pubertal effect of testosterone on the larynx, and voice problems that persist after puberty, such as puberphonia, are typically treated with voice therapy; hypogonadism is described as something to rule out in some cases.[4]"
  ],
+ "angle": {
+  "goal": "Voice",
+  "chain": [
+   "hCG or clomiphene stimulates the body's own testosterone production",
+   "Higher circulating testosterone",
+   "Claimed support for deeper voice and masculine presentation"
+  ],
+  "effect": "claimed",
+  "text": "Proponents in appearance communities reason that raising natural testosterone, without taking testosterone itself, could support a deeper voice and other masculine traits. The drugs' documented uses are fertility and treating low testosterone."
+ },
  "infobox": [
   [
    "Drug class",
@@ -39,6 +49,12 @@
      ]
     },
     {
+     "h": "Enclomifene",
+     "paras": [
+      "Enclomifene is the (E)-stereoisomer of clomifene, roughly 62 percent of the clomifene mixture, while the other isomer, zuclomifene, is more estrogenic and can lower testosterone. Enclomifene was investigated for male hypogonadism under the tentative names Androxal and EnCyzix; studies in secondary hypogonadism reported increased total and free testosterone and, in a 2013 comparison with testosterone gel, higher sperm counts. In January 2018 the EMA's CHMP recommended refusing marketing authorization for secondary hypogonadism, and development was discontinued for all indications in April 2021.[3]"
+     ]
+    },
+    {
      "h": "hCG",
      "paras": [
       "hCG is made by placental cells and is used clinically to treat certain forms of hypogonadism, to maintain fertility and testicular size in men on testosterone therapy, and to trigger ovulation.[2] Prolonged use in males can increase androgen production, and caution is advised in people with heart failure, hypertension, kidney dysfunction, migraines or epilepsy.[2] In the 1970s the FDA required a disclaimer on hCG weight-loss advertising, and in 2011 banned over-the-counter hCG diet products.[2]"
@@ -49,13 +65,14 @@
   {
    "h": "Voice",
    "paras": [
-    "Proponents in appearance communities reason that raising endogenous testosterone while avoiding testosterone replacement could support a deeper voice. The Wikipedia articles on both drugs list fertility, hypogonadism and testicular function as the uses and do not mention voice effects.[1][2] No published trial was identified that measured vocal pitch or resonance in adults after either drug."
+    "Proponents in appearance communities reason that raising endogenous testosterone while avoiding testosterone replacement could support a deeper voice. The Wikipedia articles on these drugs list fertility, hypogonadism and testicular function as the uses and do not mention voice effects.[1][2][3] No published trial was identified that measured vocal pitch or resonance in adults after either drug.",
+    "Puberphonia is a functional voice disorder in which a high, falsetto-like voice persists after puberty, usually beginning between ages 11 and 15 and most often diagnosed in males. It is usually psychogenic, and treatment is mainly direct voice therapy with a speech-language pathologist lasting one to two weeks, with surgery for therapy-resistant cases; the article notes only that hypogonadism should be ruled out when the thyroid laminae have not fused.[4] On T Nation, one member with a young teenage voice and low testosterone discussed his bloodwork on testosterone therapy.[5]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found."
+    "No studies found on hCG or clomiphene for voice. Studies of enclomifene in secondary hypogonadism are summarized above and examined testosterone and sperm outcomes.[3]"
    ]
   },
   {
@@ -77,6 +94,14 @@
   {
    "year": "2011",
    "event": "FDA bans over-the-counter hCG diet products.[2]"
+  },
+  {
+   "year": "2018",
+   "event": "EMA committee recommends refusing marketing authorization for enclomifene in secondary hypogonadism.[3]"
+  },
+  {
+   "year": "2021",
+   "event": "Enclomifene development discontinued for all indications.[3]"
   }
  ],
  "lore": null,
@@ -96,16 +121,48 @@
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Enclomifene",
+   "url": "https://en.wikipedia.org/wiki/Enclomifene",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Puberphonia",
+   "url": "https://en.wikipedia.org/wiki/Puberphonia",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 5,
+   "title": "T Increasing, E2 Decreasing on TRT, No AI. Why?",
+   "url": "https://t-nation.com/t/t-increasing-e2-decreasing-on-trt-no-ai-why/229642",
+   "source": "T Nation forum",
+   "year": 2017,
+   "type": "forum"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Clomifene",
-   "title": "Clomifene"
+   "title": "Clomifene - Wikipedia"
   },
   {
    "url": "https://en.wikipedia.org/wiki/Human_chorionic_gonadotropin",
-   "title": "Human chorionic gonadotropin"
+   "title": "Human chorionic gonadotropin - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Enclomifene",
+   "title": "Enclomifene - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Puberphonia",
+   "title": "Puberphonia - Wikipedia"
   }
  ],
  "card": {

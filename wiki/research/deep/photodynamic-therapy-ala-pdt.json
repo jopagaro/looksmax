@@ -1,77 +1,100 @@
 {
   "name": "Photodynamic therapy (ALA-PDT)",
   "lead": [
-    "Photodynamic therapy (PDT) uses a light-sensitive drug (photosensitizer) and light of a suitable wavelength to produce reactive oxygen species that kill targeted cells.[1] In ALA-PDT, aminolevulinic acid (ALA), a precursor in the body's heme synthesis, is applied so that cells accumulate the photosensitizer protoporphyrin IX before light is shone on the area.[1]",
-    "Dermatologically it is best established for actinic keratosis and certain skin cancers.[1] For acne it has been studied mainly in severe or inflammatory acne. A 2016 systematic review described it as safe and effective for acne, while one phase II trial found it no better than blue or violet light alone, according to a general reference.[1] Reported side effects in acne treatment include marked redness, moderate to severe pain and burning.[1]"
+    "ALA-PDT is a clinic procedure in which a dermatologist applies aminolevulinic acid (ALA) to the skin and then shines a light of a matching wavelength on it. Cells in the treated area turn ALA into a light-sensitive compound, protoporphyrin IX, and the light then triggers reactive oxygen species that destroy the targeted cells.[1][2] People look into it for visible skin concerns: inflamed, stubborn or severe acne, sun-damaged skin with rough sun spots (actinic keratoses), and, off label, general facial rejuvenation.[2][3]",
+    "Because the effect is confined to the area that is both sensitised and illuminated, the treatment can be directed at the face, and the skin typically clears and renews after the sunburn-like reaction settles, usually over several weeks.[2] DermNet lists acne and facial rejuvenation among the off-label or investigational uses, while actinic keratosis, Bowen disease and superficial basal cell carcinoma are the approved ones.[2]",
+    "For acne, a 2016 systematic review described PDT as a safe and effective treatment, while one phase II trial found improvement that was not better than blue or violet light alone.[1] A small randomized trial compared ALA with its methyl ester (MAL) for inflamed facial acne.[4] A 2022 network meta-analysis of acne treatments covered physical treatments, including light-based ones, alongside drugs.[5] Redness, burning, pain and light sensitivity for about a day are the main reported side effects.[1][2]"
   ],
+  "angle": {
+    "goal": "Skin",
+    "chain": ["ALA cream builds up light-sensitive protoporphyrin IX in treated skin", "Light activates it and destroys targeted cells", "Inflamed acne lesions or sun-damaged patches clear as skin renews"],
+    "effect": "direct",
+    "text": "ALA-PDT is used in dermatology clinics to treat inflamed acne and sun-damaged patches on the face, and some clinics offer it for rejuvenation. Users go to it when they want clearer, smoother-looking facial skin, accepting a sunburn-like reaction that heals over a few weeks."
+  },
   "infobox": [
-    ["Type", "Light-based procedure with photosensitizer"],
-    ["Photosensitizer", "Aminolevulinic acid (or methyl ester, MAL)"],
-    ["Established uses", "Actinic keratosis, some skin cancers"],
-    ["Acne use", "Studied mainly for severe acne"],
-    ["Main side effects", "Redness, pain, burning, photosensitivity"]
+    ["Type", "Light-based clinic procedure with a photosensitizer"],
+    ["Photosensitizer", "Aminolevulinic acid (ALA) or its methyl ester (MAL)"],
+    ["Approved uses", "Actinic keratosis, Bowen disease, superficial basal cell carcinoma [2]"],
+    ["Appearance-related uses", "Acne, facial rejuvenation (off label) [2]"],
+    ["Typical session", "Cream incubation about 3 to 6 hours, then 5 to 45 minutes of light [2]"],
+    ["Recovery", "Sunburn-like reaction, usually 4 to 8 weeks to heal [2]"],
+    ["Main side effects", "Stinging, redness, swelling, peeling, light sensitivity [2]"]
   ],
   "sections": [
     {
       "h": "How it works",
       "paras": [
-        "A photosensitizer collects in the target tissue and is activated by light, passing energy to oxygen and producing singlet oxygen and other reactive species that damage cell membranes and proteins; because damage occurs only where light is applied, the effect stays localised.[1] ALA is a prodrug that causes protoporphyrin IX to build up faster than cells convert it to heme; it peaks within hours and clears in about a day, which limits skin sensitivity.[1] Methyl and other esterified forms improve bioavailability for skin use.[1]"
+        "A photosensitizer collects in the target tissue and is activated by light, passing energy to oxygen and producing singlet oxygen and other reactive species that damage cell membranes and proteins; because damage occurs only where light is applied, the effect stays localised.[1] ALA is a prodrug: it is the first compound in the body's heme-making pathway, and applying extra of it makes protoporphyrin IX accumulate faster than cells convert it to heme.[6] The compound peaks within hours and clears in about a day, which limits how long skin stays light-sensitive.[1]",
+        "In acne, proposed mechanisms include damage to the oil-producing sebaceous glands and to acne-associated bacteria, though the details are still being studied.[5]"
+      ]
+    },
+    {
+      "h": "Procedure",
+      "paras": [
+        "According to DermNet, the skin may be lightly scraped or needled to help the drug penetrate, the photosensitiser is left on for about 3 to 6 hours, and the area is then illuminated with laser or non-laser light or with daylight. Artificial-light sessions usually last 5 to 45 minutes, daylight sessions about 2 hours, and a second session may be given 7 to 10 days later.[2] A local anaesthetic spray can ease discomfort, and the area is covered afterwards to block further light.[2]",
+        "Treated skin develops a sunburn-like reaction, with the surface typically healing within 4 to 8 weeks.[2]"
+      ]
+    },
+    {
+      "h": "Uses",
+      "subs": [
+        {
+          "h": "Acne",
+          "paras": [
+            "PDT has been studied mainly for severe or inflammatory acne. Early trial results suggested a benefit in severe cases, and a 2016 systematic review called it safe and effective.[1] In the trial that compared ALA-PDT with MAL-PDT, 15 patients with at least 12 inflamed facial lesions were treated and followed for treatment effect and tolerability.[4]"
+          ]
+        },
+        {
+          "h": "Sun-damaged skin and rejuvenation",
+          "paras": [
+            "Actinic keratoses are rough, scaly sun-damage patches, and ALA-PDT is an approved treatment for them. Facial rejuvenation is listed as an off-label use.[2] A 2025 phase 1 registration studied activating an ALA product with a broadband light device for actinic keratoses and photodamage.[7]"
+          ]
+        }
       ]
     },
     {
       "h": "History",
       "paras": [
-        "Early work in the late 1800s and early 1900s in Hermann von Tappeiner's laboratory showed that light, a dye and oxygen together were toxic, and he coined the term photodynamic action. Clinical development in the 1970s, including work by Thomas Dougherty, helped establish PDT, and Photofrin became the first approved PDT agent in 1993.[1]"
-      ]
-    },
-    {
-      "h": "Use in looksmaxxing",
-      "paras": [
-        "In appearance communities ALA-PDT is mentioned as a clinician-administered option for severe or treatment-resistant acne, usually alongside discussion of lasers and isotretinoin. It requires a medical provider."
+        "Around 1900, Oscar Raab and Hermann von Tappeiner found that light and oxygen were needed for dyes to kill cells, and von Tappeiner named the effect photodynamic action.[1] In 1978 Thomas Dougherty's group reported treating 113 skin and subcutaneous tumours, with total or partial resolution in 111, and Photofrin became the first PDT agent approved for clinical use, in Canada in 1993.[1] Topical ALA-based PDT for skin conditions developed from this work.[8]"
       ]
     },
     {
       "h": "Adverse effects",
       "paras": [
-        "The main side effect of PDT is skin photosensitivity, and in acne treatment it can cause marked redness, moderate to severe pain and burning.[1]"
+        "The main side effect is skin photosensitivity, which for ALA lasts about 24 hours.[1][2] DermNet lists stinging or burning, redness, swelling, itching, crusting, peeling and blistering, and rarely skin infection; a loss of pigment can occur and may be permanent.[2] In acne treatment, marked redness and moderate to severe pain or burning have been reported.[1]"
       ]
     },
     {
       "h": "Clinical studies",
       "paras": [
-        "A randomized, investigator-blinded trial in 15 patients with at least 12 facial inflammatory acne lesions compared ALA-PDT with methyl aminolevulinate (MAL)-PDT for treatment effect and tolerability.[2] A 2016 systematic review called PDT safe and effective for acne, while one phase II trial found no advantage over blue or violet light alone, according to a general reference.[1]",
-        "Other cited ALA-PDT studies concern actinic keratosis, Bowen disease, basal cell carcinoma and other non-acne conditions, so they do not speak to acne.[3]"
+        "A randomized, investigator-blinded trial of 15 patients with inflamed facial acne compared ALA-PDT with MAL-PDT for effect and tolerability.[4] A 2016 systematic review called PDT safe and effective for acne, while a phase II trial found it no better than blue or violet light alone.[1]",
+        "A network meta-analysis of randomized trials in acne vulgaris compared topical, oral, physical and combined treatments in mild-to-moderate and moderate-to-severe acne.[5] A 2001 open study examined ALA-PDT for large or multiple patches of Bowen disease and basal cell carcinoma, and a 2004 review covered laser and PDT for non-melanoma skin cancer; these concern skin cancer rather than appearance.[8][9] Registered trials cover actinic keratosis, including a phase 3 field-treatment study and daylight-PDT studies.[10][11]"
       ]
     }
   ],
   "timeline": [
-    { "year": "1900s", "event": "Hermann von Tappeiner's laboratory describes photodynamic action.[1]" },
-    { "year": "1970s", "event": "Thomas Dougherty's clinical work helps establish PDT.[1]" },
-    { "year": "1993", "event": "Photofrin becomes the first approved PDT agent.[1]" }
+    { "year": "1900s", "event": "Raab and von Tappeiner describe photodynamic action.[1]" },
+    { "year": "1978", "event": "Dougherty's group reports PDT results in 113 skin and subcutaneous tumours.[1]" },
+    { "year": "1993", "event": "Photofrin becomes the first approved PDT agent.[1]" },
+    { "year": "2006", "event": "Randomized trial compares ALA-PDT and MAL-PDT for acne.[4]" },
+    { "year": "2016", "event": "A systematic review calls PDT safe and effective for acne.[1]" }
   ],
-  "lore": {
-    "intro": "ALA-PDT is discussed as a clinic procedure for severe acne when other treatments have not worked.[1]",
-    "claims": [
-      {
-        "claim": "ALA-PDT can clear severe or inflammatory acne.",
-        "believers": "Proponents point to clinic results and small trials showing reduced inflammatory lesions.[2]",
-        "experts": "A 2016 systematic review called PDT safe and effective for acne, but one phase II trial found it no better than blue or violet light alone.[1]",
-        "evidence": "mixed"
-      },
-      {
-        "claim": "The procedure is painful and leaves skin red for days.",
-        "believers": "Users describe burning and redness during and after treatment.[1]",
-        "experts": "Reference sources list marked redness, moderate to severe pain and burning as side effects in acne treatment.[1]",
-        "evidence": "harms"
-      }
-    ]
-  },
+  "lore": null,
   "refs": [
     { "id": 1, "title": "Photodynamic therapy (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Photodynamic_therapy", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Photodynamic therapy of acne vulgaris using 5-aminolevulinic acid versus methyl aminolevulinate", "url": "https://pubmed.ncbi.nlm.nih.gov/16546587/", "source": "Journal of the American Academy of Dermatology", "year": 2006, "type": "trial" },
-    { "id": 3, "title": "Photodynamic therapy for large or multiple patches of Bowen disease and basal cell carcinoma", "url": "https://pubmed.ncbi.nlm.nih.gov/11255332/", "source": "Archives of Dermatology", "year": 2001, "type": "study" }
+    { "id": 2, "title": "Photodynamic therapy (DermNet)", "url": "https://dermnetnz.org/topics/photodynamic-therapy", "source": "DermNet", "year": 2024, "type": "review" },
+    { "id": 3, "title": "Aminolevulinic acid (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Aminolevulinic_acid", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
+    { "id": 4, "title": "Photodynamic therapy of acne vulgaris using 5-aminolevulinic acid versus methyl aminolevulinate", "url": "https://pubmed.ncbi.nlm.nih.gov/16546587/", "source": "Journal of the American Academy of Dermatology", "year": 2006, "type": "trial" },
+    { "id": 5, "title": "A systematic review and network meta-analysis of topical, oral, physical and combined treatments for acne vulgaris", "url": "https://pubmed.ncbi.nlm.nih.gov/35789996/", "source": "British Journal of Dermatology", "year": 2022, "type": "review" },
+    { "id": 6, "title": "Acne and the cutaneous microbiome: a systematic review", "url": "https://pubmed.ncbi.nlm.nih.gov/39269130/", "source": "J Eur Acad Dermatol Venereol", "year": 2025, "type": "review" },
+    { "id": 7, "title": "Activation of Ameluz With BBL HEROic for Actinic Keratoses and Photodamage (NCT07053852)", "url": "https://clinicaltrials.gov/study/NCT07053852", "source": "ClinicalTrials.gov", "year": 2025, "type": "trial" },
+    { "id": 8, "title": "Photodynamic therapy for large or multiple patches of Bowen disease and basal cell carcinoma", "url": "https://pubmed.ncbi.nlm.nih.gov/11255332/", "source": "Archives of Dermatology", "year": 2001, "type": "study" },
+    { "id": 9, "title": "A review of laser and photodynamic therapy for the treatment of nonmelanoma skin cancer", "url": "https://pubmed.ncbi.nlm.nih.gov/14871220/", "source": "Dermatologic Surgery", "year": 2004, "type": "review" },
+    { "id": 10, "title": "Field-directed treatment of actinic keratosis with PDT (NCT01966120)", "url": "https://clinicaltrials.gov/study/NCT01966120", "source": "ClinicalTrials.gov", "year": 2013, "type": "trial" },
+    { "id": 11, "title": "Daylight PDT for actinic keratoses: BF-200 ALA versus MAL (NCT02464709)", "url": "https://clinicaltrials.gov/study/NCT02464709", "source": "ClinicalTrials.gov", "year": 2015, "type": "trial" }
   ],
   "webSources": [
+    { "url": "https://dermnetnz.org/topics/photodynamic-therapy", "title": "Photodynamic therapy (DermNet)" },
     { "url": "https://en.wikipedia.org/wiki/Photodynamic_therapy", "title": "Photodynamic therapy" }
   ],
   "card": {

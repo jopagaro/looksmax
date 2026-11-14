@@ -1,66 +1,186 @@
 {
-  "name": "Vitamin K cream",
-  "card": {
-    "summary": "Topical vitamin K, marketed for vascular-type dark circles and bruising; popular in eye-care marketing but with little evidence behind it in our sources.",
-    "aka": "Topical phytonadione, K1 eye cream",
-    "evidence": "unproven",
-    "status": "otc",
-    "note": "Vitamin K's established medical roles are systemic; benefits for dark circles are not established in the sources reviewed.",
-    "structure": "Phylloquinone"
-  },
-  "quick": {
-    "overview": "Vitamin K creams are cosmetic products containing vitamin K (usually K1, phylloquinone), sold with claims that they reduce the bluish or purplish look of under-eye circles and bruising.\n\nThe theory is that dark circles from visible blood vessels or small leaks of blood pigment can fade if vitamin K supports clotting locally. This theory has not been established by the sources consulted here.",
-    "mechanism": "Vitamin K acts systemically as a cofactor for enzymes that make clotting proteins functional. Proponents of topical use extend this to the skin; whether topical application changes under-eye blood vessels or pigment is not shown in the sources reviewed.",
-    "risks": "Orally, no toxicity has been documented for K1 or K2 and no upper limits are set. Intravenous K1 has caused rare severe allergic-type reactions. Cosmetic creams can cause skin irritation in sensitive individuals."
-  },
-  "lead": [
-    "Vitamin K cream is a cosmetic product containing vitamin K, usually phylloquinone (K1), marketed for dark circles with a vascular component and for bruising. Vitamin K is a family of fat-soluble vitamins; its recognised medical uses are systemic, such as preventing bleeding in newborns and reversing excess warfarin effect [1].",
-    "Dark circles have multiple causes, including pigmentation, thin skin that shows underlying vessels, allergy and nutritional factors; a cream targeting only one mechanism may affect only some presentations [2]. The sources reviewed did not describe topical vitamin K as an established treatment for dark circles."
+ "name": "Vitamin K cream",
+ "card": {
+  "summary": "Topical vitamin K, marketed for vascular-type dark circles and bruising; popular in eye-care marketing but with little evidence behind it in our sources.",
+  "aka": "Topical phytonadione, K1 eye cream",
+  "evidence": "unproven",
+  "status": "otc",
+  "note": "Vitamin K's established medical roles are systemic; benefits for dark circles are not established in the sources reviewed.",
+  "structure": "Phylloquinone"
+ },
+ "quick": {
+  "overview": "Vitamin K creams are cosmetic products containing vitamin K (usually K1, phylloquinone), sold with claims that they reduce the bluish or purplish look of under-eye circles and bruising.\n\nThe theory is that dark circles from visible blood vessels or small leaks of blood pigment can fade if vitamin K supports clotting locally. This theory has not been established by the sources consulted here.",
+  "mechanism": "Vitamin K acts systemically as a cofactor for enzymes that make clotting proteins functional. Proponents of topical use extend this to the skin; whether topical application changes under-eye blood vessels or pigment is not shown in the sources reviewed.",
+  "risks": "Orally, no toxicity has been documented for K1 or K2 and no upper limits are set. Intravenous K1 has caused rare severe allergic-type reactions. Cosmetic creams can cause skin irritation in sensitive individuals."
+ },
+ "lead": [
+  "Vitamin K cream is a cosmetic or topical product containing vitamin K, usually phylloquinone (K1), used on the skin to improve the look of bruises and of under-eye circles that have a vascular (bluish or purplish) component. People apply it to the thin skin beneath the eyes, to post-procedure bruising and to spider veins, aiming for a clearer, less discoloured complexion.",
+  "Vitamin K is a family of fat-soluble vitamins whose recognised medical roles are systemic: it is a cofactor that makes clotting proteins functional, and it is given to prevent bleeding in newborns and to reverse excess warfarin effect.[1] The reasoning behind topical use is that a clotting-supportive vitamin could limit blood pooling or leakage that shows through thin skin.",
+  "Human trials of topical vitamin K have mostly looked at bruising after laser or oculofacial procedures. An American Academy of Ophthalmology review of 11 studies of homeopathic agents and vitamins for post-surgical bruising found that in two studies vitamin K cream performed equivalently to placebo; a small split-face laser trial found no significant difference when the cream was used before treatment, and a randomised trial of wound healing after electrocautery found faster healing with 1 percent vitamin K cream than with a moisturiser.[3][4][5]"
+ ],
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "Cream with vitamin K is applied to bruised or dark under-eye skin",
+   "Vitamin K is thought to support local clotting and reduce pooled blood pigment",
+   "Discolouration looks lighter and clears faster"
   ],
-  "infobox": [
-    ["Class", "Fat-soluble vitamin (K1/phylloquinone commonly used)"],
-    ["Routes", "Topical (cosmetic)"],
-    ["Vitamin discovered", "1929 (Henrik Dam)"],
-    ["Legal status", "Cosmetic ingredient; non-prescription"]
+  "effect": "claimed",
+  "text": "Users apply the cream to under-eye circles and fading bruises hoping the bluish tint will lighten. The effect is cosmetic and follows a theory about blood pigment rather than a proven pathway."
+ },
+ "infobox": [
+  [
+   "Class",
+   "Fat-soluble vitamin (K1/phylloquinone commonly used)"
   ],
-  "sections": [
-    {
-      "h": "Background",
-      "paras": [
-        "Henrik Dam found in 1929 that chicks fed a fat-depleted diet bled, and proposed a missing coagulation factor; the letter K derives from the German word for coagulation. Dam and Edward Doisy shared the 1943 Nobel Prize in Physiology or Medicine for this work [1].",
-        "The vitamin is a cofactor in making clotting proteins such as prothrombin and factors VII, IX and X functional [1]."
-      ]
-    },
-    {
-      "h": "Use in appearance products",
-      "paras": [
-        "Eye products containing vitamin K are marketed for under-eye discoloration. The idea relied on in marketing is that clotting-related support could reduce blood pooling or leakage that shows through thin skin; this rationale is a hypothesis in the material reviewed, and general references on dark circles discuss other treatments, such as caffeine, vitamin C, lasers and fillers, rather than vitamin K [2]."
-      ]
-    },
-    {
-      "h": "Safety",
-      "paras": [
-        "High oral intakes of K1 and K2 have no known toxicity and regulators in the US, Japan and the EU have not set upper limits. Intravenous K1 can cause serious anaphylactoid reactions in about 3 per 10,000 treatments, mostly linked to a castor-oil solubilizer. Synthetic menadione (K3) was banned as a supplement in the US because of allergic reactions and hemolytic anemia [1]. These figures concern systemic use, not cosmetic creams."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found."
-      ]
-    }
+  [
+   "Routes",
+   "Topical (cosmetic)"
   ],
-  "timeline": [
-    { "year": "1929", "event": "Henrik Dam reports a dietary factor needed for blood coagulation, later named vitamin K. [1]" },
-    { "year": "1943", "event": "Dam and Edward Doisy share the Nobel Prize in Physiology or Medicine for work on vitamin K. [1]" }
+  [
+   "Vitamin discovered",
+   "1929 (Henrik Dam)"
   ],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Vitamin K", "url": "https://en.wikipedia.org/wiki/Vitamin_K", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Periorbital dark circles", "url": "https://en.wikipedia.org/wiki/Periorbital_dark_circles", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" }
+  [
+   "Used for",
+   "Under-eye circles, bruising, post-procedure skin"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Vitamin_K", "title": "Vitamin K" },
-    { "url": "https://en.wikipedia.org/wiki/Periorbital_dark_circles", "title": "Periorbital dark circles" }
+  [
+   "Legal status",
+   "Cosmetic ingredient; non-prescription"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Background",
+   "paras": [
+    "Henrik Dam found in 1929 that chicks fed a fat-depleted diet bled, and proposed a missing coagulation factor; the letter K derives from the German word for coagulation. Dam and Edward Doisy shared the 1943 Nobel Prize in Physiology or Medicine for this work.[1]",
+    "The vitamin is a cofactor in making clotting proteins such as prothrombin and factors VII, IX and X functional.[1]"
+   ],
+   "subs": []
+  },
+  {
+   "h": "Use in appearance products",
+   "paras": [
+    "Eye products containing vitamin K are marketed for under-eye discolouration. Wikipedia's dark-circle article lists several causes, including thin skin that shows vessels, pigmentation, allergy, iron deficiency and sleep loss, and names caffeine and vitamin C among cosmetic remedies; vitamin K is not mentioned there.[2]",
+    "Bruising after laser treatment of facial telangiectases and after eyelid surgery is the setting where topical vitamin K has been tested most, because bruises are visible and fade over about two weeks."
+   ],
+   "subs": []
+  },
+  {
+   "h": "Safety",
+   "paras": [
+    "High oral intakes of K1 and K2 have no known toxicity and regulators in the US, Japan and the EU have not set upper limits. Intravenous K1 can cause serious anaphylactoid reactions in about 3 per 10,000 treatments, mostly linked to a castor-oil solubilizer. Synthetic menadione (K3) was banned as a supplement in the US because of allergic reactions and hemolytic anemia.[1] These figures concern systemic use, not cosmetic creams.",
+    "A 2015 study of vitamin K cream used to reduce injection-site reactions in people with multiple sclerosis who inject interferon beta describes topical use on the skin in a clinical setting.[6]"
+   ],
+   "subs": []
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A 2002 double-blind trial in 22 patients applied vitamin K cream to one half of the face and vehicle to the other before or after pulsed dye laser treatment for facial telangiectases; pre-treatment use showed no significant difference in bruising compared with placebo.[3] A 2010 randomised, rater-blinded trial created laser bruises on volunteers' arms and compared 5 percent vitamin K, a vitamin K and retinol preparation, 20 percent arnica and white petrolatum, finding a significant overall difference between treatments, with arnica improving bruising more than petrolatum.[5]",
+    "The 2022 American Academy of Ophthalmology review found that in two controlled studies topical vitamin K was equivalent to placebo for bruising after oculofacial or laser surgery, while perioperative arnica provided negligible benefit over placebo in seven controlled studies.[4] A 2019 randomised trial in 63 patients found that 1 percent vitamin K cream produced significantly better wound contraction and time to recovery than a Eucerin control after electrocautery, with healing time not differing from a phenytoin cream.[7] Studies in rats reported faster wound repair with topical vitamin K.[8] No trial has tested vitamin K cream specifically for under-eye dark circles."
+   ],
+   "subs": []
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1929",
+   "event": "Henrik Dam reports a dietary factor needed for blood coagulation, later named vitamin K.[1]"
+  },
+  {
+   "year": "1943",
+   "event": "Dam and Edward Doisy share the Nobel Prize in Physiology or Medicine for work on vitamin K.[1]"
+  },
+  {
+   "year": "2002",
+   "event": "Randomised split-face trial of topical vitamin K for laser-induced bruising is published.[3]"
+  },
+  {
+   "year": "2019",
+   "event": "Randomised trial reports faster wound healing with 1 percent vitamin K cream after electrocautery.[7]"
+  },
+  {
+   "year": "2022",
+   "event": "American Academy of Ophthalmology reviews homeopathic agents and vitamins for bruising after oculofacial surgery.[4]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Vitamin K",
+   "url": "https://en.wikipedia.org/wiki/Vitamin_K",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Periorbital dark circles",
+   "url": "https://en.wikipedia.org/wiki/Periorbital_dark_circles",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "The effects of topical vitamin K on bruising after laser treatment",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12140470/",
+   "source": "Journal of the American Academy of Dermatology",
+   "year": 2002,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "Homeopathic Agents or Vitamins in Reducing Ecchymosis after Oculofacial Surgery: A Report by the American Academy of Ophthalmology",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34176651/",
+   "source": "Ophthalmology",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Accelerated resolution of laser-induced bruising with topical 20% arnica: a rater-blinded randomized controlled trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20412090/",
+   "source": "British Journal of Dermatology",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Vitamin K cream reduces reactions at the injection site in patients with relapsing-remitting multiple sclerosis treated with subcutaneous interferon beta - VIKING study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25662354/",
+   "source": "Multiple Sclerosis Journal",
+   "year": 2015,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Wound healing effects of topical Vitamin K: A randomized controlled trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31142943/",
+   "source": "Indian Journal of Pharmacology",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Topical vitamin K1 promotes repair of full thickness wound in rat",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25097279/",
+   "source": "Indian Journal of Pharmacology",
+   "year": 2014,
+   "type": "study"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Vitamin_K",
+   "title": "Vitamin K"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Periorbital_dark_circles",
+   "title": "Periorbital dark circles"
+  }
+ ]
 }

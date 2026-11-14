@@ -1,61 +1,206 @@
 {
-"name": "PSL scale",
-"card": {
+ "name": "PSL scale",
+ "card": {
   "summary": "The community rating system, roughly 1 to 8, for male facial attractiveness; it is informal and not scientifically validated.",
   "aka": "Perceived Sexual Levels, PSL rating",
   "evidence": "unproven",
   "risk": "moderate",
   "note": "An unvalidated, subjective scale; critics link the surrounding culture to distress and body-image concerns.",
   "structure": null
-},
-"quick": {
+ },
+ "quick": {
   "overview": "PSL stands for Perceived Sexual Levels, an informal scale used in looksmaxxing communities to rate facial attractiveness, usually from 1 to 8. Its name is said to combine three forum sites on which it arose.\n\nIt sets out tiers from below average through 'normie' and 'Chadlite' up to 'Chad' and beyond. Sources describe it as subjective and not scientifically validated.",
   "mechanism": "Raters judge faces on features that community explanations group under harmony, dimorphism, angularity and individual features. Because individual raters differ, scores vary; forum users also debate whether PSL differs from what they call 'appeal', a broader notion of attractiveness.",
   "risks": "The scale itself carries no physical risk. Commentators cited by Wikipedia criticize the surrounding culture for tiering people and link it to body dysmorphia and distress; the Wikipedia article also carries a neutrality-dispute tag."
-},
-"lead": [
- "The PSL scale, short for Perceived Sexual Levels, is an informal system for rating male facial attractiveness on roughly a 1 to 8 range. Wikipedia reports it was created on three forums, PUAHate, Sluthate and Lookism.net, whose initials form the acronym; the forums are defunct but the terminology spread to wider social media. [1]",
- "Grokipedia, which is AI-generated, describes the scale as based on harmony, dimorphism, angularity and individual features, and as not scientifically validated. [2] No published study has evaluated the scale itself. [1]"
-],
-"infobox": [
- ["Full name", "Perceived Sexual Levels"],
- ["Range", "About 1 to 8 [1]"],
- ["Origin", "PUAHate, Sluthate, Lookism.net forums (2010s) [1]"],
- ["Validation", "Not scientifically validated [2]"],
- ["Top tiers", "Chadlite, Chad, Gigachad [1][2]"]
-],
-"sections": [
- {"h": "Description and tiers", "paras": [
-  "Wikipedia says the scale was designed to reflect how women perceive men and departs from the conventional out-of-ten rating. Its tiers range from 'subhuman' or sub-3 up to 'giga Chad'. [1] Grokipedia lists below 4 as 'subhuman/truecel', 4.0-5.5 as low to high 'normie', 5.6-6.5 as 'Chadlite', 6.6-7.5 as 'Chad' and 7.6-8 as 'Gigachad', and says most men rate around 3.5-4.5; Wikipedia notes inconsistencies in how its own article describes the tiers. [1][2]"
- ]},
- {"h": "PSL and appeal", "paras": [
-  "Looksmax.org users debate how PSL differs from 'appeal'. One thread author says common explanations equate PSL with male-gaze features and appeal with female-gaze harmony and social factors, while noting that long-time members dispute this framing. [3]"
- ]},
- {"h": "Criticism and media coverage", "paras": [
-  "Wikipedia reports critics describing looksmaxxing as judgmental and linking it to body dysmorphia and suicidal ideation, and a New Yorker writer's objection to tiering people. It also notes that some practitioners report benefits such as improved relationships. [1]"
- ]},
- {"h": "Clinical studies", "paras": [
-  "No studies found that validate the PSL scale. Research on facial attractiveness exists in the wider psychology literature but does not test this scale. [1]"
- ]}
-],
-"timeline": [
- {"year": "2010s", "event": "Scale originates on PUAHate, Sluthate and Lookism.net. [1]"},
- {"year": "Early 2020s", "event": "Terminology spreads to TikTok. [1]"}
-],
-"lore": {
- "intro": "PSL is core vocabulary on looksmax.org, where users rate faces and argue over what the scale measures. [3]",
- "claims": [
-  {"claim": "PSL measures facial attractiveness as women perceive it.", "believers": "Wikipedia reports the scale was designed to reflect female perception of men. [1]", "experts": "No published study has tested how well the scale predicts women's ratings. [1]", "evidence": "untested"},
-  {"claim": "PSL and appeal are different things.", "believers": "A forum thread distinguishes features and ratios from broader social appeal, with members disagreeing about definitions. [3]", "experts": "These are community terms and have not been examined in published research. [1]", "evidence": "untested"}
+ },
+ "lead": [
+  "The PSL scale, short for Perceived Sexual Levels, is an informal system for rating male facial attractiveness on roughly a 1 to 8 range. People use it as a yardstick for self-improvement: a member posts photos, receives a rating, and picks features to work on, such as skin, jawline, eye area or body fat, so that the next rating moves up. [1][1]",
+  "Wikipedia reports the scale grew out of three forums, PUAHate, Sluthate and Lookism.net, whose initials form the acronym; those sites are defunct, but the vocabulary spread to looksmax.org, Reddit and TikTok. The scale differs from an ordinary out-of-ten rating in that it covers facial attractiveness only and was designed to reflect how women perceive men. [1]",
+  "Grokipedia, which is AI-generated, describes the scale as based on harmony, dimorphism, angularity and individual features, and as not scientifically validated. [2] No published study has evaluated the scale itself, though facial attractiveness is studied more broadly in psychology. [1]"
+ ],
+ "angle": {
+  "goal": "Facial attractiveness",
+  "chain": [
+   "Face is rated on a shared 1 to 8 scale",
+   "Raters point to specific features such as skin, jaw, eyes or leanness",
+   "Member works on those features and posts again for a new rating"
+  ],
+  "effect": "indirect",
+  "text": "PSL gives members a common vocabulary and a numerical benchmark for facial improvement. Rating threads usually end with a list of suggested changes, from skincare and weight loss to orthodontics or surgery, which members then pursue."
+ },
+ "infobox": [
+  [
+   "Full name",
+   "Perceived Sexual Levels"
+  ],
+  [
+   "Range",
+   "About 1 to 8 [1]"
+  ],
+  [
+   "Origin",
+   "PUAHate, Sluthate, Lookism.net forums (2010s) [1]"
+  ],
+  [
+   "Measures",
+   "Facial attractiveness only, as perceived by women [1]"
+  ],
+  [
+   "Validation",
+   "Not scientifically validated [2]"
+  ],
+  [
+   "Top tiers",
+   "Chadlite, Chad, Gigachad [1][2]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description and tiers",
+   "paras": [
+    "Wikipedia describes the scale as hierarchical and systematic, designed to interpret how women perceive men. One account in the article lists tiers from 'subhuman' or sub-3 through low, mid and high 'normie' to 'Chadlite', 'Chad' and 'giga Chad'; another account, describing influencer Braden Peters (Clavicular), uses three tiers: subhuman, normie and Chad. Wikipedia notes the sources are not consistent about the tiers. [1]",
+    "Grokipedia lists below 4 as 'subhuman/truecel', 4.0-5.5 as low to high 'normie', 5.6-6.5 as 'Chadlite', 6.6-7.5 as 'Chad' and 7.6-8 as 'Gigachad', and says most men rate around 3.5-4.5. [2]",
+    "On looksmax.org, members post tier lists that place well-known actors and models at fractional levels such as 6.25 or 6.75, each paired with an estimated rarity in the population. Commenters in the thread ask where particular people belong and note that someone whose angularity varies is hard to place. [3]"
+   ]
+  },
+  {
+   "h": "Use in self-improvement",
+   "paras": [
+    "Rating threads are a staple of the forums. A typical post gives height, a short self-description and photos and asks for a PSL rating plus advice; one thread author mentions considering isotretinoin for acne and asks what to improve. [4] Another member says he is planning lower jaw surgery and asks for a rating and a list of improvements. [5]",
+    "Wikipedia describes looksmaxxers asking others to rate their appearance, with the rating sometimes combined with perceived status and wealth into a 'sexual market value'. [1]"
+   ]
+  },
+  {
+   "h": "PSL, height and appeal",
+   "paras": [
+    "Members discuss how other traits convert into PSL points. In one thread a user asks how many inches of height equal two to three PSL points; a reply says height is not very influential, perhaps one point, and that facial beauty and a decent physique matter more. [6]",
+    "Looksmax.org users also debate how PSL differs from 'appeal'. One thread author says common explanations equate PSL with male-gaze features and appeal with female-gaze harmony and social factors, while noting that long-time members dispute this framing. [7] Other threads argue the scale reflects the female gaze imperfectly or that women sort men into a few coarse categories. [8][9]"
+   ]
+  },
+  {
+   "h": "Criticism and media coverage",
+   "paras": [
+    "Wikipedia reports critics describing looksmaxxing as judgmental and linking rating cultures to body dysmorphia and suicidal ideation, and quotes New Yorker writer Becca Rothfeld objecting to any system that designates a person as 'subhuman'. It also notes that some practitioners report benefits such as improved health habits and relationships. [1]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found that validate the PSL scale. Research on facial attractiveness exists in the wider psychology literature but does not test this scale. [1]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2010s",
+   "event": "Scale originates on PUAHate, Sluthate and Lookism.net. [1]"
+  },
+  {
+   "year": "2020s",
+   "event": "Terminology spreads to TikTok and streaming, popularized by creators such as Clavicular. [1]"
+  }
+ ],
+ "lore": {
+  "intro": "PSL is core vocabulary on looksmax.org, where users rate faces, publish celebrity tier lists and argue over what the scale measures. [3][7]",
+  "claims": [
+   {
+    "claim": "PSL measures facial attractiveness as women perceive it.",
+    "believers": "Wikipedia reports the scale was designed to reflect female perception of men; some forum posts dispute whether it achieves this. [1][8]",
+    "experts": "No published study has tested how well the scale predicts women's ratings. [1]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "PSL and appeal are different things.",
+    "believers": "A forum thread distinguishes features and ratios from broader social appeal, with members disagreeing about definitions. [7]",
+    "experts": "These are community terms and have not been examined in published research. [1]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Height is worth about one PSL point.",
+    "believers": "One reply in a forum thread puts height at roughly one point, below face and physique. [6]",
+    "experts": "No published study has converted height into PSL points. [1]",
+    "evidence": "untested"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Looksmaxxing",
+   "url": "https://en.wikipedia.org/wiki/Looksmaxxing",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Looksmaxxing",
+   "url": "https://grokipedia.com/page/Looksmaxxing",
+   "source": "Grokipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Psl Scale",
+   "url": "https://looksmax.org/threads/psl-scale.1410944/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 4,
+   "title": "PSL rating + tips and advice?",
+   "url": "https://looksmax.org/threads/psl-rating-tips-and-advice.1483939/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 5,
+   "title": "Rate me on the PSL scale (lower jaw surgery thread)",
+   "url": "https://looksmax.org/threads/yo-guys-im-new-to-bp-what-would-you-guys-rate-me-on-the-psl-scale-and-what-should-i-improve-on-im-getting-lower-jaw-surgery-soon-for-my-braces.1792002/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 6,
+   "title": "Psl scale and height",
+   "url": "https://looksmax.org/threads/psl-scale-and-height.953908/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 7,
+   "title": "PSL and Appeal",
+   "url": "https://looksmax.org/threads/psl-and-appeal.1816226/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 8,
+   "title": "Female psl scale is detached from reality and is female gaze",
+   "url": "https://looksmax.org/threads/female-psl-scale-is-detached-from-reality-and-is-female-gaze.1756664/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 9,
+   "title": "psl scale is flawed at its core: women put men into 4 categories",
+   "url": "https://looksmax.org/threads/psl-scale-is-flawed-at-its-core-women-put-men-into-4-categories-and-this-is-the-only-thing-that-matters.947202/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Looksmaxxing",
+   "title": "Looksmaxxing - Wikipedia"
+  }
  ]
-},
-"refs": [
- {"id": 1, "title": "Looksmaxxing", "url": "https://en.wikipedia.org/wiki/Looksmaxxing", "source": "Wikipedia", "year": null, "type": "encyclopedia"},
- {"id": 2, "title": "Looksmaxxing", "url": "https://grokipedia.com/page/Looksmaxxing", "source": "Grokipedia", "year": null, "type": "encyclopedia"},
- {"id": 3, "title": "PSL and Appeal", "url": "https://looksmax.org/threads/psl-and-appeal.1816226/", "source": "looksmax.org", "year": null, "type": "forum"}
-],
-"webSources": [
- {"url": "https://en.wikipedia.org/wiki/Looksmaxxing", "title": "Looksmaxxing - Wikipedia"},
- {"url": "https://grokipedia.com/page/Looksmaxxing", "title": "Looksmaxxing - Grokipedia"}
-]
 }

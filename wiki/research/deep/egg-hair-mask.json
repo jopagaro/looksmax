@@ -1,9 +1,9 @@
 {
  "name": "Egg hair mask",
  "lead": [
-  "An egg hair mask is a home hair-care treatment in which raw egg, or its white or yolk, is applied to the hair and scalp for a period before being rinsed out. It is promoted as a protein treatment for dry, damaged or weak-feeling hair, and is discussed in hair-care circles as a kitchen-ingredient alternative to commercial protein conditioners.",
-  "Eggs are chiefly water and protein in the white and fat in the yolk [1]. Commercial conditioners that use protein typically rely on hydrolysed protein fragments, and an encyclopedia overview of conditioners states that such protein effects are temporary because shampooing removes excess protein [2]. No clinical trial of egg masks on hair was identified, and the evidence for this specific practice is limited to general knowledge about conditioning and food safety.",
-  "Health agencies advise that raw eggs can carry Salmonella and that eggs are a common food allergen [1]."
+  "An egg hair mask is a home hair-care treatment in which raw egg, or its white or yolk, is applied to the hair and scalp for a period before being rinsed out. People use it to make hair look shinier, feel stronger and less dry or brittle, and to get a salon-conditioner effect from an ingredient already in the kitchen, so that hair looks thicker and healthier in styling.[1][2]",
+  "Eggs are chiefly water and protein in the white and fat in the yolk.[1] Commercial conditioners that use protein typically rely on hydrolysed protein fragments, and an encyclopedia overview of conditioners states that such protein effects are temporary because shampooing removes excess protein.[2] Wikipedia's shampoo article also lists raw egg, sometimes mixed with salt water, among the cleansers used by adherents of the 'no poo' movement, which avoids commercial shampoo.[3]",
+  "No clinical trial of egg masks on hair was identified. Health agencies advise that raw eggs can carry Salmonella and that eggs are a common food allergen.[1]"
  ],
  "infobox": [
   [
@@ -37,6 +37,12 @@
    ]
   },
   {
+   "h": "Use in natural hair care and no-poo routines",
+   "paras": [
+    "Wikipedia's shampoo article describes the 'no poo' movement, whose adherents wash with alternatives such as raw eggs (potentially with salt water), rye flour or chickpea flour dissolved in water. The article says these washes seem gentler for long-term use, a statement it marks as lacking a citation.[3]"
+   ]
+  },
+  {
    "h": "Safety",
    "paras": [
     "Eggs are among the most common food allergies, particularly in infants [1]. Health experts quoted in the same reference advise against eating raw eggs because of Salmonella enteritidis, especially for the elderly, the infirm and pregnant women [1]. Whether topical use on the scalp carries the same infection risk is not addressed in the sources consulted."
@@ -50,7 +56,23 @@
   }
  ],
  "timeline": [],
- "lore": null,
+ "lore": {
+  "intro": "Egg masks are a kitchen-ingredient staple of natural hair-care and no-poo routines, where adherents prefer food-based washes and conditioners to commercial products.[3]",
+  "claims": [
+   {
+    "claim": "Egg protein strengthens and conditions hair.",
+    "believers": "Proponents point to the protein in egg as the reason the mask leaves hair stronger and shinier.[1]",
+    "experts": "A conditioner overview says protein treatments coat or fill the fibre surface with temporary effects; whole-egg masks have not been tested in a published trial.[2]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Egg and flour washes are gentler than shampoo over time.",
+    "believers": "No-poo adherents use raw egg, rye flour or chickpea flour instead of commercial shampoo.[3]",
+    "experts": "Wikipedia notes the gentler-for-long-term-use view without a supporting citation.[3]",
+    "evidence": "untested"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -67,6 +89,14 @@
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Shampoo",
+   "url": "https://en.wikipedia.org/wiki/Shampoo",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
   }
  ],
  "webSources": [
@@ -77,6 +107,10 @@
   {
    "url": "https://en.wikipedia.org/wiki/Hair_conditioner",
    "title": "Hair conditioner - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Shampoo",
+   "title": "Shampoo - Wikipedia"
   }
  ],
  "card": {
@@ -91,5 +125,15 @@
   "overview": "An egg hair mask means applying raw egg, or its white or yolk, to the hair for a while and then rinsing it out. It is promoted as a home protein treatment for dry or damaged hair.\n\nNo clinical studies of egg masks on hair were found. General reviews of conditioners say protein effects on hair are temporary.",
   "mechanism": "Proponents attribute the effect to the protein in egg. Conditioner science describes protein treatments as coating or filling the hair surface, with effects that wash out.",
   "risks": "Eggs are a common allergen and raw eggs can carry Salmonella, according to food-safety guidance. Evidence for hair benefit is limited to general conditioner knowledge."
+ },
+ "angle": {
+  "goal": "Hair shine / strength",
+  "chain": [
+   "Egg protein and fat spread over the hair",
+   "Coats the fibre and smooths the surface",
+   "Shinier, softer, less dry-looking hair until the next wash"
+  ],
+  "effect": "claimed",
+  "text": "People apply egg to get a protein-style conditioning effect: shine, softness and reduced dryness. Conditioner science describes such surface coatings as temporary, washing out with shampooing."
  }
 }

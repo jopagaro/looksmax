@@ -1,9 +1,20 @@
 {
  "name": "Cutting red meat for smell",
  "lead": [
-  "Cutting red meat for smell is the practice of reducing red meat intake in the belief that it improves body odor. Grokipedia states that red meat intake has been shown to alter axillary odor, making it less attractive to others, and describes a controlled study in which male participants ate meat or non-meat diets for two weeks, with samples from the meat group rated less pleasant and more intense.[1]",
-  "The study is cited by Grokipedia as 'Effect of Meat Consumption on Body Odor Attractiveness' in Chemical Senses; the page gives no authors or year.[1] Wikipedia's body odor article does not discuss red meat.[2]"
+  "Cutting red meat for smell is the practice of reducing red meat intake in the belief that it improves body odor, so that a person smells fresher and more pleasant to others up close. It is one of several diet-based approaches, alongside fruit and vegetable intake, that people in appearance communities discuss for being more attractive in presence as well as in looks.[1][2]",
+  "The main published study is a 2006 experiment in Chemical Senses by Havlicek and Lenochova. Seventeen male donors followed a meat diet and a non-meat diet for two weeks each, in counterbalanced order, wearing armpit pads for the last 24 hours of each diet. Thirty women not using hormonal contraceptives rated the samples; odor from the non-meat diet was rated as more attractive, more pleasant and less intense.[1] The authors concluded that red meat consumption negatively affects the perceived pleasantness of body odor.[1]",
+  "Body odor arises mostly when skin bacteria act on secretions from apocrine sweat glands, and Wikipedia notes that food, drink and the gut microbiome can influence it; one study it cites found that men who ate more fruit and vegetables had more pleasant-smelling sweat.[2][3]"
  ],
+ "angle": {
+  "goal": "Body odor",
+  "chain": [
+   "Less red meat in the diet",
+   "Sweat odor compounds change",
+   "Armpit odor rated as more pleasant and less intense by others"
+  ],
+  "effect": "claimed",
+  "text": "People cut red meat hoping their natural scent will read as more pleasant to others. The one controlled study found odor from a meat-free diet was rated more attractive and less intense."
+ },
  "infobox": [
   [
    "Type",
@@ -12,44 +23,82 @@
   [
    "Claimed effect",
    "Less intense, more pleasant body odor"
+  ],
+  [
+   "Key study",
+   "Havlicek and Lenochova, Chemical Senses, 2006[1]"
+  ],
+  [
+   "Study size",
+   "17 male donors, 30 female raters[1]"
   ]
  ],
  "sections": [
   {
+   "h": "Description",
+   "paras": [
+    "The practice means lowering or removing red meat in the hope of a more pleasant body scent. Axillary odor results mainly from bacteria such as Corynebacterium converting apocrine sweat secretions into odorous fatty acids and sulfur compounds, and genetics, notably the ABCC11 gene, also play a role.[2] Wikipedia states that diet and the gut microbiome can affect body odor, without naming red meat.[2]"
+   ]
+  },
+  {
    "h": "Clinical studies",
    "paras": [
-    "A controlled two-week dietary study in men, as described by Grokipedia, reported meat-diet odor samples rated less pleasant and more intense by raters.[1] Details were not independently confirmed from the original paper."
+    "In the 2006 Chemical Senses study, 17 men followed a meat and a non-meat diet for two weeks each in counterbalanced order, then repeated the procedure a month later with the opposite diet; axillary pad samples were rated by 30 women. Non-meat samples were rated as more attractive, more pleasant and less intense.[1] The study was small, and raters were women not using hormonal contraceptives.[1]",
+    "A separate study cited by Wikipedia found that men who ate more fruit and vegetables had sweat described as floral, fruity and sweet.[2]"
+   ]
+  },
+  {
+   "h": "Related approaches",
+   "paras": [
+    "For persistent or strong odor, Wikipedia lists antiperspirants containing aluminum chloride, deodorants, daily antibacterial washing and, for severe cases, surgery, alongside general dietary influences.[2]"
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "2006",
+   "event": "Havlicek and Lenochova publish the meat versus non-meat diet body odor study in Chemical Senses.[1]"
+  }
+ ],
  "lore": null,
  "refs": [
   {
    "id": 1,
-   "title": "Body odor - Grokipedia",
-   "url": "https://grokipedia.com/page/Body_odor",
-   "source": "Grokipedia",
-   "year": null,
-   "type": "encyclopedia"
+   "title": "The effect of meat consumption on body odor attractiveness",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16891352/",
+   "source": "Chemical Senses",
+   "year": 2006,
+   "type": "study"
   },
   {
    "id": 2,
    "title": "Body odor - Wikipedia",
    "url": "https://en.wikipedia.org/wiki/Body_odor",
    "source": "Wikipedia",
-   "year": null,
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Body odor - Grokipedia",
+   "url": "https://grokipedia.com/page/Body_odor",
+   "source": "Grokipedia",
+   "year": 2025,
    "type": "encyclopedia"
   }
  ],
  "webSources": [
   {
-   "url": "https://grokipedia.com/page/Body_odor",
-   "title": "Body odor - Grokipedia"
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16891352/",
+   "title": "The effect of meat consumption on body odor attractiveness - PubMed"
   },
   {
    "url": "https://en.wikipedia.org/wiki/Body_odor",
    "title": "Body odor - Wikipedia"
+  },
+  {
+   "url": "https://grokipedia.com/page/Body_odor",
+   "title": "Body odor - Grokipedia"
   }
  ],
  "card": {

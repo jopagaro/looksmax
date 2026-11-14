@@ -1,86 +1,135 @@
 {
- "name": "Facial icing with green tea ice cubes",
- "lead": [
-  "Facial icing with green tea ice cubes is a social media skincare practice in which frozen brewed green tea is rubbed on the face, with proponents citing reduced puffiness and calmer skin.",
-  "No studies found on this practice. Wikipedia describes general cold therapy as agreed to relieve symptoms like swelling with study results that conflict, and notes that green tea compounds have no proven biological effects in humans [1][2]."
- ],
- "infobox": [
-  [
-   "Type",
-   "Topical home practice"
+  "name": "Facial icing with green tea ice cubes",
+  "card": {
+    "summary": "Rubbing frozen green tea on the face for de-puffing; untested for this use.",
+    "aka": "Tea ice cubes",
+    "evidence": "unproven",
+    "outcome": null,
+    "risk": "low",
+    "price": null,
+    "note": "Avoid prolonged ice contact with skin.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "A TikTok-popularised routine of applying frozen green tea to the face.\n\nNo study has tested it; general cold therapy research concerns injuries.",
+    "mechanism": "Cold constricts blood vessels and slows flow locally; green tea adds polyphenols whose human effects are unproven [1][2].",
+    "risks": "Ice burns and skin irritation are possible; circulation disorders are listed contraindications for cold therapy [1]."
+  },
+  "lead": [
+    "Facial icing with green tea ice cubes is a social media skincare habit in which brewed green tea is frozen in trays and the cubes are rubbed over the face, usually in the morning. Followers do it to look less puffy and flushed, to tighten the look of the skin for a short time and to give the complexion a fresher, calmer appearance before makeup or a day out [1][2].",
+    "The practice combines two ideas. Cold exposure narrows blood vessels and reduces blood flow to an area, which is the basis of ice packs for swelling, and Wikipedia describes cold therapy as generally agreed to ease symptoms such as pain and swelling, though trial results conflict [1]. Green tea contributes polyphenols, notably epigallocatechin gallate (EGCG), which are studied as antioxidant skincare ingredients [2][3].",
+    "No study has tested green tea ice cubes on the face. Research on topical green tea extract in creams and lotions is small: a 2026 systematic review found seven human studies, mostly reporting improvements in fine lines and elasticity, with mixed results on hydration and redness [3]."
   ],
-  [
-   "Ingredients",
-   "Brewed green tea, ice"
+  "angle": {
+    "goal": "Skin and facial puffiness",
+    "chain": [
+      "Cold cube applied to the face",
+      "Cold narrows blood vessels and reduces blood flow to the area",
+      "Face looks less puffy and flushed; tea adds antioxidant polyphenols to the skin surface"
+    ],
+    "effect": "claimed",
+    "text": "People glide a frozen green tea cube over the face in the morning for a temporarily de-puffed, calmer-looking complexion. Followers add the tea in the hope that its antioxidants help skin look brighter."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Topical home practice"
+    ],
+    [
+      "Ingredients",
+      "Brewed green tea, ice"
+    ],
+    [
+      "Related",
+      "Cryotherapy; topical green tea extract"
+    ],
+    [
+      "Typical timing",
+      "Mornings, before skincare or makeup"
+    ],
+    [
+      "Reported hazards",
+      "Cold injury with prolonged contact; possible skin reactions to tea extracts [1][2]"
+    ]
   ],
-  [
-   "Related",
-   "Cryotherapy"
+  "sections": [
+    {
+      "h": "Description",
+      "paras": [
+        "Practitioners brew green tea, let it cool, freeze it in ice trays and move the cube across the face for a short time, often wrapped in cloth. The stated aims are reduced morning puffiness, less visible redness and a firmer, brighter look. The practice circulates mainly on video and image platforms and in skincare communities as part of a family of cold-based routines with plain ice, cold spoons and chilled rollers."
+      ],
+      "subs": []
+    },
+    {
+      "h": "How it is thought to work",
+      "paras": [
+        "Extreme cooling narrows blood vessels and lowers blood flow to swollen areas, and vessels widen again after warming [1]. This vasoconstriction is the mechanism behind the temporary tightened, less puffy look that users describe.",
+        "Green tea contains catechins including EGCG, and Wikipedia describes the beverage's compounds as widely studied with unconfirmed biological effects in humans [2]. Topical green tea extract is a recognised cosmetic ingredient and has been trialled in creams for facial ageing [3]."
+      ],
+      "subs": []
+    },
+    {
+      "h": "Research on related topics",
+      "paras": [
+        "Reviews of cold therapy describe pain relief within 24 hours in many sports studies, conflicting results for ice packs overall and limited long-term evidence [1]. A 2026 systematic review of topical green tea extract on facial skin ageing examined seven human studies: four of five that measured wrinkles reported fewer fine lines, elasticity improved in all studies that measured it, hydration findings were mixed, and redness results conflicted. The authors called the literature sparse and inconsistent and noted that most participants were women [3]. These studies tested extracts in formulations, not frozen brewed tea."
+      ],
+      "subs": []
+    },
+    {
+      "h": "Reported risks",
+      "paras": [
+        "Cold therapy sources describe frostbite risk with extreme cold and list contraindications such as poor circulation or sensation, and adverse events from cold therapy are suspected to be underreported [1]. In the systematic review, most green tea extract studies reported no irritation, but in one study using a high extract dose some participants reported dryness and irritation and three withdrew [3]."
+      ],
+      "subs": []
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found on green tea ice cubes applied to the face. Related research on topical green tea extract is summarised above [3]."
+      ],
+      "subs": []
+    }
+  ],
+  "timeline": [],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Cryotherapy",
+      "url": "https://en.wikipedia.org/wiki/Cryotherapy",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Green tea",
+      "url": "https://en.wikipedia.org/wiki/Green_tea",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "Efficacy and Side Effects of Green Tea Extract on Facial Skin Aging: A Systematic Review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13523624",
+      "source": "Journal of Cosmetic Dermatology",
+      "year": 2026,
+      "type": "review"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Cryotherapy",
+      "title": "Cryotherapy - Wikipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Green_tea",
+      "title": "Green tea - Wikipedia"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13523624",
+      "title": "Efficacy and Side Effects of Green Tea Extract on Facial Skin Aging: A Systematic Review"
+    }
   ]
- ],
- "sections": [
-  {
-   "h": "Description",
-   "paras": [
-    "Practitioners brew green tea, freeze it in trays and apply the cubes to the face, often in the morning, in the belief that cold plus tea antioxidants reduce redness and puffiness."
-   ]
-  },
-  {
-   "h": "Clinical studies",
-   "paras": [
-    "No studies found. Studies of ice packs on injuries report short-term pain relief, with limited long-term evidence [1]. Adverse events from cold therapy are suspected to be underreported [1]."
-   ]
-  },
-  {
-   "h": "Risks",
-   "paras": [
-    "General cold therapy sources note frostbite risk with extreme cold and listed contraindications such as Raynaud syndrome and poor circulation or sensation [1]. Green tea extracts can cause skin reactions in some people [2]."
-   ]
-  }
- ],
- "timeline": [],
- "lore": null,
- "refs": [
-  {
-   "id": 1,
-   "title": "Cryotherapy",
-   "url": "https://en.wikipedia.org/wiki/Cryotherapy",
-   "source": "Wikipedia",
-   "year": 2026,
-   "type": "encyclopedia"
-  },
-  {
-   "id": 2,
-   "title": "Green tea",
-   "url": "https://en.wikipedia.org/wiki/Green_tea",
-   "source": "Wikipedia",
-   "year": 2026,
-   "type": "encyclopedia"
-  }
- ],
- "webSources": [
-  {
-   "url": "https://en.wikipedia.org/wiki/Cryotherapy",
-   "title": "Cryotherapy"
-  },
-  {
-   "url": "https://en.wikipedia.org/wiki/Green_tea",
-   "title": "Green tea"
-  }
- ],
- "card": {
-  "summary": "Rubbing frozen green tea on the face for de-puffing; untested for this use.",
-  "aka": "Tea ice cubes",
-  "evidence": "unproven",
-  "outcome": null,
-  "risk": "low",
-  "price": null,
-  "note": "Avoid prolonged ice contact with skin.",
-  "structure": null
- },
- "quick": {
-  "overview": "A TikTok-popularised routine of applying frozen green tea to the face.\n\nNo study has tested it; general cold therapy research concerns injuries.",
-  "mechanism": "Cold constricts blood vessels and slows flow locally; green tea adds polyphenols whose human effects are unproven [1][2].",
-  "risks": "Ice burns and skin irritation are possible; circulation disorders are listed contraindications for cold therapy [1]."
- }
 }

@@ -1,8 +1,8 @@
 {
  "name": "Topical melatonin hair",
  "lead": [
-  "Topical melatonin for hair refers to melatonin solutions applied to the scalp in an effort to treat androgenetic alopecia. Melatonin is a hormone made mainly by the pineal gland that regulates sleep-wake timing, and it is also an in vitro antioxidant.[1]",
-  "Melatonin has been examined in small studies as a scalp solution, but this article draws only on general reference information about the compound; no trial publications were loaded, so findings are not summarised here."
+  "Topical melatonin for hair refers to melatonin solutions applied to the scalp by people with androgenetic alopecia who hope to slow thinning and thicken hair, usually alongside established treatments. Melatonin is a hormone made mainly by the pineal gland that regulates sleep-wake timing, and it is also an in vitro antioxidant [1].",
+  "Interest in the scalp comes from the idea that hair follicles are themselves sites of melatonin activity and that its antioxidant properties could protect them; proponents point to this reasoning, while reviews describe the hair evidence as varying in strength [1][3]. A 2026 systematic review with network meta-analysis of off-label androgenetic alopecia therapies reported that topical melatonin was among those that appeared effective for male pattern loss on 6-month change in hair density, with topical 5% minoxidil ranked most effective and the authors calling for higher-quality comparative trials [2]. A 2026 case series has also described topical melatonin in hair graying and hair-loss patients [4]."
  ],
  "infobox": [
   [
@@ -20,6 +20,10 @@
   [
    "Hair-loss approval",
    "None identified"
+  ],
+  [
+   "Pooled-analysis finding",
+   "Among off-label topicals that appeared effective at 6 months (2026) [2]"
   ]
  ],
  "sections": [
@@ -37,7 +41,7 @@
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found in the sources used for this article."
+    "A 2026 systematic review with network meta-analyses covering 23 studies, 15 of them off-label therapies, reported that topical melatonin appeared effective for male androgenetic alopecia based on mean 6-month change in total hair density; topical minoxidil 5% ranked highest, and the authors called for higher-quality comparative trials [2]. A 2026 clinical dermatology review names androgenetic alopecia as an area of interest for topical melatonin and says the strength of evidence varies across indications [3]. A 2026 case series examined topical melatonin for hair graying repigmentation [4]."
    ]
   },
   {
@@ -53,7 +57,17 @@
    "event": "Melatonin first isolated by the team of Aaron B. Lerner.[1]"
   }
  ],
- "lore": null,
+ "lore": {
+  "intro": "Topical melatonin is mentioned in hair-loss communities as an inexpensive add-on to established treatments.",
+  "claims": [
+   {
+    "claim": "Melatonin on the scalp helps hair growth as an add-on to other treatments",
+    "believers": "Proponents point to melatonin's antioxidant properties and see it as a low-cost addition to minoxidil-style routines [1].",
+    "experts": "A 2026 network meta-analysis ranked it among effective off-label topicals but below topical minoxidil, and reviewers call for higher-quality trials [2][3].",
+    "evidence": "mixed"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -62,12 +76,40 @@
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Beyond Minoxidil: Off-Label Therapies for Male Androgenetic Alopecia, A Systematic Review with Network Meta-Analyses",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=topical%20melatonin%20alopecia&format=json&resultType=core&pageSize=8",
+   "source": "Medicina (Kaunas) via Europe PMC",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Topical melatonin in esthetic dermatology: From cutaneous melatoninergic biology to photoprotection, and skin rejuvenation",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=topical%20melatonin%20alopecia&format=json&resultType=core&pageSize=8",
+   "source": "Clinics in Dermatology via Europe PMC",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Topical Melatonin and Hair Graying Repigmentation: A Case Series",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=topical%20melatonin%20alopecia&format=json&resultType=core&pageSize=8",
+   "source": "Dermatology Practical & Conceptual via Europe PMC",
+   "year": 2026,
+   "type": "study"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Melatonin",
    "title": "Melatonin - Wikipedia"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=topical%20melatonin%20alopecia&format=json&resultType=core&pageSize=8",
+   "title": "Europe PMC search: topical melatonin alopecia"
   }
  ],
  "card": {
@@ -84,5 +126,15 @@
   "overview": "Melatonin is the sleep-timing hormone; some hair-loss users apply it as a scalp solution.\n\nThis entry found general pharmacology only and no loaded trial data, so no effectiveness conclusion is stated.",
   "mechanism": "Melatonin acts on MT1/MT2 receptors and has antioxidant effects in vitro; its role in hair follicles was not documented in the sources used.",
   "risks": "Melatonin is sold over the counter as a supplement in many countries; scalp-specific safety data were not reviewed."
+ },
+ "angle": {
+  "goal": "Hair density",
+  "chain": [
+   "Melatonin solution applied to the scalp",
+   "Antioxidant and follicle-signalling effects proposed",
+   "Slower thinning and denser-looking hair"
+  ],
+  "effect": "claimed",
+  "text": "Users apply melatonin to thinning scalp areas as an add-on to established hair-loss treatments to try to keep or increase hair density. A 2026 network meta-analysis lists it among off-label topicals that appeared effective on hair density."
  }
 }

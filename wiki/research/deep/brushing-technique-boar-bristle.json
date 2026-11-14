@@ -1,8 +1,9 @@
 {
  "name": "Brushing technique (boar bristle)",
  "lead": [
-  "Boar bristle brushing means using a brush with natural boar hair bristles to smooth and style hair. Such brushes are described as having tightly spaced bristles that increase tension while brushing in order to smooth the hair [1].",
-  "Hair-care communities often say brushing spreads scalp oil along the hair and adds shine. Reference sources on hairbrushes do not make claims about oil distribution, and no clinical studies of this effect were found [1]."
+  "Boar bristle brushing means using a hairbrush with natural boar-hair bristles to smooth, style and add sheen to hair. Such brushes are described as having tightly spaced bristles that increase tension while brushing in order to smooth the hair, and cushion versions are used for detangling [1]. People use them to get a neater, glossier-looking finish on straight or slightly wavy hair before or after styling.",
+  "Hair-care communities commonly say that brushing carries natural scalp oil (sebum) down the length of the hair, which gives a smoother, shinier look and can make greasy roots look less obvious. A member of the T Nation forum, for example, described brushing with a boar bristle brush while sectioning hair to spread sebum from scalp to length [4]. Reference sources on hairbrushes describe the smoothing design but do not discuss oil distribution, and no clinical studies of this effect were found [1].",
+  "How a brush behaves depends on hair type and condition: Wikipedia notes that straight hair typically looks smoother when brushed, while curly hair tends to expand when brushed dry [1]."
  ],
  "infobox": [
   [
@@ -20,6 +21,10 @@
   [
    "Typical aim",
    "Smoothing, shine, detangling"
+  ],
+  [
+   "Cushion variant",
+   "Used for detangling [1]"
   ]
  ],
  "sections": [
@@ -44,7 +49,7 @@
   {
    "h": "Use in looksmaxxing",
    "paras": [
-    "Brushing is discussed alongside hair-care routines for smoothness and shine. A general hairstyling reference describes the old \"100 strokes a day\" rule as outdated [3]."
+    "Brushing is discussed alongside hair-care routines for smoothness and shine. A general hairstyling reference describes the old \"100 strokes a day\" rule as outdated [3]. On T Nation, one poster described spreading scalp sebum to the lengths about once every ten days and using a boar bristle brush, sectioned like flat-ironing, when the hair felt greasy [4]."
    ]
   },
   {
@@ -68,7 +73,23 @@
    "event": "Lyda D. Newman patents an improved hairbrush. [1]"
   }
  ],
- "lore": null,
+ "lore": {
+  "intro": "Boar bristle brushes come up in grooming discussions as a tool for smoothing hair and moving scalp oil; the claims are anecdotal [4].",
+  "claims": [
+   {
+    "claim": "A boar bristle brush spreads scalp oil to the ends for shine",
+    "believers": "Users describe sectioning hair and brushing so sebum travels from scalp to length, which they say reduces greasy roots and adds sheen [4].",
+    "experts": "Reference sources on hairbrushes describe boar bristles as increasing tension to smooth hair and do not report oil distribution; no published studies have tested it [1].",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Brushing smooths hair, especially straight hair",
+    "believers": "Fans say tightly spaced natural bristles leave hair neater than looser-spaced brushes.",
+    "experts": "Wikipedia says tightly spaced boar bristles are designed to increase tension to smooth hair, and that straight hair typically looks smoother when brushed while curly hair tends to expand when dry-brushed [1].",
+    "evidence": "supported"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -93,6 +114,14 @@
    "source": "Wikipedia",
    "year": 2024,
    "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "T Nation forum: Tap This",
+   "url": "https://t-nation.com/t/tap-this/145209",
+   "source": "T Nation",
+   "year": 2011,
+   "type": "forum"
   }
  ],
  "webSources": [
@@ -121,5 +150,15 @@
   "overview": "A boar bristle brush uses natural bristles that are tightly spaced to smooth hair. Fans say it spreads scalp oil and adds shine.\n\nReference sources describe the smoothing design but do not report oil-distribution effects.",
   "mechanism": "Tight bristles create tension that smooths strands. Proponents add that brushing carries natural oil down the shaft; this has not been tested in published studies.",
   "risks": "Hairbrush references list no specific hazards. Designs such as cushion and detangler brushes are intended to reduce breakage [1]."
+ },
+ "angle": {
+  "goal": "Hair",
+  "chain": [
+   "Tightly spaced natural bristles add tension while brushing",
+   "Strands smooth and, per users, scalp oil moves along the hair",
+   "Neater, glossier-looking hair"
+  ],
+  "effect": "direct",
+  "text": "People brush with boar bristles to smooth the hair surface and to give it a polished look. Fans also say it spreads scalp oil down the hair for added shine, an effect that has not been measured in published studies."
  }
 }

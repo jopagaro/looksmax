@@ -1,9 +1,20 @@
 {
  "name": "Eye contact practice",
  "lead": [
-  "Eye contact practice refers to deliberately training oneself to hold another person's gaze in conversation, usually to appear more confident and present. Eye contact, when two people look at each other's eyes at the same time, is a form of nonverbal communication studied as oculesics [1].",
-  "Wikipedia reports that eye contact can signal interest, forms part of flirting, and is linked in some contexts to confidence and respect, while norms differ widely between cultures [1]. Published research on structured eye contact practice as a self-improvement method is limited."
+  "Eye contact practice means deliberately training oneself to hold another person's gaze in conversation, usually so as to come across as more confident, engaged and approachable. Eye contact, when two people look at each other's eyes at the same time, is a form of nonverbal communication studied under the heading of oculesics [1][2]. People who practise it treat it as part of presenting themselves well, a habit that affects how their face and expression read to others, not a change to the face itself.",
+  "Wikipedia reports that eye contact can signal interest and forms part of flirting, and that in the United States it is associated with respect, attentiveness, honesty and trustworthiness [1][2]. The article on oculesics links eye contact with perceived sincerity, self-confidence and credibility [2]. Norms differ widely between cultures, and people with social anxiety or autism spectrum conditions may find sustained eye contact uncomfortable [1][3].",
+  "Research on gaze is substantial, covering how people perceive and follow gaze and how the brain processes eyes as a core part of social cognition [4][5]. Published studies of structured eye-contact practice as a self-improvement method are not available."
  ],
+ "angle": {
+  "goal": "Presence and social impression",
+  "chain": [
+   "Practising steady, natural gaze in everyday conversation",
+   "Conversation partners read engagement and confidence",
+   "The person comes across as more attractive and likeable in person"
+  ],
+  "effect": "claimed",
+  "text": "Eye contact practice is meant to change the social impression a face makes: steady gaze is read as interest, confidence and honesty in many cultures [1][2]. Practitioners rehearse it in ordinary conversation and sometimes review their own video to see how they hold gaze."
+ },
  "infobox": [
   [
    "Type",
@@ -11,41 +22,56 @@
   ],
   [
    "Field of study",
-   "Oculesics"
+   "Oculesics [2]"
   ],
   [
-   "Related",
-   "Social anxiety, gaze aversion"
+   "Related topics",
+   "Gaze cueing, social anxiety, autism spectrum conditions [1][3][4]"
+  ],
+  [
+   "Cultural note",
+   "Norms differ widely across cultures [1][2]"
   ]
  ],
  "sections": [
   {
    "h": "Eye contact in social life",
    "paras": [
-    "Brief glances can develop into repeated eye contact that signals attraction, while unbroken staring can feel overbearing in many cultures [1]. In crowds strangers often avoid eye contact as civil inattention [1]."
+    "Brief glances can develop into repeated eye contact that signals attraction, while unbroken staring can feel overbearing in many cultures. In crowds strangers often avoid eye contact as civil inattention [1]. Oculesics covers eye movement, blinking, pupil dilation and gaze direction as well as eye contact [2].",
+    "Some theorists state that constant eye contact between two people is physically and mentally uncomfortable [2]. A study of 20 five-year-olds summarised on Wikipedia found that children who looked away while thinking were more likely to answer correctly, suggesting that faces can be mentally demanding to look at [1]."
    ]
   },
   {
    "h": "Cultural differences",
    "paras": [
-    "In East Asia and Nigeria not looking directly at a person of higher status can be respectful, whereas in Western cultures averted eyes may be read as evasive [1]. Practices vary widely within religious and social traditions [1]."
+    "In East Asia and Nigeria, not looking directly at a person of higher status can be respectful, whereas in Western cultures averted eyes may be read as evasive [1]. Wikipedia's oculesics article reports that Anglo-Saxons tend to hold steady eye contact while Latinos make brief contact, citing sociologist Cruz (2001), and that lowering the eyes is taught as respect toward authority in many Western Pacific, East Asian and North African cultures [2]."
    ]
   },
   {
    "h": "Difficulty with eye contact",
    "paras": [
-    "People with autism spectrum disorders or social anxiety may find eye contact unsettling [1]. Social anxiety disorder is also described as involving avoidance behaviours, which can include avoiding eye contact [2]. A study of 20 five-year-olds found that children who looked away while thinking were more likely to answer correctly, suggesting faces can be mentally demanding to look at [1]."
+    "People with autism spectrum disorders or social anxiety may find eye contact unsettling [1]. Social anxiety disorder is described as involving avoidance behaviours, which can include avoiding eye contact [3]. A 2017 qualitative study of 92 autistic adults found that many hide autistic traits to fit in, and that this masking is tiring [6]."
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found on eye contact practice as a self-improvement method. Related research on gaze in infants and learning is summarised on Wikipedia [1]."
+    "No studies found on eye contact practice as a self-improvement method for appearance. Related research includes a 2007 Psychological Bulletin review of gaze cueing and joint attention [4], a 2009 review of the neural bases of eye and gaze processing as a core of social cognition [5], and a 2011 review of evolutionary research on facial attractiveness [7]."
    ]
   }
  ],
  "timeline": [],
- "lore": null,
+ "lore": {
+  "intro": "Eye contact comes up on T Nation in the context of public speaking, dating and confidence rather than as a dedicated practice thread [8].",
+  "claims": [
+   {
+    "claim": "Watching recordings of yourself talking helps improve eye contact",
+    "believers": "One T Nation poster described reviewing his own videos, looking for how well he maintains eye contact and for verbal pauses, as a way of building communication skill [8].",
+    "experts": "No published studies have tested video self-review for eye contact. Wikipedia notes that norms and comfort with eye contact vary by culture and by individual [1][2].",
+    "evidence": "untested"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -57,21 +83,68 @@
   },
   {
    "id": 2,
+   "title": "Oculesics",
+   "url": "https://en.wikipedia.org/wiki/Oculesics",
+   "source": "Wikipedia",
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
    "title": "Social anxiety disorder",
    "url": "https://en.wikipedia.org/wiki/Social_anxiety_disorder",
    "source": "Wikipedia",
    "year": 2026,
    "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Gaze cueing of attention: visual attention, social cognition, and individual differences",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22eye%20contact%22%20AND%20(attractiveness%20OR%20likability%20OR%20%22social%20anxiety%22)%20AND%20(training%20OR%20gaze)&format=json&pageSize=10&resultType=core&sort=CITED%20desc",
+   "source": "Psychological Bulletin",
+   "year": 2007,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Neural bases of eye and gaze processing: the core of social cognition",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22eye%20contact%22%20AND%20(attractiveness%20OR%20likability%20OR%20%22social%20anxiety%22)%20AND%20(training%20OR%20gaze)&format=json&pageSize=10&resultType=core&sort=CITED%20desc",
+   "source": "Neuroscience and Biobehavioral Reviews",
+   "year": 2009,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Putting on My Best Normal: Social Camouflaging in Adults with Autism Spectrum Conditions",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22eye%20contact%22%20AND%20(attractiveness%20OR%20likability%20OR%20%22social%20anxiety%22)%20AND%20(training%20OR%20gaze)&format=json&pageSize=10&resultType=core&sort=CITED%20desc",
+   "source": "Journal of Autism and Developmental Disorders",
+   "year": 2017,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Facial attractiveness: evolutionary based research",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22eye%20contact%22%20AND%20(attractiveness%20OR%20likability%20OR%20%22social%20anxiety%22)%20AND%20(training%20OR%20gaze)&format=json&pageSize=10&resultType=core&sort=CITED%20desc",
+   "source": "Philosophical Transactions of the Royal Society B",
+   "year": 2011,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "Titan Tim Tackling his Twenties",
+   "url": "https://t-nation.com/t/titan-tim-tackling-his-twenties/254087",
+   "source": "T Nation forum",
+   "year": 2019,
+   "type": "forum"
   }
  ],
  "webSources": [
   {
-   "url": "https://en.wikipedia.org/wiki/Eye_contact",
-   "title": "Eye contact - Wikipedia"
+   "url": "https://en.wikipedia.org/wiki/Oculesics",
+   "title": "Oculesics"
   },
   {
-   "url": "https://en.wikipedia.org/wiki/Social_anxiety_disorder",
-   "title": "Social anxiety disorder - Wikipedia"
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22eye%20contact%22%20AND%20(attractiveness%20OR%20likability%20OR%20%22social%20anxiety%22)%20AND%20(training%20OR%20gaze)&format=json&pageSize=10&resultType=core&sort=CITED%20desc",
+   "title": "Gaze, social cognition and attractiveness literature (Europe PMC search)"
   }
  ],
  "card": {

@@ -1,19 +1,200 @@
 {
-"name":"Tap water / fluoride avoidance",
-"lead":["Tap water / fluoride avoidance is a lifestyle practice in which people drink and sometimes wash with filtered, bottled or spring water instead of municipal tap water, mainly to avoid fluoride, and sometimes chlorine. In appearance-focused communities it is presented as part of a health-and-skin routine.","Water fluoridation is the controlled addition of fluoride to public water supplies to reduce tooth decay; the US recommended level is 0.7 mg/L.[1] Health bodies including the WHO, the FDI World Dental Federation and the US CDC endorse it as safe and effective at recommended levels, while opponents argue the benefit is small and that safety is uncertain.[1][2] No published study was found that tests fluoride avoidance for facial appearance."],
-"infobox":[["Type","Dietary / water-source practice"],["Typical methods","Filtered, bottled or spring water"],["Appearance claim","Not studied"],["US recommended fluoride level","0.7 mg/L[1]"],["WHO guideline upper limit","1.5 mg/L[1]"]],
-"sections":[
-{"h":"Background","subs":[
-{"h":"Water fluoridation","paras":["Fluoride is added to public water mainly as sodium fluoride, fluorosilicic acid or sodium fluorosilicate; it does not change the water's taste, smell or look.[1] Grand Rapids, Michigan, began fluoridating on January 25, 1945, the first city to do so, after decades of research into the staining of teeth in areas with naturally fluoride-rich water.[1]","Some countries and cities, including Finland, Germany, Japan, the Netherlands and Switzerland, do not fluoridate or have stopped; Basel, for example, uses fluoridated salt.[1] Israel dropped mandatory fluoridation in 2014.[1][2]"]}]},
-{"h":"Positions of health bodies and critics","paras":["The WHO, FDI and US CDC endorse fluoridation, and the CDC named it one of the ten great public health achievements of the 20th century in 1999.[1][2] A 2015 Cochrane review estimated 35% fewer cavities in baby teeth and 26% in permanent teeth in children, but rated the evidence as poor and found no conclusive adult research.[1][2]","The 2011 European Commission review saw no clear advantage over topical fluoride, and the 2007 Nuffield Council on Bioethics found good evidence for or against lacking.[1][2] Opponents raise consent, cost-effectiveness, precaution and conflict-of-interest arguments.[2] In September 2024 a US federal judge ruled in Food and Water Watch v. EPA that fluoridation posed an unreasonable risk of reduced IQ in children, requiring an EPA regulatory response.[2]"]},
-{"h":"Adverse effects","paras":["Dental fluorosis is the only clear adverse effect at recommended levels; Cochrane estimated about 12% of people at 0.7 ppm had fluorosis of aesthetic concern, mostly mild.[1] Little effect on fracture risk and no clear link to cancer has been reported, and rare acute poisonings have followed improper dosing, including a fatal 1992 Alaska outbreak.[1]"]},
-{"h":"Use in looksmaxxing","paras":["Practitioners cite avoiding fluoride and chlorine as a reason for filtered or spring water. See Filtered / spring water. Published sources reviewed here do not discuss fluoride and facial appearance."]},
-{"h":"Clinical studies","paras":["No studies found on fluoride avoidance and facial appearance. Studies of water fluoridation concern dental and general health outcomes, summarised above.[1][2]"]}
-],
-"timeline":[{"year":"1945","event":"Grand Rapids, Michigan begins fluoridating its water.[1]"},{"year":"1984","event":"WHO sets a 1.5 mg/L guideline maximum.[2]"},{"year":"2015","event":"Cochrane review of fluoridation in children.[1][2]"},{"year":"2024","event":"US federal court ruling in Food and Water Watch v. EPA.[2]"}],
-"lore":null,
-"card":{"summary":"Swapping tap for filtered or spring water to dodge fluoride; health bodies back fluoridation, critics dispute it, and no appearance data exist.","aka":null,"evidence":"unproven","risk":"low","note":"Contested public-health topic; no evidence for appearance benefit.","price":null},
-"quick":{"overview":"Some people avoid tap water to avoid fluoride, believing it is unhealthy. Health bodies such as the WHO and CDC support fluoridation at recommended levels, while critics dispute its benefit and safety.\n\nNo study has tested whether avoiding fluoride changes how someone looks.","mechanism":"People use filters, bottled or spring water. Fluoride is added to public water to reduce tooth decay.","risks":"Fluoridation's documented adverse effect at recommended levels is mostly mild dental fluorosis; neurodevelopment concerns are debated and a 2024 US court ruling addressed IQ risk. Reduced fluoride exposure is associated with more cavities in some reviews."},
-"refs":[{"id":1,"title":"Water fluoridation","url":"https://en.wikipedia.org/wiki/Water_fluoridation","source":"Wikipedia","year":2026,"type":"encyclopedia"},{"id":2,"title":"Water fluoridation controversy","url":"https://en.wikipedia.org/wiki/Water_fluoridation_controversy","source":"Wikipedia","year":2026,"type":"encyclopedia"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Water_fluoridation","title":"Water fluoridation"},{"url":"https://en.wikipedia.org/wiki/Water_fluoridation_controversy","title":"Water fluoridation controversy"}]
+  "name": "Tap water / fluoride avoidance",
+  "card": {
+    "summary": "Swapping tap for filtered or spring water to dodge fluoride; health bodies back fluoridation, critics dispute it, and no appearance data exist.",
+    "aka": null,
+    "evidence": "unproven",
+    "risk": "low",
+    "note": "Contested public-health topic; no evidence for appearance benefit.",
+    "price": null
+  },
+  "quick": {
+    "overview": "Some people avoid tap water to avoid fluoride, believing it is unhealthy. Health bodies such as the WHO and CDC support fluoridation at recommended levels, while critics dispute its benefit and safety.\n\nNo study has tested whether avoiding fluoride changes how someone looks.",
+    "mechanism": "People use filters, bottled or spring water. Fluoride is added to public water to reduce tooth decay.",
+    "risks": "Fluoridation's documented adverse effect at recommended levels is mostly mild dental fluorosis; neurodevelopment concerns are debated and a 2024 US court ruling addressed IQ risk. Reduced fluoride exposure is associated with more cavities in some reviews."
+  },
+  "lead": [
+    "Tap water / fluoride avoidance is a practice in which people drink and sometimes wash with filtered, bottled or spring water instead of municipal tap water, mainly to avoid fluoride and sometimes chlorine. In appearance-focused communities it is presented as part of a routine aimed at keeping teeth, skin and overall health looking their best.",
+    "The clearest appearance link is dental fluorosis, a change in tooth enamel caused by swallowing too much fluoride while teeth are forming. It ranges from faint white flecks to brown mottling and pitting, and the greatest risk is from birth to about age six [3]. Avoiding extra fluoride sources during those years is how some parents and adults frame the practice; after about age seven, most permanent teeth have finished developing and the risk falls substantially [3].",
+    "Water fluoridation is the controlled addition of fluoride to public supplies to reduce tooth decay; the US recommended level is 0.7 mg/L [1]. The WHO, FDI World Dental Federation and US CDC endorse it as safe and effective at recommended levels, while opponents argue the benefit is small and safety uncertain [1][2]. No published study has tested fluoride avoidance for facial appearance or skin."
+  ],
+  "angle": {
+    "goal": "Teeth",
+    "chain": [
+      "Drinking filtered, bottled or spring water instead of fluoridated tap water",
+      "Lower fluoride intake during tooth development",
+      "Less risk of dental fluorosis spotting or staining"
+    ],
+    "effect": "indirect",
+    "text": "The documented appearance effect of fluoride exposure is cosmetic enamel change (fluorosis) in children whose teeth are still forming. Some practitioners extend the idea to skin and general health, which research on water fluoridation has not examined."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Dietary / water-source practice"
+    ],
+    [
+      "Typical methods",
+      "Filtered, bottled or spring water"
+    ],
+    [
+      "Appearance link",
+      "Dental fluorosis (enamel spotting) during tooth development [3]"
+    ],
+    [
+      "US recommended fluoride level",
+      "0.7 mg/L [1]"
+    ],
+    [
+      "WHO guideline upper limit",
+      "1.5 mg/L [1]"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Background",
+      "subs": [
+        {
+          "h": "Water fluoridation",
+          "paras": [
+            "Fluoride is added to public water mainly as sodium fluoride, fluorosilicic acid or sodium fluorosilicate; it does not change the water's taste, smell or look [1]. Grand Rapids, Michigan, began fluoridating on January 25, 1945, the first city to do so, after decades of research into the staining of teeth in areas with naturally fluoride-rich water [1].",
+            "Some countries and cities, including Finland, Germany, Japan, the Netherlands and Switzerland, do not fluoridate or have stopped; Basel, for example, uses fluoridated salt [1]. Israel dropped mandatory fluoridation in 2014 [1][2]."
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Appearance: dental fluorosis",
+      "paras": [
+        "Wikipedia describes dental fluorosis as ranging from small chalky-white spots covering less than a quarter of a tooth, through whole-surface mottling and brown staining, to pitting in severe cases. Most cases are very mild or mild, and sources include naturally fluoride-rich water, certain crops and soil, and supplements; toothpaste is not strongly linked [3].",
+        "Cosmetic options described include whitening for mild cases, microabrasion for moderate ones, and composite fillings, veneers or crowns for severe cases [3]. The 2024 Cochrane update of the water fluoridation review set out to evaluate the association of water fluoridation with dental fluorosis alongside its effect on cavities [4]. Cochrane's earlier estimate was that about 12 percent of people at 0.7 ppm had fluorosis of aesthetic concern, mostly mild [1]."
+      ]
+    },
+    {
+      "h": "Positions of health bodies and critics",
+      "paras": [
+        "The WHO, FDI and US CDC endorse fluoridation, and the CDC named it one of the ten great public health achievements of the 20th century in 1999 [1][2]. A 2015 Cochrane review estimated 35% fewer cavities in baby teeth and 26% in permanent teeth in children, but rated the evidence as low quality and found no conclusive adult research [1][2].",
+        "The 2011 European Commission review saw no clear advantage over topical fluoride, and the 2007 Nuffield Council on Bioethics found good evidence for or against lacking [1][2]. Opponents raise consent, cost-effectiveness, precaution and conflict-of-interest arguments [2]. In September 2024 a US federal judge ruled in Food and Water Watch v. EPA that fluoridation posed an unreasonable risk of reduced IQ in children, requiring an EPA regulatory response [2]."
+      ]
+    },
+    {
+      "h": "Water hardness and skin",
+      "paras": [
+        "Some people who avoid tap water are also reacting to chlorine or mineral content. Wikipedia reports that hard drinking water may increase childhood eczema prevalence, though water softeners did not reduce symptoms once the condition was established, and that hard water reduces soap lathering [5]. These points concern minerals, not fluoride."
+      ]
+    },
+    {
+      "h": "Adverse effects",
+      "paras": [
+        "Dental fluorosis is the only clear adverse effect at recommended levels. Little effect on fracture risk and no clear link to cancer has been reported, and rare acute poisonings have followed improper dosing, including a fatal 1992 Alaska outbreak [1]."
+      ]
+    },
+    {
+      "h": "Use in looksmaxxing",
+      "paras": [
+        "Looksmax.org has threads asking whether tap water is harmful and listing what users say is in it [6][7]. Practitioners cite avoiding fluoride and chlorine as a reason for filtered or spring water; see Filtered / spring water. Published sources do not link fluoride avoidance to facial appearance."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found on fluoride avoidance and facial appearance. Studies of water fluoridation concern dental and general health outcomes, summarised above [1][2][4]."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1945",
+      "event": "Grand Rapids, Michigan begins fluoridating its water.[1]"
+    },
+    {
+      "year": "1984",
+      "event": "WHO sets a 1.5 mg/L guideline maximum.[2]"
+    },
+    {
+      "year": "2015",
+      "event": "Cochrane review of fluoridation in children.[1][2]"
+    },
+    {
+      "year": "2024",
+      "event": "US federal court ruling in Food and Water Watch v. EPA.[2]"
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Water fluoridation",
+      "url": "https://en.wikipedia.org/wiki/Water_fluoridation",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Water fluoridation controversy",
+      "url": "https://en.wikipedia.org/wiki/Water_fluoridation_controversy",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "Dental fluorosis",
+      "url": "https://en.wikipedia.org/wiki/Dental_fluorosis",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 4,
+      "title": "Water fluoridation for the prevention of dental caries",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39362658/",
+      "source": "Cochrane Database of Systematic Reviews",
+      "year": 2024,
+      "type": "review"
+    },
+    {
+      "id": 5,
+      "title": "Hard water",
+      "url": "https://en.wikipedia.org/wiki/Hard_water",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 6,
+      "title": "Is tap water really that bad",
+      "url": "https://looksmax.org/threads/is-tap-water-really-that-bad.1386800/",
+      "source": "looksmax.org",
+      "year": 2024,
+      "type": "forum"
+    },
+    {
+      "id": 7,
+      "title": "is tap water that bad",
+      "url": "https://looksmax.org/threads/is-tap-water-that-bad.499682/",
+      "source": "looksmax.org",
+      "year": 2022,
+      "type": "forum"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Water_fluoridation",
+      "title": "Water fluoridation"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Water_fluoridation_controversy",
+      "title": "Water fluoridation controversy"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dental_fluorosis",
+      "title": "Dental fluorosis"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hard_water",
+      "title": "Hard water"
+    }
+  ]
 }

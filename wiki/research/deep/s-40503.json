@@ -1,8 +1,171 @@
-{"name":"S-40503","card":{"summary":"A preclinical nonsteroidal SARM tested in rat osteoporosis models; known mainly from doping-control research, with no human efficacy data.","aka":null,"evidence":"unproven","status":"research","risk":null,"price":null,"note":"Preclinical only; detectable in doping tests.","structure":null},
-"quick":{"overview":"S-40503 is an experimental nonsteroidal selective androgen receptor modulator (SARM). It was described in 2003 in rat models of osteoporosis, where it showed bone-building activity.\n\nNo human clinical trials are listed in the sources consulted. It is discussed mainly in anti-doping analytical literature.","mechanism":"It binds the androgen receptor with nanomolar affinity and preferentially over other nuclear receptors. In orchiectomized rats given it for 4 weeks, researchers evaluated its bone effects against dihydrotestosterone.","risks":"No human safety data are described. SARMs are prohibited by WADA, and doping-control laboratories have developed methods to detect S-40503 in human plasma."},
-"lead":["S-40503 is a nonsteroidal selective androgen receptor modulator (SARM) first described in 2003 as a compound developed to pursue tissue-selective androgen receptor activity.[1] It bound the androgen receptor with nanomolar affinity, with preference for it among nuclear receptors, and was evaluated in rat models of osteoporosis against dihydrotestosterone.[1]","Later literature on it comes mostly from doping control, where laboratories described identifying it in human plasma as an emerging drug with potential for misuse.[2][3] The sources consulted describe no human trials."],
-"infobox":[["Drug class","Selective androgen receptor modulator (nonsteroidal)"],["Described","2003 (rat osteoporosis models)"],["Status","Preclinical / research compound"]],
-"sections":[{"h":"Clinical studies","paras":["No studies found. Published work is limited to rat studies of bone effects[1] and analytical doping-control methods.[2][3]"]},{"h":"Pharmacology","paras":["In the 2003 report, S-40503 preferentially bound the androgen receptor over other nuclear receptors, and effects on bone were assessed in orchiectomized rats treated for 4 weeks.[1]"]},{"h":"Doping control","paras":["A 2009 study developed plasma methods to identify S-40503 alongside GW501516, S-107 and JTV-519 as emerging drugs with misuse potential.[3] A 2018 review notes that SARMs have been the subject of two decades of clinical research aimed at muscle-wasting conditions and are considered a doping-relevant class.[2]"]}],
-"timeline":[{"year":"2003","event":"S-40503 reported in rat models of osteoporosis.[1]"},{"year":"2009","event":"Doping-control method for S-40503 in human plasma published.[3]"}],"lore":null,
-"refs":[{"id":1,"title":"Bone anabolic effects of S-40503, a novel nonsteroidal selective androgen receptor modulator (SARM), in rat models of osteoporosis.","url":"https://pubmed.ncbi.nlm.nih.gov/14600402/","source":"Biological & Pharmaceutical Bulletin","year":2003,"type":"study"},{"id":2,"title":"Detection of SARMs in doping control analysis.","url":"https://pubmed.ncbi.nlm.nih.gov/28137616/","source":"Molecular and Cellular Endocrinology","year":2018,"type":"review"},{"id":3,"title":"Doping control analysis of emerging drugs in human plasma - identification of GW501516, S-107, JTV-519, and S-40503.","url":"https://pubmed.ncbi.nlm.nih.gov/19280612/","source":"Rapid Communications in Mass Spectrometry","year":2009,"type":"study"}],
-"webSources":[]}
+{
+ "name": "S-40503",
+ "card": {
+  "summary": "A preclinical nonsteroidal SARM tested in rat osteoporosis models; known mainly from doping-control research, with no human efficacy data.",
+  "aka": null,
+  "evidence": "unproven",
+  "status": "research",
+  "risk": null,
+  "price": null,
+  "note": "Preclinical only; detectable in doping tests.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "S-40503 is an experimental nonsteroidal selective androgen receptor modulator (SARM). It was described in 2003 in rat models of osteoporosis, where it showed bone-building activity.\n\nNo human clinical trials are listed in the sources consulted. It is discussed mainly in anti-doping analytical literature.",
+  "mechanism": "It binds the androgen receptor with nanomolar affinity and preferentially over other nuclear receptors. In orchiectomized rats given it for 4 weeks, researchers evaluated its bone effects against dihydrotestosterone.",
+  "risks": "No human safety data are described. SARMs are prohibited by WADA, and doping-control laboratories have developed methods to detect S-40503 in human plasma."
+ },
+ "lead": [
+  "S-40503 is an experimental nonsteroidal selective androgen receptor modulator (SARM), a compound designed to switch on androgen receptors in muscle and bone while leaving tissues such as the prostate less affected. The pitch for this class in physique communities is muscle and bone gain without the full effects of testosterone, which is why S-40503 is listed among SARMs in forum discussion of lean mass and body composition. [1][4]",
+  "It was first described in 2003. In castrated rats given S-40503 for four weeks, femoral bone mineral density and muscle weight (levator ani) rose about as much as with dihydrotestosterone (DHT), while prostate weight did not rise above normal; DHT raised prostate weight about 1.5-fold. In ovariectomised rats treated for two months it increased cortical bone density and strength. [1] It bound the androgen receptor with nanomolar affinity, preferentially among nuclear receptors. [1]",
+  "Later literature on it comes mostly from doping control, where laboratories developed plasma tests for it as an emerging drug with misuse potential. [2][3] SARMs as a class were added to the WADA Prohibited List in 2008, and none has received full clinical approval. [3] No human trial of S-40503 was found."
+ ],
+ "infobox": [
+  [
+   "Drug class",
+   "Selective androgen receptor modulator (nonsteroidal) [1]"
+  ],
+  [
+   "Described",
+   "2003 (rat osteoporosis models) [1]"
+  ],
+  [
+   "Intended use",
+   "Osteoporosis; described as suited to bone with low virilisation [1][4]"
+  ],
+  [
+   "Status",
+   "Preclinical / research compound; not approved"
+  ],
+  [
+   "Anti-doping",
+   "SARMs on WADA Prohibited List since 2008 [3]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Pharmacology",
+   "subs": [
+    {
+     "h": "Mechanism of action",
+     "paras": [
+      "S-40503 preferentially bound the androgen receptor over other nuclear receptors in the 2003 report, and its effects were compared with the natural steroid DHT. [1] Wikipedia describes SARMs generally as acting like agonists in muscle and bone but as partial agonists or antagonists in tissues such as the prostate; the mechanism of this selectivity is still debated. [5]"
+     ]
+    },
+    {
+     "h": "Animal findings",
+     "paras": [
+      "In orchiectomised rats treated for four weeks, bone mineral density of the femur and muscle weight of the levator ani increased as markedly as with DHT, without enlarging the prostate. Four-week treatment of normal rats did not enlarge the prostate. In ovariectomised rats treated for two months, it raised cortical bone density and biomechanical strength, whereas estrogen did not. [1]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "The SARM class",
+   "paras": [
+    "Wikipedia reports that SARMs have been studied for muscle wasting, osteoporosis and other conditions. Several trials show increased lean mass, but improved strength or function is less clear, and neither the FDA nor the EMA had approved a SARM as of 2023. [5] In bodybuilding communities SARMs are used for their anabolic effects, with gains described as generally smaller than with moderate testosterone doses; elevated liver enzymes, lowered HDL cholesterol and hormonal suppression have been reported with some SARMs. [5]"
+   ]
+  },
+  {
+   "h": "Doping control",
+   "paras": [
+    "A 2009 study developed plasma methods to identify S-40503 alongside GW501516, S-107 and JTV-519 as emerging drugs with misuse potential. [3] A 2018 review notes that SARMs were added to WADA's Prohibited List in 2008 and that numerous adverse analytical findings have since been reported for various SARMs, though none has full clinical approval. [2]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "S-40503 appears in a T Nation discussion of Ostarine as an item in a list of SARMs, described as selective for bone with particularly low virilisation and intended for osteoporosis. [4] Wikipedia notes that SARMs are sold online as research chemicals and that a study found most products advertised as SARMs were mislabelled. [5]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found. Published work is limited to rat studies of bone and muscle effects [1] and analytical doping-control methods. [2][3]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2003",
+   "event": "S-40503 reported in rat models of osteoporosis. [1]"
+  },
+  {
+   "year": "2008",
+   "event": "SARMs added to the WADA Prohibited List. [2]"
+  },
+  {
+   "year": "2009",
+   "event": "Doping-control method for S-40503 in human plasma published. [3]"
+  }
+ ],
+ "lore": {
+  "intro": "S-40503 is rarely discussed on its own; it appears mostly in lists of SARMs.",
+  "claims": [
+   {
+    "claim": "S-40503 is a bone-selective SARM with low virilisation",
+    "believers": "A T Nation list describes it as selective for bone tissue, particularly low virilising, intended for osteoporosis and possibly suited to women.[4]",
+    "experts": "The 2003 rat study reported bone and muscle gains without prostate enlargement; no human study has tested it.[1]",
+    "evidence": "untested"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Bone anabolic effects of S-40503, a novel nonsteroidal selective androgen receptor modulator (SARM), in rat models of osteoporosis.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14600402/",
+   "source": "Biological & Pharmaceutical Bulletin",
+   "year": 2003,
+   "type": "study"
+  },
+  {
+   "id": 2,
+   "title": "Detection of SARMs in doping control analysis.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28137616/",
+   "source": "Molecular and Cellular Endocrinology",
+   "year": 2018,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Doping control analysis of emerging drugs in human plasma - identification of GW501516, S-107, JTV-519, and S-40503.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19280612/",
+   "source": "Rapid Communications in Mass Spectrometry",
+   "year": 2009,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Ostarine - HGH?",
+   "url": "https://t-nation.com/t/ostarine-hgh/182799",
+   "source": "T Nation",
+   "year": 2012,
+   "type": "forum"
+  },
+  {
+   "id": 5,
+   "title": "Selective androgen receptor modulator",
+   "url": "https://en.wikipedia.org/wiki/Selective_androgen_receptor_modulator",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Selective_androgen_receptor_modulator",
+   "title": "Selective androgen receptor modulator"
+  }
+ ],
+ "angle": {
+  "goal": "Muscle and body composition",
+  "chain": [
+   "Binds the androgen receptor selectively",
+   "Muscle and bone tissue respond in animal studies",
+   "Hoped-for gain in lean mass with less prostate stimulation"
+  ],
+  "effect": "claimed",
+  "text": "People interested in physique discuss SARMs as muscle-building alternatives to anabolic steroids. For S-40503, the data are limited to rats, where it raised muscle weight and bone density, with the original authors highlighting bone and low virilising activity."
+ }
+}

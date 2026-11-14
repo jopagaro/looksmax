@@ -1,68 +1,143 @@
 {
-  "name": "Alcohol as sleep aid",
-  "card": {
-    "summary": "Using alcohol to fall asleep is common; reference sources describe drowsiness alongside disrupted sleep architecture, and facial effects are mainly a looksmaxxing claim.",
-    "aka": "nightcap",
-    "evidence": "limited",
-    "status": null,
-    "risk": "moderate",
-    "price": null,
-    "note": "Alcohol disrupts sleep patterns and can worsen existing sleep problems.",
-    "structure": null
-  },
-  "quick": {
-    "overview": "Some people have a drink to fall asleep. Wikipedia's article on the effects of alcohol says alcohol can cause drowsiness while disrupting sleep architecture, particularly later REM sleep, and that it lowers sleep quality and can worsen existing sleep problems.\n\nIn looksmaxxing circles, alcohol is also said to cause facial puffiness; the reference source consulted does not discuss puffiness, though it notes alcohol's dehydrating effect and the flush reaction.",
-    "mechanism": "Alcohol acts as a central nervous system depressant. It reduces release of vasopressin, which Wikipedia links to dehydration after heavy drinking.",
-    "risks": "Disrupted sleep during and after drinking; in people who stop after dependence, lingering sleep disruption is described as a strong predictor of relapse (2007 study cited by Wikipedia)."
-  },
-  "lead": [
-    "Using alcohol as a sleep aid means drinking in the evening to fall asleep faster. Wikipedia reports that alcohol can cause drowsiness while disrupting sleep architecture, particularly later REM sleep, and that it lowers sleep quality and can greatly worsen existing sleep problems [1].",
-    "Alcohol also reduces production and release of vasopressin, and dehydration is described as a factor in hangover severity [1]. No published study cited here links alcohol use to facial puffiness; this claim circulates in looksmaxxing communities."
+ "name": "Alcohol as sleep aid",
+ "card": {
+  "summary": "Using alcohol to fall asleep is common; reference sources describe drowsiness alongside disrupted sleep architecture, and facial effects are mainly a looksmaxxing claim.",
+  "aka": "nightcap",
+  "evidence": "limited",
+  "status": null,
+  "risk": "moderate",
+  "price": null,
+  "note": "Alcohol disrupts sleep patterns and can worsen existing sleep problems.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Some people have a drink to fall asleep. Wikipedia's article on the effects of alcohol says alcohol can cause drowsiness while disrupting sleep architecture, particularly later REM sleep, and that it lowers sleep quality and can worsen existing sleep problems.\n\nIn looksmaxxing circles, alcohol is also said to cause facial puffiness; the reference source consulted does not discuss puffiness, though it notes alcohol's dehydrating effect and the flush reaction.",
+  "mechanism": "Alcohol acts as a central nervous system depressant. It reduces release of vasopressin, which Wikipedia links to dehydration after heavy drinking.",
+  "risks": "Disrupted sleep during and after drinking; in people who stop after dependence, lingering sleep disruption is described as a strong predictor of relapse (2007 study cited by Wikipedia)."
+ },
+ "lead": [
+  "Using alcohol as a sleep aid means drinking in the evening to wind down and fall asleep faster. The appearance logic people give is the same as for any sleep method: falling asleep quickly means more hours in bed, and rested people tend to look fresher, with less puffiness and dark circles. Alcohol causes drowsiness, which is why it is used this way [1].",
+  "Wikipedia reports that alcohol disrupts normal sleep patterns, particularly later REM sleep, lowers sleep quality and can worsen existing sleep problems [1]. It also states that alcohol suppresses vasopressin, the hormone that helps the kidneys retain water, so large amounts cause dehydration, which contributes to hangover symptoms; stopping drinking helps restore hydration, which benefits the appearance of skin [1].",
+  "After quitting alcohol, Wikipedia says sleep typically normalises into deeper, more consistent rest [1]. In alcohol-dependent patients, persistent sleep EEG abnormalities during abstinence were reported by Feige and colleagues in 2007 as a strong predictor of relapse [1]. In forums such as T Nation, members compare drinking to benzodiazepines as a way to fall asleep and note both can be habit-forming [2]. No published study measures how alcohol as a sleep aid affects facial appearance."
+ ],
+ "angle": {
+  "goal": "Rested look / sleep",
+  "chain": [
+   "Evening alcohol produces drowsiness",
+   "Faster sleep onset",
+   "Intended outcome: more sleep and a rested-looking face"
   ],
-  "infobox": [
-    [
-      "Type",
-      "Lifestyle practice"
-    ],
-    [
-      "Substance",
-      "Ethanol"
-    ],
-    [
-      "Reported effect",
-      "Drowsiness with disrupted sleep architecture [1]"
-    ]
+  "effect": "claimed",
+  "text": "People reach for a drink to fall asleep sooner so that they wake looking rested. Wikipedia reports that alcohol disrupts sleep architecture and lowers sleep quality, and that quitting restores deeper sleep and hydration, which is the part of this chain most tied to how skin looks [1]."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Lifestyle practice"
   ],
-  "sections": [
-    {
-      "h": "Research and expert views",
-      "paras": [
-        "Wikipedia says that after quitting alcohol, sleep typically normalises into deeper, more consistent rest [1]. In alcohol-dependent patients, persistent sleep EEG abnormalities during abstinence were reported by Feige and colleagues in 2007 as a strong predictor of relapse [1]."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found on alcohol as a sleep aid for appearance. Wikipedia's article references a 2007 study on sleep EEG in abstinent alcohol-dependent patients [1]."
-      ]
-    }
+  [
+   "Substance",
+   "Ethanol"
   ],
-  "timeline": [],
-  "lore": null,
-  "refs": [
-    {
-      "id": 1,
-      "title": "Effects of alcohol on the body",
-      "url": "https://en.wikipedia.org/wiki/Effects_of_alcohol_on_the_body",
-      "source": "Wikipedia",
-      "year": 2025,
-      "type": "encyclopedia"
-    }
+  [
+   "Reported effect",
+   "Drowsiness with disrupted sleep architecture [1]"
   ],
-  "webSources": [
-    {
-      "url": "https://en.wikipedia.org/wiki/Effects_of_alcohol_on_the_body",
-      "title": "Effects of alcohol on the body - Wikipedia"
-    }
+  [
+   "Effect on hydration",
+   "Lowers vasopressin, increases dehydration [1]"
+  ],
+  [
+   "After quitting",
+   "Sleep typically deeper and more consistent [1]"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Mechanism and sleep effects",
+   "paras": [
+    "Alcohol is sedating, which shortens the time to fall asleep, but Wikipedia says it disrupts normal sleep patterns, especially later REM sleep, and reduces sleep quality [1]. Because it reduces production and release of vasopressin, it increases urination and dehydration, which is described as a factor in hangover severity [1]."
+   ]
+  },
+  {
+   "h": "Appearance considerations",
+   "paras": [
+    "The skin and face link is mostly through hydration and sleep. Wikipedia says that quitting alcohol helps restore hydration, which benefits the appearance of skin, and that sleep normalises after quitting [1]. Claims that alcohol causes facial puffiness circulate in looksmaxxing communities; no published study cited in this article tests them."
+   ]
+  },
+  {
+   "h": "Research and expert views",
+   "paras": [
+    "Wikipedia reports that persistent sleep EEG abnormalities during abstinence in alcohol-dependent patients, noted by Feige and colleagues in 2007, are a strong predictor of relapse [1]. Systematic reviews of sleep in substance use disorders have been published, including a 2019 review of sleep and pharmacotherapy for alcohol use disorder and a 2026 meta-analysis of sleep alterations in substance use disorders [3]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found on alcohol as a sleep aid for appearance. Research on alcohol and sleep centers on sleep architecture and on alcohol use disorder [3]."
+   ]
+  }
+ ],
+ "timeline": [],
+ "lore": {
+  "intro": "Alcohol as a sleep aid appears in lifting and fitness forums mostly in comparisons with other sleep aids and in reports of cutting alcohol during training [2][4].",
+  "claims": [
+   {
+    "claim": "Drinking is about as habit-forming as benzos for getting to sleep",
+    "believers": "A T Nation member compared using benzodiazepines to sleep with using alcohol, calling them similarly addictive [2].",
+    "experts": "Wikipedia reports that alcohol lowers sleep quality and can greatly worsen existing sleep problems [1].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Quitting alcohol improves training and recovery",
+    "believers": "A T Nation lifter wrote that training went well after a first week without beer or any alcohol [4].",
+    "experts": "Wikipedia reports that sleep typically normalises into deeper, more consistent rest after quitting alcohol [1].",
+    "evidence": "supported"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Effects of alcohol on the body",
+   "url": "https://en.wikipedia.org/wiki/Effects_of_alcohol_on_the_body",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "SB's Upcoming Blast",
+   "url": "https://t-nation.com/t/sbs-upcoming-blast/261971",
+   "source": "T Nation forum",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 3,
+   "title": "PubMed results: alcohol, sleep quality and polysomnography reviews",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/?term=alcohol+sleep+quality+polysomnography+systematic+review&sort=relevance",
+   "source": "PubMed",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Do Meatheads Dream of Iron Sheep?",
+   "url": "https://t-nation.com/t/do-meatheads-dream-of-iron-sheep/199995",
+   "source": "T Nation forum",
+   "year": 2015,
+   "type": "forum"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/?term=alcohol+sleep+quality+polysomnography+systematic+review&sort=relevance",
+   "title": "PubMed results: alcohol and sleep"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Effects_of_alcohol_on_the_body",
+   "title": "Effects of alcohol on the body"
+  }
+ ]
 }

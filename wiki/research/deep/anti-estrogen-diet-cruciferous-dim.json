@@ -1,101 +1,232 @@
 {
- "name": "Anti-estrogen diet (cruciferous / DIM)",
- "lore": null,
- "refs": [
-  {
-   "id": 1,
-   "title": "Diindolylmethane - Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Diindolylmethane",
-   "source": "Wikipedia",
-   "year": 2025,
-   "type": "encyclopedia"
+  "name": "Anti-estrogen diet (cruciferous / DIM)",
+  "card": {
+    "summary": "Eating broccoli or taking DIM to cut estrogen: popular in T-optimization circles, but no trial in men shows it changes anything visible.",
+    "aka": "DIM, estrogen-blocker diet",
+    "evidence": "unproven",
+    "status": "otc",
+    "risk": "low",
+    "note": "Evidence on cruciferous vegetables is mostly cancer research, not hormone studies in men.",
+    "structure": null,
+    "price": null
   },
-  {
-   "id": 2,
-   "title": "Cruciferous vegetables - Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Cruciferous_vegetables",
-   "source": "Wikipedia",
-   "year": 2025,
-   "type": "encyclopedia"
-  }
- ],
- "webSources": [
-  {
-   "url": "https://en.wikipedia.org/wiki/Diindolylmethane",
-   "title": "Diindolylmethane - Wikipedia"
+  "quick": {
+    "overview": "The anti-estrogen diet means eating more cruciferous vegetables or taking DIM, a compound derived from them, in the belief that it lowers estrogen and favours testosterone.\n\nCruciferous vegetables are studied for cancer and detoxification enzymes. The sources reviewed describe no clinical trial testing the hormone claim.",
+    "mechanism": "DIM forms when indole-3-carbinol from these vegetables is digested. Lab studies show it acts on several cell pathways, but how this translates to estrogen levels in men has not been shown in published trials found here.",
+    "risks": "Pure DIM carries irritation hazard labels; supplement safety trials are not described in the sources. It is sold as a dietary supplement."
   },
-  {
-   "url": "https://en.wikipedia.org/wiki/Cruciferous_vegetables",
-   "title": "Cruciferous vegetables - Wikipedia"
-  }
- ],
- "lead": [
-  "The anti-estrogen diet is a lifestyle practice in which people eat cruciferous vegetables such as broccoli, cabbage, kale and Brussels sprouts, or take supplements of diindolylmethane (DIM), with the stated aim of lowering estrogen activity or shifting estrogen metabolism, usually in order to raise the ratio of testosterone to estrogen. DIM is a compound formed in the body from indole-3-carbinol, which comes from these vegetables, and it is sold as a dietary supplement.[1]",
-  "Research on cruciferous vegetables has centred on glucosinolates and their breakdown products, studied mainly for cancer prevention. An umbrella review reported suggestive evidence of benefit for some cancers and all-cause mortality, and the vegetables are known to induce the liver enzyme CYP1A2.[2] The Wikipedia articles on DIM and cruciferous vegetables do not describe any trial showing that these foods or DIM change estrogen levels or appearance in men."
- ],
- "infobox": [
-  [
-   "Type",
-   "Dietary practice / supplement"
+  "lead": [
+    "The anti-estrogen diet is a practice in which people eat cruciferous vegetables such as broccoli, cabbage, kale and Brussels sprouts, or take supplements of diindolylmethane (DIM) or indole-3-carbinol (I3C), to shift estrogen metabolism and raise the testosterone-to-estrogen balance. Followers pursue it for a leaner, drier, more masculine look: less fat gain in the chest and hips, less puffiness and water retention, and lower odds of gynecomastia (breast tissue growth in men) [1][2][3].",
+    "DIM is formed in the body from indole-3-carbinol, which in turn arises from glucobrassicin, a glucosinolate in cruciferous vegetables; both compounds are sold as dietary supplements [1][3]. Wikipedia states that I3C can shift estrogen metabolism toward less estrogenic metabolites, while describing human studies as limited and inconclusive [3]. Research on the vegetables themselves has concentrated on cancer risk, cardiovascular outcomes and detoxification enzymes rather than on appearance [2][4].",
+    "The idea is discussed on bodybuilding forums such as T Nation, often alongside other estrogen-management supplements, with participants disagreeing about whether DIM does anything and whether lower estrogen is even desirable in men [5][6][7]."
   ],
-  [
-   "Key compound",
-   "3,3'-Diindolylmethane (DIM)"
+  "angle": {
+    "goal": "Leanness and masculine physique",
+    "chain": [
+      "Eat cruciferous vegetables or take DIM / I3C",
+      "Estrogen metabolism shifts toward less estrogenic metabolites (as proposed)",
+      "Lower estrogen activity, aiming for less puffiness and chest or hip fat gain"
+    ],
+    "effect": "claimed",
+    "text": "Practitioners use cruciferous-heavy eating or DIM supplements hoping to keep estrogen activity low so that they look leaner, drier and more masculine, with less chest fullness. The pathway rests on the estrogen-metabolism effects of I3C and DIM."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Dietary practice / supplement"
+    ],
+    [
+      "Key compounds",
+      "3,3'-Diindolylmethane (DIM); indole-3-carbinol (I3C); sulforaphane [1][3]"
+    ],
+    [
+      "Food sources",
+      "Broccoli, Brussels sprouts, cabbage, kale, cauliflower [2]"
+    ],
+    [
+      "Stated aim",
+      "Shift estrogen metabolism; support a higher testosterone-to-estrogen ratio"
+    ],
+    [
+      "Regulatory status",
+      "Sold as dietary supplements"
+    ],
+    [
+      "Reported hazards",
+      "GHS skin and eye irritation labels for the pure substances [1][3]"
+    ]
   ],
-  [
-   "Food sources",
-   "Broccoli, Brussels sprouts, cabbage, kale"
+  "sections": [
+    {
+      "h": "Description",
+      "paras": [
+        "Practitioners either add cruciferous vegetables to meals or take DIM or I3C capsules. DIM arises when indole-3-carbinol from the vegetables is digested, and both are marketed as supplements [1][3]. Some forum users pair the approach with calcium-D-glucarate, a compound found in fruit and cruciferous vegetables that a 2002 review described as inhibiting beta-glucuronidase and as having possible roles in estrogen metabolism [8][7]."
+      ],
+      "subs": []
+    },
+    {
+      "h": "Proposed mechanism",
+      "paras": [
+        "Wikipedia reports that I3C can shift estrogen metabolism toward less estrogenic metabolites, and that cruciferous vegetables induce the liver enzyme CYP1A2 [2][3]. A 1990 paper titled as studying induction of estradiol metabolism by dietary indole-3-carbinol in humans is listed in the further reading of the I3C article, though the findings are not described there [3]. Lab work on DIM includes histone deacetylase inhibition in vitro and a 2003 study of DIM as an androgen antagonist in human prostate cancer cells [1]."
+      ],
+      "subs": []
+    },
+    {
+      "h": "Research on the vegetables",
+      "paras": [
+        "Most human research on cruciferous vegetables addresses disease. An umbrella review reported suggestive evidence of benefit for some cancers and all-cause mortality [2]. A meta-analysis of 95 prospective studies linked higher fruit and vegetable intake to lower risk of coronary heart disease, stroke, total cancer and all-cause mortality [9]. Sulforaphane from broccoli, especially broccoli sprouts, has been reviewed for possible protective properties against several cancers and cardiovascular disease [10]. Trials of broccoli sprout extract in breast cancer patients and of broccoli's effect on gut microbiota exist [11][12]; these did not look at appearance."
+      ],
+      "subs": []
+    },
+    {
+      "h": "Reported risks",
+      "paras": [
+        "Chemical hazard classification for pure DIM and I3C lists skin and eye irritation warnings [1][3]. The I3C article advises against overusing supplements to prevent cancer and suggests checking hormone balance by blood test before regular use, because of its estrogen-related effects [3]. Some forum participants note that estrogen has benefits in men, including effects on bone mass, and that it is not simply a cause of body fat [7]."
+      ],
+      "subs": []
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found testing cruciferous vegetables or DIM for changing estrogen, body composition or appearance in healthy men. Human research described above concerns disease outcomes and the compounds' biochemistry, and the I3C article describes human studies as limited and inconclusive [3]."
+      ],
+      "subs": []
+    }
   ],
-  [
-   "Stated aim",
-   "Lower estrogen activity"
+  "timeline": [],
+  "lore": {
+    "intro": "On T Nation and similar forums, DIM and cruciferous vegetables come up in discussions of controlling estrogen alongside prescription anti-estrogens and other supplements [5][6][7].",
+    "claims": [
+      {
+        "claim": "DIM promotes 'beneficial estrogen metabolism' and counters estrogen dominance",
+        "believers": "A 2011 T Nation poster asking about DIM with calcium-D-glucarate quoted descriptions saying DIM supports healthy hormonal balance and helps counter estrogen dominance [6].",
+        "experts": "Wikipedia describes I3C as able to shift estrogen metabolism toward less estrogenic metabolites but human studies as limited and inconclusive; no trial has tested DIM for estrogen or appearance in healthy men [3].",
+        "evidence": "untested"
+      },
+      {
+        "claim": "The marketing for DIM comes from an interested source",
+        "believers": "A 2001 T Nation reply pointed out that one prominent DIM researcher co-founded a company selling a DIM product and said this made him a poor objective source [5].",
+        "experts": "The Wikipedia DIM article describes the compound as sold as a supplement and notes the absence of confirmed clinical efficacy for its tested claims [1].",
+        "evidence": "untested"
+      },
+      {
+        "claim": "Estrogen is not simply bad for men's physique",
+        "believers": "A 2010 T Nation post argued that estrogen does not just make men fat, and quoted a 2005 article on possible health benefits of estrogen in men, including bone mass [7].",
+        "experts": "Endocrine roles of estrogen in men are not covered in the encyclopedia articles on DIM or cruciferous vegetables, which do not address estrogen levels in men [1][2].",
+        "evidence": "mixed"
+      }
+    ]
+  },
+  "refs": [
+    {
+      "id": 1,
+      "title": "Diindolylmethane",
+      "url": "https://en.wikipedia.org/wiki/Diindolylmethane",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Cruciferous vegetables",
+      "url": "https://en.wikipedia.org/wiki/Cruciferous_vegetables",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "Indole-3-carbinol",
+      "url": "https://en.wikipedia.org/wiki/Indole-3-carbinol",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 4,
+      "title": "Cruciferous Vegetables, Bioactive Metabolites, and Microbiome for Breast Cancer Prevention",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40841315/",
+      "source": "Annual Review of Nutrition",
+      "year": 2025,
+      "type": "review"
+    },
+    {
+      "id": 5,
+      "title": "Bill Roberts, Others - Any Opinions of the following Anti-Estrogen Compounds",
+      "url": "https://t-nation.com/t/bill-roberts-others-any-opinions-of-the-following-anti-estrogen-compounds/5387",
+      "source": "T Nation forum",
+      "year": 2001,
+      "type": "forum"
+    },
+    {
+      "id": 6,
+      "title": "Calcium D-Glucarate and DIM",
+      "url": "https://t-nation.com/t/calcium-d-glucarate-and-dim/159905",
+      "source": "T Nation forum",
+      "year": 2011,
+      "type": "forum"
+    },
+    {
+      "id": 7,
+      "title": "How Do Docs Normally Do It?",
+      "url": "https://t-nation.com/t/how-do-docs-normally-do-it/155864",
+      "source": "T Nation forum",
+      "year": 2010,
+      "type": "forum"
+    },
+    {
+      "id": 8,
+      "title": "Calcium-D-glucarate",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12197785/",
+      "source": "Alternative Medicine Review",
+      "year": 2002,
+      "type": "review"
+    },
+    {
+      "id": 9,
+      "title": "Fruit and vegetable intake and the risk of cardiovascular disease, total cancer and all-cause mortality: a systematic review and dose-response meta-analysis of prospective studies",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28338764/",
+      "source": "International Journal of Epidemiology",
+      "year": 2017,
+      "type": "review"
+    },
+    {
+      "id": 10,
+      "title": "Isothiocyanate from Broccoli, Sulforaphane, and Its Properties",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30372361/",
+      "source": "Journal of Medicinal Food",
+      "year": 2019,
+      "type": "review"
+    },
+    {
+      "id": 11,
+      "title": "Broccoli consumption affects the human gastrointestinal microbiota",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30317146/",
+      "source": "Journal of Nutritional Biochemistry",
+      "year": 2019,
+      "type": "trial"
+    },
+    {
+      "id": 12,
+      "title": "A Presurgical-Window Intervention Trial of Isothiocyanate-Rich Broccoli Sprout Extract in Patients with Breast Cancer",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35475592/",
+      "source": "Molecular Nutrition & Food Research",
+      "year": 2022,
+      "type": "trial"
+    }
   ],
-  [
-   "Regulatory status",
-   "Sold as a dietary supplement"
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Indole-3-carbinol",
+      "title": "Indole-3-carbinol - Wikipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Diindolylmethane",
+      "title": "Diindolylmethane - Wikipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cruciferous_vegetables",
+      "title": "Cruciferous vegetables - Wikipedia"
+    }
   ]
- ],
- "sections": [
-  {
-   "h": "Description",
-   "paras": [
-    "Practitioners add cruciferous vegetables to meals or take DIM capsules. DIM arises when indole-3-carbinol from the vegetables is digested, and the compound is marketed as a supplement.[1]"
-   ]
-  },
-  {
-   "h": "Research and expert views",
-   "paras": [
-    "Laboratory work cited on Wikipedia reports that DIM inhibits certain histone deacetylases in vitro and acts as a weak cannabinoid receptor agonist, and a 2003 study examined DIM as an androgen antagonist in human prostate cancer cells.[1][2] These are cell-based findings and do not establish effects on estrogen in healthy men.",
-    "Cruciferous vegetable research is mostly about cancer and enzyme induction rather than sex hormones; the cruciferous vegetables article does not mention estrogen.[2]"
-   ]
-  },
-  {
-   "h": "Clinical studies",
-   "paras": [
-    "No studies found. Wikipedia notes that, as of 2025, no clinical trials had confirmed DIM's effectiveness for its one tested human-use claim (reducing dental plaque), and the articles describe only laboratory and observational research on the compound and the vegetables.[1][2]"
-   ]
-  },
-  {
-   "h": "Reported risks",
-   "paras": [
-    "The chemical hazard classification for DIM lists skin, eye and respiratory irritation warnings for the pure substance.[1] Wikipedia's articles do not describe human safety trials of DIM supplements."
-   ]
-  }
- ],
- "timeline": [],
- "card": {
-  "summary": "Eating broccoli or taking DIM to cut estrogen: popular in T-optimization circles, but no trial in men shows it changes anything visible.",
-  "aka": "DIM, estrogen-blocker diet",
-  "evidence": "unproven",
-  "status": "otc",
-  "risk": "low",
-  "note": "Evidence on cruciferous vegetables is mostly cancer research, not hormone studies in men.",
-  "structure": null,
-  "price": null
- },
- "quick": {
-  "overview": "The anti-estrogen diet means eating more cruciferous vegetables or taking DIM, a compound derived from them, in the belief that it lowers estrogen and favours testosterone.\n\nCruciferous vegetables are studied for cancer and detoxification enzymes. The sources reviewed describe no clinical trial testing the hormone claim.",
-  "mechanism": "DIM forms when indole-3-carbinol from these vegetables is digested. Lab studies show it acts on several cell pathways, but how this translates to estrogen levels in men has not been shown in published trials found here.",
-  "risks": "Pure DIM carries irritation hazard labels; supplement safety trials are not described in the sources. It is sold as a dietary supplement."
- }
 }

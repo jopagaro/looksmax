@@ -1,67 +1,100 @@
 {
- "name": "ALN-6222",
- "lead": [
-  "ALN-6222 is an investigational RNA interference (RNAi) therapy that targets INHBE, a gene linked to fat distribution, in people with obesity. It is not approved for any use.[1]",
-  "Its only public footprint in the sources reviewed is a Phase 1 trial registration (NCT07624071), which started on 4 June 2026, is recruiting, and plans to enroll 88 participants.[1] No results have been reported."
- ],
- "infobox": [
-  [
-   "Drug class",
-   "RNAi therapeutic (INHBE)"
+  "name": "ALN-6222",
+  "card": {
+    "summary": "An experimental INHBE-targeting RNAi drug that has just entered its first obesity trial; nothing is known about results.",
+    "aka": null,
+    "evidence": "unproven",
+    "status": "research",
+    "outcome": null,
+    "risk": null,
+    "price": null,
+    "note": "Investigational only; no published human data.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "ALN-6222 is an experimental RNA interference drug aimed at the INHBE gene and is in an early Phase 1 trial for obesity.\n\nNo results exist yet.",
+    "mechanism": "RNAi drugs lower production of a chosen protein by silencing its gene; the target here is INHBE.",
+    "risks": "No safety data have been reported. The drug is investigational and not available by prescription."
+  },
+  "lead": [
+    "ALN-6222 is an investigational RNA interference (RNAi) therapy that targets INHBE, a gene linked to fat distribution, in people with obesity [1]. The appearance interest is body composition: a drug that acts on fat distribution and fat mass could, if it works as intended, change where and how much fat a person carries, which shows in waist, midsection and overall leanness. It is not approved for any use.",
+    "Its public footprint is a Phase 1 trial registration (NCT07624071), which started on 4 June 2026, is recruiting, and plans to enroll 88 participants with obesity [1]. No results have been reported. RNAi drugs work by silencing the production of a chosen protein; the first RNAi therapeutic approved by the FDA was patisiran in 2018, and inclisiran (Leqvio) was approved in December 2021 to lower LDL cholesterol [2]."
   ],
-  [
-   "Status",
-   "Investigational (Phase 1)"
+  "angle": {
+    "goal": "Body fat",
+    "chain": [
+      "RNAi silences INHBE gene expression",
+      "Fat distribution and fat storage may change",
+      "Intended payoff: leaner body composition"
+    ],
+    "effect": "claimed",
+    "text": "The idea behind targeting INHBE is to influence how the body stores fat. The drug is at first-in-human testing stage, and any appearance effect is hypothetical until trial results appear."
+  },
+  "infobox": [
+    [
+      "Drug class",
+      "RNAi therapeutic (INHBE)"
+    ],
+    [
+      "Status",
+      "Investigational (Phase 1)"
+    ],
+    [
+      "Condition studied",
+      "Obesity"
+    ],
+    [
+      "Trial start",
+      "4 June 2026 [1]"
+    ],
+    [
+      "Planned enrollment",
+      "88 [1]"
+    ]
   ],
-  [
-   "Condition studied",
-   "Obesity"
+  "sections": [
+    {
+      "h": "Mechanism",
+      "paras": [
+        "ALN-6222 is described as an RNAi therapy directed at INHBE, a gene linked to fat distribution [1]. RNAi drugs of this type reduce the amount of a target protein made by cells, and approved examples such as patisiran and inclisiran show the platform in other conditions [2]."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "One Phase 1 trial in participants with obesity (88 planned) is registered and recruiting, having started on 4 June 2026 [1]. No results have been published."
+      ]
+    }
   ],
-  [
-   "Trial start",
-   "June 2026[1]"
+  "timeline": [
+    {
+      "year": "2026",
+      "event": "Phase 1 trial in obesity begins (June) [1]."
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "A Study to Evaluate ALN-6222 in Participants With Obesity (NCT07624071)",
+      "url": "https://clinicaltrials.gov/study/NCT07624071",
+      "source": "ClinicalTrials.gov",
+      "year": 2026,
+      "type": "trial"
+    },
+    {
+      "id": 2,
+      "title": "Alnylam Pharmaceuticals",
+      "url": "https://en.wikipedia.org/wiki/Alnylam_Pharmaceuticals",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Alnylam_Pharmaceuticals",
+      "title": "Alnylam Pharmaceuticals - Wikipedia"
+    }
   ]
- ],
- "sections": [
-  {
-   "h": "Clinical studies",
-   "paras": [
-    "One Phase 1 trial in participants with obesity (88 planned) is registered and recruiting, having started on 4 June 2026.[1] No results have been identified."
-   ]
-  }
- ],
- "timeline": [
-  {
-   "year": "2026",
-   "event": "Phase 1 trial in obesity begins (June).[1]"
-  }
- ],
- "lore": null,
- "refs": [
-  {
-   "id": 1,
-   "title": "A Study to Evaluate ALN-6222 in Participants With Obesity (NCT07624071)",
-   "url": "https://clinicaltrials.gov/study/NCT07624071",
-   "source": "ClinicalTrials.gov",
-   "year": 2026,
-   "type": "trial"
-  }
- ],
- "webSources": [],
- "card": {
-  "summary": "An experimental INHBE-targeting RNAi drug that has just entered its first obesity trial; nothing is known about results.",
-  "aka": null,
-  "evidence": "unproven",
-  "status": "research",
-  "outcome": null,
-  "risk": null,
-  "price": null,
-  "note": "Investigational only; no published human data.",
-  "structure": null
- },
- "quick": {
-  "overview": "ALN-6222 is an experimental RNA interference drug aimed at the INHBE gene and is in an early Phase 1 trial for obesity.\n\nNo results exist yet.",
-  "mechanism": "RNAi drugs lower production of a chosen protein by silencing its gene; the target here is INHBE.",
-  "risks": "No safety data have been reported. The drug is investigational and not available by prescription."
- }
 }

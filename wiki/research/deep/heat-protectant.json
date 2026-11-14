@@ -1,71 +1,139 @@
 {
-  "name": "Heat protectant",
-  "lead": [
-    "Heat protectants are hair-styling products, sold as sprays, serums and leave-in treatments, that are marketed to reduce thermal damage from blow dryers, flat irons and curling irons.[1] Descriptions say they coat the hair shaft with a film that slows heat transfer and limits moisture loss.[1]",
-    "Many products list protection up to about 450 degrees F (232 degrees C), and some also advertise conditioning or bond-repair ingredients.[1] Industry descriptions state that these products lessen but do not eliminate damage.[1]",
-    "No published clinical studies were found for heat protectants in the sources reviewed, so most statements about how well they work come from product descriptions and stylist recommendations."
+ "name": "Heat protectant",
+ "card": {
+  "summary": "A pre-styling spray or serum sold to cushion hair from hot tools; untested in trials.",
+  "aka": "Thermal protectant, heat shield",
+  "evidence": "unproven",
+  "outcome": "temporary",
+  "price": null,
+  "risk": "low",
+  "note": "Product descriptions say it reduces, not eliminates, heat damage.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Heat protectants are sprays, serums and leave-ins applied before blow-drying or flat-ironing. They are marketed to reduce dryness, breakage and frizz from heat.\n\nNo clinical studies were found; claims rest on product and stylist descriptions.",
+  "mechanism": "They are described as forming a film of silicones or polymers that slows heat reaching the hair, with water and conditioning agents spreading the heat and smoothing the cuticle.",
+  "risks": "No specific harms were identified in the reviewed material. Descriptions state the products reduce but do not eliminate damage, particularly at high temperatures."
+ },
+ "lead": [
+  "Heat protectants are hair-styling products, sold as sprays, serums, creams and leave-in treatments, that are applied before blow-drying, flat-ironing or curling so the hair takes less damage from the heat. The payoff for appearance is hair that stays smoother, shinier and less frizzy or broken after regular heat styling, which keeps sleek, curled or straightened styles looking better for longer [1][3].",
+  "Descriptions say they coat the hair shaft with a film that slows heat transfer and limits moisture loss, and many products list protection up to about 450 degrees F (232 degrees C), with some also adding conditioning or bond-repair ingredients [1]. Wikipedia's article on hair conditioner describes thermal protectants as film-forming polymers that shield hair from blow-dryers and styling irons that can exceed 200 degrees C, and notes that some polymer pretreatments were shown to reduce breakage during combing and limit heat damage to keratin [3].",
+  "Hair irons themselves are described as capable of severe damage with overuse [2]. Product descriptions say heat protectants lessen but do not eliminate that damage [1]. No clinical trials of heat-protectant products were found."
+ ],
+ "angle": {
+  "goal": "Hair health and styling",
+  "chain": [
+   "Film of polymers or silicones coats the hair",
+   "Heat transfer and moisture loss are reduced",
+   "Less breakage, frizz and dullness after styling"
   ],
-  "infobox": [
-    ["Type", "Hair-styling product"],
-    ["Forms", "Sprays, serums, leave-in treatments[1]"],
-    ["Typical claim", "Protection up to about 450 degrees F (232 degrees C)[1]"],
-    ["Common ingredients", "Silicones such as dimethicone, polymers, hydrolyzed proteins, oils[1]"],
-    ["Early product", "KMS Control, 1984 (as described)[1]"]
+  "effect": "direct",
+  "text": "Applied before hot tools, the product is meant to keep hair smoother and shinier through repeated styling. Users reach for it to maintain straightened or curled looks without as much visible dryness and breakage."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Hair-styling product"
   ],
-  "sections": [
-    {
-      "h": "Design and types",
-      "paras": [
-        "Products are applied to hair before heat styling. Descriptions list water-based formulas that absorb heat, silicone or polymer films that act as a physical barrier, and conditioning agents that smooth the cuticle.[1]",
-        "Newer products are described as combining heat shielding with repair claims, using peptides, bond-repairing complexes, plant proteins and oils.[1]"
-      ]
-    },
-    {
-      "h": "How heat damages hair",
-      "paras": [
-        "According to the reference text, heat removes bound water from hair, and heating wet hair rapidly can produce steam that cracks the cuticle. At higher temperatures, roughly above 180 to 200 degrees C, keratin proteins are described as denaturing.[1]"
-      ]
-    },
-    {
-      "h": "History",
-      "paras": [
-        "Heat protectants are described as emerging in the late twentieth century as heat styling tools became common. KMS Control, launched in 1984, is named as one of the first dedicated products.[1]"
-      ]
-    },
-    {
-      "h": "Effectiveness and limitations",
-      "paras": [
-        "Product descriptions say heat protectants reduce breakage, frizz and dullness, and work best alongside lower heat settings.[1] These descriptions come from commercial and AI-generated summaries rather than controlled human trials, and independent measurement of the benefit was not found."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found."
-      ]
-    }
+  [
+   "Forms",
+   "Sprays, serums, creams, leave-in treatments [1]"
   ],
-  "timeline": [
-    { "year": "1984", "event": "KMS Control is launched as an early dedicated heat-styling protection product (as described).[1]" }
+  [
+   "Typical claim",
+   "Protection up to about 450 degrees F (232 degrees C) [1]"
   ],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Heat protectant", "url": "https://grokipedia.com/page/Heat_protectant", "source": "Grokipedia", "year": 2026, "type": "encyclopedia" }
+  [
+   "Common ingredients",
+   "Silicones such as dimethicone, polymers, hydrolyzed proteins, oils [1][3]"
   ],
-  "webSources": [],
-  "card": {
-    "summary": "A pre-styling spray or serum sold to cushion hair from hot tools; untested in trials.",
-    "aka": "Thermal protectant, heat shield",
-    "evidence": "unproven",
-    "outcome": "temporary",
-    "price": null,
-    "risk": "low",
-    "note": "Product descriptions say it reduces, not eliminates, heat damage.",
-    "structure": null
+  [
+   "Early product",
+   "KMS Control, 1984 (as described) [1]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Design and types",
+   "paras": [
+    "Products are applied to hair before heat styling. Descriptions list water-based formulas that absorb heat, silicone or polymer films that act as a physical barrier, and conditioning agents that smooth the cuticle [1]. Newer products are described as combining heat shielding with repair claims, using peptides, bond-repairing complexes, plant proteins and oils [1].",
+    "Wikipedia's hair-conditioner article says leave-in conditioners are applied to wet or dry hair and not rinsed out, usually contain silicones or light polymers, and offer some thermal and UV protection. Silicones such as dimethicone form a thin film that fills cuticle gaps, reduces friction and adds shine, and cationic surfactants smooth the surface of damaged hair [3]."
+   ]
   },
-  "quick": {
-    "overview": "Heat protectants are sprays, serums and leave-ins applied before blow-drying or flat-ironing. They are marketed to reduce dryness, breakage and frizz from heat.\n\nNo clinical studies were found; claims rest on product and stylist descriptions.",
-    "mechanism": "They are described as forming a film of silicones or polymers that slows heat reaching the hair, with water and conditioning agents spreading the heat and smoothing the cuticle.",
-    "risks": "No specific harms were identified in the reviewed material. Descriptions state the products reduce but do not eliminate damage, particularly at high temperatures."
+  {
+   "h": "How heat affects hair",
+   "paras": [
+    "According to one reference, heat removes bound water from hair, and heating wet hair rapidly can produce steam that cracks the cuticle; at higher temperatures, roughly above 180 to 200 degrees C, keratin proteins are described as denaturing [1]. Wikipedia explains that straighteners break the hydrogen bonds in the hair's cortex, which can re-form with moisture, and that bleaching, dyeing, weathering and heat styling strip the cuticle's lipid coating [2][3]."
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Heated styling tools date to the 1870s, when French hairdresser Marcel Grateau introduced heated metal implements, and Isaac K. Shero patented the first hair straightener in 1909; ceramic and electric irons with adjustable heat followed later [2]. Heat protectants are described as emerging in the late twentieth century as heat styling tools became common, with KMS Control, launched in 1984, named as one of the first dedicated products [1]."
+   ]
+  },
+  {
+   "h": "Effectiveness and limitations",
+   "paras": [
+    "Product descriptions say heat protectants reduce breakage, frizz and dullness, and work best alongside lower heat settings [1]. Wikipedia reports that some polymer pretreatments reduced breakage during combing and limited heat damage to keratin [3]. Independent clinical measurement of the benefit of commercial products has not been published."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found."
+   ]
   }
+ ],
+ "timeline": [
+  {
+   "year": "1870s",
+   "event": "Marcel Grateau introduces heated metal styling implements [2]."
+  },
+  {
+   "year": "1909",
+   "event": "Isaac K. Shero patents the first hair straightener [2]."
+  },
+  {
+   "year": "1984",
+   "event": "KMS Control is launched as an early dedicated heat-styling protection product (as described) [1]."
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Heat protectant",
+   "url": "https://grokipedia.com/page/Heat_protectant",
+   "source": "Grokipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Hair iron",
+   "url": "https://en.wikipedia.org/wiki/Hair_iron",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Hair conditioner",
+   "url": "https://en.wikipedia.org/wiki/Hair_conditioner",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Hair_iron",
+   "title": "Hair iron - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Hair_conditioner",
+   "title": "Hair conditioner - Wikipedia"
+  }
+ ]
 }

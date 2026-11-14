@@ -1,8 +1,9 @@
 {
  "name": "Cutting alcohol for smell",
  "lead": [
-  "Cutting alcohol for smell is a lifestyle practice in which people reduce or stop drinking alcohol in the belief that it will make their sweat, breath or general body odour less noticeable.[1] It is discussed in appearance and grooming circles as part of a wider approach to smelling clean.",
-  "Body odour is generally attributed to bacterial activity on skin gland secretions, and encyclopedic sources list food, drink, gut microbiome and genetics among the influences on it.[1] No published trial found in the sources reviewed here has tested alcohol abstinence specifically as a way to change body odour, so the practice rests largely on personal reports."
+  "Cutting alcohol for smell is a lifestyle practice in which people reduce or stop drinking in the hope that their sweat, breath and general body odour become less noticeable. It is usually one step among several grooming changes, alongside hygiene, clothing and diet, and people who try it often report other appearance changes at the same time, such as clearer-looking skin, better sleep and leaner bodies [2][3].",
+  "Body odour is generally attributed to bacteria acting on skin gland secretions, and encyclopedic sources list food, drink, gut microbiome and genetics among the influences [1]. Alcohol is partly excreted unchanged: Wikipedia's article on ethanol metabolism says about 5 to 10 percent of ingested ethanol leaves unchanged in urine, breath and sweat [4]. No published trial has tested alcohol abstinence specifically as a way to change body odour, so the practice rests largely on personal reports.",
+  "The wider appearance case rests on documented effects of alcohol on the body. Wikipedia's health-effects article notes that acetaldehyde build-up can cause facial flushing or blotches, that alcohol suppresses vasopressin and contributes to dehydration, that it disrupts REM sleep, and that stopping drinking can restore hydration linked to skin appearance and cut calories, which may reduce body fat in overweight people [2]."
  ],
  "infobox": [
   [
@@ -15,24 +16,34 @@
   ],
   [
    "Goal",
-   "Less noticeable sweat or breath odour"
+   "Less noticeable sweat or breath odour; clearer, leaner look"
+  ],
+  [
+   "Ethanol excreted unchanged",
+   "About 5 to 10 percent, in urine, breath and sweat [4]"
   ],
   [
    "Evidence",
-   "No dedicated studies found"
+   "No dedicated studies of abstinence and body odour found"
   ]
  ],
  "sections": [
   {
    "h": "Description",
    "paras": [
-    "Practitioners report cutting back on alcohol as one change among several aimed at body odour, alongside hygiene, clothing and diet changes. The practice is informal and has no standard protocol."
+    "Practitioners report cutting back on alcohol as one change among several aimed at body odour, alongside hygiene, clothing and diet changes. The practice is informal and has no standard protocol; some stop entirely and others reduce intake."
    ]
   },
   {
    "h": "Background on body odour",
    "paras": [
     "Wikipedia describes the major source of body odour as bacteria acting on apocrine and other skin gland secretions, with Corynebacterium and Staphylococcus species producing odorous compounds.[1] The same article names food, drink, gut microbiome and genetics as factors, and notes that a variant in the ABCC11 gene strongly alters odour in some populations.[1] The article does not discuss alcohol specifically."
+   ]
+  },
+  {
+   "h": "Alcohol and appearance",
+   "paras": [
+    "Beyond smell, the health-effects literature summarised on Wikipedia links alcohol with several visible effects. Acetaldehyde accumulation can make the face or body flush red or blotchy, alcohol-influenced sleep is often less restorative, and alcoholic drinks are calorie-dense with low satiety per calorie [2]. Wikipedia reports that quitting can improve hydration, which is linked to skin appearance, and in overweight people may reduce body fat [2]. Clinicians generally advise people who drink heavily to seek medical guidance before stopping suddenly [2]."
    ]
   },
   {
@@ -43,17 +54,7 @@
   }
  ],
  "timeline": [],
- "lore": {
-  "intro": "Community discussion of alcohol and smell is mostly anecdotal and is not tied to any source reviewed for this entry.",
-  "claims": [
-   {
-    "claim": "Drinking alcohol makes sweat smell worse, so quitting improves body odour.",
-    "believers": "Proponents say they or others notice a stronger or different smell after drinking and that it lessens after stopping.",
-    "experts": "General references name drink as one influence on body odour but do not quantify alcohol's effect; no dedicated study was found.[1]",
-    "evidence": "untested"
-   }
-  ]
- },
+ "lore": null,
  "card": {
   "summary": "Dropping alcohol to smell better: a common anecdote with no dedicated studies behind it.",
   "aka": null,
@@ -74,12 +75,58 @@
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Health effects of alcohol",
+   "url": "https://en.wikipedia.org/wiki/Health_effects_of_alcohol",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Alcohol and health",
+   "url": "https://en.wikipedia.org/wiki/Alcohol_and_health",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Ethanol metabolism",
+   "url": "https://en.wikipedia.org/wiki/Ethanol_metabolism",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Body_odor",
    "title": "Body odor - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Health_effects_of_alcohol",
+   "title": "Health effects of alcohol"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Alcohol_and_health",
+   "title": "Alcohol and health"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Ethanol_metabolism",
+   "title": "Ethanol metabolism"
   }
- ]
+ ],
+ "angle": {
+  "goal": "Smell and skin",
+  "chain": [
+   "Less alcohol is excreted through breath and sweat",
+   "Better hydration, sleep and fewer calories",
+   "Fresher-smelling, clearer-looking, leaner appearance"
+  ],
+  "effect": "claimed",
+  "text": "People cut alcohol hoping to smell fresher and to look better overall: less flushing and puffiness, better sleep and fewer empty calories. The odour effect itself has not been tested; the skin, sleep and calorie effects are described in general health references."
+ }
 }

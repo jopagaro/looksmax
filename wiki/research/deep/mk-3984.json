@@ -1,72 +1,119 @@
 {
- "name": "MK-3984",
- "lead": [
-  "MK-3984 is an experimental selective androgen receptor modulator (SARM) targeting muscle and bone tissue.[2] Very little published information exists: it is mentioned in the SARM literature [1] and has been the subject of a 2026 doping-control study of its metabolism in zebrafish.[2]",
-  "No clinical trials or human data were found, and it is not approved for any use."
- ],
- "infobox": [
-  [
-   "Drug class",
-   "Selective androgen receptor modulator"
+  "name": "MK-3984",
+  "card": {
+    "summary": "Obscure SARM candidate with no human data; known mainly from a doping-control metabolite study.",
+    "aka": null,
+    "evidence": "unproven",
+    "status": "research",
+    "outcome": null,
+    "risk": null,
+    "price": null,
+    "note": "No clinical data found.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "MK-3984 is a little-documented SARM candidate aimed at muscle and bone. The only dedicated study found maps its metabolism in zebrafish for doping control.\n\nNo human trials were found.",
+    "mechanism": "As a SARM it is designed to act on androgen receptors in muscle and bone, though no mechanism data specific to it were found.",
+    "risks": "Human safety is unknown, and it is not approved for any use."
+  },
+  "lead": [
+    "MK-3984 is an experimental selective androgen receptor modulator (SARM) developed by Merck, a benzylpropionamide candidate for age-related muscle loss (sarcopenia) that reached Phase I. It was designed to act on androgen receptors in muscle and bone, the same goal as other SARMs: more lean mass and stronger bone with less effect on tissues such as the prostate.[1][3]",
+    "For appearance, the interest in SARMs generally is muscle: SARMs as a class increase muscle mass and improve physical function in healthy and diseased individuals according to a clinical review, and bodybuilders and athletes use them for muscle gains.[1][3] Published information specific to MK-3984 is very limited, and it is not approved for any use.",
+    "The main dedicated study is a 2026 doping-control investigation that mapped the compound's metabolism in zebrafish, identifying 82 metabolites and 12 metabolic pathways.[2] No human trial results were found."
   ],
-  [
-   "Development stage",
-   "Preclinical or unknown"
+  "angle": {
+    "goal": "Muscle",
+    "chain": [
+      "Selective activation of androgen receptors in muscle and bone",
+      "Potential increase in lean mass and strength",
+      "Fuller, more muscular physique (as designed; not shown for MK-3984)"
+    ],
+    "effect": "claimed",
+    "text": "As a SARM, MK-3984 was designed to build muscle and bone, which is the basis of SARM interest in physique improvement. No data on its muscle effects in people were found."
+  },
+  "infobox": [
+    [
+      "Drug class",
+      "Selective androgen receptor modulator (benzylpropionamide)[3]"
+    ],
+    [
+      "Developer",
+      "Merck[3]"
+    ],
+    [
+      "Intended use",
+      "Sarcopenia (age-related muscle loss)[3]"
+    ],
+    [
+      "Development stage",
+      "Phase I reached (per Wikipedia)[3]"
+    ],
+    [
+      "Legal status",
+      "Not approved; SARMs banned by WADA since 2008[3]"
+    ]
   ],
-  [
-   "Legal status",
-   "Not approved for any use"
+  "sections": [
+    {
+      "h": "Background",
+      "paras": [
+        "SARMs are a drug class meant to selectively activate the androgen receptor in specific tissues, with weaker effects on reproductive tissues such as the prostate. Research has focused on muscle wasting, osteoporosis and cancer cachexia.[1][3] Wikipedia lists MK-3984 in its table of SARM candidates as a Merck benzylpropionamide for sarcopenia that reached Phase I.[3]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found in humans. A review of SARMs for cancer-related muscle wasting discusses the class, describing SARMs as increasing muscle mass and improving physical function in healthy and diseased individuals.[1] A laboratory study mapped MK-3984's metabolites in zebrafish, identifying 82 metabolites and 12 metabolic pathways, with reductive defluorination dominating phase I metabolism and cysteinylation and sulfation prominent in phase II.[2]"
+      ]
+    },
+    {
+      "h": "Society and culture",
+      "paras": [
+        "The metabolite study was aimed at doping control, indicating interest in detecting the compound.[2] SARMs as a class were banned by the World Anti-Doping Agency in 2008, are sold mostly on internet gray markets as research chemicals, and many such products have been found to be mislabeled.[3] Reported adverse effects for SARMs generally include elevated liver enzymes, reduced HDL cholesterol, drug-induced liver injury case reports and suppression of the hormonal axis; as of 2023 neither the FDA nor the EMA had approved any SARM.[3] Specific use of MK-3984 in looksmaxxing communities was not found."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2008",
+      "event": "WADA bans SARMs.[3]"
+    },
+    {
+      "year": "2026",
+      "event": "Zebrafish metabolism study of MK-3984 published for doping control.[2]"
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Selective androgen receptor modulators for the prevention and treatment of muscle wasting associated with cancer",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24189892/",
+      "source": "Current Opinion in Supportive and Palliative Care",
+      "year": 2013,
+      "type": "review"
+    },
+    {
+      "id": 2,
+      "title": "Metabolic profiles of MK-3984 (SARM) in zebrafish using UPLC-QE-HF-MS for doping control",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42366797/",
+      "source": "The Analyst",
+      "year": 2026,
+      "type": "study"
+    },
+    {
+      "id": 3,
+      "title": "Selective androgen receptor modulator",
+      "url": "https://en.wikipedia.org/wiki/Selective_androgen_receptor_modulator",
+      "source": "Wikipedia",
+      "year": null,
+      "type": "encyclopedia"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Selective_androgen_receptor_modulator",
+      "title": "Selective androgen receptor modulator - Wikipedia"
+    }
   ]
- ],
- "sections": [
-  {
-   "h": "Clinical studies",
-   "paras": [
-    "No studies found. A review of SARMs for cancer-related muscle wasting discusses the drug class, and a laboratory study mapped the compound's metabolites in zebrafish, identifying 82 metabolites and 12 metabolic pathways, with reductive defluorination dominating phase I metabolism.[1][2]"
-   ]
-  },
-  {
-   "h": "Society and culture",
-   "paras": [
-    "The metabolite study was aimed at doping control, indicating interest in detecting the compound.[2] The sources reviewed do not document use of MK-3984 in looksmaxxing communities."
-   ]
-  }
- ],
- "timeline": [],
- "lore": null,
- "refs": [
-  {
-   "id": 1,
-   "title": "Selective androgen receptor modulators for the prevention and treatment of muscle wasting associated with cancer",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/24189892/",
-   "source": "Current Opinion in Supportive and Palliative Care",
-   "year": 2013,
-   "type": "review"
-  },
-  {
-   "id": 2,
-   "title": "Metabolic profiles of MK-3984 (SARM) in zebrafish using UPLC-QE-HF-MS for doping control",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42366797/",
-   "source": "The Analyst",
-   "year": 2026,
-   "type": "study"
-  }
- ],
- "webSources": [],
- "card": {
-  "summary": "Obscure SARM candidate with no human data; known mainly from a doping-control metabolite study.",
-  "aka": null,
-  "evidence": "unproven",
-  "status": "research",
-  "outcome": null,
-  "risk": null,
-  "price": null,
-  "note": "No clinical data found.",
-  "structure": null
- },
- "quick": {
-  "overview": "MK-3984 is a little-documented SARM candidate aimed at muscle and bone. The only dedicated study found maps its metabolism in zebrafish for doping control.\n\nNo human trials were found.",
-  "mechanism": "As a SARM it is designed to act on androgen receptors in muscle and bone, though no mechanism data specific to it were found.",
-  "risks": "Human safety is unknown, and it is not approved for any use."
- }
 }

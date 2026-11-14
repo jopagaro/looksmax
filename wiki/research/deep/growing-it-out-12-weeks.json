@@ -1,9 +1,20 @@
 {
  "name": "Growing it out 12 weeks",
  "lead": [
-  "\"Growing it out 12 weeks\" is a patience protocol discussed in beard-growing communities: leaving facial hair untrimmed for roughly three months before judging its density and pattern.",
-  "Beard growth begins at puberty and is linked to dihydrotestosterone, with growth rate partly genetic, according to Wikipedia.[1] No published study was found that tests a 12-week benchmark specifically."
+  "'Growing it out 12 weeks' is a patience rule used by people trying to grow a fuller beard: leave facial hair untrimmed for roughly three months before judging its density and pattern. The looks payoff is a more accurate read on what the beard can become, since early weeks often show patchiness that later fills in, and a beard can add jaw and face definition once it is established.[2][3]",
+  "Healthline's medically reviewed guide says a full beard typically takes about two to four months, with facial hair growing roughly 0.3 to 0.5 mm a day, and describes the first week as showing general growth rate, the following two weeks as revealing patchiness and about five weeks as showing significant growth.[2] After two months it says growth slows, and the grower can decide whether to commit to a full beard.[2]",
+  "Beard growth is linked to androgens and partly genetic, according to Wikipedia, and men usually begin developing facial hair in late puberty, with a full beard often taking until 16 or later and some men growing only sparse hair.[1][4] No published study tests a 12-week benchmark specifically."
  ],
+ "angle": {
+  "goal": "Facial hair",
+  "chain": [
+   "Leave the beard untrimmed for about three months",
+   "Slower-activating follicles catch up and patches fill in",
+   "A clearer picture of density and a fuller shape to style"
+  ],
+  "effect": "indirect",
+  "text": "Growers wait out the awkward early weeks so they can judge density and decide on a shape. Different follicles start at different times, so early patchiness is not always the final result."
+ },
  "infobox": [
   [
    "Type",
@@ -11,45 +22,47 @@
   ],
   [
    "Duration",
-   "About 12 weeks (community convention)"
+   "About 12 weeks (community convention); full beard 2 to 4 months per Healthline[2]"
   ],
   [
-   "Evidence status",
-   "Untested"
+   "Typical growth rate",
+   "About 0.3 to 0.5 mm per day[2]"
+  ],
+  [
+   "Studies of the 12-week rule",
+   "None found"
   ]
  ],
  "sections": [
   {
    "h": "Description",
    "paras": [
-    "Practitioners say that early patchiness may fill in with time, and that evaluating a beard before several weeks have passed can give a misleading picture. Some advocate refraining from trimming during the period."
+    "Practitioners say that early patchiness may fill in with time, and that evaluating a beard before several weeks have passed can give a misleading picture. Some refrain from trimming during the period.[2] Healthline notes that patchiness is common, particularly on the cheeks, and that letting nearby hair grow longer can help mask sparse areas.[2]",
+    "Henry Ford Health dermatologist Anna Axelson notes that the early growth phase can bring itchiness, bumps and redness, and suggests waiting about a month before trimming for a smoother look.[5]"
    ]
   },
   {
    "h": "Background on beard growth",
    "paras": [
-    "Beard growth is described as driven by androgens, mainly DHT, which continue to influence follicles after puberty, and growth rate is partly genetic.[1] Styles recognised include the full beard, goatee, Van Dyke and stubble.[1]"
+    "Beard growth is described as driven by androgens, mainly DHT, which continue to influence follicles after puberty, and growth rate is partly genetic.[1] Styles recognised include the full beard, goatee, Van Dyke and stubble.[1]",
+    "Wikipedia's facial hair article describes growth as beginning at the corners of the upper lip, then filling the moustache, upper cheeks, below the lower lip and finally chin and lower face, with the order varying with genetic heritage and environment.[4] Healthline says many men do not reach full growth until around 30, and that ethnicity, family hair patterns and low testosterone influence results.[2]"
+   ]
+  },
+  {
+   "h": "When growth stays thin",
+   "paras": [
+    "Healthline suggests that if little facial hair is visible by about five weeks, a full beard may not be likely, and recommends consulting a doctor or dermatologist for concerns about slow or patchy growth, noting that conditions such as alopecia areata, alopecia barbae and prolactinoma can affect facial hair.[2] A diet with vitamins A, B and C, 7 to 8 hours of sleep and stress reduction may support growth, it adds, though results vary.[2]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found. Related research on beard biology is limited to general androgen physiology."
+    "No studies found on a 12-week growth period. Research on beard biology concerns androgen physiology and hair disorders in general."
    ]
   }
  ],
  "timeline": [],
- "lore": {
-  "intro": "The protocol appears in community advice as a way to avoid judging a beard too early.",
-  "claims": [
-   {
-    "claim": "Twelve weeks of growth shows what a beard will really become.",
-    "believers": "Proponents say patches often fill in over time and that trimming early prevents this.",
-    "experts": "No published studies have tested a 12-week threshold; sources describe growth as androgen-driven and partly genetic.[1]",
-    "evidence": "untested"
-   }
-  ]
- },
+ "lore": null,
  "refs": [
   {
    "id": 1,
@@ -58,12 +71,56 @@
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "How to Grow a Beard",
+   "url": "https://www.healthline.com/health/how-to-grow-a-beard",
+   "source": "Healthline",
+   "year": 2020,
+   "type": "news"
+  },
+  {
+   "id": 3,
+   "title": "Beard - Wikipedia (styles)",
+   "url": "https://en.wikipedia.org/wiki/Beard",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Facial hair - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Facial_hair",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 5,
+   "title": "Growing and Maintaining a Beard: Your How-To Guide",
+   "url": "https://www.henryford.com/Blog/2018/11/Growing-Maintaining-Beard-Your-How-To-Guide",
+   "source": "Henry Ford Health",
+   "year": 2018,
+   "type": "news"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Beard",
    "title": "Beard - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Facial_hair",
+   "title": "Facial hair - Wikipedia"
+  },
+  {
+   "url": "https://www.healthline.com/health/how-to-grow-a-beard",
+   "title": "How to Grow a Beard - Healthline"
+  },
+  {
+   "url": "https://www.henryford.com/Blog/2018/11/Growing-Maintaining-Beard-Your-How-To-Guide",
+   "title": "Growing and Maintaining a Beard - Henry Ford Health"
   }
  ],
  "card": {

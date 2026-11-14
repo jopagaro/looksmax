@@ -1,9 +1,32 @@
 {
  "name": "Chlormadinone acetate pill",
+ "card": {
+  "summary": "A European antiandrogenic progestin in combined birth-control pills, used for acne in some countries with little published acne-specific trial data found.",
+  "aka": "Belara, Lutéran",
+  "evidence": "limited",
+  "status": "rx",
+  "note": "Prescription-only; not sold in the US, UK, Canada or Australia.",
+  "structure": "Chlormadinone acetate"
+ },
+ "quick": {
+  "overview": "Chlormadinone acetate is a progestin with antiandrogen activity, combined with ethinylestradiol in pills such as Belara. It is used for contraception and for androgen-related skin conditions in countries where it is sold.\n\nNo acne-specific trials turned up in the sources reviewed; registered studies concern weight change and PCOS.",
+  "mechanism": "It blocks androgen receptors (about 30 to 40 percent of cyproterone acetate affinity) and suppresses LH and FSH, lowering testosterone.",
+  "risks": "Menstrual irregularity, headache, nausea and breast tenderness; contraindicated in pregnancy. Prescription only and unavailable in several countries including the US."
+ },
  "lead": [
-  "Chlormadinone acetate (CMA) is a synthetic progestin with antiandrogenic activity, used in combined oral contraceptives with ethinylestradiol such as Belara, which is sold in Germany and Brazil.[1] Because it blocks androgen receptors and lowers LH and FSH, such pills are used in some countries for androgen-related skin conditions including acne and hirsutism.[1]",
-  "Published trial information specific to acne is limited in the material reviewed. Registered studies compare body-weight change on Belara versus a drospirenone pill and examine hormonal contraceptives in polycystic ovary syndrome, but neither is an acne trial.[2][3]"
+  "Chlormadinone acetate (CMA) is a synthetic progestin with antiandrogenic activity, used with ethinylestradiol in combined oral contraceptives such as Belara, sold in Germany and Brazil among other countries.[1] Because it blocks androgen receptors and lowers LH and FSH, such pills are used in some countries to improve androgen-dependent skin and hair symptoms in women, including acne and hirsutism, which is why they appear in discussion of clearer skin.[1]",
+  "Wikipedia's drug summary states that combined pills containing CMA can reduce androgen-dependent skin and hair symptoms, and that CMA is marketed in much of Europe, Latin America and parts of Asia but not in the US, UK, Canada or Australia.[1] Published trial information specific to acne is limited: registered studies compare body-weight change on Belara versus a drospirenone pill and examine hormonal contraceptives in polycystic ovary syndrome, but neither is an acne trial.[2][3]"
  ],
+ "angle": {
+  "goal": "Clearer skin (androgen-related acne)",
+  "chain": [
+   "CMA blocks androgen receptors and lowers LH and FSH",
+   "Lower androgen activity in skin and hair follicles",
+   "Fewer androgen-driven acne lesions and less hirsutism"
+  ],
+  "effect": "indirect",
+  "text": "In countries where it is sold, a CMA-containing combined pill is prescribed for contraception and for androgen-related acne and excess hair growth in women. The skin benefit comes from reduced androgen signalling rather than a direct skin action."
+ },
  "infobox": [
   [
    "Drug class",
@@ -19,7 +42,11 @@
   ],
   [
    "Trade names",
-   "Belara, Lutéran, Prostal"
+   "Belara, Gynorelle, Luteran, Prostal"
+  ],
+  [
+   "Elimination half-life",
+   "About 25 to 89 hours"
   ],
   [
    "Legal status",
@@ -30,25 +57,25 @@
   {
    "h": "Uses",
    "paras": [
-    "Combined with ethinylestradiol, CMA is used for contraception and is also described as used for acne, hirsutism and other androgen-dependent conditions.[1] It is widely available in combined pills across much of Europe, Latin America and parts of Asia, but is not marketed in the US, UK, Canada or Australia.[1]"
+    "Combined with ethinylestradiol, CMA is used for contraception and is also described as used for acne, hirsutism and other androgen-dependent conditions.[1] Separately from the pill, CMA has been used alone in gynaecological disorders, menopausal hot flashes and, in men, prostate conditions.[1] It is sold alone in France, Germany, Japan, Mexico and South Korea.[1]"
    ]
   },
   {
    "h": "Pharmacology",
    "paras": [
-    "CMA is an androgen receptor antagonist with about 30 to 40 percent of the receptor affinity of cyproterone acetate, and acts as a weak partial agonist. It also suppresses LH and FSH, lowering testosterone and estradiol.[1]"
+    "CMA is a progesterone receptor agonist and an androgen receptor antagonist with about 30 to 40 percent of the receptor affinity of cyproterone acetate, and acts as a weak partial agonist. It also suppresses LH and FSH, lowering testosterone and estradiol.[1] Oral bioavailability is reported as about 100 percent, with 96.6 to 99.4 percent protein binding.[1]"
    ]
   },
   {
    "h": "History",
    "paras": [
-    "CMA was discovered in 1959 and introduced medically in 1965. Eli Lilly marketed it in the US until 1971, and it was withdrawn in several countries around 1970 after mammary tumors appeared in beagle dogs at high doses; later research found no comparable risk in humans.[1]"
+    "CMA was discovered in 1959 and introduced medically in 1965. It was withdrawn in the US and UK around 1970 after mammary tumors appeared in beagle dogs at high doses; later research found no comparable risk in humans.[1]"
    ]
   },
   {
    "h": "Adverse effects",
    "paras": [
-    "At low dose with ethinylestradiol, reported effects include menstrual irregularities, headache, nausea, breast tenderness and vaginal discharge. It is contraindicated in pregnancy, and in menopausal therapy combined with estrogen it has been linked to increased breast cancer risk.[1]"
+    "With low-dose combined pills, reported effects include menstrual irregularities, headache (37 percent), nausea (23 percent) and breast tenderness (22 percent).[1] Wikipedia reports no liver function abnormalities in women taking combined pills containing CMA, one hepatocellular carcinoma case report, and that CMA does not increase the risk of venous thromboembolism.[1] It is contraindicated in pregnancy, and in menopausal therapy combined with estrogen it has been linked to increased breast cancer risk.[1]"
    ]
   },
   {
@@ -69,7 +96,7 @@
   },
   {
    "year": "1970",
-   "event": "Withdrawn in several countries after dog mammary tumor findings.[1]"
+   "event": "Withdrawn in the US and UK after dog mammary tumor findings.[1]"
   }
  ],
  "lore": null,
@@ -102,20 +129,7 @@
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Chlormadinone_acetate",
-   "title": "Chlormadinone acetate - Wikipedia"
+   "title": "Chlormadinone acetate (Wikipedia)"
   }
- ],
- "card": {
-  "summary": "A European antiandrogenic progestin in combined birth-control pills, used for acne in some countries with little published acne-specific trial data found.",
-  "aka": "Belara, Lutéran",
-  "evidence": "limited",
-  "status": "rx",
-  "note": "Prescription-only; not sold in the US, UK, Canada or Australia.",
-  "structure": "Chlormadinone acetate"
- },
- "quick": {
-  "overview": "Chlormadinone acetate is a progestin with antiandrogen activity, combined with ethinylestradiol in pills such as Belara. It is used for contraception and for androgen-related skin conditions in countries where it is sold.\n\nNo acne-specific trials turned up in the sources reviewed; registered studies concern weight change and PCOS.",
-  "mechanism": "It blocks androgen receptors (about 30 to 40 percent of cyproterone acetate affinity) and suppresses LH and FSH, lowering testosterone.",
-  "risks": "Menstrual irregularity, headache, nausea and breast tenderness; contraindicated in pregnancy. Prescription only and unavailable in several countries including the US."
- }
+ ]
 }

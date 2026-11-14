@@ -1,12 +1,99 @@
 {
-"name":"RM-718",
-"lead":["RM-718 is an investigational melanocortin 4 receptor (MC4R) agonist developed by Rhythm, described as a weekly-dosed compound. [1] A phase 1/2 study of RM-718 in healthy subjects and in patients with MC4R pathway impairment, including hypothalamic obesity and Prader-Willi syndrome, began in March 2024 with 111 participants. [1]","It is not approved. No published results were located, and the only source is the trial registration."],
-"infobox":[["Drug class","MC4R agonist"],["Developer","Rhythm"],["Status","Investigational (phase 1/2)"]],
-"sections":[{"h":"Clinical studies","paras":["NCT06239116 is a phase 1/2 study (n=111, active not recruiting) in healthy subjects and patients with hypothalamic obesity or Prader-Willi syndrome. [1] No published results were found, and no studies were found for cosmetic use."]}],
-"timeline":[{"year":"2024","event":"Phase 1/2 study begins. [1]"}],
-"lore":null,
-"refs":[{"id":1,"title":"A study of RM-718 in healthy subjects and patients with MC4R pathway impairment (NCT06239116)","url":"https://clinicaltrials.gov/study/NCT06239116","source":"ClinicalTrials.gov","year":2024,"type":"trial"}],
-"webSources":[],
-"card":{"summary":"Experimental weekly MC4R agonist in early trials for rare obesity syndromes; no results or cosmetic data.","aka":null,"evidence":"unproven","status":"research","risk":null,"price":null,"note":"Investigational only; the only available source is a trial listing.","structure":null},
-"quick":{"overview":"RM-718 is an experimental drug from Rhythm that activates the MC4R pathway of appetite regulation, designed for weekly dosing.\n\nIt is in an early phase 1/2 study in healthy volunteers and people with hypothalamic obesity or Prader-Willi syndrome.","mechanism":"It is an MC4R agonist.","risks":"Not approved; no published safety results were located."}
+  "name": "RM-718",
+  "card": {
+    "summary": "Experimental weekly MC4R agonist in early trials for rare obesity syndromes; no results or cosmetic data.",
+    "aka": null,
+    "evidence": "unproven",
+    "status": "research",
+    "risk": null,
+    "price": null,
+    "note": "Investigational only; the only available source is a trial listing.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "RM-718 is an experimental drug from Rhythm that activates the MC4R pathway of appetite regulation, designed for weekly dosing.\n\nIt is in an early phase 1/2 study in healthy volunteers and people with hypothalamic obesity or Prader-Willi syndrome.",
+    "mechanism": "It is an MC4R agonist.",
+    "risks": "Not approved; no published safety results were located."
+  },
+  "lead": [
+    "RM-718 is an investigational melanocortin 4 receptor (MC4R) agonist developed by Rhythm and described as a weekly-dosed compound.[1] The MC4R pathway regulates appetite and energy balance, so drugs that activate it are studied for reducing body weight and body fat in people whose pathway is impaired, such as in hypothalamic obesity and Prader-Willi syndrome.[1][2]",
+    "A phase 1/2 study of RM-718 in healthy subjects and in patients with MC4R pathway impairment began in March 2024 with 111 participants.[1] It is not approved, and no published results were located."
+  ],
+  "angle": {
+    "goal": "Body fat",
+    "chain": [
+      "RM-718 activates the MC4R pathway",
+      "Appetite and energy balance are regulated through that pathway",
+      "Body weight and fat could fall in people with impaired signalling"
+    ],
+    "effect": "indirect",
+    "text": "RM-718 is being studied for weight reduction in rare obesity syndromes where MC4R signalling is impaired. Its relevance to ordinary fat loss or physique has not been studied."
+  },
+  "infobox": [
+    [
+      "Drug class",
+      "MC4R agonist"
+    ],
+    [
+      "Developer",
+      "Rhythm"
+    ],
+    [
+      "Status",
+      "Investigational (phase 1/2)"
+    ],
+    [
+      "Dosing interval",
+      "Weekly (as described by sponsor)[1]"
+    ],
+    [
+      "Related approved drug",
+      "Setmelanotide (MC4R agonist)[2]"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Pharmacology",
+      "paras": [
+        "MC4R is a G protein-coupled receptor that helps regulate energy homeostasis, appetite and sexual function, and its natural ligands derive from proopiomelanocortin. Setmelanotide, another MC4R agonist, is FDA-approved for chronic weight management in people with certain POMC pathway variants, and MC4R agonists have attracted interest for obesity and insulin resistance more broadly.[2]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "NCT06239116 is a phase 1/2 study (n=111, active not recruiting, started 5 March 2024) in healthy subjects and patients with hypothalamic obesity or Prader-Willi syndrome.[1] No published results were found, and no studies were found for cosmetic use."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2024",
+      "event": "Phase 1/2 study begins on 5 March.[1]"
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "A study of RM-718 in healthy subjects and patients with MC4R pathway impairment (NCT06239116)",
+      "url": "https://clinicaltrials.gov/study/NCT06239116",
+      "source": "ClinicalTrials.gov",
+      "year": 2024,
+      "type": "trial"
+    },
+    {
+      "id": 2,
+      "title": "Melanocortin 4 receptor",
+      "url": "https://en.wikipedia.org/wiki/Melanocortin_4_receptor",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Melanocortin_4_receptor",
+      "title": "Melanocortin 4 receptor (Wikipedia)"
+    }
+  ]
 }

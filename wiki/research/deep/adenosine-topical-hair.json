@@ -1,14 +1,157 @@
 {
-"name": "Adenosine (topical hair)",
-"lead":["Adenosine is a naturally occurring nucleoside used as a cosmetic active in hair-growth products. Laboratory work reports that it acts on dermal papilla cells, the follicle's signalling center. [1][2]","A 2012 study in cultured mouse whisker follicles found that adenosine stimulated dermal papilla growth and lengthened the anagen (growth) phase by raising cysteine levels through fibroblast growth factors 2 and 7. [1] A 2024 paper examined an adenosine complex's effects on gene expression in dermal papilla cells and identified the androgen receptor pathway as a candidate target, distinct from minoxidil's mechanism. [2]"],
-"infobox":[["Type","Nucleoside; cosmetic active"],["Routes","Topical (scalp)"],["Proposed mechanism","FGF-mediated dermal papilla stimulation; AR pathway inhibition [1][2]"],["Status","Cosmetic ingredient"]],
-"sections":[
-{"h":"Mechanism of action","paras":["In the mouse follicle culture, adenosine increased the expression of FGF-2 and FGF-7 in dermal papilla and extended anagen. [1] The 2024 paper reports that adenosine complexes inhibit androgen receptor signalling, comparing gene-expression changes against minoxidil. [2]"]},
-{"h":"Clinical studies","paras":["Evidence in the sources reviewed is mainly laboratory based. The 2024 paper is titled as concerning male and female patterned hair loss, but no randomized controlled trial of topical adenosine was available to summarise here. [2]"]}],
-"timeline":[{"year":"2012","event":"Mouse vibrissae organ-culture study on adenosine and dermal papilla published. [1]"},{"year":"2024","event":"Study of adenosine complex and AR signalling published. [2]"}],
-"lore":null,
-"refs":[{"id":1,"title":"Adenosine stimulates growth of dermal papilla and lengthens the anagen phase by increasing the cysteine level via FGF 2 and 7 in an organ culture of mouse vibrissae hair follicles","url":"https://pubmed.ncbi.nlm.nih.gov/22020741/","source":"Int J Mol Med","year":2012,"type":"study"},{"id":2,"title":"Hair Thickness Growth Effect of Adenosine Complex in Male-/Female-Patterned Hair Loss via Inhibition of Androgen Receptor Signaling","url":"https://pubmed.ncbi.nlm.nih.gov/38928239/","source":"Int J Mol Sci","year":2024,"type":"study"}],
-"webSources":[],
-"card":{"summary":"A cosmetic hair-growth active with plausible lab data on dermal papilla cells; human evidence not established here.","aka":null,"evidence":"limited","status":"otc","note":"Evidence mostly in vitro.","structure":"Adenosine"},
-"quick":{"overview":"Topical adenosine is an ingredient in some hair-growth cosmetics, supported mainly by cell and follicle-culture studies.\n\nA 2024 paper suggests an anti-androgen-receptor effect in addition to growth-factor stimulation.","mechanism":"It raises FGF-2 and FGF-7 in dermal papilla cells and prolongs the growth phase; it may also dampen AR signalling. [1][2]","risks":"Safety data were not covered by the sources reviewed; it is sold as a cosmetic ingredient."}
+  "name": "Adenosine (topical hair)",
+  "card": {
+    "summary": "A cosmetic hair-growth active with plausible lab data on dermal papilla cells; human evidence not established here.",
+    "aka": null,
+    "evidence": "limited",
+    "status": "otc",
+    "note": "Evidence mostly in vitro.",
+    "structure": "Adenosine"
+  },
+  "quick": {
+    "overview": "Topical adenosine is an ingredient in some hair-growth cosmetics, supported mainly by cell and follicle-culture studies.\n\nA 2024 paper suggests an anti-androgen-receptor effect in addition to growth-factor stimulation.",
+    "mechanism": "It raises FGF-2 and FGF-7 in dermal papilla cells and prolongs the growth phase; it may also dampen AR signalling. [1][2]",
+    "risks": "Safety data were not covered by the sources reviewed; it is sold as a cosmetic ingredient."
+  },
+  "lead": [
+    "Topical adenosine is a naturally occurring nucleoside used as an active ingredient in lotions and shampoos for thinning hair. People apply it to the scalp with the aim of thicker hair shafts, less shedding and denser-looking hair, which improves the appearance of the hairline and crown.[1][2]",
+    "In the lab, adenosine acts on dermal papilla cells, the signalling center of the follicle. A 2012 organ-culture study of mouse whisker follicles found that it stimulated dermal papilla growth and lengthened the anagen (growth) phase by raising cysteine levels through fibroblast growth factors 2 and 7.[3] A 2024 paper compared adenosine's gene-expression effects with those of minoxidil and identified the androgen receptor pathway as a candidate target.[2]",
+    "A 2025 systematic review and meta-analysis by Szendzielorz and Spiewak in Biomolecules identified seven clinical trials of topical adenosine, most using a 0.75 percent lotion, in men and women with hair loss. The authors reported that adenosine appears to thicken hair, while describing the trial base as small and often industry-funded.[1]"
+  ],
+  "angle": {
+    "goal": "Hair",
+    "chain": [
+      "Applied to the scalp as a lotion or shampoo",
+      "Acts on dermal papilla cells, raising growth factor signalling",
+      "Longer growth phase and thicker shafts",
+      "Denser, fuller-looking hair"
+    ],
+    "effect": "claimed",
+    "text": "People apply adenosine lotions or shampoos to thinning areas hoping for thicker strands and less shedding. Trials have measured hair thickness and density over 3 to 12 months, with a 0.75 percent lotion the most studied form.[1]"
+  },
+  "infobox": [
+    [
+      "Type",
+      "Nucleoside; cosmetic active"
+    ],
+    [
+      "Routes",
+      "Topical (scalp lotion or shampoo)"
+    ],
+    [
+      "Common trial concentration",
+      "0.75% lotion (most trials)[1]"
+    ],
+    [
+      "Proposed mechanism",
+      "A2B receptor, cAMP, FGF-7 and Wnt signalling in dermal papilla cells; possible androgen receptor pathway effect[1][2]"
+    ],
+    [
+      "Status",
+      "Cosmetic ingredient"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Uses",
+      "paras": [
+        "Adenosine appears in hair-growth lotions and in shampoos combined with caffeine. Reviews of the topical hair-growth market list many cosmeceutical actives marketed through social media, and note that most have been studied as combined formulations with limited sample sizes.[4]"
+      ]
+    },
+    {
+      "h": "Mechanism of action",
+      "paras": [
+        "In the mouse follicle culture, adenosine increased the expression of FGF-2 and FGF-7 in dermal papilla cells and extended anagen.[3] The 2025 review describes a pathway in which adenosine binds A2B receptors on dermal papilla cells, raising cAMP and FGF-7 expression and activating Wnt/beta-catenin signalling; the authors also note that minoxidil's effects may be partly mediated by adenosine.[1]",
+        "The 2024 paper reports that an adenosine complex altered gene expression in dermal papilla cells differently from minoxidil, with inhibition of androgen receptor signalling as a candidate mechanism.[2]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "The 2025 systematic review found seven trials: a 2008 double-blind placebo-controlled trial in 30 women with female pattern hair loss; a 2013 randomized comparison with 5 percent minoxidil in 110 men; a 2015 double-blind trial against 0.1 percent niacinamide in 102 men; a 2016 placebo-controlled trial in 38 men; a 2018 open-label study of a multi-ingredient lotion; and 2024 trials of a caffeine-adenosine shampoo and of an adenosine, panthenol and niacinamide complex compared with 5 percent minoxidil.[1]",
+        "A pooled analysis of three placebo-type-controlled trials of the 0.75 percent lotion at 6 months did not reach statistical significance for hair density or for thick or thin hair counts, although the authors treated the niacinamide comparator as an inactive control and concluded that adenosine appears to increase hair thickness.[1] A randomized trial of a shampoo containing caffeine and adenosine was published in the Journal of Cosmetic Dermatology in 2024.[5] A broader 2024 systematic review of androgenetic alopecia treatments covers topical, oral and procedural options.[6]"
+      ]
+    },
+    {
+      "h": "Safety",
+      "paras": [
+        "Only one of the seven trials reported adverse effects in detail: in the 2013 comparison, 3.8 percent of adenosine users reported folliculitis or itching versus 9.8 percent of minoxidil users reporting hair casts or increased shedding, a difference that was not statistically significant. A shampoo trial noted dry hair in some users.[1] The review states that the FDA and EMA have approved topical adenosine for skin application at concentrations up to 0.1 percent.[1]"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2008",
+      "event": "Double-blind placebo-controlled trial of adenosine lotion in 30 Japanese women with female pattern hair loss.[1]"
+    },
+    {
+      "year": "2012",
+      "event": "Mouse vibrissae organ-culture study on adenosine and dermal papilla published.[3]"
+    },
+    {
+      "year": "2024",
+      "event": "Gene-expression study of an adenosine complex and androgen receptor signalling; caffeine-adenosine shampoo trial.[2][5]"
+    },
+    {
+      "year": "2025",
+      "event": "Systematic review and meta-analysis of seven topical adenosine trials.[1]"
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Adenosine as an Active Ingredient in Topical Preparations Against Hair Loss: A Systematic Review and Meta-Analysis of Published Clinical Trials",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12383921/",
+      "source": "Biomolecules",
+      "year": 2025,
+      "type": "review"
+    },
+    {
+      "id": 2,
+      "title": "Hair Thickness Growth Effect of Adenosine Complex in Male-/Female-Patterned Hair Loss via Inhibition of Androgen Receptor Signaling",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38928239/",
+      "source": "Int J Mol Sci",
+      "year": 2024,
+      "type": "study"
+    },
+    {
+      "id": 3,
+      "title": "Adenosine stimulates growth of dermal papilla and lengthens the anagen phase by increasing the cysteine level via FGF 2 and 7 in an organ culture of mouse vibrissae hair follicles",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22020741/",
+      "source": "Int J Mol Med",
+      "year": 2012,
+      "type": "study"
+    },
+    {
+      "id": 4,
+      "title": "Topical Alternatives for Hair Loss: Beyond the Conventional",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40654553/",
+      "source": "International Journal of Trichology",
+      "year": 2025,
+      "type": "review"
+    },
+    {
+      "id": 5,
+      "title": "Anti-hair loss effect of a shampoo containing caffeine and adenosine",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38764299/",
+      "source": "Journal of Cosmetic Dermatology",
+      "year": 2024,
+      "type": "trial"
+    },
+    {
+      "id": 6,
+      "title": "Management of androgenic alopecia: a systematic review of the literature",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38852607/",
+      "source": "Journal of Cosmetic and Laser Therapy",
+      "year": 2024,
+      "type": "review"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12383921/",
+      "title": "Szendzielorz & Spiewak 2025, adenosine in topical hair-loss preparations (Biomolecules)"
+    }
+  ]
 }

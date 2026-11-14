@@ -1,56 +1,270 @@
 {
-  "name": "Platelet-rich fibrin for hair",
-  "lead": [
-    "Platelet-rich fibrin (PRF) is a preparation made from a person's own blood that concentrates platelets and white blood cells in a fibrin matrix. It is described as a derivative of platelet-rich plasma (PRP) and is documented mainly as a tissue-engineering scaffold in oral and maxillofacial surgery [1]. Its use for hair restoration is a newer, off-label application discussed in aesthetic medicine.",
-    "Only a very small amount of registered human research exists on PRF for hair: a single listed trial with 10 participants compares PRF and PRP in female pattern hair loss [2]. No results are published in the sources reviewed here."
+ "name": "Platelet-rich fibrin for hair",
+ "lead": [
+  "Platelet-rich fibrin (PRF) is a preparation made by spinning a person's own blood in a centrifuge, without the anticoagulants used for platelet-rich plasma (PRP), to produce a platelet- and white-cell-rich fibrin matrix.[1][2][3] For hair, a liquid injectable version (i-PRF) is placed into the scalp, with the aim of delivering growth factors to thinning follicles so hair looks thicker and fuller.[1][4]",
+  "PRF is a derivative of PRP and is documented mainly in dentistry and oral surgery, where it is used for periodontal and extraction-socket healing; the liquid injectable form became available in 2014, and reviews now list facial aesthetics and hair regrowth among its uses.[1][5][6][7] People interested in non-surgical hair thickening treat PRF as an alternative to PRP, in some cases because its fibrin matrix is described as releasing growth factors more slowly.[1][8]",
+  "Studies in androgenetic alopecia are small but growing. A 2024 review found five clinical studies showing benefit; a 2026 multicenter randomized trial in women compared PRP, i-PRF and concentrated growth factors; and a 2026 systematic review pooled 20 regenerative-medicine studies in androgenetic alopecia, including PRF.[8][9][10]"
+ ],
+ "angle": {
+  "goal": "Hair",
+  "chain": [
+   "Own blood is centrifuged into a fibrin-rich preparation",
+   "Injected into the scalp",
+   "Growth factors released near follicles",
+   "Reported increases in hair density and thickness"
   ],
-  "infobox": [
-    ["Type", "Autologous blood-derived preparation"],
-    ["Related to", "Platelet-rich plasma (PRP) [1]"],
-    ["Main documented use", "Dental and oral surgery [1]"],
-    ["Hair use", "Off-label, aesthetic"]
+  "effect": "claimed",
+  "text": "PRF injections are used as a regenerative scalp treatment for thinning hair, with small studies reporting increased hair density and thickness. People choose it as a blood-derived alternative to PRP, sometimes alongside other hair-loss treatments."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Autologous blood-derived preparation"
   ],
-  "sections": [
-    {
-      "h": "Preparation",
-      "paras": [
-        "According to Wikipedia, blood is drawn into tubes without anticoagulant and centrifuged immediately for a few minutes. Three layers form: platelet-poor plasma on top, a PRF clot in the middle and red blood cells at the bottom. The clot is removed and trimmed [1]. Platelet activation during preparation releases growth factors such as PDGF, TGF-beta, VEGF and epidermal growth factor, and the article argues the fibrin matrix is key to its therapeutic potential [1]."
-      ]
-    },
-    {
-      "h": "Use for hair",
-      "paras": [
-        "In aesthetic practice PRF is discussed as an alternative to PRP for scalp treatment in hair thinning. The documented clinical applications in the encyclopedic literature are dental, such as socket preservation, sinus lift and periodontal regeneration, and hair is not mentioned there [1]."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "One registered trial, started in May 2023 with 10 participants, is titled as an efficacy and safety study of PRF and PRP in female pattern hair loss; its status is listed as unknown [2]. A separate registered study of platelet-rich therapy for abdominoplasty scar revision is not about hair [3]. No published results for hair were found."
-      ]
-    }
+  [
+   "Related to",
+   "Platelet-rich plasma (PRP)[8]"
   ],
-  "timeline": [],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Platelet-rich fibrin", "url": "https://en.wikipedia.org/wiki/Platelet-rich_fibrin", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
-    { "id": 2, "title": "The Efficacy and Safety of Platelet-rich Fibrin and Platelet Rich Plasma in Female Pattern Hair Loss Patients", "url": "https://clinicaltrials.gov/study/NCT06440655", "source": "ClinicalTrials.gov", "year": 2023, "type": "trial" },
-    { "id": 3, "title": "Platelet Rich Therapy for Scar Revision", "url": "https://clinicaltrials.gov/study/NCT03555357", "source": "ClinicalTrials.gov", "year": 2018, "type": "trial" }
+  [
+   "Form for hair",
+   "Injectable PRF (i-PRF), introduced as a liquid form in 2014[1]"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Platelet-rich_fibrin", "title": "Platelet-rich fibrin (Wikipedia)" }
+  [
+   "Main documented use",
+   "Dental and oral surgery[5][6]"
   ],
-  "card": {
-    "summary": "A blood-derived fibrin clot used in dentistry and tried off-label for hair thinning, with almost no hair-specific research.",
-    "aka": "PRF, L-PRF",
-    "evidence": "unproven",
-    "status": "research",
-    "note": "Only a tiny registered trial exists for hair; documented uses are dental.",
-    "structure": null
+  [
+   "Hair use",
+   "Off-label aesthetic procedure"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Preparation",
+   "paras": [
+    "Blood is drawn and centrifuged, and the protocol matters: reviews describe how g-force, timing, tube surface and anticoagulant use change the platelet and growth-factor content of the product.[2][11] A classification system sorts platelet concentrates by leukocyte and fibrin content into pure PRP, leukocyte-rich PRP, pure PRF and leukocyte- and platelet-rich fibrin (L-PRF, associated with Choukroun's PRF).[3]",
+    "Until 2014 PRF was available clinically only as a solid clot; changes to centrifugation and tube technology produced the liquid injectable version, i-PRF.[1] A 2024 narrative review of PRF in androgenetic alopecia reports no consensus on preparation protocols.[8]"
+   ]
   },
-  "quick": {
-    "overview": "Platelet-rich fibrin is made by spinning a person's blood without anticoagulant to produce a platelet and white-cell-rich fibrin clot. It is related to PRP.\n\nIts documented uses are in dental and oral surgery. For hair, one small registered trial comparing it with PRP exists.",
-    "mechanism": "Platelets in the clot release growth factors such as PDGF, TGF-beta and VEGF, and the fibrin matrix acts as a scaffold. Whether this affects hair follicles has not been established in published trials.",
-    "risks": "Risks specific to hair use are not described in the sources reviewed. It is an injection-based aesthetic procedure using the person's own blood."
+  {
+   "h": "Use for hair",
+   "paras": [
+    "For hair, i-PRF is injected into the scalp, including by mesotherapy gun in one case series.[12] Beyond pattern hair loss, case reports describe PRF in cicatricial alopecia from discoid lupus and as scalp preparation with stromal vascular fraction before a hair transplant in a patient with lichen planus.[13][14]",
+    "A systematic review of injectable PRF across alopecia and facial rejuvenation covered seven studies in 130 patients, and three alopecia studies reported improved hair density and growth.[15]"
+   ]
+  },
+  {
+   "h": "Safety",
+   "paras": [
+    "Because PRF is made from the patient's own blood, reviews generally describe adverse events as minor. A case series of 11 women reported only minor, self-limited adverse effects, and a 30-patient study reported minimal adverse reactions.[12][4] In the multicenter trial, i-PRF had the lowest adverse event rate of the three preparations compared.[9]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A prospective single-center study of 30 patients with androgenetic alopecia who had not responded adequately to conventional treatment gave six monthly i-PRF injections and reported an 80% response rate at six months, with improved hair scores and scalp symptoms.[4] An 11-woman case series in female pattern hair loss reported improved follicle density, hair volume and thickness, and patient scores.[12]",
+    "A 2026 multicenter randomized trial of 74 completers compared PRP, i-PRF and concentrated growth factors over four sessions in female pattern hair loss; CGF and i-PRF produced larger hair count increases than PRP.[9] A 2026 PRISMA systematic review of 20 studies and 724 patients across five regenerative modalities reported fast, consistent density gains with PRF, along with heterogeneous protocols and limited long-term data.[10] A 2023 trial registration lists a 10-participant comparison of PRF and PRP in female pattern hair loss.[16]"
+   ]
   }
+ ],
+ "timeline": [
+  {
+   "year": "2014",
+   "event": "Liquid injectable PRF (i-PRF) becomes available through modified centrifugation and tube technology.[1]"
+  },
+  {
+   "year": "2024",
+   "event": "Reviews and a case series on injectable PRF for hair loss are published.[8][12][15]"
+  },
+  {
+   "year": "2026",
+   "event": "Multicenter randomized trial comparing PRP, i-PRF and CGF in female pattern hair loss, and a systematic review of regenerative therapies including PRF.[9][10]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Ten years of injectable platelet-rich fibrin",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38037213/",
+   "source": "Periodontology 2000",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 2,
+   "title": "Optimization of platelet-rich fibrin",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37681522/",
+   "source": "Periodontology 2000",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Classification of platelet concentrates: from pure platelet-rich plasma (P-PRP) to leucocyte- and platelet-rich fibrin (L-PRF)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19187989/",
+   "source": "Trends in Biotechnology",
+   "year": 2009,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "New tool in our arsenal: efficacy of injectable platelet-rich fibrin (i-PRF) in androgenetic alopecia treatment",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40009221/",
+   "source": "Archives of Dermatological Research",
+   "year": 2025,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Periodontal regeneration using platelet-rich fibrin. Furcation defects: A systematic review with meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39324633/",
+   "source": "Periodontology 2000",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Use of platelet-rich fibrin for the treatment of periodontal intrabony defects: a systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33609186/",
+   "source": "Clinical Oral Investigations",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Platelet-rich fibrin (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Platelet-rich_fibrin",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 8,
+   "title": "Platelet-rich fibrin: A review of its role as a new treatment in androgenetic alopecia",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38641925/",
+   "source": "Journal of Cosmetic Dermatology",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "Comparative efficacy and safety of PRP, i-PRF and CGF for female pattern hair loss: a prospective multicenter randomized clinical trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42041234/",
+   "source": "Journal of Dermatological Treatment",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "A systematic review of clinical evidence on conditioned media, platelet-rich fibrin, stromal vascular fraction, extracellular vesicles, and stem cells in androgenetic alopecia",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41987228/",
+   "source": "Stem Cell Research & Therapy",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "Essential principles for blood centrifugation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38778518/",
+   "source": "Periodontology 2000",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 12,
+   "title": "Injectable platelet-rich fibrin for treatment of female pattern hair loss",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38989555/",
+   "source": "Journal of Cosmetic and Laser Therapy",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 13,
+   "title": "Halting the Progression of Cicatricial Alopecia with Injectable Platelet-Rich Fibrin",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38765723/",
+   "source": "International Journal of Trichology",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 14,
+   "title": "Regenerative Scalp Preparation With Stromal Vascular Fraction and Platelet-Rich Fibrin Prior to Hair Transplantation in Lichen Planus: A Case Report",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42006542/",
+   "source": "Clinical Case Reports",
+   "year": 2026,
+   "type": "study"
+  },
+  {
+   "id": 15,
+   "title": "Effectiveness of Injectable Platelet-Rich Fibrin Therapy in Alopecia and Facial Rejuvenation: A Systematic Review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39011192/",
+   "source": "Cureus",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 16,
+   "title": "The Efficacy and Safety of Platelet-rich Fibrin and Platelet Rich Plasma in Female Pattern Hair Loss Patients (NCT06440655)",
+   "url": "https://clinicaltrials.gov/study/NCT06440655",
+   "source": "ClinicalTrials.gov",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 17,
+   "title": "Platelet-rich plasma (PRP) versus injectable platelet-rich fibrin (i-PRF): A systematic review across all fields of medicine",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40125556/",
+   "source": "Periodontology 2000",
+   "year": 2025,
+   "type": "review"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42041234/",
+   "title": "PRP vs i-PRF vs CGF in FPHL trial"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41987228/",
+   "title": "Systematic review of regenerative therapies in AGA"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40009221/",
+   "title": "i-PRF in androgenetic alopecia"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39011192/",
+   "title": "Injectable PRF in alopecia and facial rejuvenation"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38989555/",
+   "title": "i-PRF for female pattern hair loss"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38765723/",
+   "title": "i-PRF in cicatricial alopecia"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38641925/",
+   "title": "PRF in androgenetic alopecia review"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42006542/",
+   "title": "SVF and PRF before hair transplant case report"
+  }
+ ],
+ "card": {
+  "summary": "A blood-derived fibrin clot used in dentistry and tried off-label for hair thinning, with almost no hair-specific research.",
+  "aka": "PRF, L-PRF",
+  "evidence": "unproven",
+  "status": "research",
+  "note": "Only a tiny registered trial exists for hair; documented uses are dental.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Platelet-rich fibrin is made by spinning a person's blood without anticoagulant to produce a platelet and white-cell-rich fibrin clot. It is related to PRP.\n\nIts documented uses are in dental and oral surgery. For hair, one small registered trial comparing it with PRP exists.",
+  "mechanism": "Platelets in the clot release growth factors such as PDGF, TGF-beta and VEGF, and the fibrin matrix acts as a scaffold. Whether this affects hair follicles has not been established in published trials.",
+  "risks": "Risks specific to hair use are not described in the sources reviewed. It is an injection-based aesthetic procedure using the person's own blood."
+ }
 }

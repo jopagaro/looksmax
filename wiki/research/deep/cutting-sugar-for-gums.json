@@ -1,8 +1,9 @@
 {
  "name": "Cutting sugar for gums",
  "lead": [
-  "Cutting sugar for gums is the practice of reducing dietary sugar with the aim of lowering dental plaque and improving gum health. Proponents reason that plaque bacteria feed on sugars.",
-  "Gingivitis is described as caused mainly by bacterial plaque, with brushing and flossing as the main prevention measures.[1] That article does not address diet. Reference text on remineralisation notes that plaque removal and reduced frequency of sugar intake support enamel repair and that some studies show a link between sugar and tooth decay.[2]"
+  "Cutting sugar for gums is the practice of eating less added sugar with the aim of reducing dental plaque and keeping gums healthy. People do it for the look of the smile: gums that are pale pink and firm rather than red, swollen or bleeding, fresher breath, and fewer cavities and stained or damaged teeth. Proponents reason that plaque bacteria feed on sugars, so less sugar means less plaque.",
+  "Wikipedia describes plaque-induced gingivitis as the most common form of gum inflammation, triggered by bacterial plaque whose enzymes and toxins drive the inflammation. Its listed signs include swollen, bright red gums, bleeding on brushing, shiny gums and bad breath. [1] The article lists poor oral hygiene, smoking, diabetes, pregnancy and obesity among risk factors and names daily brushing and flossing as the main preventive measures; it does not discuss diet or sugar. [1]",
+  "For teeth, the link to sugar is better established. The European Food Safety Authority concluded that sugar consumption is a known cause of dental caries, and the WHO's 2015 guideline advises keeping free sugars below 10 percent of energy intake. [3] A reference text on remineralisation notes that plaque removal and lower frequency of sugar intake support enamel repair. [2] No trial found tests sugar reduction for gum outcomes specifically."
  ],
  "infobox": [
   [
@@ -11,30 +12,45 @@
   ],
   [
    "Target",
-   "Plaque, gum inflammation"
+   "Plaque, gum inflammation, tooth decay"
+  ],
+  [
+   "Related guidance",
+   "WHO: free sugars below 10% of energy intake [3]"
+  ],
+  [
+   "Main gum prevention",
+   "Daily brushing and flossing [1]"
   ],
   [
    "Clinical research",
-   "None found specific to gum outcomes in this entry"
+   "None found specific to gum outcomes"
   ]
  ],
  "sections": [
   {
    "h": "Description",
    "paras": [
-    "The practice involves eating less added sugar, with the stated goal of giving plaque bacteria less to ferment. Plaque-induced gingivitis arises from bacterial biofilm on teeth, and other listed risk factors include poor oral hygiene, smoking, diabetes and pregnancy.[1]"
+    "The practice involves eating less added sugar, with the stated goal of giving plaque bacteria less to ferment. Plaque-induced gingivitis arises from bacterial biofilm on teeth. Its bacteria release enzymes and toxins, including lipopolysaccharide, that inflame the gums. [1] Other listed risk factors include poor oral hygiene, smoking, diabetes, pregnancy and obesity. [1]"
    ]
   },
   {
-   "h": "Expert views",
+   "h": "Sugar, teeth and gums",
    "paras": [
-    "Standard prevention advice focuses on daily brushing and flossing.[1] For tooth decay, plaque removal and reduced sugar frequency are described as supporting remineralisation.[2]"
+    "The European Food Safety Authority has concluded that sugar consumption is a known cause of dental caries, and Wikipedia links tooth decay with high intake of added sugar in processed foods. [3] The WHO's 2003 report proposed limiting free sugars to 10 percent of diet, a figure sugar companies disputed, and its 2015 guideline for adults and children advises less than 10 percent of total energy intake. [3] The Wikipedia article on free sugars does not discuss gum disease. [3]",
+    "A reference text on tooth remineralisation notes that plaque removal and reduced frequency of sugar intake support enamel repair and that some studies show a link between sugar and tooth decay. [2]"
+   ]
+  },
+  {
+   "h": "Expert views on gum care",
+   "paras": [
+    "Standard prevention advice focuses on daily brushing and flossing. Wikipedia also lists mouthwashes such as chlorhexidine or hydrogen peroxide, and professional cleaning with scaling and root planing for treatment, with referral to a periodontist if gingivitis does not respond. [1]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found."
+    "No studies found testing sugar reduction for gum outcomes. Related evidence concerns sugar and dental caries, summarised by EFSA and the WHO. [3]"
    ]
   }
  ],
@@ -43,7 +59,7 @@
  "refs": [
   {
    "id": 1,
-   "title": "Gingivitis (Wikipedia)",
+   "title": "Gingivitis",
    "url": "https://en.wikipedia.org/wiki/Gingivitis",
    "source": "Wikipedia",
    "year": 2026,
@@ -51,8 +67,16 @@
   },
   {
    "id": 2,
-   "title": "Tooth remineralization (Wikipedia)",
+   "title": "Tooth remineralization",
    "url": "https://en.wikipedia.org/wiki/Tooth_remineralization",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Free sugars",
+   "url": "https://en.wikipedia.org/wiki/Free_sugars",
    "source": "Wikipedia",
    "year": 2026,
    "type": "encyclopedia"
@@ -61,11 +85,15 @@
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Gingivitis",
-   "title": "Gingivitis (Wikipedia)"
+   "title": "Gingivitis"
   },
   {
    "url": "https://en.wikipedia.org/wiki/Tooth_remineralization",
-   "title": "Tooth remineralization (Wikipedia)"
+   "title": "Tooth remineralization"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Free_sugars",
+   "title": "Free sugars"
   }
  ],
  "card": {
@@ -80,5 +108,15 @@
   "overview": "This is the idea of reducing sugar intake to reduce plaque and gum problems. It is a general dietary practice rather than a product.\n\nSources found link sugar to tooth decay in some studies; no trials specific to gums were found.",
   "mechanism": "Plaque bacteria release toxins that inflame gums, and the practice aims to reduce the sugar those bacteria use.",
   "risks": "No specific risks are documented. Dental guidance centres on brushing and flossing."
+ },
+ "angle": {
+  "goal": "Gums, teeth and breath",
+  "chain": [
+   "Less added sugar gives plaque bacteria less to ferment",
+   "Less plaque and acid on teeth and along the gumline",
+   "Healthier-looking gums, fewer cavities, fresher breath"
+  ],
+  "effect": "indirect",
+  "text": "People who cut sugar expect cleaner teeth and calmer, pinker gums, which makes the smile look healthier. The clearest documented effect of sugar reduction is on tooth decay; the effect on gum inflammation specifically has not been tested in the sources found."
  }
 }

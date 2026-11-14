@@ -1,9 +1,35 @@
 {
  "name": "LGD-2941",
+ "card": {
+  "summary": "A discontinued quinolinone SARM with almost no public data and no human results.",
+  "aka": "LGD-122941",
+  "evidence": "unproven",
+  "status": "research",
+  "outcome": null,
+  "risk": "high",
+  "price": null,
+  "note": "Development ended; effectively no human data.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "LGD-2941 is an experimental SARM that was explored for muscle wasting, low testosterone and bone loss.\n\nIts development has reportedly stopped and there are no published human results.",
+  "mechanism": "Like other SARMs, it is designed to activate the androgen receptor selectively in muscle and bone.",
+  "risks": "No safety data are public. It is unapproved, and SARMs generally are banned in sport."
+ },
  "lead": [
-  "LGD-2941 (also LGD-122941) is a nonsteroidal selective androgen receptor modulator (SARM) of the quinolinone class that was investigated for cachexia, hypogonadism and osteoporosis [1][2]. Wikipedia reports that it is no longer being developed, and its Phase I trial was discontinued [1][2].",
-  "Very little published information exists beyond its chemistry; a 2008 paper on related oxazinoquinolinone SARMs is the main cited literature [1]. It is not about appearance enhancement per se, and no community material or human results were identified."
+  "LGD-2941 (also LGD-122941) is a nonsteroidal selective androgen receptor modulator (SARM) of the quinolinone class that was studied for cachexia, sexual dysfunction, hypogonadism, menopause and osteoporosis.[1][2] SARMs are designed to activate the androgen receptor in muscle and bone while having less effect on the prostate, which is the reason bodybuilders and athletes take an interest in the class for muscle and leanness.[2]",
+  "Wikipedia reports that LGD-2941 is no longer being developed, and its Phase I trial was discontinued.[1][2] Little published information exists beyond its chemistry; a 2008 Bioorganic and Medicinal Chemistry Letters paper on related oxazinoquinolinone SARMs is the main cited literature.[1] No community material or human results were identified for this specific compound."
  ],
+ "angle": {
+  "goal": "Muscle mass and leanness",
+  "chain": [
+   "Binds the androgen receptor selectively in muscle and bone (SARM design)",
+   "Anabolic signalling in muscle",
+   "Potential gains in lean mass, as seen with other SARMs in trials"
+  ],
+  "effect": "claimed",
+  "text": "The SARM class is used for its lean-mass effects; for LGD-2941 itself, development ended in Phase I and no human results exist, so any muscle effect is inferred from the class."
+ },
  "infobox": [
   [
    "Drug class",
@@ -18,31 +44,51 @@
    "C17H16F6N2O2"
   ],
   [
+   "Molar mass",
+   "About 394.3 g/mol"
+  ],
+  [
    "Status",
-   "Discontinued; never approved"
+   "Discontinued after Phase I; never approved"
   ]
  ],
  "sections": [
   {
+   "h": "Pharmacology",
+   "paras": [
+    "As a SARM, it is designed to act as an agonist at the androgen receptor in bone and muscle and as a partial agonist or antagonist in tissues such as the prostate. One proposed reason for the selectivity is that 5-alpha reductase does not activate SARMs the way it converts testosterone to DHT; the mechanism is described as still debated.[2]"
+   ]
+  },
+  {
    "h": "Chemistry",
    "paras": [
-    "It is a quinolinone derivative bearing a pyrrolidine ring and trifluoromethyl groups, with a molar mass of about 394 g/mol [1]."
+    "It is a quinolinone derivative bearing a pyrrolidine ring and trifluoromethyl groups, with a molar mass of about 394 g/mol.[1]"
+   ]
+  },
+  {
+   "h": "Development and class background",
+   "paras": [
+    "The first nonsteroidal SARMs appeared in 1998 from the University of Tennessee and Ligand Pharmaceuticals, and the term was introduced in 1999; David Handelsman has called it a misleading pharmaceutical marketing term.[2] Wikipedia lists LGD-2941 as discontinued after Phase I, and describes LGD-4033 (ligandrol) as reaching Phase II.[2]",
+    "As of 2023 neither the FDA nor the EMA had approved any SARM. The World Anti-Doping Agency banned SARMs in 2008, and in the class, trials reported raised liver enzymes, lowered HDL cholesterol and suppression of testosterone, with case reports linking recreational use to liver injury.[2]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found. A Phase I trial is reported to have been discontinued, and no results were identified [2]."
-   ]
-  },
-  {
-   "h": "Development status",
-   "paras": [
-    "Wikipedia lists it among abandoned drugs and states that development has ended, citing a pharmaceutical database [1]. SARMs as a class are unapproved by the FDA and EMA and are prohibited by the World Anti-Doping Agency [2]."
+    "No studies found. A Phase I trial is reported to have been discontinued, and no results were identified.[2] Early trials of other SARMs (enobosarm and others) reported increased lean body mass and muscle size.[2]"
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "1998",
+   "event": "First nonsteroidal SARMs appear from the University of Tennessee and Ligand Pharmaceuticals.[2]"
+  },
+  {
+   "year": "2008",
+   "event": "A paper on related oxazinoquinolinone SARMs is published; WADA bans SARMs.[1][2]"
+  }
+ ],
  "lore": null,
  "refs": [
   {
@@ -65,27 +111,11 @@
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/LGD-2941",
-   "title": "LGD-2941 - Wikipedia"
+   "title": "LGD-2941 (Wikipedia)"
   },
   {
    "url": "https://en.wikipedia.org/wiki/Selective_androgen_receptor_modulator",
-   "title": "Selective androgen receptor modulator - Wikipedia"
+   "title": "Selective androgen receptor modulator (Wikipedia)"
   }
- ],
- "card": {
-  "summary": "A discontinued quinolinone SARM with almost no public data and no human results.",
-  "aka": "LGD-122941",
-  "evidence": "unproven",
-  "status": "research",
-  "outcome": null,
-  "risk": "high",
-  "price": null,
-  "note": "Development ended; effectively no human data.",
-  "structure": null
- },
- "quick": {
-  "overview": "LGD-2941 is an experimental SARM that was explored for muscle wasting, low testosterone and bone loss.\n\nIts development has reportedly stopped and there are no published human results.",
-  "mechanism": "Like other SARMs, it is designed to activate the androgen receptor selectively in muscle and bone.",
-  "risks": "No safety data are public. It is unapproved, and SARMs generally are banned in sport."
- }
+ ]
 }

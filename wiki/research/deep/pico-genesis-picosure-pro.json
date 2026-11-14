@@ -16,10 +16,20 @@
   "risks": "Treatments are performed in clinics and are generally described as having short-lived redness and swelling; pigment changes are a recognised concern with laser treatments of skin, especially in darker skin types. Long-term comparative data are scarce."
  },
  "lead": [
-  "PicoSure Pro is a picosecond laser system from Cynosure that emits light at 755 nm (an alexandrite laser) and can be fitted with a diffractive lens array. It is used in dermatology and aesthetic clinics for conditions such as atrophic acne scarring, wrinkles and pigmented lesions. [1][2]",
-  "\"Pico Genesis\" is a name used in clinic and forum discussion of picosecond skin treatments; this article treats it together with PicoSure Pro, the device for which published research and trial registrations could be found.",
-  "Published evidence for appearance outcomes is limited to small studies. A 2025 prospective single-center study evaluated the PicoSure Pro with a diffractive lens array combined with radiofrequency microneedling for facial atrophic acne scars [1], and a completed 23-participant post-market usability trial was registered for wrinkles, acne scars and benign pigmented lesions [2]."
+  "PicoSure Pro is a picosecond laser system from Cynosure that emits light at 755 nm (an alexandrite laser) and can be fitted with a diffractive lens array. In aesthetic clinics it is used to improve how skin looks: atrophic acne scars, wrinkles and fine lines, and pigmented spots, with the aim of smoother, more even skin and fewer visible marks [1][2].",
+  "'Pico Genesis' is a name used in clinic and forum discussion of picosecond skin treatments; this article treats it together with PicoSure Pro, the device for which published research and trial registrations could be found.",
+  "With the diffractive lens array, a picosecond pulse is split into many tiny spots that create microscopic injuries in the epidermis, and researchers propose that the skin's repair of these injuries drives the improvement in pigmentation and scars [3]. A 2025 randomized split-face trial in Dermatologic Surgery evaluated the PicoSure Pro with the array plus radiofrequency microneedling for facial atrophic acne scars [1], and a completed 23-participant post-market usability trial was registered for wrinkles, acne scars and benign pigmented lesions [2]."
  ],
+ "angle": {
+  "goal": "Skin texture / acne scars",
+  "chain": [
+   "Picosecond 755 nm pulses split by a lens array into tiny spots",
+   "Micro-injuries in the epidermis prompt skin repair",
+   "Smoother texture, fewer visible acne scars and less uneven pigment"
+  ],
+  "effect": "direct",
+  "text": "Clinic patients use picosecond treatments to reduce the look of acne scars, wrinkles and brown spots. Researchers describe the micro-injuries from the lens array as triggering repair that is linked with improvements in pigment and scars [1][3]."
+ },
  "infobox": [
   [
    "Type",
@@ -34,6 +44,10 @@
    "Acne scars, wrinkles, pigmented lesions"
   ],
   [
+   "Accessory",
+   "Diffractive lens array"
+  ],
+  [
    "Setting",
    "In-clinic procedure"
   ]
@@ -42,25 +56,43 @@
   {
    "h": "Uses",
    "paras": [
-    "The device is described in the research literature for facial atrophic acne scarring when used with a diffractive lens array, and a registered usability trial listed wrinkles, acne scars, and benign epidermal and dermal pigmented lesions as conditions of interest. [1][2]"
+    "The device is described in the research literature for facial atrophic acne scarring when used with a diffractive lens array, and a registered usability trial listed wrinkles, acne scars, and benign epidermal and dermal pigmented lesions as conditions of interest [1][2]."
+   ]
+  },
+  {
+   "h": "How it works",
+   "paras": [
+    "A 2016 clinical study in Lasers in Surgery and Medicine used a 755 nm picosecond alexandrite laser with a fractional lens array at three energy settings, examining skin by confocal microscopy and biopsy. It found intra-epidermal cavities whose number, density and size depended on the melanin index and energy, and the treated zones exfoliated over about three weeks. The authors attribute the cavities to laser-induced optical breakdown and suggest this injury may stimulate epidermal repair linked with improvements in dyspigmentation and acne scars [3]."
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "A prospective, single-center study published in Dermatologic Surgery in 2025 evaluated combination treatment with the PicoSure Pro and a radiofrequency microneedling device (Potenza) for atrophic acne scars. [1]",
-    "A post-market usability evaluation of the PicoSure Pro (NCT05102617), started in October 2021 with 23 participants, is registered as completed; it lists wrinkles, acne scars and benign pigmented lesions as conditions. [2]",
-    "Earlier laboratory work examined skin histology after treatment with a picosecond alexandrite laser and a fractional lens array. [3] The small sample sizes and lack of long-term comparison data limit what can be concluded."
+    "A 2025 prospective, single-center, evaluator-blinded, split-face randomized trial published in Dermatologic Surgery enrolled 20 subjects with moderate to severe atrophic facial acne scarring. One face half received the picosecond laser followed by radiofrequency microneedling and the other half microneedling only, over four treatments at four-week intervals. Both halves improved significantly on blinded investigator scar grading and on physician and subject global aesthetic improvement scales, with no significant difference between them at interim time points; the authors state larger trials are required [1].",
+    "A post-market usability evaluation of the PicoSure Pro (NCT05102617), started in October 2021 with 23 participants, is registered as completed; it lists wrinkles, acne scars and benign pigmented lesions as conditions [2]."
    ]
   },
   {
    "h": "In looksmaxxing culture",
    "paras": [
-    "Picosecond laser treatments are discussed in appearance communities as a skin-quality procedure (scars, pigment, texture). Little community material was available for this entry, and it is categorised under \"hardmaxx\" procedures."
+    "Picosecond laser treatments are discussed in appearance communities as a skin-quality procedure (scars, pigment, texture) and are categorised under hardmaxxing procedures. Little community material was available for this entry."
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "2016",
+   "event": "Lasers in Surgery and Medicine study describes histology after picosecond alexandrite laser with a fractional lens array [3]."
+  },
+  {
+   "year": "2021",
+   "event": "Post-market usability trial of the PicoSure Pro starts (NCT05102617) [2]."
+  },
+  {
+   "year": "2025",
+   "event": "Randomized split-face trial of picosecond laser plus radiofrequency microneedling for acne scars published [1]."
+  }
+ ],
  "lore": null,
  "refs": [
   {
@@ -69,7 +101,7 @@
    "url": "https://pubmed.ncbi.nlm.nih.gov/41405932/",
    "source": "Dermatologic Surgery",
    "year": 2025,
-   "type": "study"
+   "type": "trial"
   },
   {
    "id": 2,
@@ -88,5 +120,10 @@
    "type": "study"
   }
  ],
- "webSources": []
+ "webSources": [
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27252086/",
+   "title": "The histology of skin treated with a picosecond alexandrite laser and a fractional lens array"
+  }
+ ]
 }

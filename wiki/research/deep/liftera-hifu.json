@@ -1,21 +1,143 @@
 {
-"name":"Liftera HIFU",
-"lead":["Liftera is a high-intensity focused ultrasound (HIFU) device made by the Korean aesthetics company Asterasys, used in clinics for non-surgical lifting and tightening of the face and neck. Clients seek it for a firmer jawline, less lower-face laxity and a more contoured look without surgery. [1][2]","The device focuses ultrasound energy into the deeper layers of skin to create small heat points. The heat is intended to make tissue contract and stimulate new collagen, with improvement appearing gradually over about two to three months. The manufacturer's distributor describes sessions of around 30 minutes. [1][2]","Liftera is one of several HIFU systems in a category that includes Ultherapy and Ultraformer. Peer-reviewed research on focused ultrasound skin tightening mostly concerns the category and the Ulthera device; no published trial of Liftera itself was found. [3]"],
-"angle":{"goal":"Jawline / skin laxity","chain":["Ultrasound focused beneath the skin surface","Heat points prompt tissue contraction and new collagen","Gradually firmer, lifted jaw and neck over 2-3 months"],"effect":"direct","text":"Liftera is used to tighten and lift sagging skin along the jaw, cheeks and neck without incisions. Visible change builds over a few months as collagen remodels."},
-"infobox":[["Type","HIFU aesthetic device"],["Manufacturer","Asterasys (Korea)"],["Technology","Thermal Diffusion Treatment (TDT), 10 Hz continuous"],["Applicators","Line and pen cartridges"],["Session length","About 30 minutes (distributor)"],["Downtime","Minimal (marketed)"]],
-"sections":[
-{"h":"Description","paras":["Liftera is marketed as a medical-grade HIFU system for lifting, tightening, smoothing and contouring the face and neck. It uses the manufacturer's Thermal Diffusion Treatment approach and continuous 10 Hz irradiation. A pen-type applicator reaches small areas such as around the eyes and nose, and a line cartridge places evenly spaced treatment points. [1]"]},
-{"h":"How it works","paras":["Focused ultrasound heats tissue at set depths below the surface while sparing the skin surface. The thermal injury is meant to cause contraction and collagen production, and clinics describe results emerging over two to three months and lasting a year or more, with follow-up sessions sometimes advised. [2]"]},
-{"h":"Clinical studies","paras":["No studies found for Liftera specifically. A 2015 review of the related microfocused ultrasound category summarised trials reporting brow lift in 86 percent of 35 patients at 90 days and visible submental lift in 72.9 percent of 70 patients, with results persisting at 180 days in a 45-patient cohort. [3]"]},
-{"h":"Side effects","paras":["Clinics list redness, swelling and mild discomfort lasting hours to a couple of days. The category review describes brief procedural pain, transient redness, swelling and occasional bruising, with less common numbness, muscle weakness or hyperpigmentation, and cautions around eyes and metallic implants. [2][3]"]},
-{"h":"Regulatory status","paras":["The device is listed on the Australian register (ARTG #393230) according to its Australian distributor. [1]"]}],
-"timeline":[],
-"lore":null,
-"card":{"summary":"A Korean HIFU device used in clinics to tighten and lift the jawline, face and neck without surgery.","aka":"Liftera Lifting, Asterasys Liftera","evidence":"limited","outcome":"temporary","price":null,"note":"Results build over months and are reported to fade over a year or more.","structure":null},
-"quick":{"overview":"Liftera is a high-intensity focused ultrasound machine from Asterasys used by clinics for non-surgical face and neck lifting.\n\nPeople book it for a tighter jawline and firmer lower face, with sessions of about half an hour and little downtime.","mechanism":"Ultrasound is focused beneath the skin to create small heat points, which prompts tissue contraction and collagen production. Improvement develops over two to three months.","risks":"Redness, swelling and discomfort are commonly reported and pass within days. Less common effects such as numbness or bruising occur in the wider HIFU category, and no published trial of Liftera itself was found."},
-"refs":[
-{"id":1,"title":"Discover Asterasys: next generation HIFU and fractional RF","url":"https://spaandclinic.com.au/sponsored_content/discover-asterasys-next-generation-hifu-fractional-rf-arrives-at-the-global-beauty-group","source":"Spa and Clinic (sponsored)","year":2024,"type":"news"},
-{"id":2,"title":"Liftera Lifting","url":"https://www.koreaclinicguide.com/procedure/liftera-lifting?page=5","source":"Korea Clinic Guide","year":2024,"type":"news"},
-{"id":3,"title":"Noninvasive skin tightening: focus on new ultrasound techniques","url":"https://pmc.ncbi.nlm.nih.gov/articles/4327394","source":"Clin Cosmet Investig Dermatol","year":2015,"type":"review"}],
-"webSources":[{"url":"https://spaandclinic.com.au/sponsored_content/discover-asterasys-next-generation-hifu-fractional-rf-arrives-at-the-global-beauty-group","title":"Discover Asterasys"},{"url":"https://www.koreaclinicguide.com/procedure/liftera-lifting?page=5","title":"Liftera Lifting"},{"url":"https://pmc.ncbi.nlm.nih.gov/articles/4327394","title":"Noninvasive skin tightening"}]
+ "name": "Liftera HIFU",
+ "lead": [
+  "Liftera is a high-intensity focused ultrasound (HIFU) device made by the Korean aesthetics company Asterasys and used in clinics for non-surgical lifting and tightening of the face and neck. Clients seek it for a firmer jawline, less lower-face laxity and a more contoured look without incisions.[1][2]",
+  "The device focuses ultrasound energy into deeper layers of skin to create small heat points beneath an intact surface. The heat is intended to make tissue contract and stimulate new collagen, with improvement appearing gradually over about two to three months. Korea Clinic Guide describes sessions of 30 to 60 minutes with a quick return to normal activity, and the Australian distributor describes sessions of around 30 minutes.[1][2]",
+  "Liftera is one of several HIFU systems in a category that includes Ultherapy and Ultraformer. Peer-reviewed research on focused ultrasound skin tightening mostly concerns the category and the Ulthera device; no published trial of Liftera itself was found.[3]"
+ ],
+ "angle": {
+  "goal": "Jawline / skin laxity",
+  "chain": [
+   "Ultrasound focused beneath the skin surface",
+   "Heat points prompt tissue contraction and new collagen",
+   "Gradually firmer, lifted jaw and neck over 2-3 months"
+  ],
+  "effect": "direct",
+  "text": "Liftera is used to tighten and lift sagging skin along the jaw, cheeks and neck without incisions. Visible change builds over a few months as collagen remodels."
+ },
+ "infobox": [
+  [
+   "Type",
+   "HIFU aesthetic device"
+  ],
+  [
+   "Manufacturer",
+   "Asterasys (Korea)[1]"
+  ],
+  [
+   "Technology",
+   "Thermal Diffusion Treatment (TDT), 10 Hz continuous[1]"
+  ],
+  [
+   "Applicators",
+   "Line and pen cartridges[1]"
+  ],
+  [
+   "Session length",
+   "About 30 to 60 minutes[1][2]"
+  ],
+  [
+   "Time to results",
+   "About 2 to 3 months, lasting a year or more per clinics[2]"
+  ],
+  [
+   "Downtime",
+   "Minimal (marketed)[2]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Liftera is marketed as a medical-grade HIFU system for lifting, tightening, smoothing and contouring the face and neck. It uses the manufacturer's Thermal Diffusion Treatment approach and continuous 10 Hz irradiation. A pen-type applicator reaches small areas such as around the eyes and nose, and a line cartridge places evenly spaced treatment points.[1]",
+    "Korea Clinic Guide lists jawline laxity among the concerns treated, with the face, neck and decolletage as typical areas.[2]"
+   ]
+  },
+  {
+   "h": "How it works",
+   "paras": [
+    "Focused ultrasound heats tissue at set depths below the surface while sparing the skin surface. The thermal injury is meant to cause contraction and collagen production, and clinics describe results emerging over two to three months and lasting a year or more, with follow-up sessions sometimes advised.[2]",
+    "For microfocused ultrasound in general, Sabrina Guillen Fabi's 2015 review describes heating tissue above 60 C to create thermal coagulation points smaller than 1 cubic mm at depths up to 5 mm, with collagen contraction beginning around 65 C and transducers focusing at about 1.5 mm, 3.0 mm and 4.5 mm to reach the dermis, deep dermis and SMAS layer.[3] The author notes that this approach is best suited to mild to moderate laxity, and that severe laxity may call for surgery.[3]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found for Liftera specifically. The 2015 review of the related microfocused ultrasound category summarised trials reporting a clinically significant brow lift in 86 percent of 35 evaluable subjects at 90 days (average 1.7 mm), a visible submental lift of at least 20 square mm in 72.9 percent of 70 neck patients, and physician-rated improvement in 77.7 percent of 45 patients at 180 days.[3] Dual-depth treatment improved skin laxity in 58.1 percent of subjects per blinded reviewers at 90 days.[3] The review's author disclosed being a consultant for Ulthera, the manufacturer of the device studied.[3]"
+   ]
+  },
+  {
+   "h": "Side effects",
+   "paras": [
+    "Clinics list tingling or warmth during treatment and temporary redness, swelling and mild discomfort lasting hours to a couple of days.[2] The category review describes brief procedural pain, transient redness, swelling and occasional bruising, with uncommon events including post-inflammatory hyperpigmentation, muscle weakness, transient numbness and linear wheals, which it attributes mainly to technique and the shallower transducers.[3]"
+   ]
+  },
+  {
+   "h": "Regulatory status",
+   "paras": [
+    "The device is listed on the Australian register (ARTG #393230) according to its Australian distributor.[1]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2015",
+   "event": "Fabi publishes a review of microfocused ultrasound skin tightening in Clinical, Cosmetic and Investigational Dermatology.[3]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Discover Asterasys: next generation HIFU and fractional RF",
+   "url": "https://spaandclinic.com.au/sponsored_content/discover-asterasys-next-generation-hifu-fractional-rf-arrives-at-the-global-beauty-group",
+   "source": "Spa and Clinic (sponsored)",
+   "year": 2024,
+   "type": "news"
+  },
+  {
+   "id": 2,
+   "title": "Liftera Lifting",
+   "url": "https://www.koreaclinicguide.com/procedure/liftera-lifting?page=5",
+   "source": "Korea Clinic Guide",
+   "year": 2024,
+   "type": "news"
+  },
+  {
+   "id": 3,
+   "title": "Noninvasive skin tightening: focus on new ultrasound techniques",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/4327394",
+   "source": "Clin Cosmet Investig Dermatol",
+   "year": 2015,
+   "type": "review"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://spaandclinic.com.au/sponsored_content/discover-asterasys-next-generation-hifu-fractional-rf-arrives-at-the-global-beauty-group",
+   "title": "Discover Asterasys"
+  },
+  {
+   "url": "https://www.koreaclinicguide.com/procedure/liftera-lifting?page=5",
+   "title": "Liftera Lifting"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/4327394",
+   "title": "Noninvasive skin tightening"
+  }
+ ],
+ "card": {
+  "summary": "A Korean HIFU device used in clinics to tighten and lift the jawline, face and neck without surgery.",
+  "aka": "Liftera Lifting, Asterasys Liftera",
+  "evidence": "limited",
+  "outcome": "temporary",
+  "price": null,
+  "note": "Results build over months and are reported to fade over a year or more.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Liftera is a high-intensity focused ultrasound machine from Asterasys used by clinics for non-surgical face and neck lifting.\n\nPeople book it for a tighter jawline and firmer lower face, with sessions of about half an hour and little downtime.",
+  "mechanism": "Ultrasound is focused beneath the skin to create small heat points, which prompts tissue contraction and collagen production. Improvement develops over two to three months.",
+  "risks": "Redness, swelling and discomfort are commonly reported and pass within days. Less common effects such as numbness or bruising occur in the wider HIFU category, and no published trial of Liftera itself was found."
+ }
 }

@@ -1,90 +1,182 @@
 {
-  "name": "Cannabis / CBD for sleep",
-  "card": {
-    "summary": "Cannabis and cannabidiol are used for sleep onset, but clinical evidence is limited and CBD supplements are not FDA-approved for sleep.",
-    "aka": "CBD oil, cannabidiol, THC",
-    "evidence": "limited",
-    "status": "research",
-    "risk": null,
-    "price": null,
-    "note": "CBD products are often mislabeled; FDA has raised liver, drug-interaction and fertility concerns.",
-    "structure": "Cannabidiol"
-  },
-  "quick": {
-    "overview": "Some people use cannabis products or cannabidiol (CBD) to fall asleep. Wikipedia's CBD article says clinical evidence for sleep benefit is limited, and lists sleepiness as a common effect and insomnia among adverse effects of the approved drug Epidiolex.\n\nOnly small trials have been registered, for example a phase 2 study of cannabinoids for insomnia in major depression with 14 participants.",
-    "mechanism": "CBD is a non-intoxicating cannabis constituent whose sleep-related mechanisms remain unestablished in the sources reviewed here. THC is the main intoxicating compound.",
-    "risks": "The FDA has cited possible liver toxicity, drug interactions, effects on mood and alertness, and unknown long-term effects. FDA studies found many CBD products were inaccurately labeled and about half of 147 tested contained THC. Legal status varies widely."
-  },
-  "lead": [
-    "Cannabis and cannabidiol (CBD) are used by some people to help with sleep onset. The only FDA-approved CBD medicine, Epidiolex (2018), is indicated for certain seizure disorders, not sleep [1].",
-    "Wikipedia states that CBD may help with pain, sleep and addiction but that clinical evidence is limited; it lists somnolence as common and insomnia as an adverse effect [1]."
+ "name": "Cannabis / CBD for sleep",
+ "card": {
+  "summary": "Cannabis and cannabidiol are used for sleep onset, but clinical evidence is limited and CBD supplements are not FDA-approved for sleep.",
+  "aka": "CBD oil, cannabidiol, THC",
+  "evidence": "limited",
+  "status": "research",
+  "risk": null,
+  "price": null,
+  "note": "CBD products are often mislabeled; FDA has raised liver, drug-interaction and fertility concerns.",
+  "structure": "Cannabidiol"
+ },
+ "quick": {
+  "overview": "Some people use cannabis products or cannabidiol (CBD) to fall asleep. Wikipedia's CBD article says clinical evidence for sleep benefit is limited, and lists sleepiness as a common effect and insomnia among adverse effects of the approved drug Epidiolex.\n\nOnly small trials have been registered, for example a phase 2 study of cannabinoids for insomnia in major depression with 14 participants.",
+  "mechanism": "CBD is a non-intoxicating cannabis constituent whose sleep-related mechanisms remain unestablished in the sources reviewed here. THC is the main intoxicating compound.",
+  "risks": "The FDA has cited possible liver toxicity, drug interactions, effects on mood and alertness, and unknown long-term effects. FDA studies found many CBD products were inaccurately labeled and about half of 147 tested contained THC. Legal status varies widely."
+ },
+ "lead": [
+  "Cannabis products and cannabidiol (CBD) are used by some people to fall asleep more easily. In appearance terms the chain is sleep-based: people who sleep longer and more regularly say they look fresher, carry less under-eye darkness and recover better from training, so a product that helps them fall asleep is seen as supporting those looks goals indirectly.",
+  "CBD is a non-intoxicating cannabis constituent, while THC is the main intoxicating one. The only FDA-approved CBD medicine, Epidiolex (2018), is indicated for certain seizure disorders, not sleep.[1] Wikipedia notes that CBD may help with pain, sleep and addiction according to some claims, that clinical evidence is limited, and that somnolence is a common effect.[1]",
+  "Research on cannabis and sleep is mixed. A 2023 randomised crossover trial in adults with insomnia tested a medicinal cannabis oil against placebo and reported improved sleep, while a 2025 meta-analysis of polysomnography studies found cannabis does not consistently change sleep duration, latency or staging, and that withdrawal from regular use is associated with sleep disturbance.[3][4]"
+ ],
+ "infobox": [
+  [
+   "Compound",
+   "Cannabidiol (CBD) and THC"
   ],
-  "infobox": [
-    [
-      "Compound",
-      "Cannabidiol (CBD) and THC"
-    ],
-    [
-      "Approved CBD drug",
-      "Epidiolex (US 2018, seizure indications) [1]"
-    ],
-    [
-      "Legal status",
-      "Varies; hemp-derived CBD with 0.3% THC or less is unscheduled federally in the US [1]"
-    ]
+  [
+   "Approved CBD drug",
+   "Epidiolex (US 2018, seizure indications) [1]"
   ],
-  "sections": [
-    {
-      "h": "Adverse effects and regulation",
-      "paras": [
-        "CBD side effects are dose-related and include somnolence, sedation, fatigue, diarrhea and appetite changes [1]. The FDA has raised concerns about liver toxicity, interactions with prescription drugs, gastrointestinal problems and effects on alertness and mood, and in later updates about long-term effects, pregnancy and male fertility [1].",
-        "Product quality studies found labeling problems: a 2017 analysis of online US products found 69% mislabeled, and a 2020 FDA study of 147 products found half contained THC [1]."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "Registered trials include a phase 2 trial of cannabinoids as a treatment for insomnia in major depression (n=14, completed, started 2023) [2]. No results are reported in the registry entry cited here, and no appearance-related studies were found."
-      ]
-    }
+  [
+   "Legal status",
+   "Varies; hemp-derived CBD with 0.3% THC or less is unscheduled federally in the US [1]"
   ],
-  "timeline": [
-    {
-      "year": "1940",
-      "event": "CBD first studied [1]."
-    },
-    {
-      "year": "1963",
-      "event": "Structure and stereochemistry of CBD determined [1]."
-    },
-    {
-      "year": "2018",
-      "event": "FDA approves Epidiolex [1]."
-    }
-  ],
-  "lore": null,
-  "refs": [
-    {
-      "id": 1,
-      "title": "Cannabidiol",
-      "url": "https://en.wikipedia.org/wiki/Cannabidiol",
-      "source": "Wikipedia",
-      "year": 2025,
-      "type": "encyclopedia"
-    },
-    {
-      "id": 2,
-      "title": "Cannabinoids as a Treatment for Insomnia in Major Depression (NCT05041647)",
-      "url": "https://clinicaltrials.gov/study/NCT05041647",
-      "source": "ClinicalTrials.gov",
-      "year": 2023,
-      "type": "trial"
-    }
-  ],
-  "webSources": [
-    {
-      "url": "https://en.wikipedia.org/wiki/Cannabidiol",
-      "title": "Cannabidiol - Wikipedia"
-    }
+  [
+   "Sleep research",
+   "Mixed results in trials and meta-analyses [3][4]"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Uses",
+   "paras": [
+    "Users take cannabis by smoking, vaping or edibles, and CBD as oils, gummies or hemp flower, often in the evening.[5][6] On T Nation, one poster described using a high-CBD edible alongside a calming supplement and said it worked well for sleep, while another asked what CBD oil actually does and noted that it is heavily hyped.[5][6]"
+   ]
+  },
+  {
+   "h": "Adverse effects and regulation",
+   "paras": [
+    "CBD side effects are dose-related and include somnolence, sedation, fatigue, diarrhea and appetite changes [1]. The FDA has raised concerns about liver toxicity, interactions with prescription drugs, gastrointestinal problems and effects on alertness and mood, and in later updates about long-term effects, pregnancy and male fertility [1].",
+    "Product quality studies found labeling problems: a 2017 analysis of online US products found 69% mislabeled, and a 2020 FDA study of 147 products found half contained THC [1].",
+    "A 2024 review of cannabis harms in the Annual Review of Medicine covers health risks of use more broadly.[8]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A 2023 double-blind, placebo-controlled crossover trial of a medicinal cannabis oil in 29 adults with self-reported insomnia reported improved sleep over six weeks, as indicated by its title.[3] A 2025 systematic review and meta-analysis of 18 polysomnography studies (nine in the meta-analysis) found no consistent change in sleep duration, latency, wake time, efficiency or stages with cannabis administration, noted that early REM-suppression findings came from small high-THC studies, and found withdrawal consistently associated with shorter sleep and longer sleep onset.[4]",
+    "A phase 2 trial of cannabinoids for insomnia in major depression (n=14) was completed in 2023; no results are reported in its registry entry.[2]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1940",
+   "event": "CBD first studied [1]."
+  },
+  {
+   "year": "1963",
+   "event": "Structure and stereochemistry of CBD determined [1]."
+  },
+  {
+   "year": "2018",
+   "event": "FDA approves Epidiolex [1]."
+  }
+ ],
+ "lore": {
+  "intro": "On looksmax.org and T Nation, cannabis and CBD come up as sleep aids and as part of broader questions about how substance use affects looks and health.[5][6][7]",
+  "claims": [
+   {
+    "claim": "Cannabis or CBD helps you fall asleep",
+    "believers": "T Nation posters report good results from high-CBD edibles or hemp flower for sleep, while others note that CBD is hyped.[5][6]",
+    "experts": "A 2023 crossover trial reported improved sleep with a medicinal cannabis oil, while a 2025 meta-analysis found no consistent change in sleep parameters.[3][4]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Withdrawal after regular use can worsen sleep",
+    "believers": "Forum users discuss returning to cannabis after stopping and weigh it against nicotine for health and looks.[7]",
+    "experts": "The 2025 meta-analysis found withdrawal from active use consistently associated with reduced total sleep and longer sleep onset.[4]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "CBD products are what the label says",
+    "believers": "Sellers market CBD widely for sleep and calm.[1]",
+    "experts": "A 2017 analysis found most sampled online products mislabeled, and a 2020 FDA study found about half of 147 products contained THC.[1]",
+    "evidence": "harms"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Cannabidiol",
+   "url": "https://en.wikipedia.org/wiki/Cannabidiol",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Cannabinoids as a Treatment for Insomnia in Major Depression (NCT05041647)",
+   "url": "https://clinicaltrials.gov/study/NCT05041647",
+   "source": "ClinicalTrials.gov",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 3,
+   "title": "Medicinal cannabis improves sleep in adults with insomnia: a randomised double-blind placebo-controlled crossover study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36539991/",
+   "source": "Journal of Sleep Research",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "Cannabis and sleep architecture: A systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40967124/",
+   "source": "Sleep Medicine Reviews",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "What Would You Suggest for Insomnia?",
+   "url": "https://t-nation.com/t/what-would-you-suggest-for-insomnia/262610",
+   "source": "T Nation",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 6,
+   "title": "Supplement for Sleep?",
+   "url": "https://t-nation.com/t/supplement-for-sleep/246353",
+   "source": "T Nation",
+   "year": 2018,
+   "type": "forum"
+  },
+  {
+   "id": 7,
+   "title": "Thinking about using any form of cannabis again. Need some advice",
+   "url": "https://looksmax.org/threads/thinking-about-using-any-form-of-cannabis-again-need-some-advice.1785303/",
+   "source": "looksmax.org",
+   "type": "forum"
+  },
+  {
+   "id": 8,
+   "title": "Adverse Impact of Cannabis on Human Health",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37582489/",
+   "source": "Annual Review of Medicine",
+   "year": 2024,
+   "type": "review"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Cannabidiol",
+   "title": "Cannabidiol - Wikipedia"
+  }
+ ],
+ "angle": {
+  "goal": "Sleep, skin and recovery",
+  "chain": [
+   "Cannabis or CBD taken in the evening",
+   "Easier sleep onset, as users report",
+   "More sleep supports fresher skin and training recovery"
+  ],
+  "effect": "claimed",
+  "text": "People use cannabis or CBD products at night hoping to fall asleep faster, and better sleep is widely linked in the community with a rested face and better training recovery. The effect on sleep itself varies by product and person in the research."
+ }
 }

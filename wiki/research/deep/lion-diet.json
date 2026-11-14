@@ -1,10 +1,20 @@
 {
  "name": "Lion diet",
  "lead": [
-  "The lion diet is a restrictive elimination diet consisting only of ruminant meat (typically beef), salt and water. It is described as a stricter form of the carnivore diet, which allows animal products such as meat, dairy and eggs. [1]",
-  "It gained wider attention after Mikhaila Peterson and her father Jordan Peterson said they followed it, and it later circulated on social media such as TikTok. [1]",
-  "Dietetic organisations such as the British Dietetic Association and Dietitians Australia have dismissed the carnivore diet as a fad, and commentators note concerns about nutrient gaps. No clinical trials of the lion diet itself have been found. [1]"
+  "The lion diet is a restrictive elimination diet consisting only of ruminant meat (typically beef), salt and water. It is a stricter form of the carnivore diet, which allows animal products such as meat, dairy and eggs [1]. People follow it with appearance goals in mind: losing body fat, reducing facial puffiness and calming skin, which adherents attribute to removing plant foods, dairy and processed ingredients that they suspect trigger inflammation.",
+  "It gained wider attention after Mikhaila Peterson and her father Jordan Peterson said they followed it, and it later circulated on social media such as TikTok and Instagram [1]. A 2026 analysis of Instagram content found carnivore creators emphasised health and disease claims and strong red-meat focus, with otherwise varied food recommendations [3].",
+  "Dietetic organisations such as the British Dietetic Association and Dietitians Australia have called the carnivore diet a fad, and commentators raise nutrient-gap concerns [1]. A 2026 scoping review identified nine human studies of carnivore-style eating, which reported weight reduction and greater satiety in some participants alongside risks of nutrient shortfalls and raised LDL cholesterol; the review described the evidence as limited by small samples, short durations and lack of control groups [2]. No clinical trials of the lion diet itself have been found."
  ],
+ "angle": {
+  "goal": "Leanness and skin",
+  "chain": [
+   "Beef, salt and water only",
+   "High satiety, fewer calories, fewer dietary triggers",
+   "Fat loss and, as adherents report, calmer skin"
+  ],
+  "effect": "claimed",
+  "text": "Followers use the diet to get lean and to see whether removing foods changes their skin and facial swelling. The reported weight reduction and satiety in small studies of carnivore eating is the most concrete link to body composition [2]."
+ },
  "infobox": [
   [
    "Type",
@@ -21,46 +31,56 @@
   [
    "Popularised",
    "Late 2010s via social media [1]"
+  ],
+  [
+   "Trials of the lion diet itself",
+   "None found"
   ]
  ],
  "sections": [
   {
    "h": "Description",
    "paras": [
-    "The carnivore diet, also called the zero-carb diet, excludes fruits, vegetables, grains, legumes, nuts and seeds. The lion diet narrows it further to beef, salt and water. Paul Saladino's 2024 animal-based diet is a looser variant that permits fruit, honey and raw dairy. [1]"
+    "The carnivore diet, also called the zero-carb diet, excludes fruits, vegetables, grains, legumes, nuts and seeds. The lion diet narrows it further to beef, salt and water. Paul Saladino's 2024 animal-based diet is a looser variant that permits fruit, honey and raw dairy [1]."
    ]
   },
   {
    "h": "Origins and spread",
    "paras": [
-    "Exclusively animal diets have earlier precedents: Bernard Moncriff published a book on one in 1856, Arnaldo Cantani prescribed animal-based diets to diabetic patients in the 1870s, and James H. Salisbury promoted a meat and hot water diet in the 1880s. In 2018 former orthopaedic surgeon Shawn Baker promoted the carnivore diet on social media, while Jordan and Mikhaila Peterson followed the lion diet, which later became a TikTok fad. [1]"
+    "Exclusively animal diets have earlier precedents: Bernard Moncriff published a book on one in 1856, Arnaldo Cantani prescribed animal-based diets to diabetic patients in the 1870s, and James H. Salisbury promoted a meat and hot water diet in the 1880s. In 2018 former orthopaedic surgeon Shawn Baker promoted the carnivore diet on social media, while Jordan and Mikhaila Peterson followed the lion diet, which later became popular on TikTok [1]."
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing and fitness communities",
+   "paras": [
+    "Strength-training forums such as T Nation host discussion of carnivore eating, including debate over whether dairy and eggs belong in it and whether eating like predators is a sensible model [4][5]. Posters in one thread joke about imagining a training programme for people strictly on the diet [6]."
    ]
   },
   {
    "h": "Expert views and reported risks",
    "paras": [
-    "Commentators including neurologist Steven Novella (April 2023) have called the carnivore diet a fad. Reported concerns include raised LDL cholesterol, vitamin deficiencies from excluding plant foods, constipation from low fibre, possible colon cancer and gout risk from high red meat intake, and strain on the kidneys from high protein. [1]"
+    "Commentators including neurologist Steven Novella (April 2023) have called the carnivore diet a fad. Reported concerns include raised LDL cholesterol, vitamin deficiencies from excluding plant foods, constipation from low fibre, possible colon cancer and gout risk from high red meat intake, and strain on the kidneys from high protein [1]. The scoping review lists potential shortfalls in vitamins C and D, calcium, magnesium, iodine and fibre [2]."
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found."
+    "No studies found of the lion diet itself. Studies of carnivore-style diets generally were summarised in a 2026 scoping review of nine human studies, which reported weight reduction, increased satiety and possible improvements in some inflammatory or metabolic markers, along with nutrient-deficiency risks and higher LDL and total cholesterol, with very limited evidence quality [2]."
    ]
   }
  ],
  "timeline": [
   {
    "year": "1856",
-   "event": "Bernard Moncriff publishes a book on an exclusively animal diet. [1]"
+   "event": "Bernard Moncriff publishes a book on an exclusively animal diet.[1]"
   },
   {
    "year": "2018",
-   "event": "Shawn Baker promotes the carnivore diet; the Petersons follow the lion diet. [1]"
+   "event": "Shawn Baker promotes the carnivore diet; the Petersons follow the lion diet.[1]"
   },
   {
    "year": "2024",
-   "event": "Paul Saladino popularises a looser animal-based diet. [1]"
+   "event": "Paul Saladino popularises a looser animal-based diet.[1]"
   }
  ],
  "lore": null,
@@ -72,12 +92,52 @@
    "source": "Wikipedia",
    "year": 2026,
    "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Carnivore Diet: A Scoping Review of the Current Evidence, Potential Benefits and Risks",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41599961/",
+   "source": "Nutrients",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Preferences and recommendations from content creators on carnivore diets: a social media analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42144663/",
+   "source": "Journal of Health, Population and Nutrition",
+   "year": 2026,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "A Completely Random Thread of Randomness (T Nation forum thread)",
+   "url": "https://t-nation.com/t/a-completely-random-thread-of-randomness/288471",
+   "source": "T Nation forum",
+   "year": 2024,
+   "type": "forum"
+  },
+  {
+   "id": 5,
+   "title": "I Don't Get It, But Okay (T Nation forum thread)",
+   "url": "https://t-nation.com/t/i-dont-get-it-but-okay/288752",
+   "source": "T Nation forum",
+   "year": 2024,
+   "type": "forum"
+  },
+  {
+   "id": 6,
+   "title": "The Flame-Free Confession Thread II (T Nation forum thread)",
+   "url": "https://t-nation.com/t/the-flame-free-confession-thread-ii/248113",
+   "source": "T Nation forum",
+   "year": 2018,
+   "type": "forum"
   }
  ],
  "webSources": [
   {
-   "title": "Carnivore diet (Wikipedia)",
-   "url": "https://en.wikipedia.org/wiki/Carnivore_diet"
+   "url": "https://en.wikipedia.org/wiki/Carnivore_diet",
+   "title": "Carnivore diet"
   }
  ],
  "card": {

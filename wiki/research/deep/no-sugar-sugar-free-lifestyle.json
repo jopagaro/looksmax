@@ -13,8 +13,10 @@
   "risks": "Cutting sugar is a mainstream dietary change. Extreme versions that remove whole food groups can affect nutrition."
  },
  "lead": [
-  "A no-sugar or sugar-free lifestyle is an eating pattern that removes or strongly limits added sugars, adopted by some people to improve skin, among other aims.",
-  "The WHO recommends reducing free sugars to under 10 percent of energy intake and suggests below 5 percent as a further target.[2] Wikipedia's acne article says dermatologists recommend a diet low in simple sugars to improve acne.[1]"
+  "A no-sugar or sugar-free lifestyle is an eating pattern that removes or strongly limits added sugars. People adopt it for their looks mainly through the skin: the chain they describe runs from less sugar, to steadier blood glucose and insulin, to calmer breakouts, and to less glycation of collagen, so skin looks clearer and, proponents hope, ages more slowly. Some also use it as a way to stay leaner, which shows in the face and body.",
+  "Wikipedia's article on acne says several randomized and nonrandomized studies found that a lower-glycemic-load diet reduces acne, and that dermatologists recommend a diet low in simple sugars to improve it.[1] The proposed route is through insulin and IGF-1 activity, which may raise androgen and sebum production.[3]",
+  "On the ageing side, advanced glycation end-products (AGEs) form when sugars bind to proteins such as collagen. Higher glycemic-index diets increase glycation, and AGEs are being studied for a role in ageing; Wikipedia notes that as of 2024 there is no conclusive clinical evidence that they play a pathological role in ageing diseases.[4]",
+  "The WHO recommends reducing free sugars to under 10 percent of energy intake and suggests below 5 percent as a further target.[2]"
  ],
  "infobox": [
   [
@@ -44,13 +46,27 @@
   {
    "h": "Acne",
    "paras": [
-    "Wikipedia states that eating fewer simple carbohydrates such as sugar may minimize acne and that dermatologists recommend a diet low in simple sugars.[1]"
+    "Wikipedia states that eating fewer simple carbohydrates such as sugar may minimize acne and that dermatologists recommend a diet low in simple sugars.[1] Its causes section describes high-glycemic-load diets as having varying degrees of effect on acne severity, and notes several trials finding that lower-glycemic-load diets reduce acne.[1]",
+    "The mechanism proposed in the same article involves insulin and IGF-1: dietary patterns that spike them may increase androgen activity and sebum production, which promote comedones.[1][3]"
+   ]
+  },
+  {
+   "h": "Glycation and skin ageing",
+   "paras": [
+    "Glycation is a non-enzymatic reaction in which a sugar binds to an amino group on a protein, eventually yielding advanced glycation end-products (AGEs). Collagen can be crosslinked by AGEs, and higher glycemic-index diets increase glycation.[4]",
+    "Proponents of sugar-free living connect this to skin firmness and wrinkling. The reference article does not discuss skin specifically, describes AGE research in ageing as preliminary, and estimates that 10 to 30 percent of plasma AGEs come from diet.[4]"
+   ]
+  },
+  {
+   "h": "Sugar substitutes",
+   "paras": [
+    "People avoiding sugar often use sweeteners such as aspartame, sucralose, stevia or sugar alcohols. Regulators have judged approved sweeteners safe at typical intakes, though the WHO does not recommend non-nutritive sweeteners for weight control and suggests fruit or unsweetened foods instead.[5]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found on sugar-free lifestyles for skin appearance in the sources reviewed. Studies of low-glycemic-load diets for acne are discussed in the article on low-glycemic diets.[1]"
+    "No studies found on a whole sugar-free lifestyle for skin appearance. Related research on lower-glycemic-load diets and acne is summarised in Wikipedia's acne article.[1]"
    ]
   }
  ],
@@ -75,6 +91,27 @@
    "url": "https://en.wikipedia.org/wiki/Sugar",
    "source": "Wikipedia",
    "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Acne (diet and hormonal mechanisms)",
+   "url": "https://en.wikipedia.org/wiki/Acne",
+   "source": "Wikipedia",
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Advanced glycation end-product",
+   "url": "https://en.wikipedia.org/wiki/Advanced_glycation_end-product",
+   "source": "Wikipedia",
+   "type": "encyclopedia"
+  },
+  {
+   "id": 5,
+   "title": "Sugar substitute",
+   "url": "https://en.wikipedia.org/wiki/Sugar_substitute",
+   "source": "Wikipedia",
+   "type": "encyclopedia"
   }
  ],
  "webSources": [
@@ -85,6 +122,25 @@
   {
    "url": "https://en.wikipedia.org/wiki/Sugar",
    "title": "Sugar"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Advanced_glycation_end-product",
+   "title": "Advanced glycation end-product"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Sugar_substitute",
+   "title": "Sugar substitute"
   }
- ]
+ ],
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "Cut added sugar",
+   "Lower glycemic load and insulin/IGF-1 signalling",
+   "Fewer inflammatory breakouts and less glycation",
+   "Clearer, smoother-looking skin"
+  ],
+  "effect": "indirect",
+  "text": "People remove added sugar hoping for clearer skin and less visible ageing, citing acne research on low-glycemic-load diets and the biology of glycation. Fewer sugary drinks and snacks also lowers calorie intake, which people use to stay lean."
+ }
 }

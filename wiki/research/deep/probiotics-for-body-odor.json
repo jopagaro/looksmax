@@ -1,8 +1,9 @@
 {
  "name": "Probiotics for body odor",
  "lead": [
-  "Probiotics for body odor is the idea that taking probiotic microbes, or altering the gut microbiome, changes how a person smells. Reference sources note that the gut microbiome can affect body odor, citing a 2020 study on cutaneous bacteria in the gut microbiome as biomarkers of systemic malodor.[1]",
-  "Grokipedia mentions lactobacilli only as a topical skin treatment that may rebalance skin microbiota, and its citation for that statement appears mismatched, so it is not treated here as evidence.[2]"
+  "Probiotics for body odor is the idea that taking probiotic microbes, or shifting the gut or skin microbiome, changes how a person smells, so that they come across as fresher and cleaner in close contact. People who try it are looking for an internal route to a better scent profile alongside deodorant and hygiene.",
+  "Body odor arises mainly from bacteria on the skin breaking down sweat-gland secretions, especially from the apocrine glands in the armpits, with genes, diet and health contributing; Wikipedia lists the gut microbiome as a factor that can affect it, but its article does not mention probiotics [1]. Research on the armpit microbiota describes how skin bacteria convert odorless secretions into volatile odorous molecules [3], and a 2022 review describes probiotic modulation of the skin microbiome as an emerging area for conditions including acne, body odour and atopic dermatitis [4].",
+  "Reference sources also note a 2020 study on cutaneous bacteria in the gut microbiome as biomarkers of systemic malodor [1]. No human trial of oral probiotics for ordinary body odor was located."
  ],
  "infobox": [
   [
@@ -11,20 +12,41 @@
   ],
   [
    "Claimed use",
-   "Reducing body odor via gut-skin axis"
+   "Reducing body odor via gut and skin microbiome"
+  ],
+  [
+   "Main odor source",
+   "Skin bacteria acting on apocrine sweat [1]"
+  ],
+  [
+   "Conventional options",
+   "Deodorant, antiperspirant, hygiene [1]"
   ]
  ],
  "sections": [
   {
    "h": "Background",
    "paras": [
-    "Body odor arises mainly from bacterial activity on sweat gland secretions, with genes, diet and health contributing.[1]"
+    "Bacteria on the skin cause most body odor by breaking down secretions from skin glands. Apocrine glands in the armpits release compounds that skin bacteria convert into odorous molecules; Corynebacterium, Staphylococcus hominis, propionibacteria and S. epidermidis are among the species described as contributing, and genetics also plays a role [1]. Diet can change how sweat smells; one study cited by Wikipedia found that men who ate more fruits and vegetables had sweat judged more pleasant [1].",
+    "A 2013 review of the axillary microbiota describes sequencing studies of its composition and notes that the physiological activity of an individual microbiota remains largely unknown, proposing metatranscriptomics to link specific bacterial activities to individual differences in odor [3]."
+   ]
+  },
+  {
+   "h": "Conventional approaches",
+   "paras": [
+    "Wikipedia describes antiperspirants, deodorants and daily washing with antibacterial soap as standard measures, along with surgery for severe sweating in rare cases [1]."
+   ]
+  },
+  {
+   "h": "Skin microbiome and probiotics",
+   "paras": [
+    "A 2022 review in Probiotics and Antimicrobial Proteins presents the skin microbiome as a target for probiotic intervention and lists body odour among the microbially influenced conditions of interest to dermatology and cosmetic research [4]. A 2021 study in Scientific Reports tested a product made by fermenting Lotus corniculatus seed with Lactobacillus acidophilus KNU-02 and reported it reduced axillary malodor and affected the axillary microbiota; the tested material was a fermented plant product rather than a live probiotic [5]."
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found."
+    "No studies found of oral probiotic supplements for ordinary body odor. Related research on the armpit microbiota, skin probiotics and a fermented-extract deodorant is described above [3][4][5]."
    ]
   }
  ],
@@ -46,6 +68,30 @@
    "source": "Grokipedia",
    "year": null,
    "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Daily battle against body odor: towards the activity of the axillary microbiota",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:23566668&resultType=core&format=json&pageSize=1",
+   "source": "Trends Microbiol (via Europe PMC)",
+   "year": 2013,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Skin Microbiome - The Next Frontier for Probiotic Intervention",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:34383234&resultType=core&format=json&pageSize=1",
+   "source": "Probiotics Antimicrob Proteins (via Europe PMC)",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Effect of a bioconverted product of Lotus corniculatus seed on the axillary microbiome and body odor",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33980951&resultType=core&format=json&pageSize=1",
+   "source": "Sci Rep (via Europe PMC)",
+   "year": 2021,
+   "type": "study"
   }
  ],
  "webSources": [
@@ -56,6 +102,18 @@
   {
    "url": "https://grokipedia.com/page/Body_odor",
    "title": "Body odor - Grokipedia"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:23566668&resultType=core&format=json&pageSize=1",
+   "title": "Europe PMC record 23566668"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:34383234&resultType=core&format=json&pageSize=1",
+   "title": "Europe PMC record 34383234"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33980951&resultType=core&format=json&pageSize=1",
+   "title": "Europe PMC record 33980951"
   }
  ],
  "card": {
@@ -72,5 +130,15 @@
   "overview": "Some people propose probiotics to change body odor through the gut microbiome. A 2020 study explored skin bacteria in the gut microbiome as markers of systemic malodor.\n\nNo trials of probiotics for body odor were found in the sources consulted.",
   "mechanism": "The proposed route is the gut microbiome influencing what is excreted through skin. This is not shown by trials in the sources consulted.",
   "risks": "Not assessed in the sources consulted."
+ },
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "Probiotic taken by mouth or applied to skin",
+   "Shift in gut or skin microbial community",
+   "Possible change in odor-producing bacteria and body scent"
+  ],
+  "effect": "claimed",
+  "text": "Users hope that changing the microbes in the gut or on the skin will reduce odor-causing bacterial activity and make their natural scent less pronounced."
  }
 }

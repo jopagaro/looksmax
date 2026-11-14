@@ -16,42 +16,102 @@
     "risks": "The exercise needs only a wall and is described as scalable, with advice to reduce range if pain occurs. No harms are documented in the sources reviewed."
   },
   "lead": [
-    "Wall angels, also called wall slides or the V-to-W stretch, are a standing bodyweight exercise in which the arms are slid up and down a wall while the head, upper back, buttocks, elbows and hands stay in contact with it [1].",
-    "Grokipedia, an AI-generated encyclopedia, describes them as part of physical therapy, Pilates and postural routines meant to counter rounded shoulders and shortened chest muscles from sitting and desk work, and says they target shoulder mobility, scapular stability and thoracic flexibility [1]. Those descriptions are not backed in the source by clinical trials, and no study of wall angels specifically was found."
+    "Wall angels, also called wall slides or the V-to-W stretch, are a standing bodyweight exercise in which the arms are slid up and down a wall while the head, upper back, buttocks, elbows and hands stay in contact with it [1]. People use them to work against the rounded-shoulder, head-forward posture that comes from desk work, in the hope of standing and sitting taller with a more open chest and shoulders.",
+    "Grokipedia, an AI-generated encyclopedia, describes them as part of physical therapy, Pilates and postural routines meant to counter rounded shoulders and shortened chest muscles from sitting and desk work, targeting shoulder mobility, scapular stability and thoracic flexibility [1]. A T Nation poster mentioned that a family member with bulging neck discs does wall angels and finds that they help [2].",
+    "Wikipedia's article on forward head posture describes the head sitting forward of the shoulders with a rounded upper back, and lists strengthening the mid-back and shoulder-blade retractors, stretching the upper trapezius and mobilising the thoracic spine among proposed remedies [3]. No study of wall angels specifically was found."
   ],
+  "angle": {
+    "goal": "Posture",
+    "chain": [
+      "Arms slide overhead while back stays against wall",
+      "Mid-back and shoulder-blade muscles work, chest and shoulders open",
+      "Shoulders sit further back and the upper back stands taller"
+    ],
+    "effect": "claimed",
+    "text": "Wall angels are done to practice an upright upper back and open shoulders, which shows in the silhouette from the side and front. They need only a wall and little time."
+  },
   "infobox": [
-    ["Type", "Bodyweight mobility drill"],
-    ["Also called", "Wall slides, V to W stretch, standing snow angels"],
-    ["Equipment", "A flat wall"],
-    ["Muscles described", "Rhomboids, trapezius, deltoids, serratus anterior, rotator cuff; stretches pectorals [1]"]
+    [
+      "Type",
+      "Bodyweight mobility drill"
+    ],
+    [
+      "Also called",
+      "Wall slides, V to W stretch, standing snow angels"
+    ],
+    [
+      "Equipment",
+      "A flat wall"
+    ],
+    [
+      "Muscles described",
+      "Rhomboids, trapezius, deltoids, serratus anterior, rotator cuff; stretches pectorals [1]"
+    ]
   ],
   "sections": [
     {
       "h": "Description",
       "paras": [
-        "The starting position places the elbows bent near 90 degrees in a W shape against the wall; the arms then slide overhead toward a V shape and return under control, with the aim of keeping continuous contact at every point [1]. Fitness descriptions recommend slow movement and a reduced range for people with limited mobility, and suggest a small pillow behind the head where forward head posture prevents the head touching the wall [1]."
+        "The starting position places the elbows bent near 90 degrees in a W shape against the wall; the arms then slide overhead toward a V shape and return under control, with the aim of keeping continuous contact at every point [1]. Fitness descriptions describe slow movement and a reduced range for people with limited mobility, and a small pillow behind the head where forward head posture prevents the head touching the wall [1]."
+      ]
+    },
+    {
+      "h": "Posture background",
+      "paras": [
+        "Wikipedia describes forward head posture as common among device users, linked to prolonged hunching, and notes proposed approaches include strengthening deep neck flexors and scapular retractors, stretching the upper trapezius, thoracic mobilisation and regular breaks, while flagging several treatment statements as needing better sourcing [3]. Research on posture and psychology reports that upright, confident postures affected self-evaluations in a 2009 study by Briñol, Petty and Wagner [4]."
       ]
     },
     {
       "h": "Clinical studies",
       "paras": [
-        "No studies found."
-      ]
-    },
-    {
-      "h": "Related background",
-      "paras": [
-        "Wikipedia notes that forward head posture, often combined with rounded shoulders, is common among device users and that proposed remedies include strengthening mid-back muscles and scapular retractors and thoracic mobilization; it also flags several of its treatment statements as needing better sourcing [2]."
+        "No studies found on wall angels specifically. A 2019 meta-analysis cited on Wikipedia linked forward head posture and neck pain in adults [3]."
       ]
     }
   ],
   "timeline": [],
   "lore": null,
   "refs": [
-    {"id": 1, "title": "Wall angels (Grokipedia)", "url": "https://grokipedia.com/page/Wall_angels", "source": "Grokipedia", "year": 2026, "type": "encyclopedia"},
-    {"id": 2, "title": "Forward head posture (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Forward_head_posture", "source": "Wikipedia", "year": 2026, "type": "encyclopedia"}
+    {
+      "id": 1,
+      "title": "Wall angels (Grokipedia)",
+      "url": "https://grokipedia.com/page/Wall_angels",
+      "source": "Grokipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Flame Free Confession III: Even More Flame Free (Part 1)",
+      "url": "https://t-nation.com/t/flame-free-confession-iii-even-more-flame-free-part-1/264067",
+      "source": "T Nation",
+      "year": 2020,
+      "type": "forum"
+    },
+    {
+      "id": 3,
+      "title": "Forward head posture",
+      "url": "https://en.wikipedia.org/wiki/Forward_head_posture",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 4,
+      "title": "Posture (psychology)",
+      "url": "https://en.wikipedia.org/wiki/Posture_(psychology)",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    }
   ],
   "webSources": [
-    {"url": "https://en.wikipedia.org/wiki/Forward_head_posture", "title": "Forward head posture (Wikipedia)"}
+    {
+      "url": "https://en.wikipedia.org/wiki/Forward_head_posture",
+      "title": "Forward head posture - Wikipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Posture_(psychology)",
+      "title": "Posture (psychology) - Wikipedia"
+    }
   ]
 }

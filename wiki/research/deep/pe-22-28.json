@@ -1,20 +1,142 @@
 {
-"name": "PE-22-28",
-"lead": ["PE-22-28 is a synthetic seven-residue peptide (Gly-Val-Ser-Trp-Gly-Leu-Arg) derived from spadin, an endogenous peptide fragment of the sortilin propeptide that blocks the TREK-1 potassium channel [1][2]. It was designed as a shorter, more potent and more stable analogue of spadin for antidepressant research.",
-"In rodent experiments it has produced antidepressant-like effects after short dosing periods, and it has been reported to last longer in vivo than spadin [1]. No human clinical trial has been published, and it is not an approved medicine. It is categorised in this wiki as a mood-related research peptide; the sources reviewed contain no community discussion of appearance uses."],
-"infobox": [["Class","TREK-1 (KCNK2) channel antagonist peptide"],["Sequence","GVSWGLR (7 amino acids)"],["Parent compound","Spadin (PE 12-28)"],["Status","Preclinical research compound; not approved"]],
-"sections": [
-{"h":"Pharmacology","subs":[{"h":"Origin and mechanism","paras":["Spadin (PE 12-28) was described as an endogenous peptide that specifically blocks the TREK-1 channel and shows antidepressant-like activity in animals; however, its effect in mice disappeared beyond about seven hours after administration [1]. Researchers therefore tested shortened analogues, reporting that PE-22-28 showed stronger TREK-1 inhibition, better in vivo stability and antidepressant-like activity compared with spadin [1].","Grokipedia, an AI-generated encyclopedia, describes PE-22-28 as the shortest efficient sequence, with a very low reported IC50 for TREK-1 and selectivity over other K2P channels; these figures should be read as secondary-source reports of the original study [2]."]}]},
-{"h":"Clinical studies","paras":["No studies found in humans. Published work is limited to cell and rodent experiments, including forced-swim and other behavioural tests and reports of increased hippocampal neurogenesis markers [1][2]."]},
-{"h":"Society and culture","paras":["PE-22-28 is sold by research-peptide vendors, but the sources reviewed contain no documented discussion of its use by looksmaxxing communities, and no regulatory approval for any use."]}
-],
-"timeline": [{"year":"2017","event":"Shortened spadin analogues including PE-22-28 reported with better TREK-1 inhibition, stability and antidepressant-like activity in rodents [1]."}],
-"lore": null,
-"card": {"summary":"A spadin-derived peptide studied in rodents as a fast-acting antidepressant; no human data and no appearance use documented.","aka":null,"evidence":"unproven","status":"research","risk":null,"price":null,"note":"Rodent data only; unapproved research peptide.","structure":null},
-"quick": {"overview":"PE-22-28 is a short peptide trimmed down from spadin, a natural fragment that blocks the TREK-1 potassium channel. It was designed to last longer and act more strongly than spadin.\n\nThe evidence is limited to mouse and rat experiments on depression-like behaviour. No human trials have been published.","mechanism":"It inhibits the TREK-1 channel, which helps set neurons' resting potential; blocking it is proposed to produce antidepressant-like effects.","risks":"Human safety is unknown. It is not approved for any use and is available only as a research chemical."},
-"refs": [
-{"id":1,"title":"Shortened Spadin Analogs Display Better TREK-1 Inhibition, In Vivo Stability and Antidepressant Activity.","url":"https://pubmed.ncbi.nlm.nih.gov/28955242/","source":"Frontiers in Pharmacology","year":2017,"type":"study"},
-{"id":2,"title":"PE-22-28 (Grokipedia)","url":"https://grokipedia.com/page/PE-22-28","source":"Grokipedia","year":2026,"type":"encyclopedia"}
-],
-"webSources": []
+  "name": "PE-22-28",
+  "card": {
+    "summary": "A spadin-derived peptide studied in rodents as a fast-acting antidepressant; no human data and no appearance use documented.",
+    "aka": null,
+    "evidence": "unproven",
+    "status": "research",
+    "risk": null,
+    "price": null,
+    "note": "Rodent data only; unapproved research peptide.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "PE-22-28 is a short peptide trimmed down from spadin, a natural fragment that blocks the TREK-1 potassium channel. It was designed to last longer and act more strongly than spadin.\n\nThe evidence is limited to mouse and rat experiments on depression-like behaviour. No human trials have been published.",
+    "mechanism": "It inhibits the TREK-1 channel, which helps set neurons' resting potential; blocking it is proposed to produce antidepressant-like effects.",
+    "risks": "Human safety is unknown. It is not approved for any use and is available only as a research chemical."
+  },
+  "lead": [
+    "PE-22-28 is a synthetic seven-residue peptide (Gly-Val-Ser-Trp-Gly-Leu-Arg) derived from spadin, a fragment of the sortilin propeptide that blocks the TREK-1 potassium channel.[1][2] It was designed in antidepressant research as a shorter, more potent and longer-acting analogue of spadin. It is listed here as a mood-related research peptide: the looks connection, as people who follow mood peptides describe it, runs through mood and motivation, which feed into how consistently someone keeps up training, sleep and grooming.",
+    "In mouse experiments, PE-22-28 reduced behaviours associated with depression in several tests after a few days of treatment, and its effect lasted longer than spadin's.[1] No human clinical trial has been published, and it is not an approved medicine.[1] It is sold by research-peptide vendors; the sources reviewed document no community discussion of direct appearance effects."
+  ],
+  "angle": {
+    "goal": "Mood and drive",
+    "chain": [
+      "TREK-1 channel blocked in the brain",
+      "Antidepressant-like behaviour in mice",
+      "Better mood and motivation could support consistent training, sleep and grooming"
+    ],
+    "effect": "claimed",
+    "text": "The compound is studied for mood, not for any direct change to the face or body. The link to appearance that its followers make is through mood and motivation supporting the habits behind a better look."
+  },
+  "infobox": [
+    [
+      "Class",
+      "TREK-1 (KCNK2) channel antagonist peptide[1]"
+    ],
+    [
+      "Sequence",
+      "GVSWGLR (7 amino acids)[1]"
+    ],
+    [
+      "Parent compound",
+      "Spadin (PE 12-28)[1]"
+    ],
+    [
+      "Reported TREK-1 potency",
+      "IC50 about 0.1 nM versus 40-60 nM for spadin (cell experiments)[1]"
+    ],
+    [
+      "Status",
+      "Preclinical research compound; not approved"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Pharmacology",
+      "subs": [
+        {
+          "h": "Origin and mechanism",
+          "paras": [
+            "Spadin (PE 12-28) was described as an endogenous peptide that specifically blocks the TREK-1 channel and shows antidepressant-like activity in animals, but its effect in mice disappeared beyond about seven hours after administration.[1] Researchers incubated spadin with mouse serum, identified its breakdown products and tested shortened fragments; PE 22-28 was the shortest sequence that stayed effective, and modified versions were then made and studied.[1]",
+            "TREK-1 (KCNK2) is a lipid-gated background potassium channel that helps set the resting membrane potential and is abundant in the brain and heart; it is being evaluated as a drug target in neurology and anaesthesiology.[3]"
+          ]
+        },
+        {
+          "h": "Potency and selectivity",
+          "paras": [
+            "In cell experiments, PE 22-28 inhibited TREK-1 with an IC50 of about 0.1 to 0.12 nM, compared with 40 to 60 nM for spadin, and did not inhibit TREK-2, TRAAK, TRESK, TASK-1 or hERG channels at the concentrations tested.[1]"
+          ]
+        },
+        {
+          "h": "Duration",
+          "paras": [
+            "In mice, the antidepressant-like effect of the analogues lasted much longer than that of spadin, with half-effect times of about 14 to 23 hours versus about 6 hours.[1]"
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Research findings in animals",
+      "paras": [
+        "The 2017 Frontiers in Pharmacology study reported reduced immobility in the forced swim test, shorter escape latencies in a learned-helplessness test and shorter latency to eat in novelty-suppressed feeding after a few days of treatment, with PE 22-28 matching spadin at a far lower dose.[1] Four days of treatment increased a marker of new cells in the hippocampus, and in cultured neurons the analogues raised a synaptic marker.[1]",
+        "The authors describe the peptides as promising alternatives to spadin and suggest they could be cheaper to make and have fewer side effects; these are preclinical findings in mice, and the side-effect point is inferred largely from channel selectivity data.[1] Grokipedia, an AI-generated encyclopedia, gives a similar summary and should be read as a secondary report of that study.[2]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found in humans. Published work is limited to cell and rodent experiments.[1]"
+      ]
+    },
+    {
+      "h": "Society and culture",
+      "paras": [
+        "PE-22-28 is sold by research-peptide vendors and has no regulatory approval for any use. The sources reviewed contain no documented looksmaxxing-community protocols for it."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2017",
+      "event": "Shortened spadin analogues including PE-22-28 reported with better TREK-1 inhibition, stability and antidepressant-like activity in rodents.[1]"
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Shortened Spadin Analogs Display Better TREK-1 Inhibition, In Vivo Stability and Antidepressant Activity",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28955242/",
+      "source": "Frontiers in Pharmacology",
+      "year": 2017,
+      "type": "study"
+    },
+    {
+      "id": 2,
+      "title": "PE-22-28 (Grokipedia)",
+      "url": "https://grokipedia.com/page/PE-22-28",
+      "source": "Grokipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "KCNK2",
+      "url": "https://en.wikipedia.org/wiki/KCNK2",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://www.frontiersin.org/articles/10.3389/fphar.2017.00643/full",
+      "title": "Shortened Spadin Analogs ... (Frontiers in Pharmacology full text)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/KCNK2",
+      "title": "KCNK2 - Wikipedia"
+    }
+  ]
 }

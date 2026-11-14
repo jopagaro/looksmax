@@ -1,46 +1,5 @@
 {
   "name": "Individual false lashes / magnetic lashes",
-  "lead": [
-    "False eyelashes are artificial lashes attached to or near the natural lash line to add length, volume or density. Common forms are strip lashes, individual lash extensions applied one at a time by a technician, and magnetic lashes that clamp onto the natural lashes without glue.[1]",
-    "Artificial lashes date back more than a century: a 1902-1903 British patent by Karl Nessler and a 1911 US patent by Anna Taylor are recorded, and magnetic lashes were invented in 2014 by Katy Stoka as a glue-free alternative.[1] No clinical studies of individual or magnetic lashes were found."
-  ],
-  "infobox": [
-    ["Type", "Cosmetic lash enhancement"],
-    ["Forms", "Strip, individual extensions, magnetic"],
-    ["Individual extension wear time", "About 3-4 weeks"],
-    ["Magnetic lashes invented", "2014 (Katy Stoka)"]
-  ],
-  "sections": [
-    {
-      "h": "Types",
-      "paras": [
-        "Strip lashes are synthetic, trimmable strips fixed above the natural lashes with temporary glue and removed with warm water or eye makeup remover.[1] Individual extensions are attached one by one to natural lashes with semi-permanent adhesive, usually by a technician over up to two hours, and last about three to four weeks.[1] Magnetic lashes use a magnetic strip that sandwiches the natural lashes, so no adhesive is needed, and they are reusable.[1]"
-      ]
-    },
-    {
-      "h": "History",
-      "paras": [
-        "A report from 1882 described Parisians sewing hair into the eyelids, and a 1899 newspaper account described a similar method as painful. Karl Nessler patented artificial lashes in the UK in 1902-1903, Anna Taylor patented a fabric-strip design in the US in 1911, and false lashes became popular in the early 1930s and again in the 1960s.[1] Magnetic lashes followed in 2014.[1]"
-      ]
-    },
-    {
-      "h": "Safety",
-      "paras": [
-        "Wikipedia notes that magnetic lashes may pose a hazard in MRI scanning rooms because of their magnets, and recounts that an actress's eyes swelled nearly shut after lashes were glued on for a 1916 film.[1] The page does not describe adhesive reactions in detail. A general review of contact dermatitis to cosmetics covers allergic reactions to cosmetic ingredients, though it does not address lashes specifically.[2]"
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": ["No studies found. Related laboratory work on lash cosmetics includes a 2020 formulation study of a curling mascara using a thermoresponsive polymer, which is not a study of false lashes.[3]"]
-    }
-  ],
-  "timeline": [
-    {"year": "1902", "event": "Karl Nessler patents artificial eyelashes in the UK.[1]"},
-    {"year": "1911", "event": "Anna Taylor patents false eyelashes in the US.[1]"},
-    {"year": "1960s", "event": "Doll-like double-lash looks popularised by Twiggy.[1]"},
-    {"year": "2014", "event": "Katy Stoka invents magnetic lashes.[1]"}
-  ],
-  "lore": null,
   "card": {
     "summary": "Glue-on or magnet-on artificial lashes for instant length and volume; the look is temporary and no clinical research exists.",
     "aka": "lash extensions, magnetic lashes",
@@ -55,12 +14,131 @@
     "mechanism": "Synthetic lashes are attached to or clamped around natural lashes, adding visible length and volume without changing the natural lash.",
     "risks": "Adhesives used for glued lashes can cause skin sensitivity in some people, and magnetic lashes may pose a hazard near MRI machines."
   },
+  "lead": [
+    "False eyelashes are artificial lashes attached to or near the natural lash line to add length, volume and density. Individual lash extensions are applied one at a time by a technician; magnetic lashes clamp onto the natural lashes without glue; strip lashes are glued on temporarily. People use them for an instantly fuller, darker lash line that makes the eyes look larger, more defined and more open [1].",
+    "Extensions are customised to the client's eye shape and natural lashes in material, length, colour and curl, with styles ranging from a natural classic set to a hybrid and a full volume set. Application can take up to two hours and a set typically lasts three to four weeks [1]. Magnetic lashes are reusable and need no adhesive [1].",
+    "Artificial lashes date back more than a century, and magnetic lashes were invented in 2014 by Katy Stoka [1]. Published research is mainly on adverse effects: a 2019 review of case reports found allergic blepharitis the most common complication linked to extensions [2]. No clinical study has tested the cosmetic effect itself."
+  ],
+  "angle": {
+    "goal": "Eyes",
+    "chain": [
+      "Artificial lashes added to the natural lash line",
+      "Longer, thicker, darker lashes frame the eye",
+      "Eyes look larger, more defined and more open"
+    ],
+    "effect": "direct",
+    "text": "Individual and magnetic lashes add visible length and density immediately, giving a made-up look without daily mascara. The result lasts as long as the set stays on: three to four weeks for extensions, one wear for reusable magnetic strips."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Cosmetic lash enhancement"
+    ],
+    [
+      "Forms",
+      "Strip, individual extensions, magnetic"
+    ],
+    [
+      "Extension wear time",
+      "About 3-4 weeks [1]"
+    ],
+    [
+      "Application time",
+      "Up to two hours for extensions [1]"
+    ],
+    [
+      "Magnetic lashes invented",
+      "2014 (Katy Stoka) [1]"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Types",
+      "paras": [
+        "Strip lashes are synthetic, trimmable strips fixed above the natural lashes with temporary glue and removed with warm water or eye makeup remover; they are not meant to be worn while showering, sleeping or swimming [1]. Individual extensions are attached one by one to natural lashes with semi-permanent adhesive, usually by a technician, using synthetic or natural lashes [1]. Magnetic lashes use a thin magnetic strip attached to the false lash that sandwiches the natural lashes, so no adhesive is needed, and they are reusable and affordable [1]."
+      ]
+    },
+    {
+      "h": "History",
+      "paras": [
+        "A report from 1882 described Parisians sewing hair into the eyelids, and a 1899 newspaper account described a similar method as painful. Karl Nessler patented artificial lashes in the UK in 1902-1903, Anna Taylor patented a fabric-strip design in the US in 1911, and false lashes became popular in the early 1930s and again in the 1960s [1]. Magnetic lashes followed in 2014 [1]."
+      ]
+    },
+    {
+      "h": "Safety and reported adverse effects",
+      "paras": [
+        "A 2019 review of eyelid cosmetic enhancements covered 53 eyelash extension cases drawn from 18 case reports: 42 allergic blepharitis, 4 keratoconjunctivitis, 3 conjunctival erosion, 2 contact dermatitis, 1 bacterial keratitis and 1 subconjunctival erosion. The authors link the allergic cases to allergens in acrylate adhesives, which can release formaldehyde, and note that bacteria can collect under the lash bed when hygiene is limited [2].",
+        "Wikipedia notes that magnetic lashes may pose a hazard in MRI scanning rooms because of their magnets, and recounts that an actress's eyes swelled nearly shut after lashes were glued on for a 1916 film [1]. A general review of contact dermatitis to cosmetics covers allergic reactions to cosmetic ingredients, though it does not address lashes specifically [3]."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found of the cosmetic effect of individual or magnetic lashes. Safety information comes from case reports collected in a 2019 review of eyelid cosmetic enhancements [2]. Related laboratory work on lash cosmetics includes a 2020 formulation study of a curling mascara using a thermoresponsive polymer, which is not a study of false lashes [4]."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1902",
+      "event": "Karl Nessler patents artificial eyelashes in the UK.[1]"
+    },
+    {
+      "year": "1911",
+      "event": "Anna Taylor patents false eyelashes in the US.[1]"
+    },
+    {
+      "year": "1960s",
+      "event": "Doll-like double-lash looks popularised by Twiggy.[1]"
+    },
+    {
+      "year": "2014",
+      "event": "Katy Stoka invents magnetic lashes.[1]"
+    }
+  ],
+  "lore": null,
   "refs": [
-    {"id": 1, "title": "Eyelash extensions", "url": "https://en.wikipedia.org/wiki/Eyelash_extensions", "source": "Wikipedia", "year": 2026, "type": "encyclopedia"},
-    {"id": 2, "title": "Contact Dermatitis to Cosmetics.", "url": "https://pubmed.ncbi.nlm.nih.gov/30421329/", "source": "Clinical reviews in allergy & immunology", "year": 2019, "type": "review"},
-    {"id": 3, "title": "Design of high-performance curling mascara through utilization of smart thermoresponsive polymer.", "url": "https://pubmed.ncbi.nlm.nih.gov/32516453/", "source": "International journal of cosmetic science", "year": 2020, "type": "study"}
+    {
+      "id": 1,
+      "title": "Eyelash extensions",
+      "url": "https://en.wikipedia.org/wiki/Eyelash_extensions",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Eyelid Cosmetic Enhancements and Their Associated Ocular Adverse Effects",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6592309",
+      "source": "Medical Hypothesis, Discovery and Innovation in Ophthalmology",
+      "year": 2019,
+      "type": "review"
+    },
+    {
+      "id": 3,
+      "title": "Contact Dermatitis to Cosmetics.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30421329/",
+      "source": "Clinical reviews in allergy & immunology",
+      "year": 2019,
+      "type": "review"
+    },
+    {
+      "id": 4,
+      "title": "Design of high-performance curling mascara through utilization of smart thermoresponsive polymer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32516453/",
+      "source": "International Journal of Cosmetic Science",
+      "year": 2020,
+      "type": "study"
+    }
   ],
   "webSources": [
-    {"url": "https://en.wikipedia.org/wiki/Eyelash_extensions", "title": "Eyelash extensions - Wikipedia"}
+    {
+      "url": "https://en.wikipedia.org/wiki/Eyelash_extensions",
+      "title": "Eyelash extensions"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6592309",
+      "title": "Eyelid Cosmetic Enhancements and Their Associated Ocular Adverse Effects"
+    }
   ]
 }

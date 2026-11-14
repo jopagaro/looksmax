@@ -1,14 +1,23 @@
 {
- "name": "Isolaz / pulsed light acne treatment",
  "lead": [
-  "Isolaz is a brand of in-office device that combines suction (vacuum) applied to the skin with pulses of broad-spectrum light, marketed for clogged pores and acne. In looksmaxxing communities it is discussed under the broader heading of pulsed-light treatments for acne-prone skin.",
-  "Intense pulsed light (IPL) is a technology that uses a flashlamp to emit light of roughly 400 to 1200 nm, filtered to exclude ultraviolet and long infrared wavelengths. Acne is among the conditions for which IPL is used, alongside hair removal, pigmentation and vascular lesions [1]. A general acne reference states that light and laser therapies are not first-line acne treatments and are usually used as add-ons because of cost and limited evidence [2].",
-  "Published information on the vacuum-assisted device specifically is thin, and this article is therefore short."
+  "Isolaz is a brand of in-office device that combines suction (vacuum) applied to the skin with pulses of broad-spectrum light, marketed for clogged pores and acne. It belongs to a category that studies call photopneumatic therapy. People use it to reduce pimples and blackheads and make skin look clearer and smoother, and it is discussed in looksmaxxing communities under the broader heading of pulsed-light treatments for acne-prone skin.",
+  "Small studies of the pneumatic-energy-plus-broadband-light approach report lesion reductions. An 11-person study found both inflammatory and non-inflammatory lesion counts fell significantly at three months,[3] and a 20-person split-face trial found significant reduction on the treated side after four sessions, with no severe side effects.[4]",
+  "The light component, intense pulsed light (IPL), is a technology that uses a flashlamp to emit light of roughly 400 to 1200 nm, filtered to exclude ultraviolet and long infrared wavelengths, and is used for acne, hair removal, pigmentation and vascular lesions.[1] A general acne reference states that light and laser therapies are not first-line acne treatments and are usually used as add-ons because of cost and limited evidence.[2]"
  ],
+ "angle": {
+  "goal": "Skin (acne and pores)",
+  "chain": [
+   "Vacuum draws material toward the surface while broadband light pulses are delivered",
+   "Pores are cleared and acne bacteria and inflammation are reduced",
+   "Fewer pimples and blackheads, smoother-looking skin"
+  ],
+  "effect": "direct",
+  "text": "The treatment is used in clinics to reduce active acne and congested pores over a short series of sessions, giving clearer-looking skin."
+ },
  "infobox": [
   [
    "Type",
-   "Vacuum-assisted intense pulsed light device"
+   "Vacuum-assisted intense pulsed light device (photopneumatic)"
   ],
   [
    "Setting",
@@ -16,65 +25,65 @@
   ],
   [
    "Related technology",
-   "Intense pulsed light (IPL), invented 1992 [1]"
+   "Intense pulsed light (IPL), invented 1992[1]"
+  ],
+  [
+   "Typical course in studies",
+   "Four sessions, 2 to 3 weeks apart[3][4]"
   ],
   [
    "Guideline position",
-   "Adjunct rather than first-line acne therapy [2]"
+   "Adjunct rather than first-line acne therapy[2]"
   ]
  ],
  "sections": [
   {
    "h": "Description",
    "paras": [
-    "IPL devices deliver filtered broad-spectrum light that is absorbed by melanin, hemoglobin and water in the skin [1]. Isolaz is described by proponents as pairing this light with vacuum suction to draw material from pores; sources reviewed here do not describe the device in technical detail."
+    "IPL devices deliver filtered broad-spectrum light that is absorbed by melanin, hemoglobin and water in the skin.[1] Photopneumatic devices pair this light with vacuum suction, which proponents say draws material from pores before the pulse is delivered."
    ]
   },
   {
    "h": "Effectiveness",
    "paras": [
-    "Wikipedia notes IPL as one of several treatments used for acne vulgaris and cites a 2010 study, without reporting its results [1]. Acne references describe blue light therapy benefit as unclear and light therapies as add-ons [2]."
+    "A 2008 single-group study of 11 people aged 15 to 54 with skin types I to IV and mild to moderate acne gave four treatments at three-week intervals; at three months inflammatory and non-inflammatory counts had fallen significantly and 9 of 11 were moderately to very satisfied.[3]",
+    "A 2012 open-label split-face trial of 20 adults used four sessions two weeks apart, with the untreated half of the face as comparison; the treated side showed significant lesion reduction and most patients had overall improvement.[4]",
+    "A Japanese study of pneumatic energy and broadband light with epidermal growth factor reported histological evidence of skin remodelling, including more collagen and elastin, in healthy volunteers.[5]",
+    "Wikipedia lists IPL among treatments used for acne vulgaris, while acne references describe light therapies as add-ons.[1][2]"
    ]
   },
   {
    "h": "Safety and risks",
    "paras": [
-    "Reported complications of IPL in general include hyperpigmentation, and photosensitizing medications and existing skin damage are listed contraindications. One manufacturer is cited as saying such devices suit light to medium skin tones best [1]."
+    "In the 2008 and 2012 studies, reported effects were pain, redness and swelling that diminished over time, with a few cases of purpura (bruising) or a temporary acne flare.[3][4] IPL in general carries a risk of hyperpigmentation; photosensitizing medications and existing skin damage are listed contraindications, and one manufacturer is cited as saying such devices suit light to medium skin tones best.[1]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found for the vacuum-assisted device in the sources reviewed. Studies of IPL for acne in general exist but are not summarised here [1]."
+    "Small trials of photopneumatic therapy include an 11-person single-group study,[3] a 20-person split-face trial,[4] and a histology study of volunteers.[5] No large randomised trial was found."
    ]
   }
  ],
  "timeline": [
   {
    "year": "1992",
-   "event": "Shimon Eckhouse invents intense pulsed light; patented 1995 [1]."
+   "event": "Shimon Eckhouse invents intense pulsed light; patented 1995.[1]"
   },
   {
    "year": "1995",
-   "event": "FDA approval of IPL for vascular lesions [1]."
+   "event": "FDA approval of IPL for vascular lesions.[1]"
+  },
+  {
+   "year": "2008",
+   "event": "Pilot study of pneumatic energy plus broadband light for acne published.[3]"
+  },
+  {
+   "year": "2012",
+   "event": "Split-face trial of photopneumatic therapy for acne published.[4]"
   }
  ],
  "lore": null,
- "card": {
-  "summary": "Vacuum plus pulsed light for clogged pores; a clinic add-on with thin public evidence behind it.",
-  "aka": null,
-  "evidence": "limited",
-  "outcome": null,
-  "risk": "moderate",
-  "price": null,
-  "note": "Light therapies are generally adjuncts; darker skin tones carry pigmentation risk with IPL.",
-  "structure": null
- },
- "quick": {
-  "overview": "Isolaz-style treatments pair suction on the skin with pulses of broad-spectrum light, and are offered in clinics for acne and congested pores.\n\nGeneral acne references describe light therapies as add-on options with limited evidence rather than first-line care.",
-  "mechanism": "IPL light is absorbed by pigment, blood and water in the skin; the vacuum component is said by proponents to help clear pores.",
-  "risks": "Reported IPL complications include hyperpigmentation, and certain medications and skin conditions are contraindications. Results depend on skin tone and the practitioner."
- },
  "refs": [
   {
    "id": 1,
@@ -91,6 +100,30 @@
    "source": "Wikipedia",
    "year": 2024,
    "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Efficacy of a novel combination of pneumatic energy and broadband light for the treatment of acne.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18664155/",
+   "source": "J Drugs Dermatol",
+   "year": 2008,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "An open-label, split-face trial evaluating efficacy and safty of photopneumatic therapy for the treatment of acne.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22879711/",
+   "source": "Ann Dermatol",
+   "year": 2012,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "Histological evidence for skin rejuvenation using a combination of pneumatic energy, broadband light, and growth factor therapy.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20825261/",
+   "source": "J Cosmet Laser Ther",
+   "year": 2010,
+   "type": "study"
   }
  ],
  "webSources": [
@@ -102,5 +135,21 @@
    "url": "https://en.wikipedia.org/wiki/Acne",
    "title": "Acne - Wikipedia"
   }
- ]
+ ],
+ "name": "Isolaz / pulsed light acne treatment",
+ "card": {
+  "summary": "Vacuum plus pulsed light for clogged pores; a clinic add-on with thin public evidence behind it.",
+  "aka": null,
+  "evidence": "limited",
+  "outcome": null,
+  "risk": "moderate",
+  "price": null,
+  "note": "Light therapies are generally adjuncts; darker skin tones carry pigmentation risk with IPL.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Isolaz-style treatments pair suction on the skin with pulses of broad-spectrum light, and are offered in clinics for acne and congested pores.\n\nGeneral acne references describe light therapies as add-on options with limited evidence rather than first-line care.",
+  "mechanism": "IPL light is absorbed by pigment, blood and water in the skin; the vacuum component is said by proponents to help clear pores.",
+  "risks": "Reported IPL complications include hyperpigmentation, and certain medications and skin conditions are contraindications. Results depend on skin tone and the practitioner."
+ }
 }

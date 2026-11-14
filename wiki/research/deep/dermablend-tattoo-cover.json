@@ -1,63 +1,131 @@
 {
-  "name": "Dermablend / tattoo cover",
-  "card": {
-    "summary": "High-coverage camouflage makeup used to hide tattoos, scars and discoloration; effects are cosmetic and temporary.",
-    "aka": "Dermablend, Covermark, cover-up makeup, tattoo concealer",
-    "evidence": "limited",
-    "status": null,
-    "outcome": "temporary",
-    "risk": null,
-    "price": null,
-    "note": "No clinical efficacy data found; coverage wears off and needs reapplication.",
-    "structure": null
-  },
-  "quick": {
-    "overview": "Dermablend is a brand of high-coverage camouflage makeup, and \"tattoo cover\" refers to concealers of this type used to mask tattoos, scars, birthmarks and discoloration on the face or body.\n\nWikipedia describes cosmetic camouflage as creams or powders that hide color or texture irregularities, first developed by plastic surgeons during World War II for burns. No published trials of specific products were found.",
-    "mechanism": "Opaque, pigment-rich creams or powders are applied over the skin to match surrounding skin tone and hide underlying color. Color-correcting shades such as green are suggested to neutralise redness.[1]",
-    "risks": "Wikipedia's article does not list specific risks. As with other cosmetics, ingredients can cause irritation or allergic reactions in some people, and the makeup wears off and must be reapplied."
-  },
-  "lead": [
-    "Tattoo cover products are camouflage makeups designed to conceal tattoos, scars, vitiligo patches, bruises and other skin irregularities with heavier coverage than everyday foundation. Dermablend is one commercial brand in this category.",
-    "Wikipedia's cosmetic camouflage article says these creams were first developed by plastic surgeons during World War II to cover severe burns on pilots, and that the approach may reduce the psychological impact of skin imperfections; the article gives no clinical efficacy data and does not discuss specific brands.[1]"
+ "name": "Dermablend / tattoo cover",
+ "card": {
+  "summary": "High-coverage camouflage makeup used to hide tattoos, scars and discoloration; effects are cosmetic and temporary.",
+  "aka": "Dermablend, Covermark, cover-up makeup, tattoo concealer",
+  "evidence": "limited",
+  "status": null,
+  "outcome": "temporary",
+  "risk": null,
+  "price": null,
+  "note": "No clinical efficacy data found; coverage wears off and needs reapplication.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Dermablend is a brand of high-coverage camouflage makeup, and \"tattoo cover\" refers to concealers of this type used to mask tattoos, scars, birthmarks and discoloration on the face or body.\n\nWikipedia describes cosmetic camouflage as creams or powders that hide color or texture irregularities, first developed by plastic surgeons during World War II for burns. No published trials of specific products were found.",
+  "mechanism": "Opaque, pigment-rich creams or powders are applied over the skin to match surrounding skin tone and hide underlying color. Color-correcting shades such as green are suggested to neutralise redness.[1]",
+  "risks": "Wikipedia's article does not list specific risks. As with other cosmetics, ingredients can cause irritation or allergic reactions in some people, and the makeup wears off and must be reapplied."
+ },
+ "lead": [
+  "Dermablend is a brand of high-coverage camouflage makeup, and tattoo cover refers to opaque concealers of this type used to hide tattoos, scars, birthmarks, vitiligo, redness and other discoloration on the face or body. People use them to present clearer, more even-looking skin or to leave a tattoo unseen for a photo, job or event.[1]",
+  "Cosmetic camouflage, also called cover or corrective makeup, uses creams or powders to conceal color or texture irregularities. Wikipedia says the first camouflage creams were developed by plastic surgeons during World War II to cover severe burns on fighter pilots, and that men, women and children now use them.[1]",
+  "Dermablend has been used in published dermatology studies. A study of 73 women with facial pigmentary disorders reported improved Skindex-16 quality-of-life scores that continued through three months, and a 30-patient program tested a Dermablend concealer on post-procedure bruising.[2][3]"
+ ],
+ "angle": {
+  "goal": "Skin clarity",
+  "chain": [
+   "Apply opaque, pigment-rich cover makeup",
+   "Underlying tattoo, scar or discoloration is masked",
+   "Skin tone looks even"
   ],
-  "infobox": [
-    ["Type", "Camouflage makeup"],
-    ["Uses", "Tattoos, scars, vitiligo, birthmarks, bruises"],
-    ["Duration", "Temporary; removed by washing"],
-    ["Origin of category", "World War II burn camouflage creams"]
+  "effect": "direct",
+  "text": "The product hides what is on the skin surface by matching surrounding skin tone, so a tattoo, scar, birthmark or area of redness looks less visible while the makeup is worn. People use it for evenness in photos, events and everyday wear."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Camouflage makeup / concealer"
   ],
-  "sections": [
-    {
-      "h": "Description",
-      "paras": [
-        "Cosmetic camouflage refers to creams or powders used to hide color or texture irregularities on the face or body. It is also called cover makeup or corrective makeup, and is used for vitiligo, scars, tattoos, burns, acne, stretch marks, bruises, birthmarks and rosacea by men, women and children.[1]"
-      ]
-    },
-    {
-      "h": "History",
-      "paras": [
-        "According to Wikipedia, cosmetic camouflage creams were first developed by plastic surgeons during World War II to cover severe burns on fighter pilots.[1]"
-      ]
-    },
-    {
-      "h": "Use and limitations",
-      "paras": [
-        "For redness, the article suggests a green concealer applied sparingly to neutralise the color.[1] Camouflage makeup is not permanent and does not change the underlying skin or tattoo. Product-specific claims by manufacturers were not reviewed here."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found."
-      ]
-    }
+  [
+   "Brand",
+   "Dermablend"
   ],
-  "timeline": [],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Cosmetic camouflage (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Cosmetic_camouflage", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" }
+  [
+   "Used for",
+   "Tattoos, scars, vitiligo, redness, bruising, birthmarks"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Cosmetic_camouflage", "title": "Cosmetic camouflage - Wikipedia" }
+  [
+   "Effect",
+   "Cosmetic, lasts until removed or worn off"
+  ],
+  [
+   "Concept origin",
+   "Plastic-surgeon burn camouflage creams, WWII"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Cosmetic camouflage refers to creams or powders that hide color or texture irregularities, and covers angiomas, redness, telangiectasia, vitiligo, sunspots, acne, burns, stretch marks, scars, bruises, rosacea and tattoos. Wikipedia adds that it may reduce the psychological impact of skin imperfections.[1]",
+    "For redness, Wikipedia's article describes using a green concealer sparingly to neutralize the color.[1]"
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "According to Wikipedia, the first camouflage creams were developed by plastic surgeons during World War II for burns on fighter pilots.[1]"
+   ]
+  },
+  {
+   "h": "Use for tattoos and skin concealment",
+   "paras": [
+    "Tattoo cover products are layered to match the surrounding skin tone over inked areas. Because the makeup sits on the surface, the tattoo itself is unchanged and the cover can be removed at the end of the day.[1]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A study of 73 women with severe facial pigmentary disorders, including acne, hypopigmentation, lentigines, melasma, rosacea, vascular proliferations and scars, applied Dermablend corrective cosmetic and assessed 63 with the Skindex-16. Scores improved and the improvement continued, reaching 30 percent at three months, and the product was well tolerated.[2]",
+    "A user experience program in 30 women with post-procedural bruising tested Dermablend Professional Cover Care Full Coverage Concealer. Users needed on average 1.55 coats; 78.18 percent displayed clear skin with no erythema and 21.82 percent almost clear skin with slight redness, and no physician-reported adverse events related to the product were reported.[3]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1939-1945",
+   "event": "Plastic surgeons develop the first camouflage creams for burned fighter pilots.[1]"
+  },
+  {
+   "year": "2005",
+   "event": "Cutis study reports quality-of-life improvement in women using Dermablend for facial pigmentary disorders.[2]"
+  },
+  {
+   "year": "2021",
+   "event": "Journal of Cosmetic Dermatology reports a Dermablend concealer program for post-procedural bruising.[3]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Cosmetic camouflage",
+   "url": "https://en.wikipedia.org/wiki/Cosmetic_camouflage",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Corrective cosmetics are effective for women with facial pigmentary disorders",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15839363/",
+   "source": "Cutis",
+   "year": 2005,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "The safety and efficacy of a cosmetic camouflaging agent for post-procedural bruising",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34741580/",
+   "source": "Journal of Cosmetic Dermatology",
+   "year": 2021,
+   "type": "study"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Cosmetic_camouflage",
+   "title": "Cosmetic camouflage"
+  }
+ ]
 }

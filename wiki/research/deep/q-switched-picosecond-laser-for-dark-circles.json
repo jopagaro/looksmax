@@ -1,60 +1,184 @@
 {
-  "name": "Q-switched / picosecond laser for dark circles",
-  "card": {
-    "summary": "Short-pulse pigment lasers used on periorbital darkness; a real dermatology tool for pigment, with little published under-eye evidence found here.",
-    "aka": "Q-switched Nd:YAG, picosecond laser, laser toning",
-    "evidence": "limited",
-    "risk": "moderate",
-    "note": "Pigment lasers are clinic procedures; side effects were not covered in the sources reviewed.",
-    "price": null
-  },
-  "quick": {
-    "overview": "Q-switched and picosecond lasers deliver extremely short, intense pulses of light. In dermatology they are used on tattoos and on dark spots and other pigmentation problems, and some people apply the idea to periorbital hyperpigmentation, the pigment-type dark circle.\n\nThe sources reviewed for this entry include no trials of these lasers for dark circles, so evidence for that use is described as limited.",
-    "mechanism": "Q-switching stores energy in the laser and releases it as one giant short pulse. In tattoo work the pulses shatter ink into particles the body clears; the same pulse physics is applied to pigment. A picosecond laser was introduced in 2013 for hard-to-remove inks.",
-    "risks": "The sources reviewed do not discuss side effects. Periorbital skin is thin and close to the eye, so laser procedures there are done by clinicians; no regulatory details specific to this use are given here."
-  },
-  "lead": [
-    "Q-switched and picosecond lasers are short-pulse lasers used in dermatology to treat tattoos and pigmentation. In appearance communities they are discussed as a treatment for periorbital hyperpigmentation, the dark-pigment type of under-eye circles.",
-    "Q-switching produces short, intense pulses by blocking feedback in the laser cavity while energy accumulates, then releasing it at once [1]. Q-switched lasers, with Nd:YAG types the most commonly favored, are used for tattoo removal and also to treat dark spots and other pigmentation problems [1]. A picosecond laser was introduced in 2013 for hard-to-clear inks, according to Wikipedia, which does not cite a source for the claim [1].",
-    "Periorbital hyperpigmentation is described as an inherited trait of extra melanin, most prevalent at ages 16 to 25 [2]. No published studies of these lasers for dark circles were located for this article."
+ "lead": [
+  "Q-switched and picosecond lasers are short-pulse lasers that dermatologists use on tattoos and pigmentation. In appearance communities they are discussed as a way to lighten periorbital hyperpigmentation, the brown-pigment type of dark circle, so the skin under the eyes looks more even in tone and the face looks more rested.[1][2][2]",
+  "Q-switching builds up energy inside the laser and then releases it as a single, very short, intense pulse.[1] Q-switched lasers, with Nd:YAG types commonly favoured, are used for tattoo removal and for dark spots and other pigmentation problems.[1] Wikipedia dates the picosecond tattoo laser to 2013.[1] The pulses are meant to break pigment into particles that the body then clears.[1]",
+  "Dark circles have many causes, including thin skin showing blood vessels, hollowing, allergies and rubbing, and extra melanin around the eyes. Only the pigment type is the natural target for pigment lasers.[2][3] Dermatology literature discusses Q-switched Nd:YAG lasers for conditions such as melasma, lentigines and freckles, and a French review notes lasers are very effective for many hyperpigmented lesions but not for all kinds of pigmentation.[4][5]"
+ ],
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "Short laser pulses target melanin",
+   "Pigment is fragmented and cleared over sessions",
+   "Under-eye skin tone looks lighter and more even"
   ],
-  "infobox": [
-    ["Type", "Laser procedure"],
-    ["Laser classes", "Q-switched (e.g. Nd:YAG), picosecond [1]"],
-    ["Target", "Periorbital hyperpigmentation"],
-    ["Setting", "Dermatology clinic"],
-    ["Evidence for site", "Limited"]
+  "effect": "claimed",
+  "text": "People with brown, pigment-type dark circles look at pigment lasers to even out the skin under the eyes. The treatment is done in a dermatology clinic over a series of sessions."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Laser procedure"
   ],
-  "sections": [
-    {
-      "h": "Description",
-      "paras": [
-        "In active Q-switching an external switch controls release of stored laser energy; in passive Q-switching a saturable absorber does so. Compared with mode locking, Q-switching yields lower repetition rates and higher pulse energy [1]. In tattoo treatment the pulses fragment ink particles that the lymphatic system removes, and full removal typically takes many sessions spaced at least a month apart [1]."
-      ]
-    },
-    {
-      "h": "Use in looksmaxxing",
-      "paras": [
-        "People who discuss under-eye darkness as a hardmaxxing topic list pigment lasers alongside peels and microneedling as options for periorbital pigment. No community thread material was available for this article, so specific claims are not documented here."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found."
-      ]
-    }
+  [
+   "Laser classes",
+   "Q-switched (for example Nd:YAG), picosecond[1]"
   ],
-  "timeline": [
-    { "year": "2013", "event": "Picosecond tattoo laser introduced, per Wikipedia (uncited there) [1]." }
+  [
+   "Target",
+   "Periorbital hyperpigmentation (melanin)"
   ],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Q-switching", "url": "https://en.wikipedia.org/wiki/Q-switching", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Periorbital hyperpigmentation", "url": "https://en.wikipedia.org/wiki/Periorbital_hyperpigmentation", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" }
+  [
+   "Setting",
+   "Dermatology clinic"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Q-switching", "title": "Q-switching - Wikipedia" },
-    { "url": "https://en.wikipedia.org/wiki/Periorbital_hyperpigmentation", "title": "Periorbital hyperpigmentation - Wikipedia" }
+  [
+   "Sessions",
+   "Tattoo work typically takes many sessions at least a month apart[1]"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "In active Q-switching an external switch controls release of stored laser energy; in passive Q-switching a saturable absorber does so. Compared with mode locking, Q-switching yields lower repetition rates and higher pulse energy.[1] In tattoo treatment, the pulses fragment ink particles that the lymphatic system clears, and full removal typically takes many sessions.[1]",
+    "Periorbital hyperpigmentation is described as an inherited trait of extra melanin, most prevalent at ages 16 to 25.[2] Wikipedia's overview of dark circles lists thin skin, bony structure, allergies, sun exposure, ageing and other contributors alongside pigment, and names lasers and intense pulsed light among specialist treatments.[3]"
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing",
+   "paras": [
+    "People who discuss under-eye darkness as a hardmaxxing topic list pigment lasers alongside peels, topical brighteners and microneedling as clinic options for the pigment type of dark circle. Hydroquinone, once common in lightening creams, has been restricted in Europe and lost over-the-counter approval in the US in 2006, according to Wikipedia.[3]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found that test Q-switched or picosecond lasers specifically for under-eye dark circles in a reliable trial. A 2024 randomized trial that compared stromal vascular fraction, platelet-rich plasma and a 1064-nm Q-switched Nd:YAG laser for infraorbital dark circles has been retracted.[6]",
+    "Related research covers other pigmentation. A French review reports that lasers are a standard treatment for actinic lentigos and dermal hypermelanocytosis such as Ota nevus, that freckles and cafe-au-lait macules relapse almost constantly, and that Q-switched lasers at standard parameters are not recommended for melasma because of relapses and post-inflammatory hyperpigmentation.[4] A 2009 trial of 45 Egyptian patients compared hydroquinone, trichloroacetic acid peels and frequency-doubled Q-switched Nd:YAG laser for melasma.[7] A 2024 randomized trial compared home-based 590 nm LED with in-hospital 1064 nm Q-switched Nd:YAG for facial melasma,[8] and a 2025 trial studied Q-switched Nd:YAG combined with medical therapy for hyperpigmentation.[9] A 2023 split-lesion trial compared picosecond and Q-switched 532 nm Nd:YAG lasers for ephelides (freckles).[10]"
+   ]
+  },
+  {
+   "h": "Reported risks",
+   "paras": [
+    "Dermatology reviews associate Q-switched lasers on melasma with relapse and post-inflammatory hyperpigmentation.[4] The skin around the eyes is thin and close to the eye, which is why laser work in the area is performed by trained clinicians.[3]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2013",
+   "event": "Picosecond tattoo laser introduced, per Wikipedia.[1]"
+  },
+  {
+   "year": "2023",
+   "event": "Randomized trial compares picosecond and Q-switched 532 nm lasers for freckles.[10]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Q-switching",
+   "url": "https://en.wikipedia.org/wiki/Q-switching",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Periorbital hyperpigmentation",
+   "url": "https://en.wikipedia.org/wiki/Periorbital_hyperpigmentation",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Periorbital dark circles",
+   "url": "https://en.wikipedia.org/wiki/Periorbital_dark_circles",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Lasers (hyperpigmented lesions)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23260518/",
+   "source": "Annales de Dermatologie et de Venereologie",
+   "year": 2012,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Melasma and Post Inflammatory Hyperpigmentation: Management Update and Expert Opinion",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27224897/",
+   "source": "Skin Therapy Letter",
+   "year": 2016,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "SVF, PRP and 1064-nm Q-switched Nd:YAG laser for infraorbital dark circles (retracted)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38899793/",
+   "source": "Skin Research and Technology",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Melasma: treatment evaluation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19340686/",
+   "source": "Journal of Cosmetic and Laser Therapy",
+   "year": 2009,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Home-based 590 nm LED and in-hospital 1064 nm Q-switched Nd:YAG laser for facial melasma",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37703182/",
+   "source": "JEADV",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Multimodality Management of Skin Hyperpigmentation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40301200/",
+   "source": "Aesthetic Plastic Surgery",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Picosecond vs Q-switched 532-nm Nd:YAG laser for ephelides",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36225086/",
+   "source": "Journal of Cosmetic Dermatology",
+   "year": 2023,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Q-switching",
+   "title": "Q-switching - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Periorbital_hyperpigmentation",
+   "title": "Periorbital hyperpigmentation - Wikipedia"
+  }
+ ],
+ "name": "Q-switched / picosecond laser for dark circles",
+ "card": {
+  "summary": "Short-pulse pigment lasers used on periorbital darkness; a real dermatology tool for pigment, with little published under-eye evidence found here.",
+  "aka": "Q-switched Nd:YAG, picosecond laser, laser toning",
+  "evidence": "limited",
+  "risk": "moderate",
+  "note": "Pigment lasers are clinic procedures; side effects were not covered in the sources reviewed.",
+  "price": null
+ },
+ "quick": {
+  "overview": "Q-switched and picosecond lasers deliver extremely short, intense pulses of light. In dermatology they are used on tattoos and on dark spots and other pigmentation problems, and some people apply the idea to periorbital hyperpigmentation, the pigment-type dark circle.\n\nThe sources reviewed for this entry include no trials of these lasers for dark circles, so evidence for that use is described as limited.",
+  "mechanism": "Q-switching stores energy in the laser and releases it as one giant short pulse. In tattoo work the pulses shatter ink into particles the body clears; the same pulse physics is applied to pigment. A picosecond laser was introduced in 2013 for hard-to-remove inks.",
+  "risks": "The sources reviewed do not discuss side effects. Periorbital skin is thin and close to the eye, so laser procedures there are done by clinicians; no regulatory details specific to this use are given here."
+ }
 }

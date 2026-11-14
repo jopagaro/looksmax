@@ -1,19 +1,178 @@
 {
-"name":"Posture Botox / muscle relaxants",
-"card":{"summary":"Injecting botulinum toxin into neck or trapezius muscles for tension; established for some neck conditions, untested as a posture or looks tool.","aka":"Trapezius Botox","evidence":"unproven","outcome":null,"risk":"moderate","price":null,"note":"Prescription-only; toxin spread can weaken unintended muscles.","structure":null},
-"quick":{"overview":"Botulinum toxin injected into neck or shoulder muscles is discussed as a way to ease tension. Botulinum toxin is established for conditions such as cervical dystonia and muscle spasticity.\n\nNo trial found tests it for posture correction or appearance in otherwise healthy people.","mechanism":"The toxin blocks acetylcholine release at the neuromuscular junction, causing temporary muscle weakness that reverses as nerves regenerate.","risks":"Adverse effects include spread to unintended muscles, weakness, swallowing trouble and allergic reactions, and the US FDA added boxed warnings about toxin spread in 2009. It is prescription-only in the US, UK, Canada, Australia and EU."},
-"lead":["Posture Botox refers to the use of botulinum toxin injections in neck or trapezius muscles for tension. Botulinum toxin is an acetylcholine release inhibitor that causes flaccid paralysis of the injected muscle, with the effect slowly reversing as the nerve regenerates.[1]","Its established medical uses include cervical dystonia, with type B approved by the FDA in 2000, and other muscle spasticity and spasm conditions; the Wikipedia article does not list trapezius or general neck tension as a specific indication.[1] Many therapeutic uses are off-label in the US.[1]","No study identified has tested botulinum toxin for improving posture or appearance in healthy people."],
-"infobox":[["Drug class","Neuromuscular blocking agent"],["Route","Injection by a clinician"],["Cosmetic effect duration","Typically 2 to 4 months[1]"],["Legal status","Prescription-only (US, UK, Canada, Australia, EU)[1]"]],
-"sections":[
-{"h":"Medical and cosmetic background","paras":["Botulinum toxin is used for spasticity in cerebral palsy, stroke and spinal cord injury, cervical dystonia, chronic migraine prophylaxis (FDA-approved 2010) and other conditions.[1] Cosmetic use, mainly for glabellar lines, was FDA-approved in 2002.[1]"]},
-{"h":"Adverse effects","paras":["Spread of toxin can cause weakness of unintended muscles, trouble swallowing, headaches, flu-like symptoms and allergic reactions, and the FDA added boxed warnings about toxin spread in 2009.[1]"]},
-{"h":"Clinical studies","paras":["No studies found for posture or appearance use. A registered trial of a different botulinum toxin product studied musicians with focal dystonia, a separate condition.[2]"]}
-],
-"timeline":[{"year":"1989","event":"FDA approves Botox.[1]"},{"year":"2000","event":"Type B toxin approved for cervical dystonia.[1]"},{"year":"2002","event":"FDA approves cosmetic use for glabellar lines.[1]"},{"year":"2009","event":"FDA adds boxed warnings about toxin spread.[1]"}],
-"lore":null,
-"refs":[
-{"id":1,"title":"Botulinum toxin","url":"https://en.wikipedia.org/wiki/Botulinum_toxin","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":2,"title":"Quantifying Musical Performance After Treatment With Myobloc in Musician's Dystonia (NCT00208091)","url":"https://clinicaltrials.gov/study/NCT00208091","source":"ClinicalTrials.gov","year":2003,"type":"trial"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Botulinum_toxin","title":"Botulinum toxin - Wikipedia"}]
+  "name": "Posture Botox / muscle relaxants",
+  "card": {
+    "summary": "Injecting botulinum toxin into neck or trapezius muscles for tension; established for some neck conditions, untested as a posture or looks tool.",
+    "aka": "Trapezius Botox",
+    "evidence": "unproven",
+    "outcome": null,
+    "risk": "moderate",
+    "price": null,
+    "note": "Prescription-only; toxin spread can weaken unintended muscles.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "Botulinum toxin injected into neck or shoulder muscles is discussed as a way to ease tension. Botulinum toxin is established for conditions such as cervical dystonia and muscle spasticity.\n\nNo trial found tests it for posture correction or appearance in otherwise healthy people.",
+    "mechanism": "The toxin blocks acetylcholine release at the neuromuscular junction, causing temporary muscle weakness that reverses as nerves regenerate.",
+    "risks": "Adverse effects include spread to unintended muscles, weakness, swallowing trouble and allergic reactions, and the US FDA added boxed warnings about toxin spread in 2009. It is prescription-only in the US, UK, Canada, Australia and EU."
+  },
+  "lead": [
+    "Posture Botox, sometimes called trapezius Botox, is the use of botulinum toxin injections in the neck and trapezius muscles, mainly to relieve muscle tension. In appearance-minded circles the idea is that relaxing a tight upper trapezius and neck can ease the hunched, tense look and soften the neck-shoulder line, and that less tension may let people hold themselves more upright. Botulinum toxin blocks acetylcholine release at the nerve-muscle junction, causing the injected muscle to relax, with the effect reversing as the nerve regenerates [1].",
+    "The established uses are medical. Wikipedia lists head and neck spasm and cervical dystonia, with type B toxin approved by the FDA for cervical dystonia in December 2000, and notes that some injections into arthritic shoulders have been reported to reduce chronic pain and improve range of motion [1]. Botox Cosmetic was approved for frown lines in 2002 [1]. Wikipedia's article on the trapezius describes it as the muscle whose upper fibres elevate the scapula and which stabilises shoulder-blade movement, and notes trapezius palsy produces a drooping shoulder [3].",
+    "No study identified has tested botulinum toxin for improving posture or appearance in healthy people. Oral muscle relaxants, a separate drug group, appear in forum discussions as a way to ease back tension [4]."
+  ],
+  "angle": {
+    "goal": "Posture",
+    "chain": [
+      "Toxin relaxes injected neck or trapezius muscle",
+      "Muscle tension and guarding ease for weeks to months",
+      "Neck and shoulders may look and sit more relaxed"
+    ],
+    "effect": "claimed",
+    "text": "People interested in posture Botox hope that relaxing an overactive trapezius reduces the hunched, tense look of the neck and shoulders. A clinician performs the injections, and results are described as temporary."
+  },
+  "infobox": [
+    [
+      "Drug class",
+      "Neuromuscular blocking agent (botulinum toxin)"
+    ],
+    [
+      "Route",
+      "Injection by a clinician"
+    ],
+    [
+      "Typical duration",
+      "Glabellar-line effects last 2 to 4 months, sometimes longer [1]"
+    ],
+    [
+      "Legal status",
+      "Prescription-only"
+    ],
+    [
+      "Related uses",
+      "Cervical dystonia, spasm, migraine prevention [1]"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Medical and cosmetic background",
+      "paras": [
+        "Botulinum toxin is used for spasticity, cervical dystonia, chronic migraine (FDA-approved 2010) and other conditions, and cosmetically for glabellar lines (2002) [1]. It is also used to relax clenched muscles such as the jaw in bruxism and, cosmetically, the masseter and upper-lip elevators [1]. Many therapeutic uses are off-label in the US [1]."
+      ]
+    },
+    {
+      "h": "Pharmacology",
+      "paras": [
+        "The toxin binds nerve terminals, enters by endocytosis, and its light chain cleaves SNARE proteins such as SNAP-25, blocking acetylcholine release and producing flaccid paralysis. Recovery occurs as the proteins regenerate [1]."
+      ]
+    },
+    {
+      "h": "Adverse effects",
+      "paras": [
+        "Toxin spread from the injection site can weaken unintended muscles and cause trouble swallowing, facial weakness or double vision; the FDA added boxed warnings about toxin spread in 2009 [1]. Bruising comes from the injection itself [1]."
+      ]
+    },
+    {
+      "h": "History",
+      "paras": [
+        "Alan B. Scott developed the strabismus use in the 1970s, treating patients from 1977 and reporting results in 1980; Allergan later acquired the product as Botox. Richard Clark described cosmetic forehead use in 1989, and the Carruthers published a glabellar wrinkle study in 1992 [1]."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found for posture or appearance use in healthy people. Evidence reviews cover neck pain and dystonia as medical conditions [5][6], and a registered trial of a different botulinum toxin product studied musicians with focal dystonia, a separate condition [2]. A 2024 randomized trial examined topical lidocaine for mechanical cervical pain, which is a different treatment [7]."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1980",
+      "event": "Alan Scott reports botulinum toxin results for strabismus [1]."
+    },
+    {
+      "year": "1989",
+      "event": "FDA approves Botox for strabismus and blepharospasm [1]."
+    },
+    {
+      "year": "2000",
+      "event": "Type B toxin approved for cervical dystonia [1]."
+    },
+    {
+      "year": "2002",
+      "event": "FDA approves cosmetic use for glabellar lines [1]."
+    },
+    {
+      "year": "2009",
+      "event": "FDA adds boxed warnings about toxin spread [1]."
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Botulinum toxin",
+      "url": "https://en.wikipedia.org/wiki/Botulinum_toxin",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Quantifying Musical Performance After Treatment With Myobloc in Musician's Dystonia (NCT00208091)",
+      "url": "https://clinicaltrials.gov/study/NCT00208091",
+      "source": "ClinicalTrials.gov",
+      "year": 2003,
+      "type": "trial"
+    },
+    {
+      "id": 3,
+      "title": "Trapezius",
+      "url": "https://en.wikipedia.org/wiki/Trapezius",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 4,
+      "title": "Simo - The Red Shoe Diaries Part 2.0",
+      "url": "https://t-nation.com/t/simo-the-red-shoe-diaries-part-2-0/293018",
+      "source": "T Nation",
+      "year": 2026,
+      "type": "forum"
+    },
+    {
+      "id": 5,
+      "title": "Neck pain",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19445809/",
+      "source": "BMJ Clinical Evidence",
+      "year": 2008,
+      "type": "review"
+    },
+    {
+      "id": 6,
+      "title": "Dystonia",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21663705/",
+      "source": "BMJ Clinical Evidence",
+      "year": 2011,
+      "type": "review"
+    },
+    {
+      "id": 7,
+      "title": "Multicenter, Randomized, Placebo-controlled Crossover Trial Evaluating Topical Lidocaine for Mechanical Cervical Pain",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38079112/",
+      "source": "Anesthesiology",
+      "year": 2024,
+      "type": "trial"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Botulinum_toxin",
+      "title": "Botulinum toxin - Wikipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Trapezius",
+      "title": "Trapezius - Wikipedia"
+    }
+  ]
 }

@@ -1,15 +1,182 @@
 {
-"name": "Liposomal IGF-1",
-"lead":["Liposomal IGF-1 refers to insulin-like growth factor 1 packaged in liposomes for topical application to the scalp. IGF-1 is a growth factor made mainly by dermal papilla cells in hair-bearing skin; a 2025 review reports that it stimulates follicle proliferation and vascularization and promotes the growth (anagen) phase through PI3K/Akt and MAPK/ERK signalling. [1]","Community interest rests largely on animal and laboratory work. No clinical trial of a liposomal topical IGF-1 for hair loss appears among the sources reviewed."],
-"infobox":[["Type","Topical growth factor (liposomal formulation)"],["Target","Hair follicle dermal papilla"],["Evidence","Laboratory and animal research [1]"],["Status","Unapproved for hair"]],
-"sections":[
-{"h":"Mechanism","paras":["The 2025 review describes IGF-1 as inhibiting apoptosis, prolonging the follicular growth phase and increasing VEGF expression, which supports microcirculation around the follicle. [1]"]},
-{"h":"Other topical uses of IGF-1","paras":["Topical IGF-1 has been tested outside hair: a randomized trial in the middle ear used IGF-1-impregnated gelatin hydrogels for sudden deafness refractory to corticosteroids. That work concerns hearing, not hair, and is not evidence about scalp use. [2][3]"]},
-{"h":"Clinical studies","paras":["No studies found. Mechanistic and preclinical literature on IGF-1 in hair regeneration exists, [1] but no human trial of a liposomal scalp product was located."]}],
-"timeline":[],
-"lore":null,
-"refs":[{"id":1,"title":"Insulin-like Growth Factor 1 (IGF-1) in Hair Regeneration: Mechanistic Pathways and Therapeutic Potential","url":"https://pubmed.ncbi.nlm.nih.gov/41020895/","source":"Curr Issues Mol Biol","year":2025,"type":"review"},{"id":2,"title":"A randomized controlled clinical trial of topical IGF-1 therapy for sudden deafness refractory to systemic corticosteroid treatment","url":"https://pubmed.ncbi.nlm.nih.gov/25406953/","source":"BMC Medicine","year":2014,"type":"trial"},{"id":3,"title":"Insulin-like growth factor 1: role in the auditory system and therapeutic potential in otology","url":"https://pubmed.ncbi.nlm.nih.gov/32796270/","source":"Curr Opin Otolaryngol Head Neck Surg","year":2020,"type":"review"}],
-"webSources":[],
-"card":{"summary":"IGF-1 in liposomes for the scalp; the biology is plausible on paper but evidence is preclinical.","aka":null,"evidence":"unproven","status":"research","note":"No human hair-loss trial found.","structure":null},
-"quick":{"overview":"Liposomal IGF-1 is a topical idea: deliver the growth factor IGF-1 to hair follicles inside fat-like carriers.\n\nIGF-1 is naturally produced in the follicle, but studies of the topical product in people were not found.","mechanism":"IGF-1 acts on dermal papilla cells, promoting growth-phase signalling through PI3K/Akt and MAPK/ERK. [1]","risks":"Safety of topical IGF-1 on the scalp has not been established in published trials; it is an unapproved product for hair."}
+ "name": "Liposomal IGF-1",
+ "card": {
+  "summary": "IGF-1 in liposomes for the scalp; the biology is plausible on paper but evidence is preclinical.",
+  "aka": null,
+  "evidence": "unproven",
+  "status": "research",
+  "note": "No human hair-loss trial found.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Liposomal IGF-1 is a topical idea: deliver the growth factor IGF-1 to hair follicles inside fat-like carriers.\n\nIGF-1 is naturally produced in the follicle, but studies of the topical product in people were not found.",
+  "mechanism": "IGF-1 acts on dermal papilla cells, promoting growth-phase signalling through PI3K/Akt and MAPK/ERK. [1]",
+  "risks": "Safety of topical IGF-1 on the scalp has not been established in published trials; it is an unapproved product for hair."
+ },
+ "lead": [
+  "Liposomal IGF-1 is insulin-like growth factor 1 packaged in liposomes, tiny fat-based carriers, for application to the scalp. The aim is to deliver a growth signal to the hair follicle so that follicles stay longer in the growth phase, which in turn could support thicker, denser-looking hair. [1]",
+  "IGF-1 is a 70-amino-acid hormone made mainly by the liver in response to growth hormone. [3] In hair, it is made mainly by dermal papilla cells at the base of the follicle; a 2025 review describes it as acting through PI3K/Akt and MAPK/ERK signalling to promote follicle proliferation, inhibit apoptosis, extend the anagen (growth) phase and raise VEGF, which supports blood supply to the follicle. [1][2] The same review reports that IGF-1 and VEGF are lower in dermal papilla cells in androgenetic alopecia. [2]",
+  "The liposomal gel format has been tested in animals: a 2012 hamster study by Castro and colleagues used 1% and 3% liposomal IGF-1 gels and reported thicker, faster-growing hair in the 3% group without a rise in plasma IGF-1 or liver enzymes, as relayed on the HairLossTalk forum. [2][4] Reviewers note that most evidence is preclinical and that topical IGF-1 has a short half-life and low skin permeability. [2]"
+ ],
+ "angle": {
+  "goal": "Hair density",
+  "chain": [
+   "Liposomes carry IGF-1 into the scalp",
+   "IGF-1 signals dermal papilla cells and extends the growth phase",
+   "Thicker, denser-looking hair"
+  ],
+  "effect": "claimed",
+  "text": "The idea is to restore a growth signal that is lower in dermal papilla cells of thinning scalps, using a liposomal gel to help the protein reach the follicle. Animal studies have reported thicker hair; human data on this format are limited. [2][4]"
+ },
+ "infobox": [
+  [
+   "Type",
+   "Topical growth factor (liposomal formulation)"
+  ],
+  [
+   "Target",
+   "Hair follicle dermal papilla, IGF-1 receptor [2]"
+  ],
+  [
+   "Delivery",
+   "Liposomal gels studied in animals [2][4]"
+  ],
+  [
+   "Animal study",
+   "Hamsters, 1% and 3% gels, 2012 [2][4]"
+  ],
+  [
+   "Regulatory",
+   "Not an approved hair treatment; mecasermin is an injectable IGF-1 analogue approved for severe IGF-1 deficiency in children [3]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Mechanism",
+   "paras": [
+    "Dermal papilla cells mainly secrete IGF-1, which binds IGF-1 receptor and activates PI3K/Akt and MAPK/ERK pathways that promote follicular cell proliferation, inhibit apoptosis and push follicles into the anagen phase. [2] IGF-1 raises VEGF expression, supporting angiogenesis and nutrient delivery, and appears to dampen TGF-beta1, a known inhibitor of hair growth. [2] The review links lower IGF-1 and VEGF in androgenetic alopecia to androgens such as DHT. [2]"
+   ]
+  },
+  {
+   "h": "Delivery",
+   "paras": [
+    "Because IGF-1 has a short half-life and low skin permeability, topical IGF-1 has been tested mainly as liposomal gels, which showed improved penetration and hair density or thickness in animal and some human reports. [2] Proposed improvements include fusion proteins with Fc, albumin or transferrin and plant-derived exosomes. [2]"
+   ]
+  },
+  {
+   "h": "Safety",
+   "paras": [
+    "The 2025 review says topical IGF-1 showed no systemic toxicity in animals and did not raise circulating IGF-1; clinical safety evidence it cites comes mainly from hearing-loss trials rather than hair studies. [2] Systemic IGF-1 therapy for growth hormone insensitivity has caused transient effects such as hypoglycemia and facial coarsening, with a few benign and malignant tumours reported as treatment-emergent events but too few for risk estimates. [2] Wikipedia notes that high IGF-1 levels are associated with cancer in observational data, while both high and low levels raise mortality risk. [3] Several authors of the review disclose ties to Schweitzer Biotech Company. [2]"
+   ]
+  },
+  {
+   "h": "Other topical uses of IGF-1",
+   "paras": [
+    "Topical IGF-1 has been tested outside hair: a randomized trial in the middle ear used IGF-1-impregnated gelatin hydrogels for sudden deafness refractory to corticosteroids. [5][6] That work concerns hearing rather than hair."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found of a liposomal IGF-1 scalp product in a published human trial. The 2025 review summarises mouse, hamster and rabbit studies and cultured human follicle experiments, including 1994 work in which IGF-1 elongated cultured human follicles in a dose-dependent way, [2] and mentions limited clinical data. A registered 2026 trial compares a scalp elixir with 5% minoxidil in 40 people with hair loss, though it does not specify IGF-1. [7]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1994",
+   "event": "Philpott and colleagues report dose-dependent elongation of cultured human follicles with IGF-1. [2]"
+  },
+  {
+   "year": "2012",
+   "event": "Hamster study of liposomal IGF-1 gels for hair growth and safety. [2][4]"
+  },
+  {
+   "year": "2025",
+   "event": "Review of IGF-1 in hair regeneration published in Current Issues in Molecular Biology. [1][2]"
+  }
+ ],
+ "lore": {
+  "intro": "Liposomal IGF-1 is discussed on hair-loss forums mostly through the 2012 hamster abstract rather than through reported personal results. [4]",
+  "claims": [
+   {
+    "claim": "Liposomal IGF-1 gel regrows hair safely",
+    "believers": "A forum poster shared the hamster abstract, which concluded the liposomal gel is safe and efficient for hair loss. [4]",
+    "experts": "A 2025 review says most evidence is animal and in vitro, with limited clinical data and low skin permeability of IGF-1. [2]",
+    "evidence": "untested"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Insulin-like Growth Factor 1 (IGF-1) in Hair Regeneration: Mechanistic Pathways and Therapeutic Potential",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41020895/",
+   "source": "Curr Issues Mol Biol",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 2,
+   "title": "IGF-1 in Hair Regeneration (full text)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12468416/",
+   "source": "Curr Issues Mol Biol (PMC)",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Insulin-like growth factor 1 (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Insulin-like_growth_factor_1",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Safety and efficacy analysis of liposomal IGF-1 in a fluid gel for hair loss",
+   "url": "https://www.hairlosstalk.com/interact/threads/safety-and-efficacy-analysis-of-liposomal-igf-1-in-a-fluid-gel-for-hair-loss.63614",
+   "source": "HairLossTalk",
+   "year": 2012,
+   "type": "forum"
+  },
+  {
+   "id": 5,
+   "title": "A randomized controlled clinical trial of topical IGF-1 therapy for sudden deafness refractory to systemic corticosteroid treatment",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25406953/",
+   "source": "BMC Med",
+   "year": 2014,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Insulin-like growth factor 1: role in the auditory system and therapeutic potential in otology",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32796270/",
+   "source": "Curr Opin Otolaryngol Head Neck Surg",
+   "year": 2020,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "NCT07901426 Scalp skin care effects of Premium Revitalizing Elixir and topical 5% minoxidil",
+   "url": "https://clinicaltrials.gov/study/NCT07901426",
+   "source": "ClinicalTrials.gov",
+   "year": 2026,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12468416/",
+   "title": "IGF-1 in Hair Regeneration (PMC full text)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Insulin-like_growth_factor_1",
+   "title": "Insulin-like growth factor 1"
+  },
+  {
+   "url": "https://www.hairlosstalk.com/interact/threads/safety-and-efficacy-analysis-of-liposomal-igf-1-in-a-fluid-gel-for-hair-loss.63614",
+   "title": "HairLossTalk thread"
+  }
+ ]
 }

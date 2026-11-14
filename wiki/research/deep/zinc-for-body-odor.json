@@ -1,80 +1,163 @@
 {
- "name": "Zinc for body odor",
- "lead": [
-  "Zinc for body odor refers to the claim, circulated in supplement and appearance communities, that taking zinc orally reduces body odor. Zinc is an essential mineral; oral forms such as zinc gluconate and zinc acetate are used to treat or prevent zinc deficiency.[1]",
-  "The reference pages consulted for this entry describe body odor as arising mainly from bacterial breakdown of sweat gland secretions and do not mention zinc as a factor or treatment.[2]"
- ],
- "infobox": [
-  [
-   "Type",
-   "Mineral supplement"
+  "name": "Zinc for body odor",
+  "card": {
+    "summary": "Oral zinc is sometimes claimed to cut body odor; the sources consulted give no support for this use.",
+    "aka": null,
+    "evidence": "unproven",
+    "status": "otc",
+    "risk": "low",
+    "note": "Thin evidence; zinc is established only for deficiency.",
+    "structure": "Zinc gluconate",
+    "price": null
+  },
+  "lead": [
+    "Zinc for body odor refers to the idea, circulated in supplement and appearance communities, that zinc can reduce underarm and body odor and so help people smell cleaner. Zinc is an essential trace mineral; oral forms such as zinc gluconate and zinc acetate are used to treat or prevent zinc deficiency, and zinc compounds also appear in topical products. [1][2]",
+    "Body odor is attributed mainly to skin bacteria acting on apocrine sweat: Corynebacterium and Staphylococcus species convert sweat compounds into smelly molecules such as butyric acid, isovaleric acid and thioalcohols. [3] Topical zinc has been studied in this setting. In a randomized, double-blind, placebo-controlled trial published in Acta Dermato-Venereologica in 2020, 30 healthy volunteers had one armpit treated with zinc oxide and the other with placebo for 13 days. Zinc oxide reduced total bacterial growth and counts of Corynebacterium and Staphylococcus hominis, and participants reported less self-perceived malodour with it than with placebo (p = 0.005). [4]",
+    "A 1977 letter in Archives of Dermatology addressed zinc sulfate and axillary perspiration odor. [5] No trial of oral zinc supplements for body odor was found."
   ],
-  [
-   "Claimed use",
-   "Reducing body odor"
+  "angle": {
+    "goal": "Pleasant body scent",
+    "chain": [
+      "Zinc is applied to underarm skin (topical studies)",
+      "Odor-producing Corynebacterium and staphylococci are reduced",
+      "Less underarm odor reported"
+    ],
+    "effect": "claimed",
+    "text": "Users who want to smell fresher look to zinc as a way to reduce odor-causing bacteria. The published trial supporting this used zinc oxide applied to the armpit; online discussion of oral zinc has not been tested in comparable trials."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Mineral (topical zinc oxide studied; oral zinc discussed)"
+    ],
+    [
+      "Claimed use",
+      "Reducing body odor"
+    ],
+    [
+      "Established use",
+      "Treating zinc deficiency [1]"
+    ],
+    [
+      "Studied form",
+      "Topical zinc oxide, 13-day axillary trial in 30 volunteers [4]"
+    ],
+    [
+      "Related deodorant ingredient",
+      "Zinc ricinoleate (odor absorber) [6]"
+    ]
   ],
-  [
-   "Established use",
-   "Treating zinc deficiency"
-  ]
- ],
- "sections": [
-  {
-   "h": "Background",
-   "paras": [
-    "Body odor is attributed chiefly to skin bacteria acting on apocrine sweat, with genetics (such as ABCC11), diet and health also contributing.[2] Standard treatments listed include antiperspirants, deodorants and bathing.[2]"
-   ]
-  },
-  {
-   "h": "Clinical studies",
-   "paras": [
-    "No studies found."
-   ]
+  "sections": [
+    {
+      "h": "Background",
+      "paras": [
+        "Apocrine glands, which become active at puberty and are concentrated in the armpits, are the main contributor to body odor, and skin bacteria metabolize their secretions into odorants. Genetics, diet, health and medication also contribute. [3] Standard treatments listed include antiperspirants with aluminum chloride, deodorants, bathing and, for severe cases, surgery. [3]",
+        "Wikipedia's zinc deficiency article lists acne, eczema, dry skin and hair thinning among signs of deficiency, and says severe deficiency can dull taste and smell. [1] It does not link zinc to body odor."
+      ]
+    },
+    {
+      "h": "Topical zinc",
+      "paras": [
+        "The 2020 trial found that zinc oxide lowered axillary bacterial counts and that volunteers rated their own malodour lower, although skin-surface pH rose. In laboratory tests, 19 Corynebacterium strains were inhibited at 400 mg/l or less. [4] A 1983 deodorant-evaluation paper in the International Journal of Cosmetic Science mentions zinc ricinoleate as an odor absorber. [6]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "The topical zinc oxide trial described above is the main human study found. [4] No studies found of oral zinc supplements for body odor."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1977",
+      "event": "Letter on zinc sulfate and axillary perspiration odor published in Archives of Dermatology. [5]"
+    },
+    {
+      "year": "2020",
+      "event": "Randomized trial of zinc oxide on axillary bacteria and self-perceived malodour published. [4]"
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Zinc deficiency",
+      "url": "https://en.wikipedia.org/wiki/Zinc_deficiency",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Zinc",
+      "url": "https://en.wikipedia.org/wiki/Zinc",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "Body odor",
+      "url": "https://en.wikipedia.org/wiki/Body_odor",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 4,
+      "title": "Zinc Oxide Inhibits Axillary Colonization by Members of the Genus Corynebacterium and Attenuates Self-perceived Malodour: A Randomized, Double-blind, Placebo-controlled Trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32399578/",
+      "source": "Acta Dermato-Venereologica",
+      "year": 2020,
+      "type": "trial"
+    },
+    {
+      "id": 5,
+      "title": "Zinc sulfate and axillary perspiration odor",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/900983/",
+      "source": "Archives of Dermatology",
+      "year": 1977,
+      "type": "study"
+    },
+    {
+      "id": 6,
+      "title": "The evaluation of underarm deodorants",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19469981/",
+      "source": "International Journal of Cosmetic Science",
+      "year": 1983,
+      "type": "study"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Zinc_deficiency",
+      "title": "Zinc deficiency - Wikipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Zinc",
+      "title": "Zinc - Wikipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Body_odor",
+      "title": "Body odor - Wikipedia"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32399578/",
+      "title": "Zinc oxide and axillary malodour trial"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/900983/",
+      "title": "Zinc sulfate and axillary perspiration odor"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19469981/",
+      "title": "The evaluation of underarm deodorants"
+    }
+  ],
+  "quick": {
+    "overview": "Zinc is an essential mineral sold as an over-the-counter supplement. Some online discussion links it to reduced body odor.\n\nThe sources consulted do not mention zinc in connection with body odor.",
+    "mechanism": "Proponents' mechanism is not documented in the sources consulted. Body odor is generally attributed to bacteria acting on sweat.",
+    "risks": "Not assessed in the sources consulted for this use. Oral zinc is used for deficiency repletion."
   }
- ],
- "timeline": [],
- "lore": null,
- "refs": [
-  {
-   "id": 1,
-   "title": "Zinc deficiency - Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Zinc_deficiency",
-   "source": "Wikipedia",
-   "year": null,
-   "type": "encyclopedia"
-  },
-  {
-   "id": 2,
-   "title": "Body odor - Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Body_odor",
-   "source": "Wikipedia",
-   "year": null,
-   "type": "encyclopedia"
-  }
- ],
- "webSources": [
-  {
-   "url": "https://en.wikipedia.org/wiki/Zinc_deficiency",
-   "title": "Zinc deficiency - Wikipedia"
-  },
-  {
-   "url": "https://en.wikipedia.org/wiki/Body_odor",
-   "title": "Body odor - Wikipedia"
-  }
- ],
- "card": {
-  "summary": "Oral zinc is sometimes claimed to cut body odor; the sources consulted give no support for this use.",
-  "aka": null,
-  "evidence": "unproven",
-  "status": "otc",
-  "risk": "low",
-  "note": "Thin evidence; zinc is established only for deficiency.",
-  "structure": "Zinc gluconate",
-  "price": null
- },
- "quick": {
-  "overview": "Zinc is an essential mineral sold as an over-the-counter supplement. Some online discussion links it to reduced body odor.\n\nThe sources consulted do not mention zinc in connection with body odor.",
-  "mechanism": "Proponents' mechanism is not documented in the sources consulted. Body odor is generally attributed to bacteria acting on sweat.",
-  "risks": "Not assessed in the sources consulted for this use. Oral zinc is used for deficiency repletion."
- }
 }

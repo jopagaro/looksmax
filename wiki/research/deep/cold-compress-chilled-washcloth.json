@@ -14,9 +14,9 @@
   "risks": "Ice applied directly to skin can cause a cold burn, and uncontrolled cooling devices have been linked to frostbite and severe tissue damage. A cloth barrier is described as safer."
  },
  "lead": [
-  "A cold compress or chilled washcloth is a home practice of holding a cold, damp cloth, gel pack or similar item against the closed eyes to reduce puffiness, often after waking.",
-  "Cold therapy generally is used for pain and swelling after soft-tissue injury and some surgeries, including facial surgery. Cold lowers tissue temperature and constricts vessels, while compression limits fluid leakage.[1] Evidence for cryotherapy is mixed, and one systematic review found insufficient evidence in ankle sprains.[1]",
-  "No clinical study of cold compresses for cosmetic periorbital puffiness was found; the evidence above concerns injuries and surgery."
+  "A cold compress or chilled washcloth is a home practice of holding a cold, damp cloth, gel pack or chilled spoons against the closed eyes, typically after waking, to make the eye area look less puffy. The goal is a flatter lower lid and fresher, more awake-looking eyes within minutes, for example before work, photos or events.",
+  "Periorbital puffiness is swelling around the eyes caused almost always by fluid build-up, and is often worst on waking because fluid shifts while lying flat.[2] Wikipedia lists applying a cold compress near the eye for short-term relief among its suggested measures, explaining that cold narrows blood vessels and reduces fluid leakage.[2] Cold lowers tissue temperature and constricts vessels, while compression limits fluid leakage.[1]",
+  "Cold therapy generally is used for pain and swelling after soft-tissue injury and some surgeries, including facial surgery, where a systematic review found it decreased pain and swelling on days two or three.[1] Evidence for cryotherapy is mixed in other settings; one systematic review found insufficient evidence in ankle sprains.[1] Randomized trials have also examined cold compresses in third-molar surgery recovery and in treatments for allergic conjunctivitis and induced bruising, but no trial of cold compresses for cosmetic under-eye puffiness has been published.[3][4][5]"
  ],
  "infobox": [
   [
@@ -25,11 +25,15 @@
   ],
   [
    "Form",
-   "Chilled cloth, gel pack, spoons"
+   "Chilled cloth, gel pack, chilled spoons"
   ],
   [
-   "Mechanism claimed",
-   "Vasoconstriction, reduced fluid"
+   "Mechanism described",
+   "Vasoconstriction, reduced fluid leakage[1][2]"
+  ],
+  [
+   "Common timing",
+   "On waking, when puffiness peaks[2]"
   ],
   [
    "Cosmetic trials",
@@ -37,6 +41,14 @@
   ]
  ],
  "sections": [
+  {
+   "h": "Use for appearance",
+   "paras": [
+    "Puffy lids and under-eye bags are caused mainly by fluid, and Wikipedia lists contributing factors including lying flat, ageing, allergies, crying, sleep loss, high dietary sodium and alcohol.[2] Cold compresses are a short-term measure suggested alongside head elevation during sleep and lifestyle changes.[2]",
+    "Because the effect is on fluid rather than the underlying fat pad that enlarges with age, the visible change from a compress is described as temporary.[2] Severe or persistent puffiness may signal other medical conditions, and the article advises seeking care in that case.[2]"
+   ],
+   "subs": []
+  },
   {
    "h": "Mechanism",
    "paras": [
@@ -52,7 +64,7 @@
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found on cold compresses for under-eye puffiness. Related research on cold compression after facial surgery reports reduced pain and swelling, with mixed results across other conditions.[1]"
+    "No studies found on cold compresses for under-eye puffiness. Related research includes a systematic review reporting that cold compression after facial surgery reduces pain and swelling on days two or three,[1] a randomized trial comparing dexamethasone, ketoprofen and cold compress after impacted lower third molar surgery,[3] a randomized trial of nonpharmacologic treatments for seasonal allergic conjunctivitis,[4] and a randomized comparison of bruise-reduction treatments after laser-induced bruising.[5]"
    ]
   }
  ],
@@ -66,12 +78,59 @@
    "source": "Wikipedia",
    "year": 2026,
    "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Periorbital puffiness",
+   "url": "https://en.wikipedia.org/wiki/Periorbital_puffiness",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Comparison of the effect of dexamethasone, ketoprofen and cold compress on postoperative quality of life following impacted lower third molar surgery",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38926204/",
+   "source": "Oral and Maxillofacial Surgery",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "Effectiveness of nonpharmacologic treatments for acute seasonal allergic conjunctivitis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24070810/",
+   "source": "Ophthalmology",
+   "year": 2014,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "Comparative study on bruise reduction treatments after bruise induction using the pulsed dye laser",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23899131/",
+   "source": "Dermatologic Surgery",
+   "year": 2013,
+   "type": "trial"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Cold_compression_therapy",
    "title": "Cold compression therapy"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Periorbital_puffiness",
+   "title": "Periorbital puffiness (Wikipedia)"
   }
- ]
+ ],
+ "angle": {
+  "goal": "Under-eye puffiness",
+  "chain": [
+   "Cold, damp cloth held on closed eyes",
+   "Blood vessels constrict and fluid leakage is limited",
+   "Eyelid and under-eye swelling look reduced",
+   "Eyes look fresher and less puffy"
+  ],
+  "effect": "indirect",
+  "text": "People hold a chilled cloth or pack against the eyes for a few minutes to reduce morning puffiness, a quick routine used before leaving the house or being photographed."
+ }
 }

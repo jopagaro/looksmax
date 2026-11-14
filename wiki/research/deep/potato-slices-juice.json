@@ -1,23 +1,20 @@
 {
  "name": "Potato slices / juice",
- "card": {
-  "summary": "Raw potato slices or juice applied under the eyes as a folk lightener; no studies of it for dark circles were found.",
-  "aka": "Raw potato eye compress",
-  "evidence": "unproven",
-  "risk": "low",
-  "note": "Raw potato contains glycoalkaloids; no human trials for this use.",
-  "structure": null
- },
- "quick": {
-  "overview": "Raw potato slices or grated-potato juice are a folk remedy for dark circles and puffiness. Proponents describe them as a natural lightener and cooling compress.\n\nNo published study was found testing potato for this purpose.",
-  "mechanism": "Believers say compounds in raw potato lighten pigment, and slices applied cold may soothe the area. These mechanisms have not been tested on under-eye skin.",
-  "risks": "No safety data were found for this use. Raw potatoes contain glycoalkaloids such as solanine and chaconine, which rise in green or damaged tubers; whether skin application matters has not been studied. Contact irritation is possible with any raw plant material."
- },
  "lead": [
-  "Potato slices or juice refers to the folk practice of placing thin slices of raw potato, or applying grated or juiced potato, to the skin under the eyes with the aim of lightening dark circles or reducing puffiness. It circulates in home-remedy and beauty communities.",
-  "Proponents describe potato as a natural skin lightener and a cooling compress. No clinical study of potato applied to the periorbital area was found, and reference articles on dark circles do not list it among evaluated treatments.[2]",
-  "Raw potatoes contain toxic glycoalkaloids, mainly solanine and chaconine, whose levels are higher in tubers exposed to light, damaged or aged.[1]"
+  "Potato slices or juice is a folk remedy in which thin slices of raw potato, or grated or juiced potato, are placed on the skin under the eyes to lighten dark circles and reduce puffiness. It circulates in home-remedy and beauty communities as a cheap, kitchen-based way to look more rested.",
+  "Proponents describe two effects. One is a cooling compress effect, strongest when the slices are chilled, which they say calms morning puffiness. The other is a natural lightening effect on the pigment beneath the eyes, which they attribute to the potato itself.",
+  "Dermatology references list the causes of under-eye darkness as thin eyelid skin and underlying anatomy, allergy and rubbing, pigmentation, fatigue, age and sun exposure, and name hydroquinone, caffeine and vitamin C creams, lasers, fillers and fat transfer among treatments; potato is not among the treatments they describe [1]. No clinical study of potato applied to the periorbital area has been published."
  ],
+ "angle": {
+  "goal": "Under-eye area",
+  "chain": [
+   "Cool, moist slice rests on eyelid",
+   "Temporary de-swelling feel",
+   "Fresher-looking under-eye area"
+  ],
+  "effect": "claimed",
+  "text": "People lay chilled potato slices or apply the juice under the eyes hoping for less puffiness and a lighter tone. The cooling effect is the part most often credited for a temporary fresher look; pigment lightening is the claimed longer-term benefit."
+ },
  "infobox": [
   [
    "Type",
@@ -25,7 +22,7 @@
   ],
   [
    "Form",
-   "Raw slices or juice"
+   "Raw slices, grated pulp or juice"
   ],
   [
    "Claimed use",
@@ -38,15 +35,27 @@
  ],
  "sections": [
   {
+   "h": "Description",
+   "paras": [
+    "The remedy is applied as slices laid over closed eyes for a period of time, or as grated pulp or juice dabbed on the skin. Cold storage before use is common and links it to the cold compress practice."
+   ]
+  },
+  {
    "h": "Claims",
    "paras": [
-    "Practitioners say the slices or juice lighten pigment and reduce swelling. The cooling effect of a refrigerated slice is often cited alongside; see the entry on cold compresses."
+    "Practitioners say the slices or juice lighten pigment and reduce swelling. Under-eye puffiness and darkness have many recognised causes, including allergy, fatigue, anatomy and pigmentation, so people report varied results depending on the cause [1]."
+   ]
+  },
+  {
+   "h": "Potato chemistry",
+   "paras": [
+    "Raw potatoes contain glycoalkaloids, chiefly solanine and chaconine. Levels are highest in the skin, rise when tubers are exposed to light and turn green, and are higher in damaged or aged tubers; properly grown and stored tubers contain only small amounts [2]."
    ]
   },
   {
    "h": "Safety",
    "paras": [
-    "Potatoes contain glycoalkaloids, concentrated in skin and increased by light exposure, damage and age.[1] No study was found of their effect when applied to eyelid skin."
+    "No study has examined how potato affects eyelid skin. Because it is a raw plant material applied near the eyes, people with sensitive skin or allergy tendencies may react, and glycoalkaloid content is greater in green or sprouting potatoes [2]."
    ]
   },
   {
@@ -61,16 +70,16 @@
  "refs": [
   {
    "id": 1,
-   "title": "Potato",
-   "url": "https://en.wikipedia.org/wiki/Potato",
+   "title": "Periorbital dark circles",
+   "url": "https://en.wikipedia.org/wiki/Periorbital_dark_circles",
    "source": "Wikipedia",
    "year": 2026,
    "type": "encyclopedia"
   },
   {
    "id": 2,
-   "title": "Periorbital dark circles",
-   "url": "https://en.wikipedia.org/wiki/Periorbital_dark_circles",
+   "title": "Potato",
+   "url": "https://en.wikipedia.org/wiki/Potato",
    "source": "Wikipedia",
    "year": 2026,
    "type": "encyclopedia"
@@ -85,5 +94,18 @@
    "url": "https://en.wikipedia.org/wiki/Periorbital_dark_circles",
    "title": "Periorbital dark circles"
   }
- ]
+ ],
+ "card": {
+  "summary": "Raw potato slices or juice applied under the eyes as a folk lightener; no studies of it for dark circles were found.",
+  "aka": "Raw potato eye compress",
+  "evidence": "unproven",
+  "risk": "low",
+  "note": "Raw potato contains glycoalkaloids; no human trials for this use.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Raw potato slices or grated-potato juice are a folk remedy for dark circles and puffiness. Proponents describe them as a natural lightener and cooling compress.\n\nNo published study was found testing potato for this purpose.",
+  "mechanism": "Believers say compounds in raw potato lighten pigment, and slices applied cold may soothe the area. These mechanisms have not been tested on under-eye skin.",
+  "risks": "No safety data were found for this use. Raw potatoes contain glycoalkaloids such as solanine and chaconine, which rise in green or damaged tubers; whether skin application matters has not been studied. Contact irritation is possible with any raw plant material."
+ }
 }

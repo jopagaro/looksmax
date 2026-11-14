@@ -1,8 +1,9 @@
 {
   "name": "Hot-sauce thermogenics / spicy food",
   "lead": [
-    "Hot-sauce thermogenics refers to eating chili peppers, hot sauce or capsaicin supplements in the belief that the heat speeds metabolism and helps fat loss. Capsaicin, the pungent compound in chilies, binds the TRPV1 receptor on pain-sensing nerves, producing sensations of heat [1].",
-    "Wikipedia reports that a 2007 source found no evidence linking capsaicin ingestion directly to weight loss, and a 2014 meta-analysis found weak evidence that capsaicin before a meal might slightly reduce intake [1]. Large doses can irritate and cause nausea, vomiting and abdominal pain [1]."
+    "Hot-sauce thermogenics refers to eating chili peppers, hot sauce or capsaicin supplements in the belief that the heat raises metabolism or curbs appetite and so helps people get leaner. Leanness shows up in the face and the physique, which is why spicy-food diets appear in fat-loss and body-composition conversations. Capsaicin, the pungent compound in chilies, binds the TRPV1 receptor on pain-sensing nerves, producing sensations of heat [1].",
+    "Wikipedia reports that a 2007 source found no evidence linking capsaicin ingestion directly to weight loss, and that a 2014 meta-analysis found weak evidence that capsaicin before a meal might slightly reduce intake [1]. A 2022 umbrella review of eleven systematic reviews and meta-analyses concluded the overall health effect of spicy food and chili peppers is unclear, reporting associations with some cancers alongside inverse associations with metabolism, mortality and cardiovascular disease outcomes [5].",
+    "Dermatology reviews list spicy food among the commonly reported triggers of facial flushing in rosacea [3][4], and gastroenterology reviews note that spicy food is frequently reported to worsen reflux symptoms [2]. Large doses of capsaicin can irritate and cause nausea, vomiting and abdominal pain [1]."
   ],
   "infobox": [
     [
@@ -15,11 +16,15 @@
     ],
     [
       "Claimed effect",
-      "Raised metabolism, fat loss"
+      "Raised metabolism, reduced appetite, fat loss"
     ],
     [
-      "Evidence for appearance use",
-      "Limited"
+      "Reported finding",
+      "Weak evidence of a slight reduction in intake when taken before a meal [1]"
+    ],
+    [
+      "Skin consideration",
+      "Spicy food is a commonly reported rosacea flushing trigger [4]"
     ]
   ],
   "sections": [
@@ -36,6 +41,18 @@
       ]
     },
     {
+      "h": "Spicy food and health outcomes",
+      "paras": [
+        "The 2022 umbrella review pooled eleven systematic reviews and meta-analyses covering 27 findings in humans. It reported direct associations with esophageal, gastric and gallbladder cancers and negative associations with metabolism-related outcomes, mortality and cardiovascular disease, and described consumption as typically safe while calling for higher-quality evidence [5]. A 2023 review notes that spicy food is frequently reported to worsen reflux but that hard evidence linking it to objective reflux is lacking [2]."
+      ]
+    },
+    {
+      "h": "Spicy food and skin",
+      "paras": [
+        "Rosacea reviews list spicy food, alcohol and hot drinks among the most frequently reported triggers of flushing and symptom flares, though results vary between subtypes and advice to patients has been inconsistent [4][3]. Facial redness is one of the ways diet can affect how the face looks."
+      ]
+    },
+    {
       "h": "Adverse effects",
       "paras": [
         "Capsaicin irritates skin, eyes and airways, and peppers are among the common plant exposures reported to poison centres [1]. A 2012 case report described a heart attack in a healthy 25-year-old after cayenne pepper pills, and a 2024 autopsy linked a teenager's death to a spicy chip challenge [1]."
@@ -44,7 +61,7 @@
     {
       "h": "Clinical studies",
       "paras": [
-        "No studies found specific to hot sauce. Studies of capsaicin itself reported weak evidence of a small effect on food intake [1]."
+        "No studies found specific to hot sauce as a fat-loss or appearance aid. Studies of capsaicin itself reported weak evidence of a small effect on food intake [1], and an umbrella review of observational and trial syntheses on spicy food and chili peppers found the overall health effect unclear [5]."
       ]
     }
   ],
@@ -62,7 +79,23 @@
       "event": "The Qutenza capsaicin patch is approved for post-herpetic neuralgia in the US and EU [1]."
     }
   ],
-  "lore": null,
+  "lore": {
+    "intro": "Spicy food is occasionally linked on looksmax.org to masculinity and testosterone, with members treating tolerance for heat as a sign of high testosterone [6].",
+    "claims": [
+      {
+        "claim": "Spicy food is associated with high testosterone",
+        "believers": "A looksmax.org thread presents liking spicy food as a trait of high-testosterone men [6].",
+        "experts": "No published studies in the sources reviewed link eating spicy food to higher testosterone; capsaicin research focuses on TRPV1 signalling and appetite [1].",
+        "evidence": "untested"
+      },
+      {
+        "claim": "Capsaicin speeds metabolism and helps fat loss",
+        "believers": "Dieters take hot sauce or capsaicin supplements to raise heat production and reduce hunger.",
+        "experts": "Wikipedia reports a 2007 source found no direct link to weight loss and a 2014 meta-analysis found weak evidence for a slight reduction in intake [1].",
+        "evidence": "mixed"
+      }
+    ]
+  },
   "refs": [
     {
       "id": 1,
@@ -71,6 +104,46 @@
       "source": "Wikipedia",
       "year": 2025,
       "type": "encyclopedia"
+    },
+    {
+      "title": "Dietary factors involved in GERD management.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37094911/",
+      "source": "Best Practice & Research Clinical Gastroenterology",
+      "year": 2023,
+      "type": "review",
+      "id": 2
+    },
+    {
+      "title": "Is rosacea a systemic disease?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31864441/",
+      "source": "Clinics in Dermatology",
+      "year": 2019,
+      "type": "review",
+      "id": 3
+    },
+    {
+      "title": "Rosacea and Diet: What is New in 2021?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35096255/",
+      "source": "Journal of Clinical and Aesthetic Dermatology",
+      "year": 2021,
+      "type": "review",
+      "id": 4
+    },
+    {
+      "title": "Spicy Food and Chili Peppers and Multiple Health Outcomes: Umbrella Review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36111960/",
+      "source": "Molecular Nutrition & Food Research",
+      "year": 2022,
+      "type": "review",
+      "id": 5
+    },
+    {
+      "title": "Spicy food is just for high T guys",
+      "url": "https://looksmax.org/threads/spicy-food-is-just-for-high-t-guys.1771888/",
+      "source": "looksmax.org",
+      "year": 2025,
+      "type": "forum",
+      "id": 6
     }
   ],
   "webSources": [
@@ -92,5 +165,15 @@
     "overview": "Some dieters add hot sauce, chilies or capsaicin supplements hoping to raise metabolism and lose fat.\n\nReviews cited on Wikipedia found no direct link between capsaicin and weight loss, with weak evidence of a small effect on food intake.",
     "mechanism": "Capsaicin activates the TRPV1 heat-and-pain receptor on sensory nerves. Proponents say this triggers extra heat production and reduced appetite.",
     "risks": "Capsaicin can irritate the mouth, stomach, skin and eyes, causing nausea or diarrhea. Isolated case reports describe serious events from concentrated pills or extreme spicy challenges."
+  },
+  "angle": {
+    "goal": "Fat loss / leanness",
+    "chain": [
+      "Capsaicin activates TRPV1 heat receptors",
+      "Claimed: more heat production and slightly less hunger",
+      "Lower calorie intake, leaner face and body"
+    ],
+    "effect": "claimed",
+    "text": "People add chilies, hot sauce or capsaicin supplements to meals hoping to nudge appetite down and metabolism up, as a small aid to getting leaner. Reviews describe weak evidence of a slight reduction in intake when capsaicin is taken before a meal [1]."
   }
 }

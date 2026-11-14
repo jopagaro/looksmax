@@ -13,44 +13,62 @@
   "risks": "Drinking too much water too quickly causes hyponatremia, which Wikipedia says can cause death in minutes or hours."
  },
  "lead": [
-  "Water loading, sometimes called hydration maxxing, is the practice of deliberately drinking large quantities of water in the belief that it improves skin or reduces puffiness.",
-  "US Adequate Intake for total water, including food, is 4.0 L a day for men and 3.0 L for women, and EFSA recommends 2.0 L for women and 2.5 L for men.[1] Wikipedia describes the eight-glasses advice as unscientific and says thirst is a better guide.[1] Excess intake can cause hyponatremia.[1]"
+  "Water loading, sometimes called hydration maxxing, is the practice of deliberately drinking large quantities of water, with the aim of plumper, clearer-looking skin and less facial puffiness. It is one of the most common wellness habits in appearance communities because it is free, easy and tied to a widely held belief that well-hydrated skin looks better.",
+  "Guideline figures give a sense of ordinary intake. The US Adequate Intake for total water, counting water from food, is 4.0 L a day for men and 3.0 L for women, while the European Food Safety Authority recommends 2.5 L for men and 2.0 L for women; about 80 percent of total intake comes from drink [1]. Wikipedia describes the \"eight glasses a day\" rule as not scientifically based and says thirst is a better guide [1].",
+  "Two small studies have looked at water intake and skin. A 2015 study of 49 healthy women reported that about 2 L of extra water a day for a month changed superficial and deep skin hydration, mostly in women who habitually drank less [3]. A 2024 study of 43 women found that moisturizer use had a more favourable effect on skin hydration than extra water [4]. Drinking far more than the body needs can cause water intoxication and hyponatremia, a potentially fatal drop in blood sodium [1][2]."
  ],
+ "angle": {
+  "goal": "Skin appearance and facial puffiness",
+  "chain": [
+   "Higher water intake",
+   "Better skin hydration (reported in people who drink little)",
+   "Plumper, healthier-looking skin; less perceived puffiness"
+  ],
+  "effect": "indirect",
+  "text": "People drink extra water hoping for a more hydrated complexion and a less bloated face. Studies report a skin-hydration change in people who start from low intake, while the face-depuffing claim has not been tested directly."
+ },
  "infobox": [
   [
    "Type",
-   "Habit"
+   "Habit / lifestyle"
   ],
   [
    "Category",
-   "Lifestyle / hydration"
+   "Hydration"
   ],
   [
-   "US Adequate Intake",
-   "3.0-4.0 L/day total water [1]"
+   "US Adequate Intake (total water)",
+   "3.0 L/day women, 4.0 L/day men [1]"
   ],
   [
-   "Main risk",
-   "Hyponatremia [1]"
+   "EFSA reference",
+   "2.0 L/day women, 2.5 L/day men [1]"
+  ],
+  [
+   "Main risk of excess",
+   "Water intoxication / hyponatremia [1][2]"
   ]
  ],
  "sections": [
   {
    "h": "Guidelines",
    "paras": [
-    "Needs vary with activity, age, health and environment; about 80 percent of total water intake comes from drink.[1]"
-   ]
-  },
-  {
-   "h": "Risks",
-   "paras": [
-    "Water intoxication causes hyponatremia, which Wikipedia reports can cause death in minutes or hours.[1]"
+    "Needs vary with activity, age, health and environment, and about 80 percent of total water intake comes from drink, with the remainder from food [1]. Wikipedia notes that the common eight-glasses advice lacks a scientific basis and that thirst is a better guide than a fixed amount [1]."
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found on high water intake for skin appearance or facial puffiness in the sources reviewed."
+    "In a 2015 study in Clinical, Cosmetic and Investigational Dermatology, Palma and colleagues grouped 49 healthy women by habitual intake, with the cut-off at 3,200 mL a day. Roughly 2 L of additional water daily for one month significantly changed superficial and deep skin hydration, especially in the lower-intake group, and biomechanical measures shifted similarly. The authors concluded that higher dietary water may positively affect skin physiology, particularly in people who drink little [3].",
+    "In a 2024 Annals of Dermatology study of 43 healthy women, people who drank more than 1 L daily were compared with those who drank less. Some forearm, hand and shin sites in groups receiving added water or moisturizer showed higher skin hydration at week 4 than at baseline, and moisturizer had the more favourable effect [4].",
+    "A 2023 cross-sectional study of acne patients in Karachi found that lower daily water intake (fewer than eight glasses) was significantly associated with acne, alongside oily and sugary foods [5]. No studies were found on high water intake and facial puffiness."
+   ]
+  },
+  {
+   "h": "Risks of excess",
+   "paras": [
+    "Water intoxication is a potentially fatal disturbance of brain function that occurs when excess water intake pushes electrolytes out of safe limits. Wikipedia lists water-drinking contests and prolonged exercise with heavy fluid intake as causes behind most deaths in healthy people; early symptoms include headache, confusion and irritability, and severe cases cause brain swelling, seizures, coma and death [2].",
+    "Healthy kidneys can excrete roughly 800 mL to 1 L of water per hour, and drinking six litres in three hours has caused a death [2]. Documented cases include a 2007 radio contest in which a woman died after drinking nearly 2 US gallons [2]."
    ]
   }
  ],
@@ -63,12 +81,52 @@
    "url": "https://en.wikipedia.org/wiki/Drinking_water",
    "source": "Wikipedia",
    "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Water intoxication",
+   "url": "https://en.wikipedia.org/wiki/Water_intoxication",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Dietary water affects human skin hydration and biomechanics (Palma et al.)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22water%20intake%22%20%22skin%20physiology%22%20Palma%20OR%20%22Dietary%20water%20affects%20human%20skin%20hydration%22&resultType=core&format=json&pageSize=4",
+   "source": "Clinical, Cosmetic and Investigational Dermatology via Europe PMC",
+   "year": 2015,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Effect of Amount of Daily Water Intake and Use of Moisturizer on Skin Barrier Function in Healthy Female Participants (Seol et al.)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22water%20intake%22%20%22skin%20physiology%22%20Palma%20OR%20%22Dietary%20water%20affects%20human%20skin%20hydration%22&resultType=core&format=json&pageSize=4",
+   "source": "Annals of Dermatology via Europe PMC",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Acne Vulgaris and Its Association with Dietary Habits at a Tertiary Care Hospital in Karachi, Pakistan (Zaidi et al.)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22water%20intake%22%20%22skin%20physiology%22%20Palma%20OR%20%22Dietary%20water%20affects%20human%20skin%20hydration%22&resultType=core&format=json&pageSize=4",
+   "source": "Ethiopian Journal of Health Sciences via Europe PMC",
+   "year": 2023,
+   "type": "study"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Drinking_water",
-   "title": "Drinking water"
+   "title": "Drinking water - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Water_intoxication",
+   "title": "Water intoxication - Wikipedia"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22water%20intake%22%20%22skin%20physiology%22%20Palma%20OR%20%22Dietary%20water%20affects%20human%20skin%20hydration%22&resultType=core&format=json&pageSize=4",
+   "title": "Europe PMC records for water intake and skin studies"
   }
  ]
 }

@@ -1,67 +1,216 @@
 {
-  "name": "Vitamin A (retinyl palmitate) from liver",
-  "lead": [
-    "Preformed vitamin A, which includes retinol and retinyl esters such as retinyl palmitate, occurs in animal liver and in some supplements. Some diet communities eat liver or take liver-derived products for skin, vision and general nutrition. Hypervitaminosis A is the toxicity caused by excess preformed vitamin A, and Wikipedia lists liver, supplements and prescription medicines as the usual sources.[1]",
-    "Reported effects of excess intake include nausea, headache, vision changes, skin peeling and dryness, hair loss, bone pain and liver damage, and the condition is most strongly recognised with acute ingestion of very vitamin A-rich livers such as polar bear liver.[1] The US Institute of Medicine tolerable upper intake for adults is 3,000 micrograms per day.[1]"
+ "name": "Vitamin A (retinyl palmitate) from liver",
+ "card": {
+  "summary": "Preformed vitamin A from liver is a real nutrient with a documented toxicity threshold; no appearance trials exist.",
+  "aka": "retinol, retinyl palmitate, liver vitamin A",
+  "evidence": "unproven",
+  "status": "otc",
+  "risk": "moderate",
+  "note": "Excess preformed vitamin A is linked to liver damage, bone effects and, per standard guidance, caution in pregnancy.",
+  "structure": "Retinyl palmitate"
+ },
+ "quick": {
+  "overview": "Animal liver and some supplements supply preformed vitamin A (retinol and retinyl esters). Some people eat liver for skin and general health.\n\nThe sources reviewed contain no trials testing liver-derived vitamin A for appearance. What they do document is toxicity from excess intake.",
+  "mechanism": "Retinyl esters are the animal storage form of vitamin A, held mostly in the liver; once absorbed they supply retinol, which the body uses in vision, skin and growth processes.",
+  "risks": "Hypervitaminosis A can cause nausea, headache, vision changes, skin peeling, hair loss, bone pain and liver damage. US Institute of Medicine upper intake is 3,000 micrograms per day for adults and lower for children; pregnancy and liver disease call for close monitoring of intake."
+ },
+ "lead": [
+  "Preformed vitamin A, which includes retinol and retinyl esters such as retinyl palmitate, occurs in animal liver, cod liver oil and supplements. People in liver-eating and ancestral-diet circles, and some appearance-minded readers, use liver or liver-derived products as a food-based way to supply vitamin A for skin, vision and general nutrition. Retinoic acid, the active form the body makes from vitamin A, helps maintain skin and mucous-membrane tissue, which is why the vitamin is tied to skin health in nutrition references.[2]",
+  "Retinol and retinyl palmitate are also the retinoids most often found in over-the-counter anti-ageing products, applied to the skin rather than eaten. Looksmax.org threads about retinol ask about under-eye darkness, sagging and skin tone, and they concern topical retinol, not dietary liver.[6][7] A review of topical retinoid evidence notes that tretinoin has the strongest anti-ageing record, while retinol, retinaldehyde and retinyl palmitate are sold as cosmetics that do not require efficacy trials.[3]",
+  "Because preformed vitamin A is stored in the liver, intake from liver foods and supplements can add up. Hypervitaminosis A is the toxicity caused by excess preformed vitamin A, and Wikipedia lists liver, supplements and prescription medicines as the usual sources.[1] The US Institute of Medicine tolerable upper intake for adults is 3,000 micrograms per day.[1][2]"
+ ],
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "Liver supplies preformed vitamin A (retinol, retinyl esters)",
+   "The body converts it to retinoic acid, which supports skin and epithelial tissue",
+   "Healthy skin turnover and barrier function"
   ],
-  "infobox": [
-    ["Form", "Preformed vitamin A (retinol, retinyl esters)"],
-    ["Dietary source", "Animal liver, fish liver oils, supplements"],
-    ["Adult upper intake level (US IOM)", "3,000 micrograms per day"],
-    ["Main concern", "Hypervitaminosis A"]
+  "effect": "indirect",
+  "text": "Liver eaters and supplement users take vitamin A as a dietary route to skin health, and the same vitamin family underlies topical retinol and retinyl palmitate used for a smoother, more even-looking skin surface. Dietary sufficiency is described in nutrition references as part of normal skin maintenance."
+ },
+ "infobox": [
+  [
+   "Form",
+   "Preformed vitamin A (retinol, retinyl esters)"
   ],
-  "sections": [
-    {
-      "h": "Description",
-      "paras": [
-        "Retinyl esters are the storage form of vitamin A in animals, and about 80 to 90% of body reserves are held in the liver.[1] Between 70 and 90% of preformed vitamin A is absorbed.[1] Provitamin carotenoids such as beta-carotene differ: Wikipedia states excess carotenoid intake causes only a harmless reversible orange skin tint, carotenosis.[1]"
-      ]
-    },
-    {
-      "h": "Toxicity",
-      "paras": [
-        "Wikipedia lists early symptoms of hypervitaminosis A as nausea, vomiting, dizziness, headache, drowsiness, irritability and visual changes. Other signs include dry skin and mouth, cracked lips, hair loss, increased sun sensitivity, bone pain, high blood calcium, raised intracranial pressure and liver damage.[1] Skin effects can include peeling, itching, dryness and yellowing.[1]",
-        "Tolerance varies genetically and children are described as especially sensitive.[1] US Institute of Medicine upper levels are 600 micrograms per day for ages 0 to 3, 900 for ages 4 to 8, and 3,000 for adults.[1] Pregnancy, liver disease, heavy alcohol use and smoking are listed among situations that warrant close monitoring of vitamin A intake.[1] Stopping intake is the standard treatment and most people fully recover.[1]"
-      ]
-    },
-    {
-      "h": "History",
-      "paras": [
-        "Wikipedia reports that polar bear, bearded seal and walrus liver are especially toxic, that the Inuit have traditionally avoided polar bear and bearded seal liver, and that in 1597 Gerrit de Veer and his crew became severely ill after eating polar bear liver on Novaya Zemlya.[1] The 1913 death of Xavier Mertz on Douglas Mawson's expedition has been attributed by some accounts to sled-dog liver, while another study ascribes it more to exhaustion and diet change.[1]"
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found testing liver-derived vitamin A for appearance outcomes. Two registered trials in the clinical trial registry concern broader topics: a micronutrient supplementation study on children's growth and a vitamin D study in COVID-19; neither tests liver or retinyl palmitate for appearance.[2][3]"
-      ]
-    }
+  [
+   "Dietary source",
+   "Animal liver, fish liver oils, supplements"
   ],
-  "timeline": [
-    { "year": "1597", "event": "Gerrit de Veer and crew fall ill after eating polar bear liver on Novaya Zemlya.[1]" },
-    { "year": "1913", "event": "Xavier Mertz dies on the Mawson expedition; sled-dog liver is among the proposed contributing factors.[1]" }
+  [
+   "Liver content (beef, per 100 g)",
+   "About 4,970 to 21,145 micrograms RAE[2]"
   ],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Hypervitaminosis A", "url": "https://en.wikipedia.org/wiki/Hypervitaminosis_A", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
-    { "id": 2, "title": "NCT04564222: Sustainable Intervention of Supplementation to Improve Kid's Growth Study", "url": "https://clinicaltrials.gov/study/NCT04564222", "source": "ClinicalTrials.gov", "year": 2020, "type": "trial" },
-    { "id": 3, "title": "NCT04519034: Vitamin D Status and Immune-inflammatory Status in Different UK Populations With COVID-19 Infection", "url": "https://clinicaltrials.gov/study/NCT04519034", "source": "ClinicalTrials.gov", "year": 2020, "type": "trial" }
+  [
+   "Adult upper intake level (US IOM)",
+   "3,000 micrograms per day[1][2]"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Hypervitaminosis_A", "title": "Hypervitaminosis A (Wikipedia)" }
+  [
+   "Adult recommended intake (US)",
+   "900 micrograms (men), 700 (women) RAE per day[2]"
   ],
-  "card": {
-    "summary": "Preformed vitamin A from liver is a real nutrient with a documented toxicity threshold; no appearance trials exist.",
-    "aka": "retinol, retinyl palmitate, liver vitamin A",
-    "evidence": "unproven",
-    "status": "otc",
-    "risk": "moderate",
-    "note": "Excess preformed vitamin A is linked to liver damage, bone effects and, per standard guidance, caution in pregnancy.",
-    "structure": "Retinyl palmitate"
+  [
+   "Main concern",
+   "Hypervitaminosis A"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Retinyl esters are the storage form of vitamin A in animals, and about 80 to 90% of body reserves are held in the liver.[1] Between 70 and 90% of preformed vitamin A is absorbed.[1] Provitamin carotenoids such as beta-carotene differ: Wikipedia states excess carotenoid intake causes only a harmless reversible orange skin tint, carotenosis.[1][2]",
+    "Animal liver is among the richest food sources. Reference tables list beef liver at roughly 5,000 to 21,000 micrograms of retinol activity equivalents per 100 g, chicken liver at about 4,300 and cod liver oil near 30,000, compared with sweet potato, carrots, butter and eggs among other sources.[2] Retinyl palmitate is also the form used in supplements and in food fortification programs, and some non-prescription skin products contain it on the hypothesis that skin converts it to retinol and then retinoic acid.[2]"
+   ]
   },
-  "quick": {
-    "overview": "Animal liver and some supplements supply preformed vitamin A (retinol and retinyl esters). Some people eat liver for skin and general health.\n\nThe sources reviewed contain no trials testing liver-derived vitamin A for appearance. What they do document is toxicity from excess intake.",
-    "mechanism": "Retinyl esters are the animal storage form of vitamin A, held mostly in the liver; once absorbed they supply retinol, which the body uses in vision, skin and growth processes.",
-    "risks": "Hypervitaminosis A can cause nausea, headache, vision changes, skin peeling, hair loss, bone pain and liver damage. US Institute of Medicine upper intake is 3,000 micrograms per day for adults and lower for children; pregnancy and liver disease call for close monitoring of intake."
+  {
+   "h": "Role in skin and appearance",
+   "paras": [
+    "Nutrition references describe retinoic acid as helping to maintain epithelial tissues and mucous membranes, and note that it promotes keratinocyte production of antimicrobial peptides such as cathelicidin. Deficiency is linked to susceptibility to skin infection and inflammation, and early deficiency signs include night blindness.[2]",
+    "Topical use is a separate route. A focused review of clinical evidence found that tretinoin is the best-supported retinoid for anti-ageing and is approved for acne, wrinkles and hyperpigmentation, while retinol, retinaldehyde and retinyl palmitate are cosmeceuticals with less trial data and formulation challenges including instability and low penetration.[3] In vitro and clinical work has also examined combinations, for example a randomized trial of the antifungal climbazole boosting retinoid activity in skin.[4]"
+   ]
+  },
+  {
+   "h": "Toxicity",
+   "paras": [
+    "Wikipedia lists early symptoms of hypervitaminosis A as nausea, vomiting, dizziness, headache, drowsiness, irritability and visual changes. Other signs include dry skin and mouth, cracked lips, hair loss, increased sun sensitivity, bone pain, high blood calcium, raised intracranial pressure and liver damage.[1] Skin effects can include peeling, itching, dryness and yellowing.[1]",
+    "Tolerance varies genetically and children are described as especially sensitive.[1] The condition is most strongly recognised with acute ingestion of very vitamin A-rich livers such as polar bear liver.[1] Nutrition references report that chronic toxicity can follow months of high supplement intake and is generally reversible when intake stops, and that preformed vitamin A above about 4,500 micrograms daily in pregnancy is associated with a higher risk of birth defects.[2] Retinoid drugs such as isotretinoin carry boxed pregnancy warnings.[2]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found on dietary liver vitamin A and appearance outcomes. Related research includes a randomized trial in Senegalese children with vitamin A deficiency, in which retinyl palmitate and beta-carotene produced similar rates of normalised eye cytology at seven weeks (about 51% and 50%),[5] a trial of beta-carotene dissolved in oil in Indonesian children,[8] and a 2017 safety assessment of retinol and retinyl palmitate as cosmetic ingredients.[9] The 2022 review of topical retinoids summarises clinical evidence for skin use.[3]"
+   ]
+  },
+  {
+   "h": "In looksmaxxing communities",
+   "paras": [
+    "Retinol is a staple of skincare discussion on looksmax.org. One poster who attributed dark circles to sunken eyes asked whether retinol under and over the eyes would produce fuller-looking skin; another asked about sagging and dark circles from a negative orbital vector, and a reply said it can help somewhat but not as much as expected.[6][7] These threads concern topical products; liver as a dietary source appears mainly in diet and bodybuilding forums, where a T Nation poster joked about taking extra vitamin A after eating polar bear liver.[10]"
+   ]
   }
+ ],
+ "timeline": [
+  {
+   "year": "1597",
+   "event": "Gerrit de Veer and crew fall ill after eating polar bear liver on Novaya Zemlya.[1]"
+  },
+  {
+   "year": "1913",
+   "event": "Xavier Mertz dies on the Mawson expedition; sled-dog liver is among the proposed contributing factors.[1]"
+  }
+ ],
+ "lore": {
+  "intro": "Vitamin A comes up in two settings: retinol skincare threads on looksmax.org, and food-focused talk about liver and cod liver oil as nutrient-dense foods.[6][10]",
+  "claims": [
+   {
+    "claim": "Retinol can fill out or brighten the under-eye area",
+    "believers": "A looksmax.org poster with sunken eyes started using retinol around the eyes hoping for fuller skin, and a reply to another poster said it can help somewhat with sagging and dark circles.[6][7]",
+    "experts": "A review of topical retinoids reports the strongest anti-ageing evidence for tretinoin and notes cosmetic retinol and retinyl palmitate products are not required to show efficacy in trials.[3]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Liver is a rich natural source of vitamin A",
+    "believers": "Liver-eating and ancestral-diet communities treat liver as a nutrient-dense food.",
+    "experts": "Nutrition references list animal liver among the richest vitamin A sources and note that excess preformed vitamin A has an adult upper intake level of 3,000 micrograms per day.[1][2]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Too much liver or retinol supplement can cause toxicity",
+    "believers": "Forum members joke about 'polar bear liver' as the extreme case.[10]",
+    "experts": "Hypervitaminosis A from liver, supplements and retinoid drugs is documented, including skin peeling, hair loss and liver effects, and pregnancy warnings.[1][2]",
+    "evidence": "harms"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Hypervitaminosis A",
+   "url": "https://en.wikipedia.org/wiki/Hypervitaminosis_A",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Vitamin A",
+   "url": "https://en.wikipedia.org/wiki/Vitamin_A",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Use of Retinoids in Topical Antiaging Treatments: A Focused Review of Clinical Evidence",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36220974/",
+   "source": "Advances in Therapy",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Climbazole boosts activity of retinoids in skin",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28103388/",
+   "source": "International Journal of Cosmetic Science",
+   "year": 2017,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "A randomised controlled trial to test equivalence between retinyl palmitate and beta carotene for vitamin A deficiency",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8251808/",
+   "source": "BMJ",
+   "year": 1993,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "retinol under eyes",
+   "url": "https://looksmax.org/threads/retinol-under-eyes.1378828/",
+   "source": "looksmax.org",
+   "type": "forum"
+  },
+  {
+   "id": 7,
+   "title": "Looksmaxxing Retinol help",
+   "url": "https://looksmax.org/threads/retinol-help.956300/",
+   "source": "looksmax.org",
+   "type": "forum"
+  },
+  {
+   "id": 8,
+   "title": "Bioefficacy of beta-carotene dissolved in oil studied in children in Indonesia",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11333850/",
+   "source": "American Journal of Clinical Nutrition",
+   "year": 2001,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Retinol and Retinyl Palmitate",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29025343/",
+   "source": "International Journal of Toxicology",
+   "year": 2017,
+   "type": "review"
+  },
+  {
+   "id": 10,
+   "title": "Meat, eggs, milk, and protein - an informal survey",
+   "url": "https://t-nation.com/t/meat-eggs-milk-and-protein-an-informal-survey/289246",
+   "source": "T Nation forum",
+   "year": 2024,
+   "type": "forum"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Hypervitaminosis_A",
+   "title": "Hypervitaminosis A (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Vitamin_A",
+   "title": "Vitamin A (Wikipedia)"
+  }
+ ]
 }

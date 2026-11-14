@@ -1,9 +1,23 @@
 {
  "name": "InMode Evolve",
+ "card": {
+  "summary": "InMode Evolve is a hands-free, in-clinic body-contouring treatment that pairs radiofrequency with muscle stimulation to refine the look of the midsection, thighs and arms.",
+  "aka": "Evolve Trim / Tone / Transform (InMode)",
+  "evidence": "limited",
+  "outcome": "temporary",
+  "price": null,
+  "note": "Provider-operated; results are gradual and require a series of sessions.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "InMode Evolve is a clinic treatment for body contouring. Applicators sit on the area while the machine runs, so there is no surgery, needles or manual work.\n\nPeople use it to look more toned and defined around the abdomen, flanks, thighs and arms, usually across a short series of visits.",
+  "mechanism": "The system is marketed as using radiofrequency energy to warm the skin and fat layer and electrical muscle stimulation to contract the muscle underneath, aiming at a firmer, more defined contour.",
+  "risks": "Temporary redness, warmth and muscle soreness are the commonly described effects of this kind of treatment. It is operated by licensed providers, and people with implanted electronics or certain conditions are usually advised to check first."
+ },
  "lead": [
-  "InMode Evolve is a hands-free body-contouring platform made by the aesthetics-device company InMode. Clinics offer it as a way to refine the shape of the abdomen, flanks, thighs, arms and buttocks without surgery or needles, with the applicators strapped or placed on the area while the patient rests.",
+  "InMode Evolve is a hands-free body-contouring platform made by the aesthetics-device company InMode. Clinics offer it as a way to refine the shape of the abdomen, flanks, thighs, arms and buttocks without surgery or needles, with applicators strapped or placed on the area while the patient rests.",
   "People use it to look leaner and more defined: the system is marketed as combining radiofrequency heating of the skin and fat layer with muscle stimulation, aiming at a tighter, more sculpted silhouette. Sessions are typically booked as a short series at a clinic or medspa.",
-  "Published clinical research specific to Evolve is thin, so this entry stays brief and describes the product category and how it is positioned."
+  "The Evolve System has been cleared by the US FDA through the 510(k) pathway in more than one configuration: the Tone applicator (K201285, decision March 5, 2021, classified as a powered muscle stimulator) and the Transform applicator (K231495, decision October 13, 2023).[1][2] A single-group InMode-sponsored study registered on ClinicalTrials.gov, linked from the Transform record, measured abdominal circumference change at three months.[2]"
  ],
  "angle": {
   "goal": "Body contouring",
@@ -22,11 +36,15 @@
   ],
   [
    "Maker",
-   "InMode"
+   "InMode, Ltd. (Yokneam, Israel)[1][2]"
   ],
   [
    "Approach",
    "Radiofrequency plus muscle stimulation (as marketed)"
+  ],
+  [
+   "FDA 510(k)",
+   "Tone applicator K201285 (2021); Transform applicator K231495 (2023)[1][2]"
   ],
   [
    "Typical areas",
@@ -41,7 +59,13 @@
   {
    "h": "Description",
    "paras": [
-    "Evolve is part of InMode's line of non-surgical body platforms and is delivered by trained providers. The hands-free design means applicators are fixed in place, so one operator can treat several areas in a session."
+    "Evolve is part of InMode's line of non-surgical body platforms and is delivered by trained providers. The hands-free design means applicators are fixed in place, so one operator can treat several areas in a session. The platform is offered with different applicators for different goals, with the Tone version classified by the FDA as a powered muscle stimulator (Class II) and the Transform version recorded under an electrosurgical product code.[1][2]"
+   ]
+  },
+  {
+   "h": "Regulatory status",
+   "paras": [
+    "The FDA database records the Evolve System with the Tone Applicator as cleared on March 5, 2021 through the traditional 510(k) pathway, with product code IPF.[1] The Evolve System with the Transform Applicator was cleared on October 13, 2023.[2] A 510(k) clearance reflects a finding of substantial equivalence to a legally marketed device."
    ]
   },
   {
@@ -59,26 +83,47 @@
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found."
+    "A registered study (NCT05398159) listed on the Transform clearance record is described as a single-group, open-label, industry-sponsored study of 75 patients at five sites, started in March 2021, with change in abdominal circumference by tape measure at three months as the primary outcome and blinded photo identification as a secondary outcome. Its title refers to a related InMode product, and published results were not found.[2]"
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "2021",
+   "event": "FDA clears the Evolve System with the Tone Applicator (K201285).[1]"
+  },
+  {
+   "year": "2023",
+   "event": "FDA clears the Evolve System with the Transform Applicator (K231495).[2]"
+  }
+ ],
  "lore": null,
- "refs": [],
- "webSources": [],
- "card": {
-  "summary": "InMode Evolve is a hands-free, in-clinic body-contouring treatment that pairs radiofrequency with muscle stimulation to refine the look of the midsection, thighs and arms.",
-  "aka": "Evolve Trim / Tone / Transform (InMode)",
-  "evidence": "limited",
-  "outcome": "temporary",
-  "price": null,
-  "note": "Provider-operated; results are gradual and require a series of sessions.",
-  "structure": null
- },
- "quick": {
-  "overview": "InMode Evolve is a clinic treatment for body contouring. Applicators sit on the area while the machine runs, so there is no surgery, needles or manual work.\n\nPeople use it to look more toned and defined around the abdomen, flanks, thighs and arms, usually across a short series of visits.",
-  "mechanism": "The system is marketed as using radiofrequency energy to warm the skin and fat layer and electrical muscle stimulation to contract the muscle underneath, aiming at a firmer, more defined contour.",
-  "risks": "Temporary redness, warmth and muscle soreness are the commonly described effects of this kind of treatment. It is operated by licensed providers, and people with implanted electronics or certain conditions are usually advised to check first."
- }
+ "refs": [
+  {
+   "id": 1,
+   "title": "K201285 - InMode Evolve System with the Tone Applicator (FDA 510(k) record)",
+   "url": "https://www.510kdatabase.net/k201285/",
+   "source": "510kdatabase.net (FDA data)",
+   "year": 2021,
+   "type": "label"
+  },
+  {
+   "id": 2,
+   "title": "K231495 - The Evolve System with the Transform Applicator (FDA 510(k) record)",
+   "url": "https://www.510kdatabase.net/k231495/",
+   "source": "510kdatabase.net (FDA data)",
+   "year": 2023,
+   "type": "label"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://www.510kdatabase.net/k201285/",
+   "title": "K201285 Evolve Tone Applicator 510(k) record"
+  },
+  {
+   "url": "https://www.510kdatabase.net/k231495/",
+   "title": "K231495 Evolve Transform Applicator 510(k) record"
+  }
+ ]
 }

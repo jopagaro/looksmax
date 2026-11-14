@@ -1,9 +1,19 @@
 {
- "name": "Coffee / green tea ritual",
  "lead": [
-  "The coffee or green tea ritual refers to drinking caffeinated beverages as part of a routine aimed at reducing facial puffiness or improving appearance. Both beverages contain caffeine, and green tea also contains polyphenols such as EGCG [1][2].",
-  "Caffeine can briefly increase urine output after large single doses in people not accustomed to it, but regular users develop tolerance [2]. Wikipedia reports that green tea polyphenols have no proven biological effects in humans and that health claims were not supported by sufficient evidence in a 2011 EFSA review [1]. No studies found on drinking either beverage to reduce facial puffiness."
+  "The coffee or green tea ritual is a daily habit of drinking caffeinated beverages, often in the morning, as part of a routine for looking fresher and less puffy. Practitioners say the drinks help them look more awake and, in the case of green tea, supply polyphenols such as EGCG that they associate with healthy-looking skin.[1][2]",
+  "Both drinks contain caffeine, which blocks adenosine receptors and relieves sleepiness. Large single doses can briefly raise urine output in people who have gone without caffeine, while regular users develop tolerance to that effect.[2] Green tea also contains polyphenols including EGCG; Wikipedia notes that a 2011 European Food Safety Authority panel found most claimed benefits of green tea lacked sufficient scientific support.[1]",
+  "Looks-focused communities discuss caffeine in both directions: some see coffee as a tool for leanness and energy, while others link it to skin, sleep and growth concerns. Research on caffeine and sleep is extensive, and sleep is a factor people connect with how rested they look.[3][4]"
  ],
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "Caffeine blocks adenosine receptors",
+   "Alertness rises and fluid output may briefly increase",
+   "Face looks more awake and less puffy"
+  ],
+  "effect": "claimed",
+  "text": "People drink coffee or green tea in the morning to look more awake and to reduce the puffy look they associate with water retention. Green tea drinkers add that its polyphenols fit a skin-friendly diet."
+ },
  "infobox": [
   [
    "Type",
@@ -11,35 +21,93 @@
   ],
   [
    "Active compounds",
-   "Caffeine; EGCG (green tea)"
+   "Caffeine; EGCG and other polyphenols (green tea)"
+  ],
+  [
+   "Caffeine in brewed green tea",
+   "About 12 mg per 100 g[1]"
   ],
   [
    "EFSA caffeine guidance",
-   "Up to 400 mg/day for non-pregnant adults [2]"
+   "Up to 400 mg/day for non-pregnant adults[2]"
+  ],
+  [
+   "Origin of green tea",
+   "China, spread across East Asia[1]"
   ]
  ],
  "sections": [
   {
    "h": "Description",
    "paras": [
-    "Practitioners drink coffee or green tea, often in the morning, in the belief that caffeine or tea antioxidants reduce water retention or improve skin. Green tea originated in China and spread across East Asia [1]."
+    "The ritual usually means a cup of coffee or green tea at the start of the day. Brewed green tea is almost entirely water, with caffeine and polyphenols such as EGCG and other catechins; supplements and extracts can contain much higher concentrations, up to about 17 percent caffeine by weight in some extracts.[1]",
+    "Proponents point to caffeine's alertness effect and to its short-lived diuretic action as reasons the habit might leave the face looking less swollen in the morning. Caffeine's diuretic effect is documented for large doses in people not accustomed to it, and tolerance develops with regular use.[2]"
+   ]
+  },
+  {
+   "h": "Mechanism",
+   "paras": [
+    "Caffeine's structure resembles adenosine, so it occupies adenosine receptors without activating them, which temporarily relieves drowsiness; the A2A receptor appears central to the wakefulness effect.[2] In the kidney, receptor blockade increases water and salt excretion after large single doses.[2]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found on drinking coffee or green tea for facial puffiness. General green tea research reports small blood pressure reductions and lower cholesterol in a 2013 Cochrane analysis, but no good evidence for weight loss, and no significant effect on C-reactive protein in a 2015 meta-analysis [1]."
+    "No studies found on drinking coffee or green tea as a routine for facial puffiness or facial appearance. Research on the drinks themselves covers general health outcomes: a BMJ umbrella review summarised meta-analyses of coffee consumption across many health outcomes,[5] and Wikipedia reports small blood pressure reductions and modest LDL cholesterol lowering from green tea in trials, including a 2013 Cochrane review, with no good evidence for weight loss.[1]",
+    "Sleep has been studied closely. A 2023 meta-analysis of 24 studies found that caffeine reduced total sleep time by about 45 minutes and sleep efficiency by 7 percent, and lengthened sleep onset by about 9 minutes.[3] A 2017 systematic review reported that caffeine typically prolonged sleep latency and worsened perceived sleep quality.[4]"
    ]
   },
   {
    "h": "Safety",
    "paras": [
-    "EFSA considers up to 400 mg of caffeine per day not a safety concern for non-pregnant adults, and 200 mg for pregnant or lactating women. Caffeine can delay sleep, and doses as low as 100 mg per day may disrupt sleep in some people [2]. High-dose green tea extracts have been linked to liver toxicity, and Health Canada recommended a warning label in 2017; traditionally brewed tea is considered safe by EFSA with rare liver damage [1]."
+    "EFSA considers intake up to 400 mg of caffeine per day safe for non-pregnant adults and up to 200 mg per day for pregnant and breastfeeding women. Even around 100 mg per day can disrupt sleep in some people without tolerance.[2]",
+    "High-dose green tea extract, mainly through EGCG, has been linked to liver damage. EFSA found long-term intake above 800 mg EGCG per day raised liver enzymes in some people, regards traditionally brewed tea as safe with rare liver injury, and in 2017 Health Canada recommended a warning label for extracts.[1]"
    ]
   }
  ],
- "timeline": [],
- "lore": null,
+ "timeline": [
+  {
+   "year": "2011",
+   "event": "EFSA panel reviews health claims for green tea, finding most lacked sufficient support.[1]"
+  },
+  {
+   "year": "2013",
+   "event": "Cochrane review of green tea reports modest blood pressure and LDL cholesterol reductions.[1]"
+  },
+  {
+   "year": "2017",
+   "event": "Health Canada recommends a warning label for green tea extracts; BMJ umbrella review of coffee outcomes published.[1][5]"
+  }
+ ],
+ "lore": {
+  "intro": "Coffee shows up in looksmaxxing forums as a leanmaxxing and energy aid and, in other threads, as something that may harm skin, sleep or growth.",
+  "claims": [
+   {
+    "claim": "Coffee helps with leanmaxxing.",
+    "believers": "Threads on looksmax.org such as one titled 'coffee is so good for leanmaxxing' present caffeine as an appetite and energy aid for getting leaner.[6]",
+    "experts": "A 2023 pilot study examined coffee and tea consumption and weight control in adolescents,[7] and Wikipedia reports no good evidence that green tea aids weight loss.[1]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Coffee is good for the thyroid.",
+    "believers": "A looksmax.org thread titled 'coffee is very good for your thyroid' argues it supports thyroid function.[8]",
+    "experts": "A systematic review of levothyroxine interactions notes that coffee and other beverages can alter absorption of thyroid medication.[9]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Coffee stunts growth.",
+    "believers": "Threads titled 'does coffee stunt your growth' and 'could coffee stunt my growth' show users asking whether caffeine affects height.[10][11]",
+    "experts": "None of the sources reviewed here address caffeine and height; no study cited on this page has tested it.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Coffee dehydrates and ages facial skin.",
+    "believers": "Some looksmax.org posters argue caffeine dehydrates the face and works against skincare.",
+    "experts": "Wikipedia reports that the diuretic effect applies to large doses in people without caffeine tolerance, and that regular users do not show increased urine output.[2]",
+    "evidence": "mixed"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -56,6 +124,78 @@
    "source": "Wikipedia",
    "year": 2026,
    "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "The effect of caffeine on subsequent sleep: A systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36870101/",
+   "source": "Sleep Medicine Reviews",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Coffee, caffeine, and sleep: A systematic review of epidemiological studies and randomized controlled trials",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26899133/",
+   "source": "Sleep Medicine Reviews",
+   "year": 2017,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Coffee consumption and health: umbrella review of meta-analyses of multiple health outcomes",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29167102/",
+   "source": "BMJ",
+   "year": 2017,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "coffee is so good for leanmaxxing",
+   "url": "https://looksmax.org/threads/coffee-is-so-good-for-leanmaxxing.509801/",
+   "source": "looksmax.org",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 7,
+   "title": "Effect of Coffee and Tea Consumption on Adolescent Weight Control: An Interventional Pilot Study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35639365/",
+   "source": "Childhood Obesity",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "coffee is very good for your thyroid",
+   "url": "https://looksmax.org/threads/coffee-is-very-good-for-your-thyroid.626184/",
+   "source": "looksmax.org",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 9,
+   "title": "Levothyroxine Interactions with Food and Dietary Supplements: A Systematic Review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33801406/",
+   "source": "Pharmaceuticals",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 10,
+   "title": "does coffee stunt your growth",
+   "url": "https://looksmax.org/threads/does-coffee-stunt-your-growth.617343/",
+   "source": "looksmax.org",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 11,
+   "title": "could coffee stunt my growth",
+   "url": "https://looksmax.org/threads/could-coffee-stunt-my-growth.715822/",
+   "source": "looksmax.org",
+   "year": 2020,
+   "type": "forum"
   }
  ],
  "webSources": [
@@ -68,6 +208,7 @@
    "title": "Caffeine"
   }
  ],
+ "name": "Coffee / green tea ritual",
  "card": {
   "summary": "Caffeine drinks used as a de-puffing routine; no study has tested the face effect.",
   "aka": "Morning caffeine ritual",

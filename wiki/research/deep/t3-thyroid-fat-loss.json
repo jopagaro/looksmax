@@ -15,14 +15,21 @@
   },
   "lead": [
     "Liothyronine is a synthetic form of triiodothyronine (T3), the more active of the two main thyroid hormones. It was approved for medical use in 1956 and is used mainly for hypothyroidism and myxedema coma.[1]",
-    "In this entry, 'T3 thyroid fat loss' refers to the practice of taking thyroid hormone, without a thyroid disorder, in an attempt to speed fat loss during a cut. The prescribing information for liothyronine states that in people with normal thyroid function, normal-range doses are ineffective for weight reduction and that larger doses can be seriously toxic.[1]",
-    "No published trial of T3 as a looksmaxxing or cosmetic fat-loss method was found."
+    "In bodybuilding and physique circles, T3 (often by its brand name Cytomel) is taken off-label during a cut with the aim of a leaner, more defined look: the idea is that thyroid hormone raises basal metabolic rate and fat oxidation, so more body fat is lost while dieting.[2][3] Wikipedia's article on T3 confirms that the hormone increases basal metabolic rate and stimulates lipid breakdown.[2]",
+    "The prescribing information for liothyronine states that in people with normal thyroid function, normal-range doses are ineffective for weight reduction and that larger doses can be seriously toxic.[1] Competition rules for some natural bodybuilding federations list T3 and T4 among prohibited substances.[5]"
   ],
+  "angle": {
+    "goal": "Body fat",
+    "chain": ["T3 raises basal metabolic rate and lipid breakdown", "More energy expended during a calorie deficit", "Leaner, more defined physique"],
+    "effect": "claimed",
+    "text": "Bodybuilders add T3 to a cutting phase hoping to raise energy expenditure and fat loss so muscle definition shows sooner. Thyroid hormone does raise metabolic rate physiologically, though the drug label states that ordinary doses are ineffective for weight reduction in people with normal thyroid function."
+  },
   "infobox": [
     ["Drug", "Liothyronine (synthetic T3)"],
     ["Class", "Thyroid hormone"],
     ["Approved", "1956 [1]"],
     ["Half-life", "About 2.5 days [1]"],
+    ["Brand name", "Cytomel"],
     ["Status", "Prescription-only in UK and Canada [1]"]
   ],
   "sections": [
@@ -35,12 +42,13 @@
     {
       "h": "Pharmacology",
       "paras": [
-        "Liothyronine increases basal metabolic rate, influences protein synthesis and increases sensitivity to catecholamines. It has a faster onset and shorter half-life than levothyroxine.[1]"
+        "Liothyronine increases basal metabolic rate, influences protein synthesis and increases sensitivity to catecholamines. It has a faster onset and shorter half-life than levothyroxine.[1] T3 raises oxygen and energy consumption and speeds turnover of macromolecules; for proteins it increases synthesis, though in excess breakdown can outpace it.[2]"
       ]
     },
     {
-      "h": "Use for weight loss",
+      "h": "Use for fat loss in physique culture",
       "paras": [
+        "A T Nation steroid overview from 2003 lists Cytomel as a synthetic thyroid hormone used by bodybuilders, noting suppression of the body's own thyroid function during use.[3] Participants in T Nation threads discuss thyroid markers such as free T3 and reverse T3 and the fast action of liothyronine compared with levothyroxine.[4][6]",
         "The product's boxed warning says that doses within the normal daily hormone range are ineffective for weight reduction in euthyroid people, and that larger doses may produce serious or life-threatening toxicity, particularly when taken with sympathomimetic amines.[1] Use for obesity is not recommended.[1]"
       ]
     },
@@ -53,18 +61,42 @@
     {
       "h": "Clinical studies",
       "paras": [
-        "No studies found on T3 for cosmetic or looksmaxxing fat loss in people with normal thyroid function."
+        "No studies found on T3 for cosmetic or looksmaxxing fat loss in people with normal thyroid function. Related human research includes a randomized trial of the acute effects of liothyronine on the cardiovascular system and energy metabolism in healthy volunteers, and trials of levothyroxine plus liothyronine in hypothyroidism.[7][8]"
       ]
     }
   ],
   "timeline": [
     { "year": "1956", "event": "Liothyronine approved for medical use.[1]" }
   ],
-  "lore": null,
+  "lore": {
+    "intro": "T3 comes up in bodybuilding forums as a cutting aid and as part of discussions about thyroid lab values.[3][4]",
+    "claims": [
+      {
+        "claim": "T3 speeds fat loss during a cut",
+        "believers": "Forum overviews list Cytomel as a synthetic thyroid hormone used by bodybuilders to raise metabolism while dieting.[3]",
+        "experts": "The drug label states that normal-range doses are ineffective for weight reduction in euthyroid people and that larger doses can be seriously toxic.[1]",
+        "evidence": "not-supported"
+      },
+      {
+        "claim": "Free T3 should be near the top of range, and reverse T3 can blunt T3 effects",
+        "believers": "T Nation posters advise checking free T3 and reverse T3 when fatigued.[6]",
+        "experts": "No published trial in healthy people tests this for physique outcomes; clinical research addresses hypothyroidism.[7][8]",
+        "evidence": "untested"
+      }
+    ]
+  },
   "refs": [
-    { "id": 1, "title": "Liothyronine", "url": "https://en.wikipedia.org/wiki/Liothyronine", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" }
+    { "id": 1, "title": "Liothyronine", "url": "https://en.wikipedia.org/wiki/Liothyronine", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
+    { "id": 2, "title": "Triiodothyronine", "url": "https://en.wikipedia.org/wiki/Triiodothyronine", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
+    { "id": 3, "title": "Steroid Newbie Thread (Help Build It Vets!)", "url": "https://t-nation.com/t/steroid-newbie-thread-help-build-it-vets/30018", "source": "T Nation forum", "year": 2003, "type": "forum" },
+    { "id": 4, "title": "Thyroid Basics Explained", "url": "https://t-nation.com/t/thyroid-basics-explained/185344", "source": "T Nation forum", "year": 2015, "type": "forum" },
+    { "id": 5, "title": "A Question About Alleged Natural Contests", "url": "https://t-nation.com/t/a-question-about-alleged-natural-contests/264398", "source": "T Nation forum", "year": 2020, "type": "forum" },
+    { "id": 6, "title": "Getting Off TRT Due to Hair Loss", "url": "https://t-nation.com/t/getting-off-trt-due-to-hair-loss/270562", "source": "T Nation forum", "year": 2020, "type": "forum" },
+    { "id": 7, "title": "Acute Effects of Liothyronine Administration on Cardiovascular System and Energy Metabolism in Healthy Volunteers", "url": "https://pubmed.ncbi.nlm.nih.gov/35295986/", "source": "Frontiers in endocrinology", "year": 2022, "type": "trial" },
+    { "id": 8, "title": "Comparative Effectiveness of Levothyroxine, Desiccated Thyroid Extract, and Levothyroxine+Liothyronine in Hypothyroidism", "url": "https://pubmed.ncbi.nlm.nih.gov/34185829/", "source": "Journal of Clinical Endocrinology and Metabolism", "year": 2021, "type": "trial" }
   ],
   "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Liothyronine", "title": "Liothyronine - Wikipedia" }
+    { "url": "https://en.wikipedia.org/wiki/Liothyronine", "title": "Liothyronine - Wikipedia" },
+    { "url": "https://en.wikipedia.org/wiki/Triiodothyronine", "title": "Triiodothyronine - Wikipedia" }
   ]
 }

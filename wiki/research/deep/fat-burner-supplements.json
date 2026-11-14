@@ -1,12 +1,20 @@
 {
   "name": "Fat burner supplements",
   "lead": [
-    "Fat burner supplements are over-the-counter products, usually multi-ingredient stimulant blends, marketed to increase metabolic rate or reduce body fat. They fall within the broader category of weight-loss dietary supplements, which in the United States are regulated under the 1994 Dietary Supplement Health and Education Act (DSHEA): no pre-market approval is required and the FDA generally acts only after a product is on sale.[1]",
-    "The Wikipedia overview of dietary supplements reports no efficacy data specific to fat burners. It does report that weight-loss and bodybuilding products most often cause liver injury among supplements, that green tea catechins are among the most implicated ingredients, and that products with multiple ingredients have caused more adverse events than single-ingredient ones.[1]"
+    "Fat burner supplements are over-the-counter products, usually multi-ingredient stimulant blends, marketed to increase metabolic rate, curb appetite or reduce body fat. People take them while dieting to get leaner and show more muscle definition and a sharper face and waistline. They fall within the broader category of weight-loss dietary supplements, which in the United States are regulated under the 1994 Dietary Supplement Health and Education Act (DSHEA): no pre-market approval is required and the FDA generally acts only after a product is on sale.[1]",
+    "Common ingredients are caffeine and plant extracts, and in the past ephedra; in bodybuilding, thermogenics are used to try to raise basal metabolic rate and overall energy expenditure.[2] The classic ECA stack of ephedrine, caffeine and aspirin was associated with roughly 4 to 6 kg of weight loss in the figures summarised by Wikipedia's article on anti-obesity medication, and ephedra supplements were banned in the US in 2004.[3][4]",
+    "The Wikipedia overview of dietary supplements reports that weight-loss and bodybuilding products most often cause liver injury among supplements, that green tea catechins are among the most implicated ingredients, and that products with multiple ingredients have caused more adverse events than single-ingredient ones.[1]"
   ],
+  "angle": {
+    "goal": "Body fat",
+    "chain": ["Stimulants and plant extracts raise energy expenditure or reduce appetite", "Larger calorie deficit while dieting", "Lower body fat and sharper definition"],
+    "effect": "claimed",
+    "text": "Fat burners are taken during a cut to speed fat loss, for a leaner physique and more visible muscle and facial definition. Marketing describes thermogenic or appetite-suppressing effects, with results depending on the ingredients."
+  },
   "infobox": [
     ["Type", "Multi-ingredient dietary supplements"],
     ["Common marketing claim", "Thermogenic / fat loss"],
+    ["Typical ingredients", "Caffeine, plant extracts, formerly ephedra [3]"],
     ["US regulation", "DSHEA (1994); no pre-market approval"],
     ["Reported concerns", "Liver injury, undeclared drugs, psychiatric effects"]
   ],
@@ -14,7 +22,14 @@
     {
       "h": "Description",
       "paras": [
-        "The term covers a wide range of products sold in capsule, tablet or powder form. Stimulant-based stacks are the form most associated with the phrase in looksmaxxing and fitness communities. This article does not draw on specific ingredient studies beyond those cited below; individual ingredients such as green tea extract are covered on their own pages."
+        "The term covers a wide range of products sold in capsule, tablet or powder form. Stimulant-based stacks are the form most associated with the phrase in looksmaxxing and fitness communities. Thermogenics in general are agents used in bodybuilding to try to raise basal metabolic rate; caffeine and ephedrine are common ingredients, and the stronger compound 2,4-dinitrophenol (DNP) is described as able to cause death by hyperthermia.[2]"
+      ]
+    },
+    {
+      "h": "Ephedra and the ECA stack",
+      "paras": [
+        "Ephedra, from Ephedra sinica, contains ephedrine and related alkaloids that raise heart rate, blood pressure and metabolism, and it was popular as a weight-loss and athletic aid, sometimes with caffeine and aspirin. Adverse event reports accumulated, including heart attacks, strokes and deaths, and potency varied as much as tenfold between lots of one brand.[4] The death of baseball pitcher Steve Bechler in 2003, where a medical examiner said ephedra toxicity played a significant role, intensified pressure for regulation.[4]",
+        "The FDA banned dietary supplements containing ephedrine alkaloids in 2004, the ban was upheld on appeal in 2006, and the Supreme Court declined to hear the case in 2007.[4] Wikipedia's summary of anti-obesity medications reports ephedra's effect at about 0.9 kg per month more than placebo, ECA combinations associated with roughly 4 to 6 kg of loss, and a meta-analysis of ephedrine-containing products with an average loss of about 1.9 kg.[3]"
       ]
     },
     {
@@ -31,22 +46,55 @@
       ]
     },
     {
+      "h": "In fitness communities",
+      "paras": [
+        "On T Nation, 'fat burners' is used both for over-the-counter blends and, by some posters, for prescription compounds: one competitor describes T3 and clenbuterol as the fat burners he used in contest prep.[7] Supplement advertising is itself a topic; in a thread about a fat-burner ad campaign, a poster remarked that every fat burner claims to burn fat, and another thread jokes about influencer discount codes attached to a supposed single fat-burner transformation.[5][6]"
+      ]
+    },
+    {
       "h": "Clinical studies",
       "paras": [
-        "No studies found for fat burner supplements as a defined product category. Trials of individual ingredients exist and are covered in the relevant ingredient articles."
+        "No studies found for fat burner supplements as a defined product category. Trials of individual ingredients exist and are covered in the relevant ingredient articles. Reviews of ephedrine-containing products are summarised above.[3]"
       ]
     }
   ],
   "timeline": [
     { "year": "1994", "event": "The Dietary Supplement Health and Education Act defines the US regulatory framework for supplements.[1]" },
-    { "year": "2007", "event": "Good manufacturing practice rules for supplements take effect in the US.[1]" }
+    { "year": "2003", "event": "Baseball pitcher Steve Bechler dies; ephedra toxicity is cited as a significant factor.[4]" },
+    { "year": "2004", "event": "FDA bans dietary supplements containing ephedrine alkaloids.[4]" },
+    { "year": "2007", "event": "Good manufacturing practice rules for supplements take effect in the US; the Supreme Court declines to hear the ephedra ban challenge.[1][4]" }
   ],
-  "lore": null,
+  "lore": {
+    "intro": "Fat burners are discussed in fitness forums as cutting aids and as a heavily marketed category.[5][6][7]",
+    "claims": [
+      {
+        "claim": "A fat burner supplement speeds a cut",
+        "believers": "Users and brands present stimulant blends as helping them reach stage-ready leanness faster.[7]",
+        "experts": "Wikipedia's summary reports modest averages for ephedrine-containing products and notes liver injury and adverse events across weight-loss supplements.[1][3]",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "Fat burners can be paired with keeping muscle",
+        "believers": "Advertising for one product used a 'keep the muscle' line.[5]",
+        "experts": "No category-level trial data were found.[1]",
+        "evidence": "untested"
+      }
+    ]
+  },
   "refs": [
-    { "id": 1, "title": "Dietary supplement", "url": "https://en.wikipedia.org/wiki/Dietary_supplement", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" }
+    { "id": 1, "title": "Dietary supplement", "url": "https://en.wikipedia.org/wiki/Dietary_supplement", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
+    { "id": 2, "title": "Thermogenics", "url": "https://en.wikipedia.org/wiki/Thermogenics", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
+    { "id": 3, "title": "Anti-obesity medication", "url": "https://en.wikipedia.org/wiki/Anti-obesity_medication", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
+    { "id": 4, "title": "Ephedra (medicine)", "url": "https://en.wikipedia.org/wiki/Ephedra_(medicine)", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
+    { "id": 5, "title": "How Does This HOT-ROX Ad Make YOU Feel?", "url": "https://t-nation.com/t/how-does-this-hot-rox-ad-make-you-feel/278165", "source": "T Nation forum", "year": 2022, "type": "forum" },
+    { "id": 6, "title": "The Road to Before", "url": "https://t-nation.com/t/the-road-to-before/271427", "source": "T Nation forum", "year": 2021, "type": "forum" },
+    { "id": 7, "title": "3 Weeks Out from Physique Show, Diet Advice?", "url": "https://t-nation.com/t/3-weeks-out-from-physique-show-diet-advice/258783", "source": "T Nation forum", "year": 2019, "type": "forum" }
   ],
   "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Dietary_supplement", "title": "Dietary supplement (Wikipedia)" }
+    { "url": "https://en.wikipedia.org/wiki/Dietary_supplement", "title": "Dietary supplement (Wikipedia)" },
+    { "url": "https://en.wikipedia.org/wiki/Thermogenics", "title": "Thermogenics (Wikipedia)" },
+    { "url": "https://en.wikipedia.org/wiki/Anti-obesity_medication", "title": "Anti-obesity medication (Wikipedia)" },
+    { "url": "https://en.wikipedia.org/wiki/Ephedra_(medicine)", "title": "Ephedra (medicine) (Wikipedia)" }
   ],
   "card": {
     "summary": "Stimulant-heavy supplement blends sold for fat loss; no category-level efficacy data and a documented record of liver injury and adulteration reports.",

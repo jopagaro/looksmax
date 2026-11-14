@@ -1,21 +1,179 @@
 {
-"name": "Red light mask (Omnilux/CurrentBody)",
-"card": {"summary": "Consumer LED face masks marketed for wrinkles and acne; the underlying red-light therapy has mixed, often preliminary evidence.", "aka": "LED face mask; Omnilux; CurrentBody", "evidence": "limited", "outcome": "temporary", "price": null, "note": "Evidence for the general technique is mixed; no mask-specific clinical studies were located for this entry.", "structure": null},
-"quick": {"overview": "Red light masks are wearable LED devices that illuminate the face with red (and sometimes near-infrared or blue) light. Brands such as Omnilux and CurrentBody sell them for home use, marketed for skin quality.\n\nThe general approach, called LED light therapy or photobiomodulation, has been studied in dermatology with mixed and often preliminary results.",
-"mechanism": "Encyclopedic descriptions say red and near-infrared light penetrate skin and act mainly on mitochondria, particularly cytochrome c oxidase, which proponents link to collagen production and reduced inflammation [1].",
-"risks": "LED therapy is described as having fewer side effects than lasers; reported effects for low-level light include itching, red spots and mild allergic reactions, usually temporary [1]."},
-"lead": ["A red light mask is a consumer LED device worn over the face that emits red light, sometimes combined with near-infrared or blue wavelengths, and is marketed for wrinkles, acne, puffiness and general skin appearance. Omnilux and CurrentBody are brand names associated with such masks.","The technique belongs to LED light therapy, in which low-level non-coherent light is intended to stimulate cellular repair through a process called photobiomodulation [1]. Wikipedia describes research results as mixed and often preliminary [1].","No clinical trial of a specific Omnilux or CurrentBody mask was located for this article."],
-"infobox": [["Type","Wearable LED light device"],["Wavelengths","Red, often near-infrared or blue"],["Related technique","Photobiomodulation / LED light therapy"]],
-"sections": [
-{"h":"How it works","paras":["Proponents and encyclopedic summaries describe photobiomodulation as low-level light acting mainly on mitochondria, especially cytochrome c oxidase, to stimulate repair and reduce inflammation [1]. Longer red and near-infrared wavelengths penetrate more deeply than blue or green light, which hemoglobin absorbs [1].","Red light is linked in the literature to collagen production, circulation and reduced inflammation, while blue light at about 415 nm has been used for acne [1]."]},
-{"h":"Safety","paras":["LED therapy is generally described as having fewer side effects than lasers because the light is non-coherent and lower in intensity [1]. Reported effects of photobiomodulation include itching, red spots and mild allergic reactions, usually temporary [1]."]},
-{"h":"History","paras":["Red light was originally developed partly for plant growth in space and for astronaut wound healing, and Niels Finsen's lamp for skin tuberculosis is often cited as the start of modern light therapy; LED use in cosmetology grew in the 1980s, particularly for acne [1]."]},
-{"h":"Clinical studies","paras":["No studies found. A search surfaced only a 2019 study of a red-light sleep mask on sleep inertia, which concerns alertness after waking rather than skin and is not relevant to facial appearance."]}
-],
-"timeline": [],
-"lore": null,
-"refs": [
-{"id":1,"title":"Light-emitting diode therapy","url":"https://en.wikipedia.org/wiki/Light-emitting_diode_therapy","source":"Wikipedia","year":2026,"type":"encyclopedia"}
-],
-"webSources": [{"url":"https://en.wikipedia.org/wiki/Light-emitting_diode_therapy","title":"Light-emitting diode therapy"}]
+  "name": "Red light mask (Omnilux/CurrentBody)",
+  "card": {
+    "summary": "Consumer LED face masks marketed for wrinkles and acne; the underlying red-light therapy has mixed, often preliminary evidence.",
+    "aka": "LED face mask; Omnilux; CurrentBody",
+    "evidence": "limited",
+    "outcome": "temporary",
+    "price": null,
+    "note": "Evidence for the general technique is mixed; no mask-specific clinical studies were located for this entry.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "Red light masks are wearable LED devices that illuminate the face with red (and sometimes near-infrared or blue) light. Brands such as Omnilux and CurrentBody sell them for home use, marketed for skin quality.\n\nThe general approach, called LED light therapy or photobiomodulation, has been studied in dermatology with mixed and often preliminary results.",
+    "mechanism": "Encyclopedic descriptions say red and near-infrared light penetrate skin and act mainly on mitochondria, particularly cytochrome c oxidase, which proponents link to collagen production and reduced inflammation [1].",
+    "risks": "LED therapy is described as having fewer side effects than lasers; reported effects for low-level light include itching, red spots and mild allergic reactions, usually temporary [1]."
+  },
+  "lead": [
+    "A red light mask is a wearable LED device that shines red light, and often near-infrared or blue light, over the face for several minutes at a time. Users wear it at home as a skin-care step aiming for smoother fine lines, more even skin tone and clearer skin; Omnilux and CurrentBody are brand names associated with such masks. Red light is the wavelength linked to skin-rejuvenation and collagen effects, and blue light at about 415 nm is used for acne [1][2].",
+    "The technique belongs to LED light therapy. Photobiomodulation uses low-level light with no added drug and is thought to act on mitochondria, particularly cytochrome c oxidase, to raise energy production, support cell repair and reduce inflammation, though the exact pathways are still debated; red and near-infrared light penetrate deeper into skin than blue or green light, which haemoglobin absorbs [2]. Light therapy has older roots: Niels Finsen's lamp for skin tuberculosis is often cited as the start of modern light therapy, and LED use in cosmetology grew in the 1980s [2].",
+    "Several small studies used the Omnilux system. A 2005 trial in 31 people with facial wrinkles gave nine treatments with combined 633 nm and 830 nm light and found significant profilometry changes at 12 weeks, with 52 percent showing 25 to 50 percent improvement in photoaging scores and 81 percent reporting improved periorbital wrinkles [3]. A 2025 open-label study of an Omnilux wearable red-plus-blue mask for home acne treatment in 30 patients found significant lesion reductions after seven weeks [4]."
+  ],
+  "angle": {
+    "goal": "Skin quality",
+    "chain": [
+      "Red (and near-infrared or blue) LEDs light the face for a set session",
+      "Light is absorbed by skin cells, linked to collagen support and lower inflammation; blue light is used on acne bacteria",
+      "Smoother-looking skin, fewer fine lines and fewer pimples over weeks"
+    ],
+    "effect": "indirect",
+    "text": "People use the mask regularly over several weeks to improve wrinkles, skin tone and acne. Studies on the Omnilux systems reported better periorbital lines and photoaging scores, and a home mask study reported fewer acne lesions; changes build gradually with repeated sessions."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Wearable LED light device"
+    ],
+    [
+      "Wavelengths",
+      "Red 633 nm, near-infrared 830 nm, blue 415 nm (Omnilux studies)"
+    ],
+    [
+      "Related technique",
+      "Photobiomodulation / LED light therapy"
+    ],
+    [
+      "Brands",
+      "Omnilux, CurrentBody"
+    ],
+    [
+      "Regulatory note",
+      "Omnilux Clear described as FDA cleared for acne [4]"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "How it works",
+      "paras": [
+        "Photobiomodulation delivers low-level light that is thought to act mainly on mitochondria, especially cytochrome c oxidase, to stimulate repair and reduce inflammation; red and near-infrared wavelengths penetrate more deeply than blue or green light [2]. Red light is linked in the literature to collagen production, circulation and reduced inflammation, while blue light is used for acne [2].",
+        "A 2024 laboratory study of the Omnilux Blue device at 415 nm examined dose-dependent antimicrobial effects against Cutibacterium acnes, the bacterium involved in acne, using a range of single and serial doses [5]."
+      ]
+    },
+    {
+      "h": "Devices and brands",
+      "paras": [
+        "A review of LED phototherapy in dermatology describes the Omnilux system as using 415 nm (blue), 633 nm (red) and 830 nm (infrared) light, with benefits reported in mild-to-moderate acne, wound healing, psoriasis, actinic keratosis and cosmetic uses, and states that phototherapy avoids the stinging and burning that can follow photodynamic therapy with a photosensitiser [1]. The Omnilux Clear mask is a wearable facial mask for home use that emits red 633 nm and blue 415 nm light at once [4]. CurrentBody sells a competing consumer mask line; no clinical trial of a CurrentBody mask was found."
+      ]
+    },
+    {
+      "h": "Safety",
+      "paras": [
+        "LED therapy is generally described as having a better safety profile than laser treatment because the light is non-coherent and lower in intensity [2]. Reported effects of photobiomodulation include itching, red spots and mild allergic reactions, usually temporary [2]. The Omnilux acne mask study reported the device as tolerated [4]."
+      ]
+    },
+    {
+      "h": "History",
+      "paras": [
+        "Light treatment dates to ancient Egypt and India; Niels Finsen's lamp for skin tuberculosis is often cited as the start of modern light therapy [2]. Red light research grew out of plant-growth experiments in space and astronaut wound healing, with LEDs entering cosmetology in the 1980s and medical use expanding from the early 2000s [2]."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "A 2005 single-blinded randomised study of Omnilux Revive in 23 volunteers, treating half the face three times a week for three weeks, found 91 percent reported visible changes and blinded photographic review showed clinical response in 59 percent, while objective measures of skin hydration and elasticity did not change significantly [6]. A 2005 trial in 31 subjects with facial rhytids used nine treatments of combined 633 nm and 830 nm light, reporting significant profilometry changes at week 12 and 81 percent self-reported improvement in periorbital wrinkles [3]. A 2007 study of 13 subjects with photoaging used nine 20-minute sessions, with investigators rating responses as moderate in 50 percent and slight in 25 percent, and 91 percent reported improved skin tone at 12 weeks [7].",
+        "For acne, a 2025 open-label seven-week study of the Omnilux Clear home mask in 30 patients aged 14 to 45 found significant reductions in inflammatory and non-inflammatory lesion counts (p<0.0001) and a one-grade or greater Investigator Global Assessment improvement in 86 percent [4]. These studies were small and several were uncontrolled. A separate 2019 study tested a red-light sleep mask on alertness after waking, which concerns sleep rather than skin [8]."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1980s",
+      "event": "LED light begins to be used in cosmetology, particularly for acne. [2]"
+    },
+    {
+      "year": "2005",
+      "event": "Trials of Omnilux combined red and near-infrared LED therapy for facial skin rejuvenation published. [3][6]"
+    },
+    {
+      "year": "2007",
+      "event": "Study of LED therapy for photoaged skin published. [7]"
+    },
+    {
+      "year": "2025",
+      "event": "Open-label study of the Omnilux Clear home mask for acne published. [4]"
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Phototherapy with Light Emitting Diodes: Treating a Broad Range of Medical and Aesthetic Conditions in Dermatology",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29552272/",
+      "source": "J Clin Aesthet Dermatol",
+      "year": 2018,
+      "type": "review"
+    },
+    {
+      "id": 2,
+      "title": "Light-emitting diode therapy",
+      "url": "https://en.wikipedia.org/wiki/Light-emitting_diode_therapy",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "A study to determine the efficacy of combination LED light therapy (633 nm and 830 nm) in facial skin rejuvenation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16414908/",
+      "source": "J Cosmet Laser Ther",
+      "year": 2005,
+      "type": "trial"
+    },
+    {
+      "id": 4,
+      "title": "A 7-Week, Open-Label Study Evaluating the Efficacy and Safety of 415-nm/633-nm Phototherapy for Treating Mild-to-Moderate Acne",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41416031/",
+      "source": "J Clin Aesthet Dermatol",
+      "year": 2025,
+      "type": "trial"
+    },
+    {
+      "id": 5,
+      "title": "Antimicrobial effects of blue light therapy against Cutibacterium acnes: optimal dosing and impact of serial treatments",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38464448/",
+      "source": "JSES International",
+      "year": 2024,
+      "type": "study"
+    },
+    {
+      "id": 6,
+      "title": "A single-blinded randomised controlled study to determine the efficacy of Omnilux Revive facial treatment in skin rejuvenation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15909229/",
+      "source": "Lasers Med Sci",
+      "year": 2005,
+      "type": "trial"
+    },
+    {
+      "id": 7,
+      "title": "The use of light-emitting diode therapy in the treatment of photoaged skin",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17760698/",
+      "source": "J Cosmet Dermatol",
+      "year": 2007,
+      "type": "trial"
+    },
+    {
+      "id": 8,
+      "title": "Effects of red light on sleep inertia",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31118850/",
+      "source": "Nature and Science of Sleep",
+      "year": 2019,
+      "type": "trial"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Light-emitting_diode_therapy",
+      "title": "Light-emitting diode therapy - Wikipedia"
+    }
+  ]
 }

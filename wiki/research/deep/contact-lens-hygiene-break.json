@@ -1,25 +1,61 @@
 {
   "name": "Contact lens hygiene break",
   "lead": [
-    "A contact lens hygiene break refers to pausing contact lens wear and following careful lens hygiene to reduce eye redness. It appears in looksmaxxing lists as a way to get fewer red eyes.",
-    "Wikipedia's contact lens article reports that the American Academy of Ophthalmology recommends the rub-and-rinse cleaning method and replacing lens cases at least every three months, and that wearing lenses past their replacement schedule or sleeping in daily-wear lenses raises infection risk.[1] It also says that if discomfort persists, taking a day off from wear may resolve it, and that severe or lasting discomfort should be checked by an eye doctor.[1]"
+    "A contact lens hygiene break is a pause in lens wear, combined with careful lens and case hygiene, used by lens wearers to get whiter, less red-looking eyes. It appears in looksmaxxing lists because clear eye whites make the eyes look brighter and more rested, and lens-related irritation is one of the causes of redness.",
+    "Wikipedia reports that the American Academy of Ophthalmology recommends the rub-and-rinse cleaning method and replacing lens cases at least every three months, and that wearing lenses past their replacement schedule or sleeping in daily-wear lenses raises infection risk [1]. It also says that if discomfort persists, taking a day off from wear may resolve it, while severe or lasting discomfort should be checked by an eye doctor [1].",
+    "The US Centers for Disease Control and Prevention lists similar habits: hand washing, following the replacement schedule, caring for the case, not sleeping in lenses unless the eye care provider says it is acceptable, and removing lenses and contacting a provider when the eyes feel uncomfortable [2]. No published study has tested a planned break as a way to improve the look of the eyes."
   ],
+  "angle": {
+    "goal": "Eye whites",
+    "chain": [
+      "Pause lens wear and follow hygiene habits",
+      "Lens-related irritation settles",
+      "Eye whites look clearer and less red"
+    ],
+    "effect": "indirect",
+    "text": "Contact lens irritation is one cause of red eyes. People who take a break, wear glasses for a time and follow lens care habits do so to let the eyes settle so the whites look clearer."
+  },
   "infobox": [
-    ["Type", "Lifestyle / eye-care practice"],
-    ["Target", "Contact-lens-related red eye"],
-    ["Clinical evidence", "None found for breaks as a treatment"]
+    [
+      "Type",
+      "Eye-care habit"
+    ],
+    [
+      "Goal",
+      "Less red-looking eyes"
+    ],
+    [
+      "Typical elements",
+      "Break from wear, rub-and-rinse cleaning, case replacement"
+    ],
+    [
+      "Guidance sources",
+      "AAO (via Wikipedia), CDC"
+    ],
+    [
+      "Clinical studies",
+      "None found"
+    ]
   ],
   "sections": [
     {
       "h": "Hygiene guidance",
       "paras": [
-        "Wikipedia summarises hygiene advice: wash hands before handling lenses, avoid water for cleaning because tap water can carry Acanthamoeba, and use the rub-and-rinse method, which the US FDA asked manufacturers in 2010 to reflect by removing no-rub labelling.[1]"
+        "Wikipedia summarizes hygiene advice: wash hands before handling lenses, avoid water for cleaning because tap water can carry Acanthamoeba, and use the rub-and-rinse method, which the US FDA asked manufacturers in 2010 to reflect by removing no-rub labeling [1].",
+        "The CDC lists washing and drying hands before handling lenses, using only the disinfecting solution a provider recommends, replacing the lens case about every three months, storing the case upside down with caps off, and removing lenses before swimming or showering [2]. It also suggests keeping glasses with a current prescription available in case lenses need to come out [2]."
       ]
     },
     {
       "h": "Red eye and complications",
       "paras": [
-        "Wikipedia notes that microbial keratitis is regarded as the most significant complication of lens wear, with Pseudomonas aeruginosa the most common pathogen, and that contact lens acute red eye is a group of inflammatory complications of wear.[1] Sleeping in lenses not approved for extended wear is linked to infection, ulcers and corneal neovascularization.[1]"
+        "Microbial keratitis is regarded as the most significant complication of lens wear, with Pseudomonas aeruginosa the most common pathogen, and contact lens acute red eye is a group of inflammatory complications of wear [1]. Sleeping in lenses not approved for extended wear is linked to infection, ulcers and corneal neovascularization [1].",
+        "Wikipedia's article on red eye lists contact lens misuse among triggers for corneal problems, and dry eye among causes of redness, alongside many other causes such as conjunctivitis and allergies [3]."
+      ]
+    },
+    {
+      "h": "Use in looksmaxxing",
+      "paras": [
+        "Contact lens hygiene is listed among eye-appearance measures in looksmaxxing discussions on the basis that red, irritated eyes look less healthy than white, clear eyes."
       ]
     },
     {
@@ -29,15 +65,47 @@
       ]
     }
   ],
-  "timeline": [
-    { "year": "2010", "event": "US FDA asks manufacturers to remove no-rub labelling from lens solutions.[1]" }
-  ],
+  "timeline": [],
   "lore": null,
   "refs": [
-    { "id": 1, "title": "Contact lens", "url": "https://en.wikipedia.org/wiki/Contact_lens", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" }
+    {
+      "id": 1,
+      "title": "Contact lens",
+      "url": "https://en.wikipedia.org/wiki/Contact_lens",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Healthy Contact Lens Habits",
+      "url": "https://www.cdc.gov/contact-lenses/prevention/index.html",
+      "source": "CDC",
+      "year": null,
+      "type": "guideline"
+    },
+    {
+      "id": 3,
+      "title": "Red eye (medicine)",
+      "url": "https://en.wikipedia.org/wiki/Red_eye_(medicine)",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    }
   ],
   "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Contact_lens", "title": "Contact lens - Wikipedia" }
+    {
+      "url": "https://en.wikipedia.org/wiki/Contact_lens",
+      "title": "Contact lens - Wikipedia"
+    },
+    {
+      "url": "https://www.cdc.gov/contact-lenses/prevention/index.html",
+      "title": "Healthy Contact Lens Habits - CDC"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Red_eye_(medicine)",
+      "title": "Red eye (medicine) - Wikipedia"
+    }
   ],
   "card": {
     "summary": "Pausing lens wear and cleaning properly is aimed at fewer red eyes; no study tests it for looks.",

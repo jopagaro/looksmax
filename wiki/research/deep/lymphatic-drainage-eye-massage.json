@@ -14,9 +14,9 @@
   "risks": "No specific risk data for the eye-area version were found. As with any massage near the eyes, vigorous rubbing is a concern in dark-circle literature, where eye rubbing is linked to inflammation and pigmentation."
  },
  "lead": [
-  "Lymphatic drainage eye massage is a practice of gentle, light-pressure strokes around the eyes and face intended to move fluid and reduce puffiness. It is adapted from manual lymphatic drainage (MLD).",
-  "MLD was developed by Danish practitioners Emil and Estrid Vodder in the 1930s, initially for chronic sinusitis, and was introduced in Paris in 1936.[1] It is described as light rhythmic skin manipulation rather than conventional massage.[1]",
-  "Research on MLD concerns lymphedema, with mixed results; a 2013 systematic review on breast cancer-related lymphedema found no clear support for preventing or treating swelling, while a 2022 study reported improved lymphedema with new collateral pathways.[1] No study of eye-area drainage massage for cosmetic puffiness was found."
+  "Lymphatic drainage eye massage is a practice of gentle, light-pressure strokes around the eyes and face, with fingers or small tools, intended to move fluid and reduce morning puffiness so the eye area looks flatter and more rested. It is adapted from manual lymphatic drainage (MLD).",
+  "MLD was developed by Danish practitioners Emil and Estrid Vodder in the 1930s, initially for chronic sinusitis, and was introduced in Paris in 1936; it is described as light rhythmic skin manipulation rather than conventional massage [1].",
+  "Research on MLD concerns lymphedema, with mixed results [1]. One randomized trial of MLD after jaw surgery found faster swelling decline on 3D scans in the MLD group that did not reach statistical significance [3]. Anatomical studies of the eyelid show where its lymph drains, which is the basis for the direction of strokes described by proponents [4]. No study of eye-area drainage massage for cosmetic puffiness was found."
  ],
  "infobox": [
   [
@@ -25,11 +25,15 @@
   ],
   [
    "Derived from",
-   "Manual lymphatic drainage (Vodder, 1930s)"
+   "Manual lymphatic drainage (Vodder, 1930s) [1]"
   ],
   [
    "Pressure",
-   "Light (under about 4 kPa)"
+   "Light (under about 4 kPa) [1]"
+  ],
+  [
+   "Typical goal",
+   "Less eye-area puffiness"
   ],
   [
    "Cosmetic trials",
@@ -50,9 +54,16 @@
    ]
   },
   {
+   "h": "Eyelid lymph drainage",
+   "paras": [
+    "A lymphoscintigraphy study of 28 patients found the preauricular node, in front of the ear, to be the first sentinel node in 72 percent (18 of 25) of cases regardless of where on the eyelid the tracer was injected, which the authors noted conflicts with the classic description of eyelid drainage [4]. Proponents direct strokes outward toward the temples, near that region."
+   ]
+  },
+  {
    "h": "Clinical studies",
    "paras": [
-    "No studies found for eye-area massage. Evidence for MLD in lymphedema is mixed.[1]"
+    "No studies found for eye-area massage. Evidence for MLD in lymphedema is mixed; a 2013 systematic review of breast cancer-related lymphedema found no clear support for MLD in preventing or treating swelling, and a 2022 study of 80 patients with lower-limb lymphedema reported more open lymphatic pathways [1].",
+    "In a randomized, single-center trial of 26 patients after orthognathic (jaw) surgery, the 13 who received six MLD sessions showed a faster decrease in swelling on 3-dimensional facial scans and reported less swelling and pain in the first month, but the differences were not statistically significant [3]."
    ]
   }
  ],
@@ -83,6 +94,22 @@
    "source": "Wikipedia",
    "year": 2026,
    "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "The effect of manual lymphatic drainage on patient recovery after orthognathic surgery",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:32680812&resultType=core&format=json&pageSize=1",
+   "source": "Oral Surg Oral Med Oral Pathol Oral Radiol (via Europe PMC)",
+   "year": 2020,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "Lymphatic drainage patterns of the human eyelid: assessed by lymphoscintigraphy",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:20551850&resultType=core&format=json&pageSize=1",
+   "source": "Ophthalmic Plast Reconstr Surg (via Europe PMC)",
+   "year": 2010,
+   "type": "study"
   }
  ],
  "webSources": [
@@ -93,6 +120,24 @@
   {
    "url": "https://en.wikipedia.org/wiki/Periorbital_dark_circles",
    "title": "Periorbital dark circles"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:32680812&resultType=core&format=json&pageSize=1",
+   "title": "Europe PMC record 32680812"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:20551850&resultType=core&format=json&pageSize=1",
+   "title": "Europe PMC record 20551850"
   }
- ]
+ ],
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "Light strokes around the eyes toward the temples and neck",
+   "Intended to move trapped fluid",
+   "Reduced puffiness and a fresher-looking eye area"
+  ],
+  "effect": "claimed",
+  "text": "People use the strokes, often in the morning, to reduce overnight swelling around the eyes and give the face a less puffy look. Effects described by users are temporary and relate to fluid."
+ }
 }

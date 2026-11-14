@@ -1,18 +1,134 @@
 {
-"name":"Piz Buin",
-"lead":["Piz Buin is a European sun care brand. According to Wikipedia, Austrian chemist Franz Greiter introduced a product called Gletscher Crème in 1946 that became the basis for Piz Buin, named after the mountain where Greiter reportedly got sunburned [1].","Published scientific use of the brand is limited to old animal experiments in which it served as a test sunscreen."],
-"infobox":[["Type","Sun care brand"],["Origin","Franz Greiter, 1946 (Gletscher Crème) [1]"],["Region","Europe"],["Name origin","Alpine mountain Piz Buin [1]"]],
-"sections":[
-{"h":"History","paras":["Greiter's 1946 glacier cream was the basis for the brand [1]. Wikipedia credits the name to the mountain where he allegedly suffered sunburn [1]."]},
-{"h":"Clinical studies","paras":["No studies found in humans. Animal studies exist: a 1984 hairless-mouse study used a commercial sunscreen to compare protection against vascular injury and epidermal cell damage [2], and a 1985 study of long-term UV exposure of mouse eyes included a group protected with a Piz Buin factor 6 lotion alongside one using a factor 5 product and an unprotected group [3]."]}
-],
-"timeline":[{"year":"1946","event":"Franz Greiter introduces Gletscher Crème, basis of Piz Buin. [1]"}],
-"lore":null,
-"refs":[
-{"id":1,"title":"Sunscreen","url":"https://en.wikipedia.org/wiki/Sunscreen","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":2,"title":"An animal model to determine sunscreen protectiveness against both vascular injury and epidermal cell damage","url":"https://pubmed.ncbi.nlm.nih.gov/6725670/","source":"Journal of the American Academy of Dermatology","year":1984,"type":"study"},
-{"id":3,"title":"Alterations to eye structures in hairless mice by long-term ultraviolet irradiation","url":"https://pubmed.ncbi.nlm.nih.gov/4003048/","source":"Acta Ophthalmologica","year":1985,"type":"study"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Sunscreen","title":"Sunscreen (Wikipedia)"}],
-"card":{"summary":"Alpine-named European sun care brand dating to a 1946 glacier cream; only old mouse studies exist.","aka":null,"evidence":"unproven","outcome":"temporary","risk":"low","price":null,"note":"Evidence is for sunscreens generally, not this brand.","structure":null},
-"quick":{"overview":"Piz Buin is a European sun care brand tracing to Franz Greiter's 1946 Gletscher Crème.\n\nIt is named after an Alpine mountain.","mechanism":"It is a sunscreen brand; the sources reviewed do not detail its filters.","risks":"No human studies of the brand were found; only 1980s mouse experiments used it."}
+  "name": "Piz Buin",
+  "card": {
+    "summary": "Alpine-named European sun care brand dating to a 1946 glacier cream; only old mouse studies exist.",
+    "aka": null,
+    "evidence": "unproven",
+    "outcome": "temporary",
+    "risk": "low",
+    "price": null,
+    "note": "Evidence is for sunscreens generally, not this brand.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "Piz Buin is a European sun care brand tracing to Franz Greiter's 1946 Gletscher Crème.\n\nIt is named after an Alpine mountain.",
+    "mechanism": "It is a sunscreen brand; the sources reviewed do not detail its filters.",
+    "risks": "No human studies of the brand were found; only 1980s mouse experiments used it."
+  },
+  "lead": [
+    "Piz Buin is a European sun care brand of sunscreens and after-sun products. People use it to get a tan or time outdoors while limiting sunburn, which keeps skin looking even and helps avoid the redness, peeling and uneven tone that follow burning.[1][2]",
+    "According to Wikipedia, Austrian chemist Franz Greiter introduced a product called Gletscher Crème (Glacier Cream) in 1946 that became the basis for the Piz Buin company, named after the Alpine mountain where Greiter reportedly got sunburned. The article estimates that the early cream had an SPF of about 2.[1][2]",
+    "Greiter is also credited with the sun protection factor. In 1974 he adapted earlier calculations by Friedrich Ellinger and Rudolf Schulze and introduced SPF as a measure of UVB protection, which became a global standard.[2] Published scientific use of the brand itself is limited to 1980s animal experiments in which a Piz Buin product served as a test sunscreen.[3][4]"
+  ],
+  "angle": {
+    "goal": "Tan and skin protection",
+    "chain": [
+      "Apply sunscreen before sun exposure",
+      "Less UV burning (SPF measures UVB protection)",
+      "More even tan, less redness and peeling"
+    ],
+    "effect": "direct",
+    "text": "Sunscreen filters part of the UV radiation that causes sunburn, so wearers can spend time in the sun with less redness and peeling. Piz Buin lines are sold both for protection and for people who want to tan gradually."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Sun care brand"
+    ],
+    [
+      "Origin",
+      "Franz Greiter, 1946 (Gletscher Crème) [1]"
+    ],
+    [
+      "Region",
+      "Europe"
+    ],
+    [
+      "Name origin",
+      "Alpine mountain Piz Buin [1]"
+    ],
+    [
+      "Related invention",
+      "SPF, introduced by Greiter in 1974 [2]"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "History",
+      "paras": [
+        "Greiter's 1946 glacier cream was the basis for the brand. Wikipedia credits the name to the mountain where he allegedly suffered sunburn.[1][2] Piz Buin is also a peak in the Silvretta Alps on the Austria-Switzerland border.",
+        "In 1974 Greiter introduced the sun protection factor, adapting earlier calculations by Ellinger and Schulze.[2]"
+      ]
+    },
+    {
+      "h": "How SPF works",
+      "paras": [
+        "SPF measures the fraction of sunburn-producing UV rays that reach the skin; an SPF 15 product lets about one-fifteenth of that burning radiation through when applied at the testing dose of 2 mg per square centimetre.[2] It reflects UVB protection specifically, and Wikipedia notes UVA also contributes to skin damage without causing much reddening. A higher SPF does not mean longer-lasting protection, and sunscreens are typically reapplied about every two hours.[2]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found in humans. Animal studies exist: a 1984 hairless-mouse study used Piz Buin 12 Sun Protection Cream at full strength and in dilutions to compare protection against vascular injury and epidermal cell damage,[3] and a 1985 study of long-term UV exposure of mouse eyes included a group protected with a Piz Buin factor 6 lotion alongside one using a factor 5 product and an unprotected group.[4]"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1946",
+      "event": "Franz Greiter introduces Gletscher Crème, basis of Piz Buin.[1][2]"
+    },
+    {
+      "year": "1974",
+      "event": "Greiter introduces the sun protection factor.[2]"
+    },
+    {
+      "year": "1984",
+      "event": "Hairless-mouse study uses Piz Buin 12 Sun Protection Cream as a test sunscreen.[3]"
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Sunscreen",
+      "url": "https://en.wikipedia.org/wiki/Sunscreen",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Sun protection factor",
+      "url": "https://en.wikipedia.org/wiki/Sun_protection_factor",
+      "source": "Wikipedia",
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "An animal model to determine sunscreen protectiveness against both vascular injury and epidermal cell damage",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6725670/",
+      "source": "Journal of the American Academy of Dermatology",
+      "year": 1984,
+      "type": "study"
+    },
+    {
+      "id": 4,
+      "title": "Alterations to eye structures in hairless mice by long-term ultraviolet irradiation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/4003048/",
+      "source": "Acta Ophthalmologica",
+      "year": 1985,
+      "type": "study"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Sunscreen",
+      "title": "Sunscreen (Wikipedia)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sun_protection_factor",
+      "title": "Sun protection factor (Wikipedia)"
+    }
+  ]
 }

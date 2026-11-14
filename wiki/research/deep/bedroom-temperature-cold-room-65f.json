@@ -1,9 +1,21 @@
 {
  "name": "Bedroom temperature (cold room, 65F)",
  "lead": [
-  "The cold-room habit keeps the bedroom cool, often around 65 F (about 18 C), on the belief that cooler air supports sleep. It is a common item in sleep routines in looksmaxxing and wellness communities.",
-  "Sleep-hygiene guidance recommends a quiet, dark and cool sleeping environment and notes that uncomfortable temperatures can disrupt continuous sleep, though reference sources do not rate temperature separately and describe the overall evidence for sleep hygiene as weak.[1]"
+  "The cold-room habit keeps the bedroom cool, often around 65 F (about 18 C), by lowering the thermostat, opening a window or running a fan. In looksmaxxing and wellness communities it is used for deeper, more continuous sleep, which proponents link to fresher skin, less under-eye darkness, better recovery from training and healthier hormones.",
+  "Sleep-hygiene guidance recommends a quiet, very dark and cool sleeping area and says noise, light and uncomfortable temperatures have been shown to disrupt continuous sleep [1]. Dermatology references list fatigue among the factors that make skin look paler and under-eye circles more visible [2], which is the chain from sleep to appearance that communities cite.",
+  "Reference sources do not name 65 F as a specific target, and describe evidence for sleep-hygiene advice overall as weak and inconclusive, with a 2021 American Academy of Sleep Medicine review not favouring it as a stand-alone insomnia treatment [1]."
  ],
+ "angle": {
+  "goal": "Skin and recovery",
+  "chain": [
+   "Cool bedroom",
+   "Fewer temperature-related awakenings",
+   "More consistent sleep",
+   "Rested-looking skin and eyes, better training recovery"
+  ],
+  "effect": "indirect",
+  "text": "People keep the bedroom cool so they sleep without overheating, which they say shows up as brighter skin, fewer dark circles and more energy to train. The appearance benefit runs through sleep quality."
+ },
  "infobox": [
   [
    "Type",
@@ -15,7 +27,7 @@
   ],
   [
    "Related gear",
-   "Fans, cooling bedding"
+   "Fans, cooling bedding, blackout curtains"
   ],
   [
    "Appearance trials",
@@ -26,24 +38,40 @@
   {
    "h": "Description",
    "paras": [
-    "The habit lowers the thermostat or ventilates the room at night. Sleep-hygiene guidance recommends a cool environment and says discomfort from temperature can fragment sleep.[1]"
+    "The habit lowers the thermostat or ventilates the room at night. It usually sits alongside other bedroom changes such as darkness, quiet and a consistent bedtime, which sleep-hygiene guidance groups together [1]."
+   ]
+  },
+  {
+   "h": "Sleep and appearance",
+   "paras": [
+    "Fatigue is one of the factors listed for dark circles, since tiredness makes skin look paler so underlying vessels show more [2]. Proponents of the cold room cite this link when they say better sleep improves how the eyes and skin look."
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found for the specific 65 F target or for appearance outcomes within the material reviewed. General sleep-hygiene guidance, including temperature, has been evaluated as an insomnia approach with weak and inconclusive results; a 2021 meta-analysis did not support it as a stand-alone treatment.[1]"
+    "No studies found for the specific 65 F target or for appearance outcomes. Guidance covering bedroom conditions generally, including temperature, has been evaluated as part of sleep hygiene for insomnia, where results were weak and inconclusive and a 2021 review did not support it as a stand-alone treatment [1]. Work on cold exposure more broadly, such as a clinical trial of physiological responses to mild cold in young men, concerns waking cold exposure rather than sleep [3]."
    ]
   },
   {
    "h": "In looksmaxxing culture",
    "paras": [
-    "The cold room appears alongside fixed bedtimes, screen limits and cooling bedding as a sleep optimization, with proponents stating that better sleep supports skin, recovery and hormones."
+    "The cold room appears alongside fixed bedtimes, screen limits, no alcohol and cooling bedding as part of a sleep routine. A poster in a T Nation thread describes trying 'all the sleep hygiene stuff (no screens, no alcohol, cold room)' while still waking after a few hours, illustrating that members treat it as one element of a set [4]."
    ]
   }
  ],
  "timeline": [],
- "lore": null,
+ "lore": {
+  "intro": "In forums the cold room is mentioned as part of a bundle of sleep habits rather than as a stand-alone practice.",
+  "claims": [
+   {
+    "claim": "A cold room improves sleep, and better sleep improves how you look",
+    "believers": "Members include 'cold room' among sleep-hygiene steps meant to produce deeper sleep and a more rested appearance [4].",
+    "experts": "Sleep-hygiene guidance recommends a cool sleeping environment and notes temperature discomfort can disrupt sleep, while rating the overall evidence for the advice as weak [1]. No published study has tested a 65 F bedroom against appearance outcomes.",
+    "evidence": "untested"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -52,12 +80,40 @@
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Periorbital dark circles",
+   "url": "https://en.wikipedia.org/wiki/Periorbital_dark_circles",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Physiological responses to acute cold exposure in young lean men",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29734360/",
+   "source": "PLoS ONE",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "Silver and Steel (T Nation forum thread)",
+   "url": "https://t-nation.com/t/silver-and-steel/237353",
+   "source": "T Nation forum",
+   "year": 2017,
+   "type": "forum"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Sleep_hygiene",
-   "title": "Sleep hygiene - Wikipedia"
+   "title": "Sleep hygiene"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Periorbital_dark_circles",
+   "title": "Periorbital dark circles"
   }
  ],
  "card": {

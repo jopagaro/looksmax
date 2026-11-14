@@ -1,8 +1,9 @@
 {
  "name": "Kombucha ferment",
  "lead": [
-  "Kombucha ferment is a skincare ingredient name for products made by fermenting tea or plant extracts with a kombucha culture (a symbiotic culture of bacteria and yeast, often called SCOBY).[1] Kombucha as a drink is a lightly sweetened fermented black tea, thought to have originated in China.[1]",
-  "Laboratory work has fermented botanical extracts with kombucha cultures and measured antioxidant and anti-inflammatory activity, including a 2023 study of elderberry (Sambucus nigra) fruit ferment on human skin fibroblast cells.[2] No human trials of kombucha ferment as a skincare ingredient were found."
+  "Kombucha ferment is a skincare ingredient name for products made by fermenting tea or plant extracts with a kombucha culture (a symbiotic culture of bacteria and yeast, often called SCOBY).[1] Brands add it to serums, toners and masks with the aim of calmer, brighter, more even-looking skin, on the reasoning that fermentation produces organic acids and modifies polyphenols, giving antioxidant and soothing extracts.[1][2]",
+  "Kombucha as a drink is a lightly sweetened fermented black tea, thought to have originated in China.[1] Laboratory work has fermented botanical extracts with kombucha cultures and measured antioxidant and anti-inflammatory activity, including a 2023 study of elderberry (Sambucus nigra) fruit ferment on human skin fibroblast cells.[2]",
+  "Among lifters and gut-health followers, kombucha is more often discussed as a drink; a T Nation poster described it as fruity, low in sugar and rich in polyphenols and probiotics, while others mention it among fermented foods for digestion.[4][5] No human trials of kombucha ferment as a skincare ingredient were found."
  ],
  "infobox": [
   [
@@ -55,7 +56,17 @@
    "event": "Laboratory studies of kombucha-fermented botanical extracts.[2][3]"
   }
  ],
- "lore": null,
+ "lore": {
+  "intro": "Kombucha is discussed on T Nation as a gut-friendly drink rather than a skincare ingredient.",
+  "claims": [
+   {
+    "claim": "Kombucha is loaded with polyphenols, probiotics and enzymes and beats soda",
+    "believers": "One T Nation poster describes it as fruity, low-sugar, naturally effervescent and polyphenol-rich.[4]",
+    "experts": "Wikipedia notes there is no clinical proof of the many health benefits claimed for the drink; a 2003 review did not recommend it therapeutically.[1]",
+    "evidence": "untested"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -80,6 +91,22 @@
    "source": "J Food Process Preserv",
    "year": 2022,
    "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Diet Coke and Coke Zero",
+   "url": "https://t-nation.com/t/diet-coke-and-coke-zero/130951",
+   "source": "T Nation forum",
+   "year": 2009,
+   "type": "forum"
+  },
+  {
+   "id": 5,
+   "title": "Gut Health Thread",
+   "url": "https://t-nation.com/t/gut-health-thread/151080",
+   "source": "T Nation forum",
+   "year": 2010,
+   "type": "forum"
   }
  ],
  "webSources": [
@@ -100,5 +127,16 @@
   "overview": "Kombucha ferment is a cosmetic ingredient made by fermenting tea or botanical extracts with a kombucha culture. Marketing links it to antioxidant and soothing effects.\n\nPublished work consists of laboratory studies on cells and chemical assays; no human skincare trials were found.",
   "mechanism": "The culture of bacteria and yeast converts sugars into organic acids and alters polyphenols in the extract; in vitro studies report higher antioxidant activity in some fermented extracts.",
   "risks": "Topical safety data were not found. Reports of serious adverse events relate mainly to drinking home-brewed kombucha."
+ },
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "Ferment tea or plant extract with kombucha culture",
+   "Antioxidant and anti-inflammatory compounds in the extract",
+   "Applied in a serum or mask",
+   "Calmer, brighter-looking skin"
+  ],
+  "effect": "claimed",
+  "text": "Skincare products list kombucha ferment as an antioxidant, soothing ingredient. Laboratory studies of kombucha-fermented extracts report higher antioxidant activity in some cases."
  }
 }

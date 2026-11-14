@@ -1,9 +1,21 @@
 {
  "name": "Alcohol cutting (quit drinking)",
  "lead": [
-  "Alcohol cutting means reducing or stopping alcohol, which looksmaxxing communities discuss as a way to reduce facial puffiness and improve skin.",
-  "Wikipedia states that alcohol suppresses vasopressin and acts as a diuretic, and that stopping drinking can benefit skin appearance, sleep and weight, though that section relies partly on secondary sources [1]. Alcohol flush reaction in people with ALDH2 variants is a separate phenomenon [1]."
+  "Alcohol cutting means reducing or stopping alcohol, a change looksmaxxing communities discuss as a way to look less puffy and to improve skin. The idea is a short chain: less alcohol leads to better hydration and sleep, which leads to a fresher, less swollen face, and removing the calories in drinks also supports leaner body composition.",
+  "Reference sources describe alcohol as suppressing vasopressin, the antidiuretic hormone, so the body loses more water in urine; the same sources say stopping drinking restores hydration and may benefit skin appearance [1]. Alcohol also disrupts sleep patterns, including later REM sleep, and sleep quality often improves after people stop [1].",
+  "Alcohol is also a recognised trigger of facial flushing. Acetaldehyde, a breakdown product of alcohol, causes the flush reaction that is common in people carrying an ALDH2 gene variant [1], and alcohol is listed among the triggers of flushing episodes in rosacea [2]. People who see redness after drinking sometimes cut alcohol for that reason.",
+  "No published trial has measured facial appearance before and after quitting alcohol; the evidence is made up of general physiology and health-outcome research."
  ],
+ "angle": {
+  "goal": "Skin and face",
+  "chain": [
+   "Less alcohol means less diuretic effect and calorie intake",
+   "Better hydration and sleep",
+   "Less facial puffiness and flushing, leaner physique"
+  ],
+  "effect": "indirect",
+  "text": "People cut alcohol to reduce morning facial puffiness, flushing and skin dullness, and to lower calorie intake while cutting weight. The appearance effects are mediated by hydration, sleep and body-fat changes."
+ },
  "infobox": [
   [
    "Type",
@@ -11,30 +23,68 @@
   ],
   [
    "Claimed benefit",
-   "Less puffiness, clearer skin"
+   "Less puffiness and flushing, clearer skin, leaner physique"
+  ],
+  [
+   "Mechanism",
+   "Hydration, sleep, calories, flushing triggers"
   ],
   [
    "Related",
-   "Sleep, hydration, weight"
+   "Sleep, hydration, weight loss"
+  ],
+  [
+   "Appearance trials",
+   "None found"
   ]
  ],
  "sections": [
   {
-   "h": "Reported effects of quitting",
+   "h": "How it is used for appearance",
    "paras": [
-    "Reported effects include restored hydration, better sleep quality, lower calorie intake and, with sustained abstinence, reversal of early fatty liver. Alcohol particularly disrupts later REM sleep [1]."
+    "Practitioners range from giving up alcohol entirely to dropping it during a cut or in the weeks before photos or events. Communities describe the target effects as a leaner, less swollen face on waking, calmer skin tone, and better recovery from training.",
+    "Because alcoholic drinks supply calories with little fullness per calorie, removing them lowers total energy intake, which is the route to a leaner look [1]."
+   ]
+  },
+  {
+   "h": "Reported effects of quitting",
+   "subs": [
+    {
+     "h": "Hydration and puffiness",
+     "paras": [
+      "Alcohol reduces the release of vasopressin, increasing water loss and contributing to dehydration and hangover thirst; stopping drinking restores hydration [1]."
+     ]
+    },
+    {
+     "h": "Sleep",
+     "paras": [
+      "Alcohol disrupts normal sleep patterns, and sleep quality, including later REM stages, often improves after stopping [1]. Fatigue is among the factors dermatology references list as making skin look paler and under-eye circles more visible [4]."
+     ]
+    },
+    {
+     "h": "Flushing and redness",
+     "paras": [
+      "The alcohol flush reaction is driven by acetaldehyde and is most associated with an ALDH2 variant carried by an estimated 30 to 50 percent of people of Chinese and Japanese ancestry [1]. In rosacea, alcohol is one of several listed triggers of flushing that can last more than ten minutes [2]."
+     ]
+    },
+    {
+     "h": "General health",
+     "paras": [
+      "Reference sources describe liver repair, lower blood pressure and lower risk of several cancers after stopping, with changes beginning within weeks and continuing over months and years [1]. The International Agency for Research on Cancer classifies alcoholic beverages as a Group 1 carcinogen [3]."
+     ]
+    }
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found directly measuring facial appearance after quitting alcohol in the sources reviewed. General health research on abstinence reports liver, blood pressure and cancer-risk changes over time [1]."
+    "No studies found directly measuring facial appearance after quitting alcohol. Related clinical research covers alcohol cessation and outcomes in other settings: a Cochrane review examined alcohol-cessation interventions before surgery and postoperative complications [5], and a clinical review covers management of alcohol misuse in people with liver disease [6]."
    ]
   },
   {
    "h": "Safety",
    "paras": [
-    "People with heavy alcohol dependence can experience dangerous withdrawal, and clinicians generally advise medical supervision in that situation."
+    "People with heavy or long-term alcohol dependence can experience serious withdrawal, and clinicians generally advise medical supervision in that situation. Case reports describe withdrawal-related neurological complications [7]."
    ]
   }
  ],
@@ -48,12 +98,72 @@
    "source": "Wikipedia",
    "year": 2026,
    "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Rosacea",
+   "url": "https://en.wikipedia.org/wiki/Rosacea",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Alcohol and cancer",
+   "url": "https://en.wikipedia.org/wiki/Alcohol_and_cancer",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Periorbital dark circles",
+   "url": "https://en.wikipedia.org/wiki/Periorbital_dark_circles",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 5,
+   "title": "Perioperative alcohol cessation intervention for postoperative complications",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30408162/",
+   "source": "Cochrane Database of Systematic Reviews",
+   "year": 2018,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Management of alcohol misuse in patients with liver diseases",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27940551/",
+   "source": "Journal of Investigative Medicine",
+   "year": 2017,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "A Case of Alcohol Withdrawal-Induced Central and Extrapontine Myelinolysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37565130/",
+   "source": "Cureus",
+   "year": 2023,
+   "type": "study"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Effects_of_alcohol_on_the_body",
    "title": "Effects of alcohol on the body"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Rosacea",
+   "title": "Rosacea"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Alcohol_and_cancer",
+   "title": "Alcohol and cancer"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Periorbital_dark_circles",
+   "title": "Periorbital dark circles"
   }
  ],
  "card": {

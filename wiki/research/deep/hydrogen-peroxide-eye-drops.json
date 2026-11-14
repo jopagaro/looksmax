@@ -17,36 +17,118 @@
     "risks": "Reference sources state that concentrations as low as 3% can be dangerous for the eye. Higher concentrations cause skin burns and react violently with organic material. Direct eye use is associated with corneal injury."
   },
   "lead": [
-    "Hydrogen peroxide eye drops refers to applying hydrogen peroxide solution directly to the eye, sometimes with the aim of whitening or cleansing it. It is not a medically recognised treatment for that purpose, and no published studies of it for appearance were found.",
-    "Household peroxide is typically 3 or 6 percent by weight. It is used as a surface disinfectant and, in neutralised form, for contact lens disinfection [1]. Reference sources warn that concentrations as low as 3% can be dangerous for the eye because oxygen is released within it [1]."
+    "Hydrogen peroxide eye drops refers to putting hydrogen peroxide solution directly into the eye with the aim of whitening or cleansing it, so that the sclera (the white of the eye) looks brighter and less red. Clear, white eyes are part of a rested, healthy appearance, and the idea behind the practice is that peroxide, which is known as a bleaching and antiseptic agent for hair, teeth and surfaces, could do the same for the eye [1]. It is a home or do-it-yourself practice rather than an ophthalmic product, and no published studies of it for appearance were found.",
+    "Consumer hydrogen peroxide is usually sold at 3 or 6 percent, laboratories commonly use 30 percent, and industrial grades are much stronger [1]. It is used as an antiseptic, for tooth whitening and, mixed with other agents, in hair colouring, where it gave rise to the phrase 'peroxide blonde' [1]. In the eye-care world, 3 percent peroxide is used to disinfect contact lenses in a case containing a catalytic disc that neutralises it before the lenses are put back in the eye [1][2].",
+    "Reference sources caution about eye contact. Wikipedia states that concentrations as low as 3 percent can be dangerous to the eye because oxygen is released within it [1]. An ophthalmologist answering a question for the American Academy of Ophthalmology says 3 percent peroxide rarely causes permanent or severe eye damage, with injury usually confined to the cornea, producing stinging, pain, redness, tearing, and possibly corneal abrasions or ulcers that can be serious if not treated [3]."
   ],
+  "angle": {
+    "goal": "Eyes",
+    "chain": [
+      "Peroxide solution is placed in the eye",
+      "Oxidising action is expected to clear or whiten the surface",
+      "Aim: whiter, brighter-looking eyes"
+    ],
+    "effect": "claimed",
+    "text": "People who try it hope to whiten the sclera and reduce a dull or red look by using a known household bleaching and antiseptic agent. No studies have tested it for that purpose, and ophthalmology sources describe it as an irritant to the corneal surface."
+  },
   "infobox": [
-    ["Type", "Folk / DIY practice"],
-    ["Substance", "Hydrogen peroxide"],
-    ["Route", "Topical, ocular"],
-    ["Hazard", "Corneal injury"],
-    ["Studied in trials", "No"]
+    [
+      "Type",
+      "Folk / DIY practice"
+    ],
+    [
+      "Substance",
+      "Hydrogen peroxide (household 3 or 6 percent; lab 30 percent)"
+    ],
+    [
+      "Route",
+      "Topical, ocular"
+    ],
+    [
+      "Documented hazard",
+      "Corneal irritation, abrasion, ulcer; burns with unneutralised lens solution"
+    ],
+    [
+      "Studied for eye whitening",
+      "No"
+    ]
   ],
   "sections": [
     {
       "h": "Background",
       "paras": [
-        "Consumer hydrogen peroxide is sold at 3 or 6 percent, with 30 percent common in laboratories and stronger grades far more hazardous [1]. Contact lenses are often disinfected in 3 percent peroxide, with a catalytic disc in the case that breaks it down before the lenses are reused [1]. Solutions up to 35 percent cause skin bubbling and pain, and concentrated solutions react violently with organic materials [1]."
+        "Hydrogen peroxide was first made in about 1818 by Louis Jacques Thenard, who called it 'eau oxygenee' [1]. Consumers usually buy 3 or 6 percent solutions from pharmacies, laboratories use 30 percent, and industrial grades run from 70 to 98 percent, with solutions above 68 percent able to turn entirely to steam and oxygen [1]. Concentrations up to 35 percent cause white oxygen bubbles and pain on skin [1].",
+        "The US Food and Drug Administration generally recognises peroxide as safe as an antimicrobial agent, and pharmaceutical formulations typically come in brown bottles that block light [1]."
+      ]
+    },
+    {
+      "h": "Contact lens use",
+      "paras": [
+        "Three percent peroxide is a common contact lens disinfectant. The lens case contains a catalytic disc that neutralises the peroxide, and the solution and lenses must stay in the case for at least six hours before use [1][2]. Health Canada's alert pages describe consumers who reported pain and burning after the unneutralised solution touched the eye, including a corneal burn confirmed by an eye doctor, in cases where people used a flat case or rinsed lenses with unneutralised solution [2]."
+      ]
+    },
+    {
+      "h": "Reported risks",
+      "paras": [
+        "Wikipedia states that concentrations as low as 3 percent can be dangerous to the eye because oxygen evolves within it, and that domestic-strength solutions can irritate the eyes and mucous membranes [1]. According to the American Academy of Ophthalmology Q&A, 3 percent peroxide rarely causes permanent or severe damage; injury is usually confined to the cornea, with stinging, pain, redness, tearing, abrasions and ulcers, and the response advises flushing with water immediately and seeing an ophthalmologist [3]."
       ]
     },
     {
       "h": "Clinical studies",
       "paras": [
-        "No studies found."
+        "No studies found on hydrogen peroxide drops for eye whitening or appearance."
       ]
     }
   ],
-  "timeline": [],
+  "timeline": [
+    {
+      "year": "1818",
+      "event": "Louis Jacques Thenard makes the compound later known as hydrogen peroxide. [1]"
+    },
+    {
+      "year": "2013",
+      "event": "Health Canada advisory on eye injuries from 3% peroxide contact lens solution used without its neutralising case. [2]"
+    }
+  ],
   "lore": null,
   "refs": [
-    { "id": 1, "title": "Hydrogen peroxide", "url": "https://en.wikipedia.org/wiki/Hydrogen_peroxide", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" }
+    {
+      "id": 1,
+      "title": "Hydrogen peroxide",
+      "url": "https://en.wikipedia.org/wiki/Hydrogen_peroxide",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Help Prevent Medication Errors: Clear Care alert",
+      "url": "https://safemedicationuse.ca/alerts/alerts_ClearCare.html",
+      "source": "ISMP Canada / Safe Medication Use",
+      "year": 2013,
+      "type": "guideline"
+    },
+    {
+      "id": 3,
+      "title": "Could getting 3% hydrogen peroxide in my eye lead to glaucoma?",
+      "url": "https://www.aao.org/eye-health/ask-ophthalmologist-q/could-getting-3-hydrogen-peroxide-in-my-eye-lead-t",
+      "source": "American Academy of Ophthalmology",
+      "year": 2018,
+      "type": "guideline"
+    }
   ],
   "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Hydrogen_peroxide", "title": "Hydrogen peroxide - Wikipedia" }
+    {
+      "url": "https://en.wikipedia.org/wiki/Hydrogen_peroxide",
+      "title": "Hydrogen peroxide - Wikipedia"
+    },
+    {
+      "url": "https://safemedicationuse.ca/alerts/alerts_ClearCare.html",
+      "title": "Clear Care alert - Safe Medication Use"
+    },
+    {
+      "url": "https://www.aao.org/eye-health/ask-ophthalmologist-q/could-getting-3-hydrogen-peroxide-in-my-eye-lead-t",
+      "title": "AAO Ask an Ophthalmologist: 3% hydrogen peroxide in the eye"
+    }
   ]
 }

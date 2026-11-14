@@ -1,62 +1,229 @@
 {
-  "name": "Macro tracking apps",
-  "lead": [
-    "Macro tracking apps let users log food and drink against daily calorie and macronutrient (protein, carbohydrate, fat) targets. The best-known example is MyFitnessPal, which describes itself as an app and website for looking up the nutritional content of foods, logging intake against goals, building meal plans and tracking exercise.[1]",
-    "In physique and looksmaxxing communities, logging is used to manage bulking and cutting phases and protein targets. Research on tracking is not covered by the sources used for this entry, so its effect on body composition is not described here."
+ "name": "Macro tracking apps",
+ "lead": [
+  "Macro tracking apps let users log food and drink against daily calorie and macronutrient (protein, carbohydrate, fat) targets. People use them to run bulks and cuts with numbers: eating enough protein and calories to build muscle, or a measured deficit to lose fat, both of which change how the body looks. The best-known example is MyFitnessPal, which describes itself as an app and website for looking up the nutritional content of foods, logging intake against goals, building meal plans and tracking exercise.[1]",
+  "In physique and looksmaxxing communities, logging is used to manage bulking and cutting phases and protein targets. Lifters on T Nation describe tracking macros as a tool for knowing what they eat, sometimes for a limited cutting phase, while others say they build physiques without ever counting.[3][4][5]",
+  "Systematic reviews have examined dietary self-monitoring in behavioural weight-loss programmes and the sustainability of weight loss through smartphone apps.[6][7] Listed food calories themselves come from the Atwater system, whose accuracy is described as disputed, with some foods overestimated by 3 to 7 percent [8]."
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Food-logging software"
   ],
-  "infobox": [
-    ["Type", "Food-logging software"],
-    ["Best-known app", "MyFitnessPal (launched Sept 2005)"],
-    ["Platforms", "Android, iOS, watchOS, Wear OS, web"],
-    ["Business model", "Free tier with ads; paid premium"]
+  [
+   "Best-known app",
+   "MyFitnessPal (launched Sept 2005)"
   ],
-  "sections": [
-    {
-      "h": "MyFitnessPal",
-      "paras": [
-        "Mike Lee developed MyFitnessPal in 2004 as a web-based calorie tracking tool and launched it in September 2005; his brother Albert joined as co-founder in 2008. Under Armour acquired it in 2015 for $475 million, when it had about 80 million users, and agreed in 2020 to sell it to Francisco Partners for $345 million.[1] The company says it has 280 million users as of 2026.[1]",
-        "On March 29, 2018, Under Armour disclosed a breach affecting about 150 million accounts; exposed data included usernames, email addresses and hashed passwords, and payment card numbers were not reported as compromised.[1]"
-      ]
-    },
-    {
-      "h": "Accuracy limits",
-      "paras": [
-        "Grokipedia, an AI-generated source, cites self-report limitations: omission rates of about 18% of items in dietary-recall studies, one natural-use study with energy intake underestimated by roughly 445 kcal per day, frequent inaccuracies in restaurant entries, and no automatic calorie-burn estimate for strength training.[2] These figures were not verified against the original papers."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found in the sources reviewed for this entry."
-      ]
-    }
+  [
+   "Platforms",
+   "Android, iOS, watchOS, Wear OS, web"
   ],
-  "timeline": [
-    {"year": "2005", "event": "MyFitnessPal launches.[1]"},
-    {"year": "2015", "event": "Under Armour acquires it for $475 million.[1]"},
-    {"year": "2018", "event": "Breach disclosed affecting about 150 million accounts.[1]"},
-    {"year": "2020", "event": "Agreement to sell to Francisco Partners for $345 million.[1]"}
+  [
+   "Business model",
+   "Free tier with ads; paid premium"
   ],
-  "lore": null,
-  "refs": [
-    {"id": 1, "title": "MyFitnessPal", "url": "https://en.wikipedia.org/wiki/MyFitnessPal", "source": "Wikipedia", "year": 2026, "type": "encyclopedia"},
-    {"id": 2, "title": "MyFitnessPal", "url": "https://grokipedia.com/page/MyFitnessPal", "source": "Grokipedia", "year": 2026, "type": "encyclopedia"}
+  [
+   "Typical targets",
+   "Calories, protein, carbohydrate, fat"
   ],
-  "webSources": [
-    {"url": "https://en.wikipedia.org/wiki/MyFitnessPal", "title": "MyFitnessPal (Wikipedia)"},
-    {"url": "https://grokipedia.com/page/MyFitnessPal", "title": "MyFitnessPal (Grokipedia)"}
-  ],
-  "card": {
-    "summary": "Food-logging apps like MyFitnessPal for hitting calorie and protein targets; popular, with self-report accuracy limits.",
-    "aka": "Calorie counters, MyFitnessPal-style apps",
-    "evidence": "limited",
-    "risk": "low",
-    "note": "Self-reported logging has documented under-reporting; 2018 MyFitnessPal breach exposed about 150 million accounts.",
-    "price": null
+  [
+   "Input methods",
+   "Food database search, barcode scan, manual entry"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "MyFitnessPal",
+   "paras": [
+    "Mike Lee developed MyFitnessPal in 2004 as a web-based calorie tracking tool and launched it in September 2005; his brother Albert joined as co-founder in 2008. Under Armour acquired it in 2015 for $475 million, when it had about 80 million users, and agreed in 2020 to sell it to Francisco Partners for $345 million.[1] The company says it has 280 million users as of 2026.[1]",
+    "On March 29, 2018, Under Armour disclosed a breach affecting about 150 million accounts; exposed data included usernames, email addresses and hashed passwords, and payment card numbers were not reported as compromised.[1]"
+   ]
   },
-  "quick": {
-    "overview": "Macro tracking apps record what you eat against calorie and protein, carb and fat goals. MyFitnessPal is the best-known.\n\nThey are used to run bulks and cuts with numbers instead of guesses.",
-    "mechanism": "Users search a food database or scan barcodes and compare daily totals with targets the app estimates or the user sets.",
-    "risks": "Reference sources cite logging inaccuracy (under-reporting and unreliable restaurant entries) and a 2018 data breach at MyFitnessPal. Other harms were not covered in the sources reviewed."
+  {
+   "h": "Accuracy limits",
+   "paras": [
+    "Grokipedia, an AI-generated source, cites self-report limitations: omission rates of about 18% of items in dietary-recall studies, one natural-use study with energy intake underestimated by roughly 445 kcal per day, frequent inaccuracies in restaurant entries, and no automatic calorie-burn estimate for strength training.[2] These figures were not verified against the original papers."
+   ]
+  },
+  {
+   "h": "Calorie counting background",
+   "paras": [
+    "Calorie counting rests on balancing energy intake against expenditure, and cutting intake has been recommended for weight loss. Label values rely on the Atwater system, whose accuracy is disputed; a 2012 USDA study found measured energy in a sample of almonds was 32 percent lower than the Atwater estimate [8]."
+   ]
+  },
+  {
+   "h": "In lifting communities",
+   "paras": [
+    "On T Nation logs, members describe returning to tracking macros after a break from dieting [3], using it \"not in an obsessive fashion\" as a tool for knowing what they eat during a cut [4], and, in other posts, saying they make progress without counting calories or macros [5][9]. One poster described a nutrition app as most useful as a reminder to eat [10]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found on macro tracking apps specifically in physique-focused lifters. Studies of dietary self-monitoring and app-based weight-loss programmes in people with overweight or obesity exist as systematic reviews [6][7]."
+   ]
   }
+ ],
+ "timeline": [
+  {
+   "year": "2005",
+   "event": "MyFitnessPal launches.[1]"
+  },
+  {
+   "year": "2015",
+   "event": "Under Armour acquires it for $475 million.[1]"
+  },
+  {
+   "year": "2018",
+   "event": "Breach disclosed affecting about 150 million accounts.[1]"
+  },
+  {
+   "year": "2020",
+   "event": "Agreement to sell to Francisco Partners for $345 million.[1]"
+  }
+ ],
+ "lore": {
+  "intro": "Lifting forums treat macro tracking as an optional tool: some use it for cuts and bulks, others deliberately avoid it.[3][5]",
+  "claims": [
+   {
+    "claim": "Tracking macros lets you control a cut or bulk precisely.",
+    "believers": "Members describe going back to tracking macros to restart a diet and using it to know what they eat during a cut.[3][4]",
+    "experts": "Reviews of dietary self-monitoring in weight-loss programmes exist, and self-reported intake is described as subject to under-reporting.[2][6]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "You can build a physique without counting calories or macros.",
+    "believers": "Several log authors say they make progress without tracking and plan to continue.[5][9]",
+    "experts": "No study identified compares tracking and non-tracking lifters on physique outcomes.",
+    "evidence": "untested"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "MyFitnessPal",
+   "url": "https://en.wikipedia.org/wiki/MyFitnessPal",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "MyFitnessPal",
+   "url": "https://grokipedia.com/page/MyFitnessPal",
+   "source": "Grokipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Flame Free Confession III (Part 1)",
+   "url": "https://t-nation.com/t/flame-free-confession-iii-even-more-flame-free-part-1/264067",
+   "source": "T Nation forum",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 4,
+   "title": "Doing Dumb Stuff as a College Kid",
+   "url": "https://t-nation.com/t/doing-dumb-stuff-as-a-college-kid/279581",
+   "source": "T Nation forum",
+   "year": 2022,
+   "type": "forum"
+  },
+  {
+   "id": 5,
+   "title": "More Trouble Than I Am Worth: Chaos Is The Plan",
+   "url": "https://t-nation.com/t/more-trouble-than-i-am-worth-chaos-is-the-plan-t3hpwnisher-log/276232",
+   "source": "T Nation forum",
+   "year": 2021,
+   "type": "forum"
+  },
+  {
+   "id": 6,
+   "title": "A systematic review of the use of dietary self-monitoring in behavioural weight loss interventions: delivery, intensity and effectiveness",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34412727/",
+   "source": "Public Health Nutrition",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Sustainability of Weight Loss Through Smartphone Apps: Systematic Review and Meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36129739/",
+   "source": "Journal of Medical Internet Research",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "Calorie counting",
+   "url": "https://en.wikipedia.org/wiki/Calorie_counting",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 9,
+   "title": "MarkKO's Training Log",
+   "url": "https://t-nation.com/t/markkos-training-log/208986",
+   "source": "T Nation forum",
+   "year": 2015,
+   "type": "forum"
+  },
+  {
+   "id": 10,
+   "title": "Flame Free Confession III (Part 2)",
+   "url": "https://t-nation.com/t/flame-free-confession-iii-even-more-flame-free-part-2/273731",
+   "source": "T Nation forum",
+   "year": 2021,
+   "type": "forum"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/MyFitnessPal",
+   "title": "MyFitnessPal (Wikipedia)"
+  },
+  {
+   "url": "https://grokipedia.com/page/MyFitnessPal",
+   "title": "MyFitnessPal (Grokipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Calorie_counting",
+   "title": "Calorie counting - Wikipedia"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34412727/",
+   "title": "Dietary self-monitoring systematic review"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36129739/",
+   "title": "Smartphone apps weight loss meta-analysis"
+  }
+ ],
+ "card": {
+  "summary": "Food-logging apps like MyFitnessPal for hitting calorie and protein targets; popular, with self-report accuracy limits.",
+  "aka": "Calorie counters, MyFitnessPal-style apps",
+  "evidence": "limited",
+  "risk": "low",
+  "note": "Self-reported logging has documented under-reporting; 2018 MyFitnessPal breach exposed about 150 million accounts.",
+  "price": null
+ },
+ "quick": {
+  "overview": "Macro tracking apps record what you eat against calorie and protein, carb and fat goals. MyFitnessPal is the best-known.\n\nThey are used to run bulks and cuts with numbers instead of guesses.",
+  "mechanism": "Users search a food database or scan barcodes and compare daily totals with targets the app estimates or the user sets.",
+  "risks": "Reference sources cite logging inaccuracy (under-reporting and unreliable restaurant entries) and a 2018 data breach at MyFitnessPal. Other harms were not covered in the sources reviewed."
+ },
+ "angle": {
+  "goal": "Body composition",
+  "chain": [
+   "Log intake against calorie and protein targets",
+   "Surplus for muscle gain or deficit for fat loss, with numbers",
+   "Leaner or more muscular physique over time"
+  ],
+  "effect": "indirect",
+  "text": "Lifters use the apps to hit protein and calorie targets during bulks and cuts, so changes in size and leanness can be steered with data instead of guesses."
+ }
 }

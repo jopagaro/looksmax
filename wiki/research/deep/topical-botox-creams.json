@@ -1,17 +1,174 @@
 {
-"name":"Topical 'Botox' creams",
-"lead":["Topical 'Botox' creams are cosmetic products marketed as a non-injected alternative to botulinum toxin, usually containing a peptide such as acetyl hexapeptide-8, sold as Argireline. The ingredient is a six-amino-acid fragment of SNAP25, a protein involved in neurotransmitter release that botulinum toxin type A cleaves.[1]","Marketers and users describe them as relaxing expression lines around the forehead and eyes. The proposed mechanism is interference with the SNARE complex that drives muscle signalling, although the effective concentration is described as uncertain.[1]","No dedicated double-blind trial of anti-wrinkle efficacy was identified in the encyclopedia source used here, and skin penetration of the peptide is described as poor.[1] The products are cosmetics, not botulinum toxin, and do not contain the toxin."],
-"infobox":[["Type","Cosmetic topical peptide products"],["Key ingredient","Acetyl hexapeptide-8 (Argireline)"],["Marketed since","2001 (Argireline, Lubrizol)[1]"],["Route","Topical"],["Regulatory status","Sold over the counter as a cosmetic ingredient in the US[1]"]],
-"sections":[
-{"h":"Ingredients and claims","paras":["Acetyl hexapeptide-8 is a synthetic peptide that has been marketed under the name Argireline since 2001 and appears in anti-aging products aimed at lines on the forehead and around the eyes.[1] It is promoted as a non-invasive alternative to injected neurotoxins.[1]"]},
-{"h":"Research and expert views","paras":["Laboratory and animal studies exist, but the source states that no dedicated double-blind clinical trials of the peptide's wrinkle efficacy are available, and that no clinical study has compared it directly with botulinum toxin.[1] A 2015 study cited there found under 0.2 percent of the peptide crossed the outer skin layer in 24 hours, which the authors attribute to its size and water-loving nature.[1] A 2025 review reported wrinkle improvements in some studies with inconsistent statistical significance, and more consistent results with multi-ingredient formulations that vary widely.[1]"]},
-{"h":"Reported risks","paras":["A 2012 pilot study and a 2025 review reported no serious adverse effects, and the peptide is described as less potent and less toxic than botulinum toxin.[1]"]},
-{"h":"Clinical studies","paras":["A 2012 double-blind pilot study in patients with blepharospasm who were receiving botulinum toxin reported longer symptom relief with the peptide cream than with placebo; it did not focus on cosmetic outcomes.[1] Otherwise no clinical trial of cosmetic wrinkle effects was found."]}
-],
-"timeline":[{"year":"2001","event":"Argireline begins to be marketed by Lubrizol.[1]"}],
-"lore":null,
-"refs":[{"id":1,"title":"Acetyl hexapeptide-8","url":"https://en.wikipedia.org/wiki/Acetyl_hexapeptide-8","source":"Wikipedia","year":2025,"type":"encyclopedia"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Acetyl_hexapeptide-8","title":"Acetyl hexapeptide-8 (Wikipedia)"}],
-"card":{"summary":"Peptide creams sold as a needle-free 'Botox' alternative; evidence for wrinkle effects is thin and skin penetration is limited.","aka":"Argireline creams, Botox-in-a-jar","evidence":"limited","status":"otc","outcome":null,"risk":"low","price":null,"note":"They contain a peptide, not botulinum toxin; no dedicated double-blind wrinkle trials were found.","structure":null},
-"quick":{"overview":"Topical 'Botox' creams usually contain the peptide acetyl hexapeptide-8 (Argireline), which is marketed as relaxing expression lines without injections.\n\nThere is laboratory and animal work, but no dedicated double-blind trial of wrinkle effects and no direct comparison with botulinum toxin was found. Reviews describe inconsistent results.","mechanism":"The peptide imitates a fragment of SNAP25 and is proposed to interfere with the SNARE complex that triggers muscle contraction. Its large size and water-loving character limit how much crosses the skin.","risks":"No serious adverse effects have been reported in the studies cited. The products are sold over the counter as cosmetics in the US."}
+  "name": "Topical 'Botox' creams",
+  "lead": [
+    "Topical \"Botox\" creams are cosmetic products marketed as a needle-free way to soften expression lines. Most contain a peptide, most often acetyl hexapeptide-8, sold under the name Argireline since 2001, and are aimed at lines on the forehead and around the eyes [1]. People use them to soften the look of lines that form when facial muscles contract, as a daily skincare step in place of or between injectable treatments.",
+    "The ingredient is a six-amino-acid fragment of SNAP25, a protein involved in neurotransmitter release that botulinum toxin type A acts on. It is proposed to interfere with the SNARE complex that drives muscle signalling, which is the basis for its \"Botox in a jar\" positioning; the products do not contain botulinum toxin [1]. Injected Botox works by blocking acetylcholine release from nerves so the muscles under a wrinkle relax, with smoothing visible three to five days after injection and effects lasting two to four months [2].",
+    "Studies of the peptide exist in the laboratory and in people, with some reporting wrinkle improvement, though measurement methods vary and no dedicated double-blind trial of its anti-wrinkle effect is available according to Wikipedia [1]. The peptide is large and water-loving, and a 2015 study found that less than 0.2 percent crossed the outer skin layer in 24 hours [1]."
+  ],
+  "angle": {
+    "goal": "Skin and wrinkles",
+    "chain": [
+      "Peptide cream applied to forehead and eye area",
+      "Proposed interference with muscle signalling and some hydrating effect on the skin surface",
+      "Softer-looking expression lines over weeks"
+    ],
+    "effect": "claimed",
+    "text": "Users apply the cream daily to the forehead, between the brows and around the eyes hoping for smoother-looking expression lines without injections. The effect described in studies is gradual and subtler than injected toxin."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Cosmetic topical peptide products"
+    ],
+    [
+      "Key ingredient",
+      "Acetyl hexapeptide-8 (Argireline)"
+    ],
+    [
+      "Marketed since",
+      "2001 (Argireline, sold by Lubrizol)"
+    ],
+    [
+      "Route",
+      "Topical"
+    ],
+    [
+      "Molar mass",
+      "About 889 g/mol"
+    ],
+    [
+      "Regulatory status",
+      "Sold over the counter as a cosmetic ingredient in the US"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Ingredients and claims",
+      "paras": [
+        "Acetyl hexapeptide-8 is a synthetic peptide with the sequence Ac-Glu-Glu-Met-Gln-Arg-Arg-NH2. It appears in anti-aging products aimed at lines on the forehead and around the eyes and is promoted as a non-invasive alternative to injected neurotoxins [1]. A skincare company blog calls it \"Botox in a bottle\", says it interferes with neurotransmitter release between nerves and facial muscles, and notes that it was found safe in cosmetics at concentrations up to 0.005 percent [4]."
+      ]
+    },
+    {
+      "h": "Botulinum toxin for comparison",
+      "paras": [
+        "Cosmetic use of botulinum toxin was first described in a 1989 case report by plastic surgeon Richard Clark, and the FDA approved Botox Cosmetic for moderate-to-severe glabellar (frown) lines in 2002. Results typically last two to four months, and the toxin can spread to cause unintended muscle weakness such as eyelid drooping [2]. The cream peptide is described as less potent and less toxic than botulinum toxin [1]."
+      ]
+    },
+    {
+      "h": "Research and expert views",
+      "paras": [
+        "Wikipedia reports that in vitro and in vivo studies exist, some showing wrinkle improvement, but clinical significance is unclear because measurement methods vary; no dedicated double-blind trials of anti-wrinkle efficacy and no head-to-head comparison with botulinum toxin are available, and the concentration needed for a toxin-like effect is uncertain [1]. A 2025 review reported inconsistent statistical significance in wrinkle studies and more consistent results when the peptide was combined with other ingredients, with formulations varying widely, and concluded that better delivery vehicles are needed [1].",
+        "The skincare company blog describes a randomised study of 60 people applying it twice daily for four weeks, reporting wrinkle reduction around the eyes in 48.9 percent of participants and none in the placebo group, and says evidence is limited with few large trials [4]."
+      ]
+    },
+    {
+      "h": "Reported risks",
+      "paras": [
+        "A 2012 pilot study and a 2025 review reported no serious adverse effects [1]. The skincare blog advises a patch test, and a dermatologist's advice for people with allergies [4]."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "A 2012 double-blind, placebo-controlled pilot study (Lungu et al.) in patients with blepharospasm who were receiving botulinum toxin found that the peptide cream extended symptom relief compared with placebo; it did not focus on cosmetic outcomes [1]. A randomised study of 60 Chinese subjects reported wrinkle improvement around the eyes after four weeks, as described in a skincare company blog [4]. No double-blind trial of cosmetic wrinkle effects has been identified in the Wikipedia summary [1]."
+      ]
+    },
+    {
+      "h": "In skin-care culture",
+      "paras": [
+        "Wikipedia's overview of skin care places such products at the interface of cosmetics and dermatology and notes that some topical agents are marketed as cosmetics without clinical proof of efficacy [3]."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1989",
+      "event": "Plastic surgeon Richard Clark describes cosmetic use of botulinum toxin in a case report [2]."
+    },
+    {
+      "year": "2001",
+      "event": "Argireline begins to be marketed [1]."
+    },
+    {
+      "year": "2002",
+      "event": "FDA approves Botox Cosmetic for glabellar lines [2]."
+    },
+    {
+      "year": "2012",
+      "event": "Lungu et al. publish a double-blind pilot of the peptide cream in blepharospasm patients [1]."
+    },
+    {
+      "year": "2015",
+      "event": "A study finds under 0.2% of applied peptide penetrates the stratum corneum in 24 hours [1]."
+    },
+    {
+      "year": "2025",
+      "event": "A review reports inconsistent significance in wrinkle studies [1]."
+    }
+  ],
+  "lore": null,
+  "card": {
+    "summary": "Peptide creams sold as a needle-free 'Botox' alternative; evidence for wrinkle effects is thin and skin penetration is limited.",
+    "aka": "Argireline creams, Botox-in-a-jar",
+    "evidence": "limited",
+    "status": "otc",
+    "outcome": null,
+    "risk": "low",
+    "price": null,
+    "note": "They contain a peptide, not botulinum toxin; no dedicated double-blind wrinkle trials were found.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "Topical 'Botox' creams usually contain the peptide acetyl hexapeptide-8 (Argireline), which is marketed as relaxing expression lines without injections.\n\nThere is laboratory and animal work, but no dedicated double-blind trial of wrinkle effects and no direct comparison with botulinum toxin was found. Reviews describe inconsistent results.",
+    "mechanism": "The peptide imitates a fragment of SNAP25 and is proposed to interfere with the SNARE complex that triggers muscle contraction. Its large size and water-loving character limit how much crosses the skin.",
+    "risks": "No serious adverse effects have been reported in the studies cited. The products are sold over the counter as cosmetics in the US."
+  },
+  "refs": [
+    {
+      "id": 1,
+      "title": "Acetyl hexapeptide-8",
+      "url": "https://en.wikipedia.org/wiki/Acetyl_hexapeptide-8",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Botulinum toxin",
+      "url": "https://en.wikipedia.org/wiki/Botulinum_toxin",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "Skin care",
+      "url": "https://en.wikipedia.org/wiki/Skin_care",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 4,
+      "title": "Argireline uncovered: a Botox alternative for aging skin",
+      "url": "https://curology.com/blog/argireline-uncovered-a-botox-alternative-for-aging-skin",
+      "source": "Curology blog",
+      "year": 2024,
+      "type": "news"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Acetyl_hexapeptide-8",
+      "title": "Acetyl hexapeptide-8"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Botulinum_toxin",
+      "title": "Botulinum toxin"
+    },
+    {
+      "url": "https://curology.com/blog/argireline-uncovered-a-botox-alternative-for-aging-skin",
+      "title": "Argireline uncovered: a Botox alternative for aging skin"
+    }
+  ]
 }

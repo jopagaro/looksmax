@@ -1,40 +1,77 @@
 {
  "name": "Gum contouring laser",
  "lead": [
-  "Laser gum contouring reshapes the gum line using a dental laser to remove soft tissue, a form of laser gingivectomy.[1] Wikipedia lists Nd:YAG, CO2 and diode lasers among those used, and notes proposed benefits such as a bloodless field and minimal discomfort, based on limited evidence.[1]",
-  "Few registered studies address it directly. One compares Er:YAG-assisted laser crown lengthening with surgical crown lengthening,[2] and another examined wound-healing growth factors after soft tissue crown lengthening.[3]"
+  "Laser gum contouring is a dental procedure that uses a laser to remove and reshape gum tissue, a laser form of gingivectomy.[1] It is used to improve a smile by shortening gum that covers too much of the teeth, evening out an uneven gum line, or exposing more tooth crown, so that teeth look longer and better proportioned.[1][2]",
+  "The most common appearance reason is a gummy smile, in which too much gum shows above the upper teeth. Showing up to about 3 mm of gum when smiling is considered acceptable, and more than that is often seen as unattractive.[1] Excessive gingival display affects an estimated 10 percent of US adults aged 20 to 30 and is more common in women, with causes including delayed passive eruption of the teeth, an overactive upper lip elevator muscle, excessive vertical growth of the upper jaw and over-eruption of the front teeth.[2]",
+  "Common dental lasers are Nd:YAG, CO2 and diode lasers, with Er:YAG also used in crown lengthening trials.[1][3] Proponents say lasers give a bloodless field, minimal pain and swelling and no need for a surgical dressing, while the evidence comparing lasers with the scalpel is described as mixed.[1]"
  ],
+ "angle": {
+  "goal": "Smile / gum line",
+  "chain": [
+   "Laser trims excess or uneven gum tissue",
+   "Teeth are exposed to their proper length and the gum line is even",
+   "A less gummy, better-proportioned smile"
+  ],
+  "effect": "direct",
+  "text": "The procedure changes the visible gum line directly. When the gummy look comes from gum overgrowth or tissue covering the crowns, removing it makes the teeth look taller and brings the smile into a more balanced proportion."
+ },
  "infobox": [
   [
    "Type",
    "Dental soft-tissue laser procedure"
   ],
   [
-   "Lasers",
-   "Nd:YAG, CO2, diode, Er:YAG"
+   "Also called",
+   "Laser gingivectomy; laser crown lengthening"
   ],
   [
-   "Related",
-   "Gingivectomy, crown lengthening"
+   "Lasers used",
+   "Nd:YAG, CO2, diode, Er:YAG[1][3]"
+  ],
+  [
+   "Typical aim",
+   "Reduce gum display; even the gum line"
+  ],
+  [
+   "Acceptable gum display",
+   "Up to about 3 mm when smiling[1]"
+  ],
+  [
+   "Alternatives for gummy smile",
+   "Orthodontics, botulinum toxin, fat transplantation, lip repositioning[2]"
   ]
  ],
  "sections": [
   {
    "h": "Description",
    "paras": [
-    "The laser removes gum tissue; the procedure involves repeated lasing and wiping debris, producing a bloodless field and removing the need for a dressing.[1]"
+    "Gingivectomy is described as the oldest surgical approach in periodontal therapy, cutting away part of the gum tissue to improve aesthetics or the long-term prognosis of teeth.[1] With a laser, the tissue is removed by repeated lasing with gauze wiping of debris, producing a bloodless field.[1] Other techniques are the scalpel and electrosurgery, the latter used less widely because of cost.[1]",
+    "Because of the potential for 'black triangles' and uneven gum contours, surgeons may treat a wider area, for example all teeth between the first molars, to keep the gum line harmonious.[1] The procedure is not appropriate when bone surgery is needed.[1]"
    ]
   },
   {
-   "h": "Risks",
+   "h": "Gummy smile and other options",
    "paras": [
-    "Animal studies suggest high energy settings cause scarring and delayed healing, and the evidence on lasers is described as mixed.[1]"
+    "A gummy smile can come from several causes, and treatment depends on which applies: orthodontic intrusion of the front teeth, gingivectomy, botulinum toxin into the upper lip elevator muscles, and micro-autologous fat transplantation are listed options.[2] Botox, which reduces upward lip movement so less gum shows, lasts about six months on average.[2]"
+   ]
+  },
+  {
+   "h": "Claimed advantages and outcomes",
+   "paras": [
+    "Lasers are suggested to reduce bacteria, reduce inflammation, help healing and cause minimal swelling, bleeding, scarring or pain, and patients report minimal pain.[1] In animal studies Nd:YAG lasers healed better than scalpel incisions at low energy settings.[1] One study found minimal or no recurrence of drug-induced overgrowth after laser gingivectomy compared with scalpel gingivectomy.[1]",
+    "Conventional gingivectomy results are generally stable in drug-induced gingival enlargement, where most patients showed no recurrence after one year, while in hereditary gingival fibromatosis aesthetic results are good but recurrence is unpredictable and repeat procedures may be needed.[1]"
+   ]
+  },
+  {
+   "h": "Risks and recovery",
+   "paras": [
+    "High energy settings in animal studies caused scarring and delayed healing.[1] Pain is usually short-lived and manageable, patients avoid chewing on the area early on, and strict plaque control and regular professional cleaning are needed for lasting results; poor plaque control makes recurrence more likely.[1]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "Registered trials include a phase 2 study of growth factor levels during wound healing after soft tissue crown lengthening (n=80)[3] and a comparison of Er:YAG laser versus surgical crown lengthening (n=26, recruiting).[2] No results are summarised in the sources used."
+    "Registered trials include a phase 2 study of growth factor levels during wound healing after soft tissue crown lengthening (n=80, completed)[4] and a comparison of Er:YAG laser versus surgical crown lengthening (n=26, recruiting).[3] No results are summarised in the registrations."
    ]
   }
  ],
@@ -51,15 +88,23 @@
   },
   {
    "id": 2,
-   "title": "Er:YAG assisted laser crown lengthening vs surgical crown lengthening",
+   "title": "Gummy smile",
+   "url": "https://en.wikipedia.org/wiki/Gummy_smile",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Comparison of Er:YAG Assisted Laser Crown Lengthening Against Surgical Crown Lengthening (NCT07653802)",
    "url": "https://clinicaltrials.gov/study/NCT07653802",
    "source": "ClinicalTrials.gov",
    "year": 2025,
    "type": "trial"
   },
   {
-   "id": 3,
-   "title": "Growth factor levels after soft tissue crown lengthening",
+   "id": 4,
+   "title": "Assessment of Growth Factors Levels Associated with Wound Healing After Soft Tissue Crown Lengthening (NCT06806319)",
    "url": "https://clinicaltrials.gov/study/NCT06806319",
    "source": "ClinicalTrials.gov",
    "year": 2021,
@@ -68,8 +113,8 @@
  ],
  "webSources": [
   {
-   "url": "https://en.wikipedia.org/wiki/Gingivectomy",
-   "title": "Gingivectomy - Wikipedia"
+   "url": "https://en.wikipedia.org/wiki/Gummy_smile",
+   "title": "Gummy smile - Wikipedia"
   }
  ],
  "card": {

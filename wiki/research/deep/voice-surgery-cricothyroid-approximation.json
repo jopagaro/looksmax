@@ -1,9 +1,20 @@
 {
- "name": "Voice surgery (cricothyroid approximation)",
  "lead": [
-  "Cricothyroid approximation (CTA) is a voice surgery that raises pitch by moving the cricoid and thyroid cartilages closer together, tensioning and lengthening the vocal folds. It has mainly been used for voice feminisation in transgender women.[1][2]",
-  "Wikipedia reports that CTA often leaves patients locked into falsetto, that outcomes may decline over time, and that fewer clinicians perform it now than Wendler glottoplasty.[1] A 2017 systematic review of pitch-raising surgery in male-to-female transsexual patients found mixed results, while a 2025 meta-analysis reported that surgery generally produced larger and more lasting pitch gains than voice therapy.[1][2]"
+  "Cricothyroid approximation (CTA) is a voice surgery that raises vocal pitch by drawing the cricoid and thyroid cartilages of the larynx closer together, which stretches and tightens the vocal folds. People seek it so that their speaking voice sits higher and reads as more feminine, since voice is one of the first things listeners register about a person, alongside the face.[1][3][4]",
+  "CTA belongs to a family of pitch-raising operations (phonosurgery). Others work by shortening the vocal folds or reducing their mass, for example Wendler glottoplasty and laser reduction glottoplasty.[1][6] Voice therapy is generally the first step, and clinicians describe surgery as an option for people who do not reach a satisfying voice through non-surgical means.[4]",
+  "Published reviews compare the techniques. A 2022 review notes that the fundamental frequency is raised maximally and stays stable after glottoplasty compared with CTA, which is one reason glottoplasty is more commonly performed today.[3][1] A 2017 meta-analysis of 13 studies compared tension, shortening and mass-reduction approaches on pre- and post-operative pitch.[6]"
  ],
+ "angle": {
+  "goal": "Voice",
+  "chain": [
+   "Cartilages are brought closer together",
+   "Vocal folds are tensioned and lengthened",
+   "Speaking pitch rises",
+   "Voice matches the presentation the person wants"
+  ],
+  "effect": "direct",
+  "text": "CTA changes the physical tension of the vocal folds so that average speaking pitch is higher. People use it as part of voice feminisation, aligning how they sound with how they look and present."
+ },
  "infobox": [
   [
    "Type",
@@ -15,45 +26,68 @@
   ],
   [
    "Mechanism",
-   "Cartilage approximation tensions vocal folds"
+   "Cartilage approximation tensions the vocal folds"
   ],
   [
    "Alternatives",
-   "Wendler glottoplasty, voice therapy"
+   "Wendler glottoplasty, laser reduction glottoplasty, voice therapy"
+  ],
+  [
+   "Reversibility",
+   "Surgical; outcomes may change over time"
   ]
  ],
  "sections": [
   {
-   "h": "Procedures",
+   "h": "Description",
    "paras": [
-    "Other pitch-raising operations include Wendler glottoplasty (the most common today), laser reduction glottoplasty, feminization laryngoplasty, laser tuning and resonance surgery.[1] Surgery is often considered after voice therapy.[1]"
+    "Pitch depends on vocal fold length, thickness and tension. Reviews describe higher pitch as the result of folds that are shorter, thinner and tighter, and CTA targets the tension part of that equation.[3] Surgeons approximate the cricoid and thyroid cartilages, which increases tension on the folds.[3][6]",
+    "Voice feminisation surgery as a group includes CTA, Wendler glottoplasty, laser reduction glottoplasty, feminisation laryngoplasty, laser tuning and resonance surgery.[1] Voice surgery is one of several non-genital procedures, alongside facial feminisation surgery, listed in overviews of gender-affirming care.[2][5]"
+   ]
+  },
+  {
+   "h": "Comparison with other approaches",
+   "paras": [
+    "A 2006 review of transgender voice management reported that speech and language therapy can produce an acceptable fundamental frequency and shape other communication behaviours, and that laryngeal surgery such as CTA has a role for people who do not achieve an acceptable voice by non-surgical means.[4] The same review noted that little information existed at that time on patient satisfaction and quality of life.[4]",
+    "Wikipedia reports that CTA can leave some patients with a falsetto-like voice, that results may decline over time, and that fewer clinicians perform it now than Wendler glottoplasty.[1] A 2025 meta-analysis summarised there found that surgery tended to produce larger and longer-lasting pitch gains than voice therapy alone.[1]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "A systematic review (Journal of Voice, 2017) assessed the effectiveness of pitch-raising surgery in male-to-female transsexual patients.[2] Wikipedia summarises a 2025 meta-analysis (Lanham et al.) finding that both therapy and surgery raise pitch and quality of life, with objective pitch change correlating with patient-reported outcomes, while longitudinal data remain limited.[1] A broader review covers surgical options for transgender patients.[3]"
+    "A 2017 systematic review in the Journal of Voice assessed the effectiveness of pitch-raising surgery in male-to-female transsexual patients.[7] A 2017 systematic review and meta-analysis in Otolaryngology-Head and Neck Surgery searched six databases, found 29 studies, and included 13 with pre- and post-operative acoustic analysis, grouping techniques by mechanism (tension, shortening, mass reduction).[6]",
+    "A 2022 review of gender-affirming laryngeal and voice surgery concluded that fundamental frequency is raised maximally and remains stable after glottoplasty compared with CTA.[3] A 2017 update on surgical treatment for transgender patients lists voice surgery among the male-to-female procedures.[5] A 2021 Laryngoscope paper examined insurance coverage for gender-affirming voice surgery and therapy.[8]"
    ]
   },
   {
-   "h": "Risks",
+   "h": "Reported risks",
    "paras": [
-    "Reported risks across voice feminisation surgery include reduced voice quality and loudness, swallowing or breathing problems, sore throat, infection and scarring.[1]"
+    "Reported risks across voice feminisation surgery include reduced voice quality and loudness, swallowing or breathing problems, sore throat, infection and scarring.[1] Vocal fold scarring is recognised in the voice-surgery literature as a major cause of voice disorders after laryngeal surgery or trauma.[9]"
+   ]
+  },
+  {
+   "h": "Access",
+   "paras": [
+    "A Canadian news item shared on Lemmy reported that demand for gender-affirming voice surgery is growing while access remains limited, with only a small number of otolaryngologists performing it; one surgeon described belonging to a group of about 70 surgeons worldwide doing these procedures.[10]"
    ]
   }
  ],
  "timeline": [
   {
-   "year": "2008",
-   "event": "CTA outcomes study (Van Borsel et al.).[1]"
+   "year": "2006",
+   "event": "Review of transgender voice management describes CTA as an option when therapy alone is insufficient.[4]"
   },
   {
    "year": "2017",
-   "event": "Systematic review of pitch-raising surgery published.[2]"
+   "event": "Systematic reviews and a meta-analysis of pitch-raising surgery published.[6][7]"
+  },
+  {
+   "year": "2022",
+   "event": "Review compares CTA and glottoplasty for pitch stability.[3]"
   },
   {
    "year": "2025",
-   "event": "Meta-analysis of therapy versus surgery (Lanham et al.).[1]"
+   "event": "Meta-analysis of therapy versus surgery summarised by Wikipedia.[1]"
   }
  ],
  "lore": null,
@@ -68,6 +102,46 @@
   },
   {
    "id": 2,
+   "title": "Gender reassignment surgery: an overview",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21487386/",
+   "source": "Nature Reviews Urology",
+   "year": 2011,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Gender Affirming Laryngeal and Voice Surgery",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36017405/",
+   "source": "Indian Journal of Plastic Surgery",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Management of the transgender voice",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16834800/",
+   "source": "Journal of Laryngology and Otology",
+   "year": 2006,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "An Update on the Surgical Treatment for Transgender Patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27623991/",
+   "source": "Sexual Medicine Reviews",
+   "year": 2017,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Transgender Phonosurgery: A Systematic Review and Meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28349733/",
+   "source": "Otolaryngology-Head and Neck Surgery",
+   "year": 2017,
+   "type": "review"
+  },
+  {
+   "id": 7,
    "title": "The Effectiveness of Pitch-raising Surgery in Male-to-Female Transsexuals: A Systematic Review",
    "url": "https://pubmed.ncbi.nlm.nih.gov/27474996/",
    "source": "Journal of Voice",
@@ -75,20 +149,32 @@
    "type": "review"
   },
   {
-   "id": 3,
-   "title": "An Update on the Surgical Treatment for Transgender Patients",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/27623991/",
-   "source": "Sexual Medicine Reviews",
-   "year": 2017,
-   "type": "review"
-  }
- ],
- "webSources": [
+   "id": 8,
+   "title": "Coverage for Gender-Affirming Voice Surgery and Therapy for Transgender Individuals",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32776558/",
+   "source": "The Laryngoscope",
+   "year": 2021,
+   "type": "study"
+  },
   {
-   "url": "https://en.wikipedia.org/wiki/Voice_feminization_surgery",
-   "title": "Voice feminization surgery"
+   "id": 9,
+   "title": "Immediate inflammatory response and scar formation in wounded vocal folds",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17214268/",
+   "source": "Annals of Otology, Rhinology and Laryngology",
+   "year": 2006,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Demand grows for gender-affirming voice surgery, but access remains limited",
+   "url": "https://quokk.au/c/canada/p/1109400/demand-grows-for-gender-affirming-voice-surgery-but-access-remains-limited",
+   "source": "Lemmy c/canada",
+   "year": 2025,
+   "type": "news"
   }
  ],
+ "webSources": [],
+ "name": "Voice surgery (cricothyroid approximation)",
  "card": {
   "summary": "Surgery that tightens the vocal folds to raise pitch; largely superseded and can leave a falsetto voice.",
   "aka": "CTA, CTA pitch surgery",

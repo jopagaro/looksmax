@@ -23,12 +23,12 @@ const PRIORITY = /^(Lead|Medical uses?|Uses?|Cosmetic|Skin|Hair|Effects?|Adverse
 
 const CAP = 42000;
 let n = 0, sizes = [];
-const { allEntries } = await import('./entries.mjs');
+const { allEntries, socialFilter, OFF_COMM, wikiRelevant } = await import('./entries.mjs');
 for (const { kind, item, pending } of allEntries()) {
   const s = slug(item.name);
   const raw = readJSON(join(root, 'research', 'raw', s + '.json')) || { name: item.name, terms: item.terms || [] };
   const fp = first[item.name] || {};
-  const W = raw.wikipedia && !raw.wikipedia.error && !raw.wikipedia.__failed ? raw.wikipedia : null;
+  const W = raw.wikipedia && !raw.wikipedia.error && !raw.wikipedia.__failed && wikiRelevant(item, raw, raw.wikipedia) ? raw.wikipedia : null;
   const G = raw.grokipedia && !raw.grokipedia.error ? raw.grokipedia : null;
   const PM = Array.isArray(raw.pubmed) ? raw.pubmed : [];
   const RD = Array.isArray(raw.reddit) ? raw.reddit : [];
@@ -75,8 +75,8 @@ for (const { kind, item, pending } of allEntries()) {
   (Array.isArray(raw.tnation) ? raw.tnation : []).slice(0, 10).forEach((t, i) => L.push(`[T${i + 1}] T Nation forum "${t.title}" (${t.posts} posts, ${t.year || '?'}) — ${t.url}${t.blurb ? `\n     excerpt: ${clip(t.blurb, 300)}` : ''}`));
 
   (Array.isArray(raw.news) ? raw.news : []).slice(0, 12).forEach((t, i) => L.push(`[N${i + 1}] News: "${t.title}" (${t.site || ''}${t.date ? ', ' + t.date.slice(0, 4) : ''}) — ${t.url}`));
-  (Array.isArray(raw.hackernews) ? raw.hackernews : []).slice(0, 6).forEach((t, i) => L.push(`[H${i + 1}] Hacker News "${t.title}" (${t.points} points, ${t.comments} comments, ${t.year || '?'}) — ${t.url}`));
-  (Array.isArray(raw.lemmy) ? raw.lemmy : []).slice(0, 6).forEach((t, i) => L.push(`[Y${i + 1}] Lemmy c/${t.community || ''} "${t.title}" (score ${t.score}, ${t.comments} comments) — ${t.url}${t.text ? `\n     excerpt: ${clip(t.text, 300)}` : ''}`));
+  (Array.isArray(raw.hackernews) ? raw.hackernews : []).filter((t) => socialFilter(item, raw)(t.title)).slice(0, 6).forEach((t, i) => L.push(`[H${i + 1}] Hacker News "${t.title}" (${t.points} points, ${t.comments} comments, ${t.year || '?'}) — ${t.url}`));
+  (Array.isArray(raw.lemmy) ? raw.lemmy : []).filter((t) => !OFF_COMM.test(t.community || '') && socialFilter(item, raw)(t.title)).slice(0, 6).forEach((t, i) => L.push(`[Y${i + 1}] Lemmy c/${t.community || ''} "${t.title}" (score ${t.score}, ${t.comments} comments) — ${t.url}${t.text ? `\n     excerpt: ${clip(t.text, 300)}` : ''}`));
 
   // Reference text — Wikipedia first (by priority), then Grokipedia.
   let budget = CAP - L.join('\n').length;

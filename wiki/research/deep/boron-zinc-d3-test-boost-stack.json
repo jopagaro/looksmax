@@ -1,102 +1,210 @@
 {
- "name": "Boron + zinc + D3 test-boost stack",
- "lore": null,
- "refs": [
-  {
-   "id": 1,
-   "title": "Boron - Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Boron",
-   "source": "Wikipedia",
-   "year": 2025,
-   "type": "encyclopedia"
+  "name": "Boron + zinc + D3 test-boost stack",
+  "card": {
+    "summary": "Boron, zinc and D3 together as a testosterone stack: each has a plausible hormone link, but the combo has no trial behind it.",
+    "aka": "Test stack",
+    "evidence": "unproven",
+    "status": "otc",
+    "risk": "low",
+    "note": "Zinc beyond sufficiency does not raise testosterone, per Wikipedia.",
+    "structure": null,
+    "price": null
   },
-  {
-   "id": 2,
-   "title": "Zinc deficiency - Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Zinc_deficiency",
-   "source": "Wikipedia",
-   "year": 2025,
-   "type": "encyclopedia"
+  "quick": {
+    "overview": "A popular supplement stack of boron, zinc and vitamin D3 taken to raise testosterone.\n\nDeficiency of zinc or vitamin D is linked to lower levels; evidence for the stack in people without deficiency was not found.",
+    "mechanism": "Zinc supports testosterone synthesis, vitamin D intake correlates with higher levels, and boron is proposed to influence steroid metabolism.",
+    "risks": "Borates have low mammalian toxicity per Wikipedia, but excess intake of any ingredient is not covered in the sources reviewed."
   },
-  {
-   "id": 3,
-   "title": "Testosterone - Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Testosterone",
-   "source": "Wikipedia",
-   "year": 2025,
-   "type": "encyclopedia"
-  }
- ],
- "webSources": [
-  {
-   "url": "https://en.wikipedia.org/wiki/Boron",
-   "title": "Boron - Wikipedia"
-  },
-  {
-   "url": "https://en.wikipedia.org/wiki/Zinc_deficiency",
-   "title": "Zinc deficiency - Wikipedia"
-  },
-  {
-   "url": "https://en.wikipedia.org/wiki/Testosterone",
-   "title": "Testosterone - Wikipedia"
-  }
- ],
- "lead": [
-  "The boron, zinc and vitamin D3 stack is a combination of over-the-counter supplements taken in the belief that together they raise testosterone. Each ingredient has some published link to hormone physiology, and the combination is discussed in supplement and looksmaxxing communities.",
-  "Wikipedia reports that zinc deficiency lowers testosterone while over-supplementation does not change serum testosterone, and that vitamin D intakes around 400 to 1000 IU per day were associated with higher testosterone.[2][3] Its boron article notes boron is only needed in traces by plants, that borates have low mammalian toxicity, and lists a 1987 study of dietary boron on estrogen and testosterone metabolism in postmenopausal women without giving its findings.[1] Evidence for the three-ingredient stack itself was not found."
- ],
- "infobox": [
-  [
-   "Type",
-   "Supplement combination"
+  "lead": [
+    "The boron, zinc and vitamin D3 stack is a combination of over-the-counter supplements taken together in the belief that they support testosterone. Users pursue it for the look that goes with higher testosterone: easier muscle gain, leaner body composition and the fuller-looking physique associated with it. The three ingredients are cheap, widely sold and have each been studied for a connection to male hormone physiology.",
+    "Zinc is required to produce testosterone, and zinc deficiency can lower circulating testosterone and delay puberty [1]. Boron is an ultratrace element; a 2008 review in the Journal of Dietary Supplements listed hormone regulation and bodybuilding (increasing testosterone) among nine indications for which it is popularly used, while noting a lack of systematic study in humans [2]. A 2015 review argues boron affects how the body uses estrogen, testosterone and vitamin D [3]. Vitamin D intake has been associated with testosterone levels in the literature summarized by Wikipedia [4].",
+    "On looksmax.org, boron in particular is discussed as a supplement for testosterone and for 'heightmaxxing', with posts quoting a small study in eight healthy men that reported higher free testosterone and lower estradiol after a week of boron [5]. No published trial has tested the three-ingredient stack as a combination."
   ],
-  [
-   "Ingredients",
-   "Boron, zinc, vitamin D3"
+  "angle": {
+    "goal": "Muscle and physique via testosterone",
+    "chain": [
+      "Supplement a mineral and vitamin tied to testosterone production",
+      "Support testosterone, particularly where intake is low",
+      "Easier muscle gain and leanness"
+    ],
+    "effect": "claimed",
+    "text": "People take the stack hoping for higher testosterone and the muscle, leanness and recovery that go with it. Each ingredient has a documented link to hormone physiology, and zinc deficiency is known to lower testosterone [1]."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Supplement combination"
+    ],
+    [
+      "Ingredients",
+      "Boron, zinc, vitamin D3"
+    ],
+    [
+      "Stated aim",
+      "Support testosterone"
+    ],
+    [
+      "Status",
+      "Over-the-counter dietary supplements"
+    ],
+    [
+      "Also called",
+      "Test stack"
+    ]
   ],
-  [
-   "Stated aim",
-   "Raise testosterone"
+  "sections": [
+    {
+      "h": "Components",
+      "subs": [
+        {
+          "h": "Zinc",
+          "paras": [
+            "Zinc is required to produce testosterone. Deficiency can reduce circulating testosterone and cause hypogonadism and delayed puberty, and a 1963 case report described a young man with infantile genitalia and stunted growth whose symptoms reversed with zinc [1]."
+          ]
+        },
+        {
+          "h": "Vitamin D3",
+          "paras": [
+            "Wikipedia's testosterone article reports that vitamin D intakes in the range of roughly 400 to 1,000 IU per day were associated with higher testosterone, as intake-level correlations [4]."
+          ]
+        },
+        {
+          "h": "Boron",
+          "paras": [
+            "Boron is only needed in traces by plants and borates have low toxicity in mammals [6]. The 2008 review says humans ingest it through food and that systematic study of its safety and effectiveness in humans was lacking [2]. A 2015 review lists reported roles in bone, wound healing, magnesium absorption and inflammatory markers as well as the body's use of sex hormones [3]. A review of boric acid, borax and other boron compounds notes that high exposure can cause toxic effects and that fatalities have occurred after large oral or skin exposure to boric acid [7]."
+          ]
+        }
+      ]
+    },
+    {
+      "h": "In looksmaxxing communities",
+      "paras": [
+        "A looksmax.org introductory thread presents boron as a supplement for height and testosterone and quotes a study in eight healthy males reporting a rise in free testosterone from about 11.8 to 15.2 pg/mL and a fall in estradiol after one week [5]. Another thread asks whether boron raises DHT and hair loss; one user says he felt strong effects on libido and lifting, and others ask whether his hair loss worsened [8]. Boron also appears in forum lists alongside prescription testosterone regimens [9]."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found of the three-ingredient combination. Research exists on single nutrients: the 2008 boron review discusses boron for testosterone as one of nine popular uses [2], and the 2015 review summarizes reported effects of boron on sex hormones [3]."
+      ]
+    }
   ],
-  [
-   "Status",
-   "Dietary supplements"
+  "timeline": [],
+  "lore": {
+    "intro": "Boron, zinc and D3 are discussed on looksmax.org as inexpensive supplements to support testosterone, with boron also linked to height and hair loss questions [5][8].",
+    "claims": [
+      {
+        "claim": "Boron raises free testosterone and lowers estrogen.",
+        "believers": "Posters quote a one-week study in eight men reporting higher free testosterone and lower estradiol [5].",
+        "experts": "A 2008 review found a lack of systematic study of boron in humans and lists testosterone for bodybuilding as a popular indication [2].",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "Boron may raise DHT and worsen hair loss.",
+        "believers": "A thread asks whether boron induces hair loss through DHT, with a user describing strong effects on libido [8].",
+        "experts": "No published study was found that tests boron against hair loss.",
+        "evidence": "untested"
+      },
+      {
+        "claim": "Zinc supports testosterone.",
+        "believers": "Users include zinc in stacks to support the hormone.",
+        "experts": "Zinc is required to produce testosterone and deficiency lowers it [1].",
+        "evidence": "supported"
+      },
+      {
+        "claim": "Boron, zinc and D3 together form an effective testosterone stack.",
+        "believers": "Users combine them as an inexpensive baseline.",
+        "experts": "No published trial has tested the three together.",
+        "evidence": "untested"
+      }
+    ]
+  },
+  "refs": [
+    {
+      "id": 1,
+      "title": "Zinc deficiency",
+      "url": "https://en.wikipedia.org/wiki/Zinc_deficiency",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Boron",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22433045/",
+      "source": "Journal of Dietary Supplements",
+      "year": 2008,
+      "type": "review"
+    },
+    {
+      "id": 3,
+      "title": "Nothing Boring About Boron",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26770156/",
+      "source": "Integrative Medicine",
+      "year": 2015,
+      "type": "review"
+    },
+    {
+      "id": 4,
+      "title": "Testosterone",
+      "url": "https://en.wikipedia.org/wiki/Testosterone",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 5,
+      "title": "Introduction to boron: THE heightmaxxing supplement",
+      "url": "https://looksmax.org/threads/introduction-to-boron-the-heightmaxxing-supplement-low-effort-thread.951901/",
+      "source": "looksmax.org",
+      "year": 2024,
+      "type": "forum"
+    },
+    {
+      "id": 6,
+      "title": "Boron",
+      "url": "https://en.wikipedia.org/wiki/Boron",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 7,
+      "title": "Toxicity of boric acid, borax and other boron containing compounds: A review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33485927/",
+      "source": "Regulatory Toxicology and Pharmacology",
+      "year": 2021,
+      "type": "review"
+    },
+    {
+      "id": 8,
+      "title": "Does Boron induce hair loss through DHT increase?",
+      "url": "https://looksmax.org/threads/does-boron-induce-hair-loss-through-dht-increase.492953/",
+      "source": "looksmax.org",
+      "year": 2023,
+      "type": "forum"
+    },
+    {
+      "id": 9,
+      "title": "rate my test stack",
+      "url": "https://looksmax.org/threads/rate-my-test-stack.1818089/",
+      "source": "looksmax.org",
+      "year": 2025,
+      "type": "forum"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Zinc_deficiency",
+      "title": "Zinc deficiency - Wikipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Boron",
+      "title": "Boron - Wikipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Testosterone",
+      "title": "Testosterone - Wikipedia"
+    }
   ]
- ],
- "sections": [
-  {
-   "h": "Components",
-   "paras": [
-    "Zinc is an enzyme cofactor required for testosterone production.[2] Vitamin D intake has been associated with testosterone levels in the literature summarised by Wikipedia.[3] Boron is an ultratrace element with low mammalian toxicity.[1]"
-   ]
-  },
-  {
-   "h": "Research and expert views",
-   "paras": [
-    "Wikipedia states zinc deficiency lowers testosterone but extra zinc in sufficient people has no effect.[3] Vitamin D associations are reported as intake-level correlations.[3] Boron findings in men were not described in the source reviewed."
-   ]
-  },
-  {
-   "h": "Clinical studies",
-   "paras": [
-    "No studies found. Studies described in the reviewed articles concern single nutrients, not the combined stack."
-   ]
-  }
- ],
- "timeline": [],
- "card": {
-  "summary": "Boron, zinc and D3 together as a testosterone stack: each has a plausible hormone link, but the combo has no trial behind it.",
-  "aka": "Test stack",
-  "evidence": "unproven",
-  "status": "otc",
-  "risk": "low",
-  "note": "Zinc beyond sufficiency does not raise testosterone, per Wikipedia.",
-  "structure": null,
-  "price": null
- },
- "quick": {
-  "overview": "A popular supplement stack of boron, zinc and vitamin D3 taken to raise testosterone.\n\nDeficiency of zinc or vitamin D is linked to lower levels; evidence for the stack in people without deficiency was not found.",
-  "mechanism": "Zinc supports testosterone synthesis, vitamin D intake correlates with higher levels, and boron is proposed to influence steroid metabolism.",
-  "risks": "Borates have low mammalian toxicity per Wikipedia, but excess intake of any ingredient is not covered in the sources reviewed."
- }
 }

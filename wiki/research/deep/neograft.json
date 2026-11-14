@@ -1,34 +1,82 @@
 {
  "name": "NeoGraft",
+ "card": {
+  "summary": "An automated suction-assisted FUE device; reported FDA-approved in 2009 with little published outcome data.",
+  "aka": null,
+  "evidence": "unproven",
+  "outcome": "durable",
+  "price": null,
+  "note": "No comparative trials found."
+ },
+ "quick": {
+  "overview": "NeoGraft is a machine that automates part of FUE hair transplant harvesting. Wikipedia reports FDA approval in 2009.\n\nSources reviewed give little outcome data.",
+  "mechanism": "Pneumatic suction-assisted extraction of follicular units from the donor scalp.",
+  "risks": "Risks match FUE generally. A surgeon abstract argues many patients are not suitable FUE candidates."
+ },
  "lead": [
-  "NeoGraft is an automated device used for follicular unit extraction (FUE) in hair transplantation. Wikipedia describes it as the first robotic surgical device FDA-approved for hair restoration, in 2009, while noting limited detail.[1] Grokipedia describes it as using pneumatic pressure to extract and deliver grafts without twisting or pulling.[2]",
-  "A surgeon abstract presented in 2014 argued that most hair-restoration patients are not appropriate FUE candidates, whether extraction is manual or done with NeoGraft or the ARTAS robot.[3] No published trial comparing NeoGraft with other harvesting methods was identified."
+  "NeoGraft is an automated device used for follicular unit extraction (FUE), a hair transplant method in which individual hair follicles are harvested from the back and sides of the scalp and relocated to thinning or bald areas. People use it to restore hairline and density without the linear scar of a strip harvest. [1][4]",
+  "Wikipedia describes it as the first robotic surgical device FDA-approved for hair restoration, in 2009, and notes that FUE leaves small punctate donor scars and shorter recovery than strip surgery. [1] A review of suction-assisted extraction traces it to the Punch Hair Matic SAFER launched by Medicamat in 2005, sold in the US as NeoGraft, with a redesigned version launched in 2012. [2] Venus Concept is its exclusive US distributor. [3]",
+  "The device uses a rotating punch with suction that carries each graft into a saline-filled canister, replacing the forceps-removal step. [2][5] Proponents say this can speed up extraction and reduce handling trauma; the review notes such advantages have not all been consistently realised. [2] A surgeon abstract presented in 2014 argued that most hair-restoration patients are not appropriate FUE candidates, whether extraction is manual or with NeoGraft or the ARTAS robot.  No published trial comparing NeoGraft with other harvesting methods was identified."
  ],
+ "angle": {
+  "goal": "Hair density and hairline",
+  "chain": [
+   "Handpiece punches around individual follicular units in the donor area",
+   "Suction collects grafts, which are then implanted in thinning zones",
+   "Hair regrows from relocated follicles, rebuilding density over about a year"
+  ],
+  "effect": "direct",
+  "text": "NeoGraft is a tool for moving permanent donor hair to areas of loss. The maker says results keep improving for 9 to 12 months and leave no linear scar."
+ },
  "infobox": [
   [
    "Type",
    "Automated FUE device"
   ],
   [
-   "FDA approval",
-   "2009 (per Wikipedia)"
+   "FDA status",
+   "Cleared as a Class I device for suction-assisted follicular extraction and re-implantation (per distributor) [3]"
+  ],
+  [
+   "First US launch",
+   "Reported as 2009 approval (Wikipedia) [1]"
+  ],
+  [
+   "Original device",
+   "Punch Hair Matic SAFER (Medicamat, 2005) [2]"
+  ],
+  [
+   "Distributor",
+   "Venus Concept [3]"
+  ],
+  [
+   "Session length",
+   "About 4 to 10 hours (per distributor) [3]"
   ],
   [
    "Typical price",
-   "Not given in sources reviewed"
+   "Not given in sources"
   ]
  ],
  "sections": [
   {
    "h": "How it works",
    "paras": [
-    "The device is reported to use suction-assisted pneumatic pressure to remove follicular units and reduce manual labour in FUE.[2]"
+    "Standard FUE has two steps: punching around the graft and removing it with forceps. Suction-assisted extraction replaces the forceps step with suction that carries each graft into a collection canister. The NeoGraft handpiece uses a rotating punch of 0.8 to 1.25 mm external diameter, with about 2 to 3 psi of suction; grafts are held in saline in a canister of about 300 to 350 grafts. [2]",
+    "The manufacturer's distributor says an automated handpiece extracts follicles, which are then separated and implanted; sessions run roughly 4 to 10 hours under local anesthesia, and shedding of transplanted hairs around days 3 to 4 is described as normal. [3]"
+   ]
+  },
+  {
+   "h": "Claimed advantages and concerns",
+   "paras": [
+    "Claimed advantages of suction-assisted FUE include a faster procedure, fewer assistants, less trauma during removal and a cleaner field. A review says it possibly reduces transection risk but that not all benefits are consistently realised. [2] Early concerns about graft drying from vacuum airflow are described as diminished with fluid-filled canisters. [2]",
+    "Wikipedia describes risks of hair transplantation generally, including temporary shock loss, infection and reduced graft survival from smoking, and notes FUE is physically demanding for surgeons with a steep learning curve. [1]"
    ]
   },
   {
    "h": "Expert views",
    "paras": [
-    "The 2014 meeting abstract states that hairs survive in a new location only as long as they would have in the donor area, and that FUE candidacy is limited.[3]"
+    "The 2014 meeting abstract states that hairs survive in a new location only as long as they would have in the donor area, and that FUE candidacy is limited by donor supply. [5] Wikipedia notes patients may be screened with the debated fox test and that body hair transplantation is possible only with FUE. [1]"
    ]
   },
   {
@@ -40,8 +88,16 @@
  ],
  "timeline": [
   {
+   "year": "2005",
+   "event": "Medicamat launches Punch Hair Matic SAFER, sold in the US as NeoGraft. [2]"
+  },
+  {
    "year": "2009",
-   "event": "NeoGraft reported as FDA-approved for hair restoration.[1]"
+   "event": "NeoGraft reported as the first robotic surgical device FDA-approved for hair restoration. [1]"
+  },
+  {
+   "year": "2012",
+   "event": "A new NeoGraft machine is launched in the US. [2]"
   }
  ],
  "lore": null,
@@ -56,6 +112,22 @@
   },
   {
    "id": 2,
+   "title": "Suction-Assisted Follicular Unit Extraction",
+   "url": "https://plasticsurgerykey.com/suction-assisted-follicular-unit-extraction",
+   "source": "Plastic Surgery Key",
+   "year": 2020,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "NeoGraft",
+   "url": "https://www.venustreatments.com/en-us/neograft.htm",
+   "source": "Venus Concept",
+   "year": 2025,
+   "type": "news"
+  },
+  {
+   "id": 4,
    "title": "Hair transplantation (Grokipedia)",
    "url": "https://grokipedia.com/page/Hair_transplantation",
    "source": "Grokipedia",
@@ -63,7 +135,7 @@
    "type": "encyclopedia"
   },
   {
-   "id": 3,
+   "id": 5,
    "title": "Canadian Society for Aesthetic Plastic Surgery 41st Annual Meeting",
    "url": "https://doi.org/10.1177/229255031402200303",
    "source": "Plastic Surgery",
@@ -73,25 +145,16 @@
  ],
  "webSources": [
   {
-   "url": "https://en.wikipedia.org/wiki/Hair_transplantation",
-   "title": "Hair transplantation - Wikipedia"
+   "url": "https://plasticsurgerykey.com/suction-assisted-follicular-unit-extraction",
+   "title": "Suction-Assisted Follicular Unit Extraction"
   },
   {
-   "url": "https://grokipedia.com/page/Hair_transplantation",
-   "title": "Hair transplantation - Grokipedia"
+   "url": "https://www.venustreatments.com/en-us/neograft.htm",
+   "title": "NeoGraft - Venus Concept"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Hair_transplantation",
+   "title": "Hair transplantation"
   }
- ],
- "card": {
-  "summary": "An automated suction-assisted FUE device; reported FDA-approved in 2009 with little published outcome data.",
-  "aka": null,
-  "evidence": "unproven",
-  "outcome": "durable",
-  "price": null,
-  "note": "No comparative trials found."
- },
- "quick": {
-  "overview": "NeoGraft is a machine that automates part of FUE hair transplant harvesting. Wikipedia reports FDA approval in 2009.\n\nSources reviewed give little outcome data.",
-  "mechanism": "Pneumatic suction-assisted extraction of follicular units from the donor scalp.",
-  "risks": "Risks match FUE generally. A surgeon abstract argues many patients are not suitable FUE candidates."
- }
+ ]
 }

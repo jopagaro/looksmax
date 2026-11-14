@@ -1,20 +1,130 @@
 {
-"name":"Salt water rinse",
-"lead":["A salt water rinse is a rinse of warm water with dissolved salt, used as a low-cost mouthwash for gum soreness and mouth hygiene. Wikipedia describes saline as a mechanical cleanser with antiseptic action because it is hypertonic to bacteria.[1]","A school-based randomised trial compared salt water with chlorhexidine for effects on dental plaque and oral microbes.[2] Wikipedia's mouthwash article does not discuss salt water for gingivitis specifically or for bad breath.[1]"],
-"infobox":[["Type","Home oral rinse"],["Ingredients","Salt, water"],["Claimed use","Soothing gums, cleaning the mouth"]],
-"sections":[
-{"h":"History","paras":["Salt water gargles appear in early accounts, including ancient Chinese records from about 94 BCE and Hippocratic recommendations, though dating is imprecise.[1]"]},
-{"h":"Clinical studies","paras":["A randomised controlled trial in schoolchildren compared salt water rinse with chlorhexidine mouthwash against plaque and oral microbial counts, after first measuring the minimum inhibitory concentration of salt water against four oral bacteria.[2] Wikipedia notes saline guidance in oral mucositis from cancer therapy, where it is reported as about as effective as other rinses for pain and healing time.[1]"]},
-{"h":"Use and safety","paras":["After tooth extraction, dental guidance cited by Wikipedia is to begin warm salt water mouth baths about 24 hours later, holding the liquid passively at first so the blood clot is not dislodged.[1] Salt water is also noted as an option for people sensitive to mouthwash ingredients.[1]"]},
-{"h":"Use in looksmaxxing","paras":["Salt rinses are mentioned in lifestyle discussions as a cheap gum soother."]}
-],
-"timeline":[],
-"lore":{"intro":"Salt water rinse is discussed as an inexpensive home remedy.","claims":[
-{"claim":"Salt water soothes inflamed gums","believers":"Users say warm salt water eases soreness and cleans the mouth.","experts":"Wikipedia describes saline as mechanically cleansing and mildly antiseptic, and a trial compared it with chlorhexidine for plaque and microbes.[1][2]","evidence":"mixed"}]},
-"refs":[
-{"id":1,"title":"Mouthwash","url":"https://en.wikipedia.org/wiki/Mouthwash","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":2,"title":"Comparative evaluation of salt water rinse with chlorhexidine against oral microbes: a school-based randomized controlled trial","url":"https://pubmed.ncbi.nlm.nih.gov/28914244/","source":"Journal of the Indian Society of Pedodontics and Preventive Dentistry","year":2017,"type":"trial"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Mouthwash","title":"Mouthwash"}],
-"card":{"summary":"Warm salt-and-water home rinse used to soothe gums; compared with chlorhexidine in one school trial.","aka":"Saline rinse","evidence":"limited","status":null,"outcome":null,"risk":"low","price":null,"note":"After extractions, guidance says to hold the rinse passively at first.","structure":null},
-"quick":{"overview":"A salt water rinse is a homemade mouthwash used for sore gums and general cleaning.\n\nSaline is described as mildly antiseptic, and one school trial compared it with chlorhexidine.","mechanism":"Salt solution mechanically cleans and is hypertonic to bacteria.","risks":"Low; after dental extractions, guidance advises gentle holding rather than vigorous swishing."}
+  "name": "Salt water rinse",
+  "card": {
+    "summary": "Warm salt-and-water home rinse used to soothe gums; compared with chlorhexidine in one school trial.",
+    "aka": "Saline rinse",
+    "evidence": "limited",
+    "status": null,
+    "outcome": null,
+    "risk": "low",
+    "price": null,
+    "note": "After extractions, guidance says to hold the rinse passively at first.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "A salt water rinse is a homemade mouthwash used for sore gums and general cleaning.\n\nSaline is described as mildly antiseptic, and one school trial compared it with chlorhexidine.",
+    "mechanism": "Salt solution mechanically cleans and is hypertonic to bacteria.",
+    "risks": "Low; after dental extractions, guidance advises gentle holding rather than vigorous swishing."
+  },
+  "lead": [
+    "A salt water rinse is warm water with dissolved salt, swished around the mouth as a low-cost mouthwash. People use it to keep gums comfortable and the mouth clean, supporting fresher breath and a healthier-looking smile alongside brushing.[1][2]",
+    "Wikipedia describes saline as a mechanical cleanser with antiseptic action, because it is hypertonic to bacteria, and notes that warm solutions increase blood flow to the area, which may aid healing.[1] A homemade version can combine salt with baking soda.[1]",
+    "A randomized trial in 30 participants found that salt water rinsing for five days reduced plaque and salivary microbial counts, matching chlorhexidine for plaque reduction and for one bacterium, while chlorhexidine performed better against three others. The authors concluded it can serve as an adjunct to routine mechanical plaque control.[2]"
+  ],
+  "angle": {
+    "goal": "Teeth and gums",
+    "chain": [
+      "Warm salt water swished in the mouth",
+      "Cleans mechanically and lowers microbial counts",
+      "Calmer gums and less plaque alongside brushing",
+      "Fresher mouth and a healthier-looking smile"
+    ],
+    "effect": "indirect",
+    "text": "People use it as a cheap rinse to soothe sore gums and cut plaque between brushing, supporting gum health and fresh breath that show in a smile. In the one trial identified, salt water matched chlorhexidine on plaque reduction."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Home oral rinse"
+    ],
+    [
+      "Ingredients",
+      "Salt, water (sometimes baking soda)[1]"
+    ],
+    [
+      "Use",
+      "Soothing gums, cleaning the mouth, after-extraction mouth baths"
+    ],
+    [
+      "Cost",
+      "Household ingredients"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Description",
+      "paras": [
+        "The rinse is made by dissolving salt in warm water. Saline cleans mechanically and acts as an antiseptic; it is hypertonic to bacteria and is described as causing them to burst.[1] It is also noted as an option for people sensitive to the ingredients in commercial mouthwash.[1]"
+      ]
+    },
+    {
+      "h": "History",
+      "paras": [
+        "Salt water gargles appear in early accounts: Hippocrates recommended a mixture of salt, alum and vinegar, ancient Chinese records describe gargling salt water, tea and wine for antiseptic effect, and peoples of the Americas used salt water for sore throats, though dating is imprecise.[1]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "A 2017 school-based randomized controlled trial in the Journal of the Indian Society of Pedodontics and Preventive Dentistry first measured the minimum inhibitory concentration of salt water against four oral bacteria, then randomized 30 participants to salt water or chlorhexidine rinsing for five days after prophylaxis. Both groups had significant reductions in plaque and salivary microbial counts; salt water performed as well as chlorhexidine for plaque and for A. actinomycetemcomitans, while chlorhexidine was significantly better against S. mutans, L. acidophilus and P. gingivalis.[2]",
+        "Wikipedia notes current guidelines that saline works about as well as other rinses for pain and healing time in oral mucositis from cancer therapy.[1]"
+      ]
+    },
+    {
+      "h": "Use and safety",
+      "paras": [
+        "After tooth extraction, dental guidance cited by Wikipedia is to begin warm salt water mouth baths about 24 hours later, holding the liquid passively at first so the blood clot is not dislodged.[1] Wikipedia also notes that alcohol-containing commercial mouthwashes can dry the mouth, which can encourage odor-producing bacteria; salt water contains no alcohol.[1]"
+      ]
+    }
+  ],
+  "timeline": [],
+  "lore": {
+    "intro": "Salt water is discussed in lifestyle and training forums as an inexpensive home remedy.[3]",
+    "claims": [
+      {
+        "claim": "Salt water gargles are an effective cheap home remedy",
+        "believers": "A T Nation poster calls salt water gargles the cheapest, most accessible home remedy for the throat and says it works, extending the same view to nasal rinses.[3]",
+        "experts": "Wikipedia describes saline as mechanically cleansing and mildly antiseptic, and guidelines cited there report saline about as effective as other rinses for oral mucositis pain and healing.[1]",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "Salt water soothes inflamed gums and cleans the mouth",
+        "believers": "Users say warm salt water eases soreness and cleans the mouth.[1]",
+        "experts": "A 30-person trial reported reductions in plaque and microbial counts with salt water, comparable to chlorhexidine for plaque.[2]",
+        "evidence": "supported"
+      }
+    ]
+  },
+  "refs": [
+    {
+      "id": 1,
+      "title": "Mouthwash",
+      "url": "https://en.wikipedia.org/wiki/Mouthwash",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Comparative evaluation of salt water rinse with chlorhexidine against oral microbes: a school-based randomized controlled trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28914244/",
+      "source": "Journal of the Indian Society of Pedodontics and Preventive Dentistry",
+      "year": 2017,
+      "type": "trial"
+    },
+    {
+      "id": 3,
+      "title": "MarkKO's Training Log",
+      "url": "https://t-nation.com/t/markkos-training-log/208986",
+      "source": "T Nation forum",
+      "year": 2015,
+      "type": "forum"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Mouthwash",
+      "title": "Mouthwash - Wikipedia"
+    }
+  ]
 }

@@ -1,67 +1,220 @@
 {
-  "name": "Boldenone",
-  "lead": [
-    "Boldenone is a synthetic anabolic-androgenic steroid (AAS), the 1-dehydro analogue of testosterone. It is used mainly in veterinary medicine, usually as the long-acting undecylenate ester sold as Equipoise, for debilitated horses, and it is not approved for human therapeutic use in the United States.[1]",
-    "It is used illicitly by bodybuilders and athletes for steady muscle gain and appetite, and it is a prohibited anabolic agent under anti-doping rules.[1] Human clinical research on boldenone was not found: no trial of it for muscle or appearance appears in the sources reviewed, and information about it comes largely from veterinary use and an AI-generated encyclopedic overview. Evidence for its appearance effects is therefore unproven."
+ "name": "Boldenone",
+ "card": {
+  "summary": "A horse steroid used by bodybuilders for slow, steady gains; no human trials exist.",
+  "aka": "Equipoise, EQ, boldenone undecylenate",
+  "evidence": "unproven",
+  "status": "research",
+  "outcome": null,
+  "risk": null,
+  "price": null,
+  "note": "Veterinary drug; not approved for humans; prohibited in sport; animal studies report organ toxicity.",
+  "structure": "Boldenone"
+ },
+ "quick": {
+  "overview": "Boldenone is an injectable anabolic steroid, best known as Equipoise, a veterinary drug for horses. Bodybuilders use it illicitly for steady muscle gain.\n\nNo human trials of boldenone were found. Claims about its effects on appearance rest on user reports and a single encyclopedic overview.",
+  "mechanism": "It is a testosterone analogue that activates the androgen receptor and is reported to boost red blood cell production. Its long-acting ester releases slowly after injection.",
+  "risks": "Animal studies report reproductive, liver, kidney and immune effects. It is not approved for humans in the US and is prohibited in sport."
+ },
+ "lead": [
+  "Boldenone is an anabolic-androgenic steroid (AAS) and a close chemical relative of testosterone, differing by one extra double bond in the A ring. In bodybuilding circles it is known by the name of its long-acting veterinary form, boldenone undecylenate, sold for horses as Equipoise or \"EQ\". People who use it illicitly do so in pursuit of a fuller, more muscular physique, and talk about it as a steady, slow-building anabolic with an appetite boost.[1][2]",
+  "Wikipedia describes boldenone as mainly anabolic with low androgenic potency; like other AAS it activates the androgen receptor, increases nitrogen retention and protein synthesis, raises appetite and stimulates release of erythropoietin in the kidneys.[1] The chain people point to is more protein synthesis and appetite, then more training capacity and mass, then a bigger, leaner-looking physique.",
+  "Boldenone was never marketed as a human medicine in its own right. Ciba reportedly patented it in 1949, and the undecylenate ester was sold for humans as Parenabol in the late 1960s and early 1970s before being discontinued; it then became a veterinary product from Squibb.[1] No human clinical trial of boldenone for muscle or appearance is known, and it is prohibited under anti-doping rules.[2]"
+ ],
+ "angle": {
+  "goal": "Muscle",
+  "chain": [
+   "Androgen receptor activation and appetite increase",
+   "More protein synthesis and nitrogen retention",
+   "More muscle mass and a fuller physique"
   ],
-  "infobox": [
-    ["Drug class", "Anabolic-androgenic steroid (testosterone derivative)"],
-    ["Common form", "Boldenone undecylenate (Equipoise)"],
-    ["Route", "Intramuscular injection"],
-    ["Medical status", "Veterinary (horses); not approved for humans in the US"],
-    ["Legal status", "Prohibited in sport"],
-    ["Aliases", "Equipoise, EQ"]
+  "effect": "claimed",
+  "text": "Users describe boldenone as a slow, steady builder of lean mass, with appetite and endurance benefits that support heavier training. These effects are reported by users and described in pharmacology summaries; they have not been measured in human trials."
+ },
+ "infobox": [
+  [
+   "Drug class",
+   "Anabolic-androgenic steroid (testosterone derivative)"
   ],
-  "sections": [
-    {
-      "h": "Uses",
-      "paras": [
-        "In veterinary medicine boldenone undecylenate is given by intramuscular injection to horses to improve weight, appetite and red blood cell production during debilitation from disease or surgery.[1] Illicit human users take it for muscle gain and endurance, with the slow-release ester valued for steady effects.[1]"
-      ],
-      "subs": []
-    },
-    {
-      "h": "Pharmacology",
-      "paras": [
-        "Boldenone has an extra double bond between carbons 1 and 2 of the steroid A ring relative to testosterone, and is reported to have a higher anabolic-to-androgenic ratio.[1] It acts as an androgen receptor agonist and is reported to stimulate red blood cell production.[1] The undecylenate ester releases slowly over weeks after injection, and metabolites can be detectable in horse urine for months, according to an encyclopedic overview.[1] Human pharmacokinetic data are limited and come from illicit use.[1]"
-      ],
-      "subs": []
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found of boldenone in human clinical trials. Reported research is veterinary and animal, including equine pharmacokinetic work and animal studies describing reproductive toxicity, hepatorenal impairment and immune effects.[1]"
-      ],
-      "subs": []
-    },
-    {
-      "h": "Society and culture",
-      "paras": [
-        "Boldenone is on the World Anti-Doping Agency list of prohibited anabolic agents and is reported in roughly 5 percent of global anabolic steroid doping violations, sometimes linked to contaminated meat as well as intentional use.[1]"
-      ],
-      "subs": []
-    }
+  [
+   "Common form",
+   "Boldenone undecylenate (ester)"
   ],
-  "timeline": [],
-  "lore": null,
-  "card": {
-    "summary": "A horse steroid used by bodybuilders for slow, steady gains; no human trials exist.",
-    "aka": "Equipoise, EQ, boldenone undecylenate",
-    "evidence": "unproven",
-    "status": "research",
-    "outcome": null,
-    "risk": null,
-    "price": null,
-    "note": "Veterinary drug; not approved for humans; prohibited in sport; animal studies report organ toxicity.",
-    "structure": "Boldenone"
+  [
+   "Route",
+   "Intramuscular injection"
+  ],
+  [
+   "Developmental code",
+   "RU-18761"
+  ],
+  [
+   "Patented",
+   "1949 (Ciba, reportedly)"
+  ],
+  [
+   "Brand names",
+   "Equipoise, Boldebal H, Sybolin (veterinary); Parenabol (historic human)"
+  ],
+  [
+   "Legal status",
+   "Veterinary; prohibited in sport"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Uses",
+   "paras": [
+    "In veterinary medicine boldenone undecylenate is given by intramuscular injection to horses to improve body weight, muscular strength and red blood cell production during debilitation from illness or surgery.[2] It is not approved for human therapeutic use in the United States, and in Ukraine a product named Boldenol is reported to be marketed for human consumption.[1][2]",
+    "Illicit users in bodybuilding take it for muscle gain and endurance, with the slow-release ester valued for steady effects.[2] Forum users describe it as a companion to testosterone or other compounds rather than a stand-alone choice."
+   ],
+   "subs": []
   },
-  "quick": {
-    "overview": "Boldenone is an injectable anabolic steroid, best known as Equipoise, a veterinary drug for horses. Bodybuilders use it illicitly for steady muscle gain.\n\nNo human trials of boldenone were found. Claims about its effects on appearance rest on user reports and a single encyclopedic overview.",
-    "mechanism": "It is a testosterone analogue that activates the androgen receptor and is reported to boost red blood cell production. Its long-acting ester releases slowly after injection.",
-    "risks": "Animal studies report reproductive, liver, kidney and immune effects. It is not approved for humans in the US and is prohibited in sport."
+  {
+   "h": "Pharmacology",
+   "paras": [
+    "Boldenone is also called delta-1-testosterone or 1-dehydrotestosterone and is the 1(2)-dehydrogenated analogue of testosterone; a related compound is quinbolone, its 17-cyclopentenyl enol ether.[1] An AI-generated encyclopedic overview reports a higher anabolic-to-androgenic ratio than testosterone and a slow release of the undecylenate ester over weeks after injection; that source is treated here with caution.[2]",
+    "Human pharmacokinetic data come mostly from illicit use rather than trials.[2]"
+   ],
+   "subs": []
   },
-  "refs": [
-    {"id": 1, "title": "Boldenone (Grokipedia)", "url": "https://grokipedia.com/page/Boldenone", "source": "Grokipedia", "year": 2025, "type": "encyclopedia"}
-  ],
-  "webSources": []
+  {
+   "h": "History",
+   "paras": [
+    "Ciba reportedly patented boldenone in 1949 and developed several experimental esters in the 1950s and 1960s. Boldenone undecylenate was introduced for clinical use as Parenabol, saw some use in the late 1960s and early 1970s, and was discontinued before the end of the 1970s. Squibb later introduced it for veterinary use as Equipoise, most commonly in horses.[1]"
+   ],
+   "subs": []
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found of boldenone in human clinical trials for muscle or appearance. Reported research is veterinary and animal, including equine pharmacokinetic work and animal studies describing reproductive toxicity, liver and kidney effects and immune effects, as summarised in the AI-generated overview.[2]"
+   ],
+   "subs": []
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Boldenone is on the World Anti-Doping Agency list of prohibited anabolic agents; the overview reports it in roughly 5 percent of global anabolic steroid doping violations, sometimes linked to contaminated meat as well as intentional use.[2] Wikipedia notes many known doping cases among professional athletes.[1]",
+    "On T Nation, a bodybuilding forum, EQ appears regularly in discussions of cycles built around testosterone and other compounds. Posters debate whether it aromatises, how it compares with testosterone per milligram, and whether it suits people who feel estrogenic on other agents.[3][4][5]"
+   ],
+   "subs": []
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1949",
+   "event": "Ciba reportedly patents boldenone.[1]"
+  },
+  {
+   "year": "Late 1960s",
+   "event": "Boldenone undecylenate sold for human use as Parenabol; discontinued before the end of the 1970s.[1]"
+  },
+  {
+   "year": "After the 1970s",
+   "event": "Squibb introduces boldenone undecylenate for veterinary use as Equipoise.[1]"
+  }
+ ],
+ "lore": {
+  "intro": "On T Nation, boldenone is discussed as a slow, mild component of stacks, valued for appetite and a lean look, with ongoing argument about its estrogen behaviour.[3][4]",
+  "claims": [
+   {
+    "claim": "EQ builds steady lean mass without the water-retention of some other compounds.",
+    "believers": "A poster describes using boldenone at TRT-level doses alongside testosterone because it did not dull orgasm the way trenbolone or nandrolone can for them, and suggests it for users who are estrogenic and struggle to lean out.[5]",
+    "experts": "No human trial has compared boldenone with other anabolics on body composition. Wikipedia describes it as mainly anabolic with low androgenic potency.[1]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Boldenone adds endurance and tendon strength.",
+    "believers": "A poster planning a multi-compound cycle says they considered boldenone for its reported increase in endurance and tendon strength.[6]",
+    "experts": "Boldenone is reported to stimulate erythropoietin, which relates to red blood cell production, and veterinary use targets horses' stamina and blood counts; no study of tendon effects in humans was found.[1][2]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Boldenone metabolites can offset estrogen from other compounds.",
+    "believers": "Some forum users argue boldenone acts as an aromatase inhibitor or does not aromatise much; others reply that any such effect would be too small to counter the aromatisation from large testosterone doses.[3][7]",
+    "experts": "The question of aromatase activity is not settled in the general references consulted; no human trial addresses it.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Boldenone can replace testosterone in a trial run.",
+    "believers": "A poster describes experimenting with EQ as a TRT substitute, noting they had heard it is considerably less potent than testosterone milligram for milligram.[8]",
+    "experts": "Boldenone has never been marketed as a human therapy; the human product Parenabol was discontinued in the 1970s.[1]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "It is safe because it is mild.",
+    "believers": "Users commonly describe it as gentler than other injectables.[4][5]",
+    "experts": "Animal studies summarised in an AI-generated overview report reproductive toxicity, hepatorenal impairment and immune effects, and it is prohibited in sport.[2]",
+    "evidence": "harms"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Boldenone",
+   "url": "https://en.wikipedia.org/wiki/Boldenone",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Boldenone (Grokipedia)",
+   "url": "https://grokipedia.com/page/Boldenone",
+   "source": "Grokipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "First Cycle Running Test E, Dbol, and Equipoise",
+   "url": "https://t-nation.com/t/first-cycle-running-test-e-dbol-and-equipoise/278706",
+   "source": "T Nation",
+   "year": 2022,
+   "type": "forum"
+  },
+  {
+   "id": 4,
+   "title": "Are These Side Effects from HCG and/or Anastrozole?",
+   "url": "https://t-nation.com/t/are-these-side-effects-from-hcg-and-or-anastrozole/257850",
+   "source": "T Nation",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 5,
+   "title": "PhilaSCS Nandrolone Fall 2023",
+   "url": "https://t-nation.com/t/philascs-nandrolone-fall-2023/284963",
+   "source": "T Nation",
+   "year": 2023,
+   "type": "forum"
+  },
+  {
+   "id": 6,
+   "title": "Test C, MENT, Tren A, NPP, Bold C Cycle",
+   "url": "https://t-nation.com/t/test-c-ment-tren-a-npp-bold-c-cycle/274331",
+   "source": "T Nation",
+   "year": 2021,
+   "type": "forum"
+  },
+  {
+   "id": 7,
+   "title": "Test C, NPP, and Anavar",
+   "url": "https://t-nation.com/t/test-c-npp-and-anavar/266850",
+   "source": "T Nation",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 8,
+   "title": "Little Experiment: EQ and Mast",
+   "url": "https://t-nation.com/t/little-experiment-eq-and-mast/263606",
+   "source": "T Nation",
+   "year": 2019,
+   "type": "forum"
+  }
+ ],
+ "webSources": []
 }

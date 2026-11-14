@@ -1,99 +1,239 @@
 {
-  "name": "Zero-carb carnivore",
-  "card": {
-    "summary": "Animal foods only and no plants at all: popular online, supported mostly by self-reports, and classed as a fad diet by dietetic bodies.",
-    "aka": "Carnivore diet, zero-carb diet",
-    "evidence": "unproven",
-    "risk": "high",
-    "note": "Long-term safety has not been established; no large randomised trials exist.",
-    "price": null
-  },
-  "quick": {
-    "overview": "The zero-carb carnivore diet allows only animal foods such as meat, fish, eggs and sometimes dairy, with no plant foods and no added carbohydrate. Trace carbohydrate from animal sources is treated as acceptable. Shawn Baker and the Petersons helped popularise it from about 2017 to 2019.\n\nBelievers report better weight, digestion, mood and skin. The published evidence is limited to a 2021 self-selected survey, case reports and small series.",
-    "mechanism": "With almost no carbohydrate the body relies on fat and protein for energy, usually in ketosis. Advocates argue that excluding plant compounds such as lectins and oxalates helps some people and that animal foods supply bioavailable nutrients such as heme iron, B12 and preformed vitamin A.",
-    "risks": "Reported or discussed risks include lack of fibre, possible shortfalls of vitamin C and other micronutrients, sharply raised LDL cholesterol in some people, constipation, gout and kidney strain. The British Dietetic Association and Dietitians Australia classify it as a fad diet."
-  },
-  "lead": [
-    "The carnivore diet, also called the zero-carb diet, is a high-protein, low-carbohydrate regimen in which adherents eat only animal products such as meat, dairy and eggs.[1] Grokipedia describes the strict zero-carb version as the baseline, with no plants and no added carbohydrates, and trace carbohydrates from animal sources generally under 5 grams a day considered acceptable.[2]",
-    "Orthopaedic surgeon Shawn Baker promoted the diet on social media from 2018, and Jordan and Mikhaila Peterson became prominent adherents.[1] Supporters rely mainly on self-reported surveys and anecdotes; Grokipedia describes controlled long-term evidence as largely missing, while professional dietetic bodies regard the diet as a fad.[1][2]"
+ "name": "Zero-carb carnivore",
+ "card": {
+  "summary": "Animal foods only and no plants at all: popular online, supported mostly by self-reports, and classed as a fad diet by dietetic bodies.",
+  "aka": "Carnivore diet, zero-carb diet",
+  "evidence": "unproven",
+  "risk": "high",
+  "note": "Long-term safety has not been established; no large randomised trials exist.",
+  "price": null
+ },
+ "quick": {
+  "overview": "The zero-carb carnivore diet allows only animal foods such as meat, fish, eggs and sometimes dairy, with no plant foods and no added carbohydrate. Trace carbohydrate from animal sources is treated as acceptable. Shawn Baker and the Petersons helped popularise it from about 2017 to 2019.\n\nBelievers report better weight, digestion, mood and skin. The published evidence is limited to a 2021 self-selected survey, case reports and small series.",
+  "mechanism": "With almost no carbohydrate the body relies on fat and protein for energy, usually in ketosis. Advocates argue that excluding plant compounds such as lectins and oxalates helps some people and that animal foods supply bioavailable nutrients such as heme iron, B12 and preformed vitamin A.",
+  "risks": "Reported or discussed risks include lack of fibre, possible shortfalls of vitamin C and other micronutrients, sharply raised LDL cholesterol in some people, constipation, gout and kidney strain. The British Dietetic Association and Dietitians Australia classify it as a fad diet."
+ },
+ "lead": [
+  "The carnivore diet, also called the zero-carb diet, is a high-protein, low-carbohydrate regimen in which adherents eat only animal products such as meat, dairy and eggs.[1] People in appearance communities use it to lose body fat and look leaner, and followers also report clearer skin and less bloating, which they credit to removing plant foods and sugar.[2][5]",
+  "Grokipedia describes the strict zero-carb version as the baseline, with no plants and no added carbohydrates, and trace carbohydrates from animal sources generally under 5 grams a day considered acceptable.[2] Orthopaedic surgeon Shawn Baker promoted the diet on social media from 2018, and Jordan and Mikhaila Peterson became prominent adherents; a beef-only 'lion diet' later spread on TikTok.[1]",
+  "Supporters rely mainly on self-reported surveys and anecdotes, and Grokipedia describes controlled long-term evidence as largely missing.[2] Professional dietetic bodies such as the British Dietetic Association and Dietitians Australia regard the diet as a fad, according to Wikipedia.[1] Short- and medium-term trials of low-carbohydrate diets generally have found more early weight loss than low-fat diets, an advantage reviews describe as fading over time.[3]"
+ ],
+ "angle": {
+  "goal": "Leanness and skin",
+  "chain": [
+   "Animal-only eating removes carbohydrate and most processed food",
+   "Appetite and calories often fall, and people report less bloating",
+   "Lower body fat and, by self-report, clearer skin"
   ],
-  "infobox": [
-    ["Type", "Dietary pattern"],
-    ["Foods", "Meat, fish, eggs, sometimes dairy; no plants"],
-    ["Carbohydrate", "Near zero, generally under about 5 g per day from animal sources"],
-    ["Popularisers", "Shawn Baker, Mikhaila and Jordan Peterson"],
-    ["Related variants", "Lion diet, ketovore, animal-based diet"]
+  "effect": "claimed",
+  "text": "Followers adopt it to cut body fat and to look leaner and less puffy, and some say their skin improves. These outcomes come from self-reported accounts rather than controlled trials."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Dietary pattern"
   ],
-  "sections": [
-    {
-      "h": "Description",
-      "paras": [
-        "Zero-carb eating excludes all plant foods and relies on fat and protein for energy, usually through ketosis.[2] Variants include stricter beef-only forms, inclusive versions with poultry, fish, eggs and low-lactose dairy, ketovore versions allowing about 10 grams of carbohydrate a day from low-carb plants, and the animal-based approach that permits fruit and honey.[1][2]"
-      ]
-    },
-    {
-      "h": "History",
-      "paras": [
-        "Bernard Moncriff's 1856 book promoted an exclusively animal diet, Arnaldo Cantani used animal-based diets for diabetic patients in the 1870s, and James H. Salisbury advocated lean beef and hot water in the 1880s.[1] Grokipedia cites John Rollo's 1797 diabetes treatment, reanalysed Inuit records suggesting roughly 10 percent of energy from carbohydrate, and Vilhjalmur Stefansson's medically observed meat-only year in 1928 and 1929.[2]",
-        "Baker's 2017 appearance on the Joe Rogan Experience, his 2019 book and the Petersons' public testimony drove popularity in the late 2010s.[2]"
-      ]
-    },
-    {
-      "h": "Claimed benefits",
-      "paras": [
-        "Advocates say the diet stabilises blood sugar and insulin, aids weight loss, eases autoimmune, digestive, skin and mood problems, and provides bioavailable nutrients.[2] Grokipedia notes that lipid changes are mixed, with triglycerides falling and HDL rising but LDL often rising.[2]"
-      ]
-    },
-    {
-      "h": "Risks and expert views",
-      "paras": [
-        "Wikipedia lists the lack of fibre, vitamin deficiencies from excluding fruit and vegetables, raised LDL cholesterol, constipation, higher risk of colon cancer and gout with high red-meat intake, and possible kidney impairment, and says professional bodies treat it as a fad diet.[1]",
-        "Grokipedia adds a documented scurvy case, LDL levels exceeding 500 mg/dL in some cases, kidney-stone concerns, and transient early fatigue and cramps attributed to electrolyte loss. It also describes a pilot microbiome study finding normal diversity and notes advocates who argue the LDL particles are benign, a view it says mainstream guidance disputes.[2] It also records an environmental debate, with critics citing emissions and supporters citing regenerative grazing.[2]"
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No controlled trials of a long-term zero-carb carnivore diet have been published according to the sources reviewed. Evidence consists of a 2021 survey of 2,029 adherents, of whom 95 percent reported overall improvement, a self-selected sample prone to bias, along with case reports and small series, such as a 2024 series of 10 patients with inflammatory bowel disease reporting clinical remission.[2]"
-      ]
-    }
+  [
+   "Foods",
+   "Meat, fish, eggs, sometimes dairy; no plants"
   ],
-  "timeline": [
-    { "year": "1797", "event": "John Rollo treats diabetic patients with mostly animal foods.[2]" },
-    { "year": "1856", "event": "Bernard Moncriff's book promotes an exclusively animal diet.[1]" },
-    { "year": "1928", "event": "Stefansson's supervised meat-only study at Bellevue Hospital.[2]" },
-    { "year": "2018", "event": "Shawn Baker begins promoting the diet on social media.[1]" },
-    { "year": "2021", "event": "Survey of 2,029 carnivore dieters is published.[2]" }
+  [
+   "Carbohydrate",
+   "Near zero, generally under about 5 g per day from animal sources[2]"
   ],
-  "lore": {
-    "intro": "Carnivore advocates present the diet as a human-optimal elimination diet.[2]",
-    "claims": [
-      {
-        "claim": "No plant foods are needed and plants can be harmful.",
-        "believers": "Advocates point to plant compounds like lectins and oxalates and to animal-heavy traditional diets such as the Inuit and Maasai.[2]",
-        "experts": "Dietetic bodies call it a fad diet and cite nutrient and fibre gaps; the claim about plant harms is described as largely anecdotal.[1][2]",
-        "evidence": "untested"
-      },
-      {
-        "claim": "Zero-carb carnivore reverses type 2 diabetes and aids weight loss.",
-        "believers": "Supporters cite stabilised blood sugar and case reports of remission.[2]",
-        "experts": "Short-term low-carb studies show weight loss, but the evidence for carnivore eating itself is limited to surveys and case reports.[2]",
-        "evidence": "mixed"
-      },
-      {
-        "claim": "High LDL on carnivore is harmless.",
-        "believers": "Some advocates argue the LDL particles are benign.[2]",
-        "experts": "Mainstream guidance disagrees and treats raised LDL as a cardiovascular risk factor.[1][2]",
-        "evidence": "harms"
-      }
-    ]
-  },
-  "refs": [
-    { "id": 1, "title": "Carnivore diet", "url": "https://en.wikipedia.org/wiki/Carnivore_diet", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Carnivore diet", "url": "https://grokipedia.com/page/Carnivore_diet", "source": "Grokipedia", "year": 2025, "type": "encyclopedia" }
+  [
+   "Popularisers",
+   "Shawn Baker, Mikhaila and Jordan Peterson[1]"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Carnivore_diet", "title": "Carnivore diet" },
-    { "url": "https://grokipedia.com/page/Carnivore_diet", "title": "Carnivore diet (Grokipedia)" }
+  [
+   "Related variants",
+   "Lion diet, ketovore, animal-based diet[1][2]"
+  ],
+  [
+   "Appearance goal",
+   "Fat loss, leanness, skin"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Zero-carb eating excludes all plant foods and relies on fat and protein for energy, usually through ketosis.[2] Variants include stricter beef-only forms, inclusive versions with poultry, fish, eggs and low-lactose dairy, ketovore versions allowing about 10 grams of carbohydrate a day from low-carb plants, and the animal-based approach that permits fruit, honey and raw dairy.[1][2]"
+   ],
+   "subs": []
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Bernard Moncriff's 1856 book promoted an exclusively animal diet, Arnaldo Cantani used animal-based diets for diabetic patients in the 1870s, and James H. Salisbury advocated lean beef and hot water in the 1880s.[1] Grokipedia cites John Rollo's 1797 diabetes treatment, reanalysed Inuit records suggesting roughly 10 percent of energy from carbohydrate, and Vilhjalmur Stefansson's medically observed meat-only year in 1928 and 1929.[2]",
+    "Baker's 2017 appearance on the Joe Rogan Experience, his 2019 book and the Petersons' public testimony drove popularity in the late 2010s.[2]"
+   ],
+   "subs": []
+  },
+  {
+   "h": "Use in looksmaxxing and online communities",
+   "paras": [
+    "A 2018 Hacker News thread discussed a news story on tech workers who adopted an all-meat diet to gain an edge on peers, with commenters raising ketosis, cognitive effects and fibre concerns.[5][6] Other threads there include a 90-day personal account and a discussion of mental health claims.[7][8]"
+   ],
+   "subs": []
+  },
+  {
+   "h": "Claimed benefits",
+   "paras": [
+    "Advocates say the diet stabilises blood sugar and insulin, aids weight loss, eases autoimmune, digestive, skin and mood problems, and provides bioavailable nutrients.[2] Grokipedia notes that lipid changes are mixed, with triglycerides falling and HDL rising but LDL often rising.[2]"
+   ],
+   "subs": []
+  },
+  {
+   "h": "Risks and expert views",
+   "paras": [
+    "Wikipedia lists the lack of fibre, vitamin deficiencies from excluding fruit and vegetables, raised LDL cholesterol, constipation, higher risk of colon cancer and gout with high red-meat intake, and possible kidney impairment, and says nutrition scientists and professional bodies criticise it as extreme.[1]",
+    "Grokipedia adds a documented scurvy case, LDL levels exceeding 500 mg/dL in some cases, kidney-stone concerns, and transient early fatigue and cramps attributed to electrolyte loss. It also describes a pilot microbiome study finding normal diversity and notes advocates who argue the LDL particles are benign, a view it says mainstream guidance disputes.[2] A 2025 Hacker News thread discusses a case report titled 'Yellowish Nodules on a Man Consuming a Carnivore Diet'.[10] Wikipedia's low-carbohydrate article also lists constipation, halitosis and reduced endurance for intense exercise among reported effects of carbohydrate restriction.[3]",
+    "It also records an environmental debate, with critics citing livestock emissions and supporters citing regenerative grazing.[1][2]"
+   ],
+   "subs": []
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No controlled trials of a long-term zero-carb carnivore diet have been published. Evidence consists of a 2021 survey of 2,029 adherents, of whom 95 percent reported overall improvement, a self-selected sample prone to bias, along with case reports and small series, such as a 2024 series of 10 patients with inflammatory bowel disease reporting clinical remission.[2]"
+   ],
+   "subs": []
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1797",
+   "event": "John Rollo treats diabetic patients with mostly animal foods.[2]"
+  },
+  {
+   "year": "1856",
+   "event": "Bernard Moncriff's book promotes an exclusively animal diet.[1]"
+  },
+  {
+   "year": "1928",
+   "event": "Stefansson's supervised meat-only study at Bellevue Hospital.[2]"
+  },
+  {
+   "year": "2018",
+   "event": "Shawn Baker begins promoting the diet on social media.[1]"
+  },
+  {
+   "year": "2021",
+   "event": "Survey of 2,029 carnivore dieters is published.[2]"
+  }
+ ],
+ "lore": {
+  "intro": "Carnivore advocates present the diet as a human-optimal elimination diet, and it is discussed on Hacker News and lifting forums.[2][5]",
+  "claims": [
+   {
+    "claim": "No plant foods are needed and plants can be harmful.",
+    "believers": "Advocates point to plant compounds like lectins and oxalates and to animal-heavy traditional diets such as the Inuit and Maasai.[2]",
+    "experts": "Dietetic bodies cite nutrient and fibre gaps; the claim about plant harms is described as largely anecdotal.[1][2]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Zero-carb carnivore reverses type 2 diabetes and aids weight loss.",
+    "believers": "Supporters cite stabilised blood sugar and case reports of remission.[2]",
+    "experts": "Short-term low-carb studies show weight loss, with the advantage fading in reviews at two years; the evidence for carnivore eating itself is limited to surveys and case reports.[2][3]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Ketosis from an all-meat diet sharpens thinking.",
+    "believers": "Commenters in the 2018 Hacker News discussion said the brain performs differently in ketosis and that a cognitive benefit may outweigh risks.[5]",
+    "experts": "Skeptics in the same thread noted links between red meat and health risks and bowel problems without vegetables; no controlled study of cognition on this diet was found.[5]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "High LDL on carnivore is harmless.",
+    "believers": "Some advocates argue the LDL particles are benign.[2]",
+    "experts": "Mainstream guidance disagrees and treats raised LDL as a cardiovascular risk factor.[1][2]",
+    "evidence": "harms"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Carnivore diet",
+   "url": "https://en.wikipedia.org/wiki/Carnivore_diet",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Carnivore diet",
+   "url": "https://grokipedia.com/page/Carnivore_diet",
+   "source": "Grokipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Low-carbohydrate diet",
+   "url": "https://en.wikipedia.org/wiki/Low-carbohydrate_diet",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 5,
+   "title": "Tech workers seeking an edge on peers turn to all-meat 'carnivore diet'",
+   "url": "https://news.ycombinator.com/item?id=18437218",
+   "source": "Hacker News",
+   "year": 2018,
+   "type": "news"
+  },
+  {
+   "id": 6,
+   "title": "Ask HN: Ethics of a carnivore diet?",
+   "url": "https://news.ycombinator.com/item?id=31047452",
+   "source": "Hacker News",
+   "year": 2022,
+   "type": "forum"
+  },
+  {
+   "id": 7,
+   "title": "90 Days on a Carnivore Diet: Results and Insights",
+   "url": "https://news.ycombinator.com/item?id=20077914",
+   "source": "Hacker News",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 8,
+   "title": "The Carnivore Diet for Mental Health?",
+   "url": "https://news.ycombinator.com/item?id=19778250",
+   "source": "Hacker News",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 10,
+   "title": "Yellowish Nodules on a Man Consuming a Carnivore Diet",
+   "url": "https://news.ycombinator.com/item?id=42863976",
+   "source": "Hacker News",
+   "year": 2025,
+   "type": "forum"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Carnivore_diet",
+   "title": "Carnivore diet"
+  },
+  {
+   "url": "https://grokipedia.com/page/Carnivore_diet",
+   "title": "Carnivore diet (Grokipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Low-carbohydrate_diet",
+   "title": "Low-carbohydrate diet"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=18437218",
+   "title": "Tech workers seeking an edge... (Hacker News)"
+  }
+ ]
 }

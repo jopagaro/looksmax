@@ -1,9 +1,19 @@
 {
  "name": "Shave to thicken myth",
  "lead": [
-  "The belief that shaving makes facial or body hair grow back thicker, darker or faster is a long-circulating grooming idea that is also discussed in beard-growth circles, where some men shave to try to even out patchy growth.",
-  "Wikipedia's article on shaving states that shaving does not cause terminal hair to grow back thicker, coarser or darker, and offers explanations for why the impression arises.[1] The idea is classed here as a looksmaxxing belief with no published trial supporting it."
+  "The belief that shaving makes hair grow back thicker, darker or faster is a long-circulating grooming idea. It shows up in beard-growth circles, where some men shave patchy cheeks or a thin chin area in the hope that the regrowth will come in denser and fill the beard out, and in body-hair grooming generally.",
+  "Wikipedia's article on shaving states that shaving does not cause terminal hair to grow back thicker, coarser or darker, and lists reasons the impression arises.[1] The idea therefore sits in the wiki as a looksmaxxing belief with no published controlled trial behind it, while the grooming implications are practical: how a shaved area looks as it regrows, and how beard density develops over time.[1][2]"
  ],
+ "angle": {
+  "goal": "Facial hair density",
+  "chain": [
+   "Shaving patchy areas",
+   "Regrowth appears blunt and stiff at first",
+   "Some users read this as a thicker beard"
+  ],
+  "effect": "claimed",
+  "text": "Beard-growers who shave patchy areas hope for denser regrowth. Reports on why shaved hair seems thicker point to blunt-tipped regrowth and to normal maturation of facial hair over the teens and twenties."
+ },
  "infobox": [
   [
    "Type",
@@ -14,8 +24,12 @@
    "Shaving increases hair thickness or growth rate"
   ],
   [
-   "Evidence status",
-   "Not supported by published sources reviewed"
+   "Wikipedia's position",
+   "Shaving does not make terminal hair thicker, coarser or darker[1]"
+  ],
+  [
+   "Growth driver",
+   "Androgens such as DHT; rate partly genetic[2]"
   ]
  ],
  "sections": [
@@ -35,7 +49,13 @@
   {
    "h": "Research and expert views",
    "paras": [
-    "The Wikipedia section on this topic relies on a Mayo Clinic page and other general sources rather than a controlled trial of regrowth.[1]"
+    "The Wikipedia section on this topic cites a Mayo Clinic page, a Snopes entry and an NIH MedlinePlus page on age-related hair changes rather than a controlled trial of regrowth.[1]"
+   ]
+  },
+  {
+   "h": "In looksmaxxing culture",
+   "paras": [
+    "A T Nation thread on hairless men shows how beard development is discussed: one poster says he was naturally somewhat hairless yet still got a decent beard, that his full beard did not arrive until his thirties and was still thickening at nearly 36, while a friend had a full thick beard at 14.[3] Another thread poster suggests that a chinstrap beard that is too narrow can be shaved off or thickened up.[4]"
    ]
   },
   {
@@ -47,42 +67,64 @@
  ],
  "timeline": [],
  "lore": {
-  "intro": "In beard-growing discussions, shaving to thicken is raised as a way to deal with patchiness, usually alongside other patience and routine advice.[1]",
+  "intro": "Beard-growth discussions commonly treat facial hair thickness as developing with age and genetics, and shaving to thicken is one tactic raised for patchy beards.[3]",
   "claims": [
    {
-    "claim": "Shaving a patchy area makes the hair grow back thicker.",
-    "believers": "Proponents say regrowth looks and feels denser after a shave and that the effect is visible on cheeks.",
-    "experts": "Wikipedia states shaving does not cause terminal hair to grow back thicker, coarser or darker, and attributes the impression to blunt tips, hair length and age-related change.[1]",
+    "claim": "Shaving makes hair grow back thicker and darker",
+    "believers": "Proponents say cutting stimulates follicles and that regrowth looks denser.",
+    "experts": "Wikipedia states shaving does not cause terminal hair to regrow thicker, coarser or darker, and attributes the impression to blunt tips, stiffer short hairs, sun-lightened older hair and maturation.[1]",
     "evidence": "not-supported"
+   },
+   {
+    "claim": "Beard density keeps developing into the late twenties and thirties",
+    "believers": "A T Nation poster reports his beard was still thickening at nearly 36.[3]",
+    "experts": "Wikipedia links beard growth to DHT from puberty onward and says its rate is partly genetic.[2]",
+    "evidence": "mixed"
    }
   ]
  },
  "refs": [
   {
    "id": 1,
-   "title": "Shaving - Wikipedia",
+   "title": "Shaving",
    "url": "https://en.wikipedia.org/wiki/Shaving",
    "source": "Wikipedia",
-   "year": 2025,
+   "year": null,
    "type": "encyclopedia"
   },
   {
    "id": 2,
-   "title": "Beard - Wikipedia",
+   "title": "Beard",
    "url": "https://en.wikipedia.org/wiki/Beard",
    "source": "Wikipedia",
-   "year": 2025,
+   "year": null,
    "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Hairless Men",
+   "url": "https://t-nation.com/t/hairless-men/123249",
+   "source": "T Nation forum",
+   "year": 2009,
+   "type": "forum"
+  },
+  {
+   "id": 4,
+   "title": "Dealing with Your Temper",
+   "url": "https://t-nation.com/t/dealing-with-your-temper/125783",
+   "source": "T Nation forum",
+   "year": 2009,
+   "type": "forum"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Shaving",
-   "title": "Shaving - Wikipedia"
+   "title": "Shaving"
   },
   {
    "url": "https://en.wikipedia.org/wiki/Beard",
-   "title": "Beard - Wikipedia"
+   "title": "Beard"
   }
  ],
  "card": {

@@ -1,90 +1,227 @@
 {
-  "name": "Bulk and cut / body recomposition",
-  "lead": [
-    "Bulking and cutting is a cyclical approach to physique change: a bulk is a period of eating in a calorie surplus to gain muscle, and a cut is a period in a deficit to lose fat while keeping as much muscle as possible.[1] Body recomposition is the alternative of trying to lose fat and gain muscle at the same time.",
-    "The approach comes from bodybuilding, where most competitors build muscle through an off-season and begin cutting about 12-14 weeks before a contest.[1] In looksmaxxing communities it is debated: some advocate bulking to add size, others advocate recomposition to avoid fat gain, and some members discuss drug adjuncts. The sources reviewed contain no controlled trials of the strategies themselves."
+ "name": "Bulk and cut / body recomposition",
+ "card": {
+  "summary": "Cycling calorie surplus and deficit phases to add muscle and then lean out; borrowed from bodybuilding, little direct trial evidence in the sources.",
+  "aka": "Bulk/cut cycling, recomp",
+  "evidence": "limited",
+  "risk": "low",
+  "note": "Bulking adds some fat; muscle retention during cuts is described as uncertain.",
+  "price": null
+ },
+ "quick": {
+  "overview": "Bulking means eating in a surplus to gain muscle, cutting means eating in a deficit to lose fat, and recomposition tries to do both at once. The cycle comes from bodybuilding.\n\nOn forums people debate cycle lengths and whether to recomp instead.",
+  "mechanism": "Calorie surplus supplies energy for muscle growth with resistance training, and a deficit draws down fat; larger surpluses add more fat and larger deficits risk muscle loss.",
+  "risks": "Wikipedia reports that some fat gain is expected in bulks and that a large deficit raises muscle loss risk. Forum discussions of drug adjuncts are untested in the sources reviewed."
+ },
+ "lead": [
+  "Bulk and cut cycling and body recomposition are ways of organizing eating and training to build a more muscular, leaner physique. A bulk is a period of eating in a calorie surplus to support muscle growth, a cut is a period of eating in a deficit to lose fat and reveal the muscle underneath, and recomposition (recomp) aims to gain muscle and lose fat at the same time.[1][2]",
+  "People use these approaches to change shape rather than simply weight: more shoulder, chest and arm size, a more defined waist and a lower body-fat look. The bulk-and-cut cycle comes from bodybuilding, where Wikipedia says protein and food supplements for bulking up and cutting down became popular in the 1950s and 1960s alongside bodybuilding magazines.[1]",
+  "A 2026 narrative review in the Journal of the International Society of Sports Nutrition reports that controlled trials show recomposition can occur when progressive resistance training, adequate protein and an appropriate energy prescription are combined, with effects largest in untrained people and those with more body fat.[2] Looksmaxxing forums discuss which approach suits skinny-fat, lean and overweight starting points.[3][4][5]"
+ ],
+ "angle": {
+  "goal": "Physique",
+  "chain": [
+   "Eat in surplus while lifting",
+   "Add muscle mass",
+   "Cut to lower body fat",
+   "More muscular, leaner-looking body"
   ],
-  "infobox": [
-    ["Type", "Diet and training strategy"],
-    ["Bulk", "Calorie surplus to gain muscle"],
-    ["Cut", "Calorie deficit to lose fat"],
-    ["Origin", "Bodybuilding off-season and contest prep"],
-    ["Alternative", "Body recomposition"]
+  "effect": "direct",
+  "text": "People alternate surplus and deficit phases, or hold calories near maintenance for recomposition, to end up with more visible muscle and less body fat. The change shows in shoulder-to-waist shape, definition and overall leanness."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Nutrition and training approach"
   ],
-  "sections": [
-    {
-      "h": "Description",
-      "paras": [
-        "Wikipedia notes that a larger surplus or longer bulk adds more fat, and that a bigger cutting deficit speeds weight loss but raises the risk of losing muscle. It says some fat gain during bulking is expected and that whether enough lean mass can be kept during cutting to make the process worthwhile is unclear.[1]",
-        "Wikipedia distinguishes clean bulking, which aims to add muscle with little fat, takes longer and requires hitting calorie targets, from dirty bulking, an unmonitored large surplus that gives faster gains but more fat and usually needs a harsher cut.[1]"
-      ]
-    },
-    {
-      "h": "History",
-      "paras": [
-        "Wikipedia states that in the 1950s and 1960s nutrition for bulking up and cutting down, protein and food supplements became popular alongside bodybuilding magazines; the article does not date bulking and cutting precisely.[1]"
-      ]
-    },
-    {
-      "h": "In looksmaxxing culture",
-      "paras": [
-        "On looksmax.org, users ask about combining weight-loss medications with bulking, and about calorie-and-macro planning for recomposition after weight loss by fasting and cardio. In one thread a poster planned alternating three-month bulks and one-month cuts to avoid getting \"fluffy\", and replies disagreed about whether an appetite-suppressing drug is compatible with bulking.[2] In another a user asked for tools to plan a slow recomposition to a lower body fat percentage without drugs.[3]"
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found in the sources reviewed that evaluate bulk-and-cut cycling or recomposition. The medical papers surfaced in the research set concerned medication refill adherence and were unrelated."
-      ]
-    }
+  [
+   "Phases",
+   "Bulk (surplus), cut (deficit), recomp (near maintenance)"
   ],
-  "timeline": [
-    {"year": "1946", "event": "IFBB founded.[1]"},
-    {"year": "1950s-1960s", "event": "Bodybuilding magazines popularise nutrition for bulking and cutting.[1]"},
-    {"year": "1965", "event": "Mr. Olympia begins.[1]"}
+  [
+   "Origin",
+   "Bodybuilding"
   ],
-  "lore": {
-    "intro": "Forum posters ask how to lean out, whether to bulk or recomp, and whether drug adjuncts help.[2][3]",
-    "claims": [
-      {
-        "claim": "Cycling bulks and cuts avoids getting too fat.",
-        "believers": "One poster planned three-month bulks with one-month cuts to avoid getting \"fluffy\" while lifting for appearance.[2]",
-        "experts": "Wikipedia reports that bulking adds some fat and that it is unclear whether enough lean mass can be kept during cutting to make the process worthwhile.[1]",
-        "evidence": "untested"
-      },
-      {
-        "claim": "An appetite-suppressing weight-loss drug can be combined with bulking for recomposition.",
-        "believers": "A poster said they had seen others claim the drug could be used while bulking; replies disagreed, one saying bulking on it is unlikely because it suppresses appetite.[2]",
-        "experts": "No published trials of this combination for bulking were found in the sources reviewed.",
-        "evidence": "untested"
-      },
-      {
-        "claim": "A slow recomposition with calorie and protein planning can reduce body fat while keeping muscle.",
-        "believers": "A poster asked for week-by-week calorie and macro plans to reach 10% body fat naturally.[3]",
-        "experts": "The sources reviewed contain no recomposition trials.",
-        "evidence": "untested"
-      }
-    ]
+  [
+   "Goal",
+   "More muscle with lower body fat"
+  ],
+  [
+   "Related terms",
+   "Clean bulk, dirty bulk, skinny fat"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Wikipedia notes that a larger surplus or longer bulk adds more fat, and that a bigger cutting deficit speeds weight loss but raises the risk of losing muscle. It says some fat gain during bulking is expected and that how much lean mass can be kept during cutting is uncertain.[1]",
+    "Wikipedia distinguishes clean bulking, which aims to add muscle with little fat, takes longer and requires hitting calorie targets, from dirty bulking, an unmonitored large surplus that gives faster gains but more fat and usually needs a harsher cut.[1]",
+    "Recomposition is defined in the research literature as a concurrent increase in fat-free or skeletal muscle mass and decrease in fat mass within the same period.[2]"
+   ]
   },
-  "refs": [
-    {"id": 1, "title": "Bodybuilding", "url": "https://en.wikipedia.org/wiki/Bodybuilding", "source": "Wikipedia", "year": 2026, "type": "encyclopedia"},
-    {"id": 2, "title": "Can body recomp be achived easily by using L cartanine and Retatrutide even when bulking", "url": "https://looksmax.org/threads/can-body-recomp-be-achived-easily-by-using-l-cartanine-and-retatrutide-even-when-bulking.1522709/", "source": "looksmax.org", "year": 2025, "type": "forum"},
-    {"id": 3, "title": "How to recomp down with minimal muscle loss and exactly how much it will take", "url": "https://looksmax.org/threads/how-to-recomp-down-with-minimal-muscle-loss-and-exactly-how-much-it-will-take-diet-training-natty-intermediates-help-common-case.398344/", "source": "looksmax.org", "year": 2020, "type": "forum"}
-  ],
-  "webSources": [
-    {"url": "https://en.wikipedia.org/wiki/Bodybuilding", "title": "Bodybuilding (Wikipedia)"}
-  ],
-  "card": {
-    "summary": "Cycling calorie surplus and deficit phases to add muscle and then lean out; borrowed from bodybuilding, little direct trial evidence in the sources.",
-    "aka": "Bulk/cut cycling, recomp",
-    "evidence": "limited",
-    "risk": "low",
-    "note": "Bulking adds some fat; muscle retention during cuts is described as uncertain.",
-    "price": null
+  {
+   "h": "History",
+   "paras": [
+    "Wikipedia places the popularity of bulking and cutting diets and supplements in the 1950s and 1960s, alongside bodybuilding magazines; it does not give a precise date for the cycle's origin.[1]"
+   ]
   },
-  "quick": {
-    "overview": "Bulking means eating in a surplus to gain muscle, cutting means eating in a deficit to lose fat, and recomposition tries to do both at once. The cycle comes from bodybuilding.\n\nOn forums people debate cycle lengths and whether to recomp instead.",
-    "mechanism": "Calorie surplus supplies energy for muscle growth with resistance training, and a deficit draws down fat; larger surpluses add more fat and larger deficits risk muscle loss.",
-    "risks": "Wikipedia reports that some fat gain is expected in bulks and that a large deficit raises muscle loss risk. Forum discussions of drug adjuncts are untested in the sources reviewed."
+  {
+   "h": "In looksmaxxing culture",
+   "paras": [
+    "On looksmax.org, threads cover recomposition for skinny-fat people, with one opening that recomposition is about maximizing muscle and minimizing body fat.[3] Another thread argues that skinny-fat and overweight people should do something other than recomp.[4] A further thread discusses how to recomp down with minimal muscle loss in natural lifters.[5] In one thread a poster planned alternating three-month bulks and one-month cuts to avoid getting \"fluffy\", and replies disagreed about combining an appetite-suppressing drug with bulking.[6]",
+    "On T Nation, members ask how to set calorie targets for recomp, what to expect after a layoff, and whether recomp remains possible after two years of training.[7][8][9]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A 2026 review of randomized trials and meta-analyses reports that resistance training with higher protein, typically about 1.6 to 2.4 g/kg per day, is the most consistent strategy for recomposition, with larger effects in untrained and higher-adiposity people and smaller effects in trained or lean athletes.[2]",
+    "A 2026 randomized trial of 30 resistance-trained participants compared isocaloric and moderate-deficit high-protein diets with a control over 10 weeks of training; the deficit group reduced fat mass by 2.94 kg.[10]",
+    "A 2022 analysis of 130 untrained older women across six studies explored protein intake and recomposition after 24 weeks of resistance training and reported that moderate and higher protein intakes promoted superior recomposition.[11] A 2024 Frontiers in Nutrition editorial surveys new work on the topic.[12]"
+   ]
   }
+ ],
+ "timeline": [
+  {
+   "year": "1950s-1960s",
+   "event": "Bulking and cutting diets and protein supplements gain popularity with bodybuilding magazines.[1]"
+  },
+  {
+   "year": "2022",
+   "event": "Study of protein intake and recomposition in older women doing resistance training published.[11]"
+  },
+  {
+   "year": "2026",
+   "event": "Narrative review of body recomposition mechanisms and algorithms published.[2]"
+  }
+ ],
+ "lore": {
+  "intro": "Recomp versus bulk-and-cut is a recurring debate on looksmax.org and T Nation, especially for skinny-fat beginners and long-time lifters.[3][4][9]",
+  "claims": [
+   {
+    "claim": "Skinny-fat people should recomp rather than bulk",
+    "believers": "Posters describe recomposition as maximizing muscle while minimizing fat, particularly for skinny-fat starting points.[3]",
+    "experts": "A 2026 review reports recomposition effects are largest in untrained people and those with higher adiposity.[2]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Skinny-fat people should not recomp and should do something else",
+    "believers": "One looksmax.org thread aimed at skinny-fat and fat people argues for an alternative to recomposition.[4]",
+    "experts": "Trials of resistance training with protein report recomposition in untrained and higher-adiposity people.[2]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Trained lifters can still recomp at maintenance calories",
+    "believers": "A T Nation poster asks whether it is possible after two years of training, having been told to eat at maintenance.[9]",
+    "experts": "The 2026 review says effects are smaller in trained or lean athletes.[2] A trial in resistance-trained people found fat loss on a moderate deficit with high protein.[10]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Alternating bulks and cuts avoids getting fluffy",
+    "believers": "A looksmax.org poster planned three-month bulks and one-month cuts.[6]",
+    "experts": "Wikipedia says bigger surpluses add more fat and bigger deficits raise muscle-loss risk.[1]",
+    "evidence": "untested"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Bodybuilding",
+   "url": "https://en.wikipedia.org/wiki/Bodybuilding",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Body recomposition in adults: mechanisms, modulators, and practical algorithms for simultaneous skeletal muscle mass gain and fat mass loss",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43007655/",
+   "source": "Journal of the International Society of Sports Nutrition",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Skinny Fat body Recomposition",
+   "url": "https://looksmax.org/threads/skinny-fat-body-recomposition.1835703/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 4,
+   "title": "Do not body recomp(and what do do instead)",
+   "url": "https://looksmax.org/threads/do-not-body-recomp-and-what-do-do-instead.1157384/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 5,
+   "title": "How to recomp down with minimal muscle loss",
+   "url": "https://looksmax.org/threads/how-to-recomp-down-with-minimal-muscle-loss-and-exactly-how-much-it-will-take-diet-training-natty-intermediates-help-common-case.398344/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 6,
+   "title": "Can body recomp be achived easily by using L cartanine and Retatrutide even when bulking",
+   "url": "https://looksmax.org/threads/can-body-recomp-be-achived-easily-by-using-l-cartanine-and-retatrutide-even-when-bulking.1522709/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 7,
+   "title": "Calorie Target - Recomp",
+   "url": "https://t-nation.com/t/calorie-target-recomp/277273",
+   "source": "T Nation forum",
+   "year": 2022,
+   "type": "forum"
+  },
+  {
+   "id": 8,
+   "title": "Recomp Expectations?",
+   "url": "https://t-nation.com/t/recomp-expectations/277116",
+   "source": "T Nation forum",
+   "year": 2022,
+   "type": "forum"
+  },
+  {
+   "id": 9,
+   "title": "Is recomp possible given 2 years of strength training?",
+   "url": "https://t-nation.com/t/is-recomp-possible-given-2-years-of-strength-training/294179",
+   "source": "T Nation forum",
+   "year": 2026,
+   "type": "forum"
+  },
+  {
+   "id": 10,
+   "title": "Comparison of two nutritional protocols in body re-composition of resistance-trained participants",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41940947/",
+   "source": "European Journal of Applied Physiology",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Moderate and Higher Protein Intakes Promote Superior Body Recomposition in Older Women Performing Resistance Training",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35019903/",
+   "source": "Medicine and Science in Sports and Exercise",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 12,
+   "title": "Editorial: New insights and advances in body recomposition",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39290563/",
+   "source": "Frontiers in Nutrition",
+   "year": 2024,
+   "type": "review"
+  }
+ ],
+ "webSources": []
 }

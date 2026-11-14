@@ -1,19 +1,80 @@
 {
-"name":"Eutropoflavin (7,8-DHF)",
-"lead":["7,8-Dihydroxyflavone (7,8-DHF), also called tropoflavin, is a naturally occurring flavone found in plants such as Godmania aesculifolia, Tridax procumbens and Primula vulgaris. It was reported in a 2010 PNAS paper as a small-molecule agonist of TrkB, the main receptor for brain-derived neurotrophic factor (BDNF) [1].","Sources differ on naming. Wikipedia uses the name eutropoflavin for the analogue 4'-dimethylamino-7,8-dihydroxyflavone [1], while Grokipedia applies it to that analogue as a synthetic compound reported from Emory University work [2]. Supplement and forum use often applies the name to 7,8-DHF itself. Research is limited to cells and animals; no human clinical study was found."],
-"infobox":[["Compound","7,8-Dihydroxyflavone (tropoflavin)"],["Class","Flavone; reported TrkB agonist"],["Formula","C15H10O4 [1]"],["Related","Eutropoflavin (4'-dimethylamino analogue); prodrug R13 [1]"],["Discovery report","2010, Emory University researchers [1]"]],
-"sections":[
-{"h":"Pharmacology","paras":["7,8-DHF was described as a selective TrkB agonist with a dissociation constant of roughly 320 nM, and also as having antioxidant activity said to be independent of TrkB [1]. A 2017 line of work suggested it and other reported small-molecule TrkB agonists might not act as direct TrkB agonists [1]. In mice it is orally bioavailable (about 5%) with an elimination half-life under 30 minutes and crosses the blood-brain barrier [1]. The prodrug R13 has improved pharmacokinetics and is under development for Alzheimer's disease [1]."]},
-{"h":"Preclinical research","paras":["Reported animal-model results span depression, Alzheimer's disease, Parkinson's, Huntington's, ALS, traumatic brain injury, stroke, fragile X and Rett syndrome, plus improved memory in healthy rodents [1]. In mice it reduced dark-phase sleep and hypothalamic orexin A [1]. Grokipedia reports that the 4'-dimethylamino analogue promoted hippocampal neurogenesis and reduced immobility in forced-swim tests in mice [2]. In vitro it is a weak aromatase inhibitor, an effect not confirmed in vivo [1]."]},
-{"h":"Clinical studies","paras":["No studies found."]}
-],
-"timeline":[{"year":"2010","event":"7,8-DHF reported as a small-molecule TrkB agonist [1]"}],
-"lore":null,
-"refs":[
-{"id":1,"title":"7,8-Dihydroxyflavone","url":"https://en.wikipedia.org/wiki/7,8-Dihydroxyflavone","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":2,"title":"Eutropoflavin","url":"https://grokipedia.com/page/Eutropoflavin","source":"Grokipedia","year":2025,"type":"encyclopedia"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/7,8-Dihydroxyflavone","title":"7,8-Dihydroxyflavone - Wikipedia"}],
-"card":{"summary":"A plant flavone reported to activate the BDNF receptor TrkB in animals; no human studies exist.","aka":"7,8-DHF, tropoflavin","evidence":"unproven","status":"research","risk":null,"price":null,"note":"Animal-only evidence; whether it directly activates TrkB has been questioned.","structure":"7,8-Dihydroxyflavone"},
-"quick":{"overview":"7,8-DHF is a flavone reported in 2010 to mimic BDNF signalling at the TrkB receptor. It is discussed for brain and mood effects and appears in recovery-oriented lists.\n\nAll published work found is in cells and animals, with a low oral bioavailability in mice. No human trial was found.","mechanism":"It is described as binding TrkB and triggering signalling such as AKT, though a 2017 line of work questioned direct agonism.","risks":"No human safety data were found. Some in vitro effects, such as weak aromatase inhibition, have not been confirmed in living animals. It is not an approved drug."}
+  "name": "Eutropoflavin (7,8-DHF)",
+  "lead": [
+    "7,8-Dihydroxyflavone (7,8-DHF), also called tropoflavin, is a naturally occurring flavone found in plants such as Godmania aesculifolia, Tridax procumbens and Primula vulgaris. It was reported in a 2010 PNAS paper as a small-molecule agonist of TrkB, the main receptor for brain-derived neurotrophic factor (BDNF).[1]",
+    "People who take it in supplement and recovery-oriented circles do so for BDNF-related effects: mood, focus, training recovery and body composition. The appearance-relevant research is in mice, where a 7,8-DHF treatment improved muscle mitochondrial function and reduced weight gain on a high-fat diet, which is the basis for interest in leaner body composition.[4][5] Muscle-derived BDNF has also been studied as a regulator of muscle mitochondrial quality.[4]",
+    "Sources differ on naming. Wikipedia uses the name eutropoflavin for the analogue 4'-dimethylamino-7,8-dihydroxyflavone,[1] while Grokipedia applies it to that analogue as a synthetic compound reported from Emory University work.[2] Supplement and forum use often applies the name to 7,8-DHF itself. Published research is in cells and animals."
+  ],
+  "angle": {
+    "goal": "Body composition",
+    "chain": ["7,8-DHF reported to activate BDNF/TrkB signalling", "Muscle mitochondrial function and energy expenditure improved in obese mice", "Less weight gain and better metabolic health in animals"],
+    "effect": "claimed",
+    "text": "In mouse work, treatment with 7,8-DHF increased muscle mitochondrial content and reduced weight gain on a high-fat diet, so supplement users hope for leaner body composition and better recovery. No human study has measured these outcomes."
+  },
+  "infobox": [
+    ["Compound", "7,8-Dihydroxyflavone (tropoflavin)"],
+    ["Class", "Flavone; reported TrkB agonist"],
+    ["Formula", "C15H10O4 [1]"],
+    ["Related", "Eutropoflavin (4'-dimethylamino analogue); prodrug R13 [1]"],
+    ["Discovery report", "2010, Emory University researchers [1]"]
+  ],
+  "sections": [
+    {
+      "h": "Pharmacology",
+      "paras": [
+        "7,8-DHF was described as a selective TrkB agonist with a dissociation constant of roughly 320 nM, and also as having antioxidant activity said to be independent of TrkB.[1] A 2017 line of work suggested it and other reported small-molecule TrkB agonists might not act as direct TrkB agonists.[1] In mice it is orally bioavailable (about 5%) with an elimination half-life under 30 minutes and crosses the blood-brain barrier.[1] The prodrug R13 has improved pharmacokinetics and is under development for Alzheimer's disease.[1]"
+      ]
+    },
+    {
+      "h": "Preclinical research",
+      "paras": [
+        "Reported animal-model results span depression, Alzheimer's disease, Parkinson's, Huntington's, ALS, traumatic brain injury, stroke, fragile X and Rett syndrome, plus improved memory in healthy rodents.[1][3] In mice it reduced dark-phase sleep and hypothalamic orexin A.[1] Grokipedia reports that the 4'-dimethylamino analogue promoted hippocampal neurogenesis and reduced immobility in forced-swim tests in mice.[2] In vitro it is a weak aromatase inhibitor, an effect not confirmed in vivo.[1]",
+        "A 2022 study reported that a TrkB agonist prodrug prevented bone loss in mice by acting on asparagine endopeptidase and osteoprotegerin.[6]"
+      ]
+    },
+    {
+      "h": "Muscle and body weight research",
+      "paras": [
+        "A University of Hong Kong study in female mice found that obesity reduced BDNF in skeletal muscle and that mice lacking muscle BDNF gained more weight, burned less energy and developed worse insulin resistance on a high-fat diet, with damaged mitochondria accumulating in muscle. Treatment with 7,8-DHF eased mitochondrial dysfunction in obese mice, and the researchers suggested BDNF-signalling enhancers could be candidates for obesity treatment; the work was in mice.[4][5]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found of 7,8-DHF in humans. Research is limited to cells and animals, with reviews summarising its potential for BDNF-implicated disorders.[3]"
+      ]
+    }
+  ],
+  "timeline": [
+    { "year": "2010", "event": "7,8-DHF reported as a small-molecule TrkB agonist.[1]" },
+    { "year": "2021", "event": "Hong Kong study reports 7,8-DHF eased muscle mitochondrial dysfunction in obese mice.[5]" }
+  ],
+  "lore": null,
+  "refs": [
+    { "id": 1, "title": "7,8-Dihydroxyflavone", "url": "https://en.wikipedia.org/wiki/7,8-Dihydroxyflavone", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
+    { "id": 2, "title": "Eutropoflavin", "url": "https://grokipedia.com/page/Eutropoflavin", "source": "Grokipedia", "year": 2025, "type": "encyclopedia" },
+    { "id": 3, "title": "7,8-dihydroxyflavone, a small molecular TrkB agonist, is useful for treating various BDNF-implicated human disorders", "url": "https://pubmed.ncbi.nlm.nih.gov/26740873/", "source": "Translational Neurodegeneration", "year": 2016, "type": "review" },
+    { "id": 4, "title": "Muscle-generated BDNF (brain derived neurotrophic factor) maintains mitochondrial quality control in female mice", "url": "https://pubmed.ncbi.nlm.nih.gov/34689722/", "source": "Autophagy", "year": 2022, "type": "study" },
+    { "id": 5, "title": "How obesity damages skeletal muscle metabolism (ScienceDaily report on the Autophagy study)", "url": "https://www.sciencedaily.com/releases/2021/11/211129122835.htm", "source": "ScienceDaily", "year": 2021, "type": "news" },
+    { "id": 6, "title": "A TrkB agonist prodrug prevents bone loss via inhibiting asparagine endopeptidase and increasing osteoprotegerin", "url": "https://pubmed.ncbi.nlm.nih.gov/35973996/", "source": "Nature Communications", "year": 2022, "type": "study" }
+  ],
+  "webSources": [
+    { "url": "https://en.wikipedia.org/wiki/7,8-Dihydroxyflavone", "title": "7,8-Dihydroxyflavone - Wikipedia" },
+    { "url": "https://www.sciencedaily.com/releases/2021/11/211129122835.htm", "title": "ScienceDaily: how obesity damages skeletal muscle metabolism" }
+  ],
+  "card": {
+    "summary": "A plant flavone reported to activate the BDNF receptor TrkB in animals; no human studies exist.",
+    "aka": "7,8-DHF, tropoflavin",
+    "evidence": "unproven",
+    "status": "research",
+    "risk": null,
+    "price": null,
+    "note": "Animal-only evidence; whether it directly activates TrkB has been questioned.",
+    "structure": "7,8-Dihydroxyflavone"
+  },
+  "quick": {
+    "overview": "7,8-DHF is a flavone reported in 2010 to mimic BDNF signalling at the TrkB receptor. It is discussed for brain and mood effects and appears in recovery-oriented lists.\n\nAll published work found is in cells and animals, with a low oral bioavailability in mice. No human trial was found.",
+    "mechanism": "It is described as binding TrkB and triggering signalling such as AKT, though a 2017 line of work questioned direct agonism.",
+    "risks": "No human safety data were found. Some in vitro effects, such as weak aromatase inhibition, have not been confirmed in living animals. It is not an approved drug."
+  }
 }

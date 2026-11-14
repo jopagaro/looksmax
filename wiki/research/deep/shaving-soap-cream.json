@@ -1,54 +1,5 @@
 {
   "name": "Shaving soap / cream",
-  "lead": [
-    "Shaving soap and shaving cream are lubricating products applied to the face before razor shaving to soften hair through hydration and reduce friction.[1][2] Forms include hard soap bars or sticks and tubed lather creams that are worked into lather with a brush, brushless creams, aerosol foams and gels.[1]",
-    "Grokipedia states that the products are meant to reduce nicks and irritation.[2] No clinical trial of shaving soaps or creams for skin or appearance outcomes was found."
-  ],
-  "infobox": [
-    ["Type", "Shaving lubricant: soap, lather cream, brushless cream, aerosol foam, gel"],
-    ["Early forms", "Wood alkali and animal fat, Sumer, c. 3000 BC"],
-    ["First brushless cream", "Barbasol, 1919"],
-    ["First pressurised cream", "Rise, 1949"]
-  ],
-  "sections": [
-    {
-      "h": "Types and ingredients",
-      "paras": [
-        "Lather creams usually contain 20 to 30 percent soap (potassium or triethanolamine), up to about 10 percent glycerine, plus emollients, emulsifiers and foaming agents, and a humectant keeps the lather moist.[1] Latherless creams are oil-in-water emulsions without soap, aerosol foams are diluted lather creams with hydrocarbon propellants, and gels were developed in the 1970s.[1] In 1993 Procter and Gamble patented a post-foaming gel that foams on the skin.[1] Preparations for electric shavers contain 50 to 80 percent alcohol to dry the skin and stiffen hair.[1]"
-      ]
-    },
-    {
-      "h": "History",
-      "paras": [
-        "A rudimentary precursor combining wood alkali and animal fat was used in Sumer around 3000 BC.[1] Hard shaving soaps were common in the early 20th century, followed by tubes of oil and soft-soap compounds.[1] Frank Shields developed the first shaving cream, sold as Barbasol, in 1919, and Rise, the first pressurised cream, appeared in 1949; pressurised products reached about two-thirds of the American market in the 1950s.[1] Chlorofluorocarbon propellants were banned in the late 1990s over ozone concerns and replaced with hydrocarbon mixtures.[1]"
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found of shaving soaps or creams as appearance or skin interventions. Related laboratory physics work uses shaving foam as a model colloid and is not about skin effects."
-      ]
-    },
-    {
-      "h": "Safety and risks",
-      "paras": [
-        "Wikipedia notes that alcohol-heavy products dry the skin.[1] Aerosol products contain flammable hydrocarbon propellants, offset in cream formulations by high water content.[1] No studies of allergy or irritation from shaving products specifically were found."
-      ]
-    },
-    {
-      "h": "Use in looksmaxxing",
-      "paras": [
-        "No looksmaxxing forum material specific to shaving soap or cream was found."
-      ]
-    }
-  ],
-  "timeline": [
-    { "year": "c. 3000 BC", "event": "Sumerians use a mixture of wood alkali and animal fat for shaving.[1]" },
-    { "year": "1919", "event": "Frank Shields develops Barbasol, the first brushless shaving cream.[1]" },
-    { "year": "1949", "event": "Rise, the first pressurised shaving cream, is introduced.[1]" },
-    { "year": "1993", "event": "Procter and Gamble patents a post-foaming shaving gel.[1]" }
-  ],
-  "lore": null,
   "card": {
     "summary": "Lubricating soaps, creams, foams and gels for razor shaving; the aim is less friction, but no trials test it.",
     "aka": "shaving foam, shaving gel, shave soap",
@@ -59,16 +10,174 @@
     "status": null,
     "structure": null
   },
+  "lead": [
+    "Shaving soap and shaving cream are lubricating products worked into the beard before a razor pass. They soften and hydrate the hair and let the blade glide, which people use to get a smoother, closer shave with fewer nicks and less razor irritation, and to keep a clean jawline, neckline and cheek line. [1][2]",
+    "They come in several forms: hard soap pucks or sticks and tubed lather creams that are whipped into foam with a brush, brushless creams without soap, aerosol foams and gels. [1] Wikipedia reports that lather creams generally contain 20 to 30 percent soap (potassium or triethanolamine) with up to about 10 percent glycerine, emollients and foaming agents, and that a humectant keeps the lather moist. [1]",
+    "Shaving products have a long history, from a wood-alkali and animal-fat preparation in Sumer around 3000 BC to Barbasol in 1919 and pressurised foams from 1949. [1] Online, the traditional wet-shaving community, for example on Lemmy's c/wetshaving, discusses soaps, tinned creams and history of old brands such as Williams. [3][4][5] No clinical trial of shaving soap or cream for appearance outcomes was found."
+  ],
+  "angle": {
+    "goal": "Clean, smooth shave",
+    "chain": [
+      "Lather hydrates and softens facial hair",
+      "Lubricating layer lets the razor glide",
+      "Closer shave with less irritation and fewer nicks"
+    ],
+    "effect": "direct",
+    "text": "A good lather means the razor meets softened hair on a lubricated surface, so the result is a cleaner, smoother face and sharper beard lines. Many users also say the brush and lather routine makes shaving a more controlled process."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Shaving lubricant: soap, lather cream, brushless cream, aerosol foam, gel"
+    ],
+    [
+      "Typical soap content (lather creams)",
+      "About 20-30% [1]"
+    ],
+    [
+      "Earliest preparation",
+      "Wood alkali and animal fat, Sumer, c. 3000 BC [1]"
+    ],
+    [
+      "First brushless cream",
+      "Barbasol, 1919 [1]"
+    ],
+    [
+      "First pressurised cream",
+      "Rise, 1949 [1]"
+    ],
+    [
+      "Gels",
+      "Developed in the 1970s; post-foaming gel patented by P&G in 1993 [1]"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Types and ingredients",
+      "paras": [
+        "Lather creams and soaps rely on soap, which foams when worked with water. Brushless creams are oil-in-water emulsions with humectants and wetting agents and no soap, so they do not lather. Aerosol foams are diluted lather creams with up to about 10 percent hydrocarbon propellant, and gels use different surfactant systems. [1]",
+        "Wikipedia says shaving cream softens hair by lubrication and by hydrating it, a process that depends on pH. Products for electric razors, where swollen hair is unwanted, contain 50 to 80 percent alcohol to dry the skin and stiffen hairs. [1]"
+      ]
+    },
+    {
+      "h": "History",
+      "paras": [
+        "Until the early twentieth century men mostly used hard soap bars or sticks, followed by tubes of oil and soft soap. Frank Shields, a former MIT professor, developed the first shaving cream in 1919, sold as Barbasol and packed by hand in Indianapolis. [1]",
+        "Rise, introduced in 1949, was the first pressurised shaving cream, and by the 1960s the pressurised format held about two thirds of the American market. CFC propellants were banned in the late 1990s over ozone concerns and replaced by hydrocarbon mixtures such as propane and butane. [1] A Lemmy post in the wet-shaving community looks back at Williams' political shaving-soap advertising from the 1896 US election. [4]"
+      ]
+    },
+    {
+      "h": "Use in appearance and grooming",
+      "paras": [
+        "Users describe lather as the step that determines how comfortable the razor pass is, which affects redness, nicks and how clean the neckline looks afterwards. [3] In wet-shaving circles, people ask for tinned creams and soaps as an alternative to plastic tubes and spray cans. [3] A T Nation forum user in a 2010 thread names a badger brush, shaving soap and a safety razor as their preference over cartridge razors. [6]",
+        "Wikipedia notes that products for electric shaving are alcohol-based, whereas lather products are aimed at blade shaving. [1]"
+      ]
+    },
+    {
+      "h": "Safety and risks",
+      "paras": [
+        "Alcohol-heavy products dry the skin, and aerosol products contain flammable hydrocarbon propellants, offset in cream formulations by high water content. [1] No clinical studies of irritation or allergy from shaving soaps or creams specifically were found."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found of shaving soaps or creams as appearance or skin interventions. Physics papers use shaving foam as a model colloid, which is not research on skin effects."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "c. 3000 BC",
+      "event": "Wood alkali and animal fat used as a shaving preparation in Sumer. [1]"
+    },
+    {
+      "year": "1919",
+      "event": "Frank Shields develops the first shaving cream, sold as Barbasol. [1]"
+    },
+    {
+      "year": "1949",
+      "event": "Rise becomes the first pressurised shaving cream. [1]"
+    },
+    {
+      "year": "1970s",
+      "event": "Shaving gels developed. [1]"
+    },
+    {
+      "year": "1993",
+      "event": "Procter and Gamble patents a post-foaming gel. [1]"
+    }
+  ],
+  "lore": {
+    "intro": "Soap-and-brush shaving is discussed mainly in wet-shaving communities, with occasional mentions on fitness forums, where it is presented as a more satisfying alternative to canned foam.",
+    "claims": [
+      {
+        "claim": "A brush, soap and safety razor beats cartridge razors and canned foam",
+        "believers": "A T Nation poster says they will not go back to Gillette or Schick after switching to a badger brush, shaving soap and a safety razor. [6] Wet-shaving members similarly look for tinned soaps and creams. [3]",
+        "experts": "No published trials compare soap-and-brush shaving with canned foam for irritation or closeness. Wikipedia describes the products' composition and lubrication function without ranking them. [1]",
+        "evidence": "untested"
+      }
+    ]
+  },
+  "refs": [
+    {
+      "id": 1,
+      "title": "Shaving cream",
+      "url": "https://en.wikipedia.org/wiki/Shaving_cream",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Shaving cream",
+      "url": "https://grokipedia.com/page/Shaving_cream",
+      "source": "Grokipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "Looking for shaving cream",
+      "url": "https://lemmy.world/post/53005668",
+      "source": "Lemmy c/wetshaving",
+      "year": null,
+      "type": "forum"
+    },
+    {
+      "id": 4,
+      "title": "History time: Williams' Political Shaving Soap, 1896",
+      "url": "https://sub.wetshaving.social/post/636141",
+      "source": "Lemmy c/wetshaving",
+      "year": null,
+      "type": "forum"
+    },
+    {
+      "id": 5,
+      "title": "Patent time: Rotary spreader for shaving cream",
+      "url": "https://sub.wetshaving.social/post/497542",
+      "source": "Lemmy c/wetshaving",
+      "year": null,
+      "type": "forum"
+    },
+    {
+      "id": 6,
+      "title": "Ever Feel like a Thread Killer? (17)",
+      "url": "https://t-nation.com/t/ever-feel-like-a-thread-killer-17/150274",
+      "source": "T Nation forum",
+      "year": 2010,
+      "type": "forum"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Shaving_cream",
+      "title": "Shaving cream - Wikipedia"
+    }
+  ],
   "quick": {
     "overview": "Shaving soap and cream coat the beard and skin so a razor glides with less friction. They come as bars, tubed creams, aerosol foams and gels, and have existed in some form since ancient Sumer.\n\nReference works describe their purpose as softer hair and less irritation, but no clinical studies were found.",
     "mechanism": "Soap or surfactant, glycerine and emollients hydrate and soften hair and form a lubricating lather or film between blade and skin.",
     "risks": "Alcohol-rich products dry the skin; aerosol cans use flammable propellants. No studies of product-specific irritation were found."
-  },
-  "refs": [
-    { "id": 1, "title": "Shaving cream", "url": "https://en.wikipedia.org/wiki/Shaving_cream", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Shaving cream", "url": "https://grokipedia.com/page/Shaving_cream", "source": "Grokipedia", "year": 2025, "type": "encyclopedia" }
-  ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Shaving_cream", "title": "Shaving cream - Wikipedia" }
-  ]
+  }
 }

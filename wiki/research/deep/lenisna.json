@@ -1,60 +1,147 @@
 {
- "name": "Lenisna",
- "lead": [
-  "Lenisna is the name of a poly-D,L-lactic acid (PDLLA) injectable used in aesthetic medicine. The only source identified is a 2026 expert consensus on safe injection technique and the management of visual impairment caused by PDLLA-HA200, a next-generation injectable combining PDLLA microspheres with non-cross-linked hyaluronic acid as a carrier.[1]",
-  "The consensus addresses a rare but serious complication, visual field impairment and blindness, that can result from inadvertent injection into a blood vessel.[1] Efficacy studies of Lenisna were not found in the sources reviewed; the link between this consensus and the product name Lenisna is not established there beyond the PDLLA-HA200 class."
- ],
- "infobox": [
-  [
-   "Product type",
-   "PDLLA injectable biostimulator"
-  ],
-  [
-   "Related formulation",
-   "PDLLA-HA200 (PDLLA with hyaluronic acid)"
-  ]
- ],
- "sections": [
-  {
-   "h": "Clinical studies",
-   "paras": [
-    "No studies found. A 2026 consensus by an expert panel, not a clinical trial, sets out recommendations for safe injection technique and for managing visual impairment after PDLLA-HA injection.[1]"
-   ]
+  "name": "Lenisna",
+  "card": {
+    "summary": "A PDLLA booster with almost no published efficacy data; the main literature is a safety consensus on rare vision-loss complications.",
+    "aka": null,
+    "evidence": "unproven",
+    "status": "rx",
+    "risk": null,
+    "outcome": null,
+    "price": null,
+    "note": "Rare intravascular injection can cause visual impairment or blindness, per expert consensus.",
+    "structure": null
   },
-  {
-   "h": "Safety",
-   "paras": [
-    "The consensus describes visual field impairment and blindness after inadvertent intravascular injection as rare but devastating complications of PDLLA-HA products.[1]"
-   ]
-  }
- ],
- "timeline": [],
- "lore": null,
- "refs": [
-  {
-   "id": 1,
-   "title": "Consensus Opinion on Safe Injection Technique and Management of PDLLA-HA200-Induced Visual Impairment",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/41359890/",
-   "source": "Journal of Craniofacial Surgery",
-   "year": 2026,
-   "type": "guideline"
-  }
- ],
- "webSources": [],
- "card": {
-  "summary": "A PDLLA booster with almost no published efficacy data; the main literature is a safety consensus on rare vision-loss complications.",
-  "aka": null,
-  "evidence": "unproven",
-  "status": "rx",
-  "risk": null,
-  "outcome": null,
-  "price": null,
-  "note": "Rare intravascular injection can cause visual impairment or blindness, per expert consensus.",
-  "structure": null
- },
- "quick": {
-  "overview": "Lenisna is a poly-D,L-lactic acid injectable used in aesthetic clinics.\n\nThe only source found is an expert consensus on injection safety, not a trial of effectiveness.",
-  "mechanism": "PDLLA-HA products combine PDLLA microspheres, which stimulate collagen, with non-cross-linked hyaluronic acid as a carrier.",
-  "risks": "The consensus describes rare visual impairment and blindness after accidental injection into a blood vessel, and sets out management recommendations."
- }
+  "quick": {
+    "overview": "Lenisna is a poly-D,L-lactic acid injectable used in aesthetic clinics.\n\nThe only source found is an expert consensus on injection safety, not a trial of effectiveness.",
+    "mechanism": "PDLLA-HA products combine PDLLA microspheres, which stimulate collagen, with non-cross-linked hyaluronic acid as a carrier.",
+    "risks": "The consensus describes rare visual impairment and blindness after accidental injection into a blood vessel, and sets out management recommendations."
+  },
+  "lead": [
+    "Lenisna is a name for a poly-D,L-lactic acid (PDLLA) injectable used in aesthetic medicine. The abstract of a 2026 expert consensus lists PDLLA-HA 200 as \"Juvelook Volume/Lenisna\", a hybrid biostimulator combining PDLLA microspheres with non-cross-linked hyaluronic acid as a carrier.[1][2] Products in this class are injected by clinicians to add facial volume and to stimulate the skin to build collagen, aiming for smoother, fuller-looking skin over weeks to months.[2][3]",
+    "PLLA, a related lactic-acid polymer and the active ingredient in Sculptra, works by triggering a mild foreign-body response in which macrophages release signals that prompt fibroblasts to make collagen; PDLLA is made from a mix of L- and D-lactide and is generally amorphous rather than crystalline.[4][5] A 2026 narrative review describes controlled inflammation, a shift toward M2 macrophages and collagen upregulation for PLLA and PDLLA biostimulators.[2]",
+    "The Juvelook family is made by VAIM, a Korean company named in several 2026 clinical and preclinical reports.[2] Clinical reports on the Juvelook products cover nasolabial folds, the tear trough and hip contouring, and a separate safety literature addresses the rare risk of vision loss from accidental injection into a blood vessel.[1][2]"
+  ],
+  "angle": {
+    "goal": "Skin quality / facial volume",
+    "chain": [
+      "Clinician injects PDLLA with hyaluronic acid carrier",
+      "PDLLA microspheres stimulate collagen production while hyaluronic acid adds immediate hydration and volume",
+      "Smoother skin and fuller contours over months"
+    ],
+    "effect": "claimed",
+    "text": "PDLLA-HA biostimulators are injected to soften folds and improve skin quality and volume in areas such as the nasolabial folds, tear trough and cheeks. The collagen response develops over the weeks after treatment."
+  },
+  "infobox": [
+    [
+      "Product type",
+      "PDLLA injectable biostimulator"
+    ],
+    [
+      "Formulation",
+      "PDLLA-HA 200 (PDLLA with non-cross-linked hyaluronic acid)"
+    ],
+    [
+      "Also listed as",
+      "Juvelook Volume (per 2026 consensus abstract)"
+    ],
+    [
+      "Manufacturer of Juvelook line",
+      "VAIM Co., Ltd., Seoul, Korea"
+    ],
+    [
+      "Administered by",
+      "Physicians (injection)"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Description",
+      "paras": [
+        "A 2026 consensus statement by oculoplastic surgeons, dermatologists and aesthetic physicians in the Journal of Craniofacial Surgery names PDLLA-HA 200 as Juvelook Volume/Lenisna and describes it as a next-generation injectable pairing PDLLA microspheres with non-cross-linked hyaluronic acid.[1] Wikipedia's article on polylactic acid explains that PLLA, the active ingredient in Sculptra, adds volume by prompting collagen production via macrophage and fibroblast signalling.[4]"
+      ]
+    },
+    {
+      "h": "Clinical use",
+      "paras": [
+        "A 2026 prospective case series in the Journal of Craniofacial Surgery by Yi and colleagues treated 20 patients with moderate-to-severe nasolabial folds with Juvelook in three monthly intradermal sessions; at three months 85 percent were rated improved and 90 percent reported high satisfaction, with transient swelling and bruising and no nodules or granulomas.[2]",
+        "A 2026 prospective cohort in Aesthetic Plastic Surgery by Young and Lau gave 15 women three PDLLA-HA treatments for the tear trough; global aesthetic improvement scores rose across visits and lower-lid skin elasticity, hydration, quality and radiance improved significantly, with no adverse events.[2] A 2026 case series in the Journal of Cosmetic Dermatology reported hip augmentation in 30 women with a PDLLA-HA hybrid (Juvelook G), with 90 percent showing moderate to significant improvement at six months and transient swelling resolving within a week.[2] These reports concern Juvelook products; the Lenisna name appears only in the consensus abstract as a synonym for Juvelook Volume.[2]"
+      ]
+    },
+    {
+      "h": "Safety",
+      "paras": [
+        "The consensus describes visual field impairment and blindness after inadvertent intravascular injection as rare but serious complications of PDLLA-HA products and sets out injection technique recommendations and a management algorithm for visual impairment.[1] A 2026 systematic review in Aesthetic Plastic Surgery on visual loss from biostimulator injectables reported at least 11 calcium hydroxylapatite cases, two PLLA cases, two PDLLA-CMC cases and one PDLLA-HA case of posterior ischemic optic neuropathy.[2]",
+        "A 2026 study in 112 rabbits examined intra-arterial injection of Juvelook and Juvelook Volume: low-volume injections dispersed without persistent occlusion or necrosis, higher volumes caused transient occlusion that resolved within five minutes, and countercurrent flow occurred only with Juvelook Volume.[2]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "Published clinical reports on the Juvelook line are small prospective series: nasolabial folds (20 patients), tear trough (15 women) and hip augmentation (30 women), as summarised above.[2] The 2026 Journal of Craniofacial Surgery consensus is an expert-panel statement rather than a trial.[1] A 2026 review of periocular rejuvenation states that evidence for collagen biostimulators is insufficient to judge comparative efficacy.[2] No controlled trials of Lenisna by that name were found."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2025",
+      "event": "Expert consensus on PDLLA-HA 200 injection safety published online (print 2026).[1]"
+    },
+    {
+      "year": "2026",
+      "event": "Prospective series on Juvelook for nasolabial folds, tear trough and hip augmentation, and a rabbit-ear vascular study, are reported.[2]"
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Consensus Opinion on Safe Injection Technique and Management of PDLLA-HA200-Induced Visual Impairment",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41359890/",
+      "source": "Journal of Craniofacial Surgery",
+      "year": 2026,
+      "type": "guideline"
+    },
+    {
+      "id": 2,
+      "title": "Europe PMC search: Lenisna / PDLLA-HA (Yi 2026; Young and Lau 2026; Lee 2026; Vachiramon 2026; Young 2026)",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=Lenisna%20OR%20%22PDLLA-HA%22%20OR%20%22poly-D%2CL-lactic%20acid%22&format=json&pageSize=10&resultType=core",
+      "source": "Europe PMC",
+      "year": 2026,
+      "type": "study"
+    },
+    {
+      "id": 3,
+      "title": "Mechanisms of Cytokine Modulation and Inflammatory Cascade in Bio-stimulatory Skin Rejuvenation (Europe PMC search record)",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=Lenisna%20OR%20%22PDLLA-HA%22%20OR%20%22poly-D%2CL-lactic%20acid%22&format=json&pageSize=10&resultType=core",
+      "source": "Cureus",
+      "year": 2026,
+      "type": "review"
+    },
+    {
+      "id": 4,
+      "title": "Poly(lactic acid)",
+      "url": "https://en.wikipedia.org/wiki/Poly(lactic_acid)",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 5,
+      "title": "Polylactic acid (Wikipedia: PLLA versus PDLLA)",
+      "url": "https://en.wikipedia.org/wiki/Poly(lactic_acid)",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=Lenisna%20OR%20%22PDLLA-HA%22%20OR%20%22poly-D%2CL-lactic%20acid%22&format=json&pageSize=10&resultType=core",
+      "title": "Europe PMC search: Lenisna / PDLLA-HA"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Poly(lactic_acid)",
+      "title": "Poly(lactic acid)"
+    }
+  ]
 }

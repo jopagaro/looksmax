@@ -1,8 +1,9 @@
 {
  "name": "Methyldienolone (M-Dien)",
  "lead": [
-  "Methyldienolone (RU-3467) is a synthetic, orally active anabolic-androgenic steroid, a 17-alpha-methylated 19-nortestosterone derivative.[1] It has not been marketed as a medicine. Published literature is sparse.",
-  "Wikipedia lists it as a US Schedule III substance and as prohibited by the World Anti-Doping Agency.[1]"
+  "Methyldienolone (developmental code RU-3467, also called M-Dien) is a synthetic, orally active anabolic-androgenic steroid, a 17-alpha-methylated derivative of 19-nortestosterone related to dienolone.[1] It has not been marketed as a medicine. Bodybuilders who discussed it in the 2000s were interested in it as an oral androgen for adding muscle size and strength, and for a harder, leaner look while cutting.[2][3]",
+  "Published literature is sparse. Wikipedia lists it as a US Schedule III substance and as prohibited by the World Anti-Doping Agency, and the research that exists concerns detection chemistry and environmental breakdown products rather than human use.[1][4][5]",
+  "T Nation members in 2004 described mixed results: one said it seemed hit or miss from person to person, while another reported lackluster gains on a lean bulk but thought it might suit cutting.[2][3] A later member advised against old prohormones including methyldienolone because of potency concerns.[6]"
  ],
  "infobox": [
   [
@@ -22,20 +23,75 @@
    "C19H26O2[1]"
   ],
   [
+   "Marketed as medicine",
+   "No"
+  ],
+  [
    "US status",
    "Schedule III (per Wikipedia)[1]"
+  ],
+  [
+   "Sport",
+   "Prohibited by WADA[1]"
   ]
  ],
  "sections": [
   {
+   "h": "Chemistry",
+   "paras": [
+    "Methyldienolone is 17-alpha-methyl-19-nor-delta-9-testosterone, with a molecular formula of C19H26O2. Its 17-alpha alkyl group is the feature that allows oral activity in steroids of this kind, and Wikipedia also categorizes it among hepatotoxic compounds.[1]"
+   ]
+  },
+  {
+   "h": "Legal and anti-doping status",
+   "paras": [
+    "In the United States it is Schedule III under the Controlled Substances Act, and it appears on the World Anti-Doping Agency list of prohibited substances.[1] A 2026 study identified new metabolites using human liver microsomes and mass spectrometry for doping-control purposes.[5] Federal-law discussions on T Nation in 2003 and 2008 listed it among the newly scheduled anabolic steroids.[7]"
+   ]
+  },
+  {
+   "h": "Use in bodybuilding communities",
+   "paras": [
+    "Methyldienolone was discussed on T Nation around 2004 to 2009 alongside other orals and prohormones. One 2004 poster described it as real steroid with limited feedback, saying results seemed to vary by person [2]. Another poster reported lackluster gains with two brands during a lean bulk and suggested it might be better for cutting [3]. A 2009 thread asked why it was reported to be liver toxic at very small amounts [8]. A 2018 reply advised against it because of its potency and designer-steroid status [6]."
+   ]
+  },
+  {
    "h": "Clinical studies",
    "paras": [
-    "No studies found. Related laboratory work includes an environmental chemistry study of photolysis products of methyldienolone and dienogest, which found products with progestogenic and androgenic activity weaker than the parents,[2] and a 2026 study identifying metabolites with human liver microsomes for doping control.[3]"
+    "No studies found. Related laboratory work includes an environmental chemistry study of photolysis products of methyldienolone and dienogest, which found products with progestogenic and androgenic activity weaker than the parents,[4] and a 2026 study identifying metabolites with human liver microsomes for doping control.[5]"
    ]
   }
  ],
- "timeline": [],
- "lore": null,
+ "timeline": [
+  {
+   "year": "2004",
+   "event": "T Nation threads discuss user results with methyldienolone products [2][3]"
+  },
+  {
+   "year": "2019",
+   "event": "Study of photolysis products of methyldienolone published [4]"
+  },
+  {
+   "year": "2026",
+   "event": "Study identifies in-vitro human metabolites for doping control [5]"
+  }
+ ],
+ "lore": {
+  "intro": "Methyldienolone appears in 2000s T Nation threads on oral steroids and prohormones, mainly as a compound with variable reported results.[2][3][8]",
+  "claims": [
+   {
+    "claim": "M-Dien gives muscle and strength gains as an oral androgen",
+    "believers": "Some posters called it a real steroid and others said it might be good for cutting, though results were described as varying by person.[2][3]",
+    "experts": "No published human studies have examined its effects on muscle; the literature covers chemistry and detection.[4][5]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "It is unusually liver toxic",
+    "believers": "A 2009 poster asked about reports that it was liver toxic even at very small amounts, and a 2018 reply cited its potency as a reason to avoid it.[8][6]",
+    "experts": "Wikipedia categorizes it among hepatotoxins, and 17-alpha-alkylated steroids as a class are associated with liver effects; no human data specific to this compound were found.[1]",
+    "evidence": "untested"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -47,6 +103,22 @@
   },
   {
    "id": 2,
+   "title": "Methyldienelone Any Good?",
+   "url": "https://t-nation.com/t/methyldienelone-any-good/40254",
+   "source": "T Nation",
+   "year": 2004,
+   "type": "forum"
+  },
+  {
+   "id": 3,
+   "title": "Methyl D/Methly-1-t",
+   "url": "https://t-nation.com/t/methyl-d-methly-1-t/38158",
+   "source": "T Nation",
+   "year": 2004,
+   "type": "forum"
+  },
+  {
+   "id": 4,
    "title": "Bioactive Rearrangement Products from Aqueous Photolysis of Pharmaceutical Steroids",
    "url": "https://pubmed.ncbi.nlm.nih.gov/31021644/",
    "source": "Organic Letters",
@@ -54,12 +126,36 @@
    "type": "study"
   },
   {
-   "id": 3,
+   "id": 5,
    "title": "New Metabolites of Methyldienolone by In Vitro Human Liver Microsomes",
    "url": "https://pubmed.ncbi.nlm.nih.gov/41387186/",
    "source": "Drug Testing and Analysis",
    "year": 2026,
    "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Seeking Advice on Old Prohormones",
+   "url": "https://t-nation.com/t/seeking-advice-on-old-prohormones/241395",
+   "source": "T Nation",
+   "year": 2018,
+   "type": "forum"
+  },
+  {
+   "id": 7,
+   "title": "Steroid Newbie Thread (Help Build It Vets!)",
+   "url": "https://t-nation.com/t/steroid-newbie-thread-help-build-it-vets/30018",
+   "source": "T Nation",
+   "year": 2003,
+   "type": "forum"
+  },
+  {
+   "id": 8,
+   "title": "Orals and Alkylation",
+   "url": "https://t-nation.com/t/orals-and-alkylation/130480",
+   "source": "T Nation",
+   "year": 2009,
+   "type": "forum"
   }
  ],
  "webSources": [
@@ -81,5 +177,15 @@
   "overview": "Methyldienolone is an oral 19-nortestosterone derivative that was never marketed as a drug.\n\nThe literature consists of chemistry and doping-control papers.",
   "mechanism": "It is classed as an androgen receptor agonist; no pharmacokinetic detail was found.",
   "risks": "No adverse-effect data were found. It is prohibited in sport and listed as Schedule III in the US per Wikipedia."
+ },
+ "angle": {
+  "goal": "Muscle",
+  "chain": [
+   "Oral 19-nor androgen",
+   "Androgen receptor activation",
+   "Claimed muscle size, strength and leanness"
+  ],
+  "effect": "claimed",
+  "text": "Users discussed methyldienolone as an oral androgen for muscle growth and a leaner, harder look on a cut. No human trials describe these effects."
  }
 }

@@ -1,9 +1,34 @@
 {
  "name": "Acid body wash (AHA/BHA) for pits",
+ "card": {
+  "summary": "AHA/BHA exfoliating wash on the pits to starve odor bacteria; plausible in theory, untested for odor.",
+  "aka": "Glycolic or salicylic acid body wash",
+  "evidence": "unproven",
+  "price": null,
+  "outcome": "unsupported",
+  "note": "Can irritate and raise sunburn likelihood."
+ },
+ "quick": {
+  "overview": "Acid body washes use AHAs or BHA to exfoliate. Some people use them on the armpits hoping to reduce odor.\n\nNo studies were found testing this use.",
+  "mechanism": "Acids loosen dead skin cells. Proponents say this plus a lower surface pH disfavors odor bacteria.",
+  "risks": "Reported effects are mild irritation, redness and flaking, plus increased sunburn likelihood per FDA caution."
+ },
  "lead": [
-  "Acid body washes contain alpha hydroxy acids (AHAs) such as glycolic or lactic acid, or beta hydroxy acid (BHA, salicylic acid), which chemically exfoliate skin. In looksmaxxing discussions they are applied to the armpits on the theory that lowering skin pH and removing dead skin reduces odor-causing bacteria.",
-  "AHAs are used in cosmetics to exfoliate, and the most common effects are mild irritation, redness and flaking.[1] No studies of acid washes for underarm odor were found among the sources reviewed."
+  "Acid body washes contain alpha hydroxy acids (AHAs) such as glycolic, lactic or mandelic acid, or the beta hydroxy acid (BHA) salicylic acid, which chemically exfoliate skin.[1][3] In looksmaxxing and grooming discussions they are used on the armpits with the aim of reducing underarm odor and keeping the skin smooth, on the theory that removing dead skin and lowering skin pH leaves less for odor-causing bacteria to work on.",
+  "Wikipedia's body odor article says underarm smell mainly comes from bacteria such as Corynebacterium and Staphylococcus breaking down apocrine sweat, and that listed treatments include antibacterial soap, deodorants, antiperspirants and aluminum chloride; it does not mention acid exfoliants.[2] Salicylic acid is described as a keratolytic used for acne, calluses, keratosis pilaris and acanthosis nigricans, among other conditions, and glycolic acid is used in many skin-care products.[3][4]",
+  "No study of acid washes for underarm odor was found."
  ],
+ "angle": {
+  "goal": "Body odor and skin",
+  "chain": [
+   "Acid wash applied to the underarm",
+   "Dead skin is exfoliated and skin surface pH lowered",
+   "Fewer conditions favorable to odor bacteria (claimed)",
+   "Fresher-smelling, smoother underarms"
+  ],
+  "effect": "claimed",
+  "text": "People apply an AHA or BHA wash to the armpits as part of a hygiene routine aimed at odor control and smoother skin. The odor-reduction mechanism is the users' theory; exfoliation itself is the documented action of these acids."
+ },
  "infobox": [
   [
    "Type",
@@ -11,30 +36,34 @@
   ],
   [
    "Actives",
-   "AHAs (glycolic, lactic, mandelic); BHA (salicylic acid)"
+   "AHAs (glycolic, lactic, mandelic); BHA (salicylic acid)[1]"
   ],
   [
    "Common effects",
    "Mild irritation, redness, flaking[1]"
+  ],
+  [
+   "Safety note",
+   "FDA cautions AHAs can raise sunburn likelihood[1]"
   ]
  ],
  "sections": [
   {
    "h": "Description",
    "paras": [
-    "AHAs such as glycolic, lactic, mandelic and citric acid are used in cosmetics for chemical exfoliation.[1] BHAs differ structurally in that their functional groups are separated by two carbon atoms.[1]"
+    "AHAs such as glycolic, lactic, mandelic and citric acid are used in cosmetics for chemical exfoliation, and BHAs differ structurally in that their functional groups are separated by two carbon atoms.[1] Salicylic acid removes the outermost skin layer and is oil-soluble, which Wikipedia associates with keeping pores from clogging.[3] EU cosmetic rules cap salicylic acid at 3 percent in rinse-off hair products and 2 percent in other products.[3]"
    ]
   },
   {
    "h": "Claims about odor",
    "paras": [
-    "Proponents say acidic exfoliation reduces the bacteria that produce armpit odor. The body odor article says odor results from bacteria such as Corynebacterium and Staphylococcus breaking down apocrine sweat, and it lists deodorants, antiperspirants and antibacterial washes as treatments without mentioning acid exfoliants.[2]"
+    "Proponents say acidic exfoliation reduces the bacteria that produce armpit odor. The body odor article describes how Corynebacterium lipases break sweat lipids into odorous molecules and notes that genetics, such as the ABCC11 gene variant, also influence armpit smell.[2] Its listed prevention methods include daily washing with antibacterial soap and applying deodorant or antiperspirant.[2]"
    ]
   },
   {
    "h": "Safety",
    "paras": [
-    "When used as directed, AHAs are generally considered safe. The FDA and the Cosmetic Ingredient Review panel consider them safe at low concentrations, at pH above 3.5, with clear safety instructions.[1] The FDA has cautioned that AHAs can increase the likelihood of sunburn, an effect reversible when use stops.[1]"
+    "When used as directed, AHAs are generally considered safe, and the FDA and the Cosmetic Ingredient Review panel consider them safe at low concentrations, at pH above 3.5, with clear safety instructions.[1] The FDA has cautioned that AHAs can increase the likelihood of sunburn, an effect reversible when use stops.[1] Glycolic acid is described as a skin irritant, and salicylic acid causes mild skin irritation, with toxicity reported mainly from oral overdose or large-area high-concentration application.[3][4]"
    ]
   },
   {
@@ -48,43 +77,54 @@
  "lore": null,
  "refs": [
   {
-   "id": 1,
-   "title": "Alpha hydroxy acid",
    "url": "https://en.wikipedia.org/wiki/Alpha_hydroxy_acid",
+   "title": "Alpha hydroxy acid",
    "source": "Wikipedia",
    "year": 2026,
-   "type": "encyclopedia"
+   "type": "encyclopedia",
+   "id": 1
   },
   {
-   "id": 2,
-   "title": "Body odor",
    "url": "https://en.wikipedia.org/wiki/Body_odor",
+   "title": "Body odor",
    "source": "Wikipedia",
    "year": 2026,
-   "type": "encyclopedia"
+   "type": "encyclopedia",
+   "id": 2
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Salicylic_acid",
+   "title": "Salicylic acid",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia",
+   "id": 3
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Glycolic_acid",
+   "title": "Glycolic acid",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia",
+   "id": 4
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Alpha_hydroxy_acid",
-   "title": "Alpha hydroxy acid (Wikipedia)"
+   "title": "Alpha hydroxy acid"
   },
   {
    "url": "https://en.wikipedia.org/wiki/Body_odor",
-   "title": "Body odor (Wikipedia)"
+   "title": "Body odor"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Salicylic_acid",
+   "title": "Salicylic acid"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Glycolic_acid",
+   "title": "Glycolic acid"
   }
- ],
- "card": {
-  "summary": "AHA/BHA exfoliating wash on the pits to starve odor bacteria; plausible in theory, untested for odor.",
-  "aka": "Glycolic or salicylic acid body wash",
-  "evidence": "unproven",
-  "price": null,
-  "outcome": "unsupported",
-  "note": "Can irritate and raise sunburn likelihood."
- },
- "quick": {
-  "overview": "Acid body washes use AHAs or BHA to exfoliate. Some people use them on the armpits hoping to reduce odor.\n\nNo studies were found testing this use.",
-  "mechanism": "Acids loosen dead skin cells. Proponents say this plus a lower surface pH disfavors odor bacteria.",
-  "risks": "Reported effects are mild irritation, redness and flaking, plus increased sunburn likelihood per FDA caution."
- }
+ ]
 }

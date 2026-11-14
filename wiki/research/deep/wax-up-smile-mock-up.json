@@ -1,17 +1,122 @@
 {
-"name":"Wax-up smile mock-up",
-"lead":["A wax-up or mock-up is a diagnostic preview in cosmetic dentistry: dentists build a model of planned tooth changes to guide preparation before veneers are made [1]. It shows how changes in tooth size, shape and proportion will relate to the gums, lips and smile line, and temporaries based on it can test appearance, speech and bite before final work [1].","Digital smile design is a related, software-based approach. One registered crossover study of 44 participants compares AI-assisted with conventional digital smile design for laminate veneers; it is active and not yet reporting results [2]."],
-"infobox":[["Type","Diagnostic preview"],["Used for","Planning veneers and smile makeovers"],["Digital variant","Digital smile design"]],
-"sections":[
-{"h":"Clinical studies","paras":["A registered prospective crossover study (NCT07863895) is comparing AI-assisted with conventional digital smile design for laminate veneers in 44 participants; no results were available when listed [2]. No other studies found for traditional wax-up mock-ups in the sources reviewed."]}
-],
-"timeline":[],
-"lore":null,
-"refs":[
-{"id":1,"title":"Cosmetic dentistry","url":"https://en.wikipedia.org/wiki/Cosmetic_dentistry","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":2,"title":"AI-Assisted vs. Conventional Digital Smile Design for Laminate Veneers (NCT07863895)","url":"https://clinicaltrials.gov/study/NCT07863895","source":"ClinicalTrials.gov","year":2026,"type":"trial"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Cosmetic_dentistry","title":"Cosmetic dentistry - Wikipedia"}],
-"card":{"summary":"A model or temporary preview of planned tooth changes, used before veneers; thin sourcing.","aka":"Diagnostic wax-up, smile preview, smile design","evidence":"unproven","risk":"low","note":"Preview only; sources are thin.","price":null},
-"quick":{"overview":"A wax-up or mock-up previews planned cosmetic tooth changes so patient and dentist can judge size, shape and proportion before treatment.\n\nOnly a short encyclopedic description and one registered digital smile design trial were found.","mechanism":"A model or temporary is shaped to the planned result and tried against the lips and smile line, sometimes also testing speech and bite.","risks":"The preview itself is non-permanent; the sources describe no specific risks of the mock-up."}
+  "name": "Wax-up smile mock-up",
+  "card": {
+    "summary": "A model or temporary preview of planned tooth changes, used before veneers; thin sourcing.",
+    "aka": "Diagnostic wax-up, smile preview, smile design",
+    "evidence": "unproven",
+    "risk": "low",
+    "note": "Preview only; sources are thin.",
+    "price": null
+  },
+  "quick": {
+    "overview": "A wax-up or mock-up previews planned cosmetic tooth changes so patient and dentist can judge size, shape and proportion before treatment.\n\nOnly a short encyclopedic description and one registered digital smile design trial were found.",
+    "mechanism": "A model or temporary is shaped to the planned result and tried against the lips and smile line, sometimes also testing speech and bite.",
+    "risks": "The preview itself is non-permanent; the sources describe no specific risks of the mock-up."
+  },
+  "lead": [
+    "A wax-up or smile mock-up is a preview of planned cosmetic dental work. Before teeth are prepared for veneers or crowns, the dentist or technician builds a model, or places a temporary material directly on the teeth, showing the proposed tooth size, shape and proportion and how they relate to the gums, lips and smile line [1]. Patients use it to see and approve how their smile will look before anything irreversible is done.",
+    "Temporary restorations based on the mock-up let patients try the look in daily life and evaluate appearance, speech and bite before final work [1]. A 2003 review describes the diagnostic wax-up as part of a systematic approach to esthetic rehabilitation, with the dental technician involved from the start and the wax-up leading into provisional and final ceramic restorations [2].",
+    "Digital smile design is a related software-based approach that previews the result on photographs or scans. Both aim to reduce surprises and give the patient a say in the final shape."
+  ],
+  "angle": {
+    "goal": "Smile / teeth",
+    "chain": [
+      "Planned tooth shapes modelled in wax or digitally",
+      "Mock-up shown or worn temporarily",
+      "Patient and dentist agree the smile before final veneers"
+    ],
+    "effect": "direct",
+    "text": "The mock-up gives a preview of the finished smile, so people can adjust tooth length, width and shape and gum display before committing to veneers. It improves the chance that the final teeth look the way the patient wanted."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Diagnostic planning step in cosmetic dentistry"
+    ],
+    [
+      "Used before",
+      "Veneers, crowns, smile makeovers"
+    ],
+    [
+      "Forms",
+      "Wax-up on a model, direct mock-up, digital smile design"
+    ],
+    [
+      "Shows",
+      "Tooth size, shape, proportion; gum and lip relationship"
+    ],
+    [
+      "Reversible",
+      "Yes (preview only)"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Description",
+      "paras": [
+        "Wikipedia's article on cosmetic dentistry notes that before preparing teeth dentists often make a diagnostic mock-up, or wax-up, to preview changes in tooth size, shape and proportion and how the teeth relate to the gums, lip contour and smile line [1].",
+        "Veneers are thin custom porcelain shells bonded to the front of teeth, used to close gaps, reshape teeth or change colour, and most cases require some removal of tooth structure that cannot be replaced, which is why a preview is valued [1]."
+      ]
+    },
+    {
+      "h": "Workflow",
+      "paras": [
+        "A 2003 article in the Journal of Esthetic and Restorative Dentistry describes a sequence in which communication with the patient and the dental team comes first, followed by the diagnostic wax-up, the provisional and the final ceramic restorations [2]. A 2024 randomized trial in BMC Oral Health compared traditional and digital crown extension guides for esthetic anterior restoration in 62 patients with 230 anterior teeth, an example of digital planning tools being tested in clinical outcomes [3]."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "A registered prospective crossover study (NCT07863895) is comparing AI-assisted with conventional digital smile design for laminate veneers in 44 participants; no results were available when listed [4]. The 2024 randomized trial of digital versus traditional crown extension guides studied planning-guide technology for anterior teeth [3]. No trial isolating the effect of a traditional wax-up on patient satisfaction was identified."
+      ]
+    },
+    {
+      "h": "Society and culture",
+      "paras": [
+        "The American Dental Association does not recognise cosmetic dentistry as a formal specialty; prosthodontics is the recognised specialty covering cosmetic and esthetic work, and the American Academy of Cosmetic Dentistry offers accreditation that the ADA does not approve [1]."
+      ]
+    }
+  ],
+  "timeline": [],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Cosmetic dentistry",
+      "url": "https://en.wikipedia.org/wiki/Cosmetic_dentistry",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Diagnostic and technical approach to esthetic rehabilitations",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12948215/",
+      "source": "Journal of Esthetic and Restorative Dentistry",
+      "year": 2003,
+      "type": "review"
+    },
+    {
+      "id": 3,
+      "title": "A comparative study of the use of digital technology in the anterior smile experience",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38664749/",
+      "source": "BMC Oral Health",
+      "year": 2024,
+      "type": "trial"
+    },
+    {
+      "id": 4,
+      "title": "AI-Assisted vs. Conventional Digital Smile Design for Laminate Veneers (NCT07863895)",
+      "url": "https://clinicaltrials.gov/study/NCT07863895",
+      "source": "ClinicalTrials.gov",
+      "year": 2026,
+      "type": "trial"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Cosmetic_dentistry",
+      "title": "Cosmetic dentistry - Wikipedia"
+    }
+  ]
 }

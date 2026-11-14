@@ -1,9 +1,20 @@
 {
  "name": "Trap Botox (Barbie Botox)",
  "lead": [
-  "Trap Botox, popularly called \"Barbie Botox\", is the injection of botulinum toxin into the trapezius muscle, aimed at relaxing the muscle so the neck appears longer and the shoulder line slimmer. It is an off-label cosmetic use of a toxin.[1]",
-  "A 2024 systematic review in the Journal of Plastic, Reconstructive & Aesthetic Surgery examined the trend.[1] Trapezius injection has also been used in clinical settings such as chronic migraine and cervical dystonia protocols.[2][3]"
+  "Trap Botox, popularly called \"Barbie Botox\", is the injection of botulinum toxin into the trapezius muscle, the slope of muscle between neck and shoulder. People seek it to relax and slim the muscle so the neck looks longer and more slender and the shoulder line looks narrower and more sloped.[1][2]",
+  "It is an off-label cosmetic use of a toxin that is approved for other purposes: Botox Cosmetic was approved by the FDA in 2002 for frown lines, and botulinum toxin is also used for conditions such as cervical dystonia and chronic migraine, where injections go into neck and shoulder muscles.[3][4][5] Wikipedia's botulinum toxin article does not mention trapezius injections for appearance.[3]",
+  "A 2024 letter in the Journal of Plastic, Reconstructive & Aesthetic Surgery titled \"Barbie botox\": The systematic review of a popular trend comments on three published articles on botulinum toxin for trapezius hypertrophy. The record is listed as a comment and letter and carries no abstract.[1]"
  ],
+ "angle": {
+  "goal": "Neck and shoulders",
+  "chain": [
+   "Botulinum toxin injected into the trapezius",
+   "Muscle relaxes and reduces in bulk over time",
+   "Neck looks longer and shoulder slope softer"
+  ],
+  "effect": "direct",
+  "text": "The injection targets trapezius bulk so that the neck appears longer and the shoulder line slimmer, an effect people compare to the elongated neck seen on dolls and in fashion imagery."
+ },
  "infobox": [
   [
    "Procedure",
@@ -18,31 +29,54 @@
    "Off-label cosmetic use"
   ],
   [
-   "Reviewed",
-   "Systematic review, 2024[1]"
+   "Typical effect duration (toxin generally)",
+   "About two to four months[3]"
+  ],
+  [
+   "Published commentary",
+   "Letter in JPRAS, 2024[1]"
   ]
  ],
  "sections": [
   {
    "h": "Description",
    "paras": [
-    "The procedure aims to reduce trapezius bulk using a neuromodulator so the neck-shoulder line looks elongated.[1]"
+    "The procedure aims to reduce trapezius bulk using a neuromodulator so the neck-shoulder line looks elongated.[2] Botulinum toxin weakens the injected muscle; for facial cosmetic uses the smoothing is usually visible three to five days after injection, peaks about a week later and typically lasts two to four months, after which muscles can be retreated.[3] Trapezius duration is not described in the sources reviewed."
    ]
   },
   {
-   "h": "Research and expert views",
+   "h": "Medical use of neck and trapezius injections",
    "paras": [
-    "The 2024 systematic review is the main published synthesis of the trend.[1] Registered trials of toxin in neck and trapezius muscles concern medical conditions such as cervical dystonia and chronic migraine, not appearance.[2][3]"
+    "Botulinum toxin is used for cervical dystonia and for chronic migraine, which the FDA approved in 2010; injection sites for these include neck and shoulder muscles.[3] Registered trials of toxin in neck muscles, such as an injection-site study in cervical dystonia that lists the trapezius among seven muscle groups, address medical conditions rather than appearance.[4][5] Another registered trial studied toxin for neck contractures after radiosurgery.[6]"
+   ]
+  },
+  {
+   "h": "Reported risks",
+   "paras": [
+    "For botulinum toxin in general, Wikipedia lists unintended muscle weakness, difficulty swallowing, headaches, flu-like symptoms and allergic reactions, and notes that the toxin can spread from the injection site; the FDA added boxed warnings about spread in 2009.[3] Repeated high doses can cause muscle atrophy or weakness, which reportedly recovers after a break.[3] Specific adverse-event data for cosmetic trapezius injection were not found."
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found of trapezius toxin for cosmetic neck appearance beyond the systematic review cited above;[1] registered trials involving trapezius injection address cervical dystonia and migraine.[2][3]"
+    "No studies found of trapezius toxin for cosmetic neck appearance beyond published commentary on trapezius hypertrophy treatment.[1] Registered trials involving trapezius injection address cervical dystonia and migraine.[4][5]"
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "2002",
+   "event": "FDA approves Botox Cosmetic for frown lines.[3]"
+  },
+  {
+   "year": "2010",
+   "event": "Botulinum toxin is FDA-approved for chronic migraine.[3]"
+  },
+  {
+   "year": "2024",
+   "event": "JPRAS publishes a letter on \"Barbie botox\" and trapezius hypertrophy.[1]"
+  }
+ ],
  "lore": null,
  "refs": [
   {
@@ -51,10 +85,26 @@
    "url": "https://pubmed.ncbi.nlm.nih.gov/37952434/",
    "source": "Journal of Plastic, Reconstructive & Aesthetic Surgery",
    "year": 2024,
-   "type": "review"
+   "type": "study"
   },
   {
    "id": 2,
+   "title": "Barbie botox review (Europe PMC record)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37952434/",
+   "source": "Journal of Plastic, Reconstructive & Aesthetic Surgery",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Botulinum toxin",
+   "url": "https://en.wikipedia.org/wiki/Botulinum_toxin",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
    "title": "NCT02074293: ASIS for Botox in Cervical Dystonia",
    "url": "https://clinicaltrials.gov/study/NCT02074293",
    "source": "ClinicalTrials.gov",
@@ -62,15 +112,28 @@
    "type": "trial"
   },
   {
-   "id": 3,
+   "id": 5,
    "title": "NCT02074163: ASIS for Botox in Chronic Migraine",
    "url": "https://clinicaltrials.gov/study/NCT02074163",
    "source": "ClinicalTrials.gov",
    "year": 2016,
    "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "NCT02986880: Effect of Type-A Botulinum Toxin in the Post-radiosurgical Neck Contractures",
+   "url": "https://clinicaltrials.gov/study/NCT02986880",
+   "source": "ClinicalTrials.gov",
+   "year": 2011,
+   "type": "trial"
   }
  ],
- "webSources": [],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Botulinum_toxin",
+   "title": "Botulinum toxin - Wikipedia"
+  }
+ ],
  "card": {
   "summary": "Toxin injected into the trapezius to make the neck look longer; a 2024 systematic review exists, cosmetic data are thin.",
   "aka": "Barbie botox",

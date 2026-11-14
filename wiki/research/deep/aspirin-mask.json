@@ -1,72 +1,101 @@
 {
- "name": "Aspirin mask",
- "lead": [
-  "An aspirin mask is a home paste made by crushing aspirin tablets, applied to the face, mainly for acne and redness. Proponents note that aspirin is related to salicylic acid, a common acne ingredient.",
-  "Aspirin is acetylsalicylic acid and is broken down in the body to salicylic acid [1]. Wikipedia's aspirin article does not discuss acne use, and no studies of aspirin masks were found."
- ],
- "infobox": [
-  [
-   "Type",
-   "Home remedy"
+  "name": "Aspirin mask",
+  "card": {
+    "summary": "Crushed-aspirin face paste for acne; relies on its link to salicylic acid, with no studies found.",
+    "aka": "Aspirin face mask",
+    "evidence": "unproven",
+    "outcome": null,
+    "risk": "low",
+    "note": "Oral aspirin has documented warnings; topical mask effects are not described in sources reviewed."
+  },
+  "quick": {
+    "overview": "People crush aspirin tablets into a paste and apply it to the face for acne.\n\nThe idea rests on aspirin's relation to salicylic acid; no studies of the mask were found.",
+    "mechanism": "Aspirin converts to salicylic acid in the body; believers expect a similar anti-acne effect topically, which is untested.",
+    "risks": "Documented warnings concern oral aspirin; topical risks are not described in the sources reviewed."
+  },
+  "lead": [
+    "An aspirin mask is a home paste made by crushing uncoated aspirin tablets, mixing them with water or another base such as honey or yogurt, and leaving the paste on the face briefly. People use it on acne spots and red, oily skin, hoping to calm breakouts and leave a clearer complexion. The reasoning is that aspirin is chemically related to salicylic acid, a standard acne ingredient.",
+    "Aspirin is acetylsalicylic acid, made by acetylating salicylic acid, and the body readily converts it back to salicylic acid [1]. Salicylic acid itself is a keratolytic and comedolytic: it loosens the outer skin layer and makes cells shed more readily, which helps keep pores from clogging, and cosmetic products use it for acne [2]. Proponents' chain runs from crushed aspirin to salicylate on the skin, to less clogged pores and less inflammation, to fewer visible blemishes.",
+    "No studies of aspirin masks were found. Wikipedia's aspirin article mentions topical aspirin only in connection with possible effectiveness for some neuropathic pain [1]."
   ],
-  [
-   "Active compound",
-   "Acetylsalicylic acid [1]"
+  "angle": {
+    "goal": "Clearer skin",
+    "chain": [
+      "Crushed aspirin forms a paste on the skin",
+      "Salicylate acts like salicylic acid on pores and inflammation",
+      "Fewer clogged pores and less redness",
+      "Clearer-looking complexion"
+    ],
+    "effect": "claimed",
+    "text": "Home users apply a short-contact aspirin paste to acne-prone skin in the hope of the effects associated with salicylic acid. It is a do-it-yourself stand-in for ready-made salicylic acid products."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Home remedy"
+    ],
+    [
+      "Active compound",
+      "Acetylsalicylic acid [1]"
+    ],
+    [
+      "Related ingredient",
+      "Salicylic acid, a standard OTC acne ingredient [2]"
+    ],
+    [
+      "Application",
+      "Topical"
+    ]
   ],
-  [
-   "Application",
-   "Topical"
+  "sections": [
+    {
+      "h": "Relation to salicylic acid",
+      "paras": [
+        "Aspirin is produced by acetylating salicylic acid and is readily converted to it in the body [1]. Salicylic acid is a keratolytic agent used in cosmetics for acne, seborrhoeic dermatitis, calluses and keratosis pilaris, and it also modulates COX-1 and reduces pro-inflammatory prostaglandin formation [2]. Salicylic acid is a metabolite of aspirin and long served as the starting material for making it; the compound traces back to willow bark, with salicin isolated by Johann Buchner in 1828 [2]. Commercial salicylic acid cosmetics are formulated and regulated by concentration; in the EU, limits include up to 2.0 percent in most products [2]. Whether crushed aspirin delivers comparable salicylate to the skin has not been studied."
+      ]
+    },
+    {
+      "h": "Adverse effects",
+      "paras": [
+        "Oral aspirin is associated with stomach upset, ulcers, bleeding and worsening asthma, and is not recommended in late pregnancy or for children with viral infections because of Reye syndrome [1]. These effects relate to oral use. For salicylic acid, Wikipedia states toxicity is mainly a concern with oral overdose, that cosmetic use poses no significant risk, and that skin and eye irritation are listed hazards; one documented case of toxicity involved a 40 percent ointment over a large body area [2]. Sources do not describe aspirin masks specifically."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found. Research on salicylic acid for acne exists but does not test aspirin masks [2]."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1828",
+      "event": "Johann Buchner isolates salicin from willow, the precursor line to salicylic acid. [2]"
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Aspirin",
+      "url": "https://en.wikipedia.org/wiki/Aspirin",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Salicylic acid",
+      "url": "https://en.wikipedia.org/wiki/Salicylic_acid",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Salicylic_acid",
+      "title": "Salicylic acid"
+    }
   ]
- ],
- "sections": [
-  {
-   "h": "Relation to salicylic acid",
-   "paras": [
-    "Aspirin is produced by acetylating salicylic acid, and it is readily converted to salicylic acid in the body [1]. Wikipedia mentions topical aspirin only in the context of possible effectiveness for some neuropathic pain [1]."
-   ]
-  },
-  {
-   "h": "Adverse effects of aspirin",
-   "paras": [
-    "Oral aspirin is associated with stomach upset, ulcers, bleeding and worsening asthma, and is not recommended in late pregnancy or for children with viral infections because of Reye syndrome [1]. These effects relate to oral use; the sources do not describe topical masks."
-   ]
-  },
-  {
-   "h": "Clinical studies",
-   "paras": [
-    "No studies found."
-   ]
-  }
- ],
- "timeline": [],
- "lore": null,
- "refs": [
-  {
-   "id": 1,
-   "title": "Aspirin (Wikipedia)",
-   "url": "https://en.wikipedia.org/wiki/Aspirin",
-   "source": "Wikipedia",
-   "year": 2025,
-   "type": "encyclopedia"
-  }
- ],
- "webSources": [
-  {
-   "url": "https://en.wikipedia.org/wiki/Aspirin",
-   "title": "Aspirin (Wikipedia)"
-  }
- ],
- "card": {
-  "summary": "Crushed-aspirin face paste for acne; relies on its link to salicylic acid, with no studies found.",
-  "aka": "Aspirin face mask",
-  "evidence": "unproven",
-  "outcome": null,
-  "risk": "low",
-  "note": "Oral aspirin has documented warnings; topical mask effects are not described in sources reviewed."
- },
- "quick": {
-  "overview": "People crush aspirin tablets into a paste and apply it to the face for acne.\n\nThe idea rests on aspirin's relation to salicylic acid; no studies of the mask were found.",
-  "mechanism": "Aspirin converts to salicylic acid in the body; believers expect a similar anti-acne effect topically, which is untested.",
-  "risks": "Documented warnings concern oral aspirin; topical risks are not described in the sources reviewed."
- }
 }

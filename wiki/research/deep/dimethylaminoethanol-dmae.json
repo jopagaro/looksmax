@@ -1,48 +1,231 @@
 {
-"name": "Dimethylaminoethanol (DMAE)",
-"lead": [
-"Dimethylaminoethanol (DMAE, also dimethylethanolamine, DMEA or deanol) is a colourless amino alcohol with the formula (CH3)2NCH2CH2OH. It is mainly an industrial chemical, used as a curing agent for polyurethanes and epoxy resins and as an intermediate for other compounds. [1][2]",
-"It is also an ingredient in some skin-care products marketed for firming and improving skin tone, and its bitartrate salt is sold as an oral nootropic supplement. [1][2] Wikipedia reports no human trial results for either use, and animal work cited there concerns memory rather than skin. [2] Only one registered human study involving a DMAE-containing skin product was found, and it tested a multi-ingredient combination. [3]"
-],
-"infobox": [
-["Chemical formula", "C4H11NO; molar mass 89.14 g/mol [2]"],
-["Other names", "DMEA, deanol, N,N-dimethylethanolamine [2]"],
-["Forms sold", "Bitartrate salt (about 37% DMAE) in supplements; topical cosmetic ingredient [2]"],
-["ATC code", "N06BX04 [2]"],
-["Main uses", "Industrial chemical; cosmetics; nootropic supplement [1][2]"]
-],
-"sections": [
-{"h": "Chemistry", "paras": [
-"DMAE is a bifunctional molecule carrying a tertiary amine and a primary alcohol. It is prepared industrially by ethoxylation of dimethylamine and is a flammable, corrosive liquid with a fishy odour. [2] Reported oral LD50 in rats is around 1 to 2 g per kg depending on the source. [1][2]"
-]},
-{"h": "Uses", "subs": [
-{"h": "Cosmetic / appearance uses", "paras": [
-"Cosmetic products use DMAE, often as the bitartrate salt at low percentage concentrations, as a skin-firming ingredient. [1] Manufacturers and some proponents describe it as tightening sagging skin and improving tone. [2]"
-]},
-{"h": "Cognitive supplement use", "paras": [
-"DMAE bitartrate is sold as an oral nootropic. Animal studies cited by Wikipedia suggest possible benefit for spatial and working memory, and a pyroglutamate form has been studied against scopolamine-induced memory deficits. [2]"
-]}
-]},
-{"h": "Safety", "paras": [
-"Concentrated DMAE is classified under GHS as corrosive and acutely toxic by several routes, with hazard statements for skin burns and eye damage. This is an industrial-handling classification and does not directly describe finished cosmetic products. [2][1]"
-]},
-{"h": "Use in looksmaxxing communities", "paras": ["No community discussion was available for this entry. DMAE is listed in the skin category because of its presence in firming cosmetics."]},
-{"h": "Clinical studies", "paras": [
-"One registered phase 2 study (44 participants, completed 2025) tested a serum and cream combining GABA, DMAE, cysteamine and bakuchiol for skin whitening and anti-aging; because several ingredients were combined, it does not isolate an effect of DMAE. [3] No studies found for DMAE alone in the sources reviewed."
-]}
-],
-"timeline": [],
-"lore": null,
-"refs": [
-{"id": 1, "title": "Dimethylethanolamine (Grokipedia)", "url": "https://grokipedia.com/page/Dimethylethanolamine", "source": "Grokipedia", "year": 2025, "type": "encyclopedia"},
-{"id": 2, "title": "Dimethylethanolamine (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Dimethylethanolamine", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"},
-{"id": 3, "title": "Effectiveness of a Bilayering Serum and Cream Containing GABA, DMAE, Cysteamine, and Bakuchiol for Skin Whitening and Anti-Aging", "url": "https://clinicaltrials.gov/study/NCT07477288", "source": "ClinicalTrials.gov NCT07477288", "year": 2025, "type": "trial"}
-],
-"webSources": [{"url": "https://en.wikipedia.org/wiki/Dimethylethanolamine", "title": "Dimethylethanolamine (Wikipedia)"}],
-"card": {"summary": "Industrial amino alcohol used in skin-firming creams and sold as a nootropic; no human trial isolates its skin effect.", "aka": "DMAE, DMEA, deanol", "evidence": "unproven", "status": "otc", "outcome": null, "risk": null, "price": null, "note": "Concentrated DMAE is a corrosive industrial chemical; cosmetic claims lack published human trials in the sources reviewed.", "structure": "Dimethylaminoethanol"},
-"quick": {
-"overview": "DMAE is mostly an industrial chemical used in plastics and resins. It also appears in some firming skin-care products and in oral nootropic supplements.\n\nThe sources reviewed report no human trial results for either use, so claims about skin tightening rest on marketing.",
-"mechanism": "The way DMAE might affect skin or the brain is not established. Animal studies point to possible memory effects, while no mechanism for skin firming is documented.",
-"risks": "The pure liquid is flammable and corrosive and carries hazard warnings. Safety data for cosmetic or supplement use in people are not summarised in the sources reviewed."
-}
+  "name": "Dimethylaminoethanol (DMAE)",
+  "lead": [
+    "Dimethylaminoethanol (DMAE, also deanol, DMEA) is an ingredient in some skin-care gels and creams sold for firming and smoothing aging skin. People use it topically in the hope of tighter-looking skin, softer fine lines on the forehead and around the eyes, and a fuller lip shape [3]. It is also sold as the bitartrate salt in oral nootropic supplements [1][2].",
+    "DMAE is an analog of choline and a precursor of acetylcholine. A 2005 review in the American Journal of Clinical Dermatology proposed that acetylcholine acts as a cytokine-like signal in skin that regulates cell proliferation, differentiation and secretion, which could underlie DMAE's cutaneous activity [3].",
+    "Outside cosmetics, DMAE is mainly an industrial chemical used as a curing agent for polyurethanes and epoxy resins and as an intermediate for other compounds [1][2]. In the mid-20th century and 1970s it was also studied as a drug, including in tardive dyskinesia trials [4]."
+  ],
+  "infobox": [
+    [
+      "Chemical formula",
+      "C4H11NO; molar mass 89.14 g/mol [2]"
+    ],
+    [
+      "Other names",
+      "DMEA, deanol, N,N-dimethylethanolamine [2]"
+    ],
+    [
+      "Forms sold",
+      "Bitartrate salt (about 37% DMAE) in supplements; topical cosmetic ingredient [2]"
+    ],
+    [
+      "Related to",
+      "Choline; acetylcholine precursor [3]"
+    ],
+    [
+      "ATC code",
+      "N06BX04 [2]"
+    ],
+    [
+      "Main uses",
+      "Industrial chemical; cosmetics; nootropic supplement [1][2]"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Chemistry",
+      "paras": [
+        "DMAE is a bifunctional molecule carrying a tertiary amine and a primary alcohol. It is prepared industrially by ethoxylation of dimethylamine and is a flammable, corrosive liquid with a fishy odour. [2] Reported oral LD50 in rats is around 1 to 2 g per kg depending on the source. [1][2]"
+      ]
+    },
+    {
+      "h": "Pharmacology",
+      "subs": [
+        {
+          "h": "Proposed mechanism in skin",
+          "paras": [
+            "The 2005 review describes DMAE as a choline analog and precursor of acetylcholine. It notes growing evidence that acetylcholine acts as a ubiquitous cytokine-like molecule regulating proliferation, differentiation, movement and secretion of cells in a paracrine and autocrine way, and suggests this modulatory role may contribute to DMAE's skin activity [3]."
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Uses",
+      "subs": [
+        {
+          "h": "Cosmetic / appearance uses",
+          "paras": [
+            "Cosmetic products use DMAE, often as the bitartrate salt at low percentage concentrations, as a skin-firming ingredient [1]. Manufacturers and proponents describe it as tightening sagging skin and improving tone [2]. The studied form was a 3% facial gel applied daily [3]."
+          ]
+        },
+        {
+          "h": "Cognitive supplement use",
+          "paras": [
+            "DMAE bitartrate is sold as an oral nootropic. Animal studies cited by Wikipedia suggest possible benefit for spatial and working memory, and a pyroglutamate form has been studied against scopolamine-induced memory deficits. [2]"
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Safety",
+      "paras": [
+        "Concentrated DMAE is classified under GHS as corrosive and acutely toxic by several routes, with hazard statements for skin burns and eye damage. This is an industrial-handling classification and does not directly describe finished cosmetic products. [2][1]"
+      ]
+    },
+    {
+      "h": "Use in looksmaxxing communities",
+      "paras": [
+        "DMAE is rarely discussed as a standalone item on appearance forums. On T Nation it appears mainly as an ingredient (deanol bitartrate) in stimulant-style and mood supplements [5][6]."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "A randomized, placebo-controlled study reviewed in 2005 tested a 3% DMAE facial gel applied daily for 16 weeks. It was reported as safe and efficacious (p < 0.05) for forehead lines and periorbital fine wrinkles and for lip shape, fullness and the overall appearance of aging skin. Effects did not regress during a 2-week stop. Trends (p between 0.05 and 0.1) were seen for coarse wrinkles, under-eye dark circles, nasolabial folds, sagging neck skin and neck firmness, and application was well tolerated [3].",
+        "A registered phase 2 study (44 participants, completed 2025) tested a serum and cream combining GABA, DMAE, cysteamine and bakuchiol for skin whitening and anti-aging; because several ingredients were combined, it does not isolate DMAE's effect [7].",
+        "Oral deanol was studied in the 1970s and 1980s in tardive dyskinesia, with Cochrane reviews of cholinergic drugs covering it; these concern movement disorders, not skin [4]. One report described mood changes (depression in five, hypomania in three of 38 patients) at high oral doses [8]."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1959",
+      "event": "Deanol appears in the medical literature as a drug (Revista Medica de Chile) [9]."
+    },
+    {
+      "year": "1977-1981",
+      "event": "Controlled trials of deanol in tardive dyskinesia [4][8]."
+    },
+    {
+      "year": "2005",
+      "event": "Review in Am J Clin Dermatol summarizes a 16-week trial of 3% DMAE gel for aging skin [3]."
+    },
+    {
+      "year": "2025",
+      "event": "Phase 2 study of a GABA/DMAE/cysteamine/bakuchiol serum completes [7]."
+    }
+  ],
+  "lore": {
+    "intro": "Community material on DMAE is mostly about its role in supplements rather than skin firming [5].",
+    "claims": [
+      {
+        "claim": "Topical DMAE firms sagging skin and softens fine lines",
+        "believers": "Marketers and users describe tighter-looking skin and smoother forehead and eye-area lines after regular use of DMAE gels [2].",
+        "experts": "A 2005 review summarized one randomized 16-week placebo-controlled study of 3% gel reporting significant improvement in forehead lines and periorbital wrinkles [3].",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "DMAE supplements raise mood and focus",
+        "believers": "Deanol bitartrate appears in stimulant and mood supplement blends discussed on T Nation [5][6].",
+        "experts": "Animal studies cited by Wikipedia suggest memory effects [2], and one 1979 report noted mood shifts in some patients on high doses [8].",
+        "evidence": "mixed"
+      }
+    ]
+  },
+  "refs": [
+    {
+      "id": 1,
+      "title": "Dimethylethanolamine (Grokipedia)",
+      "url": "https://grokipedia.com/page/Dimethylethanolamine",
+      "source": "Grokipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Dimethylethanolamine (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Dimethylethanolamine",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "The role of dimethylaminoethanol in cosmetic dermatology",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15675889/",
+      "source": "American Journal of Clinical Dermatology",
+      "year": 2005,
+      "type": "review"
+    },
+    {
+      "id": 4,
+      "title": "Cholinergic medication for antipsychotic-induced tardive dyskinesia",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29553158/",
+      "source": "Cochrane Database of Systematic Reviews",
+      "year": 2018,
+      "type": "review"
+    },
+    {
+      "id": 5,
+      "title": "Hydroxy Stim (T Nation forum)",
+      "url": "https://t-nation.com/t/hydroxy-stim/174655",
+      "source": "T Nation",
+      "year": 2012,
+      "type": "forum"
+    },
+    {
+      "id": 6,
+      "title": "The Mood Booster For Lifters and Athletes (T Nation forum)",
+      "url": "https://t-nation.com/t/the-mood-booster-for-lifters-and-athletes/279849",
+      "source": "T Nation",
+      "year": 2022,
+      "type": "forum"
+    },
+    {
+      "id": 7,
+      "title": "Effectiveness of a Bilayering Serum and Cream Containing GABA, DMAE, Cysteamine, and Bakuchiol for Skin Whitening and Anti-Aging",
+      "url": "https://clinicaltrials.gov/study/NCT07477288",
+      "source": "ClinicalTrials.gov NCT07477288",
+      "year": 2025,
+      "type": "trial"
+    },
+    {
+      "id": 8,
+      "title": "Mood alterations during deanol therapy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/111283/",
+      "source": "Psychopharmacology",
+      "year": 1979,
+      "type": "study"
+    },
+    {
+      "id": 9,
+      "title": "[Deanol]",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/13668196/",
+      "source": "Revista Medica de Chile",
+      "year": 1959,
+      "type": "study"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Dimethylethanolamine",
+      "title": "Dimethylethanolamine (Wikipedia)"
+    }
+  ],
+  "card": {
+    "summary": "Industrial amino alcohol used in skin-firming creams and sold as a nootropic; no human trial isolates its skin effect.",
+    "aka": "DMAE, DMEA, deanol",
+    "evidence": "unproven",
+    "status": "otc",
+    "outcome": null,
+    "risk": null,
+    "price": null,
+    "note": "Concentrated DMAE is a corrosive industrial chemical; cosmetic claims lack published human trials in the sources reviewed.",
+    "structure": "Dimethylaminoethanol"
+  },
+  "quick": {
+    "overview": "DMAE is mostly an industrial chemical used in plastics and resins. It also appears in some firming skin-care products and in oral nootropic supplements.\n\nThe sources reviewed report no human trial results for either use, so claims about skin tightening rest on marketing.",
+    "mechanism": "The way DMAE might affect skin or the brain is not established. Animal studies point to possible memory effects, while no mechanism for skin firming is documented.",
+    "risks": "The pure liquid is flammable and corrosive and carries hazard warnings. Safety data for cosmetic or supplement use in people are not summarised in the sources reviewed."
+  },
+  "angle": {
+    "goal": "Skin",
+    "chain": [
+      "3% DMAE facial gel is applied to the skin",
+      "Acetylcholine-related signalling in skin cells is proposed to be affected",
+      "Firmer-looking skin with softer forehead and eye-area lines"
+    ],
+    "effect": "claimed",
+    "text": "DMAE gels and creams are used on the face and neck for a firmer, smoother look. A 16-week placebo-controlled trial of a 3% facial gel reported improvements in forehead lines, fine periorbital wrinkles and lip fullness [3]."
+  }
 }

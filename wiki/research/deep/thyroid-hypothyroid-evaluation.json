@@ -1,9 +1,20 @@
 {
  "name": "Thyroid / hypothyroid evaluation",
  "lead": [
-  "Thyroid evaluation means testing for hypothyroidism, a condition in which the thyroid does not make enough hormone. In appearance discussions it is raised as a possible medical cause of a persistently puffy face [1].",
-  "Wikipedia lists a puffy face, particularly around the eyes, dry coarse skin, hair loss and loss of the outer eyebrows among signs of the condition, and describes a TSH blood test as the usual first step, with levothyroxine as standard treatment [1]. Evaluation is a clinical matter, and the wiki documents what clinical sources report."
+  "Thyroid evaluation is the blood-test workup for hypothyroidism, a condition in which the thyroid gland makes too little thyroid hormone. People interested in their appearance look into it because the condition can show up in the face and hair: a puffy face, especially around the eyes, dry coarse skin, thinning hair and loss of the outer part of the eyebrows are all listed among its signs [1]. When a medical cause is behind persistent puffiness or hair changes, identifying it is the route to looking the way one otherwise would.",
+  "The usual first step is a TSH (thyroid-stimulating hormone) blood test, often repeated several weeks later, followed by free T4 if TSH is high. Standard treatment is the synthetic hormone levothyroxine, with doses adjusted by follow-up TSH results [1]. Hypothyroidism is common worldwide, and many people have mild or no symptoms, so testing is how it is confirmed or ruled out.",
+  "In looksmaxxing communities thyroid health comes up in threads on face puffiness, hair, eye area, height and body composition, where members swap lab results and discuss thyroid hormone, diet and supplements [2][3]. Clinical guidance on diagnosis and treatment comes from bodies such as NICE and the American Association of Clinical Endocrinologists, as summarised in Wikipedia [1]."
  ],
+ "angle": {
+  "goal": "Face and hair",
+  "chain": [
+   "Blood tests (TSH, then free T4) check thyroid hormone status",
+   "A thyroid-related cause of facial puffiness or hair thinning is confirmed or ruled out",
+   "Treatment of a confirmed deficiency can address those signs"
+  ],
+  "effect": "indirect",
+  "text": "Thyroid evaluation matters for looks when low thyroid hormone is the reason behind a puffy face, dry skin, thinning hair or thinned outer eyebrows. Testing identifies whether that is the case, and levothyroxine treatment is the standard clinical response when it is [1]."
+ },
  "infobox": [
   [
    "Condition",
@@ -11,39 +22,84 @@
   ],
   [
    "First test",
-   "TSH blood test"
+   "TSH blood test [1]"
+  ],
+  [
+   "Follow-up test",
+   "Free T4 if TSH is high [1]"
   ],
   [
    "Standard treatment",
-   "Levothyroxine"
+   "Levothyroxine [1]"
+  ],
+  [
+   "Most common cause (iodine-sufficient regions)",
+   "Hashimoto thyroiditis [1]"
   ],
   [
    "Prevalence (US, overt)",
-   "About 0.3 to 0.4%"
+   "About 0.3 to 0.4% [1]"
   ]
  ],
  "sections": [
   {
    "h": "Signs relevant to appearance",
    "paras": [
-    "Reported features include facial puffiness around the eyes, pale expressionless look, dry skin, myxedema, hair thinning and loss of the outer eyebrows. Many people have mild or no symptoms [1]."
+    "Reported features of hypothyroidism include facial puffiness around the eyes, a pale or expressionless look, dry coarse skin, hair thinning and loss of the outer eyebrows. Many people have mild symptoms or none, and many of the symptoms are common in people with normal thyroid function [1].",
+    "Weight gain is another listed symptom, which is why thyroid status is also discussed in body-composition threads on T Nation, where some posters describe a hypothyroidism diagnosis alongside difficulty controlling weight [4]."
    ]
   },
   {
    "h": "Diagnosis and causes",
    "paras": [
-    "A TSH test is the best first test, usually repeated several weeks later, with free T4 measured if TSH is high. Iodine deficiency is the most common cause worldwide, and Hashimoto thyroiditis is the most common cause where iodine is sufficient [1]."
+    "A TSH test is considered the best initial test. An elevated TSH indicates the gland is not producing enough hormone, and free T4 is then often measured. Overt hypothyroidism shows high TSH with low T4, while subclinical hypothyroidism shows raised TSH with normal free T4 [1]. AACE and NICE discourage routine T3 measurement when assessing for hypothyroidism [1].",
+    "Iodine deficiency is the most common cause worldwide, and Hashimoto thyroiditis, an autoimmune condition, is the most common cause where iodine intake is sufficient. Less common causes include prior radioactive iodine or thyroid surgery, certain medications, and pituitary or hypothalamic problems (central hypothyroidism) [1]."
+   ]
+  },
+  {
+   "h": "Treatment",
+   "paras": [
+    "Hypothyroidism is managed with levothyroxine, with TSH checked 4 to 8 weeks after starting or changing the dose [1]. Thyroid medication is described as safe in pregnancy [1]. Dietary iodine adequacy matters, and the same source notes that too much iodine may worsen some forms of the condition [1]."
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "Clinical guidelines from bodies such as NICE and AACE/ATA address diagnosis and treatment of hypothyroidism [1]. No studies found specifically on thyroid testing as a looksmaxxing or de-puffing strategy."
+    "No studies have examined thyroid testing specifically as a strategy for facial appearance. Studies of thyroid conditions themselves include several that relate to nutrition. A systematic review and meta-analysis of randomised trials examined selenium supplementation in Hashimoto thyroiditis, with TSH, thyroid antibodies and ultrasound findings among its outcomes [5]. A randomised trial in Hashimoto patients looked at selenium's effect on thyroid autoimmunity and regulatory T cells [6]. A double-blind randomised trial tested ashwagandha root extract in people with subclinical hypothyroidism [7], and another randomised trial examined myo-inositol combined with selenium in Hashimoto patients with subclinical hypothyroidism [8].",
+    "A systematic review and meta-analysis examined the relationship between iron deficiency and thyroid function [9], and a 2024 review summarised the role of nutrition in thyroid function [10]."
    ]
   }
  ],
  "timeline": [],
- "lore": null,
+ "lore": {
+  "intro": "On looksmax.org, thyroid function appears in threads linking hormones to face, hair, eyes and height, and in lab-result discussions, with some posters drawing on the writings of Ray Peat [2][3][11].",
+  "claims": [
+   {
+    "claim": "Thyroid function influences facial structure and 'looks, personality and more'",
+    "believers": "A long thread argues that energy production and tissue structure are interdependent and that thyroid hormone sits at the centre of that relationship, quoting Ray Peat [2].",
+    "experts": "Clinical sources describe thyroid hormone as required for normal functioning of numerous tissues, and list facial puffiness and hair changes among hypothyroid signs [1]. No published studies have tested the broader looks-and-personality framing.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Taking T3 thyroid hormone improved the eye area within days",
+    "believers": "One looksmax.org user titled a thread to say their eye area improved in three days of taking T3 thyroid pills [12].",
+    "experts": "Guidance summarised by Wikipedia discourages T3 measurement as part of hypothyroidism assessment, and the standard treatment is levothyroxine monitored by TSH [1]. No trials have tested T3 for eye-area appearance.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "A healthy thyroid is important for hair growth",
+    "believers": "Forum threads connect thyroid function to hair density and discuss thyroid support as part of hair maintenance [13].",
+    "experts": "Hair thinning is a listed sign of hypothyroidism, and treatment of the underlying condition is the clinical approach [1].",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Thyroid hormone manipulation can aid heightmaxxing",
+    "believers": "Some members ask how to raise thyroid function for height, and discuss ashwagandha's effect on thyroid hormones in that context [14].",
+    "experts": "A randomised trial of ashwagandha extract was conducted in subclinical hypothyroid patients, with thyroid hormone levels as its subject [7]. No published trials have tested thyroid manipulation for height in people with normal thyroid function.",
+    "evidence": "untested"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -52,14 +108,113 @@
    "source": "Wikipedia",
    "year": 2026,
    "type": "encyclopedia"
-  }
- ],
- "webSources": [
+  },
   {
-   "url": "https://en.wikipedia.org/wiki/Hypothyroidism",
-   "title": "Hypothyroidism"
+   "id": 2,
+   "title": "Blackpill Thyroid Function and It's Relation to Looks, Personality and More",
+   "url": "https://looksmax.org/threads/thyroid-function-and-its-relation-to-looks-personality-and-more.414919/",
+   "source": "looksmax.org",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 3,
+   "title": "THYROID VALIDITY [LONG-READ]",
+   "url": "https://looksmax.org/threads/thyroid-validity-long-read.319421/",
+   "source": "looksmax.org",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 4,
+   "title": "TED Talks: Enough With The Fear Of Being Fat",
+   "url": "https://t-nation.com/t/ted-talks-enough-with-the-fear-of-being-fat/223777",
+   "source": "T Nation forum",
+   "year": 2016,
+   "type": "forum"
+  },
+  {
+   "id": 5,
+   "title": "Selenium Supplementation in Patients with Hashimoto Thyroiditis: A Systematic Review and Meta-Analysis of Randomized Clinical Trials",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38243784/",
+   "source": "Thyroid",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Effect of selenium on thyroid autoimmunity and regulatory T cells in patients with Hashimoto's thyroiditis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33650299/",
+   "source": "Clinical and Translational Science",
+   "year": 2021,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Efficacy and Safety of Ashwagandha Root Extract in Subclinical Hypothyroid Patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28829155/",
+   "source": "Journal of Alternative and Complementary Medicine",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Myo-inositol plus selenium supplementation restores euthyroid state in Hashimoto's patients with subclinical hypothyroidism",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28724185/",
+   "source": "European Review for Medical and Pharmacological Sciences",
+   "year": 2017,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Relationship between Iron Deficiency and Thyroid Function: A Systematic Review and Meta-Analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38004184/",
+   "source": "Nutrients",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 10,
+   "title": "The Role of Nutrition on Thyroid Function",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39125376/",
+   "source": "Nutrients",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "got my thyroid levels checked ray peat cels please give me advice",
+   "url": "https://looksmax.org/threads/got-my-thyroid-levels-checked-ray-peat-cels-please-give-me-advice.625656/",
+   "source": "looksmax.org",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 12,
+   "title": "my eye area has improved in just 3 days just taking t3 thyroid pills",
+   "url": "https://looksmax.org/threads/my-eye-area-has-improved-in-just-3-days-just-taking-t3-thyroid-pills.929044/",
+   "source": "looksmax.org",
+   "year": 2021,
+   "type": "forum"
+  },
+  {
+   "id": 13,
+   "title": "a healthy thyroid is important for hair growth",
+   "url": "https://looksmax.org/threads/a-healthy-thyroid-is-important-for-hair-growth.1777916/",
+   "source": "looksmax.org",
+   "year": 2024,
+   "type": "forum"
+  },
+  {
+   "id": 14,
+   "title": "effects of ashwagandha on thyroid hormones and its implications for heightmaxing",
+   "url": "https://looksmax.org/threads/effects-of-ashwagandha-on-thyroid-hormones-and-its-implications-for-heightmaxing.898237/",
+   "source": "looksmax.org",
+   "year": 2021,
+   "type": "forum"
   }
  ],
+ "webSources": [],
  "card": {
   "summary": "Checking thyroid function as a medical explanation for a puffy face; clinical, not cosmetic.",
   "aka": "TSH testing",

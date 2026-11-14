@@ -1,8 +1,9 @@
 {
  "name": "JNJ-26146900",
  "lead": [
-  "JNJ-26146900 is an experimental nonsteroidal selective androgen receptor modulator (SARM) developed by Johnson & Johnson, investigated as a possible prostate cancer treatment. It has never been marketed and, according to Wikipedia, was never tested in humans.[1]",
-  "In a 2007 rat study, the compound bound the androgen receptor with modest affinity and behaved as an antagonist in a cell-based assay, similar to bicalutamide, while showing tissue-selective effects in animals: it reduced prostate weight and prostate tumor size and prevented some of the bone loss that follows castration.[2] Because it is a SARM-class research compound, it is occasionally mentioned in muscle-building discussions, but no human appearance or muscle data exist."
+  "JNJ-26146900 is an experimental nonsteroidal selective androgen receptor modulator (SARM) developed by Johnson & Johnson and investigated as a possible prostate cancer treatment. It has never been marketed and, according to Wikipedia, was never tested in humans.[1] SARMs as a class are designed to activate the androgen receptor in muscle and bone more than in tissues such as the prostate, which is why the class draws interest from people who want more lean mass and a more muscular physique.[3]",
+  "In the 2007 rat study that described it, the compound bound the androgen receptor with modest affinity and behaved as an antagonist in a cell-based assay, similar to bicalutamide, while showing tissue-selective effects in animals: it reduced prostate weight and prostate tumor size and prevented some of the bone loss that follows castration.[2] Because it is a SARM-class research compound, it is occasionally mentioned in muscle-building discussions, but no human muscle or appearance data exist.",
+  "For context, Wikipedia's SARM article says no SARM has been approved by the FDA or EMA as of 2023, that the World Anti-Doping Agency banned the class in 2008, and that gray-market SARM products sold as research chemicals have often been mislabeled.[3]"
  ],
  "infobox": [
   [
@@ -31,7 +32,14 @@
    "h": "Pharmacology",
    "paras": [
     "In the original characterisation, JNJ-26146900 bound the rat androgen receptor with a Ki of about 400 nM and acted as a pure antagonist in an in vitro cell-based assay, resembling bicalutamide in that setting.[2] In intact and castrated rats it reduced ventral prostate weight and slowed growth of prostate tumors, and it limited bone loss after orchidectomy.[2]",
-    "Wikipedia describes the profile as agonist-like in muscle and bone and antagonist-like in the prostate, and notes it is structurally related to JNJ-37654032.[1]"
+    "Wikipedia describes the profile as agonist-like in muscle and bone and antagonist-like in the prostate, and notes it is structurally related to JNJ-37654032.[1]",
+    "Rats were tested for bone loss and lean body mass after orchidectomy; the abstract reports that a 30 mg/kg dose significantly reduced castration-induced tibial bone loss.[2]"
+   ]
+  },
+  {
+   "h": "The SARM class",
+   "paras": [
+    "SARMs emerged as a class in 1998. Clinical trials have generally shown gains in lean mass, though evidence that strength or physical function improved is unclear; one phase III trial of enobosarm raised lean mass without a significant functional benefit.[3] These class findings are not data on JNJ-26146900."
    ]
   },
   {
@@ -43,7 +51,8 @@
   {
    "h": "Society and culture",
    "paras": [
-    "The compound has no approved use anywhere and was not developed as a cosmetic or performance product. Its appearance in lists of SARMs reflects its class rather than any documented human use."
+    "The compound has no approved use anywhere and was not developed as a cosmetic or performance product. Its appearance in lists of SARMs reflects its class rather than any documented human use.",
+    "The wider SARM class is sold on gray markets as research chemicals; Wikipedia reports that bodybuilders and athletes use SARMs, that one study found most online products were mislabeled, and that case reports link recreational use to drug-induced liver injury.[3] Trials of approved-stage SARMs report mostly mild side effects such as raised liver enzymes, lower HDL cholesterol and suppression of testosterone and gonadotropins.[3]"
    ]
   }
  ],
@@ -70,12 +79,24 @@
    "source": "J Steroid Biochem Mol Biol",
    "year": 2007,
    "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Selective androgen receptor modulator",
+   "url": "https://en.wikipedia.org/wiki/Selective_androgen_receptor_modulator",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/JNJ-26146900",
    "title": "JNJ-26146900 - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Selective_androgen_receptor_modulator",
+   "title": "Selective androgen receptor modulator"
   }
  ],
  "card": {
@@ -92,5 +113,15 @@
   "overview": "JNJ-26146900 is an experimental SARM that Johnson & Johnson studied as a possible prostate cancer drug. It was never marketed.\n\nIn rats it shrank prostate tumors and limited castration-related bone loss. No human trials have been published, and nothing is known about any muscle or appearance effect in people.",
   "mechanism": "It binds the androgen receptor and acts differently in different tissues: antagonist-like in the prostate, with anabolic effects reported in muscle and bone in animals.",
   "risks": "Human safety has not been studied. It is not approved for any use."
+ },
+ "angle": {
+  "goal": "Muscle",
+  "chain": [
+   "Selective activation of the androgen receptor in muscle and bone",
+   "Proposed gain in lean mass and bone",
+   "Fuller, more muscular physique"
+  ],
+  "effect": "claimed",
+  "text": "The SARM concept is that muscle-targeted androgen signalling could add lean mass. For this specific compound, tissue effects were seen only in rats, in a prostate cancer context."
  }
 }

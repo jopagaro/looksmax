@@ -1,9 +1,33 @@
 {
  "name": "Tripeptide-10 citrulline",
+ "card": {
+  "summary": "A decorin-mimicking peptide meant to tidy collagen fibres, backed by in vitro data and one 24-person study.",
+  "aka": "Decorinyl",
+  "evidence": "limited",
+  "status": "otc",
+  "note": "Clinical data are small and tested mostly in combination.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Tripeptide-10 citrulline is a cosmetic peptide modeled on decorin, a molecule that organizes collagen fibres. It is sold as Decorinyl in anti-wrinkle products.\n\nLab tests showed more uniform collagen fibres, and a small randomized study reported skin-surface changes.",
+  "mechanism": "It is designed to bind collagen like decorin, regulating fibril diameter and cohesion in vitro.",
+  "risks": "The published abstracts do not report adverse effects; safety data beyond these studies were not found."
+ },
  "lead": [
-  "Tripeptide-10 citrulline (marketed as Decorinyl) is a synthetic peptide designed to mimic the collagen-binding behavior of decorin, a proteoglycan that regulates collagen fibre assembly. It is used in anti-aging cosmetics.",
-  "In vitro work reported that it made collagen fibres thinner and more uniform [1], and a 24-person randomized study of its combination with acetyl hexapeptide-3 reported measurable changes in skin microtopography and transepidermal water loss [2]."
+  "Tripeptide-10 citrulline (marketed as Decorinyl) is a synthetic peptide used in anti-aging skin care to make skin look smoother and firmer by supporting orderly collagen fibres. It is designed to mimic the collagen-binding behaviour of decorin, a small proteoglycan that helps regulate how collagen fibrils form, so cosmetic users apply it in the hope of fewer visible wrinkles and better skin texture.[1][2][3]",
+  "The 2008 report that described it argued that functional decorin declines as skin ages, leaving collagen fibres disrupted and tensile strength reduced, so a decorin substitute could make up the difference. Its authors identified tetrapeptide candidates from decorin's collagen-binding sites, screened them in a collagen fibrillogenesis assay, and found that tripeptide-10 citrulline regulated fibril diameter in vitro.[1] They describe it as targeting collagen quality rather than quantity.[1]",
+  "A 2017 randomized study of 24 volunteers tested the peptide with and without acetyl hexapeptide-3 and measured skin microtopography and transepidermal water loss.[2] Wikipedia describes decorin as a collagen-binding proteoglycan that influences fibril formation.[3]"
  ],
+ "angle": {
+  "goal": "Skin / wrinkles",
+  "chain": [
+   "Topical peptide mimics decorin's collagen-binding sites",
+   "Collagen fibrils form more uniformly in lab tests",
+   "Skin surface looks smoother and firmer, as measured in a small study"
+  ],
+  "effect": "indirect",
+  "text": "The peptide is added to creams and serums to improve how collagen is organised, with the aim of smoother, more even-textured skin. Users apply it as part of an anti-wrinkle routine, usually in formulas that also contain other peptides."
+ },
  "infobox": [
   [
    "Type",
@@ -14,36 +38,46 @@
    "Decorinyl"
   ],
   [
-   "Route",
-   "Topical"
+   "Inspired by",
+   "Decorin collagen-binding sites[1]"
   ],
   [
-   "Design basis",
-   "Decorin-binding sequences"
+   "Status",
+   "OTC cosmetic ingredient"
+  ],
+  [
+   "Reported research",
+   "In vitro fibrillogenesis assay (2008); 24-person randomized study (2017)[1][2]"
   ]
  ],
  "sections": [
   {
    "h": "Pharmacology",
    "paras": [
-    "Decorin binds collagen and limits excessive bundle-like aggregation; the authors of the 2008 report argued that decorin function declines with age. They engineered tetrapeptide candidates from decorin's collagen-binding sites and screened them in a collagen fibrillogenesis assay; Tripeptide-10 Citrulline performed best and regulated fibril diameter in vitro [1]. The authors describe it as targeting collagen quality rather than quantity [1]."
+    "Decorin binds collagen and limits excessive bundle-like aggregation. The authors of the 2008 report argued that decorin function declines with age. They engineered tetrapeptide candidates from decorin's collagen-binding sites and screened them in a collagen fibrillogenesis assay; tripeptide-10 citrulline performed best and regulated fibril diameter in vitro, producing thinner and more uniform fibres.[1] Wikipedia describes decorin as a small proteoglycan binding type I collagen fibrils and influencing fibrillogenesis and matrix assembly.[3]"
+   ]
+  },
+  {
+   "h": "Use in skin care",
+   "paras": [
+    "Tripeptide-10 citrulline appears in anti-aging products, often alongside other peptides such as acetyl hexapeptide-3, which was the other active in the 2017 study.[2]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "A prospective randomized controlled study enrolled 24 healthy volunteers across four groups: the two peptides combined, each alone, or neither, for 60 days. Skin microtopography parameters and transepidermal water loss were measured. The authors concluded the results supported antiwrinkle activity of acetyl hexapeptide-3 and provided clinical evidence for tripeptide-10 citrulline, while noting that the mechanism of any synergy was unclear [2]. The sample was small."
+    "A prospective randomized controlled study enrolled 24 healthy volunteers across four groups: the two peptides combined, each alone, or neither, for 60 days. Skin microtopography parameters and transepidermal water loss were measured with a skin visioscan and tewameter, with significant between-group differences at several time points.[2] The authors concluded the results supported antiwrinkle activity of acetyl hexapeptide-3 and provided clinical evidence for tripeptide-10 citrulline, while noting that the mechanism of any synergy was unclear.[2] The sample was small."
    ]
   }
  ],
  "timeline": [
   {
    "year": "2008",
-   "event": "Decorin-like peptide described in the International Journal of Cosmetic Science [1]."
+   "event": "A decorin-like tetrapeptide for organising collagen fibres is described, including tripeptide-10 citrulline.[1]"
   },
   {
    "year": "2017",
-   "event": "Randomized study of combination with acetyl hexapeptide-3 published [2]."
+   "event": "A randomized study of its combination with acetyl hexapeptide-3 is published.[2]"
   }
  ],
  "lore": null,
@@ -63,20 +97,19 @@
    "source": "Journal of Cosmetic Dermatology",
    "year": 2017,
    "type": "trial"
+  },
+  {
+   "id": 3,
+   "title": "Decorin (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Decorin",
+   "source": "Wikipedia",
+   "type": "encyclopedia"
   }
  ],
- "webSources": [],
- "card": {
-  "summary": "A decorin-mimicking peptide meant to tidy collagen fibres, backed by in vitro data and one 24-person study.",
-  "aka": "Decorinyl",
-  "evidence": "limited",
-  "status": "otc",
-  "note": "Clinical data are small and tested mostly in combination.",
-  "structure": null
- },
- "quick": {
-  "overview": "Tripeptide-10 citrulline is a cosmetic peptide modeled on decorin, a molecule that organizes collagen fibres. It is sold as Decorinyl in anti-wrinkle products.\n\nLab tests showed more uniform collagen fibres, and a small randomized study reported skin-surface changes.",
-  "mechanism": "It is designed to bind collagen like decorin, regulating fibril diameter and cohesion in vitro.",
-  "risks": "The published abstracts do not report adverse effects; safety data beyond these studies were not found."
- }
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Decorin",
+   "title": "Decorin (Wikipedia)"
+  }
+ ]
 }

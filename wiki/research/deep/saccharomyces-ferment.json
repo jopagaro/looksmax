@@ -1,10 +1,19 @@
 {
- "name": "Saccharomyces ferment",
  "lead": [
-  "Saccharomyces ferment is a cosmetic ingredient name for the filtered product of yeast (Saccharomyces) fermentation, used in essences and serums. The best-known branded example is Pitera, the yeast-derived ingredient in the Japanese skincare line SK-II.[1]",
-  "According to the brand history, SK-II was developed in Japan in the 1970s after scientists noticed that elderly sake brewery workers had smooth hands from handling fermenting yeast; the brand launched in the early 1980s.[1] The Wikipedia article on the brand gives no composition for Pitera and cites no studies.[1]",
-  "Published human research on this ingredient is very limited. A small registered trial examined a probiotic-containing skincare product range, which is a related but different category.[2]"
+  "Saccharomyces ferment is a cosmetic ingredient name for the filtered product of yeast (Saccharomyces) fermentation, used in essences, toners and serums that are applied to the face. People use these products for smoother, more hydrated and more even-looking skin. The best-known branded example is Pitera, the yeast-derived ingredient in the Japanese skincare line SK-II.[1]",
+  "According to the brand history, SK-II was developed in Japan in the 1970s after scientists noticed that elderly sake brewery workers had smooth hands from handling fermenting yeast; the brand launched in the early 1980s.[1] Wikipedia's article on yeast extract says yeast products are used in cosmetics for claimed moisturizing and antioxidant benefits, while describing no studies of these effects.[3]",
+  "Published human research on this ingredient is limited. A small registered trial examined a probiotic-containing skincare product range, which is a related but different category.[2]"
  ],
+ "angle": {
+  "goal": "Skin texture and hydration",
+  "chain": [
+   "Yeast ferment filtrate applied in an essence or serum",
+   "Moisturizing and antioxidant benefits, as claimed by brands",
+   "Smoother, more hydrated-looking skin"
+  ],
+  "effect": "claimed",
+  "text": "People apply yeast-ferment essences as a step after cleansing, aiming for softer, brighter and more even skin. The pitch from brands and users is a smoother complexion."
+ },
  "infobox": [
   [
    "Type",
@@ -16,11 +25,15 @@
   ],
   [
    "Origin story",
-   "Japan, 1970s (brand history)[1]"
+   "Japan, 1970s (brand history)"
   ],
   [
    "Routes",
    "Topical"
+  ],
+  [
+   "Looks goal",
+   "Smoother, hydrated skin"
   ]
  ],
  "sections": [
@@ -29,6 +42,13 @@
    "paras": [
     "SK-II, the best-known user of a yeast-ferment essence, was developed in Japan and launched in the early 1980s. Procter & Gamble acquired it in 1991 through its purchase of Max Factor, and sales expanded to China and South Korea from 2000.[1]",
     "In 2005 and 2006, SK-II products were the subject of regulatory controversy in China and South Korea. P&G paid a fine in China after a customer complaint about advertising accuracy and an allergic reaction, and sales were suspended in both countries before resuming after authorities reported that trace elements in the products were unlikely to harm health.[1]"
+   ]
+  },
+  {
+   "h": "Yeast in skincare",
+   "paras": [
+    "Yeast extract, made from the cell contents of yeast, is used as a flavoring and food additive and is rich in B vitamins, and Wikipedia says it also appears in cosmetics for claimed moisturizing and antioxidant benefits.[3] That article cites only an ingredient-information website for the cosmetic claim and does not discuss yeast ferment filtrate specifically.[3]",
+    "Wikipedia's SK-II article gives no composition for Pitera and cites no studies.[1]"
    ]
   },
   {
@@ -69,14 +89,27 @@
    "source": "ClinicalTrials.gov",
    "year": 2017,
    "type": "trial"
+  },
+  {
+   "id": 3,
+   "title": "Yeast extract",
+   "url": "https://en.wikipedia.org/wiki/Yeast_extract",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/SK-II",
-   "title": "SK-II - Wikipedia"
+   "title": "SK-II"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Yeast_extract",
+   "title": "Yeast extract"
   }
  ],
+ "name": "Saccharomyces ferment",
  "card": {
   "summary": "Yeast-fermentation filtrate used in essences like SK-II Pitera; the brand story is well known, direct trials are almost absent.",
   "aka": "Pitera (SK-II), yeast ferment filtrate",

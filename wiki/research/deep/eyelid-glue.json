@@ -15,16 +15,43 @@
     "risks": "No clinical studies of eyelid glue were found. Any adhesive used next to the eye raises general questions of skin and eye irritation, which have not been specifically studied for these products in the sources reviewed."
   },
   "lead": [
-    "Eyelid glue is a cosmetic adhesive applied to the upper eyelid to hold the skin in a fold, giving the appearance of a double eyelid for a limited time. It is a non-surgical alternative to double eyelid surgery, which creates a permanent crease [1].",
-    "No published clinical studies of eyelid glue were located. This article therefore describes the aesthetic context only and does not assess the product's effects."
+    "Eyelid glue, called eye putti (ai puchi) in Japan, is a water-soluble cosmetic adhesive that creates a temporary double eyelid. The glue is painted on the upper lid and the skin is pushed up with a plastic prong and held in a fold, which makes the eyes look bigger and more open and shows more of the lashes [2].",
+    "It is used mainly in East Asia, where double eyelids are considered a sign of feminine beauty, and men use it too. Wikipedia says it became available in Japan in the late 1970s, and that the glue needs about a minute to dry and has to be reapplied after a few hours [2]. A variant, eyelid tape or crease tape, is an elastic fibrous strip trimmed to shape and placed on the lid [2].",
+    "Eyelid glue is a non-surgical, reversible alternative to double eyelid surgery, which creates a permanent crease [1]. No clinical studies of the glue itself were located; a 2025 study did look at long-term use of double eyelid tape [3]."
   ],
   "infobox": [
-    ["Type", "Cosmetic adhesive"],
-    ["Purpose", "Temporary double eyelid crease"],
-    ["Permanence", "Temporary"],
-    ["Related procedure", "Double eyelid surgery"]
+    [
+      "Type",
+      "Cosmetic adhesive (eye make-up)"
+    ],
+    [
+      "Also known as",
+      "Eye putti, ai puchi; double eyelid glue [2]"
+    ],
+    [
+      "Purpose",
+      "Temporary double eyelid crease"
+    ],
+    [
+      "Duration",
+      "A few hours; reapply as needed [2]"
+    ],
+    [
+      "Available",
+      "Japan, from the late 1970s [2]"
+    ],
+    [
+      "Related",
+      "Eyelid tape; double eyelid surgery"
+    ]
   ],
   "sections": [
+    {
+      "h": "Description and use",
+      "paras": [
+        "Wikipedia describes eyelid glue as a water-soluble adhesive that is easy to remove. It is painted on the upper eyelid, the lid is pushed upward with a plastic prong, and the adhesive is left to dry for about a minute so it holds the fold. This creates or deepens a fold that opens the eye and exposes the lashes [2]. Irritation is the only risk Wikipedia mentions [2]."
+      ]
+    },
     {
       "h": "Background",
       "paras": [
@@ -34,16 +61,74 @@
     {
       "h": "Clinical studies",
       "paras": [
-        "No studies found."
+        "No studies found on eyelid glue.",
+        "A 2025 study in Aesthetic Plastic Surgery on double eyelid tape, a related product, surveyed 267 outpatients and measured eyelid laxity, and compared 22 surgery patients with a history of excessive tape use against 11 who never used it. The authors reported higher collagen levels and structural skin changes in tape users, that long-term tape use may cause eyelid laxity and complicate blepharoplasty, and that asymmetry, numbness and hypertrophic scars occurred only in tape users [3]."
       ]
     }
   ],
-  "timeline": [],
+  "timeline": [
+    {
+      "year": "1896",
+      "event": "First recorded double eyelid operation, in Japan [1]."
+    },
+    {
+      "year": "Late 1970s",
+      "event": "Eyelid glue becomes available in Japan [2]."
+    },
+    {
+      "year": "2025",
+      "event": "Study of long-term double eyelid tape use published [3]."
+    }
+  ],
   "lore": null,
   "refs": [
-    { "id": 1, "title": "Asian blepharoplasty", "url": "https://en.wikipedia.org/wiki/Asian_blepharoplasty", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" }
+    {
+      "id": 1,
+      "title": "Asian blepharoplasty",
+      "url": "https://en.wikipedia.org/wiki/Asian_blepharoplasty",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Eyelid glue",
+      "url": "https://en.wikipedia.org/wiki/Eyelid_glue",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "Implications of Long-Term Double Eyelid Tape Use (Europe PMC record)",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:39433617%20AND%20SRC:MED&resultType=core&format=json",
+      "source": "Aesthetic Plastic Surgery",
+      "year": 2025,
+      "type": "study"
+    }
   ],
   "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Asian_blepharoplasty", "title": "Asian blepharoplasty (Wikipedia)" }
-  ]
+    {
+      "url": "https://en.wikipedia.org/wiki/Asian_blepharoplasty",
+      "title": "Asian blepharoplasty (Wikipedia)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Eyelid_glue",
+      "title": "Eyelid glue (Wikipedia)"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:39433617%20AND%20SRC:MED&resultType=core&format=json",
+      "title": "Europe PMC record: Implications of Long-Term Double Eyelid Tape Use"
+    }
+  ],
+  "angle": {
+    "goal": "Eyes",
+    "chain": [
+      "Adhesive is painted on the upper lid and the skin is pushed up into a fold",
+      "Fold stays in place as the glue dries",
+      "A visible double eyelid that opens up the eye and shows the lashes"
+    ],
+    "effect": "direct",
+    "text": "Eyelid glue creates a crease on a monolid or enhances an existing one, for bigger-looking, more open eyes without surgery. The effect lasts for a few hours and comes off with removal."
+  }
 }

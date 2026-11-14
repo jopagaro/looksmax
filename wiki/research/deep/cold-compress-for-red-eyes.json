@@ -1,59 +1,163 @@
 {
-  "name": "Cold compress for red eyes",
-  "lead": [
-    "A cold compress for red eyes is the application of a chilled cloth, pack or similar object to the closed eyelids or face to reduce redness and puffiness for a short time. It is discussed as a quick appearance fix and as a comfort measure in some forms of eye irritation.",
-    "General references list many causes of red eye, from conjunctivitis to dry eye and blepharitis, and do not discuss cold compresses as a treatment for redness.[1] A small randomised trial has tested cold compresses in induced allergic conjunctivitis, and physiology research has examined how cold applied to the face affects autonomic responses such as heart rate and peripheral blood vessels.[2][3]"
+ "name": "Cold compress for red eyes",
+ "card": {
+  "summary": "A chilled cloth on the eyes for a quick depuff; tested only in allergic itch, not for looks.",
+  "aka": "Cold pack, cold press",
+  "evidence": "unproven",
+  "outcome": null,
+  "risk": "low",
+  "price": null,
+  "note": "Persistent red eye can signal a condition needing clinical assessment.",
+  "status": null,
+  "structure": null
+ },
+ "quick": {
+  "overview": "Holding something cold against the eyelids is a common quick fix for puffy or red-looking eyes. The effect is described as temporary.\n\nOne small trial examined cold compresses in induced allergic eye symptoms; none have tested them for cosmetic whiteness.",
+  "mechanism": "Cold on the face causes vasoconstriction in physiology tests, which is the usual reasoning given for reduced redness and swelling.",
+  "risks": "Clinical references list many causes of red eye, some urgent such as angle-closure glaucoma, so persistent or painful redness is a medical matter."
+ },
+ "lead": [
+  "A cold compress for red eyes is a chilled cloth, gel mask, spoon or pack held against closed eyelids to make eyes look less puffy and less irritated for a short time. People use it before photos, events or work as a quick way to look more rested, and some use it after crying, late nights or allergy flare-ups.[1][2]",
+  "The usual reasoning is that cold narrows blood vessels and limits fluid in the tissue, which reduces visible puffiness and flushing. Wikipedia's article on periorbital puffiness presents cold compresses as a short-term fix, attributing the explanation to a beauty-advice book.[3] Physiology research shows that cold applied to the face produces bradycardia and peripheral vasoconstriction, known as the diving reflex.[4]",
+  "Clinical references list many causes of red eye, from allergic and viral conjunctivitis to dry eye and blepharitis.[1] A small randomised trial tested cold compresses, alone and with artificial tears, in induced allergic conjunctivitis.[2]"
+ ],
+ "angle": {
+  "goal": "Eyes / under-eye area",
+  "chain": [
+   "Chilled object held on closed eyelids",
+   "Local vessels narrow and fluid shifts out of the tissue",
+   "Eyes look less red and puffy for a while"
   ],
-  "infobox": [
-    ["Type", "Home appearance and comfort measure"],
-    ["Duration of effect", "Short term"],
-    ["Medical context", "Allergic eye irritation, general eye comfort"]
+  "effect": "direct",
+  "text": "A cold compress is used as a fast, temporary way to look more awake: the lids and under-eye area appear less swollen and the eyes less flushed. People typically use it shortly before they need to look their best."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Home cosmetic / comfort measure"
   ],
-  "sections": [
-    {
-      "h": "Description",
-      "paras": [
-        "The approach uses a chilled object held against closed eyelids. Proponents describe it as a way to narrow blood vessels and reduce swelling quickly before photos or events.",
-        "Physiology research shows that cold applied to the face produces bradycardia and peripheral vasoconstriction, a response known as the diving reflex and used as a test of autonomic function.[3] That research concerns whole-body autonomic responses and not eye whiteness."
-      ]
-    },
-    {
-      "h": "Red eye in clinical references",
-      "paras": [
-        "Wikipedia's article on conjunctivitis lists causes of red eye including viral, bacterial, allergic and chemical conjunctivitis, as well as corneal abrasion, dry eye, blepharitis, keratitis, uveitis and acute angle-closure glaucoma, the last being urgent.[1] It describes allergic cases as sometimes eased by artificial tears or antihistamines.[1]"
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "A randomised, masked trial of 18 grass-pollen-allergic adults tested artificial tears and a cold compress, alone or in combination, after exposure in an environmental chamber, comparing them with topical antiallergic medication.[2] No studies found testing cold compresses for cosmetic eye whiteness in healthy people."
-      ]
-    }
+  [
+   "Typical items",
+   "Chilled cloth, gel mask, cold spoons, ice pack"
   ],
-  "timeline": [],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Conjunctivitis (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Conjunctivitis", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Effectiveness of nonpharmacologic treatments for acute seasonal allergic conjunctivitis", "url": "https://pubmed.ncbi.nlm.nih.gov/24070810/", "source": "Ophthalmology", "year": 2014, "type": "trial" },
-    { "id": 3, "title": "The cold face test (diving reflex) in clinical autonomic assessment", "url": "https://pubmed.ncbi.nlm.nih.gov/2155739/", "source": "Clinical Science", "year": 1990, "type": "study" }
+  [
+   "Duration of look",
+   "Short-term"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Conjunctivitis", "title": "Conjunctivitis (Wikipedia)" }
-  ],
-  "card": {
-    "summary": "A chilled cloth on the eyes for a quick depuff; tested only in allergic itch, not for looks.",
-    "aka": "Cold pack, cold press",
-    "evidence": "unproven",
-    "outcome": null,
-    "risk": "low",
-    "price": null,
-    "note": "Persistent red eye can signal a condition needing clinical assessment.",
-    "status": null,
-    "structure": null
+  [
+   "Related terms",
+   "Cold pack, cold press, cryotherapy"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "The approach uses a chilled object held against closed eyelids or the skin around the eyes. Proponents describe it as a way to narrow blood vessels and reduce swelling quickly, and it appears in everyday beauty routines for morning puffiness.[3] Wikipedia's article on periorbital puffiness lists elevating the head during sleep and diet changes as other approaches and lists allergies, sleep loss, crying, sodium intake and age as common contributors to puffiness.[3]",
+    "Cold therapy more broadly is described as lowering tissue temperature, triggering cycles of vessel narrowing and widening, and reducing swelling; it is widely used after injuries and surgery.[5] Sources on cold therapy also note that ice applied directly to skin can cause burns, which is why wrapped or gel packs with time limits are recommended.[5]"
+   ]
   },
-  "quick": {
-    "overview": "Holding something cold against the eyelids is a common quick fix for puffy or red-looking eyes. The effect is described as temporary.\n\nOne small trial examined cold compresses in induced allergic eye symptoms; none have tested them for cosmetic whiteness.",
-    "mechanism": "Cold on the face causes vasoconstriction in physiology tests, which is the usual reasoning given for reduced redness and swelling.",
-    "risks": "Clinical references list many causes of red eye, some urgent such as angle-closure glaucoma, so persistent or painful redness is a medical matter."
+  {
+   "h": "Red eye in clinical references",
+   "paras": [
+    "Wikipedia's article on conjunctivitis lists causes of red eye including viral, bacterial, allergic and chemical conjunctivitis, as well as corneal abrasion, dry eye, blepharitis, keratitis, uveitis and acute angle-closure glaucoma, the last being urgent.[1] It describes allergic cases as sometimes eased by artificial tears or antihistamines.[1] A systematic review of guidelines for conjunctivitis covers recommended management across infectious and non-infectious forms.[6]"
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing communities",
+   "paras": [
+    "Cold compresses appear in forum posts mainly as part of recovery routines. One T Nation member described assembling a small kit that included cold compresses for the eyes, mint tea and electrolyte packets for the aftermath of a night out.[7] This is a mention in passing rather than a protocol."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A randomised, masked trial of 18 grass-pollen-allergic adults tested artificial tears and a cold compress, alone or in combination, after exposure in an environmental chamber, comparing them with topical antiallergic medication.[2] Studies of the cold face test describe the cardiovascular responses to facial cold exposure.[4] No studies found testing cold compresses for cosmetic eye whiteness or under-eye puffiness in healthy people."
+   ]
   }
+ ],
+ "timeline": [],
+ "lore": {
+  "intro": "Cold compresses are mentioned in passing in recovery routines; community material specific to red eyes is limited.[7]",
+  "claims": [
+   {
+    "claim": "A cold compress quickly reduces eye redness and puffiness.",
+    "believers": "Practitioners say cold narrows vessels and reduces swelling within minutes, and it is included in post-night-out recovery kits.[3][7]",
+    "experts": "Reference sources describe cold as a short-term measure for puffiness and note that facial cold causes vasoconstriction in autonomic tests; no trial has measured eye whiteness in healthy people.[3][4]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Cold compresses ease allergic eye symptoms.",
+    "believers": "People with seasonal allergies describe chilled cloths as soothing.",
+    "experts": "An 18-participant randomised trial in induced allergic conjunctivitis tested cold compresses alone and with artificial tears against antiallergic medication.[2]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Periorbital_puffiness",
+   "title": "Periorbital puffiness (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Cold_compression_therapy",
+   "title": "Cold compression therapy (Wikipedia)"
+  }
+ ],
+ "refs": [
+  {
+   "id": 1,
+   "title": "Conjunctivitis (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Conjunctivitis",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Effectiveness of nonpharmacologic treatments for acute seasonal allergic conjunctivitis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24070810/",
+   "source": "Ophthalmology",
+   "year": 2014,
+   "type": "trial"
+  },
+  {
+   "id": 3,
+   "title": "Periorbital puffiness (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Periorbital_puffiness",
+   "source": "Wikipedia",
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "The cold face test (diving reflex) in clinical autonomic assessment",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2155739/",
+   "source": "Clinical Science",
+   "year": 1990,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Cold compression therapy (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Cold_compression_therapy",
+   "source": "Wikipedia",
+   "type": "encyclopedia"
+  },
+  {
+   "id": 6,
+   "title": "A Systematic Review of Clinical Practice Guidelines for Infectious and Non-infectious Conjunctivitis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34459321/",
+   "source": "Ophthalmic Epidemiology",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Enter Planet Cybertron",
+   "url": "https://t-nation.com/t/enter-planet-cybertron/220550",
+   "source": "T Nation forum",
+   "year": 2016,
+   "type": "forum"
+  }
+ ]
 }

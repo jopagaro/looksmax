@@ -1,8 +1,9 @@
 {
  "name": "ARO-ALK7",
  "lead": [
-  "ARO-ALK7 is an investigational RNA interference (RNAi) therapy directed at ALK7, a receptor involved in fat-cell signalling. It is being tested in adults with obesity, with and without type 2 diabetes. It is not approved for any use.[1]",
-  "The sole source of public information is a clinical trial registration: a Phase 1/2 first-in-human study (NCT06937203) that began on 9 May 2025, is recruiting, and plans to enroll 150 adults.[1] No results have been reported in the sources reviewed."
+  "ARO-ALK7 is an investigational RNA interference (RNAi) therapy directed at ALK7, a receptor involved in fat-cell signalling. It is being tested in adults with obesity, with and without type 2 diabetes, and its relevance to appearance is body fat: if it lowers fat-cell signalling as intended, the outcome of interest is reduced fat mass and a leaner build. It is not approved for any use [1].",
+  "The sole clinical information is a trial registration: a Phase 1/2 first-in-human study (NCT06937203) that began on 9 May 2025, is recruiting, and plans to enroll 150 adults [1]. No results have been reported.",
+  "On the biology, a 2025 review describes activin E and its adipocyte receptor pathway as regulators of fat-cell lipolysis and diet-induced obesity [2], and a 2026 preprint reports that deleting GDF3, an antagonist of the ActE/ALK7 pathway, reduced adipose lipolysis in obese mice [3]."
  ],
  "infobox": [
   [
@@ -23,6 +24,12 @@
   ]
  ],
  "sections": [
+  {
+   "h": "Mechanism of action",
+   "paras": [
+    "RNAi drugs lower production of a chosen protein by silencing its gene; here the target is ALK7. Research on the activin E to ALK7 pathway in adipocytes is reviewed in the literature [2], and animal work on the pathway is ongoing [3]."
+   ]
+  },
   {
    "h": "Clinical studies",
    "paras": [
@@ -45,9 +52,30 @@
    "source": "ClinicalTrials.gov",
    "year": 2025,
    "type": "trial"
+  },
+  {
+   "id": 2,
+   "title": "Activin Actions in Adipocytes",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22ALK7%22%20adipose%20obesity%20human%20genetic&format=json&resultType=core&pageSize=5",
+   "source": "J Clin Endocrinol Metab via Europe PMC",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "GDF3 is an endogenous antagonist of the ActE-ALK7/ACVR2 pathway in adipocytes (preprint)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22ALK7%22%20adipose%20obesity%20human%20genetic&format=json&resultType=core&pageSize=5",
+   "source": "bioRxiv via Europe PMC",
+   "year": 2026,
+   "type": "study"
   }
  ],
- "webSources": [],
+ "webSources": [
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22ALK7%22%20adipose%20obesity%20human%20genetic&format=json&resultType=core&pageSize=5",
+   "title": "Europe PMC search: ALK7 adipose obesity"
+  }
+ ],
  "card": {
   "summary": "An experimental RNAi drug against ALK7 for obesity; a single early trial is recruiting and no results exist.",
   "aka": null,
@@ -63,5 +91,15 @@
   "overview": "ARO-ALK7 is an experimental RNA interference drug aimed at the ALK7 gene, being tested for obesity in a first-in-human trial.\n\nNo results have been published, so its effects are unknown.",
   "mechanism": "RNAi drugs lower production of a chosen protein by silencing its gene; here the target is ALK7.",
   "risks": "No safety data have been reported. The drug is investigational and not available by prescription."
+ },
+ "angle": {
+  "goal": "Body fat reduction",
+  "chain": [
+   "RNAi lowers ALK7 production in fat cells",
+   "Fat-cell signalling is altered",
+   "Possible reduction in fat mass (under study)"
+  ],
+  "effect": "claimed",
+  "text": "ARO-ALK7 is being tested for obesity, where the intended outcome is less body fat. Whether it changes fat mass in people is not yet known."
  }
 }

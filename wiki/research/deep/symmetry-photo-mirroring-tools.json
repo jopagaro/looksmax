@@ -1,54 +1,154 @@
 {
-  "name": "Symmetry photo mirroring tools",
-  "card": {
-    "summary": "Apps and editors that build left-left and right-right face composites to visualise asymmetry; a research method with known artefacts.",
-    "aka": "Left-left / right-right composites",
-    "evidence": "limited",
-    "risk": "low",
-    "note": "Mirrored composites can create artificial features, which researchers cite as a criticism of the method.",
-    "price": null
-  },
-  "quick": {
-    "overview": "Symmetry photo mirroring tools take a front-facing photo, split it down the midline and mirror each half to create two composite faces, one built from two left sides and one from two right sides. Users compare them with the original to see how asymmetric the face looks.\n\nThe technique is also used in academic research on facial symmetry and attractiveness, where it has been criticised for the artefacts it can produce.",
-    "mechanism": "The tool duplicates and flips one half of the face over a chosen midline. The result depends on where the midline is placed and on head rotation and tilt in the photo.",
-    "risks": "No physical risk. Because the composites exaggerate or hide particular features, the method has been criticised as a basis for conclusions about a face."
-  },
-  "lead": [
-    "Symmetry photo mirroring tools produce composite images from a single face photograph by mirroring its left half or right half across the midline, yielding a left-left and a right-right version. Looksmaxxing communities use them to visualise asymmetry and to compare the composites with the unaltered face.",
-    "The same technique appears in facial attractiveness research, which tested the symmetry-attractiveness link by mirroring face halves and blending faces. Critics note that mirroring can create artificial features; for example a slightly bent nose can appear oversized or unnaturally small depending on which side is copied [1]."
+ "name": "Symmetry photo mirroring tools",
+ "lead": [
+  "Symmetry photo mirroring tools produce composite images from a single front-facing photograph by copying and flipping its left half or right half across the midline, yielding a left-left and a right-right version of the face. People use them to see which side of their face looks more balanced or more appealing, to measure how much the two sides differ, and to decide how to present themselves in photos, grooming, hairstyle or cosmetic planning.[1][2][3]",
+  "Consumer apps such as YouCam Perfect offer a mirror tool in which a slider adjusts the mirror line, and a reshape tool for adjusting features such as jawline, brows and cheekbones side by side. The vendor's guidance says the mirror view can show which side is the better side, and that small differences between the two halves are normal.[3]",
+  "The same technique appears in academic work. Researchers have built left-left and right-right composites to quantify face symmetry from photographs, to test whether judgments of beauty belong to the face or to the observer, and to study which half of the face expresses emotion more strongly.[4][5][6] Wikipedia notes that mirroring can create artificial features, which has been raised as a criticism of the method.[1]"
+ ],
+ "angle": {
+  "goal": "Symmetry",
+  "chain": [
+   "Photo split at midline and each half mirrored",
+   "Left-left and right-right faces compared with the original",
+   "Person sees which side and which features differ",
+   "Informs framing, grooming and presentation choices"
   ],
-  "infobox": [
-    ["Type", "Photo-editing technique / app"],
-    ["Output", "Left-left and right-right composite faces"],
-    ["Research use", "Facial symmetry and attractiveness studies"]
+  "effect": "indirect",
+  "text": "The tools show a person how their two facial halves differ and which side photographs more favorably. Users apply that to choosing angles, hair parting, grooming and other presentation decisions to look more balanced."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Photo-editing technique / app"
   ],
-  "sections": [
-    {
-      "h": "Background",
-      "paras": [
-        "Facial symmetry is one measure of bodily symmetry and is considered alongside averageness and youthfulness in judgments of attractiveness. Bilateral symmetry is usually defined through fluctuating asymmetry, meaning random left-right differences relative to the midline [1].",
-        "Studies summarised in the literature report higher attractiveness ratings for more symmetrical faces, with the effect described as stronger for female faces, and symmetry and averageness appear to contribute independently [1]. Alongside this, a directional aurofacial asymmetry exists, in which the face on average sits slightly left relative to the ears, with an offset that decreases from about 2 degrees at birth to about 0.5 degrees in adults [1]."
-      ]
-    },
-    {
-      "h": "Limitations",
-      "paras": [
-        "Researchers have criticised mirroring because it can generate artificial features and so distort conclusions about a real face [1]. Photo angle and head tilt also affect the apparent midline, which is a general consideration for any such tool."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found. Research exists on facial symmetry and attractiveness that used mirrored composites, but no study evaluates the consumer tools themselves."
-      ]
-    }
+  [
+   "Output",
+   "Left-left and right-right composite faces"
   ],
-  "timeline": [],
-  "lore": null,
-  "refs": [
-    {"id": 1, "title": "Facial symmetry", "url": "https://en.wikipedia.org/wiki/Facial_symmetry", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"}
+  [
+   "Research use",
+   "Facial symmetry and attractiveness studies[4][5]"
   ],
-  "webSources": [
-    {"url": "https://en.wikipedia.org/wiki/Facial_symmetry", "title": "Facial symmetry - Wikipedia"}
+  [
+   "Example apps",
+   "YouCam Perfect mirror tool[3]"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "A mirroring tool takes a straight-on photo, places a midline down the face and duplicates one half reflected onto the other. The result is usually shown next to the original. Vendor guidance recommends a front-facing photo, natural lighting and not pushing sliders to the maximum, and notes that camera angle, lighting and front-camera lens distortion can exaggerate asymmetry.[3] Because the outcome depends on where the midline sits, head rotation and tilt in the photo change the composites.[1][3]"
+   ]
+  },
+  {
+   "h": "Background on facial symmetry",
+   "paras": [
+    "Facial symmetry is one measure of bodily symmetry and is considered alongside averageness and youthfulness in judgments of attractiveness. Fluctuating asymmetry refers to random left-right differences relative to the midline, while directional asymmetry is systematic: the face on average sits slightly left relative to the ears, with an offset that decreases from about 2 degrees at birth to about 0.5 degrees in adults.[1]",
+    "Studies summarized on Wikipedia report higher attractiveness ratings for more symmetrical faces, with a larger role for symmetry in female faces, and symmetry and averageness appear to contribute independently. Nearly symmetrical faces are rated highly attractive, while perfectly symmetrical faces can seem unnatural to viewers.[1] Symmetric faces are also rated as healthier, and asymmetry tends to grow with age as soft tissue changes.[1] Vendor guidance similarly says that virtually perfect symmetry is rare.[3]"
+   ]
+  },
+  {
+   "h": "Use in research",
+   "paras": [
+    "A 2015 article in the Journal of Craniofacial Surgery reported face symmetry quantitatively from internet photographs by building left-left and right-right composites for each face and measuring features such as face perimeter and area, interpupillary distance and mouth and nose dimensions, then computing a symmetry value for each measurement.[4] A 1997 Neuropsychologia study had observers view left-left and right-right composites and judge identity and attractiveness, to test whether facial beauty belongs to the owner's face or to the observer's perception.[5] A 1997 British Journal of Psychology study used hemifacial and hemiregional composites to examine which regions express posed happy and sad emotions most strongly.[6]"
+   ]
+  },
+  {
+   "h": "Limitations",
+   "paras": [
+    "Researchers have noted that mirroring generates artificial features: a slightly bent nose can appear oversized or undersized depending on which side is copied, so composites may not reflect a face's true symmetry.[1] Photo angle and head tilt also affect the apparent midline, and app vendors advise that mirrored or reshaped results look more natural when some asymmetry is retained.[3]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found that evaluate consumer mirroring apps themselves. Research that used mirrored composites to study symmetry, attractiveness and expression is described above.[4][5][6]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1997",
+   "event": "Studies use left-left and right-right composites to examine attractiveness and emotion expression.[5][6]"
+  },
+  {
+   "year": "2015",
+   "event": "Journal of Craniofacial Surgery article quantifies face symmetry using left-left and right-right composites.[4]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Facial symmetry",
+   "url": "https://en.wikipedia.org/wiki/Facial_symmetry",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Facial symmetry",
+   "url": "https://en.wikipedia.org/wiki/Facial_symmetry",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Face symmetry filter",
+   "url": "https://www.perfectcorp.com/consumer/blog/photo-editing/face-symmetry-filter",
+   "source": "YouCam Perfect",
+   "year": null,
+   "type": "news"
+  },
+  {
+   "id": 4,
+   "title": "Quantitative Analysis of Face Symmetry",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26080172/",
+   "source": "Journal of Craniofacial Surgery",
+   "year": 2015,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Brain asymmetry and facial attractiveness: facial beauty is not simply in the eye of the beholder",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9106275/",
+   "source": "Neuropsychologia",
+   "year": 1997,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Hemiregional variations in facial expression of emotions",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9290239/",
+   "source": "British Journal of Psychology",
+   "year": 1997,
+   "type": "study"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Facial_symmetry",
+   "title": "Facial symmetry - Wikipedia"
+  },
+  {
+   "url": "https://www.perfectcorp.com/consumer/blog/photo-editing/face-symmetry-filter",
+   "title": "Face symmetry filter - YouCam Perfect"
+  }
+ ],
+ "card": {
+  "summary": "Apps and editors that build left-left and right-right face composites to visualise asymmetry; a research method with known artefacts.",
+  "aka": "Left-left / right-right composites",
+  "evidence": "limited",
+  "risk": "low",
+  "note": "Mirrored composites can create artificial features, which researchers cite as a criticism of the method.",
+  "price": null
+ },
+ "quick": {
+  "overview": "Symmetry photo mirroring tools take a front-facing photo, split it down the midline and mirror each half to create two composite faces, one built from two left sides and one from two right sides. Users compare them with the original to see how asymmetric the face looks.\n\nThe technique is also used in academic research on facial symmetry and attractiveness, where it has been criticised for the artefacts it can produce.",
+  "mechanism": "The tool duplicates and flips one half of the face over a chosen midline. The result depends on where the midline is placed and on head rotation and tilt in the photo.",
+  "risks": "No physical risk. Because the composites exaggerate or hide particular features, the method has been criticised as a basis for conclusions about a face."
+ }
 }

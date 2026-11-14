@@ -1,65 +1,5 @@
 {
  "name": "Carnivore diet smell",
- "lead": [
-  "Carnivore diet smell refers to claims about how an all-animal-product diet affects body odour, breath and sweat. Some adherents say their odour becomes milder, while others report the opposite.[1]",
-  "The carnivore diet is a high-protein, low-carbohydrate diet limited to meat, dairy and eggs; Wikipedia says nutrition bodies list it among fad diets and that it has no supporting clinical evidence.[2] That article does not discuss body odour, and no study found here has measured odour on the diet."
- ],
- "infobox": [
-  [
-   "Category",
-   "Lifestyle / diet"
-  ],
-  [
-   "Diet",
-   "Animal products only"
-  ],
-  [
-   "Claim",
-   "Changes in body odour"
-  ],
-  [
-   "Evidence",
-   "No dedicated studies found"
-  ]
- ],
- "sections": [
-  {
-   "h": "Background",
-   "paras": [
-    "The carnivore diet excludes fruit, vegetables, grains, legumes, nuts and seeds, and its strictest form permits only beef, salt and water.[2] Body odour in general is attributed to skin bacteria acting on gland secretions, with diet and gut microbiome among listed influences.[1] A study cited on Wikipedia found that men eating more fruit and vegetables had sweat rated as more pleasant, though this did not test an animal-only diet.[1]"
-   ]
-  },
-  {
-   "h": "Related findings",
-   "paras": [
-    "Wikipedia notes that high intake of carnitine or choline can contribute to fishy odour in the secondary form of trimethylaminuria, and that red meat is high in carnitine.[3]"
-   ]
-  },
-  {
-   "h": "Clinical studies",
-   "paras": [
-    "No studies found."
-   ]
-  }
- ],
- "timeline": [],
- "lore": {
-  "intro": "Discussion is largely anecdotal, with some users saying odour improves and others reporting stronger smells.",
-  "claims": [
-   {
-    "claim": "Eating only meat makes body odour neutral or less noticeable.",
-    "believers": "Proponents say removing plant foods leaves sweat and stool less pungent.",
-    "experts": "No published studies of carnivore-diet odour were found; a separate study linked more fruit and vegetables to more pleasant sweat ratings.[1]",
-    "evidence": "untested"
-   },
-   {
-    "claim": "Carnivore eating can cause a stronger or fishy smell.",
-    "believers": "Some adherents report stronger odour or breath changes.",
-    "experts": "High carnitine and choline intake is described as a trigger in secondary trimethylaminuria.[3]",
-    "evidence": "mixed"
-   }
-  ]
- },
  "card": {
   "summary": "Claims that eating only meat changes how you smell; reports go both ways and no one has measured it.",
   "aka": null,
@@ -72,10 +12,80 @@
   "mechanism": "Skin bacteria break down gland secretions, and diet is one listed influence. Meat is high in carnitine and choline, which gut bacteria can convert to compounds with a fishy smell in susceptible people.",
   "risks": "Wikipedia says dietitian bodies list the carnivore diet among fad diets, citing risks such as lacking fibre, raised LDL cholesterol and nutrient gaps.[2]"
  },
+ "lead": [
+  "Carnivore diet smell is the topic of how an all-animal-product diet affects body odour, breath and sweat, which matters to people who follow the diet partly for leaner, clearer-looking skin and physique and who want to smell good as well as look good. Some adherents say their odour becomes milder, while others report the opposite [1].",
+  "The carnivore diet, also called a zero-carb diet, allows only animal products such as meat, dairy and eggs; a stricter version, the lion diet, is limited to beef, salt and water, and a looser animal-based variant adds fruit, honey and raw dairy [2]. It was promoted on social media by former orthopaedic surgeon Shawn Baker from 2018, and Jordan Peterson and his daughter Mikhaila were vocal adherents [2]. Dietetic bodies such as the British Dietetic Association classify it as a fad diet [2].",
+  "Wikipedia's articles on the diet and on body odour do not discuss odour on this diet, and no study has measured odour in carnivore dieters. General reasoning draws on diet, skin bacteria and gut microbiome as listed influences on body odour [1], and on carnitine and choline as contributors to fishy odour in secondary trimethylaminuria [3]."
+ ],
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "Diet limited to animal foods",
+   "Possible change in sweat, breath and body odour",
+   "Perceived change in how one smells and presents"
+  ],
+  "effect": "claimed",
+  "text": "Followers of the diet report changes in how they smell and often connect diet to skin and body composition. Reports go both ways, and no measured data exist."
+ },
+ "infobox": [
+  [
+   "Diet type",
+   "All-animal-product diet; zero-carb [2]"
+  ],
+  [
+   "Strict form",
+   "Lion diet: beef, salt and water [2]"
+  ],
+  [
+   "Popularised by",
+   "Shawn Baker (2018), Jordan and Mikhaila Peterson [2]"
+  ],
+  [
+   "Odour studies",
+   "None on carnivore dieters"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Background",
+   "paras": [
+    "The carnivore diet excludes fruit, vegetables, grains, legumes, nuts and seeds, and its strictest form permits only beef, salt and water [2]. Body odour in general is attributed to skin bacteria acting on gland secretions, with diet and gut microbiome among listed influences [1]. A study cited on Wikipedia found that men eating more fruit and vegetables had sweat rated as more pleasant, though it did not test an animal-only diet [1]."
+   ]
+  },
+  {
+   "h": "Related findings",
+   "paras": [
+    "Wikipedia notes that high intake of carnitine or choline can contribute to fishy odour in the secondary form of trimethylaminuria, and that red meat is high in carnitine [3]."
+   ]
+  },
+  {
+   "h": "Health concerns raised about the diet",
+   "paras": [
+    "Wikipedia reports that the diet lacks fibre, which can cause constipation, excludes fruits and vegetables that supply micronutrients, raises LDL cholesterol, and that high red meat intake raises colon cancer and gout risk, while high protein intake can impair kidney function [2]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2018",
+   "event": "Shawn Baker promotes the carnivore diet on social media [2]."
+  },
+  {
+   "year": "2024",
+   "event": "Paul Saladino popularises the animal-based variant [2]."
+  }
+ ],
+ "lore": null,
  "refs": [
   {
    "id": 1,
-   "title": "Body odor - Wikipedia",
+   "title": "Body odor",
    "url": "https://en.wikipedia.org/wiki/Body_odor",
    "source": "Wikipedia",
    "year": 2025,
@@ -83,15 +93,15 @@
   },
   {
    "id": 2,
-   "title": "Carnivore diet - Wikipedia",
+   "title": "Carnivore diet",
    "url": "https://en.wikipedia.org/wiki/Carnivore_diet",
    "source": "Wikipedia",
-   "year": 2025,
+   "year": 2026,
    "type": "encyclopedia"
   },
   {
    "id": 3,
-   "title": "Trimethylaminuria - Wikipedia",
+   "title": "Trimethylaminuria",
    "url": "https://en.wikipedia.org/wiki/Trimethylaminuria",
    "source": "Wikipedia",
    "year": 2025,
@@ -100,16 +110,8 @@
  ],
  "webSources": [
   {
-   "url": "https://en.wikipedia.org/wiki/Body_odor",
-   "title": "Body odor - Wikipedia"
-  },
-  {
    "url": "https://en.wikipedia.org/wiki/Carnivore_diet",
    "title": "Carnivore diet - Wikipedia"
-  },
-  {
-   "url": "https://en.wikipedia.org/wiki/Trimethylaminuria",
-   "title": "Trimethylaminuria - Wikipedia"
   }
  ]
 }

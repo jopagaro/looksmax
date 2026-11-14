@@ -7,7 +7,7 @@
 // Run: node wiki/scripts/build-entries.mjs
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
-import { root, slug, allEntries } from './entries.mjs';
+import { root, slug, allEntries, socialFilter, OFF_COMM, wikiRelevant } from './entries.mjs';
 
 const outDir = join(root, 'data', 'entries');
 mkdirSync(outDir, { recursive: true });
@@ -24,6 +24,9 @@ const first = {};
 for (const f of readdirSync(join(root, 'research')).filter((f) => /^\d\d-.*\.json$/.test(f))) Object.assign(first, readJSON(join(root, 'research', f)) || {});
 
 // Looksmax angle (research/angles/out/*.json): why each entry matters for appearance — shown at the top of every article.
+// Hand/agent-reviewed photo picks (research/imgreview/out-*.json): slug → { lead: bool|null, keep: [gallery indices] }.
+const IMGOK = {};
+try { for (const f of readdirSync(join(root, 'research', 'imgreview')).filter((f) => /^out-\d+\.json$/.test(f))) Object.assign(IMGOK, readJSON(join(root, 'research', 'imgreview', f)) || {}); } catch {}
 const ANGLES = {};
 try { for (const f of readdirSync(join(root, 'research', 'angles', 'out')).filter((f) => f.endsWith('.json'))) Object.assign(ANGLES, readJSON(join(root, 'research', 'angles', 'out', f)) || {}); } catch {}
 // Quick take rewrite ("how it helps") — research/quick2/out/*.json: slug → { summary, quick: { overview, how, risks } }.
@@ -37,26 +40,6 @@ const stats = { entries: 0, raw: 0, deep: 0, droppedRefs: 0, studies: 0, reddit:
 const ENTRIES = allEntries({ withPending: false });
 // Forum popularity: how many indexed looksmax.org thread titles mention each entry.
 const LMX = (() => { try { return readFileSync(join(root, 'research', 'discovery', 'looksmax-threads.tsv'), 'utf8').split('\n').filter(Boolean).map((l) => '-' + l.split('\t')[1] + '-'); } catch { return []; } })();
-// Social search (HN, Lemmy) is keyword-only, so most hits are off-topic. Keep a thread only when its title names the
-// entry as a whole phrase, isn't a tech/meme post, and either reads as a health/looks thread or names a multi-word term.
-const OFF_COMM = /meme|shitpost|comic|^196$|politic|news|technology|linux|fediverse|europe|^world$|^til$|showerthought|joke|^cats?$|onion|motorsport|osrs|^pics$|ecosocial|pravda|game|programming|privacy|android|selfhost|asklemmy|ask_?reddit|nostupidquestions|movies|music|anime|lemmy_?support|dataisbeautiful|mildly|aww|^art$|books|pcgaming|steam|wikipedia/i;
-const TECH = /\b(programming|software|startup|crypto|bitcoin|javascript|typescript|python|rust|golang|linux|api|github|apple|google|netflix|microsoft|ember|compiler|llm|gpt|kernel|database|sql|framework|browser|show hn: .*(app|tool|library)|ycombinator|\.js|c\+\+|struct|function pointers?)\b/i;
-const BODY = /\b(health|hair|bald|alopecia|skin|acne|derm\w*|face|facial|body|weight|fat|obes\w*|muscle|fitness|gym|lift\w*|diet|nutrition|sleep|drug|medic\w*|supplement|trial|testosterone|hormone|estrogen|beauty|cosmetic|surger\w*|aging|ageing|longevity|height|tall|teeth|dental|posture|exercise|workout|look\w*|appearance|attractive\w*|steroid|peptide|vitamin|fda|doctor|patients?|clinical|brain|cancer|heart|men|women|male|female|tan\w*|sun|wrinkle\w*|collagen|shav\w*|beard|groom\w*|fashion|style|cloth\w*|confidence|anxiety|mental)\b/i;
-function socialFilter(item, raw) {
-  const strip = (t) => String(t || '').replace(/\s*\(.*?\)\s*/g, ' ').trim().toLowerCase();
-  const split = (t) => strip(t).split(/\s*(?:\/|,|\bor\b|\+|&)\s*/).map((x) => x.trim()).filter((x) => x.length >= 4);
-  // The entry's own name/aliases count as-is; extra search terms only when they're multi-word (single words are too generic).
-  const phrases = [...new Set([...split(item.name), ...split(item.aka), ...[...(item.terms || []), ...(raw.terms || [])].flatMap(split).filter((x) => /[\s-]/.test(x))])];
-  const esc = (t) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  const rx = phrases.map((p) => ({ multi: /[\s-]/.test(p) && p.length >= 8, re: new RegExp('(^|[^a-z0-9])' + esc(p) + '(s|es)?([^a-z0-9]|$)', 'i') }));
-  return (title) => {
-    const t = String(title || '');
-    if (TECH.test(t)) return false;
-    const hit = rx.filter((r) => r.re.test(t));
-    return hit.length > 0 && BODY.test(t);
-  };
-}
-
 function mentionsFor(item, raw) {
   if (!LMX.length) return null;
   const terms = [...new Set([...(raw.terms || []), ...(item.terms || []), item.name].map((t) => slug(String(t).replace(/\s*\(.*?\)\s*/g, ' '))).filter((t) => t.length >= 4))];
@@ -73,7 +56,7 @@ for (const { kind, item } of ENTRIES) {
   const deep = readJSON(join(root, 'research', 'deep', s + '.json'));
   stats.entries++; if (raw.name) stats.raw++; if (deep) stats.deep++;
 
-  const W = raw.wikipedia && !raw.wikipedia.error ? raw.wikipedia : null;
+  const W = raw.wikipedia && !raw.wikipedia.error && wikiRelevant(item, raw, raw.wikipedia) ? raw.wikipedia : null;
   const G = raw.grokipedia && !raw.grokipedia.error ? raw.grokipedia : null;
   const PM = Array.isArray(raw.pubmed) ? raw.pubmed : [];
   const RD = Array.isArray(raw.reddit) ? raw.reddit : [];
@@ -115,9 +98,13 @@ for (const { kind, item } of ENTRIES) {
   const wikiIsAboutIt = W && !W.viaSearch && matches(W.title);
   const wImg = wikiIsAboutIt && W?.image?.url && /^https:\/\/upload\.wikimedia\.org\//.test(W.image.url) ? { url: W.image.url, credit: W.image.page, caption: W.title, source: 'Wikimedia Commons via Wikipedia' } : null;
   const fImg = okUrl(fp.image) ? { url: fp.image, credit: fp.imageCredit, caption: item.name, source: 'Wikimedia Commons' } : null;
-  const gallery = galleryRaw.filter((g) => matches(g.title)).slice(0, 12);
+  const rv = IMGOK[s];
+  let gallery = galleryRaw.filter((g) => matches(g.title)).slice(0, 12);
+  if (rv && Array.isArray(rv.keep)) gallery = gallery.filter((_, i) => rv.keep.includes(i));
   const gImg = gallery[0];
-  image = kind === 'compound' ? wImg : (fImg || wImg || (gImg ? { url: gImg.url, credit: gImg.page, caption: gImg.title, source: gImg.source } : null));
+  image = kind === 'compound' ? wImg : (fImg || wImg || null);
+  if (image && rv && rv.lead === false) image = null;
+  if (!image && kind !== 'compound' && gImg) image = { url: gImg.url, credit: gImg.page, caption: gImg.title, source: gImg.source };
   if (image) stats.images++;
 
   // ── Allowed citation URLs = everything we actually scraped or the first pass verified

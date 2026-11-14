@@ -1,49 +1,117 @@
 {
   "name": "Quit smoking / vaping",
   "lead": [
-    "In looksmaxxing and skincare discussions, quitting smoking or vaping is cited as a way to avoid or slow smoking-related facial aging. 'Smoker's face' is the term for facial changes seen in many long-term smokers, including a pattern of wrinkles, sagging and a dull, yellowish or grayish complexion [1].",
-    "Medical sources attribute these changes to reduced oxygen and nutrient supply, breakdown of the skin's structural matrix, and oxidative stress [1]. No trials of quitting for appearance were found in the sources reviewed, and no studies of vaping and facial aging were found."
+    "Quitting smoking or vaping is discussed in skincare and looksmaxxing circles as a way to protect and improve the skin. Long-term smokers often show a recognisable set of facial changes called 'smoker's face': wrinkling, sagging, a greyish or yellowish complexion and staining of the teeth and mouth [1]. Stopping tobacco is the step people take to stop adding to that pattern, and some report a clearer, more even complexion afterwards.",
+    "The skin-related reasons given include better oxygen and nutrient supply to the skin, less breakdown of collagen and elastin, and less oxidative stress [1]. A 1985 BMJ study cited by Wikipedia found the characteristic features in about 46% of continuing smokers but only about 8% of former smokers with a similar smoking history [1]. A health-information article summarising several small studies reports less redness, tobacco staining and discolouration after quitting, and renewed collagen production in a small 2019 study [2].",
+    "Vaping is a separate topic. E-cigarettes avoid combustion, and a 2025 Cochrane review cited on Wikipedia found nicotine e-cigarettes more effective than nicotine replacement therapy for quitting smoking [3]. Researchers studying vaping have mostly looked at lung and cardiovascular effects rather than the skin [4][5]. On looksmax.org some users describe nicotine as an appetite suppressant for getting lean, while others say they quit because of concerns about growth and health [6][7][8]."
   ],
+  "angle": {
+    "goal": "Skin",
+    "chain": ["Stop exposing skin to tobacco chemicals", "Skin oxygenation and collagen turnover recover", "Less redness and staining, a more even tone, slower wrinkling"],
+    "effect": "indirect",
+    "text": "People who quit smoking report and studies describe less skin redness, fewer tobacco-related discolourations and slower accumulation of smoker's-face features. The change works through the skin's blood supply and collagen metabolism, and the earlier someone stops, the less of the pattern develops [1][2]."
+  },
   "infobox": [
     ["Type", "Lifestyle change"],
     ["Related term", "Smoker's face"],
-    ["Claimed benefit", "Slower facial aging, better skin tone"],
-    ["Evidence for appearance", "Observational, as summarised in encyclopedic sources"]
+    ["Appearance goals", "Even skin tone, fewer wrinkles, cleaner teeth, healthier complexion"],
+    ["Related topics", "Nicotine replacement, varenicline, vaping cessation programs"],
+    ["Commonly reported benefit timeline", "Skin colour changes begin to reverse within weeks, per small studies [2]"]
   ],
   "sections": [
     {
-      "h": "Smoker's face",
+      "h": "How quitting helps appearance",
       "paras": [
-        "Wikipedia describes smoker's face as the distinctive changes in many tobacco smokers: wrinkling, sagging, premature aging, a grayish tone and higher skin cancer risk, along with hair loss and oral effects such as gum disease and staining [1]. A study it cites, a 1985 BMJ article, found characteristic features in about 46% of current smokers and 8% of former smokers with a decade of smoking, and none in non-smokers [1]."
-      ]
-    },
-    {
-      "h": "Proposed mechanisms",
-      "paras": [
-        "The cited mechanisms include increased enzymes that break down the extracellular matrix (collagen, elastin and proteoglycans), reduced antioxidants such as vitamin C, narrowing of facial blood vessels by tobacco chemicals, and a build-up of free radicals leading to oxidative stress, considered a form of extrinsic aging [1]."
+        "Smoker's face refers to the facial changes seen in many long-term tobacco smokers, including wrinkling, sagging, a grey tone to the skin, hair loss and mouth changes such as staining, gum disease and bad breath [1]. Quitting removes the ongoing exposure behind these features.",
+        "Health-information summaries describe improvements after quitting: age spots and discolouration beginning to fade within about a month in one review, skin colour changes starting to reverse four to twelve weeks after stopping in a small 2013 study, and a small 2010 study estimating a 'biological age' reduction of 13 years based on brightness, smoothness and elasticity [2]. The same summary notes that more research is needed on how quitting affects existing wrinkles and that timing varies between people [2]."
+      ],
+      "subs": [
+        {
+          "h": "Skin",
+          "paras": [
+            "Proposed mechanisms include higher levels of enzymes that break down collagen, elastin and proteoglycans, lower antioxidant levels such as vitamin C, narrowing of facial blood vessels by tobacco chemicals, and a build-up of free radicals causing oxidative stress [1]. Quitting is described as allowing collagen production to resume, based on a small 2019 study [2]."
+          ]
+        },
+        {
+          "h": "Teeth and mouth",
+          "paras": [
+            "Wikipedia lists staining or yellowing of teeth, gum disease, tooth loss and halitosis among smoker's face features, and reduced odour and fewer stains are among the reasons users give for choosing e-cigarettes over cigarettes [1][3]."
+          ]
+        }
       ]
     },
     {
       "h": "Vaping",
       "paras": [
-        "No studies of vaping and facial appearance were found in the sources reviewed."
+        "E-liquids typically contain propylene glycol, glycerin, flavourings and often nicotine, and heating them produces by-products including formaldehyde, acetaldehyde and acrolein [3]. Wikipedia describes vaping as less harmful than smoking but not free of risk [3].",
+        "Research on vaping has concentrated on lung injury, including the 2019 EVALI outbreak, and on cardiovascular effects [4][5][9]. An American Heart Association scientific statement discusses patterns of use and potential harms [10]. Studies of vaping with facial appearance as the outcome were not located."
+      ]
+    },
+    {
+      "h": "Cessation approaches studied",
+      "paras": [
+        "Randomised trials have tested programs for quitting vaping, including a text-message program for young adults, a text-message program for adolescents and a varenicline trial in youth [11][12][13]. Their outcomes concern quitting rates, not appearance."
+      ]
+    },
+    {
+      "h": "In looksmaxxing communities",
+      "paras": [
+        "Posts on looksmax.org about nicotine are mixed. Some users describe vaping as an appetite suppressant that helped them lose weight and show a leaner face, while other users reply with concerns about lungs and about growth in younger users [6][7][8]. Other threads describe the difficulty of the first days without nicotine [14]."
       ]
     },
     {
       "h": "Clinical studies",
       "paras": [
-        "No studies found on quitting smoking or vaping with facial appearance as the outcome. The relevant evidence is observational research on smokers' skin, as summarised above [1]."
+        "No randomised trial of quitting smoking or vaping with facial appearance as the primary outcome was found. The skin findings come from observational and small studies summarised above [1][2]. Randomised trials of cessation programs measure whether people stop using nicotine [11][12][13]."
       ]
     }
   ],
   "timeline": [
-    { "year": "1985", "event": "BMJ study on facial features in smokers cited in encyclopedic summaries [1]" }
+    { "year": "1985", "event": "BMJ study reports characteristic facial features in about 46% of smokers and 8% of ex-smokers [1]" },
+    { "year": "2019", "event": "US outbreak of vaping-associated lung injury (EVALI) brings health attention to vaping [4][10]" },
+    { "year": "2025", "event": "Cochrane review cited on Wikipedia finds nicotine e-cigarettes more effective than nicotine replacement for quitting smoking [3]" }
   ],
-  "lore": null,
+  "lore": {
+    "intro": "On looksmax.org, vaping and nicotine come up both as a way to suppress appetite and get lean and as something users say they are trying to give up.",
+    "claims": [
+      {
+        "claim": "Nicotine suppresses appetite and gives hollow cheeks",
+        "believers": "Some posters say nicotine let them eat one meal a day and lose around 40 pounds, with flavoured vapes helping with candy cravings [6][7].",
+        "experts": "Published reviews of vaping focus on lung and cardiovascular harm and describe vaping as not harmless [4][5][9]. No study in the reviewed literature tests vaping as a facial-leanness method.",
+        "evidence": "untested"
+      },
+      {
+        "claim": "Quitting smoking improves skin tone and slows facial aging",
+        "believers": "Proponents of quitting say stopping removes the cause of smoker's face and lets the complexion recover.",
+        "experts": "Wikipedia cites a 1985 BMJ study with far fewer smoker's-face features among former smokers than current ones [1], and a health-information summary of small studies reports less redness and staining after quitting [2].",
+        "evidence": "supported"
+      },
+      {
+        "claim": "Vaping stunts bone growth",
+        "believers": "Some users on looksmax.org say they quit nicotine because of its supposed effect on bone growth [8].",
+        "experts": "No study in the reviewed literature addresses vaping and height or facial bone growth; health reviews of vaping discuss lung, heart and addiction concerns [4][10].",
+        "evidence": "untested"
+      }
+    ]
+  },
   "refs": [
-    { "id": 1, "title": "Smoker's face", "url": "https://en.wikipedia.org/wiki/Smoker%27s_face", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" }
+    { "id": 1, "title": "Smoker's face", "url": "https://en.wikipedia.org/wiki/Smoker%27s_face", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
+    { "id": 2, "title": "What happens to your skin when you quit smoking", "url": "https://www.healthline.com/health/what-happens-to-your-skin-when-you-quit-smoking", "source": "Healthline", "year": 2024, "type": "news" },
+    { "id": 3, "title": "Electronic cigarette", "url": "https://en.wikipedia.org/wiki/Electronic_cigarette", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
+    { "id": 4, "title": "Vaping and Lung Inflammation and Injury", "url": "https://pubmed.ncbi.nlm.nih.gov/34724436/", "source": "Annual Review of Physiology", "year": 2022, "type": "review" },
+    { "id": 5, "title": "Cardiovascular consequences of vaping", "url": "https://pubmed.ncbi.nlm.nih.gov/35612935/", "source": "Current Opinion in Cardiology", "year": 2022, "type": "review" },
+    { "id": 6, "title": "vaping and nicotine is a wonder drug", "url": "https://looksmax.org/threads/vaping-and-nicotine-is-a-wonder-drug.1597435/", "source": "looksmax.org", "year": 2024, "type": "forum" },
+    { "id": 7, "title": "Vaping is the ultimate lean maxing method", "url": "https://looksmax.org/threads/vaping-is-the-ultimate-lean-maxing-method.1575043/", "source": "looksmax.org", "year": 2024, "type": "forum" },
+    { "id": 8, "title": "vaping is such a life-hack", "url": "https://looksmax.org/threads/vaping-is-such-a-life-hack.1462141/", "source": "looksmax.org", "year": 2024, "type": "forum" },
+    { "id": 9, "title": "Impact of vaping on respiratory health", "url": "https://pubmed.ncbi.nlm.nih.gov/35851281/", "source": "BMJ", "year": 2022, "type": "review" },
+    { "id": 10, "title": "Cardiopulmonary Impact of Electronic Cigarettes and Vaping Products: A Scientific Statement From the American Heart Association", "url": "https://pubmed.ncbi.nlm.nih.gov/37458106/", "source": "Circulation", "year": 2023, "type": "guideline" },
+    { "id": 11, "title": "Varenicline for Youth Nicotine Vaping Cessation: A Randomized Clinical Trial", "url": "https://pubmed.ncbi.nlm.nih.gov/40266580/", "source": "JAMA", "year": 2025, "type": "trial" },
+    { "id": 12, "title": "A Vaping Cessation Text Message Program for Adolescent E-Cigarette Users: A Randomized Clinical Trial", "url": "https://pubmed.ncbi.nlm.nih.gov/39110436/", "source": "JAMA", "year": 2024, "type": "trial" },
+    { "id": 13, "title": "Effectiveness of a Vaping Cessation Text Message Program Among Young Adult e-Cigarette Users: A Randomized Clinical Trial", "url": "https://pubmed.ncbi.nlm.nih.gov/33999133/", "source": "JAMA Internal Medicine", "year": 2021, "type": "trial" },
+    { "id": 14, "title": "day 1 of no nicotine im going insane", "url": "https://looksmax.org/threads/day-1-of-no-nicotine-im-going-insane.1519601/", "source": "looksmax.org", "year": 2024, "type": "forum" }
   ],
   "webSources": [
+    { "url": "https://www.healthline.com/health/what-happens-to-your-skin-when-you-quit-smoking", "title": "What happens to your skin when you quit smoking - Healthline" },
     { "url": "https://en.wikipedia.org/wiki/Smoker%27s_face", "title": "Smoker's face - Wikipedia" }
   ],
   "card": {

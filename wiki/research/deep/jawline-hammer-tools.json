@@ -1,13 +1,25 @@
 {
  "name": "Jawline hammer tools",
  "lead": [
-  "Jawline hammer tools, also called face hammers, are hammers or similar implements marketed or discussed for striking the face and jaw in the belief that doing so reshapes bone. They are associated with bonesmashing, a looksmaxxing practice in which people hit their facial bones in the hope of remodeling them [1].",
-  " No published study has tested such tools, and the sources available describe the underlying practice mainly through media coverage and surgeon commentary [1][2]."
+  "Jawline hammer tools, also called face hammers, are hammers or similar blunt implements discussed for striking the jaw and cheekbones in the belief that the impacts will reshape the bone into a sharper, more chiselled jawline. They belong to bonesmashing, a looksmaxxing practice in which people strike their own facial bones, which advocates present as a route to a more defined face without surgery.[1][2]",
+  "Proponents invoke the idea that bone adapts to stress and grows stronger as it heals, often framed through Wolff's law, and believe micro-damage will remodel the contours.[2][3] Wikipedia's looksmaxxing article describes bonesmashing as rarely carried out and regarded by some as an inside joke, while noting that facial surgeons and journal letters have raised concerns about it.[1][4][5]",
+  "Videos about the trend have drawn hundreds of millions of TikTok views according to news coverage, and plastic surgeons including Mater Hospital's Dr Diana Kennedy and LifeBridge Health's Dr Ben Schultz have publicly responded to it.[2][3] No published trial has tested whether striking the face changes bone shape."
  ],
+ "angle": {
+  "goal": "Jawline definition",
+  "chain": [
+   "Blunt strikes to jaw or cheekbone",
+   "Believers expect micro-damage and healing to remodel bone",
+   "Claimed sharper, more angular jaw",
+   "More chiselled facial structure"
+  ],
+  "effect": "claimed",
+  "text": "Advocates say repeated impacts prompt bone to remodel into a more defined jawline, giving a chiselled look without surgery. Surgeons quoted in news coverage say this is not how facial bone changes."
+ },
  "infobox": [
   [
    "Type",
-   "Facial striking tools"
+   "Blunt striking tools (hammers and similar objects)"
   ],
   [
    "Associated practice",
@@ -15,7 +27,11 @@
   ],
   [
    "Also called",
-   "Face hammer"
+   "Face hammer, jaw hammer"
+  ],
+  [
+   "Claimed goal",
+   "Sharper jawline and cheekbones"
   ],
   [
    "Category",
@@ -26,13 +42,20 @@
   {
    "h": "Description",
    "paras": [
-    "Wikipedia's article on looksmaxxing describes bonesmashing as hitting one's face with an object such as a hammer to achieve a chiselled look, and says the practice is rarely carried out and is regarded by some as an inside joke; sources it cites describe it as misinformation [1]. The article does not describe specific commercial products."
+    "Wikipedia describes bonesmashing as hitting one's face with an object such as a hammer in order to achieve a chiselled look, and states that sources cited on the page label the practice misinformation.[1] News coverage describes people using blunt objects to strike the jaw and cheekbones.[2][3] The wiki's bonesmashing article covers the practice in more depth."
+   ]
+  },
+  {
+   "h": "Beliefs and claims",
+   "paras": [
+    "According to CBS Baltimore, practitioners believe bones grow stronger as they heal and cite Wolff's law, the 19th-century principle that bone adapts to the loads placed on it.[3] The Mater Hospital describes proponents as claiming that blows create micro-fractures that reshape facial features, and says the trend moved from the United States to Australia.[2]"
    ]
   },
   {
    "h": "Expert commentary",
    "paras": [
-    "Facial surgeons quoted in coverage cited by Wikipedia warn that striking the face risks fractures, misalignment, neurovascular injury, deformity and changes to vision [1]. Letters in the Journal of Stomatology, Oral and Maxillofacial Surgery have also raised concern about bone smashing as a social-media trend [2][3]. See the bonesmashing article for fuller coverage."
+    "Mater plastic and reconstructive surgeon Dr Diana Kennedy says repeated facial trauma causes swelling and microfractures without improving appearance, and that scarring, nerve damage and lasting disfigurement are possible; she has said bone smashing will not give a chiselled jawline.[2] LifeBridge Health's Dr Ben Schultz told CBS that the practice has no scientific support, that healed bone typically regains about 80 percent of its original strength, and that bleeding, nerve injury and bony outgrowths are among the risks.[3]",
+    "Facial surgeons quoted in coverage cited by Wikipedia warn of fractures, misalignment, neurovascular injury, deformity and vision changes, and letters in the Journal of Stomatology, Oral and Maxillofacial Surgery have raised concern about bone smashing as a social-media trend.[1][4][5]"
    ]
   },
   {
@@ -40,10 +63,45 @@
    "paras": [
     "No studies found."
    ]
+  },
+  {
+   "h": "Reported risks",
+   "paras": [
+    "Reported risks include facial fractures affecting bite and teeth, nerve and blood-vessel injury, emergency surgery for bleeding collections, and permanent disfigurement, as described by surgeons in news coverage.[2][3]"
+   ]
   }
  ],
- "timeline": [],
- "lore": null,
+ "timeline": [
+  {
+   "year": "2023",
+   "event": "CBS Baltimore reports on bone smashing as a TikTok beauty trend, with hashtag videos above 250 million views.[3]"
+  },
+  {
+   "year": "2024",
+   "event": "Letters in the Journal of Stomatology, Oral and Maxillofacial Surgery raise concern about bone smashing.[4][5]"
+  },
+  {
+   "year": "2026",
+   "event": "Mater doctors in Australia publish a warning as the trend spreads there.[2]"
+  }
+ ],
+ "lore": {
+  "intro": "Bonesmashing and the tools discussed for it are described in media coverage as a social-media looksmaxxing trend, with some commenters treating it as an inside joke.[1][2]",
+  "claims": [
+   {
+    "claim": "Striking facial bone makes it grow back sharper, like bone strengthening under load",
+    "believers": "Advocates cite Wolff's law and the idea that bone grows stronger as it heals.[3]",
+    "experts": "Surgeons told CBS and the Mater Hospital that the practice has no scientific support and causes harm rather than a chiselled jaw.[3][2]",
+    "evidence": "harms"
+   },
+   {
+    "claim": "Swelling after impacts shows the jaw is changing",
+    "believers": "Dr Kennedy notes that short-term swelling can resemble the effect of cosmetic injections, which may be read as a sign of change.[2]",
+    "experts": "She says the long-term effects are harmful rather than cosmetic improvement.[2]",
+    "evidence": "harms"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -55,6 +113,22 @@
   },
   {
    "id": 2,
+   "title": "Mater doctors warn of dangers of bone smashing trend",
+   "url": "https://mater.org.au/about-us/news/mater-news/2026/april/mater-doctors-warn-of-dangers-of-bone-smashing-trend",
+   "source": "Mater",
+   "year": 2026,
+   "type": "news"
+  },
+  {
+   "id": 3,
+   "title": "What is bone smashing? The dangerous TikTok beauty trend surgeons are warning against",
+   "url": "https://www.cbsnews.com/baltimore/news/what-is-bone-smashing-tiktok-beauty-trend",
+   "source": "CBS Baltimore",
+   "year": 2023,
+   "type": "news"
+  },
+  {
+   "id": 4,
    "title": "Urgent concern regarding \"bone smashing\", a dangerous trend on TikTok",
    "url": "https://pubmed.ncbi.nlm.nih.gov/38278441/",
    "source": "Journal of Stomatology, Oral and Maxillofacial Surgery",
@@ -62,7 +136,7 @@
    "type": "study"
   },
   {
-   "id": 3,
+   "id": 5,
    "title": "The bone smashing and the excesses of social networking trends",
    "url": "https://pubmed.ncbi.nlm.nih.gov/38458546/",
    "source": "Journal of Stomatology, Oral and Maxillofacial Surgery",
@@ -74,6 +148,14 @@
   {
    "url": "https://en.wikipedia.org/wiki/Looksmaxxing",
    "title": "Looksmaxxing - Wikipedia"
+  },
+  {
+   "url": "https://mater.org.au/about-us/news/mater-news/2026/april/mater-doctors-warn-of-dangers-of-bone-smashing-trend",
+   "title": "Mater doctors warn of dangers of bone smashing trend"
+  },
+  {
+   "url": "https://www.cbsnews.com/baltimore/news/what-is-bone-smashing-tiktok-beauty-trend",
+   "title": "What is bone smashing? (CBS Baltimore)"
   }
  ],
  "card": {

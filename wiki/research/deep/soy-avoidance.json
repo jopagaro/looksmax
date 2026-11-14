@@ -1,6 +1,28 @@
 {
  "name": "Soy avoidance",
- "lore": null,
+ "lore": {
+  "intro": "On fitness forums such as T Nation, soy is a recurring topic, with some members saying they avoid soy milk and soy protein and others saying they do not accept the hormone argument.[4][5][6]",
+  "claims": [
+   {
+    "claim": "Soy lowers testosterone and raises estrogen in men.",
+    "believers": "One T Nation poster says he avoids soy milk 'like the plague', and another says he avoids soy and would not use a soy-based protein shake because of estrogen.[5][6]",
+    "experts": "A 2020 meta-analysis found no effect of soy or isoflavones on male reproductive hormones in healthy men, and a 2021 review concluded soyfoods are not endocrine disruptors.[1][2]",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "Eating soy feminises men's bodies and faces.",
+    "believers": "The belief underlies the 'soy boy' label, which implies that soy makes men softer or less masculine.[2]",
+    "experts": "A 2010 review by Messina found that isoflavone exposure does not have feminising effects on men.[2]",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "Soy is fine and a useful protein source for lifters.",
+    "believers": "One T Nation reply says he does not accept the argument that soy affects hormones and eats plenty of tofu.[4]",
+    "experts": "Harvard's Nutrition Source calls soy a nutrient-dense protein safe to eat several times a week.[3]",
+    "evidence": "supported"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -9,17 +31,66 @@
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Soy boy",
+   "url": "https://en.wikipedia.org/wiki/Soy_boy",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Soy",
+   "url": "https://nutritionsource.hsph.harvard.edu/soy/",
+   "source": "Harvard T.H. Chan School of Public Health, The Nutrition Source",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Clueless Lifter",
+   "url": "https://t-nation.com/t/clueless-lifter/266299",
+   "source": "T Nation forum",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 5,
+   "title": "How Much Time Do You Spend at the Gym?",
+   "url": "https://t-nation.com/t/how-much-time-do-you-spend-at-the-gym/264998",
+   "source": "T Nation forum",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 6,
+   "title": "The Flame-Free Confession Thread II",
+   "url": "https://t-nation.com/t/the-flame-free-confession-thread-ii/248113",
+   "source": "T Nation forum",
+   "year": 2018,
+   "type": "forum"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Phytoestrogens",
    "title": "Phytoestrogens - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Soy_boy",
+   "title": "Soy boy - Wikipedia"
+  },
+  {
+   "url": "https://nutritionsource.hsph.harvard.edu/soy/",
+   "title": "Soy - The Nutrition Source"
   }
  ],
  "lead": [
-  "Soy avoidance is the practice of cutting soy foods from the diet because of fears that their isoflavones, plant compounds classed as phytoestrogens, lower testosterone, raise estrogen or feminise men. The idea circulates widely in fitness and looksmaxxing communities.",
-  "Soy products contain the most isoflavones of any common food group.[1] A 2020 meta-analysis by Reed, Camargo and Messina found that neither soy nor isoflavone intake affected male reproductive hormones, and a 2021 review by Messina and colleagues concluded soyfoods do not warrant classification as endocrine disruptors; a separate 2020 review in Nutrients found insufficient clinical evidence of phytoestrogen effects in humans.[1]"
+  "Soy avoidance is the practice of cutting soy foods from the diet because of the belief that their isoflavones, plant compounds classed as phytoestrogens, lower testosterone, raise estrogen or feminise men. People who follow it do so to protect hormone levels they associate with muscle gain, leanness and a more masculine look, for example a firmer jaw, less facial softness and a harder physique. The idea circulates widely in fitness, bodybuilding and looksmaxxing communities.[1][2]",
+  "Soy products contain the most isoflavones of any common food group.[1] Isoflavones such as genistein and daidzein are described by Harvard's Nutrition Source as plant estrogens that can weakly mimic or block estrogen depending on hormone levels and the person.[3] The belief that soy feminises men has also fed an online insult, 'soy boy', whose modern usage is traced to online forums and political commentary from the mid-2010s.[2]",
+  "Researchers have reviewed the question repeatedly. A 2020 meta-analysis by Reed, Camargo and Messina found that neither soy nor isoflavone intake affected male reproductive hormones in healthy men, and a 2021 review by Messina and colleagues concluded that soyfoods do not warrant classification as endocrine disruptors; a separate 2020 review in Nutrients found insufficient clinical evidence of phytoestrogen effects in humans.[1][2]"
  ],
  "infobox": [
   [
@@ -28,41 +99,64 @@
   ],
   [
    "Compounds of concern",
-   "Soy isoflavones (phytoestrogens)"
+   "Soy isoflavones (genistein, daidzein), phytoestrogens[1][3]"
   ],
   [
    "Stated concern",
-   "Lower testosterone, feminisation"
+   "Lower testosterone, higher estrogen activity, feminisation"
+  ],
+  [
+   "Goal",
+   "Muscle, leanness, masculine look"
+  ],
+  [
+   "Related term",
+   "'Soy boy' (online slang)[2]"
   ]
  ],
  "sections": [
   {
    "h": "Beliefs",
    "paras": [
-    "Proponents argue that phytoestrogens mimic estrogen and could suppress male hormones; the article notes fertility effects of phytoestrogens remain under study.[1]"
+    "Proponents argue that phytoestrogens mimic estrogen and could suppress male hormones; the Wikipedia article on phytoestrogens notes that fertility effects remain under study.[1] The concern is often tied to soy protein powders, soy milk and edamame in gym diets, and some forum users say they avoid them entirely.[4][5]",
+    "The Wikipedia article on the 'soy boy' term says soy's reputation for hormonal effects drew on early concerns that isoflavones could act as endocrine disruptors, and credits a 1970s article of uncertain reliability with starting its bad reputation.[2]"
    ]
   },
   {
    "h": "Research and expert views",
    "paras": [
-    "The Linus Pauling Institute reported that intakes above typical Asian diet levels did not change estrogen, testosterone, sperm or semen measures, and found no adverse effects of soy infant formula on growth or reproduction.[1] The American Academy of Pediatrics sees few indications for soy formula over cow's milk formula except specific conditions.[1] Some studies reported isoflavone supplements improved sperm measures, while reviews found no link to male fertility.[1]"
+    "The Linus Pauling Institute reported that intakes above typical Asian diet levels did not change estrogen, testosterone, sperm or semen measures, and found no adverse effects of soy infant formula on growth or reproduction.[1] The American Academy of Pediatrics sees few indications for soy formula over cow's milk formula except specific conditions.[1]",
+    "Other studies cited on the 'soy boy' page include a 2010 Fertility and Sterility review by Messina finding that isoflavone exposure does not have feminising effects on men, a 2010 review by Cederroth and colleagues finding no effect of phytoestrogens on sperm quality or reproductive hormone levels, and a 2001 study by Mitchell and colleagues linking isoflavone supplementation to higher sperm concentration and motility.[2] Some studies reported isoflavone supplements improved sperm measures, while reviews found no link to male fertility.[1]",
+    "Harvard's Nutrition Source describes soy as a nutrient-dense protein that is safe to eat several times a week and likely beneficial, especially when it replaces red and processed meat. It notes that thyroid effects are unclear and that one trial suggested possible interference with thyroid medication in some people.[3] Soy is also a recognised food allergen, which is an established reason for avoidance.[1]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "Controlled human data are summarised in a 2020 meta-analysis finding no effect of soy or isoflavones on male reproductive hormones in healthy people.[1]"
+    "Controlled human data are summarised in a 2020 meta-analysis finding no effect of soy or isoflavones on male reproductive hormones in healthy people.[1][2] A 2018 report by Nassan and colleagues, cited on the 'soy boy' page, found no link between phytoestrogens and male fertility.[2]"
    ]
   }
  ],
  "timeline": [
   {
+   "year": "2001",
+   "event": "Mitchell and colleagues report isoflavone supplementation linked to higher sperm concentration and motility.[2]"
+  },
+  {
+   "year": "2010",
+   "event": "Messina and Cederroth and colleagues publish reviews finding no feminising effect or hormone change from isoflavones in men.[2]"
+  },
+  {
+   "year": "2017",
+   "event": "'Soy boy' spreads on social media during a viral February episode.[2]"
+  },
+  {
    "year": "2020",
-   "event": "Meta-analysis finds no effect of soy or isoflavones on male reproductive hormones.[1]"
+   "event": "Meta-analysis finds no effect of soy or isoflavones on male reproductive hormones.[1][2]"
   },
   {
    "year": "2021",
-   "event": "Review argues soyfoods are not endocrine disruptors.[1]"
+   "event": "Review argues soyfoods are not endocrine disruptors.[1][2]"
   }
  ],
  "card": {
@@ -79,5 +173,15 @@
   "overview": "Some people avoid soy believing its plant estrogens lower testosterone or feminise men.\n\nA 2020 meta-analysis found no effect of soy or isoflavones on male reproductive hormones in healthy people.",
   "mechanism": "Isoflavones are phytoestrogens that bind estrogen receptors weakly in lab settings; human hormone effects were not found in pooled trials.",
   "risks": "Avoidance itself has no described harm in the sources; allergies are the established reason to avoid soy."
+ },
+ "angle": {
+  "goal": "Physique and masculinity",
+  "chain": [
+   "Avoid soy isoflavones",
+   "Believed to protect testosterone and avoid extra estrogen activity",
+   "Muscle gain, leanness and a more masculine look, as claimed"
+  ],
+  "effect": "claimed",
+  "text": "People who avoid soy do so to keep testosterone high and avoid what they see as estrogenic effects, in the hope of better muscle gain, less softness and a more masculine face and physique. Substitutes commonly include whey, other plant proteins and non-soy milks."
  }
 }

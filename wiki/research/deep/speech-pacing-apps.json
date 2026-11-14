@@ -1,24 +1,73 @@
 {
  "name": "Speech pacing apps",
+ "card": {
+  "summary": "Apps for practicing speaking speed; pace affects impressions, but the apps themselves are untested.",
+  "aka": null,
+  "evidence": "unproven",
+  "outcome": "unsupported",
+  "price": null,
+  "note": "No trials of pacing apps found.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Pacing apps help people monitor and practice how fast and evenly they speak.\n\nSpeech-tempo research links perceived speed with perceived competence, but no studies test the apps.",
+  "mechanism": "Users record or speak while the app tracks pace, then adjust speed and pauses.",
+  "risks": "No harms documented."
+ },
  "lead": [
-  "Speech pacing apps are software tools that people use to practice the speed and pauses of their speaking. Pace is of interest in appearance and presence culture because listeners form impressions from it. Researchers distinguish speaking rate, which includes pauses, from articulation rate, which excludes them, and typical English speech runs at about four syllables per second, with a range of roughly 3.3 to 5.9 depending on context.[1]",
-  "Linguist Howard Giles found that faster speakers of several English accents were rated as more competent, though judging tempo is described as open to subjective bias.[1] No published trial has tested whether pacing apps change such impressions."
+  "Speech pacing apps are software tools that people use to practise how fast they speak and how they use pauses. Speaking pace is part of how a person comes across, and people who want to sound more confident, composed or articulate use pacing feedback to slow a rushed delivery or to avoid long stretches of hesitation, so that their presence in conversations and on camera matches the image they want.[1]",
+  "Researchers distinguish speaking rate, which includes pauses, from articulation rate, which excludes them. Typical English speech runs at about four syllables per second, with a reported range of roughly 3.3 to 5.9 depending on emotion and social context.[1] Pauses and hesitations strongly affect tempo measurements, and radio news averaged about 168 words per minute for BBC English.[1]",
+  "Linguist Howard Giles found a positive relationship between perceived tempo and perceived competence across English accents, with faster speakers rated as more competent.[1] No published trial has tested whether pacing apps change how listeners judge people."
  ],
+ "angle": {
+  "goal": "Voice and presence",
+  "chain": [
+   "App measures speaking pace and pauses",
+   "User adjusts speed and pauses in practice",
+   "Delivery sounds more composed to listeners"
+  ],
+  "effect": "indirect",
+  "text": "People use pacing apps to hear and adjust their own speed, aiming for a delivery that sounds steady and confident. The look-related payoff is in presence: how a person comes across in person, on video and in interviews."
+ },
  "infobox": [
   [
    "Type",
-   "Software / practice aid"
+   "Speech practice software"
   ],
   [
-   "Metric",
-   "Speaking rate vs articulation rate[1]"
+   "Measures",
+   "Speaking rate, articulation rate, pauses[1]"
+  ],
+  [
+   "Typical English rate",
+   "About 4 syllables per second[1]"
+  ],
+  [
+   "Related research",
+   "Speech tempo and perceived competence[1]"
+  ],
+  [
+   "Trials of apps",
+   "None found"
   ]
  ],
  "sections": [
   {
+   "h": "Description",
+   "paras": [
+    "Pacing apps typically record or listen to speech, report speed (often in words or syllables per time) and show pauses or filler, so the user can practise a target pace. Measurement itself is not simple: words per minute is considered unreliable because 'word' is poorly defined in speech, syllable counts depend on whether analysis is phonological or phonetic, and tools such as Audacity and Praat are used to segment recordings in research.[1]"
+   ]
+  },
+  {
+   "h": "Pace and impressions",
+   "paras": [
+    "Wikipedia reports Giles's finding that faster perceived tempo went with higher perceived competence, while noting that tempo judgements can be subject to listener bias.[1] Typical rates differ by context: storytelling and interview speech differ significantly in rate, and sounds per second ranged from about 9.4 for poetry reading to 13.83 for sports commentary in one study.[1] Differences in perceived tempo between languages may partly come from rhythm and pausing rather than actual speed.[1]"
+   ]
+  },
+  {
    "h": "Clinical studies",
    "paras": [
-    "No studies found."
+    "No studies found on pacing apps. Research on speech tempo and perceived competence exists, as described above.[1]"
    ]
   }
  ],
@@ -39,19 +88,5 @@
    "url": "https://en.wikipedia.org/wiki/Speech_tempo",
    "title": "Speech tempo - Wikipedia"
   }
- ],
- "card": {
-  "summary": "Apps for practicing speaking speed; pace affects impressions, but the apps themselves are untested.",
-  "aka": null,
-  "evidence": "unproven",
-  "outcome": "unsupported",
-  "price": null,
-  "note": "No trials of pacing apps found.",
-  "structure": null
- },
- "quick": {
-  "overview": "Pacing apps help people monitor and practice how fast and evenly they speak.\n\nSpeech-tempo research links perceived speed with perceived competence, but no studies test the apps.",
-  "mechanism": "Users record or speak while the app tracks pace, then adjust speed and pauses.",
-  "risks": "No harms documented."
- }
+ ]
 }

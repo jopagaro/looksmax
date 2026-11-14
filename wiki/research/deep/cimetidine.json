@@ -1,9 +1,36 @@
 {
  "name": "Cimetidine",
+ "card": {
+  "summary": "An acid-reducing H2 blocker with weak antiandrogen action that has been floated for acne and hirsutism; references describe the effect as too weak to matter.",
+  "aka": "Tagamet",
+  "evidence": "unproven",
+  "status": "otc",
+  "outcome": null,
+  "risk": null,
+  "price": null,
+  "note": "Inhibits many liver enzymes and interacts with other drugs; rare gynecomastia.",
+  "structure": "Cimetidine"
+ },
+ "quick": {
+  "overview": "Cimetidine is an over-the-counter and prescription acid reducer. It has a weak antiandrogenic effect, so some have tried it for acne or excess hair in women.\n\nWikipedia reports that the effect is too weak to help those conditions and that such use is not recommended. No acne or hirsutism trials appear in the sources reviewed.",
+  "mechanism": "It blocks histamine H2 receptors in the stomach lining, and at high doses weakly blocks the androgen receptor and affects estrogen metabolism.",
+  "risks": "Usually mild side effects such as diarrhea, rash, dizziness and fatigue; rare gynecomastia or sexual dysfunction, mainly at high doses. It inhibits liver enzymes and interacts with many drugs including warfarin and theophylline."
+ },
  "lead": [
-  "Cimetidine (brand name Tagamet) is a histamine H2-receptor antagonist that reduces stomach acid, used mainly for ulcers and heartburn. [1][2] It also has weak antiandrogenic activity, which is why it has occasionally been tried for acne and excess hair growth (hirsutism) in women. [2]",
-  "Wikipedia states that this antiandrogenic effect is too weak to help much with acne, hirsutism or hyperandrogenism in women, and that these uses are not recommended. [2] No clinical studies of cimetidine for appearance conditions are summarised in the sources used here."
+  "Cimetidine (brand name Tagamet) is a histamine H2-receptor antagonist that lowers stomach acid and is used for ulcers and heartburn. [2][1] In appearance circles it comes up because it also has weak antiandrogenic activity: androgens drive oil production, acne and excess facial and body hair, so a mild androgen blocker has been tried by some for oily, acne-prone skin and for hirsutism in women. [2]",
+  "The idea behind this use is simple. Cimetidine binds the androgen receptor, and with fewer androgen signals reaching hair follicles and sebaceous glands, skin could in principle become clearer and hair growth lighter. Wikipedia describes the receptor affinity as very low and notes that the antiandrogen effect appears mainly at high doses; it says a controlled study did not find the drug effective for hyperandrogenism in women and that use for acne or hirsutism is not recommended. [2]",
+  "Among people who train and use hormone-active products, cimetidine is mostly discussed on T Nation in a different context: as one of the medications that can contribute to breast tissue growth (gynecomastia), which affects how a man's chest looks. [3][4][5] Its main documented profile is as a widely used, long-established acid reducer and the first drug to pass $1 billion in annual sales. [2]"
  ],
+ "angle": {
+  "goal": "Skin and hair",
+  "chain": [
+   "Blocks the androgen receptor weakly at high doses",
+   "Less androgen signalling in oil glands and hair follicles",
+   "Possible reduction in oily skin, acne or unwanted hair"
+  ],
+  "effect": "claimed",
+  "text": "People who have tried cimetidine for appearance did so for androgen-driven acne and for excess hair growth in women, relying on its weak androgen-receptor blocking. Reviews of the drug describe the effect as too slight at usual doses to change these conditions noticeably. [2]"
+ },
  "infobox": [
   [
    "Drug class",
@@ -14,8 +41,16 @@
    "Oral"
   ],
   [
+   "Bioavailability",
+   "About 60-70% orally [2]"
+  ],
+  [
+   "Elimination half-life",
+   "About 2 hours [2]"
+  ],
+  [
    "Developed",
-   "Smith, Kline & French; marketed UK 1976, US 1977 [2]"
+   "Smith, Kline & French; synthesised 1972, UK market 1976, US 1977 [2]"
   ],
   [
    "Trade names",
@@ -30,13 +65,14 @@
   {
    "h": "Uses",
    "paras": [
-    "The labelled uses are duodenal and gastric ulcers, gastroesophageal reflux disease, pathological hypersecretory conditions and heartburn. [2][1] Dermatological uses such as warts, chronic urticaria and mastocytosis are off-label. [1]"
+    "The labelled uses are duodenal and gastric ulcers, gastroesophageal reflux disease, pathological hypersecretory conditions and heartburn. [2][6] Dermatological uses such as warts, chronic urticaria and mastocytosis are off-label. [1]"
    ],
    "subs": [
     {
      "h": "Cosmetic / appearance uses",
      "paras": [
-      "Because cimetidine binds the androgen receptor very poorly and shows antiandrogenic effects mainly at high doses, it has been proposed for androgen-related skin and hair complaints in women. [2] Wikipedia describes the effect as insufficient for acne or hirsutism. [2] For common warts, early reports were favourable but double-blind trials found it no better than placebo. [2][1]"
+      "Cimetidine competitively binds the androgen receptor, but with extremely low affinity: Wikipedia cites about 0.00084% of the affinity of the reference androgen metribolone. [2] Because of this, it has been proposed for androgen-related complaints in women such as acne, oily skin and hirsutism. [2]",
+      "Wikipedia summarises the literature as showing limited effectiveness for hirsutism and says its use for acne, hirsutism and hyperandrogenism is not recommended. [2] For common warts, early reports were favourable but double-blind trials found it no better than placebo. [2][1]"
      ]
     }
    ]
@@ -44,32 +80,58 @@
   {
    "h": "Adverse effects",
    "paras": [
-    "Side effects are usually mild and temporary and include diarrhea, rash, dizziness and fatigue. [2] Because of its hormonal effects, gynecomastia and sexual dysfunction are rare, with gynecomastia reported in roughly 0.1-0.2% of men on long-term treatment and more often at high doses. [2] The drug broadly inhibits cytochrome P450 enzymes and so interacts with many medications, including warfarin, theophylline and phenytoin. [2][1]"
+    "Side effects are usually mild and temporary and include diarrhea, rash, dizziness and fatigue. [2][6] The US label lists the gastrointestinal, central nervous system, endocrine and other reactions seen in controlled studies. [6]"
+   ],
+   "subs": [
+    {
+     "h": "Gynecomastia and sexual effects",
+     "paras": [
+      "Gynecomastia is rare at usual ulcer doses, under 1%, with one survey of over 9,000 patients finding it in 0.2%. [2] At high doses, such as those used for Zollinger-Ellison syndrome, it is more common: in a study of 25 men taking 1,600 mg per day, 20% developed it, usually after about four months, resolving within about a month of stopping. [2] A UK database study of over 80,000 men reported a relative risk of 7.2, rising sharply at higher doses. [2]",
+      "Reduced sperm count and, rarely, reduced libido and erectile dysfunction have been reported. [2] At therapeutic levels testosterone is unchanged or slightly raised, which Wikipedia attributes to loss of negative feedback on the hypothalamic-pituitary-gonadal axis. [2]"
+     ]
+    },
+    {
+     "h": "Drug interactions",
+     "paras": [
+      "Cimetidine non-selectively inhibits several cytochrome P450 enzymes, raising levels of drugs such as warfarin, theophylline, phenytoin, carbamazepine and methadone, and it can reduce activation of prodrugs like tamoxifen and codeine. [2][1] A randomised crossover study examined its interaction with acetaminophen. [7]"
+     ]
+    }
    ]
   },
   {
    "h": "Pharmacology",
    "paras": [
-    "Cimetidine competitively blocks histamine H2 receptors on gastric parietal cells. [1] Besides this, it weakly antagonises the androgen receptor and inhibits estradiol 2-hydroxylation, which can raise estrogen levels. [2] Oral bioavailability is 60-70% and elimination half-life is about 2 hours. [2]"
+    "Cimetidine competitively blocks histamine H2 receptors on gastric parietal cells, lowering acid secretion. [1] It also weakly antagonises the androgen receptor and inhibits estradiol 2-hydroxylation, which can raise estrogen levels. [2] Oral bioavailability is 60-70% and elimination half-life is about 2 hours. [2]"
    ]
   },
   {
    "h": "History",
    "paras": [
-    "Cimetidine was developed at Smith, Kline & French by a team including James W. Black and C. Robin Ganellin, following the earlier compounds burimamide and metiamide. [2][1] It reached the UK market in 1976 and the US in 1977 and became the first drug to exceed $1 billion in annual sales. [2]"
+    "Work at Smith, Kline & French on H2 receptors began in 1964. Cimetidine was developed by a team including James W. Black and C. Robin Ganellin, following the earlier compounds burimamide and metiamide, and was synthesised in 1972. [2][1] It reached the UK market in 1976, the US in 1977, with FDA approval in 1979 per Wikipedia, and became the first drug to exceed $1 billion in annual sales. [2] It was named an International Historic Chemical Landmark in 1997. [2]"
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing communities",
+   "paras": [
+    "On T Nation, cimetidine appears chiefly in discussions of gynecomastia causes. A long-running gyno thread lists it among medications responsible for 10-20% of gynecomastia cases in post-adolescent adults, alongside omeprazole, spironolactone and finasteride. [3] Another poster wondered whether months of taking Tagamet nightly had contributed to chest growth. [4] A hormone-health list of drugs raising prolactin names H2 antagonists including cimetidine. [5]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found for cimetidine in acne or hirsutism in the sources reviewed. Trials in warts, a related dermatological use, have given mixed results, with open-label reports of clearance and double-blind trials showing no advantage over placebo. [2][1]"
+    "No published trial in the available literature establishes cimetidine as a treatment for acne. For hirsutism, Wikipedia reports a controlled study finding it not effective for hyperandrogenism and describes effectiveness as limited. [2] A phase 3 registration listed a trial of cimetidine alongside standard therapy for acute extrinsic atopic dermatitis in 26 patients, status unknown. [8]",
+    "Studies of its labelled use include a randomised trial of ulcer relapse prevention in duodenal ulcer disease [9] and a clinical report on treatment of gastroesophageal reflux. [10] A 2022 review examined cimetidine in erythropoietic protoporphyria, a light-sensitivity skin condition, [11] and a phase 2 trial in protoporphyrias has been completed. [12]"
    ]
   }
  ],
  "timeline": [
   {
+   "year": "1964",
+   "event": "Smith, Kline & French begin H2-receptor work. [2]"
+  },
+  {
    "year": "1972",
-   "event": "Cimetidine synthesised at Smith, Kline & French. [1]"
+   "event": "Cimetidine synthesised. [2][1]"
   },
   {
    "year": "1976",
@@ -78,9 +140,45 @@
   {
    "year": "1977",
    "event": "Introduced in the US. [2]"
+  },
+  {
+   "year": "1979",
+   "event": "FDA approval; sales in over 100 countries. [2]"
+  },
+  {
+   "year": "1997",
+   "event": "Named an International Historic Chemical Landmark. [2]"
   }
  ],
- "lore": null,
+ "lore": {
+  "intro": "On T Nation, cimetidine is discussed mainly as a medication that can influence hormones and chest tissue, rather than as a skin treatment. [3][4]",
+  "claims": [
+   {
+    "claim": "Cimetidine can cause gynecomastia (\"gyno\")",
+    "believers": "Posters list cimetidine among medications that can cause breast tissue growth and one described suspecting months of nightly Tagamet. [3][4]",
+    "experts": "Wikipedia reports gynecomastia in under 1% at ulcer doses and in about 20% in a small high-dose study, usually reversing after stopping. [2]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "H2 blockers raise prolactin and disturb hormones",
+    "believers": "A T Nation hormone-health list names cimetidine among drugs said to raise prolactin, and another poster calls it an endocrine disrupter. [5][13]",
+    "experts": "Wikipedia says testosterone is unchanged or slightly raised at therapeutic levels and notes weak androgen-receptor antagonism and estrogen-metabolism effects. [2]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Cimetidine works as an anti-androgen for acne and hair",
+    "believers": "The idea rests on its androgen-receptor binding, and it has been floated for women with acne or hirsutism. [2]",
+    "experts": "Wikipedia describes its affinity as very low and use for these conditions as not recommended. [2]",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "Cimetidine boosts other drugs by slowing their breakdown",
+    "believers": "A T Nation poster describes Tagamet as potentiating oral methadone. [14]",
+    "experts": "The label and reviews document broad CYP450 inhibition and many interactions. [2][6]",
+    "evidence": "supported"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -97,28 +195,108 @@
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Gyno Sticky",
+   "url": "https://t-nation.com/t/gyno-sticky/110807",
+   "source": "T Nation",
+   "year": 2015,
+   "type": "forum"
+  },
+  {
+   "id": 4,
+   "title": "Lab Results - Now What?",
+   "url": "https://t-nation.com/t/lab-results-now-what/167789",
+   "source": "T Nation",
+   "year": 2011,
+   "type": "forum"
+  },
+  {
+   "id": 5,
+   "title": "First Cycle. Adding Anavar to Test E. When and How Much?",
+   "url": "https://t-nation.com/t/first-cycle-adding-anavar-to-test-e-when-and-how-much/257894",
+   "source": "T Nation",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 6,
+   "title": "Cimetidine tablets US drug label",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=01997826-7ca1-473e-bfc9-075b14b58a35",
+   "source": "DailyMed",
+   "year": 2024,
+   "type": "label"
+  },
+  {
+   "id": 7,
+   "title": "Cimetidine--acetaminophen interaction in humans",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/3998201/",
+   "source": "J Clin Pharmacol",
+   "year": 1985,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "NCT04018131 Cimetidine for acute extrinsic atopic dermatitis",
+   "url": "https://clinicaltrials.gov/study/NCT04018131",
+   "source": "ClinicalTrials.gov",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Prophylactic effect of cimetidine in duodenal ulcer disease",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/346161/",
+   "source": "BMJ",
+   "year": 1978,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Cimetidine therapy for gastroesophageal reflux disease",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/3909640/",
+   "source": "West J Med",
+   "year": 1985,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Cimetidine for erythropoietic protoporphyria",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35245673/",
+   "source": "Photodiagnosis Photodyn Ther",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 12,
+   "title": "NCT05020184 Effect of Oral Cimetidine in the Protoporphyrias",
+   "url": "https://clinicaltrials.gov/study/NCT05020184",
+   "source": "ClinicalTrials.gov",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "Doc Says no HCG/AI",
+   "url": "https://t-nation.com/t/doc-says-no-hcg-ai/188313",
+   "source": "T Nation",
+   "year": 2013,
+   "type": "forum"
+  },
+  {
+   "id": 14,
+   "title": "Grapefruit Juice",
+   "url": "https://t-nation.com/t/grapefruit-juice/111154",
+   "source": "T Nation",
+   "year": 2008,
+   "type": "forum"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Cimetidine",
-   "title": "Cimetidine - Wikipedia"
+   "title": "Cimetidine (Wikipedia)"
   }
- ],
- "card": {
-  "summary": "An acid-reducing H2 blocker with weak antiandrogen action that has been floated for acne and hirsutism; references describe the effect as too weak to matter.",
-  "aka": "Tagamet",
-  "evidence": "unproven",
-  "status": "otc",
-  "outcome": null,
-  "risk": null,
-  "price": null,
-  "note": "Inhibits many liver enzymes and interacts with other drugs; rare gynecomastia.",
-  "structure": "Cimetidine"
- },
- "quick": {
-  "overview": "Cimetidine is an over-the-counter and prescription acid reducer. It has a weak antiandrogenic effect, so some have tried it for acne or excess hair in women.\n\nWikipedia reports that the effect is too weak to help those conditions and that such use is not recommended. No acne or hirsutism trials appear in the sources reviewed.",
-  "mechanism": "It blocks histamine H2 receptors in the stomach lining, and at high doses weakly blocks the androgen receptor and affects estrogen metabolism.",
-  "risks": "Usually mild side effects such as diarrhea, rash, dizziness and fatigue; rare gynecomastia or sexual dysfunction, mainly at high doses. It inhibits liver enzymes and interacts with many drugs including warfarin and theophylline."
- }
+ ]
 }

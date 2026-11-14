@@ -1,9 +1,20 @@
 {
  "name": "Beard brush / comb",
  "lead": [
-  "Beard brushes and combs are grooming tools used to detangle, shape and distribute product through facial hair. Some beard-growers also describe brushing as \"training\" the hair to lie in a direction.",
-  "Combs date back to prehistoric times, per Wikipedia, though its article does not cover beard combs specifically.[1] No studies of beard brushing for appearance or growth were found."
+  "Beard brushes and combs are grooming tools used to detangle facial hair, lay it in one direction, shape its outline and spread beard oil or balm evenly. People use them to make a beard look neater, fuller and more deliberately styled, and some beard-growers describe brushing as \"training\" the hair to lie in a chosen direction.",
+  "Combs have a long history. Wikipedia reports that they date back to prehistoric times, with unbreakable plastic versions introduced in the mid-20th century and artisan combs in varied materials becoming popular more recently.[1] Beard-specific brushes and combs are sold commercially, typically with boar bristle, wood or metal tines.",
+  "Wikipedia's article on beards describes maintenance routines that include washing, conditioning, applying oils to soften the beard and trimming, and notes that full beards became fashionable again among young men in the 2010s alongside a sharp rise in male grooming product sales.[2] No studies of beard brushing for appearance or growth were found."
  ],
+ "angle": {
+  "goal": "Beard appearance",
+  "chain": [
+   "Brush or comb run through the beard",
+   "Hairs detangled, aligned and product spread evenly",
+   "Beard looks neater, more uniform and fuller"
+  ],
+  "effect": "direct",
+  "text": "Brushing and combing change how the beard lies and how its outline reads. Users reach for them to smooth tangles, direct hairs and shape a defined edge before trimming."
+ },
  "infobox": [
   [
    "Type",
@@ -14,21 +25,26 @@
    "Plastic, wood, metal, boar bristle (typical)"
   ],
   [
-   "Evidence status",
-   "Unstudied for growth"
+   "Used with",
+   "Beard oil, balm, trimmer"
+  ],
+  [
+   "Comb history",
+   "Prehistoric origins; unbreakable plastic mid-20th century[1]"
   ]
  ],
  "sections": [
   {
    "h": "Design and types",
    "paras": [
-    "Combs have long histories across regions, with unbreakable plastic versions introduced in the mid-20th century and artisan combs of varied materials becoming popular more recently.[1] Beard-specific variants are sold commercially."
+    "Combs have long histories across regions, with unbreakable plastic versions introduced in the mid-20th century and artisan combs of varied materials becoming popular more recently.[1] Beard-specific variants are sold commercially: fine-toothed combs for detangling and shaping, wider-toothed combs for longer beards, and brushes whose bristles reach the skin and move product through the hair."
    ]
   },
   {
    "h": "Use in looksmaxxing",
    "paras": [
-    "Proponents say brushing tidies and shapes the beard and may make it look fuller; these claims are anecdotal."
+    "Proponents say brushing tidies and shapes the beard and may make it look fuller by spreading hairs across the face and training them into one direction. Because beard-growing communities often start with patchy or uneven growth, brushing is paired with trimming and oiling to improve the look of the beard as it grows in.",
+    "Wikipedia notes that beard growth is linked to dihydrotestosterone from puberty onward and that its rate is partly genetic.[2] A long T Nation thread on beards includes a woman describing liking a partner's goatee at its different stages, from clean cheeks to scruff to fuller growth.[3]"
    ]
   },
   {
@@ -52,17 +68,37 @@
  "refs": [
   {
    "id": 1,
-   "title": "Comb - Wikipedia",
+   "title": "Comb",
    "url": "https://en.wikipedia.org/wiki/Comb",
    "source": "Wikipedia",
-   "year": 2025,
+   "year": null,
    "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Beard",
+   "url": "https://en.wikipedia.org/wiki/Beard",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Beard Power",
+   "url": "https://t-nation.com/t/beard-power/160776",
+   "source": "T Nation forum",
+   "year": 2011,
+   "type": "forum"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Comb",
-   "title": "Comb - Wikipedia"
+   "title": "Comb"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Beard",
+   "title": "Beard"
   }
  ],
  "card": {

@@ -1,72 +1,139 @@
 {
-  "name": "Losing body fat to raise testosterone",
-  "lead": [
-    "Losing body fat to raise testosterone is the belief that reducing fat mass increases circulating testosterone in men, and so supports a leaner, more masculine appearance. Proponents link it to the way adipose tissue handles sex hormones.",
-    "Wikipedia's testosterone article states that fat cells make the enzyme aromatase, which converts testosterone into estradiol, and that weight loss may raise testosterone. The same article adds that no clear link between body mass index and testosterone has been found [1]. No clinical trial was reviewed for this entry."
+ "name": "Losing body fat to raise testosterone",
+ "lead": [
+  "Losing body fat to raise testosterone is the idea that getting leaner increases circulating testosterone in men, and with it the markers of a more masculine physique: more muscle definition, a harder look and an easier path to further muscle gain. Proponents link it to the way fat tissue handles sex hormones, so the practice appeals to people who are cutting for visible leanness and want the hormonal side effect as well.",
+  "Wikipedia reports that fat cells make the enzyme aromatase, which converts testosterone into estradiol, and that aromatase activity rises with obesity [1][2]. Its testosterone article states that weight loss may raise testosterone while also noting that no clear link between body mass index and testosterone has been found [1].",
+  "A 2024 meta-analysis of 44 studies and 1,774 men found that total and free testosterone rose after weight loss achieved by low-calorie diet or bariatric surgery, with larger gains in men who started with a higher BMI or lower testosterone [3]. A randomized trial in older men with obesity and low testosterone examined lifestyle therapy with and without testosterone replacement [4]."
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Lifestyle / body-composition practice"
   ],
-  "infobox": [
-    [
-      "Type",
-      "Lifestyle / body-composition practice"
-    ],
-    [
-      "Claimed mechanism",
-      "Less adipose aromatase, so less conversion of testosterone to estradiol"
-    ],
-    [
-      "Evidence level",
-      "Plausible mechanism described; mixed on BMI link in reference text"
-    ]
+  [
+   "Claimed mechanism",
+   "Less adipose aromatase, so less conversion of testosterone to estradiol [1][2]"
   ],
-  "sections": [
-    {
-      "h": "Proposed mechanism",
-      "paras": [
-        "The proposed pathway runs through aromatase, an enzyme present in fat tissue that converts testosterone into estradiol [1]. On this account, more fat tissue means more conversion, and losing fat reduces it."
-      ]
-    },
-    {
-      "h": "Research and expert views",
-      "paras": [
-        "The testosterone article says weight loss may raise testosterone, while also reporting that no clear relationship between BMI and testosterone has been found [1]. These two statements are presented side by side in the source, so the overall picture is described as uncertain rather than settled."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found."
-      ]
-    }
+  [
+   "Research base",
+   "Meta-analysis of weight-loss studies in men with obesity [3]"
   ],
-  "timeline": [],
-  "lore": null,
-  "refs": [
-    {
-      "id": 1,
-      "title": "Testosterone",
-      "url": "https://en.wikipedia.org/wiki/Testosterone",
-      "source": "Wikipedia",
-      "year": 2026,
-      "type": "encyclopedia"
-    }
-  ],
-  "webSources": [
-    {
-      "url": "https://en.wikipedia.org/wiki/Testosterone",
-      "title": "Testosterone"
-    }
-  ],
-  "card": {
-    "summary": "Cutting fat to lift testosterone via less aromatase; the mechanism is described, but the BMI link is called unclear.",
-    "aka": null,
-    "evidence": "limited",
-    "risk": "low",
-    "note": "Reference text reports no clear BMI-testosterone link.",
-    "price": null
+  [
+   "Typical methods studied",
+   "Low-calorie diet, bariatric surgery [3]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Proposed mechanism",
+   "paras": [
+    "The proposed pathway runs through aromatase, an enzyme present in fat tissue that converts testosterone into estradiol [1]. Wikipedia reports that aromatase activity increases with age, obesity, insulin and alcohol, so more fat tissue is associated with more conversion, and losing fat is proposed to reduce it [2]. Researchers also describe obesity-associated hypogonadism, in which low testosterone accompanies obesity and may improve with weight loss [3]."
+   ]
   },
-  "quick": {
-    "overview": "The claim is that losing body fat raises testosterone in men, which also tends to be pursued for a leaner look.\n\nThe cited reference says weight loss may raise testosterone but also that no clear BMI link has been found, so the picture is uncertain.",
-    "mechanism": "Fat cells contain aromatase, which converts testosterone to estradiol, so less fat is proposed to mean less conversion [1].",
-    "risks": "No specific harms are described in the sources reviewed; the usual considerations of rapid or extreme dieting apply but are not covered here."
+  {
+   "h": "Research and expert views",
+   "paras": [
+    "The testosterone article says weight loss may raise testosterone, while also reporting that no clear relationship between BMI and testosterone has been found [1]. The studies below look at men with obesity; findings in lean or normal-weight men are less documented."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A 2024 meta-analysis in Andrology pooled 44 studies with 1,774 participants: 19 used low-calorie diets and 26 used bariatric surgery. Total testosterone rose by about 2.5 nmol/L after diet-induced weight loss and 7.2 nmol/L after bariatric surgery, with a combined gain of 4.8 nmol/L, and free testosterone also rose. Gains were larger with higher baseline BMI or lower baseline SHBG and testosterone. Younger men (40 or under) gained less total but more free testosterone for a given weight loss, and the authors built nomograms to estimate the change [3].",
+    "A randomized, double-blind trial of 83 men aged 65 or older with obesity and low testosterone compared six months of lifestyle therapy (weight management and exercise) plus testosterone or placebo. With about 9 percent weight loss in both groups, lean mass and thigh muscle volume fell slightly less with testosterone, while physical performance improved similarly in both [4]."
+   ]
+  },
+  {
+   "h": "Reported risks",
+   "paras": [
+    "Wikipedia and the studies above do not report harms specific to fat loss for testosterone. The older-men trial noted that weight loss reduced lean mass and bone density to some degree, which testosterone partly attenuated [4]."
+   ]
   }
+ ],
+ "timeline": [
+  {
+   "year": "2021",
+   "event": "Randomized trial of testosterone added to lifestyle therapy in older men with obesity [4]"
+  },
+  {
+   "year": "2024",
+   "event": "Meta-analysis of 44 weight-loss studies reports testosterone gains [3]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Testosterone",
+   "url": "https://en.wikipedia.org/wiki/Testosterone",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Aromatase",
+   "url": "https://en.wikipedia.org/wiki/Aromatase",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Meta-analysis and construction of simple-to-use nomograms for approximating testosterone levels gained from weight loss in obese men",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:37345263&resultType=core&format=json&pageSize=1",
+   "source": "Andrology (via Europe PMC)",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Testosterone Replacement Therapy Added to Intensive Lifestyle Intervention in Older Men With Obesity and Hypogonadism",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33351921&resultType=core&format=json&pageSize=1",
+   "source": "J Clin Endocrinol Metab (via Europe PMC)",
+   "year": 2021,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Testosterone",
+   "title": "Testosterone"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Aromatase",
+   "title": "Aromatase - Wikipedia"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:37345263&resultType=core&format=json&pageSize=1",
+   "title": "Europe PMC record 37345263"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33351921&resultType=core&format=json&pageSize=1",
+   "title": "Europe PMC record 33351921"
+  }
+ ],
+ "card": {
+  "summary": "Cutting fat to lift testosterone via less aromatase; the mechanism is described, but the BMI link is called unclear.",
+  "aka": null,
+  "evidence": "limited",
+  "risk": "low",
+  "note": "Reference text reports no clear BMI-testosterone link.",
+  "price": null
+ },
+ "quick": {
+  "overview": "The claim is that losing body fat raises testosterone in men, which also tends to be pursued for a leaner look.\n\nThe cited reference says weight loss may raise testosterone but also that no clear BMI link has been found, so the picture is uncertain.",
+  "mechanism": "Fat cells contain aromatase, which converts testosterone to estradiol, so less fat is proposed to mean less conversion [1].",
+  "risks": "No specific harms are described in the sources reviewed; the usual considerations of rapid or extreme dieting apply but are not covered here."
+ },
+ "angle": {
+  "goal": "Muscle",
+  "chain": [
+   "Fat mass is reduced",
+   "Less aromatase activity and lower obesity-related suppression",
+   "Higher testosterone and a leaner, more muscular look"
+  ],
+  "effect": "indirect",
+  "text": "Cutting fat makes muscle more visible directly, and proponents add that it raises testosterone, which supports muscle retention and a more masculine appearance. Research on weight loss and testosterone has mostly studied men with obesity."
+ }
 }
