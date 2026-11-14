@@ -39,6 +39,9 @@ for (const t of TAX) {
   const approaches = [];
   for (const a of blk.approaches || []) {
     if (!a?.name || !KINDS.includes(a.kind)) continue;
+    // Entries researched and rejected (skip objects) never get articles — leave them off topic pages.
+    try { const dd = JSON.parse(readFileSync(join(root, 'research', 'deep', String(a.name).toLowerCase().replace(/\s*\(.*?\)\s*/g, ' ').trim().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') + '.json'), 'utf8')); if (dd.skip) continue; } catch {}
+    try { const dd = JSON.parse(readFileSync(join(root, 'research', 'deep', String(a.name).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') + '.json'), 'utf8')); if (dd.skip) continue; } catch {}
     const hit = known.get(a.name.toLowerCase()) || known2.get(stripParen(a.name));
     const name = hit ? hit.name : a.name.trim();
     const kind = hit ? hit.kind : a.kind;
