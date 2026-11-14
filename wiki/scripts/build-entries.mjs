@@ -12,6 +12,9 @@ import { root, slug, allEntries } from './entries.mjs';
 const outDir = join(root, 'data', 'entries');
 mkdirSync(outDir, { recursive: true });
 const readJSON = (p) => { try { return JSON.parse(readFileSync(p, 'utf8')); } catch { return null; } };
+// Thread titles from forums are shown verbatim, so drop any containing slurs or explicit sexual content.
+const BLOCK = /\b(n[i1]gg\w*|f[a4]gg?\w*|tr[a4]nn\w*|retard\w*|k[i1]ke\w*|ch[i1]nk\w*|sp[i1]c\w*|beast\w*|bestial\w*|zoophil\w*|rape\w*|rapist\w*|porn\w*|p[o0]rn\w*|nsfw|cum\w*|jerk(ing)? off|masturbat\w*|penis|dick\w*|cock\w*|pussy|pedo\w*|paedo\w*|loli\w*|suicide|kys|rope\w*|necro\w*)\b/i;
+const cleanTitle = (t) => !BLOCK.test(String(t || ''));
 const okUrl = (u) => typeof u === 'string' && /^https:\/\/[^\s"<>]+$/.test(u);
 const norm = (u) => String(u || '').replace(/^https?:\/\/(www\.)?/, '').replace(/[?#].*$/, '').replace(/\/+$/, '').toLowerCase();
 
@@ -46,13 +49,13 @@ for (const { kind, item } of ENTRIES) {
   const relevantPM = PM;
 
   // ── Community: Reddit (archive API) + looksmax.org (Wayback index) + first-pass forums
-  const reddit = RD.slice(0, 14).map((p) => ({ title: p.title, url: p.url, sub: p.sub, score: p.score, comments: p.comments, year: p.year }));
+  const reddit = RD.filter((p) => cleanTitle(p.title)).slice(0, 14).map((p) => ({ title: p.title, url: p.url, sub: p.sub, score: p.score, comments: p.comments, year: p.year }));
   const forums = [];
   const seenF = new Set();
   const addForum = (x) => { const k = norm(x.url); if (!okUrl(x.url) || seenF.has(k)) return; seenF.add(k); forums.push(x); };
   const TN = Array.isArray(raw.tnation) ? raw.tnation : [];
-  LM.slice(0, 16).forEach((t) => addForum({ title: t.title, url: t.url, site: 'looksmax.org', archived: t.archived || `https://web.archive.org/web/${t.ts}/${t.url}` }));
-  TN.slice(0, 6).forEach((t) => addForum({ title: t.title, url: t.url, site: `T Nation · ${t.posts} posts${t.year ? ' · ' + t.year : ''}` }));
+  LM.filter((t) => cleanTitle(t.title)).slice(0, 16).forEach((t) => addForum({ title: t.title, url: t.url, site: 'looksmax.org', archived: t.archived || `https://web.archive.org/web/${t.ts}/${t.url}` }));
+  TN.filter((t) => cleanTitle(t.title)).slice(0, 6).forEach((t) => addForum({ title: t.title, url: t.url, site: `T Nation · ${t.posts} posts${t.year ? ' · ' + t.year : ''}` }));
   (fp.forums || []).forEach((x) => { if (!/reddit\.com/.test(x.url) || !reddit.some((r) => norm(r.url) === norm(x.url))) addForum({ title: x.title, url: x.url, site: x.site }); });
 
   const X = readJSON(join(root, 'research', 'extra', s + '.json')) || {};
@@ -96,8 +99,8 @@ for (const { kind, item } of ENTRIES) {
     studies: allStudies,
     trials: (X.trials || []).map((t) => ({ title: t.title, url: t.url, nct: t.nct, status: t.status, phase: t.phase, start: t.start, enrollment: t.enrollment })),
     label: X.fda?.url ? { url: X.fda.url, brands: X.fda.brands, generic: X.fda.generic } : null,
-    reddit: RD.map((p) => ({ title: p.title, url: p.url, sub: p.sub, score: p.score, comments: p.comments, year: p.year })).sort((a, b) => (b.score + b.comments) - (a.score + a.comments)),
-    forums: [...forums, ...TN.slice(6).map((t) => ({ title: t.title, url: t.url, site: `T Nation · ${t.posts} posts${t.year ? ' · ' + t.year : ''}` })), ...LM.slice(16).map((t) => ({ title: t.title, url: t.url, site: 'looksmax.org', archived: t.archived || `https://web.archive.org/web/${t.ts}/${t.url}` }))],
+    reddit: RD.filter((p) => cleanTitle(p.title)).map((p) => ({ title: p.title, url: p.url, sub: p.sub, score: p.score, comments: p.comments, year: p.year })).sort((a, b) => (b.score + b.comments) - (a.score + a.comments)),
+    forums: [...forums, ...TN.filter((t) => cleanTitle(t.title)).slice(6).map((t) => ({ title: t.title, url: t.url, site: `T Nation · ${t.posts} posts${t.year ? ' · ' + t.year : ''}` })), ...LM.filter((t) => cleanTitle(t.title)).slice(16).map((t) => ({ title: t.title, url: t.url, site: 'looksmax.org', archived: t.archived || `https://web.archive.org/web/${t.ts}/${t.url}` }))],
     web: [W && { title: W.title + ' — Wikipedia', url: W.url }, G && { title: item.name + ' — Grokipedia', url: G.url }, ...((deep && deep.webSources) || []).filter((w) => w && okUrl(w.url)).map((w) => ({ title: w.title || w.url, url: w.url }))].filter(Boolean),
   };
 
