@@ -1,5 +1,111 @@
 {
  "name": "SAMMA",
- "skip": true,
- "reason": "SAMMA (mandelic acid condensation polymer) is studied only as a vaginal microbicide/contraceptive candidate against HIV and HSV; no source links it to skin or appearance, and the other sources hits are unrelated (wheat, fermented fish, knee surgery)."
+ "lead": [
+  "SAMMA is a mandelic acid condensation polymer, a compound derived from mandelic acid, the alpha hydroxy acid used in skincare peels.[1] SAMMA itself was developed as a candidate vaginal microbicide, not a cosmetic, and is included here because of its link to mandelic acid chemistry.",
+  "Laboratory work reported that SAMMA blocks HIV and herpes simplex virus from binding to cells with little cytotoxicity, and it was licensed for development as a contraceptive microbicide.[2][3]"
+ ],
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "Polymer built from mandelic acid",
+   "Studied as an antiviral and contraceptive microbicide",
+   "Not used as a skincare product"
+  ],
+  "effect": "claimed",
+  "text": "SAMMA is not a skin product; people interested in mandelic acid for skin texture and pigmentation use the monomer in peels, while the polymer has been studied for infection prevention."
+ },
+ "infobox": [
+  [
+   "Chemical class",
+   "Mandelic acid condensation polymer"
+  ],
+  [
+   "Developed as",
+   "Microbicide candidate"
+  ],
+  [
+   "Study type",
+   "Laboratory and preclinical"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Research",
+   "paras": [
+    "A 2002 study reported that SAMMA was highly effective against HIV isolates in primary human cells and inhibited herpes simplex infection by targeting viral envelope proteins.[2] A study of dendritic cell-mediated HIV transmission followed in 2007.[4] A separate study found that SAMMA induces premature acrosome loss in human sperm through calcium signalling, relevant to its contraceptive aim.[3]"
+   ]
+  },
+  {
+   "h": "Related compound: mandelic acid",
+   "paras": [
+    "Mandelic acid is an aromatic alpha hydroxy acid discovered in 1831 and used in superficial chemical peels considered suitable across skin types; a 2022 review lists 40% mandelic acid among agents that improve pigmentation and texture, while the American Academy of Dermatology says evidence is insufficient to recommend peels for acne.[1]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found. Published SAMMA work is laboratory and preclinical."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2002",
+   "event": "SAMMA reported as a candidate HIV and HSV microbicide.[2]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Mandelic acid",
+   "url": "https://en.wikipedia.org/wiki/Mandelic_acid",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Mandelic acid condensation polymer: novel candidate microbicide for prevention of HIV and HSV entry",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12388683/",
+   "source": "Journal of Virology",
+   "year": 2002,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "SAMMA induces premature human acrosomal loss by Ca2+ signaling dysregulation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16582417/",
+   "source": "Journal of Andrology",
+   "year": 2006,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "SAMMA inhibits dendritic cell-mediated HIV transmission",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17825297/",
+   "source": "FEBS Letters",
+   "year": 2007,
+   "type": "study"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Mandelic_acid",
+   "title": "Mandelic acid - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "A mandelic acid polymer studied as an antiviral microbicide, related to the mandelic acid used in skin-texture peels.",
+  "aka": "Mandelic acid condensation polymer",
+  "evidence": "limited",
+  "status": "research",
+  "note": "Laboratory-stage compound, not a skincare product.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "SAMMA is a polymer made from mandelic acid, the same acid used in gentle skincare peels.\n\nIt was developed as a vaginal microbicide and contraceptive candidate, so appearance uses refer to mandelic acid itself rather than SAMMA.",
+  "mechanism": "It blocks HIV and HSV from attaching to cells by targeting viral envelope proteins, and disrupts sperm acrosome function.",
+  "risks": "Only laboratory and preclinical studies exist; it is not a marketed product."
+ }
 }

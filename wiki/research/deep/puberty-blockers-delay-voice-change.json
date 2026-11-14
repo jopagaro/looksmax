@@ -1,5 +1,102 @@
 {
  "name": "Puberty blockers delay voice change",
- "skip": true,
- "reason": "Medical treatment for precocious puberty and gender dysphoria; the available sources itself notes it is not a looksmaxxing use and it is not about appearance optimisation."
+ "lead": [
+  "Puberty blockers are medicines, most commonly GnRH agonists, that postpone puberty by suppressing sex hormones such as testosterone and estradiol. Because voice deepening is driven by testosterone during male puberty, blocking puberty delays that change, and the same applies to other hormone-driven features [1].",
+  "This is a medical use rather than a standard looksmaxxing technique. It is relevant to appearance because transgender girls and their families use blockers to avoid unwanted masculine changes, including voice deepening, and because the same drugs are used in precocious puberty to preserve adult height [1]."
+ ],
+ "angle": {
+  "goal": "Voice",
+  "chain": [
+   "GnRH agonist suppresses sex hormones",
+   "Male-pattern puberty, including voice deepening, is postponed",
+   "Voice stays higher while treatment continues"
+  ],
+  "effect": "direct",
+  "text": "By holding puberty at bay, blockers delay voice deepening for as long as treatment continues. They are prescribed under medical supervision, mainly for gender dysphoria and precocious puberty."
+ },
+ "infobox": [
+  [
+   "Drug class",
+   "GnRH agonists"
+  ],
+  [
+   "Route",
+   "Injection or implant"
+  ],
+  [
+   "Medical uses",
+   "Precocious puberty; gender dysphoria in youth"
+  ],
+  [
+   "Legal status",
+   "Prescription only; off-label for gender dysphoria in the US [1]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Uses",
+   "paras": [
+    "Blockers are used in children whose puberty begins very early, mainly to preserve adult height, and in transgender youth to delay unwanted secondary sex characteristics while they explore their identity. The approach for gender dysphoria began with the Dutch protocol in the 1990s [1]."
+   ]
+  },
+  {
+   "h": "Effects on voice",
+   "paras": [
+    "Blockers suppress the secondary sex characteristics of puberty, which in people assigned male at birth includes voice deepening. They are generally described as reversible in that puberty resumes if treatment stops [1]."
+   ]
+  },
+  {
+   "h": "Adverse effects and status",
+   "paras": [
+    "Reported short-term effects include injection-site reactions, headaches, mood changes and fatigue, and bone mineral density falls during treatment. Long-term effects on bone, brain development and fertility are not well established [1]. Use for gender dysphoria is off-label in the US, supported by major US medical associations and the Endocrine Society, and restricted in some countries and US states [1]. Systematic reviews disagree on the certainty of evidence for mental-health outcomes [1]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found specific to voice change alone; broader reviews of puberty blockers in gender dysphoria and precocious puberty exist, with differing conclusions on certainty [1]."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1990s",
+   "event": "Dutch protocol develops puberty suppression for gender dysphoria [1]"
+  },
+  {
+   "year": "2022",
+   "event": "WPATH Standards of Care 8 deems treatment medically necessary for adolescents at Tanner stage 2 [1]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Puberty blocker",
+   "url": "https://en.wikipedia.org/wiki/Puberty_blocker",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Puberty_blocker",
+   "title": "Puberty blocker"
+  }
+ ],
+ "card": {
+  "summary": "GnRH-agonist medicines that postpone puberty, which delays voice deepening and other hormone-driven changes while treatment continues.",
+  "aka": "GnRH agonists, puberty suppression",
+  "evidence": "moderate",
+  "status": "rx",
+  "price": null,
+  "note": "Prescription-only, medically supervised; long-term effects not well established.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Puberty blockers pause puberty. Because male voice deepening depends on testosterone, a blocked puberty delays it.\n\nThey are prescribed for early puberty and for transgender youth, not as a do-it-yourself technique.",
+  "mechanism": "GnRH agonists suppress the signals that drive production of testosterone and estradiol, so puberty-related changes stop progressing until treatment ends.",
+  "risks": "Reported effects include injection-site reactions, headaches, mood changes and reduced bone density during treatment. Long-term effects are not well established, and legal status varies by country and US state."
+ }
 }

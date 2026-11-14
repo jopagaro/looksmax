@@ -1,5 +1,94 @@
 {
  "name": "Betaine salicylate",
- "skip": true,
- "reason": "No encyclopedic, clinical or cosmetic source could be loaded; the only listed source is a Chinese patent on its synthesis, and Wikipedia/Grokipedia have no page for it. Cosmetic use cannot be verified."
+ "lead": [
+  "Betaine salicylate is a salicylic acid derivative that appears in some toners and acne-care products, where it is used for gentle exfoliation and pore care. Proponents describe it as a milder alternative to salicylic acid for people who want clearer, smoother skin with less stinging.",
+  "It is a salt formed from salicylic acid and betaine. Salicylic acid itself is a well-known beta hydroxy acid that makes skin cells shed more readily and helps keep pores from clogging.[2] Published human research specific to betaine salicylate in skincare is very limited."
+ ],
+ "angle": {
+  "goal": "Skin clarity",
+  "chain": [
+   "Salicylate loosens dead skin cells",
+   "Pores stay clearer",
+   "Smoother, less congested skin"
+  ],
+  "effect": "claimed",
+  "text": "It is used in toners and spot-care products in the way salicylic acid is, to exfoliate and reduce clogged pores. People who find salicylic acid irritating often look for it as a gentler option."
+ },
+ "infobox": [
+  [
+   "Class",
+   "Salicylic acid derivative (beta hydroxy acid salt)"
+  ],
+  [
+   "Route",
+   "Topical (cosmetic products)"
+  ],
+  [
+   "Typical products",
+   "Toners, serums, acne care"
+  ],
+  [
+   "Legal status",
+   "Cosmetic ingredient"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Uses",
+   "paras": [
+    "Betaine salicylate is formulated into exfoliating toners and blemish-care products popular in Korean-style skincare routines. Brands position it as delivering salicylic-acid-type pore and texture benefits with a softer feel."
+   ]
+  },
+  {
+   "h": "Salicylic acid background",
+   "paras": [
+    "Topical salicylic acid is used to exfoliate skin and is found in products for acne, seborrhoeic dermatitis, psoriasis, calluses and warts; cosmetic use is described as low risk, with mild skin irritation the main listed effect, and the EU restricts its use in some product types.[2]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found. A 2006 patent record describes the compound's synthesis and proposes uses for it, including pain and fever relief, but it reports no skincare trials.[1]"
+   ]
+  }
+ ],
+ "timeline": [],
+ "lore": null,
+ "card": {
+  "summary": "A gentler salicylic acid derivative used in toners to exfoliate and keep pores clear.",
+  "aka": "Salicylic acid betaine salt",
+  "evidence": "unproven",
+  "status": "otc",
+  "note": "Few studies on this specific compound in skincare.",
+  "structure": "Betaine salicylate"
+ },
+ "quick": {
+  "overview": "Betaine salicylate is a salicylic acid derivative found in some toners and acne products. It is used to exfoliate gently and keep pores clear.\n\nUsers often look to it when regular salicylic acid feels too harsh.",
+  "mechanism": "Like salicylic acid, salicylates help skin cells shed more readily, which keeps pores from clogging. Betaine is the partner molecule in the salt.",
+  "risks": "Mild irritation is the main effect listed for topical salicylic acid. Human studies specific to betaine salicylate are limited."
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Synthesis and biological and pharmacological action of betaine salicylate",
+   "url": "https://europepmc.org/article/PAT/CN1733704",
+   "source": "Europe PMC (patent)",
+   "year": 2006,
+   "type": "study"
+  },
+  {
+   "id": 2,
+   "title": "Salicylic acid",
+   "url": "https://en.wikipedia.org/wiki/Salicylic_acid",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Salicylic_acid",
+   "title": "Salicylic acid - Wikipedia"
+  }
+ ]
 }

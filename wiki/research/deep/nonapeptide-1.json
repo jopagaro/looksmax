@@ -1,1 +1,59 @@
-{"name":"Nonapeptide-1","skip":true,"reason":"Dossier sources are off-topic (unrelated nonapeptides such as dDAVP and helix chemistry); no Wikipedia/Grokipedia page exists and nothing about the cosmetic ingredient could be verified from loaded sources."}
+{
+  "name": "Nonapeptide-1",
+  "lead": [
+    "Nonapeptide-1, sold under the trade name Melanostatine, is a short synthetic peptide of nine amino acids used in skin-brightening and dark-spot products. It is described as a melanocortin antagonist: it is designed to compete with alpha-melanocyte-stimulating hormone (alpha-MSH) at the MC1 receptor on pigment cells, which is one of the signals that tells skin to make melanin.[2][3]",
+    "People use it in serums and creams aimed at a more even, brighter complexion, including fading the look of sun spots and melasma-type patches. It is usually found alongside other brightening ingredients rather than on its own.[1]",
+    "Published human research is small. A randomized pilot study in 46 people with melasma tested a combination product containing phenyl ethyl resorcinol, nonapeptide-1, aminoethyl phosphinic acid and antioxidants plus sunscreen against sunscreen alone as a maintenance regimen.[1] Laboratory studies have also used nonapeptide-1 as a reference or building block in pigment research.[2][3]"
+  ],
+  "angle": {
+    "goal": "Skin tone",
+    "chain": ["Blocks alpha-MSH signalling at the MC1 receptor", "Less melanin production and transfer", "Brighter, more even-looking skin"],
+    "effect": "direct",
+    "text": "Nonapeptide-1 is applied topically in brightening serums to reduce the pigment signals behind dark spots and uneven tone. People use it as part of a routine aimed at a clearer, more uniform complexion."
+  },
+  "infobox": [
+    ["Type", "Synthetic cosmetic peptide (9 amino acids)"],
+    ["Also known as", "Melanostatine"],
+    ["Route", "Topical"],
+    ["Proposed mechanism", "Melanocortin (MC1R) antagonist"],
+    ["Use", "Skin brightening, dark spots, melasma-type pigmentation"]
+  ],
+  "sections": [
+    { "h": "Uses", "paras": [
+      "Nonapeptide-1 is formulated into topical brightening serums, creams and spot treatments. The goal is a more even skin tone and a reduction in the appearance of hyperpigmented patches, such as sun-induced spots and melasma.[1]",
+      "It appears in multi-ingredient formulas, for example alongside phenyl ethyl resorcinol, aminoethyl phosphinic acid, antioxidants and sunscreen in a product studied for melasma maintenance.[1]"
+    ] },
+    { "h": "Mechanism of action", "paras": [
+      "UV exposure prompts skin cells to release alpha-MSH, which binds the melanocortin 1 receptor (MC1R) on melanocytes and drives melanin production. Researchers note that alpha-MSH antagonists could therefore have applications in preventing melanogenesis.[2]",
+      "Nonapeptide-1 is described as interfering with this signalling, and a 2024 paper describes it as having melanin-transfer-interfering properties that reduce melanin content in treated skin areas.[3]"
+    ] },
+    { "h": "Clinical studies", "paras": [
+      "A prospective, double-blinded, parallel-group randomized pilot study enrolled 46 people with melasma, 23 in each arm, over eight months. It compared a proprietary combination containing nonapeptide-1 with sunscreen alone as maintenance after initial triple-combination treatment, and also assessed safety and quality of life.[1] Because the product contained several active ingredients, the study examined the combination rather than nonapeptide-1 alone.",
+      "In cell studies, human keratinocytes and epidermal melanocytes exposed to UVA were treated with tea polyphenols or nonapeptide-1 acetate salt as part of an investigation of the alpha-MSH-MC1R pathway.[2] A 2024 study loaded green-tea EGCG onto nonapeptide-1-conjugated silica nanoparticles and reported reduced melanin and DNA damage in skin cells exposed to UV.[3]"
+    ] }
+  ],
+  "timeline": [],
+  "lore": null,
+  "refs": [
+    { "id": 1, "title": "A randomized controlled pilot study of a proprietary combination versus sunscreen in melasma maintenance", "url": "https://pubmed.ncbi.nlm.nih.gov/34379946/", "source": "Indian Journal of Dermatology, Venereology and Leprology", "year": 2021, "type": "trial" },
+    { "id": 2, "title": "Effects of tea polyphenols on UVA-induced melanogenesis via inhibition of alpha-MSH-MC1R signalling pathway", "url": "https://pubmed.ncbi.nlm.nih.gov/35645678/", "source": "Postepy Dermatologii i Alergologii", "year": 2022, "type": "study" },
+    { "id": 3, "title": "Enhanced skin benefits of EGCG loaded in nonapeptide-1-conjugated mesoporous silica nanoparticles to reverse skin photoaging", "url": "https://pubmed.ncbi.nlm.nih.gov/39260749/", "source": "International Journal of Pharmaceutics", "year": 2024, "type": "study" }
+  ],
+  "webSources": [],
+  "card": {
+    "summary": "A nine-amino-acid peptide (Melanostatine) used in serums to dial down pigment signals for a brighter, more even skin tone.",
+    "aka": "Melanostatine",
+    "evidence": "limited",
+    "status": "otc",
+    "outcome": null,
+    "risk": null,
+    "price": null,
+    "note": null,
+    "structure": null
+  },
+  "quick": {
+    "overview": "Nonapeptide-1 is a small cosmetic peptide used in skin-brightening products. People use it to help fade the look of dark spots and even out skin tone.\n\nIt is typically one ingredient among several in a brightening serum or melasma-maintenance product, often paired with sunscreen.",
+    "mechanism": "It is described as a melanocortin antagonist: it competes with alpha-MSH at the MC1 receptor on melanocytes, which reduces the signal to produce melanin, and it is reported to interfere with melanin transfer.",
+    "risks": "It is applied topically and sold as a cosmetic ingredient. Published human data are limited to a small pilot trial of a multi-ingredient product, so its individual effects have not been separately studied in people."
+  }
+}

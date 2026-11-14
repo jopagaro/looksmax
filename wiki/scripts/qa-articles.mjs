@@ -8,6 +8,8 @@ const dir = join(root, 'research', 'deep');
 const EV = ['strong', 'moderate', 'limited', 'unproven'];
 // Opinion / verdict words the neutral-point-of-view rules forbid in the wiki's own voice.
 const OPINION = /\b(bs|bullshit|scam|scammy|debunk\w*|bunk|nonsense|snake ?oil|quack\w*|useless|waste of (money|time)|real gains|ignore it|don't bother|skip it|the truth is)\b/i;
+// Doom / rating wording — the wiki documents how things help, it doesn't grade them.
+const DOOM = /\b(no meaningful (human )?evidence|relevance to appearance is (indirect|unclear|limited)|no (proven|established) (appearance|cosmetic) benefit|evidence (for|of) (its|any) appearance (use|benefit)|merely|there is no reason to|offers? little|of little value|not worth|unproven for (appearance|looks)|evidence level|evidence is weak|little to no evidence)\b/i;
 // Dosing / sourcing instructions (allowed only as reported trial facts, which rarely say "you").
 const DOSING = /\b(you should (take|inject|dose|run)|inject \d|\d+\s?(mg|mcg|iu)\s+(per|a|every)\s+(day|week)\s+(is|works|for you)|you can buy it (at|from)|order (it|them) from)\b/i;
 
@@ -28,6 +30,7 @@ for (const f of readdirSync(dir).filter((f) => f.endsWith('.json'))) {
   if (dangling.length) why.push(`citations without refs: ${dangling.slice(0, 5).join(',')}`);
   if (!(d.refs || []).length) why.push('no refs');
   const op = text.match(OPINION); if (op) why.push(`opinion wording: "${op[0]}"`);
+  const dm = text.match(DOOM); if (dm) why.push(`doom wording: "${dm[0]}"`);
   const ds = text.match(DOSING); if (ds) why.push(`dosing/sourcing: "${ds[0]}"`);
   if (/\bdossier\b/i.test(JSON.stringify([d.lead, sections, d.lore]))) why.push('mentions "dossier"');
   if (d.card) {

@@ -1,5 +1,257 @@
 {
  "name": "Atomoxetine",
- "skip": true,
- "reason": "Nonstimulant ADHD drug with no appearance or looksmaxxing material in any source reviewed"
+ "lead": [
+  "Atomoxetine is a selective norepinephrine reuptake inhibitor and a non-stimulant prescription medicine for ADHD, sold by Eli Lilly as Strattera after its first US approval in November 2002 [1]. People who take it for focus describe it as a steadier, non-jittery way to stay on task, and in appearance communities it comes up as a stimulant alternative for keeping up with training, skincare routines and grooming habits without the appetite loss, sweating or crash they associate with stimulants.",
+  "It works by blocking the norepinephrine transporter, which raises norepinephrine and dopamine levels in the prefrontal cortex [2]. Effects build over weeks rather than hours.",
+  "Research is extensive for ADHD: network meta-analyses compare it with stimulants and other drugs [3][4], and a combination with aroxybutynin has been tested in obstructive sleep apnea [5][6]."
+ ],
+ "angle": {
+  "goal": "Focus and consistency",
+  "chain": [
+   "Blocks norepinephrine reuptake in the prefrontal cortex",
+   "Steadier attention and impulse control",
+   "Easier follow-through on training, skincare and grooming routines"
+  ],
+  "effect": "indirect",
+  "text": "Atomoxetine is used to improve attention and follow-through. People pursuing self-improvement describe it as helping them stick with the routines that shape their physique and skin, without the stimulant side effects they want to avoid."
+ },
+ "card": {
+  "summary": "A non-stimulant ADHD medication that supports steady focus and consistency with the habits behind a better physique and grooming.",
+  "aka": "Strattera",
+  "evidence": "strong",
+  "status": "rx",
+  "outcome": null,
+  "risk": "moderate",
+  "price": null,
+  "note": "Prescription-only; carries an FDA boxed warning about suicidal thoughts in children and adolescents.",
+  "structure": "Atomoxetine"
+ },
+ "quick": {
+  "overview": "Atomoxetine is a prescription non-stimulant for ADHD. It is taken daily and builds up over a few weeks, with attention and impulse control improving gradually.\n\nIn self-improvement circles it is mentioned as a smoother alternative to stimulants for staying consistent with workouts, diet and grooming routines.",
+  "mechanism": "It selectively blocks the norepinephrine transporter, increasing norepinephrine and, in the prefrontal cortex, dopamine. Metabolism depends on the CYP2D6 enzyme, so exposure varies between people.",
+  "risks": "Common effects include nausea, reduced appetite, dry mouth and insomnia. The label carries a boxed warning about suicidal ideation in children and adolescents, and cardiovascular effects such as heart rate and blood pressure changes are monitored. It is prescription-only."
+ },
+ "infobox": [
+  [
+   "Drug class",
+   "Selective norepinephrine reuptake inhibitor"
+  ],
+  [
+   "Routes",
+   "Oral"
+  ],
+  [
+   "First approved",
+   "November 2002 (US) [1]"
+  ],
+  [
+   "Trade names",
+   "Strattera"
+  ],
+  [
+   "Manufacturer",
+   "Eli Lilly [1]"
+  ],
+  [
+   "Legal status",
+   "Prescription-only"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Uses",
+   "subs": [
+    {
+     "h": "Cosmetic / appearance uses",
+     "paras": [
+      "Atomoxetine has no direct effect on skin, hair or body. Community interest centers on its calmer focus profile and, because it is not an amphetamine-type drug, its different effect on appetite and energy compared with stimulants [1]."
+     ]
+    },
+    {
+     "h": "Medical uses",
+     "paras": [
+      "It is approved for ADHD in children aged 6 and older, adolescents and adults [1]. It has also been studied for cognitive disengagement symptoms, neurogenic orthostatic hypotension and, combined with aroxybutynin, obstructive sleep apnea [7][5]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Effectiveness",
+   "paras": [
+    "A network meta-analysis of ADHD medications found atomoxetine among the drugs more efficacious than placebo, with stimulants generally showing larger effects [3]. A 2025 meta-analysis reported that atomoxetine improved quality of life versus placebo, with an effect size of 0.30 [8]. Pivotal trials in children and adults were published in 2001 to 2003 [9][10]."
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "paras": [
+    "Common effects include gastrointestinal upset, decreased appetite, insomnia and dry mouth. The label carries a boxed warning for suicidal ideation in children and adolescents [11][1]. A randomized study examined QTc changes after ADHD medication [12]."
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "paras": [
+    "Atomoxetine inhibits the presynaptic norepinephrine transporter; in rats it raised prefrontal norepinephrine and dopamine [2]. Its metabolism by CYP2D6 means poor metabolizers have higher exposure [1]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Randomized trials include a dose-response study in 297 children and adolescents [9], once-daily dosing in children [13], and two studies in adults [10]. Registered trials span Korean children, fetal alcohol spectrum disorder, schizophrenia cognition and a 1,553-person long-term open-label study [14][15][16][17]. The AD109 combination (aroxybutynin and atomoxetine) was tested for obstructive sleep apnea in phase 2 and phase 3 trials [5][6]. Studies of its effect on appearance have not been published."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2001",
+   "event": "Dose-response trial in children and adolescents published [9]."
+  },
+  {
+   "year": "2002",
+   "event": "FDA approves Strattera for ADHD [1]."
+  },
+  {
+   "year": "2003",
+   "event": "Two adult ADHD trials published [10]."
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Grokipedia: Atomoxetine",
+   "url": "https://grokipedia.com/page/Atomoxetine",
+   "source": "Grokipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Atomoxetine increases extracellular levels of norepinephrine and dopamine in prefrontal cortex of rat",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12431845/",
+   "source": "Neuropsychopharmacology",
+   "year": 2002,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Comparative efficacy and tolerability of medications for ADHD in children, adolescents, and adults: a systematic review and network meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30097390/",
+   "source": "The Lancet Psychiatry",
+   "year": 2018,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Comparative efficacy and acceptability of pharmacological, psychological, and neurostimulatory interventions for ADHD in adults",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39701638/",
+   "source": "The Lancet Psychiatry",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "The Combination of Aroxybutynin and Atomoxetine in the Treatment of Obstructive Sleep Apnea (MARIPOSA)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37812772/",
+   "source": "Am J Respir Crit Care Med",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Aroxybutynin and atomoxetine (AD109) for obstructive sleep apnea: SynAIRgy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42148495/",
+   "source": "Am J Respir Crit Care Med",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Atomoxetine on neurogenic orthostatic hypotension",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39294522/",
+   "source": "Clinical Autonomic Research",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Effects of Pharmacological Treatment for ADHD on Quality of Life",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38823477/",
+   "source": "JAACAP",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "Atomoxetine in children and adolescents with ADHD: dose-response study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11694667/",
+   "source": "Pediatrics",
+   "year": 2001,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Atomoxetine in adults with ADHD: two randomized, placebo-controlled studies",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12547466/",
+   "source": "Biological Psychiatry",
+   "year": 2003,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Atomoxetine US drug label",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0782204e-56a3-4439-9fb8-194da9487049",
+   "source": "DailyMed",
+   "year": 2024,
+   "type": "label"
+  },
+  {
+   "id": 12,
+   "title": "QTc prolongation after ADHD medication",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29504733/",
+   "source": "Neuro Endocrinology Letters",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "Once-daily atomoxetine treatment for children and adolescents with ADHD",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12411225/",
+   "source": "American Journal of Psychiatry",
+   "year": 2002,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "NCT00190684: Long-Term, Open Label Atomoxetine Study",
+   "url": "https://clinicaltrials.gov/study/NCT00190684",
+   "source": "ClinicalTrials.gov",
+   "year": 2000,
+   "type": "trial"
+  },
+  {
+   "id": 15,
+   "title": "NCT00568685: Atomoxetine in Korean children and adolescents with ADHD",
+   "url": "https://clinicaltrials.gov/study/NCT00568685",
+   "source": "ClinicalTrials.gov",
+   "year": 2007,
+   "type": "trial"
+  },
+  {
+   "id": 16,
+   "title": "NCT00418262: Atomoxetine in children with FASD and ADHD",
+   "url": "https://clinicaltrials.gov/study/NCT00418262",
+   "source": "ClinicalTrials.gov",
+   "year": 2005,
+   "type": "trial"
+  },
+  {
+   "id": 17,
+   "title": "NCT00488163: Atomoxetine to enhance cognition in schizophrenia",
+   "url": "https://clinicaltrials.gov/study/NCT00488163",
+   "source": "ClinicalTrials.gov",
+   "year": 2005,
+   "type": "trial"
+  }
+ ],
+ "webSources": []
 }

@@ -1,1 +1,52 @@
-{"name":"Erythroferrone","skip":true,"reason":"Endogenous erythroid iron-regulating hormone (suppresses hepcidin); no looksmaxxing or appearance relevance in the sources, which are all haematology/iron-metabolism."}
+{
+  "name": "Erythroferrone",
+  "lead": [
+    "Erythroferrone (ERFE) is a hormone made by developing red blood cells that lowers hepcidin, the liver hormone that restricts iron. Lower hepcidin lets more iron be absorbed from food and released from stores, so that new red blood cells can be built with hemoglobin [1][2]. It was identified in 2014 by Leon Kautz, Tomas Ganz and colleagues [1].",
+    "For appearance and physique, its relevance is through iron and red blood cells: oxygen delivery, energy and recovery depend on healthy hemoglobin, and iron status can show up in skin colour, hair shedding and fatigue. ERFE is a part of the body's own system for keeping iron supply matched to red blood cell production. It is a measured biomarker and research subject rather than a supplement or product.",
+    "The same protein was described in muscle in 2012 under the name myonectin (CTRP15), where it was linked to fat and lipid handling, and is regarded as the same gene product [3]."
+  ],
+  "angle": {
+    "goal": "Skin and energy (iron and blood health)",
+    "chain": ["Erythropoietin raises red blood cell production", "Erythroblasts release erythroferrone", "Hepcidin falls and more iron becomes available for hemoglobin"],
+    "effect": "indirect",
+    "text": "Erythroferrone is the signal that frees up iron when the body is making more red blood cells, supporting oxygen delivery and recovery. It acts inside the body's iron system and is studied in anemia and doping detection, not sold as a product."
+  },
+  "infobox": [["Type", "Peptide hormone (C1q/TNF-related protein family)"], ["Gene", "ERFE (human chromosome 2)"], ["Produced by", "Erythroblasts; also described in skeletal muscle as myonectin"], ["Discovered", "2014 (Kautz, Ganz et al.) [1]"], ["Target", "Hepcidin suppression in the liver [1]"], ["Stimulated by", "Erythropoietin (EPO) [1]"]],
+  "sections": [
+    { "h": "Function", "paras": ["Erythroblasts produce erythroferrone in response to erythropoietin. After blood loss, the hormone suppresses hepcidin so that iron absorption and mobilization rise to support expanded red blood cell production; mice lacking it recover more slowly from hemorrhage [1]. It does this in part by interfering with BMP6 signalling in the liver [4]. In mouse studies it also contributed to recovery from anemia of inflammation [5]."] },
+    { "h": "Role in disease", "paras": ["In a mouse model of beta-thalassemia, erythroferrone expression is strongly increased and contributes to low hepcidin and iron overload; removing the gene restored hepcidin levels [2]. Reviews of iron-loading anemias and congenital dyserythropoietic anemias discuss its role in these conditions [6][7]. A 2024 study measured erythroferrone and hepcidin in children with iron-deficiency anemia [8]."] },
+    { "h": "Measurement and anti-doping", "paras": ["A sensitive immunoassay for human serum erythroferrone was tested in a randomized trial of erythropoiesis stimulation and was reported as a sensitive biomarker for detecting EPO-type stimulation, which is of interest to anti-doping testing [9]."] },
+    { "h": "Clinical studies", "paras": ["Human studies measure erythroferrone as a biomarker rather than testing it as a treatment. The 2020 randomized study above found it responds to erythropoiesis stimulation [9], and a registered study of inflammation, iron deficiency and anemia (NCT04097639) enrolled 120 participants [10]. No studies have tested giving erythroferrone for appearance or physique."] }
+  ],
+  "timeline": [ { "year": "2012", "event": "A muscle-secreted protein named myonectin (CTRP15) is described; later shown to be the same as erythroferrone [3]." }, { "year": "2014", "event": "Kautz and colleagues identify erythroferrone as an erythroid regulator of hepcidin [1]." }, { "year": "2015", "event": "Mouse thalassemia study links erythroferrone to iron overload [2]." }, { "year": "2018", "event": "Erythroferrone shown to inhibit BMP6-induced hepcidin [4]." }, { "year": "2020", "event": "Immunoassay reports erythroferrone as a biomarker of erythropoiesis stimulation [9]." } ],
+  "lore": null,
+  "card": {
+    "summary": "The hormone red blood cell precursors release to lower hepcidin and free up iron, supporting oxygen delivery and recovery.",
+    "aka": "ERFE, myonectin, CTRP15",
+    "evidence": "limited",
+    "status": "research",
+    "outcome": null,
+    "risk": null,
+    "price": null,
+    "note": "A biomarker and research subject, not a product.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "Erythroferrone is a hormone released by young red blood cells when the body needs to make more of them. It lowers hepcidin, the hormone that holds iron back, so that more iron reaches the bone marrow.\n\nIron and red blood cell health underlie energy, recovery and skin colour, so it is relevant to appearance indirectly. It is studied in anemia and anti-doping research and is not available as a supplement.",
+    "mechanism": "Erythropoietin stimulates erythroblasts to secrete erythroferrone, which blocks BMP signalling in the liver, lowers hepcidin, and raises iron absorption and release from stores.",
+    "risks": "It is not used as a treatment. In animal models of thalassemia, excess erythroferrone contributes to iron overload. Human research is limited to measuring it as a biomarker."
+  },
+  "refs": [
+    { "id": 1, "title": "Identification of erythroferrone as an erythroid regulator of iron metabolism", "url": "https://pubmed.ncbi.nlm.nih.gov/24880340/", "source": "Nature Genetics", "year": 2014, "type": "study" },
+    { "id": 2, "title": "Erythroferrone contributes to hepcidin suppression and iron overload in a mouse model of beta-thalassemia", "url": "https://pubmed.ncbi.nlm.nih.gov/26276665/", "source": "Blood", "year": 2015, "type": "study" },
+    { "id": 3, "title": "Erythroferrone", "url": "https://en.wikipedia.org/wiki/Erythroferrone", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
+    { "id": 4, "title": "Erythroferrone inhibits the induction of hepcidin by BMP6", "url": "https://pubmed.ncbi.nlm.nih.gov/30097509/", "source": "Blood", "year": 2018, "type": "study" },
+    { "id": 5, "title": "Erythroferrone contributes to recovery from anemia of inflammation", "url": "https://pubmed.ncbi.nlm.nih.gov/25193872/", "source": "Blood", "year": 2014, "type": "study" },
+    { "id": 6, "title": "Iron-Loading Anemias", "url": "https://pubmed.ncbi.nlm.nih.gov/40603790/", "source": "Advances in Experimental Medicine and Biology", "year": 2025, "type": "review" },
+    { "id": 7, "title": "Congenital dyserythropoietic anemias", "url": "https://pubmed.ncbi.nlm.nih.gov/32702750/", "source": "Blood", "year": 2020, "type": "review" },
+    { "id": 8, "title": "Erythroferrone and hepcidin levels in children with iron deficiency anemia", "url": "https://pubmed.ncbi.nlm.nih.gov/38575873/", "source": "BMC Pediatrics", "year": 2024, "type": "study" },
+    { "id": 9, "title": "Erythroferrone as a sensitive biomarker to detect stimulation of erythropoiesis", "url": "https://pubmed.ncbi.nlm.nih.gov/31655016/", "source": "Drug Testing and Analysis", "year": 2020, "type": "trial" },
+    { "id": 10, "title": "Inflammation, Iron Deficiency and Anaemia Study 1 (NCT04097639)", "url": "https://clinicaltrials.gov/study/NCT04097639", "source": "ClinicalTrials.gov", "year": 2019, "type": "trial" }
+  ],
+  "webSources": [ { "url": "https://en.wikipedia.org/wiki/Erythroferrone", "title": "Erythroferrone (Wikipedia)" } ]
+}

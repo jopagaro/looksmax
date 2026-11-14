@@ -1,5 +1,162 @@
 {
  "name": "Xylometazoline",
- "skip": true,
- "reason": "Xylometazoline is a nasal decongestant; the available sources contain no study or material on rosacea or any appearance use (the rosacea vasoconstrictor link could not be verified from them)."
+ "lead": [
+  "Xylometazoline is an imidazoline nasal decongestant sold over the counter as sprays and drops in many countries, with brand names such as Otrivin [1]. It narrows blood vessels in the nasal lining, which reduces swelling and opens the airway [2].",
+  "For appearance, its relevance is mainly through easier nasal breathing and the visibly paler look of the vasoconstricted nasal lining [1]. Interest in it for rosacea redness comes from the broader use of vasoconstrictors for facial flushing; the nasal product itself is labeled for congestion.",
+  "It was patented in 1956 and entered medical use in 1959 [1]. Studies have examined it for congestion, nosebleed prevention during intubation, sleep apnea with congestion and other settings."
+ ],
+ "angle": {
+  "goal": "Nasal breathing / facial redness",
+  "chain": [
+   "Constricts blood vessels in the nasal lining",
+   "Less swelling, easier nasal breathing",
+   "Clearer breathing; vasoconstriction is the property behind redness interest"
+  ],
+  "effect": "indirect",
+  "text": "The nasal spray relieves congestion by shrinking nasal vessels. People interested in redness reduction point to the same vasoconstrictor action, though the labeled use is congestion."
+ },
+ "infobox": [
+  [
+   "Drug class",
+   "Imidazoline alpha-adrenergic agonist"
+  ],
+  [
+   "Route",
+   "Nasal spray or drops"
+  ],
+  [
+   "Patented / medical use",
+   "1956 / 1959 [1]"
+  ],
+  [
+   "Brand names",
+   "Otrivin, Otrivine, Otriven [1]"
+  ],
+  [
+   "Legal status",
+   "Over the counter (UK, US) [1]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Uses",
+   "paras": [
+    "Labeled use is temporary relief of nasal congestion from colds, hay fever and sinusitis [1]. Hospital and clinic uses include pretreatment before nasal procedures [5][6]."
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "paras": [
+    "Reported effects include nasal irritation, headache, nosebleed and trouble sleeping [1]. Use beyond about five days is not recommended because stopping can cause rebound congestion (rhinitis medicamentosa) [1]. A 2026 review found no rebound congestion in studies of up to 10 days of xylometazoline [3]. The US label advises asking a doctor if symptoms last over 7 days [4]."
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "paras": [
+    "It is a direct alpha-adrenergic agonist acting on receptors in nasal blood vessels, causing local vasoconstriction [2][7]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A randomized trial in children found xylometazoline with lidocaine jelly reduced nosebleed after nasotracheal intubation (7.5% versus 27.5% with saline) [5]. A crossover trial in twelve people with sleep apnea and nasal congestion tested a week of xylometazoline against placebo [6]. A Cochrane review examined nasal decongestants for the common cold [8]. No published trial of xylometazoline for rosacea redness was found."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1956",
+   "event": "Patented [1]"
+  },
+  {
+   "year": "1959",
+   "event": "Enters medical use [1]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Xylometazoline",
+   "url": "https://en.wikipedia.org/wiki/Xylometazoline",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Xylometazoline",
+   "url": "https://grokipedia.com/page/Xylometazoline",
+   "source": "Grokipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Revisiting Rhinitis Medicamentosa: Examining the Evidence on Topical Nasal Decongestants",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40580050/",
+   "source": "Journal of Pharmacy Practice",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "US drug label (DailyMed) xylometazoline",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e9da6f39-8620-faca-e053-2995a90a8a57",
+   "source": "DailyMed",
+   "year": 2024,
+   "type": "label"
+  },
+  {
+   "id": 5,
+   "title": "Xylometazoline pretreatment reduces nasotracheal intubation-related epistaxis in paediatric dental surgery",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20682569/",
+   "source": "British Journal of Anaesthesia",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Does nasal decongestion improve obstructive sleep apnea?",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18710420/",
+   "source": "Journal of Sleep Research",
+   "year": 2008,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Alpha-adrenoceptor agonistic activity of oxymetazoline and xylometazoline",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20030735/",
+   "source": "Fundamental & Clinical Pharmacology",
+   "year": 2010,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Nasal decongestants in monotherapy for the common cold",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27748955/",
+   "source": "Cochrane Database of Systematic Reviews",
+   "year": 2016,
+   "type": "review"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Xylometazoline",
+   "title": "Xylometazoline - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "A nasal decongestant that constricts blood vessels to open the airway; the vasoconstriction is also why it comes up for redness.",
+  "aka": "Otrivin, Otrivine, Otriven",
+  "evidence": "moderate",
+  "status": "otc",
+  "structure": "Xylometazoline",
+  "note": "Labeled for short use; extended use can cause rebound congestion."
+ },
+ "quick": {
+  "overview": "Xylometazoline is an over-the-counter nasal spray that shrinks swollen nasal tissue so breathing is easier. It has been sold since 1959.\n\nPeople interested in facial redness note that it works by vasoconstriction, but its labeled use is nasal congestion.",
+  "mechanism": "It activates alpha-adrenergic receptors on nasal blood vessels, narrowing them and reducing swelling.",
+  "risks": "Irritation, headache and nosebleed are reported. Use beyond about five to seven days is not advised because of rebound congestion. Check with a clinician if pregnant or if you have high blood pressure or heart conditions."
+ }
 }

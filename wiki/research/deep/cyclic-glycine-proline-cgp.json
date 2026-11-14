@@ -1,5 +1,137 @@
 {
  "name": "Cyclic glycine-proline (cGP)",
- "skip": true,
- "reason": "IGF-1 neuropeptide metabolite studied for neurology; no appearance/looksmaxxing material in sources."
+ "lead": [
+  "Cyclic glycine-proline (cGP) is a small cyclic dipeptide that the body forms as a metabolite of IGF-1, and that also occurs in some foods and marine organisms [2][4]. It is sold as a supplement by people interested in healthy-aging and IGF-1 function.",
+  "cGP binds IGF binding protein-3 and so influences how much IGF-1 is available in circulation [3][5]. Its link to appearance is indirect: people discuss it for longevity, IGF-1 balance and general healthy aging."
+ ],
+ "angle": {
+  "goal": "Longevity",
+  "chain": [
+   "Taken orally as a dipeptide",
+   "Modulates IGF-1 availability",
+   "Supports healthy-aging markers"
+  ],
+  "effect": "indirect",
+  "text": "Users take it hoping to support IGF-1 function with age, which they associate with overall vitality and a younger-looking state."
+ },
+ "infobox": [
+  [
+   "Class",
+   "Cyclic dipeptide, IGF-1 metabolite"
+  ],
+  [
+   "Route",
+   "Oral"
+  ],
+  [
+   "Alternative names",
+   "cGP, cyclo-Gly-Pro"
+  ],
+  [
+   "Sources",
+   "Endogenous, blackcurrant, marine fungi"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Pharmacology",
+   "paras": [
+    "cGP retains affinity for IGFBP-3 and competes with IGF-1 for binding, which regulates bioavailable IGF-1; the cGP/IGF-1 molar ratio has been proposed as a measure of functional IGF-1 [3][5]."
+   ]
+  },
+  {
+   "h": "Research",
+   "paras": [
+    "Reviews describe neuroprotective effects of IGF-1 derived peptides in animal models [1]. In obese rats, cGP lowered systolic blood pressure and retroperitoneal fat weight [6]. In a mouse model of Alzheimer's disease it improved memory and reduced plaque load [7]. Observational work found that stroke patients with higher plasma cGP/IGF-1 ratios had better outcomes [8]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A trial in 11 Parkinson patients found blackcurrant anthocyanin supplementation for 28 days raised cerebrospinal fluid cGP; cGP was present in the supplement [4]. Patient studies of the cGP/IGF-1 ratio are observational [3][8]. No trials of cGP as a stand-alone supplement for appearance were found."
+   ]
+  }
+ ],
+ "timeline": [],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "The role for IGF-1-derived small neuropeptides as a therapeutic target for neurological disorders",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25652713/",
+   "source": "Expert Opin Ther Targets",
+   "year": 2015,
+   "type": "review"
+  },
+  {
+   "id": 2,
+   "title": "Exploring Sources, Biological Functions, and Potential Applications of the Ubiquitous Marine Cyclic Dipeptide",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38921582/",
+   "source": "Marine Drugs",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Cyclic Glycine-Proline Normalises IGF-1 Function",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36770687/",
+   "source": "Molecules",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Supplementation of Blackcurrant Anthocyanins Increased Cyclic Glycine-Proline in the CSF of Parkinson Patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29865234/",
+   "source": "Nutrients",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "Cyclic glycine-proline regulates IGF-1 homeostasis by altering the binding of IGFBP-3 to IGF-1",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24633053/",
+   "source": "Scientific Reports",
+   "year": 2014,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Cyclic glycine-proline normalizes systolic blood pressure in high-fat diet-induced obese male rats",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31753784/",
+   "source": "Nutr Metab Cardiovasc Dis",
+   "year": 2020,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Cyclic Glycine-Proline Improves Memory and Reduces Amyloid Plaque Load in APP/PS1 Mice",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36909366/",
+   "source": "Int J Alzheimers Dis",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Plasma cyclic glycine proline/IGF-1 ratio predicts clinical outcome and recovery in stroke patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31019991/",
+   "source": "Ann Clin Transl Neurol",
+   "year": 2019,
+   "type": "study"
+  }
+ ],
+ "webSources": [],
+ "card": {
+  "summary": "An IGF-1-derived dipeptide supplement taken to support IGF-1 balance and healthy aging.",
+  "aka": "cGP, cyclo-Gly-Pro",
+  "evidence": "limited",
+  "status": "otc",
+  "note": null,
+  "structure": "cyclo(Gly-Pro)"
+ },
+ "quick": {
+  "overview": "Cyclic glycine-proline is a small peptide the body makes from IGF-1 and that is also found in foods like blackcurrant.\n\nPeople take it as a supplement for IGF-1 regulation and healthy aging.",
+  "mechanism": "It binds IGFBP-3, which changes how much IGF-1 is freely available.",
+  "risks": "Human data are limited to small studies; reported research is mostly in animals."
+ }
 }

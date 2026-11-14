@@ -37,11 +37,11 @@ for (const { kind, item, pending } of allEntries()) {
   const L = [];
   L.push(`# DOSSIER: ${item.name}`);
   if (pending) {
-    L.push(`kind: ${kind} | category: ${item.category} | aka: ${item.aka || '-'} | NEW ENTRY — not yet rated: you must write its "card" (see brief)`);
+    L.push(`kind: ${kind} | category: ${item.category} | aka: ${item.aka || '-'} | NEW ENTRY: you must write its "card", "quick" and "angle" (see brief)`);
     if (item.why) L.push(`why it's being added: ${item.why}`);
     if (item.mentions) L.push(`popularity: mentioned in ${item.mentions} looksmax.org thread titles`);
   } else {
-    L.push(`kind: ${kind} | category: ${item.category} | aka: ${item.aka || '-'} | LOOKSMAX evidence rating: ${item.evidence} | ${kind === 'compound' ? 'status: ' + item.status : kind === 'meta' ? 'risk: ' + item.risk : 'outcome: ' + item.outcome}${item.price ? ' | price: ' + item.price : ''}`);
+    L.push(`kind: ${kind} | category: ${item.category} | aka: ${item.aka || '-'} | ${kind === 'compound' ? 'status: ' + item.status : kind === 'meta' ? 'risk: ' + item.risk : 'outcome: ' + item.outcome}${item.price ? ' | price: ' + item.price : ''}`);
     L.push(`summary (site's one-liner): ${item.summary}`);
   }
   if (item.note) L.push(`site note: ${item.note}`);
@@ -73,6 +73,10 @@ for (const { kind, item, pending } of allEntries()) {
   });
   (fp.forums || []).forEach((x, i) => L.push(`[F${i + 1}] ${x.site || ''} "${x.title}" — ${x.url}`));
   (Array.isArray(raw.tnation) ? raw.tnation : []).slice(0, 10).forEach((t, i) => L.push(`[T${i + 1}] T Nation forum "${t.title}" (${t.posts} posts, ${t.year || '?'}) — ${t.url}${t.blurb ? `\n     excerpt: ${clip(t.blurb, 300)}` : ''}`));
+
+  (Array.isArray(raw.news) ? raw.news : []).slice(0, 12).forEach((t, i) => L.push(`[N${i + 1}] News: "${t.title}" (${t.site || ''}${t.date ? ', ' + t.date.slice(0, 4) : ''}) — ${t.url}`));
+  (Array.isArray(raw.hackernews) ? raw.hackernews : []).slice(0, 6).forEach((t, i) => L.push(`[H${i + 1}] Hacker News "${t.title}" (${t.points} points, ${t.comments} comments, ${t.year || '?'}) — ${t.url}`));
+  (Array.isArray(raw.lemmy) ? raw.lemmy : []).slice(0, 6).forEach((t, i) => L.push(`[Y${i + 1}] Lemmy c/${t.community || ''} "${t.title}" (score ${t.score}, ${t.comments} comments) — ${t.url}${t.text ? `\n     excerpt: ${clip(t.text, 300)}` : ''}`));
 
   // Reference text — Wikipedia first (by priority), then Grokipedia.
   let budget = CAP - L.join('\n').length;

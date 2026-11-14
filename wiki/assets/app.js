@@ -20,8 +20,6 @@
   if (D.outcomeMeta.unsupported) D.outcomeMeta.unsupported.label = 'Claim unproven';
   const NEUTRAL = window.LM_NEUTRAL || {};
   [...D.compounds, ...D.gear].forEach((it) => { const n = NEUTRAL[it.name]; if (n) { if (n.summary) it.summary = n.summary; it.note = n.note || undefined; } });
-  const RISK_LABEL = { low: 'Low risk', moderate: 'Moderate risk', high: 'High risk', extreme: 'Extreme risk' };
-  const riskTag = (r) => `<span class="tag ${r === 'high' || r === 'extreme' ? 'tag-unproven' : r === 'moderate' ? 'tag-white' : ''}">${esc(RISK_LABEL[r] || r)}</span>`;
   const GUIDES = window.LM_GUIDES || [];
   const ISSUES = window.LM_ISSUES || [];
   const POP = window.LM_POP || {};
@@ -32,8 +30,6 @@
   const esc = (s) =>
     String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const slug = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-  const EV_ORDER = ['strong', 'moderate', 'limited', 'unproven'];
-  const evTag = (e) => `<span class="tag tag-${e}">${esc(D.evidenceMeta[e].label)}</span>`;
 
   // ───────── unified entries ─────────
   const ENTRIES = [
@@ -41,6 +37,11 @@
     ...D.gear.map((item) => ({ kind: 'gear', item, slug: slug(item.name) })),
     ...(WIKI.entries || []).filter((item) => ['compound', 'gear', 'meta'].includes(item.kind)).map((item) => ({ kind: item.kind, item, slug: slug(item.name) })),
   ];
+  const ANGLES = window.LM_ANGLES || {};
+  // Looksmax goal per entry (what it's used to improve) — the wiki is organised by goal, not by ratings.
+  ENTRIES.forEach((e) => { const a = ANGLES[e.slug]; e.goal = a && a[0] && !/general health/i.test(a[0]) ? a[0] : null; if (a && a[2]) e.item.summary = a[2]; });
+  const GOALS = (() => { const m = new Map(); ENTRIES.forEach((e) => { if (e.goal) m.set(e.goal, (m.get(e.goal) || 0) + 1); }); return [...m.entries()].sort((a, b) => b[1] - a[1]); })();
+  const goalHref = (g, kind) => `#/index?${kind && kind !== 'compound' ? `kind=${kind}&` : ''}goal=${encodeURIComponent(g)}`;
   const byName = new Map(ENTRIES.map((e) => [e.item.name.toLowerCase(), e]));
   const bySlug = { compound: new Map(), gear: new Map(), meta: new Map() };
   ENTRIES.forEach((e) => bySlug[e.kind].set(e.slug, e));
@@ -126,13 +127,12 @@
   // ───────── shared bits ─────────
   function entryTags(e) {
     const { item } = e;
-    let t = evTag(item.evidence);
+    let t = e.goal ? `<span class="tag tag-goal">${esc(e.goal)}</span>` : '';
     if (e.kind === 'compound' && item.status !== 'otc') t += `<span class="tag">${esc(D.statusMeta[item.status].label)}</span>`;
     if (e.kind === 'gear') {
-      t += `<span class="tag ${item.outcome === 'unsupported' ? 'tag-unproven' : ''}">${esc(D.outcomeMeta[item.outcome].label)}</span>`;
+      if (item.outcome !== 'unsupported') t += `<span class="tag">${esc(D.outcomeMeta[item.outcome].label)}</span>`;
       if (item.price) t += `<span class="tag tag-white">${esc(item.price)}</span>`;
     }
-    if (e.kind === 'meta' && item.risk) t += riskTag(item.risk);
     return t;
   }
   function entryCard(e) {
@@ -151,7 +151,7 @@
   const disclaimer = `<p class="disclaimer">Education, not endorsement or medical advice. Rx = doctor territory. Research chems are not approved for human use.</p>`;
 
   function dailyPick() {
-    const pool = ENTRIES.filter((e) => e.item.evidence === 'strong' || e.item.evidence === 'unproven');
+    const pool = ENTRIES.filter((e) => e.goal && popOf(e) > 0).length ? ENTRIES.filter((e) => e.goal && popOf(e) > 0) : ENTRIES;
     const day = Math.floor(Date.now() / 86400000);
     return pool[day % pool.length];
   }
@@ -160,10 +160,9 @@
   function pageHome() {
     const pick = dailyPick();
     const nC = ENTRIES.filter((e) => e.kind === 'compound').length, nG = ENTRIES.filter((e) => e.kind === 'gear').length, nM = ENTRIES.filter((e) => e.kind === 'meta').length;
-    const strong = ENTRIES.filter((e) => e.item.evidence === 'strong').length;
-    const unproven = ENTRIES.filter((e) => e.item.evidence === 'unproven').length;
+
     const tick = ENTRIES.filter((_, i) => i % Math.max(1, Math.floor(ENTRIES.length / 16)) === 0).slice(0, 16)
-      .map((e) => `<span>${esc(e.item.name)}</span><span class="s">★ ${esc(D.evidenceMeta[e.item.evidence].label.toLowerCase())} evidence</span>`).join('');
+      .map((e) => `<span>${esc(e.item.name)}</span><span class="s">★ ${esc(e.goal || KIND_LABEL[e.kind])}</span>`).join('');
     const portals = (kind) => {
       const list = ENTRIES.filter((e) => e.kind === kind).map((e) => e.item);
       return Object.entries(catMeta(kind)).map(([id, m]) => {
@@ -183,8 +182,8 @@
         <div class="card stats">
           <div class="stat"><b>${nC}</b><span>Compounds</span></div>
           <div class="stat"><b>${nG}${nM ? `<span class="pop" style="font-size:20px"> +${nM}</span>` : ''}</b><span>Gear${nM ? ' + metas' : ''}</span></div>
-          <div class="stat"><b class="pop">${strong}</b><span>Strong evidence</span></div>
-          <div class="stat"><b>${unproven}</b><span>Unproven / untested</span></div>
+          <div class="stat"><b class="pop">${GOALS.length}</b><span>Looksmax goals</span></div>
+          <div class="stat"><b>${ISSUES.length}</b><span>Topics</span></div>
         </div>
       </section>
 
@@ -222,11 +221,11 @@
           <p style="margin-top:18px"><a class="btn popb" href="${entryHref(pick)}">Read the file →</a></p>
         </div>
         <div class="card" style="padding:20px">
-          <span class="kicker">Evidence key</span>
+          <span class="kicker">Browse by goal</span>
           <div style="display:grid;gap:10px">
-            ${EV_ORDER.map((e) => `<a class="chip" style="justify-content:space-between" href="#/index?ev=${e}">${evTag(e)}<span>${ENTRIES.filter((x) => x.item.evidence === e).length} entries →</span></a>`).join('')}
+            ${GOALS.slice(0, 8).map(([g, n]) => `<a class="chip" style="justify-content:space-between" href="${goalHref(g)}"><b>${esc(g)}</b><span>${n} entries →</span></a>`).join('')}
           </div>
-          <p style="margin-top:14px;font-size:13px;font-weight:600"><a class="wl" href="#/wiki/index-explained">How ratings work</a></p>
+          <p style="margin-top:14px;font-size:13px;font-weight:600"><a class="wl" href="#/topics">All topics</a></p>
         </div>
       </section>
 
@@ -279,19 +278,19 @@
   function pageIndex(params) {
     const kind = KINDS.includes(params.get('kind')) ? params.get('kind') : 'compound';
     const cat = params.get('cat') || 'all';
-    // Sort: most-discussed first when we know it, else alphabetical within evidence order.
-    const ev = EV_ORDER.includes(params.get('ev')) ? params.get('ev') : 'all';
+    // Sort: alphabetical, or most-discussed first.
+    const goal = params.get('goal') || 'all';
     const q = (params.get('q') || '').trim().toLowerCase();
     const meta = catMeta(kind);
     const items = ENTRIES.filter((e) => {
       if (e.kind !== kind) return false;
       if (cat !== 'all' && e.item.category !== cat) return false;
-      if (ev !== 'all' && e.item.evidence !== ev) return false;
+      if (goal !== 'all' && e.goal !== goal) return false;
       if (!q) return true;
       return [e.item.name, e.item.aka || '', e.item.summary, e.item.note || ''].join(' ').toLowerCase().includes(q);
     });
     const link = (over) => {
-      const p = new URLSearchParams({ kind, cat, ev, q: params.get('q') || '', sort: params.get('sort') || '', ...over });
+      const p = new URLSearchParams({ kind, cat, goal, q: params.get('q') || '', sort: params.get('sort') || '', ...over });
       [...p.keys()].forEach((k) => { if (!p.get(k) || p.get(k) === 'all') p.delete(k); });
       if (p.get('kind') === 'compound') p.delete('kind');
       const s = p.toString();
@@ -299,13 +298,14 @@
     };
     const sort = params.get('sort') === 'popular' ? 'popular' : 'az';
     if (sort === 'popular') items.sort((a, b) => popOf(b) - popOf(a));
-    const evClass = (e) => ({ strong: 'on', moderate: 'on', limited: 'on', unproven: 'on-pop' }[e]);
+    const kindGoals = (() => { const m = new Map(); ENTRIES.filter((e) => e.kind === kind && e.goal).forEach((e) => m.set(e.goal, (m.get(e.goal) || 0) + 1)); return [...m.entries()].sort((a, b) => b[1] - a[1]).slice(0, 18).map(([g]) => g); })();
+    if (goal !== 'all' && !kindGoals.includes(goal)) kindGoals.unshift(goal);
     const blurb = cat !== 'all' && meta[cat] ? meta[cat].blurb : null;
     return `<div class="page stack" style="--gap:32px">
       <div>
         ${crumbs([['Wiki', '#/'], ['The Index']])}
         <h1 class="h-page" style="margin-bottom:16px">The <span class="pop">Index</span></h1>
-        <p class="lede">Every compound, peptide, drug, piece of gear and forum meta in looksmaxxing, with the level of published evidence for each. Click anything for the full file.</p>
+        <p class="lede">Every compound, peptide, drug, piece of gear and forum meta in looksmaxxing, organised by what it's used to improve. Click anything for the full file.</p>
       </div>
       <div style="display:grid;gap:24px">
         <div class="card filters">
@@ -319,8 +319,8 @@
           </div>
           <div class="f-row ev">
             <div class="chips">
-              <a class="chip ${ev === 'all' ? 'on' : ''}" href="${link({ ev: 'all' })}">All evidence</a>
-              ${EV_ORDER.map((e) => `<a class="chip ${ev === e ? evClass(e) : ''}" href="${link({ ev: ev === e ? 'all' : e })}">${esc(D.evidenceMeta[e].label)}</a>`).join('')}
+              <a class="chip ${goal === 'all' ? 'on' : ''}" href="${link({ goal: 'all' })}">Every goal</a>
+              ${kindGoals.map((g) => `<a class="chip ${goal === g ? 'on-pop' : ''}" href="${link({ goal: goal === g ? 'all' : g })}">${esc(g)}</a>`).join('')}
             </div>
             <span class="count"><a class="chip ${sort === 'popular' ? 'on' : ''}" href="${link({ sort: sort === 'popular' ? '' : 'popular' })}">${sort === 'popular' ? '★ Most discussed' : 'Sort: most discussed'}</a> ${items.length} <small>results</small></span>
           </div>
@@ -342,7 +342,6 @@
     return fetch(`data/entries/${s}.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null)
       .then((d) => { DETAIL.set(s, d || 'error'); return DETAIL.get(s); });
   }
-  const VERDICT = { supported: ['Supported by studies', 'tag-strong'], mixed: ['Mixed evidence', 'tag-moderate'], unsupported: ['Not supported by studies', 'tag-limited'], 'not-supported': ['Not supported by studies', 'tag-limited'], dangerous: ['Documented harms', 'tag-unproven'], harms: ['Documented harms', 'tag-unproven'], unknown: ['Untested', 'tag-limited'], untested: ['Untested', 'tag-limited'] };
 
   function pageEntry(kind, s, view) {
     VIEW = view === 'deep' ? 'deep' : 'quick';
@@ -364,7 +363,7 @@
     const idx = siblings.indexOf(e);
     const prev = siblings[idx - 1], next = siblings[idx + 1];
     const related = siblings.filter((x) => x !== e)
-      .sort((a, b) => D.evidenceMeta[a.item.evidence].rank - D.evidenceMeta[b.item.evidence].rank).slice(0, 6);
+      .sort((a, b) => (b.goal === e.goal) - (a.goal === e.goal) || popOf(b) - popOf(a)).slice(0, 6);
     const back = [...(BACKLINKS.get(kind + ':' + e.slug) || [])].map((g) => guideBySlug.get(g));
     const here = `#/${kind}/${e.slug}${VIEW === 'deep' ? '/deep' : ''}`;
     // Escaped prose with [n] → superscript citation links
@@ -387,7 +386,7 @@
     if (buy && buy.kind === 'telehealth') action = `<a class="btn popb lg block" href="${esc(buy.url)}" target="_blank" rel="noopener noreferrer sponsored">${esc(buy.label)} ↗</a><p class="fine">℞ A licensed provider decides if it's right for you</p>`;
     else if (kind === 'compound' && item.status === 'rx') action = `<div class="statusbox cream"><b>℞ Prescription only</b><span>This one goes through a doctor, not a cart.</span></div>`;
     else if (kind === 'compound' && item.status === 'research') action = `<div class="statusbox dark"><b>⚠ Research compound</b><span>Not approved for human use. We don't sell it.</span></div>`;
-    else if (kind === 'meta') action = `<div class="statusbox ${['high', 'extreme'].includes(item.risk) ? 'dark' : 'cream'}"><b>⚠ ${esc(RISK_LABEL[item.risk] || 'Unknown risk')}</b><span>A practice, not a product — there's nothing to buy.</span></div>`;
+    else if (kind === 'meta') action = `<div class="statusbox cream"><b>A practice, not a product</b><span>Nothing to buy — the method is in the article.</span></div>`;
     else if (buy) { const price = kind === 'gear' ? item.price : null; action = `<a class="btn popb lg block" href="${esc(buy.url)}" target="_blank" rel="noopener noreferrer sponsored">${esc(price ? `${buy.label} · ${price}` : buy.label)} ↗</a><p class="fine">${buy.kind === 'amazon' ? 'Amazon search · may earn a commission' : 'May earn a commission · not an endorsement'}</p>`; }
     else action = `<div class="statusbox"><b>Sourced in person</b><span>No link for this one.</span></div>`;
 
@@ -398,9 +397,9 @@
     if (item.aka) basics.push(row('Also known as', item.aka));
     const helps = HELPS.get(item.name.toLowerCase()) || [];
     if (helps.length) basics.push(row('Topics', helps.map((i) => `<a href="#/topic/${i.id}">${esc(i.name)}</a>`).join(', '), true));
+    if (R.angle && R.angle.goal) basics.splice(1, 0, row('Looksmax goal', esc(R.angle.goal), true));
     if (kind === 'gear' && item.price) basics.push(row('Street price', item.price));
-    const rating = [row('Evidence', evTag(item.evidence), true),
-      kind === 'compound' ? row('Status', esc(D.statusMeta[item.status].label), true) : kind === 'meta' ? row('Risk', riskTag(item.risk), true) : row('Outcome', esc(D.outcomeMeta[item.outcome].label), true)];
+    const rating = [kind === 'compound' ? row('Legal status', esc(D.statusMeta[item.status].label), true) : kind === 'gear' && item.outcome !== 'unsupported' ? row('Effect', esc(D.outcomeMeta[item.outcome].label), true) : null].filter(Boolean);
     const mentions = item.mentions || R.mentions;
     if (mentions) rating.push(row('Forum mentions', `${Number(mentions).toLocaleString()} looksmax.org thread titles`));
     if (R.studies.length) rating.push(row('Studies indexed', String(R.studies.length)));
@@ -412,8 +411,8 @@
     const infobox = `<aside class="infobox wp-box">
       <div class="ib-title">${esc(item.name)}</div>
       ${visual}
-      <table>${group('Overview', basics)}${group(kind === 'compound' ? 'Clinical & chemical data' : 'Details', details)}${group('Evidence & status', rating)}${group('Sources', links)}</table>
-      <div class="act"><span class="kicker" style="margin-bottom:8px">${kind === 'meta' ? 'Risk' : 'Buy now'}</span>${action}</div>
+      <table>${group('Overview', basics)}${group(kind === 'compound' ? 'Clinical & chemical data' : 'Details', details)}${group('Status & discussion', rating)}${group('Sources', links)}</table>
+      <div class="act"><span class="kicker" style="margin-bottom:8px">${kind === 'meta' ? 'How to do it' : 'Buy now'}</span>${action}</div>
     </aside>`;
 
     // ── Body sections
@@ -422,7 +421,6 @@
       : kind === 'gear'
       ? { durable: 'The result is a lasting change — it sticks after you stop.', temporary: 'The effect lasts only while you keep using it.', unsupported: 'No published studies have demonstrated the structural claim it is marketed on.' }[item.outcome]
       : { otc: 'Available over the counter as a supplement or cosmetic.', rx: 'Prescription only — this goes through a doctor.', research: 'A research compound, not approved for human use. Documented here so you know what it is, not as a recommendation.' }[item.status];
-    const evLine = { strong: 'Multiple good human trials or clinical consensus support it for this use.', moderate: 'There is some decent human data; expect a real but modest effect.', limited: 'Evidence is small, early, or mostly from lab and animal work.', unproven: 'There is no meaningful human evidence for the appearance claim.' }[item.evidence];
 
     const S = []; // [id, title, html, level]
     (R.sections || []).forEach((sec, i) => {
@@ -430,11 +428,13 @@
       S.push([id, sec.h, P(sec.paras) + (sec.subs || []).map((sub, j) => `<h3 id="${id}-${j}">${esc(sub.h)}</h3>${P(sub.paras)}`).join(''), sec.subs || []]);
     });
     if (R.timeline && R.timeline.length) S.push(['timeline', 'Timeline', `<ol class="timeline">${R.timeline.map((t) => `<li><b>${esc(t.year)}</b><span>${cite(t.event)}</span></li>`).join('')}</ol>`]);
-    S.push(['rating', 'Evidence level', `<p>Published evidence for its appearance use: ${evTag(item.evidence)}. ${evLine} <a href="#/wiki/index-explained">About evidence levels</a>.</p><p><b>${kind === 'gear' ? 'Outcome' : kind === 'meta' ? 'Risk' : 'Status'}:</b> ${esc(outcomeLine)}</p>${item.note ? `<p class="warn">⚠ ${esc(item.note)}</p>` : ''}`]);
-    if (R.lore) S.push(['lore', 'Claims & evidence', `${R.lore.intro ? `<p>${cite(R.lore.intro)}</p>` : ''}<div class="lore">${R.lore.claims.map((c) => { const v = VERDICT[c.evidence || c.verdict] || VERDICT.unknown; return `<div class="lore-row"><span class="tag ${v[1]}">${v[0]}</span><div><b>“${cite(c.claim)}”</b>${c.believers ? `<p><b class="lbl">Proponents:</b> ${cite(c.believers)}</p>` : ''}${c.experts ? `<p><b class="lbl">Research &amp; experts:</b> ${cite(c.experts)}</p>` : c.note ? `<p>${cite(c.note)}</p>` : ''}</div></div>`; }).join('')}</div><p class="mute" style="font-size:12px">This section records claims made in looksmaxxing communities alongside what published research and clinicians report. The status describes the state of the evidence; it is not an endorsement or a rebuttal.</p>`]);
+    if (kind === 'compound' || item.note) S.push(['status', kind === 'compound' ? 'Legal status' : 'Notes', `${kind === 'compound' ? `<p>${esc(outcomeLine)}</p>` : ''}${item.note ? `<p>${esc(item.note)}</p>` : ''}`]);
+    if (R.lore) S.push(['lore', 'What people claim', `${R.lore.intro ? `<p>${cite(R.lore.intro)}</p>` : ''}<div class="lore">${R.lore.claims.map((c) => { return `<div class="lore-row"><div><b>“${cite(c.claim)}”</b>${c.believers ? `<p><b class="lbl">Proponents:</b> ${cite(c.believers)}</p>` : ''}${c.experts ? `<p><b class="lbl">Research &amp; experts:</b> ${cite(c.experts)}</p>` : c.note ? `<p>${cite(c.note)}</p>` : ''}</div></div>`; }).join('')}</div><p class="mute" style="font-size:12px">Claims made in looksmaxxing communities, next to what published research and clinicians report.</p>`]);
     const L = R.links || {};
     const allLinksHref = `#/${kind}/${e.slug}/links`;
-    const totalLinks = (L.studies || []).length + (L.trials || []).length + (L.reddit || []).length + (L.forums || []).length + (L.web || []).length + (L.label ? 1 : 0);
+    const totalLinks = (L.studies || []).length + (L.trials || []).length + (L.reddit || []).length + (L.forums || []).length + (L.social || []).length + (L.news || []).length + (L.web || []).length + (L.label ? 1 : 0);
+    const socialLi = (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc(r.site)} · ▲ ${r.score} · ${r.comments} comments${r.year ? ' · ' + r.year : ''} ↗</span></a></li>`;
+    const newsLi = (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc(r.site || '')}${r.date ? ' · ' + esc(r.date.slice(0, 4)) : ''} ↗</span></a></li>`;
     const studyLi = (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc([r.kind, r.source, r.year, r.cites != null ? `cited ${Number(r.cites).toLocaleString()}×` : null].filter(Boolean).join(' · '))} ↗</span></a></li>`;
     const redditLi = (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>r/${esc(r.sub)} · ▲ ${r.score} · ${r.comments} comments${r.year ? ' · ' + r.year : ''} ↗</span></a></li>`;
     const forumLi = (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc(r.site || '')} ↗</span></a>${r.archived ? `<a class="arch" href="${esc(r.archived)}" target="_blank" rel="noopener">archived copy</a>` : ''}</li>`;
@@ -444,11 +444,12 @@
       const hasStudySection = (R.sections || []).some((x) => /clinical stud/i.test(x.h));
       if (!hasStudySection) S.push(['research', 'Clinical studies', R.studies.length ? `<ul class="linklist">${R.studies.map(studyLi).join('')}</ul>` : `<p>No studies found.</p>`]);
       if (st.length) S.push(['literature', 'Related literature', `<p class="mute" style="font-size:13px">Papers matching this topic in PubMed and Europe PMC, most-cited first. These are search results, not a curated list.</p><ul class="linklist">${st.slice(0, 10).map(studyLi).join('')}</ul>${(L.trials || []).length ? `<h3>Registered clinical trials</h3><ul class="linklist">${L.trials.slice(0, 5).map((t) => `<li><a href="${esc(t.url)}" target="_blank" rel="noopener"><b>${esc(t.title)}</b><span>${esc([t.nct, t.status, t.phase, t.start, t.enrollment ? 'n=' + t.enrollment : null].filter(Boolean).join(' · '))} ↗</span></a></li>`).join('')}</ul>` : ''}${seeAll(st.length + (L.trials || []).length, 'papers & trials')}`]);
-      const top = [...(L.reddit || []).map((r) => ({ r, pop: (r.score || 0) + (r.comments || 0), li: redditLi(r) })), ...(L.forums || []).map((r, i) => ({ r, pop: 40 - i, li: forumLi(r) }))]
+      const top = [...(L.reddit || []).map((r) => ({ r, pop: (r.score || 0) + (r.comments || 0), li: redditLi(r) })), ...(L.forums || []).map((r, i) => ({ r, pop: 40 - i, li: forumLi(r) })), ...(L.social || []).map((r) => ({ r, pop: (r.score || 0) + (r.comments || 0), li: socialLi(r) }))]
         .sort((a, b) => b.pop - a.pop);
       S.push(['community', 'Community discussion', top.length
-        ? `<p class="mute" style="font-size:13px">Top ${Math.min(10, top.length)} of ${top.length} threads by popularity. Forum posts are anecdotes, not evidence.</p><ul class="linklist forum">${top.slice(0, 10).map((x) => x.li).join('')}</ul>${seeAll(top.length, 'threads')}`
+        ? `<p class="mute" style="font-size:13px">Top ${Math.min(10, top.length)} of ${top.length} threads by popularity. Forum posts are personal accounts.</p><ul class="linklist forum">${top.slice(0, 10).map((x) => x.li).join('')}</ul>${seeAll(top.length, 'threads')}`
         : `<p>No community discussion found.</p>`]);
+      if ((L.news || []).length) S.push(['news', 'In the news', `<p class="mute" style="font-size:13px">Media coverage mentioning ${esc(item.name)}, via the GDELT news index.</p><ul class="linklist">${L.news.slice(0, 10).map(newsLi).join('')}</ul>${seeAll(L.news.length, 'articles')}`]);
       if ((R.gallery || []).length) S.push(['gallery', 'Gallery', `<div class="gallery">${R.gallery.slice(0, 8).map((g) => `<figure><a href="${esc(g.page)}" target="_blank" rel="noopener"><img src="${esc(g.url)}" alt="${esc(g.title)}" loading="lazy" data-gal></a><figcaption>${esc(g.title)}<span>${esc([g.creator, g.license, g.source].filter(Boolean).join(' · '))}</span></figcaption></figure>`).join('')}</div>`]);
     } else {
       S.push(['research', 'Clinical studies', R.studies.length
@@ -457,7 +458,7 @@
       const reddit = R.reddit.map(redditLi).join('');
       const forums = R.forums.map(forumLi).join('');
       S.push(['community', 'Community discussion', (reddit || forums)
-        ? `${reddit ? `<h3>Reddit</h3><ul class="linklist forum">${reddit}</ul>` : ''}${forums ? `<h3>Forums</h3><ul class="linklist forum">${forums}</ul>` : ''}<p class="mute" style="font-size:12px">Forum posts are anecdotes, not evidence.</p>`
+        ? `${reddit ? `<h3>Reddit</h3><ul class="linklist forum">${reddit}</ul>` : ''}${forums ? `<h3>Forums</h3><ul class="linklist forum">${forums}</ul>` : ''}<p class="mute" style="font-size:12px">Forum posts are personal accounts.</p>`
         : `<p>${loading ? 'Loading…' : 'No community discussion found.'}</p>`]);
     }
     if (kind !== 'meta') S.push(['where', 'Where to buy', `<div class="buyslot">${action}</div>`]);
@@ -491,6 +492,7 @@
         <div class="prose wp">
           ${infobox}
           <p class="lead-sum"><b>${esc(item.name)}</b>${item.aka ? ` (also <i>${esc(item.aka)}</i>)` : ''} — ${esc(item.summary)}</p>
+          ${R.angle ? `<div class="angle"><span class="kicker">Looksmax angle · ${esc(R.angle.goal || '')}</span>${(R.angle.chain || []).length ? `<ol class="chain">${R.angle.chain.map((c) => `<li>${esc(c)}</li>`).join('')}</ol>` : ''}<p>${esc(R.angle.text || '')}</p></div>` : ''}
           ${leadParas}
           ${S.map(([id, h, body]) => `<h2 id="${id}">${esc(h)}</h2>${body}`).join('')}
         </div>
@@ -498,7 +500,7 @@
           ${prev ? `<a href="${entryHref(prev)}"><small>← Previous in ${esc(meta.name)}</small><b>${esc(prev.item.name)}</b></a>` : '<span></span>'}
           ${next ? `<a class="nx" href="${entryHref(next)}"><small>Next →</small><b>${esc(next.item.name)}</b></a>` : '<span></span>'}
         </div>
-        <div class="catbox"><span>Categories:</span><a class="chip" href="${catHref(kind, item.category)}">${esc(meta.name)}</a><a class="chip" href="#/index?${kind !== 'compound' ? `kind=${kind}&` : ''}ev=${item.evidence}">${esc(D.evidenceMeta[item.evidence].label)} evidence</a><a class="chip" href="${indexHref(kind)}">${KIND_LABEL[kind]}</a>${totalLinks ? `<a class="chip" href="${allLinksHref}">All links (${totalLinks})</a>` : ''}</div>
+        <div class="catbox"><span>Categories:</span><a class="chip" href="${catHref(kind, item.category)}">${esc(meta.name)}</a>${e.goal ? `<a class="chip" href="${goalHref(e.goal, kind)}">${esc(e.goal)}</a>` : ''}<a class="chip" href="${indexHref(kind)}">${KIND_LABEL[kind]}</a>${totalLinks ? `<a class="chip" href="${allLinksHref}">All links (${totalLinks})</a>` : ''}</div>
         ${disclaimer}
       </article>
     </div>`;
@@ -579,6 +581,8 @@
       ['trials', 'Clinical trials', 'ClinicalTrials.gov registrations', f(L.trials || []), (t) => `<li><a href="${esc(t.url)}" target="_blank" rel="noopener"><b>${esc(t.title)}</b><span>${esc([t.nct, t.status, t.phase, t.start, t.enrollment ? 'n=' + t.enrollment : null].filter(Boolean).join(' · '))} ↗</span></a></li>`],
       ['label', 'Drug label', 'Official US prescribing information', L.label ? [L.label] : [], (l) => `<li><a href="${esc(l.url)}" target="_blank" rel="noopener"><b>${esc(l.generic || item.name)} — DailyMed label</b><span>${esc((l.brands || []).join(', ') || 'US label')} ↗</span></a></li>`],
       ['reddit', 'Reddit threads', 'Highest score + comments first', f(L.reddit || []), (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>r/${esc(r.sub)} · ▲ ${r.score} · ${r.comments} comments${r.year ? ' · ' + r.year : ''} ↗</span></a></li>`],
+      ['social', 'Hacker News & Lemmy', 'Highest score + comments first', f(L.social || []), socialLi],
+      ['news', 'In the news', 'Media coverage (GDELT)', f(L.news || []), newsLi],
       ['forums', 'Forum threads', 'looksmax.org and other forums', f(L.forums || []), (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc(r.site || '')} ↗</span></a>${r.archived ? `<a class="arch" href="${esc(r.archived)}" target="_blank" rel="noopener">archived copy</a>` : ''}</li>`],
       ['web', 'Encyclopedias & web', 'Wikipedia, Grokipedia and pages used in the article', f(L.web || []), (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc(r.url.replace(/^https?:\/\/(www\.)?/, '').split('/')[0])} ↗</span></a></li>`],
       ['refs', 'Article references', 'Everything cited in the in-depth article', (R.refs || []), (r, i) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>[${i + 1}] ${esc(r.title)}</b><span>${esc([r.source, r.year].filter(Boolean).join(' · '))} ↗</span></a></li>`],
@@ -606,7 +610,8 @@
     const meta = catMeta(kind)[id];
     if (!meta) return pageNotFound();
     const list = ENTRIES.filter((e) => e.kind === kind && e.item.category === id);
-    const groups = EV_ORDER.map((ev) => [ev, list.filter((e) => e.item.evidence === ev)]).filter(([, l]) => l.length);
+    const gm = new Map(); list.forEach((e) => { const g = e.goal || 'Other'; if (!gm.has(g)) gm.set(g, []); gm.get(g).push(e); });
+    const groups = [...gm.entries()].sort((a, b) => (a[0] === 'Other') - (b[0] === 'Other') || b[1].length - a[1].length);
     const others = Object.entries(catMeta(kind)).filter(([k]) => k !== id);
     return `<div class="page">
       ${crumbs([['Wiki', '#/'], ['The Index', indexHref(kind)], [meta.name]])}
@@ -614,7 +619,7 @@
       <h1 class="h-page" style="margin-bottom:16px">${esc(meta.name)}</h1>
       <p class="blurb-bar" style="margin-bottom:40px">${esc(meta.blurb)}</p>
       <div class="stack">
-        ${groups.map(([ev, l]) => `<section><h2 class="section-h">${evTag(ev)} ${esc(D.evidenceMeta[ev].label)} evidence <small>${l.length}</small></h2><div class="grid">${l.map(entryCard).join('')}</div></section>`).join('')}
+        ${groups.map(([g, l]) => `<section><h2 class="section-h">${esc(g)} <small>${l.length}</small></h2><div class="grid">${l.map(entryCard).join('')}</div></section>`).join('')}
         <section><h2 class="section-h">Other ${{ compound: 'compound', gear: 'gear', meta: 'meta' }[kind]} categories</h2><div class="f-row" style="padding:0">${others.map(([k, m]) => `<a class="chip" href="${catHref(kind, k)}">${esc(m.name)}</a>`).join('')}</div></section>
       </div>
       ${disclaimer}

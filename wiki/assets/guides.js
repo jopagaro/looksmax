@@ -15,7 +15,7 @@ window.LM_GUIDES = [
       {
         h: 'Definition',
         body: `<p><b>Looksmaxxing</b> (from "looks maximising") is the practice of deliberately trying to improve one's physical appearance. The term originated on online forums in the 2010s and spread widely on TikTok, YouTube and Reddit in the 2020s. It covers everything from grooming, fitness and skincare to drugs, surgery and practices that have little or no research behind them.</p>
-<p>This wiki documents the full range of practices. For each one it records what practitioners say about it and what published research and medical bodies report, using the evidence levels explained in [[guide:index-explained|How to Read This Wiki]].</p>`,
+<p>This wiki documents the full range of practices. For each one it lays out how it helps your looks, how people use it, what practitioners say and what research reports — see [[guide:index-explained|How to Read This Wiki]].</p>`,
       },
       {
         h: 'Softmaxxing and hardmaxxing',
@@ -45,46 +45,39 @@ window.LM_GUIDES = [
   {
     slug: 'index-explained',
     title: 'How to Read This Wiki',
-    kicker: 'Ratings',
-    summary: 'Evidence levels, legal status, outcome and risk labels — what every chip means.',
+    kicker: 'Start here',
+    summary: 'What each part of an article does — the looksmax angle, goals, topics, quick take vs in-depth, and the links layer.',
     sections: [
       {
-        h: 'Evidence levels',
-        body: `<p>Evidence levels describe <b>how much published research exists</b> for the appearance use. They are not a recommendation for or against anything.</p>
-<table class="wtable">
-<tr><th>Label</th><th>Meaning</th></tr>
-<tr><td><span class="tag tag-strong">Strong</span></td><td>Multiple good-quality human trials or established clinical consensus for this use.</td></tr>
-<tr><td><span class="tag tag-moderate">Moderate</span></td><td>Some human trial data; results may be smaller or less consistent.</td></tr>
-<tr><td><span class="tag tag-limited">Limited</span></td><td>Small, early, or mostly laboratory and animal studies.</td></tr>
-<tr><td><span class="tag tag-unproven">Unproven</span></td><td>No published human studies have tested the appearance claim, or studies have not found an effect.</td></tr>
-</table>
-<p>Evidence is rated for the appearance use. [[Afamelanotide]], for example, has strong evidence for a light-sensitivity disorder, which is a different use from cosmetic tanning.</p>`,
+        h: 'The looksmax angle',
+        body: `<p>Every article opens with a <b>Looksmax angle</b> box: the appearance goal it's used for (Height, Skin, Physique, Jawline & face shape…) and the chain from what it does to how you look — for example <i>joint comfort &amp; recovery → more training volume → more muscle</i>. Some things change your look directly (lifts, makeup, haircuts); others work through a step in between (sleep, recovery, hormones, fat loss).</p>
+<p>The wiki doesn't grade anything. Each article lays out what the thing does, how people use it, what research has looked at, what people claim, and the risks — you decide what's worth it.</p>`,
       },
       {
-        h: 'Status (compounds)',
+        h: 'Goals and topics',
+        body: `<p><b>Goals</b> group entries by what they improve; filter <a href="#/index">The Index</a> by goal to see every compound, gear item and meta aimed at the same result. <b>Topics</b> go wider — search "tanning" or "jawline" and you get everything tagged to that problem across the whole wiki.</p>`,
+      },
+      {
+        h: 'Quick take and In-depth',
+        body: `<p><b>Quick take</b> is the short version: what it does for your looks, how people use it, and the risks. <b>In-depth</b> is the full encyclopedia article — history, mechanism, clinical studies, what believers and experts each say, community discussion, news coverage and references.</p>`,
+      },
+      {
+        h: 'Labels',
         body: `<table class="wtable">
 <tr><th>Label</th><th>Meaning</th></tr>
-<tr><td><span class="tag">OTC</span></td><td>Sold over the counter as a supplement or cosmetic.</td></tr>
 <tr><td><span class="tag">℞ Rx only</span></td><td>Prescription medicine in most countries.</td></tr>
-<tr><td><span class="tag tag-unproven">⚠ Research chem</span></td><td>Not approved for human use; sold as a "research chemical". Documented here for information; the wiki does not link to sellers.</td></tr>
+<tr><td><span class="tag">⚠ Research chem</span></td><td>Not approved for human use; sold as a "research chemical". Documented here for information; the wiki does not link to sellers.</td></tr>
+<tr><td><span class="tag">Lasting change</span></td><td>Gear whose result sticks after you stop — e.g. whiter teeth, less hair.</td></tr>
+<tr><td><span class="tag">While you use it</span></td><td>Gear whose result lasts while you use or wear it — e.g. lifts, an [[Ice roller]].</td></tr>
 </table>`,
       },
       {
-        h: 'Outcome (gear)',
-        body: `<table class="wtable">
-<tr><th>Label</th><th>Meaning</th></tr>
-<tr><td><span class="tag">Lasting change</span></td><td>Produces a durable change — e.g. whiter teeth, less hair.</td></tr>
-<tr><td><span class="tag">While you use it</span></td><td>Effects reported are temporary, e.g. an [[Ice roller]].</td></tr>
-<tr><td><span class="tag tag-unproven">Claim unproven</span></td><td>The structural claim it is marketed on has not been demonstrated in published studies, e.g. [[Face slimming strap]].</td></tr>
-</table>`,
+        h: 'What people claim',
+        body: `<p>In-depth articles include a <b>What people claim</b> section: each row is a claim from the community, what proponents say in support of it, and what published research or clinicians report — side by side, without a verdict.</p>`,
       },
       {
-        h: 'Risk (metas)',
-        body: `<p>Metas — forum practices, protocols and procedures — carry a risk label summarising documented harms: <span class="tag">Low risk</span>, <span class="tag tag-white">Moderate risk</span>, <span class="tag tag-unproven">High risk</span>, <span class="tag tag-unproven">Extreme risk</span>. These are based on reported adverse events, regulatory warnings and clinical literature.</p>`,
-      },
-      {
-        h: 'Claims & evidence',
-        body: `<p>In-depth articles include a <b>Claims &amp; evidence</b> section. Each row records a claim made by practitioners, what proponents say in support of it, and what published research or medical experts report. The status tag describes the state of the evidence (for example "Supported by studies" or "Untested"); it is not an endorsement or a rebuttal.</p>`,
+        h: 'Links',
+        body: `<p>Each article shows the top 10 studies and threads; <b>See all</b> opens the full link library — papers, trials, Reddit, looksmax.org, T Nation, Hacker News, Lemmy and news coverage.</p>`,
       },
       {
         h: 'Buy links',
@@ -176,20 +169,20 @@ window.LM_GUIDES = [
     slug: 'hair-loss',
     title: 'Hair Loss Primer',
     kicker: 'Hairline',
-    summary: 'Male-pattern hair loss and the treatments people use, by level of evidence.',
+    summary: 'Male-pattern hair loss and the treatments people use to keep and regrow hair.',
     sections: [
       {
         h: 'Background',
         body: `<p>Androgenetic alopecia is driven by dihydrotestosterone (DHT) gradually miniaturising hair follicles. Clinical literature generally reports that medication is more effective at maintaining existing hair than regrowing lost hair, which is why many guides emphasise starting early.</p>`,
       },
       {
-        h: 'Treatments by evidence level',
+        h: 'Treatments',
         body: `<table class="wtable">
-<tr><th>Evidence</th><th>Entries</th></tr>
-<tr><td><span class="tag tag-strong">Strong</span></td><td>[[Finasteride]], [[Dutasteride]] (Rx, DHT blockers) and [[Minoxidil]] (OTC). Many treatment protocols combine a DHT blocker with minoxidil.</td></tr>
-<tr><td><span class="tag tag-moderate">Devices</span></td><td>[[Laser hair-growth cap]], [[Laser comb]], [[Scalp microneedling roller]].</td></tr>
-<tr><td><span class="tag tag-limited">Limited</span></td><td>[[Saw palmetto]], [[Pumpkin seed oil]], [[Melatonin (topical)]], [[Biotin]] (studied mainly in deficiency).</td></tr>
-<tr><td><span class="tag tag-unproven">Research compounds</span></td><td>[[RU58841]], [[Pyrilutamide]] — not approved for human use; used on hair-loss forums.</td></tr>
+<tr><th>Type</th><th>Entries</th></tr>
+<tr><td><span class="tag">Medications</span></td><td>[[Finasteride]], [[Dutasteride]] (Rx, DHT blockers) and [[Minoxidil]] (OTC). Many treatment protocols combine a DHT blocker with minoxidil.</td></tr>
+<tr><td><span class="tag">Devices</span></td><td>[[Laser hair-growth cap]], [[Laser comb]], [[Scalp microneedling roller]].</td></tr>
+<tr><td><span class="tag">Supplements</span></td><td>[[Saw palmetto]], [[Pumpkin seed oil]], [[Melatonin (topical)]], [[Biotin]] (studied mainly in deficiency).</td></tr>
+<tr><td><span class="tag">Research compounds</span></td><td>[[RU58841]], [[Pyrilutamide]] — not approved for human use; used on hair-loss forums.</td></tr>
 </table>`,
       },
       {

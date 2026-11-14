@@ -96,7 +96,9 @@ button, input { font: inherit; color: inherit; }
 .tag-strong { background: var(--ink); color: var(--cream); }
 .tag-moderate { background: #fff; }
 .tag-limited { background: var(--cream); }
-.tag-unproven { background: var(--pop); color: #fff; }
+.tag-unproven { background: #fff; border-style: dashed; }
+.tag-risk { background: var(--ink); color: #fff; border-color: var(--pop); }
+.tag-direct { background: var(--pop); color: #fff; }
 .tag-white { background: #fff; }
 
 /* ───────── Main ───────── */
@@ -383,3 +385,12 @@ sup.ref a { border: 0; font-weight: 700; color: var(--pop-dark); }
 .entry.pending:hover { transform: none; }
 .entry.pending h4 { color: var(--pop-dark); }
 .lore-row .lbl { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; display: inline; }
+
+/* Looksmax angle — why this entry matters for appearance */
+.angle { border: 3px solid var(--ink); background: #fff; box-shadow: 5px 5px 0 var(--pop); padding: 14px 16px; margin: 6px 0 22px; }
+.wp-box + .lead-sum + .angle, .angle { overflow: hidden; }
+.angle .kicker { display: block; margin-bottom: 8px; color: var(--pop); }
+.angle .chain { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; padding: 0; margin: 0 0 10px; counter-reset: none; }
+.angle .chain li { font-weight: 700; font-size: 13px; border: 2px solid var(--ink); background: var(--cream); padding: 3px 8px; margin: 0; }
+.angle .chain li + li::before { content: "→ "; color: var(--pop); }
+.angle p { margin: 0; font-size: 15px; line-height: 1.55; }

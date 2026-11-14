@@ -1,5 +1,180 @@
 {
  "name": "Galantamine",
- "skip": true,
- "reason": "Cholinesterase inhibitor; sources cover only Alzheimer's use and contain no appearance or lucid-dreaming material"
+ "lead": [
+  "Galantamine is an alkaloid first isolated from snowdrop (Galanthus) and related Amaryllidaceae plants in the Soviet Union in the 1940s; it is now also made synthetically.[1] It is a prescription medicine for mild to moderate Alzheimer disease and works by inhibiting acetylcholinesterase, raising acetylcholine levels.[1][2]",
+  "In nootropic and dream communities it is discussed for increasing dream vividness and recall, which can help people induce lucid dreams.[1] Interest in appearance is indirect: some users look to cognition, sleep and dream-related routines as part of a broader self-improvement approach."
+ ],
+ "angle": {
+  "goal": "Cognition and sleep routines",
+  "chain": [
+   "Inhibits acetylcholinesterase",
+   "Higher acetylcholine",
+   "Users report sharper cognition and more vivid dreams"
+  ],
+  "effect": "claimed",
+  "text": "People use it as a nootropic and a lucid-dreaming aid, linking mental performance and sleep quality to overall self-presentation. It is a prescription drug used off-label for these purposes."
+ },
+ "infobox": [
+  [
+   "Drug class",
+   "Acetylcholinesterase inhibitor"
+  ],
+  [
+   "Origin",
+   "Snowdrop (Galanthus) alkaloid"
+  ],
+  [
+   "Isolated",
+   "1940s, Soviet Union"
+  ],
+  [
+   "Trade names",
+   "Razadyne, Reminyl"
+  ],
+  [
+   "Legal status",
+   "Rx-only (US, EU)"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Medical uses",
+   "paras": [
+    "Galantamine is indicated for mild to moderate Alzheimer disease and vascular dementia, with limited success in more advanced dementia.[1] Reviews find that the efficacy of the three marketed cholinesterase inhibitors is similar and that the benefit is mild.[3]"
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "paras": [
+    "It inhibits acetylcholinesterase and also acts at nicotinic receptors, although recent studies question whether it works as a positive allosteric modulator at some of them.[1]"
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "paras": [
+    "Common effects include nausea, vomiting, diarrhea, dizziness and headache. Serious risks include allergic reactions, stomach bleeding, liver injury and chest pain.[1]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Large randomized trials in Alzheimer disease were published in 2000.[4][5] A review of non-stimulant ADHD treatments reported negative findings for galantamine.[6] A pilot randomized trial examined safety in subarachnoid hemorrhage,[7] and randomized trials have examined cocaine use disorder and post-stroke aphasia.[8][9] Studies of its effect on lucid dreaming are described in general references.[1]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Galantamine is prescription-only in the US and EU.[1] The main brand name is Razadyne, and a derivative, benzgalantamine (Zunveyl), was FDA-approved in July 2024.[1]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1940s",
+   "event": "Galantamine isolated from snowdrop plants in the Soviet Union.[1]"
+  },
+  {
+   "year": "2000",
+   "event": "Two large placebo-controlled Alzheimer trials published in Neurology.[4][5]"
+  },
+  {
+   "year": "2024",
+   "event": "Benzgalantamine (Zunveyl) approved by the FDA.[1]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Galantamine",
+   "url": "https://en.wikipedia.org/wiki/Galantamine",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Acetylcholinesterase inhibitors: pharmacology and toxicology",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24179466/",
+   "source": "Current Neuropharmacology",
+   "year": 2013,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Efficacy of acetylcholinesterase inhibitors in Alzheimer's disease",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33035532/",
+   "source": "Neuropharmacology",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "A 5-month, randomized, placebo-controlled trial of galantamine in AD",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10881251/",
+   "source": "Neurology",
+   "year": 2000,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "Galantamine in AD: A 6-month randomized, placebo-controlled trial with a 6-month extension",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10881250/",
+   "source": "Neurology",
+   "year": 2000,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Current nonstimulant medications for adults with ADHD",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38915262/",
+   "source": "Expert Review of Neurotherapeutics",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "SAHRANG: Subarachnoid Hemorrhage Recovery and Galantamine",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40877496/",
+   "source": "Neurocritical Care",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Randomized placebo-controlled trial of galantamine in individuals with cocaine use disorder",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31757262/",
+   "source": "J Substance Abuse Treatment",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Galantamine administration in chronic post-stroke aphasia",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22595363/",
+   "source": "J Neurol Neurosurg Psychiatry",
+   "year": 2012,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Galantamine",
+   "title": "Galantamine - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "A snowdrop-derived cholinesterase inhibitor that nootropic and dream communities use for cognition and vivid or lucid dreams.",
+  "aka": "Razadyne, Reminyl",
+  "evidence": "moderate",
+  "status": "rx",
+  "risk": "moderate",
+  "note": "Prescription drug; nausea, GI bleeding and liver injury are among reported risks.",
+  "structure": "Galantamine"
+ },
+ "quick": {
+  "overview": "Galantamine is a prescription alkaloid originally from snowdrop plants, approved for mild to moderate Alzheimer disease. In nootropic circles it is used off-label for sharper thinking and more vivid dreams.\n\nResearch suggests it may increase dream recall and vividness, which is why it features in lucid-dreaming routines.",
+  "mechanism": "It inhibits acetylcholinesterase, raising acetylcholine, and also acts at nicotinic receptors.",
+  "risks": "Common effects are nausea, vomiting, diarrhea, dizziness and headache; serious ones include allergic reactions, stomach bleeding, liver injury and chest pain. It is Rx-only in the US and EU."
+ }
 }

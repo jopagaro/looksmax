@@ -2252,6 +2252,17 @@ window.LM_WIKI = {
    "risk": "high"
   },
   {
+   "name": "Bone-extending procedures",
+   "kind": "meta",
+   "category": "height",
+   "aka": "Limb lengthening, height surgery, leg lengthening",
+   "evidence": "moderate",
+   "summary": "Surgery that gradually lengthens leg bones to add permanent height.",
+   "note": "Major surgery with months of recovery and a recognised complication rate.",
+   "wiki": true,
+   "risk": "moderate"
+  },
+  {
    "name": "HGH for height",
    "kind": "meta",
    "category": "height",
@@ -3157,7 +3168,7 @@ window.LM_WIKI = {
    "aka": "Sun tan oil, bronzing oil",
    "evidence": "limited",
    "summary": "Oils applied before sun exposure to deepen a tan, often with little or no SPF; sunless DHA oils also exist.",
-   "note": "Oils with low or no SPF offer little protection against sunburn.",
+   "note": "Oils with low or no SPF give limited protection against sunburn.",
    "wiki": true,
    "outcome": "temporary"
   },
@@ -3861,6 +3872,17 @@ window.LM_WIKI = {
    "risk": "moderate"
   },
   {
+   "name": "Carbon laser peel (Hollywood peel)",
+   "kind": "meta",
+   "category": "hardmaxx",
+   "aka": "Carbon peel, Hollywood peel, carbon laser facial",
+   "evidence": "unproven",
+   "summary": "A carbon-lotion and laser clinic treatment promoted for smoother texture, smaller-looking pores and glow.",
+   "note": "Laser skin treatments can cause redness, pigment changes and rarely scarring.",
+   "wiki": true,
+   "risk": "moderate"
+  },
+  {
    "name": "Dermabrasion",
    "kind": "meta",
    "category": "hardmaxx",
@@ -4467,6 +4489,17 @@ window.LM_WIKI = {
    "risk": "moderate"
   },
   {
+   "name": "Polynucleotide eye treatment (Plenhyl, Rejuran Healer)",
+   "kind": "meta",
+   "category": "hardmaxx",
+   "aka": "Rejuran I, Rejuran Healer, PN skin booster, salmon DNA facial",
+   "evidence": "limited",
+   "summary": "Micro-injections of salmon-derived polynucleotides under the eyes to thicken and smooth thin, crepey skin and soften dark circles.",
+   "note": "Contraindicated with fish allergy; not approved as an injectable in the US.",
+   "wiki": true,
+   "risk": "moderate"
+  },
+  {
    "name": "Skin booster injectables (Profhilo)",
    "kind": "meta",
    "category": "hardmaxx",
@@ -4890,6 +4923,17 @@ window.LM_WIKI = {
    "risk": "low"
   },
   {
+   "name": "Salt-water / sodium bicarbonate claims",
+   "kind": "meta",
+   "category": "fringe",
+   "aka": "Baking soda, saline rinse",
+   "evidence": "limited",
+   "summary": "Household baking soda and salt-water routines used as cheap scrubs, rinses and pre-training supplements for skin, teeth and physique.",
+   "note": "Baking soda is an eye irritant and excess intake can cause alkalosis.",
+   "wiki": true,
+   "risk": "low"
+  },
+  {
    "name": "Thyroid/hypothyroid evaluation",
    "kind": "meta",
    "category": "lifestyle",
@@ -5305,6 +5349,16 @@ window.LM_WIKI = {
    "risk": "low"
   },
   {
+   "name": "Posture and camera angle jaw tricks",
+   "kind": "meta",
+   "category": "stylemetas",
+   "aka": "chin-forward photo pose",
+   "evidence": "unproven",
+   "summary": "Head, chin and camera-angle habits that make the jawline and neck look sharper in photos and in person.",
+   "wiki": true,
+   "risk": "moderate"
+  },
+  {
    "name": "Neck tension / platysma flex",
    "kind": "meta",
    "category": "lifestyle",
@@ -5577,6 +5631,17 @@ window.LM_WIKI = {
    "note": "Wikipedia notes risk of facial nerve branch and parotid duct injury; DIY attempts are reported in forums.",
    "wiki": true,
    "risk": "high"
+  },
+  {
+   "name": "Suction cup / cupping on cheeks",
+   "kind": "meta",
+   "category": "fringe",
+   "aka": "Facial cupping, face cupping",
+   "evidence": "unproven",
+   "summary": "Small suction cups applied to the cheeks to draw up the skin for a temporary flushed, lifted look.",
+   "note": "Suction can leave temporary round marks on the skin.",
+   "wiki": true,
+   "risk": "low"
   },
   {
    "name": "Hollow cheeks via chewing then fat loss",
@@ -7015,7 +7080,7 @@ window.LM_WIKI = {
    "category": "faceDevices",
    "aka": "face taping, Kinesio tape on face",
    "evidence": "unproven",
-   "summary": "Elastic sports tape applied to the face to 'retrain' muscles; the tape's general evidence is weak and facial use is untested.",
+   "summary": "Elastic sports tape applied to the face to 'retrain' muscles; the tape's general evidence is limited and facial use is untested.",
    "note": "No studies of cosmetic facial use found; adhesive effects on facial skin not documented in the sources reviewed.",
    "wiki": true,
    "outcome": "unsupported"
@@ -7104,6 +7169,17 @@ window.LM_WIKI = {
    "evidence": "unproven",
    "summary": "Loaded forward neck flexion with a plate to thicken the neck; popular on forums, no appearance trials.",
    "note": "Forum users report soreness and, in one case, dizziness; no clinical data for this use.",
+   "wiki": true,
+   "risk": "moderate"
+  },
+  {
+   "name": "Neck harness lifts",
+   "kind": "meta",
+   "category": "lifestyle",
+   "aka": "Weighted neck harness, neck training",
+   "evidence": "limited",
+   "summary": "A weighted head harness for loading the neck muscles to build a thicker neck and stronger-looking frame.",
+   "note": "Loads the cervical spine; gradual progression is commonly advised.",
    "wiki": true,
    "risk": "moderate"
   },
@@ -7256,6 +7332,17 @@ window.LM_WIKI = {
    "note": "No studies examine supplements for neck size specifically; evidence applies to skeletal muscle in general.",
    "wiki": true,
    "risk": "low"
+  },
+  {
+   "name": "Hanging for neck decompression",
+   "kind": "meta",
+   "category": "lifestyle",
+   "aka": "Neck traction, bar hanging, neck decompression",
+   "evidence": "limited",
+   "summary": "Hanging or band traction to loosen a tight neck and shoulders, supporting training and an upright head position.",
+   "note": "Not standardised; neck or nerve symptoms are a reason to see a clinician.",
+   "wiki": true,
+   "risk": "moderate"
   },
   {
    "name": "Gua sha neck / lymphatic drainage",
@@ -7435,6 +7522,17 @@ window.LM_WIKI = {
    "wiki": true,
    "status": "research",
    "structure": "Setipiprant"
+  },
+  {
+   "name": "Platelet PGD2 inhibitors",
+   "kind": "compound",
+   "category": "hair",
+   "aka": "DP2/CRTH2 antagonists, PGD2 pathway blockers, setipiprant",
+   "evidence": "limited",
+   "summary": "An experimental hair-loss approach that blocks prostaglandin D2 signalling to free miniaturised follicles to regrow.",
+   "note": "Investigational; the phase 2A setipiprant trial did not reach significance.",
+   "wiki": true,
+   "status": "research"
   },
   {
    "name": "Ritlecitinib (Litfulo)",
@@ -7680,6 +7778,16 @@ window.LM_WIKI = {
    "note": "Poor hairline work can look unnatural; the pigment is described as permanent but removable with laser.",
    "wiki": true,
    "risk": "low"
+  },
+  {
+   "name": "Curly girl method",
+   "kind": "meta",
+   "category": "stylemetas",
+   "aka": "CGM",
+   "evidence": "unproven",
+   "summary": "A sulfate-free, no-brush routine that helps curly hair keep its shape and moisture for more defined curls.",
+   "wiki": true,
+   "risk": "moderate"
   },
   {
    "name": "Sulfate-free shampoo",
@@ -9028,6 +9136,17 @@ window.LM_WIKI = {
    "structure": "Chromium picolinate"
   },
   {
+   "name": "Lipo-C / MIC B12 injections",
+   "kind": "compound",
+   "category": "fat",
+   "aka": "MIC B12, Lipo-B, lipotropic injections, fat-burner shots",
+   "evidence": "unproven",
+   "summary": "A clinic-administered B12 plus lipotropic (methionine, inositol, choline) shot that people add to a diet in pursuit of leaner body composition and more energy.",
+   "note": "Not evaluated by the FDA for weight loss; used off-label.",
+   "wiki": true,
+   "status": "rx"
+  },
+  {
    "name": "Detox / slimming teas",
    "kind": "compound",
    "category": "fat",
@@ -9879,6 +9998,16 @@ window.LM_WIKI = {
    "risk": "low"
   },
   {
+   "name": "Face pulls / band pull-aparts",
+   "kind": "meta",
+   "category": "lifestyle",
+   "aka": "Rope face pulls, band pull-aparts, rear delt pulls",
+   "evidence": "limited",
+   "summary": "Light cable or band pulling exercises that build the rear delts and upper back for better posture and fuller-looking shoulders.",
+   "wiki": true,
+   "risk": "low"
+  },
+  {
    "name": "Thoracic extension over foam roller",
    "kind": "meta",
    "category": "lifestyle",
@@ -9886,6 +10015,17 @@ window.LM_WIKI = {
    "evidence": "unproven",
    "summary": "A mobility drill that arches the upper back over a foam roller, used to counter rounded posture; no trials of the drill itself were found.",
    "note": "Related literature covers thoracic manipulation and sitting posture, not this specific drill.",
+   "wiki": true,
+   "risk": "low"
+  },
+  {
+   "name": "Doorway pec stretch",
+   "kind": "meta",
+   "category": "lifestyle",
+   "aka": "Door frame chest stretch, wall pec stretch",
+   "evidence": "unproven",
+   "summary": "A door-frame chest stretch people use to open tight pecs and sit with more open, upright shoulders.",
+   "note": "Stretch gently; sharp pain in the shoulder or chest is a reason to stop.",
    "wiki": true,
    "risk": "low"
   },
@@ -10018,6 +10158,17 @@ window.LM_WIKI = {
    "evidence": "limited",
    "summary": "Gentle somatic movement education aimed at body awareness and efficient movement; reviews find no conclusive evidence of medical benefit, and posture looks are untested.",
    "note": "Reviews report no conclusive evidence of medical benefit; researchers do not consider it to pose serious risks.",
+   "wiki": true,
+   "risk": "low"
+  },
+  {
+   "name": "Egoscue method",
+   "kind": "meta",
+   "category": "lifestyle",
+   "aka": "E-cises, Pain Free method",
+   "evidence": "unproven",
+   "summary": "A posture-therapy exercise system by Pete Egoscue that people use to realign their stance and stand straighter.",
+   "note": "Not a substitute for medical care of persistent pain.",
    "wiki": true,
    "risk": "low"
   },
@@ -10261,6 +10412,18 @@ window.LM_WIKI = {
    "wiki": true,
    "outcome": "temporary",
    "price": "$750-1,500"
+  },
+  {
+   "name": "Yoga wheel",
+   "kind": "gear",
+   "category": "posture",
+   "aka": "Dharma Yoga Wheel",
+   "evidence": "unproven",
+   "summary": "A plastic ring prop for back bends and chest stretches that people use to open up the upper back and stand more upright.",
+   "note": "Back bends can strain the spine if pushed too far.",
+   "wiki": true,
+   "outcome": "temporary",
+   "price": "$99 at launch"
   },
   {
    "name": "Roman chair / hyperextension bench",
@@ -10893,6 +11056,17 @@ window.LM_WIKI = {
    "note": "Benefits over scalpel are based on limited evidence.",
    "wiki": true,
    "risk": "low"
+  },
+  {
+   "name": "Orthodontic mini-implants (TADs) for gummy smile",
+   "kind": "meta",
+   "category": "hardmaxx",
+   "aka": "TADs, miniscrews, temporary anchorage devices",
+   "evidence": "moderate",
+   "summary": "Small screws in the upper jaw anchor braces so the front teeth can be moved upward, reducing how much gum shows in a smile.",
+   "note": "Done by an orthodontist as part of braces treatment.",
+   "wiki": true,
+   "risk": "moderate"
   },
   {
    "name": "Enamel reshaping / contouring",
@@ -11789,6 +11963,28 @@ window.LM_WIKI = {
    "outcome": "unsupported"
   },
   {
+   "name": "Reducing alcohol and salt for eye redness",
+   "kind": "meta",
+   "category": "lifestyle",
+   "aka": "Anti-redness diet",
+   "evidence": "limited",
+   "summary": "Drinking less alcohol and eating less salt to get whiter, less bloodshot, less puffy eyes.",
+   "note": "Persistent or painful red eye warrants medical assessment.",
+   "wiki": true,
+   "risk": "low"
+  },
+  {
+   "name": "Hydration and sleep for eye whites",
+   "kind": "meta",
+   "category": "lifestyle",
+   "aka": "Eye whites routine",
+   "evidence": "unproven",
+   "summary": "Drinking enough water and sleeping well to keep the whites of the eyes clearer and the eye area fresher.",
+   "note": "Persistent redness or yellowing warrants medical assessment.",
+   "wiki": true,
+   "risk": "moderate"
+  },
+  {
    "name": "Lutein and zeaxanthin supplements",
    "kind": "compound",
    "category": "longevity",
@@ -11867,6 +12063,15 @@ window.LM_WIKI = {
    "risk": "low"
   },
   {
+   "name": "Complementary eyeshadow for iris color",
+   "kind": "meta",
+   "category": "stylemetas",
+   "evidence": "unproven",
+   "summary": "Choosing eyeshadow shades opposite the iris on the color wheel so eye color looks more vivid.",
+   "wiki": true,
+   "risk": "moderate"
+  },
+  {
    "name": "Dark eyeliner to make iris pop",
    "kind": "meta",
    "category": "stylemetas",
@@ -11886,6 +12091,26 @@ window.LM_WIKI = {
    "note": "Case reports of uveitis, retinal detachment and vision loss; banned in some jurisdictions.",
    "wiki": true,
    "risk": "extreme"
+  },
+  {
+   "name": "Warm / cool light & colored backgrounds for photos",
+   "kind": "meta",
+   "category": "stylemetas",
+   "evidence": "limited",
+   "summary": "Matching warm or cool light and background color to your eyes and skin so they look more vivid in photos.",
+   "wiki": true,
+   "risk": "low"
+  },
+  {
+   "name": "FaceTune / AI eye whitening",
+   "kind": "meta",
+   "category": "stylemetas",
+   "aka": "Eye brightening, sclera whitening, Facetune eye edit",
+   "evidence": "unproven",
+   "summary": "Photo-editing tools that brighten the whites and iris of the eyes in pictures so the face looks fresher and more awake.",
+   "note": "Changes appearance in photos only, not in person.",
+   "wiki": true,
+   "risk": "low"
   },
   {
    "name": "Redness-minimizing ring light",
@@ -12041,6 +12266,36 @@ window.LM_WIKI = {
    "risk": "low"
   },
   {
+   "name": "Reading aloud practice",
+   "kind": "meta",
+   "category": "lifestyle",
+   "aka": "Oral reading; voice drills",
+   "evidence": "limited",
+   "summary": "Reading text aloud daily to sharpen diction, pace and expressiveness for a better-sounding voice.",
+   "wiki": true,
+   "risk": "low"
+  },
+  {
+   "name": "Recording yourself",
+   "kind": "meta",
+   "category": "lifestyle",
+   "aka": "Voice self-review",
+   "evidence": "limited",
+   "summary": "Recording your voice or video to hear and see how you come across, then refine delivery.",
+   "wiki": true,
+   "risk": "low"
+  },
+  {
+   "name": "Slowing speech and pausing",
+   "kind": "meta",
+   "category": "lifestyle",
+   "aka": "authority delivery",
+   "evidence": "limited",
+   "summary": "Speaking slowly with deliberate pauses to sound calm, confident and authoritative.",
+   "wiki": true,
+   "risk": "moderate"
+  },
+  {
    "name": "Resonance tuning (formant)",
    "kind": "meta",
    "category": "lifestyle",
@@ -12104,6 +12359,17 @@ window.LM_WIKI = {
    "evidence": "unproven",
    "summary": "Androgens can deepen the voice, but it is a side effect of virilization, not a studied use, and some changes may be irreversible.",
    "note": "Voice changes in women may be permanent; controlled substances in the US.",
+   "wiki": true,
+   "status": "rx"
+  },
+  {
+   "name": "Puberty blockers delay voice change",
+   "kind": "compound",
+   "category": "muscle",
+   "aka": "GnRH agonists, puberty suppression",
+   "evidence": "moderate",
+   "summary": "GnRH-agonist medicines that postpone puberty, which delays voice deepening and other hormone-driven changes while treatment continues.",
+   "note": "Prescription-only, medically supervised; long-term effects not well established.",
    "wiki": true,
    "status": "rx"
   },
@@ -12349,6 +12615,15 @@ window.LM_WIKI = {
    "aka": "Aural skills",
    "evidence": "unproven",
    "summary": "Music pitch-recognition practice; borrowed for voice pitch awareness with no appearance studies.",
+   "wiki": true,
+   "risk": "moderate"
+  },
+  {
+   "name": "Mouth opening / jaw relaxation",
+   "kind": "meta",
+   "category": "lifestyle",
+   "evidence": "unproven",
+   "summary": "Relaxing the jaw and opening the mouth freely to speak more clearly and carry a softer facial expression.",
    "wiki": true,
    "risk": "moderate"
   },
@@ -13868,7 +14143,7 @@ window.LM_WIKI = {
    "category": "lifestyle",
    "aka": "kiwifruit for sleep",
    "evidence": "limited",
-   "summary": "Eating kiwifruit in the evening is proposed as a food-based sleep aid; the encyclopedic sources reviewed offer little on it.",
+   "summary": "Eating kiwifruit in the evening is proposed as a food-based sleep aid; the encyclopedic sources reviewed say little on it.",
    "note": "Kiwifruit allergy exists and ranges from oral itching to anaphylaxis.",
    "wiki": true,
    "risk": "low"
@@ -15057,6 +15332,17 @@ window.LM_WIKI = {
    "risk": "low"
   },
   {
+   "name": "Raw carrot salad (Ray Peat)",
+   "kind": "meta",
+   "category": "lifestyle",
+   "aka": "Peat carrot salad; bioenergetic carrot",
+   "evidence": "unproven",
+   "summary": "A daily dressed raw carrot that Ray Peat followers eat for gut, hormone and skin benefits.",
+   "note": "Very high carotene intake can tint skin orange.",
+   "wiki": true,
+   "risk": "low"
+  },
+  {
    "name": "Low-PUFA diet",
    "kind": "meta",
    "category": "lifestyle",
@@ -15066,6 +15352,17 @@ window.LM_WIKI = {
    "note": "Omega-3 and omega-6 are essential fatty acids; the appearance claims have not been studied.",
    "wiki": true,
    "risk": "low"
+  },
+  {
+   "name": "Fruit-and-honey diet",
+   "kind": "meta",
+   "category": "lifestyle",
+   "aka": "Fruitarian-style diet",
+   "evidence": "unproven",
+   "summary": "A sugar-forward diet built on fruit and honey, followed for clear skin and a lean, light look.",
+   "note": "Nutrient gaps (protein, B12, iron) and dental and blood-sugar concerns are noted for fruit-based diets.",
+   "wiki": true,
+   "risk": "moderate"
   },
   {
    "name": "Anti-estrogen diet (cruciferous / DIM)",
@@ -15253,7 +15550,7 @@ window.LM_WIKI = {
    "category": "lifestyle",
    "aka": "Capsaicin, spicy diet",
    "evidence": "limited",
-   "summary": "Spicy food as a metabolism booster; capsaicin may nudge appetite slightly, but weight-loss evidence is weak.",
+   "summary": "Spicy food as a metabolism booster; capsaicin may nudge appetite slightly, and weight-loss evidence is limited.",
    "note": "Capsaicin pills have been linked to rare serious cardiac events in case reports.",
    "wiki": true,
    "risk": "low"
@@ -15869,6 +16166,16 @@ window.LM_WIKI = {
    "risk": "high"
   },
   {
+   "name": "Gender-neutral aesthetics / 'pretty boy' / softboy",
+   "kind": "meta",
+   "category": "frameworks",
+   "aka": "Pretty boy, softboy, androgynous look",
+   "evidence": "limited",
+   "summary": "A soft, androgynous look built through skincare, hair, grooming and styling to emphasize delicate features.",
+   "wiki": true,
+   "risk": "low"
+  },
+  {
    "name": "Clavicular's looksmaxxing philosophy",
    "kind": "meta",
    "category": "frameworks",
@@ -16060,6 +16367,16 @@ window.LM_WIKI = {
    "evidence": "limited",
    "summary": "The theory that beauty preferences are evolved mate-choice adaptations; often cited online, with mixed and contested support in research.",
    "note": "Correlations between features and health are debated, and samples are often narrow.",
+   "wiki": true,
+   "risk": "low"
+  },
+  {
+   "name": "Personality maxxing / interests",
+   "kind": "meta",
+   "category": "lifestyle",
+   "aka": "Personality looksmaxxing",
+   "evidence": "unproven",
+   "summary": "Building hobbies, social skill and confidence so that personality adds to how attractive you come across, alongside physical looksmaxxing.",
    "wiki": true,
    "risk": "low"
   },
@@ -16909,6 +17226,17 @@ window.LM_WIKI = {
    "risk": "moderate"
   },
   {
+   "name": "Lutronic Genesis",
+   "kind": "meta",
+   "category": "hardmaxx",
+   "aka": "Laser Genesis, laser toning, Lutronic Xerf",
+   "evidence": "limited",
+   "summary": "A no-downtime Nd:YAG laser toning treatment that evens skin tone, reduces redness and smooths texture over a series of sessions.",
+   "note": "Results build over several sessions; sources are mainly clinic and manufacturer pages.",
+   "wiki": true,
+   "risk": "low"
+  },
+  {
    "name": "Laser genesis",
    "kind": "meta",
    "category": "hardmaxx",
@@ -17007,6 +17335,17 @@ window.LM_WIKI = {
    "risk": "moderate"
   },
   {
+   "name": "Genius RF",
+   "kind": "meta",
+   "category": "hardmaxx",
+   "aka": "Lutronic Genius",
+   "evidence": "limited",
+   "summary": "A clinic radiofrequency microneedling device that remodels skin to smooth texture, scars and fine lines.",
+   "note": "Clinic-delivered; results and downtime vary by settings and provider.",
+   "wiki": true,
+   "risk": "moderate"
+  },
+  {
    "name": "Sofwave",
    "kind": "meta",
    "category": "hardmaxx",
@@ -17060,6 +17399,28 @@ window.LM_WIKI = {
    "note": "Cited studies concern Ultraformer MPT rather than the III specifically.",
    "wiki": true,
    "risk": "low"
+  },
+  {
+   "name": "Liftera HIFU",
+   "kind": "meta",
+   "category": "hardmaxx",
+   "aka": "Liftera Lifting, Asterasys Liftera",
+   "evidence": "limited",
+   "summary": "A Korean HIFU device used in clinics to tighten and lift the jawline, face and neck without surgery.",
+   "note": "Results build over months and are reported to fade over a year or more.",
+   "wiki": true,
+   "risk": "moderate"
+  },
+  {
+   "name": "Shurink",
+   "kind": "meta",
+   "category": "hardmaxx",
+   "aka": "Ultraformer III (Classys)",
+   "evidence": "limited",
+   "summary": "A Korean HIFU ultrasound treatment that tightens skin and sharpens the jawline in about 20 to 30 minutes with no downtime.",
+   "note": "Clinic-administered; results are gradual and not permanent.",
+   "wiki": true,
+   "risk": "moderate"
   },
   {
    "name": "Thermage FLX",
@@ -17117,6 +17478,39 @@ window.LM_WIKI = {
    "risk": "moderate"
   },
   {
+   "name": "Forma / Forma-i",
+   "kind": "meta",
+   "category": "hardmaxx",
+   "aka": "Forma, Forma-i, InMode facial RF",
+   "evidence": "limited",
+   "summary": "InMode radiofrequency treatment that heats the skin to tighten the jawline, cheeks and neck without surgery.",
+   "note": "Pain, uneven healing and rare scarring have been reported with RF treatments in general.",
+   "wiki": true,
+   "risk": "low"
+  },
+  {
+   "name": "InMode Evolve",
+   "kind": "meta",
+   "category": "hardmaxx",
+   "aka": "Evolve Trim / Tone / Transform (InMode)",
+   "evidence": "limited",
+   "summary": "InMode Evolve is a hands-free, in-clinic body-contouring treatment that pairs radiofrequency with muscle stimulation to refine the look of the midsection, thighs and arms.",
+   "note": "Provider-operated; results are gradual and require a series of sessions.",
+   "wiki": true,
+   "risk": "moderate"
+  },
+  {
+   "name": "InMode Lumecca",
+   "kind": "meta",
+   "category": "hardmaxx",
+   "aka": "Lumecca IPL",
+   "evidence": "moderate",
+   "summary": "InMode Lumecca is an in-clinic IPL treatment that targets brown spots and redness for a clearer, more even complexion.",
+   "note": "Sun protection is usually advised; temporary darkening of spots is expected.",
+   "wiki": true,
+   "risk": "moderate"
+  },
+  {
    "name": "BodyTite",
    "kind": "meta",
    "category": "hardmaxx",
@@ -17146,6 +17540,17 @@ window.LM_WIKI = {
    "evidence": "limited",
    "summary": "Ultrasound-assisted liposuction used for body contouring and abs 'etching'; evidence is mostly surgeon case series plus a few small trials.",
    "note": "Surgical procedure; liposuction carries risks including infection, bleeding and embolism.",
+   "wiki": true,
+   "risk": "moderate"
+  },
+  {
+   "name": "SlimLipo",
+   "kind": "meta",
+   "category": "hardmaxx",
+   "aka": "laser lipolysis, laser-assisted liposuction",
+   "evidence": "limited",
+   "summary": "A laser lipolysis procedure that melts stubborn fat and tightens skin for a slimmer contour.",
+   "note": "Surgical procedure with general liposuction risks.",
    "wiki": true,
    "risk": "moderate"
   },
@@ -17255,6 +17660,28 @@ window.LM_WIKI = {
    "evidence": "limited",
    "summary": "A Cutera radiofrequency fat-reduction device with many small registered trials but few published results.",
    "note": "Outcome data for the specific device were not retrieved.",
+   "wiki": true,
+   "risk": "moderate"
+  },
+  {
+   "name": "Sculpsure",
+   "kind": "meta",
+   "category": "hardmaxx",
+   "aka": "Cynosure SculpSure",
+   "evidence": "moderate",
+   "summary": "A 1060 nm laser treatment that heats and disrupts fat under the skin to slim flanks, abdomen, thighs and the chin without surgery.",
+   "note": "Clinic-administered; results gradual over weeks.",
+   "wiki": true,
+   "risk": "moderate"
+  },
+  {
+   "name": "Vanquish ME",
+   "kind": "meta",
+   "category": "hardmaxx",
+   "aka": "BTL Vanquish ME",
+   "evidence": "limited",
+   "summary": "A hands-free radiofrequency device that heats fat to slim the abdomen and thighs over a short series of clinic sessions, with no contact or incisions.",
+   "note": "Results measured in small manufacturer-linked studies; clinic pricing varies.",
    "wiki": true,
    "risk": "moderate"
   },
@@ -17374,6 +17801,17 @@ window.LM_WIKI = {
    "evidence": "unproven",
    "summary": "Branded exfoliate-and-infuse facial with one small published study on hyperpigmentation.",
    "note": "Sources are very thin.",
+   "wiki": true,
+   "risk": "low"
+  },
+  {
+   "name": "Silkpeel",
+   "kind": "meta",
+   "category": "hardmaxx",
+   "aka": "SilkPeel, diamond-tip microdermabrasion",
+   "evidence": "limited",
+   "summary": "A diamond-tip exfoliating facial that polishes away dull outer skin for a smoother, brighter complexion.",
+   "note": "Results are temporary; sessions are repeated.",
    "wiki": true,
    "risk": "low"
   },
@@ -17529,6 +17967,28 @@ window.LM_WIKI = {
    "risk": "high"
   },
   {
+   "name": "Black peel (Chinese peel)",
+   "kind": "meta",
+   "category": "hardmaxx",
+   "aka": "Chinese peel",
+   "evidence": "limited",
+   "summary": "A clinic chemical peel that exfoliates the skin to reduce acne and even out pigmentation with light downtime.",
+   "note": "Chemical peels can cause redness, stinging and pigment changes; sun protection is advised.",
+   "wiki": true,
+   "risk": "moderate"
+  },
+  {
+   "name": "Perfect Derma peel",
+   "kind": "meta",
+   "category": "hardmaxx",
+   "aka": "The Perfect Peel",
+   "evidence": "limited",
+   "summary": "A branded medium-depth acid peel done by providers, aimed at evening skin tone, pigmentation, fine lines and acne scars.",
+   "note": "Medium-depth peels can cause pigment changes, prolonged redness or scarring; done by trained providers.",
+   "wiki": true,
+   "risk": "moderate"
+  },
+  {
    "name": "Chemical reconstruction of skin scars",
    "kind": "meta",
    "category": "hardmaxx",
@@ -17668,6 +18128,16 @@ window.LM_WIKI = {
    "risk": "low"
   },
   {
+   "name": "Nucleofill",
+   "kind": "meta",
+   "category": "hardmaxx",
+   "evidence": "unproven",
+   "summary": "Promoitalia's injectable polynucleotide skin booster, used by clinics to improve hydration, firmness and fine lines.",
+   "note": "Professional injectable; seller-reported contraindications include pregnancy and autoimmune disorders.",
+   "wiki": true,
+   "risk": "moderate"
+  },
+  {
    "name": "Exosome facial",
    "kind": "meta",
    "category": "hardmaxx",
@@ -17686,6 +18156,17 @@ window.LM_WIKI = {
    "evidence": "limited",
    "summary": "Handheld multi-injector for mesotherapy that delivers small intradermal doses of hyaluronic acid, vitamins or PRP; device-specific evidence is sparse.",
    "note": "Cosmetic mesotherapy has not been tested in standard clinical trials per Wikipedia; infection clusters have been reported.",
+   "wiki": true,
+   "risk": "moderate"
+  },
+  {
+   "name": "Mesoeye",
+   "kind": "meta",
+   "category": "hardmaxx",
+   "aka": "Mesoeye C71",
+   "evidence": "unproven",
+   "summary": "Under-eye mesotherapy injections aimed at brighter, fresher-looking eye contours.",
+   "note": "Injection procedure; bruising and infection are reported with mesotherapy.",
    "wiki": true,
    "risk": "moderate"
   },
@@ -17806,6 +18287,17 @@ window.LM_WIKI = {
    "evidence": "limited",
    "summary": "Surgical removal of bald scalp to shrink the bald area; an older hair-restoration adjunct with sparse modern evidence.",
    "note": "Surgical excision; sources reviewed are mostly older technique papers.",
+   "wiki": true,
+   "risk": "moderate"
+  },
+  {
+   "name": "Scalp flaps",
+   "kind": "meta",
+   "category": "hardmaxx",
+   "aka": "Scalp reconstruction flaps",
+   "evidence": "limited",
+   "summary": "Surgery that moves hair-bearing scalp skin over bald or scarred areas to restore coverage and a natural-looking hairline.",
+   "note": "Major surgery; usually done for reconstruction after injury or tumour removal.",
    "wiki": true,
    "risk": "moderate"
   },
@@ -18342,6 +18834,17 @@ window.LM_WIKI = {
    "outcome": "temporary"
   },
   {
+   "name": "Sun Bum",
+   "kind": "gear",
+   "category": "tanGear",
+   "aka": "Sun Bum Original, Baby Bum",
+   "evidence": "moderate",
+   "summary": "Surf-culture sunscreen brand whose SPF products protect skin from burning and help keep complexion even and youthful-looking.",
+   "note": "Sunscreen protection depends on applying enough and reapplying; label directions apply.",
+   "wiki": true,
+   "outcome": "durable"
+  },
+  {
    "name": "Boots Soltan / star rating",
    "kind": "gear",
    "category": "tanGear",
@@ -18562,6 +19065,28 @@ window.LM_WIKI = {
    "outcome": "durable"
   },
   {
+   "name": "Earlobe support patches",
+   "kind": "gear",
+   "category": "bodyCare",
+   "aka": "Lobe Wonder, Lobe Miracle, Earlift",
+   "evidence": "unproven",
+   "summary": "Clear adhesive discs behind the earlobe that support heavy earrings so a stretched piercing looks and feels tidier.",
+   "note": "Support only; they do not repair a torn or split lobe.",
+   "wiki": true,
+   "outcome": "temporary"
+  },
+  {
+   "name": "SkinPen",
+   "kind": "gear",
+   "category": "faceDevices",
+   "aka": "microneedling pen",
+   "evidence": "moderate",
+   "summary": "A clinician-used microneedling pen that makes tiny skin punctures to help smooth acne scars and texture.",
+   "note": "Use in non-clinical settings has been linked to infection reports.",
+   "wiki": true,
+   "outcome": "temporary"
+  },
+  {
    "name": "Dermastamp 0.5mm",
    "kind": "gear",
    "category": "faceDevices",
@@ -18571,6 +19096,17 @@ window.LM_WIKI = {
    "note": "Non-sterile or poorly handled needling carries infection risk; forum claims about fat loss or topical absorption are untested.",
    "wiki": true,
    "outcome": "unsupported"
+  },
+  {
+   "name": "Nanoneedle patches",
+   "kind": "gear",
+   "category": "faceDevices",
+   "aka": "Microneedle patches, micro-patches",
+   "evidence": "limited",
+   "summary": "Adhesive patches with dissolving micro-needles that deliver skincare actives into a spot, line or blemish.",
+   "note": "Skin reactions are possible; product claims vary by brand.",
+   "wiki": true,
+   "outcome": "temporary"
   },
   {
    "name": "Red light mask (Omnilux/CurrentBody)",
@@ -19281,6 +19817,30 @@ window.LM_WIKI = {
    "structure": "Abiraterone acetate"
   },
   {
+   "name": "Nilutamide",
+   "kind": "compound",
+   "category": "hair",
+   "aka": "Nilandron, Anandron",
+   "evidence": "limited",
+   "summary": "A prescription antiandrogen that blocks androgen receptors, the pathway behind pattern hair loss and oily skin.",
+   "note": "Prescription drug with a boxed warning for lung inflammation; approved only for prostate cancer.",
+   "wiki": true,
+   "status": "rx",
+   "structure": "Nilutamide"
+  },
+  {
+   "name": "Enzalutamide",
+   "kind": "compound",
+   "category": "hair",
+   "aka": "Xtandi, MDV3100",
+   "evidence": "strong",
+   "summary": "A potent prescription androgen receptor blocker for prostate cancer, mentioned among antiandrogens in hair and hormone discussions.",
+   "note": "Oncology drug with a strong effect on hormone signalling; not studied for cosmetic use.",
+   "wiki": true,
+   "status": "rx",
+   "structure": "Enzalutamide"
+  },
+  {
    "name": "Cimetidine",
    "kind": "compound",
    "category": "skin",
@@ -19621,6 +20181,18 @@ window.LM_WIKI = {
    "structure": "Sofpironium bromide"
   },
   {
+   "name": "Benzatropine",
+   "kind": "compound",
+   "category": "skin",
+   "aka": "Benztropine; Cogentin",
+   "evidence": "moderate",
+   "summary": "An anticholinergic prescription drug that relieves tremor, muscle spasms and drug-induced drooling, restoring steadier movement and expression.",
+   "note": "Prescription-only; anticholinergic effects include heat intolerance, confusion and urinary retention.",
+   "wiki": true,
+   "status": "rx",
+   "structure": "Benztropine"
+  },
+  {
    "name": "Zilpaterol (Zilmax)",
    "kind": "compound",
    "category": "fat",
@@ -19667,6 +20239,42 @@ window.LM_WIKI = {
    "wiki": true,
    "status": "rx",
    "structure": "Terbutaline"
+  },
+  {
+   "name": "Fenoterol",
+   "kind": "compound",
+   "category": "fat",
+   "aka": "Berotec, Berodual (with ipratropium)",
+   "evidence": "limited",
+   "summary": "A short-acting beta-2 agonist asthma medicine that some people discuss alongside clenbuterol for fat loss and a leaner look.",
+   "note": "Prescription bronchodilator; linked to heart-rate effects and to 1980s asthma-mortality studies.",
+   "wiki": true,
+   "status": "rx",
+   "structure": "Fenoterol"
+  },
+  {
+   "name": "Mabuterol",
+   "kind": "compound",
+   "category": "fat",
+   "aka": "Clenbuterol analogue",
+   "evidence": "limited",
+   "summary": "A clenbuterol-like beta-2 agonist bronchodilator that is discussed as an alternative for cutting body fat and getting leaner.",
+   "note": "Beta-agonists can cause palpitations and tremor; no fat-loss studies exist.",
+   "wiki": true,
+   "status": "research",
+   "structure": "Mabuterol"
+  },
+  {
+   "name": "Isoxsuprine",
+   "kind": "compound",
+   "category": "fat",
+   "aka": "Vasodilan, Duvadilan",
+   "evidence": "limited",
+   "summary": "Isoxsuprine is a beta-agonist vasodilator that people interested in leaner physiques discuss because of its beta-agonist class.",
+   "note": "Prescription vasodilator; can lower blood pressure and raise heart rate.",
+   "wiki": true,
+   "status": "rx",
+   "structure": "Isoxsuprine"
   },
   {
    "name": "Rimonabant (Acomplia)",
@@ -19833,6 +20441,18 @@ window.LM_WIKI = {
    "structure": "Pioglitazone"
   },
   {
+   "name": "Ulimorelin",
+   "kind": "compound",
+   "category": "fat",
+   "aka": "TZP-101",
+   "evidence": "moderate",
+   "summary": "An investigational gut-acting ghrelin receptor agonist, tested to speed digestion and feeding, followed by people interested in appetite and weight.",
+   "note": "Investigational; given by IV in trials and not approved.",
+   "wiki": true,
+   "status": "research",
+   "structure": "Ulimorelin"
+  },
+  {
    "name": "Anamorelin",
    "kind": "compound",
    "category": "muscle",
@@ -19912,6 +20532,26 @@ window.LM_WIKI = {
    "status": "research"
   },
   {
+   "name": "Dumorelin",
+   "kind": "compound",
+   "category": "muscle",
+   "evidence": "unproven",
+   "summary": "A GHRH-receptor peptide related to sermorelin and CJC-1295, discussed for growth hormone release and body composition.",
+   "note": "Sold as a research chemical; not an approved medicine.",
+   "wiki": true,
+   "status": "research"
+  },
+  {
+   "name": "Rismorelin",
+   "kind": "compound",
+   "category": "muscle",
+   "evidence": "unproven",
+   "summary": "A GHRH-analog peptide in the family used to prompt the body's own growth hormone release for leaner body composition and recovery.",
+   "note": "Very little published information is available on rismorelin specifically.",
+   "wiki": true,
+   "status": "research"
+  },
+  {
    "name": "Deslorelin",
    "kind": "compound",
    "category": "muscle",
@@ -19977,6 +20617,110 @@ window.LM_WIKI = {
    "note": "Injectable prescription product; nootropic use in healthy people is not studied.",
    "wiki": true,
    "status": "rx"
+  },
+  {
+   "name": "FOXO4-DRI",
+   "kind": "compound",
+   "category": "longevity",
+   "aka": "FOXO4-D-Retro-Inverso",
+   "evidence": "limited",
+   "summary": "A senolytic research peptide that clears aged senescent cells, followed by longevity-minded people for its potential effect on tissue ageing.",
+   "note": "Research compound with animal and cell data only; no published human trials.",
+   "wiki": true,
+   "status": "research"
+  },
+  {
+   "name": "Cyclic glycine-proline (cGP)",
+   "kind": "compound",
+   "category": "longevity",
+   "aka": "cGP, cyclo-Gly-Pro",
+   "evidence": "limited",
+   "summary": "An IGF-1-derived dipeptide supplement taken to support IGF-1 balance and healthy aging.",
+   "wiki": true,
+   "status": "otc",
+   "structure": "cyclo(Gly-Pro)"
+  },
+  {
+   "name": "Lunasin",
+   "kind": "compound",
+   "category": "skin",
+   "aka": "Soy lunasin",
+   "evidence": "limited",
+   "summary": "A soy-derived peptide supplement taken for inflammation and cardiometabolic support, which some users hope translates into healthier-looking skin and body.",
+   "note": "Human trials are few and small.",
+   "wiki": true,
+   "status": "otc"
+  },
+  {
+   "name": "Modimelanotide",
+   "kind": "compound",
+   "category": "pigment",
+   "aka": "AP-214, ABT-719, ZP-1480",
+   "evidence": "limited",
+   "summary": "Alpha-MSH analog in the pigmentation-pathway peptide family, developed for kidney injury.",
+   "note": "Investigational; development was abandoned.",
+   "wiki": true,
+   "status": "research"
+  },
+  {
+   "name": "Piracetam",
+   "kind": "compound",
+   "category": "recovery",
+   "aka": "Nootropil, Lucetam",
+   "evidence": "moderate",
+   "summary": "The original racetam nootropic, taken for focus and memory to support study, work and training routines.",
+   "note": "Not FDA-approved in the US; reduce intake with kidney impairment.",
+   "wiki": true,
+   "status": "rx",
+   "structure": "Piracetam"
+  },
+  {
+   "name": "Aniracetam",
+   "kind": "compound",
+   "category": "recovery",
+   "aka": "Ro 13-5057; Draganon; Ampamet",
+   "evidence": "limited",
+   "summary": "A racetam nootropic that people take for calm focus and easier social fluency, supporting a more confident, expressive presence.",
+   "note": "Not FDA-approved; available mainly as a supplement or research chemical.",
+   "wiki": true,
+   "status": "research",
+   "structure": "Aniracetam"
+  },
+  {
+   "name": "Oxiracetam",
+   "kind": "compound",
+   "category": "recovery",
+   "aka": "ISF 2522, CT-848",
+   "evidence": "moderate",
+   "summary": "A racetam nootropic used for focus and memory, which users fold into their performance and recovery routines.",
+   "note": "Prescription medicine in some countries; not FDA-approved in the US.",
+   "wiki": true,
+   "status": "rx",
+   "structure": "Oxiracetam"
+  },
+  {
+   "name": "Pramiracetam",
+   "kind": "compound",
+   "category": "recovery",
+   "aka": "Pramistar, Neupramir, Remen",
+   "evidence": "limited",
+   "summary": "A racetam nootropic taken orally for focus and memory, which people use to support study, work and consistent training.",
+   "note": "Not FDA-approved; prescription medicine in a few European countries.",
+   "wiki": true,
+   "status": "rx",
+   "structure": "Pramiracetam"
+  },
+  {
+   "name": "Phenylpiracetam (Phenotropil)",
+   "kind": "compound",
+   "category": "recovery",
+   "aka": "Fonturacetam, Phenotropil, Carphedon",
+   "evidence": "limited",
+   "summary": "A stimulant-leaning racetam used for energy, motivation and stamina to support training and long working days.",
+   "note": "Prohibited in competitive sport; unapproved in the US.",
+   "wiki": true,
+   "status": "rx",
+   "structure": "Phenylpiracetam"
   },
   {
    "name": "Noopept (Omberacetam)",
@@ -20231,7 +20975,7 @@ window.LM_WIKI = {
    "category": "skin",
    "aka": "MSM, dimethyl sulfone",
    "evidence": "limited",
-   "summary": "Sulfur supplement sold for skin, hair and joints; a few small skin trials, but evidence is weak overall.",
+   "summary": "Sulfur supplement sold for skin, hair and joints; a few small skin trials, with limited evidence overall.",
    "note": "Eye- and skin-lightening claims come from anecdote only.",
    "wiki": true,
    "status": "otc",
@@ -20418,6 +21162,15 @@ window.LM_WIKI = {
    "structure": "Ecdysterone"
   },
   {
+   "name": "Oplopanax elatus",
+   "kind": "compound",
+   "category": "recovery",
+   "evidence": "limited",
+   "summary": "A ginseng-family adaptogen herb used traditionally for stress resilience and recovery, supporting training and a healthier look.",
+   "wiki": true,
+   "status": "otc"
+  },
+  {
    "name": "Ganoderma lucidum (Reishi / Lingzhi)",
    "kind": "compound",
    "category": "recovery",
@@ -20554,6 +21307,17 @@ window.LM_WIKI = {
    "wiki": true,
    "status": "rx",
    "structure": "Alanyl-glutamine"
+  },
+  {
+   "name": "L-Arginine ethyl ester",
+   "kind": "compound",
+   "category": "muscle",
+   "aka": "AEE, arginine ethyl ester",
+   "evidence": "unproven",
+   "summary": "An ethyl ester form of arginine sold in pump supplements for fuller-looking muscles during training.",
+   "wiki": true,
+   "status": "otc",
+   "structure": "Arginine ethyl ester"
   },
   {
    "name": "Glutamine",
@@ -20712,7 +21476,7 @@ window.LM_WIKI = {
    "category": "recovery",
    "aka": "Tryptophan, Trp",
    "evidence": "limited",
-   "summary": "An essential amino acid sold for sleep and mood; evidence is weak and a 1989 contamination outbreak shaped its regulation.",
+   "summary": "An essential amino acid sold for sleep and mood; evidence is limited and a 1989 contamination outbreak shaped its regulation.",
    "note": "Serotonin syndrome risk with SSRIs/MAOIs; 1989 EMS outbreak linked to contaminated batches.",
    "wiki": true,
    "status": "otc",
@@ -21054,6 +21818,18 @@ window.LM_WIKI = {
    "status": "rx"
   },
   {
+   "name": "Hydroxyprogesterone caproate",
+   "kind": "compound",
+   "category": "muscle",
+   "aka": "17-OHPC, 17P, Makena, Delalutin, Proluton",
+   "evidence": "moderate",
+   "summary": "A long-acting injectable progestin used in hormone-related care, from gynecology to feminizing hormone therapy, where progestogens are part of how some people shape their body's hormonal profile.",
+   "note": "Prescription drug; its US approval for preterm birth was withdrawn in 2023.",
+   "wiki": true,
+   "status": "rx",
+   "structure": "Hydroxyprogesterone caproate"
+  },
+  {
    "name": "Medroxyprogesterone acetate",
    "kind": "compound",
    "category": "muscle",
@@ -21090,6 +21866,30 @@ window.LM_WIKI = {
    "structure": "Cyproheptadine"
   },
   {
+   "name": "Hexoprenaline",
+   "kind": "compound",
+   "category": "fat",
+   "aka": "Gynipral, Ipradol",
+   "evidence": "limited",
+   "summary": "A beta-2 agonist medicine for asthma and labour suppression, in the same class as fat-loss stimulants like clenbuterol.",
+   "note": "Prescription-only; cardiovascular effects possible; not FDA-approved.",
+   "wiki": true,
+   "status": "rx",
+   "structure": "Hexoprenaline"
+  },
+  {
+   "name": "Tulobuterol",
+   "kind": "compound",
+   "category": "fat",
+   "aka": "Hokunalin Tape, Bretol",
+   "evidence": "limited",
+   "summary": "A once-daily beta-2 agonist skin patch approved in Japan for asthma, discussed in fat-loss circles as a gentler cousin of clenbuterol-type compounds.",
+   "note": "Prescription bronchodilator; beta agonists can cause tremor and palpitations.",
+   "wiki": true,
+   "status": "rx",
+   "structure": "Tulobuterol"
+  },
+  {
    "name": "Methylphenidate",
    "kind": "compound",
    "category": "fat",
@@ -21124,6 +21924,112 @@ window.LM_WIKI = {
    "wiki": true,
    "status": "rx",
    "structure": "Lisdexamfetamine"
+  },
+  {
+   "name": "Atomoxetine",
+   "kind": "compound",
+   "category": "recovery",
+   "aka": "Strattera",
+   "evidence": "strong",
+   "summary": "A non-stimulant ADHD medication that supports steady focus and consistency with the habits behind a better physique and grooming.",
+   "note": "Prescription-only; carries an FDA boxed warning about suicidal thoughts in children and adolescents.",
+   "wiki": true,
+   "status": "rx",
+   "structure": "Atomoxetine"
+  },
+  {
+   "name": "Amantadine",
+   "kind": "compound",
+   "category": "recovery",
+   "aka": "Symmetrel, Gocovri, Osmolex ER",
+   "evidence": "moderate",
+   "summary": "A prescription dopamine-boosting drug used for Parkinson's and brain-injury recovery and discussed for fatigue and drive.",
+   "note": "Prescription drug; overdose deaths reported.",
+   "wiki": true,
+   "status": "rx",
+   "structure": "Amantadine"
+  },
+  {
+   "name": "Selegiline",
+   "kind": "compound",
+   "category": "recovery",
+   "aka": "Deprenyl, L-deprenyl, Eldepryl, Emsam",
+   "evidence": "moderate",
+   "summary": "A prescription MAO-B inhibitor that raises brain dopamine; some people use it for mood, drive and recovery, and it is also discussed as a nootropic.",
+   "note": "Prescription drug; MAO inhibition carries serious drug and food interaction cautions.",
+   "wiki": true,
+   "status": "rx",
+   "structure": "Selegiline"
+  },
+  {
+   "name": "Galantamine",
+   "kind": "compound",
+   "category": "recovery",
+   "aka": "Razadyne, Reminyl",
+   "evidence": "moderate",
+   "summary": "A snowdrop-derived cholinesterase inhibitor that nootropic and dream communities use for cognition and vivid or lucid dreams.",
+   "note": "Prescription drug; nausea, GI bleeding and liver injury are among reported risks.",
+   "wiki": true,
+   "status": "rx",
+   "structure": "Galantamine"
+  },
+  {
+   "name": "Donepezil",
+   "kind": "compound",
+   "category": "recovery",
+   "evidence": "moderate",
+   "summary": "A prescription Alzheimer's drug that raises acetylcholine, discussed by some forum members as a memory and focus aid.",
+   "note": "Prescription only; can slow heart rate and cause GI effects.",
+   "wiki": true,
+   "status": "rx",
+   "structure": "Donepezil"
+  },
+  {
+   "name": "Rolipram",
+   "kind": "compound",
+   "category": "recovery",
+   "aka": "Rolipram (investigational)",
+   "evidence": "limited",
+   "summary": "A PDE4 inhibitor studied for inflammation and cognition, discussed by some for recovery, mood and memory that support training and appearance.",
+   "note": "Investigational only; gastrointestinal side effects limited dosing in trials.",
+   "wiki": true,
+   "status": "research",
+   "structure": "Rolipram"
+  },
+  {
+   "name": "Ampakines (CX717 etc.)",
+   "kind": "compound",
+   "category": "recovery",
+   "aka": "CX516, CX717, CX1739, farampator",
+   "evidence": "limited",
+   "summary": "Experimental AMPA-receptor boosters studied for memory, attention and alertness.",
+   "note": "Investigational; not approved anywhere.",
+   "wiki": true,
+   "status": "research"
+  },
+  {
+   "name": "IDRA-21",
+   "kind": "compound",
+   "category": "recovery",
+   "aka": "7-chloro-3-methyl-3,4-dihydro-2H-1,2,4-benzothiadiazine S,S-dioxide",
+   "evidence": "limited",
+   "summary": "A research AMPA-receptor modulator studied in animals for memory and learning, which is why it appears in nootropic circles aiming for sharper focus and recall.",
+   "note": "Research chemical with no human trials; animal work reports increased neuron injury after ischemia.",
+   "wiki": true,
+   "status": "research",
+   "structure": "IDRA-21"
+  },
+  {
+   "name": "Tropoflavin",
+   "kind": "compound",
+   "category": "recovery",
+   "aka": "7,8-DHF, 7,8-dihydroxyflavone",
+   "evidence": "limited",
+   "summary": "A plant-derived flavone sold as a supplement that mimics BDNF at the TrkB receptor, used by people aiming for better mood, recovery and consistency.",
+   "note": "Research is mostly animal and cell studies.",
+   "wiki": true,
+   "status": "otc",
+   "structure": "7,8-Dihydroxyflavone"
   },
   {
    "name": "Quinine skin bleaching",
@@ -21374,6 +22280,17 @@ window.LM_WIKI = {
    "status": "research"
   },
   {
+   "name": "Cartalax",
+   "kind": "compound",
+   "category": "recovery",
+   "aka": "AED, T-31, Ala-Glu-Asp",
+   "evidence": "unproven",
+   "summary": "A Russian-developed three-amino-acid peptide used in the hope of supporting cartilage and joints so people can keep training and looking youthful.",
+   "note": "Research is limited to cell and animal studies.",
+   "wiki": true,
+   "status": "research"
+  },
+  {
    "name": "Cortagen",
    "kind": "compound",
    "category": "longevity",
@@ -21425,6 +22342,17 @@ window.LM_WIKI = {
    "evidence": "unproven",
    "summary": "A four-amino-acid \"bioregulator\" peptide pitched for testosterone support, with no human evidence behind it.",
    "note": "No human studies; sold as research chemical.",
+   "wiki": true,
+   "status": "research"
+  },
+  {
+   "name": "Vesilute",
+   "kind": "compound",
+   "category": "longevity",
+   "aka": "ED dipeptide",
+   "evidence": "unproven",
+   "summary": "A Glu-Asp dipeptide bioregulator that proponents use for bladder and urinary wellness as part of a longevity routine.",
+   "note": "Sold mainly as a research peptide; published human data is limited.",
    "wiki": true,
    "status": "research"
   },
@@ -21656,6 +22584,50 @@ window.LM_WIKI = {
    "status": "research"
   },
   {
+   "name": "Agouti-related peptide",
+   "kind": "compound",
+   "category": "fat",
+   "aka": "AgRP, agouti-related protein",
+   "evidence": "moderate",
+   "summary": "The brain's own hunger-driving peptide that blocks satiety receptors; studied as a lever for appetite and body-fat control.",
+   "note": "Endogenous signal; not a product.",
+   "wiki": true,
+   "status": "research"
+  },
+  {
+   "name": "Atumelnant",
+   "kind": "compound",
+   "category": "fat",
+   "aka": "CRN04894",
+   "evidence": "limited",
+   "summary": "An investigational oral ACTH-pathway blocker that sharply lowers adrenal androgens in CAH, relevant to androgen-driven skin and hair changes.",
+   "note": "Investigational; in phase 3 trials and not available outside studies.",
+   "wiki": true,
+   "status": "research"
+  },
+  {
+   "name": "Tetracosactide",
+   "kind": "compound",
+   "category": "recovery",
+   "aka": "Cosyntropin, ACTH 1-24, Synacthen, Cortrosyn",
+   "evidence": "strong",
+   "summary": "Synthetic ACTH fragment used to test adrenal function, informing cortisol-related energy and body composition.",
+   "note": "Prescription diagnostic injection given by clinicians.",
+   "wiki": true,
+   "status": "rx"
+  },
+  {
+   "name": "Adrenocorticotropic hormone (ACTH)",
+   "kind": "compound",
+   "category": "recovery",
+   "aka": "Corticotropin, Acthar Gel, cosyntropin",
+   "evidence": "limited",
+   "summary": "The pituitary hormone that sets cortisol output and sits in the same family as the skin-darkening melanocortins; given by prescription as corticotropin.",
+   "note": "Prescription injectable; raises cortisol.",
+   "wiki": true,
+   "status": "rx"
+  },
+  {
    "name": "S-23",
    "kind": "compound",
    "category": "muscle",
@@ -21871,6 +22843,16 @@ window.LM_WIKI = {
    "evidence": "unproven",
    "summary": "A Johnson & Johnson SARM tested only in rats for prostate cancer; never given to humans.",
    "note": "Preclinical only; no human data exist.",
+   "wiki": true,
+   "status": "research"
+  },
+  {
+   "name": "EM-9017",
+   "kind": "compound",
+   "category": "muscle",
+   "evidence": "unproven",
+   "summary": "A steroidal SARM from Endorecherche patents, described in rats as supporting muscle while inhibiting prostate tissue.",
+   "note": "Preclinical only; no human data and not approved.",
    "wiki": true,
    "status": "research"
   },
@@ -22275,6 +23257,17 @@ window.LM_WIKI = {
    "status": "research"
   },
   {
+   "name": "Emugrobart",
+   "kind": "compound",
+   "category": "muscle",
+   "aka": "GYM329, RG6237, RO7204239",
+   "evidence": "limited",
+   "summary": "An anti-myostatin antibody from Chugai/Roche tested to build or preserve muscle, including alongside weight-loss drugs.",
+   "note": "Investigational only; Roche ended development in FSHD, SMA and obesity in 2026.",
+   "wiki": true,
+   "status": "rx"
+  },
+  {
    "name": "ACE-031",
    "kind": "compound",
    "category": "muscle",
@@ -22293,6 +23286,17 @@ window.LM_WIKI = {
    "evidence": "unproven",
    "summary": "A discontinued Wyeth antibody that blocks myostatin; tested in muscular dystrophy, never approved or studied for physique.",
    "note": "Development abandoned in 2008; not available.",
+   "wiki": true,
+   "status": "research"
+  },
+  {
+   "name": "JA-16",
+   "kind": "compound",
+   "category": "muscle",
+   "aka": "JA16",
+   "evidence": "limited",
+   "summary": "JA-16 is an experimental anti-myostatin antibody studied in animals as a way to increase muscle mass.",
+   "note": "Research-only antibody; not an approved medicine.",
    "wiki": true,
    "status": "research"
   },
@@ -22397,7 +23401,7 @@ window.LM_WIKI = {
    "category": "recovery",
    "aka": "Vasoactive intestinal polypeptide",
    "evidence": "unproven",
-   "summary": "A natural vasodilating neuropeptide sold as a research peptide, with no human evidence for any appearance use.",
+   "summary": "A natural vasodilating neuropeptide sold as a research peptide, with human appearance use not yet studied.",
    "note": "Human studies are small physiology or headache-provocation trials; not studied for appearance.",
    "wiki": true,
    "status": "research"
@@ -22542,6 +23546,17 @@ window.LM_WIKI = {
    "status": "research"
   },
   {
+   "name": "Erythroferrone",
+   "kind": "compound",
+   "category": "longevity",
+   "aka": "ERFE, myonectin, CTRP15",
+   "evidence": "limited",
+   "summary": "The hormone red blood cell precursors release to lower hepcidin and free up iron, supporting oxygen delivery and recovery.",
+   "note": "A biomarker and research subject, not a product.",
+   "wiki": true,
+   "status": "research"
+  },
+  {
    "name": "Limostatin",
    "kind": "compound",
    "category": "fat",
@@ -22659,6 +23674,17 @@ window.LM_WIKI = {
    "evidence": "unproven",
    "summary": "Acetylated, amidated Semax analog sold as a research chemical; no direct studies.",
    "note": "No direct studies; not approved.",
+   "wiki": true,
+   "status": "research"
+  },
+  {
+   "name": "P21",
+   "kind": "compound",
+   "category": "longevity",
+   "aka": "P021, CNTF peptide mimetic",
+   "evidence": "limited",
+   "summary": "A CNTF-derived nootropic peptide studied in mice for memory and neurogenesis and used by enthusiasts for focus.",
+   "note": "Research compound; studied in animals, not an approved medicine. Not the same as the p21 cell-cycle protein.",
    "wiki": true,
    "status": "research"
   },
@@ -22801,6 +23827,49 @@ window.LM_WIKI = {
    "note": "EGF signaling is studied in cancer biology; cosmetic safety is untested.",
    "wiki": true,
    "status": "otc"
+  },
+  {
+   "name": "Tri-Heal Max Protocol",
+   "kind": "compound",
+   "category": "recovery",
+   "evidence": "unproven",
+   "summary": "A vendor three-peptide blend that users take to speed recovery from injuries and training.",
+   "note": "Unapproved research-chemical product; contents vary by vendor.",
+   "wiki": true,
+   "status": "research"
+  },
+  {
+   "name": "Glow Protocol",
+   "kind": "compound",
+   "category": "skin",
+   "aka": "GLOW blend, Glow stack",
+   "evidence": "unproven",
+   "summary": "A vendor blend of GHK-Cu, BPC-157 and TB-500 that people use hoping for firmer, brighter-looking skin.",
+   "note": "Sold as research use only; not FDA-approved; contents vary by vendor.",
+   "wiki": true,
+   "status": "research"
+  },
+  {
+   "name": "KLOW Protocol",
+   "kind": "compound",
+   "category": "skin",
+   "aka": "KLOW stack, KLOW blend",
+   "evidence": "unproven",
+   "summary": "A GHK-Cu, BPC-157, TB-500 and KPV peptide blend that people use hoping for clearer skin, hair support and faster recovery.",
+   "note": "Not an approved drug; no human trials of the combination cited.",
+   "wiki": true,
+   "status": "research"
+  },
+  {
+   "name": "IllumiNeuro Protocol",
+   "kind": "compound",
+   "category": "longevity",
+   "aka": "IllumiNeuro",
+   "evidence": "unproven",
+   "summary": "A vendor-sold four-peptide nootropic blend marketed for memory, focus and stress resilience, aimed at sharper mental performance.",
+   "note": "Research-labeled product; no clinical studies of the combination and contents vary by seller.",
+   "wiki": true,
+   "status": "research"
   },
   {
    "name": "CJC/IPA Protocol",
@@ -23298,6 +24367,18 @@ window.LM_WIKI = {
    "structure": "Padimate A"
   },
   {
+   "name": "Dibenzylideneacetone",
+   "kind": "compound",
+   "category": "skin",
+   "aka": "dba, dibenzalacetone",
+   "evidence": "unproven",
+   "summary": "A yellow light-absorbing laboratory chemical sometimes grouped with UV-absorbing compounds, though not used in sunscreens.",
+   "note": "Research chemical; no skin or sunscreen use has been studied.",
+   "wiki": true,
+   "status": "research",
+   "structure": "Dibenzylideneacetone"
+  },
+  {
    "name": "Benzophenone-9",
    "kind": "compound",
    "category": "skin",
@@ -23353,6 +24434,54 @@ window.LM_WIKI = {
    "wiki": true,
    "status": "rx",
    "structure": "Alitretinoin"
+  },
+  {
+   "name": "Bexarotene",
+   "kind": "compound",
+   "category": "skin",
+   "aka": "Targretin, LGD-1069",
+   "evidence": "strong",
+   "summary": "A prescription RXR-selective retinoid that improves skin lesions in cutaneous T-cell lymphoma.",
+   "note": "Boxed warning for birth defects; raises lipids and can cause hypothyroidism.",
+   "wiki": true,
+   "status": "rx",
+   "structure": "Bexarotene"
+  },
+  {
+   "name": "Tamibarotene",
+   "kind": "compound",
+   "category": "skin",
+   "aka": "Am80, Amnolake, retinobenzoic acid, SY-1425",
+   "evidence": "limited",
+   "summary": "Synthetic RAR-alpha/beta retinoid approved in Japan for leukemia, discussed in skin circles as a retinoid-class compound.",
+   "note": "Prescription-only drug with retinoid-type side effects such as raised blood lipids.",
+   "wiki": true,
+   "status": "rx",
+   "structure": "Tamibarotene"
+  },
+  {
+   "name": "Palovarotene",
+   "kind": "compound",
+   "category": "skin",
+   "aka": "Sohonos",
+   "evidence": "moderate",
+   "summary": "An oral selective retinoid that limits abnormal bone growth in soft tissue in FOP, helping preserve mobility and body shape.",
+   "note": "Prescription-only rare-disease drug with boxed warnings for pregnancy and children's growth plates.",
+   "wiki": true,
+   "status": "rx",
+   "structure": "Palovarotene"
+  },
+  {
+   "name": "Fenretinide",
+   "kind": "compound",
+   "category": "skin",
+   "aka": "4-HPR, N-(4-hydroxyphenyl)retinamide",
+   "evidence": "limited",
+   "summary": "A synthetic vitamin A derivative studied for cancer prevention and eye disease, mentioned as a retinoid relative of skin-care retinoids.",
+   "note": "Investigational; no skin or cosmetic trials.",
+   "wiki": true,
+   "status": "research",
+   "structure": "Fenretinide"
   },
   {
    "name": "Seletinoid G",
@@ -23600,6 +24729,17 @@ window.LM_WIKI = {
    "status": "otc"
   },
   {
+   "name": "Palmitoyl pentapeptide-17",
+   "kind": "compound",
+   "category": "skin",
+   "aka": "Myristoyl pentapeptide-17 (lash/brow grade)",
+   "evidence": "unproven",
+   "summary": "A cosmetic peptide in lash and brow serums, marketed to support keratin and follicle activity for longer, fuller-looking lashes and brows.",
+   "note": "Sold as a cosmetic ingredient; supplier claims are not backed by published human trials.",
+   "wiki": true,
+   "status": "otc"
+  },
+  {
    "name": "Palmitoyl hexapeptide-12",
    "kind": "compound",
    "category": "skin",
@@ -23621,6 +24761,16 @@ window.LM_WIKI = {
    "status": "otc"
   },
   {
+   "name": "Copper palmitoyl heptapeptide-14",
+   "kind": "compound",
+   "category": "skin",
+   "aka": "Lipospondin",
+   "evidence": "unproven",
+   "summary": "A copper-bound lipopeptide added to serums to make skin look firmer and smoother.",
+   "wiki": true,
+   "status": "otc"
+  },
+  {
    "name": "Manganese tripeptide-1",
    "kind": "compound",
    "category": "skin",
@@ -23637,6 +24787,16 @@ window.LM_WIKI = {
    "evidence": "limited",
    "summary": "A cosmetic peptide marketed for oil control, with one small 2024 delivery study as its published evidence.",
    "note": "Little published under this name.",
+   "wiki": true,
+   "status": "otc"
+  },
+  {
+   "name": "Tripeptide-29",
+   "kind": "compound",
+   "category": "skin",
+   "aka": "Collagen peptide, Gly-Pro-Hyp",
+   "evidence": "limited",
+   "summary": "A collagen-fragment peptide in firming creams that people use to make skin look firmer and smoother.",
    "wiki": true,
    "status": "otc"
   },
@@ -23717,6 +24877,16 @@ window.LM_WIKI = {
    "status": "otc"
   },
   {
+   "name": "Nonapeptide-1",
+   "kind": "compound",
+   "category": "skin",
+   "aka": "Melanostatine",
+   "evidence": "limited",
+   "summary": "A nine-amino-acid peptide (Melanostatine) used in serums to dial down pigment signals for a brighter, more even skin tone.",
+   "wiki": true,
+   "status": "otc"
+  },
+  {
    "name": "Oligopeptide-68",
    "kind": "compound",
    "category": "skin",
@@ -23728,6 +24898,15 @@ window.LM_WIKI = {
    "status": "otc"
   },
   {
+   "name": "Oligopeptide-34",
+   "kind": "compound",
+   "category": "skin",
+   "evidence": "unproven",
+   "summary": "A 13-amino-acid cosmetic peptide used in serums to reduce melanin production and brighten the look of dark spots.",
+   "wiki": true,
+   "status": "otc"
+  },
+  {
    "name": "Tetrapeptide-21",
    "kind": "compound",
    "category": "skin",
@@ -23735,6 +24914,27 @@ window.LM_WIKI = {
    "evidence": "unproven",
    "summary": "A four-amino-acid (GEKG) matrix-supporting cosmetic peptide; research so far is on skin delivery and cell-culture effects, not human trials.",
    "note": "No published human efficacy trial in the available literature.",
+   "wiki": true,
+   "status": "otc"
+  },
+  {
+   "name": "Dipeptide-2",
+   "kind": "compound",
+   "category": "skin",
+   "aka": "Eyeliss component",
+   "evidence": "limited",
+   "summary": "A valine-tryptophan peptide in eye creams that is said to boost lymphatic drainage and reduce under-eye puffiness.",
+   "note": "Evidence is a small manufacturer study of a three-ingredient complex.",
+   "wiki": true,
+   "status": "otc"
+  },
+  {
+   "name": "Tetrapeptide-5",
+   "kind": "compound",
+   "category": "skin",
+   "aka": "Acetyl tetrapeptide-5",
+   "evidence": "limited",
+   "summary": "A short cosmetic peptide in eye creams that people use to make puffy under-eyes look smoother and less swollen.",
    "wiki": true,
    "status": "otc"
   },
@@ -23864,6 +25064,18 @@ window.LM_WIKI = {
    "structure": "Licochalcone A"
   },
   {
+   "name": "Paeonol",
+   "kind": "compound",
+   "category": "pigment",
+   "aka": "2-hydroxy-4-methoxyacetophenone, peony root bark extract",
+   "evidence": "limited",
+   "summary": "A peony-derived phenolic compound explored for skin-tone evening and anti-inflammatory benefits.",
+   "note": "Most research is in cells and animals.",
+   "wiki": true,
+   "status": "otc",
+   "structure": "Paeonol"
+  },
+  {
    "name": "Chitosan",
    "kind": "compound",
    "category": "pigment",
@@ -23953,6 +25165,16 @@ window.LM_WIKI = {
    "status": "research"
   },
   {
+   "name": "Cashew nut oil lightening",
+   "kind": "compound",
+   "category": "pigment",
+   "evidence": "unproven",
+   "summary": "A folk practice of applying cashew-derived oil to skin hoping to lighten tone; the oil is a known irritant.",
+   "note": "Cashew shell oil can burn skin and cause contact dermatitis.",
+   "wiki": true,
+   "status": "otc"
+  },
+  {
    "name": "Pearl extract",
    "kind": "compound",
    "category": "pigment",
@@ -24033,6 +25255,18 @@ window.LM_WIKI = {
    "status": "otc"
   },
   {
+   "name": "Betaine salicylate",
+   "kind": "compound",
+   "category": "skin",
+   "aka": "Salicylic acid betaine salt",
+   "evidence": "unproven",
+   "summary": "A gentler salicylic acid derivative used in toners to exfoliate and keep pores clear.",
+   "note": "Few studies on this specific compound in skincare.",
+   "wiki": true,
+   "status": "otc",
+   "structure": "Betaine salicylate"
+  },
+  {
    "name": "Willow bark extract",
    "kind": "compound",
    "category": "skin",
@@ -24054,6 +25288,17 @@ window.LM_WIKI = {
    "note": "Contact allergy to birch sap has been reported in case literature.",
    "wiki": true,
    "status": "otc"
+  },
+  {
+   "name": "SAMMA",
+   "kind": "compound",
+   "category": "skin",
+   "aka": "Mandelic acid condensation polymer",
+   "evidence": "limited",
+   "summary": "A mandelic acid polymer studied as an antiviral microbicide, related to the mandelic acid used in skin-texture peels.",
+   "note": "Laboratory-stage compound, not a skincare product.",
+   "wiki": true,
+   "status": "research"
   },
   {
    "name": "Erythromycin topical",
@@ -24099,6 +25344,18 @@ window.LM_WIKI = {
    "note": "Evidence rests on one small open-label study and one small comparative trial.",
    "wiki": true,
    "status": "research"
+  },
+  {
+   "name": "Xylometazoline",
+   "kind": "compound",
+   "category": "skin",
+   "aka": "Otrivin, Otrivine, Otriven",
+   "evidence": "moderate",
+   "summary": "A nasal decongestant that constricts blood vessels to open the airway; the vasoconstriction is also why it comes up for redness.",
+   "note": "Labeled for short use; extended use can cause rebound congestion.",
+   "wiki": true,
+   "status": "otc",
+   "structure": "Xylometazoline"
   },
   {
    "name": "Cimetidine for acne",
@@ -24172,6 +25429,29 @@ window.LM_WIKI = {
    "structure": "Roflumilast"
   },
   {
+   "name": "Berdazimer gel",
+   "kind": "compound",
+   "category": "skin",
+   "aka": "Zelsuvmi, SB206",
+   "evidence": "strong",
+   "summary": "A prescription nitric oxide gel that clears molluscum bumps, leaving smoother skin.",
+   "note": "Prescription only; local burning and itching are common.",
+   "wiki": true,
+   "status": "rx"
+  },
+  {
+   "name": "Cantharidin solution",
+   "kind": "compound",
+   "category": "skin",
+   "aka": "Ycanth, VP-102",
+   "evidence": "moderate",
+   "summary": "A clinician-applied blistering solution that lifts off molluscum bumps and warts for clearer skin.",
+   "note": "Can cause blisters and chemical burns; toxic if swallowed.",
+   "wiki": true,
+   "status": "rx",
+   "structure": "Cantharidin"
+  },
+  {
    "name": "Sofpironium",
    "kind": "compound",
    "category": "skin",
@@ -24182,6 +25462,18 @@ window.LM_WIKI = {
    "wiki": true,
    "status": "rx",
    "structure": "Sofpironium bromide"
+  },
+  {
+   "name": "Delgocitinib",
+   "kind": "compound",
+   "category": "skin",
+   "aka": "Anzupgo, Corectim",
+   "evidence": "strong",
+   "summary": "A prescription topical JAK-inhibitor cream that calms chronic hand eczema, leaving hands smoother and less red and cracked.",
+   "note": "Prescription only; label warns of infections and non-melanoma skin cancers.",
+   "wiki": true,
+   "status": "rx",
+   "structure": "Delgocitinib"
   },
   {
    "name": "Dexpanthenol",
@@ -24239,6 +25531,16 @@ window.LM_WIKI = {
    "note": "Coal tars are IARC Group 1 carcinogens; the EU forbids coal tar in cosmetics per Wikipedia.",
    "wiki": true,
    "status": "otc"
+  },
+  {
+   "name": "Propanediol caprylate",
+   "kind": "compound",
+   "category": "skin",
+   "evidence": "limited",
+   "summary": "A cosmetic ester used in anti-dandruff scalp products to act against flake-linked Malassezia yeast.",
+   "wiki": true,
+   "status": "otc",
+   "structure": "1,2-Propanediol caprylate"
   },
   {
    "name": "Glycerin",
@@ -24612,6 +25914,17 @@ window.LM_WIKI = {
    "status": "otc"
   },
   {
+   "name": "Grain ferment extract",
+   "kind": "compound",
+   "category": "skin",
+   "aka": "Rice ferment, barley ferment, wheat ferment filtrate",
+   "evidence": "unproven",
+   "summary": "A fermented-cereal skincare ingredient used in toners and essences for smoother, more hydrated-looking skin.",
+   "note": "People with grain allergies may react to grain-derived ingredients.",
+   "wiki": true,
+   "status": "otc"
+  },
+  {
    "name": "Kombucha ferment",
    "kind": "compound",
    "category": "skin",
@@ -24706,6 +26019,16 @@ window.LM_WIKI = {
    "evidence": "unproven",
    "summary": "Japanese camellia botanical used in some cosmetics, with one mouse study and no human data.",
    "note": "Only animal and patent material found.",
+   "wiki": true,
+   "status": "otc"
+  },
+  {
+   "name": "Cassia obtusifolia seed extract",
+   "kind": "compound",
+   "category": "skin",
+   "aka": "Jue ming zi, sicklepod seed",
+   "evidence": "unproven",
+   "summary": "A soothing botanical seed extract from sicklepod, used in skincare to leave skin looking calmer.",
    "wiki": true,
    "status": "otc"
   },
@@ -25030,6 +26353,17 @@ window.LM_WIKI = {
    "status": "otc"
   },
   {
+   "name": "TGF-beta growth factor serums",
+   "kind": "compound",
+   "category": "skin",
+   "aka": "Growth factor serum",
+   "evidence": "limited",
+   "summary": "Topical serums containing TGF-beta and other growth factors that people use to make skin look firmer and smoother.",
+   "note": "Sold as cosmetics; claims are not pre-approved by regulators.",
+   "wiki": true,
+   "status": "otc"
+  },
+  {
    "name": "Anagain",
    "kind": "compound",
    "category": "hair",
@@ -25109,6 +26443,17 @@ window.LM_WIKI = {
    "wiki": true,
    "status": "research",
    "structure": "Quercitrin"
+  },
+  {
+   "name": "Marah plant extract",
+   "kind": "compound",
+   "category": "hair",
+   "aka": "Manroot, wild cucumber extract",
+   "evidence": "unproven",
+   "summary": "Manroot plant extract used topically in traditional style for the scalp and hair growth.",
+   "note": "Some Marah species are reported toxic if eaten.",
+   "wiki": true,
+   "status": "otc"
   },
   {
    "name": "Horsetail extract",
@@ -25214,6 +26559,18 @@ window.LM_WIKI = {
    "status": "otc"
   },
   {
+   "name": "Menthol scalp",
+   "kind": "compound",
+   "category": "hair",
+   "aka": "Peppermint-menthol scalp tonic",
+   "evidence": "limited",
+   "summary": "Cooling mint compound used in scalp serums and tonics for a fresh, soothed-feeling scalp.",
+   "note": "Can irritate skin and eyes.",
+   "wiki": true,
+   "status": "otc",
+   "structure": "Menthol"
+  },
+  {
    "name": "Sarcosine (hair)",
    "kind": "compound",
    "category": "hair",
@@ -25237,12 +26594,33 @@ window.LM_WIKI = {
    "status": "otc"
   },
   {
+   "name": "Hydroxypropyl gluconamide",
+   "kind": "compound",
+   "category": "hair",
+   "aka": "Hydroxypropylgluconamide, Fiberhance BM (with hydroxypropylammonium gluconate)",
+   "evidence": "limited",
+   "summary": "A glucose-derived hair ingredient used in bond-repair and strengthening treatments to help damaged, bleached or colored hair look and feel stronger and smoother.",
+   "note": "Usually sold as a blend; supplier claims are the main published description.",
+   "wiki": true,
+   "status": "otc"
+  },
+  {
    "name": "Hydroxypropyl ammonium gluconate",
    "kind": "compound",
    "category": "hair",
    "evidence": "unproven",
    "summary": "A gluconate humectant paired with a gluconamide in bond-building hair products; only crystal-chemistry research exists.",
    "note": "No human studies found.",
+   "wiki": true,
+   "status": "otc"
+  },
+  {
+   "name": "K18 peptide",
+   "kind": "compound",
+   "category": "hair",
+   "aka": "K18 Leave-In Molecular Repair Hair Mask, K18Hair",
+   "evidence": "unproven",
+   "summary": "A branded keratin-mimicking peptide leave-in mask used to make bleached or heat-damaged hair look and feel stronger, smoother and shinier.",
    "wiki": true,
    "status": "otc"
   },

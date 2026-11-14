@@ -23,6 +23,16 @@ try { for (const f of readdirSync(join(root, 'research', 'neutral')).filter((f) 
 const first = {};
 for (const f of readdirSync(join(root, 'research')).filter((f) => /^\d\d-.*\.json$/.test(f))) Object.assign(first, readJSON(join(root, 'research', f)) || {});
 
+// Looksmax angle (research/angles/out/*.json): why each entry matters for appearance — shown at the top of every article.
+const ANGLES = {};
+try { for (const f of readdirSync(join(root, 'research', 'angles', 'out')).filter((f) => f.endsWith('.json'))) Object.assign(ANGLES, readJSON(join(root, 'research', 'angles', 'out', f)) || {}); } catch {}
+// Quick take rewrite ("how it helps") — research/quick2/out/*.json: slug → { summary, quick: { overview, how, risks } }.
+const QUICK2 = {};
+try { for (const f of readdirSync(join(root, 'research', 'quick2', 'out')).filter((f) => f.endsWith('.json'))) Object.assign(QUICK2, readJSON(join(root, 'research', 'quick2', 'out', f)) || {}); } catch {}
+// Articles written with their own angle (newer entries) fill any gaps.
+try { for (const f of readdirSync(join(root, 'research', 'deep'))) { const k = f.replace(/\.json$/, ''); if (ANGLES[k]) continue; const d = readJSON(join(root, 'research', 'deep', f)); if (d && d.angle && d.angle.goal) ANGLES[k] = d.angle; } } catch {}
+// Quick-take pass also refreshes the angle's text/effect in the help-first tone.
+for (const [k, q] of Object.entries(QUICK2)) if (ANGLES[k] && q && q.angle && q.angle.text) ANGLES[k] = { ...ANGLES[k], text: q.angle.text, effect: q.angle.effect || ANGLES[k].effect };
 const stats = { entries: 0, raw: 0, deep: 0, droppedRefs: 0, studies: 0, reddit: 0, forum: 0, images: 0 };
 const ENTRIES = allEntries({ withPending: false });
 // Forum popularity: how many indexed looksmax.org thread titles mention each entry.
@@ -48,6 +58,9 @@ for (const { kind, item } of ENTRIES) {
   const PM = Array.isArray(raw.pubmed) ? raw.pubmed : [];
   const RD = Array.isArray(raw.reddit) ? raw.reddit : [];
   const LM = Array.isArray(raw.looksmax) ? raw.looksmax : [];
+  const NW = Array.isArray(raw.news) ? raw.news.filter((n) => cleanTitle(n.title) && okUrl(n.url)) : [];
+  const HN = Array.isArray(raw.hackernews) ? raw.hackernews.filter((n) => cleanTitle(n.title)) : [];
+  const LY = Array.isArray(raw.lemmy) ? raw.lemmy.filter((n) => cleanTitle(n.title) && okUrl(n.url)) : [];
 
   // ── Studies: PubMed (verified via E-utilities) + first-pass scholarly, de-duplicated
   const studies = [];
@@ -92,7 +105,7 @@ for (const { kind, item } of ENTRIES) {
     ...(X.trials || []).map((t) => t.url), X.fda?.url,
     ...((deep && deep.webSources) || []).map((w) => w && w.url),
     W?.url, ...(W?.citedLinks || []), G?.url, fp.grokipedia,
-    ...PM.flatMap((p) => [p.url, p.pmc]), ...RD.map((p) => p.url), ...TN.map((t) => t.url), ...LM.flatMap((t) => [t.url, t.archived]),
+    ...PM.flatMap((p) => [p.url, p.pmc]), ...RD.map((p) => p.url), ...TN.map((t) => t.url), ...NW.map((n) => n.url), ...HN.flatMap((n) => [n.url, n.link]), ...LY.map((n) => n.url), ...LM.flatMap((t) => [t.url, t.archived]),
     ...(fp.scholarly || []).map((x) => x.url), ...(fp.forums || []).map((x) => x.url),
   ].filter(Boolean).map(norm));
 
@@ -111,6 +124,9 @@ for (const { kind, item } of ENTRIES) {
     label: X.fda?.url ? { url: X.fda.url, brands: X.fda.brands, generic: X.fda.generic } : null,
     reddit: RD.filter((p) => cleanTitle(p.title)).map((p) => ({ title: p.title, url: p.url, sub: p.sub, score: p.score, comments: p.comments, year: p.year })).sort((a, b) => (b.score + b.comments) - (a.score + a.comments)),
     forums: [...forums, ...TN.filter((t) => cleanTitle(t.title)).slice(6).map((t) => ({ title: t.title, url: t.url, site: `T Nation · ${t.posts} posts${t.year ? ' · ' + t.year : ''}` })), ...LM.filter((t) => cleanTitle(t.title)).slice(16).map((t) => ({ title: t.title, url: t.url, site: 'looksmax.org', archived: t.archived || `https://web.archive.org/web/${t.ts}/${t.url}` }))],
+    news: NW.map((n) => ({ title: n.title, url: n.url, site: n.site, date: n.date })),
+    social: [...HN.map((n) => ({ title: n.title, url: n.url, site: 'Hacker News', score: n.points, comments: n.comments, year: n.year })),
+      ...LY.map((n) => ({ title: n.title, url: n.url, site: 'Lemmy · ' + (n.community || ''), score: n.score, comments: n.comments, year: n.year }))].sort((a, b) => b.score + b.comments - a.score - a.comments),
     web: [W && { title: W.title + ' — Wikipedia', url: W.url }, G && { title: item.name + ' — Grokipedia', url: G.url }, ...((deep && deep.webSources) || []).filter((w) => w && okUrl(w.url)).map((w) => ({ title: w.title || w.url, url: w.url }))].filter(Boolean),
   };
 
@@ -173,13 +189,18 @@ for (const { kind, item } of ENTRIES) {
     name: item.name, deep: !!deep, image, mentions: mentionsFor(item, raw),
     // Quick take = the short first-pass write-up; always present.
     casual: (() => {
+      const q2 = QUICK2[s] && QUICK2[s].quick;
+      if (q2 && q2.overview) return {
+        lead: String(q2.overview).split(/\n\s*\n/).filter(Boolean),
+        sections: [q2.how && { h: 'How people use it', paras: [q2.how], subs: [] }, q2.risks && { h: 'Risks & side effects', paras: [q2.risks], subs: [] }].filter(Boolean),
+      };
       const q = neutral[item.name] && neutral[item.name].overview ? neutral[item.name] : fp.overview ? fp : (deep && deep.quick) || {};
       return {
         lead: String(q.overview || '').split(/\n\s*\n/).filter(Boolean),
         sections: [q.mechanism && { h: 'How it works', paras: [q.mechanism], subs: [] }, q.risks && { h: 'Risks and caveats', paras: [q.risks], subs: [] }].filter(Boolean),
       };
     })(),
-    gallery, links,
+    gallery, links, angle: ANGLES[s] || (deep && deep.angle && deep.angle.goal ? deep.angle : null),
     wikipedia: W ? { title: W.title, url: W.url } : null,
     grokipedia: G?.url || fp.grokipedia || null,
     lead, infobox, sections, lore, timeline, refs, studies: studies.slice(0, 16), reddit, forums,
@@ -188,5 +209,7 @@ for (const { kind, item } of ENTRIES) {
 // Popularity index for the Index sort + home page (name → looksmax.org thread-title mentions).
 const pop = {};
 for (const f of readdirSync(outDir)) { try { const d = JSON.parse(readFileSync(join(outDir, f), 'utf8')); if (d.mentions) pop[d.name] = d.mentions; } catch {} }
+writeFileSync(join(root, 'assets', 'angles.js'), '// GENERATED by scripts/build-entries.mjs — Looksmax angle per entry: slug → [goal, effect].\nwindow.LM_ANGLES = ' +
+  JSON.stringify(Object.fromEntries(Object.entries(ANGLES).filter(([, a]) => a && a.goal).map(([k, a]) => [k, [a.goal, a.effect || null, (QUICK2[k] && QUICK2[k].summary) || null]]))) + ';\n');
 writeFileSync(join(root, 'assets', 'popularity.js'), '// GENERATED by scripts/build-entries.mjs — looksmax.org thread-title mentions per entry.\nwindow.LM_POP = ' + JSON.stringify(pop) + ';\n');
 console.log(JSON.stringify(stats));

@@ -1,1 +1,156 @@
-{"name":"Emugrobart","skip":true,"reason":"No Wikipedia or Grokipedia page exists and the available sources contains no citable sources, so nothing about it could be verified from loaded pages."}
+{
+ "name": "Emugrobart",
+ "lead": [
+  "Emugrobart (GYM329, also RG6237 and RO7204239) is an injectable antibody developed by Chugai Pharmaceutical, majority-owned by Roche, that targets the latent form of myostatin, a protein that limits muscle growth [1]. It was designed to promote muscle and strength, and it was tested as a way to preserve or add muscle in people losing weight on GLP-1 and GIP drugs [2].",
+  "That body-composition angle is why it draws interest: weight-loss drugs reduce fat but can also reduce lean mass, and an anti-myostatin antibody aims to support muscle at the same time. Chugai's early research reported larger grip-strength gains in mouse models than other anti-myostatin agents, and increased muscle area on MRI in monkeys [1].",
+  "In 2026 Roche ended development in spinal muscular atrophy, facioscapulohumeral muscular dystrophy and obesity. Chugai has said it intends to continue the SMA program and seek partners [2][3]."
+ ],
+ "angle": {
+  "goal": "Muscle",
+  "chain": [
+   "Antibody binds latent myostatin",
+   "Less myostatin signalling in muscle",
+   "Muscle mass and strength supported, including during weight loss"
+  ],
+  "effect": "indirect",
+  "text": "Emugrobart is an anti-myostatin antibody investigated to build or preserve muscle, notably alongside weight-loss drugs. It is a clinical-stage medicine, not something sold to consumers."
+ },
+ "infobox": [
+  [
+   "Drug class",
+   "Anti-latent-myostatin monoclonal antibody"
+  ],
+  [
+   "Other names",
+   "GYM329, RG6237, RO7204239"
+  ],
+  [
+   "Developer",
+   "Chugai Pharmaceutical (Roche group) [2]"
+  ],
+  [
+   "Route",
+   "Subcutaneous injection [2]"
+  ],
+  [
+   "Highest stage",
+   "Phase II"
+  ],
+  [
+   "Legal status",
+   "Investigational; not approved"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Uses",
+   "paras": [
+    "Emugrobart was studied in three settings: spinal muscular atrophy (SMA), facioscapulohumeral muscular dystrophy (FSHD) and overweight or obesity treated with incretin drugs [2][3]. The obesity program is the one most relevant to appearance, because it aimed to keep or increase lean mass while body fat falls."
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "subs": [
+    {
+     "h": "Mechanism of action",
+     "paras": [
+      "The antibody binds latent (inactive) and precursor forms of myostatin and stops them from being activated; it does not bind mature myostatin or the related protein GDF11 [1]. It uses a sweeping design: an engineered Fc region lets the antibody-antigen complex enter cells through the FcgammaRIIb receptor, myostatin is released in the acidic endosome, and the antibody is recycled, which lowers myostatin levels in muscle and plasma [1]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A Phase II FSHD study, MANOEUVRE (NCT05548556), enrolled adults aged 18 to 65. Roche reported that the drug was well tolerated, with no serious adverse events or withdrawals, but did not consistently improve muscle growth and motor function versus placebo, and it did not advance it to Phase III [3].",
+    "In obesity, the Phase II GYMINDA study tested emugrobart on top of tirzepatide for a 48-week core period [2]. In September 2026 Chugai said the pre-specified goal of clinically meaningful weight loss was unlikely to be met, Roche gave up the obesity program and rights returned to Chugai [2].",
+    "A 2026 review of myostatin inhibition in SMA discusses preclinical and clinical data for muscle-targeted therapies as a complement to treatments that raise SMN protein [4]."
+   ]
+  },
+  {
+   "h": "Preclinical research",
+   "paras": [
+    "In the 2021 Scientific Reports paper from Chugai, a mouse version of the antibody raised grip strength more than three other anti-myostatin agents in models of Duchenne muscular dystrophy, ageing and disuse atrophy. A monkey version increased muscle area on MRI and body weight and sharply reduced plasma myostatin [1]."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2021",
+   "event": "Chugai publishes preclinical data on GYM329 in mice and monkeys [1]."
+  },
+  {
+   "year": "2026",
+   "event": "Roche ends development in SMA and FSHD after Phase II data [3]."
+  },
+  {
+   "year": "2026",
+   "event": "Roche drops the obesity program and returns rights to Chugai; Chugai plans to continue SMA [2]."
+  }
+ ],
+ "lore": null,
+ "card": {
+  "summary": "An anti-myostatin antibody from Chugai/Roche tested to build or preserve muscle, including alongside weight-loss drugs.",
+  "aka": "GYM329, RG6237, RO7204239",
+  "evidence": "limited",
+  "status": "rx",
+  "outcome": null,
+  "risk": null,
+  "price": null,
+  "note": "Investigational only; Roche ended development in FSHD, SMA and obesity in 2026.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Emugrobart is an antibody given by injection that binds latent myostatin, a brake on muscle growth. It was developed by Chugai, part of the Roche group, to support muscle in muscle-wasting diseases and in people losing weight on drugs such as tirzepatide.\n\nPhase II trials in FSHD and obesity did not meet the hoped-for results, and Roche has ended its involvement. Chugai says it will keep exploring SMA.",
+  "mechanism": "The antibody captures latent myostatin and carries it into cells, where it is released and the antibody is recycled. This reduces myostatin in plasma and muscle, so less signalling restrains muscle growth.",
+  "risks": "In the FSHD trial it was well tolerated with no serious adverse events reported. It is investigational, not approved and not available outside trials."
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Novel myostatin-specific antibody enhances muscle strength in muscle disease models",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7835227/",
+   "source": "Scientific Reports",
+   "year": 2021,
+   "type": "study"
+  },
+  {
+   "id": 2,
+   "title": "Roche culls myostatin candidate from obesity pipeline",
+   "url": "https://pharmaphorum.com/news/roche-culls-myostatin-candidate-obesity-pipeline",
+   "source": "pharmaphorum",
+   "year": 2026,
+   "type": "news"
+  },
+  {
+   "id": 3,
+   "title": "Letter to the FSHD Community from Roche",
+   "url": "https://www.fshdsociety.org/2026/03/19/roche-letter/",
+   "source": "FSHD Society",
+   "year": 2026,
+   "type": "news"
+  },
+  {
+   "id": 4,
+   "title": "Advancing treatment of spinal muscular atrophy through inhibition of the myostatin signaling pathway",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41566720/",
+   "source": "Expert review of neurotherapeutics",
+   "year": 2026,
+   "type": "review"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://pharmaphorum.com/news/roche-culls-myostatin-candidate-obesity-pipeline",
+   "title": "Roche culls myostatin candidate from obesity pipeline"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7835227/",
+   "title": "Novel myostatin-specific antibody (Sci Rep 2021)"
+  },
+  {
+   "url": "https://www.fshdsociety.org/2026/03/19/roche-letter/",
+   "title": "Letter to the FSHD Community from Roche"
+  }
+ ]
+}

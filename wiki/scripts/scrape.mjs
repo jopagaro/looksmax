@@ -54,6 +54,9 @@ const gate = {
   'oauth.reddit.com': throttle(800),
   'www.reddit.com': throttle(1000),
   't-nation.com': throttle(1300),
+  'api.gdeltproject.org': throttle(9000),
+  'hn.algolia.com': throttle(400),
+  'lemmy.world': throttle(1200),
 };
 async function get(url, { json = false, tries = 3 } = {}) {
   if (url.includes('arctic-shift')) tries = Math.max(tries, 5);
@@ -64,6 +67,7 @@ async function get(url, { json = false, tries = 3 } = {}) {
       const r = await fetch(url, { headers: { 'user-agent': UA }, signal: AbortSignal.timeout(url.includes('/cdx/') ? 120000 : 45000) });
       if (r.status === 429 || r.status >= 500) { await new Promise((s) => setTimeout(s, (host.includes('wiki') ? 20000 : 3000) * (i + 1))); continue; }
       if (!r.ok) return null;
+      if (host === 'api.gdeltproject.org') { const t = await r.text(); if (/limit requests/i.test(t)) { await new Promise((s) => setTimeout(s, 90000)); continue; } try { return JSON.parse(t); } catch { return { articles: [] }; } }
       if (!json) return await r.text();
       const j = await r.json();
       // Arctic Shift reports overload as {data:null, error:"Timeout…"} with HTTP 200.
@@ -194,12 +198,23 @@ const TERMS = {
   'Shoe trees + polish kit': ['shoe trees', 'shoe care'],
   'Good sunglasses': ['sunglasses'],
 };
+// Search terms: split "A / B", "A (B)" and "A or B" forms into separate terms so searches don't run on literal
+// strings like "affirmations / self-talk" (which match nothing).
+function splitTerm(t) {
+  const s = String(t || '').toLowerCase();
+  const inParen = [...s.matchAll(/\(([^)]*)\)/g)].map((m) => m[1]);
+  const base = s.replace(/\s*\(.*?\)\s*/g, ' ');
+  return [...base.split(/\s*(?:\/|,|;|\bor\b|\+|&)\s*/), ...inParen.flatMap((x) => x.split(/\s*(?:\/|,|;|\bor\b)\s*/))]
+    .map((x) => x.replace(/\b(etc|e\.g\.?|aka|incl\.?)\b/g, '').replace(/[^a-z0-9 .'-]+/g, ' ').replace(/\s+/g, ' ').trim()).filter((x) => x.length >= 3);
+}
 function termsFor(item) {
   if (TERMS[item.name]) return TERMS[item.name];
-  if (Array.isArray(item.terms) && item.terms.length) return item.terms.map((t) => String(t).toLowerCase());
-  const t = [item.name.replace(/\s*\(.*?\)\s*/g, ' ').trim()];
-  if (item.aka) item.aka.split('/').map((s) => s.trim()).filter(Boolean).forEach((s) => t.push(s));
-  return [...new Set(t.map((s) => s.toLowerCase()))];
+  const t = [];
+  if (Array.isArray(item.terms)) item.terms.forEach((x) => t.push(...splitTerm(x)));
+  t.push(...splitTerm(item.name));
+  if (item.aka) t.push(...splitTerm(item.aka));
+  // Later single-word fragments ("cuts", "oil") are too generic to search on their own.
+  return [...new Set(t)].filter((x, i) => i === 0 || x.includes(' ') || x.includes('-') || x.length >= 6).slice(0, 5);
 }
 
 const SUBS = {
@@ -491,12 +506,53 @@ async function tnation(item, terms) {
   return [...topics.values()].sort((a, b) => b.posts - a.posts).slice(0, 15);
 }
 
+// News coverage — GDELT DOC 2.0 API (open research API; asks for ≤1 request per 5 s).
+async function gdelt(item, terms) {
+  const q = terms.slice(0, 2).map((t) => (t.includes(' ') || t.includes('-') ? `"${t}"` : t)).join(' OR ');
+  const r = await get(`https://api.gdeltproject.org/api/v2/doc/doc?query=${encodeURIComponent(terms.length > 1 ? '(' + q + ')' : q)}%20sourcelang:english&mode=artlist&format=json&maxrecords=40&sort=hybridrel&startdatetime=20170102000000`, { json: true });
+  if (!r) return { __failed: true };
+  const words = terms.flatMap((t) => t.split(/[\s-]+/)).filter((w) => w.length > 3);
+  const seen = new Set();
+  return (r.articles || []).filter((a) => a.url && a.title && words.some((w) => a.title.toLowerCase().includes(w)))
+    .filter((a) => { const k = a.title.toLowerCase().slice(0, 60); if (seen.has(k)) return false; seen.add(k); return true; })
+    .slice(0, 20).map((a) => ({ title: a.title.replace(/\s+/g, ' ').trim(), url: a.url, site: a.domain, date: String(a.seendate || '').slice(0, 8) }));
+}
+
+// Hacker News (Algolia API) — stories and their comment counts.
+async function hackernews(item, terms) {
+  const out = new Map(); let calls = 0, fails = 0;
+  for (const term of terms.slice(0, 2)) {
+    const r = await get(`https://hn.algolia.com/api/v1/search?query=${encodeURIComponent('"' + term + '"')}&tags=story&hitsPerPage=20`, { json: true });
+    calls++; if (!r) { fails++; continue; }
+    for (const h of r.hits || []) if (h.title && !out.has(h.objectID) && h.title.toLowerCase().includes(term.split(' ')[0]))
+      out.set(h.objectID, { title: h.title, url: `https://news.ycombinator.com/item?id=${h.objectID}`, link: h.url || null, points: h.points || 0, comments: h.num_comments || 0, year: Number(String(h.created_at).slice(0, 4)) || null });
+  }
+  if (calls && fails === calls) return { __failed: true };
+  return [...out.values()].sort((a, b) => b.points + b.comments - a.points - a.comments).slice(0, 15);
+}
+
+// Lemmy (federated Reddit alternative) — lemmy.world search across all instances it knows.
+async function lemmy(item, terms) {
+  const out = new Map(); let calls = 0, fails = 0;
+  for (const term of terms.slice(0, 2)) {
+    const r = await get(`https://lemmy.world/api/v3/search?q=${encodeURIComponent(term)}&type_=Posts&sort=TopAll&limit=20&listing_type=All`, { json: true });
+    calls++; if (!r) { fails++; continue; }
+    for (const p of r.posts || []) {
+      if (p.post?.nsfw || p.community?.nsfw || !p.post?.name || !p.post.name.toLowerCase().includes(term.split(' ')[0])) continue;
+      out.set(p.post.ap_id, { title: p.post.name, url: p.post.ap_id, community: p.community?.name, score: p.counts?.score || 0, comments: p.counts?.comments || 0,
+        year: Number(String(p.post.published).slice(0, 4)) || null, text: String(p.post.body || '').slice(0, 500) });
+    }
+  }
+  if (calls && fails === calls) return { __failed: true };
+  return [...out.values()].sort((a, b) => b.score + b.comments - a.score - a.comments).slice(0, 15);
+}
+
 // ───────── run ─────────
 // --sources wiki,grok,pubmed,reddit,looksmax (default: all). Results merge into the
 // existing raw file; a source is only re-fetched if it previously failed or is missing.
 const SRC_ARG = process.argv.includes('--sources') ? process.argv[process.argv.indexOf('--sources') + 1].split(',') : ['wiki', 'grok', 'pubmed', 'reddit', 'looksmax'];
 const CONC = Number(process.argv.includes('--conc') ? process.argv[process.argv.indexOf('--conc') + 1] : 5);
-const FN = { redditapi: ['reddit', redditOfficial], tnation: ['tnation', tnation], wiki: ['wikipedia', wikipedia], grok: ['grokipedia', grokipedia], pubmed: ['pubmed', pubmed], reddit: ['reddit', reddit], looksmax: ['looksmax', looksmaxOrg] };
+const FN = { news: ['news', gdelt], hn: ['hackernews', hackernews], lemmy: ['lemmy', lemmy], redditapi: ['reddit', redditOfficial], tnation: ['tnation', tnation], wiki: ['wikipedia', wikipedia], grok: ['grokipedia', grokipedia], pubmed: ['pubmed', pubmed], reddit: ['reddit', reddit], looksmax: ['looksmax', looksmaxOrg] };
 const { allEntries } = await import('./entries.mjs');
 let ENTRIES = allEntries().filter((e) => !ONLY || e.item.name === ONLY);
 if (process.argv.includes('--reverse')) ENTRIES = ENTRIES.reverse();
