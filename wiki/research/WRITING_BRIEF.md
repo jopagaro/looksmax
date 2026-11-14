@@ -5,10 +5,21 @@ Each entry has a dossier at `research/dossiers/<slug>.md` containing a citable s
 (Wikipedia, Grokipedia, PubMed studies with abstracts, Reddit threads with top comments,
 looksmax.org threads with post excerpts, first-pass notes) plus reference text.
 
+Dossier source tags: [W] Wikipedia, [WC] links the Wikipedia article cites, [G] Grokipedia, [P] PubMed (with abstracts),
+[O] OpenAlex (with citation counts — high counts = landmark papers), [E] Europe PMC, [CT] ClinicalTrials.gov registrations,
+[FDA] the US drug label on DailyMed, [S]/[F] first-pass finds, [R] Reddit threads + top comments, [L] looksmax.org threads + posts.
+
 For each entry, read its dossier and write `research/deep/<slug>.json` (same slug as the dossier filename).
 Write each file as soon as that entry is done — don't batch. Validate each with
 `node -e "JSON.parse(require('fs').readFileSync(process.argv[1],'utf8'))" <file>`.
-Do NOT browse the web; everything you need is in the dossier. Don't edit any other files.
+Don't edit any other files.
+
+**Going beyond the dossier (encouraged for important entries):** you may use WebFetch (and WebSearch if it's available
+to you — it has a small shared budget, so use it sparingly) to dig up more: the history/origin of the product or compound,
+the inventor or company, landmark trials, regulatory actions, notable controversies, forum culture. Budget roughly 2–5
+fetches per entry. Any URL you cite that is NOT in the dossier must be one you actually loaded, and must be listed in
+`webSources` (see schema) — otherwise its citation is deleted at build time. Never cite a page you didn't load.
+reddit.com and looksmax.org can't be fetched directly; don't try.
 
 ## Ground rules
 - **Your own words.** Paraphrase. Never copy sentences from Wikipedia, Grokipedia, abstracts or posts. Short quoted forum slang (a few words, in quotes) is fine inside lore claims.
@@ -22,7 +33,7 @@ Do NOT browse the web; everything you need is in the dossier. Don't edit any oth
 - Some PubMed abstracts may be off-topic (a search hit about a different condition). Only cite a study for what it actually covers.
 
 ## What to write (Wikipedia structure, adapted)
-Pick the sections that fit; skip ones with no real material. Aim for ~900–2,000 words per entry when the sources support it (well-known compounds like tretinoin, finasteride, minoxidil, testosterone, semaglutide deserve the long end).
+Pick the sections that fit; skip ones with no real material. Aim for ~1,200–2,500 words per entry when the sources support it (well-known compounds like tretinoin, finasteride, minoxidil, testosterone, semaglutide deserve the long end).
 
 **Compounds** — typical sections:
 - *Uses* (subs: Cosmetic / appearance uses, Medical uses)
@@ -64,7 +75,8 @@ This is where the forum "lore" goes: the claims, theories, protocols and folk be
     "intro": "…[7]",
     "claims": [ { "claim": "…", "verdict": "unsupported", "note": "…[7][2]" } ]
   },
-  "refs": [ { "id": 1, "title": "…", "url": "<exact dossier URL>", "source": "Journal / Wikipedia / r/sub / looksmax.org", "year": 2024, "type": "study|review|guideline|encyclopedia|forum|reddit" } ]
+  "refs": [ { "id": 1, "title": "…", "url": "<exact dossier URL>", "source": "Journal / Wikipedia / r/sub / looksmax.org", "year": 2024, "type": "study|review|guideline|encyclopedia|forum|reddit|label|trial|news" } ],
+  "webSources": [ { "url": "<a page you loaded with WebFetch that isn't in the dossier>", "title": "…" } ]
 }
 ```
 - `infobox`: 3–8 short key/value rows that Wikipedia would put in an infobox (compounds: drug class, routes, onset, half-life, first approved/discovered, discoverer, trade names, legal status, pregnancy category. Gear: type, invented/introduced, inventor, typical price, maintenance, FDA clearance status). Only facts the sources support; citations allowed.
@@ -73,3 +85,29 @@ This is where the forum "lore" goes: the claims, theories, protocols and folk be
 - Plain text only in strings: no markdown, no HTML.
 
 When finished, reply with a short report: entries written, any you skipped and why, and any dossier problems you noticed (wrong Wikipedia topic, empty forums, etc.).
+
+## NEW entries (dossier says "NEW ENTRY — not yet rated")
+These came from discovery and have no rating yet. In addition to everything above, add:
+```json
+"card": {
+  "summary": "One punchy sentence in the site's voice (like the Index one-liners): what it is + the honest bottom line.",
+  "aka": "alt names / brands or null",
+  "evidence": "strong | moderate | limited | unproven",       // for its APPEARANCE use, judged from the sources
+  "status": "otc | rx | research",                            // compounds only
+  "outcome": "durable | temporary | unsupported",             // gear only
+  "risk": "low | moderate | high | extreme",                  // metas only
+  "price": "$20–40 or null",                                  // gear only, only if sources give it
+  "note": "One-line warning/caveat, or null",
+  "structure": "PubChem compound name for a 2D structure image, or null"   // compounds only
+},
+"quick": {
+  "overview": "2 short paragraphs (separated by a blank line), plain-English, for the Quick take view",
+  "mechanism": "1 paragraph: how it works (or what people do, for metas)",
+  "risks": "1 paragraph: side effects, harms, legal status, caveats"
+}
+```
+- **If the sources are thin, say so and keep it short.** A new entry with almost nothing behind it gets a short card, a short quick take, and a short in-depth article (lead + a couple of sections). Never pad, never invent.
+- If the dossier shows the candidate isn't real or isn't actually about appearance, write `{"name": "...", "skip": true, "reason": "..."}` instead.
+
+## Metas (kind: meta)
+Metas are practices, protocols, theories and procedures from looksmaxxing culture — from legitimate surgery to obvious pseudoscience (gold injections, bonesmashing, urine therapy). Document them neutrally and completely: what it is, where it came from (origin, who popularised it, when it spread), what people claim, what they actually do (in general terms — no step-by-step for dangerous practices, no dosing), what the evidence says, documented harms, and how the forums talk about it. Typical sections: *Description*, *Origins and spread*, *Claims*, *Practice* (general, non-instructional), *Evidence*, *Risks and harms*, *Reception* (medical/expert view, media coverage), *In looksmaxxing culture*. Be blunt when something is bunk — that's the point of the section — but explain *why*.

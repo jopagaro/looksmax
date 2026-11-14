@@ -3,6 +3,9 @@
   'use strict';
 
   const D = window.LM_DATA;
+  const WIKI = window.LM_WIKI || { entries: [], metaCategories: {}, riskLevels: [] };
+  const RISK_LABEL = { low: 'Low risk', moderate: 'Moderate risk', high: 'High risk', extreme: 'Extreme risk' };
+  const riskTag = (r) => `<span class="tag ${r === 'high' || r === 'extreme' ? 'tag-unproven' : r === 'moderate' ? 'tag-white' : ''}">${esc(RISK_LABEL[r] || r)}</span>`;
   const GUIDES = window.LM_GUIDES || [];
   const app = document.getElementById('app');
 
@@ -17,13 +20,17 @@
   const ENTRIES = [
     ...D.compounds.map((item) => ({ kind: 'compound', item, slug: slug(item.name) })),
     ...D.gear.map((item) => ({ kind: 'gear', item, slug: slug(item.name) })),
+    ...(WIKI.entries || []).filter((item) => ['compound', 'gear', 'meta'].includes(item.kind)).map((item) => ({ kind: item.kind, item, slug: slug(item.name) })),
   ];
   const byName = new Map(ENTRIES.map((e) => [e.item.name.toLowerCase(), e]));
-  const bySlug = { compound: new Map(), gear: new Map() };
+  const bySlug = { compound: new Map(), gear: new Map(), meta: new Map() };
   ENTRIES.forEach((e) => bySlug[e.kind].set(e.slug, e));
   const guideBySlug = new Map(GUIDES.map((g) => [g.slug, g]));
 
-  const catMeta = (kind) => (kind === 'compound' ? D.categoryMeta : D.gearCategoryMeta);
+  const catMeta = (kind) => (kind === 'compound' ? D.categoryMeta : kind === 'meta' ? WIKI.metaCategories : D.gearCategoryMeta);
+  const KINDS = ['compound', 'gear', 'meta'];
+  const KIND_LABEL = { compound: 'Compounds', gear: 'Gear', meta: 'Metas' };
+  const indexHref = (kind) => (kind === 'compound' ? '#/index' : `#/index?kind=${kind}`);
   const entryHref = (e) => `#/${e.kind}/${e.slug}`;
   const catHref = (kind, id) => `#/category/${kind}/${id}`;
 
@@ -41,6 +48,7 @@
     const { item } = e;
     const A = D.affiliates;
     const slot = BUY_LINKS[item.name];
+    if (e.kind === 'meta') return null; // practices, not products
     if (e.kind === 'compound' && item.status === 'research') return null; // never sold, never linked
     if (e.kind === 'compound' && item.status === 'rx') {
       if (okLink(slot)) return { kind: 'telehealth', url: slot.trim(), label: 'Start online visit' };
@@ -67,6 +75,7 @@
       const id = target.slice(4);
       if (D.categoryMeta[id]) return { href: catHref('compound', id), label: D.categoryMeta[id].name };
       if (D.gearCategoryMeta[id]) return { href: catHref('gear', id), label: D.gearCategoryMeta[id].name };
+      if (WIKI.metaCategories[id]) return { href: catHref('meta', id), label: WIKI.metaCategories[id].name };
       return null;
     }
     const e = byName.get(target.toLowerCase());
@@ -102,6 +111,7 @@
       t += `<span class="tag ${item.outcome === 'unsupported' ? 'tag-unproven' : ''}">${esc(D.outcomeMeta[item.outcome].label)}</span>`;
       if (item.price) t += `<span class="tag tag-white">${esc(item.price)}</span>`;
     }
+    if (e.kind === 'meta' && item.risk) t += riskTag(item.risk);
     return t;
   }
   function entryCard(e) {
@@ -128,15 +138,16 @@
   // ───────── pages ─────────
   function pageHome() {
     const pick = dailyPick();
-    const nC = D.compounds.length, nG = D.gear.length;
+    const nC = ENTRIES.filter((e) => e.kind === 'compound').length, nG = ENTRIES.filter((e) => e.kind === 'gear').length, nM = ENTRIES.filter((e) => e.kind === 'meta').length;
     const strong = ENTRIES.filter((e) => e.item.evidence === 'strong').length;
     const unproven = ENTRIES.filter((e) => e.item.evidence === 'unproven').length;
     const tick = ENTRIES.filter((e) => e.item.evidence === 'unproven').slice(0, 14)
       .map((e) => `<span>${esc(e.item.name)}</span><span class="s">✕ unproven</span>`).join('');
     const portals = (kind) => {
-      const list = kind === 'compound' ? D.compounds : D.gear;
+      const list = ENTRIES.filter((e) => e.kind === kind).map((e) => e.item);
       return Object.entries(catMeta(kind)).map(([id, m]) => {
         const n = list.filter((x) => x.category === id).length;
+        if (kind === 'meta' && !n) return '';
         return `<a class="portal" href="${catHref(kind, id)}"><span class="pt"><span class="pn">${esc(m.name)}</span><span class="pc">${n}</span></span><span class="pb">${esc(m.blurb)}</span></a>`;
       }).join('');
     };
@@ -145,12 +156,12 @@
         <div>
           <span class="kicker">★ The evidence-first looksmaxxing encyclopedia</span>
           <h1 class="h-hero">Every claim.<br><span class="text-outline">Checked.</span> <span class="pop">Rated.</span></h1>
-          <p class="lede" style="margin-top:24px">${ENTRIES.length} compounds and pieces of gear, rated by <span class="inkmark">actual evidence</span> — not marketing. Plus the guides that tell you what to do first.</p>
+          <p class="lede" style="margin-top:24px">${ENTRIES.length} compounds, peptides, drugs, gear${nM ? ' and forum metas' : ''} — rated by <span class="inkmark">actual evidence</span> — not marketing. Plus the guides that tell you what to do first.</p>
           <form class="big-search" data-search role="search">${searchIcon}<input name="q" placeholder="Search tretinoin, mewing, LED masks…" aria-label="Search the wiki" autocomplete="off"><button class="btn popb" type="submit">Search</button></form>
         </div>
         <div class="card stats">
           <div class="stat"><b>${nC}</b><span>Compounds</span></div>
-          <div class="stat"><b>${nG}</b><span>Pieces of gear</span></div>
+          <div class="stat"><b>${nG}${nM ? `<span class="pop" style="font-size:20px"> +${nM}</span>` : ''}</b><span>Gear${nM ? ' + metas' : ''}</span></div>
           <div class="stat"><b class="pop">${strong}</b><span>Strong evidence</span></div>
           <div class="stat"><b>${unproven}</b><span>Unproven claims</span></div>
         </div>
@@ -189,6 +200,11 @@
         <h2 class="section-h">Gear <small>${Object.keys(D.gearCategoryMeta).length} categories</small></h2>
         <div class="portal-grid">${portals('gear')}</div>
       </section>
+      ${nM ? `<section>
+        <h2 class="section-h">Metas <small>${nM} forum theories, protocols &amp; procedures</small></h2>
+        <p class="blurb-bar" style="margin-bottom:18px">What the forums swear by — from real surgery to gold injections. Documented, rated, not recommended.</p>
+        <div class="portal-grid">${portals('meta')}</div>
+      </section>` : ''}
       ${disclaimer}
     </div>`;
   }
@@ -232,8 +248,9 @@
   const wrapTables = (h) => h.replace(/<table class="wtable">([\s\S]*?)<\/table>/g, '<div class="wtable-wrap"><table class="wtable">$1</table></div>');
 
   function pageIndex(params) {
-    const kind = params.get('kind') === 'gear' ? 'gear' : 'compound';
+    const kind = KINDS.includes(params.get('kind')) ? params.get('kind') : 'compound';
     const cat = params.get('cat') || 'all';
+    // Sort: most-discussed first when we know it, else alphabetical within evidence order.
     const ev = EV_ORDER.includes(params.get('ev')) ? params.get('ev') : 'all';
     const q = (params.get('q') || '').trim().toLowerCase();
     const meta = catMeta(kind);
@@ -257,15 +274,14 @@
       <div>
         ${crumbs([['Wiki', '#/'], ['The Index']])}
         <h1 class="h-page" style="margin-bottom:16px">The <span class="pop">Index</span></h1>
-        <p class="lede">Every compound and every piece of gear in the looksmaxxing universe — rated by actual evidence, not marketing. Click anything for the full file.</p>
+        <p class="lede">Every compound, peptide, drug, piece of gear and forum meta in the looksmaxxing universe — rated by actual evidence, not marketing. Click anything for the full file.</p>
       </div>
       <div style="display:grid;gap:24px">
         <div class="card filters">
           <div class="kind-tabs">
-            <a href="${link({ kind: 'compound', cat: 'all' })}" class="${kind === 'compound' ? 'on' : ''}">Compounds <span class="n">(${D.compounds.length})</span></a>
-            <a href="${link({ kind: 'gear', cat: 'all' })}" class="${kind === 'gear' ? 'on' : ''}">Gear <span class="n">(${D.gear.length})</span></a>
+            ${KINDS.filter((k) => k !== 'meta' || ENTRIES.some((e) => e.kind === 'meta')).map((k) => `<a href="${link({ kind: k, cat: 'all' })}" class="${kind === k ? 'on' : ''}">${KIND_LABEL[k]} <span class="n">(${ENTRIES.filter((e) => e.kind === k).length})</span></a>`).join('')}
           </div>
-          <form class="f-search" data-index-search>${searchIcon}<input name="q" value="${esc(params.get('q') || '')}" placeholder="${kind === 'compound' ? 'Search compounds, mechanisms…' : 'Search gear, devices…'}" aria-label="Filter the Index" autocomplete="off">${q ? `<a class="clear" href="${link({ q: '' })}">Clear</a>` : ''}</form>
+          <form class="f-search" data-index-search>${searchIcon}<input name="q" value="${esc(params.get('q') || '')}" placeholder="${kind === 'compound' ? 'Search compounds, peptides, drugs…' : kind === 'meta' ? 'Search metas, theories, procedures…' : 'Search gear, devices…'}" aria-label="Filter the Index" autocomplete="off">${q ? `<a class="clear" href="${link({ q: '' })}">Clear</a>` : ''}</form>
           <div class="f-row cats">
             <a class="chip ${cat === 'all' ? 'on' : ''}" href="${link({ cat: 'all' })}">All</a>
             ${Object.entries(meta).map(([id, m]) => `<a class="chip ${cat === id ? 'on-pop' : ''}" href="${link({ cat: cat === id ? 'all' : id })}">${esc(m.name)}</a>`).join('')}
@@ -340,17 +356,19 @@
     if (buy && buy.kind === 'telehealth') action = `<a class="btn popb lg block" href="${esc(buy.url)}" target="_blank" rel="noopener noreferrer sponsored">${esc(buy.label)} ↗</a><p class="fine">℞ A licensed provider decides if it's right for you</p>`;
     else if (kind === 'compound' && item.status === 'rx') action = `<div class="statusbox cream"><b>℞ Prescription only</b><span>This one goes through a doctor, not a cart.</span></div>`;
     else if (kind === 'compound' && item.status === 'research') action = `<div class="statusbox dark"><b>⚠ Research compound</b><span>Not approved for human use. We don't sell it.</span></div>`;
+    else if (kind === 'meta') action = `<div class="statusbox ${['high', 'extreme'].includes(item.risk) ? 'dark' : 'cream'}"><b>⚠ ${esc(RISK_LABEL[item.risk] || 'Unknown risk')}</b><span>A practice, not a product — there's nothing to buy.</span></div>`;
     else if (buy) { const price = kind === 'gear' ? item.price : null; action = `<a class="btn popb lg block" href="${esc(buy.url)}" target="_blank" rel="noopener noreferrer sponsored">${esc(price ? `${buy.label} · ${price}` : buy.label)} ↗</a><p class="fine">${buy.kind === 'amazon' ? 'Amazon search · may earn a commission' : 'May earn a commission · not an endorsement'}</p>`; }
     else action = `<div class="statusbox"><b>Sourced in person</b><span>No link for this one.</span></div>`;
 
     // ── Infobox rows, grouped like Wikipedia
     const row = (k, v, raw) => `<tr><th>${esc(k)}</th><td>${raw ? v : cite(v)}</td></tr>`;
     const group = (h, rows) => (rows.length ? `<tr class="ib-h"><th colspan="2">${esc(h)}</th></tr>${rows.join('')}` : '');
-    const basics = [row('Type', kind === 'compound' ? 'Compound' : 'Gear'), row('Category', `<a href="${catHref(kind, item.category)}">${esc(meta.name)}</a>`, true)];
+    const basics = [row('Type', { compound: 'Compound', gear: 'Gear', meta: 'Meta (forum theory / protocol)' }[kind]), row('Category', `<a href="${catHref(kind, item.category)}">${esc(meta.name)}</a>`, true)];
     if (item.aka) basics.push(row('Also known as', item.aka));
     if (kind === 'gear' && item.price) basics.push(row('Street price', item.price));
     const rating = [row('Evidence', evTag(item.evidence), true),
-      kind === 'compound' ? row('Status', esc(D.statusMeta[item.status].label), true) : row('Outcome', esc(D.outcomeMeta[item.outcome].label), true)];
+      kind === 'compound' ? row('Status', esc(D.statusMeta[item.status].label), true) : kind === 'meta' ? row('Risk', riskTag(item.risk), true) : row('Outcome', esc(D.outcomeMeta[item.outcome].label), true)];
+    if (item.mentions) rating.push(row('Forum mentions', `${item.mentions.toLocaleString()} looksmax.org threads`));
     if (R.studies.length) rating.push(row('Studies indexed', String(R.studies.length)));
     if (R.reddit.length + R.forums.length) rating.push(row('Forum threads', String(R.reddit.length + R.forums.length)));
     const details = R.infobox.map(([k, v]) => row(k, v));
@@ -361,11 +379,13 @@
       <div class="ib-title">${esc(item.name)}</div>
       ${visual}
       <table>${group('Overview', basics)}${group(kind === 'compound' ? 'Clinical & chemical data' : 'Details', details)}${group('LOOKSMAX rating', rating)}${group('Sources', links)}</table>
-      <div class="act"><span class="kicker" style="margin-bottom:8px">Buy now</span>${action}</div>
+      <div class="act"><span class="kicker" style="margin-bottom:8px">${kind === 'meta' ? 'Risk' : 'Buy now'}</span>${action}</div>
     </aside>`;
 
     // ── Body sections
-    const outcomeLine = kind === 'gear'
+    const outcomeLine = kind === 'meta'
+      ? { low: 'Low risk — mostly harmless, even if it does nothing.', moderate: 'Moderate risk — real side effects or costs are possible.', high: 'High risk — documented harms, injuries or legal exposure.', extreme: 'Extreme risk — can cause serious injury, disfigurement or death.' }[item.risk] || 'Risk not yet rated.'
+      : kind === 'gear'
       ? { durable: 'The result is a lasting change — it sticks after you stop.', temporary: 'The effect lasts only while you keep using it.', unsupported: 'The structural claim this is usually sold on has no supporting evidence.' }[item.outcome]
       : { otc: 'Available over the counter as a supplement or cosmetic.', rx: 'Prescription only — this goes through a doctor.', research: 'A research compound, not approved for human use. Documented here so you know what it is, not as a recommendation.' }[item.status];
     const evLine = { strong: 'Multiple good human trials or clinical consensus support it for this use.', moderate: 'There is some decent human data; expect a real but modest effect.', limited: 'Evidence is small, early, or mostly from lab and animal work.', unproven: 'There is no meaningful human evidence for the appearance claim.' }[item.evidence];
@@ -376,23 +396,44 @@
       S.push([id, sec.h, P(sec.paras) + (sec.subs || []).map((sub, j) => `<h3 id="${id}-${j}">${esc(sub.h)}</h3>${P(sub.paras)}`).join(''), sec.subs || []]);
     });
     if (R.timeline && R.timeline.length) S.push(['timeline', 'Timeline', `<ol class="timeline">${R.timeline.map((t) => `<li><b>${esc(t.year)}</b><span>${cite(t.event)}</span></li>`).join('')}</ol>`]);
-    S.push(['rating', 'LOOKSMAX evidence rating', `<p>Rated ${evTag(item.evidence)} for its appearance use. ${evLine} <a href="#/guide/index-explained">How ratings work</a>.</p><p><b>${kind === 'gear' ? 'Outcome' : 'Status'}:</b> ${esc(outcomeLine)}</p>${item.note ? `<p class="warn">⚠ ${esc(item.note)}</p>` : ''}`]);
+    S.push(['rating', 'LOOKSMAX evidence rating', `<p>Rated ${evTag(item.evidence)} for its appearance use. ${evLine} <a href="#/guide/index-explained">How ratings work</a>.</p><p><b>${kind === 'gear' ? 'Outcome' : kind === 'meta' ? 'Risk' : 'Status'}:</b> ${esc(outcomeLine)}</p>${item.note ? `<p class="warn">⚠ ${esc(item.note)}</p>` : ''}`]);
     if (R.lore) S.push(['lore', 'Forum lore & theories', `${R.lore.intro ? `<p>${cite(R.lore.intro)}</p>` : ''}<div class="lore">${R.lore.claims.map((c) => `<div class="lore-row"><span class="tag ${VERDICT[c.verdict][1]}">${VERDICT[c.verdict][0]}</span><div><b>“${cite(c.claim)}”</b><p>${cite(c.note)}</p></div></div>`).join('')}</div><p class="mute" style="font-size:12px">Forum claims are collected so you know what's out there — the verdict is ours, based on the sources above.</p>`]);
-    S.push(['research', 'Research', R.studies.length
-      ? `<ul class="linklist">${R.studies.map((r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc([r.kind, r.source, r.year].filter(Boolean).join(' · '))} ↗</span></a></li>`).join('')}</ul>`
-      : `<p class="mute">${loading ? 'Loading…' : 'No studies indexed yet.'} <a href="https://pubmed.ncbi.nlm.nih.gov/?term=${encodeURIComponent(item.name)}" target="_blank" rel="noopener">Search PubMed ↗</a></p>`]);
-    const reddit = R.reddit.map((r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>r/${esc(r.sub)} · ▲ ${r.score} · ${r.comments} comments${r.year ? ' · ' + r.year : ''} ↗</span></a></li>`).join('');
-    const forums = R.forums.map((r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc(r.site || '')} ↗</span></a>${r.archived ? `<a class="arch" href="${esc(r.archived)}" target="_blank" rel="noopener">archived copy</a>` : ''}</li>`).join('');
-    S.push(['community', 'Community discussion', (reddit || forums)
-      ? `${reddit ? `<h3>Reddit</h3><ul class="linklist forum">${reddit}</ul>` : ''}${forums ? `<h3>Forums</h3><ul class="linklist forum">${forums}</ul>` : ''}<p class="mute" style="font-size:12px">Forum posts are anecdotes, not evidence.</p>`
-      : `<p class="mute">${loading ? 'Loading…' : 'No threads indexed yet.'} <a href="https://www.reddit.com/search/?q=${encodeURIComponent(item.name)}" target="_blank" rel="noopener">Search Reddit ↗</a></p>`]);
-    S.push(['where', 'Where to buy', `<div class="buyslot">${action}</div>`]);
+    const L = R.links || {};
+    const allLinksHref = `#/${kind}/${e.slug}/links`;
+    const totalLinks = (L.studies || []).length + (L.trials || []).length + (L.reddit || []).length + (L.forums || []).length + (L.web || []).length + (L.label ? 1 : 0);
+    const studyLi = (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc([r.kind, r.source, r.year, r.cites != null ? `cited ${Number(r.cites).toLocaleString()}×` : null].filter(Boolean).join(' · '))} ↗</span></a></li>`;
+    const redditLi = (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>r/${esc(r.sub)} · ▲ ${r.score} · ${r.comments} comments${r.year ? ' · ' + r.year : ''} ↗</span></a></li>`;
+    const forumLi = (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc(r.site || '')} ↗</span></a>${r.archived ? `<a class="arch" href="${esc(r.archived)}" target="_blank" rel="noopener">archived copy</a>` : ''}</li>`;
+    const seeAll = (n, what) => (n > 10 ? `<p><a class="btn" href="${allLinksHref}">See all ${n} ${what} →</a></p>` : '');
+    if (deepView) {
+      const st = L.studies || [];
+      S.push(['research', 'Research', st.length
+        ? `<p class="mute" style="font-size:13px">Top ${Math.min(10, st.length)} of ${st.length} papers, most-cited first.</p><ul class="linklist">${st.slice(0, 10).map(studyLi).join('')}</ul>${(L.trials || []).length ? `<h3>Clinical trials</h3><ul class="linklist">${L.trials.slice(0, 5).map((t) => `<li><a href="${esc(t.url)}" target="_blank" rel="noopener"><b>${esc(t.title)}</b><span>${esc([t.nct, t.status, t.phase, t.start, t.enrollment ? 'n=' + t.enrollment : null].filter(Boolean).join(' · '))} ↗</span></a></li>`).join('')}</ul>` : ''}${seeAll(st.length + (L.trials || []).length, 'studies & trials')}`
+        : `<p class="mute">No studies indexed yet.</p>`]);
+      const top = [...(L.reddit || []).map((r) => ({ r, pop: (r.score || 0) + (r.comments || 0), li: redditLi(r) })), ...(L.forums || []).map((r, i) => ({ r, pop: 40 - i, li: forumLi(r) }))]
+        .sort((a, b) => b.pop - a.pop);
+      S.push(['community', 'Community discussion', top.length
+        ? `<p class="mute" style="font-size:13px">Top ${Math.min(10, top.length)} of ${top.length} threads by popularity. Forum posts are anecdotes, not evidence.</p><ul class="linklist forum">${top.slice(0, 10).map((x) => x.li).join('')}</ul>${seeAll(top.length, 'threads')}`
+        : `<p class="mute">No threads indexed yet.</p>`]);
+      if ((R.gallery || []).length) S.push(['gallery', 'Gallery', `<div class="gallery">${R.gallery.slice(0, 8).map((g) => `<figure><a href="${esc(g.page)}" target="_blank" rel="noopener"><img src="${esc(g.url)}" alt="${esc(g.title)}" loading="lazy" data-gal></a><figcaption>${esc(g.title)}<span>${esc([g.creator, g.license, g.source].filter(Boolean).join(' · '))}</span></figcaption></figure>`).join('')}</div>`]);
+    } else {
+      S.push(['research', 'Research', R.studies.length
+        ? `<ul class="linklist">${R.studies.map((r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc([r.kind, r.source, r.year].filter(Boolean).join(' · '))} ↗</span></a></li>`).join('')}</ul>`
+        : `<p class="mute">${loading ? 'Loading…' : 'No studies indexed yet.'} <a href="https://pubmed.ncbi.nlm.nih.gov/?term=${encodeURIComponent(item.name)}" target="_blank" rel="noopener">Search PubMed ↗</a></p>`]);
+      const reddit = R.reddit.map(redditLi).join('');
+      const forums = R.forums.map(forumLi).join('');
+      S.push(['community', 'Community discussion', (reddit || forums)
+        ? `${reddit ? `<h3>Reddit</h3><ul class="linklist forum">${reddit}</ul>` : ''}${forums ? `<h3>Forums</h3><ul class="linklist forum">${forums}</ul>` : ''}<p class="mute" style="font-size:12px">Forum posts are anecdotes, not evidence.</p>`
+        : `<p class="mute">${loading ? 'Loading…' : 'No threads indexed yet.'} <a href="https://www.reddit.com/search/?q=${encodeURIComponent(item.name)}" target="_blank" rel="noopener">Search Reddit ↗</a></p>`]);
+    }
+    if (kind !== 'meta') S.push(['where', 'Where to buy', `<div class="buyslot">${action}</div>`]);
     if (related.length) S.push(['see-also', 'See also', `<div class="grid">${related.map(entryCard).join('')}</div>${back.length ? `<p class="backlinks" style="margin-top:14px">Mentioned in: ${back.map((g) => `<a href="#/guide/${g.slug}">${esc(g.title)}</a>`).join(', ')}</p>` : ''}`]);
     if (R.refs.length) S.push(['references', 'References', `<ol class="refs">${R.refs.map((r, i) => `<li id="ref-${i + 1}"><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>${r.source ? `. <i>${esc(r.source)}</i>` : ''}${r.year ? ` (${r.year})` : ''}.</li>`).join('')}</ol>`]);
     const ext = [
       R.wikipedia && `<li><a href="${esc(R.wikipedia.url)}" target="_blank" rel="noopener">${esc(R.wikipedia.title)}</a> on Wikipedia</li>`,
       R.grokipedia && `<li><a href="${esc(R.grokipedia)}" target="_blank" rel="noopener">${esc(item.name)}</a> on Grokipedia</li>`,
       `<li><a href="https://pubmed.ncbi.nlm.nih.gov/?term=${encodeURIComponent(item.name)}" target="_blank" rel="noopener">PubMed search</a></li>`,
+      totalLinks && `<li><a href="${allLinksHref}"><b>All ${totalLinks} links for ${esc(item.name)}</b></a> — every study, trial, thread and page we found</li>`,
     ].filter(Boolean).join('');
     S.push(['external', 'External links', `<ul>${ext}</ul>`]);
 
@@ -402,9 +443,9 @@
     return `<div class="page article">
       <aside class="side"><div class="toc"><div class="th">Contents</div><ol>${toc}</ol></div></aside>
       <article>
-        ${crumbs([['Wiki', '#/'], ['The Index', kind === 'gear' ? '#/index?kind=gear' : '#/index'], [meta.name, catHref(kind, item.category)], [item.name]])}
+        ${crumbs([['Wiki', '#/'], ['The Index', indexHref(kind)], [meta.name, catHref(kind, item.category)], [item.name]])}
         <header class="art-head">
-          <span class="kicker">★ ${kind === 'compound' ? 'Compound file' : 'Gear file'}</span>
+          <span class="kicker">★ ${{ compound: 'Compound file', gear: 'Gear file', meta: 'Meta file' }[kind]}</span>
           <h1 class="h-page">${esc(item.name)}</h1>
           <p class="from">From LOOKSMAX Wiki, the evidence-first looksmaxxing encyclopedia</p>
           <div class="viewtoggle" role="tablist" aria-label="Article length">
@@ -423,8 +464,48 @@
           ${prev ? `<a href="${entryHref(prev)}"><small>← Previous in ${esc(meta.name)}</small><b>${esc(prev.item.name)}</b></a>` : '<span></span>'}
           ${next ? `<a class="nx" href="${entryHref(next)}"><small>Next →</small><b>${esc(next.item.name)}</b></a>` : '<span></span>'}
         </div>
-        <div class="catbox"><span>Categories:</span><a class="chip" href="${catHref(kind, item.category)}">${esc(meta.name)}</a><a class="chip" href="#/index?${kind === 'gear' ? 'kind=gear&' : ''}ev=${item.evidence}">${esc(D.evidenceMeta[item.evidence].label)} evidence</a>${kind === 'compound' ? `<a class="chip" href="#/index">Compounds</a>` : `<a class="chip" href="#/index?kind=gear">Gear</a>`}</div>
+        <div class="catbox"><span>Categories:</span><a class="chip" href="${catHref(kind, item.category)}">${esc(meta.name)}</a><a class="chip" href="#/index?${kind !== 'compound' ? `kind=${kind}&` : ''}ev=${item.evidence}">${esc(D.evidenceMeta[item.evidence].label)} evidence</a><a class="chip" href="${indexHref(kind)}">${KIND_LABEL[kind]}</a>${totalLinks ? `<a class="chip" href="${allLinksHref}">All links (${totalLinks})</a>` : ''}</div>
         ${disclaimer}
+      </article>
+    </div>`;
+  }
+
+  // ───────── all-links page: the second layer under every in-depth article ─────────
+  function pageLinks(kind, s) {
+    const e = bySlug[kind] && bySlug[kind].get(s);
+    if (!e) return pageNotFound();
+    const { item } = e;
+    const X = DETAIL.get(e.slug);
+    if (X === undefined) return `<div class="page"><p class="mute">Loading links…</p></div>`;
+    const R = X && X !== 'error' ? X : {};
+    const L = R.links || {};
+    const meta = catMeta(kind)[item.category];
+    const q = (new URLSearchParams(location.hash.split('?')[1] || '').get('q') || '').toLowerCase();
+    const f = (arr) => (q ? arr.filter((x) => JSON.stringify(x).toLowerCase().includes(q)) : arr);
+    const groups = [
+      ['studies', 'Studies & papers', 'Most-cited first', f(L.studies || []), (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc([r.kind, r.source, r.year, r.cites != null ? `cited ${Number(r.cites).toLocaleString()}×` : null].filter(Boolean).join(' · '))} ↗</span></a></li>`],
+      ['trials', 'Clinical trials', 'ClinicalTrials.gov registrations', f(L.trials || []), (t) => `<li><a href="${esc(t.url)}" target="_blank" rel="noopener"><b>${esc(t.title)}</b><span>${esc([t.nct, t.status, t.phase, t.start, t.enrollment ? 'n=' + t.enrollment : null].filter(Boolean).join(' · '))} ↗</span></a></li>`],
+      ['label', 'Drug label', 'Official US prescribing information', L.label ? [L.label] : [], (l) => `<li><a href="${esc(l.url)}" target="_blank" rel="noopener"><b>${esc(l.generic || item.name)} — DailyMed label</b><span>${esc((l.brands || []).join(', ') || 'US label')} ↗</span></a></li>`],
+      ['reddit', 'Reddit threads', 'Highest score + comments first', f(L.reddit || []), (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>r/${esc(r.sub)} · ▲ ${r.score} · ${r.comments} comments${r.year ? ' · ' + r.year : ''} ↗</span></a></li>`],
+      ['forums', 'Forum threads', 'looksmax.org and other forums', f(L.forums || []), (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc(r.site || '')} ↗</span></a>${r.archived ? `<a class="arch" href="${esc(r.archived)}" target="_blank" rel="noopener">archived copy</a>` : ''}</li>`],
+      ['web', 'Encyclopedias & web', 'Wikipedia, Grokipedia and pages used in the article', f(L.web || []), (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc(r.url.replace(/^https?:\/\/(www\.)?/, '').split('/')[0])} ↗</span></a></li>`],
+      ['refs', 'Article references', 'Everything cited in the in-depth article', (R.refs || []), (r, i) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>[${i + 1}] ${esc(r.title)}</b><span>${esc([r.source, r.year].filter(Boolean).join(' · '))} ↗</span></a></li>`],
+    ].filter((g) => g[3].length);
+    const total = groups.reduce((a, g) => a + (g[0] === 'refs' ? 0 : g[3].length), 0);
+    const here = `#/${kind}/${e.slug}/links`;
+    return `<div class="page article">
+      <aside class="side"><div class="toc"><div class="th">Links</div><ol>${groups.map(([id, h, , l]) => `<li><a href="${here}" data-jump="lk-${id}">${esc(h)} (${l.length})</a></li>`).join('')}</ol></div></aside>
+      <article>
+        ${crumbs([['Wiki', '#/'], ['The Index', indexHref(kind)], [meta.name, catHref(kind, item.category)], [item.name, `#/${kind}/${e.slug}/deep`], ['All links']])}
+        <header class="art-head">
+          <span class="kicker">★ Link library</span>
+          <h1 class="h-page">${esc(item.name)}: <span class="pop">all links</span></h1>
+          <p class="from">${total} studies, trials, threads and pages found for this entry · <a href="#/${kind}/${e.slug}/deep">← back to the in-depth article</a></p>
+          <form class="f-search card" data-links-search style="margin-top:16px;box-shadow:var(--sh-xs)">${searchIcon}<input name="q" value="${esc(q)}" placeholder="Filter these links…" aria-label="Filter links" autocomplete="off"></form>
+        </header>
+        <div class="prose wp">
+          ${groups.map(([id, h, sub, l, li]) => `<h2 id="lk-${id}">${esc(h)} <small class="mute" style="font-family:var(--font);font-size:12px;letter-spacing:.06em">${l.length} · ${esc(sub)}</small></h2><ul class="linklist${id === 'reddit' || id === 'forums' ? ' forum' : ''}">${l.map(li).join('')}</ul>`).join('') || '<p class="empty">No links found yet.</p>'}
+        </div>
       </article>
     </div>`;
   }
@@ -436,13 +517,13 @@
     const groups = EV_ORDER.map((ev) => [ev, list.filter((e) => e.item.evidence === ev)]).filter(([, l]) => l.length);
     const others = Object.entries(catMeta(kind)).filter(([k]) => k !== id);
     return `<div class="page">
-      ${crumbs([['Wiki', '#/'], ['The Index', kind === 'gear' ? '#/index?kind=gear' : '#/index'], [meta.name]])}
-      <span class="kicker">★ ${kind === 'compound' ? 'Compound' : 'Gear'} category · ${list.length} entries</span>
+      ${crumbs([['Wiki', '#/'], ['The Index', indexHref(kind)], [meta.name]])}
+      <span class="kicker">★ ${{ compound: 'Compound', gear: 'Gear', meta: 'Meta' }[kind]} category · ${list.length} entries</span>
       <h1 class="h-page" style="margin-bottom:16px">${esc(meta.name)}</h1>
       <p class="blurb-bar" style="margin-bottom:40px">${esc(meta.blurb)}</p>
       <div class="stack">
         ${groups.map(([ev, l]) => `<section><h2 class="section-h">${evTag(ev)} ${esc(D.evidenceMeta[ev].label)} evidence <small>${l.length}</small></h2><div class="grid">${l.map(entryCard).join('')}</div></section>`).join('')}
-        <section><h2 class="section-h">Other ${kind === 'compound' ? 'compound' : 'gear'} categories</h2><div class="f-row" style="padding:0">${others.map(([k, m]) => `<a class="chip" href="${catHref(kind, k)}">${esc(m.name)}</a>`).join('')}</div></section>
+        <section><h2 class="section-h">Other ${{ compound: 'compound', gear: 'gear', meta: 'meta' }[kind]} categories</h2><div class="f-row" style="padding:0">${others.map(([k, m]) => `<a class="chip" href="${catHref(kind, k)}">${esc(m.name)}</a>`).join('')}</div></section>
       </div>
       ${disclaimer}
     </div>`;
@@ -511,7 +592,8 @@
     <div><h5>Wiki</h5><a href="#/">Home</a><a href="#/index">The Index</a><a href="#/guides">Guides</a><a href="#/az">A–Z</a><a href="#/random">Random article</a></div>
     <div><h5>Guides</h5>${GUIDES.slice(0, 5).map((g) => `<a href="#/guide/${g.slug}">${esc(g.title)}</a>`).join('')}</div>
     <div><h5>Compounds</h5>${Object.entries(D.categoryMeta).slice(0, 5).map(([k, m]) => `<a href="${catHref('compound', k)}">${esc(m.name)}</a>`).join('')}</div>
-    <div><h5>Gear</h5>${Object.entries(D.gearCategoryMeta).slice(0, 5).map(([k, m]) => `<a href="${catHref('gear', k)}">${esc(m.name)}</a>`).join('')}</div>`;
+    <div><h5>Gear</h5>${Object.entries(D.gearCategoryMeta).slice(0, 5).map(([k, m]) => `<a href="${catHref('gear', k)}">${esc(m.name)}</a>`).join('')}</div>
+    ${ENTRIES.some((e) => e.kind === 'meta') ? `<div><h5>Metas</h5>${Object.entries(WIKI.metaCategories).slice(0, 5).map(([k, m]) => `<a href="${catHref('meta', k)}">${esc(m.name)}</a>`).join('')}</div>` : ''}`;
   document.getElementById('yr').textContent = new Date().getFullYear();
 
   // ───────── router ─────────
@@ -533,15 +615,16 @@
       case 'guides': html = pageGuides(); title = 'Guides'; nav = 'guides'; break;
       case 'guide': { const g = guideBySlug.get(seg[1]); html = pageGuide(seg[1]); title = g ? g.title : 'Not found'; nav = 'guides'; break; }
       case 'compound':
-      case 'gear': {
-        const e = bySlug[seg[0]].get(seg[1]); html = pageEntry(seg[0], seg[1], seg[2]); title = e ? e.item.name + (seg[2] === 'deep' ? ' (in-depth)' : '') : 'Not found'; nav = 'index';
+      case 'gear':
+      case 'meta': {
+        const e = bySlug[seg[0]].get(seg[1]); html = seg[2] === 'links' ? pageLinks(seg[0], seg[1]) : pageEntry(seg[0], seg[1], seg[2]); title = e ? e.item.name + (seg[2] === 'deep' ? ' (in-depth)' : seg[2] === 'links' ? ' — all links' : '') : 'Not found'; nav = 'index';
         if (e && !DETAIL.has(e.slug)) {
           const want = location.hash;
           loadDetail(e.slug).then(() => { if (location.hash === want) { keepScroll = true; route(); } });
         }
         break;
       }
-      case 'category': { const m = catMeta(seg[1] === 'gear' ? 'gear' : 'compound')[seg[2]]; html = pageCategory(seg[1] === 'gear' ? 'gear' : 'compound', seg[2]); title = m ? m.name : 'Not found'; nav = 'index'; break; }
+      case 'category': { const ck = KINDS.includes(seg[1]) ? seg[1] : 'compound'; const m = catMeta(ck)[seg[2]]; html = pageCategory(ck, seg[2]); title = m ? m.name : 'Not found'; nav = 'index'; break; }
       case 'az': html = pageAZ(); title = 'A–Z'; nav = 'az'; break;
       case 'search': html = pageSearch(params); title = 'Search'; break;
       default: html = pageNotFound(); title = 'Not found';
@@ -560,6 +643,7 @@
         if (cap) cap.remove();
       })
     );
+    app.querySelectorAll('img[data-gal]').forEach((img) => img.addEventListener('error', () => img.closest('figure').remove()));
     app.querySelectorAll('img[data-photo]').forEach((img) =>
       img.addEventListener('error', () => {
         img.parentElement.innerHTML = '<div class="ph"><b>★</b>Product shot coming soon</div>';
@@ -579,6 +663,12 @@
       if (q) location.hash = '#/search?q=' + encodeURIComponent(q);
     }
     if (f.matches('[data-index-search]')) ev.preventDefault();
+    if (f.matches('[data-links-search]')) {
+      ev.preventDefault();
+      const base = location.hash.split('?')[0];
+      const v = f.q.value.trim();
+      location.hash = base + (v ? '?q=' + encodeURIComponent(v) : '');
+    }
   });
   // Live filter on the Index search input (keeps focus)
   let t;

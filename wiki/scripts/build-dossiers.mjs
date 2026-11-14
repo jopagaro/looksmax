@@ -21,13 +21,13 @@ const clip = (t, n) => { t = String(t || '').replace(/\s+\n/g, '\n').trim(); ret
 // Wikipedia sections worth the most for a looksmaxxing encyclopedia, in priority order.
 const PRIORITY = /^(Lead|Medical uses?|Uses?|Cosmetic|Skin|Hair|Effects?|Adverse effects|Side effects|Contraindications|Pharmacology|Mechanism|Pharmacodynamics|Pharmacokinetics|History|Etymology|Society and culture|Legal status|Regulation|Names|Brand names|Research|Efficacy|Effectiveness|Safety|Design|Types|Usage|Health|Controversy|Misuse|Recreational|Doping)/i;
 
-const CAP = 34000;
+const CAP = 42000;
 let n = 0, sizes = [];
-for (const item of [...D.compounds, ...D.gear]) {
+const { allEntries } = await import('./entries.mjs');
+for (const { kind, item, pending } of allEntries()) {
   const s = slug(item.name);
   const raw = readJSON(join(root, 'research', 'raw', s + '.json'));
   if (!raw) continue;
-  const kind = D.compounds.includes(item) ? 'compound' : 'gear';
   const fp = first[item.name] || {};
   const W = raw.wikipedia && !raw.wikipedia.error && !raw.wikipedia.__failed ? raw.wikipedia : null;
   const G = raw.grokipedia && !raw.grokipedia.error ? raw.grokipedia : null;
@@ -37,8 +37,14 @@ for (const item of [...D.compounds, ...D.gear]) {
 
   const L = [];
   L.push(`# DOSSIER: ${item.name}`);
-  L.push(`kind: ${kind} | category: ${item.category} | aka: ${item.aka || '-'} | LOOKSMAX evidence rating: ${item.evidence} | ${kind === 'compound' ? 'status: ' + item.status : 'outcome: ' + item.outcome}${item.price ? ' | price: ' + item.price : ''}`);
-  L.push(`summary (site's one-liner): ${item.summary}`);
+  if (pending) {
+    L.push(`kind: ${kind} | category: ${item.category} | aka: ${item.aka || '-'} | NEW ENTRY — not yet rated: you must write its "card" (see brief)`);
+    if (item.why) L.push(`why it's being added: ${item.why}`);
+    if (item.mentions) L.push(`popularity: mentioned in ${item.mentions} looksmax.org thread titles`);
+  } else {
+    L.push(`kind: ${kind} | category: ${item.category} | aka: ${item.aka || '-'} | LOOKSMAX evidence rating: ${item.evidence} | ${kind === 'compound' ? 'status: ' + item.status : kind === 'meta' ? 'risk: ' + item.risk : 'outcome: ' + item.outcome}${item.price ? ' | price: ' + item.price : ''}`);
+    L.push(`summary (site's one-liner): ${item.summary}`);
+  }
   if (item.note) L.push(`site note: ${item.note}`);
   if (fp.overview) L.push(`\n## First-pass draft (ours, may be thin)\n${clip(fp.overview, 1400)}\nMechanism: ${clip(fp.mechanism, 700)}\nRisks: ${clip(fp.risks, 700)}`);
 
@@ -47,6 +53,16 @@ for (const item of [...D.compounds, ...D.gear]) {
   if (G) L.push(`[G] Grokipedia — ${G.url}`);
   PM.forEach((p, i) => L.push(`[P${i + 1}] ${p.title} — ${p.source || ''} ${p.year || ''} — ${(p.types || []).filter((t) => t !== 'Journal Article').join(', ') || 'article'} — ${p.url}${p.abstract ? `\n     abstract: ${clip(p.abstract, i < 6 ? 1300 : 500)}` : ''}`));
   (fp.scholarly || []).forEach((x, i) => L.push(`[S${i + 1}] ${x.title} — ${x.source || ''} ${x.year || ''} — ${x.url}`));
+  const X = readJSON(join(root, 'research', 'extra', s + '.json')) || {};
+  const seenU = new Set(PM.map((p) => p.url));
+  (X.openalex || []).forEach((w, i) => { seenU.add(w.url); L.push(`[O${i + 1}] ${w.title} — ${w.source || ''} ${w.year || ''} — cited by ${w.cites} — ${w.url}${w.oa && w.oa !== w.url ? ` (open access: ${w.oa})` : ''}${w.abstract && i < 8 ? `\n     abstract: ${clip(w.abstract, i < 4 ? 900 : 450)}` : ''}`); });
+  (X.europepmc || []).filter((x) => !seenU.has(x.url)).slice(0, 10).forEach((x, i) => L.push(`[E${i + 1}] ${x.title} — ${x.source || ''} ${x.year || ''} — cited by ${x.cites ?? '?'} — ${x.url}${x.fullText ? ` (full text: ${x.fullText})` : ''}${x.abstract && i < 4 ? `\n     abstract: ${clip(x.abstract, 500)}` : ''}`));
+  (X.trials || []).forEach((t, i) => L.push(`[CT${i + 1}] ${t.nct} "${t.title}" — ${t.status}${t.phase ? ', ' + t.phase : ''}${t.start ? ', started ' + t.start : ''}${t.enrollment ? ', n=' + t.enrollment : ''} — conditions: ${(t.conditions || []).join('; ')} — ${t.url}`));
+  if (X.fda && X.fda.url) {
+    const F = X.fda;
+    L.push(`[FDA] US drug label (DailyMed) — ${F.generic || ''}; brands: ${(F.brands || []).join(', ') || '-'}; route: ${(F.route || []).join(', ') || '-'} — ${F.url}`);
+    for (const [k, lab] of [['boxedWarning', 'boxed warning'], ['indications', 'indications'], ['mechanism', 'mechanism'], ['adverse', 'adverse reactions'], ['warnings', 'warnings'], ['pregnancy', 'pregnancy']]) if (F[k]) L.push(`     ${lab}: ${clip(F[k], 600)}`);
+  }
   (W?.citedLinks || []).slice(0, 12).forEach((u, i) => L.push(`[WC${i + 1}] (cited by the Wikipedia article) ${u}`));
   RD.slice(0, 14).forEach((p, i) => {
     L.push(`[R${i + 1}] r/${p.sub} "${p.title}" ▲${p.score} 💬${p.comments} ${p.year} — ${p.url}${p.text ? `\n     post: ${clip(p.text, i < 5 ? 700 : 250)}` : ''}`);

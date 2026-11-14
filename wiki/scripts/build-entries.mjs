@@ -6,17 +6,11 @@
 // so the site can only ever cite links that were actually found.
 // Run: node wiki/scripts/build-entries.mjs
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'node:fs';
-import { dirname, join } from 'node:path';
-import { fileURLToPath } from 'node:url';
-import vm from 'node:vm';
+import { join } from 'node:path';
+import { root, slug, allEntries } from './entries.mjs';
 
-const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const outDir = join(root, 'data', 'entries');
 mkdirSync(outDir, { recursive: true });
-const ctx = { window: {} };
-vm.runInNewContext(readFileSync(join(root, 'assets', 'data.js'), 'utf8'), ctx);
-const D = ctx.window.LM_DATA;
-const slug = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const readJSON = (p) => { try { return JSON.parse(readFileSync(p, 'utf8')); } catch { return null; } };
 const okUrl = (u) => typeof u === 'string' && /^https:\/\/[^\s"<>]+$/.test(u);
 const norm = (u) => String(u || '').replace(/^https?:\/\/(www\.)?/, '').replace(/[?#].*$/, '').replace(/\/+$/, '').toLowerCase();
@@ -25,7 +19,7 @@ const first = {};
 for (const f of readdirSync(join(root, 'research')).filter((f) => /^\d\d-.*\.json$/.test(f))) Object.assign(first, readJSON(join(root, 'research', f)) || {});
 
 const stats = { entries: 0, raw: 0, deep: 0, droppedRefs: 0, studies: 0, reddit: 0, forum: 0, images: 0 };
-const ENTRIES = [...D.compounds.map((item) => ({ kind: 'compound', item })), ...D.gear.map((item) => ({ kind: 'gear', item }))];
+const ENTRIES = allEntries({ withPending: false });
 
 for (const { kind, item } of ENTRIES) {
   const s = slug(item.name);
@@ -55,19 +49,45 @@ for (const { kind, item } of ENTRIES) {
   LM.slice(0, 16).forEach((t) => addForum({ title: t.title, url: t.url, site: 'looksmax.org', archived: t.archived || `https://web.archive.org/web/${t.ts}/${t.url}` }));
   (fp.forums || []).forEach((x) => { if (!/reddit\.com/.test(x.url) || !reddit.some((r) => norm(r.url) === norm(x.url))) addForum({ title: x.title, url: x.url, site: x.site }); });
 
+  const X = readJSON(join(root, 'research', 'extra', s + '.json')) || {};
+  const IMG = readJSON(join(root, 'research', 'images', s + '.json')) || {};
+  const gallery = (IMG.images || []).filter((g) => okUrl(g.url) && okUrl(g.page || '')).slice(0, 12)
+    .map((g) => ({ url: g.thumb || g.url, full: g.url, title: g.title, license: g.license, creator: g.creator, page: g.page, source: g.source }));
+
   // ── Image: gear prefers the item photo the first pass picked; compounds prefer Wikipedia's lead image
   let image = null;
   const wImg = W?.image?.url && /^https:\/\/upload\.wikimedia\.org\//.test(W.image.url) ? { url: W.image.url, credit: W.image.page, caption: W.title, source: 'Wikimedia Commons via Wikipedia' } : null;
   const fImg = okUrl(fp.image) ? { url: fp.image, credit: fp.imageCredit, caption: item.name, source: 'Wikimedia Commons' } : null;
   image = kind === 'gear' ? (fImg || (W && !W.viaSearch ? wImg : null) || wImg) : (wImg || null);
+  if (!image && gallery.length) image = { url: gallery[0].url, credit: gallery[0].page, caption: gallery[0].title, source: gallery[0].source };
   if (image) stats.images++;
 
   // ── Allowed citation URLs = everything we actually scraped or the first pass verified
   const allowed = new Set([
+    ...(X.openalex || []).flatMap((w) => [w.url, w.oa]), ...(X.europepmc || []).flatMap((x) => [x.url, x.fullText]),
+    ...(X.trials || []).map((t) => t.url), X.fda?.url,
+    ...((deep && deep.webSources) || []).map((w) => w && w.url),
     W?.url, ...(W?.citedLinks || []), G?.url, fp.grokipedia,
     ...PM.flatMap((p) => [p.url, p.pmc]), ...RD.map((p) => p.url), ...LM.flatMap((t) => [t.url, t.archived]),
     ...(fp.scholarly || []).map((x) => x.url), ...(fp.forums || []).map((x) => x.url),
   ].filter(Boolean).map(norm));
+
+  // ── All links, ranked by popularity (citations for papers, score for threads)
+  const allStudies = [];
+  const seenA = new Set();
+  const addA = (x) => { const k = norm(x.url); if (!okUrl(x.url) || seenA.has(k)) return; seenA.add(k); allStudies.push(x); };
+  (X.openalex || []).forEach((w) => addA({ title: w.title, url: w.url, source: w.source, year: w.year, cites: w.cites ?? null, kind: w.type === 'review' ? 'Review' : null }));
+  (X.europepmc || []).forEach((x) => addA({ title: x.title, url: x.url, source: x.source, year: x.year, cites: x.cites ?? null, kind: (x.types || []).find((t) => /review|meta|trial/i.test(t)) || null }));
+  studies.forEach((x) => addA({ ...x, cites: null }));
+  allStudies.sort((a, b) => (b.cites ?? -1) - (a.cites ?? -1) || (b.year || 0) - (a.year || 0));
+  const links = {
+    studies: allStudies,
+    trials: (X.trials || []).map((t) => ({ title: t.title, url: t.url, nct: t.nct, status: t.status, phase: t.phase, start: t.start, enrollment: t.enrollment })),
+    label: X.fda?.url ? { url: X.fda.url, brands: X.fda.brands, generic: X.fda.generic } : null,
+    reddit: RD.map((p) => ({ title: p.title, url: p.url, sub: p.sub, score: p.score, comments: p.comments, year: p.year })).sort((a, b) => (b.score + b.comments) - (a.score + a.comments)),
+    forums: [...forums, ...LM.slice(16).map((t) => ({ title: t.title, url: t.url, site: 'looksmax.org', archived: t.archived || `https://web.archive.org/web/${t.ts}/${t.url}` }))],
+    web: [W && { title: W.title + ' — Wikipedia', url: W.url }, G && { title: item.name + ' — Grokipedia', url: G.url }, ...((deep && deep.webSources) || []).filter((w) => w && okUrl(w.url)).map((w) => ({ title: w.title || w.url, url: w.url }))].filter(Boolean),
+  };
 
   let refs = [], lead = null, sections = null, infobox = [], lore = null, timeline = [];
   if (deep) {
@@ -108,10 +128,14 @@ for (const { kind, item } of ENTRIES) {
   writeFileSync(join(outDir, s + '.json'), JSON.stringify({
     name: item.name, deep: !!deep, image,
     // Quick take = the short first-pass write-up; always present.
-    casual: {
-      lead: (fp.overview || '').split(/\n\s*\n/).filter(Boolean),
-      sections: [fp.mechanism && { h: 'How it works', paras: [fp.mechanism], subs: [] }, fp.risks && { h: 'Risks and caveats', paras: [fp.risks], subs: [] }].filter(Boolean),
-    },
+    casual: (() => {
+      const q = fp.overview ? fp : (deep && deep.quick) || {};
+      return {
+        lead: String(q.overview || '').split(/\n\s*\n/).filter(Boolean),
+        sections: [q.mechanism && { h: 'How it works', paras: [q.mechanism], subs: [] }, q.risks && { h: 'Risks and caveats', paras: [q.risks], subs: [] }].filter(Boolean),
+      };
+    })(),
+    gallery, links,
     wikipedia: W ? { title: W.title, url: W.url } : null,
     grokipedia: G?.url || fp.grokipedia || null,
     lead, infobox, sections, lore, timeline, refs, studies: studies.slice(0, 16), reddit, forums,

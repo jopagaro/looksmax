@@ -39,7 +39,7 @@ function throttle(ms) {
   }));
 }
 const gate = {
-  'en.wikipedia.org': throttle(120),
+  'en.wikipedia.org': throttle(400),
   'eutils.ncbi.nlm.nih.gov': throttle(380),
   'arctic-shift.photon-reddit.com': throttle(2500),
   'web.archive.org': throttle(1500),
@@ -52,7 +52,7 @@ async function get(url, { json = false, tries = 3 } = {}) {
     if (gate[host]) await gate[host]();
     try {
       const r = await fetch(url, { headers: { 'user-agent': UA }, signal: AbortSignal.timeout(url.includes('/cdx/') ? 120000 : 45000) });
-      if (r.status === 429 || r.status >= 500) { await new Promise((s) => setTimeout(s, 3000 * (i + 1))); continue; }
+      if (r.status === 429 || r.status >= 500) { await new Promise((s) => setTimeout(s, (host.includes('wiki') ? 20000 : 3000) * (i + 1))); continue; }
       if (!r.ok) return null;
       if (!json) return await r.text();
       const j = await r.json();
@@ -186,6 +186,7 @@ const TERMS = {
 };
 function termsFor(item) {
   if (TERMS[item.name]) return TERMS[item.name];
+  if (Array.isArray(item.terms) && item.terms.length) return item.terms.map((t) => String(t).toLowerCase());
   const t = [item.name.replace(/\s*\(.*?\)\s*/g, ' ').trim()];
   if (item.aka) item.aka.split('/').map((s) => s.trim()).filter(Boolean).forEach((s) => t.push(s));
   return [...new Set(t.map((s) => s.toLowerCase()))];
@@ -212,20 +213,31 @@ const SUBS = {
   bodyCare: ['malegrooming', 'SkincareAddiction', 'RedditLaqueristas', 'LooksmaxingAdvice', 'Looksmaxx', 'looksmaxing'],
   sleep: ['sleep', 'Biohackers', 'LooksmaxingAdvice', 'Looksmaxx', 'looksmaxing', 'SleepApnea'],
   style: ['malefashionadvice', 'BuyItForLife', 'LooksmaxingAdvice', 'Looksmaxx', 'looksmaxing', 'goodyearwelt'],
+  // Metas
+  hardmaxx: ['PlasticSurgery', 'LooksmaxingAdvice', 'Looksmaxx', 'looksmaxing', 'CosmeticSurgery'],
+  bonehacks: ['orthotropics', 'LooksmaxingAdvice', 'Looksmaxx', 'looksmaxing'],
+  height: ['short', 'LooksmaxingAdvice', 'Looksmaxx', 'looksmaxing'],
+  protocols: ['moreplatesmoredates', 'Peptides', 'steroids', 'LooksmaxingAdvice', 'Looksmaxx'],
+  lifestyle: ['carnivore', 'NoFap', 'Biohackers', 'LooksmaxingAdvice', 'Looksmaxx'],
+  fringe: ['LooksmaxingAdvice', 'Looksmaxx', 'looksmaxing', 'Biohackers', 'skeptic'],
+  frameworks: ['LooksmaxingAdvice', 'Looksmaxx', 'looksmaxing', 'truerateme'],
+  stylemetas: ['malefashionadvice', 'malehairadvice', 'LooksmaxingAdvice', 'Looksmaxx'],
 };
 
 // ───────── sources ─────────
 async function wikipedia(item, terms) {
   const hint = first[item.name]?.grokipedia ? decodeURIComponent(first[item.name].grokipedia.split('/page/')[1] || '').replace(/_/g, ' ') : null;
   const candidates = [...new Set([item.name, ...terms, hint].filter(Boolean))];
-  let page = null;
+  let page = null, nulls = 0;
   for (const c of candidates) {
     const q = await get(`https://en.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(c)}&redirects=1&prop=info|pageimages|extracts|pageprops&explaintext=1&inprop=url&piprop=original|name&format=json`, { json: true });
+    if (!q) nulls++;
     const p = q && Object.values(q.query?.pages || {})[0];
     if (p && !('missing' in p) && p.extract && p.extract.length > 400 && !('disambiguation' in (p.pageprops || {}))) { page = p; break; }
   }
   if (!page) {
     const s = await get(`https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(terms[0])}&srlimit=1&format=json`, { json: true });
+    if (!s) nulls++;
     const t = s?.query?.search?.[0]?.title;
     if (t) {
       const q = await get(`https://en.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(t)}&redirects=1&prop=info|pageimages|extracts|pageprops&explaintext=1&inprop=url&piprop=original|name&format=json`, { json: true });
@@ -233,7 +245,7 @@ async function wikipedia(item, terms) {
       if (p && !('missing' in p) && p.extract) page = { ...p, viaSearch: true };
     }
   }
-  if (!page) return null;
+  if (!page) return nulls ? { __failed: true } : null;
   const ext = await get(`https://en.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(page.title)}&prop=extlinks&ellimit=500&format=json`, { json: true });
   const links = Object.values(ext?.query?.pages || {})[0]?.extlinks?.map((l) => l['*']) || [];
   const cited = [...new Set(links.filter((u) => /pubmed\.ncbi|ncbi\.nlm\.nih\.gov\/pmc|doi\.org\/10\./.test(u)).map((u) => u.replace(/^\/\//, 'https://')))].slice(0, 40);
@@ -380,10 +392,8 @@ async function looksmaxOrg(item, terms) {
 const SRC_ARG = process.argv.includes('--sources') ? process.argv[process.argv.indexOf('--sources') + 1].split(',') : ['wiki', 'grok', 'pubmed', 'reddit', 'looksmax'];
 const CONC = Number(process.argv.includes('--conc') ? process.argv[process.argv.indexOf('--conc') + 1] : 5);
 const FN = { wiki: ['wikipedia', wikipedia], grok: ['grokipedia', grokipedia], pubmed: ['pubmed', pubmed], reddit: ['reddit', reddit], looksmax: ['looksmax', looksmaxOrg] };
-const ENTRIES = [
-  ...D.compounds.map((item) => ({ kind: 'compound', item })),
-  ...D.gear.map((item) => ({ kind: 'gear', item })),
-].filter((e) => !ONLY || e.item.name === ONLY);
+const { allEntries } = await import('./entries.mjs');
+const ENTRIES = allEntries().filter((e) => !ONLY || e.item.name === ONLY);
 
 let done = 0;
 async function work(e) {
@@ -404,7 +414,12 @@ async function work(e) {
     } catch (x) { prev.status[k] = 'fail:' + String(x.message || x).slice(0, 80); }
   }));
   prev.scrapedAt = new Date().toISOString();
-  writeFileSync(out, JSON.stringify(prev, null, 1));
+  // Re-read and merge only what this run fetched, so concurrent passes never clobber each other.
+  let cur = {};
+  try { cur = JSON.parse(readFileSync(out, 'utf8')); } catch {}
+  const merged = { ...cur, name: prev.name, kind: prev.kind, item: prev.item, terms, scrapedAt: prev.scrapedAt, status: { ...(cur.status || {}) } };
+  for (const k of todo) { merged[FN[k][0]] = prev[FN[k][0]]; merged.status[k] = prev.status[k]; }
+  writeFileSync(out, JSON.stringify(merged, null, 1));
   done++;
   const c = (k, v) => `${k}:${prev.status[k] === 'ok' ? v : prev.status[k] ? 'FAIL' : '·'}`;
   console.log(`[${done}/${ENTRIES.length}] ${e.item.name} — ${c('wiki', prev.wikipedia?.title || '-')} ${c('grok', prev.grokipedia ? 'y' : '-')} ${c('pubmed', prev.pubmed?.length ?? 0)} ${c('reddit', prev.reddit?.length ?? 0)} ${c('looksmax', prev.looksmax?.length ?? 0)} (${((Date.now() - t0) / 1000).toFixed(0)}s)`);
