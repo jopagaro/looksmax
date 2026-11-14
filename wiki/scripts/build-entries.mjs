@@ -13,7 +13,7 @@ const outDir = join(root, 'data', 'entries');
 mkdirSync(outDir, { recursive: true });
 const readJSON = (p) => { try { return JSON.parse(readFileSync(p, 'utf8')); } catch { return null; } };
 // Thread titles from forums are shown verbatim, so drop any containing slurs or explicit sexual content.
-const BLOCK = /\b(n[i1]gg\w*|f[a4]gg?\w*|tr[a4]nn\w*|retard\w*|k[i1]ke\w*|ch[i1]nk\w*|sp[i1]c\w*|beast\w*|bestial\w*|zoophil\w*|rape\w*|rapist\w*|porn\w*|p[o0]rn\w*|nsfw|cum\w*|jerk(ing)? off|masturbat\w*|penis|dick\w*|cock\w*|pussy|pedo\w*|paedo\w*|loli\w*|suicide|kys|rope\w*|necro\w*)\b/i;
+const BLOCK = /\b(n[i1]gg\w*|f[a4]gg?\w*|tr[a4]nn\w*|retard\w*|k[i1]ke\w*|ch[i1]nk\w*|sp[i1]c\w*|beast\w*|bestial\w*|zoophil\w*|rape\w*|rapist\w*|porn\w*|p[o0]rn\w*|nsfw|cum\w*|jerk(ing)? off|masturbat\w*|penis|dick\w*|cock\w*|pussy|pedo\w*|paedo\w*|loli\w*|suicide|kys|rope\w*|necro\w*|gay\w*|fetish\w*|orgasm\w*|raped)\b/i;
 const cleanTitle = (t) => !BLOCK.test(String(t || ''));
 const okUrl = (u) => typeof u === 'string' && /^https:\/\/[^\s"<>]+$/.test(u);
 const norm = (u) => String(u || '').replace(/^https?:\/\/(www\.)?/, '').replace(/[?#].*$/, '').replace(/\/+$/, '').toLowerCase();
@@ -127,7 +127,13 @@ for (const { kind, item } of ENTRIES) {
       const n = [...new Set(ids.split(',').map((x) => remap.get(canon(Number(x.trim())))).filter(Boolean))];
       return n.length ? n.map((x) => `[${x}]`).join('') : '';
     }).replace(/\s+([.,;:])/g, '$1').trim();
-    refs = order.map((id) => { const r = keep.get(id); return { title: String(r.title || r.url), url: r.url, source: r.source || '', year: Number(r.year) || null, type: r.type || '' }; });
+    refs = order.map((id) => {
+      const r = keep.get(id);
+      let title = String(r.title || r.url);
+      // Forum thread titles can be crude; keep the link, neutralise the wording.
+      if (!cleanTitle(title) || !cleanTitle(r.url)) title = `${r.source || 'Forum'} thread`;
+      return { title, url: r.url, source: r.source || '', year: Number(r.year) || null, type: r.type || '' };
+    });
     lead = (deep.lead || []).map(fix).filter(Boolean);
     sections = (deep.sections || []).map((x) => ({ h: String(x.h), paras: (x.paras || []).map(fix).filter(Boolean), subs: (x.subs || []).map((y) => ({ h: String(y.h), paras: (y.paras || []).map(fix).filter(Boolean) })).filter((y) => y.paras.length) })).filter((x) => x.paras.length || x.subs.length);
     infobox = (deep.infobox || []).filter((r) => Array.isArray(r) && r[0] && r[1]).map(([k, v]) => [String(k), fix(String(v))]).slice(0, 12);

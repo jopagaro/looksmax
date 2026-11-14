@@ -6,12 +6,30 @@
     "The scientific literature includes several systematic reviews, and their conclusions are qualified. A 2015 systematic review identified methodological shortcomings in the available studies, and later reviews and meta-analyses compare aligners with fixed appliances across malocclusion types and in extraction cases. [5][6][7] A 2022 review stated that tooth-movement accuracy with aligners relative to prediction was around 50 percent, whereas fixed appliances fared better. [8] Orthodontic organisations including the American Association of Orthodontists have raised concerns about direct-to-consumer services that do not involve in-person supervision by a dentist. [1]"
   ],
   "infobox": [
-    ["Type", "Removable orthodontic appliance (series of thermoformed trays)"],
-    ["Best-known system", "Invisalign (Align Technology); US sales began 1999 [1]"],
-    ["Typical wear", "About 22 hours a day, tray changed every 1-2 weeks [1]"],
-    ["Average treatment time", "Around 13.5 months, per Wikipedia [1]"],
-    ["Typical cost", "About $2,000 / GBP 1,500 in several countries [1]"],
-    ["Supervision", "Dentist or orthodontist; direct-to-consumer variants exist [1]"]
+    [
+      "Type",
+      "Removable orthodontic appliance (series of thermoformed trays)"
+    ],
+    [
+      "Best-known system",
+      "Invisalign (Align Technology); US sales began 1999 [1]"
+    ],
+    [
+      "Typical wear",
+      "About 22 hours a day, tray changed every 1-2 weeks [1]"
+    ],
+    [
+      "Average treatment time",
+      "Around 13.5 months, per Wikipedia [1]"
+    ],
+    [
+      "Typical cost",
+      "About $2,000 / GBP 1,500 in several countries [1]"
+    ],
+    [
+      "Supervision",
+      "Dentist or orthodontist; direct-to-consumer variants exist [1]"
+    ]
   ],
   "sections": [
     {
@@ -56,45 +74,325 @@
     }
   ],
   "timeline": [
-    {"year": "1944", "event": "Tooth Positioner introduced, an early removable appliance analogous to aligners. [2]"},
-    {"year": "1997", "event": "Align Technology founded by Zia Chishti. [1]"},
-    {"year": "1999", "event": "Invisalign sales begin in the United States. [1]"},
-    {"year": "2006", "event": "Align and Orthoclear settle; ClearCorrect is founded. [1]"},
-    {"year": "2014", "event": "SmileDirectClub launches direct-to-consumer aligners. [1]"},
-    {"year": "2015", "event": "Systematic review finds methodological shortcomings in clear aligner studies. [5]"},
-    {"year": "2017", "event": "Straumann acquires ClearCorrect. [1]"}
+    {
+      "year": "1944",
+      "event": "Tooth Positioner introduced, an early removable appliance analogous to aligners. [2]"
+    },
+    {
+      "year": "1997",
+      "event": "Align Technology founded by Zia Chishti. [1]"
+    },
+    {
+      "year": "1999",
+      "event": "Invisalign sales begin in the United States. [1]"
+    },
+    {
+      "year": "2006",
+      "event": "Align and Orthoclear settle; ClearCorrect is founded. [1]"
+    },
+    {
+      "year": "2014",
+      "event": "SmileDirectClub launches direct-to-consumer aligners. [1]"
+    },
+    {
+      "year": "2015",
+      "event": "Systematic review finds methodological shortcomings in clear aligner studies. [5]"
+    },
+    {
+      "year": "2017",
+      "event": "Straumann acquires ClearCorrect. [1]"
+    }
   ],
-  "lore": null,
+  "lore": {
+    "intro": "On looksmax.org, clear aligners are discussed as an alternative to braces, with recurring questions about gum recession, palate expansion, overbite and jaw position, and about whether aligners address skeletal problems.[30][31][32][33]",
+    "claims": [
+      {
+        "claim": "Braces cause gum recession, so Invisalign is the safer choice for facial structure.",
+        "believers": "Users ask whether braces would cause recession and whether Invisalign could, and one reply advises Invisalign for the poster's mild case.[30][31][33]",
+        "experts": "Reported risks in the aligner literature include relapse, root resorption and gum and periodontal effects, and one randomized trial compared periodontal health with aligners versus fixed appliances after orthognathic surgery.[1][23][25] The sources reviewed do not report a head-to-head recession comparison for general patients.",
+        "evidence": "untested"
+      },
+      {
+        "claim": "Invisalign can expand the palate slightly while straightening teeth.",
+        "believers": "A looksmax.org user asks whether Invisalign would \"expand my palate slightly\" to correct their teeth.[30]",
+        "experts": "A randomized trial compared Invisalign First phase I treatment with tooth-borne rapid maxillary expansion in mixed-dentition children for palatal volume and surface area.[24] The sources reviewed do not report skeletal palate expansion in adults from aligners.",
+        "evidence": "untested"
+      },
+      {
+        "claim": "Aligners alone cannot fix a larger overbite, which needs a Herbst or Forsus appliance.",
+        "believers": "A reply on looksmax.org says aligners \"can only do so much\" for a severe overbite and suggests a Herbst appliance or Forsus, calling Herbst more effective.[31]",
+        "experts": "Wikipedia describes aligners as indicated mainly for mild to moderate crowding or spacing of about 1 to 6 mm without jaw discrepancies and as less effective than braces for some movements.[1] A 2023 systematic review compared aligners with fixed appliances in complicated and severe malocclusions.[19]",
+        "evidence": "supported"
+      },
+      {
+        "claim": "Aligners (or braces) will not fix a recessed jaw or maxilla, so surgery is needed.",
+        "believers": "A looksmax.org poster says an orthodontist told them aligners do the same as braces, would require wisdom tooth extraction first, and could let the lower jaw come forward; a replier calls this \"holy cope\" and recommends bimaxillary surgery.[32]",
+        "experts": "Wikipedia states aligners are indicated for cases without jaw-bone discrepancies.[1] The sources reviewed describe tooth movement outcomes and do not evaluate aligners as a treatment for skeletal jaw position.[5][7]",
+        "evidence": "mixed"
+      }
+    ]
+  },
   "refs": [
-    {"id": 1, "title": "Clear aligners", "url": "https://en.wikipedia.org/wiki/Clear_aligners", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"},
-    {"id": 2, "title": "Clear aligners in orthodontic treatment", "url": "https://pubmed.ncbi.nlm.nih.gov/28297094/", "source": "Aust Dent J", "year": 2017, "type": "review"},
-    {"id": 3, "title": "Clear aligners (Grokipedia)", "url": "https://grokipedia.com/page/Clear_aligners", "source": "Grokipedia", "year": 2025, "type": "encyclopedia"},
-    {"id": 4, "title": "Clear Aligner Therapy: Up to date review article", "url": "https://pubmed.ncbi.nlm.nih.gov/37881665/", "source": "J Orthod Sci", "year": 2023, "type": "review"},
-    {"id": 5, "title": "Efficacy of clear aligners in controlling orthodontic tooth movement: a systematic review", "url": "https://pubmed.ncbi.nlm.nih.gov/25412265/", "source": "Angle Orthod", "year": 2015, "type": "review"},
-    {"id": 6, "title": "Clear Aligners in Extraction-Based Orthodontic Treatment: A Systematic Review and Meta-Analysis", "url": "https://pubmed.ncbi.nlm.nih.gov/41195763/", "source": "Orthod Craniofac Res", "year": 2026, "type": "review"},
-    {"id": 7, "title": "Effectiveness of clear orthodontic aligners in correcting malocclusions: a systematic review and meta-analysis", "url": "https://pubmed.ncbi.nlm.nih.gov/39947778/", "source": "J Evid Based Dent Pract", "year": 2025, "type": "review"},
-    {"id": 8, "title": "Biomechanics of clear aligners: hidden truths and first principles", "url": "https://pubmed.ncbi.nlm.nih.gov/34965910/", "source": "J World Fed Orthod", "year": 2022, "type": "review"},
-    {"id": 9, "title": "Effects of Composite Attachments on Orthodontic Clear Aligners Therapy: A Systematic Review", "url": "https://pubmed.ncbi.nlm.nih.gov/35057250/", "source": "Materials (Basel)", "year": 2022, "type": "review"},
-    {"id": 10, "title": "Clear Aligner Therapy: Up to date review article", "url": "https://pubmed.ncbi.nlm.nih.gov/37881665/", "source": "J Orthod Sci", "year": 2023, "type": "review"},
-    {"id": 11, "title": "Advances in orthodontic clear aligner materials", "url": "https://pubmed.ncbi.nlm.nih.gov/36311049/", "source": "Bioact Mater", "year": 2023, "type": "review"},
-    {"id": 12, "title": "Forces and moments generated by removable thermoplastic aligners: incisor torque, premolar derotation, and molar distalization", "url": "https://pubmed.ncbi.nlm.nih.gov/24880843/", "source": "Am J Orthod Dentofacial Orthop", "year": 2014, "type": "study"},
-    {"id": 13, "title": "How well does Invisalign work? A prospective clinical study evaluating the efficacy of tooth movement with Invisalign", "url": "https://pubmed.ncbi.nlm.nih.gov/19121497/", "source": "Am J Orthod Dentofacial Orthop", "year": 2009, "type": "study"},
-    {"id": 14, "title": "Has Invisalign improved? A prospective follow-up study on the efficacy of tooth movement with Invisalign", "url": "https://pubmed.ncbi.nlm.nih.gov/32620479/", "source": "Am J Orthod Dentofacial Orthop", "year": 2020, "type": "study"},
-    {"id": 15, "title": "Treatment outcome and efficacy of an aligner technique: incisor torque, premolar derotation and molar distalization", "url": "https://pubmed.ncbi.nlm.nih.gov/24923279/", "source": "BMC Oral Health", "year": 2014, "type": "study"},
-    {"id": 16, "title": "Clinical effectiveness of Invisalign orthodontic treatment: a systematic review", "url": "https://pubmed.ncbi.nlm.nih.gov/30264270/", "source": "Prog Orthod", "year": 2018, "type": "review"},
-    {"id": 17, "title": "Effectiveness of clear aligner therapy for orthodontic treatment: A systematic review", "url": "https://pubmed.ncbi.nlm.nih.gov/31651082/", "source": "Orthod Craniofac Res", "year": 2020, "type": "review"},
-    {"id": 18, "title": "Efficiency, effectiveness and treatment stability of clear aligners: A systematic review and meta-analysis", "url": "https://pubmed.ncbi.nlm.nih.gov/28547915/", "source": "Orthod Craniofac Res", "year": 2017, "type": "review"},
-    {"id": 19, "title": "Treatment Effectiveness of Clear Aligners in Correcting Complicated and Severe Malocclusion Cases Compared to Fixed Orthodontic Appliances: A Systematic Review", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10148732/", "source": "PMC", "year": 2023, "type": "review"},
-    {"id": 20, "title": "Comparative effectiveness of clear aligners and fixed appliances in orthodontic movement of the anterior teeth in adults: A systematic review", "url": "https://pubmed.ncbi.nlm.nih.gov/41172597/", "source": "PubMed", "year": 2025, "type": "review"},
-    {"id": 21, "title": "A comparison of treatment effectiveness between clear aligner and fixed appliance therapies", "url": "https://pubmed.ncbi.nlm.nih.gov/30674307/", "source": "BMC Oral Health", "year": 2019, "type": "study"},
-    {"id": 22, "title": "Outcome assessment of Invisalign and traditional orthodontic treatment compared with the American Board of Orthodontics objective grading system", "url": "https://pubmed.ncbi.nlm.nih.gov/16168325/", "source": "Am J Orthod Dentofacial Orthop", "year": 2005, "type": "study"},
-    {"id": 23, "title": "Root resorption during maxillary molar intrusion with clear aligners: a randomized controlled trial", "url": "https://pubmed.ncbi.nlm.nih.gov/37922387/", "source": "Angle Orthod", "year": 2023, "type": "trial"},
-    {"id": 24, "title": "Efficacy of clear aligners vs rapid palatal expanders on palatal volume and surface area in mixed dentition patients: A randomized controlled trial", "url": "https://pubmed.ncbi.nlm.nih.gov/39066746/", "source": "Am J Orthod Dentofacial Orthop", "year": 2024, "type": "trial"},
-    {"id": 25, "title": "Orthognathic surgery and aligners: periodontal health and quality of life in postsurgical orthodontic treatment with aligners versus fixed appliances", "url": "https://pubmed.ncbi.nlm.nih.gov/37026606/", "source": "Med Oral Patol Oral Cir Bucal", "year": 2023, "type": "trial"},
-    {"id": 26, "title": "Differences in finished case quality between Invisalign and traditional fixed appliances", "url": "https://pubmed.ncbi.nlm.nih.gov/35168256/", "source": "Angle Orthod", "year": 2022, "type": "trial"},
-    {"id": 27, "title": "Finishing with Invisalign", "url": "https://pubmed.ncbi.nlm.nih.gov/16552455/", "source": "Prog Orthod", "year": 2006, "type": "trial"},
-    {"id": 28, "title": "Effects of clear aligners on sleep bruxism: randomized controlled trial", "url": "https://pubmed.ncbi.nlm.nih.gov/29720327/", "source": "J Biol Regul Homeost Agents", "year": 2018, "type": "trial"},
-    {"id": 29, "title": "Invisalign transparency", "url": "https://pubmed.ncbi.nlm.nih.gov/36572044/", "source": "J Clin Orthod", "year": 2022, "type": "review"}
+    {
+      "id": 1,
+      "title": "Clear aligners",
+      "url": "https://en.wikipedia.org/wiki/Clear_aligners",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Clear aligners in orthodontic treatment",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28297094/",
+      "source": "Aust Dent J",
+      "year": 2017,
+      "type": "review"
+    },
+    {
+      "id": 3,
+      "title": "Clear aligners (Grokipedia)",
+      "url": "https://grokipedia.com/page/Clear_aligners",
+      "source": "Grokipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 4,
+      "title": "Clear Aligner Therapy: Up to date review article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37881665/",
+      "source": "J Orthod Sci",
+      "year": 2023,
+      "type": "review"
+    },
+    {
+      "id": 5,
+      "title": "Efficacy of clear aligners in controlling orthodontic tooth movement: a systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25412265/",
+      "source": "Angle Orthod",
+      "year": 2015,
+      "type": "review"
+    },
+    {
+      "id": 6,
+      "title": "Clear Aligners in Extraction-Based Orthodontic Treatment: A Systematic Review and Meta-Analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41195763/",
+      "source": "Orthod Craniofac Res",
+      "year": 2026,
+      "type": "review"
+    },
+    {
+      "id": 7,
+      "title": "Effectiveness of clear orthodontic aligners in correcting malocclusions: a systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39947778/",
+      "source": "J Evid Based Dent Pract",
+      "year": 2025,
+      "type": "review"
+    },
+    {
+      "id": 8,
+      "title": "Biomechanics of clear aligners: hidden truths and first principles",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34965910/",
+      "source": "J World Fed Orthod",
+      "year": 2022,
+      "type": "review"
+    },
+    {
+      "id": 9,
+      "title": "Effects of Composite Attachments on Orthodontic Clear Aligners Therapy: A Systematic Review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35057250/",
+      "source": "Materials (Basel)",
+      "year": 2022,
+      "type": "review"
+    },
+    {
+      "id": 10,
+      "title": "Clear Aligner Therapy: Up to date review article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37881665/",
+      "source": "J Orthod Sci",
+      "year": 2023,
+      "type": "review"
+    },
+    {
+      "id": 11,
+      "title": "Advances in orthodontic clear aligner materials",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36311049/",
+      "source": "Bioact Mater",
+      "year": 2023,
+      "type": "review"
+    },
+    {
+      "id": 12,
+      "title": "Forces and moments generated by removable thermoplastic aligners: incisor torque, premolar derotation, and molar distalization",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24880843/",
+      "source": "Am J Orthod Dentofacial Orthop",
+      "year": 2014,
+      "type": "study"
+    },
+    {
+      "id": 13,
+      "title": "How well does Invisalign work? A prospective clinical study evaluating the efficacy of tooth movement with Invisalign",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19121497/",
+      "source": "Am J Orthod Dentofacial Orthop",
+      "year": 2009,
+      "type": "study"
+    },
+    {
+      "id": 14,
+      "title": "Has Invisalign improved? A prospective follow-up study on the efficacy of tooth movement with Invisalign",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32620479/",
+      "source": "Am J Orthod Dentofacial Orthop",
+      "year": 2020,
+      "type": "study"
+    },
+    {
+      "id": 15,
+      "title": "Treatment outcome and efficacy of an aligner technique: incisor torque, premolar derotation and molar distalization",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24923279/",
+      "source": "BMC Oral Health",
+      "year": 2014,
+      "type": "study"
+    },
+    {
+      "id": 16,
+      "title": "Clinical effectiveness of Invisalign orthodontic treatment: a systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30264270/",
+      "source": "Prog Orthod",
+      "year": 2018,
+      "type": "review"
+    },
+    {
+      "id": 17,
+      "title": "Effectiveness of clear aligner therapy for orthodontic treatment: A systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31651082/",
+      "source": "Orthod Craniofac Res",
+      "year": 2020,
+      "type": "review"
+    },
+    {
+      "id": 18,
+      "title": "Efficiency, effectiveness and treatment stability of clear aligners: A systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28547915/",
+      "source": "Orthod Craniofac Res",
+      "year": 2017,
+      "type": "review"
+    },
+    {
+      "id": 19,
+      "title": "Treatment Effectiveness of Clear Aligners in Correcting Complicated and Severe Malocclusion Cases Compared to Fixed Orthodontic Appliances: A Systematic Review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10148732/",
+      "source": "PMC",
+      "year": 2023,
+      "type": "review"
+    },
+    {
+      "id": 20,
+      "title": "Comparative effectiveness of clear aligners and fixed appliances in orthodontic movement of the anterior teeth in adults: A systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41172597/",
+      "source": "PubMed",
+      "year": 2025,
+      "type": "review"
+    },
+    {
+      "id": 21,
+      "title": "A comparison of treatment effectiveness between clear aligner and fixed appliance therapies",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30674307/",
+      "source": "BMC Oral Health",
+      "year": 2019,
+      "type": "study"
+    },
+    {
+      "id": 22,
+      "title": "Outcome assessment of Invisalign and traditional orthodontic treatment compared with the American Board of Orthodontics objective grading system",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16168325/",
+      "source": "Am J Orthod Dentofacial Orthop",
+      "year": 2005,
+      "type": "study"
+    },
+    {
+      "id": 23,
+      "title": "Root resorption during maxillary molar intrusion with clear aligners: a randomized controlled trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37922387/",
+      "source": "Angle Orthod",
+      "year": 2023,
+      "type": "trial"
+    },
+    {
+      "id": 24,
+      "title": "Efficacy of clear aligners vs rapid palatal expanders on palatal volume and surface area in mixed dentition patients: A randomized controlled trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39066746/",
+      "source": "Am J Orthod Dentofacial Orthop",
+      "year": 2024,
+      "type": "trial"
+    },
+    {
+      "id": 25,
+      "title": "Orthognathic surgery and aligners: periodontal health and quality of life in postsurgical orthodontic treatment with aligners versus fixed appliances",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37026606/",
+      "source": "Med Oral Patol Oral Cir Bucal",
+      "year": 2023,
+      "type": "trial"
+    },
+    {
+      "id": 26,
+      "title": "Differences in finished case quality between Invisalign and traditional fixed appliances",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35168256/",
+      "source": "Angle Orthod",
+      "year": 2022,
+      "type": "trial"
+    },
+    {
+      "id": 27,
+      "title": "Finishing with Invisalign",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16552455/",
+      "source": "Prog Orthod",
+      "year": 2006,
+      "type": "trial"
+    },
+    {
+      "id": 28,
+      "title": "Effects of clear aligners on sleep bruxism: randomized controlled trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29720327/",
+      "source": "J Biol Regul Homeost Agents",
+      "year": 2018,
+      "type": "trial"
+    },
+    {
+      "id": 29,
+      "title": "Invisalign transparency",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36572044/",
+      "source": "J Clin Orthod",
+      "year": 2022,
+      "type": "review"
+    },
+    {
+      "id": 30,
+      "title": "looksmax.org: Invisalign or braces",
+      "url": "https://looksmax.org/threads/invisalign-or-braces.1766613/",
+      "source": "looksmax.org",
+      "type": "forum"
+    },
+    {
+      "id": 31,
+      "title": "looksmax.org: Invisalign",
+      "url": "https://looksmax.org/threads/invisalign.1765116/",
+      "source": "looksmax.org",
+      "type": "forum"
+    },
+    {
+      "id": 32,
+      "title": "looksmax.org: Invisalign and wisdom teeth extraction",
+      "url": "https://looksmax.org/threads/invisalign-and-wisdom-teeth-extraction.1758131/",
+      "source": "looksmax.org",
+      "type": "forum"
+    },
+    {
+      "id": 33,
+      "title": "looksmax.org: advice on getting braces invisalign without getting recessed",
+      "url": "https://looksmax.org/threads/advice-on-getting-braces-invisalign-without-getting-recessed.1775555/",
+      "source": "looksmax.org",
+      "type": "forum"
+    }
   ],
   "webSources": []
 }

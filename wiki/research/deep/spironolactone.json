@@ -6,12 +6,30 @@
     "Prescribing information warns of hyperkalaemia and recommends potassium monitoring, notes that it can cause gynecomastia, and reports feminisation of male fetuses in rat studies [3]. Wikipedia notes it was discovered in 1957 and introduced in 1959 [1]."
   ],
   "infobox": [
-    ["Drug class", "Mineralocorticoid receptor antagonist; weak antiandrogen"],
-    ["Routes", "Oral (topical forms exist in some places) [1]"],
-    ["Discovered / introduced", "1957 / 1959 [1]"],
-    ["Brand names", "Aldactone, among others [1]"],
-    ["Legal status", "Prescription-only; generic [1]"],
-    ["Pregnancy", "Not recommended; theoretical feminisation of a male fetus [1][3]"]
+    [
+      "Drug class",
+      "Mineralocorticoid receptor antagonist; weak antiandrogen"
+    ],
+    [
+      "Routes",
+      "Oral (topical forms exist in some places) [1]"
+    ],
+    [
+      "Discovered / introduced",
+      "1957 / 1959 [1]"
+    ],
+    [
+      "Brand names",
+      "Aldactone, among others [1]"
+    ],
+    [
+      "Legal status",
+      "Prescription-only; generic [1]"
+    ],
+    [
+      "Pregnancy",
+      "Not recommended; theoretical feminisation of a male fetus [1][3]"
+    ]
   ],
   "sections": [
     {
@@ -60,33 +78,236 @@
     }
   ],
   "timeline": [
-    { "year": "1957", "event": "Spironolactone is discovered [1]." },
-    { "year": "1959", "event": "Introduced for medical use [1]." },
-    { "year": "1999", "event": "RALES reports a 30 percent relative reduction in death in severe heart failure [7]." },
-    { "year": "2014", "event": "TOPCAT tests spironolactone in preserved-ejection-fraction heart failure [8]." },
-    { "year": "2023", "event": "SAFA randomised trial in women with acne is published in the BMJ [5]." },
-    { "year": "2024", "event": "AAD acne guideline gives a conditional recommendation; FASCE trial published [4][6]." }
+    {
+      "year": "1957",
+      "event": "Spironolactone is discovered [1]."
+    },
+    {
+      "year": "1959",
+      "event": "Introduced for medical use [1]."
+    },
+    {
+      "year": "1999",
+      "event": "RALES reports a 30 percent relative reduction in death in severe heart failure [7]."
+    },
+    {
+      "year": "2014",
+      "event": "TOPCAT tests spironolactone in preserved-ejection-fraction heart failure [8]."
+    },
+    {
+      "year": "2023",
+      "event": "SAFA randomised trial in women with acne is published in the BMJ [5]."
+    },
+    {
+      "year": "2024",
+      "event": "AAD acne guideline gives a conditional recommendation; FASCE trial published [4][6]."
+    }
   ],
-  "lore": null,
+  "lore": {
+    "intro": "Spironolactone is discussed on looksmax.org mainly as a topical anti-androgen for acne and skin texture during anabolic steroid use, and on T Nation in lists of drugs that affect hormones or breast tissue [19][21].",
+    "claims": [
+      {
+        "claim": "Topical spironolactone prevents steroid-related acne and poor skin texture without affecting hormone levels.",
+        "believers": "The author of a looksmax.org thread says a 2% to 5% prescription-grade cream or gel counters androgenic skin effects during a steroid cycle and, applied to the skin, does not lower testosterone [19]. A T Nation poster likewise says he had heard spironolactone cream is an effective topical anti-androgen for back acne [22].",
+        "experts": "A 2023 systematic review examined oral and topical spironolactone for androgen-related skin conditions [11]. The sources reviewed contain no trials in people using anabolic steroids.",
+        "evidence": "untested"
+      },
+      {
+        "claim": "Oral spironolactone helps hair loss caused by DHT.",
+        "believers": "The same looksmax.org thread says oral spironolactone can be tried for DHT-related hair loss while stating that finasteride or dutasteride is generally a better option [19].",
+        "experts": "A systematic review of androgenetic alopecia treatments and a review of oral and topical spironolactone describe the evidence as coming mainly from small studies [11][12].",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "Spironolactone can reduce water retention caused by growth hormone use.",
+        "believers": "A T Nation poster in a thread on growth hormone, quoted in the excerpt, says Aldactone helps reduce the high aldosterone and water retention that accompany HGH [20].",
+        "experts": "The US label describes spironolactone as an aldosterone blocker used as a diuretic in heart failure, cirrhosis and nephrotic syndrome, and Wikipedia calls it only a weak diuretic on its own [3][1]. The sources reviewed contain no studies in people using growth hormone.",
+        "evidence": "untested"
+      },
+      {
+        "claim": "Spironolactone can cause gynecomastia and lower androgen activity.",
+        "believers": "A T Nation 'Gyno Sticky' thread lists spironolactone among medications that cause 10 to 20 percent of gynecomastia cases in adults, and a quoted Wikipedia passage in another thread says it reduces testosterone production and blocks androgen receptors [21][20].",
+        "experts": "The US label lists gynecomastia, hyperkalemia and reduced libido among adverse effects and advises potassium monitoring [3]. Wikipedia describes weak antagonism of the androgen receptor and reduced androgen production [1].",
+        "evidence": "harms"
+      }
+    ]
+  },
   "refs": [
-    { "id": 1, "title": "Spironolactone", "url": "https://en.wikipedia.org/wiki/Spironolactone", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Spironolactone (Grokipedia)", "url": "https://grokipedia.com/page/Spironolactone", "source": "Grokipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 3, "title": "US drug label (DailyMed): spironolactone", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=08738ad4-1607-4d55-af71-6790477353bd", "source": "DailyMed", "year": 2025, "type": "label" },
-    { "id": 4, "title": "Guidelines of care for the management of acne vulgaris", "url": "https://pubmed.ncbi.nlm.nih.gov/38300170/", "source": "J Am Acad Dermatol", "year": 2024, "type": "guideline" },
-    { "id": 5, "title": "Effectiveness of spironolactone for women with acne vulgaris (SAFA)", "url": "https://pubmed.ncbi.nlm.nih.gov/37192767/", "source": "BMJ", "year": 2023, "type": "trial" },
-    { "id": 6, "title": "Efficacy of Spironolactone Compared with Doxycycline in Moderate Acne in Adult Females (FASCE)", "url": "https://pubmed.ncbi.nlm.nih.gov/38380975/", "source": "Acta Derm Venereol", "year": 2024, "type": "trial" },
-    { "id": 7, "title": "The effect of spironolactone on morbidity and mortality in patients with severe heart failure (RALES)", "url": "https://pubmed.ncbi.nlm.nih.gov/10471456/", "source": "N Engl J Med", "year": 1999, "type": "trial" },
-    { "id": 8, "title": "Spironolactone for heart failure with preserved ejection fraction", "url": "https://pubmed.ncbi.nlm.nih.gov/24716680/", "source": "N Engl J Med", "year": 2014, "type": "trial" },
-    { "id": 9, "title": "Spironolactone versus placebo, bisoprolol, and doxazosin (PATHWAY-2)", "url": "https://pubmed.ncbi.nlm.nih.gov/26414968/", "source": "Lancet", "year": 2015, "type": "trial" },
-    { "id": 10, "title": "Spironolactone vs Amiloride for Resistant Hypertension", "url": "https://pubmed.ncbi.nlm.nih.gov/40366680/", "source": "JAMA", "year": 2025, "type": "trial" },
-    { "id": 11, "title": "The Efficacy and Safety of Oral and Topical Spironolactone in Androgenetic Alopecia Treatment: A Systematic Review", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10010138", "source": "Clin Cosmet Investig Dermatol", "year": 2023, "type": "review" },
-    { "id": 12, "title": "Management of androgenic alopecia: a systematic review of the literature", "url": "https://pubmed.ncbi.nlm.nih.gov/38852607/", "source": "J Cosmet Laser Ther", "year": 2024, "type": "review" },
-    { "id": 13, "title": "Spironolactone for the treatment of acne in women, a retrospective study of 110 patients", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5440451", "source": "Int J Womens Dermatol", "year": 2017, "type": "study" },
-    { "id": 14, "title": "Oral Spironolactone in Post-teenage Female Patients with Acne Vulgaris", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3315877", "source": "J Clin Aesthet Dermatol", "year": 2012, "type": "review" },
-    { "id": 15, "title": "Innovations in Acne", "url": "https://pubmed.ncbi.nlm.nih.gov/39542558/", "source": "Dermatol Clin", "year": 2025, "type": "review" },
-    { "id": 16, "title": "Spironolactone rules", "url": "https://pubmed.ncbi.nlm.nih.gov/41905635/", "source": "J Am Acad Dermatol", "year": 2026, "type": "review" },
-    { "id": 17, "title": "NCT03953209 Spironolactone for the Treatment of Melasma", "url": "https://clinicaltrials.gov/study/NCT03953209", "source": "ClinicalTrials.gov", "year": 2020, "type": "trial" },
-    { "id": 18, "title": "Rates of hyperkalemia after publication of the Randomized Aldactone Evaluation Study", "url": "https://pubmed.ncbi.nlm.nih.gov/15295047/", "source": "N Engl J Med", "year": 2004, "type": "study" }
+    {
+      "id": 1,
+      "title": "Spironolactone",
+      "url": "https://en.wikipedia.org/wiki/Spironolactone",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Spironolactone (Grokipedia)",
+      "url": "https://grokipedia.com/page/Spironolactone",
+      "source": "Grokipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "US drug label (DailyMed): spironolactone",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=08738ad4-1607-4d55-af71-6790477353bd",
+      "source": "DailyMed",
+      "year": 2025,
+      "type": "label"
+    },
+    {
+      "id": 4,
+      "title": "Guidelines of care for the management of acne vulgaris",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38300170/",
+      "source": "J Am Acad Dermatol",
+      "year": 2024,
+      "type": "guideline"
+    },
+    {
+      "id": 5,
+      "title": "Effectiveness of spironolactone for women with acne vulgaris (SAFA)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37192767/",
+      "source": "BMJ",
+      "year": 2023,
+      "type": "trial"
+    },
+    {
+      "id": 6,
+      "title": "Efficacy of Spironolactone Compared with Doxycycline in Moderate Acne in Adult Females (FASCE)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38380975/",
+      "source": "Acta Derm Venereol",
+      "year": 2024,
+      "type": "trial"
+    },
+    {
+      "id": 7,
+      "title": "The effect of spironolactone on morbidity and mortality in patients with severe heart failure (RALES)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10471456/",
+      "source": "N Engl J Med",
+      "year": 1999,
+      "type": "trial"
+    },
+    {
+      "id": 8,
+      "title": "Spironolactone for heart failure with preserved ejection fraction",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24716680/",
+      "source": "N Engl J Med",
+      "year": 2014,
+      "type": "trial"
+    },
+    {
+      "id": 9,
+      "title": "Spironolactone versus placebo, bisoprolol, and doxazosin (PATHWAY-2)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26414968/",
+      "source": "Lancet",
+      "year": 2015,
+      "type": "trial"
+    },
+    {
+      "id": 10,
+      "title": "Spironolactone vs Amiloride for Resistant Hypertension",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40366680/",
+      "source": "JAMA",
+      "year": 2025,
+      "type": "trial"
+    },
+    {
+      "id": 11,
+      "title": "The Efficacy and Safety of Oral and Topical Spironolactone in Androgenetic Alopecia Treatment: A Systematic Review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10010138",
+      "source": "Clin Cosmet Investig Dermatol",
+      "year": 2023,
+      "type": "review"
+    },
+    {
+      "id": 12,
+      "title": "Management of androgenic alopecia: a systematic review of the literature",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38852607/",
+      "source": "J Cosmet Laser Ther",
+      "year": 2024,
+      "type": "review"
+    },
+    {
+      "id": 13,
+      "title": "Spironolactone for the treatment of acne in women, a retrospective study of 110 patients",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5440451",
+      "source": "Int J Womens Dermatol",
+      "year": 2017,
+      "type": "study"
+    },
+    {
+      "id": 14,
+      "title": "Oral Spironolactone in Post-teenage Female Patients with Acne Vulgaris",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3315877",
+      "source": "J Clin Aesthet Dermatol",
+      "year": 2012,
+      "type": "review"
+    },
+    {
+      "id": 15,
+      "title": "Innovations in Acne",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39542558/",
+      "source": "Dermatol Clin",
+      "year": 2025,
+      "type": "review"
+    },
+    {
+      "id": 16,
+      "title": "Spironolactone rules",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41905635/",
+      "source": "J Am Acad Dermatol",
+      "year": 2026,
+      "type": "review"
+    },
+    {
+      "id": 17,
+      "title": "NCT03953209 Spironolactone for the Treatment of Melasma",
+      "url": "https://clinicaltrials.gov/study/NCT03953209",
+      "source": "ClinicalTrials.gov",
+      "year": 2020,
+      "type": "trial"
+    },
+    {
+      "id": 18,
+      "title": "Rates of hyperkalemia after publication of the Randomized Aldactone Evaluation Study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15295047/",
+      "source": "N Engl J Med",
+      "year": 2004,
+      "type": "study"
+    },
+    {
+      "id": 19,
+      "title": "Topical spironolactone (for roidcels acnecels)",
+      "url": "https://looksmax.org/threads/topical-spironolactone-for-roidcels-acnecels.1360397/",
+      "source": "looksmax.org",
+      "type": "forum"
+    },
+    {
+      "id": 20,
+      "title": "18 on GH. Adding Prop and Dbol",
+      "url": "https://t-nation.com/t/18-on-gh-adding-prop-and-dbol/171291",
+      "source": "T Nation",
+      "year": 2011,
+      "type": "forum"
+    },
+    {
+      "id": 21,
+      "title": "Gyno Sticky",
+      "url": "https://t-nation.com/t/gyno-sticky/110807",
+      "source": "T Nation",
+      "year": 2015,
+      "type": "forum"
+    },
+    {
+      "id": 22,
+      "title": "Back Acne and What I Did About It.",
+      "url": "https://t-nation.com/t/back-acne-and-what-i-did-about-it/137606",
+      "source": "T Nation",
+      "year": 2009,
+      "type": "forum"
+    }
   ],
   "webSources": []
 }

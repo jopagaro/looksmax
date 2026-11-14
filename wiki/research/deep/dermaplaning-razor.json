@@ -6,11 +6,26 @@
     "Published evidence is limited. A 2011 systematic review of dermaplaning, topical oxygen and light therapy found that the data supporting these noninvasive facial rejuvenation methods were scarce and largely anecdotal [2]. Laboratory studies show that dermaplaning removes part of the stratum corneum and can alter how drugs permeate excised skin [3][4], and older surgical literature describes the use of dermatome-based dermaplaning for acne scarring [5][6]. No controlled trial of the home facial razor for cosmetic smoothing is known."
   ],
   "infobox": [
-    ["Type", "Single-blade facial razor / dermaplaning blade"],
-    ["Typical price", "About $10-20"],
-    ["Purpose", "Exfoliation and vellus hair removal"],
-    ["Duration of effect", "Weeks (temporary)"],
-    ["Professional version", "Sterile scalpel-type blade"]
+    [
+      "Type",
+      "Single-blade facial razor / dermaplaning blade"
+    ],
+    [
+      "Typical price",
+      "About $10-20"
+    ],
+    [
+      "Purpose",
+      "Exfoliation and vellus hair removal"
+    ],
+    [
+      "Duration of effect",
+      "Weeks (temporary)"
+    ],
+    [
+      "Professional version",
+      "Sterile scalpel-type blade"
+    ]
   ],
   "sections": [
     {
@@ -67,22 +82,126 @@
     }
   ],
   "timeline": [
-    { "year": "1977", "event": "Surgical papers describe dermaplaning with dermatome-type devices as part of acne scar management.[5][6]" },
-    { "year": "1980", "event": "Review lists dermaplaning among alternatives to excisional surgery for facial skin lesions.[7]" },
-    { "year": "2011", "event": "Systematic review finds scarce, anecdotal evidence for dermaplaning in facial rejuvenation.[2]" },
-    { "year": "2023", "event": "Laboratory studies examine dermaplaning's effect on transdermal drug permeation.[3][4]" }
+    {
+      "year": "1977",
+      "event": "Surgical papers describe dermaplaning with dermatome-type devices as part of acne scar management.[5][6]"
+    },
+    {
+      "year": "1980",
+      "event": "Review lists dermaplaning among alternatives to excisional surgery for facial skin lesions.[7]"
+    },
+    {
+      "year": "2011",
+      "event": "Systematic review finds scarce, anecdotal evidence for dermaplaning in facial rejuvenation.[2]"
+    },
+    {
+      "year": "2023",
+      "event": "Laboratory studies examine dermaplaning's effect on transdermal drug permeation.[3][4]"
+    }
   ],
-  "lore": null,
+  "lore": {
+    "intro": "Dermaplaning appears on looksmax.org in a how-to guide that presents it as a low-cost skincare step; the guide is the only substantive forum material found for this entry.[10]",
+    "claims": [
+      {
+        "claim": "Dermaplaning removes dead skin cells and vellus hair for a more radiant, healthier-looking face.",
+        "believers": "The guide's author says dermaplaning is non-invasive, suits people with a lot of dead skin and vellus hair, and gives a smoother, more radiant appearance.[10]",
+        "experts": "Descriptions of the technique state that the blade removes the stratum corneum and fine hair, with effects lasting weeks;[1][3] a 2011 systematic review found the scientific data for dermaplaning and similar methods scarce and anecdotal.[2]",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "Dermaplaning improves absorption of skincare products.",
+        "believers": "The guide says removing dead cells and vellus hair \"enhances the absorption of skincare products.\"[10]",
+        "experts": "A laboratory study found that four strokes of a dermaplaning device reduced skin electrical resistance and increased 24-hour permeation of two model drugs through excised skin, with variable absorption between samples.[3] No published trial has tested this for cosmetic products on living facial skin.",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "Dermaplaning every 1-2 weeks maximises benefit without harming the moisture barrier.",
+        "believers": "The guide recommends dermaplaning every one to two weeks and a routine of cleanser, toner and moisturizer.[10]",
+        "experts": "The laboratory study reported loss of stratum corneum barrier function after dermaplaning,[3] and reported risks include redness, irritation and breakouts.[1] The sources reviewed identify no trial establishing an ideal frequency.",
+        "evidence": "untested"
+      }
+    ]
+  },
   "refs": [
-    { "id": 1, "title": "Dermaplaning", "url": "https://grokipedia.com/page/Dermaplaning", "source": "Grokipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Dermaplaning, topical oxygen, and photodynamic therapy: a systematic review of the literature", "url": "https://pubmed.ncbi.nlm.nih.gov/21533984/", "source": "Aesthetic Plastic Surgery", "year": 2011, "type": "review" },
-    { "id": 3, "title": "Dermaplaning for Transdermal Drug Permeation Enhancement: A Qualitative and Quantitative Assessment", "url": "https://pubmed.ncbi.nlm.nih.gov/36725790/", "source": "AAPS PharmSciTech", "year": 2023, "type": "study" },
-    { "id": 4, "title": "Transdermal delivery of naloxone hydrochloride using minimally invasive physical ablation techniques", "url": "https://pubmed.ncbi.nlm.nih.gov/37336303/", "source": "International Journal of Pharmaceutics", "year": 2023, "type": "study" },
-    { "id": 5, "title": "Reconstruction of the acne-scarred face", "url": "https://pubmed.ncbi.nlm.nih.gov/141468/", "source": "Journal of Dermatologic Surgery and Oncology", "year": 1977, "type": "study" },
-    { "id": 6, "title": "Treatment of acne pitting and scarring", "url": "https://pubmed.ncbi.nlm.nih.gov/20607937/", "source": "Plastic and Reconstructive Surgery", "year": 1977, "type": "study" },
-    { "id": 7, "title": "Facial blemishes and their treatment", "url": "https://pubmed.ncbi.nlm.nih.gov/7393576/", "source": "Otolaryngologic Clinics of North America", "year": 1980, "type": "review" },
-    { "id": 8, "title": "Dermatome dermaplaning and sycosis nuchae excision", "url": "https://pubmed.ncbi.nlm.nih.gov/140035/", "source": "Clinics in Plastic Surgery", "year": 1977, "type": "study" },
-    { "id": 9, "title": "Management of rhinophyma with Versajet and ReCell", "url": "https://pubmed.ncbi.nlm.nih.gov/23510790/", "source": "British Journal of Oral and Maxillofacial Surgery", "year": 2013, "type": "study" }
+    {
+      "id": 1,
+      "title": "Dermaplaning",
+      "url": "https://grokipedia.com/page/Dermaplaning",
+      "source": "Grokipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Dermaplaning, topical oxygen, and photodynamic therapy: a systematic review of the literature",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21533984/",
+      "source": "Aesthetic Plastic Surgery",
+      "year": 2011,
+      "type": "review"
+    },
+    {
+      "id": 3,
+      "title": "Dermaplaning for Transdermal Drug Permeation Enhancement: A Qualitative and Quantitative Assessment",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36725790/",
+      "source": "AAPS PharmSciTech",
+      "year": 2023,
+      "type": "study"
+    },
+    {
+      "id": 4,
+      "title": "Transdermal delivery of naloxone hydrochloride using minimally invasive physical ablation techniques",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37336303/",
+      "source": "International Journal of Pharmaceutics",
+      "year": 2023,
+      "type": "study"
+    },
+    {
+      "id": 5,
+      "title": "Reconstruction of the acne-scarred face",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/141468/",
+      "source": "Journal of Dermatologic Surgery and Oncology",
+      "year": 1977,
+      "type": "study"
+    },
+    {
+      "id": 6,
+      "title": "Treatment of acne pitting and scarring",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20607937/",
+      "source": "Plastic and Reconstructive Surgery",
+      "year": 1977,
+      "type": "study"
+    },
+    {
+      "id": 7,
+      "title": "Facial blemishes and their treatment",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7393576/",
+      "source": "Otolaryngologic Clinics of North America",
+      "year": 1980,
+      "type": "review"
+    },
+    {
+      "id": 8,
+      "title": "Dermatome dermaplaning and sycosis nuchae excision",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/140035/",
+      "source": "Clinics in Plastic Surgery",
+      "year": 1977,
+      "type": "study"
+    },
+    {
+      "id": 9,
+      "title": "Management of rhinophyma with Versajet and ReCell",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23510790/",
+      "source": "British Journal of Oral and Maxillofacial Surgery",
+      "year": 2013,
+      "type": "study"
+    },
+    {
+      "id": 10,
+      "title": "looksmax.org: Achieving More Radiant Skin: A DIY Guide to Dermaplaning",
+      "url": "https://looksmax.org/threads/achieving-more-radiant-skin-a-diy-guide-to-dermaplaning.1004229/",
+      "source": "looksmax.org",
+      "type": "forum"
+    }
   ],
   "webSources": []
 }

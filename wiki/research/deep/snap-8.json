@@ -6,12 +6,30 @@
     "Published evidence specific to SNAP-8 is sparse. A 2020 review reported no peer-reviewed clinical study of the peptide on its own and noted that the wrinkle-reduction figures in circulation come from the manufacturer's website; the human studies that exist test it as one ingredient among several [2][3][4]."
   ],
   "infobox": [
-    ["Type", "Synthetic cosmetic peptide"],
-    ["INCI name", "Acetyl octapeptide-3 (also listed as acetyl glutamyl heptapeptide-1) [1]"],
-    ["Sequence", "Ac-Glu-Glu-Met-Gln-Arg-Arg-Ala-Asp-NH2 [1][2]"],
-    ["Molecular weight", "About 1,075 g/mol (as reported by Grokipedia) [1]"],
-    ["Route", "Topical (serums, creams, microneedle patches)"],
-    ["Regulatory status", "Cosmetic ingredient; not an approved drug"]
+    [
+      "Type",
+      "Synthetic cosmetic peptide"
+    ],
+    [
+      "INCI name",
+      "Acetyl octapeptide-3 (also listed as acetyl glutamyl heptapeptide-1) [1]"
+    ],
+    [
+      "Sequence",
+      "Ac-Glu-Glu-Met-Gln-Arg-Arg-Ala-Asp-NH2 [1][2]"
+    ],
+    [
+      "Molecular weight",
+      "About 1,075 g/mol (as reported by Grokipedia) [1]"
+    ],
+    [
+      "Route",
+      "Topical (serums, creams, microneedle patches)"
+    ],
+    [
+      "Regulatory status",
+      "Cosmetic ingredient; not an approved drug"
+    ]
   ],
   "sections": [
     {
@@ -42,12 +60,70 @@
     }
   ],
   "timeline": [],
-  "lore": null,
+  "lore": {
+    "intro": "A single looksmax.org guide thread presents SNAP-8 as a possible anti-aging peptide, framed by its author with the question 'Anti Aging Hack? Cope? Wrinkle Preventor?'.",
+    "claims": [
+      {
+        "claim": "SNAP-8 relaxes facial muscles to give a Botox-like effect on wrinkles",
+        "believers": "The guide's author says SNAP-8 competes with the SNAP-25 protein in the SNARE complex, so facial muscles cannot fully contract, giving a 'botox-like' reduction of fine lines [5].",
+        "experts": "The same mechanism is proposed in encyclopedic and review sources, described as conceptually similar to botulinum toxin but milder and reversible [1][2].",
+        "evidence": "untested"
+      },
+      {
+        "claim": "Clinical trials support SNAP-8's wrinkle reduction",
+        "believers": "The guide includes a section headed 'Clinical Trials and Proof?' alongside one on what the peptide will not fix [5].",
+        "experts": "A 2020 review reported no peer-reviewed clinical study of SNAP-8 alone and noted that wrinkle-reduction figures in circulation come from the manufacturer's website; the human studies found test it as one ingredient among several [2][3][4].",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "An injectable version of SNAP-8 may be worth researching",
+        "believers": "The guide's author states they will continue researching an injectable version of SNAP-8 [5].",
+        "experts": "No sources cited in this article describe studies of an injectable SNAP-8.",
+        "evidence": "untested"
+      }
+    ]
+  },
   "refs": [
-    { "id": 1, "title": "Acetyl octapeptide-3 (Grokipedia)", "url": "https://grokipedia.com/page/Acetyl_octapeptide-3", "source": "Grokipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Cosmeceutical Peptides in the Framework of Sustainable Wellness Economy", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7662462", "source": "Frontiers in Chemistry", "year": 2020, "type": "review" },
-    { "id": 3, "title": "Clinical Safety and Efficacy Evaluation of a Dissolving Microneedle Patch Having Dual Anti-Wrinkle Effects With Safe and Long-Term Activities", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11291098", "source": "Annals of Dermatology", "year": 2024, "type": "study" },
-    { "id": 4, "title": "Efficacy of bioactive peptides loaded on hyaluronic acid microneedle patches: A monocentric clinical study", "url": "https://pubmed.ncbi.nlm.nih.gov/31134751/", "source": "Journal of Cosmetic Dermatology", "year": 2020, "type": "study" }
+    {
+      "id": 1,
+      "title": "Acetyl octapeptide-3 (Grokipedia)",
+      "url": "https://grokipedia.com/page/Acetyl_octapeptide-3",
+      "source": "Grokipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Cosmeceutical Peptides in the Framework of Sustainable Wellness Economy",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7662462",
+      "source": "Frontiers in Chemistry",
+      "year": 2020,
+      "type": "review"
+    },
+    {
+      "id": 3,
+      "title": "Clinical Safety and Efficacy Evaluation of a Dissolving Microneedle Patch Having Dual Anti-Wrinkle Effects With Safe and Long-Term Activities",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11291098",
+      "source": "Annals of Dermatology",
+      "year": 2024,
+      "type": "study"
+    },
+    {
+      "id": 4,
+      "title": "Efficacy of bioactive peptides loaded on hyaluronic acid microneedle patches: A monocentric clinical study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31134751/",
+      "source": "Journal of Cosmetic Dermatology",
+      "year": 2020,
+      "type": "study"
+    },
+    {
+      "id": 5,
+      "title": "looksmax.org: Full Snap-8 Guide",
+      "url": "https://looksmax.org/threads/full-snap-8-guide.1948496/",
+      "source": "looksmax.org",
+      "year": null,
+      "type": "forum"
+    }
   ],
   "webSources": []
 }

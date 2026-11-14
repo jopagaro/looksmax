@@ -29,8 +29,10 @@ try { list = JSON.parse(readFileSync(join(root, 'research', 'new-entries.json'),
 
 const entries = [];
 const skipped = [];
+const seenKey = new Set();
+const key = (n) => String(n).toLowerCase().replace(/[^a-z0-9]+/g, '');
 for (const n of list) {
-  if (!n?.name || appNames.has(n.name.toLowerCase())) continue;
+  if (!n?.name || appNames.has(n.name.toLowerCase()) || seenKey.has(key(n.name))) continue;
   const deepFile = join(root, 'research', 'deep', slug(n.name) + '.json');
   let card = null;
   try { card = JSON.parse(readFileSync(deepFile, 'utf8')).card; } catch {}
@@ -41,6 +43,7 @@ for (const n of list) {
   if (n.kind === 'meta') e.risk = RISK.includes(card.risk) ? card.risk : 'moderate';
   if (n.kind === 'compound' && card.structure) e.structure = String(card.structure);
   if (n.mentions) e.mentions = n.mentions;
+  seenKey.add(key(n.name));
   entries.push(e);
 }
 writeFileSync(join(root, 'assets', 'wiki-entries.js'),

@@ -6,12 +6,30 @@
     "Resistance training with free weights is described in encyclopedic sources as increasing muscular strength, muscle size, bone density and several health markers [1]. Systematic reviews of training load find that muscle growth is broadly similar across a wide range of loads taken close to failure, whereas heavier loads produce larger strength gains [3][4]. Most published research concerns resistance training in general rather than barbells and plates as a product."
   ],
   "infobox": [
-    ["Type", "Strength-training equipment (loadable bar with weight plates)"],
-    ["Men's Olympic bar", "20 kg, about 220 cm long [2]"],
-    ["Women's Olympic bar", "15 kg, about 201 cm long [2]"],
-    ["Typical price (set with rack and bench)", "About $200 and up"],
-    ["Related equipment", "Power rack, bench, collars, flooring"],
-    ["Regulatory status", "General fitness equipment; no medical clearance"]
+    [
+      "Type",
+      "Strength-training equipment (loadable bar with weight plates)"
+    ],
+    [
+      "Men's Olympic bar",
+      "20 kg, about 220 cm long [2]"
+    ],
+    [
+      "Women's Olympic bar",
+      "15 kg, about 201 cm long [2]"
+    ],
+    [
+      "Typical price (set with rack and bench)",
+      "About $200 and up"
+    ],
+    [
+      "Related equipment",
+      "Power rack, bench, collars, flooring"
+    ],
+    [
+      "Regulatory status",
+      "General fitness equipment; no medical clearance"
+    ]
   ],
   "sections": [
     {
@@ -62,20 +80,127 @@
     }
   ],
   "timeline": [
-    { "year": "1840s", "event": "Strongman Karl Rappo is reported to use globe-ended iron barbells in stage performances [2]." },
-    { "year": "1854", "event": "Hippolyte Triat is reported to introduce fixed-weight spherical-ended barbells in his Paris gymnasium [2]." },
-    { "year": "1902", "event": "Alan Calvert's Milo Barbell Company is reported to popularise shot-loaded barbells in the United States [2]." },
-    { "year": "1928", "event": "Kaspar Berg is reported to make a standardised Olympic barbell used at the Amsterdam Games [2]." }
+    {
+      "year": "1840s",
+      "event": "Strongman Karl Rappo is reported to use globe-ended iron barbells in stage performances [2]."
+    },
+    {
+      "year": "1854",
+      "event": "Hippolyte Triat is reported to introduce fixed-weight spherical-ended barbells in his Paris gymnasium [2]."
+    },
+    {
+      "year": "1902",
+      "event": "Alan Calvert's Milo Barbell Company is reported to popularise shot-loaded barbells in the United States [2]."
+    },
+    {
+      "year": "1928",
+      "event": "Kaspar Berg is reported to make a standardised Olympic barbell used at the Amsterdam Games [2]."
+    }
   ],
-  "lore": null,
+  "lore": {
+    "intro": "Barbells and plates appear in looksmax.org debates over strength versus hypertrophy training, and in T Nation threads on building a home gym [8][9].",
+    "claims": [
+      {
+        "claim": "Strength training is preferable to hypertrophy training",
+        "believers": "A looksmax.org thread argues that strength training gives better functional purpose and neural drive than training for muscle size, asking 'would you rather be strong or look good'; replies argue that hypertrophy makes the heart work harder and that grappling favours strength [8].",
+        "experts": "A systematic review found heavier loads produced greater strength gains, with hypertrophy similar between low- and high-load training; a network meta-analysis reached comparable conclusions about load [3][4]. Neither study evaluated functional outcomes in fighting or attractiveness.",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "A barbell-and-plates home gym is a low-cost option",
+        "believers": "A T Nation user says a rack, benches, a dip attachment, a power bar, a homemade platform and 600 lb of CAP plates cost under $2,000 in 2017 [9].",
+        "experts": "No published studies in the sources reviewed here examine cost or outcomes of home barbell setups. Reviews of exercise technique, such as bench press variations, discuss shoulder loads and potential injury risk [5].",
+        "evidence": "untested"
+      },
+      {
+        "claim": "Lifting straps raise rep counts on grip-limited barbell exercises",
+        "believers": "A T Nation poster says figure-8 lifting straps let him complete about 20-30 percent more reps on grip-demanding exercises such as pull-ups, barbell rows and deadlifts [10].",
+        "experts": "No published studies in the sources reviewed here have tested lifting straps; cited research on barbell training concerns load, technique and supplementation [3][4][5][6].",
+        "evidence": "untested"
+      }
+    ]
+  },
   "refs": [
-    { "id": 1, "title": "Strength training", "url": "https://en.wikipedia.org/wiki/Strength_training", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Barbell", "url": "https://grokipedia.com/page/Barbell", "source": "Grokipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 3, "title": "Strength and Hypertrophy Adaptations Between Low- vs. High-Load Resistance Training: A Systematic Review and Meta-analysis", "url": "https://pubmed.ncbi.nlm.nih.gov/28834797/", "source": "Journal of Strength and Conditioning Research", "year": 2017, "type": "review" },
-    { "id": 4, "title": "Resistance Training Load Effects on Muscle Hypertrophy and Strength Gain: Systematic Review and Network Meta-analysis", "url": "https://pubmed.ncbi.nlm.nih.gov/33433148/", "source": "Medicine & Science in Sports & Exercise", "year": 2021, "type": "review" },
-    { "id": 5, "title": "Effects of bench press technique variations on musculoskeletal shoulder loads and potential injury risk", "url": "https://pubmed.ncbi.nlm.nih.gov/38974522/", "source": "Frontiers in Physiology", "year": 2024, "type": "study" },
-    { "id": 6, "title": "The Effects of Creatine Supplementation Combined with Resistance Training on Regional Measures of Muscle Hypertrophy: A Systematic Review with Meta-Analysis", "url": "https://pubmed.ncbi.nlm.nih.gov/37432300/", "source": "Nutrients", "year": 2023, "type": "review" },
-    { "id": 7, "title": "Gluteus Maximus Activation during Common Strength and Hypertrophy Exercises: A Systematic Review", "url": "https://pubmed.ncbi.nlm.nih.gov/32132843/", "source": "Journal of Sports Science & Medicine", "year": 2020, "type": "review" }
+    {
+      "id": 1,
+      "title": "Strength training",
+      "url": "https://en.wikipedia.org/wiki/Strength_training",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Barbell",
+      "url": "https://grokipedia.com/page/Barbell",
+      "source": "Grokipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "Strength and Hypertrophy Adaptations Between Low- vs. High-Load Resistance Training: A Systematic Review and Meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28834797/",
+      "source": "Journal of Strength and Conditioning Research",
+      "year": 2017,
+      "type": "review"
+    },
+    {
+      "id": 4,
+      "title": "Resistance Training Load Effects on Muscle Hypertrophy and Strength Gain: Systematic Review and Network Meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33433148/",
+      "source": "Medicine & Science in Sports & Exercise",
+      "year": 2021,
+      "type": "review"
+    },
+    {
+      "id": 5,
+      "title": "Effects of bench press technique variations on musculoskeletal shoulder loads and potential injury risk",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38974522/",
+      "source": "Frontiers in Physiology",
+      "year": 2024,
+      "type": "study"
+    },
+    {
+      "id": 6,
+      "title": "The Effects of Creatine Supplementation Combined with Resistance Training on Regional Measures of Muscle Hypertrophy: A Systematic Review with Meta-Analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37432300/",
+      "source": "Nutrients",
+      "year": 2023,
+      "type": "review"
+    },
+    {
+      "id": 7,
+      "title": "Gluteus Maximus Activation during Common Strength and Hypertrophy Exercises: A Systematic Review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32132843/",
+      "source": "Journal of Sports Science & Medicine",
+      "year": 2020,
+      "type": "review"
+    },
+    {
+      "id": 8,
+      "title": "Strength training mog's hypertrophy training (looksmax.org)",
+      "url": "https://looksmax.org/threads/strength-training-mogs-hypertrophy-training-heres-why.586694/",
+      "source": "looksmax.org",
+      "year": null,
+      "type": "forum"
+    },
+    {
+      "id": 9,
+      "title": "Flame Free Confession III: Even More Flame Free (Part 2) (T Nation)",
+      "url": "https://t-nation.com/t/flame-free-confession-iii-even-more-flame-free-part-2/273731",
+      "source": "T Nation forum",
+      "year": 2021,
+      "type": "forum"
+    },
+    {
+      "id": 10,
+      "title": "Heavy Metal Thread (and Associated Genres) (T Nation)",
+      "url": "https://t-nation.com/t/heavy-metal-thread-and-associated-genres/270342",
+      "source": "T Nation forum",
+      "year": 2020,
+      "type": "forum"
+    }
   ],
   "webSources": []
 }

@@ -6,11 +6,26 @@
     "Evidence is strongest for photoaging and for precursor and keratinocyte skin lesions; meta-analysis of observational studies has found no significant association between sunscreen use and overall skin cancer risk, which its authors attributed partly to study design problems and earlier-era products. Reviews note limits including under-application, a paucity of approved filters covering long UVA and visible light, safety questions about systemic absorption of some chemical filters, and debate about environmental effects. [2][6][7][8]"
   ],
   "infobox": [
-    ["Type", "Topical photoprotective product"],
-    ["Filter classes", "Chemical (organic), mineral, hybrid"],
-    ["Typical price", "About $10-25"],
-    ["Regulation (US)", "Over-the-counter drug; \"broad spectrum\" claim defined by FDA rules (2012)"],
-    ["Standard recommendation", "Broad-spectrum SPF 30 or higher (dermatology bodies)"]
+    [
+      "Type",
+      "Topical photoprotective product"
+    ],
+    [
+      "Filter classes",
+      "Chemical (organic), mineral, hybrid"
+    ],
+    [
+      "Typical price",
+      "About $10-25"
+    ],
+    [
+      "Regulation (US)",
+      "Over-the-counter drug; \"broad spectrum\" claim defined by FDA rules (2012)"
+    ],
+    [
+      "Standard recommendation",
+      "Broad-spectrum SPF 30 or higher (dermatology bodies)"
+    ]
   ],
   "sections": [
     {
@@ -82,35 +97,260 @@
     }
   ],
   "timeline": [
-    { "year": "1974", "event": "Wikipedia dates the introduction of the SPF rating to 1974. [1]" },
-    { "year": "1993", "event": "Randomized trial reports reduction of solar keratoses with regular sunscreen use. [10]" },
-    { "year": "2011", "event": "Follow-up of a randomized trial reports reduced melanoma after regular sunscreen use. [11]" },
-    { "year": "2012", "event": "US rules define broad spectrum labelling, effective from summer. [1]" },
-    { "year": "2013", "event": "Nambour randomized trial on sunscreen and skin aging published. [3]" },
-    { "year": "2019", "event": "FDA begins classifying filters; JAMA absorption trial published. [1][17]" },
-    { "year": "2021", "event": "PABA and trolamine salicylate banned in US. [1]" }
+    {
+      "year": "1974",
+      "event": "Wikipedia dates the introduction of the SPF rating to 1974. [1]"
+    },
+    {
+      "year": "1993",
+      "event": "Randomized trial reports reduction of solar keratoses with regular sunscreen use. [10]"
+    },
+    {
+      "year": "2011",
+      "event": "Follow-up of a randomized trial reports reduced melanoma after regular sunscreen use. [11]"
+    },
+    {
+      "year": "2012",
+      "event": "US rules define broad spectrum labelling, effective from summer. [1]"
+    },
+    {
+      "year": "2013",
+      "event": "Nambour randomized trial on sunscreen and skin aging published. [3]"
+    },
+    {
+      "year": "2019",
+      "event": "FDA begins classifying filters; JAMA absorption trial published. [1][17]"
+    },
+    {
+      "year": "2021",
+      "event": "PABA and trolamine salicylate banned in US. [1]"
+    }
   ],
-  "lore": null,
+  "lore": {
+    "intro": "Daily sunscreen is widely promoted on looksmax.org as a cheap anti-aging step, alongside discussion of white cast, ingredient safety and differences between regional filters. [20][21][22]",
+    "claims": [
+      {
+        "claim": "Daily sunscreen is the most cost-efficient anti-aging measure and slows skin aging.",
+        "believers": "A looksmax.org recommendations thread calls sunscreen the most cost-effective anti-aging tool, and a guide thread states that daily users of SPF 15 or higher show 24 percent less skin aging. [21][22]",
+        "experts": "The Nambour randomized trial reported less skin aging among daily sunscreen users than discretionary users, summarized as about 24 percent over 4.5 years, and a 2021 review concluded that evidence supports sunscreen for preventing photoaging. [3][4][5]",
+        "evidence": "supported"
+      },
+      {
+        "claim": "Most skin aging, roughly 90 percent, is caused by the sun.",
+        "believers": "A looksmax.org guide thread states that an estimated 90 percent of skin aging is caused by the sun. [21]",
+        "experts": "The sources cited in this article describe ultraviolet radiation as a main driver of photoaging but do not evaluate the 90 percent figure. [2][4]",
+        "evidence": "untested"
+      },
+      {
+        "claim": "Sunscreen chemicals are toxic, so hats are preferable.",
+        "believers": "A reply in a looksmax.org guide thread advises wearing a hat instead of exposing oneself to harmful chemicals, and another thread title asks whether sunscreen is harmful. [21][23]",
+        "experts": "Two JAMA randomized trials measured plasma concentrations of several chemical filters after application, and the FDA has classed only zinc oxide and titanium dioxide as generally recognized as safe and effective. [16][17][1] Public health bodies, as reported by Wikipedia, consider the risk of sun-induced skin cancer to outweigh unproven toxicity concerns. [1]",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "Mineral sunscreens leave a white cast or darken the skin, and European or Asian filters are better.",
+        "believers": "A member says mineral sunscreens either leave a white cast or make skin appear darker and asks for alternatives, while another thread poster says European and Asian sunscreens use filters not allowed in the United States that are more powerful or elegant. [20][22]",
+        "experts": "Wikipedia reports that, as of 2021, only zinc oxide and titanium dioxide are classed as generally recognized as safe and effective by the FDA. [1] A review also notes a paucity of approved filters covering long-wavelength UVA. [2][4] No cited study compares cosmetic acceptability across regional products.",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "Sun exposure benefits, such as vitamin D and higher testosterone, argue against heavy sunscreen use.",
+        "believers": "A looksmax.org guide thread lists sunlight as a source of vitamin D and quotes a report that an hour of sunshine can raise testosterone by up to 69 percent. [21]",
+        "experts": "An international expert panel review in 2019 concluded that broad-spectrum sunscreens are unlikely to compromise vitamin D status in healthy populations. [14] No cited source examines sunlight and testosterone.",
+        "evidence": "mixed"
+      }
+    ]
+  },
   "refs": [
-    { "id": 1, "title": "Sunscreen (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Sunscreen", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Sunscreens part 1: Mechanisms and efficacy", "url": "https://pubmed.ncbi.nlm.nih.gov/38772426/", "source": "Journal of the American Academy of Dermatology", "year": 2025, "type": "review" },
-    { "id": 3, "title": "Sunscreen and prevention of skin aging: a randomized trial", "url": "https://pubmed.ncbi.nlm.nih.gov/23732711/", "source": "Annals of Internal Medicine", "year": 2013, "type": "trial" },
-    { "id": 4, "title": "Sunscreens and Photoaging: A Review of Current Literature", "url": "https://pubmed.ncbi.nlm.nih.gov/34387824/", "source": "American Journal of Clinical Dermatology", "year": 2021, "type": "review" },
-    { "id": 5, "title": "Daily sunscreen slowed skin aging in middle-aged adults (summary of Nambour trial)", "url": "https://mdedge.com/familymedicine/article/59024/dermatology/daily-sunscreen-slowed-skin-aging-middle-aged-adults", "source": "MDedge Family Medicine", "year": 2013, "type": "news" },
-    { "id": 6, "title": "Use of sunscreen and risk of melanoma and non-melanoma skin cancer: a systematic review and meta-analysis", "url": "https://pubmed.ncbi.nlm.nih.gov/29620003/", "source": "European Journal of Dermatology", "year": 2018, "type": "review" },
-    { "id": 7, "title": "A review of sunscreen safety and efficacy", "url": "https://pubmed.ncbi.nlm.nih.gov/9747581/", "source": "Photochemistry and Photobiology", "year": 1998, "type": "review" },
-    { "id": 8, "title": "A review of sunscreen in the prevention of skin cancer", "url": "https://pubmed.ncbi.nlm.nih.gov/40123348/", "source": "Journal of Oncology Pharmacy Practice", "year": 2025, "type": "review" },
-    { "id": 9, "title": "Sunscreen (Grokipedia)", "url": "https://grokipedia.com/page/Sunscreen", "source": "Grokipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 10, "title": "Reduction of solar keratoses by regular sunscreen use", "url": "https://pubmed.ncbi.nlm.nih.gov/8377777/", "source": "New England Journal of Medicine", "year": 1993, "type": "trial" },
-    { "id": 11, "title": "Reduced melanoma after regular sunscreen use: randomized trial follow-up", "url": "https://pubmed.ncbi.nlm.nih.gov/21135266/", "source": "Journal of Clinical Oncology", "year": 2011, "type": "trial" },
-    { "id": 12, "title": "A review of sunscreen in the prevention of skin cancer (2025)", "url": "https://pubmed.ncbi.nlm.nih.gov/40123348/", "source": "Journal of Oncology Pharmacy Practice", "year": 2025, "type": "review" },
-    { "id": 13, "title": "Broad-spectrum sunscreen use and the development of new nevi in white children: a randomized controlled trial", "url": "https://pubmed.ncbi.nlm.nih.gov/10865273/", "source": "JAMA", "year": 2000, "type": "trial" },
-    { "id": 14, "title": "Sunscreen photoprotection and vitamin D status", "url": "https://pubmed.ncbi.nlm.nih.gov/31069788/", "source": "British Journal of Dermatology", "year": 2019, "type": "review" },
-    { "id": 15, "title": "The effect of regular sunscreen use on vitamin D levels in an Australian population", "url": "https://pubmed.ncbi.nlm.nih.gov/7726582/", "source": "Archives of Dermatology", "year": 1995, "type": "trial" },
-    { "id": 16, "title": "Effect of Sunscreen Application on Plasma Concentration of Sunscreen Active Ingredients: A Randomized Clinical Trial", "url": "https://pubmed.ncbi.nlm.nih.gov/31961417/", "source": "JAMA", "year": 2020, "type": "trial" },
-    { "id": 17, "title": "Effect of Sunscreen Application Under Maximal Use Conditions on Plasma Concentration of Sunscreen Active Ingredients", "url": "https://pubmed.ncbi.nlm.nih.gov/31058986/", "source": "JAMA", "year": 2019, "type": "trial" },
-    { "id": 18, "title": "Dispelling myths about sunscreen", "url": "https://pubmed.ncbi.nlm.nih.gov/32633165/", "source": "Journal of Dermatological Treatment", "year": 2022, "type": "review" },
-    { "id": 19, "title": "Management of Acne in Pregnancy", "url": "https://pubmed.ncbi.nlm.nih.gov/38453786/", "source": "American Journal of Clinical Dermatology", "year": 2024, "type": "review" }
+    {
+      "id": 1,
+      "title": "Sunscreen (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Sunscreen",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Sunscreens part 1: Mechanisms and efficacy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38772426/",
+      "source": "Journal of the American Academy of Dermatology",
+      "year": 2025,
+      "type": "review"
+    },
+    {
+      "id": 3,
+      "title": "Sunscreen and prevention of skin aging: a randomized trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23732711/",
+      "source": "Annals of Internal Medicine",
+      "year": 2013,
+      "type": "trial"
+    },
+    {
+      "id": 4,
+      "title": "Sunscreens and Photoaging: A Review of Current Literature",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34387824/",
+      "source": "American Journal of Clinical Dermatology",
+      "year": 2021,
+      "type": "review"
+    },
+    {
+      "id": 5,
+      "title": "Daily sunscreen slowed skin aging in middle-aged adults (summary of Nambour trial)",
+      "url": "https://mdedge.com/familymedicine/article/59024/dermatology/daily-sunscreen-slowed-skin-aging-middle-aged-adults",
+      "source": "MDedge Family Medicine",
+      "year": 2013,
+      "type": "news"
+    },
+    {
+      "id": 6,
+      "title": "Use of sunscreen and risk of melanoma and non-melanoma skin cancer: a systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29620003/",
+      "source": "European Journal of Dermatology",
+      "year": 2018,
+      "type": "review"
+    },
+    {
+      "id": 7,
+      "title": "A review of sunscreen safety and efficacy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9747581/",
+      "source": "Photochemistry and Photobiology",
+      "year": 1998,
+      "type": "review"
+    },
+    {
+      "id": 8,
+      "title": "A review of sunscreen in the prevention of skin cancer",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40123348/",
+      "source": "Journal of Oncology Pharmacy Practice",
+      "year": 2025,
+      "type": "review"
+    },
+    {
+      "id": 9,
+      "title": "Sunscreen (Grokipedia)",
+      "url": "https://grokipedia.com/page/Sunscreen",
+      "source": "Grokipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 10,
+      "title": "Reduction of solar keratoses by regular sunscreen use",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8377777/",
+      "source": "New England Journal of Medicine",
+      "year": 1993,
+      "type": "trial"
+    },
+    {
+      "id": 11,
+      "title": "Reduced melanoma after regular sunscreen use: randomized trial follow-up",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21135266/",
+      "source": "Journal of Clinical Oncology",
+      "year": 2011,
+      "type": "trial"
+    },
+    {
+      "id": 12,
+      "title": "A review of sunscreen in the prevention of skin cancer (2025)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40123348/",
+      "source": "Journal of Oncology Pharmacy Practice",
+      "year": 2025,
+      "type": "review"
+    },
+    {
+      "id": 13,
+      "title": "Broad-spectrum sunscreen use and the development of new nevi in white children: a randomized controlled trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10865273/",
+      "source": "JAMA",
+      "year": 2000,
+      "type": "trial"
+    },
+    {
+      "id": 14,
+      "title": "Sunscreen photoprotection and vitamin D status",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31069788/",
+      "source": "British Journal of Dermatology",
+      "year": 2019,
+      "type": "review"
+    },
+    {
+      "id": 15,
+      "title": "The effect of regular sunscreen use on vitamin D levels in an Australian population",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7726582/",
+      "source": "Archives of Dermatology",
+      "year": 1995,
+      "type": "trial"
+    },
+    {
+      "id": 16,
+      "title": "Effect of Sunscreen Application on Plasma Concentration of Sunscreen Active Ingredients: A Randomized Clinical Trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31961417/",
+      "source": "JAMA",
+      "year": 2020,
+      "type": "trial"
+    },
+    {
+      "id": 17,
+      "title": "Effect of Sunscreen Application Under Maximal Use Conditions on Plasma Concentration of Sunscreen Active Ingredients",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31058986/",
+      "source": "JAMA",
+      "year": 2019,
+      "type": "trial"
+    },
+    {
+      "id": 18,
+      "title": "Dispelling myths about sunscreen",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32633165/",
+      "source": "Journal of Dermatological Treatment",
+      "year": 2022,
+      "type": "review"
+    },
+    {
+      "id": 19,
+      "title": "Management of Acne in Pregnancy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38453786/",
+      "source": "American Journal of Clinical Dermatology",
+      "year": 2024,
+      "type": "review"
+    },
+    {
+      "id": 20,
+      "title": "looksmax.org thread: \"Sunscreen Ruins My Face\"",
+      "url": "https://looksmax.org/threads/sunscreen-ruins-my-face.514290/",
+      "source": "looksmax.org",
+      "year": null,
+      "type": "forum"
+    },
+    {
+      "id": 21,
+      "title": "looksmax.org thread: \"Guide Sunscreen, and why should you use\"",
+      "url": "https://looksmax.org/threads/sunscreen-and-why-should-you-use.369349/",
+      "source": "looksmax.org",
+      "year": null,
+      "type": "forum"
+    },
+    {
+      "id": 22,
+      "title": "looksmax.org thread: \"Serious Sunscreen recommendations\"",
+      "url": "https://looksmax.org/threads/sunscreen-recommendations.307512/",
+      "source": "looksmax.org",
+      "year": null,
+      "type": "forum"
+    },
+    {
+      "id": 23,
+      "title": "looksmax.org thread: \"sunscreen harmful\"",
+      "url": "https://looksmax.org/threads/sunscreen-harmful.4776/",
+      "source": "looksmax.org",
+      "year": null,
+      "type": "forum"
+    }
   ],
-  "webSources": [ { "url": "https://en.wikipedia.org/wiki/Sunscreen", "title": "Sunscreen (Wikipedia)" } ]
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Sunscreen",
+      "title": "Sunscreen (Wikipedia)"
+    }
+  ]
 }
