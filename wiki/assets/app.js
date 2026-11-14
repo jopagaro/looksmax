@@ -24,6 +24,8 @@
   const riskTag = (r) => `<span class="tag ${r === 'high' || r === 'extreme' ? 'tag-unproven' : r === 'moderate' ? 'tag-white' : ''}">${esc(RISK_LABEL[r] || r)}</span>`;
   const GUIDES = window.LM_GUIDES || [];
   const ISSUES = window.LM_ISSUES || [];
+  const POP = window.LM_POP || {};
+  const popOf = (e) => POP[e.item.name] || 0;
   const app = document.getElementById('app');
 
   // ───────── helpers ─────────
@@ -188,6 +190,11 @@
 
       <div class="ticker" aria-hidden="true" style="margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw)"><div class="ticker-track">${tick}${tick}</div></div>
 
+      ${Object.keys(POP).length ? `<section>
+        <h2 class="section-h">Most discussed on the forums <small>by looksmax.org thread titles</small></h2>
+        <div class="grid">${[...ENTRIES].sort((a, b) => popOf(b) - popOf(a)).slice(0, 9).map(entryCard).join('')}</div>
+        <p style="margin-top:16px"><a class="btn" href="#/index?sort=popular">See the full ranking →</a></p>
+      </section>` : ''}
       ${ISSUES.length ? `<section>
         <h2 class="section-h">Browse by topic <small>${ISSUES.length} topics</small></h2>
         <div class="f-row" style="padding:0">${ISSUES.map((t) => `<a class="chip" href="#/topic/${t.id}">${esc(t.name)} <span class="mute">${t.approaches.length}</span></a>`).join('')}</div>
@@ -284,12 +291,14 @@
       return [e.item.name, e.item.aka || '', e.item.summary, e.item.note || ''].join(' ').toLowerCase().includes(q);
     });
     const link = (over) => {
-      const p = new URLSearchParams({ kind, cat, ev, q: params.get('q') || '', ...over });
+      const p = new URLSearchParams({ kind, cat, ev, q: params.get('q') || '', sort: params.get('sort') || '', ...over });
       [...p.keys()].forEach((k) => { if (!p.get(k) || p.get(k) === 'all') p.delete(k); });
       if (p.get('kind') === 'compound') p.delete('kind');
       const s = p.toString();
       return '#/index' + (s ? '?' + s : '');
     };
+    const sort = params.get('sort') === 'popular' ? 'popular' : 'az';
+    if (sort === 'popular') items.sort((a, b) => popOf(b) - popOf(a));
     const evClass = (e) => ({ strong: 'on', moderate: 'on', limited: 'on', unproven: 'on-pop' }[e]);
     const blurb = cat !== 'all' && meta[cat] ? meta[cat].blurb : null;
     return `<div class="page stack" style="--gap:32px">
@@ -313,7 +322,7 @@
               <a class="chip ${ev === 'all' ? 'on' : ''}" href="${link({ ev: 'all' })}">All evidence</a>
               ${EV_ORDER.map((e) => `<a class="chip ${ev === e ? evClass(e) : ''}" href="${link({ ev: ev === e ? 'all' : e })}">${esc(D.evidenceMeta[e].label)}</a>`).join('')}
             </div>
-            <span class="count">${items.length} <small>results</small></span>
+            <span class="count"><a class="chip ${sort === 'popular' ? 'on' : ''}" href="${link({ sort: sort === 'popular' ? '' : 'popular' })}">${sort === 'popular' ? '★ Most discussed' : 'Sort: most discussed'}</a> ${items.length} <small>results</small></span>
           </div>
         </div>
         ${blurb ? `<div><p class="blurb-bar">${esc(blurb)}</p></div>` : ''}
@@ -392,7 +401,8 @@
     if (kind === 'gear' && item.price) basics.push(row('Street price', item.price));
     const rating = [row('Evidence', evTag(item.evidence), true),
       kind === 'compound' ? row('Status', esc(D.statusMeta[item.status].label), true) : kind === 'meta' ? row('Risk', riskTag(item.risk), true) : row('Outcome', esc(D.outcomeMeta[item.outcome].label), true)];
-    if (item.mentions) rating.push(row('Forum mentions', `${item.mentions.toLocaleString()} looksmax.org threads`));
+    const mentions = item.mentions || R.mentions;
+    if (mentions) rating.push(row('Forum mentions', `${Number(mentions).toLocaleString()} looksmax.org thread titles`));
     if (R.studies.length) rating.push(row('Studies indexed', String(R.studies.length)));
     if (R.reddit.length + R.forums.length) rating.push(row('Forum threads', String(R.reddit.length + R.forums.length)));
     const details = R.infobox.map(([k, v]) => row(k, v));

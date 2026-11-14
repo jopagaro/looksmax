@@ -1,0 +1,83 @@
+{
+  "name": "Q-switched / picosecond laser for pigment",
+  "card": {
+    "summary": "Ultra-short-pulse lasers used in clinics to break up pigment such as sun spots, melasma and tattoo ink; clinic-based, with limited published trial detail.",
+    "aka": "Q-switched Nd:YAG, alexandrite, ruby; picosecond laser; PicoSure, PicoWay",
+    "evidence": "limited",
+    "risk": "moderate",
+    "note": "Pigment changes after treatment are common and more likely in darker skin types.",
+    "price": null
+  },
+  "quick": {
+    "overview": "Q-switched lasers deliver very short, high-energy pulses, and picosecond lasers deliver even shorter ones. Dermatologists use them to target pigment in the skin, including tattoo ink and, in clinics, brown spots such as lentigines and melasma.\n\nRegistered trials of picosecond lasers exist for melasma, wrinkles and skin tightening, but results are not summarised in the sources reviewed, so the evidence for the appearance uses is described here as limited.",
+    "mechanism": "Pigment particles absorb the laser light in nanoseconds or picoseconds, heat rapidly and fragment, and the body then clears the smaller pieces via macrophages and the lymphatic system. Encyclopedic sources describe the effect as selective photothermolysis with a photomechanical shock component, sparing surrounding tissue.",
+    "risks": "About half of tattoo-removal patients have temporary pigment changes that usually resolve within 6 to 12 months, and these are more likely in skin types IV to VI. Hypopigmentation, paradoxical darkening of some inks, rare scarring and very rare blistering are reported."
+  },
+  "lead": [
+    "Q-switched and picosecond lasers are pulsed lasers whose very short pulses are used in dermatology to fragment pigment. Q-switched devices emit pulses in the nanosecond range; picosecond devices are shorter still. Both are used for tattoo removal and, in clinics, for pigmented skin lesions such as lentigines and melasma.[1]",
+    "Commercial Q-switched lasers emerged in the late 1980s, following early research in Glasgow in the early 1980s. Wavelengths in common use include 532, 694, 755 and 1064 nanometres, chosen to match the target colour and skin type.[1]",
+    "For the appearance uses on this page, published trial detail is limited. Clinical trial registrations exist for picosecond lasers in melasma, wrinkles and skin tightening, but their outcomes are not summarised here.[2][3][4][5]"
+  ],
+  "infobox": [
+    ["Type", "Clinic-based pulsed laser"],
+    ["Pulse length", "Nanoseconds (Q-switched); picoseconds (picosecond lasers)[1]"],
+    ["Common wavelengths", "532, 694, 755, 1064 nm[1]"],
+    ["Commercial Q-switched lasers", "Late 1980s[1]"],
+    ["Typical spacing of sessions", "Eight weeks or more (tattoo removal)[1]"]
+  ],
+  "sections": [
+    {
+      "h": "How it works",
+      "paras": [
+        "Targets absorb the light and heat faster than heat can spread to nearby tissue, a principle called selective photothermolysis. A photomechanical shock wave then helps break the pigment into fragments, which are cleared by immune cells and the lymphatic system.[1]",
+        "Four factors are described as determining success: penetration depth, wavelength absorption by the target, pulse duration and energy per pulse.[1] Multiple wavelengths are used because different colours absorb differently, and the 1064 nm wavelength is described as suitable for darker skin and black ink.[1]",
+        "Picosecond systems are the newer category. A 2017 study used multiphoton microscopy to examine picosecond-laser-induced optical breakdown in human skin in vivo.[6] Encyclopedic sources describe anecdotal claims that picosecond lasers clear ink faster.[1]"
+      ]
+    },
+    {
+      "h": "Uses",
+      "paras": [
+        "Tattoo removal is the best-documented use, and Q-switched lasers are described as the standard modern method.[1] A laboratory analysis of 41 tattoo pigment compounds examined their chemical structure and absorption spectra to understand why coloured tattoos respond unpredictably.[7]",
+        "Cosmetic lentigines and melasma are the pigment uses that matter for appearance culture. Melasma is a chronic, relapsing condition for which a general reference lists lasers such as KTP among procedural options and states that treatments are often unsatisfying.[8]"
+      ]
+    },
+    {
+      "h": "Adverse effects",
+      "paras": [
+        "In tattoo removal about half of patients have temporary pigment changes that usually resolve within 6 to 12 months, and these are more likely in skin types IV to VI. Hypopigmentation is more frequent in darker skin and with higher energy or more frequent sessions. Scarring is rare and large blisters are very rare. Paradoxical darkening can occur, especially with white, flesh-tone, pink and makeup inks.[1]",
+        "A case report described successful treatment of treatment-resistant laser-induced pigment darkening of a cosmetic tattoo.[9]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "Trial registrations include a completed 40-person study of 1,064 and 595 nm picosecond Nd:YAG laser for melasma (started 2016), a completed 60-person trial of a picosecond laser for unwanted tattoos (started 2013), two completed 20-person studies of a picosecond laser with a lens array for wrinkles (started 2013), and a 30-person study of fractional 1,064 nm picosecond laser for facial skin tightening (started 2023, status unknown).[2][3][4][5][10] Published results from these registrations are not summarised here.",
+        "Search hits on Q-switched lasers in rheumatoid arthritis, fibre-laser physics and dental enamel concern unrelated uses and are not discussed."
+      ]
+    }
+  ],
+  "timeline": [
+    { "year": "Early 1980s", "event": "Glasgow research on laser tattoo removal.[1]" },
+    { "year": "Late 1980s", "event": "Commercial Q-switched lasers emerge.[1]" },
+    { "year": "2006", "event": "Multi-wavelength lasers begin covering more ink colours.[1]" },
+    { "year": "2013", "event": "Registered picosecond trials for tattoos and wrinkles begin.[3][4][5]" },
+    { "year": "2016", "event": "Registered picosecond melasma trial begins.[2]" }
+  ],
+  "lore": null,
+  "refs": [
+    { "id": 1, "title": "Tattoo removal", "url": "https://en.wikipedia.org/wiki/Tattoo_removal", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
+    { "id": 2, "title": "Efficacy and Safety of Picosecond, Neodymium-doped Yttrium Aluminum Garnet Laser Therapy Using 1,064 nm and 595 nm (NCT03040089)", "url": "https://clinicaltrials.gov/study/NCT03040089", "source": "ClinicalTrials.gov", "year": 2016, "type": "trial" },
+    { "id": 3, "title": "Laser Treatment of Tattoos With Pico Laser (NCT02146807)", "url": "https://clinicaltrials.gov/study/NCT02146807", "source": "ClinicalTrials.gov", "year": 2013, "type": "trial" },
+    { "id": 4, "title": "Evaluating the Safety and Efficacy of the Pico Laser With a Specialized Lens Array for the Treatment of Wrinkles (NCT02091102)", "url": "https://clinicaltrials.gov/study/NCT02091102", "source": "ClinicalTrials.gov", "year": 2013, "type": "trial" },
+    { "id": 5, "title": "Evaluation of the Safety and Efficacy of the Pico Laser With a Specialized Lens Array for the Treatment of Wrinkles (NCT02091089)", "url": "https://clinicaltrials.gov/study/NCT02091089", "source": "ClinicalTrials.gov", "year": 2013, "type": "trial" },
+    { "id": 6, "title": "In vivo multiphoton-microscopy of picosecond-laser-induced optical breakdown in human skin", "url": "https://pubmed.ncbi.nlm.nih.gov/28333369/", "source": "Lasers in Surgery and Medicine", "year": 2017, "type": "study" },
+    { "id": 7, "title": "Q-switch laser and tattoo pigments: first results of the chemical and photophysical analysis of 41 compounds", "url": "https://pubmed.ncbi.nlm.nih.gov/10636999/", "source": "Lasers in Surgery and Medicine", "year": 2000, "type": "study" },
+    { "id": 8, "title": "Melasma", "url": "https://en.wikipedia.org/wiki/Melasma", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
+    { "id": 9, "title": "Successful treatment of treatment-resistant laser-induced pigment darkening of a cosmetic tattoo", "url": "https://pubmed.ncbi.nlm.nih.gov/11074513/", "source": "Lasers in Surgery and Medicine", "year": 2000, "type": "study" },
+    { "id": 10, "title": "Efficacy and Safety of Fractional 1064-nm Picosecond Laser for Facial Skin Tightening (NCT06231914)", "url": "https://clinicaltrials.gov/study/NCT06231914", "source": "ClinicalTrials.gov", "year": 2023, "type": "trial" }
+  ],
+  "webSources": [
+    { "url": "https://en.wikipedia.org/wiki/Tattoo_removal", "title": "Tattoo removal (Wikipedia)" },
+    { "url": "https://en.wikipedia.org/wiki/Melasma", "title": "Melasma (Wikipedia)" }
+  ]
+}

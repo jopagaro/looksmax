@@ -1,0 +1,58 @@
+{
+"name": "Face rating apps / AI scoring",
+"card": {
+  "summary": "Apps and AI tools that score a face photo for attractiveness, popular in looksmaxxing; the scores are model outputs, and a notable early contest drew bias complaints.",
+  "aka": "AI attractiveness rating, face scoring apps, PSL rating apps",
+  "evidence": "unproven",
+  "risk": "moderate",
+  "note": "Scores are not validated measures; a 2016 AI beauty contest was criticized for racially skewed results.",
+  "structure": null
+},
+"quick": {
+  "overview": "Face rating apps use algorithms to give a photo a numeric attractiveness score, often on scales borrowed from looksmaxxing such as PSL. They are used to track self-improvement or to compare faces.\n\nThe sources available describe the category only in general terms, and no validation study of these specific apps was found. A well-known early example, the Beauty.AI contest, generated controversy over biased results.",
+  "mechanism": "Such tools typically assess features such as facial symmetry, blemishes, wrinkles and estimated age, and sometimes resemblance to reference faces, as Beauty.AI did. Research on symmetry shows it raises attractiveness ratings, but also that findings are modest and nuanced.",
+  "risks": "Reported concerns include bias from training data and the effect on self-image of numeric scoring; Wikipedia's looksmaxxing article describes commentators linking the wider culture to body dysmorphia. Scores differ between apps and are not validated clinical measures."
+},
+"lead": [
+ "Face rating apps and AI scoring tools estimate a person's attractiveness from a photograph and return a number or tier. In looksmaxxing they are used alongside forum ratings and paid analyses by content creators, and some report results on community scales such as PSL. [1][2]",
+ "A reference point from outside the community is Beauty.AI, a 2016 app-based contest by Youth Laboratories in which artificial intelligence judged symmetry, blemishes, wrinkles, estimated age and resemblance to models among more than 60,000 entrants. Of 44 winners, 37 were white, which critics cited as evidence of bias; the company attributed it partly to limited data. [3]"
+],
+"infobox": [
+ ["Type", "Software / mobile apps"],
+ ["Typical inputs", "Front and side face photos"],
+ ["Common scales", "PSL (about 1-8) or 1-10 [2]"],
+ ["Early notable example", "Beauty.AI (2016) [3]"],
+ ["Validation studies found", "None"]
+],
+"sections": [
+ {"h": "Description", "paras": [
+  "A Grokipedia entry on looksmaxxing says jawline attractiveness is sometimes rated on a 1-10 scale including by AI tools, and that content creators sell analyses and apps for facial ratings, without naming specific apps. [2] Wikipedia describes the PSL scale as a roughly 1-8 rating created on forum communities. [1]"
+ ]},
+ {"h": "Beauty.AI", "paras": [
+  "Beauty.AI was run by Youth Laboratories, with Insilico Medicine helping test deep learning methods. Roughly 75% of entrants were white Europeans. After the results, criticism from social justice and computer science backgrounds led to the creation of Diversity.AI, a think tank on bias in AI. The AI also reportedly discarded photos of dark-skinned people when lighting was poor. [3]"
+ ]},
+ {"h": "Related research", "paras": [
+  "Wikipedia's article on facial symmetry reports that symmetry increases attractiveness ratings in both sexes, with a larger role for female faces, and that symmetry and averageness appear to contribute independently. It cautions that correlation does not establish causation and that mirroring techniques used in studies can create artificial features. [4]"
+ ]},
+ {"h": "Clinical studies", "paras": [
+  "No studies found validating commercial face rating apps. Related research on facial symmetry and attractiveness exists but does not test these apps. [4]"
+ ]}
+],
+"timeline": [
+ {"year": "2016", "event": "Beauty.AI contest results announced; bias controversy follows. [3]"},
+ {"year": "Mid-2010s", "event": "PSL scale emerges on incel-associated forums. [1][2]"}
+],
+"lore": null,
+"refs": [
+ {"id": 1, "title": "Looksmaxxing", "url": "https://en.wikipedia.org/wiki/Looksmaxxing", "source": "Wikipedia", "year": null, "type": "encyclopedia"},
+ {"id": 2, "title": "Looksmaxxing", "url": "https://grokipedia.com/page/Looksmaxxing", "source": "Grokipedia", "year": null, "type": "encyclopedia"},
+ {"id": 3, "title": "Beauty.AI", "url": "https://en.wikipedia.org/wiki/Beauty.AI", "source": "Wikipedia", "year": null, "type": "encyclopedia"},
+ {"id": 4, "title": "Facial symmetry", "url": "https://en.wikipedia.org/wiki/Facial_symmetry", "source": "Wikipedia", "year": null, "type": "encyclopedia"}
+],
+"webSources": [
+ {"url": "https://en.wikipedia.org/wiki/Looksmaxxing", "title": "Looksmaxxing - Wikipedia"},
+ {"url": "https://grokipedia.com/page/Looksmaxxing", "title": "Looksmaxxing - Grokipedia"},
+ {"url": "https://en.wikipedia.org/wiki/Beauty.AI", "title": "Beauty.AI - Wikipedia"},
+ {"url": "https://en.wikipedia.org/wiki/Facial_symmetry", "title": "Facial symmetry - Wikipedia"}
+]
+}
