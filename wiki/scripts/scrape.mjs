@@ -41,7 +41,7 @@ function throttle(ms) {
 const gate = {
   'en.wikipedia.org': throttle(400),
   'eutils.ncbi.nlm.nih.gov': throttle(380),
-  'arctic-shift.photon-reddit.com': throttle(1600),
+  'arctic-shift.photon-reddit.com': throttle(6000),
   'web.archive.org': throttle(1500),
   'grokipedia.com': throttle(400),
   't-nation.com': throttle(1300),
@@ -326,7 +326,7 @@ async function pubmed(item, terms) {
 }
 
 async function reddit(item, terms) {
-  const subs = (SUBS[item.category] || ['LooksmaxingAdvice', 'Looksmaxx']).slice(0, 4);
+  const subs = (SUBS[item.category] || ['LooksmaxingAdvice', 'Looksmaxx']).slice(0, 3);
   const seen = new Map();
   let calls = 0, fails = 0;
   for (const sub of subs) {
