@@ -179,12 +179,6 @@
           <p class="lede" style="margin-top:24px">${ENTRIES.length} compounds, peptides, drugs, gear${nM ? ' and forum metas' : ''} — each documented with what practitioners say and <span class="inkmark">what the research says</span>.</p>
           <form class="big-search" data-search role="search">${searchIcon}<input name="q" placeholder="Search tretinoin, mewing, LED masks…" aria-label="Search the wiki" autocomplete="off"><button class="btn popb" type="submit">Search</button></form>
         </div>
-        <div class="card stats">
-          <div class="stat"><b>${nC}</b><span>Compounds</span></div>
-          <div class="stat"><b>${nG}${nM ? `<span class="pop" style="font-size:20px"> +${nM}</span>` : ''}</b><span>Gear${nM ? ' + metas' : ''}</span></div>
-          <div class="stat"><b class="pop">${GOALS.length}</b><span>Looksmax goals</span></div>
-          <div class="stat"><b>${ISSUES.length}</b><span>Topics</span></div>
-        </div>
       </section>
 
       <div class="ticker" aria-hidden="true" style="margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw)"><div class="ticker-track">${tick}${tick}</div></div>

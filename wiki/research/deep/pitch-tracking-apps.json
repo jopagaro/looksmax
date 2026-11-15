@@ -1,7 +1,7 @@
 {
  "name": "Pitch tracking apps",
  "lead": [
-  "Pitch tracking apps are smartphone or desktop programs that estimate the fundamental frequency (f0) of a recorded or live voice and display it in hertz or as a musical note. In voice-related appearance and presentation communities they are used to check how high or low a speaking voice sits, for example when practising a deeper or more resonant voice.[1][2]",
+  "Pitch tracking apps are smartphone or desktop programs that estimate the fundamental frequency (f0) of a recorded or live voice and display it in hertz or as a musical note. People who want to change how their voice comes across, for example a deeper, steadier or more resonant speaking voice, use them as a meter: they read their average pitch, practise, and see whether it moves, since a voice is part of how a person is perceived alongside appearance.[1][2]",
   "Pitch is the listener's subjective impression of how high or low a sound is, while fundamental frequency is the measurable lowest repetition rate of a periodic sound; the two track each other closely but are not identical.[1] Apps typically apply a pitch detection algorithm, a family of methods that estimate the period of a quasi-periodic signal such as speech and invert it to a frequency.[2]",
   "Published sources on these apps as a product category are thin, and no clinical study of a specific looksmaxxing-oriented pitch app was found. The description below therefore covers the underlying technology and its documented limits."
  ],
@@ -38,13 +38,26 @@
   {
    "h": "Voice background",
    "paras": [
-    "Adult male vocal folds are longer (about 17 to 25 mm) than female ones (about 12.5 to 17.5 mm), which is associated with lower male pitch.[3] Voice therapy is used by some trans people to adjust pitch and resonance, and sessions are often recorded to provide auditory feedback.[4]"
+    "Pitch is set by the vibration rate of the vocal folds, and the laryngeal muscles adjust fold length and tension to fine-tune it, according to Wikipedia. Adult male vocal folds are longer (about 17 to 25 mm) than female ones (about 12.5 to 17.5 mm), which is associated with lower male pitch.[3] Wikipedia also notes that men generally have a larger vocal tract, which gives a lower-sounding timbre largely independent of the folds, and describes male voice types ranging from E2 to E5 and higher and female types from F3 to C6 and higher.[3] An app that reports pitch alone therefore captures one dimension of how a voice sounds; resonance and timbre are separate.[3]",
+    "Voice therapy is used by some trans people to adjust pitch and resonance, and sessions are often recorded to provide auditory feedback.[4]"
+   ]
+  },
+  {
+   "h": "Features and types",
+   "paras": [
+    "Pitch detection software takes several forms, from tuner-style displays that show the nearest musical note to graphs that plot pitch over time. The detection method used affects behaviour: time-domain approaches include autocorrelation and refinements such as YIN and MPM, frequency-domain approaches use spectra or cepstral analysis, and hybrids combine both.[2] Because speech fundamentals span roughly 40 to 600 Hz, low voices need longer analysis windows, which can blur quick pitch changes.[2]"
    ]
   },
   {
    "h": "Use in looksmaxxing",
    "paras": [
     "Within voice-improvement discussions, practitioners describe using such apps to see their average speaking pitch and track changes after practice. No published study evaluates this use in that community."
+   ]
+  },
+  {
+   "h": "Limitations and accuracy",
+   "paras": [
+    "The documented problems of pitch detection algorithms apply to consumer apps: octave errors, where the detector reports an overtone instead of the true fundamental, and sensitivity to background noise.[2] Wikipedia distinguishes pitch, the listener's subjective impression, from fundamental frequency, the measurable repetition rate, and notes the two track each other closely but are not identical.[1] An app reading in hertz therefore reports f0, not how a listener will judge the voice."
    ]
   },
   {
@@ -120,5 +133,15 @@
   "overview": "Pitch tracking apps listen to your voice and report its fundamental frequency, usually in hertz or as a note name. They are used to check speaking pitch.\n\nNo clinical research evaluates them for appearance or voice-change goals; sources describe only the general technology.",
   "mechanism": "They apply pitch detection algorithms such as autocorrelation, YIN or spectral methods to estimate the period of the voice signal and convert it to frequency.",
   "risks": "No direct harms are documented. Documented technical limits include octave errors and noise sensitivity, so readings may be inaccurate."
+ },
+ "angle": {
+  "goal": "Voice",
+  "chain": [
+   "App reads the fundamental frequency of recorded or live speech",
+   "User sees average pitch in Hz or note names",
+   "Feedback while practising a lower or more consistent pitch"
+  ],
+  "effect": "indirect",
+  "text": "A pitch tracker gives a number or note for how high or low the speaking voice sits, which people use as feedback while practising voice changes. The app measures; any change comes from the user's own practice."
  }
 }

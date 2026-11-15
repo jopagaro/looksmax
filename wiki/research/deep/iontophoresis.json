@@ -1,22 +1,305 @@
 {
-"name":"Iontophoresis",
-"lead":["Iontophoresis is a method of delivering substances through the skin using a low-intensity electric current, with charged molecules moved across the skin by electrorepulsion and electro-osmosis [1][2]. In grooming and dermatology it is mainly known as a treatment for excessive sweating of the palms and soles (palmar-plantar hyperhidrosis) [3].","Wikipedia states that tap water is often used for mild and moderate cases and that a glycopyrronium or glycopyrrolate solution may be used for severe cases [2]. The use for hyperhidrosis was first described in the 1950s, and one trial reportedly found about an 80% reduction in sweating [3].","Iontophoresis also has diagnostic uses, notably pilocarpine iontophoresis to induce sweat for cystic fibrosis testing [2][4]."],
-"infobox":[["Type","Electrical transdermal delivery"],["Used for","Palm and sole sweating; drug delivery; diagnostics"],["Current","Low-intensity direct current [1]"],["First described","18th century (concept); hyperhidrosis use 1950s [1][3]"]],
-"sections":[
-{"h":"How it works","paras":["Two electrodes are placed in contact with the skin, with a drug-loaded electrode on the target area. Positively charged molecules are driven from the anode and negative ones from the cathode, and electro-osmotic solvent flow assists neutral molecules [1][2]. Penetration is limited to a few millimetres, so effects are local [1]."]},
-{"h":"History","paras":["Grokipedia traces the concept to 1747, when Giovanni Francesco Pivati described using electric current to introduce substances into the skin [1]. The term iontophoresis is attributed to Fritz Frankenhauser before 1908 [1]. A 1959 paper described using pilocarpine iontophoresis to test sweat electrolytes in cystic fibrosis [4]."]},
-{"h":"Clinical studies","paras":["A review of transdermal drug delivery identified iontophoresis as one of the second-generation approaches that has yielded clinical products [5]. For hyperhidrosis specifically, Wikipedia's summary mentions one trial reporting about an 80% reduction in sweating with tap-water iontophoresis [3]; trial details were not available in the reviewed material."]},
-{"h":"Reported risks","paras":["Grokipedia notes limitations including potential skin irritation from excessive current, the need for charged drugs and higher cost than conventional methods, and gives current-density limits to reduce irritation or burns [1]."]}
-],
-"timeline":[{"year":"1747","event":"Pivati describes electrically assisted introduction of substances into skin [1]."},{"year":"1959","event":"Pilocarpine iontophoresis sweat test for cystic fibrosis published [4]."}],
-"lore":null,
-"refs":[
-{"id":1,"title":"Iontophoresis","url":"https://grokipedia.com/page/Iontophoresis","source":"Grokipedia","year":2026,"type":"encyclopedia"},
-{"id":2,"title":"Iontophoresis","url":"https://en.wikipedia.org/wiki/Iontophoresis","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":3,"title":"Hyperhidrosis","url":"https://en.wikipedia.org/wiki/Hyperhidrosis","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":4,"title":"A test for concentration of electrolytes in sweat in cystic fibrosis of the pancreas utilizing pilocarpine by iontophoresis","url":"https://pubmed.ncbi.nlm.nih.gov/13633369/","source":"Pediatrics","year":1959,"type":"study"},
-{"id":5,"title":"Transdermal drug delivery","url":"https://pubmed.ncbi.nlm.nih.gov/18997767/","source":"Nature Biotechnology","year":2008,"type":"review"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Iontophoresis","title":"Iontophoresis - Wikipedia"},{"url":"https://en.wikipedia.org/wiki/Hyperhidrosis","title":"Hyperhidrosis - Wikipedia"}],
-"card":{"summary":"Low-current electrical treatment for sweaty palms and soles, in use since the 1950s, with a wider role in drug delivery and diagnostics.","aka":"Tap water iontophoresis","evidence":"moderate","outcome":"temporary","price":null,"risk":"low","note":"Skin irritation possible; effect requires ongoing sessions.","structure":null},
-"quick":{"overview":"Iontophoresis passes a weak electric current through water or a drug solution to treat sweaty hands and feet. It was first described for this use in the 1950s, and tap water is commonly used for mild to moderate cases.\n\nIt is also used to deliver drugs through skin and for cystic fibrosis sweat testing.","mechanism":"The current moves charged molecules across the skin's outer layer, and the resulting effects temporarily reduce sweat output.","risks":"Skin irritation or burns are possible if current density is too high; Grokipedia also notes cost and the need for charged substances."}
+ "name": "Iontophoresis",
+ "lead": [
+  "Iontophoresis is a method of delivering substances through the skin using a low-intensity electric current, with charged molecules moved across the skin by electrorepulsion and electro-osmosis [1][2]. In grooming and dermatology it is best known as a treatment for excessive sweating of the palms and soles (palmar-plantar hyperhidrosis) [3].",
+  "People use it to keep hands and feet dry. Dry palms make handshakes, touch and gripping easier, and dry soles reduce slipping inside shoes and moisture-related odor, which can affect how polished and at ease someone appears in social and professional settings. Reviews of hyperhidrosis note that the condition can cause embarrassment and reduce well-being, which is why treatment is aimed at both comfort and confidence [6].",
+  "Wikipedia's hyperhidrosis article states that tap water is used for mild and moderate palmar-plantar cases and that a glycopyrronium or glycopyrrolate solution may be used for severe ones [2]. Use for palm and sole sweating was first described in the 1950s, studies have reported positive results and good safety, and one trial reportedly found about an 80% reduction in sweating [3]. A clinical review in American Family Physician states that iontophoresis should be considered for hyperhidrosis of the palms and soles [7].",
+  "Iontophoresis also has diagnostic uses, notably pilocarpine iontophoresis to induce sweat for cystic fibrosis testing, and physical therapists use it to deliver anti-inflammatory drugs to sore tendons and joints, which is how it is mentioned on lifting forums [2][4][10].",
+  "Hyperhidrosis can affect how people present themselves. Wikipedia reports that over 80% of patients describe moderate to severe emotional effects, that many avoid handshakes and physical contact, and that sweaty feet make slip-on or open-toe shoes hard to wear [3]. Iontophoresis is one of the non-surgical routes alongside antiperspirants, botulinum toxin and oral anticholinergics [3][6]."
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Electrical transdermal delivery [1]"
+  ],
+  [
+   "Used for",
+   "Palm and sole sweating; drug delivery; diagnostics [2][3]"
+  ],
+  [
+   "Current",
+   "Low-intensity direct current [1]"
+  ],
+  [
+   "Typical medium",
+   "Tap water; glycopyrrolate solution in severe cases [2]"
+  ],
+  [
+   "First described",
+   "18th century (concept); hyperhidrosis use 1950s [1][3]"
+  ],
+  [
+   "Guideline mention",
+   "Considered for palm and sole hyperhidrosis [7]"
+  ],
+  [
+   "Prevalence of focal hyperhidrosis",
+   "Up to 2.8% of US population [3]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "An iontophoresis setup consists of a current source, two electrodes and a conductive medium. For hyperhidrosis the hands or feet are typically placed in shallow trays of water, each tray connected to one electrode, so the current passes through the skin of the treated area [1][2]. Sessions are delivered in clinics or with home devices.",
+    "Hyperhidrosis itself is excessive sweating beyond what thermoregulation needs. A 2025 narrative review put the prevalence of primary hyperhidrosis in a broad range from 0.072% to 9% and attributes it to overactivity of the sympathetic nervous system, with the exact pathophysiology unclear [8].",
+    "Wikipedia reports that focal hyperhidrosis may affect up to 2.8% of the US population, appears equally in men and women, and often runs in families, with 30-50% of people having an affected relative [3]. Reported daily effects include avoiding handshakes, hiding sweat marks, changing clothes several times a day and difficulty with certain shoes, musical instruments or knife work [3]."
+   ]
+  },
+  {
+   "h": "How it works",
+   "paras": [
+    "Two electrodes are placed in contact with the skin, with a drug-loaded electrode on the target area. Positively charged molecules are driven from the anode and negative ones from the cathode, and electro-osmotic solvent flow assists neutral molecules [1][2]. Penetration is limited to a few millimetres, so effects are local [1].",
+    "Grokipedia describes the general current range as roughly 0.5 to 5 mA, with density limits (about 0.5 mA/cm2 at the cathode and 1.0 mA/cm2 at the anode) used to limit irritation [1]. How tap-water iontophoresis reduces sweating is not fully settled; Grokipedia summarises it as electrochemical effects that temporarily block sweat glands [1].",
+    "Wikipedia's page on the technique states that molecules cross the outer skin layer by electrophoresis and electro-osmosis, that the electric field can also raise skin permeability, and that reverse iontophoresis works in the opposite direction, using electro-osmotic flow to draw neutral molecules such as glucose out through the skin, as in the GlucoWatch monitor [2]."
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Grokipedia traces the concept to 1747, when Giovanni Francesco Pivati described using electric current to introduce substances into the skin [1]. The term iontophoresis is attributed to Fritz Frankenhauser before 1908 [1]. A 1959 paper described using pilocarpine iontophoresis to test sweat electrolytes in cystic fibrosis, a method that became a standard diagnostic [4]. Use for palm and sole sweating was first described in the 1950s [3]."
+   ]
+  },
+  {
+   "h": "Use for sweaty hands and feet",
+   "paras": [
+    "For palmoplantar hyperhidrosis, people use iontophoresis at home or in a clinic on a repeating basis, as a drug-free alternative or addition to antiperspirants. Reviews describe treatment as ongoing, since the effect on sweating is temporary [6]. Wikipedia lists it with antiperspirants, botulinum toxin, oral and topical anticholinergics, the miraDry microwave device and endoscopic thoracic sympathectomy as the available options [3].",
+    "Place among alternatives, as described by clinicians: the American Family Physician review lists topical aluminum chloride as the usual initial treatment for most primary focal hyperhidrosis and botulinum toxin as a first- or second-line option, with iontophoresis considered for palms and soles [7]. Wikipedia reports that botulinum toxin effects last 3 to 9 months, that antiperspirant benefit takes three to five days to appear, and that sympathectomy relieves hand sweating in about 85-95% of people but often causes compensatory sweating [3]."
+   ]
+  },
+  {
+   "h": "Other uses",
+   "paras": [
+    "Beyond sweating, Wikipedia notes iontophoresis in neuropharmacology (microiontophoresis near active neurons), in diagnostics such as pilocarpine sweat testing for cystic fibrosis and acetylcholine testing of endothelial function, and in drug delivery [2]. Randomized trials have tested iontophoresis of dexamethasone phosphate for uveitis and of antiviral drugs for herpes labialis [11][12]. Physical therapists use it to deliver anti-inflammatory drugs to sore tendons, which is how it appears on lifting forums [13][14]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Wikipedia's hyperhidrosis article states that studies of tap-water iontophoresis for palmoplantar hyperhidrosis reported positive results and good safety, with one trial reporting about an 80% reduction in sweating [3].",
+    "Review articles place iontophoresis among the conventional non-surgical options alongside aluminum salts, botulinum toxin injections and oral glycopyrronium, and describe a stepwise approach that may combine therapies [6]. The American Family Physician review lists topical aluminum chloride as the usual initial treatment for most primary focal hyperhidrosis, botulinum toxin as first- or second-line, and says iontophoresis should be considered for palms and soles [7].",
+    "A review of transdermal drug delivery identified iontophoresis as one of the second-generation approaches that has yielded clinical products, noting that it can control delivery rates in real time [5]. Randomized trials have also tested iontophoresis of dexamethasone phosphate for uveitis and of antiviral drugs for herpes labialis, which are outside appearance use [11][12]."
+   ]
+  },
+  {
+   "h": "Reported risks",
+   "paras": [
+    "Grokipedia notes limitations including potential skin irritation from excessive current, the need for charged drugs and higher cost than conventional methods [1]. Because the effect on sweat is temporary, the clinical literature describes treatment as ongoing rather than one-time [6]."
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "On T Nation, iontophoresis comes up mainly as a physical-therapy modality: members mention receiving it with dexamethasone for shoulder or knee problems, or recommend asking a therapist for it alongside ultrasound for tendon pain [13][14]. One poster says an orthopaedic surgeon uses it with acetic acid on calcium deposits while adding that many studies have found it does not work [15]. These accounts connect to appearance through training: less joint pain can mean more training."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1747",
+   "event": "Pivati describes electrically assisted introduction of substances into skin [1]."
+  },
+  {
+   "year": "1950s",
+   "event": "Iontophoresis first described for palmoplantar hyperhidrosis [3]."
+  },
+  {
+   "year": "1959",
+   "event": "Pilocarpine iontophoresis sweat test for cystic fibrosis published [4]."
+  },
+  {
+   "year": "1993",
+   "event": "Reinauer and colleagues publish work on AC/DC iontophoresis for hyperhidrosis, listed among the references of Wikipedia's iontophoresis article [2]."
+  },
+  {
+   "year": "2008",
+   "event": "Nature Biotechnology review places iontophoresis among second-generation transdermal methods with clinical products [5]."
+  },
+  {
+   "year": "2018",
+   "event": "American Family Physician review states iontophoresis should be considered for palm and sole hyperhidrosis [7]."
+  },
+  {
+   "year": "2022",
+   "event": "Review in the American Journal of Clinical Dermatology lists iontophoresis among conventional non-surgical hyperhidrosis treatments [6]."
+  }
+ ],
+ "lore": {
+  "intro": "Outside dermatology, iontophoresis appears on lifting forums as a clinic-based treatment for sore joints and tendons [13][14].",
+  "claims": [
+   {
+    "claim": "Iontophoresis with a steroid helps sore tendons and joints heal so training can continue",
+    "believers": "Forum members report receiving dexamethasone iontophoresis from a physical therapist and continuing to lift with less pain [13][14].",
+    "experts": "A review of electrotherapy describes iontophoresis among modalities used in physical medicine for pain syndromes [10]; one T Nation poster adds that many studies have found acetic-acid iontophoresis for calcium deposits ineffective [15].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Tap-water iontophoresis keeps palms and soles dry",
+    "believers": "Users describe the treatment as a drug-free way to reduce palm sweating.",
+    "experts": "Wikipedia reports positive results and good safety in studies, with one trial about an 80% reduction [3]; a clinical review says it should be considered for palms and soles [7].",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Iontophoresis is a drug-free option that avoids injections and surgery",
+    "believers": "Users describe tap-water treatment as a way to dry hands without drugs, injections or surgery.",
+    "experts": "Reviews place it among conventional non-surgical options, with treatment needing to be repeated; sympathectomy, by contrast, often causes compensatory sweating [3][6].",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Results last only as long as sessions continue",
+    "believers": "Users report the dryness fades and sessions are repeated to maintain it.",
+    "experts": "The clinical literature describes treatment as ongoing because the effect is temporary [6].",
+    "evidence": "supported"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Iontophoresis",
+   "url": "https://grokipedia.com/page/Iontophoresis",
+   "source": "Grokipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Iontophoresis",
+   "url": "https://en.wikipedia.org/wiki/Iontophoresis",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Hyperhidrosis",
+   "url": "https://en.wikipedia.org/wiki/Hyperhidrosis",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "A test for concentration of electrolytes in sweat in cystic fibrosis of the pancreas utilizing pilocarpine by iontophoresis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/13633369/",
+   "source": "Pediatrics",
+   "year": 1959,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Transdermal drug delivery",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18997767/",
+   "source": "Nature Biotechnology",
+   "year": 2008,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Treatment of Hyperhidrosis: An Update",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35773437/",
+   "source": "American Journal of Clinical Dermatology",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Hyperhidrosis: Management Options",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30215934/",
+   "source": "American Family Physician",
+   "year": 2018,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "Primary hyperhidrosis: an updated review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40575073/",
+   "source": "Drugs in Context",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 10,
+   "title": "Electrotherapy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8017069/",
+   "source": "Wiener Medizinische Wochenschrift",
+   "year": 1994,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "Iontophoretic Dexamethasone Phosphate Compared to Topical Prednisolone Acetate 1% for Noninfectious Anterior Segment Uveitis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31726034/",
+   "source": "American Journal of Ophthalmology",
+   "year": 2020,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "Iontophoresis of vidarabine monophosphate for herpes orolabialis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2431074/",
+   "source": "Journal of Infectious Diseases",
+   "year": 1986,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "T Nation: 3 Week Cycle Log",
+   "url": "https://t-nation.com/t/3-week-cycle-log/197363",
+   "source": "T Nation",
+   "year": 2014,
+   "type": "forum"
+  },
+  {
+   "id": 14,
+   "title": "T Nation: Prolotherapy & Knees",
+   "url": "https://t-nation.com/t/prolotherapy-knees/138246",
+   "source": "T Nation",
+   "year": 2009,
+   "type": "forum"
+  },
+  {
+   "id": 15,
+   "title": "T Nation: Deca for Bursitis/Tendonitis",
+   "url": "https://t-nation.com/t/deca-for-bursitis-tendonitis/57619",
+   "source": "T Nation",
+   "year": 2006,
+   "type": "forum"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Iontophoresis",
+   "title": "Iontophoresis - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Hyperhidrosis",
+   "title": "Hyperhidrosis - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "Low-current electrical treatment for sweaty palms and soles, in use since the 1950s, with a wider role in drug delivery and diagnostics.",
+  "aka": "Tap water iontophoresis",
+  "evidence": "moderate",
+  "outcome": "temporary",
+  "price": null,
+  "risk": "low",
+  "note": "Skin irritation possible; effect requires ongoing sessions.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Iontophoresis passes a weak electric current through water or a drug solution to treat sweaty hands and feet. It was first described for this use in the 1950s, and tap water is commonly used for mild to moderate cases.\n\nIt is also used to deliver drugs through skin and for cystic fibrosis sweat testing.",
+  "mechanism": "The current moves charged molecules across the skin's outer layer, and the resulting effects temporarily reduce sweat output.",
+  "risks": "Skin irritation or burns are possible if current density is too high; Grokipedia also notes cost and the need for charged substances."
+ },
+ "angle": {
+  "goal": "Sweat control",
+  "chain": [
+   "Low current passes through water or a drug solution",
+   "Sweat output of the treated palms or soles falls for a period",
+   "Drier hands and feet in social and everyday contact"
+  ],
+  "effect": "direct",
+  "text": "Users treat the palms and soles in sessions with a small device and trays of tap water, which they report leaves hands and feet drier for days to weeks afterwards. Drier hands are the appearance-related payoff: no damp handshakes, no sweat marks on paper or phone screens, and less foot moisture and odor. Sessions are repeated to maintain the effect."
+ }
 }

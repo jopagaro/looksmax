@@ -1,59 +1,373 @@
 {
-  "name": "Dental tourism (Turkey, Hungary, Mexico)",
-  "card": {
-    "summary": "Travelling abroad for cheaper cosmetic dental work, with documented savings and documented follow-up and liability concerns.",
-    "aka": "dental vacation, cross-border dental care",
-    "evidence": "limited",
-    "risk": "moderate",
-    "note": "Literature highlights aftercare, accountability and complication-management issues.",
-    "structure": null
-  },
-  "quick": {
-    "overview": "Dental tourism means travelling to another country for dental treatment, often veneers, crowns or implants. Turkey, Hungary and Mexico are frequently named destinations, with Hungary's Mosonmagyaróvár and Mexico's Los Algodones known for dental clinics.\n\nResearchers attribute it to high home costs, waiting times, cheap travel and the internet linking patients to clinics. The same papers note risks around follow-up care and legal recourse.",
-    "mechanism": "Patients arrange treatment, often through online marketing or agents, and travel for a short stay. Cost savings come from lower prices abroad; Hungarian clinics were reported at a third to half of nearby Vienna prices.",
-    "risks": "Literature describes limited follow-up access, difficulty obtaining remedies for malpractice, variable accreditation, and uncertainty about whether home dentists will treat complications."
-  },
-  "lead": [
-    "Dental tourism is travel abroad for dental care. It is a subset of medical tourism, and Hungary, Turkey and Mexico are among the popular destinations [1]. Researchers identify high local cost, delays in access, inexpensive air travel and the internet as drivers [2].",
-    "Papers on the topic note that it can benefit some patients but brings risks, including limited follow-up and uncertainty about responsibility for complications [2][3]. Much medical tourism data comes from industry sources and news reports [1]."
+ "name": "Dental tourism (Turkey, Hungary, Mexico)",
+ "card": {
+  "summary": "Travelling abroad for cheaper cosmetic dental work, with documented savings and documented follow-up and liability concerns.",
+  "aka": "dental vacation, cross-border dental care",
+  "evidence": "limited",
+  "risk": "moderate",
+  "note": "Literature highlights aftercare, accountability and complication-management issues.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Dental tourism means travelling to another country for dental treatment, often veneers, crowns or implants. Turkey, Hungary and Mexico are frequently named destinations, with Hungary's Mosonmagyaróvár and Mexico's Los Algodones known for dental clinics.\n\nResearchers attribute it to high home costs, waiting times, cheap travel and the internet linking patients to clinics. The same papers note risks around follow-up care and legal recourse.",
+  "mechanism": "Patients arrange treatment, often through online marketing or agents, and travel for a short stay. Cost savings come from lower prices abroad; Hungarian clinics were reported at a third to half of nearby Vienna prices.",
+  "risks": "Literature describes limited follow-up access, difficulty obtaining remedies for malpractice, variable accreditation, and uncertainty about whether home dentists will treat complications."
+ },
+ "lead": [
+  "Dental tourism is travel to another country for dental treatment, most often for cosmetic work such as porcelain veneers, crowns, implants and whitening. It is a subset of medical tourism, and Turkey, Hungary and Mexico are among its best-known destinations [1][8].",
+  "For appearance, the draw is price. Veneers, crowns and implants can change the colour, shape and alignment of the teeth and the whole smile, and patients travel because the same work is quoted at a fraction of the price at home; Wikipedia gives examples such as Hungarian prices one-third to one-half of Viennese levels and Los Algodones dentists serving visitors who can save up to 80 percent [8][16]. Many looksmaxxing community members treat the trip as part of a larger facial package, bundling veneers with surgery in Turkey [11][13].",
+  "A literature of reviews, commentaries and surveys has examined why patients travel and what happens afterwards. Authors identify high home costs, waiting times, cheap flights and the internet as drivers, and describe concerns about follow-up care, accreditation, and recourse if something goes wrong [2][3][5][6]."
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Medical tourism subset (dental)"
   ],
-  "infobox": [
-    ["Type", "Medical tourism subset"],
-    ["Named destinations", "Hungary, Turkey, Mexico [1]"],
-    ["Main driver", "Cost [1][2]"]
+  [
+   "Named destinations",
+   "Hungary, Turkey, Mexico [1][8]"
   ],
-  "sections": [
-    {
-      "h": "Destinations",
-      "paras": [
-        "Mosonmagyaróvár in Hungary has many dental clinics, with prices reported at a third to a half of those in nearby Vienna. Turkey is described as a hub for hair transplants and dental work, and Mexico, especially Los Algodones near the US border, is known for dentistry [1]. A paper presents Hungarian dentists' views of visiting patients [4]."
-      ]
-    },
-    {
-      "h": "Risks and concerns",
-      "paras": [
-        "General medical tourism risks include post-operative care that may not meet home standards, limited access to follow-up, and malpractice remedies that may be limited abroad [1]. Papers discuss whether home dentists should treat, re-treat or decline dental tourists [5] and the obligations of dentists when emergency care follows dental tourism [6]."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found testing outcomes of cosmetic dentistry in these destinations versus home care. Survey and commentary literature exists, including a questionnaire of 520 dental patients on internet use and interest in dental tourism [7]."
-      ]
-    }
+  [
+   "Typical procedures",
+   "Veneers, crowns, implants [8]"
   ],
-  "timeline": [],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Medical tourism", "url": "https://en.wikipedia.org/wiki/Dental_tourism", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Cross-border dental care: 'dental tourism' and patient mobility", "url": "https://pubmed.ncbi.nlm.nih.gov/18500297/", "source": "British dental journal", "year": 2008, "type": "review" },
-    { "id": 3, "title": "Dental implant tourism", "url": "https://pubmed.ncbi.nlm.nih.gov/21133945/", "source": "Australian dental journal", "year": 2010, "type": "review" },
-    { "id": 4, "title": "'Vacation for your teeth' - dental tourists in Hungary", "url": "https://pubmed.ncbi.nlm.nih.gov/24157766/", "source": "British dental journal", "year": 2013, "type": "study" },
-    { "id": 5, "title": "Dental tourists: treat, re-treat or do not treat?", "url": "https://pubmed.ncbi.nlm.nih.gov/33483660/", "source": "British dental journal", "year": 2021, "type": "review" },
-    { "id": 6, "title": "Am I obligated to treat a patient whose need for emergency care stems from dental tourism?", "url": "https://pubmed.ncbi.nlm.nih.gov/17606503/", "source": "JADA", "year": 2007, "type": "review" },
-    { "id": 7, "title": "Dental patients' use of the Internet", "url": "https://pubmed.ncbi.nlm.nih.gov/20019727/", "source": "British dental journal", "year": 2009, "type": "study" }
+  [
+   "Main driver",
+   "Cost, access and waiting times [2]"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Dental_tourism", "title": "Medical tourism (Dental tourism redirect)" }
+  [
+   "Hungarian price level",
+   "One-third to one-half of Vienna prices [8]"
+  ],
+  [
+   "Los Algodones, Mexico",
+   "About 600 dentists in a town of under 6,000 residents [8]"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Dental tourism is a subset of medical tourism, which also includes cosmetic surgery, fertility treatment and hair transplantation. The most commonly sought dental treatments for appearance are veneers, crowns, implants and whitening, which patients often arrange online through clinics or agents and complete during a stay of a few days [1][8].",
+    "Medical travel is ancient, but Wikipedia dates the modern European dental version to the era of so-called Goulash Communism in Hungary, when German and Austrian visitors began using Hungarian dentists [8]. Wikipedia notes that veneers are sometimes nicknamed \"Turkey teeth\" [14]."
+   ]
+  },
+  {
+   "h": "Cosmetic procedures involved",
+   "paras": null,
+   "subs": [
+    {
+     "h": "Veneers",
+     "paras": [
+      "Veneers are thin shells of dental porcelain or composite bonded to the front of teeth to change colour, shape or spacing. Porcelain veneers usually require removing some tooth surface, although some ultra-thin versions need little or none; the amount removed is part of why dentists describe the treatment as largely irreversible [14][15]. Wikipedia reports that modern veneers typically last 10 to 30 years with composite lasting around four, that sensitivity and decay can occur, and that critics argue veneers are overused for minor issues [14]. The technique was first developed by California dentist Charles Pincus in 1928 to change actors' teeth temporarily for film [14]."
+     ]
+    },
+    {
+     "h": "Crowns, implants and whitening",
+     "paras": [
+      "Crowns cap a tooth, implants are titanium posts placed in the jaw to carry a crown or denture, and whitening is described as the most common cosmetic procedure and as safe for most patients [15]. Wikipedia notes the American Dental Association does not recognise cosmetic dentistry as a specialty, with complex rehabilitation falling mainly under prosthodontics [15]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Destinations",
+   "paras": null,
+   "subs": [
+    {
+     "h": "Hungary",
+     "paras": [
+      "Mosonmagyaróvár, close to the Austrian border and about 60 km from Vienna, had around 350 dental practitioners as of 2015, described as the highest density in the world; Austrians can be treated on a day trip, and patients also travel from as far as Greenland, Canada and the United States via nearby airports in Vienna, Bratislava and Budapest [8][17]. Prices have been reported at one-third to one-half of Viennese levels and about a quarter of those in Switzerland or Denmark [8]. Official Hungarian figures reportedly show about 160,000 Austrians crossing the border each year for dental care [17]. A study interviewed Hungarian dentists about their experience with foreign patients, under the title \"Vacation for your teeth\" [4]."
+     ]
+    },
+    {
+     "h": "Turkey",
+     "paras": [
+      "Turkey is described as affordable compared with Western Europe and a growing hub for hair transplants as well as dental work including veneers, crowns and implants, offered in Istanbul, Ankara and Antalya [8]. A regulation on international health tourism took effect on 13 July 2017 and applies to people coming specifically for treatment, and the Ministry of Health established USHAŞ in 2019 to promote and regulate the sector [8][18]. Almost 178,000 health tourists were reported in the first half of 2018, about two-thirds of them using private hospitals [18]. Wikipedia also cites a newspaper investigation of a British patient who developed a severe brain infection after a sinus lift and implant at an Istanbul clinic, an example in the risk literature of complications abroad [18]. Forum users on looksmax.org have described trips to Antalya combining veneers with other cosmetic procedures [11]."
+     ]
+    },
+    {
+     "h": "Mexico",
+     "paras": [
+      "Mexico is described as best known for dentistry and cosmetic surgery. Los Algodones, a Baja California border town of about 5,500 residents at the 2010 census, lies about five miles from Yuma, Arizona and is nicknamed Molar City; Wikipedia gives about 600 dentists there serving mainly uninsured American and Canadian visitors, noting one cited source mentions more than 350 [8][16]. Dental, optical and pharmacy businesses have grown there since the 1980s and largely replaced older tourist shops, and organised day trips for seniors from nearby winter-resident communities are popular [16]. Mexico has 98 hospitals accredited by its Federal Health Ministry, seven of them also accredited by Joint Commission International [8]."
+     ]
+    },
+    {
+     "h": "Other destinations",
+     "paras": [
+      "Albania, Thailand, Vietnam, Poland and India are also named, with UK dental patients mostly travelling to Hungary and Poland [8]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Drivers and costs",
+   "paras": [
+    "A 2008 review in the British Dental Journal identified high local costs, delays in access, competent international clinics, inexpensive air travel and the internet as drivers [2]. A questionnaire of 520 patients at a Cork dental hospital examined internet use and interest in dental tourism [7]. Cost differences can be large: Wikipedia notes that a porcelain veneer costing about 2,500 AUD in Australia may cost about 1,200 AUD in India, a gap it says material costs do not explain [8][9]. Wikipedia also gives US veneer prices of 1,000 to 3,000 dollars per tooth in an older source, a figure it flags as outdated [14].",
+    "Broader medical-tourism drivers include long waiting lists, insurance that excludes cosmetic care, and cheaper flights [8]. A 2015 US International Trade Commission report estimated that 150,000 to 320,000 Americans travelled abroad for inpatient care, though that figure covers medical rather than dental care [8]."
+   ]
+  },
+  {
+   "h": "Risks and concerns",
+   "paras": [
+    "General medical tourism risks described in the literature include variable post-operative care, limited access to follow-up after returning home, facilities that may lack adequate complaints procedures, and limited remedies for malpractice abroad [1][9]. Accreditation schemes such as Joint Commission International (formed 1994) exist, though standards vary between facilities [9].",
+    "Clinicians have written about the practical consequences. A review of dental implant tourism discussed complications that arise after patients return home [3]. Papers in the British Dental Journal and the Journal of the American Dental Association discuss whether home dentists should treat, re-treat or decline dental tourists and what obligations they have when emergency care follows treatment abroad [5][6]. A 2013 paper described anaesthetic and medicolegal difficulties when patients with poorly applied prostheses need intubation [10]. A travel-medicine paper also addressed dental health for travellers [12].",
+    "For veneers specifically, the preparation of tooth surface is described as permanent, and Wikipedia lists contraindications such as poor oral hygiene, gum disease, grinding and unrealistic expectations [14][15]."
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing communities",
+   "paras": [
+    "On looksmax.org, threads ask for surgeon recommendations in Turkey and discuss price quotes for combined procedures that include accommodation. One post quoted roughly 6,000 euros for a rhinoplasty with chin surgery, including a seven-night stay [13]. Another poster described flying to Antalya for a package that included veneers among many facial procedures [11]. Posters also warn each other about inconsistent results from particular surgeons, so clinic choice is a frequent topic [13].",
+    "In these threads, dental work is usually one line in a larger facial plan, which is why dental tourism and facial-surgery tourism are discussed together [11][13]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found testing outcomes of cosmetic dentistry in these destinations against care at home. The literature consists mainly of reviews, commentary and surveys, including a questionnaire of 520 dental patients on internet use and interest in dental tourism [7] and interviews with Hungarian dentists about foreign patients [4]."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1928",
+   "event": "Charles Pincus creates veneers to temporarily change actors' teeth for film [14]."
+  },
+  {
+   "year": "1980s",
+   "event": "Dental, optical and pharmacy businesses begin to expand rapidly in Los Algodones, Mexico [16]."
+  },
+  {
+   "year": "1994",
+   "event": "Joint Commission International is formed in the US to accredit hospitals abroad [9]."
+  },
+  {
+   "year": "2008",
+   "event": "The British Dental Journal publishes a review of cross-border dental care and patient mobility [2]."
+  },
+  {
+   "year": "2013",
+   "event": "A paper describes anaesthetic and medicolegal problems after dental vacations [10]."
+  },
+  {
+   "year": "2015",
+   "event": "Mosonmagyaróvár, Hungary, reported to have about 350 dental practitioners, the highest density in the world [8][17]."
+  },
+  {
+   "year": "2017",
+   "event": "Turkey's regulation on international health tourism takes effect on 13 July [8]."
+  },
+  {
+   "year": "2019",
+   "event": "Turkey's Ministry of Health establishes USHAŞ to promote and regulate health tourism [8]."
+  }
+ ],
+ "lore": {
+  "intro": "Dental work abroad comes up on looksmax.org mainly inside threads about travelling to Turkey for surgery, where veneers are one item in multi-procedure trips [11][13].",
+  "claims": [
+   {
+    "claim": "Turkey offers cheaper cosmetic work, including veneers, than home countries",
+    "believers": "Posters share price quotes that bundle surgery with accommodation and describe trips to Antalya for several procedures at once [11][13].",
+    "experts": "Reviews confirm that cost is the main driver and that prices can be a fraction of home prices, while noting concerns about follow-up and accountability [2][8].",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Choosing the right surgeon or clinic abroad is what separates good from poor outcomes",
+    "believers": "Forum members trade named recommendations and warnings about specific surgeons whose results they consider inconsistent [13].",
+    "experts": "Dental literature highlights variable accreditation and limited recourse for complications after treatment abroad [3][9].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Complications can be handled at home after returning",
+    "believers": "Some posters treat travel as a one-off event with no further need for the treating clinic.",
+    "experts": "Dental journals discuss whether home dentists will treat, re-treat or decline dental tourists, and the medicolegal obligations involved [5][6].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Veneers in Turkey cost a fraction of home prices",
+    "believers": "Posters share all-in quotes covering surgery, veneers and accommodation as proof of savings [11][13].",
+    "experts": "Wikipedia reports price gaps of one-third to one-half of Vienna in Hungary and savings of up to 80 percent in Los Algodones, and a 2008 review lists cost as a main driver [8][16][2].",
+    "evidence": "supported"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Dental tourism (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Dental_tourism",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Cross-border dental care: 'dental tourism' and patient mobility",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18500297/",
+   "source": "British dental journal",
+   "year": 2008,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Dental implant tourism",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21133945/",
+   "source": "Australian dental journal",
+   "year": 2010,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "'Vacation for your teeth' - dental tourists in Hungary",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24157766/",
+   "source": "British dental journal",
+   "year": 2013,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Dental tourists: treat, re-treat or do not treat?",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33483660/",
+   "source": "British dental journal",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Am I obligated to treat a patient whose need for emergency care stems from dental tourism?",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17606503/",
+   "source": "JADA",
+   "year": 2007,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Dental patients' use of the Internet",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20019727/",
+   "source": "British dental journal",
+   "year": 2009,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Medical tourism (including Dental tourism section)",
+   "url": "https://en.wikipedia.org/wiki/Medical_tourism",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 9,
+   "title": "Medical tourism - risks, accreditation and cost comparisons",
+   "url": "https://en.wikipedia.org/wiki/Medical_tourism",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 10,
+   "title": "The perils of dental vacation: possible anaesthetic and medicolegal consequences",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23065683/",
+   "source": "Medicine, science, and the law",
+   "year": 2013,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "looksmax.org thread: flying to Antalya, Turkey for genio, lip lift, veneers, cheek implants and other procedures",
+   "url": "https://looksmax.org/threads/this-evening-ill-be-flying-out-to-antalya-turkey-for-genio-lip-lift-veneers-cheek-implants-cantho-brow-lift-laser-skin-resurfacing-fat-grafts.1756510/",
+   "source": "looksmax.org",
+   "year": 2023,
+   "type": "forum"
+  },
+  {
+   "id": 12,
+   "title": "Dental health, 'dental tourism' and travellers",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19411039/",
+   "source": "Travel medicine and infectious disease",
+   "year": 2009,
+   "type": "review"
+  },
+  {
+   "id": 13,
+   "title": "looksmax.org thread: [TURKEY] Surgeon suggestions for Rhino + Geino",
+   "url": "https://looksmax.org/threads/turkey-surgeon-suggestions-for-rhino-geino.699796/",
+   "source": "looksmax.org",
+   "year": 2022,
+   "type": "forum"
+  },
+  {
+   "id": 14,
+   "title": "Dental veneer (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Dental_veneer",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 15,
+   "title": "Cosmetic dentistry (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Cosmetic_dentistry",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 16,
+   "title": "Los Algodones (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Los_Algodones",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 17,
+   "title": "Mosonmagyarovar (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Mosonmagyar%C3%B3v%C3%A1r",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 18,
+   "title": "Healthcare in Turkey / Medical tourism in Turkey (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Medical_tourism_in_Turkey",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Dental_veneer",
+   "title": "Dental veneer (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Cosmetic_dentistry",
+   "title": "Cosmetic dentistry (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Los_Algodones",
+   "title": "Los Algodones (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Mosonmagyar%C3%B3v%C3%A1r",
+   "title": "Mosonmagyarovar (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Medical_tourism_in_Turkey",
+   "title": "Healthcare in Turkey / Medical tourism in Turkey (Wikipedia)"
+  }
+ ],
+ "angle": {
+  "goal": "Teeth / smile",
+  "chain": [
+   "Cosmetic dental work costs less abroad",
+   "Veneers, crowns or implants become affordable",
+   "Straighter, whiter, more even smile"
+  ],
+  "effect": "direct",
+  "text": "People travel abroad to have cosmetic dental work such as veneers, crowns or implants done at lower prices than at home, which changes the look of the teeth and smile. Some bundle the trip with other procedures, such as facial surgery, in the same destination."
+ }
 }

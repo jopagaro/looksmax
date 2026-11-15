@@ -1,85 +1,415 @@
 {
-  "name": "Letrozole / aromatase inhibitors for height",
-  "card": {
-    "summary": "Using aromatase inhibitors to slow bone maturation and extend growth; trialled in boys with short stature, with no published evidence for healthy adults.",
-    "aka": "AI for height, letrozole, anastrozole",
-    "evidence": "limited",
-    "status": "rx",
-    "risk": "high",
-    "price": null,
-    "note": "Prescription drugs approved for other uses (such as breast cancer); height use is off-label and studied only in boys with open growth plates.",
-    "structure": "Letrozole"
-  },
-  "quick": {
-    "overview": "Aromatase inhibitors such as letrozole block the enzyme that converts androgens into oestrogen. Because oestrogen drives the closing of growth plates in both sexes, researchers have tested these drugs in adolescent boys with short stature or delayed puberty, hoping to slow bone maturation and give more time to grow.\n\nThe idea circulates in height-focused communities as a way to 'delay growth plate closure'. Published research relevant to it is limited to paediatric studies, including a registered phase 3 trial of aromatase inhibitors alone and with growth hormone in adolescent boys with idiopathic short stature. No study identified for this article tests the approach in healthy adults.",
-    "mechanism": "Aromatase inhibitors reduce oestrogen production. Lower oestrogen slows growth-plate fusion, which in theory leaves a longer window for growth. Letrozole is a nonsteroidal, reversible inhibitor; other agents include anastrozole and the steroidal exemestane. A meta-analysis cited in encyclopedia sources found letrozole safe and effective for improving height and puberty outcomes in children with constitutional delay of growth and puberty.",
-    "risks": "Reference sources list aromatase inhibitors as causing hot flushes, joint pain and fatigue, with concern for bone density loss and raised cholesterol with long use, and note they are contraindicated in pregnancy and in premenopausal women for their approved indication. They are prescription-only in the US, UK and EU. Sources note slowed bone maturation can be an effect in children; effects of use for height in healthy people are unstudied."
-  },
-  "lead": [
-    "Aromatase inhibitors (AIs) are drugs that block aromatase, the enzyme that converts androgens such as testosterone into oestrogens. Letrozole and anastrozole are reversible nonsteroidal inhibitors, and exemestane is an irreversible steroidal one.[1][2] They are approved mainly for hormone-receptor-positive breast cancer in postmenopausal women.[1][2]",
-    "'AI for height' refers to the off-label idea of using these drugs to lower oestrogen in adolescents, slowing growth-plate closure and extending the growing period. Reference sources describe AIs being used experimentally in boys with delayed puberty and idiopathic short stature, where reduced oestrogen slows growth-plate fusion and gives growth hormone more time to work.[2] A meta-analysis of seven randomised trials, summarised in an encyclopedia entry, found letrozole safe and effective for improving height and puberty outcomes in children with constitutional delay of growth and puberty.[1]",
-    "A registered phase 3 trial tested aromatase inhibitors alone and combined with growth hormone in 76 adolescent boys with idiopathic short stature.[3] No study identified for this article has tested AIs for height in healthy adults with closed growth plates, and no forum material was identified for this entry."
+ "name": "Letrozole / aromatase inhibitors for height",
+ "card": {
+  "summary": "Using aromatase inhibitors to slow bone maturation and extend growth; trialled in boys with short stature, with no published evidence for healthy adults.",
+  "aka": "AI for height, letrozole, anastrozole",
+  "evidence": "limited",
+  "status": "rx",
+  "risk": "high",
+  "price": null,
+  "note": "Prescription drugs approved for other uses (such as breast cancer); height use is off-label and studied only in boys with open growth plates.",
+  "structure": "Letrozole"
+ },
+ "quick": {
+  "overview": "Aromatase inhibitors such as letrozole block the enzyme that converts androgens into oestrogen. Because oestrogen drives the closing of growth plates in both sexes, researchers have tested these drugs in adolescent boys with short stature or delayed puberty, hoping to slow bone maturation and give more time to grow.\n\nThe idea circulates in height-focused communities as a way to 'delay growth plate closure'. Published research relevant to it is limited to paediatric studies, including a registered phase 3 trial of aromatase inhibitors alone and with growth hormone in adolescent boys with idiopathic short stature. No study identified for this article tests the approach in healthy adults.",
+  "mechanism": "Aromatase inhibitors reduce oestrogen production. Lower oestrogen slows growth-plate fusion, which in theory leaves a longer window for growth. Letrozole is a nonsteroidal, reversible inhibitor; other agents include anastrozole and the steroidal exemestane. A meta-analysis cited in encyclopedia sources found letrozole safe and effective for improving height and puberty outcomes in children with constitutional delay of growth and puberty.",
+  "risks": "Reference sources list aromatase inhibitors as causing hot flushes, joint pain and fatigue, with concern for bone density loss and raised cholesterol with long use, and note they are contraindicated in pregnancy and in premenopausal women for their approved indication. They are prescription-only in the US, UK and EU. Sources note slowed bone maturation can be an effect in children; effects of use for height in healthy people are unstudied."
+ },
+ "lead": [
+  "Aromatase inhibitors (AIs) are drugs that block aromatase, the enzyme that converts androgens such as testosterone into oestrogens. Letrozole and anastrozole are reversible nonsteroidal inhibitors, and exemestane is an irreversible steroidal one.[1][2] They are approved mainly for hormone-receptor-positive breast cancer in postmenopausal women.[1][2]",
+  "In height-focused communities, 'AI for height' means using these drugs off-label during adolescence to lower oestrogen, with the aim of slowing growth-plate closure and lengthening the period in which a person can still grow taller. The reasoning follows normal physiology: rising oestrogen during puberty, in both sexes, drives growth-plate cartilage cells toward cell death and the plate gradually turns to bone.[7] Practitioners hope that less oestrogen means later fusion and more final height.",
+  "Paediatric endocrinologists have tested the idea in selected boys with delayed puberty or idiopathic short stature, sometimes alongside growth hormone.[14][17] Results are mixed: Finnish trials reported slower bone-age advancement and higher predicted adult height in some groups, while a long-term follow-up of one randomised trial found adult heights similar to placebo.[15][17] A 2023 network meta-analysis found AIs and GnRH analogues did not differ significantly in their effect on final height in boys with idiopathic short stature.[16] The mechanism applies only while growth plates remain open, and no study identified for this article has tested AIs for height in healthy adults."
+ ],
+ "angle": {
+  "goal": "Height",
+  "chain": [
+   "Aromatase inhibitor lowers oestrogen",
+   "Growth-plate fusion proceeds more slowly",
+   "Longer growth window in adolescence",
+   "Possible gain in final height"
   ],
-  "infobox": [
-    ["Drug class", "Aromatase inhibitors (letrozole, anastrozole, exemestane)"],
-    ["Route", "Oral"],
-    ["Letrozole approved for", "Breast cancer (postmenopausal women)"],
-    ["Use for height", "Off-label; studied in adolescent boys"],
-    ["Legal status", "Prescription-only (US, UK, EU)"],
-    ["Letrozole patented / approved", "1986 / 1996"]
+  "effect": "claimed",
+  "text": "Users who pursue this approach do so in adolescence, hoping that lower oestrogen keeps growth plates open for longer so that more height accumulates before fusion. Paediatric trials in boys with short stature or delayed puberty have examined this mechanism under specialist supervision, alone and with growth hormone, with varying results."
+ },
+ "infobox": [
+  [
+   "Drug class",
+   "Aromatase inhibitors (letrozole, anastrozole, exemestane)"
   ],
-  "sections": [
-    {
-      "h": "Uses",
-      "paras": [
-        "Letrozole (brand name Femara) is approved for hormone-receptor-positive breast cancer in postmenopausal women, and is also used off-label for ovulation induction in polycystic ovary syndrome and in some other settings, including constitutional delay of growth and puberty.[1] Aromatase inhibitors are also listed for gynecomastia in adolescents, precocious puberty and short stature in reference summaries.[2]",
-        "The World Anti-Doping Agency lists letrozole because it can counter side effects of anabolic steroids; the article notes it does not itself enhance performance.[1]"
-      ]
-    },
-    {
-      "h": "Rationale for height",
-      "paras": [
-        "Growth plates close under the influence of oestrogen in both sexes. Lowering oestrogen with an AI slows bone-age advancement, and it has been tested in boys with delayed puberty or idiopathic short stature, sometimes together with growth hormone.[2][3] An encyclopedia entry on idiopathic short stature mentions AIs only as a proposed alternative to growth hormone.[4]"
-      ]
-    },
-    {
-      "h": "Adverse effects",
-      "paras": [
-        "Common effects of letrozole include sweating, hot flushes, joint pain and fatigue, resembling effects of low oestrogen. Long-term use raises concern about osteoporosis, and precautions cover bone mineral density loss, raised cholesterol and fat levels, dizziness, pregnancy and breastfeeding. It is contraindicated in premenopausal women.[1]",
-        "A general reference on aromatase inhibitors lists slowed bone maturation and growth, infertility, aggressive behaviour, adrenal insufficiency, kidney failure, hair loss and liver dysfunction among reported effects, and notes the page says men do not show the same bone effects seen in women.[2]"
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "A phase 3 trial, completed, enrolled 76 adolescent boys with idiopathic short stature to compare aromatase inhibitors alone and in combination with growth hormone.[3] A meta-analysis of seven randomised trials of letrozole in constitutional delay of growth and puberty, cited in an encyclopedia entry, reported improved height and puberty outcomes and slowed bone-age progression.[1] Registered studies of letrozole in congenital adrenal hyperplasia (a three-drug combination) and in ovulation induction concern other indications.[5][6]",
-        "No studies found of aromatase inhibitors for height in healthy adults."
-      ]
-    },
-    {
-      "h": "Legal status",
-      "paras": [
-        "Letrozole is prescription-only in the US, UK and EU, and Schedule VII in Canada. India banned its use for ovulation induction in 2011, citing infant safety concerns.[1] It is on the WHO Essential Medicines List.[1]"
-      ]
-    }
+  [
+   "Route",
+   "Oral"
   ],
-  "timeline": [
-    { "year": "1986", "event": "Letrozole patented.[1]" },
-    { "year": "1996", "event": "Letrozole approved for medical use.[1]" },
-    { "year": "2010", "event": "Phase 3 trial of aromatase inhibitors alone and with growth hormone in adolescent boys with idiopathic short stature begins.[3]" }
+  [
+   "Letrozole approved for",
+   "Breast cancer (postmenopausal women)[1]"
   ],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Letrozole", "url": "https://en.wikipedia.org/wiki/Letrozole", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
-    { "id": 2, "title": "Aromatase inhibitor", "url": "https://en.wikipedia.org/wiki/Aromatase_inhibitor", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
-    { "id": 3, "title": "NCT01248416 Aromatase Inhibitors, Alone And In Combination With Growth Hormone In Adolescent Boys With Idiopathic Short Stature", "url": "https://clinicaltrials.gov/study/NCT01248416", "source": "ClinicalTrials.gov", "year": 2010, "type": "trial" },
-    { "id": 4, "title": "Idiopathic short stature", "url": "https://en.wikipedia.org/wiki/Idiopathic_short_stature", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
-    { "id": 5, "title": "NCT00001521 Three Drug Combination Therapy Versus Conventional Treatment of Children With Congenital Adrenal Hyperplasia", "url": "https://clinicaltrials.gov/study/NCT00001521", "source": "ClinicalTrials.gov", "year": 1995, "type": "trial" },
-    { "id": 6, "title": "NCT01909141 Ovulation Induction in Women With Clomiphene Citrate Resistant PCOS", "url": "https://clinicaltrials.gov/study/NCT01909141", "source": "ClinicalTrials.gov", "year": 2013, "type": "trial" }
+  [
+   "Use for height",
+   "Off-label; studied in adolescent boys[14][17]"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Letrozole", "title": "Letrozole - Wikipedia" },
-    { "url": "https://en.wikipedia.org/wiki/Aromatase_inhibitor", "title": "Aromatase inhibitor - Wikipedia" },
-    { "url": "https://en.wikipedia.org/wiki/Idiopathic_short_stature", "title": "Idiopathic short stature - Wikipedia" }
+  [
+   "Legal status",
+   "Prescription-only (US, UK, EU)[1]"
+  ],
+  [
+   "Letrozole patented / approved",
+   "1986 / 1996[1]"
+  ],
+  [
+   "Third-generation AIs",
+   "Anastrozole, letrozole, exemestane[2]"
+  ],
+  [
+   "Key trials",
+   "Finnish letrozole RCTs (2000s); 76-boy AI/GH trial (2010 start)[3][14][17]"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Uses",
+   "subs": [
+    {
+     "h": "Medical uses",
+     "paras": [
+      "Letrozole (brand name Femara) is approved for hormone-receptor-positive breast cancer in postmenopausal women, and is also used off-label for ovulation induction in polycystic ovary syndrome and in some other settings, including constitutional delay of growth and puberty.[1] Systematic reviews of seven randomised trials in polycystic ovary syndrome found higher ovulation and live-birth rates with letrozole than with clomiphene.[5] Aromatase inhibitors are also listed for gynecomastia in adolescents, precocious puberty and short stature in reference summaries.[2]",
+      "The World Anti-Doping Agency lists letrozole because it can counter side effects of anabolic steroids; the Wikipedia article notes it does not itself enhance performance.[1]"
+     ]
+    },
+    {
+     "h": "Use for height",
+     "paras": [
+      "Growth plates (epiphyseal plates) fuse under the influence of oestrogen in both sexes. Fusion can begin as early as 14 in boys and most boys finish by around 15 to 17; girls typically fuse earlier, at about 14 to 15.[7] An AI lowers oestrogen production, which slows bone-age advancement; this is the basis for testing AIs in boys with delayed puberty or idiopathic short stature, sometimes together with growth hormone.[2][3] The approach is described as experimental in reference sources.[2]",
+      "Because the mechanism depends on open growth plates, the approach is discussed almost entirely by teenagers and their parents. Published paediatric work is carried out by specialist clinicians who monitor bone age, puberty and hormone levels. Self-directed use is outside these studies."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "subs": [
+    {
+     "h": "Mechanism of action",
+     "paras": [
+      "Letrozole is an orally active, nonsteroidal, selective aromatase inhibitor. It binds competitively and reversibly to the heme group of the aromatase cytochrome P450 enzyme and does not reduce corticosteroid production.[1] Type I (steroidal) inhibitors such as exemestane bind irreversibly to the enzyme's substrate site, while type II (nonsteroidal) agents such as anastrozole and letrozole bind reversibly.[2]",
+      "Aromatase inhibitors are grouped into generations: aminoglutethimide and testolactone (first), fadrozole and formestane (second), and anastrozole, letrozole and exemestane (third).[2] In men, blocking aromatase raises testosterone and lowers oestradiol, which is why the drugs also appear in discussions of testosterone therapy and anabolic steroid use.[1][2]"
+     ]
+    },
+    {
+     "h": "Oestrogen and growth plates",
+     "paras": [
+      "Rising oestrogen at puberty increases programmed death of chondrocytes in the growth plate. With fewer cells, less cartilage converts to bone, lengthening slows, and a thin epiphyseal line remains once the cartilage is replaced.[7] Reference sources on aromatase inhibitors describe the experimental use in boys as a way of slowing growth-plate fusion and giving growth hormone more time to act.[2]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Evidence on AIs for height comes from small paediatric studies of boys, summarised by Geffner (2009) in a narrative review from Children's Hospital Los Angeles. He describes a 2001 Finnish randomised trial of 33 boys with constitutional delay (testosterone plus letrozole reduced bone-age advancement to 0.9 years versus 1.7 with testosterone plus placebo, with predicted adult height up about 5.1 cm), a 2006 follow-up in which near-final height was 175.8 cm with testosterone plus letrozole versus 169.5 cm with testosterone plus placebo, and a 2008 randomised trial of anastrozole in 52 growth-hormone-deficient boys with predicted height gain of about 6.8 cm at 36 months versus about 1 cm with placebo.[17] He notes that only about 110 children had been treated with AIs in research settings by the end of 2008, that none had reached final height, and that he advised use outside research settings be discouraged pending long-term studies.[17]",
+    "Hero and colleagues' 2005 randomised placebo-controlled trial of letrozole in boys with idiopathic short stature (ISS) was followed up by Varimo and colleagues (Frontiers in Endocrinology, 2019). Of 30 original boys, 20 were analysed at adult height: 164.8 cm with letrozole and 163.7 cm with placebo (p=0.49), a difference the authors considered neither statistically nor clinically significant. They concluded that treatment was not beneficial when given to pre- or early-pubertal boys, found no long-term detrimental effect on spine morphology on MRI, and noted limits including small size, attrition and that half of the letrozole group was still prepubertal.[15] Geffner reports that earlier work had found vertebral wedge deformities in 46% of letrozole-treated boys versus 36% of placebo boys, a difference that was not statistically significant, and calls for further study of vertebral morphology.[17]",
+    "A registered phase 3 trial (NCT01248416), begun in 2010, randomised 76 adolescent boys with ISS to growth hormone alone, an AI (anastrozole or letrozole) alone, or both.[3] In results presented at ENDO 2016 and reported by ScienceDaily, the combined group gained more height and predicted adult height at 24 months than either single treatment, and bone-health measures and adverse events were comparable across groups.[14] A June 2026 ENDO poster reported by Medical Dialogues followed 31 boys given letrozole plus growth hormone for about 2.8 years: mean final height was 168.2 cm against a projected 162.8 cm, with no adverse effects reported; the report describes no control group.[19]",
+    "A 2023 network meta-analysis in Frontiers in Endocrinology (Wang and colleagues; four trials) found that AIs and GnRH analogues each outperformed no treatment on final height in boys with ISS, with no statistically significant difference between them. The authors consider long-term AI safety in boys not established, citing earlier reports of vertebral changes, transient HDL reduction and lower bone density.[16] A narrative review in Research, Society and Development concluded that AIs delay bone maturation and improve adult height, while that page reports no trial-level detail.[18] A meta-analysis of seven randomised trials of letrozole in constitutional delay of growth and puberty, summarised on Wikipedia, reported improved height and pubertal outcomes.[1]",
+    "Registered studies of letrozole in congenital adrenal hyperplasia (part of a three-drug combination in children, 66 participants) and in ovulation induction in clomiphene-resistant polycystic ovary syndrome (100 participants) concern other indications.[4][6] No studies found of AIs for height in healthy adults or in adolescents outside specialist paediatric settings."
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "paras": [
+    "Common effects of letrozole include sweating, hot flushes, joint pain and fatigue, which reflect low oestrogen. Long-term use raises concern about osteoporosis, and precautions cover loss of bone mineral density, raised cholesterol and blood fats, dizziness, pregnancy and breastfeeding. It is contraindicated in premenopausal women.[1]",
+    "A general reference on aromatase inhibitors lists slowed bone maturation and growth, infertility, aggressive behaviour, adrenal insufficiency, kidney failure, hair loss and liver dysfunction among reported effects, and notes that men do not appear to show the bone effects seen in women.[2] Forum participants describe 'crashing' oestrogen, meaning very low oestradiol on blood tests, as a recognised problem, and comparisons of the three main AIs in forum posts cite a lipid-profile difference between anastrozole and letrozole or exemestane.[8][11]",
+    "In the paediatric literature, Geffner lists theoretical concerns including bone mineral density, bone morphology, HDL cholesterol, fertility, cognition and metabolic effects, and describes high testosterone levels as an effect of blocking the conversion to oestrogen in boys; Varimo and colleagues reported higher counts of psychiatric comorbidity in the letrozole group than the placebo group that did not reach statistical significance.[15][17]"
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Aromatase inhibitors were developed for breast cancer: Wikipedia traces first-generation agents to aminoglutethimide and testolactone, and describes formestane trials from Angela Brodie's group in 1982 before the third-generation drugs (anastrozole, letrozole, exemestane) arrived.[2] Letrozole was patented in 1986 and approved for medical use in 1996.[1]",
+    "Interest in height came from the observation that oestrogen, not testosterone alone, drives growth-plate fusion in both sexes, which suggested that blocking oestrogen synthesis might slow skeletal maturation.[2][7] Geffner's 2009 review recounts Finnish trials in boys with delayed puberty and ISS beginning in the early 2000s, and notes that the field was small and that adult-height data were lacking at that point.[17] Later work added growth hormone combinations, with a 76-boy trial beginning in 2010.[3][14]",
+    "In the 2020s, reports of AIs circulating in height-focused online communities accompanied growing interest in 'heightmaxxing' alongside limb lengthening, growth hormone and other approaches discussed on looksmax.org.[8][13]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "subs": [
+    {
+     "h": "Legal status",
+     "paras": [
+      "Letrozole is prescription-only in the US, UK and EU, and Schedule VII in Canada. India banned its use for ovulation induction in 2011, citing safety concerns for infants.[1] It is on the WHO Essential Medicines List.[1]"
+     ]
+    },
+    {
+     "h": "Use in height communities",
+     "paras": [
+      "On looksmax.org, threads on 'heightmaxxing' compare letrozole, anastrozole (Arimidex) and exemestane (Aromasin), and often discuss AIs together with growth hormone or the secretagogue MK-677 in 'stacks'.[8] Many threads are written by self-described teenagers; this article does not cover dosing or sourcing. A thread circulated among members linking an article on AIs for height as supporting their conclusion.[13] The paediatric literature stresses supervision: Geffner's review advises that use outside research settings be discouraged.[17]"
+     ]
+    }
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1982",
+   "event": "Clinical trials of formestane, developed by Angela Brodie's group, show efficacy as an aromatase inhibitor.[2]"
+  },
+  {
+   "year": "1986",
+   "event": "Letrozole patented.[1]"
+  },
+  {
+   "year": "1996",
+   "event": "Letrozole approved for medical use.[1]"
+  },
+  {
+   "year": "2001",
+   "event": "Finnish randomised trial of testosterone plus letrozole in boys with constitutional delay reports slower bone-age advancement.[17]"
+  },
+  {
+   "year": "2005",
+   "event": "Randomised placebo-controlled letrozole trial in boys with idiopathic short stature (Hero and colleagues).[15]"
+  },
+  {
+   "year": "2009",
+   "event": "Geffner review advises continued caution and long-term study.[17]"
+  },
+  {
+   "year": "2010",
+   "event": "Phase 3 trial of AIs alone and with growth hormone in 76 adolescent boys begins.[3]"
+  },
+  {
+   "year": "2016",
+   "event": "ENDO presentation reports greater gain with AI plus growth hormone at 24 months.[14]"
+  },
+  {
+   "year": "2019",
+   "event": "Adult-height follow-up finds letrozole and placebo groups similar.[15]"
+  },
+  {
+   "year": "2023",
+   "event": "Network meta-analysis compares AIs and GnRH analogues for final height in ISS boys.[16]"
+  },
+  {
+   "year": "2026",
+   "event": "ENDO poster reports final heights above projection with letrozole plus growth hormone in 31 boys.[19]"
+  }
+ ],
+ "lore": {
+  "intro": "Height forums discuss AIs as a way to 'delay growth plate closure', often alongside growth hormone and other compounds, and often cite the paediatric trials.[8][13]",
+  "claims": [
+   {
+    "claim": "Letrozole or anastrozole can delay growth-plate fusion and add height",
+    "believers": "Members point to paediatric trials in short-statured boys and say that lowering oestrogen buys more years of growth, often citing AI plus growth hormone studies.[8][13]",
+    "experts": "Trials are in boys with ISS or delayed puberty under specialist care. Results vary: the 2019 follow-up found adult heights similar to placebo for letrozole alone, while a 2016 trial reported added gain with AI plus growth hormone.[14][15]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Letrozole is more powerful than exemestane (Aromasin) but easier to overdo",
+    "believers": "Forum replies describe Aromasin as safer and harder to 'crash' oestrogen with, while letrozole is described as strong enough to 'destroy' oestrogen.[8]",
+    "experts": "Reference sources describe letrozole as a potent third-generation inhibitor; a forum-quoted comparison reports an unfavourable lipid effect for letrozole and exemestane compared with anastrozole.[1][11]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "AIs can be added to hormone stacks to maximise height gains",
+    "believers": "Some users describe stacks combining an AI with growth hormone or MK-677 to extend growth.[8]",
+    "experts": "The registered AI plus growth hormone trial was supervised and limited to boys with ISS; combinations with other compounds have not been studied.[3]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Predicted-height gains from AIs turn into real adult-height gains",
+    "believers": "Proponents cite rises in predicted adult height in early trials and the 2016 AI plus growth hormone results.[14][17]",
+    "experts": "Varimo and colleagues found letrozole and placebo groups reached similar adult heights; Geffner notes predictions are not outcomes and calls for long-term studies.[15][17]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "AIs are safe because trials found few side effects",
+    "believers": "Trial reports and conference summaries describe comparable adverse events and no reported adverse effects in some series.[14][19]",
+    "experts": "Wang and colleagues consider long-term safety of AIs in boys not established; Geffner lists bone, lipid and spine concerns requiring study.[16][17]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Very low oestrogen from an AI is harmless or even helpful",
+    "believers": "One poster says some people regard a crashed oestrogen level as good because of 'heavy gains' in training.[8]",
+    "experts": "Reference sources note joint pain, bone-density concerns and slowed bone maturation as effects of lowering oestrogen, while stating that men do not show the same bone effects as women.[1][2]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Letrozole",
+   "url": "https://en.wikipedia.org/wiki/Letrozole",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Aromatase inhibitor",
+   "url": "https://en.wikipedia.org/wiki/Aromatase_inhibitor",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "NCT01248416 Aromatase Inhibitors, Alone And In Combination With Growth Hormone In Adolescent Boys With Idiopathic Short Stature",
+   "url": "https://clinicaltrials.gov/study/NCT01248416",
+   "source": "ClinicalTrials.gov",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "NCT00001521 Three Drug Combination Therapy Versus Conventional Treatment of Children With Congenital Adrenal Hyperplasia",
+   "url": "https://clinicaltrials.gov/study/NCT00001521",
+   "source": "ClinicalTrials.gov",
+   "year": 1995,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "Letrozole versus clomiphene citrate in polycystic ovary syndrome: systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26479460/",
+   "source": "Gynecological Endocrinology",
+   "year": 2015,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "NCT01909141 Ovulation Induction in Women With Clomiphene Citrate Resistant PCOS",
+   "url": "https://clinicaltrials.gov/study/NCT01909141",
+   "source": "ClinicalTrials.gov",
+   "year": 2013,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Epiphyseal plate",
+   "url": "https://en.wikipedia.org/wiki/Epiphyseal_plate",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 8,
+   "title": "[Method] Letrozole vs Aromasin",
+   "url": "https://looksmax.org/threads/letrozole-vs-aromasin.55835/",
+   "source": "looksmax.org",
+   "type": "forum"
+  },
+  {
+   "id": 9,
+   "title": "Idiopathic short stature",
+   "url": "https://en.wikipedia.org/wiki/Idiopathic_short_stature",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 11,
+   "title": "200mg to 140mg: What Are the Notable Differences?",
+   "url": "https://t-nation.com/t/200mg-to-140mg-what-are-the-notable-differences/264213",
+   "source": "T Nation",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 13,
+   "title": "an article that say just like our conclusion on using aromasin arimidex or letrozole to augment our height",
+   "url": "https://looksmax.org/threads/an-article-that-say-just-like-our-conclusion-on-using-aromasin-arimidex-or-letrozole-to-augment-our-height.511477/",
+   "source": "looksmax.org",
+   "type": "forum"
+  },
+  {
+   "id": 14,
+   "title": "Combining aromatase inhibitors with growth hormone may help short adolescent boys grow taller (ENDO 2016, Mauras)",
+   "url": "https://www.sciencedaily.com/releases/2016/04/160404091219.htm",
+   "source": "ScienceDaily",
+   "year": 2016,
+   "type": "news"
+  },
+  {
+   "id": 15,
+   "title": "Letrozole Monotherapy in Pre- and Early-Pubertal Boys Does Not Increase Adult Height",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6460933",
+   "source": "Frontiers in Endocrinology",
+   "year": 2019,
+   "type": "study"
+  },
+  {
+   "id": 16,
+   "title": "Comparative efficacy of aromatase inhibitors and GnRH analogue in increasing final height of idiopathic short stature boys: a network meta-analysis",
+   "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2023.1167351/full",
+   "source": "Frontiers in Endocrinology",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 17,
+   "title": "Aromatase Inhibitors to Augment Height: Continued Caution and Study Required",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3005754",
+   "source": "J Clin Res Pediatr Endocrinol",
+   "year": 2009,
+   "type": "review"
+  },
+  {
+   "id": 18,
+   "title": "Use of aromatase inhibitors for height improvement in boys: a literature review",
+   "url": "https://rsdjournal.org/rsd/article/view/40181",
+   "source": "Research, Society and Development",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 19,
+   "title": "Growth hormone plus letrozole boosts final height in boys with idiopathic short stature (ENDO 2026)",
+   "url": "https://medicaldialogues.in/pediatrics-neonatology/news/growth-hormone-plus-letrozole-boosts-final-height-in-boys-with-idiopathic-short-stature-endo-2026-173183",
+   "source": "Medical Dialogues",
+   "year": 2026,
+   "type": "news"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Letrozole",
+   "title": "Letrozole - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Aromatase_inhibitor",
+   "title": "Aromatase inhibitor - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Idiopathic_short_stature",
+   "title": "Idiopathic short stature - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Epiphyseal_plate",
+   "title": "Epiphyseal plate - Wikipedia"
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2016/04/160404091219.htm",
+   "title": "Combining aromatase inhibitors with growth hormone may help short adolescent boys grow taller (ENDO 2016, Mauras)"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6460933",
+   "title": "Letrozole Monotherapy in Pre- and Early-Pubertal Boys Does Not Increase Adult Height"
+  },
+  {
+   "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2023.1167351/full",
+   "title": "Comparative efficacy of aromatase inhibitors and GnRH analogue in increasing final height of idiopathic short stature boys: a network meta-analysis"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3005754",
+   "title": "Aromatase Inhibitors to Augment Height: Continued Caution and Study Required"
+  },
+  {
+   "url": "https://rsdjournal.org/rsd/article/view/40181",
+   "title": "Use of aromatase inhibitors for height improvement in boys: a literature review"
+  },
+  {
+   "url": "https://medicaldialogues.in/pediatrics-neonatology/news/growth-hormone-plus-letrozole-boosts-final-height-in-boys-with-idiopathic-short-stature-endo-2026-173183",
+   "title": "Growth hormone plus letrozole boosts final height in boys with idiopathic short stature (ENDO 2026)"
+  }
+ ]
 }

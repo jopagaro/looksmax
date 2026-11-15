@@ -1,75 +1,159 @@
 {
-  "name": "Deep conditioner / hair mask",
-  "lead": [
-    "A deep conditioner, also called a hair mask, is a thicker and more concentrated version of hair conditioner, applied after washing and left on for a longer period than ordinary rinse-out conditioner before being rinsed off. Wikipedia describes typical contact times of about 20 to 30 minutes and says these products are aimed at very dry or damaged hair [1].",
-    "Conditioners improve the feel, appearance and combability of hair mainly by reducing friction between fibres. Because hair consists of dead cells, they do not repair it biologically; they deposit material that coats the fibre and fills damaged areas of the cuticle [1]. Benefits such as repair and strengthening are widely advertised, but the Wikipedia article treats them as claims rather than established outcomes [1].",
-    "No clinical trials of deep conditioners as a product category were located. Laboratory studies of individual conditioning ingredients exist and are summarised below."
+ "lead": [
+  "A deep conditioner, also called a hair mask, is a thicker and more concentrated version of hair conditioner, applied after washing and left on for a longer period than ordinary rinse-out conditioner before being rinsed off. People use it to make dry, bleached, dyed or heat-styled hair look smoother, shinier and softer and to make it easier to comb and style. Wikipedia describes typical contact times of about 20 to 30 minutes and says these products are aimed at very dry or damaged hair.[1]",
+  "Conditioners improve the feel, appearance and combability of hair mainly by reducing friction between fibres. Because the visible hair shaft consists of dead cells, they do not repair it biologically; they deposit material that coats the fibre and fills damaged areas of the cuticle.[1][4] Benefits such as repair and strengthening are widely advertised, and the Wikipedia article describes their effect as temporary and cosmetic.[1]",
+  "No clinical trials of deep conditioners as a product category were located. Laboratory studies of individual conditioning ingredients exist and are summarised below."
+ ],
+ "angle": {
+  "goal": "Hair",
+  "chain": [
+   "Thick conditioning treatment left on after washing",
+   "Coats the cuticle, lowers friction and fills damaged areas",
+   "Smoother, shinier, more manageable hair"
   ],
-  "infobox": [
-    ["Type", "Hair care product (conditioning treatment)"],
-    ["Also called", "Hair mask, deep conditioning treatment"],
-    ["Typical contact time", "About 20-30 minutes[1]"],
-    ["Outcome", "Temporary cosmetic effect"],
-    ["Regulation", "Cosmetic product"]
+  "effect": "direct",
+  "text": "A deep conditioner coats the hair fibre and reduces friction, so hair looks glossier and feels softer, with less tangling and breakage when combed. The effect lasts until the next wash, which is why people repeat it in a routine."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Hair care product (conditioning treatment)"
   ],
-  "sections": [
-    {
-      "h": "Description",
-      "paras": [
-        "Undamaged hair carries a lipid film that makes it water-repellent and low in friction. Weathering, bleaching, dyeing and heat styling strip this film and leave the hair more negatively charged and rougher [1]. Deep conditioners are intended for hair in that state, and are thicker and more concentrated than instant or creme rinses [1].",
-        "Wikipedia notes that heat is sometimes used with deep conditioners to increase penetration [1]."
-      ]
-    },
-    {
-      "h": "Ingredients and mechanism",
-      "paras": [
-        "According to Wikipedia, conditioners act by at least one of three routes: neutralising the negative charge with cationic compounds, lubricating the cuticle, or diffusing small proteins into the hair shaft [1]. Common components include cationic surfactants such as cetrimonium chloride, fatty alcohols (cetyl and stearyl), silicones such as dimethicone, hydrolysed proteins, panthenol, humectants, acidifiers such as citric acid, and preservatives [1].",
-        "Hydrolysed protein effects are described as temporary [1]. Masks often add oils or plant extracts, which vary by brand."
-      ]
-    },
-    {
-      "h": "Evidence for effects",
-      "paras": [
-        "Studies cited by Wikipedia are laboratory work on hair fibres rather than trials of deep conditioner products. Keratin peptides of about 221 and 2,577 daltons were reported to penetrate relaxed textured hair while a roughly 75,000 dalton fraction mostly remained on the surface, and certain polymer pretreatments reduced breakage during combing after hot flat-ironing [1]. Panthenol was reported to increase break stress and elastic modulus in one study [1]."
-      ]
-    },
-    {
-      "h": "Safety",
-      "paras": [
-        "Deep conditioners are cosmetic products. A French study estimating exposure to hair cosmetics included hair masks among eleven hair product types, using consumption data on frequency and amount per use [2]. A published case report describes food allergy induced by a hen egg hair mask, illustrating that food-derived ingredients in homemade or commercial masks can provoke allergic reactions in sensitised people [3]. Wikipedia notes that conditioner left on the scalp may dry and flake in a way resembling dandruff [4]."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found. No human trials of deep conditioners or hair masks as a product category were located. Related research is limited to ingredient-level laboratory studies [1] and exposure and safety reports [2][3]."
-      ]
-    }
+  [
+   "Also called",
+   "Hair mask, deep conditioning treatment"
   ],
-  "timeline": [],
-  "lore": null,
-  "card": {
-    "summary": "A thicker, longer-contact conditioner for dry or damaged hair; it improves how hair feels and looks for now, but does not repair it.",
-    "aka": "Hair mask, deep conditioning treatment",
-    "evidence": "limited",
-    "outcome": "temporary",
-    "price": null,
-    "note": "Effects are cosmetic and wash out; mask ingredients such as egg can cause allergic reactions.",
-    "structure": null
-  },
-  "quick": {
-    "overview": "A deep conditioner or hair mask is a richer conditioning product that stays on the hair for around 20 to 30 minutes after washing. It is used on dry, bleached, heat-styled or otherwise damaged hair to make it softer, shinier and easier to comb.\n\nEncyclopedic sources say conditioners coat the hair rather than repair it, because hair is not living tissue. Claims of repair and strengthening are common in advertising but are not established in trials of the products.",
-    "mechanism": "Cationic surfactants bind to negatively charged hair and flatten the cuticle, fatty alcohols and silicones lubricate the fibre, and small proteins may enter the shaft. Heat is sometimes used to increase penetration.",
-    "risks": "Generally sold as a cosmetic. Allergic reactions to ingredients are documented, including a case report of food allergy triggered by an egg-based hair mask. Residue left on the scalp can flake."
-  },
-  "refs": [
-    { "id": 1, "title": "Hair conditioner", "url": "https://en.wikipedia.org/wiki/Hair_conditioner", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Probabilistic assessment of exposure to hair cosmetic products by the French population", "url": "https://pubmed.ncbi.nlm.nih.gov/27090106/", "source": "Food and Chemical Toxicology", "year": 2016, "type": "study" },
-    { "id": 3, "title": "Hen egg hair mask-induced food allergy: a case report", "url": "https://pubmed.ncbi.nlm.nih.gov/21980802/", "source": "European Annals of Allergy and Clinical Immunology", "year": 2011, "type": "study" },
-    { "id": 4, "title": "Hair care", "url": "https://en.wikipedia.org/wiki/Hair_care", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" }
+  [
+   "Typical contact time",
+   "About 20-30 minutes[1]"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Hair_conditioner", "title": "Hair conditioner" },
-    { "url": "https://en.wikipedia.org/wiki/Hair_care", "title": "Hair care" }
+  [
+   "Key ingredients",
+   "Cationic surfactants, fatty alcohols, silicones, hydrolysed proteins, panthenol[1]"
+  ],
+  [
+   "Outcome",
+   "Temporary cosmetic effect"
+  ],
+  [
+   "Regulation",
+   "Cosmetic product"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Undamaged hair carries a lipid film that makes it water-repellent and low in friction. Weathering, bleaching, dyeing and heat styling strip this film and leave the hair more negatively charged and rougher.[1] Deep conditioners are intended for hair in that state, and are thicker and more concentrated than instant or creme rinses.[1] Wikipedia notes that heat is sometimes used with deep conditioners to lift the cuticle and increase penetration.[1]",
+    "Other conditioner types include rinse-out conditioner (the most common, left on for a few minutes), leave-in conditioner (lightweight formulas that reduce static and may offer some thermal and UV protection), two-in-one conditioning shampoos, and cleansing conditioners used in place of shampoo on dry or textured hair.[1]"
+   ]
+  },
+  {
+   "h": "Ingredients and mechanism",
+   "paras": [
+    "According to Wikipedia, conditioners act by at least one of three routes: neutralising the negative charge with cationic compounds, lubricating the cuticle, or diffusing small proteins into the hair shaft.[1] Damaged hair has more negative sites and absorbs more conditioner.[1] Common components include cationic surfactants such as cetrimonium chloride and behentrimonium chloride, cationic polymers, fatty alcohols (cetyl and stearyl), silicones such as dimethicone, hydrolysed proteins, panthenol, humectants, acidifiers such as citric acid, sequestrants, UV filters, thermal protectants and preservatives.[1]",
+    "Hydrolysed protein effects are described as temporary.[1] Masks often add oils or plant extracts, which vary by brand."
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Natural oils have been used to condition hair for centuries. Macassar oil, a scented dressing sold from the 1790s by London barber Alexander Rowland, was widely used by men through much of the nineteenth century, and from about 1850 washable antimacassar cloths protected upholstery from it.[1] Modern conditioner is commonly traced to about 1900, when Edouard Pinaud presented Brilliantine at the Exposition Universelle in Paris, although Wikipedia marks this attribution as needing a citation.[1]"
+   ]
+  },
+  {
+   "h": "Types of hair damage addressed",
+   "paras": [
+    "Wikipedia lists chemical and environmental weathering (bleaching, dyeing, sunlight), heat damage from blow-dryers and flat irons that can exceed 200 degrees Celsius, mechanical damage from combing and tangling, and hard-water mineral build-up as damage types that conditioning products target.[1] Repeated heat styling is linked to split ends, and most permanent colour changes open the cuticle, which may not fully close afterwards; going lighter than natural colour is described as generally more damaging.[4] Because the visible shaft has no living processes, damage to it is not biologically repaired and care focuses on keeping the cuticle intact.[4]"
+   ]
+  },
+  {
+   "h": "Evidence for effects",
+   "paras": [
+    "Studies cited by Wikipedia are laboratory work on hair fibres rather than trials of deep conditioner products. Keratin peptides of about 221 and 2,577 daltons were reported to penetrate relaxed textured hair while a roughly 75,000 dalton fraction mostly remained on the surface, and certain polymer pretreatments reduced breakage during combing after hot flat-ironing.[1] Panthenol was reported to increase break stress and elastic modulus in one study, and longer-chain surfactants were reported to give larger reductions in wet combing force.[1] Hair washed in hard water was reported to carry more calcium and magnesium and have a rougher surface than hair washed in distilled water.[1]"
+   ]
+  },
+  {
+   "h": "Safety",
+   "paras": [
+    "Deep conditioners are cosmetic products. A French study estimating exposure to hair cosmetics included hair masks among eleven hair product types, using consumption data on frequency and amount per use.[2] A published case report describes food allergy induced by a hen egg hair mask, illustrating that food-derived ingredients in homemade or commercial masks can provoke allergic reactions in sensitised people.[3] Wikipedia notes that conditioner left on the scalp may dry and flake in a way resembling dandruff.[4]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found. No human trials of deep conditioners or hair masks as a product category were located. Related research is limited to ingredient-level laboratory studies[1] and exposure and safety reports.[2][3]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1790s",
+   "event": "Alexander Rowland sells Macassar oil in London.[1]"
+  },
+  {
+   "year": "1900",
+   "event": "Brilliantine presented by Edouard Pinaud at the Exposition Universelle, commonly cited as the start of modern conditioner.[1]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Hair conditioner",
+   "url": "https://en.wikipedia.org/wiki/Hair_conditioner",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Probabilistic assessment of exposure to hair cosmetic products by the French population",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27090106/",
+   "source": "Food and Chemical Toxicology",
+   "year": 2016,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Hen egg hair mask-induced food allergy: a case report",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21980802/",
+   "source": "European Annals of Allergy and Clinical Immunology",
+   "year": 2011,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Hair care",
+   "url": "https://en.wikipedia.org/wiki/Hair_care",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Hair_conditioner",
+   "title": "Hair conditioner"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Hair_care",
+   "title": "Hair care"
+  }
+ ],
+ "name": "Deep conditioner / hair mask",
+ "card": {
+  "summary": "A thicker, longer-contact conditioner for dry or damaged hair; it improves how hair feels and looks for now, but does not repair it.",
+  "aka": "Hair mask, deep conditioning treatment",
+  "evidence": "limited",
+  "outcome": "temporary",
+  "price": null,
+  "note": "Effects are cosmetic and wash out; mask ingredients such as egg can cause allergic reactions.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "A deep conditioner or hair mask is a richer conditioning product that stays on the hair for around 20 to 30 minutes after washing. It is used on dry, bleached, heat-styled or otherwise damaged hair to make it softer, shinier and easier to comb.\n\nEncyclopedic sources say conditioners coat the hair rather than repair it, because hair is not living tissue. Claims of repair and strengthening are common in advertising but are not established in trials of the products.",
+  "mechanism": "Cationic surfactants bind to negatively charged hair and flatten the cuticle, fatty alcohols and silicones lubricate the fibre, and small proteins may enter the shaft. Heat is sometimes used to increase penetration.",
+  "risks": "Generally sold as a cosmetic. Allergic reactions to ingredients are documented, including a case report of food allergy triggered by an egg-based hair mask. Residue left on the scalp can flake."
+ }
 }

@@ -46,6 +46,19 @@
    ]
   },
   {
+   "h": "Use in ancestral and fitness culture",
+   "paras": [
+    "Desiccated organ capsules are associated with the ancestral-diet movement, in which followers eat raw or dried organ meats and describe nose-to-tail eating as a route to a leaner, stronger physique. The best-known promoter is Brian Johnson, known online as the Liver King, who went viral in 2021 promoting an ancestral lifestyle built on raw organ meat, and who sells supplements online and co-owns the supplement company Heart & Soil with Paul Saladino, an advocate of animal-based diets [7]. The Wikipedia article on Johnson does not list particular organ or testicle capsule products [7].",
+    "Wikipedia's organ meat article describes a revival of offal eating in parts of Europe, partly through awareness of its nutritional content and promotion by fitness influencers [6]. Testicle preparations are the organ most explicitly tied to male vitality: eating bull testicles is traditional in several cuisines, and many people consider the dish an aphrodisiac [5]."
+   ]
+  },
+  {
+   "h": "Controversy and public perception",
+   "paras": [
+    "In late 2022 leaked emails showed that Johnson had spent over $11,000 a month on steroids and other performance-enhancing drugs, and he apologised on YouTube, admitting to taking about 120 mg of testosterone per week after repeatedly denying use; some followers sued him for $25 million, a case later discontinued [7]. A T Nation article on influencers and steroids discusses how physique results promoted alongside ancestral diets may be affected by drug use and mentions the Liver King episode [8]. The 2025 Netflix documentary Untold: The Liver King examined his career [7]."
+   ]
+  },
+  {
    "h": "History",
    "paras": [
     "Organotherapy, also called opotherapy, aimed to replace absent or insufficient internal secretions with organ preparations.[2] In 1889, at age 72, Brown-Sequard told the Societe de Biologie in Paris that injections of testicular fluid from guinea pigs and dogs rejuvenated him, and thousands of men tried the therapy.[1] Endocrinologist Robert Greenblatt argued that it could not have worked, because the testes do not store their hormones, and later experiments found that the method did not yield active amounts of testosterone.[1] Standardised hormone treatments largely replaced crude organ preparations.[2]"
@@ -72,9 +85,39 @@
   {
    "year": "1891",
    "event": "George Redmayne Murray treats myxoedema with sheep-thyroid extract, spurring interest in other organ extracts [2]."
+  },
+  {
+   "year": "2022",
+   "event": "Leaked emails lead the Liver King, an organ-supplement promoter, to admit steroid use [7]."
+  },
+  {
+   "year": "2025",
+   "event": "Study NCT07256639 of an organ-supplement package on men's health begins [3]."
   }
  ],
- "lore": null,
+ "lore": {
+  "intro": "On T Nation and in fitness media, organ supplements are discussed within debates about ancestral diets, testosterone and influencer credibility [8][7].",
+  "claims": [
+   {
+    "claim": "Eating testicle tissue supports your own testosterone ('like supports like')",
+    "believers": "Supplement marketers and ancestral-diet followers describe glandular tissue as supplying nutrients and signalling compounds specific to the organ.",
+    "experts": "Organotherapy had a long history, but endocrinologist Robert Greenblatt argued Brown-Sequard's 1889 testicular extract could not have worked because the testes do not store their hormones, and later experiments did not yield active amounts of testosterone [1][2].",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "Organ-heavy ancestral eating produces elite physiques",
+    "believers": "Influencers promoted raw organ eating as the basis of their muscularity.",
+    "experts": "The Liver King later admitted taking about 120 mg of testosterone per week after leaked emails showed large steroid spending, and T Nation commentary discusses how steroid use complicates influencer claims [7][8].",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "Whole-food organ supplements raise testosterone",
+    "believers": "Companies selling organ products position them for men's health and testosterone.",
+    "experts": "A registered study of a company's organ-supplement package (NCT07256639, n=100) lists testosterone as its condition and is active, not recruiting; no results have been published [3].",
+    "evidence": "untested"
+   }
+  ]
+ },
  "card": {
   "summary": "Dried bovine testicle capsules sold on a 'like supports like' basis; the idea descends from 1889 organ-extract experiments later attributed to placebo.",
   "aka": "Organ supplements, glandular testicle capsules",
@@ -87,9 +130,9 @@
   "structure": null
  },
  "quick": {
-  "overview": "These are capsules or powders made from dried beef testicle, sold as a way to support male hormones on the principle that eating an organ supports the same organ in the body. They belong to the older tradition of organotherapy.\n\nNo published trial results were found. A trial of a product described as an organ-based supplement, with testosterone as its condition, is registered as active but not recruiting.",
+  "overview": "These are capsules or powders made from dried beef testicle, sold as a way to support male hormones on the principle that eating an organ supports the same organ in the body. They belong to the older tradition of organotherapy.\nNo published trial results were found. A trial of a product described as an organ-based supplement, with testosterone as its condition, is registered as active but not recruiting.",
   "mechanism": "Proponents propose that nutrients or hormone-related compounds in the organ support the corresponding function in the eater. Historians note that Brown-Sequard's 1889 testicular extracts did not yield active amounts of testosterone and that the reported effects are now thought to reflect placebo [1].",
-  "risks": "The sources reviewed do not describe safety data for these products. Wikipedia notes that many historical glandular extracts were promoted without systematic evidence of safety and efficacy [2]."
+  "risks": "No safety data for these products are described. Wikipedia notes that many historical glandular extracts were promoted without systematic evidence of safety and efficacy [2]."
  },
  "refs": [
   {
@@ -139,6 +182,22 @@
    "source": "Wikipedia",
    "year": null,
    "type": "encyclopedia"
+  },
+  {
+   "id": 7,
+   "title": "Liver King",
+   "url": "https://en.wikipedia.org/wiki/Liver_King",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 8,
+   "title": "Actors, Athletes, and Influencers on Steroids",
+   "url": "https://t-nation.com/t/actors-athletes-and-influencers-on-steroids/280569",
+   "source": "T Nation",
+   "year": 2022,
+   "type": "forum"
   }
  ],
  "webSources": [
@@ -161,6 +220,10 @@
   {
    "url": "https://en.wikipedia.org/wiki/Organotherapy",
    "title": "Organotherapy"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Liver_King",
+   "title": "Liver King (Wikipedia)"
   }
  ]
 }

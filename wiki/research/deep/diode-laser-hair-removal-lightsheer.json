@@ -1,29 +1,24 @@
 {
- "name": "Diode laser hair removal (LightSheer)",
- "card": {
-  "summary": "The common 800-810 nm clinic hair-removal laser; LightSheer is a widely used brand with registered clinical trials.",
-  "aka": "LightSheer; 810 nm diode",
-  "evidence": "moderate",
-  "outcome": "durable",
-  "risk": "moderate",
-  "price": null,
-  "note": "Reduction rather than guaranteed permanent removal; pigment changes are a recognised risk.",
-  "structure": null
- },
- "quick": {
-  "overview": "Diode lasers emit near-infrared light around 800-810 nm that melanin absorbs, and are among the most common clinic hair-removal devices. LightSheer is a diode laser line, with registered trials of its handpieces for hair reduction.\n\nWikipedia notes a randomized trial where diode laser reduced hair by 69.2 percent at 12 months versus 52.7 percent for IPL.",
-  "mechanism": "Selective photothermolysis: light is absorbed by melanin in the hair, heating the follicle, while skin cooling protects the surface. Only growing follicles are affected, so sessions repeat every few weeks.",
-  "risks": "Short-term redness, swelling and pain are common; burns and pigment changes are possible. A 2006 review described by Wikipedia reported side effects in 28.9 percent for diode versus 9.5 percent for alexandrite."
- },
  "lead": [
-  "Diode laser hair removal uses semiconductor lasers around 800 to 810 nm to reduce hair by heating melanin in the follicle. Wikipedia lists pulsed diode arrays (810 nm) as suited to pale to medium skin. [1]",
-  "LightSheer is a diode hair-removal system whose handpieces (such as LightSheer Duet HS and ET) have been the subject of registered clinical studies. [2][3][4][5]",
-  "Wikipedia describes a randomized trial in which diode laser produced 69.2 percent hair reduction at 12 months, versus 52.7 percent for IPL. [1]"
+  "Diode laser hair removal uses semiconductor lasers at about 800 to 810 nm to reduce unwanted hair. The light is absorbed by melanin in the hair and heats the follicle, so that fewer hairs regrow over a course of treatments. People use it to look smoother and cleaner-shaven on the face, neck, chest, back, underarms or legs, and to reduce daily shaving and ingrown hairs [1][6].",
+  "LightSheer is a diode hair-removal system whose handpieces (such as LightSheer ET and Duet HS) have been studied in both academic trials and registered studies [2][3][4][5][7][8]. Wikipedia lists pulsed diode lasers (810 nm) as suited to pale to medium skin, while longer wavelengths such as Nd:YAG are used on darker skin [1].",
+  "In one randomised trial summarised by Wikipedia, diode laser achieved 69.2 percent hair reduction at 12 months versus 52.7 percent for intense pulsed light [1]. Clinics describe results as long-term reduction rather than guaranteed total removal: the US FDA defines 'permanent hair reduction' as a long-term stable decrease in the number of regrowing hairs [1]."
  ],
+ "angle": {
+  "goal": "Skin and hair",
+  "chain": [
+   "Diode laser light is absorbed by melanin in dark hair",
+   "Follicle heats up and is damaged",
+   "Hair sheds and regrows more sparsely over several sessions",
+   "Smoother skin with less shaving and fewer ingrown hairs"
+  ],
+  "effect": "direct",
+  "text": "Laser sessions reduce the amount of hair in treated areas, which people use to keep the face, neck or body smooth without daily shaving. Treatment is typically done in a clinic over multiple sessions spaced weeks apart."
+ },
  "infobox": [
   [
    "Wavelength",
-   "About 800-810 nm"
+   "About 800-810 nm [1]"
   ],
   [
    "Laser type",
@@ -31,40 +26,92 @@
   ],
   [
    "Brand example",
-   "LightSheer (handpieces ET, HS, Duet)"
+   "LightSheer (handpieces ET, HS, Duet) [2][7]"
   ],
   [
    "Skin types",
-   "Pale to medium (Wikipedia)"
+   "Pale to medium (Wikipedia, 810 nm); studies also in darker skin [1][9]"
+  ],
+  [
+   "Sessions",
+   "Typically at least eight, three to eight weeks apart [1]"
+  ],
+  [
+   "FDA term",
+   "Permanent hair reduction = long-term stable reduction [1]"
   ]
  ],
  "sections": [
   {
    "h": "How it works",
    "paras": [
-    "The laser is absorbed by melanin and heats the follicle; spot size, fluence, pulse width and cooling all affect results and side effects. [1]"
+    "Laser hair removal relies on selective photothermolysis, matching a wavelength and pulse duration to a target so that the target is damaged while surrounding tissue is spared. Melanin is the main chromophore: it absorbs the light and heats the follicle's basal stem cells [1]. The heat must reach a sufficient temperature and be held long enough, and spot size, fluence, pulse width and skin cooling (contact, cryogen spray or cold air) all affect results and side effects [1].",
+    "Diode systems operate around 800 to 810 nm, between alexandrite (755 nm) and Nd:YAG (1064 nm) in wavelength. Light skin with dark hair gives the best contrast; fine, light blonde, red, grey or white hair responds poorly [1]."
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Wikipedia reports that laser hair removal was experimental for roughly twenty years before reaching the market in 1995-1996, with a group at Massachusetts General Hospital including R. Rox Anderson and Melanie Grossman publishing an early paper in 1998 and the FDA approving the method in 1997 [1]. Early diode work included a 2000 clinical and histologic study of 800 nm diode laser hair removal in African American patients using LightSheer pulses of 30 and 100 ms, designed to examine efficacy and side effects in skin types V and VI [10]."
    ]
   },
   {
    "h": "Effectiveness and sessions",
    "paras": [
-    "Most people need at least eight sessions spaced three to eight weeks apart, according to Wikipedia, and the FDA defines \"permanent\" as long-term stable reduction rather than total removal. [1]"
+    "Lasers affect only follicles in the active growth phase, so multiple sessions are needed. Most people need at least eight sessions spaced three to eight weeks apart, and men's facial hair may need considerably more [1]. Treated hair typically sheds over two to three weeks [1].",
+    "A 2006 review described on Wikipedia reported six-month reductions of about 71.7 percent for diode, 68.8 percent for alexandrite and 67.0 percent for IPL [1]. Operator skill and equipment affect outcomes [1]. Diode lasers have also been used for hypertrichosis, including hair associated with Becker's nevus, where a 15-patient study using low-fluence, high-repetition diode lasers reported significant hair reduction at 6 and 12 months with no adverse events [5]."
+   ]
+  },
+  {
+   "h": "Skin of colour",
+   "paras": [
+    "Competition from epidermal melanin makes treating darker skin more challenging. A study of eight patients with Fitzpatrick skin types V and VI, four with pseudofolliculitis barbae, treated with an 810 nm diode laser at low energy and long pulse duration reported excellent hair reduction and resolution of pseudofolliculitis barbae, with transient pigment changes that resolved within months [9]."
    ]
   },
   {
    "h": "Safety and risks",
    "paras": [
-    "A 2006 review described on Wikipedia reported side effects in 28.9 percent for diode lasers versus 9.5 percent for alexandrite and 15.3 percent for IPL. [1] Common effects include redness and swelling; serious effects include acne flares, burns and skin discoloration. [1]"
+    "A 2006 review described on Wikipedia reported side effects in 28.9 percent of treatments with diode lasers versus 9.5 percent with alexandrite and 15.3 percent with IPL [1]. Itching, pink skin, redness and swelling usually last two or three days, while acne flares, burns, scabbing, infection and skin discoloration (hypopigmentation or hyperpigmentation) are less common serious effects [1]. Numbing creams are used for pain, and Wikipedia cautions that strong creams over large areas can be dangerous [1].",
+    "Case literature includes a report of pili bigemini (two hairs emerging from one follicle opening) following diode laser treatment [11]. Studies have also examined diode laser hair removal in patients taking isotretinoin [12]."
+   ]
+  },
+  {
+   "h": "Regulation and consumer devices",
+   "paras": [
+    "In the United States the FDA regulates the devices, there is no federal practitioner licensing, and most states regulate hair-removal services; Florida, for example, restricts commercial use to physicians and supervised practitioners [1]. As of 2025 two diode devices, the Epilaser and TRIA, are cleared for over-the-counter sale [1]."
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "ClinicalTrials.gov lists completed LightSheer studies: a hair-count reduction verification of the Duet HS handpiece (NCT01282866, n=35) [2], a comparison of two 810 nm diode lasers for hypertrichosis (NCT01212172, n=20) [3], an evaluation of the 805 nm Duet HS handpiece (NCT01801202, n=21) [4], and a comparison of HS versus ET handpieces (NCT00657085, n=5) [5]. Results are not summarised here."
+    "Randomised and comparative studies of LightSheer and other 810 nm diodes include: a split-axilla trial of 36 Chinese women comparing LightSheer Duet HS with LightSheer ET, with 81 percent and 85 percent hair reduction one month after three sessions and lower first-session pain on the Duet HS [7]; a split-lip study of 29 patients comparing LightSheer with the MedioStar laser, with about 48 percent and 49 percent reduction six months after the first of three treatments and no scarring or pigment change [8]; and a 42-woman split-face trial in polycystic ovary-related facial hirsutism comparing a low-fluence, high-repetition 810 nm laser (90.5 percent median reduction) with LightSheer (85 percent), with a statistically insignificant difference [13].",
+    "A randomised crossover study of nine patients found that diode laser hair removal did not interfere with botulinum toxin treatment of axillary hyperhidrosis [14]. A pilot study examined diode laser hair removal around ileostomies and colostomies [15].",
+    "Registered trials on ClinicalTrials.gov include a hair-count reduction verification of the Duet HS handpiece (n=35) [2], a comparison of two 810 nm diode lasers for hypertrichosis (n=20) [3], an evaluation of the Duet 805 nm HS handpiece (n=21) [4] and a five-person comparison of HS and ET handpieces [6]."
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "1995-1996",
+   "event": "Laser hair removal becomes commercially available after about two decades of experimental work [1]."
+  },
+  {
+   "year": "1997",
+   "event": "FDA approval of laser hair removal [1]."
+  },
+  {
+   "year": "2000",
+   "event": "Clinical and histologic study of 800 nm LightSheer diode laser in African American patients [10]."
+  },
+  {
+   "year": "2011",
+   "event": "Randomised comparison of LightSheer Duet HS and ET in Chinese women published [7]."
+  },
+  {
+   "year": "2025",
+   "event": "Two diode devices, Epilaser and TRIA, cleared for over-the-counter sale [1]."
+  }
+ ],
  "lore": null,
  "refs": [
   {
@@ -101,11 +148,91 @@
   },
   {
    "id": 5,
+   "title": "Hypertrichosis in Becker's nevus: effective low-fluence laser hair removal",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23558435/",
+   "source": "Lasers in Medical Science",
+   "year": 2014,
+   "type": "study"
+  },
+  {
+   "id": 6,
    "title": "Evaluation of the LightSheer HS Hand Piece as Compared to the LightSheer ET Hand Piece",
    "url": "https://clinicaltrials.gov/study/NCT00657085",
    "source": "ClinicalTrials.gov NCT00657085",
    "year": 2008,
    "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Hair removal utilizing the LightSheer Duet HS hand piece and the LightSheer ET: a comparative study of two diode laser systems in Chinese women",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22091798/",
+   "source": "Journal of Cosmetic and Laser Therapy",
+   "year": 2011,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Hair removal with long pulsed diode lasers: a comparison between two systems with different pulse structures",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12766964/",
+   "source": "Lasers in Surgery and Medicine",
+   "year": 2003,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "Diode laser hair removal of the black patient",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11241522/",
+   "source": "Lasers in Surgery and Medicine",
+   "year": 2001,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "800 nanometer diode laser hair removal in African American patients: a clinical and histologic study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11350674/",
+   "source": "Journal of Cutaneous Laser Therapy",
+   "year": 2000,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "Pili bigemini complicating diode laser hair removal",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17147564/",
+   "source": "Journal of Cosmetic Dermatology",
+   "year": 2004,
+   "type": "study"
+  },
+  {
+   "id": 12,
+   "title": "Diode laser hair removal in patients undergoing isotretinoin therapy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15355360/",
+   "source": "Dermatologic Surgery",
+   "year": 2004,
+   "type": "study"
+  },
+  {
+   "id": 13,
+   "title": "Safety and efficacy of low-fluence, high-repetition rate versus high-fluence, low-repetition rate 810-nm diode laser for permanent hair removal: a split-face comparison study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21692640/",
+   "source": "Journal of Cosmetic and Laser Therapy",
+   "year": 2011,
+   "type": "study"
+  },
+  {
+   "id": 14,
+   "title": "Diode laser hair removal does not interfere with botulinum toxin A treatment against axillary hyperhidrosis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20333738/",
+   "source": "Lasers in Surgery and Medicine",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 15,
+   "title": "Diode laser hair removal around ileo-colo ostomys is safe, effective and beneficial: a pilot study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18081148/",
+   "source": "Lasers in Surgery and Medicine",
+   "year": 2007,
+   "type": "study"
   }
  ],
  "webSources": [
@@ -113,5 +240,21 @@
    "url": "https://en.wikipedia.org/wiki/Laser_hair_removal",
    "title": "Laser hair removal (Wikipedia)"
   }
- ]
+ ],
+ "name": "Diode laser hair removal (LightSheer)",
+ "card": {
+  "summary": "The common 800-810 nm clinic hair-removal laser; LightSheer is a widely used brand with registered clinical trials.",
+  "aka": "LightSheer; 810 nm diode",
+  "evidence": "moderate",
+  "outcome": "durable",
+  "risk": "moderate",
+  "price": null,
+  "note": "Reduction rather than guaranteed permanent removal; pigment changes are a recognised risk.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Diode lasers emit near-infrared light around 800-810 nm that melanin absorbs, and are among the most common clinic hair-removal devices. LightSheer is a diode laser line, with registered trials of its handpieces for hair reduction.\n\nWikipedia notes a randomized trial where diode laser reduced hair by 69.2 percent at 12 months versus 52.7 percent for IPL.",
+  "mechanism": "Selective photothermolysis: light is absorbed by melanin in the hair, heating the follicle, while skin cooling protects the surface. Only growing follicles are affected, so sessions repeat every few weeks.",
+  "risks": "Short-term redness, swelling and pain are common; burns and pigment changes are possible. A 2006 review described by Wikipedia reported side effects in 28.9 percent for diode versus 9.5 percent for alexandrite."
+ }
 }

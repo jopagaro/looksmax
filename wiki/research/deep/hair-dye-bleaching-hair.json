@@ -1,103 +1,434 @@
 {
-  "name": "Hair dye / bleaching hair",
-  "lead": [
-    "Hair dyeing and bleaching change the colour of scalp hair, eyebrows, lashes or facial hair with chemical colourants or lighteners. In looksmaxxing communities they are discussed as ways to adjust contrast, cover grey, darken sparse eyebrows or beard, or change overall look [1][2].",
-    "Dyes are classed by permanence: permanent dyes use ammonia and a peroxide developer and can lighten, while semi-permanent and temporary dyes deposit colour without lightening [3]. The main documented harm is allergic contact dermatitis, especially to para-phenylenediamine (PPD), and cancer associations remain debated [3][4]."
+ "name": "Hair dye / bleaching hair",
+ "card": {
+  "summary": "Dyeing or bleaching hair for colour and contrast; common cosmetic practice with documented allergy risk.",
+  "aka": "Hair colouring",
+  "evidence": "moderate",
+  "risk": "moderate",
+  "note": "PPD allergy can be severe; bleaching peroxide can damage hair and skin.",
+  "price": null
+ },
+ "quick": {
+  "overview": "Hair dyeing and bleaching change hair colour using chemical colourants or lighteners. Looksmaxxers use them for hair, brows and facial hair.\n\nThe chemistry is well documented. Research on harms centres on allergy, with mixed evidence on cancer.",
+  "mechanism": "Permanent dyes use ammonia and peroxide to open the cuticle and form colour in the hair; bleach oxidises melanin. Semi-permanent and temporary dyes coat or sit under the cuticle and wash out.",
+  "risks": "PPD allergy can cause itching, burning and sores, sometimes delayed. IARC lists some ingredients as mutagenic or carcinogenic, though overall evidence linking dye use to cancer is described as limited and inconsistent. The EU restricts many dye chemicals."
+ },
+ "lead": [
+  "Hair dyeing and bleaching change the colour of scalp hair, and in looksmaxxing circles also of eyebrows, lashes and facial hair. People use them to match hair colour to skin tone and eye colour, to add or reduce contrast around the face, to cover grey, to make sparse brows or a patchy beard read as darker and fuller, or to move to a different overall look [1][2][3][14]. Wikipedia reports that 50 to 80 percent of women in the United States, Europe and Japan say they have used hair dye, and that US at-home colour sales reached about 4.8 billion dollars in 2024 [3].",
+  "Products are classed by permanence. Permanent dyes use an alkaline agent, usually ammonia, and a peroxide developer, and can lighten as well as deposit colour; demi-permanent and semi-permanent dyes deposit colour without lightening and fade over weeks; temporary colour washes out with one shampoo [3]. Bleach lifts colour by oxidising melanin, which is the route to blonde or to vivid shades on dark hair [3].",
+  "The main documented harm is allergic contact dermatitis, particularly to para-phenylenediamine (PPD) and related dye intermediates, which is covered by reviews of cosmetic allergy and by trials in sensitised patients [4][6][12][17]. Cancer research on personal hair dye use has produced mixed results: the US National Cancer Institute says it is unknown whether current dye chemicals cause cancer, and IARC classes personal use as not classifiable [16][3]."
+ ],
+ "angle": {
+  "goal": "Hair / facial contrast",
+  "chain": [
+   "Dye or bleach changes the colour of scalp hair, brows, lashes or facial hair",
+   "Darker or lighter hair alters contrast against skin and eyes, and sparse or grey hair reads as fuller or more even",
+   "A more even, higher-contrast or simply preferred overall look"
   ],
-  "infobox": [
-    ["Type", "Cosmetic / chemical"],
-    ["Main agents", "Oxidative dyes (PPD, PTD), hydrogen peroxide, ammonia"],
-    ["Main documented risk", "Allergic contact dermatitis"],
-    ["Regulation", "EU restricts about 45 hair-dye chemicals (per Wikipedia)"]
+  "effect": "direct",
+  "text": "Dye changes how hair reads against the skin and eyes, so users pick a shade for contrast, to cover grey or to make brows and facial hair look denser. Results last from one shampoo for temporary colour to roughly until regrowth for permanent colour, which is why root touch-ups are repeated every four to six weeks [3]."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Cosmetic / chemical"
   ],
-  "sections": [
-    {
-      "h": "Types and mechanism",
-      "paras": [
-        "Wikipedia describes permanent dyes as containing ammonia that opens the hair cuticle so dye reaches the cortex, mixed with hydrogen peroxide developer; demi-permanent dyes deposit colour without lightening and fade over about 20 to 28 shampoos; semi-permanent dyes last about 4 to 8 shampoos; temporary pigments rinse out with one wash [3].",
-        "Bleaching breaks down melanin by oxidation, using hydrogen peroxide with alkaline ammonia; home products typically use about 6% peroxide and salon products up to 12%, and bleached hair can turn brassy, which toners or purple shampoo counter [3]."
-      ]
-    },
-    {
-      "h": "History",
-      "paras": [
-        "Wikipedia traces hair colouring to ancient recipes such as those in the Ebers Papyrus (c. 1550 BCE), William Henry Perkin's discovery of the first synthetic dye in 1856, L'Oreal founder Eugene Schueller's first synthetic hair dye in 1907, and Schwarzkopf's first home colour product in 1947 [3]."
-      ]
-    },
-    {
-      "h": "Adverse effects",
-      "paras": [
-        "PPD-based dyes are the main allergen concern; reactions include redness, itching, burning and sores, sometimes appearing hours to a day later [3]. Reviews cover allergic contact dermatitis to cosmetics and PPD sensitisation, and a Danish study followed hairdressing apprentices for hand eczema [4][5][6]. A study found the consumer open test can detect contact sensitivity to hair dyes [7], and Wikipedia notes European dermatologists have advised against self-patch-testing because it may increase sensitisation risk [3].",
-        "Cancer evidence is mixed. A 1975 study found hair dyes contained mutagenic ingredients, and a 2004 review addressed toxicity and human health risk of hair dyes [8][9]. Wikipedia says the IARC considers some dyes and ingredients mutagenic or carcinogenic but that evidence linking use to cancer is limited and inconsistent, citing meta-analyses suggesting roughly 20% higher breast cancer risk among users [3]."
-      ]
-    },
-    {
-      "h": "Regulation",
-      "paras": [
-        "Wikipedia reports that the EU restricts about 45 chemicals in hair dyes under its cosmetics directives [3]. A cosmetic ingredient safety assessment of Basic Red 76 has also been published [10]."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "A multicentre clinical trial studied a permanent dye containing paratoluenediamine, and a clinical study tested a gallic acid-based dye in patients reactive to PPD or PTD [11][12]. A PPD-specific lymphocyte activation test has been evaluated in sensitised patients [13]. No studies were found on dyeing as a looksmaxxing practice."
-      ]
-    }
+  [
+   "Main agents",
+   "Oxidative dyes (PPD, PTD and couplers), hydrogen peroxide, ammonia [3]"
   ],
-  "timeline": [
-    { "year": "1856", "event": "William Henry Perkin discovers the first synthetic dye, mauveine [3]." },
-    { "year": "1907", "event": "Eugene Schueller creates the first synthetic hair dye [3]." },
-    { "year": "1947", "event": "Schwarzkopf launches the first home colour product [3]." },
-    { "year": "1975", "event": "Study reports hair dyes contain mutagenic ingredients [8]." }
+  [
+   "Classes",
+   "Permanent, demi-permanent, semi-permanent, temporary [3]"
   ],
-  "lore": {
-    "intro": "On looksmax.org, hair dye threads cover colour choice, natural dyes and using dye on eyebrows, lashes and facial hair [1][2][14].",
-    "claims": [
-      {
-        "claim": "Dye on eyebrows, lashes and facial hair improves how dark and full they look",
-        "believers": "A thread discusses hair dye working on eyebrows, lashes and facial hair for darker-haired users [14].",
-        "experts": "Allergic contact dermatitis to dye ingredients is documented, and Wikipedia notes European dermatologists advise against self patch tests [3][4].",
-        "evidence": "mixed"
-      },
-      {
-        "claim": "Natural dyes are a safer alternative",
-        "believers": "Users ask about the best natural hair dye [15].",
-        "experts": "A gallic acid-based dye was tested on patients reactive to PPD and PTD in one study [12]; no study evaluates forum natural-dye recommendations.",
-        "evidence": "untested"
-      }
-    ]
-  },
-  "card": {
-    "summary": "Dyeing or bleaching hair for colour and contrast; common cosmetic practice with documented allergy risk.",
-    "aka": "Hair colouring",
-    "evidence": "moderate",
-    "risk": "moderate",
-    "note": "PPD allergy can be severe; bleaching peroxide can damage hair and skin.",
-    "price": null
-  },
-  "quick": {
-    "overview": "Hair dyeing and bleaching change hair colour using chemical colourants or lighteners. Looksmaxxers use them for hair, brows and facial hair.\n\nThe chemistry is well documented. Research on harms centres on allergy, with mixed evidence on cancer.",
-    "mechanism": "Permanent dyes use ammonia and peroxide to open the cuticle and form colour in the hair; bleach oxidises melanin. Semi-permanent and temporary dyes coat or sit under the cuticle and wash out.",
-    "risks": "PPD allergy can cause itching, burning and sores, sometimes delayed. IARC lists some ingredients as mutagenic or carcinogenic, though overall evidence linking dye use to cancer is described as limited and inconsistent. The EU restricts many dye chemicals."
-  },
-  "refs": [
-    { "id": 1, "title": "hair dye", "url": "https://looksmax.org/threads/hair-dye.1778423/", "source": "looksmax.org", "year": 2025, "type": "forum" },
-    { "id": 2, "title": "Hair Dye Suggestions", "url": "https://looksmax.org/threads/hair-dye-suggestions.486037/", "source": "looksmax.org", "year": 2021, "type": "forum" },
-    { "id": 3, "title": "Hair coloring", "url": "https://en.wikipedia.org/wiki/Hair_coloring", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
-    { "id": 4, "title": "Allergic contact dermatitis caused by cosmetic products", "url": "https://pubmed.ncbi.nlm.nih.gov/24656778/", "source": "Actas Dermo-Sifiliograficas", "year": 2014, "type": "review" },
-    { "id": 5, "title": "Hand eczema among hairdressing apprentices in Denmark following a nationwide prospective intervention programme: 6-year follow-up", "url": "https://pubmed.ncbi.nlm.nih.gov/27113249/", "source": "Contact Dermatitis", "year": 2016, "type": "trial" },
-    { "id": 6, "title": "What is New in Contact Allergy To Cosmetics for Physicians, Cosmetologists, and Cosmetic Users?", "url": "https://pubmed.ncbi.nlm.nih.gov/41134517/", "source": "Current Allergy and Asthma Reports", "year": 2025, "type": "review" },
-    { "id": 7, "title": "Contact sensitivity to hair dyes can be detected by the consumer open test", "url": "https://pubmed.ncbi.nlm.nih.gov/12095875/", "source": "European Journal of Dermatology", "year": 2002, "type": "trial" },
-    { "id": 8, "title": "Hair dyes are mutagenic: identification of a variety of mutagenic ingredients", "url": "https://pubmed.ncbi.nlm.nih.gov/1094469/", "source": "PNAS", "year": 1975, "type": "study" },
-    { "id": 9, "title": "Toxicity and human health risk of hair dyes", "url": "https://pubmed.ncbi.nlm.nih.gov/15019177/", "source": "Food and Chemical Toxicology", "year": 2004, "type": "review" },
-    { "id": 10, "title": "Safety Assessment of Basic Red 76 as Used in Cosmetics", "url": "https://pubmed.ncbi.nlm.nih.gov/38471901/", "source": "International Journal of Toxicology", "year": 2024, "type": "review" },
-    { "id": 11, "title": "Multicenter clinical trial on a permanent hair dye containing paratoluenediamine", "url": "https://pubmed.ncbi.nlm.nih.gov/29767482/", "source": "Giornale Italiano di Dermatologia e Venereologia", "year": 2018, "type": "trial" },
-    { "id": 12, "title": "Skin testing of gallic acid-based hair dye in paraphenylenediamine/paratoluenediamine-reactive patients", "url": "https://pubmed.ncbi.nlm.nih.gov/26663148/", "source": "The Journal of Dermatology", "year": 2016, "type": "trial" },
-    { "id": 13, "title": "Para-phenylenediamine-specific lymphocyte activation test", "url": "https://pubmed.ncbi.nlm.nih.gov/20113350/", "source": "Experimental Dermatology", "year": 2010, "type": "trial" },
-    { "id": 14, "title": "black people hair dye works really for eyebrows lashes and facial hair", "url": "https://looksmax.org/threads/black-people-hair-dye-works-really-for-eyebrows-lashes-and-facial-hair.1739824/", "source": "looksmax.org", "year": 2025, "type": "forum" },
-    { "id": 15, "title": "best natural hair dye", "url": "https://looksmax.org/threads/best-natural-hair-dye.1028298/", "source": "looksmax.org", "year": 2022, "type": "forum" }
+  [
+   "Bleach strength",
+   "About 6% peroxide in home kits, up to 12% in salons [3]"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Hair_coloring", "title": "Hair coloring" }
+  [
+   "Touch-up interval",
+   "Roots about every 4 to 6 weeks [3]"
+  ],
+  [
+   "Main documented risk",
+   "Allergic contact dermatitis; PPD sensitisation is described as lifelong [4][17]"
+  ],
+  [
+   "Cancer research",
+   "Mixed; IARC lists personal use as not classifiable [16]"
+  ],
+  [
+   "Regulation",
+   "EU restricts about 45 hair-dye chemicals (per Wikipedia) [3]"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Hair colouring can be done by a hairdresser or at home. Wikipedia lists the usual motives as covering grey or white hair, creating a specific look, switching to a preferred colour and restoring colour lost to hairdressing processes or sun bleaching [3]. Application techniques fall into off-scalp methods, such as highlighting, lowlighting, balayage, ombre and foiling, and on-scalp methods, such as all-over colour, root touch-ups and block colouring [3].",
+    "For looksmaxxers the interest is mostly in matching colour to the face. Forum threads ask which dye best reproduces the darker look a user's hair has when wet, how to go from ginger to black, how to tell whether black or dark brown suits a particular face, and what colour to use around the eyes [20][1][22][2]. A separate thread discusses dye on eyebrows, lashes and facial hair for users with dark hair [14]."
+   ]
+  },
+  {
+   "h": "Types and mechanism",
+   "subs": [
+    {
+     "h": "Permanent and demi-permanent dyes",
+     "paras": [
+      "Permanent dyes contain ammonia and are mixed with a developer, hydrogen peroxide, which comes in different volumes; the higher the volume, the more natural pigment is lifted, and typical processing is 30 to 45 minutes [3]. Ammonia opens the cuticle so colourant and developer can reach the cortex, where oxidation couples small precursor molecules into larger dye molecules that no longer wash out [3].",
+      "Wikipedia describes oxidative dyes as needing a primary intermediate (historically 1,4-diaminobenzene, now usually 2,5-diaminotoluene), a coupler and an oxidant, with the coupler largely setting the final colour [3]. Demi-permanent dyes use a non-ammonia alkaline agent with weaker peroxide, give almost no lightening, cover grey better than semi-permanents and fade over about 20 to 28 shampoos [3]."
+     ]
+    },
+    {
+     "h": "Semi-permanent and temporary colour",
+     "paras": [
+      "Semi-permanent dyes use no developer or ammonia, last about 4 to 8 shampoos, and give a more natural, slightly varied shade, but cover grey poorly and may still contain PPD [3]. Temporary rinses, gels, sprays and foams sit on the cuticle and wash out with a single shampoo [3]. Vivid or alternative colours are usually tint only, so they show best on bleached or very light hair [3]."
+     ]
+    },
+    {
+     "h": "Bleaching",
+     "paras": [
+      "Bleaching oxidises melanin with hydrogen peroxide made alkaline with ammonia, releasing oxygen gas as the pigment breaks down. Home products typically contain about 6 percent peroxide and salon products up to 12 percent [3]. Bleached hair can develop a brassy or yellow cast, which toners and purple shampoo are used to counter [3]."
+     ]
+    },
+    {
+     "h": "Plant-based and alternative dyes",
+     "paras": [
+      "Wikipedia lists henna, indigo, cassia, senna, turmeric and amla among long-used plant dyes, notes that indigo is applied in a colourless leuco form, and describes a 2018 project making semi-permanent blue dyes from blackcurrant skin waste [3]. Forum users ask about the best natural dye [15]. One study tested a gallic acid-based dye in patients who reacted to PPD or PTD [12]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Eyebrows, lashes and facial hair",
+   "paras": [
+    "A looksmax.org thread says dye works well on eyebrows, lashes and facial hair for dark-haired users [14], and another poster who was using minoxidil and castor oil around the eye area asked what colour to dye the resulting hair, with a reply suggesting regular brown rather than going too dark [2]. Wikipedia's hair-colouring article records the Egyptian Ebers Papyrus (about 1550 BCE) as including recipes for dyeing grey hair and eyebrows [3].",
+    "Skin-contact dyes around the eyes and on the face are a point where PPD allergy matters most. The black henna article on Wikipedia describes PPD-containing body-paint pastes that cause blistering, scarring and lifelong sensitivity, and says hair dye labels now warn people who reacted to black henna tattoos not to colour their hair [18]."
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Wikipedia traces dyeing to Assyrian herbals from about 2177 BCE, the Ebers Papyrus recipes of about 1550 BCE, and Greek historian Diodorus Siculus's description of Celts bleaching hair with lime [3]. Trotula's twelfth-century text and a 1661 compendium of secrets contain colouring recipes [3].",
+    "The synthetic era starts in 1856 when William Henry Perkin discovered mauveine while trying to make quinine; the reactivity of PPD in the 1860s underlies later hair dyes; L'Oreal founder Eugene Schueller is credited with the first synthetic hair dye in 1907; and Schwarzkopf launched the first home colour product, Poly Color, in 1947 [3]."
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "subs": [
+    {
+     "h": "Skin irritation and allergy",
+     "paras": [
+      "PPD-based dyes are the main allergen concern. Reactions include redness, itching, burning and sores, sometimes appearing hours or days later [3]. The Centers for Disease Control lists PPD as a contact allergen, sensitisation is described as lifelong, PPD was the tenth most prevalent patch-test allergen in 2005 to 2006 at 5.0 percent, and the American Contact Dermatitis Society named it Allergen of the Year in 2006, according to Wikipedia [17]. Reviews of cosmetic contact allergy and of dye allergy cover diagnosis and regulation [4][6][21].",
+      "Manufacturers usually advise a 48-hour patch test. A multicentre study found the consumer open test, also called the dab test, could detect contact sensitivity to hair dyes [7], while Wikipedia says European dermatologists advise against self-testing because it can itself cause sensitisation [3]. Hairdressers face occupational risk, and a Danish programme followed hairdressing apprentices for hand eczema over six years [5]."
+     ]
+    },
+    {
+     "h": "Staining and hair damage",
+     "paras": [
+      "Dye can stain skin and nails around the hairline, usually fading within days to a week, and gloves or an oil barrier are recommended on the Wikipedia page [3]. Wikipedia lists hair breakage and unexpected colour results among possible adverse effects [3]. Forum users ask how to minimise damage and one reports greasy-looking hair after dyeing [1]."
+     ]
+    },
+    {
+     "h": "Cancer research",
+     "paras": [
+      "A 1975 study using a bacterial test found 89 percent of 169 commercial hair dyes mutagenic, a finding often cited in later debate [8]. A 2004 review examined toxicity and human health risk of hair dyes [9]. The National Cancer Institute reports that aromatic amines were removed from products from the mid to late 1970s, that IARC judged some chemicals met by hairdressers and barbers probably carcinogenic in 2010 but classes personal use as not classifiable, that a pooled analysis of 17 studies found no overall bladder cancer increase, and that a 2020 US cohort found higher breast cancer risk with greater exposure (1.07 times among non-Hispanic White women and 1.45 times among Black women) [16].",
+      "Wikipedia reports a 2017 meta-analysis suggesting roughly 20 percent higher breast cancer risk among users and notes evidence linking dye to cancer is limited and inconsistent [3]. A Hacker News thread on the 2019 study of permanent dye and chemical straighteners drew 123 points and 43 comments [19]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Regulation",
+   "paras": [
+    "Wikipedia reports that the EU, through Directive 2012/21/EU under the cosmetics framework, restricts about 45 chemicals in hair dyes, and that some products have been withdrawn over past decades [3]. The black henna article notes that PPD is prohibited on skin in Western countries and that hair dyes may legally contain it only below 6 percent, against 10 to 80 percent found in black henna pastes [18]. An expert panel has published cosmetic ingredient safety assessments of individual hair colorants such as Basic Red 76 [10][21]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A multicentre clinical trial studied a permanent dye containing paratoluenediamine [11], a clinical study tested a gallic acid-based dye in patients reactive to PPD or PTD [12], and a PPD-specific lymphocyte activation test was evaluated in patients with severe allergic reactions [13]. Controlled and observational studies cover hairdressers' hand eczema [5] and the consumer open test [7]. No studies were found on dyeing as a looksmaxxing practice."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "c. 1550 BCE",
+   "event": "The Ebers Papyrus records recipes for dyeing grey hair and eyebrows [3]."
+  },
+  {
+   "year": "1856",
+   "event": "William Henry Perkin discovers mauveine, the first synthetic dye [3]."
+  },
+  {
+   "year": "1907",
+   "event": "Eugene Schueller creates the first synthetic hair dye [3]."
+  },
+  {
+   "year": "1947",
+   "event": "Schwarzkopf launches the first home colour product [3]."
+  },
+  {
+   "year": "1975",
+   "event": "A study reports mutagenic ingredients in most commercial hair dyes tested [8]."
+  },
+  {
+   "year": "Mid-late 1970s",
+   "event": "Manufacturers begin removing aromatic amines from hair dyes [16]."
+  },
+  {
+   "year": "2004",
+   "event": "A review of hair dye toxicity is published, and 4-aminobiphenyl is reported in some commercial dyes [9][3]."
+  },
+  {
+   "year": "2006",
+   "event": "The American Contact Dermatitis Society names PPD Allergen of the Year [17]."
+  },
+  {
+   "year": "2010",
+   "event": "IARC judges some chemicals met by hairdressers and barbers probably carcinogenic [16]."
+  },
+  {
+   "year": "2020",
+   "event": "A large US cohort links greater dye exposure to breast cancer risk [16]."
+  }
+ ],
+ "lore": {
+  "intro": "On looksmax.org, hair dye threads cover colour choice for face and contrast, damage, natural dyes and dye on eyebrows, lashes and facial hair [1][2][14][15][20].",
+  "claims": [
+   {
+    "claim": "Dye on eyebrows, lashes and facial hair makes them look darker and fuller",
+    "believers": "A thread says hair dye works well on brows, lashes and facial hair for users with dark hair [14]; another poster plans to dye new hair around the eyes after treating the area [2].",
+    "experts": "Allergic contact dermatitis to dye ingredients is documented, and Wikipedia notes European dermatologists advise against self patch tests [3][4]. PPD-containing skin pastes are prohibited in Western countries [18].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Natural dyes are a safer alternative",
+    "believers": "Users ask for the best natural hair dye [15].",
+    "experts": "A gallic acid-based dye was tested on patients reactive to PPD and PTD in one study [12]; no study evaluates forum natural-dye recommendations. Wikipedia notes black henna may contain PPD [18].",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Dyeing can be done with little damage if done carefully",
+    "believers": "A poster asks how others minimise damage and reports greasy hair after one attempt [1].",
+    "experts": "Wikipedia lists hair breakage, irritation and unexpected colour among possible effects, and describes bleaching as oxidising melanin with peroxide of about 6 percent at home [3].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "The right shade restores the colour a user prefers, such as going from ginger to black or matching a wet-hair look",
+    "believers": "Posters ask for a dye matching their darker wet-hair colour and about moving from ginger to black [20][1].",
+    "experts": "Wikipedia says permanent dye can change colour in either direction, semi-permanent cannot lighten, and results depend on starting colour and porosity [3].",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Hair dye causes cancer",
+    "believers": "A Hacker News thread on breast cancer and permanent dye drew 123 points [19].",
+    "experts": "The NCI says it is unknown whether current dye chemicals are carcinogenic and that IARC classes personal use as not classifiable; a 2020 cohort found higher breast cancer risk with greater exposure, while other studies found no association [16].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "A patch test at home prevents allergic reactions",
+    "believers": "Manufacturers' instructions recommend a 48-hour patch test [3].",
+    "experts": "A multicentre study found the consumer open test could detect sensitivity [7], but European dermatologists have advised against self-testing because it may sensitise [3].",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "hair dye",
+   "url": "https://looksmax.org/threads/hair-dye.1778423/",
+   "source": "looksmax.org",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 2,
+   "title": "Hair Dye Suggestions",
+   "url": "https://looksmax.org/threads/hair-dye-suggestions.486037/",
+   "source": "looksmax.org",
+   "year": 2021,
+   "type": "forum"
+  },
+  {
+   "id": 3,
+   "title": "Hair coloring",
+   "url": "https://en.wikipedia.org/wiki/Hair_coloring",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Allergic contact dermatitis caused by cosmetic products",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24656778/",
+   "source": "Actas Dermo-Sifiliograficas",
+   "year": 2014,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Hand eczema among hairdressing apprentices in Denmark following a nationwide prospective intervention programme: 6-year follow-up",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27113249/",
+   "source": "Contact Dermatitis",
+   "year": 2016,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "What is New in Contact Allergy To Cosmetics for Physicians, Cosmetologists, and Cosmetic Users?",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41134517/",
+   "source": "Current Allergy and Asthma Reports",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Contact sensitivity to hair dyes can be detected by the consumer open test",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12095875/",
+   "source": "European Journal of Dermatology",
+   "year": 2002,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Hair dyes are mutagenic: identification of a variety of mutagenic ingredients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1094469/",
+   "source": "PNAS",
+   "year": 1975,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "Toxicity and human health risk of hair dyes",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15019177/",
+   "source": "Food and Chemical Toxicology",
+   "year": 2004,
+   "type": "review"
+  },
+  {
+   "id": 10,
+   "title": "Safety Assessment of Basic Red 76 as Used in Cosmetics",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38471901/",
+   "source": "International Journal of Toxicology",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "Multicenter clinical trial on a permanent hair dye containing paratoluenediamine",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29767482/",
+   "source": "Giornale Italiano di Dermatologia e Venereologia",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "Skin testing of gallic acid-based hair dye in paraphenylenediamine/paratoluenediamine-reactive patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26663148/",
+   "source": "The Journal of Dermatology",
+   "year": 2016,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "Para-phenylenediamine-specific lymphocyte activation test",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20113350/",
+   "source": "Experimental Dermatology",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "black people hair dye works really for eyebrows lashes and facial hair",
+   "url": "https://looksmax.org/threads/black-people-hair-dye-works-really-for-eyebrows-lashes-and-facial-hair.1739824/",
+   "source": "looksmax.org",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 15,
+   "title": "best natural hair dye",
+   "url": "https://looksmax.org/threads/best-natural-hair-dye.1028298/",
+   "source": "looksmax.org",
+   "year": 2022,
+   "type": "forum"
+  },
+  {
+   "id": 16,
+   "title": "Hair Dyes and Cancer Risk",
+   "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/myths/hair-dyes-fact-sheet",
+   "source": "National Cancer Institute",
+   "year": 2022,
+   "type": "guideline"
+  },
+  {
+   "id": 17,
+   "title": "p-Phenylenediamine",
+   "url": "https://en.wikipedia.org/wiki/P-Phenylenediamine",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 18,
+   "title": "Black henna",
+   "url": "https://en.wikipedia.org/wiki/Black_henna",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 19,
+   "title": "Breast Cancer Linked to Permanent Hair Dye and Chemical Hair Straighteners",
+   "url": "https://news.ycombinator.com/item?id=21707312",
+   "source": "Hacker News",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 20,
+   "title": "hair dye",
+   "url": "https://looksmax.org/threads/hair-dye.1180666/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 21,
+   "title": "Safety assessment of personal care products/cosmetics and their ingredients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20005888/",
+   "source": "Toxicology and Applied Pharmacology",
+   "year": 2010,
+   "type": "review"
+  },
+  {
+   "id": 22,
+   "title": "how do i know if black or dark brown hair dye will suit me best",
+   "url": "https://looksmax.org/threads/how-do-i-know-if-black-or-dark-brown-hair-dye-will-suit-me-best.541226/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Hair_coloring",
+   "title": "Hair coloring"
+  },
+  {
+   "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/myths/hair-dyes-fact-sheet",
+   "title": "Hair Dyes and Cancer Risk - NCI"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/P-Phenylenediamine",
+   "title": "p-Phenylenediamine"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Black_henna",
+   "title": "Black henna"
+  }
+ ]
 }

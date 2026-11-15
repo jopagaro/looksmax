@@ -15,10 +15,20 @@
   "risks": "Excess UV is linked to sunburn, skin aging, DNA damage and skin cancer.[2] Wikipedia notes vitamin D can also come from diet and supplements, and health bodies publish intake guidance.[1]"
  },
  "lead": [
-  "Vitamin D / UVB for tan refers to the overlap between exposing skin to ultraviolet B radiation for vitamin D production and doing so to obtain a tan. UVB converts a precursor in the skin into vitamin D3, which for most people supplies more vitamin D than diet.[1]",
-  "The same UVB band prompts melanocytes to make new melanin, which appears a few days after exposure.[2] Melanin in turn absorbs UV and reduces UVB-driven vitamin D synthesis.[1]",
-  "Several small trials of UVB, sunbeds and supplementation have been registered; this article describes their topics only. Public health bodies set intake recommendations for vitamin D that do not depend on tanning.[1]"
+  "Vitamin D / UVB for tan describes the overlap between two reasons people expose their skin to ultraviolet B radiation: making vitamin D and getting a tan. UVB converts a cholesterol precursor in the epidermis into cholecalciferol (vitamin D3), which for most people contributes more vitamin D than food does.[1][23] For appearance, the same UVB band prompts melanocytes to produce new melanin, giving the deeper, longer-lasting colour that many people seek from sun or sunbeds.[2][8]",
+  "People who combine the two goals typically frame sunlight or sunbed sessions as serving health and looks together: a tan for skin tone and a vitamin D benefit alongside it. In looksmaxxing communities the vitamin D side of the topic also shows up as a supplement and blood-test discussion, with sun, sunbeds and window light raised as alternative sources.[9][15][16] The indoor-tanning industry has promoted UVB-derived vitamin D in its marketing, while health agencies and most researchers point out that supplements and fortified foods can supply the vitamin without tanning.[1][8]",
+  "Research includes registered trials that measured vitamin D after sunbed exposure, after UVB light with sunscreen, and with or without supplementation,[3][4][5] plus a large body of work on skin pigmentation, latitude and deficiency.[18] Public health bodies, including the World Health Organization, classify ultraviolet radiation as a carcinogen and publish vitamin D intake guidance that does not depend on tanning.[1][8][20]"
  ],
+ "angle": {
+  "goal": "Skin tone",
+  "chain": [
+   "UVB reaches the skin",
+   "Melanocytes make new melanin (tan appears in 2-3 days) and skin makes vitamin D3",
+   "Darker skin tone alongside a vitamin D rationale"
+  ],
+  "effect": "direct",
+  "text": "UVB exposure is what stimulates new melanin, so sun or UVB sessions darken skin tone over several days; the same exposure drives vitamin D3 synthesis. People who value both outcomes describe the tan as the visible result and vitamin D as the accompanying benefit, and some use vitamin D blood levels as a way to track how much sun they are getting."
+ },
  "infobox": [
   [
    "Type",
@@ -26,49 +36,209 @@
   ],
   [
    "Active band",
-   "UVB"
+   "UVB (about 280-320 nm)[2]"
+  ],
+  [
+   "Tan onset",
+   "New-melanin tan appears about 2-3 days later[2]"
   ],
   [
    "Related compound",
-   "Vitamin D3 (cholecalciferol)"
+   "Vitamin D3 (cholecalciferol)[23]"
+  ],
+  [
+   "Adequate 25(OH)D (NIH)",
+   "20 ng/mL (50 nmol/L) or more[18]"
   ],
   [
    "US RDA (adults)",
-   "600 IU/day, assuming no skin synthesis"
+   "600 IU/day, assuming no skin synthesis[1]"
+  ],
+  [
+   "Pigmentation effect",
+   "Darker skin needs roughly 3-5 times more sun for the same output[18]"
   ],
   [
    "Primary risk",
-   "UV-related skin damage"
+   "UV-related skin damage and skin cancer[2][20]"
   ]
  ],
  "sections": [
   {
-   "h": "Mechanism",
+   "h": "Overview",
    "paras": [
-    "UVB in sunlight converts a precursor in the epidermis into cholecalciferol.[1] Melanin protects against UV damage but inhibits UVB-driven synthesis, and factors such as latitude, season, covering clothing and sunscreen reduce production.[1] Tanning follows from UVA oxidising existing melanin and UVB triggering new melanin, with the latter appearing in two to three days.[2]"
+    "Sunlight contains both UVA (roughly 320-400 nm) and UVB (roughly 280-320 nm). Tanning is a skin response to both, but the bands act differently: UVA oxidises melanin already present, producing a quick darkening that fades, while UVB damages DNA in skin cells and triggers production of new melanin, a tan that appears after two to three days and lasts weeks or months.[2] The UVB-driven tan has been described as giving modest protection of roughly SPF 3.[2]",
+    "Vitamin D synthesis uses the UVB band as well. The skin precursor 7-dehydrocholesterol absorbs UVB and is converted to previtamin D3 and then cholecalciferol, which the liver converts to 25-hydroxyvitamin D, the form measured in blood tests to assess status.[1] Because both processes depend on UVB, the two goals are often discussed together even though they are physiologically separate: a person can make vitamin D without a lasting tan, and a tan can be obtained without any intent to raise vitamin D.",
+    "Skin pigmentation links the two goals in an unusual way. Melanin is both the end product people want from tanning and the pigment that slows vitamin D synthesis, since it absorbs UVB before it reaches the precursor in the epidermis.[1][18] Wikipedia's vitamin D deficiency article reports that darker-skinned people need roughly three to five times more sun exposure to make the same amount as light-skinned people.[18]"
+   ]
+  },
+  {
+   "h": "Mechanism",
+   "subs": [
+    {
+     "h": "Vitamin D production",
+     "paras": [
+      "Wikipedia's vitamin D article describes skin synthesis as the dominant source for most people, which is why US and other dietary guidelines nevertheless assume intake from the diet alone, given urban living, clothing, and sunscreen use.[1] Latitude, season, covering clothing and sunscreen reduce production.[1]",
+      "Melanin absorbs UV and inhibits UVB-driven vitamin D synthesis, so darker skin generally makes less vitamin D for the same exposure; dark-skinned populations in North America, Europe and Australia show higher rates of deficiency than light-skinned populations of European origin.[1] Glass blocks most UVB, a point raised in community discussions of whether sun through a window counts, including a looksmax.org thread on the question and a Hacker News post on sunlight through glass.[9][10]",
+      "At the photochemical level, UVB opens a ring of 7-dehydrocholesterol to form previtamin D3, which then rearranges into vitamin D3 without further light; the liver converts D3 to calcifediol and the kidney to calcitriol, the active hormone.[23] Reference works describe production as self-limiting: with prolonged exposure the skin reaches an equilibrium where vitamin D degrades as fast as it forms, so UV exposure does not cause vitamin D toxicity, unlike excess supplements.[18][23]",
+      "Sunscreen is a related question in the tanning community. In theory an SPF 8 product can block most skin vitamin D production, yet the vitamin D deficiency article states that in practice sunscreen use has a negligible effect on vitamin D status and that covering clothing reduces synthesis more.[18] The sunscreen article adds that high-SPF products still let a small amount of UVB through, and that a study found sunscreens with higher UVA protection permitted more vitamin D synthesis, probably because they transmit more UVB.[19]"
+     ]
+    },
+    {
+     "h": "Tanning",
+     "paras": [
+      "UVB-induced DNA damage signals melanocytes to produce melanin, which is transferred to surrounding skin cells and forms a shield above the nucleus.[2] Sunscreen reduces sunburn and also slows tanning by blocking UV.[2] Modern tanning beds emit mostly UVA with a small proportion of UVB, whereas sunlight is roughly 95 percent UVA and 5 percent UVB; high-pressure beds emit more UVA and have shorter maximum sessions than low-pressure beds.[8]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Light as a therapy has a long history: Niels Finsen developed a UV lamp for skin treatment in 1890 and won the 1903 Nobel Prize in Medicine for light therapy.[2][8] Cod liver oil was widely used in 19th-century northern Europe after clinicians noticed children given it did not develop rickets, and milk fortification with vitamin D began in the early 1930s; vitamin D3 was shown to result from ultraviolet irradiation of 7-dehydrocholesterol, with D2 and D3 characterised in 1931 and 1935.[1]",
+    "Tanned skin was historically associated with outdoor labour, and upper classes used parasols and long sleeves. It became fashionable in the 1920s, associated with Coco Chanel's Riviera tan and Josephine Baker, and Jean Patou launched the first sun tan oil in 1927.[2] Friedrich Wolff is credited with inventing the sunbed in 1975, salons spread across Europe and North America in the late 1970s, and the US industry began in 1978.[8] In 2007 the US had an estimated 50,000 indoor tanning outlets and a $5 billion industry.[2]",
+    "Niels Ryberg Finsen (1860-1904), a Faroese-born physician trained at the University of Copenhagen, developed a theory of phototherapy in the 1890s, treating lupus vulgaris, a skin tuberculosis, with concentrated light; the Finsen Institute was founded in 1896 with him as director, and he received the 1903 Nobel Prize in Physiology or Medicine.[22] Cholecalciferol itself was first described in 1936 and is on the WHO Model List of Essential Medicines.[23]"
+   ]
+  },
+  {
+   "h": "Deficiency and testing",
+   "paras": [
+    "Vitamin D status is assessed by serum 25-hydroxyvitamin D. Using NIH definitions, below 12 ng/mL (30 nmol/L) is deficient, 12 to 20 ng/mL inadequate, 20 ng/mL or more adequate, and above 50 ng/mL potentially excessive.[18] Prevalence estimates depend heavily on the cutoff: for levels below 50 nmol/L, figures of about 40 percent in Europe, 24 percent in the US and 37 percent in Canada are cited, while severe deficiency below 30 nmol/L is put at 13 percent in Europe and 5.9 percent in the US.[18]",
+    "The causes listed include inadequate UVB exposure, low dietary intake, malabsorption, urban living, age, obesity, covering clothing, and darker skin pigmentation; regions far from the equator show strong seasonal variation, and in the UK low status in children and adolescents is more common in winter.[18] This seasonal pattern is the basis of the winter blood-test advice that circulates on looksmax.org.[16] Wikipedia notes that the US Preventive Services Task Force found insufficient evidence to recommend screening in asymptomatic people not at risk.[18]"
+   ]
+  },
+  {
+   "h": "Tanning bed and sunbed practice",
+   "paras": [
+    "Sunbeds are usually used in a series of sessions at a salon or at home. Modern beds emit mostly UVA with a small proportion of UVB, while sunlight is roughly 95 percent UVA and 5 percent UVB, and high-pressure beds emit more UVA and have shorter maximum session times than low-pressure beds.[8] Because the bed spectrum differs from sunlight, the amount of vitamin D produced per unit of tan can differ from outdoor sun; a registered trial in 87 healthy participants set out to measure vitamin D production levels achieved by sunbed tanning.[3]",
+    "Believers in sunbed vitamin D point to sessions as a way to raise winter levels while also holding a tan. The NIH has acknowledged that some researchers consider moderate tanning-bed use effective for raising vitamin D, while most researchers say risks outweigh benefits and point to supplements and fortified foods.[8] Medical UVB is also used clinically: narrowband UVB phototherapy is a standard dermatology treatment, and Wikipedia describes it in the vitamin D deficiency context.[18]"
    ]
   },
   {
    "h": "Guidance from health bodies",
    "paras": [
-    "Wikipedia reports a US recommended dietary allowance of 600 IU/day for ages 1 to 70, and UK NHS advice that at-risk people consider year-round supplements.[1] These recommendations do not call for tanning.[1]"
+    "Wikipedia reports a US recommended dietary allowance of 600 IU per day for ages 1 to 70, and UK NHS advice that at-risk people consider year-round supplements.[1] These recommendations do not call for tanning.[1] Wikipedia also notes that UV exposure alone can raise serum 25(OH)D to slightly above 100 nmol/L without reaching toxic levels.[1]",
+    "The WHO, the American Cancer Society and the US Surgeon General have issued warnings about sun exposure and indoor tanning.[2] The indoor-tanning industry emphasises UVB-derived vitamin D, and the NIH has noted that some researchers consider moderate tanning-bed use effective for raising levels; most researchers, however, say the risks outweigh benefits and point to supplements and fortified foods as alternatives.[8] The US Federal Trade Commission pursued Joseph Mercola over marketing that, among other claims, did not disclose tanning is not required for vitamin D.[8]",
+    "On skin cancer prevention, Wikipedia reports that sun exposure causes more than 90 percent of skin cancers, that the World Health Organization places users of artificial tanning beds in its highest-risk category, and that the US Preventive Services Task Force advises counselling people aged 9 to 25 to avoid UV light.[20] Recommended precautions include avoiding sunburn, protective clothing, sunglasses, hats and avoiding midday sun; sunscreen is recommended to prevent melanoma and squamous-cell carcinoma, with weak evidence for basal-cell carcinoma.[20][19]",
+    "The Mercola case illustrates the commercial side. According to Wikipedia, Joseph Mercola's companies sold tanning beds with claims that they reduced cancer; in 2016 the US Federal Trade Commission filed a false advertising complaint, Mercola paid $2.6 million in refunds and agreed to a permanent ban on selling tanning beds, and refunds were announced on 7 February 2017.[21]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "Registered trials have examined related questions: vitamin D levels achieved by sunbed tanning in 87 healthy participants (started 2014),[3] 25-hydroxyvitamin D with and without supplementation in Caucasian women (started 2009),[4] and UVB light with sunscreen and vitamin D status in 50 people (started 2008).[5] Registrations also exist for vitamin D in cystic fibrosis[6] and chronic pancreatitis.[7] This article does not summarise their results. Wikipedia states that UV exposure alone can raise serum 25(OH)D to slightly above 100 nmol/L without reaching toxic levels.[1]"
+    "Registered trials have examined related questions: vitamin D levels achieved by sunbed tanning in 87 healthy participants (started 2014),[3] 25-hydroxyvitamin D with and without supplementation in 67 Caucasian women with vitamin D deficiency (started 2009),[4] and UVB light with sunscreen and vitamin D status in 50 people (a phase 4 trial started 2008).[5] Registrations also exist for improving vitamin D status in 30 people with cystic fibrosis[6] and in 27 people with chronic pancreatitis and malabsorption.[7] The registry entries list the designs but this article does not report their results.",
+    "Broader meta-analyses of vitamin D supplementation, as distinct from UV exposure, cover conditions such as psoriasis,[11] atopic dermatitis,[12] and sleep outcomes,[13] and a meta-analysis of observational studies reported an association between obesity and vitamin D deficiency.[14] These studies concern oral supplementation or blood levels, not tanning."
    ]
   },
   {
    "h": "Reported risks",
    "paras": [
-    "UV exposure is associated with sunburn, accelerated skin aging, DNA damage, immune impairment and increased skin cancer risk, and a 2010 study linked frequent tanning bed use to about triple the melanoma risk.[2]"
+    "UV exposure is associated with sunburn, accelerated skin aging, DNA damage, immune suppression and skin cancer, and a 2010 study linked frequent tanning-bed use to about triple the melanoma risk.[2] The WHO classifies UV radiation as a Group 1 carcinogen.[8] Reviews summarised on Wikipedia report melanoma risk about 20 percent higher in anyone who has ever used a tanning device and 59 percent higher for those who started before age 35; a 2014 meta-analysis found a 16 percent overall increase and 35 percent for starting before age 25.[8]",
+    "Researchers estimate indoor tanning causes about 450,000 non-melanoma skin cancers and over 10,000 melanomas a year, and in two US surveys 58 percent of indoor tanners reported burns.[8] UV exposure triggers endorphin release, and some frequent tanners meet addiction criteria.[2][8] Regulation includes France's 1997 minors ban, a Brazilian ban on cosmetic tanning-bed use in 2009, Australia's ban on commercial tanning in 2015, and a 10 percent US tanning tax from 2010.[8]",
+    "Melanoma accounts for about 75 percent of skin cancer deaths although it is much less common than basal-cell and squamous-cell cancers, and UV exposure in childhood is described as particularly harmful for melanoma and basal-cell cancers.[20] Sunscreen studies note that people tend to apply a quarter to a half of the tested amount, so real-world protection may be below the labelled SPF.[19]",
+    "Frequent tanners who meet addiction criteria and the endorphin response to UV are described in Wikipedia's indoor tanning and sun tanning articles; the evidence base on dependence consists of surveys and small studies.[2][8]"
    ]
   }
  ],
- "timeline": [],
- "lore": null,
+ "timeline": [
+  {
+   "year": "1890",
+   "event": "Niels Finsen's UV lamp work begins his phototherapy research in Copenhagen; the Finsen Institute follows in 1896.[22][8]"
+  },
+  {
+   "year": "1903",
+   "event": "Finsen receives the Nobel Prize in Physiology or Medicine for light therapy.[22]"
+  },
+  {
+   "year": "1920s",
+   "event": "Tanned skin becomes fashionable in Europe and North America.[2]"
+  },
+  {
+   "year": "1927",
+   "event": "Jean Patou launches the first sun tan oil.[2]"
+  },
+  {
+   "year": "1931-1936",
+   "event": "Vitamin D2 and D3 are chemically characterised; D3 is shown to arise from UV irradiation of 7-dehydrocholesterol.[1][23]"
+  },
+  {
+   "year": "1974",
+   "event": "The sun protection factor (SPF) concept is introduced.[19]"
+  },
+  {
+   "year": "1975",
+   "event": "Friedrich Wolff invents the sunbed; salons spread from the late 1970s.[8]"
+  },
+  {
+   "year": "1997",
+   "event": "France becomes the first country to ban minors from indoor tanning.[8]"
+  },
+  {
+   "year": "2010",
+   "event": "A US 10 percent tax on indoor tanning takes effect.[8]"
+  },
+  {
+   "year": "2015",
+   "event": "Australia bans commercial indoor tanning.[8]"
+  },
+  {
+   "year": "2016-2017",
+   "event": "The FTC action against Mercola's tanning bed marketing ends in refunds and a permanent sales ban, announced February 2017.[21]"
+  }
+ ],
+ "lore": {
+  "intro": "On looksmax.org, vitamin D appears mainly as a supplement and blood-test topic, with sunlight and sunbeds discussed as alternative sources and as a way to tan.[15][16]",
+  "claims": [
+   {
+    "claim": "Winter means low vitamin D, so levels should be tested and topped up",
+    "believers": "Posters tell others to check their levels in winter and report taking large supplement doses after poor results.[16]",
+    "experts": "Wikipedia notes that deficiency is widespread worldwide, with higher prevalence where sunlight is limited, and that health bodies publish intake recommendations.[1]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Vitamin D with K2 supports appearance goals and bone-related development",
+    "believers": "A looksmax.org thread asks how much D plus K2 to take, with replies recommending specific supplement combinations for someone in a low-sun country.[15]",
+    "experts": "Official guidance centres on recommended dietary allowances and on supplementation for at-risk groups.[1]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Sunlight through a window provides vitamin D",
+    "believers": "Forum users have asked whether windowed sun counts as a vitamin D source.[9]",
+    "experts": "A Hacker News discussion titled 'Sunlight through glass does not provide Vitamin D' reflects the view that glass blocks most UVB.[10]",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "Sunbeds are a legitimate way to get vitamin D and a tan together",
+    "believers": "The tanning industry has promoted UVB sunbed sessions as a vitamin D source.[8]",
+    "experts": "Most researchers say risks outweigh benefits and that supplements and fortified foods supply enough vitamin D; the WHO classifies UV as a Group 1 carcinogen.[8]",
+    "evidence": "harms"
+   },
+   {
+    "claim": "Vitamin D supplementation does nothing during puberty",
+    "believers": "A looksmax.org thread argues that supplementation has no effect on growth during puberty.[17]",
+    "experts": "Vitamin D guidance addresses bone health and deficiency rather than a height effect in healthy adolescents; no trial of tanning for height is registered.[1]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Sun does not cause vitamin D overdose, so tanning is a safe way to get it",
+    "believers": "Supporters note that skin synthesis is self-limiting and cannot cause toxicity, unlike high-dose supplements.[18]",
+    "experts": "That equilibrium is accurate for vitamin D itself, but the same exposure drives DNA damage and skin cancer risk; the WHO classifies UV radiation as a Group 1 carcinogen.[8][20]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Sunscreen blocks vitamin D, so avoiding it is necessary for health",
+    "believers": "Some sun-exposure advocates argue that sunscreen interferes with vitamin D; Joseph Mercola has separately claimed that many commercial sunscreens raise skin cancer risk under high UV exposure.[21]",
+    "experts": "Wikipedia states that real-world sunscreen use has a negligible effect on vitamin D status, and the US National Toxicology Program called broad-spectrum sunscreens an effective way to reduce lifetime UV dose.[18][21]",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "Darker skin needs more sun, so tanning builds vitamin D capacity",
+    "believers": "Discussion threads often note that melanin reduces vitamin D synthesis and treat winter supplementation as especially relevant for darker skin.[16]",
+    "experts": "Reviews report that darker-skinned people need about three to five times the sun exposure of light-skinned people for the same output; a tan is a pigment response, and is not described as raising synthesis.[18]",
+    "evidence": "mixed"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -125,16 +295,168 @@
    "url": "https://clinicaltrials.gov/study/NCT01141998",
    "source": "ClinicalTrials.gov",
    "type": "trial"
+  },
+  {
+   "id": 8,
+   "year": null,
+   "title": "Indoor tanning",
+   "url": "https://en.wikipedia.org/wiki/Indoor_tanning",
+   "source": "Wikipedia",
+   "type": "encyclopedia"
+  },
+  {
+   "id": 9,
+   "year": null,
+   "title": "can you get vitamin d through the window",
+   "url": "https://looksmax.org/threads/can-you-get-vitamin-d-through-the-window.1586/",
+   "source": "looksmax.org",
+   "type": "forum"
+  },
+  {
+   "id": 10,
+   "year": 2019,
+   "title": "Sunlight through glass does not provide Vitamin D",
+   "url": "https://news.ycombinator.com/item?id=19244686",
+   "source": "Hacker News",
+   "type": "forum"
+  },
+  {
+   "id": 11,
+   "year": 2023,
+   "title": "Psoriasis and Vitamin D: A Systematic Review and Meta-Analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37571324/",
+   "source": "Nutrients",
+   "type": "review"
+  },
+  {
+   "id": 12,
+   "year": 2024,
+   "title": "Vitamin D Supplementation for Treating Atopic Dermatitis in Children and Adults",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39683522/",
+   "source": "Nutrients",
+   "type": "review"
+  },
+  {
+   "id": 13,
+   "year": 2022,
+   "title": "Vitamin D Supplementation and Sleep: A Systematic Review and Meta-Analysis of Intervention Studies",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35268051/",
+   "source": "Nutrients",
+   "type": "review"
+  },
+  {
+   "id": 14,
+   "year": 2015,
+   "title": "Obesity and vitamin D deficiency: a systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25688659/",
+   "source": "Obesity Reviews",
+   "type": "review"
+  },
+  {
+   "id": 15,
+   "year": null,
+   "title": "Vitamin D + K2",
+   "url": "https://looksmax.org/threads/vitamin-d-k2.1238516/",
+   "source": "looksmax.org",
+   "type": "forum"
+  },
+  {
+   "id": 16,
+   "year": null,
+   "title": "Check your Vitamin D levels",
+   "url": "https://looksmax.org/threads/check-your-vitamin-d-levels.1791923/",
+   "source": "looksmax.org",
+   "type": "forum"
+  },
+  {
+   "id": 17,
+   "year": null,
+   "title": "if you are in puberty vitamin d supplementation will do nothing",
+   "url": "https://looksmax.org/threads/if-you-are-in-puberty-vitamin-d-supplementation-will-do-nothing.819733/",
+   "source": "looksmax.org",
+   "type": "forum"
+  },
+  {
+   "id": 18,
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Vitamin_D_deficiency",
+   "title": "Vitamin D deficiency",
+   "source": "Wikipedia",
+   "type": "encyclopedia"
+  },
+  {
+   "id": 19,
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Sunscreen",
+   "title": "Sunscreen",
+   "source": "Wikipedia",
+   "type": "encyclopedia"
+  },
+  {
+   "id": 20,
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Skin_cancer",
+   "title": "Skin cancer",
+   "source": "Wikipedia",
+   "type": "encyclopedia"
+  },
+  {
+   "id": 21,
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Joseph_Mercola",
+   "title": "Joseph Mercola",
+   "source": "Wikipedia",
+   "type": "encyclopedia"
+  },
+  {
+   "id": 22,
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Niels_Ryberg_Finsen",
+   "title": "Niels Ryberg Finsen",
+   "source": "Wikipedia",
+   "type": "encyclopedia"
+  },
+  {
+   "id": 23,
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Cholecalciferol",
+   "title": "Cholecalciferol",
+   "source": "Wikipedia",
+   "type": "encyclopedia"
   }
  ],
  "webSources": [
   {
-   "url": "https://en.wikipedia.org/wiki/Vitamin_D",
-   "title": "Vitamin D"
+   "url": "https://en.wikipedia.org/wiki/Sun_tanning",
+   "title": "Sun tanning - Wikipedia"
   },
   {
-   "url": "https://en.wikipedia.org/wiki/Sun_tanning",
-   "title": "Sun tanning"
+   "url": "https://en.wikipedia.org/wiki/Indoor_tanning",
+   "title": "Indoor tanning - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Vitamin_D_deficiency",
+   "title": "Vitamin D deficiency - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Sunscreen",
+   "title": "Sunscreen - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Skin_cancer",
+   "title": "Skin cancer - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Joseph_Mercola",
+   "title": "Joseph Mercola - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Niels_Ryberg_Finsen",
+   "title": "Niels Ryberg Finsen - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Cholecalciferol",
+   "title": "Cholecalciferol - Wikipedia"
   }
  ]
 }

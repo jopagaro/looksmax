@@ -1,0 +1,163 @@
+{
+ "name": "Minoxidil sulfate",
+ "card": {
+  "summary": "The active form of minoxidil, produced in the scalp by sulfotransferase enzymes, through which minoxidil is understood to help regrow hair.",
+  "aka": null,
+  "evidence": "moderate",
+  "status": "otc",
+  "risk": "low",
+  "note": "Minoxidil itself is the product sold; response is linked to scalp enzyme levels.",
+  "structure": "Minoxidil sulfate"
+ },
+ "quick": {
+  "overview": "Minoxidil sulfate is the active metabolite of minoxidil, the hair-loss treatment sold as Rogaine and Regaine. Minoxidil is a prodrug, meaning scalp enzymes convert it to the sulfate form.\n\nHair regrowth from minoxidil can improve hair density and coverage in pattern hair loss, usually appearing after 2 to 4 months with maximum effect around 12 months. Research has asked whether boosting the conversion enzyme improves response.",
+  "how": "People use minoxidil, not the sulfate itself; the conversion happens in the follicle. Some studies have looked at adding tretinoin or an enzyme-boosting product to raise response.",
+  "risks": "Minoxidil effects are reversible and stopping leads to loss again. Aspirin and salicylic acid may inhibit sulfotransferase activity according to Wikipedia. See the minoxidil entry for side effects."
+ },
+ "lead": [
+  "Minoxidil sulfate is the active form of minoxidil. Minoxidil itself is a prodrug, converted by sulfotransferase enzymes into the sulfate, which forms both systemically and inside hair follicles.[1][2] In hair follicles SULT1A1 is the main enzyme.[1]",
+  "Because the sulfate form is responsible for the hair-growth effect, researchers have asked whether individual enzyme levels explain why some people respond better than others, and whether other products raise it. A randomised trial examined an enzyme booster applied before 5% minoxidil, and a study examined tretinoin as a way to upregulate follicular sulfotransferase in androgenetic alopecia patients.[3][4]",
+  "Minoxidil is understood to act partly as an ATP-sensitive potassium channel opener. A 1993 review noted that other potassium channel openers also maintain hair growth in cultured follicles.[5]"
+ ],
+ "angle": {
+  "goal": "Hair",
+  "chain": [
+   "Minoxidil applied to scalp",
+   "Scalp sulfotransferase converts it to minoxidil sulfate",
+   "Follicles shift toward growth, giving denser hair"
+  ],
+  "effect": "direct",
+  "text": "Minoxidil sulfate is the form believed to act on follicles; people use minoxidil to thicken thinning hair, and response is linked to SULT1A1 activity.[1][3]"
+ },
+ "infobox": [
+  [
+   "Drug class",
+   "Potassium channel opener (active metabolite)"
+  ],
+  [
+   "Parent drug",
+   "Minoxidil"
+  ],
+  [
+   "Activating enzyme",
+   "SULT1A1 in follicles"
+  ],
+  [
+   "Developed",
+   "Minoxidil developed 1963 (Upjohn)"
+  ],
+  [
+   "Topical approval",
+   "FDA 1988; OTC 1996"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Mechanism of action",
+   "paras": [
+    "Several human cytosolic sulfotransferases can sulfate minoxidil; studies of scalp skin and platelets found multiple enzyme activities involved.[6][1] SULT1A1 expression has been linked to topical response.[1] Mechanism is not fully understood; proposed contributors include potassium channel opening and growth factors such as VEGF.[1]"
+   ]
+  },
+  {
+   "h": "Pharmacology and metabolism",
+   "paras": [
+    "The sulfate was reported to be about 14 times more potent than minoxidil in stimulating cysteine incorporation in cultured rodent follicles.[1] Aspirin and salicylic acid can inhibit sulfotransferase activity, and paracetamol may interfere with sulfate formation.[1]"
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Upjohn developed minoxidil in 1963, it was approved as an oral blood-pressure drug in 1979, and topical use for male baldness was approved by the FDA in 1988 as Rogaine, going over the counter in 1996.[1]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A randomised controlled trial in men tested a SULT1A1 enzyme booster applied before daily 5% minoxidil, motivated by the relatively low response rate to topical minoxidil.[3] A 2019 study reported that tretinoin enhanced minoxidil response in androgenetic alopecia patients by upregulating follicular sulfotransferase.[4] A 2026 paper examined minoxidil sulfate's effects on JAK/STAT signalling in alopecia areata.[7]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1963",
+   "event": "Upjohn develops minoxidil.[1]"
+  },
+  {
+   "year": "1979",
+   "event": "Approved as oral hypertension drug (Loniten).[1]"
+  },
+  {
+   "year": "1988",
+   "event": "FDA approves topical minoxidil (Rogaine).[1]"
+  },
+  {
+   "year": "1996",
+   "event": "Topical minoxidil available over the counter.[1]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Minoxidil",
+   "url": "https://en.wikipedia.org/wiki/Minoxidil",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Minoxidil: a comprehensive review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34159872/",
+   "source": "Journal of Dermatological Treatment",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "SULT1A1 (Minoxidil Sulfotransferase) enzyme booster significantly improves response to topical minoxidil for hair regrowth",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34133836/",
+   "source": "Journal of Cosmetic Dermatology",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "Tretinoin enhances minoxidil response in androgenetic alopecia patients by upregulating follicular sulfotransferase enzymes",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30974011/",
+   "source": "Dermatologic Therapy",
+   "year": 2019,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Potassium channel conductance as a control mechanism in hair follicles",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8326149/",
+   "source": "Journal of Investigative Dermatology",
+   "year": 1993,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Sulfation of minoxidil by multiple human cytosolic sulfotransferases",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9566733/",
+   "source": "Chemico-Biological Interactions",
+   "year": 1998,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Minoxidil Sulfate Regulates JAK/STAT Signalling and Mitochondrial Function in Alopecia Areata",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42522403/",
+   "source": "Experimental Dermatology",
+   "year": 2026,
+   "type": "study"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Minoxidil",
+   "title": "Minoxidil - Wikipedia"
+  }
+ ]
+}

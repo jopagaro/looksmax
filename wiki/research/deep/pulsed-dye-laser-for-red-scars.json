@@ -1,23 +1,276 @@
 {
-"name":"Pulsed dye laser for red scars",
-"lead":["A pulsed dye laser (PDL) is a dye laser, a device whose light comes from a liquid organic dye pumped by a flashlamp or another laser, tuned to wavelengths that haemoglobin absorbs.[1] Dermatologists use it for vascular skin conditions such as port-wine stains and for scars, and it is discussed in appearance circles as a way to fade red (erythematous) scars.[1]","Published clinical research specific to scar redness is limited in the sources reviewed here: they consist of a few small registered trials, with no results summarised. Wikipedia's dye-laser article lists scars among medical uses but gives no outcome data.[1]"],
-"infobox":[["Type","Flashlamp- or laser-pumped dye laser"],["Target","Haemoglobin in small blood vessels"],["Uses","Port-wine stains, vascular lesions, scars"],["Typical setting","Dermatology clinic"]],
-"sections":[
-{"h":"How it works","paras":["Dye lasers use a circulating liquid organic dye as the gain medium. Their output can be tuned across tens of nanometres, and Wikipedia notes that matching wavelength to tissue absorption, such as haemoglobin or melanin, is a key medical advantage.[1] Red scars owe their colour to dilated blood vessels, which is the rationale proponents give for choosing a vascular-targeting laser."]},
-{"h":"History","paras":["Dye lasers were discovered independently in 1966 by P. P. Sorokin, F. P. Schafer and colleagues, and Mary Spaeth.[1] Their use in dermatology is mentioned for evening skin tone, port-wine stains, scars and tattoo removal.[1]"]},
-{"h":"Clinical studies","paras":["Registered trials include a 20-patient study of pulsed dye laser before surgical excision of scars (2015), a 20-patient study comparing 585 nm and 595 nm pulsed dye laser on postoperative scars at suture removal (2003), and a pilot study of a 532 nm KTP laser on fresh surgical scars (2013).[2][3][4] Further registrations concern port-wine stains.[5] No outcome data from these trials are summarised in the sources reviewed here."]},
-{"h":"Reported risks","paras":["Wikipedia's dye-laser article describes hazards of the dyes and solvents (toxicity, flammability) but does not list patient side effects.[1] For laser skin treatments generally, Wikipedia lists scarring, pigment change and herpes outbreaks.[6]"]}
-],
-"timeline":[{"year":"1966","event":"Dye lasers discovered independently by Sorokin, Schafer and Spaeth.[1]"}],
-"lore":null,
-"refs":[
-{"id":1,"title":"Dye laser","url":"https://en.wikipedia.org/wiki/Pulsed_dye_laser","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":2,"title":"NCT02458976 Pulsed-dye Laser Treatment Prior to Surgical Excision","url":"https://clinicaltrials.gov/study/NCT02458976","source":"ClinicalTrials.gov","year":2015,"type":"trial"},
-{"id":3,"title":"NCT00482144 Pulsed-dye laser at 585nm and 595nm for post-operative scars on suture-removal day","url":"https://clinicaltrials.gov/study/NCT00482144","source":"ClinicalTrials.gov","year":2003,"type":"trial"},
-{"id":4,"title":"NCT01789346 Pilot Study of a Novel 532nm KTP Laser for Fresh Surgical Scars","url":"https://clinicaltrials.gov/study/NCT01789346","source":"ClinicalTrials.gov","year":2013,"type":"trial"},
-{"id":5,"title":"NCT05771311 KTP Laser vs Pulsed Dye Laser for Port-Wine Stains","url":"https://clinicaltrials.gov/study/NCT05771311","source":"ClinicalTrials.gov","year":2023,"type":"trial"},
-{"id":6,"title":"Photorejuvenation","url":"https://en.wikipedia.org/wiki/Laser_skin_resurfacing","source":"Wikipedia","year":2025,"type":"encyclopedia"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Pulsed_dye_laser","title":"Dye laser"},{"url":"https://en.wikipedia.org/wiki/Laser_skin_resurfacing","title":"Photorejuvenation"}],
-"card":{"summary":"Vascular-targeting dye laser used on red scars; trials exist but are small and sources here give no outcomes.","aka":"PDL, 585/595 nm laser","evidence":"limited","outcome":"temporary","risk":"moderate","price":null,"note":"Clinic procedure; the sources reviewed give little scar-specific data.","structure":null},
-"quick":{"overview":"A pulsed dye laser emits light that blood vessels absorb. Dermatologists use it for port-wine stains and scars, and it is discussed as a way to fade red scars.\n\nThe sources reviewed show only small registered trials for scars, with no results summarised.","mechanism":"Tuned dye-laser light is absorbed by haemoglobin, aiming to affect the small vessels that give a scar its red colour.","risks":"Laser skin treatments in general are reported to carry risks of scarring, pigment change and herpes outbreaks. It is a clinic device."}
+ "name": "Pulsed dye laser for red scars",
+ "lead": [
+  "A pulsed dye laser (PDL) is a dye laser: its light comes from a liquid organic dye pumped by a flashlamp or another laser and tuned to wavelengths, typically 585 or 595 nm, that haemoglobin absorbs.[1] Dermatologists use it for vascular skin conditions such as port-wine stains and telangiectasias, and it is used in appearance care to fade the red colour of new or raised (erythematous) scars.[1][7]",
+  "The appearance rationale is that the redness of a young or hypertrophic scar comes from small blood vessels in and under the scar. By aiming light that blood absorbs at those vessels, a clinic session is meant to leave the scar closer to the colour of the surrounding skin, so it draws less attention on the face or body. Wikipedia's scar article lists the 585 nm pulsed dye laser among the nonablative lasers used for hypertrophic scars and keloids.[19]",
+  "Research on PDL for scars consists of small comparative trials, such as a controlled trial of 585 nm versus 595 nm devices on fresh surgical scars, and several registered studies; much larger bodies of work exist for port-wine stains, hemangiomas and facial telangiectasias.[2][3][4][8][9][12]"
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Flashlamp- or laser-pumped dye laser[1]"
+  ],
+  [
+   "Common wavelengths",
+   "585 nm and 595 nm[8]"
+  ],
+  [
+   "Target",
+   "Haemoglobin in small blood vessels[1]"
+  ],
+  [
+   "Other uses",
+   "Port-wine stains, telangiectasias, hemangiomas, warts[9][12]"
+  ],
+  [
+   "Dye lasers discovered",
+   "1966[1]"
+  ],
+  [
+   "Typical setting",
+   "Dermatology or laser clinic"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "How it works",
+   "paras": [
+    "Dye lasers use a circulating liquid organic dye as the gain medium. Their output can be tuned across tens of nanometres, and Wikipedia notes that matching wavelength to tissue absorption, such as haemoglobin or melanin, is a key medical advantage.[1] Red scars owe their colour to dilated blood vessels, which is the rationale proponents give for choosing a vascular-targeting laser.",
+    "In vascular lesions, the aim is photocoagulation of vessels. A review of port-wine stain treatment describes insufficient photocoagulation and laser-induced vessel regeneration and reperfusion as reasons many stains are not completely cleared after PDL, and it summarises studies of PDL combined with other lasers and drugs.[9] Wavelength matters: one randomized split-lesion pilot compared 607 nm with 595 nm lasers for pigmented lesions because the 607 nm wavelength is absorbed more specifically by melanin.[11]"
+   ]
+  },
+  {
+   "h": "Uses",
+   "subs": [
+    {
+     "h": "Scars",
+     "paras": [
+      "Clinical use in scars includes fresh surgical scars, where sessions may start on the day sutures are removed, and thicker hypertrophic scars and keloids.[8][19] Wikipedia's scar article says redness that follows a skin injury is not itself the scar and is generally not permanent, although in severe cases it can take years to fade.[19]"
+     ]
+    },
+    {
+     "h": "Other conditions",
+     "paras": [
+      "PDL is widely used for port-wine stains, which a 2021 literature review called the current standard non-invasive treatment,[9] and for infantile hemangiomas and capillary vascular malformations, where a 2013 review says early and often treatment with the 595 nm laser has become standard.[12] It has also been studied for facial telangiectasias, spider nevi, viral warts and onychopapilloma.[7][13][14][15]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Dye lasers were discovered independently in 1966 by P. P. Sorokin, F. P. Schafer and colleagues, and by Mary Spaeth.[1] Their use in dermatology is mentioned for evening skin tone, port-wine stains, scars and tattoo removal.[1] Treatment of facial redness with 532 nm and 595 nm light has also been compared against intense pulsed light devices in theoretical and clinical reviews.[16]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A prospective, non-randomized, double-blind controlled trial treated 15 outpatients with 21 post-operative scars at least 3 cm long with 585 nm or 595 nm PDL starting on the day of suture removal; 14 patients with 19 scars completed it.[8]",
+    "Registered trials include a 20-patient study of pulsed dye laser before surgical excision of scars (2015), a 20-patient study comparing 585 nm and 595 nm pulsed dye laser on postoperative scars at suture removal (2003), and a pilot study of a 532 nm KTP laser on fresh surgical scars (2013).[2][3][4] A further registered trial concerns KTP versus PDL for port-wine stains.[5]",
+    "In related vascular conditions, a split-face study of 15 patients compared 595 nm PDL with 532 nm KTP laser for facial telangiectasias and diffuse redness,[7] and a randomized study of 181 patients with superficial hemangioma compared 595 nm PDL alone with topical 5-aminolevulinic acid followed by PDL over 24 months.[17]"
+   ]
+  },
+  {
+   "h": "Reported risks",
+   "paras": [
+    "Wikipedia's dye-laser article describes hazards of the dyes and solvents (toxicity, flammability) but does not list patient side effects.[1] For laser skin treatments generally, Wikipedia lists scarring, pigment change and herpes outbreaks.[6] A trial comparing PDL wavelengths in pigmented lesions noted a risk of purpura (bruise-like marks) with the 595 nm device.[11]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1966",
+   "event": "Dye lasers discovered independently by Sorokin, Schafer and Spaeth.[1]"
+  },
+  {
+   "year": "2003",
+   "event": "Registered study compares 585 nm and 595 nm PDL on post-operative scars.[3]"
+  },
+  {
+   "year": "2009",
+   "event": "Controlled trial of 585 nm versus 595 nm PDL on new surgical scars published.[8]"
+  },
+  {
+   "year": "2015",
+   "event": "Registered trial of PDL before surgical excision of scars.[2]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Dye laser",
+   "url": "https://en.wikipedia.org/wiki/Pulsed_dye_laser",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "NCT02458976 Pulsed-dye Laser Treatment Prior to Surgical Excision",
+   "url": "https://clinicaltrials.gov/study/NCT02458976",
+   "source": "ClinicalTrials.gov",
+   "year": 2015,
+   "type": "trial"
+  },
+  {
+   "id": 3,
+   "title": "NCT00482144 Pulsed-dye laser at 585nm and 595nm for post-operative scars on suture-removal day",
+   "url": "https://clinicaltrials.gov/study/NCT00482144",
+   "source": "ClinicalTrials.gov",
+   "year": 2003,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "NCT01789346 Pilot Study of a Novel 532nm KTP Laser for Fresh Surgical Scars",
+   "url": "https://clinicaltrials.gov/study/NCT01789346",
+   "source": "ClinicalTrials.gov",
+   "year": 2013,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "NCT05771311 KTP Laser vs Pulsed Dye Laser for Port-Wine Stains",
+   "url": "https://clinicaltrials.gov/study/NCT05771311",
+   "source": "ClinicalTrials.gov",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Photorejuvenation",
+   "url": "https://en.wikipedia.org/wiki/Laser_skin_resurfacing",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 19,
+   "title": "Scar",
+   "url": "https://en.wikipedia.org/wiki/Scar",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 7,
+   "title": "A split-face comparison study of pulsed 532-nm KTP laser and 595-nm pulsed dye laser in the treatment of facial telangiectasias and diffuse telangiectatic facial erythema",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17430378/",
+   "source": "Dermatologic Surgery",
+   "year": 2007,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Comparison of the effectiveness of the pulsed dye laser 585 nm versus 595 nm in the treatment of new surgical scars",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19572180/",
+   "source": "Lasers in Medical Science",
+   "year": 2009,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Adjuncts to pulsed dye laser for treatment of port wine stains: a literature review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35422188/",
+   "source": "Journal of Cosmetic and Laser Therapy",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "Pulsed dye laser treatment of pigmented lesions: a randomized clinical pilot study comparison of 607- and 595-nm wavelength lasers",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21246573/",
+   "source": "Lasers in Surgery and Medicine",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "Laser treatment in the management of infantile hemangiomas and capillary vascular malformations",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23499132/",
+   "source": "Techniques in Vascular and Interventional Radiology",
+   "year": 2013,
+   "type": "review"
+  },
+  {
+   "id": 13,
+   "title": "Multi-wavelength laser treatments of spider nevi",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30311087/",
+   "source": "Lasers in Medical Science",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "Clinical evidence of 595 nm pulse dye laser treatment for viral warts on hands and feet",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37753676/",
+   "source": "Skin Research and Technology",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 15,
+   "title": "A new method to treat onychopapilloma with pulsed dye laser irradiation: a 13-case series report",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37260138/",
+   "source": "Journal of Dermatological Treatment",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 16,
+   "title": "Intense pulsed light and laser treatment of facial telangiectasias and dyspigmentation: some theoretical and practical comparisons",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16176770/",
+   "source": "Dermatologic Surgery",
+   "year": 2005,
+   "type": "review"
+  },
+  {
+   "id": 17,
+   "title": "Superficial hemangioma is better treated by topical 5-aminolevulinic followed by 595-nm pulsed dye laser therapy rather than 595-nm laser therapy alone",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28812167/",
+   "source": "Lasers in Medical Science",
+   "year": 2017,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Pulsed_dye_laser",
+   "title": "Dye laser"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Laser_skin_resurfacing",
+   "title": "Photorejuvenation"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Scar",
+   "title": "Scar - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "Vascular-targeting dye laser used on red scars; trials exist but are small and sources here give no outcomes.",
+  "aka": "PDL, 585/595 nm laser",
+  "evidence": "limited",
+  "outcome": "temporary",
+  "risk": "moderate",
+  "price": null,
+  "note": "Clinic procedure; little scar-specific data exists.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "A pulsed dye laser emits light that blood vessels absorb. Dermatologists use it for port-wine stains and scars, and it is discussed as a way to fade red scars.\nOnly small registered trials exist for scars, with no results summarised.",
+  "mechanism": "Tuned dye-laser light is absorbed by haemoglobin, aiming to affect the small vessels that give a scar its red colour.",
+  "risks": "Laser skin treatments in general are reported to carry risks of scarring, pigment change and herpes outbreaks. It is a clinic device."
+ },
+ "angle": {
+  "goal": "Scar appearance",
+  "chain": [
+   "Laser light is absorbed by haemoglobin in the scar's small vessels",
+   "Vessels in the scar are heated and reduced",
+   "Scar redness fades toward the surrounding skin tone"
+  ],
+  "effect": "direct",
+  "text": "People with red or newly formed scars, for example after surgery, acne or injury, go to a dermatology or laser clinic for PDL sessions to reduce the redness that makes a scar visible. The treatment targets colour rather than the raised or sunken shape of a scar."
+ }
 }

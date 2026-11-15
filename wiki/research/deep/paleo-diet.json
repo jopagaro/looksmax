@@ -1,94 +1,531 @@
 {
-  "name": "Paleo diet",
-  "lead": [
-    "The Paleolithic or paleo diet is an eating pattern based on foods its proponents believe pre-agricultural humans ate. It emphasises vegetables, fruit, nuts, roots and meat, and excludes dairy, grains, legumes, refined sugar, processed oils and often salt and alcohol [1].",
-    "Versions of the idea date to the 1890s, and it was popularised by Walter Voegtlin in 1975, by Stanley Boyd Eaton and Melvin Konner from 1985, and by Loren Cordain, who trademarked the name in 2002 [1]. In looksmaxxing circles it is discussed as a whole-food, low-processed approach to skin, leanness and body composition. Wikipedia describes the research quality as poor to moderate, and critics including anthropologists dispute its assumptions about ancestral diets [1][2]."
+ "name": "Paleo diet",
+ "lead": [
+  "The Paleolithic or paleo diet is an eating pattern based on foods its proponents believe pre-agricultural humans ate. It emphasises vegetables, fruit, nuts, roots, meat, organ meats, fish, eggs and seeds, and excludes dairy, grains, legumes, refined sugar, processed oils and often salt, alcohol and coffee [1]. Followers use it to look leaner and clearer-skinned: cutting processed food and sugar tends to lower calorie intake, which supports fat loss and a more defined physique, and followers also report less bloating and fewer breakouts [1][2].",
+  "Versions of the idea date to the 1890s, and it was popularised by Walter Voegtlin in 1975, by Stanley Boyd Eaton and Melvin Konner from 1985, and by Loren Cordain, whose 2002 book The Paleo Diet gave the movement its name; the name was trademarked [1][18]. Mark Sisson's Primal Blueprint, launched in 2009 from his Mark's Daily Apple blog, is a related variant [19]. Google reported it as its most-searched weight-loss method in 2013 and 2014, and Wikipedia puts the market for paleo-labelled products at about US$500 million as of 2019 [1].",
+  "Research consists mostly of small, short trials. Wikipedia describes the research quality as poor to moderate, and anthropologists dispute the premise that there was a single ancestral human diet [1][9]. Reviewers attribute weight loss on the diet mainly to reduced calorie intake [2]. In fitness and looksmaxxing circles it is discussed as a whole-food, low-processed approach to leanness, body composition and skin. Meta-analyses of randomised trials report short-term reductions in body weight, waist circumference and body fat versus comparison diets [24][27]."
+ ],
+ "angle": {
+  "goal": "Leanness and skin",
+  "chain": [
+   "Removes processed food, refined sugar, grains and dairy",
+   "Lower calorie intake with high protein and whole foods",
+   "Fat loss, more visible muscle definition and, followers report, clearer skin"
   ],
-  "infobox": [
-    ["Type", "Fad diet / whole-food elimination diet"],
-    ["Popularisers", "Walter Voegtlin (1975), S. Boyd Eaton and Melvin Konner (1985), Loren Cordain (2002)"],
-    ["Excluded foods", "Grains, dairy, legumes, refined sugar, processed oils"],
-    ["Evidence level", "Limited; small short trials"]
+  "effect": "indirect",
+  "text": "Paleo eating builds meals around meat, fish, eggs, vegetables and fruit, which many people use to cut body fat and make their physique look more defined. Followers also report clearer skin and less bloating when they drop sugar, dairy and processed food."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Whole-food elimination diet"
   ],
-  "sections": [
-    {
-      "h": "Description",
-      "paras": [
-        "The diet avoids processed food and builds meals around meat, fish, eggs, vegetables, fruit and nuts. Dairy is excluded because milking began with animal domestication, and grains and legumes are excluded as agricultural foods [1]. Variants differ on the proportion of animal products: the 1988 Eaton, Konner and Shostak version was around 65% plant-based, while Cordain's later version emphasised animal foods [1]."
-      ]
-    },
-    {
-      "h": "History",
-      "paras": [
-        "Wikipedia traces precursors to Emmet Densmore and John Harvey Kellogg in the 1890s, Arnold DeVries in 1952, and Richard Mackarness's low-carbohydrate book in 1958. Voegtlin's 1975 The Stone Age Diet argued that humans were meat-eaters until about 10,000 years ago. The 1985 New England Journal of Medicine article by Eaton and Konner proposed the discordance hypothesis, that a mismatch between modern diets and human biology drives chronic disease [1]. The diet became widely popular online in the 2010s and was reported as Google's most searched weight-loss method in 2013 and 2014 [1]."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "A small metabolically controlled trial in type 2 diabetes compared a Paleolithic-type diet with a diabetes diet and reported metabolic differences over a short period [3]. A review of popular weight-loss strategies noted limited studies supporting fad diets, including paleo [4]. Wikipedia summarises a trial in obese postmenopausal women in which weight and fat loss at six months had disappeared by 24 months, and reviews that found no good evidence of reduced cardiovascular or metabolic syndrome risk [1]. Clinical statements and network meta-analyses have also compared dietary patterns on health biomarkers [5][6]."
-      ]
-    },
-    {
-      "h": "Criticism and risks",
-      "paras": [
-        "Anthropologists such as Peter Ungar and Marlene Zuk, and a 2018 analysis by Herman Pontzer and colleagues, have argued that ancestral diets varied widely, often included starchy plants, and that human evolution continued after agriculture [1]. Nutrition researcher Marion Nestle has said the evidence for ancestral diets is circumstantial [1].",
-        "Reported concerns include lower calcium and vitamin D intake, side effects such as weakness and headaches in one trial, and the cardiovascular associations of high red meat intake [1]."
-      ]
-    }
+  [
+   "Popularisers",
+   "Walter Voegtlin (1975), S. Boyd Eaton and Melvin Konner (1985), Loren Cordain (2002) [1]"
   ],
-  "timeline": [
-    {"year": "1975", "event": "Walter Voegtlin publishes The Stone Age Diet [1]."},
-    {"year": "1985", "event": "Eaton and Konner publish their discordance hypothesis in the New England Journal of Medicine [1]."},
-    {"year": "2002", "event": "Loren Cordain publishes The Paleo Diet and trademarks the name [1]."},
-    {"year": "2013", "event": "Paleo reported as Google's top-searched weight-loss method [1]."}
+  [
+   "Related variant",
+   "Primal Blueprint by Mark Sisson (2009) [19]"
   ],
-  "lore": {
-    "intro": "Proponents present the diet as a return to unprocessed whole foods; the community material is limited, so the claims below follow the standard proponent and expert positions.",
-    "claims": [
-      {
-        "claim": "Humans are genetically adapted to a pre-agricultural diet, so grains and dairy cause modern disease.",
-        "believers": "Proponents point to the discordance hypothesis and say genes changed little in about 10,000 years [1].",
-        "experts": "Anthropologists and geneticists have argued that humans have continued to evolve and that ancestral diets were varied and often starch-rich [1].",
-        "evidence": "not-supported"
-      },
-      {
-        "claim": "Paleo eating improves leanness and body composition.",
-        "believers": "Followers report weight loss and fewer cravings on a whole-food plan [1].",
-        "experts": "Short trials show some improvements, but a postmenopausal trial found the benefit gone by 24 months and weight loss mainly reflected lower calorie intake [1][3].",
-        "evidence": "mixed"
-      },
-      {
-        "claim": "The diet treats autoimmune and inflammatory disease.",
-        "believers": "Some advocates have said it can reverse diabetes and autoimmune conditions [1].",
-        "experts": "Reviews found no good evidence for inflammatory bowel disease, and multiple sclerosis reviews report no specific dietary treatment supported [1][7].",
-        "evidence": "not-supported"
-      }
-    ]
+  [
+   "Excluded foods",
+   "Grains, dairy, legumes, refined sugar, processed oils [1]"
+  ],
+  [
+   "Peak search interest",
+   "Top weight-loss search on Google, 2013 and 2014 [1]"
+  ],
+  [
+   "Typical foods",
+   "Meat, fish, eggs, vegetables, fruit, nuts [1]"
+  ],
+  [
+   "Market size",
+   "About US$500 million for paleo products, 2019 [1]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "The diet avoids processed food and builds meals around meat, organ meats, fish, eggs, vegetables, fruit, nuts and seeds. Dairy is excluded because milking began with animal domestication, and grains and legumes are excluded as agricultural foods [1]. Variants differ on the proportion of animal products: the 1988 Eaton, Konner and Shostak version was around 65% plant-based, while Cordain's later version emphasised animal foods [1]. Followers often describe it in simple terms such as eating what could be hunted or gathered.",
+    "Cordain's 2002 book drew on contemporary hunter-gatherer groups, which Wikipedia notes differ widely, with animal foods supplying anywhere from about a quarter to nearly all of calories [1]. Cordain, an exercise physiologist who earned a PhD at the University of Utah in 1981 and became a professor at Colorado State University, later published The Paleo Diet Revised (2010), The Paleo Diet for Athletes with Joe Friel, The Paleo Diet Cookbook and The Paleo Answer (2012) [18]. His published work also linked modern diseases such as cardiovascular disease, acne and juvenile myopia to diets and lifestyles that differ from those of ancestors [18].",
+    "In practice, a paleo meal is usually built around meat, fish or eggs, a large share of vegetables, some fruit, and nuts or seeds [1]. Foods commonly set aside include bread, pasta, rice, cheese, milk, beans and packaged snacks, and followers differ on edge cases such as dairy and salt [1][19].",
+    "The movement's central idea, the evolutionary discordance hypothesis, holds that human physiology was shaped by a long hunter-gatherer past and that the shift to agriculture about ten thousand years ago was too recent for adaptation to grains, dairy and refined foods [1]. Eaton and Konner's 1985 paper framed chronic diseases of modern life as products of that mismatch [1]."
+   ]
   },
-  "refs": [
-    {"id": 1, "title": "Paleolithic diet", "url": "https://en.wikipedia.org/wiki/Paleolithic_diet", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"},
-    {"id": 2, "title": "Popular Weight Loss Strategies: a Review of Four Weight Loss Techniques", "url": "https://pubmed.ncbi.nlm.nih.gov/29124370/", "source": "Current Gastroenterology Reports", "year": 2017, "type": "review"},
-    {"id": 3, "title": "Metabolic and physiologic effects from consuming a hunter-gatherer (Paleolithic)-type diet in type 2 diabetes", "url": "https://pubmed.ncbi.nlm.nih.gov/25828624/", "source": "European Journal of Clinical Nutrition", "year": 2015, "type": "trial"},
-    {"id": 4, "title": "Popular Weight Loss Strategies: a Review of Four Weight Loss Techniques (review)", "url": "https://pubmed.ncbi.nlm.nih.gov/29124370/", "source": "Current Gastroenterology Reports", "year": 2017, "type": "review"},
-    {"id": 5, "title": "Nutrition and physical activity: An Obesity Medicine Association (OMA) Clinical Practice Statement 2022", "url": "https://pubmed.ncbi.nlm.nih.gov/38085928/", "source": "Obesity Pillars", "year": 2022, "type": "guideline"},
-    {"id": 6, "title": "Dietary Patterns and Non-Communicable Disease Biomarkers: A Network Meta-Analysis and Nutritional Geometry Approach", "url": "https://pubmed.ncbi.nlm.nih.gov/36615733/", "source": "Nutrients", "year": 2022, "type": "review"},
-    {"id": 7, "title": "Diet and Multiple Sclerosis: Scoping Review of Web-Based Recommendations", "url": "https://pubmed.ncbi.nlm.nih.gov/30626570/", "source": "Interactive Journal of Medical Research", "year": 2019, "type": "review"}
-  ],
-  "webSources": [
-    {"url": "https://en.wikipedia.org/wiki/Paleolithic_diet", "title": "Paleolithic diet - Wikipedia"}
-  ],
-  "card": {
-    "summary": "A whole-food, no-grain, no-dairy diet built on a contested picture of ancestral eating; short trials show some metabolic effects, long-term evidence is thin.",
-    "aka": "Caveman diet, Stone Age diet, Paleolithic diet",
-    "evidence": "limited",
-    "price": null,
-    "note": "Excludes dairy and grains; reviewers note possible calcium and vitamin D shortfalls.",
-    "structure": null
+  {
+   "h": "Use for appearance",
+   "paras": [
+    "Looks-related interest centres on body composition and skin. Eating high-protein whole foods and removing sugar and processed snacks lowers calorie intake for many people, which supports fat loss and makes muscle definition more visible [1][2]. Wikipedia notes that following the diet can reduce processed food, sugar and salt intake, which aligns with mainstream dietary advice [1]. Followers also report fewer breakouts and less bloating after dropping dairy, sugar and processed food [2]. A 2021 review examined the paleo diet in athletes and its effect on health status and performance [14].",
+    "Body composition. In gym and bodybuilding settings the diet is mostly used as a cutting or maintenance framework: protein from meat, fish and eggs supports muscle retention while sugar, baked goods and snack foods are removed. A T Nation contributor describes a bodybuilding coach having them cut junk food, most dairy and processed carbohydrates, which the poster likened to paleo before it was trendy, and credits the change with clearer skin [30]. Another T Nation discussion advises lean cuts of meat for improving body composition because they carry fewer calories and more protein per ounce [32].",
+    "Skin and bloating. Followers who drop dairy and sugar commonly report fewer breakouts and a flatter midsection, usually attributing it to avoiding insulin spikes or dairy hormones [2][30]. The research on diet and acne generally discusses glycaemic load and dairy, and a narrative review of popular diets and skin does not single out the paleo diet [13].",
+    "Community variants. T Nation forum members have also joked about a modern version of the diet, writing that a cave dweller in the present day would shop at a grocery store and favour burgers and sweets, which shows that some in the training community treat the label loosely [31]. Many lifters combine paleo-style food choices with calorie counting or macro tracking rather than following a strict ancestral template [32]."
+   ]
   },
-  "quick": {
-    "overview": "The paleo diet builds meals from meat, fish, eggs, vegetables, fruit and nuts and avoids grains, dairy, legumes and processed foods. It is popular in fitness and appearance communities as a whole-food approach to leanness and skin.\n\nTrials are small and short. Wikipedia describes the research quality as poor to moderate, and some anthropologists dispute the premise that it reflects how ancestral humans ate.",
-    "mechanism": "Proponents say it matches human biology as shaped before agriculture. Researchers note that weight loss on the diet has mainly been explained by lower calorie intake and reduced processed food.",
-    "risks": "Reported concerns include lower calcium and vitamin D intake, side effects such as headaches and diarrhoea in one trial, and the cardiovascular associations of high red meat intake."
+  {
+   "h": "History",
+   "paras": [
+    "Wikipedia traces precursors to Emmet Densmore and John Harvey Kellogg, who promoted primitive diets in the 1890s, Arnold DeVries in 1952, and Richard Mackarness's low-carbohydrate Stone Age diet book in 1958 [1]. Gastroenterologist Walter Voegtlin's 1975 The Stone Age Diet argued that humans were meat-eaters until about 10,000 years ago. The 1985 New England Journal of Medicine article by Eaton and Konner proposed the discordance hypothesis, that a mismatch between modern diets and human biology drives chronic disease [1].",
+    "Cordain's 2002 book popularised the term paleo diet, and the diet grew online through blogs, forums and social media in the 2010s [1]. Mark Sisson, a former Ironman competitor who finished fourth at the 1982 Ironman World Championship, started the blog Mark's Daily Apple in 2006, published The Primal Blueprint in 2009 and co-founded the Primal Kitchen food brand in 2015, which Kraft Heinz agreed in 2018 to acquire for about US$200 million [19]. Paleo-labelled cookbooks, snacks, apps and cookware became a commercial category [1].",
+    "Paleo as a brand ecosystem. Cordain trademarked The Paleo Diet and published a series of books [1][18], and Sisson built a separate audience around his blog, books and food company [19]. CrossFit, founded by Greg Glassman and Lauren Jenai in 2000 and growing from its first affiliate in 2002, treats nutrition as the base of its fitness model, and its affiliates commonly advise members to adopt paleo, keto or Zone eating or to count macros [28]. The Zone diet, created by biochemist Barry Sears with a 30/40/30 fat-carbohydrate-protein ratio, is a related plan [29].",
+    "Whole30. Melissa Hartwig Urban and Dallas Hartwig launched the Whole30 programme in April 2009 as a 30-day elimination plan similar to paleo but stricter; it bans even honey and maple syrup, and sold books from 2012. By July 2016 participants had posted more than a million Instagram posts under the #Whole30 tag [22]. The paleo label also appeared on packaged goods [1].",
+    "Legal skirmish. A 2012 Hacker News submission linked to a Reason article titled to say a paleo diet lawsuit had been dismissed by a court, framed as a free-expression case; the commenter on the thread asked for a news summary of the case [33]. A 2014 Show HN thread presented a paleo diet resource for programmers, an example of the diet's early adoption in technology circles [34]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Type 2 diabetes. A small metabolically controlled randomised trial in type 2 diabetes, run as an outpatient study, compared a Paleolithic-type diet with a conventional diabetes diet and examined metabolic and physiologic effects over a short period [3][10]. A companion analysis in 13 participants with type 2 diabetes found that standard formulas for estimating net acid excretion did not predict measured values on these fruit-and-vegetable-heavy, high-protein diets [11].",
+    "Weight loss. A review of popular weight-loss strategies noted limited studies supporting fad diets, including paleo, and concluded that both intermittent fasting and the paleo diet lead to weight loss through lower overall calorie intake [4]. Wikipedia summarises a trial in obese postmenopausal women in which weight and fat loss at six months had disappeared by 24 months, and reports side effects such as weakness, diarrhoea and headaches in one trial [1].",
+    "Other health outcomes. Wikipedia reports a 2015 meta-analysis and later reviews that found no good evidence of reduced metabolic syndrome or cardiovascular risk, and a review that found no evidence of benefit in inflammatory bowel disease [1]. A scoping review examined web-based diet recommendations for multiple sclerosis, a topic where the paleo diet is among the diets promoted online [7]. A 2015 review considered the diet's role in fatty liver disease [15]. A letter in the American Journal of Clinical Nutrition argued that the paleo diet still lacks evidence [12].",
+    "Skin and athletes. A narrative review of popular diets and skin discussed the paleo diet alongside ketogenic, Mediterranean, vegan and gluten-free diets and reported positive effects on inflammatory skin conditions mainly for intermittent fasting, ketogenic and Mediterranean diets [13]. Clinical statements and network meta-analyses have compared dietary patterns on health biomarkers [5][6].",
+    "Randomised trials and meta-analyses. A 2009 Swedish crossover pilot randomised 13 people with type 2 diabetes to two consecutive three-month periods of a paleo-style diet and a guideline-based diabetes diet; the paleo period was associated with lower HbA1c, triglycerides, body weight (about 3 kg), BMI and waist circumference (about 4 cm) [25]. A 2015 systematic review and meta-analysis of four randomised trials with 159 participants who had components of metabolic syndrome reported greater short-term improvements in waist circumference (about 2.4 cm), triglycerides and blood pressure versus control diets, with wide confidence intervals for several outcomes [23]. A 2019 meta-analysis of eight trials reported mean reductions of about 2.2 kg in body weight, 2.9 cm in waist circumference and 1.4 percentage points in body fat versus comparison diets, and noted that lipid and blood-pressure results changed when individual studies were removed [24]. A second 2019 meta-analysis of 11 trials reported a mean weight difference of about 3.5 kg against recommendation-based diets and called for larger and longer trials [27].",
+    "Nutrient intake. A two-year randomised trial in 70 overweight or obese postmenopausal women compared a paleo-type diet with a Nordic Nutrition Recommendations diet and found lower urinary iodine in the paleo group at six months, as table salt and dairy were excluded, leading the authors to suggest considering iodine supplementation [26]."
+   ]
+  },
+  {
+   "h": "Criticism and risks",
+   "paras": [
+    "Anthropologists such as Peter Ungar, Marlene Zuk and Anne Stone, and a 2018 analysis by Herman Pontzer and colleagues, have argued that ancestral diets varied widely, often included starchy plants, and that human evolution continued after agriculture [1][9]. Scientific American's 2018 article \"The Real Paleo Diet\" reconstructs ancestral diets from tooth wear and isotope evidence and quotes Ungar saying there was no single ancestral human diet to replicate [9]. Nutrition researcher Marion Nestle has said the evidence for ancestral diets is circumstantial [1].",
+    "Reported concerns include lower calcium and vitamin D intake, higher fish-toxin exposure with heavy fish intake, and the cardiovascular associations of high red meat intake [1]. A 2019 analysis cited by Wikipedia rated the diet as more environmentally harmful than an omnivorous diet, though less than a ketogenic diet [1]. Some proponents have attributed criticism of the diet to a conspiracy involving the food industry [1].",
+    "Nutrient gaps. Beyond the calcium and vitamin D concerns raised by reviewers, the Swedish iodine trial recorded falling urinary iodine in the paleo group and its authors recommended considering supplementation [1][26]. Scientific American's account notes that Pleistocene humans ate a wide range of foods, which Ungar summarised as there being no single ancestral human diet to copy [9]. Dietitians quoted in coverage of related eliminations such as Whole30 generally agree with emphasising vegetables, protein and less added sugar while considering some restrictions extreme, and David Katz said excluded groups were chosen arbitrarily [22]."
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Paleo spread through internet forums, blogs and social media in the 2010s, and its vocabulary and products entered gyms and fitness communities [1]. Hacker News threads show recurring debate over the ancestral-diet premise, including a 2022 thread on research that ancestors ate carbohydrates, a 2016 thread on a paleo pioneer's reflections, and a 2013 thread on archaeologists' reactions to the diet [16][17][20][21].",
+    "Commercial footprint. Wikipedia puts paleo-labelled product sales at about US$500 million in 2019, and the label spread to bars, snacks, flours and meal kits [1]. Primal Kitchen, founded by Sisson in 2015, was agreed to be acquired by Kraft Heinz in 2018 [19]. Search interest peaked in 2013 and 2014 [1].",
+    "Related practices. The carnivore, keto, Whole30 and ancestral-health movements overlap with paleo in rules and communities; Whole30 reached a US News & World Report diet ranking at or near the bottom from 2016 to 2019 [22]. In looksmaxxing and bodybuilding circles, paleo is one of several whole-food frameworks, usually discussed next to calorie counting for cutting phases [30][32]."
+   ]
   }
+ ],
+ "timeline": [
+  {
+   "year": "1890s",
+   "event": "Emmet Densmore and John Harvey Kellogg promote primitive diets [1]."
+  },
+  {
+   "year": "1975",
+   "event": "Walter Voegtlin publishes The Stone Age Diet [1]."
+  },
+  {
+   "year": "1985",
+   "event": "Eaton and Konner publish their discordance hypothesis in the New England Journal of Medicine [1]."
+  },
+  {
+   "year": "1988",
+   "event": "Eaton, Konner and Shostak publish The Paleolithic Prescription, around 65% plant-based [1]."
+  },
+  {
+   "year": "2002",
+   "event": "Loren Cordain publishes The Paleo Diet and trademarks the name [1][18]."
+  },
+  {
+   "year": "2009",
+   "event": "Whole30 launches in April, a stricter 30-day plan related to paleo [22]."
+  },
+  {
+   "year": "2006",
+   "event": "Mark Sisson starts the blog Mark's Daily Apple [19]."
+  },
+  {
+   "year": "2009",
+   "event": "Sisson publishes The Primal Blueprint [19]."
+  },
+  {
+   "year": "2013",
+   "event": "Paleo reported as Google's top-searched weight-loss method; again in 2014 [1]."
+  },
+  {
+   "year": "2018",
+   "event": "Scientific American publishes The Real Paleo Diet; Pontzer and colleagues publish an analysis questioning the diet's premise [1][9]."
+  },
+  {
+   "year": "2015",
+   "event": "Meta-analysis of four RCTs reports short-term waist and triglyceride reductions versus control diets [23]."
+  },
+  {
+   "year": "2019",
+   "event": "Further meta-analyses report weight and waist reductions in short trials [24][27]; paleo-labelled market about US$500 million [1]."
+  }
+ ],
+ "lore": {
+  "intro": "Proponents present the diet as a return to unprocessed whole foods; community material is limited, so the claims below follow standard proponent and expert positions [1][19].",
+  "claims": [
+   {
+    "claim": "Humans are genetically adapted to a pre-agricultural diet, so grains and dairy cause modern disease.",
+    "believers": "Proponents point to the discordance hypothesis and say genes changed little in about 10,000 years [1].",
+    "experts": "Anthropologists and geneticists have argued that humans have continued to evolve and that ancestral diets were varied and often starch-rich [1][9].",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "Paleo eating improves leanness and body composition.",
+    "believers": "Followers report weight loss and fewer cravings on a whole-food plan [1].",
+    "experts": "Short trials show some improvements, but a postmenopausal trial found the benefit gone by 24 months and a review attributes weight loss mainly to lower calorie intake [1][4].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "The diet treats autoimmune and inflammatory disease.",
+    "believers": "Some advocates have said it can reverse diabetes and autoimmune conditions [1].",
+    "experts": "Wikipedia reports no good evidence for inflammatory bowel disease, and the research quality is described as poor to moderate [1][7].",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "Cutting grains, dairy and sugar clears skin.",
+    "believers": "Followers report fewer breakouts and less bloating when they drop processed food, dairy and sugar [2].",
+    "experts": "A narrative review of popular diets and skin reports benefits for acne and other inflammatory conditions mainly with Mediterranean, ketogenic and fasting patterns, and does not single out the paleo diet [13].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Paleo suits athletes and gym training.",
+    "believers": "Proponents say the high-protein, whole-food pattern supports muscle and recovery, and Cordain wrote a version for athletes [18].",
+    "experts": "A 2021 review looked at the paleo diet in athletes and its effect on health status and performance [14].",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Paleo causes fat loss beyond ordinary calorie cutting.",
+    "believers": "Followers describe satiety from protein and vegetables and a loss of cravings when processed snacks are gone [30][31].",
+    "experts": "A review attributes weight loss on paleo mainly to lower calorie intake, while meta-analyses report weight and waist reductions versus comparison diets in short trials [4][24][27].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Skipping dairy and grains is safe for all nutrients.",
+    "believers": "Proponents say whole foods supply what is needed [1].",
+    "experts": "A two-year trial found lower urinary iodine in the paleo group and suggested supplementation; reviewers also note calcium and vitamin D intake [1][26].",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Paleolithic diet",
+   "url": "https://en.wikipedia.org/wiki/Paleolithic_diet",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Popular Weight Loss Strategies: a Review of Four Weight Loss Techniques",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29124370/",
+   "source": "Current Gastroenterology Reports",
+   "year": 2017,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Metabolic and physiologic effects from consuming a hunter-gatherer (Paleolithic)-type diet in type 2 diabetes",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25828624/",
+   "source": "European Journal of Clinical Nutrition",
+   "year": 2015,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "Popular Weight Loss Strategies: a Review of Four Weight Loss Techniques (review)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29124370/",
+   "source": "Current Gastroenterology Reports",
+   "year": 2017,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Nutrition and physical activity: An Obesity Medicine Association (OMA) Clinical Practice Statement 2022",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38085928/",
+   "source": "Obesity Pillars",
+   "year": 2022,
+   "type": "guideline"
+  },
+  {
+   "id": 6,
+   "title": "Dietary Patterns and Non-Communicable Disease Biomarkers: A Network Meta-Analysis and Nutritional Geometry Approach",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36615733/",
+   "source": "Nutrients",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Diet and Multiple Sclerosis: Scoping Review of Web-Based Recommendations",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30626570/",
+   "source": "Interactive Journal of Medical Research",
+   "year": 2019,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "The Real Paleo Diet.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29924104/",
+   "source": "Scientific American",
+   "year": 2018,
+   "type": "news"
+  },
+  {
+   "id": 10,
+   "title": "Metabolic and physiologic effects from consuming a hunter-gatherer (Paleolithic)-type diet in type 2 diabetes (RCT)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25828624/",
+   "source": "Eur J Clin Nutr",
+   "year": 2015,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Established dietary estimates of net acid production do not predict measured net acid excretion in patients with Type 2 diabetes on Paleolithic-Hunter-Gatherer-type diets.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23859996/",
+   "source": "Eur J Clin Nutr",
+   "year": 2013,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "Paleo diet still lacks evidence.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27587607/",
+   "source": "Am J Clin Nutr",
+   "year": 2016,
+   "type": "review"
+  },
+  {
+   "id": 13,
+   "title": "Popular Diets and Skin Effects: A Narrative Review.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38336244/",
+   "source": "Actas Dermosifiliogr",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 14,
+   "title": "Paleolithic Diet-Effect on the Health Status and Performance of Athletes?",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33801152/",
+   "source": "Nutrients",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 15,
+   "title": "Hype or Reality: Should Patients with Metabolic Syndrome-related NAFLD be on the Hunter-Gatherer (Paleo) Diet to Decrease Morbidity?",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26405708/",
+   "source": "J Gastrointestin Liver Dis",
+   "year": 2015,
+   "type": "review"
+  },
+  {
+   "id": 16,
+   "title": "Our ancestors ate a Paleo diet and it had carbs",
+   "url": "https://news.ycombinator.com/item?id=33046695",
+   "source": "Hacker News",
+   "year": 2022,
+   "type": "forum"
+  },
+  {
+   "id": 17,
+   "title": "Confessions of a Paleo Diet Pioneer",
+   "url": "https://news.ycombinator.com/item?id=10947315",
+   "source": "Hacker News",
+   "year": 2016,
+   "type": "forum"
+  },
+  {
+   "id": 18,
+   "title": "Loren Cordain",
+   "url": "https://en.wikipedia.org/wiki/Loren_Cordain",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 19,
+   "title": "Mark Sisson",
+   "url": "https://en.wikipedia.org/wiki/Mark_Sisson",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 20,
+   "title": "Why the Paleo Diet Is Half-Baked (2013)",
+   "url": "https://news.ycombinator.com/item?id=8105471",
+   "source": "Hacker News",
+   "year": 2014,
+   "type": "forum"
+  },
+  {
+   "id": 21,
+   "title": "Archaeologists Officially Declare Collective Sigh Over Paleo Diet",
+   "url": "https://news.ycombinator.com/item?id=6774758",
+   "source": "Hacker News",
+   "year": 2013,
+   "type": "forum"
+  },
+  {
+   "id": 22,
+   "title": "Whole30",
+   "url": "https://en.wikipedia.org/wiki/Whole30",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 23,
+   "title": "Paleolithic nutrition for metabolic syndrome: systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26269362/",
+   "source": "American Journal of Clinical Nutrition",
+   "year": 2015,
+   "type": "review"
+  },
+  {
+   "id": 24,
+   "title": "Effects of a Paleolithic Diet on Cardiovascular Disease Risk Factors: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31041449/",
+   "source": "Advances in Nutrition",
+   "year": 2019,
+   "type": "review"
+  },
+  {
+   "id": 25,
+   "title": "Beneficial effects of a Paleolithic diet on cardiovascular risk factors in type 2 diabetes: a randomized cross-over pilot study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19604407/",
+   "source": "Cardiovascular Diabetology",
+   "year": 2009,
+   "type": "trial"
+  },
+  {
+   "id": 26,
+   "title": "A Paleolithic-type diet results in iodine deficiency: a 2-year randomized trial in postmenopausal obese women",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28901333/",
+   "source": "European Journal of Clinical Nutrition",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 27,
+   "title": "Influence of Paleolithic diet on anthropometric markers in chronic diseases: systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31337389/",
+   "source": "Nutrition Journal",
+   "year": 2019,
+   "type": "review"
+  },
+  {
+   "id": 28,
+   "title": "CrossFit",
+   "url": "https://en.wikipedia.org/wiki/CrossFit",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 29,
+   "title": "Zone diet",
+   "url": "https://en.wikipedia.org/wiki/Zone_diet",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 30,
+   "title": "T Nation forum: Dani's Rebel Log",
+   "url": "https://t-nation.com/t/danis-rebel-log/280747",
+   "source": "T Nation",
+   "year": 2023,
+   "type": "forum"
+  },
+  {
+   "id": 31,
+   "title": "T Nation forum: The Flame-Free Confession Thread II",
+   "url": "https://t-nation.com/t/the-flame-free-confession-thread-ii/248113",
+   "source": "T Nation",
+   "year": 2018,
+   "type": "forum"
+  },
+  {
+   "id": 32,
+   "title": "T Nation forum: Calvert and Milo Barbell",
+   "url": "https://t-nation.com/t/calvert-and-milo-barbell/283008",
+   "source": "T Nation",
+   "year": 2023,
+   "type": "forum"
+  },
+  {
+   "id": 33,
+   "title": "Paleo Diet Lawsuit Dismissed By Court in Blow to Free Expression",
+   "url": "https://news.ycombinator.com/item?id=4642952",
+   "source": "Hacker News",
+   "year": 2012,
+   "type": "forum"
+  },
+  {
+   "id": 34,
+   "title": "Show HN: Paleo diet for busy hackers",
+   "url": "https://news.ycombinator.com/item?id=8284597",
+   "source": "Hacker News",
+   "year": 2014,
+   "type": "forum"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Paleolithic_diet",
+   "title": "Paleolithic diet - Wikipedia"
+  },
+  {
+   "url": "https://www.scientificamerican.com/article/the-real-paleo-diet/",
+   "title": "The Real Paleo Diet - Scientific American"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Loren_Cordain",
+   "title": "Loren Cordain - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Mark_Sisson",
+   "title": "Mark Sisson - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Whole30",
+   "title": "Whole30 - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/CrossFit",
+   "title": "CrossFit - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Zone_diet",
+   "title": "Zone diet - Wikipedia"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26269362/",
+   "title": "Manheimer 2015 meta-analysis"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31041449/",
+   "title": "Ghaedi 2019 meta-analysis"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19604407/",
+   "title": "Jonsson 2009 crossover pilot"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28901333/",
+   "title": "Manousou 2018 iodine trial"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31337389/",
+   "title": "de Menezes 2019 meta-analysis"
+  }
+ ],
+ "card": {
+  "summary": "A whole-food, no-grain, no-dairy diet built on a contested picture of ancestral eating; short trials show some metabolic effects, long-term evidence is thin.",
+  "aka": "Caveman diet, Stone Age diet, Paleolithic diet",
+  "evidence": "limited",
+  "price": null,
+  "note": "Excludes dairy and grains; reviewers note possible calcium and vitamin D shortfalls.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "The paleo diet builds meals from meat, fish, eggs, vegetables, fruit and nuts and avoids grains, dairy, legumes and processed foods. It is popular in fitness and appearance communities as a whole-food approach to leanness and skin.\n\nTrials are small and short. Wikipedia describes the research quality as poor to moderate, and some anthropologists dispute the premise that it reflects how ancestral humans ate.",
+  "mechanism": "Proponents say it matches human biology as shaped before agriculture. Researchers note that weight loss on the diet has mainly been explained by lower calorie intake and reduced processed food.",
+  "risks": "Reported concerns include lower calcium and vitamin D intake, side effects such as headaches and diarrhoea in one trial, and the cardiovascular associations of high red meat intake."
+ }
 }

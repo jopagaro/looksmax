@@ -1,24 +1,232 @@
 {
-"name":"Excel V laser",
-"lead":["Excel V is a vascular and pigment laser made by Cutera. It combines a 532-nm green laser (KTP-type, frequency-doubled Nd:YAG) with a 1064-nm Nd:YAG, and is used in clinics for redness, visible blood vessels, port-wine stains and pigment such as lentigines.[1][2]",
-"Published studies are small. A prospective study in 5 adults used a short-pulse 532-nm Nd:YAG (Excel V) for port-wine stains[1], a randomised open-label study compared 532-nm KTP and 595-nm pulsed dye lasers for erythematous surgical scars[3], and registered Cutera studies include rosacea, lentigines on the hands and poikiloderma of Civatte.[4][5][6]"],
-"infobox":[["Type","Vascular and pigment laser platform"],["Wavelengths","532 nm and 1064 nm"],["Manufacturer","Cutera"],["Typical uses","Redness, vessels, port-wine stains, pigment"],["Setting","Professional / clinic"]],
-"sections":[
-{"h":"Uses","paras":["The 532-nm wavelength is absorbed by haemoglobin and melanin, and the 1064-nm wavelength penetrates deeper. Registered Cutera studies list port-wine stain, rosacea, lentigines, spider angioma, scarring and skin ageing.[1][2][4][5][7]"]},
-{"h":"Clinical studies","paras":["A prospective, controlled study of five adults reported on short-pulse 532-nm Nd:YAG for port-wine stains.[1] A randomised comparison of 532-nm KTP and 595-nm pulsed dye laser for erythematous surgical scars is a related study of the same wavelength family, not specific to Excel V.[3] Registered studies include a 24-participant poikiloderma study, a 15-participant rosacea study combining 532-nm KTP and 1064-nm laser, a 24-participant study on hand lentigines and a 22-participant spider angioma study.[4][5][6][7] Results are not summarised in the registry entries cited here."]}
-],
-"timeline":[],
-"lore":null,
-"refs":[
-{"id":1,"title":"Treatment of port-wine stains with a short pulse width 532-nm Nd:YAG laser","url":"https://pubmed.ncbi.nlm.nih.gov/23377330/","source":"Journal of Drugs in Dermatology","year":2013,"type":"study"},
-{"id":2,"title":"NCT04103164 Multiple Passes on Port Wine Stain Treatments With the Cutera Excel V Laser","url":"https://clinicaltrials.gov/study/NCT04103164","source":"ClinicalTrials.gov","year":2020,"type":"trial"},
-{"id":3,"title":"Comparison of 532 nm KTP Laser and 595 nm Pulsed Dye Laser in Erythematous Surgical Scars","url":"https://pubmed.ncbi.nlm.nih.gov/26673432/","source":"Dermatologic Surgery","year":2016,"type":"study"},
-{"id":4,"title":"NCT07250165 Combined 532-nm KTP and Microsecond 1064-nm Nd:YAG Laser for Rosacea","url":"https://clinicaltrials.gov/study/NCT07250165","source":"ClinicalTrials.gov","year":2024,"type":"trial"},
-{"id":5,"title":"NCT02763072 Study for Lentigines on the Hands","url":"https://clinicaltrials.gov/study/NCT02763072","source":"ClinicalTrials.gov","year":2016,"type":"trial"},
-{"id":6,"title":"NCT01491620 532 nm KTP Laser for Poikiloderma of Civatte","url":"https://clinicaltrials.gov/study/NCT01491620","source":"ClinicalTrials.gov","year":2011,"type":"trial"},
-{"id":7,"title":"NCT02755467 Clinical Evaluation of the Treatment of Spider Angioma","url":"https://clinicaltrials.gov/study/NCT02755467","source":"ClinicalTrials.gov","year":2016,"type":"trial"}
-],
-"webSources":[],
-"card":{"summary":"Cutera's 532 nm plus 1064 nm clinic laser for redness, vessels and pigment; supporting studies are small.","aka":"Cutera Excel V, Excel V+","evidence":"limited","status":null,"outcome":null,"risk":"moderate","price":null,"note":"Professional device; evidence is small studies.","structure":null},
-"quick":{"overview":"Excel V is a Cutera clinic laser with a green 532-nm and an infrared 1064-nm wavelength. It is used for redness, small vessels, port-wine stains and brown spots.\n\nStudies naming it are small, often a handful to a couple of dozen patients.","mechanism":"Green light is absorbed by blood and pigment; the 1064-nm light reaches deeper vessels. Heat closes small vessels or breaks up pigment.","risks":"Adverse effects are not summarised in the registry entries reviewed; vascular lasers in general may cause bruising or pigment change. Clinic-only."}
+  "name": "Excel V laser",
+  "lead": [
+    "Excel V is a vascular and pigment laser made by Cutera. It combines a 532-nm green laser (KTP-type, frequency-doubled Nd:YAG) with a 1064-nm Nd:YAG, and is used in clinics to reduce facial redness, visible blood vessels, port-wine stains and pigment such as sun spots (lentigines).[1][2]",
+    "People seek this kind of laser to even out skin colour: green light is absorbed by haemoglobin and melanin, so heat is delivered to small red vessels or brown spots while surrounding skin is largely spared. The result users and clinicians aim for is a clearer, more uniform complexion, with less visible flushing, thread veins and spots on the face, neck and hands.[5][6]",
+    "Clinic treatment with a vascular laser is usually a short series of sessions delivered by a clinician, and the published literature for lasers of this wavelength family covers redness, vessels, pigment and scars.[3][10]",
+    "Published studies naming the device are small. A prospective study in 5 adults used a short-pulse 532-nm Nd:YAG (Excel V) for port-wine stains[1], a randomised open-label study compared 532-nm KTP and 595-nm pulsed dye lasers for erythematous surgical scars[3], and registered Cutera studies include rosacea, lentigines on the hands, poikiloderma of Civatte and spider angioma.[4][5][6][7]"
+  ],
+  "infobox": [
+    [
+      "Type",
+      "Vascular and pigment laser platform"
+    ],
+    [
+      "Wavelengths",
+      "532 nm (KTP-type) and 1064 nm (Nd:YAG)"
+    ],
+    [
+      "Manufacturer",
+      "Cutera"
+    ],
+    [
+      "Typical uses",
+      "Redness, vessels, port-wine stains, pigment, scars"
+    ],
+    [
+      "Setting",
+      "Professional / clinic"
+    ],
+    [
+      "Attachments",
+      "Micro-lens array (MLA) studied for skin ageing and scars[8][9]"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Uses",
+      "paras": [
+        "The 532-nm wavelength is absorbed by haemoglobin and melanin, and the 1064-nm wavelength penetrates deeper. Registered Cutera studies list port-wine stain, rosacea, lentigines, spider angioma, scarring, wrinkles and skin ageing.[1][2][4][5][7][8][9]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "A prospective, controlled study of five adults reported on short-pulse 532-nm Nd:YAG (Excel V) for port-wine stains, positioned as an option for lesions where pulsed dye laser results vary.[1] A randomised, controlled, open-label comparison of 532-nm KTP and 595-nm pulsed dye laser for erythematous surgical scars is a related study of the same wavelength family, not specific to Excel V.[3]",
+        "Registered Cutera studies include: a 24-participant poikiloderma of Civatte study started in 2011;[6] a 24-participant two-arm study on hand lentigines started in 2016;[5] a 22-participant spider angioma study started in 2016;[7] a 17-person 1064-nm non-ablative rejuvenation study for pigment and photoageing;[11] a 20-participant study of Excel V with the Green Genesis and micro-lens array attachment for wrinkles, rosacea and scarring;[8] a 10-participant multicentre study of the micro-lens array for scarring and skin ageing;[9] a 10-participant pilot of multiple passes on port-wine stains (suspended);[2] and a 15-participant rosacea study combining 532-nm KTP and microsecond 1064-nm Nd:YAG started in 2024.[4] Results are not summarised in the registry entries cited here."
+      ]
+    },
+    {
+      "h": "Use for appearance",
+      "paras": [
+        "The visible problems this type of laser is aimed at include persistent redness and flushing, fine thread veins (telangiectasias) on the cheeks and nose, spider angiomas, brown sun spots on the face and hands, and the mottled red-brown colouring of poikiloderma of Civatte on the neck and chest.[4][5][6][7] Registered studies of the device include several of these exact complaints, as well as scars and skin ageing treated with a micro-lens array attachment.[8][9]",
+        "Facial telangiectasias in general are described as often treated with a laser, in which pulsed light heats the vessel so that it closes and is cleared away; Wikipedia adds that destruction of sweat glands is a noted side effect that rises with the number of treatments, and that sclerotherapy is another treatment approach for telangiectasias, mostly discussed for the legs.[12] Which device suits which lesion is a clinical decision that depends on vessel size, depth and skin type."
+      ]
+    },
+    {
+      "h": "How it works",
+      "paras": [
+        "Selective photothermolysis underlies vascular lasers: a wavelength absorbed by a target (here, oxyhaemoglobin in vessels, or melanin in pigmented spots) heats it while neighbouring tissue absorbs less. Wikipedia's port-wine stain article describes lasers and other light sources as able to destroy the capillaries behind the stain while sparing overlying skin.[10] The shorter pulse widths, large spot sizes and high fluences available on a frequency-doubled Nd:YAG platform were developed for cutaneous vascular lesions, according to the 2013 port-wine stain study.[1] The 1064-nm beam reaches deeper vessels and has also been studied for non-ablative skin rejuvenation in a 17-person single-centre study.[11]"
+      ]
+    },
+    {
+      "h": "Effectiveness",
+      "paras": [
+        "Registry entries listed here do not report results, so effect sizes cannot be given. For port-wine stains in general, Wikipedia reports that in pulsed dye laser trials most people had over 25 percent of the redness reduced after one to three treatments, that up to ten sessions may be needed, and that trial follow-up was only six months.[10] Whether Excel V's 532-nm mode matches or differs from pulsed dye laser outcomes for individual patients is addressed only in small studies such as the 5-adult trial.[1]"
+      ]
+    },
+    {
+      "h": "Safety and risks",
+      "paras": [
+        "Wikipedia reports that after pulsed dye laser treatment of port-wine stains, pain, crusting and blistering can occur in the following two weeks, and that skin colour changes were seen in some people, particularly those with darker skin.[10] Registry entries for Excel V do not list adverse-event outcomes. Treatment is delivered by clinicians in a professional setting."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2011",
+      "event": "A 532-nm KTP study of poikiloderma of Civatte begins.[6]"
+    },
+    {
+      "year": "2013",
+      "event": "Short pulse-width 532-nm Nd:YAG (Excel V) published for port-wine stains in 5 adults.[1]"
+    },
+    {
+      "year": "2016",
+      "event": "Randomised KTP versus pulsed dye laser scar study published; Cutera studies on hand lentigines and spider angioma begin.[3][5][7]"
+    },
+    {
+      "year": "2018",
+      "event": "Excel V with micro-lens array studied for scarring and skin ageing.[9]"
+    },
+    {
+      "year": "2024",
+      "event": "Combined 532-nm KTP and 1064-nm Nd:YAG rosacea study begins.[4]"
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Treatment of port-wine stains with a short pulse width 532-nm Nd:YAG laser",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23377330/",
+      "source": "Journal of Drugs in Dermatology",
+      "year": 2013,
+      "type": "study"
+    },
+    {
+      "id": 2,
+      "title": "NCT04103164 Multiple Passes on Port Wine Stain Treatments With the Cutera Excel V Laser",
+      "url": "https://clinicaltrials.gov/study/NCT04103164",
+      "source": "ClinicalTrials.gov",
+      "year": 2020,
+      "type": "trial"
+    },
+    {
+      "id": 3,
+      "title": "Comparison of 532 nm KTP Laser and 595 nm Pulsed Dye Laser in Erythematous Surgical Scars",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26673432/",
+      "source": "Dermatologic Surgery",
+      "year": 2016,
+      "type": "study"
+    },
+    {
+      "id": 4,
+      "title": "NCT07250165 Combined 532-nm KTP and Microsecond 1064-nm Nd:YAG Laser for Rosacea",
+      "url": "https://clinicaltrials.gov/study/NCT07250165",
+      "source": "ClinicalTrials.gov",
+      "year": 2024,
+      "type": "trial"
+    },
+    {
+      "id": 5,
+      "title": "NCT02763072 A Single-Center 2-Arm Study for Lentigines on the Hands",
+      "url": "https://clinicaltrials.gov/study/NCT02763072",
+      "source": "ClinicalTrials.gov",
+      "year": 2016,
+      "type": "trial"
+    },
+    {
+      "id": 6,
+      "title": "NCT01491620 Study of the 532 nm KTP Laser for the Treatment of Poikiloderma of Civatte",
+      "url": "https://clinicaltrials.gov/study/NCT01491620",
+      "source": "ClinicalTrials.gov",
+      "year": 2011,
+      "type": "trial"
+    },
+    {
+      "id": 7,
+      "title": "NCT02755467 Clinical Evaluation of the Treatment of Spider Angioma",
+      "url": "https://clinicaltrials.gov/study/NCT02755467",
+      "source": "ClinicalTrials.gov",
+      "year": 2016,
+      "type": "trial"
+    },
+    {
+      "id": 8,
+      "title": "NCT03424304 Evaluation of Cutera Excel V Laser With Green Genesis and Micro-Lens Array Attachment",
+      "url": "https://clinicaltrials.gov/study/NCT03424304",
+      "source": "ClinicalTrials.gov",
+      "year": 2017,
+      "type": "trial"
+    },
+    {
+      "id": 9,
+      "title": "NCT03424148 Open-label, Prospective, Multicenter Study to Evaluate the Cutera Excel V Laser and a Micro-Lens Array Attachment",
+      "url": "https://clinicaltrials.gov/study/NCT03424148",
+      "source": "ClinicalTrials.gov",
+      "year": 2018,
+      "type": "trial"
+    },
+    {
+      "id": 10,
+      "title": "Port-wine stain (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Port-wine_stain",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 11,
+      "title": "NCT03421691 A Single-Center Open-Label Study of 1064 nm for Nonablative Skin Rejuvenation",
+      "url": "https://clinicaltrials.gov/study/NCT03421691",
+      "source": "ClinicalTrials.gov",
+      "year": 2016,
+      "type": "trial"
+    },
+    {
+      "id": 12,
+      "title": "Telangiectasia",
+      "url": "https://en.wikipedia.org/wiki/Telangiectasia",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Port-wine_stain",
+      "title": "Port-wine stain (Wikipedia)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Telangiectasia",
+      "title": "Telangiectasia - Wikipedia"
+    }
+  ],
+  "card": {
+    "summary": "Cutera's 532 nm plus 1064 nm clinic laser for redness, vessels and pigment; supporting studies are small.",
+    "aka": "Cutera Excel V, Excel V+",
+    "evidence": "limited",
+    "status": null,
+    "outcome": null,
+    "risk": "moderate",
+    "price": null,
+    "note": "Professional device; evidence is small studies.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "Excel V is a Cutera clinic laser with a green 532-nm and an infrared 1064-nm wavelength. It is used for redness, small vessels, port-wine stains and brown spots.\n\nStudies naming it are small, often a handful to a couple of dozen patients.",
+    "mechanism": "Green light is absorbed by blood and pigment; the 1064-nm light reaches deeper vessels. Heat closes small vessels or breaks up pigment.",
+    "risks": "Adverse effects are not summarised in the registry entries reviewed; vascular lasers in general may cause bruising or pigment change. Clinic-only."
+  },
+  "angle": {
+    "goal": "Even skin tone (redness, vessels, spots)",
+    "chain": [
+      "Green 532-nm light absorbed by haemoglobin and melanin",
+      "Small red vessels and brown spots are heated and fade",
+      "Clearer, more uniform complexion"
+    ],
+    "effect": "direct",
+    "text": "Clinics use the Excel V to reduce visible facial redness, thread veins and sun spots. By targeting the colour in vessels and pigment, the laser aims to leave a more even complexion on the face, neck and hands."
+  }
 }

@@ -1,16 +1,454 @@
 {
-"name":"PRP for hair",
-"card":{"summary":"Scalp injections of a person's own platelet concentrate for hair loss; small trials report gains, but the research base is limited and protocols vary.","aka":"Platelet-rich plasma","evidence":"limited","status":"rx","outcome":null,"risk":"low","price":null,"note":"Off-label use; preparation devices need FDA clearance but PRP itself is not regulated as a drug.","structure":null},
-"quick":{"overview":"Platelet-rich plasma (PRP) is made by centrifuging a person's own blood to concentrate platelets, which release growth factors. For hair, it is injected into the scalp, usually in repeated sessions, as a treatment for androgenetic alopecia and sometimes alopecia areata.\n\nSmall randomized and pilot studies, plus registered trials, have examined it; Wikipedia notes its benefits remain disputed overall and that reported efficacy varies with factors such as number of sessions and preparation method.","mechanism":"Platelets are concentrated to about three to five times normal levels and are thought to release growth factors and cytokines that influence healing and possibly follicle activity.","risks":"Adverse effects are generally low in trials. In April 2024 the CDC reported HIV infections in three women who received PRP with microneedling at an unlicensed spa that reused equipment. Use for hair is off-label."},
-"lead":["Platelet-rich plasma (PRP) is a concentrate of plasma protein from a person's own blood, in which red blood cells are removed and platelets retained.[1] Platelets are thought to release growth factors and cytokines that aid healing, though Wikipedia says its benefits remain disputed.[1] For hair loss, PRP is injected into the scalp as an option for androgenetic alopecia and alopecia areata, sometimes discussed as an alternative or addition to minoxidil or finasteride.[1]","A double-blind, placebo-controlled pilot in women with female androgenetic alopecia compared PRP with saline injections, measuring hair count and hair mass index.[2] A prospective study reported that repeated PRP scalp injections improved patient-reported quality of life using the HAIRDEX 48 tool.[3] Wikipedia says PRP was first considered for androgenic alopecia and alopecia areata around 2006.[1]"],
-"infobox":[["Type","Autologous blood-derived injection"],["Used for","Androgenetic alopecia, alopecia areata (off-label)"],["Typical schedule per reviews","At least three sessions about a month apart, then maintenance"],["Regulatory status","PRP not regulated as a drug in the US; preparation devices need FDA clearance"]],
-"sections":[
-{"h":"Description","paras":["Blood is centrifuged to concentrate platelets, aiming for roughly three to five times normal levels.[1] Reported factors affecting efficacy include the number of sessions, single versus double centrifugation, age, sex and injection site.[1] A schedule described in reviews is at least three treatments about a month apart followed by a three to six month maintenance period.[1]"]},
-{"h":"Safety and regulation","paras":["Adverse effects are generally low in trials, with only weak evidence of harm.[1] In April 2024 the CDC reported HIV infections in three women who received PRP with microneedling at an unlicensed spa that reused contaminated single-use equipment.[1] The FDA does not regulate PRP itself, so clinical use is off-label, while devices that prepare it require clearance.[1]"]},
-{"h":"Clinical studies","paras":["A double-blind placebo-controlled pilot in women with female androgenetic alopecia compared PRP injections with saline, using hair count and hair mass index as endpoints.[2] A prospective study with injections monthly for three months, then quarterly for a year, reported improved quality of life on a validated hair-loss instrument.[3] Wikipedia reports a review finding improved hair density and thickness in both sexes.[1]","Many trials are registered, including an unknown-status study in androgenetic alopecia (n=50),[4] a completed early-phase study (n=30),[5] and studies of PRP combined with low-level laser,[6] compared with secretome,[7] and used as adjuvant in hair transplantation.[8] Their results were not available in the sources reviewed. A veterinary study of microneedling with or without PRP in dogs with post-clipping alopecia is not evidence for people."]}
-],
-"timeline":[{"year":"1954","event":"Kingsley first uses the term platelet-rich plasma.[1]"},{"year":"2006","event":"PRP begins to be considered for androgenic alopecia and alopecia areata.[1]"},{"year":"2024","event":"CDC reports HIV infections linked to an unlicensed PRP microneedling spa.[1]"}],
-"lore":null,
-"refs":[{"id":1,"title":"Platelet-rich plasma","url":"https://en.wikipedia.org/wiki/Platelet-rich_plasma","source":"Wikipedia","year":2026,"type":"encyclopedia"},{"id":2,"title":"Double-Blind, Placebo-Controlled Pilot Study on the Use of Platelet-Rich Plasma in Women With Female Androgenetic Alopecia","url":"https://pubmed.ncbi.nlm.nih.gov/27608205/","source":"Dermatologic Surgery","year":2016,"type":"study"},{"id":3,"title":"Platelet-Rich Plasma for Treatment of Hair Loss Improves Patient-Reported Quality of Life","url":"https://pubmed.ncbi.nlm.nih.gov/36637490/","source":"Aesthetic Plastic Surgery","year":2023,"type":"study"},{"id":4,"title":"Study to Assess Efficacy of PRP in Androgenetic Alopecia (NCT02393040)","url":"https://clinicaltrials.gov/study/NCT02393040","source":"ClinicalTrials.gov","year":2014,"type":"trial"},{"id":5,"title":"The Utility of Platelet Rich Plasma in Hair Loss (NCT03376581)","url":"https://clinicaltrials.gov/study/NCT03376581","source":"ClinicalTrials.gov","year":2017,"type":"trial"},{"id":6,"title":"Low-Level Laser Therapy on Hair Regrowth Post PRP (NCT07048626)","url":"https://clinicaltrials.gov/study/NCT07048626","source":"ClinicalTrials.gov","year":2025,"type":"trial"},{"id":7,"title":"Secretome vs. PRP Injections (NCT07429253)","url":"https://clinicaltrials.gov/study/NCT07429253","source":"ClinicalTrials.gov","year":2026,"type":"trial"},{"id":8,"title":"PRP and Nanofat as Adjuvant in Hair Transplantation (NCT07287579)","url":"https://clinicaltrials.gov/study/NCT07287579","source":"ClinicalTrials.gov","year":2026,"type":"trial"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Platelet-rich_plasma","title":"Platelet-rich plasma - Wikipedia"}]
+ "name": "PRP for hair",
+ "lead": [
+  "Platelet-rich plasma (PRP) is a concentrate of plasma from a person's own blood, in which red blood cells are removed and platelets retained.[1] For hair, it is injected into the scalp with the aim of thickening thinning hair and slowing hair loss; people use it as an option for androgenetic alopecia (pattern hair loss) and alopecia areata, alone or alongside minoxidil, finasteride or a hair transplant.[1][4][8] The chain proponents describe is platelet growth factors, then more active follicles and thicker shafts, then greater density and a fuller look.",
+  "Platelets are thought to release growth factors and cytokines that aid healing, though Wikipedia says the benefits remain disputed.[1] A 2023 systematic review and meta-analysis found 27 controlled trials with 1,117 participants (18 trials in androgenetic alopecia and 9 in alopecia areata), noting differences in PRP preparation, administration schedules and reporting that made pooling difficult.[9] A double-blind, placebo-controlled pilot in women with female androgenetic alopecia compared PRP with saline, and a prospective study reported better patient-reported quality of life after repeated sessions.[2][3]",
+  "Wikipedia says PRP was first considered for androgenic alopecia and alopecia areata around 2006, after decades of use in other fields.[1]",
+  "People use PRP for hair to thicken thinning areas of the scalp, either on its own or alongside medicines such as minoxidil and finasteride or hair transplant surgery. A physician writing for the International Society of Hair Restoration Surgery (ISHRS) describes it as a treatment that may reduce shedding or make hair look thicker, while noting that results are mixed and that benefits last only while treatments continue.[17]"
+ ],
+ "angle": {
+  "goal": "Hair density",
+  "chain": [
+   "Blood is drawn and spun to concentrate platelets",
+   "Platelet-rich plasma is injected into the scalp",
+   "Claimed: growth factors support follicles, giving thicker, denser-looking hair"
+  ],
+  "effect": "claimed",
+  "text": "People have PRP injected into thinning areas of the scalp over a course of sessions to try to increase hair count and thickness, and sometimes use it around hair transplants. Trials in androgenetic alopecia and alopecia areata report hair density and regrowth outcomes."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Autologous blood-derived injection"
+  ],
+  [
+   "Used for",
+   "Androgenetic alopecia, alopecia areata (off-label)"
+  ],
+  [
+   "Schedule described in reviews",
+   "At least three sessions about a month apart, then maintenance every three to six months [1]"
+  ],
+  [
+   "Term coined",
+   "Kingsley, 1954 [1]"
+  ],
+  [
+   "Scalp use considered",
+   "From about 2006 [1]"
+  ],
+  [
+   "Regulatory status",
+   "PRP not regulated as a drug in the US; preparation devices need FDA clearance [1]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Blood is centrifuged to concentrate platelets, aiming for roughly three to five times normal levels.[1] Reviews describe classification systems for PRP by platelet concentration, leukocyte content and activation, and note differences between single and double centrifugation.[10][11] Reported factors affecting efficacy include the number of sessions, single versus double centrifugation, age, sex and injection site.[1] A schedule described in reviews is at least three treatments about a month apart, followed by maintenance every three to six months.[1]"
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Wikipedia's history of PRP begins with growth-factor extracts in the 1940s and the term platelet-rich plasma in 1954 (Kingsley), followed by platelet transfusion use in hematology in the 1960s and 1970s, maxillofacial surgery in the 1980s, and a 1987 cardiac surgery use in Italy.[1] Media coverage in 2009 to 2011 focused on athletes using PRP for injuries; in January 2011 the World Anti-Doping Agency removed intramuscular PRP from its prohibited list, and in the 2010s PRP combined with microneedling spread as the so-called vampire facial, helped by celebrity endorsement.[1]",
+    "Scalp use grew from the mid-2000s, and reviews of dermatology applications list hair loss among the main uses.[1][11] Pilot studies such as the 2016 double-blind trial in women and later registered trials built a literature in which preparation methods vary widely.[2][9]"
+   ]
+  },
+  {
+   "h": "How it is thought to work and what a course looks like",
+   "paras": [
+    "PRP is made from a small sample of the patient's own blood, which is spun to concentrate the platelet layer and then injected into the scalp, often together with microneedling.[17] The ISHRS page says platelets contain growth factors such as FGF, VEGF and EGF that may lengthen the growth phase and thicken the shaft, while stating that the exact mechanism is unknown.[17] The same author gives a concentration target of roughly two to six times baseline platelet levels, notes that there is no consensus on the ideal level, and describes a common schedule of monthly sessions for three months followed by boosters about every six months, adding that treatments need to be repeated to remain effective.[17]",
+    "On timing, he reports that visible changes may appear within one to two months and continue for up to six months, and he estimates that at least 30 to 50 percent of patients see some benefit; he adds that some patients see none.[17] He describes the best candidates as people with thinning rather than complete baldness and more recent hair loss, and he places PRP after medicines such as minoxidil and finasteride rather than in place of them.[17] Session prices he cites range from about 400 dollars to 1,500 dollars or more.[17]"
+   ]
+  },
+  {
+   "h": "Where PRP sits among hair-loss treatments",
+   "paras": [
+    "Pattern hair loss affects roughly half of men and a quarter of women by age 50, according to Wikipedia, which lists finasteride, minoxidil and hair transplantation as established options and describes PRP as under preliminary research, calling for larger randomised trials.[19] Finasteride blocks conversion of testosterone to DHT and minoxidil widens small blood vessels; PRP is positioned as an add-on or alternative for people who want a regenerative approach using their own blood.[19][17]"
+   ]
+  },
+  {
+   "h": "Use in hair restoration",
+   "paras": [
+    "PRP is offered as a stand-alone scalp course and as an adjunct to hair transplantation. Registered studies include PRP as an intraoperative holding solution for grafts, PRP versus nanofat as a transplant adjuvant, fractional CO2 laser before follicular unit extraction with PRP for scarring alopecia,[27] and low-level laser after PRP.[6][8][14] Other registered work compares PRP with secretome injections, tests PRP and platelet-rich fibrin in female pattern hair loss, and studies PRP for hair loss after breast cancer therapy.[7][12][13]",
+    "On T Nation, hair loss on testosterone therapy comes up in several threads, and posters compare topical options with PRP.[15]"
+   ]
+  },
+  {
+   "h": "Preparation and variants",
+   "paras": [
+    "PRP kits differ in how they concentrate platelets. Wikipedia describes three broad categories by leukocyte and fibrin content: leukocyte-rich PRP, leukocyte-reduced PRP and leukocyte platelet-rich fibrin, and notes that activation with thrombin or calcium chloride is optional because natural thrombin activates platelets after injection.[1][10] Platelet alpha granules release growth factors including PDGF, TGF-beta, VEGF, EGF and HGF, which is the basis for the idea that PRP could influence follicles.[1] Reviews note that the product varies by patient and by clinic, which is one reason trials are hard to compare.[1][9]",
+    "Variants discussed in the literature and in registered trials include platelet-rich fibrin, PRP delivered with microneedling, PRP combined with low-level laser, and comparisons against secretome or nanofat preparations.[7][8][6][13] A 2025 split-face trial compared adipose stem-cell-derived exosomes with PRP for photoaged facial skin, reflecting the same product family being used for cosmetic skin work as well as hair.[24]"
+   ]
+  },
+  {
+   "h": "Other uses of PRP",
+   "paras": [
+    "Outside hair, PRP has been studied in musculoskeletal medicine and other fields. Meta-analyses have examined ultrasound-guided PRP injection for tendinopathy,[20] PRP for rotator cuff tendinopathy,[21] and PRP compared with corticosteroids and hyaluronic acid for knee osteoarthritis.[22] A 2024 Cochrane review examined PRP in assisted reproduction.[23] Wikipedia reports mixed findings across these areas and notes that PRP is marketed in aesthetic medicine for wrinkles, blemishes and hair loss.[1] The athlete-driven publicity of 2009 to 2011 and the later vampire facial trend helped make the name familiar to people searching for hair options.[1]"
+   ]
+  },
+  {
+   "h": "In online communities and media",
+   "paras": [
+    "PRP appears in hair-loss discussion mostly as one option beside medicines and transplants. On T Nation, posters debating hair loss on testosterone therapy discuss finasteride, topical options and whether hair can regrow after stopping therapy; one thread asks whether a low-systemic topical works better than treatments such as PRP.[15] Replies in that thread are anecdotal and centre on DHT, with disagreement about whether follicles regrow.[15]",
+    "Tech-oriented forums have also shared mainstream coverage, including a Harvard Health piece titled around whether the cure for hair loss lies in our blood and an earlier article asking whether PRP in androgenic alopecia is a myth or an effective tool.[25][26] Clinics promote it as a natural, own-blood option; the ISHRS author describes it as an adjunct to medicines and sets out the cost range per session.[17]"
+   ]
+  },
+  {
+   "h": "Safety and regulation",
+   "paras": [
+    "Adverse effects are generally low in trials, with weak evidence of harm at rates similar to untreated groups.[1] In April 2024 the CDC reported HIV infections in three women who received PRP-microneedling facials at an unlicensed spa in New Mexico that reused contaminated single-patient equipment; about 200 other former clients tested negative.[1] The FDA does not regulate PRP itself, so clinical use is off-label, while devices that prepare it require clearance.[1]",
+    "The ISHRS author describes PRP as very safe because it uses the patient's own blood, with temporary local pain and swelling the main reported effect, and advises avoiding NSAIDs and aspirin for up to 14 days afterwards; he says people with active skin conditions such as skin cancer or pre-cancer should not have it.[17] He states that PRP systems are FDA-cleared for orthopaedic uses and that hair growth is an off-label use, since no data for clearance for that indication has been submitted, and he notes a lack of standardisation in collection, preparation and administration.[17]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "The 2023 systematic review and meta-analysis searched MEDLINE, Embase and CENTRAL and used the GRADE system; comparators were saline injections (18 studies), local steroid injections (4) and others (5), with 11 split-head designs, and hair density and regrowth were the most common outcomes.[9] A double-blind placebo-controlled pilot in women with female androgenetic alopecia compared PRP with saline injections using hair count and hair mass index.[2] A prospective study with injections monthly for three months, then quarterly for a year, reported improved quality of life on a validated hair-loss instrument.[3] Wikipedia reports a review finding improved hair density and thickness in both sexes.[1]",
+    "A frequently cited 2015 randomised, evaluator-blinded, placebo-controlled half-head study from Italy enrolled 23 men aged 19 to 63 with Norwood-Hamilton stage IIa to IV pattern loss; 20 were analysed. One half of the scalp received PRP and the other saline, three treatments 30 days apart. At three months the treated half showed a mean rise of 33.6 hairs in the target area against a fall of 3.2 in the control half, and total hair density rose by 45.9 hairs per square centimetre against a fall of 3.8; no side effects were reported.[18] The authors wrote that more extensive controlled studies were needed, and the paper lists its small single-centre sample, half-head design, incomplete relapse follow-up and non-standardised PRP preparation as limits; four patients reported progressive loss at 16 months and were retreated.[18]",
+    "Registered trials include an unknown-status study in androgenetic alopecia (n=50), a completed early-phase study (n=30) and a completed study in 10 participants.[4][5][16] Results from many of these have not been published. A veterinary study of microneedling with or without PRP in dogs with post-clipping alopecia concerns animals rather than people.[28]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1954",
+   "event": "Kingsley first uses the term platelet-rich plasma.[1]"
+  },
+  {
+   "year": "1960s-1970s",
+   "event": "PRP used in hematology for platelet transfusion; popular in the 1970s.[1]"
+  },
+  {
+   "year": "1987",
+   "event": "PRP first used in an Italian open-heart surgery procedure.[1]"
+  },
+  {
+   "year": "2006",
+   "event": "PRP begins to be considered for androgenic alopecia and alopecia areata.[1]"
+  },
+  {
+   "year": "2009-2011",
+   "event": "Media coverage of athletes using PRP raises its public profile.[1]"
+  },
+  {
+   "year": "2011",
+   "event": "WADA removes intramuscular PRP from its prohibited list.[1]"
+  },
+  {
+   "year": "2015",
+   "event": "Italian randomised, evaluator-blinded half-head trial in 23 men reports higher hair density in PRP-treated half.[18]"
+  },
+  {
+   "year": "2016",
+   "event": "Double-blind, placebo-controlled pilot in women with female androgenetic alopecia published.[2]"
+  },
+  {
+   "year": "2023",
+   "event": "Systematic review and meta-analysis of 27 controlled trials in alopecia published.[9]"
+  },
+  {
+   "year": "2024",
+   "event": "CDC reports HIV infections linked to an unlicensed PRP microneedling spa.[1]"
+  }
+ ],
+ "lore": {
+  "intro": "In hair-loss communities PRP is usually mentioned as an add-on to finasteride, minoxidil or a transplant, and members trade impressions of whether it is worth a clinic's price; much of the talk is anecdotal.[15][25][26]",
+  "claims": [
+   {
+    "claim": "PRP thickens thinning hair by delivering growth factors to the follicles.",
+    "believers": "Clinic literature and patients describe growth factors such as FGF, VEGF and EGF lengthening the growth phase and thickening shafts, with visible change in one to two months.[17]",
+    "experts": "The ISHRS page says the mechanism is unknown; a 2015 half-head trial in 23 men reported higher density in the PRP half, and a 2023 meta-analysis of 27 controlled trials noted heterogeneous preparations and reporting.[17][18][9]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "PRP works for women as well as men.",
+    "believers": "Patients report fuller-looking hair and better quality of life after repeated sessions.[3]",
+    "experts": "A double-blind placebo-controlled pilot in women with female androgenetic alopecia compared PRP with saline, and a prospective study reported improved quality of life on a validated hair-loss instrument.[2][3]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "PRP can replace finasteride or minoxidil.",
+    "believers": "Some people want a regenerative option using their own blood rather than daily medicines.[1]",
+    "experts": "Wikipedia lists finasteride, minoxidil and transplantation as established options and describes PRP as under preliminary research; the ISHRS author places PRP after medicines.[19][17]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Results last once a course is finished.",
+    "believers": "Some patients expect a lasting thickening after an initial series.",
+    "experts": "The ISHRS author says treatments need repeating, with boosters about every six months; the 2015 trial reported four of 20 patients with progressive loss at 16 months.[17][18]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "PRP is very safe because it uses your own blood.",
+    "believers": "Clinics describe it as low risk with temporary scalp pain and swelling.[17]",
+    "experts": "Adverse effects are low in trials, but in April 2024 the CDC reported HIV infections linked to an unlicensed spa that reused equipment in PRP microneedling facials.[1]",
+    "evidence": "harms"
+   },
+   {
+    "claim": "PRP can reverse hair loss caused by testosterone therapy.",
+    "believers": "Forum members ask whether PRP outperforms topical DHT-lowering options for hair lost on therapy.[15]",
+    "experts": "No published trial in the listed research tests PRP in men on testosterone therapy; the thread itself shows disagreement on whether follicles regrow.[15]",
+    "evidence": "untested"
+   }
+  ]
+ },
+ "card": {
+  "summary": "Scalp injections of a person's own platelet concentrate for hair loss; small trials report gains, but the research base is limited and protocols vary.",
+  "aka": "Platelet-rich plasma",
+  "evidence": "limited",
+  "status": "rx",
+  "outcome": null,
+  "risk": "low",
+  "price": null,
+  "note": "Off-label use; preparation devices need FDA clearance but PRP itself is not regulated as a drug.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Platelet-rich plasma (PRP) is made by centrifuging a person's own blood to concentrate platelets, which release growth factors. For hair, it is injected into the scalp, usually in repeated sessions, as a treatment for androgenetic alopecia and sometimes alopecia areata.\nSmall randomized and pilot studies, plus registered trials, have examined it; Wikipedia notes its benefits remain disputed overall and that reported efficacy varies with factors such as number of sessions and preparation method.",
+  "mechanism": "Platelets are concentrated to about three to five times normal levels and are thought to release growth factors and cytokines that influence healing and possibly follicle activity.",
+  "risks": "Adverse effects are generally low in trials. In April 2024 the CDC reported HIV infections in three women who received PRP with microneedling at an unlicensed spa that reused equipment. Use for hair is off-label."
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Platelet-rich plasma",
+   "url": "https://en.wikipedia.org/wiki/Platelet-rich_plasma",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Double-Blind, Placebo-Controlled Pilot Study on the Use of Platelet-Rich Plasma in Women With Female Androgenetic Alopecia",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27608205/",
+   "source": "Dermatologic Surgery",
+   "year": 2016,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Platelet-Rich Plasma for Treatment of Hair Loss Improves Patient-Reported Quality of Life",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36637490/",
+   "source": "Aesthetic Plastic Surgery",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Study to Assess Efficacy of PRP in Androgenetic Alopecia (NCT02393040)",
+   "url": "https://clinicaltrials.gov/study/NCT02393040",
+   "source": "ClinicalTrials.gov",
+   "year": 2014,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "The Utility of Platelet Rich Plasma in Hair Loss (NCT03376581)",
+   "url": "https://clinicaltrials.gov/study/NCT03376581",
+   "source": "ClinicalTrials.gov",
+   "year": 2017,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Low-Level Laser Therapy on Hair Regrowth Post PRP (NCT07048626)",
+   "url": "https://clinicaltrials.gov/study/NCT07048626",
+   "source": "ClinicalTrials.gov",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Secretome vs. PRP Injections (NCT07429253)",
+   "url": "https://clinicaltrials.gov/study/NCT07429253",
+   "source": "ClinicalTrials.gov",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "PRP and Nanofat as Adjuvant in Hair Transplantation (NCT07287579)",
+   "url": "https://clinicaltrials.gov/study/NCT07287579",
+   "source": "ClinicalTrials.gov",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Platelet-rich plasma for the treatment of alopecia: a systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34967722/",
+   "source": "Blood Transfusion",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 10,
+   "title": "A Review of Platelet-Rich Plasma: History, Biology, Mechanism of Action, and Classification",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29457008/",
+   "source": "Skin Appendage Disord",
+   "year": 2018,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "Platelet-Rich Plasma (PRP): Current Applications in Dermatology",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31584784/",
+   "source": "Skin Therapy Letter",
+   "year": 2019,
+   "type": "review"
+  },
+  {
+   "id": 12,
+   "title": "A Study of PRP Treatment for Hair Loss After Cancer Therapy in Women With Breast Cancer (NCT04459650)",
+   "url": "https://clinicaltrials.gov/study/NCT04459650",
+   "source": "ClinicalTrials.gov",
+   "year": 2020,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "Platelet-rich Fibrin and Platelet Rich Plasma in Female Pattern Hair Loss (NCT06440655)",
+   "url": "https://clinicaltrials.gov/study/NCT06440655",
+   "source": "ClinicalTrials.gov",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "PRP as an Intraoperative Holding Solution in Hair Transplantation (NCT06849674)",
+   "url": "https://clinicaltrials.gov/study/NCT06849674",
+   "source": "ClinicalTrials.gov",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 15,
+   "title": "Getting Off TRT Due to Hair Loss (T Nation thread)",
+   "url": "https://t-nation.com/t/getting-off-trt-due-to-hair-loss/270562",
+   "source": "T Nation",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 16,
+   "title": "Effect of PRP on the Therapy for Hair Growth (NCT02087319)",
+   "url": "https://clinicaltrials.gov/study/NCT02087319",
+   "source": "ClinicalTrials.gov",
+   "year": 2014,
+   "type": "trial"
+  },
+  {
+   "id": 17,
+   "title": "Platelet-Rich Plasma for hair loss (ISHRS patient page, R. Haber)",
+   "url": "https://ishrs.org/patients/treatments-for-hair-loss/medications/platelet-rich-plasma/",
+   "source": "ISHRS",
+   "year": 2024,
+   "type": "guideline"
+  },
+  {
+   "id": 18,
+   "title": "The Effect of Platelet-Rich Plasma in Hair Regrowth: A Randomized Placebo-Controlled Trial",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4622412/",
+   "source": "Stem Cells Translational Medicine",
+   "year": 2015,
+   "type": "trial"
+  },
+  {
+   "id": 19,
+   "title": "Pattern hair loss",
+   "url": "https://en.wikipedia.org/wiki/Pattern_hair_loss",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 20,
+   "title": "Ultrasound-guided injection of platelet-rich plasma for tendinopathies: a systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36346880/",
+   "source": "Blood Transfusion",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 21,
+   "title": "Platelet-rich plasma for rotator cuff tendinopathy: A systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33970936/",
+   "source": "PLoS ONE",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 22,
+   "title": "Efficacy and safety of corticosteroids, hyaluronic acid, and PRP and combination therapy for knee osteoarthritis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38037038/",
+   "source": "BMC Musculoskeletal Disorders",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 23,
+   "title": "Autologous platelet-rich plasma for assisted reproduction",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38682756/",
+   "source": "Cochrane Database of Systematic Reviews",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 24,
+   "title": "Adipose Mesenchymal Stem Cell-Derived Exosomes Versus Platelet-Rich Plasma Treatment for Photoaged Facial Skin",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40414798/",
+   "source": "Journal of Cosmetic Dermatology",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 25,
+   "title": "Platelet-rich plasma: Does the cure for hair loss lie within our blood? (Hacker News submission)",
+   "url": "https://news.ycombinator.com/item?id=23147778",
+   "source": "Hacker News",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 26,
+   "title": "Platelet-Rich Plasma in Androgenic Alopecia: Myth or an Effective Tool (Hacker News submission)",
+   "url": "https://news.ycombinator.com/item?id=10352284",
+   "source": "Hacker News",
+   "year": 2015,
+   "type": "forum"
+  },
+  {
+   "id": 27,
+   "title": "Fractional CO2 Laser Before FUE Hair Transplantation With PRP for Secondary Cicatricial Alopecia (NCT07751523)",
+   "url": "https://clinicaltrials.gov/study/NCT07751523",
+   "source": "ClinicalTrials.gov",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 28,
+   "title": "A small scale study to evaluate the efficacy of microneedling in the presence or absence of PRP in post-clipping alopecia in dogs",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31797483/",
+   "source": "Veterinary Dermatology",
+   "year": 2020,
+   "type": "study"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://ishrs.org/patients/treatments-for-hair-loss/medications/platelet-rich-plasma/",
+   "title": "PRP for hair loss (ISHRS)"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4622412/",
+   "title": "PRP in hair regrowth: randomized placebo-controlled trial"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Pattern_hair_loss",
+   "title": "Pattern hair loss"
+  }
+ ]
 }

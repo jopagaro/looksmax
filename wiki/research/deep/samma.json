@@ -1,8 +1,9 @@
 {
  "name": "SAMMA",
  "lead": [
-  "SAMMA is a mandelic acid condensation polymer, a compound derived from mandelic acid, the alpha hydroxy acid used in skincare peels.[1] SAMMA itself was developed as a candidate vaginal microbicide, not a cosmetic, and is included here because of its link to mandelic acid chemistry.",
-  "Laboratory work reported that SAMMA blocks HIV and herpes simplex virus from binding to cells with little cytotoxicity, and it was licensed for development as a contraceptive microbicide.[2][3]"
+  "SAMMA is a mandelic acid condensation polymer, a compound built from repeating units of mandelic acid, the alpha hydroxy acid used in skincare peels.[1] SAMMA itself was developed as a candidate vaginal microbicide and contraceptive agent rather than a cosmetic, and it appears in skin-related discussion because of its link to mandelic acid chemistry.",
+  "Laboratory work reported that SAMMA blocks HIV and herpes simplex virus from binding to cells with little cytotoxicity, and it was licensed for development as a contraceptive microbicide.[2][3] People who look into mandelic acid for texture, pigmentation or acne-prone skin use the small-molecule acid in peels and serums; the polymer is a separate research compound with no published use on skin.[1]",
+  "Published SAMMA work consists of laboratory, animal and early preclinical studies from the 2000s, including an in vitro and rabbit-model assessment of its contraceptive, antimicrobial and safety properties.[5]"
  ],
  "angle": {
   "goal": "Skin",
@@ -21,37 +22,81 @@
   ],
   [
    "Developed as",
-   "Microbicide candidate"
+   "Microbicide and contraceptive candidate"
+  ],
+  [
+   "Parent acid",
+   "Mandelic acid (alpha hydroxy acid)"
   ],
   [
    "Study type",
-   "Laboratory and preclinical"
+   "Laboratory, cell and animal studies"
+  ],
+  [
+   "Key papers",
+   "2002, 2006, 2007"
   ]
  ],
  "sections": [
   {
+   "h": "Chemistry",
+   "paras": [
+    "SAMMA is a polymer formed by condensation of mandelic acid units. Mandelic acid (2-hydroxy-2-phenylacetic acid) is an aromatic alpha hydroxy acid first isolated in 1831 from bitter almond extract.[1] Unlike many antiviral polymers studied as microbicides, SAMMA is neither sulfonated nor sulfated, which the authors of the 2002 virology study noted as part of what made it structurally novel.[2]"
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "subs": [
+    {
+     "h": "Antimicrobial action",
+     "paras": [
+      "In primary human macrophages and peripheral blood mononuclear cells, SAMMA was reported to be highly active against both CCR5- and CXCR4-using HIV isolates. It also inhibited infection of cervical epithelial cells by herpes simplex virus, with little or no cytotoxicity and a high selectivity index.[2] It was reported to block viral attachment by targeting the envelope glycoproteins gp120 (HIV) and gB-2 (HSV), and to inhibit HSV entry after attachment.[2]",
+      "A 2007 study found that SAMMA suppressed HIV transmission by dendritic cells, prevented HIV internalisation when the virus was pre-incubated with the compound, and blocked glycoprotein-mediated cell-cell fusion, which the authors took to indicate several mechanisms of action.[4]"
+     ]
+    },
+    {
+     "h": "Effects on sperm",
+     "paras": [
+      "Because it was developed as a combined contraceptive and antimicrobial, SAMMA was also examined for effects on sperm. It was reported to inhibit hyaluronidase and acrosin, induce acrosomal loss in sperm and act as a contraceptive in a rabbit model.[5] A follow-up study described a dose-dependent premature acrosome loss that required extracellular calcium, pointing to disrupted calcium signalling.[3]"
+     ]
+    }
+   ]
+  },
+  {
    "h": "Research",
    "paras": [
-    "A 2002 study reported that SAMMA was highly effective against HIV isolates in primary human cells and inhibited herpes simplex infection by targeting viral envelope proteins.[2] A study of dendritic cell-mediated HIV transmission followed in 2007.[4] A separate study found that SAMMA induces premature acrosome loss in human sperm through calcium signalling, relevant to its contraceptive aim.[3]"
+    "A 2002 Journal of Virology paper described SAMMA as a candidate microbicide warranting further preclinical evaluation.[2] A companion Fertility and Sterility paper reported that it was not cytotoxic toward lactobacilli, host cells or spermatozoa, was not mutagenic, and had low acute oral toxicity in laboratory testing, and that it also acted on Chlamydia trachomatis and Neisseria gonorrhoeae to varying degrees.[5] The dendritic-cell study followed in 2007.[4] The sperm study describes SAMMA as licensed for development as a contraceptive microbicide.[3]"
    ]
   },
   {
    "h": "Related compound: mandelic acid",
    "paras": [
-    "Mandelic acid is an aromatic alpha hydroxy acid discovered in 1831 and used in superficial chemical peels considered suitable across skin types; a 2022 review lists 40% mandelic acid among agents that improve pigmentation and texture, while the American Academy of Dermatology says evidence is insufficient to recommend peels for acne.[1]"
+    "Mandelic acid is used in superficial chemical peels that are generally considered suitable across skin types. A 2022 review lists 40% mandelic acid among agents that improve pigmentation and texture, while the American Academy of Dermatology states that evidence is insufficient to recommend peels for acne.[1] People interested in the skin-related properties of the mandelic acid family are therefore looking at the monomer, not at SAMMA."
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found. Published SAMMA work is laboratory and preclinical."
+    "No studies found. Published SAMMA work is laboratory and preclinical, including cell culture, sperm assays and a rabbit contraceptive model.[2][3][4][5]"
    ]
   }
  ],
  "timeline": [
   {
+   "year": "1831",
+   "event": "Mandelic acid first isolated from bitter almond extract.[1]"
+  },
+  {
    "year": "2002",
-   "event": "SAMMA reported as a candidate HIV and HSV microbicide.[2]"
+   "event": "SAMMA reported as a candidate HIV and HSV microbicide and as a contraceptive antimicrobial in laboratory and rabbit studies.[2][5]"
+  },
+  {
+   "year": "2006",
+   "event": "Study describes SAMMA-induced premature acrosome loss via calcium signalling.[3]"
+  },
+  {
+   "year": "2007",
+   "event": "SAMMA reported to inhibit dendritic cell-mediated HIV transmission.[4]"
   }
  ],
  "lore": null,
@@ -86,6 +131,14 @@
    "url": "https://pubmed.ncbi.nlm.nih.gov/17825297/",
    "source": "FEBS Letters",
    "year": 2007,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Use of mandelic acid condensation polymer (SAMMA), a new antimicrobial contraceptive agent, for vaginal prophylaxis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12414002/",
+   "source": "Fertility and Sterility",
+   "year": 2002,
    "type": "study"
   }
  ],

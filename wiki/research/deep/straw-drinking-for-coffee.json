@@ -67,6 +67,25 @@
       "subs": []
     },
     {
+      "h": "Dental advice",
+      "paras": [
+        "Healthline's explainer says coffee stains teeth because its tannins, a type of polyphenol, help colour compounds stick to the surface, and that coffee's acidity means brushing straight after a cup can weaken enamel, so rinsing with water and waiting about 30 minutes is suggested.[5] It recommends a straw, especially for iced coffee, and quotes dentist David Pinsky as saying that a straw keeps coffee from touching the teeth.[5]",
+        "Its other prevention tips include limiting intake to about two cups a day, avoiding sugar and creamer, drinking in one sitting rather than sipping all day, rinsing after coffee, using whitening toothpaste with the ADA Seal, and keeping up regular professional cleanings.[5] These are presented as complementary habits; no source describes a straw as a substitute for cleaning."
+      ]
+    },
+    {
+      "h": "Practical considerations",
+      "paras": [
+        "Hot coffee through a straw can be uncomfortable and dentists' advice on straws is mostly given for iced drinks.[5] Wikipedia notes that metal straws can damage teeth, and straws come in plastic, paper, glass and silicone versions as plastic straws are restricted in some places.[3]"
+      ]
+    },
+    {
+      "h": "Use in looksmaxxing and fitness communities",
+      "paras": [
+        "The habit is mentioned in passing in men's fitness forums. In one 2022 T Nation thread a poster who drinks black coffee said he never drinks from a straw 'for similar reasons' to taste preference and masculinity, a light-hearted remark rather than a dental discussion.[6]"
+      ]
+    },
+    {
       "h": "Straws",
       "paras": [
         "Straws have a long history, from Sumerian beer-drinking tubes to Marvin Stone's 1888 paper straw and the plastic straws that spread after the Second World War [3]. Plastic straws have been restricted in a number of places, including a European Union directive effective July 2021 and a ban in England from October 2020 [3], which has increased interest in reusable alternatives."
@@ -87,7 +106,23 @@
       "event": "Marvin C. Stone patents a paper drinking straw.[3]"
     }
   ],
-  "lore": null,
+  "lore": {
+    "intro": "Straw use for coffee is discussed mainly in dental advice articles and only in passing on forums.[5][6]",
+    "claims": [
+      {
+        "claim": "Drinking coffee through a straw keeps it off the front teeth and slows staining.",
+        "believers": "Dentists quoted in consumer health articles recommend a straw, particularly for iced coffee, because it limits contact between the drink and the teeth.[5]",
+        "experts": "No published study has measured the effect of straw use on coffee staining; the advice rests on the mechanism of staining by tannins.[1][5]",
+        "evidence": "untested"
+      },
+      {
+        "claim": "A straw replaces brushing, rinsing or whitening.",
+        "believers": "Not claimed in the cited dental advice, which pairs straws with rinsing, delayed brushing and regular cleanings.[5]",
+        "experts": "Wikipedia notes extrinsic stain is typically removed with whitening toothpaste or professional scaling and polishing.[2]",
+        "evidence": "untested"
+      }
+    ]
+  },
   "refs": [
     {
       "id": 1,
@@ -120,6 +155,22 @@
       "source": "BMC Oral Health",
       "year": 2025,
       "type": "study"
+    },
+    {
+      "id": 5,
+      "title": "What does coffee do to your teeth?",
+      "url": "https://www.healthline.com/health/dental-and-oral-health/what-does-coffee-do-to-your-teeth",
+      "source": "Healthline",
+      "year": null,
+      "type": "news"
+    },
+    {
+      "id": 6,
+      "title": "Shane's Over 35 Shenanigans (T Nation thread)",
+      "url": "https://t-nation.com/t/shanes-over-35-shenanigans/279965",
+      "source": "T Nation",
+      "year": 2022,
+      "type": "forum"
     }
   ],
   "webSources": [
@@ -134,6 +185,10 @@
     {
       "url": "https://en.wikipedia.org/wiki/Drinking_straw",
       "title": "Drinking straw - Wikipedia"
+    },
+    {
+      "url": "https://www.healthline.com/health/dental-and-oral-health/what-does-coffee-do-to-your-teeth",
+      "title": "What does coffee do to your teeth? - Healthline"
     }
   ]
 }

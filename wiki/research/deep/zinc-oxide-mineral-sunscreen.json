@@ -3,7 +3,8 @@
   "lead": [
     "Zinc oxide mineral sunscreen uses zinc oxide, an inorganic (mineral) compound, as its active ultraviolet filter. Zinc oxide protects against both UVA and UVB light and, with titanium dioxide, is one of the two mineral filters used in sunscreens.[1]",
     "Wikipedia describes it as the broadest-spectrum UVA and UVB absorber approved by the US FDA for sunscreen and as photostable.[2] As of 2021 zinc oxide and titanium dioxide were the only sunscreen filters the FDA categorized as generally recognized as safe and effective (GRASE).[1]",
-    "Much published research concerns nanoparticulate zinc oxide, which is used to avoid the white appearance of conventional mineral products. Studies using skin-penetration assays and in vivo microscopy have examined whether the particles pass through human skin.[3][4]"
+    "Much published research concerns nanoparticulate zinc oxide, which is used to avoid the white appearance of conventional mineral products. Studies using skin-penetration assays and in vivo microscopy have examined whether the particles pass through human skin.[3][4]",
+    "For appearance, daily sunscreen is the step people use to limit sun-related skin ageing and uneven tone, and zinc oxide is the filter often chosen for it. A 2025 Delphi consensus of cosmetic dermatologists, with 62 dermatologists at 43 centres, listed mineral sunscreen among the topical ingredients they recommend for fine lines and wrinkles and for redness [7]."
   ],
   "infobox": [
     [
@@ -49,6 +50,25 @@
       ]
     },
     {
+      "h": "Regulatory guidance",
+      "paras": [
+        "The US FDA's consumer guidance lists zinc oxide and titanium dioxide among the active ingredients in sunscreens and explains that broad-spectrum products protect against both UVA and UVB, that SPF indicates mainly UVB (sunburn) protection, and that products that are not broad spectrum or have an SPF below 15 must carry a skin cancer and skin aging warning [11]."
+      ]
+    },
+    {
+      "h": "Tinted and sheer formulations",
+      "paras": [
+        "Because the white cast is the main aesthetic complaint, manufacturers have developed tinted and sheer mineral products. A 12-week open-label study of a sheer 100 percent mineral sunscreen moisturizer with SPF 50 enrolled 39 women aged 35 to 60 with moderate to severe facial photodamage across all Fitzpatrick skin types, measured with grading, photography, ultrasound imaging and corneometer readings at weeks 4, 8 and 12, and reported statistically significant progressive improvements, with mean improvements of about 23 to 27 percent in the measures reported at week 12 [8].",
+        "A 2026 study examined visible-light protection in tinted inorganic sunscreens, noting that visible light and long-wavelength UVA1 have been reported to cause erythema in light skin and to worsen pigmentary conditions such as melasma in darker skin [9]."
+      ]
+    },
+    {
+      "h": "Skin penetration studies",
+      "paras": [
+        "A 2007 study compared an organic filter and a mineral filter (titanium dioxide) in a broad-spectrum formulation using tape stripping in vivo and compartmental in vitro methods, to see whether they penetrate beyond the surface layers of the stratum corneum [10]. Together with the zinc oxide studies cited above, such work addresses the question of whether mineral particles reach living tissue."
+      ]
+    },
+    {
       "h": "Clinical studies",
       "paras": [
         "No clinical trials of zinc oxide sunscreen on appearance outcomes were found. Human skin-penetration studies exist: an in vitro study on excised human epidermis and in vivo multiphoton microscopy studies.[3][4]"
@@ -65,7 +85,69 @@
       "event": "FDA lists zinc oxide and titanium dioxide as the only GRASE sunscreen filters.[1]"
     }
   ],
-  "lore": null,
+  "lore": {
+    "intro": "Mineral sunscreen is discussed in grooming and skin-care forums as a gentler or more 'natural' alternative to chemical filters, with the white cast the recurring complaint.[12]",
+    "claims": [
+      {
+        "claim": "Mineral sunscreens are gentler on sensitive skin",
+        "believers": "Users who react to chemical filters say zinc oxide products are better tolerated.[12]",
+        "experts": "The consensus of cosmetic dermatologists lists mineral sunscreen among recommended ingredients for redness.[7]",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "Nanoparticle zinc oxide passes through skin into the body",
+        "believers": "Some consumers prefer non-nano labels because of this concern.",
+        "experts": "In vitro work found under 0.03 percent of applied zinc penetrated and multiphoton microscopy studies were used to examine penetration in humans.[3][4]",
+        "evidence": "not-supported"
+      },
+      {
+        "claim": "Mineral sunscreens leave an unwearable white cast",
+        "believers": "Users and sellers describe a visible white film, particularly on darker skin tones.[1][8]",
+        "experts": "Tinted and sheer formulations have been developed and tested in 12-week studies across skin types.[8]",
+        "evidence": "supported"
+      }
+    ]
+  },
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Sunscreen",
+      "title": "Sunscreen - Wikipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Zinc_oxide",
+      "title": "Zinc oxide - Wikipedia"
+    },
+    {
+      "url": "https://www.fda.gov/drugs/understanding-over-counter-medicines/sunscreen-how-help-protect-your-skin-sun",
+      "title": "Sunscreen: How to Help Protect Your Skin from the Sun - FDA"
+    }
+  ],
+  "card": {
+    "summary": "A photostable broad-spectrum mineral sunscreen filter, FDA-GRASE, whose main trade-off is white cast and nanoparticle debate.",
+    "aka": "Mineral sunscreen, physical sunscreen, ZnO",
+    "evidence": "strong",
+    "status": "otc",
+    "outcome": null,
+    "risk": null,
+    "price": null,
+    "note": "Nanoparticle penetration studies found minimal skin penetration; white cast is the usual complaint.",
+    "structure": "Zinc oxide"
+  },
+  "quick": {
+    "overview": "Zinc oxide is a mineral sunscreen filter that covers UVA and UVB. It is one of two filters the FDA considers generally recognized as safe and effective.\n\nIts appearance on the skin is the usual complaint, which is why nanoscale versions exist.",
+    "mechanism": "Particles on the skin absorb UV light and also reflect and scatter some of it.",
+    "risks": "Studies of nanoparticle zinc oxide on human skin found very low penetration. Laboratory work has examined zinc release under UV and combinations with organic filters."
+  },
+  "angle": {
+    "goal": "Skin / sun protection",
+    "chain": [
+      "Zinc oxide blocks UVA and UVB on the skin surface",
+      "Less UV-driven photoageing, burning and darkening of marks",
+      "Skin that keeps a more even, youthful look over time"
+    ],
+    "effect": "indirect",
+    "text": "People wear zinc oxide sunscreen to reduce sun damage that shows up as lines, uneven tone and hyperpigmentation. The look benefits come through prevention over months and years rather than an immediate change."
+  },
   "refs": [
     {
       "id": 1,
@@ -114,32 +196,54 @@
       "source": "Journal of Cosmetic Dermatology",
       "year": 2010,
       "type": "study"
-    }
-  ],
-  "webSources": [
-    {
-      "url": "https://en.wikipedia.org/wiki/Sunscreen",
-      "title": "Sunscreen - Wikipedia"
     },
     {
-      "url": "https://en.wikipedia.org/wiki/Zinc_oxide",
-      "title": "Zinc oxide - Wikipedia"
+      "title": "Skincare ingredients recommended by cosmetic dermatologists: A Delphi consensus study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40233838/",
+      "source": "Journal of the American Academy of Dermatology",
+      "year": 2025,
+      "type": "review",
+      "id": 7
+    },
+    {
+      "title": "Effects of a Sheer 100% Mineral Sunscreen Moisturizer on Facial Photodamage Across Fitzpatrick Skin Types",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38954629/",
+      "source": "Journal of Drugs in Dermatology",
+      "year": 2024,
+      "type": "trial",
+      "id": 8
+    },
+    {
+      "title": "Enhancing Photoprotection: Assessing Visible Light Photoprotection in Tinted Inorganic Sunscreens",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42310896/",
+      "source": "Photodermatology, Photoimmunology & Photomedicine",
+      "year": 2026,
+      "type": "study",
+      "id": 9
+    },
+    {
+      "title": "In vitro percutaneous absorption and in vivo stratum corneum distribution of an organic and a mineral sunscreen",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17035717/",
+      "source": "Skin Pharmacology and Physiology",
+      "year": 2007,
+      "type": "trial",
+      "id": 10
+    },
+    {
+      "title": "Sunscreen: How to Help Protect Your Skin from the Sun",
+      "url": "https://www.fda.gov/drugs/understanding-over-counter-medicines/sunscreen-how-help-protect-your-skin-sun",
+      "source": "US FDA",
+      "year": 2026,
+      "type": "guideline",
+      "id": 11
+    },
+    {
+      "title": "Suggestions for a Good Moisturizer?",
+      "url": "https://t-nation.com/t/suggestions-for-a-good-moisturizer/152581",
+      "source": "T Nation",
+      "year": 2010,
+      "type": "forum",
+      "id": 12
     }
-  ],
-  "card": {
-    "summary": "A photostable broad-spectrum mineral sunscreen filter, FDA-GRASE, whose main trade-off is white cast and nanoparticle debate.",
-    "aka": "Mineral sunscreen, physical sunscreen, ZnO",
-    "evidence": "strong",
-    "status": "otc",
-    "outcome": null,
-    "risk": null,
-    "price": null,
-    "note": "Nanoparticle penetration studies found minimal skin penetration; white cast is the usual complaint.",
-    "structure": "Zinc oxide"
-  },
-  "quick": {
-    "overview": "Zinc oxide is a mineral sunscreen filter that covers UVA and UVB. It is one of two filters the FDA considers generally recognized as safe and effective.\n\nIts appearance on the skin is the usual complaint, which is why nanoscale versions exist.",
-    "mechanism": "Particles on the skin absorb UV light and also reflect and scatter some of it.",
-    "risks": "Studies of nanoparticle zinc oxide on human skin found very low penetration. Laboratory work has examined zinc release under UV and combinations with organic filters."
-  }
+  ]
 }

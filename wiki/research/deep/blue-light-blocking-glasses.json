@@ -1,69 +1,359 @@
 {
-  "name": "Blue light blocking glasses",
-  "card": {
-    "summary": "Amber or tinted glasses worn in the evening to reduce blue light and protect melatonin; small trials exist, reviews of eye-health claims are mixed.",
-    "aka": "Amber glasses, blue blockers",
-    "evidence": "limited",
-    "outcome": "temporary",
-    "price": null,
-    "note": "Reviews cited by Grokipedia report limited evidence for eye strain and sleep benefits in general populations.",
-    "structure": null
+ "name": "Blue light blocking glasses",
+ "card": {
+  "summary": "Amber or tinted glasses worn in the evening to reduce blue light and protect melatonin; small trials exist, reviews of eye-health claims are mixed.",
+  "aka": "Amber glasses, blue blockers",
+  "evidence": "limited",
+  "outcome": "temporary",
+  "price": null,
+  "note": "Reviews cited by Grokipedia report limited evidence for eye strain and sleep benefits in general populations.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Blue light blocking glasses filter part of the blue spectrum (about 400 to 500 nm) emitted by screens and LEDs. In sleep circles, amber-tinted versions are worn in the evening on the idea that blue light suppresses melatonin and delays sleep.\n\nSmall trials have tested evening use in teenagers, healthy adults and people with delayed sleep phase disorder. Broader reviews of eye strain and sleep claims are described as mixed.",
+  "mechanism": "Lenses use dye-based tints, commonly amber or yellow, or thin-film interference coatings to absorb or reflect part of the blue wavelengths. The circadian system is most sensitive to blue light, which is the basis for the evening-use rationale.",
+  "risks": "No notable harms are reported for ordinary use. A 2007 paper discussed safety considerations for wearing them in shift workers, who need to stay alert."
+ },
+ "lead": [
+  "Blue light blocking glasses are eyewear designed to filter part of the blue spectrum, typically 400 to 500 nm, from screens, LED lighting and sunlight. Lenses use amber or yellow dye-based tints or interference coatings, and are available with or without prescription.[1]",
+  "People in sleep-optimisation and self-improvement circles wear them in the evening so that screens and indoor lighting disturb sleep less. The appearance chain runs through sleep: proponents say that blue light suppresses melatonin and delays the body clock, so filtering it after dark supports sleep, and better sleep is associated with a more rested look, steadier training recovery and better daytime energy. Small trials have tested the sleep part of this idea, including studies in teenagers,[2] people with delayed sleep phase disorder[3] and healthy adults.[4]",
+  "Broader assessments differ. Grokipedia reports that Cochrane reviews found no clear benefit from blue-light-filtering lenses for eye strain or sleep in general use,[1] and the American Academy of Ophthalmology says it does not recommend special blue-light-blocking eyewear for computer use, while advising people to limit evening screen time.[11]"
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Tinted or coated eyewear"
+  ],
+  [
+   "Filtered range",
+   "About 400 to 500 nm [1]"
+  ],
+  [
+   "Lens types",
+   "Dye-based tints (amber, yellow) and interference coatings [1]"
+  ],
+  [
+   "Popularity",
+   "Rose in the 2010s and during the COVID-19 pandemic [1]"
+  ],
+  [
+   "Main claimed benefit",
+   "Less evening melatonin suppression and eye comfort [2][11]"
+  ],
+  [
+   "Regulatory note",
+   "AAO does not recommend special eyewear for computer use [11]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Design and types",
+   "paras": [
+    "Lenses are commonly polycarbonate or Trivex. Dye-based tints in amber or yellow absorb part of the blue range, while interference filters use thin-film coatings to reflect specific wavelengths.[1] Clear lenses that block a small fraction of blue light are marketed for daytime screen use, while darker amber or orange lenses filter more and are marketed for evening wear.[1] Many studies of sleep use amber lenses, while clear lenses are used as the control.[3][4]"
+   ]
   },
-  "quick": {
-    "overview": "Blue light blocking glasses filter part of the blue spectrum (about 400 to 500 nm) emitted by screens and LEDs. In sleep circles, amber-tinted versions are worn in the evening on the idea that blue light suppresses melatonin and delays sleep.\n\nSmall trials have tested evening use in teenagers, healthy adults and people with delayed sleep phase disorder. Broader reviews of eye strain and sleep claims are described as mixed.",
-    "mechanism": "Lenses use dye-based tints, commonly amber or yellow, or thin-film interference coatings to absorb or reflect part of the blue wavelengths. The circadian system is most sensitive to blue light, which is the basis for the evening-use rationale.",
-    "risks": "No notable harms are reported for ordinary use. A 2007 paper discussed safety considerations for wearing them in shift workers, who need to stay alert."
+  {
+   "h": "Background: how the eye's clock responds to blue light",
+   "paras": [
+    "Until the early 2000s, rods and cones were thought to be the only light-sensing cells in the retina. Research on mice lacking them showed they still entrained to the day-night cycle and regulated melatonin; Provencio and colleagues identified the photopigment melanopsin in 2000, and in 2002 Hattar, Berson and colleagues showed that melanopsin-containing retinal ganglion cells respond to light on their own and project to the brain's circadian pacemaker, the suprachiasmatic nucleus.[17] Melanopsin absorbs most strongly at about 480 nanometres, in the blue part of the spectrum, and a 2003 study by Lockley and colleagues found that 460 nm light suppressed melatonin about twice as strongly as 555 nm light.[17]",
+    "This is the physiological basis for the idea behind evening blue-blockers: LED screens and indoor lighting emit in the blue range, and lenses that absorb it are intended to reduce the signal reaching these cells after dark. Whether wearing them produces meaningful changes in real-world sleep is the question the trials above address, with mixed results.[2][3][15][17]"
+   ]
   },
-  "lead": [
-    "Blue light blocking glasses are eyewear designed to filter part of the blue spectrum, typically 400 to 500 nm, from screens, LED lighting and sunlight. Lenses use amber or yellow dye-based tints or interference coatings, and are available with or without prescription [1].",
-    "Proponents of evening use, including users interested in sleep optimisation, say that blue light suppresses melatonin and delays the body clock, so filtering it after dark protects sleep. Small trials have tested this, including studies in teenagers [2], people with delayed sleep phase disorder [3] and healthy adults [4].",
-    "Broader assessments differ. Grokipedia reports that Cochrane reviews and the American Academy of Ophthalmology found no clear benefit for eye strain or sleep from blue-light-filtering lenses in general use [1]."
+  {
+   "h": "How it works",
+   "paras": [
+    "Blue wavelengths are the part of visible light that most potently regulates the circadian clock, acting through light-sensitive cells in the retina that signal to the brain's clock and to melatonin production.[3] Evening light rich in blue, such as from LED screens, has been shown to suppress melatonin and shift the clock later, while amber lenses attenuate that effect in laboratory studies.[2][12] Proponents say that blocking blue light therefore mimics the dim, warm light of a pre-electric evening."
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Grokipedia traces the modern products to the early 2000s and cites the founding of Gunnar Optiks in 2007, with popularity surging in the 2010s and during the COVID-19 pandemic, and Warby Parker introducing blue-light-filtering lenses in 2018.[1] This account comes from an AI-generated source. The scientific idea predates the products: a 2007 paper discussed using blue-blocking glasses in shift workers who must be awake at night.[10]"
+   ]
+  },
+  {
+   "h": "Use in appearance and self-improvement communities",
+   "paras": [
+    "On T Nation, posters recommend controlling the light environment in the evening as one part of a sleep routine, avoiding bright light after sundown and combining it with sleep schedule and caffeine habits.[13][14] This is part of a wider pattern in which people treat sleep as a driver of looks and recovery: they seek better skin, a less tired face and better training adaptation by improving sleep, and they treat glasses as one inexpensive accessory in that routine.[13]",
+    "The appearance rationale is stated as a chain: evening light discipline, steadier sleep, a less tired-looking face and better recovery from training. People discuss amber glasses alongside dim evening lighting, consistent bedtimes and morning daylight, and often describe them as an inexpensive, low-effort addition to a routine. Reported experiences in these threads vary from noticeably easier sleep onset to no perceived change.[13][14] No published study has measured skin, under-eye appearance or other looks outcomes with the glasses.",
+    "Wearers also point out that amber lenses change how colors look, so some take them off for tasks needing color accuracy such as makeup application or photography, a practical point consistent with the colour-perception note in the safety literature.[10]"
+   ]
+  },
+  {
+   "h": "Effectiveness and expert views",
+   "paras": [
+    "The American Academy of Ophthalmology says there is no scientific evidence that blue light from digital devices damages the eyes, attributes screen discomfort to digital eye strain, and states that studies have not found blue-blocking glasses improve eye strain symptoms; it suggests breaks using the 20-20-20 rule and limiting screens in the two to three hours before bed.[11] Grokipedia summarises the Cochrane evidence similarly.[1]",
+    "A 2023 Cochrane review by Singh and colleagues pooled 17 randomised trials with 619 adults. It concluded that blue-light-filtering lenses may not reduce short-term eye strain from computer use (low certainty), that sleep results were inconsistent (three of six studies reported better sleep scores, three no difference; very low certainty), and that no included trial measured macular health. Best-corrected visual acuity was probably unchanged, and adverse effects were infrequent, mild and temporary.[18] The authors called for higher-quality trials.[18]",
+    "Sleep researchers describe the trial evidence for evening glasses as small and variable. A 2025 meta-analysis of three double-blind crossover trials with 49 adults found non-significant changes in actigraphic sleep onset latency and total sleep time, and the authors noted inconsistent evidence due to small samples and varied protocols.[15]"
+   ]
+  },
+  {
+   "h": "Safety and risks",
+   "paras": [
+    "Trials of blue-blocking lenses have not reported serious adverse effects. Amber and orange tints change color perception, which matters for tasks requiring accurate color judgment, and a 2007 paper discussed safety considerations for shift workers who wear them while needing alertness at night.[10] In the 2015 teenager study, glasses reduced vigilant attention and subjective alertness before bedtime, which the authors interpreted as sleep-favouring.[2]"
+   ]
+  },
+  {
+   "h": "Buying considerations",
+   "paras": [
+    "Products range from clear, lightly tinted lenses sold for daytime screen use to darker amber or orange lenses sold for evening use, with or without prescription.[1] Trials of sleep outcomes have used amber lenses worn from the evening until bedtime, commonly starting between 90 minutes and a few hours before it.[3][4][9]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A 2015 crossover study of thirteen male teenagers aged 15 to 17 compared blue-blocking and clear lenses worn for a week of evening screen use. Blue-blocking lenses significantly attenuated LED-induced melatonin suppression and decreased vigilant attention and subjective alertness before bedtime.[2]",
+    "A 2016 four-week open-label trial in nine patients with delayed sleep phase disorder had them wear amber glasses from 21:00 until bedtime. Dim-light melatonin onset advanced by 78 minutes, which was not statistically significant, while actigraphic sleep onset advanced by 132 minutes (p = 0.034); the authors called for larger controlled studies.[3] A 2021 randomized crossover trial in twenty healthy adults reported that blue-blocking glasses reduced subjective sleep onset time and awakenings compared with clear glasses, while objective actigraphy measures were not significantly affected.[4] A 2021 study of eleven healthy young men found a lower ratio of deep sleep after one hour of blue light before bed, but not when blue-blocking glasses were worn during the exposure.[5]",
+    "A 2020 field study reported that reducing evening blue light advanced melatonin and sleep onset on workdays, though social jetlag did not change significantly.[6] A 2020 trial in thirty insomnia patients added blue-filtering or placebo glasses to cognitive behavioral therapy and reported a greater reduction in anxiety scores and a longer subjective total sleep time in the active group.[7] A 2014 case report described a hospitalised patient in a manic state whose sleep regularity and symptoms improved with blue-blocking orange-tinted glasses,[8] and a 2022 systematic review covered sleep and circadian interventions in bipolar disorder.[9] A 2025 randomized trial in Japanese schoolboys reported that partial blue-light-blocking glasses at night advanced sleep phase and improved morning mood, without changing salivary melatonin,[16] and a Tohoku study in healthy adults reported attenuated light-induced melatonin suppression with the glasses.[12]",
+    "No studies were found testing the glasses for appearance outcomes."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2000",
+   "event": "Melanopsin identified in the retina, later linked to circadian light responses.[17]"
+  },
+  {
+   "year": "2002",
+   "event": "Melanopsin-containing retinal ganglion cells shown to respond to light directly.[17]"
+  },
+  {
+   "year": "2007",
+   "event": "Safety considerations for blue-blocking glasses in shift workers discussed; Gunnar Optiks co-founded, per Grokipedia.[1][10]"
+  },
+  {
+   "year": "2007",
+   "event": "Paper on blue-blocking glasses for night shift workers.[10]"
+  },
+  {
+   "year": "2015",
+   "event": "Teenager study shows blue-blockers attenuate evening LED melatonin suppression.[2]"
+  },
+  {
+   "year": "2016",
+   "event": "Open-label trial of amber glasses in delayed sleep phase disorder.[3]"
+  },
+  {
+   "year": "2018",
+   "event": "Warby Parker introduces blue-light-filtering lenses, per Grokipedia.[1]"
+  },
+  {
+   "year": "2020",
+   "event": "Sales rise during the COVID-19 pandemic, per Grokipedia.[1]"
+  },
+  {
+   "year": "2023",
+   "event": "Cochrane review of 17 randomised trials (619 adults) finds low- to very-low-certainty evidence on eye strain and sleep. [18]"
+  },
+  {
+   "year": "2025",
+   "event": "Meta-analysis of three crossover trials finds non-significant actigraphic changes.[15]"
+  }
+ ],
+ "lore": {
+  "intro": "In sleep and fitness forums, blue-blocking glasses appear in lists of sleep-hygiene tools alongside light discipline, caffeine limits and bedroom conditions.[13][14]",
+  "claims": [
+   {
+    "claim": "Evening blue light ruins sleep, and amber lenses fix it",
+    "believers": "Posters say the body runs on a circadian rhythm and that people should control their light environment after sundown, which includes avoiding bright light.[13]",
+    "experts": "Laboratory and small field studies show blue-blockers attenuate evening melatonin suppression and sometimes advance sleep timing, while a meta-analysis of three trials found non-significant actigraphic changes.[2][3][15]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Blue-blocking glasses protect eyes from screens",
+    "believers": "Marketing and some users say the lenses reduce eye strain and protect the retina from screen light.[1]",
+    "experts": "The American Academy of Ophthalmology says there is no scientific evidence that screen blue light damages the eyes and does not recommend special eyewear for computer use.[11]",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "Better sleep from amber glasses shows in your face and training",
+    "believers": "Posters treat sleep as a driver of skin, recovery and energy and see glasses as one cheap part of the routine.[13][14]",
+    "experts": "Trials examine sleep timing and melatonin, not appearance; a 2023 Cochrane review rated sleep evidence very low certainty and inconsistent.[15][18]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Screen blue light damages the retina",
+    "believers": "Marketing and some users say filtering lenses protect long-term eye health.[1]",
+    "experts": "The AAO says there is no scientific evidence that blue light from digital devices damages the eyes; the Cochrane review found no trial measuring macular health.[11][18]",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "Amber lenses help delayed sleep timing",
+    "believers": "Users with late body clocks report falling asleep earlier when wearing them in the evening.[13]",
+    "experts": "An open-label trial in nine patients with delayed sleep phase disorder reported actigraphic sleep onset advancing by 132 minutes; larger controlled studies were called for.[3]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Blue light blocking glasses (Grokipedia)",
+   "url": "https://grokipedia.com/page/Blue_light_blocking_glasses",
+   "source": "Grokipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Blue blocker glasses as a countermeasure for alerting effects of evening light-emitting diode screen exposure in male teenagers.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25287985/",
+   "source": "Journal of Adolescent Health",
+   "year": 2015,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Wearing blue light-blocking glasses in the evening advances circadian rhythms in the patients with delayed sleep phase disorder: An open-label trial.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27322730/",
+   "source": "Chronobiology International",
+   "year": 2016,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "Effect of evening blue light blocking glasses on subjective and objective sleep in healthy adults: A randomized control trial.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33707105/",
+   "source": "Sleep Health",
+   "year": 2021,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "Effects of pre-bedtime blue-light exposure on ratio of deep sleep in healthy young men.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34217920/",
+   "source": "Sleep Medicine",
+   "year": 2021,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Strategies to decrease social jetlag: Reducing evening blue light advances sleep and melatonin.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30506899/",
+   "source": "European Journal of Neuroscience",
+   "year": 2020,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Block the light and sleep well: Evening blue light filtration as a part of cognitive behavioral therapy for insomnia.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31752544/",
+   "source": "Chronobiology International",
+   "year": 2020,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Blocking blue light during mania - markedly increased regularity of sleep and rapid improvement of symptoms: a case report.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25264124/",
+   "source": "Bipolar Disorders",
+   "year": 2014,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "Psychological and behavioural interventions in bipolar disorder that target sleep and circadian rhythms: A systematic review of randomised controlled trials.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34871635/",
+   "source": "Neuroscience and Biobehavioral Reviews",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 10,
+   "title": "Safety considerations for the use of blue-light blocking glasses in shift-workers.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17286754/",
+   "source": "Journal of Pineal Research",
+   "year": 2007,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "Should you be worried about blue light? (American Academy of Ophthalmology)",
+   "url": "https://www.aao.org/eye-health/tips-prevention/should-you-be-worried-about-blue-light",
+   "source": "American Academy of Ophthalmology",
+   "year": 2024,
+   "type": "guideline"
+  },
+  {
+   "id": 12,
+   "title": "Blue Light-Blocking Glasses Attenuate Light-Induced Melatonin Suppression in Healthy Japanese Adults",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40603104/",
+   "source": "Tohoku J Exp Med",
+   "year": 2026,
+   "type": "study"
+  },
+  {
+   "id": 13,
+   "title": "T Nation: Supplements/Herbs For Staying Asleep?",
+   "url": "https://t-nation.com/t/supplements-herbs-for-staying-asleep/261980",
+   "source": "T Nation",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 14,
+   "title": "T Nation: Improving Quality and Duration of Sleep",
+   "url": "https://t-nation.com/t/improving-quality-and-duration-of-sleep/214065",
+   "source": "T Nation",
+   "year": 2016,
+   "type": "forum"
+  },
+  {
+   "id": 15,
+   "title": "Efficacy of blue-light blocking glasses on actigraphic sleep outcomes: a systematic review and meta-analysis of randomized controlled crossover trials",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41341515/",
+   "source": "Frontiers in Neurology",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 16,
+   "title": "Partial blue light blocking glasses at night advanced sleep phase and reduced daytime irritability in Japanese male schoolchildren",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41166315/",
+   "source": "PLoS One",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 17,
+   "title": "Intrinsically photosensitive retinal ganglion cell",
+   "url": "https://en.wikipedia.org/wiki/Intrinsically_photosensitive_retinal_ganglion_cell",
+   "source": "Wikipedia",
+   "year": 2024,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 18,
+   "title": "Blue-light filtering spectacle lenses for visual performance, sleep, and macular health in adults (Cochrane Review)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10436683/",
+   "source": "Cochrane Database of Systematic Reviews",
+   "year": 2023,
+   "type": "review"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://www.aao.org/eye-health/tips-prevention/should-you-be-worried-about-blue-light",
+   "title": "Should you be worried about blue light? (AAO)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Intrinsically_photosensitive_retinal_ganglion_cell",
+   "title": "Intrinsically photosensitive retinal ganglion cell - Wikipedia"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10436683/",
+   "title": "Cochrane review, Singh et al. 2023 (PMC)"
+  }
+ ],
+ "angle": {
+  "goal": "Sleep and recovery",
+  "chain": [
+   "Filter blue wavelengths from screens and LEDs in the evening",
+   "Less melatonin suppression and later body-clock shift",
+   "Easier sleep onset and better rested mornings, supporting recovery and a rested look"
   ],
-  "infobox": [
-    ["Type", "Tinted or coated eyewear"],
-    ["Filtered range", "About 400 to 500 nm [1]"],
-    ["Lens types", "Dye-based tints (amber, yellow) and interference coatings [1]"],
-    ["Popularity", "Rose in the 2010s and during the COVID-19 pandemic [1]"]
-  ],
-  "sections": [
-    {
-      "h": "Design and types",
-      "paras": [
-        "Lenses are commonly polycarbonate or Trivex. Dye-based tints in amber or yellow absorb part of the blue range, while interference filters use thin-film coatings to reflect specific wavelengths [1]. Clear lenses that block a small fraction of blue light are marketed for screen use, while darker amber lenses filter more and are marketed for evening wear [1]."
-      ]
-    },
-    {
-      "h": "History",
-      "paras": [
-        "Grokipedia traces the modern products to the early 2000s and cites the founding of Gunnar Optiks in 2007, with popularity surging in the 2010s and during the COVID-19 pandemic [1]. This account comes from an AI-generated source and has not been independently verified here."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "A 2015 study investigated whether blue-light-blocking glasses worn in the evening counter the alerting effects of LED screen exposure in male teenagers [2]. A 2016 four-week open-label trial in patients with delayed sleep phase disorder had them wear amber glasses from 21:00 until bedtime and reported advanced circadian rhythms [3]. A 2021 randomised controlled trial examined evening blue light blocking glasses on subjective and objective sleep in healthy adults [4], and a 2021 study examined pre-bedtime blue-light exposure and the ratio of deep sleep in healthy young men [5].",
-        "A 2020 paper reported that reducing evening blue light advanced sleep and melatonin as a strategy against social jetlag [6], and another 2020 paper examined evening blue light filtration as part of cognitive behavioral therapy for insomnia [7]. A 2014 case report described a hospitalised patient in a manic state whose sleep regularity and symptoms improved with blue-blocking orange-tinted glasses [8], and a 2022 systematic review covered sleep and circadian interventions in bipolar disorder [9]. A 2007 paper discussed safety considerations for use in shift workers [10].",
-        "Grokipedia reports that Cochrane reviews of blue-light-filtering lenses found no significant reduction in visual performance problems, sleep disturbance or macular degeneration risk, and that the American Academy of Ophthalmology states there is no scientific evidence that screen blue light damages eyes [1]. No studies were found testing the glasses for appearance outcomes."
-      ]
-    }
-  ],
-  "timeline": [
-    { "year": "2007", "event": "Gunnar Optiks co-founded, per Grokipedia [1]" },
-    { "year": "2018", "event": "Warby Parker introduces blue-light-filtering lenses, per Grokipedia [1]" },
-    { "year": "2020", "event": "Sales rise during the COVID-19 pandemic, per Grokipedia [1]" }
-  ],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Blue light blocking glasses (Grokipedia)", "url": "https://grokipedia.com/page/Blue_light_blocking_glasses", "source": "Grokipedia", "year": 2026, "type": "encyclopedia" },
-    { "id": 2, "title": "Blue blocker glasses as a countermeasure for alerting effects of evening light-emitting diode screen exposure in male teenagers.", "url": "https://pubmed.ncbi.nlm.nih.gov/25287985/", "source": "Journal of Adolescent Health", "year": 2015, "type": "study" },
-    { "id": 3, "title": "Wearing blue light-blocking glasses in the evening advances circadian rhythms in the patients with delayed sleep phase disorder: An open-label trial.", "url": "https://pubmed.ncbi.nlm.nih.gov/27322730/", "source": "Chronobiology International", "year": 2016, "type": "trial" },
-    { "id": 4, "title": "Effect of evening blue light blocking glasses on subjective and objective sleep in healthy adults: A randomized control trial.", "url": "https://pubmed.ncbi.nlm.nih.gov/33707105/", "source": "Sleep Health", "year": 2021, "type": "trial" },
-    { "id": 5, "title": "Effects of pre-bedtime blue-light exposure on ratio of deep sleep in healthy young men.", "url": "https://pubmed.ncbi.nlm.nih.gov/34217920/", "source": "Sleep Medicine", "year": 2021, "type": "study" },
-    { "id": 6, "title": "Strategies to decrease social jetlag: Reducing evening blue light advances sleep and melatonin.", "url": "https://pubmed.ncbi.nlm.nih.gov/30506899/", "source": "European Journal of Neuroscience", "year": 2020, "type": "study" },
-    { "id": 7, "title": "Block the light and sleep well: Evening blue light filtration as a part of cognitive behavioral therapy for insomnia.", "url": "https://pubmed.ncbi.nlm.nih.gov/31752544/", "source": "Chronobiology International", "year": 2020, "type": "study" },
-    { "id": 8, "title": "Blocking blue light during mania - markedly increased regularity of sleep and rapid improvement of symptoms: a case report.", "url": "https://pubmed.ncbi.nlm.nih.gov/25264124/", "source": "Bipolar Disorders", "year": 2014, "type": "study" },
-    { "id": 9, "title": "Psychological and behavioural interventions in bipolar disorder that target sleep and circadian rhythms: A systematic review of randomised controlled trials.", "url": "https://pubmed.ncbi.nlm.nih.gov/34871635/", "source": "Neuroscience and Biobehavioral Reviews", "year": 2022, "type": "review" },
-    { "id": 10, "title": "Safety considerations for the use of blue-light blocking glasses in shift-workers.", "url": "https://pubmed.ncbi.nlm.nih.gov/17286754/", "source": "Journal of Pineal Research", "year": 2007, "type": "study" }
-  ],
-  "webSources": []
+  "effect": "indirect",
+  "text": "Evening wearers use the glasses as part of a wind-down routine aimed at falling asleep sooner and sleeping more soundly. Any appearance benefit is indirect, via sleep quality, and no study has measured appearance outcomes directly."
+ }
 }

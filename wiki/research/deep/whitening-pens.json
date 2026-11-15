@@ -1,21 +1,149 @@
 {
- "name": "Whitening pens",
- "lead": ["Whitening pens are over-the-counter applicator pens holding a peroxide-based gel that users paint onto the front of the teeth, mainly for touch-ups between longer bleaching courses. Colgate Optic White, Equate and Zimba-branded pens have been among those tested in laboratory work.[1][2]","Peroxide bleaching in general works by releasing free radicals that break pigment molecules into less coloured fragments.[3] Home products such as strips and trays are described as lightening teeth by about one or two shades, but the text reviewed does not cover pens specifically.[3]","Published human trials of whitening pens were not identified. Recent in vitro studies on extracted teeth have examined how much hydrogen peroxide reaches the pulp chamber, colour change and enamel surface changes with several commercial pens, with and without light activation or overnight use.[1][2][4]"],
- "infobox": [["Type","OTC peroxide gel applicator"],["Active ingredient","Hydrogen peroxide (typically)"],["Use","Touch-ups, targeted application"],["Regulation","EU retail limit 0.1% hydrogen peroxide[3]"]],
- "sections": [
-  {"h":"Use","paras":["Pens deliver gel through a brush or felt tip and are applied for a set time, some designs overnight or paired with an LED light.[1][4]"]},
-  {"h":"Safety","paras":["Wikipedia describes sensitivity as the most common side effect of bleaching, and gum irritation or burns at higher peroxide concentrations.[3] Laboratory studies of pens focus on peroxide permeability into the pulp chamber and effects on enamel surface, reflecting these concerns.[2][4]"]},
-  {"h":"Clinical studies","paras":["No studies found in humans. Laboratory studies on extracted premolars have compared commercial whitening pens for peroxide penetration into the pulp chamber, colour change and enamel surface morphology, including with light-activation systems and overnight use.[1][2][4]"]}
- ],
- "timeline": [],
- "lore": null,
- "refs": [
-  {"id":1,"title":"Effect of light-activation systems associated with whitening pens in the bleaching efficacy and hydrogen peroxide permeability","url":"https://pubmed.ncbi.nlm.nih.gov/39956309/","source":"Journal of Dentistry","year":2025,"type":"study"},
-  {"id":2,"title":"Effect of whitening pens on hydrogen peroxide permeability in the pulp chamber, color change and surface morphology","url":"https://pubmed.ncbi.nlm.nih.gov/39889815/","source":"Journal of Dentistry","year":2025,"type":"study"},
-  {"id":3,"title":"Tooth whitening","url":"https://en.wikipedia.org/wiki/Tooth_whitening","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-  {"id":4,"title":"Effects of Overnight Whitening Pens on Hydrogen Peroxide Penetration, Color Change, and Enamel Surface Properties","url":"https://pubmed.ncbi.nlm.nih.gov/42295134/","source":"Journal of Esthetic and Restorative Dentistry","year":2026,"type":"study"}
- ],
- "webSources": [{"url":"https://en.wikipedia.org/wiki/Tooth_whitening","title":"Tooth whitening"}],
- "card": {"summary":"Peroxide gel pens for quick touch-ups; studied only in labs so far.","aka":"teeth whitening pen","evidence":"limited","outcome":"temporary","price":null,"note":"Lab studies examine peroxide reaching the pulp; human trials not found.","structure":null},
- "quick": {"overview":"Whitening pens are pocket-sized applicators of peroxide gel for touching up tooth shade.\n\nPublished work is limited to laboratory tests on extracted teeth; no human trials were found.","mechanism":"The peroxide gel releases free radicals that break down pigment molecules on and in the enamel.","risks":"Sensitivity and gum irritation are the commonly reported effects of peroxide whitening. Lab studies have looked at peroxide passing into the pulp chamber and enamel surface changes."}
+  "name": "Whitening pens",
+  "card": {
+    "summary": "Peroxide gel pens for quick touch-ups; studied only in labs so far.",
+    "aka": "teeth whitening pen",
+    "evidence": "limited",
+    "outcome": "temporary",
+    "price": null,
+    "note": "Lab studies examine peroxide reaching the pulp; human trials not found.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "Whitening pens are pocket-sized applicators of peroxide gel for touching up tooth shade.\n\nPublished work is limited to laboratory tests on extracted teeth; no human trials were found.",
+    "mechanism": "The peroxide gel releases free radicals that break down pigment molecules on and in the enamel.",
+    "risks": "Sensitivity and gum irritation are the commonly reported effects of peroxide whitening. Lab studies have looked at peroxide passing into the pulp chamber and enamel surface changes."
+  },
+  "lead": [
+    "Whitening pens are over-the-counter applicator pens holding a peroxide-based gel that users paint onto the front of the teeth. People use them to lift yellow or stained shade quickly, usually as touch-ups between longer bleaching courses or before an event, for a brighter smile that reads as healthier and more attractive. Colgate Optic White, Equate and Zimba-branded pens have been among those tested in laboratory work. [1][2]",
+    "Peroxide bleaching in general works by releasing free radicals that break large pigment molecules into smaller, less coloured fragments that reflect less light. [3] Home products such as strips and trays are described as lightening teeth by about one or two shades; Wikipedia's tooth whitening article describes brush-on gels but does not discuss pens specifically. [3]",
+    "Published human trials of whitening pens were not identified. Recent in vitro studies on extracted teeth have examined how much hydrogen peroxide reaches the pulp chamber, colour change and enamel surface changes with several commercial pens, with and without light activation or overnight use. [1][2][4]"
+  ],
+  "angle": {
+    "goal": "Tooth shade / smile",
+    "chain": [
+      "Peroxide gel is painted onto the front of the teeth",
+      "Free radicals break pigment molecules into less coloured fragments",
+      "Teeth look lighter for a period before stains return"
+    ],
+    "effect": "direct",
+    "text": "Pens apply a small amount of peroxide gel exactly where the user wants it, making them a portable touch-up for a visibly brighter smile. Results from home whitening are described in terms of one to two shades, and they fade over time. [3]"
+  },
+  "infobox": [
+    [
+      "Type",
+      "OTC peroxide gel applicator"
+    ],
+    [
+      "Active ingredient",
+      "Hydrogen peroxide (typically) [3]"
+    ],
+    [
+      "Use",
+      "Touch-ups, targeted application"
+    ],
+    [
+      "Retail limit (EU)",
+      "0.1% hydrogen peroxide [3]"
+    ],
+    [
+      "US FDA-endorsed gels",
+      "Under 6% hydrogen peroxide or up to 16% carbamide peroxide [3]"
+    ],
+    [
+      "Typical home result",
+      "About 1 to 2 shades [3]"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Use",
+      "paras": [
+        "Pens deliver gel through a brush or felt tip and are applied for a set time, some designs overnight or paired with an LED light. [1][4] The tested pens were applied for 15 minutes daily for ten days in one laboratory protocol and 8 hours per day for ten days in an overnight protocol. [1][4]",
+        "They sit alongside other consumer formats described by Wikipedia: strips sold since the late 1980s and typically worn twice daily for 30 minutes over 14 days, brush-on gels applied with a small brush usually twice daily for 14 days, trays worn for two to four hours daily or overnight, rinses and whitening toothpastes. [3]"
+      ]
+    },
+    {
+      "h": "How whitening works",
+      "paras": [
+        "Hydrogen peroxide, used directly or released from carbamide peroxide, diffuses into the tooth, where free radicals break pigment molecules into less coloured ones. [3] Bleaching is said to work best on yellow teeth and least well on grey teeth, and tetracycline staining may need prolonged treatment. [3] Wikipedia notes that results can last several months but stains can return within a couple of months, with re-treatment sometimes needed every six months to a year, more often for smokers and drinkers of staining beverages. [3]"
+      ]
+    },
+    {
+      "h": "Regulation",
+      "paras": [
+        "In the EU the legal limit for hydrogen peroxide in retail whitening products is 0.1 percent, with up to 6 percent allowed under a dental professional's supervision, and the US FDA endorses gels under 6 percent hydrogen peroxide or up to 16 percent carbamide peroxide. [3] The UK General Dental Council raised concerns in 2010 about poor-quality whitening by untrained staff. [3]"
+      ]
+    },
+    {
+      "h": "Safety",
+      "paras": [
+        "Wikipedia describes sensitivity as the most common side effect of bleaching, with 67 to 78 percent of in-office patients experiencing it for roughly 4 to 39 days, and gum irritation or chemical burns, usually linked to poorly fitting trays or higher peroxide concentrations. It also notes that carbamide peroxide can roughen enamel and affect restorations, and that rapid large changes may leave teeth looking translucent. [3] Laboratory studies of pens focus on peroxide permeability into the pulp chamber and effects on enamel surface, reflecting these concerns. [2][4]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found in humans. Laboratory studies on extracted premolars have compared commercial whitening pens.",
+        "A 2025 Journal of Dentistry study used 50 premolars in five groups (control and four pens: Colgate Optic White Express, Colgate Optic White Overnight, Equate Teeth Whitening Kit and Zimba Teeth Whitening Pen) applied daily for 15 minutes over ten days. The two Colgate pens had higher pH, lower peroxide concentrations and lower peroxide penetration into the pulp chamber than the Equate and Zimba products, and bleaching efficacy did not differ significantly among the pens. [1]",
+        "A second 2025 Journal of Dentistry study used 90 premolars in nine groups to test pens with and without light-activation devices. The Zimba light had the highest power and irradiance, with Equate and Zimba lights emitting blue light (peak 456 nm) and the Colgate ComfortFit light emitting violet light (peak 405 nm). Light activation did not significantly change whitening or peroxide permeability. [2]",
+        "A 2026 study in the Journal of Esthetic and Restorative Dentistry tested overnight use (8 hours per day for 10 days) of four pens on 50 premolars, with 15 molars for enamel analysis. The Equate kit had the highest peroxide concentration and lowest pH and the greatest penetration into the pulp chamber, the Whiteness Perfect 10 percent product the lowest. Colour change did not differ significantly among products, and enamel surface changes were similar except for the Equate kit, which showed reduced microhardness. [4]"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1960s",
+      "event": "Custom tray bleaching introduced by William Klusmeier. [3]"
+    },
+    {
+      "year": "Late 1980s",
+      "event": "Whitening strips begin to be sold. [3]"
+    },
+    {
+      "year": "2025",
+      "event": "In vitro studies compare commercial whitening pens, with and without light activation. [1][2]"
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Effect of light-activation systems associated with whitening pens in the bleaching efficacy and hydrogen peroxide permeability",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39956309/",
+      "source": "Journal of Dentistry",
+      "year": 2025,
+      "type": "study"
+    },
+    {
+      "id": 2,
+      "title": "Effect of whitening pens on hydrogen peroxide permeability in the pulp chamber, color change and surface morphology",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39889815/",
+      "source": "Journal of Dentistry",
+      "year": 2025,
+      "type": "study"
+    },
+    {
+      "id": 3,
+      "title": "Tooth whitening",
+      "url": "https://en.wikipedia.org/wiki/Tooth_whitening",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 4,
+      "title": "Effects of Overnight Whitening Pens on Hydrogen Peroxide Penetration, Color Change, and Enamel Surface Properties",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42295134/",
+      "source": "Journal of Esthetic and Restorative Dentistry",
+      "year": 2026,
+      "type": "study"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Tooth_whitening",
+      "title": "Tooth whitening"
+    }
+  ]
 }

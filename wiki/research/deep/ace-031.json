@@ -1,55 +1,319 @@
 {
-"name": "ACE-031",
-"lead": [
-"ACE-031 is a soluble fusion protein of the activin receptor type IIB (ActRIIB) and the Fc part of IgG1. It acts as a decoy that binds myostatin and related ligands that limit muscle growth [1][2][5].",
-"It was developed for muscle-wasting conditions and tested in healthy postmenopausal women and in boys with Duchenne muscular dystrophy [1][2][11]. The Duchenne trials were terminated [11]. It is not approved anywhere. Analytical chemists have published methods for detecting black-market ACE-031, indicating interest from athletes outside clinical settings [7][4]."
-],
-"infobox": [
-["Type","Soluble ActRIIB-IgG1 Fc fusion protein"],
-["Also known as","ACVR2B-Fc"],
-["Route in trials","Subcutaneous injection"],
-["Status","Investigational; Duchenne trials terminated"],
-["Legal status","Unapproved"]
-],
-"sections": [
-{"h":"Mechanism","paras":["By binding myostatin (GDF-8) and other negative regulators, ACE-031 reduces their signalling through native receptors [2][5]. In mice, a 28-day treatment increased muscle mass independent of fibre type, unlike selective myostatin inhibition, which was reported to act mainly on type II fibres [3]."]},
-{"h":"Clinical studies","paras":["A single ascending-dose study in 48 healthy postmenopausal women (0.02-3 mg/kg subcutaneously versus placebo) found ACE-031 generally well tolerated, with injection-site reactions among reported adverse events [2]. A second phase 1 study in 70 healthy postmenopausal women was also registered [10].","A randomised, placebo-controlled ascending-dose trial in ambulatory boys with Duchenne muscular dystrophy had safety as its primary objective [1]. The phase 2 Duchenne study and its extension were terminated [11][12].","Preclinical work includes a 2025-2026 study reporting increased muscle mass and strength in common marmosets [6][8]."]},
-{"h":"Doping and black-market context","paras":["Anti-doping reviews list emerging muscle-regulating drugs such as ACE-031 as potential targets for misuse by athletes [4]. A 2025 paper described a gel-electrophoretic method for detecting black-market ACE-031 [7]."]}
-],
-"timeline":[
-{"year":"2008","event":"Phase 1 study in healthy postmenopausal volunteers begins [9]."},
-{"year":"2010","event":"Phase 2 Duchenne trial begins; later terminated [11]."},
-{"year":"2012","event":"Single ascending-dose study published [2]."},
-{"year":"2025","event":"Detection method for black-market ACE-031 published [7]."}
-],
-"lore":null,
-"card":{
-"summary":"An experimental myostatin-blocking fusion protein tested in healthy women and Duchenne boys; trials ended and it is not approved.",
-"aka":"ACVR2B-Fc",
-"evidence":"limited",
-"status":"research",
-"outcome":null,
-"risk":null,
-"price":null,
-"note":"Unapproved; Duchenne trials were terminated.",
-"structure":null},
-"quick":{
-"overview":"ACE-031 is a lab-made decoy receptor designed to soak up myostatin and similar proteins that restrain muscle growth. It was tested for muscle-wasting disease.\n\nIt never reached approval, and anti-doping scientists have published detection methods for black-market versions.",
-"mechanism":"It is a fusion of the activin receptor IIB with an antibody Fc piece. It binds myostatin and related ligands in the blood so they cannot signal in muscle.",
-"risks":"The healthy-volunteer study reported it generally well tolerated, with injection-site reactions. The Duchenne trials were terminated, and it is unapproved."},
-"refs":[
-{"id":1,"title":"Myostatin inhibitor ACE-031 treatment of ambulatory boys with Duchenne muscular dystrophy","url":"https://pubmed.ncbi.nlm.nih.gov/27462804/","source":"Muscle & Nerve","year":2017,"type":"trial"},
-{"id":2,"title":"A single ascending-dose study of muscle regulator ACE-031 in healthy volunteers","url":"https://pubmed.ncbi.nlm.nih.gov/23169607/","source":"Muscle & Nerve","year":2013,"type":"trial"},
-{"id":3,"title":"Administration of a soluble activin type IIB receptor promotes skeletal muscle growth independent of fiber type","url":"https://pubmed.ncbi.nlm.nih.gov/20466801/","source":"Journal of Applied Physiology","year":2010,"type":"study"},
-{"id":4,"title":"Emerging drugs affecting skeletal muscle function and mitochondrial biogenesis: implications for sports drug testing","url":"https://pubmed.ncbi.nlm.nih.gov/26842585/","source":"Rapid Communications in Mass Spectrometry","year":2016,"type":"review"},
-{"id":5,"title":"ACE-031 (Wikipedia)","url":"https://en.wikipedia.org/wiki/ACE-031","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":6,"title":"ACE-031 increases muscle mass and strength in the common marmoset","url":"https://pubmed.ncbi.nlm.nih.gov/41686840/","source":"PLoS ONE","year":2026,"type":"study"},
-{"id":7,"title":"Gel electrophoretic detection of black market ACE-031","url":"https://pubmed.ncbi.nlm.nih.gov/40312924/","source":"Drug Testing and Analysis","year":2025,"type":"study"},
-{"id":8,"title":"ACE-031 in the common marmoset (bioRxiv preprint)","url":"https://doi.org/10.1101/2025.10.01.679778","source":"bioRxiv","year":2025,"type":"study"},
-{"id":9,"title":"Phase 1 study in healthy postmenopausal volunteers (NCT00755638)","url":"https://clinicaltrials.gov/study/NCT00755638","source":"ClinicalTrials.gov","year":2008,"type":"trial"},
-{"id":10,"title":"Phase 1 study in healthy postmenopausal women (NCT00952887)","url":"https://clinicaltrials.gov/study/NCT00952887","source":"ClinicalTrials.gov","year":2009,"type":"trial"},
-{"id":11,"title":"Study of ACE-031 in Subjects With Duchenne Muscular Dystrophy (NCT01099761)","url":"https://clinicaltrials.gov/study/NCT01099761","source":"ClinicalTrials.gov","year":2010,"type":"trial"},
-{"id":12,"title":"Extension Study of ACE-031 in Duchenne (NCT01239758)","url":"https://clinicaltrials.gov/study/NCT01239758","source":"ClinicalTrials.gov","year":2010,"type":"trial"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/ACE-031","title":"ACE-031 - Wikipedia"}]
+ "name": "ACE-031",
+ "lead": [
+  "ACE-031 is a soluble fusion protein made from the activin receptor type IIB (ActRIIB) and the Fc portion of human IgG1. Acting as a decoy receptor, it binds myostatin (GDF-8) and related proteins that restrain muscle growth, so less of them reaches the receptors on muscle cells [1][2][5]. The goal of that design is more lean mass and strength, which is the reason strength-sport communities follow it as a route to a more muscular physique.",
+  "It was developed for muscle-wasting conditions and tested in healthy postmenopausal women and in boys with Duchenne muscular dystrophy [1][2][11]. In the healthy-volunteer study, a single dose was followed by measurable gains in lean body mass and thigh muscle volume at four weeks [2]. The Duchenne trials were stopped, and the compound is not approved anywhere [1][11].",
+  "Interest outside clinics is visible in two places: bodybuilding forums such as T Nation, where members discussed it as an upcoming myostatin blocker from 2008 onward [14][15], and in anti-doping science, where reviews list ACE-031 among emerging muscle-regulating drugs and chemists have published methods for detecting black-market material [4][7]."
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Soluble ActRIIB-IgG1 Fc fusion protein"
+  ],
+  [
+   "Also known as",
+   "ACVR2B-Fc"
+  ],
+  [
+   "Route in trials",
+   "Subcutaneous injection"
+  ],
+  [
+   "Status",
+   "Investigational; Duchenne trials terminated"
+  ],
+  [
+   "Legal status",
+   "Unapproved"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Background: myostatin and the activin pathway",
+   "paras": [
+    "Myostatin is a protein in the TGF-beta family, made mainly in skeletal muscle, that limits how much muscle forms. Mice lacking the gene, reported by Se-Jin Lee and Alexandra McPherron in 1997, had roughly twice the normal muscle mass and were nicknamed mighty mice. The same year, mutations in the myostatin gene were identified in double-muscled Belgian Blue and Piedmontese cattle. A German boy with mutations in both gene copies, described in 2004, was reported to be unusually strong for his age [16].",
+    "Myostatin signals through activin receptor type IIB, and other ligands such as activin A use the same receptor. A soluble version of that receptor can therefore soak up several growth-limiting ligands at once, rather than myostatin alone [2][3]. Wikipedia's myostatin article records that a soluble activin IIB receptor raised muscle mass in mice by up to 60% over two weeks in 2005 work, and that an antibody against myostatin (stamulumab, MYO-029) was dropped by Wyeth for muscular dystrophy in 2008 [16]."
+   ]
+  },
+  {
+   "h": "Mechanism",
+   "paras": [
+    "By binding myostatin (GDF-8) and other negative regulators, ACE-031 reduces their signalling through native receptors [2][5]. In mice, 28 days of treatment increased muscle mass independent of fibre type, unlike selective myostatin inhibition, which was reported to act mainly on type II fibres [3]. In the healthy-volunteer study, serum biomarkers also moved in directions the authors interpreted as changes in bone and fat metabolism [2]."
+   ]
+  },
+  {
+   "h": "Pharmacokinetics",
+   "paras": [
+    "After a single subcutaneous dose in 48 healthy postmenopausal women, exposure rose linearly with dose and the mean half-life was 10 to 15 days, long enough that dosing intervals of two to four weeks were used in the Duchenne trial [1][2]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A single ascending-dose study in 48 healthy postmenopausal women (0.02-3 mg/kg subcutaneously versus placebo, 3:1) found ACE-031 generally well tolerated, with injection-site erythema among reported adverse events. At day 29 in the 3 mg/kg group, total body lean mass was 3.3% higher by DXA and thigh muscle volume 5.1% higher by MRI [2]. A second phase 1 study in 70 healthy postmenopausal women was also registered [10], and a first phase 1 listing began in September 2008 [9].",
+    "A randomised, double-blind, placebo-controlled, ascending-dose trial in ambulatory boys with Duchenne muscular dystrophy had safety as its primary objective, with doses given every two to four weeks. No serious or severe adverse events were reported, but the study was stopped after the second dosing regimen because of potential safety concerns of nosebleeds (epistaxis) and dilated small blood vessels (telangiectasias). The ACE-031 groups showed non-significant trends toward maintained six-minute walk distance, against a decline on placebo, and toward higher lean mass, bone mineral density and lower fat mass [1]. The phase 2 trial enrolled 24 participants and its extension 11 before both were terminated [11][12].",
+    "Preclinical work includes a 2025-2026 study reporting increased muscle mass and strength in common marmosets, a primate model [6][8]. Related ActRIIB-Fc proteins have been studied in mouse models of cancer and chemotherapy-induced muscle loss, heart failure and heart attack injury, where they preserved muscle in some and protected the heart in others [13][17][18]."
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "paras": [
+    "Reported effects in humans are injection-site erythema in healthy women and nosebleeds and telangiectasias in boys with Duchenne, the latter prompting the early end of that trial; the authors described these as non-muscle-related adverse events [1][2]. Forum members discussing myostatin inhibitors have raised questions about long-term safety and the lack of human data in athletes [15]."
+   ]
+  },
+  {
+   "h": "Doping and black-market context",
+   "paras": [
+    "Anti-doping reviews list emerging muscle-regulating drugs such as ACE-031 as potential targets for misuse by athletes [4]. Wikipedia's myostatin article notes that the World Anti-Doping Agency bans myostatin inhibitors, and that counterfeit myostatin blockers were being sold online by 2012 [16]. A 2025 paper described a gel-electrophoretic method for detecting black-market ACE-031 [7]."
+   ]
+  },
+  {
+   "h": "In bodybuilding communities",
+   "paras": [
+    "On T Nation, a 2008 thread described ACE-031 as the newest anabolic substance, a myostatin binder that would let muscle grow uninhibited [14]. A 2011 thread titled around ACVR2B (ACE-031) discussed claims that a human myostatin blocker was near [19], and threads in 2013 asked whether myostatin inhibitors such as follistatin, ACE-031 and MYO-029 might harm health and whether members would try them given sparse data [15][20]."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1997",
+   "event": "Myostatin-knockout mice with doubled muscle mass reported; myostatin mutations found in double-muscled cattle [16]."
+  },
+  {
+   "year": "2008",
+   "event": "Phase 1 study in healthy postmenopausal volunteers begins [9]."
+  },
+  {
+   "year": "2010",
+   "event": "Phase 2 Duchenne trial begins; later terminated [11]."
+  },
+  {
+   "year": "2012",
+   "event": "Single ascending-dose study published [2]."
+  },
+  {
+   "year": "2017",
+   "event": "Duchenne trial results published; study had been stopped over nosebleeds and telangiectasias [1]."
+  },
+  {
+   "year": "2025",
+   "event": "Detection method for black-market ACE-031 published [7]."
+  }
+ ],
+ "lore": {
+  "intro": "ACE-031 is discussed on strength-training forums as a myostatin blocker that could allow muscle growth beyond usual limits [14][19].",
+  "claims": [
+   {
+    "claim": "Blocking myostatin lets muscle grow \"uninhibited\".",
+    "believers": "Forum posters describe ACE-031 as an anabolic that binds myostatin so muscle tissue can grow without its normal brake [14].",
+    "experts": "A phase 1 study found 3.3% more lean mass and 5.1% more thigh muscle volume at four weeks after one high dose in postmenopausal women; Duchenne trial gains were non-significant trends [1][2].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Myostatin inhibitors are safe enough to try.",
+    "believers": "Some posters ask whether the downside is small enough to justify a protocol given the potential gains [20].",
+    "experts": "The Duchenne trial was stopped because of nosebleeds and telangiectasias, and the compound has no approval [1][11].",
+    "evidence": "harms"
+   }
+  ]
+ },
+ "card": {
+  "summary": "An experimental myostatin-blocking fusion protein tested in healthy women and Duchenne boys; trials ended and it is not approved.",
+  "aka": "ACVR2B-Fc",
+  "evidence": "limited",
+  "status": "research",
+  "outcome": null,
+  "risk": null,
+  "price": null,
+  "note": "Unapproved; Duchenne trials were terminated.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "ACE-031 is a lab-made decoy receptor designed to soak up myostatin and similar proteins that restrain muscle growth. It was tested for muscle-wasting disease.\n\nIt never reached approval, and anti-doping scientists have published detection methods for black-market versions.",
+  "mechanism": "It is a fusion of the activin receptor IIB with an antibody Fc piece. It binds myostatin and related ligands in the blood so they cannot signal in muscle.",
+  "risks": "The healthy-volunteer study reported it generally well tolerated, with injection-site reactions. The Duchenne trials were terminated, and it is unapproved."
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Myostatin inhibitor ACE-031 treatment of ambulatory boys with Duchenne muscular dystrophy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27462804/",
+   "source": "Muscle & Nerve",
+   "year": 2017,
+   "type": "trial"
+  },
+  {
+   "id": 2,
+   "title": "A single ascending-dose study of muscle regulator ACE-031 in healthy volunteers",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23169607/",
+   "source": "Muscle & Nerve",
+   "year": 2013,
+   "type": "trial"
+  },
+  {
+   "id": 3,
+   "title": "Administration of a soluble activin type IIB receptor promotes skeletal muscle growth independent of fiber type",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20466801/",
+   "source": "Journal of Applied Physiology",
+   "year": 2010,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Emerging drugs affecting skeletal muscle function and mitochondrial biogenesis: implications for sports drug testing",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26842585/",
+   "source": "Rapid Communications in Mass Spectrometry",
+   "year": 2016,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "ACE-031 (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/ACE-031",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 6,
+   "title": "ACE-031 increases muscle mass and strength in the common marmoset",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41686840/",
+   "source": "PLoS ONE",
+   "year": 2026,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Gel electrophoretic detection of black market ACE-031",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40312924/",
+   "source": "Drug Testing and Analysis",
+   "year": 2025,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "ACE-031 in the common marmoset (bioRxiv preprint)",
+   "url": "https://doi.org/10.1101/2025.10.01.679778",
+   "source": "bioRxiv",
+   "year": 2025,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "Phase 1 study in healthy postmenopausal volunteers (NCT00755638)",
+   "url": "https://clinicaltrials.gov/study/NCT00755638",
+   "source": "ClinicalTrials.gov",
+   "year": 2008,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Phase 1 study in healthy postmenopausal women (NCT00952887)",
+   "url": "https://clinicaltrials.gov/study/NCT00952887",
+   "source": "ClinicalTrials.gov",
+   "year": 2009,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Study of ACE-031 in Subjects With Duchenne Muscular Dystrophy (NCT01099761)",
+   "url": "https://clinicaltrials.gov/study/NCT01099761",
+   "source": "ClinicalTrials.gov",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "Extension Study of ACE-031 in Duchenne (NCT01239758)",
+   "url": "https://clinicaltrials.gov/study/NCT01239758",
+   "source": "ClinicalTrials.gov",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "ACVR2B antagonism as a countermeasure to multi-organ perturbations in metastatic colorectal cancer cachexia",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33200567/",
+   "source": "J Cachexia Sarcopenia Muscle",
+   "year": 2020,
+   "type": "study"
+  },
+  {
+   "id": 14,
+   "title": "Skidmark's Training (T Nation thread)",
+   "url": "https://t-nation.com/t/skidmarks-training/101550",
+   "source": "T Nation",
+   "year": 2008,
+   "type": "forum"
+  },
+  {
+   "id": 15,
+   "title": "Myostatin Inhibitors' Side Effects? (T Nation thread)",
+   "url": "https://t-nation.com/t/myostatin-inhibitors-side-effects/195041",
+   "source": "T Nation",
+   "year": 2013,
+   "type": "forum"
+  },
+  {
+   "id": 16,
+   "title": "Myostatin",
+   "url": "https://en.wikipedia.org/wiki/Myostatin",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 17,
+   "title": "Systemic blockade of ACVR2B ligands attenuates muscle wasting in ischemic heart failure without compromising cardiac function",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32427381/",
+   "source": "FASEB J",
+   "year": 2020,
+   "type": "study"
+  },
+  {
+   "id": 18,
+   "title": "ACVR2B/Fc counteracts chemotherapy-induced loss of muscle and bone mass",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29089584/",
+   "source": "Scientific Reports",
+   "year": 2017,
+   "type": "study"
+  },
+  {
+   "id": 19,
+   "title": "ACVR2B (ACE-031) Crazy? (T Nation thread)",
+   "url": "https://t-nation.com/t/acvr2b-ace-031-crazy/169826",
+   "source": "T Nation",
+   "year": 2011,
+   "type": "forum"
+  },
+  {
+   "id": 20,
+   "title": "Myostatin's Inhibitors? (T Nation thread)",
+   "url": "https://t-nation.com/t/myostatins-inhibitors/196983",
+   "source": "T Nation",
+   "year": 2013,
+   "type": "forum"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/ACE-031",
+   "title": "ACE-031 - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Myostatin",
+   "title": "Myostatin - Wikipedia"
+  }
+ ],
+ "angle": {
+  "goal": "Muscle mass",
+  "chain": [
+   "Binds myostatin and related ligands outside muscle cells",
+   "Less growth-restraining signalling through ActRIIB",
+   "More lean mass and thigh muscle volume in trials",
+   "A fuller, more muscular physique"
+  ],
+  "effect": "indirect",
+  "text": "ACE-031 was designed to remove a brake on muscle growth. In a phase 1 study, healthy postmenopausal women given the highest single dose showed a 3.3% rise in total lean mass and a 5.1% rise in thigh muscle volume after 29 days, which is the appearance-relevant result reported for it [2]. Forum members have discussed it for the same reason, though it is only available as an unapproved research material."
+ }
 }

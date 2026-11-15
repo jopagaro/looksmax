@@ -1,107 +1,339 @@
 {
-  "name": "Elimination diet",
-  "card": {
-    "summary": "Temporarily removing suspected trigger foods, then reintroducing them one at a time; established for diagnosing food allergy and eosinophilic esophagitis, with little trial evidence for finding skin triggers.",
-    "aka": "Exclusion diet, oligoantigenic diet",
-    "evidence": "limited",
-    "risk": "moderate",
-    "note": "Strict versions can cause nutrient gaps and are generally done with dietitian guidance; people with a history of severe reactions need medical supervision.",
-    "price": null
-  },
-  "quick": {
-    "overview": "An elimination diet removes suspected foods for a period (roughly two weeks to two months in Wikipedia's description), tracks symptoms, then reintroduces foods one at a time to see whether symptoms return. It is mainly a diagnostic procedure for food allergy and food intolerance.\n\nIn looksmaxxing communities it appears as a way to find foods that worsen acne or skin. Medical evidence for elimination diets is strongest in gut conditions such as eosinophilic esophagitis; studies of skin triggers via this method are not in the research reviewed here.",
-    "mechanism": "Foods suspected of causing reactions are cut out, a symptom and food diary is kept, and foods are challenged back in sequence. For allergic or intolerance conditions this tests whether a specific food drives symptoms.",
-    "risks": "Wikipedia notes the diet must be nutritionally complete, symptoms may briefly worsen at the start, and strict versions are generally not recommended in pregnancy. People with asthma, laryngeal oedema or a history of anaphylaxis may need testing where resuscitation is available. Unvalidated tests such as Vega machine testing have not been shown to be effective."
-  },
-  "lead": [
-    "An elimination diet, also called an exclusion or oligoantigenic diet, is a diagnostic procedure for identifying foods that cause adverse effects, whether from food allergy, food intolerance or other causes. A suspected food is removed for about two weeks to two months while symptoms are monitored, and foods are then reintroduced one at a time [1].",
-    "It is used mainly to diagnose food allergy and chemical food intolerance and occasionally as a treatment diet [1]. Its best-documented clinical role is in conditions such as eosinophilic esophagitis, where six-food elimination diets have been studied in children and adults [2][3][4][5].",
-    "In looksmaxxing communities it is mentioned as a way of finding foods that trigger acne or other skin changes. The studies reviewed here concern gut and allergic conditions; no clinical studies of elimination diets for appearance or acne outcomes were found."
+ "name": "Elimination diet",
+ "card": {
+  "summary": "Temporarily removing suspected trigger foods, then reintroducing them one at a time; established for diagnosing food allergy and eosinophilic esophagitis, with little trial evidence for finding skin triggers.",
+  "aka": "Exclusion diet, oligoantigenic diet",
+  "evidence": "limited",
+  "risk": "moderate",
+  "note": "Strict versions can cause nutrient gaps and are generally done with dietitian guidance; people with a history of severe reactions need medical supervision.",
+  "price": null
+ },
+ "quick": {
+  "overview": "An elimination diet removes suspected foods for a period (roughly two weeks to two months in Wikipedia's description), tracks symptoms, then reintroduces foods one at a time to see whether symptoms return. It is mainly a diagnostic procedure for food allergy and food intolerance.\n\nIn looksmaxxing communities it appears as a way to find foods that worsen acne or skin. Medical evidence for elimination diets is strongest in gut conditions such as eosinophilic esophagitis; studies of skin triggers via this method are not in the research reviewed here.",
+  "mechanism": "Foods suspected of causing reactions are cut out, a symptom and food diary is kept, and foods are challenged back in sequence. For allergic or intolerance conditions this tests whether a specific food drives symptoms.",
+  "risks": "Wikipedia notes the diet must be nutritionally complete, symptoms may briefly worsen at the start, and strict versions are generally not recommended in pregnancy. People with asthma, laryngeal oedema or a history of anaphylaxis may need testing where resuscitation is available. Unvalidated tests such as Vega machine testing have not been shown to be effective."
+ },
+ "lead": [
+  "An elimination diet, also called an exclusion or oligoantigenic diet, is a diagnostic procedure for identifying foods that cause adverse effects, whether from food allergy, food intolerance or other mechanisms. A suspected food is removed for about two weeks to two months while symptoms are recorded, and foods are then reintroduced one at a time to see which ones bring symptoms back.[1]",
+  "For appearance, the appeal is finding personal triggers behind skin and complexion problems. People with hives, eczema, flushing or breakouts use the method to test whether particular foods, commonly dairy, wheat, eggs, soy or sugar, correlate with their flare-ups; the 1978-1980 Australian exclusion-diet work on chronic idiopathic urticaria is an early example of dietary triggers being tested this way.[1] Wikipedia notes that the method can also be used when allergy and intolerance overlap with symptoms such as asthma, eczema or rhinitis.[1]",
+  "Its best-documented clinical role is in eosinophilic esophagitis, where one-, four- and six-food elimination diets have been compared in randomised trials, and in diagnosing food allergy and chemical food intolerance.[2][3][4][5][16][17] No published trials have tested elimination diets for acne or other cosmetic skin outcomes."
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Diagnostic / therapeutic dietary procedure[1]"
   ],
-  "infobox": [
-    ["Type", "Diagnostic / therapeutic dietary procedure"],
-    ["Typical elimination period", "About 2 weeks to 2 months (Wikipedia)"],
-    ["Concept proposed", "Albert Rowe, 1926"],
-    ["Main medical uses", "Food allergy, food intolerance, eosinophilic esophagitis"],
-    ["Supervision", "Dietitian guidance strongly recommended"]
+  [
+   "Typical elimination period",
+   "About 2 weeks to 2 months[1]"
   ],
-  "sections": [
-    {
-      "h": "Description",
-      "paras": [
-        "Patients remove suspected foods, keep records of food, medication and symptoms, and then reintroduce foods one by one. Wikipedia says challenges should begin only after symptoms have cleared and after at least two weeks on the diet, and that dietitian guidance is strongly recommended [1].",
-        "Common targets include dairy, wheat, eggs, soy, nuts, fish and shellfish; the six-food version used in eosinophilic esophagitis research removes the most common allergens together [2][3][6]. Grokipedia describes symptom diaries and a hypoallergenic base diet, and a 2 to 6 week elimination phase [7]."
-      ]
-    },
-    {
-      "h": "History",
-      "paras": [
-        "Wikipedia credits Albert Rowe with proposing the concept in 1926 and describing it in his 1941 book on elimination diets and allergies. In 1978 Australian researchers Gibson and Clancy published an exclusion diet to identify dietary chemical triggers in chronic idiopathic urticaria [1]."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "Research on elimination diets is concentrated on gastrointestinal and allergic disease rather than skin appearance.",
-        "In eosinophilic esophagitis, a retrospective study of a six-food elimination diet in children reported clinical and histologic responses [3]. A study in 50 adults assessed a six-food elimination diet followed by reintroduction to identify causative foods and reported histologic response, symptoms and quality of life outcomes [4]. A systematic review and meta-analysis examined dietary interventions for histologic remission [5]. Other studies used skin prick and patch tests to direct food elimination [8][9], and a prospective study examined an empiric six-food diet in adults [10].",
-        "A 2001 review addressed gluten elimination in coeliac disease, where gluten removal leads to mucosal recovery in genetically susceptible people [11]. A study in dogs with chronic enteropathies used an elimination diet trial and is veterinary research, not human [12].",
-        "No clinical studies of elimination diets for acne or other cosmetic skin outcomes were found in this research."
-      ]
-    },
-    {
-      "h": "Risks and controversies",
-      "paras": [
-        "Wikipedia notes symptoms may worsen briefly at the start, the diet needs to be nutritionally complete, and strict forms are generally not recommended during pregnancy; people with a history of severe reactions may need supervised testing [1]. Grokipedia also notes the risk of lower calcium, iron or fibre intake if the diet is prolonged without guidance [7].",
-        "Wikipedia reports that the field of food allergy and intolerance has long lacked universal definitions and diagnostic standards, and that Vega machine testing has not been shown to be effective [1]. Skin prick and blood tests can help identify immediate allergic reactions but can yield false positives [1]."
-      ]
-    },
-    {
-      "h": "In looksmaxxing culture",
-      "paras": [
-        "Elimination approaches are discussed in skin-focused communities as a way to test personal triggers such as dairy or sugar. Wikipedia's acne article states that the evidence for dairy and acne is weak and observational and that lower-glycaemic-load diets are better supported [13]."
-      ]
-    }
+  [
+   "Concept proposed",
+   "Albert Rowe, 1926[1]"
   ],
-  "timeline": [
-    { "year": "1926", "event": "Albert Rowe proposes the elimination diet concept [1]." },
-    { "year": "1941", "event": "Rowe describes elimination diets in a book on allergies [1]." },
-    { "year": "1978", "event": "Gibson and Clancy publish an exclusion diet for chronic idiopathic urticaria triggers [1]." },
-    { "year": "2012", "event": "Study of six-food elimination in adults with eosinophilic esophagitis [4]." }
+  [
+   "Main medical uses",
+   "Food allergy, food intolerance, eosinophilic esophagitis[1][2]"
   ],
-  "lore": {
-    "intro": "Elimination diets are discussed in appearance communities as a route to personal skin triggers, usually alongside dairy and sugar removal.",
-    "claims": [
-      {
-        "claim": "Removing trigger foods can reveal and clear personal acne or skin triggers",
-        "believers": "Proponents say removing common irritants such as dairy and then reintroducing them shows which foods affect their skin.",
-        "experts": "Wikipedia's acne article describes the evidence on dairy and acne as weak and observational and says milk restriction lacked sufficient evidence as of 2014 [13]. No clinical studies of elimination diets for acne were found.",
-        "evidence": "untested"
-      },
-      {
-        "claim": "Elimination diets identify food allergies and intolerances",
-        "believers": "Advocates describe them as a standard way to find triggers when tests are inconclusive.",
-        "experts": "Wikipedia describes the exclusion-then-challenge method as used to confirm food allergy and intolerance, with skin and blood tests prone to false positives [1]; eosinophilic esophagitis studies support its use in that condition [3][4][5].",
-        "evidence": "supported"
-      }
-    ]
-  },
-  "refs": [
-    { "id": 1, "title": "Elimination diet (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Elimination_diet", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Efficacy of dietary interventions for inducing histologic remission in patients with eosinophilic esophagitis: a systematic review and meta-analysis", "url": "https://pubmed.ncbi.nlm.nih.gov/24534634/", "source": "Gastroenterology", "year": 2014, "type": "review" },
-    { "id": 3, "title": "Effect of six-food elimination diet on clinical and histologic outcomes in eosinophilic esophagitis", "url": "https://pubmed.ncbi.nlm.nih.gov/16860614/", "source": "Clinical Gastroenterology and Hepatology", "year": 2006, "type": "study" },
-    { "id": 4, "title": "Elimination diet effectively treats eosinophilic esophagitis in adults; food reintroduction identifies causative factors", "url": "https://pubmed.ncbi.nlm.nih.gov/22391333/", "source": "Gastroenterology", "year": 2012, "type": "study" },
-    { "id": 5, "title": "Efficacy of dietary interventions for inducing histologic remission in patients with eosinophilic esophagitis: a systematic review and meta-analysis", "url": "https://pubmed.ncbi.nlm.nih.gov/24534634/", "source": "Gastroenterology", "year": 2014, "type": "review" },
-    { "id": 6, "title": "Identification of causative foods in children with eosinophilic esophagitis treated with an elimination diet", "url": "https://pubmed.ncbi.nlm.nih.gov/22743304/", "source": "Journal of Allergy and Clinical Immunology", "year": 2012, "type": "study" },
-    { "id": 7, "title": "Elimination diet (Grokipedia)", "url": "https://grokipedia.com/page/Elimination_diet", "source": "Grokipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 8, "title": "The use of skin prick tests and patch tests to identify causative foods in eosinophilic esophagitis", "url": "https://pubmed.ncbi.nlm.nih.gov/11842310/", "source": "Journal of Allergy and Clinical Immunology", "year": 2002, "type": "study" },
-    { "id": 9, "title": "Treatment of eosinophilic esophagitis with specific food elimination diet directed by a combination of skin prick and patch tests", "url": "https://pubmed.ncbi.nlm.nih.gov/16279563/", "source": "Annals of Allergy, Asthma & Immunology", "year": 2005, "type": "study" },
-    { "id": 10, "title": "Empiric 6-food elimination diet induced and maintained prolonged remission in patients with adult eosinophilic esophagitis: a prospective study on the food cause of the disease", "url": "https://pubmed.ncbi.nlm.nih.gov/23375693/", "source": "Journal of Allergy and Clinical Immunology", "year": 2013, "type": "study" },
-    { "id": 11, "title": "Current approaches to diagnosis and treatment of celiac disease: an evolving spectrum", "url": "https://pubmed.ncbi.nlm.nih.gov/11179241/", "source": "Gastroenterology", "year": 2001, "type": "review" },
-    { "id": 12, "title": "Chronic enteropathies in dogs: evaluation of risk factors for negative outcome", "url": "https://pubmed.ncbi.nlm.nih.gov/17708389/", "source": "Journal of Veterinary Internal Medicine", "year": 2007, "type": "study" },
-    { "id": 13, "title": "Acne (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Acne", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" }
-  ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Elimination_diet", "title": "Elimination diet (Wikipedia)" },
-    { "url": "https://en.wikipedia.org/wiki/Acne", "title": "Acne (Wikipedia)" }
+  [
+   "Supervision",
+   "Dietitian guidance strongly recommended[1]"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "subs": [
+    {
+     "h": "Phases",
+     "paras": [
+      "Wikipedia describes four stages. In the elimination phase the diet must be comprehensive, contain only foods unlikely to cause reactions and be nutritionally complete, with food, medication and symptom records kept throughout; temporary worsening or withdrawal symptoms can occur in the first weeks.[1] In the assessment phase, clinical improvement usually appears within two to four weeks of strict adherence, and if nothing changes food intolerance is considered unlikely.[1]",
+      "In the challenge phase, foods are reintroduced one at a time, but only after symptoms have cleared or substantially improved and after at least two weeks on the diet; challenges can use purified chemicals in double-blind, placebo-controlled testing.[1] The final treatment diet restricts only the compounds that caused reactions, and restrictions are relaxed over time where possible.[1]"
+     ]
+    },
+    {
+     "h": "Common targets and variants",
+     "paras": [
+      "Common targets include dairy, wheat, eggs, soy, nuts, fish and shellfish. The six-food version used in eosinophilic esophagitis research removes the most common allergens together, and smaller one-food (milk) and four-food (milk, egg, wheat, soy) versions have been compared against it.[2][3][6][16][17] Grokipedia describes symptom diaries, a hypoallergenic base diet and a two- to six-week elimination phase.[7]",
+      "Wikipedia lists related approaches including the low-FODMAP diet, gluten-free and casein-free diets, the specific carbohydrate diet and the study of salicylate sensitivity.[1]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Wikipedia credits Albert Rowe with proposing the concept in 1926 and describing it in his 1941 book on elimination diets and the patient's allergies.[1] In 1978 the Australian researchers Gibson and Clancy published an exclusion diet to remove specific dietary chemicals, and in 1980 applied it to chronic idiopathic urticaria; this work laid the groundwork for later double-blind, placebo-controlled food intolerance trials.[1]"
+   ]
+  },
+  {
+   "h": "Medical applications",
+   "subs": [
+    {
+     "h": "Eosinophilic esophagitis",
+     "paras": [
+      "Eosinophilic esophagitis (EoE) is an allergic inflammatory condition in which eosinophils accumulate in the esophagus, causing swallowing difficulty, food impaction, vomiting and, in young children, feeding problems and poor weight gain.[18] Because allergy testing does not reliably predict which foods trigger it, dietary treatment is built on elimination and reintroduction.[18] Wikipedia describes a six-food version that removes cow's milk, wheat, egg, soy, nuts and fish or seafood, usually for about six weeks, and less restrictive four-group and two-group versions that may be easier to follow.[18] An elemental, amino-acid-based formula diet is a stricter option, with response rates reported at about 90 percent in children and 70 percent in adults.[18]",
+      "These dietary approaches sit alongside proton-pump inhibitors, swallowed corticosteroids and the biologic dupilumab, which the US FDA approved for EoE in May 2022.[18] Patients who respond to an elimination phase then reintroduce foods one at a time, with repeat endoscopy, to identify the culprits.[4]"
+     ]
+    },
+    {
+     "h": "Skin conditions",
+     "paras": [
+      "Diet is rarely the direct cause of skin disease, but associations have been studied. Wikipedia's acne article describes the evidence linking dairy to acne as weak and mostly observational, and says several randomised and non-randomised studies found that a lower-glycaemic-load diet reduced acne, while it reports that available evidence does not support a link between chocolate or salt and acne severity.[13] People who test dairy, sugar or wheat removal for their skin are therefore working from a mixture of observational associations, trial evidence on glycaemic load and personal experience, and no trial has tested an elimination-and-challenge protocol for cosmetic skin outcomes.[13]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "subs": [
+    {
+     "h": "Eosinophilic esophagitis",
+     "paras": [
+      "In eosinophilic esophagitis, a retrospective study of a six-food elimination diet in children reported clinical and histologic responses.[3] A study in 50 adults assessed a six-food elimination diet followed by food reintroduction to identify causative foods and reported histologic response, symptom and quality-of-life improvements.[4] A systematic review and meta-analysis examined dietary interventions for histologic remission.[5] Other studies used skin prick and patch tests to direct food elimination, and a prospective study examined an empiric six-food diet in adults.[8][9][10]",
+      "A 2023 multicentre trial in 129 adults compared a one-food (milk) diet with a six-food diet over six weeks: histological remission was 34 percent with one food and 40 percent with six, a difference that was not statistically significant, while complete remission was significantly higher with six foods.[17] A 2025 trial in 63 children aged 6 to 17 compared a one-food (milk) diet with a four-food diet for 12 weeks and found similar histologic remission rates (about 44 and 41 percent) and quality-of-life scores, with a larger symptom improvement and higher withdrawal rate on the four-food diet; the authors called the one-food diet a reasonable first-choice therapy.[16]"
+     ]
+    },
+    {
+     "h": "Other conditions",
+     "paras": [
+      "A 2025 randomised, sham-controlled trial in 238 people with irritable bowel syndrome tested a diet guided by an IgG antibody assay; 59.6 percent of the experimental diet group met the abdominal-pain endpoint compared with 42.1 percent of the sham group, with the authors calling for a larger validating study.[15] A 2001 review addressed gluten elimination in coeliac disease, where gluten removal leads to mucosal recovery in genetically susceptible people.[11] A study in dogs with chronic enteropathies used an elimination diet trial and is veterinary research, not human.[12]",
+      "Guidelines from the American Academy of Allergy, Asthma and Immunology for atopic dermatitis (eczema) include recommendations addressing dietary avoidance and elimination among their clinical questions.[14]"
+     ]
+    },
+    {
+     "h": "Skin and acne",
+     "paras": [
+      "No clinical studies of elimination diets for acne or other cosmetic skin outcomes were found. Wikipedia's acne article describes the evidence linking dairy and acne as weak and observational, with lower-glycaemic-load diets better supported.[13]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Risks and controversies",
+   "paras": [
+    "Wikipedia notes symptoms may worsen briefly at the start, the diet needs to be nutritionally complete and strict forms are generally not recommended during pregnancy; people with a history of asthma, laryngeal oedema or anaphylaxis may need hospital-based testing with resuscitation facilities.[1] Grokipedia also notes the risk of lower calcium, iron or fibre intake if the diet is prolonged without guidance.[7] Because intolerance reactions can be delayed by up to 48 hours and may vary with dose, identifying culprits can be difficult, and accidental exposure can stop symptoms from resolving.[1]",
+    "Wikipedia reports that the field of food allergy and intolerance has long lacked universal definitions and diagnostic standards, and that Vega machine testing has not been shown to be effective.[1] Skin prick and blood tests can help identify immediate allergic reactions but can yield false positives.[1]"
+   ]
+  },
+  {
+   "h": "In looksmaxxing culture",
+   "paras": [
+    "Elimination approaches are discussed in skin-focused communities as a way to test personal triggers such as dairy or sugar, often framed as removing foods for a few weeks and watching the skin.[13] Proponents describe the method as a personalised alternative to one-size-fits-all skin diets, while dietitian guidance is the recommended route in the medical literature.[1]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1926",
+   "event": "Albert Rowe proposes the elimination diet concept.[1]"
+  },
+  {
+   "year": "1941",
+   "event": "Rowe describes elimination diets in a book on allergies.[1]"
+  },
+  {
+   "year": "1978",
+   "event": "Gibson and Clancy publish an exclusion diet for dietary chemical triggers.[1]"
+  },
+  {
+   "year": "1980",
+   "event": "Gibson and Clancy apply the exclusion diet to chronic idiopathic urticaria.[1]"
+  },
+  {
+   "year": "2012",
+   "event": "Study of six-food elimination in adults with eosinophilic esophagitis.[4]"
+  },
+  {
+   "year": "2023",
+   "event": "Randomised trial compares one-food and six-food diets in adults with eosinophilic esophagitis.[17]"
+  }
+ ],
+ "lore": {
+  "intro": "Elimination diets are discussed in appearance communities as a route to personal skin triggers, usually alongside dairy and sugar removal.",
+  "claims": [
+   {
+    "claim": "Removing trigger foods can reveal and clear personal acne or skin triggers",
+    "believers": "Proponents say removing common irritants such as dairy and then reintroducing them shows which foods affect their skin.",
+    "experts": "Wikipedia's acne article describes the evidence on dairy and acne as weak and observational and says milk restriction lacked sufficient evidence as of 2014.[13] No clinical studies of elimination diets for acne were found.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Elimination diets identify food allergies and intolerances",
+    "believers": "Advocates describe them as a standard way to find triggers when tests are inconclusive.",
+    "experts": "Wikipedia describes the exclusion-then-challenge method as used to confirm food allergy and intolerance, with skin and blood tests prone to false positives;[1] eosinophilic esophagitis studies support its use in that condition.[3][4][5]",
+    "evidence": "supported"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Elimination diet (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Elimination_diet",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Efficacy of dietary interventions for inducing histologic remission in patients with eosinophilic esophagitis: a systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24534634/",
+   "source": "Gastroenterology",
+   "year": 2014,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Effect of six-food elimination diet on clinical and histologic outcomes in eosinophilic esophagitis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16860614/",
+   "source": "Clinical Gastroenterology and Hepatology",
+   "year": 2006,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Elimination diet effectively treats eosinophilic esophagitis in adults; food reintroduction identifies causative factors",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22391333/",
+   "source": "Gastroenterology",
+   "year": 2012,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Efficacy of dietary interventions for inducing histologic remission in patients with eosinophilic esophagitis: a systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24534634/",
+   "source": "Gastroenterology",
+   "year": 2014,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Identification of causative foods in children with eosinophilic esophagitis treated with an elimination diet",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22743304/",
+   "source": "Journal of Allergy and Clinical Immunology",
+   "year": 2012,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Elimination diet (Grokipedia)",
+   "url": "https://grokipedia.com/page/Elimination_diet",
+   "source": "Grokipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 8,
+   "title": "The use of skin prick tests and patch tests to identify causative foods in eosinophilic esophagitis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11842310/",
+   "source": "Journal of Allergy and Clinical Immunology",
+   "year": 2002,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "Treatment of eosinophilic esophagitis with specific food elimination diet directed by a combination of skin prick and patch tests",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16279563/",
+   "source": "Annals of Allergy, Asthma & Immunology",
+   "year": 2005,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Empiric 6-food elimination diet induced and maintained prolonged remission in patients with adult eosinophilic esophagitis: a prospective study on the food cause of the disease",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23375693/",
+   "source": "Journal of Allergy and Clinical Immunology",
+   "year": 2013,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "Current approaches to diagnosis and treatment of celiac disease: an evolving spectrum",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11179241/",
+   "source": "Gastroenterology",
+   "year": 2001,
+   "type": "review"
+  },
+  {
+   "id": 12,
+   "title": "Chronic enteropathies in dogs: evaluation of risk factors for negative outcome",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17708389/",
+   "source": "Journal of Veterinary Internal Medicine",
+   "year": 2007,
+   "type": "study"
+  },
+  {
+   "id": 13,
+   "title": "Acne (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Acne",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 14,
+   "title": "Atopic Dermatitis (Eczema) Guidelines 2023: Highlights",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39251015/",
+   "source": "J Allergy Clin Immunol Pract",
+   "year": 2024,
+   "type": "guideline"
+  },
+  {
+   "id": 15,
+   "title": "A Novel, IBS-Specific IgG ELISA-Based Elimination Diet in Irritable Bowel Syndrome: A Randomized, Sham-Controlled Trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39894284/",
+   "source": "Gastroenterology",
+   "year": 2025,
+   "type": "study"
+  },
+  {
+   "id": 16,
+   "title": "One-food versus 4-food elimination diet for pediatric eosinophilic esophagitis: A multisite randomized trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39233016/",
+   "source": "J Allergy Clin Immunol",
+   "year": 2025,
+   "type": "study"
+  },
+  {
+   "id": 17,
+   "title": "One-food versus six-food elimination diet therapy for the treatment of eosinophilic oesophagitis: a multicentre, randomised, open-label trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36863390/",
+   "source": "Lancet Gastroenterol Hepatol",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 18,
+   "title": "Eosinophilic esophagitis - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eosinophilic_esophagitis",
+   "source": "Wikipedia",
+   "year": 2024,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Elimination_diet",
+   "title": "Elimination diet (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Acne",
+   "title": "Acne (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Eosinophilic_esophagitis",
+   "title": "Eosinophilic esophagitis - Wikipedia"
+  }
+ ],
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "Remove suspected trigger foods for a set period",
+   "Watch skin and symptoms in a diary",
+   "Reintroduce one food at a time to identify personal triggers"
+  ],
+  "effect": "indirect",
+  "text": "Some people with food-linked skin reactions such as hives or eczema use an elimination diet to find which foods set them off, with the aim of calmer, clearer skin. The method identifies individual triggers rather than a universal skin diet."
+ }
 }

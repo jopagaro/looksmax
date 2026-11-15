@@ -1,62 +1,5 @@
 {
  "name": "Tooth filing / enamel shaving DIY",
- "lead": [
-  "Tooth filing or enamel shaving at home is the practice of using a file, sanding tool or similar abrasive to alter the shape, length or shade of one's own teeth without a dentist. Participants in appearance forums discuss it as a way to even out edges or lighten teeth.",
-  "Dentists perform a supervised version called odontoplasty, enameloplasty or contouring, which reshapes teeth by removing part of the enamel.[5] Enamel does not regenerate, so removal is permanent.[3][5]",
-  "No studies of do-it-yourself enamel removal were found. This article describes the practice and what dental sources report about enamel and professional contouring, and does not give instructions."
- ],
- "infobox": [
-  [
-   "Type",
-   "DIY dental alteration"
-  ],
-  [
-   "Professional equivalent",
-   "Odontoplasty / enameloplasty"
-  ],
-  [
-   "Reversibility",
-   "Enamel does not regenerate"
-  ],
-  [
-   "Studies",
-   "None found"
-  ]
- ],
- "sections": [
-  {
-   "h": "Description",
-   "paras": [
-    "Home enamel removal involves abrasive tools applied to the teeth to change shape, smooth chips, or attempt shade change. Its professional counterpart, odontoplasty, can repair a small chip or alter the length, shape or position of a tooth, and is sometimes described as an alternative to braces in selected cases.[5]"
-   ]
-  },
-  {
-   "h": "Enamel and its limits",
-   "paras": [
-    "Enamel is about 96 percent mineral and contains no cells, blood vessels or nerves; the cells that formed it are lost before the tooth erupts, so the body cannot regenerate it.[3] Remineralisation can repair some early damage, but dentists cannot restore lost enamel.[3] It is thickest at the cusps, up to about 2.5 mm, and thinner near the gumline.[3] Normal wear is estimated at about 8 micrometres per year.[3]"
-   ]
-  },
-  {
-   "h": "Professional context",
-   "paras": [
-    "Dentists who contour teeth note that removal is permanent and may sometimes expose dentin.[5] Dental polishing, a routine office procedure, is reported to remove about one micron of enamel per treatment, a far smaller amount.[2][6]"
-   ]
-  },
-  {
-   "h": "Reported risks",
-   "paras": [
-    "Dental sources describe loss of enamel and exposure of dentin as risks of enamel removal.[5] Tooth wear literature describes progressive wear exposing dentine, and in severe cases the pulp.[4] Enamel left without dentin underneath is described as more prone to fracture.[3] Because stains inside a tooth originate in dentin or enamel structure, abrasion of the surface does not change intrinsic colour.[1][2]"
-   ]
-  },
-  {
-   "h": "Clinical studies",
-   "paras": [
-    "No studies found."
-   ]
-  }
- ],
- "timeline": [],
- "lore": null,
  "card": {
   "summary": "Home filing or sanding of teeth for shape or shade; dentists describe enamel loss as permanent and no studies exist.",
   "aka": "DIY odontoplasty, enamel sanding",
@@ -70,51 +13,200 @@
   "mechanism": "Abrasive tools physically remove enamel. Because enamel has no cells and does not regrow, the change is permanent.",
   "risks": "Dental sources describe permanent enamel loss, possible dentin exposure and greater fracture risk in thinned enamel. No safety data exist for unsupervised home use."
  },
+ "lead": [
+  "Tooth filing or enamel shaving at home is the practice of abrading one's own teeth with abrasive tools to change how they look: smoothing a chip, evening an edge, shortening a tooth, or rounding or sharpening a canine. People who do it are generally aiming for a more even smile line or a different tooth shape without the cost of braces, bonding or veneers.[1][2]",
+  "The professional version is called odontoplasty, enameloplasty or cosmetic contouring. A dentist trims small amounts of enamel to fix a chip or alter the length, shape or position of a tooth, and Wikipedia notes it is sometimes used as a faster alternative to braces in selected cases.[1] Bonding, veneers and orthodontic aligners are the usual alternatives.[1]",
+  "Tooth filing also has a long history as a cultural practice, from the Balinese Metatah rite to Central African and Mesoamerican traditions.[3][4][9] No published study of unsupervised home filing for cosmetic reasons was found; the literature that exists describes ritual filing and professional contouring, and dental references describe enamel as tissue that the body cannot regenerate.[6]"
+ ],
+ "angle": {
+  "goal": "Teeth",
+  "chain": [
+   "Abrasive tool removes part of the enamel surface",
+   "Tooth edge, length or shape changes",
+   "Smile line looks more even or differently shaped"
+  ],
+  "effect": "direct",
+  "text": "Filing changes the physical outline of a tooth, so a chipped, pointed or uneven edge can look smoother or a canine can look less prominent. The change is made by removing enamel, which is why dentists treat it as a permanent alteration."
+ },
+ "infobox": [
+  [
+   "Type",
+   "DIY dental alteration"
+  ],
+  [
+   "Professional equivalent",
+   "Odontoplasty / enameloplasty (also called contouring or stripping)"
+  ],
+  [
+   "Reversibility",
+   "Enamel does not regenerate"
+  ],
+  [
+   "Cultural forms",
+   "Balinese Metatah, Mentawai, Central African and Mesoamerican filing"
+  ],
+  [
+   "Studies",
+   "No studies of home filing found"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Home enamel removal uses abrasive tools applied to the teeth to change their shape, smooth chips or attempt a change of shade. The professional counterpart, odontoplasty, can repair a small chip or alter tooth length, shape or position and address differences in tooth size.[1] Wikipedia notes that general dentists may carry out simple cosmetic procedures, that the American Dental Association does not recognise cosmetic dentistry as a specialty, and that results are fast.[1]",
+    "Alternatives that avoid removing tooth structure include bonding, in which tooth-coloured composite is added, shaped, hardened and polished, and orthodontic braces or aligners. Veneers are thin porcelain laminates that usually need some tooth reduction as well.[1]"
+   ]
+  },
+  {
+   "h": "Enamel and its limits",
+   "paras": [
+    "Enamel is about 96 percent mineral and contains no cells, blood vessels or nerves; the cells that formed it are lost before the tooth erupts, so the body cannot regenerate it.[6] Remineralisation can repair some early damage, but lost enamel cannot be restored.[6] Enamel is thickest at the cusps, up to about 2.5 mm, and thinner near the gumline, and normal wear is estimated at about 8 micrometres per year.[6]",
+    "Dental polishing, a routine office procedure, is reported to remove about one micron of enamel per treatment, a far smaller amount than contouring.[7][8] Because stains inside a tooth originate in dentin or enamel structure, abrading the surface does not change intrinsic colour.[7][8]"
+   ]
+  },
+  {
+   "h": "History and cultural practice",
+   "paras": [
+    "Tooth filing has been practised in many societies, usually for spiritual or social reasons. In Bali, teenagers undergo the coming-of-age rite Potong gigi, in which the teeth are filed; in Bali the teeth are flattened rather than sharpened.[9] A 2026 survey of 55 Balinese people found that 49 had undergone the Metatah ceremony involving the six maxillary anterior teeth. About half said filing continued until the incisal edges were smooth and the canines were reshaped to reduce sharpness, and the reasons given included removing the six enemies of the mind (60 percent) and marking the passage to adulthood (25 percent).[3] Most participants said it was not painful and about a quarter reported moderate pain.[3]",
+    "Wikipedia reports that around 1910 Herero youths had their upper teeth filed into a V shape, that Upoto men and women in central Congo filed their teeth, and that David Livingstone's journals recorded filing among several East and Central African groups. Remojadas figurines from Mexico depict filed teeth, and the Mentawai of Indonesia have a long tradition of tooth sharpening.[9] Traditional meanings include separating people from animal instincts, suppressing anger and jealousy, protecting against evil, marking adulthood and signalling beauty or status.[9] A 1962 Japanese report described a case of tooth filing in a Yayoi-period skeleton excavated in Kagoshima.[10]"
+   ]
+  },
+  {
+   "h": "Research on filing",
+   "paras": [
+    "A cross-sectional study of 56 Baka people in Cameroon with ritual tooth modification, carried out in 2012, found that the filing was usually done around age 12, that 58.9 percent described it as painful, and that 64.3 percent reported persistent pain afterwards. Intra-oral examination found tooth wear scores of 2, 3 and 4 in 42.9, 12.5 and 7.1 percent of participants respectively.[4] Older papers describe tooth filing in Bali in dental journals of 1975 and 1982.[11][5]"
+   ]
+  },
+  {
+   "h": "Reported risks",
+   "paras": [
+    "Dental references describe loss of enamel and the possible exposure of dentin as the risks of contouring.[1] The tooth wear literature describes progressive wear exposing dentine and, in severe cases, the pulp.[12] Enamel without dentin beneath it is described as more prone to fracture.[6] These sources describe professional contouring or wear in general, and no safety data exist for unsupervised home filing."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found of home tooth filing for cosmetic purposes. Related research includes the cross-sectional studies of ritual filing in Cameroon and Bali described above.[3][4]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1875",
+   "event": "David Livingstone's journals record tooth filing among East and Central African groups.[9]"
+  },
+  {
+   "year": "c. 1910",
+   "event": "Herero youths had upper teeth filed into a V shape, according to Wikipedia.[9]"
+  },
+  {
+   "year": "1975",
+   "event": "Dental journal paper describes tooth filing in Bali.[11]"
+  },
+  {
+   "year": "2012",
+   "event": "Study of ritual tooth modification among the Baka of Cameroon.[4]"
+  },
+  {
+   "year": "2025",
+   "event": "Survey of Balinese people on the Metatah ritual (published 2026).[3]"
+  }
+ ],
+ "lore": null,
  "refs": [
   {
    "id": 1,
-   "title": "Toothpaste (Wikipedia)",
-   "url": "https://en.wikipedia.org/wiki/Toothpaste",
-   "source": "Wikipedia",
-   "year": 2025,
-   "type": "encyclopedia"
-  },
-  {
-   "id": 2,
-   "title": "Tooth bleaching (Wikipedia)",
-   "url": "https://en.wikipedia.org/wiki/Tooth_bleaching",
-   "source": "Wikipedia",
-   "year": 2025,
-   "type": "encyclopedia"
-  },
-  {
-   "id": 3,
-   "title": "Tooth enamel (Wikipedia)",
-   "url": "https://en.wikipedia.org/wiki/Tooth_enamel",
-   "source": "Wikipedia",
-   "year": 2025,
-   "type": "encyclopedia"
-  },
-  {
-   "id": 4,
-   "title": "Tooth wear (Wikipedia)",
-   "url": "https://en.wikipedia.org/wiki/Tooth_wear",
-   "source": "Wikipedia",
-   "year": 2025,
-   "type": "encyclopedia"
-  },
-  {
-   "id": 5,
-   "title": "Odontoplasty (Wikipedia)",
+   "title": "Odontoplasty",
    "url": "https://en.wikipedia.org/wiki/Odontoplasty",
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
   },
   {
+   "id": 2,
+   "title": "Toothpaste",
+   "url": "https://en.wikipedia.org/wiki/Toothpaste",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Ritual tooth modification in Bali (Metatah): Implications for dental assessment",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41895228/",
+   "source": "Morphologie",
+   "year": 2026,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Ritual tooth modification among the Baka pygmies in Cameroon",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26930771/",
+   "source": "Odontostomatol Trop",
+   "year": 2015,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Tooth filing in Bali",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6951624/",
+   "source": "CAL",
+   "year": 1982,
+   "type": "study"
+  },
+  {
    "id": 6,
-   "title": "Dental polishing (Wikipedia)",
+   "title": "Tooth enamel",
+   "url": "https://en.wikipedia.org/wiki/Tooth_enamel",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 7,
+   "title": "Tooth bleaching",
+   "url": "https://en.wikipedia.org/wiki/Tooth_bleaching",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 8,
+   "title": "Dental polishing",
    "url": "https://en.wikipedia.org/wiki/Dental_polishing",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 9,
+   "title": "Tooth filing",
+   "url": "https://en.wikipedia.org/wiki/Tooth_filing",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 10,
+   "title": "A case of tooth filing observed in the Yayoi-Period ancients, excavated at the Hirota site, Kagoshima Prefecture, Japan",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/13937099/",
+   "source": "Fukuoka Igaku Zasshi",
+   "year": 1962,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "Tooth-filing in Bali",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1058921/",
+   "source": "J Am Dent Assoc",
+   "year": 1975,
+   "type": "study"
+  },
+  {
+   "id": 12,
+   "title": "Tooth wear",
+   "url": "https://en.wikipedia.org/wiki/Tooth_wear",
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
@@ -144,6 +236,10 @@
   {
    "url": "https://en.wikipedia.org/wiki/Dental_polishing",
    "title": "Dental polishing - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Tooth_filing",
+   "title": "Tooth filing - Wikipedia"
   }
  ]
 }

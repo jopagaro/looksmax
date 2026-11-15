@@ -1,27 +1,273 @@
 {
-"name":"SLU-PP-332",
-"lead":["SLU-PP-332 is an experimental synthetic agonist of the estrogen-related receptors (ERR alpha, beta and gamma), described by its developers as an exercise mimetic because it triggered an exercise-like gene program and increased running capacity in mice.[2][1]","Published results come from mice and cell studies, including models of metabolic syndrome, heart failure and kidney aging.[3][4][5] No human trial results have been published. Anti-doping laboratories have published methods for detecting it.[6][9]"],
-"infobox":[["Type","Research compound (pan-ERR agonist)"],["Targets","ERR alpha, beta, gamma"],["Status","Preclinical; not approved"],["Human data","None found"]],
-"sections":[
-{"h":"Pharmacology","paras":["SLU-PP-332 activates ERR alpha, beta and gamma, nuclear receptors that regulate mitochondrial and fatty acid metabolism in muscle and heart. A 2023 study reported that it induced an ERR-alpha-dependent acute aerobic exercise response in mice.[2]"]},
-{"h":"Preclinical research","paras":["In mice it enhanced exercise capacity,[2] and in a mouse model of metabolic syndrome it was reported to improve metabolic parameters.[4] Related pan-ERR agonists were reported to improve cardiac metabolism in heart failure models,[1] and the compound reversed mitochondrial dysfunction and inflammation in aging mouse kidney.[3] A 2025 pilot study examined ERR targeting for age-related muscle atrophy from inactivity.[5] Chemical optimization work and a related compound, SLU-PP-915, have been reported.[8][10]"]},
-{"h":"Clinical studies","paras":["No studies found. All published research is in cells and animals."]},
-{"h":"Society and culture","paras":["Analytical chemists have published in vitro metabolism studies of SLU-PP-332 for doping control, describing it as having doping potential.[6][9] It is sold online as a research compound and is not approved as a medicine."]}
-],
-"timeline":[{"year":"2023","event":"Exercise-mimetic activity in mice published.[2]"},{"year":"2024","event":"Metabolic syndrome study in mice.[4]"},{"year":"2026","event":"Doping-control metabolism studies published.[6][9]"}],
-"lore":null,
-"refs":[
-{"id":1,"title":"Novel Pan-ERR Agonists Ameliorate Heart Failure Through Enhancing Cardiac Fatty Acid Metabolism and Mitochondrial Function","url":"https://pubmed.ncbi.nlm.nih.gov/37961903/","source":"Circulation","year":2024,"type":"study"},
-{"id":2,"title":"Synthetic ERRalpha/beta/gamma Agonist Induces an ERRalpha-Dependent Acute Aerobic Exercise Response and Enhances Exercise Capacity","url":"https://pubmed.ncbi.nlm.nih.gov/36988910/","source":"ACS Chemical Biology","year":2023,"type":"study"},
-{"id":3,"title":"Estrogen-Related Receptor Agonism Reverses Mitochondrial Dysfunction and Inflammation in the Aging Kidney","url":"https://pubmed.ncbi.nlm.nih.gov/37717940/","source":"Am J Pathol","year":2023,"type":"study"},
-{"id":4,"title":"A Synthetic ERR Agonist Alleviates Metabolic Syndrome","url":"https://pubmed.ncbi.nlm.nih.gov/37739806/","source":"J Pharmacol Exp Ther","year":2024,"type":"study"},
-{"id":5,"title":"Targeting ERRs to counteract age-related muscle atrophy associated with physical inactivity: a pilot study","url":"https://pubmed.ncbi.nlm.nih.gov/40692696/","source":"Front Physiol","year":2025,"type":"study"},
-{"id":6,"title":"In Vitro Metabolism and Analytical Characterization of SLU-PP-332 and SLU-PP-915","url":"https://pubmed.ncbi.nlm.nih.gov/41588687/","source":"Rapid Commun Mass Spectrom","year":2026,"type":"study"},
-{"id":8,"title":"Chemical optimization of the exercise mimetic SLU-PP-332","url":"https://pubmed.ncbi.nlm.nih.gov/41850449/","source":"Int J Biol Macromol","year":2026,"type":"study"},
-{"id":9,"title":"Analysis and Identification of In Vitro Metabolites of SLU-PP-332 for Doping-Control Purposes","url":"https://pubmed.ncbi.nlm.nih.gov/41688415/","source":"Drug Testing and Analysis","year":2026,"type":"study"},
-{"id":10,"title":"An orally active ERR agonist, SLU-PP-915, enhances aerobic exercise capacity","url":"https://pubmed.ncbi.nlm.nih.gov/41421047/","source":"J Pharmacol Exp Ther","year":2026,"type":"study"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/SLU-PP-332","title":"SLU-PP-332 - Wikipedia"}],
-"card":{"summary":"Mouse-tested ERR agonist billed as an exercise mimetic; no human data exist.","aka":null,"evidence":"unproven","status":"research","risk":null,"price":null,"note":"Preclinical only; detectable by anti-doping labs.","structure":null},
-"quick":{"overview":"SLU-PP-332 is an experimental compound that activates estrogen-related receptors and, in mice, produced an exercise-like response and better running capacity.\n\nStudies are limited to mice and cells, and no human results are published.","mechanism":"It activates ERR alpha, beta and gamma, receptors that control mitochondrial and fat metabolism in muscle.","risks":"Human safety is unknown. It is not an approved drug, and doping-control methods for it have been published."}
+ "name": "SLU-PP-332",
+ "lead": [
+  "SLU-PP-332 is an experimental synthetic agonist of the estrogen-related receptors (ERR alpha, beta and gamma), described by its developers as an exercise mimetic because it triggered an exercise-like gene program and increased running capacity in mice.[2][1] People interested in it for appearance cite the mouse findings of more oxidative muscle fibers, greater fat oxidation and less fat gain, which they link to a leaner physique and better endurance.[2][4]",
+  "Published results come from mice and cell studies, including models of metabolic syndrome, heart failure and kidney aging.[3][4][5] The compound was reported by a team led by Thomas Burris of the University of Florida with collaborators at Washington University in St. Louis and Saint Louis University (the source of the SLU in its name).[11] No human trial results have been published. Anti-doping laboratories have published methods for detecting it.[6][9]",
+  "It is sold online as a research chemical and is not approved as a medicine; the discussion below describes what researchers and forum users report, not instructions."
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Research compound (pan-ERR agonist)"
+  ],
+  [
+   "Targets",
+   "ERR alpha, beta, gamma"
+  ],
+  [
+   "Status",
+   "Preclinical; not approved"
+  ],
+  [
+   "Human data",
+   "None found"
+  ],
+  [
+   "Formula",
+   "C18H14N2O2; 290.322 g/mol [13]"
+  ],
+  [
+   "Potency",
+   "ERR alpha EC50 98 nM [13]"
+  ],
+  [
+   "Related compound",
+   "SLU-PP-915 (oral)[10]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Pharmacology",
+   "paras": [
+    "SLU-PP-332 activates ERR alpha, beta and gamma, nuclear receptors that regulate mitochondrial and fatty acid metabolism in muscle and heart. A 2023 study reported that it induced an ERR-alpha-dependent acute aerobic exercise response in mice.[2]",
+    "Wikipedia describes SLU-PP-332 as a potent but non-selective ERR agonist, strongest on ERR alpha, with an EC50 of 98 nM, and lists a patent assigned to Ligand Pharmaceuticals in its references.[13] The original characterization reported that it has the highest potency for ERR alpha, enough pharmacokinetic quality for use as an in vivo tool, and that it raised mitochondrial function and cellular respiration in a skeletal muscle cell line.[2] A systematic review reported induction of exercise-like gene expression including Ddit4 and Slc25a25, enhanced fatty acid oxidation and more type IIa fibers.[14]"
+   ]
+  },
+  {
+   "h": "Preclinical research",
+   "paras": [
+    "In the 2023 ACS Chemical Biology paper, mice given SLU-PP-332 had more type IIa oxidative skeletal muscle fibers and greater exercise endurance, and the compound induced an ERR-alpha-dependent acute aerobic exercise gene program.[2] The University of Florida release on the follow-up work says normal-weight treated mice ran about 70 percent longer and 45 percent further than untreated mice in the earlier study, and that obese mice treated twice daily for a month gained about 10 times less fat and lost 12 percent of body weight with unchanged food intake and activity. Burris described it there as telling skeletal muscle to make the same changes seen during endurance training, and listed possible uses as preserving muscle during weight loss and supporting muscle function with aging, while stating results so far are from mice.[11]",
+    "The 2024 metabolic syndrome paper reported that in diet-induced obese and ob/ob mice the compound increased energy expenditure and fatty acid oxidation, decreased fat mass accumulation and improved insulin sensitivity.[4]",
+    "In a pressure-overload heart failure model, SLU-PP-332 and SLU-PP-915 improved ejection fraction, reduced fibrosis and increased survival without affecting cardiac hypertrophy, with activation of fatty acid metabolism genes.[1] In 21-month-old mice treated for eight weeks, a pan-ERR agonist reversed age-related albuminuria, podocyte loss, mitochondrial dysfunction and inflammatory cytokines via the cGAS-STING and STAT3 pathways, similar to lifelong caloric restriction.[3]",
+    "A 2025 pilot study examined ERR targeting in myoblasts isolated from skeletal muscle of inactive women as an approach to age-related muscle atrophy from inactivity.[5] The compound lacks oral bioavailability, and SLU-PP-915 was developed as an orally active analogue that also enhanced aerobic exercise capacity in mice.[10] A structure-activity analysis in 2026 described analogues with improved solubility or metabolic stability.[8] A 2026 systematic review of preclinical studies reported reduced adiposity, better glycemic control and higher basal energy expenditure in obesity models without evident toxicity.[14]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found. All published research is in cells and animals."
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "The World Anti-Doping Agency prohibits exercise mimetics and metabolic modulators in sport, and analytical chemists have published in vitro metabolism studies of SLU-PP-332 and SLU-PP-915 for doping control, describing it as having doping potential.[6][9][15] It is sold online as a research compound and is not approved as a medicine.",
+    "Use in forum culture: On the T Nation forum, the compound appears in 2024 to 2026 threads about endurance, fat loss and performance. One member lists it with testosterone and methylene blue in an endurance-oriented plan,[16] another says they might add it to a fat-loss combination,[17] and a 2025 thread simply asks whether anyone has used it.[20] A 2026 thread titled with the phrase 'exercise in a syringe' includes an AI chatbot's summary of the compound, which is not a clinical source.[18] The posts are individual accounts without controlled data."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2022",
+   "event": "Preprints describe the ERR agonist and heart failure work.[19]"
+  },
+  {
+   "year": "2023",
+   "event": "Exercise-mimetic activity in mice published.[2]"
+  },
+  {
+   "year": "Sept 2023",
+   "event": "University of Florida team publishes metabolic syndrome study in mice; news coverage describes an exercise-mimicking drug.[4][11]"
+  },
+  {
+   "year": "2024",
+   "event": "Metabolic syndrome study in mice.[4]"
+  },
+  {
+   "year": "2026",
+   "event": "Doping-control metabolism studies published.[6][9]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Novel Pan-ERR Agonists Ameliorate Heart Failure Through Enhancing Cardiac Fatty Acid Metabolism and Mitochondrial Function",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37961903/",
+   "source": "Circulation",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 2,
+   "title": "Synthetic ERRalpha/beta/gamma Agonist Induces an ERRalpha-Dependent Acute Aerobic Exercise Response and Enhances Exercise Capacity",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36988910/",
+   "source": "ACS Chemical Biology",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Estrogen-Related Receptor Agonism Reverses Mitochondrial Dysfunction and Inflammation in the Aging Kidney",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37717940/",
+   "source": "Am J Pathol",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "A Synthetic ERR Agonist Alleviates Metabolic Syndrome",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37739806/",
+   "source": "J Pharmacol Exp Ther",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Targeting ERRs to counteract age-related muscle atrophy associated with physical inactivity: a pilot study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40692696/",
+   "source": "Front Physiol",
+   "year": 2025,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "In Vitro Metabolism and Analytical Characterization of SLU-PP-332 and SLU-PP-915",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41588687/",
+   "source": "Rapid Commun Mass Spectrom",
+   "year": 2026,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Chemical optimization of the exercise mimetic SLU-PP-332",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41850449/",
+   "source": "Int J Biol Macromol",
+   "year": 2026,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "Analysis and Identification of In Vitro Metabolites of SLU-PP-332 for Doping-Control Purposes",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41688415/",
+   "source": "Drug Testing and Analysis",
+   "year": 2026,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "An orally active ERR agonist, SLU-PP-915, enhances aerobic exercise capacity",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41421047/",
+   "source": "J Pharmacol Exp Ther",
+   "year": 2026,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "Exercise-mimicking drug sheds weight, boosts muscle activity in mice",
+   "url": "https://news.ufl.edu/2023/09/exercise-mimicking-drug/",
+   "source": "University of Florida News",
+   "year": 2023,
+   "type": "news"
+  },
+  {
+   "id": 13,
+   "title": "SLU-PP-332",
+   "url": "https://en.wikipedia.org/wiki/SLU-PP-332",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 14,
+   "title": "Pharmacological Activation of ERR alpha/beta/gamma as an Exercise Mimetic: Potential Therapeutic Applications",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42024694/",
+   "source": "Rev Med Chil",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 15,
+   "title": "Analysis and Identification of In Vitro Metabolites of Exercise Mimetic SLU-PP-332 for Doping-Control Purposes",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41688415/",
+   "source": "Drug Test Anal",
+   "year": 2026,
+   "type": "study"
+  },
+  {
+   "id": 16,
+   "title": "Ultimate TRT+ protocol for endurance / performance (T Nation forum)",
+   "url": "https://t-nation.com/t/ultimate-trt-protocol-for-endurance-performance-while-remaining-health-conscious/290699",
+   "source": "T Nation",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 17,
+   "title": "Couples GH cycle (T Nation forum)",
+   "url": "https://t-nation.com/t/couples-gh-cycle/289797",
+   "source": "T Nation",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 18,
+   "title": "Exercise in a syringe? SLU-PP-322 (T Nation forum)",
+   "url": "https://t-nation.com/t/exercise-in-a-syringe-slu-pp-322/293017",
+   "source": "T Nation",
+   "year": 2026,
+   "type": "forum"
+  },
+  {
+   "id": 20,
+   "title": "Any SLU-PP-332 USERS? (T Nation forum)",
+   "url": "https://t-nation.com/t/any-slu-pp-332-users/291380",
+   "source": "T Nation",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 19,
+   "title": "A Synthetic ERR-alpha Agonist Induces an Acute Aerobic Exercise Response and Enhances Exercise Capacity (bioRxiv)",
+   "url": "https://doi.org/10.1101/2022.10.05.510974",
+   "source": "bioRxiv",
+   "year": 2022,
+   "type": "study"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/SLU-PP-332",
+   "title": "SLU-PP-332 - Wikipedia"
+  },
+  {
+   "url": "https://news.ufl.edu/2023/09/exercise-mimicking-drug/",
+   "title": "Exercise-mimicking drug sheds weight, boosts muscle activity in mice - UF News"
+  }
+ ],
+ "card": {
+  "summary": "Mouse-tested ERR agonist billed as an exercise mimetic; no human data exist.",
+  "aka": null,
+  "evidence": "unproven",
+  "status": "research",
+  "risk": null,
+  "price": null,
+  "note": "Preclinical only; detectable by anti-doping labs.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "SLU-PP-332 is an experimental compound that activates estrogen-related receptors and, in mice, produced an exercise-like response and better running capacity.\n\nStudies are limited to mice and cells, and no human results are published.",
+  "mechanism": "It activates ERR alpha, beta and gamma, receptors that control mitochondrial and fat metabolism in muscle.",
+  "risks": "Human safety is unknown. It is not an approved drug, and doping-control methods for it have been published."
+ },
+ "angle": {
+  "goal": "Endurance and leanness",
+  "chain": [
+   "Activates ERR alpha, beta and gamma in muscle",
+   "Mouse data show more oxidative fibers, higher fat oxidation and endurance",
+   "Claimed: leaner, more conditioned physique in people (untested)"
+  ],
+  "effect": "claimed",
+  "text": "In mice, the compound shifted muscle toward oxidative fibers, raised fatty acid oxidation and energy expenditure and reduced fat gain, which is why forums describe it as an 'exercise in a syringe'. No human study has tested whether this changes body composition or appearance."
+ }
 }

@@ -1,28 +1,255 @@
 {
-"name":"Mesenchymal stem cell conditioned media",
-"lead":["Mesenchymal stem cell conditioned media (MSC-CM), also called the MSC secretome, is the liquid in which mesenchymal stem cells have been grown, containing the proteins, growth factors, vesicles and other molecules they release.[1][2] Versions made from adipose-derived stem cells (ADSC-CM) are among those studied. Products based on it are marketed in serums and post-procedure treatments for regeneration.","Most of the published research is laboratory or animal work on wound healing and inflammation, and reviews describe it as a possible cell-free alternative to stem cell therapy.[3][4] Early-phase human trials are registered for conditions such as chronic ulcers and keloids; the sources reviewed here do not report their results.[5][6]"],
-"infobox":[["Also called","MSC secretome, ADSC-CM"],["Composition","Cell-secreted proteins, growth factors, vesicles"],["Routes","Topical, post-procedure, injection in trials"],["Evidence level","Limited"]],
-"sections":[
-{"h":"Description","paras":["The secretome is the set of proteins cells release outside themselves, including cytokines and growth factors; cells also release RNA and lipids in vesicles.[7] Conditioned media captures this mixture from cultured cells without containing the cells themselves, and a 2021 narrative review discusses its regenerative potential and the barriers to clinical translation.[2]"]},
-{"h":"Clinical studies","paras":["Registered human trials found in the sources are early-phase. They include a completed phase 1 study of conditioned medium on chronic ulcer wounds (38 participants),[5] a phase 1/2 trial comparing MSC, conditioned medium or triamcinolone for keloid,[6] and a phase 1 study of a conditioned-medium-derived factor for skin graft donor sites.[8] The registrations reviewed do not include results, and no trial of cosmetic serums is described."]},
-{"h":"Laboratory research","paras":["A 2018 study found that adipose-derived stem cell conditioned media and exosomes containing the long noncoding RNA MALAT1 promoted migration of human dermal fibroblasts and wound healing in an ischemic wound model.[1] A 2022 cell study reported that MSC-conditioned media reduced activation of macrophages exposed to a bacterial toxin.[9] A 2020 review described it as a possible alternative to stem cell therapy for wound healing.[3]"]},
-{"h":"Safety and concerns","paras":["A 2013 laboratory study reported that MSC-derived chemokines promoted mammary tumor cell invasion, illustrating that secreted factors can have effects not limited to repair.[10] Safety data in people in the sources reviewed are limited to small early-phase trials without published results."]}
-],
-"timeline":[],
-"lore":null,
-"refs":[
-{"id":1,"title":"Human Adipose-Derived Stem Cell Conditioned Media and Exosomes Containing MALAT1 Promote Human Dermal Fibroblast Migration and Ischemic Wound Healing","url":"https://pubmed.ncbi.nlm.nih.gov/30263873/","source":"Advances in Wound Care","year":2018,"type":"study"},
-{"id":2,"title":"Stem cell secretome, regeneration, and clinical translation: a narrative review","url":"https://pubmed.ncbi.nlm.nih.gov/33553363/","source":"Annals of Translational Medicine","year":2021,"type":"review"},
-{"id":3,"title":"Mesenchymal stem cell-conditioned media: A novel alternative of stem cell therapy for quality wound healing","url":"https://pubmed.ncbi.nlm.nih.gov/31960454/","source":"Journal of Cellular Physiology","year":2020,"type":"review"},
-{"id":4,"title":"Anti-inflammatory effects of mesenchymal stem cell-conditioned media inhibited macrophages activation in vitro","url":"https://pubmed.ncbi.nlm.nih.gov/35306509/","source":"Scientific Reports","year":2022,"type":"study"},
-{"id":5,"title":"Therapeutic Potential of Stem Cell Conditioned Medium on Chronic Ulcer Wounds (NCT04134676)","url":"https://clinicaltrials.gov/study/NCT04134676","source":"ClinicalTrials.gov","year":2019,"type":"trial"},
-{"id":6,"title":"Implantation of Mesenchymal Stem Cell, Conditioned Medium, or Triamcinolone Acetonide for Keloid (NCT04326959)","url":"https://clinicaltrials.gov/study/NCT04326959","source":"ClinicalTrials.gov","year":2020,"type":"trial"},
-{"id":7,"title":"Secretome","url":"https://en.wikipedia.org/wiki/Secretome","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":8,"title":"Mesenchymal Stem Cell-derived Pleiotropic Factor in the Treatment of Donor Sites (NCT04234750)","url":"https://clinicaltrials.gov/study/NCT04234750","source":"ClinicalTrials.gov","year":2019,"type":"trial"},
-{"id":9,"title":"Anti-inflammatory effects of mesenchymal stem cell-conditioned media inhibited macrophages activation in vitro (study)","url":"https://pubmed.ncbi.nlm.nih.gov/35306509/","source":"Scientific Reports","year":2022,"type":"study"},
-{"id":10,"title":"Mesenchymal stem cell-derived CCL-9 and CCL-5 promote mammary tumor cell invasion and the activation of matrix metalloproteinases","url":"https://pubmed.ncbi.nlm.nih.gov/23722213/","source":"Cell Adhesion & Migration","year":2013,"type":"study"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Secretome","title":"Secretome - Wikipedia"}],
-"card":{"summary":"Stem-cell secretome liquid sold for regeneration; lab promise, only early-phase human trials.","aka":"MSC secretome, ADSC-CM","evidence":"limited","status":"research","outcome":null,"risk":null,"price":null,"note":"Secreted factors can have effects beyond repair in lab studies; no cosmetic efficacy trials found.","structure":null},
-"quick":{"overview":"MSC conditioned media is the nutrient liquid in which stem cells have grown, containing the growth factors and vesicles they secrete. It is used in serums and post-procedure treatments as a cell-free regenerative ingredient.\n\nMost evidence is lab and animal wound-healing work; human trials are small and early-phase.","mechanism":"The secreted proteins, growth factors and vesicles are thought to signal to nearby cells, for example promoting fibroblast migration and dampening inflammation in cell models.","risks":"Composition varies between preparations. A laboratory study reported MSC-derived chemokines promoting tumor-cell invasion, and no long-term cosmetic safety data were found in the sources reviewed."}
+ "name": "Mesenchymal stem cell conditioned media",
+ "lead": [
+  "Mesenchymal stem cell conditioned media (MSC-CM), also called the MSC secretome, is the liquid in which mesenchymal stem cells have been grown, containing the proteins, growth factors, vesicles and other molecules they release.[1][2] Versions made from adipose-derived stem cells (ADSC-CM) are among those studied. Products based on it are marketed in serums and post-procedure treatments for regeneration.",
+  "The appearance idea is a chain: secreted growth factors and anti-inflammatory signals are thought to encourage skin repair, so a treatment applied after microneedling, lasers or surgery is promoted as supporting faster recovery, calmer skin and better-looking healing, and products are also marketed for skin ageing and hair. Reviews of the dermatology literature describe preclinical data for conditions including chronic ulcers, photoaging, alopecia areata and vitiligo.[11]",
+  "Most of the published research is laboratory or animal work on wound healing and inflammation, and reviews describe it as a possible cell-free alternative to stem cell therapy.[3][4] Early-phase human trials are registered for conditions such as chronic ulcers and keloids; their results have not been reported.[5][6]"
+ ],
+ "infobox": [
+  [
+   "Also called",
+   "MSC secretome, ADSC-CM"
+  ],
+  [
+   "Composition",
+   "Cell-secreted proteins, growth factors, cytokines, lipids, RNA-carrying vesicles[7][11]"
+  ],
+  [
+   "Cell sources",
+   "Bone marrow, adipose tissue, umbilical cord, dental pulp[2][12][13]"
+  ],
+  [
+   "Routes",
+   "Topical, post-procedure, injection in trials"
+  ],
+  [
+   "Status",
+   "Investigational; cosmetic serums sold under varying regulation"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "The secretome is the set of proteins cells release outside themselves, including cytokines and growth factors; cells also release RNA and lipids in vesicles.[7] Conditioned media captures this mixture from cultured cells without containing the cells themselves, and a 2021 narrative review discusses its regenerative potential and the barriers to clinical translation.[2]",
+    "A dermatology review describes the MSC secretome as containing cytokines, chemokines, growth factors, lipids and regulatory RNAs that modulate inflammation, promote repair and support skin homeostasis, with exosomes, small vesicles that carry microRNA, playing a key role.[11]"
+   ]
+  },
+  {
+   "h": "Background: mesenchymal stem cells",
+   "paras": [
+    "Mesenchymal stem cells, also called mesenchymal stromal cells, are multipotent cells first harvested from bone marrow and now also taken from adipose tissue and umbilical cord, with adipose tissue being easier to collect than marrow.[14] Researchers have increasingly concluded that the benefits seen with MSC transplants come mainly from the factors the cells secrete rather than from the cells turning into new tissue, since transplanted cells show low engraftment.[12] This paracrine view is the basis for using the culture fluid alone.[12]",
+    "The Wikipedia article on MSCs notes that regulated therapy has so far been established for graft-versus-host disease, with the US FDA approving a first MSC product in 2024, and that unregulated MSC treatments at for-profit clinics have been associated with adverse outcomes.[14]"
+   ]
+  },
+  {
+   "h": "Preparation and variability",
+   "paras": [
+    "Conditioned media varies with the tissue source, isolation method, medium composition and serum supplementation, and a review of MSC culture notes that the lack of standard methods makes comparison difficult.[15] Repeated passaging of cells in the lab can shift them from a pro-regenerative toward a pro-inflammatory profile and change the secretome released.[16] These factors mean that different products sold or trialled under the same label can differ in content.[15][16]"
+   ]
+  },
+  {
+   "h": "Use in skin and aesthetic practice",
+   "paras": [
+    "Conditioned-media and secretome products appear in cosmetic serums and in treatments applied after procedures such as microneedling, where the stated aim is to support healing and reduce redness and downtime. Dermatology reviews describe preclinical data for atopic dermatitis, psoriasis, alopecia areata, vitiligo, chronic ulcers and photoaging, and pilot clinical studies of topical or intradermal use reported feasibility and safety, while noting translational and regulatory barriers.[11]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Registered human trials are early-phase. They include a completed phase 1 study of conditioned medium on chronic ulcer wounds (38 participants, started 2019),[5] a phase 1/2 trial of 24 participants comparing MSC, conditioned medium or triamcinolone for keloid,[6] and a phase 1 study of a conditioned-medium-derived factor for skin graft donor sites.[8] Registrations for knee osteoarthritis, ligament injury, cerebral palsy and stroke also pair conditioned medium with stem cells.[17] The registrations reviewed do not include results, and no trial of cosmetic serums is described.",
+    "A phase 1b trial published in 2026 tested topical MSC secretome in persistent corneal epithelial disease for safety and tolerability.[18] A randomized trial in severe COVID-19 examined MSC secretome as an infused treatment.[19] These concern medical conditions, not appearance."
+   ]
+  },
+  {
+   "h": "Laboratory research",
+   "paras": [
+    "A 2018 study found that adipose-derived stem cell conditioned media and exosomes containing the long noncoding RNA MALAT1 promoted migration of human dermal fibroblasts and wound healing in an ischemic wound model.[1] A 2022 cell study reported that MSC-conditioned media reduced activation of macrophages exposed to a bacterial toxin.[9] A 2020 review described it as a possible alternative to stem cell therapy for wound healing.[3]"
+   ]
+  },
+  {
+   "h": "Safety and concerns",
+   "paras": [
+    "A 2013 laboratory study reported that MSC-derived chemokines promoted mammary tumor cell invasion, illustrating that secreted factors can have effects not limited to repair.[10] The 2026 dermatology review lists oncologic safety and regulatory aspects among the issues still to be addressed, while describing acellular products as having fewer safety and logistical constraints than cell therapies.[11] Safety data in people are limited to small early-phase trials."
+   ]
+  }
+ ],
+ "timeline": [],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Human Adipose-Derived Stem Cell Conditioned Media and Exosomes Containing MALAT1 Promote Human Dermal Fibroblast Migration and Ischemic Wound Healing",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30263873/",
+   "source": "Advances in Wound Care",
+   "year": 2018,
+   "type": "study"
+  },
+  {
+   "id": 2,
+   "title": "Stem cell secretome, regeneration, and clinical translation: a narrative review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33553363/",
+   "source": "Annals of Translational Medicine",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Mesenchymal stem cell-conditioned media: A novel alternative of stem cell therapy for quality wound healing",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31960454/",
+   "source": "Journal of Cellular Physiology",
+   "year": 2020,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Anti-inflammatory effects of mesenchymal stem cell-conditioned media inhibited macrophages activation in vitro",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35306509/",
+   "source": "Scientific Reports",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Therapeutic Potential of Stem Cell Conditioned Medium on Chronic Ulcer Wounds (NCT04134676)",
+   "url": "https://clinicaltrials.gov/study/NCT04134676",
+   "source": "ClinicalTrials.gov",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Implantation of Mesenchymal Stem Cell, Conditioned Medium, or Triamcinolone Acetonide for Keloid (NCT04326959)",
+   "url": "https://clinicaltrials.gov/study/NCT04326959",
+   "source": "ClinicalTrials.gov",
+   "year": 2020,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Secretome",
+   "url": "https://en.wikipedia.org/wiki/Secretome",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 8,
+   "title": "Mesenchymal Stem Cell-derived Pleiotropic Factor in the Treatment of Donor Sites (NCT04234750)",
+   "url": "https://clinicaltrials.gov/study/NCT04234750",
+   "source": "ClinicalTrials.gov",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Anti-inflammatory effects of mesenchymal stem cell-conditioned media inhibited macrophages activation in vitro (study)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35306509/",
+   "source": "Scientific Reports",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Mesenchymal stem cell-derived CCL-9 and CCL-5 promote mammary tumor cell invasion and the activation of matrix metalloproteinases",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23722213/",
+   "source": "Cell Adhesion & Migration",
+   "year": 2013,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "MSC-Derived Secretome and Exosomes in Dermatology: Mechanisms, Therapeutic Opportunities, and Scientific Challenges-A Narrative Review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40751329/",
+   "source": "International Journal of Dermatology",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 12,
+   "title": "Mesenchymal stem cell secretome for regenerative medicine: Where do we stand?",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38729561/",
+   "source": "Journal of Advanced Research",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 13,
+   "title": "Dental Pulp Stem Cell-Derived Secretome and Its Regenerative Potential",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34769446/",
+   "source": "Int J Mol Sci",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 14,
+   "title": "Mesenchymal stem cell",
+   "url": "https://en.wikipedia.org/wiki/Mesenchymal_stem_cell",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 15,
+   "title": "Isolation, cultivation, and characterization of human mesenchymal stem cells",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29072818/",
+   "source": "Cytometry Part A",
+   "year": 2018,
+   "type": "review"
+  },
+  {
+   "id": 16,
+   "title": "Cellular expansion of MSCs: Shifting the regenerative potential",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36536521/",
+   "source": "Aging Cell",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 17,
+   "title": "Mesenchymal Stem Cell Therapy and Conditioned Medium Therapy for Osteoarthritis (NCT04314661)",
+   "url": "https://clinicaltrials.gov/study/NCT04314661",
+   "source": "ClinicalTrials.gov",
+   "year": 2020,
+   "type": "trial"
+  },
+  {
+   "id": 18,
+   "title": "Safety and tolerability of topical mesenchymal stromal cell secretome in persistent corneal epithelial disease: a phase 1b clinical trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42667833/",
+   "source": "Cytotherapy",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 19,
+   "title": "Effectiveness and safety profile of mesenchymal stem cell secretome as a treatment for severe cases of COVID-19: a randomized controlled trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39931658/",
+   "source": "F1000Research",
+   "year": 2022,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Mesenchymal_stem_cell",
+   "title": "Mesenchymal stem cell (Wikipedia)"
+  }
+ ],
+ "card": {
+  "summary": "Stem-cell secretome liquid sold for regeneration; lab promise, only early-phase human trials.",
+  "aka": "MSC secretome, ADSC-CM",
+  "evidence": "limited",
+  "status": "research",
+  "outcome": null,
+  "risk": null,
+  "price": null,
+  "note": "Secreted factors can have effects beyond repair in lab studies; no cosmetic efficacy trials found.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "MSC conditioned media is the nutrient liquid in which stem cells have grown, containing the growth factors and vesicles they secrete. It is used in serums and post-procedure treatments as a cell-free regenerative ingredient.\nMost evidence is lab and animal wound-healing work; human trials are small and early-phase.",
+  "mechanism": "The secreted proteins, growth factors and vesicles are thought to signal to nearby cells, for example promoting fibroblast migration and dampening inflammation in cell models.",
+  "risks": "Composition varies between preparations. A laboratory study reported MSC-derived chemokines promoting tumor-cell invasion, and no long-term cosmetic safety data exist."
+ }
 }

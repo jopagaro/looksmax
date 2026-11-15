@@ -1,8 +1,9 @@
 {
  "name": "Eye massage device",
  "lead": [
-  "An eye massage device is a handheld or wearable gadget that applies gentle vibration, pulsing, pressure or warmth to the skin around the eyes. It is marketed in the beauty and wellness sector for relieving puffiness and dark circles, and in a separate medical and wellness context for eye comfort, with products such as the Foreo Iris named among its examples.",
-  "Published human research on such devices concerns other outcomes: a small crossover trial of a heating and vibrating eye mask for dry eye, a trial of periocular massage on ocular blood flow and visual acuity, and case reports of eye massagers used as a distraction in dental care [1][6][2][4][5]. No published trial located in the sources has tested whether an eye massage device reduces under-eye puffiness or dark circles."
+  "An eye massage device is a handheld or wearable gadget that applies gentle vibration, pulsing, pressure or warmth to the skin around the eyes. People use it for a fresher, less tired-looking eye area: it is marketed in the beauty and wellness sector for easing puffiness and dark circles, and in a separate wellness context for eye comfort. Products such as the Foreo Iris, introduced in 2016, are among the best-known examples.[3]",
+  "Published human research on such devices concerns other outcomes: a small crossover trial of a heating and vibrating eye mask for dry eye, a trial of periocular massage on ocular blood flow and visual acuity, and case reports of eye massagers used as a distraction in dental care [1][6][2][4][5]. No published trial located in the sources has tested whether an eye massage device reduces under-eye puffiness or dark circles.",
+  "The warmth and gentle movement are described by makers as encouraging circulation and lymph flow around the delicate under-eye skin, which is the route by which people hope for reduced morning puffiness; this appearance link has not been measured in published trials.[1][6]"
  ],
  "infobox": [
   [
@@ -20,6 +21,14 @@
   [
    "Example product",
    "Foreo Iris"
+  ],
+  [
+   "Example introduction",
+   "Foreo Iris, 2016[3]"
+  ],
+  [
+   "Heating eye mask trial",
+   "15 adults, twice daily for two weeks[1]"
   ]
  ],
  "sections": [
@@ -31,6 +40,12 @@
    ]
   },
   {
+   "h": "History",
+   "paras": [
+    "Patent filings from the early 2000s describe powered eye massagers combining heat, vibration and an air-pump pressure unit.[7][8] Foreo, a Stockholm company founded in 2013 by Filip Sedic and known first for the Luna silicone cleansing brush, introduced IRIS, an eye massage device, in 2016, alongside later devices using sonic pulsations, microcurrents and LED light.[3] Wikipedia reports the company had sold over 36 million products by 2021, which gives a sense of the market for facial gadgets in this category.[3]"
+   ]
+  },
+  {
    "h": "How it works",
    "paras": [
     "Manufacturers and users commonly attribute benefits to gentle mechanical stimulation, warmth and improved circulation or lymph movement around the eye. A randomized trial of periocular massage using acupressure, a roller and an automated eye massager measured ocular blood flow and found that short-term massage with the automated device changed blood flow and visual acuity measures, although these effects were not seen after a 60-day daily regimen [6]."
@@ -39,7 +54,7 @@
   {
    "h": "Effectiveness",
    "paras": [
-    "For dry eye symptoms, a prospective randomised crossover study of 15 young adults using a heating, vibrating eye mask twice daily for two weeks reported a drop in the Ocular Surface Disease Index score from 34.3 to 18.8, with improvement in other tear-film measures also assessed [1]. This tested ocular comfort, not appearance.",
+    "For dry eye symptoms, a prospective randomised crossover study of 15 young adults using a heating, vibrating eye mask twice daily for two weeks reported a drop in the Ocular Surface Disease Index score from 34.3 to 18.8, with improvement in other tear-film measures also assessed [1]. This tested ocular comfort, not appearance. In the dry-eye crossover study, a 6-minute cycle of controlled heat and vibration was used in the morning and evening for 2 weeks, with participants wearing a smart watch to track sleep and heart rate over a 4-week period; the mask in that study was a water-propelled heating eye massager rather than a cosmetic wand.[1] The periocular massage trial enrolled 40 healthy adults aged 20 to 30 and compared acupressure, a roller and an automated massager against controls.[6]",
     "No study identified tests dark circles or puffiness. Because under-eye appearance is influenced by factors such as skin thickness, pigmentation and fat position, any effect of a massager on these features remains untested."
    ]
   },
@@ -68,7 +83,16 @@
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "2013",
+   "event": "Foreo founded in Stockholm by Filip Sedic.[3]"
+  },
+  {
+   "year": "2016",
+   "event": "Foreo introduces IRIS eye massage device.[3]"
+  }
+ ],
  "lore": null,
  "refs": [
   {
@@ -86,6 +110,14 @@
    "source": "Cureus",
    "year": 2023,
    "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Foreo",
+   "url": "https://en.wikipedia.org/wiki/Foreo",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
   },
   {
    "id": 4,
@@ -128,7 +160,12 @@
    "type": "study"
   }
  ],
- "webSources": [],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Foreo",
+   "title": "Foreo (Wikipedia)"
+  }
+ ],
  "card": {
   "summary": "Warming or vibrating under-eye massager; studied for dry-eye comfort, but no trial has tested puffiness or dark circles.",
   "aka": "Foreo Iris, heated eye massager",
@@ -144,5 +181,15 @@
   "overview": "Eye massage devices apply vibration, pulsing pressure or warmth around the eyes. They are marketed for puffiness and dark circles, among other uses.\n\nThe human studies that exist look at other outcomes, such as dry eye symptoms and eye blood flow. No trial found has tested whether these gadgets change under-eye appearance.",
   "mechanism": "The devices apply gentle mechanical stimulation and often heat to the periorbital area; proposed benefits relate to circulation and relaxation.",
   "risks": "No device-specific safety problems appear in the sources; a small dry-eye trial tracked eye redness and eye pressure as safety measures. General caution applies to pressure near the eye."
+ },
+ "angle": {
+  "goal": "Eyes",
+  "chain": [
+   "Warmth, vibration or air-pulse pressure applied around the orbit",
+   "Users describe more circulation and relaxation of the periocular area",
+   "Aim: less puffy, fresher-looking eyes"
+  ],
+  "effect": "claimed",
+  "text": "People use eye massagers as a quick under-eye routine, often in the morning or while winding down, to reduce the puffy look of tired eyes. Measured outcomes in trials concern eye comfort and blood flow rather than appearance."
  }
 }

@@ -5,7 +5,7 @@ import { readFileSync, readdirSync, writeFileSync, copyFileSync } from 'node:fs'
 import { join } from 'node:path';
 import { root } from './entries.mjs';
 
-const bdir = join(root, 'research', 'rewrite', 'backup');
+const bdir = join(root, 'research', ['flagship2', 'flagship', 'deepen2', 'deepen'].find((d) => process.argv.includes('--' + d)) || 'rewrite', 'backup');
 const ddir = join(root, 'research', 'deep');
 const restore = process.argv.includes('--restore');
 const out = { improved: 0, same: 0, restored: [], refsBefore: 0, refsAfter: 0 };

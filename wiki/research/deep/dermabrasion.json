@@ -1,25 +1,366 @@
 {
-"name":"Dermabrasion",
-"lead":["Dermabrasion is a surgical skin-planing procedure in which a dermatologist or plastic surgeon wears away the upper to mid layers of skin, mainly to reduce acne scars and deep surgical scars.[1] It is distinct from microdermabrasion, a lighter non-invasive exfoliation.[1]","Wikipedia states that lasers such as CO2 and Er:YAG have largely replaced it, though dermabrasion remains in use, partly because it may cost less.[1] A claim that it can match or exceed lasers for some conditions rests on a 1998 minipig study cited there.[1]"],
-"infobox":[["Type","Surgical resurfacing"],["Performed by","Dermatologist or plastic surgeon"],["Tools","Wire brushes, diamond wheels, sandpaper"],["Healing","About 7 to 30 days"],["Main uses","Acne scars, surgical scars"]],
-"sections":[
-{"h":"Description","paras":["The procedure usually uses local anaesthesia, often in a surgical suite. Tools described include wire brushes, diamond wheels, sterilised sandpaper and salt crystals; minor bleeding is typical.[1] It is used for deeper acne scars, deep surgical scars, birthmarks, tattoos, sun damage and fine wrinkles.[1]"]},
-{"h":"Clinical studies","paras":["A review of acne scar pathogenesis, classification and treatment discusses resurfacing among the treatment options.[2] A 1996 study examined a high-energy pulsed CO2 laser for atrophic acne scars, the type of scar for which dermabrasion was previously used.[3] Registered trials include a split-scar trial of dermabrasion in Mohs surgery wounds (29 participants, 2025), a comparison of laser resurfacing and dermabrasion for scar revision (6 participants), a trial comparing microneedling with dermabrasion for early facial scars (recruiting), and a trial of tretinoin versus superficial dermabrasion for stretch marks (32 participants).[4][5][6][7] The sources reviewed here do not summarise their results."]},
-{"h":"Reported risks","paras":["Wikipedia lists scarring, skin discoloration, infection, reactivation of cold sores and bleeding. Lasers are described there as causing little or no bleeding and being less operator-dependent.[1]"]},
-{"h":"In looksmaxxing culture","paras":["A looksmax.org thread asks whether members use derma stamps or dermabrasion for skin or scalp microneedling; one reply describes using a device brand several times a month. The thread is about microneedling tools rather than surgical dermabrasion.[8]"]}
-],
-"timeline":[],
-"lore":null,
-"refs":[
-{"id":1,"title":"Dermabrasion","url":"https://en.wikipedia.org/wiki/Dermabrasion","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":2,"title":"Acne scars: pathogenesis, classification and treatment","url":"https://pubmed.ncbi.nlm.nih.gov/20981308/","source":"Dermatology Research and Practice","year":2010,"type":"review"},
-{"id":3,"title":"Resurfacing of atrophic facial acne scars with a high-energy, pulsed carbon dioxide laser","url":"https://pubmed.ncbi.nlm.nih.gov/8608377/","source":"Dermatologic Surgery","year":1996,"type":"study"},
-{"id":4,"title":"NCT07213921 Dermabrasion in Mohs: Split-Scar Trial","url":"https://clinicaltrials.gov/study/NCT07213921","source":"ClinicalTrials.gov","year":2025,"type":"trial"},
-{"id":5,"title":"NCT01176448 Laser Resurfacing Versus Dermabrasion for Scar Revision","url":"https://clinicaltrials.gov/study/NCT01176448","source":"ClinicalTrials.gov","year":2010,"type":"trial"},
-{"id":6,"title":"NCT06171386 Microneedling vs Dermabrasion for Early Facial Scar Resurfacing","url":"https://clinicaltrials.gov/study/NCT06171386","source":"ClinicalTrials.gov","year":2024,"type":"trial"},
-{"id":7,"title":"NCT01027793 Tretinoin or Superficial Dermabrasion for Stretch Marks","url":"https://clinicaltrials.gov/study/NCT01027793","source":"ClinicalTrials.gov","year":2009,"type":"trial"},
-{"id":8,"title":"Anyone use dermastamp or dermabrasion for skin/hair microneedle","url":"https://looksmax.org/threads/anyone-use-dermastamp-or-dermabrasion-for-skin-hair-microneedle.54888/","source":"looksmax.org","year":2024,"type":"forum"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Dermabrasion","title":"Dermabrasion"}],
-"card":{"summary":"Surgical sanding of scars, the older standard that lasers largely replaced; sources here mostly small trials.","aka":"Skin planing","evidence":"limited","outcome":"durable","risk":"high","price":null,"note":"Invasive; scarring, discoloration and infection are reported risks.","structure":null},
-"quick":{"overview":"Dermabrasion is a surgical procedure that abrades the upper to mid skin layers, mainly to reduce acne and surgical scars.\n\nWikipedia says lasers have largely replaced it, though it remains in use.","mechanism":"Wire brushes, diamond wheels or similar tools remove skin layers under local anaesthesia; healing takes roughly 7 to 30 days.","risks":"Reported complications include scarring, discoloration, infection, cold-sore reactivation and bleeding."}
+ "name": "Dermabrasion",
+ "lead": [
+  "Dermabrasion is a surgical skin-planing procedure in which a dermatologist or plastic surgeon mechanically wears away the upper to mid layers of skin to smooth acne scars, deep surgical scars and other surface irregularities.[1] As the skin heals it re-forms from deeper structures, which is how people use it to get a smoother, more even facial surface.[1][9] It is distinct from microdermabrasion, a lighter non-invasive exfoliation done in salons and at home.[1][10]",
+  "Wikipedia states that ablative lasers such as CO2 and Er:YAG have largely replaced dermabrasion because they cause less bleeding and depend less on operator skill, though dermabrasion remains in use, partly because it may cost less and can match or exceed laser results for some conditions, a point it supports with a 1998 minipig comparison.[1] Grokipedia describes it as best suited to lighter Fitzpatrick skin types and reports benefits that may wane after two to three years.[9]",
+  "Research on dermabrasion today consists mostly of small comparisons with other resurfacing methods, studies in vitiligo and stretch marks, and technique reviews in plastic-surgery journals.[2][11][14][16][17] In looksmaxxing forums the word often refers to microneedling or derma-stamp devices rather than surgical dermabrasion.[8]"
+ ],
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "A surgeon abrades the upper to mid layers of skin under local anaesthesia",
+   "The skin re-epithelialises over 1 to 4 weeks",
+   "Acne and surgical scars sit shallower and the surface looks smoother"
+  ],
+  "effect": "direct",
+  "text": "Dermabrasion levels raised or pitted scar tissue by removing surface layers so new skin forms over a smoother base. It is used on the face for acne scars and surgical scars, and in selected cases for fine lines and sun damage."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Surgical skin resurfacing (planing)"
+  ],
+  [
+   "Performed by",
+   "Dermatologist or plastic surgeon[1]"
+  ],
+  [
+   "Anaesthesia",
+   "Local, often in a surgical suite[1]"
+  ],
+  [
+   "Tools",
+   "Wire brushes, diamond wheels or fraises, sterilised sandpaper, salt crystals[1][9]"
+  ],
+  [
+   "Healing",
+   "About 7 to 30 days depending on depth[1]"
+  ],
+  [
+   "Main uses",
+   "Acne scars, surgical scars, fine wrinkles, sun damage[1]"
+  ],
+  [
+   "Modern alternatives",
+   "Ablative lasers (CO2, Er:YAG), microneedling, chemical peels[1][9]"
+  ],
+  [
+   "Lighter relative",
+   "Microdermabrasion (non-surgical exfoliation)[10]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "The procedure is usually done under local anaesthesia in a surgical suite or medical centre. Tools described include wire brushes, diamond wheels, sterilised sandpaper and salt crystals, and minor bleeding is typical.[1] Grokipedia describes a handheld dermabrader with a diamond fraise, wire brush or serrated wheel, with the surgeon working to the point of pinpoint bleeding, which it associates with the papillary dermis.[9]",
+    "Indications named in reference sources include deeper acne scars, deep surgical and traumatic scars, birthmarks, superficial tattoos, sun damage, fine perioral and periorbital wrinkles, actinic keratoses and rhinophyma.[1][9] Wikipedia describes it as removing the upper to mid skin layers, whereas laser resurfacing and microneedling work by different mechanisms.[1]"
+   ]
+  },
+  {
+   "h": "Procedure and recovery",
+   "paras": [
+    "Grokipedia reports that afterwards the area is covered with saline-soaked gauze and an occlusive ointment, that re-epithelialisation typically takes 7 to 14 days, that redness can last up to two months, and that full colour normalisation can take three months or longer.[9] It lists daily broad-spectrum sun protection for 6 to 12 months and a return to work after about two weeks, and mentions a follow-up within 48 to 72 hours to check for infection.[9] Wikipedia gives an overall healing range of about 7 to 30 days.[1] Specific aftercare is set by the treating clinician."
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Grokipedia credits German dermatologist Ernst Kromayer with the first motorised dermabrasion in 1905, using rotating burrs for post-acne scarring; American plastic surgeon Percy Iverson with using sandpaper for traumatic facial tattoos in 1947; and New York dermatologist Abner Kurtin with the modern high-speed rotary technique, using wire brushes or diamond fraises, in 1953.[9] It also credits E. H. Hermans with describing diamond fraises for better control in 1957 and says guidelines on timing and aftercare were standardised in the 1990s, though it contains internal inconsistencies on the diamond-fraise dates.[9] These dates come from an AI-generated reference and are listed here as attributed.",
+    "By the 1990s ablative lasers entered scar resurfacing; a 1996 study examined a high-energy pulsed CO2 laser for atrophic facial acne scars, the type of scar for which dermabrasion had been the standard.[3] Microdermabrasion, a separate lighter technique, was developed in Italy in 1985, received its first FDA approval letter in 1996 and was first sold in the US in January 1997.[10]"
+   ]
+  },
+  {
+   "h": "Variants and related procedures",
+   "paras": [
+    "Microdermabrasion removes only the outermost stratum corneum with crystals, diamond tips, bristle tips or water spray, often with suction. Sessions last 5 to 60 minutes with little downtime, results are temporary, and it is typically repeated every two to four weeks; it is used for superficial hyperpigmentation, fine lines and shallow acne scars.[10] Home kits and 'hydradermabrasion' variants also exist.[10]",
+    "Clinical studies have tested modified forms of dermabrasion, including electrofulguration-assisted and electrodermabrasion compared with manual dermabrasion,[15][19] and dermabrasion used to prepare skin for cell-suspension transplantation in vitiligo.[13][14][15] Microneedling and derma-stamp devices create micro-injuries to stimulate healing and are reported to be used for rolling and atrophic acne scars across skin types, with about one to two days of swelling, according to Grokipedia.[9]"
+   ]
+  },
+  {
+   "h": "Research",
+   "paras": [
+    "A review of acne scar pathogenesis, classification and treatment discusses resurfacing among the treatment options for different scar types.[2] A 1996 study examined a high-energy pulsed CO2 laser for atrophic acne scars.[3] A 2010 clinical trial examined dermabrasion for acne scars during treatment with oral isotretinoin.[12] A randomised, single-blind trial in 48 women compared galvano-puncture and dermabrasion with a control group for stretch marks on the buttocks, measuring the length and width of the largest stria with a caliper.[11]",
+    "In vitiligo, randomised trials have compared dermabrasion with 5-fluorouracil against suction blister (2021), dermabrasion against microneedling for cell-suspension transplantation (2023) and electrofulguration-assisted against manual dermabrasion (2022).[13][14][15] Registered trials include a split-scar trial of dermabrasion on Mohs surgery wounds (29 participants, 2025), a comparison of laser resurfacing and dermabrasion for scar revision (6 participants), a trial comparing microneedling with dermabrasion for early facial scars (30 participants, recruiting), a trial of tretinoin versus superficial dermabrasion for stretch marks (32 participants), and a planned trial of dermabrasion for free-flap aesthetic enhancement.[4][5][6][7][18] Technique overviews appeared in Clinics in Plastic Surgery (2011) and Facial Plastic Surgery (2014).[16][17]"
+   ]
+  },
+  {
+   "h": "Reported risks",
+   "paras": [
+    "Wikipedia lists scarring, skin discoloration, infection, reactivation of cold sores and bleeding, which can be heavy in aggressive cases. Lasers are described as causing little or no bleeding and being less operator-dependent.[1] Grokipedia adds that dyspigmentation is more common in darker skin, that hypertrophic or keloid scarring can occur, and that prolonged redness is possible.[9]",
+    "Microdermabrasion is described as usually minimal in risk: temporary dryness, sun sensitivity and rarely bruising or scratches, with eye and inhalation precautions for crystal systems.[10]"
+   ]
+  },
+  {
+   "h": "In looksmaxxing culture",
+   "paras": [
+    "On looksmax.org the term appears mainly in discussions of skin and scalp microneedling. One thread asks whether members use derma stamps or 'dermabrasion' for skin or scalp microneedling; one reply describes using a motorised pen device a few times a month, and another reply says cheaper pens are adequate for the scalp.[8] The thread concerns microneedling tools rather than surgical dermabrasion.[8]",
+    "Scar-focused skin improvement is a recurring theme in looksmaxxing alongside tretinoin, chemical peels, lasers and microneedling, and surgical dermabrasion is usually described there as the older, deeper procedure that dermatologists and plastic surgeons perform.[1][8]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Human studies are mostly small comparisons: dermabrasion for acne scars during isotretinoin treatment,[12] versus galvano-puncture for stretch marks,[11] and in vitiligo cell-transplant protocols.[13][14][15] Registered trials continue to compare dermabrasion with microneedling and laser resurfacing.[5][6] Published results from several registrations have not been reported.[4][5][6][7]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1905",
+   "event": "Ernst Kromayer reported as first to use motorised dermabrasion for acne scarring (per Grokipedia).[9]"
+  },
+  {
+   "year": "1947",
+   "event": "Percy Iverson reported to use sandpaper on traumatic facial tattoos (per Grokipedia).[9]"
+  },
+  {
+   "year": "1953",
+   "event": "Abner Kurtin credited with the modern high-speed rotary technique (per Grokipedia).[9]"
+  },
+  {
+   "year": "1985",
+   "event": "First microdermabrasion unit developed in Italy.[10]"
+  },
+  {
+   "year": "1996",
+   "event": "High-energy pulsed CO2 laser study for atrophic acne scars; first FDA approval letter for microdermabrasion machines.[3][10]"
+  },
+  {
+   "year": "1997",
+   "event": "First microdermabrasion machine sold in the US (January).[10]"
+  },
+  {
+   "year": "1998",
+   "event": "Minipig study comparing dermabrasion with CO2 laser, cited by Wikipedia.[1]"
+  },
+  {
+   "year": "2010",
+   "event": "Clinical trial of dermabrasion for acne scars during isotretinoin treatment; review of acne scar treatment.[2][12]"
+  },
+  {
+   "year": "2019",
+   "event": "Randomised trial of galvano-puncture versus dermabrasion for stretch marks.[11]"
+  },
+  {
+   "year": "2021",
+   "event": "Randomised trial of dermabrasion plus 5-fluorouracil versus suction blister in vitiligo.[13]"
+  },
+  {
+   "year": "2025",
+   "event": "Split-scar trial of dermabrasion on Mohs surgery wounds completed.[4]"
+  }
+ ],
+ "lore": {
+  "intro": "On looksmax.org dermabrasion is mentioned mostly alongside microneedling and derma-stamp devices for skin and scalp, with surgical dermabrasion rarely discussed directly.[8]",
+  "claims": [
+   {
+    "claim": "Derma stamps and pens are a home version of dermabrasion",
+    "believers": "One thread's replies describe using a motorised pen several times a month and say cheaper pens are fine for the scalp.[8]",
+    "experts": "Reference sources describe surgical dermabrasion as removing upper to mid skin layers under local anaesthesia, distinct from microneedling, which creates micro-injuries.[1][9]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Dermabrasion can fix acne scars",
+    "believers": "Members interested in scar revision treat resurfacing as a route to smoother skin.[8]",
+    "experts": "Dermabrasion has long been used for deeper acne scars, and reviews discuss resurfacing alongside lasers and other options; lasers have largely replaced it.[1][2][3]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Dermabrasion can match lasers",
+    "believers": "Advocates cite lower cost and operator experience.[1]",
+    "experts": "Wikipedia says it may match or exceed lasers for some conditions based on a 1998 minipig study, while lasers cause less bleeding.[1]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Microdermabrasion has the same effect as dermabrasion",
+    "believers": "Salon and home-device marketing describes smoothing and rejuvenation.[10]",
+    "experts": "Microdermabrasion removes only the outermost layer, with temporary results repeated every two to four weeks.[10]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "card": {
+  "summary": "Surgical sanding of scars, the older standard that lasers largely replaced; sources here mostly small trials.",
+  "aka": "Skin planing",
+  "evidence": "limited",
+  "outcome": "durable",
+  "risk": "high",
+  "price": null,
+  "note": "Invasive; scarring, discoloration and infection are reported risks.",
+  "structure": null
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Dermabrasion",
+   "url": "https://en.wikipedia.org/wiki/Dermabrasion",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Acne scars: pathogenesis, classification and treatment",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20981308/",
+   "source": "Dermatology Research and Practice",
+   "year": 2010,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Resurfacing of atrophic facial acne scars with a high-energy, pulsed carbon dioxide laser",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8608377/",
+   "source": "Dermatologic Surgery",
+   "year": 1996,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "NCT07213921 Dermabrasion in Mohs: Split-Scar Trial",
+   "url": "https://clinicaltrials.gov/study/NCT07213921",
+   "source": "ClinicalTrials.gov",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "NCT01176448 Laser Resurfacing Versus Dermabrasion for Scar Revision",
+   "url": "https://clinicaltrials.gov/study/NCT01176448",
+   "source": "ClinicalTrials.gov",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "NCT06171386 Microneedling vs Dermabrasion for Early Facial Scar Resurfacing",
+   "url": "https://clinicaltrials.gov/study/NCT06171386",
+   "source": "ClinicalTrials.gov",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "NCT01027793 Tretinoin or Superficial Dermabrasion for Stretch Marks",
+   "url": "https://clinicaltrials.gov/study/NCT01027793",
+   "source": "ClinicalTrials.gov",
+   "year": 2009,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Anyone use dermastamp or dermabrasion for skin/hair microneedle",
+   "url": "https://looksmax.org/threads/anyone-use-dermastamp-or-dermabrasion-for-skin-hair-microneedle.54888/",
+   "source": "looksmax.org",
+   "year": 2024,
+   "type": "forum"
+  },
+  {
+   "id": 9,
+   "title": "Dermabrasion (Grokipedia)",
+   "url": "https://grokipedia.com/page/Dermabrasion",
+   "source": "Grokipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 10,
+   "title": "Microdermabrasion",
+   "url": "https://en.wikipedia.org/wiki/Microdermabrasion",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 11,
+   "title": "Galvano-puncture and dermabrasion for striae distensae: a randomized controlled trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29547019/",
+   "source": "Journal of Cosmetic and Laser Therapy",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "Dermabrasion for acne scars during treatment with oral isotretinoin",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20180836/",
+   "source": "Dermatologic Surgery",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "Effectiveness of dermabrasion plus 5-fluorouracil vs suction blister in treating vitiligo: a comparative study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33403790/",
+   "source": "Dermatologic Therapy",
+   "year": 2021,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "Dermabrasion versus microneedling in transplantation of autologous noncultured melanocyte-keratinocyte cell suspension in patients with vitiligo",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36892550/",
+   "source": "Dermatologic Surgery",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 15,
+   "title": "Electrofulguration-assisted dermabrasion is comparable to manual dermabrasion in patients undergoing autologous non-cultured epidermal cell suspension for treatment of stable vitiligo",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34133823/",
+   "source": "Journal of Cosmetic Dermatology",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 16,
+   "title": "Dermabrasion",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24488635/",
+   "source": "Facial Plastic Surgery",
+   "year": 2014,
+   "type": "review"
+  },
+  {
+   "id": 17,
+   "title": "Dermabrasion",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21824537/",
+   "source": "Clinics in Plastic Surgery",
+   "year": 2011,
+   "type": "review"
+  },
+  {
+   "id": 18,
+   "title": "NCT07233200 Dermabrasion for Free Flap Aesthetic Enhancement",
+   "url": "https://clinicaltrials.gov/study/NCT07233200",
+   "source": "ClinicalTrials.gov",
+   "year": 2027,
+   "type": "trial"
+  },
+  {
+   "id": 19,
+   "title": "NCT01769989 Electrodermabrasion Compared to Dermabrasion",
+   "url": "https://clinicaltrials.gov/study/NCT01769989",
+   "source": "ClinicalTrials.gov",
+   "year": 2009,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Dermabrasion",
+   "title": "Dermabrasion"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Microdermabrasion",
+   "title": "Microdermabrasion"
+  },
+  {
+   "url": "https://grokipedia.com/page/Dermabrasion",
+   "title": "Dermabrasion (Grokipedia)"
+  }
+ ],
+ "quick": {
+  "overview": "Dermabrasion is a surgical procedure that abrades the upper to mid skin layers, mainly to reduce acne and surgical scars.\n\nWikipedia says lasers have largely replaced it, though it remains in use.",
+  "mechanism": "Wire brushes, diamond wheels or similar tools remove skin layers under local anaesthesia; healing takes roughly 7 to 30 days.",
+  "risks": "Reported complications include scarring, discoloration, infection, cold-sore reactivation and bleeding."
+ }
 }

@@ -1,34 +1,319 @@
 {
-"name": "Tamibarotene",
-"lead": ["Tamibarotene (also called Am80 or retinobenzoic acid) is a synthetic, orally taken retinoid that selectively activates retinoic acid receptors alpha and beta. It belongs to the same broad family as the retinoids people use for skin, such as tretinoin, and is of interest in skin-focused circles for that reason.[1][2]","It is approved in Japan, under the brand name Amnolake, for relapsed or refractory acute promyelocytic leukemia, and was designed to overcome limitations of all-trans retinoic acid (ATRA): it is chemically more stable, several times more potent in cell differentiation tests and keeps steadier blood levels during daily use.[1][3] It is not marketed as a cosmetic or dermatological skin product.","Research has since extended to other conditions, including myelodysplastic syndrome and acute myeloid leukemia with RARA overexpression, Alzheimer's disease models, and autoimmune diseases.[4][5][6]"],
-"angle": {"goal": "Skin (retinoid class)", "chain": ["Activates retinoic acid receptors", "Retinoid signalling that regulates cell differentiation", "Interest as a skin-relevant retinoid"], "effect": "claimed", "text": "Tamibarotene is a retinoid, the class known for skin renewal, so it appears in discussions of retinoid options. Its approved use is oral treatment of a blood cancer in Japan, and no published skin-appearance trials exist."},
-"card": {"summary": "Synthetic RAR-alpha/beta retinoid approved in Japan for leukemia, discussed in skin circles as a retinoid-class compound.", "aka": "Am80, Amnolake, retinobenzoic acid, SY-1425", "evidence": "limited", "status": "rx", "note": "Prescription-only drug with retinoid-type side effects such as raised blood lipids.", "structure": "Tamibarotene"},
-"quick": {"overview": "Tamibarotene is an oral synthetic retinoid sold in Japan as Amnolake for relapsed or refractory acute promyelocytic leukemia. It targets retinoic acid receptors alpha and beta.\n\nIt is considered more stable and potent than ATRA, and is being studied in newer trials for RARA-overexpressing blood cancers. Its link to looks comes from being a retinoid; it is not a skin product.", "mechanism": "It binds RAR-alpha and RAR-beta, nuclear receptors that control genes for cell differentiation, and spares RAR-gamma. Compared with ATRA it binds less to cellular retinoic acid binding protein, so plasma levels stay up during daily dosing.[1]", "risks": "Side effects resemble other retinoids, with hyperlipidemia a common finding, and early trials suggested milder effects than ATRA.[1] It is a prescription cancer drug marketed in Japan, and retinoids as a class carry pregnancy warnings."},
-"infobox": [["Drug class", "Synthetic retinoid (RAR-alpha/beta agonist)"], ["Route", "Oral"], ["Brand name", "Amnolake (Japan)"], ["Developer", "Toko Pharmaceutical; later Nippon Shinyaku"], ["Approved for", "Relapsed/refractory APL (Japan)"], ["Formula", "C22H25NO3"]],
-"sections": [
-{"h": "Uses", "subs": [{"h": "Medical uses", "paras": ["Tamibarotene is approved in Japan for relapsed or refractory acute promyelocytic leukemia.[1] A randomized trial found it effective as maintenance therapy in APL compared with ATRA, and its final results reported improved relapse-free survival.[7][8]"]}, {"h": "Cosmetic / appearance uses", "paras": ["No cosmetic or dermatological formulation has been approved. Its relevance to looks comes from belonging to the retinoid class, whose members such as ATRA are used in some skin diseases.[6]"]}]},
-{"h": "Pharmacology", "paras": ["Tamibarotene is selective for RAR-alpha and RAR-beta over RAR-gamma. It is more stable than ATRA and has lower clearance, which sustains plasma levels.[1][6]"]},
-{"h": "Adverse effects", "paras": ["Its side effect profile is similar to that of tretinoin, with hyperlipidemia reported commonly; trials found adverse effects milder than with ATRA.[1][9]"]},
-{"h": "History", "paras": ["It was originally developed by Shionogi, with input from the University of Tokyo, and was later licensed by Nippon Shinyaku from Toko Pharmaceutical for APL.[4] Later development in the US targeted RARA-overexpressing AML and higher-risk MDS under the name SY-1425.[10][11]"]},
-{"h": "Research", "paras": ["Phase 2 and 3 studies have examined tamibarotene with azacitidine in higher-risk MDS and with venetoclax and azacitidine in RARA-positive AML.[10][11] Preclinical work has examined Alzheimer's disease, and trials have been registered for lupus nephritis, Crohn's disease, polycystic kidney disease and heart failure.[5][12]"]},
-{"h": "Clinical studies", "paras": ["Human trials concern leukemia, myelodysplastic syndrome and other diseases; none concern skin appearance. In APL, tamibarotene maintenance was compared with ATRA in randomized trials and in Japan's JALSG-APL204 study it improved relapse-free survival.[7][8] Tamibarotene was also tested in steroid-refractory chronic graft-versus-host disease.[13]"]}
-],
-"timeline": [{"year": "2004", "event": "Pending approval in Japan for APL with Nippon Shinyaku.[4]"}, {"year": "2014", "event": "Randomized trial reports tamibarotene maintenance in APL.[7]"}, {"year": "2025", "event": "SELECT-MDS-1 phase 3 results published.[10]"}],
-"lore": null,
-"refs": [
-{"id": 1, "title": "Tamibarotene", "url": "https://pubmed.ncbi.nlm.nih.gov/17925887/", "source": "Drugs of Today", "year": 2007, "type": "review"},
-{"id": 2, "title": "Tamibarotene", "url": "https://en.wikipedia.org/wiki/Tamibarotene", "source": "Wikipedia", "year": 2026, "type": "encyclopedia"},
-{"id": 3, "title": "State-of-the-art treatment of acute promyelocytic leukemia", "url": "https://pubmed.ncbi.nlm.nih.gov/30305503/", "source": "Rinsho Ketsueki", "year": 2018, "type": "review"},
-{"id": 4, "title": "Tamibarotene: AM 80, retinobenzoic acid, Tamibaro", "url": "https://pubmed.ncbi.nlm.nih.gov/15563242/", "source": "Drugs in R&D", "year": 2004, "type": "review"},
-{"id": 5, "title": "Tamibarotene: a candidate retinoid drug for Alzheimer's disease", "url": "https://pubmed.ncbi.nlm.nih.gov/22863914/", "source": "Biol Pharm Bull", "year": 2012, "type": "review"},
-{"id": 6, "title": "Retinoid therapy for autoimmune diseases", "url": "https://pubmed.ncbi.nlm.nih.gov/16819260/", "source": "Jpn J Clin Immunol", "year": 2006, "type": "review"},
-{"id": 7, "title": "Tamibarotene as maintenance therapy for APL: randomized controlled trial", "url": "https://pubmed.ncbi.nlm.nih.gov/25245439/", "source": "J Clin Oncol", "year": 2014, "type": "trial"},
-{"id": 8, "title": "Tamibarotene maintenance improved relapse-free survival of APL: JALSG-APL204", "url": "https://pubmed.ncbi.nlm.nih.gov/30093681/", "source": "Leukemia", "year": 2019, "type": "trial"},
-{"id": 9, "title": "Tamibarotene (Wikipedia, adverse effects)", "url": "https://en.wikipedia.org/wiki/Tamibarotene", "source": "Wikipedia", "year": 2026, "type": "encyclopedia"},
-{"id": 10, "title": "Pivotal results of SELECT-MDS-1 phase 3 study of tamibarotene with azacitidine", "url": "https://pubmed.ncbi.nlm.nih.gov/40334070/", "source": "Blood Advances", "year": 2025, "type": "trial"},
-{"id": 11, "title": "Tamibarotene with venetoclax and azacitidine in RARA(+) AML (SY-1425-202)", "url": "https://pubmed.ncbi.nlm.nih.gov/42761251/", "source": "Blood Neoplasia", "year": 2026, "type": "trial"},
-{"id": 12, "title": "Study of Tamibarotene in Patients With ADPKD (NCT06289998)", "url": "https://clinicaltrials.gov/study/NCT06289998", "source": "ClinicalTrials.gov", "year": 2023, "type": "trial"},
-{"id": 13, "title": "Phase II study of tamibarotene in steroid-refractory chronic GVHD", "url": "https://pubmed.ncbi.nlm.nih.gov/27777437/", "source": "Acta Med Okayama", "year": 2016, "type": "trial"}
-],
-"webSources": [{"url": "https://en.wikipedia.org/wiki/Tamibarotene", "title": "Tamibarotene - Wikipedia"}]
+  "name": "Tamibarotene",
+  "lead": [
+    "Tamibarotene (also called Am80 or retinobenzoic acid) is a synthetic, orally taken retinoid that selectively activates retinoic acid receptors alpha and beta. Retinoids are the class of vitamin A-derived compounds that dermatologists use to treat acne and photoaging, because they regulate how skin cells grow and mature, so tamibarotene draws attention in skin-focused circles as a member of that family.[1][2][14]",
+    "It is approved in Japan, under the brand name Amnolake, for relapsed or refractory acute promyelocytic leukemia, and was designed to overcome limitations of all-trans retinoic acid (ATRA): it is chemically more stable, several times more potent in cell differentiation tests and keeps steadier blood levels during daily use.[1][3] It is not marketed as a cosmetic or dermatological skin product.",
+    "Research has since extended to other conditions, including myelodysplastic syndrome and acute myeloid leukemia with RARA overexpression, Alzheimer's disease models, autoimmune diseases, kidney and heart disease, and sepsis-related lung injury in animals.[4][5][6][16]"
+  ],
+  "angle": {
+    "goal": "Skin (retinoid class)",
+    "chain": [
+      "Activates retinoic acid receptors",
+      "Retinoid signalling that regulates cell differentiation",
+      "Interest as a skin-relevant retinoid"
+    ],
+    "effect": "claimed",
+    "text": "Tamibarotene is a retinoid, the class known for skin renewal, so it appears in discussions of retinoid options. Its approved use is oral treatment of a blood cancer in Japan, and no published skin-appearance trials exist."
+  },
+  "card": {
+    "summary": "Synthetic RAR-alpha/beta retinoid approved in Japan for leukemia, discussed in skin circles as a retinoid-class compound.",
+    "aka": "Am80, Amnolake, retinobenzoic acid, SY-1425",
+    "evidence": "limited",
+    "status": "rx",
+    "note": "Prescription-only drug with retinoid-type side effects such as raised blood lipids.",
+    "structure": "Tamibarotene"
+  },
+  "quick": {
+    "overview": "Tamibarotene is an oral synthetic retinoid sold in Japan as Amnolake for relapsed or refractory acute promyelocytic leukemia. It targets retinoic acid receptors alpha and beta.\n\nIt is considered more stable and potent than ATRA, and is being studied in newer trials for RARA-overexpressing blood cancers. Its link to looks comes from being a retinoid; it is not a skin product.",
+    "mechanism": "It binds RAR-alpha and RAR-beta, nuclear receptors that control genes for cell differentiation, and spares RAR-gamma. Compared with ATRA it binds less to cellular retinoic acid binding protein, so plasma levels stay up during daily dosing.[1]",
+    "risks": "Side effects resemble other retinoids, with hyperlipidemia a common finding, and early trials suggested milder effects than ATRA.[1] It is a prescription cancer drug marketed in Japan, and retinoids as a class carry pregnancy warnings."
+  },
+  "infobox": [
+    [
+      "Drug class",
+      "Synthetic retinoid (RAR-alpha/beta agonist)"
+    ],
+    [
+      "Route",
+      "Oral"
+    ],
+    [
+      "Brand name",
+      "Amnolake (Japan)"
+    ],
+    [
+      "Developer",
+      "Toko Pharmaceutical; later Nippon Shinyaku"
+    ],
+    [
+      "Approved for",
+      "Relapsed/refractory APL (Japan)"
+    ],
+    [
+      "Formula",
+      "C22H25NO3"
+    ],
+    [
+      "Also known as",
+      "Am80, retinobenzoic acid, SY-1425"
+    ],
+    [
+      "Molar mass",
+      "About 351.4 g/mol[2]"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Uses",
+      "subs": [
+        {
+          "h": "Medical uses",
+          "paras": [
+            "Tamibarotene is approved in Japan for relapsed or refractory acute promyelocytic leukemia.[1] A randomized trial found it effective as maintenance therapy in APL compared with ATRA, and its final results reported improved relapse-free survival.[7][8]"
+          ]
+        },
+        {
+          "h": "Cosmetic / appearance uses",
+          "paras": [
+            "No cosmetic or dermatological formulation has been approved, and the drug is sold only as an oral leukemia medicine in Japan.[2] Its relevance to looks comes from belonging to the retinoid class. Wikipedia's retinoid article lists topical retinoids as treatments for acne, psoriasis and photoaging, and places third-generation benzoic acid derivatives such as adapalene, bexarotene and tazarotene alongside older agents such as tretinoin and isotretinoin; tamibarotene is likewise a synthetic retinoid with a benzoic acid structure aimed at the RAR-alpha and RAR-beta receptors.[14][2] A Japanese review has also discussed retinoid therapy for autoimmune diseases.[6]"
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Pharmacology",
+      "paras": [
+        "Tamibarotene is selective for RAR-alpha and RAR-beta over RAR-gamma. It is more stable than ATRA and has lower clearance, which sustains plasma levels and supports more consistent dosing.[1][2][6] The compound was developed to overcome resistance to ATRA in APL; in cell differentiation tests it is several times more potent than ATRA.[1][3]",
+        "In RARA-overexpressing leukemia the rationale is different: tamibarotene is a potent, selective RAR-alpha agonist, and laboratory work reported that cells with high RARA expression are sensitive to it, which led to a biomarker-guided trial program.[15][10]"
+      ]
+    },
+    {
+      "h": "Chemistry",
+      "paras": [
+        "The molecular formula is C22H25NO3 with a molar mass of about 351.4 g/mol. Wikipedia describes a synthesis that begins with Friedel-Crafts alkylation of acetanilide, followed by hydrolysis and acylation with a terephthalic acid derivative.[2]"
+      ]
+    },
+    {
+      "h": "Adverse effects",
+      "paras": [
+        "Its side effect profile is similar to that of tretinoin, with hyperlipidemia reported commonly; trials found adverse effects milder than with ATRA.[1][9]",
+        "Wikipedia states that early trials suggested it is better tolerated than ATRA in APL.[2] The same article reports that in lung cancer a trial found accelerated tumour growth and increased mortality, and that it showed no benefit in acute myeloid leukemia in earlier studies; later biomarker-selected AML and MDS trials have been run separately.[2][10][11] Retinoids as a class can raise triglycerides and cholesterol, and oral retinoids such as isotretinoin and acitretin can cause birth defects, which is why pregnancy is avoided with them.[14]"
+      ]
+    },
+    {
+      "h": "History",
+      "paras": [
+        "Tamibarotene (AM 80) was developed in Japan: Shionogi originally developed it, the University of Tokyo and other non-industrial sources played a role, and Nippon Shinyaku licensed it from Toko Pharmaceutical Industries for APL, according to a 2004 Drugs in R&D profile, which described approval in Japan as pending and noted it is unclear when Toko acquired the rights.[4] It is sold in Japan as Amnolake and, per Wikipedia, is marketed only there.[2]",
+        "Later development in the US targeted RARA-overexpressing AML and higher-risk MDS under the name SY-1425, using a biomarker to select patients.[10][11][15]"
+      ]
+    },
+    {
+      "h": "Research",
+      "paras": [
+        "Phase 2 and 3 studies have examined tamibarotene with azacitidine in higher-risk MDS (SELECT-MDS-1) and with venetoclax and azacitidine in RARA-positive AML (SY-1425-202).[10][11] Preclinical work has examined Alzheimer's disease, and a Phase 2 Alzheimer's trial was registered in Japan.[5][19]",
+        "Other registered trials include lupus nephritis, Crohn's disease, autosomal dominant polycystic kidney disease and heart failure with preserved ejection fraction, and a cell and mouse study reported that tamibarotene lowered heparin-binding protein in a sepsis lung-injury model.[17][18][12][20][16] Wikipedia also lists multiple myeloma among the conditions investigated.[2]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "Human trials concern leukemia, myelodysplastic syndrome and other diseases; none concern skin appearance. In APL, tamibarotene maintenance was compared with ATRA in a randomised controlled trial of patients in molecular remission after consolidation, and in the Japanese JALSG-APL204 study it improved relapse-free survival.[7][8] A Phase 2 study examined relapsed or refractory APL, and another tested tamibarotene in steroid-refractory chronic graft-versus-host disease.[21][13] The SELECT-MDS-1 phase 3 trial compared tamibarotene plus azacitidine with placebo plus azacitidine in newly diagnosed higher-risk MDS with RARA overexpression, and its pivotal results were published in 2025.[10]"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2004",
+      "event": "A drug profile describes tamibarotene as pending approval in Japan for APL, with Nippon Shinyaku licensing it from Toko Pharmaceutical.[4]"
+    },
+    {
+      "year": "2014",
+      "event": "Randomized trial reports tamibarotene maintenance in APL.[7]"
+    },
+    {
+      "year": "2025",
+      "event": "SELECT-MDS-1 phase 3 results published.[10]"
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Tamibarotene",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17925887/",
+      "source": "Drugs of Today",
+      "year": 2007,
+      "type": "review"
+    },
+    {
+      "id": 2,
+      "title": "Tamibarotene",
+      "url": "https://en.wikipedia.org/wiki/Tamibarotene",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "State-of-the-art treatment of acute promyelocytic leukemia",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30305503/",
+      "source": "Rinsho Ketsueki",
+      "year": 2018,
+      "type": "review"
+    },
+    {
+      "id": 4,
+      "title": "Tamibarotene: AM 80, retinobenzoic acid, Tamibaro",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15563242/",
+      "source": "Drugs in R&D",
+      "year": 2004,
+      "type": "review"
+    },
+    {
+      "id": 5,
+      "title": "Tamibarotene: a candidate retinoid drug for Alzheimer's disease",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22863914/",
+      "source": "Biol Pharm Bull",
+      "year": 2012,
+      "type": "review"
+    },
+    {
+      "id": 6,
+      "title": "Retinoid therapy for autoimmune diseases",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16819260/",
+      "source": "Jpn J Clin Immunol",
+      "year": 2006,
+      "type": "review"
+    },
+    {
+      "id": 7,
+      "title": "Tamibarotene as maintenance therapy for APL: randomized controlled trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25245439/",
+      "source": "J Clin Oncol",
+      "year": 2014,
+      "type": "trial"
+    },
+    {
+      "id": 8,
+      "title": "Tamibarotene maintenance improved relapse-free survival of APL: JALSG-APL204",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30093681/",
+      "source": "Leukemia",
+      "year": 2019,
+      "type": "trial"
+    },
+    {
+      "id": 9,
+      "title": "Tamibarotene (Wikipedia, adverse effects)",
+      "url": "https://en.wikipedia.org/wiki/Tamibarotene",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 10,
+      "title": "Pivotal results of SELECT-MDS-1 phase 3 study of tamibarotene with azacitidine",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40334070/",
+      "source": "Blood Advances",
+      "year": 2025,
+      "type": "trial"
+    },
+    {
+      "id": 11,
+      "title": "Tamibarotene with venetoclax and azacitidine in RARA(+) AML (SY-1425-202)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42761251/",
+      "source": "Blood Neoplasia",
+      "year": 2026,
+      "type": "trial"
+    },
+    {
+      "id": 12,
+      "title": "Study of Tamibarotene in Patients With ADPKD (NCT06289998)",
+      "url": "https://clinicaltrials.gov/study/NCT06289998",
+      "source": "ClinicalTrials.gov",
+      "year": 2023,
+      "type": "trial"
+    },
+    {
+      "id": 13,
+      "title": "Phase II study of tamibarotene in steroid-refractory chronic GVHD",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27777437/",
+      "source": "Acta Med Okayama",
+      "year": 2016,
+      "type": "trial"
+    },
+    {
+      "id": 14,
+      "title": "Retinoid (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Retinoid",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 15,
+      "title": "Targeting RARA overexpression with tamibarotene, a potent and selective RARα agonist, is a novel approach in AML",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36477975/",
+      "source": "Blood Advances",
+      "year": 2023,
+      "type": "study"
+    },
+    {
+      "id": 16,
+      "title": "Tamibarotene targets heparin-binding protein for attenuating lung injury in sepsis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37422788/",
+      "source": "Allergol Immunopathol",
+      "year": 2023,
+      "type": "study"
+    },
+    {
+      "id": 17,
+      "title": "Efficacy and Safety of Tamibarotene (AM80) for Lupus Nephritis (NCT01226147)",
+      "url": "https://clinicaltrials.gov/study/NCT01226147",
+      "source": "ClinicalTrials.gov",
+      "year": 2010,
+      "type": "trial"
+    },
+    {
+      "id": 18,
+      "title": "Phase II Study of RR110 in Patients With Active Crohn's Disease (NCT00417391)",
+      "url": "https://clinicaltrials.gov/study/NCT00417391",
+      "source": "ClinicalTrials.gov",
+      "year": 2006,
+      "type": "trial"
+    },
+    {
+      "id": 19,
+      "title": "Efficacy and Safety of Tamibarotene (OAM80) for Alzheimer's Disease (NCT01120002)",
+      "url": "https://clinicaltrials.gov/study/NCT01120002",
+      "source": "ClinicalTrials.gov",
+      "year": 2010,
+      "type": "trial"
+    },
+    {
+      "id": 20,
+      "title": "The Clinical Trial of Tamibarotene for Patients With HFpEF (RELIEF Trial) (NCT07855692)",
+      "url": "https://clinicaltrials.gov/study/NCT07855692",
+      "source": "ClinicalTrials.gov",
+      "year": 2026,
+      "type": "trial"
+    },
+    {
+      "id": 21,
+      "title": "Safety, Efficacy, and Pharmacokinetic Study of Tamibarotene to Treat Patients With Relapsed or Refractory APL (NCT00520208)",
+      "url": "https://clinicaltrials.gov/study/NCT00520208",
+      "source": "ClinicalTrials.gov",
+      "year": 2007,
+      "type": "trial"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Tamibarotene",
+      "title": "Tamibarotene - Wikipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Retinoid",
+      "title": "Retinoid - Wikipedia"
+    }
+  ]
 }

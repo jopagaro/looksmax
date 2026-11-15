@@ -1,0 +1,54 @@
+{
+  "name": "Exendin-4",
+  "card": {
+    "summary": "A Gila monster venom peptide that activates the GLP-1 receptor; its synthetic form exenatide is a diabetes drug that lowers appetite and can reduce body weight.",
+    "aka": "Exenatide (synthetic), AC-2993, Byetta, Bydureon",
+    "evidence": "moderate",
+    "status": "research",
+    "note": "Exenatide is Rx-only; exendin-4 as a research peptide is not approved for personal use.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "Exendin-4 is a 39-amino-acid peptide first found in the venom of the Gila monster (Heloderma suspectum). A synthetic copy, exenatide, was developed as an injectable treatment for type 2 diabetes. It acts like the gut hormone GLP-1, which raises insulin release and reduces appetite.\n\nFor looks, the link is leanness: GLP-1 drugs lower food intake and body weight, and some people in fat-loss communities discuss them for that reason. Newer GLP-1 drugs such as semaglutide dominate that conversation today.",
+    "how": "Exenatide is given by prescription as a subcutaneous injection for diabetes. In fat-loss discussions the peptide is mentioned mainly as the older precursor to newer GLP-1 drugs; this article does not cover dosing or sourcing.",
+    "risks": "Reported effects of exenatide include nausea, vomiting, diarrhea and low blood sugar with certain drugs; serious risks include pancreatitis (boxed warning added in 2007) and kidney injury. The weekly form carries a thyroid tumor warning based on rodent findings. It is prescription-only in the US, UK, Australia and the EU."
+  },
+  "lead": [
+    "Exendin-4 is a peptide from Gila monster venom that binds the glucagon-like peptide-1 (GLP-1) receptor. A synthetic version, exenatide (AC-2993), was co-developed by Amylin and Eli Lilly as an injectable for type 2 diabetes, with the first phase III trial starting in December 2001 [1].",
+    "GLP-1 receptor agonists reduce food intake and body weight largely through receptors in the brain, a mechanism reviewed in the research literature [2]. That appetite effect is how the class connects to appearance: lower body fat produces a leaner look. Exenatide itself is approved for diabetes, not weight loss.",
+    "Beyond metabolism, researchers have investigated exendin-4 and related drugs for Parkinson's disease and effects on the gut microbiome, and these studies are not about appearance [3][4]."
+  ],
+  "angle": {
+    "goal": "Body fat",
+    "chain": ["Activates GLP-1 receptors", "Slows gastric emptying and lowers appetite", "Lower calorie intake and weight", "Leaner look"],
+    "effect": "indirect",
+    "text": "Through GLP-1 signalling the drug class reduces appetite and body weight, which some people want for fat loss. Exendin-4 itself is mainly a precursor to exenatide."
+  },
+  "infobox": [["Class", "GLP-1 receptor agonist peptide"], ["Source", "Gila monster venom"], ["Synthetic form", "Exenatide"], ["Isolated", "1992 (John Eng)"], ["FDA approved (exenatide)", "April 2005"], ["Trade names", "Byetta, Bydureon, Bydureon BCise"], ["Legal status", "Rx-only (exenatide)"]],
+  "sections": [
+    { "h": "Uses", "paras": ["Exenatide is prescribed as an add-on to diet and exercise, often with metformin or sulfonylureas, for type 2 diabetes [5].", "Weight loss is a recognised effect of GLP-1 agonists; reviews describe long-acting analogs as potently reducing food intake and body weight [2]."] },
+    { "h": "Pharmacology", "paras": ["Exenatide boosts insulin release, reduces glucagon, slows stomach emptying and lowers appetite [5]. Peripheral GLP-1 analogs act on hypothalamic and hindbrain neural circuits to cut feeding [2]."] },
+    { "h": "History", "paras": ["John Eng, an endocrinologist at a New York VA medical center, isolated exendin-4 in 1992 and patented it in 1993; Amylin licensed it in 1996 and the FDA approved exenatide in April 2005 [5]."] },
+    { "h": "Adverse effects", "paras": ["Nausea, vomiting, diarrhea, heartburn, dizziness and headache are common; pancreatitis, kidney injury and angioedema are serious risks, and the once-weekly form carries a thyroid cancer boxed warning based on rodent data [5]."] },
+    { "h": "Research", "paras": ["A 2025 systematic review of 38 studies found GLP-1 analogues alter gut microbiota composition, with varied effects for exenatide and exendin-4 [3]. A 2024 review says clinical data for GLP-1 agonists in Parkinson's disease are promising [4]."] },
+    { "h": "Clinical studies", "paras": ["Exenatide trials were designed in people with type 2 diabetes [1][5]. No trials of exendin-4 as an appearance or cosmetic fat-loss product were found."] }
+  ],
+  "timeline": [
+    { "year": "1992", "event": "John Eng isolates exendin-4.[5]" },
+    { "year": "1996", "event": "Amylin licenses the patent.[5]" },
+    { "year": "2001", "event": "First phase III exenatide trial begins.[1]" },
+    { "year": "2005", "event": "FDA approves exenatide.[5]" },
+    { "year": "2007", "event": "Pancreatitis boxed warning added.[5]" }
+  ],
+  "lore": null,
+  "refs": [
+    { "id": 1, "title": "Exenatide. Amylin/Eli Lilly.", "url": "https://pubmed.ncbi.nlm.nih.gov/12808888/", "source": "Current Opinion in Investigational Drugs", "year": 2003, "type": "review" },
+    { "id": 2, "title": "GLP-1 and weight loss: unraveling the diverse neural circuitry.", "url": "https://pubmed.ncbi.nlm.nih.gov/27030669/", "source": "Am J Physiol Regul Integr Comp Physiol", "year": 2016, "type": "review" },
+    { "id": 3, "title": "Effects of GLP-1 Analogues and Agonists on the Gut Microbiota: A Systematic Review.", "url": "https://pubmed.ncbi.nlm.nih.gov/40284168/", "source": "Nutrients", "year": 2025, "type": "review" },
+    { "id": 4, "title": "GLP-1 Receptor Agonists: A New Treatment in Parkinson's Disease.", "url": "https://pubmed.ncbi.nlm.nih.gov/38612620/", "source": "Int J Mol Sci", "year": 2024, "type": "review" },
+    { "id": 5, "title": "Exenatide (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Exenatide", "source": "Wikipedia", "year": null, "type": "encyclopedia" }
+  ],
+  "webSources": [
+    { "url": "https://en.wikipedia.org/wiki/Exenatide", "title": "Exenatide (Wikipedia)" }
+  ]
+}

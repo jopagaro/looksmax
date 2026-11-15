@@ -7,7 +7,7 @@
 // Run: node wiki/scripts/build-entries.mjs
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
-import { root, slug, allEntries, socialFilter, OFF_COMM, wikiRelevant } from './entries.mjs';
+import { root, slug, allEntries, socialFilter, OFF_COMM, wikiRelevant, canonGoal } from './entries.mjs';
 
 const outDir = join(root, 'data', 'entries');
 mkdirSync(outDir, { recursive: true });
@@ -36,6 +36,7 @@ try { for (const f of readdirSync(join(root, 'research', 'quick2', 'out')).filte
 try { for (const f of readdirSync(join(root, 'research', 'deep'))) { const k = f.replace(/\.json$/, ''); if (ANGLES[k]) continue; const d = readJSON(join(root, 'research', 'deep', f)); if (d && d.angle && d.angle.goal) ANGLES[k] = d.angle; } } catch {}
 // Quick-take pass also refreshes the angle's text/effect in the help-first tone.
 for (const [k, q] of Object.entries(QUICK2)) if (ANGLES[k] && q && q.angle && q.angle.text) ANGLES[k] = { ...ANGLES[k], text: q.angle.text, effect: q.angle.effect || ANGLES[k].effect };
+for (const a of Object.values(ANGLES)) if (a && a.goal) a.goal = canonGoal(a.goal);
 const stats = { entries: 0, raw: 0, deep: 0, droppedRefs: 0, studies: 0, reddit: 0, forum: 0, images: 0 };
 const ENTRIES = allEntries({ withPending: false });
 // Forum popularity: how many indexed looksmax.org thread titles mention each entry.
@@ -205,7 +206,7 @@ for (const { kind, item } of ENTRIES) {
       const q = neutral[item.name] && neutral[item.name].overview ? neutral[item.name] : fp.overview ? fp : (deep && deep.quick) || {};
       return {
         lead: String(q.overview || '').split(/\n\s*\n/).filter(Boolean),
-        sections: [q.mechanism && { h: 'How it works', paras: [q.mechanism], subs: [] }, q.risks && { h: 'Risks and caveats', paras: [q.risks], subs: [] }].filter(Boolean),
+        sections: [q.how ? { h: 'How people use it', paras: [q.how], subs: [] } : q.mechanism && { h: 'How it works', paras: [q.mechanism], subs: [] }, q.risks && { h: q.how ? 'Risks & side effects' : 'Risks and caveats', paras: [q.risks], subs: [] }].filter(Boolean),
       };
     })(),
     gallery, links, angle: ANGLES[s] || (deep && deep.angle && deep.angle.goal ? deep.angle : null),

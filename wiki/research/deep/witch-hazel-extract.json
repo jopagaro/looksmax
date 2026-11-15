@@ -1,23 +1,220 @@
 {
-"name":"Witch hazel extract",
-"lead":["Witch hazel extract is a preparation made from the bark and leaves of Hamamelis virginiana, a shrub native to eastern North America. It is best known as the astringent 'witch hazel' sold as a skin toner, a product made by distilling the plant material in dilute alcohol.[1]","Native American peoples used preparations of the bark and leaves for swellings and external inflammations, and the remedy was adopted by early settlers in New England.[1] The plant contains tannins, including a type called hamamelitannin.[1][2]","The sources reviewed contain laboratory studies of witch hazel extract, mainly antibacterial and chemical analyses, but no published human trial of its use as a skincare toner was identified."],
-"infobox":[["Type","Botanical extract / astringent"],["Source plant","Hamamelis virginiana (bark, leaves)"],["Key constituents","Tannins including hamamelitannin and gallic acid[2][3]"],["Common form","Distillate in dilute alcohol[1]"],["First described","Species named by Linnaeus, 1753[1]"]],
-"sections":[
-{"h":"History","paras":["The species was described by Carl Linnaeus in 1753. Accounts cited on Wikipedia say Native Americans boiled stems into a decoction for swellings and inflammations, and that early New England settlers adopted the remedy; some commercial history statements on that page are marked as lacking citations.[1]"]},
-{"h":"Composition","paras":["Witch hazel produces gallotannins, and a metabolomic analysis profiled its gallotannin content.[3] One standardised extract used in research is described as high in phenolics, about 75% of which is hamamelitannin, with traces of gallic acid.[2]"]},
-{"h":"Use in skincare","paras":["Witch hazel is described as an astringent toner botanical. Beyond this general description, the reviewed sources do not document how toners are used or what users report."]},
-{"h":"Clinical studies","paras":["No studies found. Related laboratory research includes an in vitro study of a witch hazel extract (whISOBAX) in which it inhibited aspects of staphylococcal pathogenesis and enhanced the effect of antibiotics,[2] a study of witch hazel added to commercial cattle teat dips,[4] and a study of its prebiotic and protective effect on Lactiplantibacillus plantarum strains.[5] A 2012 laboratory study reported that a hamamelitannin was cytotoxic to colon cancer cells.[1] None of these tested witch hazel on human skin."]}
-],
-"timeline":[{"year":"1753","event":"Linnaeus describes Hamamelis virginiana.[1]"}],
-"lore":null,
-"refs":[
-{"id":1,"title":"Hamamelis virginiana","url":"https://en.wikipedia.org/wiki/Hamamelis_virginiana","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":2,"title":"whISOBAX Inhibits Bacterial Pathogenesis and Enhances the Effect of Antibiotics","url":"https://pubmed.ncbi.nlm.nih.gov/32438609/","source":"Antibiotics","year":2020,"type":"study"},
-{"id":3,"title":"Metabolomic fingerprint of Hamamelis virginiana L. gallotannins by suspect screening analysis with UHPLC-qToF","url":"https://pubmed.ncbi.nlm.nih.gov/36065819/","source":"Journal of Mass Spectrometry","year":2022,"type":"study"},
-{"id":4,"title":"Witch Hazel Significantly Improves the Efficacy of Commercially Available Teat Dips","url":"https://pubmed.ncbi.nlm.nih.gov/32024049/","source":"Pathogens","year":2020,"type":"study"},
-{"id":5,"title":"Evaluation of a Witch Hazel Extract for the Potential Prebiotic and Protective Effect on Select Lactiplantibacillus plantarum Strains","url":"https://pubmed.ncbi.nlm.nih.gov/35571953/","source":"Frontiers in Nutrition","year":2022,"type":"study"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Hamamelis_virginiana","title":"Hamamelis virginiana - Wikipedia"}],
-"card":{"summary":"The classic astringent toner botanical; lab data exist, human skin trials do not.","aka":"Hamamelis virginiana, witch hazel","evidence":"unproven","status":"otc","outcome":null,"risk":null,"price":null,"note":"Toner distillates typically contain alcohol; no human skincare trials found.","structure":null},
-"quick":{"overview":"Witch hazel extract comes from the bark and leaves of a North American shrub and is traditionally used as an astringent toner. Native American and later settler use on swellings and inflammations is part of its history.\n\nThe published literature found is laboratory work, with no human trials of its cosmetic effect.","mechanism":"It is rich in tannins such as hamamelitannin. Laboratory studies report antibacterial effects of a standardised extract; how this relates to skin toning has not been tested in trials.","risks":"Safety data were not reviewed in the available sources. Traditional toner distillates are made with alcohol."}
+ "name": "Witch hazel extract",
+ "lead": [
+  "Witch hazel extract is a preparation made from the bark and leaves of Hamamelis virginiana, a shrub native to eastern North America. It is best known as the astringent \"witch hazel\" sold as a skin toner, a product made by distilling the plant material in dilute alcohol [1]. People use it after cleansing to leave skin feeling tighter and fresher, with pores that look smaller and oily shine that looks reduced, and many use it on blemish-prone areas as part of an everyday routine for clearer-looking skin.",
+  "Native American peoples used preparations of the bark and leaves for swellings and external inflammations, and the remedy was adopted by early settlers in New England [1]. The plant contains tannins, including a type called hamamelitannin [1][2].",
+  "Published research on witch hazel extract is mostly laboratory work, such as antibacterial tests and chemical analyses [2][3][4][5]. No human trial of its use as a skincare toner was identified."
+ ],
+ "angle": {
+  "goal": "Skin clarity and texture",
+  "chain": [
+   "Astringent tannins applied to skin",
+   "Skin feels tighter and less oily",
+   "Smaller-looking pores and a fresher complexion, as users describe"
+  ],
+  "effect": "claimed",
+  "text": "Users apply witch hazel toner with a cotton pad after cleansing to refresh oily or blemish-prone skin. They describe a tighter feel, reduced shine and less visible pores; human studies of these effects have not been published."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Botanical extract / astringent"
+  ],
+  [
+   "Source plant",
+   "Hamamelis virginiana (bark, leaves) [1]"
+  ],
+  [
+   "Key constituents",
+   "Tannins including hamamelitannin and gallic acid [2][3]"
+  ],
+  [
+   "Common form",
+   "Distillate in dilute alcohol [1]"
+  ],
+  [
+   "First described",
+   "Species named by Linnaeus, 1753 [1]"
+  ],
+  [
+   "Other names",
+   "Witch-hazel, American witch-hazel, beadwood [1]"
+  ],
+  [
+   "Status",
+   "Over-the-counter toner ingredient"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Uses",
+   "paras": [
+    "As a toner, witch hazel is wiped across the face after washing.",
+    "The extract also appears as an ingredient in other personal-care products. Examples among patents are a facial mask pack with witch hazel at 15 percent [6], and a scalp shampoo with 18 to 20 volume percent witch hazel extract aimed at stimulating blood flow around the follicle and contracting pores [7]. In a Korean patent for a mask pack, witch hazel is part of a formulation with glycerin and hyaluronate [6].",
+    "Wikipedia also notes that the bark and leaves are made into tea for stomach upset and sore throat, citing an archived web page, and that its distillate is the base of the product Pond's Extract [1]."
+   ]
+  },
+  {
+   "h": "How it is used for appearance",
+   "paras": [
+    "Witch hazel is used for how skin looks and feels: as a toner wiped on after washing, it is meant to leave oily skin feeling tighter and cleaner, make pores look smaller and calm redness. Healthline describes witch hazel as an astringent that causes tissue to contract, potentially shrinking the apparent size of pores, and says its tannins and gallic acid are anti-inflammatory compounds that may soothe skin; the page says it is common in over-the-counter acne products and especially suited to oily skin.[9] The chain, in the words of the people who use it, runs from astringent action to a smaller-looking pore and less shine to a clearer-looking complexion.",
+    "Scalp products are a second use. A Korean patent describes a shampoo with 18 to 20 percent witch hazel extract by volume aimed at stimulating blood flow around the follicle and contracting pores on the scalp, and Healthline cites an older study of 1,373 people in which a witch hazel shampoo reduced scalp irritation.[7][9]"
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "The species was described by Carl Linnaeus in 1753. Accounts cited on Wikipedia say Native Americans boiled stems into a decoction for swellings and inflammations, and that early New England settlers adopted the remedy; some commercial history statements on that page are marked as lacking citations [1]. The page also cites a 1997 Connecticut Business Journal article on which company makes witch hazel [1].",
+    "Common names include witch-hazel, American witch-hazel and beadwood [1]."
+   ]
+  },
+  {
+   "h": "Composition",
+   "paras": [
+    "Witch hazel produces gallotannins, and a metabolomic analysis profiled its gallotannin content [4]. One standardised extract used in research is described as high in phenolics, about 75% of which is hamamelitannin, with traces of gallic acid [2]. Hamamelitannin is described as inhibiting staphylococcal pathogenesis, including biofilm formation and toxin production, in laboratory studies [2][3].",
+    "A 2012 laboratory study reported that hamamelitannin was cytotoxic to colon cancer cells [1]."
+   ]
+  },
+  {
+   "h": "Laboratory research",
+   "paras": [
+    "An in vitro study of whISOBAX, a standardised extract, found it inhibited the growth of all bacteria tested to varying degrees, with Staphylococcus epidermidis, Staphylococcus aureus and Enterococcus species most sensitive, and enhanced the effect of antibiotics [2]. A study of a teat dip found that adding witch hazel extract raised the minimal inhibitory and bactericidal concentrations of an iodine-based dip against S. epidermidis cells up to 160-fold, and that only the extract inhibited toxin production [3].",
+    "A study on dandruff-associated microbes tested the witch hazel compound hamamelitannin alongside zinc pyrithione, ketoconazole and ciclopirox against Malassezia and Staphylococcus species; shampoos containing ketoconazole and zinc pyrithione were the most effective against Malassezia in the lab [8]. A 2022 study evaluated the extract for a prebiotic and protective effect on two Lactiplantibacillus plantarum strains, reporting that at the higher tested dose growth was greater than with control [5]."
+   ]
+  },
+  {
+   "h": "Skin research and tolerance",
+   "paras": [
+    "Healthline lists studies from 2022 and 2024 on anti-inflammatory and anti-acne effects in human skin cells and on antioxidant activity, alongside a 2014 scalp-care paper, and states that studies are limited and more research is needed.[9] The same page says some people may experience skin irritation or allergic reactions and recommends a patch test on a small area first.[9] Distilled witch hazel is traditionally prepared in dilute alcohol, a factor that product labels and consumers often weigh when choosing a toner.[1]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found. Related laboratory research includes an in vitro study of a witch hazel extract (whISOBAX) in which it inhibited aspects of staphylococcal pathogenesis and enhanced the effect of antibiotics [2], a study of witch hazel added to commercial cattle teat dips [3], a study of its prebiotic and protective effect on Lactiplantibacillus plantarum strains [5], and a dandruff-microbe study of hamamelitannin [8]. None of these tested witch hazel on human skin.",
+    "Registered studies that mention witch hazel include a single-group evaluation of a cosmetic product line on acne symptoms in 36 participants (NCT06122467), which tests a product range rather than witch hazel alone.[10]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Witch hazel is a long-standing toner ingredient in drugstore skincare, and the classic distillate is prepared in dilute alcohol [1]. Wikipedia describes the plant as a pollinator species that supports many caterpillar species [1]."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1753",
+   "event": "Linnaeus describes Hamamelis virginiana.[1]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Hamamelis virginiana",
+   "url": "https://en.wikipedia.org/wiki/Hamamelis_virginiana",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "whISOBAX Inhibits Bacterial Pathogenesis and Enhances the Effect of Antibiotics",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32438609/",
+   "source": "Antibiotics",
+   "year": 2020,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Metabolomic fingerprint of Hamamelis virginiana L. gallotannins by suspect screening analysis with UHPLC-qToF",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36065819/",
+   "source": "Journal of Mass Spectrometry",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Witch Hazel Significantly Improves the Efficacy of Commercially Available Teat Dips",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32024049/",
+   "source": "Pathogens",
+   "year": 2020,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Evaluation of a Witch Hazel Extract for the Potential Prebiotic and Protective Effect on Select Lactiplantibacillus plantarum Strains",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35571953/",
+   "source": "Frontiers in Nutrition",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Facial mask pack using Phellinus linteus (patent KR20040101615)",
+   "url": "https://europepmc.org/article/PAT/KR20040101615",
+   "source": "Europe PMC (patent)",
+   "year": 2004,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Hair shampoo for health of head skin (patent KR100827355B)",
+   "url": "https://europepmc.org/article/PAT/KR100827355B",
+   "source": "Europe PMC (patent)",
+   "year": 2008,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "In vitro efficacy of antifungal agents alone and in shampoo formulation against dandruff-associated Malassezia spp. and Staphylococcus spp.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30851208/",
+   "source": "Int J Cosmet Sci",
+   "year": 2019,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "Witch Hazel for Acne",
+   "url": "https://www.healthline.com/health/beauty-skin-care/witch-hazel-for-acne",
+   "source": "Healthline",
+   "year": 2024,
+   "type": "news"
+  },
+  {
+   "id": 10,
+   "title": "A Single Group Study to Evaluate the Efficacy of a Cosmetic Product Line on Acne Symptoms (NCT06122467)",
+   "url": "https://clinicaltrials.gov/study/NCT06122467",
+   "source": "ClinicalTrials.gov",
+   "year": 2023,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Hamamelis_virginiana",
+   "title": "Hamamelis virginiana - Wikipedia"
+  },
+  {
+   "url": "https://www.healthline.com/health/beauty-skin-care/witch-hazel-for-acne",
+   "title": "Witch hazel for acne - Healthline"
+  }
+ ],
+ "card": {
+  "summary": "The classic astringent toner botanical; lab data exist, human skin trials do not.",
+  "aka": "Hamamelis virginiana, witch hazel",
+  "evidence": "unproven",
+  "status": "otc",
+  "outcome": null,
+  "risk": null,
+  "price": null,
+  "note": "Toner distillates typically contain alcohol; no human skincare trials found.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Witch hazel extract comes from the bark and leaves of a North American shrub and is traditionally used as an astringent toner. Native American and later settler use on swellings and inflammations is part of its history.\nThe published literature found is laboratory work, with no human trials of its cosmetic effect.",
+  "mechanism": "It is rich in tannins such as hamamelitannin. Laboratory studies report antibacterial effects of a standardised extract; how this relates to skin toning has not been tested in trials.",
+  "risks": "Traditional toner distillates are made with alcohol."
+ }
 }

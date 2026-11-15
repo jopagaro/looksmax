@@ -1,24 +1,276 @@
 {
-"name":"Microabrasion",
-"lead":["Enamel microabrasion is a cosmetic dental procedure that removes a very thin outer layer of enamel, using a mildly acidic abrasive compound, to reduce surface discolouration such as white or brown spots.[1] The first practical method, using weak hydrochloric acid and pumice, was developed by Theodore Croll and Richard Cavanaugh in 1986.[1]","It is used mainly for dental fluorosis and for enamel defects including white spot lesions after orthodontic appliances.[1][2] It is not suited to discolouration located in dentine, such as tetracycline staining.[1]","Several recent clinical trials, registered mostly from 2019 onward, compare microabrasion with resin infiltration and other minimally invasive options.[3][4]"],
-"infobox":[["Type","Minimally invasive enamel procedure"],["Developed","1986 (Croll and Cavanaugh)"],["Enamel removed","A few tenths of a millimetre"],["Main uses","Fluorosis, enamel stain, white spots"]],
-"sections":[
-{"h":"Description","paras":["The procedure combines mechanical and chemical action to remove superficial enamel. A rubber dam is typically used, which can be hard to place on teeth that have not fully erupted.[1] Before it, stained teeth were often covered with restorations such as porcelain veneers.[1]"]},
-{"h":"Indications and limitations","paras":["A general encyclopedia article says microabrasion should be considered first for mild and moderate fluorosis.[1] It is also used for orthodontic-related defects and developmental enamel defects.[1] Reviews of white spot lesions after orthodontic treatment discuss it among management options.[2]","Thinning enamel can expose dentine, which may look yellowish or darker, and bleaching can be combined to mask this.[1]"]},
-{"h":"Clinical studies","paras":["A review article gives an overview of clinical and scientific considerations of enamel microabrasion.[3] Registered trials include a completed 60-patient comparison of hydrochloric acid-pumice and sodium hypochlorite-pumice for fluorosis,[4] a split-mouth comparison of resin infiltration and microabrasion for early lesions,[5] and a trial of resin infiltration versus microabrasion with CPP-ACP for fluorotic white spots.[6] Another registered trial compares resin infiltration with a combined microabrasion approach for molar incisor hypomineralisation.[7] Results are not summarised here because outcome data were not available in the sources."]}
-],
-"timeline":[{"year":"1916","event":"Removal of outermost enamel is first proposed.[1]"},{"year":"1986","event":"Croll and Cavanaugh develop the hydrochloric acid and pumice method.[1]"}],
-"lore":null,
-"refs":[
-{"id":1,"title":"Enamel microabrasion","url":"https://en.wikipedia.org/wiki/Enamel_microabrasion","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":2,"title":"Prevention and Treatment of White Spot Lesions in Orthodontic Patients","url":"https://pubmed.ncbi.nlm.nih.gov/28566845/","source":"Contemporary clinical dentistry","year":2017,"type":"review"},
-{"id":3,"title":"Enamel microabrasion: An overview of clinical and scientific considerations","url":"https://pubmed.ncbi.nlm.nih.gov/25610848/","source":"World journal of clinical cases","year":2015,"type":"review"},
-{"id":4,"title":"NCT05339503 Hydrochloric acid-pumice vs sodium hypochlorite-pumice microabrasion for dental fluorosis","url":"https://clinicaltrials.gov/study/NCT05339503","source":"ClinicalTrials.gov","year":2019,"type":"trial"},
-{"id":5,"title":"NCT07544849 Resin infiltration and microabrasion for early caries lesions","url":"https://clinicaltrials.gov/study/NCT07544849","source":"ClinicalTrials.gov","year":2025,"type":"trial"},
-{"id":6,"title":"NCT07704983 Resin infiltration vs microabrasion with CPP-ACP for fluorotic white spot lesions","url":"https://clinicaltrials.gov/study/NCT07704983","source":"ClinicalTrials.gov","year":2023,"type":"trial"},
-{"id":7,"title":"NCT04471571 Resin infiltration vs combined treatment with microabrasion for MIH incisors","url":"https://clinicaltrials.gov/study/NCT04471571","source":"ClinicalTrials.gov","year":2021,"type":"trial"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Enamel_microabrasion","title":"Enamel microabrasion"}],
-"card":{"summary":"A dentist-applied acid-pumice polish that removes a sliver of stained enamel; used for fluorosis and white spots.","aka":"Enamel microabrasion","evidence":"moderate","risk":"moderate","note":"Removes enamel permanently and is unsuited to dentine staining such as tetracycline.","price":null},
-"quick":{"overview":"Microabrasion removes a very thin layer of surface enamel with a mild acid and pumice to lessen stains and white spots. It dates to a 1986 method by Croll and Cavanaugh.\n\nIt is mainly used for mild to moderate fluorosis and enamel defects.","mechanism":"Combined chemical and mechanical action takes away a few tenths of a millimetre of enamel, removing superficial discolouration.","risks":"Enamel removed does not regrow, and thinning can expose darker dentine. It does not treat stains deep in dentine."}
+ "name": "Microabrasion",
+ "lead": [
+  "Enamel microabrasion is a cosmetic dental procedure that removes a very thin outer layer of enamel, using a mildly acidic abrasive compound, to reduce surface discolouration such as white or brown spots.[1] People use it to even out the colour of their front teeth, so that fluorosis mottling, post-braces white marks or developmental stains look less noticeable in a smile, without a veneer or crown.[1][2]",
+  "The first practical method, using weak hydrochloric acid and pumice, was developed by Theodore Croll and Richard Cavanaugh in 1986.[1] It is applied by a dentist, usually in one or a few short sessions, and is often described as a conservative option because it removes only a few tenths of a millimetre of enamel.[1][3]",
+  "It is used mainly for dental fluorosis and for enamel defects including white spot lesions after orthodontic appliances.[1][2] It is not suited to discolouration located in dentine, such as tetracycline staining.[1] Systematic reviews and registered clinical trials compare it with bleaching, resin infiltration and remineralising pastes.[4][5][6]"
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Minimally invasive enamel procedure"
+  ],
+  [
+   "Developed",
+   "1986 (Croll and Cavanaugh)"
+  ],
+  [
+   "Enamel removed",
+   "A few tenths of a millimetre[1]"
+  ],
+  [
+   "Main uses",
+   "Fluorosis, enamel stain, white spots"
+  ],
+  [
+   "Performed by",
+   "Dentist (rubber dam isolation typical)"
+  ],
+  [
+   "Not suited to",
+   "Dentine-level stains, e.g. tetracycline"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "The procedure combines mechanical and chemical action to remove superficial enamel. A rubber dam is typically used to protect the gums and lips, which can be hard to place on teeth that have not fully erupted.[1] Before microabrasion, stained teeth were often covered with restorations such as porcelain veneers, which commonly needed later replacement.[1]",
+    "Variants differ in the acid and abrasive used. Hydrochloric acid with pumice is the original; a registered trial has compared it with sodium hypochlorite with pumice, and another registered trial is testing phosphoric acid and a proprietary paste against hydrochloric acid.[7][8] A related approach, microabrasion-remineralisation, follows the abrasion step with a calcium-phosphate product such as CPP-ACP (Tooth Mousse).[9]"
+   ]
+  },
+  {
+   "h": "Indications and limitations",
+   "paras": [
+    "A general encyclopedia article says microabrasion should be considered first for mild and moderate fluorosis.[1] It is also used for orthodontic-related defects and developmental enamel defects, and age is not a limiting factor.[1] Reviews of white spot lesions after orthodontic treatment discuss it among management options alongside fluoride, remineralising agents, bleaching and resin infiltration.[2][10]",
+    "It is not indicated when discolouration lies in dentine, as in dentinogenesis imperfecta or tetracycline staining, and partially erupted teeth can make isolation difficult.[1] The same source notes that treatment is better delayed where lip seal is deficient, because dry enamel makes stains more visible.[1]",
+    "Thinning enamel can expose dentine, which may look yellowish or darker, and bleaching can be combined to mask this.[1]"
+   ]
+  },
+  {
+   "h": "Effectiveness",
+   "paras": [
+    "A 2023 systematic review of paediatric microabrasion (11 prospective studies, six randomised) concluded that it appears an effective and reliable technique for pre- and post-eruptive enamel discolouration, especially fluorosis, and called for more well-powered randomised studies for other spot types.[5]",
+    "A 2018 systematic review of dental fluorosis treatments (six randomised trials, 348 patients, mean age 17.7) found low-quality evidence that microabrasion gave a smaller aesthetic improvement than bleaching, and moderate-quality evidence that resin infiltration, alone or with bleaching, gave larger improvements than bleaching alone; the authors cautioned that each comparison rested on single trials.[4] A 2021 meta-analysis of resin infiltration (11 studies, 413 patients) reported its masking effect for white spot lesions and fluorosis.[6]",
+    "Clinicians writing about the technique in the 1990s and 2000s reported that certain patients benefit most from combined microabrasion and bleaching, and described microscopic changes in treated enamel that carry clinical implications.[14] Laboratory and clinical work cited in the encyclopedia article suggests treated enamel can be smooth and, after fluoride paste, harder, and may resist demineralisation and bacterial colonisation better than untreated enamel.[1]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A review article gives an overview of clinical and scientific considerations of enamel microabrasion.[3] A 2012 comparative clinical trial examined whether white spot lesions can be treated effectively, and a 2013 trial compared microabrasion with a combined approach for fluorosed teeth.[15][16] A 2019 split-mouth randomised trial compared resin infiltration and microabrasion for post-orthodontic white spots.[17] A 2020 trial on 60 extracted teeth with white spots compared bleaching, resin infiltration and microabrasion on colour restoration, and a 2023 randomised trial of 171 teeth with incisor hypoplasia compared resin infiltration with microabrasion-remineralisation using two pastes.[18][9]",
+    "Registered trials include a completed 60-patient comparison of hydrochloric acid-pumice and sodium hypochlorite-pumice for fluorosis,[7] a 30-patient split-mouth comparison of resin infiltration and microabrasion for early lesions,[19] a 42-patient trial of resin infiltration versus microabrasion with CPP-ACP for fluorotic white spots,[20] and a trial comparing resin infiltration with a combined microabrasion approach for molar incisor hypomineralisation.[21] A recruiting trial of 60 participants compares acid options in microabrasion.[8] Outcome data from the registrations were not available."
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "paras": [
+    "The main consequence is the permanent loss of a small amount of enamel, which does not regrow.[1] Over-thinning can reveal underlying dentine and a more yellow shade.[1] Treated surfaces are often followed with fluoride or remineralising products to improve smoothness and hardness.[1][9]"
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Removal of the outermost enamel to reach an underlying, presumed unaffected layer was proposed in 1916.[1] R. J. McCloskey described a fluorosis stain-removal technique in 1984, and Croll and Cavanaugh published their controlled acid-pumice method in Quintessence International in 1986; Croll and Killian extended it to surface texture and decalcification defects in 1990.[1] A review published ten years after the method appeared described the refined protocol and long-term results.[14]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1916",
+   "event": "Removal of outermost enamel is first proposed.[1]"
+  },
+  {
+   "year": "1984",
+   "event": "McCloskey describes a technique for removing fluorosis stains.[1]"
+  },
+  {
+   "year": "1986",
+   "event": "Croll and Cavanaugh develop the hydrochloric acid and pumice method.[1]"
+  },
+  {
+   "year": "1990",
+   "event": "Croll and Killian report use for surface texture and decalcification defects.[1]"
+  },
+  {
+   "year": "1995",
+   "event": "Ten-year review of the technique is published.[14]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Enamel microabrasion",
+   "url": "https://en.wikipedia.org/wiki/Enamel_microabrasion",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Prevention and Treatment of White Spot Lesions in Orthodontic Patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28566845/",
+   "source": "Contemporary clinical dentistry",
+   "year": 2017,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Enamel microabrasion: An overview of clinical and scientific considerations",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25610848/",
+   "source": "World journal of clinical cases",
+   "year": 2015,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Interventions for dental fluorosis: A systematic review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30194793/",
+   "source": "J Esthet Restor Dent",
+   "year": 2018,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Microabrasion in the management of enamel discolorations in paediatric dentistry: a systematic review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36627216/",
+   "source": "J Clin Pediatr Dent",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Efficacy of resin infiltration to mask post-orthodontic or non-post-orthodontic white spot lesions or fluorosis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34106348/",
+   "source": "Clinical Oral Investigations",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "NCT05339503 HCl-pumice vs NaOCl-pumice microabrasion for dental fluorosis",
+   "url": "https://clinicaltrials.gov/study/NCT05339503",
+   "source": "ClinicalTrials.gov",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "NCT07709286 Antivet vs phosphoric and hydrochloric acid in microabrasion",
+   "url": "https://clinicaltrials.gov/study/NCT07709286",
+   "source": "ClinicalTrials.gov",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Effectiveness of resin infiltration (ICON) and microabrasion-remineralization on permanent incisor hypoplasia",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37861634/",
+   "source": "J Indian Soc Pedod Prev Dent",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "White Spot Lesions in Fixed Orthodontics: A Literature Review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39205762/",
+   "source": "Cureus",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 14,
+   "title": "Enamel microabrasion: 10 years experience",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9063104/",
+   "source": "Asian J Aesthetic Dent",
+   "year": 1995,
+   "type": "review"
+  },
+  {
+   "id": 15,
+   "title": "Can white spot lesions be treated effectively?",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22356705/",
+   "source": "Angle Orthodontist",
+   "year": 2012,
+   "type": "trial"
+  },
+  {
+   "id": 16,
+   "title": "Comparison of enamel microabrasion with a combined approach to the esthetic management of fluorosed teeth",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23391032/",
+   "source": "Operative Dentistry",
+   "year": 2013,
+   "type": "trial"
+  },
+  {
+   "id": 17,
+   "title": "Esthetic improvements of postorthodontic white-spot lesions treated with resin infiltration and microabrasion: split-mouth RCT",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30719932/",
+   "source": "Angle Orthodontist",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 18,
+   "title": "Investigation of the esthetic outcomes of white spot lesion treatments",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32913173/",
+   "source": "Niger J Clin Pract",
+   "year": 2020,
+   "type": "trial"
+  },
+  {
+   "id": 19,
+   "title": "NCT07544849 Resin infiltration and microabrasion for early caries lesions",
+   "url": "https://clinicaltrials.gov/study/NCT07544849",
+   "source": "ClinicalTrials.gov",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 20,
+   "title": "NCT07704983 Resin infiltration vs microabrasion with CPP-ACP for fluorotic white spots",
+   "url": "https://clinicaltrials.gov/study/NCT07704983",
+   "source": "ClinicalTrials.gov",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 21,
+   "title": "NCT04471571 Resin infiltration vs combined microabrasion for MIH incisors",
+   "url": "https://clinicaltrials.gov/study/NCT04471571",
+   "source": "ClinicalTrials.gov",
+   "year": 2021,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Enamel_microabrasion",
+   "title": "Enamel microabrasion"
+  }
+ ],
+ "card": {
+  "summary": "A dentist-applied acid-pumice polish that removes a sliver of stained enamel; used for fluorosis and white spots.",
+  "aka": "Enamel microabrasion",
+  "evidence": "moderate",
+  "risk": "moderate",
+  "note": "Removes enamel permanently and is unsuited to dentine staining such as tetracycline.",
+  "price": null
+ },
+ "quick": {
+  "overview": "Microabrasion removes a very thin layer of surface enamel with a mild acid and pumice to lessen stains and white spots. It dates to a 1986 method by Croll and Cavanaugh.\n\nIt is mainly used for mild to moderate fluorosis and enamel defects.",
+  "mechanism": "Combined chemical and mechanical action takes away a few tenths of a millimetre of enamel, removing superficial discolouration.",
+  "risks": "Enamel removed does not regrow, and thinning can expose darker dentine. It does not treat stains deep in dentine."
+ },
+ "angle": {
+  "goal": "Teeth colour and smile",
+  "chain": [
+   "Dentist removes a thin layer of stained surface enamel",
+   "Superficial white, brown or mottled marks fade",
+   "More uniform-looking front teeth"
+  ],
+  "effect": "direct",
+  "text": "Microabrasion works on the enamel surface itself, so stains and white patches confined to the outer layer can be reduced in the chair. People use it before or alongside bleaching or resin infiltration to even out the look of their front teeth."
+ }
 }

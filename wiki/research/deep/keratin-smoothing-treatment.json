@@ -1,78 +1,324 @@
 {
-  "name": "Keratin smoothing treatment",
-  "lead": [
-    "A keratin smoothing treatment, also called a Brazilian keratin treatment or Brazilian blowout, is a salon procedure in which a keratin-based solution is applied to hair and sealed in with heat, with the aim of reducing frizz, adding shine and loosening curl. Results are described as semi-permanent, typically lasting a few months.[1][2]",
-    "Wikipedia groups keratin or Brazilian treatments with permanent and semi-permanent straightening methods and describes them as coating hair with keratin and then flat-ironing it, with effects fading over several months.[2] Grokipedia says the method emerged in Brazil in the early 2000s and reached the United States around 2006.[1]",
-    "The main documented concern is formaldehyde: a 2014 cross-sectional study in the Journal of the American Academy of Dermatology examined formaldehyde concentrations in Brazilian keratin-type products, and a 2021 pilot study measured volatile organic compounds among hairdressers in salons serving women of color.[3][4] Wikipedia advises against keratin treatments during pregnancy because some release gases.[2]"
+ "name": "Keratin smoothing treatment",
+ "card": {
+  "summary": "Salon keratin-and-heat smoothing for frizz and curl; lasts months, with formaldehyde exposure the documented concern.",
+  "aka": "Brazilian blowout, Brazilian keratin treatment",
+  "evidence": "limited",
+  "risk": "moderate",
+  "note": "Some formulations release formaldehyde; no appearance trials found.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Keratin smoothing treatments are salon procedures that apply a keratin-based formula and seal it with a flat iron to reduce frizz and loosen curls for a few months.\nThe effects and history are documented, but no clinical trials of appearance results exist.",
+  "mechanism": "Per Grokipedia, hydrolyzed keratin coats and fills the cuticle and heat seals it, mainly altering surface and hydrogen-bond interactions rather than permanently breaking disulfide bonds; formaldehyde-based versions rely on cross-linking.",
+  "risks": "Formaldehyde-releasing formulations can irritate eyes, nose and throat, and a 2014 study measured elevated formaldehyde in some products. Wikipedia advises against use during pregnancy. Overuse can cause dryness or breakage."
+ },
+ "lead": [
+  "A keratin smoothing treatment, also called a Brazilian keratin treatment, Brazilian blowout, keratin cure or escova progressiva, is a salon procedure in which a keratin-based solution is worked through the hair and sealed in with a heated flat iron. People use it to reduce frizz, add shine and loosen curls or waves, which gives smoother, glossier hair that needs less daily styling and holds up better in humid weather. Results are described as semi-permanent and typically last about three months, fading as the hair is washed and new growth comes in.[1][2][3]",
+  "The method emerged in Brazil in the early 2000s, where humid climates drove demand for frizz control, and reached the United States around 2006. Grokipedia names the Brazilian Blowout brand, introduced in 2005, as the flagship product.[1] Wikipedia groups keratin or Brazilian treatments with permanent and semi-permanent straightening methods and notes that they are used on most hair types, including coloured and previously relaxed hair.[2][3]",
+  "The main documented concern is formaldehyde. Several formulations were found to contain or release formaldehyde when heated, which led to regulatory warnings, workplace citations and litigation between 2010 and 2012.[3][4][5][13] A 2014 cross-sectional study in the Journal of the American Academy of Dermatology examined formaldehyde concentrations in Brazilian keratin-type products, and later studies measured volatile organic compounds and other chemicals among hairdressers.[4][6][7] Wikipedia advises against keratin treatments during pregnancy because some release gases.[2]"
+ ],
+ "angle": {
+  "goal": "Hair",
+  "chain": [
+   "Keratin-based solution is applied and sealed with a flat iron",
+   "Cuticle is smoothed and frizz reduced",
+   "Straighter, shinier hair that styles faster"
   ],
-  "infobox": [
-    ["Type", "Salon hair-smoothing procedure"],
-    ["Also known as", "Brazilian keratin treatment, Brazilian blowout, escova progressiva[1]"],
-    ["Origin", "Brazil, early 2000s; United States around 2006[1]"],
-    ["Typical duration", "Several months, fading with washing[1][2]"],
-    ["Main safety issue", "Formaldehyde-releasing formulations[3]"]
+  "effect": "direct",
+  "text": "The treatment coats and smooths the hair so that frizz and curl are reduced for roughly three months. People use it for a sleeker, glossier hair appearance and shorter daily styling time."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Salon hair-smoothing procedure"
   ],
-  "sections": [
-    {
-      "h": "Description",
-      "paras": [
-        "The procedure applies a formula to the hair, followed by heat from a flat iron to seal it in. Grokipedia describes the aim as smoothing the cuticle, reducing frizz and styling time, and preserving some natural movement rather than fully straightening hair.[1] Wikipedia distinguishes keratin treatments from chemical relaxers, which break the disulfide bonds that give hair its shape, and from Japanese thermal reconditioning.[2]"
-      ]
-    },
-    {
-      "h": "History",
-      "paras": [
-        "Per Grokipedia, early formulations combined hydrolyzed keratin with high concentrations of formaldehyde, which acted as a cross-linking agent, and the chemistry drew on textile methods from the 1960s. The Brazilian Blowout brand, introduced in 2005, became the best-known product.[1] The treatment spread internationally from Brazilian salons beginning in the mid-2000s.[1]"
-      ]
-    },
-    {
-      "h": "Safety and risks",
-      "paras": [
-        "Formaldehyde-releasing agents can cause eye, nose and throat irritation during application, and long-term exposure raises questions.[1] A 2014 cross-sectional study reported elevated formaldehyde concentrations in some Brazilian keratin-type products.[3] Studies of hair salon air and hairdresser biomonitoring have measured volatile organic compounds in these settings.[4][5]",
-        "Formaldehyde-free alternatives exist and are described as possibly giving less dramatic smoothing and shorter durations.[1] Overuse or high heat can cause dryness or breakage.[1]"
-      ]
-    },
-    {
-      "h": "In looksmaxxing culture",
-      "paras": [
-        "Keratin treatments appear in hair-style discussion on looksmaxxing forums, for example in threads from people with curly or coily hair asking how to achieve a straighter-wavy look, where chemical relaxers are suggested as an alternative.[6]"
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found of keratin smoothing treatments for appearance outcomes. Related research is limited to product formaldehyde measurements and salon exposure studies, described above.[3][4][5]"
-      ]
-    }
+  [
+   "Also known as",
+   "Brazilian keratin treatment, Brazilian blowout, BKT, keratin cure, escova progressiva [1][3]"
   ],
-  "timeline": [
-    { "year": "2000s", "event": "Keratin smoothing treatments emerge in Brazil.[1]" },
-    { "year": "2005", "event": "Brazilian Blowout brand introduced.[1]" },
-    { "year": "2006", "event": "Treatment first appears in the United States.[1]" }
+  [
+   "Origin",
+   "Brazil, early 2000s; United States around 2006 [1]"
   ],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Keratin treatment", "url": "https://grokipedia.com/page/Keratin_treatment", "source": "Grokipedia", "year": 2026, "type": "encyclopedia" },
-    { "id": 2, "title": "Hair straightening", "url": "https://en.wikipedia.org/wiki/Hair_straightening", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
-    { "id": 3, "title": "Elevated formaldehyde concentration in \"Brazilian keratin type\" hair-straightening products: a cross-sectional study", "url": "https://pubmed.ncbi.nlm.nih.gov/24332313/", "source": "Journal of the American Academy of Dermatology", "year": 2014, "type": "study" },
-    { "id": 4, "title": "Biomonitoring of volatile organic compounds (VOCs) among hairdressers in salons primarily serving women of color: A pilot study", "url": "https://pubmed.ncbi.nlm.nih.gov/34090205/", "source": "Environment International", "year": 2021, "type": "study" },
-    { "id": 5, "title": "TD-GC/MS analysis of indoor air pollutants (VOCs, PM) in hair salons", "url": "https://pubmed.ncbi.nlm.nih.gov/35065178/", "source": "Chemosphere", "year": 2022, "type": "study" },
-    { "id": 6, "title": "how can i get my keratin treatment at home (thread)", "url": "https://looksmax.org/threads/yall-how-can-i-get-my-keratin-treatment-at-home-to-make-my-type-3-coilish-mixed-with-loose-curls-to-look-like-the-hair-in-this-picture.1696171/", "source": "looksmax.org", "year": null, "type": "forum" }
+  [
+   "Best-known brand",
+   "Brazilian Blowout, introduced 2005 [1]"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Hair_straightening", "title": "Hair straightening" }
+  [
+   "Typical duration",
+   "About three months, fading with washing [3]; Grokipedia gives 3 to 6 months [1]"
   ],
-  "card": {
-    "summary": "Salon keratin-and-heat smoothing for frizz and curl; lasts months, with formaldehyde exposure the documented concern.",
-    "aka": "Brazilian blowout, Brazilian keratin treatment",
-    "evidence": "limited",
-    "risk": "moderate",
-    "note": "Some formulations release formaldehyde; no appearance trials found.",
-    "structure": null
+  [
+   "Salon time",
+   "Several hours [1]; 2 to 4 hours per Wikipedia [2]"
+  ],
+  [
+   "Compatible hair",
+   "Most types, including coloured, permed and relaxed hair [3]"
+  ],
+  [
+   "Typical US price",
+   "Roughly $82 to $400 depending on location, length and brand [1]"
+  ],
+  [
+   "Main safety issue",
+   "Formaldehyde-releasing formulations [3][13]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "The procedure applies a formula to the hair, followed by heat from a flat iron to seal it in. Grokipedia describes the aim as smoothing the cuticle, reducing frizz and styling time, and preserving some natural movement rather than fully straightening hair; it describes the usual steps as clarifying the hair, applying the solution in sections, a processing period of often 15 to 45 minutes, blow-drying and flat-ironing.[1] The whole process takes several hours.[1][2]",
+    "Wikipedia distinguishes keratin treatments from chemical relaxers, which break the disulfide bonds that give hair its shape and are permanent on treated hair, and from Japanese thermal reconditioning, which uses a bond-breaking chemical followed by heat and is also described as permanent. It adds that the \"straightener\" name for the Brazilian treatment is arguably inaccurate because the structure of the hair is not chemically altered.[2][3]",
+    "Aftercare instructions vary by product. Clients may be told to avoid washing, wetting or tying the hair for up to three days, with Grokipedia citing 72 hours and sulfate-free products afterwards, and the treatment is repeated as new hair grows in.[1][3] Wikipedia states that treatments should not be done more than about three times a year, because excess keratin can cause breakage.[3]"
+   ]
   },
-  "quick": {
-    "overview": "Keratin smoothing treatments are salon procedures that apply a keratin-based formula and seal it with a flat iron to reduce frizz and loosen curls for a few months.\n\nThe sources reviewed describe the effects and history but contain no clinical trials of appearance results.",
-    "mechanism": "Per Grokipedia, hydrolyzed keratin coats and fills the cuticle and heat seals it, mainly altering surface and hydrogen-bond interactions rather than permanently breaking disulfide bonds; formaldehyde-based versions rely on cross-linking.",
-    "risks": "Formaldehyde-releasing formulations can irritate eyes, nose and throat, and a 2014 study measured elevated formaldehyde in some products. Wikipedia advises against use during pregnancy. Overuse can cause dryness or breakage."
+  {
+   "h": "Chemistry and how it works",
+   "paras": [
+    "Original formulations contained formaldehyde or methylene glycol, which interconvert and coexist in equilibrium in water; heating shifts the balance toward formaldehyde gas.[3] Grokipedia describes formaldehyde acting as a cross-linking agent that fixes hydrolyzed keratin onto the hair, drawing on textile chemistry from the 1960s, and says the method mainly alters surface and hydrogen-bond interactions rather than permanently breaking disulfide bonds.[1]",
+    "Formaldehyde-free alternatives typically use glyoxylic acid or carbocysteine, or are marketed as amino-acid, cysteine or plant-based systems. Grokipedia describes these as gentler and less odorous, with less dramatic smoothing and shorter duration, and notes that some case reports link glyoxylic acid products to acute kidney injury.[1] The FDA has cautioned that products labelled formaldehyde-free may still release it, and asks consumers to check labels for formaldehyde, formalin or methylene glycol.[13]"
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Per Grokipedia, early formulations combined hydrolyzed keratin with high concentrations of formaldehyde. The Brazilian Blowout brand, introduced in 2005, became the best-known product, and the treatment spread internationally from Brazilian salons beginning in the mid-2000s.[1] Other brands that Grokipedia lists include Keratin Complex, Cezanne, Global Keratin, Trissola, Goldwell Kerasilk and Magic Sleek.[1]",
+    "Hair straightening has a longer background. Wikipedia reports that the hot comb was commercially available in Europe and America by the 1870s and that Madam C. J. Walker popularised straightening combs in the early 1900s, with chemical relaxers and later thermal reconditioning following.[2]"
+   ]
+  },
+  {
+   "h": "Regulation and controversy",
+   "paras": [
+    "The International Agency for Research on Cancer classified formaldehyde as a known human carcinogen in 2006.[3] In October 2010 Health Canada issued an advisory that the Brazilian Blowout solution contained formaldehyde, and the US FDA announced it was evaluating whether the products could cause health problems when heated.[3] Oregon OSHA sampled salon air that month after stylists reported breathing difficulty, nosebleeds and eye irritation, and reported high formaldehyde in product batches, though air averages were below the permissible limit; the manufacturer disputed the testing methods and sued.[3]",
+    "In August 2011 the FDA sent the manufacturer a warning letter stating that products labelled formaldehyde-free were misbranded and adulterated, and the manufacturer removed the claim voluntarily.[3][13] The FDA lists a second warning letter, to Van Tibolli Beauty Corp. in 2015, and says its letters should not be read as a broad evaluation of hair smoothing products in general.[13] Federal OSHA issued a hazard alert and citations to five manufacturers, three distributors, two beauty schools and 42 salon owners, finding that many owners were unaware of the risk because labels and safety data sheets omitted warnings.[3] A study by ChemRisk in October 2011 found formaldehyde in several products, including some labelled formaldehyde-free, and reported levels above the OSHA short-term limit during blow-drying.[3][8]",
+    "In January 2012 the California Attorney General announced a settlement with the manufacturer requiring a $600,000 payment, corrected safety data sheets, Proposition 65 warnings and an end to formaldehyde-free advertising; class actions alleging false advertising were also filed.[3] The manufacturer argued that its products contained methylene glycol rather than formaldehyde; critics and the American Chemistry Council argued that formaldehyde content should include both forms, and the dispute extended to which test method was appropriate.[3] Wikipedia reports that Canada and EU member states have banned the treatment and that California and Maryland have moved to restrict formaldehyde in personal care products; the FDA says it does not approve cosmetics but can act on unsafe or mislabelled ones, and that OSHA, not FDA, regulates salon air under its formaldehyde standard.[3][13]"
+   ]
+  },
+  {
+   "h": "Safety and risks",
+   "paras": [
+    "Formaldehyde-releasing agents can cause eye, nose and throat irritation during application, and long-term exposure raises questions.[1] The FDA lists reported reactions including eye problems, headaches and dizziness, breathing problems, nausea, chest pain, vomiting and rash, and notes that repeated contact can cause skin sensitisation or allergic dermatitis.[13] Wikipedia adds nosebleeds, fainting and coughing among adverse event reports, and says the CDC has warned that workers exposed to formaldehyde may face increased fertility problems and miscarriage risk.[3]",
+    "A 2014 cross-sectional study reported elevated formaldehyde concentrations in some Brazilian keratin-type products.[4] A 2011 study characterised formaldehyde exposure from four professional straightening products.[8] A 2019 study reported an increase in global DNA methylation patterns among beauty salon workers exposed to low levels of formaldehyde.[9] Studies of hair salon air and hairdresser biomonitoring have measured volatile organic compounds and phthalates in these settings.[6][7][10] A 2016 case report described an eczema-like psoriasiform skin reaction after a Brazilian keratin treatment.[11]",
+    "For the hair itself, overuse or high heat can cause dryness, breakage, protein overload or scalp irritation, and Wikipedia says excessive heat from styling can permanently alter hair structure.[1][2][3] Wikipedia's hair straightening article also reports that chemical relaxers, a different product class, may contain formaldehyde-releasing agents and phthalates, and cites a 2017 study of relaxer use and breast cancer and a 2022 National Institutes of Health study linking chemical straightening products to uterine cancer; these findings concern relaxers and straighteners generally and were not specific to keratin treatments.[2]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found of keratin smoothing treatments for appearance outcomes such as frizz reduction or smoothness. Related research concerns product formaldehyde measurements, salon exposure and worker biomonitoring, described above.[4][6][7][8][9][10]"
+   ]
+  },
+  {
+   "h": "In looksmaxxing culture",
+   "paras": [
+    "Keratin treatments appear in hair-style discussion on looksmaxxing forums, for example in threads from people with curly or coily hair asking how to achieve a straighter-wavy look, where chemical relaxers are suggested as an alternative.[12] The treatment is part of the broader category of hair-smoothing options that also includes thermal reconditioning, relaxers and flat-iron styling, and Grokipedia lists cysteine treatments, nanoplastia and a plant-based product as other alternatives.[1][2]"
+   ]
   }
+ ],
+ "timeline": [
+  {
+   "year": "1870s",
+   "event": "Hot comb commercially available in Europe and America.[2]"
+  },
+  {
+   "year": "Early 2000s",
+   "event": "Keratin smoothing treatments emerge in Brazil.[1]"
+  },
+  {
+   "year": "2005",
+   "event": "Brazilian Blowout brand introduced.[1]"
+  },
+  {
+   "year": "2006",
+   "event": "Treatment appears in the United States; IARC classifies formaldehyde as a known human carcinogen.[1][3]"
+  },
+  {
+   "year": "2010",
+   "event": "Health Canada advisory; FDA begins evaluating Brazilian Blowout; Oregon OSHA sampling.[3]"
+  },
+  {
+   "year": "2011",
+   "event": "FDA warning letter on formaldehyde-free labelling; OSHA hazard alert; ChemRisk study.[3][13]"
+  },
+  {
+   "year": "2012",
+   "event": "California Attorney General settlement of $600,000 with the manufacturer.[3]"
+  },
+  {
+   "year": "2015",
+   "event": "FDA warning letter to Van Tibolli Beauty Corp.[13]"
+  },
+  {
+   "year": "2016 to 2017",
+   "event": "FDA holds focus groups on hair smoothing products and warning labels.[13]"
+  },
+  {
+   "year": "2022",
+   "event": "NIH study links chemical hair straightening products to uterine cancer risk, as summarised on Wikipedia.[2]"
+  }
+ ],
+ "lore": {
+  "intro": "Keratin treatments are discussed in hair and styling communities as a way to get sleek, low-frizz hair without daily heat styling, and on looksmaxxing forums as one option for taming curly or coily hair.[12]",
+  "claims": [
+   {
+    "claim": "Keratin treatment smooths and straightens hair for months",
+    "believers": "Clients and salons describe frizz-free, shinier hair lasting about three months, usable on coloured or relaxed hair.[1][3]",
+    "experts": "Encyclopedic accounts report effects lasting about three months, and no clinical trial of appearance outcomes has been published.[2][3]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "The treatment repairs damaged hair",
+    "believers": "Marketing and clients describe the keratin as filling and sealing the cuticle.[1]",
+    "experts": "Grokipedia describes a coating and filling effect held by heat; Wikipedia says excess keratin or heat can cause breakage and limits treatments to about three a year.[1][3]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "A product labelled formaldehyde-free contains no formaldehyde",
+    "believers": "Manufacturers argued their formulas contained methylene glycol, not formaldehyde.[3]",
+    "experts": "The FDA's 2011 warning letter called such labelling misbranded, and a 2011 study found formaldehyde in some products labelled formaldehyde-free.[3][8][13]",
+    "evidence": "harms"
+   },
+   {
+    "claim": "Keratin treatments are safe for stylists and clients",
+    "believers": "Industry statements in 2010 to 2012 disputed regulators' air-testing methods.[3]",
+    "experts": "OSHA issued a hazard alert and citations, the FDA lists reported reactions, and studies measured formaldehyde in products and salon air.[3][4][13]",
+    "evidence": "harms"
+   },
+   {
+    "claim": "Keratin treatment is a gentler alternative to chemical relaxers",
+    "believers": "Forum posters with curly hair ask about keratin and relaxers as alternatives for a smoother look.[12]",
+    "experts": "Wikipedia distinguishes the two: relaxers break disulfide bonds permanently, keratin treatments are semi-permanent; relaxers have been studied in cancer research, which has not been specific to keratin treatments.[2][3]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Formaldehyde-free versions work just as well",
+    "believers": "Salons market amino-acid and glyoxylic acid alternatives as safer.[1]",
+    "experts": "Grokipedia reports they give less dramatic straightening and shorter duration, with case reports of kidney injury for some glyoxylic acid products.[1]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Keratin treatment",
+   "url": "https://grokipedia.com/page/Keratin_treatment",
+   "source": "Grokipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Hair straightening",
+   "url": "https://en.wikipedia.org/wiki/Hair_straightening",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Brazilian hair straightening",
+   "url": "https://en.wikipedia.org/wiki/Brazilian_hair_straightening",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Elevated formaldehyde concentration in \"Brazilian keratin type\" hair-straightening products: a cross-sectional study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24332313/",
+   "source": "Journal of the American Academy of Dermatology",
+   "year": 2014,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Hair smoothing products and formaldehyde (regulatory history summarised on Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Brazilian_hair_straightening",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 6,
+   "title": "Biomonitoring of volatile organic compounds (VOCs) among hairdressers in salons primarily serving women of color: A pilot study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34090205/",
+   "source": "Environment International",
+   "year": 2021,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "TD-GC/MS analysis of indoor air pollutants (VOCs, PM) in hair salons",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35065178/",
+   "source": "Chemosphere",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Characterization of formaldehyde exposure resulting from the use of four professional hair straightening products",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22035353/",
+   "source": "Journal of Occupational and Environmental Hygiene",
+   "year": 2011,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "Increase of global DNA methylation patterns in beauty salon workers exposed to low levels of formaldehyde",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30421373/",
+   "source": "Environmental Science and Pollution Research",
+   "year": 2019,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Occupational Exposures to Phthalates among Black and Latina U.S. Hairdressers Serving an Ethnically Diverse Clientele: A Pilot Study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34078083/",
+   "source": "Environmental Science & Technology",
+   "year": 2021,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "Eczema-Like Psoriasiform Skin Reaction due to Brazilian Keratin Treatment",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27172059/",
+   "source": "Skin Appendage Disorders",
+   "year": 2016,
+   "type": "study"
+  },
+  {
+   "id": 12,
+   "title": "how can i get my keratin treatment at home (thread)",
+   "url": "https://looksmax.org/threads/yall-how-can-i-get-my-keratin-treatment-at-home-to-make-my-type-3-coilish-mixed-with-loose-curls-to-look-like-the-hair-in-this-picture.1696171/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 13,
+   "title": "Hair Smoothing Products that Release Formaldehyde When Heated",
+   "url": "https://www.fda.gov/cosmetics/cosmetic-products/hair-smoothing-products-release-formaldehyde-when-heated",
+   "source": "US Food and Drug Administration",
+   "year": 2024,
+   "type": "guideline"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://www.fda.gov/cosmetics/cosmetic-products/hair-smoothing-products-release-formaldehyde-when-heated",
+   "title": "Hair Smoothing Products that Release Formaldehyde When Heated (FDA)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Hair_straightening",
+   "title": "Hair straightening"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Brazilian_hair_straightening",
+   "title": "Brazilian hair straightening"
+  }
+ ]
 }

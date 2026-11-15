@@ -1,5 +1,349 @@
 {
   "name": "Golden ratio face analysis",
+  "lead": [
+    "Golden ratio face analysis is the practice of measuring facial proportions and comparing them with ideal values, most famously the golden ratio phi, about 1.618.[1][3] People use it as a way to find which features of their own face sit close to a target and which differ, so they can decide where grooming, hairstyle, glasses, facial hair, makeup or other changes might bring the face closer to the proportions they find attractive. In looksmaxxing forums the analyses are posted as lists of ratios, for example mouth-to-nose width, eye spacing and midface proportions, with each labelled ideal, slightly unideal or a flaw.[3][4]",
+    "Phi has a long history in mathematics and a long association with beauty. Wikipedia's golden ratio article notes that many claims connecting phi to art and nature are disputed. Examples include the Mona Lisa and the Vitruvian Man, which the article says are not supported by Leonardo's own writings or measurements.[1] Face-specific versions of the idea include the neoclassical canons of facial proportion that artists and surgeons have used for centuries and the Marquardt beauty mask, a template drawn by the California oral and maxillofacial surgeon Stephen Marquardt and said to show the proportions of an ideal face.[8][10] Online tools and apps that automate measurement have appeared, including projects posted to Hacker News in 2026.[6][7]",
+    "Research has examined the idea directly. Studies of photographs and 3D scans in Malaysian, Thai, Turkish, Italian and Nigerian samples have measured how closely real faces approach phi or the canons and whether conformity tracks rated attractiveness, and several have reported little or no relationship.[2][8] A 2010 study by Pallett, Link and Lee instead found that attractiveness peaked at spacing ratios, roughly 36 percent for eye-to-mouth distance and 46 percent for eye separation, that match an average face rather than phi.[9] Grokipedia says the ratio targets used in looksmaxxing are informal community standards rather than validated clinical criteria.[3]"
+  ],
+  "angle": {
+    "goal": "Face",
+    "chain": [
+      "Mark landmarks on frontal and profile photos",
+      "Compute ratios and compare them with ideal targets",
+      "Identify features that deviate and choose styling or treatments in response"
+    ],
+    "effect": "claimed",
+    "text": "Users photograph the face, mark landmarks, and compute ratios such as mouth-to-nose width, eye spacing and facial thirds. The numbers are used as a checklist for deciding which features to emphasise or adjust with hairstyle, facial hair, glasses, makeup or procedures."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Facial proportion method"
+    ],
+    [
+      "Reference value",
+      "Phi, approximately 1.618[1]"
+    ],
+    [
+      "Best-known face templates",
+      "Marquardt beauty mask; neoclassical canons (thirds and fifths)[8][10]"
+    ],
+    [
+      "Typical inputs",
+      "Frontal and profile photographs with landmark markings"
+    ],
+    [
+      "Common ratios",
+      "Mouth-to-nose, eye spacing, midface, facial thirds, face width-to-height, eye aspect ratio[4]"
+    ],
+    [
+      "Output",
+      "A list of ideal or off values, sometimes a combined percentage[4]"
+    ],
+    [
+      "Related research",
+      "Averageness, symmetry and dimorphism studies; golden-ratio tests in several populations[8][9][11]"
+    ],
+    [
+      "Validation",
+      "No validated clinical standard[3]"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Background",
+      "paras": [
+        "The golden ratio was called the extreme and mean ratio by Euclid, whose Elements (about 300 BC) contains its first known definition, and the divine proportion by Luca Pacioli, whose 1509 book Divina proportione was illustrated by Leonardo da Vinci.[1] Wikipedia traces a nineteenth-century enthusiasm: Adolf Zeising in 1854 argued that the golden ratio is a universal law, and the article reports that the claim that Pacioli advocated golden-ratio proportions for pleasing design traces to a 1799 error; Pacioli is described as advocating the Vitruvian system of rational proportions.[1]",
+        "Twentieth-century artists and architects such as Le Corbusier, whose Modulor system divided a model human body using golden-ratio proportions from 1927 onward, and Salvador Dali proportioned works to approximate the ratio because they believed it pleasing.[1] Critics have tested art claims: a 1999 study of 565 paintings found that artists generally did not use the ratio for canvas dimensions, with an average side ratio of 1.34, while a separate survey by Pablo Tosto reported that more than 100 of over 350 works had golden-rectangle or other notable proportions.[1] Wikipedia also says some claimed golden-ratio patterns in animal dimensions are fictitious.[1]"
+      ]
+    },
+    {
+      "h": "Facial templates and canons",
+      "paras": [
+        "Long before online forums, artists and clinicians described the face in simple divisions. The neoclassical canons, which divide the face into equal vertical thirds and treat the width of the nose or the gap between the eyes as a fraction of face width, were tested against measurements by Leslie Farkas and colleagues in 1985. In 153 young adult North American Caucasians, the two horizontal canons held most often (interorbital width equalled nose width in 40 percent and nose width equalled a quarter of face width in 37 percent), the vertical canons fit worst, and the authors concluded the canons do not represent average proportions.[8]",
+        "Stephen Marquardt, an American oral and maxillofacial surgeon who trained at UCLA and later worked in facial imaging there, is known for the repose frontal mask, a drawing said to show the proportions of an ideal face using the golden ratio.[10] He discussed what he called the golden decagon and facial beauty in a 2002 interview in the Journal of Clinical Orthodontics.[8] Many face-ratio overlays and apps are descended from this kind of template.",
+        "A 2013 review in Rhinology by Prokopakis and colleagues argued that the golden ratio can characterise symmetrical forms and proposed its use in facial aesthetics.[8] A 2008 analysis by Holland compared faces with Marquardt's mask using geometric morphometrics and reported that the mask best matched masculinised white women seen in fashion models, arguing it is poorly suited to non-European populations.[8]"
+      ]
+    },
+    {
+      "h": "How the analysis is done",
+      "paras": [
+        "A typical forum post presents a frontal photograph and a profile photograph with landmarks marked. The poster or a script calculates a series of ratios and labels each one. A looksmax.org thread on a male model's frontal harmony lists values for midface ratio, eye separation ratio, facial width-to-height ratio, chin-to-philtrum ratio, bigonial width, cheekbone height, neck width, mouth-to-nose width, intercanthal distance, facial thirds, bitemporal width, eye aspect ratio, lower-third proportion, lip ratio, jaw frontal angle, canthal tilt and eyebrow tilt, and ends with an overall frontal harmony percentage of 90.1 percent.[4] Other posters reply with their own measurements for comparison, one saying their ratios are fairly close but the model still outranks them.[4]",
+        "Not all ratios are phi-based. Many of the targets in these lists are thresholds or ranges chosen by the community, and the golden ratio is one reference among them.[3] Grokipedia gives one example target in which male mouth-to-nose width of 1.5 to 1.62 is presented as approximating phi.[3] A Show HN post in 2026 presents a golden-ratio face test on a website, and a second post offers a facial proportion report with a personal plan, reflecting a wave of automated tools.[6][7]"
+      ]
+    },
+    {
+      "h": "Use in looksmaxxing",
+      "paras": [
+        "The practical goal is to turn a face into a checklist. Users who find that a ratio such as the eye-to-mouth distance or the facial thirds falls outside the target look at changes that alter apparent proportions: hairstyles and hair volume that change the upper third, facial hair or a beard shape that changes the lower third, glasses that change eye spacing, makeup or brow shaping, and weight change that alters facial width-to-height.[3][4]",
+        "Grokipedia says the midface ratio lacks strong scientific support compared with overall proportions.[3] Wikipedia's looksmaxxing article says academic studies describe the PSL rating scale as pseudoscientific, and Grokipedia says it is not scientifically validated and varies by rater.[5][3] Proponents of ratio analysis counter that the numbers give a way to compare faces and to track the effect of changes such as weight loss or facial hair, according to how the genre is presented in the threads.[4]"
+      ]
+    },
+    {
+      "h": "Research on proportions and attractiveness",
+      "subs": [
+        {
+          "h": "Golden-ratio and canon studies",
+          "paras": [
+            "A 2013 study by Rossetti and colleagues used 3D stereophotogrammetry on 400 young adults rated by a jury, analysing 60 subjects across 10 facial ratios; seven of the 10 ratios differed from 1.618, and sex and attractiveness had no effect on nine of them.[8] A 2015 cross-sectional study of 286 Malaysian university students by Alam and colleagues found no significant link between conformity to the golden ratio and satisfaction scores for facial appearance.[8] The same sample underlies the finding described in Wikipedia's physical attractiveness article.[2]",
+            "Studies of beauty-contest photographs reached similar conclusions. In 50 Italian models, Torsello and colleagues found the midface third smaller than the upper and lower thirds and nose width under a quarter of face width, so some canons held while others appeared to have changed.[8] A 2019 study of Miss Universe and Miss Universe Thailand contestants by Burusapat and Lekdaeng found that nine to ten landmarks differed from neoclassical canons and that 12 of 16 golden ratios differed significantly, which the authors read as the ratios being invalid for modern beauty.[8] A Nigerian study of 151 young adults found only 1 percent had equal facial thirds,[8] and a 2019 Turkish study of 133 patients classed facial morphology by a ratio band around phi.[8] Population differences are also documented in measurement studies of Han Chinese and Malaysian faces.[8][9]",
+            "One study of preferences found support for phi in a simple design context: in an online experiment, 256 volunteers choosing among proportions of 1.618, 1.5 and 1.8 preferred the golden ratio 53 percent of the time, though the stimuli were abstract shapes rather than faces.[8]"
+          ]
+        },
+        {
+          "h": "Averageness, symmetry and dimorphism",
+          "paras": [
+            "Pallett, Link and Lee reported in 2010 that attractiveness peaked when the vertical eye-to-mouth distance was about 36 percent of face length and the horizontal distance between the eyes was about 46 percent of face width, ratios that match an average face.[9] Wikipedia's facial attractiveness article summarises research on averageness, symmetry and sexual dimorphism as the correlates most studied, including studies of averaged computer faces rated as more attractive and work on symmetry and masculinity.[11] A 2008 Italian study cited there compared landmarks in 324 adolescents with 93 individuals labelled beautiful by a casting agency and found differences in forehead, nasal volume and eye spacing.[11]"
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Criticism and concerns",
+      "paras": [
+        "Critics of ratio scoring, quoted in coverage of looksmaxxing, link numeric scoring of faces to appearance anxiety and body dysmorphia.[3] Researchers also point out that most template and canon studies use small samples of one ethnic group, and Holland argued that the Marquardt mask does not describe a beautiful face across populations.[8] Wikipedia adds that many of the best-known claims about phi in art and nature are disputed.[1]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found testing golden ratio face analysis as a tool in looksmaxxing. Related research on faces in general includes the measurement and rating studies described above in Malaysian, Italian, Thai, Turkish and Nigerian samples, which examine whether real or attractive faces conform to phi or the neoclassical canons rather than whether following a ratio checklist changes anything.[2][8][9]"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "c. 300 BC",
+      "event": "Euclid's Elements gives the first known definition of dividing a line in extreme and mean ratio.[1]"
+    },
+    {
+      "year": "1509",
+      "event": "Luca Pacioli publishes Divina proportione, illustrated by Leonardo da Vinci.[1]"
+    },
+    {
+      "year": "1799",
+      "event": "An error originates the later claim that Pacioli advocated golden-ratio proportions.[1]"
+    },
+    {
+      "year": "1854",
+      "event": "Adolf Zeising argues the golden ratio is a universal law.[1]"
+    },
+    {
+      "year": "1927",
+      "event": "Le Corbusier begins using golden-ratio systems, later the Modulor based on a model human body.[1]"
+    },
+    {
+      "year": "1985",
+      "event": "Farkas and colleagues test the neoclassical facial canons in 153 young adults.[8]"
+    },
+    {
+      "year": "1999",
+      "event": "A statistical study of 565 paintings finds no consistent golden-ratio use in canvas dimensions.[1]"
+    },
+    {
+      "year": "2002",
+      "event": "Stephen Marquardt is interviewed on the golden decagon and facial beauty.[8]"
+    },
+    {
+      "year": "2008",
+      "event": "Holland analyses Marquardt's mask and reports it best matches masculinised white fashion models.[8]"
+    },
+    {
+      "year": "2010",
+      "event": "Pallett, Link and Lee report that attractiveness peaks at average-face spacing ratios.[9]"
+    },
+    {
+      "year": "2013",
+      "event": "Rossetti and colleagues find most of 10 facial ratios differ from 1.618 in 60 young adults.[8]"
+    },
+    {
+      "year": "2015",
+      "event": "Alam and colleagues find no link between golden-ratio conformity and satisfaction in 286 Malaysian students.[8]"
+    },
+    {
+      "year": "2019",
+      "event": "Burusapat and Lekdaeng compare Miss Universe contestants with the canons and golden ratios.[8]"
+    },
+    {
+      "year": "2026",
+      "event": "Automated golden-ratio and proportion face-analysis tools are posted to Hacker News.[6][7]"
+    }
+  ],
+  "lore": {
+    "intro": "Face analyses are a staple genre on looksmax.org, with posters computing ratios from photographs and sharing the results for comparison.[4]",
+    "claims": [
+      {
+        "claim": "A face whose proportions match ideal ratios is more attractive.",
+        "believers": "Posters list ratios as ideal or off and use them to rate faces, and a model's profile is presented with a 90.1 percent frontal harmony score.[4]",
+        "experts": "A 286-person Malaysian study summarised on Wikipedia found no significant association between the golden ratio and perceived attractiveness, and Grokipedia describes the targets as informal.[2][3][8]",
+        "evidence": "not-supported"
+      },
+      {
+        "claim": "Ratio scores can be calculated precisely enough to guide decisions.",
+        "believers": "Analyses present numbers to two decimals and classify each as ideal, slightly unideal or a flaw.[4]",
+        "experts": "No published validation exists for the community's ratio set, and Grokipedia says the PSL scale varies by rater.[3]",
+        "evidence": "untested"
+      },
+      {
+        "claim": "Great art and the human body were designed around phi, so faces should be too.",
+        "believers": "Followers of the idea point to the Vitruvian Man and the Mona Lisa as examples of the divine proportion.[1]",
+        "experts": "Wikipedia says the claim for the Mona Lisa is not supported by Leonardo's writings and that Vitruvian Man's proportions do not match the ratio.[1]",
+        "evidence": "not-supported"
+      },
+      {
+        "claim": "The Marquardt mask shows the ideal human face.",
+        "believers": "The mask is described as a drawing of ideal proportions built on the golden ratio and is the basis of many overlay tools.[10]",
+        "experts": "Holland's 2008 analysis reported that the mask best matched masculinised white women in fashion models and is poorly suited to non-European populations.[8]",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "Faces should follow the equal thirds and fifths of the neoclassical canons.",
+        "believers": "Facial thirds and eye-spacing ratios appear in the frontal harmony lists posters use.[4]",
+        "experts": "Farkas found the vertical canons fit worst in 153 young adults, and a Nigerian study found only 1 percent had equal thirds.[8]",
+        "evidence": "not-supported"
+      },
+      {
+        "claim": "Attractive faces have specific eye and mouth spacing.",
+        "believers": "Posters compare eye spacing and eye-to-mouth distance to targets.[4]",
+        "experts": "Pallett, Link and Lee found attractiveness peaked at about 36 percent eye-to-mouth distance and 46 percent eye separation, matching an average face.[9]",
+        "evidence": "supported"
+      },
+      {
+        "claim": "Numeric face scoring can harm well-being.",
+        "believers": "Not usually asserted by proponents, who present ratios as an objective way to track change.[4]",
+        "experts": "Critics quoted in coverage link numeric scoring of faces to appearance anxiety and body dysmorphia.[3]",
+        "evidence": "harms"
+      }
+    ]
+  },
+  "refs": [
+    {
+      "id": 1,
+      "title": "Golden ratio",
+      "url": "https://en.wikipedia.org/wiki/Golden_ratio",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Physical attractiveness",
+      "url": "https://en.wikipedia.org/wiki/Physical_attractiveness",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "Looksmaxxing (Grokipedia)",
+      "url": "https://grokipedia.com/page/Looksmaxxing",
+      "source": "Grokipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 4,
+      "title": "Francisco Lachowski Frontal Harmony Analysis",
+      "url": "https://looksmax.org/threads/francisco-lachowski-frontal-harmony-analysis.1842401/",
+      "source": "looksmax.org",
+      "year": 2024,
+      "type": "forum"
+    },
+    {
+      "id": 5,
+      "title": "Looksmaxxing",
+      "url": "https://en.wikipedia.org/wiki/Looksmaxxing",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 6,
+      "title": "Show HN: Golden Ratio Face Analysis",
+      "url": "https://news.ycombinator.com/item?id=46822103",
+      "source": "Hacker News",
+      "year": 2026,
+      "type": "forum"
+    },
+    {
+      "id": 7,
+      "title": "Get Face Report - facial proportion analysis with a personal plan",
+      "url": "https://news.ycombinator.com/item?id=50351004",
+      "source": "Hacker News",
+      "year": 2026,
+      "type": "forum"
+    },
+    {
+      "id": 8,
+      "title": "Europe PMC records: studies of golden proportion, Marquardt mask and neoclassical canons (Farkas 1985; Holland 2008; Prokopakis 2013; Rossetti 2013; Alam 2015; Torsello 2010; Burusapat 2019; Olusanya 2018; others)",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(TITLE:%22golden%20ratio%22%20OR%20TITLE:%22golden%20proportion%22%20OR%20TITLE:%22Marquardt%22%20OR%20TITLE:%22neoclassical%20canons%22)%20AND%20(TITLE:face%20OR%20TITLE:facial%20OR%20TITLE:beauty%20OR%20TITLE:attractiveness)&format=json&resultType=core&pageSize=12&sort=CITED%20desc",
+      "source": "Europe PMC",
+      "year": 2019,
+      "type": "study"
+    },
+    {
+      "id": 9,
+      "title": "Europe PMC records: Pallett, Link and Lee 2010 'New golden ratios for facial beauty'; Yang et al. 2019 Han Chinese proportions",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(TITLE:%22New%20golden%20ratios%20for%20facial%20beauty%22%20OR%20TITLE:%22Attractive%20faces%20are%20only%20average%22%20OR%20TITLE:%22Facial%20esthetics%20and%20the%20golden%20proportion%22%20OR%20TITLE:%22Facial%20Anthropometric%20Proportion%22)&format=json&resultType=core&pageSize=6",
+      "source": "Europe PMC",
+      "year": 2010,
+      "type": "study"
+    },
+    {
+      "id": 10,
+      "title": "Stephen Marquardt",
+      "url": "https://en.wikipedia.org/wiki/Stephen_Marquardt",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 11,
+      "title": "Facial attractiveness",
+      "url": "https://en.wikipedia.org/wiki/Facial_attractiveness",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Golden_ratio",
+      "title": "Golden ratio"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Physical_attractiveness",
+      "title": "Physical attractiveness"
+    },
+    {
+      "url": "https://grokipedia.com/page/Looksmaxxing",
+      "title": "Looksmaxxing (Grokipedia)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Looksmaxxing",
+      "title": "Looksmaxxing"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(TITLE:%22golden%20ratio%22%20OR%20TITLE:%22golden%20proportion%22%20OR%20TITLE:%22Marquardt%22%20OR%20TITLE:%22neoclassical%20canons%22)%20AND%20(TITLE:face%20OR%20TITLE:facial%20OR%20TITLE:beauty%20OR%20TITLE:attractiveness)&format=json&resultType=core&pageSize=12&sort=CITED%20desc",
+      "title": "Europe PMC records"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(TITLE:%22New%20golden%20ratios%20for%20facial%20beauty%22%20OR%20TITLE:%22Attractive%20faces%20are%20only%20average%22%20OR%20TITLE:%22Facial%20esthetics%20and%20the%20golden%20proportion%22%20OR%20TITLE:%22Facial%20Anthropometric%20Proportion%22)&format=json&resultType=core&pageSize=6",
+      "title": "Europe PMC records"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Stephen_Marquardt",
+      "title": "Stephen Marquardt - Wikipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Facial_attractiveness",
+      "title": "Facial attractiveness - Wikipedia"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=46822103",
+      "title": "Show HN: Golden Ratio Face Analysis"
+    }
+  ],
   "card": {
     "summary": "Judging a face by how closely its proportions match phi (about 1.618) or a set of ideal ratios; popular in forums, with research finding little support for phi as a driver of attractiveness.",
     "aka": "Facial proportion analysis, face ratios, harmony analysis",
@@ -12,73 +356,5 @@
     "overview": "Golden ratio face analysis compares measurements of a face, such as mouth-to-nose width or facial thirds, with ideal ratios, often phi (about 1.618). Looksmaxxing forums post such analyses of celebrities and members, producing lists of 'ideal' and 'off' ratios.\n\nPhi has a long history in claims about beauty, but a study in Malaysian adults summarized on Wikipedia reported no significant association between the golden ratio and attractiveness, and critics note many claimed examples in art do not hold up. The ratio targets used in looksmaxxing are described as informal community standards.",
     "mechanism": "Participants photograph a face from the front and side, mark landmarks, compute ratios and compare them with target values. The underlying theory is that proportions near mathematical ideals signal harmony and are perceived as beautiful.",
     "risks": "The analysis itself is harmless. Reported downsides are psychological: critics link the practice and its numeric scoring of faces to appearance anxiety and body dysmorphia, and the ratio targets are not validated for surgical planning."
-  },
-  "lead": [
-    "Golden ratio face analysis is the practice of measuring facial proportions and comparing them with ideal values, most famously the golden ratio phi, about 1.618.[1][3] In looksmaxxing forums the analyses are posted as lists of ratios, for example mouth-to-nose width, eye spacing and midface proportions, with each labelled ideal or off.[3]",
-    "Wikipedia's golden ratio article notes that many claims connecting phi to art and nature are disputed. Examples include the Mona Lisa and the Vitruvian Man, which the article says are not supported by Leonardo's own writings or measurements.[1] The article on physical attractiveness describes the golden ratio as a perceived measure of beauty in ancient Greece and summarizes a study of 286 young adults in Malaysia that found no significant association between the golden ratio and attractiveness.[2]",
-    "Grokipedia says the ratio targets used in looksmaxxing are informal community standards rather than validated medical or scientific criteria.[3]"
-  ],
-  "infobox": [
-    ["Type", "Facial proportion method"],
-    ["Reference value", "Phi, approximately 1.618"],
-    ["Typical inputs", "Frontal and profile photographs with landmark markings"],
-    ["Common ratios", "Mouth-to-nose, eye spacing, midface, facial thirds"],
-    ["Validation", "No validated clinical standard"]
-  ],
-  "sections": [
-    {
-      "h": "Background",
-      "paras": [
-        "Wikipedia traces a nineteenth-century enthusiasm: Adolf Zeising in 1854 argued that the golden ratio is a universal law, and Wikipedia reports that the claim that Luca Pacioli advocated golden-ratio proportions traces to a 1799 error.[1]",
-        "Face-specific templates and mask overlays are used in some online tools and forums, but the sources reviewed describe the ideals as community conventions."
-      ]
-    },
-    {
-      "h": "In looksmaxxing",
-      "paras": [
-        "Grokipedia notes one example target in which male mouth-to-nose width of 1.5 to 1.62 is presented as approximating phi, and says the midface ratio lacks strong scientific support compared with overall proportions.[3] Forum threads post celebrity analyses with long lists of ratio values and verdicts such as ideal or off.[4]",
-        "Wikipedia's looksmaxxing article says academic studies describe the PSL rating scale as pseudoscientific, and Grokipedia says it is not scientifically validated and varies by rater.[5][3]"
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found testing golden ratio face analysis as a tool in looksmaxxing. Related research on attractiveness in general includes a study of 286 Malaysian adults, summarized in Wikipedia's attractiveness article, which found no significant association between the golden ratio and perceived attractiveness.[2]"
-      ]
-    }
-  ],
-  "timeline": [
-    { "year": "1854", "event": "Adolf Zeising argues the golden ratio is a universal law of proportion.[1]" },
-    { "year": "1999", "event": "A statistical study of 565 paintings finds no consistent golden-ratio use in canvas dimensions.[1]" }
-  ],
-  "lore": {
-    "intro": "Face analyses are a staple genre on looksmax.org, with posters computing ratios from photographs.[4]",
-    "claims": [
-      {
-        "claim": "A face whose proportions match ideal ratios is more attractive.",
-        "believers": "Posters list ratios as ideal or off and use them to rate faces.[4]",
-        "experts": "A study summarized on Wikipedia found no significant association between the golden ratio and attractiveness, and Grokipedia describes the targets as informal.[2][3]",
-        "evidence": "not-supported"
-      },
-      {
-        "claim": "Ratio scores can be calculated precisely enough to guide decisions.",
-        "believers": "Analyses present numbers to two decimals.[4]",
-        "experts": "No published validation exists for the community's ratio set, and Grokipedia says the PSL scale varies by rater.[3]",
-        "evidence": "untested"
-      }
-    ]
-  },
-  "refs": [
-    { "id": 1, "title": "Golden ratio", "url": "https://en.wikipedia.org/wiki/Golden_ratio", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
-    { "id": 2, "title": "Physical attractiveness", "url": "https://en.wikipedia.org/wiki/Physical_attractiveness", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
-    { "id": 3, "title": "Looksmaxxing (Grokipedia)", "url": "https://grokipedia.com/page/Looksmaxxing", "source": "Grokipedia", "year": 2026, "type": "encyclopedia" },
-    { "id": 4, "title": "News Lachowski Face Analysis", "url": "https://looksmax.org/threads/lachowski-face-analysis.413328/", "source": "looksmax.org", "year": 2019, "type": "forum" },
-    { "id": 5, "title": "Looksmaxxing", "url": "https://en.wikipedia.org/wiki/Looksmaxxing", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" }
-  ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Golden_ratio", "title": "Golden ratio" },
-    { "url": "https://en.wikipedia.org/wiki/Physical_attractiveness", "title": "Physical attractiveness" },
-    { "url": "https://grokipedia.com/page/Looksmaxxing", "title": "Looksmaxxing (Grokipedia)" },
-    { "url": "https://en.wikipedia.org/wiki/Looksmaxxing", "title": "Looksmaxxing" }
-  ]
+  }
 }

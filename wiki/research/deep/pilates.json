@@ -1,64 +1,393 @@
 {
-  "name": "Pilates",
-  "card": {
-    "summary": "Core-focused mind-body exercise system used for posture and tone; reviews find back-pain benefit comparable to other exercise, with little direct posture-appearance data.",
-    "aka": "Contrology, mat Pilates, reformer Pilates",
-    "evidence": "limited",
-    "risk": "low",
-    "note": "Evidence reviews describe benefit for low back pain similar to other exercise; it has not been shown to treat medical conditions.",
-    "price": null,
-    "status": null,
-    "outcome": null,
-    "structure": null
-  },
-  "quick": {
-    "overview": "Pilates is a low-impact exercise system developed by Joseph Pilates in the early twentieth century, originally called Contrology. It stresses controlled movement, breathing and core engagement, on a mat or on spring-based apparatus such as the Reformer.\n\nIn posture and body-aesthetics communities it is used for core conditioning and alignment. Reviews cited on Wikipedia describe low-quality evidence that it beats no exercise for low back pain but is no better than other exercise, and no trial found tests it for appearance.",
-    "mechanism": "Proponents say deliberate control of the trunk muscles, the so-called powerhouse, improves stability, alignment and body awareness. Network meta-analyses of back-pain exercise include Pilates among effective exercise types.",
-    "risks": "Wikipedia and the sources reviewed describe low-impact exercise with no discussion of significant harms. Grokipedia and Wikipedia note Pilates has not been shown to be an effective treatment for any medical condition."
-  },
-  "lead": [
-    "Pilates is a mind-body exercise system named for Joseph Pilates, who developed it in the first half of the twentieth century and called it Contrology. He said the idea arose during his World War I internment on the Isle of Man, and published Your Health (1934) and Return to Life Through Contrology (1945).[1][2] It emphasises core stability, breathing, alignment and flexibility, performed on a mat or on apparatus such as the Reformer and Cadillac.[1][2]",
-    "A systematic review noted the difficulty of defining Pilates exercise consistently across studies.[3] Network meta-analyses of exercise for chronic low back pain include Pilates among effective modes, and Wikipedia reports low-quality evidence that it beats no exercise but is no better than other exercise.[1][4][5] No study found tests Pilates for changing posture appearance."
+ "name": "Pilates",
+ "card": {
+  "summary": "Core-focused mind-body exercise system used for posture and tone; reviews find back-pain benefit comparable to other exercise, with little direct posture-appearance data.",
+  "aka": "Contrology, mat Pilates, reformer Pilates",
+  "evidence": "limited",
+  "risk": "low",
+  "note": "Evidence reviews describe benefit for low back pain similar to other exercise; it has not been shown to treat medical conditions.",
+  "price": null,
+  "status": null,
+  "outcome": null,
+  "structure": null
+ },
+ "quick": {
+  "overview": "Pilates is a low-impact exercise system developed by Joseph Pilates in the early twentieth century, originally called Contrology. It stresses controlled movement, breathing and core engagement, on a mat or on spring-based apparatus such as the Reformer.\nIn posture and body-aesthetics communities it is used for core conditioning and alignment. Reviews cited on Wikipedia describe low-quality evidence that it beats no exercise for low back pain but is no better than other exercise, and no trial found tests it for appearance.",
+  "mechanism": "Proponents say deliberate control of the trunk muscles, the so-called powerhouse, improves stability, alignment and body awareness. Network meta-analyses of back-pain exercise include Pilates among effective exercise types.",
+  "risks": "Pilates is low-impact exercise with no significant harms described. Grokipedia and Wikipedia note Pilates has not been shown to be an effective treatment for any medical condition."
+ },
+ "lead": [
+  "Pilates is a mind-body exercise system named for Joseph Pilates, who developed it in the first half of the twentieth century and called it Contrology. He said the idea arose during his World War I internment on the Isle of Man, and published Your Health (1934) and Return to Life Through Contrology (1945).[1][2] It emphasises core stability, breathing, alignment and flexibility, performed on a mat or on spring-based apparatus such as the Reformer and Cadillac.[1][2]",
+  "People take it up to improve how they carry and shape their bodies: a stronger trunk, a more upright stance, longer-looking lines and a toned, lean look without the bulk associated with heavy lifting. Pilates himself rejected the muscle-building and idealised-physique trends of his era and aimed at mobility and bodily rhythm.[10] In posture and body-aesthetics communities it is discussed as a way to build core strength and alignment that show in how someone stands and moves.[1]",
+  "Research has focused on pain and function rather than appearance. A systematic review noted the difficulty of defining Pilates consistently across studies, and network meta-analyses of exercise for chronic low back pain place Pilates among the exercise types with the largest reported effects on pain.[3][4][5] Wikipedia reports that a 2015 Cochrane review found it better than doing nothing for low back pain and no more effective than other exercise.[1] No study found tests Pilates for changing visible posture or body composition."
+ ],
+ "angle": {
+  "goal": "Posture",
+  "chain": [
+   "Controlled exercise of the trunk, hips and shoulder girdle with attention to breathing and alignment",
+   "Greater core strength, spinal mobility and body awareness",
+   "Taller, more balanced standing and sitting posture and a toned, lean physique"
   ],
-  "infobox": [
-    ["Founder", "Joseph Pilates (born 1883, Germany)"],
-    ["Original name", "Contrology"],
-    ["Equipment", "Mat; Reformer, Cadillac, Wunda Chair, barrels"],
-    ["Evidence", "Low back pain: similar to other exercise"]
+  "effect": "indirect",
+  "text": "Pilates trains the deep trunk muscles and spinal control that support standing and sitting posture, and regular sessions are used for a toned, elongated look. Practitioners combine it with other training; its appearance effects have not been measured in trials."
+ },
+ "infobox": [
+  [
+   "Founder",
+   "Joseph Pilates (born 1883, Germany; died 1967)[11]"
   ],
-  "sections": [
+  [
+   "Original name",
+   "Contrology[1]"
+  ],
+  [
+   "Equipment",
+   "Mat; Reformer, Cadillac, Wunda Chair, barrels[1]"
+  ],
+  [
+   "Styles",
+   "Classical (traditional) and modern/contemporary[1]"
+  ],
+  [
+   "Early teachers",
+   "Romana Kryzanowska, Ron Fletcher, Eve Gentry, Mary Pilates[1]"
+  ],
+  [
+   "Practitioners",
+   "Estimated 11 million regular practitioners in 2005, 14,000 US instructors[1]"
+  ],
+  [
+   "Legal status of term",
+   "Ruled generic by a US federal court in October 2000[1]"
+  ],
+  [
+   "Regulation",
+   "Instructor practice not professionally regulated[1]"
+  ],
+  [
+   "Evidence focus",
+   "Chronic low back pain[4][5]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Wikipedia describes Pilates as a mind-body exercise emphasising core strength, alignment, breathing and balance. Mat work forms the foundation, and a range of spring-resisted apparatus extends it.[1] Most current schools teach versions built around a set of principles, often cited as up to nine.[1]",
+    "Wikipedia notes some overlap with yoga, such as the boat and cobra poses, but says Pilates places more emphasis on core strength while yoga emphasises flexibility.[1]"
+   ],
+   "subs": [
     {
-      "h": "History",
-      "paras": [
-        "Joseph Pilates, born in 1883 near Dusseldorf, reportedly refined his methods during WWI internment, rigging hospital beds with springs for recovering patients, and emigrated to New York in 1926 where his studio drew dancers.[2] Early students including Romana Kryzanowska and Ron Fletcher spread the method, and modern and classical styles now coexist.[1]"
-      ]
+     "h": "Apparatus",
+     "paras": [
+      "The Reformer, originally the Universal Reformer, is the best-known apparatus. Others include the Cadillac, Wunda Chair, High Electric Chair, Spine Corrector, Ladder Barrel and Pedi-Pole, and modern studios add trapeze tables and Pilates balls.[1]"
+     ]
     },
     {
-      "h": "Clinical studies",
-      "paras": [
-        "A 2006 randomised controlled trial studied Pilates-based therapeutic exercise in people with nonspecific chronic low back pain and functional disability.[6] A 2020 network meta-analysis in the British Journal of Sports Medicine of 89 trials examined which exercise modes best treat nonspecific chronic low back pain, and a 2022 network meta-analysis compared Pilates, strength, core-based and mind-body exercise.[4][5] A 2021 network meta-analysis in the Journal of Physiotherapy reported some exercise types are more effective than others for chronic low back pain.[7]",
-        "A 2010 randomised study examined Pilates in women with breast cancer, and a 2017 Cochrane overview covered physical activity and exercise for chronic pain generally.[8][9] Wikipedia notes a 2015 Australian review found Pilates evidence uncertain because studies were few and methodologically limited, and that it has not been shown to be an effective treatment for any medical condition.[1] No studies found testing Pilates for visible posture or appearance change."
-      ]
+     "h": "Classical and modern styles",
+     "paras": [
+      "Classical or traditional Pilates aims to preserve Joseph Pilates' original work, while modern Pilates partly derives from first-generation students and adapts the work.[1]"
+     ]
     }
-  ],
-  "timeline": [
-    {"year": "1926", "event": "Joseph Pilates emigrates to New York and opens a studio.[2]"},
-    {"year": "1934", "event": "Pilates publishes Your Health.[1]"},
-    {"year": "1945", "event": "Return to Life Through Contrology published.[1]"}
-  ],
-  "lore": null,
-  "refs": [
-    {"id": 1, "title": "Pilates", "url": "https://en.wikipedia.org/wiki/Pilates", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"},
-    {"id": 2, "title": "Pilates (Grokipedia)", "url": "https://grokipedia.com/page/Pilates", "source": "Grokipedia", "year": 2025, "type": "encyclopedia"},
-    {"id": 3, "title": "Defining Pilates exercise: a systematic review", "url": "https://pubmed.ncbi.nlm.nih.gov/22579438/", "source": "Complementary Therapies in Medicine", "year": 2012, "type": "review"},
-    {"id": 4, "title": "Which specific modes of exercise training are most effective for treating low back pain? Network meta-analysis", "url": "https://pubmed.ncbi.nlm.nih.gov/31666220/", "source": "British Journal of Sports Medicine", "year": 2020, "type": "review"},
-    {"id": 5, "title": "Best Exercise Options for Reducing Pain and Disability in Adults With Chronic Low Back Pain: Pilates, Strength, Core-Based, and Mind-Body. A Network Meta-analysis", "url": "https://pubmed.ncbi.nlm.nih.gov/35722759/", "source": "JOSPT", "year": 2022, "type": "review"},
-    {"id": 6, "title": "Pilates-based therapeutic exercise: effect on subjects with nonspecific chronic low back pain and functional disability: a randomized controlled trial", "url": "https://pubmed.ncbi.nlm.nih.gov/16881464/", "source": "JOSPT", "year": 2006, "type": "trial"},
-    {"id": 7, "title": "Some types of exercise are more effective than others in people with chronic low back pain: a network meta-analysis", "url": "https://pubmed.ncbi.nlm.nih.gov/34538747/", "source": "Journal of Physiotherapy", "year": 2021, "type": "review"},
-    {"id": 8, "title": "Effects of pilates exercises on functional capacity, flexibility, fatigue, depression and quality of life in female breast cancer patients: a randomized controlled study", "url": "https://pubmed.ncbi.nlm.nih.gov/21224783/", "source": "European Journal of Physical and Rehabilitation Medicine", "year": 2010, "type": "trial"},
-    {"id": 9, "title": "Physical activity and exercise for chronic pain in adults: an overview of Cochrane Reviews", "url": "https://pubmed.ncbi.nlm.nih.gov/28436583/", "source": "Cochrane Database of Systematic Reviews", "year": 2017, "type": "review"}
-  ],
-  "webSources": [
-    {"url": "https://en.wikipedia.org/wiki/Pilates", "title": "Pilates"}
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Joseph Pilates was born on 9 December 1883 in Mönchengladbach, then in the Kingdom of Prussia. He moved to England in 1912, where Wikipedia says he worked as a boxer, circus performer and self-defense trainer.[11]",
+    "During World War I he was interned as a German national, first at Lancaster Castle and then at Knockaloe camp on the Isle of Man. A Narratively profile says he arrived on the island on 12 September 1915, and that his approach drew on anatomy, children's movement and observation of cats, while he worked with fellow internees who had ailments.[10][11] Grokipedia reports that he rigged hospital beds with springs for recovering patients.[2]",
+    "He emigrated to the United States in the mid-1920s, and Wikipedia's biography says he met his future wife Clara on the ship. The couple opened a studio in New York City that attracted dancers; the biography states that choreographer George Balanchine sent dancers there, a claim marked as needing a citation.[11] Pilates died on 9 October 1967.[11] He patented 26 apparatuses.[11]",
+    "After his death, first-generation students including Romana Kryzanowska, Ron Fletcher and Eve Gentry carried the method forward.[1] The Narratively profile describes it as spreading among a small professional circle after World War I and growing widely in the decade after World War II, reaching dancers, New York socialites and Los Angeles stars.[10] In October 2000 a US federal court ruled that the word Pilates is a generic term, so it can be used freely; the Pilates Method Alliance was formed afterwards as a professional association.[1]"
+   ]
+  },
+  {
+   "h": "Philosophy and aims",
+   "paras": [
+    "Pilates called his system Contrology, the controlled use of the mind over the body. The system focuses on strengthening the core postural muscles, breath awareness and spinal alignment.[11] His motto, per the Narratively profile, was a sound mind in a sound body, and he described the aim as relearning to move like an animal.[10]",
+    "Instructors commonly describe the work as targeting deep abdominal, back and hip muscles often called the powerhouse. Proponents say this improves stability, alignment and body awareness.[1][2]"
+   ]
+  },
+  {
+   "h": "Use for posture and physique",
+   "paras": [
+    "People who use Pilates for their looks usually have posture, a flatter-looking midsection, longer-looking muscle lines or a toned look in mind. Sessions use controlled, low-impact movement, often on a mat or Reformer, and many practitioners combine them with strength training, running or yoga.[1]",
+    "A 2023 Wall Street Journal feature titled 'Men Suddenly Feel the Pull of Pilates' was shared on Hacker News, reflecting media attention to growing male interest in the method.[12] Online discussion of the method often ties it to posture and core work, and a 2020 Hacker News thread on Pilates's wartime origins drew comments from users reporting years of practice for core strength and variable instructor quality.[13]",
+    "Within looksmaxxing and posture communities, Pilates sits alongside neck, back and stretching routines as part of an overall upright-posture plan. Related entries cover forward head posture exercises and other posture work."
+   ]
+  },
+  {
+   "h": "Safety and regulation",
+   "paras": [
+    "Wikipedia's Pilates article carries no section on injuries, and describes the practice as low impact. It also states that Pilates is not professionally regulated, so instructor training varies.[1]",
+    "Wikipedia reports that Pilates has not been shown to be an effective treatment for any medical condition, and that a 2015 Australian Department of Health review judged the evidence uncertain because studies were few and methodologically limited. Australia excluded Pilates from private health insurance subsidies in 2017, and a 2025 review recommended reinstating coverage, which the government has done.[1]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Human research on Pilates concentrates on chronic low back pain, with additional trials in pregnancy, cancer, fibromyalgia and other groups. No study found tests Pilates for visible posture or appearance change."
+   ],
+   "subs": [
+    {
+     "h": "Low back pain",
+     "paras": [
+      "A 2006 randomised controlled trial by Rydeard, Leger and Smith assigned 39 active adults with chronic low back pain to four weeks of Pilates-based exercise or usual care. After treatment the Pilates group scored lower on the Roland Morris Disability Questionnaire (2.0 versus 3.2) and on a 101-point pain scale (18.3 versus 33.9), and the disability reduction was maintained at 12 months.[6]",
+      "A 2020 network meta-analysis in the British Journal of Sports Medicine screened 9,543 records and included 89 studies with 5,578 patients. Pilates ranked highest for pain, while resistance and stabilisation exercise ranked highest for physical function; the authors rated evidence quality low.[4]",
+      "A 2022 network meta-analysis in JOSPT covered 118 trials with 9,710 participants and ranked Pilates, mind-body and core-based exercise highest for pain, and Pilates, strength and core-based exercise highest for disability.[5] A 2021 network meta-analysis in the Journal of Physiotherapy likewise reported that some exercise types are more effective than others.[7]",
+      "A 2024 systematic review with meta-analysis in Disability and Rehabilitation included 36 studies, 19 in the meta-analysis, and reported that Pilates reduced low back pain compared with no exercise, with a similar trend against non-specific exercise.[14] Wikipedia cites a 2015 Cochrane review finding Pilates better than minimal intervention but no better than other exercise.[1]"
+     ]
+    },
+    {
+     "h": "Other populations",
+     "paras": [
+      "A 2010 randomised study examined Pilates in women with breast cancer, and a 2017 Cochrane overview covered physical activity and exercise for chronic pain generally.[8][9] A 2021 randomised trial of 110 first-time mothers found that eight weeks of Pilates from 26 to 28 weeks of gestation was associated with shorter labour and lower labour pain than no exercise, with no difference in delivery type.[15]",
+      "Wikipedia reports a 2015 review concluding there is no good evidence that Pilates improves balance in older adults, and a 2015 finding that regular sessions may aid muscle conditioning in healthy adults versus no exercise.[1]"
+     ]
+    }
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1883",
+   "event": "Joseph Pilates is born in Mönchengladbach, Prussia.[11]"
+  },
+  {
+   "year": "1912",
+   "event": "Pilates moves to England and works as a boxer, circus performer and trainer.[11]"
+  },
+  {
+   "year": "1915",
+   "event": "Pilates arrives at the Isle of Man and is held at Knockaloe camp.[10]"
+  },
+  {
+   "year": "Mid-1920s",
+   "event": "Pilates emigrates to the United States and later opens a New York studio.[11]"
+  },
+  {
+   "year": "1934",
+   "event": "Pilates publishes Your Health.[1]"
+  },
+  {
+   "year": "1945",
+   "event": "Return to Life Through Contrology published.[1]"
+  },
+  {
+   "year": "1967",
+   "event": "Joseph Pilates dies in New York City on 9 October.[11]"
+  },
+  {
+   "year": "2000",
+   "event": "A US federal court rules Pilates a generic term.[1]"
+  },
+  {
+   "year": "2006",
+   "event": "Randomised trial of Pilates-based exercise for chronic low back pain published.[6]"
+  },
+  {
+   "year": "2015",
+   "event": "Cochrane review compares Pilates with other exercise for low back pain.[1]"
+  },
+  {
+   "year": "2017",
+   "event": "Australia excludes Pilates from private health insurance subsidies.[1]"
+  },
+  {
+   "year": "2020",
+   "event": "BJSM network meta-analysis of 89 trials ranks Pilates highest for pain.[4]"
+  },
+  {
+   "year": "2022",
+   "event": "JOSPT network meta-analysis of 118 trials published.[5]"
+  },
+  {
+   "year": "2025",
+   "event": "Australian review recommends reinstating coverage, which the government reinstates.[1]"
+  }
+ ],
+ "lore": {
+  "intro": "In posture and fitness discussions, Pilates is described as a way to build a strong core, better alignment and a toned, long-lined look, and as a low-impact complement to other training.[1][13]",
+  "claims": [
+   {
+    "claim": "Pilates builds a strong core that improves posture",
+    "believers": "Practitioners and instructors say deliberate control of the trunk muscles improves stability, alignment and body awareness, and commenters report years of Pilates for core strength.[2][13]",
+    "experts": "Network meta-analyses include Pilates among exercises that reduce chronic low back pain, though evidence quality is described as low in the 2020 analysis; no trial has measured visible posture change.[4][5]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Pilates gives a long, lean, toned look",
+    "believers": "Practitioners describe lean, toned results without bulk, in keeping with Joseph Pilates's own stated rejection of muscle-building trends.[10]",
+    "experts": "No study found tests Pilates for body shape; Wikipedia cites a 2015 finding that regular sessions may aid muscle conditioning in healthy adults.[1]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Pilates relieves back pain",
+    "believers": "Practitioners and many physiotherapists use it for back comfort and function.[1]",
+    "experts": "A 2006 trial and several meta-analyses report reduced pain compared with no exercise; a 2015 Cochrane review found it no better than other exercise.[1][4][5][6]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Pilates is a complete substitute for strength training",
+    "believers": "Some practitioners treat it as a full fitness system, while others on technical forums argue it will not maximise athletic performance and prefer weightlifting or gymnastics.[13]",
+    "experts": "The 2020 network meta-analysis ranked resistance and stabilisation training highest for physical function.[4]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Pilates is a treatment for medical conditions",
+    "believers": "Pilates programmes have been studied in groups from pregnant women to women recovering from breast cancer.[8][15]",
+    "experts": "Wikipedia states Pilates has not been shown to be an effective treatment for any medical condition, while individual trials report symptom changes.[1][8][15]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Pilates improves balance in older adults",
+    "believers": "Instructors describe stability work as a core part of the method.[1]",
+    "experts": "Wikipedia cites a 2015 review finding no good evidence for improved balance in older adults.[1]",
+    "evidence": "mixed"
+   }
   ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Pilates",
+   "url": "https://en.wikipedia.org/wiki/Pilates",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Pilates (Grokipedia)",
+   "url": "https://grokipedia.com/page/Pilates",
+   "source": "Grokipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Defining Pilates exercise: a systematic review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22579438/",
+   "source": "Complementary Therapies in Medicine",
+   "year": 2012,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Which specific modes of exercise training are most effective for treating low back pain? Network meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31666220/",
+   "source": "British Journal of Sports Medicine",
+   "year": 2020,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Best Exercise Options for Reducing Pain and Disability in Adults With Chronic Low Back Pain: Pilates, Strength, Core-Based, and Mind-Body. A Network Meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35722759/",
+   "source": "JOSPT",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Pilates-based therapeutic exercise: effect on subjects with nonspecific chronic low back pain and functional disability: a randomized controlled trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16881464/",
+   "source": "JOSPT",
+   "year": 2006,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Some types of exercise are more effective than others in people with chronic low back pain: a network meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34538747/",
+   "source": "Journal of Physiotherapy",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "Effects of pilates exercises on functional capacity, flexibility, fatigue, depression and quality of life in female breast cancer patients: a randomized controlled study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21224783/",
+   "source": "European Journal of Physical and Rehabilitation Medicine",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Physical activity and exercise for chronic pain in adults: an overview of Cochrane Reviews",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28436583/",
+   "source": "Cochrane Database of Systematic Reviews",
+   "year": 2017,
+   "type": "review"
+  },
+  {
+   "id": 10,
+   "title": "The Acrobatic Immigrant Who Invented Pilates in a Prisoner-of-War Camp",
+   "url": "https://narratively.com/the-acrobatic-immigrant-who-invented-pilates-in-a-prisoner-of-war-camp/",
+   "source": "Narratively",
+   "year": 2020,
+   "type": "news"
+  },
+  {
+   "id": 11,
+   "title": "Joseph Pilates",
+   "url": "https://en.wikipedia.org/wiki/Joseph_Pilates",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 12,
+   "title": "Men Suddenly Feel the Pull of Pilates",
+   "url": "https://news.ycombinator.com/item?id=35303533",
+   "source": "Hacker News (linking a Wall Street Journal article)",
+   "year": 2023,
+   "type": "news"
+  },
+  {
+   "id": 13,
+   "title": "Joseph Pilates worked on his exercise system in a WWI prisoner-of-war camp",
+   "url": "https://news.ycombinator.com/item?id=22725274",
+   "source": "Hacker News",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 14,
+   "title": "Effectiveness of Pilates exercise on low back pain: a systematic review with meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37632387/",
+   "source": "Disability and Rehabilitation",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 15,
+   "title": "The effectiveness of a Pilates exercise program during pregnancy on childbirth outcomes: a randomised controlled clinical trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34215198/",
+   "source": "BMC Pregnancy and Childbirth",
+   "year": 2021,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Pilates",
+   "title": "Pilates - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Joseph_Pilates",
+   "title": "Joseph Pilates - Wikipedia"
+  },
+  {
+   "url": "https://narratively.com/the-acrobatic-immigrant-who-invented-pilates-in-a-prisoner-of-war-camp/",
+   "title": "The Acrobatic Immigrant Who Invented Pilates in a Prisoner-of-War Camp"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=22725274",
+   "title": "Hacker News thread"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=35303533",
+   "title": "Hacker News thread"
+  }
+ ]
 }

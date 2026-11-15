@@ -1,9 +1,34 @@
 {
  "name": "Osteocalcin",
+ "card": {
+  "summary": "A bone-made protein and proposed hormone studied for bone and metabolism; no looks-related use has been tested in humans.",
+  "aka": "BGLAP, bone Gla protein",
+  "evidence": "unproven",
+  "status": "research",
+  "risk": null,
+  "price": null,
+  "note": "Endogenous protein; no published trials of it as an appearance intervention.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Osteocalcin is a protein made by bone-building cells. Doctors use its blood level as a marker of how actively bone is being formed.\nSince 2007, mouse studies have proposed that it also acts as a hormone on insulin, muscle and testosterone. Human relevance is still being investigated, and no studies test it for appearance.",
+  "mechanism": "Osteoblasts secrete it, and vitamin K-dependent carboxylation lets it bind calcium in bone. The uncarboxylated form is proposed to signal through receptors such as GPRC6A and GPR158 in animal experiments.",
+  "risks": "It is not a marketed product, and the sources describe no approved therapeutic use or safety data for administering it. Human studies reviewed measure it as a marker rather than as a treatment."
+ },
+ "angle": {
+  "goal": "Body composition and bone health",
+  "chain": [
+   "Vitamin K helps carboxylate osteocalcin so it binds calcium in bone",
+   "Bone mineralisation and strength are maintained",
+   "Uncarboxylated osteocalcin is proposed, in animal studies, to influence fat, muscle and testosterone"
+  ],
+  "effect": "claimed",
+  "text": "Osteocalcin is the bone-made protein linking skeletal health to the nutrients and training people use for physique and bone structure. Animal research suggests it may also act as a hormone on fat and muscle, an idea still under investigation in humans."
+ },
  "lead": [
-  "Osteocalcin (gene BGLAP) is a small, 49-amino-acid protein made by bone-forming cells (osteoblasts) and found in bone and dentin. Its synthesis and calcium binding depend on vitamin K-dependent carboxylation, and its blood level is widely used as a marker of bone formation.[1]",
-  "Since 2007 it has also been studied as a possible bone-derived hormone. Experiments in mice reported that the skeleton influences insulin secretion and energy metabolism through the uncarboxylated form of the protein.[2] Researchers have also reported effects on muscle, testosterone production and the brain in animal studies.[1]",
-  "Osteocalcin is an endogenous protein rather than a product sold for appearance purposes. The sources reviewed describe no approved therapeutic use and no published trial testing osteocalcin itself as an intervention for looks, body composition or bone growth."
+  "Osteocalcin (gene BGLAP), also called bone Gla protein, is a small 49-amino-acid protein made only by bone-forming cells (osteoblasts) and found in bone and dentin. Its calcium-binding ability depends on vitamin K-dependent carboxylation, and its level in blood is widely used by clinicians as a marker of how actively bone is being formed.[1]",
+  "Since 2007 it has also been studied as a possible bone-derived hormone. Experiments in mice reported that the skeleton influences insulin secretion and energy metabolism through the uncarboxylated form of the protein, and later animal work described effects on fat, muscle exercise capacity, testosterone production in the testes, brain function and the acute stress response.[2][1][12]",
+  "Osteocalcin is an endogenous protein rather than a product sold for appearance, and it has no approved therapeutic use. Its relevance to looks runs through the chain that people interested in physique and bone structure discuss: vitamin K and vitamin D status support carboxylation and mineralisation, which supports bone quality and strength; and the proposed hormonal signalling links the skeleton to body fat, muscle and testosterone.[10][11] Most of the hormonal findings come from rodent experiments, and human studies mostly measure osteocalcin as an outcome rather than test it as a treatment.[6][7][12]"
  ],
  "infobox": [
   [
@@ -12,46 +37,85 @@
   ],
   [
    "Gene",
-   "BGLAP (human chromosome 1)"
+   "BGLAP (human chromosome 1, band 1q22)[1]"
   ],
   [
    "Size",
-   "49 amino acids"
+   "49 amino acids; contains gamma-carboxyglutamate (Gla) residues[1]"
+  ],
+  [
+   "Made by",
+   "Osteoblasts (the only cells that secrete it)[1]"
   ],
   [
    "Dependence",
-   "Vitamin K-dependent carboxylation"
+   "Vitamin K-dependent carboxylation[1][10]"
+  ],
+  [
+   "Proposed receptors",
+   "GPRC6A, GPR158; GPR37 suggested as a candidate third receptor[1][12]"
   ],
   [
    "First described",
-   "1978 (chick bone)"
+   "1978 (chick bone, Hauschka and Reid)[1]"
+  ],
+  [
+   "Clinical use",
+   "Marker of bone formation; no therapeutic use[1]"
   ]
  ],
  "sections": [
   {
    "h": "Biology",
    "paras": [
-    "Osteocalcin contains gamma-carboxyglutamate residues, which let it bind calcium and concentrate in bone. It was first reported in developing chick bone by Hauschka and Reid in 1978, and the primary structure of the monkey protein was published in 1982.[1]",
-    "Osteoblast differentiation depends on the transcription factor Cbfa1 (also called Osf2), which was first identified through its binding to an element in the osteocalcin promoter.[3][4] Mice lacking osteocalcin showed increased bone formation in a 1996 report.[5]"
+    "Osteocalcin is the most abundant non-collagenous protein in bone tissue.[11] It contains gamma-carboxyglutamate residues, an unusual amino acid made by vitamin K-dependent modification that gives proteins metal-binding properties; the same amino acid is found in blood clotting factors and in bone proteins such as osteocalcin.[18] The carboxylated protein binds calcium and concentrates in bone, while the uncarboxylated form circulates.[1] The human gene lies on chromosome 1 and its chromosomal location was reported in 1989.[1]",
+    "Osteoblast differentiation depends on the transcription factor Cbfa1 (also called Osf2), which was first identified through its binding to an element in the osteocalcin promoter; mice lacking Cbfa1 showed a complete absence of bone formation.[3][4] A 1996 report found that mice lacking osteocalcin itself had increased bone formation.[5]"
+   ]
+  },
+  {
+   "h": "Discovery",
+   "paras": [
+    "Hauschka and Reid described a calcium-binding protein containing gamma-carboxyglutamic acid in developing chick bone in 1978, and Hauschka, Carr and Biemann determined the primary structure of the monkey protein in 1982.[1] The molecular structure of the human gene was characterised in 1989 and 1990.[1] A 1981 review catalogued the amino acid gamma-carboxyglutamic acid in coagulation proteins and in the calcified-tissue proteins osteocalcin and bone-Gla protein, noting it is formed by post-translational modification.[18]"
    ]
   },
   {
    "h": "Endocrine hypothesis",
    "paras": [
-    "In 2007 Lee and colleagues reported in Cell that, in mice, uncarboxylated osteocalcin acts on pancreatic beta cells and on fat tissue, linking the skeleton to glucose handling and energy expenditure.[2] Later work summarised by Wikipedia reports proposed roles in muscle exercise capacity, testosterone synthesis in the testes, brain function and the acute stress response, mediated by receptors such as GPRC6A and GPR158.[1]",
-    "These findings come mainly from rodent experiments, and the extent to which they apply to humans is still being investigated."
+    "In 2007 Lee and colleagues, working in the laboratory of Gerard Karsenty, reported in Cell that mice lacking the osteoblast phosphatase OST-PTP were hypoglycemic and protected from obesity and glucose intolerance, with increased beta-cell proliferation and insulin secretion, and that uncarboxylated osteocalcin acts on pancreatic beta cells and on fat tissue.[2] The paper proposed that bone exerts feedback control over energy homeostasis, a shift that opened the idea of the skeleton as an endocrine organ.[2]",
+    "Later work summarised on Wikipedia reports that GPRC6A mediates osteocalcin responses in beta cells (2011), that osteocalcin acts on Leydig cells to stimulate testosterone biosynthesis and affects male fertility (2014), that osteocalcin signalling in muscle fibres is linked to exercise adaptation in mice (2016), and that osteocalcin is released from bone within minutes of an acute stress response in mice, rats and humans (2019). A third receptor, possibly GPR37, was suggested in 2021.[1] These findings come mainly from rodent experiments, and the extent to which they apply to humans is still being investigated.[12]"
+   ]
+  },
+  {
+   "h": "Carboxylation and vitamin K",
+   "paras": [
+    "Osteocalcin is vitamin K-dependent. Adequate vitamin K is required for the carboxylation that lets osteocalcin and matrix Gla-protein bind calcium, and reviewers describe carboxylated osteocalcin as contributing directly to bone quality and strength; they report that adding vitamin K to optimal vitamin D status appears to add to bone-health benefits while calling for more research on the interaction.[10] Vitamin K exists as K1 (phylloquinone), found mainly in leafy greens, and K2 (menaquinones), found in animal foods and in the fermented soybean food natto, and Wikipedia lists osteocalcin among the proteins vitamin K modifies; results of supplement studies on fractures are described as mixed.[15]",
+    "Decarboxylation occurs in the acidic environment created during bone resorption, which is described as releasing osteocalcin into the bloodstream where it can act as a hormone.[11] This is why bone remodelling, not only bone formation, is part of the proposed signalling picture."
+   ]
+  },
+  {
+   "h": "Proposed hormonal roles",
+   "paras": [
+    "A 2023 review in the Annual Review of Nutrition of loss- and gain-of-function experiments reports that osteocalcin influences energy metabolism, steroid production, neurotransmitter synthesis, male fertility, electrolyte balance, cognition, the acute stress response and exercise capacity in rodents and primates, acting through three receptors.[12]",
+    "A 2024 review adds that decarboxylated osteocalcin promotes insulin secretion and beta-cell proliferation, reduces visceral and liver fat accumulation in experiments, and shows inverse correlations in human cohorts with fasting glucose, total body fat, visceral fat area and body mass index; it also describes effects on testosterone production.[11] Associations of this kind do not by themselves establish that raising osteocalcin changes body composition, and the reviews describe human translation as ongoing.[11][12] Earlier reviews of its endocrine functions and of its role in energy and glucose metabolism cover the same ground.[16][17]"
+   ]
+  },
+  {
+   "h": "In fitness and physique discussion",
+   "paras": [
+    "Osteocalcin appears in physique and training discussion mainly through the idea that bone loading, vitamin K2 and vitamin D support bone health and, by proposed extension, testosterone and metabolism. Bone structure affects frame and facial skeleton, and fat and muscle mass shape the physique, which is why a protein proposed to link bone with both draws interest from people working on appearance. The exercise-capacity and testosterone roles come from animal work.[12]",
+    "No supplement sold for appearance is based on osteocalcin itself. Related products are vitamin K2 and vitamin D supplements, which are discussed for their effect on carboxylation and bone health.[10][15]"
    ]
   },
   {
    "h": "Use as a biomarker",
    "paras": [
-    "Serum osteocalcin is commonly measured as an indicator of osteoblast activity, for example in studies of anabolic osteoporosis drugs.[1]"
+    "Serum osteocalcin is routinely measured as an indicator of osteoblast activity. Higher levels correlate fairly well with bone mineral density gains during treatment with anabolic drugs such as teriparatide, and it is often used as a preliminary biomarker for a drug's effect on bone formation.[1][11] Trials of nutrients commonly report it as an outcome: for example, a 12-week trial of combined vitamin D and magnesium in overweight individuals tested total osteocalcin and other bone turnover markers and reported no influence of the combination on them.[19]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found of osteocalcin itself as a treatment for appearance. Registered human studies mostly measure osteocalcin as an outcome or marker, for instance after vitamin K supplementation in adults and children, with vitamin D, or in metformin-treated women with polycystic ovary syndrome.[6][7][8] One registered vitamin K and osteocalcin study in ageing adults was terminated.[7]"
+    "No studies found of osteocalcin itself as a treatment for appearance. Registered human studies mostly measure osteocalcin as an outcome or marker, for instance after vitamin K supplementation in healthy children and in ageing adults, with vitamin D, or in metformin-treated women with polycystic ovary syndrome.[6][7][8] The registered vitamin K and osteocalcin study in ageing adults was terminated.[7] A 2022 meta-analysis of 16 randomised trials with 6,425 postmenopausal women found that vitamin K2 supplementation improved lumbar spine bone mineral density, with no significant difference in fracture incidence across six trials.[13] A three-year randomised, placebo-controlled trial of vitamin MK-7 in postmenopausal women with osteopenia examined bone density and microarchitecture.[14]"
    ]
   }
  ],
@@ -61,14 +125,87 @@
    "event": "Hauschka and Reid report a calcium-binding, gamma-carboxyglutamate-containing protein in chick bone.[1]"
   },
   {
+   "year": "1982",
+   "event": "Primary structure of monkey osteocalcin is published.[1]"
+  },
+  {
    "year": "1996",
    "event": "Osteocalcin-deficient mice are reported to have increased bone formation.[5]"
   },
   {
+   "year": "1997",
+   "event": "Cbfa1/Osf2 is identified as the transcription factor driving osteoblast differentiation, via the osteocalcin promoter.[3][4]"
+  },
+  {
    "year": "2007",
    "event": "Lee et al. propose endocrine regulation of energy metabolism by the skeleton via osteocalcin.[2]"
+  },
+  {
+   "year": "2011",
+   "event": "GPRC6A is reported to mediate osteocalcin responses in beta cells.[1]"
+  },
+  {
+   "year": "2014",
+   "event": "Osteocalcin's role in male fertility via testosterone synthesis is reported.[1]"
+  },
+  {
+   "year": "2016",
+   "event": "Osteocalcin signalling in muscle fibres is linked to exercise adaptation in mice.[1]"
+  },
+  {
+   "year": "2019",
+   "event": "Osteocalcin is reported to be released within minutes in the acute stress response.[1]"
+  },
+  {
+   "year": "2022",
+   "event": "Meta-analysis of vitamin K2 trials in postmenopausal women reports improved lumbar spine bone density.[13]"
+  },
+  {
+   "year": "2023-2024",
+   "event": "Reviews summarise osteocalcin as a multifaceted bone-derived hormone and discuss human data.[11][12]"
   }
  ],
+ "lore": {
+  "intro": "The osteocalcin idea circulates in supplement, biohacking and bone-health discussion, usually through vitamin K2, vitamin D and impact training, and rests on animal findings summarised in reviews.[10][12]",
+  "claims": [
+   {
+    "claim": "The skeleton is an endocrine organ that talks to fat and muscle.",
+    "believers": "Proponents of the bone-hormone idea point to mouse experiments showing osteocalcin acting on beta cells, fat and muscle.[2][12]",
+    "experts": "Reviews describe broad effects in rodents and primates but call for more work on human physiology.[12][11]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Osteocalcin raises testosterone.",
+    "believers": "Supporters cite the reported action on testicular Leydig cells stimulating testosterone synthesis.[1][11]",
+    "experts": "The reports come from animal experiments; no published trial has tested raising osteocalcin to change testosterone in men.[1][12]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Exercise improves muscle performance partly through osteocalcin.",
+    "believers": "Supporters point to mouse work linking osteocalcin signalling in muscle to exercise adaptation.[1][12]",
+    "experts": "Exercise-capacity effects are described in rodents and primates; human confirmation is described as still under investigation.[12]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Vitamin K2 supplements strengthen bone by carboxylating osteocalcin.",
+    "believers": "Supplement advocates say K2 is needed to activate osteocalcin so it binds calcium and builds bone.[10]",
+    "experts": "A 2022 meta-analysis found improved lumbar spine bone density but no significant fracture difference across six trials, and Wikipedia describes fracture results as mixed.[13][15]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Higher osteocalcin means leaner body composition.",
+    "believers": "Supporters cite human cohort associations with lower fat mass and visceral fat.[11]",
+    "experts": "The 2024 review notes these are inverse correlations and does not treat them as proof that raising osteocalcin changes body composition.[11]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Vitamin D plus mineral supplements raise osteocalcin and improve metabolism.",
+    "believers": "Some proponents suggest high-dose vitamin D can raise total osteocalcin and reduce insulin resistance.[19]",
+    "experts": "A 12-week randomised trial of combined vitamin D and magnesium reported no influence on osteocalcin, other bone turnover markers or glycemic control.[19]",
+    "evidence": "not-supported"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -133,28 +270,96 @@
    "source": "ClinicalTrials.gov",
    "year": 2014,
    "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "The Importance of Vitamin K and the Combination of Vitamins K and D for Calcium Metabolism and Bone Health: A Review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39125301/",
+   "source": "Nutrients",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "Osteocalcin: Beyond Bones",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38803289/",
+   "source": "Endocrinology and Metabolism",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 12,
+   "title": "Osteocalcin: A Multifaceted Bone-Derived Hormone",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37603430/",
+   "source": "Annual Review of Nutrition",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 13,
+   "title": "Efficacy of vitamin K2 in the prevention and treatment of postmenopausal osteoporosis: a systematic review and meta-analysis of randomized controlled trials",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36033779/",
+   "source": "Frontiers in Public Health",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 14,
+   "title": "The effect of vitamin MK-7 on bone mineral density and microarchitecture in postmenopausal women with osteopenia, a 3-year randomized, placebo-controlled clinical trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33030563/",
+   "source": "Osteoporosis International",
+   "year": 2021,
+   "type": "trial"
+  },
+  {
+   "id": 15,
+   "title": "Vitamin K",
+   "url": "https://en.wikipedia.org/wiki/Vitamin_K",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 16,
+   "title": "Osteocalcin and its endocrine functions",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28189726/",
+   "source": "Biochemical Pharmacology",
+   "year": 2017,
+   "type": "review"
+  },
+  {
+   "id": 17,
+   "title": "Osteocalcin, energy and glucose metabolism",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25166034/",
+   "source": "Arquivos Brasileiros de Endocrinologia e Metabologia",
+   "year": 2014,
+   "type": "review"
+  },
+  {
+   "id": 18,
+   "title": "Gamma-carboxyglutamic acid",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6458761/",
+   "source": "Molecular and Cellular Biochemistry",
+   "year": 1981,
+   "type": "review"
+  },
+  {
+   "id": 19,
+   "title": "Combined vitamin D and magnesium supplementation does not influence markers of bone turnover or glycemic control: A randomized controlled clinical trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36640582/",
+   "source": "Nutrition Research",
+   "year": 2023,
+   "type": "trial"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Osteocalcin",
    "title": "Osteocalcin - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Vitamin_K",
+   "title": "Vitamin K (Wikipedia)"
   }
- ],
- "card": {
-  "summary": "A bone-made protein and proposed hormone studied for bone and metabolism; no looks-related use has been tested in humans.",
-  "aka": "BGLAP, bone Gla protein",
-  "evidence": "unproven",
-  "status": "research",
-  "risk": null,
-  "price": null,
-  "note": "Endogenous protein; no published trials of it as an appearance intervention.",
-  "structure": null
- },
- "quick": {
-  "overview": "Osteocalcin is a protein made by bone-building cells. Doctors use its blood level as a marker of how actively bone is being formed.\n\nSince 2007, mouse studies have proposed that it also acts as a hormone on insulin, muscle and testosterone. Human relevance is still being investigated, and no studies test it for appearance.",
-  "mechanism": "Osteoblasts secrete it, and vitamin K-dependent carboxylation lets it bind calcium in bone. The uncarboxylated form is proposed to signal through receptors such as GPRC6A and GPR158 in animal experiments.",
-  "risks": "It is not a marketed product, and the sources describe no approved therapeutic use or safety data for administering it. Human studies reviewed measure it as a marker rather than as a treatment."
- },
- "lore": null
+ ]
 }

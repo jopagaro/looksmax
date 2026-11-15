@@ -1,105 +1,333 @@
 {
-  "name": "Bronzer",
-  "card": {
-    "summary": "A wash-off skin tint that gives an instant tanned look with no UV and no staying power.",
-    "aka": "Body bronzer, tanning bronzer, instant tan, contour bronzer",
-    "evidence": "limited",
-    "outcome": "temporary",
-    "price": null,
-    "note": "Surface colour only: it rubs off, can streak or look orange, and gives no real sun protection.",
-    "structure": null
-  },
-  "quick": {
-    "overview": "A bronzer is a cosmetic colorant, sold as a powder, lotion, gel, mousse or spray, that tints the skin until it is washed off. People use it for an instant tan look, to even out skin tone, or to add shading to the face and body.\n\nIt appears in looksmaxxing and bodybuilding circles as a quick cosmetic fix, and in bodybuilding as the colour layer used alongside spray tans on stage. It is different from a DHA self-tanner, which reacts with the skin to produce a longer-lasting colour.",
-    "mechanism": "Bronzers deposit colour on the outer surface of the skin. Common colourants described in encyclopedic sources include walnut extract, jojoba extract and caramel. Because the colour sits on top of the skin, it comes off with soap and water and can transfer to clothing.",
-    "risks": "Reported downsides are an orange or patchy look if applied unevenly, transfer onto clothing, and skin reactions in people allergic to ingredients such as fragrances or benzyl alcohol. A bronzer does not tan the skin and is not a sunscreen, and dermatology sources note that sunless products give no meaningful UV protection."
-  },
-  "lead": [
-    "A bronzer is a cosmetic product that temporarily tints the skin to look tanned. It comes as powders, lotions, gels, mousses, sprays and tinted moisturizers, and the colour lasts until it is washed off with soap and water.[1] It is often worn for a one-day tan or alongside a longer-lasting self-tanner.[1]",
-    "Unlike dihydroxyacetone (DHA) self-tanners, which react chemically with the outermost skin layer, a bronzer only coats the surface.[1] Common colourants include walnut oil extract, jojoba extract and caramel, and the product can rub off on clothing or look orange or splotchy if applied unevenly.[1] Some formulations contain potential allergens such as benzyl alcohol, tocopherol and fragrance.[1]",
-    "In looksmaxxing and fitness forums, bronzer is discussed as a quick way to add colour or facial shading, and in competitive bodybuilding it is part of stage tanning routines.[2][3] No clinical studies of bronzer as an appearance product have been published."
+ "name": "Bronzer",
+ "card": {
+  "summary": "A wash-off skin tint that gives an instant tanned look with no UV and no staying power.",
+  "aka": "Body bronzer, tanning bronzer, instant tan, contour bronzer",
+  "evidence": "limited",
+  "outcome": "temporary",
+  "price": null,
+  "note": "Surface colour only: it rubs off, can streak or look orange, and gives no real sun protection.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "A bronzer is a cosmetic colorant, sold as a powder, lotion, gel, mousse or spray, that tints the skin until it is washed off. People use it for an instant tan look, to even out skin tone, or to add shading to the face and body.\n\nIt appears in looksmaxxing and bodybuilding circles as a quick cosmetic fix, and in bodybuilding as the colour layer used alongside spray tans on stage. It is different from a DHA self-tanner, which reacts with the skin to produce a longer-lasting colour.",
+  "mechanism": "Bronzers deposit colour on the outer surface of the skin. Common colourants described in encyclopedic sources include walnut extract, jojoba extract and caramel. Because the colour sits on top of the skin, it comes off with soap and water and can transfer to clothing.",
+  "risks": "Reported downsides are an orange or patchy look if applied unevenly, transfer onto clothing, and skin reactions in people allergic to ingredients such as fragrances or benzyl alcohol. A bronzer does not tan the skin and is not a sunscreen, and dermatology sources note that sunless products give no meaningful UV protection."
+ },
+ "lead": [
+  "A bronzer is a cosmetic product that temporarily tints the skin to look tanned or adds warm shading to the face. It comes as powders, lotions, gels, mousses, sprays and tinted moisturizers, and the colour lasts until it is washed off with soap and water.[1] It is worn for a one-day tan, to even out the colour between face and body, to add warmth to pale or sallow skin, or alongside a longer-lasting self-tanner.[1][2]",
+  "Unlike dihydroxyacetone (DHA) self-tanners, which react chemically with amino acids in the outermost skin layer, a bronzer only coats the surface.[1] Common colourants include walnut oil extract, jojoba extract and caramel, and the product can rub off on clothing or look orange or splotchy if applied unevenly.[1] Some formulations contain potential allergens such as benzyl alcohol, tocopherol and fragrance.[1]",
+  "Bronzer sits at the meeting point of three appearance practices: sunless tanning, contouring, and stage tanning in bodybuilding. In looksmaxxing and fitness forums it is discussed as a quick way to add colour or facial shading, and in competitive bodybuilding it is part of stage tanning routines.[2][3][10] Published studies of bronzer itself as an appearance product were not found; the surrounding literature concerns sunless tanning ingredients, UV exposure and contouring history.[1][5]"
+ ],
+ "angle": {
+  "goal": "Skin tone",
+  "chain": [
+   "Wash-off pigment is applied to skin surface",
+   "Skin looks tanned or warmly shaded at once, without UV",
+   "Matches face to body colour or adds definition"
   ],
-  "infobox": [
-    ["Type", "Cosmetic skin colorant (topical, wash-off)"],
-    ["Forms", "Powder, lotion, gel, mousse, spray, tinted moisturizer[1]"],
-    ["Duration", "Until washed off[1]"],
-    ["Common colourants", "Walnut extract, jojoba extract, caramel[1]"],
-    ["UV protection", "None provided by the colour itself[1]"],
-    ["Regulatory status", "Sold as a cosmetic"]
+  "effect": "direct",
+  "text": "A bronzer adds colour immediately, so skin looks tanned or healthier on the day of application with no UV exposure, and darker shades can be placed under cheekbones and along the jaw to suggest more defined facial structure. The effect lasts until washed off."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Cosmetic skin colorant (topical, wash-off)"
   ],
-  "sections": [
-    {
-      "h": "Description",
-      "paras": [
-        "Bronzers are one branch of sunless tanning, a category that also includes DHA self-tanners, gradual tanning lotions, spray tans, tanning pills and injectable melanocortin products.[1] Encyclopedic descriptions separate bronzers from these because they act as temporary colorants rather than reacting with the skin or altering pigment.[1]",
-        "Products range from face powders used to add warmth and contouring to body lotions and sprays applied over larger areas. Tinted moisturizers and some tanning lotions also contain bronzing colour,[1] and patent filings describe a range of bronzer formulations.[4]"
-      ]
-    },
-    {
-      "h": "How it works",
-      "paras": [
-        "A bronzer deposits colour on the skin surface. Because it does not involve melanin or a chemical reaction with skin proteins, it needs no UV exposure and fades when washed or rubbed off.[1]",
-        "A DHA self-tanner, by contrast, reacts with amino acids in the dead outer layer of skin to make brown pigments over several hours, and the result lasts several days.[1] Bronzers are commonly used to give immediate colour while a DHA tan develops.[1]"
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found. Research on tanning more generally has examined sunbeds, sun exposure and tanning addiction rather than cosmetic bronzers; a review of tanning behaviour discusses sun exposure and indoor tanning as drivers of melanoma and addictive tanning in young adults.[5]"
-      ]
-    },
-    {
-      "h": "Safety and risks",
-      "paras": [
-        "Reported problems with bronzers are mostly cosmetic: streaking, an orange cast, and transfer to clothing and bedding.[1] Contact allergy to fragrance or preservative ingredients is possible in some products.[1]",
-        "Dermatology and cancer-prevention sources say that sunless tanning products do not protect against UV, and that a colour change from a bronzer should not be treated as sun protection.[1]"
-      ]
-    },
-    {
-      "h": "Use in looksmaxxing and fitness communities",
-      "paras": [
-        "Forum posters describe bronzer as a way to match facial colour to a body tan, since a body-only fake tan can leave the face looking paler.[2] Others describe using it in place of unprotected sun exposure on the face.[6]",
-        "In competitive bodybuilding discussions on T Nation, members describe stage colour as a layered process in which spray tans and bronzers are applied before a show and washed off afterwards; one poster argued that sunbed or sun tans are too light to serve as a base for the colour needed on stage.[3][7]"
-      ]
-    }
+  [
+   "Forms",
+   "Powder, lotion, gel, mousse, spray, tinted moisturizer[1]"
   ],
-  "timeline": [
-    { "year": "1959", "event": "Man-Tan becomes the first commercial DHA self-tanner, the category that bronzers are often used with.[1]" },
-    { "year": "1960", "event": "Coppertone launches its DHA-based Quick Tan product.[1]" }
+  [
+   "Duration",
+   "Until washed off[1]"
   ],
-  "lore": {
-    "intro": "On T Nation and similar fitness forums, bronzer is mentioned mainly as a stage and photo tool and as a stand-in for face tanning.[2][6][7]",
-    "claims": [
-      {
-        "claim": "Bronzer on the face avoids the 'ghost face' left by a body-only tan",
-        "believers": "A poster describes bronzing the face to match a self-tan on the body after a pale face stood out in photos.[2]",
-        "experts": "No published studies have examined bronzer for matching facial and body colour; encyclopedic sources describe it as a temporary surface colorant.[1]",
-        "evidence": "untested"
-      },
-      {
-        "claim": "Bronzer is a safer substitute for sun exposure on the face",
-        "believers": "One member says he gets limited sun on the body but 'never on my face', and uses bronzer instead.[6]",
-        "experts": "Dermatology sources describe UV exposure as a major melanoma risk factor and note that bronzer itself provides no UV protection.[1][5]",
-        "evidence": "mixed"
-      },
-      {
-        "claim": "Bodybuilders need a spray tan plus bronzer on stage because a real tan is not dark enough",
-        "believers": "A competitor argues that tanning beds will not get an athlete 'anywhere near as dark' as needed and that a pre-show base is pointless when stage colour is much darker.[7]",
-        "experts": "No published studies have examined stage tanning methods in bodybuilding.",
-        "evidence": "untested"
-      }
-    ]
-  },
-  "refs": [
-    { "id": 1, "title": "Sunless tanning", "url": "https://en.wikipedia.org/wiki/Sunless_tanning", "source": "Wikipedia", "year": 2024, "type": "encyclopedia" },
-    { "id": 2, "title": "Sexy. Tough. New to Site (forum thread)", "url": "https://t-nation.com/t/sexy-tough-new-to-site/167586", "source": "T Nation forum", "year": 2011, "type": "forum" },
-    { "id": 3, "title": "Strong is Beautiful (forum thread)", "url": "https://t-nation.com/t/strong-is-beautiful/144911", "source": "T Nation forum", "year": 2010, "type": "forum" },
-    { "id": 4, "title": "Skin bronzer (patent application)", "url": "https://europepmc.org/article/PAT/US2010303745", "source": "Europe PMC patents", "year": 2010, "type": "news" },
-    { "id": 5, "title": "Skin tanning and skin bleaching: ethnic addictions complying with the latest fad", "url": "https://pubmed.ncbi.nlm.nih.gov/21638836/", "source": "Revue medicale de Liege", "year": 2011, "type": "review" },
-    { "id": 6, "title": "If Only I Were Clever (forum thread)", "url": "https://t-nation.com/t/if-only-i-were-clever/145195", "source": "T Nation forum", "year": 2010, "type": "forum" },
-    { "id": 7, "title": "First Bodybuilding Show. April 2012 (forum thread)", "url": "https://t-nation.com/t/first-bodybuilding-show-april-2012/168113", "source": "T Nation forum", "year": 2011, "type": "forum" }
+  [
+   "Common colourants",
+   "Walnut extract, jojoba extract, caramel[1]"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Sunless_tanning", "title": "Sunless tanning" }
+  [
+   "UV protection",
+   "None provided by the colour itself[1]"
+  ],
+  [
+   "Regulatory status",
+   "Sold as a cosmetic; the term 'bronzer' has no legal definition[1]"
+  ],
+  [
+   "Related practices",
+   "Contouring, spray tanning, DHA self-tanning"
+  ],
+  [
+   "Used in",
+   "Everyday makeup, photography, bodybuilding stage preparation[10]"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Bronzers are one branch of sunless tanning, a category that also includes DHA self-tanners, gradual tanning lotions, spray tans, oral carotenoid tanning pills and injectable melanocortin products.[1] Encyclopedic descriptions separate bronzers from these because they act as temporary colorants rather than reacting with the skin or altering pigment.[1]",
+    "Products range from face powders used to add warmth and shading to body lotions and sprays applied over larger areas. Tinted moisturizers and some tanning lotions also contain bronzing colour,[1] and patent filings describe a range of bronzer formulations.[4] Some formulations have limited sweat or light water resistance, and lotions or moisturizers with a gradual tanning agent deepen with repeated use.[1]",
+    "Regulators do not define the word. Wikipedia notes that neither 'bronzer' nor 'sunless tanner' is defined by law or by FDA regulation; what is regulated is the colour additive DHA, which is itself colourless.[1]"
+   ]
+  },
+  {
+   "h": "Types and how they differ",
+   "subs": [
+    {
+     "h": "Wash-off bronzers",
+     "paras": [
+      "Powder bronzers are the form most often used on the face, sold loose or pressed and applied over the skin like other face powders. Cream, gel and mousse versions give more coverage and tend to be used on larger areas such as legs and arms, and sprays tint the body in one pass.[1] All are removed by soap and water.[1]"
+     ]
+    },
+    {
+     "h": "Related sunless tanning methods",
+     "paras": [
+      "DHA self-tanners and spray tans produce colour that develops over several hours and fades over roughly three to ten days as the outer skin layer sheds; DHA is typically used at about 3 to 5 percent, and its concentration sets the depth of the shade.[1] Erythrulose is a slower-developing ingredient that works similarly and is often combined with DHA.[1] Bronzers are commonly worn over or alongside these to give immediate colour while the tan develops.[1]",
+      "Oral carotenoid pills and melanotan peptide products are also grouped under sunless tanning. Wikipedia says the FDA has not approved beta-carotene or canthaxanthin as tanning agents, links canthaxanthin to hepatitis and retinal deposits, and reports that unlicensed melanotan products sold in some gyms and salons have drawn health-agency warnings since 2007.[1] These are different from cosmetic bronzers and are mentioned only to separate the categories."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "How it works",
+   "paras": [
+    "A bronzer deposits colour on the skin surface. Because it does not involve melanin or a chemical reaction with skin proteins, it needs no UV exposure and fades when washed or rubbed off.[1] If applied under clothing or where fabric meets skin, most bronzers leave some light but visible rub-off, which dark clothing hides.[1]",
+    "A DHA self-tanner, by contrast, reacts with amino acids in the dead outer layer of skin to make brown pigments through Maillard-type reactions over several hours.[1]"
+   ]
+  },
+  {
+   "h": "Contouring and facial shading",
+   "paras": [
+    "Contouring is a makeup technique that uses a shade one or two tones darker than the skin in hollows such as the cheeks, sides of the nose and temples to create shadow, with a lighter highlighter on prominent areas; bronzer powders are among the products used for the darker shade.[8] Highlighter is a light-reflecting cosmetic, sold as powder, cream, stick or liquid, that is used to brighten areas and suggest depth and sculpted angles; sales rose significantly in 2016, which some industry observers link to YouTube tutorials and selfies.[8][11]",
+    "The technique has stage and film origins: Elizabethan stage actors used chalk and soot to make expressions readable, greasepaint replaced soot with electric stage lighting in the late 1800s, Marlene Dietrich shaded her face in the 1920s and 1930s, and Max Factor Sr. added shading to film faces in 1934 and presented a face-contouring tutorial in 1945.[8] Ben Nye worked on film makeup from 1944 and later launched his own line, and actresses such as Audrey Hepburn, Marilyn Monroe and Elizabeth Taylor wore subtle contouring in the 1950s.[8] It reached the general public after Kevyn Aucoin's book Face Forward in 2000, and heavier contouring was popularised in the 2010s by celebrities such as Kim Kardashian, when brands began selling dedicated contour and strobing products.[8]",
+    "Within looksmaxxing communities, shading with bronzer is discussed as a non-surgical way to change how the face reads in photos and in person; posters describe it as a lighter-touch alternative to cosmetic procedures, and discussions about male makeup commonly debate how natural the result should look."
+   ]
+  },
+  {
+   "h": "Stage tanning in bodybuilding",
+   "paras": [
+    "Wikipedia's bodybuilding article notes that most competitors tan and shave before a contest, and that judges rank conditioning, muscularity, posing, size, stage presentation and symmetry.[10] Forum members describe spray tans and bronzers as the colour layers used for the stage.[3][7]",
+    "On T Nation, members describe stage colour as a layered process in which spray tans and bronzers are applied before a show and washed off afterwards; one poster says he was barred from water or sweating until evening, when he would shower off the bronzer to see the underlying tan.[3] Another competitor argued that sunbed or sun tans are too light to serve as a base for the colour needed on stage.[7]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found. Research on tanning more generally has examined sunbeds, sun exposure and tanning addiction rather than cosmetic bronzers; a review of tanning behaviour discusses sun exposure and indoor tanning as drivers of melanoma and addictive tanning in young adults.[5] Studies of the related ingredient DHA are summarised on Wikipedia: a 2007 study led by Katinka Jung reported more free radicals in DHA-treated skin after sun exposure, and a 2004 Bispebjerg Hospital study reported DNA damage in cultured skin cells, while a 2010 European Commission scientific committee opinion concluded that DHA spray tanning posed no risk, an opinion specialists criticised for relying largely on unpublished industry studies.[1]"
+   ]
+  },
+  {
+   "h": "Safety and risks",
+   "paras": [
+    "Reported problems with bronzers are mostly cosmetic: streaking, an orange cast, and transfer to clothing and bedding.[1] Contact allergy to fragrance or preservative ingredients is possible in some products.[1]",
+    "Sunless tanning products do not protect against UV: Wikipedia notes that sunscreen included in tanners gives protection only for a few hours, that a fake tan does not protect the skin, and that the ingredient avobenzone can degrade under UVA.[1] Wikipedia describes bronzers as much safer than tanning beds, and the same article carries cleanup tags and notes that some of its safety claims rest on limited evidence.[1]",
+    "Wikipedia's sun tanning article reports that a 2010 study found frequent tanning bed use roughly tripled melanoma risk, and that the WHO, the American Cancer Society and the US Surgeon General have issued warnings about sun and indoor tanning.[9] Public-health discussions of tanning have increasingly framed sunless products as an alternative to UV exposure.[1][5]"
+   ]
+  },
+  {
+   "h": "History and society",
+   "paras": [
+    "Before the 1920s in the US and Western Europe, tanned skin signalled outdoor labour and lower status, and the upper classes used parasols and hats; tans became fashionable in the 1920s, when Coco Chanel returned to Paris with a tan after a Riviera cruise and Jean Patou launched a tanning oil in 1927.[9] Coppertone's 1953 advertisement, the 1946 bikini and Malibu Barbie in the 1970s kept tanning in popular culture.[9]",
+    "Bronzers sit within the wider history of sunless tanning. The tanning effect of DHA was found in the 1950s by Eva Wittgenstein, the first commercial DHA self-tanner Man-Tan appeared in 1959, and Coppertone launched Quick Tan in 1960; the orange tones of early products gave the category a poor reputation, and automated spray-tan booths from the late 1990s broadened the market.[1]",
+    "A 2019 Google Trends analysis cited by Wikipedia compared US interest in sunless tanning with tanning beds.[1] A review of tanning and skin bleaching describes tanning behaviour as influenced by fashion and ethnic and cultural norms.[5]"
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing and fitness communities",
+   "paras": [
+    "Forum posters describe bronzer as a way to match facial colour to a body tan, since a body-only fake tan can leave the face looking paler; one poster describes the 'ghost' face in photos that led them to buy bronzer for the face.[2] Others describe using it in place of unprotected sun exposure on the face.[6]",
+    "In looksmaxxing discussion more broadly, bronzer comes up in conversations about male contour and evening out skin tone. Most T Nation mentions are incidental asides in training logs.[3][6][7]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1920s",
+   "event": "Tanned skin becomes fashionable in the US and Western Europe; Coco Chanel's tan and Jean Patou's 1927 tanning oil are cited. [9]"
+  },
+  {
+   "year": "1934",
+   "event": "Max Factor Sr. adds shading to make faces look less flat on film; he presents a contouring tutorial in 1945.[8]"
+  },
+  {
+   "year": "1950s",
+   "event": "Eva Wittgenstein notices that DHA stains skin brown.[1]"
+  },
+  {
+   "year": "1959",
+   "event": "Man-Tan becomes the first commercial DHA self-tanner, the category that bronzers are often used with.[1]"
+  },
+  {
+   "year": "1960",
+   "event": "Coppertone launches its DHA-based Quick Tan product.[1]"
+  },
+  {
+   "year": "Late 1990s",
+   "event": "Automated spray-tan booths broaden the sunless-tanning market.[1]"
+  },
+  {
+   "year": "2000",
+   "event": "Kevyn Aucoin's book Face Forward introduces contouring to the general public.[8]"
+  },
+  {
+   "year": "2010s",
+   "event": "Celebrity contouring and dedicated contour and strobing products popularise facial shading.[8]"
+  },
+  {
+   "year": "2016",
+   "event": "Highlighter sales rise significantly, which industry observers link to social media tutorials.[11]"
+  }
+ ],
+ "lore": {
+  "intro": "On T Nation and similar fitness forums, bronzer is mentioned mainly as a stage and photo tool and as a stand-in for face tanning.[2][6][7]",
+  "claims": [
+   {
+    "claim": "Bronzer on the face avoids the 'ghost face' left by a body-only tan",
+    "believers": "A poster describes bronzing the face to match a self-tan on the body after a pale face stood out in photos.[2]",
+    "experts": "No published studies have examined bronzer for matching facial and body colour; encyclopedic sources describe it as a temporary surface colorant.[1]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Bronzer is a safer substitute for sun exposure on the face",
+    "believers": "One member says he gets limited sun on the body but 'never on my face', and uses bronzer instead.[6]",
+    "experts": "Dermatology sources describe UV exposure as a major melanoma risk factor and note that bronzer itself provides no UV protection.[1][5]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Bodybuilders need a spray tan plus bronzer on stage because a real tan is not dark enough",
+    "believers": "A competitor argues that tanning beds will not get an athlete 'anywhere near as dark' as needed and that a pre-show base is pointless when stage colour is much darker.[7]",
+    "experts": "No published studies have examined stage tanning methods in bodybuilding.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Bronzer and contour can change how the whole face looks",
+    "believers": "Contour practitioners and celebrities use darker shades in facial hollows to suggest sharper structure.[8]",
+    "experts": "Makeup-history sources describe contouring as a stage and film technique that became mainstream in the 2000s and 2010s; no clinical studies have measured its effect on perceived attractiveness.[8]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Bronzer can substitute for a real tan on the face",
+    "believers": "Posters describe applying bronzer to the face while keeping sun exposure to the body, or buying it after a pale face stood out against a tanned body.[2][6]",
+    "experts": "Wikipedia describes bronzers as a temporary colorant that gives no UV protection; dermatology sources link UV exposure to melanoma.[1][9]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Spray tans and bronzers read better than real tans under stage lights",
+    "believers": "Bodybuilders say stage colour needs to be much darker than a natural tan, so a layered spray and bronzer is standard.[3][7]",
+    "experts": "Wikipedia says most bodybuilders tan before a contest, but no published studies were found on stage tanning methods.[10]",
+    "evidence": "untested"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Sunless tanning",
+   "url": "https://en.wikipedia.org/wiki/Sunless_tanning",
+   "source": "Wikipedia",
+   "year": 2024,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Sexy. Tough. New to Site (forum thread)",
+   "url": "https://t-nation.com/t/sexy-tough-new-to-site/167586",
+   "source": "T Nation forum",
+   "year": 2011,
+   "type": "forum"
+  },
+  {
+   "id": 3,
+   "title": "Strong is Beautiful (forum thread)",
+   "url": "https://t-nation.com/t/strong-is-beautiful/144911",
+   "source": "T Nation forum",
+   "year": 2010,
+   "type": "forum"
+  },
+  {
+   "id": 4,
+   "title": "Skin bronzer (patent application)",
+   "url": "https://europepmc.org/article/PAT/US2010303745",
+   "source": "Europe PMC patents",
+   "year": 2010,
+   "type": "news"
+  },
+  {
+   "id": 5,
+   "title": "Skin tanning and skin bleaching: ethnic addictions complying with the latest fad",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21638836/",
+   "source": "Revue medicale de Liege",
+   "year": 2011,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "If Only I Were Clever (forum thread)",
+   "url": "https://t-nation.com/t/if-only-i-were-clever/145195",
+   "source": "T Nation forum",
+   "year": 2010,
+   "type": "forum"
+  },
+  {
+   "id": 7,
+   "title": "First Bodybuilding Show. April 2012 (forum thread)",
+   "url": "https://t-nation.com/t/first-bodybuilding-show-april-2012/168113",
+   "source": "T Nation forum",
+   "year": 2011,
+   "type": "forum"
+  },
+  {
+   "id": 8,
+   "title": "Contouring",
+   "url": "https://en.wikipedia.org/wiki/Contouring",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 9,
+   "title": "Sun tanning",
+   "url": "https://en.wikipedia.org/wiki/Sun_tanning",
+   "source": "Wikipedia",
+   "type": "encyclopedia"
+  },
+  {
+   "id": 10,
+   "title": "Bodybuilding",
+   "url": "https://en.wikipedia.org/wiki/Bodybuilding",
+   "source": "Wikipedia",
+   "type": "encyclopedia"
+  },
+  {
+   "id": 11,
+   "title": "Highlighter (cosmetics)",
+   "url": "https://en.wikipedia.org/wiki/Highlighter_(cosmetics)",
+   "source": "Wikipedia",
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Sunless_tanning",
+   "title": "Sunless tanning"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Contouring",
+   "title": "Contouring - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Sun_tanning",
+   "title": "Sun tanning - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Bodybuilding",
+   "title": "Bodybuilding - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Highlighter_(cosmetics)",
+   "title": "Highlighter (cosmetics) - Wikipedia"
+  }
+ ]
 }

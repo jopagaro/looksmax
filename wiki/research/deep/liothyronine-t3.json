@@ -1,26 +1,60 @@
 {
  "name": "Liothyronine (T3)",
+ "card": {
+  "summary": "The active thyroid hormone, a real hypothyroidism drug that cutters misuse for fat loss; the FDA label carries a boxed warning against that.",
+  "aka": "T3, Cytomel, triiodothyronine, liothyronine sodium",
+  "evidence": "unproven",
+  "status": "rx",
+  "outcome": null,
+  "risk": null,
+  "price": null,
+  "note": "Boxed warning: not for obesity or weight loss; large doses in euthyroid patients may be life-threatening.",
+  "structure": "Liothyronine"
+ },
+ "quick": {
+  "overview": "Liothyronine is lab-made T3, the active thyroid hormone, prescribed for hypothyroidism and in some thyroid cancer care. Some physique communities use it off-label for fat loss, and one looksmax.org thread claims it reduces eye puffiness.\n\nTrials cover thyroid, depression and heart conditions, not fat loss or looks in healthy people.",
+  "mechanism": "T3 enters cells and binds thyroid receptors in the nucleus, changing gene transcription and raising the body's metabolic activity. In people with normal thyroid function, supplemental hormone suppresses their own thyroid output.",
+  "risks": "The label's boxed warning says it should not be used for obesity or weight loss and that large doses may be life-threatening. Overdose causes hyperthyroid symptoms, heart rhythm problems and bone effects. It is prescription-only in the US."
+ },
+ "angle": {
+  "goal": "Body fat and facial puffiness",
+  "chain": [
+   "Active thyroid hormone is taken by people without thyroid disease",
+   "Metabolic rate is raised, and in forum accounts fluid retention around the eyes falls",
+   "Leaner physique and a less puffy eye area, as claimed in communities"
+  ],
+  "effect": "claimed",
+  "text": "In cutting circles T3 is used to try to speed fat loss, and one looksmax.org poster credits it with a less puffy eye area. The drug label addresses weight-loss use directly in a boxed warning."
+ },
  "lead": [
-  "Liothyronine is the synthetic form of triiodothyronine (T3), the active thyroid hormone, sold in the United States as Cytomel and as generics. It is approved to treat hypothyroidism, to suppress thyroid-stimulating hormone as an adjunct in thyroid cancer care, and in thyroid suppression testing [2].",
-  "In bodybuilding and cutting culture, T3 has been used off-label by people without thyroid disease to raise metabolic rate and lose fat. A looksmax.org thread also describes a user who credits T3 pills with reducing puffiness around the eyes [24]. The FDA label carries a boxed warning that thyroid hormones should not be used for obesity or weight loss, stating that in euthyroid patients doses within the usual replacement range are ineffective for weight reduction and that larger doses may produce serious or life-threatening toxicity [2].",
-  "Controlled trials of liothyronine concern hypothyroidism, depression augmentation, heart disease and other medical conditions [6][7][16][20]. No trial found here tests it for fat loss or appearance in healthy people."
+  "Liothyronine is the synthetic form of triiodothyronine (T3), the active thyroid hormone, sold in the United States as Cytomel and as generics. It is approved to treat hypothyroidism, to suppress thyroid-stimulating hormone as an adjunct in thyroid cancer care, and in thyroid suppression testing [2]. It is the most potent form of thyroid hormone, with about 25 micrograms equal to about 100 micrograms of levothyroxine [25].",
+  "In bodybuilding and cutting culture, T3 has been used off-label by people without thyroid disease to raise metabolic rate and lose body fat, which in the physique community translates into a leaner, more defined look. A looksmax.org thread also describes a user who credits T3 pills with reducing puffiness around the eyes [24]. The FDA label carries a boxed warning that thyroid hormones should not be used for obesity or weight loss, stating that in euthyroid patients doses within the usual replacement range are ineffective for weight reduction and that larger doses may produce serious or life-threatening toxicity [2].",
+  "Controlled trials of liothyronine concern hypothyroidism, depression augmentation, heart disease and other medical conditions [6][7][16][20]. No published trial tests it for fat loss or appearance in healthy people. Sports-medicine researchers have examined how common non-prescribed thyroid hormone use is among athletes, and endocrine reviews describe the clinical picture of thyroid hormone excess from outside the body [27][30]."
  ],
  "infobox": [
   [
    "Drug class",
-   "Thyroid hormone (triiodothyronine, T3)"
+   "Thyroid hormone (triiodothyronine, T3) [2]"
   ],
   [
    "Routes",
-   "Oral [2]"
+   "Oral [2]; intravenous form used in myxedema coma [25]"
   ],
   [
    "Brand names",
-   "Cytomel and generics [2]"
+   "Cytomel, Tertroxin and generics [25]"
   ],
   [
    "Approved uses",
    "Hypothyroidism, TSH suppression in thyroid cancer care, diagnostic testing [2]"
+  ],
+  [
+   "Approved",
+   "1956 [25]"
+  ],
+  [
+   "Elimination half-life",
+   "About 2.5 days [25]"
   ],
   [
    "Labeling",
@@ -28,36 +62,98 @@
   ],
   [
    "Legal status",
-   "Prescription-only in the US [2]"
+   "Prescription-only in the US, UK and Canada [25]"
+  ],
+  [
+   "Anti-doping",
+   "Not on the WADA Prohibited List as of a 2023 study [27]"
   ]
  ],
  "sections": [
   {
    "h": "Medical uses",
    "paras": [
-    "The usual treatment for hypothyroidism is levothyroxine (T4) [3][12]. Liothyronine is used in some patients and in combination with levothyroxine, an approach examined in several trials and covered by European and American guidelines [13][12]. Early trials found that adding T3 to T4 did not improve wellbeing, quality of life or cognition [15][18], while later studies compared levothyroxine, desiccated thyroid and combination therapy [6], and tested combination regimens in thyroidectomised patients [7][8]. Liothyronine has also been tested as an augmentation for antidepressant-resistant depression [16][19][5][21], and in heart failure and cardiac surgery settings [14][20][22]."
+    "The usual treatment for hypothyroidism is levothyroxine (T4) [3][12]. Liothyronine is used in some patients and in combination with levothyroxine, an approach examined in several trials and covered by European and American guidelines [13][12]. The faster onset of liothyronine makes it useful in myxedema coma, and its shorter half-life allows a withdrawal of about two weeks before radioactive iodine therapy, compared with three to six weeks for levothyroxine [25]. It is also used when conversion of T4 to T3 in peripheral tissues is impaired [25].",
+    "Liothyronine has been tested as an augmentation for antidepressant-resistant depression [16][19][5][21], and in heart failure and cardiac surgery settings [14][20][22]. A STAR*D-based algorithm lists it as an option after two failed antidepressants [25]."
    ]
   },
   {
-   "h": "Use in looksmaxxing communities",
+   "h": "Thyroid hormone and metabolism",
+   "subs": [
+    {
+     "h": "T3 and T4",
+     "paras": [
+      "The thyroid gland releases mostly thyroxine (T4) and a smaller amount of T3. Tissues convert T4 into the more active T3 with deiodinase enzymes, so T4 acts largely as a reservoir; the blood carries roughly 14 parts T4 to 1 part T3, and T3 is reported as about three to four times more potent than T4 [28]. All three deiodinase forms contain selenium, which ties thyroid hormone activation to dietary selenium [28].",
+      "Thyroid hormones act through nuclear receptors that regulate gene transcription. They raise basal metabolic rate, increase protein synthesis, increase heat production and sensitivity to catecholamines, and raise heart rate and cardiac output [28][25]."
+     ]
+    },
+    {
+     "h": "Desiccated thyroid and related products",
+     "paras": [
+      "Dried animal thyroid, usually from pigs, was the first oral treatment for hypothyroidism; George Redmayne Murray described treating myxedema with thyroid extract in 1891 [29]. It contains both T4 and T3, with a T4-to-T3 ratio of about 4 to 1 compared with about 11 to 1 in humans [29]. It declined after synthetic levothyroxine arrived in the early 1960s [29]. The American Association of Clinical Endocrinologists and the Royal College of Physicians recommend levothyroxine instead, citing batch variability and T3 peaks, while supporters say some patients feel better on extract [29]. A 2021 comparative-effectiveness study examined levothyroxine, desiccated thyroid extract and combination therapy [6]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing and physique communities",
    "paras": [
-    "Posts on looksmax.org describe taking T3 to reduce periorbital puffiness. One thread shows before-and-after images after three days of use and says the user expects results to normalise over three months; asked whether it must be taken for life, the original poster answers no [24]. Fat-loss use is mentioned in the wider cutting community, and the manufacturer label addresses it directly in a boxed warning [2]."
+    "Posts on looksmax.org describe taking T3 to reduce periorbital puffiness. One thread shows before-and-after images after three days of use and says the user expects results to normalise over three months; asked whether it must be taken for life, the original poster answers no [24]. In the wider cutting community, T3 is discussed as a way to raise metabolic rate during a diet, and the manufacturer label addresses weight-loss use directly in a boxed warning [2].",
+    "On T Nation, discussion of thyroid hormones is framed largely around thyroid function and diet. In one long explanatory thread, a poster describes free T3 as the active thyroid hormone and T4 as a reservoir, notes that some people convert T4 to T3 poorly, and writes that starvation can raise reverse T3; he reports personally feeling helped by T3 alone, without recommending it as a general treatment [26].",
+    "The idea behind these discussions is that hard dieting lowers circulating T3 and that supplying T3 restores or exceeds the metabolic rate. Dosing, cycling and sourcing are not covered here."
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "paras": [
+    "Liothyronine is described as the most potent form of thyroid hormone; about 25 micrograms is considered equivalent to about 100 micrograms of levothyroxine [25]. Its elimination half-life is about 2.5 days and it is 99.7 percent protein bound [25]. Compared with levothyroxine, it has a faster onset and shorter biological half-life, possibly because it binds less to thyroxine-binding globulin and transthyretin [25]. A trial of levothyroxine plus sustained-release liothyronine examined how changing the release profile alters the pharmacodynamics of T3 [10]. In people with normal thyroid function, supplemental hormone suppresses the body's own thyroid output [1]."
+   ]
+  },
+  {
+   "h": "Studies of non-prescribed use in athletes",
+   "paras": [
+    "A 2023 study in the Journal of the Endocrine Society tested 498 stored serum samples from anti-doping controls and reviewed 509 doping control forms from Australian athletes. Two athletes had biochemical thyrotoxicosis and two forms declared thyroxine use, a prevalence of about 4 per 1,000, and the authors concluded there was minimal evidence of thyroid hormone abuse among athletes tested in WADA-compliant sports [27]. The authors noted that thyroid hormones are not on the WADA Prohibited List, and that severe thyrotoxicosis has been reported in bodybuilders who used them; they flagged weight-classified sports as an area of concern [27]. They also noted that their data could not capture gym-based users who are not drug tested [27]."
+   ]
+  },
+  {
+   "h": "History and society",
+   "paras": [
+    "Liothyronine was approved for medical use in 1956 and is marketed as Cytomel and Tertroxin, with generics available; Pfizer is listed as its developer [25]. It is prescription-only in the UK and Canada [25]. In 2017 the UK Competition and Markets Authority investigated alleged excessive pricing by Advanz Pharma, with a pack price that rose from 4.46 pounds before debranding in 2007 to 258.19 pounds by July 2017, nearly 1,600 percent [25]. In 2023 it was the 220th most prescribed drug in the United States, with over a million prescriptions [25].",
+    "Patient dissatisfaction with levothyroxine-only treatment has been documented in an online survey of hypothyroid patients, and is part of the background to the combination-therapy debate [17]."
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "Randomized trials in patients with hypothyroidism have compared T4 alone with T4 plus T3 [15][18][7][8][10] and with desiccated thyroid extract [6]. A phase 3 trial gave T3 to infants after cardiopulmonary bypass [22], and other studies examined T3 in insulin receptor mutations [11][23] and, as a topical product, diabetic foot ulcers [9]. These do not address fat loss or appearance in euthyroid individuals, and the label states that replacement-range doses are ineffective for weight reduction in euthyroid patients [2]."
+    "Early randomized trials found that adding T3 to T4 did not improve wellbeing, quality of life or cognition in hypothyroid patients [15][18]. Later trials compared T4 alone, T4 plus T3 and desiccated thyroid [6], and tested combination regimens in thyroidectomised patients [7][8]. The 2012 European Thyroid Association guidelines allow cautious trials of combination therapy in selected patients [13], and the 2014 American Thyroid Association guidelines address it as well [12].",
+    "A 1995 trial examined thyroid hormone after coronary bypass surgery [14], trials in refractory depression tested T3 augmentation [16][19], and registered trials cover heart failure, bipolar depression, infants after cardiopulmonary bypass and insulin receptor mutations [20][21][22][23]. T3 has also been tested as a topical product in diabetic foot ulcers [9][11]. None of these address fat loss or appearance in euthyroid individuals, and the label states that replacement-range doses are ineffective for weight reduction in euthyroid patients [2]."
    ]
   },
   {
    "h": "Adverse effects and risks",
    "paras": [
-    "The label says adverse reactions are mainly those of hyperthyroidism from overdose: fatigue, increased appetite, weight loss, heat intolerance, sweating, headache, hyperactivity and nervousness, with cardiac adverse reactions including atrial fibrillation especially in older people and those with cardiovascular disease [2]. Thyroid emergencies are reviewed in the clinical literature [4]. The boxed warning notes that larger doses in euthyroid patients may be life-threatening [2]."
+    "The label says adverse reactions are mainly those of hyperthyroidism from overdose: fatigue, increased appetite, weight loss, heat intolerance, sweating, headache, hyperactivity and nervousness, with cardiac adverse reactions including atrial fibrillation especially in older people and those with cardiovascular disease [2]. Excess doses can also cause fever, anxiety, insomnia, arrhythmias and heart failure [25]. Thyroid emergencies are reviewed in the clinical literature [4].",
+    "Hyperthyroidism from outside hormone is called thyrotoxicosis factitia; it can be mistaken for Graves' disease or thyroiditis, and tests typically show suppressed thyroglobulin and little radioactive iodine uptake, because the external hormone suppresses the gland [30]. The 2023 athlete study notes that supraphysiological thyroid hormone can reduce skeletal and cardiac muscle mass and exercise capacity [27]. The boxed warning says larger doses in euthyroid patients may be life-threatening [2]."
    ]
   }
  ],
  "timeline": [
+  {
+   "year": "1891",
+   "event": "George Redmayne Murray describes treating myxedema with thyroid extract [29]."
+  },
+  {
+   "year": "1915",
+   "event": "Edward Calvin Kendall isolates thyroxine [28]."
+  },
+  {
+   "year": "1956",
+   "event": "Liothyronine approved for medical use [25]."
+  },
+  {
+   "year": "1960s",
+   "event": "Synthetic levothyroxine becomes available and thyroid extract use declines [29]."
+  },
   {
    "year": "1995",
    "event": "Trial of thyroid hormone treatment after coronary bypass surgery published [14]."
@@ -71,12 +167,24 @@
    "event": "European Thyroid Association issues guidelines on T4 plus T3 therapy [13]."
   },
   {
+   "year": "2014",
+   "event": "American Thyroid Association publishes hypothyroidism guidelines [12]."
+  },
+  {
+   "year": "2017",
+   "event": "UK Competition and Markets Authority investigates liothyronine pricing [25]."
+  },
+  {
    "year": "2021",
    "event": "Comparative trial of levothyroxine, desiccated thyroid and combination therapy published [6]."
+  },
+  {
+   "year": "2023",
+   "event": "Study of 509 Australian athletes finds about 4 per 1,000 with signs of thyroid hormone abuse [27]."
   }
  ],
  "lore": {
-  "intro": "T3 comes up in cutting culture for fat loss and, on looksmax.org, for facial and eye-area puffiness [24].",
+  "intro": "T3 comes up in cutting culture for fat loss and, on looksmax.org, for facial and eye-area puffiness [24][26].",
   "claims": [
    {
     "claim": "T3 helps cut fat by raising metabolism",
@@ -94,6 +202,24 @@
     "claim": "Adding T3 to T4 improves how hypothyroid patients feel",
     "believers": "Patient surveys report dissatisfaction with levothyroxine-only treatment [17].",
     "experts": "Randomized trials have found no clear well-being benefit from combination therapy [15][18], while guidelines allow cautious trials in selected patients [13].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Low T3 on a hard diet explains stalled fat loss",
+    "believers": "A T Nation poster explains that free T3 is the active thyroid hormone, that starvation can raise reverse T3, and that extreme diets can disrupt hormone systems [26].",
+    "experts": "The FDA label states that thyroid hormones are ineffective for weight reduction in euthyroid patients at replacement doses, and that larger doses may be life-threatening [2]; no trial has tested T3 for fat loss in dieting healthy people.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Athletes and bodybuilders commonly use thyroid hormone to make weight",
+    "believers": "Forum and gym discussion presents thyroid hormone as a tool for leaning out before a show or weigh-in, favouring T3 as the more potent form [26].",
+    "experts": "A 2023 study of Australian athletes found about 4 per 1,000 with biochemical thyrotoxicosis and no evidence of selective T3 use; the authors note drug-tested athletes may not represent gym users [27].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Desiccated thyroid is a more natural alternative to synthetic hormone",
+    "believers": "Supporters say extract contains the full range of thyroid-gland hormones and that some patients feel better on it [29].",
+    "experts": "The American Association of Clinical Endocrinologists and the Royal College of Physicians recommend levothyroxine, citing batch variability and T3 peaks [29].",
     "evidence": "mixed"
    }
   ]
@@ -290,23 +416,80 @@
    "source": "looksmax.org",
    "year": 2024,
    "type": "forum"
+  },
+  {
+   "id": 25,
+   "title": "Liothyronine",
+   "url": "https://en.wikipedia.org/wiki/Liothyronine",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 26,
+   "title": "Thyroid Basics Explained",
+   "url": "https://t-nation.com/t/thyroid-basics-explained/185344",
+   "source": "T Nation forum",
+   "year": 2015,
+   "type": "forum"
+  },
+  {
+   "id": 27,
+   "title": "Thyroid Hormone Abuse Among Elite Athletes",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9989342",
+   "source": "Journal of the Endocrine Society",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 28,
+   "title": "Thyroid hormones",
+   "url": "https://en.wikipedia.org/wiki/Thyroid_hormones",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 29,
+   "title": "Desiccated thyroid extract",
+   "url": "https://en.wikipedia.org/wiki/Desiccated_thyroid_extract",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 30,
+   "title": "Thyrotoxicosis factitia",
+   "url": "https://en.wikipedia.org/wiki/Thyrotoxicosis_factitia",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
   }
  ],
- "webSources": [],
- "card": {
-  "summary": "The active thyroid hormone, a real hypothyroidism drug that cutters misuse for fat loss; the FDA label carries a boxed warning against that.",
-  "aka": "T3, Cytomel, triiodothyronine, liothyronine sodium",
-  "evidence": "unproven",
-  "status": "rx",
-  "outcome": null,
-  "risk": null,
-  "price": null,
-  "note": "Boxed warning: not for obesity or weight loss; large doses in euthyroid patients may be life-threatening.",
-  "structure": "Liothyronine"
- },
- "quick": {
-  "overview": "Liothyronine is lab-made T3, the active thyroid hormone, prescribed for hypothyroidism and in some thyroid cancer care. Some physique communities use it off-label for fat loss, and one looksmax.org thread claims it reduces eye puffiness.\n\nTrials cover thyroid, depression and heart conditions, not fat loss or looks in healthy people.",
-  "mechanism": "T3 enters cells and binds thyroid receptors in the nucleus, changing gene transcription and raising the body's metabolic activity. In people with normal thyroid function, supplemental hormone suppresses their own thyroid output.",
-  "risks": "The label's boxed warning says it should not be used for obesity or weight loss and that large doses may be life-threatening. Overdose causes hyperthyroid symptoms, heart rhythm problems and bone effects. It is prescription-only in the US."
- }
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Liothyronine",
+   "title": "Liothyronine - Wikipedia"
+  },
+  {
+   "url": "https://t-nation.com/t/thyroid-basics-explained/185344",
+   "title": "Thyroid Basics Explained - T Nation"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9989342",
+   "title": "Thyroid Hormone Abuse Among Elite Athletes"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Thyroid_hormones",
+   "title": "Thyroid hormones - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Desiccated_thyroid_extract",
+   "title": "Desiccated thyroid extract - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Thyrotoxicosis_factitia",
+   "title": "Thyrotoxicosis factitia - Wikipedia"
+  }
+ ]
 }

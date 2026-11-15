@@ -1,9 +1,20 @@
 {
  "name": "VITA shade guide",
  "lead": [
-  "The VITA classical shade guide is a set of tooth-coloured tabs, labelled A1 to D4, used by dentists to describe and match tooth colour. It is arranged by value (lightness) and chroma (colour intensity).[1] In whitening and cosmetic dentistry it serves as a reference scale for stating how light teeth are before and after treatment.",
-  "Studies in dental research have examined its limitations, including colour coverage errors and the accuracy of visual shade matching compared with instruments.[2][3] In appearance communities, shade numbers are used as shorthand for how white teeth are."
+  "The VITA classical shade guide is a set of tooth-coloured tabs, labelled A1 to D4, that dentists hold beside a patient's teeth to describe and match tooth colour. It is arranged by value (lightness) and chroma (colour intensity), with letter groups A (red-brown), B (red-yellow), C (grey) and D (red-grey) [1]. For anyone whitening their teeth to look better, it serves as a common yardstick for saying how light teeth are before and after treatment, so a change can be described as a number of shades gained [1][4].",
+  "In looksmaxxing and cosmetic dentistry, shade numbers are shorthand for how white teeth are, and results are quoted in shade steps. Wikipedia reports in-office bleaching commonly gives about 2 to 7 shades and at-home strips or trays about 1 or 2 [1].",
+  "Dental research has examined the guide itself, including its colour coverage, the accuracy of visual matching compared with instruments, and how it compares with instruments and newer guides [2][3][8][9][10]. Many whitening trials use it as the outcome scale [4][7][12][13]."
  ],
+ "angle": {
+  "goal": "Teeth colour",
+  "chain": [
+   "Dentist or user compares teeth to numbered tabs",
+   "Whitening change is recorded as shade steps",
+   "Whitening progress and results can be tracked and compared"
+  ],
+  "effect": "indirect",
+  "text": "The guide does not whiten anything itself. It gives people a way to define their starting shade, set a target shade and check how much a whitening treatment has changed the look of their smile [1][4]."
+ },
  "infobox": [
   [
    "Type",
@@ -11,28 +22,75 @@
   ],
   [
    "Classical range",
-   "A1-D4[1]"
+   "A1 to D4, with hue groups A, B, C, D [1]"
   ],
   [
    "Used for",
-   "Shade matching and whitening outcome records"
+   "Shade matching, whitening outcome records, restoration colour matching"
+  ],
+  [
+   "Common alternatives",
+   "VITA 3D-Master, Bleachedguide, spectrophotometers such as Easyshade [5][6][8]"
+  ],
+  [
+   "Typical whitening change",
+   "In-office about 2 to 7 shades; strips or trays about 1 to 2 [1]"
   ]
  ],
  "sections": [
   {
+   "h": "Description",
+   "paras": [
+    "The classical guide groups tabs by hue letter and a number for chroma. Practitioners in whitening and prosthodontics choose the tab that looks closest to a tooth under standard lighting and record its code [1]. Dental technicians receive the selected shade when they make crowns, veneers or bridges, and a Japanese review of prosthodontic teamwork notes that shade selection with the guide is often subjective and can lead to miscommunication between dentist and laboratory [11].",
+    "Digital tools, including photography, intraoral scanners and spectrophotometers, supplement or replace visual choice. A 2024 study compared shade matching by an intraoral scanner, a spectrophotometer and visual assessment [8], and another measured the in-vivo repeatability of three intra-oral spectrophotometers [9]."
+   ]
+  },
+  {
    "h": "Use in whitening",
    "paras": [
-    "Researchers frequently use the guide to measure bleaching results, for example by enrolling volunteers with teeth at shade A3 or darker and counting shade steps gained.[4] Wikipedia notes in-office bleaching commonly gives 2 to 7 shades and at-home strips or trays about 1 or 2.[1]"
+    "Researchers frequently use the guide to measure bleaching results, for example by enrolling volunteers with teeth at shade A3 or darker and counting shade steps gained [4]. Newer trials commonly report both the classical guide and the VITA Bleachedguide, in shade guide units, alongside an instrument reading [12][13].",
+    "Wikipedia lists the expected shade gains of different products: in-office 2 to 7 shades, strips and trays 1 to 2, toothpastes 1 to 2 with continued use. It also reports that nearly half of an in-office change can rebound within a week and that re-treatment may be needed every six months to a year [1]."
+   ]
+  },
+  {
+   "h": "Limitations",
+   "paras": [
+    "A 1991 study examined the colour coverage of two shade guides, and a 1998 study compared a sphere spectrophotometer with human evaluation of tooth shade [2][3]. A 2025 paper titled \"How many tooth colors are there?\" examines the range of natural tooth colour against fixed guides [10]. ClinicalTrials.gov lists small studies comparing visual, photographic and spectrophotometric matching, with 9 to 20 participants in the smaller ones and 210 patients in a 2026 study of how the order of shade presentation affects patient choice [5][6][15].",
+    "A 2014 randomised comparison examined selecting VITA classical shades using the VITA 3D-Master guide [16]."
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "Studies have evaluated the guide as a measurement tool. A 1991 study examined coverage errors of two shade guides, and a 1998 study compared a sphere spectrophotometer with human evaluation of tooth shade.[2][3] ClinicalTrials.gov lists small trials comparing visual, photographic and spectrophotometric shade matching.[5][6] Clinical bleaching trials use the guide as an outcome scale.[4][7]"
+    "Studies have evaluated the guide as a measurement tool. A 1991 study examined coverage errors of two shade guides, and a 1998 study compared a sphere spectrophotometer with human evaluation of tooth shade [2][3]. ClinicalTrials.gov lists small trials comparing visual, photographic and spectrophotometric shade matching [5][6]. Clinical bleaching trials use the guide as an outcome scale [4][7].",
+    "Examples include a 40-person trial of in-office light-activated systems in volunteers with shade A3 or darker [4], a 2005 comparison of over-the-counter, in-office and at-home bleaching to reach six grades of whitening [7], and an 80-person randomised trial comparing combined in-office plus at-home bleaching with at-home bleaching alone, which found slightly higher colour change in the first week for the combined group, no significant difference at the end, and more sensitivity with the combined approach [12]. A 40-person split-mouth trial of 40% hydrogen peroxide found no significant colour difference between gel mixed at the session and gel mixed a week earlier [13]. A 50-person trial examined violet LED with 35% carbamide peroxide [17]."
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Shade numbers circulate in whitening advertisements, dentists' before-and-after galleries and online discussions of cosmetic dentistry. Regulation of the whitening products themselves differs by region: Wikipedia reports EU rules limiting retail hydrogen peroxide to 0.1% and the US FDA endorsing gels under 6% hydrogen peroxide or up to 16% carbamide peroxide [1]."
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "1990",
+   "event": "A small-colour-difference equation for dental shades is published, linking shade-guide colours to Munsell parameters [18]."
+  },
+  {
+   "year": "1991",
+   "event": "A study examines the coverage errors of two shade guides [2]."
+  },
+  {
+   "year": "1998",
+   "event": "A sphere spectrophotometer is compared with human evaluation of tooth shade [3]."
+  },
+  {
+   "year": "2014",
+   "event": "Selecting VITA classical shades with the 3D-Master guide is tested in a randomised study [16]."
+  }
+ ],
  "lore": null,
  "refs": [
   {
@@ -89,6 +147,86 @@
    "url": "https://pubmed.ncbi.nlm.nih.gov/15853099/",
    "source": "Operative Dentistry",
    "year": 2005,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "A comparative study of shade-matching performance using intraoral scanner, spectrophotometer, and visual assessment.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39384854/",
+   "source": "Scientific Reports",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "In-vivo repeatability of three intra-oral spectrophotometers.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38168888/",
+   "source": "J Esthet Restor Dent",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "How many tooth colors are there?",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39472195/",
+   "source": "Dental Materials",
+   "year": 2025,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "Team communication needed in treatment for fixed prosthesis. 2) Opinion from dental technician's standpoint",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15961915/",
+   "source": "Nihon Hotetsu Shika Gakkai Zasshi",
+   "year": 2005,
+   "type": "review"
+  },
+  {
+   "id": 12,
+   "title": "Combined Bleaching Technique Versus At-home Bleaching: A Single-blind Randomized Controlled Trial.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35653595/",
+   "source": "Oper Dent",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "Efficacy of In-office Bleaching Gel One Week After Mixing: A Randomized Clinical Trial.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40992750/",
+   "source": "Oper Dent",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 15,
+   "title": "NCT07370545: Impact of Presentation Sequence on Patient Tooth Shade Selection",
+   "url": "https://clinicaltrials.gov/study/NCT07370545",
+   "source": "ClinicalTrials.gov",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 16,
+   "title": "Selecting VITA classical shades with the VITA 3D-master shade guide.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25010883/",
+   "source": "Int J Prosthodont",
+   "year": 2014,
+   "type": "trial"
+  },
+  {
+   "id": 17,
+   "title": "Clinical Evaluation of In-Office Dental Bleaching Using a Violet Light-Emitted Diode.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31436475/",
+   "source": "Photobiomodul Photomed Laser Surg",
+   "year": 2020,
+   "type": "trial"
+  },
+  {
+   "id": 18,
+   "title": "A new, small-color-difference equation for dental shades.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2229615/",
+   "source": "J Dent Res",
+   "year": 1990,
    "type": "study"
   }
  ],

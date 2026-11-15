@@ -1,20 +1,347 @@
 {
-"name":"Sleep apnea surgery / MMA",
-"card":{"summary":"Maxillomandibular advancement moves both jaws forward to open the airway, described as among the most effective sleep surgeries and often discussed for facial change.","aka":"MMA, bimaxillary advancement, orthognathic surgery","evidence":"moderate","risk":"high","note":"Major surgery with longer recovery than other sleep procedures; appearance outcomes not covered by the sources reviewed.","price":null},
-"quick":{"overview":"Maxillomandibular advancement (MMA) surgically moves the upper and lower jaws forward, enlarging the airway behind the tongue. It is described as one of the most effective surgical treatments for sleep apnea.\n\nCommunities discuss it for apnea and for its effects on jaw projection. The sources reviewed do not describe appearance outcomes.","mechanism":"Advancing the jaws pulls attached tissues forward, widening the airway. It is often paired with genioglossus advancement and usually considered after other treatments such as nasal surgery or tonsillectomy have failed.","risks":"Recovery is longer than for other sleep apnea surgeries because the facial bones must heal in their new position. Risk details were not provided in the sources reviewed."},
-"lead":["Maxillomandibular advancement (MMA), also called bimaxillary advancement or orthognathic surgery, moves the upper and lower jaws forward. [1] It was first used to correct facial skeletal deformities and malocclusion, and from the late 1970s advancing the lower jaw was noted to improve sleepiness in patients. [1]","It is described as one of the most effective surgical treatments for obstructive sleep apnea, often done with genioglossus advancement and usually after other treatments fail. [1] Recovery is longer than for other sleep surgeries. [1]","Registered trials are ongoing or planned, including comparisons of splintless versus conventional MMA. [2][3][4]"],
-"infobox":[["Type","Orthognathic sleep surgery"],["Moves","Maxilla and mandible forward"],["Often combined with","Genioglossus advancement"],["Typical stage","After other treatments fail"]],
-"sections":[
-{"h":"Description","paras":["MMA advances the upper and lower jaws together, and is classed as a sleep surgery. [1] It is usually considered after nasal surgery, tonsillectomy, uvulopalatopharyngoplasty or tongue reduction have not worked. [1]"]},
-{"h":"Clinical studies","paras":["Registered trials include a planned 66-person trial comparing splintless with conventional MMA for obstructive sleep apnea, an 80-person trial of MMA in OSA begun in 2018 whose status is unknown, and an 80-person quality-of-life study of MMA patients begun in 2023. [2][3][4] No results from these registrations were retrieved."]}
-],
-"timeline":[{"year":"2018","event":"Registration of an 80-patient MMA trial for OSA begins. [3]"}],
-"lore":null,
-"refs":[
-{"id":1,"title":"Maxillomandibular advancement","url":"https://en.wikipedia.org/wiki/Maxillomandibular_advancement","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":2,"title":"Splintless Versus Conventional Maxillomandibular Advancement Surgery for Obstructive Sleep Apnea","url":"https://clinicaltrials.gov/study/NCT07598461","source":"ClinicalTrials.gov","year":2026,"type":"trial"},
-{"id":3,"title":"Maxillomandibular Advancement in the Treatment of Obstructive Sleep Apnea","url":"https://clinicaltrials.gov/study/NCT03796078","source":"ClinicalTrials.gov","year":2018,"type":"trial"},
-{"id":4,"title":"QoL in OSA patients Treated With MMA Surgery","url":"https://clinicaltrials.gov/study/NCT06386341","source":"ClinicalTrials.gov","year":2023,"type":"trial"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Maxillomandibular_advancement","title":"Maxillomandibular advancement - Wikipedia"}]
+ "name": "Sleep apnea surgery / MMA",
+ "card": {
+  "summary": "Maxillomandibular advancement moves both jaws forward to open the airway, described as among the most effective sleep surgeries and often discussed for facial change.",
+  "aka": "MMA, bimaxillary advancement, orthognathic surgery",
+  "evidence": "moderate",
+  "risk": "high",
+  "note": "Major surgery with longer recovery than other sleep procedures; appearance outcomes are not well documented.",
+  "price": null
+ },
+ "quick": {
+  "overview": "Maxillomandibular advancement (MMA) surgically moves the upper and lower jaws forward, enlarging the airway behind the tongue. It is described as one of the most effective surgical treatments for sleep apnea.\nCommunities discuss it for apnea and for its effects on jaw projection. Appearance outcomes are not well documented.",
+  "mechanism": "Advancing the jaws pulls attached tissues forward, widening the airway. It is often paired with genioglossus advancement and usually considered after other treatments such as nasal surgery or tonsillectomy have failed.",
+  "risks": "Recovery is longer than for other sleep apnea surgeries because the facial bones must heal in their new position."
+ },
+ "lead": [
+  "Maxillomandibular advancement (MMA), also called bimaxillary advancement or maxillomandibular osteotomy, is a jaw operation in which the upper jaw (maxilla) and lower jaw (mandible) are cut, moved forward and fixed in the new position.[1] It belongs to the family of orthognathic (corrective jaw) surgery and is used mainly as a sleep surgery, to widen the airway behind the tongue and soft palate in people with obstructive sleep apnea.[1][5]",
+  "Its connection to looks is a result people openly discuss. Moving both jaws forward changes the projection of the midface, lips, chin and jawline, and forum members who weigh orthognathic surgery for recessed jaws often include advancement procedures in their discussion of cosmetic outcomes.[5][10][11] Orthognathic surgery in general is described as able to improve facial aesthetics and balance, correct asymmetry, and usually produces a noticeable change in the face.[5]",
+  "Wikipedia describes MMA as one of the most effective surgical treatments for sleep apnea, usually considered after other treatments such as nasal surgery, tonsillectomy, uvulopalatopharyngoplasty or tongue reduction have not worked, and often combined with genioglossus advancement.[1] A 2010 systematic review and meta-analysis pooling 627 adults reported a mean drop in the apnea-hypopnea index from 63.9 to 9.5 events per hour.[13] Clinical reviews place surgery as an option for people who cannot or will not use CPAP, the usual first-line therapy.[6][7][14]"
+ ],
+ "angle": {
+  "goal": "Jaw projection / facial skeleton",
+  "chain": [
+   "Upper and lower jaws are cut and moved forward",
+   "Airway widens and facial skeleton projects further forward",
+   "Changed profile, lip support and jawline"
+  ],
+  "effect": "direct",
+  "text": "MMA physically relocates the jaws, so the face's profile changes along with the airway. People who pursue jaw surgery for appearance discuss it alongside other orthognathic procedures such as BSSO and genioplasty, and those who have it for sleep apnea may also notice a changed profile."
+ },
+ "infobox": [
+  [
+   "Also called",
+   "Bimaxillary advancement, maxillomandibular osteotomy [1]"
+  ],
+  [
+   "Type",
+   "Orthognathic (jaw) surgery and sleep surgery [1]"
+  ],
+  [
+   "Components",
+   "Le Fort I osteotomy (upper jaw) plus bilateral sagittal split osteotomy (lower jaw), fixed with titanium plates and screws [5]"
+  ],
+  [
+   "Often combined with",
+   "Genioglossus advancement [1]"
+  ],
+  [
+   "Pooled outcome",
+   "Mean AHI 63.9 to 9.5 per hour; surgical success 86%, cure (AHI under 5) 43% in a 2010 meta-analysis [13]"
+  ],
+  [
+   "Return to work",
+   "About 2 to 6 weeks for orthognathic surgery generally [5]"
+  ],
+  [
+   "First-line alternative",
+   "CPAP; mandibular advancement devices [14]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "MMA advances the upper and lower jaws together, and is classed among the surgical treatments for obstructive sleep apnea.[1] The usual surgical building blocks are a Le Fort I osteotomy of the upper jaw and a bilateral sagittal split osteotomy of the lower jaw, with titanium plates and screws holding the moved bones.[5] Because soft tissues attach to the jaws, advancing the bone pulls the tongue base, soft palate and pharyngeal walls forward and enlarges the airway.[6][8]",
+    "The surgery is usually considered after nasal surgery, tonsillectomy, uvulopalatopharyngoplasty or tongue reduction have not worked, and it is often performed with genioglossus advancement, which pulls the tongue forward.[1] Reviews of sleep surgery describe it as a salvage option for people who fail or cannot tolerate CPAP and conservative therapies, and discuss it as part of multilevel airway surgery.[7][6]",
+    "Planning is typically multidisciplinary, involving surgeons and orthodontists, with imaging, photographs and software that predicts post-surgical appearance; braces usually come before and after surgery in orthognathic cases.[5] Planning technology is an active area, with a 2026 randomised trial examining patient-specific implants in bimaxillary advancement.[9]"
+   ],
+   "subs": [
+    {
+     "h": "Place among sleep apnea treatments",
+     "paras": [
+      "Continuous positive airway pressure (CPAP) is the most common treatment, but adherence is a problem: Wikipedia reports that about half of people with moderate to severe apnea stop within the first year.[14] Mandibular advancement devices, worn in the mouth, are described as often used and as equally effective as CPAP in some descriptions; weight loss, exercise and sleeping position are also recommended, and tirzepatide was approved by the FDA for apnea in December 2024.[14] Surgical options range from tonsillectomy and uvulopalatopharyngoplasty to jaw advancement.[14]"
+     ]
+    },
+    {
+     "h": "Anatomy and appearance",
+     "paras": [
+      "Short lower jaws and narrow upper jaws are linked to airway narrowing, and small lower jaws are also associated with crowded teeth and malocclusion.[14] This overlap between airway anatomy and facial skeleton is why advancement surgery is discussed in both medical and appearance contexts."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Orthognathic surgery has a long record: one of the first published cases was by Simon P. Hullihen in 1849, jaw osteotomies became established in the 1940s, and Hugo Obwegeser popularised the bilateral sagittal split osteotomy for the lower jaw.[5] In 1985 the procedures were extended to treat receding chins and jaw-joint pain, and in 2002 Dr. Raffaini introduced orthognathic surgery under local anaesthesia with intravenous sedation, avoiding the multi-day hospital stays previously needed.[5]",
+    "MMA was first used to correct facial skeletal deformities and malocclusion. In the late 1970s, advancing the lower jaw was noted to improve sleepiness in three patients, and the operation was later applied to obstructive sleep apnea.[1] A 1999 study of 50 patients who had MMA, published in Chest, is the source of the 90 to 100 percent success figure quoted for orthognathic surgery in sleep apnea.[1][5]"
+   ]
+  },
+  {
+   "h": "Effectiveness",
+   "paras": [
+    "Wikipedia's MMA article describes the operation as one of the most effective surgical treatments for sleep apnea, citing a high success rate but giving no figures.[1] Its orthognathic surgery article cites a 90 to 100 percent success rate for orthognathic surgery in obstructive sleep apnea and stresses careful planning to maximise airway patency.[5]",
+    "The 2010 meta-analysis by Holty and Guilleminault searched Medline and pooled 53 reports covering 22 patient populations (627 adults), plus 27 reports with individual data on 320 people. Mean AHI fell from 63.9 to 9.5 events per hour; pooled surgical success was 86.0 percent and cure (AHI below 5) was 43.2 percent. Younger age, lower preoperative weight and AHI, and greater maxillary advancement were associated with higher success. Most subjects reported satisfaction and improved quality of life, and the authors called MMA a safe and highly effective treatment.[13] A separate 2010 meta-analysis of upper-airway surgeries by Caples and colleagues reported substantial and consistent reductions in AHI after MMA.[15]",
+    "A review of controversies in sleep surgery discusses how success is defined and how MMA fits for people with moderate to severe apnea who do not tolerate CPAP.[6]"
+   ]
+  },
+  {
+   "h": "Recovery and safety",
+   "paras": [
+    "Recovery is longer than for other sleep apnea operations because facial bones must heal in their new position.[1] For orthognathic surgery generally, initial healing takes 2 to 6 weeks and full bone union and remodelling another 2 to 4 months; the jaw may be immobilised for about 1 to 4 weeks, patients commonly follow a liquid diet and may lose weight, swelling can last weeks to months, and return to work is possible after about 2 to 6 weeks.[5]",
+    "Reported complications include bleeding, swelling, infection (up to 7% in some series), nausea, and facial numbness from nerve injury, which is often temporary, usually resolving within about three months, but can rarely be permanent.[5] The Holty meta-analysis reported major complications in 1.0 percent and minor ones in 3.1 percent of MMA patients, with no postoperative deaths.[13] Orthognathic surgeons also note that some movements, such as maxillary impaction, carry higher risk.[5]"
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing",
+   "paras": [
+    "On looksmax.org, threads about orthognathic surgery mainly concern bite correction and jaw position. One poster describes jaw surgery for an underbite as giving a longer mandible, better chin projection, improved lip alignment and more facial depth, and shares before-and-after photographs; replies note that bilateral sagittal split surgery mostly moves the lower jaw while some procedures also move the upper jaw.[10] Another member asks whether jaw surgery for a recessed mandible is worthwhile cosmetically without a bite problem and whether braces would still be needed beforehand.[11] A third documents plans for a lower-jaw setback combined with upper-lip lengthening for a gummy smile, with the surgeon advising one step at a time on a possible chin procedure.[12]",
+    "These threads concern orthognathic surgery in general; MMA specifically is a sleep-apnea operation whose appearance effects are discussed as a by-product of moving both jaws forward."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Registered trials include a planned 66-person trial comparing splintless with conventional MMA for obstructive sleep apnea, an 80-person trial of MMA in OSA begun in 2018 whose status is unknown, and an 80-person quality-of-life study of MMA patients begun in 2023.[2][3][4] A 2026 randomised trial examined the accuracy of patient-specific implants in bimaxillary advancement with a three-piece Le Fort I osteotomy.[9] Meta-analyses of MMA report large falls in AHI and high rates of surgical success in adults with apnea.[13][15] Review literature on sleep surgery, including multilevel surgery and hypopharyngeal airway surgery, covers the place of jaw advancement among options.[6][7][8] No studies found that measure facial appearance after MMA performed for sleep apnea."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1849",
+   "event": "Simon P. Hullihen publishes one of the first orthognathic surgery cases.[5]"
+  },
+  {
+   "year": "1940s",
+   "event": "Jaw osteotomies develop; Hugo Obwegeser later popularises the bilateral sagittal split osteotomy.[5]"
+  },
+  {
+   "year": "Late 1970s",
+   "event": "Advancing the lower jaw is noted to improve sleepiness in three patients.[1]"
+  },
+  {
+   "year": "1985",
+   "event": "Orthognathic procedures are extended to receding chins and jaw-joint pain.[5]"
+  },
+  {
+   "year": "1999",
+   "event": "A study of 50 patients treated with MMA is published in Chest.[1]"
+  },
+  {
+   "year": "2002",
+   "event": "Dr. Raffaini introduces orthognathic surgery under local anaesthesia with sedation.[5]"
+  },
+  {
+   "year": "2010",
+   "event": "Holty and Guilleminault publish a meta-analysis of MMA: mean AHI falls from 63.9 to 9.5 per hour.[13]"
+  },
+  {
+   "year": "2018",
+   "event": "Registration of an 80-patient MMA trial for OSA begins.[3]"
+  },
+  {
+   "year": "2023",
+   "event": "An 80-patient quality-of-life study of MMA patients begins.[4]"
+  },
+  {
+   "year": "2026",
+   "event": "A randomised trial reports on patient-specific implants in bimaxillary advancement.[9]"
+  }
+ ],
+ "lore": {
+  "intro": "On looksmax.org, advancement and other jaw procedures are discussed as ways to improve jaw projection and bite, with members sharing planning notes and before-and-after photographs.[10][11][12]",
+  "claims": [
+   {
+    "claim": "Jaw surgery can give a longer mandible, better chin projection and better lip alignment",
+    "believers": "A looksmax.org poster says that for an underbite it gives a larger, longer mandible, improved bite and lip alignment, and more facial depth, pointing to before-and-after photographs.[10]",
+    "experts": "Orthognathic surgery is described as able to improve facial aesthetics and balance and usually produces a noticeable facial change, with planning software used to predict results.[5]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Jaw surgery may be worthwhile for a recessed jaw even without a bite problem",
+    "believers": "Forum members ask whether cosmetic benefit justifies surgery when the bite is normal, and discuss whether pre-surgical orthodontics would still be needed.[11]",
+    "experts": "Orthognathic surgery is described as correcting facial skeletal disharmony and asymmetry as well as bite problems; no numerical outcomes for isolated cosmetic advancement are reported.[5]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "MMA for sleep apnea also changes the face",
+    "believers": "Posters treat advancement of both jaws as one route to greater projection, linking airway work with facial structure.[10][11]",
+    "experts": "Wikipedia's MMA entry covers its airway indication and does not describe appearance outcomes; published sleep-surgery reviews focus on breathing outcomes.[1][6][13]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "MMA is among the most effective surgeries for sleep apnea",
+    "believers": "Maxillofacial surgeons are described as holding that advancement surgery offers superior cure prospects compared with traditional treatments.[14]",
+    "experts": "A meta-analysis of 627 adults reported mean AHI falling from 63.9 to 9.5 per hour, with 86% surgical success and 43% cure.[13]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "One-step-at-a-time planning avoids over-treating the face",
+    "believers": "A poster planning a lower-jaw setback reports the surgeon advising against adding a chin procedure at the same time and deciding on it later.[12]",
+    "experts": "Orthognathic planning is described as multidisciplinary, using imaging and software that predicts post-surgical appearance, with genioplasty as a separate procedure.[5]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Recovery from jaw surgery is manageable and quick",
+    "believers": "Forum discussions treat surgery as a one-off investment with a clear before-and-after.[10][12]",
+    "experts": "Orthognathic surgery generally involves weeks of swelling, a liquid diet and 2 to 6 weeks off work, with bone remodelling taking months; nerve numbness is usually temporary but can be permanent.[5][1]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Maxillomandibular advancement",
+   "url": "https://en.wikipedia.org/wiki/Maxillomandibular_advancement",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Splintless Versus Conventional Maxillomandibular Advancement Surgery for Obstructive Sleep Apnea",
+   "url": "https://clinicaltrials.gov/study/NCT07598461",
+   "source": "ClinicalTrials.gov",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 3,
+   "title": "Maxillomandibular Advancement in the Treatment of Obstructive Sleep Apnea",
+   "url": "https://clinicaltrials.gov/study/NCT03796078",
+   "source": "ClinicalTrials.gov",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "QoL in OSA patients Treated With MMA Surgery",
+   "url": "https://clinicaltrials.gov/study/NCT06386341",
+   "source": "ClinicalTrials.gov",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "Orthognathic surgery",
+   "url": "https://en.wikipedia.org/wiki/Orthognathic_surgery",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 6,
+   "title": "Controversies in Obstructive Sleep Apnea Surgery",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30396449/",
+   "source": "Sleep Medicine Clinics",
+   "year": 2018,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Multilevel Obstructive Sleep Apnea Surgery",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28738374/",
+   "source": "Advances in Oto-Rhino-Laryngology",
+   "year": 2017,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "Hypopharyngeal airway surgery",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17606026/",
+   "source": "Otolaryngologic Clinics of North America",
+   "year": 2007,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "Are Patient-Specific Implants Accurate in Bimaxillary Advancement Surgery Entailing Three-Piece Le Fort I? A Randomized Controlled Trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42173166/",
+   "source": "Journal of Oral and Maxillofacial Surgery",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Orthognathic surgery might be lifefuel for under/overbitecels",
+   "url": "https://looksmax.org/threads/orthognathic-surgery-might-be-lifefuel-for-under-overbitecels.1082688/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 11,
+   "title": "Orthognathic surgery",
+   "url": "https://looksmax.org/threads/orthognathic-surgery.555863/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 12,
+   "title": "Orthognathic surgery date final: 3 Nov it is",
+   "url": "https://looksmax.org/threads/orthognathic-surgery-date-final-3-nov-it-is.2224/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 13,
+   "title": "Maxillomandibular advancement for the treatment of obstructive sleep apnea: a systematic review and meta-analysis",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:20189852%20AND%20SRC:MED&resultType=core&format=json",
+   "source": "Sleep Medicine Reviews",
+   "year": 2010,
+   "type": "review"
+  },
+  {
+   "id": 14,
+   "title": "Obstructive sleep apnea",
+   "url": "https://en.wikipedia.org/wiki/Obstructive_sleep_apnea",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 15,
+   "title": "Surgical modifications of the upper airway for obstructive sleep apnea in adults: a systematic review and meta-analysis",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22maxillomandibular%20advancement%22%20AND%20(meta-analysis%20OR%20systematic%20review)%20AND%20sleep%20apnea&resultType=core&format=json&pageSize=8&sort=CITED%20desc",
+   "source": "Sleep",
+   "year": 2010,
+   "type": "review"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Maxillomandibular_advancement",
+   "title": "Maxillomandibular advancement - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Orthognathic_surgery",
+   "title": "Orthognathic surgery - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Obstructive_sleep_apnea",
+   "title": "Obstructive sleep apnea - Wikipedia"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:20189852%20AND%20SRC:MED&resultType=core&format=json",
+   "title": "Holty and Guilleminault 2010, Europe PMC record"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22maxillomandibular%20advancement%22%20AND%20(meta-analysis%20OR%20systematic%20review)%20AND%20sleep%20apnea&resultType=core&format=json&pageSize=8&sort=CITED%20desc",
+   "title": "Caples et al. 2010, Europe PMC record"
+  }
+ ]
 }

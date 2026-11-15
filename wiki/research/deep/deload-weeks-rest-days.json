@@ -1,219 +1,357 @@
 {
-  "name": "Deload weeks / rest days",
-  "card": {
-    "summary": "Planned lighter training weeks and rest days; grounded in periodization theory, little direct deload data.",
-    "aka": "Recovery week",
-    "risk": "low",
-    "evidence": "limited",
-    "status": null,
-    "outcome": null,
-    "price": null,
-    "note": null,
-    "structure": null
-  },
-  "quick": {
-    "overview": "A deload is a planned lighter week of training; rest days are days off. Lifters use them to manage fatigue.\n\nPeriodization has a long theoretical history, but deloads as such have little direct research.",
-    "mechanism": "The idea is that reducing load allows fatigue to dissipate while fitness is retained.",
-    "risks": "Overtraining, from insufficient recovery, is the documented concern; deloads themselves carry no specific reported harms."
-  },
-  "lead": [
-    "Deload weeks and rest days are planned reductions in training load that lifters use to keep building muscle and strength over the long run. A deload is typically a week of reduced volume or intensity; rest days are days without training. People use them so that fatigue clears, joints and connective tissue recover, and the next block of training can be done harder, which is the chain behind more muscle, a better physique and a more athletic look.[1][3][4]",
-    "The concept sits inside periodization, a cyclical method of planning training that draws on Hans Selye's general adaptation syndrome and was formalised by Leo Matveyev around 1964.[1] A related idea, supercompensation, proposed by Nikolai Yakovlev in the 1950s, holds that after training lowers fitness, recovery restores it and then lifts it above the starting level.[3] Wikipedia's periodization article does not use the word 'deload' but describes transition phases of 3-4 weeks and alternating hard and light days.[1]",
-    "In lifting communities, the deload is a routine part of training talk. T Nation members describe feeling run down and poor sleep as signs a deload was due, and discuss how diet and habits tend to slip during a deload week.[5][6][7] Overtraining, a failure to recover, is typically treated with rest and reduced load.[2]"
+ "name": "Deload weeks / rest days",
+ "card": {
+  "summary": "Planned lighter training weeks and rest days; grounded in periodization theory, little direct deload data.",
+  "aka": "Recovery week",
+  "risk": "low",
+  "evidence": "limited",
+  "status": null,
+  "outcome": null,
+  "price": null,
+  "note": null,
+  "structure": null
+ },
+ "quick": {
+  "overview": "A deload is a planned lighter week of training; rest days are days off. Lifters use them to manage fatigue.\n\nPeriodization has a long theoretical history, but deloads as such have little direct research.",
+  "mechanism": "The idea is that reducing load allows fatigue to dissipate while fitness is retained.",
+  "risks": "Overtraining, from insufficient recovery, is the documented concern; deloads themselves carry no specific reported harms."
+ },
+ "lead": [
+  "Deload weeks and rest days are planned reductions in training load that lifters use to keep building muscle and strength over the long run. A deload is typically a week of reduced volume or intensity; rest days are days without training. People use them so that fatigue clears, joints and connective tissue recover, and the next block of training can be done harder, which is the chain behind more muscle, a better physique and a more athletic look.[1][3][4][10][11]",
+  "The concept sits inside periodization, a cyclical method of planning training that draws on Hans Selye's general adaptation syndrome and was formalised by Leo Matveyev around 1964.[1] A related idea, supercompensation, proposed by Nikolai Yakovlev in the 1950s, holds that after training lowers fitness, recovery restores it and then lifts it above the starting level.[3] Wikipedia's periodization article does not use the word 'deload' but describes transition phases of 3-4 weeks and alternating hard and light days.[1]",
+  "The deload as a topic in its own right is recent in the research literature. A 2022 interview study of 18 strength and physique coaches, a 2023 international Delphi consensus, a 2024 survey of 246 competitive strength and physique athletes and two randomised trials of deload periods (2024 and 2026) have examined how deloads are defined, used and whether they change muscle and strength outcomes.[10][11][12][13][14] Their authors describe the research base on deloading as small.[10][11]",
+  "In lifting communities, the deload is a routine part of training talk. T Nation members describe feeling run down and poor sleep as signs a deload was due, and discuss how diet and habits tend to slip during a deload week.[5][6][7] Overtraining, a failure to recover, is typically treated with rest and reduced load.[2]"
+ ],
+ "angle": {
+  "goal": "Muscle and physique",
+  "chain": [
+   "Planned light weeks and days off let fatigue dissipate",
+   "Recovery supports harder, more consistent training",
+   "More training progress builds muscle and improves physique"
   ],
-  "angle": {
-    "goal": "Muscle and physique",
-    "chain": [
-      "Planned light weeks and days off let fatigue dissipate",
-      "Recovery supports harder, more consistent training",
-      "More training progress builds muscle and improves physique"
-    ],
-    "effect": "indirect",
-    "text": "Lifters schedule lighter weeks and rest days so they can keep training hard for months and years. The recovery period is where adaptation is described as taking place, and consistent progress is what adds muscle mass and shapes the physique people are aiming for."
-  },
-  "infobox": [
-    [
-      "Type",
-      "Recovery management"
-    ],
-    [
-      "Related",
-      "Periodization, supercompensation, tapering"
-    ],
-    [
-      "Formalised",
-      "Matveyev, c. 1964[1]"
-    ],
-    [
-      "Supercompensation theory",
-      "Yakovlev, 1949-1959[3]"
-    ],
-    [
-      "Typical deload",
-      "A week of reduced volume or intensity"
-    ]
+  "effect": "indirect",
+  "text": "Lifters schedule lighter weeks and rest days so they can keep training hard for months and years. The recovery period is where adaptation is described as taking place, and consistent progress is what adds muscle mass and shapes the physique people are aiming for. Coaches and athletes in survey studies describe deloads as a way to manage fatigue so training can continue at a high standard.[10][12]"
+ },
+ "infobox": [
+  [
+   "Type",
+   "Recovery management"
   ],
-  "sections": [
-    {
-      "h": "Background",
-      "paras": [
-        "Periodization aims to keep athletes in Selye's resistance stage so recovery raises baseline.[1] The fitness-fatigue model of Banister expresses performance as fitness minus fatigue.[1] Critics such as Kiely (2018) argue early models were oversimplified.[1]",
-        "Supercompensation describes training as temporarily lowering fitness, after which recovery returns it to baseline and then overshoots. Wikipedia notes that timing matters: a session during recovery may lead to overtraining, one during supercompensation can raise fitness further, and one after it leaves the body at baseline. Tendons and bone adapt more slowly than muscle.[3] The article describes the model as postulated and its parameters as not fully understood.[3]"
-      ]
-    },
-    {
-      "h": "Rest days, recovery and muscle growth",
-      "paras": [
-        "Wikipedia's article on muscle hypertrophy reports that muscle protein synthesis after resistance training rises and returns to normal after roughly 28 hours in adequately fed young males in one study, while another found it still elevated at 72 hours. It also lists replenishing glycogen after training as aiding recovery, and training frequency as a variable affecting hypertrophy.[4] Rest days are where lifters place this recovery."
-      ]
-    },
-    {
-      "h": "Overtraining and rest",
-      "paras": [
-        "Overtraining involves persistent fatigue, elevated resting heart rate and performance decline.[2] The page lists breaks, reduced volume or intensity, sleep and nutrition as measures, while noting limited evidence detail.[2]"
-      ]
-    },
-    {
-      "h": "In lifting communities",
-      "paras": [
-        "On T Nation, one member writes that a bout of disrupted sleep and being run down is the sign someone should have deloaded the previous week, comparing it to excess adrenaline or cortisol from pushing hard too long.[5] Another confesses wanting a full week without training as a deload.[6] A forum user reports that during a lifting program his diet and other decisions improve, and that on a deload week he is more likely to drink, stay up late and skimp on water.[7]",
-        "On looksmax.org, rest days appear in threads about body fat and gym routines, including a poster who says he hit new strength records after two rest days, and another who finds rest days hard because gym attendance fills his schedule.[8][9]"
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found specifically testing scheduled deload weeks in the sources reviewed. Related research on periodization and overtraining exists.[1][2]"
-      ]
-    }
+  [
+   "Related",
+   "Periodization, supercompensation, tapering"
   ],
-  "timeline": [
-    {
-      "year": "1949-1959",
-      "event": "Nikolai Yakovlev puts forward the supercompensation theory.[3]"
-    },
-    {
-      "year": "c. 1964",
-      "event": "Leo Matveyev formalises periodization.[1]"
-    },
-    {
-      "year": "2018",
-      "event": "Kiely argues early periodization models were oversimplified.[1]"
-    }
+  [
+   "Formalised",
+   "Matveyev, c. 1964[1]"
   ],
-  "lore": {
-    "intro": "Lifters on T Nation and looksmax.org discuss deloads and rest days as part of training and recovery routines.[5][6][7][8][9]",
-    "claims": [
-      {
-        "claim": "Poor sleep and persistent fatigue mean a deload is due.",
-        "believers": "A T Nation member says disrupted sleep after pushing hard too long is a sign a deload should have come the week before.[5]",
-        "experts": "Wikipedia lists persistent fatigue and performance decline as features of overtraining, treated with rest and reduced load.[2]",
-        "evidence": "mixed"
-      },
-      {
-        "claim": "A deload week lets people return stronger.",
-        "believers": "Lifters describe a deload as recovery that sets up the next training block, a view in line with supercompensation theory.[3][6]",
-        "experts": "The supercompensation model is described as postulated, with some parameters not fully understood, and no studies of scheduled deload weeks were found.[3]",
-        "evidence": "untested"
-      },
-      {
-        "claim": "Rest days are when muscle is built.",
-        "believers": "Lifters treat days off as time when training adaptations take place.[8][9]",
-        "experts": "Research summarised on Wikipedia shows muscle protein synthesis staying elevated for roughly one to three days after resistance training.[4]",
-        "evidence": "supported"
-      }
-    ]
-  },
-  "refs": [
-    {
-      "id": 1,
-      "title": "Sports periodization",
-      "url": "https://en.wikipedia.org/wiki/Sports_periodization",
-      "source": "Wikipedia",
-      "year": 2025,
-      "type": "encyclopedia"
-    },
-    {
-      "id": 2,
-      "title": "Overtraining",
-      "url": "https://en.wikipedia.org/wiki/Overtraining",
-      "source": "Wikipedia",
-      "year": 2025,
-      "type": "encyclopedia"
-    },
-    {
-      "id": 3,
-      "title": "Supercompensation",
-      "url": "https://en.wikipedia.org/wiki/Supercompensation",
-      "source": "Wikipedia",
-      "year": 2025,
-      "type": "encyclopedia"
-    },
-    {
-      "id": 4,
-      "title": "Muscle hypertrophy",
-      "url": "https://en.wikipedia.org/wiki/Muscle_hypertrophy",
-      "source": "Wikipedia",
-      "year": 2025,
-      "type": "encyclopedia"
-    },
-    {
-      "id": 5,
-      "title": "Flame Free Confession III: Even More Flame Free (Part 1)",
-      "url": "https://t-nation.com/t/flame-free-confession-iii-even-more-flame-free-part-1/264067",
-      "source": "T Nation forum",
-      "year": 2020,
-      "type": "forum"
-    },
-    {
-      "id": 6,
-      "title": "Flame Free Confession III: Even More Flame Free (Part 2)",
-      "url": "https://t-nation.com/t/flame-free-confession-iii-even-more-flame-free-part-2/273731",
-      "source": "T Nation forum",
-      "year": 2021,
-      "type": "forum"
-    },
-    {
-      "id": 7,
-      "title": "Outside of gym culture no one really cares",
-      "url": "https://t-nation.com/t/outside-of-gym-culture-no-one-really-cares/294042",
-      "source": "T Nation forum",
-      "year": 2026,
-      "type": "forum"
-    },
-    {
-      "id": 8,
-      "title": "Rate me at 20bf plus and after 2 rest days grinding Fortnite.",
-      "url": "https://looksmax.org/threads/rate-me-at-20bf-plus-and-after-2-rest-days-grinding-fortnite.1634629/",
-      "source": "looksmax.org",
-      "year": 2025,
-      "type": "forum"
-    },
-    {
-      "id": 9,
-      "title": "i hate gym rest days",
-      "url": "https://looksmax.org/threads/i-hate-gym-rest-days.1497060/",
-      "source": "looksmax.org",
-      "year": 2025,
-      "type": "forum"
-    }
+  [
+   "Supercompensation theory",
+   "Yakovlev, 1949-1959[3]"
   ],
-  "webSources": [
-    {
-      "url": "https://en.wikipedia.org/wiki/Sports_periodization",
-      "title": "Sports periodization"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Overtraining",
-      "title": "Overtraining"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Supercompensation",
-      "title": "Supercompensation"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Muscle_hypertrophy",
-      "title": "Muscle hypertrophy"
-    }
+  [
+   "Typical deload (coaches)",
+   "5 to 7 days, every 4 to 6 weeks[10]"
+  ],
+  [
+   "Typical deload (athletes surveyed)",
+   "About 6.4 days, every 5.6 weeks on average[12]"
+  ],
+  [
+   "Consensus definition",
+   "A period of reduced training stress to mitigate physiological and psychological fatigue[11]"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "A deload is a planned, temporary reduction in training demand. The Delphi panel of expert coaches defined it as a period of reduced training stress designed to mitigate physiological and psychological fatigue, promote recovery and prepare the lifter for later training.[11] Coaches interviewed in 2022 described it as planned and periodic, with the aims of managing fatigue, improving recovery and supporting long-term progression, while noting that deloading lacks a single operational definition.[10]",
+    "Rest days are the other half of the topic: days between sessions with no training. Training frequency is one of the variables that affects hypertrophy, and recovery between sessions is where lifters place the adaptation.[4]"
+   ]
+  },
+  {
+   "h": "Background",
+   "paras": [
+    "Periodization aims to keep athletes in Selye's resistance stage so recovery raises baseline.[1] The fitness-fatigue model of Banister expresses performance as fitness minus fatigue.[1] Critics such as Kiely (2018) argue early models were oversimplified.[1]",
+    "Supercompensation describes training as temporarily lowering fitness, after which recovery returns it to baseline and then overshoots. Wikipedia notes that timing matters: a session during recovery may lead to overtraining, one during supercompensation can raise fitness further, and one after it leaves the body at baseline. Tendons and bone adapt more slowly than muscle.[3] The article describes the model as postulated and its parameters as not fully understood.[3]"
+   ]
+  },
+  {
+   "h": "Deload practice",
+   "paras": [
+    "Interviewed coaches reported that there is no single method. The most common adjustments were reducing volume (fewer reps per set and fewer sets per session) and lowering the intensity of effort, meaning lighter relative loads or stopping further from failure, and some also changed exercise selection. Deloads typically lasted 5 to 7 days and recurred every 4 to 6 weeks, with wide variation.[10]",
+    "In the 2024 survey of 246 competitive strength and physique athletes (73.6 percent male, mean age 29.5), all respondents reported deloading. A typical deload lasted about 6.4 days and occurred about every 5.6 weeks. Athletes cited managing energy and fatigue as the main reasons and also deloaded when performance stalled or soreness and joint aches rose. Most used a pre-planned approach, sometimes alongside autoregulation; training frequency stayed the same while volume, load and effort were reduced, and 48 percent added recovery methods such as massage, stretching or foam rolling.[12]",
+    "Other options discussed in the literature include complete breaks from training, which the 2024 PeerJ trial tested, and reduced-frequency deloads, which the 2026 Scientific Reports trial tested.[13][14]"
+   ]
+  },
+  {
+   "h": "Rest days, recovery and muscle growth",
+   "paras": [
+    "Wikipedia's article on muscle hypertrophy reports that muscle protein synthesis after resistance training rises and returns to normal after roughly 28 hours in adequately fed young males in one study, while another found it still elevated at 72 hours. It also lists replenishing glycogen after training as aiding recovery, and training frequency as a variable affecting hypertrophy.[4] Rest days are where lifters place this recovery."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Coleman and colleagues randomised 39 resistance-trained adults to a 9-week high-volume programme with either a complete one-week break in the middle (deload) or continuous training. Lower-body muscle size, local muscular endurance and power did not differ meaningfully between groups, while the continuous group gained more isometric and dynamic lower-body strength and reported slightly better readiness to train.[13] The authors framed the study around the idea that short breaks might re-sensitise muscle to anabolic stimuli.[13]",
+    "A 2026 Scientific Reports study used a within-person design in 19 untrained young men, randomly assigning each leg and arm to continuous training or a version in which weeks 4 and 8 were reduced to one session of two sets. Both conditions produced similar significant increases in quadriceps and biceps muscle thickness and in 10-repetition-maximum performance, with no condition-by-time interactions and small between-condition effect sizes.[14]",
+    "Qualitative and survey work comprises the rest of the evidence. The 2022 interviews, the 2023 three-round Delphi (34 coaches in round one, 21 in round three, producing 138 statements) and the 2024 athlete survey document practice rather than test outcomes.[10][11][12] Related research on periodization and overtraining exists.[1][2]"
+   ]
+  },
+  {
+   "h": "Overtraining and rest",
+   "paras": [
+    "Overtraining involves persistent fatigue, elevated resting heart rate and performance decline.[2] The page lists breaks, reduced volume or intensity, sleep and nutrition as measures, while noting limited evidence detail.[2]"
+   ]
+  },
+  {
+   "h": "Reported risks and misuse",
+   "paras": [
+    "Deloads themselves are not associated with specific reported harms. In the Coleman trial, a complete break was followed by smaller strength gains than continuous training, an outcome the authors report as a possible cost of stopping entirely.[13] Under-recovery is the documented concern when no rest is scheduled: overtraining involves persistent fatigue, elevated resting heart rate and performance decline.[2]"
+   ]
+  },
+  {
+   "h": "In lifting communities",
+   "paras": [
+    "On T Nation, one member writes that a bout of disrupted sleep and being run down is the sign someone should have deloaded the previous week, comparing it to excess adrenaline or cortisol from pushing hard too long.[5] Another confesses wanting a full week without training as a deload.[6] A forum user reports that during a lifting program his diet and other decisions improve, and that on a deload week he is more likely to drink, stay up late and skimp on water.[7]",
+    "On looksmax.org, rest days appear in threads about body fat and gym routines, including a poster who says he hit new strength records after two rest days, and another who finds rest days hard because gym attendance fills his schedule.[8][9]"
+   ]
+  },
+  {
+   "h": "Related practices",
+   "paras": [
+    "Related concepts include tapering before competition, autoregulation using repetitions in reserve, scheduled lighter days within a week, and transition phases in periodized plans.[1][10][12] Supercompensation and the fitness-fatigue model are the usual theoretical frames.[1][3]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1949-1959",
+   "event": "Nikolai Yakovlev puts forward the supercompensation theory.[3]"
+  },
+  {
+   "year": "c. 1964",
+   "event": "Leo Matveyev formalises periodization.[1]"
+  },
+  {
+   "year": "2018",
+   "event": "Kiely argues early periodization models were oversimplified.[1]"
+  },
+  {
+   "year": "2022",
+   "event": "Interview study of 18 strength and physique coaches on deloading published in Frontiers in Sports and Active Living.[10]"
+  },
+  {
+   "year": "2023",
+   "event": "International Delphi consensus defines deloading and builds design principles.[11]"
+  },
+  {
+   "year": "2024",
+   "event": "Survey of 246 strength and physique athletes and the PeerJ one-week deload randomised trial published.[12][13]"
+  },
+  {
+   "year": "2026",
+   "event": "Scientific Reports within-person trial of deload periods in untrained men published.[14]"
+  }
+ ],
+ "lore": {
+  "intro": "Lifters on T Nation and looksmax.org discuss deloads and rest days as part of training and recovery routines.[5][6][7][8][9]",
+  "claims": [
+   {
+    "claim": "Poor sleep and persistent fatigue mean a deload is due.",
+    "believers": "A T Nation member says disrupted sleep after pushing hard too long is a sign a deload should have come the week before.[5]",
+    "experts": "Wikipedia lists persistent fatigue and performance decline as features of overtraining, treated with rest and reduced load.[2]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "A deload week lets people return stronger.",
+    "believers": "Lifters describe a deload as recovery that sets up the next training block, a view in line with supercompensation theory.[3][6]",
+    "experts": "The supercompensation model is described as postulated, with some parameters not fully understood.[3] A 2024 trial found no hypertrophy difference and smaller strength gains after a complete week off, while a 2026 trial found similar growth with reduced-volume deloads.[13][14]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Rest days are when muscle is built.",
+    "believers": "Lifters treat days off as time when training adaptations take place.[8][9]",
+    "experts": "Research summarised on Wikipedia shows muscle protein synthesis staying elevated for roughly one to three days after resistance training.[4]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Everyone needs a deload every four to six weeks.",
+    "believers": "Coaches interviewed said deloads typically last 5 to 7 days and recur every 4 to 6 weeks, and surveyed athletes averaged about every 5.6 weeks.[10][12]",
+    "experts": "The same authors describe frequency as varying widely and the research base as limited; no definitive schedule has been established.[10][11]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Deloading means a full week off.",
+    "believers": "Some lifters describe a deload as a complete break from training.[6]",
+    "experts": "Coaches reported mostly reducing volume and effort rather than stopping, with training frequency unchanged in the athlete survey.[10][12]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Deloads should be planned in advance rather than waiting for signs of fatigue.",
+    "believers": "Most surveyed athletes used a pre-planned approach, sometimes with autoregulation.[12]",
+    "experts": "The Delphi panel reached consensus statements on design principles, but outcome trials comparing planned and reactive deloads have not been reported.[11]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Rest days and sleep are where muscle is built, so skipping them stalls progress.",
+    "believers": "Forum users describe hitting new records after rest days.[8]",
+    "experts": "Muscle protein synthesis is reported to stay elevated for one to three days after resistance training; overtraining is described in terms of persistent fatigue and performance decline.[2][4]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Sports periodization",
+   "url": "https://en.wikipedia.org/wiki/Sports_periodization",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Overtraining",
+   "url": "https://en.wikipedia.org/wiki/Overtraining",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Supercompensation",
+   "url": "https://en.wikipedia.org/wiki/Supercompensation",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Muscle hypertrophy",
+   "url": "https://en.wikipedia.org/wiki/Muscle_hypertrophy",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 5,
+   "title": "Flame Free Confession III: Even More Flame Free (Part 1)",
+   "url": "https://t-nation.com/t/flame-free-confession-iii-even-more-flame-free-part-1/264067",
+   "source": "T Nation forum",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 6,
+   "title": "Flame Free Confession III: Even More Flame Free (Part 2)",
+   "url": "https://t-nation.com/t/flame-free-confession-iii-even-more-flame-free-part-2/273731",
+   "source": "T Nation forum",
+   "year": 2021,
+   "type": "forum"
+  },
+  {
+   "id": 7,
+   "title": "Outside of gym culture no one really cares",
+   "url": "https://t-nation.com/t/outside-of-gym-culture-no-one-really-cares/294042",
+   "source": "T Nation forum",
+   "year": 2026,
+   "type": "forum"
+  },
+  {
+   "id": 8,
+   "title": "Rate me at 20bf plus and after 2 rest days grinding Fortnite.",
+   "url": "https://looksmax.org/threads/rate-me-at-20bf-plus-and-after-2-rest-days-grinding-fortnite.1634629/",
+   "source": "looksmax.org",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 9,
+   "title": "i hate gym rest days",
+   "url": "https://looksmax.org/threads/i-hate-gym-rest-days.1497060/",
+   "source": "looksmax.org",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 10,
+   "title": "\"You can't shoot another bullet until you've reloaded the gun\": Coaches' perceptions, practices and experiences of deloading in strength and physique sports (Bell et al.)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:36619355%20AND%20SRC:MED&resultType=core&format=json",
+   "source": "Frontiers in Sports and Active Living",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "Integrating Deloading into Strength and Physique Sports Training Programmes: An International Delphi Consensus Approach (Bell et al.)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:37730925%20AND%20SRC:MED&resultType=core&format=json",
+   "source": "Sports Medicine - Open",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 12,
+   "title": "Deloading Practices in Strength and Physique Sports: A Cross-sectional Survey (Rogerson et al.)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:38499934%20AND%20SRC:MED&resultType=core&format=json",
+   "source": "Sports Medicine - Open",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 13,
+   "title": "Gaining more from doing less? The effects of a one-week deload period during supervised resistance training on muscular adaptations (Coleman et al.)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:38274324%20AND%20SRC:MED&resultType=core&format=json",
+   "source": "PeerJ",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "Effects of deload periods in resistance training on muscle hypertrophy and strength endurance in untrained young men using a randomized within subject design (Pancar et al.)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:41730991%20AND%20SRC:MED&resultType=core&format=json",
+   "source": "Scientific Reports",
+   "year": 2026,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Sports_periodization",
+   "title": "Sports periodization"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Overtraining",
+   "title": "Overtraining"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Supercompensation",
+   "title": "Supercompensation"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Muscle_hypertrophy",
+   "title": "Muscle hypertrophy"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:36619355%20AND%20SRC:MED&resultType=core&format=json",
+   "title": "Europe PMC record: \"You can't shoot another bullet until you've reloaded the gun\": Coaches' percept"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:37730925%20AND%20SRC:MED&resultType=core&format=json",
+   "title": "Europe PMC record: Integrating Deloading into Strength and Physique Sports Training Programmes: An "
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:38499934%20AND%20SRC:MED&resultType=core&format=json",
+   "title": "Europe PMC record: Deloading Practices in Strength and Physique Sports: A Cross-sectional Survey (R"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:38274324%20AND%20SRC:MED&resultType=core&format=json",
+   "title": "Europe PMC record: Gaining more from doing less? The effects of a one-week deload period during sup"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:41730991%20AND%20SRC:MED&resultType=core&format=json",
+   "title": "Europe PMC record: Effects of deload periods in resistance training on muscle hypertrophy and stren"
+  }
+ ]
 }

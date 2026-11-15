@@ -1,81 +1,295 @@
 {
-  "name": "H. pylori treatment",
-  "card": {
-    "summary": "Antibiotic eradication of Helicobacter pylori, well established for ulcers and gastric cancer prevention, but not shown by trials to improve bad breath.",
-    "aka": "Helicobacter pylori eradication",
-    "evidence": "unproven",
-    "risk": "moderate",
-    "note": "Prescription antibiotic regimens requiring testing and medical supervision; resistance is a growing problem.",
-    "price": null
-  },
-  "quick": {
-    "overview": "Helicobacter pylori is a stomach bacterium carried by roughly half of the world's population, most of whom have no symptoms. Eradication therapy is standard medical treatment for ulcers and certain stomach conditions.\n\nIn breath discussions it is raised as a possible gastric cause of halitosis. Reference sources list bad breath only among general gastric symptoms and do not describe it as a direct effect of infection, and no trial found tests eradication for breath odour.",
-    "mechanism": "Treatment combines acid suppression, usually a proton-pump inhibitor, with antibiotics, commonly as a quadruple regimen, or a bismuth-based regimen where clarithromycin resistance is common. Success is confirmed afterwards by breath or stool antigen testing.",
-    "risks": "Antibiotic resistance is the main cause of treatment failure, and regimens have side effects. Guidelines recommend testing for infection before treatment and confirming eradication afterwards. These are prescription therapies decided by clinicians."
-  },
-  "lead": [
-    "Helicobacter pylori is a spiral gram-negative bacterium that colonises the stomach. Wikipedia reports that around half to two-thirds of people worldwide are infected, most without symptoms, and that infection can cause chronic gastritis, peptic ulcers, gastric cancer and gastric MALT lymphoma [1][2]. A 2023 Nature Reviews Disease Primers article describes it as usually acquired in childhood and persisting for life if untreated [3].",
-    "Eradication is recommended for ulcer disease and other specified conditions, with guidelines varying on treating all confirmed infections [1]. Randomised trials in high-risk populations, such as a 2004 JAMA trial in China, examined whether eradication reduces gastric cancer, and a 1993 Lancet report described regression of gastric MALT lymphoma after eradication [4][5].",
-    "In halitosis discussions, treating H. pylori is proposed as a gastric cause fix. The halitosis article in Wikipedia attributes most bad breath to the mouth, calls the stomach a very uncommon source according to most researchers, and does not mention H. pylori [6]. The H. pylori article lists bad breath only among general gastric symptoms and does not describe it as a direct effect of infection [1]. No trial found examines eradication therapy for breath odour."
+ "name": "H. pylori treatment",
+ "card": {
+  "summary": "Antibiotic eradication of Helicobacter pylori, well established for ulcers and gastric cancer prevention, but not shown by trials to improve bad breath.",
+  "aka": "Helicobacter pylori eradication",
+  "evidence": "unproven",
+  "risk": "moderate",
+  "note": "Prescription antibiotic regimens requiring testing and medical supervision; resistance is a growing problem.",
+  "price": null
+ },
+ "quick": {
+  "overview": "Helicobacter pylori is a stomach bacterium carried by roughly half of the world's population, most of whom have no symptoms. Eradication therapy is standard medical treatment for ulcers and certain stomach conditions.\n\nIn breath discussions it is raised as a possible gastric cause of halitosis. Reference sources list bad breath only among general gastric symptoms and do not describe it as a direct effect of infection, and no trial found tests eradication for breath odour.",
+  "mechanism": "Treatment combines acid suppression, usually a proton-pump inhibitor, with antibiotics, commonly as a quadruple regimen, or a bismuth-based regimen where clarithromycin resistance is common. Success is confirmed afterwards by breath or stool antigen testing.",
+  "risks": "Antibiotic resistance is the main cause of treatment failure, and regimens have side effects. Guidelines recommend testing for infection before treatment and confirming eradication afterwards. These are prescription therapies decided by clinicians."
+ },
+ "lead": [
+  "Helicobacter pylori is a spiral gram-negative bacterium that colonises the stomach. Wikipedia reports that around half to two-thirds of people worldwide are infected, most without symptoms, and that infection can cause chronic gastritis, peptic ulcers, gastric cancer and gastric MALT lymphoma [1][2]. A 2023 Nature Reviews Disease Primers article describes it as usually acquired in childhood and persisting for life if untreated [3].",
+  "Treating the infection with a course of acid-suppressing and antibiotic medicines is standard care for ulcer disease and other specified conditions [1]. Randomised trials in high-risk populations, such as a 2004 JAMA trial in China, examined whether eradication reduces gastric cancer, and a 1993 Lancet report described regression of gastric MALT lymphoma after eradication [4][5].",
+  "In appearance discussions the treatment comes up as a possible gastric contributor to persistent bad breath, which affects how close and confident a person feels in conversation. Most halitosis is described as arising in the mouth, and Wikipedia's halitosis article gives the stomach as a very uncommon source according to most researchers [6]. A 2016 meta-analysis of 21 studies and 5,062 participants found a statistical association between H. pylori infection and halitosis and reported lower halitosis rates after successful eradication, while its authors noted high heterogeneity and moderate study quality [14]."
+ ],
+ "infobox": [
+  [
+   "Condition treated",
+   "Helicobacter pylori infection"
   ],
-  "infobox": [
-    ["Condition treated", "Helicobacter pylori infection"],
-    ["Typical regimen type", "Proton-pump inhibitor plus antibiotics (quadruple or bismuth-based)"],
-    ["Confirmation of cure", "Urea breath test or stool antigen at least 30 days after treatment"],
-    ["Global infection", "About half to two-thirds of people (Wikipedia)"],
-    ["Status", "Prescription therapy"]
+  [
+   "Typical regimen type",
+   "Proton-pump inhibitor plus antibiotics (quadruple or bismuth-based)"
   ],
-  "sections": [
-    {
-      "h": "Medical uses",
-      "paras": [
-        "Eradication treats ulcer disease and gastritis, and a 2018 New England Journal of Medicine study examined it to prevent new gastric cancers after earlier treatment [7]. A 15-year follow-up of a Shandong trial reported effects of H. pylori treatment, garlic and vitamin supplements on gastric cancer incidence and mortality [8]. Earlier chemoprevention trials examined antioxidant supplements with anti-H. pylori therapy for precancerous lesions [9][10]."
-      ]
-    },
-    {
-      "h": "Treatment regimens and resistance",
-      "paras": [
-        "Wikipedia describes first-line quadruple therapy as a proton-pump inhibitor with amoxicillin, clarithromycin and metronidazole, with a 14-day bismuth-based regimen used where clarithromycin resistance is common, and newer options including vonoprazan-based therapy [1]. The Toronto Consensus of 2016 provides guidance for adults as treatment becomes more difficult [11]. Resistance is the main cause of initial failure, and the WHO listed H. pylori as a high-priority pathogen in 2018 [1][12].",
-        "Guidelines advise stopping proton-pump inhibitors and antibiotics at least 30 days before testing to avoid false negatives, and confirming eradication with a breath or stool antigen test [1]."
-      ]
-    },
-    {
-      "h": "Oral cavity and bad breath",
-      "paras": [
-        "Transmission is thought to be mainly oral, and the bacterium has been isolated from saliva and dental plaque, which may act as a reservoir [1]. Wikipedia's halitosis article reports that about 85 to 90 percent of genuine halitosis arises within the mouth and gives no trial evidence for H. pylori treatment as a breath treatment [6]."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found testing H. pylori eradication as a treatment for bad breath. Eradication trials concern gastric cancer, MALT lymphoma and precancerous lesions, and long-term follow-up of treated patients has been published [4][5][7][8][13]."
-      ]
-    }
+  [
+   "Confirmation of cure",
+   "Urea breath test or stool antigen at least 30 days after treatment"
   ],
-  "timeline": [
-    { "year": "1993", "event": "Lancet report of gastric MALT lymphoma regression after H. pylori eradication [5]" },
-    { "year": "2004", "event": "JAMA randomised trial of eradication to prevent gastric cancer in a high-risk region of China [4]" },
-    { "year": "2016", "event": "Toronto Consensus for treatment in adults [11]" },
-    { "year": "2018", "event": "WHO lists H. pylori as a high-priority pathogen for new drugs [1]" }
+  [
+   "Global infection",
+   "About half to two-thirds of people (Wikipedia)"
   ],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Helicobacter pylori (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Helicobacter_pylori", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Helicobacter pylori (Wikipedia), diseases", "url": "https://en.wikipedia.org/wiki/Helicobacter_pylori", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 3, "title": "Helicobacter pylori infection.", "url": "https://pubmed.ncbi.nlm.nih.gov/37081005/", "source": "Nature Reviews Disease Primers", "year": 2023, "type": "review" },
-    { "id": 4, "title": "Helicobacter pylori eradication to prevent gastric cancer in a high-risk region of China: a randomized controlled trial.", "url": "https://pubmed.ncbi.nlm.nih.gov/14722144/", "source": "JAMA", "year": 2004, "type": "trial" },
-    { "id": 5, "title": "Regression of primary low-grade B-cell gastric lymphoma of mucosa-associated lymphoid tissue type after eradication of Helicobacter pylori.", "url": "https://pubmed.ncbi.nlm.nih.gov/8102719/", "source": "Lancet", "year": 1993, "type": "study" },
-    { "id": 6, "title": "Halitosis (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Halitosis", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 7, "title": "Helicobacter pylori Therapy for the Prevention of Metachronous Gastric Cancer.", "url": "https://pubmed.ncbi.nlm.nih.gov/29562147/", "source": "New England Journal of Medicine", "year": 2018, "type": "trial" },
-    { "id": 8, "title": "Fifteen-year effects of Helicobacter pylori, garlic, and vitamin treatments on gastric cancer incidence and mortality.", "url": "https://pubmed.ncbi.nlm.nih.gov/22271764/", "source": "Journal of the National Cancer Institute", "year": 2012, "type": "trial" },
-    { "id": 9, "title": "Chemoprevention of gastric dysplasia: randomized trial of antioxidant supplements and anti-helicobacter pylori therapy.", "url": "https://pubmed.ncbi.nlm.nih.gov/11106679/", "source": "Journal of the National Cancer Institute", "year": 2000, "type": "trial" },
-    { "id": 10, "title": "Randomized double-blind factorial trial of three treatments to reduce the prevalence of precancerous gastric lesions.", "url": "https://pubmed.ncbi.nlm.nih.gov/16849680/", "source": "Journal of the National Cancer Institute", "year": 2006, "type": "trial" },
-    { "id": 11, "title": "The Toronto Consensus for the Treatment of Helicobacter pylori Infection in Adults.", "url": "https://pubmed.ncbi.nlm.nih.gov/27102658/", "source": "Gastroenterology", "year": 2016, "type": "guideline" },
-    { "id": 12, "title": "Helicobacter pylori infection and antibiotic resistance - from biology to clinical implications.", "url": "https://pubmed.ncbi.nlm.nih.gov/34002081/", "source": "Nature Reviews Gastroenterology & Hepatology", "year": 2021, "type": "review" },
-    { "id": 13, "title": "Long term follow up of patients treated for Helicobacter pylori infection.", "url": "https://pubmed.ncbi.nlm.nih.gov/15985559/", "source": "Gut", "year": 2005, "type": "study" }
+  [
+   "Discovery",
+   "Marshall and Warren, 1983; Nobel Prize 2005"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Helicobacter_pylori", "title": "Helicobacter pylori - Wikipedia" },
-    { "url": "https://en.wikipedia.org/wiki/Halitosis", "title": "Halitosis - Wikipedia" }
+  [
+   "Breath link",
+   "2016 meta-analysis of 21 studies reports an association with halitosis"
+  ],
+  [
+   "Status",
+   "Prescription therapy"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Medical uses",
+   "paras": [
+    "Eradication treats ulcer disease and gastritis, and a 2018 New England Journal of Medicine study examined it to prevent new gastric cancers after earlier treatment [7]. A 15-year follow-up of a Shandong trial reported effects of H. pylori treatment, garlic and vitamin supplements on gastric cancer incidence and mortality [8]. Earlier chemoprevention trials examined antioxidant supplements with anti-H. pylori therapy for precancerous lesions [9][10]. Wikipedia lists roughly 10 to 20 percent of infected people as developing peptic ulcers and 0.5 to 2 percent stomach cancer [1]."
+   ]
+  },
+  {
+   "h": "Treatment regimens and resistance",
+   "paras": [
+    "Wikipedia describes first-line quadruple therapy as a proton-pump inhibitor with amoxicillin, clarithromycin and metronidazole, with a 14-day bismuth-based regimen used where clarithromycin resistance is common, and newer options including vonoprazan-based therapy, approved in the US in 2022, and high-dose dual therapy [1]. The Toronto Consensus of 2016 provides guidance for adults as treatment becomes more difficult [11]. Resistance is the main cause of initial failure, and the WHO listed H. pylori as a high-priority pathogen in 2018 [1][12].",
+    "Wikipedia adds that probiotic yogurts containing Bifidobacteria and Lactobacillus have been reported to improve eradication rates, and that plant extracts are increasingly studied as add-ons [1]. Guidelines advise stopping proton-pump inhibitors and antibiotics at least 30 days before testing to avoid false negatives, and confirming eradication with a breath or stool antigen test [1]."
+   ]
+  },
+  {
+   "h": "Diagnosis",
+   "paras": [
+    "Wikipedia lists testing as recommended for peptic ulcer disease, low-grade gastric MALT lymphoma and certain other cases. Non-invasive options are antibody serology, stool tests and urea breath tests, in which labelled carbon appears as labelled carbon dioxide in exhaled breath; a 2025 review of 25 guidelines found the urea breath test the most consistently recommended first-line tool [1]. Endoscopic biopsy is the invasive option, and because low-level infections can be missed, multiple samples are advised [1]. Serology is not recommended to confirm eradication, since antibodies can stay elevated for years [1]."
+   ]
+  },
+  {
+   "h": "Oral cavity and bad breath",
+   "paras": [
+    "Transmission is thought to be mainly oral, and the bacterium has been isolated from saliva and dental plaque, which may act as a reservoir [1]. Wikipedia's halitosis article reports that about 85 to 90 percent of genuine halitosis arises within the mouth [6]. Researchers have debated whether H. pylori in the mouth, or in the stomach, contributes to breath odour; the 2016 meta-analysis authors state the mechanism remains unclear and that the oral link is unresolved [14].",
+    "Because most halitosis originates in the mouth, dental and tongue care is the usual first line described in references on breath, and clinicians typically look for oral, ear-nose-throat and systemic causes before attributing odour to the stomach [6][14]."
+   ]
+  },
+  {
+   "h": "Why it comes up in appearance and breath discussions",
+   "paras": [
+    "People concerned about persistent bad breath, bloating or a sour stomach sometimes ask whether an H. pylori infection could be behind it. Wikipedia's H. pylori article lists bad breath among symptoms that may accompany gastritis or ulcers, alongside heartburn and weight loss, without further detail [1]. The same article describes oral-to-oral transmission and says periodontal therapy has been proposed to improve eradication rates although more research is needed [1].",
+    "In appearance terms, breath is part of the impression a person gives in close conversation, which is why gastric causes are raised when dental care has not resolved the problem. Testing and treatment are medical decisions made with a clinician."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A 2016 meta-analysis in the journal Medicine pooled 21 articles published 1992 to 2015 (two case reports, one cross-sectional study, 13 case-control studies, four comparative quasi-experimental trials and one prospective open-label trial; 5,062 participants) [14]. H. pylori infection was more frequent in people with halitosis (odds ratio 4.03 across seven studies), and halitosis was more frequent in infected people (odds ratio 2.85 across nine studies) [14]. In three studies of 128 infected patients, halitosis was much less likely after successful than unsuccessful eradication (relative risk 0.17), and in five studies halitosis was about 4.8 times more likely before than after successful eradication [14].",
+    "The authors described clear evidence of a correlation and suggested eradication may help patients with refractory halitosis who have no oral, ear-nose-throat or systemic disease. They also reported moderate study quality, heterogeneity of 87 to 90 percent in three of the four analyses, no significant association in the two studies of children, and an unresolved mechanism [14]. Eradication trials for other purposes concern gastric cancer, MALT lymphoma and precancerous lesions, and long-term follow-up of treated patients has been published [4][5][7][8][13]."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1983",
+   "event": "Barry Marshall and Robin Warren describe H. pylori as the cause of gastric ulcers [1]."
+  },
+  {
+   "year": "1989",
+   "event": "Campylobacter pylori renamed Helicobacter pylori [1]."
+  },
+  {
+   "year": "1993",
+   "event": "Lancet report of gastric MALT lymphoma regression after H. pylori eradication [5]."
+  },
+  {
+   "year": "2004",
+   "event": "JAMA randomised trial of eradication to prevent gastric cancer in a high-risk region of China [4]."
+  },
+  {
+   "year": "2005",
+   "event": "Marshall and Warren share the Nobel Prize in Physiology or Medicine [1]."
+  },
+  {
+   "year": "2016",
+   "event": "Toronto Consensus for treatment in adults; meta-analysis of H. pylori and halitosis published [11][14]."
+  },
+  {
+   "year": "2018",
+   "event": "WHO lists H. pylori as a high-priority pathogen for new drugs [1]."
+  },
+  {
+   "year": "2022",
+   "event": "Vonoprazan approved in the US, used in newer regimens [1]."
+  }
+ ],
+ "lore": {
+  "intro": "Persistent bad breath is discussed in oral-care and health communities, and stomach bacteria are one of the causes people raise alongside tonsil stones, tongue coating and gum disease.",
+  "claims": [
+   {
+    "claim": "Treating H. pylori can cure stubborn bad breath that brushing does not fix",
+    "believers": "Proponents of a gastric cause point to cases where breath improved after eradication therapy, and to meta-analytic results [14].",
+    "experts": "The 2016 meta-analysis found lower halitosis after successful eradication but reported high heterogeneity and moderate quality, and concluded eradication may help selected refractory cases [14].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Most bad breath comes from the stomach",
+    "believers": "Some people attribute breath odour to digestion and reflux.",
+    "experts": "Wikipedia's halitosis article reports that roughly 85 to 90 percent of genuine halitosis arises in the mouth and that the stomach is a very uncommon source according to most researchers [6].",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "H. pylori in the mouth or dental plaque is a reservoir that can affect treatment",
+    "believers": "Dental-health discussions suggest oral hygiene or periodontal care may help clearance.",
+    "experts": "Wikipedia reports the bacterium has been isolated from saliva and plaque and that periodontal therapy has been proposed to improve eradication rates, with more research needed [1].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Probiotics or plant extracts can help eradicate the bacterium",
+    "believers": "Users of natural approaches describe adding probiotics alongside antibiotic regimens.",
+    "experts": "Wikipedia reports probiotic yogurts with Bifidobacteria and Lactobacillus have been shown to improve eradication rates and that plant extracts are increasingly used as add-ons [1].",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Helicobacter pylori (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Helicobacter_pylori",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Helicobacter pylori (Wikipedia), diseases",
+   "url": "https://en.wikipedia.org/wiki/Helicobacter_pylori",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Helicobacter pylori infection.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37081005/",
+   "source": "Nature Reviews Disease Primers",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Helicobacter pylori eradication to prevent gastric cancer in a high-risk region of China: a randomized controlled trial.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14722144/",
+   "source": "JAMA",
+   "year": 2004,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "Regression of primary low-grade B-cell gastric lymphoma of mucosa-associated lymphoid tissue type after eradication of Helicobacter pylori.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8102719/",
+   "source": "Lancet",
+   "year": 1993,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Halitosis (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Halitosis",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 7,
+   "title": "Helicobacter pylori Therapy for the Prevention of Metachronous Gastric Cancer.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29562147/",
+   "source": "New England Journal of Medicine",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Fifteen-year effects of Helicobacter pylori, garlic, and vitamin treatments on gastric cancer incidence and mortality.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22271764/",
+   "source": "Journal of the National Cancer Institute",
+   "year": 2012,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Chemoprevention of gastric dysplasia: randomized trial of antioxidant supplements and anti-helicobacter pylori therapy.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11106679/",
+   "source": "Journal of the National Cancer Institute",
+   "year": 2000,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Randomized double-blind factorial trial of three treatments to reduce the prevalence of precancerous gastric lesions.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16849680/",
+   "source": "Journal of the National Cancer Institute",
+   "year": 2006,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "The Toronto Consensus for the Treatment of Helicobacter pylori Infection in Adults.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27102658/",
+   "source": "Gastroenterology",
+   "year": 2016,
+   "type": "guideline"
+  },
+  {
+   "id": 12,
+   "title": "Helicobacter pylori infection and antibiotic resistance - from biology to clinical implications.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34002081/",
+   "source": "Nature Reviews Gastroenterology & Hepatology",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 13,
+   "title": "Long term follow up of patients treated for Helicobacter pylori infection.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15985559/",
+   "source": "Gut",
+   "year": 2005,
+   "type": "study"
+  },
+  {
+   "id": 14,
+   "title": "Halitosis and Helicobacter pylori infection: A meta-analysis",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5265885",
+   "source": "Medicine",
+   "year": 2016,
+   "type": "review"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Helicobacter_pylori",
+   "title": "Helicobacter pylori - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Halitosis",
+   "title": "Halitosis - Wikipedia"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5265885",
+   "title": "Halitosis and Helicobacter pylori infection: A meta-analysis"
+  }
+ ],
+ "angle": {
+  "goal": "Breath / oral and digestive comfort",
+  "chain": [
+   "Testing identifies H. pylori infection",
+   "Prescribed eradication therapy clears the bacterium",
+   "Gastric-origin breath odour, where present, may lessen",
+   "Fresher breath in close conversation"
+  ],
+  "effect": "indirect",
+  "text": "People who have persistent bad breath that dental care has not resolved sometimes ask clinicians about stomach causes, and H. pylori is one tested for. A 2016 meta-analysis reported lower halitosis after successful eradication in infected patients, so treatment is discussed as a route to fresher breath for the subset whose breath odour is linked to the infection [14]."
+ }
 }

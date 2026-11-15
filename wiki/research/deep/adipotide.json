@@ -1,22 +1,171 @@
 {
-"name":"Adipotide",
-"lead":["Adipotide (also called prohibitin-targeting peptide 1, FTPP or TP01) is an experimental peptidomimetic designed to bind prohibitin and annexin A2 on the blood vessels feeding white fat, inducing the death of those vessels and, in turn, fat tissue.[4]","In a 2011 study in obese rhesus monkeys, treatment reduced body weight and improved insulin resistance.[1] A 2012 published comment proposed the weight loss might instead reflect reduced food intake.[3] Wikipedia lists its status as investigational, with clinical development discontinued as of 2019.[4] No human trial results are published."],
-"infobox":[["Also known as","Prohibitin-TP01, FTPP"],["Type","Proapoptotic peptidomimetic"],["Status","Investigational; development discontinued (2019 per Wikipedia)"],["Human data","None found"]],
-"sections":[
-{"h":"Pharmacology","paras":["The compound fuses a fat-vasculature-homing motif to a proapoptotic peptide, aiming to damage vessels supplying white adipose tissue.[1][4] Nanoparticle approaches targeting the same marker, prohibitin, have been compared with the peptide conjugate in mice.[2]"]},
-{"h":"Preclinical research","paras":["The 2011 Science Translational Medicine study reported weight loss and improved insulin resistance in obese monkeys.[1] A commentary in the same journal argued that the effect could reflect a direct reduction in food consumption.[3]"]},
-{"h":"Clinical studies","paras":["No studies found. Published work is limited to animal studies."]},
-{"h":"Society and culture","paras":["Adipotide is sold online as a research peptide and is not an approved medicine. It is discussed in fat-loss communities, though no human data support its use."]}
-],
-"timeline":[{"year":"2011","event":"Monkey study published.[1]"},{"year":"2012","event":"Comment questions the mechanism of weight loss.[3]"},{"year":"2013","event":"Comparison of nanoparticle and conjugate approaches.[2]"}],
-"lore":null,
-"refs":[
-{"id":1,"title":"A peptidomimetic targeting white fat causes weight loss and improved insulin resistance in obese monkeys","url":"https://pubmed.ncbi.nlm.nih.gov/22072637/","source":"Science Translational Medicine","year":2011,"type":"study"},
-{"id":2,"title":"A comparative study between nanoparticle-targeted therapeutics and bioconjugates as obesity medication","url":"https://pubmed.ncbi.nlm.nih.gov/23871959/","source":"J Controlled Release","year":2013,"type":"study"},
-{"id":3,"title":"Comment on 'a peptidomimetic targeting white fat...'","url":"https://pubmed.ncbi.nlm.nih.gov/22539771/","source":"Science Translational Medicine","year":2012,"type":"study"},
-{"id":4,"title":"Prohibitin-targeting peptide 1","url":"https://en.wikipedia.org/wiki/Adipotide","source":"Wikipedia","year":2026,"type":"encyclopedia"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Adipotide","title":"Prohibitin-targeting peptide 1 (Adipotide) - Wikipedia"}],
-"card":{"summary":"Experimental fat-vessel-targeting peptide that cut weight in monkeys; no human data and development stopped.","aka":"Prohibitin-TP01, FTPP","evidence":"unproven","status":"research","risk":"high","price":null,"note":"Animal data only; clinical development reported discontinued.","structure":null},
-"quick":{"overview":"Adipotide is an experimental peptide designed to destroy the blood vessels that feed white fat. Obese monkeys lost weight in a 2011 study.\n\nA later comment suggested reduced eating could explain part of the effect. No human results exist.","mechanism":"It binds prohibitin on fat blood vessels and triggers cell death in them, starving fat tissue.","risks":"Human safety is unknown, and it is not approved. Clinical development was reported discontinued."}
+ "name": "Adipotide",
+ "lead": [
+  "Adipotide (also called prohibitin-targeting peptide 1, prohibitin-TP01, FTPP or TP01) is an experimental peptidomimetic designed to bind prohibitin and annexin A2 on the blood vessels that feed white fat, causing those vessels to shrink and the fat tissue they supply to die by apoptosis.[4] In fat-loss and recovery communities it is discussed as a research peptide with the aim of reducing body fat, which would show as a leaner face and physique; the human use itself has not been studied.",
+  "In a 2011 study in obese rhesus monkeys, treatment reduced body weight and improved insulin resistance, with imaging confirming a marked reduction in white adipose tissue; the same study reported predictable and reversible changes in kidney proximal tubule function at the doses tested.[1] A 2012 published comment proposed that the weight loss might instead reflect reduced food intake.[3] Wikipedia lists its status as investigational, with clinical development discontinued as of 2019.[4] No human trial results are published."
+ ],
+ "infobox": [
+  [
+   "Also known as",
+   "Prohibitin-TP01, TP01, FTPP[4]"
+  ],
+  [
+   "Type",
+   "Proapoptotic peptidomimetic"
+  ],
+  [
+   "Sequence",
+   "CKGGRAKDC-GG-D(KLAKLAK)2[4]"
+  ],
+  [
+   "Targets",
+   "Prohibitin and annexin A2 on white-fat blood vessels[4]"
+  ],
+  [
+   "CAS number",
+   "859216-15-2[4]"
+  ],
+  [
+   "Status",
+   "Investigational; development discontinued (2019 per Wikipedia)[4]"
+  ],
+  [
+   "Human data",
+   "None published"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Pharmacology",
+   "paras": [
+    "The compound fuses a fat-vasculature-homing motif (CKGGRAKDC) to a proapoptotic peptide, D(KLAKLAK)2, joined by a short linker, aiming to damage the vessels supplying white adipose tissue.[1][4] Wikipedia lists its receptors as annexin A2 and prohibitin, which are present on those vessels, and describes the downstream effect as shrinkage of the vessels and death of the fat cells they feed.[4]",
+    "Nanoparticle approaches targeting prohibitin have been compared with the peptide conjugate in diet-induced obese mice. A 2013 study reported that a low dose of a prohibitin-targeted nanoparticle carrying the proapoptotic peptide reduced body weight and serum leptin and ectopic fat in liver and muscle, in contrast with the bioconjugate (adipotide), with no detectable hepatotoxicity.[2]"
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Wikipedia cites a 2004 Nature Medicine paper by Kolonin, Saha, Chan, Pasqualini and Arap describing targeted ablation of adipose tissue in mice, which reported rapid weight loss, and a 2011 Science Translational Medicine paper by Barnhart and colleagues in monkeys.[4] A related 2011 PNAS paper by Staquicini and colleagues is also cited.[4] Clinical development was reported as discontinued in 2019.[4]"
+   ]
+  },
+  {
+   "h": "Preclinical research",
+   "paras": [
+    "The 2011 Science Translational Medicine study evaluated adipotide in obese Old World monkeys. Treatment induced apoptosis within the blood vessels of white fat and led to rapid weight loss and improved insulin resistance, confirmed by MRI and DEXA scanning. At experimentally determined optimal doses, monkeys from three species showed predictable and reversible changes in renal proximal tubule function.[1] The authors described adipotide as a prototype for a new class of candidate anti-obesity drugs.[1]",
+    "A commentary in the same journal argued that the effect could reflect a direct reduction in food consumption.[3] A 2025 paper in the Journal of the American Chemical Society reported a new generation of prohibitin peptides, including one made from prohibitin-TP01 substituted with D-arginine, that reduced body weight in a high-fat-diet mouse model and were described as having favourable preclinical safety profiles; the authors proposed mitochondrial uncoupling as part of the mechanism.[5]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found in humans. Published work is limited to animal studies and laboratory research in mice and monkeys.[1][2][5]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Adipotide is not an approved medicine; Wikipedia classifies it as an investigational, abandoned experimental anti-obesity drug.[4] It is sold online as a research peptide and is discussed in fat-loss communities, although no human data exist to describe its effects or safety in people."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2004",
+   "event": "Mouse study of targeted ablation of adipose tissue published in Nature Medicine.[4]"
+  },
+  {
+   "year": "2011",
+   "event": "Monkey study published in Science Translational Medicine.[1]"
+  },
+  {
+   "year": "2012",
+   "event": "Comment questions whether weight loss reflects reduced food intake.[3]"
+  },
+  {
+   "year": "2013",
+   "event": "Comparison of nanoparticle and conjugate approaches in obese mice.[2]"
+  },
+  {
+   "year": "2019",
+   "event": "Clinical development reported discontinued.[4]"
+  },
+  {
+   "year": "2025",
+   "event": "Mixed-chirality prohibitin peptides reported in a mouse obesity model.[5]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "A peptidomimetic targeting white fat causes weight loss and improved insulin resistance in obese monkeys",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22072637/",
+   "source": "Science Translational Medicine",
+   "year": 2011,
+   "type": "study"
+  },
+  {
+   "id": 2,
+   "title": "A comparative study between nanoparticle-targeted therapeutics and bioconjugates as obesity medication",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23871959/",
+   "source": "J Controlled Release",
+   "year": 2013,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Comment on 'a peptidomimetic targeting white fat...'",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22539771/",
+   "source": "Science Translational Medicine",
+   "year": 2012,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Prohibitin-targeting peptide 1",
+   "url": "https://en.wikipedia.org/wiki/Adipotide",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 5,
+   "title": "Mixed-Chirality Prohibitin Peptide: D-(RLARLAR)2 Enhances Stability and In Vivo Effects on Obesity",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40591817/",
+   "source": "Journal of the American Chemical Society",
+   "year": 2025,
+   "type": "study"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Adipotide",
+   "title": "Prohibitin-targeting peptide 1 (Adipotide) - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "Experimental fat-vessel-targeting peptide that cut weight in monkeys; no human data and development stopped.",
+  "aka": "Prohibitin-TP01, FTPP",
+  "evidence": "unproven",
+  "status": "research",
+  "risk": "high",
+  "price": null,
+  "note": "Animal data only; clinical development reported discontinued.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Adipotide is an experimental peptide designed to destroy the blood vessels that feed white fat. Obese monkeys lost weight in a 2011 study.\n\nA later comment suggested reduced eating could explain part of the effect. No human results exist.",
+  "mechanism": "It binds prohibitin on fat blood vessels and triggers cell death in them, starving fat tissue.",
+  "risks": "Human safety is unknown, and it is not approved. Clinical development was reported discontinued."
+ },
+ "angle": {
+  "goal": "Fat loss",
+  "chain": [
+   "Peptide binds prohibitin and annexin A2 on blood vessels feeding white fat",
+   "Those vessels undergo apoptosis and the fat tissue they supply shrinks",
+   "Lower body fat gives a leaner face and physique"
+  ],
+  "effect": "claimed",
+  "text": "Adipotide is discussed as a way to reduce body fat for a leaner look. Its fat-reducing effect has been shown only in animal studies, in obese mice and monkeys."
+ }
 }

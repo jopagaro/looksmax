@@ -1,21 +1,234 @@
 {
-"name":"Moxi laser",
-"lead":["Moxi is a light fractional laser treatment from Sciton that uses a 1927-nm wavelength, as indicated by registered studies describing a fractionated 1927-nm laser and a trial combining BBL, Moxi (fractionated 1927) and Halo.[1] It is used in clinics for pigmentation, sun damage and skin texture.",
-"Published evidence is small. A 2023 study examined a fractionated 1927-nm laser for diffuse dyspigmentation and actinic changes[2], and two completed registered studies tested the wavelength for diffuse pigmentation (30 participants) and for hyperpigmentation in Fitzpatrick skin types V and VI (15 participants).[3][4] Fractional lasers treat columns of skin and leave surrounding tissue intact, and are described as lighter than ablative resurfacing."],
-"infobox":[["Type","Fractionated non-ablative laser"],["Wavelength","1927 nm"],["Manufacturer","Sciton"],["Typical uses","Pigment, sun damage, texture"],["Setting","Professional / clinic"]],
-"sections":[
-{"h":"Uses","paras":["Registered studies list skin pigment, diffuse pigmentation, actinic changes and hyperpigmentation.[2][3][4] In practice it is often combined with BBL and Halo in a single session, as in a 15-person pilot.[1]"]},
-{"h":"Clinical studies","paras":["NCT05226104 is a completed 30-participant study of fractionated 1927 nm laser for diffuse pigmentation and actinic changes, and NCT05493280 is a completed 15-participant study in darker skin types.[3][4] A published 2023 study reports on diffuse dyspigmentation and actinic changes.[2] The studies are small, and registry entries here do not summarise outcomes or adverse events."]}
-],
-"timeline":[],
-"lore":null,
-"refs":[
-{"id":1,"title":"NCT06091215 Combining BBL, Fractionated 1927 (MOXI) and Dual Wavelength 2940/1470 (HALO)","url":"https://clinicaltrials.gov/study/NCT06091215","source":"ClinicalTrials.gov","year":2024,"type":"trial"},
-{"id":2,"title":"Investigating the efficacy of a fractionated 1927 nm laser for diffuse dyspigmentation and actinic changes","url":"https://pubmed.ncbi.nlm.nih.gov/36950878/","source":"Lasers in Surgery and Medicine","year":2023,"type":"study"},
-{"id":3,"title":"NCT05226104 Fractionated 1927nm Laser for Diffuse Pigmentation and Actinic Changes","url":"https://clinicaltrials.gov/study/NCT05226104","source":"ClinicalTrials.gov","year":2022,"type":"trial"},
-{"id":4,"title":"NCT05493280 Fractionated 1927nm Laser for Hyperpigmentation in Fitzpatrick Skin Phototypes V and VI","url":"https://clinicaltrials.gov/study/NCT05493280","source":"ClinicalTrials.gov","year":2022,"type":"trial"}
-],
-"webSources":[],
-"card":{"summary":"Sciton's light fractional 1927-nm laser for pigment and sun damage; only small studies exist.","aka":"Moxi, fractionated 1927 nm","evidence":"limited","status":null,"outcome":null,"risk":"moderate","price":null,"note":"Thin evidence; clinic-only procedure.","structure":null},
-"quick":{"overview":"Moxi is a light fractional laser on the Sciton platform that works at 1927 nm. Clinics use it for brown spots, sun damage and texture.\n\nPublished studies are small, with 15 to 30 participants in the registered ones.","mechanism":"It treats a pattern of microscopic zones of skin, which are then replaced during healing, leaving skin between them intact.","risks":"Studies do not summarise adverse effects in the registry entries; pigment changes are a general concern with lasers, particularly in darker skin."}
+ "name": "Moxi laser",
+ "lead": [
+  "Moxi is a fractionated, non-ablative laser treatment from Sciton that emits light at 1927 nm, a thulium wavelength absorbed mainly in the upper layers of the skin. Clinics offer it to even out skin tone, fade sun-related brown spots and smooth surface texture, which is why it appears in looks-oriented skin routines: the aim is clearer, more uniform-looking skin with a short recovery.[2][5] Sciton describes it as suitable for the face and body with little to no downtime.[10]",
+  "The laser treats a pattern of microscopic columns of skin and leaves the tissue between them untouched, so healing is faster than after fully ablative resurfacing. In practice Moxi is often combined in one visit with intense pulsed light (BBL) and a dual-wavelength 2940/1470 nm laser (Halo), a trio described in a registered pilot study and a published single-case imaging review.[1][4]",
+  "Published research on 1927 nm fractional lasers includes a randomized split-face trial of 20 people, a 24-person trial in sun-damaged skin with actinic keratoses, a small seborrheic keratosis series, a 2023 prospective study of the Moxi device itself, and two completed registered studies of 30 and 15 participants.[3][5][6][7][8]"
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Fractionated non-ablative thulium laser"
+  ],
+  [
+   "Wavelength",
+   "1927 nm"
+  ],
+  [
+   "Manufacturer",
+   "Sciton (Moxi platform)"
+  ],
+  [
+   "Typical uses",
+   "Pigment, sun damage, texture, photorejuvenation"
+  ],
+  [
+   "Common pairings",
+   "BBL (intense pulsed light), Halo (2940/1470 nm)"
+  ],
+  [
+   "Setting",
+   "Professional / clinic"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Uses",
+   "subs": [
+    {
+     "h": "Cosmetic / appearance uses",
+     "paras": [
+      "Studies and registrations list diffuse dyspigmentation, solar lentigines, melasma-type pigment, texture, fine lines and general photorejuvenation as the reasons people are treated.[2][5][8] A 2023 prospective study of the Moxi device enrolled Fitzpatrick phototypes I to IV and gave two treatments one month apart, then measured pigment and photodamage response over time.[5]",
+      "Because the wavelength is absorbed superficially, proponents and investigators describe it as suited to epidermal concerns such as brown spots, while deeper wrinkles and laxity are the territory of other devices.[5]"
+     ]
+    },
+    {
+     "h": "Medical uses",
+     "paras": [
+      "The same wavelength has been studied for precancerous actinic keratoses on the face and for macular seborrheic keratoses on the extremities, neck and chest.[6][7]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Design and how it works",
+   "paras": [
+    "Fractional lasers deliver energy in a grid of tiny zones. The surrounding skin acts as a reservoir for rapid repair, and the treated micro-columns are replaced as the skin renews itself.[5] The 1927 nm thulium fiber wavelength is strongly absorbed by water in the epidermis, so energy is concentrated in the top layers rather than deep dermis.[5][6]",
+    "Device settings such as energy per zone and surface coverage are chosen by the treating clinician; a seborrheic keratosis study, for example, used 10 to 20 mJ with 30 to 55 percent coverage across several passes.[7]"
+   ]
+  },
+  {
+   "h": "Manufacturer description and treatment experience",
+   "paras": [
+    "Sciton describes Moxi as a non-ablative 1927 nm laser that targets water within cells and works with the body's natural healing, creating micro-coagulation zones that prompt wound-healing and collagen production.[10] The company lists pigmentation and sun damage, uneven tone, texture and visible signs of ageing among the concerns it treats, states that it can be used on the face and body, and lists downtime as little to none.[10]",
+    "According to the same page, a session takes roughly 8 to 10 minutes, some people see results after a single treatment, and two to four sessions are recommended.[10] That description of a short, repeated series fits the published studies, where two to four sessions were spaced about a month apart.[3][5][6][7][8] Patients in the studies described erythema and mild swelling that settled within days, and the split-face trial collected daily healing diaries for two weeks after each session.[7][8]"
+   ]
+  },
+  {
+   "h": "Place among other laser treatments",
+   "paras": [
+    "Clinicians distinguish ablative resurfacing, which removes the whole surface, from fractional approaches that treat a grid and spare the skin between the zones.[5] Moxi sits at the gentler end of that range: the 1927 nm wavelength acts mostly in the epidermis and upper dermis, so it is discussed for tone and pigment, while deeper wrinkles and laxity are treated with other wavelengths or devices.[5][6] The registered pilot that combines intense pulsed light, Moxi and the 2940/1470 nm Halo laser reflects how clinics layer superficial and deeper treatments in a single appointment.[1]",
+    "The split-face comparison with a fractionated picosecond laser found the two devices improved elastosis, erythema, keratosis, dyschromia and texture to a similar degree, with differences mainly in how each side felt during healing.[8]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A randomized, double-blind, split-face trial in 20 people compared a fractionated picosecond 1064/532 nm laser with a fractionated 1927 nm thulium fiber laser. Each face half received three treatments at one-month intervals and was assessed by blinded investigators at 1, 3 and 6 months. Both sides improved significantly in elastosis, erythema, keratosis, dyschromia and texture, with no significant difference in efficacy; patient diaries differed in tolerability during healing.[8]",
+    "A prospective trial in 24 people with facial photodamage and actinic keratoses used up to four 1927 nm treatments. At 6 months an independent physician count showed an 86.6 percent reduction in lesions, and participants reported marked or noticeable improvement in photodamage. The authors noted follow-up ended at 6 months.[6]",
+    "In six people with macular seborrheic keratoses, three treatments at 3- to 4-week intervals reduced the average lesion count from 43.2 to 14.7 at 6 months, with moderate erythema and mild swelling afterwards.[7]",
+    "The 2023 Lasers in Surgery and Medicine study treated phototypes I to IV with two Moxi sessions and quantified the size and duration of the pigment and photodamage response in a single-center, nonrandomized design.[5]",
+    "Two completed registered studies examined the wavelength for diffuse pigmentation and actinic changes (30 participants, started 2022) and for hyperpigmentation in Fitzpatrick types V and VI (15 participants, started 2022).[3][4] A registered pilot (NCT06091215) combined BBL, Moxi and Halo, and a 2026 single-case review used multispectral imaging on a 49-year-old with phototype III after such a combination, quantifying spots, texture, pores and wrinkles at baseline and 3 months.[1][9]"
+   ]
+  },
+  {
+   "h": "Safety and risks",
+   "paras": [
+    "In the studies described, expected effects were erythema and mild swelling that settled during healing; the split-face trial recorded daily healing diaries for 14 days after each session.[7][8] Laser treatments in general carry a risk of pigment change, particularly in darker skin, which is why studies in Fitzpatrick types V and VI are registered separately.[4] Clinicians commonly advise sun protection during recovery."
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Moxi is sold by Sciton and delivered by dermatology and aesthetic clinics, frequently marketed in combination sessions with BBL and Halo as a low-downtime option for skin refresh before events or as part of maintenance routines.[1][4] Published results come largely from small single-center studies, some with manufacturer-related authors or devices, and registry entries for the 2022 studies do not summarise outcomes."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2012",
+   "event": "A 1927 nm fractional thulium laser is reported in a six-person seborrheic keratosis study.[7]"
+  },
+  {
+   "year": "2013",
+   "event": "A 24-person trial reports 86.6% actinic keratosis clearance at 6 months.[6]"
+  },
+  {
+   "year": "2021",
+   "event": "Randomized split-face trial compares 1927 nm with fractionated picosecond laser.[8]"
+  },
+  {
+   "year": "2022",
+   "event": "Registered studies of 1927 nm laser for pigmentation begin, including one in skin types V and VI.[3][4]"
+  },
+  {
+   "year": "2023",
+   "event": "Prospective Moxi study on dyspigmentation and actinic changes published.[5]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "NCT06091215 Combining BBL, Fractionated 1927 (MOXI) and Dual Wavelength 2940/1470 (HALO)",
+   "url": "https://clinicaltrials.gov/study/NCT06091215",
+   "source": "ClinicalTrials.gov",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 2,
+   "title": "Investigating the efficacy of a fractionated 1927 nm laser for diffuse dyspigmentation and actinic changes",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36950878/",
+   "source": "Lasers in Surgery and Medicine",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "NCT05226104 Fractionated 1927nm Laser for Diffuse Pigmentation and Actinic Changes",
+   "url": "https://clinicaltrials.gov/study/NCT05226104",
+   "source": "ClinicalTrials.gov",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "NCT05493280 Fractionated 1927nm Laser for Hyperpigmentation in Fitzpatrick Skin Phototypes V and VI",
+   "url": "https://clinicaltrials.gov/study/NCT05493280",
+   "source": "ClinicalTrials.gov",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "Investigating the efficacy of a fractionated 1927 nm laser for diffuse dyspigmentation and actinic changes (details)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36950878/",
+   "source": "Lasers in Surgery and Medicine",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "1927-nm fractional resurfacing of facial actinic keratoses",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23041112/",
+   "source": "J Am Acad Dermatol",
+   "year": 2013,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Treatment of macular seborrheic keratoses using a novel 1927-nm fractional thulium fiber laser",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22563723/",
+   "source": "Dermatologic Surgery",
+   "year": 2012,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Split-face comparison of fractionated picosecond 1064/532 nm and fractionated 1927 nm thulium fiber lasers",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32285983/",
+   "source": "Lasers in Surgery and Medicine",
+   "year": 2021,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Use of VISIA-CR Generation 5 in Aesthetic Skin Assessment: A Single-Case Review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41873406/",
+   "source": "Aesthetic Surgery Journal Open Forum",
+   "year": 2026,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Moxi - Sciton",
+   "url": "https://www.sciton.com/moxi/",
+   "source": "Sciton",
+   "year": 2025,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://www.sciton.com/moxi/",
+   "title": "Moxi - Sciton"
+  }
+ ],
+ "card": {
+  "summary": "Sciton's light fractional 1927-nm laser for pigment and sun damage; only small studies exist.",
+  "aka": "Moxi, fractionated 1927 nm",
+  "evidence": "limited",
+  "status": null,
+  "outcome": null,
+  "risk": "moderate",
+  "price": null,
+  "note": "Thin evidence; clinic-only procedure.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Moxi is a light fractional laser on the Sciton platform that works at 1927 nm. Clinics use it for brown spots, sun damage and texture.\n\nPublished studies are small, with 15 to 30 participants in the registered ones.",
+  "mechanism": "It treats a pattern of microscopic zones of skin, which are then replaced during healing, leaving skin between them intact.",
+  "risks": "Studies do not summarise adverse effects in the registry entries; pigment changes are a general concern with lasers, particularly in darker skin."
+ },
+ "angle": {
+  "goal": "Skin tone and texture",
+  "chain": [
+   "Fractionated 1927 nm light treats columns of upper skin",
+   "Pigmented, sun-damaged epidermis is replaced during healing",
+   "More even tone and smoother surface texture"
+  ],
+  "effect": "direct",
+  "text": "People use Moxi to reduce diffuse brown pigment, sun-related spotting and roughness on the face, neck and chest. Treatments are typically repeated at about monthly intervals in studies, with a few days of visible redness and flaking afterwards."
+ }
 }

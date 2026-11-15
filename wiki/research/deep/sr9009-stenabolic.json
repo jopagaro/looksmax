@@ -1,10 +1,36 @@
 {
  "name": "SR9009 (Stenabolic)",
+ "card": {
+  "summary": "A REV-ERB clock-receptor agonist sold as Stenabolic for endurance and cutting; mouse data only, nothing in humans, and a liver-injury case report.",
+  "aka": "Stenabolic",
+  "evidence": "unproven",
+  "status": "research",
+  "outcome": null,
+  "risk": null,
+  "price": null,
+  "note": "Not a SARM despite the label; no human trials; liver injury case reported.",
+  "structure": "SR9009"
+ },
+ "quick": {
+  "overview": "SR9009 (Stenabolic) is a lab compound that switches on REV-ERB, receptors that tie the body clock to metabolism. It is sold online for endurance and fat loss and is often called a SARM, though research classifies it differently.\n\nAll published work is in cells and animals. No human trial has tested it for appearance or performance.",
+  "mechanism": "It activates REV-ERBα and REV-ERBβ, which repress clock and metabolic genes. Several studies report effects that appear independent of REV-ERB, so its mechanism is not settled.",
+  "risks": "Human safety is unestablished. A 2025 case report describes liver injury after starting a product sold as Stenabolic. It is not an approved drug, and users often combine it with other compounds, which confounds any reported effects."
+ },
  "lead": [
-  "SR9009, sold under the name Stenabolic, is a synthetic small molecule that activates REV-ERB, a pair of nuclear receptors (REV-ERBα and REV-ERBβ) that help run the body's circadian clock and regulate metabolism and inflammation. It was developed as a laboratory tool compound and has been studied in cells and animals; it is not an approved medicine anywhere. [3][5][7]",
-  "In bodybuilding and fitness forums it is marketed and discussed as an endurance, fat-loss and \"SARM-adjacent\" product, often stacked with other research compounds such as Cardarine. [11][12][13] Published research, however, classifies it as a REV-ERB agonist rather than a selective androgen receptor modulator, and the evidence base consists of preclinical studies in rodents and cell lines. [3][4][7]",
-  "No published human clinical trial has tested SR9009 for fat loss, endurance or muscle. A 2025 case report described drug-induced liver injury in a man who had started a product sold as Stenabolic, and several studies have reported effects of SR9009 that appear independent of REV-ERB, complicating interpretation of the animal data. [7][8][9][10]"
+  "SR9009, sold under the name Stenabolic, is a synthetic small molecule that activates REV-ERB, a pair of nuclear receptors (REV-ERBα and REV-ERBβ) that help run the body's circadian clock and regulate metabolism and inflammation. It was developed at the Scripps Research Institute as a laboratory tool compound and has been studied in cells and animals; it is not an approved medicine anywhere. [3][5][24][25]",
+  "People take an interest in it for body composition and training. In the original mouse work, REV-ERB activation raised energy expenditure and reduced fat mass in diet-induced obese animals, and later mouse work reported greater exercise capacity linked to more mitochondria in skeletal muscle. [24][25] In bodybuilding and fitness forums it is marketed and discussed as an endurance, fat-loss and \"SARM-adjacent\" product, often stacked with other research compounds such as Cardarine, to get leaner and make muscle definition more visible. [11][12][13]",
+  "Published research classifies it as a REV-ERB agonist rather than a selective androgen receptor modulator, and the evidence base consists of preclinical studies in rodents and cell lines. [3][4][24] No published human clinical trial has tested SR9009 for fat loss, endurance or muscle. A 2025 case report described drug-induced liver injury in a man who had started a product sold as Stenabolic, and several studies have reported effects of SR9009 that appear independent of REV-ERB, complicating interpretation of the animal data. [7][8][9][10]"
  ],
+ "angle": {
+  "goal": "Leaner physique and training capacity",
+  "chain": [
+   "Activates REV-ERB clock receptors",
+   "In mice: higher energy expenditure, more muscle mitochondria, less fat",
+   "Claimed: more endurance and a leaner, more defined look"
+  ],
+  "effect": "claimed",
+  "text": "Users take it with the aim of cutting body fat and training harder, reasoning from mouse studies in which REV-ERB activation increased energy expenditure and exercise capacity. Posters describe adding it to cutting phases to make abs and chest definition more visible. These outcomes have been measured in animals, not in people."
+ },
  "infobox": [
   [
    "Drug class",
@@ -15,8 +41,20 @@
    "Stenabolic; sometimes mislabelled as a SARM"
   ],
   [
+   "Developed at",
+   "Scripps Research Institute (Thomas Burris) [24]"
+  ],
+  [
+   "Potency (in vitro)",
+   "IC50 about 670 nM (REV-ERBα), 800 nM (REV-ERBβ) [24]"
+  ],
+  [
    "Routes (as sold)",
    "Oral products and injectables sold online"
+  ],
+  [
+   "Anti-doping",
+   "On the WADA prohibited list as a hormone and metabolic modulator [24]"
   ],
   [
    "Approval status",
@@ -25,62 +63,148 @@
   [
    "Evidence in humans",
    "None published"
+  ],
+  [
+   "Chemical formula",
+   "C20H24ClN3O4S, molar mass about 438 g/mol [24]"
+  ],
+  [
+   "Related compounds",
+   "SR9011, SR12418 (other synthetic REV-ERB ligands) [4][24]"
   ]
  ],
  "sections": [
   {
-   "h": "Uses",
+   "h": "Description",
    "paras": [
-    "SR9009 has no approved medical use. In research settings it has been used to probe the role of REV-ERB in circadian biology, metabolism, inflammation and cancer cell biology. [1][3][6][20]",
-    "In the fitness and bodybuilding market it is sold under the name Stenabolic and promoted for endurance, fat reduction and as an addition to anabolic or SARM \"stacks\". T Nation forum users describe taking it alongside testosterone and other anabolic agents while trying to reduce body fat, and others discuss combining it with Cardarine for endurance training. [11][12][13][14]"
-   ],
-   "subs": []
+    "SR9009 belongs to a small family of synthetic REV-ERB ligands that also includes SR9011 and SR12418. [4][24] REV-ERBα and REV-ERBβ are nuclear receptors that repress transcription of genes controlling the circadian clock, fat and glucose metabolism and inflammation; they are sometimes described as links between the body clock and metabolism. [3][25]",
+    "Wikipedia lists the compound's potency in cell assays as an IC50 of 670 nM at REV-ERBα and 800 nM at REV-ERBβ. [24] It is sold online in oral products and in injectable form under the Stenabolic name, and the sale of such products for human use sits outside any regulatory approval. [24]",
+    "The body's own ligand for REV-ERBα is heme. REV-ERBα binds a DNA sequence called a RORE and recruits a corepressor complex (NCoR with HDAC3) that silences target genes; it forms a secondary feedback loop in the core clock by repressing BMAL1, which CLOCK:BMAL1 in turn helps switch on.[27] Beyond the clock, REV-ERBα regulates lipid, bile acid and glucose metabolism, influences fat-cell formation, supports mitochondrial content in skeletal muscle, and modulates inflammatory genes; knockout mice develop dyslipidemia, and human gene variants have been associated with obesity.[27] These roles explain why a compound that activates the receptor was studied for metabolic disease and why it drew attention from people interested in leanness."
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "SR9009 was developed in the laboratory of Thomas Burris at the Scripps Research Institute. The earliest key paper is a March 2012 Nature study by Solt and colleagues, \"Regulation of circadian behaviour and metabolism by synthetic REV-ERB agonists,\" which described potent REV-ERB agonists that worked in living mice.[25][28] In that report the compounds altered circadian behavior and the daily rhythm of clock-gene expression in the hypothalamus, changed rhythmic expression of metabolic genes in liver, skeletal muscle and fat, and increased energy expenditure; in diet-induced obese mice, treatment reduced fat mass and improved blood lipids and glucose, and the authors suggested such ligands could help treat sleep disorders and metabolic diseases.[25][28]",
+    "A 2013 discussion on Hacker News titled \"SR9009 - A new drug that mimics the beneficial effects of exercise\" shows how the work was framed in popular tech and fitness circles after publication. [26] Over the following years the compound moved from tool compound to a product sold to bodybuilders as Stenabolic, and it was placed on the World Anti-Doping Agency's list of prohibited substances after abuse was reported. [24]",
+    "Wikipedia's article on the compound also cites a 2013 Nature Medicine study of REV-ERBα and muscle oxidative capacity and a 2018 paper on the compound's metabolic profile.[24] In 2018 a Nature study from Burris's group reported that REV-ERB agonists including SR9009 were lethal to cancer cells and oncogene-induced senescent cells in preclinical models while sparing normal cells.[20]"
+   ]
+  },
+  {
+   "h": "Uses",
+   "subs": [
+    {
+     "h": "Research uses",
+     "paras": [
+      "SR9009 has no approved medical use. In research settings it has been used to probe the role of REV-ERB in circadian biology, metabolism, inflammation, heart disease and cancer-cell biology. [1][3][6][20]"
+     ]
+    },
+    {
+     "h": "Use in fitness and bodybuilding",
+     "paras": [
+      "In the fitness and bodybuilding market it is sold under the name Stenabolic and promoted for endurance, fat reduction and as an addition to anabolic or SARM \"stacks\". T Nation forum users describe taking it alongside testosterone and other anabolic agents while trying to reduce body fat, and others discuss combining it with Cardarine for endurance training such as military running tests. [11][12][13][14]"
+     ]
+    }
+   ]
   },
   {
    "h": "Pharmacology",
-   "paras": [
-    "SR9009 binds and activates REV-ERBα and REV-ERBβ, which repress transcription of clock and metabolic genes. Reviews describe REV-ERB agonists, including SR9009, SR9011 and SR12418, as suppressing Th17 cell differentiation and reducing disease severity in preclinical autoimmune models. [4] A review of circadian drugs lists SR9009 alongside tasimelteon and ramelteon, and notes that REV-ERBα drives the morning surge in platelet reactivity in the mechanistic work it summarises. [3]",
-    "Not all reported effects appear to depend on the target receptor. A 2019 study reported REV-ERB-independent effects of SR9009 on cell proliferation and metabolism, a 2022 study reported that it improved heart function after pressure overload independent of cardiac REV-ERB, and a 2021 study reported that it activates NRF2 to counteract cellular senescence. [8][9][10] A forum post on T Nation gives the half-life as roughly four to five hours, which is a user-reported figure rather than a published pharmacokinetic result. [18]"
-   ],
-   "subs": []
+   "subs": [
+    {
+     "h": "Mechanism of action",
+     "paras": [
+      "SR9009 binds and activates REV-ERBα and REV-ERBβ, which repress transcription of clock and metabolic genes. [24][25] Wikipedia reports that activating REV-ERBα with SR9009 increased exercise capacity in mice by raising mitochondria counts in skeletal muscle. [24] Reviews describe REV-ERB agonists, including SR9009, SR9011 and SR12418, as suppressing Th17 cell differentiation and reducing disease severity in preclinical autoimmune models. [4] A review of circadian drugs lists SR9009 alongside tasimelteon and ramelteon, and notes that REV-ERBα drives the morning surge in platelet reactivity in the mechanistic work it summarizes. [3]",
+      "Not all reported effects appear to depend on the target receptor. A 2019 study reported REV-ERB-independent effects of SR9009 on cell proliferation and metabolism, a 2022 study reported that it improved heart function after pressure overload independent of cardiac REV-ERB, and a 2021 study reported that it activates NRF2 to counteract cellular senescence. [8][9][10]"
+     ]
+    },
+    {
+     "h": "Pharmacokinetics",
+     "paras": [
+      "A forum post on T Nation gives the half-life as roughly four to five hours, which is a user-reported figure rather than a published pharmacokinetic result. [18]"
+     ]
+    }
+   ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found in humans for fat loss, endurance, body composition or any other appearance-related use. Published work on SR9009 is preclinical. Examples include mouse studies of weight gain, insulin resistance and white fat accumulation under constant light exposure, a mouse study in which a single day of treatment after myocardial ischemia-reperfusion prevented heart failure, studies of cancer cells and oncogene-induced senescence, and neuroinflammation models. [5][6][20][21][22][23]",
+    "No studies found in humans for fat loss, endurance, body composition or any other appearance-related use. Published work on SR9009 is preclinical.",
+    "Examples of that preclinical work include the 2012 mouse study of energy expenditure and fat mass, mouse studies of weight gain, insulin resistance and white fat accumulation under constant light, a mouse study in which a single day of treatment after myocardial ischemia-reperfusion prevented heart failure, a study of cardiac remodelling and survival after myocardial infarction, studies of cancer cells and oncogene-induced senescence, and neuroinflammation models. [5][6][20][21][22][23][25]",
     "A mouse study published in 2018 reported that pharmacological activation of REV-ERBs was lethal to cancer cells and oncogene-induced senescence cells while sparing normal cells in the models used. [20] These findings concern disease models and have not been tested in healthy people seeking a leaner physique. A 2016 review of exercise and caloric restriction \"mimetics\" noted that such compounds have mostly been described in preclinical settings with limited translation into humans. [2]"
-   ],
-   "subs": []
+   ]
+  },
+  {
+   "h": "Relationship to SARMs and Cardarine",
+   "paras": [
+    "SR9009 is frequently sold alongside selective androgen receptor modulators (SARMs), a drug class designed to activate the androgen receptor in muscle and bone while sparing tissues such as the prostate, first developed as non-steroidal compounds by two research groups in 1998.[29] Wikipedia's SARM article notes that Cardarine and SR9009 are often sold recreationally as SARMs even though they work differently: Cardarine is a PPARδ agonist and SR9009 is a REV-ERB agonist, and neither is a SARM.[29][30]",
+    "Cardarine (GW501516) was developed by Ligand Pharmaceuticals and GlaxoSmithKline, which dropped it in 2007; later animal studies reported rapid cancer development in several organs in rodents, and the World Anti-Doping Agency warned in 2013 that clinical approval had not been and would not be given.[30] Because users commonly combine these products, reports of effects or side effects from a stack cannot be assigned to any single compound.[29][30] Wikipedia's SARM article also says one study found most products advertised online as SARMs were mislabeled, so the contents of gray-market products are often unreliable.[29]"
+   ]
   },
   {
    "h": "Adverse effects",
    "paras": [
     "Because no human trials exist, the safety profile in people is not established. A 2025 case report in Cureus describes a 40-year-old man who developed drug-induced liver injury after starting a product sold as Stenabolic, which the authors framed as a newer SARM; the authors noted that SARM-related liver injury is rare but potentially serious. [7]",
-    "Forum users who combine Stenabolic with anabolic steroids describe monitoring liver enzymes and triglycerides through periodic bloodwork, but in those cases other compounds were being taken at the same time, so effects cannot be attributed to SR9009. [11]"
-   ],
-   "subs": []
+    "Forum users who combine Stenabolic with anabolic steroids describe monitoring liver enzymes and triglycerides through periodic bloodwork, but in those cases other compounds were being taken at the same time, so effects cannot be attributed to SR9009. [11]",
+    "Reviews of SARMs describe possible raised liver enzymes, lower HDL cholesterol and suppression of testosterone with SARM-class compounds, and several case reports link recreational use to liver injury; those findings concern SARMs rather than REV-ERB agonists, but products are sold and used together.[29]"
+   ]
   },
   {
    "h": "Society and culture",
+   "subs": [
+    {
+     "h": "Anti-doping status",
+     "paras": [
+      "SR9009 and the related SR9011 are classified by the World Anti-Doping Agency as hormone and metabolic modulators, and abuse reported in the bodybuilding community led to their inclusion on the prohibited list; Wikipedia cites a WADA list dated July 2014.[24] The agency added Cardarine to its list in 2009 and reclassified it in 2012 into the same hormone and metabolic modulator category.[30] The SARM class itself was banned by WADA in 2008, and no SARM has been approved by the US FDA or the European Medicines Agency as of 2023.[29]"
+     ]
+    },
+    {
+     "h": "Use in looksmaxxing and bodybuilding communities",
+     "paras": [
+      "Stenabolic is discussed on T Nation in cycle-planning threads, where it appears in lists with steroids, SARMs and Cardarine, and in questions about how long it stays detectable in the body and how it fits around post-cycle therapy. [11][12][13][15][16][17] Some posters describe it as a SARM, a label also seen in forum discussions comparing it with compounds such as YK-11. [14]",
+      "The review literature places it among circadian-targeting compounds rather than androgen receptor ligands. [3]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Related compounds",
    "paras": [
-    "Stenabolic is discussed on T Nation in cycle-planning threads, where it appears in lists with steroids, SARMs and Cardarine, and in questions about how long it stays detectable in the body and how it fits around post-cycle therapy. [11][12][13][15][16][17] Some posters describe it as a SARM, a label also seen in forum discussions comparing it with compounds such as YK-11. [14]",
-    "The review literature places it among circadian-targeting compounds rather than androgen receptor ligands. [3]"
-   ],
-   "subs": []
+    "Other REV-ERB ligands include SR9011 and SR12418, which are studied in preclinical immune and metabolic models.[4][24] Other \"exercise mimetics\" that have been described in preclinical settings include compounds that act on the PGC-1α pathway in skeletal muscle, such as resveratrol, which a 2016 review discussed in terms of feasibility and limitations.[2]"
+   ]
   }
  ],
  "timeline": [
   {
+   "year": "2007",
+   "event": "GlaxoSmithKline drops Cardarine, a compound later commonly stacked with SR9009.[30]"
+  },
+  {
+   "year": "2012",
+   "event": "Nature paper by Solt, Burris and colleagues describes synthetic REV-ERB agonists that increase energy expenditure and reduce fat mass in obese mice.[25][28]"
+  },
+  {
+   "year": "2013",
+   "event": "Discussion of SR9009 as an exercise-mimicking drug circulates on Hacker News.[26]"
+  },
+  {
+   "year": "2014",
+   "event": "WADA prohibited list includes SR9009 and SR9011 as hormone and metabolic modulators.[24]"
+  },
+  {
    "year": "2018",
-   "event": "A Nature paper reports that REV-ERB agonists, including SR9009, are lethal to cancer cells and oncogene-induced senescence cells in preclinical models. [20]"
+   "event": "A Nature paper reports that REV-ERB agonists, including SR9009, are lethal to cancer cells and oncogene-induced senescence cells in preclinical models.[20]"
   },
   {
    "year": "2019",
-   "event": "Studies report REV-ERB-independent effects of SR9009 on cell proliferation and metabolism, and anti-inflammatory heart effects in mice. [8][21]"
+   "event": "Studies report REV-ERB-independent effects of SR9009 on cell proliferation and metabolism, and anti-inflammatory heart effects in mice.[8][21]"
+  },
+  {
+   "year": "2022",
+   "event": "A study reports SR9009 improved heart function after pressure overload independent of cardiac REV-ERB.[10]"
   },
   {
    "year": "2025",
-   "event": "A case report links drug-induced liver injury to a product sold as Stenabolic. [7]"
+   "event": "A case report links drug-induced liver injury to a product sold as Stenabolic.[7]"
   }
  ],
  "lore": {
@@ -115,6 +239,24 @@
     "believers": "Proponents describe it as simply activating a clock receptor to raise energy expenditure.",
     "experts": "Studies have reported REV-ERB-independent effects on proliferation, metabolism, cardiac function and senescence, so the mechanism in animals is not settled. [8][9][10]",
     "evidence": "mixed"
+   },
+   {
+    "claim": "It is basically a cardio-in-a-bottle that mimics exercise",
+    "believers": "The 2013 Hacker News thread was titled as a new drug that mimics exercise benefits, a framing that carried into fitness marketing.[26]",
+    "experts": "A 2016 review notes exercise and caloric restriction mimetics have mostly been described in preclinical settings with limited translation into humans.[2]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Products sold as Stenabolic contain what the label says",
+    "believers": "Vendors market the compound as a research-grade product.",
+    "experts": "Wikipedia's SARM article reports that a study found most products sold online as SARMs were mislabeled, and gray-market content and dose are described as unreliable.[29]",
+    "evidence": "harms"
+   },
+   {
+    "claim": "It is safe to stack because it is not a hormone",
+    "believers": "Posters treat it as a low-risk add-on to steroid or SARM cycles.[15]",
+    "experts": "No human safety trials exist; a case report describes liver injury after starting Stenabolic, and WADA lists it as a prohibited metabolic modulator.[7][24]",
+    "evidence": "harms"
    }
   ]
  },
@@ -302,23 +444,84 @@
    "source": "Theranostics",
    "year": 2020,
    "type": "study"
+  },
+  {
+   "id": 24,
+   "title": "SR9009",
+   "url": "https://en.wikipedia.org/wiki/SR9009",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 25,
+   "title": "Regulation of circadian behaviour and metabolism by synthetic REV-ERB agonists",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22460951",
+   "source": "Nature",
+   "year": 2012,
+   "type": "study"
+  },
+  {
+   "id": 26,
+   "title": "SR9009 - A new drug that mimics the beneficial effects of exercise",
+   "url": "https://news.ycombinator.com/item?id=6274598",
+   "source": "Hacker News",
+   "year": 2013,
+   "type": "forum"
+  },
+  {
+   "id": 27,
+   "title": "Rev-ErbA alpha",
+   "url": "https://en.wikipedia.org/wiki/Rev-ErbA_alpha",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 28,
+   "title": "Regulation of circadian behaviour and metabolism by synthetic REV-ERB agonists (Europe PMC record)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22460951%20AND%20SRC:MED&format=json&resultType=core",
+   "source": "Europe PMC",
+   "year": 2012,
+   "type": "study"
+  },
+  {
+   "id": 29,
+   "title": "Selective androgen receptor modulator",
+   "url": "https://en.wikipedia.org/wiki/Selective_androgen_receptor_modulator",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 30,
+   "title": "Cardarine",
+   "url": "https://en.wikipedia.org/wiki/Cardarine",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
   }
  ],
- "webSources": [],
- "card": {
-  "summary": "A REV-ERB clock-receptor agonist sold as Stenabolic for endurance and cutting; mouse data only, nothing in humans, and a liver-injury case report.",
-  "aka": "Stenabolic",
-  "evidence": "unproven",
-  "status": "research",
-  "outcome": null,
-  "risk": null,
-  "price": null,
-  "note": "Not a SARM despite the label; no human trials; liver injury case reported.",
-  "structure": "SR9009"
- },
- "quick": {
-  "overview": "SR9009 (Stenabolic) is a lab compound that switches on REV-ERB, receptors that tie the body clock to metabolism. It is sold online for endurance and fat loss and is often called a SARM, though research classifies it differently.\n\nAll published work is in cells and animals. No human trial has tested it for appearance or performance.",
-  "mechanism": "It activates REV-ERBα and REV-ERBβ, which repress clock and metabolic genes. Several studies report effects that appear independent of REV-ERB, so its mechanism is not settled.",
-  "risks": "Human safety is unestablished. A 2025 case report describes liver injury after starting a product sold as Stenabolic. It is not an approved drug, and users often combine it with other compounds, which confounds any reported effects."
- }
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/SR9009",
+   "title": "SR9009 - Wikipedia"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22460951%20AND%20SRC:MED&format=json&resultType=core",
+   "title": "Europe PMC record: Regulation of circadian behaviour and metabolism by synthetic REV-ERB agonists (Nature 2012)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Rev-ErbA_alpha",
+   "title": "Rev-ErbA alpha - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Selective_androgen_receptor_modulator",
+   "title": "Selective androgen receptor modulator - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Cardarine",
+   "title": "Cardarine - Wikipedia"
+  }
+ ]
 }

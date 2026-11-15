@@ -1,30 +1,419 @@
 {
  "name": "Propolis",
- "lead": ["Propolis, also called bee glue, is a sticky resinous mixture that honey bees make from plant exudates such as tree-bud resins and sap, combined with beeswax and saliva. Bees use it to seal gaps in the hive and to coat its interior surfaces [1][8]. Its composition varies with the hive's location, season and local plants, and it typically includes flavonoids, phenolic acids and terpenoids [8].","In skincare, propolis appears as an extract in K-beauty and natural-cosmetic products, where brands market it for soothing, blemish-prone and dull-looking skin. Proponents point to its long traditional use and to laboratory findings of antimicrobial and anti-inflammatory activity [2][4].","Published evidence for cosmetic skin benefits in humans is limited. Most of the literature consists of laboratory and review work on propolis constituents, and clinical trials registered for propolis concern other uses such as oral health and general medicine. Propolis is also a recognised cause of allergic contact dermatitis [8]."],
- "infobox": [["Type","Bee-derived resin mixture"],["Typical form","Topical extract, tincture, ointment; oral supplements"],["Key constituents","Flavonoids, phenolic acids, terpenoids (varies by origin)"],["Common varieties","Poplar-type, birch-type, Brazilian green propolis [1]"],["Main safety concern","Allergic contact dermatitis [8]"],["Status","Cosmetic ingredient / dietary supplement"]],
+ "lead": [
+  "Propolis, also called bee glue, is a sticky resinous mixture that honey bees make from plant exudates such as tree-bud resins and sap, combined with beeswax and saliva. Bees use it to seal gaps in the hive and to coat its interior surfaces [1][8]. Its composition varies with the hive's location, season and local plants, and it typically includes flavonoids, phenolic acids and terpenoids [8].",
+  "In skincare, propolis appears as an extract in K-beauty and natural-cosmetic products, where brands market it for soothing, blemish-prone and dull-looking skin. The route to a better-looking complexion that proponents describe runs through calming irritation, supporting a clearer-looking surface and giving a glow, drawing on propolis's long traditional use and on laboratory findings of antimicrobial and anti-inflammatory activity [2][4][12].",
+  "A 2020 review of bee products in dermatology and skin care describes propolis, honey, pollen, royal jelly and beeswax as possible ingredients for skin-applied medicines and cosmetics [12]. Most of the propolis literature consists of laboratory and review work on its constituents, and clinical trials registered for propolis concern other uses such as oral health, wound care and general medicine [9][10][11][13]. Propolis is also a recognised cause of allergic contact dermatitis [8][14]."
+ ],
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "Propolis extract applied in a serum, ampoule or spot treatment",
+   "Antimicrobial and soothing activity described in laboratory research",
+   "Calmer, clearer-looking, more even skin, as brands and users describe"
+  ],
+  "effect": "claimed",
+  "text": "People use propolis extracts in K-beauty serums, masks and spot treatments to calm skin and clear the look of blemishes, and some take it as a supplement. The skin-specific benefit is a claim by brands and proponents, supported by laboratory work and reviews of bee products [4][12]."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Bee-derived resin mixture"
+  ],
+  [
+   "Typical form",
+   "Topical extract, tincture, ointment; oral supplements"
+  ],
+  [
+   "Key constituents",
+   "Flavonoids, phenolic acids, terpenoids (varies by origin) [8][13]"
+  ],
+  [
+   "Common varieties",
+   "Poplar-type, birch-type, Brazilian green and red propolis [1][8]"
+  ],
+  [
+   "Notable compounds",
+   "Caffeic acid phenethyl ester (CAPE), artepillin C [3][13]"
+  ],
+  [
+   "Appearance",
+   "Usually dark brown; also green, red, black or white; sticky above about 19 C [8]"
+  ],
+  [
+   "Main safety concern",
+   "Allergic contact dermatitis [8][14]"
+  ],
+  [
+   "Status",
+   "Cosmetic ingredient / dietary supplement"
+  ]
+ ],
  "sections": [
-  {"h":"Composition","paras":["Propolis is a variable natural product. Its chemistry depends on the plants bees visit, and researchers classify it into types such as poplar-type in temperate regions, birch-type, and tropical varieties like Brazilian green propolis, which is rich in artepillin C [1]. Fixed percentage breakdowns of resin, wax, oils and pollen are often quoted, but Wikipedia notes these are not well substantiated [8].","Flavonoids are a major constituent class and have been reviewed for antimicrobial and other biological activities [5][6]. Caffeic acid phenethyl ester (CAPE), a propolis component, inhibited activation of the transcription factor NF-kappa B in a 1996 laboratory study [3]."]},
-  {"h":"Uses","subs":[{"h":"Cosmetic and appearance uses","paras":["Propolis extracts are included in serums, ampoules, masks and spot treatments sold in Korean and natural-skincare lines, usually with claims about calming, hydrating or clarifying skin. No cosmetic-specific trial is listed in the reviewed literature that quantifies effects on wrinkles, pigmentation or acne."]},{"h":"Traditional and medical uses","paras":["Writers describe propolis use in traditional medicine since antiquity, including wound care and antiseptic applications in Egyptian, Greek and Roman sources, though dating claims come from secondary summaries [1]. Researchers have reviewed its antibacterial, antifungal and antiviral activity across propolis of different geographic origin [4], and its potential as a source of new drugs [6]."]}]},
-  {"h":"Clinical studies","paras":["Clinical research on propolis as a whole is mostly outside skincare. Registered or completed trials have examined propolis for hand-foot-and-mouth disease, COVID-19, mouthwash and periodontal health, radiotherapy-induced oral mucositis, dentin hypersensitivity, insulin resistance and cardiometabolic outcomes [9][10][11]. Wikipedia reports that a 2026 review found possible plaque reductions with very low certainty, that mucositis studies were small with blinding problems, and that a meta-analysis of 20 trials found lower fasting glucose and triglycerides without changes in blood pressure [8].","No controlled human study of topical propolis for wrinkles, skin tone or acne was identified among the sources reviewed for this article."]},
-  {"h":"Adverse effects","paras":["Propolis can cause allergic contact dermatitis, with reported reactions to topical products including skin inflammation, lip swelling and cheilitis [8]. A 1998 review of its biological properties and toxicity addressed both [2]."]},
-  {"h":"Research","paras":["Laboratory research continues on propolis flavonoids and phenolics, including anti-inflammatory signalling and antimicrobial activity [3][5][7]. Reviews describe the variability between propolis samples as a challenge for standardisation and for comparing studies [6][7]."]}
+  {
+   "h": "Biology and production",
+   "paras": [
+    "Honey bees make propolis by combining plant exudates, such as resin from tree buds and sap flows, with saliva and beeswax. They use it to fill small gaps in the hive, strengthen the structure, insulate it and narrow the entrance, and they line the nest with it. Wikipedia links this lining to the colony's 'social immunity', its collective defence against pathogens, and notes that bees can seal dead intruders they cannot remove inside propolis [8].",
+    "Propolis is usually dark brown but can also be green, red, black or white. It is sticky above about 19 C and hard and brittle at lower temperatures [8]. Stingless bees and Apis mellifera honeybees both produce it, and it occurs in tropical and subtropical forests worldwide [13]."
+   ]
+  },
+  {
+   "h": "Composition and varieties",
+   "paras": [
+    "Propolis is a variable natural product. Its chemistry depends on the plants bees visit, and researchers classify it by botanical source into poplar-type in temperate regions, birch-type, Mediterranean and Pacific types and tropical varieties such as Brazilian green propolis (from Baccharis dracunculifolia), which is rich in artepillin C, and Brazilian red propolis (from Dalbergia ecastaphyllum) [1][8]. Hundreds of constituents have been identified, including flavonoids, phenolic acids and terpenoids [8]. Fixed percentage breakdowns of resin, wax, oils and pollen are often quoted, but Wikipedia notes these are not well substantiated [8].",
+    "Flavonoids are a major constituent class and have been reviewed for antimicrobial and other biological activities [5][6]. Reviews of propolis name compounds such as artepillin C, caffeic acid, CAPE, apigenin, chrysin, galangin and kaempferol among its biologically active constituents [13]. Caffeic acid phenethyl ester (CAPE) inhibited activation of the transcription factor NF-kappa B in a 1996 laboratory study [3]. The variability between samples makes standardisation difficult and complicates comparison across studies [6][7][8]."
+   ]
+  },
+  {
+   "h": "Uses",
+   "subs": [
+    {
+     "h": "Cosmetic and appearance uses",
+     "paras": [
+      "Propolis extracts are included in serums, ampoules, masks and spot treatments sold in Korean and natural-skincare lines, usually with claims about calming, hydrating or clarifying skin. The 2020 review of bee products in dermatology says that honey, propolis and pollen are used to heal burn wounds and have been described as antibacterial, anti-inflammatory, antioxidant, disinfectant, antifungal and antiviral, and that bee products could be important ingredients in skin-applied medicines and cosmetics [12]. A 2023 narrative review of alternative treatments for herpes simplex lists propolis among natural products that showed promise in controlling the virus, relevant to cold sores on the lips [22]. No cosmetic-specific trial listed in the reviews quantifies effects on wrinkles, pigmentation or acne [12][13]."
+     ]
+    },
+    {
+     "h": "Traditional and medical uses",
+     "paras": [
+      "Writers describe propolis use in traditional medicine since antiquity, including wound care and antiseptic applications in Egyptian, Greek and Roman sources, though dating claims come from secondary summaries [1]. Researchers have reviewed its antibacterial, antifungal and antiviral activity across propolis of different geographic origin [4], a 2019 review analysed its effect on more than 600 bacterial strains, finding greater activity against Gram-positive than Gram-negative bacteria and highest activity in Middle Eastern samples [15], and its potential as a source of new drugs has been discussed [6]. Propolis is also sold as a supplement, and it has been used in oral-care products [8][10]."
+     ]
+    },
+    {
+     "h": "Other uses",
+     "paras": [
+      "Some string-instrument makers use propolis as a varnish ingredient or to seal new violin-family bridges. Wikipedia notes that claims that Antonio Stradivari used it were disproven in 2009 [8]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Mechanism of action",
+   "paras": [
+    "Laboratory research attributes propolis's activity to its flavonoids and phenolic compounds. CAPE blocks NF-kappa B activation in cell experiments, a pathway central to inflammatory signalling [3]. Flavonoids have been reviewed for antimicrobial effects [5], and propolis extracts act against a range of bacteria, fungi and viruses in vitro [4][15]. Reviews of propolis as complementary medicine link its constituents to antioxidant, anti-inflammatory, immunomodulatory and other activities [13]. These findings come from laboratory and animal studies and from reviews of them; they are not direct measures of cosmetic skin outcomes [6][7]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Clinical research on propolis as a whole is mostly outside skincare. Registered or completed trials have examined propolis for hand-foot-and-mouth disease, COVID-19, mouthwash and periodontal health, radiotherapy-induced oral mucositis, dentin hypersensitivity, insulin resistance and cardiometabolic outcomes [9][10][11]. Randomised trials include a comparison of propolis with a desensitising agent for dentin hypersensitivity [19], a double-blind trial of propolis versus metformin versus placebo in 36 treatment-naive patients with type 2 diabetes [20], a trial of propolis in people with metabolic syndrome examining mood, quality of life and metabolic profile [18], a trial of standardised Brazilian green propolis extract in COVID-19 [17][23], and a 2024 trial of Brazilian green propolis for chronic ulcers [16].",
+    "Wikipedia reports that a 2026 review of 45 trials found possible reductions in dental plaque and oral microbes with very low certainty, that mucositis studies were small with blinding problems, and that a meta-analysis of 20 trials found lower fasting glucose and triglycerides without significant changes in blood pressure, waist circumference or HDL cholesterol [8]. A review of anticancer activity covers laboratory work on propolis and its compounds [21].",
+    "No controlled human study of topical propolis for wrinkles, skin tone or acne has been published."
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "paras": [
+    "Propolis can cause allergic contact dermatitis, with reported reactions to topical products including skin inflammation, lip swelling and cheilitis [8]. A 1983 study by Rudzki and Grzywa in Contact Dermatitis examined 22 patients with propolis dermatitis; all 21 tested reacted to propolis, and 19 also reacted to balsam of Peru, whose chromatograms resembled propolis's, with shared components such as cinnamyl cinnamate and vanillin implicated in some patients [14]. A 1998 review of its biological properties and toxicity addressed both benefits and adverse effects [2]."
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "In appearance culture propolis appears mainly in K-beauty and natural-cosmetic lines, where it is marketed alongside honey and royal jelly for glow and calming claims [12]. It is also taken as a supplement alongside other bee products such as royal jelly and bee pollen. Brazilian green propolis extracts in particular have been developed as standardised products and studied in clinical trials, including in hospitalised COVID-19 patients [17][23].",
+    "Propolis is sold as a cosmetic ingredient and as a dietary supplement; its use for medical conditions is being tested in registered clinical trials [9][10][11]."
+   ]
+  },
+  {
+   "h": "Research",
+   "paras": [
+    "Laboratory research continues on propolis flavonoids and phenolics, including anti-inflammatory signalling and antimicrobial activity [3][5][7]. Reviews describe the variability between propolis samples as a challenge for standardisation and for comparing studies [6][7]. Studies in other fields continue in registered trials of dental, metabolic and cardiovascular outcomes [9][10][11]."
+   ]
+  }
  ],
- "timeline": [{"year":"c. 350 BCE","event":"Aristotle is credited with the Greek term from which 'propolis' derives [1]."},{"year":"1996","event":"Laboratory study reports CAPE from propolis inhibits NF-kappa B activation [3]."},{"year":"1998","event":"Review of propolis biological properties and toxicity published [2]."}],
- "lore": null,
- "card": {"summary":"Bee-resin K-beauty extract with lab antimicrobial data, little skin-specific human evidence and a known contact-allergy risk.","aka":"Bee glue","evidence":"limited","status":"otc","outcome":null,"risk":null,"price":null,"note":"Recognised cause of allergic contact dermatitis, especially in people sensitive to bee products.","structure":null},
- "quick": {"overview":"Propolis is the resin bees collect and blend with wax to seal their hives. Skincare brands use extracts of it for soothing and clarifying claims, drawing on its long folk-medicine history.\n\nResearch is mostly laboratory-based or in other fields such as dental and metabolic health. Published human trials on cosmetic skin outcomes were not found among the sources reviewed.","mechanism":"Laboratory studies attribute antimicrobial and anti-inflammatory activity to its flavonoids and phenolics, including CAPE, which inhibits NF-kappa B signalling in cell experiments. Composition varies widely by origin.","risks":"Contact allergy is the main documented risk, with skin inflammation and lip swelling reported from topical products. It is sold as a cosmetic ingredient and supplement; no special approval for skin benefits is reported."},
+ "timeline": [
+  {
+   "year": "c. 350 BCE",
+   "event": "Aristotle is credited with the Greek term from which 'propolis' derives. [1]"
+  },
+  {
+   "year": "1983",
+   "event": "Rudzki and Grzywa publish a study of 22 patients with propolis contact dermatitis. [14]"
+  },
+  {
+   "year": "1996",
+   "event": "Laboratory study reports CAPE from propolis inhibits NF-kappa B activation. [3]"
+  },
+  {
+   "year": "1998",
+   "event": "Review of propolis biological properties and toxicity published. [2]"
+  },
+  {
+   "year": "1999",
+   "event": "Review of antibacterial, antifungal and antiviral activity of propolis of different geographic origin published. [4]"
+  },
+  {
+   "year": "2009",
+   "event": "Claims that Stradivari used propolis are disproven. [8]"
+  },
+  {
+   "year": "2011",
+   "event": "Review asks whether propolis could yield new drugs. [6]"
+  },
+  {
+   "year": "2019",
+   "event": "Review analyses propolis activity against more than 600 bacterial strains. [15]"
+  },
+  {
+   "year": "2020",
+   "event": "Review of bee products in dermatology and skin care published. [12]"
+  },
+  {
+   "year": "2023",
+   "event": "Randomised trials of Brazilian green propolis in COVID-19 and propolis in metabolic syndrome published. [17][18]"
+  },
+  {
+   "year": "2026",
+   "event": "Reviews cited on Wikipedia assess propolis for dental plaque, oral mucositis and cardiometabolic markers. [8]"
+  }
+ ],
+ "lore": {
+  "intro": "Propolis appears in skincare marketing and among bee-product supplements; community discussion of it for appearance is limited, and most commentary comes from K-beauty and natural-cosmetics brands. [12]",
+  "claims": [
+   {
+    "claim": "Propolis calms and clarifies blemish-prone skin",
+    "believers": "K-beauty brands and users describe propolis ampoules and serums as soothing and clarifying for acne-prone, dull skin, citing its antimicrobial reputation [12].",
+    "experts": "Laboratory studies and reviews report antibacterial activity, and a 2020 review describes bee products as potential skin-care ingredients [4][12][15]. No controlled human study of topical propolis for acne has been published.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Propolis fights bacteria and viruses",
+    "believers": "Proponents point to its long use as a folk antiseptic and wound remedy [1].",
+    "experts": "A 1999 review and a 2019 review of more than 600 bacterial strains report antimicrobial activity that varies with the origin of the sample [4][15]. A narrative review lists propolis among natural products showing promise against herpes simplex [22].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Propolis speeds wound and ulcer healing",
+    "believers": "Honey, propolis and pollen are used traditionally on burn wounds [12].",
+    "experts": "A 2024 randomised trial tested Brazilian green propolis in chronic ulcers [16]; the bee-products review describes use on burns [12].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Propolis is a natural anti-inflammatory",
+    "believers": "Supplement and cosmetic marketers cite CAPE and flavonoids as anti-inflammatory compounds [3][13].",
+    "experts": "Laboratory work shows CAPE inhibits NF-kappa B activation in cells [3]; reviews of human use describe the evidence as limited and formulations as variable [8][13].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Propolis supports metabolic health",
+    "believers": "Some propolis supplement users take it for blood sugar and cholesterol.",
+    "experts": "A 2026 meta-analysis of 20 trials cited on Wikipedia found lower fasting glucose and triglycerides without changes in blood pressure, waist circumference or HDL; individual trials include propolis versus metformin in type 2 diabetes [8][20].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Propolis is gentle enough for sensitive skin",
+    "believers": "Natural-cosmetics brands position it as a soothing ingredient.",
+    "experts": "Wikipedia lists allergic contact dermatitis, lip swelling and cheilitis as reactions to topical propolis, and a 1983 study documented patients who reacted to propolis and balsam of Peru [8][14].",
+    "evidence": "harms"
+   }
+  ]
+ },
  "refs": [
-  {"id":1,"title":"Propolis (Grokipedia)","url":"https://grokipedia.com/page/Propolis","source":"Grokipedia","year":2025,"type":"encyclopedia"},
-  {"id":2,"title":"Review of the biological properties and toxicity of bee propolis (propolis)","url":"https://pubmed.ncbi.nlm.nih.gov/9651052/","source":"Food and Chemical Toxicology","year":1998,"type":"review"},
-  {"id":3,"title":"Caffeic acid phenethyl ester is a potent and specific inhibitor of activation of nuclear transcription factor NF-kappa B","url":"https://pubmed.ncbi.nlm.nih.gov/8799159/","source":"PNAS","year":1996,"type":"study"},
-  {"id":4,"title":"Antibacterial, antifungal and antiviral activity of propolis of different geographic origin","url":"https://pubmed.ncbi.nlm.nih.gov/10363838/","source":"Journal of Ethnopharmacology","year":1999,"type":"study"},
-  {"id":5,"title":"Antimicrobial activity of flavonoids","url":"https://pubmed.ncbi.nlm.nih.gov/16323269/","source":"International Journal of Antimicrobial Agents","year":2005,"type":"review"},
-  {"id":6,"title":"Propolis: is there a potential for the development of new drugs?","url":"https://pubmed.ncbi.nlm.nih.gov/20970490/","source":"Journal of Ethnopharmacology","year":2011,"type":"review"},
-  {"id":7,"title":"Recent progress in pharmacological research of propolis","url":"https://pubmed.ncbi.nlm.nih.gov/11746834/","source":"Phytotherapy Research","year":2001,"type":"review"},
-  {"id":8,"title":"Propolis (Wikipedia)","url":"https://en.wikipedia.org/wiki/Propolis","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-  {"id":9,"title":"Propolis as a Treatment Option for Hand Foot and Mouth Disease (NCT06455007)","url":"https://clinicaltrials.gov/study/NCT06455007","source":"ClinicalTrials.gov","year":2019,"type":"trial"},
-  {"id":10,"title":"Propolis Mouthwash Compared to Chlorhexidine Mouthwash (NCT04117451)","url":"https://clinicaltrials.gov/study/NCT04117451","source":"ClinicalTrials.gov","year":2019,"type":"trial"},
-  {"id":11,"title":"Propolis in Radiotherapy Induced Mucositis (NCT01375088)","url":"https://clinicaltrials.gov/study/NCT01375088","source":"ClinicalTrials.gov","year":2010,"type":"trial"}
+  {
+   "id": 1,
+   "title": "Propolis (Grokipedia)",
+   "url": "https://grokipedia.com/page/Propolis",
+   "source": "Grokipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Review of the biological properties and toxicity of bee propolis (propolis)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9651052/",
+   "source": "Food and Chemical Toxicology",
+   "year": 1998,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Caffeic acid phenethyl ester is a potent and specific inhibitor of activation of nuclear transcription factor NF-kappa B",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8799159/",
+   "source": "PNAS",
+   "year": 1996,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Antibacterial, antifungal and antiviral activity of propolis of different geographic origin",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10363838/",
+   "source": "Journal of Ethnopharmacology",
+   "year": 1999,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Antimicrobial activity of flavonoids",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16323269/",
+   "source": "International Journal of Antimicrobial Agents",
+   "year": 2005,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Propolis: is there a potential for the development of new drugs?",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20970490/",
+   "source": "Journal of Ethnopharmacology",
+   "year": 2011,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Recent progress in pharmacological research of propolis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11746834/",
+   "source": "Phytotherapy Research",
+   "year": 2001,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "Propolis (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Propolis",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 9,
+   "title": "Propolis as a Treatment Option for Hand Foot and Mouth Disease (NCT06455007)",
+   "url": "https://clinicaltrials.gov/study/NCT06455007",
+   "source": "ClinicalTrials.gov",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Propolis Mouthwash Compared to Chlorhexidine Mouthwash (NCT04117451)",
+   "url": "https://clinicaltrials.gov/study/NCT04117451",
+   "source": "ClinicalTrials.gov",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Propolis in Radiotherapy Induced Mucositis (NCT01375088)",
+   "url": "https://clinicaltrials.gov/study/NCT01375088",
+   "source": "ClinicalTrials.gov",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "Bee Products in Dermatology and Skin Care",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32012913/",
+   "source": "Molecules",
+   "year": 2020,
+   "type": "review"
+  },
+  {
+   "id": 13,
+   "title": "Propolis: Its Role and Efficacy in Human Health and Diseases",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36144852/",
+   "source": "Molecules",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 14,
+   "title": "Dermatitis from propolis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6220861/",
+   "source": "Contact Dermatitis",
+   "year": 1983,
+   "type": "study"
+  },
+  {
+   "id": 15,
+   "title": "Antibacterial Properties of Propolis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31146392/",
+   "source": "Molecules",
+   "year": 2019,
+   "type": "review"
+  },
+  {
+   "id": 16,
+   "title": "Effect of Brazilian green propolis in chronic ulcer treatment: a randomized clinical trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39258606/",
+   "source": "Rev Bras Enferm",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 17,
+   "title": "Standardized Brazilian green propolis extract (EPP-AF) in COVID-19 outcomes: a randomized double-blind placebo-controlled trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37891178/",
+   "source": "Scientific Reports",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 18,
+   "title": "Effect of propolis on mood, quality of life, and metabolic profiles in subjects with metabolic syndrome: a randomized clinical trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36932147/",
+   "source": "Scientific Reports",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 19,
+   "title": "Comparison of the effect of propolis and Gluma desensitizer on the management of dentin hypersensitivity: A randomized controlled trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38783427/",
+   "source": "JPMA",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 20,
+   "title": "Anti-hyperglycemic effects of propolis or metformin in type 2 diabetes mellitus",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35965421/",
+   "source": "Int J Vitam Nutr Res",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 21,
+   "title": "Anticancer Activity of Propolis and Its Compounds",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34444754/",
+   "source": "Nutrients",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 22,
+   "title": "A Narrative Review of Alternative Symptomatic Treatments for Herpes Simplex Virus",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37376614/",
+   "source": "Viruses",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 23,
+   "title": "Standardized Brazilian green propolis extract as an adjunct in hospitalized COVID-19 patients (BeeCovid2, NCT04800224)",
+   "url": "https://clinicaltrials.gov/study/NCT04800224",
+   "source": "ClinicalTrials.gov",
+   "year": 2021,
+   "type": "trial"
+  }
  ],
- "webSources": [{"url":"https://en.wikipedia.org/wiki/Propolis","title":"Propolis - Wikipedia"}]
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Propolis",
+   "title": "Propolis - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "Bee-resin K-beauty extract with lab antimicrobial data, little skin-specific human evidence and a known contact-allergy risk.",
+  "aka": "Bee glue",
+  "evidence": "limited",
+  "status": "otc",
+  "outcome": null,
+  "risk": null,
+  "price": null,
+  "note": "Recognised cause of allergic contact dermatitis, especially in people sensitive to bee products.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Propolis is the resin bees collect and blend with wax to seal their hives. Skincare brands use extracts of it for soothing and clarifying claims, drawing on its long folk-medicine history.\nResearch is mostly laboratory-based or in other fields such as dental and metabolic health. Published human trials on cosmetic skin outcomes are lacking.",
+  "mechanism": "Laboratory studies attribute antimicrobial and anti-inflammatory activity to its flavonoids and phenolics, including CAPE, which inhibits NF-kappa B signalling in cell experiments. Composition varies widely by origin.",
+  "risks": "Contact allergy is the main documented risk, with skin inflammation and lip swelling reported from topical products. It is sold as a cosmetic ingredient and supplement; no special approval for skin benefits is reported."
+ }
 }

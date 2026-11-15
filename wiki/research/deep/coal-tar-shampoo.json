@@ -1,68 +1,250 @@
 {
-  "name": "Coal tar shampoo",
-  "lead": [
-    "Coal tar shampoo is a medicated shampoo containing coal tar, a viscous dark by-product of coke and coal-gas production, sold over the counter for dandruff, seborrheic dermatitis and scalp psoriasis.[1] Wikipedia notes that patient acceptance is limited because tar products can stain, smell strongly and be messy.[1]",
-    "Controlled studies from 1980 to 2000 reported it effective in psoriasis, dandruff and seborrheic dermatitis, while a double-blind trial found a non-tar shampoo was as effective as a 0.5% coal tar shampoo for dandruff.[2][3] Coal tars are classified by the IARC as Group 1 carcinogens, and a mid-1990s correspondence in The Lancet debated the carcinogenic potential of coal tar shampoo and measured skin uptake of polycyclic aromatic hydrocarbons after hair washing.[1][4][5][6]"
+ "name": "Coal tar shampoo",
+ "lead": [
+  "Coal tar shampoo is a medicated shampoo containing coal tar, a viscous dark by-product of coke and coal-gas production, sold over the counter for dandruff, seborrheic dermatitis and scalp psoriasis.[1] Wikipedia notes that patient acceptance is limited because tar products can stain, smell strongly and be messy.[1]",
+  "Controlled studies from 1980 to 2000 reported it effective in psoriasis, dandruff and seborrheic dermatitis, while a double-blind trial found a non-tar shampoo was as effective as a 0.5% coal tar shampoo for dandruff.[2][3] Coal tars are classified by the IARC as Group 1 carcinogens, and a mid-1990s correspondence in The Lancet debated the carcinogenic potential of coal tar shampoo and measured skin uptake of polycyclic aromatic hydrocarbons after hair washing.[1][4][5][6]",
+  "For appearance, the payoff is a clearer scalp and less visible flaking: dandruff and seborrheic dermatitis show up as white or yellowish flakes on dark clothing and as redness along the hairline, and tar shampoo is one of the long-standing over-the-counter options people use to control them.[1] Some people in lifting forums also describe lathering the shampoo on the back and shoulders during breakouts, an off-label use mentioned in community posts.[9]"
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Medicated shampoo (keratolytic, anti-dandruff)"
   ],
-  "infobox": [
-    ["Type", "Medicated shampoo (keratolytic, anti-dandruff)"],
-    ["Active", "Coal tar"],
-    ["Uses", "Dandruff, seborrheic dermatitis, scalp psoriasis"],
-    ["US status", "Over the counter (also Rx forms)"],
-    ["EU status", "Coal tar forbidden in cosmetics by a 2009 directive (per Wikipedia)"]
+  [
+   "Active",
+   "Coal tar"
   ],
-  "sections": [
-    {
-      "h": "Uses",
-      "paras": [
-        "Coal tar is used topically for dandruff, seborrheic dermatitis and psoriasis and is sold as shampoo, gel, cream or ointment for external use.[1] Brand names listed on Wikipedia include Balnetar and Cutar.[1]"
-      ]
-    },
-    {
-      "h": "Safety and regulation",
-      "paras": [
-        "Reported side effects include irritation, folliculitis, contact dermatitis, phototoxicity and pigmentation changes; coal tar is contraindicated in G6PD deficiency and, per Wikipedia, topical use raises concern about skin cancer because many constituents are polycyclic aromatic hydrocarbons.[1] The IARC lists coal tars as Group 1 carcinogens, and Wikipedia states a 2009 EU directive forbade coal tar in cosmetics.[1]",
-        "Research on shampoo specifically includes a 1980 Salmonella/liver test that found differing degrees of mutagenesis among coal tar shampoos, a 1994 Lancet study of dermal uptake of PAHs after washing with coal-tar shampoo, and 1995 Lancet letters on its carcinogenicity.[4][5][6][7]"
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "A 1980 clinical re-evaluation of an alkaline whole coal tar shampoo reported efficacy in psoriasis, dandruff, seborrheic dermatitis and pruritus, along with cosmetic hair-condition improvements.[2]",
-        "In a randomized double-blind study of 60 volunteers with moderate to marked dandruff, a non-tar shampoo (salicylic acid, piroctone olamine and elubiol) was compared with a 0.5% coal tar shampoo; investigators reported the non-tar product was as effective.[3]",
-        "A registered study (NCT05105139) examined safety of other shampoos in seborrheic dermatitis and scalp psoriasis.[8]"
-      ]
-    }
+  [
+   "Uses",
+   "Dandruff, seborrheic dermatitis, scalp psoriasis"
   ],
-  "timeline": [],
-  "lore": null,
-  "refs": [
-    {"id": 1, "title": "Coal tar (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Coal_tar", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"},
-    {"id": 2, "title": "Whole coal tar shampoo: a therapeutic hair repair system", "url": "https://pubmed.ncbi.nlm.nih.gov/7353401/", "source": "Cutis", "year": 1980, "type": "study"},
-    {"id": 3, "title": "Comparative anti-dandruff efficacy between a tar and a non-tar shampoo", "url": "https://pubmed.ncbi.nlm.nih.gov/10773717/", "source": "Dermatology", "year": 2000, "type": "trial"},
-    {"id": 4, "title": "Dermal uptake of polycyclic aromatic hydrocarbons after hairwash with coal-tar shampoo", "url": "https://pubmed.ncbi.nlm.nih.gov/7968140/", "source": "The Lancet", "year": 1994, "type": "study"},
-    {"id": 5, "title": "Carcinogenicity of coal-tar shampoo", "url": "https://pubmed.ncbi.nlm.nih.gov/7837890/", "source": "The Lancet", "year": 1995, "type": "study"},
-    {"id": 6, "title": "Carcinogenic consequences of coal-tar shampoo?", "url": "https://pubmed.ncbi.nlm.nih.gov/7783550/", "source": "The Lancet", "year": 1995, "type": "study"},
-    {"id": 7, "title": "Differing degrees of coal-tar shampoo-induced mutagenesis in the Salmonella/liver test system in vitro", "url": "https://pubmed.ncbi.nlm.nih.gov/6990425/", "source": "Pharmacology", "year": 1980, "type": "study"},
-    {"id": 8, "title": "NCT05105139: Study to Evaluate the Safety of Sebryl and Sebryl Plus in Seborrheic Dermatitis and Psoriasis of Scalp", "url": "https://clinicaltrials.gov/study/NCT05105139", "source": "ClinicalTrials.gov", "year": 2021, "type": "trial"}
+  [
+   "US status",
+   "Over the counter (also Rx forms)"
   ],
-  "webSources": [
-    {"url": "https://en.wikipedia.org/wiki/Coal_tar", "title": "Coal tar - Wikipedia"}
-  ],
-  "card": {
-    "summary": "An old-school tar-based dandruff and psoriasis shampoo with trial support for scalp flaking and long-running carcinogenicity debates.",
-    "aka": "Tar shampoo",
-    "evidence": "moderate",
-    "status": "otc",
-    "outcome": null,
-    "risk": null,
-    "price": null,
-    "note": "Coal tars are IARC Group 1 carcinogens; the EU forbids coal tar in cosmetics per Wikipedia.",
-    "structure": null
+  [
+   "EU status",
+   "Coal tar forbidden in cosmetics by a 2009 directive (per Wikipedia)"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Uses",
+   "paras": [
+    "Coal tar is used topically for dandruff, seborrheic dermatitis and psoriasis and is sold as shampoo, gel, cream or ointment for external use.[1] Brand names listed on Wikipedia include Balnetar and Cutar.[1]"
+   ]
   },
-  "quick": {
-    "overview": "Coal tar shampoo contains tar from coal processing and is sold over the counter for dandruff, seborrheic dermatitis and scalp psoriasis. It is known for its odor and staining.\n\nOlder studies reported it effective for these conditions, while a double-blind trial found a non-tar shampoo as effective for dandruff. It is not used for appearance beyond scalp flaking.",
-    "mechanism": "Coal tar is a complex mixture, and Wikipedia does not describe how it works; it is traditionally called keratolytic and anti-inflammatory.",
-    "risks": "Irritation, folliculitis, phototoxicity and contact dermatitis are reported. Coal tars are IARC Group 1 carcinogens, and Wikipedia reports the EU forbade coal tar in cosmetics in 2009."
+  {
+   "h": "Safety and regulation",
+   "paras": [
+    "Reported side effects include irritation, folliculitis, contact dermatitis, phototoxicity and pigmentation changes; coal tar is contraindicated in G6PD deficiency and, per Wikipedia, topical use raises concern about skin cancer because many constituents are polycyclic aromatic hydrocarbons.[1] The IARC lists coal tars as Group 1 carcinogens, and Wikipedia states a 2009 EU directive forbade coal tar in cosmetics.[1]",
+    "Research on shampoo specifically includes a 1980 Salmonella/liver test that found differing degrees of mutagenesis among coal tar shampoos, a 1994 Lancet study of dermal uptake of PAHs after washing with coal-tar shampoo, and 1995 Lancet letters on its carcinogenicity.[4][5][6][7]"
+   ]
+  },
+  {
+   "h": "What it is and how it works",
+   "paras": [
+    "Coal tar is a thick, dark by-product of turning coal into coke and coal gas. Wikipedia says it has been used medicinally since at least the 1800s and is sold for external use as a shampoo, gel, cream or ointment under names such as Balnetar and Cutar; older pharmacopoeial names include liquor carbonis detergens and liquor picis carbonis.[1] Wikipedia lists the mechanism of action as unknown, and the infobox on the wiki classifies tar shampoo as keratolytic and anti-dandruff, meaning it is thought to loosen and shed scale.[1]",
+    "A 1985 toxicology paper compared coal tar fractions isolated from pharmaceutical products, including a 4.3% coal tar shampoo, with other coal-derived materials, illustrating that products vary in composition and strength.[10] Manufacturing patents from the mid-1980s describe processes for making a clear, stable tar shampoo with consistent pH and viscosity, reflecting the formulation challenge of a dark, strongly scented raw material.[11][12]"
+   ]
+  },
+  {
+   "h": "Dandruff and seborrheic dermatitis context",
+   "paras": [
+    "Wikipedia's dandruff article describes an itchy, flaking scalp that affects an estimated 17 to 50 percent of adults, often beginning at puberty, and says Malassezia yeast and sebum breakdown products are implicated alongside individual susceptibility.[13] It describes treatment as control rather than cure, with antifungal ingredients such as ketoconazole, zinc pyrithione, selenium disulfide and piroctone olamine on one side and exfoliating ingredients such as coal tar and salicylic acid on the other.[13] It also notes that dandruff can affect self-esteem and social life.[13]"
+   ]
+  },
+  {
+   "h": "Practical characteristics",
+   "paras": [
+    "Wikipedia notes that tar products stain skin and hair, have a strong odor and are messy, which limits patient acceptance.[1] The 1980 Cutis paper, which evaluated an alkaline whole coal tar shampoo, also reported scanning electron microscopy findings and cosmetic improvements in hair body, luster and manageability, a claim from a study of a single product.[2]"
+   ]
+  },
+  {
+   "h": "Consumer coverage",
+   "paras": [
+    "British regional news outlets in 2026 ran syndicated consumer stories quoting users who described relief from a long-standing itchy scalp after switching to a low-cost medicated tar shampoo, with one headline referring to a shampoo used since the teenage years.[14][15] These are individual testimonials rather than studies."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A 1980 clinical re-evaluation of an alkaline whole coal tar shampoo reported efficacy in psoriasis, dandruff, seborrheic dermatitis and pruritus, along with cosmetic hair-condition improvements.[2]",
+    "In a randomized double-blind study of 60 volunteers with moderate to marked dandruff, a non-tar shampoo (2% salicylic acid, 0.75% piroctone olamine and 0.5% elubiol) was compared with a 0.5% coal tar shampoo over a 4-week treatment phase preceded by a 3-week washout and followed by a 4-week regression phase; the investigators reported the non-tar product was as effective.[3]",
+    "Safety-oriented research includes a 1994 controlled study in The Lancet measuring dermal uptake of polycyclic aromatic hydrocarbons after a hair wash with coal-tar shampoo, and 1995 letters debating its carcinogenic implications.[4][5][6] A 1980 laboratory study found that hexane extracts of three of four commercial tar shampoos were highly mutagenic in a Salmonella/liver test system while the fourth was not.[7] A registered study (NCT05105139) examined other shampoos in 90 people with scalp seborrheic dermatitis and psoriasis.[8]"
+   ]
   }
+ ],
+ "timeline": [],
+ "lore": {
+  "intro": "In lifting and acne-related forum threads, tar shampoo comes up as a drugstore item some people use on the body as well as the scalp.[9]",
+  "claims": [
+   {
+    "claim": "Tar shampoo can be used as a body wash to clear breakouts on the back",
+    "believers": "A T Nation poster wrote that a strong coal tar shampoo helped during breakout periods when little else removed the film on the skin, while noting that it smells and burns a little.[9]",
+    "experts": "No published trial has tested coal tar shampoo for back acne. Wikipedia lists irritation, folliculitis, contact dermatitis and phototoxicity as possible side effects of coal tar.[1]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Tar shampoo is a dependable choice for stubborn dandruff",
+    "believers": "Consumer testimonials in regional press describe fast relief from an itchy scalp with a tar-based product.[14][15]",
+    "experts": "A 2000 randomized trial found a non-tar shampoo as effective as a 0.5% tar shampoo for dandruff,[3] and older studies reported efficacy of tar shampoo in dandruff and seborrheic dermatitis.[2]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Tar shampoo carries a cancer risk",
+    "believers": "Commentators in The Lancet debated whether regular use could be carcinogenic, citing the polycyclic aromatic hydrocarbons in tar.[5][6]",
+    "experts": "IARC classifies coal tars as Group 1 carcinogens, and the European Union banned coal tar in cosmetics under a 2009 directive per Wikipedia; a 1994 study measured skin uptake of PAHs after washing with tar shampoo.[1][4]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Coal tar (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Coal_tar",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Whole coal tar shampoo: a therapeutic hair repair system",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7353401/",
+   "source": "Cutis",
+   "year": 1980,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Comparative anti-dandruff efficacy between a tar and a non-tar shampoo",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10773717/",
+   "source": "Dermatology",
+   "year": 2000,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "Dermal uptake of polycyclic aromatic hydrocarbons after hairwash with coal-tar shampoo",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7968140/",
+   "source": "The Lancet",
+   "year": 1994,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Carcinogenicity of coal-tar shampoo",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7837890/",
+   "source": "The Lancet",
+   "year": 1995,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Carcinogenic consequences of coal-tar shampoo?",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7783550/",
+   "source": "The Lancet",
+   "year": 1995,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Differing degrees of coal-tar shampoo-induced mutagenesis in the Salmonella/liver test system in vitro",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6990425/",
+   "source": "Pharmacology",
+   "year": 1980,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "NCT05105139: Study to Evaluate the Safety of Sebryl and Sebryl Plus in Seborrheic Dermatitis and Psoriasis of Scalp",
+   "url": "https://clinicaltrials.gov/study/NCT05105139",
+   "source": "ClinicalTrials.gov",
+   "year": 2021,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "T Nation forum: Clean Skin on My Back",
+   "url": "https://t-nation.com/t/clean-skin-on-my-back/110251",
+   "source": "T Nation",
+   "year": 2008,
+   "type": "forum"
+  },
+  {
+   "id": 10,
+   "title": "Comparative chemical and biological analysis of coal tar-based therapeutic agents to other coal-derived materials",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/3889120/",
+   "source": "Journal of Applied Toxicology",
+   "year": 1985,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "Process to produce a stable coal tar-containing shampoo (EP0207138)",
+   "url": "https://europepmc.org/article/PAT/EP0207138",
+   "source": "Patent",
+   "year": 1987,
+   "type": "study"
+  },
+  {
+   "id": 12,
+   "title": "Process to produce a stable coal tar-containing shampoo (WO8603679)",
+   "url": "https://europepmc.org/article/PAT/WO8603679",
+   "source": "Patent",
+   "year": 1986,
+   "type": "study"
+  },
+  {
+   "id": 13,
+   "title": "Dandruff (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Dandruff",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 14,
+   "title": "Woman stops itchy scalp with very good quality shampoo at 12 pounds",
+   "url": "https://www.liverpoolecho.co.uk/whats-on/shopping/polytar-scalp-shampoo-psoriasis-eczema-34579605",
+   "source": "Liverpool Echo",
+   "year": 2026,
+   "type": "news"
+  },
+  {
+   "id": 15,
+   "title": "Mature itchy scalp sufferers agree 9 pound shampoo used since teen is by far best",
+   "url": "https://www.bristolpost.co.uk/whats-on/shopping/polytar-shampoo-itchy-dry-scalp-11201346",
+   "source": "Bristol Post",
+   "year": 2026,
+   "type": "news"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Coal_tar",
+   "title": "Coal tar - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Dandruff",
+   "title": "Dandruff (Wikipedia)"
+  }
+ ],
+ "card": {
+  "summary": "An old-school tar-based dandruff and psoriasis shampoo with trial support for scalp flaking and long-running carcinogenicity debates.",
+  "aka": "Tar shampoo",
+  "evidence": "moderate",
+  "status": "otc",
+  "outcome": null,
+  "risk": null,
+  "price": null,
+  "note": "Coal tars are IARC Group 1 carcinogens; the EU forbids coal tar in cosmetics per Wikipedia.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Coal tar shampoo contains tar from coal processing and is sold over the counter for dandruff, seborrheic dermatitis and scalp psoriasis. It is known for its odor and staining.\n\nOlder studies reported it effective for these conditions, while a double-blind trial found a non-tar shampoo as effective for dandruff. It is not used for appearance beyond scalp flaking.",
+  "mechanism": "Coal tar is a complex mixture, and Wikipedia does not describe how it works; it is traditionally called keratolytic and anti-inflammatory.",
+  "risks": "Irritation, folliculitis, phototoxicity and contact dermatitis are reported. Coal tars are IARC Group 1 carcinogens, and Wikipedia reports the EU forbade coal tar in cosmetics in 2009."
+ }
 }

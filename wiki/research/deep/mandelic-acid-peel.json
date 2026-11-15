@@ -1,8 +1,9 @@
 {
  "name": "Mandelic acid peel",
  "lead": [
-  "A mandelic acid peel uses mandelic acid, an alpha-hydroxy acid described as gentle in the aesthetic literature, which notes azelaic and mandelic peels are commonly used across age groups [1]. Wikipedia's chemical peel article does not discuss mandelic acid specifically [4].",
-  "Published evidence is limited to a 2013 sebum study in mature women and a 2022 acne trial using a combined salicylic and mandelic peel [1][2]."
+  "A mandelic acid peel uses mandelic acid, an aromatic alpha-hydroxy acid, applied to the face to exfoliate the outer skin layers. People use it for a smoother, brighter-looking complexion, for acne-prone skin and for uneven pigmentation; Wikipedia says superficial peels can improve pigmentation and texture and that mandelic acid is considered usable across Fitzpatrick skin types.[5] An aesthetic-literature paper describes azelaic and mandelic peels as superficial peels commonly applied in people of various age groups and as mild.[1]",
+  "Mandelic acid has a larger molecule than glycolic acid, which is the reason proponents describe it as a gentler AHA that penetrates more slowly; this is the reasoning cited for choosing it in sensitive or darker skin, although that comparison is the proponents' claim rather than something the studies below tested directly.[1][5] Wikipedia's chemical peel article lists AHA peels as the mildest category and does not discuss mandelic acid specifically.[4]",
+  "Published evidence is limited to a 2013 sebum study in mature women and a 2022 acne trial using a combined salicylic and mandelic peel, with a melasma trial registered.[1][2][3] The American Academy of Dermatology is reported by Wikipedia to say that evidence is insufficient to recommend chemical peels, including mandelic acid peels, for acne.[5]"
  ],
  "infobox": [
   [
@@ -10,25 +11,62 @@
    "Superficial AHA chemical peel"
   ],
   [
+   "Compound",
+   "Mandelic acid (aromatic alpha-hydroxy acid)[5]"
+  ],
+  [
+   "Source",
+   "Discovered 1831 from bitter-almond amygdalin by Ferdinand Winckler[5]"
+  ],
+  [
    "Conditions studied",
-   "Sebum secretion in mature skin, acne tarda [1][2]"
+   "Sebum secretion in mature skin, acne tarda, melasma[1][2][3]"
+  ],
+  [
+   "Setting",
+   "Clinic or at-home products"
   ]
  ],
  "sections": [
   {
+   "h": "Chemistry and history",
+   "paras": [
+    "Mandelic acid is an aromatic alpha-hydroxy acid with the formula C6H5CH(OH)CO2H, a white crystalline solid soluble in water.[5] German pharmacist Ferdinand Ludwig Winckler discovered it in 1831 by heating amygdalin, an extract of bitter almonds, with dilute hydrochloric acid, and the name derives from the German word for almond.[5] It is a component of superficial chemical peels and also a precursor for drugs such as homatropine esters and cefamandole.[5]"
+   ]
+  },
+  {
+   "h": "Use as a peel",
+   "paras": [
+    "Wikipedia describes AHA peels in general as the mildest chemical peels, used for fine surface changes such as dryness, uneven pigmentation and acne, while medium-depth peels such as trichloroacetic acid require a medical provider.[4] The 2022 acne tarda study combined a 20 percent salicylic and 10 percent mandelic acid peel with oral isotretinoin.[2] A registered trial compares mandelic acid peel with intralesional tranexamic acid for melasma.[3] Another registered trial of a duosomal peel for the periocular and facial regions included 12 participants.[6]"
+   ]
+  },
+  {
    "h": "Clinical studies",
    "paras": [
-    "A 2013 Polish study measured facial sebum secretion in 28 women aged 49 to 71, of whom 11 received azelaic acid peels and 17 mandelic acid peels [1]. A 2022 randomized study of adult acne (acne tarda) compared low-dose oral isotretinoin alone with isotretinoin combined with a 20% salicylic and 10% mandelic acid peel [2]. A registered trial of mandelic acid peel versus intralesional tranexamic acid for melasma has not yet begun recruiting [3]."
+    "A 2013 Polish study measured facial sebum secretion in 28 women aged 49 to 71, of whom 11 received azelaic acid peels and 17 mandelic acid peels.[1] A 2022 randomized study of adult acne (acne tarda, typically affecting ages 25 to 45) compared low-dose oral isotretinoin alone with isotretinoin combined with a 20% salicylic and 10% mandelic acid peel; the authors note that isotretinoin monotherapy is not always effective and produces side effects with long treatment.[2] A registered trial of mandelic acid peel versus intralesional tranexamic acid for melasma (120 participants planned) has not yet begun recruiting.[3] The American Academy of Dermatology and a 2025 expert panel did not recommend peels including mandelic acid for acne, according to Wikipedia, the panel citing in part the cost and limited insurance coverage.[5]"
    ]
   },
   {
    "h": "Adverse effects",
    "paras": [
-    "The 2013 study's authors describe azelaic and mandelic peels as mild peels not causing side effects [1]. Wikipedia notes that light peels in general commonly cause stinging, redness and dryness [4]."
+    "The 2013 study's authors describe azelaic and mandelic peels as mild peels not causing side effects.[1] Wikipedia notes that light peels in general commonly cause stinging, redness and dryness, and lists photosensitivity, prolonged erythema, pigmentary changes, milia, skin atrophy and texture changes as possible complications of chemical peels more broadly.[4] Mandelic acid itself is described as moderately toxic if ingested, which concerns the pure chemical rather than cosmetic use.[5]"
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "1831",
+   "event": "Ferdinand Ludwig Winckler discovers mandelic acid from bitter-almond amygdalin.[5]"
+  },
+  {
+   "year": "2013",
+   "event": "Study compares azelaic and mandelic peels on sebum secretion in women aged 49 to 71.[1]"
+  },
+  {
+   "year": "2022",
+   "event": "Randomized study of isotretinoin with salicylic-mandelic peel for acne tarda.[2]"
+  }
+ ],
  "lore": null,
  "refs": [
   {
@@ -62,12 +100,32 @@
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
+  },
+  {
+   "id": 5,
+   "title": "Mandelic acid",
+   "url": "https://en.wikipedia.org/wiki/Mandelic_acid",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 6,
+   "title": "NCT07401342: Efficacy and Safety of a Duosomal Chemical Peel for Aesthetic Enhancement in the Periocular and Facial Regions",
+   "url": "https://clinicaltrials.gov/study/NCT07401342",
+   "source": "ClinicalTrials.gov",
+   "year": 2023,
+   "type": "trial"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Chemical_peel",
    "title": "Chemical peel - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Mandelic_acid",
+   "title": "Mandelic acid - Wikipedia"
   }
  ],
  "card": {
@@ -82,5 +140,15 @@
   "overview": "A mandelic acid peel is a mild alpha-hydroxy acid peel used for acne-prone and sensitive or mature skin.\n\nOnly two small published studies were found: one on sebum in older women and one on adult acne in combination with salicylic acid.",
   "mechanism": "It is a superficial exfoliating peel; researchers have measured its effect on sebum secretion.",
   "risks": "Authors of the sebum study describe it as mild with no side effects reported; light peels generally can cause stinging, redness and dryness."
+ },
+ "angle": {
+  "goal": "Skin quality (texture, tone, acne)",
+  "chain": [
+   "Acid applied to the face loosens the outer dead-skin layer",
+   "Exfoliation, lower surface oil and fading of surface pigment",
+   "Smoother, more even, clearer-looking skin"
+  ],
+  "effect": "claimed",
+  "text": "The peel is used as a gentle exfoliant to improve texture and tone and to reduce oiliness and breakouts. Wikipedia lists improvement of pigmentation and texture as an effect of superficial peels.[5]"
  }
 }

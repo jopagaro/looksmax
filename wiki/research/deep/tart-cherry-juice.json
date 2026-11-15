@@ -1,70 +1,466 @@
 {
-  "name": "Tart cherry juice",
-  "lead": [
-    "Tart cherry juice is juice from sour cherries (Prunus cerasus), most commonly the Montmorency cultivar, grown largely in Michigan [1]. It is drunk or taken as concentrate for exercise recovery and sleep, and appears in recovery and sleep routines in appearance communities.",
-    "Interest in it for sleep rests on the claim that tart cherries contain melatonin. A randomized crossover study of 20 volunteers examined whether a tart cherry juice concentrate raised urinary melatonin and improved sleep [2], and a pilot study examined the juice in older adults with insomnia [3]. Other trials examined exercise-induced muscle damage and soreness [4][5][6]."
+ "name": "Tart cherry juice",
+ "lead": [
+  "Tart cherry juice is juice from sour cherries (Prunus cerasus), most commonly the Montmorency cultivar, grown largely in Michigan.[1] People drink it, or take it as a concentrate, to support recovery after hard training and to help sleep. Both goals feed into appearance: faster recovery from muscle soreness means more consistent training and so more muscle and a better physique over time, and better sleep is widely discussed as supporting skin, energy and training capacity.",
+  "Interest in the juice for sleep rests on the observation that Montmorency cherries contain phytochemicals including melatonin, the hormone that helps regulate the sleep-wake cycle. A randomised, double-blind, placebo-controlled crossover study of 20 volunteers measured urinary melatonin and sleep after 7 days of a juice concentrate, and its authors concluded that the concentrate raised exogenous melatonin and was associated with improved sleep duration and quality.[2] A pilot crossover study of a proprietary cherry juice blend in older adults with insomnia examined subjective sleep reports.[3]",
+  "For recovery, the juice's anthocyanin pigments and other polyphenols are described as antioxidant and anti-inflammatory compounds. Trials in marathon runners, college students performing eccentric exercise and runners have measured muscle damage markers, strength loss and soreness.[4][5][6] A literature review in a sports-medicine journal summarised that tart cherry may lessen pain and speed strength recovery, and suggested it may be most relevant when recovery rather than adaptation is the priority.[11]",
+  "Tart cherry juice has a visible commercial and sports-nutrition culture around it. Cherry-industry sponsored content describes the juice as having a devoted following among professional athletes and recreational exercisers [23], researchers who have published on it describe faster recovery of muscle function after strenuous exercise as the most consistent finding [22], and independent trials in some sports, such as water polo and professional soccer, have reported no difference from placebo [16][24]."
+ ],
+ "angle": {
+  "goal": "Physique and recovery",
+  "chain": [
+   "Drunk as juice or concentrate around hard training and before bed",
+   "Studies report lower soreness and muscle-damage markers in some trials and higher urinary melatonin in one sleep trial",
+   "Quicker recovery and better sleep support more consistent training and a better physique"
   ],
-  "infobox": [
-    ["Type", "Fruit juice / dietary supplement"],
-    ["Source", "Prunus cerasus (Montmorency, Balaton)"],
-    ["Routes", "Oral"],
-    ["Used for", "Recovery, sleep"]
+  "effect": "indirect",
+  "text": "Lifters and endurance athletes use tart cherry juice around heavy training blocks hoping to feel less sore and return to training sooner, and some drink it in the evening for sleep. Better recovery and sleep are the route to more training volume and, over time, more muscle and a leaner look."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Fruit juice / dietary supplement"
   ],
-  "sections": [
-    {
-      "h": "Description",
-      "paras": [
-        "The juice is tart and red from anthocyanin pigments, and is sold as juice, concentrate and capsules [1]. Its prominence rose in the early 2000s after studies on cherries and inflammation and exercise recovery [1]."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "Sleep: a 2012 randomized, double-blind, placebo-controlled crossover study in 20 volunteers tested a concentrate on urinary melatonin and sleep quality [2]; a 2010 pilot study examined older adults with insomnia [3]; a further pilot in older adults with insomnia (20 participants) was registered in 2025 [7]. A 2016 review surveyed diet and sleep research [8].",
-        "Exercise recovery: a study of 20 recreational marathon runners tested juice before and after a marathon on markers of muscle damage, inflammation and oxidative stress [4]; a 2006 crossover trial in 14 male students tested a cherry juice blend against exercise-induced muscle damage [5]; a randomized trial examined muscle pain during running [6].",
-        "Other registered studies cover oxidative stress, uric acid, cardiovascular risk and chemotherapy-related neuropathy [9][10]. The effect sizes and conclusions of these studies were not reviewed in detail."
-      ]
-    },
-    {
-      "h": "Safety",
-      "paras": [
-        "The juice contains sugar, and the product is generally sold as a food. Specific adverse-effect data were not available in the sources reviewed."
-      ]
-    }
+  [
+   "Source",
+   "Prunus cerasus (Montmorency, Balaton)[1]"
   ],
-  "timeline": [
-    { "year": "2006", "event": "Trial of a tart cherry juice blend on exercise-induced muscle damage [5]." },
-    { "year": "2010", "event": "Pilot study in older adults with insomnia and marathon-recovery study [3][4]." },
-    { "year": "2012", "event": "Crossover study of tart cherry concentrate, melatonin and sleep [2]." }
+  [
+   "Forms",
+   "Bottled juice, concentrate, freeze-dried powder and capsules [21]"
   ],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Tart cherry juice", "url": "https://grokipedia.com/page/Tart_cherry_juice", "source": "Grokipedia", "year": 2026, "type": "encyclopedia" },
-    { "id": 2, "title": "Effect of tart cherry juice (Prunus cerasus) on melatonin levels and enhanced sleep quality", "url": "https://pubmed.ncbi.nlm.nih.gov/22038497/", "source": "Eur J Nutr", "year": 2012, "type": "trial" },
-    { "id": 3, "title": "Effects of a tart cherry juice beverage on the sleep of older adults with insomnia: a pilot study", "url": "https://pubmed.ncbi.nlm.nih.gov/20438325/", "source": "J Med Food", "year": 2010, "type": "trial" },
-    { "id": 4, "title": "Influence of tart cherry juice on indices of recovery following marathon running", "url": "https://pubmed.ncbi.nlm.nih.gov/19883392/", "source": "Scand J Med Sci Sports", "year": 2010, "type": "trial" },
-    { "id": 5, "title": "Efficacy of a tart cherry juice blend in preventing the symptoms of muscle damage", "url": "https://pubmed.ncbi.nlm.nih.gov/16790484/", "source": "Br J Sports Med", "year": 2006, "type": "trial" },
-    { "id": 6, "title": "Efficacy of tart cherry juice in reducing muscle pain during running", "url": "https://pubmed.ncbi.nlm.nih.gov/20459662/", "source": "J Int Soc Sports Nutr", "year": 2010, "type": "trial" },
-    { "id": 7, "title": "Tart Cherry Juice for Sleep in Older Adults With Insomnia (NCT06786494)", "url": "https://clinicaltrials.gov/study/NCT06786494", "source": "ClinicalTrials.gov", "year": 2025, "type": "trial" },
-    { "id": 8, "title": "Effects of Diet on Sleep Quality", "url": "https://pubmed.ncbi.nlm.nih.gov/27633109/", "source": "Adv Nutr", "year": 2016, "type": "review" },
-    { "id": 9, "title": "Tart cherry juice decreases oxidative stress in healthy older men and women", "url": "https://pubmed.ncbi.nlm.nih.gov/19692530/", "source": "J Nutr", "year": 2009, "type": "trial" },
-    { "id": 10, "title": "Tart Cherry Juice for Prevention of Paclitaxel-Induced Neuropathy (NCT06268665)", "url": "https://clinicaltrials.gov/study/NCT06268665", "source": "ClinicalTrials.gov", "year": 2024, "type": "trial" }
+  [
+   "Routes",
+   "Oral [1]"
   ],
-  "webSources": [],
-  "card": {
-    "summary": "A sour-cherry juice used for recovery and as a melatonin source; trials are small and sleep results unreviewed here.",
-    "aka": "Montmorency cherry juice, sour cherry juice",
-    "evidence": "limited",
-    "status": "otc",
-    "outcome": null,
-    "risk": null,
-    "price": null,
-    "note": "Studies are small; the juice contains sugar.",
-    "structure": null
+  [
+   "Key constituents",
+   "Anthocyanins, other polyphenols, melatonin [2][11]"
+  ],
+  [
+   "Used for",
+   "Exercise recovery, sleep"
+  ],
+  [
+   "Nutrition (per cup, Wikipedia)",
+   "About 159 kcal and 33 g sugars [21]"
+  ],
+  [
+   "First recovery trial",
+   "Connolly and colleagues, University of Vermont, 2006 [5][22]"
+  ],
+  [
+   "Regulatory status",
+   "Sold as a food or dietary supplement"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "The juice is tart and deep red because of anthocyanin pigments, and is sold as bottled juice, concentrate, freeze-dried powder and capsules.[1][21] Cherry juice in general is made by pressing cherries, filtering and usually pasteurising the liquid; hot extraction gives a deeper colour while cold extraction keeps a flavour closer to fresh cherries, and beverage versions are often diluted, sweetened or carbonated.[21] Montmorency is the best-known sour variety in the United States, and Balaton cherries are another sour variety used in studies.[1] Wikipedia lists U.S. production mainly in Wisconsin, with smaller amounts in other states, while Grokipedia names Michigan as a leading growing region.[1][21]",
+    "Wikipedia's nutrition figures give roughly 159 calories and 33 g of sugars per cup (about 240 mL) of cherry juice, with potassium and thiamine contributing meaningfully to daily values.[21] Cherry juice has a long food history: Wikipedia notes that Herodotus mentioned a people who drank it and that the ancient Romans did too.[21]",
+    "Its profile in sport rose in the 2000s as research groups published trials on cherries and exercise-induced muscle damage and on sleep, and sports-nutrition reviews began including it among recovery aids.[1][5][12] Retail products now range from single-strength juice to concentrates diluted in water, and from recovery drinks to bars, chews and gummies marketed with Montmorency cherries.[23]"
+   ]
   },
-  "quick": {
-    "overview": "Tart cherry juice comes from sour Montmorency cherries and is sold as juice or concentrate. People use it for exercise recovery and as a food source of melatonin before bed.\n\nStudies on sleep and muscle soreness exist but are small, with limited sample sizes.",
-    "mechanism": "Proponents point to melatonin and anthocyanin antioxidants; researchers have measured urinary melatonin, inflammation and muscle-damage markers.",
-    "risks": "It is a food product with sugar content; the sources reviewed give little data on adverse effects."
+  {
+   "h": "History of the research",
+   "paras": [
+    "Glyn Howatson, a sports scientist who co-authored several of the trials, traces the work to about 2006, when Connolly and McHugh at the University of Vermont reported that in an isolated muscle-damage model tart cherry juice sped recovery of muscle function and reduced soreness compared with placebo.[5][22] He describes later studies from UK and US laboratories reporting a benefit on at least one outcome after eccentric damage, marathon running, cycling, repeated-day exercise and team sports, with mixed results for inflammation and oxidative stress that he attributes to differences in exercise type and intensity.[22]",
+    "Howatson's summary is that the most consistent finding is faster recovery of muscle function in the days after hard exercise, and that the positive response is seen only with Montmorency tart cherries rather than cherries in general.[22] He is a co-author of some of the cited studies, and his site sells courses and products. Sleep research followed from the observation that the fruit contains melatonin, leading to the 2010 pilot in older adults with insomnia and the 2012 crossover study of urinary melatonin and sleep.[2][3]"
+   ]
+  },
+  {
+   "h": "Uses",
+   "subs": [
+    {
+     "h": "Exercise recovery",
+     "paras": [
+      "Athletes in running, team sports and gym training drink the juice in the days around a hard session or event. The sports-medicine review notes that studies have commonly used a multi-day lead-in before an event and continued for a few days afterwards, and that the juice may be less suited to the adaptation phase of training, where some inflammation is part of the training signal.[11]",
+      "A 2018 review of supplements for athletes lists tart cherry among the products investigated for recovery.[12] A 2020 meta-analysis examined whether tart cherry concentrate changes endurance performance tests in healthy participants, noting that evidence for acute endurance benefits had been scarce.[13]",
+      "Howatson suggests that because the main compounds peak in the blood within a few hours of intake and fall back within roughly eight hours, multi-day loading used in early studies may not be necessary, and he proposes servings after exercise until soreness resolves; he describes this as reasoning from pharmacokinetics rather than a tested protocol.[22] Sponsored industry content describes products such as single-serve recovery beverages built around Montmorency cherries.[23]"
+     ]
+    },
+    {
+     "h": "Sleep",
+     "paras": [
+      "People take the juice in the evening because of its reported melatonin content. Narrative reviews of nutrition and sleep list tart cherry juice among foods and nutrients that have been shown in some studies to improve aspects of sleep, alongside melatonin, tryptophan-rich protein and kiwifruit.[8][14] A 2022 randomised trial in elite female field hockey players examined Montmorency juice and sleep quality after intermittent exercise.[15]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "subs": [
+    {
+     "h": "Sleep",
+     "paras": [
+      "A 2012 randomised, double-blind, placebo-controlled crossover study in 20 healthy volunteers gave a tart cherry juice concentrate or placebo for 7 days, and measured sleep by actigraphy and questionnaires and urinary 6-sulfatoxymelatonin over 48 hours. Total melatonin content was reported as elevated, and the authors concluded the concentrate increased melatonin intake and was beneficial for sleep duration and quality.[2]",
+      "A 2010 pilot study in older adults with insomnia used a randomised, double-blind crossover design: each participant received a proprietary cherry juice blend and a placebo beverage for 2 weeks each, with a 2-week washout between them, and sleep continuity measures such as sleep onset, wake after sleep onset and total sleep time were examined.[3] A further 20-person pilot in older adults with insomnia, focused on feasibility and mechanisms, was registered in 2025.[7]"
+     ]
+    },
+    {
+     "h": "Exercise recovery",
+     "paras": [
+      "In a 2010 study, 20 recreational marathon runners took tart cherry juice or placebo for 5 days before, the day of and 48 hours after a marathon, with markers of muscle damage (creatine kinase, lactate dehydrogenase, soreness, isometric strength), inflammation (IL-6, CRP, uric acid) and oxidative status measured.[4]",
+      "A 2006 randomised, placebo-controlled crossover trial in 14 male college students gave 12 fl oz of a cherry juice blend or placebo twice daily for eight days around a bout of eccentric elbow flexion contractions, testing whether it prevented the symptoms of exercise-induced muscle damage.[5] A 2010 randomised trial examined muscle pain during running.[6]",
+      "Results are not uniform across studies. A 2020 trial in professional soccer players reported no effect of tart cherry juice on muscle function loss or muscle soreness after a match.[16] A 2024 randomised trial compared the juice with a sports drink on cycling performance, substrate metabolism and recovery,[17] and a 2026 systematic review and meta-analysis pooled trials on recovery from exercise-induced muscle damage in athletes.[18]",
+      "A randomised, double-blind crossover trial of six days of tart cherry juice or placebo in nine well-trained water polo athletes reported no differences in any performance or recovery measure, and the authors suggested the intermittent, non-weight-bearing demands of the sport may not produce enough inflammation or oxidative stress for the juice to make a difference.[24] Sponsored coverage cites a UK study of 20 female dancers that found less self-reported soreness without differences in other muscle function measures, and a small cyclist study that reported improved 15 km time-trial performance, with two participants describing the gain as minimal.[23]"
+     ]
+    },
+    {
+     "h": "Inflammation and other markers",
+     "paras": [
+      "A 2009 trial reported that the juice decreased oxidative stress in healthy older men and women,[9] and a 2018 randomised crossover pilot study examined inflammation markers in overweight and obese subjects.[19] A pharmacokinetic study in people with a history of gout quantified the main anthocyanin in a juice concentrate.[20] Registered trials also address paclitaxel-induced neuropathy.[10]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "paras": [
+    "Researchers attribute the juice's proposed effects to two groups of compounds. Anthocyanins such as cyanidin-3-glucosylrutinoside are antioxidant and anti-inflammatory polyphenols, and their absorption has been characterised in humans.[20] Melatonin is the other candidate: the 2012 study measured its main urinary metabolite and interpreted rises as evidence of exogenous melatonin from the juice.[2]"
+   ]
+  },
+  {
+   "h": "Safety",
+   "paras": [
+    "Tart cherry juice is sold as a food. It contains sugar, so concentrate and juice contribute calories and carbohydrate, and products differ between single-strength juice and concentrates. Published trials above reported results on recovery and sleep markers rather than a defined adverse-effect profile, and people with specific medical conditions or on medication commonly consult a clinician about supplements in general."
+   ]
+  },
+  {
+   "h": "In looksmaxxing and fitness communities",
+   "paras": [
+    "Tart cherry juice appears in recovery and sleep routines alongside magnesium, glycine and similar items, and in bodybuilding and endurance circles as a food-based recovery aid. On T Nation, lifters list it in training-log diets, for example 10 oz of tart cherry juice pre-workout alongside coffee, magnesium and a whey shake,[25] and one member notes that beet juice and tart cherry juice are big in the running and endurance world.[26]",
+    "It is typically discussed as a low-risk addition for people trying to train more often and sleep better, with appearance benefits understood as downstream of those goals. Wikipedia states that claims that it improves sleep in people with insomnia lack good evidence, while narrative nutrition reviews list it among foods studied for sleep.[21][8][14]"
+   ]
+  },
+  {
+   "h": "Marketing and sponsorship",
+   "paras": [
+    "Much of the popular coverage of tart cherry juice for athletes is produced by growers, processors and brands. A search of coverage turns up sponsored articles for Montmorency cherries, promotional pieces citing sleep gains, and brand-ambassador arrangements with athletes, and one 2022 trade article carries a cherry-industry sponsored-content path.[23] Researchers and reviewers themselves describe the clinical evidence as small studies with mixed outcomes by sport and marker.[11][22]"
+   ]
   }
+ ],
+ "timeline": [
+  {
+   "year": "2006",
+   "event": "Connolly and colleagues report a trial of a tart cherry juice blend on exercise-induced muscle damage.[5][22]"
+  },
+  {
+   "year": "2009",
+   "event": "Trial reports reduced oxidative stress in healthy older adults.[9]"
+  },
+  {
+   "year": "2010",
+   "event": "Pilot study in older adults with insomnia; marathon-recovery and running-pain trials published.[3][4][6]"
+  },
+  {
+   "year": "2012",
+   "event": "Crossover study of tart cherry concentrate, urinary melatonin and sleep.[2]"
+  },
+  {
+   "year": "2016",
+   "event": "Howatson publishes an overview of Montmorency cherries in recovery, updated in 2020.[22]"
+  },
+  {
+   "year": "2017",
+   "event": "Sports-medicine review summarises tart cherry juice in athletes.[11]"
+  },
+  {
+   "year": "2020",
+   "event": "Soccer trial and endurance-performance meta-analysis published.[13][16]"
+  },
+  {
+   "year": "2024",
+   "event": "Randomised trial compares tart cherry juice with a sports drink on cycling performance and recovery.[17]"
+  },
+  {
+   "year": "2026",
+   "event": "Systematic review and meta-analysis on recovery from exercise-induced muscle damage in athletes.[18]"
+  }
+ ],
+ "lore": {
+  "intro": "In fitness and lifting communities tart cherry juice is mentioned as a recovery and sleep add-on and appears in training-log diets, with most detailed claims coming from sports scientists and sponsored industry content rather than looksmaxxing forums.[25][22][23]",
+  "claims": [
+   {
+    "claim": "It speeds recovery from hard training so you can train more.",
+    "believers": "Researchers who published trials and industry content say athletes use it to recover muscle function and reduce soreness faster between sessions.[22][23]",
+    "experts": "Trials in marathon runners and eccentric-exercise models reported benefits on strength recovery and soreness, while trials in professional soccer and water polo reported no difference from placebo.[4][5][16][24]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Only Montmorency tart cherries work, not other cherries.",
+    "believers": "Howatson states that the recovery response is evident only with Montmorency tart cherries.[22]",
+    "experts": "The trials reviewed have mostly used Montmorency or similar sour cherry products; reviews note small studies and varied formulations.[11][18]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "It improves sleep through its melatonin content.",
+    "believers": "Users take it in the evening for melatonin, and a 2012 crossover study of 20 volunteers reported higher urinary melatonin and better sleep measures.[2]",
+    "experts": "Narrative reviews list tart cherry among foods studied for sleep, while Wikipedia says claims for insomnia lack good evidence; the trials are small.[8][14][21]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "A multi-day loading phase is needed before an event.",
+    "believers": "Early trials used several days of lead-in dosing.[4]",
+    "experts": "Howatson argues from blood-level timing that loading may be unnecessary, and says this is reasoning rather than a tested protocol.[22]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "It is best for recovery periods, not for building adaptations.",
+    "believers": "Some athletes time it around competition rather than heavy training blocks.",
+    "experts": "A sports-medicine review suggests it may be most relevant when recovery rather than adaptation is the priority.[11]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Its anthocyanins lower inflammation and oxidative stress.",
+    "believers": "Proponents cite antioxidant polyphenols as the mechanism.[22]",
+    "experts": "A 2009 trial reported lower oxidative stress in older adults and a 2018 pilot examined inflammation markers in overweight adults; results for exercise-related inflammation markers are mixed.[9][19][22]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Tart cherry juice",
+   "url": "https://grokipedia.com/page/Tart_cherry_juice",
+   "source": "Grokipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Effect of tart cherry juice (Prunus cerasus) on melatonin levels and enhanced sleep quality",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22038497/",
+   "source": "Eur J Nutr",
+   "year": 2012,
+   "type": "trial"
+  },
+  {
+   "id": 3,
+   "title": "Effects of a tart cherry juice beverage on the sleep of older adults with insomnia: a pilot study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20438325/",
+   "source": "J Med Food",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "Influence of tart cherry juice on indices of recovery following marathon running",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19883392/",
+   "source": "Scand J Med Sci Sports",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "Efficacy of a tart cherry juice blend in preventing the symptoms of muscle damage",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16790484/",
+   "source": "Br J Sports Med",
+   "year": 2006,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Efficacy of tart cherry juice in reducing muscle pain during running",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20459662/",
+   "source": "J Int Soc Sports Nutr",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Tart Cherry Juice for Sleep in Older Adults With Insomnia (NCT06786494)",
+   "url": "https://clinicaltrials.gov/study/NCT06786494",
+   "source": "ClinicalTrials.gov",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Effects of Diet on Sleep Quality",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27633109/",
+   "source": "Adv Nutr",
+   "year": 2016,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "Tart cherry juice decreases oxidative stress in healthy older men and women",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19692530/",
+   "source": "J Nutr",
+   "year": 2009,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Tart Cherry Juice for Prevention of Paclitaxel-Induced Neuropathy (NCT06268665)",
+   "url": "https://clinicaltrials.gov/study/NCT06268665",
+   "source": "ClinicalTrials.gov",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Tart Cherry Juice in Athletes: A Literature Review and Commentary",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28696985/",
+   "source": "Curr Sports Med Rep",
+   "year": 2017,
+   "type": "review"
+  },
+  {
+   "id": 12,
+   "title": "Dietary Supplements for Health, Adaptation, and Recovery in Athletes",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29345167/",
+   "source": "Int J Sport Nutr Exerc Metab",
+   "year": 2018,
+   "type": "review"
+  },
+  {
+   "id": 13,
+   "title": "Effect of Tart Cherry Concentrate on Endurance Exercise Performance: A Meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31986108/",
+   "source": "J Am Coll Nutr",
+   "year": 2020,
+   "type": "review"
+  },
+  {
+   "id": 14,
+   "title": "Sleep and Nutrition Interactions: Implications for Athletes",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30979048/",
+   "source": "Nutrients",
+   "year": 2019,
+   "type": "review"
+  },
+  {
+   "id": 15,
+   "title": "Effects of Short-Term Intake of Montmorency Tart Cherry Juice on Sleep Quality after Intermittent Exercise in Elite Female Field Hockey Players",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36011907/",
+   "source": "Int J Environ Res Public Health",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 16,
+   "title": "Tart Cherry Juice: No Effect on Muscle Function Loss or Muscle Soreness in Professional Soccer Players After a Match",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31188696/",
+   "source": "Int J Sports Physiol Perform",
+   "year": 2020,
+   "type": "trial"
+  },
+  {
+   "id": 17,
+   "title": "The effect of tart cherry juice compared to a sports drink on cycling exercise performance, substrate metabolism, and recovery",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39141644/",
+   "source": "PLoS One",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 18,
+   "title": "Effects of Tart Cherry Juice Supplementation on Recovery from Exercise-Induced Muscle Damage in Athletes: A Systematic Review and Meta-Analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41945263/",
+   "source": "Sports Med Open",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 19,
+   "title": "Authentic tart cherry juice reduces markers of inflammation in overweight and obese subjects: a randomized, crossover pilot study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30255184/",
+   "source": "Food Funct",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 20,
+   "title": "Pharmacokinetics and Pharmacodynamics of Anthocyanins after Administration of Tart Cherry Juice to Individuals with Gout",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36843307/",
+   "source": "Mol Nutr Food Res",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 21,
+   "title": "Wikipedia: Cherry juice",
+   "url": "https://en.wikipedia.org/wiki/Cherry_juice",
+   "source": "Wikipedia",
+   "type": "encyclopedia"
+  },
+  {
+   "id": 22,
+   "title": "Bitter-sweet application of Montmorency cherries in recovery (Glyn Howatson)",
+   "url": "https://www.mysportscience.com/post/2016/11/05/bitter-sweet-application-of-montmorency-cherries-in-recovery",
+   "source": "mysportscience.com",
+   "year": 2016,
+   "type": "news"
+  },
+  {
+   "id": 23,
+   "title": "Montmorency tart cherries: the hottest new performance food",
+   "url": "https://www.preparedfoods.com/articles/122022-montmorency-tart-cherries-the-hottest-new-performance-food",
+   "source": "Prepared Foods (sponsored content)",
+   "year": 2022,
+   "type": "news"
+  },
+  {
+   "id": 24,
+   "title": "Effect of tart cherry juice on recovery and next-day performance in well-trained water polo players",
+   "url": "https://www.springermedicine.com/effect-of-tart-cherry-juice-on-recovery-and-next-day-performance/22891410",
+   "source": "Springer Medicine",
+   "type": "trial"
+  },
+  {
+   "id": 25,
+   "title": "Cookies and Beer Most of the Year (training log)",
+   "url": "https://t-nation.com/t/cookies-and-beer-most-of-the-year/234174",
+   "source": "T Nation",
+   "year": 2017,
+   "type": "forum"
+  },
+  {
+   "id": 26,
+   "title": "Adarqui's Journal (training log)",
+   "url": "https://t-nation.com/t/adarquis-journal/235380",
+   "source": "T Nation",
+   "year": 2017,
+   "type": "forum"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Cherry_juice",
+   "title": "Cherry juice - Wikipedia"
+  },
+  {
+   "url": "https://www.mysportscience.com/post/2016/11/05/bitter-sweet-application-of-montmorency-cherries-in-recovery",
+   "title": "Bitter-sweet application of Montmorency cherries in recovery"
+  },
+  {
+   "url": "https://www.preparedfoods.com/articles/122022-montmorency-tart-cherries-the-hottest-new-performance-food",
+   "title": "Montmorency tart cherries: the hottest new performance food"
+  },
+  {
+   "url": "https://www.springermedicine.com/effect-of-tart-cherry-juice-on-recovery-and-next-day-performance/22891410",
+   "title": "Tart cherry juice, recovery and next-day performance in water polo players"
+  }
+ ],
+ "card": {
+  "summary": "A sour-cherry juice drunk after hard training and before bed to support recovery and sleep, and through them consistent training and physique.",
+  "aka": "Montmorency cherry juice, sour cherry juice",
+  "evidence": "limited",
+  "status": "otc",
+  "outcome": null,
+  "risk": null,
+  "price": null,
+  "note": "Studies are small; the juice contains sugar.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Tart cherry juice comes from sour Montmorency cherries and is sold as juice or concentrate. People use it around hard training to reduce soreness and in the evening as a food source of melatonin, with the aim of training more consistently and sleeping better.\n\nTrials in marathon runners, students and team-sport athletes have measured soreness, strength and inflammation markers, with mixed results by sport, and a 2012 crossover study reported higher urinary melatonin and better sleep measures.",
+  "how": "It is drunk as single-strength juice or diluted concentrate, or taken as capsules, usually in the days around a hard session or event and sometimes in the evening. People often pair it with other recovery and sleep habits.",
+  "risks": "It is a food product with natural sugar content, so concentrates add calories. Trials have focused on recovery and sleep markers rather than adverse effects, and results on soreness differ between studies."
+ }
 }

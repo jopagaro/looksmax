@@ -21,6 +21,14 @@
   [
    "Administered by",
    "Clinicians in a clinic setting"
+  ],
+  [
+   "Mechanism",
+   "Thermal coagulation points in deep dermis and fascia[1][2]"
+  ],
+  [
+   "Setting",
+   "In-clinic, operator-guided with ultrasound imaging[3][4]"
   ]
  ],
  "sections": [
@@ -28,7 +36,16 @@
    "h": "Description",
    "paras": [
     "Ultherapy Prime uses ultrasound imaging during treatment so the operator can see tissue layers before delivering energy. A preprint comparing the original system with Prime reported that the newer device has enhanced visualization and reduced visual noise.[4] A published pilot case series describes Prime as having an advanced processor and improved imaging.[3]",
-    "Treatment areas described in a survey of patients include the brow, the lax submental and neck areas, and lines on the decolletage.[1]"
+    "Treatment areas described in a survey of patients include the brow, the lax submental and neck areas, and lines on the decolletage.[1]",
+    "The Asia Pacific pilot case series notes that microfocused ultrasound with real-time visualization is established as a noninvasive lifting treatment, and states that Prime adds an advanced processor and improved imaging; the authors undertook the series because published Prime data in Asian patients were lacking.[3]",
+    "The preprint comparing the two generations states that its aim was to compare the visualization components and visual-noise reduction of the older and newer systems and to gather survey and case results from an early-experience program.[4]"
+   ]
+  },
+  {
+   "h": "Treatment areas and appearance goals",
+   "paras": [
+    "Brow lifting, tightening of lax skin under the chin and along the neck, and improving lines on the decolletage are the uses named in the survey literature, and a 2026 Dermatologic Clinics review adds 2025 US clearance for the abdomen and arms.[1][2] For appearance purposes, treatment of the submental and neck region is the part people associate with a sharper jaw and neck angle, and brow treatment with a lifted brow line; both claim to change contour by tightening tissue rather than adding volume.[1][2]",
+    "Ultherapy Prime is positioned in the literature as an update to the original device, referred to in the preprint literature as MFU-V 1.0 versus MFU-V 2.0, with the later system described as offering enhanced visualization and processing capabilities, with potential gains in precision and patient comfort.[2][4]"
    ]
   },
   {
@@ -40,18 +57,43 @@
   {
    "h": "Adverse effects and tolerability",
    "paras": [
-    "A 2025 survey study compared patient-reported pain, erythema and edema after facial lifting with Ultherapy Prime and the older Ultherapy Legacy system.[1] A 2026 review of MFU-V discusses safety and technical considerations of the modality as a whole.[2]"
+    "A 2025 survey study compared patient-reported pain, erythema and edema after facial lifting with Ultherapy Prime and the older Ultherapy Legacy system.[1] A 2026 review of MFU-V discusses safety and technical considerations of the modality as a whole.[2]",
+    "The survey study asked patients to report pain, erythema and swelling after facial lifting with Prime or the older Legacy system, which are the effects usually discussed for the modality.[1] The 2026 review describes MFU-V as having a favorable safety profile across anatomic regions, while noting that the improved Prime processing may improve patient comfort.[2]"
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing culture",
+   "paras": [
+    "In looksmaxxing discussion the procedure is grouped with non-surgical options for jawline and neck definition and is compared with surgical lifts and with other energy devices; there are few forum threads specific to the Prime model, so most of the community framing is by category. Clinicians in the published material describe it as an in-clinic procedure performed by trained operators rather than a home device.[3][4]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
     "A 2025 survey study compared patient-reported pain, erythema and edema between Ultherapy Prime and the Legacy system.[1] An Asia Pacific pilot case series described early experience with Prime, noting that published data in Asian patients had been lacking.[3] A 2025 preprint compared ultrasound visualization between the two systems and reported survey and case results from an early-experience program.[4]",
-    "Two trials registered on ClinicalTrials.gov were recruiting at the time of writing: one examining long-term efficacy and duration of MFU-V at multiple depths (20 participants) and one examining visualization-guided treatment of the SMAS layer for facial laxity (50 participants).[5][6]"
+    "Two trials registered on ClinicalTrials.gov were recruiting at the time of writing: one examining long-term efficacy and duration of MFU-V at multiple depths (20 participants) and one examining visualization-guided treatment of the SMAS layer for facial laxity (50 participants).[5][6]",
+    "The pilot case series, survey and preprint are early-experience reports for the Prime model; the broader evidence base for microfocused ultrasound with visualization is summarised in the 2026 review of clinical applications, safety and technical considerations.[2][3][1][4]"
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "2025",
+   "event": "Survey study of pain, erythema and edema with Ultherapy Prime versus Legacy published; US clearance for MFU-V on abdomen and arms.[1][2]"
+  },
+  {
+   "year": "2025",
+   "event": "Asia Pacific pilot case series on Prime published.[3]"
+  },
+  {
+   "year": "2025",
+   "event": "Preprint compares ultrasound visualization of Ultherapy and Prime.[4]"
+  },
+  {
+   "year": "2026",
+   "event": "Dermatologic Clinics review of MFU-V for skin tightening.[2]"
+  }
+ ],
  "lore": null,
  "refs": [
   {
@@ -115,8 +157,18 @@
   "structure": null
  },
  "quick": {
-  "overview": "Ultherapy Prime is a newer version of the Ultherapy skin-lifting device. It uses focused ultrasound, guided by live imaging, to heat tissue beneath the skin at chosen depths.\n\nIt is used in clinics for brow, neck, under-chin and decolletage lifting. Published data on the Prime model are so far early case series and a survey.",
+  "overview": "Ultherapy Prime is a newer version of the Ultherapy skin-lifting device. It uses focused ultrasound, guided by live imaging, to heat tissue beneath the skin at chosen depths.\nIt is used in clinics for brow, neck, under-chin and decolletage lifting. Published data on the Prime model are so far early case series and a survey.",
   "mechanism": "Focused ultrasound creates tiny heat points in the deep dermis and fascia, which is reported to stimulate new collagen and elastin and a tightening effect.",
   "risks": "A 2025 survey compared patient-reported pain, redness and swelling between Prime and the older system. Treatment is performed by clinicians; the MFU-V category is FDA-cleared for several body areas."
+ },
+ "angle": {
+  "goal": "Jawline / neck / brow lift",
+  "chain": [
+   "Focused ultrasound heats tiny points in the deep dermis and SMAS layer",
+   "Tissue coagulation triggers a wound-repair response and new collagen",
+   "Skin tightens and lifts over following months: firmer brow, jaw and neck line"
+  ],
+  "effect": "direct",
+  "text": "Clinicians use the device to tighten loose skin along the brow, jawline, under the chin and neck without incisions. Patients describe it as a lunchtime lifting treatment, with results building as collagen forms over time."
  }
 }

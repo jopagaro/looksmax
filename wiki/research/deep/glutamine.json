@@ -1,29 +1,424 @@
 {
-"name": "Glutamine",
-"card": {"summary": "The most abundant amino acid in blood, sold as a muscle-recovery supplement; its clinical evidence lies in medicine, not physique.", "aka": "L-glutamine, Gln, Endari (Rx brand)", "evidence": "unproven", "status": "otc", "price": null, "note": "A prescription L-glutamine powder is FDA-approved for sickle cell disease; no trials in the reference material test it for muscle gain.", "structure": "L-Glutamine"},
-"quick": {
-"overview": "Glutamine is a conditionally essential amino acid that the body makes in large amounts, mostly in muscle. It is sold as a supplement, often to people who lift weights, with the idea that it supports recovery and muscle retention.\n\nThe documented clinical uses are medical. A prescription form was approved by the US FDA in 2017 for sickle cell disease, and it is used in some hospital nutrition settings, where evidence is described as low quality.",
-"mechanism": "Glutamine is a protein building block, a nitrogen carrier between organs, and a fuel for gut-lining and immune cells. It is also used to make glutathione. Supplement marketing builds on these roles, but the reference sources reviewed here do not report trials showing muscle growth in healthy lifters.",
-"risks": "Wikipedia describes supplemental glutamine as considered safe in adults, with an observed safe level of 14 g/day in healthy adults, and notes adverse effects in people on home parenteral nutrition or with liver abnormalities. Side effects of the prescription form include constipation, nausea, headache and abdominal pain."
-},
-"lead": ["Glutamine (Gln, Q) is an alpha-amino acid used in protein synthesis and the most abundant free amino acid in human blood. It is classed as non-essential but conditionally essential, because demand can exceed supply during stress such as illness or injury.[1][2] Roughly 90 percent of it is made in muscle tissue, and the intestines, kidneys, activated immune cells and many cancer cells use it heavily.[2]","In appearance-related communities it is sold as a supplement for muscle recovery and muscle preservation, and it appears in combination products marketed for body composition.[3] Its documented clinical uses are different: an oral L-glutamine powder was approved by the US FDA in 2017 for reducing complications of sickle cell disease, and glutamine has been studied in surgery, critical illness and gut disorders.[2][4]","Wikipedia's article does not discuss bodybuilding or athletic performance evidence, and the reference material reviewed for this entry contains no trial of glutamine supplementation for muscle gain in healthy people.[2]"],
-"infobox": [["Type","Amino acid (conditionally essential)"],["Formula","C5H10N2O3"],["Molar mass","146.1 g/mol"],["Routes","Oral; intravenous (clinical)"],["Prescription form","Endari (oral powder), FDA-approved 2017 for sickle cell disease"],["Legal status","Dietary supplement; Rx product for sickle cell"]],
-"sections": [
-{"h":"Biology","paras":["Glutamine serves as a protein building block, a nitrogen donor for purine synthesis, a carbon source that refills the citric acid cycle, and a precursor for glutathione, which helps maintain redox balance. It also carries ammonia non-toxically in blood, and kidney cells use it in acid-base regulation.[2][1]","It is synthesized from glutamate and ammonia by glutamine synthetase, mainly in muscle, liver and brain, and is obtained from the diet in protein-rich foods.[1]"]},
-{"h":"Medical uses","paras":["In 2017 the US FDA approved L-glutamine oral powder (Endari) to reduce severe complications of sickle cell disease in people aged five and older. It also carries an orphan drug designation.[2] Glutamine is additionally sold as a medical food for patients a clinician judges to need more than diet and metabolism supply.[2]","Reviews of glutamine in critical illness and surgery are described by Wikipedia as based on low-quality evidence, with no firm conclusions; Cochrane-type reviews found insufficient evidence for Crohn's disease, and results for mucositis are mixed.[2]"]},
-{"h":"Clinical studies","paras":["In a 48-week randomized trial in sickle cell disease summarised by Wikipedia, treated patients had fewer pain-related hospital visits (median 3 versus 4), fewer hospitalizations (median 2 versus 3) and fewer hospital days (median 6.5 versus 11) than placebo; acute chest syndrome occurred in 8.6 percent versus 23.1 percent.[2]","Registered trials include a phase 2 study in diarrhea-predominant irritable bowel syndrome (106 participants) and small studies of the prescription powder in diabetes, diverticulosis and thalassemia.[5][6] Some trials and meta-analyses report reduced markers of intestinal permeability after intense exercise or critical illness; results in chronic inflammatory conditions are inconsistent.[2] No trial of glutamine for muscle size or appearance outcomes in healthy people appears in the reference material reviewed."]},
-{"h":"Safety","paras":["Wikipedia reports that glutamine is considered safe in adults and preterm infants, with an observed safe level of 14 g/day for supplemental glutamine in healthy adults. Adverse effects have been described in people on home parenteral nutrition and in those with liver abnormalities, and supplementation may be harmful in some cancer types. Stopping after very high long-term intake may cause withdrawal effects.[2]","Common side effects of the prescription form are constipation, nausea, headache and abdominal pain.[2]"]},
-{"h":"Society and culture","paras":["Glutamine is an ingredient in multi-component supplements. One US drug-label listing for an oral product containing glutamine alongside arginine pyroglutamate, ornithine alpha-ketoglutarate, Tribulus terrestris and other ingredients states that it temporarily supports the body in rebalancing human growth hormone output.[3]"]}
-],
-"timeline": [{"year":"2017","event":"US FDA approves L-glutamine oral powder (Endari) for sickle cell disease.[2]"}],
-"lore": null,
-"refs": [
-{"id":1,"title":"Glutamine (Grokipedia)","url":"https://grokipedia.com/page/Glutamine","source":"Grokipedia","year":2025,"type":"encyclopedia"},
-{"id":2,"title":"Glutamine (Wikipedia)","url":"https://en.wikipedia.org/wiki/Glutamine","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":3,"title":"US drug label: HGH Complex (DailyMed)","url":"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2b7ee28f-474e-414b-bf74-8b2baf382947","source":"DailyMed","year":2024,"type":"label"},
-{"id":4,"title":"Pharmacokinetics and Safety of Endari (L-glutamine) in Sickle Cell Disease Patients (NCT04684381)","url":"https://clinicaltrials.gov/study/NCT04684381","source":"ClinicalTrials.gov","year":2021,"type":"trial"},
-{"id":5,"title":"Glutamine for the Treatment of Patients With Irritable Bowel Syndrome (NCT01414244)","url":"https://clinicaltrials.gov/study/NCT01414244","source":"ClinicalTrials.gov","year":2010,"type":"trial"},
-{"id":6,"title":"Effect of L-glutamine (Endari) on Glycemic Control in Type 2 Diabetes (NCT03947879)","url":"https://clinicaltrials.gov/study/NCT03947879","source":"ClinicalTrials.gov","year":2019,"type":"trial"}
-],
-"webSources": [{"url":"https://en.wikipedia.org/wiki/Glutamine","title":"Glutamine - Wikipedia"}]
+ "name": "Glutamine",
+ "card": {
+  "summary": "The most abundant amino acid in blood, sold as a muscle-recovery supplement; its clinical evidence lies in medicine, not physique.",
+  "aka": "L-glutamine, Gln, Endari (Rx brand)",
+  "evidence": "unproven",
+  "status": "otc",
+  "price": null,
+  "note": "A prescription L-glutamine powder is FDA-approved for sickle cell disease; no trials in the reference material test it for muscle gain.",
+  "structure": "L-Glutamine"
+ },
+ "quick": {
+  "overview": "Glutamine is a conditionally essential amino acid that the body makes in large amounts, mostly in muscle. It is sold as a supplement, often to people who lift weights, with the idea that it supports recovery and muscle retention.\nThe documented clinical uses are medical. A prescription form was approved by the US FDA in 2017 for sickle cell disease, and it is used in some hospital nutrition settings, where evidence is described as low quality.",
+  "mechanism": "Glutamine is a protein building block, a nitrogen carrier between organs, and a fuel for gut-lining and immune cells. It is also used to make glutathione. Supplement marketing builds on these roles, but no trials show muscle growth in healthy lifters.",
+  "risks": "Wikipedia describes supplemental glutamine as considered safe in adults, with an observed safe level of 14 g/day in healthy adults, and notes adverse effects in people on home parenteral nutrition or with liver abnormalities. Side effects of the prescription form include constipation, nausea, headache and abdominal pain."
+ },
+ "lead": [
+  "Glutamine (Gln, Q) is an alpha-amino acid used in protein synthesis and the most abundant free amino acid in human blood. It is classed as non-essential but conditionally essential, because demand can exceed supply during stress such as illness, injury or burns.[1][2] Roughly 90 percent of it is made in muscle tissue, and the intestines, kidneys, activated immune cells and many cancer cells use it heavily.[2]",
+  "People who train for physique use glutamine as a recovery supplement, usually stirred into shakes or taken between meals. The reasoning follows a chain: muscle is the main producer and a major store of glutamine, hard training and calorie restriction draw it down, so supplementing is thought to support recovery, immune function and gut comfort, which in turn lets a lifter keep training consistently and hold on to muscle. T Nation training logs show it sitting alongside creatine, EAAs and whey in many lifters' routines.[7][8] It also appears in multi-ingredient products marketed for hormone and body-composition support.[3]",
+  "The documented clinical uses are medical. An oral L-glutamine powder was approved by the US FDA in 2017 to reduce complications of sickle cell disease, and glutamine has been studied in surgery, burns, critical illness, wound healing and gut disorders.[2][4][9] Wikipedia's article does not discuss bodybuilding or athletic performance, and no randomised trial of glutamine supplementation for muscle size in healthy lifters is cited in this article.[2]",
+  "Glutamine is also among the most widely stocked items in the sports-nutrition aisle, sold as a flavoured or unflavoured powder and as part of recovery blends alongside BCAAs and creatine. Lifters and bodybuilders describe it in training logs and forum threads as a low-cost recovery and gut-comfort add-on, while clinical researchers have focused on its roles in immunity, intestinal barrier function and illness.[7][8][10][15]"
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Amino acid (conditionally essential)"
+  ],
+  [
+   "Formula",
+   "C5H10N2O3"
+  ],
+  [
+   "Molar mass",
+   "146.1 g/mol"
+  ],
+  [
+   "Routes",
+   "Oral; intravenous (clinical)"
+  ],
+  [
+   "Prescription form",
+   "Endari (oral powder), FDA-approved 2017 for sickle cell disease"
+  ],
+  [
+   "Legal status",
+   "Dietary supplement; Rx product for sickle cell"
+  ],
+  [
+   "IUPAC name",
+   "2-amino-4-carbamoylbutanoic acid[2]"
+  ],
+  [
+   "Dietary sources",
+   "Beef, chicken, fish, dairy, eggs, beans, spinach, cabbage and other protein-rich foods[2]"
+  ],
+  [
+   "Codes",
+   "One-letter Q; ATC A16AA03[2]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Biology",
+   "paras": [
+    "Glutamine serves as a protein building block, a nitrogen donor for purine synthesis, a carbon source that refills the citric acid cycle, and a precursor for glutathione, which helps maintain redox balance. It also carries ammonia non-toxically in blood, and kidney cells use it in acid-base regulation.[2][1]",
+    "It is synthesized from glutamate and ammonia by glutamine synthetase, mainly in muscle, liver and brain, and is obtained from the diet in protein-rich foods.[1]",
+    "Immune cells such as lymphocytes, macrophages and neutrophils consume glutamine at rates comparable to or above glucose in laboratory and clinical studies, and a 2018 review describes it as essential for lymphocyte proliferation, cytokine production and bacterial killing. Its availability is governed mainly by the gut, liver and skeletal muscle, and during hypercatabolic states demand can exceed what these organs release.[10] Fast-growing tumour cells also rely heavily on glutamine for carbon and nitrogen, a property that has made glutamine metabolism an active area of cancer research.[11][12]"
+   ]
+  },
+  {
+   "h": "Chemistry and dietary sources",
+   "paras": [
+    "Glutamine is an alpha-amino acid with the formula C5H10N2O3 and a molar mass of about 146 g/mol. Its side chain resembles that of glutamic acid, with the side-chain carboxylic acid replaced by an amide; it is a polar, uncharged amino acid and exists in L and D forms, with the L form occurring in nature. It is encoded by the codons CAA and CAG and uses the one-letter symbol Q, assigned after N (asparagine) because glutamine differs from asparagine by one methylene group.[2]",
+    "Dietary sources listed by Wikipedia include beef, chicken, fish, dairy and eggs, along with beans, beets, cabbage, spinach, carrots, parsley, wheat, papaya, Brussels sprouts, celery, kale and fermented foods such as miso.[2] The name derives from glutamic acid, which was named after its discovery in cereal gluten proteins.[2]"
+   ]
+  },
+  {
+   "h": "Use in physique and appearance",
+   "paras": [
+    "In physique culture, glutamine is used as a recovery and muscle-retention supplement, typically as a powder mixed into shakes, taken around training or between meals. The chain lifters describe runs from muscle as the body's main glutamine producer and store, to hard training and calorie restriction drawing that pool down, to supplementation supporting recovery, immune function and gut comfort, which lets them train consistently and hold on to muscle while dieting.[7][8][25]",
+    "T Nation training logs show it listed with creatine, EAAs, whey and carbohydrates in many lifters' routines, often described in general terms as part of a cutting or recovery routine.[7][8][25] Some members of these communities report that it suits their digestion.[23][24]",
+    "Researchers describe the physiology behind this rationale: skeletal muscle releases glutamine into the blood, immune cells and the gut lining consume it heavily, and demand can exceed supply in illness, trauma or intense stress.[2][10] Whether extra oral glutamine changes muscle size or recovery in healthy trained people is not addressed by the clinical trials cited here, which examined patients with specific medical conditions.[9][13]"
+   ]
+  },
+  {
+   "h": "Medical uses",
+   "paras": [
+    "In 2017 the US FDA approved L-glutamine oral powder (Endari) to reduce severe complications of sickle cell disease in people aged five and older. It also carries an orphan drug designation.[2] Glutamine is additionally sold as a medical food for patients a clinician judges to need more than diet and metabolism supply.[2]",
+    "Reviews of glutamine in critical illness and surgery are described by Wikipedia as based on low-quality evidence, with no firm conclusions; Cochrane-type reviews found insufficient evidence for Crohn's disease, and results for mucositis are mixed.[2]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Sickle cell disease. In the multicenter phase 3 trial reported in 2018, 230 patients aged 5 to 58 with a history of two or more pain crises were randomised 2:1 to pharmaceutical-grade L-glutamine (152) or placebo (78) for 48 weeks. The glutamine group had a median of 3 pain crises versus 4 on placebo (P=0.005) and a median of 2 hospitalizations versus 3 (P=0.005); about two thirds in both arms also took hydroxyurea. Low-grade nausea, noncardiac chest pain, fatigue and musculoskeletal pain were reported more often with glutamine.[9] Wikipedia additionally reports fewer hospital days and a lower rate of acute chest syndrome (8.6 percent versus 23.1 percent).[2]",
+    "Burns. A 2022 randomised, double-blind trial enrolled 1,209 patients with deep burns averaging 33 percent of body surface and gave enteral glutamine or placebo until discharge or up to 3 months. Median time to discharge alive was 40 days with glutamine and 38 with placebo (subdistribution hazard ratio 0.91, 95% CI 0.80-1.04), and six-month mortality was 17.2 versus 16.2 percent; serious adverse events did not differ substantially.[13]",
+    "Gut. A phase 2 trial in post-infectious diarrhea-predominant irritable bowel syndrome randomised adults with raised intestinal permeability to glutamine or placebo for 8 weeks; 54 glutamine and 52 placebo participants completed it, and the primary symptom-score endpoint was met by 79.6 percent versus 5.8 percent. The authors called for larger confirmatory trials.[14][5] A 2024 meta-analysis of 10 randomised trials (352 participants) found no significant overall change in intestinal permeability, but a significant reduction in the subgroup using more than 30 g per day.[15]",
+    "Wound healing and surgery. A 2021 systematic review of 39 human glutamine studies reported significant effects on nitrogen balance, inflammatory markers (IL-6, TNF-alpha, CRP), mortality and length of hospital stay, alongside similar analysis for arginine.[16] A 2024 meta-analysis of perioperative immunonutrition in head, neck and gastrointestinal cancer surgery looked at formulas that include glutamine-type nutrients among other components.[17] Wikipedia describes the critical-illness and surgery literature as low-quality overall.[2]",
+    "Other registered studies include small trials of the prescription powder in type 2 diabetes (25 participants), diverticulosis (9), sickle cell pharmacokinetics (13) and non-transfusion-dependent thalassemia (8), plus oncology trials of glutamine for chemotherapy-related toxicity or neuropathy.[6][18][19][20] A multicenter trial of creatine and glutamine in Duchenne muscular dystrophy has also been published.[21] No randomised trial of glutamine for muscle size or appearance in healthy lifters is cited here."
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "paras": [
+    "Glutamine is synthesized from glutamate and ammonia by glutamine synthetase and released from muscle into the blood, where it carries nitrogen between organs. Gut-lining cells (enterocytes) and immune cells take it up as a fuel, and it feeds glutathione production, which is why researchers study it in oxidative stress conditions such as sickle cell disease.[1][2][9] The sickle cell trial's rationale was that oral glutamine raises the reduced form of NAD in red cells, which may lower oxidative stress.[9]"
+   ]
+  },
+  {
+   "h": "Safety",
+   "paras": [
+    "Wikipedia reports that glutamine is considered safe in adults and preterm infants, with an observed safe level of 14 g/day for supplemental glutamine in healthy adults. Adverse effects have been described in people on home parenteral nutrition and in those with liver abnormalities, and supplementation may be harmful in some cancer types. Stopping after very high long-term intake may cause withdrawal effects.[2]",
+    "Common side effects of the prescription form are constipation, nausea, headache and abdominal pain.[2]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Glutamine is an ingredient in multi-component supplements. One US drug-label listing for an oral product containing glutamine alongside arginine pyroglutamate, ornithine alpha-ketoglutarate, Tribulus terrestris and other ingredients states that it temporarily supports the body in rebalancing human growth hormone output.[3]",
+    "Glutamine is a staple of the sports-nutrition aisle, sold as a powder and in recovery blends with BCAAs and creatine. The branded prescription product Endari is a separate pharmaceutical-grade formulation.[2] Interest outside sport has also come from cancer-metabolism research, which Hacker News readers have discussed under headlines about starving tumours of glucose and glutamine.[22]",
+    "Regulatory status differs by product. Wikipedia describes glutamine as a medical food in the United States, prescribed when a clinician judges that a patient needs more than diet and endogenous synthesis supply, and describes the pharmaceutical-grade Endari powder (approved to Emmaus Medical) as a prescription product, while glutamine powders sold for sport are marketed as dietary supplements.[2]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2005",
+   "event": "CINRG trial of creatine and glutamine in Duchenne muscular dystrophy published.[21]"
+  },
+  {
+   "year": "2017",
+   "event": "US FDA approves L-glutamine oral powder (Endari) for sickle cell disease.[2]"
+  },
+  {
+   "year": "2018",
+   "event": "Phase 3 trial of L-glutamine in sickle cell disease published in the New England Journal of Medicine.[9]"
+  },
+  {
+   "year": "2022",
+   "event": "Randomised trial of enteral glutamine in 1,209 burn patients published.[13]"
+  },
+  {
+   "year": "2024",
+   "event": "Meta-analysis of glutamine and gut permeability published (10 trials, 352 participants).[15]"
+  },
+  {
+   "year": "2024",
+   "event": "Perioperative immunonutrition meta-analysis in head, neck and gastrointestinal cancer surgery published.[17]"
+  }
+ ],
+ "lore": {
+  "intro": "On T Nation training logs, glutamine turns up as one item among many in lifters' supplement stacks, usually for recovery or digestion.[7][8]",
+  "claims": [
+   {
+    "claim": "Glutamine speeds recovery between workouts",
+    "believers": "Lifters list it with creatine, EAAs and carbohydrates around training and say it supports recovery.[7]",
+    "experts": "No randomised trial in healthy lifters is cited here; the trials examined medical conditions such as sickle cell disease and burns.[2][9][13]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Glutamine is good for gut health",
+    "believers": "Forum members say it has helped their digestion, with one describing it as something the digestive tract 'really likes'.[23][24]",
+    "experts": "A phase 2 trial in post-infectious IBS-D reported symptom improvement, while a 2024 meta-analysis found no overall change in permeability except in a high-dose subgroup.[14][15]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Glutamine helps keep muscle when dieting or in a calorie deficit",
+    "believers": "Users add it to shakes and training-day meals when cutting, reasoning that muscle releases glutamine under stress.[8][25]",
+    "experts": "Wikipedia and reviews describe glutamine as conditionally essential in illness and trauma; the burn trial found no change in time to discharge.[2][13]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Large amounts are well tolerated",
+    "believers": "One forum member notes that people say 'up to 30g' per day is safe.[26]",
+    "experts": "Wikipedia reports an observed safe level of 14 g/day in healthy adults and notes adverse effects in people on home parenteral nutrition or with liver abnormalities.[2]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Glutamine in 'HGH' blends rebalances growth hormone",
+    "believers": "Product labels for amino-acid complexes containing glutamine state that they temporarily support rebalancing of human growth hormone output.[3]",
+    "experts": "The label wording is a structure-function-style statement; published trials of glutamine do not measure growth hormone effects in healthy users.[3]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Glutamine supports the immune system during heavy training",
+    "believers": "Lifters and endurance-minded trainees describe it as a way to avoid getting run down when training volume or dieting stress is high.[8][25]",
+    "experts": "A 2018 review describes lymphocytes, macrophages and neutrophils as consuming glutamine at rates comparable to or above glucose, and notes demand can exceed supply in hypercatabolic states such as illness and trauma.[10]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Glutamine is a cancer risk or fuel for tumours",
+    "believers": "Some readers of cancer-metabolism coverage discuss starving tumours of glucose and glutamine and ask whether supplements feed them.[22]",
+    "experts": "Reviews describe fast-growing tumour cells as relying heavily on glutamine, and Wikipedia notes that glutamine does not appear to promote tumour cell proliferation but may be harmful in some cancer types.[11][12][2]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Glutamine (Grokipedia)",
+   "url": "https://grokipedia.com/page/Glutamine",
+   "source": "Grokipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Glutamine (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Glutamine",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "US drug label: HGH Complex (DailyMed)",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2b7ee28f-474e-414b-bf74-8b2baf382947",
+   "source": "DailyMed",
+   "year": 2024,
+   "type": "label"
+  },
+  {
+   "id": 4,
+   "title": "Pharmacokinetics and Safety of Endari (L-glutamine) in Sickle Cell Disease Patients (NCT04684381)",
+   "url": "https://clinicaltrials.gov/study/NCT04684381",
+   "source": "ClinicalTrials.gov",
+   "year": 2021,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "Glutamine for the Treatment of Patients With Irritable Bowel Syndrome (NCT01414244)",
+   "url": "https://clinicaltrials.gov/study/NCT01414244",
+   "source": "ClinicalTrials.gov",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Effect of L-glutamine (Endari) on Glycemic Control in Type 2 Diabetes (NCT03947879)",
+   "url": "https://clinicaltrials.gov/study/NCT03947879",
+   "source": "ClinicalTrials.gov",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "T Nation: Davemccright's training log",
+   "url": "https://t-nation.com/t/davemccrights-dangerous-dave-s-diabolical-log-for-density-and-destruction/273294",
+   "source": "T Nation",
+   "year": 2021,
+   "type": "forum"
+  },
+  {
+   "id": 8,
+   "title": "T Nation: S.Gentz training log-RP Hypertrophy",
+   "url": "https://t-nation.com/t/s-gentz-training-log-rp-hypertrophy/287568",
+   "source": "T Nation",
+   "year": 2024,
+   "type": "forum"
+  },
+  {
+   "id": 9,
+   "title": "A Phase 3 Trial of l-Glutamine in Sickle Cell Disease",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30021096/",
+   "source": "NEJM",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Glutamine: Metabolism and Immune Function, Supplementation and Clinical Translation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30360490/",
+   "source": "Nutrients",
+   "year": 2018,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "Glutamine reliance in cell metabolism",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32943735/",
+   "source": "Exp Mol Med",
+   "year": 2020,
+   "type": "review"
+  },
+  {
+   "id": 12,
+   "title": "Targeting glutamine metabolism as a therapeutic strategy for cancer",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37009798/",
+   "source": "Exp Mol Med",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 13,
+   "title": "A Randomized Trial of Enteral Glutamine for Treatment of Burn Injuries",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36082909/",
+   "source": "NEJM",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "Randomised placebo-controlled trial of dietary glutamine supplements for postinfectious irritable bowel syndrome",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30108163/",
+   "source": "Gut",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 15,
+   "title": "Meta-analysis of glutamine supplementation and gut permeability in adults",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39397201/",
+   "source": "Amino Acids",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 16,
+   "title": "The Effect of Amino Acids on Wound Healing: arginine and glutamine",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34444657/",
+   "source": "Nutrients",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 17,
+   "title": "Perioperative Immunonutrition in Head and Neck or GI Cancer Surgery",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37882375/",
+   "source": "Annals of Surgery",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 18,
+   "title": "L-glutamine Treatment in Patients With Diverticulosis (NCT05106101)",
+   "url": "https://clinicaltrials.gov/study/NCT05106101",
+   "source": "ClinicalTrials.gov",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 19,
+   "title": "L-Glutamine in Non-Transfusion-Dependent Thalassemia (NCT07210450)",
+   "url": "https://clinicaltrials.gov/study/NCT07210450",
+   "source": "ClinicalTrials.gov",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 20,
+   "title": "Glutamine and chemotherapy toxicities in breast cancer (NCT00772824)",
+   "url": "https://clinicaltrials.gov/study/NCT00772824",
+   "source": "ClinicalTrials.gov",
+   "year": 2007,
+   "type": "trial"
+  },
+  {
+   "id": 21,
+   "title": "CINRG randomized trial of creatine and glutamine in Duchenne muscular dystrophy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15984021/",
+   "source": "Annals of Neurology",
+   "year": 2005,
+   "type": "trial"
+  },
+  {
+   "id": 22,
+   "title": "Hacker News: Starving Cancer by Cutting Off Its Favorite Foods",
+   "url": "https://news.ycombinator.com/item?id=21192244",
+   "source": "Hacker News",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 23,
+   "title": "T Nation: 3 Years of Bloodwork",
+   "url": "https://t-nation.com/t/3-years-of-bloodwork-feeling-worse-than-before-advice/257945",
+   "source": "T Nation",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 24,
+   "title": "T Nation: Layman Training Log",
+   "url": "https://t-nation.com/t/layman-training-log-diary-bodybuilding-red-pill-blue-pill/263454",
+   "source": "T Nation",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 25,
+   "title": "T Nation: Ajb5478 Garage Gym Log",
+   "url": "https://t-nation.com/t/ajb5478s-garage-gym-log/284615",
+   "source": "T Nation",
+   "year": 2023,
+   "type": "forum"
+  },
+  {
+   "id": 26,
+   "title": "T Nation: Come So Far, Not Stopping",
+   "url": "https://t-nation.com/t/come-so-far-not-stopping/279208",
+   "source": "T Nation",
+   "year": 2022,
+   "type": "forum"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Glutamine",
+   "title": "Glutamine - Wikipedia"
+  }
+ ],
+ "angle": {
+  "goal": "Muscle and recovery",
+  "chain": [
+   "Muscle is the body's main glutamine factory and store",
+   "Training stress and dieting draw glutamine down",
+   "Supplemental glutamine is taken to support recovery and gut/immune function",
+   "Steadier training supports muscle retention and growth"
+  ],
+  "effect": "claimed",
+  "text": "Lifters take glutamine in the belief that it supports recovery and helps preserve muscle during hard training or dieting, which would keep their physique-building on track. The documented trial results concern medical settings such as sickle cell disease, burns and gut disorders rather than muscle size."
+ }
 }

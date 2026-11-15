@@ -1,9 +1,20 @@
 {
- "name": "Red light at night",
  "lead": [
-  "Using red or dim red bulbs instead of white light in the evening is a lighting habit in sleep-focused communities, based on the idea that long-wavelength light disturbs melatonin and the body clock less than white or blue light.",
-  "Reference sources describe short-wavelength (blue) light as having the strongest effect on melatonin suppression and circadian timing.[1] Studies on red light itself are few and not specific to this habit: some animal experiments found that bright red light suppressed melatonin in rats,[2][3] while a study in horses reported that red light allowed a nighttime melatonin rise,[4] and a review of light at night for shift workers noted that long-wavelength light can raise alertness.[5]"
+  "Using red or dim red bulbs instead of white light in the evening is a lighting habit in sleep-focused communities. The idea is that long-wavelength light reaches the body clock's light sensors far less than white or blue light does, so a home can stay lit after dark without pushing back melatonin release or bedtime.[1][7][9]",
+  "The looks reasoning runs through sleep and recovery: protected melatonin and earlier, steadier sleep onset are meant to give more consistent rest, which practitioners connect to a fresher face, better skin, steadier training and mood. Practitioners usually pair red lamps with screen limits, night-mode settings and fixed sleep times.[1]",
+  "Reference sources describe short-wavelength (blue) light, near 480 nm, as having the strongest effect on melatonin suppression and circadian timing.[1][7][9] Studies on red light itself are few and mostly in animals: some experiments found that bright red light suppressed melatonin in rats, a study in horses reported that red light allowed a nighttime melatonin rise, and a review of light at night for shift workers noted that long-wavelength light can raise alertness.[2][3][4][5] Red light has a separate, long-established use in preserving dark-adapted vision, which is one reason it is the familiar colour for night lighting.[8]"
  ],
+ "angle": {
+  "goal": "Sleep and recovery",
+  "chain": [
+   "Swap white evening light for dim red light",
+   "Less light input to the melatonin and body-clock pathway",
+   "Easier sleep onset and steadier sleep timing, as practitioners hope",
+   "More rested look and better recovery"
+  ],
+  "effect": "indirect",
+  "text": "People who keep dim red lamps on in the evening do so to light their home without the wavelengths the circadian system responds to most. They expect easier sleep and more regular timing, which they associate with a rested look, clearer-looking skin and better training recovery."
+ },
  "infobox": [
   [
    "Type",
@@ -11,11 +22,23 @@
   ],
   [
    "Typical form",
-   "Red or amber bulbs in the evening"
+   "Red or amber bulbs, dim red lamps, red night lights"
   ],
   [
    "Proposed basis",
-   "Lower melanopsin sensitivity to long wavelengths"
+   "Melanopsin peaks near 480 nm (blue); long wavelengths stimulate it little"
+  ],
+  [
+   "Light-sensing cells",
+   "Intrinsically photosensitive retinal ganglion cells (identified 2002)[7]"
+  ],
+  [
+   "Related use",
+   "Red light to preserve dark-adapted vision (military, astronomy, navigation)[8]"
+  ],
+  [
+   "Often paired with",
+   "Screen limits, night-mode settings, fixed sleep times"
   ],
   [
    "Human trials for appearance",
@@ -26,30 +49,136 @@
   {
    "h": "Description",
    "paras": [
-    "Practitioners swap white household lighting for red or dim red lamps in the hours before bed. The motivation is to keep light exposure from interfering with melatonin and sleep onset."
+    "Practitioners swap white household lighting for red or dim red lamps in the hours before bed, or use red night lights if they get up in the night. The motivation is to keep light exposure from interfering with melatonin and sleep onset. Related habits include warm-colour bulbs, night-mode screen settings, dimming lights after sunset and blue-light-blocking glasses.[10]",
+    "The habit is usually part of a wider evening routine rather than a stand-alone measure: screens are reduced or filtered, lights are lowered once the sun sets, and sleep and wake times are kept regular. Some people use red light only for bathroom trips or reading in bed; others convert whole rooms."
+   ]
+  },
+  {
+   "h": "How people use it to look better",
+   "paras": [
+    "The appearance case is an indirect chain. Practitioners aim for easier sleep onset and steadier sleep timing; they then link better sleep to a rested-looking face (less puffiness and under-eye shadowing), better-looking skin, steadier gym performance and recovery, and improved mood and energy. Red lighting is positioned as one input to that chain alongside caffeine timing, morning daylight and regular schedules.",
+    "Evening light avoidance is also a recognised approach in sleep medicine for people whose sleep phase runs late: reviews of delayed sleep phase disorder describe evening light restriction, morning bright light and carefully timed melatonin as part of management.[10]"
    ]
   },
   {
    "h": "Background on light and the body clock",
    "paras": [
-    "The circadian system is most sensitive to light near 480 nm, and light in the evening delays the body clock, while evening and night light can suppress melatonin.[1] Smartphones, tablets and LED lighting are described as significant sources of nighttime blue light that can delay sleep onset and reduce sleep quality.[1]"
+    "Melanopsin, the pigment in intrinsically photosensitive retinal ganglion cells (ipRGCs), responds most strongly to blue light near 480 nm, and these cells can respond to very low light levels (about 1 lux), far below what was once thought necessary to suppress melatonin.[1] Light before bed delays the circadian rhythm, and light during the hours when melatonin is normally produced reduces that production.[1]",
+    "The cells were identified in 2002 by Samer Hattar, David Berson and colleagues, building on earlier work showing that mice without rods and cones still regulated melatonin and entrained to the light cycle; in 2003 a study led by Steven Lockley found 460 nm light suppressed melatonin about twice as much as 555 nm light.[7] The ipRGCs send light information to the suprachiasmatic nucleus, the brain's circadian pacemaker, via the retinohypothalamic tract.[7]",
+    "Melatonin itself was isolated by Aaron Lerner's group at Yale in 1958 and is produced by the pineal gland mainly at night; nighttime plasma levels are several times higher than daytime ones.[9] The Wikipedia entry on melatonin cites a 2005 study (Kayumov) in which light with only wavelengths above 530 nm did not suppress melatonin under bright-light conditions, and notes that blue-light-blocking glasses worn before bed can reduce suppression.[9]",
+    "Smartphones, tablets and LED lighting are described as major sources of nighttime light that can delay sleep onset and reduce sleep quality.[1] Because the circadian system is more sensitive to short wavelengths than ordinary brightness measures suggest, researchers use melanopic lux; its ratio to standard lux is about 0.55 for incandescent light, 0.79 for white LEDs and 1.3 for cool white LEDs.[1] Lighting guidance in the WELL Building Standard, as summarised on Wikipedia, suggests bedroom light under 50 melanopic lux at night and, for homes, 50 or less from two hours before bedtime.[1] The red-bulb habit rests on the premise that red light delivers little melanopic stimulation."
+   ]
+  },
+  {
+   "h": "Red light and night vision",
+   "paras": [
+    "Red light's association with night use predates the sleep-lighting trend. Rod photoreceptors are relatively insensitive to long red wavelengths, so red light has traditionally been used to read charts or instruments without losing dark adaptation; most adaptation occurs within about five minutes in the dark, while roughly 45 minutes is needed for photoreceptor proteins to fully recharge.[8] Naval submarine research laboratories studied red versus white light for dark adaptation in the 1980s.[8] This vision use is distinct from the question of how red light affects melatonin and sleep, which is a separate research area."
+   ]
+  },
+  {
+   "h": "Animal and related research",
+   "paras": [
+    "In two experiments in albino rats, pineal N-acetyltransferase activity and melatonin fell as the intensity of red light (600 nm or longer) during the night increased; the high-intensity red light was as effective as white light in suppressing them, while low intensities produced smaller reductions.[3] A study of the mechanism in rats found that red-light-induced suppression of melatonin synthesis was mediated by NMDA receptor activation, including in rats with retinal degeneration.[2]",
+    "A 2019 veterinary study in horses reported that red light at night permitted the nocturnal rise of melatonin, and a 2025 study examined lighting and sleep behaviour, circadian rhythm and blink rate in stabled riding-school horses.[4][6] A review on shift workers notes that light at night can increase alertness and performance, with some earlier studies showing that long-wavelength (red) light increased objective alertness, while light at night can also suppress melatonin and disrupt the circadian system.[5]",
+    "The findings differ partly because of intensity: the rat studies used red light at irradiances up to moderate and high levels, whereas practitioners describe dim lamps. Wikipedia's ipRGC entry also notes that melanopsin has isoforms with different wavelength sensitivities, with the all-trans form responding more to longer wavelengths.[7]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found of red evening lighting for sleep or appearance outcomes in healthy people. Related laboratory research is limited: in albino rats, high-intensity red light suppressed pineal enzyme activity and melatonin about as much as white light, while low intensities produced smaller reductions.[2][3] A veterinary study in horses reported that red light at night permitted the nocturnal melatonin rise,[4] and a 2025 study examined lighting and sleep behaviour in riding-school horses.[6] A review on shift workers noted that light at night can increase alertness while also suppressing melatonin.[5]"
+    "No studies found of red evening lighting for sleep or appearance outcomes in healthy people. Related laboratory research is limited: in albino rats, high-intensity red light suppressed pineal enzyme activity and melatonin about as much as white light, while low intensities produced smaller reductions.[3] A veterinary study in horses reported that red light at night permitted the nocturnal melatonin rise,[4] a 2025 study examined lighting and sleep behaviour in riding-school horses,[6] and a review on shift workers noted that light at night can increase alertness while also suppressing melatonin.[5] Human research on the blue end of the spectrum is more developed: 460 nm light suppressed melatonin more than 555 nm light in a 2003 study,, and a study cited on Wikipedia found 460 nm light reduced sleepiness over a 1.5-hour exposure.[1]"
+   ]
+  },
+  {
+   "h": "Safety and practical notes",
+   "paras": [
+    "Dim red lighting involves no medication or device beyond a bulb. The shift-worker review cautions that red light can have alerting effects at night, which is the reverse of the sleep goal when used during the hours before bed.[5] Wikipedia notes that chronic light exposure at night has been linked in studies to sleep disorders, depression, obesity and cardiovascular disease, and that the International Agency for Research on Cancer classified shift work involving circadian disruption as a probable human carcinogen in 2007; this is part of the broader interest in evening lighting.[1] Sleep clinicians describe low-dose melatonin and bright-light timing as separate tools whose effect depends on clock time.[10]"
    ]
   },
   {
    "h": "In looksmaxxing culture",
    "paras": [
-    "The practice is discussed alongside screen limits and fixed sleep times as part of improving sleep for skin, recovery and energy. Evidence is mostly indirect and no source examines it for facial appearance."
+    "The practice is discussed alongside screen limits, fixed sleep times, morning sunlight and sleep-focused routines as part of improving sleep for skin, recovery and energy. It sits within a wider interest in circadian-lighting habits such as blue-blocking glasses and warm bulbs. No study examines red evening lighting for facial appearance or looks."
    ]
   }
  ],
- "timeline": [],
- "lore": null,
+ "timeline": [
+  {
+   "year": "1917",
+   "event": "McCord and Allen show pineal extract lightens tadpole skin, an early step toward melatonin research.[9]"
+  },
+  {
+   "year": "1958",
+   "event": "Aaron Lerner's Yale group isolates melatonin from bovine pineal tissue.[9]"
+  },
+  {
+   "year": "1980s",
+   "event": "US Navy submarine laboratory studies compare red and white light for dark adaptation.[8]"
+  },
+  {
+   "year": "1993",
+   "event": "Rat study reports red light at night reduces pineal N-acetyltransferase activity and melatonin at higher intensities.[3]"
+  },
+  {
+   "year": "1995",
+   "event": "Study in rats links red-light-induced melatonin suppression to NMDA receptors.[2]"
+  },
+  {
+   "year": "2002",
+   "event": "Hattar, Berson and colleagues identify melanopsin-containing ganglion cells that respond to light intrinsically.[7]"
+  },
+  {
+   "year": "2003",
+   "event": "Lockley and colleagues find 460 nm light suppresses melatonin about twice as much as 555 nm light.[7]"
+  },
+  {
+   "year": "2007",
+   "event": "IARC classifies shift work involving circadian disruption as a probable human carcinogen.[1]"
+  },
+  {
+   "year": "2019",
+   "event": "Study in horses reports red light at night permits the nocturnal melatonin rise.[4]"
+  },
+  {
+   "year": "2025",
+   "event": "Study of lighting and sleep behaviour in riding-school horses published.[6]"
+  }
+ ],
+ "lore": {
+  "intro": "Red evening lighting is discussed in sleep-optimisation and biohacking circles as a way to keep the home lit without disturbing the body clock.",
+  "claims": [
+   {
+    "claim": "Red light does not affect melatonin, so it is the best colour for evening lighting",
+    "believers": "Proponents point to melanopsin's peak sensitivity to blue light and say long wavelengths leave melatonin and sleep timing largely alone.[1]",
+    "experts": "Reference sources confirm melanopsin peaks near 480 nm,[7] but rat studies found high-intensity red light suppressed melatonin about as much as white light, while low intensities suppressed less; a horse study reported melatonin still rose under red light.[3][4]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Dim red lights in the evening improve sleep quality",
+    "believers": "Practitioners report falling asleep more easily when they replace white lamps with red ones and cut screens.",
+    "experts": "No studies found that test red evening lighting on sleep in healthy adults; sleep research on evening light mostly concerns blue-enriched and white light.[1]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Better sleep from lighting changes shows up as better skin and a fresher face",
+    "believers": "Followers connect protected sleep to less puffiness, fewer under-eye shadows and steadier skin and recovery.",
+    "experts": "No study examines red evening lighting for facial appearance.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Red light is used at night because it keeps eyes dark-adapted",
+    "believers": "Users cite the military and astronomy tradition of red torches as precedent for red night lighting at home.",
+    "experts": "Rods are relatively insensitive to long red wavelengths, which is why red light is used to preserve dark adaptation; this concerns vision rather than sleep.[8]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Evening light avoidance helps people with a late sleep phase",
+    "believers": "Night-owl communities describe lowering evening light as a way to move bedtime earlier.",
+    "experts": "Sleep-medicine reviews describe evening light restriction, morning bright light and timed melatonin as management for delayed sleep phase disorder.[10]",
+    "evidence": "supported"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -98,14 +227,63 @@
    "source": "PLoS ONE",
    "year": 2025,
    "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Intrinsically photosensitive retinal ganglion cell",
+   "url": "https://en.wikipedia.org/wiki/Intrinsically_photosensitive_retinal_ganglion_cell",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 8,
+   "title": "Night vision",
+   "url": "https://en.wikipedia.org/wiki/Night_vision",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 9,
+   "title": "Melatonin",
+   "url": "https://en.wikipedia.org/wiki/Melatonin",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 10,
+   "title": "Delayed sleep phase disorder",
+   "url": "https://en.wikipedia.org/wiki/Delayed_sleep_phase_disorder",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
   }
  ],
  "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Intrinsically_photosensitive_retinal_ganglion_cell",
+   "title": "Intrinsically photosensitive retinal ganglion cell - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Night_vision",
+   "title": "Night vision - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Melatonin",
+   "title": "Melatonin - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Delayed_sleep_phase_disorder",
+   "title": "Delayed sleep phase disorder - Wikipedia"
+  },
   {
    "url": "https://en.wikipedia.org/wiki/Light_effects_on_circadian_rhythm",
    "title": "Light effects on circadian rhythm - Wikipedia"
   }
  ],
+ "name": "Red light at night",
  "card": {
   "summary": "Swapping white evening lights for red ones to protect melatonin; the idea is plausible from light science but untested for this use.",
   "aka": "Red bulbs, night mode lighting",
@@ -116,7 +294,7 @@
   "structure": null
  },
  "quick": {
-  "overview": "This habit replaces white household lights with red ones in the evening. The reasoning is that blue-ish light affects the body clock most.\n\nNo human trial has tested it for sleep or appearance, and the lab findings on red light and melatonin are mixed.",
+  "overview": "This habit replaces white household lights with red ones in the evening. The reasoning is that blue-ish light affects the body clock most.\nNo human trial has tested it for sleep or appearance, and the lab findings on red light and melatonin are mixed.",
   "mechanism": "The circadian system is most responsive to short-wavelength light, so long-wavelength light is proposed to interfere less. Rat studies found bright red light could still suppress melatonin.",
   "risks": "No direct risks are documented. The main caveat is that the effect on sleep in people has not been studied."
  }

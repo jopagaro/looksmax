@@ -1,17 +1,312 @@
 {
-"name":"Aftershave balm / witch hazel",
-"lead":["Aftershave is a product applied to the skin after shaving, traditionally an alcohol-based liquid called a splash and now also sold as balms, lotions and gels. Balms are usually alcohol-free and moisturizing, and witch hazel and bay rum are among the oldest aftershave ingredients.[1][2]","Witch hazel is a plant extract used as an astringent for minor skin irritation, including razor burn. Wikipedia reports limited clinical evidence for most of its claimed uses.[3] No trials specifically testing aftershave for razor irritation were found."],
-"infobox":[["Type","Post-shave skin product"],["Forms","Splash, balm, lotion, gel"],["Common ingredients","Denatured alcohol, witch hazel, fragrance, menthol, moisturizers"],["Regulatory status","Cosmetic or OTC depending on claims (US)"]],
-"sections":[
-{"h":"Description and types","paras":["Splashes are alcohol-based and typically sting briefly on application; balms are lotion-like, usually alcohol-free and often recommended for dry conditions.[1] Ingredients may include antiseptics such as denatured alcohol or witch hazel, astringents, menthol for a numbing effect, and fragrance.[1]"]},
-{"h":"Witch hazel","paras":["Witch hazel has long been used topically for acne, minor irritation and razor burn.[3] Native Americans used the leaves and bark, and commercial distilled products were sold from the mid-1800s.[3] Steam-distilled witch hazel water contains little or no tannin; the US regulates it as an over-the-counter external-use product for minor irritation.[3] A 2002 human study of a lotion with 10 percent witch hazel found reduced sunburn redness, but Wikipedia states there is limited clinical evidence for most other claims.[3]"]},
-{"h":"Safety and risks","paras":["Fragrance ingredients are a recognized cause of contact allergy, and labeling rules in the EU require 26 named fragrance allergens to be listed above set concentrations.[4] In a survey of 1,609 people in a 1987 study, men attributed adverse reactions to cosmetics and toiletries most often to soap, followed by aftershave (22 percent of men's complaints).[5] Alcohol-based products commonly cause brief stinging.[1]"]},
-{"h":"In looksmaxxing culture","paras":["Aftershave balms and witch hazel are discussed in grooming circles as a soothing step after shaving, often alongside advice on ingrown hairs. No forum material suitable for citation was available."]},
-{"h":"Clinical studies","paras":["No studies found testing aftershave balm for razor irritation. Related research covers witch hazel's effect on sunburn redness and the prevalence of cosmetic adverse reactions, described above.[3][5]"]}],
-"timeline":[{"year":"1846","event":"Distilled witch hazel extract sold in Connecticut.[3]"},{"year":"1866","event":"Commercial witch hazel production begun by Thomas Newton Dickinson.[3]"}],
-"lore":null,
-"refs":[{"id":1,"title":"Aftershave","url":"https://en.wikipedia.org/wiki/Aftershave","source":"Wikipedia","year":2025,"type":"encyclopedia"},{"id":2,"title":"Aftershave","url":"https://grokipedia.com/page/Aftershave","source":"Grokipedia","year":2025,"type":"encyclopedia"},{"id":3,"title":"Witch hazel","url":"https://en.wikipedia.org/wiki/Witch_hazel","source":"Wikipedia","year":2025,"type":"encyclopedia"},{"id":4,"title":"Fragrance ingredient labelling in products on sale in the U.K.","url":"https://pubmed.ncbi.nlm.nih.gov/17573873/","source":"British Journal of Dermatology","year":2007,"type":"study"},{"id":5,"title":"Adverse effects of cosmetics and toiletries: a retrospective study in the general population","url":"https://pubmed.ncbi.nlm.nih.gov/19457012/","source":"International Journal of Cosmetic Science","year":1987,"type":"study"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Aftershave","title":"Aftershave"},{"url":"https://en.wikipedia.org/wiki/Witch_hazel","title":"Witch hazel"}],
-"card":{"summary":"Post-shave splash or balm, often containing witch hazel; widely used to soothe, with limited trial evidence.","aka":"Aftershave splash, witch hazel toner","evidence":"limited","outcome":"temporary","price":null,"note":"Fragrance and alcohol can irritate or sensitize some skin.","structure":null},
-"quick":{"overview":"Aftershave balms and splashes are applied after shaving to soothe skin, and witch hazel is a common ingredient. Splashes are alcohol-based; balms are usually moisturizing.\n\nClinical evidence for soothing razor burn is limited.","mechanism":"Alcohol and witch hazel act as antiseptics and astringents; balms add moisturizers and soothing agents, and menthol gives a cooling sensation.","risks":"Alcohol may sting, and fragrance ingredients are a known cause of contact allergy. Witch hazel is regulated as an OTC external-use product in the US."}
+ "name": "Aftershave balm / witch hazel",
+ "lead": [
+  "Aftershave is a product applied to the skin after shaving to soothe it, reduce the look of irritation and leave a groomed finish. Traditionally it is an alcohol-based liquid called a splash; it is now also sold as balms, lotions, gels and pastes. Balms are usually alcohol-free and moisturizing, while witch hazel and bay rum are among the oldest aftershave ingredients and are still sold.[1][2]",
+  "People use these products to look better in concrete ways: calmer, less red skin on the face and neck after a close shave, a smoother and less tight-looking surface, a tidier jawline and neckline, and for many, a light fragrance that finishes the grooming routine. Proponents also fold witch hazel or a balm into routines aimed at limiting razor bumps and ingrown hairs, which can show as red marks along the jaw and neck.",
+  "Witch hazel is a plant extract used as an astringent for minor skin irritation, including razor burn. Wikipedia reports limited clinical evidence for most claimed uses, with the best-documented finding being reduced sunburn redness in a 2002 human study of a 10 percent witch hazel lotion.[3] No trials specifically testing aftershave for razor irritation have been published."
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Post-shave skin product"
+  ],
+  [
+   "Forms",
+   "Splash, balm, lotion, gel, paste"
+  ],
+  [
+   "Common ingredients",
+   "Denatured alcohol, witch hazel, fragrance, menthol, moisturizers"
+  ],
+  [
+   "Witch hazel water",
+   "Steam-distilled; contains about 13-15% ethanol and no tannins"
+  ],
+  [
+   "Regulatory status",
+   "Cosmetic or OTC depending on claims (US); witch hazel water is an OTC external-use drug"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description and types",
+   "paras": [
+    "Splashes are alcohol-based and typically sting briefly on application, usually for seconds and occasionally for several minutes; balms are lotion-like, usually alcohol-free and often recommended for dry or winter conditions.[1] Splashes are sometimes confused with eau de cologne, and some makers market fragranced aftershave as cologne to encourage wider use.[1]",
+    "Ingredients may include antiseptics such as denatured alcohol or witch hazel, astringents, menthol for a numbing or cooling effect, moisturizers, and fragrance or essential oils.[1] The stated purposes are to help prevent infection of small cuts, reduce irritation and soften the skin.[1]",
+    "Wikipedia notes that moisturizers, natural and artificial, are often presented as softening the skin, which is the stated role of the balm format.[1] A review of 52 acne moisturizers describes moisturizer formulas in terms of three properties, occlusive, humectant and emollient, which is the same vocabulary used for balms and lotions generally.[10]",
+    "Marketing has blurred the line between aftershave and fragrance. Wikipedia says some manufacturers encourage buyers to wear fragranced splash as a cologne to widen its use, and a 1981 Boston Phoenix article cited there called aftershave 'America's favorite gift'.[1] Fragrance is therefore part of the appearance payoff for many users, alongside skin comfort."
+   ]
+  },
+  {
+   "h": "History and brands",
+   "paras": [
+    "Wikipedia says early aftershaves included witch hazel and bay rum, both of which appear in shaving guides and are still sold.[1] Bay rum is described as a type of cologne and aftershave lotion.[1] The article shows a Williams Aqua Velva bottle from the 1930s and names Old Spice as an American male grooming brand, and mentions Burma-Shave, a brushless shaving cream introduced in the US in 1925, as a shaving rather than aftershave product.[1]",
+    "Distilled witch hazel has a separate commercial history. In 1846 Dr. Charles Hawes adopted steam distillation of witch hazel twigs and Alvan Whittemore sold the product in Essex, Connecticut, while Theron T. Pond marketed a bark extract that became Pond's Extract after his death in 1852. Thomas Newton Dickinson Sr. began commercial production in 1866, and the descendants' competing businesses were consolidated at an East Hampton, Connecticut plant in 1997.[3]",
+    "Bay rum, a cologne and aftershave lotion, was first made around 1840 in Saint Thomas in the Danish West Indies, distilled from rum and the leaves or berries of the West Indian bay tree (Pimenta racemosa). It became fashionable in New York and other American cities before reaching Europe. A. H. Riise began producing it in Saint Thomas in 1883, and the company still sells men's products as St. Johns Bay Rum. After World War II many companies sold bay-rum-scented soaps, lotions, aftershaves and colognes, mostly marketed to men.[11]",
+    "Bay rum was also once sold as a medicinal tonic. During US Prohibition, Rexall drugstores sold a version at 58 percent alcohol labelled for external use only, and it was sometimes drunk, a trade that declined once Prohibition ended.[11]"
+   ]
+  },
+  {
+   "h": "Witch hazel",
+   "paras": [
+    "Hamamelis is a genus of flowering shrubs and small trees, with five recognized species: three native to North America, one to Japan and one to China. The common or American witch hazel, Hamamelis virginiana, blooms in autumn, and the name 'witch' comes from an Old English word for pliant, not from witchcraft.[3]",
+    "Witch hazel has long been used topically for acne, minor irritation and razor burn.[3] Native Americans used the leaves and bark.[3] Leaves contain polyphenols, with roughly 3 to 10 percent tannins, flavonoids and up to 0.5 percent essential oil, and bark has more tannin. Steam-distilled witch hazel water is a clear liquid with 13 to 15 percent ethanol and no tannins.[3]",
+    "In the US, witch hazel water is regulated as an over-the-counter drug for external use only, intended to soothe minor skin irritation. In March 2017 the FDA warned Aegeia Skin Care over unsubstantiated health claims and lack of safety evidence.[3] A review cited on Wikipedia suggests the distilled essential oil contains too few tannins or polyphenols to be therapeutic and may cause contact dermatitis.[3]",
+    "Early New England settlers learned of witch hazel from Native peoples, but widespread US use developed in the 19th century. Alcohol is part of the distilled product, and the US labelling category covers it as an astringent drug for external use only; Wikipedia notes that taking hamamelis water by mouth may cause nausea, vomiting or constipation.[3]"
+   ]
+  },
+  {
+   "h": "Research on witch hazel",
+   "paras": [
+    "A 2002 human study of a lotion with 10 percent witch hazel reported reduced sunburn redness, and a 1998 study reported similar results.[3] A Cochrane review of local cooling treatments for childbirth perineal pain, updated in 2020, found little evidence of benefit including for witch hazel pads.[3][6] Wikipedia describes the evidence as limited for psoriasis, eczema, insect bites, poison ivy and razor burn, and notes that it may help hemorrhoid symptoms though more research is needed. A 2011 cell study on human fibroblasts reported antioxidant and anti-inflammatory activity.[3]",
+    "A 2019 clinical study examined a natural-product skin care regimen, including a cleanser containing natural oils, beeswax and witch hazel, as an adjunct to prescription therapy in moderate to severe rosacea,[7] and a 2018 randomised trial tested a nature-based regimen in people with clinically diagnosed sensitive skin.[8] These regimens are multi-ingredient products, so the contribution of witch hazel alone is not isolated.",
+    "A 2015 review described contact dermatitis as an adverse reaction to some topical herbal products containing Hamamelis virginiana, and a 2011 cell study reported antioxidant and anti-inflammatory activity in extracts on human skin fibroblasts.[3] A 2023 review of the witch hazel gallotannin hamamelitannin discusses its antioxidant and anti-inflammatory properties in laboratory work.[12]"
+   ]
+  },
+  {
+   "h": "Safety and risks",
+   "paras": [
+    "Fragrance ingredients are a recognized cause of contact allergy, and labeling rules in the EU require 26 named fragrance allergens to be listed above set concentrations.[4] In a survey of 1,609 people in a 1987 study, men attributed adverse reactions to cosmetics and toiletries most often to soap, followed by aftershave (22 percent of men's complaints).[5] Alcohol-based products commonly cause brief stinging, and non-alcohol versions are sold.[1]",
+    "A study of 406 men found that personal care product use predicted urinary levels of some phthalate metabolites, a finding about cosmetics generally rather than aftershave alone.[9]"
+   ]
+  },
+  {
+   "h": "In looksmaxxing culture",
+   "paras": [
+    "Aftershave is discussed in grooming and strength-training forums as the last step of a shave, often alongside beard trimming, razor choice, cleanser and a hot towel. One T Nation member describes a full routine ending in aftershave and asks whether it is strange to enjoy the alcohol sting after a straight-razor shave.[13] Another thread asks plainly whether men still use aftershave at all, and others mention aftershave as a scent, comparing brand fragrances for compliments.[14]",
+    "Community discussion is largely about scent, routine and personal preference, with little in the way of formal protocols, and posts on forums are individual experience rather than studies."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found testing aftershave balm for razor irritation. Related research covers witch hazel's effect on sunburn redness, small regimen trials in rosacea and sensitive skin, and the prevalence of cosmetic adverse reactions, described above.[3][5][7][8]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "c. 1840",
+   "event": "Bay rum is first made in Saint Thomas, Danish West Indies, from rum and West Indian bay tree leaves.[11]"
+  },
+  {
+   "year": "1846",
+   "event": "Distilled witch hazel extract is sold in Essex, Connecticut; Theron Pond markets a similar bark extract.[3]"
+  },
+  {
+   "year": "1852",
+   "event": "After Pond's death his extract is sold as Pond's Extract.[3]"
+  },
+  {
+   "year": "1866",
+   "event": "Commercial witch hazel production begun by Thomas Newton Dickinson Sr.[3]"
+  },
+  {
+   "year": "1883",
+   "event": "A. H. Riise begins producing bay rum in Saint Thomas.[11]"
+  },
+  {
+   "year": "1925",
+   "event": "Burma-Shave brushless shaving cream introduced in the US.[1]"
+  },
+  {
+   "year": "1987",
+   "event": "Survey of 1,609 people finds aftershave named in 22 percent of men's complaints about cosmetics and toiletries.[5]"
+  },
+  {
+   "year": "1997",
+   "event": "Dickinson-descended witch hazel businesses consolidated at an East Hampton, Connecticut plant.[3]"
+  },
+  {
+   "year": "2017",
+   "event": "FDA warns Aegeia Skin Care over unsubstantiated witch hazel product claims.[3]"
+  }
+ ],
+ "lore": {
+  "intro": "On grooming and lifting forums aftershave comes up as part of a shave routine and as a fragrance choice, and witch hazel as a traditional soothing step.[13][14]",
+  "claims": [
+   {
+    "claim": "Aftershave 'finishes' a shave and calms the skin",
+    "believers": "Users describe a splash or balm as the closing step that leaves the face feeling smooth, with some enjoying the sting of alcohol after a close shave.[13]",
+    "experts": "Wikipedia says alcohol-based splashes sting briefly and that antiseptic, astringent and menthol ingredients are intended to reduce irritation; no trials of aftershave on razor irritation were found.[1]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Witch hazel soothes razor burn",
+    "believers": "Shaving guides have listed witch hazel as an early aftershave, and users apply it as a traditional astringent.[1]",
+    "experts": "Wikipedia says clinical evidence is limited for razor burn, with the best human result being reduced sunburn redness in a 10 percent lotion in 2002.[3]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Alcohol-free balms are better for dry or winter skin",
+    "believers": "Balms are recommended for winter because they are lotion-like and moisturizing.[1]",
+    "experts": "Moisturizers are described by occlusive, humectant and emollient properties; no aftershave-specific trials were found.[10]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Aftershave can double as a cologne",
+    "believers": "Some makers market fragranced splashes for everyday wear, and forum posters compare aftershave brands for compliments.[1][14]",
+    "experts": "This is a marketing practice described by Wikipedia; fragrance ingredients are a recognised cause of contact allergy.[1][4]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Fragranced products can irritate or sensitise skin",
+    "believers": "Some users prefer alcohol-free or fragrance-light products for sensitive skin.[1]",
+    "experts": "A 1987 survey found aftershave named in 22 percent of men's complaints about cosmetics, and EU rules require 26 named fragrance allergens to be listed.[4][5]",
+    "evidence": "harms"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Aftershave",
+   "url": "https://en.wikipedia.org/wiki/Aftershave",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Aftershave",
+   "url": "https://grokipedia.com/page/Aftershave",
+   "source": "Grokipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Witch hazel",
+   "url": "https://en.wikipedia.org/wiki/Witch_hazel",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Fragrance ingredient labelling in products on sale in the U.K.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17573873/",
+   "source": "British Journal of Dermatology",
+   "year": 2007,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Adverse effects of cosmetics and toiletries: a retrospective study in the general population",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19457012/",
+   "source": "International Journal of Cosmetic Science",
+   "year": 1987,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Local cooling for relieving pain from perineal trauma sustained during childbirth.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22592710/",
+   "source": "Cochrane database of systematic reviews",
+   "year": 2012,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Natural Skin Care Products as Adjunctive to Prescription Therapy in Moderate to Severe Rosacea.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30794364/",
+   "source": "Journal of drugs in dermatology",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Evaluation of the Performance of a Nature-Based Sensitive Skin Regimen in Subjects With Clinically Diagnosed Sensitive Skin.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30124733/",
+   "source": "Journal of drugs in dermatology",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Personal care product use predicts urinary concentrations of some phthalate monoesters.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16263507/",
+   "source": "Environmental health perspectives",
+   "year": 2005,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Moisturizers for Acne: What are their Constituents?",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24847408/",
+   "source": "Journal of Clinical and Aesthetic Dermatology",
+   "year": 2014,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "Bay rum",
+   "url": "https://en.wikipedia.org/wiki/Bay_rum",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 12,
+   "title": "Ginnalin A and hamamelitannin: the unique gallotannins with promising anti-carcinogenic potential",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37205316/",
+   "source": "Exploration of Targeted Anti-tumor Therapy",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 13,
+   "title": "Flame Free Confession III (Part 1)",
+   "url": "https://t-nation.com/t/flame-free-confession-iii-even-more-flame-free-part-1/264067",
+   "source": "T Nation",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 14,
+   "title": "Flame Free Confession III (Part 2)",
+   "url": "https://t-nation.com/t/flame-free-confession-iii-even-more-flame-free-part-2/273731",
+   "source": "T Nation",
+   "year": 2021,
+   "type": "forum"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Aftershave",
+   "title": "Aftershave"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Witch_hazel",
+   "title": "Witch hazel"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Bay_rum",
+   "title": "Bay rum"
+  }
+ ],
+ "card": {
+  "summary": "Post-shave splash or balm, often containing witch hazel; widely used to soothe, with limited trial evidence.",
+  "aka": "Aftershave splash, witch hazel toner",
+  "evidence": "limited",
+  "outcome": "temporary",
+  "price": null,
+  "note": "Fragrance and alcohol can irritate or sensitize some skin.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Aftershave balms and splashes are applied after shaving to soothe skin, and witch hazel is a common ingredient. Splashes are alcohol-based; balms are usually moisturizing.\n\nClinical evidence for soothing razor burn is limited.",
+  "mechanism": "Alcohol and witch hazel act as antiseptics and astringents; balms add moisturizers and soothing agents, and menthol gives a cooling sensation.",
+  "risks": "Alcohol may sting, and fragrance ingredients are a known cause of contact allergy. Witch hazel is regulated as an OTC external-use product in the US."
+ },
+ "angle": {
+  "goal": "Skin / grooming",
+  "chain": [
+   "Applied to the shaved area after shaving",
+   "Astringent, antiseptic or moisturizing ingredients calm the skin",
+   "Less visible redness and a smoother, groomed finish"
+  ],
+  "effect": "direct",
+  "text": "Aftershave balm and witch hazel are applied right after shaving to calm skin and reduce visible irritation. Users reach for them to keep the jaw and neck looking even and comfortable after a close shave."
+ }
 }

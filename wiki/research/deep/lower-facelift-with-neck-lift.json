@@ -1,27 +1,253 @@
 {
-"name":"Lower facelift with neck lift",
-"card":{"summary":"A combined jowl-and-neck lift, often adding platysma work and fat removal to the facelift; literature is surgeon-reported with limited comparative data.","aka":"Lower facelift and platysmaplasty, lower face and neck rejuvenation","evidence":"limited","outcome":null,"risk":"high","price":null,"note":"Major surgery; Wikipedia lists hematoma and nerve injury as principal complications of facelifts.","structure":null},
-"quick":{"overview":"A lower facelift with neck lift targets jowls, the jawline and the neck together. It typically tightens deeper layers (the SMAS), may tighten the platysma muscle band of the neck, removes or contours fat under the chin, and trims and redrapes skin.\n\nPublished reports are mostly from surgeons describing their combined techniques, including one team that argues combinations of methods are essential for lasting results. Registered trials include comparisons of office-based limited and hospital-based full facelifts.","mechanism":"Facelift tightening of SMAS or deep-plane tissue lifts the jowls, while platysma work, submental lipectomy and sometimes chin implants reshape the neck and under-chin contour.","risks":"Facelift complications documented include hematoma, nerve injury, skin necrosis, scarring and hair loss; smoking raises the risk. Wikipedia notes the greater auricular nerve is the most frequently injured sensory nerve."},
-"lead":["A lower facelift with neck lift is a combined surgical approach to the jowls, jawline and neck, in which facelift tightening of the SMAS or deeper tissues is performed together with treatment of neck structures such as the platysma muscle and submental fat.[1][2] Wikipedia notes that a traditional facelift addresses neck skin and platysma laxity.[1]","A 1983 anatomical and clinical report from nearly 100 patients described anterior neck principles combining submandibular lipectomy, excision of the submental fat pad, chin implantation, creation or tightening of a platysma muscular sling, and skin tightening or resection.[3] A 2018 team's lower face and neck rejuvenation combined method uses liposuction, lipectomy, myotomies, suspensions and tissue-induction techniques, arguing that combinations are essential for satisfactory lasting results.[2]","Other surgeons report SMAS plication with periauricular purse-string and malar fat pad elevation evaluated with FACE-Q,[4] and endoscopic deep plane facelifts with a classification for patient selection.[5] Evidence is mostly case series."],
-"infobox":[["Type","Surgical facelift plus neck lift"],["Areas","Jowls, jawline, neck[1][2]"],["Common components","SMAS tightening, platysma work, submental fat removal[3]"],["Anesthesia","Typically general or deep sedation[1]"],["Main risks","Hematoma, nerve injury, necrosis, scarring[1]"]],
-"sections":[
-{"h":"Description","paras":["Neck aging involves platysma laxity and submental fat. Surgeons treat it by approximating or tightening the platysma, removing fat and sometimes adding a chin implant, in addition to skin redraping.[3] Deep plane facelifts dissect beneath the SMAS so that skin and deeper tissue move together and ligaments are released.[1][6]"]},
-{"h":"Techniques","paras":["Reported variants include the combined lower face and neck method,[2] SMAS plication with purse-string and malar fat pad elevation,[4] and endoscopic deep plane approaches described in 2025 as offering scar-concealed access.[5] Wikipedia describes skin-only, SMAS, deep-plane and composite variants.[1]"]},
-{"h":"Risks","paras":["Wikipedia lists hematoma as the most common facelift complication, with nerve injury (greater auricular sensory; facial motor), skin necrosis (smoking raises risk about twelvefold), scarring, hair loss, ear changes and a windswept look if skin is over-removed or the vector insufficiently vertical.[1]"]},
-{"h":"Clinical studies","paras":["Published studies are surgeon-reported. The 2018 combined method paper describes outcomes of its approach,[2] and a 2018 paper reports patient-reported FACE-Q outcomes for a plication technique.[4] A 2025 paper presents a classification for endoscopic deep plane facelift.[5] Registered trials include a 100-patient comparison of an office-based limited facelift with a hospital-based full facelift (status unknown),[7] a small histology study of a skin treatment as adjunct to facelift surgery (n=7, completed),[8] and a phase 2/3 trial of tacrolimus for malar edema.[9] No published results from these registrations were found."]}
-],
-"timeline":[{"year":"1983","event":"Anterior neck and platysma principles reported from nearly 100 patients.[3]"},{"year":"2018","event":"Combined lower face and neck method and FACE-Q plication report published.[2][4]"},{"year":"2025","event":"Classified endoscopic deep plane facelift approach published.[5]"}],
-"lore":null,
-"refs":[
-{"id":1,"title":"Rhytidectomy","url":"https://en.wikipedia.org/wiki/Rhytidectomy","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":2,"title":"Facelifts: Improving the long-term outcomes of lower face and neck rejuvenation surgery","url":"https://pubmed.ncbi.nlm.nih.gov/29545030/","source":"Journal of Cranio-Maxillo-Facial Surgery","year":2018,"type":"study"},
-{"id":3,"title":"The platysma muscle. Anatomic considerations for aesthetic surgery of the anterior neck","url":"https://pubmed.ncbi.nlm.nih.gov/6627838/","source":"Clinics in Plastic Surgery","year":1983,"type":"study"},
-{"id":4,"title":"Periauricular Purse-String Reinforced with SMAS plication and Malar Fat Pad Elevation: FACE-Q Report","url":"https://pubmed.ncbi.nlm.nih.gov/30418281/","source":"Annals of Plastic Surgery","year":2018,"type":"study"},
-{"id":5,"title":"Endoscopic Deep Plane Facelift: A Classified Approach","url":"https://pubmed.ncbi.nlm.nih.gov/40576459/","source":"Aesthetic Surgery Journal","year":2025,"type":"study"},
-{"id":6,"title":"Deep Plane Facelift","url":"https://pubmed.ncbi.nlm.nih.gov/31424861/","source":"StatPearls","year":2026,"type":"review"},
-{"id":7,"title":"NCT05419609 Comparison of an Office-based Limited Facelift and Hospital-based Full Facelift","url":"https://clinicaltrials.gov/study/NCT05419609","source":"ClinicalTrials.gov","year":2022,"type":"trial"},
-{"id":8,"title":"NCT06243744 Histological Evaluation of Human Skin Bx as an Adjunct Procedure in Facelift Surgery","url":"https://clinicaltrials.gov/study/NCT06243744","source":"ClinicalTrials.gov","year":2023,"type":"trial"},
-{"id":9,"title":"NCT03715387 Tacrolimus for Malar Edema","url":"https://clinicaltrials.gov/study/NCT03715387","source":"ClinicalTrials.gov","year":2018,"type":"trial"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Rhytidectomy","title":"Rhytidectomy - Wikipedia"}]
+ "name": "Lower facelift with neck lift",
+ "card": {
+  "summary": "A combined jowl-and-neck lift, often adding platysma work and fat removal to the facelift; literature is surgeon-reported with limited comparative data.",
+  "aka": "Lower facelift and platysmaplasty, lower face and neck rejuvenation",
+  "evidence": "limited",
+  "outcome": null,
+  "risk": "high",
+  "price": null,
+  "note": "Major surgery; Wikipedia lists hematoma and nerve injury as principal complications of facelifts.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "A lower facelift with neck lift targets jowls, the jawline and the neck together. It typically tightens deeper layers (the SMAS), may tighten the platysma muscle band of the neck, removes or contours fat under the chin, and trims and redrapes skin.\n\nPublished reports are mostly from surgeons describing their combined techniques, including one team that argues combinations of methods are essential for lasting results. Registered trials include comparisons of office-based limited and hospital-based full facelifts.",
+  "mechanism": "Facelift tightening of SMAS or deep-plane tissue lifts the jowls, while platysma work, submental lipectomy and sometimes chin implants reshape the neck and under-chin contour.",
+  "risks": "Facelift complications documented include hematoma, nerve injury, skin necrosis, scarring and hair loss; smoking raises the risk. Wikipedia notes the greater auricular nerve is the most frequently injured sensory nerve."
+ },
+ "lead": [
+  "A lower facelift with neck lift is a combined surgical approach to the jowls, jawline and neck. It aims to sharpen the line of the jaw, smooth the area beneath the chin and tighten the neck so the lower third of the face looks firmer and more defined. Facelift tightening of the SMAS or deeper tissues is performed together with treatment of neck structures such as the platysma muscle and submental fat.[1][2] Wikipedia notes that a traditional facelift addresses neck skin and platysma laxity.[1]",
+  "People pursue it because the jawline and neck are among the first places ageing shows. Wikipedia describes ageing of the lower face as descent of the platysma and cheek fat that produces jowling and deeper nasolabial folds, and surgeons treat these by repositioning deeper tissue rather than only pulling skin.[1] Within looksmaxxing circles the procedure is discussed as a surgical route to a cleaner jaw and neck line, alongside chin implants, jaw contouring and submental fat removal.",
+  "Published work is largely surgeon-reported. A 1983 anatomical and clinical report from nearly 100 patients set out principles for the anterior neck, a 2018 team described a combined lower face and neck method that uses several techniques together, and later papers describe SMAS plication with patient-reported outcome measures and classified endoscopic deep plane approaches.[2][3][4][5] Registered trials include comparisons of limited and full facelifts.[7]"
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Surgical facelift plus neck lift"
+  ],
+  [
+   "Areas",
+   "Jowls, jawline, neck[1][2]"
+  ],
+  [
+   "Common components",
+   "SMAS tightening, platysma work, submental fat removal[3]"
+  ],
+  [
+   "Related anatomy",
+   "Platysma muscle, supplied by the cervical branch of the facial nerve[8]"
+  ],
+  [
+   "Anesthesia",
+   "Typically general or deep sedation[1]"
+  ],
+  [
+   "Recovery (facelift, general)",
+   "About 2-4 weeks depending on technique[1]"
+  ],
+  [
+   "Main risks",
+   "Hematoma, nerve injury, necrosis, scarring[1]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Neck ageing involves laxity of the platysma and accumulation or descent of submental fat. Surgeons address this by approximating or tightening the platysma, removing fat and sometimes adding a chin implant, in addition to redraping skin.[3] Deep plane facelifts dissect beneath the SMAS so that skin and deeper tissue move together as one unit and retaining ligaments are released.[1][6]",
+    "The platysma is a thin sheet of muscle over the front of the neck, supplied by the cervical branch of the facial nerve. With age it thins and shortens and its tone declines, which Wikipedia notes contributes to loose neck skin and visible vertical bands, colloquially called turkey neck.[8] Treatments for the bands range from conservative management and botulinum toxin to platysmaplasty, which can be done open or closed.[8] Because fat lies above the muscle, liposuction of the neck can often be done without entering it.[8]"
+   ]
+  },
+  {
+   "h": "Components",
+   "paras": [
+    "A lower facelift with neck lift is not a single fixed operation. Components described in the literature include submandibular lipectomy, excision of the submental fat pad, chin implantation, creation or tightening of a platysma muscular sling, and skin tightening or resection.[3] The 2018 combined method lists liposuction, lipectomy, myotomies, suspensions and tissue-induction techniques, and its authors argue that using several together is central to lasting results.[2]"
+   ],
+   "subs": [
+    {
+     "h": "SMAS and deep plane work",
+     "paras": [
+      "The SMAS, a fibromuscular layer of the face, became the focus of facelift technique in the 1970s. Wikipedia credits Tord Skoog with subfascial dissection in 1968 and describes Mitz and Peyronie's 1976 description of the SMAS as the start of the SMAS era.[1] Variants include SMAS plication, which folds and sutures the layer with less dissection, and SMAS flaps that lift it as a separate layer; the deep-plane facelift dissects beneath the SMAS and is described as more technically demanding because of nearby facial nerve branches.[1]"
+     ]
+    },
+    {
+     "h": "Platysma and neck",
+     "paras": [
+      "The 1983 report derived its principles from cadaver dissections and about seven years of clinical use, creating or tightening an anterior muscular sling by approximating the muscle edges.[3] Wikipedia notes that facelift tightening is often described with jowling as platysma ptosis, and that mini-lift variants may omit the neck portion.[1]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Wikipedia describes a cutaneous period from about 1900 to 1970, in which facelifts pulled and trimmed skin; Eugen Holländer reportedly performed an early one in Berlin in 1901.[1] The SMAS period followed in the 1970s, with deep-plane and subperiosteal approaches in the 1980s and a later volumetric period that emphasises smaller scars, restoring volume and lifting in a more vertical direction.[1] Neck-specific anatomy was systematised in publications such as the 1983 platysma paper.[3] More recent work includes endoscopic deep plane approaches with classified patient selection.[5]"
+   ]
+  },
+  {
+   "h": "Techniques",
+   "paras": [
+    "Reported variants include the combined lower face and neck method,[2] SMAS plication with periauricular purse-string and malar fat pad elevation,[4] and endoscopic deep plane approaches described in 2025 as offering scar-concealed access.[5] Wikipedia also describes skin-only, composite, subperiosteal, MACS and mini-lift variants; it reports that a MACS lift takes about 2.5 hours against 3.5 for a traditional lift, and that skin-only results can last 5 to 10 years.[1]"
+   ]
+  },
+  {
+   "h": "Recovery and results",
+   "paras": [
+    "Wikipedia reports recovery of 2 to 3 weeks for a MACS lift and 3 to 4 weeks for a traditional facelift, with mini-lifts having less downtime but described as more temporary.[1] The same article gives an ideal age of 50 or younger measured by patient satisfaction, and notes that botulinum toxin or liposculpture may suit some areas better than surgery.[1] Patients are advised to avoid aspirin and blood thinners for at least a week beforehand.[1]"
+   ]
+  },
+  {
+   "h": "Male patients",
+   "paras": [
+    "Wikipedia notes that men have hair-bearing preauricular skin, which makes natural-looking incision placement harder; sideburns can be pulled up and back and facial hair can be distorted.[1]"
+   ]
+  },
+  {
+   "h": "Risks",
+   "paras": [
+    "Wikipedia lists hematoma as the most common facelift complication, usually in the first 24 hours, with nerve injury (greater auricular sensory; facial motor), skin necrosis (smoking raises risk about twelvefold), infection, scarring, hair loss, ear changes and a windswept look if skin is over-removed or the vector insufficiently vertical.[1] Serious illness, hypertension, diabetes and unrealistic expectations are listed as contraindications or risk factors.[1] Platysmal bands can become more noticeable after facelift surgery.[8]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "The American Society for Aesthetic Plastic Surgery ranked facelifts third among cosmetic surgical procedures in 2019, after rhinoplasty and blepharoplasty, according to Wikipedia; prices in 2008 ranged from about US$2,500 in India and Panama to US$15,000 in the US and Canada.[1] A growing preference for nonsurgical alternatives is cited as one motive for the scar-concealed endoscopic approaches.[5]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Published studies are surgeon-reported. The 2018 combined method paper describes outcomes of its approach,[2] and a 2018 paper reports patient-reported FACE-Q outcomes for a plication technique.[4] A 2025 paper presents a classification for endoscopic deep plane facelift.[5] Registered trials include a 100-patient comparison of an office-based limited facelift with a hospital-based full facelift (status unknown),[7] a small histology study of a skin treatment as adjunct to facelift surgery (n=7, completed),[9] and a phase 2/3 trial of tacrolimus for malar edema.[10] No published results from these registrations were found."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1901",
+   "event": "Eugen Holländer reportedly performs an early facelift in Berlin.[1]"
+  },
+  {
+   "year": "1968",
+   "event": "Tord Skoog introduces subfascial dissection, published in 1974.[1]"
+  },
+  {
+   "year": "1976",
+   "event": "Mitz and Peyronie describe the SMAS.[1]"
+  },
+  {
+   "year": "1983",
+   "event": "Anterior neck and platysma principles reported from nearly 100 patients.[3]"
+  },
+  {
+   "year": "2018",
+   "event": "Combined lower face and neck method and FACE-Q plication report published.[2][4]"
+  },
+  {
+   "year": "2025",
+   "event": "Classified endoscopic deep plane facelift approach published.[5]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Rhytidectomy",
+   "url": "https://en.wikipedia.org/wiki/Rhytidectomy",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Facelifts: Improving the long-term outcomes of lower face and neck rejuvenation surgery",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29545030/",
+   "source": "Journal of Cranio-Maxillo-Facial Surgery",
+   "year": 2018,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "The platysma muscle. Anatomic considerations for aesthetic surgery of the anterior neck",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6627838/",
+   "source": "Clinics in Plastic Surgery",
+   "year": 1983,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Periauricular Purse-String Reinforced with SMAS plication and Malar Fat Pad Elevation: FACE-Q Report",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30418281/",
+   "source": "Annals of Plastic Surgery",
+   "year": 2018,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Endoscopic Deep Plane Facelift: A Classified Approach",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40576459/",
+   "source": "Aesthetic Surgery Journal",
+   "year": 2025,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Deep Plane Facelift",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31424861/",
+   "source": "StatPearls",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "NCT05419609 Comparison of an Office-based Limited Facelift and Hospital-based Full Facelift",
+   "url": "https://clinicaltrials.gov/study/NCT05419609",
+   "source": "ClinicalTrials.gov",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Platysma",
+   "url": "https://en.wikipedia.org/wiki/Platysma",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 9,
+   "title": "NCT06243744 Histological Evaluation of Human Skin Bx as an Adjunct Procedure in Facelift Surgery",
+   "url": "https://clinicaltrials.gov/study/NCT06243744",
+   "source": "ClinicalTrials.gov",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "NCT03715387 Tacrolimus for Malar Edema",
+   "url": "https://clinicaltrials.gov/study/NCT03715387",
+   "source": "ClinicalTrials.gov",
+   "year": 2018,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Rhytidectomy",
+   "title": "Rhytidectomy - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Platysma",
+   "title": "Platysma - Wikipedia"
+  }
+ ],
+ "angle": {
+  "goal": "Jawline and neck definition",
+  "chain": [
+   "Deeper facial and neck tissues are tightened or repositioned",
+   "Jowls are lifted and fat under the chin is reduced or contoured",
+   "A firmer-looking jaw line and neck"
+  ],
+  "effect": "direct",
+  "text": "The procedure is used to lift jowls, sharpen the jaw-to-neck transition and tighten the neck by working on the SMAS, platysma and submental fat in one operation. Surgeons combine components according to what each patient's anatomy shows."
+ }
 }

@@ -1,29 +1,359 @@
 {
-"name":"Internal bleaching",
-"lead":["Internal (intracoronal) bleaching is a tooth-whitening procedure for root-canal-treated, non-vital teeth, which lose their nerve supply and often darken [1][2]. The bleaching agent is sealed inside the tooth rather than applied to the outer surface, and is replaced every few weeks until the desired shade is reached; it is most often done on front teeth [2].","Present techniques rely on hydrogen peroxide, applied directly or produced from sodium perborate or carbamide peroxide [3]. A critical review reported more than 90% immediate success for intracoronal bleaching of non-vital teeth, with 10 to 40% of successfully treated teeth needing re-treatment over 1 to 8 years [3].","Cervical root resorption is the best-documented serious risk, linked especially to heated (thermocatalytic) methods [3][4][5]."],
-"infobox":[["Type","Dental whitening for non-vital teeth"],["Agents","Hydrogen peroxide, carbamide peroxide, sodium perborate"],["Common technique","Walking bleach (sealed in pulp chamber)"],["Main documented risk","Cervical root resorption"],["Reported immediate success","Over 90% (critical review)"]],
-"sections":[
-{"h":"Description","paras":["In the walking bleach technique, a paste of sodium perborate and water or 3% hydrogen peroxide is placed in the pulp chamber and sealed between visits [5]. Discolouration of non-vital teeth can follow trauma, root canal materials or other causes; case reports describe darkening after white mineral trioxide aggregate and after triple antibiotic paste, and bleaching has been used to treat it [6][7]."]},
-{"h":"Effectiveness","paras":["The critical review reported over 90% immediate success and re-treatment need in 10 to 40% of cases during 1 to 8 years of follow-up [3]. An analysis of 255 teeth has also been published in the Australian Dental Journal [8]."]},
-{"h":"Adverse effects","paras":["Cervical root resorption is a possible consequence and is more frequent with thermocatalytic procedures; a 1984 report described external cervical resorption after bleaching a pulpless tooth [3][4][9]. A review of the walking bleach technique advised that heating the mixture is contraindicated because of resorption risk and formation of chemical radicals [5]. Wikipedia also notes intracoronal bleaching may damage dentine and lead to crown brittleness or fracture [2]. Studies have examined the effect of internal bleaching agents on dentinal permeability [10]."]},
-{"h":"Clinical studies","paras":["A registered trial evaluated intracoronal bleaching of primary anterior teeth after dental trauma in 13 children, with status listed as unknown [11]. The published literature is chiefly reviews, case reports and a retrospective analysis [3][5][8]."]}
-],
-"timeline":[{"year":"1984","event":"A report describes external cervical resorption after bleaching a pulpless tooth.[9]"},{"year":"2003","event":"Reviews of the biological aspects of bleaching and of the walking bleach technique are published.[3][5]"}],
-"lore":null,
-"refs":[
-{"id":1,"title":"Tooth bleaching: critical review of the biological aspects (journal listing)","url":"https://pubmed.ncbi.nlm.nih.gov/12907697/","source":"Critical Reviews in Oral Biology and Medicine","year":2003,"type":"review"},
-{"id":2,"title":"Tooth whitening","url":"https://en.wikipedia.org/wiki/Tooth_bleaching","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":3,"title":"Tooth bleaching--a critical review of the biological aspects","url":"https://pubmed.ncbi.nlm.nih.gov/12907697/","source":"Critical Reviews in Oral Biology and Medicine","year":2003,"type":"review"},
-{"id":4,"title":"Hydrogen peroxide tooth-whitening (bleaching) products: review of adverse effects and safety issues","url":"https://pubmed.ncbi.nlm.nih.gov/16607324/","source":"British Dental Journal","year":2006,"type":"review"},
-{"id":5,"title":"Review of the current status of tooth whitening with the walking bleach technique","url":"https://pubmed.ncbi.nlm.nih.gov/12752645/","source":"International Endodontic Journal","year":2003,"type":"review"},
-{"id":6,"title":"Treatment of tooth discoloration after the use of white mineral trioxide aggregate","url":"https://pubmed.ncbi.nlm.nih.gov/21689563/","source":"Journal of Endodontics","year":2011,"type":"study"},
-{"id":7,"title":"Tooth discolouration and internal bleaching after the use of triple antibiotic paste","url":"https://pubmed.ncbi.nlm.nih.gov/25515304/","source":"International Endodontic Journal","year":2015,"type":"study"},
-{"id":8,"title":"Internal bleaching of teeth: an analysis of 255 teeth","url":"https://pubmed.ncbi.nlm.nih.gov/20415931/","source":"Australian Dental Journal","year":2009,"type":"study"},
-{"id":9,"title":"External cervical resorption after bleaching a pulpless tooth","url":"https://pubmed.ncbi.nlm.nih.gov/6583628/","source":"Oral Surgery, Oral Medicine, Oral Pathology","year":1984,"type":"study"},
-{"id":10,"title":"Effect of internal bleaching agents on dentinal permeability of non-vital teeth","url":"https://pubmed.ncbi.nlm.nih.gov/12656839/","source":"Dental Traumatology","year":2003,"type":"study"},
-{"id":11,"title":"Clinical and Radiographic Evaluation of Intra Coronal Bleaching of Primary Anterior Teeth (NCT05921500)","url":"https://clinicaltrials.gov/study/NCT05921500","source":"ClinicalTrials.gov","year":2022,"type":"trial"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Tooth_bleaching","title":"Tooth bleaching - Wikipedia"}],
-"card":{"summary":"Whitening a darkened root-canal-treated tooth from the inside; reported high immediate success, with resorption risk and some re-treatment.","aka":"Intracoronal bleaching, walking bleach, non-vital bleaching","evidence":"moderate","risk":"moderate","note":"Cervical root resorption is a documented risk, especially with heat-activated methods.","price":null},
-"quick":{"overview":"Internal bleaching lightens a dark, root-canal-treated tooth by sealing a peroxide-based agent inside it and changing it over successive visits.\n\nA critical review reported over 90% immediate success, with 10 to 40% of treated teeth needing re-treatment within 1 to 8 years.","mechanism":"Hydrogen peroxide, or compounds that release it such as sodium perborate and carbamide peroxide, breaks down the pigment inside the tooth.","risks":"Cervical root resorption is the main documented concern, more often with thermocatalytic methods; dentine weakening and crown fracture have also been described."}
+ "name": "Internal bleaching",
+ "lead": [
+  "Internal (intracoronal) bleaching is a tooth-whitening procedure for root-canal-treated, non-vital teeth, which lose their nerve supply and often darken [1][2]. It helps someone look better by lightening a single grey, yellow or brown front tooth that stands out against its neighbours, so that the smile reads as one even colour. The bleaching agent is sealed inside the tooth rather than applied to the outer surface, and is replaced every few weeks until the desired shade is reached [2].",
+  "Present techniques rely on hydrogen peroxide, applied directly or produced from sodium perborate or carbamide peroxide [3]. A critical review reported more than 90% immediate success for intracoronal bleaching of non-vital teeth, with 10 to 40% of successfully treated teeth needing re-treatment over 1 to 8 years [3]. A 2022 systematic review and meta-analysis of clinical trials found that internal bleaching produced a significant shade change, and that carbamide peroxide, hydrogen peroxide and perborate-peroxide mixes outperformed sodium perborate mixed with water on shade-guide measurements [12].",
+  "Cervical root resorption is the best-documented serious risk, linked especially to heated (thermocatalytic) methods [3][4][5]. Dental literature has therefore moved toward gentler, non-heated protocols and protective barriers inside the tooth [5][13]."
+ ],
+ "angle": {
+  "goal": "Teeth colour",
+  "chain": [
+   "Peroxide agent sealed inside the pulp chamber",
+   "Pigment within the dentine is broken down over repeated visits",
+   "A darkened root-filled tooth matches the neighbouring teeth"
+  ],
+  "effect": "direct",
+  "text": "Because a root-filled tooth cannot be lightened properly from the outside, the dentist places the bleaching agent inside the crown and seals it. Patients use it to correct a single dark front tooth, often after trauma, without necessarily needing a crown or veneer."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Dental whitening for non-vital teeth"
+  ],
+  [
+   "Agents",
+   "Hydrogen peroxide, carbamide peroxide, sodium perborate"
+  ],
+  [
+   "Common technique",
+   "Walking bleach (sealed in pulp chamber)"
+  ],
+  [
+   "Setting",
+   "Dental clinic; repeated visits"
+  ],
+  [
+   "Main documented risk",
+   "Cervical root resorption"
+  ],
+  [
+   "Reported immediate success",
+   "Over 90% (critical review) [3]"
+  ],
+  [
+   "Alternatives",
+   "Crowns or veneers (less conservative)[15]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "In the walking bleach technique, a paste of sodium perborate and water or 3% hydrogen peroxide is placed in the pulp chamber and sealed between visits, so that the patient 'walks' with the agent in place [5]. Discolouration of non-vital teeth can follow trauma, root canal materials or other causes; case reports describe darkening after white mineral trioxide aggregate and after triple antibiotic paste, and bleaching has been used to treat it [6][7][14].",
+    "A 2023 review in the Australian Dental Journal describes intracoronal bleaching as a minimally invasive procedure introduced into dentistry in the 19th century and made popular by its conservative nature compared with crowns or veneers. It notes that the exact bleaching mechanism has not been proven, and that modern agents are mainly peroxide-releasing compounds in various formulations and delivery systems [15].",
+    "Wikipedia's tooth-whitening article says internal bleaching is most often done on front teeth, that the agent is replaced every few weeks until the desired shade is reached, and that intracoronal bleaching uses about 30% hydrogen peroxide, which can weaken dentine and, in some patients, lead to sensitivity, root resorption or crown fracture, effects it describes as hard to predict.[2]"
+   ],
+   "subs": [
+    {
+     "h": "Agents and techniques",
+     "paras": [
+      "Three broad approaches appear in the literature: the walking bleach (sealed paste, changed between visits), the in-office technique (a stronger peroxide placed by the dentist, sometimes activated by heat or light) and the thermocatalytic technique (heated agent), which is the one most tied to resorption reports [3][5]. Trials have also compared light-emitting diode and diode laser activation with sodium perborate [16]."
+     ]
+    },
+    {
+     "h": "Causes of internal discolouration",
+     "paras": [
+      "Wikipedia's tooth-whitening article lists non-vital tooth discolouration among the stains that surface whitening products do not reach, which is why a separate internal route exists [2]. Studies have documented dark staining from calcium-silicate cements and from antibiotic pastes used in regenerative endodontics, and compared how well bleaching reverses it [6][7][17]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Intracoronal bleaching was introduced into dentistry in the 19th century and became popular because it is conservative compared with crowns or veneers.[15] Wikipedia's wider history of tooth whitening notes that by the 1940s and 1950s, pyrozone and sodium perborate were being used on non-vital teeth while ether and hydrogen peroxide gels were used on vital teeth, and that custom-tray whitening for vital teeth was introduced in the late 1960s by orthodontist William Klusmeier and promoted by a 1989 article by Haywood and Heymann.[2] The resorption concerns that shaped modern internal bleaching protocols emerged in case reports from 1984 onward and in a 1994 Canadian Dental Association review.[9][19]"
+   ]
+  },
+  {
+   "h": "Effectiveness",
+   "paras": [
+    "The critical review reported over 90% immediate success and re-treatment need in 10 to 40% of cases during 1 to 8 years of follow-up [3]. An analysis of 255 teeth has also been published in the Australian Dental Journal [8]. A 1997 review of long-term outcomes with 30% hydrogen peroxide reported that the success rate fell below 50% over the long term, and noted that sodium perborate mixed with water gave an acceptable aesthetic result with lower resorption potential [18].",
+    "The 2022 meta-analysis pooled six trials for quantitative comparison, reporting a mean shade-guide change of about six units and a colorimeter change of about 13 units across agents [12]."
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "paras": [
+    "Cervical root resorption is a possible consequence and is more frequent with thermocatalytic procedures; a 1984 report described external cervical resorption after bleaching a pulpless tooth [3][4][9]. A review of published case reports found that all affected teeth lacked an intermediate base, 84% had been treated thermocatalytically, 80% were bleached after the root canal sealer had fully set and 72% had a history of trauma; the authors proposed that avoiding heat and placing a protective base could allow safe bleaching [19]. A review of the walking bleach technique advised that heating the mixture is contraindicated because of resorption risk and formation of chemical radicals [5].",
+    "Post-bleaching resorption has been treated; one case report describes calcium hydroxide management with no further resorption at 23 months [20]. A Dutch review lists internal bleaching among several predisposing factors for external cervical root resorption alongside orthodontic treatment, trauma and bruxism [21].",
+    "Wikipedia also notes intracoronal bleaching may damage dentine and lead to crown brittleness or fracture [2]. Laboratory studies have examined the effect of internal bleaching agents on dentinal permeability, microhardness and the cemento-enamel junction [10][22][23]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A registered trial evaluated intracoronal bleaching of primary anterior teeth after dental trauma in 13 children, with status listed as unknown [11]. A randomised comparison examined LED and diode laser activation with sodium perborate [16], and a controlled clinical study measured pH changes inside teeth during intracoronal bleaching [24].",
+    "The wider published literature consists of the 2022 meta-analysis of eight clinical trials [12], narrative reviews [3][5][15][19], case reports [6][7][9][20] and a retrospective analysis of 255 teeth [8]."
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Internal bleaching is a dental-office procedure rather than a consumer product, so it appears in appearance discussions mainly as the option for a single darkened tooth after a root canal or injury. Surface whitening products such as strips and toothpastes act on enamel stains and are covered separately; Wikipedia's overview of tooth whitening places internal bleaching alongside them as the method for non-vital teeth [2].",
+    "Whitening products for vital teeth are regulated by peroxide concentration; Wikipedia says the US FDA endorses only gels under 6% hydrogen peroxide or up to 16% carbamide peroxide, and that in the EU retail products are limited to 0.1% hydrogen peroxide with up to 6% allowed under dental supervision.[2] Internal bleaching uses higher concentrations and is performed by dentists in the clinic. Alternatives for a dark root-filled tooth that dentists discuss in the literature include crowns and veneers, which the 2023 review characterises as less conservative.[15]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1940s-1950s",
+   "event": "Pyrozone and sodium perborate are used to whiten non-vital teeth, while peroxide gels are used on vital teeth.[2]"
+  },
+  {
+   "year": "19th century",
+   "event": "Intracoronal bleaching is introduced into dentistry.[15]"
+  },
+  {
+   "year": "1990",
+   "event": "Case reports and reviews describe management of post-bleaching cervical resorption.[20]"
+  },
+  {
+   "year": "1984",
+   "event": "A report describes external cervical resorption after bleaching a pulpless tooth.[9]"
+  },
+  {
+   "year": "1994",
+   "event": "A Canadian Dental Association review sets out concerns about resorption and proposes avoiding heat and using an intermediate base.[19]"
+  },
+  {
+   "year": "1997",
+   "event": "A review of long-term outcomes with 30% hydrogen peroxide reports success falling below 50% over time.[18]"
+  },
+  {
+   "year": "2003",
+   "event": "Reviews of the biological aspects of bleaching and of the walking bleach technique are published.[3][5]"
+  },
+  {
+   "year": "2022",
+   "event": "A systematic review and meta-analysis compares internal bleaching agents.[12]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Tooth bleaching: critical review of the biological aspects (journal listing)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12907697/",
+   "source": "Critical Reviews in Oral Biology and Medicine",
+   "year": 2003,
+   "type": "review"
+  },
+  {
+   "id": 2,
+   "title": "Tooth whitening",
+   "url": "https://en.wikipedia.org/wiki/Tooth_bleaching",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Tooth bleaching--a critical review of the biological aspects",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12907697/",
+   "source": "Critical Reviews in Oral Biology and Medicine",
+   "year": 2003,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Hydrogen peroxide tooth-whitening (bleaching) products: review of adverse effects and safety issues",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16607324/",
+   "source": "British Dental Journal",
+   "year": 2006,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Review of the current status of tooth whitening with the walking bleach technique",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12752645/",
+   "source": "International Endodontic Journal",
+   "year": 2003,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Treatment of tooth discoloration after the use of white mineral trioxide aggregate",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21689563/",
+   "source": "Journal of Endodontics",
+   "year": 2011,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Tooth discolouration and internal bleaching after the use of triple antibiotic paste",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25515304/",
+   "source": "International Endodontic Journal",
+   "year": 2015,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Internal bleaching of teeth: an analysis of 255 teeth",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20415931/",
+   "source": "Australian Dental Journal",
+   "year": 2009,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "External cervical resorption after bleaching a pulpless tooth",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6583628/",
+   "source": "Oral Surgery, Oral Medicine, Oral Pathology",
+   "year": 1984,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Effect of internal bleaching agents on dentinal permeability of non-vital teeth",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12656839/",
+   "source": "Dental Traumatology",
+   "year": 2003,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "Clinical and Radiographic Evaluation of Intra Coronal Bleaching of Primary Anterior Teeth (NCT05921500)",
+   "url": "https://clinicaltrials.gov/study/NCT05921500",
+   "source": "ClinicalTrials.gov",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "Comparison of the Bleaching Efficacy of Different Agents Used for Internal Bleaching: A Systematic Review and Meta-Analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34762968/",
+   "source": "Journal of Endodontics",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 13,
+   "title": "Intracoronal bleaching: concerns and considerations (journal listing)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8293361/",
+   "source": "Journal of the Canadian Dental Association",
+   "year": 1994,
+   "type": "review"
+  },
+  {
+   "id": 14,
+   "title": "Tooth discoloration after the use of new pozzolan cement (Endocem) and mineral trioxide aggregate and the effects of internal bleaching",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24238455/",
+   "source": "Journal of Endodontics",
+   "year": 2013,
+   "type": "study"
+  },
+  {
+   "id": 15,
+   "title": "Intracoronal tooth bleaching - A review and treatment guidelines",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37975331/",
+   "source": "Australian Dental Journal",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 16,
+   "title": "Clinical comparison between the bleaching efficacy of light-emitting diode and diode laser with sodium perborate",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24697960/",
+   "source": "Australian Endodontic Journal",
+   "year": 2014,
+   "type": "trial"
+  },
+  {
+   "id": 17,
+   "title": "Pre-application of dentin bonding agent prevents discoloration caused by mineral trioxide aggregate",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32493290/",
+   "source": "BMC Oral Health",
+   "year": 2020,
+   "type": "trial"
+  },
+  {
+   "id": 18,
+   "title": "Internal bleaching: long-term outcomes and complications",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9120147/",
+   "source": "Journal of the American Dental Association",
+   "year": 1997,
+   "type": "review"
+  },
+  {
+   "id": 19,
+   "title": "Intracoronal bleaching: concerns and considerations",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8293361/",
+   "source": "Journal of the Canadian Dental Association",
+   "year": 1994,
+   "type": "review"
+  },
+  {
+   "id": 20,
+   "title": "The management of postbleaching cervical resorption",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2074428/",
+   "source": "Journal of Endodontics",
+   "year": 1990,
+   "type": "study"
+  },
+  {
+   "id": 21,
+   "title": "External cervical root resorption",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29461543/",
+   "source": "Nederlands Tijdschrift voor Tandheelkunde",
+   "year": 2018,
+   "type": "review"
+  },
+  {
+   "id": 22,
+   "title": "Effect of intracoronal bleaching agents on dentin microhardness",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17368339/",
+   "source": "Journal of Endodontics",
+   "year": 2007,
+   "type": "study"
+  },
+  {
+   "id": 23,
+   "title": "Effect of bleaching on the cemento-enamel junction",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17907488/",
+   "source": "American Journal of Dentistry",
+   "year": 2007,
+   "type": "study"
+  },
+  {
+   "id": 24,
+   "title": "pH-changes during intracoronal bleaching: an in vivo study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22186753/",
+   "source": "Journal of Contemporary Dental Practice",
+   "year": 2011,
+   "type": "study"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Tooth_bleaching",
+   "title": "Tooth bleaching - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Tooth_whitening",
+   "title": "Tooth whitening - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "Whitening a darkened root-canal-treated tooth from the inside; reported high immediate success, with resorption risk and some re-treatment.",
+  "aka": "Intracoronal bleaching, walking bleach, non-vital bleaching",
+  "evidence": "moderate",
+  "risk": "moderate",
+  "note": "Cervical root resorption is a documented risk, especially with heat-activated methods.",
+  "price": null
+ },
+ "quick": {
+  "overview": "Internal bleaching lightens a dark, root-canal-treated tooth by sealing a peroxide-based agent inside it and changing it over successive visits.\n\nA critical review reported over 90% immediate success, with 10 to 40% of treated teeth needing re-treatment within 1 to 8 years.",
+  "mechanism": "Hydrogen peroxide, or compounds that release it such as sodium perborate and carbamide peroxide, breaks down the pigment inside the tooth.",
+  "risks": "Cervical root resorption is the main documented concern, more often with thermocatalytic methods; dentine weakening and crown fracture have also been described."
+ }
 }

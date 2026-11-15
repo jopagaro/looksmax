@@ -1,74 +1,315 @@
 {
-  "name": "GW0742",
-  "lead": [
-    "GW0742 (also GW610742 and proposed trade name fitorine) is an investigational PPAR-delta (PPAR-beta/delta) agonist investigated by GlaxoSmithKline and used widely as a laboratory tool compound. It is not an approved medicine.[1][2]",
-    "Grokipedia reports that it is sold illicitly to bodybuilders and athletes under names such as \"Cardarine 2.0\", positioned as an alternative to the related compound GW501516; it also notes concerns, drawn from rodent work on its analogue, about tumour promotion.[2] No human clinical trials were found."
+ "name": "GW0742",
+ "lead": [
+  "GW0742 (also GW610742 and proposed trade name fitorine) is an investigational PPAR-delta (PPAR-beta/delta) agonist developed by GlaxoSmithKline and used widely as a laboratory tool compound. It is not an approved medicine.[1][2]",
+  "Appearance interest follows a chain: PPAR-delta activation drives fatty-acid oxidation and glucose uptake in muscle and fat in laboratory models -> the compound is discussed as a way to support fat loss and endurance -> leaner body composition. Grokipedia reports that it is sold gray-market to bodybuilders and athletes as \"Cardarine 2.0\", positioned as an alternative to the related compound GW501516.[2][10]",
+  "Published research on GW0742 consists of cell and animal studies of inflammation, cardiovascular disease, liver fat and metabolism. Researchers have also flagged concerns, drawn from rodent work on its analogue GW501516, about tumour promotion.[2]"
+ ],
+ "infobox": [
+  [
+   "Drug class",
+   "PPAR-delta (beta/delta) agonist"
   ],
-  "infobox": [
-    ["Drug class", "PPAR-delta (beta/delta) agonist"],
-    ["Other names", "GW610742; fitorine[1]"],
-    ["Formula", "C21H17F4NO3S2[1]"],
-    ["Developer", "GlaxoSmithKline[1]"],
-    ["Status", "Investigational; research chemical[1]"]
+  [
+   "Other names",
+   "GW610742; fitorine[1]"
   ],
-  "sections": [
+  [
+   "Formula",
+   "C21H17F4NO3S2[1]"
+  ],
+  [
+   "Developer",
+   "GlaxoSmithKline[1]"
+  ],
+  [
+   "Status",
+   "Investigational; research chemical[1]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Chemistry and pharmacology",
+   "subs": [
     {
-      "h": "Chemistry and pharmacology",
-      "paras": [
-        "GW0742 is a thiazole-based compound structurally related to GW501516.[2] A 2003 paper from the GSK-linked group described the synthesis and biological activity of novel selective PPAR-delta agonists.[3] Grokipedia gives an EC50 of about 3.7 nM at human PPAR-delta with over 300-fold selectivity over the alpha and gamma subtypes, though Wikipedia notes that it can behave as an agonist or antagonist depending on dose and has weak activity at other nuclear receptors.[1][2]"
-      ]
+     "h": "Chemistry",
+     "paras": [
+      "GW0742 is a thiazole-based compound with a phenoxyacetic acid side chain, structurally related to GW501516.[2] Its formula is C21H17F4NO3S2 and its molar mass is about 471 g/mol.[1] Medicinal chemists have made derivatives, including one swapping the thiazole for an oxazole that inhibited vitamin D receptor-mediated transcription.[1]",
+      "A 2003 paper from the GSK-linked group described the synthesis and biological activity of novel selective PPAR-delta agonists, naming GW501516 and GW0742 as optimised leads with low-nanomolar potency and high selectivity over other human PPAR subtypes.[3]"
+     ]
     },
     {
-      "h": "Research",
-      "paras": [
-        "Laboratory studies have examined GW0742 and related ligands in inflammation and cardiovascular models, including suppression of adhesion molecules in human endothelial cells and reduced angiotensin II-accelerated atherosclerosis in mice.[4][5] Other work found that PPAR ligands increased human sebum production in cultured cells, reported suppression of hepatic lipogenesis in obese diabetic mice, and examined colon carcinogenesis and cell differentiation with PPAR-beta/delta ligands.[6][7][8][9] Wikipedia lists mouse studies on pancreatitis and diet-induced hypertension.[1]"
-      ]
-    },
-    {
-      "h": "Use in athletic and fat-loss communities",
-      "paras": [
-        "Grokipedia describes anecdotal preferences, with GW0742 favoured by some for fat loss and GW501516 for endurance, and states that no human data establish either claim.[2] It reports that its analogue GW501516 promoted tumour growth in rodent studies and that long-term human safety is unknown.[2]"
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found. Published research is limited to cell-based and animal work.[3][4][5][6][7]"
-      ]
+     "h": "Mechanism of action",
+     "paras": [
+      "PPAR-delta is a nuclear receptor that regulates genes for lipid metabolism, energy balance and inflammation.[2][11] Grokipedia gives an EC50 of about 3.7 nM at human PPAR-delta with over 300-fold selectivity over the alpha and gamma subtypes, while Wikipedia notes that GW0742 can behave as an agonist or antagonist depending on dose and has weak activity at other nuclear receptors, including androgen and vitamin D receptors.[1][2]",
+      "A 2023 review of PPARs in fatty liver disease notes that PPAR-beta/delta agonists have been proposed to improve insulin sensitivity and lipid metabolism disorders.[11]"
+     ]
     }
-  ],
-  "timeline": [
-    { "year": "2003", "event": "Selective PPAR-delta agonists, including GW0742, described in a medicinal chemistry paper.[3]" }
-  ],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "GW0742", "url": "https://en.wikipedia.org/wiki/GW0742", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "GW0742", "url": "https://grokipedia.com/page/GW0742", "source": "Grokipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 3, "title": "Novel selective small molecule agonists for peroxisome proliferator-activated receptor delta (PPARdelta)--synthesis and biological activity.", "url": "https://pubmed.ncbi.nlm.nih.gov/12699745/", "source": "Bioorganic & Medicinal Chemistry Letters", "year": 2003, "type": "study" },
-    { "id": 4, "title": "PPARdelta-mediated antiinflammatory mechanisms inhibit angiotensin II-accelerated atherosclerosis.", "url": "https://pubmed.ncbi.nlm.nih.gov/18337495/", "source": "PNAS", "year": 2008, "type": "study" },
-    { "id": 5, "title": "Suppression of pro-inflammatory adhesion molecules by PPAR-delta in human vascular endothelial cells.", "url": "https://pubmed.ncbi.nlm.nih.gov/18048767/", "source": "Arteriosclerosis, Thrombosis, and Vascular Biology", "year": 2008, "type": "study" },
-    { "id": 6, "title": "Peroxisome proliferator-activated receptors increase human sebum production.", "url": "https://pubmed.ncbi.nlm.nih.gov/16675962/", "source": "Journal of Investigative Dermatology", "year": 2006, "type": "study" },
-    { "id": 7, "title": "Peroxisome proliferator-activated receptor-delta induces insulin-induced gene-1 and suppresses hepatic lipogenesis in obese diabetic mice.", "url": "https://pubmed.ncbi.nlm.nih.gov/18627005/", "source": "Hepatology", "year": 2008, "type": "study" },
-    { "id": 8, "title": "PPARbeta/delta selectively induces differentiation and inhibits cell proliferation.", "url": "https://pubmed.ncbi.nlm.nih.gov/16021179/", "source": "Cell Death & Differentiation", "year": 2006, "type": "study" },
-    { "id": 9, "title": "Ligand activation of peroxisome proliferator-activated receptor beta inhibits colon carcinogenesis.", "url": "https://pubmed.ncbi.nlm.nih.gov/16618765/", "source": "Cancer Research", "year": 2006, "type": "study" }
-  ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/GW0742", "title": "GW0742 - Wikipedia" }
-  ],
-  "card": {
-    "summary": "A GSK PPAR-delta research compound sold gray-market as \"Cardarine 2.0\", with lab and animal data only and no human trials.",
-    "aka": "GW610742; fitorine; \"Cardarine 2.0\"",
-    "evidence": "unproven",
-    "status": "research",
-    "risk": null,
-    "outcome": null,
-    "price": null,
-    "note": "Not approved; analogue GW501516 promoted tumour growth in rodent studies and long-term human safety is unknown.",
-    "structure": "GW0742"
+   ]
   },
-  "quick": {
-    "overview": "GW0742 is a selective PPAR-delta agonist made by GlaxoSmithKline and used mostly as a lab tool. Some bodybuilding and fat-loss communities market it as a stronger sibling of GW501516.\n\nPublished research is cell and animal work on inflammation, metabolism and the heart; no human trials were found.",
-    "mechanism": "It activates PPAR-delta, a nuclear receptor involved in fatty acid oxidation, glucose handling and inflammation, in laboratory models.",
-    "risks": "It is not an approved medicine and human safety data are lacking. Rodent studies of the related GW501516 reported tumour promotion, and that concern is cited for GW0742 as well."
+  {
+   "h": "Research",
+   "subs": [
+    {
+     "h": "Metabolism and liver",
+     "paras": [
+      "In obese diabetic mice, PPAR-delta activation induced insulin-induced gene-1 and suppressed hepatic lipogenesis.[7] GW610742 reduced cholesterol absorption in mice alongside decreased intestinal NPC1L1 expression.[12] Work in primary human myotubes reported direct activation of glucose transport after PPAR-delta activation.[13] A protective role against hepatic ischaemia-reperfusion injury was reported in mice in 2023.[14]"
+     ]
+    },
+    {
+     "h": "Cardiovascular and inflammatory models",
+     "paras": [
+      "GW0742 and GW501516 inhibited TNF-alpha-induced adhesion molecule expression in human vascular endothelial cells, and PPAR-delta activation reduced angiotensin II-accelerated atherosclerosis in mice.[4][5] In rats after myocardial infarction, GW610742 raised angiogenesis and fibrosis at one week without differences in cardiac function through four weeks.[15] In diabetic mice, GW0742 was examined against inflammation and fibrosis in diabetic cardiomyopathy.[16] Wikipedia lists mouse studies on pancreatitis and diet-induced hypertension.[1]"
+     ]
+    },
+    {
+     "h": "Skin",
+     "paras": [
+      "In a study including sebocyte cultures and patient comparisons, the PPAR-delta agonist GW0742 increased lipogenesis in SEB-1 sebocytes, as did agonists of other PPAR subtypes, while isotretinoin decreased it; the paper reports human sebum production increases in patients taking PPAR-gamma or PPAR-alpha drugs.[6]"
+     ]
+    },
+    {
+     "h": "Brain and other models",
+     "paras": [
+      "In neonatal rats, intranasal GW0742 reduced mast cell degranulation and neurological impairment after germinal matrix haemorrhage.[17] Other work examined colon carcinogenesis and cell differentiation with PPAR-beta/delta ligands.[8][9]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found. Published research is limited to cell-based and animal work.[3][4][5][6][7] GW501516, the related compound, reached phase I and II trials at GlaxoSmithKline before development ended in 2007.[10]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "subs": [
+    {
+     "h": "Gray-market use",
+     "paras": [
+      "GW0742 is sold in bodybuilding and athletic circles as \"Cardarine 2.0\", \"Super Cardarine\" or \"Advanced Cardio\".[2] Grokipedia describes anecdotal preferences, with GW0742 favoured by some for fat loss and GW501516 for endurance, and states that no human data establish either claim.[2]",
+      "On T Nation, one poster listed GW501516, GW0742 and telmisartan as the known PPAR-delta agonists in a fat-loss thread, and another said GW0742 and GW501516 are reported to aid recovery while noting that people worry about cancer with GW501516 and consider GW0742 \"supposedly safer\".[18][19]"
+     ]
+    },
+    {
+     "h": "Regulation and doping",
+     "paras": [
+      "WADA added GW501516 and related PPAR-delta modulators to its prohibited list in 2009, and in 2013 warned of health risks, saying clinical approval had not and would not be given for GW501516.[10] Athletes have been sanctioned for GW501516 use,[10] and GW0742 is not an approved medicine anywhere."
+     ]
+    },
+    {
+     "h": "Safety concerns",
+     "paras": [
+      "Animal testing of GW501516 later showed rapid cancer development in several organs in mice and rats, and GSK dropped development in 2007.[10] Grokipedia applies this concern to GW0742 and states that its long-term human safety is unknown.[2]"
+     ]
+    }
+   ]
   }
+ ],
+ "timeline": [
+  {
+   "year": "2003",
+   "event": "Selective PPAR-delta agonists, including GW0742, described in a medicinal chemistry paper.[3]"
+  },
+  {
+   "year": "2007",
+   "event": "GSK ends development of the related GW501516 after phase II studies.[10]"
+  },
+  {
+   "year": "2009",
+   "event": "WADA prohibits PPAR-delta modulators such as GW501516.[10]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "GW0742",
+   "url": "https://en.wikipedia.org/wiki/GW0742",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "GW0742",
+   "url": "https://grokipedia.com/page/GW0742",
+   "source": "Grokipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Novel selective small molecule agonists for peroxisome proliferator-activated receptor delta (PPARdelta)--synthesis and biological activity.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12699745/",
+   "source": "Bioorganic & Medicinal Chemistry Letters",
+   "year": 2003,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "PPARdelta-mediated antiinflammatory mechanisms inhibit angiotensin II-accelerated atherosclerosis.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18337495/",
+   "source": "PNAS",
+   "year": 2008,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Suppression of pro-inflammatory adhesion molecules by PPAR-delta in human vascular endothelial cells.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18048767/",
+   "source": "Arteriosclerosis, Thrombosis, and Vascular Biology",
+   "year": 2008,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Peroxisome proliferator-activated receptors increase human sebum production.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16675962/",
+   "source": "Journal of Investigative Dermatology",
+   "year": 2006,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Peroxisome proliferator-activated receptor-delta induces insulin-induced gene-1 and suppresses hepatic lipogenesis in obese diabetic mice.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18627005/",
+   "source": "Hepatology",
+   "year": 2008,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "PPARbeta/delta selectively induces differentiation and inhibits cell proliferation.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16021179/",
+   "source": "Cell Death & Differentiation",
+   "year": 2006,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "Ligand activation of peroxisome proliferator-activated receptor beta inhibits colon carcinogenesis.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16618765/",
+   "source": "Cancer Research",
+   "year": 2006,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "GW501516",
+   "url": "https://en.wikipedia.org/wiki/GW501516",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 11,
+   "title": "Roles of the peroxisome proliferator-activated receptors (PPARs) in the pathogenesis of nonalcoholic fatty liver disease (NAFLD)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37146924/",
+   "source": "Pharmacol Res",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 12,
+   "title": "Reduced cholesterol absorption upon PPARdelta activation coincides with decreased intestinal expression of NPC1L1",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15604518/",
+   "source": "J Lipid Res",
+   "year": 2005,
+   "type": "study"
+  },
+  {
+   "id": 13,
+   "title": "Direct activation of glucose transport in primary human myotubes after activation of peroxisome proliferator-activated receptor delta",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15793256/",
+   "source": "Diabetes",
+   "year": 2005,
+   "type": "study"
+  },
+  {
+   "id": 14,
+   "title": "PPARbeta/delta activation protects against hepatic ischaemia-reperfusion injury",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37833850/",
+   "source": "Liver Int",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 15,
+   "title": "Effects of Peroxisome Proliferator-Activated Receptor-delta Agonist on Cardiac Healing after Myocardial Infarction",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26862756/",
+   "source": "PLoS One",
+   "year": 2016,
+   "type": "study"
+  },
+  {
+   "id": 16,
+   "title": "PPARbeta/delta prevents inflammation and fibrosis during diabetic cardiomyopathy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39577755/",
+   "source": "Pharmacol Res",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 17,
+   "title": "GW0742 reduces mast cells degranulation and attenuates neurological impairments via PPAR(beta/delta)/CD300a/SHP1 pathway after GMH in neonatal rats",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37995951/",
+   "source": "Exp Neurol",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 18,
+   "title": "Best Fat Loss Regimen?",
+   "url": "https://t-nation.com/t/best-fat-loss-regimen/272309",
+   "source": "T Nation forum",
+   "year": 2021,
+   "type": "forum"
+  },
+  {
+   "id": 19,
+   "title": "Not Looking for Huge Gains, Just Recovery w/ Minimal Side Effects",
+   "url": "https://t-nation.com/t/not-looking-for-huge-gains-just-recovery-w-minimal-side-effects/275457",
+   "source": "T Nation forum",
+   "year": 2021,
+   "type": "forum"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/GW0742",
+   "title": "GW0742 - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/GW501516",
+   "title": "GW501516 - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "A GSK PPAR-delta research compound sold gray-market as \"Cardarine 2.0\", with lab and animal data only and no human trials.",
+  "aka": "GW610742; fitorine; \"Cardarine 2.0\"",
+  "evidence": "unproven",
+  "status": "research",
+  "risk": null,
+  "outcome": null,
+  "price": null,
+  "note": "Not approved; analogue GW501516 promoted tumour growth in rodent studies and long-term human safety is unknown.",
+  "structure": "GW0742"
+ },
+ "quick": {
+  "overview": "GW0742 is a selective PPAR-delta agonist made by GlaxoSmithKline and used mostly as a lab tool. Some bodybuilding and fat-loss communities market it as a stronger sibling of GW501516.\n\nPublished research is cell and animal work on inflammation, metabolism and the heart; no human trials were found.",
+  "mechanism": "It activates PPAR-delta, a nuclear receptor involved in fatty acid oxidation, glucose handling and inflammation, in laboratory models.",
+  "risks": "It is not an approved medicine and human safety data are lacking. Rodent studies of the related GW501516 reported tumour promotion, and that concern is cited for GW0742 as well."
+ },
+ "angle": {
+  "goal": "Fat loss",
+  "chain": [
+   "Activates PPAR-delta in muscle, fat and liver",
+   "Shifts tissues toward fatty-acid oxidation in lab models",
+   "Discussed as supporting leanness and endurance"
+  ],
+  "effect": "claimed",
+  "text": "People in fat-loss and endurance circles talk about GW0742 because PPAR-delta activation raises fat burning in cells and animals. Its use for physique goals rests on that laboratory biology; no human study has measured body composition with it."
+ }
 }

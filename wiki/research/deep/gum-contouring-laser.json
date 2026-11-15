@@ -50,6 +50,19 @@
    ]
   },
   {
+   "h": "History and background",
+   "paras": [
+    "Gingivectomy is described as the oldest surgical approach in periodontal therapy, and electrosurgery has been used in dentistry for more than 60 years [1]. Lasers entered soft-tissue dental surgery later: a 1993 review in the Journal of Periodontology described CO2 and Nd:YAG lasers for frenectomies, gingivectomies, gingivoplasties and some crown-lengthening procedures, listing a relatively bloodless course, minimal swelling and less post-operative pain in most cases among their reported advantages [5].",
+    "Diode lasers later became a common choice in general dental practice, and a 2012 review in the National Journal of Maxillofacial Surgery covers hard- and soft-tissue laser uses, including removal of hyperplastic tissue and uncovering partially erupted teeth [6]."
+   ]
+  },
+  {
+   "h": "Aesthetic measurements",
+   "paras": [
+    "Wikipedia's gingivectomy article cites a mean maxillary central incisor height of 10.6 mm in men and 9.8 mm in women, and a lip-at-rest incisor display averaging 1.91 mm in men and 3.40 mm in women [1]. Up to 3 mm of gum display when smiling is described as acceptable, and more than 3 mm is often considered unaesthetic [1]. Contraindications listed include a need for bone surgery, a pocket bottom beyond the mucogingival junction, and aesthetic concerns particularly in the front of the upper jaw [1]."
+   ]
+  },
+  {
    "h": "Gummy smile and other options",
    "paras": [
     "A gummy smile can come from several causes, and treatment depends on which applies: orthodontic intrusion of the front teeth, gingivectomy, botulinum toxin into the upper lip elevator muscles, and micro-autologous fat transplantation are listed options.[2] Botox, which reduces upward lip movement so less gum shows, lasts about six months on average.[2]"
@@ -65,17 +78,36 @@
   {
    "h": "Risks and recovery",
    "paras": [
-    "High energy settings in animal studies caused scarring and delayed healing.[1] Pain is usually short-lived and manageable, patients avoid chewing on the area early on, and strict plaque control and regular professional cleaning are needed for lasting results; poor plaque control makes recurrence more likely.[1]"
+    "High energy settings in animal studies caused scarring and delayed healing.[1] Pain is usually short-lived and manageable, patients avoid chewing on the area early on, and strict plaque control and regular professional cleaning are needed for lasting results; poor plaque control makes recurrence more likely.[1]",
+    "Pain should subside within a few days and can be controlled with medication, and patients are advised to avoid chewing on the operated area and to keep up professional cleaning visits every two weeks at first, with intervals lengthening as plaque control improves [1]. Electrosurgery may cause more adjacent tissue damage and a greater inflammatory response than a scalpel, which is one reason lasers are discussed as an alternative [1]."
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "Registered trials include a phase 2 study of growth factor levels during wound healing after soft tissue crown lengthening (n=80, completed)[4] and a comparison of Er:YAG laser versus surgical crown lengthening (n=26, recruiting).[3] No results are summarised in the registrations."
+    "Registered trials include a phase 2 study of growth factor levels during wound healing after soft tissue crown lengthening (80 participants, completed) [4] and a comparison of Er:YAG laser against surgical crown lengthening (26 participants, recruiting) [3]. No results are summarised in the registrations.",
+    "A split-mouth pilot study of 20 patients with inflammatory gingival hyperplasia applied a 588 nm diode laser for 7 days after gingivectomy and gingivoplasty to one randomly chosen side. Stained, epithelium-free areas were significantly smaller on the laser side on days 3, 7 and 15, with no adverse events reported [7]. The 1993 and 2012 reviews of lasers in dentistry are narrative and do not quantify outcomes against the scalpel [5][6]."
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "1993",
+   "event": "Review in the Journal of Periodontology covers CO2 and Nd:YAG lasers for gingivectomy and gingivoplasty [5]."
+  },
+  {
+   "year": "2008",
+   "event": "Split-mouth pilot trial of low-level laser after gingivectomy in 20 patients [7]."
+  },
+  {
+   "year": "2021",
+   "event": "Phase 2 trial of growth factors after soft tissue crown lengthening starts [4]."
+  },
+  {
+   "year": "2025",
+   "event": "Er:YAG versus surgical crown lengthening trial begins recruiting [3]."
+  }
+ ],
  "lore": null,
  "refs": [
   {
@@ -109,12 +141,44 @@
    "source": "ClinicalTrials.gov",
    "year": 2021,
    "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "Current status of lasers in soft tissue dental surgery (Pick and Colvard 1993) - Europe PMC record",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(%22laser%22%20AND%20(%22gingivectomy%22%20OR%20%22gingival%20depigmentation%22%20OR%20%22crown%20lengthening%22%20OR%20%22gummy%20smile%22%20OR%20%22gingival%20contouring%22))%20AND%20(PUB_TYPE:%22Randomized%20Controlled%20Trial%22%20OR%20PUB_TYPE:%22Systematic%20Review%22%20OR%20PUB_TYPE:%22Review%22)&resultType=core&format=json&pageSize=10&sort=CITED%20desc",
+   "source": "Europe PMC / J Periodontol",
+   "year": 1993,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Laser in dentistry: An innovative tool in modern dental practice (Verma 2012) - Europe PMC record",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(%22laser%22%20AND%20(%22gingivectomy%22%20OR%20%22gingival%20depigmentation%22%20OR%20%22crown%20lengthening%22%20OR%20%22gummy%20smile%22%20OR%20%22gingival%20contouring%22))%20AND%20(PUB_TYPE:%22Randomized%20Controlled%20Trial%22%20OR%20PUB_TYPE:%22Systematic%20Review%22%20OR%20PUB_TYPE:%22Review%22)&resultType=core&format=json&pageSize=10&sort=CITED%20desc",
+   "source": "Europe PMC / Natl J Maxillofac Surg",
+   "year": 2012,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Improved wound healing by low-level laser irradiation after gingivectomy operations (Ozcelik 2008) - Europe PMC record",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(%22laser%22%20AND%20(%22gingivectomy%22%20OR%20%22gingival%20depigmentation%22%20OR%20%22crown%20lengthening%22%20OR%20%22gummy%20smile%22%20OR%20%22gingival%20contouring%22))%20AND%20(PUB_TYPE:%22Randomized%20Controlled%20Trial%22%20OR%20PUB_TYPE:%22Systematic%20Review%22%20OR%20PUB_TYPE:%22Review%22)&resultType=core&format=json&pageSize=10&sort=CITED%20desc",
+   "source": "Europe PMC / J Clin Periodontol",
+   "year": 2008,
+   "type": "trial"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Gummy_smile",
    "title": "Gummy smile - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Gingivectomy",
+   "title": "Gingivectomy - Wikipedia"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(%22laser%22%20AND%20(%22gingivectomy%22%20OR%20%22gingival%20depigmentation%22%20OR%20%22crown%20lengthening%22%20OR%20%22gummy%20smile%22%20OR%20%22gingival%20contouring%22))%20AND%20(PUB_TYPE:%22Randomized%20Controlled%20Trial%22%20OR%20PUB_TYPE:%22Systematic%20Review%22%20OR%20PUB_TYPE:%22Review%22)&resultType=core&format=json&pageSize=10&sort=CITED%20desc",
+   "title": "Europe PMC search: laser gingivectomy and crown lengthening"
   }
  ],
  "card": {

@@ -1,24 +1,169 @@
 {
-"name": "Quinine skin bleaching",
-"card": {"summary": "Quinine appears in reports of unregulated skin-lightening products, but no research supports it as a lightening agent and its documented effects are those of an antimalarial drug.", "aka": "quinine in skin-lightening creams", "evidence": "unproven", "status": "rx", "risk": null, "price": null, "note": "Documented only as an ingredient reported in some illicit lightening products; quinine itself is a prescription drug with serious adverse effects.", "structure": "Quinine"},
-"quick": {
-"overview": "Quinine is a bitter alkaloid from cinchona bark, best known as an antimalarial drug and as a flavouring in tonic water. Wikipedia's skin-lightening article mentions that, in a 1997 Paris trafficking case, some users turned to products containing corticosteroids or quinine alongside mercury- or bleach-based preparations.\n\nThe sources reviewed contain no studies of quinine for skin lightening, and standard references on quinine do not describe a cosmetic use.",
-"mechanism": "No lightening mechanism is described in the sources. Quinine's established action is against malaria parasites, where it is thought to interfere with their handling of heme.",
-"risks": "Quinine at therapeutic levels can cause cinchonism (ringing in the ears, headache, nausea, vision changes) and, rarely, serious blood and heart-rhythm problems. It is prescription-only in the US, UK, Canada and Australia. Unregulated lightening products have been reported to contain other hazardous agents such as mercury and potent steroids."},
-"lead": ["Quinine is a cinchona alkaloid, first isolated from cinchona bark in 1820, used to treat malaria and as a bitter flavouring in tonic water [1][2]. Its appearance-related interest comes from a passing mention in descriptions of unregulated skin-lightening products: Wikipedia reports that in a 1997 trafficking case in Paris, users of lightening products used preparations containing corticosteroids or quinine, as well as mercury- or bleach-based ones [3].","No clinical studies of quinine as a skin-lightening agent were found, and the sources reviewed do not describe a cosmetic mechanism. Clinical literature on quinine concerns malaria and related uses [1][2]."],
-"infobox": [["Drug class","Cinchona alkaloid (antimalarial)"],["Isolated","1820, Pelletier and Caventou"],["Routes (medical)","Oral, intravenous"],["Legal status","Prescription-only in US, UK, Canada, Australia"],["Skin-lightening use","Reported in unregulated products; not studied"]],
-"sections": [
-{"h":"Reports of use","paras":["Skin lightening is a widespread practice in parts of Africa, Asia and the Middle East, and the products used range from regulated cosmetics to unregulated preparations containing hydroquinone, corticosteroids or mercury [3]. Quinine is mentioned in this context only briefly, as one of the agents users in a 1997 Paris case were reported to use [3].","Standard descriptions of quinine do not list skin lightening among its uses [1][2]."]},
-{"h":"Clinical studies","paras":["No studies found. Published human trials of quinine concern malaria, for example comparisons of artesunate with quinine in severe malaria in African children [4], and pharmacokinetic and interaction studies in healthy volunteers."]},
-{"h":"Safety","paras":["Quinine's common adverse effects (cinchonism) include headache, sweating, nausea, ringing in the ears, hearing impairment, dizziness, blurred vision and altered colour perception; serious effects include low platelet counts, thrombotic thrombocytopenic purpura, long QT syndrome and arrhythmias, and severe allergic skin reactions including Stevens-Johnson syndrome [2]. It also increases sunburn risk [2].","The US FDA banned over-the-counter marketing of quinine for nocturnal leg cramps in 1994 and in 2010 warned of life-threatening effects from off-label use [2]. These reports concern oral drug use, not topical cosmetic products.","Other lightening agents reported in unregulated products carry documented harms: mercury has been linked to neurological and kidney problems, and long-term hydroquinone or steroid use to skin and systemic effects [3]."]}
-],
-"timeline": [{"year":"1820","event":"Pelletier and Caventou isolate quinine from cinchona bark [2]."},{"year":"1997","event":"A Paris trafficking case is reported in which lightening products with corticosteroids or quinine were used [3]."}],
-"lore": null,
-"refs": [
-{"id":1,"title":"Quinine","url":"https://grokipedia.com/page/Quinine","source":"Grokipedia","year":2025,"type":"encyclopedia"},
-{"id":2,"title":"Quinine","url":"https://en.wikipedia.org/wiki/Quinine","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":3,"title":"Skin whitening","url":"https://en.wikipedia.org/wiki/Skin_whitening","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":4,"title":"Artesunate versus quinine in the treatment of severe falciparum malaria in African children (AQUAMAT)","url":"https://pubmed.ncbi.nlm.nih.gov/21062666/","source":"The Lancet","year":2010,"type":"trial"}
-],
-"webSources": [{"url":"https://en.wikipedia.org/wiki/Quinine","title":"Quinine - Wikipedia"},{"url":"https://en.wikipedia.org/wiki/Skin_whitening","title":"Skin whitening - Wikipedia"}]
+ "name": "Quinine skin bleaching",
+ "card": {
+  "summary": "Quinine appears in reports of unregulated skin-lightening products, but no research supports it as a lightening agent and its documented effects are those of an antimalarial drug.",
+  "aka": "quinine in skin-lightening creams",
+  "evidence": "unproven",
+  "status": "rx",
+  "risk": null,
+  "price": null,
+  "note": "Documented only as an ingredient reported in some illicit lightening products; quinine itself is a prescription drug with serious adverse effects.",
+  "structure": "Quinine"
+ },
+ "quick": {
+  "overview": "Quinine is a bitter alkaloid from cinchona bark, best known as an antimalarial drug and as a flavouring in tonic water. Wikipedia's skin-lightening article mentions that, in a 1997 Paris trafficking case, some users turned to products containing corticosteroids or quinine alongside mercury- or bleach-based preparations.\nNo studies of quinine for skin lightening exist, and standard references on quinine do not describe a cosmetic use.",
+  "mechanism": "No lightening mechanism is described in the sources. Quinine's established action is against malaria parasites, where it is thought to interfere with their handling of heme.",
+  "risks": "Quinine at therapeutic levels can cause cinchonism (ringing in the ears, headache, nausea, vision changes) and, rarely, serious blood and heart-rhythm problems. It is prescription-only in the US, UK, Canada and Australia. Unregulated lightening products have been reported to contain other hazardous agents such as mercury and potent steroids."
+ },
+ "lead": [
+  "Quinine is a cinchona alkaloid, first isolated from cinchona bark in 1820, used to treat malaria and as a bitter flavouring in tonic water [1][2]. Its link to appearance comes from reports of unregulated skin-lightening products, which people use to make skin tone lighter or more even. Wikipedia reports that in a 1997 trafficking case in Paris, users of lightening products turned to preparations containing mercury or bleach, or corticosteroids or quinine [3].",
+  "Skin lightening in general is widespread: Wikipedia cites figures such as 77 percent of Nigerian women, 52 percent of Senegalese women and 25 percent of Malian women using such products in 2013, and about 40 percent of women in Asia [3]. Quinine is mentioned in that account only once, and no clinical studies of quinine as a skin-lightening agent were found; no cosmetic mechanism for it has been described. Clinical literature on quinine concerns malaria and related medical uses [1][2]."
+ ],
+ "infobox": [
+  [
+   "Drug class",
+   "Cinchona alkaloid (antimalarial)"
+  ],
+  [
+   "Isolated",
+   "1820, Pelletier and Caventou"
+  ],
+  [
+   "Routes (medical)",
+   "Oral, intravenous"
+  ],
+  [
+   "Legal status",
+   "Prescription-only in US, UK, Canada, Australia"
+  ],
+  [
+   "Skin-lightening use",
+   "Reported in unregulated products; not studied"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Reports of use",
+   "paras": [
+    "Skin lightening is practised across Africa, Asia and the Middle East, and products range from regulated cosmetics to unregulated preparations containing hydroquinone, corticosteroids or mercury [3]. Wikipedia places the practice in ancient history, with Egyptian and Greek use of honey and olive oil, lead-based white makeup in 16th-century East Asia and Elizabethan Venetian ceruse in Europe [3]. Motivations reported include social and marriage prospects, softer skin and concealing blemishes or conditions such as vitiligo [3].",
+    "Quinine is mentioned in this context only briefly, as one of the agents users in a 1997 Paris case were reported to use [3]. Standard descriptions of quinine do not list skin lightening among its uses [1][2]."
+   ]
+  },
+  {
+   "h": "Quinine as a drug",
+   "subs": [
+    {
+     "h": "History",
+     "paras": [
+      "Quechua peoples of the Andes used cinchona bark to stop shivering, and Spanish Jesuit missionaries brought it to Europe in the 17th century as Jesuit's bark. Pelletier and Caventou isolated and named quinine in 1820, large-scale malaria prevention began around 1850, and it remained the main antimalarial until after World War II, when drugs such as chloroquine largely replaced it [2]. The WHO stopped recommending quinine as first-line malaria treatment in 2006 [2]."
+     ]
+    },
+    {
+     "h": "Medical and flavouring uses",
+     "paras": [
+      "Quinine is used orally or intravenously for chloroquine-resistant Plasmodium falciparum malaria, and also for babesiosis [2]. Flavouring in tonic water and bitter lemon is regulated, at about 83 parts per million in the United States and 100 mg/L in the European Union [2]. The 2010 AQUAMAT trial found artesunate performed better than quinine in severe malaria in African children [4]."
+     ]
+    },
+    {
+     "h": "Chemistry and mechanism",
+     "paras": [
+      "Quinine has a quinoline ring system with a methoxy group, and it fluoresces blue under ultraviolet light, a property that makes tonic water glow under black light [2]. Its antimalarial action is generally explained as blocking hemozoin formation so toxic heme accumulates in the parasite [2]. It is also a competitive inhibitor of monoamine oxidase [2]. No source describes an action on melanin synthesis."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Safety",
+   "paras": [
+    "Quinine's common adverse effects (cinchonism) include headache, sweating, nausea, ringing in the ears, hearing impairment, dizziness, blurred vision and altered colour perception. Serious effects include low platelet counts, thrombotic thrombocytopenic purpura, long QT syndrome and arrhythmias, and severe allergic skin reactions including Stevens-Johnson syndrome [2]. It also increases sunburn risk [2].",
+    "The US FDA banned over-the-counter marketing of quinine for nocturnal leg cramps in 1994. It recorded 157 reports of health problems and 23 deaths between 1969 and 1992, and in 2010 and 2012 it warned of life-threatening effects from off-label use [2]. These reports concern oral drug use, not topical cosmetic products.",
+    "Other lightening agents reported in unregulated products carry documented harms. Mercury has been linked to neurological and kidney problems, hydroquinone to ochronosis and contact dermatitis, and prolonged corticosteroid use to skin thinning and systemic effects, according to Wikipedia's account [3]. The EU banned hydroquinone in cosmetics in 2000 [3]."
+   ]
+  },
+  {
+   "h": "Legal status",
+   "paras": [
+    "Quinine is prescription-only in the United States, United Kingdom, Canada and Australia; in the US quinine sulfate is sold as Qualaquin [2]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found of quinine for skin lightening. Published human trials of quinine concern malaria, for example comparisons of artesunate with quinine in severe malaria in African children [4], and pharmacokinetic and interaction studies in healthy volunteers."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1820",
+   "event": "Pelletier and Caventou isolate quinine from cinchona bark [2]."
+  },
+  {
+   "year": "1994",
+   "event": "US FDA bans over-the-counter marketing of quinine for leg cramps [2]."
+  },
+  {
+   "year": "1997",
+   "event": "A Paris trafficking case is reported in which lightening products with corticosteroids or quinine were used [3]."
+  },
+  {
+   "year": "2006",
+   "event": "WHO stops recommending quinine as first-line malaria treatment [2]."
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Quinine",
+   "url": "https://grokipedia.com/page/Quinine",
+   "source": "Grokipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Quinine",
+   "url": "https://en.wikipedia.org/wiki/Quinine",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Skin whitening",
+   "url": "https://en.wikipedia.org/wiki/Skin_whitening",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Artesunate versus quinine in the treatment of severe falciparum malaria in African children (AQUAMAT)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21062666/",
+   "source": "The Lancet",
+   "year": 2010,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Quinine",
+   "title": "Quinine - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Skin_whitening",
+   "title": "Skin whitening - Wikipedia"
+  }
+ ],
+ "angle": {
+  "goal": "Skin tone",
+  "chain": [
+   "Reported as an ingredient in some unregulated lightening preparations",
+   "Users seek lighter or more even skin",
+   "Any lightening effect from quinine itself is not described in published research"
+  ],
+  "effect": "claimed",
+  "text": "Skin-lightening products are used to make complexion lighter or more even. Quinine appears in one reported list of agents found in such preparations, but its effect on pigment has not been described in published studies."
+ }
 }

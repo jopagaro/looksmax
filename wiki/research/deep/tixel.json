@@ -1,0 +1,30 @@
+{
+"name": "Tixel",
+"card": {"summary": "Tixel is a thermomechanical fractional device that briefly touches the skin with a heated tip to create microscopic injuries, stimulating collagen to smooth wrinkles and texture.", "aka": "Tixel; thermomechanical fractional injury (TMFI)", "evidence": "moderate", "status": null, "outcome": "durable", "risk": "low", "price": null, "note": "In-clinic energy device; trials so far are mostly small and short-term.", "structure": null},
+"quick": {
+"overview": "Tixel, made by Novoxel in Israel, is a clinic device that heats a small titanium tip and touches it briefly to skin, creating tiny controlled thermal injuries without a laser. It is called thermomechanical fractional injury.\n\nPeople use it to soften fine lines, improve skin texture and tighten skin on the face and neck. Researchers also explore it for scars, acne, rosacea and delivering topical drugs.",
+"how": "A dermatologist or aesthetic clinician passes the device over the area after numbing, typically in a series of monthly sessions. Downtime is described as minimal in the studies.",
+"risks": "A systematic review found few adverse events, minimal discomfort and downtime, and safety across Fitzpatrick skin types, with the caveat of limited randomized trials."
+},
+"lead": [
+"Tixel is the brand name of a thermomechanical fractional injury (TMFI) device from Novoxel [1]. It transfers heat directly from a tip to the skin to cause controlled micro-injuries, in contrast to lasers that deliver light.",
+"A 2024 systematic review of 21 eligible articles found uses spanning photoaging, drug delivery and preclinical work; preclinical studies showed microchannels similar to those of CO2 laser but without charring, and clinical studies reported efficacy for wrinkles, hypertrophic scars, infantile hemangiomas and acne or rosacea [1].",
+"For looks, trials have focused on wrinkles of the mouth, eyes and neck [2][3][4]."
+],
+"angle": {"goal": "Skin texture and wrinkles", "chain": ["Heated tip creates microscopic thermal injuries", "Skin remodels and produces new collagen", "Smoother, tighter-looking skin"], "effect": "direct", "text": "Tixel is used to soften fine wrinkles and improve texture in clinic sessions, with relatively little downtime reported."},
+"infobox": [["Type", "Thermomechanical fractional injury device"], ["Manufacturer", "Novoxel (Israel)"], ["Setting", "Clinic, practitioner-operated"], ["Typical course", "About 4 monthly sessions in trials"], ["Uses studied", "Wrinkles, scars, acne, rosacea, drug delivery"]],
+"sections": [
+{"h": "How it works", "paras": ["The device creates controlled thermal injury through direct heat transfer, followed by dermal coagulation and new collagen formation [3]."]},
+{"h": "Clinical studies", "paras": ["A prospective trial of 23 women with moderate-to-severe perioral wrinkles (mean age 62.5) used four monthly treatments; investigators measured a mean 1.9-grade wrinkle-scale improvement at three months, with no severe adverse events [2]. A similar trial in 26 women with neck wrinkles found a mean 1.4-grade improvement at three months, all subjects improved on the global aesthetic scale, and no severe adverse events [3]. A randomized trial compared Tixel with a 1565 nm fractional laser for periorbital wrinkles [4]. Other studies looked at dry eye disease, rosacea and drug delivery through the skin [1]. The review notes heterogeneous reporting and few randomized trials [1]."]},
+{"h": "Safety", "paras": ["The review reports good tolerability, minimal downtime and few adverse events across skin types [1]."]}
+],
+"timeline": [],
+"lore": null,
+"refs": [
+{"id": 1, "title": "Comprehensive Review of Thermomechanical Fractional Injury Device: Applications in Medical and Cosmetic Dermatology", "url": "https://pubmed.ncbi.nlm.nih.gov/38444425/", "source": "J Clin Aesthet Dermatol", "year": 2024, "type": "review"},
+{"id": 2, "title": "Prospective Evaluation of the Safety and Efficacy of Thermomechanical Fractional Injury for Perioral Rhytides", "url": "https://pubmed.ncbi.nlm.nih.gov/36946689/", "source": "Dermatologic Surgery", "year": 2023, "type": "trial"},
+{"id": 3, "title": "Clinical Efficacy and Safety of a Thermomechanical Fractional Injury Device for Neck Rejuvenation", "url": "https://pubmed.ncbi.nlm.nih.gov/39258784/", "source": "Dermatologic Surgery", "year": 2025, "type": "trial"},
+{"id": 4, "title": "Treatment of periorbital wrinkles using TMFI versus fractional non-ablative 1565 nm laser", "url": "https://pubmed.ncbi.nlm.nih.gov/34787919/", "source": "Lasers Surg Med", "year": 2022, "type": "trial"}
+],
+"webSources": []
+}

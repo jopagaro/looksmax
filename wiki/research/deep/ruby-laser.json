@@ -16,14 +16,14 @@
   "risks": "Because melanin in skin also absorbs 694 nm light, pigment changes and burns are recognised risks, especially in darker skin. Wikipedia lists ruby among lasers for paler skin types in hair removal."
  },
  "lead": [
-  "The ruby laser is a solid-state laser using a synthetic ruby crystal that emits pulsed red light at 694.3 nm. Theodore Maiman built the first working laser, a ruby laser, at Hughes Research Laboratories on 16 May 1960. [1][2]",
-  "Ruby lasers were among the earliest lasers used in medicine, including for tattoo removal, and were later studied and marketed for hair removal and pigmented lesions. [1] According to Wikipedia, alexandrite and Nd:YAG lasers have largely replaced ruby for hair removal. [1]",
-  "Studies in the 1990s reported follicle damage and hair reduction with normal-mode ruby pulses [3][4], and registered trials examined Q-switched ruby treatment for solar lentigines [5][6]."
+  "The ruby laser is a solid-state laser using a synthetic ruby crystal that emits pulsed deep-red light at 694.3 nm. Theodore Maiman built the first working laser, a ruby laser, at Hughes Research Laboratories on 16 May 1960 [1][2]. For appearance, its red light is absorbed strongly by melanin and dark ink, so it has been used to clear tattoos and sun-related pigment spots and, in earlier years, to reduce unwanted hair, leaving clearer skin and a more even tone [1][9][3].",
+  "Ruby lasers were among the earliest lasers used in medicine; Leon Goldman used the continuous ruby laser for tattoo removal, scar treatment and healing [1]. They were later studied and marketed for hair removal and pigmented lesions [1]. According to Wikipedia, alexandrite and Nd:YAG lasers have largely replaced ruby for hair and tattoo removal [1].",
+  "Studies in the 1990s reported follicle damage and hair reduction with normal-mode ruby pulses [3][4], and registered trials examined Q-switched ruby treatment for solar lentigines [5][6]. Newer work uses a fractional Q-switched ruby laser for melasma and infraorbital dark circles [10][11][12]."
  ],
  "infobox": [
   [
    "Laser type",
-   "Solid-state (chromium-doped sapphire/ruby)"
+   "Solid-state (chromium-doped sapphire/ruby), flashtube-pumped [1]"
   ],
   [
    "Wavelength",
@@ -31,42 +31,70 @@
   ],
   [
    "First demonstrated",
-   "1960 (T. Maiman)"
+   "16 May 1960 (T. Maiman, Hughes Research Laboratories) [1]"
+  ],
+  [
+   "Q-switching invented",
+   "1961 (R. W. Hellwarth) [1]"
   ],
   [
    "Appearance uses",
-   "Tattoos, pigment spots, hair removal (historical)"
+   "Tattoos, pigment spots, melasma, hair removal (historical)"
   ],
   [
    "Skin types (hair removal)",
-   "Pale, per Wikipedia table"
+   "Pale, per Wikipedia table [7]"
   ]
  ],
  "sections": [
   {
-   "h": "History",
+   "h": "How it works",
    "paras": [
-    "Maiman demonstrated the ruby laser in 1960. [1] Wikipedia credits Leon Goldman with early medical use for tattoo and scar treatment. [1]",
-    "A 1996 paper studied normal-mode ruby pulses (694 nm, 270 microseconds) for hair follicle destruction through selective photothermolysis, using dog skin ex vivo and human volunteers. [3] A 1998 paper in Archives of Dermatology reported on permanent hair removal with normal-mode ruby laser. [4]"
+    "A ruby laser uses a synthetic ruby crystal doped with chromium ions, about 0.05% of the crystal, as its gain medium; it is a three-level system usually pumped with a xenon flashtube and emits narrow-band red light at 694.3 nm [1]. Q-switching, invented by Robert W. Hellwarth in 1961, concentrates the output into a single short pulse [1].",
+    "In skin, the light is absorbed by melanin and by dark tattoo pigments. Work on the melanosome studied the threshold temperature at which pulsed laser irradiation vaporizes it and its absorption coefficient [15]. Pulse length sets the effect: normal-mode pulses of hundreds of microseconds heat hair follicles, while Q-switched nanosecond pulses are used for pigment and ink [3][9]."
    ]
   },
   {
-   "h": "Use for hair removal",
+   "h": "History",
    "paras": [
-    "In hair removal the ruby laser targets melanin in the hair shaft and follicle. Wikipedia lists ruby (694.3 nm) as suited to pale skin. [7] The same source notes that the U.S. FDA defines \"permanent\" hair reduction as a long-term, stable reduction in regrowing hairs rather than complete removal. [7]",
-    "A 1999 comparison of side effects of Q-switched Nd:YAG, long-pulsed ruby and alexandrite lasers for hair removal has been published, and indexed in the research literature. [8]"
+    "Maiman fired the first laser in 1960 using a pink ruby rod; Arthur Schawlow had suggested red ruby would work better, but Maiman believed pink ruby could also lase [1]. Maiman's original laser was still operating and was demonstrated in 2010 [1]. Willard Boyle's group at Bell Labs produced a continuously pulsing ruby laser in 1962 [1].",
+    "Wikipedia credits Leon Goldman with early medical use for tattoo and scar treatment [1]. In the 1990s, dermatology papers examined normal-mode ruby pulses (694 nm, 270 microseconds) for hair follicle destruction through selective photothermolysis, using dog skin ex vivo and human volunteers [3]; a 1998 paper in Archives of Dermatology reported permanent hair removal with a normal-mode ruby laser [4]. A 2008 German review of photoepilation covers the state of the art in light-based hair removal [14]."
+   ]
+  },
+  {
+   "h": "Appearance uses",
+   "subs": [
+    {
+     "h": "Tattoo removal",
+     "paras": [
+      "A review of tattoo removal states that Q-switched lasers can remove tattoos with minimal risk of scarring and permanent pigment change compared with nonspecific methods, and names three laser types in use: Q-switched ruby at 694 nm, Q-switched Nd:YAG at 532 and 1,064 nm, and Q-switched alexandrite at 755 nm [9]. The review lists amateur, professional, cosmetic, medicinal and traumatic tattoos as types, notes professional multicolored tattoos need more sessions, and describes the treatment as painful enough that local anaesthetic may be used [9]."
+     ]
+    },
+    {
+     "h": "Pigment, melasma and dark circles",
+     "paras": [
+      "Registered trials have studied Q-switched ruby for solar lentigines, including a 90-person phase 2 trial in light and dark skin types and a 15-person comparison against a bleaching cream [5][6]. A 2025 pilot randomized split-face trial compared fractional Q-switched ruby with 1,064 nm Q-switched Nd:YAG in 21 Chinese women with melasma: both reached a 62.0% response rate, pain was higher with ruby, and one patient (4.8%) developed post-inflammatory hyperpigmentation [10]. Other studies have examined a 694 nm fractional Q-switched ruby laser for infraorbital dark circles and combined with sonophoresis of vitamin C for melasma [11][12]. A 1997 trial studied laser treatment for further depigmentation in vitiligo [13]."
+     ]
+    },
+    {
+     "h": "Hair removal",
+     "paras": [
+      "In hair removal the ruby laser targets melanin in the hair shaft and follicle. Wikipedia lists ruby (694.3 nm) as suited to pale skin and notes that alexandrite and Nd:YAG lasers have largely replaced it [7][1]. The same source notes that the U.S. FDA defines permanent hair reduction as a long-term, stable reduction in regrowing hairs rather than complete removal [7]. A 1999 comparison of side effects of Q-switched Nd:YAG, long-pulsed ruby and alexandrite lasers for hair removal has been published [8]."
+     ]
+    }
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "Human studies include the early normal-mode ruby hair-removal reports [3][4]. Registered trials include a Phase 2 trial of side effects of Q-switched ruby laser for lentigines in light and dark skin types (NCT00386204, n=90) [5] and a small comparison of a Q-switched ruby laser versus a bleaching cream for solar lentigines (NCT02153697, n=15) [6]. Detailed results are not summarised here."
+    "Human studies include the early normal-mode ruby hair-removal reports [3][4], a vitiligo depigmentation trial [13], and fractional Q-switched ruby studies for dark circles and melasma [11][12][10]. Registered trials include a phase 2 trial of side effects of Q-switched ruby laser for lentigines in light and dark skin types (NCT00386204, n=90) [5] and a small comparison of a Q-switched ruby laser versus a bleaching cream for solar lentigines (NCT02153697, n=15) [6]. The 2025 split-face trial of 21 women reported equivalent response rates for ruby and Nd:YAG in melasma [10]."
    ]
   },
   {
    "h": "Safety and risks",
    "paras": [
-    "Wikipedia lists burns, hypopigmentation, hyperpigmentation, scabbing and infection among general risks of laser hair removal, noting that matching laser type and settings to skin type reduces risk. [7]"
+    "Wikipedia lists burns, hypopigmentation, hyperpigmentation, scabbing and infection among general risks of laser hair removal, noting that matching laser type and settings to skin type reduces risk. [7]",
+    "Because skin melanin also absorbs 694 nm light, pigment changes and burns are recognised risks, especially in darker skin types [7][9]. In the 2025 melasma trial, pain was significantly higher with the fractional ruby laser than with Nd:YAG, and the authors said this may limit acceptability [10]. Tattoo-removal treatment is painful enough that anaesthetic is described as an option [9]."
    ]
   }
  ],
@@ -76,12 +104,28 @@
    "event": "Maiman demonstrates the first ruby laser. [1]"
   },
   {
+   "year": "1961",
+   "event": "Hellwarth invents Q-switching. [1]"
+  },
+  {
+   "year": "1962",
+   "event": "Continuous-output ruby laser produced at Bell Labs. [1]"
+  },
+  {
    "year": "1996",
    "event": "Study of normal-mode ruby pulses for hair follicle damage published. [3]"
   },
   {
    "year": "1998",
    "event": "Report of permanent hair removal by normal-mode ruby laser published. [4]"
+  },
+  {
+   "year": "2016",
+   "event": "Fractional Q-switched ruby studies for dark circles and melasma published. [11][12]"
+  },
+  {
+   "year": "2025",
+   "event": "Split-face trial compares fractional Q-switched ruby with Nd:YAG in melasma. [10]"
   }
  ],
  "lore": null,
@@ -149,6 +193,62 @@
    "source": "J Am Acad Dermatol",
    "year": 1999,
    "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "Laser removal of tattoos",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11702617/",
+   "source": "American Journal of Clinical Dermatology",
+   "year": 2001,
+   "type": "review"
+  },
+  {
+   "id": 10,
+   "title": "A pilot randomized split-face trial comparing fractional Q-switched ruby laser and 1064-nm Q-switched Nd:YAG laser in Chinese women with melasma",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41044286/",
+   "source": "Lasers in Medical Science",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Treatment of infraorbital dark circles using 694-nm fractional Q-switched ruby laser",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27522505/",
+   "source": "Lasers in Medical Science",
+   "year": 2016,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "Efficacy of 694-nm fractional Q-switched ruby laser combined with sonophoresis on levorotatory vitamin C for treatment of melasma in Chinese patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27126411/",
+   "source": "Lasers in Medical Science",
+   "year": 2016,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "Laser treatment for further depigmentation in vitiligo",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9199992/",
+   "source": "International Journal of Dermatology",
+   "year": 1997,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "Photoepilation: state-of-the-art",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18224296/",
+   "source": "Der Hautarzt",
+   "year": 2008,
+   "type": "review"
+  },
+  {
+   "id": 15,
+   "title": "The melanosome: threshold temperature for explosive vaporization and internal absorption coefficient during pulsed laser irradiation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1886936/",
+   "source": "Photochemistry and Photobiology",
+   "year": 1991,
+   "type": "study"
   }
  ],
  "webSources": [
@@ -160,5 +260,16 @@
    "url": "https://en.wikipedia.org/wiki/Laser_hair_removal",
    "title": "Laser hair removal (Wikipedia)"
   }
- ]
+ ],
+ "angle": {
+  "goal": "Pigment, tattoos and hair",
+  "chain": [
+   "Red 694 nm light is absorbed by melanin or tattoo ink",
+   "Pigmented targets heat or shatter in very short pulses",
+   "Body clears the fragments or the hair follicle is damaged",
+   "Fewer dark spots, faded ink or reduced hair"
+  ],
+  "effect": "direct",
+  "text": "Clinics have used ruby lasers to clear dark pigment, fade tattoos and thin hair growth by targeting melanin. Today alexandrite and Nd:YAG lasers are more common for these jobs, but ruby remains in use for some pigment treatments."
+ }
 }

@@ -1,18 +1,369 @@
 {
-"name":"Metal braces",
-"lead":["Metal braces are the traditional form of fixed orthodontic appliance: stainless steel brackets bonded to the teeth and joined by an archwire, held with elastic ties or built-in clips (self-ligating) [1]. They apply steady pressure so that bone remodels around moved teeth, and are the most common type of braces [1].","Treatment usually lasts from about six months to two and a half years, followed by retainers [1]. Research on how others perceive appliances includes laypeople's ratings of attractiveness, acceptability and value of different appliances [2], and surveys of adult orthodontic patients' motivations [3]."],
-"infobox":[["Type","Fixed orthodontic appliance"],["Components","Brackets, archwire, ligatures"],["Typical duration","About 6 months to 2.5 years[1]"],["Adjustments","Every 3 to 6 weeks[1]"],["Alternatives","Ceramic, lingual, clear aligners"]],
-"sections":[
-{"h":"Design and types","paras":["Stainless steel brackets are the most common; self-ligating variants use a clip instead of elastic ties and may shorten treatment and reduce discomfort [1]. Gold-plated and titanium versions exist for nickel-sensitive patients [1]. Nickel-titanium wires, developed in 1959 and used for full treatments from 1979, deliver light constant force [1]."]},
-{"h":"History","paras":["Orthodontic devices trace to antiquity, with Pierre Fauchard often credited with founding modern orthodontics in the 1700s and Edward Angle classifying malocclusion in the 1900s [1]."]},
-{"h":"Appearance and perception","paras":["Metal braces are highly visible, which motivates clear, ceramic and lingual alternatives [1]. A 2009 study had 50 adults rate photographs of appliances on attractiveness, acceptability and value [2]. A Saudi cross-sectional study examined the effect of appliance type on hiring prospects [4]. A survey of 276 adult patients examined motivation and daily-life effects [3]."]},
-{"h":"Safety and risks","paras":["Plaque accumulation around braces can cause gingivitis, and poor hygiene may lead to gum disease or recession; soreness after adjustments and some root shortening are common [1]. In vitro work has compared microbial adhesion across bracket and wire types [5]."]},
-{"h":"Clinical studies","paras":["No trial of metal braces as a looksmaxxing intervention was found. Observational and survey research on perceptions of appliances exists [2][3][4], and in vitro microbial adhesion work [5]."]}
-],
-"timeline":[{"year":"1959","event":"Nitinol alloy developed; used for full treatments from 1979.[1]"}],
-"lore":null,
-"refs":[{"id":1,"title":"Dental braces","url":"https://en.wikipedia.org/wiki/Dental_braces","source":"Wikipedia","year":2025,"type":"encyclopedia"},{"id":2,"title":"Attractiveness, acceptability, and value of orthodontic appliances","url":"https://pubmed.ncbi.nlm.nih.gov/19268820/","source":"AJODO","year":2009,"type":"study"},{"id":3,"title":"Motivation, Perception, and Behavior of the Adult Orthodontic Patient: A Survey Analysis","url":"https://pubmed.ncbi.nlm.nih.gov/35281602/","source":"BioMed Research International","year":2022,"type":"study"},{"id":4,"title":"Impact of Orthodontic Appliances on Hiring Prospects in Saudi Arabia","url":"https://pubmed.ncbi.nlm.nih.gov/37431341/","source":"Cureus","year":2023,"type":"study"},{"id":5,"title":"Microbial adhesion on different types of orthodontic brackets and wires: An in vitro study","url":"https://pubmed.ncbi.nlm.nih.gov/39619715/","source":"Saudi Dental Journal","year":2024,"type":"study"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Dental_braces","title":"Dental braces - Wikipedia"}],
-"card":{"summary":"Classic fixed brackets-and-wire orthodontics; well-established for tooth alignment, highly visible.","aka":"Traditional braces","evidence":"strong","outcome":"durable","price":null,"note":"Needs retainers afterward; plaque control matters.","structure":null},
-"quick":{"overview":"Metal braces are the standard fixed orthodontic appliance, using bonded steel brackets and a wire to move teeth.\n\nTreatment commonly takes months to a couple of years, followed by retainers.","mechanism":"Steady pressure from the wire loosens teeth, and bone remodels to support the new position.","risks":"Plaque buildup, gum inflammation, soreness and some root shortening are reported. They are very visible."}
+ "name": "Metal braces",
+ "lead": [
+  "Metal braces are the traditional form of fixed orthodontic appliance: stainless steel brackets bonded to the teeth and joined by an archwire, held with elastic ties or built-in clips (self-ligating) [1]. People use them to straighten crowded, rotated or spaced teeth and to correct the bite, which changes the smile and the way the lower face is framed. They are the most common type of braces [1][5].",
+  "The wire applies steady pressure that loosens each tooth, and new bone forms to support it in its new position [1]. Treatment usually lasts from about six months to two and a half years, with adjustments every three to six weeks, and is followed by retainers to hold the result [1].",
+  "Because the appliance is visible, much of the research around metal braces concerns how it is perceived. Laypeople have rated the attractiveness, acceptability and value of different appliances [2], surveys have examined why adults seek treatment [3], and a 2026 scoping review of 56 studies covering 16,271 laypeople in 17 countries mapped public preferences for appliances and providers [4]. Clear aligners, ceramic brackets and lingual braces exist largely as less visible alternatives [1][7].",
+  "Orthodontics as a field grew out of cosmetic as well as functional goals: Wikipedia notes that facial aesthetics drove mid-twentieth-century shifts in treatment planning, and that people who completed treatment reported higher quality of life than untreated patients [12]. Malocclusion is common; the same source gives a worldwide prevalence of up to 56 percent, and another summary says nearly 30 percent of people have malocclusions severe enough to clearly benefit from treatment [12][13]."
+ ],
+ "angle": {
+  "goal": "Teeth",
+  "chain": [
+   "Bonded brackets and an archwire apply constant light force",
+   "Bone remodels around the moving teeth",
+   "Teeth end up aligned and the bite corrected, changing the smile"
+  ],
+  "effect": "direct",
+  "text": "Metal braces move teeth into a straighter, better-aligned arrangement, which is the most common route people take to change how their smile looks. Results are held afterward with a retainer."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Fixed orthodontic appliance"
+  ],
+  [
+   "Components",
+   "Brackets, bonding material, archwire, ligatures [1]"
+  ],
+  [
+   "Typical duration",
+   "About 6 months to 2.5 years [1]"
+  ],
+  [
+   "Adjustments",
+   "Every 3 to 6 weeks [1]"
+  ],
+  [
+   "Wire alloys",
+   "Stainless steel, nickel-titanium (nitinol, 1959) [1]"
+  ],
+  [
+   "Retention",
+   "Removable or bonded retainers after treatment [1][12]"
+  ],
+  [
+   "Alternatives",
+   "Ceramic, lingual, self-ligating brackets, clear aligners [1]"
+  ],
+  [
+   "Relapse",
+   "Over 50 percent of patients show some reversion within 10 years [12]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Design and types",
+   "paras": [
+    "A traditional fixed appliance has four elements: brackets, the bonding material that attaches them, an archwire, and ligature elastics that hold the wire in the bracket slots [1]. Stainless steel brackets are the most common. Self-ligating variants use a built-in clip instead of elastic ties and are described as potentially shortening treatment and reducing discomfort [1]. Gold-plated stainless steel is often used for patients with nickel sensitivity, and titanium brackets are lighter and more expensive [1].",
+    "Nickel-titanium wires are flexible when cold and stiffen at body temperature, delivering light, continuous force [1]. A review of bracket development traces the field from Edward Angle's early appliances through MBT-prescription brackets and lingual brackets, with materials and designs continuing to change [6]. A 2026 split-mouth controlled trial in 34 adults compared conventional and nickel-free metallic brackets on the upper central incisors over 120 days, examining oxidation, tie-wing deformation and surface roughness [8]."
+   ]
+  },
+  {
+   "h": "How braces work",
+   "paras": [
+    "Brackets bonded to each tooth hold an archwire that guides movement in three dimensions, and elastics, springs and ligatures add force where needed [12][1]. Nickel-titanium wires, which stay flexible when cold and firm at body temperature, deliver light, near-constant force so that teeth move gradually [1]. The sustained pressure loosens a tooth in its socket and bone remodels around it in the new position [1].",
+    "Where there is not enough room, orthodontists may extract teeth, most often premolars (in about half of cases according to Wikipedia's orthodontics article), or widen the arch with a palatal expander; expansion of an adult palate requires surgery because adult bones are fused, and severe skeletal discrepancies may need jaw surgery [12][1]. Treatment is often most effective in growing patients, though adult treatment is common [12][3]."
+   ]
+  },
+  {
+   "h": "Treatment course and retention",
+   "paras": [
+    "Treatment usually lasts from about six months to two and a half years, with adjustment visits every three to six weeks that may cause temporary soreness [1]. Orthodontics reviews give one to three years as typical for braces [12]. After removal, retainers (Hawley plastic-and-wire, clear Essix trays, or a wire bonded behind the front teeth) hold the result, and patients usually wear a retainer full-time for about six months and then at night for years [1][12].",
+    "Teeth can drift back: Wikipedia reports that over half of patients show some reversion within ten years, and inconsistent retainer wear is associated with relapse [12][1]."
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Ancient writers considered ways of straightening teeth, and Etruscan and Roman burials include metal bands and gold-wire ligatures [1]. Pierre Fauchard's 1728 book is often credited with founding modern orthodontics; he used a horseshoe-shaped iron device, the Bandeau, to expand the palate, and in 1754 Louis Bourdet became the first recorded dentist to recommend extracting premolars for crowding [1]. Christophe Delabarre introduced a wire crib in 1819, and rubber elastics came into use in the mid-1800s [1]. Norman Kingsley published a treatise on oral deformities in 1880 [1][12].",
+    "Edward Angle (1855-1930), called the father of modern orthodontics, published his classification of malocclusion in 1899, organised the American Society of Orthodontia in 1901, founded an orthodontic school, and launched the first orthodontic journal in 1907; his edgewise appliance followed in 1928 [12][13][1]. Angle opposed extraction, but his students Charles Tweed and Raymond Begg reintroduced it in the 1940s and 1950s to improve facial aesthetics and stability [12]. Until the mid-1970s braces were made by wrapping metal bands around each tooth; bonded brackets then replaced them, and in 1976 Lawrence Andrews introduced the straight-wire appliance, reducing the wire bending needed [12].",
+    "In 1959 the Naval Ordnance Laboratory created the nickel-titanium alloy Nitinol, and in 1979 George Andreasen began using its superelasticity for entire treatments, reporting fewer visits, lower costs and less discomfort [1]. Clear aligners arrived later: Align Technology, founder of Invisalign, was established in 1997 and began US sales in 1999 [14]."
+   ]
+  },
+  {
+   "h": "Malocclusion and what braces correct",
+   "paras": [
+    "Angle's system classes malocclusion by the relationship of the upper and lower first molars: Class I is a normal molar relationship with crowding or spacing, Class II has the upper molar forward (often with protruding front teeth, an overbite), and Class III has the lower jaw more prominent (an underbite) [13]. Crowding is graded mild (0-4 mm), moderate (4-8 mm) or severe (over 8 mm) [13]. Other named problems include crossbite, deep bite and open bite [12][13].",
+    "Wikipedia's malocclusion article says poor dental aesthetics can affect self-esteem, that skeletal disharmony can distort facial shape, and that misalignment makes cleaning harder [13]. Braces address tooth alignment and, with elastics or auxiliary appliances, bite relationships; jaw-position problems that are skeletal may involve surgery, needed by about 5 percent of the general population according to the same source [13][12]."
+   ]
+  },
+  {
+   "h": "Appearance and perception",
+   "paras": [
+    "Metal braces are the most visible fixed appliance, which motivates ceramic, lingual and clear-aligner options [1][7]. In a 2009 study, 50 adults rated standardized photographs of a person wearing different appliances for attractiveness, acceptability and value [2]. The 2026 scoping review found that adults preferred and were willing to pay more for aesthetic appliances, while specialist orthodontists were the most preferred providers [4].",
+    "A cross-sectional study in Saudi Arabia showed 189 potential employers photographs of two models with no appliance, metal braces, ceramic braces and clear aligners; scores for professionalism, communication skills and likelihood of hiring were significantly lower for metal and ceramic brackets than for clear aligners or no appliance [9]. A survey of 276 adults in treatment looked at motivation, effects on daily life and hygiene demands [3]."
+   ]
+  },
+  {
+   "h": "Clear aligners and other alternatives",
+   "paras": [
+    "Ceramic brackets, lingual braces bonded behind the teeth, and clear aligners exist largely as less visible alternatives to metal [1][7]. Clear aligners are removable trays, worn about 22 hours a day and changed every one to two weeks, with an average treatment of about 13.5 months; they are generally indicated for mild to moderate crowding and spacing, and Wikipedia reports they are generally less effective than conventional braces for rotated teeth and some tooth movements [14]. A 2014 systematic review found the evidence too weak for firm conclusions about comparative effectiveness [14].",
+    "Prices for clear aligners are reported to be fairly consistent at about $2,000 in Australia, Canada, the US and the UK, generally below all-metal braces [14]. Direct-to-consumer aligner companies such as SmileDirectClub, which launched in 2014 and filed for bankruptcy in 2023, drew criticism from orthodontic bodies; the American Association of Orthodontists issued a consumer alert about mail-order aligners [14]. Metal braces remain the most common fixed appliance and offer greater mechanical control for complex cases [12][1][5]."
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing",
+   "paras": [
+    "In appearance culture braces are the most established route to a better smile and, for some, to a better-looking lower face: aligned teeth, corrected overbites and closed gaps change how the smile and profile read. Adult treatment is common, and survey work on adult patients has examined their motives, including appearance, and the effect of visible appliances on daily life [3]. Because metal braces are visible, many adults weigh them against aligners or lingual options, and cosmetic orthodontics is more common in countries with first-world economies [1][3]."
+   ]
+  },
+  {
+   "h": "Effectiveness",
+   "paras": [
+    "Fixed appliances are the long-standing mainstay of orthodontic tooth movement. Reviews of brackets and microbial corrosion describe metal braces as remaining the main stream of orthodontic practice, especially in adolescents, with advantages such as lower cost and reduced friction compared with newer options [5]. Orthodontics reviews note that fixed appliances offer greater mechanical control than removable ones and are the most common type [12]. Reviews of aligners note that clear polymeric aligners were developed because metal braces affect appearance during treatment [7].",
+    "On quality of life, Wikipedia reports that patients who completed treatment had higher quality of life than untreated patients, while also stating that conclusive evidence of oral-health benefit is lacking [12]."
+   ]
+  },
+  {
+   "h": "Safety and risks",
+   "paras": [
+    "Plaque accumulation around brackets can cause gingivitis, and careless cleaning may lead to gum recession [1]. Soreness rises with applied force, and a 2017 Cochrane review reported that analgesics reduce it [1]. Some root shortening occurs in most cases but is rarely clinically significant, and tooth loss is rare [1].",
+    "Laboratory work has compared how oral microbes adhere to different brackets and wires [10], and a 2022 article discussed microbially induced corrosion of stainless steel appliances, a topic not previously addressed in orthodontic literature [5]. A survey of 236 orthodontic patients asked about temporomandibular joint symptoms in relation to appliance type [11].",
+    "Poor oral hygiene during treatment can cause decalcification (white-spot marks) and tooth decay, so fixed treatment may not be preferred for patients who cannot keep teeth clean [12]. Gold-plated or titanium brackets suit patients with nickel allergy [1]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Research on metal braces includes perception studies using rated photographs [2][9], adult-patient surveys [3][11], a scoping review of public preferences [4], a split-mouth trial of bracket materials in 34 adults [8] and in vitro microbial adhesion work [10]. No trial has tested metal braces specifically as a looksmaxxing intervention."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1728",
+   "event": "Pierre Fauchard publishes a book often credited with founding modern orthodontics [1]."
+  },
+  {
+   "year": "1754",
+   "event": "Louis Bourdet becomes the first recorded dentist to recommend premolar extraction for crowding [1]."
+  },
+  {
+   "year": "1819",
+   "event": "Christophe Delabarre introduces the wire crib [1]."
+  },
+  {
+   "year": "1899",
+   "event": "Edward Angle publishes his classification of malocclusion [13]."
+  },
+  {
+   "year": "1901",
+   "event": "Angle organises the American Society of Orthodontia and founds the first orthodontic school [1][12]."
+  },
+  {
+   "year": "1907",
+   "event": "The first orthodontic journal is founded [1]."
+  },
+  {
+   "year": "1928",
+   "event": "Angle's edgewise appliance debuts [12]."
+  },
+  {
+   "year": "1959",
+   "event": "Nitinol alloy created at the Naval Ordnance Laboratory [1]."
+  },
+  {
+   "year": "1976",
+   "event": "Lawrence Andrews introduces the straight-wire appliance [12]."
+  },
+  {
+   "year": "1979",
+   "event": "George Andreasen uses nitinol's superelasticity for full treatments [1]."
+  },
+  {
+   "year": "1999",
+   "event": "Invisalign clear aligners go on sale in the US [14]."
+  },
+  {
+   "year": "2026",
+   "event": "A scoping review maps public preferences across 56 studies and 16,271 laypeople [4]."
+  }
+ ],
+ "lore": {
+  "intro": "Metal braces are discussed in appearance communities as the standard way to fix crowding and bite problems, and as a visible trade-off against aligners; the claims below are summarised from clinical literature and common patient accounts.",
+  "claims": [
+   {
+    "claim": "Braces improve the smile and facial appearance.",
+    "believers": "Patients and orthodontists say alignment changes how the smile looks, and adult patients commonly cite appearance among their motives [3].",
+    "experts": "Wikipedia reports higher quality of life among treated patients, though it states conclusive evidence of health benefits is lacking [12].",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Visible braces make a worse impression.",
+    "believers": "Adults weighing options say visible metal appliances are a social cost during treatment [2][4].",
+    "experts": "In a Saudi study of potential employers, professionalism, communication and hiring-likelihood scores were significantly lower for metal and ceramic braces than for clear aligners or none [9]; a 2009 rating study examined attractiveness and acceptability of appliances [2].",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Clear aligners work as well as braces.",
+    "believers": "Some consider aligners faster and less restrictive than braces [12].",
+    "experts": "Wikipedia reports aligners are generally less effective for rotated teeth and some movements, and that evidence comparing them with braces is limited [14][12].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Results last forever once the braces are off.",
+    "believers": "Orthodontic providers describe the finished alignment as the goal of treatment [1].",
+    "experts": "Over half of patients show some reversion within ten years, and retainers are used to hold results [12].",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "Extractions or braces change facial shape.",
+    "believers": "Extraction as a way to make room has been debated within orthodontics since Angle opposed it [12].",
+    "experts": "Tweed and Begg reintroduced extraction in the 1940s and 1950s to improve aesthetics and stability [12]; skeletal disharmony is addressed with jaw surgery rather than braces alone [13].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Braces cause jaw joint problems.",
+    "believers": "Discussion of braces and jaw-joint symptoms circulates among patients.",
+    "experts": "A survey of 236 orthodontic patients asked about temporomandibular symptoms in relation to appliance type [11].",
+    "evidence": "untested"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Dental braces",
+   "url": "https://en.wikipedia.org/wiki/Dental_braces",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Attractiveness, acceptability, and value of orthodontic appliances",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19268820/",
+   "source": "AJODO",
+   "year": 2009,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Motivation, Perception, and Behavior of the Adult Orthodontic Patient: A Survey Analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35281602/",
+   "source": "BioMed Research International",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Determinants of public preference for orthodontic appliances and treatment providers: a scoping review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42821041/",
+   "source": "Progress in Orthodontics",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Microbial Corrosion in Orthodontics",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36259293/",
+   "source": "Journal of Contemporary Dental Practice",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "A Review on Orthodontic Brackets and Their Application in Clinical Orthodontics",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37937031/",
+   "source": "Cureus",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "'Invisible' orthodontics by polymeric 'clear' aligners molded on 3D-printed personalized dental models",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35414958/",
+   "source": "Regenerative Biomaterials",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Chemical and physical properties of nickel-free brackets: An in vitro and ex vivo controlled clinical trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41604298/",
+   "source": "Journal of Orthodontics",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Impact of Orthodontic Appliances on Hiring Prospects in Saudi Arabia",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37431341/",
+   "source": "Cureus",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Microbial adhesion on different types of orthodontic brackets and wires: An in vitro study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39619715/",
+   "source": "Saudi Dental Journal",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "The relationship between TMJ symptoms and orthodontic treatments: a survey on 236 orthodontic patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34289679/",
+   "source": "J Biol Regul Homeost Agents",
+   "year": 2021,
+   "type": "study"
+  },
+  {
+   "id": 12,
+   "title": "Orthodontics",
+   "url": "https://en.wikipedia.org/wiki/Orthodontics",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 13,
+   "title": "Malocclusion",
+   "url": "https://en.wikipedia.org/wiki/Malocclusion",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 14,
+   "title": "Clear aligners",
+   "url": "https://en.wikipedia.org/wiki/Clear_aligners",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Dental_braces",
+   "title": "Dental braces - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Orthodontics",
+   "title": "Orthodontics - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Malocclusion",
+   "title": "Malocclusion - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Clear_aligners",
+   "title": "Clear aligners - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "Classic fixed brackets-and-wire orthodontics; well-established for tooth alignment, highly visible.",
+  "aka": "Traditional braces",
+  "evidence": "strong",
+  "outcome": "durable",
+  "price": null,
+  "note": "Needs retainers afterward; plaque control matters.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Metal braces are the standard fixed orthodontic appliance, using bonded steel brackets and a wire to move teeth.\n\nTreatment commonly takes months to a couple of years, followed by retainers.",
+  "mechanism": "Steady pressure from the wire loosens teeth, and bone remodels to support the new position.",
+  "risks": "Plaque buildup, gum inflammation, soreness and some root shortening are reported. They are very visible."
+ }
 }

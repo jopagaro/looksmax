@@ -53,10 +53,10 @@ const gate = {
   'grokipedia.com': throttle(400),
   'oauth.reddit.com': throttle(800),
   'www.reddit.com': throttle(1000),
-  't-nation.com': throttle(1300),
+  't-nation.com': throttle(process.argv.includes('--gentle') ? 4000 : 1300),
   'api.gdeltproject.org': throttle(9000),
   'hn.algolia.com': throttle(400),
-  'lemmy.world': throttle(1200),
+  'lemmy.world': throttle(process.argv.includes('--gentle') ? 5000 : 1200),
 };
 async function get(url, { json = false, tries = 3 } = {}) {
   if (url.includes('arctic-shift')) tries = Math.max(tries, 5);

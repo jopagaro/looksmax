@@ -1,0 +1,72 @@
+{
+  "name": "Vanillyl butyl ether",
+  "card": {
+    "summary": "Vanillyl butyl ether is a warming cosmetic ingredient that activates the heat-sensing TRPV1 receptor and increases skin blood flow, used in lip plumpers and warming products.",
+    "aka": "VBE, vanillyl butyl ether, CAS 82654-98-6",
+    "evidence": "limited",
+    "status": "otc",
+    "outcome": null,
+    "risk": "low",
+    "price": null,
+    "note": "Produces warmth and some discomfort; a 2026 trial rated the sensation between 'slightly uncomfortable' and 'uncomfortable'.",
+    "structure": "Vanillyl butyl ether"
+  },
+  "quick": {
+    "overview": "Vanillyl butyl ether (VBE) is a vanillin-derived ingredient that triggers warmth when applied to skin. It acts on TRPV1, the same receptor that responds to capsaicin in chili peppers, but is described as non-pungent.\n\nIn appearance products, the warmth and increased local blood flow are the point: warming ingredients are used in products that leave lips looking fuller or skin flushed. A 2026 randomised crossover trial in 13 adults found a VBE patch increased cutaneous blood flow and produced warmth without changing skin temperature.",
+    "how": "VBE is an ingredient in cosmetic and personal-care formulations rather than a product people dose themselves. Users meet it in warming or plumping lip and skin products. Warmth and tingling begin soon after application.",
+    "risks": "The main reported effect is warmth and discomfort; the 2026 patch trial rated sensation between 'slightly uncomfortable' and 'uncomfortable'. It has been assessed in a research-institute fragrance ingredient safety review (RIFM). People with sensitive skin may react more to warming agents."
+  },
+  "lead": [
+    "Vanillyl butyl ether (VBE) is a vanillyl-based compound used in cosmetic products for its warming effect. A 2022 study found that VBE, along with several other vanilloid analogues, increased calcium levels in cells expressing the TRPV1 channel, the capsaicin receptor involved in heat and pain sensing.[2]",
+    "In a 2026 randomised, double-blind, placebo-controlled crossover trial of 13 healthy adults, a VBE patch worn for 30 minutes on the forearm raised cutaneous blood flow without changing skin temperature or muscle oxygenation and produced warmth sensations with some thermal discomfort.[1]",
+    "For appearance, this local warming and flushing is the basis of its use in products designed to leave skin or lips looking fuller or rosier. No clinical trials were found on VBE for lip volume or cosmetic outcomes."
+  ],
+  "angle": {
+    "goal": "Lip fullness & skin flush",
+    "chain": ["VBE activates TRPV1 heat receptors in the skin", "Local blood flow and warmth increase", "Plumper-looking lips or flushed skin while it lasts"],
+    "effect": "claimed",
+    "text": "VBE produces a warming sensation and increases cutaneous blood flow, which products use for a temporarily fuller or flushed look. The only trial found measured blood flow and comfort on the forearm, not appearance."
+  },
+  "infobox": [
+    ["Type", "Topical warming agent (TRPV1 agonist)"],
+    ["CAS number", "82654-98-6"],
+    ["Class", "Vanilloid, non-pungent"],
+    ["Uses", "Cosmetics, fragrance and personal-care products"],
+    ["Safety review", "RIFM fragrance ingredient assessment (2021)"]
+  ],
+  "sections": [
+    {
+      "h": "Mechanism",
+      "paras": [
+        "TRPV1 channels contribute to thermosensory perception and microvascular regulation.[1] A 2022 study in cells and mouse sensory neurons found that VBE dose-dependently increased intracellular calcium in TRPV1-expressing cells, and that mutating capsaicin-binding sites reduced the response, consistent with action at a capsaicin-like site.[2] Capsaicin itself reaches skin nociceptors and produces warmth, tingling or stinging.[4]"
+      ]
+    },
+    {
+      "h": "Safety",
+      "paras": [
+        "VBE was the subject of a RIFM fragrance ingredient safety assessment published in Food and Chemical Toxicology in 2021.[3] In the 2026 patch trial, participants rated warmth and discomfort as greater than with placebo, between slightly uncomfortable and uncomfortable.[1]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "The 2026 Skin Pharmacology and Physiology trial enrolled 13 healthy adults in a double-blind crossover design, applying a VBE patch or visually identical placebo for 30 minutes and monitoring blood flow, skin temperature, muscle oxygenation and thermal comfort. VBE increased cutaneous blood flow and warmth without changing skin temperature.[1]"
+      ]
+    }
+  ],
+  "timeline": [
+    { "year": "2021", "event": "RIFM publishes a fragrance ingredient safety assessment for VBE.[3]" },
+    { "year": "2022", "event": "Study shows VBE activates TRPV1 in cells.[2]" },
+    { "year": "2026", "event": "Randomised crossover patch trial reports increased cutaneous blood flow.[1]" }
+  ],
+  "lore": null,
+  "refs": [
+    { "id": 1, "title": "Vanillyl butyl ether patch application enhances thermosensory perception and alters microcirculatory dynamics in the forearm: a randomized double-blind crossover trial", "url": "https://pubmed.ncbi.nlm.nih.gov/42842556/", "source": "Skin Pharmacology and Physiology", "year": 2026, "type": "trial" },
+    { "id": 2, "title": "The effects of vanilloid analogues structurally related to capsaicin on the transient receptor potential vanilloid 1 channel", "url": "https://pubmed.ncbi.nlm.nih.gov/35280525/", "source": "Biochemistry and Biophysics Reports", "year": 2022, "type": "study" },
+    { "id": 3, "title": "RIFM fragrance ingredient safety assessment, vanillyl butyl ether, CAS Registry Number 82654-98-6", "url": "https://pubmed.ncbi.nlm.nih.gov/34182046/", "source": "Food and Chemical Toxicology", "year": 2021, "type": "review" },
+    { "id": 4, "title": "Capsaicin", "url": "https://en.wikipedia.org/wiki/Capsaicin", "source": "Wikipedia", "year": null, "type": "encyclopedia" }
+  ],
+  "webSources": [
+    { "url": "https://en.wikipedia.org/wiki/Capsaicin", "title": "Capsaicin - Wikipedia" }
+  ]
+}

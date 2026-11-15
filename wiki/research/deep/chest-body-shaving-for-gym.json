@@ -1,17 +1,320 @@
 {
-"name":"Chest/body shaving for gym",
-"lead":["Chest and body shaving for the gym is the practice of removing hair from the chest, abdomen, arms and sometimes legs so that muscle shape is easier to see. Removing hair leaves the skin surface bare, so the edges of the pecs, the lines between abdominal sections and the curve of the arms read more clearly in the mirror, in photos and under gym lighting. Bodybuilders have long done this before competition, and Wikipedia notes that most competitors tan and shave before a show.[4]","Practitioners use it for several looks-related reasons: sharper-looking definition, a cleaner outline in photographs, even tanning or oil coverage on stage, and fit in tight or sleeveless clothing. Wikipedia also lists less friction and easier massage among the reasons athletes remove hair, and describes swimmers and cyclists who remove body or leg hair for drag, comfort and injury care.[1][3] The wider trend of men trimming or removing body hair is often called manscaping.[3]","Methods range from trimmers that keep hair at a short length, to razors, depilatory creams and waxing, up to laser and light-based removal for longer-lasting results.[3] No study has measured how much shaving changes perceived muscularity. The medical literature on the practice concerns skin effects such as ingrown hairs and a documented 2003 MRSA outbreak on a college football team in which cosmetic body shaving was a facilitating factor.[2]"],
-"angle":{"goal":"Muscle definition / physique","chain":["Body hair is removed from chest, abdomen and arms","Skin surface is bare and evenly toned","Muscle edges and separation are easier to see"],"effect":"direct","text":"Shaving removes the hair that can soften the visible outline of the pecs, abs and arms. Lifters and bodybuilders use it so the physique they have built reads clearly in person and on camera."},
-"infobox":[["Practice","Shaving or trimming body hair to show muscle definition"],["Common methods","Trimmer, razor, depilatory cream, waxing, laser"],["Common reasons","Definition, stage tanning, tight clothing, friction"],["Associated with","Bodybuilding, swimming, cycling, manscaping"],["Documented risks","Irritation, ingrown hairs, folliculitis, skin infection"]],
-"sections":[
-{"h":"Description and motivations","paras":["Wikipedia describes bodybuilders removing body hair as part of pre-show preparation alongside tanning, and notes athletes more broadly shave to highlight muscle development, reduce friction or fit skin-tight clothing.[1][4] People who shave for the gym say a smooth surface makes each muscle group look more separated, helps tanner and posing oil sit evenly, and suits a clean-cut presentation. Cultural norms about male body hair vary, and the choice is one of the grooming decisions discussed in fitness and looksmaxxing communities."]},
-{"h":"Methods","paras":["Wikipedia's hair removal article separates depilation, which removes hair at the skin surface (shaving, trimming, chemical depilatories), from epilation, which removes it from the root (waxing, sugaring, threading, epilators). Depilation results last hours to days and epilation results days to weeks.[3] Laser and intense pulsed light methods target pigment in the follicle and usually require several sessions; reviews cited there reported roughly 50 to 70 percent hair reduction after six months for some devices.[3]","The same article suggests trimming longer hair short with a body trimmer before shaving it off completely.[3]"]},
-{"h":"Reported risks and harms","paras":["Hair removal can cause skin inflammation, ingrown hairs, razor bumps and folliculitis, and some methods can cause burns or scarring.[3] Razor shaving can produce ingrown hairs and follicular inflammation, particularly in people with curly or coarse hair.[5]","A retrospective cohort study of a US college football team found an MRSA outbreak with 10 cases of cellulitis or abscess during 2003 football camp; cosmetic body shaving and turf burns were identified as facilitating factors.[2] A 2021 systematic review summarized on Wikipedia found razors probably raise surgical-site infection risk compared with clippers, which is a medical rather than cosmetic context.[3] Guidance for razor irritation commonly mentions sharp blades, shaving with the grain and keeping hair short.[5]"]},
-{"h":"Clinical studies","paras":["No studies found on the effect of body shaving on perceived muscularity or physique appearance. Related research includes the football-team MRSA outbreak study[2] and reviews of laser hair reduction summarized in the hair removal literature.[3]"]}],
-"timeline":[{"year":"2003","event":"MRSA outbreak on a US college football team in which cosmetic body shaving was a facilitating factor; reported in 2004.[2]"}],
-"lore":null,
-"refs":[{"id":1,"title":"Body hair","url":"https://en.wikipedia.org/wiki/Body_hair","source":"Wikipedia","year":2025,"type":"encyclopedia"},{"id":2,"title":"A high-morbidity outbreak of methicillin-resistant Staphylococcus aureus among players on a college football team, facilitated by cosmetic body shaving and turf burns","url":"https://pubmed.ncbi.nlm.nih.gov/15546080/","source":"Clinical Infectious Diseases","year":2004,"type":"study"},{"id":3,"title":"Hair removal","url":"https://en.wikipedia.org/wiki/Hair_removal","source":"Wikipedia","year":2025,"type":"encyclopedia"},{"id":4,"title":"Bodybuilding","url":"https://en.wikipedia.org/wiki/Bodybuilding","source":"Wikipedia","year":2025,"type":"encyclopedia"},{"id":5,"title":"Pseudofolliculitis barbae","url":"https://en.wikipedia.org/wiki/Pseudofolliculitis_barbae","source":"Wikipedia","year":2025,"type":"encyclopedia"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Body_hair","title":"Body hair"},{"url":"https://en.wikipedia.org/wiki/Pseudofolliculitis_barbae","title":"Pseudofolliculitis barbae"},{"url":"https://en.wikipedia.org/wiki/Hair_removal","title":"Hair removal"},{"url":"https://en.wikipedia.org/wiki/Bodybuilding","title":"Bodybuilding"}],
-"card":{"summary":"Shaving body hair to make muscle definition show; common among bodybuilders, with documented skin-infection risks in athletes.","aka":"Manscaping for lifting","evidence":"unproven","risk":"low","price":null,"note":"A college football MRSA outbreak was linked partly to body shaving.","structure":null},
-"quick":{"overview":"Some gym-goers and bodybuilders shave the chest and body to make muscle look more defined. Athletes also cite reduced friction and fit in tight clothing.\n\nNo studies measure the aesthetic effect.","mechanism":"Removing hair exposes the skin surface so muscle contours are more visible; methods include razors, trimmers, depilatories and waxing.","risks":"Shaving can cause ingrown hairs and irritation. A 2004 study documented an MRSA outbreak on a college football team in which cosmetic body shaving was a facilitating factor."}
+ "name": "Chest/body shaving for gym",
+ "lead": [
+  "Chest and body shaving for the gym is the practice of removing or closely trimming hair from the chest, abdomen, arms and sometimes legs so that muscle shape is easier to see. With the hair gone, the edges of the pecs, the lines between abdominal sections and the curve of the shoulders and arms show more clearly in the mirror, in photographs and under gym or stage lighting. Bodybuilders have long done this as part of contest preparation, and Wikipedia notes that most competitors tan and shave before a show.[4][6]",
+  "Practitioners describe several looks-related reasons: sharper-looking definition, a cleaner outline in progress photos, even coverage of tanner and posing oil on stage, and a better fit in tight or sleeveless clothing. Athletes in other sports, such as swimmers and cyclists, also remove body hair for comfort, reduced friction or easier wound care.[1][3] The wider trend of men trimming or removing body hair is often called manscaping, a term first recorded in 2003.[7]",
+  "Methods run from trimmers that leave a short stubble, through razors, depilatory creams and waxing, to laser and light-based removal that lasts longer.[3] No study has measured how much body-hair removal changes perceived muscularity. The medical literature instead concerns skin effects such as razor bumps and ingrown hairs, and a documented 2003 MRSA outbreak on a US college football team in which cosmetic body shaving was identified as a facilitating factor.[2][5]"
+ ],
+ "angle": {
+  "goal": "Muscle definition / physique",
+  "chain": [
+   "Body hair is removed from chest, abdomen and arms",
+   "Skin surface is bare and takes tanner, oil and light evenly",
+   "Muscle edges and separation are easier to see in person and on camera"
+  ],
+  "effect": "direct",
+  "text": "Shaving removes the hair that can soften the visible outline of the pecs, abs and arms. Lifters and bodybuilders use it so the physique they have built reads clearly in the gym mirror, in photos and on stage."
+ },
+ "infobox": [
+  [
+   "Practice",
+   "Shaving or trimming body hair to show muscle definition"
+  ],
+  [
+   "Common methods",
+   "Trimmer, razor, depilatory cream, waxing, sugaring, laser, IPL"
+  ],
+  [
+   "Common reasons",
+   "Definition, stage tanning and oil, tight clothing, friction, photos"
+  ],
+  [
+   "Associated with",
+   "Bodybuilding, physique competition, swimming, cycling, manscaping"
+  ],
+  [
+   "Duration of results",
+   "Hours to days (shaving); days to weeks (waxing); longer-term reduction (laser)"
+  ],
+  [
+   "Documented risks",
+   "Irritation, ingrown hairs, folliculitis, skin infection"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description and motivations",
+   "paras": [
+    "Wikipedia describes bodybuilders removing body hair as part of pre-show preparation alongside tanning, and notes that athletes more broadly shave to highlight muscle development, reduce friction or fit skin-tight clothing.[1][4] People who shave for the gym say a smooth surface makes each muscle group look more separated, helps tanner and posing oil sit evenly, and gives a clean-cut presentation. Others cite practical reasons such as sweat management and the way body hair can mat under a sleeveless top.",
+    "Attitudes toward male body hair differ between cultures and over time, and the choice is one of several grooming decisions discussed in fitness and looksmaxxing communities. Wikipedia's article on male grooming traces athletic hair removal to ancient Egypt and Greece, where wrestlers, runners and swimmers trimmed or removed hair, and says aesthetic grooming of body hair has revived in recent decades.[7]"
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Athletic hair removal has a long record. Wikipedia's grooming coverage traces trimming and removal among wrestlers, runners and swimmers to ancient Egypt and Greece,[7] and its shaving article dates copper razors to around 3000 BC.[8] Modern razor technology made frequent body shaving practical: the single-edge safety razor was patented in 1876, King Camp Gillette conceived a disposable double-edged blade in 1895 and began production in 1903, Jacob Schick built the first electric razor in 1928, and multi-blade cartridges followed from 1971 onward, with Bic's disposable razor launching in 1974.[8]",
+    "In sport, the swimming article records that the shaved-down look spread after the 1956 Olympics, when two Australian swimmers arrived shaved and won gold; swimmers shave in a pre-meet routine to cut drag.[10] Bodybuilding's competition culture, in which shaving and tanning are part of show preparation, is the main route by which body shaving reached gym culture.[4][6] The 2003 coinage of manscaping marks its wider mainstreaming as male grooming.[7]"
+   ]
+  },
+  {
+   "h": "Body hair and why it matters for physique",
+   "paras": [
+    "Body hair comes in fine, light vellus hair and coarser, darker terminal hair, and puberty-era androgens convert vellus hair to terminal hair on the chest, limbs and face in many men.[1] Terminal hair on the chest and abdomen is the hair most relevant to a physique presentation, because it overlays the pec lines, abdominal grooves and the borders of the shoulders and arms that lifters want to display.[1][3]",
+    "Reference sources list showing muscle definition, reducing friction and putting on tight clothing as reasons athletes remove body hair.[1] Wikipedia's shaving article states that shaving does not make hair regrow thicker or darker; cut hair has a blunt tip that can feel coarser and look darker, and hair often coarsens with age regardless.[8]"
+   ]
+  },
+  {
+   "h": "In bodybuilding and physique competition",
+   "paras": [
+    "Contest preparation is a staged process. Competitors typically spend the off-season eating in a calorie surplus to gain muscle, begin a cutting phase about 12 to 14 weeks before a show to lose body fat, and finish with carbohydrate loading and dehydration to maximise definition and vascularity.[6] Shaving and tanning are usually done in the final days, since the judges rank competitors on conditioning, muscularity, posing, size, stage presentation and symmetry, and a smooth, tanned surface is meant to make those qualities easier to read under stage lights.[4][6]",
+    "Divisions differ in how much of the body is exposed. Men's physique, introduced in 2013, is judged mainly on front and back poses in board shorts, while classic physique, added to the Mr. Olympia lineup in 2016, uses posing trunks and emphasises the vacuum pose.[6] Competitors in the divisions that show more skin are the ones for whom chest, abdomen and leg hair removal is most commonly discussed."
+   ]
+  },
+  {
+   "h": "In other sports",
+   "paras": [
+    "Swimmers use a shave and taper routine before a key meet in which exposed body hair, and a layer of dead skin, are removed to feel more streamlined and reduce drag; Wikipedia cites a 1989 study of breaststroke that it says showed improved performance from shaving.[10] Runners, cyclists and bodybuilders are also named among athletes who remove body hair, for friction, definition or ease of dressing in tight kit.[1] Cyclists commonly cite easier wound cleaning after crashes.[3]"
+   ]
+  },
+  {
+   "h": "Methods",
+   "paras": [
+    "Wikipedia's hair removal article separates depilation, which removes hair at the skin surface (shaving, trimming, chemical depilatories), from epilation, which removes it from the root (waxing, sugaring, threading, epilators). Depilation results last hours to days and epilation results days to weeks.[3] Laser and intense pulsed light methods target pigment in the follicle and usually require several sessions; reviews cited there reported roughly 50 to 70 percent hair reduction after six months for some devices.[3]",
+    "Suggested technique, as described in that article, is to trim longer hair short with a body trimmer before shaving it off completely.[3] Guidance on razor irritation more generally mentions sharp blades, shaving with the grain and keeping hair short.[5]",
+    "Laser hair removal uses pulses of light absorbed by pigment in the hair to damage follicles; it usually requires at least eight sessions spaced weeks apart and works best on dark, coarse hair on light skin.[9] A randomised comparison on the same patients reported 52.7 per cent hair reduction at 12 months with intense pulsed light and 69.2 per cent with a diode laser, and the US FDA defines permanent reduction as a long-term, stable decrease in regrowth rather than total removal.[9] Common temporary effects are redness and swelling, and less common ones include discolouration, burns and infection; regulation of practitioners varies by country and US state.[9]",
+    "Reference sources describe wet shaving as easier when hair is softened with warm water and lubricated with cream or gel, shaving in light passes to lower the risk of cuts and ingrown hairs, and electric shavers as faster and less prone to cuts though they may not cut as close.[8] Razor burn is described as irritation commonly attributed to dull blades, dry shaving, heavy pressure or shaving against the grain.[8]"
+   ]
+  },
+  {
+   "h": "Reported risks and harms",
+   "paras": [
+    "Hair removal can cause skin inflammation, ingrown hairs, razor bumps and folliculitis, and some methods can cause burns or scarring.[3] Razor shaving can produce ingrown hairs and follicular inflammation, particularly in people with curly or coarse hair.[5]",
+    "A retrospective cohort study of all 100 players on a US college football team investigated an MRSA outbreak that produced 10 cases of cellulitis or skin abscess between the start of football camp in August 2003 and 1 October 2003. The authors identified cosmetic body shaving and turf burns as facilitating factors.[2] A 2021 systematic review summarised on Wikipedia found razors probably raise surgical-site infection risk compared with clippers, which is a medical rather than cosmetic context.[3]",
+    "The shaving article lists razor bumps (pseudofolliculitis barbae) as persistent inflammation from shaving and notes that some affected people find electric shavers help.[8][5] Regrowth stubble and itch as hair returns are among the practical drawbacks of depilation that practitioners mention; epilation and laser methods trade these for longer intervals between sessions and greater skin irritation at the time of treatment.[3][9]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "The term manscaping, a blend of man and landscaping, was first recorded in 2003, and the global male grooming market was estimated at about US$81 billion by 2024.[7] Surveys cited by Wikipedia indicate growing male use of cosmetics and skin products in several countries, though they do not separate out body-hair removal.[7] In the gym, body shaving is generally discussed as a personal grooming preference alongside tanning, diet and training for appearance."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found on the effect of body shaving on perceived muscularity or physique appearance. Related research includes the football-team MRSA outbreak study[2] and reviews of laser hair reduction summarised in the hair removal literature.[3]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "c. 3000 BC",
+   "event": "Copper razors appear.[8]"
+  },
+  {
+   "year": "Ancient Greece and Egypt",
+   "event": "Athletes and others trim or remove body hair for competition and grooming.[7]"
+  },
+  {
+   "year": "1876",
+   "event": "The Star single-edge safety razor is patented.[8]"
+  },
+  {
+   "year": "1903",
+   "event": "Gillette begins commercial production of disposable double-edged blades.[8]"
+  },
+  {
+   "year": "1928",
+   "event": "Jacob Schick builds the first electric razor.[8]"
+  },
+  {
+   "year": "1956",
+   "event": "Two Australian swimmers arrive shaved at the Olympics and win gold, popularising swimmer shaving.[10]"
+  },
+  {
+   "year": "1974",
+   "event": "Bic launches the first disposable razor.[8]"
+  },
+  {
+   "year": "2003",
+   "event": "The word manscaping is first recorded; an MRSA outbreak on a US college football team in which cosmetic body shaving was a facilitating factor occurs in the same year.[2][7]"
+  },
+  {
+   "year": "2004",
+   "event": "The football-team MRSA outbreak is reported in Clinical Infectious Diseases.[2]"
+  },
+  {
+   "year": "2013",
+   "event": "Men's physique division begins, judged on front and back poses in board shorts.[6]"
+  },
+  {
+   "year": "2016",
+   "event": "Classic physique division debuts at Mr. Olympia.[6]"
+  }
+ ],
+ "lore": {
+  "intro": "Body shaving is discussed in gym and bodybuilding culture as a grooming choice linked to physique presentation, tanning and competition prep rather than as a looksmaxxing doctrine.[4][6]",
+  "claims": [
+   {
+    "claim": "Shaving makes muscle definition look sharper",
+    "believers": "Bodybuilders and lifters say bare skin shows pec edges, ab grooves and arm shape more clearly in mirrors, photos and on stage.[4][6]",
+    "experts": "Wikipedia notes that competitors typically shave and tan before shows; no study has measured how hair removal changes perceived muscularity.[4][1]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Shaving makes hair grow back thicker and darker",
+    "believers": "A widespread belief holds that regrowth after shaving is coarser or darker.[8]",
+    "experts": "Reference sources say shaving does not change thickness or colour; blunt-tipped regrowth can feel coarser and look darker.[8]",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "Shaving helps tanner and posing oil go on evenly",
+    "believers": "Competitors say a bare surface gives even coverage of tanner and oil for stage lighting.[6]",
+    "experts": "Contest guides cited on Wikipedia describe tanning and shaving as part of show preparation; no controlled comparison has been published.[4][6]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Body shaving in contact sports raises infection risk",
+    "believers": "Reference sources list body shaving as a routine grooming practice among athletes and bodybuilders.[1][4]",
+    "experts": "A retrospective cohort study of a US college football team identified cosmetic body shaving and turf burns as facilitating factors in an MRSA outbreak with 10 skin infections.[2]",
+    "evidence": "harms"
+   },
+   {
+    "claim": "Laser removal gives permanent hair removal",
+    "believers": "Practitioners describe laser and light-based methods as a longer-lasting alternative to razors, with intervals of weeks or longer between sessions.[3][9]",
+    "experts": "The FDA defines permanent as long-term stable reduction in regrowth rather than total removal, and trials report roughly 50 to 70 per cent reduction at six to twelve months.[9]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Body hair",
+   "url": "https://en.wikipedia.org/wiki/Body_hair",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "A high-morbidity outbreak of methicillin-resistant Staphylococcus aureus among players on a college football team, facilitated by cosmetic body shaving and turf burns",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15546080/",
+   "source": "Clinical Infectious Diseases",
+   "year": 2004,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Hair removal",
+   "url": "https://en.wikipedia.org/wiki/Hair_removal",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Bodybuilding",
+   "url": "https://en.wikipedia.org/wiki/Bodybuilding",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 5,
+   "title": "Pseudofolliculitis barbae",
+   "url": "https://en.wikipedia.org/wiki/Pseudofolliculitis_barbae",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 6,
+   "title": "Bodybuilding (competition preparation and presentation)",
+   "url": "https://en.wikipedia.org/wiki/Bodybuilding",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 7,
+   "title": "Manscaping / male grooming",
+   "url": "https://en.wikipedia.org/wiki/Manscaping",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 8,
+   "title": "Shaving",
+   "url": "https://en.wikipedia.org/wiki/Shaving",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 9,
+   "title": "Laser hair removal",
+   "url": "https://en.wikipedia.org/wiki/Laser_hair_removal",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 10,
+   "title": "Swimming (sport)",
+   "url": "https://en.wikipedia.org/wiki/Swimming_(sport)",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Body_hair",
+   "title": "Body hair"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Pseudofolliculitis_barbae",
+   "title": "Pseudofolliculitis barbae"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Hair_removal",
+   "title": "Hair removal"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Bodybuilding",
+   "title": "Bodybuilding"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Manscaping",
+   "title": "Manscaping"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Laser_hair_removal",
+   "title": "Laser hair removal"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Swimming_(sport)",
+   "title": "Swimming (sport)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Shaving",
+   "title": "Shaving"
+  }
+ ],
+ "card": {
+  "summary": "Shaving body hair to make muscle definition show; common among bodybuilders, with documented skin-infection risks in athletes.",
+  "aka": "Manscaping for lifting",
+  "evidence": "unproven",
+  "risk": "low",
+  "price": null,
+  "note": "A college football MRSA outbreak was linked partly to body shaving.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Some gym-goers and bodybuilders shave the chest and body to make muscle look more defined. Athletes also cite reduced friction and fit in tight clothing.\n\nNo studies measure the aesthetic effect.",
+  "mechanism": "Removing hair exposes the skin surface so muscle contours are more visible; methods include razors, trimmers, depilatories and waxing.",
+  "risks": "Shaving can cause ingrown hairs and irritation. A 2004 study documented an MRSA outbreak on a college football team in which cosmetic body shaving was a facilitating factor."
+ }
 }

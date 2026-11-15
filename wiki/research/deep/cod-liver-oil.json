@@ -1,89 +1,461 @@
 {
-  "name": "Cod liver oil",
-  "lead": [
-    "Cod liver oil is a dietary supplement made from the liver of Atlantic cod (Gadus morhua). Like other fish oils it contains the omega-3 fatty acids EPA and DHA, and unlike most it also contains substantial vitamins A and D.[1][2] One tablespoon (13.6 g) provides about 4,080 micrograms of vitamin A and 34 micrograms (1,360 IU) of vitamin D according to USDA figures cited by Wikipedia.[1]",
-    "It was used in northern European folk medicine for rheumatism and became a bottled remedy in the nineteenth century, and it played a part in the discovery of vitamins A and D.[1] In looksmaxxing and diet communities it is discussed as a vitamin A and D source, often alongside Weston A. Price-style diets.",
-    "Trials from the 1980s examined its effects on blood lipids and platelet function, and observational work examined childhood outcomes.[3][4][5] The sources reviewed contain no trial testing it for appearance. One tablespoon exceeds the adult tolerable upper intake for vitamin A, which is why vitamin A toxicity is the principal safety concern.[1][6]"
+ "name": "Cod liver oil",
+ "card": {
+  "summary": "A traditional vitamin A, D and omega-3 oil with a long medical history; no appearance trials, and its vitamin A content is the main safety issue.",
+  "aka": "CLO",
+  "evidence": "unproven",
+  "status": "otc",
+  "risk": "moderate",
+  "note": "One tablespoon exceeds the adult upper limit for vitamin A and far exceeds limits for young children.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Cod liver oil is a fish-liver supplement supplying omega-3 fats plus vitamins A and D. It has a long history as a folk and bottled remedy and helped lead to the discovery of vitamins A and D.\nNo trial was found testing it for appearance outcomes. Human studies have looked at blood lipids, platelet function and childhood outcomes instead.",
+  "mechanism": "EPA and DHA are incorporated into blood and cell lipids with supplementation, as one human study reported. Vitamin D supports bone mineralisation, and its use against rickets is the best-documented historical effect.",
+  "risks": "Vitamin A accumulates in the liver, and Wikipedia reports a tablespoon exceeds the adult tolerable upper limit and children's limits several-fold. Excess preformed vitamin A can cause nausea, skin peeling, bone pain and liver damage."
+ },
+ "lead": [
+  "Cod liver oil is a dietary supplement pressed or rendered from the liver of the Atlantic cod (Gadus morhua). Like other fish oils it supplies the omega-3 fatty acids EPA and DHA, and unlike most it also carries substantial amounts of vitamins A and D.[1][2] One tablespoon (13.6 g) provides about 4,080 micrograms of vitamin A and 34 micrograms (1,360 IU) of vitamin D according to USDA figures cited by Wikipedia.[1]",
+  "People use it for looks through the nutrients it contains. Vitamin A (as retinol) is the precursor of retinoic acid, the molecule that regulates how epithelial cells, including skin cells, grow and mature, and low vitamin A status is linked to skin infection and inflammation.[24] Vitamin D supports bone mineralisation, and omega-3 fats are part of the general diet. Users therefore treat a daily spoonful or capsule as one product that covers several things at once: skin, bone and joint health, and recovery between workouts, which feeds into training and physique. Posters on training forums describe taking it for its vitamin D3 and vitamin A content alongside fish oil and magnesium.[12][13][28]",
+  "It is also one of the longest-documented supplements in medicine. It was a northern European folk remedy for rheumatism, became a bottled nineteenth-century remedy, and played a part in the discovery of vitamins A and D.[1][14] In diet communities it is closely associated with the Weston A. Price Foundation's emphasis on traditional fats.[22]",
+  "Research on the oil itself comes mostly from the 1980s onward and covers blood lipids, platelet function, vitamin D delivery, childhood outcomes and, more recently, a very large randomised trial of respiratory infections.[3][4][5][17] No trial has tested it for skin, hair or facial appearance. Because preformed vitamin A accumulates in the body, a tablespoon exceeds the adult tolerable upper intake level, and vitamin A intake is the main safety topic around the oil.[1][24]"
+ ],
+ "angle": {
+  "goal": "Skin, bone and recovery support",
+  "chain": [
+   "Supplies preformed vitamin A, vitamin D and EPA/DHA in one product",
+   "Nutrients involved in skin cell turnover, bone mineralisation and general recovery",
+   "Users aim for healthier-looking skin and better training capacity"
   ],
-  "infobox": [
-    ["Source", "Liver of Atlantic cod (Gadus morhua)"],
-    ["Key constituents", "EPA, DHA, vitamin A, vitamin D"],
-    ["Vitamin A per tablespoon", "About 4,080 micrograms (USDA, via Wikipedia)"],
-    ["Extraction method", "Moller process (invented 1850)"],
-    ["Forms", "Liquid, capsules; topical petrolatum blends"]
+  "effect": "indirect",
+  "text": "People take cod liver oil as a single supplement for vitamin A, vitamin D and omega-3 fats, which they associate with skin, bone and joint upkeep and with recovering well enough to keep training. The route to appearance runs through those nutrients rather than a direct cosmetic action."
+ },
+ "infobox": [
+  [
+   "Source",
+   "Liver of Atlantic cod (Gadus morhua)"
   ],
-  "sections": [
-    {
-      "h": "Composition",
-      "paras": [
-        "Cod liver oil is roughly 20% omega-3 by composition and has higher vitamin A and D levels than other fish oils with similar fatty-acid profiles.[1] Because the vitamin content varies by product, labels differ."
-      ]
-    },
-    {
-      "h": "History",
-      "paras": [
-        "Northern European communities applied the oil to skin and took it orally for rheumatism and gout.[1] From the 1820s researchers in Germany noted that children given the oil did not develop rickets, and it became a 19th-century patent medicine and bottled remedy.[1] In 1899 London surgeon John Bland-Sutton used it for rickets in lion cubs at the London Zoo.[1] Norwegian pharmacist Peter Moller devised a steam extraction process in 1850 that made the oil more palatable.[1][2]",
-        "In 1914 Elmer McCollum and Marguerite Davis identified what became vitamin A, and in 1922 McCollum showed the rickets-curing factor was a distinct vitamin he named D.[1] After the Second World War, synthetic vitamin supplements reduced its popularity.[2]"
-      ]
-    },
-    {
-      "h": "Uses and evidence",
-      "paras": [
-        "Wikipedia reports cod liver oil may be beneficial as secondary prevention after a heart attack, benefits for psoriasis in a 2005 study, and an association with lower rates of severe depression in the 2007 Hordaland Health Study.[1] A topical product containing petrolatum and cod liver oil is labelled in the US to protect minor cuts, scrapes, burns and chapped skin.[7]",
-        "Grokipedia notes mixed evidence for cardiovascular benefit and that some recent studies suggest possible increased atrial fibrillation or stroke risk in healthy populations; this is an AI-generated source and the claim is not independently verified here.[2]"
-      ]
-    },
-    {
-      "h": "Safety and adverse effects",
-      "paras": [
-        "Vitamin A accumulates in the liver and excess preformed vitamin A causes hypervitaminosis A.[1] One tablespoon contains 136% of the adult tolerable upper limit, 680% of the limit for ages 1 to 3 and 453% for ages 4 to 8, and a teaspoon daily exceeds the limit for children aged 1 to 8.[1] Hypervitaminosis A symptoms include nausea, headache, skin peeling, bone pain and liver damage.[1]"
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found testing cod liver oil for appearance outcomes such as skin, hair or facial features. Human studies of the oil for other outcomes include a 1985 study in six volunteers supplemented for five months, which found incorporation of EPA and DHA into blood lipids and lowered triglycerides,[3] and a 1981 study in healthy young men on blood lipids and haemostasis.[4] A population-based case-control study reported that cod liver oil use in the first year of life was associated with lower risk of childhood-onset type 1 diabetes.[5] A 1986 New England Journal of Medicine study reported inhibition of atherosclerosis in a swine model, which is animal research.[8]",
-        "Registered trials include a large phase 4 study of cod liver oil for COVID-19 prevention (NCT04609423, n=47,210),[9] a bioavailability study of vitamin D in cod liver oil and multivitamin tablets in Norway (NCT01482689),[10] and a trial in periodontitis using omega-3 fatty acids.[11] Registry entries in the sources reviewed do not report results."
-      ]
-    }
+  [
+   "Key constituents",
+   "EPA, DHA, vitamin A (retinol), vitamin D"
   ],
-  "timeline": [
-    { "year": "1820s", "event": "German researchers begin noting that children given cod liver oil do not develop rickets.[1]" },
-    { "year": "1850", "event": "Peter Moller invents the Moller process for extracting cod liver oil.[1]" },
-    { "year": "1899", "event": "John Bland-Sutton uses cod liver oil for rickets in lion cubs at the London Zoo.[1]" },
-    { "year": "1914", "event": "Elmer McCollum and Marguerite Davis identify what becomes known as vitamin A.[1]" },
-    { "year": "1922", "event": "McCollum shows the rickets-curing factor is distinct and names it vitamin D.[1]" }
+  [
+   "Vitamin A per tablespoon",
+   "About 4,080 micrograms (USDA, via Wikipedia)[1]"
   ],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Cod liver oil", "url": "https://en.wikipedia.org/wiki/Cod_liver_oil", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
-    { "id": 2, "title": "Cod liver oil", "url": "https://grokipedia.com/page/Cod_liver_oil", "source": "Grokipedia", "year": 2026, "type": "encyclopedia" },
-    { "id": 3, "title": "Long-term effects of dietary marine omega-3 fatty acids upon plasma and cellular lipids, platelet function, and eicosanoid formation in humans.", "url": "https://pubmed.ncbi.nlm.nih.gov/2997286/", "source": "Journal of Clinical Investigation", "year": 1985, "type": "study" },
-    { "id": 4, "title": "Effect on blood lipids and haemostasis of a supplement of cod-liver oil in healthy young men.", "url": "https://pubmed.ncbi.nlm.nih.gov/6266735/", "source": "Clinical Science", "year": 1981, "type": "study" },
-    { "id": 5, "title": "Use of cod liver oil during the first year of life is associated with lower risk of childhood-onset type 1 diabetes.", "url": "https://pubmed.ncbi.nlm.nih.gov/14668274/", "source": "American Journal of Clinical Nutrition", "year": 2003, "type": "study" },
-    { "id": 6, "title": "Hypervitaminosis A", "url": "https://en.wikipedia.org/wiki/Hypervitaminosis_A", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
-    { "id": 7, "title": "Petrolatum, cod liver oil topical (DailyMed)", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fc9211db-71aa-44d8-a00b-65f1482d3981", "source": "DailyMed", "year": 2024, "type": "label" },
-    { "id": 8, "title": "Inhibition of atherosclerosis by cod-liver oil in a hyperlipidemic swine model.", "url": "https://pubmed.ncbi.nlm.nih.gov/3748103/", "source": "New England Journal of Medicine", "year": 1986, "type": "study" },
-    { "id": 9, "title": "NCT04609423: Cod Liver Oil for Covid-19 Prevention Study", "url": "https://clinicaltrials.gov/study/NCT04609423", "source": "ClinicalTrials.gov", "year": 2020, "type": "trial" },
-    { "id": 10, "title": "NCT01482689: Bioavailability of Vitamin D in Cod Liver Oil and Multivitamin Tablets in Healthy Subjects in Norway", "url": "https://clinicaltrials.gov/study/NCT01482689", "source": "ClinicalTrials.gov", "year": 2005, "type": "trial" },
-    { "id": 11, "title": "NCT04477395: Omega-3 Polyunsaturated Fatty Acids in Non-surgical Treatment of Periodontitis", "url": "https://clinicaltrials.gov/study/NCT04477395", "source": "ClinicalTrials.gov", "year": 2017, "type": "trial" }
+  [
+   "Vitamin D per tablespoon",
+   "About 34 micrograms / 1,360 IU[1]"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Cod_liver_oil", "title": "Cod liver oil (Wikipedia)" },
-    { "url": "https://en.wikipedia.org/wiki/Hypervitaminosis_A", "title": "Hypervitaminosis A (Wikipedia)" }
+  [
+   "Extraction method",
+   "Moller process (devised 1850); modern cold flotation and pressure methods[1]"
   ],
-  "card": {
-    "summary": "A traditional vitamin A, D and omega-3 oil with a long medical history; no appearance trials, and its vitamin A content is the main safety issue.",
-    "aka": "CLO",
-    "evidence": "unproven",
-    "status": "otc",
-    "risk": "moderate",
-    "note": "One tablespoon exceeds the adult upper limit for vitamin A and far exceeds limits for young children.",
-    "structure": null
+  [
+   "Forms",
+   "Liquid, capsules, fermented products; topical petrolatum blends[7]"
+  ],
+  [
+   "Historic role",
+   "Rickets prevention in northern Europe and the US into the 1950s[1]"
+  ],
+  [
+   "Main safety issue",
+   "Excess preformed vitamin A (hypervitaminosis A)[1][24]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Composition",
+   "paras": [
+    "Cod liver oil is roughly 20% omega-3 by composition and has higher vitamin A and D levels than other fish oils with similar fatty-acid profiles.[1] Vitamin content varies between products and batches, so labels differ, and purification steps reduce fatty-acid oxidation and environmental contaminants.[1]",
+    "The fatty acids EPA and DHA are the same marine omega-3s found in fish body oil. A 2010 controlled trial compared the bioavailability of several marine n-3 formulations, including cod liver oil and fish body oil, against placebo oil.[19] A 2008 controlled study compared cod liver oil with sun beds as ways of raising vitamin D status.[18]"
+   ]
   },
-  "quick": {
-    "overview": "Cod liver oil is a fish-liver supplement supplying omega-3 fats plus vitamins A and D. It has a long history as a folk and bottled remedy and helped lead to the discovery of vitamins A and D.\n\nNo trial was found testing it for appearance outcomes. Human studies have looked at blood lipids, platelet function and childhood outcomes instead.",
-    "mechanism": "EPA and DHA are incorporated into blood and cell lipids with supplementation, as one human study reported. Vitamin D supports bone mineralisation, and its use against rickets is the best-documented historical effect.",
-    "risks": "Vitamin A accumulates in the liver, and Wikipedia reports a tablespoon exceeds the adult tolerable upper limit and children's limits several-fold. Excess preformed vitamin A can cause nausea, skin peeling, bone pain and liver damage."
+  {
+   "h": "How it is used for appearance",
+   "paras": [
+    "The appearance rationale is nutritional. Vitamin A is converted in the body to retinoic acid, which helps maintain epithelial tissue and mucosa and influences the skin's innate immune response; the retinoid drugs used for acne, tretinoin and isotretinoin, act on the same receptors in keratinocytes.[24] Forum users who take the oil for skin or general health draw on this reasoning, though they are taking dietary retinol rather than a prescription retinoid.",
+    "Vitamin D is taken for bone and for general health, and cod liver oil is a classic dietary source of it. Posters on T Nation list a daily spoonful or a couple of grams of the oil next to D3, fish oil, magnesium and multivitamins, usually described as part of a recovery and health routine for lifters.[12][13][28] One poster mentions buying a premium bottled brand by the tablespoon.[27]",
+    "One small clinical example connects the oil to skin outcomes directly: a 2013 randomised trial in 60 patients taking isotretinoin for acne compared oral vitamin E with cod liver oil capsules for the dryness and other skin complications of the drug.[25]"
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Northern European communities applied the oil to skin and took it orally for rheumatism and gout.[1] From the 1820s German researchers noted that children given the oil did not develop rickets, and the practice had spread to other countries by the 1860s.[1] It was sold in the US as a patent medicine for children and was praised in medical journals by the end of the century; nineteenth-century journals carried articles on the oil as a treatment.[1][15][16]",
+    "Peter Moller, a Norwegian pharmacist, devised a steam extraction process in 1850 that made the oil more palatable than the dark, often rancid, product made by letting livers rot in barrels.[1][2] In 1899 London surgeon John Bland-Sutton added cod liver oil to the diet of lion cubs at the London Zoo as part of efforts to stop rickets-like deaths.[1]",
+    "In 1914 Elmer McCollum and Marguerite Davis identified what became vitamin A, and in 1922 McCollum showed that oil with its vitamin A destroyed could still cure rickets in dogs, leading him to name a separate factor vitamin D.[1] A 2022 review of rickets history notes that Sniadecki advocated sunshine exposure in 1822 while British physicians advocated cod liver oil, that both approaches succeeded, and that the antirachitic agent in the oil was vitamin D.[14] Advertisers marketed the oil as 'bottled sunshine'.[1]",
+    "Giving children the oil to prevent rickets continued in northern Europe and the US into the 1950s, overlapping with vitamin D fortification of milk that began in the early 1930s; synthetic vitamin supplements then reduced its popularity.[1][2] A 2012 Danish review notes that preventive administration of cod liver oil and vitamin D supplementation made nutritional rickets rare.[26]"
+   ]
+  },
+  {
+   "h": "Production",
+   "paras": [
+    "Grades range from pale straw-coloured oil for human consumption with a mild flavour to cheaper brown oil, which was common in the 1800s and often caused intestinal upset when rancid.[1] Scandinavian Vikings are reported to have steamed livers over boiling water; the Moller process grinds livers into a slurry with water, simmers it gently, then skims and purifies the oil; modern methods include cold flotation, pressure extraction and pressure cooking, all followed by purification.[1]"
+   ]
+  },
+  {
+   "h": "Uses and evidence",
+   "paras": [
+    "Wikipedia reports that the oil's omega-3 content may make it useful for secondary prevention after a heart attack, that diets with the oil showed benefit for psoriasis in a 2005 study, and that daily supplementation was associated with lower rates of severe depression in the 2007 Hordaland Health Study, an observational association.[1] A topical product containing petrolatum and cod liver oil is labelled in the US to protect minor cuts, scrapes, burns and chapped skin.[7]",
+    "Grokipedia notes mixed evidence for cardiovascular benefit and that some studies suggest possible increased atrial fibrillation or stroke risk in healthy populations; it is an AI-generated source and the claim is reported here as stated there.[2]",
+    "Studies from the 1980s described how the oil alters platelet function and eicosanoid formation, linking its EPA and DHA to circulatory effects.[3]"
+   ]
+  },
+  {
+   "h": "Fermented cod liver oil and diet culture",
+   "paras": [
+    "In ancestral and traditional-food diet circles, cod liver oil is one of the signature supplements. The Weston A. Price Foundation, founded in 1999 by Sally Fallon Morell and Mary Enig, recommends traditional fats including cod liver oil, and its framework descends from dentist Weston Price's 1939 book Nutrition and Physical Degeneration.[22][23] Price (1870-1948) argued that processed foods such as refined flour, sugar and processed vegetable fats lead to poor dental development, including facial structure that fails to make room for the teeth.[23] That idea of nutrition shaping facial development is one reason the oil appears in discussions of jaw and facial structure.",
+    "Reviewers have criticised Price's work and the foundation. William Jarvis in 1981 called Price's approach an example of the myth of the healthy savage, and Harriet Hall wrote a 2015 critique in Science-Based Medicine; Price's defenders credit him with early cross-cultural observation of diet and dental health.[22][23] Contemporary reviewers of the book were divided, with some praising it and others saying its conclusions went beyond the evidence.[23]"
+   ]
+  },
+  {
+   "h": "Safety and adverse effects",
+   "paras": [
+    "Vitamin A accumulates in the liver, and excess preformed vitamin A causes hypervitaminosis A.[1] One tablespoon contains about 136% of the adult tolerable upper limit, 680% of the limit for ages 1 to 3 and 453% for ages 4 to 8, and a teaspoon daily exceeds the limit for children aged 1 to 8.[1] Symptoms of hypervitaminosis A include nausea, headache, skin peeling, bone pain and liver damage.[1][6]",
+    "The US Institute of Medicine's 2001 upper limit for preformed vitamin A is 3,000 micrograms per day for adults, and intake of retinol above about 4,500 micrograms per day in pregnancy, especially the first trimester, has been associated with birth defects; the 3,000 microgram limit for women of reproductive age was derived from that threshold. Chronic toxicity has followed months of high intake, and its signs reverse after intake stops.[24] Prescription retinoids carry separate boxed pregnancy warnings.[24]",
+    "Because vitamin A is fat soluble and stored, people who combine cod liver oil with multivitamins, liver or retinoid drugs add up several sources. Forum posters themselves sometimes recommend choosing a quality product and checking vitamin D levels rather than taking large amounts.[13]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found testing cod liver oil for appearance outcomes such as skin, hair or facial features. Human studies of the oil for other outcomes include a 1985 study in six volunteers supplemented for five months, which found incorporation of EPA and DHA into plasma, platelet and red-cell phospholipids and lowered triglycerides,[3] and a 1981 study in healthy young men on blood lipids and haemostasis.[4] A population-based case-control study reported that cod liver oil use in the first year of life was associated with lower risk of childhood-onset type 1 diabetes, and a 2000 study associated use in pregnancy with lower risk in offspring.[5][21] A 1986 New England Journal of Medicine study reported inhibition of atherosclerosis in a swine model, which is animal research.[8]",
+    "A 2003 trial in Pediatrics found that maternal very-long-chain n-3 fatty acid supplementation during pregnancy and lactation, using cod liver oil, was associated with higher child IQ at age 4.[20]",
+    "A quadruple-blind randomised placebo-controlled trial published in the BMJ in 2022 tested cod liver oil, as a low-dose vitamin D supplement, for preventing covid-19 and other acute respiratory infections; it corresponds to a registered phase 4 study that enrolled 47,210 people from November 2020.[17][9] Other registered studies cover vitamin D bioavailability from the oil and multivitamin tablets in Norway and omega-3 fatty acids in periodontitis.[10][11] A 2013 randomised trial in 60 isotretinoin patients compared vitamin E with cod liver oil capsules for dermal complications.[25]"
+   ]
   }
+ ],
+ "timeline": [
+  {
+   "year": "1820s",
+   "event": "German researchers begin noting that children given cod liver oil do not develop rickets.[1]"
+  },
+  {
+   "year": "1822",
+   "event": "Sniadecki advocates sunshine for rickets while British physicians promote cod liver oil; both succeed.[14]"
+  },
+  {
+   "year": "1850",
+   "event": "Peter Moller devises the steam extraction process for cod liver oil.[1]"
+  },
+  {
+   "year": "1899",
+   "event": "John Bland-Sutton uses cod liver oil in the diet of lion cubs at the London Zoo.[1]"
+  },
+  {
+   "year": "1914",
+   "event": "Elmer McCollum and Marguerite Davis identify what becomes known as vitamin A.[1]"
+  },
+  {
+   "year": "1922",
+   "event": "McCollum shows the rickets-curing factor is distinct and names it vitamin D.[1]"
+  },
+  {
+   "year": "1930s",
+   "event": "Vitamin D fortification of cow's milk begins in the US, overlapping with routine cod liver oil dosing.[1]"
+  },
+  {
+   "year": "1939",
+   "event": "Weston Price publishes Nutrition and Physical Degeneration, later central to the Weston A. Price Foundation's diet.[23]"
+  },
+  {
+   "year": "1999",
+   "event": "Sally Fallon and Mary Enig found the Weston A. Price Foundation, which recommends cod liver oil among traditional fats.[22]"
+  },
+  {
+   "year": "2020",
+   "event": "A large trial of cod liver oil for covid-19 prevention begins; the BMJ report follows in 2022.[9][17]"
+  }
+ ],
+ "lore": {
+  "intro": "On T Nation training and TRT threads, cod liver oil appears in supplement lists, usually as a source of vitamin D3 and vitamin A with omega-3s, and in traditional-food circles it is a staple recommendation.[12][13][28][22]",
+  "claims": [
+   {
+    "claim": "It is a convenient single source of vitamins A and D plus omega-3s",
+    "believers": "Posters say they take it for D3 and vitamin A together with fish oil and magnesium, and one describes buying a premium bottled brand by the tablespoon.[28][27]",
+    "experts": "Wikipedia reports that a tablespoon provides about 4,080 micrograms of vitamin A and 34 micrograms of vitamin D, and that a tablespoon exceeds the adult tolerable upper intake for vitamin A.[1]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "It supports skin, hormone and recovery health",
+    "believers": "Forum users include it in lists of foods and supplements they take for recovery and general health.[12][13]",
+    "experts": "Vitamin A is involved in maintaining epithelial tissue and skin immunity.[24] No trial has tested cod liver oil for appearance outcomes such as skin or hair.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Traditional-diet foods like cod liver oil support facial and dental development",
+    "believers": "Weston Price followers cite his 1939 observations that diets rich in traditional foods went with well-formed dental arches.[22][23]",
+    "experts": "Reviewers including William Jarvis in 1981 said Price lacked quantitative dietary analysis and overlooked other explanations.[23]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "It is a good way to get vitamin D",
+    "believers": "Posters pair it with D3 capsules in daily routines.[12][13]",
+    "experts": "Cod liver oil was historically a rich vitamin D source and helped prevent rickets, and studies have compared it with sun beds and multivitamin tablets as vitamin D sources.[14][18][10]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Large amounts of vitamin A are a concern",
+    "believers": "Some posters recommend a quality product and checking vitamin D levels rather than taking large amounts.[13]",
+    "experts": "Excess preformed vitamin A accumulates in the liver and causes hypervitaminosis A with nausea, headache, skin peeling, bone pain and liver damage.[1][6]",
+    "evidence": "harms"
+   },
+   {
+    "claim": "It protects the heart and joints through omega-3s",
+    "believers": "Longtime users describe it as a general-health oil.[27]",
+    "experts": "Wikipedia reports possible benefit for secondary prevention after a heart attack, while Grokipedia notes mixed cardiovascular evidence and a possible atrial fibrillation signal in healthy people.[1][2]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Cod liver oil",
+   "url": "https://en.wikipedia.org/wiki/Cod_liver_oil",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Cod liver oil",
+   "url": "https://grokipedia.com/page/Cod_liver_oil",
+   "source": "Grokipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Long-term effects of dietary marine omega-3 fatty acids upon plasma and cellular lipids, platelet function, and eicosanoid formation in humans.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2997286/",
+   "source": "Journal of Clinical Investigation",
+   "year": 1985,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Effect on blood lipids and haemostasis of a supplement of cod-liver oil in healthy young men.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6266735/",
+   "source": "Clinical Science",
+   "year": 1981,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Use of cod liver oil during the first year of life is associated with lower risk of childhood-onset type 1 diabetes.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14668274/",
+   "source": "American Journal of Clinical Nutrition",
+   "year": 2003,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Hypervitaminosis A",
+   "url": "https://en.wikipedia.org/wiki/Hypervitaminosis_A",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 7,
+   "title": "Petrolatum, cod liver oil topical (DailyMed)",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fc9211db-71aa-44d8-a00b-65f1482d3981",
+   "source": "DailyMed",
+   "year": 2024,
+   "type": "label"
+  },
+  {
+   "id": 8,
+   "title": "Inhibition of atherosclerosis by cod-liver oil in a hyperlipidemic swine model.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/3748103/",
+   "source": "New England Journal of Medicine",
+   "year": 1986,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "NCT04609423: Cod Liver Oil for Covid-19 Prevention Study",
+   "url": "https://clinicaltrials.gov/study/NCT04609423",
+   "source": "ClinicalTrials.gov",
+   "year": 2020,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "NCT01482689: Bioavailability of Vitamin D in Cod Liver Oil and Multivitamin Tablets in Healthy Subjects in Norway",
+   "url": "https://clinicaltrials.gov/study/NCT01482689",
+   "source": "ClinicalTrials.gov",
+   "year": 2005,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "NCT04477395: Omega-3 Polyunsaturated Fatty Acids in Non-surgical Treatment of Periodontitis",
+   "url": "https://clinicaltrials.gov/study/NCT04477395",
+   "source": "ClinicalTrials.gov",
+   "year": 2017,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "Decimation Food Log",
+   "url": "https://t-nation.com/t/decimation-food-log/232368",
+   "source": "T Nation",
+   "year": 2017,
+   "type": "forum"
+  },
+  {
+   "id": 13,
+   "title": "Layman' Training Log/Diary",
+   "url": "https://t-nation.com/t/layman-training-log-diary-bodybuilding-red-pill-blue-pill/263454",
+   "source": "T Nation",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 14,
+   "title": "Rickets, Vitamin D, and Ca/P Metabolism",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36446330/",
+   "source": "Hormone Research in Paediatrics",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 15,
+   "title": "Cod-Liver Oil",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38120587/",
+   "source": "Medical Examiner",
+   "year": 1847,
+   "type": "article"
+  },
+  {
+   "id": 16,
+   "title": "Cod-liver Oil",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38209513/",
+   "source": "Western Journal of Medicine and Surgery",
+   "year": 1849,
+   "type": "article"
+  },
+  {
+   "id": 17,
+   "title": "Prevention of covid-19 and other acute respiratory infections with cod liver oil supplementation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36215222/",
+   "source": "BMJ",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 18,
+   "title": "Sun beds and cod liver oil as vitamin D sources",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18417354/",
+   "source": "Journal of Photochemistry and Photobiology B",
+   "year": 2008,
+   "type": "trial"
+  },
+  {
+   "id": 19,
+   "title": "Bioavailability of marine n-3 fatty acid formulations",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20638827/",
+   "source": "Prostaglandins Leukotrienes and Essential Fatty Acids",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 20,
+   "title": "Maternal supplementation with very-long-chain n-3 fatty acids augments children's IQ at 4 years",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12509593/",
+   "source": "Pediatrics",
+   "year": 2003,
+   "type": "study"
+  },
+  {
+   "id": 21,
+   "title": "Use of cod liver oil during pregnancy associated with lower risk of type 1 diabetes in the offspring",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11043854/",
+   "source": "Diabetologia",
+   "year": 2000,
+   "type": "study"
+  },
+  {
+   "id": 22,
+   "title": "Weston A. Price Foundation",
+   "url": "https://en.wikipedia.org/wiki/Weston_A._Price_Foundation",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 23,
+   "title": "Weston Price",
+   "url": "https://en.wikipedia.org/wiki/Weston_Price",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 24,
+   "title": "Vitamin A",
+   "url": "https://en.wikipedia.org/wiki/Vitamin_A",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 25,
+   "title": "Efficacy of vitamin E to prevent dermal complications of isotretinoin",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24498826/",
+   "source": "Pakistan Journal of Biological Sciences",
+   "year": 2013,
+   "type": "trial"
+  },
+  {
+   "id": 26,
+   "title": "Rickets in Denmark",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22293055/",
+   "source": "Danish Medical Journal",
+   "year": 2012,
+   "type": "review"
+  },
+  {
+   "id": 27,
+   "title": "TRT 1 Year Update",
+   "url": "https://t-nation.com/t/trt-1-year-update/248064",
+   "source": "T Nation",
+   "year": 2018,
+   "type": "forum"
+  },
+  {
+   "id": 28,
+   "title": "More Questions than Answers",
+   "url": "https://t-nation.com/t/more-questions-than-answers/263594",
+   "source": "T Nation",
+   "year": 2019,
+   "type": "forum"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Cod_liver_oil",
+   "title": "Cod liver oil (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Hypervitaminosis_A",
+   "title": "Hypervitaminosis A (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Weston_A._Price_Foundation",
+   "title": "Weston A. Price Foundation (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Weston_Price",
+   "title": "Weston Price (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Vitamin_A",
+   "title": "Vitamin A (Wikipedia)"
+  }
+ ]
 }

@@ -1,18 +1,322 @@
 {
-"name":"Filtered / spring water",
-"lead":["Filtered or spring water is drinking water treated with a home filter or bought bottled from a spring, used by some people in place of tap water to avoid fluoride and chlorine.","Spring water is groundwater emerging naturally from an aquifer; its dissolved mineral content varies, and some springs contain arsenic above the WHO 10 ppb standard.[1] Tap water in developed countries is described as heavily tested, and bottled water is regulated as a packaged food in the US.[2] No published study was found testing filtered or spring water for facial appearance."],
-"infobox":[["Type","Water-source practice"],["Typical forms","Home filters, bottled spring water"],["Appearance claim","Not studied"],["Typical aim","Avoid fluoride, chlorine"]],
-"sections":[
-{"h":"Description","paras":["Minerals dissolve as water passes through rock, measured as total dissolved solids; mineral water is defined as at least 250 ppm.[1] Home filters include granular activated carbon, carbon block and membrane types.[3]","In the EU, mineral and spring water are separate categories under Directive 2009/54/EC, and in the US the label must state the water type.[2]"]},
-{"h":"Regulation and comparison with tap water","paras":["The FDA regulates bottled water as a packaged food with rules at least as strict as the EPA's tap water standards.[2] One Cincinnati study found bacterial counts in some bottled water above those in tap water, and a 2018 study reported microplastics in the large majority of bottled brands tested.[2] Bottled water costs far more per gallon, and some is municipal tap water.[2]"]},
-{"h":"Safety and risks","paras":["Springs are not always safe to drink and require testing.[1] A 2007 camp outbreak of giardiasis followed installation of a slow-sand filtration system containing unsterilised sand.[4]"]},
-{"h":"Use in looksmaxxing","paras":["Practitioners cite avoiding fluoride and chlorine as the motive. Water filters on the sources reviewed are not described as removing fluoride or chlorine, and published research on appearance outcomes was not found."]},
-{"h":"Clinical studies","paras":["No studies found on filtered or spring water for facial appearance. A laboratory study of human skin biopsies reported regenerative effects of one specific spring water (Comano) on wound healing ex vivo, which concerns that water applied to skin, not drinking.[5]"]}
-],
-"timeline":[{"year":"1622","event":"Bottling begins at Holy Well, Malvern, UK.[2]"},{"year":"1977","event":"Perrier launched in the US.[2]"}],
-"lore":null,
-"card":{"summary":"Drinking filtered or spring water to avoid fluoride and chlorine; tap water is heavily regulated and no appearance benefit is documented.","aka":null,"evidence":"unproven","risk":"low","note":"Spring water can contain arsenic; filters need maintenance.","price":null},
-"quick":{"overview":"Some people drink filtered or bottled spring water instead of tap water to avoid fluoride and chlorine.\n\nNo human study has tested it for skin or facial appearance.","mechanism":"Home filters (carbon, membrane) or bottled water from natural springs replace municipal supply.","risks":"Some springs contain arsenic, bottled water has been found to contain microplastics, and poorly maintained filters have been linked to outbreaks. Bottled water costs much more than tap."},
-"refs":[{"id":1,"title":"Spring (hydrology)","url":"https://en.wikipedia.org/wiki/Spring_water","source":"Wikipedia","year":2026,"type":"encyclopedia"},{"id":2,"title":"Bottled water","url":"https://en.wikipedia.org/wiki/Bottled_water","source":"Wikipedia","year":2026,"type":"encyclopedia"},{"id":3,"title":"Water filter","url":"https://en.wikipedia.org/wiki/Water_filter","source":"Wikipedia","year":2026,"type":"encyclopedia"},{"id":4,"title":"Giardiasis outbreak at a camp after installation of a slow-sand filtration water-treatment system","url":"https://pubmed.ncbi.nlm.nih.gov/20587126/","source":"Epidemiology and infection","year":2011,"type":"study"},{"id":5,"title":"Ex vivo regenerative effects of a spring water","url":"https://pubmed.ncbi.nlm.nih.gov/29188053/","source":"Biomedical reports","year":2017,"type":"study"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Spring_water","title":"Spring (hydrology)"},{"url":"https://en.wikipedia.org/wiki/Bottled_water","title":"Bottled water"},{"url":"https://en.wikipedia.org/wiki/Water_filter","title":"Water filter"}]
+ "name": "Filtered / spring water",
+ "lead": [
+  "Filtered or spring water is drinking water that has been treated with a home filter or bought as bottled spring water, used by some people in place of tap water. People who adopt the practice usually do so for skin, teeth and general health reasons, aiming to avoid fluoride, chlorine and other additives they associate with dull skin, dry hair or tooth discolouration [6][14].",
+  "Spring water is groundwater emerging naturally from an aquifer; its dissolved mineral content varies, and some springs contain arsenic above the WHO 10 ppb standard [1]. Tap water in developed countries is described as heavily tested, and bottled water is regulated as a packaged food in the US [2]. Fluoridation is the controlled addition of fluoride to public supplies to reduce tooth decay; its main documented cosmetic effect is mild dental fluorosis, which is the reason some people who care about tooth appearance look into filtering [6][10].",
+  "No published study was found testing filtered or spring water for facial appearance, though laboratory work has looked at the effects of a particular spring water applied to skin [5]. The topic overlaps with wider discussion of fluoride, chlorine, water hardness and mineral content, each of which has its own body of reference material."
+ ],
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "Replace tap water with filtered or spring water",
+   "Reduce exposure to fluoride, chlorine or other tap-water constituents depending on the filter",
+   "Intended result: clearer skin, whiter teeth, healthier hair as practitioners describe it"
+  ],
+  "effect": "claimed",
+  "text": "Practitioners describe swapping tap water for filtered or bottled spring water as a way to avoid fluoride and chlorine, believing this helps skin, teeth and hair look better. The size of any appearance effect has not been measured in published studies."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Water-source practice"
+  ],
+  [
+   "Typical forms",
+   "Home filters (carbon, ceramic, membrane, reverse osmosis), bottled spring water [3][11]"
+  ],
+  [
+   "Typical aim",
+   "Avoid fluoride, chlorine"
+  ],
+  [
+   "Appearance claim",
+   "Skin, teeth and hair; not studied in published trials"
+  ],
+  [
+   "Mineral water threshold",
+   "At least 250 ppm total dissolved solids [1][12]"
+  ],
+  [
+   "WHO arsenic guideline",
+   "10 ppb [1]"
+  ],
+  [
+   "WHO fluoride guideline",
+   "Upper limit 1.5 mg/L; US recommended level 0.7 mg/L [6][14]"
+  ],
+  [
+   "Bottled water regulator (US)",
+   "FDA, with rules at least as strict as EPA tap standards [2]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Minerals dissolve as water passes through rock, measured as total dissolved solids; the FDA defines mineral water as containing at least 250 ppm with no minerals added, while EU rules allow bottling at the source with only limited treatments and do not allow added minerals or disinfectants [1][12]. Wikipedia lists spring, mineral, purified, sparkling, artesian, well, alkaline, fluoridated and sterile water among bottled-water categories [2].",
+    "Home filters include granular activated carbon, carbon block, ceramic and microfiltration or ultrafiltration membrane units, and jug (pitcher) filters are used for small amounts of drinking water [3]. Reverse osmosis units treat water for drinking and cooking and, according to the CDC as summarised on Wikipedia, can reduce fluoride, arsenic, nitrate and some minerals, with removal varying by system [11]. In the EU, mineral and spring water are separate categories under Directive 2009/54/EC, and in the US the label must state the water type [2]."
+   ]
+  },
+  {
+   "h": "History of bottled and mineral water",
+   "paras": [
+    "Mineral water has a long tradition of being drunk or bathed in at its source, a practice called taking the waters, at spas, baths and wells; today more than 4,000 brands are sold worldwide [12]. Bottling began in England at Holy Well, Malvern, in 1622, driven by the popularity of spa and water therapy, and Jackson's Spa in Boston sold the first commercially distributed water in America in 1767 [2]. Joseph Hawkins received the first US patent for imitation mineral water in 1809 [2].",
+    "Early twentieth-century chlorination reduced American demand for bottled water, though it stayed popular in Europe [2]. Continuous US chlorination for disinfection began in 1908 at the Boonton Reservoir supplying Jersey City, New Jersey, at about 0.2 to 0.35 ppm, and chlorine is used to kill bacteria, viruses and protozoa and prevent diseases such as cholera and typhoid [13]. Nathaniel Wyeth patented the PET bottle in 1973 and Perrier launched in the US in 1977; global consumption passed 3 billion hectolitres in 2014 and China overtook the US as the largest market in 2013 [2]."
+   ]
+  },
+  {
+   "h": "Regulation and comparison with tap water",
+   "paras": [
+    "The FDA regulates bottled water as a packaged food with rules at least as strict as the EPA's tap water standards [2]. One Cincinnati study found bacterial counts in some bottled water above those in tap water, and a 2018 study reported microplastics in the large majority of bottled brands tested [2]. A 1999 NRDC study found that about 22 percent of tested brands had at least one sample above strict state limits, and Arizona State University researchers reported in 2008 that storing bottles at 60 degrees Celsius or higher can release antimony [2]. Bottled water costs far more per gallon than tap, and some of it is municipal tap water that has been further treated [2].",
+    "Environmental concerns are also documented: producing one litre of bottled water takes about 1.32 litres of water, and Bundanoon in New South Wales (2009) and Concord, Massachusetts (2013) banned sales of bottled water [2]."
+   ]
+  },
+  {
+   "h": "Fluoride and appearance",
+   "paras": [
+    "Public-water fluoridation aims to reduce cavities. Grand Rapids, Michigan began fluoridating on 25 January 1945, results published in 1950 showed fewer cavities, and fluoridation became US Public Health Service policy by 1951 [6]. The WHO sets a guideline upper limit of 1.5 mg/L and says cavity protection begins around 0.5 mg/L, and the US recommended level is now 0.7 mg/L, lowered from a 1962 range of 0.7 to 1.2 mg/L that depended on climate (the change was proposed in 2011 and finalised in 2015) [6][14]. The CDC calls fluoridation a cornerstone strategy for preventing cavities and says drinking fluoridated water reduces cavities by about 25 percent in children and adults [14].",
+    "The chief appearance-related effect described is dental fluorosis, which arises mainly in early childhood (about ages 1 to 4) and is mostly mild [6][10]. It ranges from faint white flecks to brown staining and pitting in severe cases, and treatment options listed include bleaching for mild cases, microabrasion for moderate and composite fillings, veneers or crowns for severe cases [10]. In the US, about 20 percent of people have very mild or mild fluorosis, about 2 percent moderate and under 1 percent severe [6]. A 2015 Cochrane review estimated about 12 percent of people at 0.7 mg/L would have fluorosis of aesthetic concern, rising to about 40 percent counting all levels, and estimated cavity reductions of 35 percent in baby teeth and 26 percent in permanent teeth in children, although it rated the evidence as low quality [6].",
+    "Public-health bodies including the WHO and CDC endorse fluoridation at recommended levels, while opponents argue the benefit is small or that other health concerns apply; Finland, Germany, Japan, the Netherlands and Switzerland have discontinued it, and about 72 percent of Americans drank fluoridated water in 2022 [6]. Whether a given home filter removes fluoride varies by type: carbon-based filters and membrane or reverse osmosis systems work by different mechanisms [3][11]."
+   ]
+  },
+  {
+   "h": "Chlorine, hardness and minerals",
+   "paras": [
+    "Chlorine is the usual disinfectant in public supplies [13]. Home carbon filters are commonly marketed for taste, and published descriptions of filter types address contaminant removal rather than skin or hair outcomes [3].",
+    "Water hardness, the concentration of dissolved calcium and magnesium, is a separate topic. Wikipedia says hard water makes soap lather poorly and leave soap scum, that hard drinking water may increase the prevalence of atopic dermatitis (eczema) in children, and that a home water softener does not reduce symptom severity once eczema is established; the WHO is quoted as saying there is no convincing evidence that water hardness causes adverse health effects [9]. A WHO review linked harder water to slightly lower cardiovascular mortality, and mineral content varies widely between bottled brands, with one study finding North American mineral waters had lower median mineral content than tap water [12].",
+    "Reverse osmosis removes beneficial minerals such as calcium and magnesium along with contaminants, and desalinated water is often remineralised; some low-quality studies link long-term consumption of very low-mineral water to health effects [11]. Household units typically send roughly 3 to 25 litres to waste for every litre of usable water, and India's National Green Tribunal proposed restricting them where total dissolved solids are below 500 mg/L [11]."
+   ]
+  },
+  {
+   "h": "Safety and risks",
+   "paras": [
+    "Springs are not always safe to drink and require testing [1]. A 2007 camp outbreak of giardiasis followed installation of a slow-sand filtration system containing unsterilised sand; showering was associated with illness in the retrospective cohort [4]. Poorly maintained portable and ceramic filters have their own upkeep needs: fine meshes must be replaced or cleaned and clogged ceramic surfaces abraded [3]. Portable filters target bacteria and protozoa but not viruses, which require disinfection [3]."
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing",
+   "paras": [
+    "Practitioners cite avoiding fluoride and chlorine as the motive, sometimes pairing filtered water with other lifestyle and skincare routines. They describe goals such as better skin and teeth; no published study has measured the appearance effect of switching water sources in people.",
+    "Mineral content differs between spring waters, and researchers have examined at least one (Comano) on skin biopsies [5]. A dermocosmetic trial studied a product containing salicylic acid, niacinamide and thermal spring water alongside benzoyl peroxide in mild to moderate acne, but it tests a topical product rather than drinking water [7]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found on filtered or spring water for facial appearance. A laboratory study of human skin biopsies reported regenerative effects of one specific spring water (Comano) on wound healing ex vivo, which concerns water applied to skin, not drinking [5]. A randomised double-blind study of a salicylic acid, niacinamide and thermal spring water dermocosmetic in acne also concerned a topical product [7]. Related population research on drinking water is about disease rather than looks, for example a 2022 meta-analysis of water, sanitation and hygiene interventions and childhood diarrhoea [8]."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1622",
+   "event": "Bottling begins at Holy Well, Malvern, UK [2]."
+  },
+  {
+   "year": "1767",
+   "event": "Jackson's Spa in Boston sells the first commercially distributed bottled water in America [2]."
+  },
+  {
+   "year": "1908",
+   "event": "Continuous US water chlorination begins at the Boonton Reservoir for Jersey City [13]."
+  },
+  {
+   "year": "1945",
+   "event": "Grand Rapids, Michigan begins fluoridating its water [6]."
+  },
+  {
+   "year": "1951",
+   "event": "Fluoridation becomes official US Public Health Service policy [6]."
+  },
+  {
+   "year": "1973",
+   "event": "Nathaniel Wyeth patents the PET bottle [2]."
+  },
+  {
+   "year": "1977",
+   "event": "Perrier launches in the US [2]."
+  },
+  {
+   "year": "2007",
+   "event": "A California camp giardiasis outbreak follows installation of a slow-sand filtration system [4]."
+  },
+  {
+   "year": "2015",
+   "event": "US recommended fluoride level set at 0.7 mg/L, down from 1.2 mg/L; a Cochrane review estimates 12% fluorosis of aesthetic concern at 0.7 mg/L [6]."
+  },
+  {
+   "year": "2018",
+   "event": "A study reports microplastics in most bottled water brands tested [2]."
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Spring (hydrology)",
+   "url": "https://en.wikipedia.org/wiki/Spring_water",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Bottled water",
+   "url": "https://en.wikipedia.org/wiki/Bottled_water",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Water filter",
+   "url": "https://en.wikipedia.org/wiki/Water_filter",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Giardiasis outbreak at a camp after installation of a slow-sand filtration water-treatment system",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20587126/",
+   "source": "Epidemiology and infection",
+   "year": 2011,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Ex vivo regenerative effects of a spring water",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29188053/",
+   "source": "Biomedical reports",
+   "year": 2017,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Water fluoridation",
+   "url": "https://en.wikipedia.org/wiki/Water_fluoridation",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 7,
+   "title": "A Salicylic Acid-Based Dermocosmetic is Effective as an Adjunct to Benzoyl Peroxide for Mild to Moderate Acne and as Monotherapy in Maintenance Post Benzoyl Peroxide",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38051857/",
+   "source": "Journal of Drugs in Dermatology",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Effectiveness of interventions to improve drinking water, sanitation, and handwashing with soap on risk of diarrhoeal disease in children",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35780792/",
+   "source": "The Lancet",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "Hard water",
+   "url": "https://en.wikipedia.org/wiki/Hard_water",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 10,
+   "title": "Dental fluorosis",
+   "url": "https://en.wikipedia.org/wiki/Dental_fluorosis",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 11,
+   "title": "Reverse osmosis",
+   "url": "https://en.wikipedia.org/wiki/Reverse_osmosis",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 12,
+   "title": "Mineral water",
+   "url": "https://en.wikipedia.org/wiki/Mineral_water",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 13,
+   "title": "Water chlorination",
+   "url": "https://en.wikipedia.org/wiki/Water_chlorination",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 14,
+   "title": "About community water fluoridation",
+   "url": "https://www.cdc.gov/fluoridation/about/index.html",
+   "source": "US Centers for Disease Control and Prevention",
+   "year": 2025,
+   "type": "guideline"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Spring_water",
+   "title": "Spring (hydrology)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Bottled_water",
+   "title": "Bottled water"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Water_filter",
+   "title": "Water filter"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Water_fluoridation",
+   "title": "Water fluoridation (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Hard_water",
+   "title": "Hard water"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Dental_fluorosis",
+   "title": "Dental fluorosis"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Reverse_osmosis",
+   "title": "Reverse osmosis"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Mineral_water",
+   "title": "Mineral water"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Water_chlorination",
+   "title": "Water chlorination"
+  },
+  {
+   "url": "https://www.cdc.gov/fluoridation/about/index.html",
+   "title": "About community water fluoridation (CDC)"
+  }
+ ],
+ "card": {
+  "summary": "Drinking filtered or spring water to avoid fluoride and chlorine; tap water is heavily regulated and no appearance benefit is documented.",
+  "aka": null,
+  "evidence": "unproven",
+  "risk": "low",
+  "note": "Spring water can contain arsenic; filters need maintenance.",
+  "price": null
+ },
+ "quick": {
+  "overview": "Some people drink filtered or bottled spring water instead of tap water to avoid fluoride and chlorine.\n\nNo human study has tested it for skin or facial appearance.",
+  "mechanism": "Home filters (carbon, membrane) or bottled water from natural springs replace municipal supply.",
+  "risks": "Some springs contain arsenic, bottled water has been found to contain microplastics, and poorly maintained filters have been linked to outbreaks. Bottled water costs much more than tap."
+ }
 }

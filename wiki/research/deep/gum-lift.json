@@ -1,22 +1,308 @@
 {
-"name":"Gum lift",
-"lead":["A gum lift is the cosmetic term for reshaping the gumline to expose more of the tooth, a procedure that overlaps with crown lengthening [1][2]. Crown lengthening is a surgical procedure, usually performed by a periodontist, that exposes more tooth by removing some gum tissue and sometimes supporting bone [1].","It has functional uses, such as improving retention for a crown or reaching decay below the gumline, and aesthetic uses such as adjusting gum-to-tooth proportions in a gummy smile [1]. Cosmetic dentistry sources describe gum contouring as making teeth look longer or more even [2]. Wikipedia's crown lengthening article does not use the term gum lift [1].","Bone removal is irreversible, and the gum margin may gradually shift back toward the crown after surgery [1]. No trial in the registered set examined cosmetic gum lifts directly; registered gum-surgery trials concern recession coverage."],
-"infobox":[["Type","Gum reshaping / crown lengthening"],["Typically performed by","Periodontist"],["Approaches","Apically repositioned flap with bone reshaping; orthodontic extrusion"],["Main concern","Irreversible bone removal, gum margin may drift back"]],
-"sections":[
-{"h":"Description","paras":["The flap approach lifts the gum, reshapes bone at a more apical level and repositions the flap; it suits several teeth in one area rather than a single front tooth [1]. Forced eruption instead uses braces to move the tooth into position, preserving neighbouring bone but needing fixed appliances and more time [1]."]},
-{"h":"Uses","subs":[{"h":"Cosmetic / appearance uses","paras":["The procedure is used to alter gum and tooth proportions in a gummy smile [1]. Gum contouring is listed among cosmetic gum procedures alongside gum grafts and gingivectomy [2]."]},{"h":"Medical uses","paras":["Functional indications include improving crown retention and resistance, accessing decay below the gumline, perforations and external root resorption [1]."]}]},
-{"h":"Adverse effects","paras":["Removing bone weakens support for neighbouring teeth, worsens the crown-to-root ratio, and lost bone is described as almost impossible to restore, which may limit later implant options [1]. Flap surgery causes more postoperative pain for some patients, and restorations that encroach on the attachment tissue can lead to chronic inflammation, recession and bone loss [1]. Soreness usually resolves in one to two weeks [1]."]},
-{"h":"Clinical studies","paras":["No studies found for cosmetic gum lifts in the registered set. Related registered trials concern recession treatment, such as a coronally advanced tunnel technique with a collagen matrix in 36 participants (completed) and a comparison of a modified tunnel technique with a flap for Class III recessions (completed) [3][4]. A pilot study mentioned on Wikipedia found that starting prosthetic work at six weeks gave results comparable to 14 weeks after crown lengthening [1]."]}
-],
-"timeline":[],
-"lore":null,
-"refs":[
-{"id":1,"title":"Crown lengthening","url":"https://en.wikipedia.org/wiki/Crown_lengthening","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":2,"title":"Cosmetic dentistry","url":"https://en.wikipedia.org/wiki/Cosmetic_dentistry","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":3,"title":"Root Coverage for Gingival Recessions: Coronally Advanced Tunnel Technique and Novomatrix (NCT06719648)","url":"https://clinicaltrials.gov/study/NCT06719648","source":"ClinicalTrials.gov","year":2020,"type":"trial"},
-{"id":4,"title":"m-VISTA Technique vs. CAF in the Treatment of Class III Multiple Recessions (NCT03258996)","url":"https://clinicaltrials.gov/study/NCT03258996","source":"ClinicalTrials.gov","year":2017,"type":"trial"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Crown_lengthening","title":"Crown lengthening - Wikipedia"},{"url":"https://en.wikipedia.org/wiki/Cosmetic_dentistry","title":"Cosmetic dentistry - Wikipedia"}],
-"card":{"summary":"Reshaping the gumline, sometimes with bone, to show more tooth; evidence for cosmetic use is thin and bone removal is permanent.","aka":"Crown lengthening, gum contouring","evidence":"limited","risk":"moderate","note":"Removed bone cannot generally be restored.","price":null},
-"quick":{"overview":"A gum lift reshapes the gumline to expose more tooth, either for functional dental reasons or to rebalance a gummy smile. It is closely related to crown lengthening.\n\nNo registered trials directly study cosmetic gum lifts; published encyclopedic sources describe the technique and its trade-offs.","mechanism":"A periodontist lifts the gum, may reshape bone to a lower level and repositions the flap, or alternatively uses braces to extrude the tooth.","risks":"Bone removal is irreversible and can weaken neighbouring support and complicate implants; the gum margin may drift back toward the crown, and soreness typically lasts one to two weeks."}
+ "name": "Gum lift",
+ "lead": [
+  "A gum lift is the cosmetic term for reshaping the gumline so that more of the tooth shows, a procedure that overlaps with crown lengthening and gum contouring [1][2]. Crown lengthening is a surgical procedure, usually performed by a periodontist, that exposes more tooth by removing some gum tissue and sometimes supporting bone [1]. People seek it to make short-looking teeth appear longer, to even out an uneven gumline, or to reduce a gummy smile, so that the smile shows balanced tooth and gum proportions.",
+  "A gummy smile, or excessive gingival display, is commonly defined as more than about 2 mm of gum showing above the upper central incisors in a full smile, though there is no definitive standard [15]. Its causes include delayed passive eruption of the teeth, an overactive upper-lip elevator muscle, excessive vertical growth of the upper jaw, and over-eruption of the front teeth, and it affects about 10 percent of US adults aged 20 to 30 and is more common in women [15]. Which treatment fits depends on the cause, and gum surgery is one of several options alongside orthodontics, botulinum toxin injections and fat grafting [15].",
+  "The procedure has functional uses, such as improving retention for a crown or reaching decay below the gumline, and aesthetic uses such as adjusting gum-to-tooth proportions when a smile shows a lot of gum [1][5]. Reviews of the periodontal literature say crown lengthening in the back of the mouth is thoroughly studied, while the esthetic version in the front teeth is still discussed among specialists and has no single agreed technique [6]. Bone removal is irreversible, and the gum margin may gradually shift back toward the crown after surgery [1]. In looksmaxxing discussion the topic appears mostly alongside lip lifts and gummy-smile correction [11]."
+ ],
+ "angle": {
+  "goal": "Smile / teeth",
+  "chain": [
+   "Gum tissue (and sometimes bone) is reshaped higher on the tooth",
+   "More of the tooth crown is visible",
+   "Teeth look longer and the gum-to-tooth proportion looks more balanced in a smile"
+  ],
+  "effect": "direct",
+  "text": "People use a gum lift to change how much tooth and gum show when they smile. By moving the gum margin up the tooth, the surgery lengthens the visible crown and can even out an uneven gumline, which patients and clinicians describe as a more balanced smile [1][2]."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Gum reshaping / crown lengthening"
+  ],
+  [
+   "Typically performed by",
+   "Periodontist"
+  ],
+  [
+   "Approaches",
+   "Apically repositioned flap with bone reshaping; gingivectomy; laser-assisted; orthodontic extrusion"
+  ],
+  [
+   "Typical healing",
+   "Soreness usually resolves in one to two weeks; tissue rebound of a fraction of a millimetre reported in studies [1][8]"
+  ],
+  [
+   "Main concern",
+   "Irreversible bone removal, gum margin may drift back"
+  ],
+  [
+   "Gummy smile definition",
+   "Commonly more than about 2 mm of gum above the upper central incisors in a full smile [15]"
+  ],
+  [
+   "Related options",
+   "Botulinum toxin, lip repositioning, orthodontics, upper-jaw surgery [15][11]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Surgical crown lengthening manipulates gum tissue, with or without removal of alveolar bone, to expose sound tooth structure by repositioning the gumline further down toward the root [3]. Reviews divide it into functional crown lengthening, which exposes decayed or fractured tooth for restorative purposes, and esthetic crown lengthening, usually done on the front teeth to lengthen short-looking teeth or refine an uneven gum contour [3].",
+    "The flap approach lifts the gum, reshapes bone at a more apical level and repositions the flap; it suits several teeth in one area rather than a single front tooth [1]. Where only the soft tissue is excessive, the gum may instead be trimmed (gingivectomy). Forced eruption instead uses braces to move the tooth into position, preserving neighbouring bone but needing fixed appliances and more time [1][12].",
+    "One cause treated with esthetic crown lengthening is altered passive eruption, in which the gum stays partly over the crown of fully erupted teeth so that they look short; trials of esthetic crown lengthening have enrolled patients with this condition [7][8]. Reviewers of the esthetic technique describe the practical questions surgeons face: what flap design to use, how much supporting bone to remove, where to place the flap margin at closure, and how to time the provisional restoration during healing [6]."
+   ]
+  },
+  {
+   "h": "Gummy smile: causes and options",
+   "paras": [
+    "Gum surgery suits some causes of a gummy smile and not others. Where teeth are partly covered by gum because of delayed passive eruption, or the gum is overgrown, reshaping the gum or crown lengthening addresses the cause directly [15][3]. Where the cause is an overactive upper lip, botulinum toxin A injected into the lip elevator muscles reduces upward lip movement and gum exposure, with an effect that lasts on average about six months [15]. Other options named in the literature are orthodontics and micro-autologous fat transplantation [15].",
+    "Looksmax.org users planning a lip lift, which shortens the distance between nose and upper lip, have raised gum display as a consideration, and one reply mentioned upward repositioning of the upper jaw by Le Fort 1 surgery as another route for a gummy smile [11]."
+   ]
+  },
+  {
+   "h": "Techniques",
+   "paras": [
+    "Apically repositioned flap with bone recontouring raises a gum flap, reshapes bone at a lower level and repositions the flap; it gives immediate tooth exposure and is typically used for several teeth in one area, and it is generally not recommended for a single front tooth [1]. Forced eruption uses braces to move the tooth coronally before gum and bone reshaping, preserving bone and gum of neighbouring teeth but needing fixed appliances and more time [1][12].",
+    "Gingivectomy, the oldest surgical approach in periodontal therapy, removes gum tissue and is used for cosmetic gum contouring where overgrowth rather than bone is the issue [16]. It can be done with a scalpel, with electrosurgery or with lasers. Reported advantages of lasers include a bloodless field, minimal pain and no need for a dressing, while electrosurgery reduces bleeding but can damage nearby tissue [16]. Gingivectomy is not suited to cases needing bone surgery [16]. Practitioners may treat teeth across the whole smile zone so the new gum outline looks harmonious, and higher smile lines are more common in women [16]."
+   ]
+  },
+  {
+   "h": "Uses",
+   "subs": [
+    {
+     "h": "Cosmetic / appearance uses",
+     "paras": [
+      "The procedure is used to alter gum and tooth proportions in a gummy smile or when teeth look short because of covering gum [1][3]. Gum contouring is listed among cosmetic gum procedures alongside gum grafts and gingivectomy [2]. Contemporary reviews say crown lengthening can give esthetic enhancement in the presence of delayed passive eruption [4]."
+     ]
+    },
+    {
+     "h": "Medical uses",
+     "paras": [
+      "Functional indications include improving crown retention and resistance, accessing decay below the gumline, perforations and external root resorption [1]. A related concept, the ferrule effect, concerns preserving a collar of tooth structure beneath a crown for mechanical stability, and crown lengthening can create that height when it is missing [5][4]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Biomechanical and biological considerations",
+   "paras": [
+    "Crown lengthening has to respect the supracrestal tissue attachment, formerly called biologic width, which averages about 2 mm but ranges from 0.75 to 4.33 mm; surgeons often remove enough bone to leave at least 3 mm of tooth and gum above the bone crest [1]. Restorations that invade the attachment can cause inflammation, recession and bone loss [1]. The ferrule effect, a collar of tooth structure around a crown, is another consideration [5][4]. Removing bone also changes the crown-to-root ratio of neighbouring teeth [1]."
+   ]
+  },
+  {
+   "h": "Effectiveness",
+   "paras": [
+    "A 2023 systematic review and meta-analysis of crown lengthening outcomes identified four controlled clinical trials with 182 surgical sites in 111 participants. It found no statistically significant change at three or six months in supracrestal tissue attachment, bone level or probing depth between treated and adjacent sites, although clinical attachment level favoured the untreated adjacent teeth at six months; the authors concluded that tissues were stable over time and that more evidence was needed [9].",
+    "Laser-assisted approaches have also been studied. In a randomised trial of 36 healthy patients with altered passive eruption, flap and flapless laser crown lengthening produced similar results, with a mean rebound of the gum margin of about a quarter of a millimetre over nine months in both groups; rebound was larger in people with a thick periodontal phenotype [8]."
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "paras": [
+    "Removing bone weakens support for neighbouring teeth, worsens the crown-to-root ratio, and lost bone is described as almost impossible to restore, which may limit later implant options [1]. Flap surgery causes more postoperative pain for some patients, and restorations that encroach on the attachment tissue can lead to chronic inflammation, recession and bone loss [1]. Soreness usually resolves in one to two weeks [1].",
+    "A consensus report on periodontal health notes that gums can be healthy on a reduced periodontium, for example after crown lengthening, which leaves a different baseline from untouched tissue [10].",
+    "Gingivectomy has its own reported issues, including postoperative pain, recurrence in some conditions and black triangles if soft tissue recedes [16]. Laser energy settings matter: animal studies suggest good healing at low energy while higher energy can cause scarring [16]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "The main human evidence is on crown lengthening generally. A 2023 meta-analysis of four controlled trials found stable periodontal tissues at three and six months [9]. A randomised trial of 16 patients with altered passive eruption compared conventional esthetic crown lengthening with a 3D-printed dual surgical guide; healing, pain and gingival margin stability did not differ, while operating time was shorter with the guide [7]. A 36-patient randomised trial compared open-flap and flapless laser esthetic crown lengthening and found similar outcomes and rebound [8].",
+    "No registered trial examines gum lifts marketed under that name. Registered gum-surgery trials concern recession coverage, such as a coronally advanced tunnel technique with a collagen matrix in 36 participants (completed) and a comparison of a modified tunnel technique with a flap for Class III recessions (completed) [13][14]. A pilot study mentioned on Wikipedia found that starting prosthetic work at six weeks gave results comparable to 14 weeks after crown lengthening [1]."
+   ]
+  },
+  {
+   "h": "In looksmaxxing communities",
+   "paras": [
+    "On looksmax.org, gum contouring comes up chiefly in discussions about lip lifts, which shorten the philtrum and can increase visible gum. One poster asked whether contouring the gums beforehand would prevent a gummy look after a lip lift; a reply said it could but was not ideal, suggested a smaller lip lift, and mentioned upward Le Fort 1 jaw surgery as another route for a gummy smile [11]."
+   ]
+  }
+ ],
+ "timeline": [],
+ "lore": {
+  "intro": "Gum contouring is discussed in looksmaxxing forums mainly as a companion to lip-lift surgery and as a way to treat a gummy smile [11].",
+  "claims": [
+   {
+    "claim": "Contouring the gums before a lip lift avoids a gummy smile afterward",
+    "believers": "A looksmax.org poster planning a lip lift worried it would show more gum and asked if contouring first would prevent that; a respondent said it could work [11].",
+    "experts": "Periodontal reviews describe crown lengthening as a periodontist-performed procedure whose esthetic version in front teeth has no single evidence-based technique, and note that removed bone cannot generally be restored [6][1]. No published study has tested contouring as a preparation for lip lift.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Upward jaw surgery (Le Fort 1) may be needed for an ideal smile in a gummy smile case",
+    "believers": "A forum reply said a Le Fort 1 impaction upward might be needed to reduce a gummy smile before a lip lift [11].",
+    "experts": "The literature on crown lengthening does not address jaw surgery for gummy smiles, so no comparison is available [1][3].",
+    "evidence": "untested"
+   },
+   {
+    "claim": "A gummy smile can be fixed without surgery on the gums.",
+    "believers": "Forum users planning lip lifts discuss gummy display as something to address through lip or jaw procedures rather than only gum work [11].",
+    "experts": "Reference summaries list botulinum toxin A (effect lasting on average about six months), orthodontics, gingivectomy and fat grafting as treatments, chosen according to cause [15].",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Crown lengthening",
+   "url": "https://en.wikipedia.org/wiki/Crown_lengthening",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Cosmetic dentistry",
+   "url": "https://en.wikipedia.org/wiki/Cosmetic_dentistry",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Clinical Considerations for Crown Lengthening: A Comprehensive Review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39628744/",
+   "source": "Cureus",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Contemporary crown-lengthening therapy: a review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20516094/",
+   "source": "Journal of the American Dental Association",
+   "year": 2010,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Ferrule effect: a literature review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22152612/",
+   "source": "Journal of Endodontics",
+   "year": 2012,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Crown lengthening and restorative procedures in the esthetic zone",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29493814/",
+   "source": "Periodontology 2000",
+   "year": 2018,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Treatment of excessive gingival display using conventional esthetic crown lengthening versus computer guided esthetic crown lengthening",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38461241/",
+   "source": "BMC Oral Health",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Laser-Assisted Esthetic Crown Lengthening: Open-Flap Versus Flapless",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35060967/",
+   "source": "International Journal of Periodontics & Restorative Dentistry",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Periodontal tissue changes after crown lengthening surgery: A systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37251724/",
+   "source": "Saudi Dental Journal",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 10,
+   "title": "Periodontal health and gingival diseases and conditions on an intact and a reduced periodontium: Consensus report of workgroup 1 of the 2017 World Workshop",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29926944/",
+   "source": "Journal of Periodontology",
+   "year": 2018,
+   "type": "guideline"
+  },
+  {
+   "id": 11,
+   "title": "Is gum contouring a way to avoid getting CharlieKirkMaxxed from lip lift?",
+   "url": "https://looksmax.org/threads/is-gum-contouring-a-way-to-avoid-getting-charliekirkmaxxed-from-lip-lift.1779713/",
+   "source": "looksmax.org",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 12,
+   "title": "Pre-prosthetic orthodontics",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31920273/",
+   "source": "Saudi Dental Journal",
+   "year": 2020,
+   "type": "review"
+  },
+  {
+   "id": 13,
+   "title": "Root Coverage for Gingival Recessions: Coronally Advanced Tunnel Technique and Novomatrix (NCT06719648)",
+   "url": "https://clinicaltrials.gov/study/NCT06719648",
+   "source": "ClinicalTrials.gov",
+   "year": 2020,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "m-VISTA Technique vs. CAF in the Treatment of Class III Multiple Recessions (NCT03258996)",
+   "url": "https://clinicaltrials.gov/study/NCT03258996",
+   "source": "ClinicalTrials.gov",
+   "year": 2017,
+   "type": "trial"
+  },
+  {
+   "id": 15,
+   "title": "Gummy smile",
+   "url": "https://en.wikipedia.org/wiki/Gummy_smile",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 16,
+   "title": "Gingivectomy",
+   "url": "https://en.wikipedia.org/wiki/Gingivectomy",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Crown_lengthening",
+   "title": "Crown lengthening - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Cosmetic_dentistry",
+   "title": "Cosmetic dentistry - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Gummy_smile",
+   "title": "Gummy smile"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Gingivectomy",
+   "title": "Gingivectomy"
+  }
+ ],
+ "card": {
+  "summary": "Reshaping the gumline, sometimes with bone, to show more tooth; evidence for cosmetic use is thin and bone removal is permanent.",
+  "aka": "Crown lengthening, gum contouring",
+  "evidence": "limited",
+  "risk": "moderate",
+  "note": "Removed bone cannot generally be restored.",
+  "price": null
+ },
+ "quick": {
+  "overview": "A gum lift reshapes the gumline to expose more tooth, either for functional dental reasons or to rebalance a gummy smile. It is closely related to crown lengthening.\n\nNo registered trials directly study cosmetic gum lifts; published encyclopedic sources describe the technique and its trade-offs.",
+  "mechanism": "A periodontist lifts the gum, may reshape bone to a lower level and repositions the flap, or alternatively uses braces to extrude the tooth.",
+  "risks": "Bone removal is irreversible and can weaken neighbouring support and complicate implants; the gum margin may drift back toward the crown, and soreness typically lasts one to two weeks."
+ }
 }

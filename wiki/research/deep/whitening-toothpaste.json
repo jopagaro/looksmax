@@ -1,9 +1,33 @@
 {
  "name": "Whitening toothpaste",
+ "card": {
+  "summary": "Everyday toothpaste with stain-lifting extras: it lightens surface stain in weeks, not the tooth's natural shade.",
+  "aka": null,
+  "evidence": "moderate",
+  "outcome": "temporary",
+  "price": null,
+  "note": "Highly abrasive formulas can wear enamel; effect stops when use stops."
+ },
+ "quick": {
+  "overview": "Whitening toothpaste uses polishing agents, stain-loosening chemicals, sometimes peroxide or a blue pigment, to make teeth look lighter.\n\nA systematic review cited by Wikipedia found nearly all such products reduce surface stain, but they do not change the natural colour of the tooth.",
+  "mechanism": "Mostly mechanical and chemical removal of surface stains, with some products adding peroxide or optical pigments.",
+  "risks": "Abrasivity (measured as RDA) can wear enamel with excessive use; peroxide products can demineralise teeth at high concentrations."
+ },
  "lead": [
-  "Whitening toothpaste is toothpaste marketed to make teeth look lighter, using mild abrasives, chemical stain-loosening agents, in some products peroxide, or optical agents such as blue covarine [1][2]. It is widely sold over the counter as a low-cost alternative to professional bleaching.",
-  "Research and reference sources generally describe the effect as removal or masking of surface (extrinsic) stains rather than a change in the natural tooth colour. Wikipedia reports that daily use typically takes two to four weeks to produce visible lightening and that a 2017 systematic review found nearly all whitening dentifrices reduced extrinsic stain [1]. A 2025 randomised crossover trial examined blue covarine toothpastes and tooth colour [3]."
+  "Whitening toothpaste is toothpaste marketed to make teeth look lighter, using mild abrasives, chemical stain-loosening agents, in some products low levels of peroxide, or optical agents such as blue covarine [1][2][8]. It is sold over the counter at low cost and is the most accessible entry point to the wider set of whitening options, which also include strips, rinses, trays and professional bleaching [8].",
+  "People use it to lift the surface stains from coffee, tea, red wine and tobacco that dull a smile. A lighter, cleaner-looking smile is among the most visible parts of facial presentation, and daily whitening toothpaste is a routine way to maintain it between or after other treatments. Wikipedia reports that twice-daily use typically takes two to four weeks to produce visible lightening [1].",
+  "Reference sources generally describe the effect as removal or masking of surface (extrinsic) stains rather than a change in the natural tooth colour [1]. A 2017 systematic review, as summarised by Wikipedia, found that nearly all whitening dentifrices reduced extrinsic stain, whether or not they contained a chemical whitening agent [1]. Wikipedia's tooth-whitening article says toothpastes can lighten teeth by one or two shades with continued use [8]. A 2025 randomised crossover trial examined blue covarine toothpastes and tooth colour [3]."
  ],
+ "angle": {
+  "goal": "Teeth colour / smile",
+  "chain": [
+   "Abrasives and stain-loosening agents lift surface stain",
+   "Teeth look lighter and cleaner within weeks",
+   "A brighter smile"
+  ],
+  "effect": "direct",
+  "text": "Whitening toothpaste lifts the coffee, tea, wine and tobacco stain that builds up on enamel, so teeth look lighter with everyday brushing. It is typically used as maintenance alongside or after stronger whitening treatments."
+ },
  "infobox": [
   [
    "Type",
@@ -11,60 +35,168 @@
   ],
   [
    "Mechanisms",
-   "Abrasion, stain-loosening agents, peroxide, optical agents [1][2]"
+   "Abrasion, stain-loosening agents, low-level peroxide, optical agents [1][2][8]"
   ],
   [
    "Typical onset",
-   "About 2 to 4 weeks [1]"
+   "About 2 to 4 weeks of twice-daily use [1]"
+  ],
+  [
+   "Typical shade change",
+   "One or two shades with continued use [8]"
   ],
   [
    "Targets",
-   "Surface stain; not intrinsic colour [1]"
+   "Surface (extrinsic) stain; not intrinsic colour [1]"
   ],
   [
-   "Safety metric",
-   "Relative dentin abrasivity (RDA) [1]"
+   "Abrasivity metric",
+   "Relative dentin abrasivity (RDA); under 250 regarded as safe for lifelong use by ANSI and the ADA [1]"
+  ],
+  [
+   "Retail peroxide limit (EU)",
+   "0.1% hydrogen peroxide [8]"
+  ],
+  [
+   "Related options",
+   "Strips, trays, rinses, in-office bleaching [8]"
   ]
  ],
  "sections": [
   {
    "h": "Description and active agents",
    "paras": [
-    "Abrasion is the main way any toothpaste removes stain, and whitening formulas may add polishing agents to lift it more effectively [1]. Some contain peroxide, the ingredient found in bleaching gels, while others use additives such as sodium tripolyphosphate to loosen stain [1]. Blue covarine products deposit a blue pigment intended to shift the apparent colour of the tooth surface [3]."
+    "Abrasion is the main way any toothpaste removes stain, and abrasives make up roughly 8 to 20 percent of a typical formula [1]. Whitening formulas may add polishing agents to lift stain more effectively [1]. Wikipedia's tooth-whitening article says whitening toothpastes contain more abrasives and detergents than regular ones and that some include low levels of carbamide or hydrogen peroxide, but not sodium hypochlorite bleach [8]. Silica is a commonly used abrasive, and baking soda is described as a low-abrasive option that buffers acid and has shown no reported adverse effects in clinical studies [8].",
+    "Chemical agents such as sodium tripolyphosphate are used to break down or dissolve stain without relying on scrubbing [1]. Blue covarine products deposit a thin blue pigment intended to shift the apparent colour of the tooth surface toward white [3]. Mica is sometimes added to toothpaste as a mild abrasive and for a cosmetic shimmer [1]. Some toothpastes contain hydroxyapatite, a mineral form of tooth enamel studied mainly for caries prevention [6][7].",
+    "Charcoal has been added to some toothpastes. Wikipedia reports that the American Dental Association does not recommend charcoal toothpaste and that evidence on its safety and effectiveness is lacking [1]."
+   ]
+  },
+  {
+   "h": "Causes of discolouration",
+   "paras": [
+    "A review of natural whitening explains that substances from tea, coffee, food dyes and tobacco smoke, as well as antibiotics such as tetracycline, can percolate into the porous structure of enamel, and that ageing exposes yellow dentin as enamel wears [2]. Surface stains respond to polishing and chemical lifting; deeper intrinsic discolouration is the target of peroxide bleaching [1][8]. Wikipedia notes that bleaching tends to work least well on grey teeth and on tetracycline staining, which can need prolonged treatment [8]."
    ]
   },
   {
    "h": "Effectiveness",
    "paras": [
-    "Toothpaste is reported to remove surface stains only and not to reverse discolouration from within the tooth [1]. A review of natural whitening approaches states that stains from tea, coffee, tobacco, food dyes and antibiotics such as tetracycline contribute to discolouration and that high-concentration peroxide whiteners can demineralise teeth if used excessively [2]. An in situ randomised study compared the whitening effect of different toothpastes on bovine enamel [4]."
+    "Toothpaste is reported to remove surface stains and not to reverse discolouration from within the tooth [1]. Wikipedia's whitening article describes toothpastes as lightening teeth by one or two shades with continued use. By comparison, strips used twice daily for 14 days give a similar change within several days, trays can show results in about three days, and in-office bleaching can lift shade by 2 to 7 shades [8].",
+    "A review of natural whitening approaches states that high-concentration peroxide whiteners can deproteinize and demineralize teeth through oxidation if used excessively, while describing natural ingredients as lightening teeth without eroding surfaces [2]. An in situ randomised study compared the whitening effect of different toothpastes on bovine enamel [4]."
+   ]
+  },
+  {
+   "h": "Whitening toothpaste within the wider whitening toolkit",
+   "paras": [
+    "Whitening toothpaste is usually positioned as a low-intensity, daily option. Peroxide gels in trays, strips and rinses act by releasing free radicals that break pigment molecules into smaller ones that reflect less light, while peroxyacid products are described as an alternative route that avoids free radical formation [8]. Wikipedia reports that light activation of in-office gels has not been shown to improve results clearly [8].",
+    "Wikipedia also notes that a large share of the colour change from an intensive in-office session can fade within the first week, largely through tooth rehydration, which is one reason some people follow professional treatment with maintenance products such as whitening toothpaste [8]."
    ]
   },
   {
    "h": "Safety",
    "paras": [
-    "Abrasive toothpastes are rated by relative dentin abrasivity; a value below 250 is considered safe for lifelong use by ANSI and the ADA according to Wikipedia, and values above that may damage tooth surfaces [1]. Excessive use is described as potentially harmful to enamel [1]. A Cochrane review separately examines fluoride toothpaste for caries prevention [5], and a 18-month trial compared a fluoride-free hydroxyapatite toothpaste with 1450 ppm fluoride toothpaste in adults [6]."
+    "Abrasive toothpastes are rated by relative dentin abrasivity; a value below 250 is considered safe for lifelong use by ANSI and the ADA according to Wikipedia, and values above that may damage tooth surfaces [1]. Wikipedia describes whitening toothpaste as generally safe for daily use, while noting that excessive use may damage enamel [1].",
+    "Sensitivity is the main side effect of whitening products in general; potassium nitrate and sodium fluoride in toothpastes can ease it [8]. Peroxide products can also irritate gums, and Wikipedia reports that sensitivity after in-office hydrogen peroxide treatment has been recorded in roughly two-thirds to three-quarters of patients [8]. Wikipedia also describes \"bleachorexia\", an obsessive pattern of repeated whitening that resembles body dysmorphic disorder [8].",
+    "A Cochrane review separately examines fluoride toothpaste for caries prevention, and an 18-month trial compared a fluoride-free hydroxyapatite toothpaste with 1450 ppm fluoride toothpaste in adults [5][6]. Wikipedia reports that the 2019 Cochrane review found concentrations below 1,000 ppm unlikely to prevent decay [1]."
+   ]
+  },
+  {
+   "h": "Regulation and market",
+   "paras": [
+    "In the EU, retail whitening products are limited to 0.1% hydrogen peroxide, with up to 6% allowed only under professional supervision to patients aged 18 or older; the US FDA endorses gels under 6% hydrogen peroxide or up to 16% carbamide peroxide, according to Wikipedia [8]. The same source says more than 100 million Americans whiten their teeth, spending about $15 billion in 2010 [8]. In the UK, the General Dental Council raised concerns in 2010 about unsafe whitening by untrained staff [8]."
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Tooth powders date back to ancient Egypt, and Colgate began mass-producing aromatic toothpaste in jars in 1873, with collapsible tubes arriving in 1880 [1]. Fluoride was first added to toothpastes in the 1890s according to Wikipedia, and Crest launched a clinically tested fluoride toothpaste in 1955 [1]. Grokipedia gives 1956 for the introduction of fluoride to toothpaste [9].",
+    "On the whitening side, Wikipedia dates custom-tray bleaching to the late 1960s, introduced by Dr William Klusmeier, with Haywood and Heymann supporting the method in 1989, and over-the-counter strips to the late 1980s [8]. Earlier whitening attempts included acids and filing by 17th-century barbers, oxalic acid in 1877 and calcium hypochlorite [8]. Whitening toothpastes grew out of this long history of abrasive dentifrices."
    ]
   },
   {
    "h": "Use in looksmaxxing communities",
    "paras": [
-    "Discussion on looksmax.org touches on toothpaste mainly through fluoride safety: one thread debated whether fluoride-free \"natural\" toothpaste gives any protection against decay, with a poster arguing that dentists dissuade patients from fluoride-free products [7]."
+    "Discussion on looksmax.org touches on toothpaste mainly through fluoride safety: one thread debated whether fluoride-free \"natural\" toothpaste gives any protection against decay, with a poster arguing that dentists dissuade patients from fluoride-free products [10]."
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "Randomised studies include a crossover trial of blue covarine toothpastes and tooth colour [3] and an in situ trial of whitening toothpastes on bovine enamel [4]. Abstract details were not available for these in the sources reviewed, so their effect sizes are not reported here. Large trials of toothpaste more broadly concern caries prevention rather than whitening [5][6]."
+    "Randomised studies include a crossover trial of blue covarine toothpastes and tooth colour [3] and an in situ trial of whitening toothpastes on bovine enamel [4]. Abstract details for these were limited, so effect sizes are not reported here. A 2017 systematic review cited by Wikipedia found nearly all whitening dentifrices reduced extrinsic stain [1]. Large trials of toothpaste more broadly concern caries prevention: a Cochrane network meta-analysis examined fluoride concentrations [5], an updated systematic review and meta-analysis examined hydroxyapatite and caries [7], and an 18-month double-blinded equivalence trial compared hydroxyapatite and 1450 ppm fluoride toothpastes using DMFS as the endpoint [6]."
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "Ancient Egypt",
+   "event": "Egyptians make tooth powder [1]."
+  },
+  {
+   "year": "1873",
+   "event": "Colgate begins mass-producing aromatic toothpaste in jars [1]."
+  },
+  {
+   "year": "1877",
+   "event": "Oxalic acid proposed as a tooth whitener [8]."
+  },
+  {
+   "year": "1955",
+   "event": "Crest launches a clinically tested fluoride toothpaste [1]."
+  },
+  {
+   "year": "Late 1960s",
+   "event": "Custom tray bleaching introduced [8]."
+  },
+  {
+   "year": "Late 1980s",
+   "event": "Over-the-counter whitening strips introduced [8]."
+  },
+  {
+   "year": "1989",
+   "event": "Haywood and Heymann support at-home tray bleaching [8]."
+  },
+  {
+   "year": "2010",
+   "event": "UK General Dental Council raises concerns about unsafe whitening by untrained staff; US whitening spend about $15 billion [8]."
+  },
+  {
+   "year": "2017",
+   "event": "Systematic review finds nearly all whitening dentifrices reduce extrinsic stain [1]."
+  },
+  {
+   "year": "2025",
+   "event": "Randomised crossover trial of blue covarine toothpastes published [3]."
+  }
+ ],
  "lore": {
-  "intro": "Toothpaste appears in looksmax.org mostly in discussions of fluoride safety rather than whitening [7].",
+  "intro": "Toothpaste appears on looksmax.org mostly in discussions of fluoride safety rather than whitening [10]. Whitening claims around toothpaste are largely those made by manufacturers and users in general consumer settings.",
   "claims": [
    {
-    "claim": "Fluoride-free toothpaste is safe and just as good, or fluoride is harmful",
-    "believers": "Some posters question fluoride and prefer natural products, while others reply that the natural versions mainly give a fresher mouth [7].",
+    "claim": "Whitening toothpaste lightens teeth within a few weeks",
+    "believers": "Product makers and users describe visibly brighter teeth after regular use, particularly after coffee, tea or tobacco staining [1].",
+    "experts": "Wikipedia reports twice-daily use typically takes two to four weeks to show an effect, and a 2017 systematic review found nearly all whitening dentifrices reduced extrinsic stain [1].",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Whitening toothpaste can change the natural colour of teeth",
+    "believers": "Some marketing language implies a whole-tooth change, and many users expect results comparable to bleaching [8].",
+    "experts": "Reference sources say toothpaste targets surface stain, and that peroxide bleaching is the route that acts on deeper colour [1][8].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Charcoal toothpaste whitens teeth",
+    "believers": "Charcoal has been added to some toothpastes marketed for whitening [1].",
+    "experts": "Wikipedia reports the ADA does not recommend charcoal toothpaste and that evidence on its safety and effectiveness is lacking [1].",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Highly abrasive toothpaste gives faster whitening but can wear enamel",
+    "believers": "Some users choose stronger polishing formulas to speed stain removal.",
+    "experts": "Abrasivity is rated by RDA, with values under 250 regarded as safe for lifelong use by ANSI and the ADA, and excessive use described as potentially damaging to enamel [1].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Fluoride-free 'natural' toothpaste is as good, or fluoride is harmful",
+    "believers": "Some posters question fluoride and prefer natural products, while others reply that the natural versions mainly give a fresher mouth [10].",
     "experts": "A Cochrane network meta-analysis examined fluoride toothpastes of different concentrations for preventing caries [5]; a trial found a hydroxyapatite toothpaste non-inferior to fluoride in adults over 18 months [6].",
     "evidence": "mixed"
    }
@@ -121,6 +253,38 @@
   },
   {
    "id": 7,
+   "title": "Clinical evidence of caries prevention by hydroxyapatite: An updated systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39471896/",
+   "source": "Journal of Dentistry",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Clinical evidence of caries prevention by hydroxyapatite: An updated systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39471896/",
+   "source": "Journal of Dentistry",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "Tooth whitening",
+   "url": "https://en.wikipedia.org/wiki/Tooth_whitening",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 9,
+   "title": "Toothpaste",
+   "url": "https://grokipedia.com/page/Toothpaste",
+   "source": "Grokipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 10,
    "title": "How safe really is fluoride in toothpaste",
    "url": "https://looksmax.org/threads/how-safe-really-is-fluoride-in-toothpaste.601036/",
    "source": "looksmax.org",
@@ -132,19 +296,10 @@
   {
    "url": "https://en.wikipedia.org/wiki/Toothpaste",
    "title": "Toothpaste - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Tooth_whitening",
+   "title": "Tooth whitening - Wikipedia"
   }
- ],
- "card": {
-  "summary": "Everyday toothpaste with stain-lifting extras: it lightens surface stain in weeks, not the tooth's natural shade.",
-  "aka": null,
-  "evidence": "moderate",
-  "outcome": "temporary",
-  "price": null,
-  "note": "Highly abrasive formulas can wear enamel; effect stops when use stops."
- },
- "quick": {
-  "overview": "Whitening toothpaste uses polishing agents, stain-loosening chemicals, sometimes peroxide or a blue pigment, to make teeth look lighter.\n\nA systematic review cited by Wikipedia found nearly all such products reduce surface stain, but they do not change the natural colour of the tooth.",
-  "mechanism": "Mostly mechanical and chemical removal of surface stains, with some products adding peroxide or optical pigments.",
-  "risks": "Abrasivity (measured as RDA) can wear enamel with excessive use; peroxide products can demineralise teeth at high concentrations."
- }
+ ]
 }

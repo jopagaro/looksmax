@@ -1,178 +1,350 @@
 {
-  "name": "Posture Botox / muscle relaxants",
-  "card": {
-    "summary": "Injecting botulinum toxin into neck or trapezius muscles for tension; established for some neck conditions, untested as a posture or looks tool.",
-    "aka": "Trapezius Botox",
-    "evidence": "unproven",
-    "outcome": null,
-    "risk": "moderate",
-    "price": null,
-    "note": "Prescription-only; toxin spread can weaken unintended muscles.",
-    "structure": null
-  },
-  "quick": {
-    "overview": "Botulinum toxin injected into neck or shoulder muscles is discussed as a way to ease tension. Botulinum toxin is established for conditions such as cervical dystonia and muscle spasticity.\n\nNo trial found tests it for posture correction or appearance in otherwise healthy people.",
-    "mechanism": "The toxin blocks acetylcholine release at the neuromuscular junction, causing temporary muscle weakness that reverses as nerves regenerate.",
-    "risks": "Adverse effects include spread to unintended muscles, weakness, swallowing trouble and allergic reactions, and the US FDA added boxed warnings about toxin spread in 2009. It is prescription-only in the US, UK, Canada, Australia and EU."
-  },
-  "lead": [
-    "Posture Botox, sometimes called trapezius Botox, is the use of botulinum toxin injections in the neck and trapezius muscles, mainly to relieve muscle tension. In appearance-minded circles the idea is that relaxing a tight upper trapezius and neck can ease the hunched, tense look and soften the neck-shoulder line, and that less tension may let people hold themselves more upright. Botulinum toxin blocks acetylcholine release at the nerve-muscle junction, causing the injected muscle to relax, with the effect reversing as the nerve regenerates [1].",
-    "The established uses are medical. Wikipedia lists head and neck spasm and cervical dystonia, with type B toxin approved by the FDA for cervical dystonia in December 2000, and notes that some injections into arthritic shoulders have been reported to reduce chronic pain and improve range of motion [1]. Botox Cosmetic was approved for frown lines in 2002 [1]. Wikipedia's article on the trapezius describes it as the muscle whose upper fibres elevate the scapula and which stabilises shoulder-blade movement, and notes trapezius palsy produces a drooping shoulder [3].",
-    "No study identified has tested botulinum toxin for improving posture or appearance in healthy people. Oral muscle relaxants, a separate drug group, appear in forum discussions as a way to ease back tension [4]."
+ "name": "Posture Botox / muscle relaxants",
+ "card": {
+  "summary": "Injecting botulinum toxin into neck or trapezius muscles for tension; established for some neck conditions, untested as a posture or looks tool.",
+  "aka": "Trapezius Botox",
+  "evidence": "unproven",
+  "outcome": null,
+  "risk": "moderate",
+  "price": null,
+  "note": "Prescription-only; toxin spread can weaken unintended muscles.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Botulinum toxin injected into neck or shoulder muscles is discussed as a way to ease tension. Botulinum toxin is established for conditions such as cervical dystonia and muscle spasticity.\n\nNo trial found tests it for posture correction or appearance in otherwise healthy people.",
+  "mechanism": "The toxin blocks acetylcholine release at the neuromuscular junction, causing temporary muscle weakness that reverses as nerves regenerate.",
+  "risks": "Adverse effects include spread to unintended muscles, weakness, swallowing trouble and allergic reactions, and the US FDA added boxed warnings about toxin spread in 2009. It is prescription-only in the US, UK, Canada, Australia and EU."
+ },
+ "lead": [
+  "Posture Botox, also called trapezius Botox, \"traptox\" or, in a 2023 social-media wave, \"Barbie Botox\", is the injection of botulinum toxin into the trapezius and neighbouring neck muscles by a clinician. People seek it for two overlapping reasons: to ease tension, pain and guarding in the neck and shoulders, and to change how the neck-shoulder line looks. As the muscle is relaxed it gradually thins, which clinicians say lowers or flattens the shoulder line and makes the neck appear longer; they stress that the neck is not actually lengthened [8][9]. Botulinum toxin blocks acetylcholine release at the nerve-muscle junction, and the effect wears off as the nerve ending regenerates [1].",
+  "The injections draw on decades of established medical practice. Botulinum toxin treats cervical dystonia, spasticity and chronic migraine, and is used for neck and shoulder tension, spasm and trapezius myalgia [1][11]. The cosmetic trapezius version surfaced widely in 2023, when dermatologists and plastic surgeons reported patients asking for it after the Barbie film and TikTok videos tagged #barbiebotox [8][9]. Practitioners quoted in news coverage describe results as generally subtle and temporary, lasting roughly three to four months or longer depending on the product [8].",
+  "Research on the cosmetic use is small. A one-year, double-blind, split-shoulder randomized trial of 20 women compared two toxin products for trapezius contouring with ultrasound measurement of muscle thickness, and reported reductions in thickness and in trapezius pain [10]. No trial has tested toxin injections as a way to correct posture in otherwise healthy people. Oral muscle relaxants, a separate drug group, appear in forum conversations as a way to ease back tension [4][7]."
+ ],
+ "angle": {
+  "goal": "Posture",
+  "chain": [
+   "Toxin relaxes the injected trapezius or neck muscle",
+   "Muscle tension eases and the muscle gradually thins for weeks to months",
+   "The shoulder line sits lower and the neck can look longer and more relaxed"
   ],
-  "angle": {
-    "goal": "Posture",
-    "chain": [
-      "Toxin relaxes injected neck or trapezius muscle",
-      "Muscle tension and guarding ease for weeks to months",
-      "Neck and shoulders may look and sit more relaxed"
-    ],
-    "effect": "claimed",
-    "text": "People interested in posture Botox hope that relaxing an overactive trapezius reduces the hunched, tense look of the neck and shoulders. A clinician performs the injections, and results are described as temporary."
-  },
-  "infobox": [
-    [
-      "Drug class",
-      "Neuromuscular blocking agent (botulinum toxin)"
-    ],
-    [
-      "Route",
-      "Injection by a clinician"
-    ],
-    [
-      "Typical duration",
-      "Glabellar-line effects last 2 to 4 months, sometimes longer [1]"
-    ],
-    [
-      "Legal status",
-      "Prescription-only"
-    ],
-    [
-      "Related uses",
-      "Cervical dystonia, spasm, migraine prevention [1]"
-    ]
+  "effect": "claimed",
+  "text": "People interested in posture Botox hope that relaxing an overactive trapezius reduces the tense, hunched look of the neck and shoulders and makes the neck look longer. Clinicians perform the injections, and the results are described as temporary and often subtle."
+ },
+ "infobox": [
+  [
+   "Drug class",
+   "Neuromuscular blocking agent (botulinum toxin)"
   ],
-  "sections": [
-    {
-      "h": "Medical and cosmetic background",
-      "paras": [
-        "Botulinum toxin is used for spasticity, cervical dystonia, chronic migraine (FDA-approved 2010) and other conditions, and cosmetically for glabellar lines (2002) [1]. It is also used to relax clenched muscles such as the jaw in bruxism and, cosmetically, the masseter and upper-lip elevators [1]. Many therapeutic uses are off-label in the US [1]."
-      ]
-    },
-    {
-      "h": "Pharmacology",
-      "paras": [
-        "The toxin binds nerve terminals, enters by endocytosis, and its light chain cleaves SNARE proteins such as SNAP-25, blocking acetylcholine release and producing flaccid paralysis. Recovery occurs as the proteins regenerate [1]."
-      ]
-    },
-    {
-      "h": "Adverse effects",
-      "paras": [
-        "Toxin spread from the injection site can weaken unintended muscles and cause trouble swallowing, facial weakness or double vision; the FDA added boxed warnings about toxin spread in 2009 [1]. Bruising comes from the injection itself [1]."
-      ]
-    },
-    {
-      "h": "History",
-      "paras": [
-        "Alan B. Scott developed the strabismus use in the 1970s, treating patients from 1977 and reporting results in 1980; Allergan later acquired the product as Botox. Richard Clark described cosmetic forehead use in 1989, and the Carruthers published a glabellar wrinkle study in 1992 [1]."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found for posture or appearance use in healthy people. Evidence reviews cover neck pain and dystonia as medical conditions [5][6], and a registered trial of a different botulinum toxin product studied musicians with focal dystonia, a separate condition [2]. A 2024 randomized trial examined topical lidocaine for mechanical cervical pain, which is a different treatment [7]."
-      ]
-    }
+  [
+   "Route",
+   "Injection by a clinician"
   ],
-  "timeline": [
-    {
-      "year": "1980",
-      "event": "Alan Scott reports botulinum toxin results for strabismus [1]."
-    },
-    {
-      "year": "1989",
-      "event": "FDA approves Botox for strabismus and blepharospasm [1]."
-    },
-    {
-      "year": "2000",
-      "event": "Type B toxin approved for cervical dystonia [1]."
-    },
-    {
-      "year": "2002",
-      "event": "FDA approves cosmetic use for glabellar lines [1]."
-    },
-    {
-      "year": "2009",
-      "event": "FDA adds boxed warnings about toxin spread [1]."
-    }
+  [
+   "Nicknames",
+   "Trapezius Botox, traptox, Barbie Botox [8][9]"
   ],
-  "lore": null,
-  "refs": [
-    {
-      "id": 1,
-      "title": "Botulinum toxin",
-      "url": "https://en.wikipedia.org/wiki/Botulinum_toxin",
-      "source": "Wikipedia",
-      "year": 2026,
-      "type": "encyclopedia"
-    },
-    {
-      "id": 2,
-      "title": "Quantifying Musical Performance After Treatment With Myobloc in Musician's Dystonia (NCT00208091)",
-      "url": "https://clinicaltrials.gov/study/NCT00208091",
-      "source": "ClinicalTrials.gov",
-      "year": 2003,
-      "type": "trial"
-    },
-    {
-      "id": 3,
-      "title": "Trapezius",
-      "url": "https://en.wikipedia.org/wiki/Trapezius",
-      "source": "Wikipedia",
-      "year": 2025,
-      "type": "encyclopedia"
-    },
-    {
-      "id": 4,
-      "title": "Simo - The Red Shoe Diaries Part 2.0",
-      "url": "https://t-nation.com/t/simo-the-red-shoe-diaries-part-2-0/293018",
-      "source": "T Nation",
-      "year": 2026,
-      "type": "forum"
-    },
-    {
-      "id": 5,
-      "title": "Neck pain",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/19445809/",
-      "source": "BMJ Clinical Evidence",
-      "year": 2008,
-      "type": "review"
-    },
-    {
-      "id": 6,
-      "title": "Dystonia",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/21663705/",
-      "source": "BMJ Clinical Evidence",
-      "year": 2011,
-      "type": "review"
-    },
-    {
-      "id": 7,
-      "title": "Multicenter, Randomized, Placebo-controlled Crossover Trial Evaluating Topical Lidocaine for Mechanical Cervical Pain",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38079112/",
-      "source": "Anesthesiology",
-      "year": 2024,
-      "type": "trial"
-    }
+  [
+   "Target muscle",
+   "Trapezius, between neck and shoulder [3]"
   ],
-  "webSources": [
-    {
-      "url": "https://en.wikipedia.org/wiki/Botulinum_toxin",
-      "title": "Botulinum toxin - Wikipedia"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Trapezius",
-      "title": "Trapezius - Wikipedia"
-    }
+  [
+   "Typical duration",
+   "Glabellar-line effects last 2 to 4 months, sometimes longer [1]; trapezius cosmetic results reported at 3 to 4 months or longer [8]"
+  ],
+  [
+   "Reported cost",
+   "From a few hundred to a few thousand US dollars per session [8][9]"
+  ],
+  [
+   "Legal status",
+   "Prescription-only; cosmetic trapezius use is off-label"
+  ],
+  [
+   "Related uses",
+   "Cervical dystonia, spasm, migraine prevention [1][11]"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Posture Botox sits at the meeting point of two ideas: that tight, overactive neck and shoulder muscles pull the body into a hunched, tense look, and that quietening those muscles can soften it. The trapezius is a large, paired, triangular muscle that runs from the skull and the spine of the neck and upper back out to the shoulder blade; its upper fibres lift the scapula and it stabilises shoulder-blade movement, and damage to its nerve supply produces a drooping shoulder [3]. Cosmetic clinics inject toxin into the upper part of this muscle to reduce its bulk and tone.",
+    "The term \"posture Botox\" is used in two ways. In appearance circles it usually means the cosmetic trapezius and neck treatment above. In medical practice, toxin is used for conditions in which muscles pull the head or shoulder out of position, such as cervical dystonia, where the neck turns, tilts or pulls involuntarily [11]."
+   ]
+  },
+  {
+   "h": "Medical and cosmetic background",
+   "paras": [
+    "Botulinum toxin is used for spasticity, cervical dystonia, chronic migraine (FDA-approved 2010) and other conditions, and cosmetically for glabellar lines (2002) [1]. It is also used to relax clenched muscles such as the jaw in bruxism and, cosmetically, the masseter and upper-lip elevators [1]. Many therapeutic uses are off-label in the US [1].",
+    "For cervical dystonia, Wikipedia describes toxin injection as the most commonly used treatment, with relief typically lasting about 12 to 16 weeks and a reported range of side effects that includes injection-site pain, swallowing difficulty from spread to nearby muscles, dry mouth and weakness in injected or adjacent muscles [11]. Wikipedia's article on myofascial pain notes that trigger-point massage, stretching, exercise, posture evaluation and ergonomics are among the other approaches used for chronic muscle pain, and that the supporting studies for many are small [12]."
+   ]
+  },
+  {
+   "h": "The cosmetic trapezius trend",
+   "subs": [
+    {
+     "h": "Origins and spread",
+     "paras": [
+      "Dermatologists quoted in news coverage say trapezius injections were used for years in neurology, pain management and orthopaedics before they became a cosmetic request [8]. The cosmetic version spread in 2023: Chicago dermatologist Danilo Del Campo said patients began asking after the Barbie film, and New York dermatologist Anthony Rossi, who has offered the treatment for over a decade, linked the interest to social media [8]. Videos tagged #barbiebotox were reported at nearly four million views [8]. A Fox News Digital piece quoted Manhattan plastic surgeon Barry Weintraub, a spokesperson for the American Society of Plastic Surgeons, saying he was getting patients asking for it almost every day [9]."
+     ]
+    },
+    {
+     "h": "What practitioners and patients describe",
+     "paras": [
+      "Practitioners describe the goal as a smoother, more sloping line from neck to shoulder. Rossi and Del Campo are reported as explaining that relaxed trapezius muscles gradually shrink, flattening the shoulders and creating the illusion of a longer neck, with some patients aiming for a neck-to-shoulder angle near 90 degrees [8]. Weintraub described a visible effect developing over several days after injection and said a large muscle needs a lot of toxin, which is why the price is high [9].",
+      "Reported prices range from a few hundred to a few thousand dollars, with a single round lasting about three to four months or longer depending on the product and repeat rounds needed to keep the result [8]. At Weintraub's practice, the cost was reported as $2,000 [9]. Rossi was reported as saying that unless a patient has pain the treatment may not be worth the price, and that it may also help with neck and shoulder tension, spasm, migraine and trapezius hypertrophy [8].",
+      "Del Campo's comment that Barbie dolls have no visible trapezius muscle was reported alongside caution about the social pressure behind the trend [8]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "paras": [
+    "The toxin binds nerve terminals and enters by endocytosis; its light chain cleaves SNARE proteins such as SNAP-25, blocking acetylcholine release and producing flaccid paralysis. Recovery occurs as the proteins regenerate [1]. Because the muscle is weakened rather than removed, thinning follows from reduced use over weeks, and the muscle regrows as the effect fades [1][8]."
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "paras": [
+    "Toxin spread from the injection site can weaken unintended muscles and cause trouble swallowing, facial weakness or double vision; the FDA added boxed warnings about toxin spread in 2009 [1]. Bruising comes from the injection itself [1]. In cervical dystonia, where neck muscles are treated, the side effects described include injection-site pain, dry mouth, fatigue and weakness in injected or adjacent muscles, and some people develop antibodies that reduce response [11]. Coverage of the trapezius trend by clinicians emphasises realistic expectations about modest results and the temporary nature of the effect [8]."
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Alan B. Scott developed the strabismus use in the 1970s, treating patients from 1977 and reporting results in 1980; Allergan later acquired the product as Botox. Richard Clark described cosmetic forehead use in 1989, and the Carruthers published a glabellar wrinkle study in 1992 [1]. Cosmetic Botox for frown lines was approved in 2002 [1]. Trapezius contouring appeared in aesthetic journals before the 2023 social-media wave; a one-year study of 20 women was published in the Journal of Cutaneous and Aesthetic Surgery in 2022 [10]."
+   ]
+  },
+  {
+   "h": "Oral muscle relaxants",
+   "paras": [
+    "Oral muscle relaxants are a separate drug group. Forum users mention asking a doctor about them for back problems [4], and the introduction of a 2024 trial on mechanical neck pain notes that controlled trials suggest efficacy for muscle relaxants and topical anti-inflammatories in that condition [7]. They are prescription drugs and are not used to reshape the neck or shoulders."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found for posture correction in healthy people. The most relevant trial examined the cosmetic trapezius effect: a prospective, one-year, split-shoulder, double-blind randomized trial of 20 women aged 28 to 45 injected two toxin products, one in each shoulder, under ultrasound guidance. Both products reduced trapezius thickness by a similar amount at day 60 (about 7.3 mm), the muscle regained more thickness with one product by one year, and both reduced myalgia scores, with a larger drop for one product. The authors reported no serious side effects, and the study was small [10].",
+    "Evidence reviews cover neck pain and dystonia as medical conditions [5][6], and a registered trial of a different botulinum toxin product studied musicians with focal dystonia, a separate condition [2]. A 2024 randomized trial examined topical lidocaine for mechanical cervical pain, which is a different treatment [7]."
+   ]
+  },
+  {
+   "h": "Related practices",
+   "paras": [
+    "People also use strength training of the middle and lower trapezius and scapular retraction exercises for posture, and the upper trapezius responds to shrugs, as described for the muscle's three functional parts [3]. Masseter Botox for jaw slimming uses the same toxin in a different muscle [1]."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1977",
+   "event": "Alan Scott begins treating patients with botulinum toxin for strabismus [1]."
+  },
+  {
+   "year": "1980",
+   "event": "Scott reports botulinum toxin results for strabismus [1]."
+  },
+  {
+   "year": "1989",
+   "event": "FDA approves Botox for strabismus and blepharospasm; Richard Clark describes cosmetic forehead use [1]."
+  },
+  {
+   "year": "1992",
+   "event": "The Carruthers publish a glabellar wrinkle study [1]."
+  },
+  {
+   "year": "2000",
+   "event": "Type B toxin approved for cervical dystonia [1]."
+  },
+  {
+   "year": "2002",
+   "event": "FDA approves cosmetic use for glabellar lines [1]."
+  },
+  {
+   "year": "2009",
+   "event": "FDA adds boxed warnings about toxin spread [1]."
+  },
+  {
+   "year": "2010",
+   "event": "FDA approves Botox for chronic migraine [1]."
+  },
+  {
+   "year": "2022",
+   "event": "A one-year split-shoulder randomized trial of trapezius contouring is published [10]."
+  },
+  {
+   "year": "2023",
+   "event": "Trapezius Botox spreads as \"Barbie Botox\" on social media after the Barbie film [8][9]."
+  }
+ ],
+ "lore": {
+  "intro": "Posture Botox is discussed by cosmetic practitioners and social-media users mainly as a neck-lengthening and shoulder-slimming treatment, and by clinicians as a tension and pain treatment. Forum mentions of muscle relaxants for the back are separate and medical [4][8][9].",
+  "claims": [
+   {
+    "claim": "Trapezius Botox makes the neck look longer",
+    "believers": "Patients and practitioners describe a lowered shoulder line that gives a longer, Barbie-like neck [8][9].",
+    "experts": "Dermatologists quoted say the neck is not actually lengthened; the effect is an illusion from a thinner muscle [8]. A split-shoulder trial measured reductions in trapezius thickness by ultrasound [10].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "It slims or flattens the shoulders",
+    "believers": "Weintraub is quoted as saying the injection stops the muscle contracting and slenderises the neck [9].",
+    "experts": "Rossi and Del Campo describe gradual shrinkage of relaxed traps, with subtle results [8]; the 2022 trial found similar thickness reductions with two products at 60 days [10].",
+    "evidence": "supported"
+   },
+   {
+    "claim": "It improves posture",
+    "believers": "Some people hope relaxing a tight upper trapezius lets them hold themselves more upright [1][3].",
+    "experts": "No published trial has tested toxin injections for posture correction in healthy people; the trapezius mainly moves and stabilises the shoulder blade [3].",
+    "evidence": "untested"
+   },
+   {
+    "claim": "It relieves neck and shoulder tension and pain",
+    "believers": "Rossi and Weintraub describe benefit for tension, spasm and headaches [8][9].",
+    "experts": "Toxin is an established treatment for cervical dystonia [11], and the split-shoulder trial reported lower trapezius myalgia scores in 20 women [10]; reviews of neck pain treatments are in BMJ Clinical Evidence [5].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "The results are subtle and not always worth the cost",
+    "believers": "Rossi is quoted as saying that unless someone has pain, it may not be worth the money [8].",
+    "experts": "Coverage reports costs from hundreds to thousands of dollars per round with effects lasting about three to four months [8][9].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "It needs no downtime and is low risk",
+    "believers": "Weintraub describes it as an office procedure without aftercare instructions [9].",
+    "experts": "Toxin spread can weaken unintended muscles and the FDA added boxed warnings about spread in 2009 [1]; neck treatments in dystonia are associated with swallowing difficulty and weakness [11].",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Botulinum toxin",
+   "url": "https://en.wikipedia.org/wiki/Botulinum_toxin",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Quantifying Musical Performance After Treatment With Myobloc in Musician's Dystonia (NCT00208091)",
+   "url": "https://clinicaltrials.gov/study/NCT00208091",
+   "source": "ClinicalTrials.gov",
+   "year": 2003,
+   "type": "trial"
+  },
+  {
+   "id": 3,
+   "title": "Trapezius",
+   "url": "https://en.wikipedia.org/wiki/Trapezius",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Simo - The Red Shoe Diaries Part 2.0",
+   "url": "https://t-nation.com/t/simo-the-red-shoe-diaries-part-2-0/293018",
+   "source": "T Nation",
+   "year": 2026,
+   "type": "forum"
+  },
+  {
+   "id": 5,
+   "title": "Neck pain",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19445809/",
+   "source": "BMJ Clinical Evidence",
+   "year": 2008,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Dystonia",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21663705/",
+   "source": "BMJ Clinical Evidence",
+   "year": 2011,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Multicenter, Randomized, Placebo-controlled Crossover Trial Evaluating Topical Lidocaine for Mechanical Cervical Pain",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38079112/",
+   "source": "Anesthesiology",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Barbie Botox trend has people breaking the bank to make necks longer",
+   "url": "https://www.yahoo.com/news/barbie-botox-trend-people-breaking-120220200.html",
+   "source": "Yahoo News",
+   "year": 2023,
+   "type": "news"
+  },
+  {
+   "id": 9,
+   "title": "Barbie Botox goes viral: What to know about the neck-slimming plastic surgery trend",
+   "url": "https://www.foxnews.com/health/barbie-botox-viral-what-know-neck-slimming-plastic-surgery-trend.amp",
+   "source": "Fox News",
+   "year": 2023,
+   "type": "news"
+  },
+  {
+   "id": 10,
+   "title": "Incobotulinum Toxin A with a One-year Long-lasting Effect for Trapezius Contouring and Superior Efficacy for the Treatment of Trapezius Myalgia",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9364457",
+   "source": "Journal of Cutaneous and Aesthetic Surgery",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Spasmodic torticollis (cervical dystonia)",
+   "url": "https://en.wikipedia.org/wiki/Cervical_dystonia",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 12,
+   "title": "Myofascial pain syndrome",
+   "url": "https://en.wikipedia.org/wiki/Myofascial_pain_syndrome",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Botulinum_toxin",
+   "title": "Botulinum toxin - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Trapezius",
+   "title": "Trapezius - Wikipedia"
+  },
+  {
+   "url": "https://www.yahoo.com/news/barbie-botox-trend-people-breaking-120220200.html",
+   "title": "Barbie Botox trend has people breaking the bank to make necks longer"
+  },
+  {
+   "url": "https://www.foxnews.com/health/barbie-botox-viral-what-know-neck-slimming-plastic-surgery-trend.amp",
+   "title": "Barbie Botox goes viral: What to know about the neck-slimming plastic surgery trend"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9364457",
+   "title": "Incobotulinum Toxin A with a One-year Long-lasting Effect for Trapezius Contouring and Superior Efficacy for the Treatment of Trapezius Myalgia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Cervical_dystonia",
+   "title": "Spasmodic torticollis (cervical dystonia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Myofascial_pain_syndrome",
+   "title": "Myofascial pain syndrome"
+  }
+ ]
 }

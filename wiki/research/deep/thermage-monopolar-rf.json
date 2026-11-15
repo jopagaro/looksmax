@@ -1,28 +1,485 @@
 {
-"name":"Thermage / monopolar RF",
-"lead":["Thermage is a brand of non-ablative monopolar radiofrequency (RF) treatment used in clinics for skin tightening of the face, neck and eyelids. It heats the dermis with RF energy while the surface is cooled, with the aim of tightening lax skin and softening fine lines without surgery.[1][2] The device was first sold as ThermaCool and is now marketed as Thermage FLX.[3]","RF skin tightening in general is described as heating the dermis to stimulate collagen, elastin and hyaluronic acid production and tissue remodelling, with a dermal target temperature of about 67 degrees C cited.[1] Early studies from 2003 to 2004 reported improvement in periorbital and cheek or neck laxity after single treatments.[2][4]","Published studies are mostly small and company-linked device studies, and sources note adverse effects including pain and, rarely, fat loss or scarring."],
-"infobox":[["Type","Monopolar radiofrequency device (clinic)"],["Original name","ThermaCool TC System (Thermage, Inc.)[4]"],["Current model","Thermage FLX (Bausch Health listing)[3]"],["Used on","Face, neck, eyelids"],["Use","Treatment sessions in clinics"]],
-"sections":[
-{"h":"How it works","paras":["RF energy heats the dermis, and the heating is said to stimulate collagen production and remodelling. Penetration depth depends on electrode configuration, with monopolar, bipolar and unipolar designs described.[1]"]},
-{"h":"Effectiveness","paras":["A multicentre study of 86 subjects receiving one ThermaCool treatment around the eyes reported that independent scoring of blinded photographs showed improved Fitzpatrick wrinkle scores in a large majority of treated areas at six months.[2] A study of 50 patients with mild to moderate cheek or neck laxity evaluated one treatment for safety and efficacy, and a randomised comparison of one versus two treatments was run in 20 patients with middle and lower face laxity.[4][5] A 2006 retrospective review of over 600 treatments was undertaken to measure actual rates of side effects.[6]"]},
-{"h":"Reported risks","paras":["Sources report that some patients had pain requiring sedation, that improper technique may cause skin dents, and that fat necrosis and atrophic scarring have been reported, though newer techniques reportedly address this.[1]"]},
-{"h":"Clinical studies","paras":["Published studies include multicentre and single-centre device studies in the periorbital area, cheek and neck, and lower face.[2][4][5][6] Registered trials include Thermage FLX on face, neck and eyelids (n=25), a controlled safety and effectiveness study (n=164), a feasibility comparison of Ulthera versus Thermage for face and neck (n=20), and a monopolar RF facial wrinkle study (n=284).[7][8][9][10]"]}
-],
-"timeline":[{"year":"2002","event":"Monopolar RF skin tightening in clinical use; the 2006 review dates use to May 2002.[6]"},{"year":"2003","event":"Multicentre periorbital tightening study published.[2]"}],
-"lore":null,
-"refs":[
-{"id":1,"title":"Radiofrequency skin tightening (Thermage)","url":"https://en.wikipedia.org/wiki/Thermage","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":2,"title":"Multicenter study of noninvasive radiofrequency for periorbital tissue tightening","url":"https://pubmed.ncbi.nlm.nih.gov/14571447/","source":"Lasers Surg Med","year":2003,"type":"study"},
-{"id":3,"title":"Bausch Health Thermage FLX for lower face and submentum (NCT04606368)","url":"https://clinicaltrials.gov/study/NCT04606368","source":"ClinicalTrials.gov","year":2020,"type":"trial"},
-{"id":4,"title":"Improvement of neck and cheek laxity with a nonablative radiofrequency device","url":"https://pubmed.ncbi.nlm.nih.gov/15056138/","source":"Dermatol Surg","year":2004,"type":"study"},
-{"id":5,"title":"Radiofrequency treatment for middle and lower face laxity","url":"https://pubmed.ncbi.nlm.nih.gov/15545529/","source":"Arch Facial Plast Surg","year":2004,"type":"trial"},
-{"id":6,"title":"Monopolar radiofrequency facial tightening: a retrospective analysis of over 600 treatments","url":"https://pubmed.ncbi.nlm.nih.gov/16989184/","source":"J Drugs Dermatol","year":2006,"type":"study"},
-{"id":7,"title":"Thermage FLX system to treat face, neck and eyelids (NCT03894371)","url":"https://clinicaltrials.gov/study/NCT03894371","source":"ClinicalTrials.gov","year":2019,"type":"trial"},
-{"id":8,"title":"Prospective controlled study of Thermage FLX (NCT07187297)","url":"https://clinicaltrials.gov/study/NCT07187297","source":"ClinicalTrials.gov","year":2025,"type":"trial"},
-{"id":9,"title":"Evaluation of Ulthera versus Thermage for face and neck (NCT01713985)","url":"https://clinicaltrials.gov/study/NCT01713985","source":"ClinicalTrials.gov","year":2012,"type":"trial"},
-{"id":10,"title":"Monopolar radiofrequency device for facial wrinkles (NCT06657365)","url":"https://clinicaltrials.gov/study/NCT06657365","source":"ClinicalTrials.gov","year":2024,"type":"trial"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Thermage","title":"Radiofrequency skin tightening (Wikipedia, formerly Thermage)"}],
-"card":{"summary":"Clinic radiofrequency heating for mild-to-moderate skin laxity; small studies report modest improvement.","aka":"ThermaCool, Thermage FLX","evidence":"limited","status":null,"outcome":"temporary","risk":"low","price":null,"note":"Evidence is mostly small device studies; pain and, rarely, fat loss or scarring are reported.","structure":null},
-"quick":{"overview":"Thermage is a clinic treatment that uses monopolar radiofrequency to heat the dermis while cooling the surface, aiming to tighten loose skin on the face, neck and eyelids.\n\nEarly studies reported improvements in wrinkle and laxity scores after a single session. Evidence is mostly small device studies.","mechanism":"RF energy heats deep skin, said to stimulate collagen and elastin and remodel tissue.","risks":"Pain that sometimes required sedation, skin dents, and rare fat necrosis or scarring have been reported. It is delivered by trained clinicians."}
+ "name": "Thermage / monopolar RF",
+ "card": {
+  "summary": "Clinic radiofrequency heating for mild-to-moderate skin laxity; small studies report modest improvement.",
+  "aka": "ThermaCool, Thermage FLX",
+  "evidence": "limited",
+  "status": null,
+  "outcome": "temporary",
+  "risk": "low",
+  "price": null,
+  "note": "Evidence is mostly small device studies; pain and, rarely, fat loss or scarring are reported.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Thermage is a clinic treatment that uses monopolar radiofrequency to heat the dermis while cooling the surface, aiming to tighten loose skin on the face, neck and eyelids.\n\nEarly studies reported improvements in wrinkle and laxity scores after a single session. Evidence is mostly small device studies.",
+  "mechanism": "RF energy heats deep skin, said to stimulate collagen and elastin and remodel tissue.",
+  "risks": "Pain that sometimes required sedation, skin dents, and rare fat necrosis or scarring have been reported. It is delivered by trained clinicians."
+ },
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "Radiofrequency heats the deep dermis while the surface is cooled",
+   "Collagen and other dermal structures are said to contract and remodel over following months",
+   "Firmer skin and a tighter-looking jawline, cheeks and eyelid area"
+  ],
+  "effect": "direct",
+  "text": "People have Thermage sessions in a clinic to tighten mild to moderate skin laxity on the face, neck and eyelids without surgery. Studies describe improvements in wrinkle and laxity scores measured from photographs in the months after treatment.[2][4]"
+ },
+ "lead": [
+  "Thermage is a brand of non-ablative monopolar radiofrequency (RF) treatment used in clinics to tighten skin on the face, neck and eyelids, with body applications also offered. A handpiece delivers RF energy into the dermis while the surface is cooled, with the aim of firming lax skin and softening fine lines without incisions or downtime of the kind that follows surgery or ablative resurfacing.[1][2][24] The system was first sold as ThermaCool and is now marketed by Solta Medical, part of Bausch Health, as Thermage FLX.[3][24][25]",
+  "For appearance, the appeal is a firmer, smoother look where skin has loosened: the jawline, cheeks, neck, brow and the skin around the eyes, and, in the manufacturer's description, areas such as the abdomen and thighs after ageing, pregnancy or weight change.[24] RF skin tightening in general is described as heating the dermis to stimulate collagen, elastin and hyaluronic acid production, with a dermal target temperature of about 67 degrees C cited.[1][11] The treatment is usually positioned as an alternative to, or a step before, surgical lifting.[11]",
+  "Research consists mainly of device studies from 2003 onward. These include a multicentre periorbital study of 86 people, single-centre cheek and neck studies, a randomised comparison of one versus two treatments, a review of more than 600 treatments, and newer registered trials of Thermage FLX handpieces.[2][4][5][6][7][8] A 2007 plastic-surgery review described the published evidence as supporting use for mild to moderate facial skin laxity and wrinkles.[12] Reported effects include pain during treatment, temporary redness and swelling, and, rarely, burns, fat loss or scarring.[1][6][24]"
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Monopolar radiofrequency device (clinic)"
+  ],
+  [
+   "Original name",
+   "ThermaCool TC System (Thermage, Inc.)[4]"
+  ],
+  [
+   "Current model",
+   "Thermage FLX (Solta Medical / Bausch Health)[3][24]"
+  ],
+  [
+   "Manufacturer lineage",
+   "Thermage, Inc. (Hayward, California), later Solta Medical; acquired by Valeant (now Bausch Health) in January 2014[2][25]"
+  ],
+  [
+   "In clinical use since",
+   "2002 (manufacturer and 2006 review)[6][24]"
+  ],
+  [
+   "Used on",
+   "Face, neck, eyelids; body applications also studied[1][20][24]"
+  ],
+  [
+   "Target dermal temperature",
+   "About 67 degrees C (cited)[1]"
+  ],
+  [
+   "Typical session",
+   "30 to 60 minutes for a treatment area (manufacturer)[24]"
+  ],
+  [
+   "Reported time to results",
+   "Gradual over about 2 to 6 months (manufacturer)[24]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Radiofrequency skin tightening is a family of techniques that use RF energy to heat skin. Devices differ in how many electrodes they use, and penetration depth depends on the configuration, with monopolar, bipolar, unipolar and tripolar designs described.[1][11] Thermage is the best-known monopolar system. A 2007 review described its technology as nonablative monopolar capacitive RF that protects the skin surface while selectively heating the layer beneath, and noted that keeping the epidermis intact is what limits recovery time and complication risk compared with ablative resurfacing.[12]",
+    "Other manufacturers offer devices in the wider RF category, including bipolar and tripolar systems and microneedle RF, which Wikipedia describes as the newest form of delivery.[1][11] Hair-related RF is a separate topic: a 2023 review found most RF hair studies concerned hair removal, with some reports of growth depending on modality.[13]",
+    "The manufacturer describes a handpiece that delivers RF energy while providing cooling and vibration for comfort, with energy delivery adjusting during the procedure, and says the device is meant to support the body's own collagen remodelling.[24] Treatment categories it lists are the full face, targeted zones such as cheeks, jawline, mouth area or forehead, the eyelids and skin around the eyes, and the body, including abdomen, thighs, above the knees and under the bra line.[24]"
+   ]
+  },
+  {
+   "h": "How it works",
+   "paras": [
+    "RF energy heats the dermis, and the heating is said to stimulate collagen production and remodelling.[1] By adjusting how the skin is cooled, RF can also be used to heat deeper tissue or fat.[1] A cited dermal target temperature for inducing remodelling and reducing wrinkles and laxity is 67 degrees C, and delivering power until that temperature is reached is described as optimising results.[1][11]",
+    "Two phases of result are described. The manufacturer says some people see immediate tightening and that visible improvement continues over about two to six months as collagen remodels.[24] The 2004 randomised comparison found that both one-treatment and two-treatment groups kept improving between the one-month and four-month assessments.[5] In a 2006 forum post about loose skin after fat loss, one T Nation user wrote that changes take around four months to appear and that they felt it was helping at two months.[14]",
+    "A 2005 split-scar study of ThermaCool treatment in hypertrophic and keloid scars found collagen production rising, with type III exceeding type I and peaking about six to ten weeks after treatment, which the authors saw as relevant to the device's effects on dermal collagen.[19]"
+   ]
+  },
+  {
+   "h": "Treatment as practised",
+   "paras": [
+    "Treatment takes place in a clinic. The manufacturer says most sessions run 30 to 60 minutes depending on the area, that a single treatment delivers results so multiple sessions are not required, that results can last one to two years, and that annual maintenance treatments are suggested to keep the effect.[24] Published studies have used single sessions followed for up to six months, and one randomised comparison tested a second session a month later.[2][4][5]",
+    "Pain during treatment is the most-discussed experience, and studies have examined it. A 2005 trial of 84 women compared RF tightening with and without topical anaesthesia and found that anaesthesia reduced pain without significantly raising the energy level people could tolerate and did not affect the final efficacy.[17] Wikipedia notes reports of pain needing sedation in some patients and that vacuum applied at the treatment point has reportedly reduced burning and crusting.[1]",
+    "The manufacturer says the device should not be used in people with pacemakers or other implanted electrical devices, and lists conditions and situations for which it has not studied the device, including pregnancy, breastfeeding, diabetes, autoimmune disease and permanent makeup or tattoos.[24] A 2006 pilot study examined RF applied two weeks after hyaluronic acid and calcium hydroxylapatite filler injections in six subjects and saw no gross changes in the filler or surrounding skin on biopsy, with slightly more transient pain over filler; the authors called for further study.[21]"
+   ]
+  },
+  {
+   "h": "History and company",
+   "paras": [
+    "The ThermaCool system was developed by Thermage, Inc. of Hayward, California.[2] The manufacturer dates its use to 2002 and says more than five million treatments have been performed worldwide, a figure it bases on treatment tips sold; a 2006 review stated that monopolar RF skin tightening had been used on over 10,000 patients since 2002, and its retrospective series began in May 2002.[6][24]",
+    "Early published studies appeared in 2003 and 2004 and covered the periorbital area, cheeks, neck and lower face.[2][4][5][15] The system was marketed in that period as a non-surgical facelift, a phrase used in a 2003 clinical trial title.[15] Wikipedia records that Valeant, now Bausch Health, acquired Solta Medical in January 2014 for about 250 million dollars, and that Thermage FLX received Health Canada clearance in April 2025.[25] The brand's current handpieces are listed for the face, neck and eyelids, with body treatment categories on the manufacturer's site.[3][24]"
+   ]
+  },
+  {
+   "h": "Effectiveness",
+   "paras": [
+    "The 2003 multicentre ThermaCool study enrolled 86 subjects who each received one periorbital treatment. Blinded photo scoring found Fitzpatrick wrinkle-score improvement of at least one point in 83.2 percent of 119 treated periorbital areas at six months, treating physicians without pre-treatment photographs judged 28.9 percent of 166 areas improved, and 50 percent of subjects said they were satisfied or very satisfied. Objective photo analysis found 61.5 percent of eyebrows lifted by at least 0.5 mm.[2]",
+    "A 2004 study of 50 patients (30 with cheek laxity and 20 with neck laxity) used one session after topical anaesthetic and masked assessors graded photographs up to six months. Most patients showed significant improvement, tightening was still visible at six months, and the authors noted that durability beyond six months was unknown.[4]",
+    "A 2004 randomised comparison of 20 patients with mild to moderate laxity of the middle and lower face gave one treatment to 11 and two treatments a month apart to nine. Four blinded physicians rated photographs at one and four months; the two-treatment group scored higher in every category, with the nasolabial-fold difference significant, and patients who had two treatments reported more improvement at four months. The authors described the overall improvement as modest and satisfaction as relatively high, and noted the small sample.[5] A 2003 trial treated 20 areas in 17 patients around the brow and jowls and reported gradual tightening in most patients with no adverse effects.[15]",
+    "The 2007 review concluded that published evidence supports use for mild to moderate laxity and wrinkles and called monopolar capacitive RF the current gold standard for noninvasive skin tightening.[12] More recently, a randomised trial of 42 women published in 2025 found that adding topical repair and anti-ageing products to a single Thermage treatment produced greater improvement in hydration, elasticity, density, fine lines, texture and pores at four weeks than the procedure alone.[16]"
+   ]
+  },
+  {
+   "h": "Safety and reported risks",
+   "paras": [
+    "A retrospective review of more than 600 consecutive treatments from May 2002 to June 2006 found temporary side effects in 2.7 percent of treatments and no permanent side effects. Redness and swelling were the usual expected effects, usually lasting under 24 hours; six patients had swelling for up to a week; one cheek depression resolved within about three and a half months; and neck tenderness lasted two to three weeks in a few patients. The authors concluded the procedure was very safe with infrequent, self-limited, minor side effects.[6]",
+    "In the 2003 multicentre periorbital study, second-degree burns occurred in 0.36 percent of 5,858 RF applications and three patients had small areas of residual scarring at six months.[2] Wikipedia reports that improper technique can cause skin dents from uneven healing, and that fat necrosis and atrophic scarring have been reported, though newer techniques reportedly address this.[1]",
+    "The manufacturer lists pain during treatment, redness usually fading within 24 hours and swelling usually fading within five days as common effects, and burns, blisters, scarring, skin irregularities, numbness or tingling (rarely temporary paralysis), lumps or nodules mostly in the neck, and temporary skin darkening as less common ones.[24] Treatment is delivered by trained clinicians using the manufacturer's handpieces."
+   ]
+  },
+  {
+   "h": "Other uses studied",
+   "paras": [
+    "Monopolar RF has been examined outside the face. A report on 37 Asian patients combined Thermage with a 585-nm pulsed dye laser for abdominal stretch marks; 89.2 percent rated the result good or very good, and biopsies in nine patients showed more collagen fibres, with more elastic fibres in six, though the authors noted pigmentary risk in darker skin.[18] A 2009 report on 12 subjects used a multiplex tip for body shaping and found average waist circumference and skin-laxity scores falling through six months of follow-up.[20]",
+    "In the 2005 scar study of ten people with hypertrophic or keloid scars, treated and untreated thirds of each scar did not differ clinically or histologically at 24 weeks, though collagen effects were seen and the authors called for further study.[19] Newer registered studies cover a non-Thermage monopolar RF device for facial wrinkles (n=284) and a comparison of Ulthera ultrasound and Thermage for the face and neck (n=20).[9][10]"
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing communities",
+   "paras": [
+    "Thermage appears in bodybuilding and fitness forums mostly as a non-surgical option for loose skin after weight loss or pregnancy. In a 2008 T Nation thread on loose skin after children, a poster listed Thermage among non-surgical tightening options and said they did not know how effective they were.[22] In a 2014 thread a poster mentioned RF devices of the kind used on the face to shrink or tighten loose skin, saying clinics use different names for them and that they believed Thermage was one.[26] In 2006, a user described trying several measures, including Thermage, for love handles at low body fat.[14]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Published studies include multicentre and single-centre device studies in the periorbital area, cheek and neck, and middle and lower face, a randomised one-versus-two-treatment comparison, and a large retrospective safety review.[2][4][5][6] The 2007 review judged the published evidence to support use for mild to moderate laxity.[12]",
+    "Registered trials include Thermage FLX on face, neck and eyelids (n=25, started 2019), a lower-face and submentum study (n=12), a 50-person study of the CPT handpiece for facial and neck laxity, a feasibility comparison of Ulthera versus Thermage for face and neck (n=20), a monopolar RF facial wrinkle study (n=284), and a controlled safety and effectiveness study of Thermage FLX (n=164) registered in 2025.[3][7][8][9][10][23]"
+   ]
+  },
+  {
+   "h": "Related practices",
+   "paras": [
+    "Other non-surgical approaches discussed alongside RF for skin laxity include microneedle RF, focused ultrasound (the Ulthera comparison above), fractional laser resurfacing, and surgical lifting, which RF is positioned as an alternative to.[1][9][11] Other devices in the RF family include Venus Legacy, VelaShape and Exilis for body contouring, listed in Wikipedia.[1][11]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2002",
+   "event": "Monopolar RF skin tightening enters clinical use; the manufacturer dates the brand to 2002 and the 2006 retrospective series begins in May 2002.[6][24]"
+  },
+  {
+   "year": "2003",
+   "event": "Multicentre periorbital tightening study of 86 subjects and a non-surgical RF facelift trial published.[2][15]"
+  },
+  {
+   "year": "2004",
+   "event": "Studies of cheek and neck laxity (50 patients) and of one versus two treatments (20 patients) published.[4][5]"
+  },
+  {
+   "year": "2005",
+   "event": "Studies of RF with and without topical anaesthesia and of scars and keloids published.[17][19]"
+  },
+  {
+   "year": "2006",
+   "event": "Retrospective analysis of over 600 treatments published; use reported on over 10,000 patients.[6]"
+  },
+  {
+   "year": "2007",
+   "event": "Review in Facial Plastic Surgery Clinics describes evidence supporting use for mild to moderate laxity.[12]"
+  },
+  {
+   "year": "2009",
+   "event": "Body-shaping report on 12 subjects with a multiplex tip.[20]"
+  },
+  {
+   "year": "2014",
+   "event": "Valeant acquires Solta Medical, Thermage's maker, for about 250 million dollars.[25]"
+  },
+  {
+   "year": "2019",
+   "event": "Registered study of Thermage FLX on face, neck and eyelids begins.[7]"
+  },
+  {
+   "year": "2025",
+   "event": "Randomised trial of adding topical cosmetics to Thermage published; Thermage FLX receives Health Canada clearance in April; controlled FLX study (n=164) registered.[8][16][25]"
+  }
+ ],
+ "lore": {
+  "intro": "Thermage is mentioned in fitness and bodybuilding forums mainly as a clinic option for loose skin and is not a major topic of community protocol discussion; most claims come from clinic and manufacturer descriptions rather than forum posters.[14][22][24][26]",
+  "claims": [
+   {
+    "claim": "Thermage can tighten loose skin after weight loss without surgery",
+    "believers": "Forum posters list it among non-surgical options and one reported gradual improvement over several months.[14][22]",
+    "experts": "Published studies have focused on facial and neck laxity and wrinkles and describe improvements in scored photographs; a small 2009 body-shaping study of 12 subjects reported falling waist circumference and laxity scores.[2][4][20]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "It is a non-surgical alternative to a facelift",
+    "believers": "The treatment was marketed in the early 2000s as a non-surgical facelift and is positioned as an alternative to or step before surgical lifting.[11][15]",
+    "experts": "A 2007 review judged evidence to support use for mild to moderate laxity, and the 2004 randomised study described overall improvement as modest with relatively high satisfaction.[5][12]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "One treatment is enough and results last one to two years",
+    "believers": "The manufacturer says a single treatment delivers results and that results can last one to two years, with annual maintenance suggested.[24]",
+    "experts": "Studies followed single treatments for up to six months, the 2004 cheek and neck authors noted durability beyond six months was unknown, and a randomised comparison found two treatments scored higher on nasolabial folds.[4][5]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "The results keep improving for months afterwards",
+    "believers": "The manufacturer says improvement continues over about two to six months, and a forum poster said changes take about four months to appear.[14][24]",
+    "experts": "The randomised comparison found both groups improving between one and four months, and the periorbital study scored results at six months.[2][5]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Pain limits how much energy can be delivered, so numbing cream improves results",
+    "believers": "Pain during treatment is the most-discussed drawback, and some patients are reported to have needed sedation.[1]",
+    "experts": "A 2005 trial of 84 women found anaesthesia reduced pain but did not significantly raise tolerated energy levels or change final efficacy.[17]",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "Combining it with skincare products improves outcomes",
+    "believers": "The trial authors suggest the procedure works internally and cosmetics work externally, producing a combined effect.[16]",
+    "experts": "A 2025 randomised trial of 42 women found greater improvements at four weeks in hydration, elasticity, density and texture when products were added to a single Thermage treatment.[16]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "It can treat scars and stretch marks",
+    "believers": "A report combining Thermage with pulsed dye laser described good or very good results in 89.2 percent of 37 patients with stretch marks.[18]",
+    "experts": "A 2005 split-scar study found no clinical difference between treated and untreated hypertrophic and keloid scars, though collagen activity rose.[19]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Radiofrequency skin tightening (Thermage)",
+   "url": "https://en.wikipedia.org/wiki/Thermage",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Multicenter study of noninvasive radiofrequency for periorbital tissue tightening",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14571447/",
+   "source": "Lasers Surg Med",
+   "year": 2003,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Bausch Health Thermage FLX for lower face and submentum (NCT04606368)",
+   "url": "https://clinicaltrials.gov/study/NCT04606368",
+   "source": "ClinicalTrials.gov",
+   "year": 2020,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "Improvement of neck and cheek laxity with a nonablative radiofrequency device",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15056138/",
+   "source": "Dermatol Surg",
+   "year": 2004,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Radiofrequency treatment for middle and lower face laxity",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15545529/",
+   "source": "Arch Facial Plast Surg",
+   "year": 2004,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Monopolar radiofrequency facial tightening: a retrospective analysis of over 600 treatments",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16989184/",
+   "source": "J Drugs Dermatol",
+   "year": 2006,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Thermage FLX system to treat face, neck and eyelids (NCT03894371)",
+   "url": "https://clinicaltrials.gov/study/NCT03894371",
+   "source": "ClinicalTrials.gov",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Prospective controlled study of Thermage FLX (NCT07187297)",
+   "url": "https://clinicaltrials.gov/study/NCT07187297",
+   "source": "ClinicalTrials.gov",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Evaluation of Ulthera versus Thermage for face and neck (NCT01713985)",
+   "url": "https://clinicaltrials.gov/study/NCT01713985",
+   "source": "ClinicalTrials.gov",
+   "year": 2012,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Monopolar radiofrequency device for facial wrinkles (NCT06657365)",
+   "url": "https://clinicaltrials.gov/study/NCT06657365",
+   "source": "ClinicalTrials.gov",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Radio-frequency skin tightening",
+   "url": "https://en.wikipedia.org/wiki/Radio-frequency_skin_tightening",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 12,
+   "title": "Monopolar radiofrequency skin tightening",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17544932/",
+   "source": "Facial Plast Surg Clin North Am",
+   "year": 2007,
+   "type": "review"
+  },
+  {
+   "id": 13,
+   "title": "Is There a Role for Radiofrequency Devices in Hair?",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37325274/",
+   "source": "Skin Appendage Disord",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 14,
+   "title": "Love Handles w/ Low BF (T Nation forum)",
+   "url": "https://t-nation.com/t/love-handles-w-low-bf/64590",
+   "source": "T Nation",
+   "year": 2006,
+   "type": "forum"
+  },
+  {
+   "id": 15,
+   "title": "Non-surgical radiofrequency facelift",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14558396/",
+   "source": "J Drugs Dermatol",
+   "year": 2003,
+   "type": "trial"
+  },
+  {
+   "id": 16,
+   "title": "Short- and long-term effects of adding topical cosmetics to a dermatological procedure (Thermage)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40320875/",
+   "source": "Skin Res Technol",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 17,
+   "title": "Is topical anesthesia useful in noninvasive skin tightening using radiofrequency?",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15962735/",
+   "source": "Dermatol Surg",
+   "year": 2005,
+   "type": "trial"
+  },
+  {
+   "id": 18,
+   "title": "Radiofrequency and 585-nm pulsed dye laser treatment of striae distensae: 37 Asian patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17214676/",
+   "source": "Dermatol Surg",
+   "year": 2007,
+   "type": "trial"
+  },
+  {
+   "id": 19,
+   "title": "Treatment of hypertrophic scars and keloids with a radiofrequency device",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16365887/",
+   "source": "Lasers Surg Med",
+   "year": 2005,
+   "type": "study"
+  },
+  {
+   "id": 20,
+   "title": "Radiofrequency devices for body shaping: a review and study of 12 patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20123422/",
+   "source": "Semin Cutan Med Surg",
+   "year": 2009,
+   "type": "review"
+  },
+  {
+   "id": 21,
+   "title": "Safety of radiofrequency treatment over skin previously injected with soft-tissue augmentation materials",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16532442/",
+   "source": "Lasers Surg Med",
+   "year": 2006,
+   "type": "trial"
+  },
+  {
+   "id": 22,
+   "title": "Help! Loose Skin After Kids (T Nation forum)",
+   "url": "https://t-nation.com/t/help-loose-skin-after-kids/114472",
+   "source": "T Nation",
+   "year": 2008,
+   "type": "forum"
+  },
+  {
+   "id": 23,
+   "title": "Thermage CPT for treatment of facial and neck laxity (NCT01783496)",
+   "url": "https://clinicaltrials.gov/study/NCT01783496",
+   "source": "ClinicalTrials.gov",
+   "year": 2013,
+   "type": "trial"
+  },
+  {
+   "id": 24,
+   "title": "Thermage (manufacturer website)",
+   "url": "https://www.thermage.com/",
+   "source": "Solta Medical / Thermage",
+   "year": 2025,
+   "type": "news"
+  },
+  {
+   "id": 25,
+   "title": "Bausch Health (history of Solta Medical and Thermage FLX)",
+   "url": "https://en.wikipedia.org/wiki/Solta_Medical",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 26,
+   "title": "EyeDentist, How Do You Train? (T Nation forum)",
+   "url": "https://t-nation.com/t/eyedentist-how-do-you-train/202740",
+   "source": "T Nation forum",
+   "year": 2014,
+   "type": "forum"
+  },
+  {
+   "id": 24,
+   "title": "Thermage (manufacturer website)",
+   "url": "https://www.thermage.com/",
+   "source": "Solta Medical / Thermage",
+   "year": 2025,
+   "type": "news"
+  },
+  {
+   "id": 25,
+   "title": "Bausch Health (history of Solta Medical and Thermage FLX)",
+   "url": "https://en.wikipedia.org/wiki/Solta_Medical",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 26,
+   "title": "EyeDentist, How Do You Train? (T Nation forum)",
+   "url": "https://t-nation.com/t/eyedentist-how-do-you-train/202740",
+   "source": "T Nation forum",
+   "year": 2014,
+   "type": "forum"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Thermage",
+   "title": "Radiofrequency skin tightening (Wikipedia, formerly Thermage)"
+  },
+  {
+   "url": "https://www.thermage.com/",
+   "title": "Thermage manufacturer site"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Solta_Medical",
+   "title": "Solta Medical / Bausch Health - Wikipedia"
+  }
+ ]
 }

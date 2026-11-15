@@ -51,6 +51,19 @@
    ]
   },
   {
+   "h": "Source of the growth factors",
+   "paras": [
+    "Many growth-factor serums obtain their proteins from cultured skin cells or their conditioned medium, the liquid in which cells such as fibroblasts have been grown, while others use recombinant proteins made in laboratory expression systems. A 2024 review in Dermatologic Surgery on human fibroblast-derived regenerative skincare concluded that fibroblast-conditioned-media skincare may reduce photodamage, fine lines, wrinkles and sagging, and may support recovery after in-office procedures; its authors were affiliated with an aesthetics company [5].",
+    "In wound biology, platelets release PDGF, IGF-1, EGF and TGF-beta, which recruit and activate macrophages, fibroblasts and endothelial cells [2]. Platelet-rich plasma products used in clinics draw on this idea, and serums are marketed as a topical, non-injected counterpart."
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Growth-factor serums sit in the cosmeceutical category, which Wikipedia says US law does not recognise; a product with drug properties must be approved as a drug, and cosmetics do not need to prove their claims before sale [1]. They are marketed for anti-ageing, firmness and post-procedure recovery, and aesthetic practices often pair them with microneedling [4][5]. Wikipedia's microneedling article records that the 2024 CDC report of three women diagnosed with HIV after vampire facials at one Albuquerque spa drew attention to infection-control standards in needling and blood-derived treatments [4]."
+   ]
+  },
+  {
    "h": "Regulation and safety",
    "paras": [
     "Wikipedia notes that in the US cosmetic products have no legal requirement to prove their claims, and that the term cosmeceutical can lead consumers to assume drug-level testing.[1] TGF-beta also has roles in scarring and fibrosis, and in cancer biology it can promote tumour progression when its control pathways are disrupted;[3] these roles concern signalling inside tissue rather than cosmetic use, and no study located addresses cosmetic serums. Users commonly patch test new serums.",
@@ -60,11 +73,20 @@
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found."
+    "No studies found. No published clinical trial of a TGF-beta serum specifically was identified. Related research on the wider category of growth-factor and conditioned-media skincare includes a 2025 systematic review in Stem Cell Research & Therapy of 19 studies with 624 patients, mostly conditioned-media products, which reported statistically significant gains of about 27 percent in elasticity, over 10 percent fewer wrinkles and over 20 percent more hydration, with only transient mild erythema, and called for higher-quality, longer-term trials [6]. A 2026 12-week double-blind pilot of 20 women aged 50 to 65 compared synthetic and human-derived topical epidermal growth factor, with investigators rating texture and firmness better in the recombinant group at later visits and wrinkle severity changing little in either group [7]. These studies concern other growth factors or conditioned media, not TGF-beta serums."
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "2024",
+   "event": "Review of human fibroblast-derived regenerative skincare published in Dermatologic Surgery [5]."
+  },
+  {
+   "year": "2025",
+   "event": "Systematic review of conditioned media and vesicles for rejuvenation covers 19 studies [6]."
+  }
+ ],
  "lore": null,
  "refs": [
   {
@@ -98,6 +120,30 @@
    "source": "Wikipedia",
    "year": null,
    "type": "encyclopedia"
+  },
+  {
+   "id": 5,
+   "title": "Human fibroblast-derived regenerative skincare: growth factors and exosomes (Cheng 2024) - Europe PMC record",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(%22TNS%20Recovery%22%20OR%20%22nouricel%22%20OR%20%22fibroblast%20conditioned%20media%22%20OR%20%22growth%20factors%20and%20cytokines%22)%20AND%20(skin%20OR%20facial)%20AND%20(photoaging%20OR%20rejuvenation%20OR%20wrinkles%20OR%20photodamage)&resultType=core&format=json&pageSize=10",
+   "source": "Europe PMC / Dermatol Surg",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Systematic review: extracellular vesicles and conditioned media for rejuvenation and lightening (Jafarzadeh 2025) - Europe PMC record",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(%22TNS%20Recovery%22%20OR%20%22nouricel%22%20OR%20%22fibroblast%20conditioned%20media%22%20OR%20%22growth%20factors%20and%20cytokines%22)%20AND%20(skin%20OR%20facial)%20AND%20(photoaging%20OR%20rejuvenation%20OR%20wrinkles%20OR%20photodamage)&resultType=core&format=json&pageSize=10",
+   "source": "Europe PMC / Stem Cell Res Ther",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Pilot RCT of synthetic versus human-derived topical EGF for facial rejuvenation (Abud 2026) - Europe PMC record",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(%22TNS%20Recovery%22%20OR%20%22nouricel%22%20OR%20%22fibroblast%20conditioned%20media%22%20OR%20%22growth%20factors%20and%20cytokines%22)%20AND%20(skin%20OR%20facial)%20AND%20(photoaging%20OR%20rejuvenation%20OR%20wrinkles%20OR%20photodamage)&resultType=core&format=json&pageSize=10",
+   "source": "Europe PMC / J Cosmet Dermatol",
+   "year": 2026,
+   "type": "trial"
   }
  ],
  "webSources": [
@@ -116,6 +162,10 @@
   {
    "url": "https://en.wikipedia.org/wiki/Microneedling",
    "title": "Microneedling"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(%22TNS%20Recovery%22%20OR%20%22nouricel%22%20OR%20%22fibroblast%20conditioned%20media%22%20OR%20%22growth%20factors%20and%20cytokines%22)%20AND%20(skin%20OR%20facial)%20AND%20(photoaging%20OR%20rejuvenation%20OR%20wrinkles%20OR%20photodamage)&resultType=core&format=json&pageSize=10",
+   "title": "Europe PMC search: growth factor and conditioned media skincare"
   }
  ],
  "name": "TGF-beta growth factor serums",

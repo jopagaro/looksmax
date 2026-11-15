@@ -1,74 +1,316 @@
 {
-  "name": "Tip plasty / cartilage grafting",
-  "lead": [
-    "Tip plasty (nasal tip refinement) is the part of rhinoplasty that reshapes, repositions or supports the nasal tip, using cartilage sutures, cartilage excision or cartilage grafts. It is generally described as one of the technically more demanding parts of nose surgery.[1][2]",
-    "In looksmaxxing communities it is discussed as the surgical route for a bulbous, wide or underprojected tip. The surgical literature on tip work is large and mostly consists of technique papers and retrospective series; a handful of small registered trials compare specific tip-support techniques.[3][4]"
+ "name": "Tip plasty / cartilage grafting",
+ "card": {
+  "summary": "Surgical reshaping of the nose tip with sutures and cartilage grafts; an established rhinoplasty step backed by technique papers, not large trials.",
+  "aka": "Nasal tip refinement, tip rhinoplasty",
+  "evidence": "moderate",
+  "risk": "moderate",
+  "note": "Revision rhinoplasty is reported in roughly 5-20% of nose surgeries overall.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Tip plasty reshapes or supports the end of the nose, using sutures, trimming or cartilage grafts, typically taken from the septum, ear or rib. It is aimed at bulbous, wide or underprojected tips.\n\nThe surgical literature is extensive but mostly technique descriptions and retrospective series, with a few small trials of specific graft or strut methods.",
+  "mechanism": "Surgeons alter the tip cartilages with stitches, add grafts that change contour or projection, or reposition the cartilage, often through an open approach.",
+  "risks": "Wikipedia reports that secondary rhinoplasty occurs in roughly 5-20% of operations, and tip or dorsal irregularities are among the reasons. Graft complications, including those of septal extension grafts in Asian patients, have been documented in case series."
+ },
+ "lead": [
+  "Tip plasty (nasal tip refinement) is the part of rhinoplasty that reshapes, repositions or supports the nasal tip, using cartilage sutures, cartilage excision or cartilage grafts. It is generally described as one of the technically more demanding parts of nose surgery.[1][2]",
+  "In looksmaxxing communities it is discussed as the surgical route for a bulbous, wide or underprojected tip. For appearance, tip work changes how the nose reads from the front and in profile: narrowing a wide or bulbous lobule, lifting or rotating a drooping tip, and adding projection so the nose looks better defined.[7][2] Cartilage grafts also support the tip so the new shape holds while swelling resolves, which Wikipedia notes can take at least a year.[7]",
+  "The surgical literature on tip work is large and mostly consists of technique papers, reviews and retrospective series; a handful of small registered trials compare specific tip-support techniques.[1][3][12][13][14][15]"
+ ],
+ "angle": {
+  "goal": "Nose",
+  "chain": [
+   "Surgeon reshapes or supports the tip cartilages with sutures or grafts",
+   "Tip becomes narrower, more projected or better rotated",
+   "Nose looks more defined from the front and in profile"
   ],
-  "infobox": [
-    ["Type", "Surgical (rhinoplasty component)"],
-    ["Techniques", "Cartilage sutures, grafts, struts, excision"],
-    ["Grafts from", "Septum, ear, rib cartilage"],
-    ["Approach", "Open or closed"]
+  "effect": "direct",
+  "text": "Tip surgery changes the shape, rotation and projection of the end of the nose, and grafts hold the result in place. The final contour appears as swelling subsides over months."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Surgical (rhinoplasty component)"
   ],
-  "sections": [
-    {
-      "h": "Techniques",
-      "paras": [
-        "A 1994 paper in Plastic and Reconstructive Surgery proposed a systematic approach to primary tip rhinoplasty that favours techniques preserving the structural integrity of the alar rim cartilage strips and limits scoring or morselization, which the authors associated with weaker support and secondary deformity.[1]",
-        "Suture techniques have been used for decades; a 2003 history traced the evolution of the main tip sutures,[5] and a 2008 article described five basic sutures (transdomal, interdomal, lateral crural mattress, columella-septal and intercrural) combined in an algorithm to control the shape of tip cartilage.[6] A further review covers suture techniques in rhinoplasty.[7] Older tip operations such as the Goldman tip have also been modified for wide or bulbous lobules.[8]"
-      ]
-    },
-    {
-      "h": "Cartilage grafting",
-      "paras": [
-        "Grafts are used to add support or change contour. Wikipedia's rhinoplasty article notes that surgeons usually harvest cartilage from the septum first and turn to ear or rib cartilage when more is needed, as often occurs in revision surgery.[9] A review of nasal tip grafts catalogues graft designs,[10] and a 2014 study reported complications of septal extension grafts in Asian patients.[11]"
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "Evidence is mostly retrospective case series and technique papers. Registered trials include a completed phase 4 study of a columellar strut's effect on tip rotation (n=92),[12] a completed study of a new tip-plasty concept in Asian rhinoplasty (n=161),[13] a completed comparison of a septal advancement flap and a columellar strut (n=30),[14] and a recruiting trial of lateral crural steal with columellar strut graft (n=22).[15] Results are not summarised here because they were not reviewed in published form."
-      ]
-    }
+  [
+   "Techniques",
+   "Cartilage sutures, grafts, struts, excision[1][4][8]"
   ],
-  "timeline": [
-    {"year": "1985", "event": "A modification of the Goldman tip for wide or bulbous lobules is described.[8]"},
-    {"year": "1994", "event": "A systematic approach to tip shaping without structural disruption is published.[1]"},
-    {"year": "2003", "event": "The evolution of nasal tip suture techniques is reviewed.[5]"},
-    {"year": "2008", "event": "A five-suture algorithm with a universal horizontal mattress suture is described.[6]"}
+  [
+   "Grafts from",
+   "Septum, ear, rib cartilage[7]"
   ],
-  "lore": null,
-  "refs": [
-    {"id": 1, "title": "Shaping and positioning the nasal tip without structural disruption: a new, systematic approach", "url": "https://pubmed.ncbi.nlm.nih.gov/8016254/", "source": "Plastic and Reconstructive Surgery", "year": 1994, "type": "review"},
-    {"id": 2, "title": "Surface Aesthetics in Tip Rhinoplasty: A Step-by-Step Guide", "url": "https://pubmed.ncbi.nlm.nih.gov/24936094/", "source": "Aesthetic Surgery Journal", "year": 2014, "type": "review"},
-    {"id": 3, "title": "Lateral Crural Steal With Columellar Strut Graft in Primary Open Rhinoplasty (NCT07317947)", "url": "https://clinicaltrials.gov/study/NCT07317947", "source": "ClinicalTrials.gov", "year": 2026, "type": "trial"},
-    {"id": 4, "title": "Evaluation Of Cloumella Strut Effect In Tip Rotation (NCT00467714)", "url": "https://clinicaltrials.gov/study/NCT00467714", "source": "ClinicalTrials.gov", "year": 2007, "type": "trial"},
-    {"id": 5, "title": "Nasal tip sutures part I: the evolution", "url": "https://pubmed.ncbi.nlm.nih.gov/12973232/", "source": "Plastic and Reconstructive Surgery", "year": 2003, "type": "review"},
-    {"id": 6, "title": "Suture techniques for the nasal tip", "url": "https://pubmed.ncbi.nlm.nih.gov/19083512/", "source": "Aesthetic Surgery Journal", "year": 2008, "type": "review"},
-    {"id": 7, "title": "Suture techniques in rhinoplasty", "url": "https://pubmed.ncbi.nlm.nih.gov/20206741/", "source": "Clinics in Plastic Surgery", "year": 2010, "type": "review"},
-    {"id": 8, "title": "A new twist in nasal tip surgery. An alternative to the Goldman tip for the wide or bulbous lobule", "url": "https://pubmed.ncbi.nlm.nih.gov/3896210/", "source": "Archives of Otolaryngology", "year": 1985, "type": "study"},
-    {"id": 9, "title": "Rhinoplasty (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Rhinoplasty", "source": "Wikipedia", "year": 2026, "type": "encyclopedia"},
-    {"id": 10, "title": "Nasal Tip Grafts", "url": "https://pubmed.ncbi.nlm.nih.gov/30234713/", "source": "Journal of Craniofacial Surgery", "year": 2018, "type": "review"},
-    {"id": 11, "title": "Complications of septal extension grafts in Asian patients", "url": "https://pubmed.ncbi.nlm.nih.gov/24526131/", "source": "JAMA Facial Plastic Surgery", "year": 2014, "type": "study"},
-    {"id": 12, "title": "Evaluation Of Cloumella Strut Effect In Tip Rotation", "url": "https://clinicaltrials.gov/study/NCT00467714", "source": "ClinicalTrials.gov", "year": 2007, "type": "trial"},
-    {"id": 13, "title": "A New Concept in the Tip Plasty of Asian Rhinoplasty", "url": "https://clinicaltrials.gov/study/NCT02224001", "source": "ClinicalTrials.gov", "year": 2008, "type": "trial"},
-    {"id": 14, "title": "Comparison of Septal Advancement Flap and Columellar Strut Effect on Nasal Tip", "url": "https://clinicaltrials.gov/study/NCT06370455", "source": "ClinicalTrials.gov", "year": 2024, "type": "trial"},
-    {"id": 15, "title": "Lateral Crural Steal With Columellar Strut Graft in Primary Open Rhinoplasty", "url": "https://clinicaltrials.gov/study/NCT07317947", "source": "ClinicalTrials.gov", "year": 2026, "type": "trial"}
+  [
+   "Approach",
+   "Open or closed[7]"
   ],
-  "webSources": [
-    {"url": "https://en.wikipedia.org/wiki/Rhinoplasty", "title": "Rhinoplasty (Wikipedia)"}
+  [
+   "Swelling resolution",
+   "At least a year[7]"
   ],
-  "card": {
-    "summary": "Surgical reshaping of the nose tip with sutures and cartilage grafts; an established rhinoplasty step backed by technique papers, not large trials.",
-    "aka": "Nasal tip refinement, tip rhinoplasty",
-    "evidence": "moderate",
-    "risk": "moderate",
-    "note": "Revision rhinoplasty is reported in roughly 5-20% of nose surgeries overall.",
-    "structure": null
+  [
+   "Revision rate",
+   "Roughly 5 to 20 percent of rhinoplasties[7]"
+  ],
+  [
+   "Closed rhinoplasty origin",
+   "Roe, 1887; open approach Rethi, 1934[7]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "What the tip is and what is changed",
+   "paras": [
+    "The skin over the lower third of the nose is thicker, less mobile and richer in sebaceous glands than skin higher up, which can hide the cartilage framework, so the tip often needs more aggressive sculpting.[7] Surgeons assess tip projection with ratios; Wikipedia cites the Goode method, which targets about 0.55 to 0.60, and Crumley and Lanser's ideal 3-4-5 right triangle formed by the nasion, alar crease and tip.[7]",
+    "Common goals include narrowing a wide tip by suturing the folded tip cartilage to tighten its apex, adjusting rotation and projection, and refining the lines and highlights seen on the tip surface. A 2014 Aesthetic Surgery Journal paper links the visible lines, shadows and highlights of the tip to the cartilage anatomy beneath so that deformities can be identified and corrected, and its principal author reports using the techniques in 257 cases over three years.[2]"
+   ]
   },
-  "quick": {
-    "overview": "Tip plasty reshapes or supports the end of the nose, using sutures, trimming or cartilage grafts, typically taken from the septum, ear or rib. It is aimed at bulbous, wide or underprojected tips.\n\nThe surgical literature is extensive but mostly technique descriptions and retrospective series, with a few small trials of specific graft or strut methods.",
-    "mechanism": "Surgeons alter the tip cartilages with stitches, add grafts that change contour or projection, or reposition the cartilage, often through an open approach.",
-    "risks": "Wikipedia reports that secondary rhinoplasty occurs in roughly 5-20% of operations, and tip or dorsal irregularities are among the reasons. Graft complications, including those of septal extension grafts in Asian patients, have been documented in case series."
+  {
+   "h": "Techniques",
+   "subs": [
+    {
+     "h": "Preserving structure",
+     "paras": [
+      "A 1994 paper in Plastic and Reconstructive Surgery proposed a systematic approach to primary tip rhinoplasty that preserves the structural integrity of the alar cartilages and uses reversible permanent sutures and hidden control grafts rather than visible grafts. It was developed on ten cadaver dissections and used in 233 rhinoplasties with 1 to 9 years of follow-up.[1] The authors associated scoring and morselizing of cartilage with weaker support and secondary deformity.[1]"
+     ]
+    },
+    {
+     "h": "Sutures",
+     "paras": [
+      "A 2003 history traced how tip sutures evolved: early techniques sacrificed lateral crural integrity to build projection and often caused tip drop and asymmetry, while modern methods reshape and reposition the tip components.[3] A 2008 article described five basic sutures (transdomal, interdomal, lateral crural mattress, columella-septal and intercrural) combined in an algorithm, plus a universal horizontal mattress suture for unwanted convexities and concavities.[4] A 2010 review proposed a four-suture algorithm for primary rhinoplasty usable in open and closed approaches, highlighting the hemi-transdomal suture, which narrows the dome and slightly everts the lateral crus to avoid nostril rim concavities.[5]"
+     ]
+    },
+    {
+     "h": "Cartilage modification",
+     "paras": [
+      "For wide, bulbous or bifid lobules, a 1985 paper described a modification of the Goldman tip that morselizes, incises and sutures alar cartilages to make a stronger, more triangular lobule, with results the authors called comparable to the classic Goldman tip and a lower risk of cartilage displacement.[6] The 2014 surface aesthetics paper also describes autorim grafts, the lateral crural steal and footplate setback for symmetric domes.[2]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Open and closed approaches",
+   "paras": [
+    "Open rhinoplasty adds a columellar incision and gives better access and precision at the tip, which is why it is usually preferred for revision surgery. Closed rhinoplasty uses internal incisions and is associated with less swelling, less visible scarring, less risk of over-reducing tip support, shorter operating time and faster recovery.[7] Wikipedia reports that systematic reviews and meta-analyses find no significant long-term difference in functional or aesthetic scores between the two, and that surgeon experience and the patient's anatomy mainly determine the choice.[7]",
+    "Wikipedia's history credits Roe with the first modern closed rhinoplasty in 1887, Rethi with introducing the open approach in 1934, Cottle with championing closed surgery in 1947, Padovan and Goodman with promoting open rhinoplasty in the 1970s, and Gunter with advancing revision techniques in 1987.[7]"
+   ]
+  },
+  {
+   "h": "Cartilage grafting",
+   "paras": [
+    "Grafts add support or change contour. Surgeons usually harvest septal cartilage first and use ear (concha) or rib cartilage when more is needed, as often occurs in revision surgery; bone grafts and synthetic implants are used when autologous cartilage is not available.[7] A 2018 narrative review in the Journal of Craniofacial Surgery describes the main tip grafts as floating, onlay, columellar strut, caudal septal extension, shield, alar batten, lateral crural strut and alar rim grafts, and concludes they are a flexible option when sutures alone are insufficient.[8]",
+    "For tip support, Wikipedia says a septal extension graft gives more control and changes less over time than a columellar strut.[7] Rib cartilage struts are an option when septal cartilage is too weak, ear cartilage serves as onlay or alar grafts, and shield-shaped onlay grafts are often stacked in two layers to produce a natural light reflection at the tip.[7]",
+    "Donor-site comfort has been studied for rib cartilage. A 2018 prospective, non-randomized cohort of 19 rhinoplasty patients compared muscle-sparing with muscle-cutting costal cartilage harvest and found higher pain scores and more analgesic use in the muscle-cutting group; the authors recommended routine use of the muscle-sparing technique.[11]"
+   ]
+  },
+  {
+   "h": "Risks and revision",
+   "paras": [
+    "Over-resection of tip cartilage is associated with a pinched tip, an aggressive cephalic trim with bossae, and loss of tip projection with a pollybeak deformity, which Wikipedia says accounts for about half of revision rhinoplasties; an over-rotated tip can show too much of the nostrils, and incorrect columella cuts can cause numbness lasting months.[7] Wikipedia puts the need for secondary rhinoplasty at roughly 5 to 20 percent of operations, notes that tobacco smoking compromises healing, and that fat grafting may speed resolution of swelling and bruising.[7]",
+    "Open cases are typically taped and splinted, with the dressing removed at about one week, and swelling can take at least a year to resolve.[7] Graft-specific complications have been described: in a 2014 retrospective series of septal extension grafts in Asian patients, common complications were tip stiffness and reduced projection (each 45.5 percent), tip deviation and infection.[9]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Evidence consists largely of technique papers, reviews and retrospective series. A 2014 JAMA Facial Plastic Surgery review of 44 consecutive patients who had tip surgery with a septal extension graft reported about 86 percent satisfaction with tip appearance, a 9.0 percent revision rate, and complications including tip stiffness, reduced projection, deviation (11.4 percent) and infection (4.5 percent).[9]",
+    "A 2025 randomized controlled trial in Aesthetic Plastic Surgery enrolled 50 patients with plunging tips undergoing septorhinoplasty with tongue-in-groove tip plasty, with or without depressor septi transposition. Both groups showed a significant reduction in smile-related tip drooping at one year, with no meaningful difference between groups in tip angle, alar position, nasolabial angle or satisfaction.[10]",
+    "Registered trials include a completed phase 4 study of a columellar strut's effect on tip rotation (92 participants, started 2007),[12] a completed study of a new tip-plasty concept in Asian rhinoplasty (161 participants, started 2008),[13] a completed comparison of a septal advancement flap and a columellar strut (30 participants, started 2024),[14] and a recruiting trial of lateral crural steal with columellar strut graft (22 participants, started 2026).[15]"
+   ]
+  },
+  {
+   "h": "Social media and public interest",
+   "paras": [
+    "Wikipedia notes that the #NoseJobCheck trend appeared on TikTok in early 2021, with users posting before-and-after videos; the trend audio appeared in over 120,000 videos between October 2020 and January 2021, and the hashtag passed one billion views.[7] It also cites a 2021 Insider report in which a test account set to age 14 was shown a plastic surgeon's promotional video within eight minutes.[7]"
+   ]
   }
+ ],
+ "timeline": [
+  {
+   "year": "1887",
+   "event": "Roe performs the first modern closed rhinoplasty.[7]"
+  },
+  {
+   "year": "1934",
+   "event": "Rethi introduces the open approach.[7]"
+  },
+  {
+   "year": "1947",
+   "event": "Cottle champions closed rhinoplasty.[7]"
+  },
+  {
+   "year": "1985",
+   "event": "A modification of the Goldman tip for wide or bulbous lobules is described.[6]"
+  },
+  {
+   "year": "1987",
+   "event": "Gunter advances revision rhinoplasty techniques.[7]"
+  },
+  {
+   "year": "1994",
+   "event": "A systematic approach to tip shaping without structural disruption is published.[1]"
+  },
+  {
+   "year": "2003",
+   "event": "The evolution of nasal tip suture techniques is reviewed.[3]"
+  },
+  {
+   "year": "2008",
+   "event": "A five-suture algorithm with a universal horizontal mattress suture is described.[4]"
+  },
+  {
+   "year": "2010",
+   "event": "A four-suture algorithm for primary rhinoplasty is published.[5]"
+  },
+  {
+   "year": "2014",
+   "event": "Surface aesthetics guide and a series on septal extension grafts in Asian patients are published.[2][9]"
+  },
+  {
+   "year": "2018",
+   "event": "Reviews of nasal tip grafts and a costal cartilage donor-site pain study appear.[8][11]"
+  },
+  {
+   "year": "2021",
+   "event": "#NoseJobCheck trend spreads on TikTok.[7]"
+  },
+  {
+   "year": "2025",
+   "event": "Randomized trial of depressor septi transposition with tongue-in-groove tip plasty is published.[10]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Shaping and positioning the nasal tip without structural disruption: a new, systematic approach",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8016254/",
+   "source": "Plastic and Reconstructive Surgery",
+   "year": 1994,
+   "type": "review"
+  },
+  {
+   "id": 2,
+   "title": "Surface Aesthetics in Tip Rhinoplasty: A Step-by-Step Guide",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24936094/",
+   "source": "Aesthetic Surgery Journal",
+   "year": 2014,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Nasal tip sutures part I: the evolution",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12973232/",
+   "source": "Plastic and Reconstructive Surgery",
+   "year": 2003,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Suture techniques for the nasal tip",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19083512/",
+   "source": "Aesthetic Surgery Journal",
+   "year": 2008,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Suture techniques in rhinoplasty",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20206741/",
+   "source": "Clinics in Plastic Surgery",
+   "year": 2010,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "A new twist in nasal tip surgery. An alternative to the Goldman tip for the wide or bulbous lobule",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/3896210/",
+   "source": "Archives of Otolaryngology",
+   "year": 1985,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Rhinoplasty (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Rhinoplasty",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 8,
+   "title": "Nasal Tip Grafts",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30234713/",
+   "source": "Journal of Craniofacial Surgery",
+   "year": 2018,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "Complications of septal extension grafts in Asian patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24526131/",
+   "source": "JAMA Facial Plastic Surgery",
+   "year": 2014,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Effect of Depressor Septi Transposition on Preventing Tip Droop During Smiling in Tongue-in-Groove Tip Plasty: A Randomized Controlled Trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40437118/",
+   "source": "Aesthetic Plastic Surgery",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Association of Autologous Costal Cartilage Harvesting Technique With Donor-Site Pain in Patients Undergoing Rhinoplasty",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28975239/",
+   "source": "JAMA Facial Plastic Surgery",
+   "year": 2018,
+   "type": "study"
+  },
+  {
+   "id": 12,
+   "title": "Evaluation Of Cloumella Strut Effect In Tip Rotation",
+   "url": "https://clinicaltrials.gov/study/NCT00467714",
+   "source": "ClinicalTrials.gov",
+   "year": 2007,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "A New Concept in the Tip Plasty of Asian Rhinoplasty",
+   "url": "https://clinicaltrials.gov/study/NCT02224001",
+   "source": "ClinicalTrials.gov",
+   "year": 2008,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "Comparison of Septal Advancement Flap and Columellar Strut Effect on Nasal Tip",
+   "url": "https://clinicaltrials.gov/study/NCT06370455",
+   "source": "ClinicalTrials.gov",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 15,
+   "title": "Lateral Crural Steal With Columellar Strut Graft in Primary Open Rhinoplasty",
+   "url": "https://clinicaltrials.gov/study/NCT07317947",
+   "source": "ClinicalTrials.gov",
+   "year": 2026,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Rhinoplasty",
+   "title": "Rhinoplasty - Wikipedia"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:40437118",
+   "title": "Europe PMC record data for cited studies"
+  }
+ ]
 }

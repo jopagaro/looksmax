@@ -1,31 +1,29 @@
 {
  "name": "Dihexa",
- "card": {
-  "summary": "An experimental angiotensin IV-derived peptide studied in rodents for memory; it has no published human trials and no link to appearance.",
-  "aka": null,
-  "evidence": "unproven",
-  "status": "research",
-  "risk": "high",
-  "note": "No human data; long half-life in rats has prompted theoretical c-Met-related tumor concerns.",
-  "structure": null
- },
- "quick": {
-  "overview": "Dihexa is a laboratory-made peptide derived from angiotensin IV, designed to resist breakdown and cross the blood-brain barrier. It has been studied in rodents for memory impairment and in an Alzheimer mouse model.\n\nIt is sold as a research chemical and discussed as a nootropic. No human clinical trial has been published, and it is not an appearance compound.",
-  "mechanism": "Reported to bind hepatocyte growth factor and potentiate signalling through the c-Met receptor, promoting synapse formation in cell cultures; a 2021 mouse study linked its effects to the PI3K/AKT pathway.",
-  "risks": "Human safety is unknown. Authors have raised the theoretical concern that sustained c-Met activation could promote tumors. It is not an approved drug."
- },
  "lead": [
-  "Dihexa is a synthetic oligopeptide analog of angiotensin IV, modified to be more stable and to penetrate the brain [1][2]. It emerged from work on angiotensin IV analogs as potential antidementia agents [2][3].",
-  "Preclinical studies report that angiotensin IV-derived peptides act through the hepatocyte growth factor/c-Met system [4], and a 2021 study reported that dihexa rescued cognitive impairment in the APP/PS1 Alzheimer mouse model [5]. No human clinical trials have been published."
+  "Dihexa (developmental code PNB-0408) is a synthetic oligopeptide analog of angiotensin IV, modified to be metabolically stable and to cross the blood-brain barrier [1][2][7]. It emerged from work on angiotensin IV analogs as potential antidementia agents at Washington State University [2][3][7]. In nootropic and biohacking circles it is discussed as a memory and learning enhancer; the link to looks runs through the idea that sharper cognition and focus support study, work and training consistency, a connection that is indirect and claimed rather than studied.",
+  "Preclinical studies report that angiotensin IV-derived peptides act by potentiating the hepatocyte growth factor (HGF)/c-Met system, and a 2021 study reported that dihexa rescued cognitive impairment in the APP/PS1 Alzheimer mouse model [4][5]. A systematic review of animal studies found Ang IV and its analogs, including dihexa, improved spatial working memory and passive avoidance in most models of cognitive deficit [8]. No human clinical trials of dihexa have been published [7]."
  ],
  "infobox": [
   [
    "Class",
-   "Synthetic peptide, angiotensin IV analog"
+   "Synthetic peptide, angiotensin IV analog [1][7]"
+  ],
+  [
+   "Code name",
+   "PNB-0408 [7]"
   ],
   [
    "Formula",
-   "C27H44N4O5 [1]"
+   "C27H44N4O5; molar mass 504.67 g/mol [1][7]"
+  ],
+  [
+   "Developed by",
+   "Joseph Harding and colleagues, Washington State University [7]"
+  ],
+  [
+   "Commercial developer",
+   "M3 Biotechnology [7]"
   ],
   [
    "Status",
@@ -33,38 +31,84 @@
   ],
   [
    "Human trials",
-   "None published"
+   "None published for dihexa; prodrug fosgonimeton studied in neurodegeneration [7]"
   ]
  ],
  "sections": [
   {
    "h": "Pharmacology",
+   "subs": [
+    {
+     "h": "Mechanism of action",
+     "paras": [
+      "A 2014 paper reported that dihexa binds with high affinity to HGF, induces c-Met phosphorylation in the presence of low HGF concentrations, and induces hippocampal spinogenesis and synaptogenesis; the effects were blocked by an HGF antagonist [4]. PubMed lists that paper as a retracted publication, so its mechanism claims are treated with caution [4]. Reviewers continue to describe the HGF/c-Met system as a target for Alzheimer's disease treatment [6]. Wikipedia reports that dihexa was found to be seven orders of magnitude more potent than BDNF in a neurotrophic-activity assay [7]. Grokipedia gives a dissociation constant of 65 pM for HGF binding and a long half-life in rats [1]."
+     ]
+    },
+    {
+     "h": "Chemistry",
+     "paras": [
+      "Dihexa is N-hexanoic-tyrosine-isoleucine-(6) aminohexanoic amide. Compared with angiotensin IV, an N-terminal hexanoyl group and a C-terminal aminohexanoic amide protect it from peptidases and raise lipophilicity [1][2]. Researchers describe it as orally active and blood-brain-barrier permeable in rodents [2][4]. It is derived from the parent molecule Nle1-angiotensin IV [6]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "History",
    "paras": [
-    "Reviewers describe the HGF/c-Met system as a target for Alzheimer disease treatment [6]. Research indicates that procognitive and synaptogenic effects of angiotensin IV-derived peptides depend on activating this system [4]. Grokipedia reports high-affinity binding to hepatocyte growth factor and a long half-life in rats [1]."
+    "Angiotensin IV-related peptides have been recognised as procognitive agents for years, but susceptibility to metabolic breakdown and poor gut and brain penetration limited their development as drugs [2]. Joseph Harding and colleagues at Washington State University developed dihexa as a stabilised analog; M3 Biotechnology was founded to commercialise it [7]. Reviews in 2015 placed it within small-molecule angiotensin IV analogs for Alzheimer's and Parkinson's disease [3][6]. A related phosphate prodrug, fosgonimeton, has gone into clinical trials for neurodegenerative conditions [7]."
+   ]
+  },
+  {
+   "h": "Research",
+   "paras": [
+    "A 2013 evaluation of metabolically stabilised angiotensin IV analogs examined them as procognitive and antidementia agents [2]. A 2021 study in APP/PS1 mice used different oral doses of dihexa and reported improved memory and activation of PI3K/AKT signalling [5]. In a zebrafish model, a 2015 study reported that dihexa protected lateral line hair cells from aminoglycoside toxicity, interpreted as an HGF-mimetic effect [9]. Wikipedia notes that a patent reports no apparent toxicity in short-duration safety studies and no neoplastic induction, a point of interest because c-Met is an oncogene, while marking the claim as lacking an independent citation [7]. A 2026 review of therapeutic peptides in orthopaedics lists dihexa among neuroactive peptides while noting a lack of clinical trials for the field [10]."
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found. Related research is preclinical: a mouse Alzheimer model study reported improved memory and activation of PI3K/AKT signalling [5]."
+    "No studies found. Related research is preclinical: a mouse Alzheimer model study reported improved memory and activation of PI3K/AKT signalling [5], and a systematic review of 32 animal studies of angiotensin IV and its analogs reported benefits on memory tasks in most cognitive-deficit models [8]."
    ]
   },
   {
    "h": "Society and culture",
    "paras": [
-    "It is sold as a research chemical and discussed among nootropic users. No community sources are cited here."
+    "Dihexa is sold by chemical suppliers as a research chemical and is discussed among nootropic users. It has no approved indication and no marketing authorisation, and Wikipedia lists no legal-status information [7]. The research compound conversation tends to pair cognitive claims with the theoretical c-Met concern, because long half-life in rats and an oncogene-linked pathway have prompted caution in commentary [1][7]."
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "2013",
+   "event": "Metabolically stabilised angiotensin IV analogs, including dihexa, are evaluated as procognitive agents [2]."
+  },
+  {
+   "year": "2014",
+   "event": "Study reports that dihexa acts through HGF/c-Met (later listed as retracted) [4]."
+  },
+  {
+   "year": "2021",
+   "event": "Dihexa reported to rescue cognitive impairment in APP/PS1 mice [5]."
+  }
+ ],
  "lore": null,
+ "angle": {
+  "goal": "Cognition and recovery",
+  "chain": [
+   "Peptide that potentiates HGF/c-Met signalling",
+   "Reported synapse formation and better memory in rodents",
+   "Claimed sharper learning and focus, which supports consistency in training and study"
+  ],
+  "effect": "claimed",
+  "text": "Users who take research peptides for cognition expect better focus and memory, which they connect to more consistent habits and work. Evidence is limited to animal and cell studies, and dihexa has no direct appearance effect."
+ },
  "refs": [
   {
    "id": 1,
    "title": "Dihexa",
    "url": "https://grokipedia.com/page/Dihexa",
    "source": "Grokipedia",
-   "year": 2025,
+   "year": 2026,
    "type": "encyclopedia"
   },
   {
@@ -85,7 +129,7 @@
   },
   {
    "id": 4,
-   "title": "The procognitive and synaptogenic effects of angiotensin IV-derived peptides are dependent on activation of the hepatocyte growth factor/c-met system",
+   "title": "The procognitive and synaptogenic effects of angiotensin IV-derived peptides are dependent on activation of the HGF/c-Met system (retracted publication)",
    "url": "https://pubmed.ncbi.nlm.nih.gov/25187433/",
    "source": "J Pharmacol Exp Ther",
    "year": 2014,
@@ -106,7 +150,58 @@
    "source": "Journal of Alzheimer's Disease",
    "year": 2015,
    "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Dihexa",
+   "url": "https://en.wikipedia.org/wiki/Dihexa",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 8,
+   "title": "Cognitive benefits of angiotensin IV and angiotensin-(1-7): A systematic review of experimental studies",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29733881/",
+   "source": "Neurosci Biobehav Rev",
+   "year": 2018,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "Hepatocyte growth factor mimetic protects lateral line hair cells from aminoglycoside exposure",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25674052/",
+   "source": "Frontiers in Cellular Neuroscience",
+   "year": 2015,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Therapeutic Peptides in Orthopaedics: Applications, Challenges, and Future Directions",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41490200/",
+   "source": "JAAOS Global Research & Reviews",
+   "year": 2026,
+   "type": "review"
   }
  ],
- "webSources": []
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Dihexa",
+   "title": "Dihexa - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "An experimental angiotensin IV-derived peptide studied in rodents for memory; it has no published human trials and no link to appearance.",
+  "aka": null,
+  "evidence": "unproven",
+  "status": "research",
+  "risk": "high",
+  "note": "No human data; long half-life in rats has prompted theoretical c-Met-related tumor concerns.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Dihexa is a laboratory-made peptide derived from angiotensin IV, designed to resist breakdown and cross the blood-brain barrier. It has been studied in rodents for memory impairment and in an Alzheimer mouse model.\n\nIt is sold as a research chemical and discussed as a nootropic. No human clinical trial has been published, and it is not an appearance compound.",
+  "mechanism": "Reported to bind hepatocyte growth factor and potentiate signalling through the c-Met receptor, promoting synapse formation in cell cultures; a 2021 mouse study linked its effects to the PI3K/AKT pathway.",
+  "risks": "Human safety is unknown. Authors have raised the theoretical concern that sustained c-Met activation could promote tumors. It is not an approved drug."
+ }
 }

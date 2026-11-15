@@ -1,25 +1,362 @@
 {
-"name":"CJC/IPA Protocol",
-"lead":["CJC/IPA refers to the combined use of CJC-1295, a long-acting analogue of growth hormone-releasing hormone (GHRH), and ipamorelin, a selective ghrelin-receptor (growth hormone secretagogue) agonist, both aimed at raising growth hormone (GH) release [1][2]. Neither is an approved drug.","On looksmax.org, the pairing is discussed by users who buy it as research peptides, with threads about side effects such as facial water retention and about whether it affects growth plates in teenagers [3][4].","No published trial has tested the combination for appearance outcomes. The two compounds were studied separately: CJC-1295 reached phase II trials before research was stopped, and ipamorelin failed a phase II trial for postoperative ileus [1][2]."],
-"infobox":[["Components","CJC-1295 (GHRH analogue) + ipamorelin (GH secretagogue)"],["Ipamorelin origin","Novo Nordisk, code NNC 26-0161 [2]"],["CJC-1295 origin","ConjuChem Biotechnologies [1]"],["Approval","None for either [1][2]"],["Sport","Both on the WADA prohibited list [1][2]"]],
-"sections":[
-{"h":"Components","subs":[
-{"h":"CJC-1295","paras":["CJC-1295 is a modified GHRH(1-29) fragment; the DAC version binds albumin, giving an estimated half-life of 6 to 8 days in humans [1]. Studies reported raised GH and IGF-1 after single doses [1]. It was investigated for lipodystrophy and GH deficiency; research was terminated as a precaution after the death of a phase II participant, which the attending physician attributed to likely asymptomatic coronary artery disease [1]."]},
-{"h":"Ipamorelin","paras":["Ipamorelin is a pentapeptide derived from GHRP-1 with an elimination half-life of about 2 hours that raises GH without reported effects on prolactin, FSH, LH, TSH, ACTH or cortisol [2]. Helsinn tested it for postoperative ileus and the program was discontinued for lack of efficacy [2]."]}]},
-{"h":"Society and culture","paras":["Ipamorelin is commonly marketed as a research peptide rather than an approved drug, and athletes have used it; both compounds are on the WADA prohibited list [1][2]. Forum users describe ordering from overseas suppliers [5]."]},
-{"h":"Use in looksmaxxing communities","paras":["Users report water retention and changes in eye appearance after starting the pair [3]. A teenager asked whether the stack could close growth plates early or limit height; replies were brief and unreferenced [4]. No studies on this question were found."]},
-{"h":"Clinical studies","paras":["No studies found on the combination. Separately, CJC-1295 raised GH and IGF-1 in early human studies [1], and ipamorelin raised GH in volunteers but did not show efficacy for postoperative ileus [2]."]}],
-"timeline":[],
-"lore":{"intro":"Users discuss CJC/IPA as a GH-boosting pairing taken for body composition and appearance, including by teenagers [3][4].","claims":[
-{"claim":"CJC/IPA causes water retention that changes facial and eye appearance","believers":"Users report puffy or 'buggy' looking eyes after starting, and attribute it to water retention [3].","experts":"No studies found examine this combination's facial effects.","evidence":"untested"},
-{"claim":"CJC/IPA might close growth plates early or stunt height","believers":"A teenage user asked this directly; replies said it is a GH-releasing hormone but that misuse could affect growth plates and hormones [4].","experts":"No published study found tested the pairing's effect on growth plates; ipamorelin has been reported to induce longitudinal bone growth in rats [2].","evidence":"untested"}]},
-"refs":[
-{"id":1,"title":"CJC-1295","url":"https://en.wikipedia.org/wiki/CJC-1295","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":2,"title":"Ipamorelin","url":"https://en.wikipedia.org/wiki/Ipamorelin","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":3,"title":"Why tf my eyes look so buggy on cjc/ipa?","url":"https://looksmax.org/threads/why-tf-my-eyes-look-so-buggy-on-cjc-ipa.1654380/","source":"looksmax.org","year":2025,"type":"forum"},
-{"id":4,"title":"classic cjc ipa question and their effects on the growth plates","url":"https://looksmax.org/threads/classic-cjc-ipa-question-and-their-effects-on-the-growth-plates.1596491/","source":"looksmax.org","year":2025,"type":"forum"},
-{"id":5,"title":"Just got CJC + IPA","url":"https://looksmax.org/threads/just-got-cjc-ipa.1503609/","source":"looksmax.org","year":2025,"type":"forum"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/CJC-1295","title":"CJC-1295"},{"url":"https://en.wikipedia.org/wiki/Ipamorelin","title":"Ipamorelin"}],
-"card":{"summary":"The common GH-releasing peptide pairing; popular on forums, untested as a combination, neither part approved.","aka":"CJC-1295 + ipamorelin","evidence":"unproven","status":"research","risk":null,"note":"Unapproved research peptides; CJC-1295 research stopped after a trial death.","structure":null},
-"quick":{"overview":"CJC/IPA combines a long-acting GHRH analogue with a selective GH secretagogue to raise growth hormone. Forum users take it for body composition and appearance.\n\nNo trial has tested the pair, and neither compound is an approved drug.","mechanism":"CJC-1295 mimics GHRH; ipamorelin activates the ghrelin receptor; both prompt GH release.","risks":"CJC-1295 research was stopped after a participant died (attributed to unrelated coronary disease by the physician). Users report water retention. Both are WADA-prohibited and sold as research peptides."}
+ "name": "CJC/IPA Protocol",
+ "lead": [
+  "CJC/IPA is the shorthand used on looksmaxxing and bodybuilding forums for the combined use of CJC-1295, a long-acting analogue of growth hormone-releasing hormone (GHRH), and ipamorelin, a selective ghrelin-receptor (growth hormone secretagogue) agonist. Users pair the two because they act on different receptors of the same pituitary system, and aim to raise growth hormone (GH) and insulin-like growth factor 1 (IGF-1) release without injecting GH itself.[1][2][5] Neither compound is an approved drug.",
+  "People who use the pairing describe the intended appearance chain as more GH and IGF-1 signalling, then better sleep and recovery, then more training volume and leaner, fuller muscle; teenagers on forums also ask whether it can add height or bone growth, and some adults mention facial fullness or skin quality.[3][4][11] Users also report side effects such as water retention and a puffy look around the eyes.[3]",
+  "No published trial has tested the combination for appearance outcomes. The two compounds were studied separately: CJC-1295 raised GH and IGF-1 in healthy adults in randomized trials and reached phase II before research was stopped, and ipamorelin raised GH in volunteers but failed a phase II trial for postoperative ileus.[1][2][5] Recent narrative reviews of peptide therapies in sports medicine and aesthetics describe CJC-1295 plus ipamorelin among the popular unapproved peptides and note that human data are sparse.[6][7]"
+ ],
+ "infobox": [
+  [
+   "Components",
+   "CJC-1295 (GHRH analogue) + ipamorelin (GH secretagogue)"
+  ],
+  [
+   "CJC-1295 origin",
+   "ConjuChem Biotechnologies; DAC form half-life about 6 to 8 days[1]"
+  ],
+  [
+   "Ipamorelin origin",
+   "Novo Nordisk, code NNC 26-0161; half-life about 2 hours[2]"
+  ],
+  [
+   "Approval",
+   "None for either[1][2]"
+  ],
+  [
+   "Routes",
+   "Subcutaneous injection (as marketed research peptides)[1][2]"
+  ],
+  [
+   "Sport",
+   "Both on the WADA prohibited list[1][2]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Components",
+   "subs": [
+    {
+     "h": "CJC-1295",
+     "paras": [
+      "CJC-1295, also called DAC:GRF, is a modified GHRH(1-29) fragment, the same fragment that makes up sermorelin, with amino-acid substitutions for stability and, in the DAC version, a drug affinity complex that binds albumin and gives an estimated half-life of 6 to 8 days in humans.[1] A version without DAC, usually called modified GRF(1-29), is a separate shorter-acting compound, and the Wikipedia article notes that some papers wrongly treat the two as identical; forum threads debate the choice between them.[1][8][9] It was developed by ConjuChem and investigated for lipodystrophy and GH deficiency.[1]",
+      "In two randomized, placebo-controlled, double-blind ascending-dose trials of 28 and 49 days in healthy adults aged 21 to 61, CJC-1295 produced sustained increases in GH and IGF-1; as summarised on Wikipedia, a single injection raised GH two- to tenfold for six days or longer and IGF-1 half- to threefold for nine to eleven days.[1][5] Pulsatile GH secretion continued during the prolonged stimulation.[1] Research was ended as a precaution after a phase II participant died; the attending physician attributed the death to probable undiagnosed coronary artery disease and did not believe the drug caused it.[1]"
+     ]
+    },
+    {
+     "h": "Ipamorelin",
+     "paras": [
+      "Ipamorelin is a synthetic pentapeptide derived from GHRP-1 that acts as a selective agonist of the ghrelin receptor.[2] Novo Nordisk developed it under the code NNC 26-0161, and its elimination half-life is about two hours.[2] It raises GH in animals and humans, and unlike GHRP-2 and GHRP-6 it has not been reported to raise ACTH or cortisol, nor prolactin, FSH, LH or TSH, which is why users describe it as the cleaner secretagogue.[2][1]",
+      "Helsinn Therapeutics ran phase II trials of ipamorelin for postoperative ileus after bowel resection; the programme was discontinued because efficacy was not shown.[2] In rats, ipamorelin has been reported to induce longitudinal bone growth, a finding forum users cite in height discussions.[2][10]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Origins and history",
+   "paras": [
+    "CJC-1295 was developed by ConjuChem Biotechnologies as a long-acting GHRH analogue. A 2005 paper described it as a modified GHRH(1-29) with improved pharmacokinetics, and in 2006 Teichman and colleagues reported prolonged GH and IGF-1 stimulation in healthy adults.[1][5] It was investigated for lipodystrophy and growth hormone deficiency and reached phase II.[1]",
+    "In August 2006 ConjuChem reported that a patient had died during a lipodystrophy study; the attending physician judged the probable cause to be asymptomatic coronary artery disease with plaque rupture rather than the drug, and the research was ended as a precaution.[1] Ipamorelin followed a separate path: Novo Nordisk developed it as NNC 26-0161, Helsinn ran phase II trials for postoperative ileus, and the programme was discontinued when efficacy was not shown.[2] Neither compound reached approval, and both are classified on Wikipedia as abandoned drugs without an ATC code.[1][2]",
+    "The pairing's current profile comes from the research-peptide market, where both are sold outside approved pharmaceutical channels, and from forum and clinic discussion that treats them together as a GH-boosting stack.[2][11][14]"
+   ]
+  },
+  {
+   "h": "Mechanism of action",
+   "paras": [
+    "The pairing is built on dual stimulation. GHRH and its analogues act on GHRH receptors on pituitary somatotrophs, while ghrelin-receptor agonists such as ipamorelin act through a separate receptor and are described as amplifying and synchronising GH pulses; users say the two together give a larger pulse than either alone.[1][2][3] Because GH signalling then raises hepatic IGF-1, proponents link the stack to anabolic effects, collagen synthesis and sleep depth, as one long looksmax.org post sets out.[11] Reviews of peptide therapeutics describe these secretagogues as acting on IGF-1 signalling and satellite-cell repair pathways, mostly on the basis of preclinical work.[6][12]"
+   ]
+  },
+  {
+   "h": "Effectiveness",
+   "paras": [
+    "No randomized trial has measured body composition, height, skin or facial changes after CJC-1295 plus ipamorelin. What exists is endocrine data: raised GH and IGF-1 with CJC-1295 in healthy adults, and raised GH with ipamorelin in volunteers.[5][2] A 2026 sports-medicine primer reviewed the most popular injectable peptides, including CJC-1295 with ipamorelin, and concluded that the human evidence for most remains limited; a companion review calls the unapproved peptide market a gray market with scarce human safety data.[6][7]"
+   ]
+  },
+  {
+   "h": "Adverse effects and safety",
+   "paras": [
+    "Reported effects in the CJC-1295 literature and among users include flushing, warmth and transient hypotension after injection, as well as concerns about heart rate and immunogenicity listed by one forum author.[11] Users on looksmax.org report facial and eye water retention.[3] Because GH and IGF-1 are growth signals, a forum poster planning to use the stack at sixteen mentioned screening for tumours first, and a different poster asked whether it could close growth plates early; reviews note that rigorous long-term human safety data are lacking.[4][13][7] The one phase II death noted above remains a reason the compound's development was halted.[1]"
+   ]
+  },
+  {
+   "h": "Terminology and naming disputes",
+   "paras": [
+    "Wikipedia notes that several scientific papers, including ones from 2015 and 2021, equated CJC-1295 with modified GRF(1-29), a shorter compound lacking the DAC extension, and that a 2015 supplier claim about resistance to enzymatic degradation came from a commercial source rather than peer-reviewed work.[1] This mirrors a recurring forum question about whether products labelled CJC-1295 are the DAC or non-DAC form, with users disagreeing about which gives a more pulse-like GH pattern.[8][9]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Ipamorelin is commonly marketed as a research peptide rather than a drug, and athletes have used it; Wikipedia cites Major League Baseball scrutiny of peptides in 2016 and National Basketball Association suspensions in 2018 and 2019.[2] Both compounds appear on the World Anti-Doping Agency prohibited list.[1][2]",
+    "On T Nation, anti-ageing and hormone-clinic discussions mention doctors who prefer CJC-1295/ipamorelin to prescribing GH itself, and users cite it for sleep, recovery and tendon injury rehabilitation.[14][15] On looksmax.org the main debates are CJC with or without DAC, whether the stack is a cheaper or safer substitute for GH, and whether it can add height.[11][8][16]",
+    "Wikipedia reports that CJC-1295 was among compounds confiscated in Denmark between 2007 and 2013, according to a 2014 study by Hartvig and colleagues, and that it was identified in an unknown pharmaceutical preparation in a 2010 analysis.[1] Regulators generally treat the compounds as unapproved; the 2026 sports-medicine reviews describe the market for such peptides as a gray market operating largely outside regulatory oversight.[7]"
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing communities",
+   "paras": [
+    "Users report water retention and changes in eye appearance after starting the pair.[3] A teenager asked whether the stack could close growth plates early or limit height; replies were brief and unreferenced.[4] Another thread asks for height, sleep and facial bone growth results from peers at age sixteen, and some replies call the stack ineffective for height.[13][17] No studies were found on these questions."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found on the combination. Separately, two randomized placebo-controlled ascending-dose trials of CJC-1295 in healthy adults aged 21 to 61 lasting 28 and 49 days reported raised GH and IGF-1 and a pharmacokinetic and safety profile.[5] Ipamorelin raised GH in volunteers but did not show efficacy for postoperative ileus in phase II.[2] Narrative reviews of peptides in sports medicine and aesthetics describe the evidence for the pair as limited and mostly preclinical.[6][7][12][18]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2005",
+   "event": "CJC-1295 described as a long-lasting GRF analogue developed by ConjuChem.[1]"
+  },
+  {
+   "year": "2006",
+   "event": "Randomized trials report prolonged GH and IGF-1 stimulation in healthy adults.[5]"
+  },
+  {
+   "year": "2006",
+   "event": "A phase II participant dies in a lipodystrophy study; research is halted as a precaution, and the physician attributed it to coronary disease.[1]"
+  },
+  {
+   "year": "2007-2013",
+   "event": "CJC-1295 appears among compounds confiscated in Denmark, per a 2014 report.[1]"
+  },
+  {
+   "year": "2014",
+   "event": "Randomized proof-of-concept trial of ipamorelin in bowel-resection patients; programme later discontinued for lack of efficacy.[2]"
+  },
+  {
+   "year": "2016",
+   "event": "Major League Baseball scrutiny of peptides reported by USA Today.[2]"
+  },
+  {
+   "year": "2018-2019",
+   "event": "NBA 25-game suspensions of two players, cited on Wikipedia in connection with peptide use.[2]"
+  },
+  {
+   "year": "2026",
+   "event": "Orthopaedic and sports-medicine reviews describe CJC-1295 plus ipamorelin among popular unapproved peptides with limited human data.[6][7]"
+  }
+ ],
+ "lore": {
+  "intro": "Users discuss CJC/IPA as a GH-boosting pairing taken for body composition and appearance, including by teenagers [3][4].",
+  "claims": [
+   {
+    "claim": "CJC/IPA causes water retention that changes facial and eye appearance",
+    "believers": "Users report puffy or 'buggy' looking eyes after starting, and attribute it to water retention [3].",
+    "experts": "No studies found examine this combination's facial effects.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "CJC/IPA might close growth plates early or stunt height",
+    "believers": "A teenage user asked this directly; replies said it is a GH-releasing hormone but that misuse could affect growth plates and hormones [4].",
+    "experts": "No published study found tested the pairing's effect on growth plates; ipamorelin has been reported to induce longitudinal bone growth in rats [2].",
+    "evidence": "untested"
+   },
+   {
+    "claim": "CJC/IPA is a safer alternative to injectable GH.",
+    "believers": "A looksmax.org author argues that the secretagogue pair is safer than GH and keeps the body's own feedback, while another reply says it is just as expensive as GH and offers no reason to choose it.[11]",
+    "experts": "No head-to-head studies exist; the reviews describe both approved and unapproved peptide products, with safety data for the unapproved ones scarce.[7]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "The stack adds height or bone mass in teenagers.",
+    "believers": "Users aged 16 and 17 ask about height and facial bone growth with open growth plates, citing the rat bone-growth paper for ipamorelin.[13][10]",
+    "experts": "No human study has tested height with this pair; the rat finding concerns longitudinal bone growth in animals only.[2]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "CJC-1295 with DAC and without DAC behave differently.",
+    "believers": "Many threads ask which to use and say the no-DAC form gives pulsatile spikes closer to natural GH release.[8][9]",
+    "experts": "Wikipedia notes that DAC extends half-life to about 6 to 8 days and that the modified GRF(1-29) form is a separate compound; pulsatile secretion persisted with CJC-1295 DAC in a trial.[1]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "The stack improves sleep, recovery and tendon healing.",
+    "believers": "T Nation members describe better sleep and recovery and one reports starting CJC-1295 after tendon surgery.[14][15]",
+    "experts": "Orthopaedic peptide reviews describe the secretagogues' effects on IGF-1 signalling but note a lack of clinical trials in injury.[12]",
+    "evidence": "untested"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "CJC-1295",
+   "url": "https://en.wikipedia.org/wiki/CJC-1295",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Ipamorelin",
+   "url": "https://en.wikipedia.org/wiki/Ipamorelin",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Why tf my eyes look so buggy on cjc/ipa?",
+   "url": "https://looksmax.org/threads/why-tf-my-eyes-look-so-buggy-on-cjc-ipa.1654380/",
+   "source": "looksmax.org",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 4,
+   "title": "classic cjc ipa question and their effects on the growth plates",
+   "url": "https://looksmax.org/threads/classic-cjc-ipa-question-and-their-effects-on-the-growth-plates.1596491/",
+   "source": "looksmax.org",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 5,
+   "title": "Prolonged stimulation of growth hormone (GH) and insulin-like growth factor I secretion by CJC-1295, a long-acting analog of GH-releasing hormone, in healthy adults",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16352683/",
+   "source": "J Clin Endocrinol Metab",
+   "year": 2006,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Injectable Peptide Therapy: A Primer for Orthopaedic and Sports Medicine Physicians",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41476424/",
+   "source": "American Journal of Sports Medicine",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Safety and Efficacy of Approved and Unapproved Peptide Therapies for Musculoskeletal Injuries and Athletic Performance",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41966639/",
+   "source": "Sports Medicine",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "cjc 1295 with vs without dac",
+   "url": "https://looksmax.org/threads/cjc-1295-with-vs-without-dac.1569370/",
+   "source": "looksmax.org",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 9,
+   "title": "cjc whit dac or not",
+   "url": "https://looksmax.org/threads/cjc-whit-dac-or-not.1429760/",
+   "source": "looksmax.org",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 10,
+   "title": "ipamorelin a new growth hormone releasing peptide induces longitudinal bone growth in rats (thread)",
+   "url": "https://looksmax.org/threads/ipamorelin-a-new-growth-hormone-releasing-peptide-induces-longitudinal-bone-growth-in-rats.814572/",
+   "source": "looksmax.org",
+   "year": 2023,
+   "type": "forum"
+  },
+  {
+   "id": 11,
+   "title": "Cjc 1295 + ipa for bone mass/height and is it safer than hgh",
+   "url": "https://looksmax.org/threads/cjc-1295-ipa-for-bone-mass-height-and-is-it-safer-than-hgh.1784017/",
+   "source": "looksmax.org",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 12,
+   "title": "Therapeutic Peptides in Orthopaedics: Applications, Challenges, and Future Directions",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41490200/",
+   "source": "JAAOS Global Research & Reviews",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 13,
+   "title": "CJC-1295 with DAC & Ipamorelin at 16",
+   "url": "https://looksmax.org/threads/cjc-1295-with-dac-ipamorelin-at-16.1760145/",
+   "source": "looksmax.org",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 14,
+   "title": "HGH: A How-To Guide",
+   "url": "https://t-nation.com/t/hgh-a-how-to-guide/266190",
+   "source": "T Nation forum",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 15,
+   "title": "Is Civilian Gun Ownership a Necessity?",
+   "url": "https://t-nation.com/t/is-civilian-gun-ownership-a-necessity/274386",
+   "source": "T Nation forum",
+   "year": 2021,
+   "type": "forum"
+  },
+  {
+   "id": 16,
+   "title": "cjc vs hgh greys gtfih",
+   "url": "https://looksmax.org/threads/cjc-vs-hgh-greys-gtfih.1683114/",
+   "source": "looksmax.org",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 17,
+   "title": "cjc 1295 with dac and growth plates",
+   "url": "https://looksmax.org/threads/cjc-1295-with-dac-and-growth-plates.1720335/",
+   "source": "looksmax.org",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 18,
+   "title": "Therapeutic Peptides in Aesthetic, Metabolic and Endocrine Conditions",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42123471/",
+   "source": "Int J Mol Sci",
+   "year": 2026,
+   "type": "review"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/CJC-1295",
+   "title": "CJC-1295"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Ipamorelin",
+   "title": "Ipamorelin"
+  }
+ ],
+ "card": {
+  "summary": "The common GH-releasing peptide pairing; popular on forums, untested as a combination, neither part approved.",
+  "aka": "CJC-1295 + ipamorelin",
+  "evidence": "unproven",
+  "status": "research",
+  "risk": null,
+  "note": "Unapproved research peptides; CJC-1295 research stopped after a trial death.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "CJC/IPA combines a long-acting GHRH analogue with a selective GH secretagogue to raise growth hormone. Forum users take it for body composition and appearance.\n\nNo trial has tested the pair, and neither compound is an approved drug.",
+  "mechanism": "CJC-1295 mimics GHRH; ipamorelin activates the ghrelin receptor; both prompt GH release.",
+  "risks": "CJC-1295 research was stopped after a participant died (attributed to unrelated coronary disease by the physician). Users report water retention. Both are WADA-prohibited and sold as research peptides."
+ },
+ "angle": {
+  "goal": "Muscle / body composition",
+  "chain": [
+   "CJC-1295 stimulates GHRH receptors and ipamorelin stimulates ghrelin receptors",
+   "Pituitary releases more GH, raising IGF-1",
+   "Users cite better sleep, recovery and body composition, supporting leaner and fuller physique"
+  ],
+  "effect": "claimed",
+  "text": "Users take the pair hoping for more GH pulses, which they associate with recovery, sleep, fat loss and muscle fullness, and some also hope for height or facial bone effects. These outcomes are claims made on forums; published human studies of the pair for appearance do not exist."
+ }
 }

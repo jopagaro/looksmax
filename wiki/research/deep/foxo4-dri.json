@@ -2,7 +2,7 @@
  "name": "FOXO4-DRI",
  "lead": [
   "FOXO4-DRI is a research peptide designed to clear senescent (\"zombie\") cells, the aged cells that stop dividing and release inflammatory signals. It works by interrupting the interaction between FOXO4 and p53, which lets those cells undergo programmed death.[1][2] People interested in longevity and appearance follow it because senescent cells are linked to tissue ageing, including skin and fibroblast changes.",
-  "Its profile comes largely from a 2017 Cell paper in which a modified all-D-amino-acid peptide (the \"DRI\" stands for D-Retro-Inverso) restored p53 apoptosis in senescent cells and eased senescence-related loss of tissue function in mice.[1] Since then, laboratory and animal studies have looked at its effects in testis, lung, cartilage cells and keloid scar fibroblasts.[7][4][10][11] No human clinical trials have been published."
+  "Its profile comes largely from a 2017 Cell paper in which a modified all-D-amino-acid peptide (the \"DRI\" stands for D-Retro-Inverso) restored p53 apoptosis in senescent cells and eased senescence-related loss of tissue function in mice.[1] Since then, laboratory and animal studies have looked at its effects in testis, lung, cartilage cells and keloid scar fibroblasts.[7][4][10][11] Reviews in 2026 discuss the FOXO4-p53 axis as a target for brain ageing and redox biology.[2][3] No human clinical trials have been published."
  ],
  "angle": {
   "goal": "Skin and tissue ageing",
@@ -38,21 +38,60 @@
  ],
  "sections": [
   {
+   "h": "Background: senescent cells and senolytics",
+   "paras": [
+    "Cellular senescence is a state of permanent cell-cycle arrest in which cells secrete inflammatory cytokines and growth factors, a pattern known as the senescence-associated secretory phenotype. Researchers have linked accumulation of such cells to ageing in organs such as the kidney, where reviews describe senescent cells accumulating with age and injury and discuss clearing them as a therapeutic idea.[13][14] Because such cells are also involved in normal wound healing, reviews describe them as having both beneficial and detrimental effects.[14]",
+    "Drugs that selectively kill senescent cells are called senolytics. Wikipedia describes them as small molecules in basic research and lists other candidates such as dasatinib with quercetin, fisetin and navitoclax, some of which are in early human trials. It also notes a 2022 Nature Medicine review saying senolytics should not be endorsed over the counter or in clinical practice until rigorous trials show safety and effectiveness.[15] FOXO4-DRI is a peptide rather than a small molecule and is at the cell and animal stage."
+   ]
+  },
+  {
    "h": "Mechanism of action",
    "paras": [
-    "In senescent cells FOXO4 binds p53 in the nucleus, which keeps p53 from triggering apoptosis. FOXO4-DRI competes with that binding, releasing p53 so the cell can die.[1] A 2025 structural study identified the disordered transactivation domain of p53 as the target of both FOXO4 and the peptide.[5]"
+    "In senescent cells FOXO4 binds p53 in the nucleus, which keeps p53 from triggering apoptosis. FOXO4-DRI competes with that binding, releasing p53 so the cell can die.[1] Wikipedia's description is that releasing p53 into the cytosol triggers cell death.[15] A 2025 structural study identified the disordered transactivation domain of p53 as the target of both FOXO4 and the peptide.[5]",
+    "The peptide is built from D-amino acids, and the Cell commentary describes the all-D design as the means of restoring p53 apoptosis.[1] The Cell commentary describes FOXO4 as protecting senescent cell viability by sequestering p53 in nuclear bodies.[1]"
+   ]
+  },
+  {
+   "h": "Appearance and ageing context",
+   "paras": [
+    "Proponents discuss FOXO4-DRI as a way to clear aged cells that contribute to tissue ageing, which they connect to younger-looking and healthier tissue. Published skin-relevant work is limited to cell studies: one study reported that FOXO4-DRI induced apoptosis in senescent fibroblasts from keloid scars, a pathological scar tissue.[11] Fibroblasts are the cells that make the skin's structural matrix, and a mouse study of lung fibrosis reported that the peptide targeted myofibroblasts and reduced extracellular matrix production.[4][9]"
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "The FOXO4-p53 approach was described in a 2017 paper by Baar and colleagues in the journal Cell, which Wikipedia cites for the idea that a FOXO4-binding peptide disrupts the FOXO4-p53 interaction and releases p53 so the senescent cell undergoes apoptosis.[15] A Cell commentary the same year titled around rejuvenation by therapeutic elimination of senescent cells discussed the work and its all-D-amino-acid peptide design.[1] Since then the peptide has been used mainly as a laboratory tool and tested in cell and mouse models of the kinds listed below.[4][7][8][10]"
+   ]
+  },
+  {
+   "h": "Where it sits among senolytics",
+   "paras": [
+    "Wikipedia names dasatinib with quercetin, fisetin and navitoclax as better-known senolytic candidates; dasatinib plus quercetin is cited with a 2019 preliminary human trial in diabetic kidney disease, and a 2024 review is cited as counting more than 30 clinical trials of senolytic and senomorphic agents completed, underway or planned.[15] FOXO4-DRI is not among agents with published human data, and the same article quotes the 2022 Nature Medicine caution that senolytics should not be endorsed over the counter or in clinical practice until rigorous, monitored trials show safety and effectiveness.[15]"
+   ]
+  },
+  {
+   "h": "Research findings",
+   "paras": [
+    "In aged mice, FOXO4-DRI was reported to improve testosterone secretion by acting on senescent Leydig cells in 2020,[8] and a 2024 study reported increased sperm quality and improved spermatogenesis, with reduced senescence-associated secretory phenotype secretion from Leydig cells.[7]",
+    "In bleomycin-induced pulmonary fibrosis in mice, the peptide reduced fibrosis in two reports, one noting an effect through the extracellular matrix-receptor interaction pathway.[4][9] In engineered cartilage research, it selectively removed senescent cells from human chondrocytes expanded in culture.[10] A 2026 review on brain ageing states that, in aged animals, FOXO4-DRI decreased senescent cell accumulation and, in models of Alzheimer's disease, improved memory performance; it also notes that early human studies involved other modulators of the FOXO4 axis rather than the peptide.[3]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found. Related laboratory and animal research includes work in aged mice showing improved testosterone secretion and spermatogenesis through effects on senescent Leydig cells,[7][8] reduced fibrosis in a mouse lung model,[9] selective removal of senescent human chondrocytes in culture,[10] and induction of apoptosis in keloid senescent fibroblasts.[11]"
+    "No studies found. Related laboratory and animal research includes work in aged mice showing improved testosterone secretion and spermatogenesis through effects on senescent Leydig cells,[7][8] reduced fibrosis in a mouse lung model,[4][9] selective removal of senescent human chondrocytes in culture,[10] and induction of apoptosis in keloid senescent fibroblasts.[11]"
    ]
   },
   {
    "h": "Reported cautions",
    "paras": [
-    "A 2023 Circulation study found that eliminating senescent cells could promote pulmonary hypertension development in the models studied, indicating that clearing senescent cells can have context-dependent effects.[12] FOXO4-DRI is not an approved drug."
+    "A 2023 Circulation study found that eliminating senescent cells could promote pulmonary hypertension development in the models studied, indicating that clearing senescent cells can have context-dependent effects.[12] FOXO4-DRI is not an approved drug, and the senolytic field's reviewers have called for rigorous trials before clinical use of senolytics in general.[15]"
+   ]
+  },
+  {
+   "h": "Status",
+   "paras": [
+    "FOXO4-DRI is discussed in longevity circles, but it has no regulatory approval for any use and no published human trials. Researchers continue to study the FOXO4-p53 axis in the laboratory.[2][3][5]"
    ]
   }
  ],
@@ -159,9 +198,42 @@
    "source": "Circulation",
    "year": 2023,
    "type": "study"
+  },
+  {
+   "id": 13,
+   "title": "Cellular senescence as a therapeutic target to improve renal transplantation outcome",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29471104/",
+   "source": "Pharmacological Research",
+   "year": 2018,
+   "type": "review"
+  },
+  {
+   "id": 14,
+   "title": "Cellular senescence in the aging and diseased kidney",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29260442/",
+   "source": "Journal of Cell Communication and Signaling",
+   "year": 2018,
+   "type": "review"
+  },
+  {
+   "id": 15,
+   "title": "Senolytic (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Senolytic",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
   }
  ],
- "webSources": [],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Senolytic",
+   "title": "Senolytic (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Senolytic",
+   "title": "Senolytic - Wikipedia"
+  }
+ ],
  "card": {
   "summary": "A senolytic research peptide that clears aged senescent cells, followed by longevity-minded people for its potential effect on tissue ageing.",
   "aka": "FOXO4-D-Retro-Inverso",

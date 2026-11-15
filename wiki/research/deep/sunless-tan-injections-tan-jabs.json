@@ -1,9 +1,21 @@
 {
  "name": "Sunless tan injections ('tan jabs')",
+ "card": {
+  "summary": "Unlicensed melanotan injections for tanning; flagged by health agencies since 2007 and linked to mole changes.",
+  "aka": "Melanotan, tan jab",
+  "evidence": "limited",
+  "risk": "high",
+  "note": "Not legal to sell for human use; agencies have issued warnings."
+ },
+ "quick": {
+  "overview": "Tan jabs are unlicensed melanotan injections sold to darken skin without sun exposure.\n\nHealth agencies in several countries have warned against them since 2007.",
+  "mechanism": "Melanotan peptides mimic alpha-MSH and stimulate melanin production.[1][2]",
+  "risks": "Reported effects include flushing, nausea and mole darkening or changes;[2][3] melanoma evidence is unclear. They are unlicensed for tanning."
+ },
  "lead": [
   "\"Tan jabs\" are injectable products, usually sold as melanotan, that people use to darken their skin without long sun exposure. They are synthetic analogues of alpha-melanocyte-stimulating hormone (alpha-MSH), the hormone that signals skin cells to make melanin, and users take them to get a deeper, more even tan for a golden, healthier-looking complexion.[1][2]",
-  "On looksmax.org, users describe melanotan as a way to get tan quickly for an event or to keep a tan through darker months, often paired with some UV exposure from the sun or a tanning bed.[3] Others discuss its effect on freckles and on the colour of moles, and some compare it with self-tanning lotions.[4][5]",
-  "The products are not approved as tanning drugs. Health agencies began warning against them in 2007, and the US FDA issued a warning letter in 2009.[2] A 2009 BMJ report linked an unlicensed \"sun tan jab\" to changes in moles.[6] Related approved drugs exist for other uses: afamelanotide for a rare light-sensitivity disorder and bremelanotide for hypoactive sexual desire disorder in premenopausal women.[1]"
+  "On looksmax.org, users describe melanotan as a way to get tan quickly for an event or to keep a tan through darker months, often paired with sun or tanning-bed exposure.[3][7] Threads cover freckles, eyebrow and hair colour, red-haired and fair-skinned users, and comparisons between melanotan I and II.[4][9][10][12][14] Some posters call it a major upgrade for pale people, while others ask whether the risks outweigh the tan.[7][11]",
+  "The products are not approved as tanning drugs. Health agencies began warning against them in 2007, and the US FDA issued a warning letter in 2009.[2] A 2009 BMJ report linked an unlicensed \"sun tan jab\" to changes in moles.[6] Related approved drugs exist for other uses: afamelanotide for a rare light-sensitivity disorder and bremelanotide for hypoactive sexual desire disorder in premenopausal women.[1][8] Sunless alternatives such as DHA self-tanners have been sold since the late 1950s.[1]"
  ],
  "angle": {
   "goal": "Skin tone",
@@ -18,11 +30,19 @@
  "infobox": [
   [
    "Type",
-   "Unlicensed injectable peptide"
+   "Unlicensed injectable peptide (also nasal sprays)"
   ],
   [
    "Class",
    "Alpha-MSH analogue (melanotan I and II)"
+  ],
+  [
+   "Receptor",
+   "Melanocortin receptors, chiefly MC1R for pigmentation[2]"
+  ],
+  [
+   "Developed",
+   "1980s, University of Arizona[2]"
   ],
   [
    "Approval for tanning",
@@ -30,72 +50,113 @@
   ],
   [
    "Related approved drugs",
-   "Afamelanotide (EU/US, for erythropoietic protoporphyria); bremelanotide (US, 2019)"
+   "Afamelanotide (Italy 2010, EU 2015, US 2019); bremelanotide (US, 2019)[8]"
   ],
   [
    "Agency warnings",
-   "From 2007 (UK, Denmark, Ireland, Norway, US)"
+   "From 2007 (UK, Denmark, Ireland, Norway, US)[2]"
+  ],
+  [
+   "Legal status",
+   "Described as not legal to sell for human use in any jurisdiction[2]"
   ]
  ],
  "sections": [
   {
+   "h": "Description",
+   "paras": [
+    "Melanotan I and melanotan II are the two peptides most often meant by the term. Melanotan I is the compound later named afamelanotide; melanotan II is a different cyclic analogue with wider receptor activity.[2][8] Forum threads comparing the two describe melanotan I as more tan-focused and melanotan II as having additional effects on appetite and libido, a distinction posters discuss when choosing between them.[14][7]",
+    "The goal for appearance is a darker skin tone produced from within, by stimulating pigment cells (melanocytes) rather than by staining the surface as self-tanners do or by UV damage as sunbathing does.[1][2] Users also say the resulting tan looks more even and lasts longer than a burn-and-fade natural tan, though these are user descriptions rather than trial results.[3]"
+   ]
+  },
+  {
    "h": "Origins",
    "paras": [
-    "Alpha-MSH's role in pigmentation has been known since the 1960s, and University of Arizona researchers developed analogues in the 1980s, including afamelanotide, first called melanotan I.[1] Melanotan I was licensed to an Australian start-up, Epitan, which became Clinuvel in 2006.[1] Melanotan II was later licensed to Palatin for sexual dysfunction, with development shifting around 2000 to bremelanotide.[2]",
-    "Gym and salon sales of products labelled melanotan began to draw regulator attention in 2007.[1][2]"
+    "Alpha-MSH was isolated in the 1950s and its role in pigmentation was understood by the 1960s.[8] In the 1980s researchers at the University of Arizona developed more potent analogues as sunless tanning agents, including melanotan I (afamelanotide) and melanotan II.[1][2][8]",
+    "Competitive Technologies licensed melanotan I to the Australian start-up Epitan, which renamed itself Clinuvel in 2006; the company pursued the implant for light-sensitivity disorders, and Italy approved afamelanotide in 2010, the EU in 2015 and the US FDA in October 2019 for erythropoietic protoporphyria.[8] Melanotan II was licensed to Palatin Technologies for sexual dysfunction; Palatin stopped developing it around 2000 in favour of bremelanotide, which the FDA approved in 2019 for hypoactive sexual desire disorder in premenopausal women. A 2008 settlement of an ownership dispute returned melanotan II rights to Competitive Technologies, with Palatin keeping bremelanotide.[2]",
+    "Products labelled melanotan began to appear in gyms, tanning salons and online around the mid-2000s, and health agencies in Denmark, the UK, the US, Ireland and Norway began issuing warnings from 2007.[1][2] Media and academic coverage around 2009 used terms such as \"tanorexia\", and the BBC reported that warnings were being ignored.[2]"
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "paras": [
+    "Melanotan II is a cyclic peptide analogue of alpha-MSH that acts as a non-selective agonist at melanocortin receptors MC1, MC3, MC4 and MC5. Activation of MC1 on melanocytes drives melanin production, which is the basis of the tanning effect, while MC4 activity is linked to the sexual and appetite effects. It is partly metabolised into bremelanotide.[2] A 2008 paper described a 12-step laboratory synthesis of the peptide.[2]",
+    "Melanotan I (afamelanotide) has a very short half-life of about 30 minutes, which led its developer to create a slow-release implant rather than injections; the implant releases most of its drug within two days and none is detectable in plasma by day ten.[8]"
    ]
   },
   {
    "h": "Use in looksmaxxing communities",
    "paras": [
-    "Forum posts describe melanotan as a route to a darker tone for people who burn easily or want a tan in winter, with users saying that sun or tanning-bed exposure deepens the result.[3] One guide-style thread estimates that the peptide alone gives a small colour change and that most of the visible effect needs UV, a claim stated by the poster rather than established in trials.[3]",
-    "Threads also ask whether it darkens freckles, with replies saying it does and that freckles can be considered attractive.[4] Another thread asks whether the benefits are outweighed by the risks, with replies describing it as useful for a short period before an event.[7] Users also discuss nasal versus injected forms and other products such as self-tanner as alternatives.[3][7]"
+    "Forum posts describe melanotan as a route to a darker tone for people who burn easily or want a tan in winter, with users saying that sun or tanning-bed exposure deepens the result.[3] A widely shared guide-style thread, which describes itself as based on an earlier guide, lays out phases in which skin first darkens slightly without UV, becomes more responsive to UV over several administrations, and is then kept at the desired shade; it estimates the colour gain without UV at roughly 5 to 15 percent of a full summer tan, a figure stated by the poster rather than established in trials.[3] Updated and earlier guide threads follow the same pattern.[15][16][17]",
+    "Threads also ask whether melanotan darkens freckles, with replies saying it does and that freckles can be considered attractive.[4] Others cover darker eyebrows and hair colour, use by red-haired users, interaction with tretinoin, and results updates.[9][10][12][13][5] A thread titled as calling melanotan the best looksmax for white people reflects the view, common in these communities, that fair skin gains most visible change.[11]",
+    "Another thread asks whether the benefits are outweighed by the risks, with replies describing it as useful for a short period before an event.[7] Users also compare nasal versus injected forms; one reply states nasal absorption is about a tenth of injection and unpredictable.[3] Sunless products such as self-tanner come up as alternatives.[7]"
    ]
   },
   {
    "h": "Reported effects and risks",
    "paras": [
-    "Reported effects include facial flushing, nausea, vomiting, yawning and appetite loss, and spontaneous erections in men.[2] Moles and freckles may darken.[2] The 2009 BMJ report described changes to moles linked to an unlicensed tan jab.[6]",
-    "Evidence on melanoma is unclear: a 2013 review found no conclusive proof of a causal link, and a 2021 review suggested higher melanoma rates among users could probably be explained by greater UV exposure.[2] Warnings were issued by agencies including the Danish Medicines Agency, UK MHRA, US FDA, Irish Medicines Board and Norwegian Medicines Agency.[2] The products are described as unlicensed in all jurisdictions.[1]"
+    "Reported effects include facial flushing, nausea, vomiting, yawning and appetite loss, and spontaneous erections in men.[2] Moles and freckles may darken reversibly.[2] The 2009 BMJ report described changes to moles linked to an unlicensed tan jab.[6] A forum poster raising risks lists darkening moles that could mask changes, nausea and other effects as reasons for caution.[7]",
+    "Evidence on melanoma is unclear: a 2013 review found no conclusive proof of a causal link, a 2021 review suggested higher melanoma rates among users could probably be explained by greater UV exposure, and a 2020 in vivo study reported melanotan II suppressing melanoma progression.[2] Warnings were issued by agencies including the Danish Medicines Agency, UK MHRA, US FDA, Irish Medicines Board and Norwegian Medicines Agency, citing among other things potential impurities in unregulated supplies.[2] The products are described as unlicensed in all jurisdictions.[1][2]"
    ]
   },
   {
    "h": "Alternatives",
    "paras": [
-    "Other sunless options include DHA-based self-tanners and sprays, which colour the outer skin layer and fade over about five to ten days, and temporary bronzers that wash off.[1] Oral carotenoid products can tint the skin but have been the subject of FDA warnings when sold for tanning.[1]"
+    "The tanning effect of dihydroxyacetone (DHA) was discovered in the 1950s by Eva Wittgenstein; the first commercial self-tanner, Man-Tan, appeared in 1959, and automated spray booths broadened the market from the late 1990s.[1] DHA reacts with proteins in the dead surface layer of skin, does not involve pigment cells or UV, and fades over roughly five to ten days.[1] Temporary bronzers wash off. Oral carotenoid products can tint the skin, but the FDA has warned against canthaxanthin as a tanning agent and the American Cancer Society has said such additives are not approved for tanning.[1] Researchers have also reported pre-clinical work on topical salt-inducible kinase inhibitors that stimulate melanin without MC1R.[1]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found for unlicensed tanning use. The 2009 BMJ item is a case report of mole changes.[6] Afamelanotide has been studied in trials for light-sensitivity conditions, which is a separate medical use.[1]"
+    "No controlled trials of unlicensed melanotan products for cosmetic tanning have been published. The 2009 BMJ report is a case report describing changes to moles after use of an unlicensed \"sun tan jab\".[6]",
+    "The related approved drug afamelanotide has been tested for medical use: the FDA's approval rested on three trials in 244 adults aged 18 to 74 at 22 sites in the US and Europe with erythropoietic protoporphyria, measuring pain-free hours in sunlight. Reported side effects of the implant include nausea (19 percent), headache (20 percent) and implant-site reactions (21 percent), and because it can darken existing lesions, six-monthly full-body skin examinations are often recommended.[8] Clinuvel also ran trials from 2007 to 2011 in vitiligo, polymorphous light eruption, solar urticaria and acne before concentrating on EPP.[8]"
    ]
   }
  ],
  "timeline": [
+  {
+   "year": "1950s",
+   "event": "Alpha-MSH isolated; DHA's skin-tanning effect discovered by Eva Wittgenstein.[8][1]"
+  },
+  {
+   "year": "1959",
+   "event": "First commercial DHA self-tanner, Man-Tan, appears.[1]"
+  },
   {
    "year": "1960s",
    "event": "Alpha-MSH's role in pigmentation is established.[1]"
   },
   {
    "year": "1980s",
-   "event": "University of Arizona researchers develop alpha-MSH analogues.[1]"
+   "event": "University of Arizona researchers develop melanotan I and II.[1][2]"
+  },
+  {
+   "year": "2000",
+   "event": "Palatin shifts from melanotan II to bremelanotide.[2]"
   },
   {
    "year": "2006",
-   "event": "Epitan, licensee of melanotan I, renames itself Clinuvel.[1]"
+   "event": "Epitan, licensee of melanotan I, renames itself Clinuvel.[8]"
   },
   {
    "year": "2007",
    "event": "Health agencies begin warning against unlicensed products.[1][2]"
   },
   {
+   "year": "2008",
+   "event": "Palatin and Competitive Technologies settle the bremelanotide dispute.[2]"
+  },
+  {
    "year": "2009",
    "event": "BMJ report on mole changes; FDA warning letter.[2][6]"
   },
   {
+   "year": "2010",
+   "event": "Italy approves afamelanotide, the first approval of an alpha-MSH analogue.[8]"
+  },
+  {
    "year": "2019",
-   "event": "FDA approves bremelanotide for a sexual desire disorder.[1]"
+   "event": "FDA approves afamelanotide (October) and bremelanotide.[8][1]"
   }
  ],
  "lore": {
@@ -124,6 +185,30 @@
     "believers": "The original poster in a risk-versus-reward thread asks why not self-tan instead.[7]",
     "experts": "DHA self-tanners colour the skin surface and fade within days; they are widely sold.[1]",
     "evidence": "supported"
+   },
+   {
+    "claim": "Melanotan darkens eyebrows and hair colour",
+    "believers": "Thread titles on looksmax.org present melanotan 2 as a way to darken eyebrows and discuss it for hair colour.[9][10]",
+    "experts": "MC1R activation increases melanin in melanocytes; no published study has measured eyebrow or hair colour change from unlicensed melanotan use.[2]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Nasal spray works as well as injection",
+    "believers": "One guide-thread reply says nasal bioavailability is roughly a tenth of injection and that absorbed amount is unpredictable.[3]",
+    "experts": "No published studies compare the routes for unlicensed products, and agencies warn about impurities in unregulated supplies.[2]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Melanotan helps fair-skinned and red-haired people most",
+    "believers": "Thread titles describe melanotan as the best looksmax for white people and ask about use by gingers.[11][12]",
+    "experts": "MC1R is the receptor involved in pigmentation; no published study has compared outcomes by skin type for unlicensed use.[2]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Melanotan is cheaper and quicker than repeated tanning-bed sessions",
+    "believers": "Guide threads advise combining the peptide with limited UV and describe results building over repeated use.[3][16]",
+    "experts": "Health agencies advise against unlicensed products, and a 2021 review linked higher melanoma rates among users to heavy UV exposure.[2]",
+    "evidence": "harms"
    }
   ]
  },
@@ -183,6 +268,94 @@
    "source": "looksmax.org",
    "year": 2025,
    "type": "forum"
+  },
+  {
+   "id": 8,
+   "title": "Afamelanotide",
+   "url": "https://en.wikipedia.org/wiki/Afamelanotide",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 9,
+   "title": "Melanotan 2 is the way to darken your eyebrows",
+   "url": "https://looksmax.org/threads/melanotan-2-is-the-way-to-darken-your-eyebrows.502918/",
+   "source": "looksmax.org",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 10,
+   "title": "Melanotan for hair color",
+   "url": "https://looksmax.org/threads/melanotan-for-hair-color-gay-alien-nordic-phenotype.494606/",
+   "source": "looksmax.org",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 11,
+   "title": "melanotan is the best looksmax for white people",
+   "url": "https://looksmax.org/threads/melanotan-is-the-best-looksmax-for-white-people.523325/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 12,
+   "title": "melanotan ii for gingers",
+   "url": "https://looksmax.org/threads/melanotan-ii-for-gingers.465791/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 13,
+   "title": "melanotan ii tretinoin",
+   "url": "https://looksmax.org/threads/melanotan-ii-tretinoin.475610/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 14,
+   "title": "melanotan 1 vs melanotan 2: what is the difference",
+   "url": "https://looksmax.org/threads/melanotan-1-vs-melanotan-2-what-is-the-difference-and-which-one-should-i-buy.481623/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 15,
+   "title": "melanotan 1 2 peptide guide walkthrough",
+   "url": "https://looksmax.org/threads/melanotan-1-2-peptide-guide-walkthrough.496758/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 16,
+   "title": "melanotan 2 is amazing melanotan 2 guide",
+   "url": "https://looksmax.org/threads/melanotan-2-is-amazing-melanotan-2-guide.115860/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 17,
+   "title": "updated melanotan 2 guide inspired by mpmd",
+   "url": "https://looksmax.org/threads/updated-melanotan-2-guide-inspired-by-mpmd.1718108/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 18,
+   "title": "melanotan 2",
+   "url": "https://looksmax.org/threads/melanotan-2.1562329/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
   }
  ],
  "webSources": [
@@ -193,18 +366,10 @@
   {
    "url": "https://en.wikipedia.org/wiki/Melanotan_II",
    "title": "Melanotan II (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Afamelanotide",
+   "title": "Afamelanotide (Wikipedia)"
   }
- ],
- "card": {
-  "summary": "Unlicensed melanotan injections for tanning; flagged by health agencies since 2007 and linked to mole changes.",
-  "aka": "Melanotan, tan jab",
-  "evidence": "limited",
-  "risk": "high",
-  "note": "Not legal to sell for human use; agencies have issued warnings."
- },
- "quick": {
-  "overview": "Tan jabs are unlicensed melanotan injections sold to darken skin without sun exposure.\n\nHealth agencies in several countries have warned against them since 2007.",
-  "mechanism": "Melanotan peptides mimic alpha-MSH and stimulate melanin production.[1][2]",
-  "risks": "Reported effects include flushing, nausea and mole darkening or changes;[2][3] melanoma evidence is unclear. They are unlicensed for tanning."
- }
+ ]
 }

@@ -1,106 +1,385 @@
 {
-  "name": "Abiraterone acetate",
-  "lead": [
-    "Abiraterone acetate (brand names Zytiga and Yonsa) is an oral prodrug converted in the body to abiraterone, an inhibitor of the enzyme CYP17A1, which lowers production of androgens including testosterone and DHT. It is approved for advanced prostate cancer, given with prednisone, and is a prescription cancer drug rather than a cosmetic or dermatological product.[1][2][3]",
-    "It is included here because it is discussed in connection with anti-androgen approaches to hair. No published study among the sources reviewed has tested abiraterone for hair loss, acne or any other appearance outcome, so its effect on appearance in people is untested.",
-    "Its labelled risks include mineralocorticoid excess effects (hypertension, low potassium, fluid retention), adrenal insufficiency and liver toxicity, and its label states it can cause fetal harm."
+ "name": "Abiraterone acetate",
+ "lead": [
+  "Abiraterone acetate (brand names Zytiga and Yonsa) is an oral prodrug that the body converts to abiraterone, an inhibitor of the enzyme CYP17A1, which lowers production of androgens including testosterone, DHEA and DHT. It is approved for advanced prostate cancer, given with a corticosteroid, and is a prescription cancer drug rather than a cosmetic or dermatological product.[1][2][3]",
+  "It appears in appearance-related conversation because androgens, particularly DHT, are central to male-pattern hair loss, acne and facial and body hair, and abiraterone is a potent androgen-synthesis blocker. People interested in anti-androgen approaches to hair and skin read about it as one of the strongest androgen-lowering compounds in clinical use, alongside drugs such as finasteride and spironolactone. No published study has tested abiraterone for hair loss, acne or any other appearance outcome in people.",
+  "Its research base is in oncology and is extensive: randomized phase 3 trials in men with metastatic castration-resistant and castration-sensitive prostate cancer, and combination studies with PARP inhibitors.[4][5][6][7][20][21] Labelled risks include mineralocorticoid excess effects (hypertension, low potassium, fluid retention), adrenal insufficiency and liver toxicity, and the label states it can cause fetal harm.[3]"
+ ],
+ "angle": {
+  "goal": "Hair / androgen-driven features",
+  "chain": [
+   "Blocks CYP17A1 in testes, adrenals and tumours",
+   "Lowers circulating androgens including testosterone and DHT",
+   "Androgens drive hair loss, acne and body hair, so androgen reduction is the stated rationale"
   ],
-  "infobox": [
-    ["Drug class", "CYP17A1 inhibitor (androgen biosynthesis inhibitor)"],
-    ["Routes", "Oral"],
-    ["Developer", "Institute of Cancer Research (London); marketed by Janssen (J&J)"],
-    ["First approved", "2011 (US, metastatic castration-resistant prostate cancer)"],
-    ["Trade names", "Zytiga, Yonsa"],
-    ["Legal status", "Prescription-only"]
+  "effect": "claimed",
+  "text": "The appearance rationale discussed around abiraterone is that deep androgen suppression could, in principle, change androgen-dependent features such as scalp hair, acne and facial and body hair. This is a mechanistic idea; abiraterone's use in medicine is as a prostate cancer treatment under oncology supervision, and no appearance indication has been studied."
+ },
+ "infobox": [
+  [
+   "Drug class",
+   "CYP17A1 inhibitor (androgen biosynthesis inhibitor)[1]"
   ],
-  "sections": [
+  [
+   "Routes",
+   "Oral"
+  ],
+  [
+   "Developer",
+   "Institute of Cancer Research (London); developed commercially by Cougar Biotechnology, later Johnson & Johnson (Janssen)[1][8]"
+  ],
+  [
+   "First approved",
+   "2011 (US, metastatic castration-resistant prostate cancer)[1]"
+  ],
+  [
+   "Trade names",
+   "Zytiga, Yonsa; fixed-dose niraparib combination (Akeega)[2]"
+  ],
+  [
+   "Half-life",
+   "About 12 to 24 hours[1]"
+  ],
+  [
+   "Metabolism",
+   "CYP3A4 involved; strong inhibitors or inducers are cautioned[1]"
+  ],
+  [
+   "Legal status",
+   "Prescription-only; generics in the US and India; on the WHO essential medicines list[1]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Uses",
+   "subs": [
     {
-      "h": "Uses",
-      "subs": [
-        {
-          "h": "Cosmetic / appearance uses",
-          "paras": [
-            "No approved or studied appearance use was found in the sources reviewed. Wikipedia and the US label describe only oncology indications.[1][3]"
-          ]
-        },
-        {
-          "h": "Medical uses",
-          "paras": [
-            "Abiraterone acetate with prednisone is indicated for metastatic castration-resistant prostate cancer and metastatic high-risk castration-sensitive prostate cancer.[1][3] A fixed-dose combination with the PARP inhibitor niraparib is approved for BRCA-mutated metastatic castration-resistant prostate cancer.[2] Randomized trials reported improved overall survival in patients who had received chemotherapy, in those who had not, and in castration-sensitive disease.[4][5][6][7] Guidelines and reviews place it among standard treatments.[8][9]"
-          ]
-        }
-      ]
+     "h": "Cosmetic / appearance uses",
+     "paras": [
+      "Abiraterone acetate has no approved or studied appearance use. Wikipedia and the US label describe only oncology indications.[1][3] In looksmaxxing and hair-loss discussion it is mentioned as a hypothetical androgen-lowering agent because DHT drives male-pattern hair loss and acne, but the discussion is about mechanism and not about published outcomes. No trial has measured hair density, sebum, acne or facial hair in people taking it.",
+      "Appearance-related effects that do appear in the drug literature are side effects of the cancer treatment context. Hot flashes, fatigue, swelling and joint pain are listed among reported effects, and the drug is usually given to men whose testosterone is already suppressed by surgical or medical castration.[1] Because those patients are older men with advanced cancer, the evidence base does not describe changes in cosmetic features."
+     ]
     },
     {
-      "h": "Adverse effects",
-      "paras": [
-        "The US label warns of mineralocorticoid excess (hypertension, hypokalemia, fluid retention), adrenocortical insufficiency and hepatotoxicity, which is why it is given with a corticosteroid and monitored.[3] Wikipedia lists urinary tract infection, low potassium, high blood pressure, diarrhea and swelling as very common effects, and fractures, arrhythmia and raised liver enzymes as common.[1] The label states that the drug can cause fetal harm and that safety and efficacy have not been established in females.[3]"
-      ]
-    },
-    {
-      "h": "Pharmacology",
-      "paras": [
-        "Abiraterone inhibits 17 alpha-hydroxylase/C17,20-lyase, an enzyme expressed in the testes, adrenal glands and prostate tumours, blocking androgen synthesis at several sites.[1][3] Wikipedia also notes weak androgen receptor antagonism and that a 5-alpha-reduced metabolite can act as an agonist.[1] Food increases absorption, so the label directs it be taken on an empty stomach.[1][3] Resistance mechanisms such as the AR-V7 splice variant have been studied.[10]"
-      ]
-    },
-    {
-      "h": "History",
-      "paras": [
-        "Researchers at the Institute of Cancer Research in London developed abiraterone in the early 1990s, using ketoconazole as a model; Johnson & Johnson acquired it in 2009, the FDA approved it for metastatic castration-resistant prostate cancer in April 2011, and approval for castration-sensitive disease followed in 2018.[1]"
-      ]
-    },
-    {
-      "h": "Society and culture",
-      "paras": [
-        "It is prescription-only in most markets, with generics in the US and India.[1] No community discussion sources were reviewed for this entry."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found in hair loss, acne or other appearance indications. Prostate cancer evidence is extensive: the COU-AA-301 trial reported improved survival after chemotherapy, and later trials reported benefit in chemotherapy-naive and hormone-sensitive disease.[4][5][6][7] Registered trials include formulation, food-effect and adaptive-dosing studies.[11][12][13]"
-      ]
+     "h": "Medical uses",
+     "paras": [
+      "Abiraterone acetate with prednisone is indicated for metastatic castration-resistant prostate cancer and metastatic high-risk castration-sensitive prostate cancer, and it is given together with a GnRH analog or after surgical castration.[1][3] A fixed-dose combination with the PARP inhibitor niraparib is approved for BRCA-mutated metastatic castration-resistant prostate cancer.[2] Randomized trials reported improved overall survival in patients who had received chemotherapy, in those who had not, and in castration-sensitive disease.[4][5][6][7] Guidelines and reviews place it among standard treatments.[9][10] It has also been studied in other hormone-driven cancers, with breast and ovarian uses in phase 2 trials as of 2018, according to Wikipedia.[1]"
+     ]
     }
-  ],
-  "timeline": [
-    { "year": "1990s", "event": "Developed at the Institute of Cancer Research, London.[1]" },
-    { "year": "2009", "event": "Acquired by Johnson & Johnson.[1]" },
-    { "year": "2011", "event": "FDA approval for metastatic castration-resistant prostate cancer; NEJM trial published.[1][4]" },
-    { "year": "2018", "event": "Approval for metastatic castration-sensitive prostate cancer.[1]" }
-  ],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Abiraterone acetate", "url": "https://en.wikipedia.org/wiki/Abiraterone_acetate", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Abiraterone acetate", "url": "https://grokipedia.com/page/Abiraterone_acetate", "source": "Grokipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 3, "title": "Abiraterone acetate US prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0c91aa38-3b0a-232c-8eb1-55f08e8e6644", "source": "DailyMed", "year": 2024, "type": "label" },
-    { "id": 4, "title": "Abiraterone and increased survival in metastatic prostate cancer.", "url": "https://pubmed.ncbi.nlm.nih.gov/21612468/", "source": "New England Journal of Medicine", "year": 2011, "type": "trial" },
-    { "id": 5, "title": "Abiraterone in metastatic prostate cancer without previous chemotherapy.", "url": "https://pubmed.ncbi.nlm.nih.gov/23228172/", "source": "New England Journal of Medicine", "year": 2013, "type": "trial" },
-    { "id": 6, "title": "Abiraterone plus Prednisone in Metastatic, Castration-Sensitive Prostate Cancer.", "url": "https://pubmed.ncbi.nlm.nih.gov/28578607/", "source": "New England Journal of Medicine", "year": 2017, "type": "trial" },
-    { "id": 7, "title": "Abiraterone for Prostate Cancer Not Previously Treated with Hormone Therapy.", "url": "https://pubmed.ncbi.nlm.nih.gov/28578639/", "source": "New England Journal of Medicine", "year": 2017, "type": "trial" },
-    { "id": 8, "title": "EAU-ESTRO-SIOG Guidelines on Prostate Cancer. Part II: Treatment of Relapsing, Metastatic, and Castration-Resistant Prostate Cancer.", "url": "https://pubmed.ncbi.nlm.nih.gov/27591931/", "source": "European Urology", "year": 2017, "type": "guideline" },
-    { "id": 9, "title": "The Diagnosis and Treatment of Prostate Cancer: A Review.", "url": "https://pubmed.ncbi.nlm.nih.gov/28655021/", "source": "JAMA", "year": 2017, "type": "review" },
-    { "id": 10, "title": "AR-V7 and resistance to enzalutamide and abiraterone in prostate cancer.", "url": "https://pubmed.ncbi.nlm.nih.gov/25184630/", "source": "New England Journal of Medicine", "year": 2014, "type": "study" },
-    { "id": 11, "title": "TAVT-45 (Abiraterone Acetate) Granules in Patients With Prostate Cancer (NCT04887506)", "url": "https://clinicaltrials.gov/study/NCT04887506", "source": "ClinicalTrials.gov", "year": 2021, "type": "trial" },
-    { "id": 12, "title": "Improving Bio-availability of the Expensive Oral Oncolytic Drug Abiraterone by Food Intake (NCT02883166)", "url": "https://clinicaltrials.gov/study/NCT02883166", "source": "ClinicalTrials.gov", "year": 2016, "type": "trial" },
-    { "id": 13, "title": "Adaptive Abiraterone Therapy for Metastatic Castration Resistant Prostate Cancer (NCT02415621)", "url": "https://clinicaltrials.gov/study/NCT02415621", "source": "ClinicalTrials.gov", "year": 2015, "type": "trial" }
-  ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Abiraterone_acetate", "title": "Abiraterone acetate - Wikipedia" }
-  ],
-  "card": {
-    "summary": "A prescription prostate-cancer drug that blocks androgen synthesis; no hair or skin studies exist in the sources reviewed.",
-    "aka": "Zytiga, Yonsa (brands)",
-    "evidence": "unproven",
-    "status": "rx",
-    "outcome": null,
-    "risk": null,
-    "price": null,
-    "note": "Oncology drug with labelled risks (blood pressure, potassium, adrenal and liver effects, fetal harm); no appearance use studied.",
-    "structure": "Abiraterone acetate"
+   ]
   },
-  "quick": {
-    "overview": "Abiraterone acetate is a prescription oral drug for advanced prostate cancer. It shuts down androgen production by inhibiting the enzyme CYP17A1.\n\nIt is discussed alongside anti-androgens for hair, but no study among the sources reviewed has tested it for hair loss or other appearance outcomes.",
-    "mechanism": "It blocks CYP17A1 in the testes, adrenal glands and tumours, cutting production of testosterone and related androgens; it is given with prednisone to offset the resulting hormone imbalance.",
-    "risks": "Labelled risks include high blood pressure, low potassium, fluid retention, adrenal insufficiency, liver toxicity and fetal harm. It is prescription-only and used under oncology supervision."
+  {
+   "h": "Pharmacology",
+   "subs": [
+    {
+     "h": "Mechanism of action",
+     "paras": [
+      "Abiraterone inhibits 17 alpha-hydroxylase/C17,20-lyase (CYP17A1), an enzyme expressed in the testes, adrenal glands and prostate tumours, blocking androgen synthesis at several sites rather than only in the testes.[1][3] That is the key difference from castration, which reduces testicular output but leaves adrenal and intratumoral precursors such as DHEA available. A review of steroid intracrinology describes how castration-resistant tumours convert adrenal precursors into testosterone and DHT, which is the biology the drug targets.[15][11]",
+      "Because blocking CYP17A1 also reduces cortisol production and raises upstream mineralocorticoids, abiraterone is given with a corticosteroid; the label and Wikipedia describe prednisone as replacing cortisol and limiting mineralocorticoid excess.[1][3] Wikipedia also notes weak androgen receptor antagonism and that a 5-alpha-reduced metabolite can act as an agonist.[1]"
+     ]
+    },
+    {
+     "h": "Pharmacokinetics",
+     "paras": [
+      "Food increases absorption, so the label directs the standard tablet to be taken on an empty stomach; a registered food-effect study examined this.[1][3][13] The drug is more than 99 percent protein bound with a half-life of roughly 12 to 24 hours.[1] It is metabolised by CYP3A4, and it inhibits other enzymes including CYP2D6, so interactions with other medicines are a documented concern in older patients taking many drugs.[1][16]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "paras": [
+    "The US label warns of mineralocorticoid excess (hypertension, hypokalemia, fluid retention), adrenocortical insufficiency and hepatotoxicity, which is why it is given with a corticosteroid and monitored.[3] Wikipedia lists urinary tract infection, low potassium, high blood pressure, diarrhea and swelling as very common effects, fatigue, headache, joint pain, high blood sugar and hot flashes as reported, fractures, arrhythmia and raised liver enzymes as common, and liver failure and adrenal insufficiency as serious risks.[1]",
+    "The label states that the drug can cause fetal harm and that safety and efficacy have not been established in females; Wikipedia notes that men whose partners could become pregnant are advised to use contraception.[3][1] Caution is advised with severe liver impairment, heart disease, high blood pressure and uncorrected low potassium.[1] These effects reflect androgen-pathway suppression in a cancer setting and are described by clinicians as managed through monitoring."
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Researchers at the Institute of Cancer Research in London developed abiraterone in the early 1990s, using the antifungal ketoconazole, which also inhibits steroid synthesis, as a model.[1][8] Cougar Biotechnology developed it as CB7630 and drew on its structural relationship to ketoconazole; a 2010 review describes it as a selective inhibitor of adrenal androgens expected to be safer than existing second-line hormonal therapies.[8] Johnson & Johnson acquired the compound in 2009 and the FDA approved it for metastatic castration-resistant prostate cancer in April 2011, with approval for castration-sensitive disease following in 2018.[1]",
+    "The pivotal 2011 New England Journal of Medicine trial (COU-AA-301) randomly assigned 1,195 men who had previously received docetaxel in a 2:1 ratio to abiraterone plus prednisone or placebo plus prednisone and reported a survival benefit for the abiraterone group.[4] A 2013 trial in 1,088 chemotherapy-naive men reported benefit in radiographic progression-free survival and, at interim, a trend toward overall survival, with later final analyses published.[5][17][18] Two 2017 NEJM trials extended its use to men starting hormone therapy for metastatic or high-risk disease.[6][7]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Abiraterone acetate is prescription-only in most markets, with generics in the US and India, and it is on the WHO list of essential medicines.[1] A micronized formulation (Yonsa) and a granule formulation (TAVT-45) have been developed, and registered studies have examined food intake and adaptive dosing as ways to change cost and tolerability.[12][13][14] No community-source discussion of using abiraterone for appearance was found; mentions of it in appearance forums are tied to the broader subject of anti-androgens."
+   ]
+  },
+  {
+   "h": "Research",
+   "paras": [
+    "Resistance has been studied extensively: a 2014 NEJM study reported that detecting the AR-V7 splice variant in circulating tumour cells from men with advanced prostate cancer was associated with resistance to abiraterone and enzalutamide.[19] Combination research pairs abiraterone with PARP inhibitors in men with homologous recombination repair gene alterations, including the MAGNITUDE trial of niraparib plus abiraterone and the PROpel trial of olaparib plus abiraterone, and a 2025 phase 3 trial in castration-sensitive disease.[20][21][22][23] The STAMPEDE platform meta-analysis examined adding abiraterone to androgen deprivation in high-risk non-metastatic disease.[24] Reviews of hormone-sensitive disease describe combination intensification as standard.[25]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found in hair loss, acne or other appearance indications. Prostate cancer evidence is extensive: the COU-AA-301 trial reported improved survival after chemotherapy, and later trials reported benefit in chemotherapy-naive and hormone-sensitive disease.[4][5][6][7] Registered trials include formulation, food-effect and adaptive-dosing studies.[12][13][14]"
+   ]
   }
+ ],
+ "timeline": [
+  {
+   "year": "1990s",
+   "event": "Developed at the Institute of Cancer Research, London, using ketoconazole as a model.[1]"
+  },
+  {
+   "year": "2009",
+   "event": "Acquired by Johnson & Johnson.[1]"
+  },
+  {
+   "year": "2010",
+   "event": "Review describes development by Cougar Biotechnology as CB7630 for advanced prostate and breast cancers.[8]"
+  },
+  {
+   "year": "2011",
+   "event": "FDA approval for metastatic castration-resistant prostate cancer; COU-AA-301 results published in NEJM.[1][4]"
+  },
+  {
+   "year": "2013",
+   "event": "NEJM reports a trial in men without previous chemotherapy.[5]"
+  },
+  {
+   "year": "2014",
+   "event": "AR-V7 splice variant linked to resistance to abiraterone and enzalutamide.[19]"
+  },
+  {
+   "year": "2017",
+   "event": "Two NEJM trials report benefit in castration-sensitive disease.[6][7]"
+  },
+  {
+   "year": "2018",
+   "event": "Approval for metastatic castration-sensitive prostate cancer.[1]"
+  },
+  {
+   "year": "2023",
+   "event": "Phase 3 results published for niraparib plus abiraterone (MAGNITUDE) and olaparib plus abiraterone (PROpel).[20][21]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Abiraterone acetate",
+   "url": "https://en.wikipedia.org/wiki/Abiraterone_acetate",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Abiraterone acetate",
+   "url": "https://grokipedia.com/page/Abiraterone_acetate",
+   "source": "Grokipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Abiraterone acetate US prescribing information",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0c91aa38-3b0a-232c-8eb1-55f08e8e6644",
+   "source": "DailyMed",
+   "year": 2024,
+   "type": "label"
+  },
+  {
+   "id": 4,
+   "title": "Abiraterone and increased survival in metastatic prostate cancer.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21612468/",
+   "source": "New England Journal of Medicine",
+   "year": 2011,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "Abiraterone in metastatic prostate cancer without previous chemotherapy.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23228172/",
+   "source": "New England Journal of Medicine",
+   "year": 2013,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Abiraterone plus Prednisone in Metastatic, Castration-Sensitive Prostate Cancer.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28578607/",
+   "source": "New England Journal of Medicine",
+   "year": 2017,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Abiraterone for Prostate Cancer Not Previously Treated with Hormone Therapy.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28578639/",
+   "source": "New England Journal of Medicine",
+   "year": 2017,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Abiraterone acetate",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21171672/",
+   "source": "Drugs in R&D",
+   "year": 2010,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "EAU-ESTRO-SIOG Guidelines on Prostate Cancer. Part II: Treatment of Relapsing, Metastatic, and Castration-Resistant Prostate Cancer.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27591931/",
+   "source": "European Urology",
+   "year": 2017,
+   "type": "guideline"
+  },
+  {
+   "id": 10,
+   "title": "The Diagnosis and Treatment of Prostate Cancer: A Review.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28655021/",
+   "source": "JAMA",
+   "year": 2017,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "Sex Hormones and Prostate Cancer",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31613683/",
+   "source": "Annual Review of Medicine",
+   "year": 2020,
+   "type": "review"
+  },
+  {
+   "id": 12,
+   "title": "TAVT-45 (Abiraterone Acetate) Granules in Patients With Prostate Cancer (NCT04887506)",
+   "url": "https://clinicaltrials.gov/study/NCT04887506",
+   "source": "ClinicalTrials.gov",
+   "year": 2021,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "Improving Bio-availability of the Expensive Oral Oncolytic Drug Abiraterone by Food Intake (NCT02883166)",
+   "url": "https://clinicaltrials.gov/study/NCT02883166",
+   "source": "ClinicalTrials.gov",
+   "year": 2016,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "Adaptive Abiraterone Therapy for Metastatic Castration Resistant Prostate Cancer (NCT02415621)",
+   "url": "https://clinicaltrials.gov/study/NCT02415621",
+   "source": "ClinicalTrials.gov",
+   "year": 2015,
+   "type": "trial"
+  },
+  {
+   "id": 15,
+   "title": "Intracrinology-revisited and prostate cancer",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31614208/",
+   "source": "J Steroid Biochem Mol Biol",
+   "year": 2020,
+   "type": "review"
+  },
+  {
+   "id": 16,
+   "title": "Androgen receptor pathway inhibitors and drug-drug interactions in prostate cancer",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39426080/",
+   "source": "ESMO Open",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 17,
+   "title": "Abiraterone acetate plus prednisone versus placebo plus prednisone in chemotherapy-naive men with metastatic castration-resistant prostate cancer (COU-AA-302): final overall survival analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25601341/",
+   "source": "Lancet Oncology",
+   "year": 2015,
+   "type": "trial"
+  },
+  {
+   "id": 18,
+   "title": "Abiraterone acetate for treatment of metastatic castration-resistant prostate cancer: final overall survival analysis of the COU-AA-301 trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22995653/",
+   "source": "Lancet Oncology",
+   "year": 2012,
+   "type": "trial"
+  },
+  {
+   "id": 19,
+   "title": "AR-V7 and resistance to enzalutamide and abiraterone in prostate cancer.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25184630/",
+   "source": "New England Journal of Medicine",
+   "year": 2014,
+   "type": "study"
+  },
+  {
+   "id": 20,
+   "title": "Niraparib and Abiraterone Acetate for Metastatic Castration-Resistant Prostate Cancer",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36952634/",
+   "source": "Journal of Clinical Oncology",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 21,
+   "title": "Olaparib plus abiraterone versus placebo plus abiraterone in metastatic castration-resistant prostate cancer (PROpel)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37714168/",
+   "source": "Lancet Oncology",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 22,
+   "title": "Niraparib plus abiraterone acetate with prednisone in patients with metastatic castration-resistant prostate cancer and homologous recombination repair gene alterations: second interim analysis of MAGNITUDE",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37399894/",
+   "source": "Annals of Oncology",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 23,
+   "title": "Niraparib and abiraterone acetate plus prednisone for HRR-deficient metastatic castration-sensitive prostate cancer: a randomized phase 3 trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41057655/",
+   "source": "Nature Medicine",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 24,
+   "title": "Abiraterone acetate and prednisolone with or without enzalutamide for high-risk non-metastatic prostate cancer: a meta-analysis of the STAMPEDE trials",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34953525/",
+   "source": "The Lancet",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 25,
+   "title": "Metastatic Hormone-Sensitive Prostate Cancer and Combination Treatment Outcomes: A Review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38722620/",
+   "source": "JAMA Oncology",
+   "year": 2024,
+   "type": "review"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Abiraterone_acetate",
+   "title": "Abiraterone acetate - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "A prescription prostate-cancer drug that blocks androgen synthesis; no hair or skin studies exist.",
+  "aka": "Zytiga, Yonsa (brands)",
+  "evidence": "unproven",
+  "status": "rx",
+  "outcome": null,
+  "risk": null,
+  "price": null,
+  "note": "Oncology drug with labelled risks (blood pressure, potassium, adrenal and liver effects, fetal harm); no appearance use studied.",
+  "structure": "Abiraterone acetate"
+ },
+ "quick": {
+  "overview": "Abiraterone acetate is a prescription oral drug for advanced prostate cancer. It shuts down androgen production by inhibiting the enzyme CYP17A1.\nIt is discussed alongside anti-androgens for hair, but no study has tested it for hair loss or other appearance outcomes.",
+  "mechanism": "It blocks CYP17A1 in the testes, adrenal glands and tumours, cutting production of testosterone and related androgens; it is given with prednisone to offset the resulting hormone imbalance.",
+  "risks": "Labelled risks include high blood pressure, low potassium, fluid retention, adrenal insufficiency, liver toxicity and fetal harm. It is prescription-only and used under oncology supervision."
+ }
 }

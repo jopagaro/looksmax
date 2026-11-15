@@ -1,8 +1,33 @@
 {
  "name": "LED light facial",
+ "card": {
+  "summary": "Coloured-light facial for acne and skin ageing, with small trials and preliminary evidence.",
+  "aka": "LED therapy, photobiomodulation facial",
+  "evidence": "limited",
+  "risk": "low",
+  "price": null,
+  "note": "Evidence is preliminary; many registered trials lack results."
+ },
+ "quick": {
+  "overview": "LED facials shine specific wavelengths of light on the skin, with blue used for acne and red or near-infrared for ageing. They are offered in clinics and as home masks.\nSmall studies and registrations exist, and Wikipedia describes the evidence as preliminary.",
+  "mechanism": "Light is thought to be absorbed by mitochondria in skin cells, influencing repair and inflammation (photobiomodulation).",
+  "risks": "Side effects are described as rare and mild, such as itching or redness. Photodynamic therapy, which adds a light-sensitising drug, carries more risks and is a separate procedure."
+ },
+ "angle": {
+  "goal": "Skin quality",
+  "chain": [
+   "LEDs deliver narrow-band light to facial skin",
+   "Light is absorbed by cellular chromophores such as mitochondrial cytochrome c oxidase",
+   "Cells shift toward repair, collagen synthesis and calmer inflammation",
+   "Clearer, smoother, more even-looking skin"
+  ],
+  "effect": "indirect",
+  "text": "Users run blue, red, yellow or near-infrared light over the face in regular sessions to reduce breakouts and improve fine lines, tone and glow. Clinics also use LED after peels and facials for a calmer look."
+ },
  "lead": [
-  "An LED light facial is a clinic or at-home treatment that exposes the face to light-emitting diodes at selected wavelengths (blue, red, near-infrared and others), usually for acne, skin ageing and general skin quality. It belongs to the family of low-level light therapy, or photobiomodulation.[1][2]",
-  "Wikipedia describes the proposed mechanism as light interacting with mitochondria, and describes the therapy as having rare, mild side effects, while noting that its own evidence base is flagged as needing stronger sourcing.[1] Small trials of LED treatment for facial rejuvenation exist; results for most registered studies are not available."
+  "An LED light facial exposes the face to light-emitting diodes at chosen wavelengths, usually blue, yellow, red and near-infrared, to help clear acne, soften fine lines, calm redness, even out tone and improve overall skin quality. It is offered in dermatology clinics, aesthetic practices and spas, and as home masks, panels and handheld wands. It belongs to the family of low-level light therapy known as photobiomodulation.[1][6]",
+  "People use it as a hands-off, non-contact skin routine that can sit alongside cleansers, retinoids and sunscreen. Blue light is used on acne-prone skin, red and near-infrared light for a smoother, firmer-looking and brighter complexion, and yellow light for redness and uneven pigmentation.[1][6] Because skin condition shapes how a face is read, from clarity and tone to texture and fine lines, LED sessions are one of the ways people work on the skin side of their appearance. On looksmax.org a typical post describes buying a clinic-grade home device and running a mix of blue, red and near-infrared modes several times a week for hormonal acne and pigmentation.[11]",
+  "The idea has a long lineage. Niels Finsen won the 1903 Nobel Prize for treating skin disease with concentrated light, and modern LED devices descend from that tradition through low-level laser work in the 1960s and narrow-band LED development in the late twentieth century.[12][13][1] Research now includes a 2025 review of LED in cosmetic dermatology, small randomized and open trials of facial rejuvenation and sensitive skin, a 2025 meta-analysis of low-level laser and LED therapy for hair, and several registered trials.[2][3][6][8][9][10]"
  ],
  "infobox": [
   [
@@ -11,45 +36,184 @@
   ],
   [
    "Wavelengths",
-   "Blue, red, yellow, near-infrared"
+   "Blue about 415 nm, yellow 570-590 nm, red 630-660 nm, near-infrared 760-1200 nm[1][6]"
   ],
   [
    "Forms",
-   "Clinic panels, masks, handheld devices"
+   "Clinic panels and beds, flexible masks, rigid panels, handheld devices"
+  ],
+  [
+   "Light type",
+   "Non-coherent, low intensity (unlike lasers)[1]"
+  ],
+  [
+   "Typical goals",
+   "Acne, fine lines, redness, pigmentation, skin quality"
+  ],
+  [
+   "Historical roots",
+   "Finsen's light therapy (1890s; Nobel Prize 1903); low-level laser work from 1967[12][13]"
+  ],
+  [
+   "Related procedures",
+   "Photodynamic therapy (adds a photosensitising drug); low-level laser therapy[1][13]"
+  ],
+  [
+   "Typical setting",
+   "Clinic sessions or home devices used on a regular schedule[11]"
   ]
  ],
  "sections": [
   {
-   "h": "Uses and claims",
+   "h": "Description and forms",
    "paras": [
-    "Wikipedia lists blue light (about 415 nm) for acne, red and yellow light for collagen support and rejuvenation, and red light for hair counts in androgenetic alopecia, and notes that home masks, panels and handhelds are widely sold.[1]"
+    "LED therapy uses diodes that emit narrow-spectrum, non-coherent light, in contrast to the coherent beam of a laser. The spectrum spans roughly 350 nm in the ultraviolet-A range to 1100 nm in the near-infrared, though facial devices concentrate on visible and near-infrared bands.[1][6] Longer wavelengths, roughly 600 to 1000 nm, penetrate deeper into skin and are the ones used mainly in dermatology and cosmetics, while blue and green light is absorbed by hemoglobin in blood.[1] Wikipedia notes that LEDs are described as better suited than lasers to conditions of the skin itself, with fewer short- and long-term side effects, whereas lasers reach deeper tissue.[1]",
+    "Professional units are panels or beds that deliver several wavelengths in one session. Consumer products include flexible face masks, rigid panels, wands and handheld devices, with red light the most common colour in home products; they are marketed for wrinkles, acne, puffiness and hair growth.[1] Some clinics apply LED after chemical peels or hydrafacials, as one looksmax.org poster notes about UK clinics.[11] Hair-oriented variants also exist, such as LED helmets that combine red and green light, which have been compared in a clinical study in androgenetic alopecia.[14]"
+   ]
+  },
+  {
+   "h": "Uses by wavelength",
+   "paras": [
+    "A 2025 review of LED in cosmetic dermatology organises uses by band. Blue light (400-470 nm) is used for acne vulgaris and barrier repair, mainly through antibacterial effects; yellow light (570-590 nm) for melasma and photoaging through suppression of melanin production; red light (630-760 nm), which penetrates more deeply, for scar healing, hair growth and skin rejuvenation; and near-infrared light (760-1200 nm) for pigmentary and inflammatory conditions.[6]",
+    "Wikipedia lists blue light at about 415 nm as reducing sebum secretion in acne, red light as a collagen-boosting approach for anti-ageing, 590 nm yellow light as linked to rejuvenation in a clinical series, and red light at 655 nm as increasing hair counts in androgenetic alopecia in reported studies. It also describes a red-light combination with a photosensitiser improving rosacea lesions in a trial.[1]"
+   ]
+  },
+  {
+   "h": "Mechanism of action",
+   "paras": [
+    "Photobiomodulation is described as low-power, non-heating light acting mainly on mitochondria. The leading proposal is that cytochrome c oxidase, an enzyme in the mitochondrial electron transport chain, absorbs red and near-infrared light, leading to nitric oxide release, increased ATP production and activation of transcription factors that support repair, growth and reduced inflammation.[1][13] The 2025 review adds opsins and cryptochromes as skin photoreceptors and links the cellular changes to proliferation, differentiation, collagen synthesis and immune modulation.[6]",
+    "Photodynamic therapy is a separate procedure in which a light-sensitising drug, light of a matching wavelength and oxygen produce reactive oxygen species that destroy target cells; it is used for conditions such as actinic keratosis and acne and carries more side effects than photobiomodulation.[1] Wikipedia also records that doses below a certain range appear ineffective in low-level light therapy generally, which is one reason device power and session length differ between products.[13]"
    ]
   },
   {
    "h": "History",
    "paras": [
-    "Light therapy has ancient roots; Niels Finsen's lamp for skin tuberculosis in the late 1800s is treated as the start of modern phototherapy. Cosmetic LED use grew in the 1980s, and narrow-band LED work in the 1990s is linked to NASA research.[1]"
+    "Sunlight was used to treat vitiligo-like conditions in ancient Egypt and India, and the nineteenth century brought reports that sunlight inhibits fungal growth.[1] The Danish-Faroese physician Niels Ryberg Finsen (1860-1904) developed a theory of phototherapy set out in writings of 1893 and 1896, founded the Finsen Institute in 1896 and received the 1903 Nobel Prize in Physiology or Medicine for treating disease, especially lupus vulgaris, with concentrated light.[12] The 'Finsen lamp' is often cited as the start of modern light therapy.[1]",
+    "In 1967 the Hungarian physician Endre Mester reported that low-level ruby laser light seemed to speed hair regrowth in shaved mice, an effect he found by accident, and he later reported accelerated wound healing with helium-neon light.[13] Cosmetic LED use grew in the 1980s, mainly for acne, and Wikipedia credits NASA's 1990s work on narrow-spectrum LEDs, first explored for plant growth and astronaut wound healing, with enabling clinical use.[1] Medical applications expanded from the early 2000s. A 2005 trial in the Journal of Cosmetic and Laser Therapy tested combined 633 nm and 830 nm LED light for facial rejuvenation in 31 subjects with facial rhytids, an early example of the combination approach now common in clinics.[7] The field has gone by many names, including laser biostimulation and low-level light therapy; 'photobiomodulation' is now the term preferred by many professionals.[13]"
    ]
   },
   {
-   "h": "Safety",
+   "h": "Research and effectiveness",
    "paras": [
-    "Wikipedia describes LED therapy as safer than laser because the light is non-coherent and lower in intensity, with photobiomodulation side effects described as rare and mild, such as itching or redness.[1]"
+    "The published facial literature is mostly small trials. A 2026 randomized trial studied 590 nm and 590/630 nm LED for sensitive skin, a 2025 single-centre randomized exploratory study combined 570/590 nm yellow light with red and infrared LED for facial photoaging, and a 2026 study in Aesthetic Plastic Surgery evaluated a broader-spectrum near-infrared LED device for skin rejuvenation and hair growth.[9][8][2] The 2025 cosmetic dermatology review summarises blue light as effective for acne, yellow for melasma and photoaging, and red light for rejuvenation, scar healing and hair growth.[6]",
+    "For hair, a 2025 systematic review and meta-analysis of 38 studies with 3,098 patients, mostly with androgenetic alopecia, reported significantly higher hair density with low-level laser and LED therapy than with placebo over 4 to 26 weeks, with high heterogeneity between studies.[10] Wikipedia notes that the FDA cleared a 635 nm low-level laser device for androgenetic alopecia and a 655 nm device in 2009, and it carries a flag that its own medical sourcing needs strengthening.[1]",
+    "Across low-level light therapy generally, Wikipedia's article on the subject describes evidence as mixed and mostly of low to moderate quality, with stronger support in areas such as preventing oral mucositis and more tentative findings elsewhere; the American Academy of Dermatology is quoted there as suggesting that only FDA-cleared devices be used for dermatologic purposes.[13]"
+   ]
+  },
+  {
+   "h": "Safety and regulation",
+   "paras": [
+    "Photobiomodulation is generally described as safe, with infrequent and transient effects such as itching, red spots and mild allergic reactions.[1] Photodynamic therapy has more frequent effects, including pain, redness, swelling and peeling, and later pigment change or scarring in a small share of patients.[1] Low-level laser therapy articles recommend eye protection with some devices, and reported effects include mild pain or skin irritation; long-term effects on skin and hair are described as unknown.[13] In a looksmax.org thread about a home device, a user asked about goggles and another replied that makers include eye protection and pregnancy warnings mainly as precautions, with no hard evidence of eye damage in their view.[11]",
+    "Regulation varies by product. Several low-level laser devices are FDA-cleared, and the agency has acted against marketing claims in the wider field: in 2014 it sued the maker QLaser for promoting devices as treating more than 200 diseases, and a permanent injunction followed in 2015.[13] That case concerned laser devices sold for medical claims rather than LED facial masks."
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing",
+   "paras": [
+    "Forum members present LED as a lower-risk skin routine alongside retinoids and sunscreen, particularly for acne and pigmentation. One thread recommends a clinic-grade home panel used about four times a week, mixing blue, red and near-infrared modes, and notes the manufacturer's wavelengths of 415, 633 and 830 nm.[11] Posters compare clinic-grade and consumer devices and mention that clinics apply the same brand after peels and facials.[11] LED is also grouped with other low-level light tools, such as caps and helmets, in discussions of scalp and hair.[10][14]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "A 2026 study in Aesthetic Plastic Surgery evaluated a new broader-spectrum near-infrared LED device for skin rejuvenation and hair growth.[2] Registered trials include a comparison of LED and laser therapy for facial rejuvenation (32 participants, completed),[3] a trial of an LED face, neck and chest mask for skin ageing and sun damage (38 participants, completed),[4] and a planned 130-person trial of an LED mask with or without a serum for photodamage.[5] Results of the registered trials were not available."
+    "A 2005 clinical trial of combined 633 nm and 830 nm LED therapy in 31 subjects with facial wrinkles assessed efficacy and local tolerability.[7] A 2026 study in Aesthetic Plastic Surgery evaluated a new broader-spectrum near-infrared LED device for skin rejuvenation and hair growth.[2] A 2025 randomized exploratory study tested 570/590 nm yellow light with red and infrared LED for facial photoaging, and a 2026 randomized trial tested 590 nm and 590/630 nm LED for sensitive skin.[8][9] A 2024 comparative study used an LED helmet emitting red and green light in androgenetic alopecia.[14]",
+    "Registered trials include a comparison of LED and laser therapy for facial rejuvenation (32 participants, started 2015, completed),[3] a trial of an LED face, neck and chest mask for skin ageing and sun damage (38 participants, completed),[4] and a planned 130-person trial of an LED mask with or without a serum for facial photodamage.[5] Results for the registered trials were not available."
    ]
   }
  ],
- "timeline": [],
- "lore": null,
+ "timeline": [
+  {
+   "year": "1893-1896",
+   "event": "Niels Finsen publishes his phototherapy theory and founds the Finsen Institute in 1896.[12]"
+  },
+  {
+   "year": "1903",
+   "event": "Finsen receives the Nobel Prize in Physiology or Medicine for treating lupus vulgaris with concentrated light.[12]"
+  },
+  {
+   "year": "1967",
+   "event": "Endre Mester reports low-level laser light seeming to speed hair regrowth in mice.[13]"
+  },
+  {
+   "year": "1980s",
+   "event": "Cosmetic LED use grows, mainly for acne.[1]"
+  },
+  {
+   "year": "1990s",
+   "event": "NASA-linked work on narrow-spectrum LEDs is credited with enabling clinical use.[1]"
+  },
+  {
+   "year": "2005",
+   "event": "Trial of combined 633 nm and 830 nm LED facial rejuvenation is published.[7]"
+  },
+  {
+   "year": "2009",
+   "event": "A 655 nm low-level laser hair device follows an earlier 635 nm device in FDA clearance.[1]"
+  },
+  {
+   "year": "2014-2015",
+   "event": "FDA sues QLaser over disease claims for low-level laser devices; a permanent injunction follows.[13]"
+  },
+  {
+   "year": "2025",
+   "event": "Review of LED in cosmetic dermatology and meta-analysis of low-level light therapy in alopecia are published.[6][10]"
+  },
+  {
+   "year": "2026",
+   "event": "Randomized trial of 590 and 590/630 nm LED for sensitive skin and a broader-spectrum near-infrared LED study are published.[9][2]"
+  }
+ ],
+ "lore": {
+  "intro": "On looksmax.org, LED therapy is discussed as an accessible home treatment for acne and skin quality, with threads comparing clinic-grade and consumer devices.[11] Claims below are stated as proponents and researchers describe them.",
+  "claims": [
+   {
+    "claim": "Clinic-grade home LED panels deliver clinic results.",
+    "believers": "One poster says UK skin clinics use the same brand after peels and facials and that a home version used four times a week helped hormonal acne and pigmentation.[11]",
+    "experts": "A 2025 review reports effects for specific wavelengths in acne, photoaging and melasma, while Wikipedia notes that home-device performance is not assessed in its coverage.[6][1]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Goggles are not needed for red light.",
+    "believers": "A looksmax.org reply says there is no hard evidence red light damages eyes and that warnings are liability precautions.[11]",
+    "experts": "Low-level light therapy literature notes that eye protection is recommended with some devices; no eye-safety data specific to LED facial masks have been published.[13]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Red and infrared LEDs improve hair growth.",
+    "believers": "Users group LED masks, caps and helmets among options for scalp and brows.[10]",
+    "experts": "A 2025 meta-analysis of 38 studies found greater hair density than placebo in androgenetic alopecia after 4 to 26 weeks of low-level laser and LED therapy, with high heterogeneity.[10]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Blue light clears acne by reducing bacteria and oil.",
+    "believers": "Proponents use blue light on acne-prone skin as a drug-free routine.[6]",
+    "experts": "The 2025 review describes blue light as effective for acne mainly through antibacterial effects, and Wikipedia reports reduced sebum secretion at about 415 nm.[6][1]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Red and near-infrared light boosts collagen and smooths fine lines.",
+    "believers": "Users run red and near-infrared modes for a smoother, brighter look.[11]",
+    "experts": "A 2005 trial of combined 633 nm and 830 nm light assessed efficacy in 31 people with facial rhytids, and later randomized studies are small; reviews describe collagen synthesis as the proposed pathway.[7][6]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Yellow light calms redness and pigmentation.",
+    "believers": "Some users add 570-590 nm light for sensitive or blotchy skin.[6]",
+    "experts": "Randomized trials of 590 and 590/630 nm LED in sensitive skin and 570/590 nm combined with red and infrared in photoaging have been published, and the review reports yellow light suppressing melanogenesis.[9][8][6]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "LED has no downtime and is gentler than lasers.",
+    "believers": "Clinics and users present it as a non-contact add-on after peels and facials.[11]",
+    "experts": "Wikipedia describes non-coherent, lower-intensity LED light as having fewer short- and long-term side effects than lasers, with transient itching or redness the usual reports.[1]",
+    "evidence": "supported"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
-   "title": "Light-emitting diode therapy (Wikipedia)",
+   "title": "Light-emitting diode therapy",
    "url": "https://en.wikipedia.org/wiki/Light-emitting_diode_therapy",
    "source": "Wikipedia",
    "year": 2025,
@@ -86,25 +250,92 @@
    "source": "ClinicalTrials.gov",
    "year": 2026,
    "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "The Application of Light Emitting Diode (LED) in Cosmetic Dermatology",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40751922/",
+   "source": "Photodermatology, Photoimmunology & Photomedicine",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "A study to determine the efficacy of combination LED light therapy (633 nm and 830 nm) in facial skin rejuvenation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16414908/",
+   "source": "Journal of Cosmetic and Laser Therapy",
+   "year": 2005,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Efficacy and safety of 570/590 nm yellow light combined with red light and infrared LED in treating facial skin photoaging",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41091280/",
+   "source": "Lasers in Medical Science",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Efficacy and Safety of 590 nm and 590/630 nm LED Therapy for Sensitive Skin",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41947316/",
+   "source": "Photodermatology, Photoimmunology & Photomedicine",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Low-Level Laser and LED Therapy in Alopecia: A Systematic Review and Meta-Analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39404126/",
+   "source": "Dermatologic Surgery",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "The Best LED Therapy Device on The Market (Acnecels GTFIH)",
+   "url": "https://looksmax.org/threads/the-best-led-therapy-device-on-the-market-acnecels-gtfih.426951/",
+   "source": "looksmax.org",
+   "year": 2023,
+   "type": "forum"
+  },
+  {
+   "id": 12,
+   "title": "Niels Ryberg Finsen",
+   "url": "https://en.wikipedia.org/wiki/Niels_Ryberg_Finsen",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 13,
+   "title": "Low-level laser therapy",
+   "url": "https://en.wikipedia.org/wiki/Low-level_laser_therapy",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 14,
+   "title": "Red and Green LED Light Therapy: A Comparative Study in Androgenetic Alopecia",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39368074/",
+   "source": "Photodermatology, Photoimmunology & Photomedicine",
+   "year": 2024,
+   "type": "trial"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Light-emitting_diode_therapy",
    "title": "Light-emitting diode therapy (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Niels_Ryberg_Finsen",
+   "title": "Niels Ryberg Finsen (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Low-level_laser_therapy",
+   "title": "Low-level laser therapy (Wikipedia)"
   }
- ],
- "card": {
-  "summary": "Coloured-light facial for acne and skin ageing, with small trials and preliminary evidence.",
-  "aka": "LED therapy, photobiomodulation facial",
-  "evidence": "limited",
-  "risk": "low",
-  "price": null,
-  "note": "Evidence is preliminary; many registered trials lack results."
- },
- "quick": {
-  "overview": "LED facials shine specific wavelengths of light on the skin, with blue used for acne and red or near-infrared for ageing. They are offered in clinics and as home masks.\n\nSmall studies and registrations exist, and Wikipedia describes the evidence as preliminary.",
-  "mechanism": "Light is thought to be absorbed by mitochondria in skin cells, influencing repair and inflammation (photobiomodulation).",
-  "risks": "Side effects are described as rare and mild, such as itching or redness. Photodynamic therapy, which adds a light-sensitising drug, carries more risks and is a separate procedure."
- }
+ ]
 }

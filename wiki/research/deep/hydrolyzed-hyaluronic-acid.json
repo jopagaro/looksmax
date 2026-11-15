@@ -1,23 +1,211 @@
 {
-"name":"Hydrolyzed hyaluronic acid",
-"lead":["Hydrolyzed hyaluronic acid is hyaluronic acid (HA) that has been broken into shorter chains, and it is marketed in skincare as a low-molecular-weight form intended for deeper hydration. HA itself is a glycosaminoglycan found in skin and other connective tissues, where it supports hydration [1].","Encyclopedia coverage of HA notes that chain length matters biologically: high-molecular-weight HA and low-molecular-weight fragments behave differently in cell studies, and some very small fragments have been reported to promote angiogenesis and inflammatory responses [1][2]. That coverage does not address how well topically applied hydrolyzed HA penetrates skin [1].","Published clinical evidence specific to hydrolyzed HA as a topical ingredient is limited to a small number of studies of multi-ingredient products."],
-"infobox":[["Type","Low-molecular-weight form of hyaluronic acid"],["Also called","Low-molecular-weight HA"],["Routes","Topical (cosmetic)"],["Discovered (parent HA)","1934, Meyer and Palmer"]],
-"sections":[
-{"h":"Description","paras":["Hyaluronic acid chains in the body range from a few thousand daltons to millions. Acid or alkaline hydrolysis, ultrasound, heat and oxidants can degrade HA into smaller pieces [1]. Cosmetic products list the shortened forms as hydrolyzed hyaluronic acid."]},
-{"h":"History","paras":["Karl Meyer and John Palmer first isolated hyaluronic acid in 1934 from bovine vitreous [1]. A 1953 paper in Science examined a diffusible component of hydrolyzed HA in relation to vaccinia virus inactivation [3]. A 1985 Science paper reported that HA degradation products induced angiogenesis [2]."]},
-{"h":"Molecular weight and biology","paras":["In cell studies summarised in encyclopedia coverage, HA above about 500 kDa stimulated HA synthesis in cultured synovial fibroblasts, while low-molecular-weight HA at high concentrations inhibited it [1]. Degradation fragments have been reported to trigger inflammatory responses in immune cells [1]."]},
-{"h":"Use in looksmaxxing","paras":["Hydrolyzed HA is promoted in serums as a smaller molecule meant to reach deeper than standard HA. The wiki's sources contain no looksmaxxing-forum discussion specific to it."]},
-{"h":"Clinical studies","paras":["No controlled trials of hydrolyzed hyaluronic acid alone as a topical were found. One preprint reported a face serum combining bakuchiol, palmitoyl tripeptide-38, hydrolyzed HA and a polyherbal and vitamin blend; it was tested in vitro, in a patch test in 55 healthy adults (no irritation or allergic contact dermatitis reported) and in a human efficacy trial, with the authors reporting improved skin quality [4]. Because the product had many ingredients, the contribution of hydrolyzed HA cannot be separated. Lab work has also used hydrolyzed HA gels to make microneedles [5]."]}
-],
-"timeline":[{"year":"1934","event":"Meyer and Palmer isolate hyaluronic acid from bovine vitreous.[1]"},{"year":"1953","event":"Science paper on a diffusible component from hydrolyzed HA and vaccinia virus.[3]"},{"year":"1985","event":"Degradation products of HA reported to induce angiogenesis.[2]"}],
-"lore":null,
-"refs":[
-{"id":1,"title":"Hyaluronic acid","url":"https://en.wikipedia.org/wiki/Hyaluronic_acid","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":2,"title":"Angiogenesis induced by degradation products of hyaluronic acid","url":"https://pubmed.ncbi.nlm.nih.gov/2408340/","source":"Science","year":1985,"type":"study"},
-{"id":3,"title":"Inactivation of vaccinia virus by a diffusible component from hydrolyzed hyaluronic acid","url":"https://pubmed.ncbi.nlm.nih.gov/13076197/","source":"Science","year":1953,"type":"study"},
-{"id":4,"title":"A Face Serum Containing Bakuchiol, Palmitoyl Tripeptide-38, Hydrolyzed Hyaluronic Acid and a Polyherbal and Vitamin Blend Improves Skin Quality","url":"https://doi.org/10.20944/preprints202106.0580.v1","source":"Preprints.org","year":2021,"type":"study"},
-{"id":5,"title":"Fabrication of High-Resolution Fine Microneedles Derived from Hydrolyzed Hyaluronic Acid Gels","url":"https://pubmed.ncbi.nlm.nih.gov/36547309/","source":"Gels","year":2022,"type":"study"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Hyaluronic_acid","title":"Hyaluronic acid - Wikipedia"}],
-"card":{"summary":"Chopped-up hyaluronic acid sold as the deeper-penetrating hydrator; direct evidence is thin.","aka":"low-molecular-weight HA","evidence":"unproven","status":"otc","risk":null,"note":"No standalone topical trials; very small HA fragments have shown pro-inflammatory activity in cell studies.","structure":null},
-"quick":{"overview":"Hydrolyzed hyaluronic acid is hyaluronic acid broken into shorter chains. Brands market it as getting deeper into skin than regular HA.\n\nThe only human data found come from a multi-ingredient serum, so its own effect has not been isolated.","mechanism":"HA binds water and supports skin hydration; shorter chains are argued to reach further, though encyclopedia coverage does not address topical penetration.","risks":"A patch test of a serum containing it reported no irritation or allergy in 55 adults. Laboratory work shows small HA fragments can provoke inflammatory responses in cells."}
+  "name": "Hydrolyzed hyaluronic acid",
+  "lead": [
+    "Hydrolyzed hyaluronic acid is hyaluronic acid (HA) that has been broken into shorter chains, and it is marketed in skincare serums and moisturizers as a low-molecular-weight form meant to hydrate deeper than standard HA. People use it to make skin look plumper, smoother and more hydrated, since HA is a glycosaminoglycan found in skin and other connective tissues that binds water and supports hydration [1].",
+    "Chain length matters biologically: high-molecular-weight HA and low-molecular-weight fragments behave differently in cell studies, and some very small fragments have been reported to promote angiogenesis and inflammatory responses [1][2][6]. Reference coverage of HA does not address how well topically applied hydrolyzed HA penetrates skin [1], but laboratory work has reported that HA fragments of about 5 and 8 kDa passed through the outer skin layer while larger HA stayed on the surface [7].",
+    "In a small randomized trial in older adults with dry skin, a lotion containing low-molecular-weight HA raised skin hydration readings more than a high-molecular-weight HA lotion or the vehicle after four weeks [8]. Other human evidence on hydrolyzed HA as a topical ingredient comes from studies of multi-ingredient products."
+  ],
+  "infobox": [
+    [
+      "Type",
+      "Low-molecular-weight form of hyaluronic acid"
+    ],
+    [
+      "Also called",
+      "Low-molecular-weight HA, sodium hyaluronate (related salt)"
+    ],
+    [
+      "Routes",
+      "Topical (cosmetic)"
+    ],
+    [
+      "Discovered (parent HA)",
+      "1934, Meyer and Palmer [1]"
+    ],
+    [
+      "Typical use",
+      "Serums, moisturizers, masks"
+    ],
+    [
+      "Tested range in a penetration study",
+      "5 to 8 kDa fragments [7]"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Description",
+      "paras": [
+        "In vivo, HA polymers range from about 5,000 to 20,000,000 daltons; synovial HA averages around 7 MDa, and a 70 kg person has roughly 15 g of HA, about a third of which turns over each day [1]. Acid or alkaline hydrolysis, ultrasound, heat and oxidants can degrade HA into smaller pieces [1]. Cosmetic products list the shortened forms as hydrolyzed hyaluronic acid.",
+        "HA used in products and fillers comes from animal sources such as rooster combs, from microbial fermentation, or from chemical synthesis; Bacillus subtilis has been engineered to produce it [1]."
+      ]
+    },
+    {
+      "h": "History",
+      "paras": [
+        "Karl Meyer and John Palmer first isolated hyaluronic acid in 1934 from bovine vitreous [1]. A 1953 paper in Science examined a diffusible component of hydrolyzed HA in relation to vaccinia virus inactivation [3]. A 1985 Science paper reported that HA degradation products induced angiogenesis [2]. Pharmacia's Healon, developed in the 1970s and 1980s, brought HA into eye surgery, and HA later became a common skin care ingredient and dermal filler material [1]."
+      ]
+    },
+    {
+      "h": "Molecular weight and biology",
+      "paras": [
+        "In cell studies summarised in encyclopedia coverage, HA above about 500 kDa stimulated HA synthesis in cultured synovial fibroblasts, while low-molecular-weight HA at high concentrations inhibited it [1]. Degradation fragments have been reported to trigger inflammatory responses in immune cells [1]. A review of HA in wound healing summarizes that high-molecular-weight HA displays anti-inflammatory and immunosuppressive properties, whereas low-molecular-weight HA is a potent proinflammatory molecule in those settings [6].",
+        "A consensus paper on late-onset reactions to HA dermal fillers lists the physicochemical structure of the filler, particularly low-molecular-weight HA, as one of three hypotheses for how rare delayed reactions arise; it concerns injected fillers, not topical products [9]."
+      ]
+    },
+    {
+      "h": "Mechanism of action (cosmetic)",
+      "paras": [
+        "Proponents say short chains can slip between the cells of the stratum corneum and hold water where long chains remain on the surface as a film. An in vitro penetration study reported that HA of 5 and 8 kDa crossed the stratum corneum and entered the epidermis and dermis, whereas higher-molecular-weight HA was trapped on the surface; the same work found low-molecular-weight HA interacted with keratin and lipids in the skin barrier and had a substantial hydrating effect [7]."
+      ]
+    },
+    {
+      "h": "Use in looksmaxxing",
+      "paras": [
+        "Hydrolyzed HA is promoted in serums as a smaller molecule meant to reach deeper than standard HA, and it is often listed alongside other humectants and peptides in hydrating routines. Formulas typically layer it under a moisturizer."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "A double-blind randomized trial in 36 nursing-home residents aged 60 to 80 in Jakarta with dry skin applied three lotions (low-molecular-weight HA, high-molecular-weight HA, or vehicle) to three separate leg sites. After four weeks, the low-molecular-weight HA site showed higher skin capacitance than the high-molecular-weight HA site (56.37 vs 52.37 AU, p = 0.004) and vehicle (56.37 vs 49.01 AU, p < 0.001); transepidermal water loss and symptom scores did not differ between groups, and no side effects were found [8].",
+        "One preprint reported a face serum combining bakuchiol, palmitoyl tripeptide-38, hydrolyzed HA and a polyherbal and vitamin blend; it was tested in vitro, in a patch test in 55 healthy adults (no irritation or allergic contact dermatitis reported) and in a human efficacy trial, with the authors reporting improved skin quality [4]. Because the product had many ingredients, the contribution of hydrolyzed HA cannot be separated.",
+        "Injected products that mix high and low molecular weight HA have also been studied, including a 2025 clinical trial of a hybrid-complex injection for face rejuvenation [10]. Lab work has used hydrolyzed HA gels to make microneedles [5]."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1934",
+      "event": "Meyer and Palmer isolate hyaluronic acid from bovine vitreous.[1]"
+    },
+    {
+      "year": "1953",
+      "event": "Science paper on a diffusible component from hydrolyzed HA and vaccinia virus.[3]"
+    },
+    {
+      "year": "1985",
+      "event": "Degradation products of HA reported to induce angiogenesis.[2]"
+    },
+    {
+      "year": "2023",
+      "event": "In vitro study reports 5-8 kDa HA passing the stratum corneum.[7]"
+    },
+    {
+      "year": "2024",
+      "event": "Randomized trial compares low- and high-molecular-weight HA lotions in dry skin.[8]"
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Hyaluronic acid",
+      "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Angiogenesis induced by degradation products of hyaluronic acid",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2408340/",
+      "source": "Science",
+      "year": 1985,
+      "type": "study"
+    },
+    {
+      "id": 3,
+      "title": "Inactivation of vaccinia virus by a diffusible component from hydrolyzed hyaluronic acid",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/13076197/",
+      "source": "Science",
+      "year": 1953,
+      "type": "study"
+    },
+    {
+      "id": 4,
+      "title": "A Face Serum Containing Bakuchiol, Palmitoyl Tripeptide-38, Hydrolyzed Hyaluronic Acid and a Polyherbal and Vitamin Blend Improves Skin Quality",
+      "url": "https://doi.org/10.20944/preprints202106.0580.v1",
+      "source": "Preprints.org",
+      "year": 2021,
+      "type": "study"
+    },
+    {
+      "id": 5,
+      "title": "Fabrication of High-Resolution Fine Microneedles Derived from Hydrolyzed Hyaluronic Acid Gels",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36547309/",
+      "source": "Gels",
+      "year": 2022,
+      "type": "study"
+    },
+    {
+      "id": 6,
+      "title": "Hyaluronic Acid in Inflammation and Tissue Regeneration",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26978861/",
+      "source": "Wounds",
+      "year": 2016,
+      "type": "review"
+    },
+    {
+      "id": 7,
+      "title": "Hyaluronic acid and HA-modified cationic liposomes for promoting skin penetration and retention",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37004799/",
+      "source": "Journal of Controlled Release",
+      "year": 2023,
+      "type": "study"
+    },
+    {
+      "id": 8,
+      "title": "Effectiveness of topical hyaluronic acid of different molecular weights in xerosis cutis treatment in elderly: a double-blind, randomized controlled trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38829483/",
+      "source": "Archives of Dermatological Research",
+      "year": 2024,
+      "type": "trial"
+    },
+    {
+      "id": 9,
+      "title": "Late-Onset Reactions after Hyaluronic Acid Dermal Fillers: A Consensus Recommendation on Etiology, Prevention and Management",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38907876/",
+      "source": "Dermatology and Therapy",
+      "year": 2024,
+      "type": "review"
+    },
+    {
+      "id": 10,
+      "title": "Safety and Efficacy of a High and Low Molecular Weight Hyaluronic Acid Hybrid Complex Injection for Face Rejuvenation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40200860/",
+      "source": "Journal of Cosmetic Dermatology",
+      "year": 2025,
+      "type": "trial"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid",
+      "title": "Hyaluronic acid - Wikipedia"
+    }
+  ],
+  "card": {
+    "summary": "Chopped-up hyaluronic acid sold as the deeper-penetrating hydrator; direct evidence is thin.",
+    "aka": "low-molecular-weight HA",
+    "evidence": "unproven",
+    "status": "otc",
+    "risk": null,
+    "note": "No standalone topical trials; very small HA fragments have shown pro-inflammatory activity in cell studies.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "Hydrolyzed hyaluronic acid is hyaluronic acid broken into shorter chains. Brands market it as getting deeper into skin than regular HA.\n\nThe only human data found come from a multi-ingredient serum, so its own effect has not been isolated.",
+    "mechanism": "HA binds water and supports skin hydration; shorter chains are argued to reach further, though encyclopedia coverage does not address topical penetration.",
+    "risks": "A patch test of a serum containing it reported no irritation or allergy in 55 adults. Laboratory work shows small HA fragments can provoke inflammatory responses in cells."
+  },
+  "angle": {
+    "goal": "Skin hydration and texture",
+    "chain": [
+      "Short-chain HA applied to skin",
+      "Binds water and may reach deeper layers of the outer skin",
+      "Skin looks more hydrated and plump"
+    ],
+    "effect": "direct",
+    "text": "Users apply serums and moisturizers containing hydrolyzed HA to dry or dull skin to make it look and feel more hydrated. In the one randomized trial that compared molecular weights, low-molecular-weight HA raised skin hydration measurements more than high-molecular-weight HA."
+  }
 }

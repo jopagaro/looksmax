@@ -1,108 +1,362 @@
 {
-  "name": "Nomegestrol acetate",
-  "lead": [
-    "Nomegestrol acetate (NOMAC) is a synthetic progestin derived from 19-norprogesterone. It is a potent, selective progesterone receptor agonist that suppresses ovulation and has some antiandrogenic activity, with no important androgenic, estrogenic, glucocorticoid or antimineralocorticoid effects.[1][2] It is used in combination with estradiol as a contraceptive pill (Zoely), for menopausal hormone therapy, and alone for certain gynaecological conditions (Lutenyl).[1][2]",
-    "In the appearance context, Wikipedia states that its antiandrogenic activity may help with acne, seborrhea and other androgen-dependent symptoms in women.[1] No acne-specific trial was among the sources reviewed, and Grokipedia lists acne among reported side effects of the drug.[2]",
-    "It is approved in Europe and Australia but not in the United States or Canada; the US FDA rejected the Zoely application in 2011.[1][2] Prolonged use of therapeutic doses has been associated with meningioma in epidemiological studies.[2]"
+ "name": "Nomegestrol acetate",
+ "lead": [
+  "Nomegestrol acetate (NOMAC) is a synthetic progestin derived from 19-norprogesterone, used in prescription contraceptive pills, menopausal hormone therapy and treatments for menstrual and other gynaecological conditions. In the appearance context, it is relevant because it combines strong progesterone-receptor activity with a weak ability to block androgen receptors; reference works suggest this antiandrogenic profile may ease androgen-driven skin problems such as acne and oily skin (seborrhea) in women who use it [1].",
+  "The chain people have in mind runs from androgen receptor blocking to less sebum stimulation to clearer skin. It is a pharmacological inference. No acne-specific trial of NOMAC has been published, and the drug is not marketed for skin [1][2].",
+  "NOMAC is sold in Europe, Australia and many other regions as Zoely (with estradiol, for contraception), Lutenyl (alone) and Naemis (with estradiol, for menopause), and it is not available in the United States or Canada [1][2]. Prolonged high-dose use has been associated with intracranial meningioma in epidemiological studies [2][15]."
+ ],
+ "angle": {
+  "goal": "Skin (acne and oiliness)",
+  "chain": [
+   "Blocks androgen receptors weakly while activating progesterone receptors",
+   "Less androgen-driven stimulation of oil glands",
+   "Possible improvement in acne and oily skin"
   ],
-  "infobox": [
-    ["Drug class", "Progestin (19-norprogesterone derivative); weak antiandrogen"],
-    ["Routes", "Oral"],
-    ["Developer", "Theramex Laboratories (Monaco)"],
-    ["First described", "1983 (patented 1975)"],
-    ["Trade names", "Zoely (with estradiol), Lutenyl, Naemis"],
-    ["Legal status", "Prescription-only; not available in US or Canada"],
-    ["Half-life", "About 50 hours"]
+  "effect": "claimed",
+  "text": "Reference sources describe NOMAC as a progestin with some antiandrogenic activity, and suggest this may help acne and seborrhea in women taking it. This follows from its receptor pharmacology; no acne trial of NOMAC alone or in Zoely has been published [1]."
+ },
+ "infobox": [
+  [
+   "Drug class",
+   "Progestin (19-norprogesterone derivative); partial antiandrogen [1][6]"
   ],
-  "sections": [
+  [
+   "Routes",
+   "Oral [1]"
+  ],
+  [
+   "Developer",
+   "Theramex Laboratories, Monaco [1]"
+  ],
+  [
+   "First described",
+   "1983 (nomegestrol patented 1975); former code TX-066 [1]"
+  ],
+  [
+   "Trade names",
+   "Zoely, Lutenyl, Naemis [1]"
+  ],
+  [
+   "Oral bioavailability",
+   "About 63% [1]"
+  ],
+  [
+   "Half-life",
+   "About 50 hours [1]"
+  ],
+  [
+   "Legal status",
+   "Prescription-only; not available in US or Canada [1]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Uses",
+   "subs": [
     {
-      "h": "Uses",
-      "subs": [
-        {
-          "h": "Cosmetic / appearance uses",
-          "paras": [
-            "The only appearance-related use found in the sources is the suggestion in Wikipedia that its antiandrogenic activity may benefit acne and seborrhea.[1] It is not marketed for acne."
-          ]
-        },
-        {
-          "h": "Medical uses",
-          "paras": [
-            "NOMAC 2.5 mg with 1.5 mg estradiol (Zoely, 24 active tablets and 4 placebo) is a combined oral contraceptive approved in Europe in 2011 and Australia in 2012.[2] Alone it is used for menstrual disturbances, breast pain and uterine bleeding, and with estradiol in menopausal therapy; in France it is no longer recommended for menopausal hormone therapy as of 2023 because of meningioma risk.[1][2]"
-          ]
-        }
-      ]
+     "h": "Cosmetic / appearance uses",
+     "paras": [
+      "Wikipedia states that NOMAC's antiandrogenic activity may help with acne, seborrhea and other androgen-dependent symptoms in women, while noting that the cited studies do not demonstrate this [1]. Estimates of its antiandrogenic potency vary widely between sources, from about 5 percent to 90 percent of that of cyproterone acetate [1]. Pharmacology reviews group NOMAC with newer progestins designed to have no androgenic, estrogenic or glucocorticoid effects and, in some cases, a partial antiandrogenic effect, as with dienogest and drospirenone [3][4][7].",
+      "NOMAC is not marketed for acne, hirsutism or hair loss, and these effects are not part of its labelled uses. Grokipedia lists acne among reported adverse effects of the drug, so skin outcomes in users are described in both directions in reference works [2]."
+     ]
     },
     {
-      "h": "Adverse effects",
-      "paras": [
-        "Wikipedia describes side effects as similar to other progestogens and usually mild: menstrual irregularities, headache, nausea and breast tenderness.[1] Grokipedia also lists acne, weight gain and irregular bleeding, and reports that use over a year at 3.75 to 5 mg has been associated with intracranial meningioma, with odds ratios up to 4.9 in epidemiological studies, and that MRI monitoring and contraindication in people with meningioma apply to therapeutic use.[2] Reviews of newer progestins discuss its pharmacological profile in contraception.[3][4][5]"
-      ]
-    },
-    {
-      "h": "Pharmacology",
-      "paras": [
-        "NOMAC binds selectively to the progesterone receptor and exerts antigonadotropic effects; ovulation is suppressed at roughly 1.25 to 5 mg per day depending on the source and conditions.[1][2] It has some androgen receptor antagonism.[1] Wikipedia reports about 63 percent oral bioavailability, 97.5 to 98 percent protein binding, hepatic metabolism through CYP3A4 and a half-life near 50 hours.[1] Classification reviews place it among 19-norprogesterone derivatives.[6][7][8]"
-      ]
-    },
-    {
-      "h": "History",
-      "paras": [
-        "Nomegestrol was patented in 1975 and NOMAC (code TX-066) first described in 1983, developed by Theramex Laboratories of Monaco; Lutenyl and Naemis were introduced in Europe in 1986, and the Zoely contraceptive was approved in Europe in 2011.[1]"
-      ]
-    },
-    {
-      "h": "Society and culture",
-      "paras": [
-        "Brand names include Lutenyl, Naemis and Zoely.[1] It is prescription-only and available in much of Europe, Latin America and Asia-Pacific but not in the US or Canada.[1] No community discussion sources were reviewed for this entry."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "Registered trials include a Phase 3 contraceptive efficacy and safety study of NOMAC-estradiol (terminated, about 3,000 participants), a large prospective cohort safety study of the 2.5 mg/1.5 mg pill in about 101,000 women, a pharmacokinetic study, a vaginal-ring dose-finding study, and a study of use in endometrial preparation.[9][10][11][12][13] A trial of postpartum relapse prevention in multiple sclerosis was also registered.[14] No acne trial was among them."
-      ]
+     "h": "Medical uses",
+     "paras": [
+      "NOMAC alone (Lutenyl, 3.75 mg and 5 mg tablets) is used for menstrual disturbances such as dysmenorrhea, menorrhagia and amenorrhea, vaginal bleeding, breast pain, premenstrual syndrome and menopausal symptoms. With estradiol it is sold as the Zoely contraceptive (2.5 mg NOMAC with 1.5 mg estradiol, 24 active and 4 placebo tablets) and as Naemis for menopausal therapy [1][2]. Zoely was approved in Europe in 2011 and Australia in 2012 and is marketed in about 40 countries; Lutenyl and related products are marketed in roughly two dozen [1][2]. In France, NOMAC is no longer recommended for menopausal hormone therapy as of 2023 because of meningioma risk [1][2]."
+     ]
     }
-  ],
-  "timeline": [
-    { "year": "1983", "event": "Nomegestrol acetate (TX-066) first described.[1]" },
-    { "year": "1986", "event": "Introduced in Europe as Lutenyl and Naemis.[1]" },
-    { "year": "2011", "event": "Zoely approved in Europe; FDA rejects US application.[1]" },
-    { "year": "2012", "event": "Approved in Australia.[2]" }
-  ],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Nomegestrol acetate", "url": "https://en.wikipedia.org/wiki/Nomegestrol_acetate", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Nomegestrol acetate", "url": "https://grokipedia.com/page/Nomegestrol_acetate", "source": "Grokipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 3, "title": "New progestagens for contraceptive use.", "url": "https://pubmed.ncbi.nlm.nih.gov/16291771/", "source": "Human Reproduction Update", "year": 2006, "type": "review" },
-    { "id": 4, "title": "The use of newer progestins for contraception.", "url": "https://pubmed.ncbi.nlm.nih.gov/20933114/", "source": "Contraception", "year": 2010, "type": "review" },
-    { "id": 5, "title": "Hormonal contraceptives: pharmacology tailored to women's health.", "url": "https://pubmed.ncbi.nlm.nih.gov/27307386/", "source": "Human Reproduction Update", "year": 2016, "type": "review" },
-    { "id": 6, "title": "Classification and pharmacology of progestins.", "url": "https://pubmed.ncbi.nlm.nih.gov/14670641/", "source": "Maturitas", "year": 2003, "type": "review" },
-    { "id": 7, "title": "Pharmacological profile of progestins.", "url": "https://pubmed.ncbi.nlm.nih.gov/15063480/", "source": "Maturitas", "year": 2004, "type": "review" },
-    { "id": 8, "title": "Classification and pharmacology of progestins.", "url": "https://pubmed.ncbi.nlm.nih.gov/19434889/", "source": "Maturitas", "year": 2008, "type": "review" },
-    { "id": 9, "title": "Contraceptive Efficacy and Safety of NOMAC-E2 Combined Oral Contraceptive (NCT05264506)", "url": "https://clinicaltrials.gov/study/NCT05264506", "source": "ClinicalTrials.gov", "year": 2022, "type": "trial" },
-    { "id": 10, "title": "Prospective Controlled Cohort Study on the Safety of a Monophasic Oral Contraceptive Containing Nomegestrol Acetate (2.5mg) and 17b-estradiol (1.5mg) (NCT01650168)", "url": "https://clinicaltrials.gov/study/NCT01650168", "source": "ClinicalTrials.gov", "year": 2012, "type": "trial" },
-    { "id": 11, "title": "Pharmacokinetic Profile of NOMAC, E2 and E1 After Multiple and Single Dose Administration of the Combined Oral Contraception NOMAC-E2 (NCT00711607)", "url": "https://clinicaltrials.gov/study/NCT00711607", "source": "ClinicalTrials.gov", "year": 2007, "type": "trial" },
-    { "id": 12, "title": "A Dose-Finding Study to Evaluate Ovarian Function and Vaginal Bleeding in Next Generation Rings (NCT01709318)", "url": "https://clinicaltrials.gov/study/NCT01709318", "source": "ClinicalTrials.gov", "year": 2012, "type": "trial" },
-    { "id": 13, "title": "The Use of Nomegestrol Acetate/Estradiol in Random Start Rapid Endometrial Preparation (NCT06316219)", "url": "https://clinicaltrials.gov/study/NCT06316219", "source": "ClinicalTrials.gov", "year": 2023, "type": "trial" },
-    { "id": 14, "title": "POPART'MUS: Prevention of Post Partum Relapses With Progestin and Estradiol in Multiple Sclerosis (NCT00127075)", "url": "https://clinicaltrials.gov/study/NCT00127075", "source": "ClinicalTrials.gov", "year": 2005, "type": "trial" }
-  ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Nomegestrol_acetate", "title": "Nomegestrol acetate - Wikipedia" }
-  ],
-  "card": {
-    "summary": "A mildly antiandrogenic progestin in European pills; any acne benefit is suggested by its pharmacology, with no acne trial found.",
-    "aka": "NOMAC; Zoely, Lutenyl (brands)",
-    "evidence": "unproven",
-    "status": "rx",
-    "outcome": null,
-    "risk": null,
-    "price": null,
-    "note": "Prescription-only; not available in the US or Canada; meningioma risk reported with prolonged therapeutic doses.",
-    "structure": "Nomegestrol acetate"
+   ]
   },
-  "quick": {
-    "overview": "Nomegestrol acetate is a prescription progestin used with estradiol in the Zoely contraceptive pill and alone for some gynaecological conditions. It is sold in Europe and Australia but not the US.\n\nIt has mild antiandrogenic activity, so acne improvement is suggested in reference works, but no acne trials were found.",
-    "mechanism": "It selectively activates the progesterone receptor to suppress ovulation and has weak androgen receptor blocking activity.",
-    "risks": "Reported effects are typically mild: irregular bleeding, headache, nausea and breast tenderness. Prolonged use at therapeutic doses has been associated with meningioma in epidemiological studies. Prescription-only."
+  {
+   "h": "Pharmacology",
+   "subs": [
+    {
+     "h": "Mechanism of action",
+     "paras": [
+      "NOMAC is a potent, selective full agonist of the progesterone receptor (Ki about 3 nM). Relative receptor affinities reported on Wikipedia place it at 125 percent of progesterone's reference for the progesterone receptor and 42 percent for the androgen receptor, with no estrogen or mineralocorticoid receptor binding and weak glucocorticoid binding [1]. It suppresses ovulation through antigonadotropic action, at roughly 1.25 to 5 mg per day depending on the source; a minimal-effective-dose study in women receiving estradiol was registered in 1997 [1][2][21]. Reviews of progestin pharmacology classify it among 19-norprogesterone derivatives, which are described as more specifically progestational than the older nortestosterone derivatives [6][7][8].",
+      "Its antiandrogenic effect comes from binding the androgen receptor as an antagonist. An endocrine-marker study compared the NOMAC-estradiol pill with a levonorgestrel-ethinylestradiol pill on markers of endocrine function, the kind of measurement that informs androgenic and antiandrogenic profiles [17]. In vitro work summarised on Wikipedia reports that NOMAC may influence estrogen-converting enzymes at high concentrations but not aromatase [1]."
+     ]
+    },
+    {
+     "h": "Pharmacokinetics",
+     "paras": [
+      "Oral bioavailability is about 63 percent, protein binding 97.5 to 98 percent (to albumin only, not SHBG), metabolism is hepatic via CYP3A enzymes and CYP2A6, and the elimination half-life is about 50 hours (range 30 to 80), with steady state in about five days [1]. A registered pharmacokinetic study examined NOMAC, estradiol and estrone after single and multiple doses of the combined pill [11]. Liver impairment can cause accumulation, and CYP3A4 inhibitors or inducers such as ketoconazole and rifampicin may alter levels [1]."
+     ]
+    },
+    {
+     "h": "Chemistry",
+     "paras": [
+      "NOMAC (C23H30O4, molar mass about 370.5) is the 17-alpha acetate ester of nomegestrol and the 19-demethylated analogue of megestrol acetate [1]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "paras": [
+    "Wikipedia describes side effects as similar to other progestogens and usually mild: menstrual irregularities, headache, nausea, breast tenderness and sometimes weight gain, though body weight is generally unchanged [1]. Grokipedia also lists acne and irregular bleeding [2]. No serious adverse effects were reported in overdose studies; doses up to 40 times the recommended amount alone were tested [1].",
+    "Meningioma is the best-documented serious signal. Grokipedia reports that use for over a year at 3.75 to 5 mg has been associated with intracranial meningioma, with odds ratios up to 4.9 in epidemiological studies, and that MRI monitoring and contraindication in people with a meningioma apply to therapeutic use [2]. A 2024 BMJ national case-control study examined progestogens and meningioma risk [15]. A 2026 narrative review in Gynecological Endocrinology names NOMAC among progestins linked to higher risk with high-dose or prolonged exposure, with risk rising with cumulative exposure and falling after discontinuation [22]. Reports from French national data describe a dose-response relationship, and meningioma surgeries in women on these drugs reportedly fell sharply after French prescribing restrictions and MRI screening [22]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Phase 3 and registered contraceptive trials of NOMAC with estradiol include a terminated 2022 study of about 3,000 participants, and a large prospective cohort safety study of the 2.5 mg/1.5 mg pill in about 101,000 women [9][10]. Wikipedia reports the contraceptive was studied in over 4,000 women before approval [1]. Comparisons with levonorgestrel-ethinylestradiol examined endocrine markers, and haemostasis, lipid and carbohydrate metabolism [17][18].",
+    "Other trials address gynaecological uses: a randomised study of 99 women taking NOMAC-estradiol versus 98 taking dienogest for endometriosis-associated chronic pelvic pain, a phase 2b study of vaginal rings in primary dysmenorrhea, a ring dose-finding study of 666 participants, endometrial preparation before hysteroscopy, and a registered trial of postpartum relapse prevention in multiple sclerosis [12][13][14][16][20]. The Uniplant one-year subdermal implant, developed in Brazil, reportedly had a one-year failure rate of 0.94 percent in trials but was never commercialized [1][19].",
+    "No acne, skin or hair trial of NOMAC was found."
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Nomegestrol was patented in 1975, and NOMAC (code TX-066) was first described in 1983 by Theramex Laboratories of Monaco [1]. It was introduced in Europe in 1986 as Lutenyl and, with estradiol, as Naemis [1]. The combined contraceptive Zoely was approved in Europe in 2011, the year the US FDA rejected the US application, and in Australia in 2012 [1][2]. Several development projects, including an oral NOMAC for breast cancer, a vaginal ring, and a continuous oestradiol-NOMAC menopausal product, were not completed [1]."
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Brand names include Lutenyl, Naemis and Zoely [1]. NOMAC is prescription-only and available in much of Europe, Latin America and Asia-Pacific but not in the United States or Canada [1]. No community discussion of it as a distinct topic was found."
+   ]
   }
+ ],
+ "timeline": [
+  {
+   "year": "1975",
+   "event": "Nomegestrol patented. [1]"
+  },
+  {
+   "year": "1983",
+   "event": "Nomegestrol acetate (TX-066) first described by Theramex. [1]"
+  },
+  {
+   "year": "1986",
+   "event": "Introduced in Europe as Lutenyl and Naemis. [1]"
+  },
+  {
+   "year": "1996",
+   "event": "Multicenter trial of the one-year Uniplant NOMAC implant published. [19]"
+  },
+  {
+   "year": "2011",
+   "event": "Zoely approved in Europe; US FDA rejects the US application. [1]"
+  },
+  {
+   "year": "2012",
+   "event": "Zoely approved in Australia. [2]"
+  },
+  {
+   "year": "2023",
+   "event": "France no longer recommends NOMAC for menopausal hormone therapy because of meningioma risk. [1][2]"
+  },
+  {
+   "year": "2024",
+   "event": "BMJ national case-control study on progestogens and intracranial meningioma. [15]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Nomegestrol acetate",
+   "url": "https://en.wikipedia.org/wiki/Nomegestrol_acetate",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Nomegestrol acetate",
+   "url": "https://grokipedia.com/page/Nomegestrol_acetate",
+   "source": "Grokipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "New progestagens for contraceptive use",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16291771/",
+   "source": "Human Reproduction Update",
+   "year": 2006,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "The use of newer progestins for contraception",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20933114/",
+   "source": "Contraception",
+   "year": 2010,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Hormonal contraceptives: pharmacology tailored to women's health",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27307386/",
+   "source": "Human Reproduction Update",
+   "year": 2016,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Classification and pharmacology of progestins",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14670641/",
+   "source": "Maturitas",
+   "year": 2003,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Pharmacological profile of progestins",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15063480/",
+   "source": "Maturitas",
+   "year": 2004,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "Classification and pharmacology of progestins",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19434889/",
+   "source": "Maturitas",
+   "year": 2008,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "Contraceptive Efficacy and Safety of NOMAC-E2 Combined Oral Contraceptive (NCT05264506)",
+   "url": "https://clinicaltrials.gov/study/NCT05264506",
+   "source": "ClinicalTrials.gov",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Prospective Controlled Cohort Study on the Safety of a Monophasic Oral Contraceptive Containing Nomegestrol Acetate and 17B-estradiol (NCT01650168)",
+   "url": "https://clinicaltrials.gov/study/NCT01650168",
+   "source": "ClinicalTrials.gov",
+   "year": 2012,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Pharmacokinetic Profile of NOMAC, E2 and E1 After Multiple and Single Dose Administration (NCT00711607)",
+   "url": "https://clinicaltrials.gov/study/NCT00711607",
+   "source": "ClinicalTrials.gov",
+   "year": 2008,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "A Dose-Finding Study to Evaluate Ovarian Function and Vaginal Bleeding in Next Generation Rings (NCT01709318)",
+   "url": "https://clinicaltrials.gov/study/NCT01709318",
+   "source": "ClinicalTrials.gov",
+   "year": 2012,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "The Use of Nomegestrol Acetate/Estradiol in Random Start Rapid Endometrial Preparation (NCT06316219)",
+   "url": "https://clinicaltrials.gov/study/NCT06316219",
+   "source": "ClinicalTrials.gov",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "POPART'MUS: Prevention of Post Partum Relapses With Progestin and Estradiol in Multiple Sclerosis (NCT00127075)",
+   "url": "https://clinicaltrials.gov/study/NCT00127075",
+   "source": "ClinicalTrials.gov",
+   "year": 2005,
+   "type": "trial"
+  },
+  {
+   "id": 15,
+   "title": "Use of progestogens and the risk of intracranial meningioma: national case-control study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38537944/",
+   "source": "BMJ",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 16,
+   "title": "Randomized study of nomegestrol acetate plus 17beta-estradiol oral contraceptive versus dienogest in suspected endometriosis-associated chronic pelvic pain",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35538479/",
+   "source": "BMC Women's Health",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 17,
+   "title": "Effects of a monophasic combined oral contraceptive containing nomegestrol acetate and 17beta-oestradiol in comparison to one containing levonorgestrel and ethinylestradiol on markers of endocrine function",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21942708/",
+   "source": "European Journal of Contraception & Reproductive Health Care",
+   "year": 2011,
+   "type": "trial"
+  },
+  {
+   "id": 18,
+   "title": "Effects of a monophasic combined oral contraceptive containing nomegestrol acetate and 17beta-oestradiol compared with levonorgestrel and ethinylestradiol on haemostasis, lipids and carbohydrate metabolism",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22066891/",
+   "source": "European Journal of Contraception & Reproductive Health Care",
+   "year": 2011,
+   "type": "trial"
+  },
+  {
+   "id": 19,
+   "title": "Multicenter clinical trial on the efficacy and acceptability of a single contraceptive implant of nomegestrol acetate, Uniplant",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8838490/",
+   "source": "Contraception",
+   "year": 1996,
+   "type": "trial"
+  },
+  {
+   "id": 20,
+   "title": "A phase 2b trial of vaginal rings containing nomegestrol acetate or etonogestrel and 17beta-estradiol in primary dysmenorrhea",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30439359/",
+   "source": "Clinical trial report",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 21,
+   "title": "Minimal Effective Dose of Nomegestrol Acetate Inhibiting the Ovulation in Women Receiving Estradiol (NCT01361958)",
+   "url": "https://clinicaltrials.gov/study/NCT01361958",
+   "source": "ClinicalTrials.gov",
+   "year": 1997,
+   "type": "trial"
+  },
+  {
+   "id": 22,
+   "title": "Europe PMC search results: nomegestrol and meningioma (2026 narrative review and French data report)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=nomegestrol%20AND%20meningioma&format=json&resultType=core&pageSize=3",
+   "source": "Europe PMC",
+   "year": 2026,
+   "type": "review"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Nomegestrol_acetate",
+   "title": "Nomegestrol acetate (Wikipedia)"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=nomegestrol%20AND%20meningioma&format=json&resultType=core&pageSize=3",
+   "title": "Europe PMC search: nomegestrol and meningioma"
+  }
+ ],
+ "card": {
+  "summary": "A mildly antiandrogenic progestin in European pills; any acne benefit is suggested by its pharmacology, with no acne trial found.",
+  "aka": "NOMAC; Zoely, Lutenyl (brands)",
+  "evidence": "unproven",
+  "status": "rx",
+  "outcome": null,
+  "risk": null,
+  "price": null,
+  "note": "Prescription-only; not available in the US or Canada; meningioma risk reported with prolonged therapeutic doses.",
+  "structure": "Nomegestrol acetate"
+ },
+ "quick": {
+  "overview": "Nomegestrol acetate is a prescription progestin used with estradiol in the Zoely contraceptive pill and alone for some gynaecological conditions. It is sold in Europe and Australia but not the US.\n\nIt has mild antiandrogenic activity, so acne improvement is suggested in reference works, but no acne trials were found.",
+  "mechanism": "It selectively activates the progesterone receptor to suppress ovulation and has weak androgen receptor blocking activity.",
+  "risks": "Reported effects are typically mild: irregular bleeding, headache, nausea and breast tenderness. Prolonged use at therapeutic doses has been associated with meningioma in epidemiological studies. Prescription-only."
+ }
 }

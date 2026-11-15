@@ -1,23 +1,249 @@
 {
-"name":"Heberprot-P",
-"lead":["Heberprot-P is an injectable formulation of recombinant human epidermal growth factor (rhEGF, nepidermin) developed by Cuba's Center for Genetic Engineering and Biotechnology and marketed by Heber Biotec. It is used for advanced diabetic foot ulcers, where it is injected into and around the wound[2].",
-"It is a wound-healing medicine. Its relevance to appearance culture is as an EGF product discussed among growth-factor skin and regeneration interests; no studies of it for cosmetic outcomes were found."],
-"infobox":[["Type","Recombinant human epidermal growth factor"],["Route","Intralesional injection"],["Developer","CIBG / Heber Biotec (Cuba)"],["Marketed since","2006 (per Wikipedia)"],["Indication","Advanced diabetic foot ulcer"],["US status","Not approved in the US as of 2016"]],
-"sections":[
-{"h":"Medical uses","paras":["Heberprot-P is used for deep diabetic foot ulcers, including ischemic ones, with the aim of promoting granulation and closure and reducing amputation risk [2]. Wikipedia reports sale in 23 countries as of 2016 and unavailability in the United States."]},
-{"h":"Clinical studies","paras":["A pilot study of 20 diabetic patients with full-thickness ulcers followed intralesional treatment up to complete wound closure [1]. A similar study of 17 patients reported granulation and closure outcomes [3]. A review of 12 limb-threatening ischemic lesions in 11 patients in Turkey examined whether the injections could avoid major amputation [4]. A Cuban review describes it as a product for advanced ulcers [2].","A phase 3 placebo-controlled trial of 304 participants (NCT02554851) was registered in 2017 with unknown status [5]; a 50-patient trial in Kuwait has been completed [6]. A 2022 zebrafish study compared it with another EGF product [7]. Most published human reports are small, uncontrolled series."]},
-{"h":"Safety","paras":["Safety data in the sources reviewed are limited; trial registrations list efficacy and safety as outcomes [5][6]."]}],
-"timeline":[{"year":"2006","event":"Marketed in Cuba (per Wikipedia)."},{"year":"2015","event":"Preparations for US phase 3 trial begin (per Wikipedia)."}],
-"lore":null,
-"refs":[
-{"id":1,"title":"Intralesional administration of epidermal growth factor-based formulation (Heberprot-P) in chronic diabetic foot ulcer","url":"https://pubmed.ncbi.nlm.nih.gov/19291119/","source":"International Wound Journal","year":2009,"type":"study"},
-{"id":2,"title":"Heberprot-P: a novel product for treating advanced diabetic foot ulcer","url":"https://pubmed.ncbi.nlm.nih.gov/23396236/","source":"MEDICC Review","year":2013,"type":"review"},
-{"id":3,"title":"Efficacy of intralesional recombinant human epidermal growth factor in chronic diabetic foot ulcers","url":"https://pubmed.ncbi.nlm.nih.gov/25856197/","source":"Growth Factors","year":2015,"type":"study"},
-{"id":4,"title":"Intralesional application of epidermal growth factor in limb-threatening ischemic diabetic foot ulcers","url":"https://pubmed.ncbi.nlm.nih.gov/27130382/","source":"Acta Orthopaedica et Traumatologica Turcica","year":2016,"type":"study"},
-{"id":5,"title":"Intralesional rhEGF in Subjects With Diabetic Foot Ulcer (NCT02554851)","url":"https://clinicaltrials.gov/study/NCT02554851","source":"ClinicalTrials.gov","year":2017,"type":"trial"},
-{"id":6,"title":"Heberprot-P in Advanced Diabetic Foot Ulcer, Dasman Diabetes Institute (NCT03239457)","url":"https://clinicaltrials.gov/study/NCT03239457","source":"ClinicalTrials.gov","year":2015,"type":"trial"},
-{"id":7,"title":"Efficacy Comparison Study of Human EGF between Heberprot-P and Easyef in Adult Zebrafish","url":"https://pubmed.ncbi.nlm.nih.gov/35447848/","source":"Geriatrics","year":2022,"type":"study"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Heberprot-P","title":"Heberprot-P (Wikipedia)"}],
-"card":{"summary":"A Cuban injectable EGF for diabetic foot ulcers; wound-healing evidence is small-scale and nothing exists for cosmetic use.","aka":"rhEGF, nepidermin","evidence":"unproven","status":"rx","note":"Prescription wound drug; no appearance studies.","structure":null},
-"quick":{"overview":"Heberprot-P is an epidermal growth factor injection made in Cuba to treat severe diabetic foot ulcers.\n\nHuman reports are mostly small series and one registered phase 3 trial. No studies of cosmetic use were found.","mechanism":"EGF stimulates skin cell growth. In patients with ulcers it is injected into the wound base and edges to promote granulation tissue.","risks":"It is a medical product given by clinicians, not approved in the US as of 2016 per Wikipedia. Safety information in the sources reviewed is limited."}
+ "name": "Heberprot-P",
+ "lead": [
+  "Heberprot-P is an injectable formulation of recombinant human epidermal growth factor (rhEGF, nepidermin) developed by Cuba's Center for Genetic Engineering and Biotechnology (CIBG) and marketed by Heber Biotec. It is given into and around the base and edges of advanced diabetic foot ulcers to stimulate granulation tissue and wound closure.[2][8]",
+  "Epidermal growth factor is a signalling protein that prompts skin cells to divide and migrate, and EGF-containing serums and regenerative skin products are discussed in appearance circles for that reason. Heberprot-P is the prescription, injected, wound-healing form of the molecule; it is not a cosmetic product, and no studies of it for cosmetic outcomes were found.[8] Its relevance to looks is therefore through the broader interest in growth factors for skin repair and regeneration.",
+  "Published clinical experience consists mainly of small series from Cuba, Turkey and elsewhere reporting granulation and closure of chronic ulcers, with one registered phase 3 placebo-controlled trial of 304 participants.[1][3][5][8] Wikipedia reports it was marketed in 23 countries as of 2016 and is unavailable in the United States.[8]"
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Recombinant human epidermal growth factor (nepidermin)"
+  ],
+  [
+   "Route",
+   "Intralesional injection"
+  ],
+  [
+   "Developer",
+   "CIBG / Heber Biotec (Cuba)"
+  ],
+  [
+   "Registered in Cuba",
+   "2006; added to national basic medicines list 2007[2]"
+  ],
+  [
+   "Indication",
+   "Advanced diabetic foot ulcer"
+  ],
+  [
+   "Reach",
+   "Registered in about 15 other countries, over 100,000 patients treated (2013 review)[2]"
+  ],
+  [
+   "US status",
+   "Not available in the US[8]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Background: epidermal growth factor",
+   "paras": [
+    "Epidermal growth factor was discovered by Stanley Cohen, working with Rita Levi-Montalcini at Washington University in St. Louis during research on nerve growth factor; the two shared the 1986 Nobel Prize in Physiology or Medicine. [13] EGF binds the EGF receptor on the cell surface with high affinity, causing the receptor to pair up and activate its tyrosine kinase, which signals onward to DNA synthesis and cell proliferation. [13] Because of this effect on skin cell division and migration, EGF is a common name in regenerative skincare, although cosmetic uses lie outside Heberprot-P's labelled use. [13]"
+   ]
+  },
+  {
+   "h": "Chemistry and pharmacology",
+   "paras": [
+    "Nepidermin uses the 53-amino-acid human EGF sequence and is produced by inserting that sequence into yeast; its molecular formula is C270H401N73O83S7, with a molar mass of about 6,222 g/mol. Wikipedia describes it as the first EGF receptor agonist to be marketed, with intralesional and topical routes.[8]",
+    "A 2013 MEDICC Review article explains the rationale: diabetic tissue has lower growth-factor concentrations, particularly EGF, which impairs healing, and injecting EGF deep into the wound base and margins is said to produce a stronger granulation response than surface application. The same review says the injected growth factor may associate with extracellular matrix proteins, enhancing cell proliferation and migration.[2]",
+    "In a Cuban study of biopsies from 10 responding patients before and after two weeks of treatment, expression of genes linked to proliferation, angiogenesis and matrix formation (including PDGFB, ANGPT1 and COL1A1) rose, while inflammation and oxidative-stress genes (NFKB1, TNFA, IL1A) fell.[9]"
+   ]
+  },
+  {
+   "h": "Medical uses",
+   "paras": [
+    "Heberprot-P is used for deep diabetic foot ulcers, including ischemic ones, with the aim of promoting granulation and closure and reducing amputation risk [2]. Wikipedia reports sale in 23 countries as of 2016 and unavailability in the United States.",
+    "Cuba registered the product in 2006 and added it to its national basic medicines list in 2007, and it has since been registered in about 15 other countries and used in more than 100,000 patients, according to a 2013 review from Cuban authors.[2] Wikipedia lists the brand names Heberprot-P, Easyef, Genesoft, Kang He Su and Regen-D for rhEGF products, which are marketed for diabetic foot ulcers, wounds and, in Asia, alopecia.[8]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Pilot series with complete closure. A pilot study in 20 diabetic patients with full-thickness ulcers over 4 weeks old (mean size 16.3 cm2) gave intralesional injections three times a week until healed: all showed full granulation in about 24 days, 17 (85 percent) closed completely in about 44 days, none needed amputation and one relapsed; common adverse events were tremors, chills, pain and odour at the site and local infection.[1] A similar 17-patient study reported full granulation in all, closure in 16 (94.1 percent) in about 53 days, and one relapse at one year.[3]",
+    "Turkish reports. In a 58-patient observational study at Duzce State Hospital, wound healing with granulation was reported in 93.1 percent, amputation in two patients (3.4 percent), and tremor and syncope as the most common adverse events.[10] A retrospective comparison of 29 treated patients against 22 controls found shorter treatment times and higher healing rates with Heberprot-P, with a lower amputation rate that did not reach statistical significance.[11] A series of 12 limb-threatening ischemic lesions in 11 patients who had failed revascularization, hyperbaric oxygen and negative pressure therapy reported 10 lesions healed and two amputations, with the authors noting the high cost of the product.[4] A 2025 three-group study of 31 patients found re-epithelialisation in about 70 days with Heberprot-P (alone or with adipose-derived stromal vascular fraction) versus about 188 days with conventional care.[12]",
+    "Registered trials. A phase 3 placebo-controlled trial of 304 participants (NCT02554851) was registered in 2017 with unknown status,[5] and a 50-patient trial at the Dasman Diabetes Institute in Kuwait has been completed.[6] A 2022 zebrafish study compared it with another EGF product.[7] Most published human reports are small and uncontrolled."
+   ]
+  },
+  {
+   "h": "Safety",
+   "paras": [
+    "Adverse events reported in the series above include tremors, chills, pain, burning and odour at the injection site, local infection and, in one series, syncope.[1][3][10] Registered trials list efficacy and safety as outcomes.[5][6] Epidermal growth factor stimulates cell proliferation, and the cited publications are about diabetic foot ulcers rather than cosmetic or long-term use."
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Heberprot-P is a product of Cuba's biotechnology sector, and Wikipedia reports that its path to the US has been stalled: preparations for phase 3 trials aimed at FDA approval began in 2015, and as of 2023 developments in US-Cuba relations have blocked importing the drug.[8] Wikipedia also notes that potency varies by expression system and that bioassay standardisation is still developing.[8]",
+    "Wikipedia calls nepidermin the first EGF receptor agonist to be marketed and classes it as a cicatrizant, a drug that promotes wound healing through scar formation. [8] Heber Biotech has marketed Heberprot-P since 2006, and other rhEGF products are sold in Vietnam, the Philippines, Thailand and China; Easyef from Korea is a spray and Regen-D from Bharat Biotech in India is a gel approved in India and Thailand. [8] Wikipedia notes that rhEGF products are marketed for alopecia as well as wounds, and lists nepidermin among alopecia treatments, without giving further detail. [8] The epidermal growth factor page states that tentative evidence suggests improved wound healing with rhEGF and that safety has been poorly studied. [13]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1986",
+   "event": "Stanley Cohen and Rita Levi-Montalcini share the Nobel Prize for discovering growth factors including EGF. [13]"
+  },
+  {
+   "year": "2006",
+   "event": "Heberprot-P registered in Cuba.[2]"
+  },
+  {
+   "year": "2007",
+   "event": "Included in Cuba's National Basic Medications List and approved for marketing.[2]"
+  },
+  {
+   "year": "2009",
+   "event": "Pilot study of treatment up to complete closure published in 20 patients.[1]"
+  },
+  {
+   "year": "2015",
+   "event": "Preparations begin for phase 3 trials needed for US approval.[8]"
+  },
+  {
+   "year": "2017",
+   "event": "Phase 3 placebo-controlled trial NCT02554851 registered.[5]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Intralesional administration of epidermal growth factor-based formulation (Heberprot-P) in chronic diabetic foot ulcer",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19291119/",
+   "source": "International Wound Journal",
+   "year": 2009,
+   "type": "study"
+  },
+  {
+   "id": 2,
+   "title": "Heberprot-P: a novel product for treating advanced diabetic foot ulcer",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23396236/",
+   "source": "MEDICC Review",
+   "year": 2013,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Efficacy of intralesional recombinant human epidermal growth factor in chronic diabetic foot ulcers",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25856197/",
+   "source": "Growth Factors",
+   "year": 2015,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Intralesional application of epidermal growth factor in limb-threatening ischemic diabetic foot ulcers",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27130382/",
+   "source": "Acta Orthopaedica et Traumatologica Turcica",
+   "year": 2016,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Intralesional rhEGF in Subjects With Diabetic Foot Ulcer (NCT02554851)",
+   "url": "https://clinicaltrials.gov/study/NCT02554851",
+   "source": "ClinicalTrials.gov",
+   "year": 2017,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Heberprot-P in Advanced Diabetic Foot Ulcer, Dasman Diabetes Institute (NCT03239457)",
+   "url": "https://clinicaltrials.gov/study/NCT03239457",
+   "source": "ClinicalTrials.gov",
+   "year": 2015,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Efficacy Comparison Study of Human EGF between Heberprot-P and Easyef in Adult Zebrafish",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35447848/",
+   "source": "Geriatrics",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Heberprot-P / Nepidermin",
+   "url": "https://en.wikipedia.org/wiki/Heberprot-P",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 9,
+   "title": "Heberprot-P's Effect on Gene Expression in Healing Diabetic Foot Ulcers",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31242156/",
+   "source": "MEDICC Review",
+   "year": 2018,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Intralesional Epidermal Growth Factor for Diabetic Foot Ulcers",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35148575/",
+   "source": "JCPSP",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "Intralesional epidermal growth factor therapy in recalcitrant diabetic foot ulcers",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37029977/",
+   "source": "Journal of Wound Care",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 12,
+   "title": "Autologous adipose-derived tissue stromal vascular fraction and intralesional EGF combined application in patients with diabetic foot",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40056382/",
+   "source": "Journal of Wound Care",
+   "year": 2025,
+   "type": "study"
+  },
+  {
+   "id": 13,
+   "title": "Epidermal growth factor",
+   "url": "https://en.wikipedia.org/wiki/Epidermal_growth_factor",
+   "source": "Wikipedia",
+   "year": 2024,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Heberprot-P",
+   "title": "Heberprot-P (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Epidermal_growth_factor",
+   "title": "Epidermal growth factor - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "A Cuban injectable EGF for diabetic foot ulcers; wound-healing evidence is small-scale and nothing exists for cosmetic use.",
+  "aka": "rhEGF, nepidermin",
+  "evidence": "unproven",
+  "status": "rx",
+  "note": "Prescription wound drug; no appearance studies.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Heberprot-P is an epidermal growth factor injection made in Cuba to treat severe diabetic foot ulcers.\nHuman reports are mostly small series and one registered phase 3 trial. No studies of cosmetic use were found.",
+  "mechanism": "EGF stimulates skin cell growth. In patients with ulcers it is injected into the wound base and edges to promote granulation tissue.",
+  "risks": "It is a medical product given by clinicians, not approved in the US as of 2016 per Wikipedia. Safety information is limited."
+ },
+ "angle": {
+  "goal": "Skin repair",
+  "chain": [
+   "Intralesional EGF activates the EGF receptor on skin cells",
+   "Cells proliferate and migrate; granulation tissue forms",
+   "Chronic wounds close faster, with fewer amputations in reports",
+   "Interest in EGF for general skin regeneration"
+  ],
+  "effect": "claimed",
+  "text": "Heberprot-P is a medical injection for stubborn diabetic wounds, where it is used to help tissue regrow and close. People interested in skin regeneration discuss EGF more broadly, but this product has only been studied for ulcers, not for appearance."
+ }
 }

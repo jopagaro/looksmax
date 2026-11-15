@@ -50,6 +50,14 @@
       ]
     },
     {
+      "h": "Effectiveness",
+      "paras": [
+        "A 2015 critical review in the Journal of Human Nutrition and Dietetics found clinical evidence on detox diets scarce: a few studies suggested commercial detox diets improve liver detoxification or reduce persistent organic pollutants, but these had small samples and methodological flaws, and the authors identified no randomized controlled trials of commercial detox diets in humans [6].",
+        "A 2020 three-arm, single-blind randomized trial in Nutrition & Metabolism enrolled 45 women with a BMI of 23.5 to 30 and compared a 'Wellnessup' detox diet, a calorie-restricted diet and a regular diet for four weeks. Four toxic trace elements measured in hair were lower in the detox-diet group, BMI and waist and hip measures fell in both the detox and calorie-restricted groups, and the calorie-restricted diet produced greater weight loss (3.22 kg versus 1.88 kg); no significant safety changes were observed [6].",
+        "The British Dietetic Association notes that quick weight change on such plans mostly reflects water and glycogen and often returns when normal eating resumes, and lists skin, hair and nail improvement among the promises made for detox plans [3]."
+      ]
+    },
+    {
       "h": "Research and expert views",
       "paras": [
         "Prolonged fasting recommended by some detox regimens can be dangerous, whereas a single short fast is considered unlikely to cause harm.[1] A 2018 report in the American Journal of Kidney Diseases linked a green-smoothie cleanse to acute oxalate nephropathy.[1] The tea-related hyponatremia case and the mini-review's adverse-event reports are described above.[4][5]",
@@ -59,13 +67,17 @@
     {
       "h": "Reported risks and harms",
       "paras": [
-        "No trials of detox teas or juice cleanses for appearance outcomes such as skin were found. The 2026 mini-review of ten studies on diet and detox teas for weight loss found limited support for weight-loss benefit,[4] and reviews of detox diets more broadly are summarised above.[1]"
+        "The 2026 Frontiers in Nutrition mini-review of ten studies reported multiple cases of electrolyte disturbances, cardiovascular events and liver injury in otherwise healthy individuals using diet and detox teas. Analytical studies in the review identified undeclared pharmaceutical ingredients, high stimulant levels and inconsistencies between labelled and actual contents in teas marketed as natural [4].",
+        "The British Dietetic Association says detox teas usually work as laxatives, which carries some risk [3]. A 2021 case report described acute severe hyponatremia after regular detox tea use [5], and a 2018 report linked a green-smoothie cleanse to acute oxalate nephropathy [1]."
       ]
     },
     {
       "h": "Clinical studies",
       "paras": [
-        "No studies found on detox teas specifically for appearance outcomes. Reviews of detox diets more broadly are summarised above [1]."
+        "Reviews. A 2026 mini-review of ten studies on diet and detox teas found limited support for weight loss benefit, with a few experiments suggesting modest effects on weight or metabolic outcomes and most evidence coming from case reports and product analyses [4]. A 2015 critical review found no randomized trials of commercial detox diets [6].",
+        "Trials. A 2020 randomized trial in 45 women compared a detox diet with calorie restriction and a regular diet over four weeks, measuring hair trace elements and body composition [6].",
+        "Case reports. A 2021 Cureus case report described a 51-year-old woman with acute severe hyponatremia after detox tea use [5].",
+        "No studies found on detox teas or juice cleanses for skin or other appearance outcomes."
       ]
     }
   ],
@@ -83,7 +95,29 @@
       "event": "Klein and Kiat publish a critical review of detox diets [1]."
     }
   ],
-  "lore": null,
+  "lore": {
+    "intro": "Detox products are promoted through wellness marketing and social media for a leaner, clearer-skinned look; the claims below are those the British Dietetic Association and reviewers list.",
+    "claims": [
+      {
+        "claim": "Detox teas and cleanses remove toxins from the body",
+        "believers": "Proponents say modern food and the environment leave contaminants that accumulate in the body and that a cleanse helps release them [1][2].",
+        "experts": "A 2015 critical review found scarce clinical evidence, with small studies of flawed method and no randomized trials of commercial detox diets in humans [6].",
+        "evidence": "not-supported"
+      },
+      {
+        "claim": "A cleanse gives clearer skin, better hair and nails",
+        "believers": "Promotional material lists improved skin, hair and nails among the benefits [3].",
+        "experts": "No studies of detox teas or juice cleanses for skin appearance were found.",
+        "evidence": "untested"
+      },
+      {
+        "claim": "Detox teas help with weight loss",
+        "believers": "Products are marketed as supporting weight loss through detoxification and metabolic enhancement [4].",
+        "experts": "A 2026 mini-review found limited support, with a few studies suggesting modest effects and serious adverse outcomes described in case reports [4]; the BDA says rapid weight change mostly reflects water and glycogen [3].",
+        "evidence": "mixed"
+      }
+    ]
+  },
   "refs": [
     {
       "id": 1,
@@ -123,6 +157,14 @@
       "source": "Cureus",
       "year": 2021,
       "type": "study"
+    },
+    {
+      "id": 6,
+      "title": "Detox diets for toxin elimination and weight management: a critical review of the evidence; Wellnessup diet randomized trial (Europe PMC records)",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22detox%20diets%22%20toxin%20elimination%20review&resultType=core&format=json&pageSize=5",
+      "source": "Journal of Human Nutrition and Dietetics; Nutrition & Metabolism (via Europe PMC)",
+      "year": 2015,
+      "type": "review"
     }
   ],
   "webSources": [
@@ -137,6 +179,10 @@
     {
       "url": "https://www.bda.uk.com/resource/detox-diets.html",
       "title": "Detox diets - BDA"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22detox%20diets%22%20toxin%20elimination%20review&resultType=core&format=json&pageSize=5",
+      "title": "Europe PMC records: detox diet reviews and trials"
     }
   ],
   "card": {

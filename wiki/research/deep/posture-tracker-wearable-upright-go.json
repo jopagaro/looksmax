@@ -1,21 +1,351 @@
 {
-"name":"Posture tracker wearable (Upright Go)",
-"card":{"summary":"A small sensor that vibrates when you slouch; used in several clinician ergonomics studies, with no study of it as a looks tool.","aka":"UpRight Go, UpRight Go 2","evidence":"limited","outcome":"temporary","risk":"low","price":null,"note":"Studies are mostly of surgeons and small patient groups.","structure":null},
-"quick":{"overview":"The UpRight Go is a wearable posture trainer that gives vibration feedback when the wearer slouches. It is marketed for posture awareness and has been used in several published ergonomics studies.\n\nThose studies concern surgeon neck and back posture and a Parkinson's pilot, not appearance.","mechanism":"A sensor worn on the upper back or neck measures posture and uses biofeedback buzzing to prompt correction.","risks":"No safety concerns are described in the studies found. Evidence on lasting posture change after removing the device is limited."},
-"lead":["UpRight Go 2 is a commercially available wearable posture-training device that records neck and spine posture and provides biofeedback to prompt correction.[1] It is promoted for slouching, and the entry is discussed here as posture gear.","Published use is mainly in clinicians and small clinical groups: otolaryngology surgeons, ophthalmic surgery trainees and a pilot study in Parkinson's disease.[1][2][3] No study identified has examined it for physical appearance."],
-"infobox":[["Type","Wearable posture trainer"],["Feedback","Vibration biofeedback"],["Typical price","Not stated in sources"]],
-"sections":[
-{"h":"Clinical studies","paras":["A 2022 study recorded neck and spine posture of surgeons performing otolaryngology procedures with UpRight Go 2, first measuring baseline posture and then adding biofeedback to evaluate whether it improved ergonomics.[1] A 2023 study evaluated a posture trainer on trainee back posture during ophthalmic surgery.[2] A pilot study examined a wearable postural intervention called UpRight in Parkinson's disease.[3] Another study measured ergonomics in vitreoretinal surgery with a wearable device, and a 2026 study used biosensor technology to quantify cervical posture in microsurgery.[4][5]","Related biofeedback research includes a trial in 96 university students comparing electrotherapy, exercise, a biofeedback posture trainer and postural education.[6] No trial has tested the device for looks or in a general gear-buyer population."]}
-],
-"timeline":[],
-"lore":null,
-"refs":[
-{"id":1,"title":"Surgical ergonomics: Assessment of surgeon posture and impact of training device during otolaryngology procedures","url":"https://pubmed.ncbi.nlm.nih.gov/36258864/","source":"Laryngoscope Investigative Otolaryngology","year":2022,"type":"study"},
-{"id":2,"title":"Ergonomics of Ophthalmic Surgery: Evaluating the Effect of a Posture Trainer on Trainee Intraoperative Back Posture","url":"https://pubmed.ncbi.nlm.nih.gov/38059191/","source":"Journal of Academic Ophthalmology","year":2023,"type":"study"},
-{"id":3,"title":"Staying UpRight in Parkinson's disease: A pilot study of a novel wearable postural intervention","url":"https://pubmed.ncbi.nlm.nih.gov/34656009/","source":"Gait & Posture","year":2022,"type":"study"},
-{"id":4,"title":"Comparison of Ergonomics in Vitreoretinal Surgery With Heads-up Visualization Versus the Standard Operating Microscope as Measured by a Wearable Device","url":"https://pubmed.ncbi.nlm.nih.gov/39037360/","source":"Ophthalmic Surgery, Lasers & Imaging Retina","year":2024,"type":"study"},
-{"id":5,"title":"Ergonomic burden in microsurgery: Real-time quantification of cervical posture using biosensor technology","url":"https://pubmed.ncbi.nlm.nih.gov/41380363/","source":"JPRAS","year":2026,"type":"study"},
-{"id":6,"title":"Spinal postural training: electrotherapy, exercise, biofeedback trainer in university students","url":"https://pubmed.ncbi.nlm.nih.gov/25061037/","source":"Journal of Back and Musculoskeletal Rehabilitation","year":2015,"type":"trial"}
-],
-"webSources":[]
+  "name": "Posture tracker wearable (Upright Go)",
+  "lead": [
+    "UpRight Go 2 is a commercially available wearable posture-training device that records neck and spine posture and provides vibration biofeedback to prompt correction.[1][7] It is promoted for slouching, and people use it to look taller and more upright: straighter shoulders, a head carried over the spine rather than forward, and a more open chest all change how tall and confident a person appears.",
+    "The company's product page describes a small sensor worn on the upper back with a necklace or adhesive, a mobile app where users set posture goals, and a gentle vibration when the wearer slouches.[7] Published use is mainly in clinicians and small groups: otolaryngology surgeons, ophthalmic surgery trainees, pianists and a pilot study in Parkinson's disease.[1][2][3][8] No study identified has examined it for physical appearance.",
+    "The idea behind it is behavioural: a person calibrates the sensor to their own upright position, and each vibration is a prompt to correct before slouching becomes a habit. This follows the logic of biofeedback, in which instruments make a body function visible so a person can learn to control it, a field Wikipedia traces to the late 1960s.[11] Wikipedia describes forward head posture, the pattern many users aim to counter, as one of the most common postural problems, seen in people who spend long hours on laptops, tablets and phones, and describes postural kyphosis, the rounded upper back of habitual slouching, as reversible in young people by correcting muscular imbalances.[9][10]"
+  ],
+  "angle": {
+    "goal": "Posture",
+    "chain": [
+      "Sensor on the upper back detects slouching",
+      "Vibration cue prompts the wearer to straighten",
+      "Repeated correction trains a more upright habit",
+      "Taller, more open posture in everyday appearance"
+    ],
+    "effect": "indirect",
+    "text": "The device is used to build the habit of standing and sitting upright, which changes apparent height and how the shoulders and neck line up. The appearance gain depends on posture itself changing; the sensor supplies the reminder."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Wearable posture trainer"
+    ],
+    [
+      "Feedback",
+      "Vibration biofeedback via app-linked sensor[7]"
+    ],
+    [
+      "Models",
+      "UpRight Go 2 (two sensors, nine training programs) and Go S (one sensor, three modes)[7]"
+    ],
+    [
+      "Wear options",
+      "Necklace or adhesive[7]"
+    ],
+    [
+      "Listed price",
+      "Go 2 about USD 79 (list 99.95) and Go S about 59 (list 79.95) on the maker's site at time of writing[7]"
+    ],
+    [
+      "Regulatory claims",
+      "Company states FDA registered and CE certified[7]"
+    ],
+    [
+      "App",
+      "Free app with goal setting, progress tracking and daily posture reports[7]"
+    ],
+    [
+      "Guarantee",
+      "30-day money-back guarantee stated by the maker[7]"
+    ],
+    [
+      "Research settings",
+      "Surgeons, surgical trainees, Parkinson's disease, piano students[1][2][3][8]"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Description and how it works",
+      "paras": [
+        "The UpRight Go family consists of small sensors worn on the upper back. The device is first calibrated to the wearer's preferred upright position; when the wearer slouches beyond a set angle it vibrates, and a companion app records daily progress and offers training programmes.[7] The Go 2 model has two movement sensors and nine training programs, while the Go S has one sensor and three training modes.[7] The maker says the aim is to build muscle memory so that good posture becomes automatic and the user can maintain it without the device.[7]",
+        "In research settings, the Go devices have been used as a convenient wearable inertial sensor that logs the proportion of time spent upright, with the vibration feature switched on or off for comparison.[1][2][4]"
+      ]
+    },
+    {
+      "h": "Biofeedback background",
+      "paras": [
+        "Wikipedia defines biofeedback as the use of instruments to become more aware of bodily functions with the goal of eventually controlling them at will, and says people can often keep the skill without the equipment. It lists muscle activity (EMG), skin temperature, brain activity and heart rate among the signals trained, and traces the term to a 1969 conference in Santa Monica, California, with Barbara Brown's 1974 book New Mind, New Body as the first popular title.[11] Wikipedia reports strongest support for biofeedback in headaches and in urinary incontinence after prostate surgery, mixed results in anxiety, and inconclusive or limited data for most other conditions.[11]",
+        "Posture trainers apply a simple motion-sensor form of this idea. The wearer is not asked to read a display; a vibration marks the moment posture leaves the calibrated range. Other published posture-feedback devices include the Backtone trainer, tested in 96 university students,[6] and a vibrotactile feedback device studied for postural balance in malocclusion patients.[12]"
+      ]
+    },
+    {
+      "h": "Use for appearance",
+      "paras": [
+        "Posture changes how a person looks: a forward head and rounded shoulders shorten apparent height and flatten the chest line, and posture work is frequently listed beside exercise and mobility in appearance guides. Wearable trainers are used to cue the correction throughout the day rather than only in the gym. The maker markets the device for slouching and pain relief;[7] appearance-specific claims are not part of the published trials.",
+        "Wikipedia describes the look of forward head posture as an earlobe sitting in front of the shoulder point and a chin pushed forward, and in marked cases the back of the skull ahead of the sternum.[9] Users who want to appear taller or more open-chested use a tracker as a reminder to counter this, alongside strength work on the mid and lower back and stretching, which Wikipedia lists among combined approaches to the problem.[9]",
+        "Wikipedia's kyphosis article describes slouching as the most common cause of rounded upper-back posture, notes that in young people it can be reversed by correcting muscular imbalances, and says mild cases are usually managed with posture re-education and strengthening.[10] Its entry on human positions describes the classic standing-at-attention posture as chin up, chest out, shoulders back and stomach in.[13]"
+      ]
+    },
+    {
+      "h": "Manufacturer claims and marketing",
+      "paras": [
+        "The maker states that the device is FDA registered and CE certified, that it has more than a million users and a 4.5-star average from over 15,000 reviews, that 95 percent of users improve posture within two weeks and 87 percent report reduced pain, and that it is doctor-approved and clinically tested; the product page does not name the studies behind these figures.[7] It cites media features and a physiotherapist testimonial describing the biofeedback approach as scientifically sound.[7] The Go 2 and Go S are listed with a free app and a 30-day money-back guarantee.[7]",
+        "Registration with the FDA is a different status from FDA clearance or approval, and a registration number is not given on the page.[7] Wikipedia notes that FDA guidance treats some health wearables as general-wellness products, which reduces regulatory scrutiny of that category.[14]"
+      ]
+    },
+    {
+      "h": "Wearables context",
+      "paras": [
+        "Posture trainers belong to the wave of consumer wearables that followed the 2010 Fitbit step counter and the 2013 to 2015 arrival of smartwatches and smart bands, a market in which Wikipedia cites a 2014 PwC finding that one in five American adults owned a wearable.[14] Wikipedia also describes privacy concerns about wearable data, including that companies often own the data and may sell it on.[14]"
+      ]
+    },
+    {
+      "h": "Posture context",
+      "paras": [
+        "Wikipedia's article on forward head posture says hunching can increase the effective load on the neck because of a longer moment arm, lists upper trapezius pain and cervicogenic headache among associated symptoms, and notes that the pattern is linked to heavy device use.[9] It lists strengthening of the middle and lower back muscles and deep neck flexors, stretching, regular breaks and posture awareness among management options, while noting that some of its content needs further confirmation.[9] Several of the studies of the device were done in clinicians such as surgeons, for whom sustained neck flexion during procedures is a workplace concern.[1][2]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "A 2022 observational study recorded neck and spine posture of surgeons performing otolaryngology procedures with UpRight Go 2, first measuring baseline posture over three months and then adding biofeedback. Rhinology procedures had the most upright time (90 percent) and head and neck surgery the least (62 percent); in the ten surgeons who received biofeedback, eight improved, on average by about 5 percent more time upright[1].",
+        "A 2023 cohort study of eight ophthalmology trainees found that after a two-week period with the posture trainer the share of surgery time spent upright rose from 59.8 percent to 87.1 percent, an average improvement of 27.3 percent[2].",
+        "A 2022 pilot study of 25 people with Parkinson's disease tested the device on the upper back in the laboratory and at home (12 participants, 60 minutes a day for seven days). Neck flexion improved when sitting and standing, but trunk and low back posture and walking posture did not change; 68 percent of participants reported a benefit and 72 to 75 percent found the device acceptable[3].",
+        "A 2025 study of 60 conservatory piano students compared Upright Go-assisted practice with traditional practice for one hour a day over four weeks. The device group reported a spinal deviation angle of 6.4 degrees versus 13.7 degrees in the comparison group and less physical tension while practising[8]. Further work has measured ergonomics in vitreoretinal surgery with a wearable device, and a 2026 study used biosensor technology to quantify cervical posture in microsurgery[4][5].",
+        "Related biofeedback research includes a trial in 96 university students comparing electrotherapy, exercise, a biofeedback posture trainer and postural education[6]. No trial has tested the device for looks or in a general gear-buyer population.",
+        "Across these studies the device was mostly used as a measurement and feedback tool, and outcomes were time spent upright, angles or self-reported comfort rather than how the person looked[1][2][3][8]."
+      ]
+    },
+    {
+      "h": "Safety and practical considerations",
+      "paras": [
+        "The device uses low-intensity vibration and an adhesive or necklace attachment. The studies cited above do not report significant safety problems, and the Parkinson's pilot found most participants considered the device acceptable[3]. Researchers note that effects varied between users, and the otolaryngology authors recommend combining devices with ergonomics education[1]."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1969",
+      "event": "Participants at a Santa Monica conference coin the term biofeedback, the concept behind vibration posture trainers.[11]"
+    },
+    {
+      "year": "2010",
+      "event": "Fitbit releases its first step counter, an early step in consumer wearables.[14]"
+    },
+    {
+      "year": "2014",
+      "event": "A PwC report finds one in five American adults owns a wearable.[14]"
+    },
+    {
+      "year": "2015",
+      "event": "Researchers publish a trial of the Backtone biofeedback posture trainer in 96 university students.[6]"
+    },
+    {
+      "year": "2022",
+      "event": "Studies report UpRight Go 2 use in otolaryngology surgeons and in a Parkinson's disease pilot.[1][3]"
+    },
+    {
+      "year": "2023",
+      "event": "A cohort of ophthalmology trainees shows more upright time with the device.[2]"
+    },
+    {
+      "year": "2024",
+      "event": "A wearable-device study compares ergonomics in vitreoretinal surgery with heads-up visualization versus the standard microscope.[4]"
+    },
+    {
+      "year": "2025",
+      "event": "A study in piano students compares Upright Go-assisted training with traditional practice.[8]"
+    },
+    {
+      "year": "2026",
+      "event": "A microsurgery study quantifies cervical posture with biosensor technology.[5]"
+    }
+  ],
+  "lore": {
+    "intro": "Discussion of posture wearables is mainly consumer marketing and clinician ergonomics research; the claims below set the maker's statements beside what the published studies measured.",
+    "claims": [
+      {
+        "claim": "Most users improve their posture within two weeks",
+        "believers": "The maker says 95 percent of users improve within two weeks.[7]",
+        "experts": "The ophthalmology trainee study reported more upright surgery time after a two-week period, and the otolaryngology study found most surgeons receiving biofeedback improved; neither measured appearance.[1][2]",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "The device builds lasting muscle memory",
+        "believers": "The maker says the device trains habits so posture can be maintained without it.[7]",
+        "experts": "The studies cited here measured posture while the device was in use; no published follow-up after removal was found in them.[1][2][3]",
+        "evidence": "untested"
+      },
+      {
+        "claim": "Better posture makes you look taller and more confident",
+        "believers": "Users describe straighter shoulders and a more open chest.[9]",
+        "experts": "Wikipedia describes forward head posture and postural kyphosis as changes in the alignment of head, neck and upper back that can be corrected by exercise and awareness; no trial measured perceived height or attractiveness.[9][10]",
+        "evidence": "untested"
+      },
+      {
+        "claim": "The device relieves neck and back pain",
+        "believers": "The maker says 87 percent of users report reduced pain.[7]",
+        "experts": "The Parkinson's pilot found 68 percent of participants reported a benefit, and neck flexion improved when sitting and standing while trunk and low-back posture did not change.[3]",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "The product is FDA registered and clinically tested",
+        "believers": "The product page lists FDA registration, CE certification and clinical testing.[7]",
+        "experts": "Wikipedia notes FDA guidance treats some health wearables as general-wellness products; registration differs from clearance or approval.[14]",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "Piano students benefit from device-assisted practice",
+        "believers": "A 2025 study reported a spinal deviation angle of 6.4 degrees in the device group versus 13.7 degrees in the comparison group.[8]",
+        "experts": "The study involved 60 conservatory students over four weeks and measured spinal angle and tension, not appearance.[8]",
+        "evidence": "supported"
+      }
+    ]
+  },
+  "refs": [
+    {
+      "id": 1,
+      "title": "Surgical ergonomics: Assessment of surgeon posture and impact of training device during otolaryngology procedures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36258864/",
+      "source": "Laryngoscope Investigative Otolaryngology",
+      "year": 2022,
+      "type": "study"
+    },
+    {
+      "id": 2,
+      "title": "Ergonomics of Ophthalmic Surgery: Evaluating the Effect of a Posture Trainer on Trainee Intraoperative Back Posture",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38059191/",
+      "source": "Journal of Academic Ophthalmology",
+      "year": 2023,
+      "type": "study"
+    },
+    {
+      "id": 3,
+      "title": "Staying UpRight in Parkinson's disease: A pilot study of a novel wearable postural intervention",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34656009/",
+      "source": "Gait & Posture",
+      "year": 2022,
+      "type": "study"
+    },
+    {
+      "id": 4,
+      "title": "Comparison of Ergonomics in Vitreoretinal Surgery With Heads-up Visualization Versus the Standard Operating Microscope as Measured by a Wearable Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39037360/",
+      "source": "Ophthalmic Surgery, Lasers & Imaging Retina",
+      "year": 2024,
+      "type": "study"
+    },
+    {
+      "id": 5,
+      "title": "Ergonomic burden in microsurgery: Real-time quantification of cervical posture using biosensor technology",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41380363/",
+      "source": "JPRAS",
+      "year": 2026,
+      "type": "study"
+    },
+    {
+      "id": 6,
+      "title": "Spinal postural training: electrotherapy, exercise, biofeedback trainer in university students",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25061037/",
+      "source": "Journal of Back and Musculoskeletal Rehabilitation",
+      "year": 2015,
+      "type": "trial"
+    },
+    {
+      "id": 7,
+      "title": "Upright GO smart posture trainer (manufacturer site)",
+      "url": "https://www.uprightpose.com/",
+      "source": "Upright Posture Corrector",
+      "year": 2026,
+      "type": "news"
+    },
+    {
+      "id": 8,
+      "title": "Wearable Technology in Piano Training: Improving Posture and Motion Precision with Biofeedback Devices Like Upright Go",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40080324/",
+      "source": "Applied Psychophysiology and Biofeedback",
+      "year": 2025,
+      "type": "study"
+    },
+    {
+      "id": 9,
+      "title": "Forward head posture",
+      "url": "https://en.wikipedia.org/wiki/Forward_head_posture",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 10,
+      "title": "Kyphosis",
+      "url": "https://en.wikipedia.org/wiki/Kyphosis",
+      "source": "Wikipedia",
+      "year": null,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 11,
+      "title": "Biofeedback",
+      "url": "https://en.wikipedia.org/wiki/Biofeedback",
+      "source": "Wikipedia",
+      "year": null,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 12,
+      "title": "Vibrotactile-Feedback Device for Postural Balance Among Malocclusion Patients.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32411542/",
+      "source": "IEEE journal of translational engineering in health and medicine",
+      "year": 2020,
+      "type": "study"
+    },
+    {
+      "id": 13,
+      "title": "Human positions",
+      "url": "https://en.wikipedia.org/wiki/Human_positions",
+      "source": "Wikipedia",
+      "year": null,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 14,
+      "title": "Wearable technology",
+      "url": "https://en.wikipedia.org/wiki/Wearable_technology",
+      "source": "Wikipedia",
+      "year": null,
+      "type": "encyclopedia"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://www.uprightpose.com/",
+      "title": "Upright GO smart posture trainer"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Forward_head_posture",
+      "title": "Forward head posture - Wikipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Kyphosis",
+      "title": "Kyphosis"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Biofeedback",
+      "title": "Biofeedback"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Human_positions",
+      "title": "Human positions"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wearable_technology",
+      "title": "Wearable technology"
+    }
+  ],
+  "card": {
+    "summary": "A small sensor that vibrates when you slouch; used in several clinician ergonomics studies, with no study of it as a looks tool.",
+    "aka": "UpRight Go, UpRight Go 2",
+    "evidence": "limited",
+    "outcome": "temporary",
+    "risk": "low",
+    "price": null,
+    "note": "Studies are mostly of surgeons and small patient groups.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "The UpRight Go is a wearable posture trainer that gives vibration feedback when the wearer slouches. It is marketed for posture awareness and has been used in several published ergonomics studies.\n\nThose studies concern surgeon neck and back posture and a Parkinson's pilot, not appearance.",
+    "mechanism": "A sensor worn on the upper back or neck measures posture and uses biofeedback buzzing to prompt correction.",
+    "risks": "No safety concerns are described in the studies found. Evidence on lasting posture change after removing the device is limited."
+  }
 }

@@ -1,25 +1,304 @@
 {
-"name":"Inositol nicotinate",
-"lead":["Inositol nicotinate, also called inositol hexanicotinate or inositol hexaniacinate, is a compound formed from niacin (vitamin B3) and inositol. In the United States it is sold as a dietary supplement, marketed as a \"no-flush\" form of niacin, and the body is described as breaking it down into its two components [1].","It has been studied mainly for circulation problems such as Raynaud's phenomenon and intermittent claudication rather than for skin or appearance. Wikipedia describes evidence for most other proposed uses, including cholesterol lowering, as unclear or insufficient [1]. It is listed in appearance-oriented catalogues because of its relationship to niacin, but no published study found in the sources examines its effect on skin, hair or facial appearance.","Small thermographic studies from the late 1970s and early 1980s examined its effect on digital blood flow in Raynaud's phenomenon [2][3][4], and a UK health technology assessment evaluated it alongside other drugs for intermittent claudication [5]."],
-"infobox":[["Type","Niacin (vitamin B3) ester of inositol"],["Other names","Inositol hexanicotinate, inositol hexaniacinate"],["Brand name","Hexopal [1]"],["Legal status","Sold over the counter as a supplement in the US [1]"]],
-"sections":[
-{"h":"Uses","paras":["The compound has been used for peripheral circulation disorders, notably Raynaud's phenomenon and intermittent claudication, and has also been promoted for cholesterol and blood pressure. Its effectiveness for high cholesterol, high blood pressure and exercise-related leg pain is described as unclear, with mixed study results [1]. Other proposed uses, such as migraine, psoriasis and restless legs syndrome, are described as lacking sufficient supporting evidence [1]."]},
-{"h":"Pharmacology","paras":["Inositol nicotinate is reported to be metabolised to inositol and niacin after ingestion. Wikipedia notes research suggesting that the absence of flushing may relate to limited conversion to active niacin [1]. Flushing is the skin warming and redness typical of immediate-release niacin."]},
-{"h":"Adverse effects and precautions","paras":["Taken orally it is described as generally safe, with possible stomach upset, intestinal gas and nausea, and liver damage similar to other niacin products [1]. Cautions listed include diabetes (possible rise in blood sugar), liver or kidney disease, bleeding disorders or upcoming surgery, and gout [1]."]},
-{"h":"Clinical studies","paras":["Several small studies in Raynaud's phenomenon used thermography to assess digital blood flow and temperature during inositol nicotinate treatment, published in the Journal of International Medical Research in 1977, 1979 and 1981 [2][3][4]. A review of Raynaud's pharmacotherapy and a BMJ Clinical Evidence summary of secondary Raynaud's discuss the drug class and treatment options [6][7]. A health technology assessment published in 2011 evaluated cilostazol, naftidrofuryl oxalate, pentoxifylline and inositol nicotinate for intermittent claudication in peripheral arterial disease [5].","No studies found that examine inositol nicotinate for skin, hair or facial appearance."]}
-],
-"timeline":[],
-"lore":null,
-"refs":[
-{"id":1,"title":"Inositol nicotinate","url":"https://en.wikipedia.org/wiki/Inositol_nicotinate","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":2,"title":"Quantitative thermographic assessment of inositol nicotinate therapy in Raynaud's phenomena","url":"https://pubmed.ncbi.nlm.nih.gov/881094/","source":"J Int Med Res","year":1977,"type":"study"},
-{"id":3,"title":"An experimentally controlled evaluation of the effect of inositol nicotinate upon the digital blood flow in patients with Raynaud's phenomenon","url":"https://pubmed.ncbi.nlm.nih.gov/391622/","source":"J Int Med Res","year":1979,"type":"study"},
-{"id":4,"title":"Quantitative thermal imaging to assess inositol nicotinate treatment for Raynaud's syndrome","url":"https://pubmed.ncbi.nlm.nih.gov/7319129/","source":"J Int Med Res","year":1981,"type":"study"},
-{"id":5,"title":"A systematic review and economic evaluation of cilostazol, naftidrofuryl oxalate, pentoxifylline and inositol nicotinate for intermittent claudication","url":"https://pubmed.ncbi.nlm.nih.gov/22142554/","source":"Health Technol Assess","year":2011,"type":"review"},
-{"id":6,"title":"Pharmacotherapy of Raynaud's phenomenon","url":"https://pubmed.ncbi.nlm.nih.gov/9118818/","source":"Drugs","year":1996,"type":"review"},
-{"id":7,"title":"Raynaud's phenomenon (secondary)","url":"https://pubmed.ncbi.nlm.nih.gov/19445801/","source":"BMJ Clinical Evidence","year":2008,"type":"review"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Inositol_nicotinate","title":"Inositol nicotinate - Wikipedia"}],
-"card":{"summary":"A no-flush niacin ester sold as a supplement; studied for circulation, with nothing published on appearance.","aka":"Inositol hexanicotinate, inositol hexaniacinate","evidence":"unproven","status":"otc","risk":null,"price":null,"note":"Evidence is limited to small circulation studies; liver effects are listed as for other niacin products.","structure":"Inositol hexanicotinate"},
-"quick":{"overview":"Inositol nicotinate is niacin bound to inositol, sold as a supplement that does not cause the usual niacin flush. It is included in appearance catalogues because of its niacin link.\n\nPublished research concerns circulation (Raynaud's phenomenon, leg pain on walking) and has produced mixed or unclear results. Nothing found examines skin or looks outcomes.","mechanism":"It is described as being broken down into inositol and niacin after ingestion; limited conversion to active niacin may explain the lack of flushing.","risks":"Generally described as safe orally, with stomach upset, gas, nausea and possible liver effects similar to other niacin products. Cautions are listed for diabetes, liver or kidney disease, bleeding disorders and gout. Sold over the counter in the US."}
+ "name": "Inositol nicotinate",
+ "lead": [
+  "Inositol nicotinate, also called inositol hexanicotinate or inositol hexaniacinate, is a compound formed from niacin (vitamin B3) and inositol. In the United States it is sold as a dietary supplement marketed as a \"no-flush\" form of niacin, and the body is described as breaking it down into its two components [1].",
+  "People who consider it for their appearance generally reach it through a circulation chain: niacin is a vasodilator, and inositol nicotinate has been studied for improving blood flow to the fingers and legs, so some users hope for warmer, better-perfused skin without the red flush that standard niacin produces. It is also taken in the same spirit as niacin for lipid profiles and general wellness, topics that gym and supplement forums such as T Nation discuss alongside diet and training [11][12].",
+  "Published research has focused on Raynaud's phenomenon and intermittent claudication rather than on skin, hair or facial appearance. Small thermographic and blood-flow studies from the late 1970s and early 1980s examined digital circulation [2][3][4], randomised trials in the 1980s examined walking distance [7][8], and a UK health technology assessment evaluated it alongside other drugs for claudication [5]. Wikipedia describes the evidence for most other proposed uses, including cholesterol lowering, as unclear or insufficient [1]."
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Niacin (vitamin B3) ester of inositol"
+  ],
+  [
+   "Other names",
+   "Inositol hexanicotinate, inositol hexaniacinate"
+  ],
+  [
+   "Brand name",
+   "Hexopal [1]"
+  ],
+  [
+   "Legal status",
+   "Sold over the counter as a supplement in the US [1]"
+  ],
+  [
+   "Main studied uses",
+   "Raynaud's phenomenon, intermittent claudication [2][5]"
+  ],
+  [
+   "Form",
+   "Oral supplement; Hexopal is a branded product [1]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Uses",
+   "paras": [
+    "The compound has been used for peripheral circulation disorders, notably Raynaud's phenomenon and intermittent claudication, and has also been promoted for cholesterol and blood pressure. Its effectiveness for high cholesterol, high blood pressure and exercise-related leg pain is described as unclear, with mixed study results [1]. Other proposed uses, such as migraine, psoriasis and restless legs syndrome, are described as lacking sufficient supporting evidence [1].",
+    "Raynaud's phenomenon is episodic vasospasm of the small vessels of the digits, causing white, blue and then red colour changes of the fingers or toes in response to cold or stress [6][7]. This visible skin-colour change, and the cold, pale hands that accompany it, is the closest link between the compound's studied uses and anything related to how the skin looks."
+   ],
+   "subs": [
+    {
+     "h": "Appearance-oriented interest",
+     "paras": [
+      "In forum discussion the compound appears mainly as a gentler alternative to niacin, taken with B-complex vitamins and fish oil in lipid-focused routines, and occasionally suggested for circulation complaints such as Raynaud's [11][12][13]. No source examined describes a skin, hair or facial-appearance trial."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "paras": [
+    "Inositol nicotinate is an ester in which six nicotinic acid groups are attached to one inositol molecule. After ingestion it is reported to be metabolised to inositol and niacin. Wikipedia notes research suggesting that the absence of flushing may relate to limited conversion to active niacin [1]. Flushing is the skin warming and redness typical of immediate-release niacin.",
+    "A forum poster in a cognition-supplement thread reported that regular niacin appeared to do things that inositol hexanicotinate and niacinamide did not, which echoes the question of how much free niacin the ester releases [14]. A pharmacology thread on vasodilators lists the broad category of vasodilator drugs as biochemically heterogeneous [15]."
+   ]
+  },
+  {
+   "h": "Adverse effects and precautions",
+   "paras": [
+    "Taken orally it is described as generally safe, with possible stomach upset, intestinal gas and nausea, and liver damage similar to other niacin products [1]. Cautions listed include diabetes (possible rise in blood sugar), liver or kidney disease, bleeding disorders or upcoming surgery, and gout [1]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Raynaud's phenomenon: a 1977 study used quantitative thermography to compare hand temperature in normal controls and rheumatoid patients with Raynaud's. Oral inositol nicotinate (Hexopal) was followed by an initial rise in a thermographic index of the hand and fingers, after which temperature fell and then rose again after a period of weeks [4]. A 1979 randomised, controlled evaluation in thirty patients with primary and secondary Raynaud's used several non-invasive techniques, including the time needed to induce an attack and total and nutrient digital blood flow, and reported significant beneficial effects as well as a prolonged build-up period before the drug took effect [8]. A further thermal-imaging study appeared in 1981 [9]. Narrative reviews of Raynaud's treatment and a BMJ Clinical Evidence summary of secondary Raynaud's discuss the drug class among treatment options [6][10].",
+    "Intermittent claudication: two randomised controlled trials of Hexopal in intermittent claudication were published in the British Journal of Clinical Practice in 1988 [16][17]. A 2011 health technology assessment evaluated cilostazol, naftidrofuryl oxalate, pentoxifylline and inositol nicotinate against no vasoactive drug for claudication in peripheral arterial disease, looking at walking distance, ankle-brachial index, adverse events and quality of life [5].",
+    "Lipids and other uses: German-language trials from the 1970s tested inositol nicotinate in combination with clofibrate for hyperlipoproteinaemia [18], and a 1966 Nordic trial examined it in peripheral arterial insufficiency [19].",
+    "No studies found that examine inositol nicotinate for skin, hair or facial appearance."
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Inositol nicotinate is sold without prescription in the US as a supplement, and Hexopal is a branded product [1]. On T Nation, contributors have discussed it among niacin forms: one poster recommended it as a no-flush niacin alongside a B-complex for a low HDL reading [12], while another wrote that over-the-counter niacinamide or inositol hexanicotinate does nothing for lipid modification and that prescription extended-release niacin would be needed [13]. A 2002 thread on Raynaud's listed inositol nicotinate and nicotinic acid among forms of vitamin B3 that relax smooth muscle in vessels [11]."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1966",
+   "event": "A Nordic clinical trial examines inositol nicotinate (Hexanicit) for peripheral arterial insufficiency [19]."
+  },
+  {
+   "year": "1977",
+   "event": "Quantitative thermography is used to assess inositol nicotinate in Raynaud's phenomenon [4]."
+  },
+  {
+   "year": "1979",
+   "event": "Randomised controlled evaluation in thirty Raynaud's patients reports effects on digital blood flow [8]."
+  },
+  {
+   "year": "1988",
+   "event": "Two controlled trials in intermittent claudication are published [16][17]."
+  },
+  {
+   "year": "2011",
+   "event": "UK health technology assessment evaluates it among drugs for claudication [5]."
+  }
+ ],
+ "lore": {
+  "intro": "On supplement forums inositol nicotinate is discussed as a no-flush niacin option for lipids and circulation, with contributors disagreeing about how closely it matches regular niacin [12][13][14].",
+  "claims": [
+   {
+    "claim": "No-flush niacin gives the benefits of niacin without the flush",
+    "believers": "Posters recommend it with a B-complex and fish oil for low HDL and as a tolerable niacin form [12].",
+    "experts": "Wikipedia notes research suggesting that lack of flushing may reflect limited conversion to active niacin [1].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Over-the-counter inositol hexanicotinate does not change lipids",
+    "believers": "A poster in a lipid thread said it does nothing for lipid modification and advised a prescription niacin product [13].",
+    "experts": "Evidence for cholesterol lowering is described as unclear [1].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "It helps Raynaud's symptoms by relaxing blood vessels",
+    "believers": "A 2002 thread listed inositol nicotinate among B3 forms said to relax vascular smooth muscle [11].",
+    "experts": "Small controlled and thermographic studies from 1977 to 1981 reported effects on digital blood flow and temperature [4][8][9].",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Inositol nicotinate",
+   "url": "https://en.wikipedia.org/wiki/Inositol_nicotinate",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Quantitative thermographic assessment of inositol nicotinate therapy in Raynaud's phenomena",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/881094/",
+   "source": "J Int Med Res",
+   "year": 1977,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "An experimentally controlled evaluation of the effect of inositol nicotinate upon the digital blood flow in patients with Raynaud's phenomenon",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/391622/",
+   "source": "J Int Med Res",
+   "year": 1979,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Quantitative thermographic assessment of inositol nicotinate therapy in Raynaud's phenomena",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/881094/",
+   "source": "J Int Med Res",
+   "year": 1977,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "A systematic review and economic evaluation of cilostazol, naftidrofuryl oxalate, pentoxifylline and inositol nicotinate for intermittent claudication",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22142554/",
+   "source": "Health Technol Assess",
+   "year": 2011,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Pharmacotherapy of Raynaud's phenomenon",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9118818/",
+   "source": "Drugs",
+   "year": 1996,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Raynaud's phenomenon (primary)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19445785/",
+   "source": "BMJ Clinical Evidence",
+   "year": 2008,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "An experimentally controlled evaluation of the effect of inositol nicotinate upon the digital blood flow in patients with Raynaud's phenomenon",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/391622/",
+   "source": "J Int Med Res",
+   "year": 1979,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Quantitative thermal imaging to assess inositol nicotinate treatment for Raynaud's syndrome",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7319129/",
+   "source": "J Int Med Res",
+   "year": 1981,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Raynaud's phenomenon (secondary)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19445801/",
+   "source": "BMJ Clinical Evidence",
+   "year": 2008,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "Raynauds Syndrome (T Nation forum)",
+   "url": "https://t-nation.com/t/raynauds-syndrome/14760",
+   "source": "T Nation",
+   "year": 2002,
+   "type": "forum"
+  },
+  {
+   "id": 12,
+   "title": "Lipid Panel Results (T Nation forum)",
+   "url": "https://t-nation.com/t/lipid-panel-results/61482",
+   "source": "T Nation",
+   "year": 2006,
+   "type": "forum"
+  },
+  {
+   "id": 13,
+   "title": "High Test, Is This Too Much for Life? (T Nation forum)",
+   "url": "https://t-nation.com/t/high-test-is-this-too-much-for-life/135981",
+   "source": "T Nation",
+   "year": 2009,
+   "type": "forum"
+  },
+  {
+   "id": 14,
+   "title": "Brain Function Boosters 3.0 (T Nation forum)",
+   "url": "https://t-nation.com/t/brain-function-boosters-3-0/142496",
+   "source": "T Nation",
+   "year": 2010,
+   "type": "forum"
+  },
+  {
+   "id": 15,
+   "title": "Heterogeneity of biochemical actions among vasodilators",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6276530/",
+   "source": "J Pharm Sci",
+   "year": 1982,
+   "type": "study"
+  },
+  {
+   "id": 16,
+   "title": "Does inositol nicotinate (Hexopal) influence intermittent claudication? A controlled trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/3061427/",
+   "source": "Br J Clin Pract",
+   "year": 1988,
+   "type": "trial"
+  },
+  {
+   "id": 17,
+   "title": "The therapeutic efficacy of inositol nicotinate (Hexopal) in intermittent claudication: a controlled trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/3075929/",
+   "source": "Br J Clin Pract",
+   "year": 1988,
+   "type": "trial"
+  },
+  {
+   "id": 18,
+   "title": "Treatment of hyperlipoproteinaemia types IIa, IIb, IV and V with a combination of clofibrate and inositol nicotinate",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1253701/",
+   "source": "Dtsch Med Wochenschr",
+   "year": 1976,
+   "type": "trial"
+  },
+  {
+   "id": 19,
+   "title": "Treatment of peripheral arterial insufficiency with inositol nicotinate (Hexanicit)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/5918550/",
+   "source": "Nord Med",
+   "year": 1966,
+   "type": "trial"
+  }
+ ],
+ "webSources": [],
+ "card": {
+  "summary": "A no-flush niacin ester sold as a supplement; studied for circulation, with nothing published on appearance.",
+  "aka": "Inositol hexanicotinate, inositol hexaniacinate",
+  "evidence": "unproven",
+  "status": "otc",
+  "risk": null,
+  "price": null,
+  "note": "Evidence is limited to small circulation studies; liver effects are listed as for other niacin products.",
+  "structure": "Inositol hexanicotinate"
+ },
+ "quick": {
+  "overview": "Inositol nicotinate is niacin bound to inositol, sold as a supplement that does not cause the usual niacin flush. It is included in appearance catalogues because of its niacin link.\n\nPublished research concerns circulation (Raynaud's phenomenon, leg pain on walking) and has produced mixed or unclear results. Nothing found examines skin or looks outcomes.",
+  "mechanism": "It is described as being broken down into inositol and niacin after ingestion; limited conversion to active niacin may explain the lack of flushing.",
+  "risks": "Generally described as safe orally, with stomach upset, gas, nausea and possible liver effects similar to other niacin products. Cautions are listed for diabetes, liver or kidney disease, bleeding disorders and gout. Sold over the counter in the US."
+ },
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "Ester of niacin and inositol is broken down after ingestion",
+   "Niacin component acts as a vasodilator without the typical flush",
+   "Possible warmer, better-perfused skin and extremities"
+  ],
+  "effect": "claimed",
+  "text": "Users interested in niacin's circulatory and skin-related associations choose this form because it is reported not to cause the red, warm flush of immediate-release niacin. Its measured effects in studies concern blood flow in the fingers and legs, and no published study reports skin or facial outcomes."
+ }
 }

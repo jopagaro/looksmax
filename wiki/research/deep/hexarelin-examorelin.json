@@ -1,10 +1,36 @@
 {
  "name": "Hexarelin (Examorelin)",
+ "card": {
+  "summary": "A potent GH-releasing peptide studied in 1990s endocrine trials; forum favourite, no evidence for looks, with desensitization questions.",
+  "aka": "Examorelin",
+  "evidence": "unproven",
+  "status": "research",
+  "outcome": null,
+  "risk": null,
+  "price": null,
+  "note": "Also hits cortisol and prolactin axes; GH response may fade.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Hexarelin is a lab-made peptide that mimics ghrelin to force a big growth hormone release. Forum users pick it as a strong, cheap GH peptide for muscle and recovery.\n\nHuman trials measured hormone levels only; none tested muscle, fat or appearance.",
+  "mechanism": "It activates the ghrelin/GH secretagogue receptor, and also CD36 in the heart, driving GH release and effects on other hormones.",
+  "risks": "It also raises cortisol and prolactin in some studies, and a 16-week trial was built to test whether the GH response fades. It is not approved as a medicine."
+ },
  "lead": [
-  "Hexarelin (also called examorelin) is a synthetic hexapeptide growth hormone-releasing peptide (GHRP) that stimulates growth hormone (GH) release by activating the growth hormone secretagogue receptor, the receptor for the gut hormone ghrelin. [1][2][3] Reviews describe it as more chemically stable and more potent than ghrelin itself. [3]",
-  "It has been studied in clinical endocrinology since the mid-1990s, including in healthy volunteers, people with GH deficiency and elderly adults. [4][5][6] It is not an approved medicine. In bodybuilding forums it is discussed as a potent, cheaper GHRP, often paired with a GHRH analogue. [7][8][9]",
-  "Published human studies have measured hormone responses, not muscle, fat or appearance outcomes. A 16-week study in healthy elderly people was designed to test whether the GH response weakens with long-term use, a limitation that the investigators described as potentially serious for therapeutic use. [10]"
+  "Hexarelin (also called examorelin) is a synthetic hexapeptide growth hormone-releasing peptide (GHRP) that stimulates growth hormone (GH) release by activating the growth hormone secretagogue receptor, the receptor for the gut hormone ghrelin.[1][2][24] People who use GH-axis peptides in bodybuilding circles do so on a chain of reasoning: more GH and IGF-1 signalling could mean better recovery, leaner body composition and more muscle, which is how the peptide connects to appearance.[7][8]",
+  "It was developed by the Italian company Mediolanum Farmaceutici in the 1990s, studied in clinical endocrinology in healthy volunteers, people with GH deficiency and elderly adults, and reached phase II trials for GH deficiency and heart failure without being marketed.[24][4][5][6] It is not an approved medicine in any country. On bodybuilding forums such as T Nation it is discussed as a potent, comparatively cheap GHRP, often paired with a GHRH analogue.[7][8][9]",
+  "Published human studies have measured hormone and cardiac responses, not muscle, fat or appearance outcomes. A 16-week study in healthy elderly people was designed to test whether the GH response weakens with long-term use, a limitation the investigators described as potentially serious for therapeutic use.[10] Separate lines of research have examined its action on the heart through the CD36 receptor.[3][32] It is on the World Anti-Doping Agency prohibited list.[31]"
  ],
+ "angle": {
+  "goal": "Muscle and body composition",
+  "chain": [
+   "Activates the ghrelin/GH secretagogue receptor",
+   "Pituitary releases growth hormone in pulses",
+   "Users hope for better recovery, leaner body composition and more muscle"
+  ],
+  "effect": "claimed",
+  "text": "Bodybuilders who use GH-releasing peptides describe them as a way to raise GH output, which they associate with recovery, leanness and muscle. Human studies of hexarelin have tracked GH and other hormones rather than muscle or fat."
+ },
  "infobox": [
   [
    "Drug class",
@@ -25,59 +51,162 @@
   [
    "Routes (studied)",
    "Intravenous and subcutaneous in trials"
+  ],
+  [
+   "Developer",
+   "Mediolanum Farmaceutici [24]"
+  ],
+  [
+   "Development codes",
+   "EP-23905, MF-6003 [24]"
+  ],
+  [
+   "First studied in humans",
+   "Mid-1990s (GH release, route and dose studies) [24]"
+  ],
+  [
+   "Elimination half-life",
+   "About 55 minutes [24]"
+  ],
+  [
+   "Anti-doping status",
+   "Prohibited by WADA (GH-releasing peptides) [31]"
   ]
  ],
  "sections": [
   {
-   "h": "Pharmacology",
+   "h": "Chemistry",
    "paras": [
-    "Hexarelin is one of several GHRPs, together with GHRP-1, GHRP-2 and GHRP-6, that were synthesised to release GH in animals and humans; reviews note these peptides are structurally unrelated to GHRH and act on receptors at the pituitary or hypothalamus. [1][11]",
-    "Beyond the pituitary, hexarelin binds peripheral receptors. A review of its cardiovascular action reports that the scavenger receptor CD36 serves as a cardiac receptor mediating cardioprotective effects, and another review describes a GHRP-CD36-PPARγ pathway that links hexarelin to lipid metabolism, atherosclerosis and fat mitochondrial biogenesis in preclinical work. [3][12]",
-    "Studies in humans have also shown endocrine effects other than GH: hexarelin stimulated the hypothalamic-pituitary-adrenal axis via arginine vasopressin, stimulated prolactin in acromegalic but not hyperprolactinaemic patients, and had no effect on TRH-induced TSH response. [13][14][15]"
-   ],
-   "subs": []
+    "Hexarelin has the sequence His-D-2-methyl-Trp-Ala-Trp-D-Phe-Lys-NH2 and was derived from GHRP-6. Despite having no sequence similarity to ghrelin, it mimics it by acting as an agonist at the ghrelin receptor. Its formula is C47H58N12O6 (about 887 g/mol).[24]"
+   ]
+  },
+  {
+   "h": "History",
+   "subs": [
+    {
+     "h": "Origins in the GHRP family",
+     "paras": [
+      "The GH-releasing peptides were synthesised as a class of non-natural peptides that release GH in animals and humans; GHRP-6 was the first hexapeptide extensively studied in humans, followed by the heptapeptide GHRP-1 and the hexapeptides GHRP-2 and hexarelin.[1][11] GHRP-6 is a synthetic analogue of met-enkephalin with unnatural D-amino acids and no opioid activity.[27] GHRP-2 (pralmorelin) was the first GH secretagogue introduced clinically and is marketed in Japan by Kaken Pharmaceutical as a single-dose diagnostic for GH deficiency.[29]",
+      "Early reviews noted that the GHRP receptor, cloned in 1996, showed no sequence homology with other known G-protein-coupled receptors, which suggested that a natural ligand existed.[1][2] That ligand, ghrelin, was identified in 1999 by Kojima and colleagues, and the receptor is now called the ghrelin or GH secretagogue receptor (GHSR).[26][17]"
+     ]
+    },
+    {
+     "h": "Development of hexarelin",
+     "paras": [
+      "Hexarelin was developed by the Italian company Mediolanum Farmaceutici as part of the first wave of synthetic GHRPs that followed GHRP-6 and GHRP-1.[24][11] Human studies of dose, route, sex-steroid and GHRH interactions were published through the mid-1990s.[24][4] It reached phase II trials for growth hormone deficiency and congestive heart failure but did not complete development and was never marketed.[24]",
+      "Human studies in the mid-1990s examined hexarelin's GH release in healthy people, in people given exogenous GH and in GH deficiency, and later studies explored its effects on the adrenal axis, prolactin and heart function.[4][5][13][14][3] Wikipedia lists the discontinued status of examorelin among cardiovascular drug candidates and places it in the category of experimental drugs with no legal status.[24]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "subs": [
+    {
+     "h": "Mechanism of action",
+     "paras": [
+      "Hexarelin is a potent agonist of the ghrelin/GH secretagogue receptor (GHSR). Although it has no sequence similarity to ghrelin, it mimics ghrelin's GH-releasing action.[24] Reviews describe GHRPs as acting at the pituitary and hypothalamus, with evidence that they counteract somatostatin and partly act through GHRH, and as structurally unrelated to GHRH.[1][11] Pharmacologically, GHSR agonists such as ghrelin, GHRP-2, GHRP-6, examorelin, ipamorelin and ibutamoren are grouped separately from GHRH-receptor agonists such as sermorelin and tesamorelin.[25]",
+      "Beyond the pituitary, hexarelin binds receptors in the heart and blood vessels. A review of its cardiovascular action reports that the scavenger receptor CD36 is a specific cardiac receptor mediating cardioprotective effects, and another review describes a GHRP-CD36-PPARgamma pathway linking hexarelin to lipid metabolism, atherosclerosis and fat mitochondrial biogenesis in preclinical work.[3][12] The cardiovascular review notes that these effects were not reproduced by recombinant GH or GHRH, and that evidence comes mainly from animal models and cell lines.[32]"
+     ]
+    },
+    {
+     "h": "Endocrine effects",
+     "paras": [
+      "Hexarelin raises plasma GH dose-dependently in animals and humans and, like GHRP-2 and GHRP-6, slightly raises prolactin, ACTH and cortisol. Reports conflict on whether it lifts IGF-1 and IGFBP-1, and it has not been found to change glucose, LH, FSH or TSH.[24] Ipamorelin, a later GHRP developed by Novo Nordisk from GHRP-1, is described as more selective, not stimulating ACTH or cortisol.[28]",
+      "It releases more GH than GHRH in humans and acts synergistically with it. Prior GH or IGF-1 exposure blunts its effect, while testosterone and ethinylestradiol, though not oxandrolone, potentiate it; puberty also augments the response.[24][4] A review on GH in obesity notes that GHRP-6 and hexarelin evoke larger GH responses than GHRH in obese patients, but smaller than in lean subjects.[16]",
+      "Studies in humans have also shown non-GH endocrine effects: hexarelin stimulated the hypothalamic-pituitary-adrenal axis via arginine vasopressin, stimulated prolactin in acromegalic but not hyperprolactinaemic patients, and had no effect on the TRH-induced TSH response.[13][14][15] A comparison of ghrelin and hexarelin in healthy adults found that both influenced glucose and insulin levels.[17][23]"
+     ]
+    },
+    {
+     "h": "Pharmacokinetics and tolerance",
+     "paras": [
+      "Its elimination half-life is reported as roughly 55 minutes, and routes studied include intravenous, subcutaneous, intranasal and oral.[24] Long-term administration produces partial, reversible tolerance: Wikipedia summarises GH-releasing efficacy as falling by roughly half to three quarters over weeks to months, in line with the 16-week elderly-volunteer study designed to examine desensitization.[24][10]"
+     ]
+    }
+   ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "Controlled human studies of hexarelin date mostly from the 1990s and concern endocrine physiology. A randomised comparison found that hexarelin-induced GH release was influenced by exogenous GH, and a trial in GH-deficient patients examined its effect on GH secretion. [4][5] Others described effects on cortisol, prolactin and TSH. [13][14][15]",
-    "In 12 healthy elderly participants given twice-daily injections for 16 weeks, investigators examined whether the GH response became attenuated, framing such desensitization as a potential limit on therapeutic use. [10] A review on GH in obesity notes that GHRP-6 and hexarelin evoke larger GH responses in obese patients than GHRH, but smaller than in lean subjects. [16]",
-    "A human study comparing ghrelin and hexarelin found that both affected glucose and insulin levels. [17] No studies found of hexarelin for muscle gain, fat loss or physical appearance in healthy people."
-   ],
-   "subs": []
+    "Controlled human studies of hexarelin date mostly from the 1990s and concern endocrine physiology. A randomised comparison found that hexarelin-induced GH release was influenced by exogenous GH, and a trial in GH-deficient patients examined its effect on GH secretion.[4][5] Others described effects on cortisol, prolactin and TSH.[13][14][15]",
+    "In 12 healthy elderly participants given twice-daily injections for 16 weeks, investigators examined whether the GH response became attenuated, framing such desensitization as a potential limit on therapeutic use.[10]",
+    "Cardiac studies in humans were small and acute. The cardiovascular review reports that intravenous hexarelin raised left ventricular ejection fraction in seven male volunteers (70.7% versus 64.0%) without changing blood pressure or heart rate, with the effect peaking at 30 minutes, and raised ejection fraction, cardiac output and cardiac index in 24 men with coronary artery disease undergoing bypass surgery; a study in dilated cardiomyopathy found no ejection-fraction increase.[32] The authors report no long-term clinical use data and call for trials of efficacy and side effects.[32]",
+    "No studies found of hexarelin for muscle gain, fat loss or physical appearance in healthy people."
+   ]
   },
   {
-   "h": "Use in bodybuilding and looksmaxxing communities",
+   "h": "Society and culture",
+   "subs": [
+    {
+     "h": "Legal and regulatory status",
+     "paras": [
+      "Hexarelin has never been marketed as a medicine.[24] The World Anti-Doping Agency has listed GH-releasing peptides specifically since 1 January 2015 (earlier they were prohibited as related compounds), and the Cologne doping laboratory's glossary names examorelin (hexarelin) among the prohibited GHRPs.[31] In sport, GHRP-2 positives from the 2008 Beijing and 2010 Vancouver Games were identified through retesting of stored samples.[31]",
+      "In the United States, the FDA's list of bulk drug substances that may present significant safety risks for compounding includes GHRP-2, GHRP-6 and ipamorelin, each added to Category 2 on 29 September 2023; the page, current as of 22 April 2026, does not list hexarelin or examorelin.[30] The FDA states that serious adverse events have been reported with GHRP-2 but that causality has not been established, and notes immunogenicity concerns for GHRP-2 and GHRP-6.[30] "
+     ]
+    },
+    {
+     "h": "Use in bodybuilding and looksmaxxing communities",
+     "paras": [
+      "On T Nation, hexarelin appears in lists of peptides some users report having tried, sometimes as an alternative to ipamorelin, and sometimes alongside HCG, SARMs and anti-oestrogens.[7][18][19] One poster cites a YouTube creator who says hexarelin outperforms other GH peptides; another notes GHRP-6 plus hexarelin can be found cheaply.[18][20]",
+      "Posters repeat a claim that giving GHRH together with GHRP-6, GHRP-2 or hexarelin leads to synergistic GH release.[8][21] Threads on the related peptide GHRP-6 describe the community's reported effects in anecdotal terms, including improved sleep, faster soft-tissue recovery and increased appetite, and note disagreement about whether peptides compare with GH itself.[21] Such threads are personal logs rather than controlled comparisons.",
+      "Forum discussion typically sits within recovery, recomposition and hormone-optimisation topics rather than aesthetics-specific surgery or skin topics, so its connection to looks runs through physique: leanness, muscle fullness and training recovery."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Related compounds",
    "paras": [
-    "On T Nation, hexarelin appears in lists of peptides some users report having tried, sometimes as an alternative to ipamorelin, and sometimes with HCG, SARMs and anti-oestrogens. [7][18][19] One poster cites a YouTube creator who says hexarelin outperforms other GH peptides; another notes GHRP-6 plus hexarelin can be found cheaply. [18][20]",
-    "Posters repeat a claim that giving GHRH together with GHRP-6, GHRP-2 or hexarelin leads to synergistic GH release. [8][21]"
-   ],
-   "subs": []
+    "Hexarelin belongs to a family of GH secretagogues that includes GHRP-6, GHRP-2 (pralmorelin), ipamorelin and the non-peptide ibutamoren (MK-677), all acting at the ghrelin receptor, and the GHRH-receptor agonists sermorelin, CJC-1295 and tesamorelin.[25][27][28][29] Ghrelin itself raises appetite and GH release, and synthetic ghrelin mimetics increase body weight and fat mass through the same appetite pathway.[26]"
+   ]
   },
   {
    "h": "Doping control",
    "paras": [
-    "Analytical chemistry research has looked at detecting related GHRP compounds, including a 2025 study identifying consumption biomarkers for alexamorelin, a related compound, in human hepatocyte incubations. [22]"
-   ],
-   "subs": []
+    "Hexarelin is classed among the prohibited substances in sport as a growth hormone-releasing peptide.[24][31] Analytical chemistry research has looked at detecting related GHRP compounds, including a 2025 study identifying consumption biomarkers for alexamorelin, a related compound, in human hepatocyte incubations.[22] The Cologne laboratory describes urine analysis methods based on liquid chromatography-mass spectrometry for these peptides.[31]"
+   ]
   }
  ],
  "timeline": [
   {
+   "year": "1980s",
+   "event": "The first GHRPs, including GHRP-6, are developed as synthetic GH-releasing hexapeptides.[1][27]"
+  },
+  {
+   "year": "1994",
+   "event": "Human studies of hexarelin's routes of administration and dose-response begin to appear.[24]"
+  },
+  {
    "year": "1995",
-   "event": "Clinical trials report hexarelin effects on GH release in healthy and GH-deficient people. [4][5]"
+   "event": "Clinical trials report hexarelin effects on GH release in healthy and GH-deficient people.[4][5]"
+  },
+  {
+   "year": "1996",
+   "event": "A receptor for GH secretagogues is cloned.[2]"
   },
   {
    "year": "1998",
-   "event": "A study tests whether hexarelin's GH response weakens over 16 weeks in healthy elderly adults. [10]"
+   "event": "A study tests whether hexarelin's GH response weakens over 16 weeks in healthy elderly adults.[10]"
+  },
+  {
+   "year": "1999",
+   "event": "Ghrelin is identified as the natural ligand of the GH secretagogue receptor; human cardiac studies of hexarelin follow.[26][32]"
   },
   {
    "year": "2001",
-   "event": "Studies compare hexarelin with ghrelin and GHRH in humans. [17][23]"
+   "event": "Studies compare hexarelin with ghrelin and GHRH in humans.[17][23]"
+  },
+  {
+   "year": "2015",
+   "event": "WADA lists GH-releasing peptides specifically on its prohibited list.[31]"
+  },
+  {
+   "year": "2023",
+   "event": "FDA adds GHRP-2, GHRP-6 and ipamorelin to its Category 2 compounding list on 29 September.[30]"
   }
  ],
  "lore": {
-  "intro": "Hexarelin is described on T Nation as a strong GHRP, used by some in peptide stacks for GH release. [7][18]",
+  "intro": "Hexarelin is described on T Nation as a strong GHRP, used by some in peptide stacks for GH release.[7][18]",
   "claims": [
    {
     "claim": "Hexarelin is the most potent GH peptide",
@@ -96,6 +225,24 @@
     "believers": "A user reports solid gains without water retention after using GHRPs, including hexarelin. [7]",
     "experts": "No study cited tests hexarelin for muscle gain in healthy people.",
     "evidence": "untested"
+   },
+   {
+    "claim": "Older GHRPs are 'dirtier' than newer peptides because of cortisol and prolactin",
+    "believers": "Some posters list hexarelin and ipamorelin as alternatives to one another and weigh them against each other.[7][18]",
+    "experts": "Studies report that hexarelin, GHRP-2 and GHRP-6 slightly raise prolactin, ACTH and cortisol, while ipamorelin is described as not stimulating ACTH or cortisol.[24][28]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "GHRPs improve recovery, sleep and injury repair",
+    "believers": "Posters on a GHRP-6 thread report better sleep and somewhat faster soft-tissue recovery after a couple of months, and hope for strength and fat-loss gains.[21]",
+    "experts": "No published trial has tested GHRPs for recovery or injury repair in healthy people; others in the same thread say peptides are weaker than GH itself.[21]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Hexarelin is protective for the heart",
+    "believers": "Reviewers of the preclinical literature describe hexarelin as a promising agent for some cardiovascular conditions.[3]",
+    "experts": "Animal studies report protective effects and small acute human studies show raised ejection fraction; the reviewers report no long-term clinical data.[32]",
+    "evidence": "mixed"
    }
   ]
  },
@@ -283,23 +430,112 @@
    "source": "JCEM",
    "year": 2001,
    "type": "study"
+  },
+  {
+   "id": 24,
+   "title": "Examorelin",
+   "url": "https://en.wikipedia.org/wiki/Examorelin",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 25,
+   "title": "Growth hormone secretagogue",
+   "url": "https://en.wikipedia.org/wiki/Growth_hormone_secretagogue",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 26,
+   "title": "Ghrelin",
+   "url": "https://en.wikipedia.org/wiki/Ghrelin",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 27,
+   "title": "GHRP-6",
+   "url": "https://en.wikipedia.org/wiki/GHRP-6",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 28,
+   "title": "Ipamorelin",
+   "url": "https://en.wikipedia.org/wiki/Ipamorelin",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 29,
+   "title": "Pralmorelin",
+   "url": "https://en.wikipedia.org/wiki/Pralmorelin",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 30,
+   "title": "Certain Bulk Drug Substances for Use in Compounding that May Present Significant Safety Risks",
+   "url": "https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks",
+   "source": "FDA",
+   "year": 2026,
+   "type": "guideline"
+  },
+  {
+   "id": 31,
+   "title": "GHRP - growth hormone-releasing peptides (doping glossary)",
+   "url": "https://www.dshs-koeln.de/en/universitaet/organisation/institute-einrichtungen/department-of-biochemistry/doping-substances/doping-glossary/g/ghrp-ghrp-growth-hormone-releasing-peptides",
+   "source": "German Sport University Cologne",
+   "year": 2026,
+   "type": "guideline"
+  },
+  {
+   "id": 32,
+   "title": "The cardiovascular action of hexarelin (full text)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4178518",
+   "source": "Journal of Geriatric Cardiology / PMC",
+   "year": 2014,
+   "type": "review"
   }
  ],
- "webSources": [],
- "card": {
-  "summary": "A potent GH-releasing peptide studied in 1990s endocrine trials; forum favourite, no evidence for looks, with desensitization questions.",
-  "aka": "Examorelin",
-  "evidence": "unproven",
-  "status": "research",
-  "outcome": null,
-  "risk": null,
-  "price": null,
-  "note": "Also hits cortisol and prolactin axes; GH response may fade.",
-  "structure": null
- },
- "quick": {
-  "overview": "Hexarelin is a lab-made peptide that mimics ghrelin to force a big growth hormone release. Forum users pick it as a strong, cheap GH peptide for muscle and recovery.\n\nHuman trials measured hormone levels only; none tested muscle, fat or appearance.",
-  "mechanism": "It activates the ghrelin/GH secretagogue receptor, and also CD36 in the heart, driving GH release and effects on other hormones.",
-  "risks": "It also raises cortisol and prolactin in some studies, and a 16-week trial was built to test whether the GH response fades. It is not approved as a medicine."
- }
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Growth_hormone_secretagogue",
+   "title": "Growth hormone secretagogue"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Ghrelin",
+   "title": "Ghrelin"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/GHRP-6",
+   "title": "GHRP-6"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Ipamorelin",
+   "title": "Ipamorelin"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Pralmorelin",
+   "title": "Pralmorelin"
+  },
+  {
+   "url": "https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks",
+   "title": "Certain Bulk Drug Substances for Use in Compounding that May Present Significant Safety Risks"
+  },
+  {
+   "url": "https://www.dshs-koeln.de/en/universitaet/organisation/institute-einrichtungen/department-of-biochemistry/doping-substances/doping-glossary/g/ghrp-ghrp-growth-hormone-releasing-peptides",
+   "title": "GHRP - growth hormone-releasing peptides (doping glossary)"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4178518",
+   "title": "The cardiovascular action of hexarelin (full text)"
+  }
+ ]
 }

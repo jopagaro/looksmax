@@ -3,7 +3,7 @@
  "lead": [
   "Sodium PCA is the sodium salt of pyroglutamic acid (2-pyrrolidone-5-carboxylic acid, also called sodium pyroglutamate or sodium pidolate). It is used in cosmetics as a humectant, an ingredient that attracts and holds water, in dry-skin and hair products.[1]",
   "Pyroglutamic acid is a natural component of the skin's natural moisturizing factor (NMF).[1] The Cosmetic Ingredient Review Expert Panel reassessed PCA and its salts, which it describes as functioning in cosmetics as skin-conditioning humectants.[2]",
-  "Very little clinical research on sodium PCA itself was found; it appears mostly as one ingredient within formulations."
+  "Very little clinical research on sodium PCA by itself exists; it appears mostly as one ingredient within formulations, such as moisturizers that combine it with other humectants and barrier lipids.[3]"
  ],
  "infobox": [
   [
@@ -28,20 +28,23 @@
    "h": "Chemistry and biology",
    "paras": [
     "Pyroglutamic acid (C5H7NO3) forms when the free amino group of glutamic acid or glutamine cyclises into a lactam. In cells it arises from glutathione metabolism and is converted back to glutamate by 5-oxoprolinase.[1] It exists as D and L enantiomers.[1]",
-    "Wikipedia describes the sodium salt as having low toxicity and not being a skin irritant, with use limited by relatively high cost.[1]"
+    "Wikipedia describes the sodium salt as having low toxicity and not being a skin irritant, with use limited by relatively high cost.[1]",
+    "Pyroglutamic acid was first identified in 1882 and can be produced by heating glutamic acid until water is lost. In the cell it comes from glutathione through gamma-glutamyl cyclotransferase as part of the glutathione cycle.[5] Elevated blood levels, seen after paracetamol overdose or in certain inborn errors of metabolism, can cause 5-oxoprolinuria and a high anion gap metabolic acidosis; these are medical conditions unrelated to topical cosmetic use.[5]"
    ]
   },
   {
    "h": "Cosmetic uses",
    "paras": [
-    "Sodium PCA is used in moisturizers and hair products for its moisture-retaining properties.[1] Its presence in the skin's natural moisturizing factor is the usual rationale given for including it in dry-skin formulations.[1]"
+    "Sodium PCA is used in moisturizers and hair products for its moisture-retaining properties.[1] Its presence in the skin's natural moisturizing factor is the usual rationale given for including it in dry-skin formulations.[1]",
+    "The Cosmetic Ingredient Review panel's 2019 reassessment lists PCA and its sodium, calcium, magnesium and potassium salts as skin-conditioning humectants and concluded they are safe in cosmetics under present practices of use and concentration, with the condition that they not be used in products in which N-nitroso compounds can form.[2] In a typical moisturizer, sodium PCA sits alongside other humectants such as glycerin and hyaluronate, occlusives such as dimethicone and barrier lipids such as ceramides.[3] Wikipedia notes that its relatively high cost limits its use.[1]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No clinical trial found tests sodium PCA alone for appearance outcomes. A pilot study of 25 adults with mild-to-moderate eczema tested an over-the-counter botanical eczema therapy, a formulation rather than sodium PCA specifically.[3] The Cosmetic Ingredient Review panel's 2019 safety assessment reviewed existing data on PCA and its sodium, calcium, magnesium and potassium salts.[2]",
-    "Laboratory research includes an in vitro study of lipid ordering in animal skin treated with sodium pyrrolidone carboxylate alongside penetration enhancers.[4]"
+    "No clinical trial found tests sodium PCA alone for appearance outcomes.",
+    "A 2016 pilot study enrolled 25 adults aged 18 and over with mild-to-moderate eczema, who replaced their topical treatments with a study moisturizer three times daily for two weeks. The product contained dimethicone, shea butter, glycerin, sodium PCA, sodium hyaluronate, ceramides, allantoin and bisabolol, and the authors reported statistically significant improvements by investigator, subject and instrument assessments; the effect cannot be assigned to sodium PCA specifically.[3]",
+    "The Cosmetic Ingredient Review panel's 2019 safety assessment reviewed existing data on PCA and its salts, building on a 1999 report on PCA and sodium PCA.[2] Laboratory research includes a 1995 study of lipid ordering in skin treated with sodium pyrrolidone carboxylate alongside penetration enhancers[4] and a 2025 study of a pyrrolidone carboxylic acid complex designed for delivery to human stratum corneum.[6]"
    ]
   }
  ],
@@ -79,6 +82,22 @@
    "source": "Biomed Mater Eng",
    "year": 1995,
    "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Pyroglutamic acid (biochemistry, discovery, acidosis)",
+   "url": "https://en.wikipedia.org/wiki/Pyroglutamic_acid",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 6,
+   "title": "Novel design of pyrrolidonecarboxylic acid and sodium dilauramidoglutamide lysine complex for targeted drug delivery to human stratum corneum",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40187708/",
+   "source": "Int J Pharm",
+   "year": 2025,
+   "type": "study"
   }
  ],
  "webSources": [
@@ -101,5 +120,15 @@
   "overview": "Sodium PCA is a humectant found in many moisturizers, toners and hair products. It is the sodium salt of a compound the skin makes naturally as part of its moisture-retaining system.\n\nIt is rarely studied on its own, so evidence is mostly its safety review and its role in skin biology.",
   "mechanism": "As a humectant it binds water. Pyroglutamic acid is a component of the skin's natural moisturizing factor, which is the basis for its use in dry-skin products.",
   "risks": "Wikipedia describes it as low in toxicity and not a skin irritant. The Cosmetic Ingredient Review panel has reassessed PCA and its salts for cosmetic use."
+ },
+ "angle": {
+  "goal": "Skin hydration",
+  "chain": [
+   "Sodium PCA binds water at the skin surface",
+   "Stratum corneum holds more moisture",
+   "Softer, plumper-looking, less flaky skin"
+  ],
+  "effect": "direct",
+  "text": "Sodium PCA is included in moisturizers, toners and hair products to draw water into the outer skin layer, which people use to make dry skin look and feel smoother. It mimics a component of the skin's own natural moisturizing factor."
  }
 }

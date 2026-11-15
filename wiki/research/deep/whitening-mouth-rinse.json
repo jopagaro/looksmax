@@ -1,23 +1,219 @@
 {
-"name":"Whitening mouth rinse",
-"lead":["Whitening mouth rinses are over-the-counter mouthwashes containing a peroxide intended to lighten tooth colour or reduce stain. Wikipedia lists rinses among at-home whitening methods, describing use twice daily for one minute each time, with visible results that can take up to three months.[1]","Evidence available for this article consists mostly of laboratory studies, case reports and product analyses rather than clinical trials of cosmetic whitening."],
-"infobox":[["Type","Peroxide-containing mouthwash"],["Contact time","About one minute per use (Wikipedia)[1]"],["Time to result","Up to about three months[1]"]],
-"sections":[
-{"h":"Description","paras":["Whitening rinses are swished in the mouth rather than held against the teeth, so peroxide contact time is brief compared with strips or trays.[1] Wikipedia lists rinses alongside strips, brush-on gels and trays as home options.[1] A laboratory study of whitening rinses tested a peroxide product (Rembrandt Plus) against alcohol-containing and alcohol-free mouthwashes.[2]"]},
-{"h":"Clinical studies","paras":["No studies found. Related laboratory work: studies have examined how whitening rinses affect the surface hardness, gloss and colour of bleached composite resin, bulk-fill composites, and composite aligner attachments stained with coffee and wine.[2][3][4] A laboratory analysis of 16 commercial whitening products also compared the real and declared concentrations of hydrogen peroxide.[5]"]},
-{"h":"Safety","paras":["A case report described a chemical burn to the gum after misuse of an over-the-counter whitening mouthwash.[6] Wikipedia notes that hydrogen peroxide at 10 percent or more can cause chemical burns, and that EU retail products are limited to 0.1 percent hydrogen peroxide.[1]"]}
-],
-"timeline":[],
-"lore":null,
-"refs":[
-{"id":1,"title":"Tooth whitening","url":"https://en.wikipedia.org/wiki/Tooth_whitening","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":2,"title":"The effect of three different mouthrinses on the surface hardness, gloss and colour change of bleached nano composite resins","url":"https://pubmed.ncbi.nlm.nih.gov/19051551/","source":"Eur J Prosthodont Restor Dent","year":2008,"type":"study"},
-{"id":3,"title":"Effect of bleaching protocols on surface roughness and color change of high- and low-viscosity bulk-fill composite resins","url":"https://pubmed.ncbi.nlm.nih.gov/32920607/","source":"Acta Odontologica Latinoamericana","year":2020,"type":"study"},
-{"id":4,"title":"The Effect of Whitening Agents (Whitening Rinse and Carbamide Peroxide) on Stained Flowable and Packable Composite Aligner Attachments","url":"https://pubmed.ncbi.nlm.nih.gov/40184006/","source":"Clinical Oral Investigations","year":2025,"type":"study"},
-{"id":5,"title":"In vitro evaluation of variances between real and declared concentration of hydrogen peroxide in various tooth-whitening products","url":"https://pubmed.ncbi.nlm.nih.gov/25342283/","source":"Acta Odontologica Scandinavica","year":2015,"type":"study"},
-{"id":6,"title":"Chemical burn to the gingiva after misuse of an over-the-counter oral whitening mouthwash","url":"https://pubmed.ncbi.nlm.nih.gov/28068263/","source":"General Dentistry","year":2017,"type":"study"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Tooth_whitening","title":"Tooth whitening"}],
-"card":{"summary":"Peroxide mouthwash marketed for gradual stain lightening; the evidence base is mainly lab work and slow results are described.","aka":null,"evidence":"limited","outcome":"temporary","price":null,"note":"Brief contact time; one case report of a gum burn after misuse.","structure":null},
-"quick":{"overview":"Whitening rinses are peroxide mouthwashes sold over the counter. Wikipedia describes use twice daily for a minute each, with visible results taking up to three months.\n\nNo clinical trials were found in the research behind this entry; most published work tests how rinses affect dental materials in the laboratory.","mechanism":"A peroxide in the rinse oxidises stain molecules, but contact with the teeth is short compared with strips or trays.","risks":"One case report documents a chemical gum burn after misuse. Peroxide at 10 percent or more is described as able to burn tissue, and EU retail products are limited to 0.1 percent hydrogen peroxide."}
+  "name": "Whitening mouth rinse",
+  "lead": [
+    "Whitening mouth rinses are over-the-counter mouthwashes, usually containing a low concentration of peroxide or other whitening agents, intended to lighten tooth colour and reduce surface stain. People use them as the lowest-effort way to brighten a smile: swish for about a minute, twice a day, as an add-on to brushing, or to help hold a shade after stronger whitening.[1][6] Wikipedia lists rinses alongside strips, brush-on gels, whitening toothpastes and trays as at-home options, with rinses used twice daily for one minute and visible improvement taking up to three months.[1]",
+    "Tooth whitening in general works by chemically breaking down chromogens, the colour-causing compounds in or on the tooth; hydrogen peroxide, or carbamide peroxide which releases it in water, is the main active ingredient, and its free radicals split pigment molecules into smaller, less coloured pieces.[1] Because a rinse is swished rather than held against the teeth, peroxide contact time is brief compared with strips or trays.[1]",
+    "Evidence for rinses consists mostly of laboratory studies on extracted or bovine teeth and restorative materials, plus case reports and product analyses, rather than clinical trials of cosmetic whitening."
+  ],
+  "angle": {
+    "goal": "Teeth",
+    "chain": [
+      "Rinse delivers a low dose of peroxide or whitening agent for about a minute",
+      "Surface stain and chromogens are gradually reduced",
+      "Lighter-looking teeth, or a held shade after bleaching"
+    ],
+    "effect": "direct",
+    "text": "A whitening rinse applies a whitening agent to all tooth surfaces during a one-minute swish. People use it to lighten teeth gradually and to keep stain from building back up after stronger treatments."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Peroxide-containing or phosphate-based mouthwash"
+    ],
+    [
+      "Contact time",
+      "About one minute per use[1]"
+    ],
+    [
+      "Frequency",
+      "Twice daily per Wikipedia's description[1]"
+    ],
+    [
+      "Time to result",
+      "Up to about three months[1]"
+    ],
+    [
+      "EU retail limit",
+      "0.1% hydrogen peroxide[1]"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Description",
+      "paras": [
+        "Whitening rinses are swished in the mouth rather than held against the teeth, so peroxide contact time is brief compared with strips or trays.[1] Wikipedia describes strips as typically used twice daily for 30 minutes over 14 days and trays as worn overnight or for two to four hours a day, in contrast to the one-minute rinse.[1] Whitening toothpastes rely more on abrasives and detergents, with some containing low-concentration peroxide.[1]",
+        "A laboratory study of whitening rinses tested a peroxide product (Rembrandt Plus) against alcohol-containing and alcohol-free mouthwashes on bleached composite resin.[2] Other formulations use phosphates or hydroxyapatite rather than peroxide; an in vitro study compared a hydroxyapatite gel with a phosphate-containing whitening rinse and distilled water on enamel samples.[7]"
+      ]
+    },
+    {
+      "h": "Effectiveness",
+      "paras": [
+        "In a 2017 in vitro study, 120 stained bovine enamel-dentin specimens were whitened or not with 10% carbamide peroxide and then cycled through staining and rinsing for 12 weeks; groups using two commercial whitening rinses showed greater colour change than controls, while a bromelain-papain rinse resembled deionized water.[8] A study using bovine teeth bleached with 22% carbamide peroxide found that whitening toothpaste plus whitening rinse maintained colour better than the control after simulated toothbrushing and rinsing, and that perceived whitening was greater than the measured colour change.[9]",
+        "In a human-enamel study, a whitening rinse used alone, and in combination with 38% hydrogen peroxide or 10% carbamide peroxide, produced statistically significant colour change versus control; other groups also showed decreases in microhardness and increases in roughness, though the rinse-only group did not decrease microhardness.[10] A comparison of four over-the-counter products with a dentist-prescribed home system also examined microhardness, roughness, colour and bond strength.[11] A laboratory analysis of 16 commercial whitening products compared real and declared hydrogen peroxide concentrations.[5]"
+      ]
+    },
+    {
+      "h": "Use in practice",
+      "paras": [
+        "Wikipedia places rinses among the at-home options alongside strips, brush-on gels, whitening toothpastes and trays, with rinses typically used twice daily for one minute and visible improvement described as taking up to three months.[1] Because they are easy to add to a routine, people also use them as maintenance after stronger whitening; a 2022 bovine-tooth study found that whitening toothpaste plus whitening rinse maintained colour after bleaching better than control.[9] A 2017 operative dentistry study examined rinses used alone and together with carbamide peroxide home whitening.[8]"
+      ]
+    },
+    {
+      "h": "Professional and regulatory context",
+      "paras": [
+        "The UK National Health Service says whitening chemicals are very strong and should only be used or sold by dental professionals, recommends dental surgeries over beauty salons, and describes dentist-prescribed tray kits worn for around two to six weeks, with an effect that may last around three years with dentist advice; the page does not discuss whitening mouthwashes.[12] It lists tooth sensitivity, sore gums or throat and white patches on the gums as possible side effects of professional whitening.[12] Wikipedia describes retail limits of 0.1 percent hydrogen peroxide in the EU, with higher concentrations allowed under dental supervision, and the US FDA as endorsing gels up to 6 percent hydrogen peroxide.[1]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found of whitening mouth rinses in clinical trials on volunteers. Related laboratory work has examined how whitening rinses affect the surface hardness, gloss and colour of bleached composite resin, bulk-fill composites, and composite aligner attachments stained with coffee and wine.[2][3][4] The enamel and bovine-tooth studies above are in vitro."
+      ]
+    },
+    {
+      "h": "Safety",
+      "paras": [
+        "A case report described a chemical burn to the gum after misuse of an over-the-counter whitening mouthwash.[6] Wikipedia notes that hydrogen peroxide at 10 percent or more can cause chemical burns, and that EU retail products are limited to 0.1 percent hydrogen peroxide, with up to 6 percent allowed under dental professional supervision.[1] Tooth sensitivity is described as the most common side effect of whitening, with home bleaching following manufacturer instructions causing less than in-office bleaching, and gum irritation and rebound shade loss as teeth rehydrate are also listed.[1] The US FDA is described as endorsing gels up to 6 percent hydrogen peroxide or 16 percent or less carbamide peroxide.[1]"
+      ]
+    },
+    {
+      "h": "History and society",
+      "paras": [
+        "Wikipedia traces whitening from ancient Roman urine-and-goat-milk preparations through acid treatments in the late 17th century, a Pyrozone mouthwash in the late 1920s, and peroxide gels in the 1940s and 1950s, with custom tray bleaching introduced by Dr William Klusmeier in the late 1960s.[1] More than 100 million Americans are reported to have used whitening methods, with spending of about $15 billion in 2010.[1]"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1920s",
+      "event": "Pyrozone mouthwash appears in the late 1920s.[1]"
+    },
+    {
+      "year": "1960s",
+      "event": "Custom tray bleaching introduced by Dr William Klusmeier.[1]"
+    }
+  ],
+  "lore": null,
+  "refs": [
+    {
+      "id": 1,
+      "title": "Tooth whitening",
+      "url": "https://en.wikipedia.org/wiki/Tooth_whitening",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "The effect of three different mouthrinses on the surface hardness, gloss and colour change of bleached nano composite resins",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19051551/",
+      "source": "Eur J Prosthodont Restor Dent",
+      "year": 2008,
+      "type": "study"
+    },
+    {
+      "id": 3,
+      "title": "Effect of bleaching protocols on surface roughness and color change of high- and low-viscosity bulk-fill composite resins",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32920607/",
+      "source": "Acta Odontologica Latinoamericana",
+      "year": 2020,
+      "type": "study"
+    },
+    {
+      "id": 4,
+      "title": "The Effect of Whitening Agents (Whitening Rinse and Carbamide Peroxide) on Stained Flowable and Packable Composite Aligner Attachments",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40184006/",
+      "source": "Clinical Oral Investigations",
+      "year": 2025,
+      "type": "study"
+    },
+    {
+      "id": 5,
+      "title": "In vitro evaluation of variances between real and declared concentration of hydrogen peroxide in various tooth-whitening products",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25342283/",
+      "source": "Acta Odontologica Scandinavica",
+      "year": 2015,
+      "type": "study"
+    },
+    {
+      "id": 6,
+      "title": "Chemical burn to the gingiva after misuse of an over-the-counter oral whitening mouthwash",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28068263/",
+      "source": "General Dentistry",
+      "year": 2017,
+      "type": "study"
+    },
+    {
+      "id": 7,
+      "title": "In Vitro Whitening Effect of a Hydroxyapatite-Based Oral Care Gel",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32791529/",
+      "source": "European Journal of Dentistry",
+      "year": 2020,
+      "type": "study"
+    },
+    {
+      "id": 8,
+      "title": "Whitening Efficacy of Whitening Mouth Rinses Used Alone or in Conjunction With Carbamide Peroxide Home Whitening",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28157418/",
+      "source": "Operative Dentistry",
+      "year": 2017,
+      "type": "study"
+    },
+    {
+      "id": 9,
+      "title": "Over-the-counter bleaching agents can help with tooth whitening maintenance",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32627389/",
+      "source": "Journal of Esthetic and Restorative Dentistry",
+      "year": 2022,
+      "type": "study"
+    },
+    {
+      "id": 10,
+      "title": "Evaluation of the effects of whitening mouth rinses combined with conventional tooth bleaching treatments",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30834228/",
+      "source": "Restorative Dentistry & Endodontics",
+      "year": 2019,
+      "type": "study"
+    },
+    {
+      "id": 11,
+      "title": "Effects of Different Over-the-Counter Whitening Products on the Microhardness, Surface Roughness, Color and Shear Bond Strength of Enamel",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35821723/",
+      "source": "Acta Stomatologica Croatica",
+      "year": 2022,
+      "type": "study"
+    },
+    {
+      "id": 12,
+      "title": "Teeth whitening (NHS)",
+      "url": "https://www.nhs.uk/conditions/teeth-whitening/",
+      "source": "NHS",
+      "year": 2025,
+      "type": "guideline"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Tooth_whitening",
+      "title": "Tooth whitening (Wikipedia)"
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/teeth-whitening/",
+      "title": "Teeth whitening - NHS"
+    }
+  ],
+  "card": {
+    "summary": "Peroxide mouthwash marketed for gradual stain lightening; the evidence base is mainly lab work and slow results are described.",
+    "aka": null,
+    "evidence": "limited",
+    "outcome": "temporary",
+    "price": null,
+    "note": "Brief contact time; one case report of a gum burn after misuse.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "Whitening rinses are peroxide mouthwashes sold over the counter. Wikipedia describes use twice daily for a minute each, with visible results taking up to three months.\n\nNo clinical trials were found in the research behind this entry; most published work tests how rinses affect dental materials in the laboratory.",
+    "mechanism": "A peroxide in the rinse oxidises stain molecules, but contact with the teeth is short compared with strips or trays.",
+    "risks": "One case report documents a chemical gum burn after misuse. Peroxide at 10 percent or more is described as able to burn tissue, and EU retail products are limited to 0.1 percent hydrogen peroxide."
+  }
 }

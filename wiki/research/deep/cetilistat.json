@@ -1,29 +1,311 @@
 {
-"name":"Cetilistat",
-"lead":["Cetilistat (ATL-962) is a pancreatic lipase inhibitor developed as an anti-obesity drug. Like orlistat, it blocks intestinal enzymes that break down dietary fat, so some ingested fat is excreted rather than absorbed.[1][2]","It completed Phase 1 and 2 trials in Western countries and was developed in Japan with Takeda, which reportedly obtained approval to market it there. Takeda ended its license with Norgine in 2018.[1]","Phase 2 trials reported weight loss in obese patients and, in people with type 2 diabetes, weight and HbA1c reductions with tolerability described as comparable to or better than orlistat.[3][4] It does not have broad international availability."],
-"infobox":[["Drug class","Pancreatic lipase inhibitor"],["Route","Oral"],["Code name","ATL-962"],["Developers","Alizyme; Takeda (Japan); Norgine (rights)"],["Comparator","Orlistat"],["Status","Marketed in Japan per Wikipedia; not broadly approved elsewhere"]],
-"sections":[
-{"h":"Clinical studies","paras":["A phase II, multicentre, randomized, placebo-controlled 12-week study of 442 obese patients (371 randomized after a hypocaloric diet run-in) examined cetilistat's efficacy, safety and tolerability.[3] A 12-week trial in obese patients with type 2 diabetes on metformin compared cetilistat at three doses with orlistat and placebo; the primary endpoint was body weight change, and secondary endpoints included other obesity measures.[4] Wikipedia summarises the 2007 study as showing weight loss similar to orlistat, and the 2010 trial as showing significant weight reduction, HbA1c reduction and better tolerability than orlistat.[1]","Registered phase 1 and 2 trials (NCT00148382, NCT00156897) examined fat excretion and efficacy in obese diabetics.[5][6] Reviews of obesity drugs in development have described cetilistat among the lipase inhibitors beyond orlistat.[7][8] A study in rats reported reduced body weight gain and improved lipid profiles.[9]"]},
-{"h":"Adverse effects","paras":["Reported effects mirror orlistat: oily or loose stools, fecal incontinence, frequent bowel movements and flatulence. Because fat-soluble vitamin absorption may also be reduced, supplementation may be needed to prevent deficiencies.[1]"]},
-{"h":"Pharmacology","paras":["Cetilistat inhibits gastrointestinal lipases, preventing hydrolysis of dietary triglycerides, so unabsorbed fat is excreted.[1][3]"]},
-{"h":"History","paras":["Alizyme developed the drug and went into administration; Norgine BV then acquired the global rights. By 2009 it was in Phase 3 trials in Japan with Takeda.[1]"]},
-{"h":"Research","paras":["A 2020 screening study of approved drugs identified cetilistat as having anti-SARS-CoV-2 activity in vitro.[10] This is unrelated to its weight-loss use."]}
-],
-"timeline":[{"year":"2007","event":"12-week phase II placebo-controlled trial published.[3]"},{"year":"2009","event":"Phase 3 trials under way in Japan with Takeda.[1]"},{"year":"2010","event":"Phase 2 trial in obese diabetics versus orlistat published.[4]"},{"year":"2018","event":"Takeda ends license agreement with Norgine.[1]"}],
-"lore":null,
-"card":{"summary":"An orlistat-style fat-blocking pill with phase 2 data and limited availability outside Japan.","aka":"ATL-962","evidence":"moderate","status":"rx","risk":null,"price":null,"note":"Fat-blocker with orlistat-like GI side effects; not broadly approved.","structure":"Cetilistat"},
-"quick":{"overview":"Cetilistat is a drug that blocks fat-digesting enzymes so some dietary fat passes out of the body. Phase 2 trials reported weight loss, with side effects similar to orlistat but possibly better tolerated.\n\nIt was developed by Alizyme, Takeda and Norgine and is reportedly approved in Japan.","mechanism":"It inhibits pancreatic and gastrointestinal lipases, so triglycerides are not broken down and absorbed.","risks":"Side effects are digestive (oily stools, urgency, flatulence), and fat-soluble vitamin absorption may be reduced. It is not widely available."},
-"refs":[
-{"id":1,"title":"Cetilistat","url":"https://en.wikipedia.org/wiki/Cetilistat","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":2,"title":"Future Pharmacotherapy for Obesity: New Anti-obesity Drugs on the Horizon","url":"https://pubmed.ncbi.nlm.nih.gov/29504049/","source":"Current Obesity Reports","year":2018,"type":"review"},
-{"id":3,"title":"Cetilistat (ATL-962), a novel lipase inhibitor: a 12-week randomized, placebo-controlled study of weight reduction in obese patients","url":"https://pubmed.ncbi.nlm.nih.gov/16953261/","source":"Int J Obes","year":2007,"type":"trial"},
-{"id":4,"title":"Weight loss, HbA1c reduction, and tolerability of cetilistat in a randomized, placebo-controlled phase 2 trial in obese diabetics: comparison with orlistat","url":"https://pubmed.ncbi.nlm.nih.gov/19461584/","source":"Obesity","year":2010,"type":"trial"},
-{"id":5,"title":"Study of the Blood Levels and Effects of ATL-962 on Fat Excretion in Obese Subjects (NCT00148382)","url":"https://clinicaltrials.gov/study/NCT00148382","source":"ClinicalTrials.gov","year":2005,"type":"trial"},
-{"id":6,"title":"Efficacy and Safety of ATL-962 in Obese Diabetics (NCT00156897)","url":"https://clinicaltrials.gov/study/NCT00156897","source":"ClinicalTrials.gov","year":2004,"type":"trial"},
-{"id":7,"title":"New and emerging drug molecules against obesity","url":"https://pubmed.ncbi.nlm.nih.gov/24064009/","source":"J Cardiovasc Pharmacol Ther","year":2014,"type":"review"},
-{"id":8,"title":"Obesity drugs in clinical development","url":"https://pubmed.ncbi.nlm.nih.gov/16625817/","source":"Curr Opin Investig Drugs","year":2006,"type":"review"},
-{"id":9,"title":"Cetilistat (ATL-962), a novel pancreatic lipase inhibitor, ameliorates body weight gain and improves lipid profiles in rats","url":"https://pubmed.ncbi.nlm.nih.gov/18500680/","source":"Horm Metab Res","year":2008,"type":"study"},
-{"id":10,"title":"Discovery of the FDA-approved drugs bexarotene, cetilistat, diiodohydroxyquinoline, and abiraterone as potential COVID-19 treatments","url":"https://pubmed.ncbi.nlm.nih.gov/32473310/","source":"Pharmacological Research","year":2020,"type":"study"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Cetilistat","title":"Cetilistat - Wikipedia"}]
+ "name": "Cetilistat",
+ "lead": [
+  "Cetilistat (ATL-962) is a pancreatic lipase inhibitor developed as an anti-obesity drug. Like orlistat, it blocks intestinal enzymes that break down dietary fat, so some ingested fat is excreted rather than absorbed.[1][2]",
+  "It completed Phase 1 and 2 trials in Western countries and was developed in Japan with Takeda, which reportedly obtained approval to market it there. Takeda ended its license with Norgine in 2018.[1]",
+  "Phase 2 trials reported weight loss in obese patients and, in people with type 2 diabetes, weight and HbA1c reductions with tolerability described as comparable to or better than orlistat.[3][4] It does not have broad international availability.",
+  "Pancreatic lipase breaks down roughly half or more of dietary triglyceride in the gut, which is why blocking it changes how much fat reaches the bloodstream.[14] Cetilistat belongs to this class and has been described in reviews as a candidate alongside orlistat.[4][12]"
+ ],
+ "infobox": [
+  [
+   "Drug class",
+   "Pancreatic lipase inhibitor"
+  ],
+  [
+   "Route",
+   "Oral"
+  ],
+  [
+   "Code name",
+   "ATL-962"
+  ],
+  [
+   "Developers",
+   "Alizyme; Takeda (Japan); Norgine (rights)"
+  ],
+  [
+   "Comparator",
+   "Orlistat"
+  ],
+  [
+   "Status",
+   "Marketed in Japan per Wikipedia; not broadly approved elsewhere"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Uses",
+   "subs": [
+    {
+     "h": "Cosmetic / appearance uses",
+     "paras": [
+      "In looksmaxxing and weight-management discussions, fat blockers are mentioned as a way to lower the calories absorbed from a meal and so support a leaner physique alongside diet and training. Cetilistat appears in these conversations mainly as a lesser-known relative of orlistat that is not marketed in most countries, so it is discussed far less than orlistat itself."
+     ]
+    },
+    {
+     "h": "Medical uses",
+     "paras": [
+      "Its developed indication is obesity, including obesity with type 2 diabetes, where trials tracked body weight and HbA1c.[4][5] Reviews of new anti-obesity drugs have listed it among agents with a prospect of approval and noted that adverse events with these drugs were rather rare and tended to decrease with treatment duration.[15]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Chemistry",
+   "paras": [
+    "Cetilistat is a benzoxazinone derivative, chemically 2-(hexadecyloxy)-6-methyl-4H-3,1-benzoxazin-4-one, with a long sixteen-carbon ether chain attached to the ring and the molecular formula C25H39NO3 (molar mass about 401.6 g/mol). It is also known by its development code ATL-962.[1] The long lipid-like chain suits a molecule that works in the fatty environment of the gut, and a rat study reported that cetilistat inhibited human pancreatic lipase roughly nine times more potently than it inhibited rat lipase.[9]"
+   ]
+  },
+  {
+   "h": "How it compares with orlistat",
+   "paras": [
+    "Orlistat, the reference drug in this class, was approved by the US FDA as Xenical in April 1999, became available over the counter as the half-strength Alli in June 2007, and was cleared for non-prescription sale in the EU in January 2009; it is reported to block absorption of roughly 30 percent of dietary fat.[16] Pooled trial data summarised by Wikipedia show about 2 to 3 kg more weight loss than control over a year when combined with diet and exercise.[16]",
+    "Cetilistat works through the same mechanism. In the 2007 twelve-week placebo-controlled trial, weight loss was reported as similar to what is seen with orlistat, with side effects also similar, and in the 2010 trial in obese people with type 2 diabetes cetilistat was reported to reduce weight and HbA1c and to be better tolerated than orlistat.[1][3][4] The practical difference most discussed in the literature is tolerability, since oily stools and urgency are the main reason people stop lipase inhibitors; for orlistat, Wikipedia notes that these effects are strongest at the start and tend to lessen over time, and that limiting fat to about 15 g per meal reduces oily stools and flatulence.[16]"
+   ]
+  },
+  {
+   "h": "Effect on appearance",
+   "paras": [
+    "The appearance goal is a lower body-fat percentage, visible as a leaner waist, face and jawline. Lipase inhibitors contribute indirectly: fat that is not absorbed is not stored, so total calories absorbed fall when meals contain fat, and in trials this is measured as body-weight change.[3][4] Researchers note that the drugs act on absorption only and do not change appetite, so reviews place them as one option alongside diet, exercise and other medications.[2][7]",
+    "After the drug is stopped, regain is documented for the class: Wikipedia reports that up to 35 percent of lost weight was regained after orlistat treatment ended.[16]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A phase II, multicentre, randomized, placebo-controlled 12-week study of 442 obese patients (371 randomized after a hypocaloric diet run-in) examined cetilistat's efficacy, safety and tolerability.[3] A 12-week trial in obese patients with type 2 diabetes on metformin compared cetilistat at three doses with orlistat and placebo; the primary endpoint was body weight change, and secondary endpoints included other obesity measures.[4] Wikipedia summarises the 2007 study as showing weight loss similar to orlistat, and the 2010 trial as showing significant weight reduction, HbA1c reduction and better tolerability than orlistat.[1]",
+    "Registered phase 1 and 2 trials (NCT00148382, NCT00156897) examined fat excretion and efficacy in obese diabetics.[5][6] Reviews of obesity drugs in development have described cetilistat among the lipase inhibitors beyond orlistat.[7][8] A study in rats reported reduced body weight gain and improved lipid profiles.[9]",
+    "In the 12-week obese-diabetic trial, participants were randomized to placebo, one of three cetilistat doses taken three times daily with meals, or orlistat, after a two-week run-in; the primary endpoint was absolute body-weight change.[4] The registered phase 2 trial of this design enrolled about 600 people, and the phase 1 fat-excretion study about 80.[5][6]"
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "paras": [
+    "Reported effects mirror orlistat: oily or loose stools, fecal incontinence, frequent bowel movements and flatulence. Because fat-soluble vitamin absorption may also be reduced, supplementation may be needed to prevent deficiencies.[1]"
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "paras": [
+    "Cetilistat inhibits gastrointestinal lipases, preventing hydrolysis of dietary triglycerides, so unabsorbed fat is excreted.[1][3]",
+    "Pancreatic lipase hydrolyses dietary triacylglycerol into absorbable free fatty acids; inhibiting it leaves triglyceride intact and it passes through the gut.[14] In a rat study, cetilistat inhibited human pancreatic lipase roughly nine times more potently than the rat enzyme, with an IC50 of about 6 nmol/l for the human enzyme.[9] A randomized study in healthy volunteers measured reduced dietary fat absorption with cetilistat compared with orlistat.[11] The drug acts in the gut lumen rather than through the brain, which distinguishes it from appetite-suppressing obesity drugs.[7]"
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Alizyme developed the drug and went into administration; Norgine BV then acquired the global rights. By 2009 it was in Phase 3 trials in Japan with Takeda.[1]"
+   ]
+  },
+  {
+   "h": "Research",
+   "paras": [
+    "A 2020 screening study of approved drugs identified cetilistat as having anti-SARS-CoV-2 activity in vitro.[10] This is unrelated to its weight-loss use."
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "subs": [
+    {
+     "h": "Availability",
+     "paras": [
+      "Cetilistat has been marketed in Japan according to Wikipedia, and has not received broad approval elsewhere, so people outside Japan cannot ordinarily obtain it through standard prescribing.[1] Orlistat, its comparator, is the lipase inhibitor available over the counter and by prescription in many countries."
+     ]
+    }
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1999",
+   "event": "Orlistat, the first drug in this class, is approved by the FDA as Xenical. [16]"
+  },
+  {
+   "year": "2007",
+   "event": "12-week phase II placebo-controlled trial of cetilistat published. [3]"
+  },
+  {
+   "year": "2009",
+   "event": "Phase 3 trials under way in Japan with Takeda; Norgine holds global rights after Alizyme enters administration. [1]"
+  },
+  {
+   "year": "2010",
+   "event": "Phase 2 trial in obese diabetics versus orlistat published, reporting weight and HbA1c reduction. [4]"
+  },
+  {
+   "year": "2018",
+   "event": "Takeda ends its license agreement with Norgine. [1]"
+  },
+  {
+   "year": "2020",
+   "event": "A drug-repurposing screen identifies cetilistat as active against SARS-CoV-2 in vitro. [10]"
+  }
+ ],
+ "lore": null,
+ "card": {
+  "summary": "An orlistat-style fat-blocking pill with phase 2 data and limited availability outside Japan.",
+  "aka": "ATL-962",
+  "evidence": "moderate",
+  "status": "rx",
+  "risk": null,
+  "price": null,
+  "note": "Fat-blocker with orlistat-like GI side effects; not broadly approved.",
+  "structure": "Cetilistat"
+ },
+ "quick": {
+  "overview": "Cetilistat is a drug that blocks fat-digesting enzymes so some dietary fat passes out of the body. Phase 2 trials reported weight loss, with side effects similar to orlistat but possibly better tolerated.\n\nIt was developed by Alizyme, Takeda and Norgine and is reportedly approved in Japan.",
+  "mechanism": "It inhibits pancreatic and gastrointestinal lipases, so triglycerides are not broken down and absorbed.",
+  "risks": "Side effects are digestive (oily stools, urgency, flatulence), and fat-soluble vitamin absorption may be reduced. It is not widely available."
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Cetilistat",
+   "url": "https://en.wikipedia.org/wiki/Cetilistat",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Future Pharmacotherapy for Obesity: New Anti-obesity Drugs on the Horizon",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29504049/",
+   "source": "Current Obesity Reports",
+   "year": 2018,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Cetilistat (ATL-962), a novel lipase inhibitor: a 12-week randomized, placebo-controlled study of weight reduction in obese patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16953261/",
+   "source": "Int J Obes",
+   "year": 2007,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "Weight loss, HbA1c reduction, and tolerability of cetilistat in a randomized, placebo-controlled phase 2 trial in obese diabetics: comparison with orlistat",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19461584/",
+   "source": "Obesity",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "Study of the Blood Levels and Effects of ATL-962 on Fat Excretion in Obese Subjects (NCT00148382)",
+   "url": "https://clinicaltrials.gov/study/NCT00148382",
+   "source": "ClinicalTrials.gov",
+   "year": 2005,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Efficacy and Safety of ATL-962 in Obese Diabetics (NCT00156897)",
+   "url": "https://clinicaltrials.gov/study/NCT00156897",
+   "source": "ClinicalTrials.gov",
+   "year": 2004,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "New and emerging drug molecules against obesity",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24064009/",
+   "source": "J Cardiovasc Pharmacol Ther",
+   "year": 2014,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "Obesity drugs in clinical development",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16625817/",
+   "source": "Curr Opin Investig Drugs",
+   "year": 2006,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "Cetilistat (ATL-962), a novel pancreatic lipase inhibitor, ameliorates body weight gain and improves lipid profiles in rats",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18500680/",
+   "source": "Horm Metab Res",
+   "year": 2008,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Discovery of the FDA-approved drugs bexarotene, cetilistat, diiodohydroxyquinoline, and abiraterone as potential COVID-19 treatments",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32473310/",
+   "source": "Pharmacological Research",
+   "year": 2020,
+   "type": "study"
+  },
+  {
+   "title": "Reduction of dietary fat absorption by the novel gastrointestinal lipase inhibitor cetilistat in healthy volunteers",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19220279/",
+   "source": "Br J Clin Pharmacol",
+   "year": 2009,
+   "type": "trial",
+   "id": 11
+  },
+  {
+   "title": "Cetilistat for the treatment of obesity",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24524093/",
+   "source": "Drugs of Today",
+   "year": 2013,
+   "type": "review",
+   "id": 12
+  },
+  {
+   "title": "Cetilistat, a new lipase inhibitor for the treatment of obesity",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18393108/",
+   "source": "Curr Opin Investig Drugs",
+   "year": 2008,
+   "type": "review",
+   "id": 13
+  },
+  {
+   "title": "Pancreatic lipase and its related proteins: where are we now?",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38081381/",
+   "source": "Drug Discovery Today",
+   "year": 2024,
+   "type": "review",
+   "id": 14
+  },
+  {
+   "title": "Overview of new antiobesity drugs",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25100293/",
+   "source": "Expert Opin Pharmacother",
+   "year": 2014,
+   "type": "review",
+   "id": 15
+  },
+  {
+   "title": "Orlistat",
+   "url": "https://en.wikipedia.org/wiki/Orlistat",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia",
+   "id": 16
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Cetilistat",
+   "title": "Cetilistat - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Orlistat",
+   "title": "Orlistat"
+  }
+ ],
+ "angle": {
+  "goal": "Body fat / leanness",
+  "chain": [
+   "Blocks fat-digesting lipase in the gut",
+   "Some dietary fat is excreted unabsorbed",
+   "Lower calorie absorption supports weight loss",
+   "Leaner body composition"
+  ],
+  "effect": "indirect",
+  "text": "Cetilistat is used in obesity treatment, where lower fat absorption contributes to weight loss. People interested in a leaner look encounter it as an orlistat-style fat blocker; the appearance payoff comes through reduced body weight rather than any direct effect on tissue."
+ }
 }

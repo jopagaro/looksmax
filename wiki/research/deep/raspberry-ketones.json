@@ -12,13 +12,14 @@
   "structure": "Raspberry ketone"
  },
  "quick": {
-  "overview": "Raspberry ketone is the main aroma molecule of red raspberries and is widely used as a flavouring and in perfumery. Supplements containing it, usually made synthetically, are marketed as fat burners.\n\nResearch on its weight-loss effect is mostly in rodents and cell cultures. Encyclopedic summaries state that no clinical evidence of weight loss in humans has been established.",
-  "mechanism": "Proponents say it boosts fat breakdown and raises adiponectin or norepinephrine signalling. Laboratory studies in obese rats have reported changes in lipid levels, insulin resistance and adipose-tissue gene expression, including the water-and-glycerol channel aquaporin 7. A small registered human study (NCT06681597) examined circulating FGF21 and energy expenditure, but its results are not described in the sources available.",
+  "overview": "Raspberry ketone is the main aroma molecule of red raspberries and is widely used as a flavouring and in perfumery. Supplements containing it, usually made synthetically, are marketed as fat burners.\nResearch on its weight-loss effect is mostly in rodents and cell cultures. Encyclopedic summaries state that no clinical evidence of weight loss in humans has been established.",
+  "mechanism": "Proponents say it boosts fat breakdown and raises adiponectin or norepinephrine signalling. Laboratory studies in obese rats have reported changes in lipid levels, insulin resistance and adipose-tissue gene expression, including the water-and-glycerol channel aquaporin 7. A small registered human study (NCT06681597) examined circulating FGF21 and energy expenditure; its results are not described.",
   "risks": "The US FDA classed raspberry ketone as generally recognised as safe only as a food flavouring in tiny amounts. Safety of supplement-level intake in people is poorly characterised. Case reports describe coronary vasospasm and ventricular tachycardia in people taking raspberry ketone weight-loss products, and a 2015 toxicology paper and a Danish university warning raised concerns about supplement use."
  },
  "lead": [
   "Raspberry ketone (4-(4-hydroxyphenyl)butan-2-one, also called rheosmin or frambinone) is a phenolic compound that gives red raspberries much of their characteristic smell. It also occurs in cranberries and blackberries, and is used in perfumery, cosmetics and as a food flavouring. [1]",
   "Because raspberries contain only a few milligrams per kilogram, commercial supplements generally rely on synthetically produced raspberry ketone. [1] Products are marketed for weight loss and fat burning, a use that grew from rodent studies on adipose tissue and lipid metabolism. [2]",
+  "For appearance, the draw is body composition: people who are cutting fat for a leaner, more defined physique add raspberry ketone to fat-burner stacks, alongside caffeine, forskolin, yohimbine and similar ingredients. A leaner physique shows muscle definition and a sharper jawline and face, which is the chain these users have in mind.[11][12]",
   "Wikipedia states that there is no clinical evidence for a weight-loss effect in humans, and that no international regulatory authority has approved it as a weight-loss supplement. [1] Published case reports describe cardiac events in people taking such products, though a causal link has not been established. [3][4]"
  ],
  "infobox": [
@@ -62,6 +63,13 @@
    ]
   },
   {
+   "h": "Use in physique and fat-loss communities",
+   "paras": [
+    "Raspberry ketone entered bodybuilding and fitness supplement culture mainly as an ingredient in multi-component thermogenic and fat-loss products rather than as a stand-alone item. A Biotest product page lists a capsule blend containing caffeine, raspberry ketones, forskolin, yohimbine and piperine, and forum members on T Nation discussed that blend and similar stacks in contest-preparation and fat-loss threads from about 2009 onward.[11][12][13] In one thread a poster asks whether a fat burner based on EGCG and raspberry ketone should be timed away from workout nutrition during contest prep.[12]",
+    "Posters have also treated the compound with humour: remarks in forum threads joke that raspberry ketones are a secret the supplement industry fears people will discover, reflecting the widespread familiarity of the claims.[14] A 2013 Hacker News submission asked whether raspberry ketones really help with weight loss, and drew no comments.[15]"
+   ]
+  },
+  {
    "h": "Pharmacology",
    "subs": [
     {
@@ -81,7 +89,9 @@
   {
    "h": "Clinical studies",
    "paras": [
-    "No published randomised trial has established a weight-loss effect of raspberry ketone supplements in humans, according to Wikipedia's summary. [1] A registered early-phase human study (NCT06681597, 60 participants, completed) examined whether raspberry ketone intake raises circulating FGF21 and energy expenditure in people with obesity, diabetes or fatty liver. [9] A second registration lists raspberry ketone only as part of a diet study in 14 participants. [10] Most mechanistic work comes from rodents and cells. [2]"
+    "A randomised crossover trial published in 2016 in the Journal of Dietary Supplements tested 26 adults (10 women, 16 men) who took a placebo, raspberry ketone or a metabolic activator blend about two hours before resting metabolic rate was measured. It found no significant differences between conditions in resting metabolic rate, respiratory quotient or the share of energy from fat or carbohydrate.[16] It was an acute study and did not measure body weight over time.",
+    "No published randomised trial has established a weight-loss effect of raspberry ketone supplements in humans, according to Wikipedia's summary. [1] A registered early-phase human study (NCT06681597, 60 participants, completed) examined whether raspberry ketone intake raises circulating FGF21 and energy expenditure in people with obesity, diabetes or fatty liver. [9] A second registration lists raspberry ketone only as part of a diet study in 14 participants. [10] Most mechanistic work comes from rodents and cells. [2]",
+    "A review of newer supplements for obesity covers raspberry ketones together with white bean extract, Garcinia cambogia, forskolin, green coffee and others, and states that the existing scientific evidence for these products is insufficient to recommend them.[5]"
    ]
   },
   {
@@ -116,7 +126,23 @@
    "event": "A 60-participant early-phase human study of raspberry ketone and FGF21 begins. [9]"
   }
  ],
- "lore": null,
+ "lore": {
+  "intro": "Raspberry ketone appears in supplement-forum discussion mostly as one ingredient in fat-burner blends used for cutting.[11][12][13]",
+  "claims": [
+   {
+    "claim": "Raspberry ketone burns fat",
+    "believers": "Supplement marketing and some forum users describe it as a fat-burning ingredient and include it in cutting stacks.[12][13]",
+    "experts": "Rodent studies report lipid and insulin-resistance changes, but an acute crossover trial found no change in resting metabolic rate or fat use in humans, and Wikipedia states no clinical evidence of weight loss in humans.[2][16][1]",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "It is safe because it is a natural raspberry compound",
+    "believers": "The compound occurs in fruit and is used as a flavouring, which supporters cite as reassurance.[1]",
+    "experts": "FDA GRAS status applies to flavouring amounts, and researchers and a Danish university have raised concerns about high supplement intakes; case reports describe cardiac events without establishing causation.[1][3][4]",
+    "evidence": "harms"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -197,12 +223,70 @@
    "source": "ClinicalTrials.gov",
    "year": 2019,
    "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Anything's Possible (forum thread)",
+   "url": "https://t-nation.com/t/anythings-possible/138910",
+   "source": "T Nation forum",
+   "year": 2009,
+   "type": "forum"
+  },
+  {
+   "id": 12,
+   "title": "Questions About Fat Loss (forum thread)",
+   "url": "https://t-nation.com/t/questions-about-fat-loss/129817",
+   "source": "T Nation forum",
+   "year": 2009,
+   "type": "forum"
+  },
+  {
+   "id": 13,
+   "title": "Living the Impossible Dream (forum thread)",
+   "url": "https://t-nation.com/t/living-the-impossible-dream/233983",
+   "source": "T Nation forum",
+   "year": 2017,
+   "type": "forum"
+  },
+  {
+   "id": 14,
+   "title": "Best Combo Of Size And Aesthetics? (forum thread)",
+   "url": "https://t-nation.com/t/best-combo-of-size-and-aesthetics/236529",
+   "source": "T Nation forum",
+   "year": 2017,
+   "type": "forum"
+  },
+  {
+   "id": 15,
+   "title": "The Science Behind Raspberry Ketones - Does it Really Help with Weight Loss?",
+   "url": "https://news.ycombinator.com/item?id=5282268",
+   "source": "Hacker News",
+   "year": 2013,
+   "type": "forum"
+  },
+  {
+   "id": 16,
+   "title": "The Acute Effects of Nonstimulant Over-the-Counter Dietary Herbal Supplements on Resting Metabolic Rate.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26317375/",
+   "source": "Journal of Dietary Supplements",
+   "year": 2016,
+   "type": "trial"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Raspberry_ketone",
-   "title": "Raspberry ketone - Wikipedia"
+   "title": "Raspberry ketone"
   }
- ]
+ ],
+ "angle": {
+  "goal": "Leanness",
+  "chain": [
+   "Taken as an oral supplement, usually in a fat-burner blend",
+   "Proposed to increase fat breakdown or energy expenditure",
+   "Lower body fat shows muscle definition and facial structure more clearly"
+  ],
+  "effect": "claimed",
+  "text": "Raspberry ketone is taken in capsule form, usually inside multi-ingredient fat-burner products used during cutting phases, with the aim of getting leaner. The effect on body fat in people is the claimed part; the physique result is what users are after."
+ }
 }

@@ -1,69 +1,331 @@
 {
-  "name": "Humidifier",
-  "lead": [
-    "A humidifier is an appliance that adds water vapour or fine droplets to indoor air to raise its relative humidity. Point-of-use models serve a single room, such as a bedroom, while whole-house units connect to a building's heating system [1]. Humidifiers are also built into some medical ventilators for patient comfort [1].",
-    "In skin care and looksmaxxing, bedroom humidifiers are used on the idea that dry, heated winter air dries and tightens the skin. Wikipedia notes that indoor humidity can fall to roughly 10 to 20 percent in winter when cold outside air is heated, and that a relative humidity of 30 to 50 percent is generally recommended for homes [1].",
-    "Research specific to bedroom humidifiers and facial appearance is sparse. Laboratory work has examined how low humidity affects the barrier function of cultured epidermal cells [2], and clinical literature on humidification deals mainly with respiratory care and neonatal skin. Poorly maintained units can spread microorganisms, and overuse can encourage mould and dust mites [1]."
+ "name": "Humidifier",
+ "lead": [
+  "A humidifier is an appliance that adds water vapour or fine droplets to indoor air to raise its relative humidity. Point-of-use models serve a single room such as a bedroom, while whole-house units connect to a building's heating system [1]. Humidifiers are also built into some medical ventilators for patient comfort [1].",
+  "In skin care and looksmaxxing, bedroom humidifiers are used to offset the dry, heated air of winter. The reasoning runs: drier air pulls more water out of the outer skin layer, so adding moisture to the air may leave skin looking smoother and less flaky, and may ease dry lips, nose and eyes. Wikipedia notes that indoor humidity can fall to roughly 10 to 20 percent in winter when cold outside air is heated, and that 30 to 50 percent relative humidity is generally recommended for homes [1]. Users commonly pair a humidifier with a moisturiser routine and run it overnight.",
+  "Research specific to bedroom humidifiers and facial appearance is limited. A 2025 laboratory study on a reconstructed human epidermis model found that one hour of low-humidity air raised water loss through the tissue and reduced barrier-related proteins, which its authors linked to how winter dryness may begin [2]. Clinical literature on humidification deals mainly with respiratory care and neonatal skin [3][4]. Maintenance matters: poorly kept units can spread microorganisms, overuse can encourage mould and dust mites, and a large South Korean episode in which disinfectant chemicals were added to humidifier tanks caused deaths and lung injury [1][6]."
+ ],
+ "angle": {
+  "goal": "Skin and sleep environment",
+  "chain": [
+   "Adds moisture to bedroom air",
+   "Less water drawn out of the skin surface and nasal lining overnight",
+   "Skin that feels and looks less dry; more comfortable nose and lips"
   ],
-  "infobox": [
-    ["Type", "Household appliance"],
-    ["Main designs", "Evaporative, ultrasonic, impeller, steam (warm mist), furnace-mounted [1]"],
-    ["Commonly recommended indoor humidity", "30 to 50 percent relative humidity [1]"],
-    ["Typical price", "$30 to $80 for room units"],
-    ["Maintenance", "Regular cleaning, filter or wick replacement [1]"],
-    ["Regulatory status", "Consumer appliance; medical humidifiers exist as a separate category"]
+  "effect": "indirect",
+  "text": "People run a humidifier in the bedroom in winter so skin loses less water overnight and moisturisers sit on a less dry surface. It is typically one part of a routine that also includes cleansing and moisturising."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Household appliance"
   ],
-  "sections": [
+  [
+   "Main designs",
+   "Evaporative, ultrasonic, impeller, steam (warm mist), furnace-mounted [1]"
+  ],
+  [
+   "Commonly recommended indoor humidity",
+   "30 to 50 percent relative humidity [1]"
+  ],
+  [
+   "Early patent",
+   "Electric steam vaporizer, applied for 1926 and granted 1927 (Max Katzman) [1]"
+  ],
+  [
+   "Typical price",
+   "$30 to $80 for room units"
+  ],
+  [
+   "Maintenance",
+   "Regular cleaning, filter or wick replacement [1]"
+  ],
+  [
+   "Water type",
+   "Tap, distilled or demineralised; hard water leaves white dust in ultrasonic units [1]"
+  ],
+  [
+   "Regulatory status",
+   "Consumer appliance; medical humidifiers are a separate category"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Design and types",
+   "paras": [
+    "Evaporative or wick humidifiers consist of a reservoir, a wick and a fan; because evaporation falls as room humidity rises, they are partly self-regulating [1]. Wicks can grow mould if they are not fully dried between fillings and accumulate mineral deposits over time [1].",
+    "Impeller humidifiers fling water at a diffuser to create fine droplets and are usually louder than other types [1]. Ultrasonic humidifiers use a vibrating ceramic diaphragm to produce a cool fog of droplets about one micron across; because the droplets carry whatever is in the tank, mineral impurities from hard water can settle as a sticky white dust, and microorganisms growing in a stagnant tank can be dispersed into the air [1].",
+    "Steam or warm-mist humidifiers use a heating element. Wikipedia notes that boiled water is less likely than a cool mist to carry minerals or microorganisms, but that boiling uses more energy and poorly designed heaters can overheat [1]. Some units include demineralisation cartridges, activated charcoal filters, ultraviolet lamps or ionisers [1]. Furnace-installed designs include bypass drum, disc wheel, flow-through and spray-mist types [1]. Simple homemade evaporators using a bowl and towel are also described [1].",
+    "Fixed-installation humidifiers attach to a forced-air furnace. Bypass designs connect the heated supply duct to the cold-air return and use the pressure difference to divert warm air through a wetted pad; drum types rotate a foam pad through a water pan, while disc-wheel types use grooved plastic discs for a large evaporative surface with little need for replacement [1]. Wikipedia notes that these units are usually switched off in summer when air conditioning is running, since the air conditioner already removes moisture [1].",
+    "Passive or natural methods also raise humidity slowly: houseplants release water through transpiration, hanging laundry adds moisture, and a bowl with a weighted towel works by capillary action. Wikipedia notes that soil mould in plants or a damp towel left too long can itself become a source of microorganisms [1]."
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Wikipedia dates an early electric humidifier to Max Katzman, who applied for a patent on an electric vaporizer on 25 May 1926; it was granted on 17 May 1927 and is described as the first electric-powered steam humidifier [1]. Medical humidification also developed in anaesthesia and respiratory care; a new humidifier for anaesthesia use was described in 1972 [16]. The Korean disinfectant episode of 2006 to 2011, described below, is the best-documented safety event involving humidifier use [1]."
+   ]
+  },
+  {
+   "h": "How it works",
+   "paras": [
+    "Raising ambient humidity is proposed to slow evaporation of water from the skin surface, so the outer layer retains more moisture. Wikipedia states that low humidity can contribute to atopic and seborrhoeic dermatitis, dry mucous membranes and dry eyes [1].",
+    "The 2025 study in the International Journal of Cosmetic Science exposed the outer layer of a reconstructed human epidermis to low-humidity air for one hour. Water loss and dye penetration rose; ceramide levels did not change, but expression of filaggrin and loricrin, and of tight junction proteins such as claudin-1 and ZO-1, fell. The authors concluded that low humidity triggers immature differentiation and fragile cornified envelopes, and that repeated exposure may lead to dry skin [2].",
+    "Humidity also affects eyes and airways. A review of tear dynamics describes tear evaporation from the ocular surface as one of the processes that can contribute to dry eye [8]."
+   ]
+  },
+  {
+   "h": "Uses and settings",
+   "paras": [
+    "Raising ambient humidity is proposed to slow evaporation of water from the skin surface, so the outer layer retains more moisture. Wikipedia states that low humidity can contribute to atopic and seborrhoeic dermatitis, dry mucous membranes and dry eyes [1].",
+    "The 2025 study in the International Journal of Cosmetic Science exposed the outer layer of a reconstructed human epidermis to low-humidity air for one hour. Water loss and dye penetration rose; ceramide levels did not change, but expression of filaggrin and loricrin, and of tight junction proteins such as claudin-1 and ZO-1, fell. The authors concluded that low humidity triggers immature differentiation and fragile cornified envelopes, and that repeated exposure may lead to dry skin [2].",
+    "Humidity also affects eyes and airways. A review of tear dynamics describes tear evaporation from the ocular surface as one of the processes that can contribute to dry eye [8]."
+   ]
+  },
+  {
+   "h": "Use in routines",
+   "paras": [
+    "Overnight bedroom use is the most common pattern: the unit runs in a closed room while the person sleeps, often during heating season, with skin-care steps such as moisturiser applied before bed. Some people also run one in a home gym or workspace, and forum posts describe using humidifiers when travelling to dry high-altitude or desert climates [13].",
+    "Some people choose steam or warm-mist units, or place a bowl of water or houseplants in a room as a low-tech alternative [1]. Distilled or demineralised water is the usual choice with ultrasonic models to limit white mineral dust [1]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No clinical trial tests a bedroom humidifier against facial skin appearance, wrinkles or acne in healthy adults.",
+    "Related research includes the 2025 reconstructed-epidermis experiment, a laboratory model rather than a human trial [2]. Clinical humidification research is largely respiratory: a meta-analysis of 27 randomized trials with 8,876 patients compared humidified with non-humidified low-flow oxygen, and its abstract reports less bacterial contamination of humidifier bottles with non-humidified oxygen [3]. A review of infant skin care notes that humidified incubators help prevent dehydration in babies born with collodion membranes [4]. A small study of 12 men staying in a hotel used a humidifier to vaporise hinoki cypress oil and reported increased natural killer cell activity; there the humidifier was a delivery method rather than the subject of testing [5].",
+    "A 1995 study of 193 sleep apnoea patients examined side effects of nasal CPAP therapy, a setting in which heated humidification is commonly added to treat nasal dryness [9]. Research on high-flow nasal oxygen likewise reports that under-humidified gas causes discomfort in critically ill patients [10]."
+   ]
+  },
+  {
+   "h": "Safety and risks",
+   "paras": [
+    "Wikipedia reports that an indoor relative humidity below about 51 percent was associated with significantly lower mite and allergen levels, and that overuse of a humidifier can raise humidity enough to promote dust mites and mould and can contribute to hypersensitivity pneumonitis, sometimes called humidifier lung [1]. A hygrostat or regular humidity checks are described as ways to avoid excess [1]. A published case report describes humidifier lung as a clinical condition [6].",
+    "Ultrasonic models can disperse minerals and pathogens from the tank, and wicks and tanks need regular cleaning [1]. Heated models can pose burn and fire risks if poorly designed [1]."
+   ],
+   "subs": [
     {
-      "h": "Design and types",
-      "paras": [
-        "Evaporative or wick humidifiers consist of a reservoir, a wick and a fan; because evaporation falls as room humidity rises, they are partly self-regulating [1]. Wicks can grow mould if they are not fully dried between fillings and accumulate mineral deposits over time [1].",
-        "Impeller humidifiers fling water at a diffuser to create fine droplets and are usually louder than other types [1]. Ultrasonic humidifiers use a vibrating ceramic diaphragm to produce a cool fog of droplets about one micron across; because the droplets carry whatever is in the tank, mineral impurities from hard water can settle as a sticky white dust, and microorganisms growing in a stagnant tank can be dispersed into the air [1].",
-        "Steam or warm-mist humidifiers use a heating element. Wikipedia notes that boiled water is less likely than a cool mist to carry minerals or microorganisms, but that boiling uses more energy and poorly designed heaters can overheat [1]. Some units include demineralisation cartridges, activated charcoal filters, ultraviolet lamps or ionisers [1]. Furnace-installed designs include bypass drum, disc wheel, flow-through and spray-mist types [1]. Simple homemade evaporators using a bowl and towel are also described [1]."
-      ]
-    },
-    {
-      "h": "How it works",
-      "paras": [
-        "Raising ambient humidity is proposed to slow evaporation of water from the skin surface, so that the outer layer retains more moisture. Wikipedia states that low humidity can contribute to dermatitis, dry mucous membranes and dry eyes, though its statements are summary-level [1]. A 2025 laboratory study used a reconstructed human epidermis model to examine how low humidity affects keratinocyte barrier function [2]."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No clinical trial found in the sources reviewed tests a bedroom humidifier against facial skin appearance, wrinkles or acne in healthy adults.",
-        "Related research includes the 2025 reconstructed-epidermis experiment noted above, which is a laboratory model and not a human trial [2]. Clinical humidification research is largely respiratory: a meta-analysis of 27 randomized trials with 8,876 patients compared humidified with non-humidified low-flow oxygen, and its abstract reports less bacterial contamination of humidifier bottles with non-humidified oxygen [3]. A review of infant skin care notes that humidified incubators help prevent dehydration in babies born with collodion membranes [4]. In a small study of 12 men staying in a hotel, a humidifier was used to vaporise hinoki cypress oil, and the authors reported increased natural killer cell activity; the humidifier there was a delivery method for the oil rather than the subject of testing [5]."
-      ]
-    },
-    {
-      "h": "Safety and risks",
-      "paras": [
-        "Wikipedia reports that an indoor relative humidity below about 51 percent was associated with significantly lower mite and allergen levels, and that overuse of a humidifier can raise humidity enough to promote dust mites and mould and can contribute to hypersensitivity pneumonitis, sometimes called humidifier lung [1]. A hygrostat or regular humidity checks are described as ways to avoid excess [1]. A published case report describes humidifier lung as a clinical condition [6].",
-        "Ultrasonic models can disperse minerals and pathogens from the tank, and wicks and tanks need regular cleaning [1]. Heated models can pose burn and fire risks if poorly designed [1]."
-      ]
-    },
-    {
-      "h": "Use in looksmaxxing",
-      "paras": [
-        "Humidifiers appear in skin-care and sleep-environment discussions as a way to counteract dry winter indoor air alongside moisturisers, though the sources reviewed contain no community-sourced claims to quote. Reported target humidity ranges in popular guidance often match the 30 to 50 percent figure [1], but evidence for a specific optimum for skin is not established in the sources reviewed."
-      ]
-    },
-    {
-      "h": "Buying considerations",
-      "paras": [
-        "Considerations that retailers and appliance guides list include tank capacity and room size, noise (impeller models are louder [1]), whether the unit has a built-in hygrostat, the availability of demineralisation filters or wicks and their replacement cost (cartridges described at roughly $10 to $15 [1]), and how easily the tank can be cleaned. Room units commonly cost about $30 to $80."
-      ]
+     "h": "Humidifier disinfectant lung injury in South Korea",
+     "paras": [
+      "Wikipedia reports that from 2006 to 2011 in South Korea, disinfectants containing polyhexamethylene guanidine and other toxic chemicals were added to humidifier tanks; 80 children died, and nine adults died or needed lung transplants, and no new cases were reported in the two years after such cleaning chemicals were banned [1]. The episode involved chemicals added to the tank, not the appliance's water alone.",
+      "Research on the episode continues. Recent publications include a 2025 integrated-evidence analysis supporting a causal association between PHMG-P exposure and pneumonitis, a 2026 systematic review and meta-analysis of respiratory risks from humidifier disinfectant exposure in South Korea, and a 2026 review of the disaster's implications for preventive medicine [7]."
+     ]
     }
-  ],
-  "timeline": [],
-  "lore": null,
-  "refs": [
-    {"id": 1, "title": "Humidifier", "url": "https://en.wikipedia.org/wiki/Humidifier", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"},
-    {"id": 2, "title": "Effect of low humidity on the barrier functions of keratinocytes in a reconstructed human epidermal model", "url": "https://pubmed.ncbi.nlm.nih.gov/39935117/", "source": "PubMed", "year": 2025, "type": "study"},
-    {"id": 3, "title": "Is humidified better than non-humidified low-flow oxygen therapy? A systematic review and meta-analysis", "url": "https://pubmed.ncbi.nlm.nih.gov/28440960/", "source": "Journal of Advanced Nursing", "year": 2017, "type": "review"},
-    {"id": 4, "title": "Infant skin care: updates and recommendations", "url": "https://pubmed.ncbi.nlm.nih.gov/31188166/", "source": "Current Opinion in Pediatrics", "year": 2019, "type": "review"},
-    {"id": 5, "title": "Effect of phytoncide from trees on human natural killer cell function", "url": "https://pubmed.ncbi.nlm.nih.gov/20074458/", "source": "International Journal of Immunopathology and Pharmacology", "year": 2009, "type": "trial"},
-    {"id": 6, "title": "Humidifier lung", "url": "https://pubmed.ncbi.nlm.nih.gov/30847489/", "source": "QJM", "year": 2019, "type": "study"}
-  ],
-  "webSources": []
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing",
+   "paras": [
+    "Humidifiers appear in skin-care and sleep-environment discussions as a way to counteract dry winter indoor air alongside moisturisers. Reported target humidity ranges in popular guidance often match the 30 to 50 percent figure [1]; an optimum specific to skin has not been established in published studies.",
+    "On T Nation training logs, members mention humidifiers mainly for sleep and breathing comfort. One poster credits humidifiers for good sleep [11], another recommends them for a stuffy night nose when humidity is low [12], and one poster uses a saline spray and gel instead because they do not like room humidifiers [14]. Sleep quality feeds into recovery and training, which is a route by which some lifters connect bedroom air to physique and appearance.",
+    "A Hacker News discussion of a 2025 humidifier-lung case report shows the maintenance side of the topic: commenters emphasised that diagnosis depended on taking a detailed history of exposure to the appliance [15]."
+   ]
+  },
+  {
+   "h": "Buying considerations",
+   "paras": [
+    "Wikipedia reports that an indoor relative humidity below about 51 percent was associated with significantly lower mite and allergen levels, and that overuse of a humidifier can raise humidity enough to promote dust mites and mould and can contribute to hypersensitivity pneumonitis, sometimes called humidifier lung [1]. A hygrostat or regular humidity checks are described as ways to avoid excess [1]. A published case report describes humidifier lung as a clinical condition [6].",
+    "Ultrasonic models can disperse minerals and pathogens from the tank, and wicks and tanks need regular cleaning [1]. Heated models can pose burn and fire risks if poorly designed [1]."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1926",
+   "event": "Max Katzman applies for a patent on an electric vaporizer, described as the first electric-powered steam humidifier [1]."
+  },
+  {
+   "year": "1927",
+   "event": "The Katzman patent is granted on 17 May [1]."
+  },
+  {
+   "year": "1972",
+   "event": "A new humidifier for anaesthesia use is described in Anesthesiology [16]."
+  },
+  {
+   "year": "2006-2011",
+   "event": "Disinfectant chemicals added to humidifier tanks in South Korea are linked to lung injury; 80 children died [1]."
+  },
+  {
+   "year": "2017",
+   "event": "Meta-analysis of 27 randomized trials compares humidified and non-humidified low-flow oxygen [3]."
+  },
+  {
+   "year": "2019",
+   "event": "A case report titled Humidifier lung is published in QJM [6]."
+  },
+  {
+   "year": "2025",
+   "event": "Laboratory study reports early barrier changes in reconstructed human epidermis exposed to low humidity [2]."
+  }
+ ],
+ "lore": {
+  "intro": "Humidifiers come up in training and skin-care forums as a sleep and dryness aid more than as an appearance treatment in their own right [11][12].",
+  "claims": [
+   {
+    "claim": "A bedroom humidifier keeps skin from drying out in winter",
+    "believers": "Users say heated indoor air leaves skin tight and flaky and that running a humidifier overnight makes mornings more comfortable, particularly alongside a moisturiser.",
+    "experts": "Wikipedia links low humidity with dermatitis and dry mucous membranes [1], and a 2025 laboratory model found early barrier changes after one hour of low humidity [2]. No clinical trial has tested bedroom humidifiers on facial skin appearance in healthy adults.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "A humidifier helps sleep and nasal breathing, which supports recovery",
+    "believers": "T Nation members describe better sleep with humidifiers and recommend them when the nose is stuffy in dry air [11][12].",
+    "experts": "Clinical research on humidification centres on respiratory devices, where under-humidified gas has been reported to cause discomfort [10].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Humidifiers are better left alone because of mould and contamination",
+    "believers": "Some members say they dislike room humidifiers and prefer saline spray or gel for night-time nasal dryness [14].",
+    "experts": "Wikipedia notes that overuse can encourage mould and dust mites and cause humidifier lung, and that tanks and wicks need regular cleaning [1][6].",
+    "evidence": "harms"
+   },
+   {
+    "claim": "Higher humidity is always better for skin",
+    "believers": "Some users aim for very humid bedrooms, with posters describing running multiple humidifiers in dry climates [13].",
+    "experts": "Wikipedia gives 30 to 50 percent as the generally recommended home range and reports fewer mites and allergens below about 51 percent [1].",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Humidifier",
+   "url": "https://en.wikipedia.org/wiki/Humidifier",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Effect of low humidity on the barrier functions of keratinocytes in a reconstructed human epidermal model",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39935117/",
+   "source": "International Journal of Cosmetic Science",
+   "year": 2025,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Is humidified better than non-humidified low-flow oxygen therapy? A systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28440960/",
+   "source": "Journal of Advanced Nursing",
+   "year": 2017,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Infant skin care: updates and recommendations",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31188166/",
+   "source": "Current Opinion in Pediatrics",
+   "year": 2019,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Effect of phytoncide from trees on human natural killer cell function",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20074458/",
+   "source": "International Journal of Immunopathology and Pharmacology",
+   "year": 2009,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Humidifier lung",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30847489/",
+   "source": "QJM",
+   "year": 2019,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Europe PMC search: humidifier disinfectant lung injury Korea (PHMG-P pneumonitis, 2025-2026 reviews)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=humidifier%20disinfectant%20lung%20injury%20Korea&resultType=lite&format=json&pageSize=6",
+   "source": "Europe PMC",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "Tear dynamics and dry eye",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9777650/",
+   "source": "Progress in Retinal and Eye Research",
+   "year": 1998,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "Side effects of nasal continuous positive airway pressure in sleep apnea syndrome. Study of 193 patients in two French sleep centers",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7842764/",
+   "source": "Chest",
+   "year": 1995,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Discomfort associated with underhumidified high-flow oxygen therapy in critically ill patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19294365/",
+   "source": "Intensive Care Medicine",
+   "year": 2009,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "Magick's Training Log v2",
+   "url": "https://t-nation.com/t/magicks-training-log-v2/226628",
+   "source": "T Nation",
+   "year": 2017,
+   "type": "forum"
+  },
+  {
+   "id": 12,
+   "title": "WannaBe's Last Year Of DYEL?",
+   "url": "https://t-nation.com/t/wannabe-s-last-year-of-dyel/268239",
+   "source": "T Nation",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 13,
+   "title": "Rumblin', Stumblin', Bumblin' to 50",
+   "url": "https://t-nation.com/t/rumblin-stumblin-bumblin-to-50/129735",
+   "source": "T Nation",
+   "year": 2009,
+   "type": "forum"
+  },
+  {
+   "id": 14,
+   "title": "Brandon's Backyard Buffoonery",
+   "url": "https://t-nation.com/t/brandons-backyard-buffoonery/288835",
+   "source": "T Nation",
+   "year": 2024,
+   "type": "forum"
+  },
+  {
+   "id": 15,
+   "title": "A case of humidifier lung; the key diagnosis is detailed medical history taking",
+   "url": "https://news.ycombinator.com/item?id=43600554",
+   "source": "Hacker News",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 16,
+   "title": "A new humidifier",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/4550104/",
+   "source": "Anesthesiology",
+   "year": 1972,
+   "type": "study"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=humidifier%20disinfectant%20lung%20injury%20Korea&resultType=lite&format=json&pageSize=6",
+   "title": "Europe PMC search results: humidifier disinfectant lung injury"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:39935117%20AND%20SRC:MED&resultType=core&format=json",
+   "title": "Europe PMC record for the 2025 low-humidity epidermis study"
+  }
+ ]
 }

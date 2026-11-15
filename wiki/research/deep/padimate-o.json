@@ -1,8 +1,8 @@
 {
  "name": "Padimate O",
  "lead": [
-  "Padimate O (octyl dimethyl PABA, 2-ethylhexyl 4-dimethylaminobenzoate, sold as Escalol 507) is an oily, water-insoluble ester related to PABA that has been used as a UVB filter in sunscreens and lip products [1]. It is approved by one or more agencies including the US FDA, per Wikipedia [1].",
-  "Researchers have debated its photochemistry: in vitro work suggested indirect DNA damage on irradiation, while hairless-mouse studies reported no carcinogenic effect [1]."
+  "Padimate O (octyl dimethyl PABA, 2-ethylhexyl 4-dimethylaminobenzoate, sold as Escalol 507) is an oily, water-insoluble ester related to PABA that has been used as a UVB filter in sunscreens and lip products [1]. In appearance terms it is a sun-protection ingredient: by absorbing UVB it reduces sunburn and the cumulative UV exposure associated with photoaging, uneven tone and chapped, sun-damaged lips [2][12].",
+  "It is listed among UVB filters approved by one or more agencies including the US FDA, per Wikipedia [1]. Researchers have debated its photochemistry: in vitro work suggested indirect DNA damage on irradiation, while hairless-mouse studies reported no carcinogenic effect and fewer UV-induced tumours [1]."
  ],
  "infobox": [
   [
@@ -20,9 +20,33 @@
   [
    "Form",
    "Yellowish oily liquid"
+  ],
+  [
+   "CAS number",
+   "21245-02-3"
+  ],
+  [
+   "Molar mass",
+   "277.408 g/mol"
+  ],
+  [
+   "Parent compound",
+   "PABA (4-aminobenzoic acid)"
   ]
  ],
  "sections": [
+  {
+   "h": "Chemistry",
+   "paras": [
+    "Padimate O is formed by condensing 2-ethylhexanol with dimethylaminobenzoic acid, giving a yellowish oily liquid of formula C17H27NO2 with a melting point below 25 degrees C and boiling point of about 362 degrees C [1]. Where PABA itself is water-soluble, padimate O is water-insoluble, which suits oil-based sunscreen and lip formulations [1]. Other names include Sundown and OD-PABA [1]."
+   ]
+  },
+  {
+   "h": "Mechanism",
+   "paras": [
+    "As an organic ('chemical') UV filter, it absorbs ultraviolet energy and releases it as lower-energy radiation, so less reaches the skin [13]. Sunscreen SPF, introduced by Greiter in 1974, measures how much sunburn-producing UVB reaches skin, and SPF addresses UVB only, with UVA protection rated separately [13]. Wikipedia notes that the excited padimate O molecule can react with DNA and cause indirect damage even while it blocks direct UVB damage [1]."
+   ]
+  },
   {
    "h": "Uses",
    "paras": [
@@ -46,12 +70,36 @@
    "paras": [
     "No clinical trials of padimate O itself for appearance outcomes were found. Registered SPF-testing studies of sunscreen products have been run by manufacturers [10][11], and a Phase 1 study examined a nanoparticle sunblock [12]; these are not specific to padimate O."
    ]
+  },
+  {
+   "h": "Photochemistry research history",
+   "paras": [
+    "Wikipedia lists a series of studies on padimate O: Kligman and colleagues published on sunscreens and UV photocarcinogenesis in 1980, Bissett and colleagues reported time-dependent decreases in sunscreen protection in hairless mice in 1991, Knowland and colleagues reported sunlight-induced mutagenicity in yeast in 1993, and Kerr examined two UVB sunscreens in hairless mice in 1998 [1]. A 1999 study of human keratinocytes found it reduced direct DNA photodamage but increased strand breaks [1]. Reports in hairless mice found reduced UV-induced tumours and delayed tumour onset after topical application [1]."
+   ]
+  },
+  {
+   "h": "Regulation and context",
+   "paras": [
+    "In the US sunscreens are regulated as over-the-counter drugs, while many countries treat them as cosmetics; the EU sets minimum standards such as SPF of at least 6 and a critical wavelength of at least 370 nm [13]. Wikipedia's sunscreen article reports that in 2021 the US banned PABA and trolamine salicylate over safety concerns including allergic contact dermatitis, whereas padimate O is a different, esterified compound [13]. Public-health bodies generally judge that the skin cancer risk from sun exposure outweighs unproven concerns about approved filters [13]."
+   ]
   }
  ],
  "timeline": [
   {
+   "year": "1974",
+   "event": "Greiter introduces the SPF concept for rating sunscreens [13]."
+  },
+  {
+   "year": "1980",
+   "event": "Kligman and colleagues publish on sunscreens and UV photocarcinogenesis [1]."
+  },
+  {
    "year": "1993",
    "event": "Yeast study reports sunlight-induced mutagenicity [1]."
+  },
+  {
+   "year": "1999",
+   "event": "Human keratinocyte study reports reduced direct DNA photodamage but increased strand breaks [1]."
   }
  ],
  "lore": null,
@@ -151,12 +199,24 @@
    "source": "ClinicalTrials.gov",
    "year": 2017,
    "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "Sunscreen",
+   "url": "https://en.wikipedia.org/wiki/Sunscreen",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Padimate_O",
    "title": "Padimate O - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Sunscreen",
+   "title": "Sunscreen - Wikipedia"
   }
  ],
  "card": {
@@ -172,5 +232,15 @@
   "overview": "Padimate O is a PABA-derived oily UVB filter used in some sunscreens and lip products.\n\nIt is now less common, and published research on it is mostly laboratory-based.",
   "mechanism": "It absorbs UVB light; its excited state can also cause indirect effects, and researchers have studied this in vitro and in mice.",
   "risks": "Yeast and cell studies raised photomutagenicity and hormone-receptor questions, while hairless-mouse studies found no carcinogenicity. Labels advise stopping use if rash occurs."
+ },
+ "angle": {
+  "goal": "Skin quality and sun protection",
+  "chain": [
+   "Absorbs UVB in a sunscreen or lip balm",
+   "Less UVB reaches skin and lips",
+   "Less sunburn and photodamage over time"
+  ],
+  "effect": "direct",
+  "text": "Padimate O is an older UVB-absorbing ingredient that appeared in sunscreens and lip products to prevent sunburn and windburn. People who protect their skin from the sun to keep tone even and skin smoother use filters like it, though its use has become less common."
  }
 }

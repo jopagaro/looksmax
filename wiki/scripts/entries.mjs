@@ -69,3 +69,53 @@ export function wikiRelevant(item, raw, W) {
   const lead = ((W.sections || [])[0]?.text || '').slice(0, 2500);
   return wtoks(lead).some(near);
 }
+
+// Looksmax goals: writers produced ~500 free-form labels; fold them into the canonical list used for filtering.
+export const GOALS = ['Skin', 'Acne', 'Anti-aging', 'Tan & skin tone', 'Hair (scalp)', 'Hair (facial/body)', 'Body hair removal', 'Jawline & face shape',
+  'Facial fat & puffiness', 'Eyes & eye area', 'Nose', 'Lips', 'Ears', 'Teeth & smile', 'Height', 'Posture', 'Physique', 'Muscle', 'Fat loss',
+  'Hormones (T / E2)', 'Sleep & recovery', 'Voice', 'Grooming', 'Style & presentation', 'Photos & framing', 'Confidence & presence',
+  'Body odor & breath', 'Nails', 'Overall look', 'General health'];
+const GOAL_RULES = [
+  [/overall (look|attract|appear|facial)|general appearance|attractiveness|flaw|self-assess|looks outcome|harmony|proportion|first impression/i, 'Overall look'],
+  [/fat reduc|waist|silhouette/i, 'Fat loss'],
+  [/penis|genital|buttock|glute|chest|vascular/i, 'Physique'],
+  [/focus|cogniti|discipline|habit|planning|prioriti|calibrat|feedback|dating|self-improvement|improvement/i, 'Confidence & presence'],
+  [/cheek|face|facial|upper-face|projection|definition/i, 'Jawline & face shape'],
+  [/acne|blemish|breakout|pimple|comedon/i, 'Acne'],
+  [/odou?r|breath|sweat|scent|fragrance|smell/i, 'Body odor & breath'],
+  [/tan\b|tanning|skin tone|pigment|melasma|dark spot|whiten|lighten|bronz|complexion/i, 'Tan & skin tone'],
+  [/wrinkle|anti-?ag|ageing|aging|longevity|youth|lifting|tighten|sagging|collagen/i, 'Anti-aging'],
+  [/remov|epilat|wax|laser hair|depilat/i, 'Body hair removal'],
+  [/beard|facial hair|body hair|chest hair|brow|eyebrow|lash|moustache|mustache/i, 'Hair (facial/body)'],
+  [/hair|scalp|hairline|bald|alopecia/i, 'Hair (scalp)'],
+  [/jaw|chin|face shape|facial structure|cheekbone|midface|maxilla|bone|profile|facial (contour|bone|width|harmony|symmetry)|face width/i, 'Jawline & face shape'],
+  [/puff|bloat|facial fat|face fat|water retention|lean face|facial (volume|fullness|leanness)/i, 'Facial fat & puffiness'],
+  [/eye|canth|orbital|dark circle/i, 'Eyes & eye area'],
+  [/nose|nasal/i, 'Nose'],
+  [/lip/i, 'Lips'],
+  [/\bear/i, 'Ears'],
+  [/teeth|tooth|smile|dental|gum|oral/i, 'Teeth & smile'],
+  [/height|tall/i, 'Height'],
+  [/posture|neck|frame|shoulder width/i, 'Posture'],
+  [/fat loss|weight|lean|body fat|appetite|cutting|slim|contour/i, 'Fat loss'],
+  [/muscle|strength|hypertroph|gains/i, 'Muscle'],
+  [/physique|body|figure|shape/i, 'Physique'],
+  [/hormon|testosterone|estrogen|\bt\b|e2|libido|androgen/i, 'Hormones (T / E2)'],
+  [/sleep|recover|energy|fatigue|stress/i, 'Sleep & recovery'],
+  [/voice|speech/i, 'Voice'],
+  [/nail|hand/i, 'Nails'],
+  [/photo|camera|picture|selfie|dating profile/i, 'Photos & framing'],
+  [/confiden|presence|charisma|social|status|mindset|motivat|mental|frame|aura|personality|psych/i, 'Confidence & presence'],
+  [/style|fashion|outfit|cloth|wardrobe|presentation|aesthetic|accessor|eyewear|makeup|cosmetic/i, 'Style & presentation'],
+  [/groom|hygiene|shav/i, 'Grooming'],
+  [/skin|derm|pore|texture|glow|redness|barrier|eczema|scar|stretch mark|cellulite/i, 'Skin'],
+  [/health|wellness|general|overall/i, 'General health'],
+];
+export function canonGoal(g) {
+  if (!g) return null;
+  const s = String(g).trim();
+  const exact = GOALS.find((x) => x.toLowerCase() === s.toLowerCase());
+  if (exact) return exact;
+  for (const [re, goal] of GOAL_RULES) if (re.test(s)) return goal;
+  return 'General health';
+}

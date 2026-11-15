@@ -1,0 +1,79 @@
+{
+  "name": "Ivarmacitinib",
+  "card": {
+    "summary": "An oral JAK1 inhibitor approved in China for several inflammatory conditions and studied in severe alopecia areata, where it can regrow scalp hair lost to autoimmune attack.",
+    "aka": "SHR-0302",
+    "evidence": "moderate",
+    "status": "rx",
+    "note": "Prescription immunomodulator with infection-related adverse events; approved indications are not hair loss in most regions.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "Ivarmacitinib (SHR-0302) is a selective Janus kinase 1 inhibitor developed by Jiangsu Hengrui. It is approved in China for ankylosing spondylitis, rheumatoid arthritis and atopic dermatitis, and has been studied in severe alopecia areata, an autoimmune condition that causes patchy or total hair loss.\n\nThe appearance payoff is hair regrowth. In a phase 3 trial of adults with severe alopecia areata, about 35 to 41 percent of treated patients reached a SALT score of 20 or less (little scalp hair loss) at week 24, versus 9 percent on placebo.",
+    "how": "It is an oral tablet taken under specialist supervision. Case reports describe its use after another JAK inhibitor, tofacitinib, gave a suboptimal response. Hair regrowth in trials was assessed over about six months.",
+    "risks": "JAK inhibitors as a class are associated with infections such as influenza, bronchitis and herpes infections in a large meta-analysis, and are monitored for cardiovascular and other events. In the alopecia trial, most adverse events were mild or moderate and no major cardiovascular or thromboembolic events were reported. It is a prescription drug."
+  },
+  "lead": [
+    "Ivarmacitinib, also known as SHR-0302, is a selective oral JAK1 inhibitor developed by Jiangsu Hengrui Pharmaceuticals. In 2025 it was approved in China for adults with active ankylosing spondylitis, with moderate to severe rheumatoid arthritis and with moderate to severe atopic dermatitis [1].",
+    "For appearance, the relevant use is alopecia areata, an autoimmune condition in which the immune system attacks hair follicles. JAK inhibitors work on the signalling pathway involved, and a phase 3 trial in adults with severe alopecia areata reported regrowth on ivarmacitinib versus placebo [2]. A Frontiers in Immunology case report described a patient who improved on ivarmacitinib after a suboptimal response to tofacitinib, and the report notes it has been approved for alopecia areata in China with little real-world evidence so far [3].",
+    "A network meta-analysis ranked ivarmacitinib at 4 mg among the oral JAK inhibitors for mean SALT change, after baricitinib 4 mg and ritlecitinib [4]."
+  ],
+  "angle": {
+    "goal": "Hair",
+    "chain": ["Selectively blocks JAK1 signalling", "Dampens autoimmune attack on hair follicles", "Follicles resume growing hair", "Scalp hair regrowth"],
+    "effect": "direct",
+    "text": "In alopecia areata the immune system targets follicles; ivarmacitinib quiets that signalling, and trial participants regrew scalp hair."
+  },
+  "infobox": [
+    ["Drug class", "Selective JAK1 inhibitor"],
+    ["Code name", "SHR-0302"],
+    ["Developer", "Jiangsu Hengrui Pharmaceuticals"],
+    ["Route", "Oral (tablet); topical ointment studied"],
+    ["First approval", "March 2025 (China, ankylosing spondylitis) [1]"],
+    ["Legal status", "Prescription-only"]
+  ],
+  "sections": [
+    {
+      "h": "Uses",
+      "subs": [
+        {"h": "Hair loss (alopecia areata)", "paras": ["Alopecia areata is an autoimmune disorder in which hair follicles lose immune privilege and are attacked by T cells, with JAK-STAT signalling playing a pathogenic role [5][3]. Ivarmacitinib has been approved for alopecia areata in China according to a 2026 case report [3]."]},
+        {"h": "Medical uses", "paras": ["Approved in China in March 2025 for ankylosing spondylitis and rheumatoid arthritis after TNF inhibitor failure, and in April 2025 for atopic dermatitis [1]. It has also been tested in ulcerative colitis [6], psoriatic arthritis [7] and as a topical ointment for mild to moderate atopic dermatitis [8]."]}
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "A phase 3 randomised trial reported in the Journal of the American Academy of Dermatology enrolled 330 adults with severe alopecia areata (at least 50 percent scalp hair loss). At 24 weeks, 34.9 percent on the lower dose and 40.6 percent on the higher dose reached a SALT score of 20 or less, versus 9.0 percent on placebo. Adverse events occurred in 75 to 85 percent of patients and were mostly mild or moderate, with no deaths, major cardiovascular events or thromboembolic events. The trial had no active comparator [2][9].",
+        "A phase 3 trial in atopic dermatitis in adolescents and adults was published in JAMA Dermatology in 2025 [10], and phase 3 data in rheumatoid arthritis appeared in Annals of the Rheumatic Diseases [11]."
+      ]
+    },
+    {
+      "h": "Adverse effects",
+      "paras": [
+        "A 2026 meta-analysis of 74 trials of JAK-STAT inhibitors in skin diseases found increased risks of influenza, bronchitis and herpes infections [12]. A meta-analysis of cardiovascular events in atopic dermatitis addressed JAK inhibitor safety more broadly [13]."
+      ]
+    }
+  ],
+  "timeline": [
+    {"year": "2025", "event": "Approved in China for ankylosing spondylitis and rheumatoid arthritis (March) and atopic dermatitis (April) [1]."}
+  ],
+  "lore": null,
+  "refs": [
+    {"id": 1, "title": "Ivarmacitinib Sulfate: First Approval", "url": "https://pubmed.ncbi.nlm.nih.gov/40542222/", "source": "Drugs", "year": 2025, "type": "review"},
+    {"id": 2, "title": "Ivarmacitinib for the treatment of adults with severe alopecia areata: Results from a phase 3 trial", "url": "https://pubmed.ncbi.nlm.nih.gov/40976531/", "source": "J Am Acad Dermatol", "year": 2026, "type": "trial"},
+    {"id": 3, "title": "Significant improvement with ivarmacitinib after suboptimal response to tofacitinib in severe alopecia areata", "url": "https://pubmed.ncbi.nlm.nih.gov/41782872/", "source": "Frontiers in Immunology", "year": 2026, "type": "study"},
+    {"id": 4, "title": "Comparative efficacy of oral JAK inhibitors and biologics in adult alopecia areata", "url": "https://pubmed.ncbi.nlm.nih.gov/38279559/", "source": "JEADV", "year": 2024, "type": "review"},
+    {"id": 5, "title": "Pathogenesis of Alopecia Areata and Vitiligo: Commonalities and Differences", "url": "https://pubmed.ncbi.nlm.nih.gov/38673994/", "source": "Int J Mol Sci", "year": 2024, "type": "review"},
+    {"id": 6, "title": "Ivarmacitinib in active ulcerative colitis: a phase II study", "url": "https://pubmed.ncbi.nlm.nih.gov/35963369/", "source": "Gastroenterology", "year": 2022, "type": "trial"},
+    {"id": 7, "title": "Recent developments for new investigational JAK inhibitors in psoriatic arthritis", "url": "https://pubmed.ncbi.nlm.nih.gov/37096862/", "source": "Expert Opin Investig Drugs", "year": 2023, "type": "review"},
+    {"id": 8, "title": "Ivarmacitinib ointment in mild-to-moderate atopic dermatitis", "url": "https://pubmed.ncbi.nlm.nih.gov/41317338/", "source": "Br J Dermatol", "year": 2026, "type": "trial"},
+    {"id": 9, "title": "Europe PMC record for the alopecia areata phase 3 trial", "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:40976531%20AND%20SRC:MED&resultType=core&format=json", "source": "Europe PMC", "year": 2026, "type": "trial"},
+    {"id": 10, "title": "Ivarmacitinib for moderate to severe atopic dermatitis: phase 3 trial", "url": "https://pubmed.ncbi.nlm.nih.gov/40305055/", "source": "JAMA Dermatology", "year": 2025, "type": "trial"},
+    {"id": 11, "title": "Ivarmacitinib in rheumatoid arthritis: phase III trial", "url": "https://pubmed.ncbi.nlm.nih.gov/39919893/", "source": "Ann Rheum Dis", "year": 2025, "type": "trial"},
+    {"id": 12, "title": "Large-scale meta-analysis of infection risk with JAK-STAT inhibitors", "url": "https://pubmed.ncbi.nlm.nih.gov/42187316/", "source": "JEADV", "year": 2026, "type": "review"},
+    {"id": 13, "title": "Major adverse cardiovascular events in atopic dermatitis treated with oral JAK inhibitors", "url": "https://pubmed.ncbi.nlm.nih.gov/37410552/", "source": "Br J Dermatol", "year": 2023, "type": "review"}
+  ],
+  "webSources": [
+    {"url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:40976531%20AND%20SRC:MED&resultType=core&format=json", "title": "Europe PMC record for the alopecia areata phase 3 trial"}
+  ]
+}

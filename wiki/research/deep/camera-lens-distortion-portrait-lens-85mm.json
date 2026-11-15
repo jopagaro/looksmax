@@ -1,22 +1,10 @@
 {
  "name": "Camera lens distortion (portrait lens 85mm)",
- "card": {
-  "summary": "Using a longer lens from farther back to reduce nose and face distortion; the optics are well documented.",
-  "aka": "85mm portrait lens, lens compression",
-  "evidence": "moderate",
-  "risk": "low",
-  "note": null,
-  "price": null
- },
- "quick": {
-  "overview": "Wide-angle lenses used up close enlarge features nearest the camera, such as the nose. Longer lenses, often cited as 85-135 mm, used from farther away flatten the effect.\n\nThe optics are described in photography references. No study has tested how this changes rated attractiveness.",
-  "mechanism": "Perspective is set mainly by camera-to-subject distance. A longer lens lets the photographer stand farther back while still framing the face, reducing relative size differences between facial features.",
-  "risks": "No health risks are documented."
- },
  "lead": [
   "Choosing a longer portrait lens, around 85 mm and up on a full-frame camera, and shooting from a greater distance is a photography technique used to make a face look more balanced in pictures. Perspective distortion makes features nearest the lens look larger: a face photographed up close with a wide-angle lens makes the nose appear bigger relative to the rest of the face, while a telephoto lens used from farther away makes it appear smaller.[1]",
   "Portrait photography references name roughly 85-135 mm (35 mm equivalent) as a good range for portraits, with 75-135 mm cited for head-and-shoulders shots, and note that very short lenses exaggerate the nose and shrink the ears.[1][2] People who care about how they look in photos, profile pictures and dating app images use this to get a face that looks closer to how others see it in person.",
-  "A 2018 study in JAMA Facial Plastic Surgery by Ward and colleagues examined nasal distortion in short-distance photographs, the so-called selfie effect, and a follow-up exchange in the same journal discussed whether perceived distortions in selfies reflect viewing habits.[3][4]"
+  "A 2018 study in JAMA Facial Plastic Surgery by Ward, Ward, Fried and Paskhover calculated that a camera 12 inches from the face enlarges apparent nose size by about 30 percent compared with a distant camera, and a follow-up letter by Cooper and Banks in the same journal argued that perceived selfie distortions reflect viewing habits.[3][4][6] Separately, a 2012 PLoS ONE study found that faces photographed from close range were rated lower on trustworthiness, competence and attractiveness than the same faces photographed from farther away.[7]",
+  "Because the effect depends on distance rather than on the lens itself, the practical advice in photography references is to use a lens long enough that the photographer can stand back while still framing the face.[1] Phone selfies, taken at arm's length with wide-angle front cameras, are the common case where the effect is most visible.[5]"
  ],
  "angle": {
   "goal": "Photo appearance",
@@ -42,38 +30,161 @@
    "Camera-to-subject distance[1]"
   ],
   [
+   "Nose enlargement at 12 in (30 cm)",
+   "About 30% vs. a distant camera (modelled)[6]"
+  ],
+  [
+   "Distance with negligible distortion",
+   "About 5 ft (1.5 m)[6]"
+  ],
+  [
+   "Equivalent on APS-C (1.5-1.6x crop)",
+   "Roughly 53-57 mm for an 85 mm full-frame framing[8]"
+  ],
+  [
    "Common context",
-   "Portraits, profile photos, selfies versus rear camera shots"
+   "Portraits, profile photos, dating-app photos, selfies"
   ]
  ],
  "sections": [
   {
    "h": "How it works",
    "paras": [
-    "Linear perspective is determined mainly by the camera's distance from the subject rather than by the lens itself; two shots from the same position have the same perspective geometry.[1] Wide-angle lenses are normally used close, and telephoto lenses from farther away, so lens choice and distance usually go together.[1]",
-    "Viewing distance also matters: viewing a wide-angle image from closer, or a telephoto image from farther away, reduces apparent distortion.[1] Extremely long lenses can flatten facial features excessively.[1]"
+    "Wikipedia states that linear perspective changes are caused by distance, not by the lens itself; two shots taken from the same position show identical perspective [1]. Wide-angle lenses are normally used closer to the subject and telephoto lenses from farther away, so lens choice and camera distance usually go together [1].",
+    "Wide-angle, or extension, distortion makes close objects look abnormally large and distant ones small. In portraits taken at short range, the nose can look oversized and expressions distorted [1]. Telephoto, or compression, distortion makes subjects at different distances look closer to the same size, which flattens depth [1]. In optical terms, axial magnification equals the square of transverse magnification [1].",
+    "Viewing distance also matters: viewing a wide-angle image from closer, or a telephoto image from farther away, reduces apparent distortion, and at a critical distance it disappears [1]. Extremely long lenses can flatten facial features more than is flattering [1]."
+   ]
+  },
+  {
+   "h": "Distance, not focal length",
+   "paras": [
+    "The study at the centre of the topic did not vary lens type at all. Ward and colleagues modelled the face as a set of parallel planes and used multiview geometry to compute how nasal breadth changes with camera distance, holding the width across the cheekbones constant. Their calculations used distances of 12 inches (about 30 cm), 5 feet (about 1.5 m) and infinity as the undistorted baseline, drawing on average facial measurements from a diverse US sample.[6]",
+    "At 12 inches the nose appeared about 30 percent larger in men and 29 percent larger in women than in the orthographic baseline; at 5 feet the difference was essentially nil. The distance between the nostrils' inner edges also looked about 7 percent greater at close range.[6] The authors concluded that short-distance photographs do not accurately reflect the nose's three-dimensional appearance and raised the question of whether habitual selfie-takers might judge surgical results differently.[6] In practice a longer lens is simply the tool that lets a photographer frame a face from the farther distance.[1][2]"
+   ]
+  },
+  {
+   "h": "Effect on how a face is judged",
+   "paras": [
+    "Bryan, Perona and Adolphs, in a 2012 PLoS ONE paper, photographed 18 unfamiliar men at the same moment from 45 cm and 135 cm through a half-silvered mirror so that expression was identical. Participants invested less in the close-range faces in a trust game, and rated them lower on trustworthiness, competence and attractiveness, with small effect sizes (Cohen's d roughly 0.14 to 0.31).[7] Digitally warping the far photos into the close-up geometry reproduced the pattern, which the authors took to mean the geometry itself carried the effect; verbal distance cues and image size did not change the ratings.[7]",
+    "The authors noted limits: the stimuli were white men, and the traits they measured were strongly intercorrelated, so the study could not say whether attractiveness drove the others.[7] They described the effect as implicit, since participants did not appear to notice the distance manipulation.[7]"
    ]
   },
   {
    "h": "Portrait lenses",
    "paras": [
-    "Portrait references describe moderate telephoto focal lengths as the traditional choice for flattering head-and-shoulders portraits, because they allow a comfortable distance and render facial proportions more evenly.[2] Phone selfie cameras, held at arm's length with wide fields of view, sit at the short-distance end of the range described in the literature on the selfie effect.[3]"
+    "Wikipedia gives 85 to 135 mm on a 35 mm camera as generally good for portraits [1] and 75 to 135 mm, with an angle of view of 18 to 32 degrees, as the classic head-and-shoulders range [2]. It suggests focal lengths of 1.5 to 2 times a normal lens are more flattering because of slight compression, with about 200 mm as an upper limit for comfortable portraiture on 35 mm [2]. For medium and large format the same framing needs roughly 150 to 400 mm [2].",
+    "The same article says shorter lenses require closer shooting, which enlarges the nose and shrinks the ears, and that wide-angle lenses suit environmental portraits showing the surroundings [2]. A 50 mm lens suits full-length figures, and a fast prime or a 70 to 200 mm zoom covers head-and-shoulders work [2]. Fast lenses give shallow depth of field, and stopping down one or two stops when focusing on the eyes keeps the whole face sharp [2].",
+    "Phone selfie cameras, held at arm's length with wide fields of view, sit at the short-distance end of the range described in the literature on the selfie effect [3]. Users who want their phone photos to look closer to how they appear in person often prop the phone further back, use a rear or telephoto camera or crop in later."
+   ]
+  },
+  {
+   "h": "Full-frame equivalents and phone cameras",
+   "paras": [
+    "Focal lengths in portrait advice are quoted in 35 mm (full-frame) equivalents. Wikipedia's crop-factor article explains that a smaller sensor narrows the field of view, so a 50 mm lens on a 1.6x crop body frames like an 80 mm lens on full frame, and matching an 85 mm full-frame framing on such a body takes roughly 53 to 57 mm.[8] Wikipedia also defines a normal lens as roughly matching the sensor diagonal (about 50 mm on full frame), with longer lenses compressing the view.[9]",
+    "Phone front cameras are wide-angle lenses and are usually held close, which Wikipedia says slims the face but exaggerates the nose and chin.[5] Wikipedia's selfie article cites a figure of up to 30 percent nasal exaggeration at 12 inches and the recommendation of about 5 feet to minimise it.[5] Users who want phone photos that look closer to how they appear in person often prop the phone farther back, use a rear or telephoto camera, or crop in afterwards."
+   ]
+  },
+  {
+   "h": "Perception research",
+   "paras": [
+    "Hertzmann's 2024 paper in the Journal of Vision reviews how people perceive perspective in pictures. It reports that viewers rarely look at wide-angle pictures from the geometrically correct distance and instead choose a viewing distance based on how much of their field of view the picture fills, and that telephoto shots compress space toward orthographic projection.[10] Cooper and Banks, in their 2018 letter, argued that perceived facial distortion in selfies is explained by viewing habits.[4]"
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Wikipedia dates the first dedicated portrait lens to the Petzval lens of 1840, with a 150 mm focal length and an f/3.6 aperture [2]. Perspective distortion has also been used deliberately in film, for example in Terry Gilliam's ultra-wide lens work and in telephoto compression used by Leni Riefenstahl [1]."
+   ]
+  },
+  {
+   "h": "Lighting and other portrait factors",
+   "paras": [
+    "Lens distance is one part of portrait craft. Wikipedia's portrait photography article lists a key light about 30 to 60 degrees from the camera, a fill light or reflector to soften shadows, soft light from softboxes or window light, and a wide aperture to isolate the subject, with stopping down one or two stops to keep the whole face sharp when focus is on the eyes.[2] Glamour photographers have also used deliberately soft-focus lenses to give a smoothing effect.[2]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "A 2018 JAMA Facial Plastic Surgery study examined how short-distance photographs distort the apparent size of the nose, the selfie effect.[3] A subsequent letter exchange discussed whether perceived selfie distortions are explained by viewing habits.[4] No studies of lens choice as a looksmaxxing practice were found."
+    "The Ward study is a geometric modelling study using average facial measurements, not a trial in patients, and found a roughly 30 percent apparent enlargement of the nose at 12 inches versus almost none at 5 feet.[6] Cooper and Banks published a letter in response arguing viewing habits explain perceived selfie distortion.[4] The Bryan 2012 experiments, with up to 268 online participants per experiment, tested social ratings of faces from different distances.[7] Wikipedia's selfie article reports a survey in which 42 percent of facial plastic surgeons said patients sought procedures to look better in photos.[5] No studies of lens choice as a looksmaxxing practice were found."
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing",
+   "paras": [
+    "Looksmaxxing communities discuss lens distance as a way to make a face look closer to how it appears in person, for profile pictures and dating-app photos, and as an explanation for why selfies can look different from photos taken by another person at a distance.[3][4] The selfie-effect authors framed the topic around how short-distance photos change apparent nose size, which is relevant to people considering rhinoplasty after seeing selfies.[6]",
+    "Wikipedia's Snapchat dysmorphia article describes surgeons' reports of patients seeking procedures to resemble filtered or edited selfies, a term coined by cosmetic surgeon Tijion Esho and discussed in a 2018 JAMA Facial Plastic Surgery essay from Boston Medical Center; it notes critics' concerns about unrealistic standards and body dysmorphic disorder and says surgeons are advised to screen for it.[11]"
    ]
   }
  ],
  "timeline": [
   {
+   "year": "1840",
+   "event": "The Petzval lens, described by Wikipedia as the first dedicated portrait lens, is developed.[2]"
+  },
+  {
+   "year": "1934",
+   "event": "A Swedish couple use a wooden stick to photograph themselves, later called the original selfie stick by the New York Times.[5]"
+  },
+  {
+   "year": "1983",
+   "event": "A telescopic extender for compact cameras is patented in Japan.[5]"
+  },
+  {
+   "year": "2012",
+   "event": "Bryan, Perona and Adolphs report that faces photographed from close range receive lower trust and attractiveness ratings.[7]"
+  },
+  {
    "year": "2018",
-   "event": "Ward, Ward, Fried and Paskhover publish a study of nasal distortion in short-distance photographs in JAMA Facial Plastic Surgery.[3]"
+   "event": "Ward, Ward, Fried and Paskhover publish a study of nasal distortion in short-distance photographs in JAMA Facial Plastic Surgery.[3][6]"
+  },
+  {
+   "year": "2018",
+   "event": "Cooper and Banks reply that perceived selfie distortions are explained by viewing habits.[4]"
+  },
+  {
+   "year": "2018",
+   "event": "Boston Medical Center researchers publish an essay on patients seeking surgery to match filtered selfies, later popularised as Snapchat dysmorphia.[11]"
+  },
+  {
+   "year": "2024",
+   "event": "Hertzmann publishes a theory of perspective perception in pictures in the Journal of Vision.[10]"
   }
  ],
- "lore": null,
+ "lore": {
+  "intro": "Photo angle and lens distance come up in looksmaxxing discussions of why a face looks different in selfies and in other people's photos [3][4].",
+  "claims": [
+   {
+    "claim": "Selfies make the nose look bigger than it is.",
+    "believers": "Users describe close-range selfies as exaggerating the nose and chin and move the camera farther away.",
+    "experts": "The 2018 JAMA study examined nasal distortion at short distances, and Wikipedia reports a figure of up to 30 percent exaggeration at 12 inches versus 5 feet [3][5].",
+    "evidence": "supported"
+   },
+   {
+    "claim": "The 85 mm lens is the flattering choice for faces.",
+    "believers": "Photography guides and forum users name 85 to 135 mm as the portrait range.",
+    "experts": "Wikipedia describes 85 to 135 mm as generally considered good for portraits, calls 200 mm an upper limit for comfortable 35 mm portraiture, and notes very long lenses can flatten features more than is flattering.[1][2]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "It is the distance, not the lens, that changes the face.",
+    "believers": "Photographers who stress this say a wide-angle shot cropped to match a long-lens shot from the same spot looks identical.",
+    "experts": "Wikipedia states linear perspective changes come from camera distance and not from the lens itself; the Ward study varied only distance.[1][6]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Close-up photos make you look less trustworthy and attractive.",
+    "believers": "Some users say selfie-distance photos make them look worse than other people's photos do.",
+    "experts": "Bryan and colleagues found faces photographed within personal space were rated lower on trust, competence and attractiveness, with small effect sizes, in a study of white male faces.[7]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Perceived selfie distortion is just a matter of viewing habits.",
+    "believers": "Some commenters say people judge close-up faces by habit.",
+    "experts": "A letter in JAMA Facial Plastic Surgery argued that perceived facial distortions in selfies are explained by viewing habits [4].",
+    "evidence": "mixed"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -106,6 +217,62 @@
    "source": "JAMA Facial Plastic Surgery",
    "year": 2018,
    "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Selfie",
+   "url": "https://en.wikipedia.org/wiki/Selfie",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 6,
+   "title": "Nasal Distortion in Short-Distance Photographs: The Selfie Effect (full text)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5876805/",
+   "source": "JAMA Facial Plastic Surgery",
+   "year": 2018,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Perspective distortion from interpersonal distance is an implicit visual cue for social judgments of faces",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3448657/",
+   "source": "PLoS ONE",
+   "year": 2012,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Crop factor",
+   "url": "https://en.wikipedia.org/wiki/Crop_factor",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 9,
+   "title": "Normal lens",
+   "url": "https://en.wikipedia.org/wiki/Normal_lens",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 10,
+   "title": "Toward a theory of perspective perception in pictures",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11055503/",
+   "source": "Journal of Vision",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "Snapchat dysmorphia",
+   "url": "https://en.wikipedia.org/wiki/Snapchat_dysmorphia",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
   }
  ],
  "webSources": [
@@ -124,6 +291,47 @@
   {
    "url": "https://pubmed.ncbi.nlm.nih.gov/29955808/",
    "title": "Perceived Facial Distortions in Selfies Are Explained by Viewing Habits"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Selfie",
+   "title": "Selfie - Wikipedia"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5876805/",
+   "title": "Nasal Distortion in Short-Distance Photographs (full text)"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3448657/",
+   "title": "Perspective distortion from interpersonal distance (Bryan et al. 2012)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Crop_factor",
+   "title": "Crop factor"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Normal_lens",
+   "title": "Normal lens"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11055503/",
+   "title": "Toward a theory of perspective perception in pictures"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Snapchat_dysmorphia",
+   "title": "Snapchat dysmorphia"
   }
- ]
+ ],
+ "card": {
+  "summary": "Using a longer lens from farther back to reduce nose and face distortion; the optics are well documented.",
+  "aka": "85mm portrait lens, lens compression",
+  "evidence": "moderate",
+  "risk": "low",
+  "note": null,
+  "price": null
+ },
+ "quick": {
+  "overview": "Wide-angle lenses used up close enlarge features nearest the camera, such as the nose. Longer lenses, often cited as 85-135 mm, used from farther away flatten the effect.\n\nThe optics are described in photography references. No study has tested how this changes rated attractiveness.",
+  "mechanism": "Perspective is set mainly by camera-to-subject distance. A longer lens lets the photographer stand farther back while still framing the face, reducing relative size differences between facial features.",
+  "risks": "No health risks are documented."
+ }
 }

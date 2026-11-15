@@ -1,26 +1,383 @@
 {
-"name":"Midface / cheek filler for tear trough",
-"card":{"summary":"Filler placed in the cheek to lift support under the eye instead of injecting the hollow itself; midface trials exist, tear-trough-by-cheek data is thin.","aka":"Malar augmentation, cheek filler, indirect tear trough correction","evidence":"limited","outcome":null,"risk":"moderate","price":null,"note":"Delayed complications and rare vascular events are documented with fillers.","structure":null},
-"quick":{"overview":"Midface or malar filler adds volume to the cheek. Proponents say that restoring cheek support can reduce the look of an under-eye hollow without injecting the thin eyelid skin directly, which is why it is discussed as an alternative approach.\n\nHyaluronic acid midface filler has been studied for cheek augmentation in its own right, including a systematic review and several registered trials. Trials aimed at the tear trough via the cheek were not found.","mechanism":"Filler adds volume to the cheek, which proponents say raises soft-tissue support and changes how light and shadow fall under the eye.","risks":"Fillers can cause bruising, swelling, lumps, and rarely vascular events including vision loss. A ten-year postmarket surveillance of a cheek filler examined delayed complications. Hyaluronic acid fillers can be dissolved with hyaluronidase, while calcium hydroxyapatite fillers are harder to remove."},
-"lead":["Midface or cheek filler is the injection of a dermal filler, most often hyaluronic acid (HA), into the malar area to restore volume.[1][2] In looksmaxxing discussions it is raised as a way to improve under-eye appearance by supporting the area from the cheek rather than treating the tear trough directly.[3]","A 2021 systematic review evaluated outcomes, safety and techniques of HA fillers for malar augmentation.[4] Postmarket surveillance of a flexible cheek filler has examined delayed complications over ten years.[5] The wiki found no trial designed specifically to treat the tear trough through cheek filler."],
-"infobox":[["Type","Injectable dermal filler"],["Common material","Hyaluronic acid"],["Alternative materials","Calcium hydroxyapatite, poly-L-lactic acid"],["US regulation","Fillers regulated as devices"]],
-"sections":[
-{"h":"Description","paras":["Fillers are injected mainly to change facial appearance, including restoring volume lost with age and enhancing the cheeks.[2] HA is the most common filler material, and effects are generally described as lasting months, varying with product and provider.[2]"]},
-{"h":"Safety and removal","paras":["Common effects include bruising, redness, pain and itching; rarer ones include infection, lumps and allergic reaction, and very rarely blindness from embolization.[2] A study of calcium hydroxyapatite (Radiesse) notes that it is semipermanent and, unlike some HA fillers, cannot easily be dissolved, and describes a technique to remove excess product.[6]"]},
-{"h":"Clinical studies","paras":["A 2021 systematic review covers HA midface augmentation outcomes and safety.[4] Registered trials include an HA filler for cheek flattening (NCT01225354, n=20), a mid-face volume trial (NCT07126912, n=30, recruiting), an 80-person trial of dermal fillers including mid-face (NCT07160777) and a 232-person trial of HA fillers (NCT04647513).[7][8][9][10] None is registered as a tear-trough study."]}],
-"timeline":[],
-"lore":{"intro":"On looksmax.org, cheek filler appears in plans that combine several procedures, with posters saying cheek volume would raise the cheeks and increase under-eye support.[11]","claims":[{"claim":"Cheek filler gives the under-eye area more support.","believers":"One poster planned about 1.5 ml per cheek to lift the cheeks and add under-eye support.[11]","experts":"Published midface studies assess malar augmentation and safety; none identified directly tests tear-trough improvement through cheek filler.[4]","evidence":"untested"}]},
-"refs":[
-{"id":1,"title":"Hyaluronic acid","url":"https://en.wikipedia.org/wiki/Hyaluronic_acid","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":2,"title":"Dermal filler","url":"https://en.wikipedia.org/wiki/Dermal_filler","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":3,"title":"Periorbital dark circles","url":"https://en.wikipedia.org/wiki/Periorbital_dark_circles","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":4,"title":"Hyaluronic Acid Fillers for Midface Augmentation: A Systematic Review","url":"https://pubmed.ncbi.nlm.nih.gov/33634456/","source":"Facial Plastic Surgery","year":2021,"type":"review"},
-{"id":5,"title":"Ten-Year Global Postmarket Safety Surveillance of Delayed Complications With a Flexible Cheek Filler","url":"https://pubmed.ncbi.nlm.nih.gov/36129206/","source":"Dermatologic Surgery","year":2022,"type":"study"},
-{"id":6,"title":"Radiesse Rescue: removal of calcium hydroxyapatite-based fillers","url":"https://pubmed.ncbi.nlm.nih.gov/36411258/","source":"Aesthetic Surgery Journal","year":2023,"type":"study"},
-{"id":7,"title":"Injectable Filler for Cheek Flattening (NCT01225354)","url":"https://clinicaltrials.gov/study/NCT01225354","source":"ClinicalTrials.gov","year":2010,"type":"trial"},
-{"id":8,"title":"Alcarisa for Restoration of Mid-face Volume (NCT07126912)","url":"https://clinicaltrials.gov/study/NCT07126912","source":"ClinicalTrials.gov","year":2025,"type":"trial"},
-{"id":9,"title":"Performance and Safety of Semical Dermal Fillers (NCT07160777)","url":"https://clinicaltrials.gov/study/NCT07160777","source":"ClinicalTrials.gov","year":2024,"type":"trial"},
-{"id":10,"title":"Three Injectable Hyaluronic Acid-based Fillers (NCT04647513)","url":"https://clinicaltrials.gov/study/NCT04647513","source":"ClinicalTrials.gov","year":2019,"type":"trial"},
-{"id":11,"title":"looksmax.org thread on eyelid, cheek and smile-line fillers","url":"https://looksmax.org/threads/im-an-upper-eyelid-filler-a-cheek-filler-a-smile-lines-filler-and-a-cycle-of-tren-away-from-being-a-chadlite.933011/","source":"looksmax.org","year":null,"type":"forum"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Hyaluronic_acid","title":"Hyaluronic acid"},{"url":"https://en.wikipedia.org/wiki/Dermal_filler","title":"Dermal filler"},{"url":"https://en.wikipedia.org/wiki/Periorbital_dark_circles","title":"Periorbital dark circles"}]
+ "name": "Midface / cheek filler for tear trough",
+ "card": {
+  "summary": "Filler placed in the cheek to lift support under the eye instead of injecting the hollow itself; midface trials exist, tear-trough-by-cheek data is thin.",
+  "aka": "Malar augmentation, cheek filler, indirect tear trough correction",
+  "evidence": "limited",
+  "outcome": null,
+  "risk": "moderate",
+  "price": null,
+  "note": "Delayed complications and rare vascular events are documented with fillers.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Midface or malar filler adds volume to the cheek. Proponents say that restoring cheek support can reduce the look of an under-eye hollow without injecting the thin eyelid skin directly, which is why it is discussed as an alternative approach.\n\nHyaluronic acid midface filler has been studied for cheek augmentation in its own right, including a systematic review and several registered trials. Trials aimed at the tear trough via the cheek were not found.",
+  "mechanism": "Filler adds volume to the cheek, which proponents say raises soft-tissue support and changes how light and shadow fall under the eye.",
+  "risks": "Fillers can cause bruising, swelling, lumps, and rarely vascular events including vision loss. A ten-year postmarket surveillance of a cheek filler examined delayed complications. Hyaluronic acid fillers can be dissolved with hyaluronidase, while calcium hydroxyapatite fillers are harder to remove."
+ },
+ "lead": [
+  "Midface or cheek filler is the injection of a dermal filler, most often hyaluronic acid (HA), into the cheek to restore or add volume.[1][2] In appearance discussions it is raised as an indirect way to improve the look of the under-eye area: instead of placing filler in the thin skin of the tear trough itself, volume is added to the cheek below it so the lid-cheek transition looks smoother.[16][18]",
+  "The tear trough is a groove that runs down and outward from the inner corner of the eye. Reviews describe it as related to the skin attachment along the lower orbital rim and to midface descent, becoming more visible as fat shifts downward and volume is lost with age.[17][16] Cosmetic physicians writing in review articles describe treating the midface first as a common sequence, called the indirect approach, with direct tear trough injection added afterwards in many patients.[18]",
+  "Research on this exact approach is limited. A 2021 systematic review evaluated outcomes, safety and techniques of HA fillers for malar augmentation,[4] and a 2023 review article on infraorbital hollow rejuvenation cites a cross-sectional survey of more than 3,500 people linking midface volume loss with tear trough severity, and one midface filler study in which satisfaction with the tear troughs rose at six months.[16] No registered trial identified in this research was designed with the tear trough as its primary target when treated through the cheek."
+ ],
+ "angle": {
+  "goal": "Under-eye and cheek contour",
+  "chain": [
+   "Hyaluronic acid filler adds volume to the cheek",
+   "Cheek support lifts and the lid-cheek transition smooths",
+   "Under-eye hollow and shadow look reduced"
+  ],
+  "effect": "claimed",
+  "text": "Practitioners describe adding volume to the midface so the cheek carries support that the under-eye hollow lacks, softening the groove without injecting the thin eyelid skin. The same procedure also gives a fuller cheek contour on its own."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Injectable dermal filler (midface / malar)"
+  ],
+  [
+   "Common material",
+   "Hyaluronic acid"
+  ],
+  [
+   "Alternative materials",
+   "Calcium hydroxyapatite, poly-L-lactic acid, autologous fat"
+  ],
+  [
+   "Target",
+   "Cheek volume, with indirect effect on infraorbital hollow"
+  ],
+  [
+   "Reversibility",
+   "HA dissolvable with hyaluronidase; calcium hydroxyapatite hard to remove"
+  ],
+  [
+   "Main reported risks",
+   "Bruising, nodules, Tyndall effect, vascular occlusion"
+  ],
+  [
+   "US regulation",
+   "Fillers regulated as devices"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Fillers are injected mainly to change facial appearance, including restoring volume lost with age and enhancing the cheeks.[2] HA is the most common filler material, and effects are generally described as lasting months, varying with product and provider.[2] Other cheek options in the literature include calcium hydroxyapatite and poly-L-lactic acid fillers, autologous fat, and solid cheek implants placed over the cheekbone.[12][6]",
+    "Cheek augmentation as a broader category aims at a higher or fuller cheek contour. Wikipedia describes malar implants sitting on the cheekbones for projection and submalar implants below them for a gaunt or sunken midface, with injections presented as a less invasive and less costly option that is eventually resorbed.[12]"
+   ]
+  },
+  {
+   "h": "Anatomy: why the cheek relates to the under-eye",
+   "paras": [
+    "A 2020 review credits Loeb in 1981 with describing the nasojugal fold and Flowers in 1993 with naming tear trough deformity, and says the orbitomalar ligament and progressive midface descent are considered central to it.[17] The same review states that tear trough ageing is strongly correlated to the midface and that understanding midface descent helped justify using fillers rather than fat.[17]",
+    "The Wikipedia article on periorbital dark circles notes that ageing reduces facial fat and thins skin, producing orbital rim and facial hollowing that can make the area under the eyes look darker; HA filler is listed among treatments for dark circles alongside laser and fat transfer.[3] A 2023 review adds that CT imaging shows inferior migration and volume shift of mid-facial fat compartments with ageing.[16]"
+   ]
+  },
+  {
+   "h": "How cheek filler is used for the under-eye area",
+   "subs": [
+    {
+     "h": "Indirect approach",
+     "paras": [
+      "A 2025 expert review in Aesthetic Surgery Journal Open Forum, summarised by filler manufacturer Teoxane, recommends midface volumisation and lifting, described as indirect techniques, before direct injection of the infraorbital area in many patients.[18] The 2023 review states that treating the midface may improve infraorbital appearance and that combination treatment may use lower total product volumes than treating each area separately; it was funded by Allergan Aesthetics, which makes fillers.[16]",
+      "Injection planes described in the literature include placement on or near bone for deeper support and more superficial placement for contour, with needles or blunt cannulas used depending on the region.[16][15]"
+     ]
+    },
+    {
+     "h": "Direct tear trough filler for comparison",
+     "paras": [
+      "HA gel injections for the tear trough were first reported in 2005, and a 2020 non-systematic review of 66 articles found only one randomised controlled trial, with most reports being case series or case reports.[17] The 2020 review states that HA does not treat dark pigmentation or sunken eyelids.[17]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Safety and removal",
+   "paras": [
+    "Common effects of fillers include bruising, redness, pain and itching; rarer ones include infection, lumps and allergic reaction, and very rarely blindness from embolisation.[2] The infraorbital region has thin skin and many small arteries and veins, and reviews of the area list vascular occlusion, Tyndall effect (bluish discolouration), nodules, persistent lower eyelid or malar swelling and pigment changes as reported complications.[16][17]",
+    "Recommendations in the infraorbital review include injecting slowly in small amounts, working on the bone along the rim, staging treatment and undercorrecting, and seeking ophthalmology or oculoplastic assessment urgently in suspected vascular occlusion.[16] Hyaluronidase is described as the usual way to dissolve HA filler, whereas a study of calcium hydroxyapatite (Radiesse) notes it is semipermanent, cannot easily be dissolved, and describes a technique to remove excess product.[17][6]",
+    "Overfilled syndrome is a described aesthetic complication in which repeated or poorly placed filler, including volume overload in the midface, distorts facial proportions; the authors attribute it to incorrect placement, product choice, overly zealous injectors and clients who chase lines.[14] A ten-year postmarket surveillance of a flexible cheek filler examined delayed complications.[5]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A 2021 systematic review covers HA midface augmentation outcomes, safety and administration techniques.[4] Registered trials include an HA filler for cheek flattening (NCT01225354, n=20), a mid-face volume trial (NCT07126912, n=30, recruiting), an 80-person trial of dermal fillers including mid-face (NCT07160777), a 232-person trial of HA fillers (NCT04647513), a 21-person study of a filler for nasolabial folds and cheek augmentation (NCT04534660) and a 30-person facial lipoatrophy trial (NCT05776836).[7][8][9][10][20][19]",
+    "None is registered as a tear-trough study. Evidence on the direct approach comes mainly from reviews rather than trials, and a 2024 review of periorbital rejuvenation states that dermal fillers can camouflage orbital fat pseudoherniation and tear trough deformity.[17][13]"
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing",
+   "paras": [
+    "On looksmax.org, cheek filler appears in multi-procedure plans alongside eyelid and smile-line filler, with posters describing cheek volume as lifting the cheeks and adding under-eye support.[11]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1981",
+   "event": "Loeb describes the nasojugal fold, the groove later associated with the tear trough.[17]"
+  },
+  {
+   "year": "1993",
+   "event": "Flowers names tear trough deformity and relates its correction to alloplastic implants.[17]"
+  },
+  {
+   "year": "2005",
+   "event": "First reports of HA gel injection for tear trough correction appear.[17]"
+  },
+  {
+   "year": "2010",
+   "event": "A phase 4 trial of injectable filler for cheek flattening (malar deficiency) starts.[7]"
+  },
+  {
+   "year": "2020",
+   "event": "A non-systematic review of 66 articles on HA for lower eyelid and tear trough finds one randomised trial.[17]"
+  },
+  {
+   "year": "2021",
+   "event": "Systematic review of HA fillers for midface augmentation published.[4]"
+  },
+  {
+   "year": "2022",
+   "event": "A systematic review of HA tear trough techniques and a ten-year cheek filler delayed-complication surveillance is published.[5]"
+  },
+  {
+   "year": "2023",
+   "event": "Review of infraorbital hollow rejuvenation and the contribution of midface volumisation published.[16]"
+  },
+  {
+   "year": "2025",
+   "event": "Expert review recommends midface volumisation before direct infraorbital treatment in many patients.[18]"
+  }
+ ],
+ "lore": {
+  "intro": "On looksmax.org, cheek filler appears in plans that combine several procedures, with posters saying cheek volume would raise the cheeks and increase under-eye support.[11]",
+  "claims": [
+   {
+    "claim": "Cheek filler gives the under-eye area more support.",
+    "believers": "One poster planned cheek filler to lift the cheeks and add under-eye support within a larger procedure plan.[11] Clinicians writing in review articles likewise describe midface volume as relevant to the infraorbital hollow.[16]",
+    "experts": "Published midface studies assess malar augmentation and safety.[4] A 2023 review reports that midface treatment may improve infraorbital appearance and is labelled Level of Evidence 5, meaning expert opinion.[16]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Treating the cheek first can reduce how much tear trough filler is needed.",
+    "believers": "Practitioners quoted in the manufacturer-summarised review say indirect treatment often comes before direct injection.[18]",
+    "experts": "The 2023 review states combination treatment may use lower total volumes; it was industry funded.[16]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Working away from the thin lid skin avoids visible tint or puffiness.",
+    "believers": "Proponents of the indirect approach describe it as a way to avoid placing product in the delicate lower eyelid.[18]",
+    "experts": "Reviews list Tyndall effect and chronic malar swelling among complications of direct tear trough filler, and midface and malar filler also carry reported risks including vascular events.[17][16]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Filler is reversible, so it is a low-commitment way to trial a change.",
+    "believers": "Forum discussion treats filler as a temporary option compared with surgery.[11]",
+    "experts": "Hyaluronidase dissolves HA filler, whereas calcium hydroxyapatite is described as hard to remove.[17][6]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Stacking cheek, eyelid and smile-line filler builds a better-looking face.",
+    "believers": "Forum plans combine cheek, upper eyelid and smile-line filler in one overall design.[11]",
+    "experts": "A 2024 review describes overfilled syndrome, in which volume overload in the midface and elsewhere distorts the face.[14]",
+    "evidence": "harms"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Hyaluronic acid",
+   "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Dermal filler",
+   "url": "https://en.wikipedia.org/wiki/Dermal_filler",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Periorbital dark circles",
+   "url": "https://en.wikipedia.org/wiki/Periorbital_dark_circles",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Hyaluronic Acid Fillers for Midface Augmentation: A Systematic Review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33634456/",
+   "source": "Facial Plastic Surgery",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Ten-Year Global Postmarket Safety Surveillance of Delayed Complications With a Flexible Cheek Filler",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36129206/",
+   "source": "Dermatologic Surgery",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Radiesse Rescue: removal of calcium hydroxyapatite-based fillers",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36411258/",
+   "source": "Aesthetic Surgery Journal",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Injectable Filler for Cheek Flattening (NCT01225354)",
+   "url": "https://clinicaltrials.gov/study/NCT01225354",
+   "source": "ClinicalTrials.gov",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Alcarisa for Restoration of Mid-face Volume (NCT07126912)",
+   "url": "https://clinicaltrials.gov/study/NCT07126912",
+   "source": "ClinicalTrials.gov",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Performance and Safety of Semical Dermal Fillers (NCT07160777)",
+   "url": "https://clinicaltrials.gov/study/NCT07160777",
+   "source": "ClinicalTrials.gov",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Three Injectable Hyaluronic Acid-based Fillers (NCT04647513)",
+   "url": "https://clinicaltrials.gov/study/NCT04647513",
+   "source": "ClinicalTrials.gov",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "looksmax.org thread on eyelid, cheek and smile-line fillers",
+   "url": "https://looksmax.org/threads/im-an-upper-eyelid-filler-a-cheek-filler-a-smile-lines-filler-and-a-cycle-of-tren-away-from-being-a-chadlite.933011/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 12,
+   "title": "Cheek augmentation",
+   "url": "https://en.wikipedia.org/wiki/Cheek_augmentation",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 13,
+   "title": "Periorbital Rejuvenation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38307635/",
+   "source": "Atlas of the Oral and Maxillofacial Surgery Clinics of North America",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 14,
+   "title": "Facial Overfilled Syndrome",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37977678/",
+   "source": "Dermatologic Clinics",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 15,
+   "title": "Mastering Midface Injections",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37169409/",
+   "source": "Clinics in Plastic Surgery",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 16,
+   "title": "Infraorbital Hollow Rejuvenation: Considerations, Complications, and the Contributions of Midface Volumization",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/10045888/",
+   "source": "Aesthetic Surgery Journal Open Forum",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 17,
+   "title": "Hyaluronic acid for lower eyelid and tear trough rejuvenation: review of the literature",
+   "url": "https://www.oaepublish.com/articles/2347-9264.2020.143",
+   "source": "Plastic and Aesthetic Research",
+   "year": 2020,
+   "type": "review"
+  },
+  {
+   "id": 18,
+   "title": "New Expert Review Provides Guidance on Safe and Effective Infraorbital Hollow Rejuvenation (manufacturer summary)",
+   "url": "https://www.teoxane.com/en/newsroom/expert-review-infraorbital-hollow-rejuvenation",
+   "source": "Teoxane",
+   "year": 2025,
+   "type": "news"
+  },
+  {
+   "id": 19,
+   "title": "Clinical trial NCT05776836: HA dermal fillers in facial lipoatrophy",
+   "url": "https://clinicaltrials.gov/study/NCT05776836",
+   "source": "ClinicalTrials.gov",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 20,
+   "title": "Clinical trial NCT04534660: SMI-01 tissue filler",
+   "url": "https://clinicaltrials.gov/study/NCT04534660",
+   "source": "ClinicalTrials.gov",
+   "year": 2020,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid",
+   "title": "Hyaluronic acid"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Dermal_filler",
+   "title": "Dermal filler"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Periorbital_dark_circles",
+   "title": "Periorbital dark circles"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Cheek_augmentation",
+   "title": "Cheek augmentation"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/10045888/",
+   "title": "Infraorbital Hollow Rejuvenation: Considerations, Complications, and the Contributions of Midface Volumization"
+  },
+  {
+   "url": "https://www.oaepublish.com/articles/2347-9264.2020.143",
+   "title": "Hyaluronic acid for lower eyelid and tear trough rejuvenation: review of the literature"
+  },
+  {
+   "url": "https://www.teoxane.com/en/newsroom/expert-review-infraorbital-hollow-rejuvenation",
+   "title": "New Expert Review Provides Guidance on Safe and Effective Infraorbital Hollow Rejuvenation (manufacturer summary)"
+  }
+ ]
 }

@@ -1,25 +1,211 @@
 {
-"name":"Motretinide",
-"lead":["Motretinide is an aromatic retinoid, an analogue of retinoic acid, classed as a topical anti-acne agent (ATC code D10AD05).[1][2] It has been described as a retinoid once used on the skin for acne; it is not among the retinoids in common use today.[1]","The published evidence is mostly from the 1980s: a comparison against benzoyl peroxide in acne vulgaris, animal assays of retinoid activity, and teratogenicity testing alongside other retinoids.[3][4][5] Discussion of it in looksmaxxing communities was not found in the available sources."],
-"infobox":[["Drug class","Aromatic retinoid"],["Route","Topical"],["Indication","Acne vulgaris"],["ATC code","D10AD05"],["Formula","C23H31NO2"],["Regulatory status","Not in common use; status not stated in sources"]],
-"sections":[
-{"h":"Uses","paras":["Motretinide was developed as a topical treatment for acne, grouped by reference works with retinoids such as tretinoin, isotretinoin, adapalene and tazarotene.[1][2]"]},
-{"h":"Clinical studies","paras":["A 1984 report in Dermatologica compared motretinide with benzoyl peroxide in the treatment of acne vulgaris.[3] Only the title was available in the sources reviewed, so its results are not summarized here.","Motretinide was also included in a 1984 rhino-mouse assay of the antikeratinizing effects of retinoids, an animal model, in which it was compared with all-trans-retinoic acid, 13-cis-retinoic acid and etretinate.[4]"]},
-{"h":"Pharmacology","paras":["Retinoids act by binding nuclear retinoid receptors, and review literature describes them as relatively selective in targeting skin structures.[1] Methods papers from the 1980s used motretinide among compounds when developing ways to measure the activity of topically applied retinoids.[4][6]"]},
-{"h":"Safety","paras":["Aromatic retinoids as a group have teratogenic potential. Motretinide was among the retinoids included in limb-bud cell culture work validating a teratogenicity screening system.[5] Transplacental studies in mice examined etretinate and other aromatic retinoids.[7]"]}
-],
-"timeline":[],
-"lore":null,
-"refs":[
-{"id":1,"title":"Retinoids--which dermatological indications will benefit in the near future?","url":"https://pubmed.ncbi.nlm.nih.gov/11586072/","source":"Skin Pharmacology and Applied Skin Physiology","year":2001,"type":"review"},
-{"id":2,"title":"Motretinide (Wikipedia)","url":"https://en.wikipedia.org/wiki/Motretinide","source":"Wikipedia","year":2024,"type":"encyclopedia"},
-{"id":3,"title":"Motretinide versus benzoyl peroxide in the treatment of acne vulgaris.","url":"https://pubmed.ncbi.nlm.nih.gov/6233188/","source":"Dermatologica","year":1984,"type":"study"},
-{"id":4,"title":"Topical and systemic effects of retinoids on horn-filled utriculus size in the rhino mouse.","url":"https://pubmed.ncbi.nlm.nih.gov/6206163/","source":"Journal of Investigative Dermatology","year":1984,"type":"study"},
-{"id":5,"title":"Limb bud cell cultures for estimating the teratogenic potential of compounds. Validation of the test system with retinoids.","url":"https://pubmed.ncbi.nlm.nih.gov/2444191/","source":"Archives of Toxicology","year":1987,"type":"study"},
-{"id":6,"title":"Techniques for assessing the activity of topically applied retinoids.","url":"https://pubmed.ncbi.nlm.nih.gov/3534018/","source":"Journal of the American Academy of Dermatology","year":1986,"type":"review"},
-{"id":7,"title":"Transplacental pharmacokinetics of teratogenic doses of etretinate and other aromatic retinoids in mice.","url":"https://pubmed.ncbi.nlm.nih.gov/2980988/","source":"Reproductive Toxicology","year":1988,"type":"study"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Motretinide","title":"Motretinide - Wikipedia"}],
-"card":{"summary":"A largely historical topical acne retinoid with a 1984 trial against benzoyl peroxide and little modern literature.","aka":null,"evidence":"limited","status":"rx","outcome":null,"risk":null,"price":null,"note":"Not in common use; retinoids as a class carry teratogenicity concerns.","structure":"Motretinide"},
-"quick":{"overview":"Motretinide is an older topical retinoid that was used for acne. Wikipedia describes it as an aromatic analogue of retinoic acid and a stub-level entry.\n\nMost published work dates from the 1980s, including one comparison with benzoyl peroxide.","mechanism":"Like other retinoids it acts through nuclear retinoid receptors in skin cells, affecting keratinization; animal assays from the 1980s measured this antikeratinizing effect.","risks":"Aromatic retinoids as a class have teratogenic potential, and motretinide was included in teratogenicity screening work. Current regulatory and marketing status is not stated in the sources reviewed."}
+ "lead": [
+  "Motretinide is an aromatic retinoid, an analogue of retinoic acid, classed as a topical anti-acne agent (ATC code D10AD05).[1][2] A 1987 review describes it as the ethylamide of tretinoin and reports it as effective in the local treatment of acne, and a 1986 overview notes that it was in use in Europe at the time.[3][4] Its appearance purpose is clearer skin: like other retinoids it acts on the abnormal keratinisation that begins acne lesions, with the aim of fewer breakouts and a smoother-looking complexion.[4][5]",
+  "The published evidence is mostly from the 1980s: an open comparison of motretinide 0.1 percent vanishing cream with benzoyl peroxide 5 percent gel in 30 people with acne vulgaris, human studies of its effects on skin turnover in normal subjects and in ichthyosis, animal assays of retinoid activity, and teratogenicity testing alongside other retinoids.[5][6][7][8] It is not among the retinoids in common use today.[1]"
+ ],
+ "angle": {
+  "goal": "Acne and skin texture",
+  "chain": [
+   "Topical retinoid applied to acne-prone skin",
+   "Normalises keratinisation and increases skin cell turnover and desquamation",
+   "Fewer clogged-pore lesions and smoother-looking skin"
+  ],
+  "effect": "direct",
+  "text": "Motretinide was developed as a cream for acne, where retinoids reduce the plugging of pores. A 1984 comparison reported good results with a 0.1 percent vanishing cream, and a 1986 study showed it speeds epidermal renewal and shedding in normal skin."
+ },
+ "infobox": [
+  [
+   "Drug class",
+   "Aromatic retinoid; ethylamide of tretinoin [2][3]"
+  ],
+  [
+   "Route",
+   "Topical"
+  ],
+  [
+   "Indication",
+   "Acne vulgaris"
+  ],
+  [
+   "ATC code",
+   "D10AD05 [2]"
+  ],
+  [
+   "Formula",
+   "C23H31NO2"
+  ],
+  [
+   "Development code",
+   "Ro 11-1430 [4]"
+  ],
+  [
+   "Regulatory status",
+   "Not in common use; used in Europe in the 1980s [4]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Uses",
+   "paras": [
+    "Motretinide was developed as a topical treatment for acne, grouped by reference works with retinoids such as tretinoin, isotretinoin, adapalene and tazarotene.[1][2] A 1986 overview compared tretinoin with motretinide (Ro 11-1430), describing it as a topical retinoid then used in Europe.[4] The 1984 comparison trial concluded that motretinide is an alternative for treating papulopustular acne in young adults.[5]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A 1984 report in Dermatologica compared motretinide 0.1 percent vanishing cream with benzoyl peroxide 5 percent gel in an open study of 30 patients with acne vulgaris. Both groups achieved good results; benzoyl peroxide caused local irritation in 73 percent of patients, whereas motretinide was well tolerated except in one case.[5]",
+    "A 1986 study in the Journal of the American Academy of Dermatology examined tretinoin and motretinide in normal subjects and in patients with ichthyosis. Both compounds increased the rate of epidermal cell production and desquamation, measured with a dansyl chloride test, and changed the cytochemical profile of the epidermis in ways that differed somewhat from systemic etretinate; ultrasound and laser Doppler flowmetry showed only minor changes in dermal structure and blood vessels, probably because the application time was short.[6]",
+    "A retrospective analysis of 11 retinoids found that the mouse therapeutic index correctly sorted them for activity in human psoriasis, with one exception: motretinide had a favourable index but did not show antipsoriatic activity in the clinic, which the authors attributed to different metabolism in humans and mice.[7] A 1984 rhino-mouse assay compared motretinide with all-trans-retinoic acid, 13-cis-retinoic acid and etretinate for antikeratinising effects, an animal model.[8]"
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "paras": [
+    "Retinoids bind and activate nuclear retinoid receptors, which act as dimers and interact with other signalling pathways such as AP-1; review literature describes them as pleiotropic with a relatively selective effect on skin structures.[1] Topical retinoids at the time of the 1986 studies produced marked effects on epidermal cell production and desquamation.[6]",
+    "Methods papers from the 1980s used motretinide among compounds when developing ways to measure the activity of topically applied retinoids, including the rhino-mouse utriculus model of antikeratinising effect.[6][8]"
+   ]
+  },
+  {
+   "h": "Chemistry",
+   "paras": [
+    "Motretinide is described as N-ethyl-3-methoxy-2-methyl-1,2,3,4-tetradehydro-17-norretinamide, with the molecular formula C23H31NO2 (about 353.5 g/mol) and CAS number 56281-36-8; Wikipedia's entry is a stub citing a 2001 review by Zouboulis.[2]"
+   ]
+  },
+  {
+   "h": "Safety",
+   "paras": [
+    "Aromatic retinoids as a group have teratogenic potential. Motretinide was among the retinoids included in limb-bud cell culture work validating a teratogenicity screening system.[9] Transplacental studies in mice examined etretinate and other aromatic retinoids.[10] In the 1984 acne comparison, motretinide was reported as well tolerated, with one exception.[5]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Motretinide appears in reviews of retinoid development as one of the newer synthetic retinoids of the 1980s, alongside arotinoids and etretin.[3] Discussion of it in looksmaxxing communities was not found; retinoid use for appearance in those communities centres on other compounds."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1984",
+   "event": "Open study compares motretinide 0.1% vanishing cream with benzoyl peroxide 5% gel in 30 acne patients; rhino-mouse retinoid assay published.[5][8]"
+  },
+  {
+   "year": "1986",
+   "event": "Human study of tretinoin and motretinide effects on epidermal turnover; overview of other topical retinoids.[4][6]"
+  },
+  {
+   "year": "1987",
+   "event": "Review lists motretinide among new retinoids; limb-bud teratogenicity system validated with retinoids.[3][9]"
+  },
+  {
+   "year": "2001",
+   "event": "Review of retinoid dermatological indications lists motretinide.[1]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Retinoids--which dermatological indications will benefit in the near future?",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11586072/",
+   "source": "Skin Pharmacology and Applied Skin Physiology",
+   "year": 2001,
+   "type": "review"
+  },
+  {
+   "id": 2,
+   "title": "Motretinide (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Motretinide",
+   "source": "Wikipedia",
+   "year": 2024,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "New indications and new retinoids",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/3319725/",
+   "source": "Dermatologica",
+   "year": 1987,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Overview of other topical retinoids",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2945845/",
+   "source": "Journal of the American Academy of Dermatology",
+   "year": 1986,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Motretinide versus benzoyl peroxide in the treatment of acne vulgaris",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6233188/",
+   "source": "Dermatologica",
+   "year": 1984,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Techniques for assessing the activity of topically applied retinoids",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/3534018/",
+   "source": "Journal of the American Academy of Dermatology",
+   "year": 1986,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "The relevance of the mouse papilloma test as a predictor of retinoid activity in human psoriasis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2407574/",
+   "source": "Dermatologica",
+   "year": 1990,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Topical and systemic effects of retinoids on horn-filled utriculus size in the rhino mouse",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6206163/",
+   "source": "Journal of Investigative Dermatology",
+   "year": 1984,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "Limb bud cell cultures for estimating the teratogenic potential of compounds. Validation of the test system with retinoids",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2444191/",
+   "source": "Archives of Toxicology",
+   "year": 1987,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Transplacental pharmacokinetics of teratogenic doses of etretinate and other aromatic retinoids in mice",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2980988/",
+   "source": "Reproductive Toxicology",
+   "year": 1988,
+   "type": "study"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Motretinide",
+   "title": "Motretinide - Wikipedia"
+  }
+ ],
+ "name": "Motretinide",
+ "card": {
+  "summary": "A largely historical topical acne retinoid with a 1984 trial against benzoyl peroxide and little modern literature.",
+  "aka": null,
+  "evidence": "limited",
+  "status": "rx",
+  "outcome": null,
+  "risk": null,
+  "price": null,
+  "note": "Not in common use; retinoids as a class carry teratogenicity concerns.",
+  "structure": "Motretinide"
+ },
+ "quick": {
+  "overview": "Motretinide is an older topical retinoid that was used for acne. Wikipedia describes it as an aromatic analogue of retinoic acid and a stub-level entry.\nMost published work dates from the 1980s, including one comparison with benzoyl peroxide.",
+  "mechanism": "Like other retinoids it acts through nuclear retinoid receptors in skin cells, affecting keratinization; animal assays from the 1980s measured this antikeratinizing effect.",
+  "risks": "Aromatic retinoids as a class have teratogenic potential, and motretinide was included in teratogenicity screening work."
+ }
 }

@@ -10,13 +10,14 @@
   "structure": null
  },
  "quick": {
-  "overview": "Eight Sleep makes a bed cover that actively heats or cools the sleeping surface and tracks sleep.\n\nReviewers praise the temperature control; the product has not been tested for appearance outcomes in the sources reviewed.",
+  "overview": "Eight Sleep makes a bed cover that actively heats or cools the sleeping surface and tracks sleep.\nReviewers praise the temperature control; the product has not been tested for appearance outcomes.",
   "mechanism": "The cover circulates temperature-controlled water through the bed and adjusts via an app.",
   "risks": "A 2025 cloud outage left some units overheating, and most features require a subscription since 2023."
  },
  "lead": [
   "Eight Sleep is an American company founded in 2014 that sells temperature-controlled bedding, notably the Pod smart mattress cover, which actively heats or cools the bed and tracks sleep. People in sleep-optimization circles buy it to hold a cool sleeping surface through the night. [1]",
   "The appearance case for it runs through sleep. In a 2013 laboratory study at the Karolinska Institute, photographs of 10 people taken after 31 hours without sleep were rated by 40 observers as showing hanging eyelids, redder and more swollen eyes, darker circles, paler skin, more fine lines and droopier mouth corners than photos after normal sleep. [2] Users therefore treat anything that helps them sleep well, including a cooler bed, as part of looking rested.",
+  "The physiological idea behind a cooled bed is that core body temperature begins dropping about two hours before bedtime and reaches its lowest point in the early morning; the Sleep Foundation reports that warm rooms are linked to less deep sleep, lower sleep efficiency and more awakenings, and recommends a bedroom of roughly 18 to 20 degrees C.[8]",
   "Reviewers have praised the Pod's temperature control, though a later review said similar features are available elsewhere for less; since February 2023 most functions require a subscription. [1] No published trial has tested Eight Sleep products for appearance outcomes."
  ],
  "angle": {
@@ -70,9 +71,24 @@
    ]
   },
   {
+   "h": "Temperature and sleep",
+   "paras": [
+    "The Sleep Foundation's overview describes core temperature as sitting near 37 degrees C and fluctuating by about 1 degree overnight. The body cools mainly by moving heat from the core to the hands and feet, which is why they can feel warm at night, and chronically cold feet are linked to a higher risk of sleep-onset insomnia.[8]",
+    "It reports that warm rooms are associated with fatigue, less slow-wave sleep and lower sleep efficiency, while cold rooms are considered less harmful than heat but may affect REM sleep and blood pressure; a larger gap between core and extremity temperature is associated with lower sleep efficiency.[8] Its reference list includes a 2018 study on high-heat-capacity mattresses, though the overview does not discuss the findings.[8] These general findings concern room and bed temperature rather than Eight Sleep products specifically."
+   ]
+  },
+  {
    "h": "History",
    "paras": [
-    "Eight Sleep was founded in 2014 by Matteo Franceschetti, Massimo Andreasi Bassi, Andrea Ballarini and Alexandra Zatarain, and funded early projects through a 2015 crowdfunding campaign. It later raised venture rounds, including a 2021 Series C led by Valor Equity Partners, acquired Span Health in 2022, and expanded to the United Arab Emirates in November 2024. A $50 million round was reported in March 2026. [1][3]"
+    "Eight Sleep was founded in 2014 by Matteo Franceschetti, Massimo Andreasi Bassi, Andrea Ballarini and Alexandra Zatarain, and funded early projects through a 2015 crowdfunding campaign. It later raised venture rounds, including a 2021 Series C led by Valor Equity Partners, acquired Span Health in 2022, and expanded to the United Arab Emirates in November 2024. A $50 million round was reported in March 2026. [1][3]",
+    "Wikipedia reports a Series B round in 2018 and a 2021 Series C led by Valor Equity Partners with SoftBank and Founders Fund participating, with TechCrunch reporting $86 million raised that year, and states that the March 2026 round was led by Tether's investment arm.[1][3] The company cited studies that 40 percent of UAE residents struggle with sleep quality when announcing its November 2024 expansion there.[1]"
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing and buying considerations",
+   "paras": [
+    "In sleep-optimisation and biohacking circles the Pod is treated as a way to hold a cool sleeping surface and track sleep, with the aim of waking rested and with less puffiness and fatigue around the eyes.[2][8] Reviewers differ on its value: The Strategist in 2021 described it as the only product of its type offering perceptible temperature control, and a later review said its temperature features are easily found elsewhere for less.[1]",
+    "Points people weigh include the hardware price, the roughly $180 to $288 yearly subscription required since February 2023 for most functions including sleep tracking and variable temperature control, dependence on a cloud connection, and the availability of an unofficial open-source offline project since July 2025.[1] Other approaches the Sleep Foundation lists include breathable bedding and sleepwear, a fan or air conditioning, a lower thermostat at night, and a warm bath an hour or two before bed.[8] The Sleep Foundation states that it does not endorse third-party products.[8]"
    ]
   },
   {
@@ -84,7 +100,8 @@
   {
    "h": "Controversy",
    "paras": [
-    "On October 20, 2025, an Amazon Web Services outage left some mattresses overheating or unable to cool; the founder apologized and Eight Sleep said it would add an offline 'outage mode'. [1][4][5] An unofficial open-source project has offered offline operation since July 2025. [1] Hacker News also carried threads in 2024 and 2025 on researchers gaining root access to a Pod 3 and on a back door allowing company engineers remote access to beds. [6][7]"
+    "On October 20, 2025, an Amazon Web Services outage left some mattresses overheating or unable to cool; the founder apologized and Eight Sleep said it would add an offline 'outage mode'. [1][4][5] An unofficial open-source project has offered offline operation since July 2025. [1] Hacker News also carried threads in 2024 and 2025 on researchers gaining root access to a Pod 3 and on a back door allowing company engineers remote access to beds. [6][7]",
+    "As of January 2026 Wikipedia says the promised offline mode had not been released.[1] Hacker News commenters discussed the issues as a case of cloud-dependent hardware, with threads on the AWS outage, the offline mode and the company's remote access to beds.[4][5][6][9]"
    ]
   },
   {
@@ -116,7 +133,29 @@
    "event": "AWS outage disrupts Pod cooling; company promises an outage mode. [1][4]"
   }
  ],
- "lore": null,
+ "lore": {
+  "intro": "Eight Sleep is discussed mainly in sleep-optimisation, biohacking and technology communities such as Hacker News rather than in appearance forums; threads focus on cloud dependence, remote access and the subscription model.[4][5][6][7][9]",
+  "claims": [
+   {
+    "claim": "A cooled bed improves sleep and so how rested you look",
+    "believers": "Owners and the company describe the Pod as sleep fitness, holding a cool surface through the night to deepen sleep.[1]",
+    "experts": "The Sleep Foundation reports that warm rooms are linked to less slow-wave sleep and lower sleep efficiency; the 2013 Sleep study links sleep loss to visible fatigue cues, but no trial has tested Eight Sleep for sleep or appearance.[2][8]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Its temperature control is unmatched",
+    "believers": "A 2021 review in The Strategist called the Pod the only product of its type offering perceptible temperature control.[1]",
+    "experts": "A later review from the same publication said the temperature features are easily found elsewhere for less.[1]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Connected beds carry cloud and security risks",
+    "believers": "Hacker News posters pointed to the October 2025 AWS outage that left some beds overheating, the researcher who gained root access to a Pod 3, and a back door allowing engineer access.[4][5][6][7][9]",
+    "experts": "Wikipedia reports the outage and the founder's apology, with an offline mode promised but, as of January 2026, not released.[1]",
+    "evidence": "harms"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -173,6 +212,22 @@
    "source": "Hacker News",
    "year": 2024,
    "type": "news"
+  },
+  {
+   "id": 8,
+   "title": "Best Temperature for Sleep",
+   "url": "https://www.sleepfoundation.org/bedroom-environment/best-temperature-for-sleep",
+   "source": "Sleep Foundation",
+   "year": 2025,
+   "type": "guideline"
+  },
+  {
+   "id": 9,
+   "title": "Eight Sleep CEO: AWS outage has impacted user, disrupting their sleep",
+   "url": "https://news.ycombinator.com/item?id=45664589",
+   "source": "Hacker News",
+   "year": 2025,
+   "type": "news"
   }
  ],
  "webSources": [
@@ -183,6 +238,10 @@
   {
    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3738045",
    "title": "Cues of Fatigue: Effects of Sleep Deprivation on Facial Appearance (PMC)"
+  },
+  {
+   "url": "https://www.sleepfoundation.org/bedroom-environment/best-temperature-for-sleep",
+   "title": "Best Temperature for Sleep - Sleep Foundation"
   }
  ]
 }

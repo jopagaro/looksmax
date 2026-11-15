@@ -1,9 +1,20 @@
 {
  "name": "Liarozole",
  "lead": [
-  "Liarozole is an investigational imidazole-type drug classed as a retinoic acid metabolism blocking agent (RAMBA). It inhibits the cytochrome P450 enzyme that breaks down all-trans-retinoic acid, raising retinoic acid levels in tissues, and it also inhibits aromatase and CYP17A1 [3][7]. It was studied orally for psoriasis, ichthyosis and prostate cancer [5][8][1].",
-  "It is not an approved cosmetic and its interest to appearance communities is indirect, as a forerunner of newer retinoic acid blockers such as talarozole. Published trials concern skin disorders, not cosmetic skin ageing."
+  "Liarozole is an investigational imidazole-type drug classed as a retinoic acid metabolism blocking agent (RAMBA). It inhibits the cytochrome P450 enzyme that breaks down all-trans-retinoic acid, the body's own active form of vitamin A, so retinoic acid levels in skin and other tissues stay higher for longer. It also inhibits aromatase and CYP17A1 [3][7].",
+  "The appearance connection runs through retinoic acid. Retinoids shape how epithelial cells differentiate and multiply, which is why topical tretinoin and oral retinoids are central to skin texture, acne and keratinization treatments. Liarozole was an early attempt to reach the same pathway from the other side, by slowing the breakdown of retinoic acid already made in the body instead of supplying a synthetic retinoid [3][4]. Newer, more selective blockers such as talarozole and DX314 are discussed in the same context [9].",
+  "Liarozole was studied orally in psoriasis, palmoplantar pustular psoriasis, lamellar ichthyosis and several cancers, including prostate, lung and breast cancer [5][8][1][10][11][12]. It is not an approved cosmetic, and published trials concern skin diseases of keratinization and inflammation rather than cosmetic skin ageing."
  ],
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "Blocks CYP26 breakdown of retinoic acid",
+   "Raises the skin's own retinoic acid levels",
+   "Retinoid-like effects on keratinization and cell turnover"
+  ],
+  "effect": "claimed",
+  "text": "Liarozole acts on the same retinoic acid pathway that tretinoin and other retinoids use to change skin texture and cell turnover. Trials used it for skin diseases such as psoriasis and ichthyosis, where improved scaling and pustule counts were the outcomes measured."
+ },
  "infobox": [
   [
    "Class",
@@ -14,8 +25,12 @@
    "Oral"
   ],
   [
+   "Development code",
+   "R 75,251 [11]"
+  ],
+  [
    "Studied for",
-   "Psoriasis, lamellar ichthyosis, prostate cancer"
+   "Psoriasis, lamellar ichthyosis, prostate, lung and breast cancer"
   ],
   [
    "Status",
@@ -24,16 +39,70 @@
  ],
  "sections": [
   {
+   "h": "Uses",
+   "subs": [
+    {
+     "h": "Appearance-related interest",
+     "paras": [
+      "Liarozole's relevance to how skin looks comes from the diseases it was tested in. Lamellar ichthyosis involves thick, visible scaling over much of the body, and psoriasis produces raised scaly plaques; in the trials, outcomes were scored on scaling, global severity and quality-of-life measures [17][5]. Dermatologists have discussed RAMBAs as a way to achieve retinoid-like effects on keratinization by raising the skin's own retinoic acid, as an alternative to taking synthetic retinoids [3][4]."
+     ]
+    }
+   ]
+  },
+  {
    "h": "Pharmacology",
+   "paras": [],
+   "subs": [
+    {
+     "h": "Mechanism of action",
+     "paras": [
+      "All-trans-retinoic acid is the principal active metabolite of vitamin A and a regulator of differentiation and proliferation in epithelial tissue. It is cleared by cytochrome P450 enzymes of the CYP26 family, which convert it to 4-hydroxy derivatives [3][13]. Liarozole blocks this clearance. In animal studies it produced retinoid-like effects in vivo, consistent with higher tissue retinoic acid [6][3].",
+      "Reviews describe the RAMBA approach as an alternative to retinoid therapy: raising endogenous retinoic acid in place of dosing a synthetic retinoid, with the aim of fewer adverse effects and, in cancer, avoiding the acceleration of retinoic acid metabolism that can limit ATRA treatment [3][4][13]. Early laboratory work found that liarozole enhanced retinoic-acid-induced responses in cell lines and, in rodents, reduced growth of prostate tumours and inhibited tumour promotion in mouse skin [10]. It also inhibited vitamin D 24-hydroxylase in prostate cancer cells, which made the cells more responsive to calcitriol [2].",
+      "Liarozole is not selective. It also inhibits aromatase and CYP17A1, so it affects steroid synthesis, which is why it was explored in hormone-driven cancers as well as in skin disease [7][12][14]. A 2021 dermatology paper notes that liarozole and talarozole have tended to cause fewer adverse effects than traditional retinoids but lack target specificity, and presents the more selective CYP26B1 inhibitor DX314 as an alternative for keratinization disorders [9]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Chemistry",
    "paras": [
-    "Retinoic acid is cleared by CYP26 enzymes. Liarozole blocks this clearance and in animal studies produced retinoid-like effects in vivo [6][3]. Reviews of RAMBAs discuss them as an approach to dermatological disease and cancer that raises endogenous retinoic acid rather than supplying a synthetic retinoid [3][4]. Laboratory work also showed liarozole inhibiting vitamin D 24-hydroxylase in prostate cancer cells [2]."
+    "Wikipedia gives the formula as C17H13ClN4 (molar mass about 308.77 g/mol) and describes liarozole as a benzimidazole and imidazole derivative bearing a 3-chlorophenyl group; it is a structural isomer of alprazolam but pharmacologically unrelated to it [7]. Wikipedia files it with the retinoic acid metabolism inhibitors alongside talarozole [7]."
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Liarozole was developed under the code R 75,251 and first characterised as an antitumour agent that inhibits retinoic acid breakdown [10]. A 1992 study showed that it exerts retinoid-mimetic effects in vivo [6]. Clinical work in the 1990s covered advanced prostate cancer, including a large randomized trial against cyproterone acetate and a trial against prednisone, plus smaller phase II studies in lung and breast cancer [11][1][15][12]. A 1996 drug profile and later reviews describe it as the most studied RAMBA to reach clinical investigation [3][13].",
+    "In dermatology, an open, uncontrolled study reported improvement in psoriasis, which prompted a multicentre dose-ranging trial in psoriasis vulgaris published in 2000 and a pilot randomized trial in palmoplantar pustular psoriasis published in 2001 [16][5]. A phase II/III trial in lamellar ichthyosis began in 2006 and its results were published in 2014 [8][17]."
+   ]
+  },
+  {
+   "h": "Reported adverse effects",
+   "paras": [
+    "In the palmoplantar pustular psoriasis trial the most common events were itching, cheilitis and dry skin, the mucocutaneous pattern typical of retinoid exposure [5]. In the lung cancer phase II study, grade 2 toxicities included alopecia and dermatological toxicity in single patients [18]. Because liarozole also inhibits steroid synthesis enzymes, its endocrine effects were studied in men with prostate cancer [7][11]."
+   ]
+  },
+  {
+   "h": "Research directions",
+   "paras": [
+    "Liarozole was never approved, and later RAMBAs were designed for greater selectivity for CYP26. Talarozole is one, and DX314, a CYP26B1-selective inhibitor, was shown in reconstructed human epidermis and a mouse model to potentiate the effects of all-trans-retinoic acid and appeared to support epidermal barrier integrity [9]. Liarozole has also appeared in laboratory work on extracellular matrix formation in cultured leiomyoma cells [20]."
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Liarozole has no marketing authorization. The Wikipedia article treats it as an investigational retinoic acid metabolism blocker and cites the 2013 ichthyosis trial as its main reported study [7]. Discussion of it outside the research literature is minimal; its descendants, such as the CYP26B1-selective DX314 reported in 2021, are the focus of current dermatology interest in this pathway [9]."
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
     "In a randomized, double-blind pilot trial of 15 people with palmoplantar pustular psoriasis, oral liarozole 75 mg twice daily for 12 weeks produced significantly lower disease scores and fewer fresh pustules than placebo. The most common side effects were itching, cheilitis and dry skin; none led to withdrawal [5].",
-    "A randomized phase II/III trial in lamellar ichthyosis enrolled 98 people [8]. An earlier open trial in androgen-independent prostate cancer compared liarozole with prednisone [1]. No studies in cosmetic or photoaging use were found."
+    "A multicentre, double-blind, placebo-controlled dose-ranging study in adults with psoriasis vulgaris set out to find the lowest effective oral dose after the open study had reported improvement [16].",
+    "A randomized, double-blind, multinational phase II/III trial in people with moderate to severe lamellar ichthyosis compared two liarozole doses with placebo [8][17].",
+    "In oncology, a large randomized trial compared liarozole with cyproterone acetate in advanced prostate cancer, an open trial compared it with prednisone in androgen-independent disease, and phase II studies enrolled people with hormone-resistant prostate cancer, non-small cell lung cancer (14 participants, described as well tolerated) and receptor-positive breast cancer [11][1][15][18][12]. A network meta-analysis of treatments for palmoplantar pustular psoriasis, published in 2025, covered biologic and non-biologic options and is a reference point for where the field has moved [19].",
+    "No studies in cosmetic or photoaging use were found.",
+    "In the ichthyosis phase II/III trial, participants aged 14 and older with moderate or severe lamellar ichthyosis were randomized 3:3:1 to once-daily oral liarozole 75 mg, 150 mg or placebo for 12 weeks. Of 64 enrolled, 41 percent (11 of 27) on 75 mg and 50 percent (14 of 28) on 150 mg reached the primary endpoint, a drop of at least two points on the Investigator's Global Assessment, against 11 percent (1 of 9) on placebo. The 150 mg comparison with placebo did not reach statistical significance (P = 0.056), which the authors attributed possibly to small numbers after the trial ended early. Both liarozole groups showed larger reductions in scaling and global scores than placebo at weeks 8 and 12 and improved Dermatology Life Quality Index scores, while erythema and itch scores were similar across groups; the authors described the drug as well tolerated over 12 weeks [17]."
    ]
   }
  ],
@@ -43,12 +112,24 @@
    "event": "Liarozole shown to exert retinoid-mimetic effects in vivo [6]."
   },
   {
+   "year": "1998",
+   "event": "Phase III prostate cancer trial versus cyproterone acetate reported; phase II lung cancer study published [11][18]."
+  },
+  {
+   "year": "2000",
+   "event": "Multicentre dose-ranging trial in psoriasis vulgaris published [16]."
+  },
+  {
    "year": "2001",
    "event": "Randomized pilot trial in palmoplantar pustular psoriasis published [5]."
   },
   {
    "year": "2006",
    "event": "Phase II/III ichthyosis trial started [8]."
+  },
+  {
+   "year": "2014",
+   "event": "Ichthyosis phase II/III results published [17]."
   }
  ],
  "lore": null,
@@ -137,6 +218,102 @@
    "source": "ClinicalTrials.gov",
    "year": 2006,
    "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Characterization of CYP26B1-Selective Inhibitor, DX314, as a Potential Therapeutic for Keratinization Disorders.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32505549/",
+   "source": "J Invest Dermatol",
+   "year": 2021,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Experimental studies with liarozole (R 75,251): an antitumoral agent which inhibits retinoic acid breakdown.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1525060/",
+   "source": "J Steroid Biochem Mol Biol",
+   "year": 1992,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "Liarozole--a novel treatment approach for advanced prostate cancer: results of a large randomized trial versus cyproterone acetate.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9671874/",
+   "source": "Urology",
+   "year": 1998,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "Liarozole fumarate (R85246): a novel imidazole in the treatment of receptor positive postmenopausal metastatic breast cancer.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10752680/",
+   "source": "Breast Cancer Res Treat",
+   "year": 2000,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "Cytochrome p450 retinoic acid 4-hydroxylase inhibitors: potential agents for cancer therapy.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12370067/",
+   "source": "Mini Rev Med Chem",
+   "year": 2002,
+   "type": "review"
+  },
+  {
+   "id": 14,
+   "title": "Ketoconazole and liarozole in the treatment of advanced prostatic cancer.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8428329/",
+   "source": "Cancer",
+   "year": 1993,
+   "type": "review"
+  },
+  {
+   "id": 15,
+   "title": "Liarozole (R75251) in hormone-resistant prostate cancer patients.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9294623/",
+   "source": "The Prostate",
+   "year": 1997,
+   "type": "trial"
+  },
+  {
+   "id": 16,
+   "title": "Treatment of psoriasis with oral liarozole: a dose-ranging study.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11122017/",
+   "source": "Br J Dermatol",
+   "year": 2000,
+   "type": "trial"
+  },
+  {
+   "id": 17,
+   "title": "Oral liarozole in the treatment of patients with moderate/severe lamellar ichthyosis: results of a randomized, double-blind, multinational, placebo-controlled phase II/III trial.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24102348/",
+   "source": "Br J Dermatol",
+   "year": 2014,
+   "type": "trial"
+  },
+  {
+   "id": 18,
+   "title": "Phase II study of liarozole in advanced non-small cell lung cancer.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9849433/",
+   "source": "Eur J Cancer",
+   "year": 1998,
+   "type": "trial"
+  },
+  {
+   "id": 19,
+   "title": "The Efficacy and Safety of Non-Biologic and Biologic Treatments in Palmoplantar Pustular Psoriasis and Palmoplantar Pustulosis: A Systematic Review and Network Meta-Analysis.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39776413/",
+   "source": "Australas J Dermatol",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 20,
+   "title": "Liarozole inhibits transforming growth factor-beta3-mediated extracellular matrix formation in human three-dimensional leiomyoma cultures.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24825427/",
+   "source": "Fertil Steril",
+   "year": 2014,
+   "type": "study"
   }
  ]
 }

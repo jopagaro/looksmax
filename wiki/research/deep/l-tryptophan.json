@@ -1,26 +1,380 @@
 {
-"name":"L-Tryptophan",
-"lead":["Tryptophan is an essential amino acid that humans cannot make and must obtain from protein foods such as meat, dairy, eggs, nuts and seeds. Besides building proteins it is a precursor of serotonin, melatonin and niacin [1]. Frederick Hopkins first isolated it in 1901 from casein [1].","As a supplement it is marketed for sleep, mood and anxiety. Wikipedia reports the supporting evidence as weak: a 2001 Cochrane review found only two eligible studies with 64 participants and judged evidence insufficient, and the American Academy of Sleep Medicine's 2017 guideline advises against its use for insomnia [1]. In 1989 supplements were linked to an outbreak of eosinophilia-myalgia syndrome (EMS) [1]."],
-"infobox":[["Type","Essential amino acid"],["Metabolites","Serotonin, melatonin, niacin [1]"],["Discovered","1901, Frederick Hopkins [1]"],["Legal status","Over-the-counter supplement in US and UK; prescription in some European countries [1]"]],
-"sections":[
-{"h":"Pharmacology and metabolism","paras":["Over 95% of tryptophan is broken down through the kynurenine pathway; smaller amounts become serotonin and, from it, melatonin [1]. Gut microbes also transform tryptophan into metabolites such as indoles that interact with host immune receptors [3][4]."]},
-{"h":"Adverse effects","paras":["Reported effects include nausea, diarrhea, drowsiness, lightheadedness, headache, dry mouth and blurred vision, and combination with MAOIs or SSRIs can cause serotonin syndrome [1]. The US drug label for one product lists use for temporary relief of anxiety, mood swings and sleeplessness and advises pregnant or breastfeeding users to consult a professional [2]."]},
-{"h":"The 1989 EMS outbreak and regulation","paras":["More than 1,500 US cases of eosinophilia-myalgia syndrome and at least 37 deaths were reported, linked to tryptophan supplements, which the FDA recalled in 1989 and largely barred from public sale in 1990 [1]. Later studies traced the outbreak to contaminated batches from one Japanese manufacturer, though some researchers suspect tryptophan itself may contribute [1]. The FDA eased restrictions in 2001 and maintained import limits until 2005 [1]."]},
-{"h":"Clinical studies","paras":["The 2001 Cochrane review of tryptophan for depression found two eligible studies (64 participants) and insufficient evidence [1], and the 2017 AASM guideline advises against it for insomnia [1]. Registered trials found are mostly nutritional: tryptophan requirements in adults and children [5][6], absorption from foods [7], and dietary tryptophan and aryl hydrocarbon receptor activation [8]. No studies found that test it for appearance outcomes."]}
-],
-"timeline":[{"year":"1901","event":"Hopkins isolates tryptophan from casein [1]"},{"year":"1989","event":"EMS outbreak; FDA recall [1]"},{"year":"1990","event":"US public sales largely banned [1]"},{"year":"2001","event":"FDA eases restrictions; imports limited until 2005 [1]"}],
-"lore":null,
-"refs":[
-{"id":1,"title":"Tryptophan","url":"https://en.wikipedia.org/wiki/Tryptophan","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":2,"title":"L-Tryptophan (DailyMed label)","url":"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=080c91ec-4800-427c-8a44-33cb0d4c15d8","source":"DailyMed","year":null,"type":"label"},
-{"id":3,"title":"Gut Microbiota Regulation of Tryptophan Metabolism in Health and Disease","url":"https://pubmed.ncbi.nlm.nih.gov/29902437/","source":"Cell Host Microbe","year":2018,"type":"review"},
-{"id":4,"title":"Microbial tryptophan catabolites in health and disease","url":"https://pubmed.ncbi.nlm.nih.gov/30120222/","source":"Nat Commun","year":2018,"type":"review"},
-{"id":5,"title":"NCT06283706 The Tryptophan Requirement in Healthy Adults","url":"https://clinicaltrials.gov/study/NCT06283706","source":"ClinicalTrials.gov","year":2024,"type":"trial"},
-{"id":6,"title":"NCT02018588 Tryptophan Requirement of Healthy School Age Children","url":"https://clinicaltrials.gov/study/NCT02018588","source":"ClinicalTrials.gov","year":2013,"type":"trial"},
-{"id":7,"title":"NCT02402179 Metabolic Availability of Tryptophan From White Maize","url":"https://clinicaltrials.gov/study/NCT02402179","source":"ClinicalTrials.gov","year":2015,"type":"trial"},
-{"id":8,"title":"NCT03059862 The Role of Dietary Tryptophan on Aryl Hydrocarbon Receptor Activation","url":"https://clinicaltrials.gov/study/NCT03059862","source":"ClinicalTrials.gov","year":2017,"type":"trial"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Tryptophan","title":"Tryptophan - Wikipedia"}],
-"card":{"summary":"An essential amino acid sold for sleep and mood; evidence is limited and a 1989 contamination outbreak shaped its regulation.","aka":"Tryptophan, Trp","evidence":"limited","status":"otc","risk":"moderate","price":null,"note":"Serotonin syndrome risk with SSRIs/MAOIs; 1989 EMS outbreak linked to contaminated batches.","structure":"L-Tryptophan"},
-"quick":{"overview":"Tryptophan is an essential amino acid found in protein foods and the starting material for serotonin and melatonin. It is sold as a sleep and mood supplement.\n\nWikipedia cites a 2001 Cochrane review finding insufficient evidence and a 2017 sleep-medicine guideline advising against use for insomnia. No study found tests appearance outcomes.","mechanism":"Most is metabolised via the kynurenine pathway; a smaller share becomes serotonin and melatonin.","risks":"Side effects include nausea, drowsiness and headache; combining with SSRIs or MAOIs can cause serotonin syndrome. A 1989 outbreak of eosinophilia-myalgia syndrome, traced largely to contaminated batches, led to US restrictions lifted in 2001."}
+ "name": "L-Tryptophan",
+ "lead": [
+  "Tryptophan is an essential amino acid that humans cannot make and must obtain from protein foods such as meat, dairy, eggs, nuts and seeds. Besides building proteins it is a precursor of serotonin, melatonin and niacin [1]. Frederick Hopkins first isolated it in 1901 from casein [1].",
+  "In looks-oriented circles it sits in the recovery category. People take it as a supplement aiming at deeper, more consolidated sleep and steadier mood, on the reasoning that better-rested people train harder, recover more fully and tend to look fresher. That is a chain rather than a direct effect: tryptophan -> serotonin and melatonin precursor -> sleep and mood -> recovery and training consistency.",
+  "Research on the supplement itself is mostly about sleep and mood. A 2022 meta-analysis of sleep trials found shorter wake time after sleep onset with supplementation, and a 2021 systematic review of eleven randomized trials reported that several showed lower anxiety and higher positive mood in healthy adults [6][7]. Wikipedia describes the older depression evidence as weak, with a 2001 Cochrane review finding two eligible studies, and notes the American Academy of Sleep Medicine's 2017 guideline advises against it for insomnia [1]. In 1989 supplements were linked to an outbreak of eosinophilia-myalgia syndrome (EMS) [1]."
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Essential amino acid"
+  ],
+  [
+   "Metabolites",
+   "Serotonin, melatonin, niacin [1]"
+  ],
+  [
+   "Discovered",
+   "1901, Frederick Hopkins [1]"
+  ],
+  [
+   "Legal status",
+   "Over-the-counter supplement in US and UK; prescription in some European countries [1]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Uses",
+   "subs": [
+    {
+     "h": "Appearance-related use",
+     "paras": [
+      "Supplement users describe tryptophan as an evening aid for falling and staying asleep, and some combine it with other recovery supplements. The appearance rationale runs through a chain: sleep affects training adaptation, and mood affects diet and routine adherence, so better sleep and steadier mood are expected to support training and a rested look. Dietary tryptophan from protein foods is the ordinary way intake is maintained; the nutrition trials below study requirements and absorption from foods such as maize [1][5]."
+     ]
+    },
+    {
+     "h": "Medical uses",
+     "paras": [
+      "Marketed for temporary relief of anxiety, mood swings and sleeplessness; one US product label lists these uses [2]. In some European countries it is available by prescription [1]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Pharmacology and metabolism",
+   "paras": [
+    "Over 95% of tryptophan is broken down through the kynurenine pathway; smaller amounts become serotonin and, from it, melatonin [1]. Gut microbes also transform tryptophan into metabolites such as indoles that interact with host immune receptors [3][4]. Reviews of tryptophan metabolism also describe its role in immune regulation and in cancer and neurodegeneration research [8]. Because serotonin made in the brain depends on tryptophan crossing the blood-brain barrier alongside other amino acids, researchers studying mood have also used tryptophan depletion experiments, including in obsessive-compulsive patients [9]."
+   ]
+  },
+  {
+   "h": "Dietary sources and the serotonin pathway",
+   "paras": [
+    "Tryptophan reaches the brain by crossing the blood-brain barrier competing with other large neutral amino acids, which is why researchers have used both depletion and loading designs to examine serotonin-related mood effects [9][7]. Gut bacteria convert part of dietary tryptophan into indole derivatives that can activate the aryl hydrocarbon receptor and influence mucosal immunity [3][4][15]. A 2019 Physiological Reviews article places tryptophan metabolites within the wider microbiota-gut-brain axis [16].",
+    "The serotonin-theory umbrella review matters to how the supplement is framed: the authors reported that the literature does not support a simple low-serotonin explanation of depression [11], so the case for tryptophan as a mood aid rests mainly on the small supplementation trials in healthy adults [7]."
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "paras": [
+    "Reported effects include nausea, diarrhea, drowsiness, lightheadedness, headache, dry mouth and blurred vision, and combination with MAOIs or SSRIs can cause serotonin syndrome [1]. The US drug label for one product advises pregnant or breastfeeding users to consult a professional [2]."
+   ]
+  },
+  {
+   "h": "Production and other uses",
+   "paras": [
+    "Commercial tryptophan is made by fermenting serine and indole with engineered bacteria such as E. coli [1]. In research, acute tryptophan depletion is used to study mood and behaviour, and tryptophan is used as a natural fluorescent probe for studying proteins [1]."
+   ]
+  },
+  {
+   "h": "Dietary sources and the turkey belief",
+   "paras": [
+    "Tryptophan is found in most proteins, with high amounts in eggs, soy, cheese and seeds, and turkey contains about the same as other poultry and meats [1]. The 2002 US Institute of Medicine set the adult recommended allowance at 5 mg per kg of body weight per day [1]. Wikipedia describes the common belief that turkey causes sleepiness as largely unsupported and attributes post-meal drowsiness more plausibly to carbohydrate-rich foods eaten alongside it, which change how amino acids reach the brain [1]."
+   ]
+  },
+  {
+   "h": "The 1989 EMS outbreak and regulation",
+   "paras": [
+    "More than 1,500 US cases of eosinophilia-myalgia syndrome and at least 37 deaths were reported, linked to tryptophan supplements, which the FDA recalled in 1989 and largely barred from public sale in 1990 [1]. Later studies traced the outbreak to contaminated batches from one Japanese manufacturer, though some researchers suspect tryptophan itself may contribute [1]. The FDA eased restrictions in 2001 and maintained import limits until 2005 [1].",
+    "The first case was reported to the CDC in November 1989, and some cases may have occurred two to three years earlier [22]. Investigators linked the outbreak to batches made by Showa Denko, produced by a bacterium grown at one of its plants; of 63 trace contaminants identified, six were associated with the syndrome, and no single impurity has been firmly established as the cause [22]. The manufacturer had recently changed its process, including reduced use of activated charcoal, skipped filtration in some batches and a genetically engineered bacterial strain, and these overlapping changes could not be separated [22]. Wikipedia notes that tryptophan itself may contribute, since some EMS cases occurred without tryptophan exposure [22].",
+    "Symptoms in the acute phase include severe muscle pain, breathlessness, fever, fatigue, joint pain and swelling, and numbness or tingling in the limbs; a chronic phase can involve eosinophilic fasciitis and nerve and muscle problems [22]. Treatment involves stopping tryptophan products and giving glucocorticoids, and most patients recover fully or stabilise [22]. After the 1990 sales ban, 5-HTP became a popular substitute supplement [22]."
+   ]
+  },
+  {
+   "h": "Use in recovery and training communities",
+   "paras": [
+    "On T Nation, tryptophan appears mainly in bedtime supplement lists. Posters in training logs describe combining it with magnesium glycinate and low-dose melatonin to help with sleep during periods of poor recovery, for instance while recovering on testosterone replacement therapy [17][18]. Another poster remarks that sleeping through the night is anabolic and cites tryptophan in celery as one of several compounds that may aid rest [19]. Some posters report that over-the-counter calming supplements including tryptophan did little for them [20]. Dietary tryptophan from turkey, nuts and seeds is also mentioned in discussions of serotonin and mood [21]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Sleep: a 2022 systematic review and meta-analysis (18 articles collected, 4 pooled) found that tryptophan supplementation shortened wake after sleep onset, with the authors reporting a larger effect at 1 g or more per day, and no effect on other sleep components [6]. A 2025 meta-analysis of 28 randomized trials of dietary supplement interventions found improvements in several sleep measures across supplements generally [10].",
+    "Mood: a 2021 systematic review identified 11 randomized trials in healthy adults; four showed significant differences versus control on negative or happy feelings, and the authors concluded tryptophan may lower anxiety and raise positive mood, with no effect on aggressive feelings [7]. A 2023 umbrella review of the serotonin theory of depression concluded that evidence does not support a simple serotonin deficit explanation of depression, which bears on how the supplement's rationale is interpreted [11].",
+    "Older and other findings: the 2001 Cochrane review of tryptophan for depression found two eligible studies (64 participants) and insufficient evidence, and the 2017 AASM guideline advises against it for insomnia [1]. Registered trials are mostly nutritional: tryptophan requirements in adults and children [5][12], absorption from foods [13], and dietary tryptophan and aryl hydrocarbon receptor activation [14]. No studies found that test it for appearance outcomes."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1901",
+   "event": "Hopkins isolates tryptophan from casein [1]"
+  },
+  {
+   "year": "1989 (Nov)",
+   "event": "First EMS case reported to the CDC; more than 1,500 cases and at least 37 deaths eventually linked to tryptophan from Showa Denko batches [22]."
+  },
+  {
+   "year": "1989",
+   "event": "EMS outbreak; FDA recall [1]"
+  },
+  {
+   "year": "1990",
+   "event": "US public sales largely banned [1]"
+  },
+  {
+   "year": "2001",
+   "event": "FDA eases restrictions; imports limited until 2005 [1]"
+  },
+  {
+   "year": "2002",
+   "event": "US Institute of Medicine sets the adult recommended allowance at 5 mg/kg/day [1]."
+  },
+  {
+   "year": "2017",
+   "event": "American Academy of Sleep Medicine guideline advises against tryptophan for insomnia [1]."
+  },
+  {
+   "year": "2022",
+   "event": "Meta-analysis finds shorter wake after sleep onset with supplementation [6]."
+  }
+ ],
+ "lore": {
+  "intro": "Among lifters, tryptophan is discussed as one part of a bedtime routine rather than as a stand-alone supplement [17][18].",
+  "claims": [
+   {
+    "claim": "Tryptophan at bedtime improves sleep and therefore recovery",
+    "believers": "Training-log posters list it with magnesium and melatonin as what helped them sleep better, and say better sleep supports recovery [17][18][19].",
+    "experts": "A 2022 meta-analysis found shorter wake after sleep onset with supplementation and no effect on other sleep components, and the American Academy of Sleep Medicine's 2017 guideline advises against it for insomnia [6][1].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Tryptophan lifts mood and lowers anxiety",
+    "believers": "Users take it for mood and calm, linking tryptophan intake to serotonin [21].",
+    "experts": "A 2021 systematic review of 11 trials in healthy adults found four with significant differences on negative or happy feelings and concluded it may lower anxiety and raise positive mood [7]; a 2001 Cochrane review for depression found insufficient evidence [1].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Tryptophan supplements are risky because of the 1989 outbreak",
+    "believers": "Some posters and writers recall the outbreak when discussing amino-acid supplements.",
+    "experts": "More than 1,500 US cases of eosinophilia-myalgia syndrome were linked to contaminated batches from one manufacturer; the FDA eased restrictions in 2001 [1]. Combination with SSRIs or MAOIs can cause serotonin syndrome [1].",
+    "evidence": "harms"
+   },
+   {
+    "claim": "Turkey makes you sleepy because of its tryptophan.",
+    "believers": "A widely repeated belief links a turkey meal to drowsiness through tryptophan and serotonin.",
+    "experts": "Wikipedia notes turkey has about the same tryptophan as other poultry and meats and attributes post-meal drowsiness more plausibly to the accompanying carbohydrates [1].",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "5-HTP is a way around the tryptophan ban and does the same job.",
+    "believers": "After the 1990 sales ban, 5-HTP became a popular substitute supplement for people seeking the same sleep and mood support [22].",
+    "experts": "The EMS literature concerns tryptophan batches; no published trials have compared the two for sleep or appearance outcomes.",
+    "evidence": "untested"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Tryptophan",
+   "url": "https://en.wikipedia.org/wiki/Tryptophan",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "L-Tryptophan (DailyMed label)",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=080c91ec-4800-427c-8a44-33cb0d4c15d8",
+   "source": "DailyMed",
+   "year": null,
+   "type": "label"
+  },
+  {
+   "id": 3,
+   "title": "Gut Microbiota Regulation of Tryptophan Metabolism in Health and Disease",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29902437/",
+   "source": "Cell Host Microbe",
+   "year": 2018,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Microbial tryptophan catabolites in health and disease",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30120222/",
+   "source": "Nat Commun",
+   "year": 2018,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "NCT06283706 The Tryptophan Requirement in Healthy Adults",
+   "url": "https://clinicaltrials.gov/study/NCT06283706",
+   "source": "ClinicalTrials.gov",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "The impact of tryptophan supplementation on sleep quality: a systematic review, meta-analysis, and meta-regression",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33942088/",
+   "source": "Nutrition Reviews",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "A systematic review of the effect of L-tryptophan supplementation on mood and emotional functioning",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32272859/",
+   "source": "Journal of Dietary Supplements",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "Tryptophan metabolism as a common therapeutic target in cancer, neurodegeneration and beyond",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30760888/",
+   "source": "Nature Reviews Drug Discovery",
+   "year": 2019,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "Tryptophan depletion in obsessive-compulsive patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8874841/",
+   "source": "Biological Psychiatry",
+   "year": 1996,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Dietary Supplement Interventions and Sleep Quality Improvement: A Systematic Review and Meta-Analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41470897/",
+   "source": "Nutrients",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "The serotonin theory of depression: a systematic umbrella review of the evidence",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35854107/",
+   "source": "Molecular Psychiatry",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 12,
+   "title": "NCT02018588 Tryptophan Requirement of Healthy School Age Children",
+   "url": "https://clinicaltrials.gov/study/NCT02018588",
+   "source": "ClinicalTrials.gov",
+   "year": 2013,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "NCT02402179 Metabolic Availability of Tryptophan From White Maize",
+   "url": "https://clinicaltrials.gov/study/NCT02402179",
+   "source": "ClinicalTrials.gov",
+   "year": 2015,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "NCT03059862 The Role of Dietary Tryptophan on Aryl Hydrocarbon Receptor Activation",
+   "url": "https://clinicaltrials.gov/study/NCT03059862",
+   "source": "ClinicalTrials.gov",
+   "year": 2017,
+   "type": "trial"
+  },
+  {
+   "id": 15,
+   "title": "Tryptophan catabolites from microbiota engage aryl hydrocarbon receptor and balance mucosal reactivity via interleukin-22",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23973224/",
+   "source": "Immunity",
+   "year": 2013,
+   "type": "study"
+  },
+  {
+   "id": 16,
+   "title": "The Microbiota-Gut-Brain Axis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31460832/",
+   "source": "Physiological Reviews",
+   "year": 2019,
+   "type": "review"
+  },
+  {
+   "id": 17,
+   "title": "SB's Upcoming Blast",
+   "url": "https://t-nation.com/t/sbs-upcoming-blast/261971",
+   "source": "T Nation forum",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 18,
+   "title": "DarkDescartes TRT Recovery Log",
+   "url": "https://t-nation.com/t/darkdescartes-trt-recovery-log/258982",
+   "source": "T Nation forum",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 19,
+   "title": "Celery, Are You Utilizing Correctly",
+   "url": "https://t-nation.com/t/celery-are-you-utilizing-correctly/288535",
+   "source": "T Nation forum",
+   "year": 2024,
+   "type": "forum"
+  },
+  {
+   "id": 20,
+   "title": "COVID-19 Vaccine Side Effects",
+   "url": "https://t-nation.com/t/covid-19-vaccine-side-effects/276012",
+   "source": "T Nation forum",
+   "year": 2021,
+   "type": "forum"
+  },
+  {
+   "id": 21,
+   "title": "TCam's Log - The Road to Elite",
+   "url": "https://t-nation.com/t/tcams-log-the-road-to-elite/187939",
+   "source": "T Nation forum",
+   "year": 2015,
+   "type": "forum"
+  },
+  {
+   "id": 22,
+   "title": "Eosinophilia-myalgia syndrome",
+   "url": "https://en.wikipedia.org/wiki/Eosinophilia%E2%80%93myalgia_syndrome",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Tryptophan",
+   "title": "Tryptophan - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Eosinophilia%E2%80%93myalgia_syndrome",
+   "title": "Eosinophilia-myalgia syndrome - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "An essential amino acid sold for sleep and mood; evidence is limited and a 1989 contamination outbreak shaped its regulation.",
+  "aka": "Tryptophan, Trp",
+  "evidence": "limited",
+  "status": "otc",
+  "risk": "moderate",
+  "price": null,
+  "note": "Serotonin syndrome risk with SSRIs/MAOIs; 1989 EMS outbreak linked to contaminated batches.",
+  "structure": "L-Tryptophan"
+ },
+ "quick": {
+  "overview": "Tryptophan is an essential amino acid found in protein foods and the starting material for serotonin and melatonin. It is sold as a sleep and mood supplement.\n\nWikipedia cites a 2001 Cochrane review finding insufficient evidence and a 2017 sleep-medicine guideline advising against use for insomnia. No study found tests appearance outcomes.",
+  "mechanism": "Most is metabolised via the kynurenine pathway; a smaller share becomes serotonin and melatonin.",
+  "risks": "Side effects include nausea, drowsiness and headache; combining with SSRIs or MAOIs can cause serotonin syndrome. A 1989 outbreak of eosinophilia-myalgia syndrome, traced largely to contaminated batches, led to US restrictions lifted in 2001."
+ },
+ "angle": {
+  "goal": "Recovery",
+  "chain": [
+   "Amino acid supplies serotonin and melatonin synthesis",
+   "Sleep and mood may improve",
+   "More consistent training and recovery"
+  ],
+  "effect": "claimed",
+  "text": "People use tryptophan to support sleep and mood, which they connect to better recovery, training and a rested appearance. Studies measure sleep and mood outcomes, not appearance."
+ }
 }

@@ -1,0 +1,467 @@
+{
+ "name": "Undulating periodization (DUP)",
+ "card": {
+  "summary": "A training structure that varies reps, load and volume from session to session within the week, used to keep building strength and muscle for a better physique.",
+  "aka": "DUP, daily undulating periodization, nonlinear periodization",
+  "evidence": "strong",
+  "status": null,
+  "outcome": null,
+  "risk": "low",
+  "price": null,
+  "note": null,
+  "structure": null
+ },
+ "quick": {
+  "overview": "Undulating periodization changes the training stimulus frequently, in daily undulating periodization (DUP) from workout to workout, for example a heavy low-rep day, a moderate day and a lighter high-rep day for the same lift in one week. It is a way of organising resistance training to keep making strength and size gains.\n\nIts payoff for looks is more muscle and strength over time. Systematic reviews comparing it with linear periodization have found similar results for strength and muscle size, so people choose it for variety and preference.",
+  "how": "Lifters rotate rep ranges and intensities across sessions in a weekly template, keeping total weekly work similar. Variations include flexible DUP, where the day's intensity is chosen by how the lifter feels. Programs are usually run for weeks to months before being changed.",
+  "risks": "Resistance training carries general injury risks from poor technique or excessive load, and training that is too heavy or too frequent can cause overuse problems. No safety issues are specific to undulating schedules."
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Sports periodization",
+   "url": "https://en.wikipedia.org/wiki/Sports_periodization",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Systematic review and meta-analysis of linear and undulating periodized resistance training programs on muscular strength.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25268290/",
+   "source": "Journal of Strength and Conditioning Research",
+   "year": 2015,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Effects of linear and daily undulating periodized resistance training programs on measures of muscle hypertrophy: a systematic review and meta-analysis.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28848690/",
+   "source": "PeerJ",
+   "year": 2017,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Effects of Periodization on Strength and Muscle Hypertrophy in Volume-Equated Resistance Training Programs: A Systematic Review and Meta-analysis.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35044672/",
+   "source": "Sports Medicine",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "A comparison of linear and daily undulating periodized programs with equated volume and intensity for strength",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11991778/",
+   "source": "Journal of Strength and Conditioning Research",
+   "year": 2002,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "A comparison of linear and daily undulating periodized programs with equated volume and intensity for local muscular endurance",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12580661/",
+   "source": "Journal of Strength and Conditioning Research",
+   "year": 2003,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Effects of linear vs. daily undulatory periodized resistance training on maximal and submaximal strength gains",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21499134/",
+   "source": "Journal of Strength and Conditioning Research",
+   "year": 2011,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Strength gains: block versus daily undulating periodization weight training among track and field athletes.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22173008/",
+   "source": "International Journal of Sports Physiology and Performance",
+   "year": 2012,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Volume-equated high- and low-repetition daily undulating programming strategies produce similar hypertrophy and strength adaptations",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27218448/",
+   "source": "Applied Physiology, Nutrition, and Metabolism",
+   "year": 2016,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Modified Daily Undulating Periodization Model Produces Greater Performance Than a Traditional Configuration in Powerlifters",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26332783/",
+   "source": "Journal of Strength and Conditioning Research",
+   "year": 2016,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Comparison of Powerlifting Performance in Trained Men Using Traditional and Flexible Daily Undulating Periodization.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28129275/",
+   "source": "Journal of Strength and Conditioning Research",
+   "year": 2017,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "Periodization effects during short-term resistance training with equated exercise variables in females.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28160082/",
+   "source": "European Journal of Applied Physiology",
+   "year": 2017,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "RPE vs. Percentage 1RM Loading in Periodized Programs Matched for Sets and Repetitions",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29628895/",
+   "source": "Frontiers in Physiology",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "Resistance Training Variables for Optimization of Muscle Hypertrophy: An Umbrella Review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35873210/",
+   "source": "Frontiers in Sports Activity and Living",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 15,
+   "title": "The influence of resistance exercise training prescription variables on skeletal muscle mass, strength, and physical function in healthy adults: An umbrella review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37385345/",
+   "source": "Journal of Sport Health Science",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 16,
+   "title": "Classic Powerlifting Performance: A Systematic Review.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30844981/",
+   "source": "Journal of Strength and Conditioning Research",
+   "year": 2019,
+   "type": "review"
+  },
+  {
+   "id": 17,
+   "title": "Short-term Periodization Models: Effects on Strength and Speed-strength Performance.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26133514/",
+   "source": "Sports Medicine",
+   "year": 2015,
+   "type": "review"
+  },
+  {
+   "id": 18,
+   "title": "Comparison of linear and undulating periodization resistance training on athletic capacities and health promotion: a systematic review and meta-analysis.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41869632/",
+   "source": "Frontiers in Public Health",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 19,
+   "title": "Daily Undulating Periodization Is More Effective Than Nonperiodized Training on Maximal Strength, Aerobic Capacity, and TCD4+ Cell Count in People Living With HIV.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32604148/",
+   "source": "Journal of Strength and Conditioning Research",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 20,
+   "title": "Periodized and non-periodized resistance training programs on body composition and physical function of older women.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30862526/",
+   "source": "Experimental Gerontology",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 21,
+   "title": "Traditional and Undulating Periodization on Body Composition, Strength Levels and Physical Fitness in Older Adults.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35457392/",
+   "source": "International Journal of Environmental Research and Public Health",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 22,
+   "title": "Davemccright's Dangerous Dave's Diabolical Log for Density and Destruction",
+   "url": "https://t-nation.com/t/davemccrights-dangerous-dave-s-diabolical-log-for-density-and-destruction/273294",
+   "source": "T Nation",
+   "year": 2021,
+   "type": "forum"
+  },
+  {
+   "id": 23,
+   "title": "Clockin' A Grip",
+   "url": "https://t-nation.com/t/clockin-a-grip/215284",
+   "source": "T Nation",
+   "year": 2016,
+   "type": "forum"
+  },
+  {
+   "id": 24,
+   "title": "Atlas13 Burning the Boats",
+   "url": "https://t-nation.com/t/atlas13-burning-the-boats/259312",
+   "source": "T Nation",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 25,
+   "title": "Stormblessed Log - Tactical Barbell",
+   "url": "https://t-nation.com/t/stormblessed-log-tactical-barbell/287590",
+   "source": "T Nation",
+   "year": 2024,
+   "type": "forum"
+  },
+  {
+   "id": 27,
+   "title": "Silver and Steel",
+   "url": "https://t-nation.com/t/silver-and-steel/237353",
+   "source": "T Nation",
+   "year": 2017,
+   "type": "forum"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Sports_periodization",
+   "title": "Sports periodization - Wikipedia"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11991778/",
+   "title": "Rhea et al. 2002 linear vs DUP"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12580661/",
+   "title": "Rhea et al. 2003 muscular endurance"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21499134/",
+   "title": "Miranda et al. 2011"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27218448/",
+   "title": "Klemp et al. 2016"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26332783/",
+   "title": "Zourdos et al. 2016"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29628895/",
+   "title": "Helms et al. 2018"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35873210/",
+   "title": "Umbrella review of hypertrophy variables 2022"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37385345/",
+   "title": "Umbrella review of RT prescription variables 2024"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35044672/",
+   "title": "Moesgaard et al. 2022"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28160082/",
+   "title": "Pelzer et al. 2017"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28129275/",
+   "title": "Colquhoun et al. 2017"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22173008/",
+   "title": "Painter et al. 2012"
+  }
+ ],
+ "lead": [
+  "Undulating periodization, abbreviated DUP when the variation happens day to day, is a resistance-training approach that alternates training volume and intensity across sessions instead of progressing steadily from high volume to high intensity over months [1]. A typical week for one lift might include a heavy low-repetition session, a moderate session and a lighter higher-repetition session. It is popular among people building muscle and strength because it lets several qualities be trained each week and gives variety, and for appearance purposes the payoff comes through the muscle and strength built over months of consistent training [2][3].",
+  "Periodization as a concept draws on Hans Selye's General Adaptation Syndrome; Leo Matveyev formalised the model around 1964, and Tudor Bompa expanded it [1]. Undulating models were studied in the early 2000s, when Rhea and colleagues reported that a daily undulating program produced larger strength gains than a linear program with equated volume and intensity in a 12-week trial of 20 men [5]. Later trials and meta-analyses have mostly found the two approaches produce similar results.",
+  "A 2015 meta-analysis of 17 studies with 510 participants found both approaches increased strength with no difference between them in upper- or lower-body strength [2]. A 2017 meta-analysis of 13 trials found a standardised mean difference of -0.02 for muscle hypertrophy between linear and daily undulating models [3]. A 2022 meta-analysis of 35 studies found periodisation of volume-equated training favoured periodised over non-periodised programs for maximal strength, with no difference for hypertrophy, and favoured undulating over linear programs for strength only in trained participants [4]."
+ ],
+ "angle": {
+  "goal": "Muscle / physique",
+  "chain": [
+   "Vary reps and load across weekly sessions",
+   "Keep progressing strength and hypertrophy without stagnation",
+   "More muscle and a stronger-looking physique"
+  ],
+  "effect": "indirect",
+  "text": "DUP is a way to schedule training, so the appearance benefit comes through more muscle and strength built over months. Lifters use it to train different rep ranges weekly and to avoid repeating the same workout."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Training structure"
+  ],
+  [
+   "Variation",
+   "Reps and intensity change session to session (DUP) or week to week"
+  ],
+  [
+   "Concept origin",
+   "Matveyev, c. 1964 (periodization generally) [1]"
+  ],
+  [
+   "First direct trial comparison with linear",
+   "Rhea et al., 2002 [5]"
+  ],
+  [
+   "Compared with",
+   "Linear and block periodization [2][3][8]"
+  ],
+  [
+   "Typical effect",
+   "Strength and hypertrophy gains [2][3][4]"
+  ],
+  [
+   "Variants",
+   "Flexible/autoregulated DUP, modified DUP, weekly undulation [10][11]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "In linear periodization training moves in phases, usually starting with higher volume and lower load and ending with lower volume and higher load. In undulating models the stimulus changes more often, in DUP at each session [1]. A typical week for one lift might include a heavy session, a moderate session and a lighter higher-repetition session, while total weekly volume is often kept similar.",
+    "Reviews of short-term periodization describe undulating strategies as rotating program variables such as volume, intensity and exercise selection in a biweekly, weekly or daily fashion [17]. A review of drug-tested classic powerlifting describes a hypertrophy-power-strength model with daily undulating periodization three times a week on non-consecutive days for squat and bench press [16]."
+   ]
+  },
+  {
+   "h": "Variants and how lifters use it",
+   "paras": [
+    "Variants described in studies include traditional DUP with prescribed loads, flexible DUP, in which the lifter selects the day's intensity according to readiness, and modified DUP with different volume distributions across days [10][11]. Rating of perceived exertion and repetitions-in-reserve scales have been used to set loads in periodized programs [13].",
+    "Lifters use it for physique goals by rotating rep ranges across the week for each muscle group or lift, so that a heavy day trains strength, a middle day trains a moderate range and a lighter day trains higher repetitions that are commonly associated with hypertrophy [17].",
+    "On T Nation, members describe DUP in their training logs; one wrote that varied rep ranges and weights \"made training extra fun\" while their lifts and size rose [22]. Another thread summarises a coach's view that debating which periodization model is best matters less than experiencing several [23]. Other posters mention DUP variations within published programmes, such as a DUP template from a Tactical Barbell book and a DUP variation of a programme called Operator [24][25]."
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Wikipedia describes periodization as drawing on Selye's stress-adaptation model, formalised by Matveyev around 1964 and expanded by Bompa [1]. Garhammer published one of the first US articles on periodizing strength training in 1979, and Soviet periodization information was shared with American strength coaches in the 1980s [1].",
+    "Rhea and colleagues' 2002 and 2003 trials compared linear and daily undulating programs with equated volume and intensity: the 2002 trial in 20 men found larger strength gains for DUP [5], and the 2003 trial of 60 adults over 15 weeks found no significant differences in muscular endurance gains among linear, DUP and reverse-linear groups [6].",
+    "Critics such as Kiely argue that supporting studies compared varied training with unvaried training and did not show how variation should be scheduled [1]."
+   ]
+  },
+  {
+   "h": "Effects on muscle and strength",
+   "paras": [
+    "A 2015 meta-analysis of 17 studies (510 participants) found that sixteen reported significant strength increases for both linear and undulating approaches and found no difference between them; the authors noted that short study duration and participants' training history may confound results and that variety may help further gains [2].",
+    "A 2017 meta-analysis of 13 trials found no meaningful difference between linear periodization and DUP for muscle hypertrophy (Cohen's d -0.02; 95 percent confidence interval -0.25 to 0.21) [3]. The 2022 Sports Medicine meta-analysis of 35 studies reported effect sizes of 0.31 favouring periodized over non-periodized training for 1RM strength, 0.13 for hypertrophy (not significant), and no hypertrophy difference between linear and undulating models (0.05) [4]. For undulating versus linear strength, the effect was 0.31 overall and 0.61 in trained participants, with no difference in untrained ones [4].",
+    "Umbrella reviews of resistance-training variables summarise the broader picture: one of 14 meta-analyses covering 178 primary studies and 4,784 participants suggested at least 10 sets per muscle group per week for hypertrophy [14], and another of 44 systematic reviews found resistance training consistently increased muscle mass, strength and physical function in healthy adults [15]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Rhea et al. (2002) randomised 20 men for 12 weeks and reported greater strength gains in the DUP group at mid-test and post-test [5]. Miranda et al. (2011) randomised 20 resistance-trained men for 12 weeks; both models improved 1RM and 8RM leg press and bench press without significant difference, though DUP had larger effect sizes [7]. Klemp et al. (2016) compared high- and low-repetition volume-equated DUP programs in 16 trained men over 8 weeks and found similar strength and muscle thickness gains [9].",
+    "Zourdos et al. (2016) compared a modified DUP with a traditional configuration in 18 powerlifters over 6 weeks; the modified model gave greater total volume and a larger bench press 1RM gain, with squat and deadlift differences not significant [10]. Colquhoun et al. (2017) randomised 25 trained men for 9 weeks to flexible or traditional DUP; both improved on all lifts, fat-free mass rose about 0.8 kg in each group, and motivation and satisfaction did not differ [11]. Helms et al. (2018) found similar results with RPE-based and percentage-based loading in 21 trained men over 8 weeks [13].",
+    "Pelzer et al. (2017) trained one leg of 19 women with traditional periodization and the other with DUP for 6 weeks; knee extensor 1RM rose 18 and 24 percent and muscle thickness 12-20 and 13-19 percent respectively, without significant difference [12]. Painter et al. (2012) compared block with daily undulating training in 31 Division I track and field athletes over 10 weeks, finding no significant strength differences but calculated efficiency favouring block training [8].",
+    "Trials have also examined undulating programs in other populations, including older women, older adults and people living with HIV [19][20][21], and a 2026 meta-analysis of 29 studies reported comparable effects of linear and undulating training on athletic capacity, body composition and glucose regulation, with undulating training favoured for lean mass in obese participants [18]."
+   ]
+  },
+  {
+   "h": "Controversies and limits",
+   "paras": [
+    "Trials are generally short, often 6 to 15 weeks, and use small samples, and reviewers highlight that participants' training status and the equating of volume affect conclusions [2][4]. Kiely has argued that benefits attributed to periodization schedules may reflect variation itself rather than a specific sequence [1]."
+   ]
+  },
+  {
+   "h": "Risks",
+   "paras": [
+    "Resistance training carries general injury risks from poor technique or excessive load, and heavy or very frequent sessions can contribute to overuse problems."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1950s",
+   "event": "Selye's General Adaptation Syndrome provides the stress-adaptation framework later used in periodization.[1]"
+  },
+  {
+   "year": "c. 1964",
+   "event": "Matveyev formalises periodization.[1]"
+  },
+  {
+   "year": "1979",
+   "event": "Garhammer publishes one of the first US articles on periodizing strength training.[1]"
+  },
+  {
+   "year": "2002",
+   "event": "Rhea et al. report greater strength gains from daily undulating than linear training in a 12-week trial.[5]"
+  },
+  {
+   "year": "2003",
+   "event": "Rhea et al. compare linear, DUP and reverse-linear programs for muscular endurance.[6]"
+  },
+  {
+   "year": "2011",
+   "event": "Miranda et al. compare linear and DUP in resistance-trained men over 12 weeks.[7]"
+  },
+  {
+   "year": "2015",
+   "event": "Meta-analysis of linear versus undulating programs on strength.[2]"
+  },
+  {
+   "year": "2016",
+   "event": "Zourdos et al. report a modified DUP in powerlifters; Klemp et al. compare high- and low-repetition DUP.[9][10]"
+  },
+  {
+   "year": "2017",
+   "event": "Meta-analysis of linear versus daily undulating programs on hypertrophy; flexible DUP trial published.[3][11]"
+  },
+  {
+   "year": "2022",
+   "event": "Meta-analysis of 35 studies of periodization in volume-equated programs.[4]"
+  },
+  {
+   "year": "2024",
+   "event": "Umbrella review of resistance-training prescription variables.[15]"
+  },
+  {
+   "year": "2026",
+   "event": "Meta-analysis of 29 studies compares linear and undulating training on athletic capacity and health markers.[18]"
+  }
+ ],
+ "lore": {
+  "intro": "On T Nation and similar lifting forums, DUP is discussed as one of several ways to organise a training week, often alongside linear, block and conjugate approaches [23][27].",
+  "claims": [
+   {
+    "claim": "Changing rep ranges every session keeps progress going and prevents stagnation.",
+    "believers": "Lifters say varied loads and rep ranges keep training interesting and let them keep adding weight and size [22].",
+    "experts": "Reviews found comparable strength and hypertrophy gains from linear and undulating programs; authors suggest variety may help further strength development [2][3].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "DUP builds more muscle than linear programming.",
+    "believers": "Some lifters report DUP as their preferred structure for size [22].",
+    "experts": "A 2017 meta-analysis found no difference in hypertrophy between linear and DUP (d -0.02), and the 2022 meta-analysis found none between linear and undulating models [3][4].",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "DUP is better for trained lifters' strength.",
+    "believers": "Lifters on strength forums plan DUP templates within published programmes [24][25].",
+    "experts": "The 2022 meta-analysis found undulating favoured over linear for 1RM only in trained participants (ES 0.61), not untrained [4]; a powerlifting trial found a modified DUP produced a greater bench press gain than a traditional one [10].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Flexible or autoregulated DUP lets you train by feel without losing gains.",
+    "believers": "Flexible variants let the lifter choose the day's intensity by how they feel, as described in the trial literature [11].",
+    "experts": "In 25 trained men over 9 weeks, flexible and traditional DUP produced similar strength gains and fat-free mass changes [11]; RPE-based and percentage-based loading produced similar gains over 8 weeks [13].",
+    "evidence": "supported"
+   },
+   {
+    "claim": "The best periodization model is settled by debate.",
+    "believers": "One T Nation poster relayed a coach's view that arguing over the best model is unproductive and lifters should try several [23].",
+    "experts": "Reviewers call for longer trials with trained participants, noting study duration and training history confound results [2].",
+    "evidence": "untested"
+   }
+  ]
+ }
+}

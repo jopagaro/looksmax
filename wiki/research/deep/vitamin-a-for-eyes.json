@@ -1,68 +1,388 @@
 {
-  "name": "Vitamin A for eyes",
-  "card": {
-    "summary": "Essential for vision and the eye surface; deficiency causes night blindness and dry eye, but evidence for extra vitamin A in well-nourished people is thin and excess is toxic.",
-    "aka": "Retinol, retinyl palmitate, vitamin A eye gel",
-    "evidence": "limited",
-    "status": "otc",
-    "risk": null,
-    "outcome": null,
-    "price": null,
-    "note": "Preformed vitamin A in excess is toxic and teratogenic in pregnancy; studied mainly for deficiency, dry eye and dark adaptation.",
-    "structure": "Retinol"
-  },
-  "quick": {
-    "overview": "Vitamin A is needed to make the light-sensitive pigment of the retina and to keep the cornea and conjunctiva healthy. Severe deficiency causes night blindness and xerophthalmia, a leading cause of preventable childhood blindness.\n\nIt appears in eye-surface products such as vitamin A eye gels and drops and in oral supplements. Small trials have looked at dry eye, ocular surface irritation and dark adaptation in macular degeneration; none targets cosmetic appearance.",
-    "mechanism": "Vitamin A is needed to regenerate rhodopsin in rod cells, which underlies dim-light vision, and supports the surface epithelium of the eye. Deficiency dries the conjunctiva and cornea.",
-    "risks": "Preformed retinol (not carotenoids from food) can cause toxicity, including headache, nausea, liver and bone effects with chronic excess. Intake above about 4,500 micrograms a day in pregnancy has been linked to birth defects, and the tolerable upper limit for women of reproductive age is 3,000 micrograms a day."
-  },
-  "lead": [
-    "Vitamin A is a fat-soluble vitamin required for vision and for maintaining the surface tissues of the eye. It is needed to rebuild rhodopsin, the pigment in rod cells; deficiency first shows as night blindness and, when severe, as xerophthalmia, in which the conjunctiva and cornea dry out, Bitot's spots may form and the cornea can ulcerate [1]. Vitamin A deficiency is described as the leading cause of preventable childhood blindness [1].",
-    "Topical vitamin A preparations, such as eye gels used to protect the ocular surface and combination eye drops, and oral vitamin A supplements are used in some clinical settings. In looksmaxxing and wellness circles the nutrient is sometimes raised in connection with eye health and appearance, but published trials concern deficiency, dry eye and retinal conditions rather than cosmetic brightness.",
-    "Vitamin A has a narrow safety margin as preformed retinol: chronic or very large intakes cause toxicity and, in pregnancy, are linked to birth defects [1]."
+ "name": "Vitamin A for eyes",
+ "card": {
+  "summary": "Essential for vision and the eye surface; deficiency causes night blindness and dry eye, but evidence for extra vitamin A in well-nourished people is thin and excess is toxic.",
+  "aka": "Retinol, retinyl palmitate, vitamin A eye gel",
+  "evidence": "limited",
+  "status": "otc",
+  "risk": null,
+  "outcome": null,
+  "price": null,
+  "note": "Preformed vitamin A in excess is toxic and teratogenic in pregnancy; studied mainly for deficiency, dry eye and dark adaptation.",
+  "structure": "Retinol"
+ },
+ "quick": {
+  "overview": "Vitamin A is needed to make the light-sensitive pigment of the retina and to keep the cornea and conjunctiva healthy. Severe deficiency causes night blindness and xerophthalmia, a leading cause of preventable childhood blindness.\n\nIt appears in eye-surface products such as vitamin A eye gels and drops and in oral supplements. Small trials have looked at dry eye, ocular surface irritation and dark adaptation in macular degeneration; none targets cosmetic appearance.",
+  "mechanism": "Vitamin A is needed to regenerate rhodopsin in rod cells, which underlies dim-light vision, and supports the surface epithelium of the eye. Deficiency dries the conjunctiva and cornea.",
+  "risks": "Preformed retinol (not carotenoids from food) can cause toxicity, including headache, nausea, liver and bone effects with chronic excess. Intake above about 4,500 micrograms a day in pregnancy has been linked to birth defects, and the tolerable upper limit for women of reproductive age is 3,000 micrograms a day."
+ },
+ "lead": [
+  "Vitamin A is a fat-soluble vitamin that the eye uses in two main ways: its aldehyde form, retinal, is the light-catching part of the visual pigment rhodopsin that supports dim-light vision, and the vitamin also supports the moist surface tissues of the conjunctiva and cornea. [1][4] People who care about how their eyes look and feel raise it in three contexts: keeping the eye surface comfortable and clear, supporting night vision, and, in skincare, applying retinol-type products around the eyes in the hope of smoother, firmer-looking skin. [1][5][6][7]",
+  "The eye-surface and vision effects of low vitamin A are well documented. Night blindness is an early sign of deficiency, and severe deficiency causes xerophthalmia, in which the conjunctiva and cornea dry out, Bitot's spots form, and the cornea can ulcerate; UNICEF is quoted calling it the leading cause of preventable childhood blindness. [1][3] Vitamin A eye gels are used clinically to protect the ocular surface, and small trials have tested them in dry-eye settings. [8][12][13]",
+  "The popular belief that carrots sharpen night vision has a documented history: Wikipedia traces it to British wartime messaging, while attributing the real explanation of pilots' night successes to radar. [2] Preformed vitamin A has a narrow safety margin, and high intakes are linked to toxicity and, in pregnancy, to birth defects. [1][4]"
+ ],
+ "angle": {
+  "goal": "Eye health and eye-area appearance",
+  "chain": [
+   "Retinal forms rhodopsin and the vitamin supports conjunctival and corneal surface cells",
+   "Adequate vitamin A keeps night vision and the eye surface working normally",
+   "Comfortable, clear-looking eyes; topical retinol is also used on the skin around the eyes"
   ],
-  "infobox": [
-    ["Class", "Fat-soluble vitamin (retinoid)"],
-    ["Forms", "Retinol, retinyl palmitate, beta-carotene (provitamin)"],
-    ["Routes", "Oral, topical ocular"],
-    ["Deficiency signs", "Night blindness, xerophthalmia"],
-    ["Pregnancy", "High retinol intake linked to birth defects"]
+  "effect": "indirect",
+  "text": "Adequate vitamin A keeps the eye surface moist and the visual pigment supplied. Topical eye gels are used to protect the surface in clinical settings, and retinol skincare is used around the eyes for the look of fine lines and texture. Community interest in eye-area retinol is largely about dark circles and thin under-eye skin."
+ },
+ "infobox": [
+  [
+   "Class",
+   "Fat-soluble vitamin (retinoid family)"
   ],
-  "sections": [
-    {
-      "h": "Role in the eye",
-      "paras": [
-        "Night blindness is an early, reversible sign of low vitamin A. Severe deficiency produces dryness of the conjunctiva and cornea, keratin deposits known as Bitot's spots, and, untreated, corneal ulceration and blindness [1]. In public health programmes, large periodic doses given to young children were associated with fewer cases of night blindness, xerophthalmia and Bitot's spots in a 2017 Cochrane review, as summarised in encyclopedic sources [1]."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "A randomised study in 120 patients under general anaesthesia for head and neck surgery compared vitamin A eye gel plus transparent tape with erythromycin ointment plus tape for protecting the eye surface [2]. Registered trials include vitamin A palmitate for delayed dark adaptation in age-related macular degeneration (n=8) and in reticular pseudodrusen (n=9) [3][4], vitamin A with carbomer for ocular surface irritation in glaucoma patients (n=30) [5], a vitamin A, vitamin E and hyaluronate eye drop versus hyaluronate alone in diabetic retinopathy patients with dry eye (n=96) [6], oral nutrition and tear film (phase 4, n=80) [7], and a Vit-A-Vision product investigation for burning and tired eyes (n=77, recruiting) [8].",
-        "A registered study of vitamin K2 (MK-7) for dark eye circles (n=34) concerns a different vitamin [9]. The registry entries list designs and populations; results are not summarised here, and none of these studies targets cosmetic whitening or brightening of the eyes."
-      ]
-    },
-    {
-      "h": "Adverse effects",
-      "paras": [
-        "Toxicity arises from preformed retinol in supplements rather than carotenoids in food. A single very large dose can cause blurred vision, nausea, vomiting, dizziness and headache within hours; chronic excess affects the nervous system, liver, bones and skin, and effects generally reverse when intake stops [1]. Retinol intake above 4,500 micrograms a day in pregnancy, especially in the first trimester, has been linked to birth defects, and the tolerable upper intake for women of reproductive age is 3,000 micrograms a day [1]."
-      ]
-    }
+  [
+   "Forms",
+   "Retinol, retinyl esters, retinal, retinoic acid; beta-carotene is a provitamin [1]"
   ],
-  "timeline": [],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Vitamin A", "url": "https://en.wikipedia.org/wiki/Vitamin_A", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
-    { "id": 2, "title": "Effects of different eye protection methods during head and neck surgery under general anesthesia", "url": "https://pubmed.ncbi.nlm.nih.gov/36000374/", "source": "Zhonghua Yi Xue Za Zhi", "year": 2022, "type": "trial" },
-    { "id": 3, "title": "Vitamin A Palmitate Supplementation in AMD and Delayed Dark Adaptation (NCT03478865)", "url": "https://clinicaltrials.gov/study/NCT03478865", "source": "ClinicalTrials.gov", "year": 2018, "type": "trial" },
-    { "id": 4, "title": "Vitamin A Palmitate Supplementation in Reticular Pseudodrusen (NCT03478878)", "url": "https://clinicaltrials.gov/study/NCT03478878", "source": "ClinicalTrials.gov", "year": 2018, "type": "trial" },
-    { "id": 5, "title": "Vitamin A and Carbomer in Ocular Surface Irritations of Glaucoma Patients (NCT02077231)", "url": "https://clinicaltrials.gov/study/NCT02077231", "source": "ClinicalTrials.gov", "year": 2011, "type": "trial" },
-    { "id": 6, "title": "Vitamin A, Vitamin E, Sodium Hyaluronate Eye Drop in Diabetic Retinopathy (NCT04000789)", "url": "https://clinicaltrials.gov/study/NCT04000789", "source": "ClinicalTrials.gov", "year": 2019, "type": "trial" },
-    { "id": 7, "title": "Oral Nutrition Impact on Tear Film (NCT01561040)", "url": "https://clinicaltrials.gov/study/NCT01561040", "source": "ClinicalTrials.gov", "year": 2012, "type": "trial" },
-    { "id": 8, "title": "Vit-A-Vision Clinical Investigation (NCT06596733)", "url": "https://clinicaltrials.gov/study/NCT06596733", "source": "ClinicalTrials.gov", "year": 2025, "type": "trial" },
-    { "id": 9, "title": "Vitamin K2 (MK-7) Reduces Dark Eye Circles (NCT07881367)", "url": "https://clinicaltrials.gov/study/NCT07881367", "source": "ClinicalTrials.gov", "year": 2024, "type": "trial" }
+  [
+   "Eye role",
+   "Part of rhodopsin; supports conjunctiva and cornea [1][4]"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Vitamin_A", "title": "Vitamin A - Wikipedia" }
+  [
+   "Deficiency signs",
+   "Night blindness, xerophthalmia, Bitot's spots [1][3]"
+  ],
+  [
+   "Adult upper intake",
+   "3,000 micrograms per day of preformed vitamin A [1]"
+  ],
+  [
+   "Eye products",
+   "Vitamin A palmitate eye gels, combination drops, oral supplements"
+  ],
+  [
+   "Skincare forms",
+   "Retinol, retinaldehyde, retinyl esters"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Role in the eye",
+   "subs": [
+    {
+     "h": "Vision",
+     "paras": [
+      "Retinal combines with the protein opsin to form rhodopsin, which is needed for vision in low light, and retinal also underlies colour vision; Wikipedia describes the chromophore as 11-cis-retinal, the aldehyde of vitamin A1. [1][4] When a photon isomerises 11-cis-retinal to all-trans-retinal, the signal cascade of phototransduction begins, and the all-trans form is recycled through the retinal pigment epithelium back to the 11-cis form, a loop called the visual cycle. [4] The liver stores retinol, so well-nourished people can go months on a low-vitamin-A diet before symptoms appear. [1]"
+     ]
+    },
+    {
+     "h": "Ocular surface",
+     "paras": [
+      "Vitamin A also supports the epithelial cells and mucus-producing goblet cells that keep the conjunctiva and cornea wet. In deficiency the surface dries (xerosis), keratin debris collects as Bitot's spots, and the cornea can soften and ulcerate. [1][3] The WHO grading of xerophthalmia runs from night blindness (XN) through conjunctival xerosis (X1A), Bitot's spots (X1B), corneal xerosis (X2), ulceration or keratomalacia (X3), scarring (XS) and retinal change (XF). [3]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Forms and food sources",
+   "paras": [
+    "Preformed vitamin A (retinol and retinyl esters) comes from animal foods, and provitamin A carotenoids such as beta-carotene come from plants and are converted in the body. [1][5] A 2021 review in Nutrients covers the forms, sources, function, deficiency, therapeutic use and toxicity of the vitamin. [5] Wikipedia notes that excess carotenoid intake causes only a benign orange tint to the skin called carotenemia, and no upper limit is set for beta-carotene. [1][2] A 2024 randomised trial reported low beta-carotene bioaccessibility and bioavailability from a high-fat, dairy-based meal. [10]"
+   ]
+  },
+  {
+   "h": "Public health",
+   "paras": [
+    "Deficiency affects about one-third of children under five worldwide, mainly in sub-Saharan Africa and Southeast Asia, and programmes give periodic oral doses and fortify staple foods. [1] Wikipedia's xerophthalmia article lists the WHO schedule of periodic supplementation for young children and notes supplements and food can reverse the condition until corneal ulceration develops. [3] A 2017 Cochrane review is summarised as finding fewer cases of night blindness and xerophthalmia in children receiving large periodic doses. [1]"
+   ]
+  },
+  {
+   "h": "Use for eye appearance and comfort",
+   "subs": [
+    {
+     "h": "Eye gels and drops",
+     "paras": [
+      "Vitamin A palmitate eye gels, often combined with carbomer or hyaluronate, are used to lubricate and protect the ocular surface. A randomised study at Beijing Tongren Hospital in 120 patients under general anaesthesia compared vitamin A eye gel plus transparent tape with erythromycin ointment plus tape for surface protection. [8] Registered trials include vitamin A with carbomer for surface irritation in 30 glaucoma patients (2011), a vitamin A, vitamin E and hyaluronate drop versus hyaluronate alone in 96 patients with diabetic retinopathy and dry eye, and a consumer-product investigation for burning and tired eyes that began recruiting in late 2025. [11][12][13]"
+     ]
+    },
+    {
+     "h": "Skincare around the eyes",
+     "paras": [
+      "Retinol is a widely used cosmetic retinoid. A 2022 review in the Journal of Drugs in Dermatology says retinol has been shown to improve fine lines, wrinkles, hyperpigmentation, roughness and the look of photoaged skin and is better tolerated than prescription retinoids. [6] A randomised, double-blind, vehicle-controlled study of 0.4% retinol lotion in 36 elderly people (mean age 87) used a left-and-right-arm design. [7] A 12-week randomised study of 44 patients compared bakuchiol 0.5% twice daily with retinol 0.5% daily and reported significant decreases in wrinkle surface area and hyperpigmentation for both. [14] A 2024 systematic review of cosmeceuticals for anti-ageing pooled 32 studies in 1,236 patients, including retinol among its ingredients. [9]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "In looksmaxxing and carrot lore",
+   "paras": [
+    "On looksmax.org one poster with sunken eyes and purple-blue under-eye colour asked whether retinol under and over the eyes would fill out thin skin, and a reply said retinol increases collagen so it might, suggesting caffeine serums and BB cream in the meantime. [15] In another thread a poster asked whether retinol helps sagging skin and dark circles linked to a negative orbital vector; one reply said it can help somewhat but not as much as expected, and another said at young ages such circles are mainly due to fat-pad and bone structure. [16]",
+    "The carrot story is the best-known vitamin A and eyes belief. Wikipedia reports that wartime British rumour held carrots helped pilots see at night, that Britain promoted carrots through the Dig for Victory campaign and The Kitchen Front radio programme, and that a 1942 surplus of 100,000 tons of carrots was recorded. [2] It states that beta-carotene does not improve night vision except in vitamin A deficiency. [2]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "The human studies of vitamin A and the eye mostly address deficiency, ocular-surface protection and retinal conditions, not eye-area aesthetics.",
+    "Surface protection: the 120-patient anaesthesia study compared vitamin A eye gel with erythromycin ointment, each with tape. [8] The registered dry-eye and irritation trials described above enrolled 30 to 96 people each. [11][12][13]",
+    "Dark adaptation: two early phase 1 studies of vitamin A palmitate supplementation tested delayed dark adaptation in age-related macular degeneration (8 participants) and in reticular pseudodrusen (9 participants). [17][18] A phase 4 registration examines oral nutrition and tear film in dry eye (80 participants). [19]",
+    "Dark circles: a registered study of vitamin K2 (MK-7) for dark eye circles enrolled 34 people; it concerns a different vitamin. [20]",
+    "Skin: retinol studies in photoaged and naturally aged skin are summarised above. [6][7][14][9]"
+   ]
+  },
+  {
+   "h": "Safety",
+   "paras": [
+    "Toxicity arises from preformed retinol in supplements, not from carotenoids in food. A single very large dose can cause blurred vision, nausea, vomiting, dizziness and headache, and chronic excess affects the nervous system, liver, bones and skin, generally reversing when intake stops. [1][5] Wikipedia lists acute toxicity above 150,000 micrograms and chronic toxicity from roughly 25,000 to 33,000 IU a day over months, with an adult tolerable upper intake of 3,000 micrograms per day. [1] Retinol intake above 4,500 micrograms a day in pregnancy has been linked to birth defects, and the tolerable upper intake for women of reproductive age is 3,000 micrograms a day. [1] Topical retinoids commonly cause dryness and irritation, and the eye area is thin-skinned. [6][14]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2005",
+   "event": "RPE65 is identified as the isomerohydrolase of the visual cycle, a landmark in understanding how vitamin A is recycled in the retina. [4]"
+  },
+  {
+   "year": "2007",
+   "event": "A randomised vehicle-controlled study of 0.4% retinol lotion in elderly skin is published. [7]"
+  },
+  {
+   "year": "2011",
+   "event": "A trial of vitamin A with carbomer for ocular-surface irritation in glaucoma patients begins. [12]"
+  },
+  {
+   "year": "2017",
+   "event": "A Cochrane review is summarised as showing large periodic vitamin A doses reduced night blindness and xerophthalmia in children. [1]"
+  },
+  {
+   "year": "2018",
+   "event": "Early phase 1 studies of vitamin A palmitate for delayed dark adaptation begin. [17][18]"
+  },
+  {
+   "year": "2019",
+   "event": "A randomised bakuchiol versus retinol study is published; a trial of vitamin A, E and hyaluronate eye drops starts. [13][14]"
+  },
+  {
+   "year": "2021",
+   "event": "The Nutrients review of vitamin A forms, function, deficiency and toxicity is published; the Beijing anaesthesia eye-gel study is run from June to December. [5][8]"
+  },
+  {
+   "year": "2022",
+   "event": "The Journal of Drugs in Dermatology review on retinol as a cosmetic retinoid is published. [6]"
+  },
+  {
+   "year": "2025",
+   "event": "Investigation of a vitamin A eye product for burning and tired eyes begins recruiting. [11]"
+  }
+ ],
+ "lore": {
+  "intro": "Vitamin A comes up in looksmaxxing mainly through retinol for the skin around the eyes and, more broadly, as a general eye-health nutrient and carrot folklore. [15][16][2]",
+  "claims": [
+   {
+    "claim": "Retinol under the eyes thickens skin and helps dark circles.",
+    "believers": "Posters with thin, bluish under-eye skin use retinol hoping for more collagen and a fuller look. [15]",
+    "experts": "Reviews report retinol improves fine lines and photoaged skin appearance, while posters in the same threads note circles from fat-pad and bone structure may not respond; no trial of vitamin A for dark circles was found. [6][16]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Carrots give you night vision.",
+    "believers": "The belief dates to wartime British messaging and remains common. [2]",
+    "experts": "Wikipedia says radar explained pilots' night success and that beta-carotene does not improve night vision except in deficiency. [2]",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "Vitamin A is essential for night vision and the eye surface.",
+    "believers": "Eye-health content stresses the nutrient's role in rhodopsin and tear-surface cells. [4]",
+    "experts": "Reference sources document night blindness and xerophthalmia in deficiency, and public-health dosing programmes reduced both in children. [1][3]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Vitamin A eye gel keeps the eye surface comfortable.",
+    "believers": "Clinicians and manufacturers use palmitate gels for dryness and irritation. [8]",
+    "experts": "Small randomised and registered studies have tested the gels in surgery, glaucoma, diabetes and dry-eye settings, with limited sample sizes. [8][11][12][13]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "More vitamin A means better eyes.",
+    "believers": "Some supplement users take extra preformed vitamin A for eye health.",
+    "experts": "Wikipedia and the Nutrients review describe a narrow safety margin, with toxicity at high intakes and birth-defect risk in pregnancy. [1][5]",
+    "evidence": "harms"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Vitamin A",
+   "url": "https://en.wikipedia.org/wiki/Vitamin_A",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Carrot",
+   "url": "https://en.wikipedia.org/wiki/Carrot",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Xerophthalmia",
+   "url": "https://en.wikipedia.org/wiki/Xerophthalmia",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Visual phototransduction",
+   "url": "https://en.wikipedia.org/wiki/Visual_phototransduction",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 5,
+   "title": "Vitamin A Update: Forms, Sources, Kinetics, Detection, Function, Deficiency, Therapeutic Use and Toxicity",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34069881/",
+   "source": "Nutrients",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Retinol: The Ideal Retinoid for Cosmetic Solutions",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35816071/",
+   "source": "Journal of Drugs in Dermatology",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Improvement of naturally aged skin with vitamin A (retinol)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17515510/",
+   "source": "Archives of Dermatology",
+   "year": 2007,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Effects of different eye protection methods during head and neck surgery under general anesthesia",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36000374/",
+   "source": "Zhonghua Yi Xue Za Zhi",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Cosmeceuticals for antiaging: a systematic review of safety and efficacy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38758222/",
+   "source": "Archives of Dermatological Research",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 10,
+   "title": "Low beta-carotene bioaccessibility and bioavailability from high fat, dairy-based meal",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38753174/",
+   "source": "European Journal of Nutrition",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Vit-A-Vision Clinical Investigation (NCT06596733)",
+   "url": "https://clinicaltrials.gov/study/NCT06596733",
+   "source": "ClinicalTrials.gov",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "Vitamin A and Carbomer in Ocular Surface Irritations of Glaucoma Patients (NCT02077231)",
+   "url": "https://clinicaltrials.gov/study/NCT02077231",
+   "source": "ClinicalTrials.gov",
+   "year": 2011,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "Vitamin A, Vitamin E, Sodium Hyaluronate Eye Drop in Diabetic Retinopathy (NCT04000789)",
+   "url": "https://clinicaltrials.gov/study/NCT04000789",
+   "source": "ClinicalTrials.gov",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "Prospective, randomized, double-blind assessment of topical bakuchiol and retinol for facial photoageing",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29947134/",
+   "source": "British Journal of Dermatology",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 15,
+   "title": "retinol under eyes",
+   "url": "https://looksmax.org/threads/retinol-under-eyes.1378828/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 16,
+   "title": "Looksmaxxing Retinol help",
+   "url": "https://looksmax.org/threads/retinol-help.956300/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 17,
+   "title": "Vitamin A Palmitate Supplementation in AMD and Delayed Dark Adaptation (NCT03478865)",
+   "url": "https://clinicaltrials.gov/study/NCT03478865",
+   "source": "ClinicalTrials.gov",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 18,
+   "title": "Vitamin A Palmitate Supplementation in Reticular Pseudodrusen (NCT03478878)",
+   "url": "https://clinicaltrials.gov/study/NCT03478878",
+   "source": "ClinicalTrials.gov",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 19,
+   "title": "Oral Nutrition Impact on Tear Film (NCT01561040)",
+   "url": "https://clinicaltrials.gov/study/NCT01561040",
+   "source": "ClinicalTrials.gov",
+   "year": 2012,
+   "type": "trial"
+  },
+  {
+   "id": 20,
+   "title": "Vitamin K2 (MK-7) Reduces Dark Eye Circles (NCT07881367)",
+   "url": "https://clinicaltrials.gov/study/NCT07881367",
+   "source": "ClinicalTrials.gov",
+   "year": 2024,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Vitamin_A",
+   "title": "Vitamin A - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Carrot",
+   "title": "Carrot - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Xerophthalmia",
+   "title": "Xerophthalmia - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Visual_phototransduction",
+   "title": "Visual phototransduction - Wikipedia"
+  }
+ ]
 }

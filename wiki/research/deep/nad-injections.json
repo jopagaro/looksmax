@@ -1,64 +1,421 @@
 {
   "name": "NAD+ injections",
   "lead": [
-    "NAD+ injections are parenteral (injected or infused) preparations of nicotinamide adenine dinucleotide, a coenzyme found in all living cells. They are marketed by some wellness and longevity clinics, and discussed online, as an anti-aging or energy-boosting treatment.[1][2]",
-    "NAD+ itself is a well-characterised molecule central to cellular metabolism. The claim that raising NAD+ by injection slows aging or improves appearance is a separate question, and no controlled human trial of injected NAD+ for appearance or aging was found. Registered human trials of injectable NAD+ (often called coenzyme I in Chinese registrations) address other conditions, such as hematopoietic recovery, hearing loss and vascular aging.[3][4]",
-    "In the United Kingdom, NAD+ is not licensed as a medicine, and experts quoted in reference works say the long-term safety of intravenous NAD+ is unknown.[2]"
+    "NAD+ injections are injected or intravenously infused preparations of nicotinamide adenine dinucleotide, a coenzyme present in every living cell. Wellness, longevity and some aesthetic clinics offer them, and they are discussed online, for energy, recovery, mental clarity and an anti-aging effect that people hope will show in the skin, the eyes and general vitality.[1][4]",
+    "The route from an NAD+ drip to a better-looking face is a claimed, chained one: proponents say that NAD+ levels fall with age, that replacing it supports cellular repair and energy metabolism, and that healthier cells translate into healthier-looking skin, better sleep and more energy for training. NAD+ itself is thoroughly characterised biochemistry; whether injected NAD+ produces visible changes in appearance has not been tested in a controlled human trial that the wiki could locate.[1][11]",
+    "Research on NAD+ metabolism is large and active. It covers sirtuins, DNA-repair enzymes and mitochondrial function, and a growing set of human trials of oral precursors such as nicotinamide riboside and nicotinamide mononucleotide. Registered trials of injectable NAD+ (called coenzyme I for injection in many Chinese registrations) concern specific medical conditions rather than appearance.[2][3][13][5][6]",
+    "In the United Kingdom NAD+ is not licensed as a medicine, and experts quoted in reference works say that the efficacy and long-term safety of intravenous NAD+ are unknown.[1]"
   ],
+  "angle": {
+    "goal": "Skin and general vitality",
+    "chain": [
+      "Clinic injects or infuses NAD+",
+      "Proponents say cellular NAD+ levels rise",
+      "Supports energy metabolism and cell repair (claimed)",
+      "Fresher skin, better recovery and training capacity (claimed)"
+    ],
+    "effect": "claimed",
+    "text": "People use NAD+ drips and shots in the hope of a more youthful, energised look, expecting better skin quality, sleep and recovery. The link between injected NAD+ and visible appearance is a proponents' hypothesis built on NAD+ biochemistry, and it has not been measured in published human appearance trials."
+  },
   "infobox": [
-    ["Compound", "Nicotinamide adenine dinucleotide (NAD+)"],
-    ["Class", "Coenzyme / dietary-precursor derivative"],
-    ["Route", "Intravenous or injected"],
-    ["Legal status", "Not licensed as a medicine in the UK;[2] varies elsewhere"],
-    ["Appearance evidence", "No controlled human studies found"]
+    [
+      "Compound",
+      "Nicotinamide adenine dinucleotide (NAD+); also called coenzyme I[1]"
+    ],
+    [
+      "Class",
+      "Coenzyme derived from vitamin B3 precursors[1][2]"
+    ],
+    [
+      "Routes",
+      "Intravenous infusion or injection (subcutaneous use is discussed online)"
+    ],
+    [
+      "Related supplements",
+      "Nicotinamide riboside (NR) and nicotinamide mononucleotide (NMN), taken orally[2][3]"
+    ],
+    [
+      "Discovered",
+      "1906, Arthur Harden and William Young (as a yeast 'coferment')[1]"
+    ],
+    [
+      "Where offered",
+      "Longevity, wellness and some aesthetic clinics; online communities"
+    ],
+    [
+      "Legal status",
+      "Not licensed as a medicine in the UK;[1] varies elsewhere"
+    ],
+    [
+      "Registered injectable trials",
+      "Hematopoietic recovery, hearing loss, thrombocytopenia, vascular aging, healthy-aging absorption[5][6][7][8][9]"
+    ]
   ],
   "sections": [
     {
-      "h": "Background",
+      "h": "What NAD+ is",
       "paras": [
-        "A heat-stable yeast factor that accelerated fermentation was reported by Arthur Harden and William Young in 1906, and its role in hydride transfer was shown by Otto Warburg in 1936.[2] NAD+ carries electrons in redox reactions and is also consumed by enzymes such as sirtuins, PARPs and CD38.[2]",
-        "Researchers have proposed that falling NAD+ levels contribute to aging, but the encyclopedia record notes that evidence for age-related NAD+ decline in humans is inconsistent, and that a 2024 rat study reporting such a decline was withdrawn after image manipulation was found.[2]"
+        "NAD+ is a coenzyme that shuttles electrons in redox reactions of metabolism, including the pathways that turn food into cellular energy. It is also consumed as a substrate by signalling enzymes: the sirtuins, the PARP family involved in DNA repair, and the CD38 enzyme.[1][11][12]",
+        "Cells make NAD+ mainly through a salvage pathway in which the enzyme NAMPT produces nicotinamide mononucleotide (NMN), which is converted to NAD+. Dietary vitamin B3 forms, namely nicotinic acid, nicotinamide and nicotinamide riboside, feed these pathways.[1][2]"
+      ],
+      "subs": [
+        {
+          "h": "Discovery and history",
+          "paras": [
+            "Arthur Harden and William John Young reported a heat-stable yeast 'coferment' that accelerated fermentation in 1906. Hans von Euler-Chelpin identified it as a nucleotide sugar phosphate in the 1930s, and Otto Warburg showed its role in hydride transfer in 1936.[1]",
+            "Conrad Elvehjem linked nicotinamide to the cure of 'black tongue' in 1938 and 1939, and Jack Preiss and Philip Handler described the biosynthetic intermediates in 1958. Shin-ichiro Imai and colleagues, working in Leonard Guarente's laboratory, discovered the NAD+-dependent sirtuins in 2000, and Charles Brenner's group described the nicotinamide riboside kinase route to NAD+ in 2004.[1]",
+            "Imai proposed an 'NAD World' hypothesis in 2009, linking sirtuin 1 and NAMPT to aging and longevity, and revised it as 'NAD World 2.0' in 2016.[1] These ideas are the intellectual basis for the anti-aging marketing around NAD+."
+          ]
+        }
       ]
     },
     {
-      "h": "Use in longevity and wellness clinics",
+      "h": "The aging hypothesis",
       "paras": [
-        "Clinics offer NAD+ infusions or injections for energy, cognition, recovery and anti-aging. In the UK, high-cost infusions have been marketed for alcohol and drug dependence, and the reference record states there is no proof such treatments work.[2]"
+        "Researchers have proposed that a decline in cellular NAD+ during aging contributes to age-related disease, for example through reduced sirtuin activity and weaker DNA repair as PARP and CD38 consume more of the pool.[11][12] One reported mechanism is that increased binding of DBC1 to PARP1 as NAD+ falls may impair DNA repair.[1]",
+        "Human evidence on the decline is described as inconsistent and tissue dependent. A 2026 cross-sectional study of 1,068 adults, summarised in the encyclopedia record, found whole-blood NAD+ stable in men, slightly higher in women, and lower in people with cardiovascular disease, though it cannot show causation. A widely cited 2024 rat study reporting an age-related decline was withdrawn after image manipulation was found.[1]"
+      ]
+    },
+    {
+      "h": "Use in clinics and online communities",
+      "paras": [
+        "Clinics typically present NAD+ drips as a recovery and longevity service alongside vitamin infusions. The format descends from the 'Myers' cocktail' of the 1960s and the later boutique IV clinics, the first of which Wikipedia dates to Tokyo in 2008.[4]",
+        "In the UK, high-cost NAD+ infusions have also been marketed for alcohol and drug dependence, claims that medical experts quoted in reference works describe as untested.[1] The reference record notes that such marketing likely breaches advertising and medicines rules.[1]",
+        "On looksmax.org, NAD+ appears mainly in the wider conversation about injectables, peptides and anabolic or growth-related compounds, where users ask about somatropin, local IGF-1, glutathione for skin tone and similar products.[20][21][22] The community talk of NAD+ is largely about energy, sleep and a general 'glow', and is thin compared with discussion of peptides and hormones. A broader peptide boom has been covered in technology and health media.[23]"
+      ],
+      "subs": [
+        {
+          "h": "Oral precursors as an alternative route",
+          "paras": [
+            "Many people who want to raise NAD+ use oral precursors instead of injections. Nicotinamide riboside was designated a new dietary ingredient by the US FDA in 2015 and 2017 and accepted as generally recognised as safe in 2016, and the EU authorised it for supplements in 2020.[2] ChromaDex, renamed Niagen Bioscience in 2025, brands it Niagen; Elysium Health and ChromaDex were in a patent dispute from 2016 to 2023.[2]",
+            "NMN faced a 2022 FDA position that blocked its sale as a supplement because it was under investigation as a drug; the encyclopedia record says that position was later rescinded for the beta form, citing news and an FDA letter from late 2025.[3]"
+          ]
+        }
       ]
     },
     {
       "h": "Clinical studies",
       "paras": [
-        "No controlled trials of injected NAD+ for skin, appearance or healthy aging outcomes were found. A registered trial (NCT06919328) is comparing absorption and tolerability of an injectable nicotinamide riboside product with NAD+ in healthy aging, but no results were located.[3]",
-        "Other registered trials of injectable NAD+ concern hematopoietic recovery after cord blood transplant, sudden sensorineural hearing loss, immune thrombocytopenia, vascular aging and pediatric cardiac dysfunction; these are small and mostly early phase, and are not studies of appearance.[4][5][6][7]",
-        "Published laboratory work includes a 2025 mouse study in which NAD+ attenuated demyelination in an autoimmune encephalomyelitis model.[8]"
+        "No controlled trials of injected NAD+ for skin, appearance or healthy-aging outcomes were found. A registered trial (NCT06919328), recruiting since 2024 with 70 participants, compares absorption and tolerability of an injectable nicotinamide riboside product with NAD+ in healthy aging; no results were located.[5]",
+        "Other registered injectable-NAD+ trials concern hematopoietic recovery after cord blood transplantation (phase 1, 12 participants), sudden sensorineural hearing loss (36 participants), immune thrombocytopenia, vascular aging (60 participants) and, planned for 2026, pediatric cardiac dysfunction (180 participants). They are small, mostly early-phase and not appearance studies.[6][7][8][9][18]"
+      ],
+      "subs": [
+        {
+          "h": "Oral precursor trials",
+          "paras": [
+            "Human trials of oral precursors are better developed. A 10-week randomized placebo-controlled trial in postmenopausal women with prediabetes who were overweight or obese found that NMN raised muscle insulin sensitivity.[13] A 60-day randomized multicenter trial in 80 healthy middle-aged adults tested oral NMN at several doses for efficacy and safety.[14]",
+            "The NADPARK phase I trial tested nicotinamide riboside in Parkinson's disease, a randomized trial examined it in older adults with mild cognitive impairment, and another randomized trial examined long-term safety and metabolism of NIAGEN in healthy overweight adults.[15][16][17] These studies concern oral supplements and medical or metabolic outcomes, not injectable NAD+ or looks."
+          ]
+        },
+        {
+          "h": "Laboratory work",
+          "paras": [
+            "A 2025 mouse study reported that NAD+ attenuated demyelination in an experimental autoimmune encephalomyelitis model.[10]"
+          ]
+        }
       ]
     },
     {
-      "h": "Safety",
+      "h": "Safety and regulation",
       "paras": [
-        "Experts cited in reference works say the long-term safety of intravenous NAD+ is unknown.[2] No safety data from controlled trials of cosmetic or longevity use were found."
+        "Experts quoted in reference works say the long-term safety of intravenous NAD+ is unknown, and no safety data from controlled trials of cosmetic or longevity use were found.[1] General risks of intravenous therapy include infection, sepsis, phlebitis and infiltration, and the encyclopedia record notes that technique and oversight at storefront clinics can affect the risk.[4]",
+        "NAD+ is not approved or licensed as a medicine in the UK.[1] Reports of injected products in other cosmetic fields give a sense of the monitoring that exists for approved injectables: a systematic review of cosmetic botulinum toxin injections catalogued their complications and noted limited regulation of the field.[19]",
+        "The WADA rule limiting intravenous infusions to 100 mL per 12 hours without an exemption is relevant to athletes who use IV services.[4]"
+      ]
+    },
+    {
+      "h": "Related practices",
+      "paras": [
+        "Related offerings include vitamin and glutathione infusions, oral NMN or NR supplements, peptide injections, and niacin or nicotinamide products for skin. Each is discussed separately on the wiki."
       ]
     }
   ],
   "timeline": [
-    { "year": "1906", "event": "Harden and Young report the yeast 'coferment' later identified as NAD.[2]" },
-    { "year": "1936", "event": "Warburg shows NAD's role in hydride transfer.[2]" },
-    { "year": "2000", "event": "Sirtuins discovered, later linked to NAD+ aging hypotheses.[2]" }
+    {
+      "year": "1906",
+      "event": "Harden and Young report the yeast 'coferment' later identified as NAD.[1]"
+    },
+    {
+      "year": "1936",
+      "event": "Warburg shows NAD's role in hydride transfer.[1]"
+    },
+    {
+      "year": "1960s",
+      "event": "John Myers' vitamin 'cocktail' establishes the wellness IV format.[4]"
+    },
+    {
+      "year": "2000",
+      "event": "Sirtuins, which depend on NAD+, are discovered.[1]"
+    },
+    {
+      "year": "2004",
+      "event": "The nicotinamide riboside kinase pathway to NAD+ is described.[1]"
+    },
+    {
+      "year": "2008",
+      "event": "First boutique IV clinic opens in Tokyo.[4]"
+    },
+    {
+      "year": "2009",
+      "event": "Imai proposes the 'NAD World' aging hypothesis.[1]"
+    },
+    {
+      "year": "2016",
+      "event": "'NAD World 2.0' proposed; FDA accepts NR chloride as GRAS.[1][2]"
+    },
+    {
+      "year": "2021",
+      "event": "Randomized trial finds oral NMN raises muscle insulin sensitivity in prediabetic women.[13]"
+    },
+    {
+      "year": "2024",
+      "event": "Registered trial begins comparing injectable NR product with NAD+ in healthy aging.[5]"
+    }
   ],
-  "lore": null,
+  "lore": {
+    "intro": "NAD+ injections are discussed in longevity circles and as a side-topic in looksmaxxing injectable and peptide conversations.[20][23]",
+    "claims": [
+      {
+        "claim": "NAD+ levels fall with age, and injecting NAD+ restores a youthful state",
+        "believers": "Proponents cite the NAD World hypothesis and sirtuin research to say that topping up NAD+ supports repair and energy.[1][12]",
+        "experts": "Researchers describe the human age-related decline as inconsistent, and a widely cited rat study of it was withdrawn; no trial has shown injected NAD+ reverses aging.[1]",
+        "evidence": "untested"
+      },
+      {
+        "claim": "NAD+ drips improve skin and give a younger look",
+        "believers": "Clinic marketing and some users describe a glow and better energy after infusions.[1]",
+        "experts": "No controlled human trial of injected NAD+ for appearance was found; registered trials address other conditions.[5][6]",
+        "evidence": "untested"
+      },
+      {
+        "claim": "NAD+ shots boost energy and training recovery",
+        "believers": "Users say the shots improve energy and sleep, which supports training and so physique.[1]",
+        "experts": "Oral NMN and NR trials have examined metabolic and functional outcomes in specific populations, not injected NAD+ in athletes.[13][14]",
+        "evidence": "untested"
+      },
+      {
+        "claim": "NAD+ infusions treat addiction and withdrawal",
+        "believers": "Some UK clinics have marketed expensive infusions as clinically proven for dependence.[1]",
+        "experts": "Medical experts quoted in reference works describe the treatment as untested and unproven.[1]",
+        "evidence": "not-supported"
+      },
+      {
+        "claim": "Oral NMN or NR do the same job without needles",
+        "believers": "Supplement makers and users say precursors raise NAD+ and are more convenient.[2][3]",
+        "experts": "Trials of oral precursors report effects in prediabetic women and safety in healthy adults, with anti-aging effects in humans described as unproven.[13][17][3]",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "Injections at home or from a clinic are low-risk",
+        "believers": "Some forum users treat injectables as routine and ask mainly about hygiene.[20]",
+        "experts": "General IV risks include infection and phlebitis, and long-term safety of NAD+ infusions is unknown.[4][1]",
+        "evidence": "untested"
+      }
+    ]
+  },
   "refs": [
-    { "id": 1, "title": "Nicotinamide adenine dinucleotide (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Nicotinamide_adenine_dinucleotide", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
-    { "id": 2, "title": "Nicotinamide adenine dinucleotide (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Nicotinamide_adenine_dinucleotide", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
-    { "id": 3, "title": "NCT06919328: Absorption and Tolerability of Injectable Niagen+ Compared to NAD+", "url": "https://clinicaltrials.gov/study/NCT06919328", "source": "ClinicalTrials.gov", "year": 2024, "type": "trial" },
-    { "id": 4, "title": "NCT06558253: Coenzyme I for Injection and Hematopoietic Recovery After sUCBT", "url": "https://clinicaltrials.gov/study/NCT06558253", "source": "ClinicalTrials.gov", "year": 2024, "type": "trial" },
-    { "id": 5, "title": "NCT05849519: Coenzyme I for Injection in Sudden Sensorineural Hearing Loss", "url": "https://clinicaltrials.gov/study/NCT05849519", "source": "ClinicalTrials.gov", "year": 2022, "type": "trial" },
-    { "id": 6, "title": "NCT07328100: Coenzyme I for Injection on Vascular Aging", "url": "https://clinicaltrials.gov/study/NCT07328100", "source": "ClinicalTrials.gov", "year": 2026, "type": "trial" },
-    { "id": 7, "title": "NCT06776510: NAD in the Treatment of Immune Thrombocytopenia", "url": "https://clinicaltrials.gov/study/NCT06776510", "source": "ClinicalTrials.gov", "year": 2025, "type": "trial" },
-    { "id": 8, "title": "NAD+ attenuates central nervous system demyelination in experimental autoimmune encephalomyelitis mice", "url": "https://pubmed.ncbi.nlm.nih.gov/41367331/", "source": "Folia Neuropathologica", "year": 2025, "type": "study" }
+    {
+      "id": 1,
+      "title": "Nicotinamide adenine dinucleotide (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Nicotinamide_adenine_dinucleotide",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Nicotinamide riboside (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Nicotinamide_riboside",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 3,
+      "title": "Nicotinamide mononucleotide (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Nicotinamide_mononucleotide",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 4,
+      "title": "Intravenous therapy (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Intravenous_therapy",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 5,
+      "title": "NCT06919328: Absorption and Tolerability of Injectable Niagen+ Compared to NAD+",
+      "url": "https://clinicaltrials.gov/study/NCT06919328",
+      "source": "ClinicalTrials.gov",
+      "year": 2024,
+      "type": "trial"
+    },
+    {
+      "id": 6,
+      "title": "NCT06558253: Coenzyme I for Injection and Hematopoietic Recovery After sUCBT",
+      "url": "https://clinicaltrials.gov/study/NCT06558253",
+      "source": "ClinicalTrials.gov",
+      "year": 2024,
+      "type": "trial"
+    },
+    {
+      "id": 7,
+      "title": "NCT05849519: Coenzyme I for Injection in Sudden Sensorineural Hearing Loss",
+      "url": "https://clinicaltrials.gov/study/NCT05849519",
+      "source": "ClinicalTrials.gov",
+      "year": 2022,
+      "type": "trial"
+    },
+    {
+      "id": 8,
+      "title": "NCT07328100: Coenzyme I for Injection on Vascular Aging",
+      "url": "https://clinicaltrials.gov/study/NCT07328100",
+      "source": "ClinicalTrials.gov",
+      "year": 2026,
+      "type": "trial"
+    },
+    {
+      "id": 9,
+      "title": "NCT06776510: NAD in the Treatment of Immune Thrombocytopenia",
+      "url": "https://clinicaltrials.gov/study/NCT06776510",
+      "source": "ClinicalTrials.gov",
+      "year": 2025,
+      "type": "trial"
+    },
+    {
+      "id": 10,
+      "title": "NAD+ attenuates central nervous system demyelination in experimental autoimmune encephalomyelitis mice",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41367331/",
+      "source": "Folia Neuropathologica",
+      "year": 2025,
+      "type": "study"
+    },
+    {
+      "id": 11,
+      "title": "NAD(+) metabolism and its roles in cellular processes during ageing",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33353981/",
+      "source": "Nature Reviews Molecular Cell Biology",
+      "year": 2021,
+      "type": "review"
+    },
+    {
+      "id": 12,
+      "title": "NAD+ and sirtuins in aging and disease",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24786309/",
+      "source": "Trends in Cell Biology",
+      "year": 2014,
+      "type": "review"
+    },
+    {
+      "id": 13,
+      "title": "Nicotinamide mononucleotide increases muscle insulin sensitivity in prediabetic women",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33888596/",
+      "source": "Science",
+      "year": 2021,
+      "type": "trial"
+    },
+    {
+      "id": 14,
+      "title": "Efficacy and safety of beta-nicotinamide mononucleotide supplementation in healthy middle-aged adults",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36482258/",
+      "source": "GeroScience",
+      "year": 2023,
+      "type": "trial"
+    },
+    {
+      "id": 15,
+      "title": "The NADPARK study: nicotinamide riboside in Parkinson's disease",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35235774/",
+      "source": "Cell Metabolism",
+      "year": 2022,
+      "type": "trial"
+    },
+    {
+      "id": 16,
+      "title": "Nicotinamide riboside in older adults with mild cognitive impairment",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37994989/",
+      "source": "GeroScience",
+      "year": 2024,
+      "type": "trial"
+    },
+    {
+      "id": 17,
+      "title": "Safety and metabolism of long-term NIAGEN administration in healthy overweight adults",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31278280/",
+      "source": "Scientific Reports",
+      "year": 2019,
+      "type": "trial"
+    },
+    {
+      "id": 18,
+      "title": "NCT07839130: Pediatric cardiac dysfunction treated with injectable NAD",
+      "url": "https://clinicaltrials.gov/study/NCT07839130",
+      "source": "ClinicalTrials.gov",
+      "year": 2026,
+      "type": "trial"
+    },
+    {
+      "id": 19,
+      "title": "Complications of Cosmetic Botulinum Toxin A Injections to the Upper Face (injectable cosmetic safety context)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35178552/",
+      "source": "Aesthetic Surgery Journal",
+      "year": 2022,
+      "type": "review"
+    },
+    {
+      "id": 20,
+      "title": "looksmax.org: are somatropin injections the meta",
+      "url": "https://looksmax.org/threads/are-somatropin-injections-the-meta.1723109/",
+      "source": "looksmax.org",
+      "year": 2024,
+      "type": "forum"
+    },
+    {
+      "id": 21,
+      "title": "looksmax.org: does glutathione injections clear undertones",
+      "url": "https://looksmax.org/threads/does-glutathione-injections-clear-undertones.602369/",
+      "source": "looksmax.org",
+      "year": 2022,
+      "type": "forum"
+    },
+    {
+      "id": 22,
+      "title": "looksmax.org: Local igf1-DES injections for frauded zygos and chin",
+      "url": "https://looksmax.org/threads/local-igf1-des-injections-for-frauded-zygos-and-chin.1729213/",
+      "source": "looksmax.org",
+      "year": 2024,
+      "type": "forum"
+    },
+    {
+      "id": 23,
+      "title": "How peptide injections became the answer to everything (Hacker News)",
+      "url": "https://news.ycombinator.com/item?id=34996268",
+      "source": "Hacker News",
+      "year": 2023,
+      "type": "news"
+    }
   ],
   "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Nicotinamide_adenine_dinucleotide", "title": "Nicotinamide adenine dinucleotide (Wikipedia)" }
+    {
+      "url": "https://en.wikipedia.org/wiki/Nicotinamide_adenine_dinucleotide",
+      "title": "Nicotinamide adenine dinucleotide (Wikipedia)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nicotinamide_riboside",
+      "title": "Nicotinamide riboside (Wikipedia)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nicotinamide_mononucleotide",
+      "title": "Nicotinamide mononucleotide (Wikipedia)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Intravenous_therapy",
+      "title": "Intravenous therapy (Wikipedia)"
+    }
   ],
   "card": {
     "summary": "Injected NAD+ is sold as a longevity and energy treatment, but no controlled human trials support it for aging or appearance.",

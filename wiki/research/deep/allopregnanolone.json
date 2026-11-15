@@ -2,9 +2,19 @@
  "name": "Allopregnanolone",
  "lead": [
   "Allopregnanolone (3alpha-hydroxy-5alpha-pregnan-20-one) is a neurosteroid the body makes from progesterone. It is a potent positive allosteric modulator of GABA-A receptors, the main inhibitory receptors in the brain.[1][2][3] Its levels rise in stress, the luteal phase and pregnancy, and fall after delivery.[4][5]",
-  "Its intravenous form, brexanolone, was approved by the US FDA in March 2019 for postpartum depression, the first neurosteroid approved; it was later withdrawn from the US market.[6][7] Oral analogs such as zuranolone followed.[8]",
-  "Allopregnanolone has no studied appearance use. Registered early-phase trials explore its use in Alzheimer's disease, Parkinson's disease, traumatic brain injury and alcohol craving.[9][10][11][12]"
+  "Its intravenous form, brexanolone, was approved by the US FDA in March 2019 for postpartum depression, the first neurosteroid approved; it was later withdrawn from the US market.[6][7][24] Oral analogs such as zuranolone followed, with US approval in August 2023.[8]",
+  "Allopregnanolone is not used directly to change how a person looks. Its relevance to appearance runs through mood, stress and sleep, which bodybuilders and hormone-therapy users discuss as influencing training, recovery and wellbeing, and through the enzyme 5-alpha reductase, which is involved in making it and is also the target of hair-loss drugs such as finasteride.[7][19][21] Registered early-phase trials explore it in Alzheimer's disease, Parkinson's disease, traumatic brain injury and alcohol craving.[9][10][11][12]"
  ],
+ "angle": {
+  "goal": "Mood, stress and sleep (indirect)",
+  "chain": [
+   "Progesterone is converted to allopregnanolone by 5-alpha reductase",
+   "Allopregnanolone strengthens GABA-A inhibition, linked to calm mood and sleep",
+   "Mood and sleep influence training, recovery and self-care"
+  ],
+  "effect": "claimed",
+  "text": "People on hormone therapy or taking 5-alpha reductase inhibitors discuss allopregnanolone as a possible link between hormones and mood or sleep, which they connect to how well they train and recover. This is a community theory; no appearance outcome has been studied."
+ },
  "infobox": [
   [
    "Class",
@@ -15,16 +25,32 @@
    "C21H34O2"
   ],
   [
+   "Also called",
+   "3alpha,5alpha-tetrahydroprogesterone (3a,5a-THP) [7]"
+  ],
+  [
    "Made from",
-   "Progesterone, via 5alpha-reductase and 3alpha-HSD"
+   "Progesterone, via 5alpha-reductase and 3alpha-HSD [7]"
   ],
   [
    "Oral bioavailability",
-   "Reported below 5%"
+   "Reported below 5% [7]"
   ],
   [
-   "Approved form",
-   "Brexanolone IV (US, 2019; withdrawn 2025)"
+   "Half-life",
+   "About 9 hours (as brexanolone) [7]"
+  ],
+  [
+   "Identified",
+   "1938 (Beall and Reichstein); GABA-A action reported 1986 [7]"
+  ],
+  [
+   "Approved forms",
+   "Brexanolone IV (US, 2019; withdrawn 2025); zuranolone oral analog (US, 2023) [7][8][24]"
+  ],
+  [
+   "US legal status",
+   "Brexanolone and zuranolone are Schedule IV [24][8]"
   ]
  ],
  "sections": [
@@ -35,18 +61,26 @@
    ]
   },
   {
+   "h": "Chemistry and biosynthesis",
+   "paras": [
+    "Allopregnanolone (3alpha-hydroxy-5alpha-pregnan-20-one) is a pregnane-class steroid with the formula C21H34O2 and a molecular weight of about 318.5. It is highly lipophilic and poorly soluble in water, which is consistent with its low oral bioavailability.[2] It differs from its stereoisomer pregnanolone in the configuration at carbon 5.[2]",
+    "Its synthesis from progesterone takes two steps: 5-alpha reductase (type 1 predominant in the brain, type 2 in peripheral tissues) converts progesterone to 5-alpha-dihydroprogesterone, and 3-alpha-hydroxysteroid dehydrogenase enzymes then produce allopregnanolone.[2][7] Levels rise in the luteal phase and climb through pregnancy before falling within days after delivery.[2][4] Because 5-alpha reductase is involved, inhibitors of that enzyme are discussed in connection with neurosteroid levels in online forums.[21]",
+    "Wikipedia also describes an 'androgen backdoor' pathway in which allopregnanolone is an intermediate that supports male fetal virilization, and notes that oral progesterone and oral pregnenolone can raise allopregnanolone levels and may act as prodrugs for it.[7] Related synthetic neurosteroids include ganaxolone and alfaxolone.[7]"
+   ]
+  },
+  {
    "h": "Pharmacology",
    "subs": [
     {
      "h": "Mechanism of action",
      "paras": [
-      "Allopregnanolone binds two distinct transmembrane sites on GABA-A receptors and strengthens inhibitory currents.[3] Animal work also links it to changes in amygdala oscillatory states.[15]"
+      "Allopregnanolone binds two distinct transmembrane sites on GABA-A receptors and strengthens inhibitory currents.[3] Wikipedia says it preferentially potentiates receptors containing delta subunits, which mediate tonic inhibition, and that its effects are biphasic: moderate increases can produce negative mood, irritability or anxiety in some circumstances, while lower and higher levels stimulate receptor activity.[7] It also acts through progesterone receptors after conversion to 5-alpha-dihydroprogesterone.[7] Animal work also links it to changes in amygdala oscillatory states.[15] How it produces antidepressant effects in people is described as unknown.[7]"
      ]
     },
     {
      "h": "Pharmacokinetics",
      "paras": [
-      "Because oral bioavailability is low, therapeutic forms were given by infusion or developed as oral analogs. Its half-life is about 9 hours as brexanolone.[7]"
+      "Because oral bioavailability is below 5 percent, therapeutic forms were given by infusion or developed as oral analogs. Its half-life is about 9 hours as brexanolone, protein binding exceeds 99 percent, and it is cleared by aldo-keto reductases, glucuronidation and sulfation rather than CYP450 enzymes.[7] Zuranolone, designed as an oral successor, has a half-life of roughly 16 to 23 hours.[8]"
      ]
     }
    ]
@@ -54,47 +88,152 @@
   {
    "h": "Medical uses",
    "paras": [
-    "Brexanolone was approved in March 2019 as a continuous infusion for postpartum depression. Adverse effects include sedation, dizziness, headache and dry mouth, and the product carried a REMS for excessive sedation.[7][6] Two phase 3 trials and an earlier controlled trial reported greater depression-score reductions than placebo.[6][16]"
+    "Brexanolone (brand Zulresso) was approved in March 2019 as a continuous 60-hour intravenous infusion for postpartum depression. Wikipedia lists adverse effects including dizziness, sedation, headache, nausea, dry mouth and, less commonly, loss of consciousness, and the product carried a Risk Evaluation and Mitigation Strategy with monitoring every two hours and continuous pulse oximetry for excessive sedation.[24][6] Two phase 3 trials and an earlier controlled trial reported greater depression-score reductions than placebo.[6][16]",
+    "Zuranolone (Zurzuvae), developed by Sage Therapeutics and Biogen, was approved by the FDA for postpartum depression in August 2023. Wikipedia reports that the FDA did not approve it for major depressive disorder after a complete response letter citing insufficient evidence of effectiveness, that the EU authorised it in September 2025, and that its US label carries a boxed warning about impaired ability to drive.[8] Brexanolone has also been tested as adjunctive therapy in super-refractory status epilepticus in a phase 2 study.[26]"
+   ]
+  },
+  {
+   "h": "Neurosteroids, 5-alpha reductase and finasteride",
+   "paras": [
+    "The enzyme 5-alpha reductase converts progesterone to 5-alpha-dihydroprogesterone on the way to allopregnanolone, and the same enzyme family converts testosterone to dihydrotestosterone, the target of finasteride used for male pattern hair loss.[7][25] Wikipedia's article on finasteride states that the drug also reduces neurosteroids such as allopregnanolone, that lower activity at GABA-A receptors has been linked to depression, anxiety and sexual dysfunction, and that this is a proposed mechanism for some reported psychological and sexual effects, though it is not fully established.[25]",
+    "The same source describes post-finasteride syndrome, in which some men report symptoms persisting after stopping the drug, as controversial: a 2019 BMJ editorial called it ill defined and controversial, and no clear biological mechanism has been identified. It also records that a 2017 review of nearly 12,000 patients found 1.4 percent had persistent erectile dysfunction, and that the FDA updated labelling in 2012 about persistent sexual symptoms.[25] This is a link between hair-loss treatment and neurosteroid biology that appears in forum discussion of finasteride and mood.[21]"
+   ]
+  },
+  {
+   "h": "Mood, stress, sleep and appearance",
+   "paras": [
+    "Allopregnanolone does not act on skin or hair directly in any appearance product. The chain people describe runs through stress, mood and sleep: stress and sleep quality affect training consistency, recovery and body composition, and neurosteroids are one proposed biological contributor to mood and stress responses.[4][7] Laboratory work shows stress raises GABA-A-active steroids in the rat brain, and levels shift sharply across pregnancy and after delivery.[4][5]",
+    "A review of allopregnanolone in postpartum depression and a review of premenstrual disorders cover conditions in which these hormones are studied, and a phase 2 trial of sepranolone, a compound that targets allopregnanolone's effects, enrolled 475 patients with premenstrual dysphoric disorder.[28][29][27]"
+   ]
+  },
+  {
+   "h": "Use in hormone and bodybuilding communities",
+   "paras": [
+    "Allopregnanolone appears in T Nation forum threads about testosterone replacement therapy, post-finasteride symptoms and anxiety. Posters describe it as a neurosteroid that stimulates GABA and link it to calm, sleep and libido; one thread participant asks whether another poster monitors allopregnanolone levels or takes pregnenolone alongside TRT.[18] Another poster argued that men feel good briefly on TRT because a 5-alpha reductase enzyme becomes overburdened, reducing conversion of progesterone to allopregnanolone and causing mental side effects.[19] A thread on social anxiety on TRT reports that pregnenolone and a progesterone cream, which the poster says raise allopregnanolone, helped with anxiety.[20] A long-running thread suggests that if depression stems from allopregnanolone-type activity, pregnenolone counters it.[22] A poster in another thread links allopregnanolone to GABA, sleep hormone and testosterone.[23]",
+    "These are individual accounts and theories posted by forum participants. Published studies describe allopregnanolone as a GABA-A modulator associated with mood and stress responses, but they do not test these hormone-therapy claims.[3][5][7]"
    ]
   },
   {
    "h": "History",
    "paras": [
-    "The compound was first identified in the 1930s during progesterone metabolism work, and its action on GABA-A receptors was described in the 1980s.[7][17] The late 1980s and 1990s saw a growing literature on neuroactive steroids.[17][1] Clinical development of neurosteroid drugs began in the 2000s and 2010s.[7]"
+    "Wikipedia says the compound was identified in peripheral tissue by Beall and Reichstein in 1938, that Baulieu and colleagues showed in the early 1980s that the brain synthesises neurosteroids independently of the endocrine glands, and that Majewska and colleagues identified it as a GABA-A modulator in 1986.[7][17] Experiments in the 1990s showed stress-induced increases and changes during pregnancy and after delivery.[4][5][1] Clinical development of neurosteroid drugs followed in the 2000s and 2010s, leading to the 2019 approval of brexanolone and the 2023 approval of zuranolone.[7][8]"
    ]
   },
   {
    "h": "Society and culture",
    "paras": [
-    "Brexanolone is a controlled substance in the US. No community material on allopregnanolone was found for appearance use; any interest is in neurosteroids for mood, stress and sleep."
+    "Brexanolone and zuranolone are Schedule IV controlled substances in the US.[24][8] Brexanolone was withdrawn from the US market in 2025 for logistical and economic reasons, according to Wikipedia.[24] Online interest outside medicine comes mainly from hormone-therapy and bodybuilding forums, where supplements such as pregnenolone and progesterone cream are discussed as ways to influence it, and from discussions of finasteride and mood.[18][19][20][21]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "Two multicentre phase 3 trials of brexanolone in postpartum depression and an earlier randomised trial found larger reductions in depression ratings than placebo.[6][16] Small phase 1 and 2 studies registered for Parkinson's disease, Alzheimer's disease, traumatic brain injury and alcohol use disorder are exploratory.[9][10][11][12] No studies of allopregnanolone for appearance were found."
+    "Two multicentre phase 3 trials of brexanolone in postpartum depression and an earlier randomised trial found larger reductions in depression ratings than placebo, with the effect lasting 30 days in one summary.[6][16][24] The oral analog zuranolone showed significant HAM-D improvement versus placebo at day 15 in two postpartum depression trials, according to Wikipedia.[8]",
+    "Small phase 1 and 2 studies registered for Parkinson's disease (completed 2024, 10 participants), Alzheimer's disease (a 100-participant phase 2 under way), traumatic brain injury (13 participants) and stress-induced alcohol craving (10 participants) are exploratory.[9][10][11][12] No studies of allopregnanolone for appearance were found."
    ]
   }
  ],
  "timeline": [
   {
    "year": "1938",
-   "event": "Compound first identified in studies of progesterone metabolism.[7]"
+   "event": "Allopregnanolone identified in peripheral tissue by Beall and Reichstein.[7]"
+  },
+  {
+   "year": "1980s",
+   "event": "Baulieu and colleagues show the brain synthesises neurosteroids.[7]"
   },
   {
    "year": "1986",
-   "event": "Identified as a potent endogenous GABA-A modulator.[7]"
+   "event": "Majewska and colleagues identify it as a GABA-A receptor modulator.[7]"
+  },
+  {
+   "year": "1991",
+   "event": "Study in rats shows stress raises GABA-A-active steroids.[4]"
+  },
+  {
+   "year": "1998",
+   "event": "Rat study links brain allopregnanolone to GABA-A receptor plasticity in pregnancy and after delivery.[5]"
+  },
+  {
+   "year": "2006",
+   "event": "Nature paper identifies two transmembrane neurosteroid sites on GABA-A receptors.[3]"
+  },
+  {
+   "year": "2017",
+   "event": "Randomised controlled trial of brexanolone in postpartum depression published.[16]"
   },
   {
    "year": "2019",
-   "event": "Brexanolone approved by the FDA for postpartum depression.[7][6]"
+   "event": "FDA approves brexanolone for postpartum depression.[24][6]"
   },
   {
    "year": "2023",
-   "event": "Oral analog zuranolone approved in the US.[8]"
+   "event": "FDA approves oral zuranolone for postpartum depression.[8]"
+  },
+  {
+   "year": "2025",
+   "event": "Brexanolone withdrawn from the US market.[24]"
   }
  ],
- "lore": null,
+ "lore": {
+  "intro": "On T Nation, allopregnanolone is mentioned in threads on testosterone replacement, post-finasteride symptoms and anxiety, where posters treat it as a link between hormone balance, mood and sleep.[18][19][21]",
+  "claims": [
+   {
+    "claim": "Low allopregnanolone, from an overburdened 5-alpha reductase enzyme, explains mood side effects on TRT",
+    "believers": "A poster in a TRT log argues that the enzyme becomes burned out, cutting the conversion of progesterone to allopregnanolone and causing mental symptoms.[19]",
+    "experts": "Allopregnanolone is made from progesterone via 5-alpha reductase, and altered levels have been linked to anxiety, depression and premenstrual conditions, but no published trial tests this explanation for TRT users.[7][1]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Pregnenolone or progesterone raises allopregnanolone and eases anxiety",
+    "believers": "One poster reports that pregnenolone plus a progesterone cream helped social anxiety on TRT.[20] Another asks if a user takes pregnenolone to complement TRT.[18]",
+    "experts": "Researchers describe allopregnanolone as a positive modulator of GABA-A receptors with calming effects, and the approved brexanolone is given by infusion; no trial of these supplements for anxiety is documented here.[3][6][7]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Finasteride-type 5-alpha reductase inhibition lowers neurosteroids and can affect mood",
+    "believers": "A post-finasteride syndrome thread lays out the progesterone pathway through 5-alpha-dihydroprogesterone to allopregnanolone as a possible explanation.[21]",
+    "experts": "The pathway itself is established biochemistry;[7] whether finasteride changes brain allopregnanolone enough to affect mood is not addressed by the studies cited here.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Allopregnanolone has a biphasic effect, so too much can cause irritability",
+    "believers": "Posters on hormone forums describe mood swings when neurosteroid precursors are raised and link them to allopregnanolone.[22]",
+    "experts": "Wikipedia says moderate increases in allopregnanolone can in some cases produce irritability, anxiety or aggression, while lower and higher levels stimulate GABA-A activity.[7]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Allopregnanolone links testosterone, sleep and libido",
+    "believers": "A poster in a TRT thread connects allopregnanolone to GABA, sleep hormone and testosterone.[23]",
+    "experts": "Allopregnanolone is a GABA-A modulator tied to mood and stress responses; no published trial tests this combined claim in men on testosterone therapy.[3][7]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Oral pregnenolone or progesterone can substitute for the drug",
+    "believers": "Forum posters report that over-the-counter precursors raise allopregnanolone and ease anxiety.[20]",
+    "experts": "Wikipedia notes that oral progesterone and pregnenolone can raise allopregnanolone and may act as prodrugs, while the approved forms were an infusion and a prescription oral analog with controlled-substance status.[7][24][8]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Allopregnanolone has a biphasic effect, so too much can cause irritability",
+    "believers": "A long-running T Nation thread discusses pregnenolone in relation to allopregnanolone-type activity and mood.[22]",
+    "experts": "Wikipedia says moderate increases in allopregnanolone can in some cases produce irritability, anxiety or aggression, while lower and higher levels stimulate GABA-A activity.[7]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Allopregnanolone links testosterone, sleep and libido",
+    "believers": "A poster in a TRT thread connects allopregnanolone to GABA, sleep hormone and testosterone.[23]",
+    "experts": "Allopregnanolone is a GABA-A modulator tied to mood and stress responses; no published trial tests this combined claim in men on testosterone therapy.[3][7]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Oral pregnenolone or progesterone can substitute for the drug",
+    "believers": "Forum posters report that over-the-counter precursors raise allopregnanolone and ease anxiety.[20]",
+    "experts": "Wikipedia notes that oral progesterone and pregnenolone can raise allopregnanolone and may act as prodrugs, while the approved forms were an infusion and a prescription oral analog with controlled-substance status.[7][24][8]",
+    "evidence": "untested"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -231,6 +370,150 @@
    "source": "Progress in Brain Research",
    "year": 2010,
    "type": "review"
+  },
+  {
+   "id": 18,
+   "title": "I Feel Like I'm Dying After 12 Months of TRT. Something Else Isn't Right",
+   "url": "https://t-nation.com/t/i-feel-like-im-dying-after-12-months-of-trt-something-else-isnt-right/268661",
+   "source": "T Nation forum",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 19,
+   "title": "Galgenstrick's TRT Log",
+   "url": "https://t-nation.com/t/galgenstrick-s-trt-log/263083",
+   "source": "T Nation forum",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 20,
+   "title": "Social Anxiety on TRT",
+   "url": "https://t-nation.com/t/social-anxiety-on-trt/275035",
+   "source": "T Nation forum",
+   "year": 2021,
+   "type": "forum"
+  },
+  {
+   "id": 21,
+   "title": "Post Finasteride Syndrome",
+   "url": "https://t-nation.com/t/post-finasteride-syndrome/280032",
+   "source": "T Nation forum",
+   "year": 2022,
+   "type": "forum"
+  },
+  {
+   "id": 22,
+   "title": "Something Wicked This Way Comes... Again",
+   "url": "https://t-nation.com/t/something-wicked-this-way-comes-again/112373",
+   "source": "T Nation forum",
+   "year": 2008,
+   "type": "forum"
+  },
+  {
+   "id": 23,
+   "title": "3 Month Update: Great, Except Boners",
+   "url": "https://t-nation.com/t/3-month-update-great-except-boners/263656",
+   "source": "T Nation forum",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 24,
+   "title": "Brexanolone",
+   "url": "https://en.wikipedia.org/wiki/Brexanolone",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 25,
+   "title": "Finasteride (post-finasteride syndrome section)",
+   "url": "https://en.wikipedia.org/wiki/Post-finasteride_syndrome",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 26,
+   "title": "Brexanolone as adjunctive therapy in super-refractory status epilepticus",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28779545/",
+   "source": "Annals of Neurology",
+   "year": 2017,
+   "type": "trial"
+  },
+  {
+   "id": 27,
+   "title": "NCT03697265 Sepranolone (UC1010) in Premenstrual Dysphoric Disorder",
+   "url": "https://clinicaltrials.gov/study/NCT03697265",
+   "source": "ClinicalTrials.gov",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 28,
+   "title": "Premenstrual disorders and PMDD - a review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38182436/",
+   "source": "Best Practice and Research Clinical Endocrinology and Metabolism",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 29,
+   "title": "Allopregnanolone in Postpartum Depression",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35558166/",
+   "source": "Frontiers in Global Women's Health",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 24,
+   "title": "Brexanolone",
+   "url": "https://en.wikipedia.org/wiki/Brexanolone",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 25,
+   "title": "Finasteride (post-finasteride syndrome section)",
+   "url": "https://en.wikipedia.org/wiki/Post-finasteride_syndrome",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 26,
+   "title": "Brexanolone as adjunctive therapy in super-refractory status epilepticus",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28779545/",
+   "source": "Annals of Neurology",
+   "year": 2017,
+   "type": "trial"
+  },
+  {
+   "id": 27,
+   "title": "NCT03697265 Sepranolone (UC1010) in Premenstrual Dysphoric Disorder",
+   "url": "https://clinicaltrials.gov/study/NCT03697265",
+   "source": "ClinicalTrials.gov",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 28,
+   "title": "Premenstrual disorders and PMDD - a review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38182436/",
+   "source": "Best Practice and Research Clinical Endocrinology and Metabolism",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 29,
+   "title": "Allopregnanolone in Postpartum Depression",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35558166/",
+   "source": "Frontiers in Global Women's Health",
+   "year": 2022,
+   "type": "review"
   }
  ],
  "webSources": [
@@ -241,6 +524,22 @@
   {
    "url": "https://en.wikipedia.org/wiki/Zuranolone",
    "title": "Zuranolone - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Brexanolone",
+   "title": "Brexanolone - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Post-finasteride_syndrome",
+   "title": "Finasteride (Post-finasteride syndrome) - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Brexanolone",
+   "title": "Brexanolone - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Post-finasteride_syndrome",
+   "title": "Finasteride (Post-finasteride syndrome) - Wikipedia"
   }
  ],
  "card": {

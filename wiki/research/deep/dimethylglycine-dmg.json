@@ -1,21 +1,302 @@
 {
-"name":"Dimethylglycine (DMG)",
-"lead":["Dimethylglycine (DMG) is a derivative of the amino acid glycine with two methyl groups on the nitrogen. It forms during the breakdown of betaine (trimethylglycine) and choline, and occurs in foods such as beans and liver [1][2]. It was once called vitamin B16, though it is not considered a true vitamin because deficiency causes no ill effects [1].","As a supplement it has been proposed as an athletic performance enhancer, immunostimulant, and treatment for autism, epilepsy and mitochondrial disease [1]. Wikipedia reports that trials in autism spectrum disorders showed little to no difference from placebo and that a Cochrane review found no evidence of benefit in mitochondrial disease [1]. Evidence for athletic or appearance outcomes is not provided in these sources. In looksmaxxing and recovery circles it is discussed as an endurance and oxygen-use aid."],
-"infobox":[["Formula","(CH3)2NCH2COOH [1]"],["Class","Glycine derivative; metabolite of betaine/choline"],["Former name","Vitamin B16 (not a true vitamin) [1]"],["Occurs in","Beans, liver [1]"],["Safety label","GHS warning: harmful if swallowed [1]"]],
-"sections":[
-{"h":"Chemistry and biology","paras":["DMG forms white crystals melting near 178 to 182 degrees C and is sold as the free amino acid or hydrochloride [1]. In the body it is produced when betaine donates a methyl group to homocysteine, a step catalysed by betaine-homocysteine methyltransferase, and is further demethylated in mitochondria to sarcosine as part of one-carbon metabolism [2][3][4]. A 2016 mouse study found DMG acted as an agonist at the glycine site of the NMDA receptor [1]."]},
-{"h":"Supplement uses","paras":["Reference text describes historical use among Russian athletes and cosmonauts for endurance and oxygen utilisation [2]; the claim comes from a non-peer-reviewed source and is not backed by trial data in these sources."]},
-{"h":"Clinical studies","paras":["Wikipedia reports that studies in autism spectrum disorders showed little to no difference between DMG and placebo, and that a Cochrane review found no evidence it helps mitochondrial disease [1]. No trial of DMG for athletic performance, recovery or appearance is cited in the available sources."]},
-{"h":"Safety","paras":["DMG carries a GHS warning for being harmful if swallowed, and the oral LD50 in rats is above 650 mg/kg [1]."]}
-],
-"timeline":[{"year":"1960s","event":"DMG identified as a component of liver extracts [2]"}],
-"lore":null,
-"refs":[
-{"id":1,"title":"Dimethylglycine","url":"https://en.wikipedia.org/wiki/Dimethylglycine","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":2,"title":"Dimethylglycine","url":"https://grokipedia.com/page/Dimethylglycine","source":"Grokipedia","year":2025,"type":"encyclopedia"},
-{"id":3,"title":"Compartmentalization of Mammalian folate-mediated one-carbon metabolism","url":"https://pubmed.ncbi.nlm.nih.gov/20645850/","source":"Annual Review of Nutrition","year":2010,"type":"review"},
-{"id":4,"title":"The clinical significance of betaine, an osmolyte with a key role in methyl group metabolism","url":"https://pubmed.ncbi.nlm.nih.gov/20346934/","source":"Clinical Biochemistry","year":2010,"type":"review"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Dimethylglycine","title":"Dimethylglycine - Wikipedia"}],
-"card":{"summary":"A glycine derivative once called vitamin B16, sold for endurance and immunity; trials in other conditions have shown little benefit.","aka":"DMG, N,N-dimethylglycine, vitamin B16","evidence":"unproven","status":"otc","outcome":null,"risk":null,"price":null,"note":"Athletic claims lack cited trial support.","structure":"Dimethylglycine"},
-"quick":{"overview":"DMG is a natural metabolite of betaine and choline, found in beans and liver, and sold as a supplement for athletic endurance and immune support.\n\nTrials in autism showed little difference from placebo, and a Cochrane review found no evidence in mitochondrial disease. No athletic trials are cited.","mechanism":"It sits in the methyl-donor pathway, produced from betaine and converted to sarcosine. It can act at the NMDA receptor glycine site in mice.","risks":"Labelled harmful if swallowed in concentrated form; rat oral LD50 is above 650 mg/kg. Human safety data are limited in the sources."}
+ "name": "Dimethylglycine (DMG)",
+ "card": {
+  "summary": "A glycine derivative once called vitamin B16, sold for endurance and immunity; trials in other conditions have shown little benefit.",
+  "aka": "DMG, N,N-dimethylglycine, vitamin B16",
+  "evidence": "unproven",
+  "status": "otc",
+  "outcome": null,
+  "risk": null,
+  "price": null,
+  "note": "Athletic claims lack cited trial support.",
+  "structure": "Dimethylglycine"
+ },
+ "quick": {
+  "overview": "DMG is a natural metabolite of betaine and choline, found in beans and liver, and sold as a supplement for athletic endurance and immune support.\nTrials in autism showed little difference from placebo, and a Cochrane review found no evidence in mitochondrial disease. No athletic trials are cited.",
+  "mechanism": "It sits in the methyl-donor pathway, produced from betaine and converted to sarcosine. It can act at the NMDA receptor glycine site in mice.",
+  "risks": "Labelled harmful if swallowed in concentrated form; rat oral LD50 is above 650 mg/kg. Human safety data are limited in the sources."
+ },
+ "lead": [
+  "Dimethylglycine (DMG) is a derivative of the amino acid glycine with two methyl groups on the nitrogen. It forms during the breakdown of betaine (trimethylglycine) and choline, and occurs in foods such as beans and liver [1][2]. It was once called vitamin B16, though it is not considered a true vitamin because deficiency causes no ill effects [1].",
+  "In looksmaxxing and bodybuilding circles, DMG is discussed as a supplement for endurance, oxygen use and recovery. The chain people describe runs from better energy use and recovery, to more or harder training, to better physique over time. Some forum posters also mention it as an ingredient in pre-workout and testosterone-support blends [10][13]. A separate, appearance-related line of research examines a topical sodium salt of DMG (DMG-Na) with caffeine in a shampoo for male pattern hair loss [5].",
+  "Wikipedia reports that DMG has been proposed as an athletic performance enhancer, immunostimulant, and treatment for autism, epilepsy and mitochondrial disease, that autism trials showed little to no difference from placebo, and that a Cochrane review found no evidence of benefit in mitochondrial disease [1]. A small 1981 controlled study found a larger antibody response to pneumococcal vaccine in volunteers taking DMG [6], and a 2025 horse study examined it around exercise [14]. No trial of oral DMG for human athletic performance or physique has been published."
+ ],
+ "angle": {
+  "goal": "Recovery and training capacity (and scalp, topically)",
+  "chain": [
+   "DMG is taken as an oral supplement that sits in the methyl-donor pathway",
+   "Proponents say it supports oxygen use and endurance",
+   "More or better training and recovery could support physique goals"
+  ],
+  "effect": "claimed",
+  "text": "People take DMG hoping to train and recover better, which they associate with a better physique over time. A different, topical formulation (DMG-Na) has been trialled in a shampoo for thinning hair in men."
+ },
+ "infobox": [
+  [
+   "Formula",
+   "(CH3)2NCH2COOH [1]"
+  ],
+  [
+   "Class",
+   "Glycine derivative; metabolite of betaine/choline"
+  ],
+  [
+   "Former name",
+   "Vitamin B16 (not a true vitamin) [1]"
+  ],
+  [
+   "Occurs in",
+   "Beans, liver [1]"
+  ],
+  [
+   "Safety label",
+   "GHS warning: harmful if swallowed [1]"
+  ],
+  [
+   "CAS number",
+   "1118-68-9 [1]"
+  ],
+  [
+   "Related compounds",
+   "Betaine (trimethylglycine), sarcosine, glycine, creatine [1]"
+  ],
+  [
+   "Topical form studied",
+   "DMG-Na with caffeine in shampoo [5]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Chemistry and biology",
+   "paras": [
+    "DMG forms white crystals melting near 178 to 182 degrees C and is sold as the free amino acid or hydrochloride [1]. In the body it is produced when betaine donates a methyl group to homocysteine, a step catalysed by betaine-homocysteine methyltransferase, and is further demethylated in mitochondria to sarcosine as part of one-carbon metabolism [2][3][4]. A 2016 mouse study found DMG acted as an agonist at the glycine site of the NMDA receptor [1].",
+    "DMG can be prepared by alkylating glycine with formaldehyde and formic acid in the Eschweiler-Clarke reaction [1]. It sits in the sarcosine-betaine family of N-methylated glycines and is a precursor in the pathway between betaine and sarcosine, linking it to folate-dependent one-carbon metabolism [3][4]. Mitochondria oxidise one-carbon donors including DMG, a process first characterised in work beginning in the 1950s [3]. A review of TMAO notes that gut microbes can also metabolise dietary DMG [8]."
+   ]
+  },
+  {
+   "h": "Supplement uses",
+   "paras": [
+    "Reference text describes historical use among Russian athletes and cosmonauts for endurance and oxygen utilisation [2]; the claim comes from a non-peer-reviewed source and is not backed by trial data in these sources.",
+    "DMG is sold as a free amino acid or hydrochloride in capsules and sublingual forms, and appears as an ingredient in some multi-ingredient pre-workout products such as one containing glycocyamine, glucuronolactone, tricreatine citrate and DMG HCl, as quoted by a forum user in 2002 [13]. T Nation discussions from the 2000s ask whether it is worth taking; one reply recommends trimethylglycine instead, noting it has one more methyl group to donate [12]. Another poster says they had read it relates to energy expenditure and asks others for experience [11].",
+    "Related interest in betaine (trimethylglycine), the compound DMG is made from, is wider in sports nutrition. A 2026 narrative review describes betaine as an osmolyte and methyl donor linked in the literature to muscle strength and anaerobic power, with proposed anti-inflammatory, vascular and body-composition effects; its abstract does not discuss DMG itself.[15] On forums, DMG and betaine are often mentioned in the same breath, as in the T Nation reply that favours trimethylglycine.[12]"
+   ]
+  },
+  {
+   "h": "Metabolism and biology",
+   "paras": [
+    "Betaine donates a methyl group to homocysteine in a reaction catalysed by betaine-homocysteine methyltransferase, yielding methionine and DMG; DMG is demethylated further to sarcosine within mitochondria, linking it to folate-dependent one-carbon metabolism.[3][4] A review of betaine describes it as an osmolyte with a key role in methyl group metabolism.[4] Gut microbes can also metabolise dietary DMG, according to a review of TMAO.[8]",
+    "A 2016 mouse study found DMG acted as an agonist at the glycine site of the NMDA receptor, which is the basis of speculation about neurological effects.[1] Topical DMG sodium salt is reported to improve skin microcirculation by activating endothelial nitric oxide synthase, the mechanism proposed in the hair-loss trial.[5]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "DMG is sold as a dietary supplement in many countries and was historically marketed as vitamin B16, a label Wikipedia notes does not meet the definition of a vitamin because deficiency has no ill effect [1]. Reference text on the compound describes historical use among Russian athletes and cosmonauts for endurance, though that claim comes from a non-peer-reviewed source [2]. On T Nation, the compound appears in discussions of testosterone boosters and pre-workout formulas rather than as a stand-alone staple [10][13]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Wikipedia reports that studies in autism spectrum disorders showed little to no difference between DMG and placebo, and that a Cochrane review found no evidence it helps mitochondrial disease [1][7]. The Cochrane review of treatments for mitochondrial disorders searched randomised trials and concluded that evidence supporting current treatments was unclear [7].",
+    "A 1981 double-blind controlled study in 20 human volunteers found about a fourfold higher antibody response to pneumococcal vaccine in those taking oral DMG than in controls. Leukocyte inhibitory factor production in response to one stimulant was also higher, and lymphocyte responses in samples from people with diabetes or sickle cell disease roughly tripled when DMG was added in vitro. The authors concluded that DMG enhances humoral and cell-mediated immune responses.[6] This was the basis for later interest in DMG as an immune modulator.",
+    "A 1989 randomized trial in 19 institutionalized patients with frequent seizures compared DMG with placebo over 28 days and found no difference in seizure frequency and no toxicity.[9]",
+    "In animals, a 2025 randomized study of 30 Turkish Arab saddle horses compared intravenous DMG, oral DMG and saline for three days before 30 minutes of cantering. DMG appeared to stabilise lactate at several time points and lowered total oxidant status compared with controls, while total antioxidant status was lower in the treated horses; the authors called for further research.[14]",
+    "The study most relevant to appearance is a 24-week, double-blind, randomised, placebo-controlled trial published in 2025 in 154 men with male pattern hair loss, who used a shampoo containing topical DMG sodium salt plus caffeine or a placebo shampoo. The primary outcome was the change in hairs pulled in a hair pull test. After six months, the active group showed a change of 2.8 hairs fewer pulled (SD 1.6) compared with an increase of 0.6 (SD 2.2) for placebo (p<0.001). In a phototrichogram subgroup of 30 participants, hair number, hair density and the percentage of anagen hairs rose with active use, and no adverse events were reported.[5] The paper's authors concluded the shampoo showed significant potential; the trial tested the combination, so the contribution of DMG alone was not separated.",
+    "No trial of oral DMG for human athletic performance, recovery or physique has been published."
+   ]
+  },
+  {
+   "h": "Safety",
+   "paras": [
+    "DMG carries a GHS warning for being harmful if swallowed, and the oral LD50 in rats is above 650 mg/kg [1]."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1950s",
+   "event": "Mitochondrial one-carbon metabolism, including DMG oxidation, characterised by Greenberg, Mackenzie and Kikuchi [3]."
+  },
+  {
+   "year": "1981",
+   "event": "Controlled study in 20 volunteers reports increased antibody response to vaccine with DMG [6]."
+  },
+  {
+   "year": "1989",
+   "event": "Randomised trial of DMG in epilepsy published in Epilepsia [9]."
+  },
+  {
+   "year": "1999",
+   "event": "Placebo-controlled autism pilot trial (Bolman and Richmond) cited by Wikipedia [1]."
+  },
+  {
+   "year": "2016",
+   "event": "Mouse study finds DMG acts at the NMDA receptor glycine site [1]."
+  },
+  {
+   "year": "2025",
+   "event": "24-week randomised trial of topical DMG-Na with caffeine shampoo in 154 men with male pattern hair loss [5]."
+  }
+ ],
+ "lore": {
+  "intro": "On T Nation, DMG shows up in questions about energy and burning calories, in testosterone-booster blends and in pre-workout stacks [10][11][12][13].",
+  "claims": [
+   {
+    "claim": "DMG improves endurance and oxygen use",
+    "believers": "Proponents describe it as an energy and oxygen-use aid with a history among Russian athletes [2], and a forum poster asks about it as an energy supplement [11].",
+    "experts": "No trial of oral DMG for athletic performance has been reported [1].",
+    "evidence": "untested"
+   },
+   {
+    "claim": "DMG boosts immunity",
+    "believers": "It has been proposed as an immunostimulant [1].",
+    "experts": "A 1981 controlled study in 20 volunteers found a fourfold antibody response to a pneumococcal vaccine with DMG [6]; wider confirmation has not been reported.",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "TMG works better than DMG as a methyl donor",
+    "believers": "A T Nation reply says TMG has one extra methyl group to donate [12].",
+    "experts": "Betaine (TMG) donates a methyl group to homocysteine, producing DMG, so DMG is a product of that step [4].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "DMG applied to the scalp helps hair loss",
+    "believers": "The DMG-Na and caffeine shampoo is presented as improving scalp microcirculation via nitric oxide [5].",
+    "experts": "A 24-week randomised trial in 154 men found fewer hairs pulled and improved phototrichogram measures with the active shampoo versus placebo [5].",
+    "evidence": "supported"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Dimethylglycine",
+   "url": "https://en.wikipedia.org/wiki/Dimethylglycine",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Dimethylglycine",
+   "url": "https://grokipedia.com/page/Dimethylglycine",
+   "source": "Grokipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Compartmentalization of Mammalian folate-mediated one-carbon metabolism",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20645850/",
+   "source": "Annual Review of Nutrition",
+   "year": 2010,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "The clinical significance of betaine, an osmolyte with a key role in methyl group metabolism",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20346934/",
+   "source": "Clinical Biochemistry",
+   "year": 2010,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "A Novel Approach Against Male Pattern Hair Loss With Topical Dimethylglycine Sodium Salt (DMG-Na) and Caffeine: 24-Week RCT",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40820949/",
+   "source": "Journal of Cosmetic Dermatology",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Immunomodulating properties of dimethylglycine in humans",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6163829/",
+   "source": "Journal of Infectious Diseases",
+   "year": 1981,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Treatment for mitochondrial disorders (Cochrane)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22513923/",
+   "source": "Cochrane Database of Systematic Reviews",
+   "year": 2012,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "Trimethylamine N-oxide (TMAO) in human health",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33746664/",
+   "source": "EXCLI Journal",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "N,N dimethylglycine and epilepsy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2463912/",
+   "source": "Epilepsia",
+   "year": 1989,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Weird Ass Testosterone Booster",
+   "url": "https://t-nation.com/t/weird-ass-testosterone-booster/42203",
+   "source": "T Nation",
+   "year": 2004,
+   "type": "forum"
+  },
+  {
+   "id": 11,
+   "title": "NN-Dimethylglycine",
+   "url": "https://t-nation.com/t/nn-dimethylglycine/65564",
+   "source": "T Nation",
+   "year": 2006,
+   "type": "forum"
+  },
+  {
+   "id": 12,
+   "title": "DMG - pop it or poop it?",
+   "url": "https://t-nation.com/t/dmg-pop-it-or-poop-it/32296",
+   "source": "T Nation",
+   "year": 2003,
+   "type": "forum"
+  },
+  {
+   "id": 13,
+   "title": "Swole",
+   "url": "https://t-nation.com/t/swole/12307",
+   "source": "T Nation",
+   "year": 2002,
+   "type": "forum"
+  },
+  {
+   "id": 14,
+   "title": "Effects of oral and intravenous dimethylglycine treatment on hematobiochemical profiles and total oxidant/antioxidant status in low-intensity exercised horses",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40992652/",
+   "source": "The Veterinary Journal",
+   "year": 2025,
+   "type": "study"
+  },
+  {
+   "id": 15,
+   "title": "Betaine Contribution to Performance Enhancement in Sport",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42942888/",
+   "source": "Nutrients",
+   "year": 2026,
+   "type": "review"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40992652/",
+   "title": "DMG in exercised horses (Europe PMC abstract)"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42942888/",
+   "title": "Betaine contribution to performance enhancement in sport"
+  }
+ ]
 }

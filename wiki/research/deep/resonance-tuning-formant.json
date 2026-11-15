@@ -1,136 +1,286 @@
 {
-  "name": "Resonance tuning (formant)",
-  "card": {
-    "summary": "Shaping vocal tract resonances (formants) to change vocal timbre; grounded in voice acoustics, untested as a looksmaxxing practice.",
-    "aka": "Formant tuning; vocal resonance",
-    "evidence": "unproven",
-    "outcome": null,
-    "risk": "low",
-    "price": null,
-    "note": "Formant acoustics is established science; claims about perceived attractiveness are untested here.",
-    "structure": null
-  },
-  "quick": {
-    "overview": "Resonance tuning refers to adjusting the shape of the throat and mouth so that vocal tract resonances, called formants, shift and give the voice a different timbre. Voice-modification communities discuss it as a way to alter how a voice sounds.\n\nThe underlying acoustics is well described, but no studies were found testing deliberate tuning as an appearance-related practice.",
-    "mechanism": "Formants are broad spectral peaks created by acoustic resonance in the vocal tract; changes in mouth and lip shape move them, for example lip rounding lowers formants.[1] Vowels are mostly identified by the first two formants.[1]",
-    "risks": "No risks are documented in the sources reviewed."
-  },
-  "lead": [
-    "Resonance tuning is the deliberate shaping of the throat, mouth and lips so that the voice's formants, the broad spectral peaks created by acoustic resonance in the vocal tract, move to different frequencies. People use it to change how their voice sounds, for example to make it come across as deeper, warmer, brighter or more projected, without changing the pitch of the vocal folds.[1][2]",
-    "Formants shape the sound produced by the voice but are not sound sources themselves. Vowel identity depends largely on the first two formants, and changes in vocal tract length or in lip, tongue and jaw position shift them; lip rounding lowers formants, and a longer tract lowers resonance frequencies.[1] Trained classical singers show an additional peak near 3000 Hz, often called the singer's formant or ring, which gives a voice brilliance and helps it carry over an orchestra.[1][4] A 2016 review notes that humans can voluntarily modulate fundamental and formant frequencies, the features linked to impressions of body size and sex.[5]",
-    "In voice training for transgender clients, speech-language pathologists work on resonance alongside pitch because formants strongly influence perceived gender even when fundamental frequency stays the same; techniques described include lip protrusion or retraction, larynx height control and chest resonance work.[3] The same acoustic principles underlie how voice-improvement communities discuss making a voice sound fuller or more resonant, since a voice is part of the impression a person makes."
+ "name": "Resonance tuning (formant)",
+ "card": {
+  "summary": "Shaping vocal tract resonances (formants) to change vocal timbre; grounded in voice acoustics, untested as a looksmaxxing practice.",
+  "aka": "Formant tuning; vocal resonance",
+  "evidence": "unproven",
+  "outcome": null,
+  "risk": "low",
+  "price": null,
+  "note": "Formant acoustics is established science; claims about perceived attractiveness are untested here.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Resonance tuning refers to adjusting the shape of the throat and mouth so that vocal tract resonances, called formants, shift and give the voice a different timbre. Voice-modification communities discuss it as a way to alter how a voice sounds.\nThe underlying acoustics is well described, but no studies were found testing deliberate tuning as an appearance-related practice.",
+  "mechanism": "Formants are broad spectral peaks created by acoustic resonance in the vocal tract; changes in mouth and lip shape move them, for example lip rounding lowers formants.[1] Vowels are mostly identified by the first two formants.[1]",
+  "risks": ""
+ },
+ "lead": [
+  "Resonance tuning is the deliberate shaping of the throat, mouth and lips so that the voice's formants, the broad spectral peaks created by acoustic resonance in the vocal tract, move to different frequencies. People use it to change how their voice sounds, for example to make it come across as deeper, warmer, brighter or more projected, without changing the pitch set by the vocal folds.[1][2]",
+  "Voice is part of the impression a person makes, and formants are among the acoustic features listeners use to judge a speaker. Studies of vocal attractiveness have found that low, closely spaced formants tend to accompany larger, older and higher-testosterone male speakers, and that women rated voices with low formant dispersion as more attractive in some samples, which is why formant adjustment appears in discussions of making a voice sound fuller or more masculine.[9] In voice therapy for transgender clients, resonance and pitch are described as the traits with the greatest effect on perceived gender, and clinicians teach lip, tongue and larynx adjustments to move resonance up or down.[3][8]",
+  "The acoustics is well described: vowels are mostly identified by the first two formants, lip rounding lowers formants, a longer tract lowers resonance frequencies, and trained singers add a peak near 3000 Hz called the singer's formant, or ring.[1][4][6] Controlled studies of resonance tuning as an appearance practice were not found; the available research covers formant acoustics, listener perception, voice therapy and actor and singer training.[3][7][9]"
+ ],
+ "angle": {
+  "goal": "Voice",
+  "chain": [
+   "Reshape the vocal tract with lips, tongue, jaw and larynx position",
+   "Formants shift to new frequencies",
+   "Voice sounds darker, brighter or more resonant"
   ],
-  "angle": {
-    "goal": "Voice",
-    "chain": [
-      "Reshape the vocal tract with lips, tongue, jaw and larynx position",
-      "Formants shift to new frequencies",
-      "Voice sounds darker, brighter or more resonant"
-    ],
-    "effect": "direct",
-    "text": "Adjusting vocal tract shape changes the timbre of a person's voice at the same pitch, so they can aim for a deeper, warmer or more ringing sound. Singers, actors and voice-training clients use the same mechanics."
-  },
-  "infobox": [
-    [
-      "Type",
-      "Voice acoustics technique"
-    ],
-    [
-      "Equipment",
-      "None"
-    ],
-    [
-      "Controlled by",
-      "Lips, tongue, jaw, pharynx, larynx height"
-    ],
-    [
-      "Related",
-      "Singer's formant, vocal resonance, voice therapy"
-    ],
-    [
-      "Cost",
-      "Free (self-directed) or voice coach/therapist fees"
-    ]
+  "effect": "direct",
+  "text": "Adjusting vocal tract shape changes the timbre of a person's voice at the same pitch, so they can aim for a deeper, warmer or more ringing sound. Singers, actors and voice-training clients use the same mechanics."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Voice acoustics technique"
   ],
-  "sections": [
-    {
-      "h": "Acoustic background",
-      "paras": [
-        "The first formant is higher for open vowels and lower for closed ones, and the second is higher for front vowels; lip rounding lowers both. Changes in vocal tract length scale all resonance frequencies.[1]",
-        "Vocal resonance in general is described as enhancement of the voice's basic sound by the air-filled spaces it passes through, changing timbre or intensity. The pharynx is described as the most important resonator because of its position, size and adjustability, while the tongue, jaw and lips reshape the oral cavity and act as a final filter. These supraglottal structures are under voluntary control, whereas the larynx is not directly consciously controlled.[2]",
-        "Voice teachers describe a range of colours from dark, chest-based resonance to bright, head and nasal resonance. Chest resonance is said to add warmth and depth, nasal resonance brightness and projection, and mouth resonance a conversational colour.[2]"
-      ]
-    },
-    {
-      "h": "Use in voice training",
-      "paras": [
-        "In voice therapy for transgender people, vocal tract length is used to explain perceived pitch: a male vocal tract is described as 10 to 20 percent longer than a female one, giving lower resonance. Clients are taught lip retraction to shorten the tract, or larynx lowering and chest resonance to deepen the sound, and semi-occluded exercises such as phonating through a straw.[3]",
-        "Fundamental frequency and resonance are described as the changes with the greatest effect on perceived gender, and clients who complete voice therapy report high satisfaction. A 2012 review cited there rated the evidence base as weak, with most studies at the lowest level of the evidence hierarchy.[3]"
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found testing resonance tuning specifically as an appearance or attractiveness practice. Related research on voice resonance exists in voice therapy and singing, as described above.[3]"
-      ]
-    }
+  [
+   "Equipment",
+   "None"
   ],
-  "timeline": [],
-  "lore": null,
-  "refs": [
-    {
-      "id": 1,
-      "title": "Formant",
-      "url": "https://en.wikipedia.org/wiki/Formant",
-      "source": "Wikipedia",
-      "year": 2025,
-      "type": "encyclopedia"
-    },
-    {
-      "id": 2,
-      "title": "Vocal resonance",
-      "url": "https://en.wikipedia.org/wiki/Vocal_resonance",
-      "source": "Wikipedia",
-      "year": 2025,
-      "type": "encyclopedia"
-    },
-    {
-      "id": 3,
-      "title": "Voice therapy (transgender)",
-      "url": "https://en.wikipedia.org/wiki/Voice_therapy_(transgender)",
-      "source": "Wikipedia",
-      "year": 2025,
-      "type": "encyclopedia"
-    },
-    {
-      "id": 4,
-      "title": "Perceptual aspects of singing",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/8061767/",
-      "source": "Journal of Voice",
-      "year": 1994,
-      "type": "review"
-    },
-    {
-      "id": 5,
-      "title": "Voice Modulation: A Window into the Origins of Human Vocal Control?",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/26857619/",
-      "source": "Trends in Cognitive Sciences",
-      "year": 2016,
-      "type": "review"
-    }
+  [
+   "Controlled by",
+   "Lips, tongue, jaw, pharynx, larynx height [2]"
   ],
-  "webSources": [
-    {
-      "url": "https://en.wikipedia.org/wiki/Formant",
-      "title": "Formant - Wikipedia"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Vocal_resonance",
-      "title": "Vocal resonance - Wikipedia"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Voice_therapy_(transgender)",
-      "title": "Voice therapy (transgender) - Wikipedia"
-    }
+  [
+   "Terminology coined",
+   "'Formant' coined by Ludimar Hermann, 1894 [1]"
+  ],
+  [
+   "Related",
+   "Singer's formant, vocal resonance, voice therapy"
+  ],
+  [
+   "Used in",
+   "Singing, acting, voice therapy for transgender clients"
+  ],
+  [
+   "Cost",
+   "Free (self-directed) or voice coach/therapist fees"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Acoustic background",
+   "paras": [
+    "A formant is defined as the broad spectral maximum produced by an acoustic resonance of the vocal tract. Ludimar Hermann proposed the concept in 1894 and coined the term while addressing how vowels stay recognisable across speakers with different vocal tract lengths.[1]",
+    "The first formant is higher for open vowels such as /a/ and lower for closed ones such as /i/ and /u/, and the second is higher for front vowels and lower for back vowels; lip rounding lowers both. Wikipedia lists average male values of about 240 Hz and 2400 Hz for F1 and F2 of /i/, against about 850 Hz and 1610 Hz for /a/.[1] Changes in vocal tract length scale all resonance frequencies.[1]",
+    "Vocal resonance in general is described as enhancement of the voice's basic sound by the air-filled spaces it passes through, changing timbre or intensity. The pharynx is described as the most important resonator because of its position, size and adjustability, while the tongue, jaw and lips reshape the oral cavity and act as a final filter. These supraglottal structures are under voluntary control, whereas the larynx is not directly consciously controlled.[2]",
+    "Voice teachers describe a range of colours from dark, chest-based resonance to bright, head and nasal resonance. Chest resonance is said to add warmth and depth, nasal resonance brightness and projection, and mouth resonance a conversational colour.[2]"
+   ]
+  },
+  {
+   "h": "Mechanism",
+   "paras": [
+    "Formants arise because the vocal tract is a tube whose shape selectively amplifies certain frequencies of the sound produced by the vocal folds. Moving the lips, tongue, jaw, soft palate or larynx changes the shape and length of the tube and so moves the formants without changing the pitch set by the folds.[1][2]",
+    "The singer's formant, also called squillo, ring or ping, is a cluster of resonance in roughly the 2 to 5 kHz range that Wikipedia says is believed to result from a narrowing of the aryepiglottic fold just above the larynx. It allows a voice to be heard over an orchestra, and singers cited for it include Maria Callas, Luciano Pavarotti and Birgit Nilsson.[6] Too much of it is described as shrill and too little as defeating its purpose, and it can give an aged voice an impression of youth.[6] Trained male singers show a clear peak around 3000 Hz that is absent in ordinary speech.[1][4]"
+   ]
+  },
+  {
+   "h": "Formants, body size and attractiveness research",
+   "paras": [
+    "Formants have been studied as cues to body size and sex. A 2016 review notes that humans can voluntarily modulate fundamental and formant frequencies, the features linked to impressions of body size and sex, so speakers can shift the impressions their voice conveys.[5]",
+    "Studies indexed in Europe PMC describe the listener side. In a 2006 study, Bruckert and colleagues had 102 women rate recordings from 26 men; men with low-frequency formants and small formant dispersion tended to be older, taller and to have higher testosterone, and listeners used formant components to estimate age though not height accurately.[9] A 2010 study of natural speech from a dating game by Hodges-Simeon, Gaulin and Puts found that low mean pitch, low formant dispersion and high intensity predicted women's attractiveness ratings, with low formant dispersion rated attractive only by women in the fertile cycle phase.[9]",
+    "Puts, Apicella and Cardenas (2012) reported in US and Hadza forager samples that a measure called formant position was more sexually dimorphic and more strongly related to height than formant dispersion, and in the US sample it predicted upper-body strength.[9] A 2008 study of 40 men found higher salivary testosterone associated with lower fundamental frequency, but the link with formant dispersion was limited and not significant.[9]",
+    "Other work looks at wider impressions: McAleer, Todorov and Belin (2014) had 320 participants rate 64 brief utterances of 'hello' and found ratings fit a two-dimensional space of valence and dominance, with attractiveness of male voices rising with both; Babel and colleagues (2014) found attractiveness was predicted by a combination of acoustic features including cues to apparent talker size and conformity to community speech norms.[9] Klofstad and colleagues (2012) found that men and women preferred lower-pitched versions of both male and female leaders.[9]"
+   ]
+  },
+  {
+   "h": "Use in voice training",
+   "paras": [
+    "In voice therapy for transgender people, vocal tract length is used to explain perceived pitch: a male vocal tract is described as 10 to 20 percent longer than a female one, giving lower resonance. Clients are taught lip retraction to shorten the tract, or larynx lowering and chest resonance to deepen the sound, and semi-occluded exercises such as phonating through a straw.[3]",
+    "Wikipedia's overview of voice feminization and masculinization states that fundamental frequency and voice resonance have the greatest effect on perceived femininity, that formant changes can alter perceived gender even when pitch stays the same, and that lip protrusion and retraction are used to lengthen or shorten the tract.[8] For masculinization it lists controlling larynx height, breath support, relaxation and chest resonance, and notes that testosterone usually deepens the voice but not always to the desired level.[8] Surgical options exist for pitch, mostly for transgender women, and are usually considered after therapy.[8]",
+    "Clients who complete voice therapy report high satisfaction. A 2012 review cited there rated the evidence base as weak, with most studies at the lowest level of the evidence hierarchy.[3][8]"
+   ]
+  },
+  {
+   "h": "Use in actors, singers and speakers",
+   "paras": [
+    "A 2022 study in the Journal of Voice followed 11 student actors through 16 months of Linklater Voice training and measured acoustic and perceptual changes, including formant frequencies F1 to F4. It reported a significantly larger perceived pitch range, a trend toward more balanced phonation and a trend toward a darker perceived voice quality.[7]",
+    "Singers use the same mechanics to add ring and carry, and speakers use chest or head resonance to colour how they sound.[2][4][6] Voice coaches and speech-language pathologists teach these adjustments in clinical and performance settings.[3]"
+   ]
+  },
+  {
+   "h": "Use for presentation and appearance",
+   "paras": [
+    "Resonance tuning is the acoustic principle behind advice about making a voice sound deeper, warmer or brighter: a darker timbre is associated with a longer effective tract or more chest resonance, and a brighter one with lip retraction or forward placement.[2][3] Because listeners link low formants with larger body size and rate them as more attractive in some studies, people interested in how their voice comes across are interested in this lever alongside pitch.[5][9] Practitioners describe changes in lip, jaw and larynx position as the means, and results are judged by ear or recorded acoustic analysis."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found testing resonance tuning specifically as an appearance or attractiveness practice. Related research includes the 16-month Linklater training study in 11 actors, speech-language pathology work on resonance for transgender clients whose evidence base a cited review rated as weak, and listener-perception studies of formants and attractiveness with samples ranging from 26 to 320 people.[3][7][9]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1894",
+   "event": "Ludimar Hermann proposes the formant concept and coins the term.[1]"
+  },
+  {
+   "year": "1994",
+   "event": "Journal of Voice review discusses perceptual aspects of singing, including the singer's formant.[4]"
+  },
+  {
+   "year": "2006",
+   "event": "Bruckert and colleagues report that women's judgments link low, closely spaced formants to older, taller male speakers.[9]"
+  },
+  {
+   "year": "2010",
+   "event": "Hodges-Simeon, Gaulin and Puts find low formant dispersion predicts attractiveness ratings from women in the fertile phase.[9]"
+  },
+  {
+   "year": "2012",
+   "event": "Puts and colleagues report formant position relates to height and upper-body strength; a review rates transgender voice therapy evidence as weak.[3][9]"
+  },
+  {
+   "year": "2014",
+   "event": "McAleer et al. map voice impressions onto valence and dominance dimensions.[9]"
+  },
+  {
+   "year": "2016",
+   "event": "Trends in Cognitive Sciences review on voluntary modulation of vocal frequencies and formants.[5]"
+  },
+  {
+   "year": "2022",
+   "event": "Journal of Voice study of 16 months of Linklater training in student actors.[7]"
+  }
+ ],
+ "lore": {
+  "intro": "Resonance is discussed in voice-improvement circles mostly as the way to make a voice sound deeper or more authoritative without changing pitch; community material on the practice was limited, so the claims below are drawn from the acoustics and voice-therapy literature.",
+  "claims": [
+   {
+    "claim": "Changing mouth and throat shape can make the voice sound deeper without lowering pitch",
+    "believers": "Voice coaches and therapists teach larynx lowering, chest resonance and lip adjustments to shift timbre.[3][8]",
+    "experts": "Formant acoustics shows tract length and shape move resonances independently of the vocal-fold pitch.[1][2]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "A voice with low formants sounds more attractive",
+    "believers": "Some people interested in vocal self-improvement describe a darker, fuller timbre as more appealing.",
+    "experts": "A 2010 study found low formant dispersion rated attractive by women in the fertile phase only, and a 2014 study found attractiveness depends on a combination of acoustic features and speech norms.[9]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Formants reveal a speaker's size and strength",
+    "believers": "Evolutionary-psychology researchers argue listeners use formants as size cues.[9]",
+    "experts": "Puts and colleagues linked formant position to height and upper-body strength, while Bruckert found listeners could not accurately estimate height from formants.[9]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Resonance training noticeably changes how listeners read a voice's gender or character",
+    "believers": "Clients in voice therapy report high satisfaction with resonance work.[3]",
+    "experts": "A cited 2012 review rated the evidence base weak with mostly lowest-level studies, and the 16-month actor study found trends toward darker voice quality.[3][7]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "The singer's formant gives a voice ring and makes it carry",
+    "believers": "Singers and teachers describe ring or squillo as brilliance that cuts through an orchestra.[6]",
+    "experts": "Acoustic descriptions place it around 2 to 5 kHz and attribute it to a narrowing above the larynx.[4][6]",
+    "evidence": "supported"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Formant",
+   "url": "https://en.wikipedia.org/wiki/Formant",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Vocal resonance",
+   "url": "https://en.wikipedia.org/wiki/Vocal_resonance",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Voice therapy (transgender)",
+   "url": "https://en.wikipedia.org/wiki/Voice_therapy_(transgender)",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Perceptual aspects of singing",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8061767/",
+   "source": "Journal of Voice",
+   "year": 1994,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Voice Modulation: A Window into the Origins of Human Vocal Control?",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26857619/",
+   "source": "Trends in Cognitive Sciences",
+   "year": 2016,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Squillo (singer's formant)",
+   "url": "https://en.wikipedia.org/wiki/Singer%27s_formant",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 7,
+   "title": "Effects of Sixteen Month Voice Training of Student Actors Applying the Linklater Voice Method",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32951953/",
+   "source": "Journal of Voice",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Voice feminization and masculinization (voice therapy overview)",
+   "url": "https://en.wikipedia.org/wiki/Voice_feminization",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 9,
+   "title": "Europe PMC records: formant dispersion and vocal attractiveness studies (Bruckert 2006, Hodges-Simeon 2010, Puts 2012, McAleer 2014, Babel 2014, Evans 2008, Klofstad 2012)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=formant%20dispersion%20attractiveness%20voice&format=json&resultType=core&pageSize=8&sort=CITED%20desc",
+   "source": "Europe PMC",
+   "year": 2014,
+   "type": "study"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Formant",
+   "title": "Formant - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Vocal_resonance",
+   "title": "Vocal resonance - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Voice_therapy_(transgender)",
+   "title": "Voice therapy (transgender) - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Singer%27s_formant",
+   "title": "Singer's formant - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Voice_feminization",
+   "title": "Voice feminization - Wikipedia"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=formant%20dispersion%20attractiveness%20voice&format=json&resultType=core&pageSize=8&sort=CITED%20desc",
+   "title": "Europe PMC: formant dispersion and attractiveness studies"
+  }
+ ]
 }

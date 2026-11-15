@@ -1,25 +1,328 @@
 {
-"name":"Acadesine",
-"lead":["Acadesine, also called AICAR or AICA riboside, is a nucleoside that activates AMP-activated protein kinase (AMPK), an enzyme that senses cellular energy status.[3][1] It was studied clinically for protecting the heart during surgery and in some blood cancers, and in 2008 a mouse study described it as an exercise mimetic, which led to interest from athletes and in online fat-loss and performance discussions.[2][1]","Human data for appearance or body-composition purposes are absent. The World Anti-Doping Agency has listed acadesine as a prohibited substance since 2009.[1]"],
-"infobox":[["Also known as","AICAR, AICA riboside"],["Class","AMPK activator (nucleoside)"],["Developer (clinical)","PeriCor Therapeutics, later Schering-Plough"],["Status","Investigational; not approved"],["Anti-doping","WADA-prohibited since 2009"]],
-"sections":[
-{"h":"Pharmacology","paras":["AICAR is taken up by cells and converted to a monophosphate that mimics AMP, activating AMPK.[3] In rat muscle, it increased AMPK activity, fatty acid oxidation and glucose uptake.[5] Activation of AMPK has also been reported to suppress muscle protein synthesis signaling via mTOR.[9]"]},
-{"h":"History","paras":["Acadesine was first explored in the 1980s to preserve blood flow to the heart during surgery, and was developed by PeriCor Therapeutics and licensed to Schering-Plough in 2007. A phase III heart-surgery trial began enrolling in 2009 and was stopped in 2010 after an interim futility analysis.[1] In 2008 a Cell paper reported that AICAR improved endurance in sedentary mice, describing AMPK activators as exercise mimetics.[2]"]},
-{"h":"Clinical studies","paras":["Registered trials include a small 2002 trial of exercise-mediated glucose uptake in type 2 diabetes (n=40)[11] and a 1996 pilot study in two patients with Lesch-Nyhan disease.[12] Phase III testing in heart surgery was stopped for futility.[1] No studies of acadesine for fat loss or appearance in healthy people were found."]},
-{"h":"Society and culture","paras":["Acadesine is on the WADA prohibited list, and a 2009 BMJ report cited by Wikipedia said WADA found evidence of its use by cyclists.[1] It is sold online as a research chemical, and is described as an exercise mimetic in online fitness communities."]}
-],
-"timeline":[{"year":"1995","event":"AICAR described as a way to activate AMPK in intact cells.[3]"},{"year":"2007","event":"Licensed to Schering-Plough for phase III studies.[1]"},{"year":"2008","event":"Mouse study reports exercise-mimetic effect.[2]"},{"year":"2009","event":"Added to the WADA prohibited list.[1]"}],
-"lore":null,
-"refs":[
-{"id":1,"title":"Acadesine","url":"https://en.wikipedia.org/wiki/Acadesine","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":2,"title":"AMPK and PPARdelta agonists are exercise mimetics","url":"https://pubmed.ncbi.nlm.nih.gov/18674809/","source":"Cell","year":2008,"type":"study"},
-{"id":3,"title":"5-aminoimidazole-4-carboxamide ribonucleoside. A specific method for activating AMPK in intact cells?","url":"https://pubmed.ncbi.nlm.nih.gov/7744080/","source":"Eur J Biochem","year":1995,"type":"study"},
-{"id":5,"title":"AICA riboside increases AMPK, fatty acid oxidation, and glucose uptake in rat muscle","url":"https://pubmed.ncbi.nlm.nih.gov/9435525/","source":"Am J Physiol","year":1997,"type":"study"},
-{"id":9,"title":"AMPK suppresses protein synthesis in rat skeletal muscle through down-regulated mTOR signaling","url":"https://pubmed.ncbi.nlm.nih.gov/11997383/","source":"J Biol Chem","year":2002,"type":"study"},
-{"id":11,"title":"NCT00168519 Contraction-mediated glucose uptake in type 2 diabetes","url":"https://clinicaltrials.gov/study/NCT00168519","source":"ClinicalTrials.gov","year":2002,"type":"trial"},
-{"id":12,"title":"NCT00004314 AICAR for Lesch-Nyhan disease","url":"https://clinicaltrials.gov/study/NCT00004314","source":"ClinicalTrials.gov","year":1996,"type":"trial"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Acadesine","title":"Acadesine - Wikipedia"}],
-"card":{"summary":"AMPK activator hyped as an exercise mimetic; no human fat-loss evidence, and banned in sport.","aka":"AICAR","evidence":"unproven","status":"research","risk":null,"price":null,"note":"WADA-prohibited; no human appearance data.","structure":"Acadesine"},
-"quick":{"overview":"Acadesine (AICAR) is a compound that activates AMPK, a cellular energy sensor. A 2008 mouse study reported endurance gains, and it is sold online as an exercise mimetic.\n\nIt was tested in humans for heart-surgery protection, not fat loss, and that trial stopped for futility.","mechanism":"It is converted inside cells to an AMP-like molecule that activates AMPK, raising fat oxidation and glucose uptake in muscle in animal studies.","risks":"It is not approved, and is on the WADA prohibited list. Human safety data for body-composition use are lacking."}
+ "lead": [
+  "Acadesine, also called AICAR or AICA riboside, is a nucleoside that activates AMP-activated protein kinase (AMPK), an enzyme that senses cellular energy status. In looks and fitness circles it is discussed as an exercise mimetic: a compound that switches on, in a resting animal, some of the pathways that endurance exercise switches on, with the hoped-for result of more fat burning, leaner body composition and more endurance.[3][2][1]",
+  "It was developed as a medicine rather than a physique compound. It was first used in the 1980s to protect the heart during surgery and has been studied in blood cancers and diabetes; its history is that of an adenosine-regulating agent that is active mainly in tissue under metabolic stress.[6][4][10] A 2008 Cell paper from the Salk Institute described AMPK activation by AICAR as improving endurance in sedentary mice, and that work brought the compound to the attention of athletes and online communities.[2][1]",
+  "Acadesine is an investigational drug and not an approved treatment. The World Anti-Doping Agency has listed it as prohibited since 2009.[1] Human studies of acadesine for fat loss or other appearance outcomes in healthy people have not been published."
+ ],
+ "angle": {
+  "goal": "Fat loss",
+  "chain": [
+   "AICAR activates AMPK in muscle",
+   "Mouse work shows greater fat oxidation and endurance without training",
+   "Users hope for more fat burning and leaner body composition"
+  ],
+  "effect": "claimed",
+  "text": "People interested in acadesine hope that activating AMPK imitates part of the metabolic effect of exercise, increasing fat oxidation and glucose uptake in muscle so that body fat falls and endurance rises. That idea comes from animal and cell experiments; human data in healthy people are limited to clinical trials for other purposes."
+ },
+ "infobox": [
+  [
+   "Also known as",
+   "AICAR, AICA riboside"
+  ],
+  [
+   "Class",
+   "AMPK activator (adenosine-regulating nucleoside)"
+  ],
+  [
+   "Clinical developer",
+   "PeriCor Therapeutics, licensed to Schering-Plough in 2007"
+  ],
+  [
+   "Route studied clinically",
+   "Intravenous"
+  ],
+  [
+   "Status",
+   "Investigational; not approved"
+  ],
+  [
+   "Anti-doping",
+   "WADA-prohibited since 2009"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Uses",
+   "subs": [
+    {
+     "h": "Cosmetic and performance interest",
+     "paras": [
+      "Acadesine appears in fitness and fat-loss conversation as one of the compounds called exercise mimetics, usually mentioned alongside the PPAR-delta agonist GW501516, which the same 2008 Cell paper tested in combination.[2] Interest centres on endurance and leanness in people who want to change body composition."
+     ]
+    },
+    {
+     "h": "Medical research",
+     "paras": [
+      "The compound was developed chiefly for protecting the heart during coronary artery bypass surgery, where it was given intravenously, and was later tested in B-cell chronic lymphocytic leukaemia and discussed for diabetes.[6][4][10]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "subs": [
+    {
+     "h": "Mechanism of action",
+     "paras": [
+      "AICAR is taken up by cells and converted to a monophosphate, ZMP, that mimics AMP and activates AMPK; a 1995 study in rat hepatocytes described it as a specific way to activate AMPK in intact cells.[3] A review describes acadesine as an adenosine-regulating agent that increases local adenosine availability when tissue is under ATP catabolism, so its action is concentrated in stressed tissue and it carries fewer peripheral effects than adenosine itself.[6]",
+      "In rat muscle, AICAR increased AMPK activity, fatty acid oxidation and glucose uptake.[5] Activation of AMPK has also been reported to suppress muscle protein synthesis signalling through mTOR in rat skeletal muscle.[9] Wikipedia also describes effects on p38 MAPK in muscle and on nitric oxide and ion channels in the heart.[1]"
+     ]
+    },
+    {
+     "h": "Cardiac preconditioning",
+     "paras": [
+      "Wikipedia describes acadesine as able to precondition the heart before or during ischaemia, delaying cell death, with proposed contributions from nitric oxide production by endothelial nitric oxide synthase and from ATP-sensitive potassium channels. It reports preconditioning effects lasting up to two hours in rabbits and about 40 minutes in humans undergoing coronary ligation, and cites reductions of up to 25 percent in the frequency and size of infarcts.[1] Because AMPK sits at the centre of energy balance, the same enzyme is also the target of other compounds that appear in metabolic research, including metformin and resveratrol, which the cited literature links to AMPK activation.[16][17]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Chemistry",
+   "paras": [
+    "Acadesine is a ribonucleoside of 5-aminoimidazole-4-carboxamide, structurally similar to adenosine and a natural intermediate of purine synthesis in the body; the cited literature describes its metabolism as running through the endogenous purine pathway.[6][1] Wikipedia outlines a laboratory synthesis that begins with 2-bromo tribenzoyl ribose and diaminomaleonitrile, forms the imidazole ring, and finishes with a Hofmann rearrangement and basic hydrolysis to give the amide.[1]"
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Acadesine was first applied in the 1980s as a way to preserve blood flow to the heart during surgery. PeriCor Therapeutics developed it, and Schering-Plough licensed it in 2007 for phase III studies.[1] Enrolment in the phase III heart-surgery trial began in 2009 and the trial was terminated in late 2010 after an interim futility analysis recommended by a data safety monitoring board.[1]",
+    "In 2008, Salk Institute researchers reported in Cell that AICAR improved endurance in sedentary mice, apparently by shifting muscle toward a more fat-burning type, and that combined with GW501516 it activated many genes that exercise also switches on.[2][1] The report drew attention from the sports world. WADA added acadesine to its prohibited list in 2009, and the lead researcher developed a urine test later made available to the International Olympic Committee and WADA.[1]",
+    "Its path from operating room to sports pages illustrates how an exercise mimetic got its name. The 2008 Cell paper reported that AICAR on its own increased running endurance in sedentary mice and shifted gene expression toward fat-burning slow-twitch muscle, while pairing it with GW501516 in non-exercising mice switched on about 40 percent of the genes GW501516 activated alongside exercise, according to Wikipedia.[2][1]",
+    "In October 2009 the BMJ reported that WADA had found evidence of acadesine use among cyclists at that year's Tour de France, which Wikipedia cites as a first sign that the compound had moved from laboratories into competitive sport.[1]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A meta-analysis of five randomized, placebo-controlled trials in 4,043 coronary artery bypass patients (2,012 given intravenous acadesine) reported that acadesine lowered perioperative myocardial infarction by 27 percent (odds ratio 0.69).[4] An earlier multicenter trial in bypass surgery was published in 1994, and a later paper reported long-term survival data after post-reperfusion infarction.[11][12] Small trials in angina and coronary disease examined exercise-induced and pacing-induced ischaemia (12 and 47 patients).[7][8] The phase III RED-CABG trial was stopped for futility in 2010.[1]",
+    "A phase I/II multicenter study examined acadesine in relapsed or refractory chronic lymphocytic leukaemia.[10] Registered trials also include a 2002 trial of exercise-mediated glucose uptake in type 2 diabetes (n=40) and a 1996 pilot study in two patients with Lesch-Nyhan disease.[13][14] No studies of acadesine for fat loss or appearance in healthy people were found.",
+    "Researchers who study AMPK have also examined acadesine in laboratory work outside the heart. A 2020 study reported that it suppressed TNF-alpha-induced complement C3 in retinal pigment epithelial cells, and a 2022 study reported that it protected the barrier function of lung microvascular endothelial cells in acute pancreatitis-related lung injury; both are cell or animal experiments rather than human trials.[18][19] A 1999 paper examined it during fluid resuscitation from shock and abdominal sepsis.[20]"
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "paras": [
+    "A review of acadesine describes it as safe and well tolerated in clinical use, with metabolism through the endogenous purine pathway.[6] These data come from supervised intravenous use in patients. Information on use outside clinical trials, for example in people seeking physique effects, has not been collected in published studies."
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Acadesine is on the WADA prohibited list, and a 2009 BMJ report cited by Wikipedia said WADA found evidence of its use by cyclists at the 2009 Tour de France.[1] It is sold online as a research chemical, and fitness communities describe it as an exercise mimetic."
+   ]
+  },
+  {
+   "h": "Research",
+   "paras": [
+    "Published work on acadesine concerns cardiac protection, blood cancers, inflammation and basic AMPK biology. The exercise-mimetic idea rests on rodent endurance experiments and on cell and rat-muscle studies of fat oxidation and glucose uptake.[2][5] A 2002 rat study that found AMPK activation lowered muscle protein-synthesis signalling is cited by researchers who note that AMPK activation carries both metabolic and growth-related effects in muscle.[9] Human trials of AICAR for body composition or endurance in healthy volunteers have not been published."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1980s",
+   "event": "Acadesine first used to preserve blood flow to the heart during surgery.[1]"
+  },
+  {
+   "year": "1995",
+   "event": "AICAR described as a way to activate AMPK in intact cells.[3]"
+  },
+  {
+   "year": "1997",
+   "event": "Meta-analysis of five bypass-surgery trials reports fewer perioperative heart attacks.[4]"
+  },
+  {
+   "year": "2007",
+   "event": "Licensed to Schering-Plough for phase III studies.[1]"
+  },
+  {
+   "year": "2008",
+   "event": "Mouse study reports exercise-mimetic effect.[2]"
+  },
+  {
+   "year": "2009",
+   "event": "Added to the WADA prohibited list.[1]"
+  },
+  {
+   "year": "2010",
+   "event": "Phase III RED-CABG trial terminated after futility analysis.[1]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Acadesine",
+   "url": "https://en.wikipedia.org/wiki/Acadesine",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "AMPK and PPARdelta agonists are exercise mimetics",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18674809/",
+   "source": "Cell",
+   "year": 2008,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "5-aminoimidazole-4-carboxamide ribonucleoside. A specific method for activating AMPK in intact cells?",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7744080/",
+   "source": "Eur J Biochem",
+   "year": 1995,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Effects of acadesine on myocardial infarction, stroke, and death following surgery. A meta-analysis of the 5 international randomized trials",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9002496/",
+   "source": "JAMA",
+   "year": 1997,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "AICA riboside increases AMPK, fatty acid oxidation, and glucose uptake in rat muscle",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9435525/",
+   "source": "Am J Physiol",
+   "year": 1997,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Acadesine, an adenosine-regulating agent with the potential for widespread indications",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18671468/",
+   "source": "Expert Opinion on Pharmacotherapy",
+   "year": 2008,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Effect of acadesine, a new metabolic agent, on exercise-induced myocardial ischemia in chronic stable angina",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7918131/",
+   "source": "Cardiovascular Drugs and Therapy",
+   "year": 1994,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Effect of acadesine on myocardial ischaemia in patients with coronary artery disease",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9389379/",
+   "source": "European Journal of Pharmacology",
+   "year": 1997,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "AMPK suppresses protein synthesis in rat skeletal muscle through down-regulated mTOR signaling",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11997383/",
+   "source": "J Biol Chem",
+   "year": 2002,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Acadesine for patients with relapsed/refractory chronic lymphocytic leukemia (CLL): a multicenter phase I/II study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23228986/",
+   "source": "Cancer Chemotherapy and Pharmacology",
+   "year": 2013,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "An initial multicenter, randomized controlled trial on the safety and efficacy of acadesine in patients undergoing coronary artery bypass graft surgery",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7818622/",
+   "source": "Anesthesia and Analgesia",
+   "year": 1994,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "Post-reperfusion myocardial infarction: long-term survival improvement using adenosine regulation with acadesine",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16814669/",
+   "source": "Journal of the American College of Cardiology",
+   "year": 2006,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "NCT00168519 Contraction-mediated glucose uptake in type 2 diabetes",
+   "url": "https://clinicaltrials.gov/study/NCT00168519",
+   "source": "ClinicalTrials.gov",
+   "year": 2002,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "NCT00004314 AICAR for Lesch-Nyhan disease",
+   "url": "https://clinicaltrials.gov/study/NCT00004314",
+   "source": "ClinicalTrials.gov",
+   "year": 1996,
+   "type": "trial"
+  },
+  {
+   "id": 16,
+   "title": "Systemic treatment with the antidiabetic drug metformin selectively impairs p53-deficient tumor cell growth",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17638885/",
+   "source": "Cancer Research",
+   "year": 2007,
+   "type": "study"
+  },
+  {
+   "id": 17,
+   "title": "Resveratrol stimulates AMP kinase activity in neurons",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17438283/",
+   "source": "PNAS",
+   "year": 2007,
+   "type": "study"
+  },
+  {
+   "id": 18,
+   "title": "Acadesine suppresses TNF-alpha induced complement component 3 (C3), in retinal pigment epithelial (RPE) cells",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33362238/",
+   "source": "PLoS One",
+   "year": 2020,
+   "type": "study"
+  },
+  {
+   "id": 19,
+   "title": "Acadesine alleviates acute pancreatitis-related lung injury by mediating the barrier protective function of pulmonary microvascular endothelial cells",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35987144/",
+   "source": "International Immunopharmacology",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 20,
+   "title": "Acadesine during fluid resuscitation from shock and abdominal sepsis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10199538/",
+   "source": "Critical Care Medicine",
+   "year": 1999,
+   "type": "review"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Acadesine",
+   "title": "Acadesine - Wikipedia"
+  }
+ ],
+ "name": "Acadesine",
+ "card": {
+  "summary": "AMPK activator hyped as an exercise mimetic; no human fat-loss evidence, and banned in sport.",
+  "aka": "AICAR",
+  "evidence": "unproven",
+  "status": "research",
+  "risk": null,
+  "price": null,
+  "note": "WADA-prohibited; no human appearance data.",
+  "structure": "Acadesine"
+ },
+ "quick": {
+  "overview": "Acadesine (AICAR) is a compound that activates AMPK, a cellular energy sensor. A 2008 mouse study reported endurance gains, and it is sold online as an exercise mimetic.\n\nIt was tested in humans for heart-surgery protection, not fat loss, and that trial stopped for futility.",
+  "mechanism": "It is converted inside cells to an AMP-like molecule that activates AMPK, raising fat oxidation and glucose uptake in muscle in animal studies.",
+  "risks": "It is not approved, and is on the WADA prohibited list. Human safety data for body-composition use are lacking."
+ }
 }

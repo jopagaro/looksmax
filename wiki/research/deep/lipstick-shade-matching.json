@@ -1,171 +1,425 @@
 {
- "name": "Lipstick shade matching",
- "card": {
-  "summary": "Choosing lipstick colour to suit skin tone and lip shape; history and safety are documented, attractiveness effects are untested.",
-  "aka": "Lip colour matching",
-  "evidence": "unproven",
-  "risk": "low",
-  "note": "Trace lead and PFAS have been reported in some lipsticks.",
-  "price": null,
-  "status": null,
-  "outcome": null,
-  "structure": null
- },
- "quick": {
-  "overview": "Shade matching means picking a lipstick colour that suits your skin tone and lip shape. It is a removable, low-cost styling approach.\n\nReference sources cover lipstick history and composition; no studies of shade choice and attractiveness were found.",
-  "mechanism": "Colour and finish change lip contrast and apparent size: matte formulas contain more fillers, glossy ones more oil, and shimmer uses mica or pearl particles.",
-  "risks": "Trace lead has been found in some lipsticks, with the FDA saying levels were not a safety concern and the CDC saying no blood lead level is safe. A 2021 study found fluorine, an indicator of PFAS, in many liquid lipsticks."
- },
- "lead": [
-  "Lipstick shade matching is the practice of choosing a lip colour to suit a person's skin tone, undertone, lip shape and overall look. People use it to make lips look more defined, to add colour and contrast to the lower face, and to balance the whole face, since it is a quick, removable change.[1][3]",
-  "Lipstick is a wax-and-oil colour product, and lip colour has been worn for thousands of years in many cultures.[1] Shade advice usually borrows from personal colour analysis, which sorts people by cool (bluer) or warm (yellower) undertone and often into four seasonal palettes, and applies the result to clothing and makeup.[3]",
-  "Controlled studies on how shade choice affects perceived attractiveness were not found. A 2026 study of Japanese Instagram influencers' lipstick classifications, as described by Wikipedia, found warm and cool categories matched measurable colour traits better than the four-season system.[3]"
- ],
- "angle": {
-  "goal": "Lips and facial harmony",
-  "chain": [
-   "Match shade to undertone and depth of colouring",
-   "Lips look defined and in balance with skin, eyes and hair",
-   "More polished, harmonious lower face"
+  "name": "Lipstick shade matching",
+  "lead": [
+    "Lipstick shade matching is the practice of choosing a lip colour to suit a person's skin tone, undertone, lip shape and overall look. People use it to make lips look more defined, to add colour and contrast to the lower face, and to balance the whole face with skin, eyes and hair, since it is a quick, removable change.[1][3]",
+    "Lipstick is a wax-and-oil colour product, and lip colour has been worn for thousands of years in many cultures.[1] Shade advice usually borrows from personal colour analysis, which sorts people by cool (bluer) or warm (yellower) undertone and often into four seasonal palettes, and applies the result to clothing and makeup. The practice was popularised by Carole Jackson's 1980 book Color Me Beautiful and returned to wide attention as a TikTok trend in the 2020s.[3][11]",
+    "Perception research has examined lips directly. Experiments report that redder, higher-contrast lips make women's faces look more feminine and attractive, and that lip colour can shift how light or dark the surrounding skin appears.[4][5][6] Studies comparing cosmetics with differences between individual faces report that cosmetics raise rated attractiveness while a person's underlying identity accounts for more of the variation.[7][8]"
   ],
-  "effect": "direct",
-  "text": "A well-chosen shade changes lip colour and contrast immediately, and users pick it for how it relates to their skin tone and hair and eye colour. Lighter or deeper formulas also alter how full or defined the lips appear."
- },
- "infobox": [
-  [
-   "Type",
-   "Cosmetic styling practice"
-  ],
-  [
-   "Category",
-   "Style"
-  ],
-  [
-   "Product",
-   "Lipstick and lip colour"
-  ],
-  [
-   "Typical base",
-   "Waxes, oils, emollients, pigments and lake dyes[1]"
-  ],
-  [
-   "Shade systems",
-   "Warm/cool undertone; four-season palettes[3]"
-  ],
-  [
-   "Reversibility",
-   "Removable"
-  ]
- ],
- "sections": [
-  {
-   "h": "Description",
-   "paras": [
-    "Lipstick is built on waxes such as beeswax, carnauba and candelilla, with oils, emollients, pigments and lake dyes providing colour. Matte formulas contain more filler agents such as silica, while glossy and sheer formulas contain more oil, and shimmer products may use mica or synthetic pearl particles. Pink shades are made by mixing white titanium dioxide with red pigments.[1]"
-   ],
-   "subs": []
+  "angle": {
+    "goal": "Lips and facial harmony",
+    "chain": [
+      "Match shade to undertone and depth of colouring",
+      "Lips look defined and in balance with skin, eyes and hair",
+      "More polished, harmonious lower face"
+    ],
+    "effect": "direct",
+    "text": "A well-chosen shade changes lip colour and contrast immediately, and users pick it for how it relates to their skin tone and hair and eye colour. Lighter or deeper formulas also alter how full or defined the lips appear."
   },
-  {
-   "h": "Shade-matching approaches",
-   "paras": [
-    "Cosmetic colours have traditionally been matched to hair colour, eye colour, or both.[3] Seasonal colour analysis, described by Wikipedia, divides palettes into Winter, Spring, Summer and Autumn, with cool undertones leaning blue and warm undertones leaning yellow. It traces its roots to Chevreul (1839), Munsell (1905) and Johannes Itten (1961), and was popularised by Carole Jackson's Color Me Beautiful in 1980.[3]",
-    "Wikipedia notes that analysts need no standard training, and that a 2007 study of three systems found inconsistencies in how they used hue, saturation and value.[3]"
-   ],
-   "subs": []
+  "infobox": [
+    [
+      "Type",
+      "Cosmetic styling practice"
+    ],
+    [
+      "Product",
+      "Lipstick, lip stain, gloss and lip liner"
+    ],
+    [
+      "Typical base",
+      "Waxes, oils, emollients, pigments and lake dyes[1]"
+    ],
+    [
+      "Shade systems",
+      "Warm/cool undertone; four-season palettes[3]"
+    ],
+    [
+      "Popularising book",
+      "Color Me Beautiful, Carole Jackson, 1980[11]"
+    ],
+    [
+      "Finishes",
+      "Matte, satin, glossy, sheer, shimmer, long-wear[1]"
+    ],
+    [
+      "US regulation",
+      "Color additives need FDA approval; no pre-market approval for the cosmetic[1]"
+    ],
+    [
+      "Reversibility",
+      "Removable"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Description",
+      "paras": [
+        "Lipstick is built on waxes such as beeswax, carnauba and candelilla, with oils, emollients, pigments and lake dyes providing colour. Matte formulas contain more filler agents such as silica, while glossy and sheer formulas contain more oil, and shimmer products may use mica or synthetic pearl particles. Pink shades are made by mixing white titanium dioxide with red pigments.[1]",
+        "Long-wear formulas use more oil and silicone oil to hold colour on the lips, while liquid lipsticks have strong staying power but can dry and crack with time; lip stains leave a tint on the lips that can outlast a stick.[1] Lip liner, a related product, is used to outline lips and is often matched to the lipstick shade.[1]"
+      ]
+    },
+    {
+      "h": "How people match shades",
+      "paras": [
+        "Cosmetic colours have traditionally been matched to hair colour, eye colour, or both.[3] Common practice starts with undertone: cool undertones lean blue or pink and are often paired with berry, blue-red and rose shades, while warm undertones lean yellow or golden and are often paired with coral, orange-red and brick shades. Depth of colouring (fair to deep) is then used to choose lighter or darker versions, with the aim of lips that look defined without clashing with skin, eyes or hair.[3]",
+        "Seasonal colour analysis, described by Wikipedia, divides palettes into Winter, Spring, Summer and Autumn. It traces its roots to Chevreul (1839), Munsell and Johannes Itten (1961); Robert Dorr's Color Key System sorted complexions into cool and warm groups; Suzanne Caygill and Carole Jackson published systems in 1980.[3] Carole Jackson, who began her consulting business in Bedford, New York, licensed the system to other consultants, and Color Me Beautiful was in its 31st printing by 1983.[11]",
+        "Practitioners also describe finish as part of matching: matte for a flatter, more defined edge, gloss to suggest fullness, and sheer or stain formulas for a lower-contrast look. These are commonly shared styling conventions rather than tested rules; the research below examines colour and contrast rather than finish.[1][4]"
+      ]
+    },
+    {
+      "h": "History and shade trends",
+      "paras": [
+        "Lip colour may date back about 5,000 years to Sumer and the Indus Valley, the Kama Sutra describes a red lip colour made with lac and beeswax, and the Chinese made beeswax lip products more than a thousand years ago.[1] Lip colouring grew popular in England under Elizabeth I, when bright red lips and pale faces were fashionable.[1]",
+        "Guerlain is credited with the first commercial stick lipstick around 1884, made from deer tallow, castor oil and beeswax. Push-up metal containers were available in Europe by 1911, and a swivel-up tube was patented in 1923 by James Bruce Mason Jr. in Nashville.[1] Chemist Hazel Bishop developed a long-lasting 'No-Smear' lipstick around 1950.[1]",
+        "Fashionable shades have shifted over time: dark red in the 1920s, when the Cupid's bow shape was popular, a revival of dark red in the 1950s alongside pink, peach and pale shades, white and near-white shades in the 1960s, black among punk and goth subcultures from the late 1970s, semi-matte and brown shades in the 1990s, nude shades around 2014 and liquid mattes in 2015 and 2016.[1]"
+      ]
+    },
+    {
+      "h": "Research on lip colour and appearance",
+      "paras": [
+        "In a 2009 study, Richard Russell measured photographs and reported that women's faces show greater luminance contrast between the eyes, lips and surrounding skin than men's, and that cosmetics increase this contrast and make faces look more feminine.[5] Later work by Jones, Russell and Ward reported that cosmetics alter facial contrast in ways linked to perceived attractiveness.[10]",
+        "A 2010 experiment by Ian Stephen and Angela McKeegan let participants adjust lip colour on calibrated face photographs. Participants increased lip redness contrast to make women's faces look more feminine and attractive, reduced it to make men's faces look more masculine, and increased lightness contrast to raise attractiveness for both sexes. The authors suggested the association may relate to red lips signalling blood perfusion.[4]",
+        "A 2017 psychophysical study by Kobayashi and colleagues found that redder lips made the perceived complexion look lighter and darker lips made it look darker, which the authors described as the first scientific support for makeup artists' claim that lip colour changes perceived facial skin colour.[6]",
+        "Studies of cosmetics overall report smaller increments than popular belief. In 2015, Jones and Kramer found that identity explained much more of the variation in attractiveness ratings than cosmetics did, while a 2016 study of professionally applied makeup on YouTube models and supermodels reported larger cosmetic effects but still smaller than identity.[7][8] A 2003 study asked whether cosmetics enhance Caucasian female facial attractiveness, and a 2014 study reported that people's judgements of how attractive cosmetics make faces are miscalibrated.[9][16] An fMRI-based study in Japan reported neural activity linked to cosmetic enhancement of attractiveness.[15]"
+      ]
+    },
+    {
+      "h": "Colour-analysis research",
+      "paras": [
+        "Wikipedia notes that analysts need no standard training and that a 2007 study by Tracy Cassidy found systems claiming to use hue, saturation and value often relied on only two of the three.[3] It also reports a study of Japanese Instagram influencers' lipstick classifications in which warm and cool categories matched measurable colour traits better than the four-season system, and a study by Perrett and Sprengelmeyer in which participants preferred cool blues for fair skin and warm oranges and reds for tanned skin, focused on white women.[3]",
+        "Critics of colour analysis cited by the same article raise the lack of credentials and costs of analyses; The New York Times described reaction to the 2020s TikTok trend as 'views and exasperation'.[3] Color Me Beautiful has also been criticised for dated language and a focus on white people.[11]"
+      ]
+    },
+    {
+      "h": "Safety and regulation",
+      "paras": [
+        "A 2007 Campaign for Safe Cosmetics study reported lead in 61% of 33 brands, a 2009 FDA follow-up found lead in all 20 samples (0.09 to 3.06 ppm), and an FDA survey of 400 lipsticks in 2011 averaged 1.11 ppm with a maximum of 7.19 ppm. The FDA said such levels were not a safety concern because lipstick is lightly ingested, while the CDC states no blood lead level is considered safe.[1] A risk assessment of lead in lipstick published in 2015 examined exposure and health risk.[14]",
+        "A University of California, Berkeley estimate cited by Wikipedia put maximum daily ingestion at up to 87 mg of product, and a consumer-practice study of 360 women assessed how much lipstick is applied and how often, to support safety assessments.[1][2] A 2021 study found organic fluorine, an indicator of PFAS, in over half of 231 cosmetic products, with liquid lipsticks among those with the highest levels.[1]",
+        "In the United States, cosmetics do not need FDA pre-market approval but colour additives do, and the FDA has no lipstick-specific lead limit, with a general limit of 20 ppm for lead in cosmetics.[1]"
+      ]
+    },
+    {
+      "h": "The lipstick effect and culture",
+      "paras": [
+        "The term 'lipstick effect' comes from Leonard Lauder of Estee Lauder, who said after the September 2001 attacks that lipstick sales rose when consumers avoided pricier items; Wikipedia reports later recession data that contradicted this and describes the index as a weak economic indicator.[12] A 2012 paper by Hill and colleagues reported that economic recessions prompted women to spend more on beauty products to attract mates.[13]",
+        "In 2020s social media, shade matching is closely tied to colour-analysis videos, undertone quizzes and 'my colours' trends on TikTok, with people posting before-and-after drapes and lip swatches to compare palettes.[3][11]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "Controlled perception studies, rather than clinical trials, have examined lip colour. They report that redder, higher-contrast lips raise rated femininity and attractiveness of women's faces and change perceived skin lightness; none has tested undertone-based shade matching specifically against random shade choice.[4][5][6] Wider cosmetics studies report increases in attractiveness smaller than differences between individuals.[7][8]"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "c. 3000 BCE",
+      "event": "Lip colour possibly worn in Sumer and the Indus Valley, about 5,000 years ago.[1]"
+    },
+    {
+      "year": "1839",
+      "event": "Chevreul publishes colour-contrast work that later shaped colour-harmony systems.[3]"
+    },
+    {
+      "year": "c. 1884",
+      "event": "Guerlain credited with the first commercial stick lipstick.[1]"
+    },
+    {
+      "year": "1915",
+      "event": "Metal cylinder lipstick containers appear in the US.[1]"
+    },
+    {
+      "year": "1923",
+      "event": "Swivel-up lipstick tube patented in the US.[1]"
+    },
+    {
+      "year": "1961",
+      "event": "Johannes Itten links subjective colour to the four seasons.[3]"
+    },
+    {
+      "year": "1980",
+      "event": "Color Me Beautiful popularises seasonal colour analysis.[3][11]"
+    },
+    {
+      "year": "2001",
+      "event": "Leonard Lauder describes a rise in lipstick sales after September 11, coining the idea of the lipstick effect.[12]"
+    },
+    {
+      "year": "2007",
+      "event": "Campaign for Safe Cosmetics reports lead in 61% of 33 lipstick brands.[1]"
+    },
+    {
+      "year": "2010",
+      "event": "Stephen and McKeegan publish lip colour and attractiveness experiments.[4]"
+    },
+    {
+      "year": "2011",
+      "event": "FDA survey of 400 lipsticks reports average lead of 1.11 ppm.[1]"
+    },
+    {
+      "year": "2020s",
+      "event": "Colour analysis goes viral on TikTok.[3][11]"
+    }
+  ],
+  "lore": {
+    "intro": "Shade matching appears in appearance communities as a low-cost, reversible way to alter perceived lip contrast and shape, often discussed through colour-analysis videos.[3]",
+    "claims": [
+      {
+        "claim": "The right lipstick shade for your skin tone enhances lip shape and facial harmony.",
+        "believers": "Proponents say matching undertone and depth of colour makes lips look more defined and balances the face, and that lighter or darker shades can make lips look smaller or larger.",
+        "experts": "Experiments show lip redness and lightness contrast change rated attractiveness and perceived skin lightness, but no controlled study has tested undertone-based matching.[4][6]",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "Warm or cool undertone determines the best shades",
+        "believers": "Colour analysts group people as cool (blue-leaning) or warm (yellow-leaning) and recommend palettes accordingly.[3]",
+        "experts": "A study cited by Wikipedia found warm and cool categories were more consistent with measurable lipstick colour traits than the four-season system.[3]",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "Red lips make a face look more attractive",
+        "believers": "Many describe red as a flattering classic across skin tones.",
+        "experts": "A 2010 experiment found participants raised lip redness contrast to make women's faces look more attractive and feminine.[4]",
+        "evidence": "supported"
+      },
+      {
+        "claim": "The right lip colour changes how light your skin looks",
+        "believers": "Makeup artists say lip colour changes perceived complexion.",
+        "experts": "A 2017 psychophysical study found redder lips lightened perceived skin and darker lips darkened it.[6]",
+        "evidence": "supported"
+      },
+      {
+        "claim": "Makeup makes you much more attractive than your natural face",
+        "believers": "Supporters of cosmetic routines say makeup noticeably transforms appearance.",
+        "experts": "Jones and Kramer reported cosmetics raise attractiveness but the effect is small compared with identity, while a later professional-makeup study found larger effects.[7][8]",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "Four-season colour analysis assigns a definitive palette",
+        "believers": "Consultants and followers say a draping session identifies one's best colours.[11]",
+        "experts": "Wikipedia notes analysts have no standard training and a 2007 study found inconsistencies among systems.[3]",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "Lipstick sales rise in recessions",
+        "believers": "Leonard Lauder said lipstick sales rose after September 2001.[12]",
+        "experts": "Wikipedia reports sales fell in the late-2000s recession; a 2012 study reported recessions raised spending on beauty products among women seeking mates.[12][13]",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "Lipsticks contain harmful levels of lead or PFAS",
+        "believers": "Consumer advocates cite 2007 reports of lead in lipsticks.[1]",
+        "experts": "The FDA said measured lead levels were not a safety concern, while the CDC says no blood lead level is safe; a 2021 study found fluorine in liquid lipsticks.[1]",
+        "evidence": "harms"
+      }
+    ]
   },
-  {
-   "h": "History and shade trends",
-   "paras": [
-    "Lip colour may date back about 5,000 years to Sumer and the Indus Valley, and the Chinese made beeswax lip products over a thousand years ago.[1] Guerlain is credited with the first commercial stick lipstick around 1884, and a swivel-up tube was patented in 1923.[1]",
-    "Fashionable shades have shifted over time: dark red in the 1920s, pale and novelty shades in the 1950s and 1960s, semi-matte in the 1990s, nude shades around 2014 and liquid mattes in 2015 and 2016.[1]"
-   ],
-   "subs": []
+  "refs": [
+    {
+      "id": 1,
+      "title": "Lipstick",
+      "url": "https://en.wikipedia.org/wiki/Lipstick",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "Exposure data for cosmetic products: lipstick, body lotion, and face cream.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15621341/",
+      "source": "Food and Chemical Toxicology",
+      "year": 2005,
+      "type": "study"
+    },
+    {
+      "id": 3,
+      "title": "Seasonal color analysis",
+      "url": "https://en.wikipedia.org/wiki/Seasonal_color_analysis",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 4,
+      "title": "Lip colour affects perceived sex typicality and attractiveness of human faces",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20942361/",
+      "source": "Perception",
+      "year": 2010,
+      "type": "study"
+    },
+    {
+      "id": 5,
+      "title": "A sex difference in facial contrast and its exaggeration by cosmetics",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19817153/",
+      "source": "Perception",
+      "year": 2009,
+      "type": "study"
+    },
+    {
+      "id": 6,
+      "title": "Effects of Lip Color on Perceived Lightness of Human Facial Skin",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28835809/",
+      "source": "i-Perception",
+      "year": 2017,
+      "type": "study"
+    },
+    {
+      "id": 7,
+      "title": "Facial Cosmetics and Attractiveness: Comparing the Effect Sizes of Professionally-Applied Cosmetics and Identity",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27727311/",
+      "source": "PLoS ONE",
+      "year": 2016,
+      "type": "study"
+    },
+    {
+      "id": 8,
+      "title": "Facial cosmetics have little effect on attractiveness judgments compared with identity",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26489218/",
+      "source": "Perception",
+      "year": 2015,
+      "type": "study"
+    },
+    {
+      "id": 9,
+      "title": "Do cosmetics enhance female Caucasian facial attractiveness?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18494902/",
+      "source": "International Journal of Cosmetic Science",
+      "year": 2003,
+      "type": "study"
+    },
+    {
+      "id": 10,
+      "title": "Cosmetics alter biologically-based factors of beauty: evidence from facial contrast",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25725411/",
+      "source": "Evolutionary Psychology",
+      "year": 2015,
+      "type": "study"
+    },
+    {
+      "id": 11,
+      "title": "Color Me Beautiful",
+      "url": "https://en.wikipedia.org/wiki/Color_Me_Beautiful",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 12,
+      "title": "Lipstick effect",
+      "url": "https://en.wikipedia.org/wiki/Lipstick_effect",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 13,
+      "title": "Boosting beauty in an economic decline: mating, spending, and the lipstick effect",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22642483/",
+      "source": "Journal of Personality and Social Psychology",
+      "year": 2012,
+      "type": "study"
+    },
+    {
+      "id": 14,
+      "title": "An exposure and health risk assessment of lead (Pb) in lipstick",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25839902/",
+      "source": "Food and Chemical Toxicology",
+      "year": 2015,
+      "type": "study"
+    },
+    {
+      "id": 15,
+      "title": "Neural activity associated with enhanced facial attractiveness by cosmetics use",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24598437/",
+      "source": "Neuroscience Letters",
+      "year": 2014,
+      "type": "study"
+    },
+    {
+      "id": 16,
+      "title": "Miscalibrations in judgements of attractiveness with cosmetics",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24670156/",
+      "source": "Quarterly Journal of Experimental Psychology",
+      "year": 2014,
+      "type": "study"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Lipstick",
+      "title": "Lipstick, Wikipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Seasonal_color_analysis",
+      "title": "Seasonal color analysis, Wikipedia"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20942361/",
+      "title": "Lip colour affects perceived sex typicality and attractiveness of human faces"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19817153/",
+      "title": "A sex difference in facial contrast and its exaggeration by cosmetics"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28835809/",
+      "title": "Effects of Lip Color on Perceived Lightness of Human Facial Skin"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27727311/",
+      "title": "Facial Cosmetics and Attractiveness: Comparing the Effect Sizes of Professionally-Applied Cosmetics and Identity"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26489218/",
+      "title": "Facial cosmetics have little effect on attractiveness judgments compared with identity"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18494902/",
+      "title": "Do cosmetics enhance female Caucasian facial attractiveness?"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25725411/",
+      "title": "Cosmetics alter biologically-based factors of beauty: evidence from facial contrast"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Color_Me_Beautiful",
+      "title": "Color Me Beautiful"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lipstick_effect",
+      "title": "Lipstick effect"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22642483/",
+      "title": "Boosting beauty in an economic decline: mating, spending, and the lipstick effect"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25839902/",
+      "title": "An exposure and health risk assessment of lead (Pb) in lipstick"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24598437/",
+      "title": "Neural activity associated with enhanced facial attractiveness by cosmetics use"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24670156/",
+      "title": "Miscalibrations in judgements of attractiveness with cosmetics"
+    }
+  ],
+  "card": {
+    "summary": "Choosing lipstick colour to suit skin tone and lip shape; history and safety are documented, attractiveness effects are untested.",
+    "aka": "Lip colour matching",
+    "evidence": "unproven",
+    "risk": "low",
+    "note": "Trace lead and PFAS have been reported in some lipsticks.",
+    "price": null,
+    "status": null,
+    "outcome": null,
+    "structure": null
   },
-  {
-   "h": "Safety",
-   "paras": [
-    "A 2007 Campaign for Safe Cosmetics study reported lead in 61% of 33 brands, and an FDA survey of 400 lipsticks in 2011 averaged 1.11 ppm with a maximum of 7.19 ppm. The FDA said such levels were not a safety concern because lipstick is lightly ingested, while the CDC states no blood lead level is considered safe.[1] A 2021 study found organic fluorine, an indicator of PFAS, in over half of 231 cosmetic products, with liquid lipsticks among those with the highest levels.[1]",
-    "A consumer-practice study of 360 women assessed how much lipstick is applied and how often, to support safety assessments.[2]"
-   ],
-   "subs": []
-  },
-  {
-   "h": "Clinical studies",
-   "paras": [
-    "No studies found testing lipstick shade matching for perceived attractiveness or facial harmony. Related research covers cosmetic exposure and contaminants, and colour-classification studies of lipstick shades, rather than attractiveness outcomes.[2][3]"
-   ],
-   "subs": []
+  "quick": {
+    "overview": "Shade matching means picking a lipstick colour that suits your skin tone and lip shape. It is a removable, low-cost styling approach.\n\nReference sources cover lipstick history and composition; no studies of shade choice and attractiveness were found.",
+    "mechanism": "Colour and finish change lip contrast and apparent size: matte formulas contain more fillers, glossy ones more oil, and shimmer uses mica or pearl particles.",
+    "risks": "Trace lead has been found in some lipsticks, with the FDA saying levels were not a safety concern and the CDC saying no blood lead level is safe. A 2021 study found fluorine, an indicator of PFAS, in many liquid lipsticks."
   }
- ],
- "timeline": [
-  {
-   "year": "c. 1884",
-   "event": "Guerlain credited with the first commercial stick lipstick.[1]"
-  },
-  {
-   "year": "1923",
-   "event": "Swivel-up lipstick tube patented in the US.[1]"
-  },
-  {
-   "year": "1980",
-   "event": "Color Me Beautiful popularises seasonal colour analysis.[3]"
-  },
-  {
-   "year": "2011",
-   "event": "FDA survey of 400 lipsticks reports average lead of 1.11 ppm.[1]"
-  }
- ],
- "lore": {
-  "intro": "Shade matching appears in appearance communities as a low-cost, reversible way to alter perceived lip contrast and shape.",
-  "claims": [
-   {
-    "claim": "The right lipstick shade for your skin tone enhances lip shape and facial harmony.",
-    "believers": "Proponents say matching undertone and depth of colour makes lips look more defined and balances the face, and that lighter or darker shades can make lips look smaller or larger.",
-    "experts": "No controlled study of shade choice and perceived attractiveness was found; research on colour systems has examined consistency of the classification methods themselves.[3]",
-    "evidence": "untested"
-   },
-   {
-    "claim": "Warm or cool undertone determines the best shades",
-    "believers": "Colour analysts group people as cool (blue-leaning) or warm (yellow-leaning) and recommend palettes accordingly.[3]",
-    "experts": "A 2026 study cited by Wikipedia found warm and cool categories were more consistent with measurable lipstick colour traits than the four-season system.[3]",
-    "evidence": "mixed"
-   }
-  ]
- },
- "refs": [
-  {
-   "id": 1,
-   "title": "Lipstick",
-   "url": "https://en.wikipedia.org/wiki/Lipstick",
-   "source": "Wikipedia",
-   "year": 2025,
-   "type": "encyclopedia"
-  },
-  {
-   "id": 2,
-   "title": "Exposure data for cosmetic products: lipstick, body lotion, and face cream.",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/15621341/",
-   "source": "Food and Chemical Toxicology",
-   "year": 2005,
-   "type": "study"
-  },
-  {
-   "id": 3,
-   "title": "Seasonal color analysis",
-   "url": "https://en.wikipedia.org/wiki/Seasonal_color_analysis",
-   "source": "Wikipedia",
-   "year": 2026,
-   "type": "encyclopedia"
-  }
- ],
- "webSources": [
-  {
-   "url": "https://en.wikipedia.org/wiki/Lipstick",
-   "title": "Lipstick, Wikipedia"
-  },
-  {
-   "url": "https://en.wikipedia.org/wiki/Seasonal_color_analysis",
-   "title": "Seasonal color analysis, Wikipedia"
-  }
- ]
 }

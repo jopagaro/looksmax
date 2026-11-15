@@ -1,8 +1,9 @@
 {
  "name": "Potenza RF",
  "lead": [
-  "Potenza is a radiofrequency microneedling system from Cynosure, used in aesthetic dermatology for wrinkles, fine lines, scars, stretch marks and pigmentation. Microneedling in general is a cosmetic procedure that punctures the skin with fine needles to induce healing [1].",
-  "Information is limited to registered device studies; outcome data are not summarized here."
+  "Potenza is a radiofrequency (RF) microneedling system from Cynosure, used in aesthetic dermatology to improve the look of wrinkles, fine lines, crepey skin, acne scars, stretch marks and pigmentation. Patients book a series of in-office sessions with a clinician hoping for firmer, smoother and more even-looking skin on the face and body.",
+  "Microneedling in general, also called collagen induction therapy, is a cosmetic procedure that punctures the skin repeatedly with fine sterile needles to trigger the skin's healing response [1]. RF microneedling adds radiofrequency energy delivered through the needles; radiofrequency, in medical settings, works by passing a medium-frequency alternating current through tissue, which heats the target area [6].",
+  "Published information on Potenza is limited to registered device studies; outcome data are not summarized here."
  ],
  "infobox": [
   [
@@ -16,13 +17,46 @@
   [
    "Studied conditions",
    "Wrinkles, fine lines, crepey skin, acne scars, stretch marks, pigmentation"
+  ],
+  [
+   "Procedure type",
+   "In-office, clinician-delivered"
+  ],
+  [
+   "Related technique",
+   "Microneedling / collagen induction therapy [1]"
   ]
  ],
  "sections": [
   {
+   "h": "Description",
+   "paras": [
+    "Cynosure's Potenza is listed in registered device studies as an RF microneedling device for dermatologic conditions including wrinkles, scars, stretch marks and pigmentation [2][4]. Treatment is delivered by a trained clinician in an office; the article does not describe settings or technique.",
+    "RF microneedling belongs to a family of procedures that includes standard microneedling, which Wikipedia describes as puncturing the skin with tiny sterile needles for scarring, acne and other concerns, and which has also been combined with platelet-rich plasma or minoxidil in some studies [1]."
+   ]
+  },
+  {
+   "h": "How it works",
+   "paras": [
+    "Radiofrequency ablation in general uses a medium-frequency alternating current, roughly 350 kHz to 1 MHz, whose heating effect acts on tissue near the probe; excess heat can cause coagulation, boiling or charring, which is why energy is controlled [6]. In aesthetic RF microneedling, manufacturers describe delivering this heat through needle electrodes below the surface. Specific parameters for Potenza are not summarized here."
+   ]
+  },
+  {
    "h": "Clinical studies",
    "paras": [
     "A completed study that began in 2019 enrolled 79 people to assess an RF microneedling device for wrinkles, fine lines, crepey skin and acne scars [2]. A 2021 feasibility study with 10 participants collected safety and preliminary efficacy data on an RF microneedling device [3]. A 2023 pilot of the Cynosure Potenza system enrolled 20 people with wrinkles, scars, stretch marks and pigmentation [4], and an 8-person 2023 prospective study collected safety data on RF microneedling devices [5]. All are listed as completed; results are not summarized here."
+   ]
+  },
+  {
+   "h": "Safety and regulation",
+   "paras": [
+    "Wikipedia's microneedling article notes that the main concern raised for needling is infection risk when treatments are done in non-medical settings by people untrained in infection control; the New Mexico Department of Health warned of bloodborne infection risks, and in April 2024 the CDC reported three women diagnosed with HIV after platelet-rich plasma 'vampire facials' at one Albuquerque spa [1]. That report concerned PRP facials in an unlicensed setting rather than RF devices. Safety data for Potenza specifically are the subject of the registered studies above [4][5]."
+   ]
+  },
+  {
+   "h": "In looksmaxxing culture",
+   "paras": [
+    "RF microneedling is filed on the wiki under hardmaxx, the community's label for procedures done by professionals. No forum threads about Potenza specifically are cited here."
    ]
   }
  ],
@@ -77,12 +111,24 @@
    "source": "ClinicalTrials.gov",
    "year": 2023,
    "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Radiofrequency ablation",
+   "url": "https://en.wikipedia.org/wiki/Radiofrequency_ablation",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Microneedling",
    "title": "Microneedling - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Radiofrequency_ablation",
+   "title": "Radiofrequency ablation - Wikipedia"
   }
  ],
  "card": {
@@ -92,12 +138,22 @@
   "outcome": "unsupported",
   "risk": "moderate",
   "price": null,
-  "note": "Outcome data not summarized from available sources.",
+  "note": "",
   "structure": null
  },
  "quick": {
-  "overview": "Potenza is a clinic-based RF microneedling system from Cynosure used for wrinkles, scars, stretch marks and pigmentation.\n\nAvailable documentation is a handful of registered device studies with 8 to 79 participants.",
+  "overview": "Potenza is a clinic-based RF microneedling system from Cynosure used for wrinkles, scars, stretch marks and pigmentation.\nAvailable documentation is a handful of registered device studies with 8 to 79 participants.",
   "mechanism": "Needles enter the skin and deliver radiofrequency energy intended to stimulate remodeling.",
   "risks": "Device-specific safety findings are not summarized here. General microneedling infection concerns apply in unregulated settings."
+ },
+ "angle": {
+  "goal": "Skin texture and tone",
+  "chain": [
+   "Needles deliver RF energy into the skin",
+   "Controlled injury and heat trigger the skin's repair response",
+   "Smoother, firmer-looking skin with softened scars and lines"
+  ],
+  "effect": "claimed",
+  "text": "People book RF microneedling sessions in a dermatology or aesthetic clinic to soften acne scars, stretch marks and fine lines and to improve skin texture. Devices like Potenza combine needling with RF heating so the skin's repair response is stimulated in deeper layers than needling alone."
  }
 }

@@ -76,7 +76,20 @@
   {
    "h": "History",
    "paras": [
-    "Novo Nordisk developed liraglutide after the discovery of GLP-1 and early efforts to extend its half-life; a 2019 review charts the discovery and development of liraglutide and, later, semaglutide [6]. The EU approved it in 2009 and the US in 2010 [1]. The LEADER trial reported cardiovascular outcomes in type 2 diabetes in 2016 and a renal-outcomes analysis followed in 2017 [9][15]. The SCALE program supported the weight-management product [8]."
+    "Novo Nordisk scientists studied the compound under the name NN2211 in the early 2000s, building on the discovery of GLP-1 and efforts to extend its short half-life; a 2019 review charts the path from liraglutide to semaglutide.[1][6] The European Union approved Victoza in 2009 and the US in 2010; during the 2010 US review the FDA considered thyroid C-cell tumours seen in rats a central concern.[1]",
+    "Saxenda for chronic weight management was approved by the FDA in 2014 and by the EMA in 2015, and the FDA approved Victoza for children aged ten and over with type 2 diabetes in 2019.[1] The LEADER trial reported cardiovascular outcomes in 2016 and a renal analysis followed in 2017, and the SCALE programme supported the weight-management product.[9][15][8]"
+   ]
+  },
+  {
+   "h": "Regulatory actions and controversies",
+   "paras": [
+    "According to Wikipedia, a 2013 study linked GLP-1-based drugs to pancreatitis hospitalisations; in 2014 the FDA and EMA said the data did not show a causal link but kept pancreatitis under monitoring.[1] In 2012 Public Citizen petitioned the FDA to remove liraglutide from the market, citing thyroid cancer and pancreatitis risks, and in 2010 Novo Nordisk was found to have breached the UK industry code over promotion before authorisation and omitted side-effect information.[1] In 2017 the company agreed to pay $58.65 million to settle whistleblower lawsuits over marketing practices including off-label promotion.[1] Wikipedia also reports that the FDA has asked for the suicidal-ideation warning to be removed from GLP-1 receptor agonist labels.[1]"
+   ]
+  },
+  {
+   "h": "Generics and legal status",
+   "paras": [
+    "Novo Nordisk settled a Victoza patent suit in 2022, and in December 2024 the FDA approved the first generic liraglutide, from Hikma; on 28 August 2025 Teva announced approval and launch of a generic Saxenda, described as the first generic GLP-1 indicated for weight loss.[1] In the EU, the CHMP gave positive opinions in May 2026 for hybrid versions from STADA of both Saxenda and Victoza.[1] Brand names include Enligria and Quinliro in Russia.[1] Liraglutide remains prescription-only, and supplies sold by peptide sites are not the manufacturer's regulated product.[16][20]"
    ]
   },
   {
@@ -101,23 +114,43 @@
  "timeline": [
   {
    "year": "2009",
-   "event": "Approved in the European Union [1]."
+   "event": "Victoza approved in the European Union.[1]"
   },
   {
    "year": "2010",
-   "event": "Approved in the United States [1]."
+   "event": "Approved in the United States after FDA review of rodent thyroid C-cell tumour findings.[1]"
+  },
+  {
+   "year": "2014",
+   "event": "FDA approves Saxenda for chronic weight management; FDA and EMA review pancreatitis data.[1]"
   },
   {
    "year": "2015",
-   "event": "SCALE trial of 3.0 mg for weight management published [8]."
+   "event": "EMA approves Saxenda; SCALE trial of 3.0 mg for weight management published.[1][8]"
   },
   {
    "year": "2016",
-   "event": "LEADER cardiovascular outcomes trial published [9]."
+   "event": "LEADER cardiovascular outcomes trial published.[9]"
+  },
+  {
+   "year": "2017",
+   "event": "Novo Nordisk settles marketing lawsuits for $58.65 million; renal outcomes analysis published.[1][15]"
+  },
+  {
+   "year": "2019",
+   "event": "FDA approves Victoza for children aged 10 and over.[1]"
   },
   {
    "year": "2022",
-   "event": "STEP 8 compares semaglutide with liraglutide [7]."
+   "event": "STEP 8 compares semaglutide with liraglutide.[7]"
+  },
+  {
+   "year": "2024",
+   "event": "First US generic liraglutide approved (Hikma).[1]"
+  },
+  {
+   "year": "2025",
+   "event": "Generic Saxenda launched by Teva.[1]"
   }
  ],
  "lore": {
@@ -347,5 +380,29 @@
    "type": "forum"
   }
  ],
- "webSources": []
+ "webSources": [],
+ "angle": {
+  "goal": "Fat loss",
+  "chain": [
+   "Daily injection activates GLP-1 receptors",
+   "Appetite falls and meals shrink",
+   "Gradual overall fat loss leaner physique"
+  ],
+  "effect": "indirect",
+  "text": "People use liraglutide to eat less and lose body fat, which changes overall leanness and facial definition. Users on forums describe it as a shorter-acting option next to semaglutide."
+ },
+ "card": {
+  "summary": "A daily GLP-1 injection prescribed for diabetes and weight management that lowers appetite and body fat, giving a leaner look.",
+  "aka": "Victoza, Saxenda",
+  "evidence": "strong",
+  "status": "rx",
+  "risk": null,
+  "note": "Boxed warning for thyroid C-cell tumours in rodents; prescription only.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Liraglutide is a GLP-1 receptor agonist from Novo Nordisk, sold as Victoza for type 2 diabetes and Saxenda for weight management. It reduces appetite, and appearance-minded users take it for fat loss.\n\nTrials such as SCALE show weight loss, smaller on average than with semaglutide in the STEP 8 comparison.",
+  "how": "It is a prescribed once-daily subcutaneous injection used with diet and activity changes; some forum users use it as an older, shorter-acting alternative to semaglutide.",
+  "risks": "Common effects are nausea and other gastrointestinal symptoms. The label carries a boxed warning on thyroid C-cell tumours in rodents and lists pancreatitis and kidney injury. Prescription only."
+ }
 }

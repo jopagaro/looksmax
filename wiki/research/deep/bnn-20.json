@@ -1,49 +1,100 @@
 {
  "name": "BNN-20",
  "lead": [
-  "BNN-20 is a synthetic compound described by its developers as a \"microneurotrophin\": a small molecule, 17-beta-spiro-[5-androsten-17,2'-oxiran]-3beta-ol, derived from the hormone DHEA, that crosses the blood-brain barrier and is reported to lack endocrine side effects. [1]",
-  "Research has been preclinical, mainly in the \"weaver\" mouse model of Parkinson's-like dopamine neuron loss. [1][2][3] It is discussed in longevity and nootropic circles as a neurotrophin mimic; it has no approved use."
+  "BNN-20 is a synthetic compound described by its developers as a \"microneurotrophin\": a small molecule, 17-beta-spiro-[5-androsten-17,2'-oxiran]-3beta-ol, derived from the hormone DHEA, that crosses the blood-brain barrier and is reported to lack endocrine side effects [1]. It is designed to imitate the protective signalling of brain-derived neurotrophic factor (BDNF), a protein that large-molecule neurotrophic therapies struggle to deliver into the brain [1][2].",
+  "Research has been preclinical, mainly in the \"weaver\" mouse, a genetic model of progressive dopamine neuron loss in the substantia nigra of the kind seen in Parkinson's disease [1][2][3]. It appears in longevity and nootropic discussions as a neurotrophin mimic and is not approved for any use. Its connection to appearance is indirect and speculative: people interested in brain health and healthy ageing follow it as a candidate for protecting the nervous system, and this wiki does not describe any study of its effects on looks.",
+  "Studies so far come from a small number of related research reports on cell cultures and mouse models, including work with human stem cell-derived neurons [5]."
  ],
  "infobox": [
   [
    "Class",
-   "Synthetic DHEA-derived microneurotrophin"
+   "Synthetic DHEA-derived microneurotrophin [1]"
   ],
   [
    "Proposed target",
    "TrkB (BDNF-mimicking) [1]"
   ],
   [
+   "Chemical name",
+   "17-beta-spiro-[5-androsten-17,2'-oxiran]-3beta-ol [1]"
+  ],
+  [
+   "Research group",
+   "Reported in Neuropharmacology from 2017 [1][3]"
+  ],
+  [
+   "Model used",
+   "Weaver mouse (genetic nigrostriatal degeneration) [1]"
+  ],
+  [
    "Status",
-   "Preclinical research only"
+   "Preclinical research only; not approved for any use"
   ]
  ],
  "sections": [
   {
-   "h": "Pharmacology",
+   "h": "Chemistry and design",
    "paras": [
-    "In weaver mice, BNN-20 was reported to protect dopaminergic neurons through the TrkB neurotrophin receptor. [1] Follow-up studies reported protection when treatment began at an advanced stage, reduced neuroinflammation, and effects on neurogenesis in the substantia nigra. [2][3][4]"
+    "BNN-20 is a synthetic analogue of DHEA, a steroid hormone. According to the authors who developed it, it is a small molecule that crosses the blood-brain barrier and has no endocrine side effects, which distinguishes it from natural neurotrophic factors such as BDNF that cannot readily cross the human barrier [1]. It is referred to in later papers as a synthetic, BDNF-mimicking microneurotrophin [2]."
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "subs": [
+    {
+     "h": "Mechanism of action",
+     "paras": [
+      "In weaver mice, long-term administration from postnatal day 1 to 21 almost fully protected dopaminergic neurons and their terminals. The authors attribute this to an anti-apoptotic effect probably mediated through TrkB receptor signalling via the PI3K-Akt-NF-kB pathway, an antioxidant effect, anti-inflammatory activity and restoration of BDNF levels [1]."
+     ]
+    },
+    {
+     "h": "Advanced degeneration and neuroinflammation",
+     "paras": [
+      "A 2020 study reported that BNN-20 fully protected dopaminergic neurons even when administration began at a late stage, after more than 40 percent of neurons had degenerated. The anti-neuroinflammatory action was shown to be microglia-mediated at least in part: it partially reversed microglial hyperactivation and shifted polarisation toward the protective M2 phenotype, and BDNF levels that were severely reduced in the weaver midbrain returned to normal even after short-term administration [3]."
+     ]
+    },
+    {
+     "h": "Neurogenesis and stem cells",
+     "paras": [
+      "A 2021 study in Stem Cell Research and Therapy assessed effects on neurogenesis in the substantia nigra of wild-type and weaver mice, building on the earlier neuroprotection data [2]. A 2022 paper in Cells used cultured postnatal brain neural stem cells to study divergence between neuronal and oligodendroglial fates and tested BNN-20 in those assays [4].",
+      "A 2024 paper extended the work in two ways: it tested BNN-20 on human induced pluripotent stem cell-derived neural progenitors and neurons from healthy and parkinsonian donors, and on mouse progenitor grafts in late-stage weaver mice. BNN-20 had limited direct effects on the cultured human cells, marginally enhancing differentiation toward neurons and partly reversing the pathological phenotype of neurons from parkinsonian donors, had no effect on grafted mouse cells, but significantly enhanced an endogenous neurogenic response that the graft itself induced throughout the midbrain [5]."
+     ]
+    }
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found. Published research is limited to cell cultures and mouse models, including work on grafted neural progenitors. [1][2][3][5]"
+    "No studies found. Published research is limited to cell cultures and mouse models, including work on grafted neural progenitors [1][2][3][5]."
+   ]
+  },
+  {
+   "h": "Research directions",
+   "paras": [
+    "The group's papers frame BNN-20 as a candidate for neuroprotective and pro-neurogenic therapy in Parkinson's disease, and the 2024 paper describes the human-cell and grafting experiments as extending the work in clinically relevant directions [5]. Whether the effects seen in the weaver mouse apply to people has not been tested."
    ]
   }
  ],
  "timeline": [
   {
    "year": "2017",
-   "event": "Neuroprotection of dopaminergic neurons in the weaver mouse reported. [1]"
+   "event": "Neuroprotection of dopaminergic neurons in the weaver mouse reported [1]"
   },
   {
    "year": "2020",
-   "event": "Anti-neuroinflammatory effects reported at advanced degeneration. [3]"
+   "event": "Anti-neuroinflammatory effects reported at advanced degeneration [3]"
   },
   {
    "year": "2021",
-   "event": "Effects on substantia nigra neurogenesis reported. [2]"
+   "event": "Effects on substantia nigra neurogenesis reported [2]"
+  },
+  {
+   "year": "2022",
+   "event": "BNN-20 used in assays of neural stem cell fate divergence [4]"
+  },
+  {
+   "year": "2024",
+   "event": "Human iPSC-derived cell and grafting experiments published [5]"
   }
  ],
  "lore": null,
@@ -102,5 +153,15 @@
    "type": "study"
   }
  ],
- "webSources": []
+ "webSources": [],
+ "angle": {
+  "goal": "Longevity / brain health",
+  "chain": [
+   "Small molecule mimics BDNF signalling through the TrkB receptor in animal models",
+   "Dopamine neurons are protected in mouse models of degeneration",
+   "Followers see it as a candidate for healthy brain ageing; no appearance outcome has been studied"
+  ],
+  "effect": "claimed",
+  "text": "BNN-20 is followed by people interested in longevity and brain protection. Any link to how someone looks would run through general ageing and wellbeing, and no study has tested it in people."
+ }
 }

@@ -1,23 +1,435 @@
 {
-"name":"Estrogen/hormone skin theories (DHT acne)",
-"lead":["Hormone-and-skin theories in looksmaxxing communities center on the idea that androgens such as DHT, and drugs that change hormone levels such as anabolic steroids, drive acne, and that estrogen or anti-androgen approaches can offset it. Dermatology references do link androgens to acne: testosterone, DHT and DHEA increase sebum production, and DHT is described as the main hormonal driver of sebum [1].","Research on acne caused by steroids exists mainly for corticosteroids and in clinical settings such as transplant patients. A 1989 review described steroid acne as increasingly common with organ transplantation and cancer treatment [2]."],
-"infobox":[["Type","Community theory / acne etiology"],["Hormones discussed","DHT, testosterone, estrogen"],["Related conditions","Steroid acne, hormonal acne"]],
-"sections":[
-{"h":"Hormones and acne","paras":["Wikipedia notes that androgens and IGF-1 appear necessary for acne, that acne does not develop in complete androgen insensitivity syndrome, and that conditions with high androgens such as polycystic ovary syndrome can cause acne [1]. Anabolic-androgenic steroids and testosterone replacement can cause acne [1].","Hormonal treatments listed include combined oral contraceptives, spironolactone and topical clascoterone approved in 2020 [1]."]},
-{"h":"Steroid acne","paras":["Steroid acne is a folliculitis that can result from systemic or topical steroids; a 1998 study compared it with Pityrosporum folliculitis and assessed antifungal drugs [3]. A 1989 review described its development through follicular changes leading to microcomedones and rupture, with exact pathogenesis uncertain [2]."]},
-{"h":"Clinical studies","paras":["Registered trials include a study of clascoterone for steroid-related acne in transgender men receiving masculinizing hormone therapy [4], a finasteride trial in severe nodulocystic acne [5], and an oral contraceptive trial in acne with over 1,300 participants [6]. No results are summarized in the sources available here. No studies of looksmaxxing estrogen use for acne were found."]}
-],
-"timeline":[],
-"lore":null,
-"refs":[
-{"id":1,"title":"Acne","url":"https://en.wikipedia.org/wiki/Acne","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":2,"title":"Steroid acne","url":"https://pubmed.ncbi.nlm.nih.gov/2531172/","source":"Journal of the American Academy of Dermatology","year":1989,"type":"review"},
-{"id":3,"title":"Steroid acne vs. Pityrosporum folliculitis: the incidence of Pityrosporum ovale and the effect of antifungal drugs in steroid acne","url":"https://pubmed.ncbi.nlm.nih.gov/9802688/","source":"International Journal of Dermatology","year":1998,"type":"study"},
-{"id":4,"title":"NCT05891795 Clascoterone for Steroid-related Acne Vulgaris in Transgender Male Patients","url":"https://clinicaltrials.gov/study/NCT05891795","source":"ClinicalTrials.gov","year":2024,"type":"trial"},
-{"id":5,"title":"NCT02502669 Finasteride Treatment of Severe Nodulocystic Acne","url":"https://clinicaltrials.gov/study/NCT02502669","source":"ClinicalTrials.gov","year":2015,"type":"trial"},
-{"id":6,"title":"NCT00280657 Oral Contraceptive in Treating Acne Papulopustulosa","url":"https://clinicaltrials.gov/study/NCT00280657","source":"ClinicalTrials.gov","year":2004,"type":"trial"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Acne","title":"Acne - Wikipedia"}],
-"card":{"summary":"Forum theories tying acne to DHT, steroids and estrogen; androgens are linked to acne in dermatology, but looksmaxxing-specific claims lack dedicated studies.","aka":"DHT acne, hormonal acne","evidence":"limited","status":null,"outcome":null,"risk":"moderate","price":null,"note":"Hormone-altering approaches carry medical risks; no studies of the community protocols found.","structure":null},
-"quick":{"overview":"Forum discussion links acne to DHT and steroids and proposes hormone-based fixes. Dermatology literature supports a role for androgens in acne.\n\nThe specific forum protocols have not been studied.","mechanism":"Androgens such as DHT increase sebum production, which is associated with acne.","risks":"Steroid use can cause acne; hormonal drugs have their own risks and are clinician-managed."}
+ "lead": [
+  "Hormone-and-skin theories in looksmaxxing communities start from a simple goal: clearer, smoother skin and a better-looking face. Members discuss whether androgens such as testosterone and DHT drive oily skin and acne, whether anabolic steroids make breakouts worse, and whether lowering androgens, raising estrogen, or using topical estrogen could improve skin texture and thickness. Related threads ask whether estrogen levels change facial appearance more broadly [11][12].",
+  "Dermatology references do link androgens to acne: testosterone, DHT and DHEA increase sebum production, and DHT is described as the main hormonal driver of sebum [1][8]. Anabolic-androgenic steroids and testosterone therapy can cause acne, and corticosteroids can cause a separate but similar-looking eruption called steroid acne [1][7]. Clinicians already use anti-androgen approaches such as combined oral contraceptives, spironolactone and the topical agent clascoterone for hormonal acne [1].",
+  "Estrogen enters the discussion from the other direction. Wikipedia's sebaceous gland article reports that androgens stimulate sebum secretion while estrogens are reported to inhibit it, and reviews of topical estrogen in postmenopausal women describe increases in skin collagen and thickness [14][17]. Forum members borrow from that literature when asking whether topical or systemic estrogen could change skin quality in men, which is a different population from the one studied [11][19]. The 5-alpha reductase blocker finasteride, discussed mostly for hair loss, also comes up in acne threads, and its labelling and side effects are a recurring part of the conversation [8][18].",
+  "The community versions of these ideas, which include estrogen creams, aromatase inhibitors and hormone manipulation alongside steroid cycles, have not been tested in published trials. Research that exists covers clinical populations, such as transgender men on masculinizing hormone therapy, people with polycystic ovary syndrome, and patients taking corticosteroids [4][9]."
+ ],
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "Androgens (testosterone, DHT) stimulate sebaceous glands",
+   "More sebum and follicle plugging",
+   "Oilier skin and acne breakouts",
+   "Modifying androgen exposure is proposed to clear skin"
+  ],
+  "effect": "indirect",
+  "text": "Followers of these theories try to understand or reduce breakouts and oiliness by linking them to hormone levels, for example by avoiding androgen-driven triggers or asking clinicians about anti-androgen treatment. Some also look at topical estrogen as a way to make skin look thicker or fuller, including under the eyes [11]."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Community theory / acne etiology"
+  ],
+  [
+   "Hormones discussed",
+   "DHT, testosterone, DHEA, estrogen"
+  ],
+  [
+   "Related conditions",
+   "Hormonal acne, steroid acne, PCOS-related acne, adult female acne"
+  ],
+  [
+   "Clinician-used hormonal treatments",
+   "Combined oral contraceptives, spironolactone, clascoterone (topical, approved 2020) [1]"
+  ],
+  [
+   "Key enzyme",
+   "5-alpha reductase (converts testosterone to DHT) [8]"
+  ],
+  [
+   "DHT first synthesized",
+   "1935 (Butenandt) [8]"
+  ],
+  [
+   "Finasteride approvals",
+   "1992 (5 mg, prostate), 1997 (1 mg, hair loss) [18]"
+  ],
+  [
+   "Adolescent acne prevalence",
+   "Estimated 80-90% in the Western world [1]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Hormones and acne",
+   "paras": [
+    "Wikipedia's acne article describes four main processes in acne: excess sebum, keratin buildup that blocks follicles, colonisation by Cutibacterium acnes, and local inflammation. Androgens act mainly on the first of these, increasing sebum production in sebaceous glands [1].",
+    "Wikipedia notes that androgens and IGF-1 appear necessary for acne, that acne does not develop in complete androgen insensitivity syndrome or Laron syndrome, and that conditions with high androgens such as polycystic ovary syndrome, congenital adrenal hyperplasia and androgen-secreting tumours can cause acne [1]. Pregnancy, testosterone therapy and anabolic steroid use can also contribute, and some supplements have been found to contain undeclared steroids [1].",
+    "Diet is another pathway the same article discusses: high-glycemic-load diets are associated with worse acne, and the evidence on dairy is weaker, possibly through effects on insulin and IGF-1 signalling [1].",
+    "Wikipedia's sebaceous gland article describes sebum production as low in early childhood and rising to a peak at puberty with the rise in androgens, and reports that estrogens inhibit secretion while androgens stimulate it. Sebum is mostly triglycerides, wax esters, squalene and free fatty acids, and excess sebum together with keratin can plug a duct and form a comedo that Cutibacterium acnes may colonise [14]. Wikipedia estimates acne affects 80 to 90 percent of teenagers in the Western world, and that it persists into the twenties and thirties in nearly half of those affected [1]."
+   ],
+   "subs": [
+    {
+     "h": "DHT and 5-alpha reductase",
+     "paras": [
+      "DHT is made from testosterone by the enzyme 5-alpha reductase, which is active in sebaceous glands, sweat glands, epidermal cells and hair follicles; reference sources call it the primary androgen of skin and hair follicles [8]. Type 1 of the enzyme is most active in non-genital skin, while type 2 predominates in scalp follicles, and sebum secretion appears to be controlled mainly by the type 1 isoform [8].",
+      "Wikipedia's DHT article records that early reports found no acne in people with type 2 deficiency, but later work found normal sebum production and acne rates in them. It also notes that MK-386, a type 1 inhibitor that was never marketed, lowered sebum DHT more than finasteride but did not show significant acne benefit in a later clinical study [8]. This is one reason that discussion of DHT and acne in medical literature is more nuanced than the forum shorthand \"DHT causes acne\"."
+     ]
+    },
+    {
+     "h": "Anti-androgen treatments used by clinicians",
+     "paras": [
+      "Wikipedia lists combined oral contraceptives as reducing lesions by roughly 40 to 70 percent, with newer progestins and cyproterone acetate favoured for stronger anti-androgen effects, while androgenic progestin-only methods may worsen acne [1]. Spironolactone is described as reducing lesions in women in a dose-dependent way and is not FDA-approved for acne; its use in men is limited by side effects [1].",
+      "Flutamide and bicalutamide have been used off-label for acne, with flutamide limited by liver toxicity. Clascoterone, a topical anti-androgen with no systemic absorption reported, was approved in August 2020 [1]. Anti-androgens are contraindicated in pregnancy [1]. These are prescription treatments managed by clinicians.",
+      "Spironolactone, a drug that blocks aldosterone and to a lesser degree testosterone, is described as helping adult women with acne, with benefit usually emerging over one to three months and long-term therapy often needed to prevent relapse. In men, Wikipedia reports gynecomastia, feminisation and reduced libido as dose-dependent effects, and says that antiandrogen side effects in males generally make these drugs impractical for acne [15][1]. It is prescription-only in the US, UK and EU [15].",
+      "Finasteride, a 5-alpha reductase inhibitor, was approved in 1992 for prostate enlargement and in 1997 at a lower strength for male pattern hair loss. It lowers circulating DHT by roughly two-thirds, and a small retrospective study found it helpful for acne in women with normal testosterone, while a randomized trial found it less effective than flutamide or a cyproterone-containing pill in women with high androgens [18]. Reported effects in men include erectile and ejaculatory dysfunction and lowered libido; a 2012 FDA label update described persistence of some sexual symptoms after stopping, and post-finasteride syndrome remains a disputed diagnosis that a 2019 BMJ editorial called ill defined and controversial [18][8]. Isotretinoin, the most effective acne medicine per Wikipedia, reduces sebum partly by inducing apoptosis in sebaceous glands [1][14]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Steroid acne",
+   "paras": [
+    "Steroid acne is a folliculitis that can result from systemic or topical corticosteroids. It typically appears as uniform small pink papules on the forehead, cheeks and chest and may resemble acne vulgaris, with comedones less prominent [7]. It has been associated with endogenous or exogenous androgen sources, other drug therapy and diabetes [7].",
+    "A 1989 review described steroid acne as increasingly common with organ transplantation and cancer treatment, with the exact pathogenesis uncertain, involving follicular changes leading to microcomedones and rupture [2]. A 1998 study compared it with Pityrosporum folliculitis and assessed antifungal drugs [3]. Clinicians differentiate corticosteroid-induced eruptions from the acne seen with anabolic-androgenic steroids, though both are discussed under the broader heading of steroid-related acne."
+   ]
+  },
+  {
+   "h": "Anabolic steroids and testosterone",
+   "paras": [
+    "Wikipedia's anabolic steroid article lists oily skin, acne including acne conglobata, seborrhea, stretch marks, excess body hair and pattern hair loss among skin effects, saying acne is fairly common among users, mostly due to stimulation of the sebaceous glands by raised androgen levels. It attributes stretch marks to rapid muscle enlargement and notes that conversion of testosterone to DHT can accelerate balding in genetically predisposed men [16].",
+    "Some anabolic steroids are aromatizable, meaning the enzyme aromatase converts them to estrogen, which is why gynecomastia occurs mostly with those compounds; forum discussion of estrogen management during steroid use grows out of this. The same article reports that users are mostly non-competitive men using the drugs for cosmetic reasons and that many distrust physicians [16]. Acne can also follow testosterone replacement therapy, and some bodybuilding supplements have been found to contain undeclared steroids [1]. The wiki does not give instructions for managing any of these drugs."
+   ]
+  },
+  {
+   "h": "Estrogen and skin research",
+   "paras": [
+    "Reviews of topical estrogen in dermatology, mostly in postmenopausal women, report increases in skin collagen and thickness. A review in Practical Dermatology describes studies reporting rises in type III collagen (Schmidt and colleagues, 1996) and in both type I and III (Silva and colleagues, 2017), and epidermal or dermal thickening in several other studies, while one 1994 study reported more wrinkles in the estrogen group, which its authors linked to thicker skin [17].",
+    "The same review lists limits: small study populations, wide variation in formulations, doses, durations and inclusion criteria, and a focus on postmenopausal women, with limited evidence in younger women. It reports that most studies found no significant change in systemic hormone levels and discusses safety questions in breast cancer survivors and with larger application areas, calling for further study [17]. No published study has tested topical estrogen in men for under-eye or facial appearance. Wikipedia's acne article adds that in the menopausal transition, falling estrogen and relatively higher androgen levels can trigger acne in women [1]."
+   ]
+  },
+  {
+   "h": "Estrogen in community discussion",
+   "paras": [
+    "On looksmax.org, estrogen threads range widely. One asks whether topical vaginal estrogen cream, which is used in medicine to thicken thin skin, might help hollow under-eyes; a reply suggested thicker skin might help slightly but that bone and fat structure would limit the change [11]. Another thread asks whether low estrogen would improve a masculine facial look [12].",
+    "Many other threads in the same communities concern managing estrogen during steroid use, and some discuss anti-estrogen drugs in relation to height and puberty. These involve prescription medicines and are outside the scope of acne research; the wiki does not give instructions for them.",
+    "Other looksmax.org threads include one on topical estrogen for anti-aging while on steroids, one on topical estrogen and progesterone, and threads on lowering estrogen naturally and on aromatase inhibitors in connection with height and puberty [19][20][21][22]. Members disagree about whether higher or lower estrogen helps facial appearance, and the claims mix skin, bone and fat effects."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Registered trials in hormone-related acne include a phase 1/2 study of clascoterone for steroid-related acne in transgender men receiving masculinizing hormone therapy, with 18 participants, started in 2024 [4]. A cross-sectional study of 247 transgender men examined factors associated with acne severity [9].",
+    "A phase 2 trial of finasteride in severe nodulocystic acne enrolled 106 people and was completed [5]. A phase 3 oral contraceptive study in acne enrolled 1,326 participants [6], and a newer phase 3 study of an anti-androgenic progestogen with low-dose estrogen in moderate acne was registered to begin in 2026 with 531 participants [10]. A 40-person study registered in 2022 looked at how isotretinoin affects adrenal steroid and sex hormone levels in severe acne [13].",
+    "Results are not summarised in the registry entries. Published reviews of topical estrogen are limited to mostly postmenopausal women and report increased collagen and thickness [17]. No studies have tested community estrogen or anti-estrogen protocols for skin appearance in men."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1935",
+   "event": "Adolf Butenandt and colleagues first synthesize DHT by hydrogenating testosterone. [8]"
+  },
+  {
+   "year": "1974",
+   "event": "5-alpha reductase type 2 deficiency is described, clarifying DHT's role in humans. [8]"
+  },
+  {
+   "year": "1989",
+   "event": "A review in the Journal of the American Academy of Dermatology describes steroid acne as increasingly common with transplantation and cancer therapy. [2]"
+  },
+  {
+   "year": "1992",
+   "event": "FDA approves finasteride for prostate enlargement. [18]"
+  },
+  {
+   "year": "1997",
+   "event": "FDA approves finasteride for male pattern hair loss. [18]"
+  },
+  {
+   "year": "1998",
+   "event": "A study compares steroid acne with Pityrosporum folliculitis and tests antifungal drugs. [3]"
+  },
+  {
+   "year": "2012",
+   "event": "FDA updates finasteride labelling to describe persistent sexual side effects after stopping. [18]"
+  },
+  {
+   "year": "2020",
+   "event": "Topical anti-androgen clascoterone approved for acne. [1]"
+  },
+  {
+   "year": "2024",
+   "event": "Trial of clascoterone for steroid-related acne in transgender men begins. [4]"
+  }
+ ],
+ "lore": {
+  "intro": "Hormone discussion on looksmaxxing forums often links skin quality to androgen and estrogen levels, with acne attributed to DHT or steroid use and estrogen proposed as a skin thickener [11][12].",
+  "claims": [
+   {
+    "claim": "DHT causes acne, so blocking it clears skin",
+    "believers": "Members point to DHT as the main sebum-stimulating androgen and discuss 5-alpha reductase blockers as a route to less oily skin.",
+    "experts": "Dermatology references identify DHT as the main hormonal driver of sebum [1], while type 2 5-alpha reductase deficiency does not appear to protect against acne and the type 1 inhibitor MK-386 did not show significant acne benefit [8]. A finasteride trial in nodulocystic acne is registered [5].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Anabolic steroids and testosterone cause acne",
+    "believers": "Users describe breakouts on the back, shoulders and face during steroid cycles.",
+    "experts": "Anabolic steroids and testosterone therapy are listed as acne contributors [1].",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Lowering androgens or blocking 5-alpha reductase will clear male acne",
+    "believers": "Forum members discuss 5-alpha reductase blockers and anti-androgens as routes to less oily skin and fewer breakouts.",
+    "experts": "Wikipedia says antiandrogen side effects in males, including gynecomastia and sexual dysfunction, make these drugs generally impractical for acne, and notes finasteride has been studied for acne mainly in women [1][18].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Topical estrogen thickens skin and helps under-eye hollows",
+    "believers": "A looksmax.org poster asked whether vaginal estrogen cream, reported to raise collagen and skin thickness, could help thin under-eye skin [11].",
+    "experts": "No published studies have tested topical estrogen for under-eye appearance in this setting; one forum reply noted that structural hollows from bone or fat would not change much [11].",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Low estrogen improves masculine facial appearance",
+    "believers": "Threads ask whether lowering estrogen gives a more masculine face [12].",
+    "experts": "No published studies have examined estrogen levels and facial appearance in healthy men in this framing.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Hormonal acne can be treated by altering hormones",
+    "believers": "Some members cite oral contraceptives, spironolactone or clascoterone as hormone-based acne treatments.",
+    "experts": "These are established clinician-prescribed options with trial data [1][6].",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Estrogen reduces oiliness and thickens skin",
+    "believers": "Some members point to estrogen's reported effect on sebum and its collagen effects, and ask whether topical estrogen could improve skin or under-eye thickness [11][19].",
+    "experts": "Wikipedia reports estrogens inhibit sebum secretion, and reviews in postmenopausal women report increased collagen and thickness with topical estrogen, with small studies and varied protocols; men have not been studied [14][17].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Finasteride has a documented side-effect profile that members weigh against skin and hair goals",
+    "believers": "T Nation and looksmax.org posters discuss finasteride alongside acne and hair, including worries about persistent side effects.",
+    "experts": "Reported effects include erectile and ejaculatory dysfunction; a 2012 FDA label update described persistence after stopping, and post-finasteride syndrome is disputed in the literature [18].",
+    "evidence": "harms"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Acne",
+   "url": "https://en.wikipedia.org/wiki/Acne",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Steroid acne",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2531172/",
+   "source": "Journal of the American Academy of Dermatology",
+   "year": 1989,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Steroid acne vs. Pityrosporum folliculitis: the incidence of Pityrosporum ovale and the effect of antifungal drugs in steroid acne",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9802688/",
+   "source": "International Journal of Dermatology",
+   "year": 1998,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "NCT05891795 Clascoterone for Steroid-related Acne Vulgaris in Transgender Male Patients",
+   "url": "https://clinicaltrials.gov/study/NCT05891795",
+   "source": "ClinicalTrials.gov",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "NCT02502669 Finasteride Treatment of Severe Nodulocystic Acne",
+   "url": "https://clinicaltrials.gov/study/NCT02502669",
+   "source": "ClinicalTrials.gov",
+   "year": 2015,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "NCT00280657 Oral Contraceptive in Treating Acne Papulopustulosa",
+   "url": "https://clinicaltrials.gov/study/NCT00280657",
+   "source": "ClinicalTrials.gov",
+   "year": 2004,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Steroid acne",
+   "url": "https://en.wikipedia.org/wiki/Steroid_acne",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 8,
+   "title": "Dihydrotestosterone",
+   "url": "https://en.wikipedia.org/wiki/Dihydrotestosterone",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 9,
+   "title": "NCT06149065 Factors Associated With Acne Severity Among Transmen",
+   "url": "https://clinicaltrials.gov/study/NCT06149065",
+   "source": "ClinicalTrials.gov",
+   "year": 2021,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "NCT06905210 New Antiandrogenic Progestogen + Low-dose Estrogen for Moderate Acne",
+   "url": "https://clinicaltrials.gov/study/NCT06905210",
+   "source": "ClinicalTrials.gov",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Estrogen Cream under eye",
+   "url": "https://looksmax.org/threads/estrogen-cream-under-eye.1450986/",
+   "source": "looksmax.org",
+   "year": 2024,
+   "type": "forum"
+  },
+  {
+   "id": 12,
+   "title": "Estrogen",
+   "url": "https://looksmax.org/threads/estrogen.1403361/",
+   "source": "looksmax.org",
+   "year": 2024,
+   "type": "forum"
+  },
+  {
+   "id": 13,
+   "title": "NCT05903716 Isotretinoin Effects on Adrenal Steroid and Sex Hormone Levels in Severe Acne",
+   "url": "https://clinicaltrials.gov/study/NCT05903716",
+   "source": "ClinicalTrials.gov",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "Sebaceous gland",
+   "url": "https://en.wikipedia.org/wiki/Sebaceous_gland",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 15,
+   "title": "Spironolactone",
+   "url": "https://en.wikipedia.org/wiki/Spironolactone",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 16,
+   "title": "Anabolic steroid",
+   "url": "https://en.wikipedia.org/wiki/Anabolic_steroid",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 17,
+   "title": "A Review of Uses and Clinical Evidence for Topical Estrogen Therapy in Dermatology",
+   "url": "https://practicaldermatology.com/topics/aesthetics-cosmeceuticals/a-review-of-uses-and-clinical-evidence-for-topical-estrogen-therapy/60861",
+   "source": "Practical Dermatology",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 18,
+   "title": "Finasteride",
+   "url": "https://en.wikipedia.org/wiki/Finasteride",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 19,
+   "title": "topical estrogen for anti aging on aas (thread)",
+   "url": "https://looksmax.org/threads/topical-estrogen-for-anti-aging-on-aas.1772877/",
+   "source": "looksmax.org",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 20,
+   "title": "topical estrogen and progesterone (thread)",
+   "url": "https://looksmax.org/threads/topical-estrogen-and-progesterone.1711920/",
+   "source": "looksmax.org",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 21,
+   "title": "lowering estrogen e2 naturally (thread)",
+   "url": "https://looksmax.org/threads/lowering-estrogen-e2-naturally.1791965/",
+   "source": "looksmax.org",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 22,
+   "title": "aromatase inhibitors for heightmaxxing and puberty delay (thread)",
+   "url": "https://looksmax.org/threads/aromatase-inhibitors-full-guide-for-heightmaxxing-puberty-delay-estrogen-control.1567777/",
+   "source": "looksmax.org",
+   "year": 2025,
+   "type": "forum"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Acne",
+   "title": "Acne - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Dihydrotestosterone",
+   "title": "Dihydrotestosterone - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Sebaceous_gland",
+   "title": "Sebaceous gland - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Spironolactone",
+   "title": "Spironolactone - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Anabolic_steroid",
+   "title": "Anabolic steroid - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Finasteride",
+   "title": "Finasteride - Wikipedia"
+  },
+  {
+   "url": "https://practicaldermatology.com/topics/aesthetics-cosmeceuticals/a-review-of-uses-and-clinical-evidence-for-topical-estrogen-therapy/60861",
+   "title": "A Review of Uses and Clinical Evidence for Topical Estrogen Therapy in Dermatology - Practical Dermatology"
+  }
+ ],
+ "name": "Estrogen/hormone skin theories (DHT acne)",
+ "card": {
+  "summary": "Forum theories tying acne to DHT, steroids and estrogen; androgens are linked to acne in dermatology, but looksmaxxing-specific claims lack dedicated studies.",
+  "aka": "DHT acne, hormonal acne",
+  "evidence": "limited",
+  "status": null,
+  "outcome": null,
+  "risk": "moderate",
+  "price": null,
+  "note": "Hormone-altering approaches carry medical risks; no studies of the community protocols found.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Forum discussion links acne to DHT and steroids and proposes hormone-based fixes. Dermatology literature supports a role for androgens in acne.\n\nThe specific forum protocols have not been studied.",
+  "mechanism": "Androgens such as DHT increase sebum production, which is associated with acne.",
+  "risks": "Steroid use can cause acne; hormonal drugs have their own risks and are clinician-managed."
+ }
 }

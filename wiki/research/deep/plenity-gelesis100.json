@@ -1,24 +1,230 @@
 {
-"name":"Plenity (Gelesis100)",
-"lead":["Plenity, developed as Gelesis100 by Gelesis, is an oral hydrogel taken in capsules before meals for weight management in adults with overweight or obesity. It is made of carboxymethylcellulose cross-linked with citric acid.[1][2]","After swallowing with water, the material absorbs fluid and expands in the stomach and small intestine, forming a gel that may promote fullness and reduce calorie intake. The FDA cleared it as a medical device in April 2019 rather than as a drug.[1]","Reviews describe adverse effects as mostly mild gastrointestinal symptoms, and note that long-term safety data beyond 24 weeks are limited. A 2022 American Gastroenterological Association guideline recommended limiting its use to clinical trials, and critics have described the benefit as small relative to side effects.[1][3]"],
-"infobox":[["Type","Oral superabsorbent hydrogel (medical device)"],["Composition","Carboxymethylcellulose and citric acid"],["Developer","Gelesis"],["FDA clearance","April 2019 (device)"],["Indication","Overweight/obesity, BMI 25-40 (per cited study)"]],
-"sections":[
-{"h":"Clinical studies","paras":["Published reviews describe the mechanism, clinical trial data, adverse effects and role in therapy of the oral superabsorbent hydrogel,[3][4][5][6] and a pharmacist-oriented and a primary-care summary reach the same set of studies.[5][6] A 2023 observational cross-sectional study described about 20,000 telehealth patients taking Plenity for BMI 25-40, comparing weight-loss practices and in-person care.[7] Specific effect sizes are reported in those reviews and are not reproduced here."]},
-{"h":"Safety","paras":["Adverse effects are mostly mild gastrointestinal symptoms such as diarrhea, bloating, constipation, abdominal pain and gas. No severe events were reported, but data beyond 24 weeks are lacking. It is contraindicated in pregnancy, chronic malabsorption syndromes and cholestasis.[1]"]},
-{"h":"Clinical standing","paras":["The AGA's 2022 guideline recommended limiting use to clinical trials because of limited evidence.[1]"]}
-],
-"timeline":[{"year":"2019","event":"FDA clears Plenity as a medical device in April.[1]"},{"year":"2022","event":"AGA guideline recommends limiting use to clinical trials.[1]"}],
-"lore":null,
-"card":{"summary":"A swallowed gel capsule that swells in the stomach to promote fullness; cleared as a device with modest evidence.","aka":"Gelesis100; oral superabsorbent hydrogel","evidence":"limited","status":"rx","risk":null,"price":null,"note":"Device clearance, not a drug; guidelines cite limited evidence.","structure":null},
-"quick":{"overview":"Plenity is a capsule of cross-linked cellulose gel taken before meals with water for weight management. The FDA cleared it as a medical device in April 2019.\n\nReviews call its benefit modest and a 2022 AGA guideline limited its use to trials.","mechanism":"The gel absorbs water and swells in the stomach and small intestine, forming a semisolid mass that may promote fullness.","risks":"Side effects are mostly mild digestive symptoms. Long-term safety data beyond 24 weeks are limited, and it is contraindicated in pregnancy, malabsorption and cholestasis."},
-"refs":[
-{"id":1,"title":"Plenity (Gelesis100)","url":"https://en.wikipedia.org/wiki/Plenity","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":2,"title":"Plenity (Oral Superabsorbent Hydrogel)","url":"https://pubmed.ncbi.nlm.nih.gov/32699484/","source":"Clinical Diabetes","year":2020,"type":"review"},
-{"id":3,"title":"Oral Superabsorbent Hydrogel (Plenity) for Weight Management","url":"https://pubmed.ncbi.nlm.nih.gov/33348994/","source":"Annals of Pharmacotherapy","year":2021,"type":"review"},
-{"id":4,"title":"Plenity for weight management","url":"https://pubmed.ncbi.nlm.nih.gov/33976093/","source":"Medical Letter","year":2021,"type":"review"},
-{"id":5,"title":"Oral Superabsorbent Hydrogel (Plenity) for Weight Management","url":"https://pubmed.ncbi.nlm.nih.gov/33348994/","source":"Annals of Pharmacotherapy","year":2021,"type":"review"},
-{"id":6,"title":"Cellulose and Citric Acid (Plenity) for Weight Management in Overweight and Obese Adults","url":"https://pubmed.ncbi.nlm.nih.gov/35289564/","source":"American Family Physician","year":2022,"type":"review"},
-{"id":7,"title":"Characteristics and Weight Loss Practices From a Cohort of 20,000 Patients Using Direct-to-Consumer Telehealth","url":"https://pubmed.ncbi.nlm.nih.gov/36602855/","source":"JMIR Formative Research","year":2023,"type":"study"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Plenity","title":"Plenity - Wikipedia"}]
+ "name": "Plenity (Gelesis100)",
+ "lead": [
+  "Plenity, developed as Gelesis100 by the company Gelesis, is an oral hydrogel taken in capsules with water before meals for weight management in adults with overweight or obesity. It is made of carboxymethylcellulose cross-linked with citric acid and is not absorbed into the bloodstream.[1][2]",
+  "People who use it do so to reduce body weight and body fat, which changes how the face and body look: a leaner jawline, less facial fullness and a more defined physique are the usual goals in appearance communities. Plenity works by taking up water in the stomach and small intestine and forming a gel that may promote fullness and reduce calorie intake, so the route to a leaner look runs through eating less.[1][3]",
+  "The FDA cleared it as a medical device in April 2019 rather than as a drug, and Wikipedia reports that it was authorized for over-the-counter sale in January 2024.[1] In a 24-week randomized trial, treated participants lost more weight than those on placebo.[4] Reviews describe adverse effects as mostly mild digestive symptoms, and a 2022 American Gastroenterological Association guideline recommended limiting its use to clinical trials.[1][5]"
+ ],
+ "angle": {
+  "goal": "Fat loss",
+  "chain": [
+   "Capsule swells into a gel in the stomach",
+   "Fullness rises and calorie intake may fall",
+   "Gradual weight and body-fat loss",
+   "Leaner face and physique"
+  ],
+  "effect": "indirect",
+  "text": "Plenity is used as an aid to eating less, so that body weight and fat come down over weeks. Lower body fat is what makes facial angles and muscle definition more visible, which is the appearance goal for most people who use weight-management products."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Oral superabsorbent hydrogel (medical device)"
+  ],
+  [
+   "Composition",
+   "Carboxymethylcellulose cross-linked with citric acid"
+  ],
+  [
+   "Developer",
+   "Gelesis"
+  ],
+  [
+   "FDA clearance",
+   "April 2019 (device); OTC authorization reported January 2024"
+  ],
+  [
+   "Indication",
+   "Overweight/obesity, BMI 25-40 (per cited study)"
+  ],
+  [
+   "Absorbed systemically",
+   "No (non-systemic)"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Uses",
+   "subs": [
+    {
+     "h": "Appearance and body composition",
+     "paras": [
+      "Weight-management products are used by people who want to lose fat and look leaner. A gel that adds bulk in the stomach before meals is one of several approaches, alongside diet, exercise and prescription anti-obesity drugs, that people consider for this purpose. In the telehealth cohort described below, patients were adults with a BMI of 25 to 40 seeking help with excess weight.[6]"
+     ]
+    },
+    {
+     "h": "Medical uses",
+     "paras": [
+      "The labelled use is weight management in adults with overweight or obesity. Pharmacist and primary-care reviews describe it as taken with water before lunch and dinner as an adjunct to diet and exercise.[3][7]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Mechanism of action",
+   "paras": [
+    "The capsule contains carboxymethylcellulose chains cross-linked with citric acid, creating a superabsorbent material. After swallowing, the particles absorb water and expand in the stomach and small intestine into a semisolid gel that occupies volume and may promote fullness and lower calorie intake.[1][3] The material is described as non-systemic: it passes through the gut without being absorbed and is eliminated.[2][3]"
+   ]
+  },
+  {
+   "h": "Regulatory history",
+   "paras": [
+    "Plenity's regulatory path differs from that of weight-loss drugs. Wikipedia records that the FDA granted it authorization as a medical device in April 2019 through the De Novo pathway, and that on 19 January 2024 the agency authorized over-the-counter sale without a prescription [1]. The labelled use is as an aid to diet and exercise, and the capsules are taken with water before meals [1][3].",
+    "The 2019 GLOW trial, with Gelesis founder Yishai Zohar among its co-authors, was the pivotal study behind that clearance [1][4]. A 2019 letter in the journal Obesity questioned how clear the benefit was, according to Wikipedia [1]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "The pivotal GLOW study was a 24-week, multicenter, randomized, double-blind, placebo-controlled trial in adults with BMI 27 to 40 and fasting plasma glucose of 90 to 145 mg/dL. Gelesis100 produced greater weight loss than placebo (6.4% versus 4.4%), a 2.1% difference that met the superiority endpoint but not a prespecified 3% margin. Of treated participants, 59% lost at least 5% of body weight and 27% lost at least 10%, compared with 42% and 15% on placebo, and participants who reached the 5% mark lost a mean of 10.2%.[4]",
+    "The trial's co-primary endpoints were placebo-adjusted weight loss (superiority, and a 3% 'super-superiority' margin) and at least 35% of treated patients reaching 5% weight loss. The 59% responder rate exceeded that threshold, and treated patients had about twice the odds of reaching 5% and 10% loss compared with placebo (adjusted odds ratios 2.0 and 2.1) [4]. The abstract also reports analyses in participants with prediabetes or drug-naive type 2 diabetes [4].",
+    "Narrative reviews in pharmacy, diabetes and primary-care journals summarise the mechanism, trial data, adverse effects and place in therapy, and the Medical Letter has assessed it alongside other weight-management drugs and devices.[2][3][7][8][9] The 2022 American Gastroenterological Association guideline evaluated Gelesis100 together with drugs such as semaglutide, liraglutide and orlistat and recommended limiting its use to clinical trials.[5]",
+    "A 2023 observational cross-sectional study described about 20,000 patients using Plenity through a direct-to-consumer telehealth platform for BMI 25 to 40, comparing weight-loss practices and prior in-person care.[6]",
+    "The Medical Letter reviewed Plenity in 2021, and its overview of drugs and devices for weight management was updated in 2022 and again in 2025 [8][9][12]. A 2023 review of obesity pharmacotherapy in reproductive-aged women notes that data on many anti-obesity agents in pregnancy and lactation are sparse and that most are not recommended in those periods [13]."
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "paras": [
+    "Reported effects are mostly mild gastrointestinal symptoms: diarrhea, bloating, constipation, abdominal pain and flatulence. Severe events have not been reported in the cited reviews, but safety data beyond 24 weeks are limited. It is contraindicated in pregnancy, chronic malabsorption syndromes and cholestasis.[1]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Wikipedia describes Plenity as the first treatment of its kind for overweight and obesity, and notes criticism that its effect on weight is small relative to its side effects.[1] Its device status and, from 2024, over-the-counter availability distinguish it from prescription injectables, which have drawn most attention in appearance communities.",
+    "Wikipedia notes critics say the weight effect is small relative to the side effects [1]. Supporters of such devices point to the fact that it is non-systemic: it is not absorbed and works mechanically in the gut [2][3]. Its absence from a prescription requirement since 2024 places it among weight-management options that people can consider alongside diet and exercise [1]."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2019",
+   "event": "Results of the 24-week GLOW trial published.[4]"
+  },
+  {
+   "year": "2019",
+   "event": "FDA clears Plenity as a medical device in April.[1]"
+  },
+  {
+   "year": "2022",
+   "event": "AGA guideline recommends limiting use to clinical trials.[5]"
+  },
+  {
+   "year": "2024",
+   "event": "Reported authorization for over-the-counter sale in January.[1]"
+  }
+ ],
+ "lore": null,
+ "card": {
+  "summary": "A swallowed gel capsule that swells in the stomach to promote fullness; cleared as a device with modest evidence.",
+  "aka": "Gelesis100; oral superabsorbent hydrogel",
+  "evidence": "limited",
+  "status": "rx",
+  "risk": null,
+  "price": null,
+  "note": "Device clearance, not a drug; guidelines cite limited evidence.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Plenity is a capsule of cross-linked cellulose gel taken before meals with water for weight management. The FDA cleared it as a medical device in April 2019.\n\nReviews call its benefit modest and a 2022 AGA guideline limited its use to trials.",
+  "mechanism": "The gel absorbs water and swells in the stomach and small intestine, forming a semisolid mass that may promote fullness.",
+  "risks": "Side effects are mostly mild digestive symptoms. Long-term safety data beyond 24 weeks are limited, and it is contraindicated in pregnancy, malabsorption and cholestasis."
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Plenity (Gelesis100)",
+   "url": "https://en.wikipedia.org/wiki/Plenity",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Plenity (Oral Superabsorbent Hydrogel)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32699484/",
+   "source": "Clinical Diabetes",
+   "year": 2020,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Oral Superabsorbent Hydrogel (Plenity) for Weight Management",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33348994/",
+   "source": "Annals of Pharmacotherapy",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "A Randomized, Double-Blind, Placebo-Controlled Study of Gelesis100 (GLOW)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30421844/",
+   "source": "Obesity",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "AGA Clinical Practice Guideline on Pharmacological Interventions for Adults With Obesity",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36273831/",
+   "source": "Gastroenterology",
+   "year": 2022,
+   "type": "guideline"
+  },
+  {
+   "id": 6,
+   "title": "Characteristics and Weight Loss Practices From a Cohort of 20,000 Patients Using Direct-to-Consumer Telehealth",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36602855/",
+   "source": "JMIR Formative Research",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Cellulose and Citric Acid (Plenity) for Weight Management in Overweight and Obese Adults",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35289564/",
+   "source": "American Family Physician",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "Plenity for weight management",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33976093/",
+   "source": "Medical Letter",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "Drugs and devices for weight management",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35650672/",
+   "source": "Medical Letter",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 12,
+   "title": "Drugs and devices for weight management",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40729437/",
+   "source": "Medical Letter",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 13,
+   "title": "Pharmacologic Treatment of Obesity in Reproductive Aged Women",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37427372/",
+   "source": "Current Obstetrics and Gynecology Reports",
+   "year": 2023,
+   "type": "review"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Plenity",
+   "title": "Plenity - Wikipedia"
+  }
+ ]
 }

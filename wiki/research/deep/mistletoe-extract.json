@@ -1,28 +1,319 @@
 {
-"name":"Mistletoe extract",
-"lead":["Mistletoe extract is prepared from European mistletoe (Viscum album), a semi-parasitic plant. Standardised or proprietary extracts such as Iscador have been used as complementary cancer treatments, mainly in German-speaking countries, and the plant also appears as a botanical in some Korean-style skincare products.[1][2]","The plant's toxins include viscumin, which inhibits ribosomal protein synthesis by a mechanism similar to ricin's; European mistletoe is described as more toxic than American mistletoe.[3] Medicinal extracts contain mistletoe lectins that have been studied for immune-stimulating effects.[2][4]","Published human research concerns cancer patients, not skin. No study of mistletoe extract on skin or appearance was identified in the sources reviewed."],
-"infobox":[["Type","Botanical extract"],["Source plant","Viscum album (European mistletoe)"],["Key constituents","Lectins including viscumin (ML I)[3][5]"],["Best-known medicinal brand","Iscador[2]"]],
-"sections":[
-{"h":"Pharmacology","paras":["A 1989 study reported that the beta-galactoside-specific lectin from Iscador had immunomodulatory effects in rabbits and patients.[2] A 1990 study reported that the lectin increased secretion of tumour necrosis factor alpha and interleukins 1 and 6 by human mononuclear cells.[4] The lectin's ligand-binding characteristics have also been characterised.[5]"]},
-{"h":"Clinical studies","paras":["Human studies relate to cancer. The EORTC 18871/DKG 80-1 phase III melanoma trial included an Iscador M arm alongside interferon arms and an observation group.[6] A randomised trial in China examined quality of life with a standardised extract in breast, ovarian and lung cancer,[7] and a placebo-controlled trial reported improved quality of life in breast cancer patients during chemotherapy with extract PS76A2.[8] A randomised trial examined quality of life in advanced pancreatic cancer,[9] and a 2009 systematic review examined survival in patients given Iscador.[10] A trial in resected head and neck cancer has also been published.[11] No trial examined skin or cosmetic outcomes."]},
-{"h":"Toxicity","paras":["Wikipedia describes viscumin as toxic and notes that the plant's historical medicinal and folk uses are varied.[3]"]}
-],
-"timeline":[{"year":"1989","event":"Study reports immunomodulatory effects of the Iscador lectin.[2]"},{"year":"2004","event":"EORTC phase III melanoma trial results published.[6]"}],
-"lore":null,
-"refs":[
-{"id":1,"title":"Preclinical and clinical effects of mistletoe against breast cancer","url":"https://pubmed.ncbi.nlm.nih.gov/25136622/","source":"BioMed Research International","year":2014,"type":"review"},
-{"id":2,"title":"Modulatory potency of the beta-galactoside-specific lectin from mistletoe extract (Iscador) on the host defense system in vivo in rabbits and patients","url":"https://pubmed.ncbi.nlm.nih.gov/2758413/","source":"Cancer Research","year":1989,"type":"study"},
-{"id":3,"title":"Mistletoe","url":"https://en.wikipedia.org/wiki/Mistletoe","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":4,"title":"Increased secretion of tumor necrosis factors alpha, interleukin 1, and interleukin 6 by human mononuclear cells exposed to beta-galactoside-specific lectin from clinically applied mistletoe extract","url":"https://pubmed.ncbi.nlm.nih.gov/2334925/","source":"Cancer Research","year":1990,"type":"study"},
-{"id":5,"title":"Ligand binding characteristics of the major mistletoe lectin","url":"https://pubmed.ncbi.nlm.nih.gov/1429712/","source":"Journal of Biological Chemistry","year":1992,"type":"study"},
-{"id":6,"title":"Final results of the EORTC 18871/DKG 80-1 randomised phase III trial (melanoma)","url":"https://pubmed.ncbi.nlm.nih.gov/14746858/","source":"European Journal of Cancer","year":2004,"type":"trial"},
-{"id":7,"title":"Impact of complementary mistletoe extract treatment on quality of life in breast, ovarian and non-small cell lung cancer patients","url":"https://pubmed.ncbi.nlm.nih.gov/15015612/","source":"Anticancer Research","year":2004,"type":"trial"},
-{"id":8,"title":"Quality of life is improved in breast cancer patients by Standardised Mistletoe Extract PS76A2","url":"https://pubmed.ncbi.nlm.nih.gov/16619567/","source":"Anticancer Research","year":2006,"type":"trial"},
-{"id":9,"title":"Quality of life of patients with advanced pancreatic cancer during treatment with mistletoe: a randomized controlled trial","url":"https://pubmed.ncbi.nlm.nih.gov/25142075/","source":"Deutsches Arzteblatt International","year":2014,"type":"trial"},
-{"id":10,"title":"Survival of cancer patients treated with mistletoe extract (Iscador): a systematic literature review","url":"https://pubmed.ncbi.nlm.nih.gov/20021637/","source":"BMC Cancer","year":2009,"type":"review"},
-{"id":11,"title":"The effect of an adjuvant mistletoe treatment programme in resected head and neck cancer patients","url":"https://pubmed.ncbi.nlm.nih.gov/11165126/","source":"European Journal of Cancer","year":2001,"type":"trial"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Mistletoe","title":"Mistletoe - Wikipedia"}],
-"card":{"summary":"A mistletoe botanical used in some skincare; its research is in cancer care, not skin.","aka":"Viscum album extract, Iscador","evidence":"unproven","status":"otc","outcome":null,"risk":null,"price":null,"note":"Plant toxins (viscumin) are documented; no skin trials found.","structure":null},
-"quick":{"overview":"Mistletoe extract comes from Viscum album. Injectable extracts such as Iscador have been used as complementary cancer treatments, and the plant appears as a botanical in some skincare.\n\nHuman trials examine cancer patients; none examine skin or appearance.","mechanism":"Mistletoe lectins have been reported in laboratory and patient studies to stimulate immune signalling such as TNF-alpha and interleukins.","risks":"The plant contains the toxin viscumin, which Wikipedia says works like ricin. Topical cosmetic safety was not covered in the reviewed sources."}
+ "name": "Mistletoe extract",
+ "lead": [
+  "Mistletoe extract is prepared from European mistletoe (Viscum album), a hemiparasitic evergreen shrub that grows on the branches of host trees.[12] Standardised or proprietary extracts such as Iscador, Helixor and abnobaVISCUM are used as complementary cancer treatments, mainly in German-speaking countries, and the plant also appears as a botanical ingredient in some Korean-style skincare products, where it is included for a soothing, plant-derived image.[1][2][13]",
+  "The plant's toxins include viscumin, which inhibits ribosomal protein synthesis by a mechanism similar to ricin's; European mistletoe is described as more toxic than American mistletoe.[3] Medicinal extracts contain mistletoe lectins that have been studied for immune-stimulating effects.[2][4]",
+  "Published human research concerns cancer patients, not skin. No study of mistletoe extract on skin or appearance has been published; for someone interested in the skincare use, the relevant background is the plant's lectin chemistry and its use as an injectable adjunct in cancer care."
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Botanical extract"
+  ],
+  [
+   "Source plant",
+   "Viscum album (European mistletoe)"
+  ],
+  [
+   "Key constituents",
+   "Lectins including viscumin (ML I)[3][5]"
+  ],
+  [
+   "Best-known medicinal brands",
+   "Iscador, Helixor, Eurixor, Isorel, abnobaVISCUM[13]"
+  ],
+  [
+   "Regulatory (Europe)",
+   "Injectable prescription extracts, widely used in German-speaking countries[13]"
+  ],
+  [
+   "Regulatory (US)",
+   "Injectable mistletoe not commercially available or approved for cancer; listed in the Homeopathic Pharmacopoeia[13]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description and sources",
+   "paras": [
+    "Viscum album has leathery, yellowish-green leaves in opposite pairs and white or yellow berries. It grows on broad-leaved trees such as apple, lime, hawthorn and poplar and is native to Europe and western and southern Asia.[12] Product composition varies with the host tree, harvest time, preparation method and manufacturer, and some preparations are homeopathic and not chemically standardised.[13]"
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Mistletoe has a long place in folklore: Pliny the Elder described Celtic druids harvesting it with ceremony, it features in Greek and Roman myth and in Norse legend, and kissing under mistletoe at Christmas is first documented in 16th-century England.[12] As a medicine, it has been used in traditional and folk practice for conditions including cancer, epilepsy and hypertension, and the NCI summary dates modern interest in it as an anticancer treatment to the 1920s, with most clinical studies published in German.[13]",
+    "Wikipedia states that the use of mistletoe extract in cancer treatment originated with Rudolf Steiner, founder of anthroposophy.[12] Anthroposophic medicine, including Iscador, remains the best-known tradition of mistletoe therapy."
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "paras": [
+    "A 1989 study reported that the beta-galactoside-specific lectin from Iscador had immunomodulatory effects in rabbits and patients.[2] A 1990 study reported that the lectin increased secretion of tumour necrosis factor alpha and interleukins 1 and 6 by human mononuclear cells.[4] The lectin's ligand-binding characteristics have also been characterised.[5]",
+    "A phase I trial in 15 healthy male volunteers described the pharmacokinetics of natural mistletoe lectins after subcutaneous injection.[18] Laboratory work has reported that mistletoe-extract drugs stimulate anti-cancer Vgamma9Vdelta2 T cells,[19] and a zebrafish study reported a radioprotective effect on intestinal toxicity.[20] A review has proposed that mistletoe therapy could be used to stimulate the innate immune system, drawing a parallel to the bacterial extracts of William Coley.[21]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "subs": [
+    {
+     "h": "Legal status",
+     "paras": [
+      "In Europe, mistletoe extracts are widely used and marketed as injectable prescription drugs, particularly in German-speaking countries. In the United States, these injectable products are not commercially available and are not approved to treat cancer, although Viscum album is listed in the Homeopathic Pharmacopoeia of the United States.[13]"
+     ]
+    },
+    {
+     "h": "Use in skincare",
+     "paras": [
+      "Mistletoe extract is listed as a botanical in some Korean-style skincare products.[1] The research literature on the plant does not include skin or cosmetic trials, so formulation claims are not backed by published studies of this ingredient on skin."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Safety and toxicity",
+   "paras": [
+    "Wikipedia describes viscumin as toxic, notes that concentrated forms such as herbal tea can be potentially fatal and that eating the berries has caused serious illness.[3][12] The NCI summary says mistletoe plants and berries are considered poisonous, while few serious side effects have been linked to extract use.[13] Topical cosmetic safety has not been reviewed in the published literature."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Human studies relate to cancer. The EORTC 18871/DKG 80-1 phase III melanoma trial included an Iscador M arm alongside interferon arms and an observation group.[6] A randomised trial in China examined quality of life with a standardised extract in breast, ovarian and lung cancer,[7] and a placebo-controlled trial reported improved quality of life in breast cancer patients during chemotherapy with extract PS76A2.[8] A randomised trial examined quality of life in advanced pancreatic cancer,[9] and a 2009 systematic review examined survival in patients given Iscador.[10] A trial in resected head and neck cancer has also been published.[11]",
+    "More recent work includes a 2022 systematic review and meta-analysis of survival with non-fermented extract,[14] a 2023 analysis of how mistletoe is prescribed across clinical studies, which described the topic as discussed controversially as a complementary treatment,[15] a phase I trial of intravenous Helixor M in advanced cancer, which noted that use is controversial because of suboptimal trials,[16] and the double-blind placebo-controlled MISTRAL trial in advanced pancreatic cancer.[17] The NCI summary says many studies reported improved survival or quality of life but that many had major weaknesses, and that mistletoe should not be recommended outside well-designed trials.[13] No trial examined skin or cosmetic outcomes."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1920s",
+   "event": "Modern interest in mistletoe as an anticancer treatment begins.[13]"
+  },
+  {
+   "year": "1989",
+   "event": "Study reports immunomodulatory effects of the Iscador lectin.[2]"
+  },
+  {
+   "year": "2004",
+   "event": "EORTC phase III melanoma trial results published.[6]"
+  },
+  {
+   "year": "2014",
+   "event": "Randomised trial of quality of life in advanced pancreatic cancer published.[9]"
+  },
+  {
+   "year": "2024",
+   "event": "MISTRAL double-blind trial in advanced pancreatic cancer published.[17]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Preclinical and clinical effects of mistletoe against breast cancer",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25136622/",
+   "source": "BioMed Research International",
+   "year": 2014,
+   "type": "review"
+  },
+  {
+   "id": 2,
+   "title": "Modulatory potency of the beta-galactoside-specific lectin from mistletoe extract (Iscador) on the host defense system in vivo in rabbits and patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2758413/",
+   "source": "Cancer Research",
+   "year": 1989,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Mistletoe",
+   "url": "https://en.wikipedia.org/wiki/Mistletoe",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Increased secretion of tumor necrosis factors alpha, interleukin 1, and interleukin 6 by human mononuclear cells exposed to beta-galactoside-specific lectin from clinically applied mistletoe extract",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2334925/",
+   "source": "Cancer Research",
+   "year": 1990,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Ligand binding characteristics of the major mistletoe lectin",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1429712/",
+   "source": "Journal of Biological Chemistry",
+   "year": 1992,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Final results of the EORTC 18871/DKG 80-1 randomised phase III trial (melanoma)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14746858/",
+   "source": "European Journal of Cancer",
+   "year": 2004,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Impact of complementary mistletoe extract treatment on quality of life in breast, ovarian and non-small cell lung cancer patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15015612/",
+   "source": "Anticancer Research",
+   "year": 2004,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Quality of life is improved in breast cancer patients by Standardised Mistletoe Extract PS76A2",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16619567/",
+   "source": "Anticancer Research",
+   "year": 2006,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Quality of life of patients with advanced pancreatic cancer during treatment with mistletoe: a randomized controlled trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25142075/",
+   "source": "Deutsches Arzteblatt International",
+   "year": 2014,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Survival of cancer patients treated with mistletoe extract (Iscador): a systematic literature review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20021637/",
+   "source": "BMC Cancer",
+   "year": 2009,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "The effect of an adjuvant mistletoe treatment programme in resected head and neck cancer patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11165126/",
+   "source": "European Journal of Cancer",
+   "year": 2001,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "Viscum album",
+   "url": "https://en.wikipedia.org/wiki/Viscum_album",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 13,
+   "title": "Mistletoe Extracts (PDQ) - Health Professional Version",
+   "url": "https://www.cancer.gov/about-cancer/treatment/cam/hp/mistletoe-pdq",
+   "source": "National Cancer Institute",
+   "year": null,
+   "type": "guideline"
+  },
+  {
+   "id": 14,
+   "title": "Survival of Cancer Patients Treated with Non-Fermented Mistletoe Extract: A Systematic Review and Meta-Analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36324298/",
+   "source": "Integrative Cancer Therapies",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 15,
+   "title": "Systematic analysis of mistletoe prescriptions in clinical studies",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36481925/",
+   "source": "Journal of Cancer Research and Clinical Oncology",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 16,
+   "title": "Phase I Trial of Intravenous Mistletoe Extract in Advanced Cancer",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36860652/",
+   "source": "Cancer Research Communications",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 17,
+   "title": "Mistletoe Extract in Patients With Advanced Pancreatic Cancer: a Double-Blind, Randomized, Placebo-Controlled Trial (MISTRAL)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38915151/",
+   "source": "Deutsches Arzteblatt International",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 18,
+   "title": "Pharmacokinetics of natural mistletoe lectins after subcutaneous injection",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20467733/",
+   "source": "European Journal of Clinical Pharmacology",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 19,
+   "title": "Mistletoe-Extract Drugs Stimulate Anti-Cancer Vgamma9Vdelta2 T Cells",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32604868/",
+   "source": "Cells",
+   "year": 2020,
+   "type": "study"
+  },
+  {
+   "id": 20,
+   "title": "Radioprotective effect of mistletoe extract on intestinal toxicity: in vivo study using adult zebrafish",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36318746/",
+   "source": "International Journal of Radiation Biology",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 21,
+   "title": "Coley's Lessons Remembered: Augmenting Mistletoe Therapy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27207233/",
+   "source": "Integrative Cancer Therapies",
+   "year": 2016,
+   "type": "review"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Mistletoe",
+   "title": "Mistletoe"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Viscum_album",
+   "title": "Viscum album"
+  },
+  {
+   "url": "https://www.cancer.gov/about-cancer/treatment/cam/hp/mistletoe-pdq",
+   "title": "Mistletoe Extracts (PDQ)"
+  }
+ ],
+ "card": {
+  "summary": "A mistletoe botanical used in some skincare; its research is in cancer care, not skin.",
+  "aka": "Viscum album extract, Iscador",
+  "evidence": "unproven",
+  "status": "otc",
+  "outcome": null,
+  "risk": null,
+  "price": null,
+  "note": "Plant toxins (viscumin) are documented; no skin trials found.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Mistletoe extract comes from Viscum album. Injectable extracts such as Iscador have been used as complementary cancer treatments, and the plant appears as a botanical in some skincare.\n\nHuman trials examine cancer patients; none examine skin or appearance.",
+  "mechanism": "Mistletoe lectins have been reported in laboratory and patient studies to stimulate immune signalling such as TNF-alpha and interleukins.",
+  "risks": "The plant contains the toxin viscumin, which Wikipedia says works like ricin. Topical cosmetic safety was not covered in the reviewed sources."
+ },
+ "angle": {
+  "goal": "Skin quality",
+  "chain": [
+   "Plant extract included in a cream or serum",
+   "Marketed as a soothing botanical",
+   "Claimed support for skin condition; not tested on skin"
+  ],
+  "effect": "claimed",
+  "text": "In skincare, mistletoe extract appears as one of many botanicals in some Korean-style formulations. The documented research uses are injectable extracts in cancer care, so appearance claims rest on the ingredient's plant-extract positioning."
+ }
 }

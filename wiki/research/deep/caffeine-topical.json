@@ -1,29 +1,254 @@
 {
-"name":"Caffeine (topical)",
-"lead":[
-"Topical caffeine refers to caffeine, the xanthine alkaloid found in coffee and tea, formulated at low concentrations in creams, serums and gels. It appears in many under-eye products marketed to reduce puffiness and dark circles.[2]",
-"Proponents and product marketing describe a temporary de-puffing effect attributed to narrowing of small blood vessels and to drainage of fluid from the thin skin around the eyes. The sources reviewed contain no controlled human trial of cosmetic caffeine products for under-eye puffiness or dark circles, so these effects have not been evaluated in the published literature reviewed here.",
-"Published research on caffeine applied to the body surface is mostly pharmaceutical: studies of caffeine delivery through skin using lipid nanoparticle carriers, and animal and small human studies of caffeine eye drops for the lens and for intraocular pressure.[5][3][4]"
-],
-"infobox":[["Type","Xanthine alkaloid; cosmetic ingredient"],["Routes","Topical (creams, serums, gels)"],["Typical products","Under-eye creams and serums"],["Systemic mechanism","Adenosine receptor antagonist[2]"],["Legal status","Cosmetic ingredient; over the counter"]],
-"sections":[
-{"h":"Uses","subs":[{"h":"Cosmetic / appearance uses","paras":["Caffeine is included in under-eye products for puffiness and dark circles, and sometimes in cellulite and scalp products. Its use in these products is based on the idea that it constricts vessels and may promote fluid drainage; these mechanisms are proposed in marketing and are not established by trials of finished cosmetic products in the sources reviewed."]}]},
-{"h":"Pharmacology","subs":[
-{"h":"Mechanism of action","paras":["Oral caffeine acts mainly by blocking adenosine receptors in the brain, which promotes alertness; it was first isolated from coffee in 1819.[2] How these actions translate to skin is less documented. Skin penetration is a recognised challenge for caffeine, a hydrophilic molecule, and research has examined solid lipid nanoparticles as carriers to improve its permeation through skin.[5]"]},
-{"h":"Pharmacokinetics","paras":["In rats, caffeine applied to the eye surface reached the lens and blood in measurable amounts, with blood concentrations rising over two hours.[6] Equivalent measurements for cosmetic skin products in humans were not found in the sources reviewed."]}]},
-{"h":"Safety","paras":["No safety trials of cosmetic caffeine creams are included in the sources reviewed. In a rat study, caffeine eye drops at the concentration tested showed no toxicity on the ocular surface or lens.[6] Caffeine in general affects sleep and arousal when consumed, with effects varying between individuals.[1][2]"]},
-{"h":"Clinical studies","paras":["No studies found on topical caffeine for under-eye puffiness or dark circles.","Related research on other uses of caffeine at the eye: a small human study of 1% caffeine eye drops in five volunteers with open-angle glaucoma or ocular hypertension measured intraocular pressure after instillation;[4] rat studies found that caffeine eye drops protected against UV-B and galactose-induced cataract.[3][7] A trial registered on ClinicalTrials.gov examined caffeine consumption in glaucoma patients.[8] These do not address cosmetic outcomes."]}
-],
-"timeline":[],
-"lore":null,
-"refs":[
-{"id":1,"title":"Caffeine-induced sleep disorder","url":"https://en.wikipedia.org/wiki/Caffeine-induced_sleep_disorder","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":2,"title":"Caffeine (Grokipedia)","url":"https://grokipedia.com/page/Caffeine","source":"Grokipedia","year":2025,"type":"encyclopedia"},
-{"id":3,"title":"Caffeine eye drops protect against UV-B cataract","url":"https://pubmed.ncbi.nlm.nih.gov/23644096/","source":"Experimental Eye Research","year":2013,"type":"study"},
-{"id":4,"title":"Effect of caffeine on the intraocular pressure in patients with primary open angle glaucoma","url":"https://pubmed.ncbi.nlm.nih.gov/22140308/","source":"Clinical Ophthalmology","year":2011,"type":"study"},
-{"id":5,"title":"Design of solid lipid nanoparticles for caffeine topical administration","url":"https://pubmed.ncbi.nlm.nih.gov/24735249/","source":"Drug Delivery","year":2016,"type":"study"},
-{"id":6,"title":"Pharmacokinetics for topically applied caffeine in the rat","url":"https://pubmed.ncbi.nlm.nih.gov/24704471/","source":"Experimental Eye Research","year":2014,"type":"study"},
-{"id":7,"title":"Effectiveness of topical caffeine in cataract prevention: studies with galactose cataract","url":"https://pubmed.ncbi.nlm.nih.gov/21179241/","source":"Molecular Vision","year":2010,"type":"study"},
-{"id":8,"title":"NCT03675412 Caffeine Consumption in Glaucoma Patients and Healthy Subjects","url":"https://clinicaltrials.gov/study/NCT03675412","source":"ClinicalTrials.gov","year":2018,"type":"trial"}
-],
-"webSources":[]}
+ "name": "Caffeine (topical)",
+ "lead": [
+  "Topical caffeine is caffeine, the xanthine alkaloid found in coffee, tea and cocoa, formulated at low concentrations in creams, serums and gels. It is a common ingredient in under-eye products marketed to reduce puffiness and dark circles, and is also used in some cellulite and scalp products, so that the skin around the eyes looks less swollen and less dark.[2]",
+  "Proponents and product marketing describe a temporary de-puffing effect attributed to narrowing of small blood vessels and to drainage of fluid from the thin skin around the eyes. Wikipedia's article on periorbital dark circles lists topical caffeine among treatments described as vasoconstrictors, alongside vitamin C, laser and filler options.[9] No controlled human trial of cosmetic caffeine products for under-eye puffiness or dark circles was found, so these effects have not been formally evaluated.",
+  "Published research on caffeine applied to the body surface is mostly pharmaceutical: studies of caffeine delivery through skin using lipid nanoparticle carriers, and animal and small human studies of caffeine eye drops for the lens and for intraocular pressure.[5][3][4]"
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Xanthine alkaloid; cosmetic ingredient"
+  ],
+  [
+   "Routes",
+   "Topical (creams, serums, gels)"
+  ],
+  [
+   "Typical products",
+   "Under-eye creams and serums"
+  ],
+  [
+   "Systemic mechanism",
+   "Adenosine receptor antagonist; phosphodiesterase inhibitor[8]"
+  ],
+  [
+   "Legal status",
+   "Cosmetic ingredient; over the counter"
+  ],
+  [
+   "First isolated",
+   "1819, by Friedlieb Ferdinand Runge[8]"
+  ],
+  [
+   "Natural sources",
+   "Coffee, tea, cocoa, kola nut, guarana and others[8]"
+  ],
+  [
+   "Regulatory status (oral)",
+   "US FDA: generally recognised as safe; UK: general sales list[8]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Caffeine is a methylxanthine alkaloid of the purine class, related to the adenine and guanine bases of nucleic acids; it is a bitter, white crystalline solid with formula C8H10N4O2 and a molar mass of about 194 g/mol.[8] It occurs in roughly thirty plant species, including coffee, tea, cocoa, kola nut, yerba mate and guarana.[8] In cosmetics it is listed on labels simply as caffeine."
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "German chemist Friedlieb Ferdinand Runge first isolated caffeine from coffee in 1819, calling it 'Kaffebase'; French chemists Robiquet and Pelletier and Caventou isolated it independently in 1821, and Pelletier's 1821 paper was the first to print the word 'caféine'. In 1838, Mulder and Jobst showed that the 'théine' isolated from tea in 1827 was the same compound.[8]"
+   ]
+  },
+  {
+   "h": "Uses",
+   "subs": [
+    {
+     "h": "Cosmetic / appearance uses",
+     "paras": [
+      "Caffeine is included in under-eye products for puffiness and dark circles, and sometimes in cellulite and scalp products. Its use is based on the idea that it constricts vessels and may promote fluid drainage; these mechanisms are proposed in marketing and are not established by trials of finished cosmetic products.",
+      "Dark circles have many causes, which Wikipedia lists as anatomy and thin lower-eyelid skin, allergy-related rubbing and pigmentation, medication effects, anemia or nutritional factors, fatigue and sleep loss, ageing and sun-driven melanin.[9]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "subs": [
+    {
+     "h": "Mechanism of action",
+     "paras": [
+      "Oral caffeine acts mainly by blocking adenosine receptors, most potently the A2A subtype, which blocks adenosine's drowsiness-promoting effect; it is also a nonselective phosphodiesterase inhibitor that raises cyclic AMP, and adenosine blockade stimulating medullary vasomotor centres is described as constricting blood vessels.[8] How these systemic actions translate to skin is less documented. Skin penetration is a recognised challenge for caffeine, a hydrophilic molecule, and research has examined solid lipid nanoparticles as carriers to improve its permeation through skin.[5]"
+     ]
+    },
+    {
+     "h": "Pharmacokinetics",
+     "paras": [
+      "Orally, caffeine is metabolised mainly by CYP1A2, with a half-life of 3 to 7 hours in healthy adults.[8] In rats, caffeine applied to the eye surface reached the lens and blood in measurable amounts, with blood concentrations rising over two hours.[6] Equivalent measurements for cosmetic skin products in humans have not been reported."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Safety and regulation",
+   "paras": [
+    "No safety trials of cosmetic caffeine creams were found. In a rat study, caffeine eye drops at the concentration tested showed no toxicity on the ocular surface or lens.[6] Orally, caffeine affects sleep and arousal, with effects varying between individuals.[1][2]",
+    "Regulatory statements concern oral intake: the US FDA classifies caffeine as generally recognised as safe, the EU's EFSA found up to 400 mg a day raised no safety concern for non-pregnant adults, and in the UK caffeine is on the general sales list.[8]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found on topical caffeine for under-eye puffiness or dark circles.",
+    "Related research on other uses of caffeine at the eye: a small human study of 1% caffeine eye drops in five volunteers with open-angle glaucoma or ocular hypertension measured intraocular pressure after instillation;[4] rat studies found that caffeine eye drops protected against UV-B and galactose-induced cataract.[3][7] A trial registered on ClinicalTrials.gov examined caffeine consumption in glaucoma patients.[10] Another registered study examined the effect of caffeine on ocular circulation in people with high myopia.[11] These do not address cosmetic outcomes."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1819",
+   "event": "Friedlieb Ferdinand Runge first isolates caffeine from coffee.[8]"
+  },
+  {
+   "year": "1821",
+   "event": "Robiquet, and Pelletier and Caventou, isolate caffeine; the term 'caféine' appears in print.[8]"
+  },
+  {
+   "year": "1838",
+   "event": "Mulder and Jobst show tea's 'théine' is identical to caffeine.[8]"
+  },
+  {
+   "year": "2010",
+   "event": "A rat study tests topical caffeine against galactose-induced cataract.[7]"
+  },
+  {
+   "year": "2016",
+   "event": "Solid lipid nanoparticle carriers for caffeine skin delivery are described.[5]"
+  }
+ ],
+ "lore": {
+  "intro": "Caffeine eye creams are discussed in skin-care and appearance communities as a quick morning depuffer, usually alongside cold compresses and sleep.",
+  "claims": [
+   {
+    "claim": "Caffeine eye products shrink puffiness within minutes.",
+    "believers": "Users and manufacturers describe a quick, temporary reduction in swelling after application, attributed to vessel constriction and drainage.",
+    "experts": "No published controlled trial of cosmetic caffeine eye products was found; the vasoconstriction mechanism is documented for oral caffeine acting on vasomotor centres.[8]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Caffeine fixes dark circles.",
+    "believers": "Product marketing says constricting dilated vessels under the eye lightens dark circles.",
+    "experts": "Dark circles have anatomical, pigment and vascular causes, and Wikipedia's listing of caffeine as a treatment cites a reference that concerns vitamin C rather than caffeine.[9]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Caffeine absorbs through skin enough to act.",
+    "believers": "Brands present topical caffeine as penetrating the skin to work locally.",
+    "experts": "Caffeine's water solubility makes skin permeation challenging, and delivery systems such as solid lipid nanoparticles have been developed to improve it.[5]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Caffeine-induced sleep disorder",
+   "url": "https://en.wikipedia.org/wiki/Caffeine-induced_sleep_disorder",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Caffeine (Grokipedia)",
+   "url": "https://grokipedia.com/page/Caffeine",
+   "source": "Grokipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Caffeine eye drops protect against UV-B cataract",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23644096/",
+   "source": "Experimental Eye Research",
+   "year": 2013,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Effect of caffeine on the intraocular pressure in patients with primary open angle glaucoma",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22140308/",
+   "source": "Clinical Ophthalmology",
+   "year": 2011,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Design of solid lipid nanoparticles for caffeine topical administration",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24735249/",
+   "source": "Drug Delivery",
+   "year": 2016,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Pharmacokinetics for topically applied caffeine in the rat",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24704471/",
+   "source": "Experimental Eye Research",
+   "year": 2014,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Effectiveness of topical caffeine in cataract prevention: studies with galactose cataract",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21179241/",
+   "source": "Molecular Vision",
+   "year": 2010,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "NCT03675412 Caffeine Consumption in Glaucoma Patients and Healthy Subjects",
+   "url": "https://clinicaltrials.gov/study/NCT03675412",
+   "source": "ClinicalTrials.gov",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Caffeine",
+   "url": "https://en.wikipedia.org/wiki/Caffeine",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 9,
+   "title": "Periorbital dark circles",
+   "url": "https://en.wikipedia.org/wiki/Periorbital_dark_circles",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 11,
+   "title": "NCT03294967 Effect of Caffeine on Ocular Circulation in High Myopes",
+   "url": "https://clinicaltrials.gov/study/NCT03294967",
+   "source": "ClinicalTrials.gov",
+   "year": 2017,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Caffeine",
+   "title": "Caffeine (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Periorbital_dark_circles",
+   "title": "Periorbital dark circles (Wikipedia)"
+  }
+ ],
+ "angle": {
+  "goal": "Under-eye puffiness and dark circles",
+  "chain": [
+   "Caffeine cream or serum is applied to the thin skin under the eye",
+   "Proposed effect: narrowing of small vessels and fluid drainage",
+   "A temporarily less swollen, less dark eye area"
+  ],
+  "effect": "claimed",
+  "text": "Users apply caffeine-containing eye products to look less puffy and refreshed around the eyes. The vasoconstriction and drainage mechanisms are proposed by manufacturers and users, and have not been tested in trials of finished cosmetic products."
+ }
+}

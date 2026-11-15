@@ -1,29 +1,245 @@
 {
-"name":"Potassium nitrate desensitising toothpaste",
-"lead":["Potassium nitrate desensitising toothpaste is a toothpaste containing potassium nitrate, a compound used to reduce dentine hypersensitivity, the sharp pain from exposed dentine in response to cold, heat or touch.[1][2] In whitening communities it is mentioned as a product used around peroxide bleaching, because tooth sensitivity is the most common side effect of whitening.[3]","Cochrane reviews have assessed potassium-containing toothpastes for dentine hypersensitivity.[1][2] Wikipedia's tooth-whitening article states that potassium nitrate and sodium fluoride toothpastes can ease whitening sensitivity, though there is no evidence they permanently prevent it.[3]"],
-"infobox":[["Type","Desensitising toothpaste"],["Active ingredient","Potassium nitrate"],["Primary use","Dentine hypersensitivity"],["Appearance relevance","Used around tooth whitening"]],
-"sections":[
-{"h":"Uses","paras":["The main purpose of potassium toothpastes is treating dentine hypersensitivity; a survey of US practice-based network dentists found that almost all used more than one method to manage it.[4][5] Laboratory studies have also tested toothpastes applied before 35 percent hydrogen peroxide in-office bleaching, to see whether they change whitening effectiveness and enamel properties or limit mineral loss.[6][7]"]},
-{"h":"Mechanism","paras":["Studies have compared how different desensitising toothpastes affect dentine and how potassium nitrate in varied forms occludes dentinal tubules in vitro.[8][9]"]},
-{"h":"Clinical studies","paras":["Cochrane reviews published in 2001 and 2006 assessed potassium nitrate and other potassium-containing toothpastes against control toothpastes for reducing dentine hypersensitivity.[1][2] A clinical trial has evaluated a potassium nitrate mouthwash and toothpaste for dentinal hypersensitivity, and a 2025 real-world study examined oral-health-related quality of life with anti-sensitivity toothpaste.[10][11] No studies found that test the toothpaste specifically for sensitivity caused by cosmetic whitening in the sources reviewed, apart from the in vitro bleaching work above.[6][7]"]},
-{"h":"Whitening context","paras":["Wikipedia says home bleaching causes less sensitivity than in-office treatment, and that potassium nitrate and fluoride toothpastes can ease it without evidence that they prevent it permanently.[3]"]}
-],
-"timeline":[],
-"lore":null,
-"refs":[
-{"id":1,"title":"Potassium containing toothpastes for dentine hypersensitivity","url":"https://pubmed.ncbi.nlm.nih.gov/16855970/","source":"Cochrane Database of Systematic Reviews","year":2006,"type":"review"},
-{"id":2,"title":"Potassium nitrate toothpaste for dentine hypersensitivity","url":"https://pubmed.ncbi.nlm.nih.gov/11405992/","source":"Cochrane Database of Systematic Reviews","year":2001,"type":"review"},
-{"id":3,"title":"Tooth whitening","url":"https://en.wikipedia.org/wiki/Tooth_whitening","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":4,"title":"Management of Dentin Hypersensitivity by National Dental Practice-Based Research Network practitioners: results from a questionnaire","url":"https://pubmed.ncbi.nlm.nih.gov/28086862/","source":"BMC Oral Health","year":2017,"type":"study"},
-{"id":5,"title":"Management of dentin hypersensitivity by practitioners in The National Dental Practice-Based Research Network","url":"https://pubmed.ncbi.nlm.nih.gov/28629602/","source":"JADA","year":2017,"type":"study"},
-{"id":6,"title":"Effect of Toothpaste Application Prior to Dental Bleaching on Whitening Effectiveness and Enamel Properties","url":"https://pubmed.ncbi.nlm.nih.gov/26449589/","source":"Operative Dentistry","year":2016,"type":"study"},
-{"id":7,"title":"Effect of Toothpaste Use Against Mineral Loss Promoted by Dental Bleaching","url":"https://pubmed.ncbi.nlm.nih.gov/29504887/","source":"Operative Dentistry","year":2018,"type":"study"},
-{"id":8,"title":"Effect of desensitizing toothpastes on dentin","url":"https://pubmed.ncbi.nlm.nih.gov/23018228/","source":"Brazilian Oral Research","year":2012,"type":"study"},
-{"id":9,"title":"Dentinal Tubule Occluding Effect of Potassium Nitrate in Varied Forms, Frequencies and Duration: An In vitro SEM Analysis","url":"https://pubmed.ncbi.nlm.nih.gov/28969264/","source":"J Clin Diagn Res","year":2017,"type":"study"},
-{"id":10,"title":"Evaluation of the clinical efficacy of potassium nitrate desensitizing mouthwash and a toothpaste in the treatment of dentinal hypersensitivity","url":"https://pubmed.ncbi.nlm.nih.gov/24558521/","source":"J Clin Exp Dent","year":2012,"type":"trial"},
-{"id":11,"title":"A Real-World Evidence Study Evaluating Oral-Health-Related Quality of Life Following the Use of Anti-Sensitivity Toothpaste","url":"https://pubmed.ncbi.nlm.nih.gov/40170098/","source":"J Clin Periodontol","year":2025,"type":"study"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Tooth_whitening","title":"Tooth whitening"}],
-"card":{"summary":"Ordinary desensitising toothpaste that whitening users reach for to calm sensitivity; studied for dentine pain, not for bleaching specifically.","aka":"Sensitive-teeth toothpaste","evidence":"limited","status":"otc","outcome":"unsupported","price":null,"note":"Eases sensitivity at best; no evidence it permanently prevents whitening sensitivity.","structure":"Potassium nitrate"},
-"quick":{"overview":"This is a toothpaste containing potassium nitrate, designed for dentine hypersensitivity. Whitening users sometimes use it because peroxide bleaching commonly causes tooth sensitivity.\n\nCochrane reviews examined potassium toothpastes for dentine hypersensitivity; trials aimed specifically at whitening sensitivity were not found in the sources reviewed.","mechanism":"In vitro work has examined whether potassium nitrate occludes dentinal tubules.","risks":"Wikipedia says such toothpastes can ease whitening sensitivity but there is no evidence of permanent prevention. It is an over-the-counter product."}
+ "name": "Potassium nitrate desensitising toothpaste",
+ "lead": [
+  "Potassium nitrate desensitising toothpaste is a toothpaste containing potassium nitrate, a compound used to reduce dentine hypersensitivity, the sharp pain from exposed dentine in response to cold, heat, air or touch.[1][2] For people working on their smile, it matters because sensitivity is the most common side effect of peroxide tooth whitening; using a desensitising paste is how many whitening users try to keep bleaching comfortable enough to finish, and so to reach the brighter shade they want.[3]",
+  "Cochrane reviews have assessed potassium-containing toothpastes for dentine hypersensitivity.[1][2] Wikipedia's tooth-whitening article states that potassium nitrate and sodium fluoride toothpastes can ease whitening sensitivity, though there is no evidence they permanently prevent it.[3] The dentine hypersensitivity article describes the mechanism as uncertain, with animal work suggesting potassium ions depolarize nerves, and notes that brushing twice daily with 5 percent potassium nitrate for six to eight weeks reduced sensitivity to tactile, thermal and air-blast tests in trials.[12]"
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Desensitising toothpaste"
+  ],
+  [
+   "Active ingredient",
+   "Potassium nitrate (commonly about 5 percent in studied products) [12]"
+  ],
+  [
+   "Primary use",
+   "Dentine hypersensitivity"
+  ],
+  [
+   "Appearance relevance",
+   "Used around tooth whitening [3]"
+  ],
+  [
+   "Related agents",
+   "Stannous fluoride, arginine, strontium chloride, hydroxyapatite [12]"
+  ],
+  [
+   "Typical onset in trials",
+   "Several weeks of twice-daily use [12]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Background: dentine hypersensitivity",
+   "paras": [
+    "Dentine hypersensitivity is pain arising from exposed dentine that cannot be explained by another dental disease.[2] It is mainly caused by gum recession that exposes root surfaces, which may result from forceful brushing, abrasive toothpaste or periodontitis; acid erosion, tooth bleaching, smoking, cracked teeth and grinding are other causes. About 15 percent of the general population is affected to some degree, most often people aged 20 to 50.[12]",
+    "The most widely accepted explanation is the hydrodynamic theory proposed by Brannstrom in 1964, in which stimuli increase fluid flow through the tiny tubules in dentine and activate nerve endings near the pulp.[12] Desensitising products work either by plugging these tubules or by acting on the nerve; potassium nitrate is generally placed in the second group, while agents such as arginine, calcium carbonate, hydroxyapatite and strontium chloride aim to occlude tubules.[12]"
+   ]
+  },
+  {
+   "h": "Uses",
+   "subs": [
+    {
+     "h": "Dentine hypersensitivity",
+     "paras": [
+      "The main purpose of potassium toothpastes is treating dentine hypersensitivity; a survey of US practice-based network dentists found that almost all used more than one method to manage it.[4][5] Dentists describe home options such as desensitising toothpastes and mouthwashes, and in-clinic options such as resin sealants, fluoride varnish and night guards for grinding.[12]"
+     ]
+    },
+    {
+     "h": "Around tooth whitening",
+     "paras": [
+      "Whitening products commonly cause sensitivity, which is usually temporary and resolves within a few days; taking a break from the product is one approach described.[12] Wikipedia says home bleaching causes less sensitivity than in-office treatment.[3] Laboratory studies have tested toothpastes applied before 35 percent hydrogen peroxide in-office bleaching, to see whether they change whitening effectiveness and enamel properties or limit mineral loss.[6][7] In one in vitro study using enamel blocks, color changes were statistically similar across bleached groups, including a potassium nitrate toothpaste group, and toothpaste groups showed higher surface microhardness than bleaching alone.[6]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "History and products",
+   "paras": [
+    "Desensitising toothpaste as a product category dates to 1961, when Sensodyne, then made by Block Drug of Brooklyn, New York, was first marketed with a strontium chloride formula thought to block exposed dentinal tubules.[14] According to Wikipedia, a potassium nitrate version followed in 1980; its mechanism is described as potassium ions stopping the nerve from firing, which reduces pain.[14] SmithKline Beecham bought Block Drug in 2000, the business passed to GlaxoSmithKline and then, in July 2022, to the consumer-health company Haleon.[14]",
+    "Newer formulations use other approaches. Some Sensodyne products contain NovaMin (calcium sodium phosphosilicate), which a 2015 randomized trial suggested may help mineralize and occlude dentine, and Wikipedia notes that Sensodyne products sold in the US do not contain NovaMin.[14] This variety is why labels differ between markets: potassium nitrate is a nerve-acting ingredient, while strontium, arginine and bioactive-glass pastes act on the tubules.[12][14]"
+   ]
+  },
+  {
+   "h": "Mechanism",
+   "paras": [
+    "Studies have compared how different desensitising toothpastes affect dentine and how potassium nitrate in varied forms occludes dentinal tubules in vitro.[8][9] A 2017 scanning-electron-microscopy study on extracted premolars treated with citric acid found that potassium nitrate toothpaste produced more tubule occlusion than a potassium nitrate mouthwash, and twice-daily two-minute application produced more than once daily.[9] The usual explanation for the nerve effect is that potassium ions depolarize nerve fibers and block repolarization, though it is unclear whether brushing delivers enough potassium to do so.[12]"
+   ]
+  },
+  {
+   "h": "Safety",
+   "paras": [
+    "A 1985 case report described contact sensitisation to a 'sensitive teeth' toothpaste.[13] The dentine hypersensitivity literature notes there is no universally accepted gold-standard treatment for long-term relief, and that simple home treatments are generally tried before in-office procedures.[12]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A 2001 Cochrane review of potassium nitrate toothpaste for dentine hypersensitivity identified eight randomized trials of acceptable quality, four of which could be meta-analysed. The pooled result showed a statistically significant effect on air-blast and tactile sensitivity (standardized mean difference -1.51 for air blast), while subjective assessment at six to eight weeks was not significant; the reviewers concluded that strong evidence supporting efficacy was not available.[2] A 2006 Cochrane review assessed potassium-containing toothpastes more broadly.[1]",
+    "A clinical study of 30 patients compared a 5 percent potassium nitrate toothpaste with a 3 percent potassium nitrate mouthwash, both containing sodium fluoride, xylitol and triclosan; both significantly reduced sensitivity on a visual analogue scale over four weeks and did not differ from each other.[10] A 2025 real-world study examined oral-health-related quality of life with anti-sensitivity toothpaste.[11] No clinical trial has tested the toothpaste specifically for sensitivity caused by cosmetic whitening, apart from the in vitro bleaching work above.[6][7]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1961",
+   "event": "Sensodyne is first marketed as a desensitizing toothpaste with strontium chloride.[14]"
+  },
+  {
+   "year": "1980",
+   "event": "A potassium nitrate Sensodyne toothpaste is launched, per Wikipedia.[14]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Potassium containing toothpastes for dentine hypersensitivity",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16855970/",
+   "source": "Cochrane Database of Systematic Reviews",
+   "year": 2006,
+   "type": "review"
+  },
+  {
+   "id": 2,
+   "title": "Potassium nitrate toothpaste for dentine hypersensitivity",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11405992/",
+   "source": "Cochrane Database of Systematic Reviews",
+   "year": 2001,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Tooth whitening",
+   "url": "https://en.wikipedia.org/wiki/Tooth_whitening",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Management of Dentin Hypersensitivity by National Dental Practice-Based Research Network practitioners: results from a questionnaire",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28086862/",
+   "source": "BMC Oral Health",
+   "year": 2017,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Management of dentin hypersensitivity by practitioners in The National Dental Practice-Based Research Network",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28629602/",
+   "source": "JADA",
+   "year": 2017,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Effect of Toothpaste Application Prior to Dental Bleaching on Whitening Effectiveness and Enamel Properties",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26449589/",
+   "source": "Operative Dentistry",
+   "year": 2016,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Effect of Toothpaste Use Against Mineral Loss Promoted by Dental Bleaching",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29504887/",
+   "source": "Operative Dentistry",
+   "year": 2018,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Effect of desensitizing toothpastes on dentin",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23018228/",
+   "source": "Brazilian Oral Research",
+   "year": 2012,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "Dentinal Tubule Occluding Effect of Potassium Nitrate in Varied Forms, Frequencies and Duration: An In vitro SEM Analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28969264/",
+   "source": "J Clin Diagn Res",
+   "year": 2017,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Evaluation of the clinical efficacy of potassium nitrate desensitizing mouthwash and a toothpaste in the treatment of dentinal hypersensitivity",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24558521/",
+   "source": "J Clin Exp Dent",
+   "year": 2012,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "A Real-World Evidence Study Evaluating Oral-Health-Related Quality of Life Following the Use of Anti-Sensitivity Toothpaste",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40170098/",
+   "source": "J Clin Periodontol",
+   "year": 2025,
+   "type": "study"
+  },
+  {
+   "id": 12,
+   "title": "Dentin hypersensitivity (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Dentin_hypersensitivity",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 13,
+   "title": "Sensitisation to 'sensitive teeth' toothpaste",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2932291/",
+   "source": "Contact Dermatitis",
+   "year": 1985,
+   "type": "study"
+  },
+  {
+   "id": 14,
+   "title": "Sensodyne",
+   "url": "https://en.wikipedia.org/wiki/Sensodyne",
+   "source": "Wikipedia",
+   "year": 2024,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Dentin_hypersensitivity",
+   "title": "Dentin hypersensitivity (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Sensodyne",
+   "title": "Sensodyne - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "Ordinary desensitising toothpaste that whitening users reach for to calm sensitivity; studied for dentine pain, not for bleaching specifically.",
+  "aka": "Sensitive-teeth toothpaste",
+  "evidence": "limited",
+  "status": "otc",
+  "outcome": "unsupported",
+  "price": null,
+  "note": "Eases sensitivity at best; no evidence it permanently prevents whitening sensitivity.",
+  "structure": "Potassium nitrate"
+ },
+ "quick": {
+  "overview": "This is a toothpaste containing potassium nitrate, designed for dentine hypersensitivity. Whitening users sometimes use it because peroxide bleaching commonly causes tooth sensitivity.\nCochrane reviews examined potassium toothpastes for dentine hypersensitivity; no trials aimed specifically at whitening sensitivity are known.",
+  "mechanism": "In vitro work has examined whether potassium nitrate occludes dentinal tubules.",
+  "risks": "Wikipedia says such toothpastes can ease whitening sensitivity but there is no evidence of permanent prevention. It is an over-the-counter product."
+ },
+ "angle": {
+  "goal": "Teeth whitening comfort",
+  "chain": [
+   "Potassium nitrate toothpaste is brushed on regularly",
+   "Dentine sensitivity to cold, air and touch is reduced",
+   "Whitening or bleaching treatment is more comfortable and easier to complete"
+  ],
+  "effect": "indirect",
+  "text": "Whitening users and dentists use desensitising toothpaste around bleaching so that tooth sensitivity does not interrupt treatment. The appearance gain comes from being able to complete whitening, not from the paste itself changing tooth color."
+ }
 }

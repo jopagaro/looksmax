@@ -1,26 +1,281 @@
 {
-"name": "Lash lift kit",
-"lead": [
-"A lash lift kit is a set of chemical solutions and silicone pads or rods used to give natural eyelashes a semi-permanent upward curl lasting several weeks. It is offered as a salon service and as at-home kits. The chemistry resembles a hair perm: a reducing agent loosens keratin bonds, the lashes are shaped on a rod, and a neutralizer sets them.",
-"Evidence is limited to case reports and clinical commentary. An optometry report on cosmetic eye enhancements describes complaints of product reaching the eye, and case reports describe allergic and eye reactions to lash colouring. No trials of lash lifts were identified. [1][2]"
-],
-"infobox": [["Type","Chemical lash-curling kit"],["Typical price","$15-35"],["Duration","Several weeks"],["Mechanism","Reduction and neutralization of keratin bonds"],["Site note","Eye-area chemistry; irritation risk"]],
-"sections": [
-{"h":"Description","paras":["Kits typically include lifting lotion, setting lotion, adhesive, pads or rods of various sizes and removal tools. Many kits also bundle lash tinting, so tint-related allergy reports apply to some products. [2]"]},
-{"h":"How it works","paras":["A reducing agent breaks disulfide bonds in lash keratin, the lashes are moulded around a form, and a neutralizer re-forms the bonds in the curved position. The new shape persists until the lashes shed and are replaced."]},
-{"h":"Effectiveness","paras":["Practitioners and consumers describe a curled, more open look without daily curling. This has not been tested in published trials. Consumer forum threads discuss the difficulty of doing the procedure at home. [4][5]"]},
-{"h":"Safety and risks","paras":["Optometric commentary reports chemical irritation, allergic reactions and corneal injury associated with cosmetic eye procedures, and professionals quoted there warn about home use. [1] A case report describes blepharoconjunctivitis due to chloro-PPD contact allergy after eyelash colouring, and the allergen can persist until treated lashes cycle out. [2] A case report of an open-globe injury from an eyelash curler illustrates mechanical hazards of related tools. [3]","Product instructions generally stress patch testing and following timing exactly."]},
-{"h":"Use in looksmaxxing","paras":["The site rates the effect as strong but temporary and carries a note about irritation risk near the eyes. Discussion found online is mostly consumer beauty forums rather than appearance-optimization communities. [4][5]"]},
-{"h":"Clinical studies","paras":["No studies found on lash lift kits. Related reports are case reports of reactions to eyelash dye and of curler injury. [2][3]"]}
-],
-"timeline": [],
-"lore": null,
-"refs": [
-{"id":1,"title":"Clinical report: Caveats of cosmetic eye enhancements","url":"https://optometricmanagement.com/issues/2025/october/aaopt-oct-10-2/?d=report","source":"Optometric Management","year":2025,"type":"news"},
-{"id":2,"title":"Blepharoconjunctivitis after eyelash colouring (chloro-PPD contact allergy)","url":"https://www.nature.com/articles/eye200950","source":"Eye","year":2009,"type":"study"},
-{"id":3,"title":"Open globe injury caused by eyelash curlers (case report)","url":"https://link.springer.com/article/10.1007/s00417-009-1073-y","source":"Graefe's Archive","year":2009,"type":"study"},
-{"id":4,"title":"At-home lash lift kit - is it hard? (Mumsnet)","url":"https://www.mumsnet.com/talk/style_and_beauty/5040951-at-home-lash-lift-kit-is-it-hard","source":"Mumsnet","year":2024,"type":"forum"},
-{"id":5,"title":"At-home eyelash tint & lift (SheerLuxe Community)","url":"https://community.sheerluxe.com/t/at-home-eyelash-tint-lift/6441","source":"SheerLuxe Community","year":2024,"type":"forum"}
-],
-"webSources": []
+ "name": "Lash lift kit",
+ "lead": [
+  "A lash lift kit is a set of chemical solutions and silicone pads or rods used to give natural eyelashes a semi-permanent upward curl lasting several weeks. It is offered as a salon service, usually called an eyelash perm or lash lift, and as at-home kits. People use it to make existing lashes sweep upward so they look longer and the eyes look more open, without daily curling or extensions [6][4][5].",
+  "The chemistry resembles a hair perm: a solution softens the lash, the lash is moulded around a pad or rod, and a neutralizer sets the new shape [6]. Wikipedia describes the salon procedure as taking about 30 to 45 minutes, with each chemical step left on for 10 to 15 minutes and results lasting about two to three months [6]. Lashes are not lengthened by curling or perming, but they look longer because they are lifted out of the downward-pointing position [9].",
+  "Evidence on the procedure is limited to case reports and clinical commentary. An optometry report on cosmetic eye enhancements notes allergic and inflammatory reactions to lash lifts and tints that can persist until the lash cycle renews, and the FDA warns about eye injury from lash dyes and tints [1][7]. No trials of lash lifts were identified [1][2]."
+ ],
+ "angle": {
+  "goal": "Eyes",
+  "chain": [
+   "Lashes are softened, curled on a pad or rod and set",
+   "Lashes sweep upward and look longer",
+   "More open, brighter-looking eyes for several weeks"
+  ],
+  "effect": "direct",
+  "text": "People get a lash lift to make straight or downward-pointing lashes curl upward so the eyes appear more open, a look that otherwise needs a curler every day. A looksmax.org poster with long lashes said the curvature of their lashes mattered to how their eye tilt looked from the side [8]."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Chemical lash-curling kit or salon service"
+  ],
+  [
+   "Typical price",
+   "$15-35 for an at-home kit"
+  ],
+  [
+   "Salon duration",
+   "About 30-45 minutes [6]"
+  ],
+  [
+   "Results last",
+   "About 2-3 months in salon descriptions; several weeks reported for kits [6]"
+  ],
+  [
+   "Mechanism",
+   "Perm-style softening and re-setting of lash keratin [6]"
+  ],
+  [
+   "Related products",
+   "Lash tints, eyelash curlers, extensions, bimatoprost serum [9][10][11]"
+  ],
+  [
+   "Regulatory note",
+   "FDA has not approved the procedure for use around the eyes (per Wikipedia) [6]"
+  ],
+  [
+   "Site note",
+   "Eye-area chemistry; irritation risk [1][7]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Kits typically include lifting lotion, setting lotion, adhesive, pads or rods of various sizes and removal tools. Many kits also bundle lash tinting, so tint-related allergy reports apply to some products [2][1].",
+    "In the salon version, lashes are glued to a perm rod or silicone pad on the eyelid, a perm solution is applied, then a neutralizer, sometimes followed by a nourishing oil that also helps dissolve the glue so the pad can be removed. The eyelids and lashes are then cleaned of residue [6]. Silicone pads in small, medium and large sizes are now more common than traditional rods because they give a more natural curve [6]. Wikipedia notes that every US state requires the person performing it to hold a cosmetology license [6]."
+   ]
+  },
+  {
+   "h": "How it works",
+   "paras": [
+    "The perm chemicals break and reform bonds in the hair; the lash swells and softens, is moulded around the rod or pad, and then sets in the curved shape [6]. The new shape persists until the lashes shed and are replaced. Eyelashes are thought to take about seven to eight weeks to regrow after being pulled out, and the follicle count is fixed after birth [9].",
+    "Upper lashes are typically 7 to 8 mm long and lower lashes 5 to 6 mm, and curl varies widely between people and groups [9]. Curlers and perms make lashes look longer without lengthening them, which is the stated appearance payoff of a lift [9]."
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Before perms, people relied on lash curlers and mascara. A US patent for the eyelash curler, originally sold as Rodal and later renamed Kurlash, dates to April 7, 1931, and the basic spring-clamp design has changed little since the 1940s [10][6]. German hairdresser Charles Nessler developed an early hair-curling method in 1905 [6]. False lashes have their own history: Karl Nessler patented artificial eyelashes in the UK in 1902, and they became popular in the early 1930s and again in the 1960s [11].",
+    "Eyelash perming became widely available some time after 2000, and at-home kits followed, now discussed on consumer boards such as Mumsnet and SheerLuxe Community [6][4][5]. A Mumsnet thread on an at-home kit has one poster calling it fiddly but not hard and saying they repeat it every 8-10 weeks, and a friend of another poster was happy with a kit [4]."
+   ]
+  },
+  {
+   "h": "Alternatives and related practices",
+   "paras": [
+    "Lash curlers clamp the lashes for a temporary curl and can weaken the roots or cause shedding if used with force or for long periods; heated curlers give a more intense and longer-lasting curl [10]. Strip lashes and individual extensions add length and density rather than curl: extensions are bonded to natural lashes by a technician, can take up to two hours to apply and last about three to four weeks [11]. Bimatoprost (Latisse), approved by the FDA in 2009, reportedly increases upper-lash length by up to 25 percent within about 16 weeks [9]. Lash tinting darkens lashes with dye and is often sold together with lifts [1][7]."
+   ]
+  },
+  {
+   "h": "Safety and risks",
+   "paras": [
+    "Optometric commentary says lash lifts and tints can cause allergic or inflammatory reactions, that allergens remain until the lash cycle renews in roughly three months, and that reactions can mimic ocular surface disease; it suggests patch testing and early management with cleaning and topical steroids in persistent cases [1]. Wikipedia lists stinging around the eyes and possible damage to the lashes as side effects [6]. A case report describes blepharoconjunctivitis due to chloro-PPD contact allergy after eyelash colouring [2], and a case report describes an open-globe injury from an eyelash curler, illustrating mechanical hazards of related tools [3].",
+    "The US FDA warns that permanent eyelash and eyebrow tints and dyes can cause serious eye injuries, including blindness, and allows silver nitrate as a lash colour additive only in professional-use products [7]. The same FDA page advises stopping any product that irritates the eyes, and says misused eye cosmetics can grow bacteria or fungi and cause infection [7]. The FDA has not approved the perm procedure for use around the eyes, according to Wikipedia [6]. Product instructions generally stress patch testing and following the timing exactly."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found on lash lift kits. Related reports are case reports of reactions to eyelash dye and of curler injury [2][3]."
+   ]
+  },
+  {
+   "h": "In looksmaxxing culture",
+   "paras": [
+    "Discussion is mostly on consumer beauty forums, with a smaller number of looksmax.org threads about lash curvature and eye-area appearance [4][5][8]. One looksmax.org poster with naturally long lashes wrote that people rarely notice them until seen from the side and that the poor curvature made their eyes look neutrally tilted; the thread asks how to improve curvature and whether anything lasts longer than a curler [8]."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1905",
+   "event": "Charles Nessler develops an early hair-curling method that later informs perm technology.[6]"
+  },
+  {
+   "year": "1931",
+   "event": "The eyelash curler is patented in the US, first sold as Rodal and later as Kurlash.[10]"
+  },
+  {
+   "year": "2000s",
+   "event": "Eyelash perming becomes widely available in salons, followed by at-home kits.[6]"
+  },
+  {
+   "year": "2009",
+   "event": "The FDA approves bimatoprost (Latisse) for longer lashes; case reports on eyelash colouring allergy and curler injury are published.[9][2][3]"
+  },
+  {
+   "year": "2024",
+   "event": "Consumer forums and a looksmax.org thread discuss at-home lash lifts and lash curvature.[4][5][8]"
+  },
+  {
+   "year": "2025",
+   "event": "An optometry report describes complications of cosmetic eye enhancements including lash lifts and tints.[1]"
+  }
+ ],
+ "lore": {
+  "intro": "Lash lifts are discussed mainly on consumer beauty boards as a low-maintenance alternative to curlers, and occasionally on looksmax.org as a way to change how the eyes look from the side [4][5][8].",
+  "claims": [
+   {
+    "claim": "A lash lift makes the eyes look more open and brighter.",
+    "believers": "Consumers say the curl removes the need for daily curling, and a looksmax.org poster says lash curvature affects the appearance of eye tilt [4][8].",
+    "experts": "Wikipedia describes the result as an upward curl lasting two to three months; no published trials measure perceived eye openness [6][1].",
+    "evidence": "untested"
+   },
+   {
+    "claim": "An at-home kit is easy to do yourself.",
+    "believers": "A Mumsnet poster calls it fiddly but not hard if you do not rush [4].",
+    "experts": "Optometric commentary and the FDA caution about irritation, allergy and product reaching the eye, and Wikipedia says the salon procedure requires a licensed cosmetologist in every US state [1][7][6].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "The result lasts for weeks to months.",
+    "believers": "Forum users report repeating lifts every 8-10 weeks [4].",
+    "experts": "Wikipedia gives a duration of about two to three months, and the shape lasts until lashes shed [6].",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Lash lifts are gentler than extensions or heavy curling.",
+    "believers": "Users describe lifts as a way to avoid daily curling and extensions [4][5].",
+    "experts": "Reports describe allergic reactions to lifts and tints persisting until the lash cycle renews, and mechanical injuries from curlers; no trials compare the options [1][3][10].",
+    "evidence": "untested"
+   },
+   {
+    "claim": "A lash lift is safe because it is the same chemistry as a hair perm.",
+    "believers": "Posts describe the kit as a perm for lashes [4].",
+    "experts": "The FDA has not approved the perm procedure for use around the eyes, and notes that dyes and tints have caused serious eye injury [6][7].",
+    "evidence": "harms"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Clinical report: Caveats of cosmetic eye enhancements",
+   "url": "https://optometricmanagement.com/issues/2025/october/aaopt-oct-10-2/?d=report",
+   "source": "Optometric Management",
+   "year": 2025,
+   "type": "news"
+  },
+  {
+   "id": 2,
+   "title": "Blepharoconjunctivitis after eyelash colouring (chloro-PPD contact allergy)",
+   "url": "https://www.nature.com/articles/eye200950",
+   "source": "Eye",
+   "year": 2009,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Open globe injury caused by eyelash curlers (case report)",
+   "url": "https://link.springer.com/article/10.1007/s00417-009-1073-y",
+   "source": "Graefe's Archive for Clinical and Experimental Ophthalmology",
+   "year": 2009,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "At-home lash lift kit - is it hard? (Mumsnet)",
+   "url": "https://www.mumsnet.com/talk/style_and_beauty/5040951-at-home-lash-lift-kit-is-it-hard",
+   "source": "Mumsnet",
+   "year": 2024,
+   "type": "forum"
+  },
+  {
+   "id": 5,
+   "title": "At-home eyelash tint & lift (SheerLuxe Community)",
+   "url": "https://community.sheerluxe.com/t/at-home-eyelash-tint-lift/6441",
+   "source": "SheerLuxe Community",
+   "year": 2024,
+   "type": "forum"
+  },
+  {
+   "id": 6,
+   "title": "Eyelash perm",
+   "url": "https://en.wikipedia.org/wiki/Eyelash_perm",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 7,
+   "title": "Eye Cosmetic Safety",
+   "url": "https://www.fda.gov/cosmetics/cosmetic-products/eye-cosmetic-safety",
+   "source": "US FDA",
+   "year": 2025,
+   "type": "guideline"
+  },
+  {
+   "id": 8,
+   "title": "How can I get a better lash lift / curvature naturally?",
+   "url": "https://looksmax.org/threads/how-can-i-get-a-better-lash-lift-curvature-naturally.1505075/",
+   "source": "looksmax.org",
+   "year": 2024,
+   "type": "forum"
+  },
+  {
+   "id": 9,
+   "title": "Eyelash",
+   "url": "https://en.wikipedia.org/wiki/Eyelash",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 10,
+   "title": "Eyelash curler",
+   "url": "https://en.wikipedia.org/wiki/Eyelash_curler",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 11,
+   "title": "Eyelash extensions",
+   "url": "https://en.wikipedia.org/wiki/Eyelash_extensions",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Eyelash_perm",
+   "title": "Eyelash perm - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Eyelash",
+   "title": "Eyelash - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Eyelash_curler",
+   "title": "Eyelash curler - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Eyelash_extensions",
+   "title": "Eyelash extensions - Wikipedia"
+  },
+  {
+   "url": "https://www.fda.gov/cosmetics/cosmetic-products/eye-cosmetic-safety",
+   "title": "Eye Cosmetic Safety - FDA"
+  },
+  {
+   "url": "https://optometricmanagement.com/issues/2025/october/aaopt-oct-10-2/?d=report",
+   "title": "Caveats of cosmetic eye enhancements - Optometric Management"
+  },
+  {
+   "url": "https://www.mumsnet.com/talk/style_and_beauty/5040951-at-home-lash-lift-kit-is-it-hard",
+   "title": "At-home lash lift kit - Mumsnet"
+  }
+ ]
 }

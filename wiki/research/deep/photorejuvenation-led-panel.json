@@ -10,9 +10,9 @@
   "structure": null
  },
  "quick": {
-  "overview": "A photorejuvenation LED panel is a home light array, typically red and near-infrared, used on the face for skin appearance.\n\nSupporters cite studies of LED therapy in dermatology. The summary available for this entry gives no effect sizes and does not compare home panels with clinical devices.",
+  "overview": "A photorejuvenation LED panel is a home light array, typically red and near-infrared, used on the face for skin appearance.\nSupporters cite studies of LED therapy in dermatology. The summary available for this entry gives no effect sizes and does not compare home panels with clinical devices.",
   "mechanism": "The proposed mechanism is photobiomodulation: light absorbed by mitochondrial cytochrome c oxidase, thought to increase ATP production and nitric oxide release. This pathway is described as suggested rather than settled.",
-  "risks": "Photobiomodulation is generally described as safe, with infrequent transient itching, red spots or mild allergic reactions. Regulatory status of consumer panels was not established in the sources reviewed."
+  "risks": "Photobiomodulation is generally described as safe, with infrequent transient itching, red spots or mild allergic reactions."
  },
  "lead": [
   "A photorejuvenation LED panel is a flat array of light-emitting diodes, usually emitting red and near-infrared light, that users hold or mount near the face or body at home. People use them for smoother-looking skin, fewer fine lines, calmer breakouts and, in some cases, thicker-looking hair, as a hands-off alternative to in-clinic light treatments [1].",
@@ -62,7 +62,14 @@
    "h": "Clinical studies",
    "paras": [
     "Wikipedia summarises clinical work on LED therapy in dermatology, including red-light collagen enhancement, red and blue light for acne, photodynamic LED therapy for rosacea and actinic keratosis, and red light at 655 nm in androgenetic alopecia [1]. The article notes that it relies heavily on primary sources, that some citations appear mismatched, and that wavelength ranges are inconsistent [1].",
-    "A 2015 review of LEDs covered the literature from 1996 to 2010 and reported the authors' experience treating 21 patients with a yellow LED device for acne, rosacea, photoaging and hair-loss conditions, with results that varied by condition and device parameters [2]. A 2024 narrative review in the International Journal of Molecular Sciences covered six years of dermatology studies of photobiomodulation, LED therapy and low-level laser therapy [3]. No studies specific to consumer panels are cited here."
+    "A 2015 review of LEDs covered the literature from 1996 to 2010 and reported the authors' experience treating 21 patients with a yellow LED device for acne, rosacea, photoaging and hair-loss conditions, with results that varied by condition and device parameters [2]. A 2024 narrative review in the International Journal of Molecular Sciences covered six years of dermatology studies of photobiomodulation, LED therapy and low-level laser therapy [3]. No studies specific to consumer panels are cited here.",
+    "A prospective randomised controlled study by Wunsch and Matuschka, published in Photomedicine and Laser Surgery in 2014, tested two polychromatic red and near-infrared light sources designed for large-area use. It enrolled 136 volunteers, of whom 113 were randomised into four treatment groups and 23 served as controls. Light spectra of 611-650 nm and 570-850 nm were used in two sessions per week for 30 sessions. Outcomes included blinded clinical photography, ultrasound measurement of collagen density, digital profilometry of skin roughness and patient satisfaction. Treated groups showed better complexion and skin feel, smoother skin and higher intradermal collagen density than controls, and the authors reported that the broader spectrum offered no advantage over red light alone and that both sources were safe and effective for rejuvenation compared with controls [5]. The devices in that trial were purpose-built treatment units, not consumer panels."
+   ]
+  },
+  {
+   "h": "Use at home",
+   "paras": [
+    "At-home panels are used in short sessions, typically several times a week, held at a set distance from the face; the Wunsch and Matuschka trial's schedule of two sessions a week for 30 sessions is an example of how a rejuvenation course is structured in published work [5]. Wikipedia lists masks, panels, handhelds and belts among common LED therapy formats [1]. Users and brands focus on fine lines, skin roughness, tone and complexion as the visible outcomes, the same endpoints measured in the controlled trial [5]."
    ]
   },
   {
@@ -82,6 +89,10 @@
   {
    "year": "2009",
    "event": "FDA clearance of laser-based hair-loss devices at 635 nm and 655 nm, per Wikipedia [1]."
+  },
+  {
+   "year": "2014",
+   "event": "Randomised controlled trial of red and near-infrared light reports improved complexion, smoothness and collagen density versus controls.[5]"
   }
  ],
  "lore": null,
@@ -117,6 +128,14 @@
    "source": "Journal of Clinical Medicine",
    "year": 2020,
    "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "A controlled trial to determine the efficacy of red and near-infrared light treatment in patient satisfaction, reduction of fine lines, wrinkles, skin roughness, and intradermal collagen density increase",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:24286286%20AND%20SRC:MED&format=json&resultType=core",
+   "source": "Photomed Laser Surg",
+   "year": 2014,
+   "type": "trial"
   }
  ],
  "webSources": [
@@ -135,6 +154,10 @@
   {
    "url": "https://pubmed.ncbi.nlm.nih.gov/32503238/",
    "title": "Photobiomodulation-Underlying Mechanism and Clinical Applications"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:24286286%20AND%20SRC:MED&format=json&resultType=core",
+   "title": "Wunsch & Matuschka 2014 (Europe PMC record)"
   }
  ]
 }

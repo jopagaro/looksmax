@@ -1,32 +1,415 @@
 {
-"name":"Juvederm Volux",
-"lead":[
-"Juvéderm Volux (VYC-25L; Volux XC in the US) is a cross-linked hyaluronic acid (HA) filler from Allergan, made with Vycross technology and positioned as a firm gel for the chin and jawline. [1][2] A 2020 study describes it as designed to restore and create facial volume, and expert consensus authors describe it as a first-in-class Vycross filler for chin and lower-third remodelling. [1][2]",
-"Published trials in chin retrusion, including a randomized study with 18-month follow-up and a study in Chinese adults, report effectiveness for chin enhancement. [1][3] A US trial registered for jawline definition enrolled 206 participants. [4] In looksmaxxing forums it is discussed as a jawline and chin option."
-],
-"infobox":[["Type","Cross-linked hyaluronic acid filler (VYC-25L)"],["Manufacturer","Allergan (AbbVie)"],["Technology","Vycross"],["Target areas","Chin, jawline"],["Reversibility","HA; hyaluronidase can dissolve HA fillers"]],
-"sections":[
-{"h":"Description and uses","paras":["Volux is marketed for chin retrusion and jawline definition. An expert consensus report was published to guide clinicians new to the product on technique and to standardize procedures. [2] Reports also describe its use for chin reinforcement alongside the related VYC-20L gel. [5]"]},
-{"h":"Safety","paras":["A case report describes recalcitrant sterile abscesses after Volux treatment and a therapeutic approach to them. [6] Laboratory work has tested how many commercial HA fillers, among them various products, respond to recombinant hyaluronidase. [7][8]"]},
-{"h":"Clinical studies","paras":["A prospective, single-blind, controlled study randomized subjects with chin retrusion 3:1 to immediate or delayed Volux treatment and evaluated safety and effectiveness over 18 months and after repeat treatment. [1] A study in Chinese adults reported Volux enhanced the chin and jawline by correcting retrusion. [3]","Registered trials include a Chinese phase 3 chin trial (n=150), a US jawline phase 3 trial (n=206) and a comparison with Restylane Shaype for chin augmentation (n=40). [4][9][10]"]}
-],
-"timeline":[],
-"lore":{"intro":"On looksmax.org, Volux appears in threads about jawline fillers, where users share experiences of chin treatment.","claims":[
-{"claim":"Volux gives results similar to Voluma for the chin but with more discomfort","believers":"One looksmax.org poster reported using it on the chin, said the results were no different from Voluma, and described it as more painful with about two weeks of soreness. [11]","experts":"No published head-to-head study of the two products was found; the published trials evaluate Volux on its own for chin and jawline. [1][3]","evidence":"untested"}]},
-"refs":[
-{"id":1,"title":"VYC-25L Hyaluronic Acid Injectable Gel Is Safe and Effective for Long-Term Restoration and Creation of Volume of the Lower Face","url":"https://pubmed.ncbi.nlm.nih.gov/31960896/","source":"Aesthet Surg J","year":2020,"type":"trial"},
-{"id":2,"title":"An expert consensus report on the clinical use of the Vycross hyaluronic acid VYC-25 L filler","url":"https://pubmed.ncbi.nlm.nih.gov/34460984/","source":"J Cosmet Dermatol","year":2021,"type":"guideline"},
-{"id":3,"title":"VYC-25L Is Safe and Effective for Enhancing the Chin and Jawline by Correcting Chin Retrusion in Chinese Adults","url":"https://pubmed.ncbi.nlm.nih.gov/40246546/","source":"Aesthet Surg J","year":2025,"type":"trial"},
-{"id":4,"title":"JUVÉDERM VOLUX XC for Restoring Jawline Definition (NCT03712137)","url":"https://clinicaltrials.gov/study/NCT03712137","source":"ClinicalTrials.gov","year":2018,"type":"trial"},
-{"id":5,"title":"Chin reinforcement using the hyaluronic acid injectable filler VYC-20L and VYC-25L","url":"https://pubmed.ncbi.nlm.nih.gov/38500251/","source":"J Cosmet Dermatol","year":2024,"type":"study"},
-{"id":6,"title":"Recalcitrant Sterile Abscesses by Volux: A New Therapeutic Approach","url":"https://pubmed.ncbi.nlm.nih.gov/36987823/","source":"Skinmed","year":2023,"type":"study"},
-{"id":7,"title":"Response of 21 Hyaluronic Acid Fillers to Recombinant Human Hyaluronidase","url":"https://pubmed.ncbi.nlm.nih.gov/38145149/","source":"Plast Reconstr Surg Glob Open","year":2023,"type":"study"},
-{"id":8,"title":"Identifying Minimum Single Dose of Recombinant Human Hyaluronidase for In Vitro Dissolution of Twenty-Two Hyaluronic Acid Fillers","url":"https://pubmed.ncbi.nlm.nih.gov/40261260/","source":"Ophthalmic Plast Reconstr Surg","year":2025,"type":"study"},
-{"id":9,"title":"JUVÉDERM VOLUX for Chin Retrusion in China (NCT04559984)","url":"https://clinicaltrials.gov/study/NCT04559984","source":"ClinicalTrials.gov","year":2020,"type":"trial"},
-{"id":10,"title":"Restylane Shaype Versus Juvederm Volux for Chin Augmentation (NCT06336772)","url":"https://clinicaltrials.gov/study/NCT06336772","source":"ClinicalTrials.gov","year":2023,"type":"trial"},
-{"id":11,"title":"Juvederm Volux filler (thread)","url":"https://looksmax.org/threads/juvederm-volux-filler.600847/","source":"looksmax.org","year":null,"type":"forum"}
-],
-"webSources":[],
-"card":{"summary":"Allergan's firm HA gel for chin and jawline, with published trials and little community data beyond anecdotes.","aka":"VYC-25L, Volux XC","evidence":"moderate","status":"rx","note":"Prescription medical device; one case report describes sterile abscesses.","structure":null},
-"quick":{"overview":"Volux is a firm hyaluronic acid filler intended to build chin projection and jawline definition.\n\nA controlled study followed chin treatment for 18 months and a trial in Chinese adults reported chin improvement. Forum posts are limited to individual accounts.","mechanism":"A cross-linked HA gel (Vycross) is injected near the chin or jaw to add volume and shape, then gradually degrades.","risks":"Reported risks include soreness and, in case reports, sterile abscesses. Like other HA fillers it can be dissolved with hyaluronidase. It is administered by licensed clinicians."}
+ "name": "Juvederm Volux",
+ "lead": [
+  "Juvéderm Volux (VYC-25L; Volux XC in the US, with lidocaine) is a cross-linked hyaluronic acid (HA) filler from Allergan, an AbbVie company, made with Vycross technology and positioned as a firm gel for the chin and jawline. [1][2] Injected into the chin, along the jaw angle or along the jawline by a licensed clinician, it adds volume and projection in the lower third of the face, which is how people use it to build a stronger profile and a more defined jaw without surgery. [2][5]",
+  "The product has an unusually large published trial record for a cosmetic filler. Randomized studies in chin retrusion and in jawline definition, run in the United States and China, report effectiveness for both areas, and a 2026 meta-analysis pooled the jawline studies. [1][3][12][14][16] An expert consensus group describes it as a first-in-class Vycross filler for chin and lower-third remodelling. [2] In looksmaxxing forums it is discussed as a newer jawline and chin option and compared with Allergan's Voluma. [11]",
+  "Like other HA fillers it is temporary and can be dissolved with hyaluronidase, which is part of why it is discussed as a lower-commitment alternative to chin implants or surgery. [7][8][18] Results are measured in studies by the change in the glabella-subnasale-pogonion facial angle and by validated scales, so the product's effect on profile has been quantified in degrees rather than described only subjectively. [3][12]"
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Cross-linked hyaluronic acid filler (VYC-25L), regulated as a medical device [1]"
+  ],
+  [
+   "Manufacturer",
+   "Allergan Aesthetics, an AbbVie company [4][19]"
+  ],
+  [
+   "Technology",
+   "Vycross cross-linking [2]"
+  ],
+  [
+   "US name",
+   "Juvéderm Volux XC (contains lidocaine) [4]"
+  ],
+  [
+   "Target areas",
+   "Chin projection, jawline definition, lower third of the face [2]"
+  ],
+  [
+   "Typical duration",
+   "Months to roughly 1-2 years in trials; narrowing of effect seen by month 18 [1][12]"
+  ],
+  [
+   "Reversibility",
+   "Hyaluronidase can dissolve HA fillers [7][8]"
+  ],
+  [
+   "Administration",
+   "Injected by licensed clinicians [2][19]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description and uses",
+   "paras": [
+    "Volux is marketed for chin retrusion and jawline definition. The chin is described in the aesthetic literature as an essential element of the facial unit that influences how attractive a face is perceived to be, and filler is used to move it forward and give the lower face more structure. [5] An expert consensus report from a multidisciplinary group of aesthetic physicians in Spain and Portugal was published to guide clinicians new to the product on patient profile, technique and complications, and to standardize procedures. [2]",
+    "The consensus panel identified five patient profiles who may benefit from VYC-25L: microgenia (a small chin) in women and men, masculinization in men, rejuvenation, facial laxity, and submental convexity. [2] In plain terms, the product is used to build chin projection, to give men a squarer lower face, and to restore contour lost with age.",
+    "Reports also describe chin reinforcement with the related VYC-20L gel (Juvéderm Voluma) alongside Volux, with the choice of gel and injection plane differing between deep and superficial chin placement. [5] A published case report and flowchart describe how one clinical team decided on Volux for chin augmentation. [20] Studies of younger adults have used a grid-system approach to plan and measure chin and jawline redefinition with an HA filler. [17]"
+   ]
+  },
+  {
+   "h": "Background: hyaluronic acid fillers and Juvéderm",
+   "paras": [
+    "Hyaluronic acid was first isolated in 1934 by Karl Meyer and John Palmer from the vitreous of a cow's eye, and in 1996 it was first used for facial augmentation in Europe. [18][21] Native HA breaks down quickly in tissue, so manufacturers add cross-links; cross-linking makes the gel last longer than natural HA, and fillers of this type are absorbed over months, so repeat injections maintain the result. [18][21] Most HA fillers are cross-linked with BDDE. [22]",
+    "The Juvéderm range originated with Corneal Group Laboratoires in France. Allergan acquired Inamed in 2005, which held the licence for the Juvéderm products, and gained the rights to them in 2006. [23] AbbVie announced its agreement to acquire Allergan in June 2019 and completed the deal on 8 May 2020. [23]",
+    "Vycross is Allergan's cross-linking technology, and VYC-25L is the firmest gel in the range intended for structural areas such as the chin and jaw. [2] It was described in the consensus literature as the latest innovation in the Vycross range. [2] A 2026 laboratory comparison tested Volux against a competing Chinese HA filler (MaiLi Extreme) for microstructural, rheological and mechanical properties. [24]"
+   ]
+  },
+  {
+   "h": "Treatment as discussed in the literature",
+   "paras": [
+    "Published reports describe the procedure in general terms: gel is placed in the chin or along the jaw to add volume and change the profile angle, with the plane (deep or superficial) chosen by the clinician, and some studies allow an optional touch-up a few weeks after the first session. [3][4][5] The Chinese phase 3 trial, for example, allowed a touch-up four weeks after treatment. [3]",
+    "The long-term chin study followed participants for 18 months and then examined a repeat treatment given between months 18 and 24, illustrating the maintenance pattern that applies to resorbable fillers. [1] Technique choices such as depth, needle versus cannula and volume are made by the treating clinician, and the consensus report addresses them for professionals. [2]"
+   ]
+  },
+  {
+   "h": "Safety",
+   "paras": [
+    "In trials the common injection-site responses were firmness, tenderness and swelling. In the US chin and jaw study these were reported by roughly 90% or more of treated subjects (firmness and tenderness 95.8%, swelling 91.6%), and no serious treatment-related adverse events were reported. [12] A 2026 meta-analysis of two randomized trials and three cohort studies reported swelling, lumps or bumps, post-injection pain and tenderness as the most frequent events. [16]",
+    "A case series describes five patients with recalcitrant sterile abscesses after Volux treatment who did not respond to conventional therapy and were treated with a lavage protocol; the authors note that sterile abscesses after HA filler procedures have increased for unknown reasons. [6] The consensus report includes a section on complications and their management. [2]",
+    "Across the filler category, reviews describe bruising, redness, pain and itching as common, and infection, allergic reactions and lumps as less common; the most serious complication is vascular, in which filler entering a blood vessel can cause skin necrosis or, through retrograde embolization to the eye's arteries, permanent blindness. [22] Hyaluronic acid products are the ones that can be dissolved with hyaluronidase, and laboratory work has tested how many commercial HA fillers respond to recombinant hyaluronidase. [7][8][21]"
+   ]
+  },
+  {
+   "h": "Legal and regulatory status",
+   "paras": [
+    "In the United States the FDA approves dermal fillers as medical devices, and a provider prescribes and performs the injection; only a small number of fillers hold approval. [22] In the UK and EEA fillers are non-prescription medical devices that licensed practitioners inject and that need a CE mark, which covers production standards. [22] In China the NMPA has issued guidance on injectable fillers, and the Chinese phase 3 trial of VYC-25L was conducted to support use there. [3][22]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Chin, United States (pivotal): adults with chin retrusion (facial angle 145 to 165 degrees) were randomized 3:1 to treatment at the start or after three months; 119 received treatment. The mean facial-angle change at month 3 was 2.51 degrees greater in the treatment group, Global Aesthetic Improvement Scale (GAIS) and FACE-Q results favoured treatment, and benefit remained evident at month 12. [12]",
+    "Chin, long-term: a prospective, single-blind controlled study followed 132 enrolled subjects (119 treated) for 18 months and after a repeat treatment given between months 18 and 24, in which 89 participants were retreated. Facial-angle gains had narrowed to about 1.15 degrees at month 18 and rose to about 3.14 degrees one month after retreatment. [1]",
+    "Chin, China: in a phase 3 trial (NCT04559984) of 97 treated and 51 untreated Chinese adults with a mean age of 31.2 years, the facial angle changed by 2.97 degrees with VYC-25L versus 0.09 degrees in controls at week 24. [3][9]",
+    "Jawline, United States: in an evaluator-blinded study (NCT03712137) in adults with moderate or severe loss of jawline definition, 69.0% of 157 treated participants versus 38.0% of 49 controls were responders at month 6; the control group could be treated afterward and follow-up ran to 12 months. [4][14] A follow-up analysis examined patient-reported outcomes, objective jawline measurements and results by skin phototype, gender and age. [15]",
+    "Meta-analysis: a 2026 systematic review and meta-analysis of two randomized trials and three cohort studies reported a pooled jawline responder rate of 71% on the Allergan Loss of Jawline Definition Scale. [16]",
+    "Other registrations include a real-world study in Chinese adults and a 2023 comparison with Restylane Shaype for chin augmentation (n=40). [10][13]"
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing communities",
+   "paras": [
+    "On looksmax.org the product appears in a thread describing it as the newest jawline filler on the market, in which one member asked whether others had used it. [11] The jawline and chin are central features in facial-aesthetics discussion, and fillers are treated as a non-surgical option for the area compared with implants, which is why the HA product's reversibility draws attention. [11][18]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1934",
+   "event": "Karl Meyer and John Palmer isolate hyaluronic acid. [21]"
+  },
+  {
+   "year": "1996",
+   "event": "First use of HA for facial augmentation in Europe. [18]"
+  },
+  {
+   "year": "2005-2006",
+   "event": "Allergan acquires Inamed and gains rights to the Juvéderm products. [23]"
+  },
+  {
+   "year": "2018",
+   "event": "US jawline definition phase 3 trial begins (NCT03712137). [4]"
+  },
+  {
+   "year": "2019",
+   "event": "US chin and jaw randomized study published. [12]"
+  },
+  {
+   "year": "2020",
+   "event": "AbbVie completes Allergan acquisition (May); Chinese phase 3 chin trial starts; 18-month chin study published. [1][9][23]"
+  },
+  {
+   "year": "2021",
+   "event": "Expert consensus report on VYC-25L published. [2]"
+  },
+  {
+   "year": "2023",
+   "event": "Restylane Shaype versus Volux chin comparison registered; sterile abscess case series published. [6][10]"
+  },
+  {
+   "year": "2024",
+   "event": "US jawline randomized study results published. [14]"
+  },
+  {
+   "year": "2025",
+   "event": "Chinese chin-retrusion trial published. [3]"
+  },
+  {
+   "year": "2026",
+   "event": "Meta-analysis of VYC-25L jawline studies published. [16]"
+  }
+ ],
+ "lore": {
+  "intro": "On looksmax.org, Volux appears in threads about jawline fillers, where members share experiences of chin treatment and compare it with Voluma. [11]",
+  "claims": [
+   {
+    "claim": "Volux gives results similar to Voluma for the chin but with more discomfort",
+    "believers": "One looksmax.org member reported using it on the chin, said the results were no different from Voluma, and described it as more painful with about two weeks of soreness. [11]",
+    "experts": "No published head-to-head study of the two products was found; the published trials evaluate Volux on its own for chin and jawline. [1][3]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Volux is the newest jawline filler available",
+    "believers": "A looksmax.org thread opens by describing it as the newest jawline filler on the market and asks who has tried it. [11]",
+    "experts": "Allergan's trial programme for jawline definition began in 2018, and the consensus literature calls VYC-25L the latest innovation in the Vycross range. [2][4]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Filler can reshape the jaw and chin without surgery",
+    "believers": "Forum discussion treats HA filler as a non-surgical way to add chin projection and jaw definition. [11]",
+    "experts": "Randomized trials report a facial-angle change of about 2.5 to 3 degrees at three to six months and higher jawline responder rates than controls. [3][12][14]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Results are reversible",
+    "believers": "Users value HA as a lower-commitment option because it can be dissolved. [11]",
+    "experts": "Hyaluronidase dissolves HA fillers in laboratory testing, and reviews describe it as the enzyme used to manage HA filler complications. [7][8]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Firm HA gel is more painful and leaves longer soreness",
+    "believers": "One member described injection-site soreness lasting about two weeks. [11]",
+    "experts": "In the US trial, firmness, tenderness and swelling were reported by roughly 90% or more of treated subjects. [12]",
+    "evidence": "supported"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "VYC-25L Hyaluronic Acid Injectable Gel Is Safe and Effective for Long-Term Restoration and Creation of Volume of the Lower Face",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31960896/",
+   "source": "Aesthet Surg J",
+   "year": 2020,
+   "type": "trial"
+  },
+  {
+   "id": 2,
+   "title": "An expert consensus report on the clinical use of the Vycross hyaluronic acid VYC-25 L filler",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34460984/",
+   "source": "J Cosmet Dermatol",
+   "year": 2021,
+   "type": "guideline"
+  },
+  {
+   "id": 3,
+   "title": "VYC-25L Is Safe and Effective for Enhancing the Chin and Jawline by Correcting Chin Retrusion in Chinese Adults",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40246546/",
+   "source": "Aesthet Surg J",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "JUVÉDERM VOLUX XC for Restoring Jawline Definition (NCT03712137)",
+   "url": "https://clinicaltrials.gov/study/NCT03712137",
+   "source": "ClinicalTrials.gov",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "Chin reinforcement using the hyaluronic acid injectable filler VYC-20L and VYC-25L",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38500251/",
+   "source": "J Cosmet Dermatol",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Recalcitrant Sterile Abscesses by Volux: A New Therapeutic Approach",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36987823/",
+   "source": "Skinmed",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Response of 21 Hyaluronic Acid Fillers to Recombinant Human Hyaluronidase",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38145149/",
+   "source": "Plast Reconstr Surg Glob Open",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Identifying Minimum Single Dose of Recombinant Human Hyaluronidase for In Vitro Dissolution of Twenty-Two Hyaluronic Acid Fillers",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40261260/",
+   "source": "Ophthalmic Plast Reconstr Surg",
+   "year": 2025,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "JUVÉDERM VOLUX for Chin Retrusion in China (NCT04559984)",
+   "url": "https://clinicaltrials.gov/study/NCT04559984",
+   "source": "ClinicalTrials.gov",
+   "year": 2020,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Restylane Shaype Versus Juvederm Volux for Chin Augmentation (NCT06336772)",
+   "url": "https://clinicaltrials.gov/study/NCT06336772",
+   "source": "ClinicalTrials.gov",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Juvederm Volux filler (thread)",
+   "url": "https://looksmax.org/threads/juvederm-volux-filler.600847/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 12,
+   "title": "Safe, Effective Chin and Jaw Restoration With VYC-25L Hyaluronic Acid Injectable Gel",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31135570/",
+   "source": "Dermatologic Surgery",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "A Study of JUVÉDERM VOLUX Injectable Gel for Chin Enhancement in Chinese Adults Using Real-World Evidence (NCT04687046)",
+   "url": "https://clinicaltrials.gov/study/NCT04687046",
+   "source": "ClinicalTrials.gov",
+   "year": 2021,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "Safe and Effective Restoration of Jawline Definition With Hyaluronic Acid Injectable Gel VYC-25L: Results From a Randomized Controlled Study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38985546/",
+   "source": "Aesthet Surg J",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 15,
+   "title": "Hyaluronic Acid Filler VYC-25L for Jawline Restoration Yields High Satisfaction, Improved Jawline Measurements, and Sustained Effectiveness Across Skin Types, Age, and Gender for up to 12 Months",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39141784/",
+   "source": "Aesthet Surg J",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 16,
+   "title": "Safe and effective restoration of jawline definition with hyaluronic acid injectable gel: a systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42241633/",
+   "source": "Acta Dermatovenerol Alp Pannonica Adriat",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 17,
+   "title": "Nonsurgical Redefinition of the Chin and Jawline of Younger Adults With a Hyaluronic Acid Filler: Results Evaluated With a Grid System Approach",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32593169/",
+   "source": "Aesthet Surg J",
+   "year": 2021,
+   "type": "study"
+  },
+  {
+   "id": 18,
+   "title": "Juvéderm",
+   "url": "https://en.wikipedia.org/wiki/Juvéderm",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 19,
+   "title": "Juvéderm (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Juvéderm",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 20,
+   "title": "Choosing Juvéderm Volux to chin augmentation: Case report and flowchart for clinical evaluation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38154232/",
+   "source": "Int J Surg Case Rep",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 21,
+   "title": "Hyaluronic acid",
+   "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 22,
+   "title": "Dermal filler",
+   "url": "https://en.wikipedia.org/wiki/Dermal_filler",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 23,
+   "title": "Allergan",
+   "url": "https://en.wikipedia.org/wiki/Allergan",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 24,
+   "title": "Comparative analysis of hyaluronic acid fillers: Juvéderm Volux versus MaiLi Extreme in microstructural, rheological and mechanical properties",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42326043/",
+   "source": "JPRAS open",
+   "year": 2026,
+   "type": "study"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Juvéderm",
+   "title": "Juvéderm - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid",
+   "title": "Hyaluronic acid - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Dermal_filler",
+   "title": "Dermal filler - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Allergan",
+   "title": "Allergan - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "Allergan's firm HA gel for chin and jawline, with published trials and little community data beyond anecdotes.",
+  "aka": "VYC-25L, Volux XC",
+  "evidence": "moderate",
+  "status": "rx",
+  "note": "Prescription medical device; one case report describes sterile abscesses.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Volux is a firm hyaluronic acid filler intended to build chin projection and jawline definition.\n\nA controlled study followed chin treatment for 18 months and a trial in Chinese adults reported chin improvement. Forum posts are limited to individual accounts.",
+  "mechanism": "A cross-linked HA gel (Vycross) is injected near the chin or jaw to add volume and shape, then gradually degrades.",
+  "risks": "Reported risks include soreness and, in case reports, sterile abscesses. Like other HA fillers it can be dissolved with hyaluronidase. It is administered by licensed clinicians."
+ },
+ "angle": {
+  "goal": "Jawline and chin",
+  "chain": [
+   "Firm HA gel is injected at the chin or jawline",
+   "Adds projection and definition to the lower third",
+   "Larger facial-angle change and sharper jaw contour",
+   "Gradual absorption means the effect is temporary and can be topped up"
+  ],
+  "effect": "direct",
+  "text": "Volux is placed to push the chin forward and to sharpen the jaw edge. In a Chinese phase 3 trial the chin angle (glabella-subnasale-pogonion) rose by about 3 degrees at week 24 versus about 0.1 degrees in untreated controls, and in a US jawline trial 69% of treated participants versus 38% of controls were responders at month 6. [3][14]"
+ }
 }

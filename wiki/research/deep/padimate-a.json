@@ -1,9 +1,34 @@
 {
   "name": "Padimate A",
+  "card": {
+    "summary": "Obscure PABA-ester sunscreen filter, withdrawn in Europe in 1989 and never US-approved; essentially no modern research on it.",
+    "aka": "Isoamyl dimethyl PABA, Escalol 506",
+    "evidence": "unproven",
+    "status": "research",
+    "price": null,
+    "note": "Reported withdrawn in Europe (1989) and not approved in the US.",
+    "structure": "Padimate A"
+  },
+  "quick": {
+    "overview": "Padimate A is a PABA-derived UV filter, a close relative of padimate O. It saw limited use in sunscreens but is not a current mainstream ingredient.\n\nVery little padimate A-specific research is available.",
+    "mechanism": "Like other PABA esters it absorbs UVB through its aminobenzoate structure.",
+    "risks": "Wikipedia reports it was withdrawn in Europe in 1989 and never approved in the US, and that padimates raised photochemical safety questions in cell studies. No clinical studies were found."
+  },
   "lead": [
-    "Padimate A (isoamyl p-dimethylaminobenzoate, Escalol 506) is a PABA-ester UV filter, a dimethylated ester of 4-aminobenzoic acid.[1] It is chemically related to padimate O (octyl dimethyl PABA), a much more widely studied sunscreen ingredient.[1] Wikipedia states it was withdrawn in Europe in 1989 and was never approved for use in sunscreens in the US.[1]",
-    "Published concerns about the padimate class involve photochemistry: Wikipedia reports that padimate A and padimate O resemble an industrial free-radical generator and increased the lethal effects of UV on cells in cited studies.[1] Little padimate A-specific research was found, and no clinical studies exist in the sources reviewed."
+    "Padimate A (isoamyl p-dimethylaminobenzoate, also called amyl dimethyl PABA or Escalol 506) is an ultraviolet-absorbing chemical, a dimethylated ester of 4-aminobenzoic acid (PABA), that was used in some sunscreens [1]. Sunscreen filters of this kind help people look better by absorbing UVB light so the skin burns and tans less, which is the basis of using sunscreen to limit sunburn, uneven pigmentation and visible photoageing.",
+    "It is chemically related to padimate O (octyl dimethyl PABA), a much more widely studied sunscreen ingredient [1]. Wikipedia states that padimate A was withdrawn in Europe in 1989 and was never approved for use in sunscreens in the US [1]. For that reason it appears mostly in the historical and toxicology literature rather than in current products.",
+    "Published concerns about the padimate class involve photochemistry. A 1978 study in Archives of Dermatology reported that padimate A provoked phototoxic reactions resembling sunburn in most subjects exposed to UVA, and Wikipedia reports that padimate A and padimate O resemble an industrial free-radical generator and increased the lethal effects of UV on cells in cited studies [1][8][9]."
   ],
+  "angle": {
+    "goal": "Skin",
+    "chain": [
+      "Filter absorbs UVB in the skin's upper layers",
+      "Less sunburn and UV-driven pigmentation",
+      "Skin keeps a more even tone with less photoageing"
+    ],
+    "effect": "direct",
+    "text": "As a PABA-ester sunscreen filter, padimate A absorbed UV light to reduce sunburn when it was formulated into products. It is no longer in regulated use in Europe, and the sunscreen routines people follow today rely on other filters."
+  },
   "infobox": [
     [
       "Class",
@@ -11,46 +36,73 @@
     ],
     [
       "Other names",
-      "Isoamyl dimethyl PABA, Escalol 506[1]"
+      "Isoamyl dimethyl PABA, amyl dimethyl PABA, Escalol 506 [1]"
+    ],
+    [
+      "Chemical name",
+      "3-methylbutyl 4-(dimethylamino)benzoate [1]"
     ],
     [
       "Formula",
-      "C14H21NO2 (about 235 g/mol)[1]"
+      "C14H21NO2 (about 235 g/mol) [1]"
+    ],
+    [
+      "Melting point",
+      "Below 25 C [1]"
     ],
     [
       "Related compounds",
-      "PABA, padimate O[1]"
+      "PABA, padimate O [1]"
     ],
     [
       "Regulatory",
-      "Withdrawn in Europe 1989; not approved in the US for sunscreens (per Wikipedia)[1]"
+      "Withdrawn in Europe 1989; never approved in the US for sunscreens (per Wikipedia) [1]"
     ]
   ],
   "sections": [
     {
       "h": "Chemistry",
       "paras": [
-        "Padimate A has a melting point below 25 degrees C and is the isoamyl analogue of the better-known padimate O.[1]"
+        "Padimate A is the 3-methylbutyl (isoamyl) ester of 4-(dimethylamino)benzoic acid, with a molar mass of about 235 g/mol and a melting point below 25 degrees C [1]. It is the isoamyl analogue of padimate O, which carries a branched eight-carbon (2-ethylhexyl) chain [1]. The dimethylamino group conjugated to the benzoate ester is the part that absorbs UVB light, the shared structural feature of this class."
+      ]
+    },
+    {
+      "h": "History and use",
+      "paras": [
+        "PABA and its esters were among the earliest widely used organic sunscreen ingredients. Wikipedia's sunscreen article describes PABA itself as later reclassified by the FDA in 2021 as not generally recognised as safe and effective, citing high rates of severe allergic contact dermatitis, and lists padimate O as a UVB filter approved in Australia, Canada, the EU, Japan and the US [11]. Padimate A, by contrast, was withdrawn in Europe in 1989 and was never approved in the US [1]."
       ]
     },
     {
       "h": "Safety and regulation",
       "paras": [
-        "Wikipedia notes that the compound was withdrawn in Europe in 1989 for unstated reasons and was never approved for US sunscreens.[1] It also reports that the photochemistry of padimates, including increased UV lethality in cells, has been part of the sunscreen safety controversy.[1]",
-        "Related research on padimate O and other organic UV filters includes studies of skin penetration and keratinocyte toxicity of common sunscreens,[2] UV-induced suppression of contact hypersensitivity in relation to padimate O and oxybenzone,[3] and environmental occurrence of UV filters in wastewater and biota.[4][5] These do not isolate padimate A."
+        "Wikipedia notes that the compound was withdrawn in Europe in 1989 for unstated reasons and was never approved for US sunscreens [1]. The 1978 phototoxicity study found that amyl paradimethylaminobenzoate (padimate A) provoked a reaction resembling sunburn after UVA exposure of about 30 joules per square centimetre in most subjects; the main histological feature was vacuolar degeneration of the epidermis without sunburn cells, and proprietary sunscreens containing padimate A produced a similar reaction [8]. The authors suggested the similarity to sunburn had delayed recognition of this effect, because users who experienced it concluded the product was ineffective [8].",
+        "A 1993 paper in FEBS Letters examined sunlight-induced mutagenicity of a common sunscreen ingredient, and Wikipedia's padimate A article uses it as its main source for the statements that padimate A and padimate O have photobiological properties similar to Michler's ketone and increase the lethal effects of UV on cells [9][1]. This photochemistry has been part of the wider sunscreen safety discussion [1].",
+        "Related research on padimate O and other organic UV filters includes studies of skin penetration and keratinocyte toxicity of common sunscreens [2], UV-induced suppression of contact hypersensitivity in relation to padimate O and oxybenzone [3], a bioadhesive nanoparticle sunblock that encapsulated padimate O as a model filter to keep it out of epidermal cells [10], and environmental occurrence of UV filters in wastewater and biota [4][5]. These do not isolate padimate A."
       ]
     },
     {
       "h": "Clinical studies",
       "paras": [
-        "No studies found of padimate A. Registered sunscreen trials in the sources reviewed (for example, a phase 1 study of a padimate O nanoparticle sunblock in 13 people, and SPF testing of commercial products) concern padimate O or unspecified products.[6][7]"
+        "The 1978 Archives of Dermatology study tested padimate A on human volunteers and reported phototoxic reactions [8]. No studies were found on padimate A as a protective sunscreen ingredient in current use. Registered sunscreen trials, for example a phase 1 study of a padimate O nanoparticle sunblock in 13 people and SPF testing of commercial products, concern padimate O or unspecified products [6][7]."
       ]
     }
   ],
   "timeline": [
     {
+      "year": "1978",
+      "event": "Archives of Dermatology reports phototoxic reactions to padimate A in volunteers [8]."
+    },
+    {
       "year": "1989",
-      "event": "Padimate A reported withdrawn in Europe.[1]"
+      "event": "Padimate A reported withdrawn in Europe [1]."
+    },
+    {
+      "year": "1993",
+      "event": "FEBS Letters study of sunlight-induced mutagenicity of a common sunscreen ingredient [9]."
+    },
+    {
+      "year": "2021",
+      "event": "FDA reclassifies PABA as not generally recognised as safe and effective [11]."
     }
   ],
   "lore": null,
@@ -110,26 +162,48 @@
       "source": "ClinicalTrials.gov",
       "year": 2021,
       "type": "trial"
+    },
+    {
+      "id": 8,
+      "title": "Phototoxicity to a sunscreen ingredient. Padimate A",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/646366/",
+      "source": "Archives of Dermatology",
+      "year": 1978,
+      "type": "study"
+    },
+    {
+      "id": 9,
+      "title": "Sunlight-induced mutagenicity of a common sunscreen ingredient",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8405372/",
+      "source": "FEBS Letters",
+      "year": 1993,
+      "type": "study"
+    },
+    {
+      "id": 10,
+      "title": "A sunblock based on bioadhesive nanoparticles",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26413985/",
+      "source": "Nature Materials",
+      "year": 2015,
+      "type": "study"
+    },
+    {
+      "id": 11,
+      "title": "Sunscreen",
+      "url": "https://en.wikipedia.org/wiki/Sunscreen",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
     }
   ],
   "webSources": [
     {
       "url": "https://en.wikipedia.org/wiki/Padimate_A",
       "title": "Padimate A - Wikipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sunscreen",
+      "title": "Sunscreen - Wikipedia"
     }
-  ],
-  "card": {
-    "summary": "Obscure PABA-ester sunscreen filter, withdrawn in Europe in 1989 and never US-approved; essentially no modern research on it.",
-    "aka": "Isoamyl dimethyl PABA, Escalol 506",
-    "evidence": "unproven",
-    "status": "research",
-    "price": null,
-    "note": "Reported withdrawn in Europe (1989) and not approved in the US.",
-    "structure": "Padimate A"
-  },
-  "quick": {
-    "overview": "Padimate A is a PABA-derived UV filter, a close relative of padimate O. It saw limited use in sunscreens but is not a current mainstream ingredient.\n\nVery little padimate A-specific research is available.",
-    "mechanism": "Like other PABA esters it absorbs UVB through its aminobenzoate structure.",
-    "risks": "Wikipedia reports it was withdrawn in Europe in 1989 and never approved in the US, and that padimates raised photochemical safety questions in cell studies. No clinical studies were found."
-  }
+  ]
 }

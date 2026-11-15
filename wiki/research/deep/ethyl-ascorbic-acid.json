@@ -1,25 +1,218 @@
 {
-"name":"Ethyl ascorbic acid",
-"lead":["3-O-ethyl ascorbic acid (ethyl ascorbic acid, EAC) is an ether derivative of vitamin C used in brightening and anti-ageing skincare. It is described as a tyrosinase inhibitor and is widely used in formulations, although the mechanisms behind its effects have been described as poorly understood [1].","Evidence for it in people is sparse. The bulk of published work consists of cell and animal-skin studies, formulation and analysis papers, and at least one case report of allergic contact dermatitis [2]."],
-"infobox":[["Type","Vitamin C ether derivative"],["Also called","3-O-ethyl ascorbic acid, EAC, EAA"],["Routes","Topical (cosmetic)"],["Marketed for","Brightening, antioxidant"]],
-"sections":[
-{"h":"Description","paras":["EAC is an ascorbic acid with an ethyl group on the 3-position, used in skincare formulations for pigment-lightening and antioxidant purposes [1]. Methods have been published to measure it in whitening creams alongside arbutin and niacinamide [3]."]},
-{"h":"Pharmacology","paras":["In a 2021 study, EAC reduced melanogenesis in cultured melanocytes and acted via Nrf2-mediated inhibition of alpha-MSH in UVA-irradiated keratinocytes, with autophagy induction in melanocytes [1]. Later in vitro work paired it with cannabigerol in UV-irradiated keratinocytes [4][5], and another compared antioxidants for protection of skin cells against UVA [6]. A mouse-skin study found laser pretreatment increased EAC permeation [7], and formulation research has examined liquid-crystal vehicles for skin retention [8]."]},
-{"h":"Adverse effects","paras":["A 2019 case report described allergic contact dermatitis from 3-O-ethyl ascorbic acid in facial anti-ageing cosmetics [2]."]},
-{"h":"Clinical studies","paras":["No controlled clinical trials of EAC alone were found. Research is limited to in vitro, animal-skin, formulation and case-report literature [1][2][7]."]}
-],
-"timeline":[],
-"lore":null,
-"refs":[
-{"id":1,"title":"The anti-melanogenic effects of 3-O-ethyl ascorbic acid via Nrf2-mediated α-MSH inhibition","url":"https://pubmed.ncbi.nlm.nih.gov/34314818/","source":"Free Radical Biology & Medicine","year":2021,"type":"study"},
-{"id":2,"title":"A new case of allergic contact dermatitis caused by 3-O-ethyl ascorbic acid in facial antiageing cosmetics","url":"https://pubmed.ncbi.nlm.nih.gov/31066077/","source":"Contact Dermatitis","year":2019,"type":"study"},
-{"id":3,"title":"Simultaneous HPLC Determination of Arbutin, Niacinamide and 3-O-Ethyl Ascorbic Acid in Whitening Cream Products","url":"https://pubmed.ncbi.nlm.nih.gov/35098294/","source":"J Chromatographic Science","year":2023,"type":"study"},
-{"id":4,"title":"Anti-inflammatory action of cannabigerol with 3-O-ethyl ascorbic acid in UVA-irradiated keratinocytes","url":"https://pubmed.ncbi.nlm.nih.gov/37652708/","source":"J Pharmacol Exp Ther","year":2023,"type":"study"},
-{"id":5,"title":"3-O-ethyl ascorbic acid-cannabigerol system on UVB-irradiated human keratinocytes","url":"https://pubmed.ncbi.nlm.nih.gov/39778604/","source":"Free Radical Biology & Medicine","year":2025,"type":"study"},
-{"id":6,"title":"Skin cells protection against UVA radiation: comparison of antioxidants","url":"https://pubmed.ncbi.nlm.nih.gov/39647320/","source":"Biomedicine & Pharmacotherapy","year":2024,"type":"study"},
-{"id":7,"title":"Skin pretreatment with lasers promotes the transdermal delivery of vitamin C derivatives","url":"https://pubmed.ncbi.nlm.nih.gov/21120566/","source":"Lasers in Medical Science","year":2011,"type":"study"},
-{"id":8,"title":"Lamellar liquid crystal improves skin retention of 3-O-ethyl-ascorbic acid","url":"https://pubmed.ncbi.nlm.nih.gov/26349686/","source":"AAPS PharmSciTech","year":2016,"type":"study"}],
-"webSources":[],
-"card":{"summary":"A vitamin C ether sold for brightening; supported by lab studies, with no controlled human trials found.","aka":"3-O-ethyl ascorbic acid, EAC","evidence":"unproven","status":"otc","risk":null,"note":"At least one reported case of allergic contact dermatitis.","structure":null},
-"quick":{"overview":"Ethyl ascorbic acid is a modified vitamin C used in brightening serums.\n\nPublished work is mostly on cells and animal skin; no controlled human trials were found.","mechanism":"Lab studies report it inhibits tyrosinase and melanin production in cultured cells and has antioxidant effects in UV-exposed keratinocytes.","risks":"A case report documented allergic contact dermatitis from cosmetics containing it. Systematic safety data are limited."}
+ "name": "Ethyl ascorbic acid",
+ "lead": [
+  "3-O-ethyl ascorbic acid (ethyl ascorbic acid, EAC, also written EAA or ETVC) is a vitamin C derivative used in brightening and anti-ageing skincare. People use serums and creams containing it to even out skin tone, fade dark spots and give the complexion a brighter look, since it is described as a tyrosinase inhibitor and an antioxidant [1].",
+  "Ordinary L-ascorbic acid is unstable and oxidises readily when exposed to air, and its physicochemical properties are not ideal for skin uptake; EAC was developed as a stable derivative that has been used in topical products [9]. Published work on it consists mainly of cell-culture studies, animal and porcine skin permeation studies, formulation and analytical-chemistry papers, and at least one case report of allergic contact dermatitis [2][9]."
+ ],
+ "angle": {
+  "goal": "Skin tone and brightness",
+  "chain": [
+   "Stable vitamin C ether applied to the skin",
+   "Inhibits tyrosinase and protects skin cells from UV-driven oxidative stress in lab studies",
+   "Less melanin production and a brighter, more even complexion"
+  ],
+  "effect": "claimed",
+  "text": "EAC is a leave-on ingredient in brightening and anti-ageing products. Users apply it to lighten dark spots and even out tone, and laboratory studies describe the pathways it acts on in melanocytes and keratinocytes [1]."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Vitamin C ether derivative"
+  ],
+  [
+   "Also called",
+   "3-O-ethyl ascorbic acid, EAC, EAA, ETVC"
+  ],
+  [
+   "Routes",
+   "Topical (cosmetic)"
+  ],
+  [
+   "Marketed for",
+   "Brightening, antioxidant"
+  ],
+  [
+   "Stability",
+   "More stable than L-ascorbic acid [9]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "EAC is ascorbic acid carrying an ethyl group on the 3-position of the molecule, which protects the part of the molecule that normally oxidises quickly. It is used in skincare formulations for pigment-lightening and antioxidant purposes [1]. A 2019 physicochemical characterisation described it as a stable vitamin C derivative already in use in topical products, and reported its solubility, stability, pKa and partition coefficient, along with how different neat solvents affected skin delivery [9].",
+    "Analytical methods have been published to measure it in whitening creams alongside arbutin and niacinamide, which reflects how it is commonly combined with other brightening ingredients in commercial products [3]."
+   ]
+  },
+  {
+   "h": "Use in appearance",
+   "subs": [
+    {
+     "h": "Brightening and dark spots",
+     "paras": [
+      "Products containing EAC are marketed for evening skin tone and reducing the look of hyperpigmentation. The proposed route is through melanin production: laboratory work reports that the compound inhibits tyrosinase, the enzyme at the start of the melanin pathway [1]."
+     ]
+    },
+    {
+     "h": "Antioxidant and photo-protective use",
+     "paras": [
+      "Because it is lipophilic and more stable than plain vitamin C, researchers have also studied it as an antioxidant for keratinocytes exposed to UV light. In vitro studies describe reduced oxidative stress and lipid peroxidation in UV-irradiated keratinocytes treated with EAC, especially when paired with cannabigerol [4][5][10][11]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "subs": [
+    {
+     "h": "Mechanism of action",
+     "paras": [
+      "A 2021 study in cultured cells reported that EAC increased the viability of UVA-irradiated keratinocytes, suppressed the ROS-mediated p53/POMC/alpha-MSH pathway, and so reduced the signals that stimulate melanocytes. Nrf2 activation and the antioxidant enzymes HO-1, gamma-GCLC and NQO-1 were involved, and silencing Nrf2 weakened the anti-melanogenic effect. In melanocytes, EAC induced autophagy and inhibited alpha-MSH-stimulated melanin synthesis [1]. The authors noted that the molecular mechanisms behind EAC had been poorly understood before that work [1].",
+      "Later in vitro studies on keratinocytes combined EAC with cannabigerol and reported lower lipid peroxidation, regulated phospholipid-metabolising enzymes, protection of membrane structure and a return of UVB-altered kinase signalling toward control levels [4][5][10][11]. Another study compared several antioxidants for protecting skin cells from UVA [6]."
+     ]
+    },
+    {
+     "h": "Delivery and formulation",
+     "paras": [
+      "Much of the literature concerns getting EAC into skin. Studies describe lipid-based hydrogels and bigels that increased retention in porcine skin and showed antioxidant activity in vitro [12], lamellar liquid-crystal vehicles that improved skin retention in vitro and in vivo [8], and single-solvent systems tested for skin delivery [9]. In mouse skin, pretreatment with erbium:YAG and CO2 lasers increased permeation of EAC and another vitamin C derivative [7], and swellable microneedle patches have been explored as a way to improve transdermal delivery of acidic drugs [13]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "paras": [
+    "A 2019 case report described allergic contact dermatitis caused by 3-O-ethyl ascorbic acid in facial anti-ageing cosmetics [2]. Broader safety data from systematic human studies have not been published."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No controlled clinical trials of EAC alone have been published. Research consists of in vitro cell studies, animal-skin and porcine-skin permeation work, formulation and analytical papers, and a case report of allergic contact dermatitis [1][2][7][12]."
+   ]
+  }
+ ],
+ "timeline": [],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "The anti-melanogenic effects of 3-O-ethyl ascorbic acid via Nrf2-mediated α-MSH inhibition",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34314818/",
+   "source": "Free Radical Biology & Medicine",
+   "year": 2021,
+   "type": "study"
+  },
+  {
+   "id": 2,
+   "title": "A new case of allergic contact dermatitis caused by 3-O-ethyl ascorbic acid in facial antiageing cosmetics",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31066077/",
+   "source": "Contact Dermatitis",
+   "year": 2019,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Simultaneous HPLC Determination of Arbutin, Niacinamide and 3-O-Ethyl Ascorbic Acid in Whitening Cream Products",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35098294/",
+   "source": "J Chromatographic Science",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Anti-inflammatory action of cannabigerol with 3-O-ethyl ascorbic acid in UVA-irradiated keratinocytes",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37652708/",
+   "source": "J Pharmacol Exp Ther",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "3-O-ethyl ascorbic acid-cannabigerol system on UVB-irradiated human keratinocytes",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39778604/",
+   "source": "Free Radical Biology & Medicine",
+   "year": 2025,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Skin cells protection against UVA radiation: comparison of antioxidants",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39647320/",
+   "source": "Biomedicine & Pharmacotherapy",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Skin pretreatment with lasers promotes the transdermal delivery of vitamin C derivatives",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21120566/",
+   "source": "Lasers in Medical Science",
+   "year": 2011,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Lamellar liquid crystal improves skin retention of 3-O-ethyl-ascorbic acid",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26349686/",
+   "source": "AAPS PharmSciTech",
+   "year": 2016,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "3-O-ethyl-l-ascorbic acid: Characterisation and investigation of single solvent systems for delivery to the skin",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31517290/",
+   "source": "International Journal of Pharmaceutics: X",
+   "year": 2019,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "3-O-Ethyl Ascorbic Acid and Cannabigerol in Modulating the Phospholipid Metabolism of Keratinocytes",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39594427/",
+   "source": "Antioxidants",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "Proteomic analysis of the combined effects of cannabigerol and 3-O-ethyl ascorbic acid on kinase-dependent signalling in UVB-irradiated human keratinocytes",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39537961/",
+   "source": "Scientific Reports",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 12,
+   "title": "Lipid-Based Gels for Delivery of 3-O-Ethyl L-Ascorbic acid in Topical Applications",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39339223/",
+   "source": "Pharmaceutics",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 13,
+   "title": "Process optimization of Ca2+ cross-linked alginate-based swellable microneedles for enhanced transdermal permeability",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35306152/",
+   "source": "International Journal of Pharmaceutics",
+   "year": 2022,
+   "type": "study"
+  }
+ ],
+ "webSources": [],
+ "card": {
+  "summary": "A vitamin C ether sold for brightening; supported by lab studies, with no controlled human trials found.",
+  "aka": "3-O-ethyl ascorbic acid, EAC",
+  "evidence": "unproven",
+  "status": "otc",
+  "risk": null,
+  "note": "At least one reported case of allergic contact dermatitis.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Ethyl ascorbic acid is a modified vitamin C used in brightening serums.\n\nPublished work is mostly on cells and animal skin; no controlled human trials were found.",
+  "mechanism": "Lab studies report it inhibits tyrosinase and melanin production in cultured cells and has antioxidant effects in UV-exposed keratinocytes.",
+  "risks": "A case report documented allergic contact dermatitis from cosmetics containing it. Systematic safety data are limited."
+ }
 }

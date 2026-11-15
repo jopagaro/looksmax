@@ -1,44 +1,310 @@
 {
-  "name": "Accure laser (1726 nm)",
-  "lead": [
-    "Accure is a laser procedure that targets sebaceous (oil) glands with a 1726 nm wavelength as a treatment for acne. It belongs to the same class of selective sebaceous-gland lasers as Aviclear [1][2].",
-    "Source material for this article is limited to trial registrations. They show a completed 104-participant device study for acne [2] and a 30-participant laser study for acne [1]. Outcomes are not reported in the registry entries."
+ "name": "Accure laser (1726 nm)",
+ "card": {
+  "summary": "1726 nm laser aimed at oil glands for acne; registered trials exist but published results were not found here.",
+  "aka": "1726 nm laser, Aviclear-type laser",
+  "evidence": "limited",
+  "risk": "moderate",
+  "note": "Results from its registered trials have not been published.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Accure is a clinic laser using a 1726 nm wavelength to target sebaceous glands in acne.\nTrial registrations exist for similar devices, but the registry entries do not report outcomes.",
+  "mechanism": "The wavelength is described as selective for sebaceous glands, aiming to reduce oil production rather than act on the whole skin surface.",
+  "risks": "Cost and availability vary by clinic."
+ },
+ "lead": [
+  "Accure is a clinic laser procedure that uses a 1726 nm wavelength to target the sebaceous (oil) glands, as a treatment for acne. Clearer skin is the appearance goal: the idea is that shrinking the activity of the glands that feed breakouts leads to fewer inflamed spots and less of the scarring and pigment marks that follow. It belongs to the same class of selective sebaceous-gland lasers as Aviclear. [1][2][6]",
+  "The company describes the Accure Acne Laser System as FDA-cleared for mild to severe inflammatory acne vulgaris and as performed only in dermatologists' offices, with four treatments recommended one month apart. [7] Dermatology reviews describe the 1726 nm wavelength as lipid-selective, delivering short high-power pulses that heat the glands with minimal effect on surrounding skin. [3][4][5]",
+  "Published studies include a 2023 open-label trial of 104 adults and a 2023 single-centre study of 17 patients, both uncontrolled, and several narrative reviews. [1][2][9][10][11] On looksmax.org, the laser is discussed by acne sufferers as a possible alternative to isotretinoin. [8]"
+ ],
+ "angle": {
+  "goal": "Clear skin (acne)",
+  "chain": [
+   "1726 nm light is absorbed by the lipids in sebaceous glands",
+   "Glands are heated selectively, reducing oil production and inflammation",
+   "Fewer inflamed acne lesions over several weeks to months"
   ],
-  "infobox": [
-    ["Type", "Laser device (1726 nm)"],
-    ["Target", "Sebaceous glands"],
-    ["Use", "Acne vulgaris"],
-    ["Setting", "Clinic procedure"]
+  "effect": "direct",
+  "text": "Acne sufferers who want to avoid or supplement oral medication use the laser to reduce active breakouts and the marks they leave. Patients in published studies saw lesion counts fall over a period of weeks, with further improvement reported at follow-up. [1][2][3]"
+ },
+ "infobox": [
+  [
+   "Type",
+   "Laser device (1726 nm)"
   ],
-  "sections": [
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "A registered device study of a laser for acne began in 2020 with 104 participants and is listed as completed [2]. A second laser study for acne vulgaris, started in 2022 with 30 participants, has unknown status [1]. Registered studies of the related Aviclear laser have also been listed for hidradenitis suppurativa (8 participants, completed) [3] and for facial papules in frontal fibrosing alopecia (10 participants, recruiting) [4]. A 10-person study is testing a topical antioxidant with a series of laser procedures to reduce sebum [5]. Registry entries do not report results."
-      ]
-    }
+  [
+   "Target",
+   "Sebaceous glands"
   ],
-  "timeline": [],
-  "lore": null,
-  "refs": [
-    {"id": 1, "title": "NCT05430464 A Study of a Laser for the Treatment of Acne Vulgaris", "url": "https://clinicaltrials.gov/study/NCT05430464", "source": "ClinicalTrials.gov", "year": 2022, "type": "trial"},
-    {"id": 2, "title": "NCT04695691 A Device Study for the Treatment of Acne", "url": "https://clinicaltrials.gov/study/NCT04695691", "source": "ClinicalTrials.gov", "year": 2020, "type": "trial"},
-    {"id": 3, "title": "NCT06801795 Aviclear for Hidradenitis Suppurativa", "url": "https://clinicaltrials.gov/study/NCT06801795", "source": "ClinicalTrials.gov", "year": 2025, "type": "trial"},
-    {"id": 4, "title": "NCT07340671 Facial Papules in Frontal Fibrosing Alopecia", "url": "https://clinicaltrials.gov/study/NCT07340671", "source": "ClinicalTrials.gov", "year": 2026, "type": "trial"},
-    {"id": 5, "title": "NCT06376110 Topical antioxidant with laser procedures to reduce sebum", "url": "https://clinicaltrials.gov/study/NCT06376110", "source": "ClinicalTrials.gov", "year": 2024, "type": "trial"}
+  [
+   "Use",
+   "Acne vulgaris"
   ],
-  "webSources": [],
-  "card": {
-    "summary": "1726 nm laser aimed at oil glands for acne; registered trials exist but published results were not found here.",
-    "aka": "1726 nm laser, Aviclear-type laser",
-    "evidence": "limited",
-    "risk": "moderate",
-    "note": "Results of registered trials were not available in the sources reviewed.",
-    "structure": null
+  [
+   "Setting",
+   "Dermatologist's office procedure [7]"
+  ],
+  [
+   "Regimen (company)",
+   "Four treatments about a month apart [7]"
+  ],
+  [
+   "Maker",
+   "Accure Acne, Inc. (Boulder, Colorado) [7]"
+  ],
+  [
+   "Related device",
+   "Aviclear [4]"
+  ],
+  [
+   "Wavelength",
+   "1726 nm (lipid-selective)"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "The Accure Acne Laser System is described by its maker as a 1726 nm laser with treat-to-temperature technology that targets overactive sebaceous glands. It is marketed as a non-systemic option, performed in a dermatologist's office, with four treatments recommended roughly one month apart. [7]",
+    "Reviews place it among newer light and energy-based acne treatments, alongside visible light therapy, photodynamic therapy, intense pulsed light, pulse dye and infrared lasers. [3] A 2026 review in Dermatologic Clinics says light-based systems offer modest benefit in mild disease, thermal near-infrared lasers offer indirect sebaceous suppression, and lipid-selective 1726 nm technology represents a biologically aligned advance with promising clinical outcomes. [4]"
+   ]
   },
-  "quick": {
-    "overview": "Accure is a clinic laser using a 1726 nm wavelength to target sebaceous glands in acne.\n\nTrial registrations exist for similar devices, but the registry entries do not report outcomes.",
-    "mechanism": "The wavelength is described as selective for sebaceous glands, aiming to reduce oil production rather than act on the whole skin surface.",
-    "risks": "Side effects were not reported in the sources reviewed. Cost and availability vary by clinic."
+  {
+   "h": "Why target the oil gland",
+   "paras": [
+    "Wikipedia describes acne as arising when hair follicles become clogged: androgens enlarge the oil glands and increase sebum production, dead skin cells stick together and block pores, and the skin bacterium Cutibacterium acnes feeds on sebum, with its by-products driving inflammation.[17] Acne is concentrated where oil glands are dense, such as the face, chest and back.[17]",
+    "The appearance stakes go beyond active spots. Wikipedia notes that inflamed lesions can heal into atrophic scars (ice-pick, boxcar and rolling types) or leave post-inflammatory hyperpigmentation, which is more common in darker skin and can last months or longer.[17] Treatments that reduce inflammatory lesions are therefore pursued partly to limit later marks, and this is the chain the Accure approach is built on: less sebaceous activity, fewer inflamed lesions, fewer marks."
+   ]
+  },
+  {
+   "h": "Mechanism",
+   "paras": [
+    "Acne involves excess sebum and proliferation of Cutibacterium acnes in the sebaceous glands. [5] Earlier light-based treatments did not use a wavelength specifically aimed at the glands; the 1726 nm laser was developed to be absorbed by sebum lipids, so that selective photothermolysis heats the gland while sparing surrounding tissue. [3][6] A 2024 review credits its efficiency to short, high-power pulses that selectively heat the glands, with fewer side effects than lower-power pulses. [5] The laser in the 17-patient study used contact cooling. [1]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A prospective, open-label, single-arm study published in the Journal of the American Academy of Dermatology in 2023 enrolled 104 adults with moderate-to-severe facial acne and skin types II to VI. Participants had three sessions about three weeks apart. The share with at least a 50 percent drop in active inflammatory lesions was 32.6 percent at 4 weeks, 79.8 percent at 12 weeks and 87.3 percent at 26 weeks, and the share rated clear or almost clear rose from 0 percent to 9 percent at 4 weeks, 36.0 percent at 12 weeks and 41.8 percent at 26 weeks. No serious device-related adverse events were reported, no anaesthetic was needed, and results were similar across skin types. The study had no control group. [2] Its registration is NCT04695691. [12]",
+    "A single-centre, open-label study of 17 patients aged 18 to 36 in the Journal of Cosmetic Dermatology gave up to three facial sessions with contact cooling, up to seven weeks apart. Inflammatory lesions fell by 52 to 56 percent at 4 to 12 weeks (p = 0.003), side effects were mild and short-lived, mean discomfort was 4.9 out of 10 without anaesthesia, and 71 percent reported high satisfaction. A 24-month follow-up reported a 97 percent reduction in inflammatory lesions. [1]",
+    "Reviews summarise this work. A 2023 review concluded the laser appears safe and effective for mild to severe acne across Fitzpatrick skin types, with resolution apparent in the first month and improving for up to two years. [6] A 2024 review of selective photothermolysis included 11 studies, reporting considerable lesion reduction with minimal side effects, mainly redness and swelling, and called for long-term and comparative studies. [5] Reviews note that acne treatment guidelines do not yet include recommendations for light-based treatments. [6]",
+    "Other registered studies include a 30-participant laser study for acne vulgaris (NCT05430464, unknown status), an 8-person study of Aviclear in hidradenitis suppurativa, a 10-person study of facial papules in frontal fibrosing alopecia and a 10-person study of a topical antioxidant with laser procedures to reduce sebum. [13][14][15][16]"
+   ]
+  },
+  {
+   "h": "Safety and side effects",
+   "paras": [
+    "Reported side effects in the studies are mainly redness and swelling, with no serious device-related adverse events in the 104-patient trial. [2][5] Discomfort was described as tolerable without anaesthesia, with a mean score of 4.9 in the smaller study. [1] A 2024 review notes the laser needs purchase of dedicated equipment. [5]"
+   ]
+  },
+  {
+   "h": "Manufacturer's description and claims",
+   "paras": [
+    "The Accure Acne Laser System is made by Accure Acne, Inc. of Boulder, Colorado, and its website names Rox Anderson as a co-founder.[7] The company states the device is FDA-cleared for mild to severe inflammatory acne vulgaris, describes treat-to-temperature technology intended to make targeting safer and more precise, and says treatment is given only in dermatologists' offices.[7]",
+    "The company reports results from its own studies, including an average 29 percent reduction in acne after the first treatment and about a 70 percent average reduction in lesions six months after four treatments, with 84 to 95 percent of patients very or extremely satisfied depending on mode.[7] These figures are company-held data presented on a promotional page; the peer-reviewed studies described above report their own measures.[1][2]"
+   ]
+  },
+  {
+   "h": "Cost and availability",
+   "paras": [
+    "Cost and availability vary by clinic, and the device is offered only by dermatologists and other clinics that have bought it. [7]"
+   ]
+  },
+  {
+   "h": "In looksmaxxing communities",
+   "paras": [
+    "A looksmax.org thread on Accure asks whether it is an alternative to Accutane (isotretinoin) and describes permanent gland-size reduction as the appeal, with the poster planning to find a clinic and wondering how the first weeks go. [8] Skin-focused members weigh the laser against isotretinoin, which acts systemically and carries its own side-effect profile."
+   ]
   }
+ ],
+ "timeline": [
+  {
+   "year": "2020",
+   "event": "Registered 1726 nm acne device study begins enrolling 104 participants.[12]"
+  },
+  {
+   "year": "2023",
+   "event": "Open-label 104-patient trial and a 17-patient study are published. [1][2]"
+  },
+  {
+   "year": "2024-2026",
+   "event": "Reviews of 1726 nm lasers are published in several dermatology journals. [3][4][5]"
+  },
+  {
+   "year": "2025",
+   "event": "Aviclear studies in other conditions are registered, such as hidradenitis suppurativa (started February 2025).[14]"
+  }
+ ],
+ "lore": {
+  "intro": "On looksmax.org, the laser appears in acne threads as a possible gland-targeting alternative to isotretinoin. [8]",
+  "claims": [
+   {
+    "claim": "The laser permanently shrinks oil glands, replicating Accutane without the systemic effects",
+    "believers": "A poster describes permanent gland size reduction with no visible scars, reduced inflammation on a faster timeline than isotretinoin, and plans to book a clinic. [8]",
+    "experts": "Published trials are open-label and uncontrolled, with follow-up of 26 weeks in the 104-patient trial and 24 months in a 17-patient study, and reviews call for longer comparative studies. [1][2][5] No trial compares it directly with isotretinoin.",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "It is effective across skin tones",
+    "believers": "Marketing and clinic pages state it is cleared for mild to severe inflammatory acne. [7]",
+    "experts": "The 104-patient trial enrolled skin types II to VI and reported similar results across them. [2]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Fewer inflamed spots now means fewer acne scars and marks later.",
+    "believers": "The poster's appeal is reduced inflammation on a faster timeline than isotretinoin with no visible scarring from the procedure itself.[8]",
+    "experts": "Wikipedia links inflammation in the dermis to scarring and notes light and laser therapies are generally add-on options in guidelines because of cost and limited evidence; reviews say guidelines do not yet cover light-based acne treatments.[17][6]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Selective photothermolysis with a novel 1726 nm laser beam: A safe and effective solution for acne vulgaris",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36576854/",
+   "source": "Journal of Cosmetic Dermatology",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 2,
+   "title": "Novel 1726 nm laser demonstrates durable therapeutic outcomes and tolerability for moderate-to-severe acne across skin types",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37328000/",
+   "source": "Journal of the American Academy of Dermatology",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 3,
+   "title": "Light and laser-based therapy in treatment of acne vulgaris: A clinical review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40550334/",
+   "source": "Journal of the American Academy of Dermatology",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Acne Laser Devices in Dermatology",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42303359/",
+   "source": "Dermatologic Clinics",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Targeting sebaceous glands: a review of selective photothermolysis for Acne Vulgaris treatment",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38850426/",
+   "source": "Archives of Dermatological Research",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Treatment of mild to severe acne with 1726 nm laser: A safe alternative to traditional acne therapies",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37596781/",
+   "source": "Journal of Cosmetic Dermatology",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Accure Acne Laser System",
+   "url": "https://www.accureacne.com",
+   "source": "Accure Acne, Inc.",
+   "year": 2024,
+   "type": "news"
+  },
+  {
+   "id": 8,
+   "title": "Acnecels GTFIH; Accure laser: Accutane alternative better than accutane?",
+   "url": "https://looksmax.org/threads/acnecels-gtfih-accure-laser-accutane-alternative-better-than-accutane-also-skin-journal-progress-from-someone-who-had-cystic-acne.1752162/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 9,
+   "title": "1726 nm Lasers for the Treatment of Acne Vulgaris",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38271552/",
+   "source": "Skin Therapy Letter",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 10,
+   "title": "Innovations in Acne",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39542558/",
+   "source": "Dermatologic Clinics",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "Acne and rosacea therapies see the light",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37524168/",
+   "source": "Journal of the American Academy of Dermatology",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 12,
+   "title": "NCT04695691 A Device Study for the Treatment of Acne",
+   "url": "https://clinicaltrials.gov/study/NCT04695691",
+   "source": "ClinicalTrials.gov",
+   "year": 2020,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "NCT05430464 A Study of a Laser for the Treatment of Acne Vulgaris",
+   "url": "https://clinicaltrials.gov/study/NCT05430464",
+   "source": "ClinicalTrials.gov",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "NCT06801795 Aviclear for Hidradenitis Suppurativa",
+   "url": "https://clinicaltrials.gov/study/NCT06801795",
+   "source": "ClinicalTrials.gov",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 15,
+   "title": "NCT07340671 Facial Papules in Frontal Fibrosing Alopecia",
+   "url": "https://clinicaltrials.gov/study/NCT07340671",
+   "source": "ClinicalTrials.gov",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 16,
+   "title": "NCT06376110 Topical antioxidant with laser procedures to reduce sebum",
+   "url": "https://clinicaltrials.gov/study/NCT06376110",
+   "source": "ClinicalTrials.gov",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 17,
+   "title": "Acne",
+   "url": "https://en.wikipedia.org/wiki/Acne",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://www.accureacne.com",
+   "title": "Accure Acne Laser System - Accure Acne, Inc."
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Acne",
+   "title": "Acne - Wikipedia"
+  }
+ ]
 }

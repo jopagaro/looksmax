@@ -1,28 +1,358 @@
 {
-"name":"Mini facelift (S-lift)",
-"card":{"summary":"A short-scar facelift using small incisions near the ear, usually without neck work; lighter recovery, and Wikipedia describes the result as more temporary.","aka":"S-lift, short-scar facelift, mini rhytidectomy","evidence":"limited","outcome":null,"risk":"moderate","price":null,"note":"Suited by surgeons' accounts to early laxity; evidence is surgeon series, with few head-to-head comparisons.","structure":null},
-"quick":{"overview":"The mini facelift, often called the S-lift or short-scar facelift, uses shorter incisions around the ear than a traditional facelift and generally omits neck lifting. It is described as suiting people with early jowling or modest sagging and a firm neck.\n\nSurgeons describe less dramatic change and shorter recovery. Wikipedia describes the effect as more temporary than full facelifts. A 2007 review noted that studies comparing facelift methods are few.","mechanism":"The S-lift suspends sagging tissue using a strong permanent purse-string suture and a short skin flap, with incisions in front of and below the ear shaped like an S.","risks":"Facelift risks in general include hematoma, nerve injury, scarring and hair loss at incisions. Combining the S-lift with laser resurfacing has been reported in retrospective series with side effect profiles described by authors."},
-"lead":["The mini facelift is a family of short-scar rhytidectomy techniques, commonly called the S-lift, that use limited incisions and omit the neck lift. Wikipedia says it suits people with deep nasolabial folds and sagging but a firm, well-contoured neck, has less downtime, and may be done endoscopically; it describes the result as more temporary.[1]","An S-lift was described in the literature in 1999 and is based on suspending sagging facial features with a strong permanent purse-string suture, according to the authors of a 2002 paper who then proposed a modification, the minimal access cranial suspension (MACS) lift.[2] A 2001 dermatologic surgery paper describes an S-lift using U-suture and O-suture combined with skin resurfacing, suggesting it may help minor jowling or submental laxity in early ptosis or revision facelifts.[3]","Reports are mainly surgeon-authored. A 2007 review of facelift techniques noted that few studies compare results between methods.[4]"],
-"infobox":[["Type","Short-scar surgical facelift"],["Also called","S-lift, mini rhytidectomy"],["Neck work","Generally not included[1]"],["Suitable (per sources)","Early laxity, minor jowling[3]"],["Recovery","Less downtime than traditional facelift[1]"]],
-"sections":[
-{"h":"Description","paras":["Mini lifts use short incisions, limited skin elevation and often a purse-string or plication suture to reposition tissue, rather than extensive dissection of deeper layers.[1][2] Variants include the S-Plus lift, a short-scar long-flap rhytidectomy,[5] and mini rhytidectomy techniques published since the 1990s, including one adapted for Asian patients.[6][7]"]},
-{"h":"History","paras":["Authors of a 2002 paper reported a trend toward less dramatic facial rejuvenation, noting patients wanted improvement without prolonged disfigurement or high complication risk, and that the S-lift had been described in 1999.[2] A 1997 article on the mini rhytidectomy and a 2005 overview of S-lift and S-Plus lift rhytidectomies document the spread of the concept.[6][8]"]},
-{"h":"Combination with other treatments","paras":["Retrospective analyses have examined surgical lifting combined with ablative laser resurfacing in the same session, reporting results and side effects.[9]"]},
-{"h":"Risks","paras":["Facelift complications in general include hematoma, nerve injury, skin necrosis, scarring and hair loss; smoking raises risk.[1]"]},
-{"h":"Clinical studies","paras":["Evidence is surgeon-reported. The 2002 MACS paper and the 2001 S-lift paper describe technique and outcomes in case series.[2][3] A 2010 article reports on the S-Plus lift.[5] A 2007 review concludes that comparisons between methods are limited.[4] No randomized trials were found."]}
-],
-"timeline":[{"year":"1997","event":"Mini rhytidectomy article published.[6]"},{"year":"1999","event":"S-lift described in the literature.[2]"},{"year":"2002","event":"MACS lift proposed as a modified S-lift.[2]"},{"year":"2010","event":"S-Plus lift, a short-scar long-flap technique, reported.[5]"}],
-"lore":null,
-"refs":[
-{"id":1,"title":"Rhytidectomy","url":"https://en.wikipedia.org/wiki/Rhytidectomy","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":2,"title":"Minimal access cranial suspension lift: a modified S-lift","url":"https://pubmed.ncbi.nlm.nih.gov/11994618/","source":"Plastic and Reconstructive Surgery","year":2002,"type":"study"},
-{"id":3,"title":"The S-lift facelift featuring the U-suture and O-suture combined with skin resurfacing","url":"https://pubmed.ncbi.nlm.nih.gov/11231235/","source":"Dermatologic Surgery","year":2001,"type":"study"},
-{"id":4,"title":"Is there an ideal facelift procedure?","url":"https://pubmed.ncbi.nlm.nih.gov/17620898/","source":"Current Opinion in Otolaryngology & Head and Neck Surgery","year":2007,"type":"review"},
-{"id":5,"title":"The S-Plus lift: a short-scar, long-flap rhytidectomy","url":"https://pubmed.ncbi.nlm.nih.gov/20594404/","source":"Annals of the Royal College of Surgeons of England","year":2010,"type":"study"},
-{"id":6,"title":"The mini rhytidectomy","url":"https://pubmed.ncbi.nlm.nih.gov/9263553/","source":"Aesthetic Plastic Surgery","year":1997,"type":"study"},
-{"id":7,"title":"Our mini-facelift for Orientals","url":"https://pubmed.ncbi.nlm.nih.gov/7900556/","source":"Aesthetic Plastic Surgery","year":1995,"type":"study"},
-{"id":8,"title":"Minimally invasive face-lifting: S-Lift and S-Plus Lift rhytidectomies","url":"https://pubmed.ncbi.nlm.nih.gov/18088769/","source":"Oral and Maxillofacial Surgery Clinics of North America","year":2005,"type":"review"},
-{"id":9,"title":"Combination surgical lifting with ablative laser skin resurfacing of facial skin: a retrospective analysis","url":"https://pubmed.ncbi.nlm.nih.gov/15355357/","source":"Dermatologic Surgery","year":2004,"type":"study"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Rhytidectomy","title":"Rhytidectomy - Wikipedia"}]
+ "name": "Mini facelift (S-lift)",
+ "card": {
+  "summary": "A short-scar facelift using small incisions near the ear, usually without neck work; lighter recovery, and Wikipedia describes the result as more temporary.",
+  "aka": "S-lift, short-scar facelift, mini rhytidectomy",
+  "evidence": "limited",
+  "outcome": null,
+  "risk": "moderate",
+  "price": null,
+  "note": "Suited by surgeons' accounts to early laxity; evidence is surgeon series, with few head-to-head comparisons.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "The mini facelift, often called the S-lift or short-scar facelift, uses shorter incisions around the ear than a traditional facelift and generally omits neck lifting. It is described as suiting people with early jowling or modest sagging and a firm neck.\n\nSurgeons describe less dramatic change and shorter recovery. Wikipedia describes the effect as more temporary than full facelifts. A 2007 review noted that studies comparing facelift methods are few.",
+  "mechanism": "The S-lift suspends sagging tissue using a strong permanent purse-string suture and a short skin flap, with incisions in front of and below the ear shaped like an S.",
+  "risks": "Facelift risks in general include hematoma, nerve injury, scarring and hair loss at incisions. Combining the S-lift with laser resurfacing has been reported in retrospective series with side effect profiles described by authors."
+ },
+ "lead": [
+  "The mini facelift, usually called the S-lift or short-scar facelift, is a surgical way to lift sagging skin and deeper tissue in the lower face through shorter incisions around the ear than a traditional facelift. People choose it to soften early jowls, deepening nasolabial folds and a slackening jawline while keeping scars small and downtime short; the neck is generally not lifted as part of it.[1][2]",
+  "Wikipedia describes it as suited to people with deep nasolabial folds and sagging facial structures who still have a firm, well-defined neck, notes that it can be done endoscopically, and characterises the result as more temporary than a full facelift.[1] The S-lift was described in the literature in 1999 and rests on suspending sagging tissue with a strong permanent purse-string suture; a 2002 paper from the surgeons who adopted it proposed a modification, the minimal access cranial suspension (MACS) lift.[3] The family has since grown to include the S-Plus lift, short-scar SMASectomy and volumetric short-scar techniques.[9][16]",
+  "The published literature consists mainly of surgeon-authored technique descriptions and case series, with a small number of comparative studies. A 2007 review of facelift techniques noted that the literature generally details surgeons' methods and operative results and that only a few studies compare results between methods.[4] Reported series describe operating times of roughly two to two and a half hours, local anesthesia, return to work in about two weeks and high patient satisfaction, alongside comparative data suggesting that results in the neck and at longer follow-up differ from those of a full-incision lift.[16]"
+ ],
+ "angle": {
+  "goal": "Jawline and lower-face lift",
+  "chain": [
+   "Short incisions near the ear",
+   "Tissue suspended with sutures or a plicated SMAS layer",
+   "Tighter jawline, softer jowls and folds with a shorter recovery"
+  ],
+  "effect": "direct",
+  "text": "The mini facelift repositions sagging lower-face tissue through short incisions, so people with early laxity can get a firmer jawline and less jowling with less downtime than a full facelift. Surgeons describe it as best matched to younger or milder cases."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Short-scar surgical facelift"
+  ],
+  [
+   "Also called",
+   "S-lift, short-scar facelift, mini rhytidectomy, MACS lift (variant)"
+  ],
+  [
+   "Neck work",
+   "Generally not included[1]"
+  ],
+  [
+   "Suited to (per surgeons)",
+   "Early laxity, minor jowling, firm neck[1][5]"
+  ],
+  [
+   "First described",
+   "S-lift 1999; MACS lift 2002[3]"
+  ],
+  [
+   "Anesthesia",
+   "Local or monitored care in many series[3][16]"
+  ],
+  [
+   "Operating time (series)",
+   "About 2 to 2.5 hours (MACS)[16]"
+  ],
+  [
+   "Recovery",
+   "Less downtime than a traditional facelift; about 2 weeks to return to work in one series[1][16]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Mini lifts use short incisions, limited skin elevation and often a purse-string or plication suture to reposition tissue, rather than the extensive dissection of deeper layers used in a traditional facelift.[1][3] Wikipedia describes the incision as starting at the hairline near the ear with scars placed in natural creases, and says the soft tissue may be repositioned endoscopically and the skin then secured with small sutures.[1] The S in S-lift refers to the shape of the incision in front of and below the ear.",
+    "A 2014 review catalogues short-scar rhytidectomy techniques as a group,[8] and a 2007 review lists the S-lift and MACS lift under limited-incision approaches, distinct from traditional rhytidectomy, deep-plane or composite techniques and suspension-thread lifts.[4] A 2001 paper by Fulton and colleagues describes a short-flap S-lift with U-suture and O-suture for jowl and submental laxity that can be combined with resurfacing, browlift or blepharoplasty.[5]",
+    "Wikipedia places the mini-facelift among a spectrum that also includes SMAS plication or flap lifts, deep-plane and composite lifts, mid-face lifts, subperiosteal lifts, skin-only lifts and thread lifts, and lists the MACS lift as a short-scar option reported to take less time and allow faster recovery than a traditional facelift.[1]"
+   ]
+  },
+  {
+   "h": "Variants and related techniques",
+   "paras": [
+    "The MACS lift is a modified S-lift that relies on permanent purse-string sutures through a short incision. In the 2002 Plastic and Reconstructive Surgery paper, Tonnard, Verpaele and colleagues reported 88 consecutive patients (mean age 55.5) treated over 20 months under local anesthesia with two purse-string sutures and an optional third malar suture, describing pleasing results and a very low complication rate.[3][16] A 2007 description by Tonnard and Verpaele presents it as a vertical-vector lift of the lower and middle face without lateral tension, done in two to two and a half hours, with recovery the authors consider shorter and stability they consider comparable to extended lifts.[16] A 2007 review of 557 MACS procedures (183 simple, 374 extended) reported one major complication and a minor complication rate of 6%, and reported that the third malar suture restored midface volume and softened nasolabial folds.[16]",
+    "Wikipedia reports that the MACS lift is said to be quicker than a traditional lift, about 2.5 hours against 3.5, with recovery of two to three weeks against three to four.[1] In a retrospective review of 88 facelifts by one surgeon (80 MACS, 8 conventional), Mast reported MACS operating time averaging about 2 hours 39 minutes against 4 hours 3 minutes for conventional lifts, return to work at about two weeks, three hematomas needing drainage (3.4%) and one temporary buccal branch paresis, while noting limits in marked skin laxity or neck fat and that follow-up averaged six months.[16]",
+    "The S-Plus lift is a short-scar, long-flap rhytidectomy.[9] A retrospective review of 144 consecutive S-Plus lifts by one surgeon reported a low complication rate comparable to other rhytidectomy techniques, high satisfaction and short downtime.[16] A 2005 overview covers both the S-lift and S-Plus lift as minimally invasive options.[10]",
+    "Short-scar lateral SMASectomy was developed by Baker, whose 2001 review of 749 cases over more than ten years concluded the approach was safe and reproducible in properly selected patients with complication rates similar to standard techniques.[16] A purse-string-reinforced SMASectomy series of 137 patients (mean age 55) reported 94% satisfied or very satisfied, with one temporary buccal branch neuropraxia, two hematomas needing evacuation, two cases of neck traction dimpling and one hypertrophic preauricular scar.[16] A volumetric short-scar technique was reported in 54 patients in 2008, with surgeons rating the aesthetic result as good and mild improvement in malar volume, nasolabial folds, jowls and the cervicomental angle.[16]",
+    "A 1997 paper described a mini rhytidectomy in which the superficial musculoaponeurotic system (SMAS) is plicated from the deep temporal fascia to the earlobe through an extended preauricular incision, with the neck handled by liposuction.[6] A 2019 paper describes a Triple-S lift for facial rejuvenation,[11] and a mini-facelift variant for Asian patients was reported in 1995, with fewer complications than other procedures except total facelift according to the abstract.[12][16] Further modifications of the MACS lift aim to address the neck and lateral periorbital area and to reduce visible temporal scarring.[16] A fibrin sealant has been used with short-scar lifts to speed healing.[16]"
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Facelift surgery began in the early twentieth century: Wikipedia credits Eugen Holländer with the first facelift in 1901 and describes a cutaneous era to about 1970, a SMAS era from the 1970s led by Tord Skoog's deeper suspension, a deep-plane era in the 1980s influenced by Paul Tessier's subperiosteal orbital work, and, from 1991, a volumetric era favouring smaller scars, volume restoration and upward lifting.[1] The SMAS was described by Mitz and Peyronie in 1976.[1]",
+    "Short-scar methods grew out of that trend. Authors of the 2002 MACS paper reported a strong movement toward less dramatic rejuvenation, with patients wanting improvement without prolonged disfigurement or a high risk of complications.[3] A 2003 review observed that societal shifts had focused patients on less invasive procedures with less downtime, naming the short-scar facelift with SMASectomy and the S-lift among the less invasive lower-face approaches.[13] A 2005 review noted the rising popularity of short-scar lifts and the case for limited-incision techniques in selected patients.[10] Wikipedia reports that in 2019 facelifts were the third most popular aesthetic surgery in the US after rhinoplasty and blepharoplasty.[1]"
+   ]
+  },
+  {
+   "h": "Candidates and expectations",
+   "paras": [
+    "Surgeons' accounts describe the S-lift as helpful for minor jowling or submental laxity in early facial ptosis, in revision facelifts, or where skin resurfacing is combined with neck lifting.[5] A 2026 review of in-office procedures for younger patients lists the mini-facelift among targeted structural procedures for patients with high skin elasticity and mild structural change, performed under local anesthesia, with compression, cold therapy and supplements described to limit swelling.[14][7] The 1997 mini rhytidectomy paper called its technique ideally suited to the younger patient requesting a facelift.[6]",
+    "Wikipedia adds that facelifts overall are often combined with eyelid surgery, that satisfaction data cited on its page favour age 50 or younger, and that Botox or liposculpture may suit some areas better, such as nasolabial folds or marionette lines.[1] The 2003 review concluded that there is no single ideal technique and that the procedure should be individualised to each patient's anatomy and goals.[13]"
+   ]
+  },
+  {
+   "h": "Comparative studies",
+   "paras": [
+    "A retrospective comparison of two short-scar lifts, MACS and lateral SMASectomy, followed 82 patients to 24 months. It reported no cosmetic difference between techniques at one or 24 months and similar satisfaction, with more postoperative pain after MACS and longer operating time for SMASectomy; two hematomas, two retroauricular dog-ears and one hypertrophic scar occurred, and over half of patients needed a tuck procedure for jowling and redundant skin by 24 months.[16]",
+    "A twin study published in 2016 compared full and short-scar incisions in four sets of identical twins and one set of triplets with randomised incision choice. It found no difference at about one year, while at about five years the full incision scored significantly better in the neck region.[16] A cadaver study of 36 facelifts on nine cadavers found that SMAS plication lifted skin and muscle significantly more than MACS at the measured landmarks, with no difference in symmetry; the authors noted that MACS is less invasive with faster recovery.[16] The surgeon Daniel Marchac argued in a 2008 opinion article that short-scar lifts can leave residual skin below the earlobe and temporal excess requiring a visible excision, and favoured a vertical retroauricular incision.[16]"
+   ]
+  },
+  {
+   "h": "Combination with other treatments",
+   "paras": [
+    "Retrospective analyses have examined surgical lifting combined with ablative laser resurfacing in the same session, reporting results and side effects, because resurfacing treats wrinkles and pigment while lifting addresses laxity.[15] The 2001 S-lift paper likewise describes combining the lift with skin resurfacing.[5]"
+   ]
+  },
+  {
+   "h": "Risks",
+   "paras": [
+    "Wikipedia lists hematoma as the most common facelift complication, usually in the first 24 hours, along with nerve injury (the greater auricular nerve is the sensory nerve most often affected), skin necrosis, infection, scarring, hair loss near incisions, ear distortion and a windswept look from excess skin removal; smoking raises necrosis risk about twelvefold.[1] Smoking, hypertension and diabetes are described as relative contraindications.[1]",
+    "In the 35-patient series of the 1997 mini rhytidectomy paper, authors reported no facial nerve paresis, hair loss or skin necrosis, two small hematomas and one stretched preauricular scar.[6] Wikipedia also warns of serious complications and uneven training standards for thread lifts, a non-surgical alternative.[1]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Evidence is largely surgeon-reported. The 1997 paper followed 35 patients and described the result as satisfactory with minor complications.[6] The 2002 MACS paper and the 2001 S-lift paper describe technique and outcomes in case series,[3][5] and a 2010 article reports on the S-Plus lift.[9] A 2004 retrospective analysis reported results of lifting combined with laser resurfacing.[15] Comparative evidence includes the 2006 MACS versus SMASectomy retrospective study, a 2016 twin study and a 2015 cadaver study.[16] A 2007 review notes that few studies compare methods.[4] No randomized trials of mini facelift against a traditional facelift for overall result are described."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1901",
+   "event": "Eugen Holländer is credited with the first facelift in Berlin.[1]"
+  },
+  {
+   "year": "1976",
+   "event": "Mitz and Peyronie describe the SMAS, leading to SMAS-based facelifts.[1]"
+  },
+  {
+   "year": "1991",
+   "event": "The volumetric era begins, favouring smaller scars and upward lifting.[1]"
+  },
+  {
+   "year": "1995",
+   "event": "A mini-facelift for Asian patients is reported.[12]"
+  },
+  {
+   "year": "1997",
+   "event": "Mini rhytidectomy with SMAS plication is published.[6]"
+  },
+  {
+   "year": "1999",
+   "event": "S-lift described in the literature.[3]"
+  },
+  {
+   "year": "2001",
+   "event": "S-lift with U- and O-sutures and short-scar lateral SMASectomy reports appear.[5][16]"
+  },
+  {
+   "year": "2002",
+   "event": "MACS lift proposed as a modified S-lift in 88 patients.[3]"
+  },
+  {
+   "year": "2006",
+   "event": "Retrospective comparison of MACS and SMASectomy reports similar results at 24 months.[16]"
+  },
+  {
+   "year": "2010",
+   "event": "S-Plus lift, a short-scar long-flap technique, reported in 144 patients.[9][16]"
+  },
+  {
+   "year": "2014",
+   "event": "A single-surgeon MACS series reports operating times of about 2 hours 39 minutes.[16]"
+  },
+  {
+   "year": "2016",
+   "event": "Twin study finds a full incision scored better in the neck at about five years.[16]"
+  }
+ ],
+ "lore": {
+  "intro": "The mini facelift is discussed mainly in surgeon-authored literature and patient information rather than looksmaxxing forums; the claims below are those made by surgeons and patients about it.[1][16]",
+  "claims": [
+   {
+    "claim": "A mini facelift gives a lift with shorter scars and quicker recovery",
+    "believers": "Surgeons report short scars, local anesthesia, operating times near two hours and return to work in about two weeks.[16][1]",
+    "experts": "Wikipedia gives about 2.5 hours against 3.5 and recovery of two to three weeks against three to four for MACS versus a traditional lift; a single-surgeon series averaged 2 hours 39 minutes against 4 hours 3 minutes.[1][16]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Results are as stable as an extended facelift",
+    "believers": "Tonnard and Verpaele describe the MACS lift as giving results they consider as stable as extended lifts.[16]",
+    "experts": "Wikipedia characterises the result as more temporary; a twin study found the full incision scored better in the neck at about five years and over half of patients in one comparison had a tuck procedure by 24 months.[1][16]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "It suits early jowling and nasolabial folds with a firm neck",
+    "believers": "Surgeons describe it for early laxity, minor jowling and revision lifts.[5][1]",
+    "experts": "A 2003 review concluded there is no single ideal technique and that choice should be individualised.[13]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "A mini lift is a good option for younger patients",
+    "believers": "A 1997 paper called its technique ideally suited to younger patients, and a 2026 review lists it for patients with high skin elasticity and mild change.[6][14]",
+    "experts": "Wikipedia cites satisfaction data favouring age 50 or younger for facelifts overall, while the series above include mean ages near 55.[1][16]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Short-scar lifts have fewer complications",
+    "believers": "Authors of several series describe low complication rates, including 6% minor complications in 557 MACS lifts.[16]",
+    "experts": "Baker reported complication rates similar to standard techniques; hematoma, nerve injury, dog-ears and scar problems still occur.[16][1]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "A thread lift can do the same job without surgery",
+    "believers": "Thread lifts are marketed as a non-surgical lifting option.[1]",
+    "experts": "Wikipedia warns of serious complications and uneven training standards for thread lifts, and the 2007 review lists them as a separate category from short-scar lifts.[1][4]",
+    "evidence": "untested"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Rhytidectomy",
+   "url": "https://en.wikipedia.org/wiki/Rhytidectomy",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Short scar rhytidectomy techniques",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24581564/",
+   "source": "Atlas of the Oral and Maxillofacial Surgery Clinics of North America",
+   "year": 2014,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Minimal access cranial suspension lift: a modified S-lift",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11994618/",
+   "source": "Plastic and Reconstructive Surgery",
+   "year": 2002,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Is there an ideal facelift procedure?",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17620898/",
+   "source": "Current Opinion in Otolaryngology & Head and Neck Surgery",
+   "year": 2007,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "The S-lift facelift featuring the U-suture and O-suture combined with skin resurfacing",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11231235/",
+   "source": "Dermatologic Surgery",
+   "year": 2001,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "The mini rhytidectomy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9263553/",
+   "source": "Aesthetic Plastic Surgery",
+   "year": 1997,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "In-Office Surgical Procedures for Prejuvenation (abstract)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42379225/",
+   "source": "Facial Plastic Surgery",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "Short scar rhytidectomy techniques (review)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24581564/",
+   "source": "Atlas of the Oral and Maxillofacial Surgery Clinics of North America",
+   "year": 2014,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "The S-Plus lift: a short-scar, long-flap rhytidectomy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20594404/",
+   "source": "Annals of the Royal College of Surgeons of England",
+   "year": 2010,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Minimally invasive face-lifting: S-Lift and S-Plus Lift rhytidectomies",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18088769/",
+   "source": "Oral and Maxillofacial Surgery Clinics of North America",
+   "year": 2005,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "Triple-S Lift for Facial Rejuvenation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30767039/",
+   "source": "Aesthetic Plastic Surgery",
+   "year": 2019,
+   "type": "study"
+  },
+  {
+   "id": 12,
+   "title": "Our mini-facelift for Orientals",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7900556/",
+   "source": "Aesthetic Plastic Surgery",
+   "year": 1995,
+   "type": "study"
+  },
+  {
+   "id": 13,
+   "title": "Advances and controversies in face lift surgery",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14502052/",
+   "source": "Current Opinion in Ophthalmology",
+   "year": 2003,
+   "type": "review"
+  },
+  {
+   "id": 14,
+   "title": "In-Office Surgical Procedures for Prejuvenation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42379225/",
+   "source": "Facial Plastic Surgery",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 15,
+   "title": "Combination surgical lifting with ablative laser skin resurfacing of facial skin: a retrospective analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15355357/",
+   "source": "Dermatologic Surgery",
+   "year": 2004,
+   "type": "study"
+  },
+  {
+   "id": 16,
+   "title": "Europe PMC records for short-scar and MACS facelift studies (Tonnard 2002 and 2007; Baker 2001; Prado 2006; Verpaele 2007; van der Lei 2009; Jones 2008; Mast 2014; Antell 2016; Mohammadi 2015; Marchac 2008; Hopping 2010; Matarasso 2005; Atiyeh 2015; Onizuka 1995)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE:%22MACS%22%20OR%20TITLE:%22mini-facelift%22%20OR%20TITLE:%22mini%20facelift%22%20OR%20TITLE:%22S-lift%22%20OR%20TITLE:%22short%20scar%22%29%20AND%20%28facelift%20OR%20rhytidectomy%20OR%20%22face%20lift%22%29&resultType=core&format=json&pageSize=20&sort=CITED%20desc",
+   "source": "Europe PMC",
+   "year": 2026,
+   "type": "study"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Rhytidectomy",
+   "title": "Rhytidectomy - Wikipedia"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE:%22MACS%22%20OR%20TITLE:%22mini-facelift%22%20OR%20TITLE:%22mini%20facelift%22%20OR%20TITLE:%22S-lift%22%20OR%20TITLE:%22short%20scar%22%29%20AND%20%28facelift%20OR%20rhytidectomy%20OR%20%22face%20lift%22%29&resultType=core&format=json&pageSize=20&sort=CITED%20desc",
+   "title": "Europe PMC: short-scar, MACS and S-lift facelift studies"
+  }
+ ]
 }

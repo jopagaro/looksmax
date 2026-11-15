@@ -1,26 +1,49 @@
 {
- "name": "Irisin",
  "lead": [
   "Irisin is a protein fragment cleaved from FNDC5 (fibronectin type III domain-containing protein 5) and was proposed in 2012 as a hormone released by muscle during exercise. Boström and colleagues reported in Nature that it was PGC-1-alpha-dependent and drove brown-fat-like changes in white fat tissue in mice.[1][2]",
-  "The proposal attracted wide attention for possible links to weight loss and diabetes prevention, and it also drew sustained scepticism about whether irisin exists in meaningful circulating amounts in humans and whether commercial assays measure it reliably.[2]",
-  "Irisin is an endogenous protein. The sources reviewed describe no approved drug, and human evidence is largely observational measurement of blood levels."
+  "Its appeal for appearance is the idea that exercise could send a chemical signal from muscle to fat: if irisin turns white fat into energy-burning 'beige' fat, then training would help reduce body fat through more than calories burned during the session. Related proposals link irisin to bone mass and to brain effects of exercise, so it is discussed in fitness circles as a possible mediator of how training changes the body.[1][2][5][6]",
+  "The proposal attracted wide attention for possible links to weight loss and diabetes prevention, and it also drew sustained scepticism about whether irisin exists in meaningful circulating amounts in humans and whether commercial assays measure it reliably.[2][9] An Endocrine Reviews article noted that FNDC5 was found in 2002, was largely ignored for about a decade, and has since been the subject of more than 1,000 papers.[9]",
+  "Irisin is an endogenous protein. No approved drug exists, and human evidence is largely observational measurement of blood levels, alongside mouse and cell experiments.[2][9]"
  ],
+ "angle": {
+  "goal": "Fat loss",
+  "chain": [
+   "Muscle contraction during exercise raises FNDC5/irisin signalling (as proposed)",
+   "Irisin acts on white fat cells in cell and mouse studies",
+   "Fat cells take on brown-like, energy-burning features",
+   "Possible contribution to lower body fat with training"
+  ],
+  "effect": "claimed",
+  "text": "Irisin is an exercise-linked signal that has been proposed to turn white fat into beige fat in mice. Whether it does this in people is under study, so it is described here as a proposed mechanism by which training could change body composition."
+ },
  "infobox": [
   [
    "Type",
-   "Proposed myokine"
+   "Proposed myokine (muscle-secreted protein)"
   ],
   [
    "Precursor",
-   "FNDC5"
+   "FNDC5, a transmembrane protein of 212 amino acids in humans [2]"
+  ],
+  [
+   "Irisin size",
+   "112 amino acids, cleaved from FNDC5 [2]"
   ],
   [
    "Named after",
-   "Iris, Greek messenger goddess"
+   "Iris, Greek messenger goddess [2]"
   ],
   [
-   "Proposed in",
-   "2012 (Boström et al., Nature)"
+   "FNDC5 first identified",
+   "2002 [2][9]"
+  ],
+  [
+   "Proposed as exercise hormone",
+   "January 2012, Boström et al., Nature (Spiegelman lab) [1][2]"
+  ],
+  [
+   "Proposed receptor",
+   "Integrin alpha-V complexes (2018 report) [5]"
   ],
   [
    "Approved uses",
@@ -31,27 +54,68 @@
   {
    "h": "Discovery and naming",
    "paras": [
-    "FNDC5 was first found in 2002 through genome searches for fibronectin type III domains. In January 2012 Boström et al. described a cleaved form that they named irisin and linked to exercise, PGC-1-alpha and thermogenic (UCP1-expressing) fat.[1][2]",
-    "Related work in the same year described beige adipocytes as a distinct thermogenic fat cell type in mice and humans.[3]"
+    "FNDC5 was first found in 2002 through genome searches for fibronectin type III domains, and separately in a search for peroxisomal proteins.[2] An Endocrine Reviews article describes it as expressed in skeletal muscle, heart and brain and largely ignored for about ten years.[9]",
+    "In January 2012 Boström and colleagues, working in the laboratory of Bruce Spiegelman, described a cleaved form that they named irisin, after Iris, the Greek messenger goddess, and linked it to exercise, PGC-1-alpha and thermogenic (UCP1-expressing) fat.[1][2] Their paper reported in mice that muscle PGC-1-alpha raised FNDC5, and that irisin acted on white fat cells in culture and in animals to increase UCP1 and a broad brown-fat-like programme.[1]",
+    "Related work in the same year described beige adipocytes as a distinct thermogenic fat cell type in mouse and human.[3] A review the same year by Pedersen and Febbraio described skeletal muscle as a secretory organ releasing myokines, the conceptual frame into which irisin was placed.[13] Wikipedia dates the chain as: FNDC5 identified (2002), irisin proposed as a muscle-derived exercise hormone (2012), and then a series of replication, assay and mass-spectrometry papers.[2]"
+   ]
+  },
+  {
+   "h": "Molecular biology",
+   "paras": [
+    "Wikipedia describes FNDC5 as a type I transmembrane glycoprotein whose ectodomain is released as irisin, a 112-amino-acid product, with identical human and mouse sequences.[2] The protease responsible for cleavage was listed as not identified.[2] Exercise raises muscle PGC-1-alpha, which in turn induces FNDC5 expression.[1][2]",
+    "The human gene has an unusual start codon (ATA rather than ATG), a feature at the centre of the controversy over whether human cells make full-length FNDC5. The Endocrine Reviews article lists the role of this mutant start codon among questions raised by the original discovery that remain to be settled.[9][2]",
+    "A 2013 study reported that FNDC5/irisin is also expressed by fat tissue, so that it is not only a myokine but also an adipokine, and a separate 2013 study found irisin expression in human muscle and adipose tissue in association with obesity and insulin resistance.[12][11]"
    ]
   },
   {
    "h": "Proposed actions",
-   "paras": [
-    "In animal and cell studies, irisin has been reported to promote browning of white fat, including through p38 and ERK signalling.[4] A 2018 study reported that irisin acts on bone and fat through alpha-V integrin receptors.[5] In mice, the exercise-linked PGC-1-alpha/FNDC5 pathway was also reported to raise hippocampal BDNF.[6]",
-    "A human study reported that irisin and FGF21 rise in response to cold exposure and are associated with brown-fat function.[7]"
+   "subs": [
+    {
+     "h": "Fat browning",
+     "paras": [
+      "In animal and cell studies, irisin has been reported to promote browning of white fat, including through p38 and ERK signalling.[4] A 2016 in vitro study cited by Wikipedia linked irisin to dose-related UCP1 upregulation and browning markers in fat cells.[2] A human study reported that irisin and FGF21 rise in response to cold exposure and are associated with brown-fat function.[7]",
+      "Wikipedia also records a report that overexpressing FNDC5 in mouse liver prevented diet-induced weight gain, and a 2019 report that loss of Fndc5 attenuated exercise-induced browning in mice.[2]"
+     ]
+    },
+    {
+     "h": "Bone and muscle",
+     "paras": [
+      "A 2018 study reported that irisin acts on bone and fat through alpha-V integrin receptors.[5] Wikipedia records a 2015 report that irisin increased cortical bone mass in mice, with later work suggesting effects on bone remodelling.[2] Because the same exercise-linked pathway touches muscle, bone and fat, researchers describe irisin as one candidate for how a trained muscle talks to other tissues.[2][10]"
+     ]
+    },
+    {
+     "h": "Brain",
+     "paras": [
+      "In mice, the exercise-linked PGC-1-alpha/FNDC5 pathway was reported to raise hippocampal BDNF.[6] A 2019 Nature Medicine paper reported that FNDC5/irisin rescued synaptic plasticity and memory defects in Alzheimer's disease models, and a 2021 rodent study described irisin as a critical regulator of exercise's cognitive benefits, according to Wikipedia.[14][2]"
+     ]
+    }
    ]
   },
   {
    "h": "Controversy",
    "paras": [
-    "Several groups questioned the original findings, including whether commercial antibody assays measure irisin accurately and whether the human FNDC5 start codon permits normal production of the protein. A later mass-spectrometry study reported irisin in human plasma, and a 2024 study reported translation of FNDC5 from an upstream start codon.[2] Researchers have studied the predictors of circulating FNDC5/irisin and its response to weight loss and exercise in humans.[8]"
+    "The original proposal has been disputed on several fronts. A 2012 paper by Timmons and colleagues questioned whether irisin is an exercise-responsive gene in humans, a 2013 commentary asked whether FNDC5 is a hormone precursor or a membrane receptor, and a 2015 paper by Albrecht and colleagues was titled 'Irisin - a myth rather than an exercise-inducible myokine'.[2] Critics focused on the human FNDC5 start codon and on the antibodies used in commercial assays.[2]",
+    "Supporters point to a 2015 mass-spectrometry study by Jedrychowski and colleagues that detected circulating human irisin at about 3 ng/ml, and a 2024 report by Witmer and colleagues that FNDC5 is translated in humans and mice from an upstream ATG start codon, which supports the existence of human irisin.[2] A 2021 review highlighted new findings on brain and bone while criticising studies that rely on commercial antibody assays.[2] The Endocrine Reviews article notes that many studies correlating plasma irisin with physiological conditions have been questioned for flawed assays, while experiments that alter irisin by injection or gene knockout are considered more promising.[9]",
+    "Researchers have also studied the predictors of circulating FNDC5/irisin and its response to weight loss and exercise in humans.[8] A 2022 review catalogues lower circulating irisin in obesity, osteoporosis, muscle atrophy, Alzheimer's disease and cardiovascular disease, and higher levels in cancer, while noting it is unclear whether irisin acts by directly binding its receptors in several tissues.[10]"
+   ]
+  },
+  {
+   "h": "Irisin and resistance training",
+   "paras": [
+    "A narrative review of myokines and resistance training reported that resistance exercise is a strong stimulus for myokine release and that different training modes stimulate different myokines.[15] A 2025 randomised trial in older women with possible sarcopenic obesity tested a 36-week personalised resistance programme and measured serum myokines along with muscle function.[16] Because circulating irisin assays remain debated, such studies are generally read as examining associations between training and myokine levels.[9]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Irisin is mostly encountered through exercise-science news and supplement marketing that cites 'the exercise hormone'. No irisin drug or supplement has been approved, and the topic is chiefly a research area in muscle physiology and metabolism.[2] People interested in training for body composition sometimes cite it as one reason exercise might change fat tissue beyond calorie burn, and the debate over assays is a recurring caveat in coverage of the field.[2]",
+    "On the T Nation forum, a January 2012 thread shared a news article describing irisin as a possible fat-loss agent. Replies were largely jokes and caution: one poster said it could take about 20 years to learn whether excess levels are harmful, and others compared the hype with earlier supplements.[20] A later T Nation article on changing fat cells listed exercise-driven irisin alongside cold exposure and some food compounds as ways to increase brown or beige fat activity, and described a figure of up to 300 extra calories a day as speculative.[21]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found testing irisin itself as an appearance or fat-loss treatment. Registered human studies are observational or measure irisin as an outcome, such as serum irisin in acne patients taking isotretinoin, and its temporal dynamics during exercise.[9][10]"
+    "No studies found testing irisin itself as an appearance or fat-loss treatment. Registered human studies are observational or measure irisin as an outcome, such as serum irisin in acne patients taking isotretinoin, its temporal dynamics during exercise, and how different exercise types affect irisin and cognitive performance.[17][18][19] A study of FNDC5 and irisin in humans examined predictors of circulating levels and responses to exercise and weight loss.[8] Mass-spectrometry work on circulating human irisin is the main source of quantitative human measurements.[2]"
    ]
   }
  ],
@@ -61,18 +125,105 @@
    "event": "FNDC5 first identified in genome searches.[2]"
   },
   {
+   "year": "January 2012",
+   "event": "Boström et al. propose irisin as an exercise-induced myokine that browns white fat.[1][2]"
+  },
+  {
    "year": "2012",
-   "event": "Boström et al. propose irisin as an exercise-induced myokine that browns white fat.[1]"
+   "event": "Beige adipocytes described as a distinct thermogenic fat cell type; FNDC5/irisin human studies begin.[3][8]"
+  },
+  {
+   "year": "2013",
+   "event": "FNDC5 linked to exercise-induced hippocampal BDNF in mice; irisin reported to be produced by adipose tissue as well as muscle.[6][12]"
+  },
+  {
+   "year": "2014",
+   "event": "Irisin and FGF21 reported as cold-induced activators of brown fat in humans.[7]"
   },
   {
    "year": "2015",
-   "event": "Mass spectrometry study reports irisin in human plasma.[2]"
+   "event": "Mass spectrometry study reports irisin in human plasma; Albrecht et al. publish a paper questioning irisin as an exercise-inducible myokine.[2]"
   },
   {
    "year": "2018",
    "event": "Alpha-V integrins reported as irisin receptors in bone and fat.[5]"
+  },
+  {
+   "year": "2019",
+   "event": "FNDC5/irisin reported to rescue synaptic plasticity and memory in Alzheimer's models.[14]"
+  },
+  {
+   "year": "2021",
+   "event": "Endocrine Reviews article takes stock of FNDC5/irisin biology after more than 1,000 papers.[9]"
+  },
+  {
+   "year": "2024",
+   "event": "Witmer et al. report that FNDC5 is translated in humans from an upstream start codon.[2]"
   }
  ],
+ "lore": {
+  "intro": "Irisin is discussed on lifting forums as a headline-friendly 'fat-burning exercise hormone', mostly with humour and caution about hype.[20][21]",
+  "claims": [
+   {
+    "claim": "Exercise releases irisin, which turns white fat into calorie-burning beige fat",
+    "believers": "Fitness writers cite the 2012 Nature paper and describe irisin as making white fat act more like brown fat.[21][1]",
+    "experts": "The original work was in mice and cell culture; critics have questioned whether human irisin is exercise-responsive and how reliable assays are, while supporters cite mass-spectrometry detection in human blood.[2][9]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Browning of fat by irisin could burn up to a few hundred extra calories a day",
+    "believers": "A T Nation article lists the figure while noting it is speculative.[21]",
+    "experts": "No published human trial has measured daily energy expenditure change from irisin; cited evidence is largely from animal and small human studies.[9][21]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Lifting weights raises irisin and so helps body composition",
+    "believers": "Training-focused writers discuss myokines released by working muscle as one reason resistance work changes the body.[15]",
+    "experts": "A narrative review says resistance training stimulates myokine release, and trials in older women have measured myokines, but assay reliability for irisin remains debated.[15][16][9]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Irisin supplements or injections could be a fat-loss shortcut",
+    "believers": "In 2012 T Nation replies, posters joked that bodybuilders would be the first to try high doses.[20]",
+    "experts": "No irisin drug or supplement has been approved, and the same thread noted safety of excess levels was unknown; reviews describe recombinant irisin as a research strategy only.[2][10][20]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Irisin explains part of exercise's benefit for the brain",
+    "believers": "Writers cite mouse work linking FNDC5 to BDNF and to protection in Alzheimer's models.[6][14]",
+    "experts": "Evidence is from rodents; Wikipedia notes the pathway is under investigation for cognitive decline.[2]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Irisin is a 'myth' that does not exist in humans",
+    "believers": "Sceptics cite a 2015 paper by Albrecht and colleagues and concerns about the human start codon and antibodies.[2]",
+    "experts": "A 2015 mass-spectrometry study and a 2024 translation study are cited as supporting human irisin, and a 2021 review criticised antibody assays specifically.[2]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Irisin",
+   "title": "Irisin - Wikipedia"
+  }
+ ],
+ "name": "Irisin",
+ "card": {
+  "summary": "A proposed exercise hormone from muscle; mouse fat-browning findings are intriguing but human evidence is thin and disputed.",
+  "aka": "FNDC5 fragment",
+  "evidence": "unproven",
+  "status": "research",
+  "risk": null,
+  "price": null,
+  "note": "Endogenous protein; existence and measurement in humans have been debated; no approved use.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Irisin is a protein proposed in 2012 to be released by exercising muscle and to turn white fat toward a brown-fat-like, heat-producing state in mice.\nThe idea was widely covered, but researchers have disputed how reliably irisin can be measured in people. No trials show irisin as a way to lose fat or change appearance.",
+  "mechanism": "It is cleaved from the membrane protein FNDC5, whose production rises with muscle PGC-1-alpha. Cell and animal studies propose signalling through alpha-V integrin receptors and p38/ERK pathways.",
+  "risks": "No approved product exists and there are no human safety data for administering it. Human studies reviewed mainly measure blood levels."
+ },
  "refs": [
   {
    "id": 1,
@@ -84,7 +235,7 @@
   },
   {
    "id": 2,
-   "title": "FNDC5 / Irisin",
+   "title": "Irisin",
    "url": "https://en.wikipedia.org/wiki/Irisin",
    "source": "Wikipedia",
    "year": 2025,
@@ -100,7 +251,7 @@
   },
   {
    "id": 4,
-   "title": "Irisin stimulates browning of white adipocytes through p38 and ERK MAP kinase signaling",
+   "title": "Irisin stimulates browning of white adipocytes through p38 MAP kinase and ERK MAP kinase signaling",
    "url": "https://pubmed.ncbi.nlm.nih.gov/24150604/",
    "source": "Diabetes",
    "year": 2014,
@@ -108,7 +259,7 @@
   },
   {
    "id": 5,
-   "title": "Irisin Mediates Effects on Bone and Fat via alphaV Integrin Receptors",
+   "title": "Irisin Mediates Effects on Bone and Fat via alpha-V Integrin Receptors",
    "url": "https://pubmed.ncbi.nlm.nih.gov/30550785/",
    "source": "Cell",
    "year": 2018,
@@ -132,7 +283,7 @@
   },
   {
    "id": 8,
-   "title": "FNDC5 and irisin in humans: predictors of circulating concentrations and response to weight loss and exercise",
+   "title": "FNDC5 and irisin in humans: predictors of circulating concentrations and responses to weight loss and exercise",
    "url": "https://pubmed.ncbi.nlm.nih.gov/23018146/",
    "source": "Metabolism",
    "year": 2012,
@@ -140,41 +291,107 @@
   },
   {
    "id": 9,
-   "title": "Effect of Systemic Isotretinoin on Serum Irisin Level in Acne Vulgaris Patients (NCT05869188)",
+   "title": "Progress and Challenges in the Biology of FNDC5 and Irisin",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33493316/",
+   "source": "Endocrine Reviews",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 10,
+   "title": "Role of irisin in physiology and pathology",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36225200/",
+   "source": "Frontiers in Endocrinology",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "Irisin is expressed and produced by human muscle and adipose tissue in association with obesity and insulin resistance",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23436919/",
+   "source": "J Clin Endocrinol Metab",
+   "year": 2013,
+   "type": "study"
+  },
+  {
+   "id": 12,
+   "title": "FNDC5/irisin is not only a myokine but also an adipokine",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23593248/",
+   "source": "PLoS ONE",
+   "year": 2013,
+   "type": "study"
+  },
+  {
+   "id": 13,
+   "title": "Muscles, exercise and obesity: skeletal muscle as a secretory organ",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22473333/",
+   "source": "Nature Reviews Endocrinology",
+   "year": 2012,
+   "type": "review"
+  },
+  {
+   "id": 14,
+   "title": "Exercise-linked FNDC5/irisin rescues synaptic plasticity and memory defects in Alzheimer's models",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30617325/",
+   "source": "Nature Medicine",
+   "year": 2019,
+   "type": "study"
+  },
+  {
+   "id": 15,
+   "title": "Myokines and Resistance Training: A Narrative Review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35408868/",
+   "source": "Int J Mol Sci",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 16,
+   "title": "36-Week personalized resistance training improves muscle function and circulating myokines in older women with possible sarcopenic obesity",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40993553/",
+   "source": "BMC Geriatrics",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 17,
+   "title": "Effect of Systemic Isotretinoin on Serum Irisin Level in Acne Vulgaris Patients",
    "url": "https://clinicaltrials.gov/study/NCT05869188",
-   "source": "ClinicalTrials.gov",
+   "source": "ClinicalTrials.gov NCT05869188",
    "year": 2023,
    "type": "trial"
   },
   {
-   "id": 10,
-   "title": "Temporal Dynamics of Irisin (NCT07191015)",
+   "id": 18,
+   "title": "Temporal Dynamics of Irisin",
    "url": "https://clinicaltrials.gov/study/NCT07191015",
-   "source": "ClinicalTrials.gov",
+   "source": "ClinicalTrials.gov NCT07191015",
    "year": 2025,
    "type": "trial"
-  }
- ],
- "webSources": [
+  },
   {
-   "url": "https://en.wikipedia.org/wiki/Irisin",
-   "title": "Irisin - Wikipedia"
+   "id": 19,
+   "title": "Effects of Different Types of Exercise on Irisin and Cognitive Performance",
+   "url": "https://clinicaltrials.gov/study/NCT07146490",
+   "source": "ClinicalTrials.gov NCT07146490",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 20,
+   "title": "Irisin--Newly Identified Hormone for Fat Loss",
+   "url": "https://t-nation.com/t/irisin-newly-identified-hormone-for-fat-loss/173844",
+   "source": "T Nation forum",
+   "year": 2012,
+   "type": "forum"
+  },
+  {
+   "id": 21,
+   "title": "Permanently Ripped: 5 Ways to Change Fat Cells",
+   "url": "https://t-nation.com/t/permanently-ripped-5-ways-to-change-fat-cells/281371",
+   "source": "T Nation",
+   "year": 2023,
+   "type": "forum"
   }
- ],
- "card": {
-  "summary": "A proposed exercise hormone from muscle; mouse fat-browning findings are intriguing but human evidence is thin and disputed.",
-  "aka": "FNDC5 fragment",
-  "evidence": "unproven",
-  "status": "research",
-  "risk": null,
-  "price": null,
-  "note": "Endogenous protein; existence and measurement in humans have been debated; no approved use.",
-  "structure": null
- },
- "quick": {
-  "overview": "Irisin is a protein proposed in 2012 to be released by exercising muscle and to turn white fat toward a brown-fat-like, heat-producing state in mice.\n\nThe idea was widely covered, but researchers have disputed how reliably irisin can be measured in people. No trials show irisin as a way to lose fat or change appearance.",
-  "mechanism": "It is cleaved from the membrane protein FNDC5, whose production rises with muscle PGC-1-alpha. Cell and animal studies propose signalling through alpha-V integrin receptors and p38/ERK pathways.",
-  "risks": "No approved product exists and the sources reviewed give no human safety data for administering it. Human studies reviewed mainly measure blood levels."
- },
- "lore": null
+ ]
 }

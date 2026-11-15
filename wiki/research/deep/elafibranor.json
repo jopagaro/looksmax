@@ -1,71 +1,318 @@
 {
   "name": "Elafibranor",
   "lead": [
-    "Elafibranor (brand name Iqirvo; also GFT505) is an oral dual PPAR-alpha and PPAR-delta agonist developed by Genfit and marketed by Ipsen for primary biliary cholangitis (PBC).[1][2] The US FDA granted accelerated approval in June 2024, and the EU granted conditional authorization in September 2024.[1]",
-    "It is indicated with ursodeoxycholic acid in adults with an inadequate response, or alone in those who cannot tolerate it.[1] It had earlier been developed for nonalcoholic steatohepatitis (NASH), where a large phase 3 trial was terminated.[3][4] No studies of cosmetic, fat-loss or muscle outcomes were found; its relevance here is as a PPAR-delta-acting drug."
+    "Elafibranor (brand name Iqirvo; development code GFT505) is an oral drug that activates two nuclear receptors involved in fat and energy metabolism, PPAR-alpha and PPAR-delta. It was developed by Genfit and is marketed by Ipsen for primary biliary cholangitis (PBC), a rare autoimmune liver disease.[1][2][12] The US FDA granted accelerated approval on 10 June 2024, and the EU granted conditional authorization in September 2024.[1][12]",
+    "Its appeal in appearance-focused circles comes from the biology of PPAR-delta, a receptor that regulates how muscle and fat tissue burn fatty acids. Discussion of leaner body composition runs through this receptor class rather than through any trial of elafibranor itself: the drug's studies measure liver enzymes, itch and liver histology, not body fat, muscle or looks.[5][13]",
+    "The approved indication is PBC in combination with ursodeoxycholic acid (UDCA) in adults with an inadequate response, or alone in those who cannot tolerate UDCA.[1][2] Before the PBC work, it was developed for nonalcoholic steatohepatitis (NASH), where a large phase 3 trial was terminated.[3][4]"
   ],
   "infobox": [
-    ["Drug class", "Dual PPAR-alpha/delta agonist"],
-    ["Route", "Oral"],
-    ["Brand name", "Iqirvo[1][2]"],
-    ["Other name", "GFT505[1]"],
-    ["First approved", "June 2024 (US, accelerated)[1]"],
-    ["Developer", "Genfit; marketed by Ipsen[1]"],
-    ["Legal status", "Prescription-only (US, EU, Canada, Australia)[1]"]
+    [
+      "Drug class",
+      "Dual PPAR-alpha/delta agonist"
+    ],
+    [
+      "Route",
+      "Oral, once daily tablet[2]"
+    ],
+    [
+      "Brand name",
+      "Iqirvo[1][2]"
+    ],
+    [
+      "Other name",
+      "GFT505[1]"
+    ],
+    [
+      "Developer",
+      "Genfit; marketed by Ipsen[1][12]"
+    ],
+    [
+      "First approved",
+      "10 June 2024 (US, accelerated approval)[12]"
+    ],
+    [
+      "EU status",
+      "Conditional marketing authorization, September 2024[1]"
+    ],
+    [
+      "Legal status",
+      "Prescription-only (US, EU, Canada, Australia)[1]"
+    ]
   ],
   "sections": [
     {
       "h": "Medical uses",
       "paras": [
-        "The approved use is primary biliary cholangitis.[1][2] Wikipedia reports that Genfit is also studying it in type 2 diabetes, dyslipidemia and metabolic dysfunction-associated steatohepatitis.[1]"
+        "The approved use is primary biliary cholangitis, an autoimmune disease in which the small bile ducts of the liver are progressively damaged, leading to cholestasis and potentially to liver scarring. It mainly affects middle-aged women.[11] For decades the foundation of treatment has been UDCA, which delays progression in most patients but does not change symptoms such as itch; roughly 40 percent of patients show an incomplete response and are candidates for second-line agents.[11][14]",
+        "Elafibranor is one of several second-line options, alongside obeticholic acid and seladelpar.[11][14] The US label restricts it to adults with an inadequate response to UDCA, or those unable to tolerate UDCA.[2] The accelerated approval was based on reduction in alkaline phosphatase (ALP), a blood marker of cholestasis; continued approval depends on confirmatory trials of clinical benefit.[12] In October 2024 the UK health technology body NICE recommended it for adults with PBC.[1]",
+        "Wikipedia reports that Genfit also studied it in type 2 diabetes, dyslipidemia and metabolic dysfunction-associated steatohepatitis.[1] Its developers have additionally pursued primary sclerosing cholangitis (PSC), another bile duct disease, in a phase 2 program.[12][15]"
       ]
     },
     {
       "h": "Adverse effects",
       "paras": [
-        "Wikipedia lists weight gain, diarrhea, abdominal pain, nausea, vomiting, joint pain, constipation, muscle injury, fracture, reflux, dry mouth, weight loss and rash among reported reactions.[1]"
+        "Reactions listed for the drug include weight gain, diarrhea, abdominal pain, nausea, vomiting, joint pain, constipation, muscle injury, fracture, gastroesophageal reflux, dry mouth, weight loss and rash.[1] The prescribing information is the authoritative source for warnings and contraindications, and patients are monitored by hepatology specialists.[2]",
+        "A pregnancy surveillance program was registered in 2026 to collect safety data on use during pregnancy, indicating that human pregnancy data remain limited.[16]"
       ]
     },
     {
       "h": "Pharmacology",
-      "paras": [
-        "Elafibranor and its main active metabolite GFT1007 activate PPAR-alpha, PPAR-gamma and PPAR-delta in vitro.[1] A structural study compared its PPAR subtype preferences with seladelpar and lanifibranor.[5] Pharmacokinetic studies have been run in hepatic and renal impairment, elderly volunteers and Japanese participants.[6][7][8]"
+      "subs": [
+        {
+          "h": "Mechanism of action",
+          "paras": [
+            "Elafibranor and its main active metabolite GFT1007 activate PPAR-alpha, PPAR-gamma and PPAR-delta in vitro.[1] PPARs are nuclear receptors that govern genes for energy metabolism, lipid handling and differentiation; PPAR-alpha is prominent in the liver and PPAR-delta in muscle and other tissues.[17] In PBC the drug is thought to act on bile acid synthesis and inflammation pathways, lowering ALP.[11][14]",
+            "A structural study compared the PPAR subtype preferences of elafibranor with those of seladelpar and lanifibranor, two other agonists in development for liver disease.[5]"
+          ]
+        },
+        {
+          "h": "Pharmacokinetics",
+          "paras": [
+            "Pharmacokinetic studies have been run in people with hepatic and renal impairment, in elderly volunteers, in Japanese participants compared with non-Asian participants, and on the effect of food on drug levels.[6][7][8][18]"
+          ]
+        }
       ]
     },
     {
       "h": "History",
       "paras": [
-        "A phase 2 trial published in Gastroenterology in 2016 reported that elafibranor induced NASH resolution without fibrosis worsening in a subgroup analysis.[3] The phase 3 NASH study enrolled 2,157 patients and was terminated.[4] The FDA granted breakthrough therapy designation in 2019 on phase 2 PBC data, and the 2024 accelerated approval rested on the phase 3 ELATIVE trial.[1]"
+        "Genfit developed GFT505 as a PPAR-alpha/delta agonist for metabolic disease. A phase 2 trial published in Gastroenterology in 2016 reported that elafibranor induced NASH resolution without fibrosis worsening in a subgroup analysis.[3] The phase 3 RESOLVE-IT study, registered in 2016, enrolled 2,157 patients and was terminated.[4]",
+        "The company then turned to PBC. The FDA granted breakthrough therapy designation in 2019 on phase 2 data, and Ipsen licensed the compound for development.[1][12] The 2024 accelerated approval rested on the phase 3 ELATIVE trial, and the EU Committee for Medicinal Products for Human Use gave a positive opinion in July 2024.[1][12] A review in Drugs described it as a first-in-class PPAR agonist approval for PBC.[12]"
+      ]
+    },
+    {
+      "h": "Society and culture",
+      "paras": [
+        "Elafibranor is a specialist hepatology drug and has little presence in appearance forums. Interest in PPAR-delta agonists more broadly comes from athletics and fat-loss discussion, where the receptor is described as an exercise-mimicking pathway. No studies of elafibranor in healthy people for such goals have been published, and it is available only by prescription for its approved indication.[1][2]"
       ]
     },
     {
       "h": "Clinical studies",
       "paras": [
-        "A phase 2 placebo-controlled trial in PBC with incomplete response to UDCA was published in the Journal of Hepatology in 2021.[9] The phase 3 ELATIVE trial was reported in the New England Journal of Medicine in 2024; Wikipedia gives a cholestasis response of 51 percent with elafibranor versus 4 percent with placebo at week 52.[10][1] The NASH program included the 2016 phase 2 study and a terminated phase 3 study.[3][4]",
+        "A 12-week phase 2 placebo-controlled trial in 45 adults with PBC and incomplete UDCA response, published in the Journal of Hepatology in 2021, tested two elafibranor doses. ALP fell by about 48 percent in the 80 mg group and 41 percent in the 120 mg group versus a 3 percent rise on placebo, and the composite biochemical response was reached by 67 and 79 percent of treated patients versus 6.7 percent on placebo.[9]",
+        "The phase 3 ELATIVE trial randomized 161 patients 2:1 to once-daily elafibranor or placebo and was reported in the New England Journal of Medicine in 2024. Its primary end point was a biochemical response at week 52; Wikipedia, citing NICE, gives a cholestasis response of 51 percent with elafibranor versus 4 percent with placebo.[10][1] A later analysis examined how baseline ALP affected response rates.[19]",
+        "A network meta-analysis of three placebo-controlled trials (379 treated and 191 placebo patients) found that obeticholic acid, seladelpar and elafibranor all raised the chance of biochemical response; it estimated an advantage for elafibranor over seladelpar, with a wide confidence interval, and noted that obeticholic acid was associated with more new-onset itch.[14]",
+        "In NASH, the 2016 phase 2 study and the terminated phase 3 trial formed the program.[3][4] An open-label phase 2 study in children with NASH and a phase 2 trial in primary sclerosing cholangitis (ELMWOOD) have also been published or registered.[15][20] Animal work includes a study comparing liraglutide, obeticholic acid and elafibranor in obese mouse models of biopsy-confirmed NASH.[21]",
         "No studies found of elafibranor for appearance, fat loss or muscle goals."
+      ]
+    },
+    {
+      "h": "Research",
+      "paras": [
+        "Ongoing registered work includes a phase 3 study in Japanese adults with PBC and a study of fatigue, itch and daily activities in people starting the drug.[22][23] Broader reviews of PPAR modulators describe the receptor family as a long-running target in metabolic disease.[17]"
       ]
     }
   ],
   "timeline": [
-    { "year": "2016", "event": "Phase 2 NASH results published; phase 3 NASH trial begins.[3][4]" },
-    { "year": "2019", "event": "FDA breakthrough therapy designation for PBC.[1]" },
-    { "year": "2024", "event": "ELATIVE results in NEJM; FDA accelerated approval (June) and EU conditional authorization (September).[10][1]" }
+    {
+      "year": "2016",
+      "event": "Phase 2 NASH results published; phase 3 NASH trial begins.[3][4]"
+    },
+    {
+      "year": "2019",
+      "event": "FDA breakthrough therapy designation for PBC.[1]"
+    },
+    {
+      "year": "2021",
+      "event": "Phase 2 PBC trial published in the Journal of Hepatology.[9]"
+    },
+    {
+      "year": "2024",
+      "event": "ELATIVE results in NEJM; FDA accelerated approval (10 June), CHMP positive opinion (July), EU conditional authorization (September), NICE recommendation (October).[10][1][12]"
+    }
   ],
   "lore": null,
   "refs": [
-    { "id": 1, "title": "Elafibranor", "url": "https://en.wikipedia.org/wiki/Elafibranor", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "US drug label: Iqirvo (elafibranor)", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d78aa14f-6ec1-4b1d-a4ae-e48658137a25", "source": "DailyMed", "year": 2024, "type": "label" },
-    { "id": 3, "title": "Elafibranor, an Agonist of the Peroxisome Proliferator-Activated Receptor-alpha and -delta, Induces Resolution of Nonalcoholic Steatohepatitis Without Fibrosis Worsening.", "url": "https://pubmed.ncbi.nlm.nih.gov/26874076/", "source": "Gastroenterology", "year": 2016, "type": "trial" },
-    { "id": 4, "title": "Phase 3 Study of Elafibranor Versus Placebo in NASH (NCT02704403)", "url": "https://clinicaltrials.gov/study/NCT02704403", "source": "ClinicalTrials.gov", "year": 2016, "type": "trial" },
-    { "id": 5, "title": "Functional and Structural Insights into the Human PPARalpha/delta/gamma Targeting Preferences of Anti-NASH Investigational Drugs, Lanifibranor, Seladelpar, and Elafibranor.", "url": "https://pubmed.ncbi.nlm.nih.gov/37627519/", "source": "Antioxidants", "year": 2023, "type": "study" },
-    { "id": 6, "title": "Elafibranor Pharmacokinetic Parameters in Hepatic Impaired Patients (NCT03765671)", "url": "https://clinicaltrials.gov/study/NCT03765671", "source": "ClinicalTrials.gov", "year": 2018, "type": "trial" },
-    { "id": 7, "title": "Elafibranor Pharmacokinetic Parameters in Renal Impaired Patients (NCT03844555)", "url": "https://clinicaltrials.gov/study/NCT03844555", "source": "ClinicalTrials.gov", "year": 2019, "type": "trial" },
-    { "id": 8, "title": "Elafibranor Pharmacokinetic Parameters in Elderly Healthy Volunteers (NCT04171752)", "url": "https://clinicaltrials.gov/study/NCT04171752", "source": "ClinicalTrials.gov", "year": 2019, "type": "trial" },
-    { "id": 9, "title": "A randomized placebo-controlled trial of elafibranor in patients with primary biliary cholangitis and incomplete response to UDCA.", "url": "https://pubmed.ncbi.nlm.nih.gov/33484775/", "source": "Journal of Hepatology", "year": 2021, "type": "trial" },
-    { "id": 10, "title": "Efficacy and Safety of Elafibranor in Primary Biliary Cholangitis.", "url": "https://pubmed.ncbi.nlm.nih.gov/37962077/", "source": "New England Journal of Medicine", "year": 2024, "type": "trial" }
+    {
+      "id": 1,
+      "title": "Elafibranor",
+      "url": "https://en.wikipedia.org/wiki/Elafibranor",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "US drug label: Iqirvo (elafibranor)",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d78aa14f-6ec1-4b1d-a4ae-e48658137a25",
+      "source": "DailyMed",
+      "year": 2024,
+      "type": "label"
+    },
+    {
+      "id": 3,
+      "title": "Elafibranor, an Agonist of the Peroxisome Proliferator-Activated Receptor-alpha and -delta, Induces Resolution of Nonalcoholic Steatohepatitis Without Fibrosis Worsening.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26874076/",
+      "source": "Gastroenterology",
+      "year": 2016,
+      "type": "trial"
+    },
+    {
+      "id": 4,
+      "title": "Phase 3 Study of Elafibranor Versus Placebo in NASH (NCT02704403)",
+      "url": "https://clinicaltrials.gov/study/NCT02704403",
+      "source": "ClinicalTrials.gov",
+      "year": 2016,
+      "type": "trial"
+    },
+    {
+      "id": 5,
+      "title": "Functional and Structural Insights into the Human PPARalpha/delta/gamma Targeting Preferences of Anti-NASH Investigational Drugs, Lanifibranor, Seladelpar, and Elafibranor.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37627519/",
+      "source": "Antioxidants",
+      "year": 2023,
+      "type": "study"
+    },
+    {
+      "id": 6,
+      "title": "Elafibranor Pharmacokinetic Parameters in Hepatic Impaired Patients (NCT03765671)",
+      "url": "https://clinicaltrials.gov/study/NCT03765671",
+      "source": "ClinicalTrials.gov",
+      "year": 2018,
+      "type": "trial"
+    },
+    {
+      "id": 7,
+      "title": "Elafibranor Pharmacokinetic Parameters in Renal Impaired Patients (NCT03844555)",
+      "url": "https://clinicaltrials.gov/study/NCT03844555",
+      "source": "ClinicalTrials.gov",
+      "year": 2019,
+      "type": "trial"
+    },
+    {
+      "id": 8,
+      "title": "Elafibranor Pharmacokinetic Parameters in Elderly Healthy Volunteers (NCT04171752)",
+      "url": "https://clinicaltrials.gov/study/NCT04171752",
+      "source": "ClinicalTrials.gov",
+      "year": 2019,
+      "type": "trial"
+    },
+    {
+      "id": 9,
+      "title": "A randomized placebo-controlled trial of elafibranor in patients with primary biliary cholangitis and incomplete response to UDCA.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33484775/",
+      "source": "Journal of Hepatology",
+      "year": 2021,
+      "type": "trial"
+    },
+    {
+      "id": 10,
+      "title": "Efficacy and Safety of Elafibranor in Primary Biliary Cholangitis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37962077/",
+      "source": "New England Journal of Medicine",
+      "year": 2024,
+      "type": "trial"
+    },
+    {
+      "id": 11,
+      "title": "Primary biliary cholangitis: Personalizing second-line therapies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39707635/",
+      "source": "Hepatology",
+      "year": 2025,
+      "type": "review"
+    },
+    {
+      "id": 12,
+      "title": "Elafibranor: First Approval.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39110316/",
+      "source": "Drugs",
+      "year": 2024,
+      "type": "review"
+    },
+    {
+      "id": 13,
+      "title": "Current and upcoming pharmacotherapy for non-alcoholic fatty liver disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27646933/",
+      "source": "Gut",
+      "year": 2017,
+      "type": "review"
+    },
+    {
+      "id": 14,
+      "title": "Second-Line Treatment for Patients With Primary Biliary Cholangitis: A Systematic Review With Network Meta-Analysis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39720853/",
+      "source": "Liver International",
+      "year": 2025,
+      "type": "review"
+    },
+    {
+      "id": 15,
+      "title": "Safety and efficacy of elafibranor in primary sclerosing cholangitis: The ELMWOOD phase II randomized-controlled trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40350321/",
+      "source": "Journal of Hepatology",
+      "year": 2026,
+      "type": "trial"
+    },
+    {
+      "id": 16,
+      "title": "Elafibranor Pregnancy Surveillance Program (NCT07556913)",
+      "url": "https://clinicaltrials.gov/study/NCT07556913",
+      "source": "ClinicalTrials.gov",
+      "year": 2026,
+      "type": "trial"
+    },
+    {
+      "id": 17,
+      "title": "Exploration and Development of PPAR Modulators in Health and Disease: An Update of Clinical Evidence.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31614690/",
+      "source": "Int J Mol Sci",
+      "year": 2019,
+      "type": "review"
+    },
+    {
+      "id": 18,
+      "title": "Effect of Food on Elafibranor Levels (NCT05564208)",
+      "url": "https://clinicaltrials.gov/study/NCT05564208",
+      "source": "ClinicalTrials.gov",
+      "year": 2022,
+      "type": "trial"
+    },
+    {
+      "id": 19,
+      "title": "Baseline Alkaline Phosphatase Impacts Response Rates in PBC: Exploring Response to Elafibranor in ELATIVE.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41937506/",
+      "source": "Liver International",
+      "year": 2026,
+      "type": "trial"
+    },
+    {
+      "id": 20,
+      "title": "An Open Label, Randomized, Multicenter Study of Elafibranor in Children With NASH.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37084342/",
+      "source": "J Pediatr Gastroenterol Nutr",
+      "year": 2023,
+      "type": "trial"
+    },
+    {
+      "id": 21,
+      "title": "Metabolic and hepatic effects of liraglutide, obeticholic acid and elafibranor in diet-induced obese mouse models of biopsy-confirmed NASH.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29375204/",
+      "source": "World J Gastroenterol",
+      "year": 2018,
+      "type": "study"
+    },
+    {
+      "id": 22,
+      "title": "Elafibranor in Adult Japanese Participants With PBC (NCT06730061)",
+      "url": "https://clinicaltrials.gov/study/NCT06730061",
+      "source": "ClinicalTrials.gov",
+      "year": 2025,
+      "type": "trial"
+    },
+    {
+      "id": 23,
+      "title": "Fatigue, Itching and Daily Activities in People With PBC Starting Elafibranor (NCT07906639)",
+      "url": "https://clinicaltrials.gov/study/NCT07906639",
+      "source": "ClinicalTrials.gov",
+      "year": 2026,
+      "type": "trial"
+    }
   ],
   "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Elafibranor", "title": "Elafibranor - Wikipedia" }
+    {
+      "url": "https://en.wikipedia.org/wiki/Elafibranor",
+      "title": "Elafibranor - Wikipedia"
+    }
   ],
   "card": {
     "summary": "An approved dual PPAR-alpha/delta agonist for primary biliary cholangitis, with no research on appearance or fat-loss outcomes.",
@@ -82,5 +329,15 @@
     "overview": "Elafibranor is a prescription drug approved in 2024 for primary biliary cholangitis. It activates two PPAR receptors, including PPAR-delta, which links it to fat-metabolism discussions.\n\nIts trials track liver markers; none examine body composition or looks.",
     "mechanism": "It and its main metabolite activate PPAR-alpha and PPAR-delta (and PPAR-gamma in vitro), receptors that regulate fat and bile acid metabolism.",
     "risks": "Reported reactions include weight gain, diarrhea, abdominal pain, nausea, joint pain, muscle injury and fracture, among others. It is prescription-only."
+  },
+  "angle": {
+    "goal": "Body fat",
+    "chain": [
+      "Activates PPAR-alpha and PPAR-delta, receptors that regulate fatty-acid metabolism",
+      "Studied for liver fat, bile and lipid markers in liver disease",
+      "Any effect on leanness or muscle is a theoretical extension of the receptor biology, not a tested outcome"
+    ],
+    "effect": "claimed",
+    "text": "People interested in fat metabolism sometimes look at PPAR-delta agonists because the receptor is involved in how tissues burn fat. Elafibranor is a prescription liver medicine whose trials track liver biochemistry; its connection to body composition rests on the receptor's known role rather than on trial results."
   }
 }

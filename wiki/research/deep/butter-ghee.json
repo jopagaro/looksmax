@@ -1,76 +1,346 @@
 {
-  "name": "Butter / ghee",
-  "lead": [
-    "Butter is a dairy fat made by churning cream, about 80 percent butterfat, and ghee is a South Asian clarified butter simmered until its milk solids are removed [1][2]. In looksmaxxing and ancestral-diet communities they are promoted as alternatives to vegetable oils.",
-    "Health authorities cited in reference works advise limiting both because of saturated fat: the UK NHS advises eating butter less often, and the WHO's 2023 guidance is cited as recommending plant oils over ghee [1][2]. A 2016 meta-analysis found small or insignificant associations between about 14 grams of butter a day and mortality or cardiovascular disease [1]."
+ "name": "Butter / ghee",
+ "card": {
+  "summary": "Dairy fats promoted over vegetable oils; guidelines advise limiting them for saturated fat, appearance effects untested.",
+  "aka": "Clarified butter",
+  "evidence": "unproven",
+  "risk": "low",
+  "note": "Health bodies advise limiting saturated fat.",
+  "price": null
+ },
+ "quick": {
+  "overview": "Butter and ghee are dairy fats that some communities favour over vegetable oils.\n\nHealth bodies advise limiting them for saturated fat, while a 2016 meta-analysis found small or insignificant associations with mortality at modest intake.",
+  "mechanism": "They are mostly saturated and monounsaturated fat with vitamin A; ghee has milk solids removed and a higher smoke point.",
+  "risks": "Higher LDL cholesterol with replacement of plant oils; ghee on newborn umbilical wounds was linked to neonatal tetanus."
+ },
+ "lead": [
+  "Butter is a dairy fat made by churning cream, roughly 80 percent butterfat, and ghee is a South Asian clarified butter that is simmered until its water and milk solids are removed, leaving nearly pure fat [1][2]. In looksmaxxing and ancestral-diet circles they are discussed as traditional cooking fats and as alternatives to seed and vegetable oils, within diets aimed at body composition, skin and hormone health.",
+  "The appearance chain people describe runs through diet: a calorie-dense, fat-soluble-vitamin-bearing fat (butter and ghee contain vitamin A and E) is used to add energy to a lean-gaining or whole-food diet, and some communities link saturated fat and dietary cholesterol to hormone production and to skin quality. Butter's vitamin A content is listed at about 76 percent of the daily value per 100 g [1], and ghee's at about 93 percent [2].",
+  "Health authorities cited in reference works advise limiting both because of saturated fat: the UK NHS advises eating butter less often and in small amounts, and ghee is among the fats that the British Nutrition Foundation, the Heart and Stroke Foundation of Canada and the WHO advise limiting in favour of plant oils [1][2]. A 2016 meta-analysis found small or insignificant associations between about 14 grams of butter a day and mortality, cardiovascular disease or diabetes [1]. No published trial has tested butter or ghee for skin, physique or facial appearance."
+ ],
+ "angle": {
+  "goal": "Skin / Body composition",
+  "chain": [
+   "Butter or ghee replaces seed oils in cooking",
+   "Adds calories plus vitamins A and E",
+   "Proponents link this to energy, hormone support and skin condition"
   ],
-  "infobox": [
-    ["Type", "Dairy fat"],
-    ["Butter saturated fat", "About 51 g per 100 g"],
-    ["Ghee saturated fat", "About 62% of fat"],
-    ["Smoke point", "Butter about 150 C; ghee about 200 to 250 C"],
-    ["Evidence for appearance use", "None identified"]
+  "effect": "claimed",
+  "text": "People who favour butter and ghee use them as the main cooking and added fat in whole-food or ancestral-style diets, citing their calorie density, vitamin A and E content and high smoke point. The appearance benefits described (leaner-gaining energy, skin and hormone support) are the reasoning of proponents rather than outcomes measured in trials."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Dairy fat (butter) and clarified butterfat (ghee)"
   ],
-  "sections": [
-    {
-      "h": "Composition",
-      "paras": [
-        "Per 100 grams, salted butter has about 717 kilocalories and 51.4 grams of saturated fat, and contains only traces of lactose [1]. Ghee is nearly all fat at about 876 kilocalories, with roughly 62 percent saturated fat, plus vitamins A and E [2]."
-      ]
-    },
-    {
-      "h": "Saturated fat research",
-      "paras": [
-        "Replacing olive or sunflower oil with butter raises LDL cholesterol, and direct evidence as of 2024 was described as limited but pointing toward higher cardiovascular risk than plant fats [1]. The 2016 meta-analysis found no strong case for changing guidelines on butter either way [1]. A 2025 study of over 200,000 US adults reported higher cancer risk with more butter than plant oils [1]."
-      ]
-    },
-    {
-      "h": "Ghee",
-      "paras": [
-        "Ghee is used in South Asian cooking and in Vedic and other religious rituals [2]. Its high smoke point suits frying [2]. A 2014 study reported higher DHA in ghrita made by a traditional Ayurvedic method [2]. A 2024 food-science comparison of butter, ghee and margarine exists in the literature [3]."
-      ]
-    },
-    {
-      "h": "Reported risks",
-      "paras": [
-        "Case-control studies in Pakistan in 1991 and 1995 found that applying ghee to newborns' umbilical wounds was a risk factor for neonatal tetanus [4][5]. This concerns topical application, not eating it."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found on butter or ghee as a replacement for vegetable oils for appearance outcomes. Cardiovascular and dietary research is summarised above [1]."
-      ]
-    }
+  [
+   "Butter, per 100 g",
+   "About 717 kcal, 51 g saturated fat, about 215 mg cholesterol [1]"
   ],
-  "timeline": [
-    { "year": "c. 2500 BC", "event": "Sumerian tablet describes butter-making [1]." },
-    { "year": "1950s", "event": "Margarine overtakes butter in the US [1]." },
-    { "year": "2023", "event": "WHO guideline update advising limits on saturated fat [2]." }
+  [
+   "Ghee, per 100 g",
+   "About 876 kcal, about 62 g saturated fat, 256 mg cholesterol [2]"
   ],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Butter", "url": "https://en.wikipedia.org/wiki/Butter", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Ghee", "url": "https://en.wikipedia.org/wiki/Ghee", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 3, "title": "A Comparative Analysis of Butter, Ghee, and Margarine and Its Implications for Healthier Fat and Oil Group Choices: SWOT Analysis", "url": "https://pubmed.ncbi.nlm.nih.gov/39723069/", "source": "Food science & nutrition", "year": 2024, "type": "review" },
-    { "id": 4, "title": "A reassessment of risk factors for neonatal tetanus", "url": "https://pubmed.ncbi.nlm.nih.gov/1959158/", "source": "Bulletin of the World Health Organization", "year": 1991, "type": "study" },
-    { "id": 5, "title": "Further observations on ghee as a risk factor for neonatal tetanus", "url": "https://pubmed.ncbi.nlm.nih.gov/7672909/", "source": "International Journal of Epidemiology", "year": 1995, "type": "study" }
+  [
+   "Smoke point",
+   "Butter about 150 C; ghee about 200 to 250 C [1][2]"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Butter", "title": "Butter" },
-    { "url": "https://en.wikipedia.org/wiki/Ghee", "title": "Ghee" }
+  [
+   "Origin",
+   "Butter: Neolithic / Near East; ghee: South Asia, Vedic period [1][2]"
   ],
-  "card": {
-    "summary": "Dairy fats promoted over vegetable oils; guidelines advise limiting them for saturated fat, appearance effects untested.",
-    "aka": "Clarified butter",
-    "evidence": "unproven",
-    "risk": "low",
-    "note": "Health bodies advise limiting saturated fat.",
-    "price": null
+  [
+   "Studies on appearance",
+   "None found"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Butter is a semi-solid emulsion of fat in water. Commercial butter is about 80 percent fat and 15 percent water, while traditional butters can carry less fat and more water [1]. Varieties include sweet-cream butter, made from fresh cream and dominant in the US and UK, and cultured butter, made from fermented cream and preferred across continental Europe [1]. Indian white butter (makkhan) is typically made from buffalo or grain-fed cow milk, because beta-carotene from pasture turns butter yellow [1].",
+    "Ghee is made by simmering butter, skimming the impurities and pouring off the clear fat. Its flavour depends on the butter and on how long and how hot it is cooked; ghee made at 100 C or lower is described as milder, and cooking near 120 C gives a stronger flavour [2]. Cow-milk ghee is traditionally preferred with rice and flatbreads, while buffalo-milk ghee is more common for general cooking [2]. A 2025 food-chemistry study compared processing methods and the fatty-acid composition and flavour of ghee from two cattle breeds [8]."
+   ]
   },
-  "quick": {
-    "overview": "Butter and ghee are dairy fats that some communities favour over vegetable oils.\n\nHealth bodies advise limiting them for saturated fat, while a 2016 meta-analysis found small or insignificant associations with mortality at modest intake.",
-    "mechanism": "They are mostly saturated and monounsaturated fat with vitamin A; ghee has milk solids removed and a higher smoke point.",
-    "risks": "Higher LDL cholesterol with replacement of plant oils; ghee on newborn umbilical wounds was linked to neonatal tetanus."
+  {
+   "h": "History",
+   "paras": [
+    "Butter-making may date to the Neolithic era. A Sumerian tablet from around 2500 BC describes it, and other tablets list butter as a ritual offering [1]. Greeks and Romans used it mainly as medicine or ointment, and butter had a low reputation in medieval Europe before the Church allowed it in Lent from the early 16th century [1]. Scandinavia has Europe's oldest butter export tradition, from at least the 12th century, and Irish bog butter was most common from the 11th to the 14th centuries [1].",
+    "Industrial production began in the early 1860s with the first US butter factories, followed by the centrifugal cream separator in the late 1870s and four-ounce packaged sticks from about 1907 [1]. Margarine overtook butter in US consumption in the 1950s, and butter consumption fell across most Western countries during the 20th century [1].",
+    "Ghee takes its name from the Sanskrit ghrita. It has been used in rituals since the Vedic period, including fire offerings and temple lamps, and appears in Ayurvedic preparations called ghrita [2]. In the mid-2020s a social-media trend of giving babies butter before bed circulated; the Wikipedia article on butter notes that experts say there is no supporting evidence and that its safety is unknown [1]."
+   ]
+  },
+  {
+   "h": "Composition and nutrition",
+   "paras": [
+    "Per 100 grams, salted butter provides about 717 kilocalories, 81 g fat of which 51 g is saturated, about 215 mg cholesterol, trace lactose, and vitamin A (76 percent of the daily value), vitamin E (15 percent) and vitamin K (6 percent) [1]. Ghee is almost entirely fat at about 876 kilocalories per 100 g, roughly 62 percent saturated, 29 percent monounsaturated and 4 percent polyunsaturated, with no protein or carbohydrate to speak of, and provides about 93 percent of the daily value of vitamin A and 19 percent of vitamin E [2].",
+    "Because the milk solids are removed, ghee contains little lactose or casein, and a 2015 analysis examined the lactose and galactose content of milk fats for people with galactosaemia. Ghee's smoke point of about 250 C is above typical frying temperatures and above that of many vegetable oils [2]."
+   ]
+  },
+  {
+   "h": "Use in diets aimed at looks and physique",
+   "paras": [
+    "People who discuss butter and ghee for appearance usually place them inside a wider eating pattern: ancestral or 'primal' diets, carnivore and animal-based diets, traditional-foods diets, and calorie-dense plans for gaining muscle or weight. In these, butter or ghee serves as a cooking fat, an energy-dense addition to meals, and a source of vitamins A and E. [1][2][12][14][15]",
+    "The reasoning proponents give links dietary fat to hormones and skin. A looksmax.org thread on a primal diet asks how raw butter and kefir affect hormones, and another thread lists raw beef, egg yolks and butter as a food combination. [14][15] These posts describe the intent of the eaters; they are not measurements of skin, physique or facial changes."
+   ]
+  },
+  {
+   "h": "Saturated fat research",
+   "paras": [
+    "Replacing plant oils such as olive or sunflower oil with butter raises LDL cholesterol, and higher LDL is linked to higher risk of stroke and heart attack [1]. A 2018 randomised trial published in BMJ Open compared coconut oil, olive oil and butter in healthy men and women over four weeks and examined blood lipids, weight and other cardiovascular risk markers [6]. The 2016 meta-analysis found small or insignificant associations between 14 g of butter a day and mortality, cardiovascular disease or diabetes and concluded the evidence did not justify major guideline changes in either direction [1]. A 2021 meta-analysis of two studies of more than 50,000 people found no significant cancer increase, while a 2025 study of over 200,000 US adults reported higher cancer risk with more butter than with plant oils [1].",
+    "The question has been widely discussed beyond medicine; a 2017 Hacker News thread on a study reporting that replacing butter with vegetable oils did not cut heart disease risk drew about 176 comments [7].",
+    "Wikipedia's saturated fat article reports that saturated fat raises LDL cholesterol and that the WHO and American Heart Association list it as a cardiovascular risk factor, with WHO guidance of under 10 percent of daily energy from saturated fat and a Cochrane review finding moderate-quality evidence that replacing it with unsaturated fats for at least two years reduces cardiovascular risk. [9] The same article notes the debate: a 2010 American Dietetic Association discussion criticised blanket recommendations, and critics warn that replacing saturated fat with refined carbohydrate may not help, while a 2022 review found no association between total saturated fat and type 2 diabetes. [9] Butterfat is about 66 percent saturated. [9]"
+   ]
+  },
+  {
+   "h": "Ghee in culture and use",
+   "paras": [
+    "Ghee is central to South Asian cooking, used in rice dishes, flatbreads, dal, curries and sweets such as halva and laddu, and in Vedic fire rituals and temple worship [2]. A 2014 study reported higher DHA content in ghrita prepared by a traditional Ayurvedic method [2]. A 2024 food-science comparison of butter, ghee and margarine examined the three fats' composition and their implications for fat and oil choices [3]."
+   ]
+  },
+  {
+   "h": "Related dietary movements",
+   "paras": [
+    "The Weston A. Price Foundation, co-founded in 1999 by Sally Fallon and Mary Enig and named for a dentist whose 1939 book Nutrition and Physical Degeneration recorded fieldwork on pre-industrial diets, recommends minimally processed foods including raw and fermented dairy and traditional fats, and takes a favourable view of saturated fat and cholesterol. Critics including Quackwatch and Science-Based Medicine dispute its claims, and the FDA and CDC dispute its raw-milk claims. [11]",
+    "Bulletproof coffee, popularised by Dave Asprey, adds butter to coffee. Asprey says he developed it after drinking yak-butter tea in Tibet and published the recipe on his blog in 2009; he has said it was among the habits that raised his IQ, a claim for which no evidence was provided, and dietitians cited on Wikipedia describe the alertness as a caffeine effect. [10]",
+    "The carnivore diet, promoted on social media by Shawn Baker from 2018 and followed by Jordan and Mikhaila Peterson, eats only animal products, and its animal-based variant adds fruit, honey and raw dairy. Professional dietetic bodies list it as a fad diet, and Wikipedia notes it raises LDL cholesterol. [12]",
+    "A parallel 'seed oil' debate treats vegetable and seed oils as harmful and animal fats as preferable. Wikipedia's vegetable oil article reports the US FDA classifies vegetable oils as generally recognised as safe, cites Harvard and American Heart Association articles disputing claims of seed oil harm, and states that partially hydrogenated oils containing trans fats are linked to higher coronary mortality. [13]"
+   ]
+  },
+  {
+   "h": "Reported risks",
+   "paras": [
+    "Case-control studies in Pakistan in 1991 and 1995 found that applying ghee to newborns' umbilical wounds was a risk factor for neonatal tetanus [4][5]. This concerns topical application to wounds, not eating ghee. Dietary guidance from the NHS, the WHO and others advises limiting saturated fat [1][2]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found on butter or ghee as a replacement for vegetable oils for skin, physique or appearance outcomes. Related dietary research includes the 2018 four-week randomised trial of coconut oil, olive oil and butter on blood lipids [6] and the 2016 meta-analysis of butter intake and mortality [1]."
+   ]
   }
+ ],
+ "timeline": [
+  {
+   "year": "c. 2500 BC",
+   "event": "Sumerian tablet describes butter-making [1]."
+  },
+  {
+   "year": "Vedic period",
+   "event": "Ghee used in South Asian rituals and cooking [2]."
+  },
+  {
+   "year": "Early 16th century",
+   "event": "The Church allows butter during Lent in Europe [1]."
+  },
+  {
+   "year": "1860s",
+   "event": "First US butter factories open [1]."
+  },
+  {
+   "year": "1950s",
+   "event": "Margarine overtakes butter in US consumption [1]."
+  },
+  {
+   "year": "2016",
+   "event": "Meta-analysis finds small or insignificant associations between butter intake and mortality [1]."
+  },
+  {
+   "year": "2023",
+   "event": "WHO guideline update advising limits on saturated fat [2]."
+  }
+ ],
+ "lore": {
+  "intro": "Butter and ghee come up in looksmaxxing, primal and carnivore circles as traditional fats that proponents prefer over seed oils for hormones, skin and energy. [14][15]",
+  "claims": [
+   {
+    "claim": "Butter and ghee are better than seed oils",
+    "believers": "Proponents in primal, carnivore and traditional-foods circles favour animal fats and avoid seed oils, citing tradition and perceived inflammation. [11][12][15]",
+    "experts": "Wikipedia reports the FDA classes vegetable oils as safe and that health bodies advise plant oils over butter and ghee to limit saturated fat; a 2018 randomised trial compared butter, olive and coconut oil on blood lipids. [1][2][6][13]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Dietary saturated fat and cholesterol support hormones",
+    "believers": "A looksmax.org thread asks about raw butter and kefir and female hormones on a primal diet, reflecting the belief that fat intake supports hormone production. [15]",
+    "experts": "No published trial has tested butter or ghee for hormonal or appearance outcomes; guidance focuses on LDL cholesterol and cardiovascular risk. [9]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Butter or ghee improves skin",
+    "believers": "Proponents cite the vitamin A and E content of butter and ghee. [1][2]",
+    "experts": "The vitamin content is documented, about 76 percent of the daily value of vitamin A per 100 g of butter, but no published trial has tested butter or ghee for skin outcomes. [1][2]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Butter in coffee gives energy and mental clarity",
+    "believers": "Asprey says butter coffee raised his IQ and is part of his diet system. [10]",
+    "experts": "Dietitians cited on Wikipedia attribute the alertness to caffeine and say there is no scientific basis for an IQ boost. [10]",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "Butter fits a calorie-dense plan for gaining",
+    "believers": "Members add butter to meals to raise energy intake while eating whole foods. [14]",
+    "experts": "Butter provides about 717 kcal per 100 g and ghee about 876 kcal per 100 g, and health bodies advise limiting both for saturated fat. [1][2]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Ghee is safer or healthier than butter",
+    "believers": "Ghee is described as free of milk solids and suited to high-heat cooking. [2]",
+    "experts": "Ghee has a higher saturated fat share (about 62 percent of fat) and is among fats the WHO and others advise limiting; applied to newborn umbilical wounds it was linked to neonatal tetanus in Pakistani studies. [2][4][5]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Butter",
+   "url": "https://en.wikipedia.org/wiki/Butter",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Ghee",
+   "url": "https://en.wikipedia.org/wiki/Ghee",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "A Comparative Analysis of Butter, Ghee, and Margarine and Its Implications for Healthier Fat and Oil Group Choices: SWOT Analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39723069/",
+   "source": "Food science & nutrition",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "A reassessment of risk factors for neonatal tetanus",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1959158/",
+   "source": "Bulletin of the World Health Organization",
+   "year": 1991,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Further observations on ghee as a risk factor for neonatal tetanus",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7672909/",
+   "source": "International Journal of Epidemiology",
+   "year": 1995,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Randomised trial of coconut oil, olive oil or butter on blood lipids and other cardiovascular risk factors in healthy men and women",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29511019/",
+   "source": "BMJ Open",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Replacing butter with vegetable oils does not cut heart disease risk (Hacker News discussion)",
+   "url": "https://news.ycombinator.com/item?id=13632116",
+   "source": "Hacker News",
+   "year": 2017,
+   "type": "forum"
+  },
+  {
+   "id": 8,
+   "title": "Effect of processing methods on fatty acid composition and flavour profile of clarified butter (ghee) from Deoni and Holstein Friesian cow breeds",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40463655/",
+   "source": "Food Chemistry: X",
+   "year": 2025,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "Saturated fat",
+   "url": "https://en.wikipedia.org/wiki/Saturated_fat",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 10,
+   "title": "Dave Asprey",
+   "url": "https://en.wikipedia.org/wiki/Dave_Asprey",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 11,
+   "title": "Weston A. Price Foundation",
+   "url": "https://en.wikipedia.org/wiki/Weston_A._Price_Foundation",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 12,
+   "title": "Carnivore diet",
+   "url": "https://en.wikipedia.org/wiki/Carnivore_diet",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 13,
+   "title": "Vegetable oil",
+   "url": "https://en.wikipedia.org/wiki/Vegetable_oil",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 14,
+   "title": "Raw ground beef, egg yolks and butter",
+   "url": "https://looksmax.org/threads/raw-ground-beef-egg-yolks-and-butter.1769938/",
+   "source": "looksmax.org",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 15,
+   "title": "need some brains here primal diet kefir raw butter and female hormones",
+   "url": "https://looksmax.org/threads/need-some-brains-here-primal-diet-kefir-raw-butter-and-female-hormones.107587/",
+   "source": "looksmax.org",
+   "year": 2020,
+   "type": "forum"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Butter",
+   "title": "Butter"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Ghee",
+   "title": "Ghee"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Saturated_fat",
+   "title": "Saturated fat (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Dave_Asprey",
+   "title": "Dave Asprey (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Weston_A._Price_Foundation",
+   "title": "Weston A. Price Foundation (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Carnivore_diet",
+   "title": "Carnivore diet (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Vegetable_oil",
+   "title": "Vegetable oil (Wikipedia)"
+  }
+ ]
 }

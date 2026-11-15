@@ -1,69 +1,273 @@
 {
-  "name": "Tanning accelerator",
-  "card": {
-    "summary": "Topical or oral products, often tyrosine or psoralen-based, sold to speed up a UV tan; efficacy is unproven and users report more acne and rashes.",
-    "aka": "Tanning enhancer, tan extender, tyrosine tanning lotion",
-    "evidence": "unproven",
-    "outcome": "unsupported",
-    "price": null,
-    "note": "Used with UV exposure; a survey links use to frequent, high-risk indoor tanning and to skin reactions.",
-    "structure": null
-  },
-  "quick": {
-    "overview": "Tanning accelerators are lotions (and sometimes pills) marketed to indoor and outdoor tanners to make a tan appear faster or darker. They typically contain the amino acid tyrosine, psoralens, or other chemicals, and are meant to be used together with UV exposure.\n\nA 2015 survey of 200 indoor tanners found that just over half used them and that users tended to tan more often and to show more signs of tanning addiction. Encyclopedic sources say there is no scientific data supporting the claim that tyrosine boosts melanin formation in this way.",
-    "mechanism": "Marketing claims hold that tyrosine, a building block of melanin, increases pigment production when applied to the skin. Psoralens, such as 5-methoxypsoralen (bergapten), are photosensitizing compounds that sensitise skin to UV and have been used medically in psoriasis and vitiligo; they have also been described as sun-tanning accelerators.",
-    "risks": "In the 2015 survey, acne and rashes were more common among users, and adverse reactions stopped further use about 31 percent of the time. Psoralens are photosensitizers and a rhesus monkey study found a high share of topically applied 5-methoxypsoralen was absorbed. Accelerators are used with UV exposure, which is a documented cause of skin cancer."
-  },
-  "lead": [
-    "Tanning accelerators are topical products, and sometimes pills, sold to speed up or deepen tanning when combined with UV exposure from sunlight or tanning beds.[1][2] The ingredients described in the literature include tyrosine, psoralens and other chemicals.[1] Wikipedia describes them as lotions or pills, usually containing tyrosine, that claim to boost melanin formation, and states that no scientific data currently supports these claims.[3]",
-    "A 2015 survey in the Journal of the American Academy of Dermatology reported that 53 percent of 200 indoor tanners used accelerators, that users were more likely to spray tan, tan frequently and be addicted to tanning, and that acne and rashes were more common among them.[1] The authors characterised users as high-risk indoor tanners.[1]",
-    "No clinical trials of tyrosine or similar tanning accelerators for appearance have been found. The related compound 5-methoxypsoralen has been studied pharmacologically in animals and used medically for skin disease."
+ "name": "Tanning accelerator",
+ "card": {
+  "summary": "Topical or oral products, often tyrosine or psoralen-based, sold to speed up a UV tan; efficacy is unproven and users report more acne and rashes.",
+  "aka": "Tanning enhancer, tan extender, tyrosine tanning lotion",
+  "evidence": "unproven",
+  "outcome": "unsupported",
+  "price": null,
+  "note": "Used with UV exposure; a survey links use to frequent, high-risk indoor tanning and to skin reactions.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Tanning accelerators are lotions (and sometimes pills) marketed to indoor and outdoor tanners to make a tan appear faster or darker. They typically contain the amino acid tyrosine, psoralens, or other chemicals, and are meant to be used together with UV exposure.\nA 2015 survey of 200 indoor tanners found that just over half used them and that users tended to tan more often and to show more signs of tanning addiction. Encyclopedic sources say there is no scientific data supporting the claim that tyrosine boosts melanin formation in this way.",
+  "mechanism": "Marketing claims hold that tyrosine, a building block of melanin, increases pigment production when applied to the skin. Psoralens, such as 5-methoxypsoralen (bergapten), are photosensitizing compounds that sensitise skin to UV and have been used medically in psoriasis and vitiligo; they have also been described as sun-tanning accelerators.",
+  "risks": "In the 2015 survey, acne and rashes were more common among users, and adverse reactions stopped further use about 31 percent of the time. Psoralens are photosensitizers and a rhesus monkey study found a high share of topically applied 5-methoxypsoralen was absorbed. Accelerators are used with UV exposure, which is a documented cause of skin cancer."
+ },
+ "lead": [
+  "Tanning accelerators, also called tan enhancers or tan extenders, are lotions (and in some cases pills) marketed to people who tan in the sun or in sunbeds. Makers say they help a tan appear sooner or look deeper. They usually contain the amino acid tyrosine, psoralens or other ingredients, and they are meant to be used together with UV exposure, often as the first lotion in an indoor-tanning routine.[1][2][3]",
+  "The appeal for appearance is straightforward: a darker, more even tan in fewer sessions. Tyrosine is the raw material from which skin builds melanin, which is the logic behind the marketing, and psoralens such as 5-methoxypsoralen (bergapten) are photosensitising compounds that interact with UV light.[2][3] Some products also add bronzers or warming agents, and patent filings describe compositions that combine an accelerator with a bronzer.[4]",
+  "Research on accelerators is limited. The main human study is a 2015 survey of 200 indoor tanners, and the main laboratory work is a study of skin absorption of 5-methoxypsoralen in monkeys; no controlled trial of their tanning effect was found.[1][2]"
+ ],
+ "angle": {
+  "goal": "Skin tone",
+  "chain": [
+   "Lotion with tyrosine, psoralens or other agents is applied before UV exposure",
+   "Marketed as supporting melanin production or UV response",
+   "Tan is meant to appear faster or darker"
   ],
-  "infobox": [
-    ["Type", "Topical (and some oral) tanning-enhancement products"],
-    ["Common ingredients", "Tyrosine, psoralens (e.g. 5-methoxypsoralen), other agents[1][2]"],
-    ["Used with", "UV exposure (sun or indoor tanning)[1]"],
-    ["Survey prevalence", "53% of 200 indoor tanners reported use (2015)[1]"],
-    ["Efficacy evidence", "No supporting scientific data per Wikipedia summary[3]"]
+  "effect": "claimed",
+  "text": "People apply accelerators before sunbed or sun sessions in the hope of a deeper tan in less time. The products are used alongside UV exposure rather than instead of it, unlike sunless tanners based on dihydroxyacetone."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Topical (and some oral) tanning-enhancement products"
   ],
-  "sections": [
-    {
-      "h": "Description",
-      "paras": [
-        "Tanning accelerators are sold alongside indoor tanning lotions, often as the first lotion in a tanning routine. Some products also contain bronzers or warming agents, and patent filings describe accelerator compositions combined with bronzers.[4] Other sunless tanning products such as DHA self-tanners are a separate category that does not require UV.[3]",
-        "Psoralens appear in the sunless-tanning literature as agents that trigger melanogenesis rather than as a defined accelerator class.[3] 5-methoxypsoralen (bergapten) has been used to treat psoriasis and vitiligo and as a sun tanning accelerator.[2]"
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found testing the effectiveness of tanning accelerators in controlled human trials. Related research includes a cross-sectional survey of 200 indoor tanners, in which accelerator use was associated with more frequent tanning, spray tanning and tanning addiction, and with acne and rashes; the authors noted that the exact ingredients were not examined and that the sample was limited.[1]",
-        "In animal work, a study in three rhesus monkeys found that after topical application of radiolabelled 5-methoxypsoralen, about 58 percent of the dose was recovered in urine, versus about 72 percent after injection, indicating high absorption through the skin.[2]"
-      ]
-    },
-    {
-      "h": "Safety and risks",
-      "paras": [
-        "In the 2015 survey, adverse reactions to accelerators led users to stop using them 31 percent of the time.[1] Acne and rashes were more common among users than among non-users.[1]",
-        "Psoralens sensitise skin to UV light, and the monkey study's authors described the findings as part of the compound's dermatotoxic profile.[2] Dermatology literature describes UV exposure and sunbeds as major risk factors for melanoma.[1][3]"
-      ]
-    },
-    {
-      "h": "Use in looksmaxxing",
-      "paras": [
-        "Forum discussion of accelerators is sparse in the sources reviewed, and no looksmaxxing-specific claims are documented here."
-      ]
-    }
+  [
+   "Common ingredients",
+   "Tyrosine, psoralens such as 5-methoxypsoralen, other agents"
   ],
-  "timeline": [],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Tanning accelerators: prevalence, predictors of use, and adverse effects", "url": "https://pubmed.ncbi.nlm.nih.gov/25458018/", "source": "Journal of the American Academy of Dermatology", "year": 2015, "type": "study" },
-    { "id": 2, "title": "Percutaneous penetration of 5-methoxypsoralen in rhesus monkeys", "url": "https://pubmed.ncbi.nlm.nih.gov/21281688/", "source": "Food and Chemical Toxicology", "year": 2011, "type": "study" },
-    { "id": 3, "title": "Sunless tanning", "url": "https://en.wikipedia.org/wiki/Sunless_tanning", "source": "Wikipedia", "year": 2024, "type": "encyclopedia" },
-    { "id": 4, "title": "Melt formula (patent)", "url": "https://europepmc.org/article/PAT/US2009269290", "source": "Europe PMC patents", "year": 2009, "type": "news" }
+  [
+   "Used with",
+   "UV exposure (sun or indoor tanning)"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Sunless_tanning", "title": "Sunless tanning" }
+  [
+   "Survey prevalence",
+   "53% of 200 indoor tanners reported use (2015)"
+  ],
+  [
+   "Related category",
+   "Sunless tanners (DHA), which need no UV"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Description and types",
+   "paras": [
+    "Tanning accelerators are sold alongside indoor tanning lotions, often applied first in a routine. Some contain bronzers, which colour the skin immediately, and warming or tingle agents; patent filings describe emulsions that combine a tanning accelerator, a bronzer and a warming agent such as an alkyl ether of vanillyl alcohol.[4]",
+    "They are distinct from sunless tanning products, which use dihydroxyacetone (DHA) at roughly 3 to 5 percent to react with skin proteins and darken the surface without UV, or oral carotenoid products that tint the skin.[3] Wikipedia's article on sunless tanning places psoralens within the literature on agents that trigger melanogenesis.[3]"
+   ]
+  },
+  {
+   "h": "How a tan forms",
+   "paras": [
+    "Skin tans through melanocytes, which make melanin in two forms, red pheomelanin and dark brown eumelanin; melanin absorbs UV radiation.[7] Wikipedia explains that UVA mainly darkens melanin already present, giving a quick tan that fades, while UVB damages DNA and triggers new melanin production, producing a delayed tan that appears after two or three days and lasts weeks or months.[7] Accelerator marketing targets this process, with products pitched as supplying raw material or sensitising skin so that the same UV exposure gives more colour.[2][3]"
+   ]
+  },
+  {
+   "h": "Ingredients and how they are said to work",
+   "paras": [
+    "Tyrosine, the amino acid that melanocytes convert to melanin, is the best-known accelerator ingredient; marketing says that applying it provides building material for pigment. Wikipedia's sunless tanning article does not describe a documented tanning effect from this approach.[3]",
+    "5-Methoxypsoralen (bergapten) is a furanocoumarin first isolated from bergamot essential oil in 1834. It occurs in citrus and carrot-family plants and sensitises skin to UV light.[5] It has been used in psoriasis and vitiligo treatment and has been described as a sun-tanning accelerator.[2][5] The International Agency for Research on Cancer classifies it as probably carcinogenic to humans on animal evidence, and contact with plant material containing it followed by UV exposure can cause phytophotodermatitis.[5]"
+   ]
+  },
+  {
+   "h": "History of tanning products",
+   "paras": [
+    "Before the 1920s in the US and Western Europe, tanned skin was associated with outdoor labour, and a tan became fashionable in the 1920s after Coco Chanel's tan and the popularity of Josephine Baker, according to Wikipedia.[7] Jean Patou launched the first sun tan oil, Huile de Chaldee, in 1927, and baby oil was widely used in the 1950s to deepen a tan.[7] Indoor tanning in the late 1970s created a market of bronzers, intensifiers and accelerators sold beside salon beds.[6][7]",
+    "Psoralen-based tanning activators also circulated; Wikipedia says health authorities banned psoralen in July 1996 because of photocarcinogenic concerns.[7] Today tanning accelerators are generally tyrosine-based or proprietary blends, and their ingredient lists vary between brands.[1][3]"
+   ]
+  },
+  {
+   "h": "Related tanning products",
+   "paras": [
+    "Wikipedia's sunless tanning article describes several neighbours of the accelerator category. Temporary bronzers are tints that wash off and are used for one-day colour or to complement a DHA tan. DHA self-tanners date to Man-Tan in 1959 and Coppertone's Quick Tan in 1960, and automated spray booths broadened the market from the late 1990s.[3] Tanning pills based on beta-carotene or canthaxanthin are not approved by the FDA as tanning agents, and the agency has issued warnings about canthaxanthin, which is linked to orange-brown colouring and retinal deposits.[3]",
+    "Melanocortin-based injectables such as melanotan, developed from alpha-MSH analogs at the University of Arizona in the 1980s, are also discussed in tanning communities; Wikipedia reports that health agencies began issuing warnings in 2007 about unlicensed products.[3] These work through a different route from topical accelerators."
+   ]
+  },
+  {
+   "h": "Regulation and labelling",
+   "paras": [
+    "Neither bronzer nor sunless tanner is legally defined, and the FDA regulates DHA as a color additive.[3] Accelerators themselves are sold as cosmetics or tanning-salon products and have no dedicated regulation described in the cited sources. Regulation of the exposure they accompany is stronger: the FDA reclassified tanning beds in 2014 and requires a warning against use by under-18s, and France, Brazil and Australia restrict commercial tanning.[6]"
+   ]
+  },
+  {
+   "h": "Background: indoor tanning",
+   "paras": [
+    "Accelerators are marketed mainly in the context of indoor tanning. Friedrich Wolff, often called the father of indoor tanning, developed sunbeds emitting mostly UVA, and the first salon opened in Berlin in 1977, with devices reaching the United States in 1978.[6] Use is most common among white women aged 16 to 25.[6] The International Agency for Research on Cancer classifies UV radiation as a Group 1 carcinogen, and meta-analyses have reported higher melanoma risk among ever-users of sunbeds.[6]",
+    "The FDA reclassified tanning beds as moderate risk in 2014 and requires a black box warning against use by anyone under 18. Several jurisdictions, including France, Brazil and Australia, have banned or restricted commercial tanning.[6]"
+   ]
+  },
+  {
+   "h": "Effectiveness",
+   "paras": [
+    "No controlled human trial of tanning accelerators was found. The 2015 survey did not test efficacy and did not examine exact ingredients.[1] Wikipedia's sunless tanning article reports no data that tyrosine boosts melanin formation when applied this way.[3]"
+   ]
+  },
+  {
+   "h": "Safety and risks",
+   "paras": [
+    "In the 2015 survey, acne and rashes were more common among accelerator users, and adverse reactions stopped further use 31 percent of the time.[1] Psoralens sensitise skin to UV, and the monkey study's authors described its findings on skin absorption as part of the compound's dermatotoxic profile.[2] UV exposure and sunbeds are established risk factors for melanoma and other skin cancers.[6]"
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing",
+   "paras": [
+    "Tanning appears in appearance discussions as a way to look healthier or more defined, and accelerator lotions are part of the product shelf in that conversation. Specific forum threads on accelerators are sparse, so most of what is known about use comes from the 2015 survey of indoor tanners, in which just over half used them, users tanned more often and showed more signs of tanning addiction.[1] Users who prefer a tan without UV turn to bronzers or DHA self-tanners instead.[3]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found testing the effectiveness of tanning accelerators in controlled human trials. Related research includes a cross-sectional survey of 200 indoor tanners, in which 53 percent used accelerators, 97 percent of respondents were female and the median age was 22. Users were more likely to spray tan, tan frequently and report tanning addiction, and acne and rashes were more common among them. The authors noted a limited adult sample and unexamined ingredients.[1]",
+    "In animal work, a study in three rhesus monkeys found that after topical application of radiolabelled 5-methoxypsoralen, about 58 percent of the dose was excreted, compared with about 72 percent after injection, indicating high absorption through the skin.[2]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1834",
+   "event": "Bergapten is isolated from bergamot essential oil.[5]"
+  },
+  {
+   "year": "1927",
+   "event": "Jean Patou launches Huile de Chaldee, the first sun tan oil.[7]"
+  },
+  {
+   "year": "1959",
+   "event": "Man-Tan, the first commercial DHA self-tanner, appears.[3]"
+  },
+  {
+   "year": "1975",
+   "event": "Friedrich Wolff invents the modern sunbed.[6]"
+  },
+  {
+   "year": "1977",
+   "event": "First indoor tanning salon opens in Berlin.[6]"
+  },
+  {
+   "year": "1996",
+   "event": "Health authorities ban psoralen in tanning products (July).[7]"
+  },
+  {
+   "year": "2014",
+   "event": "FDA reclassifies tanning beds as moderate risk.[6]"
+  },
+  {
+   "year": "2015",
+   "event": "JAAD survey of 200 indoor tanners describes accelerator use and adverse effects.[1]"
+  }
+ ],
+ "lore": {
+  "intro": "Tanning accelerators are discussed mainly in tanning-salon and sun-care contexts, where users and sellers describe faster or darker tans; published research is limited to a single survey and a monkey absorption study.[1][2]",
+  "claims": [
+   {
+    "claim": "Tyrosine lotion gives skin more raw material, so you tan faster or darker.",
+    "believers": "Marketing and users hold that tyrosine, the amino acid melanin is built from, boosts pigment when applied before UV.[3]",
+    "experts": "Wikipedia states that no scientific data currently support the claim that tyrosine-based products stimulate melanin formation.[3]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Accelerators let you tan with fewer sessions.",
+    "believers": "More than half of 200 surveyed indoor tanners used accelerators to hasten tanning.[1]",
+    "experts": "The survey measured use, predictors and adverse effects, not efficacy, and found users tanned more often rather than less.[1]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Psoralen-based activators are an effective tanning shortcut.",
+    "believers": "Psoralens such as bergapten have been described as sun-tanning accelerators.[2]",
+    "experts": "Psoralens sensitise skin to UV, a monkey study showed high skin absorption of 5-methoxypsoralen, IARC classes it as probably carcinogenic, and psoralen was banned in tanning products in 1996.[2][5][7]",
+    "evidence": "harms"
+   },
+   {
+    "claim": "Accelerators are harmless cosmetics.",
+    "believers": "They are sold in the same aisle as ordinary tanning lotions.[1]",
+    "experts": "In the survey, acne and rashes were more common in users and adverse reactions ended use about 31 percent of the time; they are used with UV, an established cause of skin cancer.[1][6]",
+    "evidence": "harms"
+   },
+   {
+    "claim": "A bronzer or DHA tanner gives the look without UV.",
+    "believers": "People wanting colour without exposure use sunless products.[3]",
+    "experts": "Bronzers are temporary tints, DHA darkens the surface by reacting with skin proteins, and the FDA regulates DHA as a color additive and limits use near eyes, lips and mucous membranes.[3]",
+    "evidence": "supported"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Tanning accelerators: prevalence, predictors of use, and adverse effects",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25458018/",
+   "source": "J Am Acad Dermatol",
+   "year": 2015,
+   "type": "study"
+  },
+  {
+   "id": 2,
+   "title": "Percutaneous penetration of 5-methoxypsoralen in rhesus monkeys",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21281688/",
+   "source": "Food Chem Toxicol",
+   "year": 2011,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Sunless tanning",
+   "url": "https://en.wikipedia.org/wiki/Sunless_tanning",
+   "source": "Wikipedia",
+   "year": 2024,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Melt formula (patent)",
+   "url": "https://europepmc.org/article/PAT/US2009269290",
+   "source": "Europe PMC patents",
+   "year": 2009,
+   "type": "news"
+  },
+  {
+   "id": 5,
+   "title": "Bergapten",
+   "url": "https://en.wikipedia.org/wiki/Bergapten",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 6,
+   "title": "Indoor tanning",
+   "url": "https://en.wikipedia.org/wiki/Indoor_tanning",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 7,
+   "title": "Sun tanning",
+   "url": "https://en.wikipedia.org/wiki/Sun_tanning",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Sunless_tanning",
+   "title": "Sunless tanning"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Bergapten",
+   "title": "Bergapten (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Indoor_tanning",
+   "title": "Indoor tanning (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Sun_tanning",
+   "title": "Sun tanning (Wikipedia)"
+  }
+ ]
 }

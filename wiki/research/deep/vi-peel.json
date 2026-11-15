@@ -1,19 +1,182 @@
 {
-"name":"VI Peel",
-"lead":["The VI Peel is a branded medium-depth chemical peel made by the Vitality Institute. According to Grokipedia, an AI-generated reference, it blends trichloroacetic acid, phenol, salicylic acid, tretinoin and vitamin C, and is marketed for acne, pigmentation, sun damage, acne scarring, melasma and fine lines for all Fitzpatrick skin types.[1]","The same source says the company was founded by emergency physician Abdala Khalil, who developed an initial formulation for his daughter's cystic acne, with a commercial launch around 2005 to 2006 and a body formulation in 2022.[1] These history details come from a single unverified source.","Published research is limited: a 2024 study of 30 patients examined same-day VI Peel and neurotoxin treatment.[2] Exact ingredient ratios are described as proprietary.[1]"],
-"infobox":[["Type","Branded medium-depth chemical peel"],["Maker","Vitality Institute"],["Reported ingredients","TCA, phenol, salicylic acid, tretinoin, vitamin C"],["Reported launch","About 2005 to 2006"]],
-"sections":[
-{"h":"Description","paras":["Per Grokipedia, the formula contains TCA, phenol and salicylic acid at about 10 to 12 percent each, tretinoin at 0.1 to 0.4 percent and vitamin C at 4 percent, plus a mineral blend; variants such as Precision Plus and Purify target pigment and acne.[1] The manufacturer is said to describe it as needing no anesthesia and as suitable for darker skin.[1] These are manufacturer-derived claims; independent verification was not found."]},
-{"h":"Reported risks","paras":["Chemical peels as a category are associated with redness, peeling, pigment change and scarring. Product-specific adverse-event data beyond a small 2024 study are not available in the sources reviewed.[2]"]},
-{"h":"Clinical studies","paras":["A 2024 Journal of Drugs in Dermatology study enrolled 30 patients across Fitzpatrick types I to VI to test whether combining a corrective peel with a neurotoxin on the same day caused extra side effects while improving outcomes.[2] It corresponds to a registered Phase 4 trial (NCT05162300, 2021).[3] A 2014 registered study evaluated microneedling plus the Universal Peel for acne scarring in 15 participants.[4] Sample sizes are small."]}],
-"timeline":[{"year":"2005","event":"Reported launch of the VI Peel.[1]"},{"year":"2022","event":"Reported release of a body formulation.[1]"},{"year":"2024","event":"Study of same-day peel and neurotoxin published.[2]"}],
-"lore":null,
-"refs":[
-{"id":1,"title":"VI Peel (Grokipedia)","url":"https://grokipedia.com/page/VI_Peel","source":"Grokipedia","year":2025,"type":"encyclopedia"},
-{"id":2,"title":"Optimized Patient Outcomes With the Novel Modality of Corrective Chemical Peel and Neurotoxin on Same-Day Treatment.","url":"https://pubmed.ncbi.nlm.nih.gov/38206148/","source":"J Drugs Dermatol","year":2024,"type":"study"},
-{"id":3,"title":"Same-Day Combination of VI Peel and Botox (NCT05162300)","url":"https://clinicaltrials.gov/study/NCT05162300","source":"ClinicalTrials.gov","year":2021,"type":"trial"},
-{"id":4,"title":"Microneedling Plus the Universal Peel For Acne Scarring (NCT02174393)","url":"https://clinicaltrials.gov/study/NCT02174393","source":"ClinicalTrials.gov","year":2014,"type":"trial"}],
-"webSources":[],
-"card":{"summary":"A branded TCA-phenol-salicylic medium peel marketed for all skin tones; published data are a few small studies.","aka":"Vitality Institute peel","evidence":"limited","outcome":null,"risk":"moderate","note":"Ingredient details and history rest largely on manufacturer-derived information.","structure":null},
-"quick":{"overview":"The VI Peel is a branded medium-depth peel from the Vitality Institute, combining acids, phenol, tretinoin and vitamin C. It is marketed for acne, pigment, sun damage and scars.\n\nPublished research is limited to small studies such as a 30-patient peel-plus-neurotoxin study.","mechanism":"The blend causes controlled exfoliation of the epidermis and upper dermis, according to the company-derived description.","risks":"Peel side effects include redness, peeling and pigment change; product-specific safety data are sparse."}
+ "name": "VI Peel",
+ "lead": [
+  "The VI Peel is a branded medium-depth chemical peel made by the Vitality Institute and applied in clinics to improve skin texture and tone. According to Grokipedia, an AI-generated reference, it blends trichloroacetic acid (TCA), phenol, salicylic acid, tretinoin and vitamin C, and is marketed for acne, pigmentation, sun damage, acne scarring, melasma and fine lines across Fitzpatrick skin types I to VI [1]. The company's own website describes it as a medium-depth chemical peel that is painless and safe for all skin types [5].",
+  "People use it to get an evener, clearer, smoother-looking complexion: peeling removes the outer layers and the company and clinics position it as a way to fade pigment and acne marks and soften fine lines without long downtime. The company site groups it with skin-concern categories such as acne scarring, melasma, post-inflammatory hyperpigmentation, sun spots and rough texture, and pairs it with injectables, microneedling or laser [5].",
+  "Grokipedia says the company was founded by emergency physician Abdala Khalil, who developed an initial formulation for his daughter's cystic acne, with a commercial launch around 2005 to 2006 and a body formulation in 2022 [1]. Published research is limited to a few small studies, including a 2024 study of 30 patients examining same-day VI Peel and neurotoxin treatment [2]. Exact ingredient ratios are described as proprietary [1]."
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Branded medium-depth chemical peel [5]"
+  ],
+  [
+   "Maker",
+   "Vitality Institute (Los Angeles) [5]"
+  ],
+  [
+   "Reported ingredients",
+   "TCA, phenol, salicylic acid, tretinoin, vitamin C [1]"
+  ],
+  [
+   "Marketed skin types",
+   "Fitzpatrick I to VI [1][5]"
+  ],
+  [
+   "Reported launch",
+   "About 2005 to 2006 [1]"
+  ],
+  [
+   "Body formulation",
+   "Reported 2022 [1]"
+  ],
+  [
+   "Applied by",
+   "Clinicians (medium-depth peels need a medical provider) [6]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Per Grokipedia, the formula contains TCA, phenol and salicylic acid at about 10 to 12 percent each, tretinoin at 0.1 to 0.4 percent and vitamin C at 4 percent, plus a mineral blend; variants such as Precision Plus and Purify target pigment and acne [1]. The manufacturer is said to describe it as needing no anesthesia and as suitable for darker skin [1]. These are manufacturer-derived claims, and the company website itself lists \"painless\" and \"safe for all skin types\" in its headline description without giving ingredient or downtime detail on that page [5]."
+   ]
+  },
+  {
+   "h": "Chemical peels as a category",
+   "paras": [
+    "Wikipedia describes a chemical peel as a controlled injury to the skin that makes it peel, used to reduce fine lines, acne scars and pigment, with medium-depth peels required to be done by a medical provider. The Austrian dermatologist Ferdinand Ritter von Hebra used phenol, croton oil and nitric acid in the second half of the nineteenth century, mainly for freckles and skin irregularities [6].",
+    "The ingredients in VI Peel each have a place in that category. Salicylic acid is a beta hydroxy acid used for acne because it is antibacterial and anti-inflammatory; retinoic acid peels are used for scars, wrinkles and pigment, often preceded by a Jessner peel, with peeling around the third day and dramatic results usually needing several peels; and TCA is a medium-depth agent for which some providers use a tranquilizer and oral analgesic, with patients typically feeling warmth or burning. Phenol-croton oil peels sit at the deepest end [6]."
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Grokipedia says Abdala Khalil founded the Vitality Institute in the early 2000s, motivated by his eldest daughter's severe cystic acne, and built the first formulation for her. These details come from a single reference, and the company website does not give a founding story on its main page [1][5]. The company site says the peel has been featured in publications including Brides, Vogue, Marie Claire and The Oprah Magazine [5]."
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "paras": [
+    "Wikipedia says peel risks increase with depth and include photosensitivity, prolonged redness, pigmentary changes, milia, skin atrophy and textural change, while a slight yellowish tinge and mild to moderate redness are described as expected after treatment [6]. Product-specific adverse-event data beyond the small studies below are not available [2]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A 2024 Journal of Drugs in Dermatology study enrolled 30 patients across Fitzpatrick types I to VI to test whether combining a corrective peel with a neurotoxin on the same day caused extra side effects while improving outcomes; it used the Roberts Skin Type Classification System [2]. It corresponds to a registered Phase 4 trial (NCT05162300), started in December 2021 and completed, studying sun damage, fine lines and wrinkles [3]. A 2014 registered study evaluated microneedling plus the Universal Peel for acne scarring in 15 participants [4]. Sample sizes are small."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1800s",
+   "event": "Ferdinand Ritter von Hebra uses phenol, croton oil and nitric acid for skin irregularities [6]"
+  },
+  {
+   "year": "2005",
+   "event": "Reported launch of the VI Peel [1]"
+  },
+  {
+   "year": "2014",
+   "event": "Registered study of microneedling plus the Universal Peel in 15 participants [4]"
+  },
+  {
+   "year": "2021",
+   "event": "Same-day VI Peel and neurotoxin trial starts [3]"
+  },
+  {
+   "year": "2022",
+   "event": "Reported release of a body formulation [1]"
+  },
+  {
+   "year": "2024",
+   "event": "Study of same-day peel and neurotoxin published [2]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "VI Peel (Grokipedia)",
+   "url": "https://grokipedia.com/page/VI_Peel",
+   "source": "Grokipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Optimized Patient Outcomes With the Novel Modality of Corrective Chemical Peel and Neurotoxin on Same-Day Treatment.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38206148/",
+   "source": "J Drugs Dermatol",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Same-Day Combination of VI Peel and Botox (NCT05162300)",
+   "url": "https://clinicaltrials.gov/study/NCT05162300",
+   "source": "ClinicalTrials.gov",
+   "year": 2021,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "Microneedling Plus the Universal Peel For Acne Scarring (NCT02174393)",
+   "url": "https://clinicaltrials.gov/study/NCT02174393",
+   "source": "ClinicalTrials.gov",
+   "year": 2014,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "VI Peel official website",
+   "url": "https://www.vipeel.com/",
+   "source": "Vitality Institute (manufacturer)",
+   "year": 2025,
+   "type": "label"
+  },
+  {
+   "id": 6,
+   "title": "Chemical peel",
+   "url": "https://en.wikipedia.org/wiki/Chemical_peel",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://www.vipeel.com/",
+   "title": "VI Peel - manufacturer site"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Chemical_peel",
+   "title": "Chemical peel - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "A branded TCA-phenol-salicylic medium peel marketed for all skin tones; published data are a few small studies.",
+  "aka": "Vitality Institute peel",
+  "evidence": "limited",
+  "outcome": null,
+  "risk": "moderate",
+  "note": "Ingredient details and history rest largely on manufacturer-derived information.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "The VI Peel is a branded medium-depth peel from the Vitality Institute, combining acids, phenol, tretinoin and vitamin C. It is marketed for acne, pigment, sun damage and scars.\n\nPublished research is limited to small studies such as a 30-patient peel-plus-neurotoxin study.",
+  "mechanism": "The blend causes controlled exfoliation of the epidermis and upper dermis, according to the company-derived description.",
+  "risks": "Peel side effects include redness, peeling and pigment change; product-specific safety data are sparse."
+ },
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "Applied in clinic as a controlled chemical injury to the outer skin",
+   "Outer layers peel over several days",
+   "Skin looks evener, with less pigment, acne marks and fine lines"
+  ],
+  "effect": "direct",
+  "text": "A provider applies the peel to the face, and the treated skin sheds over the following days. People choose it to reduce visible pigment, acne scarring and sun damage and to get a smoother skin surface."
+ }
 }

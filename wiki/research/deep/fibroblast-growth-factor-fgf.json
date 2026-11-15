@@ -1,21 +1,336 @@
 {
-"name":"Fibroblast growth factor (FGF)",
-"lead":["Fibroblast growth factors (FGFs) are a family of 23 signaling proteins in humans that regulate cell growth, tissue organization and wound healing, signaling through four receptor types (FGFR1-4).[1] FGF2, also called basic FGF (bFGF), promotes blood vessel formation, fibroblast proliferation and granulation tissue in wound repair.[1] Topical FGF is included in some anti-aging serums.","Wikipedia states that FGF2 has been shown to enhance tissue repair in clinical settings such as burns, skin grafts and ulcers, and lists trafermin, a recombinant FGF2 drug, among FGF receptor agonists.[1] The sources reviewed contain no trials of topical FGF serums for wrinkles or skin aging."],
-"infobox":[["Type","Protein growth factor family (23 human members)"],["Relevant member","FGF2 / basic FGF"],["Routes","Topical in cosmetics; medical formulations in wound care"],["Evidence level for cosmetic use","Limited"]],
-"sections":[
-{"h":"Biology","paras":["Most FGFs act locally, binding heparan sulfate in the extracellular matrix and being released during injury or tissue remodeling, while FGF15/19, FGF21 and FGF23 act as hormones.[1] FGF2 is also involved in neural stem cell activity.[1]"]},
-{"h":"Clinical studies","paras":["No studies found of topical FGF serums for appearance or anti-aging. Medical uses of FGF2 in burns, grafts and ulcers are described in general terms on Wikipedia.[1] Other human studies found in the sources measure circulating FGF levels in disease (for example serum bFGF in hemangioma or lymphoma patients) and do not test FGF as a treatment.[2][3]"]},
-{"h":"Safety","paras":["Wikipedia notes that overactive FGF signaling is linked to several diseases and that FGF-signaling inhibitors have shown clinical benefit in some of them.[1] Circulating bFGF levels have been measured as an angiogenic marker in blood cancers.[4] The sources reviewed do not report safety data for cosmetic FGF use."]}
-],
-"timeline":[],
-"lore":null,
-"refs":[
-{"id":1,"title":"Fibroblast growth factor","url":"https://en.wikipedia.org/wiki/Fibroblast_growth_factor","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":2,"title":"Serum Basic Fibroblastic Growth Factor Levels in Children with Infantile Hemangioma","url":"https://pubmed.ncbi.nlm.nih.gov/26816137/","source":"Indian Journal of Pediatrics","year":2016,"type":"study"},
-{"id":3,"title":"Clinical correlations and prognostic relevance of HGF, VEGF and FGF expression in Brazilian patients with non-Hodgkin lymphoma","url":"https://pubmed.ncbi.nlm.nih.gov/18231911/","source":"Leukemia & Lymphoma","year":2008,"type":"study"},
-{"id":4,"title":"Soluble angiogenic factors: implications for chronic myeloproliferative disorders","url":"https://pubmed.ncbi.nlm.nih.gov/11891801/","source":"American Journal of Hematology","year":2002,"type":"study"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Fibroblast_growth_factor","title":"Fibroblast growth factor - Wikipedia"}],
-"card":{"summary":"Wound-healing growth factor put in anti-aging serums, with no human cosmetic trials found.","aka":"Topical FGF, bFGF, FGF2","evidence":"unproven","status":"otc","outcome":null,"risk":null,"price":null,"note":"Overactive FGF signaling is linked to disease; no cosmetic safety data found.","structure":null},
-"quick":{"overview":"FGFs are a family of signaling proteins that drive cell growth and wound repair. FGF2 (bFGF) is the form most often discussed for skin, and some anti-aging serums contain growth factors of this type.\n\nNo trials of topical FGF serums for aging skin were found.","mechanism":"FGFs bind receptors on cells and promote fibroblast proliferation, blood vessel formation and granulation tissue in wound healing.","risks":"Overactive FGF signaling is associated with several diseases. Safety of cosmetic use was not covered in the sources reviewed."}
+ "name": "Fibroblast growth factor (FGF)",
+ "lead": [
+  "Fibroblast growth factors (FGFs) are a family of 23 signaling proteins in humans that regulate cell growth, tissue organization and wound healing, acting through four receptor types (FGFR1-4).[1] FGF2, also called basic FGF (bFGF), promotes blood vessel formation, fibroblast proliferation and the granulation tissue that fills a wound early in healing.[1] Because fibroblasts make the collagen and elastin that give skin its firmness, FGFs appear in some anti-aging and recovery serums on the reasoning that stimulating those cells could make skin look smoother and firmer.",
+  "The family reaches appearance in three other ways. FGF5 is described as the key signal that switches a hair follicle from growth to regression, which is why it is a target in hair-loss research and why FGF5 mutations produce very long eyelashes in familial trichomegaly.[8] FGF21, a liver hormone induced by fasting and low-protein diets, is discussed in diet forums as a lever on fat loss and leanness.[9][10] And recombinant FGFs such as trafermin (FGF2) and palifermin (FGF7) are medical products for skin ulcers and oral mucositis respectively.[6][11]",
+  "Wikipedia states that FGF2 has been shown to enhance tissue repair in clinical settings such as burns, skin grafts and ulcers, and trafermin is sold in Japan as a topical spray for skin ulcers.[1][6] A 2023 systematic review of topical growth factor preparations for facial rejuvenation, which covered many different growth factor sources rather than FGF alone, concluded that they appear effective, with modest improvements in texture, fine lines and appearance.[5] Studies of topical FGF serums specifically for wrinkles or skin aging were not found."
+ ],
+ "angle": {
+  "goal": "Skin quality",
+  "chain": [
+   "Topical growth factor reaches skin cells",
+   "Fibroblast activity and new blood vessel formation are stimulated, as in wound repair",
+   "Claimed: firmer, smoother-looking skin"
+  ],
+  "effect": "claimed",
+  "text": "Growth factor serums are used with the aim of smoother, firmer skin and fewer fine lines. The reasoning draws on FGF2's established role in building granulation tissue during wound healing. Separately, FGF5 and FGF21 are discussed in connection with hair length and fat metabolism."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Protein growth factor family (23 human members)"
+  ],
+  [
+   "Relevant members",
+   "FGF2 (basic FGF), FGF5, FGF7, FGF21"
+  ],
+  [
+   "Receptors",
+   "FGFR1-4 (seven signalling subtypes)"
+  ],
+  [
+   "Routes",
+   "Topical in cosmetics; medical formulations in wound care"
+  ],
+  [
+   "Medical forms",
+   "Trafermin (FGF2; Fiblast spray, Japan); palifermin (FGF7; Kepivance, intravenous)"
+  ],
+  [
+   "Discovered",
+   "1973-1975 (Armelin; Gospodarowicz and colleagues)"
+  ],
+  [
+   "Appearance links",
+   "Skin repair, hair cycle, fat metabolism"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Biology",
+   "paras": [
+    "Humans have 23 structurally related FGFs. FGF1 (acidic FGF) through FGF10 bind FGF receptors; FGF11-14 act inside cells; and FGF15-23 were described later. FGF1 is called the universal ligand because it can activate all seven receptor subtypes, while FGF7 binds only FGFR2b.[1] The receptors carry three extracellular immunoglobulin-like domains and a split tyrosine kinase domain, and signalling needs a complex of two FGFs, two receptors and heparan sulfate chains.[1]",
+    "Most FGFs act locally, binding heparan sulfate in the extracellular matrix and being released during injury or tissue remodeling, while FGF15/19, FGF21 and FGF23 act as hormones. FGF15/19 acts on liver cells to regulate bile acid synthesis, and FGF23 is produced by bone and acts on the kidney to regulate vitamin D and phosphate.[1][2] FGF2 also supports neural stem cell activity and is a standard component of human embryonic stem cell culture media.[1][12]",
+    "FGF1 and FGF2 are described as more potent angiogenic factors than VEGF or PDGF, stimulating endothelial cells to form tubes. FGF7 (keratinocyte growth factor) and FGF10 promote repair of skin and mucosa by stimulating epithelial cell proliferation and migration.[1] In normal tissue FGF2 sits in basement membranes and the matrix around blood vessels and is released, probably by heparan sulfate-degrading enzymes, during wound healing; the main 155-amino-acid form is secreted, while longer forms go to the nucleus.[12]"
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "In 1973 Armelin found a cell-division-promoting activity in pituitary extracts, and in 1974 Gospodarowicz isolated proteins from cow brain that made fibroblasts proliferate and named them fibroblast growth factor. In 1975 the same group separated acidic and basic forms, FGF1 and FGF2. Other groups later identified heparin-binding growth factors and endothelial cell growth factors that turned out to be the same molecules.[1][12]"
+   ]
+  },
+  {
+   "h": "Medical and cosmetic uses",
+   "subs": [
+    {
+     "h": "Wound care",
+     "paras": [
+      "Wikipedia reports that FGF1 and FGF2 stimulate angiogenesis and fibroblast proliferation that form granulation tissue, and that FGF2 in particular has enhanced the repair of burns, grafts and ulcers in clinical settings.[1] Trafermin, also called recombinant human basic FGF (brand name Fiblast, developed by Kaken Pharmaceutical), is a potent agonist of FGFR1-4 and is marketed in Japan as a topical spray for skin ulcers; a 2016 phase III periodontal regeneration trial compared it with enamel matrix derivative.[6]"
+     ]
+    },
+    {
+     "h": "Skincare serums",
+     "paras": [
+      "Growth factor serums are cosmetic products that contain growth factor proteins or growth-factor-rich extracts, and some use FGF2 among their ingredients. In the 2023 systematic review of topical growth factors for facial rejuvenation, authors searched four databases from 2000 to October 2022 for prospective trials and case series of at least 10 participants and included 33 studies (nine randomized trials and 24 uncontrolled case series, 1,180 participants, 23 products). Products were mostly applied twice daily for a mean of about three months. Median investigator-assessed improvement from baseline was under 50 percent for skin texture, under 35 percent for fine lines and wrinkles and under 20 percent for overall appearance, and participants generally reported more improvement than investigators. Three comparative trials found no statistically significant differences between treatments, heterogeneity in products and outcome measures limited conclusions, and whether improvements last beyond six months is unknown.[5]"
+     ]
+    },
+    {
+     "h": "Keratinocyte growth factor (FGF7)",
+     "paras": [
+      "Palifermin (Kepivance) is a truncated recombinant keratinocyte growth factor, FGF7, made in E. coli and given by intravenous injection to reduce the incidence and duration of severe oral mucositis in blood cancer patients receiving high-dose chemotherapy and radiation before bone marrow transplant.[11] It illustrates the FGF7 role in repairing mucosal lining described in the biology section."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Hair and eyelashes",
+   "paras": [
+    "FGF5 is a 268-amino-acid protein made mainly in the outer root sheath of the hair follicle and peaking in late anagen, the growth phase; Wikipedia calls it the key signalling molecule that triggers the switch from anagen to catagen, the regression phase.[8] Mouse knockouts have abnormally long hair, and variants that disrupt FGF5 produce the long-coated 'angora' phenotype in cats, dogs, rabbits, goats and other species.[8] In people, FGF5 mutations cause familial trichomegaly with extremely long eyelashes, and a 2017 genome-wide association study of early-onset male pattern hair loss reported strong associations with FGF5 polymorphisms.[8]",
+    "Researchers have screened plant extracts for FGF5-inhibiting activity, and the Wikipedia article states that topical formulations with such extracts were beneficial for men and women with hair loss, without giving trial sizes or outcomes.[8] The related hair-cycle role of FGF5 is the reason it features in discussion of eyelash and scalp-hair products, although FGF5 acts as a brake on growth rather than a stimulant."
+   ]
+  },
+  {
+   "h": "FGF21 and diet",
+   "paras": [
+    "FGF21 is a hormone made mainly in the liver and also in fat and pancreas, acting through an FGF receptor and the co-receptor beta-Klotho. Rodent studies found it lowers glucose and lipids, increases energy expenditure and body temperature and is associated with weight loss and improved insulin sensitivity.[9] Fasting strongly induces it in the liver, and it is also induced in humans and rodents by low-protein diets and by reduced methionine, threonine or branched-chain amino acids; exercise, weight loss and alcohol also raise it, and it acts in the brain to restrain intake of sweets and alcohol.[9] Serum FGF21 is elevated in type 2 diabetes and correlates with BMI, which has led to the suggestion that obesity may be a state of FGF21 resistance.[9]",
+    "A 2025 T Nation thread discussed a protein-restriction 'sugar diet' and intermittent fasting, with the poster reasoning that the approach should increase FGF21 secretion and so affect lipid metabolism and insulin.[10] This dietary route to leanness is separate from topical FGF2 in skincare."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found of FGF2 alone as a topical cosmetic serum for wrinkles or skin aging. The closest evidence is the 2023 systematic review of 33 studies of growth factor preparations in general, which reported modest improvements in texture, fine lines and overall appearance and a low rate of adverse events.[5]",
+    "Other human studies measure circulating FGF levels in disease, for example serum bFGF in infantile hemangioma and lymphoma, and do not test FGF as a treatment.[3][4] Clinical use of FGF2 is documented for skin ulcers (trafermin in Japan) and periodontal regeneration, and of FGF7 for oral mucositis (palifermin).[6][11]"
+   ]
+  },
+  {
+   "h": "Safety",
+   "paras": [
+    "Wikipedia notes that overactive FGF signaling is linked to several diseases and that FGF-signaling inhibitors have shown clinical benefit in some of them.[1] FGF2 is described as involved in tumor growth and invasion as well as tissue repair, and circulating bFGF levels have been measured as an angiogenic marker in blood cancers.[12][7] The 2023 systematic review reported a low risk of adverse events with topical growth factor preparations overall.[5] Safety data specific to cosmetic FGF2 were not found."
+   ]
+  },
+  {
+   "h": "Related practices",
+   "paras": [
+    "Related entries include other growth-factor and signalling-based skin products, platelet-rich plasma and microneedling, which are said to deliver growth factors to the skin, and peptide serums. The 2023 review covered preparations from many growth factor sources, not FGF alone.[5]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1973",
+   "event": "Armelin reports mitogenic activity in pituitary extracts.[1]"
+  },
+  {
+   "year": "1974",
+   "event": "Gospodarowicz isolates and names fibroblast growth factor.[1]"
+  },
+  {
+   "year": "1975",
+   "event": "Acidic and basic forms (FGF1, FGF2) are separated.[1]"
+  },
+  {
+   "year": "2001",
+   "event": "Trafermin spray is reported to have been marketed in Japan since June 2001 (citation needed on Wikipedia).[6]"
+  },
+  {
+   "year": "2004",
+   "event": "FDA review documents for palifermin (KGF/FGF7) are dated this year.[11]"
+  },
+  {
+   "year": "2016",
+   "event": "Phase III trial of trafermin for periodontal regeneration reported.[6]"
+  },
+  {
+   "year": "2017",
+   "event": "Genome-wide study links FGF5 variants to early-onset male pattern hair loss.[8]"
+  },
+  {
+   "year": "2023",
+   "event": "Systematic review of topical growth factor preparations for facial rejuvenation published.[5]"
+  }
+ ],
+ "lore": {
+  "intro": "Topical FGF is discussed in skincare circles as one of the growth factor serum ingredients, while in diet and training communities FGF21 appears in discussions of fasting and protein restriction.[10]",
+  "claims": [
+   {
+    "claim": "Topical FGF2 rebuilds collagen and smooths wrinkles",
+    "believers": "Proponents of growth factor serums reason that fibroblast stimulation, as in wound repair, should firm skin.",
+    "experts": "No study of FGF2 alone as a cosmetic serum was found; a 2023 systematic review of mixed growth factor products reported modest improvements in texture and fine lines.[5]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Growth factor serums are safe because the proteins occur naturally in skin",
+    "believers": "Proponents point out that the molecules are normal products of skin and fibroblasts.",
+    "experts": "The 2023 review reported low adverse-event rates for topical growth factors, while Wikipedia notes overactive FGF signaling is linked to several diseases; cosmetic FGF2-specific safety data were not found.[5][1]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Protein restriction and fasting raise FGF21 and help leanness",
+    "believers": "A 2025 forum thread proposed a low-protein, starch-heavy approach on the theory that it raises FGF21 and so influences lipid metabolism and insulin.[10]",
+    "experts": "FGF21 is induced by fasting and low-protein diets and linked to weight loss and insulin sensitivity in rodent studies, while human serum levels are raised in obesity and type 2 diabetes.[9]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Blocking FGF5 lengthens hair growth",
+    "believers": "Hair-loss researchers and product makers describe FGF5 inhibition as a way to extend the growth phase.",
+    "experts": "Mouse knockouts and animal angora mutations show long hair, and human FGF5 variants associate with trichomegaly and male pattern hair loss; published trial detail for FGF5-inhibitor products is thin.[8]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "FGF2 speeds wound healing, so it should speed skin recovery after procedures",
+    "believers": "Users of post-procedure serums cite the wound-healing role of FGF2.",
+    "experts": "FGF2 has enhanced repair of burns, grafts and ulcers in clinical settings and trafermin is marketed for ulcers in Japan; cosmetic procedure recovery has not been tested specifically.[1][6]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Fibroblast growth factor",
+   "url": "https://en.wikipedia.org/wiki/Fibroblast_growth_factor",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "FGF23 beyond Phosphotropic Hormone",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30217676/",
+   "source": "Trends in Endocrinology and Metabolism",
+   "year": 2018,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Serum Basic Fibroblastic Growth Factor Levels in Children with Infantile Hemangioma",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26816137/",
+   "source": "Indian Journal of Pediatrics",
+   "year": 2016,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Clinical correlations and prognostic relevance of HGF, VEGF and FGF expression in Brazilian patients with non-Hodgkin lymphoma",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18231911/",
+   "source": "Leukemia & Lymphoma",
+   "year": 2008,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Topical growth factor preparations for facial skin rejuvenation: A systematic review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37222303/",
+   "source": "Journal of Cosmetic Dermatology",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Trafermin",
+   "url": "https://en.wikipedia.org/wiki/Trafermin",
+   "source": "Wikipedia",
+   "type": "encyclopedia"
+  },
+  {
+   "id": 7,
+   "title": "Soluble angiogenic factors: implications for chronic myeloproliferative disorders",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11891801/",
+   "source": "American Journal of Hematology",
+   "year": 2002,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "FGF5",
+   "url": "https://en.wikipedia.org/wiki/FGF5",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 9,
+   "title": "FGF21",
+   "url": "https://en.wikipedia.org/wiki/FGF21",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 10,
+   "title": "FGF21, Protein Restriction, The \"Sugar Diet\" and \"Intermittent Fatting\"",
+   "url": "https://t-nation.com/t/fgf21-protein-restriction-the-sugar-diet-and-intermittent-fatting/291556",
+   "source": "T Nation forum",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 11,
+   "title": "Palifermin",
+   "url": "https://en.wikipedia.org/wiki/Palifermin",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 12,
+   "title": "Fibroblast growth factor 2",
+   "url": "https://en.wikipedia.org/wiki/Fibroblast_growth_factor_2",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Fibroblast_growth_factor",
+   "title": "Fibroblast growth factor - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Trafermin",
+   "title": "Trafermin - Wikipedia"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37222303/",
+   "title": "Topical growth factor preparations for facial skin rejuvenation: A systematic review - PubMed"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:37222303%20AND%20SRC:MED&resultType=core&format=json",
+   "title": "Europe PMC record for PMID 37222303"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/FGF5",
+   "title": "FGF5 - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/FGF21",
+   "title": "FGF21 - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Palifermin",
+   "title": "Palifermin - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Fibroblast_growth_factor_2",
+   "title": "Fibroblast growth factor 2 - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "Wound-healing growth factor put in anti-aging serums, with no human cosmetic trials found.",
+  "aka": "Topical FGF, bFGF, FGF2",
+  "evidence": "unproven",
+  "status": "otc",
+  "outcome": null,
+  "risk": null,
+  "price": null,
+  "note": "Overactive FGF signaling is linked to disease; no cosmetic safety data found.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "FGFs are a family of signaling proteins that drive cell growth and wound repair. FGF2 (bFGF) is the form most often discussed for skin, and some anti-aging serums contain growth factors of this type.\nNo trials of topical FGF serums for aging skin were found.",
+  "mechanism": "FGFs bind receptors on cells and promote fibroblast proliferation, blood vessel formation and granulation tissue in wound healing.",
+  "risks": "Overactive FGF signaling is associated with several diseases."
+ }
 }

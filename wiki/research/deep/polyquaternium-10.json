@@ -1,9 +1,33 @@
 {
  "name": "Polyquaternium-10",
+ "card": {
+  "summary": "Cationic cellulose polymer that coats hair in shampoos and conditioners; a background ingredient with no direct trials.",
+  "aka": "PQ-10, quaternized hydroxyethyl cellulose",
+  "evidence": "limited",
+  "status": "otc",
+  "note": "No hair-specific clinical or safety data found in the reviewed sources.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Polyquaternium-10 is a modified cellulose with positive charges, used in shampoos and conditioners. Formulation literature credits cationic polymers with easier combing, smoother hair and better lather.\n\nIt is an ingredient rather than a treatment; no trials of it on hair were found.",
+  "mechanism": "Its positive charge attracts it to negatively charged hair, where it deposits as a thin conditioning film.",
+  "risks": "The reviewed sources report no specific safety findings for PQ-10 on hair or skin."
+ },
  "lead": [
-  "Polyquaternium-10 (PQ-10) is the INCI name for quaternized hydroxyethyl cellulose, a cellulose-derived polymer carrying positively charged quaternary ammonium groups.[1] It belongs to the polyquaternium family, of which at least 40 members have been approved.[1]",
-  "It is used in shampoos and conditioners, where cationic polymers are described as providing conditioning, smoothing, easier combing and creamier lather.[2] It has also been studied in hydrogels, drug-delivery matrices and sensors.[3][4]"
+  "Polyquaternium-10 (PQ-10) is the INCI name for quaternized hydroxyethyl cellulose, a cellulose-derived polymer carrying positively charged quaternary ammonium groups.[1] It belongs to the polyquaternium family, of which at least 40 members have been approved under the cosmetic naming system.[1]",
+  "It is used in shampoos and conditioners to make hair look and feel smoother. Positively charged polymers bind to hair, which carries a net negative charge when damaged, and are described as providing conditioning, smoothing, easier combing and creamier lather.[2][7] The chain is simple: the polymer deposits on the hair fibre, smooths the surface and reduces static, and the hair detangles more easily and looks neater and shinier.[7]",
+  "It is a background ingredient rather than a product people seek out by name, though it appears on ingredient lists of many hair products. Outside cosmetics it has been studied in hydrogels, drug-delivery matrices, ophthalmic formulations and sensors.[3][4][8]"
  ],
+ "angle": {
+  "goal": "Hair smoothness and manageability",
+  "chain": [
+   "Cationic polymer binds to negatively charged hair",
+   "Surface friction and static fall",
+   "Hair combs more easily, lies flatter and looks smoother"
+  ],
+  "effect": "direct",
+  "text": "In shampoos and conditioners PQ-10 coats the hair fibre, which makes strands easier to comb and reduces flyaways. Users meet it as part of a conditioning formula rather than as a stand-alone treatment."
+ },
  "infobox": [
   [
    "Class",
@@ -11,34 +35,94 @@
   ],
   [
    "Chemical identity",
-   "Quaternized hydroxyethyl cellulose"
+   "Quaternized hydroxyethyl cellulose[1]"
+  ],
+  [
+   "INCI name",
+   "Polyquaternium-10"
   ],
   [
    "Used in",
-   "Shampoos, conditioners, mousses"
+   "Shampoos, conditioners, mousses, sprays[1]"
+  ],
+  [
+   "Mode of action",
+   "Positive charge binds to hair and skin[1]"
+  ],
+  [
+   "Other fields",
+   "Hydrogels, ocular drug delivery, sensors[3][4][8]"
   ]
  ],
  "sections": [
   {
+   "h": "Chemistry",
+   "paras": [
+    "Polyquaterniums are polymers with many positively charged quaternary ammonium groups. The number after the name reflects registration order rather than chemical similarity, so neighbouring numbers can be very different structures; PQ-6 is a diallyldimethylammonium homopolymer, PQ-10 is quaternized hydroxyethyl cellulose, PQ-11 a vinylpyrrolidone copolymer and PQ-29 a modified chitosan.[1]",
+    "Research papers describe PQ-10 as a chloro-2-hydroxy-3-(trimethylamino)propyl polyethylene glycol cellulose and have studied commercial grades of different molecular mass.[9][10] Its interactions with surfactants such as sodium dodecyl sulfate, common in shampoos, have been examined in the laboratory.[11]"
+   ]
+  },
+  {
    "h": "Use in hair care",
    "paras": [
-    "A 2000 review of conditioning polymers in shampoos described cationic polymers as important for conditioning and smoothing, and noted the move from 2-in-1 to 3-in-1 shampoos.[2] Their positive charge lets them bind to hair and skin and helps neutralise the negative charge on hair proteins and in shampoos.[1]"
+    "A 2000 review of conditioning polymers in shampoos described cationic polymers as important for conditioning and smoothing, and noted the move from 2-in-1 to 3-in-1 shampoos.[2] Their positive charge lets them bind to hair and skin and helps neutralise the negative charge on hair proteins and in shampoos.[1]",
+    "Wikipedia's article on hair conditioner explains that conditioners work by coating strands rather than repairing keratin; damaged hair carries a net negative charge, and cationic polymers such as PQ-10 help reduce static and form a light film, working alongside cationic surfactants and silicones.[7] It lists detangling, shine and static control as the main effects, and notes that some other advertised benefits are marketed more than demonstrated.[7]",
+    "Polyquaterniums are also used in hair mousses, sprays, dyes, personal lubricants and contact lens solutions.[1]"
    ]
   },
   {
    "h": "Materials research",
    "paras": [
-    "PQ-10 has been cross-linked into hydrogels characterised as pH- and ion-sensitive drug-delivery systems,[3] studied with surfactants and thickeners,[5] and used in an ionic hydrogel for flexible thermal sensors.[4] These are not appearance applications."
+    "PQ-10 has been cross-linked into hydrogels characterised as pH- and ion-sensitive drug-delivery systems,[3] studied with surfactants and thickeners,[5] and used in an ionic hydrogel for flexible thermal sensors.[4] It has also been tested in ophthalmic formulations: a 2015 study reported that PQ-10 gel showed no significant cytotoxicity difference from an HPMC control in two cell lines and no significant inflammation difference in rabbits.[6] Additional papers explore antibacterial nanocomposites and 3D-printed tablet matrices.[12][13] These are not appearance applications."
+   ]
+  },
+  {
+   "h": "Safety and environment",
+   "paras": [
+    "Reference articles on the family do not discuss toxicity or regulatory status beyond naming.[1] A 2013 study examined IgE against quaternary ammonium ions in hairdressers and bakers, groups professionally exposed to quaternary ammonium compounds, in relation to reactions to neuromuscular blocking agents in anaesthesia; it concerned the wider compound class rather than PQ-10 specifically.[14] A 2022 study reported on adsorption of PQ-10 grades to activated sludge solids as a model of removal from domestic sewage.[15]"
+   ]
+  },
+  {
+   "h": "How it affects the look of hair",
+   "paras": [
+    "For appearance, polyquaternium-10 works on the surface of the hair fibre. Shampoo leaves hair rougher and more negatively charged, and the positively charged polymer is drawn to those sites, where it forms a thin film that smooths the cuticle, reduces static and lets strands slide past each other.[7][2] The visible results people look for are hair that detangles with less pulling, feels softer, looks shinier and has fewer flyaways, and a shampoo that produces a creamier lather.[2]",
+    "Wikipedia's conditioner article adds that conditioners coat the fibre and fill in cuticle damage rather than biologically repairing it, since the hair shaft is dead tissue; damaged, bleached or heat-styled hair carries more negative charge and so tends to attract more conditioning polymer.[7] That is the logic behind including cationic polymers in products aimed at colour-treated or frequently styled hair."
+   ]
+  },
+  {
+   "h": "Role in formulations",
+   "paras": [
+    "PQ-10 is one of several conditioning agents that formulators combine in a shampoo or conditioner. Hair-conditioner formulas typically pair cationic polymers with cationic surfactants, silicones, fatty alcohols, humectants and acidifiers, each contributing a different effect such as slip, shine or moisture retention.[7] The 2000 review of conditioning polymers noted the industry's move from 2-in-1 to 3-in-1 shampoos, where polymer deposition has to survive the rinsing of a detergent system.[2] Rheology work has also examined how cationic celluloses interact with surfactants and thickeners, a factor in how the finished product pours and feels.[5]",
+    "Because it is a background ingredient, consumers rarely choose PQ-10 by name. It appears on the ingredient lists of shampoos, conditioners, mousses and styling sprays and is read as a sign that a product is built to condition.[1]"
+   ]
+  },
+  {
+   "h": "Not all polyquaterniums are alike",
+   "paras": [
+    "The numbers in the polyquaternium naming scheme reflect the order in which ingredients were registered, not chemical similarity. PQ-6 is a diallyldimethylammonium homopolymer, PQ-10 is a cellulose derivative, PQ-11 is a vinylpyrrolidone copolymer and PQ-29 is a modified chitosan.[1] Statements about one member of the family therefore do not automatically apply to another, and readers comparing ingredient lists are looking at structurally different materials."
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found. A registered phase 2 trial of probiotic-containing hair products (NCT04566549, 21 participants) is not a study of PQ-10.[6]"
+    "No studies found. A registered phase 2 trial of probiotic-containing hair products (NCT04566549, 21 participants) is not a study of PQ-10.[16]"
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "2000",
+   "event": "A review of conditioning polymers in shampoo formulations describes the role of cationic polymers and the shift toward 3-in-1 shampoos. [2]"
+  },
+  {
+   "year": "2003",
+   "event": "Research describes cross-linked cationic cellulose hydrogels, an early materials application of the polymer family. [3]"
+  },
+  {
+   "year": "2015",
+   "event": "A study reports the ocular biocompatibility of a polyquaternium-10 gel in cell lines and rabbits. [6]"
+  }
+ ],
  "lore": null,
  "refs": [
   {
@@ -83,6 +167,86 @@
   },
   {
    "id": 6,
+   "title": "Ocular biocompatibility of polyquaternium 10 gel: functional and morphological results",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25631258/",
+   "source": "J Mater Sci Mater Med",
+   "year": 2015,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Hair conditioner",
+   "url": "https://en.wikipedia.org/wiki/Hair_conditioner",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 8,
+   "title": "Polyaphron Formulations Stabilised with Different Water-Soluble Polymers for Ocular Drug Delivery",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35631511/",
+   "source": "Pharmaceutics",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "Detecting Levels of Polyquaternium-10 (PQ-10) via Potentiometric Titration",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28018490/",
+   "source": "Analytical Methods",
+   "year": 2016,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Dialdehyde cellulose nanofibrils/polyquaternium stabilized ultra-fine silver nanoparticles for synergistic antibacterial therapy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39322171/",
+   "source": "Int J Biol Macromol",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "Influence of cationic cellulose structure on its interactions with sodium dodecylsulfate",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12837491/",
+   "source": "Eur J Pharm Biopharm",
+   "year": 2003,
+   "type": "study"
+  },
+  {
+   "id": 12,
+   "title": "Physicochemical and transfection properties of cationic Hydroxyethylcellulose/DNA nanoparticles",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17025362/",
+   "source": "Biomacromolecules",
+   "year": 2006,
+   "type": "study"
+  },
+  {
+   "id": 13,
+   "title": "3D printed, controlled release, tritherapeutic tablet matrix for advanced anti-HIV-1 drug delivery",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29655904/",
+   "source": "Eur J Pharm Biopharm",
+   "year": 2019,
+   "type": "study"
+  },
+  {
+   "id": 14,
+   "title": "Prevalence of IgE against neuromuscular blocking agents in hairdressers and bakers",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24152158/",
+   "source": "Clin Exp Allergy",
+   "year": 2013,
+   "type": "study"
+  },
+  {
+   "id": 15,
+   "title": "Adsorption isotherms of Polyquaternium-10 polymers by activated sludge solids",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35926742/",
+   "source": "Chemosphere",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 16,
    "title": "The Safety and Efficacy Evaluation of Hair Products Containing Probiotics (NCT04566549)",
    "url": "https://clinicaltrials.gov/study/NCT04566549",
    "source": "ClinicalTrials.gov",
@@ -94,19 +258,10 @@
   {
    "url": "https://en.wikipedia.org/wiki/Polyquaternium",
    "title": "Polyquaternium - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Hair_conditioner",
+   "title": "Hair conditioner - Wikipedia"
   }
- ],
- "card": {
-  "summary": "Cationic cellulose polymer that coats hair in shampoos and conditioners; a background ingredient with no direct trials.",
-  "aka": "PQ-10, quaternized hydroxyethyl cellulose",
-  "evidence": "limited",
-  "status": "otc",
-  "note": "No hair-specific clinical or safety data found in the reviewed sources.",
-  "structure": null
- },
- "quick": {
-  "overview": "Polyquaternium-10 is a modified cellulose with positive charges, used in shampoos and conditioners. Formulation literature credits cationic polymers with easier combing, smoother hair and better lather.\n\nIt is an ingredient rather than a treatment; no trials of it on hair were found.",
-  "mechanism": "Its positive charge attracts it to negatively charged hair, where it deposits as a thin conditioning film.",
-  "risks": "The reviewed sources report no specific safety findings for PQ-10 on hair or skin."
- }
+ ]
 }

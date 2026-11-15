@@ -1,13 +1,24 @@
 {
  "name": "Testosterone cypionate",
  "lead": [
-  "Testosterone cypionate is a long-acting injectable ester of testosterone, sold mainly as Depo-Testosterone, and a prodrug the body converts to testosterone. It is FDA-labelled for replacement therapy in males with primary or hypogonadotropic hypogonadism.[1][2][3]",
-  "Its listed virilizing effects include acne, body and facial hair growth and deepening of the voice.[1] It is a Schedule III controlled substance in the US, and non-medical use for physique and performance is reported as common.[1]"
+  "Testosterone cypionate is a long-acting injectable ester of testosterone, sold mainly as Depo-Testosterone, that the body converts to testosterone after injection. It is FDA-labelled for replacement therapy in males with primary or hypogonadotropic hypogonadism, and it is also used in masculinizing hormone therapy for transgender men.[1][2][3]",
+  "In appearance terms, testosterone drives several visible traits: facial and body hair, a deeper voice, muscle mass and skin oiliness. The label lists acne, body and facial hair growth and voice deepening among its virilizing effects, and people in physique communities describe using it to build muscle, which they associate with a fuller, more muscular look.[1][3] Transgender men use it for the explicitly intended purpose of developing male secondary sexual characteristics such as a lower voice, facial hair and a more masculine fat and muscle distribution.[4]",
+  "Controlled trials have studied it in hypogonadal older men, in healthy men given supraphysiologic doses to examine mood and aggression, and in prostate cancer protocols. No trial has tested it for cosmetic goals in people with normal hormone levels. It is a Schedule III controlled substance in the United States.[1][5][6]"
  ],
+ "angle": {
+  "goal": "Muscle, facial hair and voice",
+  "chain": [
+   "Slow-release ester raises circulating testosterone",
+   "Androgen receptor activation in muscle, skin, hair follicles and larynx",
+   "More muscle mass, facial and body hair growth, deeper voice"
+  ],
+  "effect": "direct",
+  "text": "Testosterone acts on androgen receptors in muscle, hair follicles and the larynx, so replacement in hypogonadal men and masculinizing therapy in transgender men are associated with more muscle, more facial and body hair and a deeper voice. Physique communities use supraphysiologic exposure for muscle size, and hair, skin and fertility effects come with it."
+ },
  "infobox": [
   [
    "Drug class",
-   "Androgen / anabolic steroid (ester)"
+   "Androgen / anabolic steroid (testosterone ester)"
   ],
   [
    "Route",
@@ -26,51 +37,213 @@
    "Depo-Testosterone, Depovirin, Duratest, Virilon"
   ],
   [
+   "Chemical form",
+   "Testosterone 17-beta-cyclopentylpropionate (C27H40O3)[1]"
+  ],
+  [
    "Legal status",
    "US Schedule III; Canada Schedule IV[1]"
+  ],
+  [
+   "Also regulated",
+   "UK Class C; prescription-only in the EU; WADA-banned [24]"
   ]
  ],
  "sections": [
   {
-   "h": "Medical uses",
+   "h": "Uses",
+   "subs": [
+    {
+     "h": "Medical uses",
+     "paras": [
+      "The US label lists replacement therapy in men with symptoms of testosterone deficiency. Covered conditions include primary hypogonadism (testicular failure from causes such as cryptorchidism, orchitis or orchidectomy) and hypogonadotropic hypogonadism (gonadotropin or LHRH deficiency, or pituitary-hypothalamic injury).[3] A 1984 review described long-acting testosterone esters, enanthate and cypionate, as the standard injectable approach to adult male testosterone deficiency.[7]",
+      "It is also used off-label for other conditions, including masculinizing hormone therapy in transgender men. A Brazilian review of recommendations for transgender men reports that intramuscular testosterone esters are the most common formulation, with testosterone cypionate and enanthate widely used, and that male physical characteristics appear in nearly all users within about six months, with maximum virilization taking longer.[4]"
+     ]
+    },
+    {
+     "h": "Appearance-related effects",
+     "paras": [
+      "The listed androgenic effects include growth of facial and body hair, voice deepening, acne, seborrhea and male-pattern hair loss.[1][3] Wikipedia notes that non-medical use for physique enhancement is common and that the drug is marketed mainly in the United States.[1]",
+      "Grokipedia's overview describes lean mass, strength and bone density gains as expected effects of androgen replacement in hypogonadal men.[2] Randomized data on these outcomes in older hypogonadal men come from a 12-month trial (see Clinical studies).[8]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Effects on appearance",
    "paras": [
-    "The US label lists replacement therapy in men with testicular failure or pituitary-hypothalamic disorders. It is also used in masculinizing hormone therapy for transgender men, and off-label for several other conditions.[1][3]",
-    "A 12-month randomized trial in older hypogonadal men examined testosterone replacement effects on physical and cognitive decline.[4]"
+    "Testosterone acts through the androgen receptor in muscle, skin, hair follicles and the larynx, so its visible effects fall in several areas. Wikipedia's overview of testosterone medication lists increased body and facial hair, possible scalp hair loss that 5-alpha-reductase inhibitors such as finasteride can reduce, oily skin, acne and seborrhea.[24] The same overview notes that in transgender men, injectable esters including cypionate are used for masculinizing effects.[24][4]",
+    "For muscle, the best-known controlled data come from a 1996 New England Journal of Medicine trial in 43 healthy men, who received supraphysiologic testosterone enanthate or placebo for 10 weeks with or without weight training. Testosterone without exercise raised triceps area by 424 mm2 versus a 81 mm2 fall on placebo and quadriceps area by 607 versus a 131 mm2 fall, with fat-free mass gains of 6.1 kg in the testosterone-plus-exercise group; mood and behavior did not change in any group.[26] That study used enanthate, which Wikipedia describes as essentially interchangeable with cypionate in its pharmacokinetic profile.[27]",
+    "Physique and looks communities discuss further appearance goals, including jaw definition and facial hair.[17] No controlled trial was found measuring facial bone change in adult users."
    ]
   },
   {
    "h": "Adverse effects",
    "paras": [
-    "The label lists gynecomastia, oligospermia at high doses, hirsutism, male-pattern baldness, acne, fluid retention, liver test changes, and reports of myocardial infarction, stroke and venous thromboembolism. It is contraindicated in pregnancy because it can virilize a female fetus.[3]",
-    "A placebo-controlled crossover trial of supraphysiologic testosterone cypionate in healthy men studied effects on mood and aggression.[5]"
+    "The label lists gynecomastia, frequent or prolonged erections, oligospermia at high doses, hirsutism, male-pattern baldness, seborrhea, acne, fluid and electrolyte retention, nausea, cholestatic jaundice and liver test changes. Cardiovascular events including myocardial infarction and stroke are listed, and post-marketing reports of venous thromboembolism are cited in the warnings.[3]",
+    "Testosterone is contraindicated in pregnancy because it can virilize a female fetus.[3] Older patients on androgens may have a higher risk of prostatic hypertrophy and prostate cancer, though the label says conclusive evidence is lacking.[3]",
+    "A network meta-analysis of 29 placebo-controlled randomized trials (3,393 men) found that every testosterone formulation raised hematocrit relative to placebo, with differences among routes; intramuscular esters including cypionate were among the larger increases.[9] A randomized trial compared hematocrit change with intranasal testosterone gel versus intramuscular testosterone cypionate in testosterone-deficient men.[10] A randomized pilot study examined 100 mg testosterone cypionate in trans men who had erythrocytosis.[11]",
+    "Laboratory work links testosterone to platelet changes: one study reported that testosterone increased thromboxane A2 receptor density and platelet aggregation responses in human platelets.[12] Rat studies of supraphysiologic cypionate and nandrolone reported effects on neuron counts in the locus coeruleus.[13] A 2024 case report described a delayed hypersensitivity reaction to cypionate injections.[14]",
+    "Wikipedia's overview lists common effects including acne, swelling, and breast enlargement in men from aromatization to estradiol, with mood changes, aggression, increased sex drive and reduced sperm production possible; reduced sperm production is described as reversible infertility.[24] Serious risks listed include liver toxicity, heart problems, blood clots and worsened sleep apnea.[24] The Anabolic steroid article adds that prolonged use temporarily shuts down natural testosterone production, that oligospermia, azoospermia and testicular atrophy can occur and are generally reversible, and that pattern baldness can be accelerated in men who are genetically predisposed.[25]",
+    "The TRAVERSE trial, published in the New England Journal of Medicine in 2023, randomized 5,246 men aged 45 to 80 with hypogonadism and existing or high cardiovascular risk to 1.62 percent transdermal testosterone gel or placebo. Major adverse cardiovascular events occurred in 7.0 percent on testosterone and 7.3 percent on placebo, meeting the noninferiority criterion, while atrial fibrillation, acute kidney injury and pulmonary embolism were more frequent in the testosterone group.[26] This was a gel trial in medically treated men, not cypionate injections or non-medical use. According to Wikipedia, the FDA stated in 2015 that benefits and safety for age-related low testosterone had not been established, and in February 2025 removed cardiovascular language from the boxed warning while adding a warning about increased blood pressure.[24]"
    ]
   },
   {
-   "h": "Pharmacology and chemistry",
+   "h": "Pharmacology",
+   "subs": [
+    {
+     "h": "Mechanism of action",
+     "paras": [
+      "The cypionate ester makes testosterone oil-soluble and slows its release from the injection depot. After conversion to free testosterone, it binds the androgen receptor and can also be converted to dihydrotestosterone (via 5-alpha-reductase) or estradiol (via aromatase).[1] Those downstream conversions are the reason hair loss, acne and gynecomastia appear on the adverse-effect list.[1][3]",
+      "Exogenous testosterone suppresses the hypothalamic-pituitary-testicular axis, reducing the body's own luteinizing hormone-driven production; a randomized study from 1997 examined this suppression.[15]"
+     ]
+    },
+    {
+     "h": "Pharmacokinetics",
+     "paras": [
+      "Wikipedia gives an elimination half-life of roughly 7 to 8 days after intramuscular injection, which is why it is dosed far less often than short-acting preparations.[1] Subcutaneous administration has also been studied; Grokipedia describes pharmacokinetics similar to intramuscular injection in studies among transgender men.[2]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Chemistry",
    "paras": [
-    "It is the cyclopentylpropionate ester of testosterone (C27H40O3), converted slowly to testosterone, which acts at the androgen receptor and may convert to DHT or estradiol.[1]"
+    "Testosterone cypionate is the cyclopentylpropionate ester of testosterone with the formula C27H40O3. It is a prodrug of testosterone and is a synthetic anabolic-androgenic steroid derivative.[1][2]"
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Testosterone was first isolated in 1935 and approved for medical use in 1939, according to Wikipedia.[24] Testosterone cypionate was synthesized and introduced for medical use in the United States in 1951, and it is now one of the most commonly used testosterone esters, alongside enanthate, undecanoate and propionate; it is marketed mainly in the United States.[27][1]",
+    "Wikipedia dates the drug's introduction to 1951 in the United States, under the Depo-Testosterone name.[1] Clinical use of long-acting esters in hypogonadism was established through the following decades, as summarised in a 1984 review.[7] Interest in its non-medical use grew with bodybuilding culture, and in the 2020s T Nation threads discuss prescription testosterone replacement providers, first cycle experiences and lab results at length.[16][17]",
+    "Anabolic-androgenic steroids spread through bodybuilding culture, and Wikipedia's overview of the class notes that media reports of so-called roid rage appeared from the mid-1980s onward. The US classified anabolic steroids as controlled substances under the Anabolic Steroid Control Act of 1990.[24][25] Survey data cited there indicate that most non-medical users are non-competitive bodybuilders or non-athletes, with a median age around 25, who use the drugs for cosmetic reasons.[25]"
    ]
   },
   {
    "h": "Society and culture",
-   "paras": [
-    "Wikipedia notes marketing mainly in the US and non-medical use for physique enhancement. Voice deepening is among the effects reported with androgen use.[1]"
+   "subs": [
+    {
+     "h": "Legal status",
+     "paras": [
+      "It is a Schedule III controlled substance in the United States and Schedule IV in Canada, and requires a prescription in most jurisdictions.[1]",
+      "Wikipedia lists the UK as Class C, the EU as prescription-only, and testosterone as on the WHO Essential Medicines List; it is banned in competitive sport by the World Anti-Doping Agency.[24] Controlled status has fostered black markets selling smuggled, clandestinely made or counterfeit products, according to the Anabolic steroid article.[25]"
+     ]
+    },
+    {
+     "h": "Use in physique and looks communities",
+     "paras": [
+      "T Nation, a long-running strength and physique forum, hosts many threads on testosterone replacement therapy and non-medical use, covering provider choices, lab values and personal experiences.[16][17][18] On looksmaxxing forums, testosterone is discussed as a lever for jaw definition, facial hair, muscle and skin, and threads exist about sourcing; this article does not document sourcing or preparation.",
+      "Prescription testosterone replacement is a separate community topic from non-medical use. T Nation threads on TRT providers discuss clinics, lab monitoring and comparisons between injectable and other forms, while cycle threads discuss expected results for muscle, fat and skin.[16][17] Contributors to such threads frequently mention monitoring of hematocrit and estradiol, in line with the hematocrit findings described in the clinical literature.[16][9]"
+     ]
+    }
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "Randomized trials include a 12-month study in hypogonadal older men and a placebo-controlled study of mood and aggression with supraphysiologic dosing; registered trials include a phase 3 weekly auto-injector study in hypogonadal men and several studies in prostate cancer.[4][5][6][7] No study was found evaluating it for voice change."
+    "Testosterone replacement in older hypogonadal men: a 12-month randomized controlled trial assigned 15 hypogonadal men (mean age 68) to placebo and 17 (mean age 65) to testosterone, examining physical and cognitive decline over a year.[8]",
+    "Supraphysiologic dosing: a randomized, placebo-controlled, crossover trial in 56 men aged 20 to 50 gave testosterone cypionate for 6 weeks at doses rising to 600 mg per week, versus placebo, to evaluate manic and aggressive responses; it was designed because field studies of illicit steroid users had suggested mood effects.[5] An earlier study examined aggressive responding in male volunteers after gradually increasing doses.[19]",
+    "Route and hematocrit: a 2022 network meta-analysis of 29 randomized trials pooled formulations, and a 2023 randomized trial compared intranasal gel with intramuscular cypionate.[9][10]",
+    "Prostate cancer: bipolar androgen therapy alternates high and low testosterone in castration-resistant prostate cancer, with a pilot study published in 2015 and phase 2 follow-ups.[6][20] A 2026 JAMA Internal Medicine randomized trial examined testosterone in prostate cancer survivors with hypogonadism.[21]",
+    "Other: a randomized trial examined testosterone in infants with 47,XXY, and a phase 3 weekly auto-injector trial in hypogonadal men is registered.[22][23] No study was found evaluating testosterone cypionate for voice change or cosmetic goals in healthy people.",
+    "Muscle in healthy men: the 1996 randomized trial in 43 men found that testosterone enanthate increased muscle size and strength with or without training, and the largest gains occurred with training.[26] Cardiovascular safety: the 2023 TRAVERSE trial in 5,246 hypogonadal men found that gel testosterone was noninferior to placebo for major cardiovascular events.[26]"
    ]
   }
  ],
  "timeline": [
   {
+   "year": "1935",
+   "event": "Testosterone is first isolated; it is approved for medical use in 1939.[24]"
+  },
+  {
    "year": "1951",
-   "event": "Synthesized and introduced in the US as Depo-Testosterone.[1]"
+   "event": "Introduced in the US as Depo-Testosterone.[1]"
+  },
+  {
+   "year": "1984",
+   "event": "A review describes testosterone cypionate and enanthate as the long-acting injectable esters for adult male hypogonadism.[7]"
+  },
+  {
+   "year": "1990",
+   "event": "Anabolic steroids are classified as controlled substances in the US under the Anabolic Steroid Control Act.[24]"
+  },
+  {
+   "year": "1996",
+   "event": "New England Journal of Medicine trial of supraphysiologic testosterone in 43 healthy men reports gains in muscle size and strength.[26]"
+  },
+  {
+   "year": "1997",
+   "event": "A 12-month randomized trial in older hypogonadal men is published.[8]"
+  },
+  {
+   "year": "2000",
+   "event": "A randomized crossover trial examines supraphysiologic cypionate and mood.[5]"
+  },
+  {
+   "year": "2015",
+   "event": "Pilot study of bipolar androgen therapy in prostate cancer published.[6]"
+  },
+  {
+   "year": "2022",
+   "event": "Network meta-analysis compares hematocrit effects across testosterone routes.[9]"
+  },
+  {
+   "year": "2023",
+   "event": "TRAVERSE trial in 5,246 hypogonadal men reports noninferiority for cardiovascular events with testosterone gel.[26]"
+  },
+  {
+   "year": "2025",
+   "event": "FDA removes cardiovascular language from the testosterone boxed warning and adds a blood pressure warning.[24]"
   }
  ],
- "lore": null,
+ "lore": {
+  "intro": "In physique and looks forums, testosterone cypionate is the most commonly discussed injectable androgen, covered in threads on prescribed replacement therapy and non-medical cycles.[16][17][18]",
+  "claims": [
+   {
+    "claim": "Testosterone raises muscle mass and a more masculine look",
+    "believers": "Forum members describe gaining size and a more muscular physique on injectable testosterone and treat it as the baseline of physique enhancement.[17]",
+    "experts": "The 12-month trial in hypogonadal older men examined physical decline under replacement, and Grokipedia reports lean-mass gains in hypogonadal trials; healthy-user cosmetic outcomes have not been tested in these trials.[2][8]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Its long half-life means infrequent injections maintain steady levels",
+    "believers": "Forum users cite the roughly week-long half-life when arguing about how often to inject and when levels fall away.[18]",
+    "experts": "Wikipedia reports a half-life of about 7 to 8 days after intramuscular injection.[1]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Testosterone worsens hair loss and acne",
+    "believers": "Users report acne and shedding and discuss DHT blockers alongside androgen use.[16]",
+    "experts": "The US label lists acne, seborrhea and male-pattern baldness as adverse reactions.[3]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Higher exposure causes mood changes and aggression",
+    "believers": "Forum posters discuss mood swings and irritability on higher exposure.[17]",
+    "experts": "A randomized crossover trial of supraphysiologic cypionate examined manic and aggressive responses in 56 men.[5]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Blood thickening (high hematocrit) is a common side effect",
+    "believers": "TRT forum threads discuss lab results, hematocrit and blood donation as routine monitoring topics.[16]",
+    "experts": "A network meta-analysis found every testosterone formulation raises hematocrit versus placebo, with intramuscular esters among the larger increases.[9]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Testosterone injections give a jaw and facial-structure change in adults",
+    "believers": "Looks forum members discuss androgen exposure as a lever for jaw definition, brow and facial hair.[17]",
+    "experts": "No controlled trial was found measuring facial bone change in adults on testosterone; documented appearance effects are hair, skin and muscle changes.[24]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Testosterone is safe for the heart when monitored",
+    "believers": "TRT forum users describe regular lab checks as what makes use manageable.[16]",
+    "experts": "TRAVERSE found noninferiority for major cardiovascular events with gel in hypogonadal men, with more atrial fibrillation, kidney injury and pulmonary embolism on testosterone.[26]",
+    "evidence": "mixed"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -98,11 +271,11 @@
   },
   {
    "id": 4,
-   "title": "Testosterone replacement in older hypogonadal men: a 12-month randomized controlled trial",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/9177359/",
-   "source": "J Clin Endocrinol Metab",
-   "year": 1997,
-   "type": "trial"
+   "title": "Recommendations for the Use of Testosterone in Male Transgender",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29913543/",
+   "source": "Rev Bras Ginecol Obstet",
+   "year": 2018,
+   "type": "review"
   },
   {
    "id": 5,
@@ -114,6 +287,142 @@
   },
   {
    "id": 6,
+   "title": "Bipolar androgen therapy for castration-resistant prostate cancer pilot",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25568070/",
+   "source": "Sci Transl Med",
+   "year": 2015,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Clinical use of androgens",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6372655/",
+   "source": "Annu Rev Med",
+   "year": 1984,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "Testosterone replacement in older hypogonadal men: a 12-month randomized controlled trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9177359/",
+   "source": "J Clin Endocrinol Metab",
+   "year": 1997,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "The Effect of Route of Testosterone on Changes in Hematocrit: network meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34445892/",
+   "source": "J Urol",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 10,
+   "title": "Hematocrit change with intranasal testosterone gel vs intramuscular testosterone cypionate",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37126399/",
+   "source": "J Urol",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Effect of 100 mg of testosterone cypionate in trans men with erythrocytosis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41052128/",
+   "source": "J Sex Med",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "Testosterone increases human platelet thromboxane A2 receptor density and aggregation responses",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7758179/",
+   "source": "Circulation",
+   "year": 1995,
+   "type": "study"
+  },
+  {
+   "id": 13,
+   "title": "Neuronal degeneration and supraphysiological doses of two anabolic steroids in rat brain",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36208700/",
+   "source": "Steroids",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 14,
+   "title": "Delayed hypersensitivity reaction to testosterone cypionate injections",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38923570/",
+   "source": "Contact Dermatitis",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 15,
+   "title": "Testosterone suppression of the HPT axis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9394096/",
+   "source": "J Investig Med",
+   "year": 1997,
+   "type": "trial"
+  },
+  {
+   "id": 16,
+   "title": "Favorite TRT Provider? In Detail, Why?",
+   "url": "https://t-nation.com/t/favorite-trt-provider-in-detail-why/267707",
+   "source": "T Nation forum",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 17,
+   "title": "First Cycle Experiences",
+   "url": "https://t-nation.com/t/first-cycle-experiences/205850",
+   "source": "T Nation forum",
+   "year": 2014,
+   "type": "forum"
+  },
+  {
+   "id": 18,
+   "title": "Starting the Journey. Concerned on Prescription",
+   "url": "https://t-nation.com/t/starting-the-journey-concerned-on-prescription/262024",
+   "source": "T Nation forum",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 19,
+   "title": "Increased aggressive responding in male volunteers following gradually increasing doses of testosterone cypionate",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8746927/",
+   "source": "Drug Alcohol Depend",
+   "year": 1995,
+   "type": "trial"
+  },
+  {
+   "id": 20,
+   "title": "Bipolar androgen therapy sensitizes castration-resistant prostate cancer to subsequent androgen receptor ablative therapy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33383350/",
+   "source": "Eur J Cancer",
+   "year": 2021,
+   "type": "trial"
+  },
+  {
+   "id": 21,
+   "title": "Testosterone Treatment in Prostate Cancer Survivors With Hypogonadism: A Randomized Clinical Trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42113507/",
+   "source": "JAMA Intern Med",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 22,
+   "title": "Testosterone Effects on Short-term Outcomes (TESTO) in Infants With 47,XXY",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40177735/",
+   "source": "J Clin Endocrinol Metab",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 23,
    "title": "NCT07898072 weekly testosterone cypionate auto-injector",
    "url": "https://clinicaltrials.gov/study/NCT07898072",
    "source": "ClinicalTrials.gov",
@@ -121,18 +430,54 @@
    "type": "trial"
   },
   {
-   "id": 7,
-   "title": "Bipolar androgen therapy for castration-resistant prostate cancer pilot",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/25568070/",
-   "source": "Sci Transl Med",
-   "year": 2015,
-   "type": "trial"
+   "id": 24,
+   "title": "Testosterone (medication)",
+   "url": "https://en.wikipedia.org/wiki/Testosterone_(medication)",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 25,
+   "title": "Anabolic steroid",
+   "url": "https://en.wikipedia.org/wiki/Anabolic_steroid",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 26,
+   "title": "Europe PMC records: Bhasin et al., The effects of supraphysiologic doses of testosterone on muscle size and strength in normal men (N Engl J Med 1996); Lincoff et al., Cardiovascular Safety of Testosterone-Replacement Therapy (TRAVERSE, N Engl J Med 2023)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:37326322%20OR%20EXT_ID:8637535%20OR%20EXT_ID:27124117%20OR%20EXT_ID:26709084&resultType=core&format=json&pageSize=6",
+   "source": "Europe PMC",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 27,
+   "title": "Testosterone cypionate",
+   "url": "https://en.wikipedia.org/wiki/Testosterone_cypionate",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
   }
  ],
  "webSources": [
   {
+   "url": "https://en.wikipedia.org/wiki/Testosterone_(medication)",
+   "title": "Testosterone (medication)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Anabolic_steroid",
+   "title": "Anabolic steroid"
+  },
+  {
    "url": "https://en.wikipedia.org/wiki/Testosterone_cypionate",
    "title": "Testosterone cypionate"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:37326322%20OR%20EXT_ID:8637535%20OR%20EXT_ID:27124117%20OR%20EXT_ID:26709084&resultType=core&format=json&pageSize=6",
+   "title": "Europe PMC records for Bhasin 1996 and TRAVERSE 2023"
   }
  ],
  "card": {

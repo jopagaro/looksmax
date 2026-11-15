@@ -1,8 +1,8 @@
 {
  "name": "Amiloxate",
  "lead": [
-  "Amiloxate (isoamyl p-methoxycinnamate, isopentyl 4-methoxycinnamate, IMC) is a cinnamate ester used as a UVB filter in sunscreen products [1]. It has been approved in the European Union since 1997; in the United States it has been under regulatory evaluation rather than listed as an approved sunscreen active [1].",
-  "Published literature on it consists mainly of analytical methods, environmental occurrence studies, and photoallergy reports."
+  "Amiloxate (isoamyl p-methoxycinnamate, isopentyl 4-methoxycinnamate, IMC) is a cinnamate ester used as a UVB filter in sunscreen products [1]. For appearance, sunscreen filters like it are used to limit UV exposure that causes sunburn, tanning, uneven pigmentation and visible photoaging, so skin keeps a smoother, more even look over time [13]. Amiloxate has been approved in the European Union since 1997; in the United States it has been under regulatory evaluation rather than listed as an approved sunscreen active [1].",
+  "Published literature on amiloxate itself consists mainly of analytical methods, environmental occurrence studies, and photoallergy reports [2][7][10]. It is chemically close to octinoxate, the better-known cinnamate UVB filter [1]."
  ],
  "infobox": [
   [
@@ -24,13 +24,33 @@
   [
    "US status",
    "Under evaluation (not an approved OTC active)"
+  ],
+  [
+   "CAS number",
+   "71617-10-2"
+  ],
+  [
+   "Molar mass",
+   "248.322 g/mol"
   ]
  ],
  "sections": [
   {
+   "h": "Chemistry and mechanism",
+   "paras": [
+    "Amiloxate is the 3-methylbutyl ester of 4-methoxycinnamic acid, with formula C15H20O3 and a molar mass of about 248 g/mol [1]. Like other organic ('chemical') filters, it is an aromatic molecule that absorbs high-energy ultraviolet light and releases the energy as lower-energy radiation, so less UV reaches the skin [13]. It sits in the UVB filter group alongside other cinnamates such as octinoxate [1][13]. Cinnamates as a class are known to cause allergic contact dermatitis in some people, as filters and as excipients [13]."
+   ]
+  },
+  {
    "h": "Uses and presence in products",
    "paras": [
     "Amiloxate appears among the UV filters measured in commercial suncare formulations and cosmetics by chromatography methods [2][3][4]. In a mouse inflammation assay of the 21 UV filters then authorised in Europe, 13 showed anti-inflammatory effects; researchers proposed this might explain differences between in vivo and in vitro SPF measurements [5]."
+   ]
+  },
+  {
+   "h": "Regulation",
+   "paras": [
+    "The EU approved amiloxate in 1997 under its cosmetics framework, where sunscreen is treated as a cosmetic [1][13]. In the US sunscreens are regulated as over-the-counter drugs, which makes approval of newer ingredients slower and narrows the ingredient list; amiloxate has been described as undergoing regulatory evaluation there [1][13]. In 2021 the FDA sorted filters into categories, and as of that year only zinc oxide and titanium dioxide were listed as generally recognised as safe and effective [13]."
    ]
   },
   {
@@ -50,12 +70,22 @@
    "paras": [
     "No clinical trials specific to amiloxate were found. It was among the filters evaluated in a registered multicentre European photopatch study (1,000 participants) [12], and in the allergy series described above [6]."
    ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Amiloxate has little visibility in skincare communities, where discussion of UV filters centres on better-known ones such as octinoxate, oxybenzone, avobenzone and mineral filters. Public-health bodies generally hold that skin cancer risk from sun exposure outweighs the unproven concerns about approved filters, per Wikipedia's sunscreen article [13]."
+   ]
   }
  ],
  "timeline": [
   {
    "year": "1997",
    "event": "Approved in the European Union [1]."
+  },
+  {
+   "year": "2021",
+   "event": "The FDA's administrative order sorted sunscreen filters into three categories [13]."
   }
  ],
  "lore": null,
@@ -155,12 +185,24 @@
    "source": "ClinicalTrials.gov",
    "year": 2008,
    "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "Sunscreen",
+   "url": "https://en.wikipedia.org/wiki/Sunscreen",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Amiloxate",
    "title": "Amiloxate - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Sunscreen",
+   "title": "Sunscreen - Wikipedia"
   }
  ],
  "card": {
@@ -176,5 +218,15 @@
   "overview": "Amiloxate is a cinnamate-type UVB filter used in some sunscreens, approved in the EU since 1997.\n\nPublished work on it is mostly analytical and environmental, plus case reports of photoallergic contact dermatitis.",
   "mechanism": "It absorbs UVB radiation within the sunscreen film.",
   "risks": "Photoallergic contact dermatitis has been reported. It is not an approved US OTC sunscreen active."
+ },
+ "angle": {
+  "goal": "Skin quality and sun protection",
+  "chain": [
+   "Absorbs UVB radiation in a sunscreen",
+   "Less UVB reaches the skin",
+   "Less sunburn and photodamage, supporting even tone and smoother skin over years"
+  ],
+  "effect": "direct",
+  "text": "Amiloxate is one of the organic ingredients that lets a sunscreen absorb UVB. People who use sunscreen to keep their skin looking even and youthful rely on filters of this kind, though few products today list amiloxate specifically."
  }
 }

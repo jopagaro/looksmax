@@ -1,45 +1,151 @@
 {
  "name": "Low-sodium diet / salt reduction",
+ "card": {
+  "summary": "Salt cutting for less bloat; proven for blood pressure, untested for faces, and argued both ways online.",
+  "aka": "Salt reduction, debloating diet",
+  "evidence": "limited",
+  "risk": "low",
+  "note": "Evidence is for blood pressure, not appearance; sodium needs vary and people with medical conditions follow clinician advice."
+ },
+ "quick": {
+  "overview": "Low-sodium eating is a standard blood pressure measure. Appearance communities use it to try to reduce water retention and facial puffiness.\n\nSome forum users argue the reverse, that very low sodium increases retention. Neither view has been tested for how the face looks.",
+  "mechanism": "Sodium influences how much water the body holds; less sodium is expected to mean less retained fluid.",
+  "risks": "Guidelines advise lower salt for most adults, but reviews note mixed evidence on outcomes and some people respond inversely. Medical conditions may call for clinician guidance."
+ },
  "lead": [
-  "A low-sodium diet limits dietary salt. In medicine it is used mainly to lower blood pressure. In looksmaxxing communities, salt reduction is discussed as a way to reduce water retention and morning facial puffiness, and it is also contested within those communities.",
-  "Trials show that lowering sodium reduces blood pressure, and health agencies advise lower salt intake.[1][4] A general reference on puffy eyes lists excess sodium as a possible contributor to fluid retention, though it marks the claim as needing a citation.[5] No trial has tested sodium restriction against facial puffiness."
+  "A low-sodium diet limits dietary salt. In medicine it is used mainly to lower blood pressure. In looksmaxxing communities, salt reduction is discussed as a way to reduce water retention and morning facial puffiness, so that the face looks leaner and more defined, and it is also contested within those communities.[6]",
+  "Randomized trials show that lowering sodium reduces blood pressure, and health agencies including the American Heart Association, the WHO and the European Food Safety Authority advise lower salt intake.[1][4] A general reference on puffy eyes lists excess sodium as a possible contributor to fluid retention, though it marks the claim as needing a citation.[5] No trial has tested sodium restriction against facial puffiness or facial leanness.",
+  "The appearance chain people describe is: less sodium retained, less extracellular water held in soft tissue, less puffiness around the eyes and jaw, a sharper-looking face. Others in the same communities argue the reverse, that very low sodium provokes hormonal responses that increase retention, and prefer moderate sodium with plenty of water.[6] The same debate runs through bodybuilding and physique-sport culture, where competitors adjust sodium and water around shows, and some practices from that setting reach appearance forums.[6][14][15]"
  ],
+ "angle": {
+  "goal": "Facial leanness / puffiness",
+  "chain": [
+   "Less dietary sodium",
+   "Less fluid retained in soft tissue",
+   "Less morning puffiness around eyes and face",
+   "Sharper-looking facial contours"
+  ],
+  "effect": "claimed",
+  "text": "People who cut salt describe less morning puffiness and a more defined face, especially before photos or events. Others argue that very low sodium works against this goal. Controlled studies have measured blood pressure rather than facial appearance."
+ },
  "infobox": [
   [
    "Type",
-   "Dietary practice"
+   "Dietary pattern"
   ],
   [
-   "Main medical use",
-   "Blood pressure reduction"
+   "Medical use",
+   "Blood pressure reduction[1][7]"
   ],
   [
-   "Landmark trial",
-   "DASH-Sodium (2001)[1]"
+   "AHA ideal limit (2018 advisory)",
+   "1,500 mg sodium per day[4]"
+  ],
+  [
+   "WHO goal",
+   "30% reduction in global salt intake by 2025[4]"
+  ],
+  [
+   "Average intake (US, Canada)",
+   "About 3,400 mg per day, mostly from processed and restaurant food[4]"
+  ],
+  [
+   "Key trials",
+   "DASH-Sodium (2001); Intersalt (1988); SODIUM-HF (2022)[1][2][10]"
   ],
   [
    "Appearance claim",
-   "Less bloat / facial puffiness (untested)"
+   "Less facial puffiness / water retention[6]"
+  ],
+  [
+   "Related terms",
+   "Debloating, water retention, peak week, potassium salt substitutes[12]"
   ]
  ],
  "sections": [
   {
-   "h": "Medical background",
+   "h": "Overview",
    "paras": [
-    "In the DASH-Sodium trial, 412 participants ate either a typical US control diet or the DASH diet at different sodium levels, and lower sodium reduced blood pressure in people with and without hypertension.[1] The Intersalt study of 10,079 adults in 52 centres examined the relation between 24-hour urinary sodium and potassium and blood pressure.[2]",
-    "The American Heart Association, CDC, EFSA and WHO advise reducing salt intake. A 2016 review found evidence on cardiovascular events and deaths mixed, and some researchers question benefits for whole populations. Sodium sensitivity has no universally accepted definition, and about 15% of adults show inverse sensitivity.[4][3]"
+    "Sodium is the main positive ion in the fluid outside cells, and the kidney adjusts how much is excreted. Most dietary sodium in countries such as the US and Canada comes from processed and restaurant food rather than from salt added at the table.[4][8] A low-sodium diet therefore usually means choosing less processed foods, reading labels and seasoning with ingredients other than salt; a patient handout on the subject published in the Journal of Renal Nutrition describes it in these terms.[17]",
+    "People interested in appearance take up salt reduction for a different reason than clinicians do. The claim in these communities is that high sodium holds water in soft tissue, giving a softer, rounder or puffier face and a less visible jawline, and that lowering intake before photos, events or a cut gives a drier, more defined look.[6][14] Because the same communities also contain a camp that says the opposite, salt is one of the more argued-over diet variables in appearance discussion.[6]"
+   ]
+  },
+  {
+   "h": "Medical background",
+   "subs": [
+    {
+     "h": "Guidelines and intake",
+     "paras": [
+      "The American Heart Association, CDC, EFSA and WHO advise reducing salt intake. The AHA's 2018 advisory gives 1,500 mg of sodium per day, under three-quarters of a teaspoon of table salt, as an ideal limit; the WHO set a goal of cutting global salt consumption by 30 percent through 2025; and average intakes in the US and Canada have been reported at roughly 3,400 mg per day.[4] Wikipedia notes that after the 2012 EU Salt Reduction Framework about half of member states adopted taxes, mandatory labelling or limits on nutrition claims.[4]",
+      "A 2020 JACC state-of-the-art review states that randomized trials show salt reduction lowers blood pressure in both hypertensive and normotensive people, additively to antihypertensive drugs, and describes associations of lower intake with lower cardiovascular risk and mortality.[7] A 2022 review in Nature Reviews Nephrology describes excess salt intake as a major dietary risk factor, says much sodium comes hidden in processed foods, and notes that animal work has identified mechanisms in kidney, vasculature and immune system.[8]"
+     ]
+    },
+    {
+     "h": "Controversy over outcomes",
+     "paras": [
+      "Scientists disagree about how far population-wide reduction improves cardiovascular outcomes. A 2016 analysis of the literature by Galea and colleagues, summarised on Wikipedia, found five reviews supporting a link between reduced sodium and lower disease and mortality, three contradicting it and two inconclusive, with the primary studies similarly split.[4] Some researchers question benefits for whole populations, and the 2011 Scientific American article cited on Wikipedia criticised the push for salt limits.[4]",
+      "Sodium sensitivity has no universally accepted definition. It is reported to be more common in older adults, people of African descent and those with reduced kidney function, and about 15 percent of adults show inverse sensitivity, with blood pressure rising when salt intake falls.[3][4] A 2021 Cochrane review in chronic kidney disease, cited on Wikipedia, found salt reduction lowered blood pressure and albuminuria, with some people experiencing dizziness or low blood pressure after abrupt cuts.[4]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Trials and what they measured",
+   "paras": [
+    "The Intersalt study of 10,079 adults in 52 centres examined the relation between 24-hour urinary sodium and potassium and blood pressure.[2] In DASH-Sodium, 412 participants ate either a typical US control diet or the DASH diet, which is rich in vegetables, fruit and low-fat dairy, at several sodium levels in turn, and lower sodium reduced blood pressure in people with and without hypertension.[1] A 2013 BMJ meta-analysis by He, Li and MacGregor, cited on Wikipedia, found reduced sodium lowered blood pressure in hypertensive and normotensive people.[4]",
+    "The 2023 JAMA crossover trial looked at how much each person's blood pressure moved between a high-sodium and a low-sodium diet, including among people taking antihypertensive medication, because individual response varies and the debate over recommendations partly stems from that variability.[9] SODIUM-HF, published in The Lancet in 2022, was an open-label randomized trial of sodium reduction in people with heart failure.[10] A 2024 randomized trial examined self-performed sodium reduction in essential hypertension, including whether a red-blood-cell test of sodium handling relates to response.[13] A 2024 trial in normotensive adults examined a potassium-enriched salt substitute.[12]",
+    "These studies track blood pressure, heart outcomes and similar endpoints. None measures eyelid swelling, facial width or visual leanness."
    ]
   },
   {
    "h": "Salt, water retention and puffiness",
    "paras": [
-    "Water retention is the mechanism by which salt raises blood pressure.[4] Sources describing puffy eyes name excess sodium, pregnancy and menstrual hormones among causes of fluid retention under the eyes, and the sodium claim is flagged as needing a citation.[5]"
+    "Water retention is the mechanism by which salt raises blood pressure, and the renin-angiotensin system, which includes the hormone aldosterone, helps the body adapt to different salt loads.[4] Wikipedia's article on periorbital puffiness says tissues around the eyes are often most swollen on waking, probably because of fluid shifts while lying flat, and lists excess dietary sodium among suggested contributors to fluid retention, with that claim marked as needing a citation.[5]",
+    "The same article lists other causes of puffiness: ageing, with thinner skin and an enlarging fat pad below the lower lids, allergy, crying, sleep deprivation, pregnancy or menstrual fluid retention, alcohol and tobacco, and medical conditions such as nephrotic syndrome and hypothyroidism. It mentions raising the head during sleep and cold compresses as measures for temporary relief.[5] People who track appearance changes from salt are therefore working with one of several factors the reference names."
    ]
   },
   {
    "h": "Debate in looksmaxxing communities",
+   "subs": [
+    {
+     "h": "The case for cutting salt",
+     "paras": [
+      "Members who cut salt describe a leaner and less swollen face, especially around photos or events, and some link the change to scale weight. In a T Nation training log a lifter who cleaned up their diet wrote that they felt no leaner but assumed lower sodium accounted for a drop in water weight.[14] Others follow a common bodybuilding pattern of lowering sodium and holding carbohydrates and sodium consistent to avoid bloating after a refeed.[15] A wider framing in Wikipedia's looksmaxxing article lists non-invasive practices such as skincare, grooming, fitness and diet under 'softmaxxing', the category in which salt manipulation is usually discussed.[19]"
+     ]
+    },
+    {
+     "h": "The case against very low sodium",
+     "paras": [
+      "A looksmax.org thread titled 'Low Sodium is WORSE for water retention' argues that chronically low sodium raises aldosterone and antidiuretic hormone, increasing retention, and that higher sodium with high water intake reduces bloat; posters cite bodybuilding practice.[6] The argument invokes the same hormonal system that reviews describe in the context of blood pressure and fluid balance, not facial appearance.[4][7]",
+      "A hydration-themed post on T Nation says that when fluids drop too low the body pulls water from other tissues to keep circulation steady, a point made in discussions of steady hydration.[18] These positions are asserted in posts, and no study cited here has tested either for facial appearance."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Sodium manipulation in physique sports",
    "paras": [
-    "Some forum users argue the opposite of the usual advice: that chronically low sodium raises aldosterone and antidiuretic hormone, increasing retention, and that higher sodium with high water intake reduces bloat; they cite bodybuilding practice.[6] Other users avoid salt before photos or events. These positions are asserted in forum posts, and no study cited here has tested either for facial appearance."
+    "Bodybuilders and physique competitors sometimes adjust sodium and water in the days before a show to alter how full or tight they look, a practice often called peak week. Forum posts describe approaches such as holding carbohydrate and sodium steady around a refeed, and appearance forums sometimes borrow the ideas, though no study cited here has measured facial effects.[6][15]"
+   ]
+  },
+  {
+   "h": "Pharmacology and mechanism",
+   "paras": [
+    "Excess sodium is excreted with water, and retained water is the route by which higher salt intake raises blood pressure.[4] Forum users who say low sodium worsens retention invoke the renin-angiotensin hormonal system, arguing that chronic restriction raises aldosterone and antidiuretic hormone.[6] Published reviews describe these pathways in the context of blood pressure and fluid homeostasis, not facial appearance.[7]",
+    "The general medical reference on low blood sodium (hyponatremia) describes it as a disturbance of sodium concentration, commonly tied to water balance and underlying conditions rather than ordinary dietary choices.[11]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Salt reduction is a public-health policy topic: agencies promote lower sodium in packaged food, and potassium-enriched salt substitutes have been studied as a way to cut sodium while raising potassium intake. Wikipedia notes that potassium chloride substitutes can pose risks for people with diabetes, kidney disease or heart failure.[4][12] In fitness and bodybuilding culture, athletes manipulate sodium and water around competitions, and some forum users carry that practice into discussions of facial appearance.[6]",
+    "Food culture matters to how people discuss salt: forum members from regions with salty cooking note that even the 'low sodium' version of a favourite condiment can be very high in sodium.[16] Tracking intake is complicated for the same reason."
+   ]
+  },
+  {
+   "h": "Risks and cautions",
+   "paras": [
+    "Guidelines describe sodium restriction as a population-level measure and note that responses differ. Medical conditions can call for clinician-set sodium targets, and abrupt cuts have been associated with dizziness or low blood pressure in some people with kidney disease.[4] Low blood sodium is a distinct clinical problem tied to water balance and underlying disease.[11]"
    ]
   },
   {
@@ -51,27 +157,87 @@
  ],
  "timeline": [
   {
+   "year": "1977",
+   "event": "Blaustein's sodium, calcium and blood pressure hypothesis is published, an early reference in the salt-hypertension literature.[4]"
+  },
+  {
+   "year": "1986",
+   "event": "Definitions and characteristics of sodium sensitivity and blood pressure resistance are published in Hypertension.[3]"
+  },
+  {
    "year": "1988",
    "event": "Intersalt publishes 24-hour urinary electrolyte and blood pressure data from 52 centres.[2]"
   },
   {
    "year": "2001",
-   "event": "DASH-Sodium trial reports effects of sodium levels on blood pressure.[1]"
+   "event": "DASH-Sodium trial reports the effect of sodium levels on blood pressure.[1]"
+  },
+  {
+   "year": "2012",
+   "event": "EU Salt Reduction Framework adopted; many member states later introduce taxes, labelling or claim rules.[4]"
+  },
+  {
+   "year": "2013",
+   "event": "He, Li and MacGregor publish a BMJ meta-analysis of salt-reduction trials.[4]"
+  },
+  {
+   "year": "2016",
+   "event": "Galea and colleagues analyse the salt-outcome literature and find mixed results.[4]"
+  },
+  {
+   "year": "2018",
+   "event": "American Heart Association advisory gives a 1,500 mg per day ideal sodium limit.[4]"
+  },
+  {
+   "year": "2021",
+   "event": "Cochrane review of salt reduction in chronic kidney disease.[4]"
+  },
+  {
+   "year": "2022",
+   "event": "SODIUM-HF randomized trial of sodium reduction in heart failure published in The Lancet.[10]"
+  },
+  {
+   "year": "2023",
+   "event": "JAMA crossover trial studies individual blood pressure response to high and low sodium diets.[9]"
   }
  ],
  "lore": {
-  "intro": "Sodium is discussed both as a cause of bloat and, by some, as something whose restriction backfires.",
+  "intro": "Sodium is discussed both as a cause of bloat and, by some, as something whose restriction backfires; members also trade bodybuilding-derived practice for managing water before photos.[6][14][15]",
   "claims": [
    {
     "claim": "Cutting salt reduces facial bloat and morning puffiness",
-    "believers": "Proponents say sodium causes water retention and that lowering intake leaves the face leaner and less swollen.",
+    "believers": "Proponents say sodium causes water retention and that lowering intake leaves the face leaner and less swollen; a lifter reports a drop in water weight after eating less sodium.[14]",
     "experts": "Trials show lower sodium reduces blood pressure; a general reference lists sodium as a possible contributor to puffy eyes with a citation still needed. No facial-appearance trial exists.[1][5]",
     "evidence": "untested"
    },
    {
     "claim": "Very low sodium worsens water retention via aldosterone",
     "believers": "A forum thread argues that low intake raises aldosterone and ADH, so people should eat more sodium and drink more water to reduce bloat.[6]",
-    "experts": "Reviews note sodium sensitivity has no accepted definition and responses vary between people; no study cited here tests this claim for appearance.[3][4]",
+    "experts": "Reviews note sodium sensitivity has no accepted definition and responses vary between people; the renin-angiotensin system adapts to different salt loads. No study cited here tests this claim for appearance.[3][4]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Keeping sodium and carbs steady avoids bloating after a refeed",
+    "believers": "A training-log post advises holding carbohydrate and sodium levels consistent after raising calories, saying bloat settles within days.[15]",
+    "experts": "No study cited here has tested sodium and carbohydrate consistency for bloating or appearance.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Cutting sodium is a health measure that also improves looks",
+    "believers": "Members point to blood pressure research as the basis for eating less salt in general.[1]",
+    "experts": "Guideline bodies advise lower sodium, while analyses of cardiovascular outcomes are mixed and about 15 percent of adults show inverse sensitivity.[4]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Sodium restriction can reduce water weight in the short term",
+    "believers": "Lifters note scale drops after cleaning up their diet and cutting sodium.[14]",
+    "experts": "Wikipedia and reviews describe sodium excretion with water as the mechanism raising blood pressure; trials measured blood pressure rather than weight or face shape.[1][4]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Hydration level also shapes how tissues look",
+    "believers": "A post on a T Nation thread says that when fluids drop too low the body pulls water from other tissues.[18]",
+    "experts": "Puffiness has many causes beyond sodium, including sleep, allergy, alcohol and ageing, according to a general reference.[5]",
     "evidence": "untested"
    }
   ]
@@ -123,6 +289,110 @@
    "source": "looksmax.org",
    "type": "forum",
    "id": 6
+  },
+  {
+   "id": 7,
+   "title": "Salt Reduction to Prevent Hypertension and Cardiovascular Disease: JACC State-of-the-Art Review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32057379/",
+   "source": "Journal of the American College of Cardiology",
+   "year": 2020,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "The impact of excessive salt intake on human health",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35058650/",
+   "source": "Nature Reviews Nephrology",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "Effect of Dietary Sodium on Blood Pressure: A Crossover Trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37950918/",
+   "source": "JAMA",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Reduction of dietary sodium to less than 100 mmol in heart failure (SODIUM-HF)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35381194/",
+   "source": "The Lancet",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Hyponatremia",
+   "url": "https://en.wikipedia.org/wiki/Hyponatremia",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 12,
+   "title": "Effect of a Salt Substitute on Incidence of Hypertension and Hypotension Among Normotensive Adults",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38355240/",
+   "source": "Journal of the American College of Cardiology",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "Self-Performed Dietary Sodium Reduction and Blood Pressure in Patients With Essential Hypertension: A Randomized Clinical Trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38842286/",
+   "source": "Journal of the American Heart Association",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "Alex_uk: 40 years in the making",
+   "url": "https://t-nation.com/t/alex-uk-40-years-in-the-making/267729",
+   "source": "T Nation forum",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 15,
+   "title": "Anna's Training Log Part 2 (Part 1)",
+   "url": "https://t-nation.com/t/annas-training-log-part-2-part-1/258235",
+   "source": "T Nation forum",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 16,
+   "title": "Dchris's Grappling with Age",
+   "url": "https://t-nation.com/t/dchriss-grappling-with-age/224841",
+   "source": "T Nation forum",
+   "year": 2016,
+   "type": "forum"
+  },
+  {
+   "id": 17,
+   "title": "Low sodium diet",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22361230/",
+   "source": "Journal of Renal Nutrition",
+   "year": 2012,
+   "type": "review"
+  },
+  {
+   "id": 18,
+   "title": "The Tactical Life",
+   "url": "https://t-nation.com/t/the-tactical-life/232312",
+   "source": "T Nation forum",
+   "year": 2017,
+   "type": "forum"
+  },
+  {
+   "id": 19,
+   "title": "Looksmaxxing",
+   "url": "https://en.wikipedia.org/wiki/Looksmaxxing",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
   }
  ],
  "webSources": [
@@ -133,18 +403,10 @@
   {
    "url": "https://en.wikipedia.org/wiki/Periorbital_puffiness",
    "title": "Periorbital puffiness"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Looksmaxxing",
+   "title": "Looksmaxxing - Wikipedia"
   }
- ],
- "card": {
-  "summary": "Salt cutting for less bloat; proven for blood pressure, untested for faces, and argued both ways online.",
-  "aka": "Salt reduction, debloating diet",
-  "evidence": "limited",
-  "risk": "low",
-  "note": "Evidence is for blood pressure, not appearance; sodium needs vary and people with medical conditions follow clinician advice."
- },
- "quick": {
-  "overview": "Low-sodium eating is a standard blood pressure measure. Appearance communities use it to try to reduce water retention and facial puffiness.\n\nSome forum users argue the reverse, that very low sodium increases retention. Neither view has been tested for how the face looks.",
-  "mechanism": "Sodium influences how much water the body holds; less sodium is expected to mean less retained fluid.",
-  "risks": "Guidelines advise lower salt for most adults, but reviews note mixed evidence on outcomes and some people respond inversely. Medical conditions may call for clinician guidance."
- }
+ ]
 }

@@ -1,8 +1,9 @@
 {
  "lead": [
-  "ARO-INHBE is an investigational RNA interference (RNAi) therapy aimed at the INHBE gene, which encodes a liver-produced protein involved in how the body distributes fat. It is being tested in people with obesity, with and without type 2 diabetes, and a trial in metabolic dysfunction-associated steatohepatitis (MASH) is planned. It is not approved for any use anywhere.[1][2]",
-  "The appeal for people interested in body composition is the idea of lowering fat, especially fat stored around the abdomen and organs, while leaving muscle intact, so that the result is a leaner look rather than general weight loss. Whether ARO-INHBE does this in people has not been reported, and the trials are early.[1]",
-  "The only public information located about the compound is its clinical trial registrations. A first-in-human Phase 1/2 study in adults with obesity began on 4 December 2024 and is active but no longer recruiting, with an enrollment of 190.[1] A Phase 2 MASH trial of 252 adults is registered as not yet recruiting, with a start date of September 2026.[2] Its name follows the ARO- convention used for RNAi candidates in the pipeline of Arrowhead Pharmaceuticals, a Pasadena-based company whose pipeline Wikipedia lists as built on RNAi.[3]"
+  "ARO-INHBE is an investigational RNA interference (RNAi) therapy aimed at the INHBE gene, which encodes a liver-produced protein, activin E, involved in how the body distributes fat. It is being tested in people with obesity, with and without type 2 diabetes, and a trial in metabolic dysfunction-associated steatohepatitis (MASH) is planned. It is not approved for any use anywhere.[1][2]",
+  "The appeal for people interested in body composition is the idea of lowering fat, especially fat stored around the abdomen and organs, while leaving lean tissue intact, so that the result is a leaner look rather than general weight loss. Arrowhead Pharmaceuticals, the developer, bases the rationale on human genetic data: people carrying loss-of-function INHBE variants are reported to have healthier fat distribution and a lower risk of metabolic disease such as type 2 diabetes.[5]",
+  "In January 2026 Arrowhead released interim company-reported results from the first-in-human study. In a small number of participants, serum activin E fell in a dose-dependent way, visceral fat fell, and total lean tissue rose after a single dose in the monotherapy part; a combination part with tirzepatide reported larger fat reductions than tirzepatide plus placebo, in groups of three to five participants.[5] The data are interim, not peer reviewed, and the company itself notes the groups are small.[5]",
+  "A first-in-human Phase 1/2 study in adults with obesity began on 4 December 2024 and is active but no longer recruiting, with an enrollment listed as 190, and a Phase 2 MASH trial of 252 adults is registered as not yet recruiting with a September 2026 start.[1][2] The ARO- prefix follows the naming convention for RNAi candidates in the pipeline of Arrowhead Pharmaceuticals, a Pasadena-based company founded in 2004 that focuses on RNAi therapies.[3]"
  ],
  "angle": {
   "goal": "Fat loss / body composition",
@@ -13,16 +14,24 @@
    "Leaner appearance"
   ],
   "effect": "claimed",
-  "text": "The therapeutic idea is that lowering INHBE activity changes fat distribution and reduces fat mass, which would make people look leaner. Human results for ARO-INHBE have not been published."
+  "text": "The therapeutic idea is that lowering INHBE activity changes fat distribution and reduces fat mass, especially visceral fat, which would make people look leaner. Interim company data report visceral fat reductions and a rise in lean tissue in a few participants; peer-reviewed human results have not been published."
  },
  "infobox": [
   [
    "Drug class",
-   "RNAi therapeutic (INHBE)"
+   "RNAi therapeutic (siRNA against INHBE)"
+  ],
+  [
+   "Developer",
+   "Arrowhead Pharmaceuticals[3]"
+  ],
+  [
+   "Target",
+   "INHBE / activin E, liver[5]"
   ],
   [
    "Status",
-   "Investigational (Phase 1/2)"
+   "Investigational (Phase 1/2a; Phase 2 MASH planned)"
   ],
   [
    "Conditions studied",
@@ -30,7 +39,7 @@
   ],
   [
    "Route",
-   "Not reported in registrations"
+   "Injected (injection-site reactions reported)[5]"
   ],
   [
    "First-in-human trial start",
@@ -43,32 +52,52 @@
  ],
  "sections": [
   {
-   "h": "Pharmacology",
+   "h": "Mechanism of action",
    "paras": [
-    "RNAi is a natural gene-silencing process. In therapeutic use, short interfering RNA (siRNA) is delivered to cells, loads into the RNA-induced silencing complex and directs it to cut the matching messenger RNA, so the target protein is not made.[4] All RNAi drugs approved so far address diseases that originate in the liver, using delivery approaches such as GalNAc conjugates or lipid nanoparticles; examples listed on Wikipedia include givosiran, lumasiran, vutrisiran and inclisiran.[4] ARO-INHBE is described in its registrations as targeting INHBE, a liver-expressed gene tied to fat distribution.[1]"
+    "RNAi is a natural gene-silencing process. In therapeutic use, short interfering RNA (siRNA) is delivered to cells, loads into the RNA-induced silencing complex and directs it to cut the matching messenger RNA, so the target protein is not made.[4] All RNAi drugs approved so far address diseases that originate in the liver, using delivery approaches such as GalNAc conjugates or lipid nanoparticles; examples listed on Wikipedia include givosiran, lumasiran, vutrisiran and inclisiran.[4]",
+    "ARO-INHBE reduces hepatic expression of the INHBE gene and its secreted product, activin E. Arrowhead cites human genetics as the rationale: loss-of-function INHBE variants are linked to better fat distribution and a lower risk of metabolic disease such as type 2 diabetes.[5] A sister candidate from the same company, ARO-ALK7, silences ACVR1C in fat cells to reduce production of the ALK7 receptor, with a similar genetic rationale; the company says animal studies of it showed reduced body weight and fat mass with preserved lean muscle.[5]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "One Phase 1/2 first-in-human trial (NCT06700538) is registered in adults with obesity with or without type 2 diabetes, with 190 participants; it started on 4 December 2024 and its status is active, not recruiting.[1] A Phase 2 trial (NCT07859813) in adults with MASH, planned for 252 participants and a September 2026 start, is registered as not yet recruiting.[2] No peer-reviewed results have been identified."
+    "The first-in-human study (AROINHBE-1001, NCT06700538) is a dose-escalating Phase 1/2a trial in up to 78 adults with obesity according to the company, with registry enrollment listed as 190. Part 1 tests single and multiple doses as monotherapy and Part 2 tests combination with tirzepatide. It started on 4 December 2024 and is active, not recruiting.[1][5]",
+    "In the January 2026 interim release, serum activin E fell in a dose-dependent manner (four participants per dose level), with a mean maximum reduction of 85 percent after a single dose at the highest level. In the monotherapy part, a single dose produced a mean visceral fat reduction of 9.9 percent, a mean relative liver fat reduction of 38 percent and a 3.6 percent increase in total lean tissue at week 16, and two doses produced a placebo-adjusted visceral fat reduction of 15.6 percent at week 24.[5]",
+    "In participants with obesity and type 2 diabetes receiving tirzepatide, the company reported weight loss of 9.4 percent at week 16 in the group that also received ARO-INHBE (n=4) versus 4.8 percent with tirzepatide plus placebo (n=5). At week 12 by MRI, visceral fat fell 23.2 percent versus 7.4 percent, total fat 15.4 percent versus 5.3 percent, and relative liver fat 76.7 percent versus 20 percent (three versus five participants). The company described this as roughly twofold greater weight loss and threefold greater fat reduction; the release itself notes that group sizes are very small, that the comparison across studies is not randomised head to head, and that data are interim and company-reported.[5]",
+    "A Phase 2 trial (NCT07859813) in adults with MASH, planned for 252 participants and a September 2026 start, is registered as not yet recruiting.[2] Web reports indicate that further data were presented at the EASL congress in May 2026, but those results were not reviewed for this article."
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "paras": [
+    "According to the interim release, the drug was generally well tolerated, with mostly mild treatment-emergent adverse events and none leading to discontinuation. Injection-site reactions were mild and self-limited, and one serious adverse event (a limb abscess) was managed with bedside drainage and judged unrelated to treatment. Gastrointestinal event rates were similar between the combination and tirzepatide alone, and no clinically significant trends appeared in liver enzymes, glycaemic indices or lipids.[5]"
    ]
   },
   {
    "h": "Research",
    "paras": [
-    "The registered programme spans obesity and a liver disease indication, indicating that the developer is exploring more than one use. Whether the compound changes fat distribution, body weight or liver fat in humans has not been reported.[1][2]"
+    "The registered programme spans obesity and a liver disease indication, indicating that the developer is exploring more than one use, and the company plans additional results in 2026.[1][2][5] Whether the compound changes body weight, fat distribution or liver fat durably in larger randomised trials has not yet been published in peer-reviewed form."
+   ]
+  },
+  {
+   "h": "Company background",
+   "paras": [
+    "Arrowhead Pharmaceuticals is a publicly traded company headquartered in Pasadena, California, founded on 1 January 2004. It acquired Novartis's RNAi research and development portfolio in 2015, was renamed from Arrowhead Research Corporation in April 2016, and in October 2018 closed a license and collaboration agreement with Janssen for ARO-HBV.[3] Wikipedia's company article does not mention ARO-INHBE.[3]"
    ]
   }
  ],
  "timeline": [
   {
+   "year": "2004",
+   "event": "Arrowhead is founded.[3]"
+  },
+  {
    "year": "2024",
-   "event": "Phase 1/2 first-in-human trial in obesity begins (December).[1]"
+   "event": "Phase 1/2 first-in-human trial in obesity begins (4 December).[1]"
   },
   {
    "year": "2026",
-   "event": "Phase 2 MASH trial registered with a planned September start.[2]"
+   "event": "Interim company data released on 6 January; Phase 2 MASH trial registered with a planned September start.[2][5]"
   }
  ],
  "lore": null,
@@ -104,6 +133,14 @@
    "source": "Wikipedia",
    "year": null,
    "type": "encyclopedia"
+  },
+  {
+   "id": 5,
+   "title": "Arrowhead Pharmaceuticals press release, January 6, 2026 (interim data on ARO-INHBE and ARO-ALK7)",
+   "url": "https://www.sec.gov/Archives/edgar/data/879407/000087940726000004/exhibit991.htm",
+   "source": "Arrowhead Pharmaceuticals / SEC filing",
+   "year": 2026,
+   "type": "news"
   }
  ],
  "webSources": [
@@ -114,6 +151,10 @@
   {
    "url": "https://en.wikipedia.org/wiki/RNA_interference",
    "title": "RNA interference"
+  },
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/879407/000087940726000004/exhibit991.htm",
+   "title": "Arrowhead press release, January 6, 2026"
   }
  ],
  "name": "ARO-INHBE",

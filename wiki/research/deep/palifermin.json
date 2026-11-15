@@ -1,26 +1,323 @@
 {
-"name":"Palifermin",
-"lead":["Palifermin (brand name Kepivance) is a truncated recombinant human keratinocyte growth factor (KGF), a member of the fibroblast growth factor family produced in E. coli. It is approved to reduce the incidence and duration of severe oral mucositis in patients with blood cancers receiving high-dose chemotherapy with stem cell support [9].",
-"It is a cancer supportive-care drug, not a cosmetic. It appears in appearance contexts only as a keratinocyte growth factor; the US label notes the KGF receptor is present in skin, hair follicles and sebaceous glands, but no studies for cosmetic use were found [9]."],
-"infobox":[["Drug class","Recombinant keratinocyte growth factor"],["Route","Intravenous"],["Brand name","Kepivance"],["Indication","Severe oral mucositis in hematologic malignancy"],["Half-life","About 4-6 hours (per Wikipedia)"],["Legal status","Rx-only"]],
-"sections":[
-{"h":"Medical uses","paras":["The US label indicates palifermin to decrease severe oral mucositis in patients with hematologic malignancies receiving myelotoxic therapy with autologous stem cell support, and states that safety and efficacy have not been established in non-hematologic malignancies [9]. Guidelines on mucositis and chemotherapy protectants discuss it as the first active drug approved for the condition [2][4]."]},
-{"h":"Clinical studies","paras":["In a double-blind trial of 212 patients with hematologic cancers receiving intensive therapy, palifermin was compared with placebo for oral mucositis [1]. Randomized placebo-controlled trials in head and neck cancer chemoradiotherapy also reported reduced severe mucositis [3][5]. Other registered trials examined it in stem cell transplantation, HIV, toxic epidermal necrolysis and multiple sclerosis [6][7][8]. Several were terminated or withdrawn."]},
-{"h":"Adverse effects","paras":["The label lists rash, fever, elevated amylase, pruritus, erythema and edema as the most common reactions, and warns of a potential for stimulation of growth of KGF-receptor-expressing non-hematopoietic tumors. Animal studies showed embryo-fetal harm [9]."]},
-{"h":"Mechanism","paras":["Palifermin binds the KGF receptor, reported to promote proliferation, differentiation and migration of epithelial cells [9]."]}],
-"timeline":[],
-"lore":null,
-"refs":[
-{"id":1,"title":"Palifermin for oral mucositis after intensive therapy for hematologic cancers","url":"https://pubmed.ncbi.nlm.nih.gov/15602019/","source":"NEJM","year":2004,"type":"trial"},
-{"id":2,"title":"Updated clinical practice guidelines for the prevention and treatment of mucositis","url":"https://pubmed.ncbi.nlm.nih.gov/17236223/","source":"Cancer","year":2007,"type":"guideline"},
-{"id":3,"title":"Palifermin reduces severe mucositis in definitive chemoradiotherapy of locally advanced head and neck cancer","url":"https://pubmed.ncbi.nlm.nih.gov/21670453/","source":"Journal of Clinical Oncology","year":2011,"type":"trial"},
-{"id":4,"title":"ASCO 2008 clinical practice guideline update: chemotherapy and radiation therapy protectants","url":"https://pubmed.ncbi.nlm.nih.gov/19018081/","source":"Journal of Clinical Oncology","year":2009,"type":"guideline"},
-{"id":5,"title":"Palifermin decreases severe oral mucositis of patients undergoing postoperative radiochemotherapy for head and neck cancer","url":"https://pubmed.ncbi.nlm.nih.gov/21670447/","source":"Journal of Clinical Oncology","year":2011,"type":"trial"},
-{"id":6,"title":"Palifermin for Patients Receiving Hematopoietic Stem Cell Transplantation (NCT02313792)","url":"https://clinicaltrials.gov/study/NCT02313792","source":"ClinicalTrials.gov","year":2015,"type":"trial"},
-{"id":7,"title":"Palifermin to Treat Toxic Epidermal Necrolysis (NCT02037347)","url":"https://clinicaltrials.gov/study/NCT02037347","source":"ClinicalTrials.gov","year":2010,"type":"trial"},
-{"id":8,"title":"Keratinocyte Growth Factor to Prevent Autoimmunity After Alemtuzumab (NCT01712945)","url":"https://clinicaltrials.gov/study/NCT01712945","source":"ClinicalTrials.gov","year":2012,"type":"trial"},
-{"id":9,"title":"Kepivance (palifermin) US drug label","url":"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=426f6e64-2c20-4a61-6d65-7320426f6e64","source":"DailyMed","year":2024,"type":"label"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Palifermin","title":"Palifermin (Wikipedia)"}],
-"card":{"summary":"A prescription keratinocyte growth factor for chemotherapy mouth sores, with no cosmetic evidence.","aka":"Kepivance, KGF","evidence":"unproven","status":"rx","note":"Label warns of possible tumor-growth stimulation.","structure":null},
-"quick":{"overview":"Palifermin is a lab-made version of keratinocyte growth factor given intravenously to protect mouth and gut lining in patients having intensive cancer treatment.\n\nIt is not studied for looks. Its approved use is oral mucositis in blood cancers.","mechanism":"It binds the KGF receptor on epithelial cells, which is reported to boost their growth, maturation and migration.","risks":"The label lists rash, fever, raised amylase, itching and swelling as common, and flags uncertain effects on tumors expressing KGF receptors and possible fetal harm."}
+ "name": "Palifermin",
+ "lead": [
+  "Palifermin (brand name Kepivance) is a truncated recombinant human keratinocyte growth factor (KGF, also called FGF7), a member of the fibroblast growth factor family produced in E. coli. It is given by intravenous injection and is approved to reduce the incidence and duration of severe oral mucositis, the painful breakdown of the mouth lining, in patients with blood cancers who receive high-dose chemotherapy with stem cell support.[9][10]",
+  "It is a cancer supportive-care medicine. Its link to appearance is a matter of biology: keratinocyte growth factor acts on epithelial cells, and the US label notes that its receptor is found in skin, hair follicles and sebaceous glands as well as the lining of the mouth and gut.[9] That is why a KGF peptide turns up in discussions of skin and hair repair, even though the registered trials concern mucositis, transplant complications and a few other conditions rather than cosmetic outcomes.[1][11]",
+  "Mouth sores are among the best-known side effects of intensive cancer treatment, affecting almost everyone who receives head and neck radiation and a large share of chemotherapy patients, and palifermin was the first drug approved specifically to prevent them.[12][2]"
+ ],
+ "infobox": [
+  [
+   "Drug class",
+   "Recombinant keratinocyte growth factor (FGF7 truncation)"
+  ],
+  [
+   "Route",
+   "Intravenous bolus"
+  ],
+  [
+   "Brand name",
+   "Kepivance"
+  ],
+  [
+   "Manufacturer",
+   "Biovitrum (per Wikipedia)"
+  ],
+  [
+   "Indication",
+   "Severe oral mucositis in hematologic malignancy"
+  ],
+  [
+   "Half-life",
+   "About 4-6 hours (per Wikipedia)"
+  ],
+  [
+   "Legal status",
+   "Prescription-only"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Medical uses",
+   "paras": [
+    "The US label indicates palifermin to decrease the incidence and duration of severe oral mucositis in patients with hematologic malignancies who receive myelotoxic therapy that requires hematopoietic stem cell support, and states that safety and efficacy have not been established in non-hematologic malignancies.[9] Guidelines on mucositis and on chemotherapy and radiation protectants discuss it as the first active drug approved for the condition.[2][4]",
+    "Oral mucositis is described in reviews as erythema, thinning and ulceration of the mouth lining that occurs in nearly all patients receiving head and neck radiation and in 20 to 80 percent of those on chemotherapy. It can limit eating, require opioid pain relief and raise infection risk, and a limited number of preventive measures have been supported by randomized trials.[13][14]"
+   ]
+  },
+  {
+   "h": "Mechanism and pharmacology",
+   "paras": [
+    "Palifermin binds the KGF receptor, which is expressed on epithelial cells of the mouth, gut, skin and other tissues. Binding is reported to promote epithelial proliferation, differentiation and migration and to up-regulate cytoprotective mechanisms, giving the lining more capacity to withstand and recover from chemotherapy and radiation.[9][15]",
+    "According to Wikipedia, palifermin is given as an intravenous bolus before and after the conditioning regimen and should not be given within 24 hours of myelotoxic chemotherapy. Its half-life in healthy volunteers is about 4 to 6 hours, and heparin increases systemic exposure to the drug, so the label advises against combining them.[10]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "The registration trial was a double-blind, placebo-controlled study of 212 patients with hematologic cancers who received total body irradiation, high-dose chemotherapy and autologous stem cell support; palifermin reduced the incidence and duration of severe mucositis compared with placebo.[1] A later phase 4 trial (PROMPT) examined it in patients with lymphoma or myeloma receiving peripheral blood stem cell transplantation.[16]",
+    "In head and neck cancer, two randomized placebo-controlled trials in definitive and postoperative chemoradiotherapy reported reduced severe oral mucositis.[3][5] A randomized study in metastatic colorectal cancer treated with fluorouracil-based chemotherapy reported a lower incidence of mucositis.[17] In allogeneic stem cell transplantation, a phase 2 study found palifermin efficacious in recipients of total body irradiation-based but not chemotherapy-based regimens.[18] A phase 3 trial in hematopoietic transplantation was registered in 2015.[6]",
+    "Researchers have also tested KGF outside mucositis. A phase 2 trial examined CD4 counts in treatment-experienced HIV, a small study of toxic epidermal necrolysis was terminated after one participant, and a randomized study in multiple sclerosis patients given alemtuzumab found that KGF did not improve and in fact impaired human thymic recovery from lymphopenia.[7][8][19][20] Early-phase work on high-dose palifermin for graft-versus-host disease prophylaxis has also been reported.[21]"
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "paras": [
+    "The label lists rash, fever, elevated amylase, pruritus, erythema and edema as the most common reactions, and warns of a potential for stimulation of growth of KGF-receptor-expressing non-hematopoietic tumors. Animal studies showed embryo-fetal harm.[9] A dermatology case series described a palifermin-associated papular skin eruption, and a small registered study examined skin tumors after palifermin in transplant patients.[22][23] Pharmacology reviews note that animal toxicology consisted largely of exaggerated pharmacology, such as thickening of skin and tongue epithelium.[10][24]"
+   ]
+  },
+  {
+   "h": "History and society",
+   "paras": [
+    "The registration trial appeared in 2004, and a mucositis guideline update noted in 2007 that the first active drug for the condition had been approved by the US FDA and by regulators in Europe and Australia.[1][2] Wikipedia lists Biovitrum as the marketer, an approximate cost of 5,000 euros per treatment course and worldwide sales that rose from about 5.7 million dollars in 2008 to about 110 million in 2009 before declining.[10]",
+    "Amifostine and palifermin are described in one radioprotection review as the only two protectants to have cleared clinical approval for use during radiotherapy.[26]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2004",
+   "event": "Phase 3 results in hematologic cancers published in the New England Journal of Medicine.[1]"
+  },
+  {
+   "year": "2007",
+   "event": "Updated mucositis guidelines describe the first approved active drug for the condition.[2]"
+  },
+  {
+   "year": "2011",
+   "event": "Randomized trials in head and neck cancer chemoradiotherapy published.[3][5]"
+  },
+  {
+   "year": "2019",
+   "event": "Multiple sclerosis study reports KGF impaired thymic recovery.[19]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Palifermin for oral mucositis after intensive therapy for hematologic cancers",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15602019/",
+   "source": "NEJM",
+   "year": 2004,
+   "type": "trial"
+  },
+  {
+   "id": 2,
+   "title": "Updated clinical practice guidelines for the prevention and treatment of mucositis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17236223/",
+   "source": "Cancer",
+   "year": 2007,
+   "type": "guideline"
+  },
+  {
+   "id": 3,
+   "title": "Palifermin reduces severe mucositis in definitive chemoradiotherapy of locally advanced head and neck cancer",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21670453/",
+   "source": "Journal of Clinical Oncology",
+   "year": 2011,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "ASCO 2008 clinical practice guideline update: chemotherapy and radiation therapy protectants",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19018081/",
+   "source": "Journal of Clinical Oncology",
+   "year": 2009,
+   "type": "guideline"
+  },
+  {
+   "id": 5,
+   "title": "Palifermin decreases severe oral mucositis of patients undergoing postoperative radiochemotherapy for head and neck cancer",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21670447/",
+   "source": "Journal of Clinical Oncology",
+   "year": 2011,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Palifermin for Patients Receiving Hematopoietic Stem Cell Transplantation (NCT02313792)",
+   "url": "https://clinicaltrials.gov/study/NCT02313792",
+   "source": "ClinicalTrials.gov",
+   "year": 2015,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Palifermin to Treat Toxic Epidermal Necrolysis (NCT02037347)",
+   "url": "https://clinicaltrials.gov/study/NCT02037347",
+   "source": "ClinicalTrials.gov",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Keratinocyte Growth Factor to Prevent Autoimmunity After Alemtuzumab (NCT01712945)",
+   "url": "https://clinicaltrials.gov/study/NCT01712945",
+   "source": "ClinicalTrials.gov",
+   "year": 2012,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Kepivance (palifermin) US drug label",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=426f6e64-2c20-4a61-6d65-7320426f6e64",
+   "source": "DailyMed",
+   "year": 2024,
+   "type": "label"
+  },
+  {
+   "id": 10,
+   "title": "Palifermin",
+   "url": "https://en.wikipedia.org/wiki/Palifermin",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 11,
+   "title": "Palifermin to treat toxic epidermal necrolysis (NCT02037347)",
+   "url": "https://clinicaltrials.gov/study/NCT02037347",
+   "source": "ClinicalTrials.gov",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "Oral mucositis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16700732/",
+   "source": "Oral Diseases",
+   "year": 2006,
+   "type": "review"
+  },
+  {
+   "id": 13,
+   "title": "Prevention and Treatment of Chemotherapy and Radiotherapy Induced Oral Mucositis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30678228/",
+   "source": "Medicina",
+   "year": 2019,
+   "type": "review"
+  },
+  {
+   "id": 14,
+   "title": "Interventions for the Prevention of Oral Mucositis in Patients Receiving Cancer Treatment",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36661723/",
+   "source": "Current Oncology",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 15,
+   "title": "Palifermin (recombinant keratinocyte growth factor-1): a pleiotropic growth factor",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17030544/",
+   "source": "Annals of Oncology",
+   "year": 2007,
+   "type": "review"
+  },
+  {
+   "id": 16,
+   "title": "PROMPT - Palifermin in Reduction of Oral Mucositis in PBSC Transplantation (NCT00352703)",
+   "url": "https://clinicaltrials.gov/study/NCT00352703",
+   "source": "ClinicalTrials.gov",
+   "year": 2006,
+   "type": "trial"
+  },
+  {
+   "id": 17,
+   "title": "Palifermin reduces the incidence of oral mucositis in patients with metastatic colorectal cancer treated with fluorouracil-based chemotherapy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17075109/",
+   "source": "Journal of Clinical Oncology",
+   "year": 2006,
+   "type": "trial"
+  },
+  {
+   "id": 18,
+   "title": "Palifermin is efficacious in recipients of TBI-based but not chemotherapy-based allogeneic hematopoietic stem cell transplants",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22750997/",
+   "source": "Bone Marrow Transplantation",
+   "year": 2013,
+   "type": "trial"
+  },
+  {
+   "id": 19,
+   "title": "Keratinocyte growth factor impairs human thymic recovery from lymphopenia",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31063156/",
+   "source": "JCI Insight",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 20,
+   "title": "Effectiveness of Palifermin in Increasing CD4 Counts in Treatment-Experienced HIV Infected Adults (NCT00376935)",
+   "url": "https://clinicaltrials.gov/study/NCT00376935",
+   "source": "ClinicalTrials.gov",
+   "year": 2006,
+   "type": "trial"
+  },
+  {
+   "id": 21,
+   "title": "Phase 1/2 study of high-dose palifermin for GVHD prophylaxis in patients undergoing HLA-matched unrelated donor HCT",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40331908/",
+   "source": "Blood",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 22,
+   "title": "Palifermin-associated papular eruption",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19221263/",
+   "source": "Archives of Dermatology",
+   "year": 2009,
+   "type": "study"
+  },
+  {
+   "id": 23,
+   "title": "Effect of Palifermin on Skin Tumors in Patients Undergoing Bone Marrow Transplantation (NCT00610818)",
+   "url": "https://clinicaltrials.gov/study/NCT00610818",
+   "source": "ClinicalTrials.gov",
+   "year": 2007,
+   "type": "trial"
+  },
+  {
+   "id": 24,
+   "title": "Side effects of cytokines approved for therapy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25270293/",
+   "source": "Drug Safety",
+   "year": 2014,
+   "type": "review"
+  },
+  {
+   "id": 25,
+   "title": "Mucositis: The impact, biology and therapeutic opportunities of oral mucositis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19828360/",
+   "source": "Oral Oncology",
+   "year": 2009,
+   "type": "review"
+  },
+  {
+   "id": 26,
+   "title": "Radioprotection of normal tissue cells",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24638269/",
+   "source": "Strahlentherapie und Onkologie",
+   "year": 2014,
+   "type": "review"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Palifermin",
+   "title": "Palifermin (Wikipedia)"
+  }
+ ],
+ "card": {
+  "summary": "A prescription keratinocyte growth factor for chemotherapy mouth sores, with no cosmetic evidence.",
+  "aka": "Kepivance, KGF",
+  "evidence": "unproven",
+  "status": "rx",
+  "note": "Label warns of possible tumor-growth stimulation.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Palifermin is a lab-made version of keratinocyte growth factor given intravenously to protect mouth and gut lining in patients having intensive cancer treatment.\n\nIt is not studied for looks. Its approved use is oral mucositis in blood cancers.",
+  "mechanism": "It binds the KGF receptor on epithelial cells, which is reported to boost their growth, maturation and migration.",
+  "risks": "The label lists rash, fever, raised amylase, itching and swelling as common, and flags uncertain effects on tumors expressing KGF receptors and possible fetal harm."
+ }
 }

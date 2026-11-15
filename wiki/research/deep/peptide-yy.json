@@ -1,59 +1,363 @@
 {
-"name": "Peptide YY",
-"lead": [
-"Peptide YY (PYY) is a 36-amino-acid gut hormone released by L-cells in the ileum and colon after eating. It acts to reduce appetite and slow gastric emptying, and it belongs to the neuropeptide Y family [1][11]. The main circulating form, PYY(3-36), acts largely through the Y2 receptor [2][11].",
-"In 2002, researchers reported in Nature that peripheral injection of PYY(3-36) reduced food intake in rodents and in human volunteers, which led to interest in it as an anti-obesity agent [3]. It is not an approved drug for weight management or appearance. Research is described as investigational, with some small human infusion studies and an oral/lingual delivery trial registered [11][14]."
-],
-"infobox": [
-["Type","Peptide hormone (NPY family)"],
-["Length","36 amino acids"],
-["Produced by","L-cells of ileum and colon"],
-["Main receptor","Y2 (for PYY 3-36)"],
-["Characterised","1982 (Tatemoto) [11]"],
-["Status","Research only; no approved PYY drug"]
-],
-"sections": [
-{"h":"Physiology","paras":["PYY is secreted after meals in proportion to calorie content, and levels fall during fasting [3][11]. The enzyme DPP-4 converts PYY(1-36) to PYY(3-36), the predominant circulating form, which is highly selective for the Y2 receptor [11][6]. Protein intake is reported to raise PYY levels [11]. PYY also slows gastric emptying and promotes water and electrolyte absorption in the colon [11].","Obese people have been reported to secrete less PYY after a meal, though some studies find they remain sensitive to its appetite-reducing effect, so reduced sensitivity is not considered established as a cause of obesity [11]. After bariatric surgery, gut hormone profiles, including PYY, shift toward an appetite-suppressing pattern [8]. A study of people on a diet-induced weight-loss programme reported long-lasting hormonal changes, including altered gut hormones, after weight loss [4]."]},
-{"h":"History","paras":["Kazuhiko Tatemoto isolated PYY in 1982 as a candidate gut hormone, and its distribution and release in humans were described in 1985 [7][11]. Its structural similarity to neuropeptide Y was noted in the same period [1][9]. A 2002 Nature paper by Batterham and colleagues reported that PYY(3-36) inhibited food intake [3], and a 2003 NEJM study reported that infusion cut calorie intake at a buffet meal by roughly 30% in obese and lean subjects [11]."]},
-{"h":"Approaches to raising PYY","paras":["Beyond injected PYY analogues, researchers have examined indirect approaches. A trial of targeted colonic delivery of propionate, a short-chain fatty acid, in overweight adults measured effects on PYY and GLP-1 release, appetite and weight gain [5]. Gut microbiota that ferment fibre are also discussed as influencing gut hormone secretion [6]. Gut hormones including PYY are covered among the incretin and related hormones in a 2018 review [10]."]},
-{"h":"Clinical studies","paras":["Human studies are small. Registered investigations include PYY infusion studies in obese adults (24 participants each) examining food intake [12], a phase 1 safety and pharmacokinetic study of single intravenous doses in overweight adults [13], a study of PYY degradation in healthy volunteers, and a trial of lingual PYY(3-36) on appetite and energy intake, with unknown status [14]. Published reports of infusion studies described reduced intake over a meal, as noted above [3][11]. No PYY product is approved for weight loss."]}
-],
-"timeline":[
-{"year":"1982","event":"Tatemoto isolates PYY; NPY described [1][11]."},
-{"year":"1985","event":"Human distribution and release described [7]."},
-{"year":"2002","event":"PYY(3-36) reported to inhibit food intake [3]."},
-{"year":"2003","event":"Infusion reduces calorie intake in obese and lean subjects [11]."}
-],
-"lore":null,
-"card":{
-"summary":"A satiety hormone made in the gut; infusion studies show reduced intake, but it is not an approved or established appearance tool.",
-"aka":"PYY, PYY 3-36",
-"evidence":"limited",
-"status":"research",
-"outcome":null,
-"risk":null,
-"price":null,
-"note":"No approved PYY drug exists; evidence is from small studies.",
-"structure":null},
-"quick":{
-"overview":"Peptide YY is a hormone your gut releases after you eat, signalling fullness. The 2002 and 2003 studies that showed it cut food intake sparked interest in using it for weight control.\n\nIt remains a research compound. Human studies are small and short, and no PYY product is approved for weight loss.",
-"mechanism":"The active form, PYY(3-36), binds Y2 receptors, including on appetite-regulating neurons in the hypothalamus, and also slows stomach emptying. Levels rise with meals, especially protein-rich ones.",
-"risks":"Published material here does not detail safety outcomes of PYY analogues; research use is investigational and no regulatory approval for weight management exists."},
-"refs":[
-{"id":1,"title":"Neuropeptide Y: a novel brain peptide with structural similarities to peptide YY and pancreatic polypeptide","url":"https://pubmed.ncbi.nlm.nih.gov/6896083/","source":"Nature","year":1982,"type":"study"},
-{"id":2,"title":"Peptide YY (Grokipedia)","url":"https://grokipedia.com/page/Peptide_YY","source":"Grokipedia","year":2025,"type":"encyclopedia"},
-{"id":3,"title":"Gut hormone PYY(3-36) physiologically inhibits food intake","url":"https://pubmed.ncbi.nlm.nih.gov/12167864/","source":"Nature","year":2002,"type":"study"},
-{"id":4,"title":"Long-term persistence of hormonal adaptations to weight loss","url":"https://pubmed.ncbi.nlm.nih.gov/22029981/","source":"New England Journal of Medicine","year":2011,"type":"study"},
-{"id":5,"title":"Targeted delivery of propionate to the human colon on appetite regulation and adiposity in overweight adults","url":"https://pubmed.ncbi.nlm.nih.gov/25500202/","source":"Gut","year":2015,"type":"trial"},
-{"id":6,"title":"Dipeptidyl-peptidase IV (CD26): role in the inactivation of regulatory peptides","url":"https://pubmed.ncbi.nlm.nih.gov/10588446/","source":"Regulatory Peptides","year":1999,"type":"review"},
-{"id":7,"title":"Human distribution and release of a putative new gut hormone, peptide YY","url":"https://pubmed.ncbi.nlm.nih.gov/3840109/","source":"Gastroenterology","year":1985,"type":"study"},
-{"id":8,"title":"Gut hormone profiles following bariatric surgery favor an anorectic state","url":"https://pubmed.ncbi.nlm.nih.gov/16371744/","source":"Annals of Surgery","year":2006,"type":"study"},
-{"id":9,"title":"Neuropeptide Y: complete amino acid sequence of the brain peptide","url":"https://pubmed.ncbi.nlm.nih.gov/6957876/","source":"PNAS","year":1982,"type":"study"},
-{"id":10,"title":"Incretin hormones: their role in health and disease","url":"https://pubmed.ncbi.nlm.nih.gov/29364588/","source":"Diabetes, Obesity & Metabolism","year":2018,"type":"review"},
-{"id":11,"title":"Peptide YY (Wikipedia)","url":"https://en.wikipedia.org/wiki/Peptide_YY","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":12,"title":"The Role of Peptide YY Infusions in Inhibiting Food Intake (NCT00259246)","url":"https://clinicaltrials.gov/study/NCT00259246","source":"ClinicalTrials.gov","year":2004,"type":"trial"},
-{"id":13,"title":"Safety, Toleration and Pharmacokinetics of Single Intravenous Doses of Peptide YY in Overweight Adults (NCT00331175)","url":"https://clinicaltrials.gov/study/NCT00331175","source":"ClinicalTrials.gov","year":2006,"type":"trial"},
-{"id":14,"title":"APPETITE: lingual PYY3-36 on appetite and acute energy intake (NCT05110664)","url":"https://clinicaltrials.gov/study/NCT05110664","source":"ClinicalTrials.gov","year":2022,"type":"trial"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Peptide_YY","title":"Peptide YY - Wikipedia"}]
+ "name": "Peptide YY",
+ "lead": [
+  "Peptide YY (PYY) is a 36-amino-acid gut hormone released by L-cells in the ileum and colon after eating. It acts to reduce appetite and slow gastric emptying, and it belongs to the neuropeptide Y family [1][11]. The main circulating form, PYY(3-36), acts largely through the Y2 receptor [2][11].",
+  "For appearance, the interest in PYY is a fat-loss chain: a meal-triggered fullness signal that lowers how much a person eats, which over time can reduce body fat and sharpen the face and physique. In 2002, researchers reported in Nature that peripheral injection of PYY(3-36) reduced food intake in rodents and in human volunteers, which led to interest in it as an anti-obesity agent [3]. It is not an approved drug for weight management or appearance. Research is investigational, with small human infusion studies and an oral/lingual delivery trial registered [11][14].",
+  "PYY is also part of the wider story of gut hormones that now underpins GLP-1 weight-loss drugs. Reviews of appetite regulation group PYY with GLP-1, CCK and oxyntomodulin as hormones that dampen hunger after meals, while ghrelin pushes the other way [15][16]. Many people who talk about raising PYY in fitness and diet circles are in practice discussing protein-rich meals, fibre and sleep, which are reported to influence its release [11][17][18]."
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Peptide hormone (NPY family)"
+  ],
+  [
+   "Length",
+   "36 amino acids; molecular weight about 4.3 kDa [2]"
+  ],
+  [
+   "Produced by",
+   "L-cells of ileum and colon"
+  ],
+  [
+   "Main receptor",
+   "Y2 (for PYY 3-36)"
+  ],
+  [
+   "Characterised",
+   "1982 (Tatemoto) [11]"
+  ],
+  [
+   "Gene",
+   "PYY, chromosome 17 [2]"
+  ],
+  [
+   "Status",
+   "Research only; no approved PYY drug"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Physiology",
+   "paras": [
+    "PYY is secreted after meals in proportion to calorie content, and levels fall during fasting [3][11]. The enzyme DPP-4 converts PYY(1-36) to PYY(3-36), the predominant circulating form, which is highly selective for the Y2 receptor [11][6]. Protein intake is reported to raise PYY levels [11]. PYY also slows gastric emptying and promotes water and electrolyte absorption in the colon [11].",
+    "Obese people have been reported to secrete less PYY after a meal, though some studies find they remain sensitive to its appetite-reducing effect, so reduced sensitivity is not considered established as a cause of obesity [11]. After bariatric surgery, gut hormone profiles, including PYY, shift toward an appetite-suppressing pattern [8]. A study of people on a diet-induced weight-loss programme reported long-lasting hormonal changes, including altered gut hormones, after weight loss [4].",
+    "PYY shares the characteristic folded structure of the neuropeptide Y family, in which a polyproline-type helix folds back onto an alpha helix, and it is amidated at its C-terminal end [2]. After release, the enzyme DPP-4 removes two amino acids from the N-terminus; this shifts the peptide from a broad-acting form that binds several NPY-family receptors to PYY(3-36), which is selective for Y2 [11][6]. Y2 receptors sit on arcuate-nucleus neurons that make neuropeptide Y, and the 2002 report proposed that PYY(3-36) acts there to inhibit those appetite-stimulating cells [3].",
+    "Besides appetite, PYY slows gastric emptying and intestinal transit, an effect sometimes called the ileal or colonic brake, and it promotes water and electrolyte absorption in the colon [11]. A 2023 Science paper reported a separate role for PYY as an antimicrobial peptide made by Paneth cells that helps maintain the gut yeast Candida as a commensal [19]."
+   ],
+   "subs": [
+    {
+     "h": "Triggers and modifiers",
+     "paras": [
+      "PYY release is reported to rise with meal size and with protein intake [3][11]. Short-chain fatty acids produced when gut bacteria ferment fibre, notably propionate, stimulated PYY and GLP-1 secretion through the free fatty acid receptor 2 in rodent experiments [9]. A review of sleep and circadian biology discusses PYY alongside ghrelin and leptin as one of the appetite hormones affected by insufficient sleep and circadian misalignment [17].",
+      "A network meta-analysis of single-dose trials examined how non-nutritive sweetened beverages affect postprandial glucose and endocrine responses compared with water and sugar-sweetened drinks [18]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Kazuhiko Tatemoto isolated PYY in 1982 from pig intestine as a candidate gut hormone, and the same laboratory described the sequence of neuropeptide Y, which proved structurally related [1][9][11]. Its distribution and release in humans were described in 1985 [7]. The nomenclature of the NPY, PYY and pancreatic polypeptide receptor family was formalised by an International Union of Pharmacology committee in 1998 [20].",
+    "A 2002 Nature paper by Batterham and colleagues reported that PYY(3-36) inhibited food intake [3], and a 2003 New England Journal of Medicine study reported that infusion cut calorie intake at a buffet meal by roughly 30% in obese and lean subjects [11]. Interest then widened to the other gut hormones, and the later arrival of GLP-1-based medicines made gut-brain satiety signalling one of the most active areas of obesity research [16][15]."
+   ]
+  },
+  {
+   "h": "PYY and body weight",
+   "paras": [
+    "Obese people have been reported to secrete less PYY after a meal, though some studies find they remain sensitive to its appetite-reducing effect, so reduced PYY sensitivity is not considered established as a cause of obesity [11]. After bariatric surgery, gut hormone profiles, including higher PYY, shift toward an appetite-suppressing pattern, and researchers have linked this to weight loss after the operations [8]. A study of people on a diet-induced weight-loss programme reported hormonal changes after weight loss, including altered gut hormones, that persisted over time and were proposed as a contributor to weight regain [4].",
+    "Reviews of the molecular basis of obesity list PYY(3-36) with leptin, insulin and ghrelin as signals that integrate with brain circuits controlling feeding [21]."
+   ]
+  },
+  {
+   "h": "Approaches to raising PYY",
+   "paras": [
+    "Beyond injected PYY analogues, researchers have examined indirect approaches. A trial of targeted colonic delivery of propionate, a short-chain fatty acid, in overweight adults measured effects on PYY and GLP-1 release, appetite and weight gain [5]. Gut microbiota that ferment fibre are also discussed as influencing gut hormone secretion [6][22]. Gut hormones including PYY are covered among the incretin and related hormones in a 2018 review [10], and a 2024 review covers meal timing, food quality, exercise type and sleep deprivation as environmental factors that shape gut hormone responses [16].",
+    "Combination approaches are the direction of current drug development: the 2024 review notes that triple-agonist and partial-agonist drugs acting on GLP-1, GIP and glucagon receptors have produced weight loss in trials, while PYY itself has not reached the market [16]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Human studies of PYY itself are small. Registered investigations include PYY infusion studies in obese adults (24 participants each) examining food intake [12], a phase 1 safety and pharmacokinetic study of single intravenous doses in overweight adults (31 participants) [13], a study of PYY degradation in healthy volunteers [23], and a trial of lingual PYY(3-36) on appetite and energy intake, with unknown status [14]. A phase 1 dose-escalation safety study of a compound called GT-001 was also registered under feeding and eating disorders [24].",
+    "Published reports of infusion studies described reduced intake over a meal, as noted above [3][11]. The propionate trial found that colonic delivery was associated with increased PYY and GLP-1 and with less weight gain over 24 weeks in overweight adults [5]. A randomised controlled trial in females with lipedema compared gastrointestinal hormones and subjective appetite ratings after low-carbohydrate versus low-fat low-energy diets [25]. No PYY product is approved for weight loss."
+   ]
+  },
+  {
+   "h": "Safety and regulatory status",
+   "paras": [
+    "Published material on PYY analogues describes research use only. Safety and tolerability of single intravenous doses was the subject of a phase 1 registration in overweight adults [13]. No regulatory agency has approved a PYY drug for weight management, and PYY is not sold as a medicine for appearance."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1982",
+   "event": "Tatemoto isolates PYY; NPY sequence described [1][9][11]."
+  },
+  {
+   "year": "1985",
+   "event": "Human distribution and release described [7]."
+  },
+  {
+   "year": "1998",
+   "event": "IUPHAR recommends nomenclature for NPY, PYY and PP receptors [20]."
+  },
+  {
+   "year": "2002",
+   "event": "PYY(3-36) reported to inhibit food intake [3]."
+  },
+  {
+   "year": "2003",
+   "event": "Infusion reduces calorie intake in obese and lean subjects [11]."
+  },
+  {
+   "year": "2006",
+   "event": "Gut hormone profiles after bariatric surgery reported to favour an anorectic state [8]."
+  },
+  {
+   "year": "2015",
+   "event": "Colonic propionate delivery trial reports increased PYY and GLP-1 [5]."
+  },
+  {
+   "year": "2022",
+   "event": "Lingual PYY(3-36) appetite trial registered [14]."
+  }
+ ],
+ "lore": null,
+ "card": {
+  "summary": "A satiety hormone made in the gut; infusion studies show reduced intake, but it is not an approved or established appearance tool.",
+  "aka": "PYY, PYY 3-36",
+  "evidence": "limited",
+  "status": "research",
+  "outcome": null,
+  "risk": null,
+  "price": null,
+  "note": "No approved PYY drug exists; evidence is from small studies.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Peptide YY is a hormone your gut releases after you eat, signalling fullness. The 2002 and 2003 studies that showed it cut food intake sparked interest in using it for weight control.\n\nIt remains a research compound. Human studies are small and short, and no PYY product is approved for weight loss.",
+  "risks": "Published material on PYY analogues describes research use only; a phase 1 safety study in overweight adults has been registered, and no regulatory approval for weight management exists. Gut-hormone drugs of other classes, such as GLP-1 agonists, carry their own documented side effects.",
+  "how": "PYY is not something people take for appearance. In research it has been given by infusion under supervision, and in everyday life PYY rises naturally after meals, particularly protein-rich ones. Diet and sleep patterns are discussed in reviews as influences on gut hormones.",
+  "mechanism": "The active form, PYY(3-36), binds Y2 receptors, including on appetite-regulating neurons in the hypothalamus, and also slows stomach emptying. Levels rise with meals, especially protein-rich ones."
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Neuropeptide Y: a novel brain peptide with structural similarities to peptide YY and pancreatic polypeptide",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6896083/",
+   "source": "Nature",
+   "year": 1982,
+   "type": "study"
+  },
+  {
+   "id": 2,
+   "title": "Peptide YY (Grokipedia)",
+   "url": "https://grokipedia.com/page/Peptide_YY",
+   "source": "Grokipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Gut hormone PYY(3-36) physiologically inhibits food intake",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12167864/",
+   "source": "Nature",
+   "year": 2002,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Long-term persistence of hormonal adaptations to weight loss",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22029981/",
+   "source": "New England Journal of Medicine",
+   "year": 2011,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Targeted delivery of propionate to the human colon on appetite regulation and adiposity in overweight adults",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25500202/",
+   "source": "Gut",
+   "year": 2015,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Dipeptidyl-peptidase IV (CD26): role in the inactivation of regulatory peptides",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10588446/",
+   "source": "Regulatory Peptides",
+   "year": 1999,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Human distribution and release of a putative new gut hormone, peptide YY",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/3840109/",
+   "source": "Gastroenterology",
+   "year": 1985,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Gut hormone profiles following bariatric surgery favor an anorectic state",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16371744/",
+   "source": "Annals of Surgery",
+   "year": 2006,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "Neuropeptide Y: complete amino acid sequence of the brain peptide",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6957876/",
+   "source": "PNAS",
+   "year": 1982,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Incretin hormones: their role in health and disease",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29364588/",
+   "source": "Diabetes, Obesity & Metabolism",
+   "year": 2018,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "Peptide YY (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Peptide_YY",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 12,
+   "title": "The Role of Peptide YY Infusions in Inhibiting Food Intake (NCT00259246)",
+   "url": "https://clinicaltrials.gov/study/NCT00259246",
+   "source": "ClinicalTrials.gov",
+   "year": 2004,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "Safety, Toleration and Pharmacokinetics of Single Intravenous Doses of Peptide YY in Overweight Adults (NCT00331175)",
+   "url": "https://clinicaltrials.gov/study/NCT00331175",
+   "source": "ClinicalTrials.gov",
+   "year": 2006,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "APPETITE: lingual PYY3-36 on appetite and acute energy intake (NCT05110664)",
+   "url": "https://clinicaltrials.gov/study/NCT05110664",
+   "source": "ClinicalTrials.gov",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 15,
+   "title": "Satiety: a gut-brain-relationship",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38368346/",
+   "source": "Journal of Physiological Sciences",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 16,
+   "title": "Gut hormones and appetite regulation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38511400/",
+   "source": "Current Opinion in Endocrinology, Diabetes and Obesity",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 17,
+   "title": "The role of insufficient sleep and circadian misalignment in obesity",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36280789/",
+   "source": "Nature Reviews Endocrinology",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 18,
+   "title": "The effect of non-nutritive sweetened beverages on postprandial glycemic and endocrine responses: a systematic review and network meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36839408/",
+   "source": "Nutrients",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 19,
+   "title": "Peptide YY: a Paneth cell antimicrobial peptide that maintains Candida gut commensalism",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37535745/",
+   "source": "Science",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 20,
+   "title": "XVI. International Union of Pharmacology recommendations for the nomenclature of neuropeptide Y, peptide YY, and pancreatic polypeptide receptors",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9549761/",
+   "source": "Pharmacological Reviews",
+   "year": 1998,
+   "type": "guideline"
+  },
+  {
+   "id": 21,
+   "title": "Obesity I: overview and molecular and biochemical mechanisms",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35393120/",
+   "source": "Biochemical Pharmacology",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 22,
+   "title": "Minireview: gut microbiota: the neglected endocrine organ",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24892638/",
+   "source": "Molecular Endocrinology",
+   "year": 2014,
+   "type": "review"
+  },
+  {
+   "id": 23,
+   "title": "Degradation of the Anorexic Hormone Peptide YY (NCT02493959)",
+   "url": "https://clinicaltrials.gov/study/NCT02493959",
+   "source": "ClinicalTrials.gov",
+   "year": 2014,
+   "type": "trial"
+  },
+  {
+   "id": 24,
+   "title": "A Dose Escalating Study to Assess the Safety and Tolerability of GT-001 (NCT03490786)",
+   "url": "https://clinicaltrials.gov/study/NCT03490786",
+   "source": "ClinicalTrials.gov",
+   "year": 2017,
+   "type": "trial"
+  },
+  {
+   "id": 25,
+   "title": "Gastrointestinal hormones and subjective ratings of appetite after low-carbohydrate vs low-fat low-energy diets in females with lipedema",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39566600/",
+   "source": "Clinical Nutrition ESPEN",
+   "year": 2025,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Peptide_YY",
+   "title": "Peptide YY - Wikipedia"
+  }
+ ],
+ "angle": {
+  "goal": "Fat loss / leanness",
+  "chain": [
+   "Meal triggers PYY release from the gut",
+   "PYY(3-36) signals fullness to the brain and slows stomach emptying",
+   "Lower energy intake over time",
+   "Reduced body fat and a leaner face and body"
+  ],
+  "effect": "indirect",
+  "text": "PYY is one of the hormones that tell the brain a meal has been eaten. Studies that raised PYY by infusion found people ate less at the next meal, and the idea behind interest in it is that eating less over time reduces body fat and gives a leaner look."
+ }
 }

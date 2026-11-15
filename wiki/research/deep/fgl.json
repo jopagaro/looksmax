@@ -1,18 +1,35 @@
 {
- "name": "FGL",
  "lead": [
-  "FGL (the FG loop peptide) is a 15-amino-acid synthetic peptide derived from the second fibronectin type III module of the neural cell adhesion molecule (NCAM). It was reported to activate fibroblast growth factor receptor 1 (FGFR1), mimicking part of the signalling that NCAM performs during cell adhesion [3].",
-  "Published research is preclinical: primary rat neuron cultures, and rodent studies of memory, social recognition, ageing and Alzheimer's-type pathology [1][2][3][5][6][7][9]. No human clinical trial appears in the sources reviewed, and no data on appearance outcomes were found.",
-  "FGL is relevant to the wiki as a neuroactive peptide appearing in longevity and nootropic peptide catalogues; the sources reviewed contain no looksmaxxing community discussion of it."
+  "FGL (the FG loop peptide) is a 15-amino-acid synthetic peptide derived from the second fibronectin type III module of the neural cell adhesion molecule (NCAM). It was reported to activate fibroblast growth factor receptor 1 (FGFR1), mimicking part of the signalling that NCAM performs when neurons adhere to each other [3][2]. It appears in longevity and nootropic peptide catalogues, where it is grouped with compounds that people take with the aim of supporting memory and brain ageing.",
+  "Its connection to appearance is indirect and runs through the wider longevity framing, in which sharp cognition and neural resilience are treated as part of ageing well. FGL itself has no published data on skin, hair, body composition or other visible traits.",
+  "Published research is preclinical: primary rat neuron cultures, neural stem cell cultures, and rodent studies of memory, social recognition, brain injury, ageing and Alzheimer's-type pathology [1][2][3][5][6][7][9][11][12]. No human clinical trial of FGL has been published."
  ],
+ "angle": {
+  "goal": "Healthy ageing",
+  "chain": [
+   "FGL peptide reported to activate FGFR1",
+   "Neurite outgrowth, synaptic plasticity and neuronal survival in animal models",
+   "Claimed support for memory and brain ageing, a part of ageing well"
+  ],
+  "effect": "claimed",
+  "text": "FGL is discussed as a neuroactive peptide for brain plasticity and ageing. Any benefit to how someone looks would be indirect, through the general idea of healthy ageing, and no study has tested appearance outcomes."
+ },
  "infobox": [
   [
    "Type",
    "15-amino-acid NCAM-derived peptide"
   ],
   [
+   "Also called",
+   "FG loop peptide"
+  ],
+  [
    "Target",
-   "FGFR1 (reported agonist)"
+   "FGFR1 (reported agonist) [3]"
+  ],
+  [
+   "Origin",
+   "Second fibronectin type III module of NCAM [3]"
   ],
   [
    "Status",
@@ -20,7 +37,7 @@
   ],
   [
    "Human trials",
-   "None found"
+   "None published"
   ]
  ],
  "sections": [
@@ -30,15 +47,34 @@
     {
      "h": "Mechanism of action",
      "paras": [
-      "NCAM is involved in neural development, cell migration, synaptogenesis and synaptic plasticity, and signals through FGFR [2][8]. NCAM1 is a glycoprotein found on neurons, glia and skeletal muscle and is also known as CD56 [10]. FGL was reported to induce neurite outgrowth and neuronal survival in primary rat neurons [2], and in mice lacking NCAM it restored disrupted FGFR phosphorylation and signalling [4]."
+      "NCAM is involved in neural development, cell migration, synaptogenesis and synaptic plasticity, and it signals through FGFR [2][8]. NCAM1 is a glycoprotein found on neurons, glia and skeletal muscle and is also known as CD56 [10]. FGL was reported to induce neurite outgrowth and neuronal survival in primary rat neurons [2].",
+      "In mice lacking all NCAM isoforms, basal phosphorylation of FGFR1 and of the kinases CaMKII and CaMKIV in the hippocampus was reduced, and FGL restored those levels, so that it mimicked NCAM's interaction at this receptor [4]. A 2016 review described NCAM and its polysialylated form as molecules associated with memory impairment, depression, autism spectrum conditions and schizophrenia, and discussed FGL and a related peptide, Enreptin, as NCAM-mimetic peptides able to restore disrupted plasticity in animal models [8]."
      ]
     }
    ]
   },
   {
    "h": "Preclinical research",
-   "paras": [
-    "In rats given a beta-amyloid fragment to model early Alzheimer's-type changes, FGL reduced neuropathological signs and cognitive impairment [1]. Studies in rodents reported that FGL promoted early postnatal sensorimotor development and enhanced social memory retention [3], facilitated long-term plasticity in the dentate gyrus [9], altered synapse and dendritic spine structure in aged rats [6], modified age-related hippocampal changes [5], and affected spatial learning impairment after neonatal phencyclidine treatment [7]. A 2016 review discussed NCAM as a target for dysfunctional brain plasticity [8]."
+   "subs": [
+    {
+     "h": "Memory, plasticity and development",
+     "paras": [
+      "A 2006 study reported that FGL promoted early postnatal sensorimotor development and enhanced social memory retention in rats [3]. In anaesthetised rats, FGL injected locally before high-frequency stimulation did not change basal synaptic transmission but facilitated both the induction and maintenance of long-term potentiation in the dentate gyrus [9]. Another study found it affected spatial learning impairment after neonatal phencyclidine treatment in rats, a model used for schizophrenia-like deficits [7]."
+     ]
+    },
+    {
+     "h": "Ageing and neurodegeneration models",
+     "paras": [
+      "In aged rats, FGL altered synapse and dendritic spine structure in the dentate gyrus on three-dimensional ultrastructural analysis [6], and systemic treatment modified age-related hippocampal changes, including loss of the presynaptic protein synaptophysin and glial-synaptic interaction [5]. In rats given a beta-amyloid fragment to model early Alzheimer's-type changes, FGL reduced neuropathological signs and cognitive impairment [1]."
+     ]
+    },
+    {
+     "h": "Injury, depression and materials research",
+     "paras": [
+      "In adolescent rats subjected to cryo-induced traumatic brain injury, microarray analysis found that FGL treatment interacted with injury to alter genes regulating apoptosis, signal transduction and metabolism [11]. The 2016 review reported that FGL ameliorated depressive-like behaviour in NCAM-deficient mice and suggested it as a drug candidate for depression and other disorders of disrupted plasticity [8].",
+      "Chemists have also used the sequence as a building block. A 2008 study made a self-assembling FGL peptide-amphiphile that formed a nanofibre gel and examined its biocompatibility with neural stem cells in culture [12], and a 2022 ACS Nano paper attached an FGL peptide to a nanoparticle as a ligand for FGFR1, which is overexpressed at the blood-brain barrier, to deliver a hybrid mitochondrial peptide to cholinergic neurons in an Alzheimer's model [13]."
+     ]
+    }
    ]
   },
   {
@@ -50,22 +86,34 @@
   {
    "h": "Society and culture",
    "paras": [
-    "FGL is not an approved medicine in the sources reviewed. No community use or appearance claims were documented in them."
+    "FGL is not an approved medicine, and it appears in longevity and nootropic peptide catalogues. No community discussion of it as an appearance compound was found."
    ]
   }
  ],
  "timeline": [
   {
    "year": "2004",
-   "event": "FGL reported to induce neurite outgrowth and neuronal survival in primary rat neurons [2]."
+   "event": "FGL reported to induce neurite outgrowth and neuronal survival in primary rat neurons.[2]"
   },
   {
    "year": "2006",
-   "event": "Report of effects on postnatal development and social memory in rats [3]."
+   "event": "Report of effects on postnatal development and social memory in rats.[3]"
   },
   {
    "year": "2007",
-   "event": "Report of reduced Alzheimer's-type signs in a rat amyloid model [1]."
+   "event": "Report of reduced Alzheimer's-type signs in a rat amyloid model.[1]"
+  },
+  {
+   "year": "2008",
+   "event": "Effects on synapse structure in aged rats and on gene expression after brain injury reported.[6][11]"
+  },
+  {
+   "year": "2010",
+   "event": "FGL restores FGFR signalling in NCAM-deficient mice.[4]"
+  },
+  {
+   "year": "2016",
+   "event": "Review proposes NCAM-mimetic peptides as candidates for disorders of disrupted plasticity.[8]"
   }
  ],
  "lore": null,
@@ -149,6 +197,30 @@
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
+  },
+  {
+   "id": 11,
+   "title": "The synthetic NCAM-derived peptide, FGL, modulates the transcriptional response to traumatic brain injury",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18436381/",
+   "source": "Neuroscience Letters",
+   "year": 2008,
+   "type": "study"
+  },
+  {
+   "id": 12,
+   "title": "Biocompatibility of FGL peptide self-assembly nano-fibers with neural stem cells in vitro",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19068609/",
+   "source": "Chinese Journal of Reparative and Reconstructive Surgery",
+   "year": 2008,
+   "type": "study"
+  },
+  {
+   "id": 13,
+   "title": "Cholinergic Neuron Targeting Nanosystem Delivering Hybrid Peptide for Combinatorial Mitochondrial Therapy in Alzheimer's Disease",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35839463/",
+   "source": "ACS Nano",
+   "year": 2022,
+   "type": "study"
   }
  ],
  "webSources": [
@@ -157,6 +229,7 @@
    "title": "NCAM1 - Wikipedia"
   }
  ],
+ "name": "FGL",
  "card": {
   "summary": "A lab-made fragment of a neural adhesion protein with rodent memory data and no human trials or appearance evidence.",
   "aka": "FG loop peptide",

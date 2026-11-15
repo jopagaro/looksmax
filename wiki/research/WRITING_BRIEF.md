@@ -30,6 +30,12 @@ fetches per entry. Any URL you cite that is NOT in the dossier must be one you a
 `webSources` (see schema) — otherwise its citation is deleted at build time. Never cite a page you didn't load.
 reddit.com and looksmax.org can't be fetched directly; don't try.
 
+**Scale the research to the topic.** A widely discussed topic (a diet movement like the Ray Peat diet, a staple drug
+like finasteride, a core concept like mewing or the blackpill) deserves a featured-article treatment: 6–12 fetched pages
+and a few web searches, covering the people behind it, its history with dates, the doctrines or mechanism in detail,
+the main studies, the influencers and online communities that spread it, media coverage and controversies — 2,000–4,000
+words, 20–40 refs. A 500-word article on a topic with a Wikipedia page, a founder, books and a following is a failure.
+
 ## Ground rules
 - **NEUTRAL POINT OF VIEW IS MANDATORY.** Read /Users/johnpaulroche/lookmax/wiki/research/NPOV.md first and follow it in every sentence. The wiki documents what believers/practitioners say and what research/experts say, with attribution. It never takes a side, never editorialises, never gives advice, never calls anything BS/scam/myth/debunked.
 - **Your own words.** Paraphrase. Never copy sentences from Wikipedia, Grokipedia, abstracts or posts. Short quoted forum slang (a few words, in quotes) is fine inside lore claims.
@@ -40,7 +46,7 @@ reddit.com and looksmax.org can't be fetched directly; don't try.
 - If the Wikipedia article is a broader topic (e.g. "Masseter muscle" for a jaw exerciser), use it for background, but keep the article about the entry itself.
 - Never cite, quote or title-reference forum threads containing slurs, explicit sexual content or self-harm talk; skip them.
 - Thin dossier? Write less rather than pad. Never fabricate history, dates, people or studies.
-- **Write for readers, not for us.** Never mention "the dossier", "the sources provided", "P3", "[L4]" or the research process in article text. Say "no published trial has tested…" or "evidence is limited to…" instead of "the dossier doesn't include…".
+- **Write for readers, not for us.** Never mention "the dossier", "the sources provided", "the available sources", "the sources reviewed", "search results", "P3", "[L4]", or why an article is short — none of the research process belongs in article text. Say "no published trial has tested…" or "evidence is limited to…" instead of "the dossier doesn't include…".
 - Some PubMed abstracts may be off-topic (a search hit about a different condition). Only cite a study for what it actually covers.
 
 ## What to write (Wikipedia structure, adapted)
@@ -117,9 +123,9 @@ These came from discovery and have no rating yet. In addition to everything abov
   "structure": "PubChem compound name for a 2D structure image, or null"   // compounds only
 },
 "quick": {
-  "overview": "2 short paragraphs (separated by a blank line), plain-English, for the Quick take view",
-  "mechanism": "1 paragraph: how it works (or what people do, for metas)",
-  "risks": "1 paragraph: side effects, harms, legal status, caveats"
+  "overview": "2 short paragraphs (separated by a blank line), plain-English, for the Quick take view: what it is and the appearance payoff, then how it gets there and what research or real-world results exist",
+  "how": "1 paragraph: how people use it in practice (general terms: form, routine, what it's combined with, how long until results). No doses, injection instructions or sourcing for Rx/research compounds.",
+  "risks": "1 paragraph: side effects, harms, legal status, who should avoid it — factual, no doom"
 }
 ```
 - **If the sources are thin, keep it short — but write it.** A real thing people use or do gets an article even with little behind it: a short card, a short quick take, and a short in-depth article (lead + a couple of sections, "No studies found." under Clinical studies). Never pad, never invent.

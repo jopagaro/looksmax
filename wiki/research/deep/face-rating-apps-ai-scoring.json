@@ -1,58 +1,266 @@
 {
-"name": "Face rating apps / AI scoring",
-"card": {
+ "name": "Face rating apps / AI scoring",
+ "card": {
   "summary": "Apps and AI tools that score a face photo for attractiveness, popular in looksmaxxing; the scores are model outputs, and a notable early contest drew bias complaints.",
   "aka": "AI attractiveness rating, face scoring apps, PSL rating apps",
   "evidence": "unproven",
   "risk": "moderate",
   "note": "Scores are not validated measures; a 2016 AI beauty contest was criticized for racially skewed results.",
   "structure": null
-},
-"quick": {
-  "overview": "Face rating apps use algorithms to give a photo a numeric attractiveness score, often on scales borrowed from looksmaxxing such as PSL. They are used to track self-improvement or to compare faces.\n\nThe sources available describe the category only in general terms, and no validation study of these specific apps was found. A well-known early example, the Beauty.AI contest, generated controversy over biased results.",
+ },
+ "quick": {
+  "overview": "Face rating apps use algorithms to give a photo a numeric attractiveness score, often on scales borrowed from looksmaxxing such as PSL. They are used to track self-improvement or to compare faces.\nThe category is described only in general terms, and no validation study of these specific apps has been found. A well-known early example, the Beauty.AI contest, generated controversy over biased results.",
   "mechanism": "Such tools typically assess features such as facial symmetry, blemishes, wrinkles and estimated age, and sometimes resemblance to reference faces, as Beauty.AI did. Research on symmetry shows it raises attractiveness ratings, but also that findings are modest and nuanced.",
   "risks": "Reported concerns include bias from training data and the effect on self-image of numeric scoring; Wikipedia's looksmaxxing article describes commentators linking the wider culture to body dysmorphia. Scores differ between apps and are not validated clinical measures."
-},
-"lead": [
- "Face rating apps and AI scoring tools estimate a person's attractiveness from a photograph and return a number or tier. In looksmaxxing they are used alongside forum ratings and paid analyses by content creators, and some report results on community scales such as PSL. [1][2]",
- "A reference point from outside the community is Beauty.AI, a 2016 app-based contest by Youth Laboratories in which artificial intelligence judged symmetry, blemishes, wrinkles, estimated age and resemblance to models among more than 60,000 entrants. Of 44 winners, 37 were white, which critics cited as evidence of bias; the company attributed it partly to limited data. [3]"
-],
-"infobox": [
- ["Type", "Software / mobile apps"],
- ["Typical inputs", "Front and side face photos"],
- ["Common scales", "PSL (about 1-8) or 1-10 [2]"],
- ["Early notable example", "Beauty.AI (2016) [3]"],
- ["Validation studies found", "None"]
-],
-"sections": [
- {"h": "Description", "paras": [
-  "A Grokipedia entry on looksmaxxing says jawline attractiveness is sometimes rated on a 1-10 scale including by AI tools, and that content creators sell analyses and apps for facial ratings, without naming specific apps. [2] Wikipedia describes the PSL scale as a roughly 1-8 rating created on forum communities. [1]"
- ]},
- {"h": "Beauty.AI", "paras": [
-  "Beauty.AI was run by Youth Laboratories, with Insilico Medicine helping test deep learning methods. Roughly 75% of entrants were white Europeans. After the results, criticism from social justice and computer science backgrounds led to the creation of Diversity.AI, a think tank on bias in AI. The AI also reportedly discarded photos of dark-skinned people when lighting was poor. [3]"
- ]},
- {"h": "Related research", "paras": [
-  "Wikipedia's article on facial symmetry reports that symmetry increases attractiveness ratings in both sexes, with a larger role for female faces, and that symmetry and averageness appear to contribute independently. It cautions that correlation does not establish causation and that mirroring techniques used in studies can create artificial features. [4]"
- ]},
- {"h": "Clinical studies", "paras": [
-  "No studies found validating commercial face rating apps. Related research on facial symmetry and attractiveness exists but does not test these apps. [4]"
- ]}
-],
-"timeline": [
- {"year": "2016", "event": "Beauty.AI contest results announced; bias controversy follows. [3]"},
- {"year": "Mid-2010s", "event": "PSL scale emerges on incel-associated forums. [1][2]"}
-],
-"lore": null,
-"refs": [
- {"id": 1, "title": "Looksmaxxing", "url": "https://en.wikipedia.org/wiki/Looksmaxxing", "source": "Wikipedia", "year": null, "type": "encyclopedia"},
- {"id": 2, "title": "Looksmaxxing", "url": "https://grokipedia.com/page/Looksmaxxing", "source": "Grokipedia", "year": null, "type": "encyclopedia"},
- {"id": 3, "title": "Beauty.AI", "url": "https://en.wikipedia.org/wiki/Beauty.AI", "source": "Wikipedia", "year": null, "type": "encyclopedia"},
- {"id": 4, "title": "Facial symmetry", "url": "https://en.wikipedia.org/wiki/Facial_symmetry", "source": "Wikipedia", "year": null, "type": "encyclopedia"}
-],
-"webSources": [
- {"url": "https://en.wikipedia.org/wiki/Looksmaxxing", "title": "Looksmaxxing - Wikipedia"},
- {"url": "https://grokipedia.com/page/Looksmaxxing", "title": "Looksmaxxing - Grokipedia"},
- {"url": "https://en.wikipedia.org/wiki/Beauty.AI", "title": "Beauty.AI - Wikipedia"},
- {"url": "https://en.wikipedia.org/wiki/Facial_symmetry", "title": "Facial symmetry - Wikipedia"}
-]
+ },
+ "lead": [
+  "Face rating apps and AI scoring tools estimate a person's attractiveness from a photograph and return a number, tier or feature breakdown. People in looksmaxxing use them to get a quick private baseline, to see which features score lower, and to track whether changes such as grooming, weight loss, haircuts or procedures move the number over time; some report results on community scales such as PSL.[1][2]",
+  "The category draws on long-running research on what faces people rate as attractive: averageness, symmetry, sexual dimorphism, skin quality and perceived health, with substantial agreement among raters across groups.[4][5] Software tools turn some of those cues into measurements such as symmetry, blemishes, wrinkles and estimated age.[3]",
+  "A reference point from outside the community is Beauty.AI, a 2016 app-based contest by Youth Laboratories in which artificial intelligence judged symmetry, blemishes, wrinkles, estimated age and resemblance to models among more than 60,000 entrants. Of 44 winners, 37 were white, which critics cited as evidence of bias; the company attributed it partly to limited data.[3] Researchers who study algorithmic bias note that models trained on unbalanced image sets perform unevenly across groups, a point raised in facial-analysis audits.[6]"
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Software / mobile apps and web tools"
+  ],
+  [
+   "Typical inputs",
+   "Front and side face photos"
+  ],
+  [
+   "Typical outputs",
+   "A numeric score, tier label or feature breakdown"
+  ],
+  [
+   "Common scales",
+   "PSL (about 1-8) or 1-10[1][2]"
+  ],
+  [
+   "Scale origin",
+   "PSL created on forums in the 2010s (PUAHate, Sluthate, Lookism.net)[1]"
+  ],
+  [
+   "Early notable example",
+   "Beauty.AI (2016)[3]"
+  ],
+  [
+   "Published validation studies",
+   "None identified for specific apps"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "A Grokipedia entry on looksmaxxing says jawline attractiveness is sometimes rated on a 1-10 scale including by AI tools, and that content creators sell analyses and apps for facial ratings, without naming specific apps.[2] Wikipedia describes the PSL scale as a roughly 1-8 rating created on forum communities, and cites an online page titled \"Looksmaxxing Scale: Tiers, Ratings & Free AI Test\" as an example of a rating tool.[1]",
+    "Typical tools ask for a straight-on and sometimes a side photograph, locate facial landmarks, and compare proportions or features against a model trained on rated faces. Outputs vary by tool, and different apps can return different numbers for the same photo.[3]"
+   ]
+  },
+  {
+   "h": "Rating scales and community context",
+   "paras": [
+    "Wikipedia says the PSL scale was created on forums in the 2010s, runs roughly from 1 to 8 and rates facial attractiveness only, sorting men into categories from sub-3 up to \"giga Chad\"; the article describes the scale as pseudoscientific and the forums that created it as defunct.[1] The same article says some men seek appearance ratings on anonymous message boards, and that on some incel forums users rated below average are harassed.[1] Male creators popularised looksmaxxing on TikTok in the early 2020s, and Wikipedia cites a 2026 web page titled Looksmaxxing Scale: Tiers, Ratings & Free AI Test as an example of online rating tools, without describing any app.[1]",
+    "Grokipedia says content creators sell facial-rating analyses and apps, and that jawline attractiveness is sometimes rated on a 1 to 10 scale including by AI tools.[2]"
+   ]
+  },
+  {
+   "h": "How people use the scores",
+   "paras": [
+    "Practitioners describe three main uses: a baseline before a change, repeat measurements after grooming, fitness, skin care, hair or cosmetic work, and comparison with reference faces or tiers on community scales.[1][2] Because a rating app can be used privately and repeatedly, some users prefer it to posting photos for rating on anonymous message boards, where Wikipedia says users rated below average are sometimes harassed.[1]",
+    "Facial-attractiveness research gives the cues such tools tend to measure. Symmetry raises attractiveness ratings in both sexes, with a larger role in female faces, and symmetry is also linked to perceived health, including healthier-looking skin; symmetry and averageness appear to contribute independently.[4] Computer face-averaging studies found averaged faces were rated more attractive, and clearer, smoother skin is cited as a factor.[5] Researchers also caution that correlation does not establish causation and that mirroring techniques used in studies can create artificial features.[4]"
+   ]
+  },
+  {
+   "h": "Beauty.AI",
+   "paras": [
+    "Beauty.AI was run by Youth Laboratories, with Insilico Medicine helping test deep learning methods. Roughly 75% of entrants were white Europeans. After the results, criticism from social justice and computer science backgrounds led to the creation of Diversity.AI, a think tank on bias in AI. The AI also reportedly discarded photos of dark-skinned people when lighting was poor. [3]",
+    "Reported figures: more than 60,000 people entered, about 75 percent of them white Europeans, with entrants from India about 7 percent and from Africa about 1 percent. Of the 44 winners, 37 were white, six were Asian and one was dark-skinned.[3] Chief science officer Alex Zhavoronkov suggested lack of data may have contributed, chief technology officer Konstantin Kiselev said the company would widen outreach, and Zhavoronkov pledged to fix the issues for the next contest. The follow-up Beauty.AI 2.0 contest raised age, race and gender bias concerns about deep neural networks, which led to Diversity.AI.[3]"
+   ]
+  },
+  {
+   "h": "Bias and measurement concerns",
+   "paras": [
+    "The Beauty.AI outcome is the most-cited example of skewed output: roughly 75 percent of entrants were white Europeans, and the AI reportedly discarded photos of dark-skinned people when lighting was poor.[3] Wikipedia's algorithmic bias article summarises a 2018 study by Joy Buolamwini and Timnit Gebru that found error rates up to about 35 percent for darker-skinned women in commercial facial analysis, versus near-perfect accuracy for lighter-skinned men, which it attributes to under-representation in development datasets.[6] Those findings concern facial analysis generally rather than attractiveness apps, but they are the standard explanation offered for why scoring models can behave unevenly across skin tones and lighting.[6]",
+    "Rating apps also inherit whatever beauty standard their training images carry. The facial-attractiveness literature reports broad agreement across raters but also shows preferences that vary by country, for example in how strongly feminised female faces are preferred.[5]"
+   ]
+  },
+  {
+   "h": "Mental health context",
+   "paras": [
+    "Wikipedia's looksmaxxing article says commentators link communities that rate appearance with negative mental health outcomes including body dysmorphia.[1] Body dysmorphic disorder is defined as an overwhelming preoccupation with a perceived flaw in appearance, and the condition is associated with heavy selfie-taking and filtered images; cognitive behavioural therapy and SSRI antidepressants are the treatments described as effective.[7] Wikipedia's BDD article does not discuss rating apps specifically.[7]"
+   ]
+  },
+  {
+   "h": "Related research",
+   "paras": [
+    "Wikipedia's article on facial symmetry reports that symmetry increases attractiveness ratings in both sexes, with a larger role for female faces, and that symmetry and averageness appear to contribute independently. It cautions that correlation does not establish causation and that mirroring techniques used in studies can create artificial features. [4]",
+    "Wikipedia's article on physical attractiveness reports that a cross-country study found preferences for femininity in female faces varied by country, highest in Japan and lowest in Nepal, and that cross-cultural agreement on attractive facial characteristics has been reported by several researchers.[5]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found validating commercial face rating apps. Related research on facial symmetry, averageness and attractiveness exists but does not test these apps.[4][5]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2010s",
+   "event": "PSL scale created on the PUAHate, Sluthate and Lookism.net forums, all now defunct.[1]"
+  },
+  {
+   "year": "2016",
+   "event": "Beauty.AI contest results announced; bias controversy follows and Diversity.AI is created.[3]"
+  },
+  {
+   "year": "2018",
+   "event": "Buolamwini and Gebru study reports uneven facial-analysis error rates across skin tone and gender.[6]"
+  },
+  {
+   "year": "Early 2020s",
+   "event": "Looksmaxxing spreads on TikTok; AI face-rating pages and apps circulate in the community.[1]"
+  },
+  {
+   "year": "2023",
+   "event": "Mainstream media coverage of looksmaxxing increases.[1]"
+  },
+  {
+   "year": "2026",
+   "event": "Coverage of looksmaxxing influencers surges in major outlets.[1]"
+  }
+ ],
+ "lore": {
+  "intro": "Rating scales and AI scores are core vocabulary in looksmaxxing: users quote PSL numbers, tiers and tool outputs when discussing progress and features.[1][2]",
+  "claims": [
+   {
+    "claim": "The PSL scale reflects how women perceive men.",
+    "believers": "The scale's creators on PUAHate, Sluthate and Lookism.net designed it to reflect how women rate men's faces, and some practitioners use it in interviews and posts.[1]",
+    "experts": "Wikipedia describes the scale as pseudoscientific and notes it rates facial attractiveness only; attractiveness research instead studies averageness, symmetry and dimorphism in rated samples.[1][4][5]",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "An AI rating is an objective measure of facial attractiveness.",
+    "believers": "Users treat a tool's number as an impartial baseline for before-and-after comparison.[2]",
+    "experts": "The Beauty.AI contest drew bias criticism after 37 of 44 winners were white, and facial-analysis audits show uneven accuracy across skin tones; no validation study of specific apps was found.[3][6]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Symmetry is the main driver of a high score.",
+    "believers": "Rating tools commonly report symmetry among their measurements.[3]",
+    "experts": "Research reports that symmetry raises ratings, particularly for female faces, and contributes independently of averageness, while cautioning about causation and artifacts in mirrored-face studies.[4]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Tracking a number over time helps motivate improvement.",
+    "believers": "Practitioners say repeat scoring gives private, repeatable feedback on grooming, fitness and procedures.[1][2]",
+    "experts": "No studies have tested whether rating apps change outcomes; commentators cited by Wikipedia link rating-focused communities with body dysmorphia concerns.[1][7]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Rating communities can harm self-image.",
+    "believers": "Some creators frame ratings as self-improvement, often with humour.[1]",
+    "experts": "Wikipedia says commentators link appearance rating with body dysmorphia, and BDD is described as an obsessive-compulsive-spectrum condition treated with CBT and SSRIs.[1][7]",
+    "evidence": "harms"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Looksmaxxing",
+   "url": "https://en.wikipedia.org/wiki/Looksmaxxing",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Looksmaxxing",
+   "url": "https://grokipedia.com/page/Looksmaxxing",
+   "source": "Grokipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Beauty.AI",
+   "url": "https://en.wikipedia.org/wiki/Beauty.AI",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Facial symmetry",
+   "url": "https://en.wikipedia.org/wiki/Facial_symmetry",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 5,
+   "title": "Physical attractiveness",
+   "url": "https://en.wikipedia.org/wiki/Physical_attractiveness",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 6,
+   "title": "Algorithmic bias",
+   "url": "https://en.wikipedia.org/wiki/Algorithmic_bias",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 7,
+   "title": "Body dysmorphic disorder",
+   "url": "https://en.wikipedia.org/wiki/Body_dysmorphic_disorder",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Looksmaxxing",
+   "title": "Looksmaxxing - Wikipedia"
+  },
+  {
+   "url": "https://grokipedia.com/page/Looksmaxxing",
+   "title": "Looksmaxxing - Grokipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Beauty.AI",
+   "title": "Beauty.AI - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Facial_symmetry",
+   "title": "Facial symmetry - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Physical_attractiveness",
+   "title": "Physical attractiveness - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Algorithmic_bias",
+   "title": "Algorithmic bias - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Body_dysmorphic_disorder",
+   "title": "Body dysmorphic disorder - Wikipedia"
+  }
+ ],
+ "angle": {
+  "goal": "Self-assessment",
+  "chain": [
+   "Upload front and side photos",
+   "Model returns a score or feature breakdown",
+   "User tracks changes after grooming, fitness or procedures"
+  ],
+  "effect": "claimed",
+  "text": "Rating apps give people a repeatable, private number to compare before-and-after photos. Users treat the output as feedback on facial features and as a way to set goals for grooming or other changes."
+ }
 }

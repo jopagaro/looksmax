@@ -1,9 +1,24 @@
 {
  "name": "Fenretinide",
+ "card": {
+  "summary": "A synthetic vitamin A derivative studied for cancer prevention and eye disease, mentioned as a retinoid relative of skin-care retinoids.",
+  "aka": "4-HPR, N-(4-hydroxyphenyl)retinamide",
+  "evidence": "limited",
+  "status": "research",
+  "risk": "high",
+  "price": null,
+  "note": "Investigational; no skin or cosmetic trials.",
+  "structure": "Fenretinide"
+ },
+ "quick": {
+  "overview": "Fenretinide is a synthetic retinoid that has been tested in cancer prevention, cancer treatment and retinal disease.\n\nIt is chemically related to the retinoids used for skin, which is why it comes up in appearance discussions, but published work does not cover skin appearance.",
+  "mechanism": "Laboratory research describes effects on ceramide and sphingolipid pathways and on retinol-binding protein 4, a vitamin A carrier linked to insulin resistance.",
+  "risks": "It is investigational. Studies have looked at effects on retinal function, and it is not sold as a consumer skin product."
+ },
  "lead": [
-  "Fenretinide, also called 4-HPR or N-(4-hydroxyphenyl)retinamide, is a synthetic derivative of vitamin A in the retinoid family. It was developed and studied mainly as a cancer-prevention and anticancer drug, and has also been tested in eye disease and examined for effects on insulin sensitivity [10][11][15].",
-  "Its interest for appearance comes from its retinoid class: retinoids such as tretinoin and isotretinoin are widely used for skin. Fenretinide is not a marketed skin or cosmetic product, and its literature concerns oncology and ophthalmology rather than skin appearance [8][10].",
-  "In human studies it has been given by mouth to women at risk of breast cancer, to people with oral leukoplakia and to children and adults with tumours, and newer formulations such as intravenous emulsions and nanoparticle forms are in trials [12][7][16][18]."
+  "Fenretinide, also called 4-HPR or N-(4-hydroxyphenyl)retinamide, is a synthetic derivative of vitamin A in the retinoid family. It was developed and studied mainly as a cancer-prevention and anticancer drug, and has also been tested in eye disease and examined for effects on insulin sensitivity [10][11][15][19].",
+  "Its interest for appearance comes from its retinoid class: retinoids such as tretinoin and isotretinoin are widely used to improve skin texture, acne and ageing. The chain people draw is from a retinoid relative to possible skin effects. Fenretinide is not a marketed skin or cosmetic product, though Wikipedia lists acne and psoriasis among conditions it has been investigated for, and its published literature concerns oncology and ophthalmology far more than skin appearance [8][10][19].",
+  "In human studies it has been given by mouth to women at risk of breast cancer, to people with oral leukoplakia and to children and adults with tumours, and newer formulations such as intravenous emulsions and nanoparticle forms are in trials [12][7][16][18]. Reported effects include skin dryness and reversible night blindness, which reflect its action on vitamin A pathways [19][4]."
  ],
  "angle": {
   "goal": "Skin (retinoid research)",
@@ -35,6 +50,14 @@
   [
    "Status",
    "Investigational; not a marketed skin product"
+  ],
+  [
+   "Chemical formula",
+   "C26H33NO2; CAS 65646-68-6[19]"
+  ],
+  [
+   "Typical side effects in studies",
+   "Skin dryness, night-vision changes[19][4]"
   ]
  ],
  "sections": [
@@ -44,13 +67,13 @@
     {
      "h": "Cosmetic / appearance uses",
      "paras": [
-      "Fenretinide has no established cosmetic or dermatological use. It appears in appearance-oriented discussion mainly as a retinoid relative, with interest following that of tretinoin and isotretinoin."
+      "Fenretinide has no established cosmetic or dermatological use. It appears in appearance-oriented discussion mainly as a retinoid relative, with interest following that of tretinoin and isotretinoin. Wikipedia lists acne and psoriasis among conditions for which it has been investigated, but no skin-appearance trial results are reported.[19]"
      ]
     },
     {
      "h": "Medical uses",
      "paras": [
-      "Fenretinide is investigational. It has been tested for cancer chemoprevention, including a randomised trial of 2,972 women with early breast cancer or ductal carcinoma in situ who received it orally or no treatment for five years to look at second breast malignancy [12], and trials in oral leukoplakia, ovarian cancer occurrence and basal cell carcinoma [5][6][7][8]."
+      "Fenretinide is investigational and has been reviewed in relation to cancer [9]. It has been tested for cancer chemoprevention, including a randomised trial of 2,972 women with early breast cancer or ductal carcinoma in situ who received it orally or no treatment for five years to look at second breast malignancy [12], and trials in oral leukoplakia, ovarian cancer occurrence and basal cell carcinoma [5][6][7][8]. It has also been proposed for retinal conditions including Stargardt disease and geographic atrophy, on the basis of its action on the visual cycle [2][15]."
      ]
     }
    ]
@@ -61,7 +84,8 @@
     {
      "h": "Mechanism of action",
      "paras": [
-      "Laboratory work describes fenretinide as acting partly through ceramide and sphingolipid pathways, with ceramide increases and cell death in neuroblastoma cell lines [14][1]. It also lowers circulating retinol-binding protein 4, which has been linked to insulin resistance in obesity and type 2 diabetes in animal and human data [11], and it has been studied in the retinal visual cycle [2]."
+      "Laboratory work describes fenretinide as acting partly through ceramide and sphingolipid pathways, with ceramide increases and cell death in neuroblastoma cell lines [14][1]. Wikipedia adds that it may cause ceramide to build up in tumour cells and is linked to reactive oxygen species leading to apoptosis or necrosis, and that it accumulates preferentially in fatty tissue such as the breast.[19] A review calls it a pleiotropic molecule with hormetic behaviour that was first proposed for anticancer therapy because of limited toxicity and later repositioned toward neurological disease.[10]",
+      "It also lowers circulating retinol-binding protein 4 (RBP4), a protein made by fat cells whose levels are higher in obese and diabetic people and in insulin-resistant mice. In a 2005 Nature paper, fenretinide increased urinary excretion of RBP4 and, in obese mice on a high-fat diet, normalised serum RBP4 and improved insulin resistance and glucose intolerance.[11] It has been studied in the retinal visual cycle, where reviews of Stargardt disease list it with other agents that modulate that cycle.[2]"
      ]
     }
    ]
@@ -69,19 +93,22 @@
   {
    "h": "Adverse effects",
    "paras": [
-    "Because it interacts with vitamin A transport and retinal pathways, eye effects have been studied. An electroretinogram study of 24 women treated for a median of 30.5 months compared them with 18 untreated controls in a phase III trial [4], and reviews list retinal toxicities among systemic anticancer drug effects [3]."
+    "Because it interacts with vitamin A transport and retinal pathways, eye effects have been studied. A phase III electroretinogram study compared 24 women treated for a median of 30.5 months with 18 untreated controls; at the 200 mg/day trial regimen it found subtle alterations of retinal function, mainly a change in b-wave timing after cone stimulation, which the authors said pointed to an effect on photoreceptor sensitivity.[4] Reviews list retinal toxicities among systemic anticancer drug effects.[3] Wikipedia reports skin dryness and night blindness that is reversible on stopping treatment.[19]",
+    "In a phase II leukoplakia trial of a much higher-dose regimen, the drug was described as well tolerated, with one grade 3 adverse event (diarrhoea) among 15 participants.[7]"
    ]
   },
   {
    "h": "Society and culture",
    "paras": [
-    "Fenretinide is a research compound and is not sold as a consumer skin product. It is occasionally raised in appearance communities as a retinoid with possible relevance to skin, fat and insulin sensitivity, though discussion is limited."
+    "Fenretinide is a research compound and is not sold as a consumer skin product."
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "Human trials have studied fenretinide in breast cancer prevention, oral leukoplakia, ovarian cancer occurrence, head and neck cancer, neuroblastoma and other solid tumours, lymphoma, and geographic atrophy in dry age-related macular degeneration [12][5][6][7][8][13][15][18]. A phase 1 study in healthy volunteers and a phase 1 trial of a nanoparticle formulation in small cell lung cancer are registered [17][16]. No trial has tested fenretinide for skin appearance."
+    "The best-known trial was a randomised phase III study of 2,972 women aged 30 to 70 who had surgically treated stage I breast cancer or ductal carcinoma in situ and received oral fenretinide for five years or no treatment. With median observation of 97 months, there was no statistically significant difference overall in contralateral or ipsilateral breast cancer. In premenopausal women the adjusted hazard ratio for ipsilateral cancer was 0.65 (95% CI 0.46 to 0.92), while in postmenopausal women it ran in the opposite direction (1.19); the treatment-by-menopausal-status interaction was significant, and the authors called the subgroup analyses exploratory.[12]",
+    "A phase II trial in 15 people with retinoid-resistant oral leukoplakia tested a high-dose regimen and was closed early at an interim futility analysis: 3 of 15 (20%) had a partial response, which did not improve on the 34% response seen with a lower-dose regimen in the investigators' earlier study.[7] Earlier controlled trials in breast cancer, basal cell carcinoma and oral leukoplakia were reviewed in 1995,[8] and a randomised trial examined ovarian carcinoma occurrence.[6]",
+    "Registered studies cover head and neck cancer (11 participants), solid tumours in children and adults including high-risk neuroblastoma [13], small cell lung cancer, haematologic cancers, hormone-refractory prostate cancer, and geographic atrophy in dry age-related macular degeneration (245 participants).[15][16][17][18] A phase 1 study in healthy volunteers (25 participants) and a nanoparticle formulation trial in small cell lung cancer (44 participants) are registered.[17][16] No trial has tested fenretinide for skin appearance."
    ]
   },
   {
@@ -254,22 +281,24 @@
    "source": "ClinicalTrials.gov",
    "year": 2016,
    "type": "trial"
+  },
+  {
+   "id": 19,
+   "title": "Fenretinide (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Fenretinide",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
   }
  ],
- "webSources": [],
- "card": {
-  "summary": "A synthetic vitamin A derivative studied for cancer prevention and eye disease, mentioned as a retinoid relative of skin-care retinoids.",
-  "aka": "4-HPR, N-(4-hydroxyphenyl)retinamide",
-  "evidence": "limited",
-  "status": "research",
-  "risk": "high",
-  "price": null,
-  "note": "Investigational; no skin or cosmetic trials.",
-  "structure": "Fenretinide"
- },
- "quick": {
-  "overview": "Fenretinide is a synthetic retinoid that has been tested in cancer prevention, cancer treatment and retinal disease.\n\nIt is chemically related to the retinoids used for skin, which is why it comes up in appearance discussions, but published work does not cover skin appearance.",
-  "mechanism": "Laboratory research describes effects on ceramide and sphingolipid pathways and on retinol-binding protein 4, a vitamin A carrier linked to insulin resistance.",
-  "risks": "It is investigational. Studies have looked at effects on retinal function, and it is not sold as a consumer skin product."
- }
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Fenretinide",
+   "title": "Fenretinide (Wikipedia)"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10547391/",
+   "title": "Randomized trial of fenretinide to prevent second breast malignancy"
+  }
+ ]
 }

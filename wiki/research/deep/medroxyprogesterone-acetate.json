@@ -1,9 +1,24 @@
 {
  "name": "Medroxyprogesterone acetate",
+ "card": {
+  "summary": "A prescription progestin (Depo-Provera) with only peripheral appearance uses, such as feminizing therapy and hirsutism.",
+  "aka": "MPA, DMPA, Depo-Provera, Provera",
+  "evidence": "unproven",
+  "status": "rx",
+  "risk": null,
+  "price": null,
+  "note": "Boxed warning for bone density loss; WHI trials linked estrogen plus MPA to higher breast cancer and cardiovascular risks.",
+  "structure": "Medroxyprogesterone acetate"
+ },
+ "quick": {
+  "overview": "MPA is a synthetic progestin used for contraception, menopausal hormone therapy and gynecologic conditions.\n\nIts appearance relevance is limited to feminizing hormone regimens and reports of effects on hair growth.",
+  "mechanism": "It activates progesterone, androgen and glucocorticoid receptors and suppresses GnRH, reducing ovulation and sex hormone levels.",
+  "risks": "Bone density loss, blood clots, menstrual disruption and meningioma have been reported. It is prescription-only."
+ },
  "lead": [
-  "Medroxyprogesterone acetate (MPA) is a synthetic progestin sold as Depo-Provera (injectable contraceptive, DMPA) and Provera (oral). It was discovered in 1956 and introduced for medical use in the US in 1959.[1][2]",
-  "Its main uses are contraception, menopausal hormone therapy and gynecologic disorders. Appearance-related uses are limited: it is prescribed in feminizing hormone therapy for transgender women, and high-dose DMPA has been reported to treat hirsutism, while decreased scalp hair is a listed side effect.[2]",
-  "The injectable label carries a boxed warning for loss of bone mineral density.[3] Large trials of estrogen plus MPA in postmenopausal women found increased risks of breast cancer, coronary disease and stroke.[4][5][6]"
+  "Medroxyprogesterone acetate (MPA) is a synthetic progestin sold as Depo-Provera (the injectable contraceptive, DMPA), Depo-SubQ Provera 104 and oral Provera. It was discovered in 1956 and introduced for medical use in the US in 1959; DMPA was first used for contraception outside the US from 1969 and was approved by the FDA for contraception in 1992.[1][2]",
+  "Its appearance-related uses sit at the edges of its main purposes. It is prescribed in some feminizing hormone regimens for transgender women because of its progestogenic and functional antiandrogenic effects, where the aim is lower androgen action and a more feminine body and skin. At high doses it has also been used for hirsutism, the excess facial and body hair that some women seek to reduce, while acne and decreased scalp hair appear among its reported side effects.[2]",
+  "The injectable label carries a boxed warning for loss of bone mineral density.[3] Large trials of estrogen plus MPA in postmenopausal women found increased risks of breast cancer, coronary disease and stroke.[4][5][6] Long-term DMPA use has more recently been associated with meningioma, and is the subject of ongoing litigation.[2] MPA is on the WHO Essential Medicines List and is prescription-only in the US, Canada and Australia.[2]"
  ],
  "infobox": [
   [
@@ -15,66 +30,153 @@
    "Oral; intramuscular; subcutaneous"
   ],
   [
+   "Discovered",
+   "1956 (Syntex and Upjohn)"
+  ],
+  [
    "Introduced",
-   "1959 (US)"
+   "1959 (US, as Provera)"
+  ],
+  [
+   "Contraceptive approval",
+   "US FDA, 1992"
   ],
   [
    "Brand names",
-   "Depo-Provera, Provera, Depo-SubQ Provera 104"
+   "Depo-Provera, Provera, Depo-SubQ Provera 104, Sayana, Farlutal"
+  ],
+  [
+   "Half-life",
+   "Oral 12-33 hours; intramuscular about 50 days; subcutaneous about 40 days"
   ],
   [
    "Legal status",
-   "Prescription-only"
+   "Prescription-only (US, Canada, Australia)"
   ]
  ],
  "sections": [
   {
    "h": "Medical uses",
    "paras": [
-    "MPA is used for contraception, menopausal hormone therapy with estrogen, and for dysmenorrhea, amenorrhea, abnormal uterine bleeding and endometriosis. Other uses include appetite stimulation in cancer patients and treatment of some hormone-dependent cancers.[2]"
+    "MPA is used for contraception, menopausal hormone therapy with estrogen, and for dysmenorrhea, amenorrhea, abnormal uterine bleeding and endometriosis. Other uses include appetite stimulation in cancer patients, high-dose treatment of some hormone-dependent cancers, and, in some US states, court-authorized reduction of testosterone in sex offenders.[2] DMPA is registered for contraception in more than 100 countries, and in 2023 it was the 257th most commonly prescribed US medication, with more than 1 million prescriptions.[2]"
+   ],
+   "subs": [
+    {
+     "h": "Contraception",
+     "paras": [
+      "DMPA is a long-acting injection given about every 12 weeks, and works mainly by preventing ovulation. Wikipedia reports first-year failure rates of about 0.2 to 0.3% with perfect use and about 3% with typical use.[2] Advantages listed include no estrogen content, few drug interactions and a roughly 80% lower endometrial cancer risk.[2] Trials have studied a subcutaneous version and self-administration.[9][10]"
+     ]
+    },
+    {
+     "h": "Menopausal hormone therapy",
+     "paras": [
+      "Combined with estrogen, MPA's role is to protect the uterine lining from the effect of estrogen alone.[2][4] This is the regimen studied in the Women's Health Initiative trial.[4]"
+     ]
+    }
    ]
   },
   {
    "h": "Appearance-related uses",
    "paras": [
-    "MPA is included in some feminizing regimens because of its progestogenic and antiandrogenic effects.[2] High-dose DMPA has been reported to help hirsutism, and acne and reduced scalp hair appear among reported side effects.[2]"
+    "MPA is included in some feminizing regimens because of its progestogenic and antiandrogenic effects.[2] Wikipedia notes that, although MPA can cause androgenic effects such as acne and hirsutism in some women, it is generally effective at improving existing hirsutism, likely because it suppresses androgen levels.[2] Scalp hair thinning and acne appear among its reported side effects.[2]"
+   ]
+  },
+  {
+   "h": "Role in feminizing hormone therapy",
+   "paras": [
+    "In feminizing regimens for transgender women, MPA is prescribed for its progestogenic effects and its functional antiandrogenic effect, meaning that it suppresses gonadotropin release and so lowers the body's own testosterone production.[2] People who take it for this purpose are usually aiming at feminizing changes to body and skin; Wikipedia presents its place in such regimens as one among several options, used in combination with estrogens, and does not name a single standard.[2]",
+    "Wikipedia also notes that MPA itself activates the androgen receptor, with potency comparable to dihydrotestosterone in laboratory assays, and activates the glucocorticoid receptor more weakly. This is one reason clinicians describe its hormonal profile as different from that of other progestogens.[2]"
    ]
   },
   {
    "h": "Adverse effects",
    "paras": [
-    "Common effects include menstrual changes, breast tenderness, headache and weight change.[2] The label warns of bone density loss that may not be fully reversible.[3] Some studies link DMPA to higher venous thromboembolism risk, and long-term use has been associated with meningioma.[2]"
+    "Common effects include menstrual changes (amenorrhea affects about 55% of users after one year and 68% after two), breast tenderness, headache, acne and weight change.[2] Fertility may take around 9 to 10 months to return after the last injection.[2]",
+    "The label warns of bone density loss that may not be fully reversible.[3] Wikipedia reports that the FDA added a boxed warning on 17 November 2004, that ACOG (2008) advised bone concerns should not by themselves stop use, and that most women regain bone density after stopping.[2] Some studies link DMPA to a 2.2- to 3.6-fold higher venous thromboembolism risk, and a 2018 meta-analysis found MPA carried 2.8 times the risk of other progestins.[2]",
+    "A 2024 French study in The BMJ, as summarised by Wikipedia, linked use longer than one year to a 5.6-fold increased risk of meningioma requiring surgery.[2] Wikipedia also reports a slightly increased breast cancer risk in recent users under 35, and a 2018 review that found no association with depression.[2]"
+   ]
+  },
+  {
+   "h": "Bone density, mood and weight",
+   "paras": [
+    "Wikipedia reports that use can reduce bone density in premenopausal women and in men who are not also taking estrogen, particularly at high doses, that the loss appears largely reversible after stopping, and that the FDA added a boxed warning in 2004.[2][3]",
+    "On mood, the same article says most research finds no clear link between MPA and depression, while labeling still advises monitoring; findings on weight gain with DMPA are described as inconsistent.[2]"
    ]
   },
   {
    "h": "Pharmacology",
    "paras": [
-    "MPA activates progesterone, androgen and glucocorticoid receptors, lowers GnRH pulses and suppresses ovulation.[2] Half-life is about 50 days after intramuscular injection.[2]"
+    "MPA is a potent full agonist at the progesterone receptor and also activates the androgen and glucocorticoid receptors, with negligible estrogen receptor affinity. It lowers GnRH pulses and suppresses ovulation.[2] Oral bioavailability is about 100%, protein binding about 88%, and metabolism is mainly hepatic via CYP3A4.[2] Half-life is about 50 days after intramuscular injection and about 40 days after subcutaneous injection.[2]",
+    "Wikipedia reports that MPA lowers testosterone in a dose-dependent way, with a single long-acting injection able to bring levels into the castrate range within days, which underlies its use as an antiandrogen.[2] The subcutaneous product contains about 69% of the MPA in the intramuscular formulation.[2]"
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "MPA was discovered in 1956 by Syntex and Upjohn. Upjohn introduced it in the US on 18 June 1959 as Provera for amenorrhea, metrorrhagia and recurrent miscarriage, and the injectable Depo-Provera followed in 1960 for endometrial and renal cancer.[2] DMPA was first trialled as a contraceptive in 1963, the FDA declined approval in 1967, 1978 and 1983, and it was available in more than 90 countries by 1992, when the FDA approved it on 29 October.[2] Depo-SubQ Provera 104 followed in December 2004.[2]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "MPA is sold under brand names including Depo-Provera, Provera, Depo-SubQ Provera 104, Farlutal, Sayana and Perlutex, as well as combination products with estrogens such as Prempro.[2] Past controversies described by Wikipedia include U.S. approval disputes, consent concerns in developing countries and an Israeli controversy involving Ethiopian immigrants.[2]",
+    "Meningioma litigation is a current topic. Wikipedia reports that court filings indicate Pfizer became aware of the risk in 2023 and asked the FDA for a warning in 2024, that the label update was accepted in June 2025, and that a US class action covered more than 1,300 women at filing and more than 3,400 by April 2026.[2] The UK's MHRA updated patient guidance in 2024.[2]",
+    "In transgender health it is one of several progestins that some feminizing regimens have included, a use that clinicians and patients continue to discuss, particularly given the venous thromboembolism and meningioma findings above.[2]"
+   ]
+  },
+  {
+   "h": "Legal status",
+   "paras": [
+    "MPA is prescription-only in the US, Canada and Australia.[2] Seven US states (Alabama, California, Florida, Iowa, Louisiana, Montana and Wisconsin) authorize chemical castration of sex offenders before parole, with MPA the named agent in all but Wisconsin, though officials have said the authority is rarely used.[2]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "The Women's Health Initiative randomised trial of estrogen plus progestin (including MPA) found increased breast cancer, coronary heart disease and stroke risks,[4][5][6] and its memory substudy reported increased dementia incidence.[7] The HERS trial found no secondary prevention benefit for coronary disease.[8] No studies found of MPA for muscle, hair or facial aesthetics outside gynecologic and hormonal-care indications."
+    "The Women's Health Initiative randomised trial of estrogen plus progestin (including MPA) found increased breast cancer, coronary heart disease and stroke risks,[4][5][6] and its memory substudy reported increased dementia incidence.[7] Wikipedia reports a hazard ratio of 1.24 for breast cancer, 2.13 for pulmonary embolism and 1.31 for stroke, with fewer hip fractures and less colorectal cancer.[2] The HERS trial found no secondary prevention benefit for coronary disease.[8] Contraceptive trials have examined DMPA-SC efficacy and safety and its acceptability in Egypt.[9][11] A randomised trial compared ormeloxifene with MPA for abnormal uterine bleeding.[12] No studies found of MPA for muscle, hair or facial aesthetics outside gynecologic and hormonal-care indications."
    ]
   }
  ],
  "timeline": [
   {
    "year": "1956",
-   "event": "MPA discovered.[2]"
+   "event": "MPA discovered by Syntex and Upjohn.[2]"
   },
   {
    "year": "1959",
-   "event": "Introduced for medical use in the US.[2]"
+   "event": "Upjohn introduces Provera in the US.[2]"
+  },
+  {
+   "year": "1960",
+   "event": "Depo-Provera introduced in the US for endometrial and renal cancer.[2]"
+  },
+  {
+   "year": "1963",
+   "event": "DMPA first trialled as a contraceptive.[2]"
   },
   {
    "year": "1969",
-   "event": "DMPA first used for contraception.[2]"
+   "event": "DMPA sold outside the US for contraception.[2]"
+  },
+  {
+   "year": "1992",
+   "event": "FDA approves DMPA for contraception (29 October).[2]"
+  },
+  {
+   "year": "2002",
+   "event": "Women's Health Initiative estrogen-plus-progestin results published.[4]"
   },
   {
    "year": "2004",
-   "event": "FDA adds boxed warning on bone density loss.[2]"
+   "event": "FDA adds boxed bone-density warning; Depo-SubQ Provera 104 introduced.[2]"
+  },
+  {
+   "year": "2024",
+   "event": "BMJ study links prolonged use to meningioma; MHRA updates guidance.[2]"
+  },
+  {
+   "year": "2025",
+   "event": "Meningioma label update accepted in the US; class action filed.[2]"
   }
  ],
  "lore": null,
@@ -142,6 +244,38 @@
    "source": "JAMA",
    "year": 1998,
    "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Contraceptive efficacy and safety of DMPA-SC",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15451329/",
+   "source": "Contraception",
+   "year": 2004,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Study of Self or Clinic Administration of DepoProvera (NCT01019369)",
+   "url": "https://clinicaltrials.gov/study/NCT01019369",
+   "source": "ClinicalTrials.gov",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Acceptability of injectable contraceptives in Assiut, Egypt",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2975583/",
+   "source": "Contraception",
+   "year": 1988,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "Evaluation of the Safety and Efficacy of Ormeloxifene and Medroxyprogesterone Acetate in Women with Abnormal Uterine Bleeding",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36363460/",
+   "source": "Medicina",
+   "year": 2022,
+   "type": "trial"
   }
  ],
  "webSources": [
@@ -149,20 +283,5 @@
    "url": "https://en.wikipedia.org/wiki/Medroxyprogesterone_acetate",
    "title": "Medroxyprogesterone acetate - Wikipedia"
   }
- ],
- "card": {
-  "summary": "A prescription progestin (Depo-Provera) with only peripheral appearance uses, such as feminizing therapy and hirsutism.",
-  "aka": "MPA, DMPA, Depo-Provera, Provera",
-  "evidence": "unproven",
-  "status": "rx",
-  "risk": null,
-  "price": null,
-  "note": "Boxed warning for bone density loss; WHI trials linked estrogen plus MPA to higher breast cancer and cardiovascular risks.",
-  "structure": "Medroxyprogesterone acetate"
- },
- "quick": {
-  "overview": "MPA is a synthetic progestin used for contraception, menopausal hormone therapy and gynecologic conditions.\n\nIts appearance relevance is limited to feminizing hormone regimens and reports of effects on hair growth.",
-  "mechanism": "It activates progesterone, androgen and glucocorticoid receptors and suppresses GnRH, reducing ovulation and sex hormone levels.",
-  "risks": "Bone density loss, blood clots, menstrual disruption and meningioma have been reported. It is prescription-only."
- }
+ ]
 }

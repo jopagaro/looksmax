@@ -1,25 +1,430 @@
 {
-"name":"Epidermal growth factor (EGF)",
-"lead":["Epidermal growth factor (EGF) is a small protein of 53 amino acids that stimulates cell growth, differentiation and survival by binding the EGF receptor (EGFR) on cell surfaces [1]. It was the second growth factor to be identified; Stanley Cohen found it while working with Rita Levi-Montalcini, and the two shared the 1986 Nobel Prize in Physiology or Medicine [1].","In cosmetics, recombinant or synthetic EGF appears as an ingredient in some serums, where marketing describes it as supporting skin renewal and repair. In looksmaxxing and skincare discussion it is grouped with other growth-factor and peptide skincare ingredients.","Medically, a recombinant human EGF product (Heberprot-P) is used for diabetic foot ulcers, with evidence of improved healing described as tentative and safety described as poorly studied [1]. One small registered trial has examined an EGF facial serum for skin aging, with no published results found [2]."],
-"infobox":[["Type","Protein growth factor (EGF family)"],["Size","53 amino acids, about 6 kDa [1]"],["Discovered","Stanley Cohen (Nobel Prize 1986) [1]"],["Receptor","EGFR [1]"],["Medical product","Heberprot-P (diabetic foot ulcers) [1]"],["Cosmetic use","Ingredient in some serums"]],
-"sections":[
-{"h":"Biology","paras":["EGF binds EGFR with high affinity and induces receptor dimerization, activating the receptor's tyrosine kinase and starting a signaling cascade that ultimately drives DNA synthesis and cell proliferation [1]. It occurs in platelets, urine, saliva, milk, tears and plasma [1]. Salivary EGF is reported to help maintain the integrity of oral, esophageal and gastric tissue [1].","EGF is the founding member of a protein family that includes HB-EGF, TGF-alpha and amphiregulin [1]."]},
-{"h":"Medical uses","paras":["Recombinant human EGF sold as Heberprot-P can be injected into or applied to diabetic foot ulcers [1]. EGF is also used in research on bioengineered grafts and bone regeneration [1]."]},
-{"h":"Cosmetic use","paras":["Skincare products listing EGF are sold as serums. Proponents say topical EGF promotes skin renewal, hydration and fine-line reduction. Published evidence for these cosmetic outcomes is sparse."]},
-{"h":"Safety considerations","paras":["Because EGF signals through a pathway that promotes cell proliferation, researchers study the EGF pathway in cancer. Laboratory work has linked EGF to melanoma lymph node metastasis in a mouse model [3], and an EGF gene variant has been associated with esophageal adenocarcinoma risk [4]. These studies concern the biology of the pathway and not topical cosmetic products, and no study found has tested cancer risk from cosmetic EGF."]},
-{"h":"Clinical studies","paras":["A registered trial (NCT05724589) evaluated an EGF serum for facial skin hydration, elasticity, pigmentation and wrinkles in 28 participants and is listed as completed; no results were available in the registry entry reviewed [2]. Larger trials of the EGFR-blocking antibody panitumumab (ABX-EGF) were cancer treatment studies and do not concern cosmetic EGF [5]."]}
-],
-"timeline":[{"year":"1986","event":"Cohen and Levi-Montalcini share the Nobel Prize in Physiology or Medicine for growth factor discoveries including EGF. [1]"}],
-"lore":{"intro":"EGF is discussed mainly as a skincare serum ingredient alongside peptides and growth factors; little looksmaxxing forum material exists to document.","claims":[
-{"claim":"Topical EGF serums rejuvenate skin and reduce wrinkles","believers":"Marketers and some users say EGF signals skin cells to renew, improving texture, hydration and fine lines.","experts":"One small registered trial of an EGF serum exists with no published results found [2]; the Wikipedia article on EGF does not describe cosmetic evidence [1].","evidence":"untested"},
-{"claim":"EGF is a safe skincare ingredient because it is a natural protein","believers":"Users point to EGF occurring naturally in saliva and tears.","experts":"EGF signaling is a research focus in cancer biology [3][4], and safety of medical EGF treatment is described as poorly studied [1]; no published study found has tested cancer risk from cosmetic use.","evidence":"untested"}]},
-"refs":[
-{"id":1,"title":"Epidermal growth factor","url":"https://en.wikipedia.org/wiki/Epidermal_growth_factor","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":2,"title":"The Effectiveness of Epidermal Growth Factor Serum in Improve Facial Skin Hydration, Elasticity, Pigmentation, and Wrinkles (NCT05724589)","url":"https://clinicaltrials.gov/study/NCT05724589","source":"ClinicalTrials.gov","year":2023,"type":"trial"},
-{"id":3,"title":"Epidermal growth factor facilitates melanoma lymph node metastasis by influencing tumor lymphangiogenesis","url":"https://pubmed.ncbi.nlm.nih.gov/22951723/","source":"J Invest Dermatol","year":2013,"type":"study"},
-{"id":4,"title":"A functional EGF polymorphism, EGF serum levels, and esophageal adenocarcinoma risk and outcome","url":"https://pubmed.ncbi.nlm.nih.gov/18483390/","source":"Clin Cancer Res","year":2008,"type":"study"},
-{"id":5,"title":"ABX-EGF in Combination With Paclitaxel and Carboplatin for Advanced NSCLC (NCT00034346)","url":"https://clinicaltrials.gov/study/NCT00034346","source":"ClinicalTrials.gov","year":2002,"type":"trial"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Epidermal_growth_factor","title":"Epidermal growth factor"}],
-"card":{"summary":"A growth-factor protein sold in skincare serums; real biology, one tiny serum trial with no published results.","aka":null,"evidence":"unproven","status":"otc","risk":null,"note":"EGF signaling is studied in cancer biology; cosmetic safety is untested.","structure":null},
-"quick":{"overview":"Epidermal growth factor is a natural protein that tells cells to grow and divide. Its discoverers won a Nobel Prize, and it appears in some cosmetic serums.\n\nA recombinant form is used for diabetic foot ulcers. For skin appearance, only one small registered serum trial was found, with no published results.","mechanism":"EGF binds its receptor EGFR on cells, triggering signaling that drives proliferation and survival.","risks":"Safety of medical EGF is described as poorly studied, and EGF signaling is a research focus in cancers. No study found has tested cosmetic EGF for cancer risk."}
+ "name": "Epidermal growth factor (EGF)",
+ "card": {
+  "summary": "A growth-factor protein sold in skincare serums; real biology, one tiny serum trial with no published results.",
+  "aka": null,
+  "evidence": "unproven",
+  "status": "otc",
+  "risk": null,
+  "note": "EGF signaling is studied in cancer biology; cosmetic safety is untested.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Epidermal growth factor is a natural protein that tells cells to grow and divide. Its discoverers won a Nobel Prize, and it appears in some cosmetic serums.\n\nA recombinant form is used for diabetic foot ulcers. For skin appearance, only one small registered serum trial was found, with no published results.",
+  "mechanism": "EGF binds its receptor EGFR on cells, triggering signaling that drives proliferation and survival.",
+  "risks": "Safety of medical EGF is described as poorly studied, and EGF signaling is a research focus in cancers. No study found has tested cosmetic EGF for cancer risk."
+ },
+ "lead": [
+  "Epidermal growth factor (EGF) is a small protein of 53 amino acids that stimulates cell growth, differentiation and survival by binding the EGF receptor (EGFR) on cell surfaces.[1] It was the second growth factor to be identified; Stanley Cohen found it while working with Rita Levi-Montalcini, and the two shared the 1986 Nobel Prize in Physiology or Medicine.[1][6]",
+  "In cosmetics, recombinant or synthetic EGF appears as an ingredient in serums and in clinic treatments, where marketing describes it as supporting skin renewal and repair. People using these products are aiming for smoother, more even, better-hydrated skin and softer fine lines. The chain they describe is that EGF signals skin cells to divide and renew, which proponents say can improve texture over weeks. In looksmaxxing and skincare discussion it is grouped with other growth-factor and peptide ingredients, and is often paired with microneedling or similar procedures.[10]",
+  "Medically, a recombinant human EGF product (Heberprot-P) is used for diabetic foot ulcers, with evidence of improved healing described as tentative and safety as poorly studied.[1][9] For skin appearance, a 2023 systematic review of topical growth-factor preparations (of which EGF products are one group) reported modest investigator-rated improvements in texture and fine lines across 33 mostly small studies, and one registered trial has examined an EGF facial serum specifically.[2][8]"
+ ],
+ "angle": {
+  "goal": "Skin quality",
+  "chain": [
+   "Topical serum delivers EGF to the skin surface",
+   "EGF is described as signaling skin cells to divide and renew",
+   "Proponents expect smoother, more hydrated skin and softer fine lines"
+  ],
+  "effect": "claimed",
+  "text": "People apply EGF serums hoping to support skin renewal, which they associate with better texture, hydration and fewer fine lines. The medical use of EGF in wound healing is the basis for the idea that it could also support cosmetic repair. One small cosmetic trial is registered [2]."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Protein growth factor (EGF family)"
+  ],
+  [
+   "Size",
+   "53 amino acids, about 6 kDa; three disulfide bridges [1]"
+  ],
+  [
+   "Discovered",
+   "Stanley Cohen with Rita Levi-Montalcini; Nobel Prize 1986 [1][6]"
+  ],
+  [
+   "Former name (human)",
+   "Urogastrone [1]"
+  ],
+  [
+   "Receptor",
+   "EGFR [1]"
+  ],
+  [
+   "Found in",
+   "Platelets, urine, saliva, milk, tears, plasma [1]"
+  ],
+  [
+   "Medical product",
+   "Heberprot-P (diabetic foot ulcers) [1]"
+  ],
+  [
+   "Cosmetic use",
+   "Ingredient in some serums; plant-derived (barley) and recombinant forms are sold [11]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Biology",
+   "paras": [
+    "EGF binds EGFR with high affinity and induces receptor dimerization, activating the receptor's tyrosine kinase and starting a signaling cascade that raises intracellular calcium, increases glycolysis and protein synthesis, and ultimately drives DNA synthesis and cell proliferation.[1] It occurs in platelets, urine, saliva, milk, tears and plasma and is produced in the submandibular and parotid glands.[1] Salivary EGF is reported to help maintain the integrity of oral, esophageal and gastric tissue, including healing of ulcers and protection of the mucosa from acid, bile acids and enzymes.[1]",
+    "The human molecule has three disulfide bridges (Cys6-Cys20, Cys14-Cys31, Cys33-Cys42) that form the loops needed for high-affinity receptor binding.[1] EGF is the founding member of a protein family that includes HB-EGF, TGF-alpha, amphiregulin, epiregulin, epigen, betacellulin and neuregulins 1 to 4, all sharing a conserved cysteine-rich motif.[1] A 1990 review in the Journal of Biological Chemistry summarised its structure and receptor biology.[7]",
+    "Human EGF has several names in the literature, including epithelial growth factor and urogastrone, the name originally given to the human form because of its effect on gastric acid secretion.[1]"
+   ]
+  },
+  {
+   "h": "History",
+   "subs": [
+    {
+     "h": "Discovery",
+     "paras": [
+      "Stanley Cohen was born in Brooklyn in 1922, trained in chemistry, zoology and biochemistry, and moved to Washington University in St. Louis in 1952.[6] There he worked with Rita Levi-Montalcini on nerve growth factor. During that work he isolated a protein that accelerated incisor eruption and eyelid opening in newborn mice; it was later named epidermal growth factor.[1][6]",
+      "Early work also described a secreted peptide in mouse submaxillary glands and in human urine, and the human form was originally called urogastrone.[1] Cohen moved to Vanderbilt University School of Medicine in 1959 and retired in 1999.[6]",
+      "Cohen and Levi-Montalcini received the 1986 Nobel Prize in Physiology or Medicine for discoveries of growth factors, EGF among them.[1][6] Cohen also received the Lasker Award for Basic Medical Research and the US National Medal of Science in 1986, and died in 2020.[6]"
+     ]
+    },
+    {
+     "h": "From laboratory protein to skincare ingredient",
+     "paras": [
+      "Because EGF drives the proliferation of epithelial cells and has a role in wound repair, it became a candidate for wound-healing products and, later, for cosmetic use. Recombinant EGF is now used as a cosmetic ingredient. One widely discussed skincare serum from an Icelandic company lists EGF produced in transgenic barley, and the company has said its EGF is not human-derived.[11] A skincare writer reviewing that product in 2016 described it as a quick boost she did not use long-term, and noted that the question of safety circulates among skincare enthusiasts.[11]",
+      "Growth-factor ingredients have reached mainstream skincare coverage; a HuffPost article updated in 2023 describes growth factors as a youth-boosting skincare trend and quotes dermatologists on the claims.[10]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Medical uses",
+   "paras": [
+    "Recombinant human EGF sold as Heberprot-P can be injected into or applied to diabetic foot ulcers. Wikipedia reports tentative evidence of improved healing and, citing a 2015 Cochrane review, says safety has been poorly studied.[1] The Cochrane review analysed a heterogeneous group of trials assessing 11 growth factors for diabetic foot ulcers and noted that safety data were poorly reported and that adverse events may have been underestimated.[9]",
+    "EGF is also used in laboratory work on bioengineered grafts, where synthetic scaffolds are modified with it, and in bone-regeneration research, where EGF at low nanogram concentrations promoted osteogenic differentiation of dental pulp stem cells in culture.[1]"
+   ]
+  },
+  {
+   "h": "Cosmetic use",
+   "subs": [
+    {
+     "h": "How products are used",
+     "paras": [
+      "EGF appears in serums, often alongside other peptides and growth factors, and in clinic-applied treatments that combine EGF-containing solutions with microneedling, microinfusion or similar methods meant to help the protein reach the skin. Proponents say topical EGF promotes skin renewal, hydration and fine-line reduction, drawing on its role in wound repair.[10] The target outcomes are skin texture, evenness, hydration and softer fine lines, usually discussed over weeks to months of regular use."
+     ]
+    },
+    {
+     "h": "Delivery",
+     "paras": [
+      "EGF is a protein of about 6 kDa.[1] Skincare discussion often raises whether a protein of this size reaches deeper skin layers from a simple serum, which is why delivery-assisting procedures such as microneedling are discussed alongside the ingredient; the topic has not been settled by the studies reviewed here.[10]"
+     ]
+    },
+    {
+     "h": "Dermatologist views",
+     "paras": [
+      "Dermatologists quoted in a 2023 HuffPost feature describe growth factors as signalling proteins that can reduce fine lines and improve texture. One calls the effects on collagen, elasticity and wrinkles good but still modest, and notes that no standardized protocols or guidelines exist for topical growth factors.[10] Another says there are no studies supporting the hypothesis that growth factors cause skin cancer, while a third notes controversy in the dermatology community about excess cell growth and cautions that the FDA mostly regulates skincare as cosmetics, so the term can be used without prior approval.[10]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Safety considerations",
+   "paras": [
+    "Because EGF signals through a pathway that promotes cell proliferation, researchers study the EGF pathway in cancer. Laboratory work has linked EGF to melanoma lymph node metastasis in a mouse model,[3] and an EGF gene variant (A61G) has been associated with esophageal adenocarcinoma risk.[4] These studies concern the biology of the pathway and not topical cosmetic products, and no study found has tested cancer risk from cosmetic EGF.",
+    "Drugs that block EGFR are an established class of cancer treatment, which is the setting for most clinical research that mentions EGF or its receptor.[5]",
+    "Brands and commentators take different positions. A manufacturer quoted by a skincare writer argues that EGF will not turn normal cells into cancer cells, while the same writer suggests that people with a melanoma history use their own judgment and regards human-derived EGF as best avoided.[11]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A 2023 systematic review in the Journal of Cosmetic Dermatology covered prospective studies from 2000 to October 2022 of topical growth-factor preparations for facial rejuvenation. It included 33 studies (9 randomized controlled trials and 24 uncontrolled case series) with 1,180 participants using 23 different preparations. Investigators reported modest improvements in skin texture, fine lines and wrinkles and overall appearance versus baseline, participants rated their improvement higher than investigators did, and adverse events were low-risk. The authors noted large variation in growth-factor sources and outcome measures and that durability beyond 6 months is unknown. This review spans all growth factors, not EGF alone.[8]",
+    "A registered trial (NCT05724589) evaluated an EGF serum for facial skin hydration, elasticity, pigmentation and wrinkles in 28 participants, started in January 2023 and listed as completed; no results were available in the registry entry reviewed.[2] Larger trials of the EGFR-blocking antibody panitumumab (ABX-EGF) were cancer treatment studies and do not concern cosmetic EGF.[5]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1922",
+   "event": "Stanley Cohen is born in Brooklyn, New York.[6]"
+  },
+  {
+   "year": "1952",
+   "event": "Cohen joins Washington University in St. Louis, where he later works with Levi-Montalcini on growth factors.[6]"
+  },
+  {
+   "year": "1959",
+   "event": "Cohen moves to Vanderbilt University School of Medicine.[6]"
+  },
+  {
+   "year": "1986",
+   "event": "Cohen and Levi-Montalcini share the Nobel Prize in Physiology or Medicine for growth factor discoveries including EGF.[1][6]"
+  },
+  {
+   "year": "1990",
+   "event": "A review in the Journal of Biological Chemistry summarises EGF structure and receptor biology.[7]"
+  },
+  {
+   "year": "2008",
+   "event": "A functional EGF polymorphism (A61G) is reported to be associated with esophageal adenocarcinoma risk and outcome.[4]"
+  },
+  {
+   "year": "2013",
+   "event": "A mouse study reports EGF facilitating melanoma lymph node metastasis.[3]"
+  },
+  {
+   "year": "2015",
+   "event": "Cochrane review of growth factors for diabetic foot ulcers reports tentative healing benefit and poorly reported safety.[9][1]"
+  },
+  {
+   "year": "2016",
+   "event": "A skincare writer reviews a barley-derived EGF serum and relays the manufacturer's safety position.[11]"
+  },
+  {
+   "year": "2023",
+   "event": "A systematic review of 33 studies reports modest improvements from topical growth-factor preparations; a registered EGF serum trial (n=28) begins.[8][2]"
+  }
+ ],
+ "lore": {
+  "intro": "EGF is discussed mainly as a skincare serum ingredient alongside peptides and growth factors in skincare communities and media; little looksmaxxing forum material specific to EGF exists to document.",
+  "claims": [
+   {
+    "claim": "Topical EGF serums rejuvenate skin and reduce wrinkles",
+    "believers": "Marketers and some users say EGF signals skin cells to renew, improving texture, hydration and fine lines; dermatologists quoted in the press describe benefits for fine lines and the barrier.[10]",
+    "experts": "A 2023 systematic review of topical growth-factor products found modest investigator-rated improvements in small, varied studies, and one registered EGF serum trial has no published results.[8][2] A dermatologist quoted by HuffPost calls the effects good but modest.[10]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "EGF is a safe skincare ingredient because it is a natural protein",
+    "believers": "Users point to EGF occurring naturally in saliva and tears, and one manufacturer states that EGF will not turn normal cells into cancer cells.[11]",
+    "experts": "EGF signaling is a research focus in cancer biology,[3][4] and safety of medical EGF treatment is described as poorly studied;[1][9] no published study found has tested cancer risk from cosmetic use, and one dermatologist says no studies support a skin-cancer link.[10]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Plant-derived (barley) EGF is safer than human-derived EGF",
+    "believers": "A skincare writer says she regards human-derived EGF as best avoided and notes that one brand's EGF is barley-derived.[11]",
+    "experts": "No comparative safety studies of plant-derived and human-derived EGF in skincare were found.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "A topical EGF serum can deliver the protein into the skin",
+    "believers": "Brands describe serums and microinfusion treatments as bringing EGF to skin cells.[11]",
+    "experts": "No study reviewed here has measured how much topical EGF reaches deeper skin layers, and dermatologists quoted in the press describe growth-factor protocols as unstandardized.[10]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "EGF helps skin heal and recover after procedures",
+    "believers": "Users who pair EGF with microneedling or resurfacing describe faster recovery, drawing on EGF's wound-repair biology.",
+    "experts": "Medical evidence for recombinant EGF is strongest in wound settings such as diabetic foot ulcers, where evidence is described as tentative.[1][9]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Epidermal growth factor",
+   "url": "https://en.wikipedia.org/wiki/Epidermal_growth_factor",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "The Effectiveness of Epidermal Growth Factor Serum in Improve Facial Skin Hydration, Elasticity, Pigmentation, and Wrinkles (NCT05724589)",
+   "url": "https://clinicaltrials.gov/study/NCT05724589",
+   "source": "ClinicalTrials.gov",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 3,
+   "title": "Epidermal growth factor facilitates melanoma lymph node metastasis by influencing tumor lymphangiogenesis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22951723/",
+   "source": "J Invest Dermatol",
+   "year": 2013,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "A functional EGF polymorphism, EGF serum levels, and esophageal adenocarcinoma risk and outcome",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18483390/",
+   "source": "Clin Cancer Res",
+   "year": 2008,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "ABX-EGF in Combination With Paclitaxel and Carboplatin for Advanced NSCLC (NCT00034346)",
+   "url": "https://clinicaltrials.gov/study/NCT00034346",
+   "source": "ClinicalTrials.gov",
+   "year": 2002,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Stanley Cohen (biochemist)",
+   "url": "https://en.wikipedia.org/wiki/Stanley_Cohen_(biochemist)",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 7,
+   "title": "Epidermal growth factor",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2186024/",
+   "source": "J Biol Chem",
+   "year": 1990,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "Topical growth factor preparations for facial skin rejuvenation: A systematic review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37222303/",
+   "source": "Journal of Cosmetic Dermatology",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "Growth factors for treating diabetic foot ulcers (Cochrane review)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26509249/",
+   "source": "Cochrane Database of Systematic Reviews",
+   "year": 2015,
+   "type": "review"
+  },
+  {
+   "id": 10,
+   "title": "Growth Factor Is The Latest 'It' Term In Youth-Boosting Skin Care. But What Is It?",
+   "url": "https://sg.news.yahoo.com/growth-factor-latest-term-youth-094508684.html",
+   "source": "HuffPost via Yahoo News",
+   "year": 2023,
+   "type": "news"
+  },
+  {
+   "id": 11,
+   "title": "BioEffect EGF serum",
+   "url": "https://www.carolinehirons.com/blogs/caroline-hirons/bioeffect-egf-serum",
+   "source": "Caroline Hirons",
+   "year": 2016,
+   "type": "news"
+  },
+  {
+   "id": 8,
+   "title": "Topical growth factor preparations for facial skin rejuvenation: A systematic review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37222303/",
+   "source": "Journal of Cosmetic Dermatology",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "Growth factors for treating diabetic foot ulcers (Cochrane review)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26509249/",
+   "source": "Cochrane Database of Systematic Reviews",
+   "year": 2015,
+   "type": "review"
+  },
+  {
+   "id": 10,
+   "title": "Growth Factor Is The Latest 'It' Term In Youth-Boosting Skin Care. But What Is It?",
+   "url": "https://sg.news.yahoo.com/growth-factor-latest-term-youth-094508684.html",
+   "source": "HuffPost via Yahoo News",
+   "year": 2023,
+   "type": "news"
+  },
+  {
+   "id": 11,
+   "title": "BioEffect EGF serum",
+   "url": "https://www.carolinehirons.com/blogs/caroline-hirons/bioeffect-egf-serum",
+   "source": "Caroline Hirons",
+   "year": 2016,
+   "type": "news"
+  },
+  {
+   "id": 8,
+   "title": "Topical growth factor preparations for facial skin rejuvenation: A systematic review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37222303/",
+   "source": "Journal of Cosmetic Dermatology",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "Growth factors for treating diabetic foot ulcers (Cochrane review)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26509249/",
+   "source": "Cochrane Database of Systematic Reviews",
+   "year": 2015,
+   "type": "review"
+  },
+  {
+   "id": 10,
+   "title": "Growth Factor Is The Latest 'It' Term In Youth-Boosting Skin Care. But What Is It?",
+   "url": "https://sg.news.yahoo.com/growth-factor-latest-term-youth-094508684.html",
+   "source": "HuffPost via Yahoo News",
+   "year": 2023,
+   "type": "news"
+  },
+  {
+   "id": 11,
+   "title": "BioEffect EGF serum",
+   "url": "https://www.carolinehirons.com/blogs/caroline-hirons/bioeffect-egf-serum",
+   "source": "Caroline Hirons",
+   "year": 2016,
+   "type": "news"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Epidermal_growth_factor",
+   "title": "Epidermal growth factor"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Stanley_Cohen_(biochemist)",
+   "title": "Stanley Cohen (biochemist)"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37222303/",
+   "title": "Topical growth factor preparations for facial skin rejuvenation: A systematic review"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26509249/",
+   "title": "Growth factors for treating diabetic foot ulcers"
+  },
+  {
+   "url": "https://sg.news.yahoo.com/growth-factor-latest-term-youth-094508684.html",
+   "title": "Growth Factor Is The Latest 'It' Term"
+  },
+  {
+   "url": "https://www.carolinehirons.com/blogs/caroline-hirons/bioeffect-egf-serum",
+   "title": "BioEffect EGF serum"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37222303/",
+   "title": "Topical growth factor preparations for facial skin rejuvenation: A systematic review"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26509249/",
+   "title": "Growth factors for treating diabetic foot ulcers"
+  },
+  {
+   "url": "https://sg.news.yahoo.com/growth-factor-latest-term-youth-094508684.html",
+   "title": "Growth Factor Is The Latest 'It' Term"
+  },
+  {
+   "url": "https://www.carolinehirons.com/blogs/caroline-hirons/bioeffect-egf-serum",
+   "title": "BioEffect EGF serum"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37222303/",
+   "title": "Topical growth factor preparations for facial skin rejuvenation: A systematic review"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26509249/",
+   "title": "Growth factors for treating diabetic foot ulcers"
+  },
+  {
+   "url": "https://sg.news.yahoo.com/growth-factor-latest-term-youth-094508684.html",
+   "title": "Growth Factor Is The Latest 'It' Term"
+  },
+  {
+   "url": "https://www.carolinehirons.com/blogs/caroline-hirons/bioeffect-egf-serum",
+   "title": "BioEffect EGF serum"
+  }
+ ]
 }

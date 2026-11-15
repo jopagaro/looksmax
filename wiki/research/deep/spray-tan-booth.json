@@ -1,89 +1,380 @@
 {
-  "name": "Spray-tan booth",
-  "lead": [
-    "A spray-tan booth is an enclosed, automated cabin in which a fine mist of a sunless tanning solution is sprayed over the body. The active ingredient is dihydroxyacetone (DHA), a colourless sugar that reacts with amino acids in the dead outer layer of skin to produce a temporary brown colour. Professionals can also apply the solution by hand with an airbrush. [1]",
-    "The colour fades over roughly 3 to 10 days as the outer skin sheds, and it does not involve ultraviolet exposure, which is why sunless tanning is often presented as an alternative to sunbeds. [1] The US Food and Drug Administration has approved DHA for external use but not for use around the eyes or lips, on mucous membranes, or by inhalation, and Wikipedia notes that all-over booth spraying can make that exposure hard to avoid. [1]",
-    "Laboratory and animal studies have reported cell damage and lung effects after DHA exposure. No human trials of booth-related inhalation outcomes were found. [2][3][4]"
+ "name": "Spray-tan booth",
+ "card": {
+  "summary": "Automated booth that mists DHA for a UV-free tan; the colour is reliable, but inhalation safety is unstudied in humans.",
+  "aka": "Sunless tanning booth, spray tan",
+  "evidence": "limited",
+  "outcome": "temporary",
+  "price": null,
+  "note": "FDA approves DHA for external use only, not inhalation; cell and mouse studies report harm at tested doses.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "A spray-tan booth coats the body in a mist of dihydroxyacetone (DHA), which turns the outer skin layer brown without UV light. The colour fades over about 5 to 10 days.\n\nThe tanning effect itself is well described. What has not been tested in people is the effect of breathing the mist.",
+  "mechanism": "DHA reacts with amino acids in dead surface skin cells in a Maillard-type browning reaction. The colour fades as those cells shed.",
+  "risks": "The FDA has approved DHA for external use only, not for the eyes, lips, mucous membranes or inhalation, and booth spraying can make that exposure difficult to avoid. Cell and mouse studies report DNA damage, cell stress and lung inflammation; no human trials of booth inhalation were found. Contact dermatitis has been reported."
+ },
+ "lead": [
+  "A spray-tan booth is an enclosed, automated cabin in which a fine mist of sunless tanning solution is sprayed over the body. People use it to get a bronzed, even-looking tan without UV exposure, for a deeper-looking complexion, to make the body look leaner and more defined under lights and in photos, or as an alternative to sunbeds. The active ingredient is dihydroxyacetone (DHA), a colourless sugar that reacts with amino acids in the dead outer layer of skin to produce a temporary brown colour. Professionals can also apply the solution by hand with an airbrush. [1][14]",
+  "The colour appears within hours, deepens over a day or two and fades over roughly 3 to 10 days as the outer skin sheds. It does not involve ultraviolet exposure, which is why sunless tanning is promoted as an alternative to sun and sunbed tanning, both linked to skin cancer risk. [1][14][15] The US Food and Drug Administration has approved DHA for external use but not for use around the eyes or lips, on mucous membranes, or by inhalation, and Wikipedia notes that all-over booth spraying can make that exposure hard to avoid. [1]",
+  "Laboratory and animal studies have reported cell damage and lung effects after DHA exposure. No human trials of booth-related inhalation outcomes were found. [2][3][4] Spray tanning is also a staple of physique competition, where contest tans darken the skin under stage lighting, a use that surfaces in bodybuilding forum chatter. [18][19]"
+ ],
+ "angle": {
+  "goal": "Skin tone and physique definition",
+  "chain": [
+   "DHA mist reacts with the skin's dead outer layer",
+   "A temporary bronze tone develops over hours and lasts several days",
+   "Skin looks tanned and the body can read as more defined, without UV exposure"
   ],
-  "infobox": [
-    ["Type", "Automated sunless-tanning booth (DHA mist)"],
-    ["Active ingredient", "Dihydroxyacetone, typically around 3 to 5 percent in products [1]"],
-    ["Duration of colour", "About 5 to 10 days for a spray tan [1]"],
-    ["US regulation of DHA", "Approved for external use; not for eyes, lips, mucous membranes or inhalation [1]"],
-    ["First commercial DHA tanners", "Man-Tan, 1959; Coppertone QT, 1960 [1]"]
+  "effect": "direct",
+  "text": "A booth coats the whole body with DHA solution for an even tan that develops in hours and fades over about a week. People use it for a bronzed complexion, for photos and events, and in bodybuilding for a darker tone that makes muscle shape read under stage lights."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Automated sunless-tanning booth (DHA mist)"
   ],
-  "sections": [
-    {
-      "h": "Description and how it works",
-      "paras": [
-        "DHA is not a dye or paint. It reacts with amino acids in the skin's dead outer layer in a Maillard-type reaction, and erythrulose, sometimes combined with it, works similarly but develops more slowly. The colour lasts as long as the treated cells remain in the outer layer. [1] Booths deliver the solution as a mist in a shower-like enclosure, whereas other formats include hand airbrushing and home sprays and aerosols. [1]"
-      ]
-    },
-    {
-      "h": "History",
-      "paras": [
-        "Eva Wittgenstein at Cincinnati Children's Hospital observed in the 1950s that DHA stained skin brown. Man-Tan, the first commercial DHA self-tanner, appeared in 1959, followed by Coppertone's QT in 1960, and both produced orange-toned results that harmed the category's reputation. Reformulations and, from the late 1990s, automated spray booths broadened the market. [1]"
-      ]
-    },
-    {
-      "h": "Safety",
-      "paras": [
-        "According to the FDA position summarised by Wikipedia, inhalation and mucous-membrane exposure are the concern with booth application. The same article reports a toxicologist's concern that DHA deposited in the lungs could be absorbed into the bloodstream, a 2004 cell study finding DNA damage and apoptosis, and a 2007 study finding more free radicals in DHA-treated skin under sun exposure. It also reports a 2010 European Commission scientific committee opinion that DHA spray tanning posed no risk, which specialists criticised because industry supplied much of the evidence. [1]",
-        "Contact dermatitis from DHA or erythrulose has been reported, and some products contain fragrances or parabens. [1] Sunscreen in some tanning products may not give lasting protection, because avobenzone can degrade in UVA light. [1] A UK Health and Safety Executive study explored occupational health risks for beauty therapists who carry out spray tanning. [5]"
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found that tested spray-tan booths in human volunteers for health or appearance outcomes. Related laboratory and animal work includes cell studies in which DHA suppressed nutrient signalling and induced mitochondrial stress in liver cells, caused genotoxicity and chromosomal instability in lung, heart and liver cell models, and induced cell-cycle arrest and cell death in a melanoma cell line. [6][2][7][8] A 2025 mouse study reported lung inflammation and fibrosis after inhaled DHA. [3] These findings apply to cells and animals at the exposures tested, and their relevance to booth use has not been established in humans.",
-        "Survey research describes who uses sunless tanning. An analysis of US National Health Interview Survey data looked at spray tanning, self-applied lotion tanning and indoor UV tanning among non-Hispanic white women aged 18 to 49. [9] A cross-sectional study estimated indoor tanning prevalence among US adults. [10] An analysis of the 2016 ban on commercial solaria in Australia used search trends to assess consumer interest in indoor and spray tanning. [11] A New Zealand audit counted businesses offering sunbeds and spray tanning. [12]"
-      ]
-    },
-    {
-      "h": "Society and culture",
-      "paras": [
-        "Spray tanning is promoted as a way to get a tan without UV exposure, which dermatology and public health sources link to melanoma risk. A study of undergraduates on the US Gulf Coast examined intentional tanning behaviours in a population with elevated melanoma mortality. [13] Community discussion about booths was not available for this entry."
-      ]
-    }
+  [
+   "Active ingredient",
+   "Dihydroxyacetone, typically around 3 to 5 percent in consumer products and higher in professional ones [1][14]"
   ],
-  "timeline": [
-    {"year": "1950s", "event": "Eva Wittgenstein observes that DHA stains skin brown. [1]"},
-    {"year": "1959", "event": "Man-Tan, the first commercial DHA self-tanner, appears. [1]"},
-    {"year": "1960", "event": "Coppertone introduces QT. [1]"},
-    {"year": "Late 1990s", "event": "Automated spray booths broaden the market. [1]"},
-    {"year": "2010", "event": "A European Commission scientific committee opinion finds spray tanning with DHA poses no risk; specialists criticise the evidence base. [1]"}
+  [
+   "Colour onset",
+   "Appears after roughly 2 to 4 hours and darkens over 24 to 72 hours [14]"
   ],
-  "lore": null,
-  "refs": [
-    {"id": 1, "title": "Sunless tanning", "url": "https://en.wikipedia.org/wiki/Sunless_tanning", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"},
-    {"id": 2, "title": "Acute exposure to dihydroxyacetone promotes genotoxicity and chromosomal instability in lung, cardiac, and liver cell models", "url": "https://pubmed.ncbi.nlm.nih.gov/38867704/", "source": "Toxicological Sciences", "year": 2024, "type": "study"},
-    {"id": 3, "title": "Inhalation exposure to dihydroxyacetone promotes lung injury and pulmonary fibrosis in A/J mice", "url": "https://pubmed.ncbi.nlm.nih.gov/40612655/", "source": "Toxicology Reports", "year": 2025, "type": "study"},
-    {"id": 4, "title": "Dihydroxyacetone Exposure Alters NAD(P)H and Induces Mitochondrial Stress and Autophagy in HEK293T Cells", "url": "https://pubmed.ncbi.nlm.nih.gov/31328504/", "source": "Chemical Research in Toxicology", "year": 2019, "type": "study"},
-    {"id": 5, "title": "An exploratory study of occupational health risks for beauty therapists who carry out massage and spray tanning treatments", "url": "https://europepmc.org/article/CTX/C3392", "source": "Health and Safety Executive", "year": 2009, "type": "study"},
-    {"id": 6, "title": "Dihydroxyacetone suppresses mTOR nutrient signaling and induces mitochondrial stress in liver cells", "url": "https://pubmed.ncbi.nlm.nih.gov/36472985/", "source": "PLoS One", "year": 2022, "type": "study"},
-    {"id": 7, "title": "Dihydroxyacetone induces G2/M arrest and apoptotic cell death in A375P melanoma cells", "url": "https://pubmed.ncbi.nlm.nih.gov/29193605/", "source": "Environmental Toxicology", "year": 2018, "type": "study"},
-    {"id": 8, "title": "Dihydroxyacetone suppresses mTOR nutrient signaling (liver cells)", "url": "https://pubmed.ncbi.nlm.nih.gov/36472985/", "source": "PLoS One", "year": 2022, "type": "study"},
-    {"id": 9, "title": "Sunless and Indoor Tanning Among U.S. Non-Hispanic White Women Ages 18-49 Years", "url": "https://pubmed.ncbi.nlm.nih.gov/38463180/", "source": "Journal of the Dermatology Nurses' Association", "year": 2023, "type": "study"},
-    {"id": 10, "title": "Prevalence and characteristics of indoor tanning use among men and women in the United States", "url": "https://pubmed.ncbi.nlm.nih.gov/21173319/", "source": "Archives of Dermatology", "year": 2010, "type": "study"},
-    {"id": 11, "title": "Consequences of banning commercial solaria in 2016 in Australia", "url": "https://pubmed.ncbi.nlm.nih.gov/32471761/", "source": "Health Policy", "year": 2020, "type": "article"},
-    {"id": 12, "title": "'Out of the frying pan, but not into the fire': quantifying commercial cosmetic tanning services in New Zealand to inform endgame regulation", "url": "https://pubmed.ncbi.nlm.nih.gov/27906923/", "source": "New Zealand Medical Journal", "year": 2016, "type": "study"},
-    {"id": 13, "title": "Intentional tanning behaviors among undergraduates on the United States' Gulf Coast", "url": "https://pubmed.ncbi.nlm.nih.gov/29615031/", "source": "BMC Public Health", "year": 2018, "type": "study"}
+  [
+   "Duration of colour",
+   "About 5 to 10 days for a spray tan [1]"
   ],
-  "webSources": [
-    {"url": "https://en.wikipedia.org/wiki/Sunless_tanning", "title": "Sunless tanning - Wikipedia"}
+  [
+   "US regulation of DHA",
+   "Approved for external use; not for eyes, lips, mucous membranes or inhalation [1]"
   ],
-  "card": {
-    "summary": "Automated booth that mists DHA for a UV-free tan; the colour is reliable, but inhalation safety is unstudied in humans.",
-    "aka": "Sunless tanning booth, spray tan",
-    "evidence": "limited",
-    "outcome": "temporary",
-    "price": null,
-    "note": "FDA approves DHA for external use only, not inhalation; cell and mouse studies report harm at tested doses.",
-    "structure": null
+  [
+   "First commercial DHA tanners",
+   "Man-Tan, 1959; Coppertone QT, 1960 [1]"
+  ],
+  [
+   "Sun protection",
+   "DHA gives an SPF of about 3 and is not a substitute for sunscreen [14]"
+  ],
+  [
+   "Related methods",
+   "Hand airbrush, lotions, mousses, bronzers, oral carotenoids [1]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description and how it works",
+   "paras": [
+    "DHA is a simple three-carbon sugar. It is not a dye or paint. In a Maillard-type reaction it combines with amino acids in keratin in the skin's dead outer layer, forming brown pigments called melanoidins that resemble melanin in colour and wear off as dead cells shed. [1][14] Erythrulose, sometimes combined with DHA, works similarly but develops more slowly. [1] DHA solutions are stable in mildly acidic conditions and degrade to a brown product in more basic ones. [14]",
+    "Drugstore self-tanners typically contain about 3 to 5 percent DHA, and Wikipedia reports that professional products range from about 5 to 20 percent; the colour usually appears after 2 to 4 hours and darkens over one to three days, with the shade influenced by concentration and the person's skin. [1][14] Booths deliver the solution as a mist in a shower-like enclosure, whereas other formats include hand airbrushing, home sprays, mousses and lotions. [1]",
+    "Bronzers are a separate, temporary category of colourant: powders, sprays and lotions that wash off with soap and water, often used for one-day tans or alongside DHA. [1]"
+   ]
   },
-  "quick": {
-    "overview": "A spray-tan booth coats the body in a mist of dihydroxyacetone (DHA), which turns the outer skin layer brown without UV light. The colour fades over about 5 to 10 days.\n\nThe tanning effect itself is well described. What has not been tested in people is the effect of breathing the mist.",
-    "mechanism": "DHA reacts with amino acids in dead surface skin cells in a Maillard-type browning reaction. The colour fades as those cells shed.",
-    "risks": "The FDA has approved DHA for external use only, not for the eyes, lips, mucous membranes or inhalation, and booth spraying can make that exposure difficult to avoid. Cell and mouse studies report DNA damage, cell stress and lung inflammation; no human trials of booth inhalation were found. Contact dermatitis has been reported."
+  {
+   "h": "History",
+   "paras": [
+    "German scientists recognised DHA's skin-staining effect in the 1920s. In the 1950s Eva Wittgenstein at Cincinnati Children's Hospital observed that DHA stained skin brown while studying it as an oral treatment for children with glycogen storage disease. [1][14] Man-Tan, the first commercial DHA self-tanner, appeared in 1959, followed by Coppertone's QT in 1960, and both produced orange-toned results that harmed the category's reputation. Wikipedia states that the FDA added DHA to its approved cosmetic ingredient list in the 1970s. [1][14]",
+    "Reformulations and, from the late 1990s, automated spray booths broadened the market. [1] Over the same period commercial indoor UV tanning expanded after sunbeds arrived in the late 1970s, and it later faced restrictions in several countries, including a ban on commercial solaria in Australia in 2015 and a ban on cosmetic use in Brazil in 2009. [15] A 2020 analysis of the 2016 Australian ban used search trends to assess how consumer interest in indoor and spray tanning shifted. [11]"
+   ]
+  },
+  {
+   "h": "Use in practice",
+   "paras": [
+    "Booth sessions are usually a short visit: the person stands in the cabin while jets spray solution over the body, then dries and waits for the colour to develop over the following hours. The colour is described as lasting as long as the treated skin cells stay in the outer layer. [1][14]",
+    "A tan applied by booth or airbrush is used for holidays, weddings, photography, and physique contests. Bodybuilding Wikipedia text says most competitors tan and shave before a contest [20], and bodybuilding forum threads on T Nation joke about 'spray tan' and posing trunks as part of stage presentation, with one reply tying a spray tan to looking more defined. [18][19]"
+   ]
+  },
+  {
+   "h": "Safety",
+   "paras": [
+    "According to the FDA position summarised by Wikipedia, inhalation and mucous-membrane exposure are the concern with booth application. The DHA article adds that the agency approves topical use on skin but not on eyes, lips or mucous membranes, and describes DHA as not permitted in spray booths for that reason; its entry also records reported concerns including DNA damage in one study, possible interference with skin vitamin D production, and increased free-radical formation in sun-exposed treated skin for about 24 hours at higher concentrations. [14]",
+    "The sunless tanning article reports a toxicologist's concern that DHA deposited in the lungs could be absorbed into the bloodstream, a 2004 cell study by Petersen and colleagues finding DNA damage and apoptosis, and a 2007 study led by Katinka Jung finding more than 180 percent more free radicals in DHA-treated skin under sun exposure. It also reports a 2010 European Commission scientific committee (SCCS) opinion that DHA spray tanning posed no risk, which critics said relied on evidence selected by industry. [1]",
+    "Contact dermatitis from DHA or erythrulose has been reported, and some products contain fragrances or parabens. [1] Sunscreen in some tanning products may not give lasting protection, because avobenzone can degrade in UVA light. [1] A UK Health and Safety Executive study explored occupational health risks for beauty therapists who carry out spray tanning. [5]",
+    "Other agents sold for tanning differ: carotenoid pills can change skin colour with high intake, and Wikipedia notes that tanning pills are not FDA-approved for tanning and that canthaxanthin has been linked to hepatitis and retinopathy. Unlicensed injectable 'melanotan' products sold for tanning are not legal for human use in any jurisdiction according to Wikipedia, and health agencies began issuing warnings about them around 2007. [1][16]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found that tested spray-tan booths in human volunteers for health or appearance outcomes. Related laboratory and animal work includes cell studies in which DHA suppressed nutrient signalling and induced mitochondrial stress in liver cells, caused genotoxicity and chromosomal instability in lung, heart and liver cell models, and induced cell-cycle arrest and cell death in a melanoma cell line. [6][2][7][4] A 2025 mouse study reported lung inflammation and fibrosis after inhaled DHA. [3] These findings apply to cells and animals at the exposures tested, and their relevance to booth use has not been established in humans.",
+    "Survey research describes who uses sunless tanning. An analysis of US National Health Interview Survey data looked at spray tanning, self-applied lotion tanning and indoor UV tanning among non-Hispanic white women aged 18 to 49. [9] A cross-sectional study estimated indoor tanning prevalence among US adults. [10] An analysis of the 2016 ban on commercial solaria in Australia used search trends to assess consumer interest in indoor and spray tanning. [11] A New Zealand audit counted businesses offering sunbeds and spray tanning. [12]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Spray tanning is promoted as a way to get a tan without UV exposure, which dermatology and public health sources link to melanoma risk. Indoor tanning is associated with higher melanoma risk, with a 2012 analysis cited by Wikipedia reporting 59 percent higher risk among those who began before age 35. [15] A study of undergraduates on the US Gulf Coast examined intentional tanning behaviours in a population with elevated melanoma mortality. [13]",
+    "On looksmax.org a poster who burns easily and is too pale to tan asked whether spray tans or tanning lotions are a better alternative to sun, and whether they harm collagen and youthful looks. [17] Wikipedia's sunless tanning page is flagged as relying in parts on anecdotal or limited evidence and on a US-centric perspective. [1]"
+   ]
   }
+ ],
+ "timeline": [
+  {
+   "year": "1920s",
+   "event": "German scientists recognise DHA's skin-staining effect.[14]"
+  },
+  {
+   "year": "1950s",
+   "event": "Eva Wittgenstein observes that DHA stains skin brown.[1]"
+  },
+  {
+   "year": "1959",
+   "event": "Man-Tan, the first commercial DHA self-tanner, appears.[1]"
+  },
+  {
+   "year": "1960",
+   "event": "Coppertone introduces QT.[1]"
+  },
+  {
+   "year": "1970s",
+   "event": "FDA adds DHA to its approved cosmetic ingredient list.[14]"
+  },
+  {
+   "year": "Late 1990s",
+   "event": "Automated spray booths broaden the market.[1]"
+  },
+  {
+   "year": "2004",
+   "event": "Cell study reports DNA damage and apoptosis after DHA exposure.[1]"
+  },
+  {
+   "year": "2007",
+   "event": "Study reports more free radicals in DHA-treated skin under sun exposure.[1]"
+  },
+  {
+   "year": "2010",
+   "event": "A European Commission scientific committee opinion finds spray tanning with DHA poses no risk; critics question the evidence base.[1]"
+  },
+  {
+   "year": "2016",
+   "event": "Australia's ban on commercial solaria takes effect, later analysed for effects on interest in spray tanning.[11]"
+  },
+  {
+   "year": "2025",
+   "event": "Mouse study reports lung inflammation and fibrosis after inhaled DHA.[3]"
+  }
+ ],
+ "lore": {
+  "intro": "Spray tans come up on looksmax.org as a possible substitute for sun tanning, and in T Nation bodybuilding threads as part of contest presentation. [17][18][19]",
+  "claims": [
+   {
+    "claim": "A spray tan is a safer alternative to sun or sunbed tanning",
+    "believers": "A looksmax.org poster who burns rather than tans asks whether spray tans or lotions are better for skin aging and collagen than sun exposure. [17]",
+    "experts": "Wikipedia describes sunless tanning as an alternative to UV exposure, which is linked to skin cancer. Indoor tanning is associated with higher melanoma risk. [1][15]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "A tan makes the physique look more defined",
+    "believers": "T Nation posters in bodybuilding threads reference spray tan alongside posing trunks as part of stage presentation, and one reply says a spray tan is how you look more defined. [18][19]",
+    "experts": "Wikipedia's bodybuilding article says most competitors tan and shave before a contest; no study has measured how a spray tan changes perceived muscle definition. [20]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Booth spraying exposes you to inhaled DHA",
+    "believers": "The concern appears in discussions of booth use because the mist surrounds the face. [1]",
+    "experts": "The FDA has approved DHA for external use but not inhalation; cell and mouse studies report genotoxicity and lung injury at tested exposures, and no human booth-inhalation study has been published. [1][2][3]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "DHA tan protects against sunburn",
+    "believers": "Some tanning products include sunscreen, and users sometimes treat the colour as a base tan.",
+    "experts": "DHA gives an SPF of about 3 according to Wikipedia, and sunscreen in tanners can degrade because avobenzone breaks down in UVA light. [1][14]",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "Spray tanning is harmless to the skin",
+    "believers": "Proponents note that DHA affects only the dead outer layer and involves no UV exposure.",
+    "experts": "The sunless tanning article reports a 2007 finding of more free radicals in DHA-treated skin under sun exposure, contact dermatitis from DHA or erythrulose, and a 2010 EU committee opinion that spray tanning posed no risk, which critics disputed. [1]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Tanning pills or injections give the same result without the booth",
+    "believers": "Unlicensed 'melanotan' products are sold in some gyms and salons as tanning agents.",
+    "experts": "Wikipedia states that unlicensed melanotan products are not legal for human use in any jurisdiction and that health agencies issued warnings from about 2007; canthaxanthin tanning pills have been linked to hepatitis and retinopathy. [1][16]",
+    "evidence": "harms"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Sunless tanning",
+   "url": "https://en.wikipedia.org/wiki/Sunless_tanning",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Acute exposure to dihydroxyacetone promotes genotoxicity and chromosomal instability in lung, cardiac, and liver cell models",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38867704/",
+   "source": "Toxicological Sciences",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Inhalation exposure to dihydroxyacetone promotes lung injury and pulmonary fibrosis in A/J mice",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40612655/",
+   "source": "Toxicology Reports",
+   "year": 2025,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Dihydroxyacetone Exposure Alters NAD(P)H and Induces Mitochondrial Stress and Autophagy in HEK293T Cells",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31328504/",
+   "source": "Chemical Research in Toxicology",
+   "year": 2019,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "An exploratory study of occupational health risks for beauty therapists who carry out massage and spray tanning treatments",
+   "url": "https://europepmc.org/article/CTX/C3392",
+   "source": "Health and Safety Executive",
+   "year": 2009,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Dihydroxyacetone suppresses mTOR nutrient signaling and induces mitochondrial stress in liver cells",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36472985/",
+   "source": "PLoS One",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Dihydroxyacetone induces G2/M arrest and apoptotic cell death in A375P melanoma cells",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29193605/",
+   "source": "Environmental Toxicology",
+   "year": 2018,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Dihydroxyacetone suppresses mTOR nutrient signaling (liver cells)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36472985/",
+   "source": "PLoS One",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "Sunless and Indoor Tanning Among U.S. Non-Hispanic White Women Ages 18-49 Years",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38463180/",
+   "source": "Journal of the Dermatology Nurses' Association",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Prevalence and characteristics of indoor tanning use among men and women in the United States",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21173319/",
+   "source": "Archives of Dermatology",
+   "year": 2010,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "Consequences of banning commercial solaria in 2016 in Australia",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32471761/",
+   "source": "Health Policy",
+   "year": 2020,
+   "type": "article"
+  },
+  {
+   "id": 12,
+   "title": "'Out of the frying pan, but not into the fire': quantifying commercial cosmetic tanning services in New Zealand to inform endgame regulation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27906923/",
+   "source": "New Zealand Medical Journal",
+   "year": 2016,
+   "type": "study"
+  },
+  {
+   "id": 13,
+   "title": "Intentional tanning behaviors among undergraduates on the United States' Gulf Coast",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29615031/",
+   "source": "BMC Public Health",
+   "year": 2018,
+   "type": "study"
+  },
+  {
+   "id": 14,
+   "title": "Dihydroxyacetone",
+   "url": "https://en.wikipedia.org/wiki/Dihydroxyacetone",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 15,
+   "title": "Indoor tanning",
+   "url": "https://en.wikipedia.org/wiki/Indoor_tanning",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 16,
+   "title": "Melanotan II",
+   "url": "https://en.wikipedia.org/wiki/Melanotan_II",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 17,
+   "title": "Spray Tan vs Natural Tan?",
+   "url": "https://looksmax.org/threads/spray-tan-vs-natural-tan.5891/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 18,
+   "title": "Rebirth of the Juggernaut: Brute Force and Ignorance (Part 1)",
+   "url": "https://t-nation.com/t/rebirth-of-the-juggernaut-brute-force-and-ignorance-part-1/212755",
+   "source": "T Nation forum",
+   "year": 2015,
+   "type": "forum"
+  },
+  {
+   "id": 19,
+   "title": "The Flame-Free Confession Thread II",
+   "url": "https://t-nation.com/t/the-flame-free-confession-thread-ii/248113",
+   "source": "T Nation forum",
+   "year": 2018,
+   "type": "forum"
+  },
+  {
+   "id": 20,
+   "title": "Bodybuilding",
+   "url": "https://en.wikipedia.org/wiki/Bodybuilding",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Dihydroxyacetone",
+   "title": "Dihydroxyacetone"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Indoor_tanning",
+   "title": "Indoor tanning"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Melanotan_II",
+   "title": "Melanotan II"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Bodybuilding",
+   "title": "Bodybuilding"
+  }
+ ]
 }

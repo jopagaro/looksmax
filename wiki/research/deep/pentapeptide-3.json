@@ -17,7 +17,8 @@
   "lead": [
     "Pentapeptide-3 is a cosmetic peptide ingredient used in topical anti-wrinkle products, where it is meant to smooth fine lines and give skin a firmer, younger-looking surface. The name is ambiguous: before 2006 the INCI name palmitoyl pentapeptide-3 referred to the Lys-Thr-Thr-Lys-Ser (KTTKS) peptide sold as Matrixyl, since renamed palmitoyl pentapeptide-4.[1][2] The ingredient sold as Vialox is also described as a pentapeptide and is marketed as a muscle-relaxing, expression-line-softening ingredient.[4]",
     "The KTTKS family is described in the literature as matrikines, fragments of collagen that stimulate extracellular matrix production and type I and III collagen expression in cultured cells, which is the basis for their use in anti-wrinkle creams.[2][3] A 2019 study of KTTKS analogues found none cytotoxic to fibroblasts.[2]",
-    "A 2026 laboratory study evaluated Vialox and a second pentapeptide, Leuphasyl, with computer docking, molecular dynamics and a cell cytotoxicity assay. It reported that Vialox preferentially targeted SIRT-1 in the models and that neither peptide was cytotoxic to HaCaT skin cells at concentrations up to 1 mg/mL.[4]"
+    "A 2026 laboratory study evaluated Vialox and a second pentapeptide, Leuphasyl, with computer docking, molecular dynamics and a cell cytotoxicity assay. It reported that Vialox preferentially targeted SIRT-1 in the models and that neither peptide was cytotoxic to HaCaT skin cells at concentrations up to 1 mg/mL.[4]",
+    "Beyond cosmetics, the Vialox pentapeptide has been described by researchers as Gly-Pro-Arg-Pro-Ala, derived from a snake venom peptide, and Leuphasyl as Tyr-Ala-Gly-Phe-Leu, a biomimetic of a neurotransmitter-release inhibitor, in a 2026 in vitro and in silico study of anticancer activity [5]. The same study used molecular docking and cell assays, not human trials."
   ],
   "angle": {
     "goal": "Skin and fine lines",
@@ -49,6 +50,14 @@
     [
       "Related peptide",
       "Leuphasyl (studied alongside Vialox)[4]"
+    ],
+    [
+      "Formula",
+      "C39H75N7O10 (palmitoyl-KTTKS) [6]"
+    ],
+    [
+      "Launched",
+      "2000, Sederma (as Matrixyl) [6]"
     ]
   ],
   "sections": [
@@ -59,9 +68,23 @@
       ]
     },
     {
+      "h": "Chemistry and mechanism",
+      "paras": [
+        "Palmitoyl pentapeptide-4 is the pentapeptide Pal-Lys-Thr-Thr-Lys-Ser (Pal-KTTKS) with a 16-carbon palmitoyl fatty-acid chain attached, which is meant to help the molecule cross the lipid structure of the skin. Its formula is C39H75N7O10 and its molar mass about 802 g/mol [6].",
+        "Wikipedia classes it as a matrikine, a messenger peptide that regulates cell activity by binding specific receptors and that activates genes for extracellular matrix renewal. It states that this matrix neosynthesis provides the anti-wrinkle effect, though the claim is flagged as needing a medical citation [6]. KTTKS originates from the proteolytic hydrolysis of collagen and stimulates matrix production and type I and III collagen expression in vitro [3]. Vialox and Leuphasyl differ in design: suppliers describe Vialox and Leuphasyl as muscle-signalling pentapeptides aimed at expression lines, rather than collagen stimulators, and the 2026 Chemistry and Biodiversity paper examined them against collagen-degrading matrix metalloproteinases and SIRT-1 [4]."
+      ]
+    },
+    {
       "h": "Vialox",
       "paras": [
         "Vialox is a cosmeceutical pentapeptide used in anti-aging products. A 2026 study in Chemistry & Biodiversity describes it and Leuphasyl as potential noninvasive dermocosmetic agents and examines how they bind matrix metalloproteinases (which break down collagen) and Sirtuin-1 (a regulator of cellular ageing).[4] In that work Leuphasyl interacted more strongly with MMP-13, while Vialox preferentially targeted SIRT-1, and predictions suggested favourable pharmacokinetic and safety profiles.[4]"
+      ]
+    },
+    {
+      "h": "Research",
+      "paras": [
+        "Wikipedia lists published in vitro and in vivo work on Pal-KTTKS without summarising results: a 2005 study of topical use in photoaged human facial skin by Robinson and colleagues, a 2013 study of collagen stimulation in fibroblasts with the related amphiphile C16-KTTKS, a 2014 study of dermal stability and skin permeation of KTTKS and palmitoyl-KTTKS, and a 2017 wound contraction study [6]. The article says Sederma and independent groups have published efficacy work but gives no sample sizes or quantitative results [6].",
+        "The 2019 study of 32 KTTKS analogues found that palmitoylated peptides were the most active plasmin inhibitors, that none was cytotoxic to fibroblasts, and that three promoted cell growth without a concentration-response in collagen and DNA biosynthesis assays [3]."
       ]
     },
     {
@@ -73,7 +96,7 @@
     {
       "h": "Clinical studies",
       "paras": [
-        "No studies found in people for a product specified as pentapeptide-3 or Vialox. Laboratory studies of KTTKS peptides show collagen-related effects in cells; the 2019 study found palmitoylated analogues inhibited serine proteases such as plasmin and thrombin in the laboratory and did not reproduce a previously reported 150 percent collagen increase.[2][3] The 2026 Vialox work used computer modelling and a cell cytotoxicity assay.[4]"
+        "No studies found in people for Vialox or for a product specified only as pentapeptide-3; Wikipedia lists a 2005 study of topical palmitoyl-KTTKS in photoaged facial skin without summarising its findings [6]. Laboratory studies of KTTKS peptides show collagen-related effects in cells; the 2019 study found palmitoylated analogues inhibited serine proteases such as plasmin and thrombin in the laboratory and did not reproduce a previously reported 150 percent collagen increase.[2][3] The 2026 Vialox work used computer modelling and a cell cytotoxicity assay.[4]"
       ]
     }
   ],
@@ -81,6 +104,10 @@
     {
       "year": "2000",
       "event": "Sederma launches KTTKS-based Matrixyl.[1]"
+    },
+    {
+      "year": "2005",
+      "event": "Study of topical palmitoyl-KTTKS in photoaged facial skin is published [6]."
     },
     {
       "year": "2006",
@@ -128,6 +155,22 @@
       "source": "Chemistry & Biodiversity",
       "year": 2026,
       "type": "study"
+    },
+    {
+      "id": 5,
+      "title": "In Vitro and In Silico Assessment of Anticancer Activity of Venom-Derived and Biomimetic Neurotransmitter Inhibitor Pentapeptides",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42412310/",
+      "source": "Cell Biochem Biophys",
+      "year": 2026,
+      "type": "study"
+    },
+    {
+      "id": 6,
+      "title": "Palmitoyl pentapeptide-4",
+      "url": "https://en.wikipedia.org/wiki/Palmitoyl_pentapeptide-4",
+      "source": "Wikipedia",
+      "year": 2025,
+      "type": "encyclopedia"
     }
   ],
   "webSources": [
@@ -138,6 +181,10 @@
     {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6832239/",
       "title": "KTTKS analogues study (PMC)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Palmitoyl_pentapeptide-4",
+      "title": "Palmitoyl pentapeptide-4 - Wikipedia"
     }
   ]
 }

@@ -1,22 +1,258 @@
 {
-"name":"Microdermabrasion / HydraFacial",
-"lead":["Microdermabrasion is a non-invasive exfoliation that removes the outermost dead skin cells with crystals or a diamond tip combined with suction, usually without anaesthetic.[1] HydraFacial, also called hydradermabrasion, is a branded exfoliative facial that combines cleansing and peeling with suction-based extraction and serum application.[2][3]","Wikipedia notes results are temporary, since skin renews roughly every 30 days, so sessions are usually repeated every 2 to 4 weeks.[1] Authors of a 2024 imaging study state that clinical validation of HydraFacial efficacy is scarce.[2]"],
-"infobox":[["Type","Superficial resurfacing facial"],["First microdermabrasion unit","1985, Italy"],["First US sale","January 1997"],["Session length","5 to 60 minutes"],["Typical repeat interval","2 to 4 weeks"]],
-"sections":[
-{"h":"History","paras":["The first microdermabrasion unit was developed in Italy in 1985 using aluminium oxide crystals. The FDA issued its first approval letter for such machines in 1996, the first US machine sold in January 1997, a diamond tip appeared in 1999, a bristle tip in 2005 and a crystal-free vacuum system in 2012.[1]"]},
-{"h":"Clinical studies","paras":["A 2024 study used line-field confocal optical coherence tomography to image skin changes after hydradermabrasion, noting that non-invasive histological validation had been scarce.[2] A 12-week open-label study of 20 adults with mild-to-moderate acne tested six HydraFacial Clarifying treatments, one every two weeks.[3] Registered trials include a 27-person study of three HydraFacial treatments on skin quality and hydration, and trials of a scalp version in hair thinning (44 participants completed; one not yet recruiting).[4][5][6] Wikipedia also cites a 2003 controlled assessment of microdermabrasion for damaged skin.[1] The sources reviewed here do not give effect sizes."]},
-{"h":"Reported risks","paras":["Wikipedia lists temporary dryness and sun sensitivity, and rarely bruising or scratches. Crystal-based systems carry concerns about inhalation and eye injury.[1]"]}
-],
-"timeline":[{"year":"1985","event":"First microdermabrasion unit developed in Italy.[1]"},{"year":"1997","event":"First microdermabrasion machine sold in the US.[1]"},{"year":"1999","event":"Diamond tip introduced.[1]"},{"year":"2012","event":"Crystal-free vacuum system introduced.[1]"}],
-"lore":null,
-"refs":[
-{"id":1,"title":"Microdermabrasion","url":"https://en.wikipedia.org/wiki/Microdermabrasion","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":2,"title":"Hydradermabrasion through the lens of Line-Field Confocal Optical Coherence Tomography","url":"https://pubmed.ncbi.nlm.nih.gov/38558475/","source":"Skin Research and Technology","year":2024,"type":"study"},
-{"id":3,"title":"Efficacy and Tolerability of HydraFacial Clarifying Treatment Series in Active Acne Vulgaris","url":"https://pubmed.ncbi.nlm.nih.gov/36569524/","source":"Journal of Clinical and Aesthetic Dermatology","year":2022,"type":"study"},
-{"id":4,"title":"NCT05932732 Three Hydrafacial Treatments on Skin Quality, Hydration and Barrier","url":"https://clinicaltrials.gov/study/NCT05932732","source":"ClinicalTrials.gov","year":2023,"type":"trial"},
-{"id":5,"title":"NCT06112782 Keravive by Hydrafacial for Scalp Health and Hair Quality","url":"https://clinicaltrials.gov/study/NCT06112782","source":"ClinicalTrials.gov","year":2019,"type":"trial"},
-{"id":6,"title":"NCT07935993 Scalp Serum With HydraScalp Keravive in Hair Thinning","url":"https://clinicaltrials.gov/study/NCT07935993","source":"ClinicalTrials.gov","year":2026,"type":"trial"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Microdermabrasion","title":"Microdermabrasion"}],
-"card":{"summary":"Light exfoliating facials with temporary results; published efficacy data are sparse.","aka":"Hydradermabrasion, HydraFacial, microderm","evidence":"limited","outcome":"temporary","risk":"low","price":null,"note":"Results are temporary and sessions are repeated.","structure":null},
-"quick":{"overview":"Microdermabrasion and HydraFacial are superficial exfoliating facials done in clinics or salons.\n\nWikipedia says results are temporary, and a 2024 study says clinical validation is scarce.","mechanism":"Crystals or a diamond tip remove surface dead cells with suction; HydraFacial adds cleansing, extraction and serums.","risks":"Reported effects are usually minor: dryness, sun sensitivity, rarely bruising; crystal systems raise inhalation and eye concerns."}
+ "name": "Microdermabrasion / HydraFacial",
+ "lead": [
+  "Microdermabrasion is a non-invasive exfoliation that removes the outermost dead skin cells with crystals or a diamond tip combined with suction, usually without anaesthetic, to leave skin looking smoother, brighter and more even in texture.[1] HydraFacial, also called hydradermabrasion, is a branded exfoliative facial that combines cleansing and peeling with suction-based extraction and serum application.[2][3]",
+  "Wikipedia notes results are temporary, since skin renews roughly every 30 days, so sessions are usually repeated every 2 to 4 weeks.[1] Authors of a 2024 imaging study state that clinical validation of HydraFacial efficacy is scarce.[2]",
+  "People book the treatments for dull or rough-looking skin, congestion, uneven tone, fine lines and, in dermatology reviews, as an option for acne scars, stretch marks and keratosis pilaris where first-line measures have not been enough [11][12][13]. Published studies are mostly small; a 2005 review states there is a major gap between public popularity and cohesive scientific data on efficacy [7]."
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Superficial resurfacing facial"
+  ],
+  [
+   "First microdermabrasion unit",
+   "1985, Italy"
+  ],
+  [
+   "First US sale",
+   "January 1997"
+  ],
+  [
+   "Session length",
+   "5 to 60 minutes"
+  ],
+  [
+   "Typical repeat interval",
+   "2 to 4 weeks"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description and how it works",
+   "subs": [
+    {
+     "h": "Microdermabrasion",
+     "paras": [
+      "Machines blow or apply aluminium oxide or other abrasive crystals, or use a diamond or bristle tip, with vacuum suction to take off surface cells [1][8]. A 2005 review notes that histology shows little actual abrasion of the skin, yet changes are seen in the dermis, and that the mechanism of action remains poorly understood [8]. Wikipedia says skin renews roughly every 30 days, so sessions are repeated every 2 to 4 weeks [1]."
+     ]
+    },
+    {
+     "h": "HydraFacial",
+     "paras": [
+      "The branded hydradermabrasion procedure follows three steps in the acne study protocol: cleansing and peeling, suction extraction, and serum application [3]. A 2024 imaging paper describes it as an exfoliative cosmetic procedure for skin rejuvenation whose popularity has outpaced non-invasive histological validation [2]. A broader reference on facials lists hydrafacials among types such as European facials, LED light facials and mini-facials [9]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "The first microdermabrasion unit was developed in Italy in 1985 using aluminium oxide crystals. The FDA issued its first approval letter for such machines in 1996, the first US machine sold in January 1997, a diamond tip appeared in 1999, a bristle tip in 2005 and a crystal-free vacuum system in 2012.[1]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A 2024 study used line-field confocal optical coherence tomography to image skin changes after hydradermabrasion, noting that non-invasive histological validation had been scarce.[2] A 12-week multicenter open-label study of 20 adults with mild-to-moderate acne tested six HydraFacial Clarifying treatments, one every two weeks, for improving skin appearance.[3]",
+    "A 2008 randomized controlled trial examined hydradermabrasion as a nonablative facial rejuvenation modality [10]. A small clinical study of 11 healthy volunteers examined ceramide levels in the stratum corneum during serial aluminium oxide microdermabrasion [9]. Reviews from 2005 summarise small studies with differing protocols, and the American Journal of Clinical Dermatology review reports that patients and physicians describe mild benefit for photoageing [7][8].",
+    "Registered trials include a 27-person study of three HydraFacial treatments on skin quality, hydration and barrier (NCT05932732), and trials of a scalp version, Keravive, in hair thinning (a completed 44-participant study and a planned 15-person study).[4][5][6]",
+    "Dermatology reviews list microdermabrasion among options for keratosis pilaris that does not respond to topical therapy [11], for stretch marks, where authors note the lack of strong evidence for any treatment [12], and in an acne scar overview [13]."
+   ]
+  },
+  {
+   "h": "Reported risks",
+   "paras": [
+    "Wikipedia lists temporary dryness and sun sensitivity, and rarely bruising or scratches. Crystal-based systems carry concerns about inhalation and eye injury.[1]"
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing",
+   "paras": [
+    "The procedures are discussed in skin-focused communities as a salon or clinic option for texture. A looksmax.org thread questioned the value of advertised microdermabrasion offers; a poster described it as helping \"a little\" while adverts make big claims, and the original poster cited a histology study reporting mostly mild to moderate improvement [14]."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1985",
+   "event": "First microdermabrasion unit developed in Italy.[1]"
+  },
+  {
+   "year": "1997",
+   "event": "First microdermabrasion machine sold in the US.[1]"
+  },
+  {
+   "year": "1999",
+   "event": "Diamond tip introduced.[1]"
+  },
+  {
+   "year": "2012",
+   "event": "Crystal-free vacuum system introduced.[1]"
+  }
+ ],
+ "lore": {
+  "intro": "Forum discussion treats microdermabrasion as a low-risk, modest-result option and HydraFacial as a premium facial.[14]",
+  "claims": [
+   {
+    "claim": "Advertised microdermabrasion offers promise more than they deliver",
+    "believers": "A looksmax.org poster said it \"helps a little\" while adverts make big claims, citing a histology study that reported mostly mild to moderate improvement [14].",
+    "experts": "A 2005 dermatologic surgery review states that studies have used small groups and differing protocols, with a gap between popularity and comprehensive data [7].",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Microdermabrasion",
+   "url": "https://en.wikipedia.org/wiki/Microdermabrasion",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Hydradermabrasion through the lens of Line-Field Confocal Optical Coherence Tomography",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38558475/",
+   "source": "Skin Research and Technology",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Efficacy and Tolerability of HydraFacial Clarifying Treatment Series in Active Acne Vulgaris",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36569524/",
+   "source": "Journal of Clinical and Aesthetic Dermatology",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "NCT05932732 Three Hydrafacial Treatments on Skin Quality, Hydration and Barrier",
+   "url": "https://clinicaltrials.gov/study/NCT05932732",
+   "source": "ClinicalTrials.gov",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "NCT06112782 Keravive by Hydrafacial for Scalp Health and Hair Quality",
+   "url": "https://clinicaltrials.gov/study/NCT06112782",
+   "source": "ClinicalTrials.gov",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "NCT07935993 Scalp Serum With HydraScalp Keravive in Hair Thinning",
+   "url": "https://clinicaltrials.gov/study/NCT07935993",
+   "source": "ClinicalTrials.gov",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Microdermabrasion",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16176767/",
+   "source": "Dermatologic Surgery",
+   "year": 2005,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "Microdermabrasion",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15799680/",
+   "source": "American Journal of Clinical Dermatology",
+   "year": 2005,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "Effect of serial microdermabrasion on the ceramide level in the stratum corneum",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16640682/",
+   "source": "Dermatologic Surgery",
+   "year": 2006,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Hydradermabrasion: an innovative modality for nonablative facial rejuvenation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19146604/",
+   "source": "Journal of Cosmetic Dermatology",
+   "year": 2008,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Keratosis pilaris: an update and approach to management",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37166753/",
+   "source": "Italian Journal of Dermatology and Venereology",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 12,
+   "title": "Striae Distensae Treatment Review and Update",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31334056/",
+   "source": "Indian Dermatology Online Journal",
+   "year": 2019,
+   "type": "review"
+  },
+  {
+   "id": 13,
+   "title": "Acne scarring-pathophysiology, diagnosis, prevention and education: Part I",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35792196/",
+   "source": "Journal of the American Academy of Dermatology",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 14,
+   "title": "Microdermabrasion. Not that great",
+   "url": "https://looksmax.org/threads/microdermabrasion-not-that-great.104592/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 15,
+   "title": "Facial",
+   "url": "https://en.wikipedia.org/wiki/Facial",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Microdermabrasion",
+   "title": "Microdermabrasion"
+  }
+ ],
+ "card": {
+  "summary": "Light exfoliating facials with temporary results; published efficacy data are sparse.",
+  "aka": "Hydradermabrasion, HydraFacial, microderm",
+  "evidence": "limited",
+  "outcome": "temporary",
+  "risk": "low",
+  "price": null,
+  "note": "Results are temporary and sessions are repeated.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Microdermabrasion and HydraFacial are superficial exfoliating facials done in clinics or salons.\n\nWikipedia says results are temporary, and a 2024 study says clinical validation is scarce.",
+  "mechanism": "Crystals or a diamond tip remove surface dead cells with suction; HydraFacial adds cleansing, extraction and serums.",
+  "risks": "Reported effects are usually minor: dryness, sun sensitivity, rarely bruising; crystal systems raise inhalation and eye concerns."
+ },
+ "angle": {
+  "goal": "Skin texture and clarity",
+  "chain": [
+   "Surface layer of dead cells is abraded or peeled off with suction",
+   "Fresh skin is exposed and pores are cleared; serums are applied",
+   "Smoother, brighter-looking skin for a few weeks"
+  ],
+  "effect": "direct",
+  "text": "A session removes the outer layer of dead skin and, in HydraFacial, extracts debris and applies serums, which people use for a smoother, fresher complexion. Results are temporary, so treatments are repeated."
+ }
 }

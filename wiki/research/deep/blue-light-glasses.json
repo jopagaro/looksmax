@@ -1,76 +1,380 @@
 {
-  "name": "Blue-light glasses",
-  "lead": [
-    "Blue-light glasses, also called blue-blocking or blue-filtering glasses, are spectacles with lenses that filter part of the blue end of visible light emitted by screens and LED lighting. They are sold over the counter, often with clear lenses and fashion frames, and marketed for digital eye strain and sleep. In appearance forums they are also claimed to make eyes look brighter or less tired.[1][2]",
-    "Reviews summarised on Wikipedia found little support for blue-blocking glasses in digital eye strain, and the American Academy of Ophthalmology, as described by Grokipedia, does not recommend them for it. Studies of blue-light glasses in sleep disorders and in Parkinson disease exist, but no study has tested them for making the eyes look brighter.[2][3][4][5]"
+ "lead": [
+  "Blue-light glasses, also called blue-blocking or blue-filtering glasses, are spectacles with lenses that filter part of the blue end of the visible spectrum emitted by screens and LED lighting. They are sold over the counter, often with clear or lightly tinted lenses in everyday frames, and are marketed for digital eye strain and for sleep. Amber and orange lenses filter much more blue light than clear ones and are the type used in most sleep research.[1][2][9][17]",
+  "People use them to look better in two ways. Some wear them during long screen sessions hoping for less eye tiredness and a fresher, less strained look; others put them on in the evening to protect melatonin and sleep, which feeds into how rested the face looks and how well recovery from training goes. Experimental studies of sleep restriction have reported that people who slept less were rated as looking less healthy and less attractive, which is the link users have in mind.[2][18] As eyewear they also double as a style accessory.",
+  "Research differs by use. The American Academy of Ophthalmology and the UK College of Optometrists do not recommend blue-blocking lenses for computer use or eye strain, and the AAO attributes screen discomfort mainly to reduced blinking.[10][17] For sleep, small randomized trials of amber-lens glasses have measured outcomes in athletes, pregnant women and patients with mania, with varied results, and trials of blue-light-emitting glasses have studied delayed sleep-wake phase disorder and Parkinson disease, a different, light-delivering use.[4][5][6][7][8][12] No study has tested them for making the eyes look brighter."
+ ],
+ "angle": {
+  "goal": "Eyes and sleep",
+  "chain": [
+   "Lenses filter part of the blue light from screens and LEDs",
+   "Less evening exposure to melatonin-suppressing light, and a possible reduction of screen discomfort",
+   "Easier sleep and less tired-feeling eyes, as users hope",
+   "Fresher, more rested look"
   ],
-  "infobox": [
-    ["Type", "Eyewear"],
-    ["Marketed uses", "Digital eye strain, sleep, general eye comfort"],
-    ["Prescription needed", "No (for non-prescription versions)"],
-    ["Cosmetic claim", "Brighter, less tired-looking eyes (untested)"]
+  "effect": "claimed",
+  "text": "Wearers hope the filtering reduces screen-related eye tiredness and, in the evening, lessens light that delays the body clock, so they sleep better and look less drained. Research on the sleep side is better developed than on the appearance side."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Eyewear"
   ],
-  "sections": [
-    {
-      "h": "Description",
-      "paras": [
-        "Lenses may use tints, pigments or coatings that reduce transmission of short-wavelength light by amounts that Grokipedia places at roughly 10 to 25% for common consumer products. Manufacturers' claims, such as filtering specified multiples or percentages of blue light, are statements by the companies rather than independent findings.[2]"
-      ]
-    },
-    {
-      "h": "Effectiveness",
-      "paras": [
-        "Wikipedia's article on computer vision syndrome reports that a 2021 review, published in 2022, found little support for blue-blocking glasses for digital eye strain, and that double-blind trials found no evidence that blue-filter lenses help it. It also notes an earlier amber-lens study that a follow-up did not reproduce, and a lens-industry-sponsored study in which most participants could not detect changes.[3]",
-        "Grokipedia describes mixed evidence: a self-reported questionnaire study suggesting benefit, a reported limited short-term effect, and statements from the American Academy of Ophthalmology that digital eye strain stems mainly from reduced blinking and that blue light from devices is not known to damage the eyes. Grokipedia is AI-generated and its account of these reviews contains internal inconsistencies.[2]",
-        "For sleep, a 2022 study in 15 patients with delayed sleep-wake phase disorder used glasses emitting blue light of about 470 nm in the morning, which is a different use from blue-blocking lenses.[4] A 2019 survey examined patient experience with blue-light glasses in Parkinson disease ahead of formal efficacy trials.[5]"
-      ]
-    },
-    {
-      "h": "Digital eye strain context",
-      "paras": [
-        "A 2023 cross-sectional survey of undergraduate and medical students at one university examined the prevalence of computer vision syndrome after the move to online learning.[6]"
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "Small studies cover blue-light glasses for delayed sleep-wake phase disorder and for Parkinson disease, and reviews cited above assess blue-blocking lenses for digital eye strain with limited support.[3][4][5] No studies found testing blue-light glasses for making the eyes look brighter or less red."
-      ]
-    },
-    {
-      "h": "Reported risks",
-      "paras": [
-        "Grokipedia reports that clinical reviews describe minimal risks and that claims of dependency on the glasses lack supporting evidence; it also says tinted lenses can alter colour perception.[2]"
-      ]
-    }
+  [
+   "Marketed uses",
+   "Digital eye strain, sleep, general eye comfort"
   ],
-  "timeline": [],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Computer vision syndrome (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Computer_vision_syndrome", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Blue light glasses (Grokipedia)", "url": "https://grokipedia.com/page/Blue_light_glasses", "source": "Grokipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 3, "title": "Computer vision syndrome (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Computer_vision_syndrome", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 4, "title": "The Clinical Effect of Blue Light Therapy on Patients with Delayed Sleep-Wake Phase Disorder", "url": "https://pubmed.ncbi.nlm.nih.gov/35082544/", "source": "Nature and Science of Sleep", "year": 2022, "type": "study" },
-    { "id": 5, "title": "Blue Light Therapy Glasses in Parkinson's Disease: Patients' Experience", "url": "https://pubmed.ncbi.nlm.nih.gov/31316746/", "source": "Parkinson's Disease", "year": 2019, "type": "study" },
-    { "id": 6, "title": "Computer Vision Syndrome in Undergraduate and Medical Students During the COVID-19 Pandemic", "url": "https://pubmed.ncbi.nlm.nih.gov/37064959/", "source": "Clinical Ophthalmology", "year": 2023, "type": "study" }
+  [
+   "Prescription needed",
+   "No (for non-prescription versions)"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Computer_vision_syndrome", "title": "Computer vision syndrome (Wikipedia)" }
+  [
+   "Lens types",
+   "Clear coated lenses; amber or orange tinted lenses"
   ],
-  "card": {
-    "summary": "Light-filtering lenses sold for screen strain and sleep; the 'brighter eyes' claim has not been studied.",
-    "aka": "Blue-blockers, computer glasses",
-    "evidence": "unproven",
-    "outcome": "unsupported",
-    "risk": "low",
-    "price": null,
-    "note": "Reviews report little support for digital eye strain relief; no appearance studies.",
-    "status": null,
-    "structure": null
+  [
+   "Cosmetic claim",
+   "Brighter, less tired-looking eyes"
+  ],
+  [
+   "Typical transmission reduction",
+   "Roughly 10 to 25 percent of blue light for common consumer lenses (Grokipedia)"
+  ],
+  [
+   "Professional body positions",
+   "AAO and UK College of Optometrists do not recommend them for computer use[10][17]"
+  ],
+  [
+   "Popularity",
+   "Widespread from the late 2010s[17]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Blue-light glasses use tints, pigments or coatings to reduce the transmission of short-wavelength light, roughly 400 to 500 nm. Grokipedia places the reduction at about 10 to 25 percent for common clear consumer lenses, with amber lenses filtering considerably more. Manufacturers' claims about the share of blue light filtered are statements by the companies, not independent measurements.[2] A 2022 spectrophotometric study in Chronobiology International compared commercially available blue blockers under multiple lighting conditions and found that products differ in what they transmit.[9]",
+    "Some products add anti-glare coatings or prescription correction. Wikipedia notes that some also block ultraviolet light, although computer monitors emit no measurable UV.[17] Glasses that emit blue light, used as a morning light therapy device, are a separate product type from lenses that block it.[7][12]"
+   ]
   },
-  "quick": {
-    "overview": "Blue-light glasses filter some short-wavelength light from screens. They are sold for eye strain and sleep, and in appearance circles for brighter, less tired-looking eyes.\n\nReviews report little support for eye-strain benefit, and nobody has tested the cosmetic claim.",
-    "mechanism": "Tints or coatings reduce transmission of blue light, which is thought to affect comfort and the body clock.",
-    "risks": "Minimal risks are described; tinted lenses can alter colour perception."
+  {
+   "h": "History",
+   "paras": [
+    "Wikipedia reports that blue-blocking glasses became increasingly popular toward the end of the 2010s in response to concern about overexposure to blue light from computers, phones and tablets.[17] Grokipedia traces precursors to early twentieth-century glare and ultraviolet protection, including cerium-glass lenses attributed to William Crookes in 1913 and aviator lenses developed by Bausch & Lomb in the 1930s, and cites a 1989 patent (US 4,878,748) for a lens that blocked ultraviolet and blue light; that AI-generated history is unverified.[2] Computer vision syndrome gained attention in the 1990s with personal computers, and consumer blue-light eyewear grew in the 2010s as LED screens and smartphone use rose; Grokipedia cites a 2014 Vision Council report that nearly 70 percent of US adults experienced digital eye strain symptoms.[1][2]"
+   ]
+  },
+  {
+   "h": "How it works",
+   "paras": [
+    "The sleep rationale is that light stimulates intrinsically photosensitive retinal ganglion cells, which suppress melatonin release by the pineal gland, so blocking blue wavelengths in the evening is expected to reduce that suppression. A 2019 review describes the retina-to-pineal pathway and the influence of light exposure on melatonin.[11] The AAO states that blue light affects the body's circadian rhythm and that bright screens late at night can make it harder to fall asleep; it recommends limiting screen time for two to three hours before bed and using a device's night settings.[10]",
+    "The eye-strain rationale is less direct: screen discomfort is commonly attributed to reduced blinking and prolonged near focus, and the AAO suggests the 20-20-20 rule (every 20 minutes look at something 20 feet away for 20 seconds) and artificial tears for dryness.[10]"
+   ]
+  },
+  {
+   "h": "Appearance angle",
+   "paras": [
+    "Tired-looking eyes, dark circles and a drained complexion are among the visible signs people associate with poor sleep. In experimental work from a Swedish group, sleep-restricted participants were photographed and rated by observers; the authors reported lower perceived health and attractiveness after restricted sleep, and a later study measured skin tone, eye opening, mouth shape and darkness around the eyes.[18] Blue-light glasses are one of several evening tools (alongside phone night modes and consistent bedtimes) that people use in the hope of protecting sleep and so the rested look.[14] The link between the glasses themselves and facial appearance has not been tested directly."
+   ]
+  },
+  {
+   "h": "Effectiveness",
+   "subs": [
+    {
+     "h": "Digital eye strain",
+     "paras": [
+      "Wikipedia's article on computer vision syndrome reports that a 2021 review found little support for blue-blocking glasses for digital eye strain, that double-blind trials did not show benefit from blue-filter lenses, and notes an earlier amber-lens study that a follow-up did not reproduce, plus a lens-industry-sponsored study in which most participants could not detect changes.[1] The AAO says there is no scientific evidence that blue light from screens damages the eyes, attributes eye strain mainly to reduced blinking, and does not recommend blue-blocking glasses for computer use.[10] The UK College of Optometrists, as quoted on Wikipedia, states that the best available evidence does not support blue-blocking spectacle lenses for visual performance, eye fatigue, sleep or macular health.[17]",
+      "Grokipedia describes the picture as mixed, citing a questionnaire study suggesting benefit and a limited short-term effect, though its account contains internal inconsistencies.[2]"
+     ]
+    },
+    {
+     "h": "Sleep",
+     "paras": [
+      "A pilot crossover study of 15 recreational athletes compared amber-lens glasses with clear glasses over four nights each and reported a shorter subjective sleep onset latency (about 7 minutes) with light restriction.[4] A double-blind randomized trial in 60 pregnant women compared full blue-blocking glasses with partial blockers for two weeks, and the primary sleep measures (total sleep time, midpoint of sleep) showed no significant group differences.[5] A companion report from the same trial examined melatonin profiles.[19] A single-blinded randomized trial in Norway added blue-blocking glasses from 6 p.m. to 8 a.m. for seven days to treatment as usual in hospitalised patients with bipolar mania, and reported a larger fall in Young Mania Rating Scale scores in the glasses group than the clear-lens group.[6]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Randomized trials include the athlete crossover pilot (n=15), the pregnancy trial (n=60), and the mania trial (12 glasses, 11 placebo patients analysed), described above.[4][5][6] Studies of glasses that emit blue light include a 2022 study in 15 patients with delayed sleep-wake phase disorder given roughly 470 nm morning light, a 2019 patient-experience survey in Parkinson disease, and a 2026 randomized pilot in 30 people with Parkinson disease (blue versus red light glasses for one hour twice daily over two weeks) that reported better Pittsburgh Sleep Quality Index scores with blue light.[7][8][12] A 2023 cross-sectional survey of students at one university examined the prevalence of computer vision syndrome after the shift to online learning.[13] No studies were found testing blue-light glasses for making the eyes look brighter or less red."
+   ]
+  },
+  {
+   "h": "Reported risks",
+   "paras": [
+    "Grokipedia reports that clinical reviews describe minimal risks for these lenses, that claims of dependency on the glasses lack supporting evidence, and that tinted lenses can alter colour perception.[2] Strongly tinted amber lenses change how colours look, which matters for tasks such as colour-critical work or driving at night."
+   ]
+  },
+  {
+   "h": "In looksmaxxing and fitness communities",
+   "paras": [
+    "On T Nation, glasses come up as one item in sleep-hygiene advice, for example a post recommending a blue light filter on devices and glasses alongside dietary changes to help dreams and nervous system calm.[14] Another poster suggests blue-light glasses and unplugging electronics among steps to support natural hormone levels after stopping TRT.[15] A 2020 Hacker News link carried a headline claiming research found that blue-light glasses improve sleep and workday productivity.[16] Discussion generally places the glasses within a bundle of sleep habits and not as a stand-alone fix."
+   ]
+  },
+  {
+   "h": "Buying considerations",
+   "paras": [
+    "Products range from clear coated lenses that filter a small share of blue light to amber and orange lenses that filter much more and visibly change colour. Independent spectrophotometry has shown that consumer products differ in how much blue light they transmit.[9] Prescription lenses can include blue-filter coatings, and the AAO notes that glasses prescribed for typical screen distance are a different product from blue-blockers.[10][17]"
+   ]
   }
+ ],
+ "timeline": [
+  {
+   "year": "1913",
+   "event": "Cerium-glass lenses attributed to William Crookes, a glare-protection precursor, per Grokipedia.[2]"
+  },
+  {
+   "year": "1989",
+   "event": "US patent granted for a polarizing lens blocking ultraviolet and blue light, per Grokipedia.[2]"
+  },
+  {
+   "year": "2014",
+   "event": "Vision Council report links digital eye strain complaints to screen use.[2]"
+  },
+  {
+   "year": "2016",
+   "event": "Randomized trial of blue-blocking glasses in bipolar mania.[6]"
+  },
+  {
+   "year": "Late 2010s",
+   "event": "Blue-blocking glasses become widely popular with consumers.[17]"
+  },
+  {
+   "year": "2019",
+   "event": "Pilot study of evening blue-light restriction in recreational athletes.[4]"
+  },
+  {
+   "year": "2022",
+   "event": "Pregnancy sleep trial and spectrophotometric study of consumer blue blockers published.[5][9]"
+  },
+  {
+   "year": "2026",
+   "event": "Randomized pilot of blue light glasses in Parkinson disease reports sleep-quality gains.[12]"
+  }
+ ],
+ "lore": {
+  "intro": "In fitness and recovery forums, blue-light glasses are one of several sleep-hygiene tools mentioned in passing, usually next to phone filters and consistent bedtimes.[14]",
+  "claims": [
+   {
+    "claim": "Blue-light glasses help you sleep",
+    "believers": "Forum members list them with phone filters and consistent bed and wake times as ways to calm the nervous system and sleep better.[14]",
+    "experts": "Small randomized trials of amber-lens glasses report mixed sleep results, for example a shorter sleep onset in athletes and no difference on the primary measures in pregnancy.[4][5]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "They prevent digital eye strain",
+    "believers": "Manufacturers and some users say they cut screen tiredness.",
+    "experts": "A review summarised on Wikipedia found little support, and the American Academy of Ophthalmology does not recommend them for computer use.[1][10]",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "They support hormone health after stopping TRT",
+    "believers": "One T Nation poster lists blue-light glasses among steps for supporting natural hormone levels.[15]",
+    "experts": "No published study was found linking blue-blocking glasses to hormone recovery.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "They make eyes look brighter and less tired",
+    "believers": "Users in appearance forums attribute a fresher look to reduced eye strain and better sleep.",
+    "experts": "No study has tested blue-light glasses for how the eyes look; sleep-restriction studies report visible changes in eye opening and darkness around the eyes after poor sleep.[18]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Sleeping better in them makes you look less tired",
+    "believers": "Users in appearance and fitness forums link better sleep to a fresher look and to better recovery.[14]",
+    "experts": "Sleep-restriction experiments report that sleep-restricted faces are rated as less healthy and attractive; whether blue-blocking glasses change that has not been tested.[18]",
+    "evidence": "untested"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Computer vision syndrome",
+   "url": "https://en.wikipedia.org/wiki/Computer_vision_syndrome",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Blue light glasses",
+   "url": "https://grokipedia.com/page/Blue_light_glasses",
+   "source": "Grokipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Computer vision syndrome (Wikipedia) - digital eye strain overview",
+   "url": "https://en.wikipedia.org/wiki/Computer_vision_syndrome",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Restricting short-wavelength light in the evening to improve sleep in recreational athletes - A pilot study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30427265/",
+   "source": "European Journal of Sport Science",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "Blue-blocking glasses compared to partial blue-blockers on sleep outcomes in the third trimester of pregnancy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35089982/",
+   "source": "PLoS One",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Blue-blocking glasses as additive treatment for mania: a randomized placebo-controlled trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27226262/",
+   "source": "Bipolar Disorders",
+   "year": 2016,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "The Clinical Effect of Blue Light Therapy on Patients with Delayed Sleep-Wake Phase Disorder",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35082544/",
+   "source": "Nature and Science of Sleep",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Blue Light Therapy Glasses in Parkinson's Disease: Patients' Experience",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31316746/",
+   "source": "Parkinson's Disease",
+   "year": 2019,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "Spectrophotometric properties of commercially available blue blockers across multiple lighting conditions",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34983271/",
+   "source": "Chronobiology International",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Should you be worried about blue light? (American Academy of Ophthalmology)",
+   "url": "https://www.aao.org/eye-health/tips-prevention/should-you-be-worried-about-blue-light",
+   "source": "American Academy of Ophthalmology",
+   "year": 2025,
+   "type": "guideline"
+  },
+  {
+   "id": 11,
+   "title": "Ocular and systemic melatonin and the influence of light exposure",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30074278/",
+   "source": "Clinical and Experimental Optometry",
+   "year": 2019,
+   "type": "review"
+  },
+  {
+   "id": 12,
+   "title": "Blue light therapy delivered through light glasses improves sleep quality and daytime sleepiness in Parkinson's disease: A randomized trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42558005/",
+   "source": "Journal of Parkinson's Disease",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "Computer Vision Syndrome in Undergraduate and Medical Students During the COVID-19 Pandemic",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37064959/",
+   "source": "Clinical Ophthalmology",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 14,
+   "title": "Enter Planet Cybertron",
+   "url": "https://t-nation.com/t/enter-planet-cybertron/220550",
+   "source": "T Nation forum",
+   "year": 2016,
+   "type": "forum"
+  },
+  {
+   "id": 15,
+   "title": "Stopping TRT After 2 Years. PCT Advice?",
+   "url": "https://t-nation.com/t/stopping-trt-after-2-years-pct-advice/258747",
+   "source": "T Nation forum",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 16,
+   "title": "Research finds that blue-light glasses improve sleep and workday productivity",
+   "url": "https://news.ycombinator.com/item?id=24786928",
+   "source": "Hacker News",
+   "year": 2020,
+   "type": "news"
+  },
+  {
+   "id": 17,
+   "title": "Blue-blocking glasses",
+   "url": "https://en.wikipedia.org/wiki/Blue_light_glasses",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 18,
+   "title": "PubMed search: sleep deprivation and perceived facial appearance (Sundelin et al. 2017; Holding et al. 2019)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Axelsson+sleep+deprivation+perceived+facial+appearance+attractiveness",
+   "source": "PubMed",
+   "year": 2019,
+   "type": "study"
+  },
+  {
+   "id": 19,
+   "title": "Blue-blocking glasses compared to partial blue-blockers on melatonin profile in third trimester of pregnancy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35024497/",
+   "source": "Neurobiology of Sleep and Circadian Rhythms",
+   "year": 2022,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Computer_vision_syndrome",
+   "title": "Computer vision syndrome (Wikipedia)"
+  },
+  {
+   "url": "https://www.aao.org/eye-health/tips-prevention/should-you-be-worried-about-blue-light",
+   "title": "Should you be worried about blue light? - AAO"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Blue_light_glasses",
+   "title": "Blue-blocking glasses (Wikipedia)"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Axelsson+sleep+deprivation+perceived+facial+appearance+attractiveness",
+   "title": "PubMed search: sleep deprivation and facial appearance"
+  }
+ ],
+ "name": "Blue-light glasses",
+ "card": {
+  "summary": "Light-filtering lenses sold for screen strain and sleep; the 'brighter eyes' claim has not been studied.",
+  "aka": "Blue-blockers, computer glasses",
+  "evidence": "unproven",
+  "outcome": "unsupported",
+  "risk": "low",
+  "price": null,
+  "note": "Reviews report little support for digital eye strain relief; no appearance studies.",
+  "status": null,
+  "structure": null
+ },
+ "quick": {
+  "overview": "Blue-light glasses filter some short-wavelength light from screens. They are sold for eye strain and sleep, and in appearance circles for brighter, less tired-looking eyes.\n\nReviews report little support for eye-strain benefit, and nobody has tested the cosmetic claim.",
+  "mechanism": "Tints or coatings reduce transmission of blue light, which is thought to affect comfort and the body clock.",
+  "risks": "Minimal risks are described; tinted lenses can alter colour perception."
+ }
 }

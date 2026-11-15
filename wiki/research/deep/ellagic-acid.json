@@ -1,72 +1,414 @@
 {
-  "name": "Ellagic acid",
-  "lead": [
-    "Ellagic acid is a naturally occurring polyphenol, the dilactone of hexahydroxydiphenic acid, found in foods such as pomegranates, raspberries, strawberries, walnuts and grapes, where it is released from ellagitannins [11][12]. It is marketed as an antioxidant and, in some skin-care products, as a brightening ingredient.",
-    "Most research concerns its antioxidant activity and its gut-microbiota metabolites, the urolithins [1][3][6]. The sources reviewed contain no clinical trial of ellagic acid for skin brightening. Wikipedia reports that it is sold as a supplement with claims against cancer and other diseases, that there is no scientific evidence for such claims, and that the FDA has issued warning letters over such claims [12]."
+ "lead": [
+  "Ellagic acid is a naturally occurring polyphenol, the dilactone of hexahydroxydiphenic acid, found in foods such as pomegranates, raspberries, strawberries, walnuts and grapes, where it is released from larger molecules called ellagitannins [11][12]. In appearance terms it is used in two ways: as a skin-care ingredient presented as an antioxidant and brightening agent aimed at dark spots and uneven tone, and as an oral supplement or dietary source, with the idea that antioxidants support healthier-looking, more even skin.",
+  "Laboratory work reports that ellagic acid suppresses tyrosinase activity and melanin production in pigment cells and reduces oxidative signaling in UVA-irradiated skin cells [24]. A small 2006 double-blind trial of an ellagic acid-rich pomegranate extract taken by mouth for four weeks reported a slightly smaller UV-induced darkening of skin in women [23], and a 2026 uncontrolled pilot of an SPF 50+ sunscreen containing ellagic acid with other ingredients reported lower melasma scores [25].",
+  "Most other research concerns its antioxidant activity in laboratory assays and its fate in the gut, where bacteria convert it into urolithins that are far better absorbed than the parent compound [1][3][6][12]. Human trials of ellagic acid itself have examined blood sugar, insulin resistance and liver fat [16][17][19]. Wikipedia notes that it has also been sold with disease claims, that there is no scientific evidence for those claims, and that the FDA has issued warning letters over them [12]."
+ ],
+ "angle": {
+  "goal": "Skin tone / brightness",
+  "chain": [
+   "Ellagic acid is applied to skin or taken orally as a polyphenol antioxidant",
+   "Laboratory studies show tyrosinase inhibition and antioxidant activity; a small trial of oral pomegranate extract looked at UV-induced darkening",
+   "Marketed as supporting a brighter, more even complexion with fewer dark spots"
   ],
-  "infobox": [
-    ["Type", "Polyphenol, ellagitannin-derived"],
-    ["Formula", "C14H6O8"],
-    ["Sources", "Pomegranate, raspberry, strawberry, walnut, oak"],
-    ["Bioavailability", "Low as free compound; metabolized by gut bacteria to urolithins"],
-    ["Use", "Dietary supplement; cosmetic antioxidant/brightener"]
+  "effect": "claimed",
+  "text": "Skin-care and supplement products describe ellagic acid as an antioxidant and brightener, and people use it hoping for a more even, brighter complexion with less pigmentation. Cell studies and one small oral trial of a pomegranate extract point in that direction; larger skin-tone trials of ellagic acid alone have not been published."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Polyphenol, ellagitannin-derived"
   ],
-  "sections": [
-    {
-      "h": "Chemistry and sources",
-      "paras": [
-        "Ellagic acid is formed by hydrolysis of ellagitannins and is described as poorly soluble in water [11][12]. Wikipedia lists chestnuts, walnuts, pecans, cranberries, raspberries, strawberries and grapes among foods containing it, with pomegranate juice a rich source [12]. Studies of pomegranate juice attribute much of its antioxidant activity to its phenolic composition, including punicalagin and ellagic acid [1][3]."
-      ]
-    },
-    {
-      "h": "Pharmacology",
-      "paras": [
-        "Wikipedia reports that about 90% of ellagic acid is unabsorbed in the intestine until gut microflora metabolize it into urolithins, which are more bioavailable [12]. The biological significance of these metabolites, and the role of gut microbiota in polyphenol bioavailability, have been reviewed [6][7]."
-      ]
-    },
-    {
-      "h": "Research",
-      "paras": [
-        "In vitro work reported antiproliferative, apoptotic and antioxidant activity of pomegranate polyphenols including ellagic acid, enhanced in combination with other polyphenols [3]. Reviews place polyphenols among dietary agents studied for cancer prevention, largely in preclinical settings [2][10]. Grokipedia notes that human clinical evidence for cancer and other conditions remains limited and preliminary [11]."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found on skin brightening or appearance use. Registered human trials involving ellagic acid or ellagitannin-rich foods address other outcomes: a trial in healthy men comparing ellagic acid from pomegranate juice with pure ellagic acid, a trial of a supplement for immune response to HPV infection, a phase 2 trial on metabolic syndrome components, and, in a further registered study, pharmacokinetics of pomegranate phenolics and urolithins [4][5][8]. A registered trial compared strawberry extract with hydrogen peroxide for tooth staining [9]."
-      ]
-    }
+  [
+   "Formula",
+   "C14H6O8"
   ],
-  "timeline": [],
-  "lore": null,
-  "refs": [
-    {"id": 1, "title": "Antioxidant activity of pomegranate juice and its relationship with phenolic composition and processing", "url": "https://pubmed.ncbi.nlm.nih.gov/11052704/", "source": "Journal of Agricultural and Food Chemistry", "year": 2000, "type": "study"},
-    {"id": 2, "title": "Molecular targets of dietary agents for prevention and therapy of cancer", "url": "https://pubmed.ncbi.nlm.nih.gov/16563357/", "source": "Biochemical Pharmacology", "year": 2006, "type": "review"},
-    {"id": 3, "title": "In vitro antiproliferative, apoptotic and antioxidant activities of punicalagin, ellagic acid and a total pomegranate tannin extract", "url": "https://pubmed.ncbi.nlm.nih.gov/15936648/", "source": "Journal of Nutritional Biochemistry", "year": 2005, "type": "study"},
-    {"id": 4, "title": "The effects of ellagic acid from pomegranate juice vs. pure ellagic acid on healthy male subjects (NCT03713164)", "url": "https://clinicaltrials.gov/study/NCT03713164", "source": "ClinicalTrials.gov", "year": 2018, "type": "trial"},
-    {"id": 5, "title": "A new supplement for the immune response to HPV infection (NCT02263378)", "url": "https://clinicaltrials.gov/study/NCT02263378", "source": "ClinicalTrials.gov", "year": 2014, "type": "trial"},
-    {"id": 6, "title": "Biological significance of urolithins, the gut microbial ellagic acid-derived metabolites: the evidence so far", "url": "https://pubmed.ncbi.nlm.nih.gov/23781257/", "source": "Evidence-Based Complementary and Alternative Medicine", "year": 2013, "type": "review"},
-    {"id": 7, "title": "Role of intestinal microbiota in the bioavailability and physiological functions of dietary polyphenols", "url": "https://pubmed.ncbi.nlm.nih.gov/30669635/", "source": "Molecules", "year": 2019, "type": "review"},
-    {"id": 8, "title": "Effect of ellagic acid on the components of metabolic syndrome (NCT04011618)", "url": "https://clinicaltrials.gov/study/NCT04011618", "source": "ClinicalTrials.gov", "year": 2019, "type": "trial"},
-    {"id": 9, "title": "Bleaching effect of strawberry extract versus hydrogen peroxide (NCT06287060)", "url": "https://clinicaltrials.gov/study/NCT06287060", "source": "ClinicalTrials.gov", "year": 2024, "type": "trial"},
-    {"id": 10, "title": "Polyphenols as cancer chemopreventive agents", "url": "https://pubmed.ncbi.nlm.nih.gov/8538195/", "source": "Journal of Cellular Biochemistry Supplement", "year": 1995, "type": "review"},
-    {"id": 11, "title": "Ellagic acid", "url": "https://grokipedia.com/page/Ellagic_acid", "source": "Grokipedia (AI-generated)", "year": 2025, "type": "encyclopedia"},
-    {"id": 12, "title": "Ellagic acid", "url": "https://en.wikipedia.org/wiki/Ellagic_acid", "source": "Wikipedia", "year": 2024, "type": "encyclopedia"}
+  [
+   "Sources",
+   "Pomegranate, raspberry, strawberry, walnut, oak"
   ],
-  "webSources": [
-    {"url": "https://en.wikipedia.org/wiki/Ellagic_acid", "title": "Ellagic acid - Wikipedia"}
+  [
+   "First described",
+   "Isolated by Henri Braconnot, 1831 [12]"
   ],
-  "card": {
-    "summary": "A fruit-and-nut polyphenol sold as an antioxidant and brightener; no skin trials found.",
-    "aka": null,
-    "evidence": "unproven",
-    "status": "otc",
-    "note": "Poor absorption; supplement health claims have drawn FDA warning letters.",
-    "structure": "Ellagic acid"
+  [
+   "Bioavailability",
+   "Low as free compound; metabolized by gut bacteria to urolithins"
+  ],
+  [
+   "Use",
+   "Dietary supplement; cosmetic antioxidant/brightener"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Chemistry and sources",
+   "paras": [
+    "Ellagic acid is formed by hydrolysis of ellagitannins and is described as poorly soluble in water [11][12]. Structurally it resembles two gallic acid molecules joined by a carbon-carbon bond with two lactone rings [12]. Wikipedia lists chestnuts, walnuts, pecans, cranberries, raspberries, strawberries and grapes among foods containing it, with pomegranate juice a rich source; its figures put yellow raspberries at about 1,900 mg per 100 g fresh weight, raspberries at about 270 and pomegranate at about 270, with pomegranate juice around 811 mg per litre [12]. Studies of pomegranate juice attribute much of its antioxidant activity to its phenolic composition, including punicalagin and ellagic acid [1][3].",
+    "Grokipedia adds that the compound is stable under neutral and mildly acidic conditions and breaks down in alkaline conditions, which is relevant to how it is formulated and extracted [11]."
+   ]
   },
-  "quick": {
-    "overview": "Ellagic acid is a polyphenol found in pomegranates, berries and walnuts, used in supplements and some skin-care products as an antioxidant or brightener.\n\nResearch is mostly laboratory-based; no trial of its brightening effect on skin was found.",
-    "mechanism": "It scavenges free radicals in laboratory assays and is converted by gut bacteria into urolithins, which are better absorbed than the parent compound.",
-    "risks": "Wikipedia reports the FDA has warned supplement companies over disease claims. No safety profile was found in the sources reviewed."
+  {
+   "h": "History",
+   "paras": [
+    "According to Wikipedia, the French chemist Henri Braconnot first discovered ellagic acid in 1831. The name comes from the French acide ellagique, derived from galle spelled backward, because it can be obtained from galls and to distinguish it from gallic acid. Maximilian Nierenstein prepared it from several plant sources in 1905, and Julius Löwe is credited with its first synthesis [12]."
+   ]
+  },
+  {
+   "h": "Use in skin care",
+   "paras": [
+    "Ellagic acid appears in some skin-care formulations as an antioxidant and brightener aimed at hyperpigmentation, dark spots and melasma. The pigment-focused rationale is its reported ability to slow melanin production in laboratory models, and it is often combined with other actives such as niacinamide or plant extracts [24][25][26].",
+    "A 2021 laboratory study in Biochemical Pharmacology used mouse melanoma cells, UVA-irradiated human keratinocytes and zebrafish. Ellagic acid suppressed tyrosinase activity and melanin production through reduction of cAMP-CREB and MITF signaling, induced autophagy in pigment cells, reduced reactive oxygen species and alpha-MSH release in irradiated keratinocytes via Nrf2 activation, and inhibited pigmentation in zebrafish; the authors describe it as a candidate skin-whitening agent for topical use [24].",
+    "A 2026 pilot study in the Journal of Cosmetic Dermatology followed 20 women, mean age 40, with melasma or sun-induced hyperpigmentation who used an SPF 50+ cream containing ellagic acid, niacinamide and a Polypodium leucotomos extract every morning for 12 weeks. MASI scores fell from 6.9 at baseline to 4.4 at week 12 and 3.9 at week 24, a 44 percent reduction, and tolerability was rated excellent. The study had no control group and tested the combination, and the authors call for larger controlled trials [25]. Recent reviews of skin-lightening botanicals and of pomegranate dermocosmetics list ellagic acid among the ingredients discussed [26]."
+   ]
+  },
+  {
+   "h": "Oral use and skin pigmentation",
+   "paras": [
+    "In a double-blind, placebo-controlled study in the Journal of Nutritional Science and Vitaminology, 13 healthy women in their 20s to 40s per group took an ellagic acid-rich pomegranate extract at either 100 or 200 mg of ellagic acid a day, or placebo, for four weeks, and a patch of inner upper arm skin was exposed to 1.5 times the minimal erythema dose of UV. Compared with placebo, the drop in skin lightness was smaller by 1.35 percent (low dose) and 1.73 percent (high dose), and in participants with slight sunburn the effect reached statistical significance at several time points. Questionnaires showed trends toward improvement in facial brightness, stains and freckles, and the authors concluded the extract may inhibit slight UV-induced pigmentation [23]."
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "paras": [
+    "Wikipedia reports that about 90% of ellagic acid is unabsorbed in the intestine until gut microflora metabolize it into urolithins, which are more bioavailable [12]. Reviews describe how individual gut microbiota shape this conversion and the biological significance of the metabolites [6][7]. In a crossover study of healthy volunteers, one serving of pomegranate juice delivering about 120 mg of ellagic acid produced plasma ellagic acid levels comparable to a 500 mg free ellagic acid supplement, although phase II metabolites were higher after the juice, suggesting other juice constituents also contribute [18].",
+    "The best-studied metabolite is urolithin A. A 2021 review describes it as a compound produced by gut bacteria from ellagitannins and ellagic acid that increases mitophagy and mitochondrial function and reduces inflammation, with muscle benefits supported by trials in older people [13]. A 2024 systematic review of five human studies with 250 healthy individuals found anti-inflammatory effects and increased muscle strength and endurance, without effects on anthropometrics, cardiovascular outcomes or physical function, and with mild or moderate unrelated adverse events [14]."
+   ]
+  },
+  {
+   "h": "Research",
+   "paras": [
+    "In vitro work reported antiproliferative, apoptotic and antioxidant activity of pomegranate polyphenols including ellagic acid, enhanced in combination with other polyphenols [3]. Reviews place polyphenols among dietary agents studied for cancer prevention, largely in preclinical settings [2][10]. Grokipedia notes that human clinical evidence for cancer and other conditions remains limited and preliminary [11]. A small crossover trial tested the urolithin A metabolite in ten patients with heart failure with reduced ejection fraction [15]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Studies of oral ellagic acid-rich pomegranate extract on UV-induced pigmentation and an uncontrolled pilot of a sunscreen containing ellagic acid in melasma are described under skin care [23][25]; no controlled trial of ellagic acid alone as a topical brightener has been published.",
+    "Human trials of ellagic acid address other outcomes. In a double-blind trial of 44 people with type 2 diabetes, 180 mg per day for 8 weeks was associated with significant decreases in blood sugar, insulin resistance, HbA1c, cholesterol and inflammatory markers compared with placebo, and increases in antioxidant enzyme activity [16]. In 60 women with polycystic ovary syndrome, 200 mg per day for 8 weeks reduced insulin resistance, lipids, oxidative-stress and inflammatory markers, total testosterone and prolactin versus placebo [17]. A trial of 60 people with fatty liver disease combined 200 mg per day with a reduced-calorie diet for 8 weeks and reported a larger reduction in a hepatic fat index than placebo [19].",
+    "Registered trials include a study comparing ellagic acid from pomegranate juice with pure ellagic acid in 19 healthy men [4], a 60-person supplement trial on immune response to HPV infection [5], a phase 2 trial on metabolic syndrome components [8], a 47-person study of ellagic acid, urolithin and gut bacteria after walnut consumption [20], and a phase 1 pharmacokinetic study of pomegranate phenolics and urolithins in 20 healthy people [21]. A registered trial compared strawberry extract with hydrogen peroxide for tooth staining [9]."
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Ellagic acid is sold as a dietary supplement and appears in some skin-care formulations as an antioxidant. Wikipedia reports that in the 21st century numerous US supplement companies received FDA warning letters for promoting it with claims to prevent or treat cancer and other diseases, citing a 2017 letter to one company, and that the FDA lists it among products it calls fake cancer cures [12]. Related urolithin A was given US food GRAS status in 2018, according to Wikipedia's urolithin A article [22]."
+   ]
   }
+ ],
+ "timeline": [
+  {
+   "year": "1831",
+   "event": "Henri Braconnot first discovers ellagic acid [12]."
+  },
+  {
+   "year": "1905",
+   "event": "Maximilian Nierenstein prepares it from several plant sources [12]."
+  },
+  {
+   "year": "2006",
+   "event": "Kasai and colleagues report a four-week double-blind trial of an ellagic acid-rich pomegranate extract on UV-induced pigmentation in women [23]."
+  },
+  {
+   "year": "2017",
+   "event": "FDA warning letter to a supplement company over disease claims is cited by Wikipedia [12]."
+  },
+  {
+   "year": "2018",
+   "event": "FDA GRAS listing for urolithin A [22]."
+  },
+  {
+   "year": "2021",
+   "event": "A laboratory study reports tyrosinase inhibition and anti-melanogenic effects of ellagic acid in melanocytes, keratinocytes and zebrafish [24]."
+  },
+  {
+   "year": "2026",
+   "event": "A 20-woman uncontrolled pilot of an ellagic acid-containing SPF 50+ sunscreen in melasma reports a 44 percent fall in MASI score [25]."
+  }
+ ],
+ "lore": {
+  "intro": "Ellagic acid is discussed mainly through product marketing and ingredient write-ups rather than forum threads: as a pomegranate-derived antioxidant for brighter skin, as an oral supplement, and as the precursor of urolithin A.",
+  "claims": [
+   {
+    "claim": "Ellagic acid brightens skin and fades dark spots",
+    "believers": "Skin-care brands and ingredient guides describe it as an antioxidant brightener that slows melanin production, often combined with niacinamide [25][26].",
+    "experts": "Laboratory work shows tyrosinase inhibition and reduced melanin in cells and zebrafish [24]; a small oral pomegranate-extract trial reported slightly less UV darkening [23], and a 20-woman uncontrolled sunscreen pilot reported lower melasma scores for a combination product [25].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Eating pomegranate or berries delivers ellagic acid for the skin",
+    "believers": "Proponents point to pomegranate juice and raspberries as rich food sources and to juice antioxidant activity [1][12].",
+    "experts": "About 90 percent of ellagic acid is reported unabsorbed until gut bacteria convert it to urolithins, and a crossover study found a juice serving with about 120 mg ellagic acid gave plasma levels comparable to a 500 mg free supplement [12][18]. No trial has linked food intake to skin tone.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Ellagic acid supplements treat or prevent cancer and other diseases",
+    "believers": "Supplement marketers have promoted it with disease claims [12].",
+    "experts": "Wikipedia reports there is no scientific evidence for those claims, that the FDA has sent warning letters to supplement companies and lists ellagic acid among fake cancer cures [12].",
+    "evidence": "harms"
+   },
+   {
+    "claim": "Poor absorption limits ellagic acid, and urolithin A is the real active form",
+    "believers": "Urolithin A brands say gut bacteria turn ellagic acid into the compound that supports mitochondrial and muscle health [13].",
+    "experts": "A 2024 systematic review of five human studies with 250 healthy people found anti-inflammatory effects and increased muscle strength and endurance, with no effect on anthropometrics [14]; none examined skin appearance.",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Ellagic acid helps blood sugar and metabolic health",
+    "believers": "Supplement users cite trials in type 2 diabetes, PCOS and fatty liver [16][17][19].",
+    "experts": "An 8-week trial of 44 people with type 2 diabetes reported lower glucose, HbA1c and inflammatory markers versus placebo [16]; these studies address metabolic outcomes, not skin.",
+    "evidence": "supported"
+   }
+  ]
+ },
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Ellagic_acid",
+   "title": "Ellagic acid - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Urolithin_A",
+   "title": "Urolithin A - Wikipedia"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17190110%20OR%20EXT_ID:33545118%20OR%20EXT_ID:41656621&format=json&resultType=core",
+   "title": "Europe PMC records: Kasai 2006, Yang 2021, sunscreen pilot 2026"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ellagic%20acid%20AND%20(skin%20OR%20pigmentation%20OR%20melanin)&format=json&pageSize=12&resultType=core",
+   "title": "Europe PMC: ellagic acid and skin"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17190110/",
+   "title": "Kasai et al. 2006"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33545118/",
+   "title": "Yang et al. 2021"
+  }
+ ],
+ "refs": [
+  {
+   "id": 1,
+   "title": "Antioxidant activity of pomegranate juice and its relationship with phenolic composition and processing",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11052704/",
+   "source": "Journal of Agricultural and Food Chemistry",
+   "year": 2000,
+   "type": "study"
+  },
+  {
+   "id": 2,
+   "title": "Molecular targets of dietary agents for prevention and therapy of cancer",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16563357/",
+   "source": "Biochemical Pharmacology",
+   "year": 2006,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "In vitro antiproliferative, apoptotic and antioxidant activities of punicalagin, ellagic acid and a total pomegranate tannin extract",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15936648/",
+   "source": "Journal of Nutritional Biochemistry",
+   "year": 2005,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "The effects of ellagic acid from pomegranate juice vs. pure ellagic acid on healthy male subjects (NCT03713164)",
+   "url": "https://clinicaltrials.gov/study/NCT03713164",
+   "source": "ClinicalTrials.gov",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "A new supplement for the immune response to HPV infection (NCT02263378)",
+   "url": "https://clinicaltrials.gov/study/NCT02263378",
+   "source": "ClinicalTrials.gov",
+   "year": 2014,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Biological significance of urolithins, the gut microbial ellagic acid-derived metabolites: the evidence so far",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23781257/",
+   "source": "Evidence-Based Complementary and Alternative Medicine",
+   "year": 2013,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Role of intestinal microbiota in the bioavailability and physiological functions of dietary polyphenols",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30669635/",
+   "source": "Molecules",
+   "year": 2019,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "Effect of ellagic acid on the components of metabolic syndrome (NCT04011618)",
+   "url": "https://clinicaltrials.gov/study/NCT04011618",
+   "source": "ClinicalTrials.gov",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Bleaching effect of strawberry extract versus hydrogen peroxide (NCT06287060)",
+   "url": "https://clinicaltrials.gov/study/NCT06287060",
+   "source": "ClinicalTrials.gov",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Polyphenols as cancer chemopreventive agents",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8538195/",
+   "source": "Journal of Cellular Biochemistry Supplement",
+   "year": 1995,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "Ellagic acid",
+   "url": "https://grokipedia.com/page/Ellagic_acid",
+   "source": "Grokipedia (AI-generated)",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 12,
+   "title": "Ellagic acid",
+   "url": "https://en.wikipedia.org/wiki/Ellagic_acid",
+   "source": "Wikipedia",
+   "year": 2024,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 13,
+   "title": "Impact of the Natural Compound Urolithin A on Health, Disease, and Aging",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34030963/",
+   "source": "Trends in Molecular Medicine",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 14,
+   "title": "Targeting aging with urolithin A in humans: A systematic review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39002645/",
+   "source": "Ageing Research Reviews",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 15,
+   "title": "Evaluation of Urolithin A Efficacy in Heart Failure Patients with Reduced Ejection Fraction",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38415449/",
+   "source": "Reviews on Recent Clinical Trials",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 16,
+   "title": "Randomized double-blind clinical trial examining the ellagic acid effects on glycemic status, insulin resistance, antioxidant, and inflammatory factors in patients with type 2 diabetes",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32909365/",
+   "source": "Phytotherapy Research",
+   "year": 2021,
+   "type": "trial"
+  },
+  {
+   "id": 17,
+   "title": "Randomized double blind clinical trial evaluating the ellagic acid effects on insulin resistance, oxidative stress and sex hormones levels in women with polycystic ovarian syndrome",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34330312/",
+   "source": "Journal of Ovarian Research",
+   "year": 2021,
+   "type": "trial"
+  },
+  {
+   "id": 18,
+   "title": "Bioavailability and bioactivity of free ellagic acid compared to pomegranate juice",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31552981/",
+   "source": "Food & Function",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 19,
+   "title": "The effects of ellagic acid in metabolic dysfunction-associated steatotic liver disease (MASLD) patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40877731/",
+   "source": "Inflammopharmacology",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 20,
+   "title": "Ellagic Acid, Urolithin and Colonic Microbial Communities Affected by Walnut Consumption (NCT04066816)",
+   "url": "https://clinicaltrials.gov/study/NCT04066816",
+   "source": "ClinicalTrials.gov",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 21,
+   "title": "Pharmacokinetics and Bioavailability of Pomegranate Phenolics and Urolithins in Healthy Subjects (NCT02056496)",
+   "url": "https://clinicaltrials.gov/study/NCT02056496",
+   "source": "ClinicalTrials.gov",
+   "year": 2014,
+   "type": "trial"
+  },
+  {
+   "id": 22,
+   "title": "Urolithin A",
+   "url": "https://en.wikipedia.org/wiki/Urolithin_A",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 23,
+   "title": "Effects of oral administration of ellagic acid-rich pomegranate extract on ultraviolet-induced pigmentation in the human skin",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17190110/",
+   "source": "Journal of Nutritional Science and Vitaminology",
+   "year": 2006,
+   "type": "trial"
+  },
+  {
+   "id": 24,
+   "title": "The anti-melanogenic effects of ellagic acid through induction of autophagy in melanocytes and suppression of UVA-activated alpha-MSH pathways via Nrf2 activation in keratinocytes",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33545118/",
+   "source": "Biochemical Pharmacology",
+   "year": 2021,
+   "type": "study"
+  },
+  {
+   "id": 25,
+   "title": "A 50+ sunscreen containing Polypodium leucotomos extract, ellagic acid and niacinamide in facial melasma and photoaging-related hyperpigmentation: a pilot observational study (Europe PMC record)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17190110%20OR%20EXT_ID:33545118%20OR%20EXT_ID:41656621&format=json&resultType=core",
+   "source": "Journal of Cosmetic Dermatology / Europe PMC",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 26,
+   "title": "Europe PMC records on ellagic acid and skin pigmentation, including reviews of skin-lightening botanicals and pomegranate dermocosmetics (Journal of Cosmetic Dermatology 2026; Antioxidants 2026)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ellagic%20acid%20AND%20(skin%20OR%20pigmentation%20OR%20melanin)&format=json&pageSize=12&resultType=core",
+   "source": "Europe PMC",
+   "year": 2026,
+   "type": "review"
+  }
+ ],
+ "name": "Ellagic acid",
+ "card": {
+  "summary": "A fruit-and-nut polyphenol sold as an antioxidant and brightener; no skin trials found.",
+  "aka": null,
+  "evidence": "unproven",
+  "status": "otc",
+  "note": "Poor absorption; supplement health claims have drawn FDA warning letters.",
+  "structure": "Ellagic acid"
+ },
+ "quick": {
+  "overview": "Ellagic acid is a polyphenol found in pomegranates, berries and walnuts, used in supplements and some skin-care products as an antioxidant or brightener.\nResearch is mostly laboratory-based; no trial of its brightening effect on skin was found.",
+  "mechanism": "It scavenges free radicals in laboratory assays and is converted by gut bacteria into urolithins, which are better absorbed than the parent compound.",
+  "risks": "Wikipedia reports the FDA has warned supplement companies over disease claims. No safety profile has been established."
+ }
 }

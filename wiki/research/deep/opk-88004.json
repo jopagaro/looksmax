@@ -2,6 +2,7 @@
  "name": "OPK-88004",
  "lead": [
   "OPK-88004, also known as LY-2452473, is an investigational non-steroidal selective androgen receptor modulator (SARM). It has been studied for androgen deficiency symptoms in prostate cancer survivors and for benign prostatic hyperplasia (BPH).[1][2][3]",
+  "SARMs as a class are of interest to people building muscle and leaning out because they aim to switch on the androgen receptor in muscle and bone more than in the prostate.[6] OPK-88004 is not among the SARMs commonly sold on the gray market; it is known mainly from clinical trials. The related SARMs that are widely discussed by bodybuilders are different molecules.[6]",
   "In a randomized trial of 114 testosterone-deficient men who had undergone prostatectomy for low-grade prostate cancer, it increased lean body mass and reduced fat mass, but did not improve sexual symptoms or physical performance, and no PSA recurrence was seen.[1] A phase 2 BPH trial was terminated.[3] It is not approved for any use."
  ],
  "infobox": [
@@ -24,13 +25,33 @@
   [
    "Legal status",
    "Not approved for any use"
+  ],
+  [
+   "Developer",
+   "Eli Lilly and OPKO (indole-class SARM)[6]"
+  ],
+  [
+   "Studied doses in trial",
+   "1, 5 and 15 mg daily for 12 weeks[1]"
   ]
  ],
  "sections": [
   {
+   "h": "Pharmacology",
+   "paras": [
+    "OPK-88004, also coded TT-701 and LY-2452473, is an indole-class non-steroidal SARM developed by Eli Lilly and OPKO and investigated for benign prostatic hyperplasia, quality of life in prostate cancer survivors and erectile dysfunction.[6] SARMs are thought to act as mixed agonists and antagonists at the androgen receptor, behaving as agonists in tissues such as bone and muscle where coactivators predominate and as partial agonists or antagonists in the prostate where corepressors predominate, although the exact mechanism is still debated.[6] Because SARMs are not aromatised to estrogen, estrogenic effects are not expected.[6]"
+   ]
+  },
+  {
    "h": "Effectiveness",
    "paras": [
     "In the prostate cancer survivor trial, OPK-88004 produced a dose-related increase in whole-body lean mass and a decrease in fat mass, but sexual symptoms and physical performance did not improve.[1] A 2025 systematic review of randomized trials of SARMs covers the class more broadly.[4]"
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "The first non-steroidal SARMs appeared in 1998 from groups at the University of Tennessee and Ligand Pharmaceuticals, and the term SARM was introduced in 1999.[6] OPK-88004 reached phase 2 in the 2010s.[1][3] Rat studies showed SARMs reducing prostate weight, but the human BPH trial was terminated, and Wikipedia reports that the primary endpoint of measuring prostate size proved difficult.[3][6] The prostate cancer survivor trial was supported by US National Institutes of Health extramural funding and published in 2021.[1]"
    ]
   },
   {
@@ -48,7 +69,7 @@
   {
    "h": "Society and culture",
    "paras": [
-    "The sources reviewed do not document use of OPK-88004 in looksmaxxing communities; it appears in the literature as an investigational drug in clinical trials, and SARM detection methods used in anti-doping testing include its code name LY-2452473.[5]"
+    "OPK-88004 is not documented in looksmaxxing communities; it appears in the literature as an investigational drug in clinical trials, and SARM detection methods used in anti-doping testing include its code name LY-2452473.[5] More broadly, no SARM had been approved by the FDA or the EMA as of 2023, SARMs have been banned by WADA since 2008, and some jurisdictions treat marketing SARMs for human consumption as illegal.[6]"
    ]
   }
  ],
@@ -107,9 +128,22 @@
    "source": "Journal of Pharmaceutical and Biomedical Analysis",
    "year": 2021,
    "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Selective androgen receptor modulator",
+   "url": "https://en.wikipedia.org/wiki/Selective_androgen_receptor_modulator",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
   }
  ],
- "webSources": [],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Selective_androgen_receptor_modulator",
+   "title": "Selective androgen receptor modulator - Wikipedia"
+  }
+ ],
  "card": {
   "summary": "Investigational SARM that raised lean mass and cut fat in prostate cancer survivors without improving symptoms or performance.",
   "aka": "LY-2452473",
@@ -122,8 +156,18 @@
   "structure": null
  },
  "quick": {
-  "overview": "OPK-88004 is an experimental SARM tested in testosterone-deficient prostate cancer survivors and in men with BPH. In the survivor trial it increased lean mass and lowered fat mass.\n\nIt did not improve sexual symptoms or physical performance, and the BPH trial was terminated.",
+  "overview": "OPK-88004 is an experimental SARM tested in testosterone-deficient prostate cancer survivors and in men with BPH. In the survivor trial it increased lean mass and lowered fat mass.\nIt did not improve sexual symptoms or physical performance, and the BPH trial was terminated.",
   "mechanism": "It is an oral non-steroidal androgen receptor modulator intended to act on muscle with less effect on the prostate.",
   "risks": "The survivor trial reported no PSA recurrence or erythrocytosis. Oral SARMs have been reported to suppress HDL cholesterol. It is not approved for any use."
+ },
+ "angle": {
+  "goal": "Muscle and body composition",
+  "chain": [
+   "Oral SARM binds the androgen receptor, aiming at muscle over prostate",
+   "Higher lean body mass and lower fat mass in a 12-week trial",
+   "Leaner, more muscular body composition"
+  ],
+  "effect": "indirect",
+  "text": "In its randomized trial, OPK-88004 raised whole-body lean mass and lowered fat mass in a dose-related way in testosterone-deficient men. It is investigational and was studied as a treatment for androgen deficiency and benign prostatic hyperplasia rather than for appearance."
  }
 }

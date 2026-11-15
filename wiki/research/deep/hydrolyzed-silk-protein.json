@@ -1,7 +1,7 @@
 {
  "name": "Hydrolyzed silk protein",
  "lead": [
-  "Hydrolyzed silk protein is silk protein broken into smaller peptides and amino acids, used in cosmetic products including hair conditioners. Silk is mainly fibroin with a coating of sericin.[1]",
+  "Hydrolyzed silk protein is silk protein broken into smaller peptides and amino acids, used in cosmetic products including hair conditioners and washes to leave hair and skin feeling smoother and softer. Silk is mainly fibroin with a coating of sericin.[1]",
   "Cosmetic formulations containing it appear in patents for washing gels and permanent-wave compositions.[2][3] No clinical trial found tests it for hair appearance."
  ],
  "infobox": [
@@ -35,6 +35,19 @@
    "h": "Other research",
    "paras": [
     "A 2010 study in diabetic mice examined silk protein hydrolysates for blood glucose and lipids.[5] It does not concern hair."
+   ]
+  },
+  {
+   "h": "Composition of silk",
+   "paras": [
+    "Wikipedia's article on sericin gives silk as about 70 to 80 percent fibroin, which forms the structural core of the fibre, and 20 to 30 percent sericin, the gum coating that holds fibres together. Sericin is roughly 32 percent serine, whose hydrogen bonds give it a glue-like quality [6]. The article reports that sericin can improve skin elasticity and have anti-wrinkle properties partly by reducing water loss from skin, and that it is used in wound closure for its biocompatibility. It does not discuss hair-care uses or hydrolyzed silk [6]."
+   ]
+  },
+  {
+   "h": "How it fits into conditioning",
+   "paras": [
+    "Hair conditioners do not biologically repair hair but deposit material that coats the fibre and fills damaged areas of the cuticle, reducing friction so hair combs more smoothly; cationic surfactants, fatty alcohols and silicones are the main agents described [7]. Hydrolyzed proteins are used in products on a similar premise, as small, water-soluble fragments that can sit on or in the hair surface, but the Wikipedia conditioner article does not single out silk protein [7].",
+    "In the patent record, hydrolyzed silk protein appears as one ingredient among surfactants and moisturisers: a 2005 Russian patent for a bath foam-cream lists it with sodium laureth sulfate and cocamidopropyl betaine, and a washing-gel patent lists it with panthenol and plankton extract as active additives [2][3]."
    ]
   },
   {
@@ -86,12 +99,36 @@
    "source": "Nutrition Research",
    "year": 2010,
    "type": "study"
+  },
+  {
+   "title": "Sericin",
+   "url": "https://en.wikipedia.org/wiki/Sericin",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia",
+   "id": 6
+  },
+  {
+   "title": "Hair conditioner",
+   "url": "https://en.wikipedia.org/wiki/Hair_conditioner",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia",
+   "id": 7
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Silk",
    "title": "Silk - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Sericin",
+   "title": "Sericin - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Hair_conditioner",
+   "title": "Hair conditioner - Wikipedia"
   }
  ],
  "card": {
@@ -103,8 +140,18 @@
   "structure": null
  },
  "quick": {
-  "overview": "Hydrolyzed silk protein is silk split into smaller peptides, found in conditioners and cleansers.\n\nNo human study found tests it for hair appearance.",
-  "mechanism": "Silk is mostly fibroin and sericin; hydrolysis makes smaller fragments. No hair mechanism is established in the sources reviewed.",
-  "risks": "No hair-specific safety data found in the sources reviewed."
+  "overview": "Hydrolyzed silk protein is silk split into smaller peptides, found in conditioners and cleansers.\nNo human study found tests it for hair appearance.",
+  "mechanism": "Silk is mostly fibroin and sericin; hydrolysis makes smaller fragments. No hair mechanism has been established.",
+  "risks": "No hair-specific safety data have been found."
+ },
+ "angle": {
+  "goal": "Hair smoothness and shine",
+  "chain": [
+   "Silk protein is hydrolysed into small peptides",
+   "Peptides in a conditioner coat and smooth the hair surface",
+   "Softer-feeling, shinier-looking hair"
+  ],
+  "effect": "claimed",
+  "text": "Hydrolyzed silk protein is listed as a conditioning and moisturising ingredient in hair and body products. Users choose it for softness and shine, with the effect resting on the general behaviour of conditioning proteins."
  }
 }

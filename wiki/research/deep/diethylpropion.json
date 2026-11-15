@@ -1,60 +1,268 @@
 {
-"name": "Diethylpropion",
-"lead": [
-"Diethylpropion, also called amfepramone, is a prescription appetite suppressant of the phenethylamine and cathinone families. The US label indicates it as a short-term adjunct, lasting a few weeks, to a calorie-restricted regimen for people with a body mass index of 30 kg/m2 or higher who have not responded to diet or exercise alone. [1][2]",
-"It is a prodrug of ethcathinone and is a Schedule IV controlled substance in the US. [2] In June 2022 the European Medicines Agency's safety committee recommended withdrawing marketing authorisations for amfepramone medicines, according to Wikipedia. [2]",
-"Meta-analyses of weight-loss drugs have included diethylpropion alongside phentermine and sibutramine. [3] No community material about it is catalogued here."
-],
-"infobox": [
-["Drug class","Cathinone-type stimulant, anorectic"],
-["Route","Oral"],
-["Other names","Amfepramone, diethylcathinone [2]"],
-["Brand names","Tenuate, Tepanil, Nobesine, Regenon and others [2]"],
-["US legal status","Schedule IV, prescription only [2]"],
-["EU","Withdrawal of authorisations recommended June 2022 [2]"]
-],
-"sections": [
-{"h":"Uses","subs":[{"h":"Medical uses","paras":[
-"The label for extended-release diethylpropion describes management of exogenous obesity as a short-term adjunct (a few weeks) in patients with BMI of 30 kg/m2 or higher who have not responded to diet or exercise alone. [1] The 2022 American Gastroenterological Association guideline on pharmacological interventions for obesity forms part of the current clinical context for such drugs. [4]"
-]}]},
-{"h":"Adverse effects","paras":[
-"The label lists precordial pain, arrhythmia, ECG changes, tachycardia, raised blood pressure and palpitation, with rare reports of pulmonary hypertension. [1] It warns against combination with other anorectics and cites a case-control study associating anorectic use beyond three months with a 23-fold increase in pulmonary hypertension risk. [1] Valvulopathy has been very rarely reported with diethylpropion monotherapy, with causality uncertain. [1] Reviews of anti-obesity drug safety discuss the class's cardiovascular and abuse-related concerns. [5][6]"
-]},
-{"h":"Pharmacology","paras":[
-"Wikipedia states diethylpropion has no meaningful affinity for monoamine transporters itself and acts through ethcathinone, which affects norepinephrine roughly ten times more than dopamine and twenty times more than serotonin. [2] Elimination half-life of metabolites is given as about 4 to 6 hours. [2] Early animal research examined self-administration of stimulants including this class. [7]"
-]},
-{"h":"Society and culture","paras":[
-"Legal status varies: Schedule IV in the US, Class C in the UK, prescription-only in Germany and Australia, and Schedule IV in Canada. [2] Studies cited on Wikipedia describe its abuse potential as relatively low. [2]"
-]},
-{"h":"Clinical studies","paras":[
-"A 2005 meta-analysis of pharmacologic obesity treatments included pooled analyses of diethylpropion together with sibutramine and phentermine. [3] A registered phase 4 trial, the Louisiana Obese Subjects Study, examined non-surgical weight loss in severe obesity but was terminated. [8] No studies found of diethylpropion specifically for appearance-related goals."
-]}
-],
-"timeline": [{"year":"2022","event":"EMA safety committee recommended withdrawing amfepramone authorisations, per Wikipedia. [2]"}],
-"lore": null,
-"refs": [
-{"id":1,"title":"Diethylpropion hydrochloride extended release tablets (US drug label)","url":"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=043b81ed-f05c-43db-b2aa-499cb9f73b44","source":"DailyMed","year":2024,"type":"label"},
-{"id":2,"title":"Diethylpropion (Amfepramone)","url":"https://en.wikipedia.org/wiki/Diethylpropion","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":3,"title":"Meta-analysis: pharmacologic treatment of obesity","url":"https://pubmed.ncbi.nlm.nih.gov/15809465/","source":"Annals of Internal Medicine","year":2005,"type":"review"},
-{"id":4,"title":"AGA Clinical Practice Guideline on Pharmacological Interventions for Adults With Obesity","url":"https://pubmed.ncbi.nlm.nih.gov/36273831/","source":"Gastroenterology","year":2022,"type":"guideline"},
-{"id":5,"title":"Safety of antiobesity drugs","url":"https://pubmed.ncbi.nlm.nih.gov/25114779/","source":"Therapeutic Advances in Drug Safety","year":2013,"type":"review"},
-{"id":6,"title":"Safety of drug therapies used for weight loss and treatment of obesity","url":"https://pubmed.ncbi.nlm.nih.gov/16569079/","source":"Drug Safety","year":2006,"type":"review"},
-{"id":7,"title":"Self-administration of psychomotor stimulant drugs: the effects of unlimited access","url":"https://pubmed.ncbi.nlm.nih.gov/4818/","source":"Pharmacology, Biochemistry and Behavior","year":1976,"type":"study"},
-{"id":8,"title":"LOSS - Louisiana Obese Subjects Study (NCT00115063)","url":"https://clinicaltrials.gov/study/NCT00115063","source":"ClinicalTrials.gov","year":2005,"type":"trial"}
-],
-"webSources": [{"url":"https://en.wikipedia.org/wiki/Diethylpropion","title":"Amfepramone (Diethylpropion) - Wikipedia"}],
-"card": {
-"summary": "Older prescription appetite suppressant labelled for a few weeks of obesity treatment; Schedule IV in the US and recommended for withdrawal in the EU.",
-"aka": "Amfepramone, Tenuate",
-"evidence": "limited",
-"status": "rx",
-"price": null,
-"note": "Controlled substance; EMA safety committee recommended withdrawal in 2022.",
-"structure": "Diethylpropion"
-},
-"quick": {
-"overview": "Diethylpropion is a prescription stimulant that reduces appetite. In the US it is labelled for a few weeks of use alongside dieting in people with obesity.\n\nIt is an older drug, included in some meta-analyses of obesity medications, and is not approved for cosmetic use.",
-"mechanism": "It is converted to ethcathinone, which mainly affects norepinephrine signalling and reduces appetite.",
-"risks": "The label lists raised heart rate and blood pressure, arrhythmia, and rare pulmonary hypertension, with a cited association for anorectic use beyond three months. It is Schedule IV in the US, and in 2022 an EMA committee recommended withdrawing it from the EU market."
-}
+ "name": "Diethylpropion",
+ "lead": [
+  "Diethylpropion, also called amfepramone, is a prescription appetite suppressant of the phenethylamine and cathinone families. The US label indicates it as a short-term adjunct, lasting a few weeks, to a calorie-restricted regimen for people with a body mass index of 30 kg/m2 or higher who have not responded to diet or exercise alone.[1][2]",
+  "Its link to appearance runs through weight loss: by reducing appetite, it helps people eat less on a calorie-restricted plan, and lower body fat produces a leaner face, jawline and body. It is a prodrug of ethcathinone and is a Schedule IV controlled substance in the US.[2] In June 2022 the European Medicines Agency's safety committee recommended withdrawing marketing authorisations for amfepramone medicines, according to Wikipedia.[2]",
+  "Published controlled trials of the drug date mainly from the 1970s and 1980s. Meta-analyses of weight-loss drugs have included it alongside phentermine and sibutramine.[3][9] Appetite-suppressant reviews group it with phentermine, benzphetamine and phendimetrazine as sympathomimetic drugs approved in only a few countries.[10]"
+ ],
+ "infobox": [
+  [
+   "Drug class",
+   "Cathinone-type stimulant, anorectic"
+  ],
+  [
+   "Route",
+   "Oral"
+  ],
+  [
+   "Other names",
+   "Amfepramone, diethylcathinone [2]"
+  ],
+  [
+   "Brand names",
+   "Tenuate, Tepanil, Nobesine, Regenon and others [2]"
+  ],
+  [
+   "US legal status",
+   "Schedule IV, prescription only [2]"
+  ],
+  [
+   "EU",
+   "Withdrawal of authorisations recommended June 2022 [2]"
+  ],
+  [
+   "Elimination half-life (metabolites)",
+   "About 4 to 6 hours [2]"
+  ],
+  [
+   "Other US label limits",
+   "Short-term use (a few weeks) [1]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Uses",
+   "subs": [
+    {
+     "h": "Medical uses",
+     "paras": [
+      "The label for extended-release diethylpropion describes management of exogenous obesity as a short-term adjunct (a few weeks) in patients with BMI of 30 kg/m2 or higher who have not responded to diet or exercise alone. [1] The 2022 American Gastroenterological Association guideline on pharmacological interventions for obesity forms part of the current clinical context for such drugs. [4]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "paras": [
+    "Wikipedia states diethylpropion has no meaningful affinity for monoamine transporters itself and acts through ethcathinone, which affects norepinephrine roughly ten times more than dopamine and twenty times more than serotonin. [2] Elimination half-life of metabolites is given as about 4 to 6 hours. [2] Early animal research examined self-administration of stimulants including this class. [7]",
+    "Appetite-suppressant reviews place diethylpropion among agents that mimic or release norepinephrine, and note that older stimulants such as amphetamine were dropped because of addictive potential.[10]"
+   ]
+  },
+  {
+   "h": "Chemistry",
+   "paras": [
+    "Diethylpropion is a racemic compound with the formula C13H19NO and a molar mass of about 205 g/mol, structurally related to bupropion, which has itself been combined with naltrexone as a weight-loss product.[2] Wikipedia describes its synthesis as starting from propiophenone, which is brominated and then reacted with diethylamine, and cites a US patent issued on 26 September 1961 and assigned to Temmler-Werke.[2]"
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "paras": [
+    "The label lists precordial pain, arrhythmia, ECG changes, tachycardia, raised blood pressure and palpitation, with rare reports of pulmonary hypertension. [1] It warns against combination with other anorectics and cites a case-control study associating anorectic use beyond three months with a 23-fold increase in pulmonary hypertension risk. [1] Valvulopathy has been very rarely reported with diethylpropion monotherapy, with causality uncertain. [1] Reviews of anti-obesity drug safety discuss the class's cardiovascular and abuse-related concerns. [5][6]",
+    "Case reports describe dependence and psychosis with diethylpropion, including a 1968 report of dependence and a 1988 report of psychosis.[14][15] A systematic review of drug treatments for obesity reports on these agents within its section on pharmacological options.[16]"
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Diethylpropion belongs to the sympathomimetic anorectic family, and a 1968 report of dependence is among the earliest safety literature on it.[14] The 1981 Elsinore pill comparison shows it used as an active comparator for ephedrine-caffeine treatment.[12] In 2022 the EMA safety committee recommendation to withdraw amfepramone authorisations is described by Wikipedia as a regulatory step in Europe.[2]",
+    "Wikipedia cites a 1961 Temmler-Werke patent for its synthesis route and lists a long set of brand names used in different countries, including Anorex, Linea, Nobesine, Prefamone, Regenon, Tepanil and Tenuate.[2]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Legal status varies: Schedule IV in the US, Class C in the UK (a Schedule 3 controlled drug as a medicine, requiring safe custody), Schedule 4 prescription-only in Australia, Class B2 in Brazil, Schedule G in Canada, and prescription-only in Germany and the wider EU.[2] Studies cited on Wikipedia, including 1960s and 1970s papers, describe it as an infrequently abused anorectic with relatively low addiction potential.[2] In the 2022 recommendation the EMA safety committee advised withdrawing marketing authorisations for amfepramone medicines in the EU.[2]",
+    "Wikipedia lists brand names including Tenuate, Tepanil, Nobesine and Regenon.[2] In the 2005 Drugs review it is listed among anti-obesity agents that have been used over the decades, including thyroid hormone, amphetamines, fenfluramines, sibutramine and orlistat.[9]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Several small randomized trials of diethylpropion were published in the 1970s and 1980s. A 1973 controlled trial examined long-term use in obesity.[13] A 1980 double-blind trial in 60 obese outpatients compared diethylpropion with placebo alongside a behavior modification program; diethylpropion was significantly better than placebo on all five assessments (total weight loss, percent of initial weight lost, percent excess weight lost, program effectiveness and helpfulness of medication), and a refundable monetary deposit cut attrition from 50% to 10%.[11]",
+    "A 1981 controlled study randomized 132 obese patients to diethylpropion, an ephedrine-caffeine prescription (the Elsinore pill) or placebo, all on a 1200-kcal diet. Among the 108 who completed 12 weeks, median weight loss was 8.4 kg with diethylpropion (39 patients), 8.1 kg with the Elsinore pill (38 patients) and 4.1 kg with placebo (31 patients).[12]",
+    "A 2005 meta-analysis of pharmacologic obesity treatments included pooled analyses of diethylpropion together with sibutramine and phentermine.[3] A registered phase 4 trial, the Louisiana Obese Subjects Study (n=390), examined non-surgical weight loss in severe obesity but was terminated.[8] No studies found of diethylpropion specifically for appearance-related goals."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1961",
+   "event": "US patent for diethylpropion synthesis issued, assigned to Temmler-Werke.[2]"
+  },
+  {
+   "year": "2022",
+   "event": "EMA safety committee recommended withdrawing amfepramone authorisations, per Wikipedia. [2]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Diethylpropion hydrochloride extended release tablets (US drug label)",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=043b81ed-f05c-43db-b2aa-499cb9f73b44",
+   "source": "DailyMed",
+   "year": 2024,
+   "type": "label"
+  },
+  {
+   "id": 2,
+   "title": "Diethylpropion (Amfepramone)",
+   "url": "https://en.wikipedia.org/wiki/Diethylpropion",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Meta-analysis: pharmacologic treatment of obesity",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15809465/",
+   "source": "Annals of Internal Medicine",
+   "year": 2005,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "AGA Clinical Practice Guideline on Pharmacological Interventions for Adults With Obesity",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36273831/",
+   "source": "Gastroenterology",
+   "year": 2022,
+   "type": "guideline"
+  },
+  {
+   "id": 5,
+   "title": "Safety of antiobesity drugs",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25114779/",
+   "source": "Therapeutic Advances in Drug Safety",
+   "year": 2013,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Safety of drug therapies used for weight loss and treatment of obesity",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16569079/",
+   "source": "Drug Safety",
+   "year": 2006,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Self-administration of psychomotor stimulant drugs: the effects of unlimited access",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/4818/",
+   "source": "Pharmacology, Biochemistry and Behavior",
+   "year": 1976,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "LOSS - Louisiana Obese Subjects Study (NCT00115063)",
+   "url": "https://clinicaltrials.gov/study/NCT00115063",
+   "source": "ClinicalTrials.gov",
+   "year": 2005,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Pharmacotherapy for obesity",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15977970/",
+   "source": "Drugs",
+   "year": 2005,
+   "type": "review"
+  },
+  {
+   "id": 10,
+   "title": "Drug Insight: appetite suppressants",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16265126/",
+   "source": "Nature Clinical Practice Gastroenterology & Hepatology",
+   "year": 2005,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "An evaluation of behavioral techniques reinforced with an anorectic drug in a double-blind weight loss study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6993445/",
+   "source": "Journal of Clinical Psychiatry",
+   "year": 1980,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "Ephedrine as an anorectic: the story of the 'Elsinore pill'",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7228474/",
+   "source": "International Journal of Obesity",
+   "year": 1981,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "Long-term use of diethylpropion in obesity",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/4589633/",
+   "source": "Current Medical Research and Opinion",
+   "year": 1973,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "Diethylpropion dependence",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/5642840/",
+   "source": "Medical Journal of Australia",
+   "year": 1968,
+   "type": "study"
+  },
+  {
+   "id": 15,
+   "title": "Diethylpropion hydrochloride-induced psychosis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/3167418/",
+   "source": "British Journal of Psychiatry",
+   "year": 1988,
+   "type": "study"
+  },
+  {
+   "id": 16,
+   "title": "Obesity in adults",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21411021/",
+   "source": "BMJ Clinical Evidence",
+   "year": 2011,
+   "type": "review"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Diethylpropion",
+   "title": "Amfepramone (Diethylpropion) - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "Older prescription appetite suppressant labelled for a few weeks of obesity treatment; Schedule IV in the US and recommended for withdrawal in the EU.",
+  "aka": "Amfepramone, Tenuate",
+  "evidence": "limited",
+  "status": "rx",
+  "price": null,
+  "note": "Controlled substance; EMA safety committee recommended withdrawal in 2022.",
+  "structure": "Diethylpropion"
+ },
+ "quick": {
+  "overview": "Diethylpropion is a prescription stimulant that reduces appetite. In the US it is labelled for a few weeks of use alongside dieting in people with obesity.\n\nIt is an older drug, included in some meta-analyses of obesity medications, and is not approved for cosmetic use.",
+  "mechanism": "It is converted to ethcathinone, which mainly affects norepinephrine signalling and reduces appetite.",
+  "risks": "The label lists raised heart rate and blood pressure, arrhythmia, and rare pulmonary hypertension, with a cited association for anorectic use beyond three months. It is Schedule IV in the US, and in 2022 an EMA committee recommended withdrawing it from the EU market."
+ },
+ "angle": {
+  "goal": "Weight loss / leaner look",
+  "chain": [
+   "Prescription stimulant reduces appetite",
+   "Calorie intake falls on a restricted diet",
+   "Body fat drops, giving a leaner face and physique"
+  ],
+  "effect": "indirect",
+  "text": "Diethylpropion reduces appetite so a calorie-restricted diet is easier to follow, and fat loss then shows in facial and body leanness. It is prescribed for obesity in some countries, not for cosmetic purposes."
+ }
 }

@@ -1,0 +1,49 @@
+{
+  "name": "Thrombinator",
+  "card": {
+    "summary": "A point-of-care system that makes thrombin from a patient's own blood, used to activate platelet-rich plasma preparations in clinics, including those used for skin and hair treatments.",
+    "aka": "Autologous thrombin serum system (Arthrex)",
+    "evidence": "limited",
+    "outcome": "unsupported",
+    "price": null,
+    "note": "A clinic-used device; any appearance benefit depends on the PRP treatment it supports.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "Thrombinator is the name of an Arthrex system for preparing autologous thrombin, a clotting protein made from the patient's own blood. Thrombin is used to activate platelet-rich plasma (PRP), the concentrate of a person's platelets that clinics inject or apply.\n\nPRP is used in aesthetic medicine, for example in microneedling facials and hair-loss treatments, so a thrombin activator sits upstream of those procedures. The device itself is not applied to the face.",
+    "how": "It is used by clinicians, not at home. Blood is drawn, processed with a device kit, and the resulting thrombin may be mixed with PRP to form a gel or to trigger platelet release. Wikipedia notes activation is optional, since natural thrombin activates platelets after injection.",
+    "risks": "Autologous (self-derived) thrombin avoids the pathogen and immune concerns of bovine or donor sources. PRP adverse effects are generally low in trials, but infection risk depends on clinic hygiene; the CDC linked HIV infections to an unlicensed spa that reused blood-contaminated equipment in 2024."
+  },
+  "lead": [
+    "The Thrombinator is an Arthrex system that produces autologous thrombin from a patient's own blood, intended to activate PRP and platelet gels. Autologous thrombin is of interest because it lacks the risk of transmitting emerging pathogens or provoking an immune response that comes with animal or donor-sourced thrombin [1].",
+    "PRP is a plasma concentrate with platelets at roughly 3 to 5 times normal levels. Thrombin or calcium chloride can be added as an activator, though platelets also activate naturally in the body [2]. Aesthetic uses of PRP include fine lines, 'vampire facials' with microneedling, and hair loss [2]. The thrombin system is therefore a supporting step in those clinic treatments.",
+    "Most published work involving autologous thrombin comes from orthopedics. Surgeons have used PRP with autologous thrombin in rotator cuff repair, and trials report mixed or modest differences [3][4][5]."
+  ],
+  "angle": {
+    "goal": "Skin / hair rejuvenation (via PRP)",
+    "chain": ["Patient's blood yields thrombin", "Thrombin activates PRP platelets", "Growth factors are released in the treated area", "Clinics aim for skin or hair improvement"],
+    "effect": "indirect",
+    "text": "It is a clinic-side activator for PRP, which is offered for facial rejuvenation and hair loss. The visible result depends on the PRP procedure, not the device."
+  },
+  "infobox": [["Type", "Point-of-care autologous thrombin system"], ["Manufacturer", "Arthrex"], ["Used with", "PRP, platelet gel"], ["Setting", "Clinic or operating room"]],
+  "sections": [
+    { "h": "Description", "paras": ["Thrombin is a coagulation protein central to clotting and wound healing, and can come from human blood, bovine blood or engineered cell lines; only autologous thrombin avoids pathogen transmission and immune responses [1]. Earlier commercial autologous devices required high ethanol concentrations for stability, which raised cytotoxicity concerns, and an ethanol-free point-of-care device has been described [1]."] },
+    { "h": "Use in aesthetics", "paras": ["PRP preparations in dermatology include skin rejuvenation and hair loss, with evidence described as mixed [2]. One review of PRP in surgical wounds notes that activated platelets release growth factors and that results vary widely with how PRP is prepared and delivered [6]."] },
+    { "h": "Safety and risks", "paras": ["Trials of PRP report low adverse event rates [2]. Safety problems have been linked to unlicensed practice and contaminated equipment rather than to the product [2]."] },
+    { "h": "Clinical studies", "paras": ["A 2-year randomized trial of PRP with autologous thrombin in arthroscopic rotator cuff repair found both groups improved clinically [4]. A 5-year randomized follow-up examined PRP's effect on repair outcomes [5]. A trial-based study used homemade platelet gel with autologous thrombin for radiation dermatitis [7]. Studies of the device specifically for cosmetic outcomes were not found."] }
+  ],
+  "timeline": [],
+  "lore": null,
+  "refs": [
+    { "id": 1, "title": "An Ethanol-Free Autologous Thrombin System.", "url": "https://pubmed.ncbi.nlm.nih.gov/30581231/", "source": "Journal of Extra-Corporeal Technology", "year": 2018, "type": "study" },
+    { "id": 2, "title": "Platelet-rich plasma (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Platelet-rich_plasma", "source": "Wikipedia", "year": null, "type": "encyclopedia" },
+    { "id": 3, "title": "Arthroscopic rotator cuff repair with biologically enhanced patch augmentation.", "url": "https://pubmed.ncbi.nlm.nih.gov/34890027/", "source": "Operative Orthopadie und Traumatologie", "year": 2022, "type": "review" },
+    { "id": 4, "title": "Platelet rich plasma in arthroscopic rotator cuff repair: a prospective RCT study, 2-year follow-up.", "url": "https://pubmed.ncbi.nlm.nih.gov/21570659/", "source": "J Shoulder Elbow Surg", "year": 2011, "type": "trial" },
+    { "id": 5, "title": "Clinical and Structural Evaluations of Rotator Cuff Repair With and Without Added Platelet-Rich Plasma at 5-Year Follow-up.", "url": "https://pubmed.ncbi.nlm.nih.gov/30234999/", "source": "Am J Sports Med", "year": 2018, "type": "trial" },
+    { "id": 6, "title": "Platelet-Rich Plasma: Optimal Use in Surgical Wounds.", "url": "https://pubmed.ncbi.nlm.nih.gov/34357880/", "source": "Wounds", "year": 2021, "type": "trial" },
+    { "id": 7, "title": "Platelet gel in cutaneous radiation dermatitis.", "url": "https://pubmed.ncbi.nlm.nih.gov/23150187/", "source": "Supportive Care in Cancer", "year": 2013, "type": "trial" }
+  ],
+  "webSources": [
+    { "url": "https://en.wikipedia.org/wiki/Platelet-rich_plasma", "title": "Platelet-rich plasma (Wikipedia)" }
+  ]
+}

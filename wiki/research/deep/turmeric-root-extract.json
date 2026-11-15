@@ -1,23 +1,239 @@
 {
-"name":"Turmeric root extract",
-"lead":["Turmeric root extract is a preparation made from the rhizome of Curcuma longa, a plant of the ginger family. Its main colored constituent is curcumin, a yellow polyphenol that is also used as a food coloring, a dietary supplement ingredient and a cosmetic ingredient.[1] In skincare it is marketed mainly as a brightening or antioxidant ingredient.","Laboratory work has examined curcumin and turmeric extract in skin-cell models, for example a 2023 cell-culture study combining turmeric root extract with another antioxidant in keratinocytes exposed to ultraviolet light.[2] No clinical trial of topical turmeric root extract for skin brightening or complexion appears among the sources reviewed for this entry. Wikipedia's curcumin article states that extensive studies have not established medical value for curcumin, citing its instability and poor absorption, and also lists it as a contact allergen.[1]"],
-"infobox":[["Source","Rhizome of Curcuma longa"],["Main active constituent","Curcumin (polyphenol)"],["Routes","Topical (cosmetics), oral (supplements, food)"],["Use in appearance products","Brightening / antioxidant serums"],["Legal status","Cosmetic and food ingredient; FDA-approved food coloring; E100 in the EU[1]"]],
-"sections":[
-{"h":"Description","paras":["Turmeric is the ground or extracted root of Curcuma longa. Curcumin is a diarylheptanoid polyphenol that dissolves poorly in water but readily in organic solvents, and it binds metal ions such as iron and copper.[1] Extracts are sold for culinary use, as supplements and as cosmetic ingredients, and also appear in combination products, including joint supplements listed on US drug-label databases.[3]"]},
-{"h":"Use in skincare","paras":["Product listings describe turmeric root extract as a skin-brightening ingredient, often alongside other plant extracts. The sources reviewed here do not include published human data on whether topical use changes skin tone or pigmentation."]},
-{"h":"Clinical studies","paras":["No studies found for topical turmeric root extract as a skin-brightening or cosmetic agent. Related laboratory research is limited to cell models: curcumin suppressed TGF-beta signaling in fibroblasts taken from scleroderma patients,[4] and a combination of turmeric root extract and dimethylmethoxy chromanol reduced ultraviolet-induced oxidative damage in a human keratinocyte line.[2] These cell studies did not test skin brightening in people. Human trials registered for turmeric or curcumin concern oral use for other conditions."]},
-{"h":"Safety","paras":["Wikipedia reports that curcumin is a contact allergen, may interact with prescription drugs and that reported oral side effects include nausea, diarrhea, hives and dizziness; it also records cases of liver injury linked to curcumin supplements.[1] A 2015 case report described yellow discoloration of the feet in a patient who took turmeric orally.[5] Curcumin is a strong yellow pigment, and staining of skin or fabric is a recognized property of the compound."]}
-],
-"timeline":[],
-"lore":null,
-"refs":[
-{"id":1,"title":"Curcumin","url":"https://en.wikipedia.org/wiki/Curcumin","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":2,"title":"Combination of dimethylmethoxy chromanol and turmeric root extract synergically attenuates ultraviolet-induced oxidative damage by increasing endogenous antioxidants in HaCaT cells","url":"https://pubmed.ncbi.nlm.nih.gov/38115632/","source":"Skin Research and Technology","year":2023,"type":"study"},
-{"id":3,"title":"US drug label (DailyMed): JBA Joint Revive, containing turmeric root extract","url":"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f5acf3-04f6-49d7-bbf5-f1c3ad6200cc","source":"DailyMed","year":null,"type":"label"},
-{"id":4,"title":"Curcumin suppresses TGF-beta signaling by inhibition of TGIF degradation in scleroderma fibroblasts","url":"https://pubmed.ncbi.nlm.nih.gov/21798239/","source":"Biochemical and Biophysical Research Communications","year":2011,"type":"study"},
-{"id":5,"title":"Yellow Feet in a Patient with Breast and Thyroid Carcinoma, Due to Oral Intake of Turmeric","url":"https://pubmed.ncbi.nlm.nih.gov/27747716/","source":"Drug Safety - Case Reports","year":2015,"type":"study"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Curcumin","title":"Curcumin - Wikipedia"}],
-"card":{"summary":"Curcumin-rich plant extract sold as a skin brightener; evidence for that use is limited to cell studies.","aka":"Curcuma longa extract, curcumin","evidence":"unproven","status":"otc","outcome":null,"risk":null,"price":null,"note":"Contact allergen; strongly pigmented and can stain.","structure":"Curcumin"},
-"quick":{"overview":"Turmeric root extract comes from the Curcuma longa rhizome and is used in cosmetics as a brightening and antioxidant ingredient. Its main pigment is curcumin.\n\nThe sources reviewed here contain no human trials of topical turmeric extract for skin tone. Research is limited to cell-culture experiments.","mechanism":"In laboratory cell models curcumin has been reported to dampen TGF-beta signaling and, combined with another antioxidant, to reduce UV-induced oxidative damage in keratinocytes. Whether this translates to visible brightening in people has not been tested in the sources reviewed.","risks":"Curcumin is listed as a contact allergen and a strong yellow pigment. Oral use has been linked to side effects such as nausea and, rarely, liver injury, and a case report describes yellow discoloration of the feet. It is an approved food coloring in the US and E100 in the EU."}
+ "lead": [
+  "Turmeric root extract is a preparation made from the rhizome of Curcuma longa, a plant of the ginger family. Its main coloured constituent is curcumin, a yellow polyphenol that is also used as a food colouring, a dietary supplement ingredient and a cosmetic ingredient [1][6]. In skincare it is marketed mainly as a brightening or antioxidant ingredient, a use that echoes the long tradition in South Asia of applying turmeric paste to the skin, notably in pre-wedding haldi ceremonies [6].",
+  "Laboratory work has examined curcumin and turmeric extract in skin-cell models, for example a 2023 cell-culture study combining turmeric root extract with another antioxidant in keratinocytes exposed to ultraviolet light [2]. No clinical trial of topical turmeric root extract for skin brightening or complexion has been published. Wikipedia's curcumin article states that extensive studies have not established a medical value for curcumin, citing its instability and poor absorption, and also lists it as a contact allergen [1].",
+  "Turmeric root extract also appears in oral supplements, where it is combined with ingredients such as glucosamine and boswellia in joint formulas [3][7]. Those uses concern joint comfort and general wellness rather than skin."
+ ],
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "Curcumin-rich extract applied in serums or taken orally",
+   "Antioxidant activity shown in skin-cell models",
+   "Marketed for a brighter, more even-looking complexion"
+  ],
+  "effect": "claimed",
+  "text": "Turmeric root extract is used in brightening and antioxidant skincare products with the aim of a more even, radiant complexion. The idea rests on curcumin's antioxidant behaviour in cell studies and on traditional use of turmeric on skin."
+ },
+ "infobox": [
+  [
+   "Source",
+   "Rhizome of Curcuma longa"
+  ],
+  [
+   "Main active constituent",
+   "Curcumin (polyphenol)"
+  ],
+  [
+   "Routes",
+   "Topical (cosmetics), oral (supplements, food)"
+  ],
+  [
+   "First isolated",
+   "Curcumin pigment isolated 1815; structure proposed 1910 [1]"
+  ],
+  [
+   "Use in appearance products",
+   "Brightening / antioxidant serums"
+  ],
+  [
+   "Legal status",
+   "Cosmetic and food ingredient; FDA-approved food colouring; E100 in the EU [1]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Turmeric is the ground or extracted root of Curcuma longa, a perennial herb native to the Indian subcontinent and Southeast Asia whose rhizomes are yellow-orange and aromatic [6]. Curcumin is a diarylheptanoid polyphenol that dissolves poorly in water but readily in organic solvents, and it binds metal ions such as iron and copper [1]. Extracts are sold for culinary use, as supplements and as cosmetic ingredients, and also appear in combination products, including joint supplements listed on US drug-label databases [3]."
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Turmeric has been used in Asia for centuries, first as a dye and later in folk medicine, and it appears in Ayurveda, Siddha, traditional Chinese medicine and Unani. Archaeological and textual evidence of its use ranges from sites dated to about 2600 to 2200 BCE to Assyrian texts of the seventh century BCE, and medieval Europeans called it Indian saffron [6]. In India many Hindu communities apply turmeric paste to the bride and groom before weddings in haldi ceremonies, and in Bengal the equivalent is the gaye holud [6].",
+    "Chemists Vogel and Pelletier first isolated a yellow colouring matter from the rhizome in 1815, and in 1910 Miłobędzka and Lampe proposed the structure of curcumin as diferuloylmethane, with a synthesis following in 1913 [1]."
+   ]
+  },
+  {
+   "h": "Use in skincare",
+   "paras": [
+    "Product listings describe turmeric root extract as a skin-brightening ingredient, often alongside other plant extracts. Curcumin is used in cosmetics as a colorant and an active, and the cell data on antioxidant defences in keratinocytes are the usual scientific reference for the claim [2][1]. No published human data show whether topical use changes skin tone or pigmentation."
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "paras": [
+    "Curcumin is chemically unstable and poorly soluble in water, and little of an oral dose reaches the bloodstream because it is extensively metabolised and mostly excreted unchanged [1]. Medicinal chemists describe it as a pan-assay interference compound because it gives positive results in many laboratory assays, which complicates interpretation of in vitro findings [1].",
+    "In the 2023 keratinocyte study, turmeric root extract combined with dimethylmethoxy chromanol, a synthetic analogue of gamma-tocopherol, reduced ultraviolet-induced oxidative damage and increased endogenous antioxidant enzymes such as NQO1 and superoxide dismutase [2]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found for topical turmeric root extract as a skin-brightening or cosmetic agent. Related laboratory research is limited to cell models: curcumin suppressed TGF-beta signaling in fibroblasts taken from scleroderma patients [4], and a combination of turmeric root extract and dimethylmethoxy chromanol reduced ultraviolet-induced oxidative damage in a human keratinocyte line [2]. These cell studies did not test skin brightening in people.",
+    "Human trials of oral turmeric root extract concern other topics. A double-blind crossover study in twelve older adults examined cerebral oxygenation after turmeric root extract during handgrip exercise [8], a 2024 study looked at skeletal muscle oxygen saturation in older participants taking 10 g of turmeric root extract [9], and an eight-week placebo-controlled community trial tested a joint supplement that included turmeric among its ingredients [10]. A 1999 placebo-controlled trial studied a celandine and turmeric extract for upper abdominal pain from biliary dyskinesia [11]. Registered trials include turmeric extract and oxidative stress in 44 Muay Thai athletes and sedentary men [12] and turmeric and exercise-induced muscle damage in 53 participants [13]."
+   ]
+  },
+  {
+   "h": "Safety",
+   "paras": [
+    "Wikipedia reports that curcumin is a contact allergen, may interact with prescription drugs, and that reported oral side effects include nausea, diarrhoea, hives and dizziness; it also records cases of liver injury linked to curcumin supplements [1]. A 2015 case report described yellow discolouration of the soles in a patient who took one capsule of turmeric root extract daily for four months, which faded after she stopped [5]. Curcumin is a strong yellow pigment, and staining of skin or fabric is a recognised property of the compound.",
+    "Turmeric as a spice has also been adulterated with lead-containing colourants such as lead chromate; the US FDA issued import alerts on turmeric from India and Bangladesh between 2013 and 2019 [6]."
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Turmeric is an approved food colouring in the EU (E100), under WHO listing and by the US FDA [1][6]. The FDA issued warning letters to supplement makers between 2018 and 2023 over claims that products treat disease [1]. In 2019 the European Medicines Agency accepted traditional use of turmeric for mild digestive complaints but found insufficient evidence of efficacy [6]."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1815",
+   "event": "Vogel and Pelletier isolate a yellow colouring matter from turmeric rhizomes [1]."
+  },
+  {
+   "year": "1910",
+   "event": "Miłobędzka and Lampe propose the diferuloylmethane structure of curcumin; synthesis follows in 1913 [1]."
+  },
+  {
+   "year": "2019",
+   "event": "The European Medicines Agency recognises traditional use of turmeric for mild digestive complaints [6]."
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Curcumin",
+   "url": "https://en.wikipedia.org/wiki/Curcumin",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Combination of dimethylmethoxy chromanol and turmeric root extract synergically attenuates ultraviolet-induced oxidative damage by increasing endogenous antioxidants in HaCaT cells",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38115632/",
+   "source": "Skin Research and Technology",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "US drug label (DailyMed): JBA Joint Revive, containing turmeric root extract",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f5acf3-04f6-49d7-bbf5-f1c3ad6200cc",
+   "source": "DailyMed",
+   "year": null,
+   "type": "label"
+  },
+  {
+   "id": 4,
+   "title": "Curcumin suppresses TGF-beta signaling by inhibition of TGIF degradation in scleroderma fibroblasts",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21798239/",
+   "source": "Biochemical and Biophysical Research Communications",
+   "year": 2011,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Yellow Feet in a Patient with Breast and Thyroid Carcinoma, Due to Oral Intake of Turmeric",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27747716/",
+   "source": "Drug Safety - Case Reports",
+   "year": 2015,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Turmeric",
+   "url": "https://en.wikipedia.org/wiki/Turmeric",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 7,
+   "title": "Ripfast",
+   "url": "https://t-nation.com/t/ripfast/70654",
+   "source": "T Nation",
+   "year": 2006,
+   "type": "forum"
+  },
+  {
+   "id": 8,
+   "title": "Turmeric root extract supplementation improves pre-frontal cortex oxygenation and blood volume in older males and females",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34551650/",
+   "source": "International Journal of Food Sciences and Nutrition",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Effect of Curcumin Intake on Skeletal Muscle Oxygen Saturation Parameters in Older Participants",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39456429/",
+   "source": "Antioxidants",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "A commercialized dietary supplement alleviates joint pain in community adults",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24274358/",
+   "source": "Nutrition Journal",
+   "year": 2013,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Effect of chelidonium and turmeric root extract on upper abdominal pain due to functional disorders of the biliary system",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10495621/",
+   "source": "Medizinische Klinik",
+   "year": 1999,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "Turmeric Extract and Oxidative Stress in Muaythai Athletes and Sedentary Men (NCT07904598)",
+   "url": "https://clinicaltrials.gov/study/NCT07904598",
+   "source": "ClinicalTrials.gov",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "Turmeric and Exercise-Induced Muscle Damage and Oxinflammation (NCT04765527)",
+   "url": "https://clinicaltrials.gov/study/NCT04765527",
+   "source": "ClinicalTrials.gov",
+   "year": 2020,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Turmeric",
+   "title": "Turmeric"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Curcumin",
+   "title": "Curcumin"
+  }
+ ],
+ "name": "Turmeric root extract",
+ "card": {
+  "summary": "Curcumin-rich plant extract sold as a skin brightener; evidence for that use is limited to cell studies.",
+  "aka": "Curcuma longa extract, curcumin",
+  "evidence": "unproven",
+  "status": "otc",
+  "outcome": null,
+  "risk": null,
+  "price": null,
+  "note": "Contact allergen; strongly pigmented and can stain.",
+  "structure": "Curcumin"
+ },
+ "quick": {
+  "overview": "Turmeric root extract comes from the Curcuma longa rhizome and is used in cosmetics as a brightening and antioxidant ingredient. Its main pigment is curcumin.\nNo human trials of topical turmeric extract for skin tone have been published. Research is limited to cell-culture experiments.",
+  "mechanism": "In laboratory cell models curcumin has been reported to dampen TGF-beta signaling and, combined with another antioxidant, to reduce UV-induced oxidative damage in keratinocytes. Whether this translates to visible brightening in people has not been tested.",
+  "risks": "Curcumin is listed as a contact allergen and a strong yellow pigment. Oral use has been linked to side effects such as nausea and, rarely, liver injury, and a case report describes yellow discoloration of the feet. It is an approved food coloring in the US and E100 in the EU."
+ }
 }

@@ -1,9 +1,35 @@
 {
  "name": "Laxogenin",
+ "card": {
+  "summary": "Plant steroid-like saponin sold for muscle; research is lab and plant work only, no human trials.",
+  "aka": "5-alpha-hydroxy laxogenin (marketed)",
+  "evidence": "unproven",
+  "status": "otc",
+  "risk": null,
+  "note": "No human safety or efficacy data found.",
+  "structure": "Laxogenin"
+ },
+ "quick": {
+  "overview": "Laxogenin is a compound from plants like Allium chinense, marketed to bodybuilders as a natural anabolic.\n\nIts published research is chemistry, cell and plant work. No human trial was found.",
+  "mechanism": "No human mechanism for muscle growth has been published. Lab work covers cell assays and plant growth regulation.",
+  "risks": "No human safety data were found. Supplement contents can vary, and analytical studies have been needed to identify spirostanes in products."
+ },
  "lead": [
-  "Laxogenin is a plant-derived steroidal sapogenin (3-beta-hydroxy-5-alpha-spirostan-6-one) first characterised from plants such as Allium chinense (the 'Xiebai' bulb of Chinese medicine) and Smilax sieboldii [1][2]. It is sold in bodybuilding supplements under claims of muscle-building, often described as a 'plant steroid'.",
-  "Published literature on laxogenin consists of phytochemistry, cell-culture and plant-growth work. One study of antitumour-promoting activity in cell assays and one analytical study identifying spirostanes in bodybuilding supplements exist [2][3]. No published human trial of laxogenin for muscle or appearance was found."
+  "Laxogenin is a plant-derived steroidal sapogenin (3-beta-hydroxy-5-alpha-spirostan-6-one) first characterised from plants such as Allium chinense (the 'Xiebai' bulb of Chinese medicine) and Smilax sieboldii.[1][2] It is sold in bodybuilding supplements as a 'plant steroid' or 'natural anabolic', and people use it, usually in capsules or pre-workout stacks, in the hope of adding lean muscle and strength and a fuller, more muscular physique.",
+  "Most commercial products are labelled 5-alpha-hydroxy-laxogenin, a semi-synthetic derivative that analytical chemists report has not been isolated from any natural source.[3][17] The compound has been on the US FDA's Dietary Supplement Ingredient Advisory List since 2019, according to a 2022 toxicology paper.[16] Laboratory work on this derivative includes a cell-based androgen receptor study and a 2025 study in castrated rats.[5][11]",
+  "Published literature on laxogenin itself consists of phytochemistry, cell-culture and plant-growth work.[1][4][6][7] No published human trial of laxogenin for muscle or appearance was found."
  ],
+ "angle": {
+  "goal": "Muscle",
+  "chain": [
+   "Laxogenin or 5-alpha-hydroxy-laxogenin taken orally",
+   "Marketed as stimulating protein synthesis without hormones",
+   "Claimed lean mass and strength gains",
+   "Fuller, more muscular physique"
+  ],
+  "effect": "claimed",
+  "text": "Lifters take laxogenin supplements with the aim of building muscle as a 'natural' alternative to steroids. Supplement marketing describes an anabolic effect, while laboratory studies have looked at androgen receptor activity and at animal tissue weights."
+ },
  "infobox": [
   [
    "Type",
@@ -11,7 +37,11 @@
   ],
   [
    "Natural sources",
-   "Allium chinense, Smilax sieboldii [1][2]"
+   "Allium chinense, Smilax sieboldii"
+  ],
+  [
+   "Marketed form",
+   "5-alpha-hydroxy-laxogenin (synthetic derivative)"
   ],
   [
    "Marketed for",
@@ -20,36 +50,155 @@
   [
    "Human trials",
    "None found"
+  ],
+  [
+   "First structure report",
+   "1965 (Smilax sieboldii stem)"
+  ],
+  [
+   "Regulatory note",
+   "On FDA Dietary Supplement Ingredient Advisory List since 2019[16]"
+  ],
+  [
+   "Origin of marketed form",
+   "Semi-synthetic derivative[17]"
   ]
  ],
  "sections": [
   {
+   "h": "Description and use in physique building",
+   "paras": [
+    "Laxogenin supplements are marketed to lifters and bodybuilders as a non-hormonal alternative to anabolic steroids. In forums such as T Nation, users list it in pre-workout and 'natural' stacks next to creatine, phosphatidic acid, ecdysterone and turkesterone, usually in capsule or powder form.[12][13] Some users list it among many other supplements in long pre-workout and daily regimens.[18][19]",
+    "The appearance goal is a larger, leaner, more muscular body. Marketing language describes increased protein synthesis, lean mass and strength, while published research describes the compound in chemical, cell and animal terms rather than as a muscle builder in people.[5][11]"
+   ]
+  },
+  {
    "h": "Chemistry and natural occurrence",
    "paras": [
-    "Laxogenin is the aglycone of saponins such as xiebai-saponin I, isolated from the bulbs of Allium chinense, a traditional Chinese crude drug, and from Smilax sieboldii rhizomes [1][2]. Chemists have also used laxogenin as a starting material to synthesise saponins and brassinosteroid-type plant growth compounds [3][4]."
+    "Laxogenin is the aglycone of saponins such as xiebai-saponin I, isolated from the bulbs of Allium chinense, a traditional Chinese crude drug, and from Smilax sieboldii rhizomes, where six new steroidal saponins based on laxogenin were reported in 1992.[1][2] Its structure from the stem of Smilax sieboldii was described in 1965.[9] Spirostane saponins in S. sieboldii have also been mapped by mass spectrometry.[10] A 2017 review catalogued 104 steroidal saponins reported from the genus Smilax between 1967 and 2016; laxogenin glycosides from S. sieboldii inhibited cAMP phosphodiesterase in vitro in the cited assays.[20]",
+    "Chemists have used laxogenin as a starting material to synthesise saponins such as xiebai saponin I (in eight steps, about 32 percent overall yield in one report) and brassinosteroid-type plant growth compounds.[8][4]",
+    "5-Alpha-hydroxy-laxogenin, the form sold as a supplement, has not been isolated or reported from any natural source, according to an analytical paper, and a later rat study describes it as synthetic.[3][11] Wikipedia describes it as a semi-synthetic derivative and notes that identification of synthetic impurities points to diosgenin, a plant steroid, as a likely starting material.[17]"
    ]
   },
   {
    "h": "Laboratory research",
-   "paras": [
-    "In cell and in-vitro work, laxogenin and its glycosides were examined for antitumour-promoting activity and for effects on hypoxia-related tyrosine kinase signalling in endothelial cells [1][5]. A plant-science paper describes laxogenin C as a plant growth regulator [6]. These studies do not address muscle growth in humans."
+   "subs": [
+    {
+     "h": "Plant and cell studies",
+     "paras": [
+      "In cell and in-vitro work, laxogenin and its glycosides were examined for antitumour-promoting activity and for effects on hypoxia-related tyrosine kinase signalling in endothelial cells.[1][6] Plant-science papers describe laxogenin C as a plant growth regulator with brassinosteroid-like effects on tomato seed germination, and laxogenin-derived analogues promoted growth in a radish assay.[4][7] These studies do not address muscle growth in humans."
+     ]
+    },
+    {
+     "h": "5-Alpha-hydroxy-laxogenin and androgen signalling",
+     "paras": [
+      "A 2022 study in Archives of Toxicology tested 5-alpha-hydroxy-laxogenin in two in vitro assays. It showed no activity in a yeast androgen screen, but in a human prostate cell line carrying a luciferase reporter it responded in a biphasic way: lower concentrations behaved as antagonist and higher ones as agonist, and the androgen blocker bicalutamide suppressed the high-concentration activity, which the authors read as evidence of binding to the human androgen receptor.[5][16] The authors suggested the yeast result might be a false negative, reported what they called the first in vitro evidence of androgenic activity, raised possible safety concerns for reproductive organs such as the prostate, and called for studies of anabolic effects, pharmacokinetics and metabolism.[5][16]",
+      "In a 2025 study, castrated rats were given three dosages of 5-alpha-hydroxy-laxogenin for two weeks. The researchers saw no effect on prostate, seminal vesicle, penis, levator ani or hindlimb muscle weights, and greater atrophy in some tissues at the highest dosage; computer docking supported androgen receptor binding, but no androgenic or anabolic effects were observed in vivo.[11]"
+     ]
+    }
    ]
   },
   {
-   "h": "Use in supplements",
+   "h": "Supplement content and quality",
    "paras": [
-    "Laxogenin appears in bodybuilding products, and a 2019 analytical chemistry paper describes methods for unequivocally identifying spirostanes in such supplements [7]. Proponents describe it as a plant-derived, non-hormonal anabolic; the sources reviewed here do not document a human mechanism."
+    "A 2019 mass-spectrometry paper analysed twelve supplements labelled as containing 5-alpha-hydroxy-laxogenin or laxogenin. Five contained none, and the remaining seven held spirostane-type compounds in addition to the labelled ingredient.[3] Supplements marketed for anabolic benefits can contain substances that are not approved and lack quality control, according to the 2022 androgen receptor study.[5]"
+   ]
+  },
+  {
+   "h": "Regulation and anti-doping",
+   "paras": [
+    "The 2022 paper notes that 5-alpha-hydroxy-laxogenin has appeared on the FDA's Dietary Supplement Ingredient Advisory List since 2019 and that a 2020 analysis confirmed it in supplements; it also describes how the World Anti-Doping Agency adds substances to its prohibited list when they meet two of three criteria (performance enhancement, health risk, or violation of the spirit of sport), so evidence of anabolic activity bears on the first.[16] Competitive lifters on T Nation have asked whether products containing the acetate form would appear on urine tests; no published human excretion study of laxogenin was found.[15]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found. Related laboratory and plant research is limited to the cell and phytochemical work described above [1][5][6]."
+    "No studies found in humans. Related laboratory and animal research is limited to the cell, plant and rat work described above.[1][5][6][11]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Laxogenin is sold in powders and capsules and appears in bodybuilding supplement stacks next to compounds such as ecdysterone and turkesterone; T Nation threads from 2001 onward include informal reports of products containing 5-alpha-hydroxy-laxogenin acetate and questions about whether supplements of this type show up on urine tests.[12][13][14][15] Users also describe it as part of lists of what they take before training.[19]",
+    "Because published research does not include human trials, the community conversation consists largely of anecdote, label claims and extrapolation from the animal and cell studies cited above."
    ]
   }
  ],
- "timeline": [],
- "lore": null,
+ "timeline": [
+  {
+   "year": "1965",
+   "event": "Structure of laxogenin reported from the stem of Smilax sieboldii.[9]"
+  },
+  {
+   "year": "1992",
+   "event": "Six laxogenin-based saponins isolated from Smilax sieboldii rhizomes.[2]"
+  },
+  {
+   "year": "2000",
+   "event": "Saponins and laxogenin from Allium chinense studied for antitumour-promoting activity.[1]"
+  },
+  {
+   "year": "2001",
+   "event": "T Nation thread records an informal self-experiment with a 5-alpha-hydroxy-laxogenin acetate product.[14]"
+  },
+  {
+   "year": "2017",
+   "event": "Review catalogues 104 steroidal saponins from the genus Smilax, including laxogenin glycosides.[20]"
+  },
+  {
+   "year": "2019",
+   "event": "Analytical paper reports that 5-alpha-hydroxy-laxogenin is not known from natural sources and that supplement contents vary; FDA lists it on its Dietary Supplement Ingredient Advisory List.[3][16]"
+  },
+  {
+   "year": "2022",
+   "event": "In vitro study shows androgen receptor activation by 5-alpha-hydroxy-laxogenin at higher concentrations.[5]"
+  },
+  {
+   "year": "2025",
+   "event": "Rat study finds no androgenic or anabolic effects of 5-alpha-hydroxy-laxogenin in vivo.[11]"
+  }
+ ],
+ "lore": {
+  "intro": "On T Nation, laxogenin appears in supplement lists and informal experiments, usually alongside ecdysterone, creatine and other over-the-counter products.[12][13][14]",
+  "claims": [
+   {
+    "claim": "Laxogenin has a similar anabolic effect to a steroid but without hormonal side effects",
+    "believers": "One poster says its anabolic/androgenic ratio is supposedly the same as a steroid and that because it worked in animals it should work for people.[13]",
+    "experts": "A 2025 study in castrated rats found no androgenic or anabolic effects of 5-alpha-hydroxy-laxogenin, while a 2022 cell study found androgen receptor activation at higher concentrations; no human trial has been published.[5][11]",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "A few days of 5-alpha-hydroxy-laxogenin acetate gives noticeable gains",
+    "believers": "A 2001 thread poster describes taking a product containing it for several days and noticing a marked change in the body.[14]",
+    "experts": "No published human trial has measured muscle or strength outcomes; products labelled with the ingredient have been found to vary in content.[3]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Laxogenin is a 'natural' compound from plants",
+    "believers": "Labels describe a botanical source, relating to the plant Smilax sieboldii.",
+    "experts": "Laxogenin has been isolated from Smilax sieboldii, but analytical chemists report that 5-alpha-hydroxy-laxogenin has not been isolated from any natural source.[2][3]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Laxogenin may show up on drug tests",
+    "believers": "Posters training for competition ask whether supplements containing it will appear on urine tests.[15]",
+    "experts": "No published human excretion study of laxogenin was found; researchers note its inclusion on prohibited lists depends on scientific evidence of activity.[5]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Laxogenin works as a 'natural stack' staple alongside creatine and other supplements",
+    "believers": "A 2019 poster lists a stack of creatine, phosphatidic acid and laxogenin for bulking and asks how to improve it.[12]",
+    "experts": "No published human trial has tested laxogenin alone or in combination for muscle or strength.[5][11]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Laxogenin supplements contain what the label says",
+    "believers": "Sellers label products as laxogenin or 5-alpha-hydroxy-laxogenin.[3]",
+    "experts": "In the 2019 analysis of twelve products, five contained none of the labelled ingredient and seven held other spirostane-type compounds as well.[3]",
+    "evidence": "mixed"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -69,10 +218,10 @@
   },
   {
    "id": 3,
-   "title": "Glycosyl trifluoroacetimidates. 2. Synthesis of dioscin and xiebai saponin I",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/12467439/",
-   "source": "J Org Chem",
-   "year": 2002,
+   "title": "The power of hyphenated chromatography-Time of flight mass spectrometry for unequivocal identification of spirostanes in bodybuilding dietary supplements",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30753977/",
+   "source": "J Pharm Biomed Anal",
+   "year": 2019,
    "type": "study"
   },
   {
@@ -85,6 +234,14 @@
   },
   {
    "id": 5,
+   "title": "Androgenic properties of the dietary supplement 5alpha-hydroxy-laxogenin",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35344071/",
+   "source": "Archives of Toxicology",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 6,
    "title": "Screening of anti-hypoxia/reoxygenation agents by an in vitro model. Part 1",
    "url": "https://pubmed.ncbi.nlm.nih.gov/10763582/",
    "source": "Planta Med",
@@ -92,7 +249,7 @@
    "type": "study"
   },
   {
-   "id": 6,
+   "id": 7,
    "title": "Metabolomics Mechanism and Lignin Response to Laxogenin C, a Natural Regulator of Plants Growth",
    "url": "https://pubmed.ncbi.nlm.nih.gov/35328410/",
    "source": "Int J Mol Sci",
@@ -100,27 +257,118 @@
    "type": "study"
   },
   {
-   "id": 7,
-   "title": "The power of hyphenated chromatography-Time of flight mass spectrometry for unequivocal identification of spirostanes in bodybuilding dietary supplements",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/30753977/",
-   "source": "J Pharm Biomed Anal",
-   "year": 2019,
+   "id": 8,
+   "title": "Glycosyl trifluoroacetimidates. 2. Synthesis of dioscin and xiebai saponin I",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12467439/",
+   "source": "J Org Chem",
+   "year": 2002,
    "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "Studies on the steroidal components of domestic plants. XLVII. Constituents of the stem of Smilax sieboldi Miq. The structure of laxogenin",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/5867711/",
+   "source": "Chem Pharm Bull",
+   "year": 1965,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "6-Oxofurostane and (iso)Spirostane Types of Saponins in Smilax sieboldii",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37511246/",
+   "source": "Int J Mol Sci",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "Effects of the Dietary Supplement 5alpha-Hydroxy-Laxogenin in the Orchiectomized Rat Model",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40038867/",
+   "source": "Drug Testing and Analysis",
+   "year": 2025,
+   "type": "study"
+  },
+  {
+   "id": 12,
+   "title": "How This Natural Stack for Muscle?",
+   "url": "https://t-nation.com/t/how-this-natural-stack-for-muscle/260924",
+   "source": "T Nation",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 13,
+   "title": "Must Have Supps?",
+   "url": "https://t-nation.com/t/must-have-supps/249391",
+   "source": "T Nation",
+   "year": 2018,
+   "type": "forum"
+  },
+  {
+   "id": 14,
+   "title": "Putting Ecdysterone To The Test",
+   "url": "https://t-nation.com/t/putting-ecdysterone-to-the-test/6610",
+   "source": "T Nation",
+   "year": 2001,
+   "type": "forum"
+  },
+  {
+   "id": 15,
+   "title": "Will These Show Up on Urine Test?",
+   "url": "https://t-nation.com/t/will-these-show-up-on-urine-test/259957",
+   "source": "T Nation",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 16,
+   "title": "Androgenic properties of the dietary supplement 5alpha-hydroxy-laxogenin (full text)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9151512",
+   "source": "Archives of Toxicology (PMC)",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 17,
+   "title": "5alpha-Hydroxylaxogenin",
+   "url": "https://en.wikipedia.org/wiki/5%CE%B1-Hydroxylaxogenin",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 18,
+   "title": "18Y/O on TRT. Brain Fog, Low Libido, Fatigue. Could Use Some Help",
+   "url": "https://t-nation.com/t/18y-o-on-trt-brain-fog-low-libido-fatigue-could-use-some-help/253351",
+   "source": "T Nation",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 19,
+   "title": "Falling Asleep At Noon",
+   "url": "https://t-nation.com/t/falling-asleep-at-noon/290179",
+   "source": "T Nation",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 20,
+   "title": "Steroidal saponins from the genus Smilax (review)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5507813",
+   "source": "Natural Products and Bioprospecting (PMC)",
+   "year": 2017,
+   "type": "review"
   }
  ],
- "webSources": [],
- "card": {
-  "summary": "Plant steroid-like saponin sold for muscle; research is lab and plant work only, no human trials.",
-  "aka": "5-alpha-hydroxy laxogenin (marketed)",
-  "evidence": "unproven",
-  "status": "otc",
-  "risk": null,
-  "note": "No human safety or efficacy data found.",
-  "structure": "Laxogenin"
- },
- "quick": {
-  "overview": "Laxogenin is a compound from plants like Allium chinense, marketed to bodybuilders as a natural anabolic.\n\nIts published research is chemistry, cell and plant work. No human trial was found.",
-  "mechanism": "No human mechanism for muscle growth has been published. Lab work covers cell assays and plant growth regulation.",
-  "risks": "No human safety data were found. Supplement contents can vary, and analytical studies have been needed to identify spirostanes in products."
- }
+ "webSources": [
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9151512",
+   "title": "Androgenic properties of 5alpha-hydroxy-laxogenin - PMC"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5507813",
+   "title": "Steroidal saponins from Smilax - PMC"
+  }
+ ]
 }

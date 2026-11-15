@@ -1,10 +1,19 @@
 {
- "name": "Shower filter",
  "lead": [
-  "A shower filter is a point-of-use water filter fitted at the shower arm, either as an inline unit that sits between the arm and an existing showerhead or as a showerhead with built-in media. It is intended to reduce contaminants in shower water, chiefly chlorine [1]. People use one to keep skin and hair looking and feeling softer, aiming at less dryness, less brittle-feeling hair and a more comfortable shower.",
-  "Descriptions say certified models are tested under the NSF/ANSI 177 standard for free available chlorine, and typically use media such as KDF, calcium sulfite and activated carbon; independent testing is reported to show many filters removing 75 to 100 percent of free chlorine [1]. Retail marketing links chlorine to stripped oils on skin and hair, and the same description notes that scientific evidence for skin and hair benefits is limited and largely anecdotal [1].",
-  "On forums, shower filters appear in wellness and hygiene routines, sometimes alongside filtered drinking water [4][5]. Hospital research has examined shower filters for a different purpose, bacterial exposure [2]."
+  "A shower filter is a point-of-use water filter fitted at the shower arm, either as an inline unit that sits between the arm and an existing showerhead or as a showerhead with built-in media. It is intended to reduce contaminants in shower water, chiefly free chlorine.[1] People use one to keep skin and hair feeling softer, aiming at less dryness, less brittle-feeling hair and a more comfortable shower.",
+  "Descriptions say certified models are tested under the NSF/ANSI 177 standard for free available chlorine, and typically use media such as KDF (a copper-zinc alloy), calcium sulfite and activated carbon; independent testing is reported to show many filters removing 75 to 100 percent of free chlorine.[1] Retail marketing links chlorine to stripped oils on skin and hair, and the same description notes that scientific evidence for skin and hair benefits is limited and largely anecdotal.[1]",
+  "On forums, shower filters appear in wellness and hygiene routines, sometimes alongside filtered drinking water and organic food.[4][5][7] Hospital research has examined shower filters for a different purpose, bacterial exposure.[2]"
  ],
+ "angle": {
+  "goal": "Skin and hair",
+  "chain": [
+   "Media in the filter reduces chlorine in shower water",
+   "Less contact between chlorine and the oils on skin and hair",
+   "Users aim for softer-feeling skin and less dry hair"
+  ],
+  "effect": "claimed",
+  "text": "People install a shower filter hoping for softer skin and less dry, brittle-looking hair, on the idea that chlorine strips natural oils. Users describe a more pleasant shower; published studies of appearance outcomes have not been found."
+ },
  "infobox": [
   [
    "Type",
@@ -28,38 +37,60 @@
   ],
   [
    "Typical flow rates",
-   "About 1.4 to 2.8 gallons per minute in certified examples [1]"
+   "About 1.4 to 2.8 gallons per minute in certified examples[1]"
   ],
   [
    "Installation",
-   "Screws onto the shower arm, no plumber needed [1]"
+   "Screws onto the shower arm; no plumber needed[1]"
   ]
  ],
  "sections": [
   {
-   "h": "Design and types",
+   "h": "Description",
    "paras": [
-    "Inline filters sit between the shower arm and an existing showerhead, preserving the user's chosen head, while replacement showerheads integrate the media into one unit.[1] Filters do not usually address water hardness as such; descriptions say effects on hardness, metals and disinfection byproducts vary by model.[1]",
-    "Separately, calcium and magnesium deposits from hard water can clog showerheads and change spray patterns.[3]"
+    "Unlike whole-house filtration, which treats all incoming water, a shower filter treats only the water used for showering, which Grokipedia describes as a focused and often more economical approach to chlorine-related concerns such as dry skin, brittle hair and inhalation of chlorine vapour in hot showers.[1] The shower itself is an old technology: Wikipedia credits English stove maker William Feetham with the first known mechanical shower patent in 1767, and continuous supply showers followed widespread indoor plumbing around 1850.[3]"
+   ]
+  },
+  {
+   "h": "Design and types",
+   "subs": [
+    {
+     "h": "Inline filters",
+     "paras": [
+      "Inline filters sit between the shower arm and an existing showerhead, preserving the user's chosen head, spray pattern and flow. Their housing is typically cylindrical plastic or brass with a replaceable cartridge, they attach with standard threading, and installation is tool-free and renter-friendly.[1] Because they can have larger housings, they may hold more media than integrated units.[1]"
+     ]
+    },
+    {
+     "h": "Filtered showerheads",
+     "paras": [
+      "Replacement showerheads integrate the filter media into one unit, with a single streamlined fixture. Many models add adjustable spray settings.[1]"
+     ]
+    },
+    {
+     "h": "Media and standards",
+     "paras": [
+      "KDF is a copper-zinc alloy that works in hot water on chlorine and some metals, calcium sulfite reacts with chlorine, and activated carbon adsorbs chlorine and organic compounds.[1] The NSF/ANSI 177 standard evaluates chlorine reduction, flow rate, service cycle and lead-free compliance.[1] Descriptions say effects on hardness, metals and disinfection byproducts vary by model.[1]"
+     ]
+    },
+    {
+     "h": "Flow rate and scale",
+     "paras": [
+      "In the United States a Department of Energy rule caps most showerheads at 2.5 gallons (9.5 litres) per minute, and the EPA's voluntary WaterSense programme certifies low-flow heads.[3] Calcium and magnesium deposits from hard water can clog showerheads and change spray patterns.[3]"
+     ]
+    }
    ]
   },
   {
    "h": "Claimed benefits",
    "paras": [
-    "Marketing and descriptions say reducing chlorine may mean less drying of skin and hair and less inhalation of chlorine vapor in hot showers, though these descriptions state that evidence is limited and the link to respiratory effects at municipal chlorine levels is not robust.[1]"
-   ]
-  },
-  {
-   "h": "Use in looksmaxxing and wellness communities",
-   "paras": [
-    "T Nation posters mention shower filters as one of several water-quality steps. One wrote that a chlorine-free shower feels better after adding a filter [5]; another listed a shower head or water filter among habits for avoiding environmental chemicals [4]. A 2011 reply in a coaching thread suggested a showerhead filter, a pitcher filter and fluoride-free toothpaste as part of a routine [7]."
+    "Descriptions say reducing chlorine may mean less drying of skin and hair, particularly for people with sensitive skin, and less inhalation of chlorine vapour in hot showers. The same descriptions state that evidence is limited and largely anecdotal, and that the link between typical municipal chlorine levels and significant respiratory effects is not robust.[1]"
    ]
   },
   {
    "h": "Safety and risks",
    "paras": [
-    "A 2022 hospital study examined hollow-fibre shower filter heads and reported that they failed to prevent patient exposure to Pseudomonas aeruginosa, citing retrograde colonization of the filter mechanism.[2] The study concerned high-risk hospital patients, not cosmetic use.",
-    "Wikipedia's Hard water article notes that hard drinking water may increase the prevalence of atopic dermatitis in children, while home water softeners do not reduce symptom severity once eczema is established [6]."
+    "A 2022 hospital study examined polysulfone hollow-fibre shower filter heads and reported that they failed to prevent patient exposure to Pseudomonas aeruginosa, citing retrograde colonization of the filter mechanism.[2] The study concerned high-risk hospital patients, not cosmetic use.",
+    "Wikipedia's Hard water article notes that hard drinking water may increase the prevalence of atopic dermatitis in children, while home water softeners do not reduce symptom severity once eczema is established.[6]"
    ]
   },
   {
@@ -67,22 +98,49 @@
    "paras": [
     "No studies found on appearance outcomes. A hospital infection-control study of shower filters examined bacterial exposure rather than skin or hair.[2]"
    ]
+  },
+  {
+   "h": "Use in looksmaxxing and wellness communities",
+   "paras": [
+    "T Nation posters mention shower filters as one of several water-quality steps. One wrote that a chlorine-free shower feels good after adding a filter, alongside switching to organic food.[5] Another listed a shower head water filter, glass drinking vessels and avoiding estrogenic foods among habits for limiting environmental chemicals.[4] A 2011 reply in a coaching thread suggested a showerhead filter, a pitcher filter and fluoride-free toothpaste as part of a routine.[7]"
+   ]
+  },
+  {
+   "h": "Buying considerations",
+   "paras": [
+    "Product listings describe choices between inline and integrated designs, certified versus uncertified media, cartridge replacement intervals of roughly 3 to 12 months and flow rate in gallons per minute.[1] Compatibility with an existing showerhead matters for inline units, and low-flow regulations in some regions limit flow.[1][3]"
+   ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "1767",
+   "event": "William Feetham patents the first known mechanical shower.[3]"
+  },
+  {
+   "year": "2022",
+   "event": "Hospital study reports a hollow-fibre shower filter did not prevent Pseudomonas exposure in high-risk patients.[2]"
+  }
+ ],
  "lore": {
-  "intro": "Shower filters are mentioned on T Nation as part of broader clean-living routines, with comments centred on how the shower feels [4][5][7].",
+  "intro": "Shower filters are mentioned on T Nation as part of broader clean-living routines, with comments centred on how the shower feels.[4][5][7]",
   "claims": [
    {
     "claim": "Removing chlorine from shower water leaves skin and hair softer",
-    "believers": "Users say a chlorine-free shower feels better and that filtered water is part of a gentler routine [5].",
-    "experts": "A description of shower filters says chlorine may dry skin and hair in some individuals but that scientific evidence for benefits is limited and largely anecdotal [1].",
+    "believers": "Users say a chlorine-free shower feels better and that filtered water is part of a gentler routine.[5]",
+    "experts": "A description of shower filters says chlorine may dry skin and hair in some individuals but that scientific evidence for benefits is limited and largely anecdotal.[1]",
     "evidence": "untested"
    },
    {
     "claim": "Shower filters reduce chlorine vapour inhaled in hot showers",
-    "believers": "Some people say it lessens minor respiratory irritation in sensitive individuals [1].",
-    "experts": "The same description says evidence linking typical municipal chlorine levels to significant respiratory effects is not robust [1].",
+    "believers": "Some people say it lessens minor respiratory irritation in sensitive individuals.[1]",
+    "experts": "The same description says evidence linking typical municipal chlorine levels to significant respiratory effects is not robust.[1]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "A shower filter is part of avoiding environmental chemicals that affect hormones",
+    "believers": "A T Nation poster lists a shower head water filter among habits aimed at limiting exposure to environmental chemicals.[4]",
+    "experts": "No studies were found linking shower filters to hormone levels.",
     "evidence": "untested"
    }
   ]
@@ -98,7 +156,7 @@
   },
   {
    "id": 2,
-   "title": "Failure of a hollow-fibre shower filter device to prevent exposure of patients to Pseudomonas aeruginosa.",
+   "title": "Failure of a hollow-fibre shower filter device to prevent exposure of patients to Pseudomonas aeruginosa",
    "url": "https://pubmed.ncbi.nlm.nih.gov/36049574/",
    "source": "Journal of Hospital Infection",
    "year": 2022,
@@ -114,17 +172,17 @@
   },
   {
    "id": 4,
-   "title": "T Nation forum: High T, High SHBG, Low Free Test",
+   "title": "High T, High SHBG, Low Free Test. Anavar the Answer?",
    "url": "https://t-nation.com/t/high-t-high-shbg-low-free-test-anavar-the-answer/253422",
-   "source": "T Nation",
+   "source": "T Nation forum",
    "year": 2019,
    "type": "forum"
   },
   {
    "id": 5,
-   "title": "T Nation forum: Organic Produce Nutritionally Better?",
+   "title": "Organic Produce Nutritionally Better?",
    "url": "https://t-nation.com/t/organic-produce-nutritionally-better/60073",
-   "source": "T Nation",
+   "source": "T Nation forum",
    "year": 2006,
    "type": "forum"
   },
@@ -138,9 +196,9 @@
   },
   {
    "id": 7,
-   "title": "T Nation forum: Poliquin Bio-signature",
+   "title": "Poliquin Bio-signature",
    "url": "https://t-nation.com/t/poliquin-bio-signature/162025",
-   "source": "T Nation",
+   "source": "T Nation forum",
    "year": 2011,
    "type": "forum"
   }
@@ -155,6 +213,7 @@
    "title": "Hard water"
   }
  ],
+ "name": "Shower filter",
  "card": {
   "summary": "A chlorine-reducing filter for the shower arm; the skin and hair benefits are anecdotal.",
   "aka": "Filtered showerhead",
@@ -169,15 +228,5 @@
   "overview": "Shower filters attach to the shower arm to reduce chlorine in the water. People use them hoping for softer skin and hair.\n\nNo trials on skin or hair appearance were found, and descriptions call the evidence limited and anecdotal.",
   "mechanism": "Water passes through media such as KDF, calcium sulfite and activated carbon that react with or adsorb chlorine before it exits the showerhead.",
   "risks": "A 2022 hospital study reported that hollow-fibre shower filters did not prevent patient exposure to Pseudomonas aeruginosa. Cartridges are described as needing periodic replacement."
- },
- "angle": {
-  "goal": "Skin and hair",
-  "chain": [
-   "Media in the filter reduces chlorine in shower water",
-   "Less contact between chlorine and skin and hair oils",
-   "Users aim for softer-feeling skin and less dry hair"
-  ],
-  "effect": "claimed",
-  "text": "People install a shower filter hoping for softer skin and less dry, brittle-looking hair, on the idea that chlorine strips natural oils. Users describe a more pleasant shower; published studies of appearance outcomes have not been found."
  }
 }

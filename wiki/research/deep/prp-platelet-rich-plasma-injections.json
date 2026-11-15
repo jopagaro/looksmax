@@ -1,103 +1,503 @@
 {
-  "name": "PRP (platelet-rich plasma) injections",
-  "lead": [
-    "Platelet-rich plasma (PRP) is a concentrate of plasma prepared from a person's own blood. The blood is centrifuged to remove red cells while retaining platelets, which contain growth factors and cytokines thought to aid tissue healing. [1] The concentrate is then injected or applied to the target area. In aesthetic medicine it is marketed for wrinkles, skin rejuvenation and hair growth, and it is sometimes combined with microneedling in what is popularly called a 'vampire facial'. [1]",
-    "In looksmaxxing forums, PRP is discussed mainly for under-eye hollows and dark circles, often compared with hyaluronic acid tear-trough filler. [2] Most of the clinical research on PRP concerns knee osteoarthritis and other musculoskeletal conditions rather than facial appearance, with mixed results. [1][3][4]",
-    "The FDA does not regulate PRP itself, so clinical use is off-label, while the devices used to prepare it need clearance. [1]"
+ "name": "PRP (platelet-rich plasma) injections",
+ "lead": [
+  "Platelet-rich plasma (PRP) is a concentrate made from a person's own blood: a sample is spun in a centrifuge so that red cells are separated out and platelets are concentrated, typically to about three to five times their normal level in blood.[1] Platelets carry growth factors and signalling proteins, and the idea behind the treatment is that delivering them to a target area, by injection, by microneedling or with a mesotherapy device, prompts the tissue to repair and renew itself.[1] In appearance medicine that idea is applied to skin quality, under-eye hollows and thinning hair, which is how PRP reached looksmaxxing forums.[1][2]",
+  "In its best-known cosmetic form the plasma is applied to the face after microneedling, a combination marketed as the 'vampire facial'.[1][4] Proponents say the treatment stimulates collagen and new skin cells, giving smoother, brighter and firmer-looking skin; on looksmax.org the topic comes up in threads about tear-trough hollows, acne scars and 'biofillers', and about PRP as an alternative to hyaluronic acid filler.[2][3] The same concentrate is also injected into the scalp in hair-loss clinics.[1][5]",
+  "Most published research on PRP concerns joints and tendons, above all knee osteoarthritis, where randomized trials and meta-analyses have produced mixed results.[10][11][12][14] Research on the face is more limited and consists largely of small case series, while the scalp has the largest body of controlled data for any appearance use, with a 2023 meta-analysis pooling 27 trials in hair loss.[5][8] In the United States PRP itself is not regulated as a product, so clinical use is off-label, although the kits that prepare it are subject to FDA clearance.[1] A 2024 CDC-reported cluster of HIV infections tied to an unlicensed spa's vampire facials made the procedure's infection-control requirements a prominent news story.[1]"
+ ],
+ "angle": {
+  "goal": "Skin quality and hair density",
+  "chain": [
+   "Blood drawn and centrifuged to concentrate platelets",
+   "Concentrate injected or microneedled into skin or scalp",
+   "Platelet growth factors are thought to prompt repair, collagen and follicle activity",
+   "Smoother, brighter-looking skin or denser hair"
   ],
-  "infobox": [
-    ["Type", "Autologous blood-derived injectable"],
-    ["Preparation", "Centrifugation of the patient's own blood"],
-    ["Aesthetic uses", "Skin rejuvenation, under-eye area, hair (marketed)"],
-    ["Regulatory status (US)", "PRP not regulated as a product; preparation devices FDA-cleared; use off-label"],
-    ["Evidence", "Mixed; mainly from musculoskeletal trials"]
+  "effect": "claimed",
+  "text": "People use PRP in the hope of fresher, more even skin, fuller-looking under-eye areas and thicker hair, often alongside microneedling. Practitioners describe the platelets' growth factors as the active ingredient, and the best-documented appearance results come from scalp trials in hair loss."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Autologous blood-derived concentrate (injectable or topical)"
   ],
-  "sections": [
+  [
+   "Also called",
+   "Autologous conditioned plasma; 'vampire facial' when combined with microneedling"
+  ],
+  [
+   "Preparation",
+   "Centrifugation of the person's own blood; platelets concentrated roughly 3-5x[1]"
+  ],
+  [
+   "Appearance uses",
+   "Skin rejuvenation, under-eye area, scars, scalp hair"
+  ],
+  [
+   "Term first used",
+   "'Platelet-rich plasma', Kingsley, 1954[1]"
+  ],
+  [
+   "Hair-loss evidence",
+   "27 controlled trials (1,117 subjects) in a 2023 meta-analysis[5]"
+  ],
+  [
+   "US regulation",
+   "PRP not regulated as a product; preparation devices FDA-cleared; use off-label[1]"
+  ],
+  [
+   "Main research area",
+   "Knee osteoarthritis and other musculoskeletal conditions[10][11]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description and preparation",
+   "paras": [
+    "PRP is also called autologous conditioned plasma. Preparation normally takes place in a clinic using commercial kits: blood is drawn, spun to separate its components and the platelet-rich layer is collected for use, with results that vary between people and facilities.[1] Wikipedia describes three broad categories defined by white-blood-cell and fibrin content: leukocyte-rich PRP, leukocyte-reduced PRP and leukocyte platelet-rich fibrin.[1] Platelets may be activated with thrombin or calcium chloride before use, though this step is described as optional because natural thrombin in the tissue can activate them after injection.[1]",
+    "The growth factors and cytokines associated with platelets include PDGF, TGF-beta, FGF, IGF-1 and IGF-2, VEGF and EGF, among others.[1] Studies of knee treatment have compared single-spin and double-spin preparation and examined how leukocyte concentration changes outcomes, which shows that preparation methods are not standardized.[19][20]",
+    "A related product, platelet-rich fibrin (PRF), is made by a similar spin without an anticoagulant and forms a gel-like matrix; looksmax.org posters discussing 'biofillers' are referring to PRF-type preparations. Dental researchers have studied PRF in periodontal defects, including a 2024 network meta-analysis.[3][24]"
+   ],
+   "subs": []
+  },
+  {
+   "h": "History",
+   "paras": [
+    "According to Wikipedia, the term 'platelet-rich plasma' was first used by Kingsley in 1954; the first PRP blood banks appeared in the 1960s and the technique spread in the 1970s, initially in hematology for patients with low platelet counts.[1] Use extended to maxillofacial surgery in the 1980s, and Wikipedia credits a 1987 open-heart operation in Italy (Ferrari and colleagues) as an early surgical use.[1] A 1998 randomized trial in oral surgery examined PRP as a growth-factor enhancement for bone grafts.[21]",
+    "PRP drew public attention between roughly 2009 and 2011 because of its use by professional athletes for tendon and muscle injuries, covered by outlets including the New York Times and Scientific American.[1] In January 2011 the World Anti-Doping Agency removed intramuscular PRP from its prohibited list, citing lack of evidence that it enhances performance.[1] PRP began to be considered for androgenetic alopecia and alopecia areata around 2006.[1]",
+    "The cosmetic 'vampire facial' reached a mass audience in 2013, when Kim Kardashian West posted an Instagram photograph of her blood-covered face during the procedure; she later said she regretted it.[4] Interest in injecting a person's own blood goes back further: autohemotherapy was a popular dermatology treatment in the early twentieth century before being abandoned, with interest returning in the 2000s.[4]"
+   ],
+   "subs": []
+  },
+  {
+   "h": "Uses",
+   "paras": [
+    "PRP has been used or investigated for tendon and joint problems, hair loss, chronic wounds, assisted reproduction and aesthetic medicine.[1] Registered studies include PRP for knee osteoarthritis (a completed 153-person study),[7] vocal fold atrophy, rotator cuff syndrome, internal disc disruption and chronic non-healing wounds.[23][22][25]"
+   ],
+   "subs": [
     {
-      "h": "Description and preparation",
-      "paras": [
-        "Wikipedia reports that preparation is usually done in a clinic with commercial kits, that protocols aim for roughly three to five times the physiological platelet concentration, and that results vary between individuals and facilities. Platelets may be activated with thrombin or calcium chloride, though this step is optional. [1] Studies have compared single- and double-spin preparation approaches and the effect of leukocyte concentration on knee osteoarthritis outcomes. [5][6]"
-      ],
-      "subs": []
+     "h": "Skin rejuvenation and the face",
+     "paras": [
+      "In aesthetic practice PRP is injected into the face, applied after microneedling, or delivered with a mesotherapy device, with the aim of improving texture, fine lines, tone and the look of tired skin.[1][8] Wikipedia notes that the supporting claims for aesthetic PRP are largely promotional.[1] Reported side effects of a vampire facial include redness, swelling, bruising and tingling; providers quote about two days of recovery, although some patients report a week or more with scabbing.[4]",
+      "Within looksmaxxing communities the face-related interest centres on tear-trough hollows and dark under-eye circles, where posters weigh PRP against hyaluronic acid filler priced similarly, and on skin texture and acne scarring.[2][3] One 2026 case series of ten patients with mild-to-moderate photoaging gave three monthly PRP treatments and reported thicker dermis on high-frequency ultrasound, improved pores, wrinkles and pigmentation on a skin analyzer, and transient redness as the main side effect.[8] A 2021 report of seven patients described PRP mesotherapy for corticosteroid-induced rosacea-like dermatitis.[9]"
+     ],
+     "subs": []
     },
     {
-      "h": "Uses",
-      "paras": [
-        "According to Wikipedia, PRP has been used or studied for tendon and joint problems, hair loss (androgenetic alopecia and alopecia areata), chronic wounds, assisted reproduction, and aesthetic medicine. [1] Registered studies listed for PRP include vocal fold atrophy, rotator cuff conditions, disc disruption and chronic wounds. [7][8][9][10]",
-        "In aesthetic practice PRP is applied to the face by injection, with microneedling, or through mesotherapy devices. [1][11]"
-      ],
-      "subs": []
+     "h": "Hair loss",
+     "paras": [
+      "Clinics offer PRP scalp injections as an add-on or alternative to minoxidil or finasteride, typically as a series of monthly sessions followed by maintenance treatments every few months, according to Wikipedia; its authors say efficacy depends on the number of sessions, preparation method, age, sex and injection site.[1] Reported changes are in hair density and shaft thickness rather than in the pattern of hair loss itself.[1][5]"
+     ],
+     "subs": []
     },
     {
-      "h": "Clinical studies",
-      "paras": [
-        "Most large human studies concern knee osteoarthritis. Several trials and meta-analyses compared PRP with hyaluronic acid injections. A 2021 meta-analysis of randomized trials examined the comparison [3], while a 2015 randomized trial reported no superiority of PRP over viscosupplementation [12]. A 2017 randomized, double-blind, placebo-controlled trial reported that multiple PRP injections performed better than single injections and hyaluronic acid in early osteoarthritis. [13] The 2021 RESTORE randomized trial published in JAMA compared PRP with placebo injection for pain and medial tibial cartilage volume in knee osteoarthritis. [4] A 2017 meta-analysis of randomized trials also examined efficacy. [14]",
-        "Wikipedia summarises the overall musculoskeletal picture as mixed: support for some conditions and none for others, with a Cochrane review finding no good evidence for elbow tendinitis. [1]",
-        "For facial appearance, the sources reviewed include a 2026 case series that used high-frequency ultrasound to assess PRP injection for facial photoaging [11] and a 2021 report of seven patients with corticosteroid-induced rosacea-like dermatitis treated with PRP mesotherapy [15]. These are small uncontrolled series. No randomized trial of PRP for under-eye appearance was identified in the sources consulted."
-      ],
-      "subs": []
-    },
-    {
-      "h": "Safety and controversies",
-      "paras": [
-        "Wikipedia reports that adverse effects are low in most trials. [1] In April 2024 the US CDC reported three HIV diagnoses among patients of an unlicensed Albuquerque spa where contaminated single-use equipment was reused in vampire-facial-type procedures. [1]",
-        "The introduction to the 2021 RESTORE trial notes that most clinical guidelines at that time did not recommend PRP for knee osteoarthritis because of lack of high-quality evidence, even as use was increasing. [4]"
-      ],
-      "subs": []
+     "h": "Under-eye and microneedling combinations",
+     "paras": [
+      "Microneedling creates tiny channels in the skin and is often paired with topical or injected products. A 2022 meta-analysis of 12 studies (459 patients) on melasma found that microneedling added to topical treatments, which included tranexamic acid, vitamin C, PRP and depigmenting agents, produced additional improvement and was well tolerated.[10] That analysis examined microneedling as an adjunct across several topicals, not PRP alone."
+     ],
+     "subs": []
     }
-  ],
-  "timeline": [
-    { "year": "1954", "event": "Kingsley first uses the term 'platelet-rich plasma', per Wikipedia. [1]" },
-    { "year": "1980s", "event": "Maxillofacial surgery adopts PRP. [1]" },
-    { "year": "2006", "event": "PRP begins to be considered for hair-loss conditions. [1]" },
-    { "year": "2021", "event": "RESTORE randomized trial of PRP versus placebo in knee osteoarthritis published in JAMA. [4]" },
-    { "year": "2024", "event": "CDC reports three HIV diagnoses linked to an unlicensed spa offering vampire facials. [1]" }
-  ],
-  "lore": {
-    "intro": "On looksmax.org, PRP appears in discussions of under-eye treatment, usually as an alternative to tear-trough filler. [2]",
-    "claims": [
-      {
-        "claim": "PRP may give better under-eye results than tear-trough filler",
-        "believers": "A forum poster asked whether PRP results beat simple tear-trough fillers at a similar price, and replies noted concern that filler may leave pocket-like bags because it does not dissolve and that injection directly in the tear trough carries complication risk. [2]",
-        "experts": "No randomized trial comparing PRP with filler for the under-eye area was identified; PRP evidence is mainly from knee osteoarthritis and other musculoskeletal trials with mixed results. [1][4]",
-        "evidence": "untested"
-      }
-    ]
+   ]
   },
-  "refs": [
-    { "id": 1, "title": "Platelet-rich plasma", "url": "https://en.wikipedia.org/wiki/Platelet-rich_plasma", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Someone here got PRP injections for his undereye area?", "url": "https://looksmax.org/threads/someone-here-got-prp-injections-for-his-undereye-area.413116/", "source": "looksmax.org", "year": null, "type": "forum" },
-    { "id": 3, "title": "Platelet-Rich Plasma Versus Hyaluronic Acid for Knee Osteoarthritis: Systematic Review and Meta-analysis of RCTs", "url": "https://pubmed.ncbi.nlm.nih.gov/32302218/", "source": "American Journal of Sports Medicine", "year": 2021, "type": "review" },
-    { "id": 4, "title": "Effect of Intra-articular PRP vs Placebo Injection on Pain and Medial Tibial Cartilage Volume: The RESTORE Randomized Clinical Trial", "url": "https://pubmed.ncbi.nlm.nih.gov/34812863/", "source": "JAMA", "year": 2021, "type": "trial" },
-    { "id": 5, "title": "PRP intra-articular injections for cartilage degeneration and osteoarthritis: single- versus double-spinning approach", "url": "https://pubmed.ncbi.nlm.nih.gov/22203046/", "source": "Knee Surgery, Sports Traumatology, Arthroscopy", "year": 2012, "type": "study" },
-    { "id": 6, "title": "Effect of Leukocyte Concentration on the Efficacy of PRP in the Treatment of Knee Osteoarthritis", "url": "https://pubmed.ncbi.nlm.nih.gov/25925602/", "source": "American Journal of Sports Medicine", "year": 2016, "type": "study" },
-    { "id": 7, "title": "NCT03749863 Serial PRP Injections for Vocal Fold Atrophy", "url": "https://clinicaltrials.gov/study/NCT03749863", "source": "ClinicalTrials.gov", "year": 2020, "type": "trial" },
-    { "id": 8, "title": "NCT05561452 PRP Injection in Rotator Cuff Syndrome", "url": "https://clinicaltrials.gov/study/NCT05561452", "source": "ClinicalTrials.gov", "year": 2022, "type": "trial" },
-    { "id": 9, "title": "NCT04102761 PRP and BMC in Internal Disc Disruption", "url": "https://clinicaltrials.gov/study/NCT04102761", "source": "ClinicalTrials.gov", "year": 2018, "type": "trial" },
-    { "id": 10, "title": "NCT02071979 Registry Trial of PRP for Chronic Non-Healing Wounds", "url": "https://clinicaltrials.gov/study/NCT02071979", "source": "ClinicalTrials.gov", "year": 2014, "type": "trial" },
-    { "id": 11, "title": "Subepidermal Low-Echogenic Band via High-Frequency Ultrasound for Evaluating PRP Injection in Facial Photoaging: A Case Series", "url": "https://pubmed.ncbi.nlm.nih.gov/41555709/", "source": "Journal of Cosmetic Dermatology", "year": 2026, "type": "study" },
-    { "id": 12, "title": "PRP Intra-articular Knee Injections Show No Superiority Versus Viscosupplementation: A Randomized Controlled Trial", "url": "https://pubmed.ncbi.nlm.nih.gov/25952818/", "source": "American Journal of Sports Medicine", "year": 2015, "type": "trial" },
-    { "id": 13, "title": "Multiple PRP injections are more effective than single injections and hyaluronic acid in knees with early osteoarthritis", "url": "https://pubmed.ncbi.nlm.nih.gov/26233594/", "source": "Knee Surgery, Sports Traumatology, Arthroscopy", "year": 2017, "type": "trial" },
-    { "id": 14, "title": "Efficacy of PRP in the Treatment of Knee Osteoarthritis: A Meta-analysis of RCTs", "url": "https://pubmed.ncbi.nlm.nih.gov/28012636/", "source": "Arthroscopy", "year": 2017, "type": "review" },
-    { "id": 15, "title": "Successful Treatment of Corticosteroid-Induced Rosacea-Like Dermatitis with PRP Mesotherapy: Report of Seven Cases", "url": "https://pubmed.ncbi.nlm.nih.gov/33539001/", "source": "Dermatology and Therapy", "year": 2021, "type": "study" }
-  ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Platelet-rich_plasma", "title": "Platelet-rich plasma (Wikipedia)" }
-  ],
-  "card": {
-    "summary": "Centrifuged-blood injectable used for skin and under-eye rejuvenation; trial evidence is mostly from knees, not faces.",
-    "aka": "Platelet-rich plasma, vampire facial (with microneedling), autologous conditioned plasma",
-    "evidence": "limited",
-    "status": "rx",
-    "outcome": null,
-    "risk": "moderate",
-    "price": null,
-    "note": "A 2024 CDC report linked an unlicensed spa's vampire facials to three HIV diagnoses.",
-    "structure": null
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Hair is the appearance area with the most controlled data. A 2015 randomized, evaluator-blinded, placebo-controlled half-head trial in 23 people with pattern hair loss (20 analysed) injected PRP into one half of the scalp and placebo into the other, three times at 30-day intervals, and followed participants for two years. Mean hair count in the target area rose by 33.6 and total hair density by 45.9 hairs per cm2 against baseline; biopsies showed thicker epidermis and more follicles, no side effects were reported during treatment, and four patients reported progressive hair loss again by 16 months and were re-treated. The authors concluded that PRP may be a safe and effective option and called for larger controlled studies.[6]",
+    "A 2023 systematic review and meta-analysis pooled 27 controlled trials (1,117 participants): 18 in androgenetic alopecia and 9 in alopecia areata, 11 using a split-head design. Compared with saline injections, PRP increased hair density over medium-term follow-up (mean difference 25.6 hairs per cm2, 95% CI 2.62 to 48.57), but the authors rated the evidence low in quality, noted wide variation in PRP types and schedules, and reported no serious adverse events related to PRP.[5]",
+    "For facial appearance the literature is smaller: the 2026 photoaging case series of ten patients and the seven-patient rosacea-like dermatitis report are uncontrolled.[8][9] No randomized trial of PRP for under-eye hollows or dark circles has been identified.",
+    "Most of the large human trials concern the knee. A 2021 meta-analysis of randomized trials compared PRP with hyaluronic acid injections for knee osteoarthritis.[11] A 2015 randomized trial reported no superiority of PRP over viscosupplementation,[12] whereas a 2017 randomized, double-blind, placebo-controlled trial of 162 patients reported that three PRP injections outperformed a single injection and hyaluronic acid in early osteoarthritis.[13] A 2017 meta-analysis of randomized trials examined efficacy,[14] and a 2021 meta-analysis of eight studies (648 patients) found PRP better than corticosteroid injection for symptoms at 3, 6 and 9 months.[15] The 2021 RESTORE randomized trial in JAMA compared PRP with placebo for pain and medial tibial cartilage volume in knee osteoarthritis; its introduction noted that most guidelines had not recommended PRP for the knee because of lack of high-quality evidence.[16] A 2024 ESSKA-ICRS consensus statement set out recommendations for different clinical scenarios.[18]",
+    "For tendons, a 2021 meta-analysis of eight randomized trials examined PRP for rotator cuff tendinopathy,[17] and a 2025 meta-analysis of 27 randomized trials (1,779 patients) compared PRP with corticosteroid injection across rotator cuff, tennis elbow, plantar fasciitis and tenosynovitis.[26] Other randomized trials have tested PRP in lumbar disc disease, ankle osteoarthritis and COVID-19-related olfactory loss.[27][28][29] A systematic review has also examined PRP for temporomandibular joint osteoarthritis.[30]",
+    "Wikipedia summarises the overall picture as mixed: tentative support for knee osteoarthritis, mixed results for rotator cuff disease, a 2021 Cochrane review finding no good evidence for elbow tendinitis, and positive 2024 meta-analyses for venous and diabetic foot ulcers.[1]"
+   ],
+   "subs": []
   },
-  "quick": {
-    "overview": "PRP is made by spinning a person's own blood to concentrate platelets, then injecting or applying it. In aesthetics it is marketed for skin rejuvenation, hair and under-eye areas.\n\nMost controlled trials are on knee osteoarthritis and other joint problems, with mixed results. Facial studies are small case series.",
-    "mechanism": "Platelets contain growth factors and cytokines thought to promote tissue repair. PRP is often applied with microneedling or injected with fine needles or mesotherapy devices.",
-    "risks": "Adverse effects are low in most trials per Wikipedia, but the CDC reported HIV diagnoses linked to an unlicensed spa reusing contaminated equipment. PRP is not itself FDA-regulated; use is off-label."
+  {
+   "h": "Safety, regulation and controversies",
+   "paras": [
+    "Wikipedia reports that adverse effects are low in most trials and that a Cochrane review found weak evidence of harm at comparable low rates in treated and untreated people.[1] Because the material comes from the patient's own blood, allergic or immune reactions are not the usual concern; the main risk is infection when equipment or technique is not sterile.[1][4]",
+    "In September 2018 the New Mexico Department of Health warned that at least one spa offering vampire facials could potentially spread HIV, hepatitis B and hepatitis C.[4] In April 2024 the CDC reported that three women diagnosed with HIV had received such facials at an unlicensed Albuquerque spa where the operator reused blood-contaminated single-use equipment without sterilization; about 200 other former clients tested negative.[1][4]",
+    "The FDA does not regulate PRP itself, because it is exempt from the traditional pathways as a human tissue and blood product, so its clinical use is off-label; the devices used to prepare it are subject to FDA clearance.[1]"
+   ],
+   "subs": []
+  },
+  {
+   "h": "In looksmaxxing culture",
+   "paras": [
+    "On looksmax.org, PRP appears mainly in threads about the under-eye area and skin quality. A poster asked whether PRP gave better results than simple tear-trough filler for about the same price, and replies raised concern that non-dissolving filler can leave pocket-like bags and that injection directly in the tear trough carries complication risk.[2] Another member described a clinic build-out for vampire facials and platelet-rich fibrin 'biofillers' for the tear trough, chin and jaw, which drew jokes and offers to book appointments from other users.[3]",
+    "Outside appearance forums, PRP appears in strength-training and sports communities, where lifters and fans discuss it for injuries; for example a 2014 T Nation thread speculated that an NFL player would have access to PRP injections.[31] For lifters, faster recovery of joints and tendons is discussed as a way to keep training and building physique."
+   ],
+   "subs": []
   }
+ ],
+ "timeline": [
+  {
+   "year": "1954",
+   "event": "Kingsley first uses the term 'platelet-rich plasma'.[1]"
+  },
+  {
+   "year": "1970s",
+   "event": "PRP spreads in hematology for patients with low platelet counts.[1]"
+  },
+  {
+   "year": "1980s",
+   "event": "Maxillofacial surgery adopts PRP.[1]"
+  },
+  {
+   "year": "1987",
+   "event": "PRP used in an open-heart operation in Italy (Ferrari and colleagues).[1]"
+  },
+  {
+   "year": "1998",
+   "event": "Randomized oral-surgery trial of PRP as growth-factor enhancement for bone grafts.[21]"
+  },
+  {
+   "year": "2006",
+   "event": "PRP begins to be considered for hair-loss conditions.[1]"
+  },
+  {
+   "year": "2011",
+   "event": "WADA removes intramuscular PRP from its prohibited list.[1]"
+  },
+  {
+   "year": "2013",
+   "event": "Kim Kardashian West posts a vampire-facial photo, bringing the procedure to wide attention.[4]"
+  },
+  {
+   "year": "2015",
+   "event": "Randomized half-head placebo-controlled trial of PRP in pattern hair loss published.[6]"
+  },
+  {
+   "year": "2018",
+   "event": "New Mexico Department of Health warns that vampire-facial spas could spread bloodborne infections.[4]"
+  },
+  {
+   "year": "2021",
+   "event": "RESTORE randomized trial of PRP versus placebo in knee osteoarthritis published in JAMA.[16]"
+  },
+  {
+   "year": "2023",
+   "event": "Meta-analysis of 27 controlled trials of PRP in alopecia published.[5]"
+  },
+  {
+   "year": "2024",
+   "event": "CDC reports three HIV diagnoses linked to an unlicensed spa's vampire facials.[1]"
+  }
+ ],
+ "lore": {
+  "intro": "Looksmaxxing communities discuss PRP mainly as a skin and under-eye treatment, often next to filler, microneedling and 'biofillers'; some members describe plans to perform the procedures themselves or in their own clinics.[2][3]",
+  "claims": [
+   {
+    "claim": "PRP gives better under-eye results than tear-trough filler",
+    "believers": "A poster asked whether PRP outperforms simple tear-trough filler at a similar price, and replies voiced worry that filler can form pocket-like bags because it does not dissolve.[2]",
+    "experts": "No randomized trial comparing PRP with filler for the under-eye area was found; PRP research is mostly on knees and tendons, with facial data limited to small uncontrolled series.[1][8][16]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "A vampire facial regenerates skin and builds collagen",
+    "believers": "Proponents say the platelets' growth factors stimulate new skin cells and collagen, and the procedure is promoted by clinics and by celebrity posts.[1][4]",
+    "experts": "Wikipedia notes the supporting claims are largely promotional; a 2026 case series of ten patients reported thicker dermis on ultrasound and improved skin parameters after three sessions, without a control group.[1][8]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "PRP scalp injections regrow hair",
+    "believers": "Clinics offer PRP as an alternative or complement to minoxidil and finasteride, and the authors of a 2015 trial reported increased hair counts and density.[1][6]",
+    "experts": "A 2023 meta-analysis of 27 controlled trials found higher hair density than saline but rated the evidence low in quality, with varied preparation methods.[5]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Microneedling with PRP is better than either alone",
+    "believers": "The vampire-facial combination is the most common cosmetic use, on the reasoning that needling opens channels for the platelets to act.[1][4]",
+    "experts": "A melasma meta-analysis found microneedling an effective adjunct to several topicals, PRP among them, but did not isolate PRP's contribution.[10]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Because PRP is made from your own blood it carries no real risk",
+    "believers": "Users and clinics point to the autologous source, which avoids donor-material reactions, and to low adverse-event rates in trials.[1]",
+    "experts": "The CDC reported HIV infections among clients of an unlicensed spa that reused contaminated equipment; infection control is the concern, not the plasma itself.[1][4]",
+    "evidence": "harms"
+   },
+   {
+    "claim": "PRP speeds recovery of joints and tendons so athletes can keep training",
+    "believers": "Fans and lifters on sports forums mention PRP injections for professional athletes and for their own injuries.[31]",
+    "experts": "Wikipedia describes the evidence as mixed: tentative support for knee osteoarthritis, a Cochrane finding of no good evidence for elbow tendinitis, and mixed rotator cuff results.[1][16]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Platelet-rich plasma",
+   "url": "https://en.wikipedia.org/wiki/Platelet-rich_plasma",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Someone here got PRP injections for his undereye area?",
+   "url": "https://looksmax.org/threads/someone-here-got-prp-injections-for-his-undereye-area.413116/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 3,
+   "title": "Looksmax Biofiller / Vampire facial haul update",
+   "url": "https://looksmax.org/threads/biofiller-vampire-facial-haul-update.651493/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 4,
+   "title": "Autologous blood therapy (includes 'vampire facial')",
+   "url": "https://en.wikipedia.org/wiki/Vampire_facial",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 5,
+   "title": "Platelet-rich plasma for the treatment of alopecia: a systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34967722/",
+   "source": "Blood Transfusion",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "The Effect of Platelet-Rich Plasma in Hair Regrowth: A Randomized Placebo-Controlled Trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26400925/",
+   "source": "Stem Cells Translational Medicine",
+   "year": 2015,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "NCT04852380 Platelet Rich Plasma (PRP) Injections For Knee Osteoarthritis",
+   "url": "https://clinicaltrials.gov/study/NCT04852380",
+   "source": "ClinicalTrials.gov",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Subepidermal Low-Echogenic Band via High-Frequency Ultrasound for Evaluating PRP Injection in Facial Skin Photoaging: A Case Series",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41555709/",
+   "source": "Journal of Cosmetic Dermatology",
+   "year": 2026,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "Successful Treatment of Corticosteroid-Induced Rosacea-Like Dermatitis with PRP Mesotherapy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33539001/",
+   "source": "Journal of Cosmetic Dermatology",
+   "year": 2021,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Microneedling as an adjuvant to topical therapies for melasma: A systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33857549/",
+   "source": "Journal of the American Academy of Dermatology",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "Platelet-Rich Plasma Versus Hyaluronic Acid for Knee Osteoarthritis: A Systematic Review and Meta-analysis of Randomized Controlled Trials",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32302218/",
+   "source": "American Journal of Sports Medicine",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 12,
+   "title": "PRP Intra-articular Knee Injections Show No Superiority Versus Viscosupplementation: A Randomized Controlled Trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25952818/",
+   "source": "American Journal of Sports Medicine",
+   "year": 2015,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "Multiple PRP injections are more effective than single injections and hyaluronic acid in knees with early osteoarthritis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26233594/",
+   "source": "Knee Surgery, Sports Traumatology, Arthroscopy",
+   "year": 2017,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "Efficacy of Platelet-Rich Plasma in the Treatment of Knee Osteoarthritis: A Meta-analysis of Randomized Controlled Trials",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28012636/",
+   "source": "Arthroscopy",
+   "year": 2017,
+   "type": "review"
+  },
+  {
+   "id": 15,
+   "title": "Intra-articular PRP injections versus corticosteroid injections for knee osteoarthritis: systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34134679/",
+   "source": "BMC Musculoskeletal Disorders",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 16,
+   "title": "Effect of Intra-articular PRP vs Placebo Injection on Pain and Medial Tibial Cartilage Volume in Patients With Knee Osteoarthritis: The RESTORE Randomized Clinical Trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34812863/",
+   "source": "JAMA",
+   "year": 2021,
+   "type": "trial"
+  },
+  {
+   "id": 17,
+   "title": "Platelet-rich plasma for rotator cuff tendinopathy: A systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33970936/",
+   "source": "PLoS ONE",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 18,
+   "title": "PRP injections for the management of knee osteoarthritis: The ESSKA-ICRS consensus",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38961773/",
+   "source": "Knee Surgery, Sports Traumatology, Arthroscopy",
+   "year": 2024,
+   "type": "guideline"
+  },
+  {
+   "id": 19,
+   "title": "PRP intra-articular injections for cartilage degeneration and osteoarthritis: single- versus double-spinning approach",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22203046/",
+   "source": "Knee Surgery, Sports Traumatology, Arthroscopy",
+   "year": 2012,
+   "type": "study"
+  },
+  {
+   "id": 20,
+   "title": "Effect of Leukocyte Concentration on the Efficacy of PRP in the Treatment of Knee Osteoarthritis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25925602/",
+   "source": "American Journal of Sports Medicine",
+   "year": 2016,
+   "type": "study"
+  },
+  {
+   "id": 21,
+   "title": "Platelet-rich plasma: Growth factor enhancement for bone grafts",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9638695/",
+   "source": "Oral Surgery, Oral Medicine, Oral Pathology, Oral Radiology, and Endodontics",
+   "year": 1998,
+   "type": "trial"
+  },
+  {
+   "id": 22,
+   "title": "NCT05561452 The Efficacy of PRP Injection in the Treatment of Rotator Cuff Syndrome",
+   "url": "https://clinicaltrials.gov/study/NCT05561452",
+   "source": "ClinicalTrials.gov",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 23,
+   "title": "NCT03749863 Serial PRP Injections for Vocal Fold Atrophy",
+   "url": "https://clinicaltrials.gov/study/NCT03749863",
+   "source": "ClinicalTrials.gov",
+   "year": 2020,
+   "type": "trial"
+  },
+  {
+   "id": 24,
+   "title": "Regeneration of periodontal intrabony defects using platelet-rich fibrin (PRF): a systematic review and network meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38771493/",
+   "source": "Odontology",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 25,
+   "title": "NCT02071979 Registry Trial of PRP for Chronic Non-Healing Wounds",
+   "url": "https://clinicaltrials.gov/study/NCT02071979",
+   "source": "ClinicalTrials.gov",
+   "year": 2014,
+   "type": "trial"
+  },
+  {
+   "id": 26,
+   "title": "Platelet-rich plasma and corticosteroid injection for tendinopathy: a systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40200209/",
+   "source": "BMC Musculoskeletal Disorders",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 27,
+   "title": "Lumbar Intradiskal PRP Injections: A Prospective, Double-Blind, Randomized Controlled Study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26314234/",
+   "source": "PM&R",
+   "year": 2016,
+   "type": "trial"
+  },
+  {
+   "id": 28,
+   "title": "Platelet-Rich Plasma Injections for the Treatment of Ankle Osteoarthritis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37417359/",
+   "source": "American Journal of Sports Medicine",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 29,
+   "title": "Use of platelet-rich plasma for COVID-19-related olfactory loss: a randomized controlled trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36507615/",
+   "source": "International Forum of Allergy & Rhinology",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 30,
+   "title": "Mechanisms of Action and Efficacy of Hyaluronic Acid, Corticosteroids and PRP in Temporomandibular Joint Osteoarthritis: A Systematic Review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34299024/",
+   "source": "International Journal of Molecular Sciences",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 31,
+   "title": "2014 NFL Thread II",
+   "url": "https://t-nation.com/t/2014-nfl-thread-ii/205450",
+   "source": "T Nation forum",
+   "year": 2014,
+   "type": "forum"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Platelet-rich_plasma",
+   "title": "Platelet-rich plasma (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Vampire_facial",
+   "title": "Autologous blood therapy / vampire facial (Wikipedia)"
+  }
+ ],
+ "card": {
+  "summary": "Centrifuged-blood injectable used for skin and under-eye rejuvenation; trial evidence is mostly from knees, not faces.",
+  "aka": "Platelet-rich plasma, vampire facial (with microneedling), autologous conditioned plasma",
+  "evidence": "limited",
+  "status": "rx",
+  "outcome": null,
+  "risk": "moderate",
+  "price": null,
+  "note": "A 2024 CDC report linked an unlicensed spa's vampire facials to three HIV diagnoses.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "PRP is made by spinning a person's own blood to concentrate platelets, then injecting or applying it. In aesthetics it is marketed for skin rejuvenation, hair and under-eye areas.\n\nMost controlled trials are on knee osteoarthritis and other joint problems, with mixed results. Facial studies are small case series.",
+  "mechanism": "Platelets contain growth factors and cytokines thought to promote tissue repair. PRP is often applied with microneedling or injected with fine needles or mesotherapy devices.",
+  "risks": "Adverse effects are low in most trials per Wikipedia, but the CDC reported HIV diagnoses linked to an unlicensed spa reusing contaminated equipment. PRP is not itself FDA-regulated; use is off-label."
+ }
 }

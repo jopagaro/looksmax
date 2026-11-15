@@ -1,25 +1,304 @@
 {
-"name":"LL-37",
-"lead":["LL-37 is a 37-amino-acid antimicrobial peptide and the only cathelicidin made by humans. It is cleaved from a precursor protein, hCAP18, and is produced by neutrophils and epithelial cells including skin keratinocytes [3][4]. It is part of the innate immune system and also signals to immune cells [3].",
-"In appearance communities it is sometimes discussed as a research peptide for acne or skin quality. Published work is predominantly on its natural role in skin infection and inflammatory skin disease, including atopic dermatitis, psoriasis and rosacea, rather than on LL-37 as a cosmetic treatment [1][5]. No clinical trial of LL-37 for acne or cosmetic skin improvement was found."],
-"infobox":[["Type","Human cathelicidin antimicrobial peptide"],["Length","37 amino acids"],["Gene","CAMP (precursor hCAP18)"],["Status","Investigational; not an approved drug"],["Terminology","Cathelicidin named in 1995; LL-37 identified 1996"]],
-"sections":[
-{"h":"Biology","paras":["LL-37 is released from hCAP18 by proteolytic cleavage and acts on microbial membranes. It is chemotactic for neutrophils, monocytes and T cells through the receptor FPRL1 [3]. A mouse study found that a cathelicidin protects skin from invasive bacterial infection [4].","Vitamin D raises cathelicidin expression. Skin from people with atopic dermatitis was found to have lower LL-37 levels than psoriatic skin, linked to a higher susceptibility to skin infections [1]. Excess processed LL-37 is also suspected of contributing to rosacea and, bound to self nucleic acids, of sustaining inflammation in psoriasis. These roles are described in the Wikipedia article on cathelicidin."]},
-{"h":"Clinical studies","paras":["Registered trials involving LL-37 are few and mostly observational or biomarker-based. A small phase 1/2 trial examined intratumoral LL-37 in melanoma (4 participants) [6]. A phase 2 trial of an LL-37 cream for diabetic foot ulcers (40 participants) is registered with unknown status [7]. Other registered studies measure endogenous LL-37 levels in periodontal and peri-implant disease and in smoking exposure [8][9]. None addresses acne, scarring or cosmetic skin outcomes."]},
-{"h":"Development limits","paras":["Wikipedia notes that barriers to therapeutic use include rapid breakdown by proteases, limited bioavailability, production cost and restriction to injected or infused routes, and that modified analogues such as SAAP-148 are under study."]}],
-"timeline":[{"year":"1995","event":"Term cathelicidin coined; a 39-residue peptide proposed."},{"year":"1996","event":"Mature peptide shown to be LL-37, two residues shorter."},{"year":"2000","event":"LL-37 shown to attract immune cells via FPRL1 [3]."},{"year":"2002","event":"Reduced LL-37 reported in atopic dermatitis skin [1]."}],
-"lore":{"intro":"Discussion on looksmax.org is sparse; one thread asks whether LL-37 helps acne [2].","claims":[{"claim":"LL-37 might help clear acne and heal skin","believers":"A forum poster asked whether others had used it to heal skin and clear acne, framing it against established acne treatments [2].","experts":"No published human studies have tested LL-37 for acne. Research concerns its natural role in skin immunity [1][5].","evidence":"untested"},{"claim":"LL-37 has anti-aging skin benefits","believers":"A reply in the same thread said it seems decent for anti-aging but with likely modest acute improvements, and another advised waiting for more research [2].","experts":"No clinical trials of LL-37 for skin aging were found.","evidence":"untested"}]},
-"refs":[
-{"id":1,"title":"Endogenous antimicrobial peptides and skin infections in atopic dermatitis","url":"https://pubmed.ncbi.nlm.nih.gov/12374875/","source":"NEJM","year":2002,"type":"study"},
-{"id":2,"title":"LL-37 Has anyone tried it for acne?","url":"https://looksmax.org/threads/ll-37-has-anyone-tried-it-for-acne.1768804/","source":"looksmax.org","year":2025,"type":"forum"},
-{"id":3,"title":"LL-37 utilizes FPRL1 as a receptor to chemoattract neutrophils, monocytes, and T cells","url":"https://pubmed.ncbi.nlm.nih.gov/11015447/","source":"Journal of Experimental Medicine","year":2000,"type":"study"},
-{"id":4,"title":"Innate antimicrobial peptide protects the skin from invasive bacterial infection","url":"https://pubmed.ncbi.nlm.nih.gov/11719807/","source":"Nature","year":2001,"type":"study"},
-{"id":5,"title":"LL-37, the only human member of the cathelicidin family of antimicrobial peptides","url":"https://pubmed.ncbi.nlm.nih.gov/16716248/","source":"Biochimica et Biophysica Acta","year":2006,"type":"review"},
-{"id":6,"title":"Intratumoral Injections of LL37 for Melanoma (NCT02225366)","url":"https://clinicaltrials.gov/study/NCT02225366","source":"ClinicalTrials.gov","year":2015,"type":"trial"},
-{"id":7,"title":"LL-37 Cream on Diabetic Foot Ulcers (NCT04098562)","url":"https://clinicaltrials.gov/study/NCT04098562","source":"ClinicalTrials.gov","year":2019,"type":"trial"},
-{"id":8,"title":"Peri-implant Vitamin D and Cathelicidin (LL-37) Levels (NCT06867250)","url":"https://clinicaltrials.gov/study/NCT06867250","source":"ClinicalTrials.gov","year":2021,"type":"trial"},
-{"id":9,"title":"Effects of Smoking and Vitamin D3 on Levels of Human Cathelicidin Peptide LL-37 (NCT03923218)","url":"https://clinicaltrials.gov/study/NCT03923218","source":"ClinicalTrials.gov","year":2011,"type":"trial"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Cathelicidin","title":"Cathelicidin (Wikipedia)"}],
-"card":{"summary":"The body's own antimicrobial skin peptide, now chatted about for acne with no cosmetic trials behind it.","aka":null,"evidence":"unproven","status":"research","note":"Not an approved drug; no acne or cosmetic trials found.","structure":null},
-"quick":{"overview":"LL-37 is a natural antimicrobial peptide made by skin and immune cells. Researchers study it mainly for its part in skin infection, atopic dermatitis, psoriasis and rosacea.\n\nSome forum users ask about it for acne, but no human trial has tested that. The few registered LL-37 trials involve melanoma and diabetic foot ulcers.","mechanism":"It damages microbial membranes and attracts immune cells through the FPRL1 receptor. Vitamin D raises its production.","risks":"It is investigational. Wikipedia notes that excess LL-37 is suspected in rosacea and psoriasis inflammation. No safety data for cosmetic use were found."}
+ "name": "LL-37",
+ "lead": [
+  "LL-37 is a 37-amino-acid antimicrobial peptide and the only cathelicidin made by humans. It is cleaved from a precursor protein, hCAP18, encoded by the CAMP gene, and is produced by neutrophils and epithelial cells including skin keratinocytes [3][4][11]. It belongs to the innate immune system: it disrupts microbial membranes, signals to immune cells and takes part in wound repair [3][11].",
+  "In appearance communities LL-37 is discussed as a research peptide that might clear acne, calm inflamed skin or help skin look younger and heal faster. The chain people describe runs from antimicrobial and wound-healing activity in skin, to fewer blemishes and better skin quality. On looksmax.org the topic is raised mainly as a question set against established acne treatments [2].",
+  "Published work is predominantly on LL-37 as a natural molecule: its role in skin infection and in inflammatory skin disease including atopic dermatitis, psoriasis and rosacea, and its modulation of immune signalling [1][5][12][13][14]. Registered trials of LL-37 as a product are few and concern melanoma and diabetic foot ulcers; no trial of LL-37 for acne or cosmetic skin improvement has been registered or published. In the United States, the FDA has listed LL-37 among substances it evaluated for compounding and states it lacks enough safety information to know whether it would cause harm [10]."
+ ],
+ "angle": {
+  "goal": "Skin clarity and quality",
+  "chain": [
+   "Antimicrobial and immune-signalling peptide made by skin",
+   "Proponents expect fewer blemishes, faster wound repair and better-looking skin",
+   "Applied as an injected or topical research peptide in community discussion"
+  ],
+  "effect": "claimed",
+  "text": "People discussing LL-37 are interested in it because skin makes it naturally to fight microbes and support repair, and they hope supplying more could clear acne or improve skin quality. The idea has been asked about on forums but has not been tested in acne or cosmetic trials."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Human cathelicidin antimicrobial peptide"
+  ],
+  [
+   "Length",
+   "37 amino acids (begins with two leucines, hence the name)"
+  ],
+  [
+   "Gene",
+   "CAMP (precursor hCAP18)"
+  ],
+  [
+   "Made by",
+   "Neutrophils, macrophages, skin and other epithelial cells"
+  ],
+  [
+   "Status",
+   "Investigational; not an approved drug"
+  ],
+  [
+   "US compounding",
+   "Listed by FDA among substances evaluated for compounding; nominated and later withdrawn"
+  ],
+  [
+   "Terminology",
+   "Cathelicidin named in 1995; LL-37 identified 1996"
+  ],
+  [
+   "Analogues",
+   "SAAP-148, FK-16, RK-31 and other fragments"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Biology",
+   "paras": [
+    "LL-37 is released from hCAP18 by proteolytic cleavage and acts on microbial membranes; it also inhibits bacterial biofilm formation and promotes cell proliferation and migration, supporting wound closure and tissue repair [11]. It is chemotactic for neutrophils, monocytes and T cells through the receptor FPRL1 [3], and acts on other receptors including P2X7 and EGFR [11]. A mouse study found that a cathelicidin protects skin from invasive bacterial infection [4]. A review of cathelicidins describes how they modulate Toll-like receptor activation and inflammation, so that their role extends beyond killing microbes to shaping immune responses [14].",
+    "Vitamin D raises cathelicidin expression in immune cells [11]. In normal skin LL-37 levels are low and accumulate in inflamed skin; a 2002 New England Journal of Medicine study compared atopic dermatitis and psoriatic skin and found lower LL-37 in atopic dermatitis, linked to susceptibility to skin infections [1]."
+   ]
+  },
+  {
+   "h": "Role in skin conditions",
+   "paras": [
+    "Rosacea is the condition most directly connected to LL-37 in the dermatology literature. Wikipedia reports that rosacea patients have elevated cathelicidin and stratum corneum tryptic enzymes, that kallikreins 5 and 7 cleave cathelicidin into LL-37, and that excess LL-37 is suspected to contribute across rosacea subtypes [11]. A 2025 review in Frontiers in Immunology describes the TLR2/LL-37/mTORC1 axis as a core pathway in rosacea pathogenesis [12].",
+    "In psoriasis, damaged keratinocytes release LL-37, which binds self-DNA or RNA; the complexes activate dendritic cells to release interferons and drive T-cell differentiation, and LL-37-specific T cells have been found in about two thirds of patients with moderate to severe disease [11]. A 2020 review describes neutrophil extracellular traps containing LL-37 as inducing Th17 responses in psoriatic skin [13].",
+    "These findings mean the peptide is studied both as a defence molecule that is deficient in atopic dermatitis and as a possible driver of inflammation when in excess in rosacea and psoriasis. That two-sided picture is the main reason researchers describe its skin effects as context-dependent [1][11][12]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Registered trials involving LL-37 are few and mostly observational or biomarker-based. A small phase 1/2 trial examined intratumoral LL-37 in melanoma (4 participants) [6]. A phase 2 trial of an LL-37 cream for diabetic foot ulcers (40 participants) is registered with unknown status [7]. Other registered studies measure endogenous LL-37 levels in periodontal and peri-implant disease and in smoking exposure [8][9]. None addresses acne, scarring or cosmetic skin outcomes."
+   ]
+  },
+  {
+   "h": "Development and analogues",
+   "paras": [
+    "Wikipedia notes that barriers to therapeutic use of antimicrobial peptides include rapid breakdown by proteases, a narrow bioavailability window, production cost, the large doses often needed and routes limited to injection, infusion or slow-release forms [11]. Researchers have therefore studied modified versions: SAAP-148 is an LL-37-derived peptide with stronger antimicrobial activity under physiological conditions, and shorter natural fragments such as RK-31, KS-30 and KR-20, and synthetic peptides such as FK-13 and FK-16, retain antimicrobial and anticancer effects with lower toxicity to human cells in laboratory work [11]."
+   ]
+  },
+  {
+   "h": "Regulatory status and safety",
+   "paras": [
+    "LL-37 is not an approved drug. The FDA's page on bulk drug substances that may present significant safety risks for compounding lists cathelicidin LL-37 in its table of nominations that were withdrawn. FDA states that compounded products containing it may carry immunogenicity risk for certain routes of administration, along with complications from peptide-related impurities and characterisation, and that it lacks enough safety information to know whether the drug would cause harm. It adds that nonclinical research suggests harmful effects on male reproduction and possible tumor-promoting effects in some tissues [10].",
+    "Because excess LL-37 is implicated in rosacea and psoriasis, and the peptide has been linked in research to processes such as inflammation and tissue signalling beyond the skin, researchers describe its effects as dependent on concentration and setting [11][12]. No safety data exist for cosmetic use."
+   ]
+  },
+  {
+   "h": "In looksmaxxing culture",
+   "paras": [
+    "Discussion is sparse. A 2025 looksmax.org thread asked whether anyone had used LL-37 to heal skin and clear acne, framing it against isotretinoin and dutasteride, which the poster called the strongest acne options. One reply said it seemed decent for anti-aging but that acute skin improvements were likely modest; another said to stick with established methods and wait for more research [2]. LL-37 appears in the same peptide conversations as other research compounds that FDA has placed in its compounding warnings [10]."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1989",
+   "event": "The name cathelin is coined after a protease-inhibitor characterised from pig leukocytes [11]."
+  },
+  {
+   "year": "1995",
+   "event": "Term cathelicidin introduced; a 39-residue peptide, FALL-39, proposed [11]."
+  },
+  {
+   "year": "1996",
+   "event": "Mature peptide shown to be LL-37, two residues shorter [11]."
+  },
+  {
+   "year": "2000",
+   "event": "LL-37 shown to attract neutrophils, monocytes and T cells via FPRL1 [3]."
+  },
+  {
+   "year": "2001",
+   "event": "A cathelicidin shown to protect mouse skin from invasive bacterial infection [4]."
+  },
+  {
+   "year": "2002",
+   "event": "Reduced LL-37 reported in atopic dermatitis skin compared with psoriasis [1]."
+  },
+  {
+   "year": "2015",
+   "event": "Phase 1/2 trial of intratumoral LL-37 in melanoma begins (n=4) [6]."
+  },
+  {
+   "year": "2019",
+   "event": "Phase 2 trial of LL-37 cream for diabetic foot ulcers registered [7]."
+  },
+  {
+   "year": "2025",
+   "event": "Looksmax.org thread asks about LL-37 for acne [2]."
+  }
+ ],
+ "lore": {
+  "intro": "Discussion on looksmax.org is sparse; one thread asks whether LL-37 helps acne [2].",
+  "claims": [
+   {
+    "claim": "LL-37 might help clear acne and heal skin",
+    "believers": "A forum poster asked whether others had used it to heal skin and clear acne, framing it against established acne treatments [2].",
+    "experts": "No published human studies have tested LL-37 for acne. Research concerns its natural role in skin immunity, including its elevation in rosacea [1][5][12].",
+    "evidence": "untested"
+   },
+   {
+    "claim": "LL-37 has anti-aging skin benefits",
+    "believers": "A reply in the same thread said it seems decent for anti-aging but with likely modest acute improvements, and another advised waiting for more research [2].",
+    "experts": "No clinical trials of LL-37 for skin aging were found. Wikipedia reports laboratory evidence that it promotes cell migration and proliferation relevant to wound closure [11].",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Boosting LL-37 is a natural way to get better skin",
+    "believers": "Posters in peptide discussions treat it as the body's own molecule and therefore attractive [2].",
+    "experts": "Excess LL-37 is suspected in rosacea and psoriasis inflammation, while deficiency is reported in atopic dermatitis, so effects depend on the condition [1][11][12].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Vitamin D supports LL-37 and skin defence",
+    "believers": "Vitamin D appears in community discussion as a way to raise the peptide naturally [2].",
+    "experts": "Vitamin D triggers cathelicidin production in immune cells, and registered studies have measured LL-37 levels with vitamin D in periodontal and peri-implant disease [11][8][9].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Research-peptide LL-37 is safe to use",
+    "believers": "Interested users ask about it as one of the peptides discussed alongside other skin compounds [2].",
+    "experts": "FDA states it lacks enough safety information on LL-37 and cites immunogenicity concerns and nonclinical signals on male reproduction and tumor promotion [10].",
+    "evidence": "harms"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Endogenous antimicrobial peptides and skin infections in atopic dermatitis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12374875/",
+   "source": "NEJM",
+   "year": 2002,
+   "type": "study"
+  },
+  {
+   "id": 2,
+   "title": "LL-37 Has anyone tried it for acne?",
+   "url": "https://looksmax.org/threads/ll-37-has-anyone-tried-it-for-acne.1768804/",
+   "source": "looksmax.org",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 3,
+   "title": "LL-37 utilizes FPRL1 as a receptor to chemoattract neutrophils, monocytes, and T cells",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11015447/",
+   "source": "Journal of Experimental Medicine",
+   "year": 2000,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Innate antimicrobial peptide protects the skin from invasive bacterial infection",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11719807/",
+   "source": "Nature",
+   "year": 2001,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "LL-37, the only human member of the cathelicidin family of antimicrobial peptides",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16716248/",
+   "source": "Biochimica et Biophysica Acta",
+   "year": 2006,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Intratumoral Injections of LL37 for Melanoma (NCT02225366)",
+   "url": "https://clinicaltrials.gov/study/NCT02225366",
+   "source": "ClinicalTrials.gov",
+   "year": 2015,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "LL-37 Cream on Diabetic Foot Ulcers (NCT04098562)",
+   "url": "https://clinicaltrials.gov/study/NCT04098562",
+   "source": "ClinicalTrials.gov",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Peri-implant Vitamin D and Cathelicidin (LL-37) Levels (NCT06867250)",
+   "url": "https://clinicaltrials.gov/study/NCT06867250",
+   "source": "ClinicalTrials.gov",
+   "year": 2021,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Effects of Smoking and Vitamin D3 on Levels of Human Cathelicidin Peptide LL-37 (NCT03923218)",
+   "url": "https://clinicaltrials.gov/study/NCT03923218",
+   "source": "ClinicalTrials.gov",
+   "year": 2011,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Certain bulk drug substances for use in compounding that may present significant safety risks",
+   "url": "https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks",
+   "source": "U.S. Food and Drug Administration",
+   "year": null,
+   "type": "guideline"
+  },
+  {
+   "id": 11,
+   "title": "Cathelicidin",
+   "url": "https://en.wikipedia.org/wiki/Cathelicidin",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 12,
+   "title": "Advances in the pathogenesis of rosacea",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41646975/",
+   "source": "Frontiers in Immunology",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 13,
+   "title": "Psoriasis and Antimicrobial Peptides",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32947991/",
+   "source": "International Journal of Molecular Sciences",
+   "year": 2020,
+   "type": "review"
+  },
+  {
+   "id": 14,
+   "title": "Cathelicidins Modulate TLR-Activation and Inflammation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32582207/",
+   "source": "Frontiers in Immunology",
+   "year": 2020,
+   "type": "review"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Cathelicidin",
+   "title": "Cathelicidin (Wikipedia)"
+  },
+  {
+   "url": "https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks",
+   "title": "FDA: certain bulk drug substances for compounding that may present significant safety risks"
+  }
+ ],
+ "card": {
+  "summary": "The body's own antimicrobial skin peptide, now chatted about for acne with no cosmetic trials behind it.",
+  "aka": null,
+  "evidence": "unproven",
+  "status": "research",
+  "note": "Not an approved drug; no acne or cosmetic trials found.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "LL-37 is a natural antimicrobial peptide made by skin and immune cells. Researchers study it mainly for its part in skin infection, atopic dermatitis, psoriasis and rosacea.\n\nSome forum users ask about it for acne, but no human trial has tested that. The few registered LL-37 trials involve melanoma and diabetic foot ulcers.",
+  "mechanism": "It damages microbial membranes and attracts immune cells through the FPRL1 receptor. Vitamin D raises its production.",
+  "risks": "It is investigational. Wikipedia notes that excess LL-37 is suspected in rosacea and psoriasis inflammation. No safety data for cosmetic use were found."
+ }
 }

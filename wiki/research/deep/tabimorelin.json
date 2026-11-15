@@ -1,8 +1,8 @@
 {
  "name": "Tabimorelin",
  "lead": [
-  "Tabimorelin (NN703) is an experimental, orally active growth hormone secretagogue that was among the earlier compounds in its class. It acts on the ghrelin receptor to stimulate growth hormone release.[1][2]",
-  "Published human studies are early-phase work in healthy men, an interaction study with the CYP3A4 substrate midazolam, and work in growth hormone-deficient adults.[3][4][5][6] It is not approved for any use. No studies have tested it for appearance purposes."
+  "Tabimorelin (development code NN703) is an experimental, orally active growth hormone secretagogue and one of the earlier compounds in its class. It acts on the ghrelin receptor to stimulate growth hormone (GH) release.[1][2] Because GH and IGF-1 are involved in building lean tissue and managing body fat, secretagogues of this kind are discussed by people interested in muscle and body composition; the intended medical use of tabimorelin was as an oral alternative to daily GH injections.[5]",
+  "Published human studies are early-phase work: a single-dose study in healthy men, a 7-day once-daily study, an interaction study with the CYP3A4 substrate midazolam, and work in growth hormone-deficient adults.[3][4][5][1] It is not approved for any use, and no study has tested it for appearance or physique outcomes."
  ],
  "infobox": [
   [
@@ -19,7 +19,15 @@
   ],
   [
    "Chemical formula",
-   "C32H40N4O3[1]"
+   "C32H40N4O3 (about 528.7 g/mol)[1]"
+  ],
+  [
+   "CAS number",
+   "193079-69-5[1]"
+  ],
+  [
+   "Key studies",
+   "1999-2004[3][4][5]"
   ],
   [
    "Status",
@@ -29,24 +37,58 @@
  "sections": [
   {
    "h": "Pharmacology",
-   "paras": [
-    "Tabimorelin is a potent agonist of the ghrelin receptor. It produced sustained rises in growth hormone and IGF-1 and smaller, temporary rises in ACTH, cortisol and prolactin.[1][3][4] It was found to be a mechanism-based inhibitor of CYP3A4, which could cause drug interactions.[1][5]"
+   "subs": [
+    {
+     "h": "Mechanism of action",
+     "paras": [
+      "Tabimorelin is a potent agonist of the ghrelin receptor (the growth hormone secretagogue receptor), the same receptor targeted by the hormone ghrelin. It produced sustained rises in growth hormone and IGF-1 and smaller, temporary rises in ACTH, cortisol and prolactin.[1][3][4] Although it is largely a modified peptide-like molecule, it is active by mouth.[1]"
+     ]
+    },
+    {
+     "h": "Drug interactions",
+     "paras": [
+      "It was found to be a mechanism-based inhibitor of the liver enzyme CYP3A4, which metabolises many drugs.[1][5] In a study of 17 adult men given midazolam, a single tabimorelin dose raised midazolam exposure (AUC) by 64%, and after seven days of once-daily dosing the increase reached 93% relative to baseline.[5]"
+     ]
+    }
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "A single-dose, double-blind placebo-controlled study in healthy men escalated across eight dose levels and found it well tolerated, with higher growth hormone exposure than placebo at several doses.[3] A 7-day once-daily study in healthy men found dose-related increases in growth hormone.[4] A study of its interaction with midazolam examined the effect of its CYP3A4 inhibition in 17 men.[5] Wikipedia notes that clinical benefit in adults with growth hormone deficiency was limited, mainly in the most severely deficient.[1]"
+    "A single-dose, double-blind placebo-controlled study in healthy men escalated across eight dose levels and found tabimorelin well tolerated. GH exposure over 24 hours was significantly higher than placebo at the three highest doses and IGF-1 rose; across the four highest doses there was no significant increase in ACTH, LH, FSH, TSH, prolactin or cortisol, although subtle individual changes in ACTH, cortisol and prolactin appeared above a certain dose.[3]",
+    "A randomised, double-blind 7-day once-daily study in healthy men tested four dose levels. GH exposure was dose-related and higher than placebo on days 1 and 7, but GH release declined overall between day 1 and day 7. IGF-1 and IGFBP-3 rose relative to placebo at the higher doses.[4]",
+    "Wikipedia notes that clinical benefit in adults with growth hormone deficiency was limited, mainly in the most severely deficient patients.[1] In rats, 18 days of tabimorelin increased food intake, fat mass and body weight in lean controls but not in leptin-receptor-deficient ZDF rats.[6] No study has measured muscle, fat or appearance outcomes in people."
    ]
   },
   {
    "h": "Society and culture",
    "paras": [
-    "Analytical chemists have developed methods to detect tabimorelin, capromorelin and macimorelin metabolites in urine and plasma for sports doping control.[2] In rats lacking leptin signalling, its adipogenic and orexigenic effects were reduced.[6]"
+    "Analytical chemists have developed urine and plasma methods to detect tabimorelin, capromorelin and macimorelin metabolites for sports doping control; the work identified 13 tabimorelin metabolites in vitro and in rat samples.[2] The drug is not marketed, and public information is limited to the early studies and encyclopedic summaries.[1]"
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "2000",
+   "event": "Single-dose study of NN703 in healthy men published.[3]"
+  },
+  {
+   "year": "2001",
+   "event": "7-day once-daily study in healthy men published.[4]"
+  },
+  {
+   "year": "2003",
+   "event": "Midazolam interaction study shows CYP3A4 inhibition in humans.[5]"
+  },
+  {
+   "year": "2004",
+   "event": "Rat study reports reduced adipogenic effects in leptin-signalling-deficient animals.[6]"
+  },
+  {
+   "year": "2021",
+   "event": "Doping-control metabolite methods published.[2]"
+  }
+ ],
  "lore": null,
  "refs": [
   {
@@ -118,5 +160,15 @@
   "overview": "Tabimorelin is an experimental oral drug from the first generation of growth hormone secretagogues. It was tested in healthy men and in adults with growth hormone deficiency.\n\nIt raised growth hormone and IGF-1, but clinical benefit was limited and it was never approved.",
   "mechanism": "It mimics ghrelin at the GH secretagogue receptor to trigger growth hormone release.",
   "risks": "It inhibits the liver enzyme CYP3A4, creating potential interactions with other drugs. Human data are limited to a few early studies."
+ },
+ "angle": {
+  "goal": "Muscle and body composition",
+  "chain": [
+   "Oral dose activates the ghrelin (GH secretagogue) receptor",
+   "Pituitary releases growth hormone; IGF-1 rises",
+   "Claimed route to more lean tissue and less fat"
+  ],
+  "effect": "claimed",
+  "text": "Tabimorelin raised growth hormone and IGF-1 in trials, and GH-axis compounds are sometimes discussed for muscle and fat-loss goals. Its published studies measured hormone levels, safety and drug interactions, not body composition."
  }
 }

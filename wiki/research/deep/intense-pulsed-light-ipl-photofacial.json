@@ -1,218 +1,244 @@
 {
-  "name": "Intense pulsed light (IPL photofacial)",
-  "card": {
-    "summary": "A broad-spectrum flashlamp treatment used in clinics for sun spots, redness and thread veins, and also sold as home hair-removal devices.",
-    "aka": "IPL, photofacial, photorejuvenation, BBL",
-    "evidence": "limited",
-    "risk": "moderate",
-    "note": "Hyperpigmentation is the main reported complication, and IPL has been reported to worsen melasma.",
-    "price": null
-  },
-  "quick": {
-    "overview": "Intense pulsed light is a handheld flashlamp that fires broad-spectrum light into the skin, and the photofacial is its cosmetic skin-rejuvenation use. Clinics offer it for pigmentation, sun damage and visible small vessels, and the same technology is used in some hair-removal systems.\n\nPublicly accessible sources give limited trial detail for the facial uses; the technology is better documented for vascular lesions and hair reduction.",
-    "mechanism": "A xenon lamp emits light of roughly 400 to 1,200 nanometres. Filters remove the most damaging ultraviolet and the longest infrared wavelengths, and the remaining light is absorbed by melanin, haemoglobin and water, heating the targets. Interchangeable filters let one device address different conditions.",
-    "risks": "Reported complications include temporary side effects and hyperpigmentation. Photosensitising medicines and skin damage are listed as contraindications. IPL has been reported to worsen melasma, and rules for devices and operators vary by jurisdiction."
-  },
-  "lead": [
-    "Intense pulsed light (IPL) is a skin-treatment technology in which a computer-controlled xenon flashlamp emits pulses of broad-spectrum light, roughly 400 to 1,200 nanometres, through filters that remove much ultraviolet and long infrared light [1]. Unlike single-wavelength lasers, it can be tuned for different targets using interchangeable filters [1].",
-    "People use the cosmetic version, called a photofacial or photorejuvenation, to even out skin tone: the light is absorbed by brown pigment and by blood in small vessels, so sun spots, freckle-like marks, redness and thread veins fade and the face looks clearer and more uniform [1]. IPL was first developed for vascular conditions and is also used for hair removal, rosacea, acne and dry-eye disease linked to meibomian gland dysfunction [1].",
-    "Systematic reviews report IPL among the options for solar lentigines, rosacea redness and hair removal [2][3][4]. Melasma is a special case, where light devices have shown benefit but recurrence is high, and a separate reference notes IPL may worsen it [5][6]."
+ "name": "Intense pulsed light (IPL photofacial)",
+ "card": {
+  "summary": "A broad-spectrum flashlamp treatment used in clinics for sun spots, redness and thread veins, and also sold as home hair-removal devices.",
+  "aka": "IPL, photofacial, photorejuvenation, BBL",
+  "evidence": "limited",
+  "risk": "moderate",
+  "note": "Hyperpigmentation is the main reported complication, and IPL has been reported to worsen melasma.",
+  "price": null
+ },
+ "quick": {
+  "overview": "Intense pulsed light is a handheld flashlamp that fires broad-spectrum light into the skin, and the photofacial is its cosmetic skin-rejuvenation use. Clinics offer it for pigmentation, sun damage and visible small vessels, and the same technology is used in some hair-removal systems.\n\nPublicly accessible sources give limited trial detail for the facial uses; the technology is better documented for vascular lesions and hair reduction.",
+  "mechanism": "A xenon lamp emits light of roughly 400 to 1,200 nanometres. Filters remove the most damaging ultraviolet and the longest infrared wavelengths, and the remaining light is absorbed by melanin, haemoglobin and water, heating the targets. Interchangeable filters let one device address different conditions.",
+  "risks": "Reported complications include temporary side effects and hyperpigmentation. Photosensitising medicines and skin damage are listed as contraindications. IPL has been reported to worsen melasma, and rules for devices and operators vary by jurisdiction."
+ },
+ "lead": [
+  "Intense pulsed light (IPL) is a skin-treatment technology in which a computer-controlled xenon flashlamp emits pulses of broad-spectrum light, roughly 400 to 1,200 nanometres, through filters that remove much ultraviolet and long infrared light [1]. Unlike single-wavelength lasers, it can be tuned for different targets using interchangeable filters [1].",
+  "People use the cosmetic version, called a photofacial or photorejuvenation, to even out skin tone: the light is absorbed by brown pigment and by blood in small vessels, so sun spots, freckle-like marks, redness and thread veins fade and the face looks clearer and more uniform [1]. IPL was first developed for vascular conditions and is also used for hair removal, rosacea, acne and dry-eye disease linked to meibomian gland dysfunction [1].",
+  "Systematic reviews report IPL among the options for solar lentigines, rosacea redness and hair removal [2][3][4]. Melasma is a special case, where light devices have shown benefit but recurrence is high, and a separate reference notes IPL may worsen it [5][6]."
+ ],
+ "angle": {
+  "goal": "Even, clearer skin tone",
+  "chain": [
+   "Flashlamp pulses are absorbed by melanin and haemoglobin",
+   "Pigmented spots and small vessels are heated and break down",
+   "Sun spots, redness and thread veins fade",
+   "More even-looking complexion"
   ],
-  "angle": {
-    "goal": "Even, clearer skin tone",
-    "chain": [
-      "Flashlamp pulses are absorbed by melanin and haemoglobin",
-      "Pigmented spots and small vessels are heated and break down",
-      "Sun spots, redness and thread veins fade",
-      "More even-looking complexion"
-    ],
-    "effect": "direct",
-    "text": "A clinic or home IPL device targets pigment and redness in the skin, and users aim for a more even complexion with fewer brown spots and visible vessels. The same technology is used to reduce unwanted hair."
-  },
-  "infobox": [
-    [
-      "Type",
-      "Xenon flashlamp light therapy"
-    ],
-    [
-      "Wavelength range",
-      "About 400 to 1,200 nm (device dependent) [1]"
-    ],
-    [
-      "Invented",
-      "1992, by Shimon Eckhouse [1]"
-    ],
-    [
-      "Patent",
-      "US 5,405,368, granted 1995 [1]"
-    ],
-    [
-      "Early FDA clearances",
-      "Vascular lesions 1995, pigmented lesions 1996, hair removal 1997 [1]"
-    ],
-    [
-      "Typical sessions for hair",
-      "About 8 to 10, 4 to 6 weeks apart [1]"
-    ]
+  "effect": "direct",
+  "text": "A clinic or home IPL device targets pigment and redness in the skin, and users aim for a more even complexion with fewer brown spots and visible vessels. The same technology is used to reduce unwanted hair."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Xenon flashlamp light therapy"
   ],
-  "sections": [
-    {
-      "h": "How it works",
-      "paras": [
-        "Light pulses are absorbed by chromophores, mainly melanin, haemoglobin and water, which heat and are damaged. Pigmented spots absorb melanin-targeted wavelengths, and vessels absorb haemoglobin-targeted wavelengths [1]."
-      ]
-    },
-    {
-      "h": "History",
-      "paras": [
-        "Shimon Eckhouse invented IPL in 1992 and filed the detailed patent granted in 1995. ESC Medical commercialised it, and FDA clearances followed for vascular lesions in 1995, pigmented lesions in 1996 and hair removal in 1997 [1]."
-      ]
-    },
-    {
-      "h": "Uses",
-      "subs": [
-        {
-          "h": "Pigmentation and sun damage",
-          "paras": [
-            "A 2025 systematic review of 41 trials in 3,234 patients with solar lentigines reported IPL success rates of 74.6 to 90 percent, compared with 27 to 57 percent for pulsed dye laser and 36 to 77 percent for Q-switched laser in the included studies [2]. Photorejuvenation also targets thread veins, photoaging and actinic keratosis [1]."
-          ]
-        },
-        {
-          "h": "Rosacea redness",
-          "paras": [
-            "A review of rosacea management says light therapies including IPL and pulsed dye laser are best used for the erythemato-telangiectatic type, in which redness and visible vessels dominate [3]."
-          ]
-        },
-        {
-          "h": "Hair removal",
-          "paras": [
-            "A 2013 review concluded the literature supports alexandrite, diode, Nd:YAG and IPL devices for long-term hair removal, noted the Nd:YAG is best for pigmented skin, and called for more research on home-use devices [4]. A 2006 comparison cited by Wikipedia found no significant difference in six-month hair reduction between alexandrite laser (68.75 percent), diode laser (71.71 percent) and IPL (66.96 percent) [1]."
-          ]
-        },
-        {
-          "h": "Acne and eye conditions",
-          "paras": [
-            "A trial in 47 patients compared three IPL sessions with nightly benzoyl peroxide gel for inflammatory facial acne [7]. In eye care, a randomized study found IPL plus meibomian gland expression improved dry-eye measures in meibomian gland dysfunction [8], and another randomized study examined IPL for ocular demodicosis [9]."
-          ]
-        },
-        {
-          "h": "Melasma",
-          "paras": [
-            "A 2022 systematic review reported that laser and light devices have been beneficial for melasma but recurrence remained high and combination therapies gave the best results [5]. Wikipedia's melasma page notes IPL may worsen it [6]."
-          ]
-        }
-      ]
-    },
-    {
-      "h": "Safety and regulation",
-      "paras": [
-        "Hyperpigmentation is the main complication noted. Photosensitising medicines and damaged skin are listed as contraindications, and one manufacturer says its device suits light to medium skin tones [1]. Longer-wavelength Nd:YAG lasers are preferred for pigmented skin in hair removal [4]. Regulation varies by jurisdiction, and a loose split between beauty-grade and medical-grade devices exists, including home hair-removal devices [1]."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "Human studies include the solar lentigines systematic review [2], randomized trials in meibomian gland dysfunction [8] and ocular demodicosis [9], a clinical trial against benzoyl peroxide in acne [7], and reviews of hair removal [4] and rosacea [3]. A 2006 comparison of hair-removal devices reported side effects of 9.5, 28.9 and 15.3 percent for alexandrite, diode and IPL, all temporary [1]."
-      ]
-    }
+  [
+   "Wavelength range",
+   "About 400 to 1,200 nm (device dependent) [1]"
   ],
-  "timeline": [
-    {
-      "year": "1992",
-      "event": "Shimon Eckhouse invents IPL. [1]"
-    },
-    {
-      "year": "1995",
-      "event": "US patent granted; FDA clearance for vascular lesions. [1]"
-    },
-    {
-      "year": "1996",
-      "event": "FDA clearance for pigmented lesions. [1]"
-    },
-    {
-      "year": "1997",
-      "event": "FDA clearance for hair removal. [1]"
-    }
+  [
+   "Invented",
+   "1992, by Shimon Eckhouse [1]"
   ],
-  "lore": null,
-  "refs": [
-    {
-      "id": 1,
-      "title": "Intense pulsed light",
-      "url": "https://en.wikipedia.org/wiki/Intense_pulsed_light",
-      "source": "Wikipedia",
-      "year": 2026,
-      "type": "encyclopedia"
-    },
-    {
-      "id": 2,
-      "title": "Treatment of Solar Lentigines: A Systematic Review of Clinical Trials",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40145274/",
-      "source": "J Cosmet Dermatol",
-      "year": 2025,
-      "type": "review"
-    },
-    {
-      "id": 3,
-      "title": "Rosacea management: A comprehensive review",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/35104917/",
-      "source": "J Cosmet Dermatol",
-      "year": 2022,
-      "type": "review"
-    },
-    {
-      "id": 4,
-      "title": "Laser hair removal: a review",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/23332016/",
-      "source": "Dermatol Surg",
-      "year": 2013,
-      "type": "review"
-    },
-    {
-      "id": 5,
-      "title": "Melasma treatment: a systematic review",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/33849384/",
-      "source": "J Dermatol Treat",
-      "year": 2022,
-      "type": "review"
-    },
-    {
-      "id": 6,
-      "title": "Melasma",
-      "url": "https://en.wikipedia.org/wiki/Melasma",
-      "source": "Wikipedia",
-      "year": 2026,
-      "type": "encyclopedia"
-    },
-    {
-      "id": 7,
-      "title": "Intense pulsed light versus benzoyl peroxide",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/35044116/",
-      "source": "J Popul Ther Clin Pharmacol",
-      "year": 2022,
-      "type": "trial"
-    },
-    {
-      "id": 8,
-      "title": "Intense pulsed light improves signs and symptoms of dry eye disease due to meibomian gland dysfunction: A randomized controlled study",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/35737696/",
-      "source": "PLoS One",
-      "year": 2022,
-      "type": "trial"
-    },
-    {
-      "id": 9,
-      "title": "Therapeutic Effect of Intense Pulsed Light on Ocular Demodicosis",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/30321061/",
-      "source": "Curr Eye Res",
-      "year": 2019,
-      "type": "trial"
-    }
+  [
+   "Patent",
+   "US 5,405,368, granted 1995 [1]"
   ],
-  "webSources": [
-    {
-      "url": "https://en.wikipedia.org/wiki/Melasma",
-      "title": "Melasma (Wikipedia)"
-    }
+  [
+   "Early FDA clearances",
+   "Vascular lesions 1995, pigmented lesions 1996, hair removal 1997 [1]"
+  ],
+  [
+   "Typical sessions for hair",
+   "About 8 to 10, 4 to 6 weeks apart [1]"
+  ],
+  [
+   "Typical hair-removal reduction",
+   "About 67 to 80% at 4 to 8 months in cited studies [1]"
   ]
+ ],
+ "sections": [
+  {
+   "h": "How it works",
+   "paras": [
+    "An IPL device is a handheld, computer-controlled linear xenon flashlamp that emits brief bursts of non-coherent, broad-spectrum light, generally cited as about 400 to 1,200 nanometres.[1] Cut-on filters block shorter ultraviolet and longer infrared wavelengths, and the operator chooses a filter that matches the target. The targets are chromophores, mainly melanin, haemoglobin and water; the absorbed light heats pigmented cells, blood vessels or hair follicles, a process called selective photothermolysis.[1]",
+    "Lasers deliver one wavelength that typically suits one chromophore, whereas IPL's broad spectrum lets a single device address several conditions, which is why it is used for pigment, redness and hair with the same machine.[1] Water cooling protects the lamp and absorbs infrared, and cooled light guides protect the skin surface during the pulse.[1]"
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Shimon Eckhouse invented IPL in 1992 and filed the first detailed patent, granted in 1995; his company ESC Medical introduced IPL for vascular lesions, its first medical use.[1] FDA clearances followed for vascular lesions (1995), pigmented lesions (1996) and hair removal (1997).[1]",
+    "From clinic equipment, the technology spread to beauty salons and then to consumer products, and home IPL hair-removal devices now exist.[1] The term photofacial became a common name for a cosmetic IPL session aimed at the whole face, and 'photorejuvenation' refers to the broader goal of improving sun-damaged skin."
+   ]
+  },
+  {
+   "h": "What a treatment involves",
+   "paras": [
+    "General descriptions of IPL treatment say the treatment area should be clean-shaven and free of sunburn, and that clinics use cooling and sometimes protective eyewear, with pulses applied across the skin in a grid.[1] For photorejuvenation, serial sessions are typical: Wikipedia notes that repeated treatments may improve skin laxity and collagen production as well as pigment and vessels, and that dyschromia may clear after repeated sessions.[1] For hair removal, courses of about 8 to 10 sessions spaced 4 to 6 weeks apart are described.[1]",
+    "IPL works best, for hair, on darker, coarser hair, and it reduces the number of hairs rather than permanently removing all of them.[1] Reported results from a 2009 study of a second-generation IPL source were about 75% hair reduction at four months and up to 80% at eight months, while a 2006 comparison found about 67 to 72% reduction at six months across alexandrite, diode and IPL devices.[1]"
+   ]
+  },
+  {
+   "h": "Uses",
+   "subs": [
+    {
+     "h": "Pigmentation and sun damage",
+     "paras": [
+      "A 2025 systematic review of 41 trials in 3,234 patients with solar lentigines reported IPL success rates of 74.6 to 90 percent, compared with 27 to 57 percent for pulsed dye laser and 36 to 77 percent for Q-switched laser in the included studies [2]. Photorejuvenation also targets thread veins, photoaging and actinic keratosis [1]."
+     ]
+    },
+    {
+     "h": "Rosacea redness",
+     "paras": [
+      "A review of rosacea management says light therapies including IPL and pulsed dye laser are best used for the erythemato-telangiectatic type, in which redness and visible vessels dominate [3]."
+     ]
+    },
+    {
+     "h": "Hair removal",
+     "paras": [
+      "A 2013 review concluded the literature supports alexandrite, diode, Nd:YAG and IPL devices for long-term hair removal, noted the Nd:YAG is best for pigmented skin, and called for more research on home-use devices [4]. A 2006 comparison cited by Wikipedia found no significant difference in six-month hair reduction between alexandrite laser (68.75 percent), diode laser (71.71 percent) and IPL (66.96 percent) [1]."
+     ]
+    },
+    {
+     "h": "Acne and eye conditions",
+     "paras": [
+      "A trial in 47 patients compared three IPL sessions with nightly benzoyl peroxide gel for inflammatory facial acne [7]. In eye care, a randomized study found IPL plus meibomian gland expression improved dry-eye measures in meibomian gland dysfunction [8], and another randomized study examined IPL for ocular demodicosis [9]."
+     ]
+    },
+    {
+     "h": "Melasma",
+     "paras": [
+      "A 2022 systematic review reported that laser and light devices have been beneficial for melasma but recurrence remained high and combination therapies gave the best results [5]. Wikipedia's melasma page notes IPL may worsen it [6]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "IPL compared with lasers",
+   "paras": [
+    "Dermatology sources describe IPL as generally less effective than laser hair removal in head-to-head terms, though many patients are satisfied with significant reduction.[1] In the 2006 comparison, side effects were more frequent with diode lasers (28.9%) than with IPL (15.3%).[1] The 2025 lentigines review put IPL's reported success rates above those of pulsed dye and Q-switched lasers in the included studies, which shows how results depend on the condition being treated.[2]"
+   ]
+  },
+  {
+   "h": "Safety and regulation",
+   "paras": [
+    "Hyperpigmentation is the main complication noted. Photosensitising medicines and damaged skin are listed as contraindications, and one manufacturer says its device suits light to medium skin tones.[1] Side effects in the 2006 comparison were temporary, and pigmentation returned to normal within six months.[1] Longer-wavelength Nd:YAG lasers are preferred for pigmented skin in hair removal.[4]",
+    "Regulation varies by jurisdiction. Some places distinguish 'beauty-grade' from 'medical-grade' machines, and Wikipedia reports that the distinction is sometimes used to get around regulation, a point flagged on that page as needing a better source.[1] Home devices exist and are sold with their own safety instructions."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Human studies include the solar lentigines systematic review [2], randomized trials in meibomian gland dysfunction [8] and ocular demodicosis [9], a clinical trial against benzoyl peroxide in acne [7], and reviews of hair removal [4] and rosacea [3]. A 2006 comparison of hair-removal devices reported side effects of 9.5, 28.9 and 15.3 percent for alexandrite, diode and IPL, all temporary [1]."
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "IPL is one of the established light-based options discussed alongside lasers for pigment, redness and hair. In ophthalmology it has an unrelated medical role in evaporative dry eye from meibomian gland dysfunction.[1][8] Because results and risks depend on skin tone, device, filters and the operator's settings, dermatology reviews describe treatment as something delivered under clinician supervision, with home devices a separate category.[4]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1992",
+   "event": "Shimon Eckhouse invents IPL. [1]"
+  },
+  {
+   "year": "1995",
+   "event": "US patent granted; FDA clearance for vascular lesions. [1]"
+  },
+  {
+   "year": "1996",
+   "event": "FDA clearance for pigmented lesions. [1]"
+  },
+  {
+   "year": "1997",
+   "event": "FDA clearance for hair removal. [1]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Intense pulsed light",
+   "url": "https://en.wikipedia.org/wiki/Intense_pulsed_light",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Treatment of Solar Lentigines: A Systematic Review of Clinical Trials",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40145274/",
+   "source": "J Cosmet Dermatol",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Rosacea management: A comprehensive review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35104917/",
+   "source": "J Cosmet Dermatol",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Laser hair removal: a review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23332016/",
+   "source": "Dermatol Surg",
+   "year": 2013,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Melasma treatment: a systematic review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33849384/",
+   "source": "J Dermatol Treat",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Melasma",
+   "url": "https://en.wikipedia.org/wiki/Melasma",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 7,
+   "title": "Intense pulsed light versus benzoyl peroxide",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35044116/",
+   "source": "J Popul Ther Clin Pharmacol",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Intense pulsed light improves signs and symptoms of dry eye disease due to meibomian gland dysfunction: A randomized controlled study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35737696/",
+   "source": "PLoS One",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Therapeutic Effect of Intense Pulsed Light on Ocular Demodicosis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30321061/",
+   "source": "Curr Eye Res",
+   "year": 2019,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Melasma",
+   "title": "Melasma (Wikipedia)"
+  }
+ ]
 }

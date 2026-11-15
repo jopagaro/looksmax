@@ -1,10 +1,19 @@
 {
- "name": "Quit smoking for voice",
  "lead": [
-  "Quitting smoking for voice refers to stopping tobacco use to avoid or reverse smoking-related voice changes such as hoarseness and a lowered, rougher pitch.",
-  "Smoking is described as the leading cause of Reinke's edema, a fluid buildup in the vocal folds that makes them vibrate more slowly, lowering pitch and causing hoarseness.[1] Smoking is also linked to laryngeal cancer and listed as a cause of vocal fold injury.[2]",
-  "Cessation is reported to halt progression of Reinke's edema but not to reverse existing swelling.[1]"
+  "Quitting smoking for voice refers to stopping tobacco use to avoid or reverse smoking-related voice changes such as hoarseness and a lowered, rougher pitch. People interested in voice quality and a clearer, more resonant sound treat it as a way of protecting the vocal folds and keeping the voice from deepening and roughening with smoke exposure.",
+  "Smoking is described as the leading cause of Reinke's edema, a fluid buildup in the vocal folds that makes them vibrate more slowly, lowering pitch and causing hoarseness; Wikipedia reports that 97 percent of patients are habitual smokers.[1] Smoking is also linked to laryngeal cancer and listed as a cause of vocal fold injury.[2][5]",
+  "Cessation is reported to halt progression of Reinke's edema but not to reverse existing swelling.[1] The voice effect therefore depends on how early quitting happens relative to tissue changes."
  ],
+ "angle": {
+  "goal": "Voice",
+  "chain": [
+   "Stop exposing the vocal folds to smoke",
+   "Fluid buildup and swelling in Reinke's space stops progressing",
+   "Pitch, range and clarity are preserved rather than further lowered and roughened"
+  ],
+  "effect": "indirect",
+  "text": "Smoke irritates the vocal folds and, over years, can cause swelling that lowers pitch and roughens the voice. People who stop smoking aim to keep the voice clearer and to avoid further change."
+ },
  "infobox": [
   [
    "Type",
@@ -17,41 +26,61 @@
   [
    "Related condition",
    "Reinke's edema"
+  ],
+  [
+   "Typical pitch in Reinke's edema",
+   "Below about 130 Hz in women and 110 Hz in men[1]"
+  ],
+  [
+   "Related risk",
+   "Laryngeal cancer[2][5]"
   ]
  ],
  "sections": [
   {
    "h": "Voice effects of smoking",
    "paras": [
-    "The extra fluid in Reinke's space lowers fundamental frequency, narrows vocal range and causes hoarseness. The change is more noticeable in women, who are diagnosed more often.[1][2] Smoke chemicals are thought to make blood vessels leakier, allowing fluid to seep in.[1]"
+    "The extra fluid in Reinke's space lowers fundamental frequency, narrows vocal range and causes hoarseness. Typical pitch falls below about 130 Hz in women and 110 Hz in men. The change is more noticeable in women, whose voices start higher, and women are diagnosed more often.[1][2] Typical patients are middle-aged or older women with a smoking history.[1]",
+    "Cigarette smoke is thought to increase blood vessel permeability and generate reactive oxygen species, allowing fluid to leak into the space. Affected tissue shows lower levels of collagen, elastin and fibronectin, making the folds less stiff, and research has reported that cigarette smoke raises COX-2 and prostaglandin E2 in fibroblasts.[1] The condition usually affects both folds and progresses gradually from a pale early stage to a more advanced stage with more fluid.[1] Other factors include gastroesophageal reflux, hypothyroidism and heavy voice use.[1]"
    ]
   },
   {
    "h": "Effects of quitting",
    "paras": [
-    "First-line management of Reinke's edema is removing risk factors: quitting smoking, controlling reflux and avoiding vocal strain, with voice therapy and, if needed, microlaryngoscopic surgery. Surgeons often require patients to quit first, and fluid can return if smoking resumes.[1] Vocal-hygiene guidance lists tobacco among substances to eliminate.[3] Quitting smoking is also among lifestyle measures listed for reflux-related throat symptoms.[4]"
+    "First-line management of Reinke's edema is removing risk factors: quitting smoking, controlling reflux and avoiding vocal strain, with voice therapy and, if needed, microlaryngoscopic surgery. Surgeons often require patients to commit to quitting first, and fluid can return if smoking resumes.[1] Quitting halts progression but does not reverse existing edema.[1] Vocal-hygiene guidance lists tobacco among substances to eliminate.[3] Quitting smoking is also among lifestyle measures listed for reflux-related throat symptoms.[4]",
+    "Wikipedia's smoking cessation article reports that quitting reduces the risk of laryngeal cancer and of cancers of the oral cavity and throat, with larynx cancer risk decreasing at about ten years after quitting; it does not discuss voice effects.[6]"
+   ]
+  },
+  {
+   "h": "Quitting methods",
+   "paras": [
+    "Wikipedia reports that unassisted quit attempts succeed long-term about 3 to 6 percent of the time and that former smokers typically make many attempts. A 2018 meta-analysis of 61 trials found about 20 percent of people using medication plus behavioural help were non-smokers after a year versus 12 percent on placebo. Varenicline and bupropion are described as first-line medications, nicotine replacement raises quit chances by about 50 to 60 percent over placebo, and counselling is more effective combined with medication.[6]"
+   ]
+  },
+  {
+   "h": "Treatment of existing swelling",
+   "paras": [
+    "If conservative measures fail, phonosurgery is used, most commonly microlaryngoscopy with the Hirano microflap technique using microscissors or a CO2 laser. Operating on both folds in one session risks an anterior glottic web, and scarring and stiffening are other complications. Historically, vocal stripping was common but caused serious scarring and has largely been replaced.[1] Voice therapy can improve voice quality and range.[1][3]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found in the sources reviewed that measure voice outcomes after cessation specifically; the statements above come from encyclopedia summaries of clinical knowledge."
+    "No studies measure voice outcomes after cessation specifically; the statements above come from encyclopedia summaries of clinical knowledge. Research on Reinke's edema has examined changes in fibroblasts and bacterial profiles in affected tissue and less invasive laser surgery.[1]"
    ]
   }
  ],
- "card": {
-  "summary": "Stopping smoking to protect the voice; smoking is a documented cause of vocal fold swelling and hoarseness.",
-  "aka": "Smoking cessation for voice",
-  "evidence": "moderate",
-  "risk": "low",
-  "note": "Existing vocal fold swelling may not reverse after quitting.",
-  "price": null
- },
- "quick": {
-  "overview": "Smoking is documented as a major cause of Reinke's edema, which lowers pitch and roughens the voice. Quitting is part of standard management.\n\nCessation is reported to stop progression but not necessarily undo existing swelling.",
-  "mechanism": "Smoke exposure causes fluid accumulation in the vocal fold cover, making the folds heavier and slower-vibrating.",
-  "risks": "Continued smoking raises the risk of precancerous changes and laryngeal cancer. Cessation support is available through clinicians."
- },
+ "timeline": [
+  {
+   "year": "1891",
+   "event": "M. Hajek records the first cases of Reinke's edema.[1]"
+  },
+  {
+   "year": "1895",
+   "event": "Friedrich Reinke describes the space that now bears his name.[1]"
+  }
+ ],
+ "lore": null,
  "refs": [
   {
    "id": 1,
@@ -84,6 +113,22 @@
    "source": "Wikipedia",
    "year": 2025,
    "type": "encyclopedia"
+  },
+  {
+   "id": 5,
+   "title": "Vocal cords (laryngeal cancer and vocal fold injury)",
+   "url": "https://en.wikipedia.org/wiki/Vocal_cords",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 6,
+   "title": "Smoking cessation",
+   "url": "https://en.wikipedia.org/wiki/Smoking_cessation",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
   }
  ],
  "webSources": [
@@ -102,8 +147,24 @@
   {
    "url": "https://en.wikipedia.org/wiki/Laryngopharyngeal_reflux",
    "title": "Laryngopharyngeal reflux"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Smoking_cessation",
+   "title": "Smoking cessation"
   }
  ],
- "lore": null,
- "timeline": []
+ "name": "Quit smoking for voice",
+ "card": {
+  "summary": "Stopping smoking to protect the voice; smoking is a documented cause of vocal fold swelling and hoarseness.",
+  "aka": "Smoking cessation for voice",
+  "evidence": "moderate",
+  "risk": "low",
+  "note": "Existing vocal fold swelling may not reverse after quitting.",
+  "price": null
+ },
+ "quick": {
+  "overview": "Smoking is documented as a major cause of Reinke's edema, which lowers pitch and roughens the voice. Quitting is part of standard management.\nCessation is reported to stop progression but not necessarily undo existing swelling.",
+  "mechanism": "Smoke exposure causes fluid accumulation in the vocal fold cover, making the folds heavier and slower-vibrating.",
+  "risks": "Continued smoking raises the risk of precancerous changes and laryngeal cancer. Cessation support is available through clinicians."
+ }
 }

@@ -1,35 +1,373 @@
 {
-"name":"RHA fillers (Teoxane)",
-"lead":[
-"RHA (Resilient Hyaluronic Acid) fillers are cross-linked hyaluronic acid (HA) products from the Swiss company Teoxane, marketed as Teosyal RHA outside the US and RHA Redensity in the US. They were developed to hold up in dynamic areas of the face that move with expression, such as around the mouth. [1][2]",
-"Controlled trials report effectiveness of RHA Redensity for dynamic perioral lines, and trials have studied infraorbital hollows, lips and nasolabial folds. [1][3][4][5]"
-],
-"infobox":[["Type","Cross-linked HA dermal fillers"],["Manufacturer","Teoxane"],["Brands","Teosyal RHA 1-4; RHA Redensity"],["Design aim","Gel that stretches with facial movement"]],
-"sections":[
-{"h":"Description","paras":["The RHA range uses a manufacturing process meant to preserve long HA chains so the gel stays flexible and resilient in motion. [1] Laboratory work has compared injectability of commercial cross-linked HA fillers [6] and compared cross-linking technologies. [7] Technique articles describe midface volumization with RHA gels. [8]"]},
-{"h":"Safety","paras":["A case report describes a hypersensitivity reaction to an RHA filler. [9] A multidose hyaluronidase study examined degradation of RHA fillers in vitro. [10]"]},
-{"h":"Clinical studies","paras":["A 52-week randomized, evaluator-blinded, no-treatment-controlled study evaluated RHA Redensity for moderate-to-severe dynamic perioral rhytides. [1] A prospective registry reported one-year effectiveness and safety of HA fillers in routine practice, and a real-world periorbital study has been published. [11][12] A retrospective study used ultrasound to assess skin density after treatment with an HA-based hydrogel. [13]","Registered trials include perioral rhytids (n=202), infraorbital hollows (n=248; China study recruiting), lips versus Restylane-L (n=202) and nasolabial folds against Juvéderm Ultra XC (n=148) and Perlane-L (n=140). [3][4][5][14][15]"]}
-],
-"timeline":[],
-"lore":{"intro":"RHA fillers receive little forum discussion in the community material reviewed.","claims":[]},
-"refs":[
-{"id":1,"title":"Efficacy and Safety of a New Resilient Hyaluronic Acid Filler in the Correction of Moderate-to-Severe Dynamic Perioral Rhytides: A 52-Week Study","url":"https://pubmed.ncbi.nlm.nih.gov/34608092/","source":"Dermatol Surg","year":2022,"type":"trial"},
-{"id":2,"title":"Injection techniques for midface volumization using soft tissue hyaluronic acid fillers designed for dynamic facial movement","url":"https://pubmed.ncbi.nlm.nih.gov/34964234/","source":"J Cosmet Dermatol","year":2022,"type":"study"},
-{"id":3,"title":"RHA Redensity - Perioral Rhytids (NCT03092219)","url":"https://clinicaltrials.gov/study/NCT03092219","source":"ClinicalTrials.gov","year":2016,"type":"trial"},
-{"id":4,"title":"RHA Redensity Eye Versus No-treatment for Infra-Orbital Hollows (NCT04577898)","url":"https://clinicaltrials.gov/study/NCT04577898","source":"ClinicalTrials.gov","year":2020,"type":"trial"},
-{"id":5,"title":"RHA 3 Versus Restylane-L for Lip Augmentation (NCT04540913)","url":"https://clinicaltrials.gov/study/NCT04540913","source":"ClinicalTrials.gov","year":2020,"type":"trial"},
-{"id":6,"title":"Clinical Perspectives on the Injectability of Cross-Linked Hyaluronic Acid Dermal Fillers","url":"https://pubmed.ncbi.nlm.nih.gov/38391431/","source":"Gels","year":2024,"type":"study"},
-{"id":7,"title":"Effect of Different Crosslinking Technologies on Hyaluronic Acid Behavior","url":"https://pubmed.ncbi.nlm.nih.gov/27168268/","source":"J Drugs Dermatol","year":2016,"type":"study"},
-{"id":8,"title":"Injection techniques for midface volumization (RHA)","url":"https://pubmed.ncbi.nlm.nih.gov/34964234/","source":"J Cosmet Dermatol","year":2022,"type":"study"},
-{"id":9,"title":"Hypersensitivity reaction to RHA filler","url":"https://pubmed.ncbi.nlm.nih.gov/34921498/","source":"J Cosmet Dermatol","year":2022,"type":"study"},
-{"id":10,"title":"Multidose Hyaluronidase Administration as an Optimal Procedure to Degrade Resilient Hyaluronic Acid Soft Tissue Fillers","url":"https://pubmed.ncbi.nlm.nih.gov/36770671/","source":"Molecules","year":2023,"type":"study"},
-{"id":11,"title":"A Prospective, Observational Registry Study of HA-Based Dermal Fillers in Routine Practice","url":"https://pubmed.ncbi.nlm.nih.gov/34815685/","source":"Clin Cosmet Investig Dermatol","year":2021,"type":"study"},
-{"id":12,"title":"Real-World Evidence on a HA-Based Dermal Filler in the Periorbital Region","url":"https://pubmed.ncbi.nlm.nih.gov/40442496/","source":"Aesthetic Plast Surg","year":2025,"type":"study"},
-{"id":13,"title":"Facial Skin Density Enhancement Using Hyaluronic Acid-Based Bioactive Hydrogel","url":"https://pubmed.ncbi.nlm.nih.gov/40430846/","source":"Pharmaceutics","year":2025,"type":"study"},
-{"id":14,"title":"Teosyal RHA Global Action, Deep Lines and Juvéderm Ultra XC for Nasolabial Folds (NCT02195427)","url":"https://clinicaltrials.gov/study/NCT02195427","source":"ClinicalTrials.gov","year":2014,"type":"trial"},
-{"id":15,"title":"Teosyal RHA Ultra Deep and Perlane-L for Nasolabial Folds (NCT02253147)","url":"https://clinicaltrials.gov/study/NCT02253147","source":"ClinicalTrials.gov","year":2014,"type":"trial"}
-],
-"webSources":[],
-"card":{"summary":"Teoxane's flexible HA gels built for moving areas like the mouth, with randomized perioral and under-eye trials.","aka":"Teosyal RHA, RHA Redensity","evidence":"moderate","status":"rx","note":"Thin community discussion; a hypersensitivity case report exists.","structure":null},
-"quick":{"overview":"RHA fillers are hyaluronic acid gels designed to flex with facial movement, used around the mouth, lips and under eyes.\n\nA 52-week randomized study reported benefit for dynamic perioral lines.","mechanism":"A cross-linked HA gel retaining long HA chains adds soft volume and stretches with expression; hyaluronidase dissolves it.","risks":"Reported effects include swelling and bruising; hypersensitivity has been reported. Prescription device given by licensed clinicians."}
+ "name": "RHA fillers (Teoxane)",
+ "card": {
+  "summary": "Teoxane's flexible HA gels built for moving areas like the mouth, with randomized perioral and under-eye trials.",
+  "aka": "Teosyal RHA, RHA Redensity",
+  "evidence": "moderate",
+  "status": "rx",
+  "note": "Thin community discussion; a hypersensitivity case report exists.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "RHA fillers are hyaluronic acid gels designed to flex with facial movement, used around the mouth, lips and under eyes.\n\nA 52-week randomized study reported benefit for dynamic perioral lines.",
+  "mechanism": "A cross-linked HA gel retaining long HA chains adds soft volume and stretches with expression; hyaluronidase dissolves it.",
+  "risks": "Reported effects include swelling and bruising; hypersensitivity has been reported. Prescription device given by licensed clinicians."
+ },
+ "lead": [
+  "RHA (Resilient Hyaluronic Acid) fillers are cross-linked hyaluronic acid (HA) gels made by the Swiss company Teoxane, sold as Teosyal RHA outside the United States and as RHA Redensity in the US. They were developed for areas of the face that move with expression, such as the lines around the mouth, the lips and the under-eye region, where a gel has to stretch and recover as the face animates. [1][2]",
+  "People use them to soften wrinkles and folds, add lip fullness, fill hollows beneath the eyes and restore volume in the midface. Because HA attracts water, the gel adds volume as soon as it is placed, and the result is temporary: the body gradually breaks the gel down, so treatment is repeated over time. [15][16]",
+  "The range has been studied in randomized, evaluator-blinded trials for dynamic perioral lines, lips and nasolabial folds, and in registrations for infraorbital hollows. Teoxane has also published photonumeric scales for grading lip fullness, infraorbital hollows and midface volume that are used as trial endpoints. [1][3][4][5][17][18][19]"
+ ],
+ "angle": {
+  "goal": "Face volume and lines",
+  "chain": [
+   "Cross-linked HA gel is placed by a clinician in lips, lines, hollows or midface",
+   "Gel adds soft volume and stretches with expression",
+   "Smoother lines, fuller lips, less hollow under-eye or cheek shadowing"
+  ],
+  "effect": "direct",
+  "text": "RHA gels are used to fill and smooth specific areas of the face, with the visible change appearing straight after treatment. They are marketed for moving zones such as the perioral region so that lips and lines still look natural when the face is animated."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Cross-linked HA dermal fillers"
+  ],
+  [
+   "Manufacturer",
+   "Teoxane (Geneva, Switzerland)"
+  ],
+  [
+   "Brands",
+   "Teosyal RHA 1, 2, 3, 4; RHA Redensity (US)"
+  ],
+  [
+   "Design aim",
+   "Gel that stretches with facial movement"
+  ],
+  [
+   "Regulatory class",
+   "Medical device (US: FDA-regulated, clinician-administered)"
+  ],
+  [
+   "Reversal",
+   "Hyaluronidase dissolves HA gel"
+  ],
+  [
+   "Typical areas",
+   "Perioral lines, lips, nasolabial folds, infraorbital hollows, midface"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "The RHA range uses a manufacturing process intended to keep long HA chains intact, so the gel is described as flexible and resilient in motion rather than stiff. [1] The collection is numbered RHA 1 to 4, with the lower numbers designed for finer areas and the higher numbers for deeper or more structural placement; RHA 3 has been approved in Europe for lip volumization. [2][3]",
+    "Like most HA fillers, the products are cross-linked so the gel lasts longer than uncross-linked HA, which is broken down quickly in tissue. Laboratory studies have compared how different cross-linking technologies change HA gel behavior [6] and how easily commercial cross-linked HA fillers can be injected with a standard method. [7] Technique articles describe midface volumization with gels designed for dynamic facial movement. [8]"
+   ]
+  },
+  {
+   "h": "Uses",
+   "paras": [
+    "Cosmetic uses include dynamic perioral lines (the vertical lines around the mouth), nasolabial folds, lip augmentation, infraorbital hollows (tear-trough area) and midface volume deficit. [1][3][4][5][8]",
+    "The manufacturer has also developed grading scales, the Teoxane Lip Fullness Scale and the Teoxane Infraorbital Hollows Scale, to describe how a treatment changes these areas in clinical practice and trials. [17][18]"
+   ]
+  },
+  {
+   "h": "How it works",
+   "paras": [
+    "HA is a sugar polymer found naturally in skin that binds water. In a filler it is chemically cross-linked into a gel, commonly with BDDE, which slows enzymatic breakdown and so lengthens the time it stays in the tissue. [16] The gel gives immediate volume, and most wrinkle fillers are temporary, with effects described as lasting around six months depending on product, area and individual. [16]",
+    "Practitioners choose gel firmness to match the area. Teoxane describes RHA gels as adapting to facial animation, an attribute assessed in the lip study through patient-rated natural look and feel. [2]"
+   ]
+  },
+  {
+   "h": "Safety and regulation",
+   "paras": [
+    "The FDA states that dermal fillers are regulated as medical devices that should be injected by licensed, trained providers. Its page lists bruising, redness, swelling, pain and itching as common effects, and rarer problems including infection, nodules, allergic reactions and accidental injection into a blood vessel, which can cause tissue damage or vision loss. [20]",
+    "A case report describes a hypersensitivity reaction to an RHA filler. [9] Late-onset swelling in the periocular area after HA filler has been reported in a six-patient case series treated with hyaluronidase and collagenase. [21] A study of multidose hyaluronidase examined breakdown of resilient HA fillers in vitro, relevant to how clinicians dissolve unwanted HA. [10]",
+    "In the EU and UK, fillers are non-prescription medical devices carrying a CE mark, which covers manufacturing standards rather than proof of efficacy; in the US they are approved by the FDA as devices. [16]"
+   ]
+  },
+  {
+   "h": "Background: hyaluronic acid fillers",
+   "paras": [
+    "Hyaluronic acid was first isolated in 1934 by Karl Meyer and John Palmer from the vitreous body of a cow's eye; it is a long, unbranched sugar polymer that is a major component of skin, where it helps hold water and keep tissue open. [25] Injected as a gel, it absorbs water and swells to soften lines and restore volume, with effects that Wikipedia reports lasting roughly six to twelve months, and the FDA has approved the use. [25]",
+    "Native hyaluronic acid breaks down quickly in tissue, so most fillers are chemically cross-linked, commonly with BDDE (1,4-butanediol diglycidyl ether), to make the gel more durable and resistant to enzymes. Cross-linking density affects stiffness, how fast the gel degrades, and how it behaves in different parts of the face. [16] Fillers can be placed with a sharp needle or a blunt micro-cannula. [25]",
+    "RHA stands for resilient hyaluronic acid and is the name of Teoxane's range of fillers. A 2022 randomised trial describes RHA Redensity as developed to optimise outcomes in highly mobile facial areas, and registered studies of RHA products cover perioral lines, nasolabial folds, lips and the infraorbital region. [1][3][4][5][24]"
+   ]
+  },
+  {
+   "h": "Regulation",
+   "paras": [
+    "In the United States, dermal fillers are regulated as medical devices and must be injected by a licensed provider, with only a small number of fillers approved relative to the large number of CE-marked products on the European market; CE marking confirms manufacturing standards but does not itself require proof of efficacy. [16] The FDA maintains a consumer page listing approved fillers and their indications. [20]"
+   ]
+  },
+  {
+   "h": "Complications and their management",
+   "paras": [
+    "Common reactions to hyaluronic acid fillers are bruising, redness, swelling, pain and itching. Less common problems include infection, lumps, delayed inflammatory reactions and allergic responses. [16] The most serious are vascular events, in which filler enters or compresses a blood vessel; Wikipedia notes embolisation into the eye's arteries can cause permanent vision loss and that delayed skin necrosis is also described. [16]",
+    "Hyaluronic acid fillers are distinctive in that the enzyme hyaluronidase breaks down hyaluronic acid, and clinical papers describe its use to dissolve filler for complications or unwanted results. [10][21][25] A case report describes a hypersensitivity reaction to an RHA filler, illustrating that reactions are documented for this brand as for others. [9]"
+   ]
+  },
+  {
+   "h": "Use in appearance improvement",
+   "paras": [
+    "People use hyaluronic acid fillers to soften lines around the mouth and nose, add lip volume, restore midface volume and reduce hollowing under the eyes, all areas that RHA studies have examined. Perioral lines are described as a highly mobile region where RHA was developed to perform well. [3][4][5] Results appear immediately, which differs from treatments that rely on gradual collagen change, and the effect is temporary, so fillers are re-treated over time. [25][16]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Perioral lines: a 52-week randomized, evaluator-blinded, no-treatment-controlled study evaluated RHA Redensity for moderate-to-severe dynamic perioral rhytides. [1] The related registration enrolled 202 participants. [3]",
+    "Lips: a randomized, double-blinded, multicenter US study of 202 patients tested RHA 3 against an active comparator, with the primary endpoint of noninferiority on the Teoxane Lip Fullness Scale at 12 weeks and secondary measures including satisfaction and natural look and feel to 52 weeks. RHA 3 met the noninferiority criterion. [5][17][22]",
+    "Nasolabial folds: registered trials compared Teosyal RHA gels with Juvederm Ultra XC (n=148) and Perlane-L (n=140). [14][15] A separate split-face randomized pilot funded by Teoxane compared a monophasic with a biphasic HA filler for nasolabial folds, finding comparable results with a trend favouring the monophasic gel. [23]",
+    "Under the eyes and elsewhere: a no-treatment-controlled infraorbital trial (n=248) is registered, and a trial in Chinese adults (n=260) is recruiting. [4][24] Routine-practice data include a prospective registry reporting one-year effectiveness and safety of HA fillers, a real-world periorbital study and a retrospective ultrasound study of skin density after an HA-based hydrogel. [11][12][13]"
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing communities",
+   "paras": [
+    "RHA is rarely discussed by name in forums. Filler discussions there generally concern lips, cheeks, chin and under-eye treatment with HA products as a group, with RHA appearing as one brand among many offered by clinics."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2014",
+   "event": "Registered trials of Teosyal RHA gels for nasolabial folds begin. [14][15]"
+  },
+  {
+   "year": "2016",
+   "event": "RHA Redensity perioral rhytid trial starts. [3]"
+  },
+  {
+   "year": "2020",
+   "event": "Lip augmentation (RHA 3) and infraorbital hollow trials start. [4][5]"
+  },
+  {
+   "year": "2022",
+   "event": "52-week perioral lines results published in Dermatologic Surgery. [1]"
+  },
+  {
+   "year": "2025",
+   "event": "US randomized lip augmentation study published. [22]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Efficacy and Safety of a New Resilient Hyaluronic Acid Filler in the Correction of Moderate-to-Severe Dynamic Perioral Rhytides: A 52-Week Study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34608092/",
+   "source": "Dermatol Surg",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 2,
+   "title": "Injection techniques for midface volumization using soft tissue hyaluronic acid fillers designed for dynamic facial movement",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34964234/",
+   "source": "J Cosmet Dermatol",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "RHA Redensity - Perioral Rhytids (NCT03092219)",
+   "url": "https://clinicaltrials.gov/study/NCT03092219",
+   "source": "ClinicalTrials.gov",
+   "year": 2016,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "RHA Redensity Eye Versus No-treatment for Infra-Orbital Hollows (NCT04577898)",
+   "url": "https://clinicaltrials.gov/study/NCT04577898",
+   "source": "ClinicalTrials.gov",
+   "year": 2020,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "RHA 3 Versus Restylane-L for Lip Augmentation (NCT04540913)",
+   "url": "https://clinicaltrials.gov/study/NCT04540913",
+   "source": "ClinicalTrials.gov",
+   "year": 2020,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Clinical Perspectives on the Injectability of Cross-Linked Hyaluronic Acid Dermal Fillers",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38391431/",
+   "source": "Gels",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Effect of Different Crosslinking Technologies on Hyaluronic Acid Behavior",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27168268/",
+   "source": "J Drugs Dermatol",
+   "year": 2016,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Injection techniques for midface volumization (RHA)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34964234/",
+   "source": "J Cosmet Dermatol",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "Hypersensitivity reaction to RHA filler",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34921498/",
+   "source": "J Cosmet Dermatol",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Multidose Hyaluronidase Administration as an Optimal Procedure to Degrade Resilient Hyaluronic Acid Soft Tissue Fillers",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36770671/",
+   "source": "Molecules",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "A Prospective, Observational Registry Study of HA-Based Dermal Fillers in Routine Practice",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34815685/",
+   "source": "Clin Cosmet Investig Dermatol",
+   "year": 2021,
+   "type": "study"
+  },
+  {
+   "id": 12,
+   "title": "Real-World Evidence on a HA-Based Dermal Filler in the Periorbital Region",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40442496/",
+   "source": "Aesthetic Plast Surg",
+   "year": 2025,
+   "type": "study"
+  },
+  {
+   "id": 13,
+   "title": "Facial Skin Density Enhancement Using Hyaluronic Acid-Based Bioactive Hydrogel",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40430846/",
+   "source": "Pharmaceutics",
+   "year": 2025,
+   "type": "study"
+  },
+  {
+   "id": 14,
+   "title": "Teosyal RHA Global Action, Deep Lines and Juvéderm Ultra XC for Nasolabial Folds (NCT02195427)",
+   "url": "https://clinicaltrials.gov/study/NCT02195427",
+   "source": "ClinicalTrials.gov",
+   "year": 2014,
+   "type": "trial"
+  },
+  {
+   "id": 15,
+   "title": "Teosyal RHA Ultra Deep and Perlane-L for Nasolabial Folds (NCT02253147)",
+   "url": "https://clinicaltrials.gov/study/NCT02253147",
+   "source": "ClinicalTrials.gov",
+   "year": 2014,
+   "type": "trial"
+  },
+  {
+   "id": 16,
+   "title": "Dermal filler",
+   "url": "https://en.wikipedia.org/wiki/Dermal_filler",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 17,
+   "title": "Creation and validation of a photonumeric scale for assessment of lip fullness",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35049135/",
+   "source": "J Cosmet Dermatol",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 18,
+   "title": "Creation and Validation of a Photonumeric Scale for Assessment of Infraorbital Hollows",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37523595/",
+   "source": "Dermatol Surg",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 19,
+   "title": "Creation and Validation of a Photonumeric Scale for Assessment of Midface Volume Deficit",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40600593/",
+   "source": "Dermatol Surg",
+   "year": 2026,
+   "type": "study"
+  },
+  {
+   "id": 20,
+   "title": "Dermal Fillers (Soft Tissue Fillers)",
+   "url": "https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/dermal-fillers-soft-tissue-fillers",
+   "source": "US FDA",
+   "year": 2024,
+   "type": "guideline"
+  },
+  {
+   "id": 21,
+   "title": "Combined Application of Hyaluronidase and Collagenase for Late-Onset Edema in Periocular Area After HA Volume Repositioning",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39717328/",
+   "source": "Cureus",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 22,
+   "title": "Effectiveness and Safety of RHA3 vs a Comparator Product for Lip Augmentation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40659364/",
+   "source": "Aesthet Surg J",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 23,
+   "title": "Efficacy and durability of two hyaluronic acid-based fillers in the correction of nasolabial folds",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21605236/",
+   "source": "Dermatol Surg",
+   "year": 2011,
+   "type": "trial"
+  },
+  {
+   "id": 24,
+   "title": "TEOSYAL RHA 1 for Infraorbital Region in Chinese Adults (NCT06749587)",
+   "url": "https://clinicaltrials.gov/study/NCT06749587",
+   "source": "ClinicalTrials.gov",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 25,
+   "title": "Hyaluronic acid",
+   "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/dermal-fillers-soft-tissue-fillers",
+   "title": "FDA: Dermal Fillers"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Dermal_filler",
+   "title": "Wikipedia: Dermal filler"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid",
+   "title": "Hyaluronic acid"
+  }
+ ]
 }

@@ -1,0 +1,67 @@
+{
+  "name": "Sodium hypochlorite bleach bath",
+  "card": {
+    "summary": "A dilute bleach bath is a soak in highly diluted sodium hypochlorite used for atopic dermatitis to cut skin bacteria and calm flares, helping skin look and feel less inflamed.",
+    "aka": "dilute bleach bath",
+    "evidence": "moderate",
+    "status": "otc",
+    "price": null,
+    "note": "Only highly diluted forms are used in clinical guidance; undiluted bleach is a skin and eye hazard.",
+    "structure": "Sodium hypochlorite"
+  },
+  "quick": {
+    "overview": "A bleach bath is a bath containing a small, heavily diluted amount of household sodium hypochlorite, used as an adjunct for atopic dermatitis (eczema). The goal is calmer, less red, less itchy and less infected-looking skin.\n\nReviews report that bleach baths reduce the bacterium Staphylococcus aureus on skin and can improve clinical symptoms, though randomised trials have been mixed and the 2023 AAAAI/ACAAI guideline panel specifically addressed dilute bleach bath alongside other topical treatments.",
+    "how": "In clinical use the bath is a dilute soak a few times a week alongside moisturisers and prescribed treatments, with precise dilution set by a clinician. Reviews describe it as an adjunct, not a stand-alone therapy.",
+    "risks": "Reviews describe bleach baths as generally safe on skin, and many studies find they do not disrupt the skin barrier, but long-term use alone has not been well studied. Concentrated bleach can burn skin and eyes, so dilution matters; people should follow dermatologist directions."
+  },
+  "lead": [
+    "Sodium hypochlorite bleach baths are used by people with atopic dermatitis to treat or prevent skin infection and reduce flares, though how they work is not well understood [1].",
+    "A 2018 review of 15 studies concluded that bleach baths improve clinical symptoms of atopic dermatitis and restore the surface microbiome by eradicating bacteria, most notably Staphylococcus aureus; in some studies the effect reduced the need for topical corticosteroids or antibiotics, and bleach appeared to have anti-inflammatory and anti-itch effects [1]. The reviewers noted that studies of long-term use without other treatments are needed [1].",
+    "For appearance, calmer atopic skin means less redness, scaling and scratching, which is why eczema communities discuss the method. The 2023 US AAAAI/ACAAI guideline process addressed dilute bleach bath as one of its topical treatment questions [2]."
+  ],
+  "angle": {
+    "goal": "Skin / eczema",
+    "chain": ["Dilute bleach soak reduces skin bacteria", "Flares and inflammation ease", "Calmer, less red skin"],
+    "effect": "indirect",
+    "text": "Users take a dilute soak alongside moisturisers to control bacteria and flares on eczema-prone skin."
+  },
+  "infobox": [
+    ["Type", "Topical bath treatment"],
+    ["Active", "Sodium hypochlorite (highly diluted)"],
+    ["Used for", "Atopic dermatitis, S. aureus colonisation"],
+    ["Role", "Adjunct to moisturisers and prescribed treatment"]
+  ],
+  "sections": [
+    {
+      "h": "Uses",
+      "paras": [
+        "Staphylococcus aureus colonises atopic skin commonly and contributes to flares, and bleach baths, topical or systemic antibiotics can be used to control it, with care about antibiotic resistance [3]. An Indian review describes bleach baths as an inexpensive, widely accessible alternative that may not worsen antibiotic resistance [4]."
+      ]
+    },
+    {
+      "h": "Safety",
+      "paras": [
+        "Reviews conclude bleach baths seem safe on human skin without disrupting barrier function [1][4]. General skin care guidance for atopic dermatitis emphasises moisturisers and appropriate bathing, noting high-quality evidence for specific regimens is limited [5]."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "A randomised trial of bleach baths plus hygiene measures in children with recurrent S. aureus infections found recurrences in 17 percent of the bleach group versus 21 percent of controls within 12 months, a difference that was not statistically significant [6]. A double-blind, placebo-controlled cross-over trial examined effects on S. aureus colonisation and eczema severity in children with moderate-to-severe eczema, noting earlier trials had shown conflicting results [7]. Another randomised trial examined skin microbiome effects of fluticasone cream with adjunctive bleach baths in childhood eczema [8]."
+      ]
+    }
+  ],
+  "timeline": [],
+  "lore": null,
+  "refs": [
+    { "id": 1, "title": "Bleach for Atopic Dermatitis", "url": "https://pubmed.ncbi.nlm.nih.gov/29762205/", "source": "Dermatitis", "year": 2018, "type": "review" },
+    { "id": 2, "title": "Atopic Dermatitis (Eczema) Guidelines 2023: Highlights", "url": "https://pubmed.ncbi.nlm.nih.gov/39251015/", "source": "J Allergy Clin Immunol Pract", "year": 2024, "type": "guideline" },
+    { "id": 3, "title": "Interactions Between Atopic Dermatitis and Staphylococcus aureus Infection: Clinical Implications", "url": "https://pubmed.ncbi.nlm.nih.gov/31332972/", "source": "Allergy Asthma Immunol Res", "year": 2019, "type": "review" },
+    { "id": 4, "title": "Use of Bleach Baths for Atopic Dermatitis: An Indian Perspective", "url": "https://pubmed.ncbi.nlm.nih.gov/36386066/", "source": "Indian J Dermatol", "year": 2022, "type": "review" },
+    { "id": 5, "title": "Basic skin care for atopic dermatitis", "url": "https://pubmed.ncbi.nlm.nih.gov/42209110/", "source": "J Am Acad Dermatol", "year": 2026, "type": "review" },
+    { "id": 6, "title": "Randomized trial of bleach baths plus routine hygienic measures vs. routine hygienic measures alone for prevention of recurrent infections", "url": "https://pubmed.ncbi.nlm.nih.gov/24265356/", "source": "Clin Infect Dis", "year": 2014, "type": "trial" },
+    { "id": 7, "title": "Efficacy of sodium hypochlorite (bleach) baths to reduce Staphylococcus aureus colonization in childhood onset moderate-to-severe eczema", "url": "https://pubmed.ncbi.nlm.nih.gov/26270469/", "source": "J Dermatolog Treat", "year": 2016, "type": "trial" },
+    { "id": 8, "title": "Cutaneous microbiome effects of fluticasone propionate cream and adjunctive bleach baths in childhood atopic dermatitis", "url": "https://pubmed.ncbi.nlm.nih.gov/27543211/", "source": "J Am Acad Dermatol", "year": 2016, "type": "trial" }
+  ],
+  "webSources": []
+}

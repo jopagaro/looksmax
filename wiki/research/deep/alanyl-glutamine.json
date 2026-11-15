@@ -1,29 +1,272 @@
 {
-"name": "Alanyl-glutamine",
-"card": {"summary": "A stable glutamine dipeptide studied mainly in hospital nutrition, with no trials found for physique or appearance goals.", "aka": "L-alanyl-L-glutamine, glutamine dipeptide", "evidence": "unproven", "status": "rx", "price": null, "note": "Research is in surgery, critical illness and gut disease; trial results are mixed.", "structure": "Alanyl-glutamine"},
-"quick": {
-"overview": "Alanyl-glutamine is a synthetic dipeptide of alanine and glutamine. It was developed so glutamine could be given in a stable, water-soluble form, and appears mainly in clinical nutrition research.\n\nIt is also discussed in the muscle category as a glutamine form, but the reference material reviewed contains no trials of it for muscle growth or appearance in healthy people.",
-"mechanism": "Given intravenously, the dipeptide supplies glutamine to tissues. Trials in surgical patients examined whether this limits the fall in muscle glutamine and protein synthesis after surgery or injury.",
-"risks": "Reported trials are in hospital patients and results vary, including a randomized study that found no benefit in autologous transplant patients. No safety data from healthy-lifter use appears in the reference material."
-},
-"lead": ["Alanyl-glutamine (L-alanyl-L-glutamine) is a synthetic dipeptide used as a glutamine source in clinical nutrition. A 1989 randomized Lancet study in 12 patients after colorectal cancer surgery gave it in parenteral nutrition and examined muscle glutamine loss and nitrogen balance.[1]","Research since then has covered surgery, trauma, critical illness, intestinal disease, infection and malnutrition.[2][3][4] The reference material contains no trials of alanyl-glutamine for muscle gain or appearance in healthy people."],
-"infobox": [["Type","Dipeptide (alanine + glutamine)"],["Routes","Intravenous (clinical); oral studied in some trials"],["Main research area","Clinical and parenteral nutrition"]],
-"sections": [
-{"h":"Clinical studies","paras":["The 1989 Lancet study reported on muscle glutamine loss and nitrogen balance after major surgery in patients given the dipeptide versus a control regimen.[1] A related 1990 study examined whether it counteracted depletion of free glutamine and the postoperative decline in muscle protein synthesis.[5] A 1999 randomized, double-blind study of 120 postoperative patients examined clinical safety, nitrogen balance and intestinal permeability.[6]","A 2006 study in multiple-trauma patients reported that parenteral alanyl-glutamine prevented worsening of insulin sensitivity.[7] In contrast, a randomized, double-blind, placebo-controlled study titled as such concluded that standardized parenteral alanyl-glutamine was not beneficial in autologous transplant patients.[8]","Registered trials include studies in pressure ulcers in critically ill patients, Clostridioides difficile infection, and childhood malnutrition and enteropathy.[9][10] No study in the reference material tests it for physique outcomes in healthy people."]}
-],
-"timeline": [{"year":"1989","event":"Randomized study of parenteral alanyl-glutamine after major surgery published in The Lancet.[1]"}],
-"lore": null,
-"refs": [
-{"id":1,"title":"Effect of parenteral glutamine peptide supplements on muscle glutamine loss and nitrogen balance after major surgery","url":"https://pubmed.ncbi.nlm.nih.gov/2563409/","source":"Lancet","year":1989,"type":"trial"},
-{"id":2,"title":"Parenteral glutamine increases serum heat shock protein 70 in critically ill patients","url":"https://pubmed.ncbi.nlm.nih.gov/15973519/","source":"Intensive Care Medicine","year":2005,"type":"study"},
-{"id":3,"title":"Effect of free glutamine and alanyl-glutamine dipeptide on mucosal proliferation of the human ileum and colon","url":"https://pubmed.ncbi.nlm.nih.gov/8039619/","source":"Gastroenterology","year":1994,"type":"study"},
-{"id":4,"title":"Metabolic response to injury and sepsis: changes in protein metabolism","url":"https://pubmed.ncbi.nlm.nih.gov/9290110/","source":"Nutrition","year":1997,"type":"review"},
-{"id":5,"title":"Alanyl-glutamine counteracts the depletion of free glutamine and the postoperative decline in protein synthesis in skeletal muscle","url":"https://pubmed.ncbi.nlm.nih.gov/2122821/","source":"Annals of Surgery","year":1990,"type":"study"},
-{"id":6,"title":"The impact of alanyl-glutamine on clinical safety, nitrogen balance, intestinal permeability, and clinical outcome in postoperative patients","url":"https://pubmed.ncbi.nlm.nih.gov/10483898/","source":"JPEN","year":1999,"type":"trial"},
-{"id":7,"title":"Parenterally administered dipeptide alanyl-glutamine prevents worsening of insulin sensitivity in multiple-trauma patients","url":"https://pubmed.ncbi.nlm.nih.gov/16424718/","source":"Critical Care Medicine","year":2006,"type":"trial"},
-{"id":8,"title":"Standardized parenteral alanyl-glutamine dipeptide supplementation is not beneficial in autologous transplant patients","url":"https://pubmed.ncbi.nlm.nih.gov/12476290/","source":"Bone Marrow Transplantation","year":2002,"type":"trial"},
-{"id":9,"title":"Effect of IV Alanyl Glutamine on Healing of Pressure Ulcers in Critically Ill Patients (NCT05586646)","url":"https://clinicaltrials.gov/study/NCT05586646","source":"ClinicalTrials.gov","year":2022,"type":"trial"},
-{"id":10,"title":"Alanyl-glutamine Supplementation for C. Difficile Treatment (NCT04305769)","url":"https://clinicaltrials.gov/study/NCT04305769","source":"ClinicalTrials.gov","year":2021,"type":"trial"}
-],
-"webSources": []
+ "name": "Alanyl-glutamine",
+ "card": {
+  "summary": "A stable glutamine dipeptide studied mainly in hospital nutrition, with no trials found for physique or appearance goals.",
+  "aka": "L-alanyl-L-glutamine, glutamine dipeptide",
+  "evidence": "unproven",
+  "status": "rx",
+  "price": null,
+  "note": "Research is in surgery, critical illness and gut disease; trial results are mixed.",
+  "structure": "Alanyl-glutamine"
+ },
+ "quick": {
+  "overview": "Alanyl-glutamine is a synthetic dipeptide of alanine and glutamine. It was developed so glutamine could be given in a stable, water-soluble form, and appears mainly in clinical nutrition research.\n\nIt is also discussed in the muscle category as a glutamine form, but the reference material reviewed contains no trials of it for muscle growth or appearance in healthy people.",
+  "mechanism": "Given intravenously, the dipeptide supplies glutamine to tissues. Trials in surgical patients examined whether this limits the fall in muscle glutamine and protein synthesis after surgery or injury.",
+  "risks": "Reported trials are in hospital patients and results vary, including a randomized study that found no benefit in autologous transplant patients. No safety data from healthy-lifter use appears in the reference material."
+ },
+ "lead": [
+  "Alanyl-glutamine (L-alanyl-L-glutamine) is a synthetic dipeptide, glutamine joined to alanine, used as a stable, water-soluble way to deliver glutamine. Free glutamine is the most abundant amino acid in the blood, and skeletal muscle produces most of the body's supply; after surgery, trauma or sepsis, muscle glutamine falls and muscle protein breakdown rises.[27][28] The dipeptide was developed so that glutamine could be included in intravenous nutrition solutions, where free glutamine is unstable.[1]",
+  "The appearance-related interest follows a chain: a glutamine source may limit the loss of muscle glutamine and protein synthesis after physiological stress, and more retained muscle means a fuller physique. The earliest human work tested exactly that in surgical patients, measuring muscle glutamine, protein synthesis and nitrogen balance after major operations.[1][5] In sports supplement culture, alanyl-glutamine appears as an ingredient in amino acid and recovery blends, which users take for training recovery.[29]",
+  "Research since the 1980s has covered surgery, trauma, critical illness, intestinal disease, infection, peritoneal dialysis and childhood malnutrition.[2][3][4][30][31] No published trial has tested alanyl-glutamine for muscle gain or physique in healthy lifters."
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Dipeptide (L-alanine + L-glutamine)"
+  ],
+  [
+   "Routes",
+   "Intravenous (clinical nutrition); oral and added to dialysis fluid in some trials"
+  ],
+  [
+   "Main research area",
+   "Clinical and parenteral nutrition"
+  ],
+  [
+   "First randomized report",
+   "1989 (Lancet, surgical patients)"
+  ],
+  [
+   "Found in",
+   "Hospital nutrition products; some sports amino acid blends"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description and chemistry",
+   "paras": [
+    "Alanyl-glutamine is a dipeptide in which alanine is linked to glutamine by a peptide bond. Unlike free glutamine, which breaks down in solution during heat sterilisation and storage, the dipeptide is stable, which is the reason it was designed for parenteral (intravenous) formulas.[1] After infusion the peptide bond is cleaved by peptidases and the released glutamine becomes available to tissues.[27]"
+   ]
+  },
+  {
+   "h": "Biological role of glutamine",
+   "paras": [
+    "Glutamine is the main carrier of nitrogen between tissues, a fuel for intestinal lining cells and immune cells, and a building block for protein and nucleotides. Reviews describe it as conditionally essential during severe illness, when demand outstrips what the body makes.[27][28]",
+    "A review of the metabolic response to injury and sepsis reports accelerated muscle protein breakdown, protein synthesis that does not keep pace, and a fall in intramuscular glutamine because of increased efflux and possibly reduced synthesis.[4] That pattern is the target that the surgical dipeptide trials were designed to address."
+   ]
+  },
+  {
+   "h": "Use in clinical nutrition",
+   "paras": [
+    "In hospital practice alanyl-glutamine is given as an additive to parenteral nutrition for patients who cannot eat normally. Trials have examined it after gastrointestinal surgery, in multiple trauma, in intensive care, in transplant patients and in children with malnutrition or persistent diarrhea.[1][6][7][8][30]"
+   ]
+  },
+  {
+   "h": "Use in sports and appearance contexts",
+   "paras": [
+    "Oral alanyl-glutamine is sold in some branched-chain amino acid and recovery products. One T Nation thread about BCAA products notes a powder providing a blend of leucine, isoleucine, valine and L-alanyl-L-glutamine, while another asks whether alanyl-glutamine has anti-inflammatory effects and notes that the poster had found little on it in published searches.[29][32]",
+    "Users who include it generally do so for training recovery and muscle retention during dieting, reasoning from glutamine's role in muscle and gut. A randomized crossover study in 19 healthy young adults compared water, electrolyte drinks and an alanyl-glutamine-electrolyte drink for rehydration, a separate sports-nutrition use of the dipeptide.[33]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "The 1989 Lancet study randomised 12 patients undergoing elective resection of colon or rectal cancer to total parenteral nutrition with or without alanyl-glutamine for the first five postoperative days and reported on muscle glutamine loss and nitrogen balance.[1] A 1990 study examined whether the dipeptide counteracted depletion of free glutamine and the postoperative decline in muscle protein synthesis.[5] A 1999 randomized, double-blind study of 120 postoperative patients examined clinical safety, nitrogen balance and intestinal permeability.[6]",
+    "A 1994 study examined the effect of free glutamine and the dipeptide on mucosal proliferation in the human ileum and colon.[3] A 2005 study found parenteral glutamine raised serum heat shock protein 70 in critically ill patients, and a 2006 study in multiple-trauma patients reported that parenteral alanyl-glutamine prevented worsening of insulin sensitivity.[2][7] A randomized, double-blind, placebo-controlled study concluded that standardized parenteral alanyl-glutamine was not beneficial in autologous transplant patients.[8]",
+    "More recent randomized work includes a phase 3 trial of alanyl-glutamine for inflammation, nutrition and enteropathy in children, a phase 2 trial adding it to peritoneal dialysis fluid to assess biomarkers of peritoneal health, and a proof-of-concept study on adhesions after myomectomy.[30][31][34] Registered trials cover pressure ulcers in critically ill patients, Clostridioides difficile infection and heart-surgery biomarkers.[9][10][35]",
+    "No study tests it for physique outcomes in healthy people."
+   ]
+  },
+  {
+   "h": "Safety",
+   "paras": [
+    "Wikipedia's glutamine article describes glutamine as generally well tolerated in adults and preterm infants, with adverse effects described in people on home parenteral nutrition and with liver abnormalities, and cautions that supplementation may be harmful in some cancer types.[27] Trials of the dipeptide in hospital patients report on safety as an endpoint, as in the 120-patient postoperative study.[6]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "The dipeptide is an ingredient rather than a branded product; in clinical nutrition it is supplied within formulations used under medical supervision, and in the supplement market it appears in some powders. It is not the same product as the L-glutamine powder approved by the FDA in 2017 for sickle cell disease.[27]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1989",
+   "event": "Randomized study of parenteral alanyl-glutamine after major surgery published in The Lancet.[1]"
+  },
+  {
+   "year": "1990",
+   "event": "Study reports on postoperative muscle protein synthesis and free glutamine with the dipeptide.[5]"
+  },
+  {
+   "year": "1999",
+   "event": "Randomized double-blind study of 120 postoperative patients.[6]"
+  },
+  {
+   "year": "2018",
+   "event": "Randomized trial of alanyl-glutamine in peritoneal dialysis fluid published.[31]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Effect of parenteral glutamine peptide supplements on muscle glutamine loss and nitrogen balance after major surgery",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2563409/",
+   "source": "Lancet",
+   "year": 1989,
+   "type": "trial"
+  },
+  {
+   "id": 2,
+   "title": "Parenteral glutamine increases serum heat shock protein 70 in critically ill patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15973519/",
+   "source": "Intensive Care Medicine",
+   "year": 2005,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Effect of free glutamine and alanyl-glutamine dipeptide on mucosal proliferation of the human ileum and colon",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8039619/",
+   "source": "Gastroenterology",
+   "year": 1994,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Metabolic response to injury and sepsis: changes in protein metabolism",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9290110/",
+   "source": "Nutrition",
+   "year": 1997,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Alanyl-glutamine counteracts the depletion of free glutamine and the postoperative decline in protein synthesis in skeletal muscle",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2122821/",
+   "source": "Annals of Surgery",
+   "year": 1990,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "The impact of alanyl-glutamine on clinical safety, nitrogen balance, intestinal permeability, and clinical outcome in postoperative patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10483898/",
+   "source": "JPEN",
+   "year": 1999,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Parenterally administered dipeptide alanyl-glutamine prevents worsening of insulin sensitivity in multiple-trauma patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16424718/",
+   "source": "Critical Care Medicine",
+   "year": 2006,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Standardized parenteral alanyl-glutamine dipeptide supplementation is not beneficial in autologous transplant patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12476290/",
+   "source": "Bone Marrow Transplantation",
+   "year": 2002,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Effect of IV Alanyl Glutamine on Healing of Pressure Ulcers in Critically Ill Patients (NCT05586646)",
+   "url": "https://clinicaltrials.gov/study/NCT05586646",
+   "source": "ClinicalTrials.gov",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Alanyl-glutamine Supplementation for C. Difficile Treatment (NCT04305769)",
+   "url": "https://clinicaltrials.gov/study/NCT04305769",
+   "source": "ClinicalTrials.gov",
+   "year": 2021,
+   "type": "trial"
+  },
+  {
+   "id": 27,
+   "title": "Glutamine",
+   "url": "https://en.wikipedia.org/wiki/Glutamine",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 28,
+   "title": "Metabolic response to injury and sepsis: changes in protein metabolism",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9290110/",
+   "source": "Nutrition",
+   "year": 1997,
+   "type": "review"
+  },
+  {
+   "id": 29,
+   "title": "Best BCAA?",
+   "url": "https://t-nation.com/t/best-bcaa/162338",
+   "source": "T Nation forum",
+   "year": 2011,
+   "type": "forum"
+  },
+  {
+   "id": 30,
+   "title": "Intervention and Mechanisms of Alanyl-glutamine for Inflammation, Nutrition, and Enteropathy: A Randomized Controlled Trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32826717/",
+   "source": "Journal of Pediatric Gastroenterology and Nutrition",
+   "year": 2020,
+   "type": "trial"
+  },
+  {
+   "id": 31,
+   "title": "A randomized controlled trial of alanyl-glutamine supplementation in peritoneal dialysis fluid to assess impact on biomarkers of peritoneal health",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30360960/",
+   "source": "Kidney International",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 32,
+   "title": "N-acetyl-glucosamine",
+   "url": "https://t-nation.com/t/n-acetyl-glucosamine/189513",
+   "source": "T Nation forum",
+   "year": 2013,
+   "type": "forum"
+  },
+  {
+   "id": 33,
+   "title": "The Beverage Hydration Index: Influence of Electrolytes, Carbohydrate and Protein",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34578811/",
+   "source": "Nutrients",
+   "year": 2021,
+   "type": "trial"
+  },
+  {
+   "id": 34,
+   "title": "A randomized double-blind controlled proof-of-concept study of alanyl-glutamine for reduction of post-myomectomy adhesions",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37023559/",
+   "source": "European Journal of Obstetrics & Gynecology and Reproductive Biology",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 35,
+   "title": "Preoperative glutamine infusion improves glycemia in heart surgery patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21971663/",
+   "source": "Acta Cirurgica Brasileira",
+   "year": 2011,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Glutamine",
+   "title": "Glutamine - Wikipedia"
+  }
+ ]
 }

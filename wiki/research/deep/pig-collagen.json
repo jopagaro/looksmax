@@ -1,13 +1,24 @@
 {
  "name": "Pig collagen",
  "lead": [
-  "Pig (porcine) collagen is collagen protein derived from pig skin or connective tissue. In beauty it appears in sheet masks and creams, particularly in Korean products, and as a supplement; in medicine, porcine collagen is used in wound dressings and dental and surgical membranes.[1][2]",
-  "Wikipedia states that intact collagen is too large to penetrate skin when applied topically, that cosmetics therefore often use hydrolysed forms, and that as of 2025 no clinical evidence supports oral or topical collagen products for wrinkles or skin ageing.[1] Proponents of collagen products hold that they hydrate or firm skin."
+  "Pig (porcine) collagen is collagen protein extracted from pig skin and connective tissue. In beauty it appears in sheet masks, creams and ingestible supplements, particularly in Korean and Japanese products, where makers and users associate it with firmer, more hydrated, plumper-looking skin. In medicine, porcine collagen is a standard biomaterial for wound dressings, dental and surgical membranes and soft-tissue matrices [1][2][5].",
+  "Collagen is the main structural protein in skin, tendon and bone, and skin ageing involves thinning of the dermis, degeneration of collagen and elastic fibres, reduced hydration and UV-driven photoageing [1]. The beauty logic is that supplying collagen from outside replaces or supports what skin loses. Wikipedia states that intact collagen is too large to penetrate skin when applied topically, that cosmetics therefore often use hydrolysed forms or short peptides in the belief that they absorb better, and that as of 2025 no clinical evidence shows oral or topical collagen products improving wrinkles or skin ageing [1].",
+  "Pig-derived collagen is one source among several; cattle hides, fish skin, horse and human sources are also used, and recombinant production is an alternative for high-purity types [1]. The medical literature on porcine collagen is much larger than any cosmetic literature."
  ],
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "Collagen is applied in a mask or cream, or taken as a peptide supplement",
+   "A surface film or peptides are meant to hydrate and support skin",
+   "Skin looks plumper and more hydrated"
+  ],
+  "effect": "claimed",
+  "text": "Users apply pig-collagen sheet masks and creams, or take hydrolysed collagen, hoping for firmer, bouncier skin. Masks can leave a hydrating film on the surface, while effects on wrinkles from collagen products have not been shown in clinical research [1]."
+ },
  "infobox": [
   [
    "Type",
-   "Animal-derived protein"
+   "Animal-derived structural protein"
   ],
   [
    "Source",
@@ -15,35 +26,115 @@
   ],
   [
    "Beauty forms",
-   "Mask ingredient, hydrolysed peptides"
+   "Sheet masks, creams, hydrolysed peptide supplements"
   ],
   [
    "Medical forms",
-   "Dressings, membranes, matrices"
+   "Wound dressings, dental and surgical membranes, matrices, grafts"
+  ],
+  [
+   "Alternatives",
+   "Bovine, marine, equine and recombinant collagen"
+  ],
+  [
+   "Studies on cosmetic use",
+   "None found"
   ]
  ],
  "sections": [
   {
-   "h": "Topical and oral use",
+   "h": "Types and sources",
    "paras": [
-    "Collagen creams are sold as cosmetics, but according to Wikipedia intact collagen fibres cannot enter the skin, and low-molecular-weight hydrolysed forms are used on the unproven belief they absorb better. Ingested collagen is digested to peptides and amino acids.[1] A surface film of collagen may act as a humectant, but this role was not assessed in the sources reviewed."
+    "Industrial collagen mostly comes from the skin, bones and connective tissue of animals, the same material used for gelatin [1]. Fish collagen has lower proline and hydroxyproline content than mammalian collagen and so is less thermally stable [1]. Large producers in Paraguay buy cattle hides, a supply chain that Wikipedia links to deforestation [1]. Pig collagen is a mammalian option; people who avoid pork for religious or dietary reasons sometimes look for alternatives, an issue that applies to any animal-derived ingredient."
+   ]
+  },
+  {
+   "h": "Use in beauty",
+   "subs": [
+    {
+     "h": "Topical products",
+     "paras": [
+      "Collagen creams and masks are sold as cosmetics, but Wikipedia reports that the intact molecule has poor permeability and is not absorbed through skin [1]. Brands therefore often use hydrolysed collagen or small peptides such as glycyl-prolyl-hydroxyproline, though the encyclopedia notes this rests on an unproven belief that absorption improves [1]. A surface film of protein can act as a humectant that holds moisture on the skin, which is what mask users typically describe feeling."
+     ]
+    },
+    {
+     "h": "Oral supplements",
+     "paras": [
+      "Ingested collagen is digested into peptides and amino acids, and Wikipedia says there is no good evidence that eating it raises collagen production or skin health [1]. Supplement makers and users continue to promote hydrolysed collagen for skin, hair and nails."
+     ]
+    }
    ]
   },
   {
    "h": "Medical uses of porcine collagen",
    "paras": [
-    "Porcine collagen has been studied as a biomaterial, including porcine tendon grafts treated to remove alpha-gal epitopes,[3] collagen-coated tracheal prostheses in dogs,[4] and porcine collagen membranes and matrices in dental and wound trials.[5][6] These concern surgical and wound-care applications, not cosmetic masks."
+    "Wikipedia describes collagen as a natural dressing base that resists bacteria and, in burns, helps granulation tissue grow, with skin substitutes made from cow, horse, pig or human collagen [1]. Absorbable collagen sponges can also be placed in tooth-extraction sites to aid clotting and gum regeneration [1].",
+    "Porcine tissue has been studied as a graft material: a 2007 clinical study replaced human anterior cruciate ligaments with pig ligaments treated to address the alpha-gal epitope, and measured the antibody response to the xenograft [3]. A 1994 study described a tracheal prosthesis made from collagen-conjugated mesh in dogs [4]. A 2024 computational study screened peptides from porcine collagen for blood-sugar effects using network pharmacology and docking [6]. Hacker News posts in 2022 circulated reports that corneas made from pig collagen restored vision to people who had been blind [7][8]."
+   ]
+  },
+  {
+   "h": "Hydrolysed collagen and peptides",
+   "paras": [
+    "Most ingestible collagen products use hydrolysed collagen, in which the protein has been broken into short peptides; makers say these are absorbed better than intact collagen, and the same reasoning is applied to cosmetic ingredients labelled as collagen peptides.[1] Pig skin is one of several raw materials for this, alongside cattle hide and fish skin, and product labels often name the source because some buyers avoid pork or beef.[1]",
+    "Researchers who study these products describe the proposed mechanism as peptide fragments reaching the dermis and signalling fibroblasts to make more collagen, hyaluronic acid and elastin, which is the basis for claims about skin firmness and hydration. That mechanism is a hypothesis in the supplement literature rather than a settled finding, and the trials below test outcomes rather than mechanism."
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found on pig collagen in cosmetic masks or for appearance. Registered trials involve medical uses such as wound dressings, gingival recession and Mohs surgery wounds.[5][6] A 1965 immunology study examined relationships among animal collagens.[7]"
+    "No studies found on pig collagen in cosmetic masks or for facial appearance. Registered trials concern medical applications: a porcine membrane versus bovine wound dressing in 19 patients with tooth-extraction sites (NCT05802602), collagen matrices for gingival recession (NCT03619096, NCT03467802), a porcine xenograft versus second-intention healing after Mohs and excisional dermatologic surgery (NCT03931746, terminated, n=14), cross-linked versus non-cross-linked membranes for ridge augmentation (NCT04402671) and porcine collagen paste in anorectal fistulas (NCT02686580) [2][5][9][10][11][12]. A 1965 immunology study examined relationships among collagens from different animals [13].",
+    "The collagen-and-skin trials that exist cover oral collagen supplements in general, usually from mixed or unspecified animal and marine sources, rather than pig collagen specifically. A 2021 meta-analysis of 19 studies with 1,125 participants, mostly women aged 20 to 70, reported that hydrolysed collagen taken for about 90 days outperformed placebo for skin hydration, elasticity and wrinkles.[14] A 2023 meta-analysis of 26 randomized trials with 1,721 participants likewise reported better hydration and elasticity than placebo, while noting bias in several included trials and calling for larger studies.[15]",
+    "A 2025 meta-analysis in The American Journal of Medicine pooled 23 randomized trials with 1,474 participants and found improved hydration, elasticity and wrinkles overall. Its authors reported that the trials not funded by pharmaceutical companies and the higher-quality trials showed no significant effect, and concluded that clinical evidence supporting collagen supplements for skin aging was not yet present.[16] These reviews therefore differ in how they read the same literature, and none isolates a pig-derived product."
+   ]
+  },
+  {
+   "h": "Safety",
+   "paras": [
+    "As an animal-derived material, porcine collagen can matter to people avoiding pork. In transplant research, porcine tissue has triggered antibody responses, which is why xenograft studies measure them [3]. No cosmetic safety data on pig-collagen masks were found."
    ]
   }
  ],
- "timeline": [],
- "lore": null,
+ "timeline": [
+  {
+   "year": "1965",
+   "event": "Immunology study examines relations among animal collagens [13]."
+  },
+  {
+   "year": "1994",
+   "event": "Collagen-conjugated mesh tracheal prosthesis studied [4]."
+  },
+  {
+   "year": "2007",
+   "event": "Pig ligament xenograft study measures antibody responses [3]."
+  },
+  {
+   "year": "2022",
+   "event": "Reports of pig-collagen corneas restoring vision circulate [7][8]."
+  }
+ ],
+ "lore": {
+  "intro": "Pig collagen features in K-beauty and wellness marketing as a skin-plumping ingredient, and in the news mainly through medical biomaterial stories [7][8].",
+  "claims": [
+   {
+    "claim": "Collagen masks and creams replenish skin collagen.",
+    "believers": "Brands and users say topical collagen firms and plumps skin, and masks leave a bouncy feel.",
+    "experts": "Wikipedia reports that intact collagen cannot penetrate skin and that no clinical evidence supports topical products against wrinkles as of 2025 [1].",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "Hydrolysed collagen absorbs better, so it works.",
+    "believers": "Marketing presents small peptides as better absorbed and therefore more effective.",
+    "experts": "The encyclopedia describes better absorption as an unproven belief [1].",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Eating collagen supports skin.",
+    "believers": "Supplement users take collagen powders for skin, hair and nails.",
+    "experts": "Ingested collagen is digested to peptides and amino acids, and Wikipedia reports no good evidence that this changes skin health [1].",
+    "evidence": "mixed"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -87,6 +178,30 @@
   },
   {
    "id": 6,
+   "title": "Exploration of hypoglycemic peptides from porcine collagen based on network pharmacology and molecular docking",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38470866/",
+   "source": "PLoS One",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "Cornea made from pig collagen gives people who were blind 20/20 vision",
+   "url": "https://news.ycombinator.com/item?id=32436925",
+   "source": "Hacker News",
+   "year": 2022,
+   "type": "forum"
+  },
+  {
+   "id": 8,
+   "title": "Corneas made from pig collagen return sight to 20 people",
+   "url": "https://news.ycombinator.com/item?id=32548419",
+   "source": "Hacker News",
+   "year": 2022,
+   "type": "forum"
+  },
+  {
+   "id": 9,
    "title": "Porcine Xenograft Versus Second Intention Healing (NCT03931746)",
    "url": "https://clinicaltrials.gov/study/NCT03931746",
    "source": "ClinicalTrials.gov",
@@ -94,18 +209,70 @@
    "type": "trial"
   },
   {
-   "id": 7,
+   "id": 10,
+   "title": "Collagen Matrix With and Without Enamel Matrix Derivative (NCT03467802)",
+   "url": "https://clinicaltrials.gov/study/NCT03467802",
+   "source": "ClinicalTrials.gov",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Lateral Ridge Augmentation Using Cross-linked or Non-cross-linked Collagen Membrane (NCT04402671)",
+   "url": "https://clinicaltrials.gov/study/NCT04402671",
+   "source": "ClinicalTrials.gov",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "Porcine Cross-linked Collagen Paste in Cryptoglandular Anorectal Fistulas (NCT02686580)",
+   "url": "https://clinicaltrials.gov/study/NCT02686580",
+   "source": "ClinicalTrials.gov",
+   "year": 2016,
+   "type": "trial"
+  },
+  {
+   "id": 13,
    "title": "Immunologic relations among various animal collagens",
    "url": "https://pubmed.ncbi.nlm.nih.gov/5320302/",
    "source": "J Exp Med",
    "year": 1965,
    "type": "study"
+  },
+  {
+   "id": 14,
+   "title": "Effects of hydrolyzed collagen supplementation on skin aging: a systematic review and meta-analysis (de Miranda et al.)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22collagen%22%20AND%20TITLE%3A%22skin%22%20AND%20PUB_TYPE%3A%22meta-analysis%22&resultType=core&format=json&pageSize=4",
+   "source": "International Journal of Dermatology (via Europe PMC)",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 15,
+   "title": "Effects of Oral Collagen for Skin Anti-Aging: A Systematic Review and Meta-Analysis (Pu et al.)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22collagen%22%20AND%20TITLE%3A%22skin%22%20AND%20PUB_TYPE%3A%22meta-analysis%22&resultType=core&format=json&pageSize=4",
+   "source": "Nutrients (via Europe PMC)",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 16,
+   "title": "Effects of Collagen Supplements on Skin Aging: A Systematic Review and Meta-Analysis of RCTs (Myung and Park)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22collagen%22%20AND%20TITLE%3A%22skin%22%20AND%20PUB_TYPE%3A%22meta-analysis%22&resultType=core&format=json&pageSize=4",
+   "source": "American Journal of Medicine (via Europe PMC)",
+   "year": 2025,
+   "type": "review"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Collagen",
    "title": "Collagen - Wikipedia"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22collagen%22%20AND%20TITLE%3A%22skin%22%20AND%20PUB_TYPE%3A%22meta-analysis%22&resultType=core&format=json&pageSize=4",
+   "title": "Europe PMC search results: collagen and skin meta-analyses"
   }
  ],
  "card": {

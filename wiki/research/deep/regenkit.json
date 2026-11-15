@@ -1,0 +1,130 @@
+{
+ "name": "RegenKit",
+ "card": {
+  "summary": "A tube-based kit from Regen Lab for making platelet-rich plasma from a patient's own blood, used in clinics for facial rejuvenation and hair treatments.",
+  "aka": "Regen Lab; RegenKit PRP",
+  "evidence": "moderate",
+  "outcome": "temporary",
+  "price": null,
+  "note": "Used by clinicians as a medical device; results vary between patients and preparation methods."
+ },
+ "quick": {
+  "overview": "RegenKit is a family of tubes that prepare platelet-rich plasma (PRP) from a small blood draw. PRP is the patient's own plasma with concentrated platelets, which carry growth factors.\n\nClinics use PRP for skin rejuvenation, hair thinning and fat grafting. The aim is better skin quality, thicker hair or better graft take. Trials of PRP for the face include a randomized trial combining PRP with hyaluronic acid.",
+  "how": "In a clinic, blood is drawn into the tube, spun to separate the plasma, and the PRP is injected or applied by a practitioner. Programmes usually involve several sessions.",
+  "risks": "Because the product is from the patient's blood, reactions are generally low, but injection sites can be sore or bruised. In 2024 the CDC reported HIV cases linked to an unlicensed spa offering \"vampire facials\" with reused equipment [3]. The kit is a regulated device."
+ },
+ "lead": [
+  "PRP is a concentrate of plasma protein from a person's own blood, made by centrifuging blood to remove red cells and concentrate platelets, typically to roughly three to five times normal [3]. Commercial kits such as those from Regen Lab (RegenKit) are among the products clinics use to prepare it.",
+  "In aesthetics PRP is used for wrinkles and skin texture, hair loss and as an additive to fat grafting [3][1]. A randomized controlled trial reported that PRP combined with hyaluronic acid injections had synergistic effects on facial skin rejuvenation [2].",
+  "Not all kits behave alike. A veterinary study reported that one competing kit did not concentrate canine platelets, illustrating that preparation systems differ [4]. In the US the FDA does not regulate PRP itself, while devices used to prepare it need clearance [3]."
+ ],
+ "angle": {
+  "goal": "Skin rejuvenation and hair",
+  "chain": [
+   "Blood drawn and spun in the tube",
+   "Platelet-rich plasma injected into skin or scalp",
+   "Growth factors proposed to improve skin quality or hair"
+  ],
+  "effect": "indirect",
+  "text": "The kit prepares PRP. Clinics use it to try to improve skin texture or hair density over a series of sessions."
+ },
+ "infobox": [
+  [
+   "Type",
+   "PRP preparation kit (medical device)"
+  ],
+  [
+   "Maker",
+   "Regen Lab"
+  ],
+  [
+   "Process",
+   "Blood draw and centrifugation"
+  ],
+  [
+   "Uses",
+   "Skin rejuvenation, hair, fat grafting"
+  ],
+  [
+   "Regulation",
+   "Devices need clearance; PRP itself not regulated by FDA"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "PRP contains growth factors and cytokines such as platelet-derived and vascular endothelial growth factors, and the final product varies between people and facilities [3]."
+   ]
+  },
+  {
+   "h": "Effectiveness",
+   "paras": [
+    "A review argued that adding PRP to fat grafting can improve outcomes because of the growth factors it carries [1]. The Wikipedia summary calls benefits mixed across conditions and notes hair studies reporting improved density and thickness [3]."
+   ]
+  },
+  {
+   "h": "Safety",
+   "paras": [
+    "Adverse effects in trials are generally low [3]. The 2024 CDC report of three HIV diagnoses at an unlicensed spa concerned contaminated reused equipment [3]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A randomized controlled trial in facial rejuvenation compared PRP with hyaluronic acid, with synergy reported [2]. A review covers PRP in fat grafting [1]. A comparison in dogs found one brand did not concentrate platelets [4]. No trial specific to RegenKit for cosmetic use was found."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2011",
+   "event": "WADA removed intramuscular PRP from its prohibited list [3]."
+  },
+  {
+   "year": "2024",
+   "event": "CDC reported HIV cases tied to an unlicensed \"vampire facial\" spa [3]."
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Platelet Rich Plasma (PRP) Improves Fat Grafting Outcomes",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25489498/",
+   "source": "World J Plast Surg",
+   "year": 2013,
+   "type": "review"
+  },
+  {
+   "id": 2,
+   "title": "Synergistic Effects of Autologous Platelet-Rich Plasma and Hyaluronic Acid Injections on Facial Skin Rejuvenation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33534905/",
+   "source": "Aesthetic Surgery Journal",
+   "year": 2021,
+   "type": "trial"
+  },
+  {
+   "id": 3,
+   "title": "Platelet-rich plasma",
+   "url": "https://en.wikipedia.org/wiki/Platelet-rich_plasma",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "The Stryker Regenkit PRP Kit Does Not Concentrate Canine Platelets",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33195528/",
+   "source": "Front Vet Sci",
+   "year": 2020,
+   "type": "study"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Platelet-rich_plasma",
+   "title": "Platelet-rich plasma"
+  }
+ ]
+}

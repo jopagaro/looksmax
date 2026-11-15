@@ -1,27 +1,278 @@
 {
-"name":"Candela laser",
-"lead":["Candela is the name of a manufacturer of aesthetic laser systems, and in looksmaxxing discussion \"Candela laser\" refers to the clinic platforms sold under that brand rather than a single machine. Registered studies name its products including the GentleMax Pro (alexandrite plus Nd:YAG), a 1064-nm Nd:YAG skin-tightening system, a pulsed-dye (595 nm) laser and the PicoWay picosecond system.[1][2][3][4]",
-"These platforms are used in clinics for hair reduction, tattoo removal, wrinkles, acne, pigmented lesions and vascular birthmarks such as port-wine stains, according to the conditions listed in registered evaluations.[1][5] Evidence is spread across many device-specific studies and is not a single body of work. This entry is distinct from the SI unit of luminous intensity of the same name."],
-"infobox":[["Type","Brand of clinic aesthetic laser platforms"],["Example systems","GentleMax Pro, PicoWay, Vbeam-type pulsed dye laser"],["Typical uses","Hair removal, tattoo removal, pigment, vascular lesions, skin tightening"],["Setting","Professional / clinic"],["Category","Hardmaxx"]],
-"sections":[
-{"h":"Platforms named in studies","paras":["A 500-participant evaluation of Candela technology, started in 2023, lists hair reduction, tattoo removal, wrinkles and acne as conditions.[1] Other registered studies name a 1064-nm Nd:YAG laser for skin tightening (22 participants, started 2006)[2], the PicoWay picosecond system for wrinkles and pigmented lesions (50 participants, started 2020)[3], and the GentleMax Pro for hair and pigmented and vascular lesions.[4] Candela pulsed dye lasers are used with cooling for vascular conditions, and registered studies have examined them for port-wine stain and cutaneous lupus.[5][6]"]},
-{"h":"Clinical studies","paras":["Registered studies are small and mostly open-label. They include a pulsed dye laser combined with bipolar radiofrequency for port-wine stain (22 participants)[5], a 595-nm flashlamp pulsed dye laser for cutaneous lupus erythematosus (10 participants)[6], alexandrite laser for nevus flammeus (19 participants)[7], and a non-cutting laser in acne (44 participants).[8] A comparison of Q-switched alexandrite, Nd:YAG and ruby lasers on blue-black tattoos is also listed in the literature on laser tattoo treatment.[9] Results are not summarised in the registry entries cited here, and no single trial evaluates the brand as a whole."]},
-{"h":"Use in looksmaxxing","paras":["The brand is mentioned as one of the clinic platforms (alongside others) that practices use for laser hair removal and skin procedures. No community discussion is summarised here."]}
-],
-"timeline":[],
-"lore":null,
-"refs":[
-{"id":1,"title":"NCT06202274 Clinical Study to Evaluate the Safety and Efficacy of Candela Technology","url":"https://clinicaltrials.gov/study/NCT06202274","source":"ClinicalTrials.gov","year":2023,"type":"trial"},
-{"id":2,"title":"NCT00585715 Candela 1064nm Nd:YAG Laser for Skin Tightening","url":"https://clinicaltrials.gov/study/NCT00585715","source":"ClinicalTrials.gov","year":2006,"type":"trial"},
-{"id":3,"title":"NCT04727099 Candela PicoWay System safety and performance","url":"https://clinicaltrials.gov/study/NCT04727099","source":"ClinicalTrials.gov","year":2020,"type":"trial"},
-{"id":4,"title":"NCT04993066 GentleMax Pro Plus clinical evaluation","url":"https://clinicaltrials.gov/study/NCT04993066","source":"ClinicalTrials.gov","year":2020,"type":"trial"},
-{"id":5,"title":"NCT01775722 Combined Bipolar Radiofrequency and Pulsed Dye Laser Treatment","url":"https://clinicaltrials.gov/study/NCT01775722","source":"ClinicalTrials.gov","year":2012,"type":"trial"},
-{"id":6,"title":"NCT00523588 595 nm Flashlamp Pulsed Dye Laser for Cutaneous Lupus Erythematosus","url":"https://clinicaltrials.gov/study/NCT00523588","source":"ClinicalTrials.gov","year":2007,"type":"trial"},
-{"id":7,"title":"NCT01968681 Treatment of Nevus Flammeus With Alexandrite Laser","url":"https://clinicaltrials.gov/study/NCT01968681","source":"ClinicalTrials.gov","year":2013,"type":"trial"},
-{"id":8,"title":"NCT00113425 Non-cutting Laser Therapy in the Treatment of Acne","url":"https://clinicaltrials.gov/study/NCT00113425","source":"ClinicalTrials.gov","year":2005,"type":"trial"},
-{"id":9,"title":"Comparison of the Q-switched alexandrite, Nd:YAG, and ruby lasers in treating blue-black tattoos","url":"https://pubmed.ncbi.nlm.nih.gov/9935085/","source":"Dermatologic Surgery","year":1999,"type":"study"}
-],
-"webSources":[],
-"card":{"summary":"Brand name for a family of clinic lasers (hair, tattoo, vascular, pigment); evidence exists per device, not for the brand as a whole.","aka":"Candela Medical, GentleMax, PicoWay","evidence":"moderate","status":null,"outcome":null,"risk":"moderate","price":null,"note":"Not the SI unit; platform-level entry with thin, device-specific evidence.","structure":null},
-"quick":{"overview":"Candela is a maker of aesthetic laser systems. In looksmaxxing talk the name stands for the clinic machines it sells, such as the GentleMax Pro and the PicoWay.\n\nStudies are per device and mostly small, so there is no single verdict for the brand.","mechanism":"Different systems use different wavelengths: alexandrite and Nd:YAG for hair and pigment, pulsed dye for blood vessels, picosecond pulses for pigment and tattoos.","risks":"Risks depend on the device and skin type and can include redness, pigment changes and burns. These are professional devices."}
+ "name": "Candela laser",
+ "lead": [
+  "Candela is the name of a manufacturer of aesthetic laser systems, and in looksmaxxing discussion \"Candela laser\" refers to the clinic platforms sold under that brand rather than a single machine. Registered studies and trials name its products including the GentleMax Pro (alexandrite plus Nd:YAG), the GentleLase alexandrite laser, a 1064-nm Nd:YAG skin-tightening system, the V-beam 595-nm pulsed-dye laser and the PicoWay picosecond system.[1][2][3][4][10][11]",
+  "These platforms are used in clinics to reduce unwanted hair, treat facial redness and visible vessels, even out pigment, fade tattoos and soften wrinkles, and to lighten vascular birthmarks such as port-wine stains, according to the conditions listed in registered evaluations and published trials.[1][5][10][11][12] The appearance payoff is smoother, more even, hair-free or clearer skin, delivered by a clinician in a series of sessions.",
+  "Evidence is spread across many device-specific studies and is not a single body of work. This entry is distinct from the SI unit of luminous intensity of the same name."
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Brand of clinic aesthetic laser platforms"
+  ],
+  [
+   "Example systems",
+   "GentleMax Pro, GentleLase, V-beam (595 nm pulsed dye), PicoWay[1][3][4][10]"
+  ],
+  [
+   "Typical uses",
+   "Hair removal, tattoo removal, pigment, vascular lesions, skin tightening[1]"
+  ],
+  [
+   "Wavelengths",
+   "Alexandrite 755 nm, Nd:YAG 1064 nm, pulsed dye 595 nm, picosecond[2][10][13]"
+  ],
+  [
+   "Setting",
+   "Professional / clinic"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Platforms",
+   "subs": [
+    {
+     "h": "Alexandrite and Nd:YAG systems",
+     "paras": [
+      "The GentleMax Pro combines an alexandrite (755 nm) and an Nd:YAG (1064 nm) laser and is named in a registered study of hair and of pigmented and vascular lesions.[4] Wikipedia lists the alexandrite wavelength as suited to all skin types and the Nd:YAG wavelength as the option with some success in darker skin, in its overview of laser hair removal.[13] A 500-participant evaluation of Candela technology, started in 2023, lists hair reduction, tattoo removal, wrinkles and acne as conditions.[1] A registered study of a Candela 1064-nm Nd:YAG for skin tightening enrolled 22 participants in 2006.[2]"
+     ]
+    },
+    {
+     "h": "Pulsed dye lasers",
+     "paras": [
+      "Candela's V-beam pulsed dye laser emits at 595 nm and is the device used in trials against intense pulsed light for facial telangiectasias, photodamage and port-wine stains.[10][11][12] Pulsed dye lasers in general are used for port-wine stains and other blood vessel disorders, scars and some tattoo removal, and rely on tuning the wavelength to what blood or pigment absorbs.[14] Registered studies have also examined them in combination with radiofrequency for port-wine stain and for cutaneous lupus.[5][6]"
+     ]
+    },
+    {
+     "h": "Picosecond systems",
+     "paras": [
+      "The PicoWay picosecond system is registered in a 50-participant evaluation for wrinkles and pigmented lesions, started in 2020.[3]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Uses",
+   "subs": [
+    {
+     "h": "Hair reduction",
+     "paras": [
+      "Laser hair removal relies on selective photothermolysis: dark hair absorbs the light, heats the follicle's stem cells and spares the surrounding skin. Light skin with dark hair does best, fine or pale hair responds poorly, and most people need at least eight sessions spaced three to eight weeks apart, with long-lasting rather than fully permanent reduction, according to Wikipedia.[13] In a randomised pilot of 60 completers comparing topical Cyperus rotundus oil with the Candela GentleLase alexandrite laser and saline for axillary hair, overall results did not differ significantly between the oil and the laser.[15]"
+     ]
+    },
+    {
+     "h": "Redness, vessels and photodamage",
+     "paras": [
+      "In a randomised split-face trial of 20 women, V-beam long-pulsed dye laser and intense pulsed light both improved telangiectasia, pigmentation and texture, with superior vessel clearance from the laser.[10] In a 40-patient split-face trial of facial telangiectasias, both treatments produced good or excellent response in 30 of 39 patients who completed it, and excellent clearance (75 to 100 percent) was seen in 46 percent of laser-treated sides.[11]"
+     ]
+    },
+    {
+     "h": "Birthmarks",
+     "paras": [
+      "In an intraindividual randomised trial of 20 people with port-wine stains, median clinical improvement was 65 percent with the pulsed dye laser versus 30 percent with intense pulsed light, and 75 percent of people reached good or excellent clearance with the laser versus 30 percent with the light source.[12] Registered studies examine pulsed dye laser with radiofrequency and alexandrite laser for nevus flammeus.[5][7]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Published randomised trials using Candela devices include the three comparisons of V-beam pulsed dye laser with intense pulsed light described above, and the GentleLase hair pilot study.[10][11][12][15] Registered studies are mostly small and open-label: a pulsed dye laser combined with bipolar radiofrequency for port-wine stain (22 participants), a 595-nm flashlamp pulsed dye laser for cutaneous lupus erythematosus (10 participants), alexandrite laser for nevus flammeus (19 participants) and a non-cutting laser in acne (44 participants).[5][6][7][8] A comparison of Q-switched alexandrite, Nd:YAG and ruby lasers on blue-black tattoos is also listed in the tattoo literature.[9] Results are not summarised in the registry entries cited here, and no single trial evaluates the brand as a whole."
+   ]
+  },
+  {
+   "h": "Safety and risks",
+   "paras": [
+    "Itching, pinkness, redness and swelling usually last two or three days after laser hair removal; acne flare-ups and skin discoloration are the most common serious effects, and burns, hypopigmentation, scabbing, purpura and infection can occur.[13] Wikipedia notes that the FDA regulates the devices but there is no federal licensing for practitioners, and most US states regulate for-hire services.[13] The cosmetic trials above report adverse effects as outcomes alongside efficacy.[10][11]"
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing",
+   "paras": [
+    "The brand is mentioned as one of the clinic platforms (alongside others) used for laser hair removal and skin procedures. Clinics describe session series, and treatment choice depends on hair and skin colour and on the target."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1995",
+   "event": "Laser hair removal becomes commercially available (1995-1996).[13]"
+  },
+  {
+   "year": "2006",
+   "event": "Registered evaluation of a Candela 1064-nm Nd:YAG for skin tightening begins.[2]"
+  },
+  {
+   "year": "2009",
+   "event": "Randomised trial of pulsed dye laser versus intense pulsed light for port-wine stains published.[12]"
+  },
+  {
+   "year": "2020",
+   "event": "PicoWay and GentleMax Pro evaluations registered.[3][4]"
+  },
+  {
+   "year": "2023",
+   "event": "500-participant Candela technology evaluation begins.[1]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "NCT06202274 Clinical Study to Evaluate the Safety and Efficacy of Candela Technology",
+   "url": "https://clinicaltrials.gov/study/NCT06202274",
+   "source": "ClinicalTrials.gov",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 2,
+   "title": "NCT00585715 Candela 1064nm Nd:YAG Laser for Skin Tightening",
+   "url": "https://clinicaltrials.gov/study/NCT00585715",
+   "source": "ClinicalTrials.gov",
+   "year": 2006,
+   "type": "trial"
+  },
+  {
+   "id": 3,
+   "title": "NCT04727099 Candela PicoWay System safety and performance",
+   "url": "https://clinicaltrials.gov/study/NCT04727099",
+   "source": "ClinicalTrials.gov",
+   "year": 2020,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "NCT04993066 GentleMax Pro Plus clinical evaluation",
+   "url": "https://clinicaltrials.gov/study/NCT04993066",
+   "source": "ClinicalTrials.gov",
+   "year": 2020,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "NCT01775722 Combined Bipolar Radiofrequency and Pulsed Dye Laser Treatment",
+   "url": "https://clinicaltrials.gov/study/NCT01775722",
+   "source": "ClinicalTrials.gov",
+   "year": 2012,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "NCT00523588 595 nm Flashlamp Pulsed Dye Laser for Cutaneous Lupus Erythematosus",
+   "url": "https://clinicaltrials.gov/study/NCT00523588",
+   "source": "ClinicalTrials.gov",
+   "year": 2007,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "NCT01968681 Treatment of Nevus Flammeus With Alexandrite Laser",
+   "url": "https://clinicaltrials.gov/study/NCT01968681",
+   "source": "ClinicalTrials.gov",
+   "year": 2013,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "NCT00113425 Non-cutting Laser Therapy in the Treatment of Acne",
+   "url": "https://clinicaltrials.gov/study/NCT00113425",
+   "source": "ClinicalTrials.gov",
+   "year": 2005,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Comparison of the Q-switched alexandrite, Nd:YAG, and ruby lasers in treating blue-black tattoos",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9935085/",
+   "source": "Dermatologic Surgery",
+   "year": 1999,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Long-pulsed dye laser versus intense pulsed light for photodamaged skin: a randomized split-face trial with blinded response evaluation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18563775/",
+   "source": "Lasers in Surgery and Medicine",
+   "year": 2008,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Long-pulsed dye laser vs. intense pulsed light for the treatment of facial telangiectasias: a randomized controlled trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20205349/",
+   "source": "JEADV",
+   "year": 2010,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "Pulsed dye laser vs. intense pulsed light for port-wine stains: a randomized side-by-side trial with blinded response evaluation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19120324/",
+   "source": "British Journal of Dermatology",
+   "year": 2009,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "Laser hair removal (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Laser_hair_removal",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 14,
+   "title": "Pulsed dye laser (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Pulsed_dye_laser",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 15,
+   "title": "Topical Cyperus rotundus oil: a new therapeutic modality with comparable efficacy to Alexandrite laser photo-epilation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24408514/",
+   "source": "Aesthetic Surgery Journal",
+   "year": 2014,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Laser_hair_removal",
+   "title": "Laser hair removal - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Pulsed_dye_laser",
+   "title": "Pulsed dye laser - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "Brand name for a family of clinic lasers (hair, tattoo, vascular, pigment); evidence exists per device, not for the brand as a whole.",
+  "aka": "Candela Medical, GentleMax, PicoWay",
+  "evidence": "moderate",
+  "status": null,
+  "outcome": null,
+  "risk": "moderate",
+  "price": null,
+  "note": "Not the SI unit; platform-level entry with thin, device-specific evidence.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Candela is a maker of aesthetic laser systems. In looksmaxxing talk the name stands for the clinic machines it sells, such as the GentleMax Pro and the PicoWay.\n\nStudies are per device and mostly small, so there is no single verdict for the brand.",
+  "mechanism": "Different systems use different wavelengths: alexandrite and Nd:YAG for hair and pigment, pulsed dye for blood vessels, picosecond pulses for pigment and tattoos.",
+  "risks": "Risks depend on the device and skin type and can include redness, pigment changes and burns. These are professional devices."
+ },
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "Clinic laser delivers a wavelength absorbed by hair pigment, blood vessels or ink",
+   "Target heats and is damaged while surrounding skin is spared",
+   "Hair, redness, pigment or vessels fade over a course of sessions",
+   "Smoother, more even-toned, hair-free skin"
+  ],
+  "effect": "direct",
+  "text": "People book Candela-platform laser sessions to remove facial or body hair, to clear visible vessels and redness, to even out pigment and to fade tattoos. The result is an appearance change in the treated skin, produced by selecting the wavelength to the target."
+ }
 }

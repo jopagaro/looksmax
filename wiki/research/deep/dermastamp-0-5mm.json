@@ -1,33 +1,366 @@
 {
-"name": "Dermastamp 0.5mm",
-"card": {"summary": "A handheld needle stamp used for microneedling; forum users apply it to brows, skin and to push topicals in, while the controlled evidence is thin.", "aka": "microneedle stamp; derma stamp", "evidence": "limited", "outcome": "unsupported", "price": null, "note": "Non-sterile or poorly handled needling carries infection risk; forum claims about fat loss or topical absorption are untested.", "structure": null},
-"quick": {"overview": "A dermastamp is a small handheld device with short needles that is pressed vertically into skin, a form of microneedling. On looksmax.org it is discussed for eyebrows with minoxidil, for lines around the eyes and for skin texture.\n\nPublished work reviewed here is laboratory-style research on microneedle-assisted drug delivery, not trials of the stamp for appearance.",
-"mechanism": "Microneedling punctures the skin repeatedly with tiny needles. Wikipedia describes it as a cosmetic procedure used for scarring and acne, and notes a pilot study of combining it with minoxidil for hair loss [1]. Forum users also say it helps topicals absorb [2].",
-"risks": "Wikipedia reports a 2024 CDC report of three HIV diagnoses among patients of one New Mexico spa offering microneedling with platelet-rich plasma, attributed to infection-control concerns in non-medical settings [1]."},
-"lead": ["A dermastamp is a handheld microneedling tool whose needle head is pressed straight down onto the skin, in contrast with a rolling dermaroller. A 0.5 mm needle length is a commonly discussed size in forum threads.","Microneedling in general is described as a cosmetic procedure that repeatedly punctures skin with tiny sterile needles, used for scarring and acne [1]. A pilot study suggested combining it with minoxidil may treat hair loss better than minoxidil alone, according to Wikipedia [1].","On looksmax.org, users ask how often to use a stamp on brows alongside minoxidil, compare stamps with rollers, and discuss it for under-eye and laugh lines [2][4][5]. No clinical trial of a 0.5 mm stamp specifically was found."],
-"infobox": [["Type","Handheld microneedle stamp"],["Typical needle length discussed","0.5 mm"],["Discussed uses","Skin texture, brows, hair, topical delivery"]],
-"sections": [
-{"h":"Use in looksmaxxing","paras":["Forum threads include a user asking how often to apply a stamp on eyebrows with minoxidil [2], threads comparing dermarollers with stamps [4][5], and a thread whose author describes stamping for lines around the eyes [6]. Another post claims that a stamp combined with the glaucoma drug bimatoprost reduces upper-eyelid fat; other users in that thread dispute the claim, noting that monolids reflect skin structure [3]."]},
-{"h":"Research and expert views","paras":["Laboratory-type studies from the University of Nottingham group examined an oscillating microneedle pen as a pre-treatment to improve delivery of imiquimod for basal cell carcinoma [7][8]. These concern pens and cancer drug delivery, not stamps or cosmetic use.","Wikipedia states that research on microneedling is ongoing [1]."]},
-{"h":"Reported risks","paras":["Wikipedia describes concerns about microneedling combined with platelet-rich plasma in non-medical settings and a 2024 CDC report of three HIV diagnoses among patients of one New Mexico spa [1]."]},
-{"h":"Clinical studies","paras":["No studies found of the 0.5 mm stamp itself. Related research, labelled as such: a pilot study of microneedling with minoxidil for hair loss is mentioned in an encyclopedia summary [1], and the Nottingham studies tested microneedle pens for drug delivery [7][8]."]}
-],
-"timeline": [],
-"lore": {"intro": "Users discuss the stamp mainly for brows, skin texture and topical delivery [2][4].",
-"claims": [
-{"claim":"Stamping brows boosts minoxidil results","believers":"Users ask about combining nightly or periodic stamping with minoxidil on the brows [2].","experts":"A pilot study of microneedling plus minoxidil for scalp hair loss is cited by Wikipedia; brow use has not been studied [1].","evidence":"untested"},
-{"claim":"Stamping reduces laugh and eye lines","believers":"A forum author describes a personal method for reducing lines [6].","experts":"Microneedling is used for scarring and acne per Wikipedia; no study of the stamp for lines was found [1].","evidence":"untested"},
-{"claim":"Bimatoprost plus stamp reduces orbital fat","believers":"The original poster says the combination makes eyes less puffy [3].","experts":"No published studies have tested this combination; other forum users in the thread disputed the mechanism [3].","evidence":"untested"}
-]},
-"refs": [
-{"id":1,"title":"Microneedling","url":"https://en.wikipedia.org/wiki/Microneedling","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":2,"title":"dermastamp","url":"https://looksmax.org/threads/dermastamp.920027/","source":"looksmax.org","year":2024,"type":"forum"},
-{"id":3,"title":"How I Got Rid Of My Monolids Using Bimatoprost + Dermastamp","url":"https://looksmax.org/threads/how-i-got-rid-of-my-monolids-using-bimatoprost-dermastamp-no-surgery-just-fat-loss.1510054/","source":"looksmax.org","year":2025,"type":"forum"},
-{"id":4,"title":"dermaroller or dermastamp","url":"https://looksmax.org/threads/dermaroller-or-dermastamp.1275680/","source":"looksmax.org","year":2024,"type":"forum"},
-{"id":5,"title":"dermaroller or dermastamp","url":"https://looksmax.org/threads/dermaroller-or-dermastamp.760648/","source":"looksmax.org","year":2023,"type":"forum"},
-{"id":6,"title":"here is how a dermastamp gets rid of laugh lines eye lines","url":"https://looksmax.org/threads/here-is-how-a-dermastamp-gets-rid-of-laugh-lines-eye-lines-bookmark-even-if-you-dont-have-them-yet-my-method.584787/","source":"looksmax.org","year":2023,"type":"forum"},
-{"id":7,"title":"Intradermal Delivery of an Immunomodulator for Basal Cell Carcinoma","url":"https://pubmed.ncbi.nlm.nih.gov/32510228/","source":"Molecular Pharmaceutics","year":2020,"type":"study"},
-{"id":8,"title":"Application of microneedles for the treatment of nodular basal cell carcinoma","url":"https://europepmc.org/article/ETH/836401","source":"University of Nottingham","year":2021,"type":"study"}
-],
-"webSources": [{"url":"https://en.wikipedia.org/wiki/Microneedling","title":"Microneedling"}]
+  "name": "Dermastamp 0.5mm",
+  "card": {
+    "summary": "A handheld needle stamp used for microneedling; forum users apply it to brows, skin and to push topicals in, while the controlled evidence is thin.",
+    "aka": "microneedle stamp; derma stamp",
+    "evidence": "limited",
+    "outcome": "unsupported",
+    "price": null,
+    "note": "Non-sterile or poorly handled needling carries infection risk; forum claims about fat loss or topical absorption are untested.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "A dermastamp is a small handheld device with short needles that is pressed vertically into skin, a form of microneedling. On looksmax.org it is discussed for eyebrows with minoxidil, for lines around the eyes and for skin texture.\n\nPublished work reviewed here is laboratory-style research on microneedle-assisted drug delivery, not trials of the stamp for appearance.",
+    "mechanism": "Microneedling punctures the skin repeatedly with tiny needles. Wikipedia describes it as a cosmetic procedure used for scarring and acne, and notes a pilot study of combining it with minoxidil for hair loss [1]. Forum users also say it helps topicals absorb [2].",
+    "risks": "Wikipedia reports a 2024 CDC report of three HIV diagnoses among patients of one New Mexico spa offering microneedling with platelet-rich plasma, attributed to infection-control concerns in non-medical settings [1]."
+  },
+  "lead": [
+    "A dermastamp is a handheld microneedling tool whose small needle head is pressed straight down onto the skin, in contrast with a dermaroller, which is rolled across it. A 0.5 mm needle length is a commonly discussed size in forum threads. People use it to try to improve how skin looks and feels: softening acne marks and texture, smoothing fine lines under and around the eyes, and, most often in looksmaxxing circles, to encourage thicker eyebrows when used alongside topical minoxidil.[1][4][5][6][15]",
+    "Microneedling in general, also called collagen induction therapy, is described as a cosmetic procedure that repeatedly punctures skin with tiny needles, used for scarring and acne.[1] Randomized trials and meta-analyses examine mostly clinic devices and rollers: a 2022 meta-analysis of randomized trials found a benefit for acne scars, and a 2013 pilot trial in Mumbai reported that weekly microneedling plus minoxidil outperformed minoxidil alone for scalp hair counts.[9][10]",
+    "On looksmax.org, users ask how often to use a stamp on brows alongside minoxidil, compare stamps with rollers, and discuss it for under-eye and laugh lines.[2][4][5][6] No clinical trial of a 0.5 mm stamp specifically was found, and the CDC has documented infection risks when needling is done without sterile technique.[1][12]"
+  ],
+  "angle": {
+    "goal": "Skin texture / brow density",
+    "chain": [
+      "Short needles make controlled micro-punctures in the skin",
+      "The skin responds with a repair reaction and thin channels form",
+      "Texture may look smoother, and topicals such as minoxidil are applied to the area"
+    ],
+    "effect": "claimed",
+    "text": "People stamp skin or brows to try to improve texture, scars and eyebrow density, often combining it with a topical such as minoxidil. Research supports microneedling in settings such as acne scars and, in a small pilot, scalp hair loss; stamp-specific results have not been published."
+  },
+  "infobox": [
+    [
+      "Type",
+      "Handheld microneedle stamp"
+    ],
+    [
+      "Typical needle length discussed",
+      "0.5 mm"
+    ],
+    [
+      "Related devices",
+      "Dermaroller, motorized microneedling pen, clinic microneedling devices"
+    ],
+    [
+      "Discussed uses",
+      "Skin texture, acne marks, brows, lines under the eyes, topical delivery"
+    ],
+    [
+      "Alternative names",
+      "Derma stamp, microneedle stamp, collagen induction therapy tool"
+    ],
+    [
+      "Main reported risk",
+      "Infection when needles are non-sterile or reused"
+    ],
+    [
+      "Related research length",
+      "1.5 mm roller used in the 2013 hair-loss pilot trial"
+    ]
+  ],
+  "sections": [
+    {
+      "h": "Description",
+      "paras": [
+        "A stamp consists of a small head carrying a grid of fine needles, set to a fixed length such as 0.5 mm, mounted on a handle. It is pressed vertically into the skin and lifted, which makes a controlled set of puncture points rather than the drag of a roller. Wikipedia describes microneedling as a cosmetic procedure that punctures the skin with tiny sterile needles and distinguishes it from the research use of microneedles for drug delivery and vaccination.[1]",
+        "Forum threads compare stamp, roller and motorized pen formats and ask whether a stamp counts as microneedling at all; in one thread the question is posed directly as \"is derma stamp microneedling.\"[4][5][17] Others ask whether a roller can substitute for a stamp on the eyebrows.[18]"
+      ]
+    },
+    {
+      "h": "Use in looksmaxxing",
+      "paras": [
+        "Forum threads include a user asking how often to apply a stamp on eyebrows with minoxidil, threads comparing dermarollers with stamps, and a thread whose author describes stamping for lines around the eyes.[2][4][6] Other threads ask about stamping the under-eye area and about alternating a weekly stamp with tretinoin and urea cream over two months.[16][19]",
+        "A user asking whether to choose a stamp or roller for acne scars and thin eyebrows received a reply recommending laser for scars and minoxidil for brows rather than needling, while another thread directed a brow question to a community guide.[14][15] Another post claims that a stamp combined with the glaucoma drug bimatoprost reduces upper-eyelid fat; other users in that thread dispute the claim, noting that monolids reflect skin structure.[3]",
+        "Wikipedia's looksmaxxing article places skincare and grooming among softmaxxing measures and cosmetic procedures under hardmaxxing; stamping sits between the two in community discussion because it is a home skin procedure rather than a clinic one.[13]"
+      ]
+    },
+    {
+      "h": "Research and expert views",
+      "subs": [
+        {
+          "h": "Microneedling for scars and skin",
+          "paras": [
+            "A 2022 systematic review and meta-analysis of randomized trials in Aesthetic Plastic Surgery pooled 12 studies with 414 participants and reported that microneedling without radiofrequency gave better objective acne scar improvement than comparators, while fractional radiofrequency microneedling did not reach significance; most subjective satisfaction results did not differ.[10]",
+            "A 2022 meta-analysis in Frontiers in Medicine pooled 14 studies with 472 patients (four randomized and ten split-face studies) and found that adding platelet-rich plasma to microneedling increased the odds of more than 50 percent clinical improvement in acne scars compared with microneedling alone; the authors called for larger, higher-quality randomized trials.[11]"
+          ]
+        },
+        {
+          "h": "Microneedling and hair",
+          "paras": [
+            "Wikipedia notes that some studies suggest combining microneedling with minoxidil treats hair loss better than minoxidil alone, and that research is ongoing.[1] The principal trial is a 2013 pilot from Mumbai in the International Journal of Trichology: 100 men aged 20 to 35 with mild to moderate androgenetic alopecia were randomized to weekly microneedling with a 1.5 mm dermaroller plus 5 percent minoxidil twice daily, or minoxidil alone, for 12 weeks. Mean hair-count change was 91.4 per cm2 in the microneedling group against 22.2 in the minoxidil-only group (P = 0.039), with no significant adverse effects reported.[9]",
+            "The study was small, evaluator-blinded only, and enrolled men only; it used a 1.5 mm roller on the scalp, not a 0.5 mm stamp on brows. Brow use has not been examined in a published trial.[1][9]"
+          ]
+        },
+        {
+          "h": "Microneedle drug delivery",
+          "paras": [
+            "Laboratory-type studies from the University of Nottingham group examined an oscillating microneedle pen as a pre-treatment to improve delivery of imiquimod for basal cell carcinoma.[7][8] These concern pens and cancer drug delivery, not stamps or cosmetic use. Forum users also say stamping helps topicals absorb, a claim that these delivery studies address only in the specific drug-delivery setting.[2][7]"
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Reported risks",
+      "paras": [
+        "Wikipedia describes concerns about microneedling combined with platelet-rich plasma in non-medical settings and a 2024 CDC report of HIV diagnoses among patients of one New Mexico spa.[1] The MMWR report of April 2024 describes five patients with confirmed HIV linked to an unlicensed spa, four of whom had received platelet-rich plasma microneedling facials; the spa had no autoclave, reused disposable tips after soaking them in alcohol and stored blood tubes and injectables improperly.[12] The authors called it the first report linking HIV to nonsterile cosmetic injection services, and of 198 former clients and partners tested, none had new HIV infections.[12]",
+        "That case concerned a spa injecting blood products with reused equipment, not home stamping. The practical point the report raises is that reusing needle heads or sharing devices carries blood-borne infection risk, a general principle of needling that the authors address by recommending adequate infection control.[12]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found of the 0.5 mm stamp itself. Related research, labelled as such: a 2013 pilot trial of weekly roller microneedling with minoxidil for scalp hair loss, two 2022 meta-analyses of microneedling for acne scars, and Nottingham studies of microneedle pens for drug delivery.[7][8][9][10][11]"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2013",
+      "event": "Dhurat and colleagues publish a randomized pilot trial of weekly microneedling plus minoxidil versus minoxidil alone in androgenetic alopecia.[9]"
+    },
+    {
+      "year": "2018",
+      "event": "A woman in New Mexico is diagnosed with HIV after a platelet-rich plasma microneedling facial at an unlicensed spa; investigators later link five cases.[12]"
+    },
+    {
+      "year": "2020",
+      "event": "University of Nottingham researchers publish microneedle-pen delivery work for imiquimod.[7]"
+    },
+    {
+      "year": "2022",
+      "event": "Two meta-analyses of microneedling for acne scars are published.[10][11]"
+    },
+    {
+      "year": "2024",
+      "event": "The CDC publishes its MMWR report on the New Mexico cluster (April).[12]"
+    }
+  ],
+  "lore": {
+    "intro": "Users discuss the stamp mainly for brows, skin texture and topical delivery, often alongside minoxidil, tretinoin or urea cream.[2][4][19]",
+    "claims": [
+      {
+        "claim": "Stamping brows boosts minoxidil results",
+        "believers": "Users ask about combining nightly or periodic stamping with minoxidil on the brows.[2][15]",
+        "experts": "A 2013 pilot trial of weekly roller microneedling plus minoxidil for scalp hair loss reported greater hair-count gains than minoxidil alone; brow use has not been studied.[1][9]",
+        "evidence": "untested"
+      },
+      {
+        "claim": "Stamping reduces laugh and eye lines",
+        "believers": "A forum author describes a personal method for reducing lines.[6]",
+        "experts": "Microneedling is used for scarring and acne per Wikipedia; no study of the stamp for lines was found.[1][10]",
+        "evidence": "untested"
+      },
+      {
+        "claim": "Bimatoprost plus stamp reduces orbital fat",
+        "believers": "The original poster says the combination makes eyes less puffy.[3]",
+        "experts": "No published studies have tested this combination; other forum users in the thread disputed the mechanism.[3]",
+        "evidence": "untested"
+      },
+      {
+        "claim": "Needling helps topicals absorb",
+        "believers": "Forum users describe stamping before applying minoxidil or tretinoin to get more effect.[2][19]",
+        "experts": "Microneedle-assisted delivery has been studied in the laboratory for imiquimod in basal cell carcinoma, using pens.[7][8]",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "A stamp is as good as a roller or a clinic device",
+        "believers": "Threads weigh stamps against rollers and ask whether they are equivalent.[4][5][18]",
+        "experts": "Published trials of microneedling use rollers and clinic devices; none compared a 0.5 mm stamp with them.[9][10]",
+        "evidence": "untested"
+      },
+      {
+        "claim": "Acne scars are better treated with laser than with needling",
+        "believers": "One forum reply tells a user asking about stamps and rollers to get laser for acne scars instead.[14]",
+        "experts": "A 2022 meta-analysis of randomized trials found microneedling without radiofrequency gave better objective scar improvement than comparators; the cited work does not compare it head-to-head with laser.[10]",
+        "evidence": "mixed"
+      },
+      {
+        "claim": "Home needling is low risk",
+        "believers": "Users discuss stamping as a routine part of a skincare week.[19]",
+        "experts": "The CDC documented HIV transmission linked to nonsterile platelet-rich plasma microneedling at an unlicensed spa.[12]",
+        "evidence": "harms"
+      }
+    ]
+  },
+  "refs": [
+    {
+      "id": 1,
+      "title": "Microneedling",
+      "url": "https://en.wikipedia.org/wiki/Microneedling",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 2,
+      "title": "dermastamp",
+      "url": "https://looksmax.org/threads/dermastamp.920027/",
+      "source": "looksmax.org",
+      "year": 2024,
+      "type": "forum"
+    },
+    {
+      "id": 3,
+      "title": "How I Got Rid Of My Monolids Using Bimatoprost + Dermastamp",
+      "url": "https://looksmax.org/threads/how-i-got-rid-of-my-monolids-using-bimatoprost-dermastamp-no-surgery-just-fat-loss.1510054/",
+      "source": "looksmax.org",
+      "year": 2025,
+      "type": "forum"
+    },
+    {
+      "id": 4,
+      "title": "dermaroller or dermastamp",
+      "url": "https://looksmax.org/threads/dermaroller-or-dermastamp.1275680/",
+      "source": "looksmax.org",
+      "year": 2024,
+      "type": "forum"
+    },
+    {
+      "id": 5,
+      "title": "dermaroller or dermastamp",
+      "url": "https://looksmax.org/threads/dermaroller-or-dermastamp.760648/",
+      "source": "looksmax.org",
+      "year": 2023,
+      "type": "forum"
+    },
+    {
+      "id": 6,
+      "title": "here is how a dermastamp gets rid of laugh lines eye lines",
+      "url": "https://looksmax.org/threads/here-is-how-a-dermastamp-gets-rid-of-laugh-lines-eye-lines-bookmark-even-if-you-dont-have-them-yet-my-method.584787/",
+      "source": "looksmax.org",
+      "year": 2023,
+      "type": "forum"
+    },
+    {
+      "id": 7,
+      "title": "Intradermal Delivery of an Immunomodulator for Basal Cell Carcinoma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32510228/",
+      "source": "Molecular Pharmaceutics",
+      "year": 2020,
+      "type": "study"
+    },
+    {
+      "id": 8,
+      "title": "Application of microneedles for the treatment of nodular basal cell carcinoma",
+      "url": "https://europepmc.org/article/ETH/836401",
+      "source": "University of Nottingham",
+      "year": 2021,
+      "type": "study"
+    },
+    {
+      "id": 9,
+      "title": "A Randomized Evaluator Blinded Study of Effect of Microneedling in Androgenetic Alopecia: A Pilot Study",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3746236",
+      "source": "International Journal of Trichology",
+      "year": 2013,
+      "type": "trial"
+    },
+    {
+      "id": 10,
+      "title": "Microneedling Monotherapy for Acne Scar: Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35426044/",
+      "source": "Aesthetic Plastic Surgery",
+      "year": 2022,
+      "type": "review"
+    },
+    {
+      "id": 11,
+      "title": "Combined Effect of Microneedling and Platelet-Rich Plasma for the Treatment of Acne Scars: A Meta-Analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8882957",
+      "source": "Frontiers in Medicine",
+      "year": 2022,
+      "type": "review"
+    },
+    {
+      "id": 12,
+      "title": "Investigation of Presumptive HIV Transmission Associated with Receipt of Platelet-Rich Plasma Microneedling Facials at a Spa Among Former Spa Clients - New Mexico, 2018-2023",
+      "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7316a3.htm",
+      "source": "MMWR (CDC)",
+      "year": 2024,
+      "type": "study"
+    },
+    {
+      "id": 13,
+      "title": "Looksmaxxing",
+      "url": "https://en.wikipedia.org/wiki/Looksmaxxing",
+      "source": "Wikipedia",
+      "year": 2026,
+      "type": "encyclopedia"
+    },
+    {
+      "id": 14,
+      "title": "derma stamp/ roller",
+      "url": "https://looksmax.org/threads/derma-stamp-roller.1791277/",
+      "source": "looksmax.org",
+      "year": null,
+      "type": "forum"
+    },
+    {
+      "id": 15,
+      "title": "derma stamp on roller on eyebrows",
+      "url": "https://looksmax.org/threads/derma-stamp-on-roller-on-eyebrows.1789934/",
+      "source": "looksmax.org",
+      "year": null,
+      "type": "forum"
+    },
+    {
+      "id": 16,
+      "title": "Can you use derma stamp under eyes",
+      "url": "https://looksmax.org/threads/can-you-use-derma-stamp-under-eyes.1789631/",
+      "source": "looksmax.org",
+      "year": null,
+      "type": "forum"
+    },
+    {
+      "id": 17,
+      "title": "is derma stamp microneedling",
+      "url": "https://looksmax.org/threads/is-derma-stamp-microneedling.1759181/",
+      "source": "looksmax.org",
+      "year": null,
+      "type": "forum"
+    },
+    {
+      "id": 18,
+      "title": "can i use a dermaroller instead of a derma stamp for my eyebrows",
+      "url": "https://looksmax.org/threads/can-i-use-a-dermaroller-instead-of-a-derma-stamp-for-my-eyebrows.1741042/",
+      "source": "looksmax.org",
+      "year": null,
+      "type": "forum"
+    },
+    {
+      "id": 19,
+      "title": "tretinoin 1 night urea cream next night derma stamp once a week try it for two months",
+      "url": "https://looksmax.org/threads/tretinoin-1-night-urea-cream-next-night-derma-stamp-once-a-week-try-it-for-two-months.635456/",
+      "source": "looksmax.org",
+      "year": null,
+      "type": "forum"
+    }
+  ],
+  "webSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Microneedling",
+      "title": "Microneedling"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3746236",
+      "title": "Dhurat et al., microneedling in androgenetic alopecia (2013)"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35426044/",
+      "title": "Microneedling monotherapy for acne scar meta-analysis (2022)"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8882957",
+      "title": "Microneedling plus platelet-rich plasma for acne scars meta-analysis (2022)"
+    },
+    {
+      "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7316a3.htm",
+      "title": "MMWR: HIV transmission and PRP microneedling facials, New Mexico"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Looksmaxxing",
+      "title": "Looksmaxxing - Wikipedia"
+    }
+  ]
 }

@@ -1,28 +1,195 @@
 {
-"name":"Portulaca oleracea",
-"lead":["Portulaca oleracea, commonly purslane, is a warm-climate succulent annual eaten as a leafy vegetable in the Mediterranean, Middle East, Asia and Mexico and used in folk medicine in many countries.[1][2] In skincare, extracts appear in soothing and moisturising products; one DailyMed-listed essence combines Portulaca oleracea extract with niacinamide, glycerin and lotus flower extract.[3]","Laboratory research describes anti-inflammatory, antioxidant and wound-healing activity. A 2015 review catalogued its flavonoids, alkaloids and fatty acids and their reported pharmacological effects, and a mouse study reported faster excision-wound closure with a crude topical preparation.[4][5] No controlled clinical trial of topical purslane for skin appearance was found."],
-"infobox":[["Common name","Purslane; Ma-Chi-Xian (Chinese)"],["Family","Portulacaceae"],["Parts used","Aerial parts (leaves and stems)"],["Key constituents","Flavonoids, alkaloids, alpha-linolenic acid, betalains"],["Appearance evidence","Limited"]],
-"sections":[
-{"h":"Description and uses","paras":["The plant is a prostrate, fleshy herb with reddish stems and small yellow flowers, and is a weed in many regions. Its leaves are rich in alpha-linolenic acid, an omega-3 fatty acid, and in vitamin E, but are also very high in oxalates.[1][6]","Traditional medicine has used purslane as an anti-inflammatory, diuretic and for burns and fevers, and Chinese tradition calls it a vegetable for long life.[2][4] In cosmetics it is promoted as a soothing botanical.[3]"]},
-{"h":"Research","paras":["A review of its phytochemistry and pharmacology summarised reported antioxidant, anti-inflammatory, wound-healing and other effects, mostly from cell and animal work.[4] A 2000 study reported analgesic and anti-inflammatory effects in animals, and a 2003 study in mice reported that a crude extract accelerated wound contraction.[5][7] A study of wild Nepalese vegetables measured antioxidant capacity of purslane extracts in chemical assays.[8]"]},
-{"h":"Safety","paras":["Purslane is high in oxalates, which is relevant to dietary intake.[1] The product label for the essence advises external use only, avoiding broken or irritated skin, and stopping use if irritation or rash occurs.[3]"]},
-{"h":"Clinical studies","paras":["No clinical studies of purslane for skin appearance were found. A registered phase 2 trial examined purslane for oral lichen planus, and another registered study of an eyelash serum listed purslane among its ingredients.[9][10] Published results are not part of the sources reviewed."]}
-],
-"timeline":[],
-"lore":null,
-"card":{"summary":"Edible succulent weed used as a soothing skincare botanical, backed by lab and animal data but no skin-appearance trials.","aka":"Purslane, Ma-Chi-Xian","evidence":"limited","status":"otc","outcome":null,"risk":null,"price":null,"note":"Evidence is from lab and animal studies; no topical human appearance trials found.","structure":null},
-"quick":{"overview":"Purslane is a common edible succulent used in folk medicine, now added to K-beauty-style soothing products.\n\nResearch reports anti-inflammatory and wound-healing effects in cells and animals. No clinical trials of topical use for appearance were found.","mechanism":"Flavonoids, alkaloids and fatty acids in the plant show antioxidant and anti-inflammatory activity in laboratory assays.","risks":"Leaves are high in oxalates when eaten. Topical product labels advise avoiding broken skin and stopping use if irritation occurs."},
-"refs":[
-{"id":1,"title":"Portulaca oleracea","url":"https://en.wikipedia.org/wiki/Portulaca_oleracea","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":2,"title":"Portulaca oleracea","url":"https://grokipedia.com/page/Portulaca_oleracea","source":"Grokipedia","year":2026,"type":"encyclopedia"},
-{"id":3,"title":"Buddate Lotus Moisture Essence label","url":"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=46499995-8b13-3e5c-e054-00144ff88e88","source":"DailyMed","year":2020,"type":"label"},
-{"id":4,"title":"Portulaca oleracea L.: a review of phytochemistry and pharmacological effects","url":"https://pubmed.ncbi.nlm.nih.gov/25692148/","source":"BioMed Res Int","year":2015,"type":"review"},
-{"id":5,"title":"Simple evaluation of the wound healing activity of a crude extract of Portulaca oleracea","url":"https://pubmed.ncbi.nlm.nih.gov/12963132/","source":"J Ethnopharmacol","year":2003,"type":"study"},
-{"id":6,"title":"Purslane weed: a prospective plant source of nutrition, omega-3 fatty acid, and antioxidant attributes","url":"https://pubmed.ncbi.nlm.nih.gov/24683365/","source":"ScientificWorldJournal","year":2014,"type":"review"},
-{"id":7,"title":"The analgesic and anti-inflammatory effects of Portulaca oleracea L. subsp. sativa","url":"https://pubmed.ncbi.nlm.nih.gov/11090998/","source":"J Ethnopharmacol","year":2000,"type":"study"},
-{"id":8,"title":"Total Phenolic Content, Flavonoid Content and Antioxidant Potential of Wild Vegetables from Western Nepal","url":"https://pubmed.ncbi.nlm.nih.gov/30978964/","source":"Plants","year":2019,"type":"study"},
-{"id":9,"title":"Efficacy of Purslane in Treatment of Oral Lichen Planus","url":"https://clinicaltrials.gov/study/NCT00746772","source":"ClinicalTrials.gov","year":2006,"type":"trial"},
-{"id":10,"title":"A Single-Group Study to Evaluate the Effects of an Eyelash Serum on Improving Eyelash Growth","url":"https://clinicaltrials.gov/study/NCT06125730","source":"ClinicalTrials.gov","year":2023,"type":"trial"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Portulaca_oleracea","title":"Portulaca oleracea - Wikipedia"}]
+ "name": "Portulaca oleracea",
+ "lead": [
+  "Portulaca oleracea, commonly purslane, is a warm-climate succulent annual eaten as a leafy vegetable in the Mediterranean, Middle East, Asia and Mexico and used in folk medicine in many countries.[1][2] For appearance, it enters the picture in two ways: as a soothing botanical in skincare, where one DailyMed-listed essence combines Portulaca oleracea extract with niacinamide, glycerin and lotus flower extract, and as a food rich in omega-3 alpha-linolenic acid and vitamin E that people include in diets aimed at skin and overall health.[3][1][6]",
+  "Laboratory research describes anti-inflammatory, antioxidant and wound-healing activity. A 2015 review catalogued its flavonoids, alkaloids and fatty acids and their reported pharmacological effects, and a mouse study reported faster excision-wound closure with a crude topical preparation.[4][5] A randomized trial of an oral purslane extract for chronic hand eczema is the closest human skin study. No controlled clinical trial of topical purslane for skin appearance was found."
+ ],
+ "infobox": [
+  [
+   "Common name",
+   "Purslane; Ma-Chi-Xian (Chinese)"
+  ],
+  [
+   "Family",
+   "Portulacaceae"
+  ],
+  [
+   "Parts used",
+   "Aerial parts (leaves and stems)"
+  ],
+  [
+   "Key constituents",
+   "Flavonoids, alkaloids, alpha-linolenic acid, betalains"
+  ],
+  [
+   "Appearance evidence",
+   "Limited"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "How it is used for appearance",
+   "paras": [
+    "In cosmetics, purslane extract is promoted as a soothing botanical, often in essences, toners and creams marketed for sensitive or irritated skin, where the claimed route is calming redness by way of anti-inflammatory plant compounds.[3][4] The listed essence pairs it with niacinamide and glycerin, the humectant and tone-evening ingredients common in routine-style skincare.[3]",
+    "As a food, purslane supplies alpha-linolenic acid and vitamin E, nutrients that proponents link with skin condition and general health; Grokipedia reports figures such as 12.2 mg of vitamin E per 100 g raw leaves, higher than many common greens.[2][6] Pigmented betalains in the plant are described as a stress-response photoprotective pigment in the plant itself.[2]"
+   ]
+  },
+  {
+   "h": "Description and uses",
+   "paras": [
+    "The plant is a prostrate, fleshy herb with reddish stems and small yellow flowers, and is a weed in many regions.[1][2] It is eaten fresh in salads and cooked in soups, and seeds have been ground into flour.[2] Its leaves are rich in alpha-linolenic acid, an omega-3 fatty acid, and in vitamin E, but are also very high in oxalates.[1][6]",
+    "Traditional medicine has used purslane as an anti-inflammatory, diuretic and for burns and fevers, and Chinese tradition calls it a vegetable for long life.[2][4] Grokipedia says the World Health Organization has called it a 'global panacea'.[2] Persian medicine uses it for skin ailments, according to the authors of a hand-eczema trial.[11]"
+   ]
+  },
+  {
+   "h": "Research",
+   "paras": [
+    "A review of its phytochemistry and pharmacology summarised reported antioxidant, anti-inflammatory, wound-healing and other effects, mostly from cell and animal work.[4] A 2000 study reported analgesic and anti-inflammatory effects in animals, and a 2003 study in mice reported that a crude extract accelerated wound contraction.[5][7] A study of wild Nepalese vegetables measured antioxidant capacity of purslane extracts in chemical assays.[8]",
+    "Beyond skin, systematic reviews and trials have examined purslane for blood sugar control, where a meta-analysis of randomized trials reported a significant reduction in fasting glucose but no significant change in insulin or insulin resistance measures, and for musculoskeletal conditions, where a 2025 review of 69 studies including 9 clinical trials described reductions in inflammatory cytokines.[12][13]"
+   ]
+  },
+  {
+   "h": "Safety",
+   "paras": [
+    "Purslane is high in oxalates, which is relevant to dietary intake.[1] The product label for the essence advises external use only, avoiding broken or irritated skin, and stopping use if irritation or rash occurs.[3]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A 2024 randomized, double-blind, placebo-controlled trial of 70 adults with mild to moderate chronic hand eczema compared an oral standardized purslane preparation with placebo, both with topical Vaseline, over four weeks. Physician-reported fissure scores were significantly lower in the purslane group among those analysed.[11]",
+    "No clinical studies of purslane for skin appearance were found. A registered phase 2 trial examined purslane for oral lichen planus, and another registered study of an eyelash serum listed purslane among its ingredients.[9][10] Results have not been published."
+   ]
+  }
+ ],
+ "timeline": [],
+ "lore": null,
+ "card": {
+  "summary": "Edible succulent weed used as a soothing skincare botanical, backed by lab and animal data but no skin-appearance trials.",
+  "aka": "Purslane, Ma-Chi-Xian",
+  "evidence": "limited",
+  "status": "otc",
+  "outcome": null,
+  "risk": null,
+  "price": null,
+  "note": "Evidence is from lab and animal studies; no topical human appearance trials found.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Purslane is a common edible succulent used in folk medicine, now added to K-beauty-style soothing products.\n\nResearch reports anti-inflammatory and wound-healing effects in cells and animals. No clinical trials of topical use for appearance were found.",
+  "mechanism": "Flavonoids, alkaloids and fatty acids in the plant show antioxidant and anti-inflammatory activity in laboratory assays.",
+  "risks": "Leaves are high in oxalates when eaten. Topical product labels advise avoiding broken skin and stopping use if irritation occurs."
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Portulaca oleracea",
+   "url": "https://en.wikipedia.org/wiki/Portulaca_oleracea",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Portulaca oleracea",
+   "url": "https://grokipedia.com/page/Portulaca_oleracea",
+   "source": "Grokipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Buddate Lotus Moisture Essence label",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=46499995-8b13-3e5c-e054-00144ff88e88",
+   "source": "DailyMed",
+   "year": 2020,
+   "type": "label"
+  },
+  {
+   "id": 4,
+   "title": "Portulaca oleracea L.: a review of phytochemistry and pharmacological effects",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25692148/",
+   "source": "BioMed Res Int",
+   "year": 2015,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Simple evaluation of the wound healing activity of a crude extract of Portulaca oleracea",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12963132/",
+   "source": "J Ethnopharmacol",
+   "year": 2003,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Purslane weed: a prospective plant source of nutrition, omega-3 fatty acid, and antioxidant attributes",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24683365/",
+   "source": "ScientificWorldJournal",
+   "year": 2014,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "The analgesic and anti-inflammatory effects of Portulaca oleracea L. subsp. sativa",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11090998/",
+   "source": "J Ethnopharmacol",
+   "year": 2000,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Total Phenolic Content, Flavonoid Content and Antioxidant Potential of Wild Vegetables from Western Nepal",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30978964/",
+   "source": "Plants",
+   "year": 2019,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "Efficacy of Purslane in Treatment of Oral Lichen Planus",
+   "url": "https://clinicaltrials.gov/study/NCT00746772",
+   "source": "ClinicalTrials.gov",
+   "year": 2006,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "A Single-Group Study to Evaluate the Effects of an Eyelash Serum on Improving Eyelash Growth",
+   "url": "https://clinicaltrials.gov/study/NCT06125730",
+   "source": "ClinicalTrials.gov",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Efficacy and safety of purslane (Portulaca oleracea) for mild to moderate chronic hand eczema; A randomized, double-blind, placebo-controlled clinical trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37872023/",
+   "source": "Explore",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "The effects of purslane (Portulaca oleracea) on glycemic indices: A GRADE-assessed systematic review and meta-analysis of randomized controlled trials",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37661794/",
+   "source": "Phytotherapy Research",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 13,
+   "title": "Pharmacologic Mechanisms of Portulaca oleracea L. in the Treatment of Musculoskeletal Disorders: A Mechanistic Review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40989146/",
+   "source": "Food Science & Nutrition",
+   "year": 2025,
+   "type": "review"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Portulaca_oleracea",
+   "title": "Portulaca oleracea - Wikipedia"
+  }
+ ]
 }

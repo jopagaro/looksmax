@@ -1,71 +1,264 @@
 {
-  "name": "Aleniglipron",
-  "lead": [
-    "Aleniglipron (development code GSBR-1290) is an investigational oral, small-molecule glucagon-like peptide-1 (GLP-1) receptor agonist being developed for obesity and overweight. Unlike injectable peptide GLP-1 drugs such as semaglutide, it is a non-peptide pill taken once daily. [1][2]",
-    "In the ACCESS phase 2b trial, 230 adults with obesity or overweight received aleniglipron or placebo for 36 weeks. Placebo-adjusted weight change was -8.2%, -9.8% and -11.3% at the 45, 90 and 120 mg arms respectively. Gastrointestinal events were generally mild to moderate, and treatment-related discontinuations were 10.4% across drug arms, with no drug-induced liver injury reported. [1]",
-    "The drug is not approved. Phase 3 trials (ACCOMPLISH-1 and ACCOMPLISH-2) began registering participants in 2026. [3][4]"
+ "name": "Aleniglipron",
+ "lead": [
+  "Aleniglipron (development code GSBR-1290) is an investigational once-daily oral, small-molecule glucagon-like peptide-1 (GLP-1) receptor agonist being developed by Structure Therapeutics for obesity and overweight.[1][13] Unlike injectable peptide GLP-1 drugs such as semaglutide, it is a non-peptide pill, so it activates the same receptor without being a peptide.[2][13] It is of interest to people who want to lose body fat, and with it the changes in waist, face and overall shape that follow, without injections.",
+  "In the ACCESS phase 2b trial, 230 adults with obesity or overweight received aleniglipron or placebo for 36 weeks. Placebo-adjusted weight change was -8.2%, -9.8% and -11.3% at the 45, 90 and 120 mg arms, respectively. Gastrointestinal events were generally mild to moderate, treatment-related discontinuations were 10.4% across drug arms, and no drug-induced liver injury was reported.[1]",
+  "The drug is not approved anywhere. Phase 3 trials (ACCOMPLISH-1 and ACCOMPLISH-2) began recruiting in July 2026.[3][4]"
+ ],
+ "infobox": [
+  [
+   "Drug class",
+   "Oral small-molecule GLP-1 receptor agonist[13]"
   ],
-  "infobox": [
-    ["Drug class", "Oral small-molecule GLP-1 receptor agonist"],
-    ["Other names", "GSBR-1290"],
-    ["Route", "Oral, once daily"],
-    ["Status", "Investigational; phase 3"]
+  [
+   "Other names",
+   "GSBR-1290"
   ],
-  "sections": [
-    {
-      "h": "Pharmacology",
-      "paras": [
-        "Aleniglipron activates the GLP-1 receptor, the same target as injectable agents used for weight management. Small-molecule agonists are a distinct chemical class from peptides; a structural review notes four known chemotypes of small-molecule GLP-1R agonists, which offer potential advantages in accessibility and patient convenience compared with peptide agonists. [5]"
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "The ACCESS phase 2b trial (NCT06693843) was randomised, double-blind and placebo-controlled. Participants had a mean BMI of 39.5 and received once-daily aleniglipron, escalated every 4 weeks to 45, 90 or 120 mg. At week 36 all doses significantly outperformed placebo on the primary endpoint, with no apparent weight-loss plateau, and an interim look at the open-label extension showed continued weight loss. Vomiting rarely recurred after reintroduction following permitted dose interruptions. [1][6] A publisher correction to the paper has been issued. [7]",
-        "Additional phase 2 studies in people with type 2 diabetes, a body-composition study and a dose-range study have been registered as completed. [8][9][10] A pooled analysis of randomised trials of oral non-peptide GLP-1 agonists in people without diabetes, posted as a preprint, examines the class as a whole. [11]",
-        "Phase 3 trials are recruiting: ACCOMPLISH-1 (3,600 participants with obesity or overweight and a weight-related condition) and ACCOMPLISH-2 (1,100 participants with type 2 diabetes). [3][4]"
-      ]
-    },
-    {
-      "h": "Adverse effects",
-      "paras": [
-        "In ACCESS the reported tolerability profile was consistent with the GLP-1 receptor agonist class: gastrointestinal events were typically mild to moderate and became less frequent over time. No drug-induced liver injury was reported. [1] A dedicated hepatic impairment pharmacokinetic study is registered. [12]"
-      ]
-    }
+  [
+   "Developer",
+   "Structure Therapeutics[13]"
   ],
-  "timeline": [
-    { "year": "2024", "event": "Phase 2b ACCESS trial begins. [6]" },
-    { "year": "2026", "event": "ACCESS results published in Nature Medicine; phase 3 ACCOMPLISH trials start. [1][3][4]" }
+  [
+   "Route",
+   "Oral, once daily[1]"
   ],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Oral small molecule GLP-1 receptor agonist aleniglipron in people with overweight or obesity: a randomized, double-blind, placebo-controlled phase 2b trial", "url": "https://pubmed.ncbi.nlm.nih.gov/42249138/", "source": "Nature Medicine", "year": 2026, "type": "trial" },
-    { "id": 2, "title": "Safety and efficacy of oral non-peptide GLP-1 receptor agonist in non-diabetic obese patients; systematic review and meta-analysis", "url": "https://doi.org/10.21203/rs.3.rs-11232302/v1", "source": "Research Square (preprint)", "year": 2026, "type": "review" },
-    { "id": 3, "title": "ACCOMPLISH-1 (NCT07654361)", "url": "https://clinicaltrials.gov/study/NCT07654361", "source": "ClinicalTrials.gov", "year": 2026, "type": "trial" },
-    { "id": 4, "title": "ACCOMPLISH-2 (NCT07654374)", "url": "https://clinicaltrials.gov/study/NCT07654374", "source": "ClinicalTrials.gov", "year": 2026, "type": "trial" },
-    { "id": 5, "title": "Structural basis for chemotype diversity in small molecule GLP-1 receptor agonist drug discovery", "url": "https://doi.org/10.21203/rs.3.rs-7597307/v1", "source": "Research Square (preprint)", "year": 2025, "type": "study" },
-    { "id": 6, "title": "Phase 2b dose-range finding study of aleniglipron (NCT06693843)", "url": "https://clinicaltrials.gov/study/NCT06693843", "source": "ClinicalTrials.gov", "year": 2024, "type": "trial" },
-    { "id": 7, "title": "Publisher Correction: Oral small molecule GLP-1 receptor agonist aleniglipron", "url": "https://pubmed.ncbi.nlm.nih.gov/42343118/", "source": "Nature Medicine", "year": 2026, "type": "study" },
-    { "id": 8, "title": "Aleniglipron Phase 2 in Type 2 Diabetes Mellitus (NCT07400588)", "url": "https://clinicaltrials.gov/study/NCT07400588", "source": "ClinicalTrials.gov", "year": 2025, "type": "trial" },
-    { "id": 9, "title": "Aleniglipron Phase 2 Body Composition Study (NCT07169942)", "url": "https://clinicaltrials.gov/study/NCT07169942", "source": "ClinicalTrials.gov", "year": 2025, "type": "trial" },
-    { "id": 10, "title": "Dose-range study of aleniglipron (NCT06703021)", "url": "https://clinicaltrials.gov/study/NCT06703021", "source": "ClinicalTrials.gov", "year": 2024, "type": "trial" },
-    { "id": 11, "title": "Safety and efficacy of oral non-peptide GLP-1 receptor agonist (meta-analysis preprint)", "url": "https://doi.org/10.21203/rs.3.rs-11232302/v1", "source": "Research Square (preprint)", "year": 2026, "type": "review" },
-    { "id": 12, "title": "Aleniglipron Hepatic Impairment Study (NCT07872033)", "url": "https://clinicaltrials.gov/study/NCT07872033", "source": "ClinicalTrials.gov", "year": 2026, "type": "trial" }
+  [
+   "Formula",
+   "C49H55FN9O6P, about 916 g/mol[13]"
   ],
-  "webSources": [],
-  "card": {
-    "summary": "An experimental once-daily GLP-1 pill that cut weight by about 8-11% (placebo-adjusted) over 36 weeks in phase 2b.",
-    "aka": "GSBR-1290",
-    "evidence": "moderate",
-    "status": "research",
-    "risk": null,
-    "price": null,
-    "note": "Investigational and not approved; phase 3 under way.",
-    "structure": null
+  [
+   "Phase 2b result",
+   "-8.2 to -11.3% placebo-adjusted at 36 weeks[1]"
+  ],
+  [
+   "Status",
+   "Investigational; phase 3[3][4]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Uses",
+   "paras": [
+    "Aleniglipron is being developed for chronic weight management in adults with obesity, or with overweight and at least one weight-related condition, and separately for people with type 2 diabetes.[3][4][6][8] Loss of body fat after reduced food intake is what changes visible shape, which is why obesity drugs attract interest in appearance-focused communities. The drug is available only to trial participants."
+   ]
   },
-  "quick": {
-    "overview": "Aleniglipron is an experimental oral GLP-1 agonist for obesity. It is a once-daily small-molecule pill rather than an injectable peptide.\n\nIn a 36-week phase 2b trial of 230 adults, placebo-adjusted weight loss ranged from 8.2% to 11.3% depending on dose. Phase 3 trials started in 2026.",
-    "mechanism": "It activates the GLP-1 receptor, the pathway used by semaglutide and similar drugs that reduces appetite and food intake. Being a non-peptide, it can be taken by mouth.",
-    "risks": "Gastrointestinal events were the main adverse effects and were mostly mild to moderate; 10.4% of drug-arm participants stopped treatment for treatment-related reasons, and no drug-induced liver injury was reported. It is not approved and long-term data are lacking."
+  {
+   "h": "Pharmacology",
+   "subs": [
+    {
+     "h": "Mechanism of action",
+     "paras": [
+      "Aleniglipron activates the GLP-1 receptor, the same target as injectable agents used for weight management. Small-molecule agonists are a distinct chemical class from peptides; a structural review notes four known chemotypes of small-molecule GLP-1R agonists, which offer potential advantages in accessibility and patient convenience compared with peptide agonists.[5] A scoping review of small-molecule GLP-1 agonists describes oral availability as a way around the adherence and combination-therapy limits of subcutaneous injection.[14]"
+     ]
+    },
+    {
+     "h": "Chemistry",
+     "paras": [
+      "Wikipedia gives aleniglipron the formula C49H55FN9O6P and a molar mass of about 916 g/mol, with a phosphine oxide group and several fused heterocyclic rings including an oxadiazolone.[13]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Structure Therapeutics discovered and developed the compound; a June 2023 abstract in the journal Diabetes described its discovery, and a phase 2a study in type 2 diabetes and obesity began in May 2023.[13] In June 2024 the company reported positive topline phase 2a obesity data with statistically significant placebo-adjusted weight loss and favourable tolerability.[13] The phase 2b ACCESS trial began in October 2024, and its results were published in Nature Medicine in 2026.[1][6]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "subs": [
+    {
+     "h": "ACCESS phase 2b",
+     "paras": [
+      "The ACCESS trial (NCT06693843) was randomised, double-blind and placebo-controlled. Participants (mean BMI 39.5, 54 percent female) received once-daily aleniglipron, escalated every 4 weeks to 45, 90 or 120 mg. At week 36 all doses significantly outperformed placebo on the primary endpoint, with no apparent weight-loss plateau, and an interim look at the open-label extension showed continued weight loss. Vomiting rarely recurred after reintroduction following permitted dose interruptions.[1][6] A publisher correction to the paper has been issued.[7]"
+     ]
+    },
+    {
+     "h": "Other phase 2 studies",
+     "paras": [
+      "Additional phase 2 studies in people with type 2 diabetes (n=58), a body-composition study (n=71) and a dose-range study (n=85) are registered as completed.[8][9][10] A pooled analysis of randomised trials of oral non-peptide GLP-1 agonists in people without diabetes, posted as a preprint, examines the class as a whole.[11]"
+     ]
+    },
+    {
+     "h": "Phase 3",
+     "paras": [
+      "ACCOMPLISH-1 (3,600 participants with obesity or overweight and a weight-related condition, started July 2026) and ACCOMPLISH-2 (1,100 participants with type 2 diabetes) are recruiting.[3][4]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "paras": [
+    "In ACCESS the reported tolerability profile was consistent with the GLP-1 receptor agonist class: gastrointestinal events were typically mild to moderate and became less frequent over time. Treatment-related discontinuations were 10.4 percent across drug arms and no drug-induced liver injury was reported.[1] A dedicated hepatic impairment pharmacokinetic study is registered but not yet recruiting.[12]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Aleniglipron is an unapproved investigational drug with no marketing authorisation, price or coverage. It belongs to a wave of oral GLP-1 candidates developed as needle-free alternatives to injectable weight-loss drugs.[2][11]"
+   ]
   }
+ ],
+ "timeline": [
+  {
+   "year": "2023",
+   "event": "Phase 2a study begins (May); discovery abstract presented (June).[13]"
+  },
+  {
+   "year": "2024",
+   "event": "Topline phase 2a obesity data (June); phase 2b ACCESS begins (October).[6][13]"
+  },
+  {
+   "year": "2026",
+   "event": "ACCESS results published in Nature Medicine; phase 3 ACCOMPLISH trials start.[1][3][4]"
+  }
+ ],
+ "lore": null,
+ "refs": [
+  {
+   "id": 1,
+   "title": "Oral small molecule GLP-1 receptor agonist aleniglipron in people with overweight or obesity: a randomized, double-blind, placebo-controlled phase 2b trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42249138/",
+   "source": "Nature Medicine",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 2,
+   "title": "Safety and efficacy of oral non-peptide GLP-1 receptor agonist in non-diabetic obese patients; systematic review and meta-analysis",
+   "url": "https://doi.org/10.21203/rs.3.rs-11232302/v1",
+   "source": "Research Square (preprint)",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "ACCOMPLISH-1 (NCT07654361)",
+   "url": "https://clinicaltrials.gov/study/NCT07654361",
+   "source": "ClinicalTrials.gov",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 4,
+   "title": "ACCOMPLISH-2 (NCT07654374)",
+   "url": "https://clinicaltrials.gov/study/NCT07654374",
+   "source": "ClinicalTrials.gov",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "Structural basis for chemotype diversity in small molecule GLP-1 receptor agonist drug discovery",
+   "url": "https://doi.org/10.21203/rs.3.rs-7597307/v1",
+   "source": "Research Square (preprint)",
+   "year": 2025,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Phase 2b dose-range finding study of aleniglipron (NCT06693843)",
+   "url": "https://clinicaltrials.gov/study/NCT06693843",
+   "source": "ClinicalTrials.gov",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Publisher Correction: Oral small molecule GLP-1 receptor agonist aleniglipron",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42343118/",
+   "source": "Nature Medicine",
+   "year": 2026,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Aleniglipron Phase 2 in Type 2 Diabetes Mellitus (NCT07400588)",
+   "url": "https://clinicaltrials.gov/study/NCT07400588",
+   "source": "ClinicalTrials.gov",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Aleniglipron Phase 2 Body Composition Study (NCT07169942)",
+   "url": "https://clinicaltrials.gov/study/NCT07169942",
+   "source": "ClinicalTrials.gov",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Dose-range study of aleniglipron (NCT06703021)",
+   "url": "https://clinicaltrials.gov/study/NCT06703021",
+   "source": "ClinicalTrials.gov",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Safety and efficacy of oral non-peptide GLP-1 receptor agonist (meta-analysis preprint)",
+   "url": "https://doi.org/10.21203/rs.3.rs-11232302/v1",
+   "source": "Research Square (preprint)",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 12,
+   "title": "Aleniglipron Hepatic Impairment Study (NCT07872033)",
+   "url": "https://clinicaltrials.gov/study/NCT07872033",
+   "source": "ClinicalTrials.gov",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "Aleniglipron (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Aleniglipron",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 14,
+   "title": "Current Insights, Advantages and Challenges of Small Molecule GLP-1 Receptor Agonists: A Scoping Review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40191699/",
+   "source": "J Brown Hosp Med",
+   "year": 2025,
+   "type": "review"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Aleniglipron",
+   "title": "Aleniglipron - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "An experimental once-daily GLP-1 pill that cut weight by about 8-11% (placebo-adjusted) over 36 weeks in phase 2b.",
+  "aka": "GSBR-1290",
+  "evidence": "moderate",
+  "status": "research",
+  "risk": null,
+  "price": null,
+  "note": "Investigational and not approved; phase 3 under way.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Aleniglipron is an experimental oral GLP-1 agonist for obesity. It is a once-daily small-molecule pill rather than an injectable peptide.\n\nIn a 36-week phase 2b trial of 230 adults, placebo-adjusted weight loss ranged from 8.2% to 11.3% depending on dose. Phase 3 trials started in 2026.",
+  "mechanism": "It activates the GLP-1 receptor, the pathway used by semaglutide and similar drugs that reduces appetite and food intake. Being a non-peptide, it can be taken by mouth.",
+  "risks": "Gastrointestinal events were the main adverse effects and were mostly mild to moderate; 10.4% of drug-arm participants stopped treatment for treatment-related reasons, and no drug-induced liver injury was reported. It is not approved and long-term data are lacking."
+ },
+ "angle": {
+  "goal": "Fat loss",
+  "chain": [
+   "Activates the GLP-1 receptor from a daily pill",
+   "Lower appetite and food intake",
+   "Lower body weight and body fat over months"
+  ],
+  "effect": "indirect",
+  "text": "Aleniglipron is studied as a weight-loss pill: by activating GLP-1 receptors it reduces appetite and food intake, and the resulting loss of body fat changes waist, face and physique. It is available only inside clinical trials."
+ }
 }

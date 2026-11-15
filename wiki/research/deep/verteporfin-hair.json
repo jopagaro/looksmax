@@ -43,6 +43,23 @@
    ]
   },
   {
+   "h": "Pharmacology",
+   "subs": [
+    {
+     "h": "Mechanism of photodynamic therapy",
+     "paras": [
+      "Verteporfin is a benzoporphyrin derivative (formula C41H42N4O8) given by intravenous infusion. It accumulates in abnormal blood vessels, and when red light of about 689 nm activates it in the presence of oxygen it produces singlet oxygen that damages the vessel lining and closes the vessel.[2] Wikipedia notes that the drug is not cytotoxic on its own and becomes so only with light and oxygen, and that it does not appear to be metabolised by cytochrome P450 enzymes.[2]"
+     ]
+    },
+    {
+     "h": "YAP-TEAD inhibition",
+     "paras": [
+      "A 2012 Genes & Development paper reported that verteporfin disrupted the TEAD-YAP complex in a cancer model and suppressed YAP's oncogenic activity.[3] YAP and TAZ are transcriptional co-activators of the Hippo pathway that respond to mechanical tension in tissue; a 2016 study described them as mechanoregulators of TGF-beta-Smad signalling and kidney fibrogenesis.[8] That link between mechanical signalling and fibrosis is the basis of the interest in scarring and hair transplants."
+     ]
+    }
+   ]
+  },
+  {
    "h": "Adverse effects",
    "paras": [
     "The label lists injection-site reactions and visual disturbances as the most common reactions (over 10 percent), and warns of extravasation, photosensitivity (patients are advised to avoid direct sunlight or bright indoor light for several days after infusion), decreased vision after treatment and anaphylactic reactions; porphyria is a contraindication.[1] In rats given roughly 40 times the human exposure, the label reports increased anophthalmia or microphthalmia.[1]",
@@ -50,10 +67,17 @@
    ]
   },
   {
+   "h": "Chemistry, legal status and supply",
+   "paras": [
+    "Verteporfin is a benzoporphyrin derivative with a molar mass of about 718.8 g/mol, and Wikipedia lists its ATC code as S01LA01.[2] The approved product, Visudyne, is a prescription-only medicine in the United States and is listed with the European Medicines Agency; Wikipedia reports a manufacturing shortage that affected European supply in 2020, with normal manufacturing expected to resume by the first quarter of 2022.[2] In its approved eye use it is given as an intravenous infusion shortly before laser activation, with repeat treatments possible up to four times a year, and the label-based advice after infusion is to avoid direct sunlight and bright light for a period.[1][2] Its use on the scalp or skin for hair or scarring is experimental and not an approved indication."
+   ]
+  },
+  {
    "h": "Use in hair and scarring research",
    "paras": [
     "Preclinical work has linked the YAP/TAZ and TEAD pathway to fibrosis and scar formation. A 2021 Science paper reported that preventing Engrailed-1 activation in fibroblasts, including by treating mouse wounds with verteporfin, allowed regenerative wound healing without a scar.[7] Studies in other tissues have implicated YAP/TAZ in kidney fibrosis and described YAP-TEAD disruption by verteporfin in cancer models.[3][8]",
-    "Wikipedia states that verteporfin is experimentally applied to reduce scarring in hair transplantation, citing the American Hair Loss Society, and gives no study details.[2]"
+    "Wikipedia states that verteporfin is experimentally applied to reduce scarring in hair transplantation, citing the American Hair Loss Society, and gives no study details.[2]",
+    "The hair-transplant idea draws on the observation that scar tissue lacks follicles, so a drug that reduced scar formation or allowed regenerative healing might in principle leave more hair-bearing skin. The Science 2021 paper studied back wounds in mice and the Engrailed-1 lineage of fibroblasts; it did not test hair transplant surgery in people.[7] A 2020 manufacturing shortage affected European supply of the approved product.[2]"
    ]
   },
   {
@@ -234,5 +258,15 @@
    "url": "https://en.wikipedia.org/wiki/Verteporfin",
    "title": "Verteporfin - Wikipedia"
   }
- ]
+ ],
+ "angle": {
+  "goal": "Hair density / scar reduction",
+  "chain": [
+   "Verteporfin blocks YAP-TEAD signalling in lab models",
+   "Fibroblast scarring response is reduced in animal wounds",
+   "Proponents hope for follicle regrowth in scarred donor or transplant areas"
+  ],
+  "effect": "claimed",
+  "text": "Forum users discuss verteporfin as a way to reduce scarring after hair transplant surgery and to regrow follicles in scarred areas, which would give more usable donor hair. This use is experimental and rests on laboratory papers and a surgeon's informal case reports."
+ }
 }

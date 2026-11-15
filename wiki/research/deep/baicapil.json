@@ -54,10 +54,24 @@
    ]
   },
   {
+   "h": "The source plant",
+   "paras": [
+    "Scutellaria baicalensis, known as Baikal or Chinese skullcap, is a flowering plant of the mint family native to China, Korea, Mongolia and the Russian Far East and Siberia. Its dried root, huangqin, is among the 50 fundamental herbs of traditional Chinese medicine, and its main isolated compounds include baicalein, baicalin, wogonin, norwogonin and oroxylin A [6].",
+    "Research on baicalin spans anti-inflammatory, antioxidant, antibacterial, neuroprotective and other effects, with bioavailability limited by its physical properties [5], and reviews cover its role in the liver-gut system and in tumor microenvironments [7][8]. None of these address hair. Wikipedia also reports small case series of acute liver injury 1 to 3 months after starting herbal or dietary supplements containing the plant, a context of oral supplements rather than scalp products [6]."
+   ]
+  },
+  {
    "h": "Supplier-reported data",
    "paras": [
     "A technical article written by staff of a consultancy about the supplier's product describes tests on human skin fibroblast and mitochondrial cultures reporting higher proliferation and metabolic activity and delayed senescence. It also reports a six-month study of 61 volunteers using a 3 percent solution, with the anagen phase up 10.7 percent, the telogen phase down 34.1 percent, hair density rising from about 183 to 223 hairs per square centimeter and hair fall reduced by up to 60.6 percent.[3] The article is promotional in nature and gives no control-group design or statistical significance values.[3]",
     "A brand page selling a Baicapil-containing product states that it reports no clinical trial results for Baicapil itself and refers to supplier in vitro and ex vivo data.[2]"
+   ]
+  },
+  {
+   "h": "Place among topical hair actives",
+   "paras": [
+    "A 2025 review in the International Journal of Trichology describes topical hair growth serums, oils and shampoos as having flooded the cosmeceutical market and targets the most hyped actives, including Redensyl, Procapil, Capixyl, Baicapil, AnaGain, onion juice, coffee extract, saw palmetto, pumpkin seed oil and rosemary oil. It extracted 24 articles and technical files and reports that the actives were studied mostly as combined formulations in randomized trials [1].",
+    "Peptide-and-botanical complexes of this type are sold as non-hormonal alternatives or add-ons to established treatments for thinning hair. Brand pages selling them describe the complex as supporting existing follicles rather than creating new ones [2][3]."
    ]
   },
   {
@@ -67,7 +81,16 @@
    ]
   }
  ],
- "timeline": [],
+ "timeline": [
+  {
+   "year": "2023",
+   "event": "Review of baicalin's pharmacology in inflammatory diseases published, a different context from scalp use [5]"
+  },
+  {
+   "year": "2025",
+   "event": "Trichology review lists Baicapil among heavily marketed topical hair actives [1]"
+  }
+ ],
  "lore": null,
  "refs": [
   {
@@ -109,6 +132,30 @@
    "source": "International Journal of Molecular Sciences",
    "year": 2023,
    "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Scutellaria baicalensis",
+   "url": "https://en.wikipedia.org/wiki/Scutellaria_baicalensis",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 7,
+   "title": "Baicalin and the liver-gut system: Pharmacological bases explaining its therapeutic effects",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33493657/",
+   "source": "Pharmacological Research",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "Baicalin and baicalein in modulating tumor microenvironment for cancer treatment: A comprehensive review with future perspectives",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38061594/",
+   "source": "Pharmacological Research",
+   "year": 2024,
+   "type": "review"
   }
  ],
  "webSources": [
@@ -123,6 +170,10 @@
   {
    "url": "https://en.wikipedia.org/wiki/Baicalin",
    "title": "Baicalin - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Scutellaria_baicalensis",
+   "title": "Scutellaria baicalensis - Wikipedia"
   }
  ],
  "card": {
@@ -134,8 +185,8 @@
   "structure": "Baicalin"
  },
  "quick": {
-  "overview": "Baicapil is a branded ingredient sold in hair-loss serums, linked to baicalin, a plant flavonoid from skullcap.\n\nIt is named in a 2025 review of cosmeceutical hair actives; no dedicated human trial was found.",
-  "mechanism": "Baicalin has been studied for other effects in laboratory work; no mechanism for hair growth is established in the sources reviewed.",
+  "overview": "Baicapil is a branded ingredient sold in hair-loss serums, linked to baicalin, a plant flavonoid from skullcap.\nIt is named in a 2025 review of cosmeceutical hair actives; no dedicated human trial was found.",
+  "mechanism": "Baicalin has been studied for other effects in laboratory work; no mechanism for hair growth is established.",
   "risks": "No safety data specific to the product were found. It is sold as a cosmetic ingredient."
  }
 }

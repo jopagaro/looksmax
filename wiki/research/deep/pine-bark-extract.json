@@ -1,29 +1,350 @@
 {
-"name":"Pine bark extract",
-"lead":["Maritime pine bark extract is a dietary supplement made from the bark of Pinus pinaster, consisting mostly of proanthocyanidins (procyanidins). Pycnogenol is a trademarked standardised version containing 70% procyanidins.[1] It is sold as an antioxidant and is included in some supplement and skincare products.","According to Wikipedia, the French researcher Jack Masquelier developed the extract after reading an account of Jacques Cartier's expedition in which Native Americans were described drinking a bark tea, and he used the name Pycnogenol in 1979.[1]","Researchers have studied the extract in conditions including asthma, ADHD, blood pressure, venous insufficiency and osteoarthritis. A Cochrane review, updated in 2020, found insufficient evidence for efficacy across these conditions.[1] No trial of its effect on facial appearance was identified in the reviewed sources."],
-"infobox":[["Type","Plant polyphenol extract (supplement)"],["Source","Bark of Pinus pinaster (French maritime pine)"],["Main constituents","Proanthocyanidins; Pycnogenol is standardised to 70% procyanidins[1]"],["Brand","Pycnogenol (trademark)[1]"],["Name coined","1979, Jack Masquelier[1]"]],
-"sections":[
-{"h":"History","paras":["Masquelier is reported to have searched for the active substances in the tea described in Cartier's account, identified maritime pine bark as a source, and extracted its proanthocyanidins.[1]"]},
-{"h":"Pharmacology","paras":["A 2002 review described Pycnogenol as having a diverse pharmacology and discussed possible target sites.[2] Laboratory work reported that metabolites of the extract showed antioxidant activity and inhibited matrix metalloproteinases, enzymes involved in breakdown of skin collagen.[3] The extract has also been studied as a natural antioxidant in foods such as cooked beef.[4]"]},
-{"h":"Clinical studies","paras":["A 2012 Cochrane review, updated in 2020, concluded the evidence was insufficient to support use of the extract for any of the conditions studied.[1] Registered human trials have examined hypertension (UPBEAT, n=130),[5] ADHD,[6][7] lymphedema in breast-cancer survivors,[8] gingival inflammation,[9] traumatic brain injury,[10] and cognitive decline in combination with fish oil.[11] A study of a pine bark extract supplement reported changes in plasma antioxidant capacity and lipoprotein profile.[12] None of the reviewed human studies examined skin or appearance outcomes."]}
-],
-"timeline":[{"year":"1979","event":"Masquelier uses the name Pycnogenol for his extract.[1]"}],
-"lore":null,
-"refs":[
-{"id":1,"title":"Maritime pine bark extract","url":"https://en.wikipedia.org/wiki/Pycnogenol","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":2,"title":"A review of the French maritime pine bark extract (Pycnogenol), a herbal medication with a diverse clinical pharmacology","url":"https://pubmed.ncbi.nlm.nih.gov/11996210/","source":"International Journal of Clinical Pharmacology and Therapeutics","year":2002,"type":"review"},
-{"id":3,"title":"Antioxidant activity and inhibition of matrix metalloproteinases by metabolites of maritime pine bark extract (pycnogenol)","url":"https://pubmed.ncbi.nlm.nih.gov/14990359/","source":"Free Radical Biology & Medicine","year":2004,"type":"study"},
-{"id":4,"title":"Effects of plant extracts on microbial growth, color change, and lipid oxidation in cooked beef","url":"https://pubmed.ncbi.nlm.nih.gov/16943089/","source":"Food Microbiology","year":2007,"type":"study"},
-{"id":5,"title":"NCT00425945: Understanding Pine Bark Extract as an Alternative Treatment (UPBEAT) Study","url":"https://clinicaltrials.gov/study/NCT00425945","source":"ClinicalTrials.gov","year":2006,"type":"trial"},
-{"id":6,"title":"NCT03368690: Therapeutic Effects of Pine Bark Extracts in ADHD","url":"https://clinicaltrials.gov/study/NCT03368690","source":"ClinicalTrials.gov","year":2017,"type":"trial"},
-{"id":7,"title":"NCT02700685: Effect of Pycnogenol on ADHD","url":"https://clinicaltrials.gov/study/NCT02700685","source":"ClinicalTrials.gov","year":2017,"type":"trial"},
-{"id":8,"title":"NCT00064857: Pycnogenol for Lymphedema of the Arm in Breast Cancer Survivors","url":"https://clinicaltrials.gov/study/NCT00064857","source":"ClinicalTrials.gov","year":2003,"type":"trial"},
-{"id":9,"title":"NCT05786820: Impact of Pycnogenol on Gingival Inflammation","url":"https://clinicaltrials.gov/study/NCT05786820","source":"ClinicalTrials.gov","year":2022,"type":"trial"},
-{"id":10,"title":"NCT03777683: French Maritime Pine Bark Extract in Traumatic Brain Injury Patients","url":"https://clinicaltrials.gov/study/NCT03777683","source":"ClinicalTrials.gov","year":2019,"type":"trial"},
-{"id":11,"title":"NCT05573269: Fish Oil Combined With Pine Bark Extract on Cognitive Decline","url":"https://clinicaltrials.gov/study/NCT05573269","source":"ClinicalTrials.gov","year":2021,"type":"trial"},
-{"id":12,"title":"Supplementation with a pine bark extract rich in polyphenols increases plasma antioxidant capacity and alters the plasma lipoprotein profile","url":"https://pubmed.ncbi.nlm.nih.gov/12530550/","source":"Lipids","year":2002,"type":"study"}
-],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Pycnogenol","title":"Pycnogenol / Maritime pine bark extract - Wikipedia"}],
-"card":{"summary":"A polyphenol antioxidant supplement (Pycnogenol); studied for many conditions, not for appearance.","aka":"Pycnogenol, maritime pine bark extract","evidence":"unproven","status":"otc","outcome":null,"risk":null,"price":null,"note":"A Cochrane review found insufficient evidence for the conditions studied; no appearance trials found.","structure":null},
-"quick":{"overview":"Pine bark extract is a proanthocyanidin-rich supplement from French maritime pine, best known under the trademark Pycnogenol. It is promoted as an antioxidant.\n\nHuman trials have looked at blood pressure, ADHD and other conditions; a Cochrane review judged the evidence insufficient. No skin-appearance trials were found.","mechanism":"Laboratory work reports antioxidant activity and inhibition of matrix metalloproteinases, which are linked to collagen breakdown.","risks":"Safety information was not detailed in the reviewed sources."}
+ "name": "Pine bark extract",
+ "lead": [
+  "Maritime pine bark extract is a dietary supplement made from the bark of Pinus pinaster, consisting mostly of proanthocyanidins (procyanidins). Pycnogenol is a trademarked standardised version containing 70% procyanidins.[1] It is sold as an antioxidant and appears in capsules, in some beauty-from-within supplements and in some skincare products.",
+  "For appearance, the interest lies in skin. Laboratory work has reported that metabolites of the extract show antioxidant activity and inhibit matrix metalloproteinases, enzymes involved in breakdown of skin collagen,[3] and a 2024 review by authors summarising the manufacturer's randomized trials lists skin health among the domains studied and describes reinforcing effects on the extracellular matrix.[15] A 2002 clinical trial examined the extract for melasma, a pigmentation condition.[16]",
+  "According to Wikipedia, the French researcher Jack Masquelier developed the extract after reading an account of Jacques Cartier's expedition in which Native Americans were described drinking a bark tea, and he used the name Pycnogenol in 1979.[1] Researchers have also studied it in asthma, ADHD, blood pressure, venous insufficiency and osteoarthritis. A Cochrane review, updated in 2020, found insufficient evidence for efficacy across several of these conditions.[1]"
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Plant polyphenol extract (supplement)"
+  ],
+  [
+   "Source",
+   "Bark of Pinus pinaster (French maritime pine)"
+  ],
+  [
+   "Main constituents",
+   "Proanthocyanidins; Pycnogenol is standardised to 70% procyanidins[1]"
+  ],
+  [
+   "Brand",
+   "Pycnogenol (trademark)[1]"
+  ],
+  [
+   "Name coined",
+   "1979, Jack Masquelier[1]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description and composition",
+   "paras": [
+    "The extract is composed mostly of proanthocyanidins, plant polyphenols that are also found in grape seed and other plant sources.[1] Pycnogenol, the best-known branded form, is a standardised preparation with 70% procyanidins.[1] Generic pine bark extracts vary in how they are standardised, and products are sold as capsules and tablets as well as ingredients in topical formulations. Pine bark and related plant extracts have also been used as natural antioxidants in foods, for example in studies of cooked beef.[4]"
+   ]
+  },
+  {
+   "h": "Use for appearance",
+   "paras": [
+    "Cosmetic interest follows two lines of reasoning. The first is photoprotection and collagen preservation: antioxidants are described in dermatology reviews as one category of ingredients used to counter oxidative damage in skin,[17] and laboratory work reports that extract metabolites inhibit matrix metalloproteinases, the enzymes that degrade collagen and elastin.[3] The second is pigmentation: a 2002 clinical trial titled for melasma treatment with Pycnogenol examined whether the extract could help even out skin tone.[16]",
+    "People using it for looks typically take it as a daily oral supplement over weeks to months alongside sunscreen and a skincare routine, or choose skincare products that list it as an antioxidant ingredient. Circulation is the third route mentioned: improved leg vein appearance in venous insufficiency is among the outcomes studied for the extract,[14] and spider-vein and puffy-ankle appearance is one reason people explore venous-support supplements."
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Masquelier is reported to have searched for the active substances in the tea described in Cartier's account, identified maritime pine bark as a source, and extracted its proanthocyanidins.[1] He used the name Pycnogenol in 1979.[1] The preparation grew into a commercial ingredient sold internationally, and a 2002 pharmacology review described it as a herbal medication with diverse clinical pharmacology.[2] A 2024 review by the extract's research community counted 39 randomized, double-blind, placebo-controlled trials with 2,009 subjects.[15]"
+   ]
+  },
+  {
+   "h": "Use in lifting and TRT forums",
+   "paras": [
+    "Pine bark extract turns up in bodybuilding and testosterone-therapy communities less for skin than for circulation. On T Nation, members discuss it alongside L-arginine and other supplements aimed at nitric oxide and erection quality; one poster in a thread about erectile dysfunction on TRT asks whether others have tried pycnogenol and L-arginine, and the thread contains no reply on either.[20] A 2019 meta-analysis of arginine supplements in erectile dysfunction is the nearest published context for the arginine half of that pairing.[21]",
+    "The same forums mention it in joint-comfort and antioxidant stacks, and a 2018 meta-analysis of supplements for osteoarthritis included pycnogenol among seven with large short-term pain reductions, which is the research behind the joint use.[13] A registered healthy-volunteer study has examined pine bark extract for anti-fatigue ergogenic effects, with results not found in the listing.[22]"
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "paras": [
+    "A 2002 review described Pycnogenol as having diverse pharmacology and discussed possible target sites.[2] Laboratory work reported that metabolites of the extract showed antioxidant activity and inhibited matrix metalloproteinases.[3] A study of a pine bark extract supplement in people reported higher plasma antioxidant capacity and altered lipoprotein profile.[12] The 2024 review describes antioxidative effects, anti-inflammatory abilities, beneficial effects on endothelial function and reinforcing effects on the extracellular matrix as mechanisms discussed in the trial literature.[15]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A 2012 Cochrane review, updated in 2020, concluded that evidence was insufficient to support the extract for the conditions it examined, including asthma, ADHD, blood pressure, venous insufficiency pain, blood glucose, knee osteoarthritis and cognition after brain injury.[1] A separate Cochrane review of phlebotonics for chronic venous insufficiency covers plant-derived venoactive products as a class.[14]",
+    "A 2018 meta-analysis of dietary supplements for osteoarthritis found that pycnogenol was one of seven supplements with large short-term pain reductions, although the authors noted that few had clinically important effects at medium term.[13] The 2024 review by authors summarising manufacturer-linked randomized trials counts 39 placebo-controlled trials in 2,009 participants over two weeks to six months, covering cardiovascular, venous, cognitive, joint, skin, eye, women's, respiratory, oral and sports domains.[15] Individual trials include a 2006 controlled study of pregnancy-related pain at 30 mg per day showing reduced pain scores,[18] a 2011 controlled study in asthma management,[19] and the 2002 melasma trial.[16]",
+    "Registered human trials have examined hypertension (UPBEAT, n=130),[5] ADHD,[6][7] lymphedema in breast-cancer survivors,[8] gingival inflammation,[9] traumatic brain injury,[10] and cognitive decline in combination with fish oil.[11]",
+    "Skin-specific human data remain the 2002 melasma study and the skin-health domain counted in the 2024 review.[15][16] More recent randomized work includes a 2025 placebo-controlled trial of Pycnogenol on salivary and serum inflammatory biomarkers during non-surgical periodontal therapy, and a 2016 and 2020 Cochrane update of phlebotonics, the drug class that includes plant-derived venoactive products, for chronic venous insufficiency.[23][14][24]"
+   ]
+  },
+  {
+   "h": "Safety",
+   "paras": [
+    "Safety information in the cited trial literature is limited to what individual studies report; the Cochrane reviews and trial summaries should be consulted for adverse-event details.[1][14] Because the extract has been studied for effects on blood pressure and circulation, people on blood pressure or blood-thinning medicines are generally advised by clinicians to discuss supplements with a pharmacist or physician."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1979",
+   "event": "Masquelier uses the name Pycnogenol for his extract.[1]"
+  },
+  {
+   "year": "2002",
+   "event": "Pharmacology review published; melasma clinical trial published.[2][16]"
+  },
+  {
+   "year": "2012",
+   "event": "Cochrane review of the extract first published; updated 2020.[1]"
+  },
+  {
+   "year": "2024",
+   "event": "Review counts 39 randomized placebo-controlled trials with 2,009 participants.[15]"
+  }
+ ],
+ "lore": {
+  "intro": "Pine bark extract is discussed in lifting and hormone-therapy forums mainly as a circulation and nitric-oxide supplement, usually paired with L-arginine; appearance claims centre on skin and leg veins in beauty-supplement marketing.[20]",
+  "claims": [
+   {
+    "claim": "Pycnogenol plus L-arginine supports erections and circulation",
+    "believers": "T Nation posters ask about and recommend the pairing for erection quality, especially among men on testosterone therapy.[20]",
+    "experts": "A 2019 meta-analysis addresses arginine supplements for erectile dysfunction; a thread on this topic contained no replies on pycnogenol itself, and the combination's published evidence is limited to small studies.[21][20]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Oral pine bark extract improves skin quality and reduces pigmentation",
+    "believers": "Beauty-supplement marketing cites the extract's antioxidant and collagen-protective laboratory effects.[3]",
+    "experts": "Laboratory work reports antioxidant activity and MMP inhibition by metabolites, and a 2002 clinical trial examined melasma, but larger controlled skin trials are not listed in the reviews.[3][16][15]",
+    "evidence": "limited"
+   },
+   {
+    "claim": "It eases joint pain so people can keep training",
+    "believers": "Lifters use it in joint-comfort stacks alongside curcumin and collagen.[13]",
+    "experts": "A 2018 meta-analysis found large short-term pain reductions for pycnogenol among osteoarthritis supplements, with few clinically important effects at medium term.[13]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Maritime pine bark extract",
+   "url": "https://en.wikipedia.org/wiki/Pycnogenol",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "A review of the French maritime pine bark extract (Pycnogenol), a herbal medication with a diverse clinical pharmacology",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11996210/",
+   "source": "International Journal of Clinical Pharmacology and Therapeutics",
+   "year": 2002,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Antioxidant activity and inhibition of matrix metalloproteinases by metabolites of maritime pine bark extract (pycnogenol)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14990359/",
+   "source": "Free Radical Biology & Medicine",
+   "year": 2004,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Effects of plant extracts on microbial growth, color change, and lipid oxidation in cooked beef",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16943089/",
+   "source": "Food Microbiology",
+   "year": 2007,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "NCT00425945: Understanding Pine Bark Extract as an Alternative Treatment (UPBEAT) Study",
+   "url": "https://clinicaltrials.gov/study/NCT00425945",
+   "source": "ClinicalTrials.gov",
+   "year": 2006,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "NCT03368690: Therapeutic Effects of Pine Bark Extracts in ADHD",
+   "url": "https://clinicaltrials.gov/study/NCT03368690",
+   "source": "ClinicalTrials.gov",
+   "year": 2017,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "NCT02700685: Effect of Pycnogenol on ADHD",
+   "url": "https://clinicaltrials.gov/study/NCT02700685",
+   "source": "ClinicalTrials.gov",
+   "year": 2017,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "NCT00064857: Pycnogenol for Lymphedema of the Arm in Breast Cancer Survivors",
+   "url": "https://clinicaltrials.gov/study/NCT00064857",
+   "source": "ClinicalTrials.gov",
+   "year": 2003,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "NCT05786820: Impact of Pycnogenol on Gingival Inflammation",
+   "url": "https://clinicaltrials.gov/study/NCT05786820",
+   "source": "ClinicalTrials.gov",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "NCT03777683: French Maritime Pine Bark Extract in Traumatic Brain Injury Patients",
+   "url": "https://clinicaltrials.gov/study/NCT03777683",
+   "source": "ClinicalTrials.gov",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "NCT05573269: Fish Oil Combined With Pine Bark Extract on Cognitive Decline",
+   "url": "https://clinicaltrials.gov/study/NCT05573269",
+   "source": "ClinicalTrials.gov",
+   "year": 2021,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "Supplementation with a pine bark extract rich in polyphenols increases plasma antioxidant capacity and alters the plasma lipoprotein profile",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12530550/",
+   "source": "Lipids",
+   "year": 2002,
+   "type": "study"
+  },
+  {
+   "id": 13,
+   "title": "Dietary supplements for treating osteoarthritis: a systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29018060/",
+   "source": "British Journal of Sports Medicine",
+   "year": 2018,
+   "type": "review"
+  },
+  {
+   "id": 14,
+   "title": "Phlebotonics for venous insufficiency",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33141449/",
+   "source": "Cochrane Database of Systematic Reviews",
+   "year": 2020,
+   "type": "review"
+  },
+  {
+   "id": 15,
+   "title": "Pycnogenol French maritime pine bark extract in randomized, double-blind, placebo-controlled human clinical studies",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38757130/",
+   "source": "Frontiers in Nutrition",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 16,
+   "title": "Treatment of melasma with Pycnogenol",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12237816/",
+   "source": "Phytotherapy Research",
+   "year": 2002,
+   "type": "study"
+  },
+  {
+   "id": 17,
+   "title": "Natural antioxidants",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18681153/",
+   "source": "Journal of Drugs in Dermatology",
+   "year": 2008,
+   "type": "review"
+  },
+  {
+   "id": 18,
+   "title": "Pycnogenol alleviates pain associated with pregnancy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16521117/",
+   "source": "Phytotherapy Research",
+   "year": 2006,
+   "type": "study"
+  },
+  {
+   "id": 19,
+   "title": "Pycnogenol improvements in asthma management",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22108478/",
+   "source": "Panminerva Medica",
+   "year": 2011,
+   "type": "study"
+  },
+  {
+   "id": 20,
+   "title": "T Nation forum: Have You Overcome TRT Induced ED?",
+   "url": "https://t-nation.com/t/have-you-overcome-trt-induced-ed/281396",
+   "source": "T Nation",
+   "year": 2023,
+   "type": "forum"
+  },
+  {
+   "id": 21,
+   "title": "The Potential Role of Arginine Supplements on Erectile Dysfunction: A Systemic Review and Meta-Analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30770070/",
+   "source": "Journal of Sexual Medicine",
+   "year": 2019,
+   "type": "review"
+  },
+  {
+   "id": 22,
+   "title": "NCT07440394: Evaluation of Pine Bark Extract for Anti-fatigue Ergogenic Properties",
+   "url": "https://clinicaltrials.gov/study/NCT07440394",
+   "source": "ClinicalTrials.gov",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 23,
+   "title": "Impact of a Dietary Supplementation with French Maritime Pine Bark Extract Pycnogenol on Salivary and Serum Inflammatory Biomarkers During Non-Surgical Periodontal Therapy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40362854/",
+   "source": "Nutrients",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 24,
+   "title": "Phlebotonics for venous insufficiency",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27048768/",
+   "source": "Cochrane Database of Systematic Reviews",
+   "year": 2016,
+   "type": "review"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Pycnogenol",
+   "title": "Pycnogenol / Maritime pine bark extract - Wikipedia"
+  },
+  {
+   "url": "https://t-nation.com/t/have-you-overcome-trt-induced-ed/281396",
+   "title": "Have You Overcome TRT Induced ED? - T Nation"
+  }
+ ],
+ "card": {
+  "summary": "A polyphenol antioxidant supplement (Pycnogenol); studied for many conditions, not for appearance.",
+  "aka": "Pycnogenol, maritime pine bark extract",
+  "evidence": "unproven",
+  "status": "otc",
+  "outcome": null,
+  "risk": null,
+  "price": null,
+  "note": "A Cochrane review found insufficient evidence for the conditions studied; no appearance trials found.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Pine bark extract is a proanthocyanidin-rich supplement from French maritime pine, best known under the trademark Pycnogenol. It is promoted as an antioxidant.\n\nHuman trials have looked at blood pressure, ADHD and other conditions; a Cochrane review judged the evidence insufficient. No skin-appearance trials were found.",
+  "mechanism": "Laboratory work reports antioxidant activity and inhibition of matrix metalloproteinases, which are linked to collagen breakdown.",
+  "risks": "Safety information was not detailed in the reviewed sources."
+ },
+ "angle": {
+  "goal": "Skin quality",
+  "chain": [
+   "Oral proanthocyanidin supplement taken",
+   "Antioxidant activity and inhibition of collagen-degrading enzymes reported in lab work",
+   "Aim: healthier-looking, more even skin over time"
+  ],
+  "effect": "claimed",
+  "text": "People take pine bark extract, usually as capsules, or use skincare products containing it, aiming for firmer, more even-toned skin by way of its antioxidant polyphenols. The route to appearance is a laboratory-based chain through collagen-protecting enzyme inhibition and antioxidant activity; the skin-related human work is small and includes a melasma trial."
+ }
 }

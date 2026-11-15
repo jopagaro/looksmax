@@ -1,308 +1,470 @@
 {
-  "name": "Vitamin B12 / anemia correction",
-  "card": {
-    "summary": "Treating B12 deficiency or anemia is standard medicine; any appearance gain (paleness, dark circles) applies only where deficiency is the cause.",
-    "aka": "Cobalamin, iron/B12 repletion",
-    "evidence": "limited",
-    "status": "otc",
-    "note": "Supplementation benefits are established for deficiency; evidence for appearance benefits in people without it is not documented in the sources reviewed.",
-    "structure": "Cyanocobalamin"
-  },
-  "quick": {
-    "overview": "Vitamin B12 deficiency can cause anemia, pale skin, hair color changes, mouth problems and neurological symptoms, and is treated with oral or injected B12. Looksmaxxing discussion links correcting anemia to fixing pallor and under-eye circles.\n\nReferences note that iron and B12 deficiency are believed to contribute to dark circles by making skin paler so vessels show through. That applies to people who are deficient; supplementing without a deficiency has not been shown in these sources to change appearance.",
-    "mechanism": "B12 is needed for DNA synthesis in blood-cell formation; deficiency produces large, poorly functioning red cells (megaloblastic anemia). Correcting the deficiency restores red-cell production.",
-    "risks": "Folic acid can mask B12-deficiency anemia while nerve damage progresses, and some neurological damage can be permanent if untreated. Diagnosis and treatment route (oral versus injection) are medical decisions; severe cases usually start with injections."
-  },
-  "lead": [
-    "Correcting vitamin B12 deficiency and the anemia it can cause is a way people with a low-B12 or low-iron state try to restore a healthier complexion. Deficiency is listed as a cause of pale skin, skin colour changes including dark circles under the eyes, premature greying and mouth problems such as ulcers and cracked mouth corners [1]. Appearance communities connect this to looks: when blood-cell counts recover, pallor, tired-looking eyes and dull skin can improve in people whose cause was deficiency.",
-    "B12 (cobalamin) is needed for DNA synthesis and for the maturation of red blood cells in bone marrow, and deficiency produces large, poorly functioning red cells (megaloblastic anemia) [2][3]. The usual causes are impaired absorption (pernicious anemia, stomach surgery, bowel disease, long-term metformin or acid-reducing drugs), low intake on unsupplemented vegan diets, or increased need [1][4][5]. Treatment is oral or injected B12, with severe cases usually starting with injections [1][6].",
-    "Reference material on dark circles states that iron and B12 deficiency are believed to contribute, because paler skin lets the vessels under the eyes show through, and lists many other causes such as pigmentation, thin lower-lid skin, allergy and fatigue [7]. Large trials of B12 for cosmetic outcomes have not been published; research has focused on deficiency, cognition, neuropathy and supplementation routes."
+ "name": "Vitamin B12 / anemia correction",
+ "card": {
+  "summary": "Treating B12 deficiency or anemia is standard medicine; any appearance gain (paleness, dark circles) applies only where deficiency is the cause.",
+  "aka": "Cobalamin, iron/B12 repletion",
+  "evidence": "limited",
+  "status": "otc",
+  "note": "Supplementation benefits are established for deficiency; evidence for appearance benefits in people without it is lacking.",
+  "structure": "Cyanocobalamin"
+ },
+ "quick": {
+  "overview": "Vitamin B12 deficiency can cause anemia, pale skin, hair color changes, mouth problems and neurological symptoms, and is treated with oral or injected B12. Looksmaxxing discussion links correcting anemia to fixing pallor and under-eye circles.\nReferences note that iron and B12 deficiency are believed to contribute to dark circles by making skin paler so vessels show through. That applies to people who are deficient; supplementing without a deficiency has not been shown in these sources to change appearance.",
+  "mechanism": "B12 is needed for DNA synthesis in blood-cell formation; deficiency produces large, poorly functioning red cells (megaloblastic anemia). Correcting the deficiency restores red-cell production.",
+  "risks": "Folic acid can mask B12-deficiency anemia while nerve damage progresses, and some neurological damage can be permanent if untreated. Diagnosis and treatment route (oral versus injection) are medical decisions; severe cases usually start with injections."
+ },
+ "lead": [
+  "Correcting vitamin B12 deficiency and the anemia it can cause is a way people with a low-B12 or low-iron state try to restore a healthier complexion. Deficiency is listed as a cause of pale skin, skin colour changes including dark circles under the eyes, premature greying and mouth problems such as ulcers and cracked mouth corners.[1] Appearance communities connect this to looks: when blood-cell counts recover, pallor, tired-looking eyes and dull skin can improve in people whose cause was deficiency.",
+  "B12 (cobalamin) is needed for DNA synthesis and for the maturation of red blood cells in bone marrow, and deficiency produces large, poorly functioning red cells (megaloblastic anemia).[2][3] The usual causes are impaired absorption (pernicious anemia, stomach surgery, bowel disease, long-term metformin or acid-reducing drugs), low intake on unsupplemented vegan diets, or increased need.[1][4][5] Treatment is oral or injected B12, with severe cases usually starting with injections.[1][6]",
+  "Skin signs are the most direct link to appearance. A 2015 dermatology review reports that the skin signs of B12 deficiency most often include darkened pigmentation, with hair, nail and mouth changes also occurring, and that these reverse with replacement; case reports in journals including the New England Journal of Medicine describe reversible hyperpigmentation.[20][22][23] Reference material on dark circles states that iron and B12 deficiency are believed to contribute, because paler skin lets the vessels under the eyes show through, and lists many other causes such as pigmentation, thin lower-lid skin, allergy and fatigue.[7]",
+  "The topic also has a reverse side that appearance communities discuss: B12 given by injection or by mouth has been reported to trigger acneiform eruptions in some people, and B12 injections are marketed for energy in wellness clinics without confirmed benefit in people who are not deficient.[2][20][21] Large trials of B12 for cosmetic outcomes have not been published; research has focused on deficiency, cognition, neuropathy and supplementation routes."
+ ],
+ "angle": {
+  "goal": "Skin & complexion",
+  "chain": [
+   "Deficiency of B12 or iron lowers healthy red-cell production",
+   "Skin looks paler and under-eye vessels show more",
+   "Replenishing the deficiency restores red-cell production and colour"
   ],
-  "angle": {
-    "goal": "Skin & complexion",
-    "chain": [
-      "Deficiency of B12 or iron lowers healthy red-cell production",
-      "Skin looks paler and under-eye vessels show more",
-      "Replenishing the deficiency restores red-cell production and colour"
-    ],
-    "effect": "indirect",
-    "text": "People who are deficient use B12 repletion to bring back a normal-looking complexion, reduce pallor and lessen the vascular look of the under-eye area. The change follows from fixing the underlying deficiency; dark circles with other causes, such as pigmentation or bone structure, have different drivers."
-  },
-  "infobox": [
-    [
-      "Class",
-      "Water-soluble vitamin (cobalamin)"
-    ],
-    [
-      "Forms",
-      "Cyanocobalamin, hydroxocobalamin, methylcobalamin, adenosylcobalamin"
-    ],
-    [
-      "Routes",
-      "Oral, sublingual, intramuscular injection"
-    ],
-    [
-      "Condition addressed",
-      "B12 deficiency / megaloblastic anemia"
-    ],
-    [
-      "Pernicious anemia described",
-      "Thomas Addison, 1849 onward"
-    ],
-    [
-      "Nobel Prize for liver therapy",
-      "1934 (Whipple, Murphy, Minot)"
-    ]
+  "effect": "indirect",
+  "text": "People who are deficient use B12 repletion to bring back a normal-looking complexion, reduce pallor and lessen the vascular look of the under-eye area. The change follows from fixing the underlying deficiency; dark circles with other causes, such as pigmentation or bone structure, have different drivers."
+ },
+ "infobox": [
+  [
+   "Class",
+   "Water-soluble vitamin (cobalamin)[2]"
   ],
-  "sections": [
-    {
-      "h": "Medical background",
-      "paras": [
-        "Pernicious anemia, an autoimmune loss of intrinsic factor, is the leading cause of deficiency in developed countries, and other contributors include gastrectomy, gastric bypass, Crohn's and coeliac disease, and long-term use of proton pump inhibitors or metformin [1][5]. A 2016 analysis of the Diabetes Prevention Program Outcomes Study examined deficiency with long-term metformin use [8].",
-        "Diets without animal products supply little B12 unless fortified foods or supplements are used. A 2024 meta-analysis of functional B12 markers in adult vegans reported an elevated risk of functional deficiency compared with vegetarians and omnivores, and examined how supplement use changed status [9]. A systematic review of plant-based diets also assessed nutrient intake and status [10]."
-      ]
-    },
-    {
-      "h": "Appearance relevance",
-      "paras": [
-        "Listed signs of deficiency include pale skin, hyperpigmentation including under-eye darkening, hair loss, premature greying, mouth ulcers, a sore tongue and cracked mouth corners [1]. Anemia itself can leave skin pallid, which can make the veins under thin eyelid skin more visible [7].",
-        "Dark circles are multifactorial: genetics, pigmentation, allergy, eye rubbing, thin skin, sun exposure and fatigue are all described [7]. Where deficiency is a contributor, correcting it is the route proponents describe for improving the look of the area."
-      ]
-    },
-    {
-      "h": "Treatment",
-      "paras": [
-        "Treatment is by oral or injected B12, and clinicians generally begin severe cases with injections before moving to maintenance [1][6]. A 2024 network meta-analysis of 13 comparative studies compared oral, sublingual and intramuscular routes; the intramuscular route ranked first for raising B12 levels, though differences did not reach statistical significance and haemoglobin outcomes did not differ between routes [11].",
-        "Reviews in the New England Journal of Medicine and the BMJ describe diagnosis and management, including that folic acid alone can mask the anemia while nerve damage continues [3][5][1]. Lifelong supplementation is usually recommended when the cause cannot be reversed [1]."
-      ]
-    },
-    {
-      "h": "History",
-      "paras": [
-        "Thomas Addison described pernicious anemia in the nineteenth century [1]. In the 1920s George Whipple found liver restored blood in anemic dogs, and in 1934 Whipple, William Murphy and George Minot shared the Nobel Prize for liver-based therapy, later understood to work through its B12 content [2]. Mid-twentieth-century reviews of the newly characterised vitamin appeared in 1952 and 1956 [12][13]."
-      ]
-    },
-    {
-      "h": "Use in looksmaxxing communities",
-      "paras": [
-        "A looksmax.org guide thread presents B12 as part of the B-complex involved in cell formation and repair and as relevant to muscle gain, while noting that very high levels have not been shown to help with weight loss [14]. T Nation posters discussing very low serum B12 despite eating a lot of red meat describe a clinician attributing it to malabsorption [15]. A T Nation article on vitamin deficiencies and motivation discusses B12 status in vegans and vegetarians [16]."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found on B12 or anemia correction for cosmetic outcomes such as skin colour or dark circles.",
-        "Research on B12 itself covers deficiency and its routes of treatment [11], cognition, depression and fatigue in people without overt deficiency (a 2021 meta-analysis of 16 randomised trials with 6,276 participants found no evidence of effect on cognitive subdomains or depression) [17], and diabetic neuropathy in metformin users, where a one-year randomised trial of oral methylcobalamin was run in 90 patients [18]. Registered trials of iron replacement exist for iron-deficiency anemia, such as daily oral iron in adults (NCT05185024), but do not address appearance [19]."
-      ]
-    }
+  [
+   "Forms",
+   "Cyanocobalamin, hydroxocobalamin, methylcobalamin, adenosylcobalamin[2]"
   ],
-  "timeline": [
-    {
-      "year": "1849",
-      "event": "Thomas Addison begins describing pernicious anemia. [1]"
-    },
-    {
-      "year": "1934",
-      "event": "Whipple, Murphy and Minot receive the Nobel Prize for liver therapy, later linked to B12. [2]"
-    },
-    {
-      "year": "1952",
-      "event": "Early review articles on vitamin B12 appear in the medical literature. [12]"
-    },
-    {
-      "year": "2013",
-      "event": "NEJM clinical practice review of B12 deficiency published. [3]"
-    },
-    {
-      "year": "2024",
-      "event": "Network meta-analysis compares oral, sublingual and intramuscular B12 routes. [11]"
-    }
+  [
+   "Routes",
+   "Oral, sublingual, intramuscular injection[6][11]"
   ],
-  "lore": {
-    "intro": "B12 comes up in looksmaxxing and fitness forums as a general-health vitamin tied to energy, cell repair and muscle, and in deficiency discussions among vegans and people with malabsorption [14][15][16].",
-    "claims": [
-      {
-        "claim": "B12 supports cell repair and muscle gain",
-        "believers": "A looksmax.org guide thread describes B12 as important for the formation and repair of cells and for gaining muscle mass [14].",
-        "experts": "A 2021 meta-analysis of randomised trials in people without overt deficiency found no evidence of effect on cognition or depression; trials for muscle outcomes are not reported in the sources reviewed [17].",
-        "evidence": "untested"
-      },
-      {
-        "claim": "Low B12 can occur even in heavy meat eaters, through poor absorption",
-        "believers": "A T Nation poster with very low serum B12 despite eating a lot of red meat said a doctor attributed it to malabsorption after pernicious anemia testing was negative [15].",
-        "experts": "Clinical reviews list impaired absorption (pernicious anemia, gastric surgery, bowel disease, metformin, acid-reducing drugs) as the main cause in developed countries [1][3].",
-        "evidence": "supported"
-      },
-      {
-        "claim": "Vegans and vegetarians need to watch B12 status",
-        "believers": "A T Nation article states that vegans and vegetarians show mental-health and energy problems tied to this vitamin deficiency [16].",
-        "experts": "A 2024 meta-analysis reported a higher risk of functional B12 deficiency among unsupplemented vegans [9].",
-        "evidence": "supported"
-      }
-    ]
-  },
-  "refs": [
-    {
-      "id": 1,
-      "title": "Vitamin B12 deficiency",
-      "url": "https://en.wikipedia.org/wiki/Vitamin_B12_deficiency",
-      "source": "Wikipedia",
-      "year": 2025,
-      "type": "encyclopedia"
-    },
-    {
-      "id": 2,
-      "title": "Vitamin B12",
-      "url": "https://en.wikipedia.org/wiki/Vitamin_B12",
-      "source": "Wikipedia",
-      "year": 2025,
-      "type": "encyclopedia"
-    },
-    {
-      "id": 3,
-      "title": "Clinical practice. Vitamin B12 deficiency",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/23301732/",
-      "source": "New England Journal of Medicine",
-      "year": 2013,
-      "type": "review"
-    },
-    {
-      "id": 4,
-      "title": "Vitamin B12 deficiency",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/25189324/",
-      "source": "BMJ",
-      "year": 2014,
-      "type": "review"
-    },
-    {
-      "id": 5,
-      "title": "Vitamin B12 deficiency (BMJ review)",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/25189324/",
-      "source": "BMJ",
-      "year": 2014,
-      "type": "review"
-    },
-    {
-      "id": 6,
-      "title": "Efficacy of different routes of vitamin B12 supplementation: systematic review and network meta-analysis",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38231320/",
-      "source": "Irish Journal of Medical Science",
-      "year": 2024,
-      "type": "review"
-    },
-    {
-      "id": 7,
-      "title": "Periorbital dark circles",
-      "url": "https://en.wikipedia.org/wiki/Periorbital_dark_circles",
-      "source": "Wikipedia",
-      "year": 2025,
-      "type": "encyclopedia"
-    },
-    {
-      "id": 8,
-      "title": "Long-term Metformin Use and Vitamin B12 Deficiency in the Diabetes Prevention Program Outcomes Study",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/26900641/",
-      "source": "J Clin Endocrinol Metab",
-      "year": 2016,
-      "type": "trial"
-    },
-    {
-      "id": 9,
-      "title": "Functional vitamin B12 status among adult vegans: systematic review and meta-analysis",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39373282/",
-      "source": "Nutrition Bulletin",
-      "year": 2024,
-      "type": "review"
-    },
-    {
-      "id": 10,
-      "title": "Nutrient Intake and Status in Adults Consuming Plant-Based Diets Compared to Meat-Eaters",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/35010904/",
-      "source": "Nutrients",
-      "year": 2021,
-      "type": "review"
-    },
-    {
-      "id": 11,
-      "title": "Efficacy of different routes of vitamin B12 supplementation (network meta-analysis)",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38231320/",
-      "source": "Irish Journal of Medical Science",
-      "year": 2024,
-      "type": "review"
-    },
-    {
-      "id": 12,
-      "title": "Vitamin B12",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/14947385/",
-      "source": "Medical World",
-      "year": 1952,
-      "type": "study"
-    },
-    {
-      "id": 13,
-      "title": "Vitamin B12",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/13284304/",
-      "source": "British Medical Bulletin",
-      "year": 1956,
-      "type": "study"
-    },
-    {
-      "id": 14,
-      "title": "Guide Vitamin B12 Guide",
-      "url": "https://looksmax.org/threads/vitamin-b12-guide.508320/",
-      "source": "looksmax.org",
-      "year": 2022,
-      "type": "forum"
-    },
-    {
-      "id": 15,
-      "title": "Bad Absorption or High Metabolism?",
-      "url": "https://t-nation.com/t/bad-absorption-or-high-metabolism/183201",
-      "source": "T Nation forum",
-      "year": 2012,
-      "type": "forum"
-    },
-    {
-      "id": 16,
-      "title": "A Vitamin Deficiency That Kills Motivation",
-      "url": "https://t-nation.com/t/a-vitamin-deficiency-that-kills-motivation/289124",
-      "source": "T Nation",
-      "year": 2024,
-      "type": "forum"
-    },
-    {
-      "id": 17,
-      "title": "Effects of Vitamin B12 Supplementation on Cognitive Function, Depressive Symptoms, and Fatigue",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/33809274/",
-      "source": "Nutrients",
-      "year": 2021,
-      "type": "review"
-    },
-    {
-      "id": 18,
-      "title": "Vitamin B12 Supplementation in Diabetic Neuropathy: A 1-Year Randomized Trial",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/33513879/",
-      "source": "Nutrients",
-      "year": 2021,
-      "type": "trial"
-    },
-    {
-      "id": 19,
-      "title": "Daily Oral Iron Supplementation for Replenishment of Depleted Iron in Adults (NCT05185024)",
-      "url": "https://clinicaltrials.gov/study/NCT05185024",
-      "source": "ClinicalTrials.gov",
-      "year": 2022,
-      "type": "trial"
-    }
+  [
+   "Condition addressed",
+   "B12 deficiency / megaloblastic anemia[1]"
   ],
-  "webSources": [
-    {
-      "url": "https://en.wikipedia.org/wiki/Vitamin_B12_deficiency",
-      "title": "Vitamin B12 deficiency - Wikipedia"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Periorbital_dark_circles",
-      "title": "Periorbital dark circles - Wikipedia"
-    }
+  [
+   "Appearance-linked signs",
+   "Pallor, hyperpigmentation, premature greying, mouth ulcers, dark circles[1][20]"
+  ],
+  [
+   "Adult US RDA",
+   "2.4 micrograms per day[2]"
+  ],
+  [
+   "Pernicious anemia described",
+   "Thomas Addison, 1849 onward[1]"
+  ],
+  [
+   "Nobel Prize for liver therapy",
+   "1934 (Whipple, Murphy, Minot)[1]"
+  ],
+  [
+   "Structure determined",
+   "Dorothy Hodgkin, published 1955-1956; Nobel Prize in Chemistry 1964[2]"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Medical background",
+   "paras": [
+    "Pernicious anemia, an autoimmune loss of intrinsic factor, is the leading cause of deficiency in developed countries, and other contributors include gastrectomy, gastric bypass, Crohn's and coeliac disease, and long-term use of proton pump inhibitors or metformin.[1][5] A 2016 analysis of the Diabetes Prevention Program Outcomes Study examined deficiency with long-term metformin use.[8] Wikipedia reports pernicious anemia in roughly 2-3 percent of people over 65 and deficiency in about 6 percent of people under 60 and about 20 percent of those over 60 in the US and UK.[1]",
+    "Diets without animal products supply little B12 unless fortified foods or supplements are used.[2] A 2024 meta-analysis of functional B12 markers in adult vegans reported an elevated risk of functional deficiency compared with vegetarians and omnivores, and examined how supplement use changed status.[9] A systematic review of plant-based diets also assessed nutrient intake and status.[10]",
+    "Wikipedia gives a deficiency threshold of about 200 to 250 pg/mL, with raised methylmalonic acid or homocysteine supporting the diagnosis, and notes there is no gold-standard test and that deficiency can occur with normal serum levels.[1]"
+   ]
+  },
+  {
+   "h": "Appearance relevance",
+   "subs": [
+    {
+     "h": "Pallor and under-eye circles",
+     "paras": [
+      "Anemia itself can leave skin pallid, which can make the veins under thin eyelid skin more visible.[7] Dark circles are multifactorial: genetics, pigmentation, allergy, eye rubbing, thin skin, sun exposure and fatigue are all described; Wikipedia says iron and B12 deficiency are believed to contribute and notes the sourcing for this is thin.[7] Where deficiency is a contributor, correcting it is the route proponents describe for improving the look of the area."
+     ]
+    },
+    {
+     "h": "Pigmentation, hair and mouth",
+     "paras": [
+      "Listed signs of deficiency include pale skin, hyperpigmentation including under-eye darkening, hair loss, premature greying, mouth ulcers, a sore tongue and cracked mouth corners.[1] A 2015 review in the American Journal of Clinical Dermatology states that darkened pigmentation is the most common skin sign, that hair and nail changes and glossitis can occur, and that abnormal B12 levels, low or high, have been linked to vitiligo, aphthous stomatitis, atopic dermatitis and acne.[20]",
+      "Case reports describe hyperpigmentation, including on the hands and tongue, reversing after B12 replacement, among them a 2022 New England Journal of Medicine clinical image and a 2020 Indian Journal of Medical Research report titled as reversible hyperpigmentation of B12 deficiency.[22][23] These are individual cases of people who were deficient."
+     ]
+    },
+    {
+     "h": "Iron deficiency and hair",
+     "paras": [
+      "Iron deficiency is the most common nutritional deficiency worldwide, and a 2006 review in the Journal of the American Academy of Dermatology found studies linking it to hair loss mixed, with insufficient evidence for routine iron supplementation for hair loss in people without anemia; iron deficiency anemia itself should be treated.[24]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Treatment",
+   "paras": [
+    "Treatment is by oral or injected B12, and clinicians generally begin severe cases with injections before moving to maintenance.[1][6] Wikipedia notes large oral doses can also be absorbed passively without intrinsic factor.[2] A 2024 network meta-analysis of 13 comparative studies compared oral, sublingual and intramuscular routes; the intramuscular route ranked first for raising B12 levels, though differences did not reach statistical significance and haemoglobin outcomes did not differ between routes.[11]",
+    "Reviews in the New England Journal of Medicine and the BMJ describe diagnosis and management, including that folic acid alone can mask the anemia while nerve damage continues.[3][5][1] Lifelong supplementation is usually recommended when the cause cannot be reversed.[1] The route and dose are medical decisions made after testing."
+   ]
+  },
+  {
+   "h": "Adverse effects and skin reactions",
+   "paras": [
+    "The 2015 dermatology review notes that B12 therapy can cause skin problems including acne, rosacea and allergic reactions at injection sites, that anaphylaxis is possible with injections, and that people with cobalt sensitivity may react during replacement.[20]",
+    "A 2018 report in the Journal of Cosmetic Dermatology described five women aged 21 to 62 who developed acneiform eruptions on the face after B12 given by injection or orally; onset ranged from one week to five months, two had markedly elevated serum B12, and all cleared completely within three to six weeks of stopping.[21]"
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Thomas Addison described pernicious anemia between 1849 and 1887; other early descriptions came from Hayem (giant red cells), Ehrlich (megaloblasts) and Lichtheim (myelopathy).[1] In the 1920s George Whipple found liver restored blood in anemic dogs, Edwin Cohn later made a potent liver extract, William Castle identified an intrinsic factor, and in 1934 Whipple, William Murphy and George Minot shared the Nobel Prize for liver-based therapy.[1][2]",
+    "The active compound was isolated in the 1940s; Wikipedia credits Mary Shaw Shorb's bioassay and the work of Karl Folkers and Alexander Todd, and says Dorothy Hodgkin determined the full structure (published 1955 and 1956), winning the 1964 Nobel Prize in Chemistry. Robert Woodward and Albert Eschenmoser completed a laboratory synthesis in 1972.[2] Mid-twentieth-century reviews of the newly characterised vitamin appeared in 1952 and 1956.[12][13]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Wikipedia reports that in the 1970s Baltimore physician John Myers developed intravenous vitamin injections including cyanocobalamin, later known as the Myers' cocktail, and that other practitioners have offered intravenous micronutrient therapy for fatigue and low energy; it states the scientific literature does not confirm these benefits, and that a Mayo Clinic review found no solid evidence B12 injections boost energy or aid weight loss.[2] It also notes many elderly patients have received cyanocobalamin injections without prior testing or despite normal levels.[2]"
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing communities",
+   "paras": [
+    "A looksmax.org guide thread presents B12 as part of the B-complex involved in cell formation and repair and as relevant to muscle gain, while noting that very high levels have not been shown to help with weight loss.[14] T Nation posters discussing very low serum B12 despite eating a lot of red meat describe a clinician attributing it to malabsorption.[15] A T Nation article on vitamin deficiencies and motivation discusses B12 status in vegans and vegetarians.[16]",
+    "In appearance discussion, B12 and iron are mentioned mainly in two settings: as a check when someone has persistent pallor, dark circles, hair shedding or fatigue, and as part of general supplement stacks. Practitioners describe getting bloodwork to find out whether deficiency is present, since the appearance rationale applies to people who are deficient.[1][7]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found on B12 or anemia correction for cosmetic outcomes such as skin colour or dark circles. Related published work consists of case reports of reversible hyperpigmentation and a case series of acneiform eruptions.[21][22][23]",
+    "Research on B12 itself covers deficiency and its routes of treatment,[11] cognition, depression and fatigue in people without overt deficiency (a 2021 meta-analysis of 16 randomised trials with 6,276 participants found no evidence of effect on cognitive subdomains or depression),[17] and diabetic neuropathy in metformin users, where a one-year randomised trial of oral methylcobalamin was run in 90 patients.[18] Registered trials of iron replacement exist for iron-deficiency anemia, such as daily oral iron in adults (NCT05185024), but do not address appearance.[19]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1849",
+   "event": "Thomas Addison begins describing pernicious anemia.[1]"
+  },
+  {
+   "year": "1920s",
+   "event": "George Whipple finds liver restores blood in anemic dogs; Edwin Cohn later prepares a potent liver extract.[1]"
+  },
+  {
+   "year": "1934",
+   "event": "Whipple, Murphy and Minot receive the Nobel Prize for liver therapy, later linked to B12.[1]"
+  },
+  {
+   "year": "1952",
+   "event": "Early review articles on vitamin B12 appear in the medical literature.[12]"
+  },
+  {
+   "year": "1955",
+   "event": "Dorothy Hodgkin's structure of B12 is published (1955-1956); she receives the 1964 Nobel Prize in Chemistry.[2]"
+  },
+  {
+   "year": "1970s",
+   "event": "John Myers develops intravenous vitamin injections including cyanocobalamin, later called the Myers' cocktail.[2]"
+  },
+  {
+   "year": "1972",
+   "event": "Woodward and Eschenmoser complete the laboratory synthesis of B12.[2]"
+  },
+  {
+   "year": "2013",
+   "event": "NEJM clinical practice review of B12 deficiency published.[3]"
+  },
+  {
+   "year": "2015",
+   "event": "Dermatology review of vitamin B12 summarises skin signs of deficiency and B12-related skin reactions.[20]"
+  },
+  {
+   "year": "2018",
+   "event": "Case series of B12-induced acneiform eruptions in five women published.[21]"
+  },
+  {
+   "year": "2022",
+   "event": "NEJM clinical image reports hyperpigmentation in B12 deficiency.[23]"
+  },
+  {
+   "year": "2024",
+   "event": "Network meta-analysis compares oral, sublingual and intramuscular B12 routes.[11]"
+  }
+ ],
+ "lore": {
+  "intro": "B12 comes up in looksmaxxing and fitness forums as a general-health vitamin tied to energy, cell repair and muscle, in deficiency discussions among vegans and people with malabsorption, and in checks for pallor and dark circles.[14][15][16]",
+  "claims": [
+   {
+    "claim": "Fixing anemia or B12 deficiency removes pallor and dark circles",
+    "believers": "Proponents say that restoring a normal blood count brings back a more normal complexion and less tired-looking eyes in people who were deficient.",
+    "experts": "Wikipedia says iron and B12 deficiency are believed to contribute to dark circles but lists many other causes; no trial has tested correction for under-eye appearance.[7]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "B12 supports cell repair and muscle gain",
+    "believers": "A looksmax.org guide thread describes B12 as important for the formation and repair of cells and for gaining muscle mass.[14]",
+    "experts": "A 2021 meta-analysis of randomised trials in people without overt deficiency found no evidence of effect on cognition or depression; trials for muscle outcomes have not been reported.[17]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Low B12 can occur even in heavy meat eaters, through poor absorption",
+    "believers": "A T Nation poster with very low serum B12 despite eating a lot of red meat said a doctor attributed it to malabsorption after pernicious anemia testing was negative.[15]",
+    "experts": "Clinical reviews list impaired absorption (pernicious anemia, gastric surgery, bowel disease, metformin, acid-reducing drugs) as the main cause in developed countries.[1][3]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Vegans and vegetarians need to watch B12 status",
+    "believers": "A T Nation article states that vegans and vegetarians show mental-health and energy problems tied to this vitamin deficiency.[16]",
+    "experts": "A 2024 meta-analysis reported a higher risk of functional B12 deficiency among unsupplemented vegans.[9]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "B12 shots give an energy and appearance boost",
+    "believers": "Wellness clinics and users describe vitamin injections as boosting energy and vitality.[2]",
+    "experts": "Wikipedia reports a Mayo Clinic review found no solid evidence that B12 injections boost energy or aid weight loss, and notes many elderly patients are injected without testing.[2]",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "Extra B12 can clear up or darken skin",
+    "believers": "B12 is listed among B-vitamins for cell formation and repair in a looksmax.org guide, and some users add it to supplement stacks.[14]",
+    "experts": "Hyperpigmentation reverses with replacement in deficient patients, while case reports describe acneiform eruptions after B12 given orally or by injection.[20][21][22]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Iron correction stops hair shedding",
+    "believers": "Proponents connect low ferritin or anemia with hair shedding and a tired-looking complexion.",
+    "experts": "A 2006 review found studies linking iron deficiency to hair loss mixed and insufficient evidence for iron supplementation for hair loss in people without anemia.[24]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Vitamin B12 deficiency",
+   "url": "https://en.wikipedia.org/wiki/Vitamin_B12_deficiency",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Vitamin B12",
+   "url": "https://en.wikipedia.org/wiki/Vitamin_B12",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Clinical practice. Vitamin B12 deficiency",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23301732/",
+   "source": "New England Journal of Medicine",
+   "year": 2013,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Vitamin B12 deficiency",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25189324/",
+   "source": "BMJ",
+   "year": 2014,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Vitamin B12 deficiency (BMJ review)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25189324/",
+   "source": "BMJ",
+   "year": 2014,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Efficacy of different routes of vitamin B12 supplementation: systematic review and network meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38231320/",
+   "source": "Irish Journal of Medical Science",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Periorbital dark circles",
+   "url": "https://en.wikipedia.org/wiki/Periorbital_dark_circles",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 8,
+   "title": "Long-term Metformin Use and Vitamin B12 Deficiency in the Diabetes Prevention Program Outcomes Study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26900641/",
+   "source": "J Clin Endocrinol Metab",
+   "year": 2016,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Functional vitamin B12 status among adult vegans: systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39373282/",
+   "source": "Nutrition Bulletin",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 10,
+   "title": "Nutrient Intake and Status in Adults Consuming Plant-Based Diets Compared to Meat-Eaters",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35010904/",
+   "source": "Nutrients",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "Efficacy of different routes of vitamin B12 supplementation (network meta-analysis)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38231320/",
+   "source": "Irish Journal of Medical Science",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 12,
+   "title": "Vitamin B12",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14947385/",
+   "source": "Medical World",
+   "year": 1952,
+   "type": "study"
+  },
+  {
+   "id": 13,
+   "title": "Vitamin B12",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/13284304/",
+   "source": "British Medical Bulletin",
+   "year": 1956,
+   "type": "study"
+  },
+  {
+   "id": 14,
+   "title": "Guide Vitamin B12 Guide",
+   "url": "https://looksmax.org/threads/vitamin-b12-guide.508320/",
+   "source": "looksmax.org",
+   "year": 2022,
+   "type": "forum"
+  },
+  {
+   "id": 15,
+   "title": "Bad Absorption or High Metabolism?",
+   "url": "https://t-nation.com/t/bad-absorption-or-high-metabolism/183201",
+   "source": "T Nation forum",
+   "year": 2012,
+   "type": "forum"
+  },
+  {
+   "id": 16,
+   "title": "A Vitamin Deficiency That Kills Motivation",
+   "url": "https://t-nation.com/t/a-vitamin-deficiency-that-kills-motivation/289124",
+   "source": "T Nation",
+   "year": 2024,
+   "type": "forum"
+  },
+  {
+   "id": 17,
+   "title": "Effects of Vitamin B12 Supplementation on Cognitive Function, Depressive Symptoms, and Fatigue",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33809274/",
+   "source": "Nutrients",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 18,
+   "title": "Vitamin B12 Supplementation in Diabetic Neuropathy: A 1-Year Randomized Trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33513879/",
+   "source": "Nutrients",
+   "year": 2021,
+   "type": "trial"
+  },
+  {
+   "id": 19,
+   "title": "Daily Oral Iron Supplementation for Replenishment of Depleted Iron in Adults (NCT05185024)",
+   "url": "https://clinicaltrials.gov/study/NCT05185024",
+   "source": "ClinicalTrials.gov",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 20,
+   "title": "A review of vitamin B12 in dermatology",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25559140/",
+   "source": "American Journal of Clinical Dermatology",
+   "year": 2015,
+   "type": "review"
+  },
+  {
+   "id": 21,
+   "title": "Acneiform eruptions caused by vitamin B12: A report of five cases and review of the literature",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28594082/",
+   "source": "Journal of Cosmetic Dermatology",
+   "year": 2018,
+   "type": "study"
+  },
+  {
+   "id": 22,
+   "title": "Reversible hyperpigmentation of vitamin B12 deficiency",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35345222/",
+   "source": "Indian Journal of Medical Research",
+   "year": 2020,
+   "type": "study"
+  },
+  {
+   "id": 23,
+   "title": "Hyperpigmentation in Vitamin B12 Deficiency",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35020987/",
+   "source": "New England Journal of Medicine",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 24,
+   "title": "The diagnosis and treatment of iron deficiency and its potential relationship to hair loss",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16635664/",
+   "source": "Journal of the American Academy of Dermatology",
+   "year": 2006,
+   "type": "review"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Vitamin_B12_deficiency",
+   "title": "Vitamin B12 deficiency - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Periorbital_dark_circles",
+   "title": "Periorbital dark circles - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Vitamin_B12",
+   "title": "Vitamin B12 - Wikipedia"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25559140/",
+   "title": "A review of vitamin B12 in dermatology"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28594082/",
+   "title": "Acneiform eruptions caused by vitamin B12"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35345222/",
+   "title": "Reversible hyperpigmentation of vitamin B12 deficiency"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35020987/",
+   "title": "Hyperpigmentation in Vitamin B12 Deficiency"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16635664/",
+   "title": "Iron deficiency and hair loss review"
+  }
+ ]
 }

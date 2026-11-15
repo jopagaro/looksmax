@@ -1,54 +1,336 @@
 {
-"name": "Albuterol (Salbutamol)",
-"card": {
- "summary": "The standard asthma rescue inhaler; its use for fat loss or muscle is limited to scattered bodybuilder use and small lean-mass studies of oral dosing.",
- "aka": "Salbutamol, Ventolin, ProAir, Proventil",
- "evidence": "unproven",
- "status": "rx",
- "risk": null,
- "price": null,
- "note": "Prescription asthma drug; beta-2 agonists are regulated in sport.",
- "structure": "Salbutamol"
-},
-"quick": {
- "overview": "Albuterol (salbutamol) is a short-acting beta-2 agonist used as a rescue bronchodilator for asthma and COPD. It is among the most prescribed medicines in the US.\n\nWikipedia notes that some recreational bodybuilders use albuterol and other beta-2 agonists, and that oral use has been studied for muscle wasting and obesity, with human studies reporting more lean mass and less fat mass. The sources reviewed contain no trials in healthy people seeking cosmetic changes.",
- "mechanism": "It activates beta-2 adrenergic receptors, raising cAMP, which relaxes airway smooth muscle; the same receptor class is involved in lipolysis and muscle effects.",
- "risks": "Common effects are tremor, anxiety, headache, cramps, dry mouth and palpitations; higher doses can cause tachycardia, arrhythmia and low potassium. Asthma research has examined links between heavy beta-agonist use and asthma death. It is prescription-only in the US, UK and Canada."
-},
-"lead": [
- "Albuterol, known as salbutamol outside the US, is a short-acting beta-2 adrenergic agonist sold as Ventolin, ProAir and Proventil, among others. It is a first-line rescue bronchodilator for bronchospasm in asthma and COPD. [1][3][4]",
- "It was discovered in 1966 by a team led by David Jack at Allen & Hanburys, launched in the UK in 1969 as Ventolin and approved in the US in 1982. [4]",
- "Its place in appearance discussion rests on its being a beta-2 agonist: Wikipedia reports use by some recreational bodybuilders and small studies of oral dosing for lean mass. [4] Published trials of its use for cosmetic fat loss or muscle in healthy people were not identified in the reviewed sources."
-],
-"infobox": [
- ["Drug class", "Short-acting beta-2 agonist"],
- ["Routes", "Inhaled, oral, injection"],
- ["Discovered", "1966, Allen & Hanburys (David Jack)"],
- ["First approved", "1969 (UK), 1982 (US)"],
- ["Trade names", "Ventolin, ProAir, Proventil"],
- ["Legal status", "Prescription-only (US, UK, Canada)"]
-],
-"sections": [
- {"h": "Uses", "subs": [
-  {"h": "Medical uses", "paras": ["Albuterol treats bronchospasm in asthma, including exercise-induced, and in COPD, and is a standard rescue medication in asthma guidelines. [1][4] Other medical uses include acute hyperkalemia; intravenous use to delay preterm labour has largely been replaced by nifedipine. [4]"]},
-  {"h": "Off-label and appearance uses", "paras": ["Wikipedia states some recreational bodybuilders use albuterol and other beta-2 agonists, and that oral use has been studied as an anti-obesity and anti-muscle-wasting approach, with human studies showing increased lean mass, reduced fat mass and lipolysis. It does not describe off-label weight-loss use as common. [4]"]}
- ]},
- {"h": "Adverse effects", "paras": ["Common effects are fine tremor, anxiety, headache, muscle cramps, dry mouth and palpitations. Tachycardia, arrhythmia and flushing can occur, rarely myocardial ischemia, and high or prolonged doses may cause hypokalemia. [4]", "A 1992 Canadian case-control study examined whether regular beta-2 agonist use was associated with death or near death from asthma. [2]"]},
- {"h": "Pharmacology", "subs": [{"h": "Mechanism of action", "paras": ["A tertiary butyl group makes it selective for beta-2 receptors, which predominate on bronchial smooth muscle. Receptor activation raises cAMP and lowers intracellular calcium, relaxing the muscle. [4]"]}]},
- {"h": "Society and culture", "paras": ["Inhaled salbutamol was banned at the 1972 Olympics but permitted by 1986; current WADA rules allow inhaled use up to 1600 micrograms over 24 hours, and as of 2011 there was no evidence that inhaled salbutamol improves performance, although oral or intravenous use has been reported to help. [4] It is on the WHO Essential Medicines List and is prescription-only in the US, UK and Canada. [4]"]},
- {"h": "Clinical studies", "paras": ["No studies found testing albuterol for cosmetic fat loss or muscle gain in healthy people. Wikipedia cites human studies of oral beta-2 agonist use in obesity and muscle wasting that reported increased lean mass and reduced fat mass. [4] Asthma guidelines and trials establish its use as a rescue bronchodilator. [1]"]}
-],
-"timeline": [
- {"year": "1966", "event": "Discovered at Allen & Hanburys by a team led by David Jack. [4]"},
- {"year": "1969", "event": "Launched in the UK as Ventolin. [4]"},
- {"year": "1982", "event": "Approved for medical use in the US. [4]"}
-],
-"lore": null,
-"refs": [
- {"id": 1, "title": "Expert Panel Report 3 (EPR-3): Guidelines for the Diagnosis and Management of Asthma - Summary Report 2007", "url": "https://pubmed.ncbi.nlm.nih.gov/17983880/", "source": "Journal of Allergy and Clinical Immunology", "year": 2007, "type": "guideline"},
- {"id": 2, "title": "The use of beta-agonists and the risk of death and near death from asthma", "url": "https://pubmed.ncbi.nlm.nih.gov/1346340/", "source": "New England Journal of Medicine", "year": 1992, "type": "study"},
- {"id": 3, "title": "Albuterol sulfate HFA US prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=04c8a345-0a0d-5a01-e063-6294a90a40d2", "source": "DailyMed", "year": 2025, "type": "label"},
- {"id": 4, "title": "Salbutamol", "url": "https://en.wikipedia.org/wiki/Salbutamol", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"}
-],
-"webSources": [ {"url": "https://en.wikipedia.org/wiki/Salbutamol", "title": "Salbutamol - Wikipedia"} ]
+ "name": "Albuterol (Salbutamol)",
+ "lead": [
+  "Albuterol, known as salbutamol outside the US, is a short-acting beta-2 adrenergic agonist sold as Ventolin, ProAir and Proventil, among other brands. It is a first-line rescue bronchodilator for bronchospasm in asthma and COPD, and it is one of the most widely prescribed medicines in the United States [1][3][4].",
+  "Within physique-focused communities it is discussed as a beta-2 agonist in the same family as clenbuterol. Some lifters and bodybuilders use oral salbutamol in cutting phases because beta-2 receptor activation increases energy expenditure and lipolysis, which they hope will help them look leaner while keeping muscle [4][5]. Wikipedia reports that some recreational bodybuilders use it and that oral beta-2 agonists have been studied as anti-obesity and anti-muscle-wasting agents, with studies reporting more lean mass and less fat mass [4].",
+  "It was discovered in 1966 by a team led by David Jack at Allen & Hanburys, launched in the UK in 1969 as Ventolin and approved in the US in 1982 [4]. Published trials of salbutamol for cosmetic fat loss or muscle gain in healthy people were not found; the large body of trial work concerns asthma, COPD and related respiratory conditions [1][6][7]."
+ ],
+ "angle": {
+  "goal": "Body fat",
+  "chain": [
+   "Activates beta-2 adrenergic receptors",
+   "Raises energy expenditure and lipolysis; beta-2 signalling is also active in muscle",
+   "Leaner-looking physique while preserving muscle during a cut"
+  ],
+  "effect": "claimed",
+  "text": "Some physique-focused users take oral salbutamol during cutting phases, reasoning that beta-2 stimulation raises metabolic rate and fat mobilisation and may support lean mass. Small studies of beta-2 agonists report changes in lean and fat mass, but trials in healthy people seeking cosmetic change have not been published."
+ },
+ "infobox": [
+  [
+   "Drug class",
+   "Short-acting beta-2 agonist (SABA)"
+  ],
+  [
+   "Routes",
+   "Inhaled, oral, injection, nebulised"
+  ],
+  [
+   "Discovered",
+   "1966, Allen & Hanburys (David Jack) [4]"
+  ],
+  [
+   "First approved",
+   "1969 (UK), 1982 (US) [4]"
+  ],
+  [
+   "Trade names",
+   "Ventolin, ProAir, Proventil [4]"
+  ],
+  [
+   "Names",
+   "Salbutamol (INN), albuterol (USAN)"
+  ],
+  [
+   "Legal status",
+   "Prescription-only (US, UK, Canada); on the WHO Essential Medicines List [4]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Uses",
+   "subs": [
+    {
+     "h": "Medical uses",
+     "paras": [
+      "Albuterol treats or prevents bronchospasm in asthma, including exercise-induced bronchospasm, and in COPD. It is the standard reliever in asthma guidelines, and the US label lists treatment or prevention of bronchospasm in people aged 4 years and older with reversible obstructive airway disease and prevention of exercise-induced bronchospasm [1][3].",
+      "Other uses include lowering blood potassium in acute hyperkalemia, because it moves potassium into cells, and, historically, intravenous use to delay preterm labour, a role largely taken over by nifedipine [4][8]. Recent studies have also explored it in some congenital myasthenic syndromes and in spinal muscular atrophy [4][9]."
+     ]
+    },
+    {
+     "h": "Cosmetic and appearance uses",
+     "paras": [
+      "Appearance-oriented use is mostly oral salbutamol tablets or syrup used by some bodybuilders during fat-loss phases, often discussed as a milder relative of clenbuterol. Forum posts describe its use alongside testosterone and other compounds during cuts, and some lifters who use a rescue inhaler for asthma describe it as helping them train harder [10][11]. Wikipedia states that some recreational bodybuilders use albuterol and does not describe off-label weight-loss use as widespread [4].",
+      "Posters on T Nation have cited the physiology as the rationale, noting that infusions of salbutamol and terbutaline in lean men modestly raised whole-body energy expenditure [12]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Effectiveness",
+   "paras": [
+    "Wikipedia reports that salbutamol raises energy expenditure by about 10 to 15 percent at asthma doses and by about 25 percent at higher oral doses, and that studies of beta-2 agonists have shown increased lean mass, reduced fat mass and lipolysis [4]. These findings come from physiology and small clinical studies rather than from trials of cosmetic body recomposition in healthy people.",
+    "In respiratory medicine, albuterol rescue therapy is well established. Recent phase 3 trials compare albuterol alone with albuterol-budesonide combination rescue inhalers, reporting a lower risk of severe asthma exacerbation with the combination in moderate-to-severe asthma and in mild asthma [6][7][13]."
+   ]
+  },
+  {
+   "h": "Adverse effects",
+   "paras": [
+    "Common effects are fine tremor, anxiety, headache, muscle cramps, dry mouth and palpitations. Less often, tachycardia, arrhythmia and flushing occur, and rarely myocardial ischemia. High or prolonged doses can cause low potassium (hypokalemia), especially with kidney failure or certain diuretics [4].",
+    "The US label warns of life-threatening paradoxical bronchospasm, cardiovascular effects, hypersensitivity reactions and hypokalemia, and says that needing more doses than usual can signal worsening asthma [3]. The most common adverse reactions in label trials were throat irritation, viral respiratory infections, upper respiratory inflammation, cough and musculoskeletal pain [3].",
+    "A 1992 Canadian case-control study examined whether regular use of beta-2 agonists was associated with death or near-death from asthma [2]. Cardiovascular effects are a recurring theme in discussion of oral beta-2 agonists in non-medical use."
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "subs": [
+    {
+     "h": "Mechanism of action",
+     "paras": [
+      "A tertiary butyl group gives salbutamol selectivity for beta-2 receptors, which predominate on bronchial smooth muscle. Receptor activation raises intracellular cAMP and lowers calcium, relaxing the muscle, and it suppresses release of inflammatory mediators from mast cells, basophils and eosinophils [4]. Beta-2 receptors also exist in the heart (10 to 50 percent of cardiac beta receptors according to the label), which is why palpitations and tachycardia occur [3]."
+     ]
+    },
+    {
+     "h": "Pharmacokinetics and chemistry",
+     "paras": [
+      "It is cleared by the kidneys, either directly or after conversion to a sulfate conjugate [4]. Salbutamol is sold as a racemic mixture (C13H21NO3). The R-enantiomer carries the bronchodilator activity, and levalbuterol is the single-enantiomer version; trials have compared it with racemic albuterol [4][14][15]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Salbutamol was developed at Allen & Hanburys in Ware, Hertfordshire, by a team led by David Jack, patented in Britain in 1966 and launched as Ventolin in 1969. It was approved in the US in 1982 [4]. In 2020 the FDA approved the first generic versions of albuterol inhalers, from Perrigo (ProAir HFA generic) and Cipla (Ventolin HFA generic) [4]."
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Salbutamol is the international non-proprietary name and albuterol the US name. In 2024 it was reported as the sixth most prescribed drug in the US, with more than 61 million prescriptions [4].",
+    "Anti-doping: inhaled salbutamol was banned at the 1972 Olympics but permitted by 1986; oral beta-2 agonists were not. WADA's 2011 list allowed inhaled use up to 1,600 micrograms over 24 hours, and Wikipedia states there was no evidence that inhaled salbutamol improves performance, though oral or intravenous use has been reported to [4]. A 2023 randomized trial reported that inhaled salbutamol may shorten time to exhaustion in some heavy endurance contexts [16].",
+    "Environmental discussion: Wikipedia notes that metered-dose inhalers were described as the largest source of carbon emissions from NHS medicines prescribing, and that dry powder inhalers are recommended as a lower-carbon option [4]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found testing albuterol for cosmetic fat loss or muscle gain in healthy people. Related research includes studies of oral beta-2 agonists in obesity and muscle wasting that reported increased lean mass and reduced fat mass [4], and physiology studies showing raised energy expenditure [4][12].",
+    "Respiratory trials are extensive. The EPR-3 asthma guidelines position albuterol as a rescue medicine [1]. The 2022 MANDALA phase 3 trial and the 2025 BATURA trial tested as-needed albuterol-budesonide against albuterol alone [6][7], and the DENALI and TYREE trials examined the combination in mild-to-moderate asthma and exercise-induced bronchoconstriction [13][17]. A 2025 systematic review compared drugs for acute hyperkalaemia [8]."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1966",
+   "event": "Discovered at Allen & Hanburys by a team led by David Jack [4]."
+  },
+  {
+   "year": "1969",
+   "event": "Launched in the UK as Ventolin [4]."
+  },
+  {
+   "year": "1972",
+   "event": "Inhaled salbutamol is banned at the Munich Olympics; it is permitted by 1986 [4]."
+  },
+  {
+   "year": "1982",
+   "event": "Approved for medical use in the US [4]."
+  },
+  {
+   "year": "1992",
+   "event": "Canadian case-control study examines beta-agonist use and asthma death [2]."
+  },
+  {
+   "year": "2020",
+   "event": "FDA approves first generic albuterol inhalers [4]."
+  }
+ ],
+ "lore": {
+  "intro": "Albuterol appears on bodybuilding forums such as T Nation mostly as a rescue inhaler for asthma and, less often, as an oral beta-2 agonist used during cutting phases [10][11].",
+  "claims": [
+   {
+    "claim": "Oral salbutamol is a milder alternative to clenbuterol for cutting",
+    "believers": "Some users describe oral salbutamol alongside testosterone during cuts, citing fat-loss support and easier tolerance than stronger beta-agonists [10].",
+    "experts": "Wikipedia reports raised energy expenditure and increased lean mass and reduced fat mass in studies of beta-2 agonists, but no trials in healthy people seeking cosmetic changes are published [4].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Beta-2 agonists raise metabolic rate and can support leanness",
+    "believers": "Posters cite infusion studies of salbutamol and terbutaline in lean men that showed a modest rise in energy expenditure [12].",
+    "experts": "Salbutamol raises energy expenditure by roughly 10 to 15 percent at asthma doses, according to Wikipedia's summary [4].",
+    "evidence": "supported"
+   },
+   {
+    "claim": "An inhaler used before training helps hard sessions",
+    "believers": "Lifters with asthma say pre-workout use eases chest tightness mid-workout and that it does not cause dependence [11].",
+    "experts": "The US label indicates albuterol for preventing exercise-induced bronchospasm, and warns that rising need for doses can signal worsening asthma [3].",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Systemic use is low-risk because it is a common asthma drug",
+    "believers": "Some posters regard it as well tolerated given its decades of medical use.",
+    "experts": "The label and Wikipedia list tremor, palpitations, tachycardia and hypokalemia, with the label noting excessive use may be fatal [3][4].",
+    "evidence": "harms"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Expert Panel Report 3 (EPR-3): Guidelines for the Diagnosis and Management of Asthma - Summary Report 2007",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17983880/",
+   "source": "Journal of Allergy and Clinical Immunology",
+   "year": 2007,
+   "type": "guideline"
+  },
+  {
+   "id": 2,
+   "title": "The use of beta-agonists and the risk of death and near death from asthma",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1346340/",
+   "source": "New England Journal of Medicine",
+   "year": 1992,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Albuterol sulfate HFA US prescribing information",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=04c8a345-0a0d-5a01-e063-6294a90a40d2",
+   "source": "DailyMed",
+   "year": 2025,
+   "type": "label"
+  },
+  {
+   "id": 4,
+   "title": "Salbutamol",
+   "url": "https://en.wikipedia.org/wiki/Salbutamol",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 5,
+   "title": "Salbutamol in the Management of Asthma: A Review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36430683/",
+   "source": "International Journal of Molecular Sciences",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Albuterol-Budesonide Fixed-Dose Combination Rescue Inhaler for Asthma",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35569035/",
+   "source": "New England Journal of Medicine",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "As-Needed Albuterol-Budesonide in Mild Asthma",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40388330/",
+   "source": "New England Journal of Medicine",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Pharmacological interventions for the acute treatment of hyperkalaemia: systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39761907/",
+   "source": "Resuscitation",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "Congenital myasthenic syndromes",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30808424/",
+   "source": "Orphanet Journal of Rare Diseases",
+   "year": 2019,
+   "type": "review"
+  },
+  {
+   "id": 10,
+   "title": "Test C, MENT, Tren A, NPP, Bold C Cycle (T Nation forum)",
+   "url": "https://t-nation.com/t/test-c-ment-tren-a-npp-bold-c-cycle/274331",
+   "source": "T Nation",
+   "year": 2021,
+   "type": "forum"
+  },
+  {
+   "id": 11,
+   "title": "NH_Watts' TRT Log (T Nation forum)",
+   "url": "https://t-nation.com/t/nh-watts-trt-log/236774",
+   "source": "T Nation",
+   "year": 2017,
+   "type": "forum"
+  },
+  {
+   "id": 12,
+   "title": "Yogi's Random Training Thoughts (T Nation forum)",
+   "url": "https://t-nation.com/t/yogis-random-training-thoughts/221798",
+   "source": "T Nation",
+   "year": 2016,
+   "type": "forum"
+  },
+  {
+   "id": 13,
+   "title": "Albuterol-Budesonide Pressurized Metered Dose Inhaler in Mild-to-Moderate Asthma (DENALI)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37003355/",
+   "source": "Chest",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 14,
+   "title": "NCT00073840: Levalbuterol, Racemic Albuterol and Placebo in Asthma",
+   "url": "https://clinicaltrials.gov/study/NCT00073840",
+   "source": "ClinicalTrials.gov",
+   "year": 2002,
+   "type": "trial"
+  },
+  {
+   "id": 15,
+   "title": "NCT05173584: Levalbuterol Compared to Albuterol, Cardiac Side Effects and Potassium Lowering",
+   "url": "https://clinicaltrials.gov/study/NCT05173584",
+   "source": "ClinicalTrials.gov",
+   "year": 2021,
+   "type": "trial"
+  },
+  {
+   "id": 16,
+   "title": "Inhaling salbutamol may decrease time to exhaustion in some contexts of heavy endurance performances",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35392766/",
+   "source": "European Journal of Sport Science",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 17,
+   "title": "Albuterol/budesonide for exercise-induced bronchoconstriction: the TYREE study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34699967/",
+   "source": "Annals of Allergy, Asthma & Immunology",
+   "year": 2022,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Salbutamol",
+   "title": "Salbutamol - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "The standard asthma rescue inhaler; its use for fat loss or muscle is limited to scattered bodybuilder use and small lean-mass studies of oral dosing.",
+  "aka": "Salbutamol, Ventolin, ProAir, Proventil",
+  "evidence": "unproven",
+  "status": "rx",
+  "risk": null,
+  "price": null,
+  "note": "Prescription asthma drug; beta-2 agonists are regulated in sport.",
+  "structure": "Salbutamol"
+ },
+ "quick": {
+  "overview": "Albuterol (salbutamol) is a short-acting beta-2 agonist used as a rescue bronchodilator for asthma and COPD. It is among the most prescribed medicines in the US.\nWikipedia notes that some recreational bodybuilders use albuterol and other beta-2 agonists, and that oral use has been studied for muscle wasting and obesity, with human studies reporting more lean mass and less fat mass. No trials have been run in healthy people seeking cosmetic changes.",
+  "mechanism": "It activates beta-2 adrenergic receptors, raising cAMP, which relaxes airway smooth muscle; the same receptor class is involved in lipolysis and muscle effects.",
+  "risks": "Common effects are tremor, anxiety, headache, cramps, dry mouth and palpitations; higher doses can cause tachycardia, arrhythmia and low potassium. Asthma research has examined links between heavy beta-agonist use and asthma death. It is prescription-only in the US, UK and Canada."
+ }
 }

@@ -1,117 +1,525 @@
 {
-  "name": "Hyaluronic acid",
-  "lead": [
-    "Hyaluronic acid (HA, hyaluronan) is an anionic, non-sulfated glycosaminoglycan found throughout connective, epithelial and neural tissue. It is unusually large, with human synovial HA averaging around 7 MDa per molecule in one description, and an average 70 kg person holds roughly 15 grams, about a third of which turns over each day [1]. It is a major component of the extracellular matrix, synovial fluid and cartilage [1].",
-    "Medically it is used for knee osteoarthritis, dry eye, wound repair and as a cosmetic filler [1]. In appearance medicine it appears in two quite different forms. Topical serums and creams are marketed for hydration and signs of skin aging, and a 2022 review examined the evidence for topical HA on skin quality and aging [2]. Cross-linked HA gels are injected as dermal fillers to add volume to lips, cheeks, folds and other areas, with an effect that Wikipedia says lasts around 6 to 12 months and that has US FDA regulatory approval [1].",
-    "Systematic reviews of HA filler trials report that most adverse events are short-lived injection-site reactions that resolve spontaneously, while rare severe complications can occur [4][5]. Oral HA supplements have also been tested in small trials for skin condition [6][7]."
+ "name": "Hyaluronic acid",
+ "lead": [
+  "Hyaluronic acid (HA, hyaluronan) is a long-chain sugar polymer, an anionic, non-sulfated glycosaminoglycan, found throughout connective, epithelial and neural tissue. An average 70 kg person holds roughly 15 grams, about a third of which turns over each day, and it is a major component of the extracellular matrix, synovial fluid and cartilage [1]. Its carboxylate groups carry a negative charge that lets it bind water, which is why it features in so many cosmetic products [1].",
+  "HA is used to improve appearance in three main ways. Cross-linked HA gels are injected as dermal fillers to add volume or smooth lines in the lips, cheeks, chin, nasolabial folds, under-eye hollows and the backs of the hands; the effect is visible straight away and typically lasts around 6 to 12 months before the body breaks the gel down [1][30][35]. Topical serums and creams use HA as a humectant to hydrate the skin surface, giving a smoother, plumper-looking skin quality [2]. Oral supplements, often combined with collagen and vitamin C, are sold for skin hydration and density [6][7].",
+  "Research covers all three. Systematic reviews of filler trials report that most adverse events are short-lived injection-site reactions, while rare severe complications such as vascular occlusion can occur [4][5][35]. Topical HA has been studied in short randomised trials of hydration and wrinkles [2], and oral HA in small randomised trials [7][11]. Appearance communities discuss HA mainly as a filler and as a joint supplement [26][27][28][29]."
+ ],
+ "angle": {
+  "goal": "Skin quality, volume and facial contour",
+  "chain": [
+   "Hyaluronic acid binds and holds water (topical use) or is injected as a cross-linked gel (filler)",
+   "Skin surface looks hydrated, or the treated area gains volume and smoother lines",
+   "Fuller lips, softened folds, fuller cheeks, plumper-looking skin",
+   "Effect fades as the gel is metabolised, over months"
   ],
-  "infobox": [
-    ["Class", "Glycosaminoglycan (polysaccharide)"],
-    ["Also called", "Hyaluronan; conjugate base hyaluronate"],
-    ["Forms in appearance use", "Topical serums; cross-linked injectable gel (dermal filler); oral supplements"],
-    ["Filler duration", "About 6 to 12 months (per Wikipedia)"],
-    ["Body content", "About 15 g in a 70 kg adult"],
-    ["Regulatory status", "Cosmetic ingredient (topical); injectable fillers are regulated medical devices in the US"]
+  "effect": "direct",
+  "text": "Injected HA filler adds visible volume the same day it is placed, which is why it is used for lips, cheeks, chin and fold smoothing. Topical HA hydrates the skin surface for a short-term plumper look, and oral products are marketed for skin hydration over weeks."
+ },
+ "infobox": [
+  [
+   "Class",
+   "Glycosaminoglycan (polysaccharide)"
   ],
-  "sections": [
+  [
+   "Also called",
+   "Hyaluronan; conjugate base hyaluronate"
+  ],
+  [
+   "Forms in appearance use",
+   "Topical serums; cross-linked injectable gel (dermal filler); oral supplements"
+  ],
+  [
+   "Discovered",
+   "1934, Karl Meyer and John Palmer, from bovine vitreous humor [1]"
+  ],
+  [
+   "Filler duration",
+   "About 6 to 12 months (per Wikipedia) [1]"
+  ],
+  [
+   "Filler regulation",
+   "US: medical device, FDA-approved fillers, for adults 22 and over [35]"
+  ],
+  [
+   "Dissolving agent",
+   "Hyaluronidase [31]"
+  ],
+  [
+   "Body content",
+   "About 15 g in a 70 kg adult [1]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Uses",
+   "paras": [],
+   "subs": [
     {
-      "h": "Uses",
-      "subs": [
-        {
-          "h": "Cosmetic and appearance uses",
-          "paras": [
-            "Topical HA is a common ingredient in serums, moisturizers and masks, sold for hydration and plumping of the skin surface. A 2022 narrative review in Dermatologic Therapy summarizes the literature and clinical evidence on topical HA for skin quality and signs of aging [2].",
-            "Injectable HA fillers such as the Juvederm and Restylane lines are among the most popular cosmetic procedures in the United States, according to a 2023 systematic review [4]. HA combines with water and swells to form a gel that is used for facial wrinkles [1]. Trials include a randomized split-face study of an HA-based micro-filler for superficial wrinkles and skin quality, and a split-face comparison of polynucleotide and HA fillers for periocular rejuvenation [8][9]. A 2024 study benchmarked the injectability of commercial cross-linked HA fillers with inter-injector assessments [10].",
-            "Oral supplements containing HA, collagen and vitamin C are also marketed. A 2024 randomized placebo-controlled trial tested 5 g hydrolysed collagen with vitamin C and the same product combined with 30 mg HA over 16 weeks, measuring skin density and texture [11]. A separate randomized double-blind test examined oral HA and skin conditions [7]. A 2025 meta-analysis addressed collagen-based supplements and skin hydration and elasticity [12]."
-          ]
-        },
-        {
-          "h": "Medical uses",
-          "paras": [
-            "HA injections are used for knee osteoarthritis (viscosupplementation). A 2023 network meta-analysis compared corticosteroids, HA and platelet-rich plasma for knee osteoarthritis, and other trials compared HA with PRP in hip osteoarthritis and in knee osteoarthritis [13][14][15]. A systematic review addressed HA, corticosteroids and PRP in temporomandibular joint osteoarthritis [16]. HA viscoelastic products are also used in cataract surgery, and registered trials cover products such as Healon5 and DisCoVisc and Monovisc injections for shoulder, ankle and hip osteoarthritis [17][18][19][20].",
-            "Wikipedia states that reviews as of 2023 found either insufficient or limited positive clinical evidence for HA in healing chronic wounds, including burns, diabetic foot ulcers and surgical skin repairs [1]. A 2023 trial tested HA gel with photobiomodulation after gingivectomy [21]."
-          ]
-        }
-      ]
+     "h": "Cosmetic and appearance uses",
+     "paras": [
+      "Dermal fillers. Most HA fillers are cross-linked, usually with the cross-linker BDDE, so that the gel resists the enzymes that would otherwise clear natural HA within about half a day [30][33]. They are injected with a fine needle or a blunt cannula, and the water-binding gel adds volume [1]. Uses include lip enhancement, nasolabial folds, perioral lines, cheek and chin contouring and under-eye hollows, plus the back of the hand [32][34][35]. Juvederm and Restylane are the two best-known product families [33][34][4].",
+      "Skin boosters and micro-fillers. Trials have studied HA-based micro-fillers placed in the skin for superficial wrinkles and skin quality, including a randomised prospective multicentre study, and a split-face comparison of polynucleotide and HA fillers around the eyes [8][9].",
+      "Topical products. HA appears in serums, moisturisers and masks. The EU cosmetic ingredient database lists it with skin-conditioning and humectant functions [1]. A 2022 review in Dermatologic Therapy, co-authored by L'Oreal-affiliated researchers, discusses how molecular weight shapes behaviour: higher-molecular-weight HA mostly forms a hydrating film on the surface, while lower-molecular-weight forms are described as reaching deeper layers [2].",
+      "Oral supplements. HA is sold alone or with collagen and vitamin C for skin condition [6][7][12]."
+     ]
     },
     {
-      "h": "Effectiveness",
-      "paras": [
-        "For fillers, randomized trials generally compare products with each other or with controls, and are the main basis for regulatory approval. A 2016 systematic review of randomized trials covered the physicochemical properties and applications of HA across medical fields [22]. The effect of fillers is temporary because the gel is gradually broken down, which Wikipedia puts at about 6 to 12 months [1].",
-        "For topical products, the 2022 review describes the clinical evidence for skin quality benefits and notes how it ranges from hydration to appearance of lines [2]. The widely repeated figure that HA holds about a thousand times its weight in water is a laboratory-derived claim; none of the clinical studies reviewed here tests that figure directly."
-      ]
-    },
-    {
-      "h": "Adverse effects and safety",
-      "paras": [
-        "A 2023 systematic review and meta-analysis in Cureus examined adverse events after HA dermal filler injection to the face using 19 randomized trials, stating that most outcomes are mild and resolve but that rare severe complications can be irreversible [4]. A 2024 systematic review in Aesthetic Plastic Surgery analyzed 48 higher-level studies, classified events as expected reactions, product- or technique-related events and severe adverse events, and found most events were short-lived injection-site reactions that resolved on their own within weeks, with filler type and technique affecting their occurrence [5].",
-        "Topical HA is described as well tolerated; a retail deodorant containing HA on DailyMed carries general external-use and irritation warnings [23]."
-      ]
-    },
-    {
-      "h": "Pharmacology",
-      "subs": [
-        {
-          "h": "Mechanism of action",
-          "paras": [
-            "HA is a humectant polymer that binds water. In cartilage, aggrecan binds to HA and the resulting negatively charged aggregates imbibe water, giving cartilage its resistance to compression; in synovial fluid, HA contributes viscosity and lubrication [1]. In wounds it supports cell migration, inflammation response and angiogenesis, and is abundant in granulation tissue [1]. Low-molecular-weight fragments produced during inflammation can activate immune cells, as examined in a 2021 review on HA in inflammation [24].",
-            "Filler properties depend on cross-linking and rheology, covered in a 2023 review in Clinics in Plastic Surgery [25]."
-          ]
-        }
-      ]
-    },
-    {
-      "h": "Chemistry",
-      "paras": [
-        "HA differs from other glycosaminoglycans in being non-sulfated, forming at the plasma membrane rather than in the Golgi apparatus, and reaching very large sizes. It can be chemically modified at its carboxyl, primary alcohol and N-acetyl groups to improve biocompatibility, permeation and sustained drug release [1]."
-      ]
-    },
-    {
-      "h": "Society and culture",
-      "paras": [
-        "Forum material in the sources reviewed treats HA mainly as a joint supplement or injection rather than a skin product. T Nation posters describe taking supplements with hyaluronic acid among joint ingredients, planning HA injections for knee or shoulder problems, or taking HA for connective tissue [26][27][28][29]. HA fillers are part of the broader cosmetic procedure market discussed in appearance communities, but no community threads on fillers were available in the sources reviewed."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "Cosmetic: a 2023 meta-analysis of 19 randomized trials on adverse events after facial HA filler injection [4]; a 2024 systematic review of 48 randomized studies on filler adverse events [5]; a randomized prospective multicenter study of an HA micro-filler for superficial wrinkles [8]; a split-face trial of polynucleotide versus HA filler in the periocular area with 27 participants [9]; and a 2024 randomized trial of oral collagen with or without HA on skin parameters [11].",
-        "Medical: numerous randomized trials and reviews of intra-articular HA in knee, hip and temporomandibular joint osteoarthritis [13][14][15][16], and registered trials of viscosupplements and ophthalmic viscosurgical devices [17][18][19][20]."
-      ]
+     "h": "Medical uses",
+     "paras": [
+      "HA injections are used for knee osteoarthritis (viscosupplementation). Network meta-analyses and trials have compared HA with corticosteroids and platelet-rich plasma in knee and hip osteoarthritis, and a systematic review addressed temporomandibular joint osteoarthritis [13][14][15][16]. HA viscoelastic products are used in eye surgery, beginning with Healon in the 1970s and 1980s, and registered trials cover products such as Healon5, DisCoVisc and Monovisc [1][17][18][19][20]. Wikipedia states that reviews as of 2023 found limited evidence for HA in chronic wound healing [1]. A trial tested HA gel with photobiomodulation after gingivectomy [21]."
+     ]
     }
-  ],
-  "timeline": [],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Hyaluronic acid", "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
-    { "id": 2, "title": "Benefits of topical hyaluronic acid for skin quality and signs of skin aging: From literature review to clinical evidence", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10078143", "source": "Dermatologic Therapy", "year": 2022, "type": "review" },
-    { "id": 3, "title": "Hyaluronic acid", "url": "https://grokipedia.com/page/Hyaluronic_acid", "source": "Grokipedia", "year": 2026, "type": "encyclopedia" },
-    { "id": 4, "title": "Adverse Events Reported From Hyaluronic Acid Dermal Filler Injections to the Facial Region: A Systematic Review and Meta-Analysis", "url": "https://pubmed.ncbi.nlm.nih.gov/37261136/", "source": "Cureus", "year": 2023, "type": "review" },
-    { "id": 5, "title": "Adverse Events Associated with Hyaluronic Acid Filler Injection for Non-surgical Facial Aesthetics: A Systematic Review of High Level of Evidence Studies", "url": "https://pubmed.ncbi.nlm.nih.gov/37563436/", "source": "Aesthetic Plastic Surgery", "year": 2024, "type": "review" },
-    { "id": 6, "title": "The Effects of Dietary Supplementation with Collagen and Vitamin C and Their Combination with Hyaluronic Acid on Skin Density, Texture and Other Parameters", "url": "https://pubmed.ncbi.nlm.nih.gov/38931263/", "source": "Nutrients", "year": 2024, "type": "trial" },
-    { "id": 7, "title": "Oral administration of hyaluronic acid to improve skin conditions via a randomized double-blind clinical test", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10661223", "source": "Skin Research and Technology", "year": 2023, "type": "trial" },
-    { "id": 8, "title": "A hyaluronic acid-based micro-filler improves superficial wrinkles and skin quality: a randomized prospective controlled multicenter study", "url": "https://pubmed.ncbi.nlm.nih.gov/37577796/", "source": "Journal of Dermatological Treatment", "year": 2023, "type": "trial" },
-    { "id": 9, "title": "Comparison of the effects of polynucleotide and hyaluronic acid fillers on periocular rejuvenation: a randomized, double-blind, split-face trial", "url": "https://pubmed.ncbi.nlm.nih.gov/32248707/", "source": "Journal of Dermatological Treatment", "year": 2022, "type": "trial" },
-    { "id": 10, "title": "Clinical Perspectives on the Injectability of Cross-Linked Hyaluronic Acid Dermal Fillers", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10888303", "source": "Gels", "year": 2024, "type": "study" },
-    { "id": 11, "title": "The Effects of Dietary Supplementation with Collagen and Vitamin C and Their Combination with Hyaluronic Acid on Skin Density, Texture and Other Parameters", "url": "https://pubmed.ncbi.nlm.nih.gov/38931263/", "source": "Nutrients", "year": 2024, "type": "trial" },
-    { "id": 12, "title": "Effects of collagen-based supplements on skin's hydration and elasticity: A systematic review and meta-analysis", "url": "https://pubmed.ncbi.nlm.nih.gov/40826844/", "source": "Indian Journal of Dermatology, Venereology and Leprology", "year": 2025, "type": "review" },
-    { "id": 13, "title": "Efficacy and safety of corticosteroids, hyaluronic acid, and PRP and combination therapy for knee osteoarthritis: a systematic review and network meta-analysis", "url": "https://pubmed.ncbi.nlm.nih.gov/38037038/", "source": "BMC Musculoskeletal Disorders", "year": 2023, "type": "review" },
-    { "id": 14, "title": "The comparison effects of intra-articular injection of PRP, PRGF, HA, and ozone in knee osteoarthritis; a one year randomized clinical trial", "url": "https://pubmed.ncbi.nlm.nih.gov/33536010/", "source": "BMC Musculoskeletal Disorders", "year": 2021, "type": "trial" },
-    { "id": 15, "title": "Comparison between the effects of ultrasound guided intra-articular injections of PRP, high molecular weight hyaluronic acid, and their combination in hip osteoarthritis", "url": "https://pubmed.ncbi.nlm.nih.gov/36096771/", "source": "BMC Musculoskeletal Disorders", "year": 2022, "type": "trial" },
-    { "id": 16, "title": "Mechanisms of Action and Efficacy of Hyaluronic Acid, Corticosteroids and Platelet-Rich Plasma in the Treatment of Temporomandibular Joint Osteoarthritis", "url": "https://pubmed.ncbi.nlm.nih.gov/34299024/", "source": "International Journal of Molecular Sciences", "year": 2021, "type": "review" },
-    { "id": 17, "title": "NCT02110238: Supartz versus Euflexxa for knee OA", "url": "https://clinicaltrials.gov/study/NCT02110238", "source": "ClinicalTrials.gov", "year": 2014, "type": "trial" },
-    { "id": 18, "title": "NCT00712244: DisCoVisc versus DuoVisc, Healon5 and AmVisc Plus", "url": "https://clinicaltrials.gov/study/NCT00712244", "source": "ClinicalTrials.gov", "year": 2007, "type": "trial" },
-    { "id": 19, "title": "NCT04204265: Monovisc for shoulder joint pain relief due to osteoarthritis", "url": "https://clinicaltrials.gov/study/NCT04204265", "source": "ClinicalTrials.gov", "year": 2019, "type": "trial" },
-    { "id": 20, "title": "NCT04204083: Monovisc for hip joint pain relief due to osteoarthritis", "url": "https://clinicaltrials.gov/study/NCT04204083", "source": "ClinicalTrials.gov", "year": 2019, "type": "trial" },
-    { "id": 21, "title": "Efficacy of hyaluronic acid gel and photobiomodulation therapy on wound healing after surgical gingivectomy", "url": "https://pubmed.ncbi.nlm.nih.gov/37891549/", "source": "BMC Oral Health", "year": 2023, "type": "trial" },
-    { "id": 22, "title": "Physiochemical properties and application of hyaluronic acid: a systematic review", "url": "https://pubmed.ncbi.nlm.nih.gov/27324942/", "source": "Journal of Cosmetic Dermatology", "year": 2016, "type": "review" },
-    { "id": 23, "title": "US drug label (DailyMed): Dove raw shea butter and hyaluronic acid antiperspirant deodorant", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=03882c90-f46b-47b4-e063-6394a90a99e4", "source": "DailyMed", "year": 2025, "type": "label" },
-    { "id": 24, "title": "Hyaluronic Acid: A Key Ingredient in the Therapy of Inflammation", "url": "https://pubmed.ncbi.nlm.nih.gov/34680150/", "source": "Biomolecules", "year": 2021, "type": "review" },
-    { "id": 25, "title": "Hyaluronic Acid Basics and Rheology", "url": "https://pubmed.ncbi.nlm.nih.gov/37169405/", "source": "Clinics in Plastic Surgery", "year": 2023, "type": "review" },
-    { "id": 26, "title": "T Nation: Bulldog: Getting Old Bastard Strong", "url": "https://t-nation.com/t/bulldog-getting-old-bastard-strong/200807", "source": "T Nation", "year": 2014, "type": "forum" },
-    { "id": 27, "title": "T Nation: Silver and Steel", "url": "https://t-nation.com/t/silver-and-steel/237353", "source": "T Nation", "year": 2017, "type": "forum" },
-    { "id": 28, "title": "T Nation: A New Animal: JDM135 for 1-2-3-4 plates", "url": "https://t-nation.com/t/a-new-animal-jdm135-for-1-2-3-4-plates/263785", "source": "T Nation", "year": 2020, "type": "forum" },
-    { "id": 29, "title": "T Nation: Sarcopenia Cure 2026", "url": "https://t-nation.com/t/sarcopenia-cure-2026/293131", "source": "T Nation", "year": 2026, "type": "forum" }
-  ],
-  "webSources": []
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Karl Meyer and John Palmer isolated HA from the vitreous humor of a cow's eye in 1934, and named it from the Greek hyalos, glass-like, plus uronic acid [1][33]. For decades it was regarded as an inert, gluey substance, until work showed specific roles in tissues [1]. Pharmacia developed Healon, the first hyaluronan biomedical product, approved for eye surgery in the 1970s and 1980s [1]. Animal sources such as rooster combs were the main supply, with microbial fermentation developed later because of low yield, cost and ethical concerns [1].",
+    "Fillers before HA included paraffin around 1900, liquid silicone from the early 1960s and bovine collagen from around 1980, which became the benchmark for later products but needed an allergy test [32]. HA was approved for facial tissue augmentation in Europe in 1996 according to Wikipedia, and Restylane is described as the first HA filler approved by the FDA for cosmetic injection [33][34]. Juvederm gained FDA approval in June 2006, supported by trials including a 146-subject, 24-week comparison with a collagen filler [33]. The American Society of Plastic Surgeons reported 778,000 Restylane injections in 2006 [32]. Since then HA has become the dominant filler material, with fillers regulated as medical devices [30][4]."
+   ]
+  },
+  {
+   "h": "How fillers work",
+   "paras": [
+    "HA fillers are gels in which HA chains are chemically linked, so the material holds shape and resists breakdown. Their properties, such as firmness and spread, depend on cross-linking and rheology [25]. A 2024 clinical review examined the injectability of cross-linked HA fillers, including the force needed to inject and differences between products [10].",
+    "The result is temporary because the body gradually metabolises the gel, and physical activity may shorten it [30]. HA fillers can be dissolved with the enzyme hyaluronidase, which Wikipedia describes as the recommended way to remove HA filler for complications, and which is used in other fields to help drugs disperse in tissue [31]. Wikipedia lists HA among the most common filler materials, partly because it occurs naturally in vertebrates and is biodegradable [30]."
+   ]
+  },
+  {
+   "h": "Effectiveness",
+   "paras": [
+    "Filler. Randomised trials generally compare products with each other or with controls and form the basis for regulatory approval [4][5][8]. The 2022 Dermatologic Therapy review notes that exogenous HA is cleared and degraded quickly in skin [2].",
+    "Topical. The Dermatologic Therapy review summarises randomised trials: a 30-day trial in 40 women reported improvement versus placebo across six HA types; a 60-day trial in 65 women with wrinkles around the eyes found that the two lowest-molecular-weight formulations significantly reduced wrinkle depth and improved elasticity; and a 24-week single-blind trial in 63 women compared a 1.5 percent HA serum plus botulinum toxin with the toxin alone, reporting differences of roughly 14 to 24 percent in fine lines, crow's feet, tone, texture, radiance and elasticity. The authors note that many studies are short or lack controls and call for longer controlled trials [2].",
+    "Oral. A 2023 trial randomised 129 healthy women in Shanghai to placebo or oral HA for up to 12 weeks, and reported higher skin hydration at weeks 2 to 8, improved skin tone, and, at one dose, greater epidermal thickness; dermal density fell in the placebo group but not the treated groups. Three authors were affiliated with the HA supplier [7]. A 2024 trial of 87 women over 16 weeks found that collagen plus vitamin C, with or without 30 mg HA, improved dermal density, texture and wrinkle severity, with no significant change in elasticity or hydration and no added effect from HA over collagen alone [6][11]. A 2025 meta-analysis addressed collagen supplements and skin hydration and elasticity [12]."
+   ]
+  },
+  {
+   "h": "Adverse effects and safety",
+   "paras": [
+    "Common reactions after filler are bruising, redness, swelling, pain, tenderness and itching; less common are nodules, granulomas, infection and allergic reactions [30][35]. A 2023 Cureus meta-analysis of 19 randomised trials found swelling, lumps and firmness more common at the nasolabial fold than at the midface, perioral or lip regions, while pain, redness, bruising and itching did not differ by site [4]. A 2024 systematic review of 48 randomised trials grouped events into expected reactions, product- or technique-related events and severe events, found most short-lived and self-resolving, and described HA fillers as generally safe and effective, with rare severe events lasting months and needing active treatment [5].",
+    "The most serious risk is accidental injection into or compression of a blood vessel, which can cause tissue death, vision problems including blindness and stroke; the FDA says these may be permanent [35]. Wikipedia notes that embolic complications are more frequent with autologous fat, followed by HA [30]. The FDA lists rare events as anaphylaxis, filler migration, leakage or rupture, hard nodules and death, and advises that removal can be hard for non-HA and permanent fillers [35]. Wikipedia describes hyaluronidase as the best option for dissolving HA filler when complications occur [31].",
+    "The FDA advises that fillers be injected by licensed providers, not self-administered, and not bought online because of counterfeit products, and has issued counterfeit-filler alerts in 2017 and 2018. It also states safety is not established in pregnancy or breastfeeding, in people under 22, with long-term repeated use or in people prone to keloids [35]. Wikipedia reports that a 2024 review raised concerns about long-term safety of the BDDE cross-linker [30]. Topical HA is generally described as well tolerated [2]."
+   ]
+  },
+  {
+   "h": "Regulation and legal status",
+   "paras": [
+    "In the US the FDA regulates fillers as medical devices: approved absorbable fillers are for adults 22 and over, for facial wrinkles and folds and for augmentation of lips, cheeks, chin and the back of the hand, while the agency advises against use in the glabella, nose, forehead, neck and periorbital area and for body contouring, and states no fillers are approved for over-the-counter use [35]. In the EEA and UK, fillers are non-prescription medical devices needing a CE mark, which does not require proof of efficacy, with over 140 on the UK and European market against six in the US according to Wikipedia [30]. As a topical ingredient HA is a cosmetic ingredient [1]."
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "paras": [],
+   "subs": [
+    {
+     "h": "Mechanism of action",
+     "paras": [
+      "HA is a humectant polymer that binds water. In cartilage, aggrecan binds to HA and the negatively charged aggregates draw in water, giving cartilage resistance to compression; in synovial fluid it contributes viscosity and lubrication [1]. In skin it supports hydration and keratinocyte migration during re-epithelialisation [1]. In wounds it supports cell migration and angiogenesis [1]. Low-molecular-weight fragments produced during inflammation can activate immune cells [24]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Chemistry",
+   "paras": [
+    "The repeating unit is a disaccharide of D-glucuronic acid and N-acetyl-D-glucosamine joined by alternating beta-1,4 and beta-1,3 bonds. Chains can reach about 25,000 repeats, with molecular weights in vivo from about 5,000 to 20 million daltons. Unlike other glycosaminoglycans it is made at the plasma membrane by hyaluronan synthases (HAS1, HAS2, HAS3) [1]. It can be modified at its carboxyl, hydroxyl and N-acetyl groups, including by cross-linking with BDDE or divinyl sulfone, to improve biocompatibility and durability [1][22]."
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Lip filler is the most visible cultural face of HA. Wikipedia notes that overfilled lips are often mocked online, sometimes called a trout pout, and that results depend heavily on provider skill [32]. HA fillers are part of the broader cosmetic procedure market discussed in appearance communities [4].",
+    "Forum material on strength-training sites treats HA mainly as a joint supplement or injection rather than a skin product. T Nation posters describe taking joint supplements containing HA, planning HA injections for knee or shoulder problems, and taking HA for connective tissue [26][27][28][29]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Cosmetic. A 2023 meta-analysis of 19 randomised trials on adverse events after facial HA filler injection [4]; a 2024 systematic review of 48 randomised studies [5]; a randomised prospective multicentre study of an HA micro-filler for superficial wrinkles [8]; a split-face trial of polynucleotide versus HA filler around the eyes in 27 participants [9]; and randomised trials of topical and oral HA described above [2][7][11].",
+    "Medical. Numerous randomised trials and reviews of intra-articular HA in knee, hip and temporomandibular joint osteoarthritis [13][14][15][16], and registered trials of viscosupplements and ophthalmic viscosurgical devices [17][18][19][20]."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1934",
+   "event": "Karl Meyer and John Palmer isolate hyaluronic acid from cow vitreous humor [1]"
+  },
+  {
+   "year": "c. 1980",
+   "event": "Bovine collagen becomes the benchmark injectable filler [32]"
+  },
+  {
+   "year": "1970s-80s",
+   "event": "Pharmacia's Healon, the first hyaluronan biomedical product, approved for eye surgery [1]"
+  },
+  {
+   "year": "1996",
+   "event": "HA filler approved for facial tissue augmentation in Europe, per Wikipedia [33]"
+  },
+  {
+   "year": "June 2006",
+   "event": "FDA approves Juvederm [33]"
+  },
+  {
+   "year": "2006",
+   "event": "778,000 Restylane injections reported by US plastic surgeons [32]"
+  },
+  {
+   "year": "2017-2018",
+   "event": "FDA issues counterfeit filler alerts [35]"
+  },
+  {
+   "year": "2023",
+   "event": "Two systematic reviews of randomised trials on HA filler adverse events published [4][5]"
+  },
+  {
+   "year": "2023",
+   "event": "FDA consumer page on dermal fillers current as of July 2023 [35]"
+  }
+ ],
+ "lore": {
+  "intro": "In appearance communities HA comes up as a lip and face filler and as a skin-care ingredient; on strength-training forums it is discussed as a joint supplement [26][27][28][29].",
+  "claims": [
+   {
+    "claim": "HA fillers give a natural, reversible enhancement",
+    "believers": "Proponents point to the fact that the gel can be dissolved with hyaluronidase if unhappy with the result [31].",
+    "experts": "Reviews describe HA fillers as generally safe with mostly transient reactions, and note that rare severe events such as vascular occlusion can occur and may be permanent [5][35].",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Topical HA deeply plumps skin",
+    "believers": "Proponents and product marketing say HA holds a large multiple of its weight in water and hydrates skin.",
+    "experts": "A 2022 review reports hydration and wrinkle improvements in short trials, notes that high-molecular-weight HA mostly stays at the surface and that many studies are short or lack controls [2].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Oral HA supplements improve skin from the inside",
+    "believers": "Supplement makers cite trials of oral HA on skin hydration [7].",
+    "experts": "A 2023 trial found higher hydration at some time points with supplier-affiliated authors, while a 2024 trial found HA added nothing over collagen plus vitamin C on measured outcomes [7][6].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "HA injections or supplements help joints and connective tissue",
+    "believers": "T Nation posters describe taking HA for joints and planning knee or shoulder injections [26][27][28].",
+    "experts": "Meta-analyses and trials compare intra-articular HA with corticosteroids and PRP in osteoarthritis; Wikipedia notes a 2020 meta-analysis found high-molecular-weight HA improved pain and function [13][14][15][1].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Buying filler online or injecting yourself is a workaround",
+    "believers": "Some people look for cheaper filler outside clinics.",
+    "experts": "The FDA advises against self-injection and buying filler online because products may be counterfeit or unapproved, and has issued counterfeit alerts [35].",
+    "evidence": "harms"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Hyaluronic acid",
+   "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Benefits of topical hyaluronic acid for skin quality and signs of skin aging: From literature review to clinical evidence",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10078143",
+   "source": "Dermatologic Therapy",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Hyaluronic acid",
+   "url": "https://grokipedia.com/page/Hyaluronic_acid",
+   "source": "Grokipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Adverse Events Reported From Hyaluronic Acid Dermal Filler Injections to the Facial Region: A Systematic Review and Meta-Analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37261136/",
+   "source": "Cureus",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Adverse Events Associated with Hyaluronic Acid Filler Injection for Non-surgical Facial Aesthetics: A Systematic Review of High Level of Evidence Studies",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37563436/",
+   "source": "Aesthetic Plastic Surgery",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "The Effects of Dietary Supplementation with Collagen and Vitamin C and Their Combination with Hyaluronic Acid on Skin Density, Texture and Other Parameters",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38931263/",
+   "source": "Nutrients",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Oral administration of hyaluronic acid to improve skin conditions via a randomized double-blind clinical test",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10661223",
+   "source": "Skin Research and Technology",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "A hyaluronic acid-based micro-filler improves superficial wrinkles and skin quality: a randomized prospective controlled multicenter study",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37577796/",
+   "source": "Journal of Dermatological Treatment",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Comparison of the effects of polynucleotide and hyaluronic acid fillers on periocular rejuvenation: a randomized, double-blind, split-face trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32248707/",
+   "source": "Journal of Dermatological Treatment",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Clinical Perspectives on the Injectability of Cross-Linked Hyaluronic Acid Dermal Fillers",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10888303",
+   "source": "Gels",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "The Effects of Dietary Supplementation with Collagen and Vitamin C and Their Combination with Hyaluronic Acid on Skin Density, Texture and Other Parameters",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38931263/",
+   "source": "Nutrients",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 12,
+   "title": "Effects of collagen-based supplements on skin's hydration and elasticity: A systematic review and meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40826844/",
+   "source": "Indian Journal of Dermatology, Venereology and Leprology",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 13,
+   "title": "Efficacy and safety of corticosteroids, hyaluronic acid, and PRP and combination therapy for knee osteoarthritis: a systematic review and network meta-analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38037038/",
+   "source": "BMC Musculoskeletal Disorders",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 14,
+   "title": "The comparison effects of intra-articular injection of PRP, PRGF, HA, and ozone in knee osteoarthritis; a one year randomized clinical trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33536010/",
+   "source": "BMC Musculoskeletal Disorders",
+   "year": 2021,
+   "type": "trial"
+  },
+  {
+   "id": 15,
+   "title": "Comparison between the effects of ultrasound guided intra-articular injections of PRP, high molecular weight hyaluronic acid, and their combination in hip osteoarthritis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36096771/",
+   "source": "BMC Musculoskeletal Disorders",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 16,
+   "title": "Mechanisms of Action and Efficacy of Hyaluronic Acid, Corticosteroids and Platelet-Rich Plasma in the Treatment of Temporomandibular Joint Osteoarthritis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34299024/",
+   "source": "International Journal of Molecular Sciences",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 17,
+   "title": "NCT02110238: Supartz versus Euflexxa for knee OA",
+   "url": "https://clinicaltrials.gov/study/NCT02110238",
+   "source": "ClinicalTrials.gov",
+   "year": 2014,
+   "type": "trial"
+  },
+  {
+   "id": 18,
+   "title": "NCT00712244: DisCoVisc versus DuoVisc, Healon5 and AmVisc Plus",
+   "url": "https://clinicaltrials.gov/study/NCT00712244",
+   "source": "ClinicalTrials.gov",
+   "year": 2007,
+   "type": "trial"
+  },
+  {
+   "id": 19,
+   "title": "NCT04204265: Monovisc for shoulder joint pain relief due to osteoarthritis",
+   "url": "https://clinicaltrials.gov/study/NCT04204265",
+   "source": "ClinicalTrials.gov",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 20,
+   "title": "NCT04204083: Monovisc for hip joint pain relief due to osteoarthritis",
+   "url": "https://clinicaltrials.gov/study/NCT04204083",
+   "source": "ClinicalTrials.gov",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 21,
+   "title": "Efficacy of hyaluronic acid gel and photobiomodulation therapy on wound healing after surgical gingivectomy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37891549/",
+   "source": "BMC Oral Health",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 22,
+   "title": "Physiochemical properties and application of hyaluronic acid: a systematic review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27324942/",
+   "source": "Journal of Cosmetic Dermatology",
+   "year": 2016,
+   "type": "review"
+  },
+  {
+   "id": 23,
+   "title": "US drug label (DailyMed): Dove raw shea butter and hyaluronic acid antiperspirant deodorant",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=03882c90-f46b-47b4-e063-6394a90a99e4",
+   "source": "DailyMed",
+   "year": 2025,
+   "type": "label"
+  },
+  {
+   "id": 24,
+   "title": "Hyaluronic Acid: A Key Ingredient in the Therapy of Inflammation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34680150/",
+   "source": "Biomolecules",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 25,
+   "title": "Hyaluronic Acid Basics and Rheology",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37169405/",
+   "source": "Clinics in Plastic Surgery",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 26,
+   "title": "T Nation: Bulldog: Getting Old Bastard Strong",
+   "url": "https://t-nation.com/t/bulldog-getting-old-bastard-strong/200807",
+   "source": "T Nation",
+   "year": 2014,
+   "type": "forum"
+  },
+  {
+   "id": 27,
+   "title": "T Nation: Silver and Steel",
+   "url": "https://t-nation.com/t/silver-and-steel/237353",
+   "source": "T Nation",
+   "year": 2017,
+   "type": "forum"
+  },
+  {
+   "id": 28,
+   "title": "T Nation: A New Animal: JDM135 for 1-2-3-4 plates",
+   "url": "https://t-nation.com/t/a-new-animal-jdm135-for-1-2-3-4-plates/263785",
+   "source": "T Nation",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 29,
+   "title": "T Nation: Sarcopenia Cure 2026",
+   "url": "https://t-nation.com/t/sarcopenia-cure-2026/293131",
+   "source": "T Nation",
+   "year": 2026,
+   "type": "forum"
+  },
+  {
+   "id": 30,
+   "title": "Dermal filler",
+   "url": "https://en.wikipedia.org/wiki/Dermal_filler",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 31,
+   "title": "Hyaluronidase",
+   "url": "https://en.wikipedia.org/wiki/Hyaluronidase",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 32,
+   "title": "Lip augmentation",
+   "url": "https://en.wikipedia.org/wiki/Lip_augmentation",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 33,
+   "title": "Juvéderm",
+   "url": "https://en.wikipedia.org/wiki/Juvéderm",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 34,
+   "title": "Restylane",
+   "url": "https://en.wikipedia.org/wiki/Restylane",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 35,
+   "title": "Dermal Fillers (Soft Tissue Fillers)",
+   "url": "https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/dermal-fillers-soft-tissue-fillers",
+   "source": "US Food and Drug Administration",
+   "year": 2023,
+   "type": "guideline"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Dermal_filler",
+   "title": "Dermal filler"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Hyaluronidase",
+   "title": "Hyaluronidase"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Lip_augmentation",
+   "title": "Lip augmentation"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Juvéderm",
+   "title": "Juvéderm"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Restylane",
+   "title": "Restylane"
+  },
+  {
+   "url": "https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/dermal-fillers-soft-tissue-fillers",
+   "title": "FDA: Dermal Fillers"
+  }
+ ]
 }

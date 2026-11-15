@@ -1,12 +1,64 @@
 {
- "lore": null,
- "timeline": [],
- "webSources": [],
+ "lore": {
+  "intro": "Skincare communities discuss bemotrizinol mainly as a reason to buy imported sunscreens, and the 2026 FDA decision prompted discussion on Hacker News.[14]",
+  "claims": [
+   {
+    "claim": "Sunscreens with Tinosorb S feel lighter and protect better than older US formulas.",
+    "believers": "One Hacker News commenter says Korean and Japanese bemotrizinol sunscreens rub in well, smell better and protect well.[14]",
+    "experts": "The ingredient absorbs UVB and UVA and is described as photostable, and a 2001 study reported it stabilised avobenzone; no trial compared product feel or real-world protection across regions.[1][2]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Bemotrizinol is poorly absorbed, so it avoids the concerns attached to some older chemical filters.",
+    "believers": "A commenter says the molecule is very large with near-zero skin absorption.[14]",
+    "experts": "The FDA says it has low absorption through the skin; a 2023 pharmacokinetic study measured systemic exposure.[3][8]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Mineral sunscreens remain the safer choice.",
+    "believers": "Commenters recommend non-nano zinc oxide, including one who suggested a toddler-targeted zinc oxide product, while noting that mineral sunscreens rub in less easily.[14]",
+    "experts": "The FDA announcement considers bemotrizinol generally recognised as safe and effective for adults and children six months and older.[8]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "year": "2000",
+   "event": "Bemotrizinol becomes permitted in EU cosmetic sunscreens, according to reference summaries.[1]"
+  },
+  {
+   "year": "2001",
+   "event": "Study reports Tinosorb S improves photostability of avobenzone and ethylhexyl methoxycinnamate.[2]"
+  },
+  {
+   "year": "2023",
+   "event": "Preliminary clinical pharmacokinetic evaluation published for possible US monograph inclusion.[3]"
+  },
+  {
+   "year": "2025-12-12",
+   "event": "FDA issues a proposed order to add bemotrizinol to the OTC sunscreen monograph.[8]"
+  },
+  {
+   "year": "2026-06-09",
+   "event": "FDA issues the final order, permitting up to 6 percent.[8]"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://www.fda.gov/news-events/press-announcements/fda-expands-sunscreen-options-first-time-20-years",
+   "title": "FDA Expands Sunscreen Options for the First Time in 20 Years to Add Bemotrizinol"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=48466007",
+   "title": "Hacker News discussion of the FDA announcement"
+  }
+ ],
  "name": "Tinosorb S (bemotrizinol)",
  "lead": [
-  "Bemotrizinol, sold by BASF as Tinosorb S and known by the INCI name bis-ethylhexyloxyphenol methoxyphenyl triazine, is an oil-soluble organic ultraviolet filter used in sunscreens and daily skincare. It absorbs across the UVB and UVA ranges, with absorption peaks reported near 310 nm and 340-345 nm.[1]",
-  "It is used widely in European, Australian and Asian sunscreens, and is often described as photostable. Laboratory work from 2001 reported that adding it to formulations helped stabilise the filters avobenzone and ethylhexyl methoxycinnamate under irradiation.[2] In the United States it has not been part of the over-the-counter sunscreen monograph; a 2023 pharmacokinetic study was published as part of work toward its possible inclusion.[3]",
-  "Evidence on the ingredient consists mainly of formulation, photostability and absorption studies rather than trials measuring sunburn or skin-cancer outcomes for the filter alone."
+  "Bemotrizinol, sold by BASF as Tinosorb S and known by the INCI name bis-ethylhexyloxyphenol methoxyphenyl triazine, is an oil-soluble organic ultraviolet filter used in sunscreens and daily skincare. It absorbs across the UVB and UVA ranges, with absorption peaks reported near 310 nm and 340-345 nm.[1] People use sunscreens containing it to prevent sunburn and tanning and to limit UV-driven photoaging such as wrinkles and dark spots, so skin keeps a more even, youthful look.",
+  "It has been used widely in European, Australian and Asian sunscreens, and is often described as photostable. Laboratory work from 2001 reported that adding it to formulations helped stabilise the filters avobenzone and ethylhexyl methoxycinnamate under irradiation.[2] In the United States it was long absent from the over-the-counter sunscreen monograph; the FDA announced on June 9, 2026 that it had added bemotrizinol, permitting concentrations up to 6 percent, calling it the first new sunscreen active ingredient added to the monograph in roughly 20 years.[8]",
+  "Evidence on the ingredient consists mainly of formulation, photostability, absorption and regulatory studies rather than trials measuring sunburn or skin-cancer outcomes for the filter alone."
  ],
  "infobox": [
   [
@@ -27,48 +79,60 @@
   ],
   [
    "EU status",
-   "Permitted in cosmetic sunscreens[1]"
+   "Permitted in cosmetic sunscreens since about 2000[1]"
   ],
   [
    "US status",
-   "Not in the OTC sunscreen monograph as of the cited sources[1][3]"
+   "Added to the OTC sunscreen monograph June 2026, up to 6 percent[8]"
+  ],
+  [
+   "US sponsor of request",
+   "DSM Nutritional Products LLC[8]"
   ]
  ],
  "sections": [
   {
    "h": "Description",
    "paras": [
-    "Bemotrizinol is a triazine-based molecule that is insoluble in water and dissolves in oils and emollients, so it is typically placed in the oil phase of emulsions. A Grokipedia summary gives its formula as C38H49N3O5 and a molar mass of about 628 g/mol.[1] Chemical names and numbers beyond this are taken from that reference text, which is AI-generated."
+    "Bemotrizinol is a triazine-based molecule that is insoluble in water and dissolves in oils and emollients, so it is typically placed in the oil phase of emulsions. A Grokipedia summary gives its formula as C38H49N3O5 and a molar mass of about 628 g/mol, a large molecule, with a melting point around 80 to 85 degrees Celsius.[1] Chemical names and numbers beyond this are taken from that reference text, which is AI-generated."
+   ]
+  },
+  {
+   "h": "How it works",
+   "paras": [
+    "Bemotrizinol absorbs UV photons and releases the energy as heat. Its absorption spans roughly 280 to 400 nm with two peaks, one in the UVB region near 310 nm and one in the UVA region at 340 to 345 nm, a profile that gives a single ingredient coverage of both bands.[1] Because it is oil-soluble and stable under light, formulators use it to stabilise less stable filters such as avobenzone, which allows higher SPF formulations that keep their protection during sun exposure.[1][2]"
    ]
   },
   {
    "h": "Photostability and formulation",
    "paras": [
-    "A 2001 study in Photochemistry and Photobiology examined oil-in-water sunscreens and reported that bemotrizinol improved the photostability of avobenzone and ethylhexyl methoxycinnamate, two filters known to lose protection under light.[2] A 2014 study evaluated lipid-nanocarrier and nanoemulsion vehicles for UV filters, including penetration and photostability testing.[4] A 2015 study assessed combinations of UV filters with retinyl palmitate, with and without bemotrizinol, for phototoxic risk using in vitro and in vivo assays.[5]"
+    "A 2001 study in Photochemistry and Photobiology examined oil-in-water sunscreens and reported that bemotrizinol improved the photostability of avobenzone and ethylhexyl methoxycinnamate, two filters known to lose protection under light.[2] A 2014 study evaluated lipid-nanocarrier and nanoemulsion vehicles for UV filters, including penetration and photostability testing.[4] A 2015 study assessed combinations of UV filters with retinyl palmitate, with and without bemotrizinol, for phototoxic risk; bemotrizinol was a better photostabiliser for the retinyl palmitate and benzophenone-3 mix than for the avobenzone mix, reduced the in vitro phototoxicity of retinyl palmitate with avobenzone, and clinical photopatch testing did not indicate phototoxic or photoallergenic potential.[5]",
+    "Outside sunscreens, a 2019 formulation study found Tinosorb S among the UV absorbers that prevented light-induced reddish discoloration of a phenylethyl resorcinol skin-brightening formulation.[9] A 2015 study of the antibiotic ofloxacin in ointments tested bemotrizinol and bisoctrizole as added sunscreens and found a significant photoprotective effect with the latter.[10]"
    ]
   },
   {
    "h": "Safety and absorption",
    "paras": [
-    "The 2023 preliminary clinical pharmacokinetic evaluation was conducted because bemotrizinol was being considered for the FDA over-the-counter sunscreen monograph.[3] A review of patients who believed they were allergic to sunscreens concluded that true photoallergy to sunscreen ingredients is rare.[6] Environmental monitoring studies have also looked for UV filters, including this one, in marine settings.[7]"
+    "The 2023 preliminary clinical pharmacokinetic evaluation was conducted because bemotrizinol was being considered for the FDA over-the-counter sunscreen monograph.[3] The FDA's 2026 announcement says the ingredient has low levels of absorption through the skin and is generally recognised as safe and effective for adults and children six months and older.[8] A review of patients who believed they were allergic to sunscreens concluded that true photoallergy to sunscreen ingredients is rare.[6] Environmental monitoring studies have also looked for UV filters, including this one, in marine settings.[7]"
    ]
   },
   {
-   "h": "Regulatory status",
+   "h": "Regulatory status and history",
    "paras": [
-    "Reference summaries state that the filter has been permitted in the European Union since about 2000 and in Australia, at up to 10 percent.[1] The same source states that, as of late 2025, it had not been approved by the US FDA for OTC sunscreens and that approval was anticipated.[1] Status may have changed since."
+    "Reference summaries state that the filter has been permitted in the European Union since about 2000 and in Australia, at up to 10 percent.[1] A 2025 review argued that the US regulatory system had not kept pace with international sunscreen innovation, listing bemotrizinol among newer filters used abroad and pointing to the FDA's over-the-counter monograph order request process as a possible route to approval.[11]",
+    "DSM Nutritional Products made the order request for bemotrizinol. The FDA issued a proposed order on December 12, 2025, accepted comments until January 26, 2026, and issued the final order on June 9, 2026, about seven months after the proposal, describing it as the first new active ingredient added to an OTC monograph under the streamlined process established by the CARES Act. HHS Secretary Robert F. Kennedy Jr. said in the announcement that bemotrizinol had been used safely in Europe for decades.[8] The Annals of Internal Medicine published an editorial on the approval as a step toward US sunscreen modernization, and The Medical Letter published a short note on it.[12][13]"
    ]
   },
   {
    "h": "Use in looksmaxxing",
    "paras": [
-    "Skincare communities that discuss sun protection as part of anti-aging routines often mention European and Asian sunscreens containing Tinosorb S, partly because US products have generally not contained it. The sources available for this article do not include direct forum material."
+    "Skincare communities that discuss sun protection as part of anti-aging routines have often mentioned European, Korean and Japanese sunscreens containing Tinosorb S, partly because US products generally did not contain it before 2026. In a Hacker News thread on the FDA approval, one commenter said they buy bemotrizinol sunblock from Korea and Japan and describe it as rubbing in well and not staining white clothing the way avobenzone in some US sunscreens can; another recommended non-nano zinc oxide instead, saying bemotrizinol is a large molecule with near-zero skin absorption but does not avoid the rub-in issues of mineral sunscreens.[14]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "Human data identified are limited. A 2023 clinical pharmacokinetic study evaluated systemic exposure to bemotrizinol in sunscreen use.[3] A questionnaire and photopatch-testing study of self-described sunscreen-allergic patients addressed photoallergy to sunscreen filters generally.[6] No trials were found that test bemotrizinol alone for appearance outcomes such as photoaging."
+    "Human data identified are limited. A 2023 clinical pharmacokinetic study evaluated systemic exposure to bemotrizinol in sunscreen use.[3] An open, placebo-controlled, intra-individual 2008 study in 12 patients with polymorphic light eruption tested a very-high-protection sunscreen containing Tinosorb M, Tinosorb S and avobenzone under standardised photoprovocation; it examined prevention of the eruption rather than the effect of Tinosorb S alone.[15] A questionnaire and photopatch-testing study of self-described sunscreen-allergic patients addressed photoallergy to sunscreen filters generally.[6] No trials were found that test bemotrizinol alone for appearance outcomes such as photoaging."
    ]
   }
  ],
@@ -128,10 +192,74 @@
    "source": "Marine Pollution Bulletin",
    "year": 2025,
    "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "FDA Expands Sunscreen Options for the First Time in 20 Years to Add Bemotrizinol",
+   "url": "https://www.fda.gov/news-events/press-announcements/fda-expands-sunscreen-options-first-time-20-years",
+   "source": "FDA press announcement",
+   "year": 2026,
+   "type": "news"
+  },
+  {
+   "id": 9,
+   "title": "Phenylethyl resorcinol smartLipids for skin brightening - Increased loading & chemical stability",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31302211/",
+   "source": "European Journal of Pharmaceutical Sciences",
+   "year": 2019,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Evaluation of photodegradation, phototoxicity and photogenotoxicity of ofloxacin in ointments with sunscreens and in solutions",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25728226/",
+   "source": "Journal of Photochemistry and Photobiology B",
+   "year": 2015,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "Modernizing U.S. Sunscreen Regulations: How Newer Filters Can Improve Public Health",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40778531/",
+   "source": "Photodermatology, Photoimmunology & Photomedicine",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 12,
+   "title": "Bemotrizinol Approval: A Step Toward U.S. Sunscreen Modernization",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42896185/",
+   "source": "Annals of Internal Medicine",
+   "year": 2026,
+   "type": "news"
+  },
+  {
+   "id": 13,
+   "title": "Bemotrizinol - a new sunscreen",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42497845/",
+   "source": "The Medical Letter on Drugs and Therapeutics",
+   "year": 2026,
+   "type": "news"
+  },
+  {
+   "id": 14,
+   "title": "FDA Approves New Sunscreen Ingredient (Bemotrizinol) Used in EU/Asia for Years",
+   "url": "https://news.ycombinator.com/item?id=48507024",
+   "source": "Hacker News",
+   "year": 2026,
+   "type": "forum"
+  },
+  {
+   "id": 15,
+   "title": "Prevention of polymorphic light eruption with a sunscreen of very high protection level against UVB and UVA radiation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19002338/",
+   "source": "Acta Dermato-Venereologica",
+   "year": 2008,
+   "type": "trial"
   }
  ],
  "card": {
-  "summary": "A photostable broad-spectrum UV filter common in EU and Asian sunscreens, with US availability still pending in the sources reviewed.",
+  "summary": "A photostable broad-spectrum UV filter common in EU and Asian sunscreens, with US availability still pending.",
   "aka": "Bemotrizinol, BEMT, Tinosorb S, Escalol S, Parsol Shield",
   "evidence": "moderate",
   "outcome": "durable",
@@ -139,8 +267,18 @@
   "note": "Not in the US OTC monograph per the cited sources; status may have changed."
  },
  "quick": {
-  "overview": "Tinosorb S is a chemical UV filter that absorbs both UVB and UVA light. It is common in European, Australian and Asian sunscreens and is often discussed in skincare communities as a reason to seek out non-US products.\n\nResearch mostly covers formulation behaviour: a 2001 study reported it helped stabilise avobenzone and another filter under light. Trials of the filter alone on appearance outcomes were not found.",
+  "overview": "Tinosorb S is a chemical UV filter that absorbs both UVB and UVA light. It is common in European, Australian and Asian sunscreens and is often discussed in skincare communities as a reason to seek out non-US products.\nResearch mostly covers formulation behaviour: a 2001 study reported it helped stabilise avobenzone and another filter under light. Trials of the filter alone on appearance outcomes were not found.",
   "mechanism": "It absorbs ultraviolet photons and releases the energy as heat, and is described as highly photostable.",
   "risks": "Photoallergy to sunscreen filters is described as rare in a 2010 study. A 2023 study measured how much is absorbed, as part of work toward possible US OTC inclusion. Environmental monitoring has detected UV filters in coastal waters."
+ },
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "Applied as a sunscreen ingredient",
+   "Absorbs UVB and UVA and converts the energy to heat",
+   "Less UV-driven burning, tanning and photoaging over time"
+  ],
+  "effect": "indirect",
+  "text": "Bemotrizinol is one ingredient inside a sunscreen. By absorbing broad-spectrum UV and keeping other filters stable, it supports a sunscreen's ability to prevent the sun damage that ages skin and causes uneven pigment. Users often seek out sunscreens that contain it for their light textures and broad coverage."
  }
 }

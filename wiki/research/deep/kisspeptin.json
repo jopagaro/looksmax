@@ -1,9 +1,35 @@
 {
  "name": "Kisspeptin",
+ "card": {
+  "summary": "A hypothalamic peptide that triggers LH release; forums pitch kisspeptin-10 as an hCG alternative, but no trial tests that use.",
+  "aka": "Kisspeptin-10, Kp-10, metastin (Kp-54)",
+  "evidence": "unproven",
+  "status": "research",
+  "outcome": null,
+  "risk": null,
+  "price": null,
+  "note": "Not an approved drug; human trials are small academic studies, not in men on testosterone therapy.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Kisspeptin is a natural signalling peptide that tells the hypothalamus to release GnRH, which drives LH and testosterone. Its fragment kisspeptin-10 is sold as a research peptide.\n\nTestosterone-therapy forums discuss it as an alternative to hCG or gonadorelin for keeping testicular signalling going. Academic trials show it raises LH in volunteers, but none tests this forum use.",
+  "mechanism": "It binds KISS1R on GnRH neurons, increasing GnRH pulses and thereby LH and FSH from the pituitary. In men, LH stimulates testicular testosterone production.",
+  "risks": "It has no approved indication, and products are unregulated research chemicals. Long-term effects of repeated self-administration have not been established in the cited trials, and effects on appearance outcomes are untested."
+ },
+ "angle": {
+  "goal": "Hormonal support for muscle, libido and physique",
+  "chain": [
+   "Kisspeptin-10 is a research peptide that stimulates GnRH neurons",
+   "GnRH drives LH and FSH, and LH drives testicular testosterone",
+   "Users aim to keep testicular function and libido during testosterone therapy or after a steroid cycle"
+  ],
+  "effect": "claimed",
+  "text": "Users on testosterone therapy discuss kisspeptin-10 as a way to keep the testes signalling, as an alternative to hCG or gonadorelin. The appearance link they describe is indirect: testicular function, libido and hormone levels that support training and a fuller, more masculine physique."
+ },
  "lead": [
-  "Kisspeptins are a family of neuropeptides encoded by the KISS1 gene. They act on the receptor KISS1R (GPR54) on gonadotropin-releasing hormone (GnRH) neurons in the hypothalamus, which makes them a key upstream signal for luteinizing hormone (LH), follicle-stimulating hormone (FSH) and, in men, testosterone [2][7]. The shortest fully active fragment, kisspeptin-10, and the longer kisspeptin-54 have both been given to people in research settings [1][12].",
-  "In testosterone-therapy and bodybuilding forums, kisspeptin-10 is discussed as a way to keep the testes signalling during testosterone replacement or after a steroid cycle, as an alternative to hCG or gonadorelin [25][26][28]. This is an off-label, non-approved use of a research peptide; no kisspeptin product is an approved medicine.",
-  "Human studies of kisspeptin are real but small and are conducted by academic endocrinology groups. They show it raises gonadotropins in healthy volunteers and some patients with reproductive disorders [11][13][23]. No trial found here has tested it for muscle, physique or other appearance outcomes."
+  "Kisspeptins are a family of neuropeptides encoded by the KISS1 gene. They act on the receptor KISS1R (GPR54) on gonadotropin-releasing hormone (GnRH) neurons in the hypothalamus, which makes them a key upstream signal for luteinizing hormone (LH), follicle-stimulating hormone (FSH) and, in men, testosterone.[2][7][30] The shortest fully active fragment, kisspeptin-10, and the longer kisspeptin-54 have both been given to people in research settings.[1][12]",
+  "In testosterone-therapy and bodybuilding forums, kisspeptin-10 is discussed as a way to keep the testes signalling during testosterone replacement or after a steroid cycle, as an alternative to hCG or gonadorelin.[25][26][28] Users link this to appearance in a chain: preserved testicular function and hormone levels, better libido and mood, and continued training progress and a masculine physique. This is an off-label, non-approved use of a research peptide; no kisspeptin product is an approved medicine.",
+  "Human studies of kisspeptin are conducted mainly by academic endocrinology groups, notably at Imperial College London. They show it raises gonadotropins and testosterone in healthy men and women and in some patients with reproductive disorders, and two 2023 crossover trials in men and women with low sexual desire reported effects on brain responses and sexual behaviour.[11][13][23][33][36] The World Anti-Doping Agency added kisspeptins to its Prohibited List in 2024.[31][32] No trial found here has tested kisspeptin for muscle, physique or other appearance outcomes."
  ],
  "infobox": [
   [
@@ -16,11 +42,19 @@
   ],
   [
    "Common forms",
-   "Kisspeptin-54, -14, -13, -10 [1]"
+   "Kisspeptin-54, -14, -13, -10 [1][30]"
   ],
   [
    "Discovered",
-   "KISS1 identified 1996 as a melanoma metastasis suppressor; peptides described 2001 [1][15]"
+   "KISS1 identified 1996 in Hershey, Pennsylvania as a melanoma metastasis suppressor; peptides described 2001 [1][30]"
+  ],
+  [
+   "Physiological role",
+   "Drives GnRH release, puberty and reproductive hormones [4][7]"
+  ],
+  [
+   "Sports status",
+   "Prohibited by WADA from 2024 [31]"
   ],
   [
    "Legal status",
@@ -31,50 +65,95 @@
   {
    "h": "Biology",
    "paras": [
-    "The peptides derive from the KISS1 gene product and share a C-terminal RF-amide motif; they were first isolated from human placenta and shown to activate the orphan receptor GPR54 [1]. Kisspeptin was named after the chocolate Kisses of Hershey, Pennsylvania, where the gene was found, according to Grokipedia [15].",
-    "Kisspeptin stimulates GnRH release directly through GPR54 [2][3]. Inactivating mutations in the receptor cause hypogonadotropic hypogonadism in people, and kisspeptin signalling is regarded as a gatekeeper of puberty [4][7][8]. Neurons in the arcuate nucleus that co-express kisspeptin, neurokinin B and dynorphin shape GnRH pulses [6][5]. Energy balance and stress modulate these neurons [9][10]."
+    "The peptides derive from the KISS1 gene product and share a C-terminal RF-amide motif; they were first isolated from human placenta and shown to activate the orphan receptor GPR54.[1] The human precursor of 145 amino acids is cleaved into a 54-amino-acid peptide, which is processed further into kisspeptin-14, -13 and the active fragment kisspeptin-10.[30]",
+    "Kisspeptin stimulates GnRH release directly through GPR54.[2][3] Inactivating mutations in the receptor cause hypogonadotropic hypogonadism in people, and kisspeptin signalling is regarded as a gatekeeper of puberty.[4][7][8] Neurons in the arcuate nucleus that co-express kisspeptin, neurokinin B and dynorphin shape GnRH pulses.[5][6] Energy balance and stress modulate these neurons; leptin from fat tissue induces kisspeptin production, and low body fat is described as suppressing menstruation in some female athletes.[9][10][30]",
+    "Outside the brain, kisspeptin-54 rises very steeply during pregnancy, with the placenta as its source, and kisspeptin can also stimulate aldosterone and insulin secretion according to Wikipedia.[30]"
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "In 1996 Danny Welch's group in Hershey, Pennsylvania identified a gene that suppressed metastasis in melanoma cells, and named it KISS1 after the town's chocolate Kisses.[30] The gene's products were isolated as kisspeptins and shown to be natural ligands of GPR54 in 2001.[1] In 2003 several independent groups reported that people with GPR54 mutations had hypogonadotropic hypogonadism, shifting the field from cancer to reproduction.[30] Studies in 2005 showed kisspeptin directly activates GnRH neurons and triggers pubertal onset in animals.[2][4]",
+    "Clinical work followed from the 2000s onward, including a first dose-finding administration study in adults registered in 2009 and trials in IVF triggering in 2012.[17][23] The 2020s brought intranasal, subcutaneous and prolonged-administration studies.[11][16][19][22]"
    ]
   },
   {
    "h": "Use in looksmaxxing communities",
    "paras": [
-    "On T Nation, users on testosterone replacement describe rotating kisspeptin-10 with gonadorelin because they cannot tolerate hCG [25], or using it during post-cycle recovery with clomiphene [29]. Others describe it as a possible hCG substitute with its own drawbacks, or as something that keeps the testes \"alive\" without being optimal [27][28]. One user claims it avoids the desensitisation seen with gonadorelin [26]. Posters report using it alongside growth-hormone secretagogue blends for libido [24]. These are individual reports, not controlled observations."
+    "On T Nation, users on testosterone replacement describe rotating kisspeptin-10 with gonadorelin because they cannot tolerate hCG,[25] or using it during post-cycle recovery with clomiphene.[29] Others describe it as a possible hCG substitute with its own drawbacks, or as something that keeps the testes 'alive' without being optimal.[27][28] One user claims it avoids the desensitisation seen with gonadorelin.[26] Posters report using it alongside growth-hormone secretagogue blends for libido.[24] These are individual reports, not controlled observations.",
+    "The appeal described in these threads is to continue testosterone therapy or finish a cycle without testicular shrinkage or loss of drive, outcomes users associate with looks, mood and training. A 2026 narrative review of peptide strategies for testosterone-therapy-induced suppression notes that such peptides may support endogenous hormone signalling but that evidence for restoring fertility is limited.[35]"
+   ]
+  },
+  {
+   "h": "Research on libido and sexual function",
+   "paras": [
+    "In February 2023 Imperial College London researchers published two randomised, double-blind, placebo-controlled crossover trials in JAMA Network Open, one in 32 premenopausal women and one in 32 men, all with hypoactive sexual desire disorder. Kisspeptin increased activity in brain regions involved in sexual processing and improved behavioural measures compared with placebo; in men the report included up to a 56 percent increase in penile rigidity during an erotic video, and no side effects were reported in either group.[33] The investigators described the trials as proof-of-concept and planned larger studies.[33] Wikipedia notes that a single intravenous infusion was well tolerated in this work.[30]",
+    "A 2026 systematic review of peptides for male sexual dysfunction, covering 12 human studies in 372 men, reported that kisspeptin raised gonadotropin secretion and improved penile tumescence and desire in men with hypoactive sexual desire disorder, while noting small samples and short follow-up.[34] A 2025 consensus statement says kisspeptin is involved in arousal but that its clinical use is still under investigation.[38]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "A randomized trial found that intranasal kisspeptin rapidly raised gonadotropin levels in humans [11]. A single kisspeptin-54 injection temporarily increased LH pulsatility in healthy women [12]. A 2025 randomized trial reported that kisspeptin stimulated reproductive hormones without affecting anxiety [13], and a randomized trial examined its acute effects on bone metabolism in healthy men [14].",
-    "Registered trials have tested kisspeptin in infertility and IVF triggering [17], hypothalamic amenorrhea and hypogonadotropic hypogonadism [18][21][22], and as a diagnostic probe of GnRH function [20][23]. These studies are in patients or volunteers and none targets muscle building or testosterone-therapy co-use in men."
+    "Healthy volunteers. A randomized trial found that intranasal kisspeptin rapidly raised gonadotropin levels in humans.[11] A single kisspeptin-54 injection temporarily increased LH pulsatility in healthy women.[12] A 2025 randomized trial reported that kisspeptin stimulated reproductive hormones without affecting anxiety,[13] and a randomized trial examined its acute effects on bone metabolism in healthy men.[14]",
+    "Men, repeated administration. A 2026 single-blind placebo-controlled study in healthy men found that subcutaneous kisspeptin-10 dose-dependently raised LH, FSH and testosterone over an eight-hour infusion; continuous infusion for five days kept testosterone elevated while gonadotropins returned to vehicle levels, and 12 days of daily infusions sustained gonadotropin rises with some attenuation, with a bolus still effective afterwards.[36] A separate 2026 study of three healthy men on a 24-hour continuous infusion saw LH rise five- to eight-fold and then fall 13 to 47 percent from peak, which the authors interpret as desensitisation.[37]",
+    "Patients. Registered trials have tested kisspeptin in infertility and IVF triggering,[17] hypothalamic amenorrhea and hypogonadotropic hypogonadism,[18][21][22] and as a diagnostic probe of GnRH function.[20][23] Studies of prolonged and continuous administration are examining how responses change over time.[16][19][22]",
+    "None targets muscle building, appearance outcomes, or testosterone-therapy co-use compared with hCG in men."
    ]
   },
   {
    "h": "Safety and regulatory status",
    "paras": [
-    "The human studies above were conducted under research oversight; the cited abstracts do not establish long-term safety of repeated self-administration. Kisspeptin has no approved medical indication and products sold online are marketed as research peptides, with purity and identity not verified by regulators."
+    "The human studies above were conducted under research oversight, and the cited abstracts do not establish long-term safety of repeated self-administration. Kisspeptin has no approved medical indication and products sold online are marketed as research peptides, with purity and identity not verified by regulators. A Hacker News commenter in 2023 cautioned that kisspeptin acts on several signalling systems and that hormonal feedback loops make outcomes unpredictable.[39]",
+    "Sport. The World Anti-Doping Agency added kisspeptin-54 and its isoforms, including kisspeptin-10, and agonists such as TAK-448 to the Prohibited List in 2024 as testosterone-stimulating peptides in male athletes.[31][32] Detection researchers reported that a black-market vial of kisspeptin-10 they analysed showed no unexpected impurities but had degraded more than the reference standard.[31]"
+   ]
+  },
+  {
+   "h": "Research directions",
+   "paras": [
+    "Active registered studies include subcutaneous kisspeptin in hypothalamic amenorrhea and a probe of GnRH neuronal function in health and disease.[18][20] Other projects examine kisspeptin antagonists and neurokinin-B receptor blockers as ways to turn the axis down in conditions such as polycystic ovary syndrome.[7][19]"
    ]
   }
  ],
  "timeline": [
   {
    "year": "1996",
-   "event": "KiSS-1 gene identified as a melanoma metastasis suppressor [15]."
+   "event": "KiSS-1 gene identified in Hershey, Pennsylvania as a melanoma metastasis suppressor.[30]"
   },
   {
    "year": "2001",
-   "event": "Kisspeptins isolated and shown to activate GPR54 [1]."
+   "event": "Kisspeptins isolated and shown to activate GPR54.[1]"
   },
   {
    "year": "2003",
-   "event": "Receptor mutations linked to hypogonadotropic hypogonadism in humans [15][7]."
+   "event": "Receptor mutations linked to hypogonadotropic hypogonadism in humans.[30][7]"
   },
   {
    "year": "2005",
-   "event": "Studies show kisspeptin directly stimulates GnRH neurons [2][4]."
+   "event": "Studies show kisspeptin directly stimulates GnRH neurons.[2][4]"
+  },
+  {
+   "year": "2009",
+   "event": "Adult kisspeptin administration study begins.[23]"
+  },
+  {
+   "year": "2013",
+   "event": "Single kisspeptin-54 injection shown to raise LH pulsatility in healthy women.[12]"
+  },
+  {
+   "year": "2023",
+   "event": "Imperial College trials report effects on sexual brain processing in men and women with low desire.[33]"
+  },
+  {
+   "year": "2024",
+   "event": "WADA adds kisspeptins to the Prohibited List.[31][32]"
   },
   {
    "year": "2025",
-   "event": "Intranasal kisspeptin randomized trial reports rapid gonadotropin release [11]."
+   "event": "Intranasal kisspeptin randomized trial reports rapid gonadotropin release.[11]"
+  },
+  {
+   "year": "2026",
+   "event": "Studies of repeated and continuous kisspeptin-10 in healthy men report sustained but attenuated gonadotropin responses.[36][37]"
   }
  ],
  "lore": {
@@ -89,20 +168,44 @@
    {
     "claim": "Kisspeptin does not desensitise the way gonadorelin does",
     "believers": "A forum poster states kisspeptin-10 may offer the same value as gonadorelin with no desensitisation over time [26].",
-    "experts": "Registered studies of prolonged and continuous kisspeptin administration are examining how responses change over time [16][19][22].",
+    "experts": "A 2026 healthy-volunteer study reported sustained gonadotropin rises over 12 days of repeated infusions with some attenuation, and another small study saw LH fall from its peak during a 24-hour continuous infusion, which the authors interpret as desensitisation.[36][37]",
     "evidence": "mixed"
    },
    {
     "claim": "Kisspeptin restores libido",
     "believers": "A user reports libido returning within weeks of starting kisspeptin-10 with a growth-hormone peptide blend [24].",
-    "experts": "A randomized trial found kisspeptin raised reproductive hormones without affecting anxiety; the cited studies do not test libido in men on testosterone therapy [13].",
-    "evidence": "untested"
+    "experts": "Two 2023 crossover trials in men and women with low desire reported improved sexual brain processing and behaviour with a single kisspeptin administration; they did not test men on testosterone therapy.[33]",
+    "evidence": "mixed"
    },
    {
     "claim": "Kisspeptin helps post-cycle recovery of natural production",
     "believers": "Users describe adding it to clomiphene-based post-cycle regimens [29].",
     "experts": "Kisspeptin is a known driver of GnRH release [2], but no trial has tested it in recovery from steroid-induced suppression.",
     "evidence": "untested"
+   },
+   {
+    "claim": "Kisspeptin keeps testosterone and fertility going without shutting down the axis like exogenous testosterone does.",
+    "believers": "Users see it as acting upstream of the testes, at the same level as the body's own signal.[25][28]",
+    "experts": "Trials show kisspeptin-10 raises LH, FSH and testosterone in healthy men,[36] while a 2026 review says evidence for restoring fertility on testosterone therapy is limited.[35]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Kisspeptin is undetectable and useful for athletes.",
+    "believers": "Peptide users describe research peptides as a way around standard hormone drugs.[27]",
+    "experts": "WADA prohibited kisspeptins in 2024 and laboratories have developed urine and serum detection methods, noting that the native peptides are unstable.[31][32]",
+    "evidence": "harms"
+   },
+   {
+    "claim": "Kisspeptin keeps testosterone and fertility going without shutting down the axis like exogenous testosterone does.",
+    "believers": "Users see it as acting upstream of the testes, at the same level as the body's own signal.[25][28]",
+    "experts": "Trials show kisspeptin-10 raises LH, FSH and testosterone in healthy men,[36] while a 2026 review says evidence for restoring fertility on testosterone therapy is limited.[35]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Kisspeptin is undetectable and useful for athletes.",
+    "believers": "Some users describe research peptides as an alternative to standard hormone drugs in a sports context.",
+    "experts": "WADA prohibited kisspeptins in 2024 and laboratories have developed urine and serum detection methods, noting that the native peptides are unstable.[31][32]",
+    "evidence": "harms"
    }
   ]
  },
@@ -338,23 +441,192 @@
    "source": "T Nation",
    "year": 2022,
    "type": "forum"
+  },
+  {
+   "id": 30,
+   "title": "Kisspeptin",
+   "url": "https://en.wikipedia.org/wiki/Kisspeptin",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 31,
+   "title": "Investigating the detection of the novel doping-relevant peptide kisspeptin-10 in urine using liquid chromatography high-resolution mass spectrometry (Colpaert et al.) - Europe PMC record",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22kisspeptin-10%22%20doping%20urine&resultType=core&format=json&pageSize=3",
+   "source": "Biomed Chromatogr",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 32,
+   "title": "Analysis and characterization of kisspeptin and its analogues in serum and urine for doping control purposes (Krombholz et al.) - Europe PMC record",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22kisspeptin-10%22%20doping%20urine&resultType=core&format=json&pageSize=3",
+   "source": "Drug Test Anal",
+   "year": 2026,
+   "type": "study"
+  },
+  {
+   "id": 33,
+   "title": "Kisspeptin hormone injection could treat low sex drive in women and men (Imperial College London, JAMA Network Open trials)",
+   "url": "https://www.eurekalert.org/news-releases/978521",
+   "source": "EurekAlert",
+   "year": 2023,
+   "type": "news"
+  },
+  {
+   "id": 34,
+   "title": "Peptides for male sexual dysfunction: a systematic review of emerging evidence (Ramez et al.) - Europe PMC record",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=kisspeptin%20%22hypoactive%20sexual%20desire%22&resultType=core&format=json&pageSize=4",
+   "source": "J Sex Med",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 35,
+   "title": "Emerging peptide and neuroendocrine strategies for TRT-induced reproductive suppression and functional male hypogonadism: a narrative review (Cretu et al.) - Europe PMC record",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=kisspeptin%20%22hypoactive%20sexual%20desire%22&resultType=core&format=json&pageSize=4",
+   "source": "Front Reprod Health",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 36,
+   "title": "Chronic subcutaneous kisspeptin-10 stimulates gonadotropin secretion for 12 days in healthy men (Yeung et al.) - Europe PMC record",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=kisspeptin%20testosterone%20men%20randomized%20OR%20healthy%20men%20LH&resultType=core&format=json&pageSize=6",
+   "source": "Eur J Endocrinol",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 37,
+   "title": "Dynamic modulation of LH secretion by continuous kisspeptin infusion in healthy men (Naveed et al.) - Europe PMC record",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=kisspeptin%20testosterone%20men%20randomized%20OR%20healthy%20men%20LH&resultType=core&format=json&pageSize=6",
+   "source": "Hormones (Athens)",
+   "year": 2026,
+   "type": "study"
+  },
+  {
+   "id": 38,
+   "title": "The hormonal regulation of men's sexual desire, arousal, and penile erection: recommendations from ICSM 2024 (Rastrelli et al.) - Europe PMC record",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=kisspeptin%20%22hypoactive%20sexual%20desire%22&resultType=core&format=json&pageSize=4",
+   "source": "Sex Med Rev",
+   "year": 2025,
+   "type": "guideline"
+  },
+  {
+   "id": 39,
+   "title": "Kisspeptin hormone injection could treat low sex drive in women and men (Hacker News discussion)",
+   "url": "https://news.ycombinator.com/item?id=34677385",
+   "source": "Hacker News",
+   "year": 2023,
+   "type": "forum"
+  },
+  {
+   "id": 30,
+   "title": "Kisspeptin",
+   "url": "https://en.wikipedia.org/wiki/Kisspeptin",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 31,
+   "title": "Investigating the detection of the novel doping-relevant peptide kisspeptin-10 in urine using liquid chromatography high-resolution mass spectrometry (Colpaert et al.) - Europe PMC record",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22kisspeptin-10%22%20doping%20urine&resultType=core&format=json&pageSize=3",
+   "source": "Biomed Chromatogr",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 32,
+   "title": "Analysis and characterization of kisspeptin and its analogues in serum and urine for doping control purposes (Krombholz et al.) - Europe PMC record",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22kisspeptin-10%22%20doping%20urine&resultType=core&format=json&pageSize=3",
+   "source": "Drug Test Anal",
+   "year": 2026,
+   "type": "study"
+  },
+  {
+   "id": 33,
+   "title": "Kisspeptin hormone injection could treat low sex drive in women and men (Imperial College London, JAMA Network Open trials)",
+   "url": "https://www.eurekalert.org/news-releases/978521",
+   "source": "EurekAlert",
+   "year": 2023,
+   "type": "news"
+  },
+  {
+   "id": 34,
+   "title": "Peptides for male sexual dysfunction: a systematic review of emerging evidence (Ramez et al.) - Europe PMC record",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=kisspeptin%20%22hypoactive%20sexual%20desire%22&resultType=core&format=json&pageSize=4",
+   "source": "J Sex Med",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 35,
+   "title": "Emerging peptide and neuroendocrine strategies for TRT-induced reproductive suppression and functional male hypogonadism: a narrative review (Cretu et al.) - Europe PMC record",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=kisspeptin%20%22hypoactive%20sexual%20desire%22&resultType=core&format=json&pageSize=4",
+   "source": "Front Reprod Health",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 36,
+   "title": "Chronic subcutaneous kisspeptin-10 stimulates gonadotropin secretion for 12 days in healthy men (Yeung et al.) - Europe PMC record",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=kisspeptin%20testosterone%20men%20randomized%20OR%20healthy%20men%20LH&resultType=core&format=json&pageSize=6",
+   "source": "Eur J Endocrinol",
+   "year": 2026,
+   "type": "trial"
+  },
+  {
+   "id": 37,
+   "title": "Dynamic modulation of LH secretion by continuous kisspeptin infusion in healthy men (Naveed et al.) - Europe PMC record",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=kisspeptin%20testosterone%20men%20randomized%20OR%20healthy%20men%20LH&resultType=core&format=json&pageSize=6",
+   "source": "Hormones (Athens)",
+   "year": 2026,
+   "type": "study"
+  },
+  {
+   "id": 38,
+   "title": "The hormonal regulation of men's sexual desire, arousal, and penile erection: recommendations from ICSM 2024 (Rastrelli et al.) - Europe PMC record",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=kisspeptin%20%22hypoactive%20sexual%20desire%22&resultType=core&format=json&pageSize=4",
+   "source": "Sex Med Rev",
+   "year": 2025,
+   "type": "guideline"
+  },
+  {
+   "id": 39,
+   "title": "Kisspeptin hormone injection could treat low sex drive in women and men (Hacker News discussion)",
+   "url": "https://news.ycombinator.com/item?id=34677385",
+   "source": "Hacker News",
+   "year": 2023,
+   "type": "forum"
   }
  ],
- "webSources": [],
- "card": {
-  "summary": "A hypothalamic peptide that triggers LH release; forums pitch kisspeptin-10 as an hCG alternative, but no trial tests that use.",
-  "aka": "Kisspeptin-10, Kp-10, metastin (Kp-54)",
-  "evidence": "unproven",
-  "status": "research",
-  "outcome": null,
-  "risk": null,
-  "price": null,
-  "note": "Not an approved drug; human trials are small academic studies, not in men on testosterone therapy.",
-  "structure": null
- },
- "quick": {
-  "overview": "Kisspeptin is a natural signalling peptide that tells the hypothalamus to release GnRH, which drives LH and testosterone. Its fragment kisspeptin-10 is sold as a research peptide.\n\nTestosterone-therapy forums discuss it as an alternative to hCG or gonadorelin for keeping testicular signalling going. Academic trials show it raises LH in volunteers, but none tests this forum use.",
-  "mechanism": "It binds KISS1R on GnRH neurons, increasing GnRH pulses and thereby LH and FSH from the pituitary. In men, LH stimulates testicular testosterone production.",
-  "risks": "It has no approved indication, and products are unregulated research chemicals. Long-term effects of repeated self-administration have not been established in the cited trials, and effects on appearance outcomes are untested."
- }
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Kisspeptin",
+   "title": "Kisspeptin"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22kisspeptin-10%22%20doping%20urine&resultType=core&format=json&pageSize=3",
+   "title": "Europe PMC: kisspeptin-10 doping detection"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=kisspeptin%20%22hypoactive%20sexual%20desire%22&resultType=core&format=json&pageSize=4",
+   "title": "Europe PMC: kisspeptin and hypoactive sexual desire"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=kisspeptin%20testosterone%20men%20randomized%20OR%20healthy%20men%20LH&resultType=core&format=json&pageSize=6",
+   "title": "Europe PMC: kisspeptin in men"
+  },
+  {
+   "url": "https://www.eurekalert.org/news-releases/978521",
+   "title": "Imperial College kisspeptin trials release"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=34677385",
+   "title": "Hacker News thread"
+  }
+ ]
 }

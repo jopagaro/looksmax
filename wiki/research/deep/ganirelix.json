@@ -1,13 +1,14 @@
 {
  "name": "Ganirelix",
  "lead": [
-  "Ganirelix, sold as Orgalutran and Antagon among other names, is an injectable GnRH antagonist used in assisted reproduction to prevent premature ovulation during ovarian stimulation for IVF [1][2]. It competitively blocks pituitary GnRH receptors, rapidly suppressing LH and FSH, with the effect reversing after stopping [2].",
-  "Randomized trials in women undergoing ovarian stimulation compared it with GnRH agonist protocols [3][4][5]. It is a prescription fertility drug; no studies examine it for appearance or muscle outcomes."
+  "Ganirelix, sold as Orgalutran and Antagon among other names, is an injectable GnRH antagonist used in assisted reproduction to prevent premature ovulation during ovarian stimulation for IVF [1][2]. It competitively blocks GnRH receptors on the pituitary, rapidly suppressing luteinizing hormone (LH) and follicle-stimulating hormone (FSH), and the effect reverses when dosing stops [2][13].",
+  "Its connection to appearance runs through the hormone axis. LH and FSH drive the gonads' output of sex hormones, which in turn shape body composition, skin and hair; GnRH antagonists as a class are among the drugs that can switch that signal off quickly, and an earlier-generation antagonist suppressed testosterone to castrate levels for more than 30 hours after a single dose in men [14]. Ganirelix itself has been studied in women having fertility treatment, not in men or for physique and appearance goals.",
+  "The drug is well characterised in randomized fertility trials, including a 730-woman European study and North American and Asian trials, and a Cochrane review and meta-analyses have compared antagonist protocols with the older long agonist protocol [3][4][5][10][11]. It is a prescription drug in the US, EU, Canada and Australia [2]."
  ],
  "infobox": [
   [
    "Drug class",
-   "GnRH antagonist [2]"
+   "GnRH antagonist, synthetic decapeptide [2][14]"
   ],
   [
    "Route",
@@ -22,8 +23,16 @@
    "About 16 hours [2]"
   ],
   [
+   "Bioavailability",
+   "About 91 percent [2]"
+  ],
+  [
    "Approved",
    "European Commission, May 2000 (N.V. Organon) [2]"
+  ],
+  [
+   "Molar mass",
+   "About 1570 g/mol [2]"
   ],
   [
    "Legal status",
@@ -34,36 +43,70 @@
   {
    "h": "Medical uses",
    "paras": [
-    "Its labeled use is inhibiting premature LH surges in women undergoing controlled ovarian hyperstimulation, with ovulation then triggered with hCG [2][5]. Studies have also examined triggering final oocyte maturation with a GnRH agonist after ganirelix cotreatment, including with reference to ovarian hyperstimulation syndrome [6][7]."
+    "Its labeled use is inhibiting premature LH surges in women undergoing controlled ovarian hyperstimulation, with ovulation then triggered with hCG [2][5][15]. Without that block, eggs could be released before they are ready to collect [2]. Ganirelix avoids the pituitary desensitisation that repeated GnRH agonist dosing causes, and its success in reproductive therapy is described as comparable to agonist protocols [2]. Studies have also examined triggering final oocyte maturation with a GnRH agonist after ganirelix cotreatment, with attention to ovarian hyperstimulation syndrome [6][7][16]."
    ]
   },
   {
    "h": "Adverse effects",
    "paras": [
-    "The most common effect is mild redness and sometimes swelling at the injection site; abdominal pain, headache, vaginal bleeding and nausea are also reported, many linked to ovarian hyperstimulation, and anaphylactoid reactions are rare [2]. It is not for use in pregnancy [2]."
+    "The most common effect is mild redness and sometimes swelling at the injection site, usually resolving within about four hours; abdominal pain, headache, vaginal bleeding and nausea are also reported, many linked to ovarian hyperstimulation, and anaphylactoid reactions are rare [2]. A 2000 drug review lists local injection-site events, asthenia, nausea, malaise, headache and fatigue as the commonest adverse events in trials [13]. A manufacturer follow-up reported congenital malformations in 7.6 percent of the ganirelix group versus 5.5 percent for agonist protocols, a difference Wikipedia describes as within the normal range [2]. The label states that pregnancy must be excluded before treatment and that ganirelix is contraindicated in pregnancy; rat and rabbit studies showed increased litter resorption without increased fetal abnormalities [15]."
    ]
   },
   {
    "h": "Pharmacology",
+   "subs": [
+    {
+     "h": "Mechanism of action",
+     "paras": [
+      "Ganirelix competitively blocks GnRH receptors on pituitary gonadotrophs, preventing endogenous GnRH from inducing LH and FSH release [2][13]. It binds the receptor more strongly than GnRH itself, with a reported dissociation constant of 0.4 nM versus 3.6 nM [2]. Unlike agonists, which first stimulate and then desensitise the receptor, antagonists suppress gonadotrophins immediately [17]."
+     ]
+    },
+    {
+     "h": "Pharmacokinetics",
+     "paras": [
+      "Steady state is reached in about three days, the half-life is about 16 hours, bioavailability about 91 percent and protein binding about 82 percent; excretion is mainly in feces (about 75 percent) and urine (about 22 percent) [2]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Chemistry",
    "paras": [
-    "Ganirelix is a synthetic peptide derived from GnRH with several amino acid substitutions; it binds the receptor more strongly than GnRH itself, and bioavailability is reported at about 91% [2]. Related antagonists such as degarelix have been characterized pharmacologically [8]."
+    "Ganirelix is a synthetic peptide derived from GnRH with substitutions at positions 1, 2, 3, 6, 8 and 10 [2]. Reviews of LHRH antagonists describe how unnatural D-amino acids were introduced across the decapeptide to reduce histamine-release reactions seen with second-generation compounds and to improve solubility [14]. Related antagonists such as degarelix, used in prostate cancer, have been characterised pharmacologically [8][18]."
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "A European randomized trial of 730 women found ganirelix with recombinant FSH effective and safe against a buserelin long-protocol reference [3]. Further randomized trials compared it with triptorelin and leuprolide, and a dose-finding study preceded them [4][5][9]. A Cochrane review and a meta-analysis have compared GnRH antagonists with the long agonist protocol [10][11]. A trial of sub-therapeutic GnRH antagonist in lean women with PCOS is registered [12]. All studies concern fertility treatment."
+    "A European multicentre trial randomized 730 women in a 2:1 ratio to ganirelix with recombinant FSH or a buserelin long protocol, designed as a non-inferiority study, and found ganirelix effective, safe and convenient [3]. A second trial randomized 236 women to ganirelix and 119 to triptorelin long protocol and reported comparable clinical outcome [5]. A North American phase III trial of 313 women compared ganirelix with leuprolide [4]. A double-blind dose-finding study preceded these [9]. The Drugs 2000 review reports a vital pregnancy rate per embryo transfer of 40.3 percent at the 0.25 mg/day dose [13].",
+    "A Cochrane review and a meta-analysis compared GnRH antagonists with the long agonist protocol, and a 2011 review notes continuing controversy over whether antagonist protocols give slightly lower clinical pregnancy rates [10][11][17]. A 2004 review judged ganirelix and cetrorelix comparable, though they had not been compared directly in a trial [19]. Other work includes a randomized trial in Chinese normal responders, a study of ganirelix on follicle maturation in ten normally cycling women [20][22]. A trial of sub-therapeutic GnRH antagonist in lean women with PCOS is registered [12]. All human studies concern fertility treatment or reproductive physiology; no study examines ganirelix for appearance or muscle outcomes."
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Antagonist development went through several generations of decapeptides over about two decades, with each generation aiming to reduce histamine-related reactions and improve solubility [14]. Dose-finding work for ganirelix (Org 37462) was published in 1998, the European Commission granted marketing authorisation to N.V. Organon in May 2000, and randomized comparisons with agonist protocols followed in 2000 and 2001 [2][3][5][9]."
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Ganirelix is marketed as Orgalutran and Antagon and as generics, including a prefilled-syringe product compared with Orgalutran in a registered phase 4 trial of 255 women [2][23]. It is prescription-only in Australia (Schedule 4), Canada, the US and the EU [2]. The label advises that it be prescribed by physicians experienced in infertility treatment [15]."
    ]
   }
  ],
  "timeline": [
   {
    "year": "1998",
-   "event": "Double-blind dose-finding study reported [9]."
+   "event": "Double-blind dose-finding study of ganirelix (Org 37462) reported [9]."
   },
   {
    "year": "2000",
    "event": "European authorization for Orgalutran; European randomized trial published [2][3]."
+  },
+  {
+   "year": "2001",
+   "event": "Randomized trials versus triptorelin and leuprolide published [4][5]."
   },
   {
    "year": "2006",
@@ -167,6 +210,86 @@
    "source": "ClinicalTrials.gov",
    "year": 2024,
    "type": "trial"
+  },
+  {
+   "id": 13,
+   "title": "Ganirelix",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10718102/",
+   "source": "Drugs",
+   "year": 2000,
+   "type": "review"
+  },
+  {
+   "id": 14,
+   "title": "LHRH antagonists",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9760679/",
+   "source": "Pharmaceutical Biotechnology",
+   "year": 1998,
+   "type": "review"
+  },
+  {
+   "id": 15,
+   "title": "Ganirelix acetate US drug label",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1f067dfb-f9c7-4020-ab7b-da2ba695ab32",
+   "source": "DailyMed",
+   "year": 2024,
+   "type": "label"
+  },
+  {
+   "id": 16,
+   "title": "Use of gonadotrophin-releasing hormone agonists to trigger ovulation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11939159/",
+   "source": "Human Fertility",
+   "year": 2002,
+   "type": "review"
+  },
+  {
+   "id": 17,
+   "title": "Biochemistry, molecular biology and cell biology of gonadotropin-releasing hormone antagonists",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21666463/",
+   "source": "Current Opinion in Obstetrics and Gynecology",
+   "year": 2011,
+   "type": "review"
+  },
+  {
+   "id": 18,
+   "title": "Pharmacological profile of degarelix",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11907162/",
+   "source": "J Pharmacol Exp Ther",
+   "year": 2002,
+   "type": "study"
+  },
+  {
+   "id": 19,
+   "title": "GnRH antagonists for assisted reproductive techniques: are there clinical differences between agents?",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15018588/",
+   "source": "Drugs",
+   "year": 2004,
+   "type": "review"
+  },
+  {
+   "id": 20,
+   "title": "A randomized controlled trial of ganirelix in Chinese normal responders",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22429192/",
+   "source": "Gynecological Endocrinology",
+   "year": 2012,
+   "type": "trial"
+  },
+  {
+   "id": 22,
+   "title": "The effect of a GnRH antagonist on follicle maturation in normal women",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31129014/",
+   "source": "Reproductive BioMedicine Online",
+   "year": 2019,
+   "type": "trial"
+  },
+  {
+   "id": 23,
+   "title": "Ganilever PFS (prefilled syringe) and Orgalutran (NCT03051087)",
+   "url": "https://clinicaltrials.gov/study/NCT03051087",
+   "source": "ClinicalTrials.gov",
+   "year": 2016,
+   "type": "trial"
   }
  ],
  "webSources": [
@@ -188,5 +311,15 @@
   "overview": "Ganirelix is a prescription injection used during IVF to stop the body ovulating too early.\n\nIt is well studied in randomized fertility trials, but no study tests it for appearance or muscle goals.",
   "mechanism": "It blocks GnRH receptors on the pituitary, quickly lowering LH and FSH; the effect reverses after stopping [2].",
   "risks": "Reported effects include injection-site reactions, abdominal pain, headache and nausea; it is not for use in pregnancy, and it is Rx-only [2]."
+ },
+ "angle": {
+  "goal": "Hormone axis",
+  "chain": [
+   "Blocks pituitary GnRH receptors",
+   "LH and FSH fall within hours",
+   "Gonadal sex-hormone signalling is suppressed while dosing continues"
+  ],
+  "effect": "claimed",
+  "text": "Ganirelix is a prescription fertility drug. Its relevance to appearance comes from the fact that LH and FSH control gonadal hormone output, which influences body composition, skin and hair. No study has tested it for those outcomes."
  }
 }

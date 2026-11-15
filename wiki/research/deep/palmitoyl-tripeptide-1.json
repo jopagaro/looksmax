@@ -1,9 +1,20 @@
 {
- "name": "Palmitoyl tripeptide-1",
  "lead": [
-  "Palmitoyl tripeptide-1 (Pal-GHK) is a synthetic lipopeptide made of the amino acids glycine, histidine and lysine joined to palmitic acid, used in cosmetic skincare. [2] It is marketed as a collagen-stimulating signal peptide and is one of the two peptides in the branded blend Matrixyl 3000. [1][2]",
-  "Grokipedia attributes its development to the French ingredient company Sederma around 2000, building on the GHK peptide reported in human plasma in 1973 (this account is from an AI-generated source). [2] Published evidence for wrinkle reduction in people is limited in the sources reviewed; recent papers are laboratory or permeation studies. [1][4]"
+  "Palmitoyl tripeptide-1 (Pal-GHK) is a synthetic lipopeptide made of the amino acids glycine, histidine and lysine joined to palmitic acid, used in cosmetic skincare. People apply it in creams and serums to look younger: the aim is firmer skin and softer fine lines through more collagen and other dermal matrix in the skin.[2][8] It is marketed as a collagen-stimulating signal peptide and is one of the two peptides in the branded blend Matrixyl 3000, alongside palmitoyl tetrapeptide-7.[1][2]",
+  "The appearance logic is cumulative rather than immediate: a cream or serum containing the peptide is applied daily, the lipid chain is meant to help it cross the skin's outer layers, and the aim is a firmer, smoother surface as the dermis is signalled to renew its matrix.[2][12] Plasma levels of the parent GHK peptide are reported to fall from about 200 ng/ml at age 20 to about 80 ng/ml at age 60, which proponents cite as a reason for topical replacement.[11]",
+  "Grokipedia attributes its development to the French ingredient company Sederma around 2000, building on the GHK peptide reported in human plasma in 1973 (this account is from an AI-generated source).[2] Wikipedia's article on GHK-Cu, the copper complex of the same tripeptide, says Loren Pickart isolated it from human plasma albumin in 1973, identified it as glycyl-L-histidyl-L-lysine in 1977, and that research from the late 1980s reported increased collagen synthesis in skin fibroblasts.[11]",
+  "Published evidence for wrinkle reduction in people is limited: a 2025 review of topical GHK describes cell studies as supportive and notes that published information on skin permeability and effectiveness of GHK-Cu and Pal-GHK is insufficient.[8] Recent papers are laboratory, permeation and small clinical studies.[1][4][5]"
  ],
+ "angle": {
+  "goal": "Skin ageing",
+  "chain": [
+   "Palmitoyl chain increases fat solubility for skin penetration",
+   "GHK signal is proposed to prompt fibroblasts to make collagen and matrix",
+   "Firmer-looking skin and softer fine lines, as users hope"
+  ],
+  "effect": "claimed",
+  "text": "People use serums and creams with palmitoyl tripeptide-1 hoping to firm skin and soften wrinkles. The proposed route is a signalling one: the peptide is meant to tell dermal fibroblasts to produce more collagen and matrix, and the palmitoyl tail is meant to help it into the skin."
+ },
  "infobox": [
   [
    "Type",
@@ -18,58 +29,88 @@
    "Pal-GHK, Biopeptide CL"
   ],
   [
+   "Formula",
+   "C30H54N6O5, about 579 Da (Grokipedia)"
+  ],
+  [
    "Developer (reported)",
    "Sederma / Croda"
   ],
   [
+   "Blend",
+   "Matrixyl 3000 (with palmitoyl tetrapeptide-7)"
+  ],
+  [
    "Use",
-   "Topical cosmetic anti-aging ingredient"
+   "Topical cosmetic anti-ageing ingredient"
   ]
  ],
  "sections": [
   {
    "h": "Description",
    "paras": [
-    "The palmitic acid chain is added to increase fat solubility and skin penetration. [2] The compound is commonly sold as a white powder and used in creams and serums. [2]"
+    "The palmitic acid chain, a saturated 16-carbon fatty acid, is attached to the N-terminal glycine of the GHK tripeptide to increase fat solubility and skin penetration.[2] The compound is commonly supplied as a white powder, used in creams and serums, and is described as stable across a mildly acidic to neutral pH range.[2] It is made by standard solid-phase peptide synthesis.[2]"
+   ]
+  },
+  {
+   "h": "History and the Matrixyl family",
+   "paras": [
+    "The Matrixyl name was launched in 2000 by the French cosmetic ingredient company Sederma, for a different peptide: palmitoyl pentapeptide-4 (Pal-KTTKS), a five-amino-acid chain joined to a 16-carbon fatty chain.[12] Wikipedia notes that this ingredient was called palmitoyl pentapeptide-3 before 2006.[12] Palmitoyl tripeptide-1 is a separate, later ingredient from the same product lineage, and is paired with palmitoyl tetrapeptide-7 in the Matrixyl 3000 blend.[2]",
+    "Both belong to a class called matrikines or signal peptides: short fragments modelled on pieces of matrix proteins that, according to the cosmetic-science account, bind receptors and switch on genes involved in renewing the extracellular matrix and in cell proliferation.[12] The fatty chain is meant to help the molecule pass through the skin's lipid layers.[12] Wikipedia cites in vitro and in vivo studies of the pentapeptide, published by Sederma and by independent groups, that report anti-wrinkle effects, and the same article flags the mechanism statement as needing further medical citation.[12]",
+    "Wikipedia gives the sequence of Matrixyl itself as Pal-Lys-Thr-Thr-Lys-Ser and cites a 2013 fibroblast collagen study, a 2005 study of topical use on photoaged facial skin and a 2014 skin permeation and stability study among the published work on that pentapeptide.[12] For GHK, Loren Pickart's 1973 isolation was linked to experiments in which older liver cells behaved more like younger ones in younger donors' blood; the active factor was identified as GHK in 1977, and in 1980 it was proposed that GHK-Cu helps move copper into cells.[11]"
    ]
   },
   {
    "h": "Proposed mechanism",
    "paras": [
-    "Manufacturers and reviews describe signal peptides as mimicking collagen breakdown fragments to prompt fibroblasts to make extracellular matrix. [2] A 2026 study examined collagen metabolism in skin fibroblasts and timed application of palmitoyl tripeptide-1 at night alongside baicalin by day. [5] A 2026 computational study screened cosmetic peptides for effects on type III collagen. [4]"
+    "Manufacturers and reviews describe signal peptides as mimicking collagen breakdown fragments to prompt fibroblasts to make extracellular matrix.[2] A 2025 review states that cell studies leave little doubt that GHK has anti-wrinkle potential, through raising collagen and glycosaminoglycan synthesis and supporting angiogenesis and nerve outgrowth, but asks whether skin permeability allows it to act at its site of action.[8]",
+    "A 2026 study examined circadian rhythm of collagen metabolism in skin fibroblasts and reported opposing day and night phases, then tested palmitoyl tripeptide-1 at night alongside baicalin by day in fibroblasts, in an eight-week mouse study and in a trial in 30 women.[5] A 2026 computational study screened cosmetic peptides for effects on type III collagen using knowledge-graph and docking methods, followed by fibroblast and ex vivo skin tests.[4]",
+    "In laboratory and animal work on the copper complex GHK-Cu, effects reported include collagen and glycosaminoglycan synthesis, decorin production, anti-inflammatory and antioxidant actions and release of growth factors; the same account notes it stimulates both matrix metalloproteinases and their inhibitors, and that much of the gene-modulation work comes from one research group, with limited human evidence.[11] Wound-healing data are mostly from rabbits, rats, mice and pigs, and no human wound-healing trials are described.[11]"
    ]
   },
   {
    "h": "Permeation",
    "paras": [
-    "In a 2026 study, serums containing palmitoyl tripeptide-1 and palmitoyl tetrapeptide-7 were applied to the skin of three volunteers and the stratum corneum analyzed; both peptides were detected in all layers with signal falling by depth, suggesting they remained largely between cells. [1]"
+    "In a 2026 study, serums containing palmitoyl tripeptide-1 and palmitoyl tetrapeptide-7 were applied to the skin of three volunteers and the stratum corneum analysed with secondary-ion mass spectrometry; both peptides were detected in all layers with signal falling by depth, suggesting they remained largely between cells.[1]"
+   ]
+  },
+  {
+   "h": "Other research",
+   "paras": [
+    "A 2026 study in European Journal of Pharmacology tested a combination of EGCG, biotin and Pal-GHK in a mouse model of stress-induced alopecia and reported effects on TGF-beta and BMP signalling.[9] A 2025 cell study examined a palmitoyl copper peptide combined with acetyl tyrosine and melanin production in melanoma cell lines.[10]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "No randomized trial of palmitoyl tripeptide-1 alone for wrinkles was found in the sources reviewed. Related work includes the circadian-timed fibroblast study and a registered trial of an AI-personalized skincare regimen for facial photoaging in 43 women, which is not specific to this peptide. [5][6]"
+    "No randomized trial of palmitoyl tripeptide-1 alone for wrinkles was found. Related work includes the circadian-timed regimen paired with baicalin that included a clinical trial in 30 female participants, a registered trial of an AI-personalized skincare regimen for facial photoaging in 43 women that is not specific to this peptide, and the permeation study in three volunteers.[1][5][6] Wikipedia describes several controlled facial studies of the related GHK-Cu reporting firming and anti-wrinkle effects but notes small samples and short durations.[11]"
    ]
   },
   {
    "h": "Society and culture",
    "paras": [
-    "US product labels list it in body creams, for example one regimen advising use of a cream three times a day with warnings for external use only and to discontinue if irritation occurs. [7]"
+    "Palmitoyl tripeptide-1 is listed as an ingredient in many serums and creams. US product labels list it in body creams, for example one regimen advising use of a cream three times a day, with warnings for external use only, not on irritated skin, and to discontinue if irritation occurs.[7] The related GHK-Cu is also widely discussed in cosmetics and hair-loss products.[11]",
+    "The GHK peptide family is also discussed in connection with the copper complex GHK-Cu, whose research literature is larger.[11]",
+    "Copper tripeptide-1 is the INCI name used on products for anti-ageing and hair-loss prevention, and the encyclopedia entry cites several controlled facial studies of GHK-Cu reporting firming and anti-wrinkle effects, with small samples and short durations and a need for further research.[11] Palmitoyl tripeptide-1 itself is listed alongside palmitoyl tetrapeptide-7 in many blended serums, so consumer results are usually attributable to the combination.[2]"
    ]
   }
  ],
  "timeline": [
   {
    "year": "1973",
-   "event": "GHK peptide identified in human plasma (reported by Grokipedia). [2]"
+   "event": "GHK isolated from human plasma by Loren Pickart.[11]"
   },
   {
    "year": "2000",
-   "event": "Sederma launches Matrixyl, patents around this time (reported by Grokipedia). [2]"
+   "event": "Sederma launches Matrixyl, patents around this time (reported by Grokipedia).[2]"
   },
   {
    "year": "2003",
-   "event": "Matrixyl 3000 launched (reported by Grokipedia). [2]"
+   "event": "Matrixyl 3000 launched (reported by Grokipedia).[2]"
+  },
+  {
+   "year": "2025",
+   "event": "Review of topical GHK as an anti-wrinkle peptide examines effectiveness and permeability.[8]"
   }
  ],
  "lore": null,
@@ -121,9 +162,59 @@
    "source": "DailyMed",
    "year": null,
    "type": "label"
+  },
+  {
+   "id": 8,
+   "title": "Topically applied GHK as an anti-wrinkle peptide: Advantages, problems and prospective",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39963574/",
+   "source": "BioImpacts",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "EGCG-Biotin-Pal-GHK composition modulates TGF-beta and BMP pathways in scalp microenvironment for treating stress-induced alopecia",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42575238/",
+   "source": "European Journal of Pharmacology",
+   "year": 2026,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Palmitoyl copper peptide and acetyl tyrosine complex enhances melanin production in both A375 and B16 cell lines",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39632290/",
+   "source": "Biochem Biophys Res Commun",
+   "year": 2025,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "GHK-Cu",
+   "url": "https://en.wikipedia.org/wiki/GHK-Cu",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 12,
+   "title": "Matrixyl",
+   "url": "https://en.wikipedia.org/wiki/Matrixyl",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
   }
  ],
- "webSources": [],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/GHK-Cu",
+   "title": "GHK-Cu - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Matrixyl",
+   "title": "Matrixyl - Wikipedia"
+  }
+ ],
+ "name": "Palmitoyl tripeptide-1",
  "card": {
   "summary": "The collagen-signal peptide half of Matrixyl 3000; widely used, with mostly lab and permeation data behind it.",
   "aka": "Pal-GHK, Biopeptide CL",

@@ -1,99 +1,431 @@
 {
-  "name": "Floss",
-  "card": {
-    "summary": "String for cleaning between teeth: recommended by dental associations, with systematic reviews rating the evidence low certainty.",
-    "aka": "dental floss, interdental cleaning",
-    "evidence": "limited",
-    "outcome": "temporary",
-    "price": null,
-    "note": "Guidelines changed in 2015 US dietary guidance omission; ADA continues to recommend daily use.",
-    "structure": null
-  },
-  "quick": {
-    "overview": "Dental floss is thread or tape used to clean between teeth. The American Dental Association recommends flossing once a day, and it is routine in dental advice. It appears in looksmaxxing lists as basic teeth upkeep.\n\nSystematic reviews have judged the evidence that adding floss to brushing improves plaque or gingivitis to be low to very low certainty.",
-    "mechanism": "Floss mechanically disrupts plaque on surfaces a toothbrush misses. Types include waxed or unwaxed nylon or silk, tape, picks, threaders and powered flossers.",
-    "risks": "Misuse can cut gums or cause finger circulation problems if wrapped too tightly, and fibres can catch on dental work."
-  },
-  "lead": [
-    "Dental floss is a thread, usually nylon or silk, that people pull between neighbouring teeth to clean the surfaces a toothbrush bristle does not reach. It comes waxed or unwaxed, as single-strand or multi-strand thread or flat tape, with picks, threaders and powered flossers as alternatives [1]. The American Dental Association recommends daily flossing, before or after brushing [1].",
-    "For appearance, floss supports the parts of a smile that people notice: gums that stay pink and firm rather than red, swollen and prone to bleeding, teeth with less plaque build-up between them, and fresher breath. Gum inflammation (gingivitis) is caused by plaque biofilm, and mechanical plaque removal between the teeth is described in periodontal literature as part of the foundation of keeping gums healthy [2][3]. Long-term gum health also keeps teeth in place and gum lines intact, which shapes how a smile looks years later [3].",
-    "Research on floss specifically is debated. A 2011 Cochrane review found some evidence that flossing reduces gingivitis but weak evidence for plaque reduction, and a 2019 Cochrane review of home interdental cleaning devices rated the evidence for added benefit as low to very low certainty [1][4]. A 2015 meta-review of interdental plaque control and a 2020 review of mechanical oral hygiene both conclude that toothbrushing plus interdental cleaning remains the mainstay of gum-disease prevention, while noting that the ideal devices and procedures are not settled [3][5]. The 2015 US Dietary Guidelines dropped the flossing recommendation, which an August 2016 Associated Press article reported; the Department of Health and Human Services said it was not questioning efficacy [1]."
+ "name": "Floss",
+ "card": {
+  "summary": "String for cleaning between teeth: recommended by dental associations, with systematic reviews rating the evidence low certainty.",
+  "aka": "dental floss, interdental cleaning",
+  "evidence": "limited",
+  "outcome": "temporary",
+  "price": null,
+  "note": "Guidelines changed in 2015 US dietary guidance omission; ADA continues to recommend daily use.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Dental floss is thread or tape used to clean between teeth. The American Dental Association recommends flossing once a day, and it is routine in dental advice. It appears in looksmaxxing lists as basic teeth upkeep.\n\nSystematic reviews have judged the evidence that adding floss to brushing improves plaque or gingivitis to be low to very low certainty.",
+  "mechanism": "Floss mechanically disrupts plaque on surfaces a toothbrush misses. Types include waxed or unwaxed nylon or silk, tape, picks, threaders and powered flossers.",
+  "risks": "Misuse can cut gums or cause finger circulation problems if wrapped too tightly, and fibres can catch on dental work."
+ },
+ "lead": [
+  "Dental floss is a thread, usually nylon or silk, that people pull between neighbouring teeth to clean the surfaces a toothbrush bristle does not reach. It comes waxed or unwaxed, as single-strand or multi-strand thread or flat tape, with picks, threaders and powered flossers as alternatives [1]. The American Dental Association recommends daily flossing, before or after brushing [1].",
+  "For appearance, floss supports the parts of a smile that people notice: gums that stay pink and firm rather than red, swollen and prone to bleeding, teeth with less plaque build-up between them, and fresher breath. Gum inflammation (gingivitis) is caused by plaque biofilm, and mechanical plaque removal between the teeth is described in periodontal literature as part of the foundation of keeping gums healthy [2][3]. Long-term gum health also keeps teeth in place and gum lines intact, which shapes how a smile looks years later [3].",
+  "Research on floss specifically is debated. A 2011 Cochrane review found some evidence that flossing reduces gingivitis but weak evidence for plaque reduction, and a 2019 Cochrane review of home interdental cleaning devices rated the evidence for added benefit as low to very low certainty [1][4]. A 2015 meta-review of interdental plaque control and a 2020 review of mechanical oral hygiene both conclude that toothbrushing plus interdental cleaning remains the mainstay of gum-disease prevention, while noting that the ideal devices and procedures are not settled [3][5]. The 2015 US Dietary Guidelines dropped the flossing recommendation, which an August 2016 Associated Press article reported; the Department of Health and Human Services said it was not questioning efficacy [1]."
+ ],
+ "angle": {
+  "goal": "Gums, breath and teeth upkeep",
+  "chain": [
+   "String or tape clears plaque and trapped food between teeth",
+   "Less plaque-driven gum inflammation, staining and odour",
+   "Pinker, firmer gums, cleaner-looking teeth and fresher breath"
   ],
-  "angle": {
-    "goal": "Teeth and gums",
-    "chain": ["Removes plaque and food from between teeth", "Less gum inflammation, bleeding and odour", "Healthier-looking gum line and fresher breath for the smile"],
-    "effect": "indirect",
-    "text": "People floss to keep gums pink and firm and to clear the spaces between teeth that brushing misses, which supports a cleaner-looking smile and fresher breath. Dental associations frame it as part of a daily routine alongside brushing."
-  },
-  "infobox": [
-    ["Type", "Interdental cleaning"],
-    ["Materials", "Nylon, silk [1]"],
-    ["Forms", "Thread, tape, picks, threaders, powered flossers [1]"],
-    ["ADA recommendation", "Once daily [1]"],
-    ["Nylon floss developed", "World War II, Charles C. Bass [1]"],
-    ["Alternatives", "Water flossers, interdental brushes [4][6]"]
+  "effect": "indirect",
+  "text": "Floss is a daily upkeep step for the spaces between teeth, where plaque collects and gum inflammation starts. People use it so that gums look healthy rather than red and puffy, teeth stay clean-looking, and breath stays fresh in close conversation [1][2][13]."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Interdental cleaning"
   ],
-  "sections": [
-    {
-      "h": "Description and types",
-      "paras": [
-        "Floss is sold waxed or unwaxed, in round thread or flat tape form, and as pre-threaded plastic picks, floss threaders for bridges and braces, and powered or water-jet flossers [1]. Alternatives to string include interdental brushes and water flossers, which dental researchers compare with floss in trials [4][6]."
-      ]
-    },
-    {
-      "h": "History",
-      "paras": [
-        "Levi Spear Parmly recommended waxed silk thread in 1819. Unwaxed silk floss became commercially available in 1882 from Codman and Shurtleff, Johnson & Johnson received a patent in 1898, and nylon floss was developed by Charles C. Bass during World War II. Flossing became routine in the US and Canada in the 1970s [1]."
-      ]
-    },
-    {
-      "h": "Use for appearance",
-      "paras": [
-        "In appearance-focused routines, floss is paired with brushing, whitening, mouthwash and professional cleaning as upkeep for the teeth and gums. Its role is to clear plaque and trapped food between teeth, where discolouration, bleeding gums and odour often start [2][5]. Some users also note that a flossing habit is easier to maintain when attached to an existing routine; habit-building writers on strength forums describe tying flossing to bedtime or gym warm-ups [7]."
-      ]
-    },
-    {
-      "h": "Effectiveness",
-      "paras": [
-        "A 2008 systematic review found flossing added to brushing no more effective than brushing alone for plaque or gingivitis, while a 2006 review of school programs with professional flossing found a 40% reduction in decay risk [1]. The 2019 Cochrane review covers home use of interdental cleaning devices for periodontal disease and caries and rated evidence low certainty [4]. A working-group review for the European Federation of Periodontology examined mechanical self-administered interdental plaque control as one route to preventing gingivitis [2], and a 2015 meta-review focused on interdental mechanical plaque control for managing gingivitis [8].",
-        "Reviews comparing devices report that most trials favoured water flossers over string floss for plaque reduction, and suggest water flossers as an alternative for people with limited manual dexterity [6]. A randomized trial in orthodontic patients with fixed appliances compared water-jet flossing with interdental flossing [9]."
-      ]
-    },
-    {
-      "h": "Safety",
-      "paras": [
-        "Misuse can cause gum cuts, finger circulation problems if the thread is wrapped too tightly, and fibres catching on appliances [1]."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "A Cochrane review examined home use of interdental cleaning devices in addition to toothbrushing and judged evidence low certainty [4]. A 2023 systematic review of seven randomized trials compared water flossers and string floss for plaque reduction and found most favoured water flossers [6]. A 2024 randomized, examiner-blind trial of 270 people with gingivitis compared combinations of brushing, flossing and essential-oil mouthrinses with brushing alone [10]. No studies found examining floss for facial appearance."
-      ]
-    }
+  [
+   "Materials",
+   "Nylon, silk [1]"
   ],
-  "timeline": [
-    { "year": "1819", "event": "Levi Spear Parmly recommends waxed silk thread [1]." },
-    { "year": "1882", "event": "Unwaxed silk floss commercially available from Codman and Shurtleff [1]." },
-    { "year": "1898", "event": "Johnson & Johnson receives a floss patent [1]." },
-    { "year": "1970s", "event": "Flossing becomes routine in the US and Canada [1]." },
-    { "year": "2016", "event": "AP reports the flossing recommendation was dropped from the 2015 US Dietary Guidelines [1]." },
-    { "year": "2019", "event": "Cochrane review rates evidence for added interdental cleaning as low certainty [4]." }
+  [
+   "Forms",
+   "Thread, tape, picks, threaders, powered flossers [1]"
   ],
-  "lore": null,
-  "refs": [
-    { "id": 1, "title": "Dental floss", "url": "https://en.wikipedia.org/wiki/Dental_floss", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Primary prevention of periodontitis: managing gingivitis", "url": "https://pubmed.ncbi.nlm.nih.gov/25639826/", "source": "Journal of Clinical Periodontology", "year": 2015, "type": "review" },
-    { "id": 3, "title": "Contemporary practices for mechanical oral hygiene to prevent periodontal disease", "url": "https://pubmed.ncbi.nlm.nih.gov/32844413/", "source": "Periodontology 2000", "year": 2020, "type": "review" },
-    { "id": 4, "title": "Home use of interdental cleaning devices, in addition to toothbrushing, for preventing and controlling periodontal diseases and dental caries", "url": "https://pubmed.ncbi.nlm.nih.gov/30968949/", "source": "Cochrane Database Syst Rev", "year": 2019, "type": "review" },
-    { "id": 5, "title": "Contemporary practices for mechanical oral hygiene (review)", "url": "https://pubmed.ncbi.nlm.nih.gov/32844413/", "source": "Periodontology 2000", "year": 2020, "type": "review" },
-    { "id": 6, "title": "Comparing the effectiveness of water flosser and dental floss in plaque reduction among adults: A systematic review", "url": "https://pubmed.ncbi.nlm.nih.gov/38434511/", "source": "Journal of Indian Society of Periodontology", "year": 2023, "type": "review" },
-    { "id": 7, "title": "T Nation forum: Atlas13 Burning the Boats", "url": "https://t-nation.com/t/atlas13-burning-the-boats/259312", "source": "T Nation", "year": 2019, "type": "forum" },
-    { "id": 8, "title": "Efficacy of inter-dental mechanical plaque control in managing gingivitis: a meta-review", "url": "https://pubmed.ncbi.nlm.nih.gov/25581718/", "source": "Journal of Clinical Periodontology", "year": 2015, "type": "review" },
-    { "id": 9, "title": "The effectiveness of water jet flossing and interdental flossing for oral hygiene in orthodontic patients with fixed appliances: a randomized clinical trial", "url": "https://pubmed.ncbi.nlm.nih.gov/38678246/", "source": "BMC Oral Health", "year": 2024, "type": "trial" },
-    { "id": 10, "title": "Efficacy of flossing and mouth rinsing regimens on plaque and gingivitis: a randomized clinical trial", "url": "https://pubmed.ncbi.nlm.nih.gov/38310236/", "source": "BMC Oral Health", "year": 2024, "type": "trial" }
+  [
+   "ADA recommendation",
+   "Once daily [1]"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Dental_floss", "title": "Dental floss" }
+  [
+   "Nylon floss developed",
+   "World War II, Charles C. Bass [1]"
+  ],
+  [
+   "Alternatives",
+   "Water flossers, interdental brushes [4][6]"
+  ],
+  [
+   "First patent",
+   "Johnson & Johnson, 1898 [1]"
+  ],
+  [
+   "Floss pick patents",
+   "1888 (toothpick wrapped in fibre) to 1972 (single-pole floss pick) [1]"
+  ],
+  [
+   "Interdental space types",
+   "Type I, II, III by how much gum fills the space [1]"
+  ],
+  [
+   "Cochrane 2019 review",
+   "35 randomised trials; low to very low certainty for added benefit [1][4]"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Description and types",
+   "paras": [
+    "Dental floss is a cord of thin filaments, usually nylon or silk, used to clean between teeth. Dispensers hold roughly 10 to 100 metres, and the standard technique described on Wikipedia pulls out about 40 centimetres, guides one to two centimetres at a time between teeth and wraps the thread in a C shape against each tooth, sliding it under the gumline [1]. The American Dental Association describes the same motion, a gentle rubbing action rather than snapping the thread into the gums, and says flossing should not cause pain [15].",
+    "Floss is sold waxed or unwaxed, monofilament or multifilament, and as flat tape for teeth with wider surfaces. Waxed monofilament slides easily and resists fraying but costs more; studies cited by Wikipedia show no effectiveness difference between waxed and unwaxed floss or between cheap and expensive brands [1]. Interdental spaces are classified into three embrasure types by how much gum fills the space, and floss is most useful where the gum fills it completely [1]. Other tools include pre-threaded plastic picks in Y and F shapes, floss threaders for bridges and braces, holders and powered flossers [1]. The ADA warns against substitutes such as fingernails, paper, forks, safety pins or hair, which can be harmful [15]."
+   ],
+   "subs": [
+    {
+     "h": "Alternatives to string",
+     "paras": [
+      "Interdental brushes are small brushes sized under the ISO 16409 standard, from size 0 for the tightest gaps (up to 0.6 millimetres) to size 8 for the widest (2.8 millimetres or more). Wikipedia reports that with toothbrushing they reduce plaque and gingivitis more than brushing alone, and some evidence suggests they remove more plaque than floss, though a systematic review found the evidence insufficient to confirm this [12].",
+      "Oral irrigators, or water flossers, were developed in 1962 by dentist Gerald Moyer and engineer John Mattingly in Fort Collins, Colorado, and became the Waterpik; the first countertop model followed in 1967. Wikipedia cites a 2023 trial that found water flossing reduced gum bleeding and inflammation more than string floss, while noting that some dentists see irrigators as a wellness product and advise against them for people with gum disease or after extractions [11]. A 2023 systematic review of seven randomised trials found that most favoured water flossers over string floss for plaque reduction [6]."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "History",
+   "paras": [
+    "Levi Spear Parmly (1790 to 1859), a New Orleans dentist, recommended waxed silk thread for cleaning between teeth in 1819. Codman and Shurtleff began commercial production of unwaxed silk floss in 1882, and Johnson & Johnson received the first floss patent in 1898 for a product made from silk surgical stitching material [1].",
+    "Nylon floss was developed by Charles C. Bass during the Second World War era; it resisted abrasion better than silk and could be made in longer lengths and more sizes. Flossing became routine in American and Canadian dental care in the 1970s [1]. James Joyce's Ulysses, written 1918 to 1920, contains an early literary depiction of flossing [1].",
+    "Floss picks have their own history: B. T. Mason patented a fibre-wrapped combination toothpick in 1888, J. P. De L'eau a floss holder in 1916, F. H. Doner a Y-shaped appliance in 1935, James B. Kirby an early F-shaped pick in 1963, and Richard L. Wells a single-pole floss pick in 1972 [1]."
+   ]
+  },
+  {
+   "h": "Use for appearance",
+   "paras": [
+    "In appearance-focused routines, floss is paired with brushing, whitening, mouthwash and professional cleaning as upkeep for the teeth and gums. Gingivitis, the inflammation caused by plaque biofilm, shows up as swollen, bright red or tender gums that bleed when brushed or flossed, with a shiny surface and bad breath, and it is reversible with good oral hygiene [13]. Floss is aimed at the plaque that collects in the gaps between teeth, along the gumline and around restorations [13][2].",
+    "Fresh breath is another reason people floss. Wikipedia's halitosis article says about 85 to 90 percent of genuine bad breath originates in the mouth, mostly from bacteria on the back of the tongue, with gum disease and food trapped between teeth as further contributors, and lists flossing among the usual first measures while noting the evidence for them is limited [14]. Braces, bands and wires trap plaque and can worsen gum health, and floss with threaders is the most recommended cleaning aid for orthodontic patients, with small clinical studies linking correct use to better gum health near the teeth [1]. Some users also note that a flossing habit is easier to maintain when attached to an existing routine; habit-building writers on strength forums describe tying flossing to bedtime or gym warm-ups [7].",
+    "The ADA says flossing once a day, before or after brushing, is the recommendation, and that plaque left at the gumline can harden into tartar that only a dentist can remove. It says children should start once two teeth touch, with an adult helping, and usually take over around ages 10 to 11 [15][1]."
+   ]
+  },
+  {
+   "h": "Effectiveness",
+   "paras": [
+    "The ADA position is that flossing together with brushing helps prevent gum disease and halitosis, and Wikipedia cites the association's statement that flossing can remove up to 80 percent of plaque [1]. Reviews of the trials are more cautious. A 2008 systematic review found flossing added to brushing no more effective than brushing alone for plaque or gingivitis, while a 2006 review of school programmes in which professionals flossed children's teeth found a 40 percent reduction in decay risk across six studies [1]. A 2011 Cochrane review found some evidence that flossing plus brushing reduces gingivitis across 12 studies, with weak evidence for plaque reduction [1].",
+    "The 2019 Cochrane review of home interdental cleaning devices analysed 35 randomised trials and rated the certainty of evidence as low to very low, with effects that may not be clinically important [1][4]. Wikipedia also observes that studies rely heavily on self-reported behaviour and that many people do not floss properly [1]. A 2015 European Federation of Periodontology working-group review examined self-administered mechanical interdental plaque control as one route to preventing gingivitis, and a 2015 meta-review focused on interdental plaque control for managing gingivitis [2][8]. A 2020 review of mechanical oral hygiene concluded that toothbrushing and interdental cleaning remain the mainstays of gum-disease prevention while recommendations on ideal devices are inconclusive [3][5]. A 2023 letter in the British Dental Journal was titled Insufficient floss data [16].",
+    "Reviews comparing devices report that most trials favoured water flossers over string floss for plaque reduction, and suggest water flossers as an alternative for people with limited manual dexterity [6]. A randomized trial in orthodontic patients with fixed appliances compared water-jet flossing with interdental flossing [9]."
+   ]
+  },
+  {
+   "h": "The 2015 dietary guidelines controversy",
+   "paras": [
+    "The 2015 US Dietary Guidelines for Americans omitted flossing, which the 2000, 2005 and 2010 editions had recommended. In August 2016 an Associated Press article headlined Medical benefits of dental floss unproven followed a request under the Freedom of Information Act for the evidence behind the earlier recommendation [1]. The US Department of Health and Human Services said neither the 2010 nor 2015 advisory committee had reviewed evidence on brushing and flossing, and that the omission reflected the guidelines' focus on diet rather than doubts about flossing [1]. A floss maker's website called the episode Flossgate [1].",
+    "Dental associations continued to recommend daily flossing, and the ADA's public guidance still does [15]."
+   ]
+  },
+  {
+   "h": "Safety",
+   "paras": [
+    "Misuse can cause gum cuts, finger circulation problems if the thread is wrapped too tightly, and fibres catching on appliances [1]. The ADA says flossing should not hurt and advises speaking to a dentist if it does [15]. Wikipedia mentions a Harvard article on whether a specific floss brand may expose people to chemicals but gives no detail [1]."
+   ]
+  },
+  {
+   "h": "In looksmaxxing and strength-forum culture",
+   "paras": [
+    "Floss is rarely a subject of dedicated forum threads; it appears in lists of baseline grooming and hygiene. On T Nation, members mention it in routines and habit talk: one poster writes that they floss every day, sometimes twice, after previously hating it, and credits a habit book's tip; another suggests flossing a single tooth to keep the habit alive on days with little motivation; and another compares conditioning work to flossing, something one does not enjoy but argues with oneself about skipping [7][17][18].",
+    "Habit research describes habit as cue-contingent automaticity, with a response triggered by a cue, which matches how those posters describe attaching flossing to an existing routine [19]. Unrelated uses of the word on the same forum, such as tissue flossing and nerve flossing in mobility work, refer to different practices [20]. A Hacker News thread discussed a proof-of-concept study of microrobots that can brush and floss teeth [21]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A Cochrane review examined home use of interdental cleaning devices in addition to toothbrushing and judged evidence low certainty [4]. A 2023 systematic review of seven randomized trials compared water flossers and string floss for plaque reduction and found most favoured water flossers [6]. A 2024 randomized, examiner-blind trial of 270 people with gingivitis compared combinations of brushing, flossing and essential-oil mouthrinses with brushing alone [10]. A 2021 randomized trial examined an oral hygiene regimen on progression of gingivitis and early periodontitis, and a 2024 randomized trial compared probiotic, aloe vera, povidone-iodine and chlorhexidine mouthwashes for gingival inflammation [22][23]. No studies found examining floss for facial appearance."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1819",
+   "event": "Levi Spear Parmly recommends waxed silk thread [1]."
+  },
+  {
+   "year": "1882",
+   "event": "Unwaxed silk floss commercially available from Codman and Shurtleff [1]."
+  },
+  {
+   "year": "1898",
+   "event": "Johnson & Johnson receives a floss patent [1]."
+  },
+  {
+   "year": "1916",
+   "event": "J. P. De L'eau patents a floss holder with two vertical poles [1]."
+  },
+  {
+   "year": "1962",
+   "event": "Gerald Moyer and John Mattingly develop the oral irrigator that becomes the Waterpik [11]."
+  },
+  {
+   "year": "1970s",
+   "event": "Flossing becomes routine in the US and Canada [1]."
+  },
+  {
+   "year": "1972",
+   "event": "Richard L. Wells attaches floss to a single pick end, an early floss pick [1]."
+  },
+  {
+   "year": "2011",
+   "event": "Cochrane review finds some evidence that flossing plus brushing reduces gingivitis, weak for plaque [1]."
+  },
+  {
+   "year": "2016",
+   "event": "AP reports the flossing recommendation was dropped from the 2015 US Dietary Guidelines [1]."
+  },
+  {
+   "year": "2019",
+   "event": "Cochrane review rates evidence for added interdental cleaning as low certainty [4]."
+  }
+ ],
+ "lore": {
+  "intro": "Floss comes up in strength and looksmaxxing forums as a small daily habit, often discussed in terms of habit-building, and in news about whether the evidence supports it.",
+  "claims": [
+   {
+    "claim": "Flossing every day keeps gums healthy and breath fresh",
+    "believers": "A T Nation poster says they now floss every day, sometimes twice, after previously hating it, and treats it as part of a daily routine [7]. The ADA states that daily flossing helps prevent the plaque and tartar buildup along the gumline linked to gum disease [15].",
+    "experts": "Wikipedia cites the ADA position that flossing with brushing helps prevent gum disease and halitosis, and a 2011 Cochrane review found some evidence of reduced gingivitis [1]. A 2019 Cochrane review rated the certainty of added benefit as low to very low [4].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "The benefits of flossing are unproven",
+    "believers": "A 2016 Associated Press article, as reported by Wikipedia, was headlined Medical benefits of dental floss unproven after the omission from the 2015 US dietary guidelines [1].",
+    "experts": "The US Department of Health and Human Services said the omission reflected the guidelines' focus on diet and not doubt about flossing, and dental associations still recommend it [1][15]. Reviews describe toothbrushing plus interdental cleaning as the mainstay of gum-disease prevention [3].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Floss one tooth to keep the habit going",
+    "believers": "A T Nation member advises that on low-motivation days one can floss a single tooth or two to maintain the habit [17].",
+    "experts": "Habit research characterises habit as automaticity triggered by a cue-response link [19]. No trial cited here tests partial flossing for gum outcomes.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Water flossers can replace string floss",
+    "believers": "Reviews of trials report most studies favouring water flossers for plaque removal and suggest them for people with limited dexterity [6].",
+    "experts": "Wikipedia reports that some dentists regard irrigators as a wellness product rather than a substitute for brushing and flossing and advise against them in some situations; a 2023 trial reported lower gum bleeding with water flossing than string floss [11].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Expensive or waxed floss works better than cheap or unwaxed",
+    "believers": "Premium floss is sold on smoother glide and fray resistance, and waxed monofilament slides more easily [1].",
+    "experts": "Studies cited by Wikipedia show no difference in effectiveness between waxed and unwaxed floss or between cheap and expensive floss [1].",
+    "evidence": "not-supported"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Dental floss",
+   "url": "https://en.wikipedia.org/wiki/Dental_floss",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Primary prevention of periodontitis: managing gingivitis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25639826/",
+   "source": "Journal of Clinical Periodontology",
+   "year": 2015,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Contemporary practices for mechanical oral hygiene to prevent periodontal disease",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32844413/",
+   "source": "Periodontology 2000",
+   "year": 2020,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Home use of interdental cleaning devices, in addition to toothbrushing, for preventing and controlling periodontal diseases and dental caries",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30968949/",
+   "source": "Cochrane Database Syst Rev",
+   "year": 2019,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Contemporary practices for mechanical oral hygiene (review)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32844413/",
+   "source": "Periodontology 2000",
+   "year": 2020,
+   "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Comparing the effectiveness of water flosser and dental floss in plaque reduction among adults: A systematic review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38434511/",
+   "source": "Journal of Indian Society of Periodontology",
+   "year": 2023,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "T Nation forum: Atlas13 Burning the Boats",
+   "url": "https://t-nation.com/t/atlas13-burning-the-boats/259312",
+   "source": "T Nation",
+   "year": 2019,
+   "type": "forum"
+  },
+  {
+   "id": 8,
+   "title": "Efficacy of inter-dental mechanical plaque control in managing gingivitis: a meta-review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25581718/",
+   "source": "Journal of Clinical Periodontology",
+   "year": 2015,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "The effectiveness of water jet flossing and interdental flossing for oral hygiene in orthodontic patients with fixed appliances: a randomized clinical trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38678246/",
+   "source": "BMC Oral Health",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Efficacy of flossing and mouth rinsing regimens on plaque and gingivitis: a randomized clinical trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38310236/",
+   "source": "BMC Oral Health",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Oral irrigator",
+   "url": "https://en.wikipedia.org/wiki/Oral_irrigator",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 12,
+   "title": "Interdental brush",
+   "url": "https://en.wikipedia.org/wiki/Interdental_brush",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 13,
+   "title": "Gingivitis",
+   "url": "https://en.wikipedia.org/wiki/Gingivitis",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 14,
+   "title": "Halitosis",
+   "url": "https://en.wikipedia.org/wiki/Halitosis",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 15,
+   "title": "Flossing (American Dental Association, MouthHealthy)",
+   "url": "https://www.mouthhealthy.org/all-topics-a-z/flossing",
+   "source": "American Dental Association",
+   "year": null,
+   "type": "guideline"
+  },
+  {
+   "id": 16,
+   "title": "Insufficient floss data",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38102245/",
+   "source": "British Dental Journal",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 17,
+   "title": "T Nation forum: Rising From the Ashes (CL)",
+   "url": "https://t-nation.com/t/rising-from-the-ashes-cl/233718",
+   "source": "T Nation",
+   "year": 2017,
+   "type": "forum"
+  },
+  {
+   "id": 18,
+   "title": "T Nation forum: Flame Free Confession III: Even More Flame Free (Part 2)",
+   "url": "https://t-nation.com/t/flame-free-confession-iii-even-more-flame-free-part-2/273731",
+   "source": "T Nation",
+   "year": 2021,
+   "type": "forum"
+  },
+  {
+   "id": 19,
+   "title": "The automatic component of habit in health behavior: habit as cue-contingent automaticity",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20658824/",
+   "source": "Health Psychology",
+   "year": 2010,
+   "type": "study"
+  },
+  {
+   "id": 20,
+   "title": "T Nation forum: Clockin' A Grip",
+   "url": "https://t-nation.com/t/clockin-a-grip/215284",
+   "source": "T Nation",
+   "year": 2016,
+   "type": "forum"
+  },
+  {
+   "id": 21,
+   "title": "Hacker News: Microrobots can brush and floss teeth in a proof-of-concept study",
+   "url": "https://news.ycombinator.com/item?id=32000668",
+   "source": "Hacker News",
+   "year": 2022,
+   "type": "forum"
+  },
+  {
+   "id": 22,
+   "title": "Effects of an oral hygiene regimen on progression of gingivitis/early periodontitis: A randomized controlled trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34221032/",
+   "source": "Canadian Journal of Dental Hygiene",
+   "year": 2021,
+   "type": "trial"
+  },
+  {
+   "id": 23,
+   "title": "Comparative evaluation of the efficacy of probiotic, Aloe vera, povidine-iodine, and chlorhexidine mouthwashes in the treatment of gingival inflammation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38652926/",
+   "source": "Dental and Medical Problems",
+   "year": 2024,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Dental_floss",
+   "title": "Dental floss"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Oral_irrigator",
+   "title": "Oral irrigator"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Interdental_brush",
+   "title": "Interdental brush"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Gingivitis",
+   "title": "Gingivitis"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Halitosis",
+   "title": "Halitosis"
+  },
+  {
+   "url": "https://www.mouthhealthy.org/all-topics-a-z/flossing",
+   "title": "Flossing (ADA MouthHealthy)"
+  }
+ ]
 }

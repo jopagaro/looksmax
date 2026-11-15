@@ -1,105 +1,455 @@
 {
-  "name": "Fungal acne protocol (Malassezia)",
-  "card": {
-    "summary": "Avoiding fatty-acid oils and using antifungals for itchy forehead and body bumps attributed to Malassezia yeast, a recognised condition called Malassezia folliculitis.",
-    "aka": "Fungal acne, pityrosporum folliculitis protocol",
-    "evidence": "moderate",
-    "status": null,
-    "outcome": null,
-    "risk": "low",
-    "price": null,
-    "note": "The condition is recognised in dermatology; the specific product-avoidance rules circulating online are not tested in the sources reviewed.",
-    "structure": null
-  },
-  "quick": {
-    "overview": "Fungal acne is the popular name for Malassezia (formerly Pityrosporum) folliculitis, in which yeast that normally lives on skin overgrows in hair follicles and causes itchy, uniform pustules, most often on the upper trunk and sometimes the forehead [1][2]. Online, the term also covers a skincare protocol: avoiding products with certain oils and fatty acids and using antifungal treatments.\n\nLooksmax.org threads show users reporting forehead bumps and flaking that they attribute to fungal acne or seborrheic dermatitis and asking which products to use, with some saying ordinary acne approaches did not help [3][4].",
-    "mechanism": "Malassezia are lipophilic yeasts that need fatty acids to grow; Wikipedia reports they consume fatty acids with chains of about 11 to 24 carbons [1]. This is the basis for the avoid-certain-oils idea. Research has linked resident Malassezia species to the folliculitis [5].",
-    "risks": "Malassezia are part of normal skin flora and are linked to several skin conditions including seborrheic dermatitis [6]. Diagnosis is clinical and by distribution [1]; Danish treatment guidelines exist for Malassezia-related disease [7]. Persistent bumps are generally assessed by a dermatologist."
-  },
-  "lead": [
-    "Fungal acne is a popular name for Malassezia folliculitis, also called pityrosporum folliculitis. It is a skin condition in which yeast of the genus Malassezia, a normal part of human skin flora, overgrows within hair follicles and produces itchy papules and pustules [1][6]. Despite the name it is not acne vulgaris, which involves different processes.",
-    "Wikipedia describes it as occurring most often on the upper trunk (back, chest, arms) in young to middle-aged adults, with overgrowth associated with oily skin, humidity and conditions such as seborrheic dermatitis or severe dandruff [1]. Malassezia are lipophilic, depending on fatty acids found in skin oils to multiply [1][6].",
-    "In looksmaxxing and skincare forums, the phrase also names a protocol: avoiding fatty-acid-containing oils and ingredients in products and using antifungal treatments. Looksmax.org threads show users describing forehead bumps and flaking, sometimes alongside seborrheic dermatitis, and asking what to use [3][4]. The sources reviewed do not trial the protocol as a whole."
+ "name": "Fungal acne protocol (Malassezia)",
+ "card": {
+  "summary": "Avoiding fatty-acid oils and using antifungals for itchy forehead and body bumps attributed to Malassezia yeast, a recognised condition called Malassezia folliculitis.",
+  "aka": "Fungal acne, pityrosporum folliculitis protocol",
+  "evidence": "moderate",
+  "status": null,
+  "outcome": null,
+  "risk": "low",
+  "price": null,
+  "note": "The condition is recognised in dermatology; the specific product-avoidance rules circulating online are untested.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Fungal acne is the popular name for Malassezia (formerly Pityrosporum) folliculitis, in which yeast that normally lives on skin overgrows in hair follicles and causes itchy, uniform pustules, most often on the upper trunk and sometimes the forehead [1][2]. Online, the term also covers a skincare protocol: avoiding products with certain oils and fatty acids and using antifungal treatments.\nLooksmax.org threads show users reporting forehead bumps and flaking that they attribute to fungal acne or seborrheic dermatitis and asking which products to use, with some saying ordinary acne approaches did not help [3][4].",
+  "mechanism": "Malassezia are lipophilic yeasts that need fatty acids to grow; Wikipedia reports they consume fatty acids with chains of about 11 to 24 carbons [1]. This is the basis for the avoid-certain-oils idea. Research has linked resident Malassezia species to the folliculitis [5].",
+  "risks": "Malassezia are part of normal skin flora and are linked to several skin conditions including seborrheic dermatitis [6]. Diagnosis is clinical and by distribution [1]; Danish treatment guidelines exist for Malassezia-related disease [7]. Persistent bumps are generally assessed by a dermatologist."
+ },
+ "lead": [
+  "Fungal acne is a popular name for Malassezia folliculitis, also called pityrosporum folliculitis: a skin condition in which yeast of the genus Malassezia, a normal part of human skin flora, overgrows within hair follicles and produces itchy, uniform papules and pustules.[1][6][13] Despite the name it is not acne vulgaris. Dermatology sources separate the two mainly by the absence of comedones (blackheads and whiteheads) and by the prominent itch.[13]",
+  "For people trying to improve their skin, the term matters because bumps on the forehead, hairline, chest and back that do not respond to usual acne routines are sometimes attributed to this yeast, and because the usual first-line acne products work through different mechanisms. In looksmaxxing and skincare forums, 'fungal acne' also names a protocol: avoiding oils and ingredients that contain the fatty acids Malassezia feeds on, choosing products described as 'fungal-acne safe', and using antifungal washes or creams. Looksmax.org threads show users describing forehead bumps and flaking, sometimes alongside seborrheic dermatitis, and asking what to use.[3][4]",
+  "Wikipedia describes the condition as occurring most often on the upper trunk (back, chest, arms) in young to middle-aged adults, with overgrowth associated with oily skin, humidity and conditions such as seborrheic dermatitis or severe dandruff.[1] Malassezia are lipophilic, depending on fatty acids found in skin oils to multiply.[1][6] The condition, its causative yeasts and its treatment with antifungals are described in the dermatology literature; the online protocol as a whole, including its ingredient-avoidance rules, has not been trialled."
+ ],
+ "infobox": [
+  [
+   "Condition",
+   "Malassezia (pityrosporum) folliculitis[1]"
   ],
-  "infobox": [
-    ["Condition", "Malassezia (pityrosporum) folliculitis"],
-    ["Organism", "Malassezia yeasts (lipophilic, normal skin flora)"],
-    ["Typical sites", "Upper trunk; also forehead and other areas"],
-    ["Typical signs", "Itchy, uniform follicular papules and pustules"],
-    ["Related conditions", "Seborrheic dermatitis, pityriasis versicolor"]
+  [
+   "Organism",
+   "Malassezia yeasts, mainly M. globosa, M. sympodialis and M. restricta; lipophilic, normal skin flora[13]"
   ],
-  "sections": [
-    {
-      "h": "Description",
-      "paras": [
-        "Malassezia folliculitis arises when Malassezia furfur and related species overgrow and plug hair follicles, producing itchy papules and pustules in a follicular pattern. Diagnosis rests on the pattern and location of lesions [1]. The genus now includes about 14 species of yeast found on all skin surfaces of humans and animals as commensals that can also act as pathogens [8]. Pityriasis versicolor is the only skin disease etiologically tied to Malassezia, while in folliculitis, seborrheic dermatitis and others the yeasts are suggested to contribute [6]."
-      ]
-    },
-    {
-      "h": "How it differs from acne",
-      "paras": [
-        "Research comparing seborrheic dermatitis and Malassezia folliculitis has characterised the inflammatory cells in both [9]. A registered clinical study compared Malassezia species proportions in inflammatory and non-inflammatory facial acne lesions in 120 people with acne vulgaris, reflecting ongoing interest in the yeast's role in ordinary acne [10]. A 2009 study concluded that the folliculitis is caused by cutaneous resident Malassezia species [5]."
-      ]
-    },
-    {
-      "h": "Beliefs and claims",
-      "paras": [
-        "Adherents of the protocol say that because the yeast feeds on certain fatty acids, products containing such oils can worsen bumps and that avoiding them, alongside antifungal products, helps. Forum users describe forehead bumps and flaking that they attribute to fungal acne and report that general skin-care and dietary changes did not resolve them [3][4]."
-      ]
-    },
-    {
-      "h": "Research and expert views",
-      "paras": [
-        "Wikipedia reports Malassezia growth depends on fatty acids of about 11 to 24 carbons [1]. Evidence-based Danish guidelines address treatment of Malassezia-related skin diseases [7]. A 2010 report described photodynamic therapy for recalcitrant Malassezia folliculitis [11]. Reviews note Malassezia infections can be a medical conundrum and can cause more serious disease in immunocompromised patients [12][13]. The sources reviewed do not test an oil-avoidance regimen directly."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "Human studies exist on Malassezia folliculitis and related disease, including immunohistochemical work on the skin lesions [9], Danish treatment guidelines [7], and a photodynamic therapy report for resistant cases [11]. No studies found testing the full online fungal acne protocol of avoiding fatty-acid ingredients."
-      ]
-    }
+  [
+   "Typical sites",
+   "Upper back and chest; also forehead, hairline, chin, neck and upper arms[13]"
   ],
-  "timeline": [],
-  "lore": {
-    "intro": "On looksmax.org, fungal acne appears in threads where users with stubborn forehead bumps or flaking ask for product recommendations, often alongside seborrheic dermatitis [3][4].",
-    "claims": [
-      {
-        "claim": "Stubborn forehead bumps that do not respond to normal acne care are fungal acne",
-        "believers": "One user reports having both seborrheic dermatitis and fungal acne on the forehead, and another says they tried everything including diet and the problem worsened [3][4].",
-        "experts": "Malassezia folliculitis is a recognised condition with itchy follicular pustules, diagnosed by pattern and location [1]; seborrheic dermatitis is also linked to Malassezia [2][6].",
-        "evidence": "supported"
-      },
-      {
-        "claim": "Fatty-acid oils in products feed the yeast and should be avoided",
-        "believers": "Protocol advocates reason that since the yeast needs fatty acids, avoiding oils containing them reduces flares.",
-        "experts": "Wikipedia reports Malassezia grows by consuming fatty acids of roughly 11 to 24 carbons [1]; no sources reviewed test product avoidance as a treatment.",
-        "evidence": "mixed"
-      },
-      {
-        "claim": "Antifungal products treat the problem",
-        "believers": "Forum users ask for antifungal and related skincare solutions for fungal acne and seborrheic dermatitis [3][4].",
-        "experts": "Evidence-based Danish guidelines exist for treating Malassezia-related skin diseases [7]; a photodynamic therapy report addressed recalcitrant cases [11].",
-        "evidence": "supported"
-      }
-    ]
-  },
-  "refs": [
-    { "id": 1, "title": "Malassezia folliculitis", "url": "https://en.wikipedia.org/wiki/Malassezia_folliculitis", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Seborrhoeic dermatitis and Pityrosporum (Malassezia) folliculitis: characterization of inflammatory cells and mediators in the skin by immunohistochemistry", "url": "https://pubmed.ncbi.nlm.nih.gov/11260013/", "source": "British Journal of Dermatology", "year": 2001, "type": "study" },
-    { "id": 3, "title": "any solutions to seborrheic dermatitis and fungal acne on forehead?", "url": "https://looksmax.org/threads/any-solutions-to-seborrheic-dermatitis-and-fungal-acne-on-forehead.1808468/", "source": "looksmax.org", "year": null, "type": "forum" },
-    { "id": 4, "title": "What is the best skin care product for fungal acne?", "url": "https://looksmax.org/threads/what-is-the-best-skin-care-product-for-fungal-acne.1789648/", "source": "looksmax.org", "year": null, "type": "forum" },
-    { "id": 5, "title": "Malassezia folliculitis is caused by cutaneous resident Malassezia species", "url": "https://pubmed.ncbi.nlm.nih.gov/18949624/", "source": "Medical Mycology", "year": 2009, "type": "study" },
-    { "id": 6, "title": "Malassezia species in healthy skin and in dermatological conditions", "url": "https://pubmed.ncbi.nlm.nih.gov/26710919/", "source": "International Journal of Dermatology", "year": 2016, "type": "review" },
-    { "id": 7, "title": "Evidence-based Danish guidelines for the treatment of Malassezia-related skin diseases", "url": "https://pubmed.ncbi.nlm.nih.gov/24556907/", "source": "Acta Dermato-Venereologica", "year": 2015, "type": "guideline" },
-    { "id": 8, "title": "Malassezia species and their associated skin diseases", "url": "https://pubmed.ncbi.nlm.nih.gov/25736318/", "source": "Journal of Dermatology", "year": 2015, "type": "review" },
-    { "id": 9, "title": "Seborrhoeic dermatitis and Pityrosporum (Malassezia) folliculitis: inflammatory cells and mediators", "url": "https://pubmed.ncbi.nlm.nih.gov/11260013/", "source": "British Journal of Dermatology", "year": 2001, "type": "study" },
-    { "id": 10, "title": "Comparison of Malassezia Spp Proportions in Inflammatory and Non Inflammatory Facial Acne Vulgaris Lesions (NCT04367584)", "url": "https://clinicaltrials.gov/study/NCT04367584", "source": "ClinicalTrials.gov", "year": 2018, "type": "trial" },
-    { "id": 11, "title": "Photodynamic therapy: new treatment for recalcitrant Malassezia folliculitis", "url": "https://pubmed.ncbi.nlm.nih.gov/20166153/", "source": "Lasers in Surgery and Medicine", "year": 2010, "type": "study" },
-    { "id": 12, "title": "Malassezia infections: a medical conundrum", "url": "https://pubmed.ncbi.nlm.nih.gov/24569116/", "source": "Journal of the American Academy of Dermatology", "year": 2014, "type": "review" },
-    { "id": 13, "title": "Minireview: Malassezia infections in immunocompromised patients", "url": "https://pubmed.ncbi.nlm.nih.gov/20028460/", "source": "Mycoses", "year": 2010, "type": "review" }
+  [
+   "Typical signs",
+   "Small, uniform, itchy follicular papules and pustules; no comedones[13]"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Malassezia_folliculitis", "title": "Malassezia folliculitis - Wikipedia" }
+  [
+   "Who is affected",
+   "Most common in adolescent and young adult males, per DermNet[13]"
+  ],
+  [
+   "Known risk factors",
+   "Heat and humidity, high sebum, sweating, occlusion, antibiotics, immunosuppression[13]"
+  ],
+  [
+   "Related conditions",
+   "Seborrheic dermatitis, pityriasis versicolor, dandruff[6][16]"
+  ],
+  [
+   "Genus named",
+   "Malassezia, after Louis-Charles Malassez; Pityrosporum name from 1904[14]"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Malassezia folliculitis arises when Malassezia furfur and related species overgrow and plug hair follicles, producing itchy papules and pustules in a follicular pattern. Diagnosis rests on the pattern and location of lesions.[1] DermNet describes it as an infection of the hair follicle and oil gland by lipophilic yeasts, mainly M. globosa, M. sympodialis and M. restricta, that normally live on the skin and cause disease only under certain conditions.[13]",
+    "The genus now includes about 14 species of yeast found on all skin surfaces of humans and animals as commensals that can also act as pathogens; molecular studies found Malassezia DNA predominantly on the core body and arms, where sebaceous glands are dense.[8] Pityriasis versicolor is the only skin disease etiologically tied to Malassezia, while in folliculitis, seborrheic dermatitis and others the yeasts are suggested to contribute.[6]"
+   ],
+   "subs": [
+    {
+     "h": "Signs and where it appears",
+     "paras": [
+      "The eruption is monomorphic: the lesions all look alike, a few millimetres across, and itchy. DermNet lists the upper back and chest as the main sites, with the forehead and hairline, chin, neck and outer upper arms also affected, and notes that the absence of comedones is the key distinction from acne vulgaris.[13] It can resemble steroid acne and bacterial folliculitis, and DermNet says diagnosis is often delayed.[13] Grokipedia adds that the lesions typically lack cysts and do not usually scar.[15]"
+     ]
+    },
+    {
+     "h": "Risk factors",
+     "paras": [
+      "Wikipedia lists oily skin, humidity and pre-existing conditions such as seborrheic dermatitis and severe dandruff.[1] DermNet adds hot, humid climates, excessive sweating, occlusion from emollients and sunscreens, antibiotic use and immunosuppression including topical or oral steroids.[13] A T Nation poster in 2007 likewise suggested that the condition can follow sweat, tight clothing and follicular damage and is common among athletes.[21]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "History and naming",
+   "paras": [
+    "Wikipedia credits the French physician Louis-Charles Malassez with identifying the genus in the late 1800s and linking it to seborrheic dermatitis; Baillon named the genus Malassezia in 1889, and in 1904 Raymond Sabouraud described a dandruff-associated organism as Pityrosporum malassezii. Because both names referred to the same yeast, Malassezia took priority, which is why the folliculitis is still called pityrosporum folliculitis in older literature and forums.[14][1] The genus is the only one in its family, order and class (Malasseziomycetes, defined in 2014), and naming was complicated because the yeasts need special media and grow slowly.[14] Index Fungorum lists 22 species, with M. globosa responsible for most human skin disease and M. restricta also involved.[14]"
+   ]
+  },
+  {
+   "h": "Why fatty acids matter",
+   "paras": [
+    "Most Malassezia species cannot make their own long-chain fatty acids and must take them from the skin or from products on it. Wikipedia reports that Malassezia grows by consuming fatty acids with chain lengths of about 11 to 24 carbons.[1] The Malassezia article describes this lipid dependence as the reason the yeasts cluster on oily, sebaceous areas such as the scalp, face and upper back, and notes that M. globosa produces several lipases and phospholipases to break down skin oils.[14]",
+    "This lipid dependence is the rationale behind the online ingredient-avoidance protocol: if the yeast feeds on certain fatty acids, products that contain them or their derivatives could in principle provide more fuel. Proponents say checking ingredient lists and selecting products marketed as fungal-acne safe has helped their bumps; Grokipedia's account of prevention likewise lists gentle cleansers and lightweight, oil-free moisturizers alongside reducing occlusion.[15] DermNet lists occlusion from emollients and sunscreens as a risk factor but gives no ingredient list or diet advice.[13] Product-avoidance regimens as a whole have not been tested in trials."
+   ]
+  },
+  {
+   "h": "How it differs from acne vulgaris",
+   "paras": [
+    "Acne vulgaris involves comedones and a mix of lesion types, while Malassezia folliculitis is uniform and lacks comedones, according to DermNet.[13] Research comparing seborrheic dermatitis and Malassezia folliculitis has characterised the inflammatory cells and mediators in both.[2] A registered clinical study, started in 2018, compared Malassezia species proportions in inflammatory and non-inflammatory facial acne lesions in 120 people with acne vulgaris, reflecting ongoing interest in the yeast's role in ordinary acne.[9] A 2009 study concluded that the folliculitis is caused by cutaneous resident Malassezia species rather than an outside organism.[5]"
+   ]
+  },
+  {
+   "h": "Treatment as described by dermatology sources",
+   "paras": [
+    "DermNet says predisposing factors should be addressed first, then lists topical options such as selenium sulfide shampoo, ketoconazole or econazole, which work for most people but may need longer courses, with weekly use sometimes helping prevent recurrence; oral antifungals may work better than topical ones, with fluconazole preferred over itraconazole for its side-effect profile, though trial results are inconsistent.[13] Isotretinoin and photodynamic therapy have had some success in small case series of resistant disease.[13] A 2010 report described photodynamic therapy for recalcitrant Malassezia folliculitis.[10] Evidence-based Danish guidelines address treatment of Malassezia-related skin diseases generally.[7]",
+    "Recurrence is common even after successful treatment, and DermNet says long-term topical prophylaxis may be considered for people with repeated recurrences.[13] Reviews of seborrheic dermatitis, the related condition, describe antifungal and anti-inflammatory topicals as the most commonly used treatment, with ketoconazole as the mainstay for the face and body.[16][17]"
+   ]
+  },
+  {
+   "h": "Related conditions",
+   "paras": [
+    "Seborrheic dermatitis is a chronic, recurring condition of flaking, redness and itch in oil-rich areas, usually described as an inflammatory response to Malassezia, with three generally agreed contributors: sebaceous lipid secretion, Malassezia colonisation and immune dysregulation.[16][17][18] Many forum posts pair it with fungal acne.[3] A 2024 systematic review examined diet, obesity, supplements and alcohol in seborrheic dermatitis because each of those might modulate the lipid, yeast and inflammation pathways.[19] A 2022 review of atopic dermatitis names Malassezia among microbes proposed to contribute there.[24] Reviews also note that Malassezia infections can be a medical conundrum and can cause more serious disease in immunocompromised patients.[11][12]"
+   ]
+  },
+  {
+   "h": "Online spread and community use",
+   "paras": [
+    "Forum discussion of the topic is older than the current 'fungal acne' label. A 2007 T Nation thread told a poster that bumps on the back might be pityrosporum folliculitis rather than ordinary back acne, that antibacterial acne products would not help because the cause is fungal, and that it is common in athletes.[21] A 2009 thread has a poster saying that a daily anti-dandruff shampoo used as body wash cleared shoulder and back bumps within about two weeks after reading about the idea on another forum, and a 2024 poster reported that an antifungal cream nearly cleared bumps on the back and shoulders after a few uses.[22][23]",
+    "On looksmax.org the topic appears as forehead and temple bumps. One user reports both seborrheic dermatitis and fungal acne on the forehead and asks what to use; another says they have tried everything, including diet, and the problem is worsening.[3][4] Other members ask for photos before commenting, reflecting that the label is applied informally and without examination.[3] Mainstream sources describe diagnosis as clinical, confirmed where needed by microscopy of skin scrapings.[1][13]"
+   ]
+  },
+  {
+   "h": "Beliefs and claims",
+   "paras": [
+    "Adherents of the protocol say that because the yeast feeds on certain fatty acids, products containing such oils can worsen bumps and that avoiding them, alongside antifungal products, helps. Forum users describe forehead bumps and flaking that they attribute to fungal acne and report that general skin-care and dietary changes did not resolve them.[3][4]"
+   ]
+  },
+  {
+   "h": "Research and expert views",
+   "paras": [
+    "Wikipedia reports Malassezia growth depends on fatty acids of about 11 to 24 carbons.[1] Dermatology reviews describe the yeasts as normal flora that contribute to disease under conditions such as sebum excess, humidity or immune suppression.[6][11] The protocol's specific rules about which ingredients to avoid have not been compared against standard care in published trials, and DermNet recommends seeing a dermatologist for skin concerns.[13]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Human studies exist on Malassezia folliculitis and related disease, including immunohistochemical work on the skin lesions,[2] Danish treatment guidelines,[7] a photodynamic therapy report for resistant cases,[10] and a registered study of Malassezia proportions in acne vulgaris lesions.[9] Randomized and controlled trials of antifungal treatment exist mainly for seborrheic dermatitis.[16][17][18] No studies found testing the full online fungal acne protocol of avoiding fatty-acid ingredients."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "Late 1800s",
+   "event": "Louis-Charles Malassez identifies the yeast genus and links it to seborrheic dermatitis.[14]"
+  },
+  {
+   "year": "1889",
+   "event": "Baillon names the genus Malassezia.[14]"
+  },
+  {
+   "year": "1904",
+   "event": "Raymond Sabouraud describes a dandruff-associated organism as Pityrosporum malassezii; the names later merge under Malassezia.[14]"
+  },
+  {
+   "year": "1998",
+   "event": "A controlled trial tests 2% ketoconazole shampoo in androgenic alopecia, reflecting interest in scalp yeast.[20]"
+  },
+  {
+   "year": "2001",
+   "event": "Immunohistochemistry study compares inflammatory cells in seborrheic dermatitis and Pityrosporum folliculitis.[2]"
+  },
+  {
+   "year": "2009",
+   "event": "Study concludes Malassezia folliculitis is caused by cutaneous resident Malassezia species.[5]"
+  },
+  {
+   "year": "2010",
+   "event": "Photodynamic therapy reported for recalcitrant Malassezia folliculitis.[10]"
+  },
+  {
+   "year": "2014",
+   "event": "Malasseziomycetes is formally defined as a fungal class; JAAD publishes 'Malassezia infections: a medical conundrum'.[14][11]"
+  },
+  {
+   "year": "2015",
+   "event": "Danish evidence-based treatment guidelines for Malassezia-related skin diseases; review reports 14 recognised species.[7][8]"
+  },
+  {
+   "year": "2018",
+   "event": "A registered study begins comparing Malassezia species in inflammatory and non-inflammatory acne lesions in 120 people.[9]"
+  },
+  {
+   "year": "2024",
+   "event": "Systematic review of diet, obesity and nutrition in seborrheic dermatitis published.[19]"
+  }
+ ],
+ "lore": {
+  "intro": "On looksmax.org, fungal acne appears in threads where users with stubborn forehead bumps or flaking ask for product recommendations, often alongside seborrheic dermatitis; older T Nation threads discuss the same idea as pityrosporum folliculitis and back acne.[3][4][21]",
+  "claims": [
+   {
+    "claim": "Stubborn forehead bumps that do not respond to normal acne care are fungal acne",
+    "evidence": "supported",
+    "believers": "One user reports having both seborrheic dermatitis and fungal acne on the forehead, and another says they tried everything including diet and the problem worsened.[3][4]",
+    "experts": "Malassezia folliculitis is a recognised condition with itchy follicular pustules, diagnosed by pattern and location, and DermNet notes it can resemble steroid acne and bacterial folliculitis, so diagnosis is often delayed.[1][13]"
+   },
+   {
+    "claim": "Fatty-acid oils in products feed the yeast and should be avoided",
+    "evidence": "mixed",
+    "believers": "Protocol advocates reason that since the yeast needs fatty acids, avoiding oils containing them reduces flares.",
+    "experts": "Wikipedia reports Malassezia grows by consuming fatty acids of roughly 11 to 24 carbons, and DermNet lists occlusion from emollients and sunscreens as a risk factor; product avoidance has not been tested as a treatment.[1][13]"
+   },
+   {
+    "claim": "Antifungal products treat the problem",
+    "evidence": "supported",
+    "believers": "Forum users ask for antifungal and related skincare solutions for fungal acne and seborrheic dermatitis, and a 2024 T Nation poster says an antifungal cream nearly cleared back and shoulder bumps.[3][4][23]",
+    "experts": "DermNet lists topical selenium sulfide, ketoconazole and econazole and oral antifungals as options, and Danish guidelines address Malassezia-related disease; recurrence is common.[7][13]"
+   },
+   {
+    "claim": "Anti-dandruff shampoo used as a body wash clears back and shoulder bumps",
+    "evidence": "mixed",
+    "believers": "A 2009 T Nation poster says a daily anti-dandruff shampoo used as body wash cleared bumps in about two weeks.[22]",
+    "experts": "DermNet names selenium sulfide shampoo among topical treatments for Malassezia folliculitis, and ketoconazole is the mainstay topical for seborrheic dermatitis of the face and body; no trial of this exact routine is cited.[13][17]"
+   },
+   {
+    "claim": "Ordinary antibacterial acne products will not work because the cause is fungal",
+    "evidence": "mixed",
+    "believers": "A 2007 T Nation reply says the condition is not treatable with common antibacterial acne products.[21]",
+    "experts": "DermNet distinguishes the condition from acne vulgaris by the absence of comedones and lists antibiotic use as a risk factor, while noting that bacterial folliculitis and steroid acne can look similar.[13]"
+   },
+   {
+    "claim": "Sweat, heat and tight clothing trigger it, especially in athletes",
+    "evidence": "supported",
+    "believers": "A T Nation poster in 2007 said it can pop up with excessive sweat, tight clothing and follicular damage and is common among athletes.[21]",
+    "experts": "DermNet lists hot, humid climates, excessive sweating and occlusion among risk factors.[13]"
+   },
+   {
+    "claim": "Changing diet can clear it",
+    "evidence": "untested",
+    "believers": "A looksmax.org poster says they fixed their diet and the bumps persisted and worsened, showing that users test diet as a remedy.[4]",
+    "experts": "A 2024 systematic review examined diet, obesity and supplements in seborrheic dermatitis, a related Malassezia condition; no study has tested diet as a treatment for Malassezia folliculitis specifically.[19]"
+   },
+   {
+    "claim": "Malassezia may also be involved in ordinary acne",
+    "evidence": "untested",
+    "believers": "Forum discussion often treats stubborn acne and fungal acne as overlapping.[3][4]",
+    "experts": "A registered study compared Malassezia species proportions in inflammatory and non-inflammatory acne lesions in 120 people with acne vulgaris.[9]"
+   }
+  ]
+ },
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Malassezia_folliculitis",
+   "title": "Malassezia folliculitis - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Malassezia",
+   "title": "Malassezia - Wikipedia"
+  },
+  {
+   "url": "https://dermnetnz.org/topics/malassezia-folliculitis",
+   "title": "Malassezia folliculitis (DermNet)"
+  }
+ ],
+ "angle": {
+  "goal": "Skin",
+  "chain": [
+   "Identify bumps with the pattern of Malassezia folliculitis (itchy, uniform, no blackheads)",
+   "Reduce yeast overgrowth with antifungal products and by reviewing oily or occlusive products",
+   "Follicular bumps and flaking settle, leaving smoother, more even skin"
+  ],
+  "effect": "indirect",
+  "text": "People who attribute forehead or body bumps to Malassezia aim to clear them with antifungal washes and creams and by adjusting the oils and occlusive products on their skin. Dermatology sources describe topical and oral antifungals as established treatments, and recurrence as common."
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Malassezia folliculitis",
+   "url": "https://en.wikipedia.org/wiki/Malassezia_folliculitis",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Seborrhoeic dermatitis and Pityrosporum (Malassezia) folliculitis: characterization of inflammatory cells and mediators in the skin by immunohistochemistry",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11260013/",
+   "source": "British Journal of Dermatology",
+   "year": 2001,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "any solutions to seborrheic dermatitis and fungal acne on forehead?",
+   "url": "https://looksmax.org/threads/any-solutions-to-seborrheic-dermatitis-and-fungal-acne-on-forehead.1808468/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 4,
+   "title": "What is the best skin care product for fungal acne?",
+   "url": "https://looksmax.org/threads/what-is-the-best-skin-care-product-for-fungal-acne.1789648/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 5,
+   "title": "Malassezia folliculitis is caused by cutaneous resident Malassezia species",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18949624/",
+   "source": "Medical Mycology",
+   "year": 2009,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Malassezia species in healthy skin and in dermatological conditions",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26710919/",
+   "source": "International Journal of Dermatology",
+   "year": 2016,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "Evidence-based Danish guidelines for the treatment of Malassezia-related skin diseases",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24556907/",
+   "source": "Acta Dermato-Venereologica",
+   "year": 2015,
+   "type": "guideline"
+  },
+  {
+   "id": 8,
+   "title": "Malassezia species and their associated skin diseases",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25736318/",
+   "source": "Journal of Dermatology",
+   "year": 2015,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "Comparison of Malassezia Spp Proportions in Inflammatory and Non Inflammatory Facial Acne Vulgaris Lesions (NCT04367584)",
+   "url": "https://clinicaltrials.gov/study/NCT04367584",
+   "source": "ClinicalTrials.gov",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Photodynamic therapy: new treatment for recalcitrant Malassezia folliculitis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20166153/",
+   "source": "Lasers in Surgery and Medicine",
+   "year": 2010,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "Malassezia infections: a medical conundrum",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24569116/",
+   "source": "Journal of the American Academy of Dermatology",
+   "year": 2014,
+   "type": "review"
+  },
+  {
+   "id": 12,
+   "title": "Minireview: Malassezia infections in immunocompromised patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20028460/",
+   "source": "Mycoses",
+   "year": 2010,
+   "type": "review"
+  },
+  {
+   "id": 13,
+   "title": "Malassezia folliculitis (DermNet)",
+   "url": "https://dermnetnz.org/topics/malassezia-folliculitis",
+   "source": "DermNet",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 14,
+   "title": "Malassezia (genus)",
+   "url": "https://en.wikipedia.org/wiki/Malassezia",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 15,
+   "title": "Malassezia folliculitis (Grokipedia)",
+   "url": "https://grokipedia.com/page/Malassezia_folliculitis",
+   "source": "Grokipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 16,
+   "title": "Treatment of seborrheic dermatitis: a comprehensive review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29737895/",
+   "source": "Journal of Dermatological Treatment",
+   "year": 2019,
+   "type": "review"
+  },
+  {
+   "id": 17,
+   "title": "Diagnosis and treatment of seborrheic dermatitis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25822272/",
+   "source": "American Family Physician",
+   "year": 2015,
+   "type": "review"
+  },
+  {
+   "id": 18,
+   "title": "Unmet needs for patients with seborrheic dermatitis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36538948/",
+   "source": "Journal of the American Academy of Dermatology",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 19,
+   "title": "Nutrition, Obesity, and Seborrheic Dermatitis: Systematic Review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39102684/",
+   "source": "JMIR Dermatology",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 20,
+   "title": "Ketoconazole shampoo: effect of long-term use in androgenic alopecia",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9669136/",
+   "source": "Dermatology",
+   "year": 1998,
+   "type": "trial"
+  },
+  {
+   "id": 21,
+   "title": "Backne (T Nation forum)",
+   "url": "https://t-nation.com/t/backne/94907",
+   "source": "T Nation",
+   "year": 2007,
+   "type": "forum"
+  },
+  {
+   "id": 22,
+   "title": "Back Acne and What I Did About It (T Nation forum)",
+   "url": "https://t-nation.com/t/back-acne-and-what-i-did-about-it/137606",
+   "source": "T Nation",
+   "year": 2009,
+   "type": "forum"
+  },
+  {
+   "id": 23,
+   "title": "Acne from TRT (T Nation forum)",
+   "url": "https://t-nation.com/t/acne-from-trt/288878",
+   "source": "T Nation",
+   "year": 2024,
+   "type": "forum"
+  },
+  {
+   "id": 24,
+   "title": "Skin microbiome of atopic dermatitis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34838450/",
+   "source": "Allergology International",
+   "year": 2022,
+   "type": "review"
+  }
+ ]
 }

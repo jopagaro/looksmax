@@ -1,56 +1,289 @@
 {
-"name": "Rhaponticum carthamoides (maral root)",
-"lead": [
-"Rhaponticum carthamoides (synonym Leuzea carthamoides), known as maral root, is a perennial herb of the daisy family (Asteraceae) that grows wild in southern Siberia, Kazakhstan, the Altai and the western Sayan Mountains at sub-alpine and alpine elevations.[1] Its roots are rich in 20-hydroxyecdysone, an ecdysteroid that acts as a molting hormone in arthropods.[1][2]",
-"It is sold as an adaptogen and, in muscle-building circles, as a source of ecdysteroids. Published literature on the plant is mostly phytochemical and pharmacological reviews, with in vitro and animal work; the sources available for this article identify no completed human trial of maral root for muscle or appearance outcomes.[2][3]"
-],
-"infobox": [
-["Type","Herbal supplement (root extract), ecdysteroid source"],
-["Species","Rhaponticum carthamoides (Leuzea carthamoides)[1]"],
-["Family","Asteraceae[1]"],
-["Native range","Southern Siberia, Kazakhstan, Altai, western Sayan[1]"],
-["Key compound","20-hydroxyecdysone[1]"],
-["Legal status","Sold as a dietary supplement"]
-],
-"sections": [
-{"h":"Botany and naming","paras":["The common name maral root is said to come from the maral deer, which reportedly eat the plant, though this etymology is not firmly sourced.[1] The species is described as grown in cultivation in Russia and Eastern Europe.[1]"]},
-{"h":"Chemistry and pharmacology","paras":[
-"A 2009 review in Phytochemistry catalogued the plant's chemistry and pharmacology, including ecdysteroids, flavonoids and other constituents, and summarised reported biological activities.[2] Other studies have reported antimicrobial activity of crude extracts from Siberian medicinal plants including this species, and identified radical-scavenging compounds in it.[4][5]",
-"Reviews of adaptogens list Rhaponticum carthamoides among plants studied for stress-protective properties, mostly in cell and animal models.[3][6]"]},
-{"h":"Clinical studies","paras":["No studies found for maral root in muscle growth, recovery or appearance. Related research is limited to laboratory and animal work on the plant and its constituents, and to trials of a different plant, Rheum rhaponticum (rhubarb extract ERr 731), which has a confusingly similar name and was tested in menopausal women.[7]"]},
-{"h":"Use in muscle and recovery communities","paras":["Supplement sellers market maral root as an ecdysteroid and adaptogen for strength and recovery. The ecdysteroid class is the basis of these claims; the sources reviewed here contain no human trial results supporting or refuting them."]}
-],
-"timeline": [],
-"lore": {
-"intro": "Maral root is mentioned in supplement and muscle-building contexts as a plant ecdysteroid source and adaptogen.",
-"claims": [
-{"claim":"Maral root's ecdysteroids build muscle and aid recovery","believers":"Supplement marketers cite its high 20-hydroxyecdysone content as the basis for anabolic and recovery effects.[1]","experts":"The published literature reviewed is chemical and pharmacological; no human trial in the reviewed sources tested muscle outcomes.[2]","evidence":"untested"},
-{"claim":"It works as an adaptogen","believers":"Traditional Siberian use and adaptogen lists include it as a stress-protective herb.[3][6]","experts":"Adaptogen reviews note evidence from cell and animal models and discuss problems evaluating adaptogens clinically.[3][6]","evidence":"untested"}
-]},
-"refs": [
-{"id":1,"title":"Rhaponticum carthamoides","url":"https://en.wikipedia.org/wiki/Rhaponticum_carthamoides","source":"Wikipedia","year":2025,"type":"encyclopedia"},
-{"id":2,"title":"Chemistry and pharmacology of Rhaponticum carthamoides: a review","url":"https://pubmed.ncbi.nlm.nih.gov/19457517/","source":"Phytochemistry","year":2009,"type":"review"},
-{"id":3,"title":"Plant Adaptogens-History and Future Perspectives","url":"https://pubmed.ncbi.nlm.nih.gov/34445021/","source":"Nutrients","year":2021,"type":"review"},
-{"id":4,"title":"Screening of some Siberian medicinal plants for antimicrobial activity","url":"https://pubmed.ncbi.nlm.nih.gov/12169406/","source":"Journal of Ethnopharmacology","year":2002,"type":"study"},
-{"id":5,"title":"Identification of radical scavenging compounds in Rhaponticum carthamoides by means of LC-DAD-SPE-NMR","url":"https://pubmed.ncbi.nlm.nih.gov/15730237/","source":"Journal of Natural Products","year":2005,"type":"study"},
-{"id":6,"title":"Novel molecular mechanisms for the adaptogenic effects of herbal extracts on isolated brain cells using systems biology","url":"https://pubmed.ncbi.nlm.nih.gov/30466987/","source":"Phytomedicine","year":2018,"type":"study"},
-{"id":7,"title":"Efficacy and safety of a special extract of Rheum rhaponticum (ERr 731) in perimenopausal women","url":"https://pubmed.ncbi.nlm.nih.gov/16894335/","source":"Menopause","year":2006,"type":"trial"}
-],
-"webSources": [{"url":"https://en.wikipedia.org/wiki/Rhaponticum_carthamoides","title":"Rhaponticum carthamoides - Wikipedia"}],
-"card": {
-"summary": "A Siberian herb rich in ecdysteroids that is sold as a muscle and adaptogen supplement; no human trial backs the muscle claims.",
-"aka": "Maral root, Leuzea",
-"evidence": "unproven",
-"status": "otc",
-"outcome": null,
-"risk": null,
-"price": null,
-"note": "Not the same as Rheum rhaponticum (rhubarb extract).",
-"structure": "Ecdysterone"
-},
-"quick": {
-"overview": "Maral root is a Siberian alpine herb whose roots contain large amounts of 20-hydroxyecdysone, an insect molting hormone. Supplement sellers promote it for strength, recovery and stress resistance.\n\nThe published literature is mainly chemistry and lab work; the sources reviewed contain no human trial of it for muscle or appearance.",
-"mechanism": "The claimed mechanism rests on its ecdysteroid content. Reviews describe antioxidant and other activities in laboratory settings; effects in people have not been established in the sources reviewed.",
-"risks": "Safety data in humans are not covered in the sources reviewed. It is sold as a supplement, and products can be confused with Rheum rhaponticum, a different plant."
-}
+ "name": "Rhaponticum carthamoides (maral root)",
+ "lead": [
+  "Rhaponticum carthamoides (synonym Leuzea carthamoides), known as maral root or Russian leuzea, is a perennial herb of the daisy family (Asteraceae) that grows wild in southern Siberia, Kazakhstan, the Altai and the western Sayan Mountains at sub-alpine and alpine elevations.[1] Its roots are rich in 20-hydroxyecdysone (ecdysterone), an ecdysteroid that acts as a molting hormone in arthropods.[1][2]",
+  "In muscle-building circles it is sold as an adaptogen and as a plant source of ecdysteroids. The appearance case made by supplement users is a chain: ecdysteroids are said to support protein synthesis and training capacity, which in turn would allow more training and more muscle, and adaptogen claims add better recovery. Traditional use in eastern Russia, where it has been used for centuries as a tonic, is the basis for the adaptogen label.[2]",
+  "Published literature on the whole plant is mostly phytochemical and pharmacological reviews with in vitro and animal work. Human trials exist for isolated ecdysterone and for an ecdysterone-based drug in giardiasis, but no completed human trial of maral root itself for muscle or appearance outcomes was found.[2][6][7]"
+ ],
+ "infobox": [
+  [
+   "Type",
+   "Herbal supplement (root extract), ecdysteroid source"
+  ],
+  [
+   "Species",
+   "Rhaponticum carthamoides (Leuzea carthamoides)[1]"
+  ],
+  [
+   "Family",
+   "Asteraceae[1]"
+  ],
+  [
+   "Native range",
+   "Southern Siberia, Kazakhstan, Altai, western Sayan[1]"
+  ],
+  [
+   "Key compound",
+   "20-hydroxyecdysone (ecdysterone)[1]"
+  ],
+  [
+   "Other constituents",
+   "Flavonoids, phenolic acids, sesquiterpene lactones, triterpenoid glycosides[2]"
+  ],
+  [
+   "Legal status",
+   "Sold as a dietary supplement"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Botany and naming",
+   "paras": [
+    "The common name maral root (maralu) is said to come from the maral deer, which reportedly feed on the plant, though Wikipedia flags that etymology as needing a source.[1] Eight synonyms are listed there, including Leuzea carthamoides, Cnicus carthamoides, Cirsium carthamoides and Stemmacantha carthamoides.[1] The plant grows wild at roughly 1,400 to 1,800 metres in sub-alpine zones and in alpine meadows, and is described as grown in cultivation in Russia and Eastern Europe.[1] A 1985 USSR postage stamp showing it appeared in a series on medicinal plants of Siberia.[1]",
+    "The name is easily confused with Rheum rhaponticum, rhubarb, whose extract ERr 731 has been tested in menopausal women; it is a different plant.[8]"
+   ]
+  },
+  {
+   "h": "Traditional use and history",
+   "paras": [
+    "A 2009 review in Phytochemistry, drawing on 117 sources, many in Russian, describes maral root as having been used for centuries in eastern Russia for its medicinal properties.[2] Maral root is described in the literature as a traditional Siberian folk-medicine plant used as a stimulant to boost overall health and fitness.[3] Plant adaptogen research began in the 1960s, and a 2021 review reports that plant adaptogens including Rhaponticum carthamoides were first used in professional sports about 50 years earlier, owing to their reputed ability to increase resistance to stress and physical endurance.[4] The plant is among those covered in the Russian Pharmacopoeia reviews.[9]"
+   ]
+  },
+  {
+   "h": "Chemistry and pharmacology",
+   "paras": [
+    "The Phytochemistry review catalogued more than 120 structures from the plant. The main groups are steroids, especially ecdysteroids, and phenolics (flavonoids and phenolic acids), accompanied by polyacetylenes, sesquiterpene lactones, triterpenoid glycosides and essential oil terpenes. Reported pharmacological effects of its extracts and compounds include actions on the brain, blood, cardiovascular and nervous systems and on proteosynthesis, work capacity, reproduction and sexual function, based largely on animal and laboratory work.[2] Chemical analysis of ecdysteroids in maral root is described as difficult because many related structures have similar chromatographic behaviour.[3]",
+    "20-hydroxyecdysone, the plant's headline ecdysteroid, acts through the ecdysone receptor in arthropods. Mammals lack that receptor; Wikipedia's article on the compound says it is hypothesised to act on estrogen receptor beta, which is linked to muscle hypertrophy, and that oral bioavailability is described as high.[5] Other studies have reported antimicrobial activity of crude extracts from Siberian medicinal plants including this species, and identified radical-scavenging compounds in it.[10][11] A 2023 paper in Nutrients examined anti-adipogenic activity of the plant and its secondary metabolites in cell work.[12]",
+    "Reviews of adaptogens list Rhaponticum carthamoides alongside ginseng, Eleutherococcus, Rhodiola and Schisandra and describe stress-protective mechanisms mostly in cell and animal models.[4][13]"
+   ]
+  },
+  {
+   "h": "Ecdysterone in sport",
+   "paras": [
+    "Ecdysterone and the related turkesterone occur in Rhaponticum carthamoides, spinach, quinoa and Ajuga turkestanica, and a 2024 review in Nutrients discusses their possible advantages for general health and athletic performance as well as proposed uses in fatigue and cardiovascular and neurodegenerative conditions.[6]",
+    "Wikipedia's article on 20-hydroxyecdysone describes a 2019 Archives of Toxicology study by Isenmann and colleagues, funded by the World Anti-Doping Agency, in which participants dosed with ecdysterone showed significantly greater gains in muscle mass and bench press strength; the article does not give the sample size or design. It also cites a 2006 study by Wilborn and colleagues in which 30 mg a day orally did not significantly affect body composition or training adaptations in resistance-trained men, and earlier mostly Russian-language reports from 1986 to 1998 that claimed anabolic effects.[5] These studies concern the isolated compound, not maral root extract, whose ecdysteroid content varies by product."
+   ]
+  },
+  {
+   "h": "Safety",
+   "paras": [
+    "The Phytochemistry review includes a discussion of the plant's toxicity.[2] A laboratory paper reported that a transformed-root extract reduced the viability of human glioma cells in culture, a cell finding without clinical meaning for supplement users.[14] Wikipedia describes 20-hydroxyecdysone as appearing to have little or no effect on non-transgenic animals at usual doses while not being totally inert, and lists its pregnancy category as unknown.[5]"
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "Maral root is sold as a dietary supplement, typically as root powder or extract, sometimes in blends with other ecdysteroid sources. In the US the isolated compound is listed as over-the-counter and described as not generally regulated.[5] Supplement sellers market it for strength and recovery, usually by reference to its 20-hydroxyecdysone content; the research cited above does not include a trial of the marketed products."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found for maral root in muscle growth, recovery or appearance. Human trials exist for ecdysten, a drug based on ecdysterone isolated from Rhaponticum carthamoides, in giardiasis: a 10-day course produced clinical and parasitological recovery in 22 of 32 patients with persistent giardiasis (68.7 percent) in a 2002 report, and a later controlled trial compared it with metronidazole.[7][15] Other related research is limited to laboratory and animal work on the plant and its constituents, and to trials of a different plant, Rheum rhaponticum (rhubarb extract ERr 731), which has a confusingly similar name and was tested in menopausal women.[8]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1960s",
+   "event": "Research into plant adaptogens begins.[4]"
+  },
+  {
+   "year": "1985",
+   "event": "USSR issues a postage stamp depicting the plant in a medicinal plants of Siberia series.[1]"
+  },
+  {
+   "year": "2006",
+   "event": "Wilborn and colleagues report no significant effect of 30 mg/day oral ecdysterone in resistance-trained men.[5]"
+  },
+  {
+   "year": "2009",
+   "event": "Phytochemistry review of 117 sources catalogues the plant's chemistry and pharmacology.[2]"
+  },
+  {
+   "year": "2019",
+   "event": "WADA-funded Isenmann study of ecdysterone in resistance training published in Archives of Toxicology.[5]"
+  }
+ ],
+ "lore": {
+  "intro": "Maral root is mentioned in supplement and muscle-building contexts as a plant ecdysteroid source and adaptogen.[2][4]",
+  "claims": [
+   {
+    "claim": "Maral root's ecdysteroids build muscle and aid recovery",
+    "believers": "Supplement marketers cite its high 20-hydroxyecdysone content as the basis for anabolic and recovery effects.[1][6]",
+    "experts": "The literature on the plant itself is chemical and pharmacological with no muscle trial; for isolated ecdysterone, a 2019 WADA-funded study reported greater muscle and bench-press gains while a 2006 study found no significant effect.[2][5]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "It works as an adaptogen",
+    "believers": "Traditional Siberian use and adaptogen lists include it as a stress-protective herb used by athletes since about the 1970s.[4]",
+    "experts": "Adaptogen reviews note evidence mainly from cell and animal models and that human clinical trials are limited.[4][13]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "It is a legal plant alternative to anabolic compounds",
+    "believers": "Sellers position ecdysteroids as plant-derived and sold as supplements.[5][6]",
+    "experts": "Ecdysterone is not an androgen receptor ligand; its proposed route is via estrogen receptor beta and it is described as not generally regulated, and its studies are small.[5]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Rhaponticum carthamoides",
+   "url": "https://en.wikipedia.org/wiki/Rhaponticum_carthamoides",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Chemistry and pharmacology of Rhaponticum carthamoides: a review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19457517/",
+   "source": "Phytochemistry",
+   "year": 2009,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Chromatographic separation, determination and identification of ecdysteroids: Focus on Maral root (Rhaponticum carthamoides, Leuzea carthamoides)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30303602/",
+   "source": "Journal of separation science",
+   "year": 2018,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Plant Adaptogens-History and Future Perspectives",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34445021/",
+   "source": "Nutrients",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "20-Hydroxyecdysone (ecdysterone)",
+   "url": "https://en.wikipedia.org/wiki/Ecdysterone",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 6,
+   "title": "Ecdysterone and Turkesterone-Compounds with Prominent Potential in Sport and Healthy Nutrition",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38732627/",
+   "source": "Nutrients",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 7,
+   "title": "[Ecdysten in the treatment of giardiasis]",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12224262/",
+   "source": "Meditsinskaia parazitologiia i parazitarnye bolezni",
+   "year": 2002,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "Efficacy and safety of a special extract of Rheum rhaponticum (ERr 731) in perimenopausal women",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16894335/",
+   "source": "Menopause",
+   "year": 2006,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "Medicinal plants from the 14th edition of the Russian Pharmacopoeia, recent updates",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33309919/",
+   "source": "Journal of ethnopharmacology",
+   "year": 2021,
+   "type": "review"
+  },
+  {
+   "id": 10,
+   "title": "Screening of some Siberian medicinal plants for antimicrobial activity",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12169406/",
+   "source": "Journal of Ethnopharmacology",
+   "year": 2002,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "Identification of radical scavenging compounds in Rhaponticum carthamoides by means of LC-DAD-SPE-NMR",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15730237/",
+   "source": "Journal of Natural Products",
+   "year": 2005,
+   "type": "study"
+  },
+  {
+   "id": 12,
+   "title": "Anti-Adipogenic Activity of Rhaponticum carthamoides and Its Secondary Metabolites",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37447387/",
+   "source": "Nutrients",
+   "year": 2023,
+   "type": "study"
+  },
+  {
+   "id": 13,
+   "title": "Novel molecular mechanisms for the adaptogenic effects of herbal extracts on isolated brain cells using systems biology",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30466987/",
+   "source": "Phytomedicine",
+   "year": 2018,
+   "type": "study"
+  },
+  {
+   "id": 14,
+   "title": "Rhaponticum carthamoides transformed root extract inhibits human glioma cells viability, induces double strand DNA damage, H2A.X phosphorylation, and PARP1 cleavage",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30171426/",
+   "source": "Cytotechnology",
+   "year": 2018,
+   "type": "study"
+  },
+  {
+   "id": 15,
+   "title": "[The efficacy of ecdystene versus metronidazole in the treatment of lambliasis]",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20614521/",
+   "source": "Meditsinskaia parazitologiia i parazitarnye bolezni",
+   "year": 2010,
+   "type": "trial"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Rhaponticum_carthamoides",
+   "title": "Rhaponticum carthamoides - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Ecdysterone",
+   "title": "20-Hydroxyecdysone - Wikipedia"
+  }
+ ],
+ "card": {
+  "summary": "A Siberian herb rich in ecdysteroids that is sold as a muscle and adaptogen supplement; no human trial backs the muscle claims.",
+  "aka": "Maral root, Leuzea",
+  "evidence": "unproven",
+  "status": "otc",
+  "outcome": null,
+  "risk": null,
+  "price": null,
+  "note": "Not the same as Rheum rhaponticum (rhubarb extract).",
+  "structure": "Ecdysterone"
+ },
+ "quick": {
+  "overview": "Maral root is a Siberian alpine herb whose roots contain large amounts of 20-hydroxyecdysone, an insect molting hormone. Supplement sellers promote it for strength, recovery and stress resistance.\nThe published literature is mainly chemistry and lab work; no human trial of it for muscle or appearance exists.",
+  "mechanism": "The claimed mechanism rests on its ecdysteroid content. Reviews describe antioxidant and other activities in laboratory settings; effects in people have not been established.",
+  "risks": "Safety data in humans are lacking. It is sold as a supplement, and products can be confused with Rheum rhaponticum, a different plant."
+ },
+ "angle": {
+  "goal": "Muscle mass / recovery",
+  "chain": [
+   "Root extract supplies 20-hydroxyecdysone and other constituents",
+   "Claimed support for protein synthesis, work capacity and stress resistance",
+   "More or better training and recovery, which supports muscle gain"
+  ],
+  "effect": "claimed",
+  "text": "Maral root is taken by lifters as a plant ecdysteroid source and adaptogen, with the aim of supporting training output and recovery so that more muscle can be built over time. The plant's own effects on muscle in humans have not been tested in a published trial."
+ }
 }

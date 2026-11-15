@@ -1,7 +1,7 @@
 {
  "name": "Prostanozol",
  "lead": [
-  "Prostanozol, also called demethylstanozolol tetrahydropyran ether, is a designer anabolic-androgenic steroid that acts as a prodrug of the 17α-demethylated analogue of stanozolol (Winstrol) [1]. It is taken by mouth [1].",
+  "Prostanozol, also called demethylstanozolol tetrahydropyran ether, is a designer anabolic-androgenic steroid that acts as a prodrug of the 17-alpha-demethylated analogue of stanozolol (Winstrol) [1]. It is taken by mouth [1]. People sought it for the muscle-building and strength effects associated with anabolic steroids, aiming for a fuller, harder physique, and it circulated in the mid-2000s in over-the-counter bodybuilding supplements.",
   "It was first identified in 2005 as an ingredient in products sold as bodybuilding \"dietary supplements\" [1]. In 2007 Russian marathon runner Lyubov Denisova tested positive for prostanozol and testosterone and received a two-year ban [1]. In 2012 the US Drug Enforcement Administration classified it, along with methasterone, as a Schedule III anabolic steroid [2].",
   "Published work is limited to doping-control metabolism studies and supplement-contamination surveys; there are no clinical trials [3][4]."
  ],
@@ -29,13 +29,31 @@
   [
    "Sport status",
    "WADA prohibited [1]"
+  ],
+  [
+   "CAS number",
+   "1186001-41-1 [1]"
   ]
  ],
  "sections": [
   {
-   "h": "History and society",
+   "h": "History",
    "paras": [
-    "Prostanozol appeared in 2005 in supplements marketed to bodybuilders [1]. The 2007 Denisova case is among its best-known doping findings [1]. A 2008 review of nutritional supplements found that many were contaminated with, or faked with, doping substances, illustrating the wider context in which such products circulated [3]. Wikipedia describes it as one of the substances banned by the International Olympic Committee and as prohibited by WADA [1]."
+    "Prostanozol was identified in 2005 in products marketed to bodybuilders as dietary supplements [1]. It belongs to the family of designer steroids: compounds created to give anabolic effects while avoiding the scheduling and testing that applied to established steroids. The International Olympic Committee banned steroids in 1976, and the creation of the World Anti-Doping Agency in 1999 and stronger testing pushed chemists toward new compounds, such as tetrahydrogestrinone [5].",
+    "A 2008 review of nutritional supplements reported that an international study of 634 supplements from 13 countries in 2001 and 2002 found about 15 percent of non-hormonal products contaminated with anabolic-androgenic steroids, mainly prohormones, and that from 2002 some products were intentionally spiked with classic steroids [3]. Prostanozol appeared in this environment, where labels often did not describe the ingredients accurately [3]."
+   ]
+  },
+  {
+   "h": "Society and culture",
+   "paras": [
+    "In 2007 Russian marathon runner Lyubov Denisova tested positive for prostanozol and testosterone and was banned for two years; USA Today reported the ban on 15 May 2007 [1]. The substance is prohibited by the World Anti-Doping Agency and banned by the International Olympic Committee [1]. A UK-law thread on T Nation in 2008 listed prostanozol among newly banned substances, and a thread on testing at so-called natural physique contests quotes a prohibited list naming prostanozol [7][8].",
+    "In 2012 the DEA classified prostanozol and methasterone as Schedule III anabolic steroids under the Controlled Substances Act, bringing the substance, its salts, esters and ethers under that control framework [2]."
+   ]
+  },
+  {
+   "h": "Use in bodybuilding communities",
+   "paras": [
+    "Mid-2000s T Nation threads on supplement-style steroids discuss prostanozol alongside other products of the era. One 2005 poster described it as an un-methylated version of Winstrol and said this made it much less effective than the original [6]. A 2018 poster speculated it might be one of the safer oral steroids because it lacks the 17-alpha methyl group, a feature associated with oral steroid liver stress [9]. These are forum opinions, and no clinical study of prostanozol potency or safety in humans has been published."
    ]
   },
   {
@@ -53,11 +71,15 @@
   {
    "h": "Clinical studies",
    "paras": [
-    "No studies found in humans. Related research consists of metabolism work in mice and liver microsomes [4] and surveys of supplement contamination [3]."
+    "No studies found in humans. Related research consists of a 2016 metabolism study in humanised chimeric mice and human liver microsomes, which detected twenty-four prostanozol metabolites in two broad classes [4], and surveys of supplement contamination with doping substances [3]."
    ]
   }
  ],
  "timeline": [
+  {
+   "year": "1976",
+   "event": "IOC bans steroids; designer compounds later appear to evade testing [5]."
+  },
   {
    "year": "2005",
    "event": "Identified as an ingredient in bodybuilding supplements [1]."
@@ -71,7 +93,29 @@
    "event": "DEA classifies prostanozol as a Schedule III anabolic steroid [2]."
   }
  ],
- "lore": null,
+ "lore": {
+  "intro": "Prostanozol is mentioned in bodybuilding forums mainly as a mid-2000s supplement-era product and in anti-doping lists [6][8].",
+  "claims": [
+   {
+    "claim": "Prostanozol is a weaker, 'unmethylated' version of Winstrol",
+    "believers": "A 2005 forum poster described it as an un-methylated version of Winstrol and said this made it much less effective than the original [6].",
+    "experts": "Wikipedia describes it as a prodrug of 17-alpha-demethylated stanozolol [1]; no published study compares its potency with stanozolol.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Without a 17-alpha methyl group it could be a gentler option for the liver",
+    "believers": "One poster argued prostanozolol might end up as one of the safer oral steroids if his hypothesis was right [9].",
+    "experts": "No clinical studies exist; metabolism work found 24 metabolites in mice and liver microsomes and did not assess safety in people [4].",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Supplement-sold steroids are a legal loophole",
+    "believers": "Supplement-style steroid products of the mid-2000s were sold over the counter, and forum discussion of them reflects that framing [6].",
+    "experts": "The DEA classified prostanozol as a Schedule III anabolic steroid in 2012, and WADA lists it as prohibited [1][2].",
+    "evidence": "harms"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -104,12 +148,56 @@
    "source": "Steroids",
    "year": 2016,
    "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Designer steroid",
+   "url": "https://en.wikipedia.org/wiki/Designer_steroid",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 6,
+   "title": "Anyone Tried Superdrol Yet?",
+   "url": "https://t-nation.com/t/anyone-tried-superdrol-yet/48853",
+   "source": "T Nation forum",
+   "year": 2005,
+   "type": "forum"
+  },
+  {
+   "id": 7,
+   "title": "UK Laws",
+   "url": "https://t-nation.com/t/uk-laws/111988",
+   "source": "T Nation forum",
+   "year": 2008,
+   "type": "forum"
+  },
+  {
+   "id": 8,
+   "title": "A Question About Alleged Natural Contests",
+   "url": "https://t-nation.com/t/a-question-about-alleged-natural-contests/264398",
+   "source": "T Nation forum",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 9,
+   "title": "Testosterone + Nandrolone + Drostanolone is a Good Lean-Bulk Stack",
+   "url": "https://t-nation.com/t/testosterone-nandrolone-drostanolone-is-a-good-lean-bulk-stack/249117",
+   "source": "T Nation forum",
+   "year": 2018,
+   "type": "forum"
   }
  ],
  "webSources": [
   {
    "url": "https://en.wikipedia.org/wiki/Prostanozol",
    "title": "Prostanozol - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Designer_steroid",
+   "title": "Designer steroid - Wikipedia"
   }
  ],
  "card": {
@@ -126,5 +214,15 @@
   "overview": "Prostanozol is a designer steroid that was sold in bodybuilding supplements from around 2005. It is chemically a prodrug of a stanozolol-like compound.\n\nIt has no clinical trials behind it; what is published concerns doping detection and legal classification.",
   "mechanism": "It is described as being converted in the body to a stanozolol analogue lacking the 17α-methyl group and acting as an androgen receptor agonist.",
   "risks": "Human safety has not been studied. It is a US Schedule III substance and prohibited in sport, and a 2007 marathon runner was banned after testing positive."
+ },
+ "angle": {
+  "goal": "Muscle mass and leanness",
+  "chain": [
+   "Oral prodrug converted to a stanozolol-like androgen",
+   "Androgen-receptor activity associated with anabolic steroids",
+   "Claimed gains in lean mass and hardness of physique"
+  ],
+  "effect": "claimed",
+  "text": "Bodybuilders discussed prostanozol as an oral, non-methylated relative of stanozolol sold in supplement form in the mid-2000s, hoping for lean mass and a harder look. It has been a US Schedule III substance since 2012 and no clinical data exist."
  }
 }
