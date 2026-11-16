@@ -1,0 +1,78 @@
+{
+  "name": "Fukushin",
+  "card": {
+    "summary": "The Japanese Kampo method of abdominal palpation, used by practitioners to read a patient's overall condition and choose a herbal formula.",
+    "aka": "Abdominal diagnosis, abdominal palpation (Kampo)",
+    "evidence": "limited",
+    "risk": "low",
+    "note": "A diagnostic method, not a treatment on its own; its connection to appearance is through the Kampo formulas it guides.",
+    "outcome": null,
+    "price": null
+  },
+  "quick": {
+    "overview": "Fukushin is the Japanese tradition of pressing and feeling the abdomen to assess a patient's state in Kampo, Japan's adaptation of Chinese medicine. Practitioners use what they feel, such as tension, resistance or tenderness in different areas, to pick a suitable herbal formula. For readers interested in appearance, the link is indirect: people seek Kampo for general health, digestion or skin and body complaints, and fukushin is the step that decides which formula is chosen.\n\nHistorical texts illustrate the technique, and researchers have built a training simulator to teach standard abdominal patterns. Studies of fukushin as a stand-alone method for improving looks do not exist.",
+    "how": "A practitioner has the patient lie down and presses and palpates regions of the abdomen, noting resistance, tension, tenderness or fullness, then combines that with other findings (the 'sho' pattern) to select a Kampo formula. Training uses atlases and, more recently, a simulator.",
+    "risks": "Palpation itself is gentle and non-invasive. Practitioners emphasise matching formulas to the individual patient, and in Japan only licensed physicians can prescribe Kampo extracts under national insurance; herbal formulas themselves carry their own considerations."
+  },
+  "lead": [
+    "Fukushin, or abdominal diagnosis, is a diagnostic technique in Kampo medicine, in which a practitioner applies pressure to a patient's abdomen to gather information about their physical state and to help choose a Kampo formula [1]. Wikipedia credits fukushin with distinguishing Japanese practice from Chinese medicine [2].",
+    "Its place on this wiki is as part of Kampo, which some people turn to for general health and, in some cases, skin and body concerns; fukushin affects appearance only through the formula chosen. Kampo itself descends from Chinese medicine introduced to Japan around the 6th century, and the Edo-period schools developed abdominal palpation further [2].",
+    "Research on fukushin consists of historical analysis of texts and teaching tools rather than outcome trials."
+  ],
+  "angle": {
+    "goal": "Skin and body health via Kampo",
+    "chain": ["Practitioner palpates the abdomen", "Findings guide choice of a Kampo formula", "Formula is taken for the patient's complaint, which may include skin or digestive concerns"],
+    "effect": "claimed",
+    "text": "Fukushin does not change appearance by itself. Practitioners use it to match a herbal formula to the person, and any effect on looks would come from that formula."
+  },
+  "infobox": [
+    ["Type", "Traditional diagnostic palpation"],
+    ["Tradition", "Kampo (Japanese traditional medicine)"],
+    ["Meaning", "Abdominal diagnosis"],
+    ["Key historical schools", "Gosei-ha and Kohō-ha (Edo period)"],
+    ["Teaching tools", "Historical atlases; Fukushin simulator with 13 standard patterns"]
+  ],
+  "sections": [
+    {
+      "h": "Description",
+      "paras": [
+        "In Kampo, diagnosis ends in a summary called sho, a pattern built from concepts such as yin and yang, kyo and jitsu (deficiency and excess) and hot and cold; a formula is selected to fit that pattern [3]. Fukushin supplies part of that picture: by pressing on the abdomen, the practitioner gains information on the patient's state and picks a suitable formula [4]."
+      ]
+    },
+    {
+      "h": "History",
+      "paras": [
+        "Kampo grew from Chinese medicine imported in the 6th century. In the Edo period two schools emerged: Gosei-ha and the Classic Methods school, Kohō-ha, which centred on the Shanghan Lun; Yoshimasu Tōdō is described as the most influential figure [2]. Two Japanese books on abdominal palpation, Fukusho-kiran and its supplement, contain 148 images covering locations, theory, technique, diseases and medicines [5]. After the Meiji Restoration policy favoured Western medicine and traditional practitioners lost licences in 1883, with Kampo revived in the 20th century and many extract formulas added to national health insurance from 1967 [2]."
+      ]
+    },
+    {
+      "h": "Teaching and research",
+      "paras": [
+        "A 2022 paper in Frontiers in Pharmacology describes a Fukushin simulator, a teaching device that reproduces common abdominal patterns, and reports the development of 13 new standard abdominal pattern models [4]. A 1992 Japanese clinical review illustrates how Kampo prescriptions are adjusted to each patient's sho in irritable bowel syndrome [3]."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found. Published work is limited to historical analysis, teaching-tool development and descriptions of Kampo prescribing [3][4][5]."
+      ]
+    }
+  ],
+  "timeline": [
+    {"year": "6th century", "event": "Chinese medicine introduced to Japan, forming the root of Kampo [2]."},
+    {"year": "1883", "event": "Traditional practitioners lose their licences after the Meiji Restoration [2]."},
+    {"year": "1967", "event": "Four Kampo formulas reimbursed under National Health Insurance, rising to 82 by 1976 [2]."},
+    {"year": "2022", "event": "Fukushin simulator paper reports 13 new standard abdominal pattern models [4]."}
+  ],
+  "lore": null,
+  "refs": [
+    {"id": 1, "title": "Kampo Formula-Pattern Models: The Development of 13 New Clinically Useful Standard Abdominal Pattern Models in the Fukushin Simulator", "url": "https://pubmed.ncbi.nlm.nih.gov/35571074/", "source": "Frontiers in Pharmacology", "year": 2022, "type": "study"},
+    {"id": 2, "title": "Kampo (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Kampo", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"},
+    {"id": 3, "title": "Therapy by Japanese Oriental medicine (kampo) in irritable bowel syndrome", "url": "https://pubmed.ncbi.nlm.nih.gov/1287249/", "source": "Nihon Rinsho", "year": 1992, "type": "review"},
+    {"id": 4, "title": "Kampo Formula-Pattern Models (Fukushin simulator)", "url": "https://pubmed.ncbi.nlm.nih.gov/35571074/", "source": "Frontiers in Pharmacology", "year": 2022, "type": "study"},
+    {"id": 5, "title": "Analysis of images in Japanese book Fukusho-Kiran and Fukusho-Kiran yoku", "url": "https://pubmed.ncbi.nlm.nih.gov/25579218/", "source": "Zhonghua Yi Shi Za Zhi", "year": 2014, "type": "study"}
+  ],
+  "webSources": [
+    {"url": "https://en.wikipedia.org/wiki/Kampo", "title": "Kampo (Wikipedia)"}
+  ]
+}

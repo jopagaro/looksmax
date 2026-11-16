@@ -1,0 +1,50 @@
+{
+  "name": "FaceApp",
+  "card": {
+    "summary": "A smartphone photo editor that uses neural networks to preview a face with a smile, different age, hairstyle or makeup, which looksmaxxers use to visualise possible changes and to polish photos.",
+    "aka": "faceapp",
+    "evidence": "limited",
+    "risk": "low",
+    "note": "Edited photos are previews, not predictions; the app has faced privacy and bias controversies.",
+    "price": null
+  },
+  "quick": {
+    "overview": "FaceApp is a photo and video editing app for iOS and Android that uses neural networks to alter a face: adding a smile, making it look older or younger, changing gender, or trying makeup, hairstyles, beards and glasses. It launched in early 2017 from the Russian company Wireless Lab.\n\nIn looksmaxxing circles it serves two purposes: previewing how a different hairstyle, beard or expression might look before committing, and improving profile photos. Forum threads also discuss how obvious an edited photo is and whether it is fair to use on dating profiles.",
+    "how": "Users upload a selfie, apply filters or tools, and compare before and after. Some people use it to test haircuts or facial hair; others use it to touch up pictures for social media or dating apps. Results depend on the photo, and the changes are cosmetic edits to an image rather than to the person.",
+    "risks": "The main concerns are privacy and bias. In 2019 critics questioned how uploaded photos were stored and a US senator called for an FBI review; the developer said images were processed on cloud servers and deleted after temporary storage. In 2017 a 'hot' filter was criticised for lightening skin and was removed. Edited photos can also set expectations that real life does not match."
+  },
+  "lead": [
+    "FaceApp is a photo and video editing app developed by FaceApp Technology Limited, based in Cyprus, and created by the Russian company Wireless Lab; its developer Yaroslav Goncharov is a former Yandex executive [3]. It reached iOS in January 2017 and Android in February 2017 [3].",
+    "The app uses neural networks to change faces: smile, younger or older, gender swap, makeup, hair colour, hairstyles, beards, glasses and other filters [3]. In looksmaxxing communities it is used to preview how a change in hair or expression might look and to improve photos for profiles; looksmax.org threads include discussions of whether edited pictures are obvious [4][5].",
+    "FaceApp itself is not a clinical tool. Separately, a different product, Bellus3D FaceApp, is a 3D face-scanning application used in published dental and craniofacial studies [1][2]."
+  ],
+  "angle": {
+    "goal": "Style / photos",
+    "chain": ["Upload a selfie", "Preview a smile, hairstyle, beard or other edit", "Choose changes to try or a better-looking photo"],
+    "effect": "claimed",
+    "text": "People use FaceApp to see how a haircut, beard or expression might look before trying it and to touch up photos. The change is to the image, which can inform real styling choices."
+  },
+  "infobox": [["Type", "Photo / video editing app"], ["Developer", "Wireless Lab / FaceApp Technology Limited"], ["Launched", "iOS January 2017; Android February 2017"], ["Platforms", "iOS, Android"], ["Founder", "Yaroslav Goncharov"]],
+  "sections": [
+    {"h": "Features", "paras": ["The app's neural-network edits include smile, age, gender change, makeup, hair colour and styles, glasses, beards, filters, background and lens blur [3]."]},
+    {"h": "Controversies", "paras": ["In April 2017 a 'hot' filter drew criticism for lightening skin tones; it was renamed and then removed, and Goncharov attributed it to training-data bias and apologised [3]. In August 2017 filters labelled by ethnicity were withdrawn after backlash [3].", "In July 2019, when the age filter went viral, critics raised concerns that photos were stored on servers and could be used commercially. Goncharov said images were processed on Google Cloud and Amazon Web Services, not transferred to Russia, and deleted after temporary storage; on 18 July 2019 Senator Chuck Schumer called for an FBI investigation [3]."]},
+    {"h": "Use in looksmaxxing", "paras": ["Looksmax.org threads include rating FaceApp edits, asking whether an edit is obvious, noting its popularity trend, and asking whether edited photos are used on dating profiles [4][5]. Some members treat it as a way to visualise changes; others discuss it as a shortcut in photo presentation."]},
+    {"h": "Clinical studies", "paras": ["No studies found on the consumer FaceApp. Studies exist on Bellus3D FaceApp, a separate 3D scanning app: one validation study in 25 adults compared smartphone scans with caliper measurements and found similar reliability (ICC above 0.8) with small differences in some measurements [2], and a randomised trial in 20 cleft patients used it to measure nasal and lip changes [1]."]}
+  ],
+  "timeline": [
+    {"year": "2017", "event": "FaceApp launches on iOS (January) and Android (February) [3]."},
+    {"year": "2017", "event": "'Hot' filter removed in April and ethnicity filters in August after criticism [3]."},
+    {"year": "2019", "event": "Age filter goes viral; privacy concerns and a senator's FBI request in July [3]."}
+  ],
+  "lore": null,
+  "refs": [
+    {"id": 1, "title": "3-Dimensional Evaluation of Two PNAM Techniques on Facial Soft Tissue Morphology: A Randomised Clinical Trial", "url": "https://pubmed.ncbi.nlm.nih.gov/38644766/", "source": "Cleft Palate-Craniofacial Journal", "year": 2025, "type": "trial"},
+    {"id": 2, "title": "The Validity of a Smartphone-Based Method for Acquiring 3D Images of the Face", "url": "https://pubmed.ncbi.nlm.nih.gov/39518501/", "source": "Journal of Clinical Medicine", "year": 2024, "type": "study"},
+    {"id": 3, "title": "FaceApp", "url": "https://en.wikipedia.org/wiki/FaceApp", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"},
+    {"id": 4, "title": "is this faceapp obvious", "url": "https://looksmax.org/threads/is-this-faceapp-obvious.541134/", "source": "looksmax.org", "year": 2024, "type": "forum"},
+    {"id": 5, "title": "Google Trends & Statista Shows FaceApp is EXPLODING", "url": "https://looksmax.org/threads/google-trends-statista-shows-faceapp-is-exploding.604681/", "source": "looksmax.org", "year": 2025, "type": "forum"}
+  ],
+  "webSources": [
+    {"url": "https://en.wikipedia.org/wiki/FaceApp", "title": "FaceApp - Wikipedia"}
+  ]
+}

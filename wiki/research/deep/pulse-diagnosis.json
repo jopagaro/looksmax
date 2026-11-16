@@ -1,0 +1,75 @@
+{
+  "name": "Pulse diagnosis",
+  "card": {
+    "summary": "Reading the wrist pulse to assess constitution and organ balance in traditional medicine, which some practitioners use to guide skin, diet and body-composition advice.",
+    "aka": "pulse reading, nadi pariksha, mai zhen",
+    "evidence": "limited",
+    "risk": "low",
+    "note": "Reliability between practitioners has been questioned in reviews; it is a diagnostic method, not a treatment.",
+    "status": null,
+    "outcome": null,
+    "price": null,
+    "structure": null
+  },
+  "quick": {
+    "overview": "Pulse diagnosis is a technique used in traditional Chinese medicine, Ayurveda, Unani, Tibetan and related systems. A practitioner feels the radial pulse at the wrist, noting position, depth, speed and quality, and interprets it as a sign of the body's internal balance.\n\nIts link to appearance is indirect: practitioners use the reading to choose diet, herbs or acupuncture aimed at things such as skin condition, digestion or weight. Researchers are building sensor-based versions to make the readings more objective.",
+    "how": "In Chinese practice the radial artery is assessed at three positions on each wrist at three depths, with each position tied to organs. In Ayurveda three fingers are placed on the wrist, each linked to a dosha (Vata, Pitta, Kapha). Sessions are done by a trained practitioner, often as part of a larger consultation.",
+    "risks": "The reading itself is non-invasive. Reviews have raised concern about differences between practitioners' readings, and any treatment chosen from it carries its own risks."
+  },
+  "lead": [
+    "Pulse diagnosis is a method of assessing health by palpating the wrist pulse. It is used in traditional Chinese medicine, Ayurveda, Siddha, Tibetan, Mongolian and Unani medicine, and it was also described in medieval Islamic medicine, including the Canon of Medicine (1025) [1].",
+    "For people interested in how they look, pulse diagnosis enters through the wider systems that use it. Practitioners say a reading shows imbalances in organs or doshas, and then recommend diet, herbs, acupuncture or lifestyle changes aimed at conditions they associate with those imbalances, including skin and digestive complaints [1][4].",
+    "Researchers have studied it mostly as a measurement problem. Reviews describe a reliance on practitioner judgement that can make results inconsistent, and engineers have proposed computational pulse diagnosis using sensors and algorithms [2][3]."
+  ],
+  "angle": {
+    "goal": "Skin and body balance",
+    "chain": ["Practitioner reads the wrist pulse", "Interprets organ or dosha imbalance", "Recommends diet, herbs or acupuncture aimed at skin or body condition"],
+    "effect": "claimed",
+    "text": "Practitioners use the reading as a basis for individualised advice in their tradition. Any appearance benefit would come from the treatments chosen, not from the reading itself."
+  },
+  "infobox": [
+    ["Type", "Diagnostic palpation technique"],
+    ["Traditions", "TCM, Ayurveda, Siddha, Tibetan, Mongolian, Unani"],
+    ["Site", "Radial artery at the wrist"],
+    ["Classical reference", "Canon of Medicine (1025)"],
+    ["Modern research", "Computational pulse diagnosis"]
+  ],
+  "sections": [
+    {
+      "h": "Description",
+      "paras": [
+        "In traditional Chinese medicine the radial artery on each wrist is divided into three positions called cun, guan and chi, each linked to organs or body regions and each examined at superficial, middle and deep levels. Wikipedia reports that 29 pulse types are described in classical and modern texts, and that organ assignments differ between texts [1].",
+        "In Ayurveda the practitioner places three fingers on the wrist, each associated with a dosha (Vata, Pitta or Kapha), and checks the pulse at three depths. Advocates say this reveals dosha imbalance and the balance of prana, tejas and ojas [1]. Pulse examination is one of eight classical diagnostic examinations in Ayurveda, along with urine, stool, tongue, voice, eyes, skin and overall appearance [4]."
+      ]
+    },
+    {
+      "h": "Research and expert views",
+      "paras": [
+        "A 2009 review of the reliability of traditional East Asian medicine diagnoses examined how consistently practitioners reach the same diagnosis [5]. A 2022 review notes that pulse diagnosis requires considerable training and relies on subjective analysis, so different physicians' results may not agree, which motivates sensor-based computational methods [2]. A 2024 systematic review covers harmonic analysis of pulse waves as a quantitative approach [3].",
+        "Wikipedia states that critics describe the Chinese practice as not based on established physiological mechanisms, while practitioners regard it as a core diagnostic skill that remains in clinical use in China [1]."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "Studies to date mainly concern measurement and reproducibility of pulse readings, and the use of sensors and machine learning to classify pulse signals [2][3]. No studies found on pulse diagnosis improving appearance outcomes."
+      ]
+    }
+  ],
+  "timeline": [
+    { "year": "1025", "event": "The Canon of Medicine includes instructions for reading the pulse [1]." },
+    { "year": "2009", "event": "Review of the reliability of East Asian medicine diagnoses published [5]." },
+    { "year": "2022", "event": "Review of wrist pulse signal acquisition and analysis for computational diagnosis [2]." }
+  ],
+  "lore": null,
+  "refs": [
+    { "id": 1, "title": "Pulse diagnosis", "url": "https://en.wikipedia.org/wiki/Pulse_diagnosis", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
+    { "id": 2, "title": "Wrist pulse signal acquisition and analysis for disease diagnosis: A review.", "url": "https://pubmed.ncbi.nlm.nih.gov/35203039/", "source": "Computers in biology and medicine", "year": 2022, "type": "review" },
+    { "id": 3, "title": "Peripheral pulse harmonic analysis and its clinical application: A systematic review.", "url": "https://pubmed.ncbi.nlm.nih.gov/38481553/", "source": "Journal of traditional and complementary medicine", "year": 2024, "type": "review" },
+    { "id": 4, "title": "Healthcare and disease management in Ayurveda.", "url": "https://pubmed.ncbi.nlm.nih.gov/11253416/", "source": "Alternative therapies in health and medicine", "year": 2001, "type": "review" },
+    { "id": 5, "title": "A review of the reliability of traditional East Asian medicine diagnoses.", "url": "https://pubmed.ncbi.nlm.nih.gov/19388857/", "source": "Journal of alternative and complementary medicine", "year": 2009, "type": "review" }
+  ],
+  "webSources": [
+    { "url": "https://en.wikipedia.org/wiki/Pulse_diagnosis", "title": "Pulse diagnosis - Wikipedia" }
+  ]
+}

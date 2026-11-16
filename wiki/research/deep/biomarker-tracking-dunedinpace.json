@@ -1,0 +1,79 @@
+{
+  "name": "Biomarker tracking (DunedinPACE)",
+  "card": {
+    "summary": "Tracking aging scores such as DunedinPACE and blood markers over time to see whether diet, training and sleep habits are slowing biological aging, which people link to looking younger.",
+    "aka": null,
+    "evidence": "moderate",
+    "status": null,
+    "outcome": null,
+    "risk": "low",
+    "price": null,
+    "note": "Epigenetic clocks are research tools; consumer test results vary and their link to appearance is not established.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "Biomarker tracking means periodically measuring health markers, including DNA-methylation aging scores such as DunedinPACE, and watching how they change. Longevity-minded people use the scores as a feedback loop for lifestyle choices they connect to looking and feeling younger.\n\nDunedinPACE is described in an eLife paper as a DNA methylation biomarker of the pace of aging, meaning it estimates how fast a person is aging rather than their age. Randomized trials have begun to test whether interventions such as omega-3, exercise or calorie restriction shift such clocks.",
+    "how": "Users order a blood or saliva-based epigenetic test, record the result, and repeat after a period of changed habits, sometimes sharing their numbers publicly in biomarker-tracking communities. They typically pair it with routine blood panels.",
+    "risks": "The scores are probabilistic research measures. Epigenetic clocks are noted to reflect an emergent property of the epigenome rather than a proven cause of aging, and lifestyle factors show only weak associations with age acceleration in blood. Results can fluctuate between tests, and public sharing of health data has privacy implications."
+  },
+  "lead": [
+    "Biomarker tracking, in the longevity corner of looksmaxxing culture, is the practice of repeatedly measuring aging scores and health markers and publishing or comparing them. DunedinPACE is the best-known example of a pace-of-aging score; it is a DNA methylation biomarker described in the journal eLife in 2022 [1].",
+    "Epigenetic clocks estimate biological age from age-related changes in DNA methylation. The first multi-tissue clock was published by Steve Horvath in 2013, and later clocks such as PhenoAge and GrimAge add phenotypic and mortality information [2]. Age acceleration, the gap between estimated and chronological age, suggests faster or slower aging than expected [2].",
+    "The link to looks is by the chain people describe: habits like training, sleep and nutrition that slow aging scores are also habits associated with skin quality and physique. Studies have not established a direct relationship between a clock score and appearance."
+  ],
+  "angle": {
+    "goal": "Looking younger",
+    "chain": ["Measure aging score and blood markers", "Adjust diet, training, sleep", "Re-test to see change", "Habits that may support a younger-looking appearance"],
+    "effect": "claimed",
+    "text": "Tracking gives numbers to a goal of aging more slowly, which people associate with a younger look. The score itself does not change appearance; it is used as feedback on habits."
+  },
+  "infobox": [
+    ["Type", "Aging-score and biomarker monitoring"],
+    ["Key measure", "DunedinPACE (pace of aging) [1]"],
+    ["Basis", "DNA methylation"],
+    ["Related clocks", "Horvath, PhenoAge, GrimAge [2]"]
+  ],
+  "sections": [
+    {
+      "h": "Description",
+      "paras": [
+        "An epigenetic clock is a biomarker of aging estimating biological age from DNA methylation at CpG sites [2]. Horvath's 2013 clock used 353 CpG sites across tissues [2]. DunedinPACE differs in being framed as a measure of the pace of aging rather than an age estimate [1]."
+      ]
+    },
+    {
+      "h": "Research associations",
+      "paras": [
+        "Studies have linked DunedinPACE-style pace-of-aging measures to health outcomes: a Neurology study examined association of blood-based pace of aging with cognitive impairment and dementia [3], and a PNAS study in a representative sample of older Americans examined associations of epigenetic age acceleration with morbidity and mortality [4]. A twin study examined adolescent lifestyle habits and biological aging [5]."
+      ]
+    },
+    {
+      "h": "Limitations",
+      "paras": [
+        "Overviews note that clock CpGs likely have no causal effect, that clocks may detect treatments changing the future rate of aging but not single-moment effects, that accuracy depends to some extent on the DNA source, and that lifestyle factors have weak associations with age acceleration in blood [2]."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "In the DO-HEALTH randomized trial post hoc analysis of 777 participants over three years, omega-3 alone slowed PhenoAge, GrimAge2 and DunedinPACE, with standardized effects equivalent to roughly 2.9 to 3.8 months, and the researchers described a small protective effect [6]. The CALERIE trial examined long-term calorie restriction on DNA methylation measures of biological aging [7]. No studies found testing whether DunedinPACE changes correspond to changes in facial or physical appearance."
+      ]
+    }
+  ],
+  "timeline": [
+    {"year": "2013", "event": "Horvath publishes the first multi-tissue epigenetic clock [2]."},
+    {"year": "2022", "event": "DunedinPACE described in eLife [1]."}
+  ],
+  "lore": null,
+  "refs": [
+    {"id": 1, "title": "DunedinPACE, a DNA methylation biomarker of the pace of aging", "url": "https://pubmed.ncbi.nlm.nih.gov/35029144/", "source": "eLife", "year": 2022, "type": "study"},
+    {"id": 2, "title": "Epigenetic clock", "url": "https://en.wikipedia.org/wiki/Epigenetic_clock", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"},
+    {"id": 3, "title": "Association of Pace of Aging Measured by Blood-Based DNA Methylation With Age-Related Cognitive Impairment and Dementia", "url": "https://pubmed.ncbi.nlm.nih.gov/35794023/", "source": "Neurology", "year": 2022, "type": "study"},
+    {"id": 4, "title": "Epigenetic-based age acceleration in a representative sample of older Americans", "url": "https://pubmed.ncbi.nlm.nih.gov/36802439/", "source": "PNAS", "year": 2023, "type": "study"},
+    {"id": 5, "title": "The role of adolescent lifestyle habits in biological aging: A prospective twin study", "url": "https://pubmed.ncbi.nlm.nih.gov/36345722/", "source": "eLife", "year": 2022, "type": "study"},
+    {"id": 6, "title": "Individual and additive effects of vitamin D, omega-3 and exercise on DNA methylation clocks (DO-HEALTH)", "url": "https://pubmed.ncbi.nlm.nih.gov/39900648/", "source": "Nature Aging", "year": 2025, "type": "trial"},
+    {"id": 7, "title": "Effect of long-term caloric restriction on DNA methylation measures of biological aging (CALERIE)", "url": "https://pubmed.ncbi.nlm.nih.gov/37118425/", "source": "Nature Aging", "year": 2023, "type": "trial"}
+  ],
+  "webSources": [
+    {"url": "https://en.wikipedia.org/wiki/Epigenetic_clock", "title": "Epigenetic clock - Wikipedia"}
+  ]
+}

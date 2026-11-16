@@ -12,7 +12,7 @@ const OPINION = /\b(bs|bullshit|scam|scammy|debunk\w*|bunk|nonsense|snake ?oil|q
 const DOOM = /\b(no meaningful (human )?evidence|relevance to appearance is (indirect|unclear|limited)|no (proven|established) (appearance|cosmetic) benefit|evidence (for|of) (its|any) appearance (use|benefit)|merely|there is no reason to|offers? little|of little value|not worth|unproven for (appearance|looks)|evidence level|evidence is weak|little to no evidence)\b/i;
 // Dosing / sourcing instructions (allowed only as reported trial facts, which rarely say "you").
 // Writing-process leakage: readers should never see how the article was researched.
-const META = /(not available to cite|deliberately brief|in the available sources|available sources (give|include|cover|describe|do not)|sources (were|are) (not |un)available|could not be (verified|loaded|fetched)|no (citable|usable) sources|this (entry|article) is (short|brief|limited|deliberately)|so this (entry|article)|the wiki's sources|sources used here|sources reviewed|dominates search results|search results (point|return|for))/i;
+const META = /(not available to cite|deliberately brief|in the available sources|available sources (give|include|cover|describe|do not)|sources (were|are) (not |un)available|could not be (loaded|fetched)|no (citable|usable) sources|this (entry|article) is (short|brief|limited|deliberately)|so this (entry|article)|the wiki's sources|sources used here|sources reviewed|dominates search results|search results (point|return|for))/i;
 const DOSING = /\b(you should (take|inject|dose|run)|inject \d|\d+\s?(mg|mcg|iu)\s+(per|a|every)\s+(day|week)\s+(is|works|for you)|you can buy it (at|from)|order (it|them) from)\b/i;
 
 const issues = [];

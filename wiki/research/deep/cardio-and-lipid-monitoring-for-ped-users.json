@@ -1,0 +1,70 @@
+{
+  "name": "Cardio and lipid monitoring for PED users",
+  "card": {
+    "summary": "Periodic lipid panels and cardiovascular checks used by people on performance-enhancing drugs to keep track of heart-related markers while they pursue a more muscular physique.",
+    "aka": "lipid panel",
+    "evidence": "moderate",
+    "risk": "moderate",
+    "note": "Anabolic steroids are associated with lipid changes, higher blood pressure and heart enlargement; discuss monitoring with a clinician.",
+    "price": null,
+    "structure": null
+  },
+  "quick": {
+    "overview": "People who use performance-enhancing drugs (PEDs) to build muscle often track blood markers such as cholesterol so they can see how their cardiovascular health is responding. A lipid panel is the standard blood test for this, reporting total cholesterol, LDL, HDL and triglycerides.\n\nThe appearance link is indirect: staying healthy lets someone keep training and keep a muscular physique. Anabolic steroids are reported to raise LDL and lower HDL, to raise blood pressure and to thicken the left ventricle, which is why monitoring is a common topic in lifter communities.",
+    "how": "In general terms, users get a blood draw, sometimes fasting though some labs accept non-fasting samples, and compare LDL, HDL and triglycerides over time. Blood pressure is also commonly tracked. This page does not give protocols or schedules.",
+    "risks": "Documented risks of anabolic steroids include dyslipidemia, hypertension, left ventricular hypertrophy, arrhythmia, heart attack and sudden cardiac death. Monitoring does not remove these risks, and it should be interpreted by a clinician."
+  },
+  "lead": [
+    "Cardio and lipid monitoring for PED users refers to tracking heart and blood-fat markers while taking performance- and physique-enhancing drugs. The core tool is the lipid profile, a blood panel that reports total cholesterol, LDL, HDL and triglycerides.[1]",
+    "For people pursuing a muscular look, the monitoring serves as a feedback loop: if cardiovascular markers worsen, it signals a change is needed, and staying healthy keeps training possible. Wikipedia reports that some anabolic steroids increase LDL and decrease HDL, and that elevated blood pressure is the most common dose-dependent effect.[2] Systematic reviews have looked at optimal strategies for monitoring lipids in people at cardiovascular risk generally, though not specifically in PED users.[3]"
+  ],
+  "angle": {
+    "goal": "Muscle",
+    "chain": ["Regular lipid and blood-pressure checks", "Earlier visibility of cardiovascular strain", "Sustained health and ability to keep training"],
+    "effect": "indirect",
+    "text": "Monitoring does not build muscle itself. People on PEDs use it to watch the heart-related side of their regimen so they can keep training and maintain their physique."
+  },
+  "infobox": [
+    ["Type", "Health monitoring practice"],
+    ["Main test", "Lipid panel (total cholesterol, LDL, HDL, triglycerides)"],
+    ["Related checks", "Blood pressure; echocardiography in some cases"],
+    ["Fasting", "Traditionally 9 to 12 hours; some labs accept non-fasting samples"]
+  ],
+  "sections": [
+    {
+      "h": "What is measured",
+      "paras": [
+        "A lipid profile reports total cholesterol, LDL, HDL and triglycerides. LDL is usually calculated from the others with the Friedewald equation, which becomes less accurate when triglycerides exceed 400 mg/dL; other formulas and direct measurement exist.[1] Labs traditionally required 9 to 12 hours of fasting, though studies have questioned whether it is necessary and some labs accept non-fasting samples.[1]",
+        "Total cholesterol alone is described as an unreliable risk indicator because a high total can reflect high HDL; the main concern is high LDL.[1] Lipid panels are used to identify dyslipidemia and to monitor lipid-lowering drugs.[1]"
+      ]
+    },
+    {
+      "h": "Why PED users track them",
+      "paras": [
+        "Wikipedia's overview of anabolic steroids says some steroids increase LDL and decrease HDL, and lists reduced apolipoprotein A1 as part of dyslipidemia.[2] Elevated blood pressure is described as the most common dose-dependent effect, especially in people with pre-existing hypertension.[2] The article also lists left ventricular hypertrophy, arrhythmia, heart failure, heart attack and sudden cardiac death as possible downstream effects, and notes that some heart changes also occur in drug-free athletes and that links between ventricular changes and steroid use have been disputed.[2]",
+        "Other listed effects include elevated hematocrit, erythrocytosis and thrombosis, and risk is said to rise when steroids are combined with other drugs.[2]"
+      ]
+    },
+    {
+      "h": "Research on monitoring",
+      "paras": [
+        "A health technology assessment examined optimal strategies and cost-effectiveness for monitoring lipid levels in patients at risk of or with cardiovascular disease, which is general-population research.[3]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": ["No studies found specific to monitoring in PED users. Studies exist on lipid monitoring in the general population and in patients on lipid-lowering therapy.[3]"]
+    }
+  ],
+  "timeline": [],
+  "lore": null,
+  "refs": [
+    { "id": 1, "title": "Lipid profile", "url": "https://en.wikipedia.org/wiki/Lipid_profile", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
+    { "id": 2, "title": "Anabolic steroid", "url": "https://en.wikipedia.org/wiki/Anabolic_steroid", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
+    { "id": 3, "title": "Optimal strategies for monitoring lipid levels in patients at risk or with cardiovascular disease: a systematic review with statistical and cost-effectiveness modelling", "url": "https://pubmed.ncbi.nlm.nih.gov/26680162/", "source": "Health technology assessment", "year": 2015, "type": "review" }
+  ],
+  "webSources": [
+    { "url": "https://en.wikipedia.org/wiki/Lipid_profile", "title": "Lipid profile - Wikipedia" },
+    { "url": "https://en.wikipedia.org/wiki/Anabolic_steroid", "title": "Anabolic steroid - Wikipedia" }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+ "name": "Ulna length height prediction",
+ "card": {
+  "summary": "A method of estimating standing height from the length of the forearm's ulna bone, used by people who want a quick check of their stature or their remaining growth.",
+  "aka": "Ulna height prediction",
+  "evidence": "moderate",
+  "risk": "low",
+  "note": "Equations were developed for clinical use in children and patients who cannot stand; they are estimates, not growth forecasts.",
+  "outcome": null,
+  "price": null,
+  "status": null,
+  "structure": null
+ },
+ "quick": {
+  "overview": "Ulna length height prediction estimates how tall a person is from the length of the ulna, the forearm bone on the little-finger side, measured from the elbow point to the wrist bump. Clinicians use it for people who cannot stand for a measurement, and the looksmaxxing community uses online calculators for a quick estimate of height.\n\nFor height-focused users it offers a second opinion on their stature and a rough idea of whether a measured height looks proportionate to their bones. Published equations come from studies of children and hospital patients, and they predict a population average rather than any one person's adult height.",
+  "how": "People measure the ulna with a tape or caliper and enter it, with age and sex, into a calculator such as the one used in nutrition screening, then compare the result with a stadiometer reading. Forum users post their numbers and discuss gaps between predicted and measured height.",
+  "risks": "There is no physical risk. Predictions can be off for an individual because of proportions, ancestry, growth disorders or measurement error, which can cause confusion when results differ from measured height."
+ },
+ "lead": [
+  "Ulna length height prediction is a way of estimating standing height from the length of the ulna. It is used in clinical settings when height cannot be measured directly because of spinal deformity, muscle weakness or being bedridden, and an arm-based measure such as the ulna is more reliable than arm span [1][2].",
+  "In looksmaxxing and height-focused communities, people use ulna calculators, often the one in the malnutrition screening tool MUST, to check what their height 'should' be, compare it with a stadiometer reading, or judge whether they are done growing [3]. It supports height maxxing indirectly, by giving a reference number, rather than changing height itself.",
+  "Research has examined ulna-based equations in Australian schoolchildren, African-Caribbean children and critically ill adults, with results that vary by population [1][4][5]."
+ ],
+ "angle": {
+  "goal": "Height",
+  "chain": [
+   "Measure ulna length",
+   "Enter into a prediction equation",
+   "Compare the estimate with measured height"
+  ],
+  "effect": "claimed",
+  "text": "The method gives people an estimate of their height from a bone length. Some use it as a reference point for how tall they are or might be; it does not change height."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Anthropometric estimation method"
+  ],
+  [
+   "Measured bone",
+   "Ulna (elbow point to wrist bump)"
+  ],
+  [
+   "Clinical uses",
+   "Height estimate when standing is impossible"
+  ],
+  [
+   "Studied in",
+   "Children, ICU patients, cerebral palsy"
+  ],
+  [
+   "Equipment",
+   "Tape or caliper, online calculator"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "The ulna is the long bone on the little-finger side of the forearm, running from the elbow to the wrist [6]. Because long bones scale with stature, regression equations can convert ulna length, with age and sex, into a height estimate."
+   ]
+  },
+  {
+   "h": "Clinical background",
+   "paras": [
+    "A validation study of 1,144 boys and 1,199 girls aged about 5 to 19 in Melbourne developed height prediction equations from ulna, forearm, tibia and lower leg lengths, and sought a limb measurement that predicts height precisely when height is hard to measure [2]. The same group used ulna length to predict lung function in children [1].",
+    "Equations have also been tested in 358 African-Caribbean children, in whom the researchers hypothesised that equations from non-African children would give lower predictions [5], and in 100 critically ill Brazilian adults [4]. Registered studies have examined ulna length in Black children and in predicting tidal volume in Egyptian adults [7][8]."
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing communities",
+   "paras": [
+    "A looksmax.org thread asks how accurate ulna prediction is and invites users to report calculator results against measured height. The original poster described a calculator result well above his barefoot height at 17 and asked whether growth was stunted; a reply said he was almost certainly done growing [9]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "Studies in children and hospital patients have developed and validated ulna-based height equations [2][4][5]. No study has tested ulna prediction as a forecast of future adult height in growing teenagers who want to know how tall they will become."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2003-2004",
+   "event": "Melbourne group publishes ulna-based equations for lung function and height in children [1][2]."
+  },
+  {
+   "year": "2018",
+   "event": "Ulna-based height equation evaluated in critically ill adults [4]."
+  },
+  {
+   "year": "2022",
+   "event": "Ulna equations tested in African-Caribbean children [5]."
+  }
+ ],
+ "lore": {
+  "intro": "Height-focused forum users run ulna calculators as a check on measured height or growth [9].",
+  "claims": [
+   {
+    "claim": "Ulna length shows how tall you 'should' be",
+    "believers": "Users enter ulna length into a calculator and treat a higher result than their measured height as a sign of lost growth [9].",
+    "experts": "The equations were built to estimate height in people who cannot stand and predict average height for a given bone length [2][4].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Ulna length can tell whether you are done growing",
+    "believers": "Some forum replies treat the calculator and age together as indicating finished growth [9].",
+    "experts": "No published study has tested ulna length as a predictor of remaining growth.",
+    "evidence": "untested"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Prediction of childhood pulmonary function using ulna length",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12869362/",
+   "source": "Am J Respir Crit Care Med",
+   "year": 2003,
+   "type": "study"
+  },
+  {
+   "id": 2,
+   "title": "Height prediction from ulna length",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15230461/",
+   "source": "Dev Med Child Neurol",
+   "year": 2004,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "MUST toolkit (BAPEN)",
+   "url": "https://www.bapen.org.uk/screening-and-must/must/must-toolkit/the-must-itself/",
+   "source": "BAPEN",
+   "year": 2024,
+   "type": "guideline"
+  },
+  {
+   "id": 4,
+   "title": "Height Prediction From Ulna Length of Critically Ill Patients",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28727923/",
+   "source": "Nutr Clin Pract",
+   "year": 2018,
+   "type": "study"
+  },
+  {
+   "id": 5,
+   "title": "Prediction of height using ulna length in African-Caribbean children",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35567383/",
+   "source": "Pediatr Pulmonol",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Ulna",
+   "url": "https://en.wikipedia.org/wiki/Ulna",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 7,
+   "title": "NCT04062422 Ulna Length in Black Children",
+   "url": "https://clinicaltrials.gov/study/NCT04062422",
+   "source": "ClinicalTrials.gov",
+   "year": 2018,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "NCT04644458 Ulna Length to Predict Tidal Volume in Adult Egyptians",
+   "url": "https://clinicaltrials.gov/study/NCT04644458",
+   "source": "ClinicalTrials.gov",
+   "year": 2020,
+   "type": "trial"
+  },
+  {
+   "id": 9,
+   "title": "how true is the ULNA length height prediction method?",
+   "url": "https://looksmax.org/threads/how-true-is-the-ulna-length-height-prediction-method.412038/",
+   "source": "looksmax.org",
+   "year": 2024,
+   "type": "forum"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Ulna",
+   "title": "Ulna - Wikipedia"
+  },
+  {
+   "url": "https://www.bapen.org.uk/screening-and-must/must/must-toolkit/the-must-itself/",
+   "title": "MUST toolkit - BAPEN"
+  }
+ ]
+}

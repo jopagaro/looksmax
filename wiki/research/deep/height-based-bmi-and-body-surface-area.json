@@ -1,0 +1,89 @@
+{
+  "name": "Height-based BMI and body surface area",
+  "card": {
+    "summary": "Formulas that combine height and weight (BMI and body surface area) into a single number, which people use to gauge how lean or heavy their frame is for their height when planning a physique.",
+    "aka": "BSA, BMI height",
+    "evidence": "moderate",
+    "risk": "low",
+    "note": "BMI does not distinguish muscle from fat and can read differently for very tall or short people.",
+    "price": null,
+    "status": null,
+    "outcome": null,
+    "structure": null
+  },
+  "quick": {
+    "overview": "Body mass index (BMI) divides weight in kilograms by height in metres squared. Body surface area (BSA) is an estimate of skin area calculated from height and weight with formulas such as Du Bois and Mosteller. Both put height into the calculation, so the same weight gives different numbers for a shorter or taller person.\n\nFor appearance, these numbers are a shorthand for how lean or heavy someone is for their height. Looksmaxxers use them to set weight targets for a lean look, and discuss how height changes what a given weight looks like.",
+    "how": "People enter height and weight into a calculator or the formulas to get a BMI or BSA value, then compare it with ranges used in health guidelines or with their own physique goals. Some combine it with waist measurements or body-fat estimates, which health sources describe as useful complements. Because height is the input, it is also used to talk about how much a person of a given height 'should' weigh.",
+    "risks": "Health sources note BMI overestimates fatness in muscular people and in taller people, and underestimates it in shorter or small-framed people. It was designed for population statistics, not individuals. BSA formulas are less accurate at extremes of height and weight."
+  },
+  "lead": [
+    "Several widely used body-size measures are built from height and weight together. BMI is mass in kilograms divided by height in metres squared [1]. BSA is the estimated surface area of the body, calculated from the same two inputs with formulas that raise each to a fractional power, such as the Du Bois formula (1916) and the simpler Mosteller formula (1987) [2][3].",
+    "In looksmaxxing discussion, height-based formulas serve as a quick way to describe frame and leanness: they indicate what weight corresponds to a lean or athletic build for a given height, and they illustrate why height changes how weight looks on a person. Clinicians use them in other ways, such as normalising kidney function or drug doses to body size [2].",
+    "Researchers have documented limitations tied to height. Because mass tends to scale closer to the cube of height than the square, BMI tends to read higher in tall people and lower in short people [1]. Mathematician Nick Trefethen proposed an alternative, 1.3 times mass divided by height to the power 2.5, intended to distort less at extreme heights [1]."
+  ],
+  "angle": {
+    "goal": "Leanness and frame",
+    "chain": ["Enter height and weight", "Get BMI or surface-area value", "Compare against ranges or targets for a leaner or more muscular build"],
+    "effect": "indirect",
+    "text": "The numbers do not change appearance themselves. People use them as a reference point when choosing a body-weight target for a lean physique, keeping in mind that height shifts what a given weight looks like."
+  },
+  "infobox": [
+    ["BMI formula", "kg / m^2 (height squared)"],
+    ["BMI term coined", "1972, Ancel Keys and colleagues"],
+    ["BSA formulas", "Du Bois (1916), Mosteller (1987), Haycock (1978) and others"],
+    ["Average adult BSA (US, 2011-14)", "about 2.06 m2 men, 1.83 m2 women"],
+    ["Alternative BMI", "Trefethen: 1.3 x mass / height^2.5"]
+  ],
+  "sections": [
+    {
+      "h": "Description",
+      "paras": [
+        "BMI derives from work by the Belgian statistician Adolphe Quetelet between 1830 and 1850, who used it to describe the average man rather than as a medical tool. The name \"body mass index\" was coined in a 1972 paper by Ancel Keys and colleagues, who considered it suited to population studies rather than judging individuals [1]. WHO adult categories are under 18.5 (underweight), 18.5 to 24.9 (normal), 25 to 29.9 (overweight) and 30 or more (obese), with different cut-offs in some countries and percentile charts for children [1].",
+        "BSA is used in clinical settings as a measure of metabolic mass that is less affected by excess fat than body weight. Du Bois (1916) is the most widely used formula; Mosteller (1987) takes the square root of height times weight divided by 3600; others include Haycock, Gehan and George, Boyd and Fujimoto [2][3]."
+      ]
+    },
+    {
+      "h": "How height enters the formulas",
+      "paras": [
+        "In BMI, height is squared, a simplifying convention. Because body mass scales more like the cube of height, taller people with the same build register a higher BMI than shorter people [1]. Trefethen's exponent of 2.5 is a compromise between the two, and the 1.3 factor aligns results with the traditional formula for average-height adults [1].",
+        "BSA formulas apply fractional powers to both height and weight. Reviews note BSA can be less accurate at extremes of height and weight, where BMI may better estimate some haemodynamic measures [2]. Du Bois BSA is described as about as effective as BMI at estimating body fat in obese and non-obese people [2]."
+      ]
+    },
+    {
+      "h": "Limitations",
+      "paras": [
+        "BMI cannot separate muscle from fat, so it overestimates excess fat in muscular people such as athletes, and it does not capture fat distribution. Its original data came mainly from European men, so it can be less accurate for women and for people of non-European descent. Health sources mention waist circumference, waist-to-height ratio and body-fat percentage as alternatives that predict health risk better in many cases [1]."
+      ]
+    },
+    {
+      "h": "Clinical and scientific uses",
+      "paras": [
+        "BSA is used to normalise kidney clearance (to 1.73 m2), to calculate cardiac index, and to dose chemotherapy and glucocorticoids [2]. A 1987 New England Journal of Medicine letter proposed the simplified Mosteller formula [3]. Pharmacology reviews also use surface area to convert drug doses between animals and humans [4][5]. These are medical applications and are separate from appearance goals."
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "No studies found on height-based BMI or BSA as appearance interventions. The formulas themselves are the subject of clinical and pharmacology literature, for example on dose scaling between species [4][5] and on simplified BSA calculation [3]."
+      ]
+    }
+  ],
+  "timeline": [
+    {"year": "1830-1850", "event": "Adolphe Quetelet develops the basis of BMI as part of his study of the average man [1]."},
+    {"year": "1916", "event": "Du Bois body surface area formula published [2]."},
+    {"year": "1972", "event": "Ancel Keys and colleagues coin the term body mass index [1]."},
+    {"year": "1987", "event": "Mosteller proposes a simplified BSA formula [3]."}
+  ],
+  "lore": null,
+  "refs": [
+    {"id": 1, "title": "Body mass index", "url": "https://en.wikipedia.org/wiki/Body_mass_index", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"},
+    {"id": 2, "title": "Body surface area", "url": "https://en.wikipedia.org/wiki/Body_surface_area", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"},
+    {"id": 3, "title": "Simplified calculation of body-surface area", "url": "https://pubmed.ncbi.nlm.nih.gov/3657876/", "source": "New England Journal of Medicine", "year": 1987, "type": "study"},
+    {"id": 4, "title": "A simple practice guide for dose conversion between animals and human", "url": "https://pubmed.ncbi.nlm.nih.gov/27057123/", "source": "Journal of Basic and Clinical Pharmacy", "year": 2016, "type": "review"},
+    {"id": 5, "title": "Dose translation from animal to human studies revisited", "url": "https://pubmed.ncbi.nlm.nih.gov/17942826/", "source": "FASEB Journal", "year": 2008, "type": "study"}
+  ],
+  "webSources": [
+    {"url": "https://en.wikipedia.org/wiki/Body_mass_index", "title": "Body mass index (Wikipedia)"},
+    {"url": "https://en.wikipedia.org/wiki/Body_surface_area", "title": "Body surface area (Wikipedia)"}
+  ]
+}

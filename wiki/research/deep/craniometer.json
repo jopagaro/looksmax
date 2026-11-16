@@ -1,0 +1,29 @@
+{
+"name": "Craniometer",
+"card": {"summary": "A measuring instrument for the skull and face, used in anatomy, surgery and dentistry, and borrowed by face-measurement hobbyists to quantify head and facial proportions.", "aka": "cranial calipers", "evidence": "limited", "outcome": "durable", "price": null, "note": "Craniometry has a history tied to scientific racism; modern clinical use is for measurement only.", "status": null, "risk": null, "structure": null},
+"quick": {
+"overview": "A craniometer is an instrument for measuring the skull. It records distances and angles on the head and face, which can be used to quantify proportions such as head shape, jaw and facial height.\n\nIt does not change appearance, but gives numbers for those interested in measuring their face. Clinicians use craniometers in dentistry, neurosurgery and infant head-shape checks.",
+"how": "Held against landmarks on the head or face, such as the ear canal and nose or chin, to read a distance. Clinicians use it in set protocols.",
+"risks": "The instrument is harmless. Historical craniometry was used to support racial hierarchies, and critics have challenged that use."},
+"lead": ["Craniometry is the measurement of the human skull, a branch of anthropometry, and a craniometer is the instrument used.[1] Surgeon Theodor Kocher built a craniometer to relate the location of brain pathology to landmarks on the cranium, a forerunner of stereotactic frames.[2]", "For appearance, craniometer-type measurements give numbers for facial proportions. Dentists have used a Knebelman craniometer to measure the vertical dimension of the bite in denture wearers, comparing ear-to-eye and chin-to-nose distances.[3][4] Neonatal units use craniometers to track positional head deformations in babies.[5]", "Craniometry's history includes Pieter Camper's facial angle, Anders Retzius's cephalic index and Samuel George Morton's skull collection, later criticised for use in scientific racism.[1][6]"],
+"angle": {"goal": "Face measurement", "chain": ["Instrument placed on skull landmarks", "Gives distances and angles", "Quantifies proportions for assessment or planning"], "effect": "indirect", "text": "A craniometer measures head and facial dimensions, giving objective numbers for people tracking proportions or for clinicians planning dental or surgical care."},
+"infobox": [["Type", "Measuring instrument"], ["Used in", "Anthropology, neurosurgery, dentistry, paediatrics"], ["Notable inventor", "Theodor Kocher (neurosurgical craniometer)[2]"], ["Related concepts", "Facial angle, cephalic index[1][6]"]],
+"sections": [
+{"h": "History", "paras": ["Pieter Camper presented his facial angle in 1770 lectures to an Amsterdam drawing academy as a guide to making accurate portraits, and the later hierarchy of angles was not part of the lectures.[6] Anders Retzius introduced the cephalic index in the 1800s, and Morton ranked groups by cranial capacity, with Gould later accusing him of data manipulation and a 2011 study disputing Gould.[1]"]},
+{"h": "Modern uses", "paras": ["Kocher's craniometer helped define Kocher's point for ventricular access.[2][7] Dentists use craniometric methods to estimate occlusal vertical dimension, and one 1994 study of 600 white and Asian participants found ear-eye distance predicted chin-nose distance.[3] Forensic anthropologists use cranial measurements, although a 2026 review found a single cephalic index cannot reliably determine population affinity.[1] Studies of infant head shape use craniometers and callipers.[5][8]"]},
+{"h": "Clinical studies", "paras": ["Studies have compared craniometric methods with swallowing-based methods for denture vertical dimension,[4] and used craniometers to measure head deformations in infants.[5][8]"]}
+],
+"timeline": [{"year": "1770", "event": "Camper's facial angle lectures.[6]"}, {"year": "1800s", "event": "Retzius introduces cephalic index.[1]"}, {"year": "Early 1900s", "event": "Kocher's craniometer used in neurosurgery.[2]"}],
+"lore": null,
+"refs": [
+{"id": 1, "title": "Craniometry", "url": "https://en.wikipedia.org/wiki/Craniometry", "source": "Wikipedia", "year": 2026, "type": "encyclopedia"},
+{"id": 2, "title": "Theodor Kocher's craniometer", "url": "https://pubmed.ncbi.nlm.nih.gov/19404160/", "source": "Neurosurgery", "year": 2009, "type": "review"},
+{"id": 3, "title": "A diagnostic craniometric method for determining occlusal vertical dimension", "url": "https://pubmed.ncbi.nlm.nih.gov/8040818/", "source": "Journal of prosthetic dentistry", "year": 1994, "type": "study"},
+{"id": 4, "title": "Accuracy between Functional Swallowing and Knebelman Craniometric Method to Measure Occlusal Vertical Dimension in Total Denture Wearers", "url": "https://pubmed.ncbi.nlm.nih.gov/34036076/", "source": "J Int Soc Prev Community Dent", "year": 2021, "type": "study"},
+{"id": 5, "title": "Period prevalence of positional head deformations and implications for practice in a large tertiary neonatal unit", "url": "https://pubmed.ncbi.nlm.nih.gov/38013612/", "source": "J Paediatr Child Health", "year": 2024, "type": "study"},
+{"id": 6, "title": "Facial angle", "url": "https://en.wikipedia.org/wiki/Facial_angle", "source": "Wikipedia", "year": 2026, "type": "encyclopedia"},
+{"id": 7, "title": "Rediscovering the origins of Kocher's point", "url": "https://pubmed.ncbi.nlm.nih.gov/42214096/", "source": "Journal of neurosurgery", "year": 2026, "type": "review"},
+{"id": 8, "title": "Cranial Shape Measurements Obtained Using a Caliper and Elastic Bands", "url": "https://pubmed.ncbi.nlm.nih.gov/37109123/", "source": "Journal of clinical medicine", "year": 2023, "type": "study"}
+],
+"webSources": [{"url": "https://en.wikipedia.org/wiki/Craniometry", "title": "Craniometry"}, {"url": "https://en.wikipedia.org/wiki/Facial_angle", "title": "Facial angle"}]
+}

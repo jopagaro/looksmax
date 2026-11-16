@@ -1,0 +1,109 @@
+{
+  "name": "CBCT scan for surgical planning",
+  "card": {
+    "summary": "A low-dose 3D X-ray of the jaws and skull that surgeons use to plan jaw, dental and facial surgery, and that some people obtain to evaluate their own bone structure before consulting surgeons.",
+    "aka": "Cone beam scan; cone beam CT",
+    "evidence": "strong",
+    "risk": "low",
+    "price": null,
+    "note": "Involves ionizing radiation, higher than a standard 2D dental panoramic X-ray; usually ordered by a clinician.",
+    "structure": null
+  },
+  "quick": {
+    "overview": "A CBCT (cone beam computed tomography) scan takes a single rotation of cone-shaped X-rays around the head and builds a 3D digital model of bone and teeth. In jaw and facial surgery it lets surgeons measure the skeleton, see where nerves and sinuses lie and plan bone movements before operating.\n\nFor people considering jaw surgery such as bimaxillary advancement, a CBCT is the imaging that lets a surgeon plan, predict and later check the result. Dental implant and orthodontic specialists use the same technology, and a consensus report supports it in implant treatment planning.",
+    "how": "A scan is done sitting or standing in a compact machine at a dental imaging center, oral surgeon or hospital, usually in under a minute. The clinician receives image files that planning software turns into 3D models and simulated surgical movements. Forum members describe contacting imaging centers to request a scan and asking for the raw image files so surgeons can review them.",
+    "risks": "CBCT uses ionizing radiation. Wikipedia reports total dose is far below a conventional medical CT but 5 to 16 times a standard dental panoramic X-ray, and recommends the smallest field of view and lowest settings that suit the task. A review in endodontics called for case-by-case selection because long-term radiation risks are uncertain, especially in children."
+  },
+  "lead": [
+    "Cone beam computed tomography (CBCT) is an X-ray technique in which a cone-shaped beam rotates once around the area of interest to produce a 3D volume that software can slice and measure. It was developed for oral and maxillofacial imaging in the late 1990s, with the first commercial system reaching Europe in 1996.[1]",
+    "In appearance-focused surgery, CBCT is used to plan operations on the jaws and facial skeleton. Orthognathic (jaw) surgery planning relies on imaging and predictive software to model how bone movement will change the face, which helps set patient expectations.[2] Studies have used pre-operative CBCT scans to build individualized 3D virtual plans and then measure how closely bimaxillary surgery matched them.[3]",
+    "In looksmaxxing communities, people discuss obtaining their own CBCT to share with jaw surgeons, to evaluate candidacy for procedures such as bimaxillary surgery, or to prepare for revisions. Posts describe contacting many dental imaging providers and asking for the raw image files.[4]"
+  ],
+  "angle": {
+    "goal": "Jaw and facial structure",
+    "chain": ["3D scan of jaws, airway and skull", "Surgeon measures bone and simulates movements", "A more precisely planned jaw or facial surgery"],
+    "effect": "indirect",
+    "text": "The scan does not change appearance itself. It gives surgeons a measurable 3D model so that jaw and facial bone operations can be planned, simulated and checked, and it gives patients something concrete to bring to consultations."
+  },
+  "infobox": [
+    ["Type", "3D X-ray imaging"],
+    ["Developed", "Late 1990s (Arai, Japan; Mozzo, Italy) [1]"],
+    ["First commercial system", "NewTom 9000, Europe 1996, US 2001 [1]"],
+    ["Common uses", "Implant planning, orthodontics, endodontics, jaw surgery planning [1][5]"],
+    ["Radiation", "Much lower than medical CT, higher than 2D panoramic X-ray [1]"],
+    ["Typical setting", "Dental imaging center, oral and maxillofacial surgery, hospital"]
+  ],
+  "sections": [
+    {
+      "h": "Description",
+      "paras": [
+        "In CBCT the X-rays diverge in a cone and a single rotation captures the region as a digital volume of voxels that specialized software can manipulate.[1] In dentistry the technology is described as widely used for the oral and maxillofacial region, and the American Academy of Oral and Maxillofacial Radiology is reported to suggest it as a preferred method for presurgical assessment of implant sites.[1]",
+        "A systematic review of sinus anatomy recommended preoperative CT or CBCT because anatomical variants such as maxillary sinus septa, found in roughly 14% to 33% of cases across studies, may complicate surgery if not diagnosed beforehand.[6]"
+      ]
+    },
+    {
+      "h": "Use in jaw and facial surgery planning",
+      "paras": [
+        "Orthognathic surgery planning involves surgeons, orthodontists and sometimes other specialists, and uses imaging plus software that can predict post-surgical facial shape. Wikipedia notes this helps with planning and explaining the procedure, and that 3D facial diagnostic and design systems have become more widely available.[2]",
+        "A 2016 PLoS One study presented a semi-automatic tool, the OrthoGnathicAnalyser, that compares post-operative results with 3D virtual plans made from pre-operative CBCT scans of ten bimaxillary surgery patients.[3]"
+      ]
+    },
+    {
+      "h": "Clinical studies",
+      "paras": [
+        "The International Congress of Oral Implantologists consensus report reviewed the literature from 2000 to 2011 and concluded that it supports CBCT in dental implant treatment planning, particularly for linear measurements, three-dimensional evaluation of ridge shape, proximity to vital structures and surgical guide fabrication. It noted that areas such as CBCT-derived bone density measurements were less established.[5] Wikipedia similarly reports that Hounsfield-unit values are unreliable on CBCT.[1]",
+        "Reviews of dental applications describe AI-assisted reading of CBCT as performing strongly in diagnostic imaging.[7] In endodontics, a review concluded that the benefit of CBCT to patient outcomes is still uncertain, since the literature mainly addresses technical efficacy, and recommended rational case selection.[8]"
+      ]
+    },
+    {
+      "h": "Radiation and limitations",
+      "paras": [
+        "According to Wikipedia, a dental CBCT exam gives about 96% less dose than a conventional CT but 5 to 16 times more than a 2D panoramic X-ray, and it recommends the smallest field of view, voxel size and exposure compatible with the task.[1] The endodontic review notes that CBCT radiation risks are stochastic and uncertain and are of particular concern in children.[8]"
+      ]
+    },
+    {
+      "h": "In looksmaxxing culture",
+      "paras": [
+        "On looksmax.org, members post their own scans and ask others whether they appear to be candidates for bimaxillary surgery.[9] Another member describes emailing dozens of dental imaging locations, stating the reason for the scan (jaw surgery for sleep apnea or aesthetics), asking for the image files and mentioning insurance, before obtaining a booking.[4]"
+      ]
+    }
+  ],
+  "timeline": [
+    { "year": "1996", "event": "The NewTom 9000, the first commercial CBCT system, enters the European market.[1]" },
+    { "year": "2001", "event": "The NewTom 9000 reaches the US market.[1]" },
+    { "year": "2012", "event": "International Congress of Oral Implantologists publishes a consensus report on CBCT in implant dentistry.[5]" },
+    { "year": "2016", "event": "OrthoGnathicAnalyser published for checking bimaxillary surgery accuracy against CBCT-based plans.[3]" }
+  ],
+  "lore": {
+    "intro": "Forum members treat a CBCT as a tool for working out whether jaw surgery would change their face and for giving surgeons detailed data.[4][9]",
+    "claims": [
+      {
+        "claim": "A CBCT helps show whether you are a candidate for bimaxillary surgery",
+        "believers": "Posters share scans and ask others to assess recession or airway concerns, and one reports a surgeon predicted sleep apnea risk from the structure.[9]",
+        "experts": "Surgeons use imaging with clinical examination and predictive software to plan jaw surgery; the 3D virtual plan is a standard planning tool in orthognathic surgery.[2][3]",
+        "evidence": "supported"
+      },
+      {
+        "claim": "Requesting the raw image files lets you consult several surgeons remotely",
+        "believers": "A member advises asking for the DICOM files so scans can be sent to multiple jaw surgeons.[4]",
+        "experts": "Planning software works from the 3D volumetric data that CBCT produces.[1]",
+        "evidence": "untested"
+      }
+    ]
+  },
+  "refs": [
+    { "id": 1, "title": "Cone beam computed tomography", "url": "https://en.wikipedia.org/wiki/Cone_beam_computed_tomography", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
+    { "id": 2, "title": "Orthognathic surgery", "url": "https://en.wikipedia.org/wiki/Orthognathic_surgery", "source": "Wikipedia", "year": 2026, "type": "encyclopedia" },
+    { "id": 3, "title": "A New 3D Tool for Assessing the Accuracy of Bimaxillary Surgery: The OrthoGnathicAnalyser", "url": "https://pubmed.ncbi.nlm.nih.gov/26901524/", "source": "PLoS One", "year": 2016, "type": "study" },
+    { "id": 4, "title": "After emailing 40 random dentists/dental imaging locations, I finally have a CBCT scan booked", "url": "https://looksmax.org/threads/after-emailing-40-random-dentists-dental-imaging-locations-i-finally-have-a-cbct-scan-booked.522647/", "source": "looksmax.org", "year": null, "type": "forum" },
+    { "id": 5, "title": "Use of cone beam computed tomography in implant dentistry: the International Congress of Oral Implantologists consensus report", "url": "https://pubmed.ncbi.nlm.nih.gov/22382748/", "source": "Implant Dentistry", "year": 2012, "type": "guideline" },
+    { "id": 6, "title": "Maxillary sinus septa. Prevalence and anatomy", "url": "https://pubmed.ncbi.nlm.nih.gov/22078898/", "source": "Revue de Stomatologie et de Chirurgie Maxillo-faciale", "year": 2012, "type": "review" },
+    { "id": 7, "title": "AI in Dentistry: Innovations, Ethical Considerations, and Integration Barriers", "url": "https://pubmed.ncbi.nlm.nih.gov/41007172/", "source": "Bioengineering", "year": 2025, "type": "review" },
+    { "id": 8, "title": "Use of Cone Beam Computed Tomography in endodontics: rational case selection criteria", "url": "https://pubmed.ncbi.nlm.nih.gov/27295931/", "source": "Refu'at ha-Peh veha-Shinayim", "year": 2016, "type": "review" },
+    { "id": 9, "title": "Blackpill My CBCT scan", "url": "https://looksmax.org/threads/my-cbct-scan.591305/", "source": "looksmax.org", "year": null, "type": "forum" }
+  ],
+  "webSources": [
+    { "url": "https://en.wikipedia.org/wiki/Cone_beam_computed_tomography", "title": "Cone beam computed tomography (Wikipedia)" },
+    { "url": "https://en.wikipedia.org/wiki/Orthognathic_surgery", "title": "Orthognathic surgery (Wikipedia)" }
+  ]
+}
