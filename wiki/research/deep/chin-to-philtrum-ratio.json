@@ -1,25 +1,344 @@
 {
-"name":"Chin-to-philtrum ratio",
-"card":{"summary":"A proportion comparing the height of the chin to the length of the upper-lip philtrum, used to judge lower-face balance and to plan chin, lip or jaw changes.","aka":"CPR; philtrum ratio","evidence":"limited","risk":"low","note":"Different sources define the measurement and the ideal differently.","price":null},
-"quick":{"overview":"The chin-to-philtrum ratio compares how tall the chin is with how long the philtrum, the groove between nose and upper lip, is. Looksmaxxing communities use it as a quick check of lower-face harmony: a short philtrum with a tall chin, or the reverse, is described as throwing the lower third out of balance.\n\nThe often-quoted benchmark is about 1:2, philtrum to chin, though sources define the points differently. Surgical literature discusses lower-third proportions more broadly, and forum users use the ratio to discuss genioplasty, lip lifts and jaw surgery.",
-"how":"People photograph or measure the face from front on, mark the base of the nose, the lip line and the bottom of the chin, and compare the upper-lip segment with the chin segment. Forum members then discuss options for changing it: genioplasty to shorten or lengthen the chin, a lip lift to shorten the philtrum, or jaw surgery that changes the upper jaw position.",
-"risks":"The ratio is a screening heuristic and is measured differently by different people, so results vary with photo angle and landmarks. Procedures discussed in connection with it are surgeries with their own risks. A surgeon's assessment weighs lip competence, bite and overall profile, not one ratio."},
-"lead":["The chin-to-philtrum ratio compares the vertical height of the chin with the length of the philtrum, the vertical groove of the upper lip [4]. It is used in looksmaxxing communities as a shorthand for lower-third harmony.","Users on looksmax.org ask what ranges are acceptable, whether a short philtrum is ideal, and how to correct a mismatch [1][2]. In one thread, a poster with a short philtrum and a tall chin was told by a surgeon that maxillary downgrafting or a genioplasty could balance the ratio [1].","Published facial-proportion research uses related measures: one review describes the lower third divided into thirds for upper lip, lower lip and chin, with the upper lip roughly 30 percent and lower lip plus chin about 70 percent of lower facial height [3]."],
-"angle":{"goal":"Lower-face balance","chain":["Measure chin height against philtrum length","Spot a tall chin or short philtrum","Choose a treatment such as genioplasty or a lip lift","Lower third reads as more balanced"],"effect":"claimed","text":"People use the ratio to diagnose where the lower face looks out of proportion and to decide what to change. It guides conversations about chin height, lip lifts and jaw surgery."},
-"infobox":[["Type","Facial proportion"],["Common benchmark","About 1:2 (philtrum:chin), loosely defined"],["Also called","CPR, philtrum ratio"],["Related procedures","Genioplasty, lip lift, Le Fort I"]],
-"sections":[
-{"h":"Description","paras":["The philtrum is the groove running from the base of the nose to the upper lip [4]. The ratio sets the length of this segment against the chin. Sources differ: some define chin height from lower lip to chin, others from the stomion (lip junction) to menton, so quoted ideals vary.","Academic descriptions of the lower third give the upper lip about 30 percent of the lower face and the lip-and-chin segment about 70 percent, and describe the chin as roughly 70 percent of lower facial height [3]."]},
-{"h":"In looksmaxxing culture","paras":["Threads ask for acceptable ranges and why the ratio matters [5][6]. In one, the poster with a tall chin weighed a genioplasty to reduce vertical height against a bimaxillary plan; a reply said a short philtrum with normal midface ratios would suggest bimax with chin height reduction, though impossible to judge without photos [1]. Another poster with a short philtrum asked about non-surgical fixes and was told genioplasty could make the chin less tall and more forward [2][3]."]},
-{"h":"Clinical studies","paras":["No studies found on the chin-to-philtrum ratio itself. Related literature on lip and lower-face proportions exists [3]."]}
-],
-"timeline":[],
-"lore":{"intro":"Forum threads treat the ratio as a diagnostic for the lower third and a guide for surgery planning [1][3].","claims":[{"claim":"A short philtrum is ideal and shouldn't be lengthened","believers":"A looksmax.org poster says comparison photos show a small philtrum as ideal and that surgeons' offers of downgrafting shouldn't be taken lightly [1].","experts":"No published studies have tested the ratio as a beauty standard; reviews describe lower-third proportions generally [3].","evidence":"untested"},{"claim":"Genioplasty can fix a tall chin relative to the philtrum","believers":"Forum members say a genioplasty can shorten and advance a chin to rebalance the ratio [2][3].","experts":"A review of lip aesthetics notes chin height can be reduced to improve lip competence and facial index [3].","evidence":"mixed"}]},
-"refs":[
-{"id":1,"title":"Question about Chin To Philtrum Ratio","url":"https://looksmax.org/threads/question-about-chin-to-philtrum-ratio.1660501/","source":"looksmax.org","year":null,"type":"forum"},
-{"id":2,"title":"fixing bad chin to philtrum ratio?","url":"https://looksmax.org/threads/fixing-bad-chin-to-philtrum-ratio.555496/","source":"looksmax.org","year":null,"type":"forum"},
-{"id":3,"title":"Is it possible to define the ideal lips?","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC5952987","source":"Acta Otorhinolaryngologica Italica","year":2018,"type":"review"},
-{"id":4,"title":"Philtrum","url":"https://en.wikipedia.org/wiki/Philtrum","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":5,"title":"what are the acceptable ranges for the chin to philtrum ratio","url":"https://looksmax.org/threads/what-are-the-acceptable-ranges-for-the-chin-to-philtrum-ratio.356323/","source":"looksmax.org","year":null,"type":"forum"},
-{"id":6,"title":"why does chin to philtrum ratio matter","url":"https://looksmax.org/threads/why-does-chin-to-philtrum-ratio-matter.210792/","source":"looksmax.org","year":null,"type":"forum"}],
-"webSources":[{"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC5952987","title":"Is it possible to define the ideal lips? (Kar et al., 2018)"},{"url":"https://en.wikipedia.org/wiki/Philtrum","title":"Philtrum - Wikipedia"}]
+ "name": "Chin-to-philtrum ratio",
+ "card": {
+  "summary": "A proportion comparing the height of the chin to the length of the upper-lip philtrum, used to judge lower-face balance and to plan chin, lip or jaw changes.",
+  "aka": "CPR; philtrum ratio",
+  "evidence": "limited",
+  "risk": "low",
+  "note": "Different sources define the measurement and the ideal differently.",
+  "price": null
+ },
+ "quick": {
+  "overview": "The chin-to-philtrum ratio compares how tall the chin is with how long the philtrum, the groove between nose and upper lip, is. Looksmaxxing communities use it as a quick check of lower-face harmony: a short philtrum with a tall chin, or the reverse, is described as throwing the lower third out of balance.\n\nThe often-quoted benchmark is about 1:2, philtrum to chin, though sources define the points differently. Surgical literature discusses lower-third proportions more broadly, and forum users use the ratio to discuss genioplasty, lip lifts and jaw surgery.",
+  "how": "People photograph or measure the face from front on, mark the base of the nose, the lip line and the bottom of the chin, and compare the upper-lip segment with the chin segment. Forum members then discuss options for changing it: genioplasty to shorten or lengthen the chin, a lip lift to shorten the philtrum, or jaw surgery that changes the upper jaw position.",
+  "risks": "The ratio is a screening heuristic and is measured differently by different people, so results vary with photo angle and landmarks. Procedures discussed in connection with it are surgeries with their own risks. A surgeon's assessment weighs lip competence, bite and overall profile, not one ratio."
+ },
+ "lead": [
+  "The chin-to-philtrum ratio compares the vertical height of the chin with the length of the philtrum, the vertical groove running from the base of the nose to the upper lip.[4] In looksmaxxing communities it is a shorthand for lower-third harmony: people measure it from front-on photographs and use it to decide whether the lower face looks balanced or whether chin height, lip length or jaw position is the thing to change.[1][2][5][6]",
+  "The best-known benchmark in forum discussion is about 1:2, philtrum to chin, though members define the landmarks differently and ask what ranges are acceptable and why the ratio matters.[5][6] Threads on the topic often end in surgical planning, with members discussing a genioplasty to shorten or advance the chin, a lip lift to shorten a long philtrum, or upper-jaw surgery that moves the maxilla.[1][2][7][8][14]",
+  "Published facial-proportion work does not name a chin-to-philtrum ratio as a standard, but it describes closely related measures. A narrative review of lip aesthetics reports that the lower facial third is divided into segments for upper lip, lower lip and chin, with roughly 30 percent for the upper lip and 70 percent for lip-plus-chin, and notes that chin height can be reduced to help lip competence.[3]"
+ ],
+ "angle": {
+  "goal": "Lower-face balance",
+  "chain": [
+   "Measure chin height against philtrum length on a front-on photo",
+   "Spot a tall chin or a long or short philtrum",
+   "Discuss a lip lift, genioplasty or jaw surgery with a surgeon",
+   "Lower third reads as more balanced"
+  ],
+  "effect": "claimed",
+  "text": "People use the ratio to locate where the lower face looks out of proportion and to frame questions for a surgeon about chin height, lip length and jaw position. It is a planning aid for conversations about procedures, not a procedure itself."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Facial proportion"
+  ],
+  [
+   "Common forum benchmark",
+   "About 1:2 (philtrum:chin), loosely defined"
+  ],
+  [
+   "Also called",
+   "CPR, philtrum ratio"
+  ],
+  [
+   "Landmarks",
+   "Subnasale, stomion (lip junction), menton"
+  ],
+  [
+   "Related procedures",
+   "Genioplasty, lip lift, Le Fort I maxillary osteotomy"
+  ],
+  [
+   "Related published measure",
+   "Lower third split about 30% upper lip / 70% lower lip plus chin[3]"
+  ],
+  [
+   "Sex difference",
+   "Chin height reported larger in men in one 3D photo study of 100 adults[10]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "The philtrum is the groove between the nose and upper lip, bordered by two ridges called philtral columns; in humans it has no known function and forms in the embryo where facial processes meet, which is why incomplete fusion can result in cleft lip.[4] The ratio sets the length of this segment against the chin. Definitions differ: some people measure the chin from the lower lip to the bottom of the chin, others from the stomion (the junction of the lips) to menton, so quoted ideals vary with the method.[5][6]",
+    "A review of lip aesthetics gives a related set of proportions: the lower facial third divided into upper lip, lower lip and chin; about 30 percent of lower-third height for the upper lip and 70 percent for lower lip plus chin; and a chin that is on average about 70 percent of lower facial height in contemporary ideals, compared with 66 percent in the classical canon.[3] It also gives an upper-to-lower lip height ratio of 1:1.6 for youthful Caucasian faces and states that some studies have not supported golden-ratio models of attractiveness.[3]"
+   ]
+  },
+  {
+   "h": "Measurement and variation",
+   "paras": [
+    "Measured values depend on the photo angle, head posture and landmark choice, and on the population studied. A 2019 cross-sectional study using 3D photography of 100 healthy adults aged 20 to 30 from southern Spain with normal occlusion reported sex differences in several lower-face measures: chin height (Li-Me) averaged about 39.1 mm in men and 38.1 mm in women, upper-lip vermilion height was greater in men, and lower-lip height did not differ significantly by sex.[10] The study did not define a philtrum-to-chin ideal.[10]",
+    "The review of lip aesthetics adds that lower-third rules may be relaxed in women and that ideal proportions differ across ethnic groups.[3]"
+   ]
+  },
+  {
+   "h": "Origins and spread",
+   "paras": [
+    "The ratio is not tied to a single originator. It appears in looksmax.org threads where members ask for acceptable ranges, why it matters and how to fix a 'bad' ratio, and it travels together with other lower-third terms used in the community.[1][2][5][6][7] Wikipedia's coverage of looksmaxxing places the practice in online communities from the 2010s and its spread to TikTok in the early 2020s.[11] No source documents when the chin-to-philtrum ratio entered that vocabulary."
+   ]
+  },
+  {
+   "h": "In looksmaxxing culture",
+   "paras": [
+    "Threads ask for acceptable ranges and why the ratio matters.[5][6] In one, a poster with a short philtrum and a tall chin weighed a genioplasty to reduce vertical chin height against a combined upper-and-lower-jaw plan; a reply said a short philtrum with normal midface ratios would suggest bimaxillary surgery with chin height reduction, while adding that it was impossible to judge without photos.[1]",
+    "Another poster with a short philtrum asked about non-surgical options and was told a genioplasty could make the chin less tall and more forward-projected.[2] Other threads carry titles such as 'worst chin to philtrum ratio' and 'the ideal chin to philtrum ratio'.[7][8]",
+    "In the thread above, a reply cautions that it is impossible to judge the ratio without photos and other proportions.[1]"
+   ]
+  },
+  {
+   "h": "Related procedures",
+   "subs": [
+    {
+     "h": "Lip lift",
+     "paras": [
+      "A lip lift shortens the skin between the nose and the upper lip so the upper lip sits higher and shows more vermilion. Wikipedia describes direct and indirect variants, including the subnasal 'bullhorn' lift, and notes that a 2014 systematic review found philtrum length decreased with indirect lip lifts.[12] A 2026 systematic review of 7 studies and 1,754 patients reported philtrum length falling from about 14.0 to 12.0 mm with a traditional bullhorn lift and from 14.5 to 10.75 mm with a Tri-Lift technique, mean Global Aesthetic Improvement Scale satisfaction of 4.4 out of 5, revision rates of 0.6 to 6.7 percent, and minor complications such as swelling, bruising, hypertrophic scarring, transient dysesthesia and asymmetry. The authors noted the studies were moderate at best in quality, with no randomised trials.[13]"
+     ]
+    },
+    {
+     "h": "Genioplasty",
+     "paras": [
+      "Genioplasty is chin surgery that can use implants or bone movement; in a sliding genioplasty a segment of the jaw is cut and moved forward, backward or in height.[14] A 2025 narrative review describes vertical reduction (removal of surplus bone) and vertical augmentation, reports high aesthetic and functional success with stable long-term results, cites a 5.8 percent rate of temporary sensory loss in one series, and says careful tensioning of the chin muscle helps prevent lower-lip incompetence.[15] Common minor effects listed by Wikipedia include swelling, haematoma and temporary lower-lip numbness or weakness.[14]"
+     ]
+    },
+    {
+     "h": "Maxillary surgery",
+     "paras": [
+      "Jaw surgery that moves the upper jaw, such as a Le Fort I osteotomy, belongs to orthognathic surgery, which Wikipedia describes as osteotomies on the upper jaw, lower jaw or both, with risks including bleeding, swelling, infection and nerve numbness that is usually temporary.[16] The looksmax.org thread above mentions a surgeon proposing 'downgrafting' of the maxilla to lengthen the midface and so rebalance the ratio, a plan the poster questioned.[1]"
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found on the chin-to-philtrum ratio itself as a measure of attractiveness or surgical outcome. Related literature on lip and lower-face proportions, and on lip lift and genioplasty outcomes, is summarised above and is labelled as such.[3][10][13][15]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2010s",
+   "event": "Looksmaxxing communities form on forums such as the PSL sites, the setting in which facial ratios are discussed.[11]"
+  },
+  {
+   "year": "2018",
+   "event": "A review of ideal lip proportions describes lower-third segments, including about 30% upper lip and 70% lip-plus-chin.[3]"
+  },
+  {
+   "year": "2019",
+   "event": "A 3D photographic study of 100 Spanish adults reports reference measurements for lip, philtrum and chin dimensions.[10]"
+  },
+  {
+   "year": "2025",
+   "event": "A narrative review of genioplasty describes vertical reduction and augmentation and reports stable results.[15]"
+  },
+  {
+   "year": "2026",
+   "event": "A systematic review of lip lift techniques reports philtrum shortening, high satisfaction and low revision rates across 7 studies.[13]"
+  }
+ ],
+ "lore": {
+  "intro": "Forum threads treat the ratio as a quick diagnostic for the lower third and a prompt for surgery-planning questions, with members disagreeing about which direction of imbalance matters most.[1][2][5][6]",
+  "claims": [
+   {
+    "claim": "A short philtrum is ideal and should not be lengthened",
+    "believers": "A looksmax.org poster says comparison photos show a small philtrum as ideal and that a surgeon's offer of maxillary downgrafting should not be taken lightly.[1]",
+    "experts": "No published studies have tested a philtrum-to-chin ratio as a beauty standard; reviews describe lower-third proportions in general and note that ideals vary with sex and ethnicity.[3][10]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "A ratio near 1:2 (philtrum to chin) is the benchmark",
+    "believers": "Members ask for 'acceptable ranges' and treat about 1:2 as the reference, while disagreeing on where to place the landmarks.[5][6]",
+    "experts": "The published lower-third figure is about 30 percent upper lip to 70 percent lip-plus-chin, which is a different split from a philtrum-to-chin ratio.[3]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Genioplasty can fix a tall chin relative to the philtrum",
+    "believers": "Forum members say a genioplasty can shorten and advance a chin to rebalance the ratio.[1][2]",
+    "experts": "A 2025 narrative review describes vertical reduction as an established technique with high success and stable results, and notes soft-tissue management matters for lip competence.[15][3]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "A lip lift can correct a long philtrum",
+    "believers": "Members discuss shortening the upper-lip skin as the fix when the philtrum looks long against the chin.[2]",
+    "experts": "A 2026 systematic review reported measured philtrum shortening, mean satisfaction of 4.4 of 5, and 0.6 to 6.7 percent revisions, while grading study quality as moderate at best.[13]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Upper-jaw surgery can rebalance the ratio but may change the nose and philtrum",
+    "believers": "A poster notes upper-jaw surgery tends to make the nose more upturned, which can make the philtrum look longer without changing its measured length.[1]",
+    "experts": "Wikipedia describes osteotomies of the upper jaw as a standard category of orthognathic surgery with recognised risks; it does not discuss philtrum effects.[16]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "The ratio must be judged together with the whole face",
+    "believers": "Replies in threads say it is impossible to judge from numbers alone without photos and other proportions.[1]",
+    "experts": "Reviews of facial proportion describe horizontal thirds as guidelines and note that some studies have not supported fixed ratios such as the golden ratio.[3]",
+    "evidence": "supported"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Question about Chin To Philtrum Ratio",
+   "url": "https://looksmax.org/threads/question-about-chin-to-philtrum-ratio.1660501/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 2,
+   "title": "fixing bad chin to philtrum ratio?",
+   "url": "https://looksmax.org/threads/fixing-bad-chin-to-philtrum-ratio.555496/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 3,
+   "title": "Is it possible to define the ideal lips?",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5952987",
+   "source": "Acta Otorhinolaryngologica Italica",
+   "year": 2018,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Philtrum",
+   "url": "https://en.wikipedia.org/wiki/Philtrum",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 5,
+   "title": "what are the acceptable ranges for the chin to philtrum ratio",
+   "url": "https://looksmax.org/threads/what-are-the-acceptable-ranges-for-the-chin-to-philtrum-ratio.356323/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 6,
+   "title": "why does chin to philtrum ratio matter",
+   "url": "https://looksmax.org/threads/why-does-chin-to-philtrum-ratio-matter.210792/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 7,
+   "title": "Worst chin to philtrum ratio i've seen in while",
+   "url": "https://looksmax.org/threads/worst-chin-to-philtrum-ratio-ive-seen-in-while.657481/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 8,
+   "title": "the ideal chin to philtrum ratio",
+   "url": "https://looksmax.org/threads/the-ideal-chin-to-philtrum-ratio.369848/",
+   "source": "looksmax.org",
+   "year": null,
+   "type": "forum"
+  },
+  {
+   "id": 10,
+   "title": "Three-dimensional photographic analysis of the face in European adults from southern Spain with normal occlusion: reference anthropometric measurements",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6714104",
+   "source": "BMC Oral Health",
+   "year": 2019,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "Looksmaxxing",
+   "url": "https://en.wikipedia.org/wiki/Looksmaxxing",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 12,
+   "title": "Lip lift",
+   "url": "https://en.wikipedia.org/wiki/Lip_lift",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 13,
+   "title": "The Bullhorn and Beyond: Evidence-Based Review and Clinical Recommendations for Lip Lift Techniques",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12929697",
+   "source": "Journal of Cosmetic Dermatology",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 14,
+   "title": "Genioplasty (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Genioplasty",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 15,
+   "title": "Current concepts in genioplasty: surgical techniques, indications, and future perspectives",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/11917404/",
+   "source": "Archives of Craniofacial Surgery",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 16,
+   "title": "Orthognathic surgery",
+   "url": "https://en.wikipedia.org/wiki/Orthognathic_surgery",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5952987",
+   "title": "Is it possible to define the ideal lips?"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Philtrum",
+   "title": "Philtrum - Wikipedia"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6714104",
+   "title": "3D photographic analysis of the face, southern Spain (2019)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Looksmaxxing",
+   "title": "Looksmaxxing - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Lip_lift",
+   "title": "Lip lift - Wikipedia"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12929697",
+   "title": "The Bullhorn and Beyond (2026)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Genioplasty",
+   "title": "Genioplasty - Wikipedia"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/11917404/",
+   "title": "Current concepts in genioplasty (2025)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Orthognathic_surgery",
+   "title": "Orthognathic surgery - Wikipedia"
+  }
+ ]
 }

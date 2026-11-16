@@ -1,118 +1,392 @@
 {
-  "name": "Acupressure",
-  "card": {
-    "summary": "Hands-on pressure applied to specific body points, used by people for relaxation, tension relief and facial puffiness, which can show up as a calmer, less tired-looking face.",
-    "aka": "Pressure-point massage, acupoint stimulation, shiatsu-style point work",
-    "evidence": "moderate",
-    "risk": "low",
-    "note": "Deep pressure is generally cautioned against over bruises, wounds, varicose veins and during pregnancy at some points.",
-    "structure": null
-  },
-  "quick": {
-    "overview": "Acupressure is a technique from traditional Chinese medicine in which a person presses, rubs or holds specific points on the body with fingers, knuckles or small tools. In looks-focused circles it is mostly used on the face, jaw, temples and neck to ease tension, reduce morning puffiness and relax a clenched jaw.\n\nThe appearance payoff described by practitioners is indirect: less muscle tension, better sleep and a calmer face. Clinical research on acupressure has focused on nausea, pain, anxiety and sleep rather than on appearance, and facial-specific trials are not part of that literature.",
-    "how": "Sessions usually involve firm, sustained pressure on one point at a time for roughly one to five minutes, either by a practitioner or as self-massage. Points near the jaw, temples, base of the skull and the web of the hand are commonly named for facial tension and swelling. Wristbands, mats and rollers are sold as passive alternatives.",
-    "risks": "Reported side effects are minor: soreness, mild bruising from heavy pressure, dizziness and occasional skin irritation when oils are used. Guidance commonly advises caution or professional clearance in pregnancy, with bleeding disorders or anticoagulant use, over injuries, infections and varicose veins."
-  },
-  "lead": [
-    "Acupressure is a manual technique that applies sustained pressure to specific points on the body. It is part of the wider tradition of traditional Chinese medicine and is related to acupuncture, which stimulates similar points with needles [1][2]. Proponents explain it through qi, a life energy said to move along channels called meridians; Wikipedia notes that no scientific evidence has been found for the existence of such points, meridians or qi [1].",
-    "In looksmaxxing and beauty settings, people use acupressure on the face, jaw, temples and neck. The stated aims are to loosen a tight masseter, reduce puffiness and promote a relaxed, rested look, and the T Nation forum has long carried casual mentions of acupressure mats and point work among lifters for recovery [3]. The route to better appearance is indirect: relaxation and tension relief, rather than structural change.",
-    "Published research has examined acupressure mostly for nausea, pain, anxiety, constipation and sleep. Randomized trials report benefits for conditions such as knee osteoarthritis pain, postpartum low back pain and chemotherapy-related nausea [4][5][6], while systematic reviews note that many trials have a high risk of bias and weak sham controls [1][7]."
+ "name": "Acupressure",
+ "card": {
+  "summary": "Hands-on pressure applied to specific body points, used by people for relaxation, tension relief and facial puffiness, which can show up as a calmer, less tired-looking face.",
+  "aka": "Pressure-point massage, acupoint stimulation, shiatsu-style point work",
+  "evidence": "moderate",
+  "risk": "low",
+  "note": "Deep pressure is generally cautioned against over bruises, wounds, varicose veins and during pregnancy at some points.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Acupressure is a technique from traditional Chinese medicine in which a person presses, rubs or holds specific points on the body with fingers, knuckles or small tools. In looks-focused circles it is mostly used on the face, jaw, temples and neck to ease tension, reduce morning puffiness and relax a clenched jaw.\n\nThe appearance payoff described by practitioners is indirect: less muscle tension, better sleep and a calmer face. Clinical research on acupressure has focused on nausea, pain, anxiety and sleep rather than on appearance, and facial-specific trials are not part of that literature.",
+  "how": "Sessions usually involve firm, sustained pressure on one point at a time for roughly one to five minutes, either by a practitioner or as self-massage. Points near the jaw, temples, base of the skull and the web of the hand are commonly named for facial tension and swelling. Wristbands, mats and rollers are sold as passive alternatives.",
+  "risks": "Reported side effects are minor: soreness, mild bruising from heavy pressure, dizziness and occasional skin irritation when oils are used. Guidance commonly advises caution or professional clearance in pregnancy, with bleeding disorders or anticoagulant use, over injuries, infections and varicose veins."
+ },
+ "lead": [
+  "Acupressure is a manual technique that applies sustained pressure to specific points on the body, using thumbs, fingers, knuckles, elbows or small tools. It belongs to the wider tradition of traditional Chinese medicine and is related to acupuncture, which stimulates similar points with needles.[1][2] Proponents explain it through qi, a life energy said to move along channels called meridians; Wikipedia notes that no scientific evidence has been found for the existence of such points, meridians or qi.[1]",
+  "In looksmaxxing and beauty settings, people use acupressure on the face, jaw, temples and neck. The stated aims are to loosen a tight masseter, reduce morning puffiness and promote a relaxed, rested look, and lifters on forums such as T Nation have long mentioned acupressure mats and point work for recovery.[3][9] Practitioner articles on cosmetic acupressure describe points around the eyes, cheeks, jaw and neck for facial tone and expression lines, while stressing that studies on appearance are limited.[16] The route to a better appearance is indirect: relaxation, tension relief and better sleep rather than structural change.",
+  "Published research has examined acupressure mostly for nausea, pain, anxiety, constipation and sleep. Randomized trials report benefits for conditions such as knee osteoarthritis pain, postpartum low back pain and chemotherapy-related nausea [4][5][6], while systematic reviews note that many trials have a high risk of bias and weak sham controls.[1][7] Facial acupressure has been a topic of cosmetic-acupuncture clinics and, since about 2021, of social-media beauty trends such as facial gua sha, a related scraping technique.[14][16]"
+ ],
+ "angle": {
+  "goal": "Skin and facial tension",
+  "chain": [
+   "Pressure on points around jaw, temples and neck",
+   "Muscle tension and puffiness ease for a time",
+   "A more relaxed, rested-looking face"
   ],
-  "angle": {
-    "goal": "Skin and facial tension",
-    "chain": ["Pressure on points around jaw, temples and neck", "Muscle tension and puffiness ease for a time", "A more relaxed, rested-looking face"],
-    "effect": "claimed",
-    "text": "People press points around the jaw, temples and base of the skull to loosen tension and move fluid, aiming for a less puffy, more relaxed face. Benefits described in research relate to relaxation, pain and sleep rather than measured facial change."
-  },
-  "infobox": [
-    ["Type", "Manual pressure-point technique"],
-    ["Origin", "Traditional Chinese medicine; related practices in Japan (anma, shiatsu)"],
-    ["Related to", "Acupuncture, reflexology, shiatsu"],
-    ["Tools", "Fingers, acupressure mats, wristbands, rollers"],
-    ["Typical session", "30 to 60 minutes by a practitioner; 1 to 5 minutes per point"]
+  "effect": "claimed",
+  "text": "People press points around the jaw, temples and base of the skull to loosen tension and move fluid, aiming for a less puffy, more relaxed face. Benefits described in research relate to relaxation, pain and sleep rather than measured facial change."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Manual pressure-point technique"
   ],
-  "sections": [
-    {
-      "h": "Description",
-      "paras": [
-        "Acupressure uses firm pressure, usually from thumbs, fingers or knuckles, on named points, with each point commonly held for one to five minutes and practitioner sessions lasting 30 to 60 minutes [2]. It differs from acupuncture in using no needles and from general massage in targeting specific points rather than broad muscle areas [2].",
-        "Related tools include acupressure mats, magnetic rollers, foot rollers and P6 wristbands worn on the inner forearm [1]. A distinct Japanese tradition, shiatsu, has a separate history and technique, and a 2018 paper in the International Journal of Therapeutic Massage & Bodywork argues the two are different practices [8]."
-      ]
-    },
-    {
-      "h": "History",
-      "paras": [
-        "Practitioners trace acupressure to ancient China, often citing the Huangdi Neijing (around 100 BCE) as the earliest organized text on point-based therapy [1]. Grokipedia also points to the Mawangdui manuscripts of 168 BCE as early descriptions of manual therapy without needles and describes later transmission of anma-style massage to Japan and Korea [2].",
-        "A minority theory summarized by Wikipedia holds that the practice began in India and reached China with a Buddhist monk [1]."
-      ]
-    },
-    {
-      "h": "Beliefs and use for appearance",
-      "paras": [
-        "Practitioners describe the aim as restoring balance in qi and relieving pain, stress and common ailments [2]. For the face, a Grokipedia overview names points on the hand, base of the skull and temples for swelling, and points over the masseter and beside the eye for jaw and tooth discomfort [2].",
-        "In lifting and strength-training forums, mentions of acupressure are typically about back spasms, recovery or body-work seminars rather than facial change [3][9]."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "A 2024 JAMA Network Open trial of 314 community-dwelling adults in Hong Kong with probable knee osteoarthritis compared two training sessions in self-administered acupressure plus education with education alone over 12 weeks [4]. A 2020 pilot trial of 70 postpartum women found lower low-back-pain intensity, activity limitation and depressive symptoms after 10 acupressure sessions compared with sham acupressure, with no significant difference in salivary cortisol [5].",
-        "A 2024 trial of 172 chemotherapy patients found that P6 acupressure, alone or with ginger, improved acute nausea and retching measures [6]. A 2025 trial in 80 spinal-cord-injury survivors tested home acupressure against light abdominal touch for constipation and well-being [10]. A 2022 systematic review and meta-analysis examined effects on anxiety [11].",
-        "Wikipedia summarizes the wider literature as mixed: some positive studies, many with high risk of bias, a 2011 review of 43 studies that found the evidence did not rigorously support symptom management, and placebo-controlled trials that have not shown statistically significant effects [1]. Cochrane reviews have found acupressure may help labor pain and low back pain, with calls for more research [1]. No published trial in this set has measured facial appearance, jaw contour or puffiness as an outcome."
-      ]
-    },
-    {
-      "h": "Safety and risks",
-      "paras": [
-        "Reported minor effects include soreness, mild bruising from excessive force, dizziness and rare skin irritation from oils [2]. Guidance summarized by Grokipedia advises avoiding abdominal points and certain points such as LI4 in pregnancy, seeking clearance with bleeding disorders, anticoagulant use, recent surgery or uncontrolled hypertension, and avoiding deep pressure over varicose veins, bruises, wounds or tumors [2]."
-      ]
-    },
-    {
-      "h": "Expert views",
-      "paras": [
-        "Wikipedia reports that Quackwatch lists acupressure among methods it considers to have no rational place in health care, while supporters argue that traditional Chinese medicine is a prescientific system whose concepts are useful guides for patient care rather than literal anatomy [1]. Clinical guidelines for integrative oncology cite acupressure and acupuncture among options for symptoms such as pain and fatigue [12]."
-      ]
-    }
+  [
+   "Origin",
+   "Traditional Chinese medicine; related practices in Japan (anma, shiatsu)"
   ],
-  "timeline": [
-    { "year": "168 BCE", "event": "Mawangdui manuscripts describe point-based manual therapy without needles [2]." },
-    { "year": "c. 100 BCE", "event": "The Huangdi Neijing is described as an early organized text on point therapy [1]." },
-    { "year": "6th century CE", "event": "Anma-style pressure massage reaches Japan and Korea [2]." },
-    { "year": "2011", "event": "A systematic review of 43 studies finds evidence did not rigorously support symptom management [1]." },
-    { "year": "2024", "event": "JAMA Network Open publishes a 314-person self-administered acupressure trial for knee osteoarthritis [4]." }
+  [
+   "Earliest texts cited",
+   "Huangdi Neijing (c. 100 BCE); Mawangdui manuscripts (168 BCE)"
   ],
-  "lore": {
-    "intro": "On lifting forums acupressure appears mainly as a recovery or spasm-relief aid, and in beauty circles as facial self-massage [3][9].",
-    "claims": [
-      {
-        "claim": "Pressing facial points reduces puffiness and relaxes the jaw",
-        "believers": "Practitioners name points on the hand, temples and base of the skull for swelling and the masseter for jaw tension [2].",
-        "experts": "No published trial has measured facial puffiness or jaw contour after acupressure; research covers pain, nausea and anxiety [1][11].",
-        "evidence": "untested"
-      },
-      {
-        "claim": "Acupressure mats and point work aid recovery from training",
-        "believers": "T Nation posters mention using an acupressure mat for back tightness and attending point-based practice seminars [3][9].",
-        "experts": "Trials report reduced back pain in postpartum women and knee osteoarthritis patients, not in lifters [4][5].",
-        "evidence": "mixed"
-      }
-    ]
-  },
-  "refs": [
-    { "id": 1, "title": "Acupressure", "url": "https://en.wikipedia.org/wiki/Acupressure", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "Acupressure", "url": "https://grokipedia.com/page/Acupressure", "source": "Grokipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 3, "title": "T Nation forum: Squats FTW", "url": "https://t-nation.com/t/squats-ftw/129573", "source": "T Nation", "year": 2010, "type": "forum" },
-    { "id": 4, "title": "Self-Administered Acupressure for Probable Knee Osteoarthritis in Middle-Aged and Older Adults: A Randomized Clinical Trial", "url": "https://pubmed.ncbi.nlm.nih.gov/38639940/", "source": "JAMA Network Open", "year": 2024, "type": "trial" },
-    { "id": 5, "title": "Effect of acupressure on postpartum low back pain, salivary cortisol, physical limitations, and depression", "url": "https://pubmed.ncbi.nlm.nih.gov/32227774/", "source": "Journal of Traditional Chinese Medicine", "year": 2020, "type": "trial" },
-    { "id": 6, "title": "Effect of ginger and P6 acupressure on chemotherapy-induced nausea and vomiting", "url": "https://pubmed.ncbi.nlm.nih.gov/38461442/", "source": "Revista da Escola de Enfermagem da USP", "year": 2024, "type": "trial" },
-    { "id": 7, "title": "Effects of Acupressure on Anxiety: A Systematic Review and Meta-Analysis", "url": "https://pubmed.ncbi.nlm.nih.gov/35085025/", "source": "Journal of Integrative and Complementary Medicine", "year": 2022, "type": "review" },
-    { "id": 8, "title": "Shiatsu and Acupressure: Two Different and Distinct Techniques", "url": "https://pubmed.ncbi.nlm.nih.gov/29881477/", "source": "International Journal of Therapeutic Massage & Bodywork", "year": 2018, "type": "study" },
-    { "id": 9, "title": "T Nation forum: Poliquin Bio-signature", "url": "https://t-nation.com/t/poliquin-bio-signature/162025", "source": "T Nation", "year": 2011, "type": "forum" },
-    { "id": 10, "title": "Home-based acupressure for managing constipation and subjective well-being in spinal cord injury survivors", "url": "https://pubmed.ncbi.nlm.nih.gov/40846520/", "source": "Journal of Integrative Medicine", "year": 2025, "type": "trial" },
-    { "id": 11, "title": "Effects of Acupressure on Anxiety: A Systematic Review and Meta-Analysis", "url": "https://pubmed.ncbi.nlm.nih.gov/35085025/", "source": "Journal of Integrative and Complementary Medicine", "year": 2022, "type": "review" },
-    { "id": 12, "title": "Integrative Medicine for Pain Management in Oncology: SIO-ASCO Guideline", "url": "https://pubmed.ncbi.nlm.nih.gov/36122322/", "source": "Journal of Clinical Oncology", "year": 2022, "type": "guideline" }
+  [
+   "Related to",
+   "Acupuncture, reflexology, shiatsu, gua sha"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Acupressure", "title": "Acupressure - Wikipedia" }
+  [
+   "Tools",
+   "Fingers, acupressure mats, wristbands, rollers"
+  ],
+  [
+   "Typical session",
+   "30 to 60 minutes by a practitioner; 1 to 5 minutes per point"
+  ],
+  [
+   "Best-studied uses",
+   "Nausea (P6 point), pain, anxiety, constipation, labour and postpartum symptoms"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Acupressure uses firm pressure, usually from thumbs, fingers or knuckles, on named points, with each point commonly held for one to five minutes and practitioner sessions lasting 30 to 60 minutes.[2] It differs from acupuncture in using no needles and from general massage in targeting specific points rather than broad muscle areas.[2]",
+    "Related tools include acupressure mats, magnetic rollers, foot rollers and P6 wristbands worn on the inner forearm; Wikipedia also lists the acuball, energy roller, pyramid power mat and magnetic spine roller.[1] A distinct Japanese tradition, shiatsu, has a separate history and technique, and a 2018 paper in the International Journal of Therapeutic Massage & Bodywork argues the two are different practices.[8]"
+   ]
+  },
+  {
+   "h": "History and related traditions",
+   "paras": [
+    "Practitioners trace acupressure to ancient China, often citing the Huangdi Neijing (around 100 BCE), compiled in the Warring States period, as the earliest organised text describing point-based therapy.[1] Grokipedia also points to the Mawangdui manuscripts of 168 BCE as early descriptions of manual therapy without needles and describes later transmission of anma-style massage to Japan and Korea.[2] A minority theory summarised by Wikipedia holds that the practice began in India around 560 BCE and reached China with a Buddhist monk.[1]",
+    "Shiatsu, meaning finger pressure, evolved from the Japanese massage tradition anma, said to have been developed in 1320 by Akashi Kan Ichi. The term was in use by 1919, when Tamai Tempaku published Shiatsu Ho; Tokujiro Namikoshi (1905-2000) founded a shiatsu college in the 1940s and is often credited with modern shiatsu, and his student Shizuto Masunaga added the Eastern-medicine framework known as Zen Shiatsu.[15] In Japan the Ministry of Health defines shiatsu as manipulation by thumbs, fingers and palms without instruments, and Wikipedia describes acupressure as one of several shiatsu techniques.[15]",
+    "Gua sha, a related practice in which a smooth tool scrapes lubricated skin until marks appear, took formal shape in Chinese medicine during the Ming dynasty (1368-1644).[14]"
+   ]
+  },
+  {
+   "h": "Beliefs and use for appearance",
+   "paras": [
+    "Practitioners describe the aim as restoring balance in qi and relieving pain, stress and common ailments.[2] For the face, a Grokipedia overview names points on the hand, base of the skull and temples for swelling, and points over the masseter and beside the eye for jaw and tooth discomfort.[2]",
+    "A cosmetic-acupuncture college blog lists facial points including Yin Tang between the brows, points along the cheekbone, jaw and eye region, and light massage around the orbicularis oculi and the platysma, with body points added for overall balance. It reports a single 34-year-old patient who followed a 20-day instrument-assisted point protocol and rated improvements in facial tone, skin, jawline and neck on a self-scored diary with before-and-after photos.[16] The author notes that studies on acupressure for appearance are minimal and inconsistent, that the case warrants further study, and that the patient also kept a skincare routine and exercised.[16]",
+    "In lifting and strength-training forums, mentions of acupressure are typically about back spasms, recovery or body-work seminars rather than facial change; one 2010 training-log post describes using a Shanti acupressure mat for upper back tightness.[3][9] A Lemmy post describes the spiky acupressure mats that people lie on, which it notes have appeared online for years.[17]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A 2024 JAMA Network Open trial of 314 community-dwelling adults in Hong Kong with probable knee osteoarthritis compared two training sessions in self-administered acupressure plus education with education alone over 12 weeks.[4] A 2020 pilot trial of 70 postpartum women found lower low-back-pain intensity, activity limitation and depressive symptoms after 10 acupressure sessions compared with sham acupressure, with no significant difference in salivary cortisol.[5]",
+    "A 2024 trial of 172 chemotherapy patients found that P6 acupressure, alone or with ginger, improved acute nausea and retching measures.[6] A 2025 trial in 80 spinal-cord-injury survivors tested home acupressure against light abdominal touch for constipation and well-being.[10] A 2022 systematic review and meta-analysis examined effects on anxiety.[11] Randomized trials have also examined acupressure for labour pain, hyperemesis gravidarum and lactation.[18][19][20]",
+    "Wikipedia summarises the wider literature as mixed: a 2011 systematic review of 43 studies found a significant likelihood of bias, with 35 concluding acupressure was effective while the authors said rigorous support was lacking; P6 stimulation reduced post-operative nausea but not vomiting on low-quality evidence; and placebo-controlled trials have not shown statistically significant effects, though acupressure was judged safe alongside conventional treatment.[1] A 2019 review of 15 studies (930 participants) cited by NCCIH found that auricular acupuncture or acupressure reduced pain, and NCCIH notes that benefits in acupuncture trials are often larger against no treatment than against sham, which suggests nonspecific effects contribute.[13] A 2020 JAMA Oncology meta-analysis examined acupuncture and acupressure for cancer pain.[21]",
+    "For facial appearance, no randomised trial of acupressure specifically was identified. A 2025 randomised trial of facial plus body acupuncture for frown lines in the Journal of Cosmetic Dermatology used a no-treatment comparison, and a 2025 trial of 34 women reported modest changes in facial surface distances after sustained use of facial gua sha; both are related techniques rather than acupressure.[14][16]"
+   ]
+  },
+  {
+   "h": "Social media and facial gua sha",
+   "paras": [
+    "Facial gua sha surged on TikTok in 2021 and 2022, promoted by beauty influencers for lymphatic drainage and skin rejuvenation, with cosmetic use employing lighter pressure than musculoskeletal treatment.[14] Wikipedia calls gua sha a pseudoscientific practice that lacks high-quality evidence of clinical benefit, while dermatologists quoted in beauty media describe the research base as limited and the practice as generally harmless if enjoyed.[14] Minor effects such as redness and bruising are nearly universal with traditional gua sha, and rare serious effects such as cerebral bleeding have been reported.[14]"
+   ]
+  },
+  {
+   "h": "Safety and regulation",
+   "paras": [
+    "Reported side effects of acupressure are minor: soreness, mild bruising from heavy pressure, dizziness and occasional skin irritation when oils are used.[1] Guidance commonly advises caution or professional clearance in pregnancy, bleeding disorders or anticoagulant use, and over injuries, infections and varicose veins.[2] NCCIH advises that complementary approaches should not be used to delay seeing a health care provider and should be discussed with providers.[13] In the United States most states license acupuncturists, and Medicare has covered acupuncture for chronic low back pain since 2020; acupressure itself is not licensed as a separate profession in the sources reviewed.[13]"
+   ]
+  },
+  {
+   "h": "Expert views",
+   "paras": [
+    "Wikipedia reports that Quackwatch lists acupressure among methods it considers to have no rational place in health care, while supporters argue that traditional Chinese medicine is a prescientific system whose concepts are useful guides for patient care rather than literal anatomy.[1] Critics note there is no anatomical or histological basis for acupuncture points or meridians.[1] NCCIH says the mechanism of acupuncture is not fully understood and cites possible effects on the nervous system, connective tissue and nonspecific effects.[13] Clinical guidelines for integrative oncology cite acupressure and acupuncture among options for symptoms such as pain and fatigue.[12]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1320",
+   "event": "Akashi Kan Ichi is credited with developing the Japanese massage tradition anma, precursor of shiatsu.[15]"
+  },
+  {
+   "year": "168 BCE",
+   "event": "Mawangdui manuscripts describe point-based manual therapy without needles.[2]"
+  },
+  {
+   "year": "c. 100 BCE",
+   "event": "The Huangdi Neijing is described as an early organised text on point therapy.[1]"
+  },
+  {
+   "year": "1368-1644",
+   "event": "Gua sha takes formal shape in Chinese medicine during the Ming dynasty.[14]"
+  },
+  {
+   "year": "1919",
+   "event": "Tamai Tempaku publishes Shiatsu Ho, using the term shiatsu.[15]"
+  },
+  {
+   "year": "1940s",
+   "event": "Tokujiro Namikoshi founds a shiatsu college; shiatsu later gains state recognition in Japan.[15]"
+  },
+  {
+   "year": "2011",
+   "event": "A systematic review of 43 studies finds evidence did not rigorously support symptom management.[1]"
+  },
+  {
+   "year": "2018",
+   "event": "A paper argues that shiatsu and acupressure are distinct techniques.[8]"
+  },
+  {
+   "year": "2020",
+   "event": "Medicare begins covering acupuncture for chronic low back pain; a JAMA Oncology meta-analysis reviews acupuncture and acupressure for cancer pain.[13][21]"
+  },
+  {
+   "year": "2021",
+   "event": "Facial gua sha surges on TikTok through 2022.[14]"
+  },
+  {
+   "year": "2024",
+   "event": "JAMA Network Open publishes a 314-person self-administered acupressure trial for knee osteoarthritis.[4]"
+  }
+ ],
+ "lore": {
+  "intro": "On lifting forums acupressure appears mainly as a recovery or spasm-relief aid, and in beauty circles as facial self-massage and gua sha.[3][9][14]",
+  "claims": [
+   {
+    "claim": "Pressing facial points reduces puffiness and relaxes the jaw",
+    "believers": "Practitioners name points on the hand, temples and base of the skull for swelling and the masseter for jaw tension.[2][16]",
+    "experts": "No published trial of acupressure itself has measured facial puffiness or jaw contour; research covers pain, nausea and anxiety.[1][11]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Facial acupressure improves tone, wrinkles and jawline",
+    "believers": "A cosmetic-acupuncture clinic describes a single patient reporting improved tone, skin and jawline after a 20-day protocol.[16]",
+    "experts": "The clinic's own author calls studies on appearance minimal and inconsistent and the case a single self-reported one; a frown-line trial used acupuncture with a no-treatment comparison.[16]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Acupressure mats and point work aid recovery from training",
+    "believers": "T Nation posters mention using an acupressure mat for back tightness and attending point-based practice seminars.[3][9]",
+    "experts": "Trials report reduced back pain in postpartum women and knee osteoarthritis patients, not in lifters.[4][5]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Acupressure at the P6 wrist point eases nausea",
+    "believers": "Wristbands and point pressure are widely used for motion and treatment-related nausea.[6]",
+    "experts": "A 2024 trial of 172 chemotherapy patients reported improved acute nausea and retching with P6 acupressure, and Wikipedia reports reduced post-operative nausea on low-quality evidence.[6][1]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Points and meridians are real channels of qi",
+    "believers": "Practitioners describe qi flowing along meridians that acupressure rebalances.[2]",
+    "experts": "Wikipedia reports that no scientific evidence has been found for points, meridians or qi, and NCCIH says mechanisms are not fully understood.[1][13]",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "Facial gua sha sculpts the face and drains lymph",
+    "believers": "TikTok beauty influencers promoted it widely in 2021 and 2022.[14]",
+    "experts": "Dermatologists quoted in beauty media describe few randomised trials; a 2025 trial of 34 women reported modest changes in facial surface distances; Wikipedia says high-quality evidence of benefit is lacking.[14]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Acupressure",
+   "url": "https://en.wikipedia.org/wiki/Acupressure",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Acupressure",
+   "url": "https://grokipedia.com/page/Acupressure",
+   "source": "Grokipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "T Nation forum: Squats FTW",
+   "url": "https://t-nation.com/t/squats-ftw/129573",
+   "source": "T Nation",
+   "year": 2010,
+   "type": "forum"
+  },
+  {
+   "id": 4,
+   "title": "Self-Administered Acupressure for Probable Knee Osteoarthritis in Middle-Aged and Older Adults: A Randomized Clinical Trial",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38639940/",
+   "source": "JAMA Network Open",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "Effect of acupressure on postpartum low back pain, salivary cortisol, physical limitations, and depression",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32227774/",
+   "source": "Journal of Traditional Chinese Medicine",
+   "year": 2020,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Effect of ginger and P6 acupressure on chemotherapy-induced nausea and vomiting",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38461442/",
+   "source": "Revista da Escola de Enfermagem da USP",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Effects of Acupressure on Anxiety: A Systematic Review and Meta-Analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35085025/",
+   "source": "Journal of Integrative and Complementary Medicine",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "Shiatsu and Acupressure: Two Different and Distinct Techniques",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29881477/",
+   "source": "International Journal of Therapeutic Massage & Bodywork",
+   "year": 2018,
+   "type": "study"
+  },
+  {
+   "id": 9,
+   "title": "T Nation forum: Poliquin Bio-signature",
+   "url": "https://t-nation.com/t/poliquin-bio-signature/162025",
+   "source": "T Nation",
+   "year": 2011,
+   "type": "forum"
+  },
+  {
+   "id": 10,
+   "title": "Home-based acupressure for managing constipation and subjective well-being in spinal cord injury survivors",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40846520/",
+   "source": "Journal of Integrative Medicine",
+   "year": 2025,
+   "type": "trial"
+  },
+  {
+   "id": 11,
+   "title": "Effects of Acupressure on Anxiety: A Systematic Review and Meta-Analysis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35085025/",
+   "source": "Journal of Integrative and Complementary Medicine",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 12,
+   "title": "Integrative Medicine for Pain Management in Oncology: SIO-ASCO Guideline",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36122322/",
+   "source": "Journal of Clinical Oncology",
+   "year": 2022,
+   "type": "guideline"
+  },
+  {
+   "id": 13,
+   "title": "Acupuncture: What You Need To Know",
+   "url": "https://www.nccih.nih.gov/health/acupuncture-what-you-need-to-know",
+   "source": "NCCIH",
+   "year": 2025,
+   "type": "guideline"
+  },
+  {
+   "id": 14,
+   "title": "Gua sha",
+   "url": "https://en.wikipedia.org/wiki/Gua_sha",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 15,
+   "title": "Shiatsu",
+   "url": "https://en.wikipedia.org/wiki/Shiatsu",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 16,
+   "title": "Acupressure for Beauty and Health",
+   "url": "https://www.pacificcollege.edu/news/blog/2021/09/27/acupressure-for-beauty-and-health",
+   "source": "Pacific College",
+   "year": 2021,
+   "type": "news"
+  },
+  {
+   "id": 17,
+   "title": "Possible Health Benefits of Acupressure (Spiky) Mats",
+   "url": "https://lemmy.basedcount.com/post/920573",
+   "source": "Lemmy",
+   "year": 2024,
+   "type": "forum"
+  },
+  {
+   "id": 18,
+   "title": "The effect of acupressure and massage on labor pain and birth satisfaction: a randomized controlled trial.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38693027/",
+   "source": "Explore",
+   "year": 2024,
+   "type": "trial"
+  },
+  {
+   "id": 19,
+   "title": "Effect of Acupressure at P6 on Nausea and Vomiting in Women with Hyperemesis Gravidarum: A Randomized Controlled Trial.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36078602/",
+   "source": "International Journal of Environmental Research and Public Health",
+   "year": 2022,
+   "type": "trial"
+  },
+  {
+   "id": 20,
+   "title": "Effects of Acupressure on Lactation: An Integrated Review.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36227074/",
+   "source": "MCN. The American Journal of Maternal Child Nursing",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 21,
+   "title": "Clinical Evidence for Association of Acupuncture and Acupressure With Improved Cancer Pain: A Systematic Review and Meta-Analysis.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31855257/",
+   "source": "JAMA Oncology",
+   "year": 2020,
+   "type": "review"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Acupressure",
+   "title": "Acupressure - Wikipedia"
+  },
+  {
+   "url": "https://www.nccih.nih.gov/health/acupuncture-what-you-need-to-know",
+   "title": "Acupuncture: What You Need To Know - NCCIH"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Gua_sha",
+   "title": "Gua sha - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Shiatsu",
+   "title": "Shiatsu - Wikipedia"
+  },
+  {
+   "url": "https://www.pacificcollege.edu/news/blog/2021/09/27/acupressure-for-beauty-and-health",
+   "title": "Acupressure for Beauty and Health - Pacific College"
+  }
+ ]
 }

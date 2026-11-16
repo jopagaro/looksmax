@@ -13,9 +13,9 @@
   "risks": "The estimate is an average for a population, so individuals can fall well above or below it. In clinical practice, a child far outside their mid-parental range is typically referred for endocrine assessment, since some hormonal and genetic conditions change growth."
  },
  "lead": [
-  "Regression toward the mean is the statistical tendency for offspring of parents with extreme heights to be closer to the average than their parents. Height is strongly heritable, with twin studies cited at roughly 60 to 80 percent, but because many genes and environmental factors contribute, very tall or very short parents typically have children who are tall or short, yet less extreme.[4]",
-  "Clinicians use the idea through the mid-parental height, the parents' heights combined into one target value. Paediatric reviews describe predicting expected growth from mid-parental height as essential in monitoring a child's growth.[1] Within looksmaxxing, the concept is used to estimate how tall someone might become and to judge whether growth is on track.",
-  "Mid-parental height also appears in clinical definitions. Gigantism is defined by height more than two standard deviations above the mean, or more than two standard deviations above the calculated mid-parental height, prompting hormone work-up.[2] It also features in studies of what predicts response to growth hormone treatment.[3]"
+  "Regression toward the mean, in the context of height, is the observation that children of very tall parents are usually tall but on average less tall than their parents, while children of very short parents are usually short but on average taller than their parents. The pattern was first quantified by Francis Galton in 1886, who measured the heights of 930 adult children and their 205 sets of parents and described the result as regression toward mediocrity in hereditary stature.[9][6]",
+  "In clinical practice the idea is paired with the mid-parental height: a figure built from the mother's and father's heights, adjusted for the child's sex, that serves as a genetic target for a growing child. Paediatric reviews state that expected growth should be predicted from mid-parental height, a step they describe as often omitted.[1] Mid-parental height also appears in the definition of gigantism and in studies of how children respond to growth hormone therapy.[2][3]",
+  "In looksmaxxing and height-focused forums, people routinely post their parents' heights next to their own age and height to estimate their potential adult height, and the target-height calculation is the standard first reference point before any discussion of bone age, growth plates or other interventions.[13] Its use for appearance is expectation-setting: it tells a person where their growth is likely to end and whether their current trajectory sits inside or outside the expected range, which informs whether a clinical assessment, footwear or other height-adding options are worth considering."
  ],
  "angle": {
   "goal": "Height",
@@ -37,12 +37,24 @@
    "Mid-parental height, target height"
   ],
   [
+   "First described",
+   "Francis Galton, 1886 (hereditary stature)"
+  ],
+  [
+   "Classic clinical formula",
+   "Tanner (1970): (father + mother +/- 13 cm) / 2, range +/- 8.5 cm"
+  ],
+  [
    "Used by",
    "Paediatric endocrinologists, growth clinics"
   ],
   [
    "Related measures",
-   "Growth velocity, bone age"
+   "Growth velocity, bone age, pubertal stage"
+  ],
+  [
+   "Heritability of height",
+   "About 60-80% in twin studies"
   ]
  ],
  "sections": [
@@ -50,31 +62,145 @@
    "h": "Description",
    "paras": [
     "A child's height is influenced by inherited variants at hundreds of loci together with nutrition, health and other environmental factors, so a parent-to-child prediction is an average rather than a guarantee.[4] Offspring of extreme parents are expected to be extreme, but less so; that shrinkage toward the population average is the regression effect.[4]",
+    "Statistically, regression toward the mean arises whenever two measurements are imperfectly correlated: an unusually extreme value is partly the product of chance, and chance is not repeated. In the height case the parents' extreme stature reflects both inherited and non-inherited contributions, and only the inherited part is passed on, so the offspring distribution is centred closer to the population mean.[6] Wikipedia notes that the effect is descriptive rather than causal and that the term has since spread into general statistics far beyond genetics.[6]",
     "The mid-parental height is the combined figure from both parents, adjusted for the child's sex. A child's final height is usually compared with a range around that target rather than a single number.[1]"
+   ]
+  },
+  {
+   "h": "Origins: Galton and hereditary stature",
+   "paras": [
+    "Francis Galton arrived at the idea through experiments on the sizes of sweet-pea seeds in the 1870s, calling the pattern first reversion and later regression.[7] He presented the explanation in his 1885 presidential address to the British Association, and in 1886 published \"Regression towards mediocrity in hereditary stature\" in the Journal of the Anthropological Institute.[7][6]",
+    "For the stature study Galton used family records: heights of 930 adult children and of their 205 sets of parents. To avoid objections based on sex differences he multiplied every female height by 1.08 to convert it to a male equivalent, and he combined the two parents into a single \"mid-parent\" value.[9] Galton found that the average deviation of the offspring from the population mean was a constant fraction, about two-thirds, of the mid-parent's deviation.[6][9] His data came from his Anthropometric Laboratory and family-record collections, and the work fed into his Natural Inheritance (1889) and later the development of correlation and linear regression.[7][6]",
+    "Galton's own explanation was based on ancestry: a child inherits not only from its parents but from more remote ancestors, so extremes dilute over generations. Later genetics replaced that account, but the statistical result he measured, and the word regression, remained.[6]"
+   ]
+  },
+  {
+   "h": "Target height formulas",
+   "paras": [
+    "The best-known clinical formula is attributed to Tanner and colleagues (1970): for boys, the father's height plus the mother's height plus 13 cm, divided by two; for girls, the same sum minus 13 cm, divided by two. The conventional range around the target is plus or minus 8.5 cm, roughly the 3rd to 97th percentile.[8][10] The 13 cm figure is the average adult sex difference, and a 2025 review notes that equivalent factors vary by population, for example 13.2 cm in the UK, 14.4 in Flanders and 15.8 in India.[8]",
+    "Several refinements exist. Tanner and Buckler suggested adjusting by 1 cm for every 5 cm that the mid-parental height departs from the population mean, to build in regression. Wright and colleagues expressed the target in standard-deviation scores as roughly half of the mid-parental score. Hermanussen and Cole (2002) proposed a sex-neutral formula multiplying the average parental score by 0.72, which accounts for the correlation between parents and for assortative mating; the 2025 BMC Pediatrics review recommends it and notes it is already used in growth-hormone treatment studies.[8] A Swedish formula by Luo and colleagues uses regression coefficients of about 0.75-0.78 on mid-parental height.[8]",
+    "A 2024 study from a team including Zeevi examined 23 large families and reported that children were on average 2.7 cm taller than the standard prediction, with the gap shrinking to roughly 0.06 cm after correcting parental heights for age; the authors proposed an age-corrected algorithm.[10]"
+   ]
+  },
+  {
+   "h": "Accuracy and known limitations",
+   "paras": [
+    "Reviewers describe target height as an estimate, not an exact calculation.[8] The Tanner approach underestimates adult height in several modern populations, by about 2.3 cm in Taiwan and larger amounts in some Indian and Spanish samples, partly because it ignores secular trends: average height has risen by up to about 10 cm in industrialised countries over roughly 150 years.[8][4]",
+    "Because of regression, the plain formula tends to under-predict children of short parents and over-predict children of very tall parents.[8][10] Parental height correlation (assortative mating) of 0.1-0.4, and disparity between parents, also reduce accuracy.[8] Self-reported parental heights are often overestimated, by 4-6 cm or more, especially for fathers and short parents, which is why measured heights are preferred.[8]",
+    "Genetics is more complex than a single parental average. Twin studies put the heritability of height at about 60-80%, and genome-wide association studies have identified hundreds of variants in hundreds of loci, including groups that mainly influence leg length, spine and head length, or overall body size.[4] Nutrition and health in childhood also matter: malnutrition can reduce adult height, and diet quality is associated with differences between populations.[4]"
    ]
   },
   {
    "h": "Use in clinical practice",
    "paras": [
     "Reviews of neonatal and postnatal growth state that expected growth should be predicted from mid-parental height, a step that is frequently omitted.[1]",
-    "In growth disorders, the target is a reference point. Gigantism is defined partly as height more than two standard deviations above mid-parental height, which leads to checks for excess growth hormone and related conditions.[2] In Klinefelter syndrome, adult height tends to exceed mid-parental height.[5] In short stature therapy, mid-parental height is one factor shaping how a child responds to growth hormone, alongside age at start and bone age.[3]"
+    "In growth disorders, the target is a reference point. Gigantism is defined partly as height more than two standard deviations above mid-parental height, which leads to checks for excess growth hormone and related conditions.[2] In Klinefelter syndrome, adult height tends to exceed mid-parental height.[5] Short stature in children with severe atopic eczema has been defined as height below the third centile corrected for mid-parental height.[11] In short stature therapy, mid-parental height is one factor shaping how a child responds to growth hormone, alongside age at start and bone age; reviews of growth hormone receptor genetics also list it among the variables that partly explain individual response.[3][12]",
+    "Bone age and puberty timing are used alongside the parental target. The 2025 review reports that children with advanced bone age and no endocrine disorder usually finish within the target range, though they reach it earlier, and that pathological precocious or delayed puberty may leave adult height below it, with studies disagreeing.[8]"
    ]
   },
   {
    "h": "In looksmaxxing culture",
    "paras": [
-    "Height threads on looksmax.org frequently include parents' heights when users ask about their potential, and the target figure is used as a rough projection. Some users compare it with their actual growth to decide whether to see an endocrinologist."
+    "Height threads on looksmax.org frequently include parents' heights when users ask about their potential, for example a 17-year-old posting his own height and both parents' heights and asking what he could reach if growth plates are still open.[13] The target figure is used as a rough projection and compared with actual growth to judge whether to see an endocrinologist; some posters discuss growth hormone and aromatase inhibitors in this context, which are prescription medicines that clinicians manage for specific diagnoses.[3]",
+    "In these communities height is widely treated as a fixed, high-value trait, and the target calculation functions as the gateway concept: it frames what is genetic baseline and what, if anything, could be changed. Posters commonly pair it with bone-age X-rays, growth-plate status and stack-style routines for sleep, nutrition and training, while height-adding footwear and limb-lengthening surgery sit at the other end of the discussion as options that do not depend on the target."
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "Published reviews describe mid-parental height as a standard predictor in growth monitoring and treatment response.[1][3] Studies of specific conditions report how final height compares with the parental target, for example in Klinefelter syndrome.[5] These are paediatric reviews rather than trials of the concept itself."
+    "Published reviews describe mid-parental height as a standard predictor in growth monitoring and treatment response.[1][3] Studies of specific conditions report how final height compares with the parental target, for example in Klinefelter syndrome.[5] The accuracy of the Tanner formula and its alternatives has been compared in population samples, with reported under-estimation in several countries and recommendations for sex-neutral or population-specific formulas.[8] A family-based cohort study has proposed an age-corrected version.[10] These are paediatric and statistical studies of the prediction itself rather than trials of an intervention."
    ]
   }
  ],
- "timeline": [],
- "lore": null,
+ "timeline": [
+  {
+   "year": "1875",
+   "event": "Galton begins sweet-pea experiments on inheritance of seed size, the origin of his regression idea.[7]"
+  },
+  {
+   "year": "1884",
+   "event": "Galton opens his Anthropometric Laboratory, collecting body measurements from thousands of visitors.[7]"
+  },
+  {
+   "year": "1885",
+   "event": "Galton gives his British Association presidential address explaining the regression phenomenon.[7]"
+  },
+  {
+   "year": "1886",
+   "event": "Galton publishes \"Regression towards mediocrity in hereditary stature\", using 930 adult children of 205 mid-parents.[9][6]"
+  },
+  {
+   "year": "1889",
+   "event": "Natural Inheritance presents the idea alongside the Galton board and the Law of Ancestral Heredity.[6][7]"
+  },
+  {
+   "year": "1970",
+   "event": "Tanner and colleagues' mid-parental target height formula and +/-8.5 cm range enters paediatric practice.[8]"
+  },
+  {
+   "year": "1998",
+   "event": "Luo and colleagues publish a regression-based Swedish target-height formula from 2,402 children.[8]"
+  },
+  {
+   "year": "2002",
+   "event": "Hermanussen and Cole propose a sex-neutral target-height formula built on a 0.72 factor.[8]"
+  },
+  {
+   "year": "2024",
+   "event": "Zeevi and colleagues report an age-corrected target-height method from 23 large families.[10]"
+  },
+  {
+   "year": "2025",
+   "event": "A BMC Pediatrics review assesses the accuracy of Tanner's formula across populations and recommends the Hermanussen-Cole approach.[8]"
+  }
+ ],
+ "lore": {
+  "intro": "On height forums, parents' heights are treated as the first clue to a person's potential, and the mid-parental target is quoted as a baseline that other factors may push up or down.[13]",
+  "claims": [
+   {
+    "claim": "Your parents' heights set your height ceiling",
+    "believers": "Posters commonly ask what height they can reach given their parents' heights, treating the parental average as the main determinant.[13]",
+    "experts": "Twin studies place heritability at about 60-80% and parental height is a standard predictor, but adult height also depends on nutrition, health and puberty, and the clinical range around the target is plus or minus 8.5 cm.[4][8]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "The target-height formula tells you your exact adult height",
+    "believers": "Some calculators and posts present a single number from the mid-parental formula as the expected result.[13]",
+    "experts": "Reviewers call target height an estimation far from an exact calculation, with a conventional band of about 17 cm total and documented under-prediction in several populations.[8]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Very tall parents guarantee a very tall child",
+    "believers": "Users with tall parents often expect to match or exceed them.[13]",
+    "experts": "Galton's data and later work show offspring of extreme parents are expected to be extreme but closer to average, so the plain formula over-predicts children of very tall parents.[9][8][10]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Short parents mean a short child",
+    "believers": "Posters with short parents sometimes treat their potential as capped at the formula's value.[13]",
+    "experts": "Because of regression, children of short parents tend to be taller than the simple formula predicts, and Tanner's formula is described as less accurate for them.[8][10]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Parents' self-reported heights are good enough to calculate potential",
+    "believers": "Posts typically quote parental heights from memory in feet and inches.[13]",
+    "experts": "A 2025 review notes self-reported parental heights are often overestimated by 4-6 cm or more and that measured heights are preferred.[8]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Growing well below your target means something is wrong and warrants a growth work-up",
+    "believers": "Some users compare their actual growth with the target and consider seeing an endocrinologist if they lag.[13]",
+    "experts": "Clinical definitions of gigantism and short stature explicitly reference mid-parental height, and clinicians use deviations from it, together with growth velocity and bone age, to decide on evaluation.[2][8][11]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Interventions such as growth hormone can lift you above your genetic target",
+    "believers": "Users discuss growth hormone and aromatase inhibitors as ways to add height beyond expectations.[13]",
+    "experts": "Reviews report that response to growth hormone varies widely and depends on diagnosis, age at start, bone age and mid-parental height; results are studied in children with specific growth disorders.[3][12]",
+    "evidence": "mixed"
+   }
+  ]
+ },
  "refs": [
   {
    "id": 1,
@@ -115,12 +241,96 @@
    "source": "Archives of disease in childhood",
    "year": 2023,
    "type": "review"
+  },
+  {
+   "id": 6,
+   "title": "Regression toward the mean",
+   "url": "https://en.wikipedia.org/wiki/Regression_toward_the_mean",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 7,
+   "title": "Francis Galton",
+   "url": "https://en.wikipedia.org/wiki/Francis_Galton",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 8,
+   "title": "How accurate is Tanner's formula in estimating target height?",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12797921/",
+   "source": "BMC Pediatrics",
+   "year": 2025,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "Regression towards mediocrity in hereditary stature",
+   "url": "https://pdf.galton.org/essays/1880-1889/galton-1886-jaigi-regression-stature.pdf",
+   "source": "Journal of the Anthropological Institute (Galton, via galton.org)",
+   "year": 1886,
+   "type": "study"
+  },
+  {
+   "id": 10,
+   "title": "Accurate prediction of children's target height from their mid-parental height",
+   "url": "https://www.medrxiv.org/content/10.1101/2022.10.31.22281712.full.pdf",
+   "source": "medRxiv (later published in Children)",
+   "year": 2022,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "Short stature in children with atopic eczema.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2678865/",
+   "source": "Acta dermato-venereologica. Supplementum",
+   "year": 1989,
+   "type": "review"
+  },
+  {
+   "id": 12,
+   "title": "Growth hormone receptor polymorphisms.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17986824/",
+   "source": "Endocrine development",
+   "year": 2007,
+   "type": "review"
+  },
+  {
+   "id": 13,
+   "title": "Height (thread)",
+   "url": "https://looksmax.org/threads/height.1840843/",
+   "source": "looksmax.org",
+   "year": 2025,
+   "type": "forum"
   }
  ],
  "webSources": [
   {
+   "url": "https://en.wikipedia.org/wiki/Regression_toward_the_mean",
+   "title": "Regression toward the mean - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Francis_Galton",
+   "title": "Francis Galton - Wikipedia"
+  },
+  {
    "url": "https://en.wikipedia.org/wiki/Human_height",
    "title": "Human height - Wikipedia"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12797921/",
+   "title": "How accurate is Tanner's formula in estimating target height? - BMC Pediatrics"
+  },
+  {
+   "url": "https://pdf.galton.org/essays/1880-1889/galton-1886-jaigi-regression-stature.pdf",
+   "title": "Galton 1886, Regression towards mediocrity in hereditary stature"
+  },
+  {
+   "url": "https://www.medrxiv.org/content/10.1101/2022.10.31.22281712.full.pdf",
+   "title": "Accurate prediction of children's target height from their mid-parental height - medRxiv"
   }
  ]
 }

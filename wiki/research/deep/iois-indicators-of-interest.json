@@ -1,92 +1,330 @@
 {
-  "name": "IOIs (indicators of interest)",
-  "card": {
-    "summary": "The behaviours (eye contact, smiles, touch, conversation effort) read as signs that someone is attracted, used in looksmaxxing circles as a feedback signal for whether appearance changes are landing.",
-    "aka": "iois, indicators of interest, signals of interest",
-    "evidence": "limited",
-    "risk": "low",
-    "note": "Research finds that people often misread subtle interest cues; interpretations in forums are anecdotal.",
-    "price": null
-  },
-  "quick": {
-    "overview": "IOIs are the small signals people read as meaning someone is interested in them: sustained eye contact, smiling, leaning in, hair or object touching, finding reasons to talk. In looksmaxxing communities the term comes up as a kind of real-world scoreboard, and members swap accounts of how many signals they notice before and after changing their grooming, fitness or style.\n\nThe topic links appearance to social feedback. Members treat a shift in attention as a sign that a haircut, fitness change or skin improvement is registering, while others dispute that individual cues can be read reliably. Published research on flirting describes cues such as glances and touch, and also reports that subtle interest is often missed or misread.",
-    "how": "In practice people observe how strangers and acquaintances respond to them in public, sometimes keeping a mental or written tally, and compare how that changes over time. Guides shared in the forums describe cues to look for and how to respond. Communities also discuss deliberately going out to see whether attention changes.",
-    "risks": "The main practical issue described in research is misinterpretation: friendliness can be mistaken for romantic interest, and covert interest can go unnoticed. Forum members also describe disappointment when counting signals becomes a measure of self-worth, and some argue the concept leads people to over-read ordinary behaviour."
-  },
-  "lead": [
-    "IOIs, short for indicators of interest, are the verbal and nonverbal signals that someone is interested in another person romantically or sexually. The term circulates widely in dating advice and in looksmaxxing forums, where it is used both as a skill (reading signals) and as a measure (whether changes to appearance produce more of them).",
-    "The behaviours usually listed correspond to those described in research on flirting: exchanged glances, smiling, touching, and attentive conversation [1]. Wikipedia's overview of flirting cites studies reporting that greater physical attraction predicts more flirting [1], and that interest is often expressed covertly because overt interest carries social costs [1].",
-    "On looksmax.org, threads range from members describing how many IOIs they receive, to guides to interpreting them, to members who dispute that the concept is useful at all [2][3][4][5]."
+ "name": "IOIs (indicators of interest)",
+ "card": {
+  "summary": "The behaviours (eye contact, smiles, touch, conversation effort) read as signs that someone is attracted, used in looksmaxxing circles as a feedback signal for whether appearance changes are landing.",
+  "aka": "iois, indicators of interest, signals of interest",
+  "evidence": "limited",
+  "risk": "low",
+  "note": "Research finds that people often misread subtle interest cues; interpretations in forums are anecdotal.",
+  "price": null
+ },
+ "quick": {
+  "overview": "IOIs are the small signals people read as meaning someone is interested in them: sustained eye contact, smiling, leaning in, hair or object touching, finding reasons to talk. In looksmaxxing communities the term comes up as a kind of real-world scoreboard, and members swap accounts of how many signals they notice before and after changing their grooming, fitness or style.\n\nThe topic links appearance to social feedback. Members treat a shift in attention as a sign that a haircut, fitness change or skin improvement is registering, while others dispute that individual cues can be read reliably. Published research on flirting describes cues such as glances and touch, and also reports that subtle interest is often missed or misread.",
+  "how": "In practice people observe how strangers and acquaintances respond to them in public, sometimes keeping a mental or written tally, and compare how that changes over time. Guides shared in the forums describe cues to look for and how to respond. Communities also discuss deliberately going out to see whether attention changes.",
+  "risks": "The main practical issue described in research is misinterpretation: friendliness can be mistaken for romantic interest, and covert interest can go unnoticed. Forum members also describe disappointment when counting signals becomes a measure of self-worth, and some argue the concept leads people to over-read ordinary behaviour."
+ },
+ "lead": [
+  "IOIs, short for indicators of interest, are the verbal and nonverbal signals that someone is interested in another person romantically or sexually. The term circulates widely in dating advice and in looksmaxxing forums, where it is used both as a skill (reading signals) and as a measure (whether changes to appearance produce more of them).",
+  "The term comes from the pickup or seduction community of the 1990s and 2000s, where an IOI is a sign from a target that she or he is interested, after which the man is expected to show interest in return [8]. The behaviours usually listed correspond to those described in academic research on flirting: exchanged glances, smiling, hand and hair touching, and attentive conversation [1]. Research on that topic reports that greater physical attraction predicts more flirting [1], and that interest is often expressed covertly because overt interest carries social costs [1].",
+  "For people working on their appearance, IOIs serve as an informal feedback channel. Looksmax.org members post about receiving more or fewer signals as their grooming, fitness or health changes [5], compare notes on how to read them [3], and argue about whether they exist at all [2][4]. Experimental work from the University of Kansas found that strangers in a ten-to-twelve-minute conversation correctly noticed flirting by a partner in only a minority of cases, which is the research finding most often relevant to the forum debate [7]."
+ ],
+ "angle": {
+  "goal": "Dating feedback",
+  "chain": [
+   "Appearance, grooming or fitness changes",
+   "Others respond with more eye contact, smiles and conversation",
+   "Member reads the change in attention as feedback on how the look is landing"
   ],
-  "angle": {
-    "goal": "Dating feedback",
-    "chain": ["Appearance, grooming or fitness changes", "Others respond with more eye contact, smiles and conversation", "Member reads the change in attention as feedback on how the look is landing"],
-    "effect": "claimed",
-    "text": "Members use IOIs as an informal read on how their appearance is being received, comparing the attention they get before and after changes. The research literature on flirting describes the cues themselves and how easily they are misjudged."
-  },
-  "infobox": [
-    ["Term", "IOI (indicator of interest)"],
-    ["Field", "Dating and social-signal reading"],
-    ["Typical cues", "Eye contact, smiling, touch, conversation effort [1]"],
-    ["Related research", "Studies of flirting and courtship signalling [1]"],
-    ["Community use", "Feedback on attractiveness; dating guides"]
+  "effect": "claimed",
+  "text": "Members use IOIs as an informal read on how their appearance is being received, comparing the attention they get before and after changes. The research literature on flirting describes the cues themselves and how easily they are misjudged."
+ },
+ "infobox": [
+  [
+   "Term",
+   "IOI (indicator of interest)"
   ],
-  "sections": [
-    {
-      "h": "Description",
-      "paras": [
-        "An indicator of interest is any behaviour taken as a sign of attraction. Wikipedia's article on flirting defines flirting as social communication, through body language, speech or writing, that signals playful interest and possibly romantic or sexual intent, and distinguishes it from simple friendliness [1]. Cues listed there include exchanged glances, hand touching and hair touching [1].",
-        "Cultural norms for distance, eye contact and touch vary, so the same behaviour can carry different meanings in different settings [1]."
-      ]
-    },
-    {
-      "h": "Research on signals of interest",
-      "paras": [
-        "Researchers cited in the flirting literature report several patterns. Greater physical attraction predicted more flirting in a 2000 study by Messman and colleagues [1]. Henningsen and colleagues (2004) found sexually motivated flirting more prominent among men and relationship-building flirting more common among women [1]. Gersick and Kurzban (2014) argued that flirting is often covert because open interest has social costs, and ambiguity preserves deniability [1].",
-        "On accuracy, Abbey (1982) found that men sometimes perceive women's friendliness as flirting, and Hall, Xing and Brooks (2015) reported that covert flirting often goes undetected [1]."
-      ]
-    },
-    {
-      "h": "Clinical studies",
-      "paras": [
-        "No studies found. Research on flirting and courtship signalling in social psychology, summarised above, is a related literature rather than a study of IOIs as the forum term uses it."
-      ]
-    },
-    {
-      "h": "In looksmaxxing culture",
-      "paras": [
-        "Forum threads treat IOIs both as evidence of attractiveness and as a contested idea. Some members describe receiving many obvious signals during periods when they were focused on grooming and fitness, and fewer when they stopped [5]. Others post guides to flirting that frame cues scientifically [3] or describe going out to see whether they get attention [6].",
-        "A skeptical strand argues that IOIs are over-interpreted, with members saying that reading eye contact or glances is unreliable and that direct conversation is more informative [2][4]. Because these are personal accounts and opinion threads, they describe how members interpret events rather than measured outcomes."
-      ]
-    }
+  [
+   "Origin of usage",
+   "Pickup / seduction community, 1990s-2000s [8]"
   ],
-  "timeline": [],
-  "lore": {
-    "intro": "On looksmax.org IOIs are discussed as a way to gauge attractiveness, and also as a concept some members reject [2][3][4][5].",
-    "claims": [
-      {
-        "claim": "Getting more IOIs shows that your looks are improving",
-        "believers": "Members describe receiving more signals after improving grooming and fitness and fewer when they let routines lapse [5][6].",
-        "experts": "Flirting research reports that attraction predicts flirting [1], but also that cues are ambiguous and frequently misread [1]. No study has tested IOI counts as a measure of attractiveness changes.",
-        "evidence": "untested"
-      },
-      {
-        "claim": "IOIs do not exist, or cannot be reliably read",
-        "believers": "Some members argue that signals such as eye contact are over-interpreted, and that attractive men may see people avoid eye contact rather than seek it [2][4].",
-        "experts": "Published work describes covert flirting that often goes undetected and friendliness mistaken for flirting, which supports ambiguity of cues [1].",
-        "evidence": "mixed"
-      }
-    ]
-  },
-  "refs": [
-    { "id": 1, "title": "Flirting", "url": "https://en.wikipedia.org/wiki/Flirting", "source": "Wikipedia", "year": 2025, "type": "encyclopedia" },
-    { "id": 2, "title": "looksmax.org thread: iois dont exist", "url": "https://looksmax.org/threads/iois-dont-exist.1186111/", "source": "looksmax.org", "year": 2024, "type": "forum" },
-    { "id": 3, "title": "looksmax.org thread: sirc guide to flirting scientific guide to iois", "url": "https://looksmax.org/threads/sirc-guide-to-flirting-scientific-guide-to-iois.973055/", "source": "looksmax.org", "year": 2022, "type": "forum" },
-    { "id": 4, "title": "looksmax.org thread: i hate the concept of iois", "url": "https://looksmax.org/threads/i-hate-the-concept-of-iois.584499/", "source": "looksmax.org", "year": 2021, "type": "forum" },
-    { "id": 5, "title": "looksmax.org thread: Do any of you get IOI's?", "url": "https://looksmax.org/threads/do-any-of-you-get-iois.1698962/", "source": "looksmax.org", "year": 2025, "type": "forum" },
-    { "id": 6, "title": "looksmax.org thread: anyone else ever go to the shops just to try and farm iois", "url": "https://looksmax.org/threads/anyone-else-ever-go-to-the-shops-just-to-try-and-farm-iois.879009/", "source": "looksmax.org", "year": 2022, "type": "forum" }
+  [
+   "Field",
+   "Dating and social-signal reading"
   ],
-  "webSources": [
-    { "url": "https://en.wikipedia.org/wiki/Flirting", "title": "Flirting (Wikipedia)" }
+  [
+   "Typical cues",
+   "Eye contact, smiling, touch, conversation effort [1]"
+  ],
+  [
+   "Related research",
+   "Flirting and courtship signalling; detection-accuracy studies [1][7]"
+  ],
+  [
+   "Detection in lab",
+   "36% of men and 18% of women detected a partner's flirting in one study [7]"
+  ],
+  [
+   "Community use",
+   "Feedback on attractiveness; dating guides"
   ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "An indicator of interest is any behaviour taken as a sign of attraction. Wikipedia's article on flirting defines flirting as social communication, through body language, speech or writing, that signals playful interest and possibly romantic or sexual intent, and distinguishes it from simple friendliness [1]. Cues listed there include exchanged glances, hand touching and hair touching, flattery and exchanging phone numbers [1].",
+    "Forum members describe IOIs in concrete terms. In one thread a member explained the term to another as girls staring at you, smiling while staring, or playing with their hair while staring, in short, trying to communicate that they find you attractive [5]. In the research literature the same cluster appears under names such as flirting, courtship signalling or nonverbal solicitation behaviour [1].",
+    "Cultural norms for distance, eye contact and touch vary, so the same behaviour can carry different meanings in different settings [1]. Contact cultures such as Mediterranean and Latin American ones tend to involve closer proximity than Britain or Northern Europe, and German flirting is described as relying on brief, serious glances [1]."
+   ]
+  },
+  {
+   "h": "Origins and spread",
+   "paras": [
+    "The English word flirt is first recorded in 1580, and its origin is unknown [1]. Anthropologist Margaret Mead described misunderstandings in the Second World War between American soldiers and British women over who should take the initiative, and how friendliness could be read as more serious than intended [1].",
+    "The abbreviation IOI itself belongs to the vocabulary of the seduction community. According to Wikipedia's account, the community grew from Ross Jeffries's teaching of speed seduction in the late 1980s and early 1990s, the alt.seduction.fast newsgroup founded by Lewis DePayne in 1994, Neil Strauss's bestseller The Game in 2005 and Erik von Markovik's The Mystery Method in 2007 [8]. In that vocabulary an IOI is a signal that a target is interested, and once she gives one the pickup artist can show interest back [8]. The same account distinguishes inner game (psychology, confidence) from outer game (social skills, fitness, fashion, grooming) [8]; the outer-game strand overlaps with what looksmaxxers later called looksmaxxing.",
+    "Wikipedia's article on looksmaxxing says the term was coined on incel message boards in the 2010s and popularised on TikTok in the 2020s, and that the original forums behind the PSL scale were PUAhate, Sluthate and Lookism [13]. IOIs travelled with this lineage: on looksmax.org they appear as threads about receiving signals, guides to interpreting them and arguments about their reality [2][3][4][5][6]."
+   ]
+  },
+  {
+   "h": "Research on signals of interest",
+   "paras": [
+    "Researchers cited in the flirting literature report several patterns. Greater physical attraction predicted more flirting in a 2000 study by Messman and colleagues [1]. Henningsen and colleagues (2004) found sexually motivated flirting more prominent among men and relationship-building flirting more common among women, and Henningsen's 2014 review lists six motives for flirting: sex, relational development, exploration, fun, self-esteem and as a means to an end [1]. Gersick and Kurzban (2014) argued that flirting is often covert because open interest has social costs, and ambiguity preserves deniability [1].",
+    "On accuracy, Abbey (1982) found that men sometimes perceive women's friendliness as flirting [1]. The most-cited recent test of detection is by Jeffrey Hall and Seth Brooks of the University of Kansas, published in Communication Research in 2014 [7]. In the first study 52 pairs of single heterosexual strangers talked for 10 to 12 minutes; pairs were over 80 percent accurate at recognising when a partner was not flirting, but only 36 percent of men and 18 percent of women correctly detected flirting [7]. In a second study more than 250 observers watched one-minute clips and were 66 percent accurate when no flirting occurred and 38 percent when it did, lowest (22 percent) when women watched men [7]. Hall's summary of the finding was: \"If you think someone is not interested in you, you are probably right\" [7].",
+    "Other online-dating work describes who receives attention. Bruch and Newman's 2018 analysis of messaging on a dating site in four U.S. cities found a long-tailed pattern in which most users received few first messages while a small group received very many, and that most users wrote to people ranked above themselves [10]. These studies measure messages sent and answered rather than subtle glances, so they speak to attention in general and not to IOIs in the forum sense [10].",
+    "Eastwick and Finkel's 2008 speed-dating study followed 163 undergraduates and found that men and women were similarly drawn to physical attractiveness in people they met in person, and that questionnaire answers collected beforehand did little to predict who they chose [11]. The researchers suggested people may not accurately know what they initially want in a partner [11]. Wikipedia's article on physical attractiveness collects further research on the halo effect, averageness and symmetry, and its coverage of the matching hypothesis describes a literature that began with the 1966 Walster computer-dance experiment and found that partners of similar attractiveness tend to pair [9][12]."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found. Research on flirting and courtship signalling in social psychology, summarised above, is a related literature rather than a study of IOIs as the forum term uses it."
+   ]
+  },
+  {
+   "h": "In looksmaxxing culture",
+   "paras": [
+    "Forum threads treat IOIs both as evidence of attractiveness and as a contested idea. One member posted that they used to get many obvious IOIs and now get few after health problems reduced their grooming and training, and asked whether others had noticed fewer signals in general; replies described them as rare in recent years [5]. Another thread asks whether others go to shops specifically to seek out IOIs [6], and a post titled as a guide to flirting presents a scientific approach to reading them [3].",
+    "A skeptical strand argues that IOIs are over-interpreted, with members saying that reading eye contact or glances is unreliable, that attractive people may see others avoid eye contact out of nervousness, and that direct conversation is more informative [2][4]. One reply in a forum debate observed that the community is too black and white about the question and that some people give IOIs and some do not [2]. Because these are personal accounts and opinion threads, they describe how members interpret events rather than measured outcomes."
+   ]
+  },
+  {
+   "h": "Related practices and concepts",
+   "paras": [
+    "IOIs sit alongside other social-feedback concepts in appearance culture: rating threads, scales such as PSL and decile ratings, and discussion of how dating-app attention is distributed [13][10]. In seduction-community vocabulary they pair with approaches, inner game and outer game [8]. Scholars quoted on that community note criticisms: the Southern Poverty Law Center calls it male supremacist, and researcher Petra Boynton has said there is no evidence of effectiveness for pickup claims, while an evolutionary-psychology review by Oesch and Miklousic (2012) found some principles such as building attraction and rapport have research support [8]."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1580",
+   "event": "First recorded use of the English word flirt [1]."
+  },
+  {
+   "year": "1966",
+   "event": "Walster and colleagues run the Computer Match Dance, the founding experiment of the matching hypothesis on physical attractiveness [12]."
+  },
+  {
+   "year": "1982",
+   "event": "Abbey reports that men may perceive women's friendliness as flirting [1]."
+  },
+  {
+   "year": "1994",
+   "event": "Lewis DePayne founds alt.seduction.fast, a hub for the seduction community in which IOI became standard vocabulary [8]."
+  },
+  {
+   "year": "2000",
+   "event": "Messman and colleagues report that greater physical attraction predicts more flirting [1]."
+  },
+  {
+   "year": "2005",
+   "event": "Neil Strauss publishes The Game, bringing seduction-community terms to a mass audience [8]."
+  },
+  {
+   "year": "2008",
+   "event": "Eastwick and Finkel's speed-dating study compares stated preferences with real-time attraction [11]."
+  },
+  {
+   "year": "2014",
+   "event": "Hall and Brooks publish their detection-accuracy study of flirting in Communication Research [7]; Gersick and Kurzban argue flirting is often covert [1]."
+  },
+  {
+   "year": "2018",
+   "event": "Bruch and Newman publish an analysis of messaging patterns on a dating site [10]."
+  },
+  {
+   "year": "2025",
+   "event": "A looksmax.org member asks whether others still receive IOIs, describing a large drop in signals [5]."
+  }
+ ],
+ "lore": {
+  "intro": "On looksmax.org IOIs are discussed as a way to gauge attractiveness, as a skill to learn, and as a concept some members reject [2][3][4][5].",
+  "claims": [
+   {
+    "claim": "Getting more IOIs shows that your looks are improving",
+    "believers": "Members describe receiving more signals after improving grooming and fitness and fewer when they let routines lapse [5][6].",
+    "experts": "Flirting research reports that attraction predicts flirting [1], but also that cues are ambiguous and frequently misread [1][7]. No study has tested IOI counts as a measure of attractiveness changes.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "IOIs do not exist, or cannot be reliably read",
+    "believers": "Some members argue that signals such as eye contact are over-interpreted, and that attractive men may see people avoid eye contact rather than seek it [2][4].",
+    "experts": "Published work describes covert flirting that often goes undetected and friendliness mistaken for flirting [1]; in the Kansas study 36% of men and 18% of women detected a partner's flirting [7].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "A long glance or sustained eye contact reliably signals attraction",
+    "believers": "Guides and anecdotal threads treat staring, smiling while staring and hair touching as a recognisable cluster [5][3].",
+    "experts": "Glances and hair touching appear in the flirting literature as common cues [1], but observers in a 2014 study identified flirting in clips only 38% of the time [7].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "If someone seems uninterested, they probably are",
+    "believers": "Members who favour talking to people over interpreting looks argue that the direction of a stranger's eyes matters less than conversation [2].",
+    "experts": "Study author Jeffrey Hall said that if you think someone is not interested, you are probably right; no-flirting interactions were recognised more than 80% of the time in his lab study [7].",
+    "evidence": "supported"
+   },
+   {
+    "claim": "Fewer people give IOIs nowadays",
+    "believers": "A 2025 thread author says obvious IOIs have become rare for them and asks whether women now give fewer signals to everyone [5].",
+    "experts": "Flirting is described as often covert, and a covert-flirting base rate in first meetings is low [1][7]. No study has compared signalling rates across years.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "IOIs can be learned and trained through scientific guides",
+    "believers": "A forum guide presents flirting cues as a scientific subject [3], echoing seduction-community teaching [8].",
+    "experts": "An evolutionary-psychology review by Oesch and Miklousic found some seduction principles have research support, while Petra Boynton has said there is no evidence of effectiveness for pickup claims overall [8].",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Flirting",
+   "url": "https://en.wikipedia.org/wiki/Flirting",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "looksmax.org thread: iois dont exist",
+   "url": "https://looksmax.org/threads/iois-dont-exist.1186111/",
+   "source": "looksmax.org",
+   "year": 2024,
+   "type": "forum"
+  },
+  {
+   "id": 3,
+   "title": "looksmax.org thread: sirc guide to flirting scientific guide to iois",
+   "url": "https://looksmax.org/threads/sirc-guide-to-flirting-scientific-guide-to-iois.973055/",
+   "source": "looksmax.org",
+   "year": 2022,
+   "type": "forum"
+  },
+  {
+   "id": 4,
+   "title": "looksmax.org thread: i hate the concept of iois",
+   "url": "https://looksmax.org/threads/i-hate-the-concept-of-iois.584499/",
+   "source": "looksmax.org",
+   "year": 2021,
+   "type": "forum"
+  },
+  {
+   "id": 5,
+   "title": "looksmax.org thread: Do any of you get IOI's?",
+   "url": "https://looksmax.org/threads/do-any-of-you-get-iois.1698962/",
+   "source": "looksmax.org",
+   "year": 2025,
+   "type": "forum"
+  },
+  {
+   "id": 6,
+   "title": "looksmax.org thread: anyone else ever go to the shops just to try and farm iois",
+   "url": "https://looksmax.org/threads/anyone-else-ever-go-to-the-shops-just-to-try-and-farm-iois.879009/",
+   "source": "looksmax.org",
+   "year": 2022,
+   "type": "forum"
+  },
+  {
+   "id": 7,
+   "title": "Flirting hard to detect, study finds",
+   "url": "https://news.ku.edu/2014/06/03/flirting-hard-detect-study-finds",
+   "source": "University of Kansas",
+   "year": 2014,
+   "type": "news"
+  },
+  {
+   "id": 8,
+   "title": "Seduction community",
+   "url": "https://en.wikipedia.org/wiki/Seduction_community",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 9,
+   "title": "Physical attractiveness",
+   "url": "https://en.wikipedia.org/wiki/Physical_attractiveness",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 10,
+   "title": "Aspirational pursuit of mates in online dating markets",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6082652",
+   "source": "Science Advances",
+   "year": 2018,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "Rethinking what men and women want in a partner",
+   "url": "https://www.sciencedaily.com/releases/2008/02/080213133337.htm",
+   "source": "ScienceDaily (Northwestern University)",
+   "year": 2008,
+   "type": "news"
+  },
+  {
+   "id": 12,
+   "title": "Matching hypothesis",
+   "url": "https://en.wikipedia.org/wiki/Matching_hypothesis",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 13,
+   "title": "Looksmaxxing",
+   "url": "https://en.wikipedia.org/wiki/Looksmaxxing",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Flirting",
+   "title": "Flirting (Wikipedia)"
+  },
+  {
+   "url": "https://news.ku.edu/2014/06/03/flirting-hard-detect-study-finds",
+   "title": "Flirting hard to detect, study finds (University of Kansas, 2014)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Seduction_community",
+   "title": "Seduction community (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Physical_attractiveness",
+   "title": "Physical attractiveness (Wikipedia)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Matching_hypothesis",
+   "title": "Matching hypothesis (Wikipedia)"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6082652",
+   "title": "Aspirational pursuit of mates in online dating markets (Bruch and Newman, Science Advances, 2018)"
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2008/02/080213133337.htm",
+   "title": "Rethinking what men and women want in a partner (Northwestern, 2008)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Looksmaxxing",
+   "title": "Looksmaxxing (Wikipedia)"
+  }
+ ]
 }

@@ -1,33 +1,288 @@
 {
-"name": "Heat-shock-protein sauna approach",
-"card": {"summary": "Using sauna heat to trigger heat shock proteins, which proponents link to muscle protection and recovery, supporting training and physique.", "aka": "HSP sauna, sauna for HSP", "evidence": "moderate", "status": null, "outcome": null, "risk": "moderate", "price": null, "note": "Heat stress carries risks, especially combined with alcohol, dehydration or certain heart conditions.", "structure": null},
-"quick": {
-"overview": "The heat-shock-protein sauna approach uses sauna sessions to raise body temperature enough to induce heat shock proteins, cell-protective molecules that help refold damaged proteins. Practitioners link this to protection against muscle loss and to recovery, which feeds into training and physique.\n\nHeat shock proteins have been studied since Ritossa's 1962 observations in fruit flies. Human sauna research is mostly observational and centred on Finnish saunas and cardiovascular outcomes, while muscle-specific claims are less developed.",
-"how": "People use regular sauna sessions, often alongside training, aiming for a raised core temperature rather than only a hot room. Some pair it with cold exposure afterward.",
-"risks": "Sauna combined with alcohol, dehydration or narcotics raises risk of sudden death, and people with unstable angina or severe aortic stenosis are advised against it. Rapid cold immersion after heat adds circulatory stress."
-},
-"lead": [
-"The heat-shock-protein sauna approach is the use of sauna heat to induce heat shock proteins (HSPs), stress-response molecules that act as chaperones, stabilising new proteins and helping damaged ones refold.[1][2] Practitioners use it for recovery and to protect muscle, which supports training and a better physique.",
-"HSPs were identified after Ferruccio Ritossa reported in 1962 that heat caused distinctive chromosome puffing in Drosophila, and a brief mild heat exposure can protect cells from later, more severe heat.[1] Wikipedia's sauna article says heat stress may protect against muscle atrophy via this pathway and cites a Bryan Johnson study suggesting core temperature matters more than room temperature.[3]",
-"Large observational research on Finnish sauna use links frequent use with lower risk of sudden cardiac death, though most work is observational.[3]"
-],
-"angle": {"goal": "Recovery and muscle", "chain": ["Sauna raises core temperature", "Heat shock proteins induced", "Possible muscle protection and recovery, supporting training"], "effect": "indirect", "text": "Practitioners schedule sauna sessions to induce HSPs, which they associate with protecting muscle and recovering from training. The appearance gain is through preserved and built muscle."},
-"infobox": [["Type", "Heat exposure protocol"], ["Mechanism", "Heat shock protein induction"], ["Discovered", "Ritossa, 1962 (Drosophila)"], ["Related", "Finnish sauna, hot tub, heat therapy"]],
-"sections": [
-{"h": "Mechanism", "paras": ["HSP production is regulated by heat shock factor, and families such as HSP70 aid folding and thermotolerance.[1] Reviews describe HSPs' biological roles and therapeutic opportunities in disease.[2][4]"]},
-{"h": "Use in looksmaxxing", "paras": ["Fitness communities discuss sauna for recovery and muscle preservation. Popular longevity figures have promoted core temperature targets, as noted in coverage of Johnson's study.[3]"]},
-{"h": "Clinical studies", "paras": ["A randomised trial in the American Journal of Physiology examined whether heat therapy promotes angiogenic regulators in human skeletal muscle.[5] Another randomised trial examined thermal preconditioning to reduce intraoperative pressure injuries.[6] Finnish sauna research is mostly observational, and few studies vary temperature.[3]"]},
-{"h": "Risks", "paras": ["Alcohol, dehydration or narcotics with sauna raise the risk of sudden death; people with severe obesity, hypertension or diabetes are advised shorter sessions, and unstable angina and severe aortic stenosis are contraindications.[3]"]}
-],
-"timeline": [{"year": "1962", "event": "Ritossa reports heat-induced chromosome puffing in Drosophila.[1]"}, {"year": "1974", "event": "Tissieres, Mitchell and Tracy show heat shock induces a small set of proteins.[1]"}],
-"lore": null,
-"refs": [
-{"id": 1, "title": "Heat shock protein", "url": "https://en.wikipedia.org/wiki/Heat_shock_protein", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"},
-{"id": 2, "title": "Heat shock proteins: Biological functions, pathological roles, and therapeutic opportunities", "url": "https://pubmed.ncbi.nlm.nih.gov/35928554/", "source": "MedComm", "year": 2022, "type": "review"},
-{"id": 3, "title": "Sauna", "url": "https://en.wikipedia.org/wiki/Sauna", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"},
-{"id": 4, "title": "Heat Shock Response and Heat Shock Proteins: Current Understanding and Future Opportunities in Human Diseases", "url": "https://pubmed.ncbi.nlm.nih.gov/38673794/", "source": "Int J Mol Sci", "year": 2024, "type": "review"},
-{"id": 5, "title": "Heat therapy promotes the expression of angiogenic regulators in human skeletal muscle", "url": "https://pubmed.ncbi.nlm.nih.gov/27357800/", "source": "Am J Physiol Regul Integr Comp Physiol", "year": 2016, "type": "trial"},
-{"id": 6, "title": "Thermal preconditioning can reduce the incidence of intraoperatively acquired pressure injuries", "url": "https://pubmed.ncbi.nlm.nih.gov/37352595/", "source": "Journal of Thermal Biology", "year": 2023, "type": "trial"}
-],
-"webSources": [{"url": "https://en.wikipedia.org/wiki/Heat_shock_protein", "title": "Heat shock protein"}, {"url": "https://en.wikipedia.org/wiki/Sauna", "title": "Sauna"}]
+ "name": "Heat-shock-protein sauna approach",
+ "card": {
+  "summary": "Using sauna heat to trigger heat shock proteins, which proponents link to muscle protection and recovery, supporting training and physique.",
+  "aka": "HSP sauna, sauna for HSP",
+  "evidence": "moderate",
+  "status": null,
+  "outcome": null,
+  "risk": "moderate",
+  "price": null,
+  "note": "Heat stress carries risks, especially combined with alcohol, dehydration or certain heart conditions.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "The heat-shock-protein sauna approach uses sauna sessions to raise body temperature enough to induce heat shock proteins, cell-protective molecules that help refold damaged proteins. Practitioners link this to protection against muscle loss and to recovery, which feeds into training and physique.\n\nHeat shock proteins have been studied since Ritossa's 1962 observations in fruit flies. Human sauna research is mostly observational and centred on Finnish saunas and cardiovascular outcomes, while muscle-specific claims are less developed.",
+  "how": "People use regular sauna sessions, often alongside training, aiming for a raised core temperature rather than only a hot room. Some pair it with cold exposure afterward.",
+  "risks": "Sauna combined with alcohol, dehydration or narcotics raises risk of sudden death, and people with unstable angina or severe aortic stenosis are advised against it. Rapid cold immersion after heat adds circulatory stress."
+ },
+ "lead": [
+  "The heat-shock-protein sauna approach is the use of sauna heat to induce heat shock proteins (HSPs), stress-response molecules that act as chaperones, stabilising new proteins and helping damaged ones refold [1][2]. Practitioners use it for recovery and to protect muscle, which supports training and a better physique: the chain runs from raised core temperature, to HSP induction, to possible protection of muscle and faster recovery, to more and better training.",
+  "HSPs were identified after Ferruccio Ritossa reported in 1962 that heat caused distinctive chromosome puffing in Drosophila; in 1974 Tissières, Mitchell and Tracy showed that heat shock induces a small set of proteins while most others are suppressed [1]. Wikipedia's sauna article says mild heat stress may protect against muscle atrophy via this pathway and cites a study by Bryan Johnson suggesting core temperature matters more than room temperature [3].",
+  "Large observational research on Finnish sauna use links frequent use with lower risk of sudden cardiac death and other fatal cardiovascular events [7]. Studies that look specifically at passive heating and human muscle are smaller and use varied protocols, and researchers in the field describe the results as conflicting and the protocols as inconsistent [8]."
+ ],
+ "angle": {
+  "goal": "Recovery and muscle",
+  "chain": [
+   "Sauna raises core temperature",
+   "Heat shock proteins induced",
+   "Possible muscle protection and recovery, supporting training"
+  ],
+  "effect": "indirect",
+  "text": "Practitioners schedule sauna sessions to induce HSPs, which they associate with protecting muscle and recovering from training. The appearance gain is through preserved and built muscle."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Heat exposure protocol"
+  ],
+  [
+   "Mechanism",
+   "Heat shock protein induction via HSF1"
+  ],
+  [
+   "Discovered",
+   "Ritossa, 1962 (Drosophila)"
+  ],
+  [
+   "Key cohort study",
+   "Laukkanen et al., 2015 (2,315 Finnish men)"
+  ],
+  [
+   "Related",
+   "Finnish sauna, hot-water immersion, heat therapy"
+  ],
+  [
+   "Contraindications",
+   "Unstable angina, severe aortic stenosis"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "The approach treats the sauna as a tool for raising body temperature to a level that triggers the heat shock response, rather than as relaxation alone. Practitioners distinguish between room temperature and core temperature, and the Bryan Johnson work cited by Wikipedia is described as suggesting core temperature is the factor that matters [3]. Some pair sessions with training days, and others with cold exposure afterward, a pairing that Wikipedia's sauna article notes places considerable circulatory stress on the body when the transition is abrupt [3]."
+   ]
+  },
+  {
+   "h": "Mechanism",
+   "paras": [
+    "HSP production is regulated mainly by heat shock factor 1 (HSF1), and families named by molecular weight, such as HSP70, HSP60 and HSP90, plus the small HSPs, aid folding, refolding and removal of misfolded proteins [1][2]. Reviews describe HSPs as central to thermotolerance, the ability of a brief mild heat exposure to protect cells from a later, more severe one [1][4]. Exercise itself is listed among stressors that increase HSP production [1][9].",
+    "Muscle is of interest because HSPs have been linked in laboratory and animal work to protecting muscle proteins from damage and disuse. A 1999 review of HSPs and the stress response describes the cell-level role of chaperones coping with stress-induced denaturation of other proteins [10]."
+   ]
+  },
+  {
+   "h": "Origins and spread",
+   "paras": [
+    "The scientific history of HSPs dates to Ritossa's 1962 observations and the 1974 protein work [1]. Their use as a training-recovery idea spread through fitness and longevity communities, where sauna is discussed alongside cold exposure, supplements and wearable tracking [3]. Lifters on forums such as T Nation have referred to heat shock proteins in passing, for example joking about them while sitting by a fire after a hard session, or logging runs in hot weather as heat training [11][12]. Popular longevity figures have promoted core-temperature targets, as noted in coverage of Johnson's study [3]."
+   ]
+  },
+  {
+   "h": "Use in looksmaxxing",
+   "paras": [
+    "Fitness and looksmaxxing communities discuss sauna for recovery and muscle preservation, which they connect to physique through training volume and retained lean mass [3]. Sessions are also associated in the community with skin appearance and relaxation, though the HSP argument is specifically about muscle and recovery."
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "A 2016 randomised trial in the American Journal of Physiology by Kuhlenhoelter and colleagues compared lower-body heating and unilateral thigh heating with control conditions in healthy young adults; muscle expression of angiogenic regulators and heat shock genes was higher after heating, and the authors concluded both methods increase factors associated with capillary growth in human muscle [5][8].",
+    "A 2017 crossover study in The Journal of Physiology by Peake and colleagues had nine active men do resistance exercise followed by cold water immersion on one leg or low-intensity cycling on another occasion; muscle biopsies at 2, 24 and 48 hours showed exercise-related changes in inflammatory markers and heat shock proteins, with no significant difference between the two recovery methods [9][8].",
+    "A 2023 study in the Journal of Thermal Biology combined hairless rats and a randomised trial of 118 surgical patients; thermal preconditioning increased skin HSP27 in rats and was associated with a 75 percent reduction in intraoperatively acquired pressure injuries in patients. It concerns skin injury rather than muscle [6][8].",
+    "A 2015 JAMA Internal Medicine cohort study followed 2,315 middle-aged Finnish men for a median of 20.7 years and reported that four to seven sauna sessions per week was associated with a hazard ratio of 0.37 for sudden cardiac death compared with one session per week, with similar inverse associations for coronary, cardiovascular and all-cause mortality [7]. As an observational study, it reports association rather than a tested effect on muscle.",
+    "In 2025 Rodrigues, Minett and Orssatto described conflicting findings on passive heat therapy and muscle protein synthesis, mass, recovery, strength and power, and argued that inconsistent protocols may explain the differences [8]. A 2026 Delphi study of international experts on passive heating for muscle strength and mass reached consensus on eleven statements, favouring hot-water immersion and core-temperature monitoring, while the authors state their findings do not establish efficacy [8]."
+   ]
+  },
+  {
+   "h": "Risks",
+   "paras": [
+    "Alcohol, dehydration or narcotics with sauna raise the risk of sudden death; people with severe obesity, hypertension or diabetes are advised shorter sessions, and unstable angina and severe aortic stenosis are contraindications [3]. People prone to postural hypotension or severe valvular heart disease are advised to take care because of blood-pressure drops, and pregnant women are advised to keep core temperature at or below about 39 degrees C [3]. One study linked frequent genital heat exposure to male infertility, while another researcher reached the opposite conclusion [3]. Wikipedia cautions that rapid immersion in very cold water after heat adds circulatory stress, especially for heart patients [3]."
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1962",
+   "event": "Ritossa reports heat-induced chromosome puffing in Drosophila.[1]"
+  },
+  {
+   "year": "1974",
+   "event": "Tissieres, Mitchell and Tracy show heat shock induces a small set of proteins.[1]"
+  },
+  {
+   "year": "1996",
+   "event": "Ritossa publishes a retrospective on the discovery of the heat shock response.[1]"
+  },
+  {
+   "year": "2015",
+   "event": "Laukkanen and colleagues report in JAMA Internal Medicine that frequent sauna use is associated with lower sudden cardiac death risk in Finnish men.[7]"
+  },
+  {
+   "year": "2016",
+   "event": "Randomised trial reports heat therapy raises angiogenic and heat shock gene expression in human muscle.[5]"
+  },
+  {
+   "year": "2017",
+   "event": "Peake and colleagues report no difference between cold water immersion and active recovery in muscle HSP responses.[9]"
+  },
+  {
+   "year": "2025",
+   "event": "Rodrigues, Minett and Orssatto call for consistent protocols in passive heating research.[8]"
+  },
+  {
+   "year": "2026",
+   "event": "Delphi study of passive heating experts reports consensus statements without establishing efficacy.[8]"
+  }
+ ],
+ "lore": {
+  "intro": "Sauna and HSPs are discussed in fitness and longevity circles as a way to protect muscle and speed recovery.[3][8]",
+  "claims": [
+   {
+    "claim": "Sauna induces heat shock proteins that protect muscle",
+    "believers": "Proponents say heat stress triggers HSPs that help protect against muscle atrophy.[3]",
+    "experts": "Human trials show heat shock gene expression rising in muscle after heating, but reviewers describe results on mass and strength as conflicting.[5][8]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Core temperature matters more than room temperature",
+    "believers": "Cited in coverage of a study by Bryan Johnson.[3]",
+    "experts": "The Delphi panel favoured monitoring core temperature and cardiovascular strain, while stating efficacy is not established.[8]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Sauna supports longevity and heart health",
+    "believers": "Finnish sauna cohort findings are widely cited.[3][7]",
+    "experts": "The cohort found lower sudden cardiac death with frequent use, as an observational association.[7]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Cold plunges after sauna add to recovery",
+    "believers": "Some practitioners pair the two.[3]",
+    "experts": "A crossover study found cold water immersion did not differ from active recovery in muscle inflammation or HSP responses; Wikipedia warns of circulatory stress.[9][3]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Sauna is safe for everyone",
+    "believers": "Regular use is common in Finland.[3]",
+    "experts": "Contraindications include unstable angina and severe aortic stenosis; alcohol and dehydration raise risk.[3]",
+    "evidence": "documented"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Heat shock protein",
+   "url": "https://en.wikipedia.org/wiki/Heat_shock_protein",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 2,
+   "title": "Heat shock proteins: Biological functions, pathological roles, and therapeutic opportunities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35928554/",
+   "source": "MedComm",
+   "year": 2022,
+   "type": "review"
+  },
+  {
+   "id": 3,
+   "title": "Sauna",
+   "url": "https://en.wikipedia.org/wiki/Sauna",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 4,
+   "title": "Heat Shock Response and Heat Shock Proteins: Current Understanding and Future Opportunities in Human Diseases",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38673794/",
+   "source": "Int J Mol Sci",
+   "year": 2024,
+   "type": "review"
+  },
+  {
+   "id": 5,
+   "title": "Heat therapy promotes the expression of angiogenic regulators in human skeletal muscle",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27357800/",
+   "source": "Am J Physiol Regul Integr Comp Physiol",
+   "year": 2016,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Thermal preconditioning can reduce the incidence of intraoperatively acquired pressure injuries",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37352595/",
+   "source": "Journal of Thermal Biology",
+   "year": 2023,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Association between sauna bathing and fatal cardiovascular and all-cause mortality events (Laukkanen et al., JAMA Intern Med 2015; Europe PMC record)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:25705824%20OR%20EXT_ID:27406004%20OR%20EXT_ID:27932203&format=json&resultType=core&pageSize=8",
+   "source": "Europe PMC / JAMA Internal Medicine",
+   "year": 2015,
+   "type": "study"
+  },
+  {
+   "id": 8,
+   "title": "Passive heating research: Delphi study (2026), Rodrigues et al. (2025), and trial records (Europe PMC)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42295379%20OR%20EXT_ID:40728571%20OR%20EXT_ID:27704555%20OR%20EXT_ID:27357800%20OR%20EXT_ID:37352595&format=json&resultType=core&pageSize=8",
+   "source": "Europe PMC",
+   "year": 2026,
+   "type": "review"
+  },
+  {
+   "id": 9,
+   "title": "The effects of cold water immersion and active recovery on inflammation and cell stress responses in human skeletal muscle after resistance exercise",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27704555/",
+   "source": "The Journal of Physiology",
+   "year": 2017,
+   "type": "trial"
+  },
+  {
+   "id": 10,
+   "title": "Heat-shock proteins, molecular chaperones, and the stress response: evolutionary and ecological physiology",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10099689/",
+   "source": "Annual Review of Physiology",
+   "year": 1999,
+   "type": "review"
+  },
+  {
+   "id": 11,
+   "title": "Alex_uk: 40 years in the making",
+   "url": "https://t-nation.com/t/alex-uk-40-years-in-the-making/267729",
+   "source": "T Nation",
+   "year": 2020,
+   "type": "forum"
+  },
+  {
+   "id": 12,
+   "title": "Adarqui's Journal",
+   "url": "https://t-nation.com/t/adarquis-journal/235380",
+   "source": "T Nation",
+   "year": 2017,
+   "type": "forum"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Heat_shock_protein",
+   "title": "Heat shock protein"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Sauna",
+   "title": "Sauna"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42295379%20OR%20EXT_ID:40728571%20OR%20EXT_ID:27704555%20OR%20EXT_ID:27357800%20OR%20EXT_ID:37352595&format=json&resultType=core&pageSize=8",
+   "title": "Europe PMC records: passive heating and muscle"
+  },
+  {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:25705824%20OR%20EXT_ID:27406004%20OR%20EXT_ID:27932203&format=json&resultType=core&pageSize=8",
+   "title": "Europe PMC record: sauna bathing and mortality"
+  }
+ ]
 }

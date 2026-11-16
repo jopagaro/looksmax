@@ -1,31 +1,393 @@
 {
-"name":"Mog battle threads",
-"card":{"summary":"A forum thread format in which two faces are posted side by side and members vote on who looks better, giving users an outside comparison of their own looks.","aka":"face-vs-face mog battle, mog poll","evidence":"unproven","status":null,"outcome":null,"risk":"low","price":null,"note":"Results are crowd opinion from anonymous forum members, and replies can be blunt.","structure":null},
-"quick":{"overview":"A mog battle thread puts two photos next to each other, such as two users, friends, or celebrities, and asks the forum which face \"mogs\" (looks better than) the other. Members reply with a pick and often a short reason.\n\nFor someone working on their appearance, the thread works as a quick outside comparison. Replies usually point to specific features, such as eye area, jaw, skin or hair, that members think decided the matchup, which some users treat as a list of things to improve. No research has examined these threads; they are a community custom.",
-"how":"A poster uploads two images, sometimes labeled A and B, and titles the thread \"mog battle\" with optional names. Others vote in replies or with a poll and explain their choice. Some threads pit a member's current photos against an earlier photo of themselves, or compare two forum regulars. Threads typically fill within hours to days.",
-"risks":"Replies come from anonymous users, can be harsh, and reflect the forum's own taste rather than any measured standard. Posting personal photos to a public forum carries privacy considerations, including that images can be saved and re-shared. Users who are sensitive to criticism may find the feedback distressing."},
-"lead":["Mog battle threads are a recurring post format on looksmaxxing forums in which two faces are placed side by side and the community votes on which one \"mogs\", meaning looks better than, the other.[1][2] The term \"mogging\" refers to asserting dominance over another person through appearance, and is one of the core vocabulary words of the looksmaxxing community.[3]","Members use the format to see how a face compares with another in the eyes of peers. Replies often name the features they think decided the result, such as the eye area, jawline, or skin, which readers can use as pointers for what to improve.[4][5] Titles on looksmax.org include battles between two users, between a user and a friend, between forum regulars, and between celebrities.[2][5][6] No academic research has studied the format itself."],
-"angle":{"goal":"Facial feedback","chain":["Post two faces side by side","Community votes and names deciding features","User learns what peers notice and may work on it"],"effect":"indirect","text":"The thread gives a quick crowd comparison of one face against another. The comments that explain a vote can point toward specific features, such as skin, hair or the eye area, that a person may then choose to work on."},
-"infobox":[["Type","Forum post format / community custom"],["Also called","Face-vs-face mog battle, mog poll"],["Main venue","looksmax.org and similar forums"],["Typical content","Two photos and a vote"],["Related terms","Mogging, PSL, rate threads"]],
-"sections":[
-{"h":"Description","paras":["A mog battle begins with an original poster uploading two images and asking which person mogs the other. Many threads carry only the title and the images; others add a prompt such as asking for a verdict from the forum's more experienced raters.[1][2] Replies are short, often a single word naming the winner, and sometimes a line on why.","Matchups vary. Some compare two members, some compare a member to a celebrity or to an earlier photo of themselves, and some compare two friends of the poster.[5][6] Thread titles on looksmax.org show the range, including battles among well-known forum members and a battle between two eye colors.[5][7]"]},
-{"h":"Origins and spread","paras":["The vocabulary comes from the PSL-forum era of looksmaxxing, whose forums rated men's faces on a numeric scale and gave rise to terms such as mogging.[3] Mog battle threads continue that habit of ranking faces against each other and are posted regularly on looksmax.org, with many threads under near-identical titles.[1][8]"]},
-{"h":"Reading the replies","paras":["Commenters frequently justify a vote by pointing to features such as bone structure, facial proportions or skin quality, using forum terms that vary between users.[4] Members who post their own photos report using the replies as a gauge of how they are perceived; the wiki's other entries on facial features describe the measures forum members commonly cite."]},
-{"h":"Clinical studies","paras":["No studies found."]},
-{"h":"Reported downsides","paras":["Responses on forum threads can be blunt, and votes come from a small, self-selected group of users whose standards are specific to the community. Posting identifiable photos online also carries ordinary privacy considerations."]}
-],
-"timeline":[],
-"lore":{"intro":"On looksmax.org, mog battle threads are a common way to settle who looks better and to ask the forum for a verdict.[1][5]","claims":[
-{"claim":"A side-by-side vote shows which face is objectively better looking","believers":"Participants treat the majority vote and the explanations as a ranking of the two faces.[1][4]","experts":"No published studies have examined forum voting threads. Research on facial attractiveness generally measures ratings from larger and more varied panels than a forum audience.","evidence":"untested"},
-{"claim":"The comments reveal which specific features to improve","believers":"Users say replies naming the eye area, jaw or skin tell them what to prioritize.[4]","experts":"No published studies have tested whether forum feedback leads to appearance changes people value.","evidence":"untested"}]},
-"refs":[
-{"id":1,"title":"Mog battle","url":"https://looksmax.org/threads/mog-battle.1834949/","source":"looksmax.org","year":2025,"type":"forum"},
-{"id":2,"title":"mog battle","url":"https://looksmax.org/threads/mog-battle.1777765/","source":"looksmax.org","year":2025,"type":"forum"},
-{"id":3,"title":"Looksmaxxing","url":"https://en.wikipedia.org/wiki/Looksmaxxing","source":"Wikipedia","year":2026,"type":"encyclopedia"},
-{"id":4,"title":"mog battle who mogs","url":"https://looksmax.org/threads/mog-battle-who-mogs.1761423/","source":"looksmax.org","year":2025,"type":"forum"},
-{"id":5,"title":"mog battle between the 3 slayers of the forum","url":"https://looksmax.org/threads/mog-battle-between-the-3-slayers-of-the-forum.1744070/","source":"looksmax.org","year":2025,"type":"forum"},
-{"id":6,"title":"mog battle vs tigermoggerlol who wins","url":"https://looksmax.org/threads/mog-battle-vs-tigermoggerlol-who-wins-gtfih.1717873/","source":"looksmax.org","year":2025,"type":"forum"},
-{"id":7,"title":"mog battle amber vs green eyed dude","url":"https://looksmax.org/threads/mog-battle-amber-vs-green-eyed-dude.1267226/","source":"looksmax.org","year":2024,"type":"forum"},
-{"id":8,"title":"mog battle","url":"https://looksmax.org/threads/mog-battle.1513118/","source":"looksmax.org","year":2024,"type":"forum"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Looksmaxxing","title":"Looksmaxxing - Wikipedia"}]
+ "name": "Mog battle threads",
+ "card": {
+  "summary": "A forum thread format in which two faces are posted side by side and members vote on who looks better, giving users an outside comparison of their own looks.",
+  "aka": "face-vs-face mog battle, mog poll",
+  "evidence": "unproven",
+  "status": null,
+  "outcome": null,
+  "risk": "low",
+  "price": null,
+  "note": "Results are crowd opinion from anonymous forum members, and replies can be blunt.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "A mog battle thread puts two photos next to each other, such as two users, friends, or celebrities, and asks the forum which face \"mogs\" (looks better than) the other. Members reply with a pick and often a short reason.\n\nFor someone working on their appearance, the thread works as a quick outside comparison. Replies usually point to specific features, such as eye area, jaw, skin or hair, that members think decided the matchup, which some users treat as a list of things to improve. No research has examined these threads; they are a community custom.",
+  "how": "A poster uploads two images, sometimes labeled A and B, and titles the thread \"mog battle\" with optional names. Others vote in replies or with a poll and explain their choice. Some threads pit a member's current photos against an earlier photo of themselves, or compare two forum regulars. Threads typically fill within hours to days.",
+  "risks": "Replies come from anonymous users, can be harsh, and reflect the forum's own taste rather than any measured standard. Posting personal photos to a public forum carries privacy considerations, including that images can be saved and re-shared. Users who are sensitive to criticism may find the feedback distressing."
+ },
+ "lead": [
+  "Mog battle threads are a recurring post format on looksmaxxing forums in which two faces are placed side by side and the community votes on which one \"mogs\", meaning looks better than, the other.[1][10] The term \"mogging\" refers to asserting dominance over another person through appearance, and is one of the core vocabulary words of the looksmaxxing community.[2][3]",
+  "Members use the format to see how a face compares with another in the eyes of peers. Replies often name the features they think decided the result, such as the eye area, jawline, height, skin or hair, which readers can treat as pointers for what to improve.[10][11] Thread titles on looksmax.org include battles between two users, between a user and a friend, between forum regulars, between celebrities and even between two eye colours.[11][12][14]",
+  "The format has since spread beyond forums. On TikTok and X, side-by-side clips and celebrity comparisons carry the same vocabulary, and in 2026 a random video-chat site called Omoggle turned the face-off into a live game with an automated rating.[4][5][6] Press coverage generally treats the format as a window into looksmaxxing culture, and commentators and psychologists have raised concerns about appearance comparison, particularly among young people.[5][7] No academic research has studied the forum threads themselves."
+ ],
+ "angle": {
+  "goal": "Facial feedback",
+  "chain": [
+   "Post two faces side by side",
+   "Community votes and names deciding features",
+   "User learns what peers notice and may work on it"
+  ],
+  "effect": "indirect",
+  "text": "The thread gives a quick crowd comparison of one face against another. The comments that explain a vote can point toward specific features, such as skin, hair or the eye area, that a person may then choose to work on."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Forum post format / community custom"
+  ],
+  [
+   "Also called",
+   "Face-vs-face mog battle, mog poll"
+  ],
+  [
+   "Main venue",
+   "looksmax.org and similar forums"
+  ],
+  [
+   "Typical content",
+   "Two photos and a vote"
+  ],
+  [
+   "Related terms",
+   "Mogging, PSL, frame-mogging, rate threads"
+  ],
+  [
+   "Term first documented",
+   "2016 (Know Your Meme, per Daily Dot)[4]"
+  ],
+  [
+   "Mainstream spread",
+   "TikTok from 2021; automated face-offs (Omoggle) in 2026[4][6]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "A mog battle begins with an original poster uploading two images and asking which person mogs the other. Many threads carry only the title and the images; others add a prompt asking for a verdict from the forum's more experienced raters.[1][10] Replies are short, often a single word naming the winner, and sometimes a line on why.",
+    "Matchups vary. Some compare two members, some compare a member to a celebrity or to an earlier photo of themselves, and some compare two friends of the poster.[11][12][13] Thread titles on looksmax.org show the range, including battles among well-known forum members, a matchup of a 'Scandinavian prince' against a 'Romanian final boss', a battle between two eye colours, and a joke battle between two music subscription services.[11][14][15][16]",
+    "Outside forums, a guide to the format describes a mog battle as a social post that puts two or more people side by side and asks viewers who looks superior, using photos, video clips, polls, edits or comment votes; commenters then break the comparison down into features and follow-up posts often restart the argument.[7]"
+   ]
+  },
+  {
+   "h": "Terminology",
+   "paras": [
+    "Mogging means outshining someone, usually in looks. Merriam-Webster is cited as defining the verb as a humorous internet slang term meaning to outclass, and being 'mogged' means losing the comparison.[3] NBC News describes it as visibly outshining someone through a sharper jawline, better outfit or stronger presence, and notes it can be used as an insult or a compliment.[5] Variants include frame-mogging (build), jaw-mogging, hair-mogging, height-mogging and fashion-mogging.[3][4][5]",
+    "The most repeated explanation of the word's origin is that it comes from the acronym AMOG, 'alpha male of the group'. Mental Floss places its first appearances on online forums in the mid-2000s, while Daily Dot, citing Know Your Meme, dates first documentation to 2016 and says it was first used in fitness spaces before moving through 4chan to looksmaxxing communities; the sources differ on the date, and no primary source for the acronym has been identified.[3][4]",
+    "PSL, short for 'Perceived Sexual Levels', is the numeric scale of male facial attractiveness, typically 1 to 8, that grew up on the PSL forums; Wikipedia says the scale was meant to reflect how women perceive men and that it is described as pseudoscientific by some commentators.[2] Mog battles are the head-to-head counterpart of PSL ratings: instead of assigning one face a number, the thread asks which of two faces would rank higher."
+   ]
+  },
+  {
+   "h": "Origins and spread",
+   "paras": [
+    "Wikipedia traces looksmaxxing vocabulary to incel message boards of the 2010s, naming PUAHate, Sluthate and Lookism.net as the three main 'PSL forums' where the rating scale and much of the jargon originated; all three are now defunct.[2] Mog battle threads continue the habit of ranking faces against each other and are posted regularly on looksmax.org, with many threads under near-identical titles across 2024 and 2025.[1][10][13][18]",
+    "On TikTok, Daily Dot reports that 'mogged' took off in 2021 after a user, @eddyshreds, posted a video comparing himself to a smaller man and ironically calling himself mogged. By July 2024 hashtag videos had billions of views, and Google searches for the term spiked in January and February 2024.[4] Creators there compare celebrities against each other, such as Brad Pitt mogging another actor, and use the word jokingly about outfits, as when a creator captioned a clip with his father wearing a better outfit 'It's over for me'.[4]",
+    "In 2026 the term moved further into mainstream speech. NBC News reported on 'mog' and 'maxxing' vocabulary appearing in political and sports accounts on X, and Mental Floss noted that Olympic figure skater Alysa Liu said her goal at a competition was to 'mog'.[3][5] Streamer Clavicular (Braden Peters), whose livestreams often invite viewers to compare appearances, was described by NBC as a central figure, and a February 2026 clip of him being 'frame-mogged' by a fraternity leader at Arizona State became a meme.[3][5][8]"
+   ]
+  },
+  {
+   "h": "Omoggle and automated face-offs",
+   "paras": [
+    "Know Your Meme describes Omoggle as a random video-chat website and game that pairs two strangers on webcam for a 'mog-off', with a real-time scan comparing the faces on the PSL scale and declaring a winner. Players earn an Elo score and appear on a leaderboard, and a solo scanner mode lets users scan themselves without competing.[6] The domain was registered in February 2026 and the site launched on March 30, 2026; it went viral in late April and early May 2026 through streamers, with clips of Clavicular and xQc being 'mogged' drawing tens of thousands of likes.[6]",
+    "On May 5, 2026, streamers reportedly received Twitch warnings for using the site because the platform's rules had barred random video chat services; Twitch reportedly removed that rule the same day, telling the outlet Dexerto it wanted to 'empower our creators', while still enforcing its rules.[6]"
+   ]
+  },
+  {
+   "h": "Reading the replies",
+   "paras": [
+    "Commenters frequently justify a vote by pointing to features such as bone structure, facial proportions or skin quality, using forum terms that vary between users.[10] Members who post their own photos report using the replies as a gauge of how they are perceived.[11] A guide to the format notes that commenters tend to break the comparison into specific features, which is the part readers can act on, for example grooming, hair, skin or posture.[7]"
+   ]
+  },
+  {
+   "h": "Research and expert views",
+   "paras": [
+    "No published study has examined mog battle threads. Research on facial attractiveness generally uses ratings from larger and more varied panels than a forum audience. Wikipedia's overview reports considerable cross-cultural agreement about what makes faces attractive in some studies, alongside preferences that vary by country, by the rater's hormonal state, and by context such as skin-tone fashion and posture.[9]",
+    "Critics of the format cited by Robots.net point out that the uploader controls lighting, angle, expression and editing, that close-range phone photos can distort facial features, and that the format typically offers only two options and no way to reject the comparison; the same page says 'a split screen does not turn taste into fact'.[7] Psychotherapist Jonathan Alpert, quoted by NBC News, said the terms give teens language for a ranking system they already feel they live inside and that tying self-worth to constant 'maxxing' makes confidence fragile.[5]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found."
+   ]
+  },
+  {
+   "h": "Reported downsides",
+   "paras": [
+    "Responses on forum threads can be blunt, and votes come from a small, self-selected group of users whose standards are specific to the community.[10] Posting identifiable photos online also carries ordinary privacy considerations, and Robots.net notes that battles using classmates, coworkers or strangers can lead to pile-ons involving people who never agreed to take part.[7] Commentators have also linked looksmaxxing content to incel-adjacent material and have warned that engagement-driven algorithms can push viewers toward related content.[2][7][19]"
+   ]
+  },
+  {
+   "h": "In looksmaxxing culture",
+   "paras": [
+    "On looksmax.org the thread is a common way to settle who looks better, to ask the forum for a verdict, or to post a matchup between named forum users, as in thread titles such as 'loox vs orc'.[1][17] Members also stage lighter versions, such as battles between hair or eye colours.[14][16] The term 'mog' has since widened to cover physique, wealth, fashion and general presence, and is used ironically by people with no connection to the forums.[3][5]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2010s",
+   "event": "The PSL forums (PUAHate, Sluthate, Lookism.net) develop the rating scale and jargon later associated with looksmaxxing.[2]"
+  },
+  {
+   "year": "2016",
+   "event": "Know Your Meme's first documented use of 'mogging', according to Daily Dot.[4]"
+  },
+  {
+   "year": "2021",
+   "event": "'Mogged' takes off on TikTok after a creator ironically labels himself mogged beside a smaller man.[4]"
+  },
+  {
+   "year": "2024",
+   "event": "Searches for 'mogging' spike in January and February; by July hashtag videos have billions of views.[4]"
+  },
+  {
+   "year": "2025",
+   "event": "Mog battle threads are posted regularly on looksmax.org, including matchups of forum regulars.[1][10][11]"
+  },
+  {
+   "year": "Feb 2026",
+   "event": "A clip of Clavicular being 'frame-mogged' by a fraternity leader becomes a meme; NBC News publishes a feature on mog and maxxing slang on February 16.[3][5][8]"
+  },
+  {
+   "year": "Mar 2026",
+   "event": "The Omoggle face-off site launches on March 30.[6]"
+  },
+  {
+   "year": "May 2026",
+   "event": "Omoggle goes viral through streamers; Twitch reportedly drops its random-video-chat rule on May 5.[6]"
+  }
+ ],
+ "lore": {
+  "intro": "On looksmax.org, mog battle threads are a common way to settle who looks better and to ask the forum for a verdict, and the same logic now appears in clips and games on other platforms.[1][5][6]",
+  "claims": [
+   {
+    "claim": "A side-by-side vote shows which face is objectively better looking",
+    "believers": "Participants treat the majority vote and the explanations as a ranking of the two faces.[1][10]",
+    "experts": "No published studies have examined forum voting threads. Research on facial attractiveness generally measures ratings from larger and more varied panels than a forum audience, and critics note that the uploader chooses the lighting, angle and edits.[7][9]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "The comments reveal which specific features to improve",
+    "believers": "Users say replies naming the eye area, jaw or skin tell them what to prioritize.[10]",
+    "experts": "No published studies have tested whether forum feedback leads to appearance changes people value.",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Mogging is simply a numerical hierarchy, and PSL ratings capture it",
+    "believers": "PSL forum members rate faces on a numeric scale and treat the result as how women perceive men.[2]",
+    "experts": "Wikipedia notes that PSL ratings are described as pseudoscientific, and attractiveness research reports that preferences vary by culture and context.[2][9]",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "Automated face scanners can settle a mog-off",
+    "believers": "Omoggle presents a real-time PSL scan, Elo score and leaderboard as the verdict between two strangers.[6]",
+    "experts": "Robots.net notes that even AI face-rating tools apply rules created by people and that attractiveness differs across individuals and cultures.[7]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Being mogged in public is harmless fun",
+    "believers": "Creators on TikTok often use the word jokingly, for example about outfits.[4]",
+    "experts": "Psychotherapist Jonathan Alpert told NBC News that constant ranking makes confidence fragile, and Robots.net describes pile-ons when battles use real people without consent.[5][7]",
+    "evidence": "harms"
+   },
+   {
+    "claim": "The word comes from 'alpha male of the group'",
+    "believers": "Most explainers repeat the AMOG origin.[3][4]",
+    "experts": "Dating differs between outlets, from the mid-2000s to 2016, and no primary source for the acronym has been identified.[3][4]",
+    "evidence": "mixed"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Mog battle",
+   "url": "https://looksmax.org/threads/mog-battle.1834949/",
+   "source": "looksmax.org",
+   "type": "forum",
+   "year": 2025
+  },
+  {
+   "id": 2,
+   "title": "Looksmaxxing",
+   "url": "https://en.wikipedia.org/wiki/Looksmaxxing",
+   "source": "Wikipedia",
+   "type": "encyclopedia",
+   "year": 2026
+  },
+  {
+   "id": 3,
+   "title": "Mogging meaning explained",
+   "url": "https://www.mentalfloss.com/language/slang/mogging-meaning-explained",
+   "source": "Mental Floss",
+   "type": "news",
+   "year": 2026
+  },
+  {
+   "id": 4,
+   "title": "Scrolling In The Deep: Is someone 'mogging' you?",
+   "url": "https://dailydot.com/mogging-mogged-tiktok",
+   "source": "Daily Dot",
+   "type": "news",
+   "year": 2024
+  },
+  {
+   "id": 5,
+   "title": "Mogging and maxxing: manosphere lingo spreads on social media",
+   "url": "https://www.nbcmiami.com/news/national-international/mog-maxxing-manosphere-lingo-social-media/3767250/",
+   "source": "NBC News / NBC 6",
+   "type": "news",
+   "year": 2026
+  },
+  {
+   "id": 6,
+   "title": "Omoggle",
+   "url": "https://knowyourmeme.com/memes/sites/omoggle",
+   "source": "Know Your Meme",
+   "type": "encyclopedia",
+   "year": 2026
+  },
+  {
+   "id": 7,
+   "title": "Mog battle explained",
+   "url": "https://robots.net/emerging-tech/mog-battle-explained/",
+   "source": "Robots.net",
+   "type": "news"
+  },
+  {
+   "id": 8,
+   "title": "Braden Peters",
+   "url": "https://en.wikipedia.org/wiki/Braden_Peters",
+   "source": "Wikipedia",
+   "type": "encyclopedia",
+   "year": 2026
+  },
+  {
+   "id": 9,
+   "title": "Physical attractiveness",
+   "url": "https://en.wikipedia.org/wiki/Physical_attractiveness",
+   "source": "Wikipedia",
+   "type": "encyclopedia",
+   "year": 2026
+  },
+  {
+   "id": 10,
+   "title": "mog battle who mogs",
+   "url": "https://looksmax.org/threads/mog-battle-who-mogs.1761423/",
+   "source": "looksmax.org",
+   "type": "forum",
+   "year": 2025
+  },
+  {
+   "id": 11,
+   "title": "mog battle between the 3 slayers of the forum",
+   "url": "https://looksmax.org/threads/mog-battle-between-the-3-slayers-of-the-forum.1744070/",
+   "source": "looksmax.org",
+   "type": "forum",
+   "year": 2025
+  },
+  {
+   "id": 12,
+   "title": "mog battle vs tigermoggerlol who wins",
+   "url": "https://looksmax.org/threads/mog-battle-vs-tigermoggerlol-who-wins-gtfih.1717873/",
+   "source": "looksmax.org",
+   "type": "forum",
+   "year": 2025
+  },
+  {
+   "id": 13,
+   "title": "mog battle",
+   "url": "https://looksmax.org/threads/mog-battle.1513118/",
+   "source": "looksmax.org",
+   "type": "forum",
+   "year": 2024
+  },
+  {
+   "id": 14,
+   "title": "mog battle amber vs green eyed dude",
+   "url": "https://looksmax.org/threads/mog-battle-amber-vs-green-eyed-dude.1267226/",
+   "source": "looksmax.org",
+   "type": "forum",
+   "year": 2024
+  },
+  {
+   "id": 15,
+   "title": "mog battle who mogs who scandinavian prince vs romanian final boss",
+   "url": "https://looksmax.org/threads/mog-battle-who-mogs-who-scandinavian-prince-vs-romanian-final-boss.1489386/",
+   "source": "looksmax.org",
+   "type": "forum",
+   "year": 2024
+  },
+  {
+   "id": 16,
+   "title": "mog battle spotify vs youtube premium",
+   "url": "https://looksmax.org/threads/mog-battle-spotify-vs-youtube-premium.1299675/",
+   "source": "looksmax.org",
+   "type": "forum",
+   "year": 2024
+  },
+  {
+   "id": 17,
+   "title": "mog battle loox vs orc",
+   "url": "https://looksmax.org/threads/mog-battle-loox-vs-orc.1528763/",
+   "source": "looksmax.org",
+   "type": "forum",
+   "year": 2024
+  },
+  {
+   "id": 18,
+   "title": "mog battle unfrauded",
+   "url": "https://looksmax.org/threads/mog-battle-unfrauded.1360200/",
+   "source": "looksmax.org",
+   "type": "forum",
+   "year": 2024
+  },
+  {
+   "id": 19,
+   "title": "Mog or Be Mogged",
+   "url": "https://www.thealinemag.com/articles/mog-or-be-mogged",
+   "source": "A-Line Magazine",
+   "type": "news"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://www.mentalfloss.com/language/slang/mogging-meaning-explained",
+   "title": "Mogging meaning explained"
+  },
+  {
+   "url": "https://dailydot.com/mogging-mogged-tiktok",
+   "title": "Scrolling In The Deep: Is someone 'mogging' you?"
+  },
+  {
+   "url": "https://www.nbcmiami.com/news/national-international/mog-maxxing-manosphere-lingo-social-media/3767250/",
+   "title": "Mogging and maxxing: manosphere lingo spreads on social media"
+  },
+  {
+   "url": "https://knowyourmeme.com/memes/sites/omoggle",
+   "title": "Omoggle"
+  },
+  {
+   "url": "https://robots.net/emerging-tech/mog-battle-explained/",
+   "title": "Mog battle explained"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Braden_Peters",
+   "title": "Braden Peters"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Physical_attractiveness",
+   "title": "Physical attractiveness"
+  },
+  {
+   "url": "https://www.thealinemag.com/articles/mog-or-be-mogged",
+   "title": "Mog or Be Mogged"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Looksmaxxing",
+   "title": "Looksmaxxing - Wikipedia"
+  }
+ ]
 }

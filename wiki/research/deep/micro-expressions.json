@@ -13,9 +13,9 @@
   "risks": "There are no physical risks. Researchers dispute how well micro-expressions reveal deception, and critics warn against using them to judge suspects or strangers."
  },
  "lead": [
-  "A micro-expression is a brief facial expression, typically lasting under half a second, produced when voluntary and involuntary emotional responses conflict so that a true feeling shows briefly before a false one replaces it.[1] Haggard and Isaacs first described \"micro-momentary\" expressions in 1966 while scanning psychotherapy films, and Paul Ekman and Wallace Friesen later found agreement on emotion labels across cultures, including among the Fore people of Papua New Guinea in 1971.[1]",
-  "Expression is one part of how a face is perceived. Interest in micro-expressions is mainly about emotional signalling and social perception rather than facial structure. Training tools called MFETT and SFETT are used to improve recognition, often with people who find social situations difficult.[1]",
-  "Researchers have questioned the lie-detection claims. A 2008 study that coded 700 expressions found only 2% were micro-expressions, appearing equally in truth-tellers and liars.[1]"
+  "A micro-expression is a brief facial expression, typically lasting under half a second, produced when voluntary and involuntary emotional responses conflict so that a true feeling shows briefly before a false one replaces it [1]. Haggard and Isaacs first described 'micro-momentary' expressions in 1966 while scanning psychotherapy films, and Paul Ekman and Wallace Friesen later found agreement on emotion labels across cultures, including among the Fore people of Papua New Guinea [1][7].",
+  "Expression is one part of how a face is perceived, alongside structure, skin and grooming. Interest in micro-expressions in looksmaxxing and social-skills circles is mainly about emotional signalling: learning how feelings show on the face, how others read them, and how to present a warmer, more engaged expression. Training tools called MFETT and SFETT are used to improve recognition, often with people who find social situations difficult [1][7].",
+  "Researchers have questioned the lie-detection claims. A 2008 study that coded 700 high-stakes expressions found only 2% were micro-expressions, appearing equally in truth-tellers and liars [1]. A separate field of computer vision builds databases and algorithms to detect micro-expressions automatically [2][3][9]."
  ],
  "angle": {
   "goal": "Expression and presence",
@@ -28,119 +28,130 @@
   "text": "People study micro-expressions to understand how emotion shows on the face and to improve their own expression and social reading. It concerns expression, not bone structure."
  },
  "infobox": [
-  [
-   "Duration",
-   "Under 0.5 s [1]"
-  ],
-  [
-   "First described",
-   "Haggard and Isaacs, 1966 [1]"
-  ],
-  [
-   "Key researchers",
-   "Paul Ekman, Wallace Friesen [1]"
-  ],
-  [
-   "Training tools",
-   "MFETT, SFETT [1]"
-  ]
+  ["Duration", "Under 0.5 s [1]"],
+  ["First described", "Haggard and Isaacs, 1966 [1]"],
+  ["Key researchers", "Paul Ekman, Wallace Friesen [1][7]"],
+  ["Types", "Simulated, neutralized, masked [1]"],
+  ["Training tools", "MFETT, SFETT [1]"],
+  ["Coding system", "Facial Action Coding System (FACS), by 1978 [7]"],
+  ["Universal emotions (Ekman)", "Disgust, anger, fear, sadness, happiness, contempt, surprise [1]"]
  ],
  "sections": [
   {
    "h": "Description",
    "paras": [
-    "Wikipedia distinguishes simulated, neutralized and masked micro-expressions: a flash of expression over a neutral face, a suppressed genuine emotion, and a genuine emotion covered by a fake one.[1] Ekman's seven universal emotions are disgust, anger, fear, sadness, happiness, contempt and surprise.[1]"
+    "Wikipedia distinguishes simulated, neutralized and masked micro-expressions: a flash of expression over a neutral face, a suppressed genuine emotion, and a genuine emotion covered by a fake one [1]. Ekman's list of universal emotions is disgust, anger, fear, sadness, happiness, contempt and surprise, and he later expanded the set to include states such as amusement, embarrassment and pride [1]. Display rules, shaped by culture and family, govern which expressions people show, often automatically [1].",
+    "Emotions typically last from minutes to an hour, while moods last a day or longer; micro-expressions are the briefest layer, with high-speed cameras able to capture them for slow-motion replay [1]. Neuroscience work has examined the brain basis of spontaneous expressions and micro-expressions, including an EEG study of functional brain networks [11][13]."
+   ]
+  },
+  {
+   "h": "Origins and key people",
+   "paras": [
+    "Haggard and Isaacs described micro-momentary expressions in 1966 while scanning psychotherapy films, and in the 1960s William Condon analysed a 4.5-second film segment frame by frame over roughly a year and a half [1]. Paul Ekman, born in 1934, earned his PhD at Adelphi University in 1958, joined the University of California, San Francisco in 1972 and retired in 2004; with Wallace Friesen he developed the Facial Action Coding System by 1978, which describes facial movement as anatomically defined action units [7]. Ekman died in November 2025 [7].",
+    "In studies with Friesen, people across Western and Eastern cultures and the preliterate Fore of Papua New Guinea matched emotion labels to expressions, with the strongest agreement for anger, disgust, fear, happiness, sadness and surprise and less clear support for contempt [1][7]. Ekman also ran the Wizards Project with Maureen O'Sullivan on people who read deception unusually well, reporting about 50 such 'naturals' among 20,000 tested [7]. Matsumoto's study of sighted and blind judo athletes at the 2004 Olympic and Paralympic Games found similar winning and losing expressions, which the Wikipedia article reads as evidence that they are not learned visually [1]."
+   ]
+  },
+  {
+   "h": "Training tools and use for self-presentation",
+   "paras": [
+    "MFETT and SFETT are software tools that teach emotion recognition through instructional videos, practice faces and immediate feedback, and they are often used with people who find social situations difficult, such as those with autism [1][7]. Daniel Goleman linked the ability to read facial emotion to emotional intelligence, and Wikipedia describes mirror neurons and emotional contagion as explanations for how one person's expression affects an observer [1].",
+    "In appearance and charisma communities, people use such ideas in general terms: studying how a smile engages the eyes, how a neutral or tense resting face is read by others, and rehearsing expressions in a mirror or on video. Pilot trials of recognition training exist for medical students and for people with schizophrenia [4][5]."
    ]
   },
   {
    "h": "Research and criticism",
    "paras": [
-    "Reported lie-detection accuracy averages about 54% for ordinary people and 64% for Secret Service agents, with Ekman-linked cohorts reaching 68-73%.[1] Critics including Maria Hartwig argue that reliance on such cues has contributed to wrongful imprisonment of aggressively interrogated suspects, and a 2016 Scientific Reports study found people fail to tell real from masked expressions over 40% of the time.[1]",
-    "Computer scientists have built datasets and recognition systems for automatic micro-expression analysis, with surveys covering databases, methods and challenges.[2][3]"
+    "Wikipedia reports lie-detection accuracy averaging about 54% for ordinary people and 64% for Secret Service agents, with an Ekman-linked cohort of motivated participants reaching 68-73% [1]. In 2008 Porter and ten Brinke coded 700 high-stakes emotional expressions and found only 2% were micro-expressions, appearing equally often in truth-tellers and liars [1]. Pentland and colleagues reported liars showing less contempt and more intense smiles than truthful people [1]. Wikipedia states that micro-expressions reveal emotional arousal rather than the concealed content, so they do not determine whether someone is lying [1]. John Gottman's couples research found Ekman's facial coding was not statistically significant, while skin conductance and oral-history narratives were [1].",
+    "Critics including Maria Hartwig argue that reliance on such cues has contributed to wrongful imprisonment after aggressive interrogations, and a 2016 Scientific Reports study found people fail to tell real from masked expressions over 40% of the time [1]. Critics of Ekman's methodology argue that some of his studies were circular because subjects matched photos to the same emotion labels he used, and that parts of his later work were not peer reviewed [7].",
+    "Computer scientists have built datasets such as CASME II and recognition systems for automatic micro-expression analysis, with surveys covering databases, features, algorithms and challenges [2][3][9][10]."
+   ]
+  },
+  {
+   "h": "Security screening and the SPOT program",
+   "paras": [
+    "The US Transportation Security Administration trained behaviour-detection officers from 2006 and deployed the Screening of Passengers by Observation Techniques (SPOT) program at airports in 2007; it was renamed Behavior Detection and Analysis in 2016 [8]. Wikipedia says the program was originally based on Ekman's Facial Action Coding System, that its 94 criteria related to stress, fear or deception, and that these were kept secret until The Intercept published them in March 2015 [8]. A 2015 Hacker News thread discussed the program under the title 'Be careful with your face at airports' [6].",
+    "The program cost about $900 million in its first six years, with around 2,800 employees working on it as of 2015 [8]. In 2010 the Government Accountability Office criticised the TSA for deploying it without scientific validation, and a 2013 GAO report and a DHS Inspector General report found little evidence of effectiveness; funding was later reduced [8]. Judee Burgoon cites testimony that 0.6% of 61,000 passenger referrals in 2011 and 2012 led to arrests [1]. Critics, including the ACLU, argued the program led to profiling; Philip Rubin testified to Congress in 2011 that it lacked scientific evaluation [8]."
    ]
   },
   {
    "h": "Popular culture",
    "paras": [
-    "The 2009 TV series Lie to Me was based on Ekman's work.[1] A 2015 Hacker News thread discussed airport behaviour-detection screening said to look for micro-expressions.[6]"
+    "The 2009 TV series Lie to Me was based on Ekman's work, and its lead character Dr. Lightman was modelled on him, with Ekman serving as scientific adviser [1][7]. Wikipedia also lists appearances in The Mentalist, in novels by Robert Ludlum and Alastair Reynolds, and in the 2015 film Ex Machina [1]. Ekman was named to the Time 100 list in 2009 and advised Pixar on the 2015 film Inside Out [7]."
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "Studies include a pilot of micro-expression recognition training in medical students,[4] a pilot of emotion-recognition remediation in schizophrenia using a micro-expression training tool,[5] and technical surveys of recognition datasets and algorithms.[2][3]"
+    "Studies include a pilot of micro-expression recognition training in medical students [4], a pilot of emotion-recognition remediation in schizophrenia using a micro-expression training tool [5], and technical surveys of recognition datasets and algorithms [2][3]. Other work has examined whether facial expressions captured on video can help detect Parkinson's disease [12]."
    ]
   }
  ],
  "timeline": [
-  {
-   "year": "1966",
-   "event": "Haggard and Isaacs identify micro-momentary expressions.[1]"
-  },
-  {
-   "year": "1971",
-   "event": "Ekman and Friesen report cross-cultural agreement on emotion labels.[1]"
-  },
-  {
-   "year": "2008",
-   "event": "Porter and ten Brinke coding study of 700 expressions.[1]"
-  }
+  {"year": "1966", "event": "Haggard and Isaacs identify micro-momentary expressions [1]."},
+  {"year": "1971", "event": "Ekman and Friesen report cross-cultural agreement on emotion labels [1]."},
+  {"year": "1978", "event": "Ekman and Friesen complete the Facial Action Coding System [7]."},
+  {"year": "2006", "event": "TSA begins training behaviour-detection officers after the British liquid bomb plot; the SPOT program reaches US airports in 2007 [8]."},
+  {"year": "2008", "event": "Porter and ten Brinke coding study of 700 expressions [1]."},
+  {"year": "2009", "event": "Lie to Me premieres; Ekman is named to the Time 100 [1][7]."},
+  {"year": "2010", "event": "GAO criticises SPOT for deployment without scientific validation [8]."},
+  {"year": "2013", "event": "GAO and DHS Inspector General reports find little evidence the program works [8]."},
+  {"year": "2014", "event": "CASME II spontaneous micro-expression database published [10]."},
+  {"year": "2016", "event": "SPOT renamed Behavior Detection and Analysis [8]."},
+  {"year": "2025", "event": "Paul Ekman dies in San Francisco [7]."}
  ],
- "lore": null,
+ "lore": {
+  "intro": "In looksmaxxing and social-skills discussion, micro-expressions come up as part of charisma and face reading, and are often linked with Hollywood portrayals of lie detection [1][7].",
+  "claims": [
+   {
+    "claim": "Micro-expressions reveal when someone is lying",
+    "believers": "Proponents, drawing on Ekman's work and the TV series it inspired, say brief flashes of concealed emotion leak through [1][7].",
+    "experts": "A 2008 coding study found only 2% of expressions were micro-expressions, equally in truth-tellers and liars, and Wikipedia states they reveal arousal rather than the concealed content [1].",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "Training improves your ability to read emotions",
+    "believers": "Users of MFETT and SFETT report better recognition of subtle expressions, and the tools are used with people who find social situations difficult [1][7].",
+    "experts": "Pilot studies of recognition training exist in medical students and in people with schizophrenia [4][5].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Emotional expressions are universal across cultures",
+    "believers": "Ekman and Friesen's studies, including among the Fore people, found agreement on emotion labels for basic emotions [1][7].",
+    "experts": "Critics say some of the research design was circular, and contempt's universality had less clear support [1][7].",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Airport behaviour screening can spot dangerous people from facial cues",
+    "believers": "The TSA's SPOT program was originally based on Ekman's work [8][6].",
+    "experts": "The GAO and DHS Inspector General found little evidence of effectiveness, and critics raised profiling concerns [8].",
+    "evidence": "not-supported"
+   },
+   {
+    "claim": "People can learn to read others' faces better to come across as more charismatic",
+    "believers": "Social-skills communities link reading and showing emotion to emotional intelligence, citing Goleman [1].",
+    "experts": "No published studies have tested micro-expression practice as a way to improve perceived attractiveness or charisma.",
+    "evidence": "untested"
+   }
+  ]
+ },
  "refs": [
-  {
-   "id": 1,
-   "title": "Microexpression",
-   "url": "https://en.wikipedia.org/wiki/Microexpression",
-   "source": "Wikipedia",
-   "year": 2025,
-   "type": "encyclopedia"
-  },
-  {
-   "id": 2,
-   "title": "A Survey of Automatic Facial Micro-Expression Analysis: Databases, Methods, and Challenges.",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/30042706/",
-   "source": "Frontiers in Psychology",
-   "year": 2018,
-   "type": "review"
-  },
-  {
-   "id": 3,
-   "title": "Video-Based Facial Micro-Expression Analysis: A Survey of Datasets, Features and Algorithms.",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/33739920/",
-   "source": "IEEE TPAMI",
-   "year": 2022,
-   "type": "review"
-  },
-  {
-   "id": 4,
-   "title": "Micro-expression recognition training in medical students: a pilot study.",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/19619307/",
-   "source": "BMC Medical Education",
-   "year": 2009,
-   "type": "study"
-  },
-  {
-   "id": 5,
-   "title": "A pilot study to investigate the effectiveness of emotion recognition remediation in schizophrenia using the micro-expression training tool.",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/17076965/",
-   "source": "British Journal of Clinical Psychology",
-   "year": 2006,
-   "type": "study"
-  },
-  {
-   "id": 6,
-   "title": "Hacker News: Be careful with your face at airports. TSA is looking for micro-expressions",
-   "url": "https://news.ycombinator.com/item?id=9232348",
-   "source": "Hacker News",
-   "year": 2015,
-   "type": "forum"
-  }
+  {"id": 1, "title": "Microexpression", "url": "https://en.wikipedia.org/wiki/Microexpression", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"},
+  {"id": 2, "title": "A Survey of Automatic Facial Micro-Expression Analysis: Databases, Methods, and Challenges.", "url": "https://pubmed.ncbi.nlm.nih.gov/30042706/", "source": "Frontiers in Psychology", "year": 2018, "type": "review"},
+  {"id": 3, "title": "Video-Based Facial Micro-Expression Analysis: A Survey of Datasets, Features and Algorithms.", "url": "https://pubmed.ncbi.nlm.nih.gov/33739920/", "source": "IEEE TPAMI", "year": 2022, "type": "review"},
+  {"id": 4, "title": "Micro-expression recognition training in medical students: a pilot study.", "url": "https://pubmed.ncbi.nlm.nih.gov/19619307/", "source": "BMC Medical Education", "year": 2009, "type": "study"},
+  {"id": 5, "title": "A pilot study to investigate the effectiveness of emotion recognition remediation in schizophrenia using the micro-expression training tool.", "url": "https://pubmed.ncbi.nlm.nih.gov/17076965/", "source": "British Journal of Clinical Psychology", "year": 2006, "type": "study"},
+  {"id": 6, "title": "Hacker News: Be careful with your face at airports. TSA is looking for micro-expressions", "url": "https://news.ycombinator.com/item?id=9232348", "source": "Hacker News", "year": 2015, "type": "forum"},
+  {"id": 7, "title": "Paul Ekman", "url": "https://en.wikipedia.org/wiki/Paul_Ekman", "source": "Wikipedia", "year": 2025, "type": "encyclopedia"},
+  {"id": 8, "title": "BDA (TSA program)", "url": "https://en.wikipedia.org/wiki/BDA_(TSA_program)", "source": "Wikipedia", "year": null, "type": "encyclopedia"},
+  {"id": 9, "title": "Macro- and Micro-Expressions Facial Datasets: A Survey.", "url": "https://pubmed.ncbi.nlm.nih.gov/35214430/", "source": "Sensors", "year": 2022, "type": "review"},
+  {"id": 10, "title": "CASME II: an improved spontaneous micro-expression database and the baseline evaluation.", "url": "https://pubmed.ncbi.nlm.nih.gov/24475068/", "source": "PLoS ONE", "year": 2014, "type": "study"},
+  {"id": 11, "title": "Responses of functional brain networks in micro-expressions: An EEG study.", "url": "https://pubmed.ncbi.nlm.nih.gov/36389479/", "source": "Frontiers in Psychology", "year": 2022, "type": "study"},
+  {"id": 12, "title": "Facial expressions can detect Parkinson's disease: preliminary evidence from videos collected online.", "url": "https://pubmed.ncbi.nlm.nih.gov/34480109/", "source": "npj Digital Medicine", "year": 2021, "type": "study"},
+  {"id": 13, "title": "Spontaneous Facial Expressions and Micro-expressions Coding: From Brain to Face.", "url": "https://pubmed.ncbi.nlm.nih.gov/35058850/", "source": "Frontiers in Psychology", "year": 2021, "type": "study"}
  ],
  "webSources": [
-  {
-   "url": "https://en.wikipedia.org/wiki/Microexpression",
-   "title": "Microexpression"
-  }
+  {"url": "https://en.wikipedia.org/wiki/Microexpression", "title": "Microexpression"},
+  {"url": "https://en.wikipedia.org/wiki/Paul_Ekman", "title": "Paul Ekman"},
+  {"url": "https://en.wikipedia.org/wiki/BDA_(TSA_program)", "title": "BDA (TSA program)"}
  ]
 }

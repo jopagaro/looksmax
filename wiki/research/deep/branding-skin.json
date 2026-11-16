@@ -1,18 +1,307 @@
 {
-"name":"Branding (skin)",
-"card":{"summary":"A form of body art and scarification in which heat or cautery is applied to the skin to leave a permanent raised scar design, used to make a distinctive mark on the body.","aka":"Skin branding, strike branding, cautery branding","evidence":"limited","risk":"high","note":"Causes third-degree burns; case series document infection, cellulitis and complications.","price":null},
-"quick":{"overview":"Skin branding applies a heated metal object, electrocautery or other methods to cause a burn that heals into a permanent scar pattern. In body-art communities it is chosen for self-expression and for the raised, textured design it leaves.\n\nIt belongs to the wider family of scarification, which has long been practised in parts of Africa, Melanesia and Australia for rites of passage and identity. Medical literature mostly documents its complications.","how":"In body modification, designs are made by specialists and healing is a long process, commonly 6 to 12 months for scarification in general, with spreading scars making simple designs more common. A separate, non-aesthetic tradition uses branding as folk therapy in some countries.","risks":"Branding causes third-degree burns. Case series report infections, cellulitis and other complications, and keloid scarring can occur. Shared tools have been linked to transmission of bloodborne infections in scarification generally."},
-"lead":["Skin branding is a body-art method in which third-degree burns are inflicted with hot metal, electrocautery, laser, chemicals or freezing to produce permanent scars.[1] It is practised in many indigenous cultures and became common in western body-modification scenes.[1]","In the looksmaxxing context it is a fringe appearance modification: instead of ink, the design is the scar itself. It is separate from therapeutic branding used by folk healers for counter-irritation.[2][3]","Published literature consists mainly of case reports and series describing complications.[1][2]"],
-"angle":{"goal":"Body art / distinctive marking","chain":["Heat or cautery burns a design into the skin","Wound heals over months into a raised scar","A permanent mark in the chosen shape"],"effect":"direct","text":"Branding creates a permanent patterned scar that people choose as body art. The look is the scar's texture and shape, and it cannot be easily removed."},
-"infobox":[["Type","Scarification / body modification"],["Methods","Hot metal, electrocautery, laser, chemical, freezing"],["Healing","About 6 to 12 months (scarification generally)"],["Permanence","Permanent"],["Main concerns","Burns, infection, keloids"]],
-"sections":[
-{"h":"Description","paras":["Aesthetic branding is described in the burn literature as a form of body art in which third-degree burns produce permanent scars, performed with methods including electrocautery, laser, chemicals, freezing and hot metal. The authors of a 2006 report say it is not a manifestation of a psychiatric disorder but a method of self-expression.[1]","Scarification more broadly means cutting, scratching, etching or burning designs into skin; scars tend to spread as they heal, so final designs are usually simple and outcomes are hard to predict.[4]"]},
-{"h":"History and cultural context","paras":["Scarification is traditionally practised in parts of Africa, Melanesia and Australia and among some Indigenous cultures of the Americas, marking rites of passage, identity and sometimes medicinal treatment. Colonial governments and missionaries stigmatised and criminalised it in places.[4]","Separately, branding is used by some traditional healers, for example for jaundice in children in southern India, where it is described as a cultural dermatosis.[5]"]},
-{"h":"Clinical studies","paras":["No controlled studies of branding for appearance exist. Case literature includes a 2009 series of adverse clinical sequelae after skin branding, a 2006 report on aesthetic branding with adverse outcomes, and reports of abdominal cellulitis and of children branded for jaundice.[1][2][5][6]"]},
-{"h":"Reported risks","paras":["Reports describe burns, infection and cellulitis.[2][6] Infection is common when tools are unsterilised, shared tools have been linked to HIV and hepatitis C transmission, and keloids may form.[4] Clinicians are advised to be aware of the practice to avoid misdiagnosis.[5]"]}
-],
-"timeline":[],
-"lore":null,
-"refs":[{"id":1,"title":"Aesthetic skin branding: a novel form of body art with adverse clinical sequela","url":"https://pubmed.ncbi.nlm.nih.gov/16566546/","source":"Journal of Burn Care & Research","year":2006,"type":"study"},{"id":2,"title":"Adverse clinical sequelae after skin branding: a case series","url":"https://pubmed.ncbi.nlm.nih.gov/19166615/","source":"Journal of Medical Case Reports","year":2009,"type":"study"},{"id":3,"title":"Skin branding","url":"https://pubmed.ncbi.nlm.nih.gov/15751184/","source":"Journal of Postgraduate Medicine","year":2004,"type":"study"},{"id":4,"title":"Scarification","url":"https://en.wikipedia.org/wiki/Scarification","source":"Wikipedia","year":2024,"type":"encyclopedia"},{"id":5,"title":"Skin branding for jaundice in children: A brutal cultural dermatosis","url":"https://pubmed.ncbi.nlm.nih.gov/38019098/","source":"Pediatric Dermatology","year":2024,"type":"study"},{"id":6,"title":"Abdominal cellulitis: dreadful clinical consequence after skin branding","url":"https://pubmed.ncbi.nlm.nih.gov/26059648/","source":"Tropical Doctor","year":2016,"type":"study"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Scarification","title":"Scarification - Wikipedia"}]
+ "name": "Branding (skin)",
+ "card": {
+  "summary": "A form of body art and scarification in which heat or cautery is applied to the skin to leave a permanent raised scar design, used to make a distinctive mark on the body.",
+  "aka": "Skin branding, strike branding, cautery branding",
+  "evidence": "limited",
+  "risk": "high",
+  "note": "Causes third-degree burns; case series document infection, cellulitis and complications.",
+  "price": null
+ },
+ "quick": {
+  "overview": "Skin branding applies a heated metal object, electrocautery or other methods to cause a burn that heals into a permanent scar pattern. In body-art communities it is chosen for self-expression and for the raised, textured design it leaves.\n\nIt belongs to the wider family of scarification, which has long been practised in parts of Africa, Melanesia and Australia for rites of passage and identity. Medical literature mostly documents its complications.",
+  "how": "In body modification, designs are made by specialists and healing is a long process, commonly 6 to 12 months for scarification in general, with spreading scars making simple designs more common. A separate, non-aesthetic tradition uses branding as folk therapy in some countries.",
+  "risks": "Branding causes third-degree burns. Case series report infections, cellulitis and other complications, and keloid scarring can occur. Shared tools have been linked to transmission of bloodborne infections in scarification generally."
+ },
+ "lead": [
+  "Skin branding is a body-art method in which third-degree burns are inflicted with hot metal, electrocautery, laser-style electrosurgery, chemicals or freezing to produce a permanent scar design.[1] The appearance payoff is the scar itself: instead of pigment under the skin, the design is a raised, textured mark in a chosen shape, which people choose as a distinctive, permanent body adornment.[1][7]",
+  "Branding is practised in many indigenous cultures as part of scarification, and it became common in western body-modification scenes from the late twentieth century, associated with the modern primitive movement and with fraternity traditions.[1][4][8][9] It is separate from the long history of branding as punishment or ownership marking and from therapeutic branding used by folk healers for counter-irritation.[2][3][8]",
+  "Published medical literature consists mainly of case reports and series describing complications such as infection, cellulitis and keloid scarring.[1][2][6] No controlled study has examined branding as a way of improving appearance."
+ ],
+ "angle": {
+  "goal": "Body art / distinctive marking",
+  "chain": [
+   "Heat or cautery burns a design into the skin",
+   "Wound heals over months into a raised scar",
+   "A permanent mark in the chosen shape"
+  ],
+  "effect": "direct",
+  "text": "Branding creates a permanent patterned scar that people choose as body art. The look is the scar's texture and shape, and it cannot be easily removed."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Scarification / body modification"
+  ],
+  [
+   "Methods",
+   "Strike (hot metal), cautery, electrosurgical ('laser'), chemical, cold (freezing)[8]"
+  ],
+  [
+   "Healing",
+   "About 6 to 12 months (scarification generally)[4]"
+  ],
+  [
+   "Permanence",
+   "Permanent"
+  ],
+  [
+   "Modern subculture",
+   "Body modification, modern primitives, some fraternities[8][9]"
+  ],
+  [
+   "Notable promoter",
+   "Fakir Musafar (1930-2018) and his Intensives workshops[10]"
+  ],
+  [
+   "Main concerns",
+   "Burns, infection, keloids, unpredictable scar spread[2][4]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "Aesthetic branding is described in the burn literature as a form of body art in which third-degree burns produce permanent scars, performed with methods including electrocautery, laser, chemicals, freezing and hot metal. The authors of a 2006 report say it is not a manifestation of a psychiatric disorder but a method of self-expression.[1]",
+    "Scarification more broadly means cutting, scratching, etching or burning designs into skin; scars tend to spread as they heal, so final designs are usually simple and outcomes are hard to predict.[4] Wikipedia's account of human branding lists the main modern techniques: strike branding presses heated metal onto the skin and can spread during healing, with multi-strike work built up piece by piece for more control; cautery branding uses a heated wire tip; 'laser' branding is actually electrosurgery that vaporizes skin with electric sparks, a term attributed to Steve Haworth; and cold branding uses a metal tool chilled with liquid nitrogen, which its proponents say avoids keloids.[8]"
+   ]
+  },
+  {
+   "h": "Origins and history",
+   "paras": [
+    "Scarification is traditionally practised in parts of Africa, Melanesia and Australia and among some Indigenous cultures of the Americas, marking rites of passage, identity and sometimes medicinal treatment. Enduring the pain can signal strength, and marks can show clan or ethnic membership. Colonial governments and missionaries stigmatised and criminalised it in places.[4]",
+    "Branding of people has a separate and much older history as punishment and ownership. Roman authorities marked runaway slaves and convicts, facial branding was banned under Constantine I, colonial North American courts used letters for specific crimes, and slavers branded millions of people during the Atlantic slave trade. England abolished branding as a punishment in 1829 apart from army deserters, a carve-out that ended in 1879, and Russia abolished it in 1863.[8] This history shapes how branding is understood and why consensual body-art branding is described by participants as reclaiming a mark for self-expression.",
+    "In the late twentieth century, western body-modification culture adopted branding alongside piercing, suspension and tattooing. Fakir Musafar (Roland Loomis, 1930 to 2018), named as a founder of the modern primitive movement, covered branding in his magazine Body Play and Modern Primitives Quarterly (1992 to 1999), and the 1989 RE/Search book Modern Primitives popularised the movement.[10][11] Critics have described the movement as cultural appropriation, a charge its defenders dispute.[11]"
+   ]
+  },
+  {
+   "h": "Practice in body-modification and other communities",
+   "paras": [
+    "Participants in the body-modification scene commission branding from specialist practitioners; designs are kept simple because spreading scars blur fine lines, and healing is a long process.[4][8] Wikipedia notes that strike branding is unsuitable for curved areas of the body and that cold branding leaves hair in the mark growing back white.[8]",
+    "Branding also appears outside body art. Members of some fraternities and sororities, especially historically African-American groups such as Omega Psi Phi, choose to be branded with their letters; it is used in some consensual BDSM relationships; and street gangs, prison gangs and organized crime have used it as a membership mark. Wikipedia reports ceremonial branding among some Hindus in Karnataka and protest branding in 2012 in solidarity with an animal-rights cause.[8]",
+    "Branding is also reported in coercive settings. In the NXIVM case, former members of the secret women's group DOS said in a civil suit that they were branded with a cauterizing pen without anesthesia, and prosecutors described the branding with the leader's initials; Keith Raniere was sentenced to 120 years in prison in October 2020, though reports do not state that the branding itself was a basis of conviction.[12] Coverage of these accusations has shaped public associations with the practice."
+   ]
+  },
+  {
+   "h": "Therapeutic branding",
+   "paras": [
+    "Branding is used by some traditional healers in developing countries on the principle of counter-irritation. A 2009 case series described complications after skin branding by faith healers,[2] a 2004 paper reviewed the practice,[3] a 2024 report described seven children branded for jaundice in southern India as a 'cultural dermatosis' that clinicians should recognise to avoid misdiagnosis,[5] and a 2016 report described abdominal cellulitis after branding.[6]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No controlled studies of branding for appearance exist. Case literature includes a 2009 series of adverse clinical sequelae after skin branding, a 2006 report on aesthetic branding with adverse outcomes, and reports of abdominal cellulitis and of children branded for jaundice.[1][2][5][6] A 1998 nursing review of body art stated that branding is strongly associated with infection and that tattooing, piercing and branding are largely unlicensed and unregulated industries.[7]"
+   ]
+  },
+  {
+   "h": "Reported risks",
+   "paras": [
+    "Reports describe burns, infection and cellulitis.[2][6] Infection is common when tools are unsterilised, shared tools have been linked to HIV and hepatitis C transmission in scarification, and keloids may form.[4] Outcomes are hard to predict because scars spread as they heal, and the result is permanent. Clinicians are advised to be aware of the practice to avoid misdiagnosis.[5]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1829",
+   "event": "England abolishes branding as a criminal punishment, with an army-deserter exception that lasts until 1879.[8]"
+  },
+  {
+   "year": "1863",
+   "event": "Russia abolishes branding as punishment.[8]"
+  },
+  {
+   "year": "1930",
+   "event": "Roland Loomis, later known as Fakir Musafar, is born; he becomes a founder of the modern primitive movement.[10]"
+  },
+  {
+   "year": "1989",
+   "event": "RE/Search publishes Modern Primitives, an early study of the movement.[11]"
+  },
+  {
+   "year": "1992",
+   "event": "Body Play and Modern Primitives Quarterly begins publication, running to 1999.[10]"
+  },
+  {
+   "year": "1998",
+   "event": "A nursing review of body art identifies branding as strongly associated with infection.[7]"
+  },
+  {
+   "year": "2006",
+   "event": "Journal of Burn Care & Research report describes aesthetic skin branding as a body art with adverse clinical sequelae.[1]"
+  },
+  {
+   "year": "2009",
+   "event": "Journal of Medical Case Reports publishes a case series of adverse sequelae after skin branding.[2]"
+  },
+  {
+   "year": "2018",
+   "event": "Fakir Musafar dies on 1 August in Menlo Park, California.[10]"
+  },
+  {
+   "year": "2020",
+   "event": "Keith Raniere is sentenced to 120 years in prison on 27 October; accusers had described forced branding in the NXIVM case.[12]"
+  }
+ ],
+ "lore": {
+  "intro": "Claims about branding come mainly from the body-modification and modern primitive communities and from fraternity and cultural traditions rather than from looksmaxxing forums, where it remains a fringe topic.",
+  "claims": [
+   {
+    "claim": "Branding is a legitimate form of self-expression.",
+    "believers": "Participants describe a chosen brand as a way to mark identity, an achievement or a rite of passage, in line with traditional scarification practices.[4][10]",
+    "experts": "The authors of a 2006 burn-care report state that aesthetic branding is not a manifestation of a psychiatric disorder but a method of self-expression.[1]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "A brand gives a distinctive raised design that tattoos cannot.",
+    "believers": "Practitioners value the texture and relief of a healed scar, which differs from flat ink.[8]",
+    "experts": "Dermatology sources note that scarification outcomes are unpredictable and scars spread, so designs are usually simple.[4]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Modern branding revives traditional rites of passage.",
+    "believers": "Modern primitive adherents link such practices to authenticity and to non-Western ceremonial traditions.[11]",
+    "experts": "Critics, including scholar Matt Lodder, argue the 'modern primitive' framing bundles distinct cultures together and amounts to appropriation; defenders dispute this.[11]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Cold or 'laser' branding is safer or more precise than hot-iron strike branding.",
+    "believers": "Proponents say electrosurgical methods are more precise with less heat damage, and that cold branding avoids keloids.[8]",
+    "experts": "Published literature on branding is limited to case reports and series on complications; no comparative study of methods has been found.[1][2]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Branding is a low-risk body art when done by an experienced practitioner.",
+    "believers": "Body-modification practitioners emphasise specialist technique and aftercare.",
+    "experts": "Case series report infection, cellulitis and keloid scarring, and a 1998 review found branding strongly associated with infection in an unregulated industry.[2][6][7]",
+    "evidence": "harms"
+   },
+   {
+    "claim": "Branding has therapeutic value as counter-irritation.",
+    "believers": "Some traditional healers use it for conditions such as jaundice.[3]",
+    "experts": "Clinicians describe it as a cultural dermatosis causing burns and complications, including in children.[2][5]",
+    "evidence": "harms"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "Aesthetic skin branding: a novel form of body art with adverse clinical sequela",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16566546/",
+   "source": "Journal of Burn Care & Research",
+   "year": 2006,
+   "type": "study"
+  },
+  {
+   "id": 2,
+   "title": "Adverse clinical sequelae after skin branding: a case series",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19166615/",
+   "source": "Journal of Medical Case Reports",
+   "year": 2009,
+   "type": "study"
+  },
+  {
+   "id": 3,
+   "title": "Skin branding",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15751184/",
+   "source": "Journal of Postgraduate Medicine",
+   "year": 2004,
+   "type": "study"
+  },
+  {
+   "id": 4,
+   "title": "Scarification",
+   "url": "https://en.wikipedia.org/wiki/Scarification",
+   "source": "Wikipedia",
+   "year": 2024,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 5,
+   "title": "Skin branding for jaundice in children: A brutal cultural dermatosis",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38019098/",
+   "source": "Pediatric Dermatology",
+   "year": 2024,
+   "type": "study"
+  },
+  {
+   "id": 6,
+   "title": "Abdominal cellulitis: dreadful clinical consequence after skin branding",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26059648/",
+   "source": "Tropical Doctor",
+   "year": 2016,
+   "type": "study"
+  },
+  {
+   "id": 7,
+   "title": "The living canvas",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9708051/",
+   "source": "Advance for Nurse Practitioners",
+   "year": 1998,
+   "type": "review"
+  },
+  {
+   "id": 8,
+   "title": "Human branding",
+   "url": "https://en.wikipedia.org/wiki/Human_branding",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 9,
+   "title": "Modern primitive",
+   "url": "https://en.wikipedia.org/wiki/Modern_primitive",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 10,
+   "title": "Fakir Musafar",
+   "url": "https://en.wikipedia.org/wiki/Fakir_Musafar",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 11,
+   "title": "Modern primitive (origins and criticism)",
+   "url": "https://en.wikipedia.org/wiki/Modern_primitive",
+   "source": "Wikipedia",
+   "year": 2026,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 12,
+   "title": "NXIVM founder Keith Raniere sentenced to 120 years in prison",
+   "url": "https://www.cbsnews.com/news/nxivm-keith-raniere-sentence-120-years-prison",
+   "source": "CBS News",
+   "year": 2020,
+   "type": "news"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Scarification",
+   "title": "Scarification"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Human_branding",
+   "title": "Human branding"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Modern_primitive",
+   "title": "Modern primitive"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Fakir_Musafar",
+   "title": "Fakir Musafar"
+  },
+  {
+   "url": "https://www.cbsnews.com/news/nxivm-keith-raniere-sentence-120-years-prison",
+   "title": "NXIVM sentencing (CBS News)"
+  }
+ ]
 }

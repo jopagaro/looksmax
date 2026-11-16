@@ -1,18 +1,364 @@
 {
-"name":"Peptides for bone growth",
-"card":{"summary":"Growth-hormone-releasing and repair peptide stacks that some people discuss as a way to build bone density or size for a stronger frame and jaw.","aka":"bone growth peptides","evidence":"limited","status":"research","outcome":null,"risk":"high","price":null,"note":"Research compounds that are not approved for this use; growth-axis stimulation has documented risks.","structure":null},
-"quick":{"overview":"Some looksmaxxing forum members discuss peptide stacks, such as growth hormone secretagogues (CJC-1295, ipamorelin, GHRPs), IGF-1 derivatives and thymosin peptides, as ways to support bone growth. The appearance idea is a larger or denser skeleton, for example a broader frame or stronger facial bone structure.\n\nHuman research on anabolic peptides for bone relates to osteoporosis, where review literature examines short peptides that stimulate bone formation. Growth hormone has also been tested for bone in conditions such as anorexia nervosa, obesity and pediatric osteoporosis. Whether peptide stacks change bone in healthy adults has not been tested in trials.","how":"On forums the peptides are described as injectables bought from research-chemical suppliers and combined in stacks. They are not approved for bone growth. No protocol details are provided here.","risks":"These compounds are sold as research peptides and are not approved medicines for this use. Growth-axis stimulation can enlarge tissues and affect glucose; a forum reply to the thread notes cancer worries, and another advises an X-ray first, referring to growth plate status. Ipamorelin is on the World Anti-Doping Agency prohibited list.[2]"},
-"lead":["Peptides for bone growth is a forum term for stacks of research peptides that people discuss using to increase bone mass or size. Thread posts list growth hormone secretagogues such as CJC-1295, ipamorelin, GHRP-2 and GHRP-6 and tesamorelin, IGF-1 variants such as LR3 and DES, and thymosins like TB-500, describing effects on muscle, fat loss, recovery and tissue repair.[1]","The appearance rationale is that more bone would mean a broader skeleton or stronger facial structure. One reply in the thread said that users in their late teens or older should get an X-ray first, a reference to whether growth plates remain open.[1]","Scientific literature on anabolic peptides concerns bone loss. A 2016 review in Medicinal Research Reviews describes short anabolic peptides for bone growth in the context of osteoporosis, a skeletal disorder with high fracture costs.[3]"],
-"angle":{"goal":"Bone structure","chain":["Growth-axis peptides raise GH or IGF-1 signalling","Bone-forming cells receive anabolic signals","Claimed denser or larger skeleton and stronger-looking frame"],"effect":"claimed","text":"Users hope the peptides add bone, giving a more robust frame or jaw. The mechanism is claimed on the basis of growth hormone pathways, not demonstrated in healthy adults."},
-"infobox":[["Type","Peptide stack (research compounds)"],["Examples","CJC-1295, ipamorelin, GHRPs, IGF-1 LR3, TB-500"],["Route discussed","Injection"],["Approved for bone growth","No"],["Sport status","Ipamorelin prohibited by WADA"]],
-"sections":[
-{"h":"Description","paras":["A looksmax.org guide groups the peptides into growth hormone secretagogues, IGF derivatives and thymosins. It credits them with muscle growth, fat loss, recovery and tissue repair.[1] Other members replied with concern about cancer risk and with the recommendation to check growth plates first.[1]"]},
-{"h":"Pharmacology","paras":["Ipamorelin is a pentapeptide, a selective agonist of the ghrelin/growth hormone secretagogue receptor originally developed by Novo Nordisk. It raises growth hormone in animals and humans without raising cortisol or prolactin, has a half-life of about two hours, and in rats has been linked to longitudinal bone growth.[2] Helsinn tested it in phase II trials for postoperative ileus and discontinued development due to lack of efficacy.[2]"]},
-{"h":"Clinical studies","paras":["No studies found testing these peptide stacks for bone growth in healthy people. Related research includes registered growth hormone trials for bone: in anorexia nervosa (NCT00283595), in obesity (NCT01724489), in pediatric osteoporosis (NCT00757393), and with testosterone for bone loss in men with hypopituitarism (NCT00080483).[4][5][6][7] A 2016 review covers short anabolic peptides for osteoporosis.[3]"]},
-{"h":"Reported risks","paras":["Ipamorelin is not an approved drug and is marketed mainly as a research peptide; it is on the WADA prohibited list.[2] Forum members raise cancer concerns about growth stimulation.[1]"]}
-],
-"timeline":[],
-"lore":{"intro":"The topic appears on looksmax.org as a long guide to peptide classes and as part of wider discussion of growth hormone and height or bone changes.[1]","claims":[{"claim":"Peptide stacks can promote bone growth","believers":"Thread authors list GH secretagogues, IGF derivatives and thymosins as supporting growth, recovery and repair.[1]","experts":"No published trial has tested these stacks for bone growth in healthy adults; research on short anabolic peptides concerns osteoporosis.[3]","evidence":"untested"},{"claim":"Growth hormone secretagogues stimulate bone in animals","believers":"Users cite GH-axis stimulation as a mechanism for bone changes.[1]","experts":"Ipamorelin has been linked to longitudinal bone growth in rats and raises GH in humans, but it did not show efficacy in its phase II trial for ileus.[2]","evidence":"mixed"}]},
-"refs":[{"id":1,"title":"The Ultimate Guide to Peptides for Bone Growth","url":"https://looksmax.org/threads/the-ultimate-guide-to-peptides-for-bone-growth.1254621/","source":"looksmax.org","year":2024,"type":"forum"},{"id":2,"title":"Ipamorelin","url":"https://en.wikipedia.org/wiki/Ipamorelin","source":"Wikipedia","year":2025,"type":"encyclopedia"},{"id":3,"title":"Short Anabolic Peptides for Bone Growth","url":"https://pubmed.ncbi.nlm.nih.gov/27297498/","source":"Medicinal Research Reviews","year":2016,"type":"review"},{"id":4,"title":"Effect of Growth Hormone on Bone Metabolism in Anorexia Nervosa","url":"https://clinicaltrials.gov/study/NCT00283595","source":"ClinicalTrials.gov","year":2006,"type":"trial"},{"id":5,"title":"Study of Growth Hormone and Bone in Obesity","url":"https://clinicaltrials.gov/study/NCT01724489","source":"ClinicalTrials.gov","year":2013,"type":"trial"},{"id":6,"title":"Growth Hormone Therapy and Bone Quality in Pediatric Osteoporosis","url":"https://clinicaltrials.gov/study/NCT00757393","source":"ClinicalTrials.gov","year":2008,"type":"trial"},{"id":7,"title":"Testosterone and Growth Hormone for Bone Loss in Men","url":"https://clinicaltrials.gov/study/NCT00080483","source":"ClinicalTrials.gov","year":2004,"type":"trial"}],
-"webSources":[{"url":"https://en.wikipedia.org/wiki/Ipamorelin","title":"Ipamorelin"}]
+ "name": "Peptides for bone growth",
+ "card": {
+  "summary": "Growth-hormone-releasing and repair peptide stacks that some people discuss as a way to build bone density or size for a stronger frame and jaw.",
+  "aka": "bone growth peptides",
+  "evidence": "limited",
+  "status": "research",
+  "outcome": null,
+  "risk": "high",
+  "price": null,
+  "note": "Research compounds that are not approved for this use; growth-axis stimulation has documented risks.",
+  "structure": null
+ },
+ "quick": {
+  "overview": "Some looksmaxxing forum members discuss peptide stacks, such as growth hormone secretagogues (CJC-1295, ipamorelin, GHRPs), IGF-1 derivatives and thymosin peptides, as ways to support bone growth. The appearance idea is a larger or denser skeleton, for example a broader frame or stronger facial bone structure.\n\nHuman research on anabolic peptides for bone relates to osteoporosis, where review literature examines short peptides that stimulate bone formation. Growth hormone has also been tested for bone in conditions such as anorexia nervosa, obesity and pediatric osteoporosis. Whether peptide stacks change bone in healthy adults has not been tested in trials.",
+  "how": "On forums the peptides are described as injectables bought from research-chemical suppliers and combined in stacks. They are not approved for bone growth. No protocol details are provided here.",
+  "risks": "These compounds are sold as research peptides and are not approved medicines for this use. Growth-axis stimulation can enlarge tissues and affect glucose; a forum reply to the thread notes cancer worries, and another advises an X-ray first, referring to growth plate status. Ipamorelin is on the World Anti-Doping Agency prohibited list.[2]"
+ },
+ "lead": [
+  "Peptides for bone growth is a forum term for stacks of research peptides that people discuss using to increase bone mass or size. Thread posts list growth hormone secretagogues such as CJC-1295, ipamorelin, GHRP-2 and GHRP-6 and tesamorelin, IGF-1 variants such as LR3 and DES, and thymosins like TB-500, describing effects on muscle, fat loss, recovery and tissue repair.[1]",
+  "The appearance rationale is that more bone would mean a broader skeleton or stronger facial structure. Growth hormone acts on bone partly through IGF-1, which stimulates bone-forming and cartilage cells, so proponents reason that raising the growth-hormone axis could add skeletal mass.[9] One reply in the thread said that users in their late teens or older should get an X-ray first, a reference to whether growth plates remain open.[1]",
+  "Scientific literature on anabolic peptides concerns bone loss. A 2016 review in Medicinal Research Reviews describes short anabolic peptides for bone growth in the context of osteoporosis.[3] Growth hormone secretagogues have been studied for growth hormone deficiency, and excess growth hormone in adults is known from acromegaly to enlarge the jaw, brow and hands, which is the observation some forum users cite and clinicians cite as a harm.[10][3] Journalists and health authorities have reported on the spread of injectable peptides among young men in looksmaxxing circles during 2026.[11][12]"
+ ],
+ "angle": {
+  "goal": "Bone structure",
+  "chain": [
+   "Growth-axis peptides raise GH or IGF-1 signalling",
+   "Bone-forming cells receive anabolic signals",
+   "Claimed denser or larger skeleton and stronger-looking frame"
+  ],
+  "effect": "claimed",
+  "text": "Users hope the peptides add bone, giving a more robust frame or jaw. The mechanism is claimed on the basis of growth hormone pathways, not demonstrated in healthy adults."
+ },
+ "infobox": [
+  [
+   "Type",
+   "Peptide stack (research compounds)"
+  ],
+  [
+   "Examples",
+   "CJC-1295, ipamorelin, GHRPs, IGF-1 LR3, TB-500"
+  ],
+  [
+   "Route discussed",
+   "Injection"
+  ],
+  [
+   "Approved for bone growth",
+   "No"
+  ],
+  [
+   "Approved relative",
+   "Tesamorelin (Egrifta), approved 2010 for HIV-associated lipodystrophy [13]"
+  ],
+  [
+   "CJC-1295 history",
+   "Phase II trials stopped after a participant died in 2006; cause judged unrelated by the physician [8]"
+  ],
+  [
+   "Sport status",
+   "Ipamorelin and CJC-1295 prohibited by WADA [2][8]"
+  ]
+ ],
+ "sections": [
+  {
+   "h": "Description",
+   "paras": [
+    "A looksmax.org guide groups the peptides into growth hormone secretagogues, IGF derivatives and thymosins. It credits them with muscle growth, fat loss, recovery and tissue repair.[1] Other members replied with concern about cancer risk and with the recommendation to check growth plates first.[1]",
+    "Wikipedia defines growth hormone secretagogues as drugs that stimulate growth hormone release and in many cases also raise IGF-1, prolactin and cortisol, with growth hormone deficiency as their main clinical application; it separates ghrelin-receptor agonists such as GHRP-6, GHRP-2 and ipamorelin from growth-hormone-releasing-hormone analogues such as sermorelin, CJC-1295 and tesamorelin.[14]"
+   ]
+  },
+  {
+   "h": "Pharmacology",
+   "paras": [
+    "Ipamorelin is a pentapeptide, a selective agonist of the ghrelin/growth hormone secretagogue receptor originally developed by Novo Nordisk. It raises growth hormone in animals and humans without raising cortisol or prolactin, has a half-life of about two hours, and in rats has been linked to longitudinal bone growth.[2] Helsinn tested it in phase II trials for postoperative ileus and discontinued development due to lack of efficacy.[2]",
+    "CJC-1295 is a modified analogue of growth-hormone-releasing hormone made by ConjuChem Biotechnologies. A drug affinity complex binds albumin and prolongs its presence in the blood. A 2006 study in healthy adults reported prolonged rises in growth hormone and IGF-1, and animal studies from 2005 and 2006 reported similar effects.[8]",
+    "Tesamorelin is a stabilised version of growth-hormone-releasing hormone approved in 2010 under the name Egrifta to treat HIV-associated lipodystrophy. Its main described effect is fat reduction through lipolysis, with glucose intolerance among its listed effects.[13]",
+    "Growth hormone acts on bone through direct effects on cartilage cells and through IGF-1, which promotes bone-forming cells; adults with growth hormone deficiency have weaker bone and a higher fracture risk, and replacement therapy is reported to raise bone density.[9]"
+   ]
+  },
+  {
+   "h": "Origins and spread online",
+   "paras": [
+    "The idea sits in the overlap between height and jaw discussions and the wider peptide trend. A Center for Countering Digital Hate report covered by TechCrunch in 2023 found steroid-like drugs, a category including peptides, drew more than 580 million US views on TikTok over three years, with 35 influencers tied to sellers.[15]",
+    "In 2026 coverage, the Wall Street Journal (republished by To Vima) reported teens and young men injecting peptides for appearance, including a 22-year-old who said one of his first searches was how to get a better jawline; it described the products as mostly sold through an online grey market labelled research use only.[11] 1News in New Zealand reported a school warning and comments from Otago sports medicine professor David Gerrard and the Drug Foundation on young men using peptides driven by looksmaxxing.[12] A bioethics.com post of April 30, 2026 describes streamer Braden Peters (Clavicular) as the main representative of the movement and the peptides and other substances in his circle as controversial.[16]"
+   ]
+  },
+  {
+   "h": "Related findings on growth hormone and the jaw",
+   "paras": [
+    "Acromegaly, caused by excess growth hormone after growth plates close (about 98 percent of cases from a pituitary adenoma), produces enlargement of the hands and feet, then forehead, jaw and nose, with brow protrusion, lower-jaw overgrowth, spaced teeth and malocclusion. Complications include diabetes, sleep apnoea, hypertension and cardiomyopathy.[10] Proponents who cite jaw change are describing this effect; clinicians describe it as a disease presentation.",
+    "Pediatric endocrinologist Adda Grimberg told the Wall Street Journal that growth-hormone peptides could cause disproportionate growth of the hands, feet, jaw and tongue, and warned about contamination and inconsistent product standards; endocrinologist Edwin Lee said people in their twenties without deficiency have no clear reason to use them.[11]"
+   ]
+  },
+  {
+   "h": "Clinical studies",
+   "paras": [
+    "No studies found testing these peptide stacks for bone growth in healthy people. Related research includes registered growth hormone trials for bone: in anorexia nervosa (NCT00283595), in obesity (NCT01724489), in pediatric osteoporosis (NCT00757393), and with testosterone for bone loss in men with hypopituitarism (NCT00080483).[4][5][6][7] A 2016 review covers short anabolic peptides for osteoporosis.[3] A 2007 Stanford meta-analysis of growth hormone in healthy adults, described on Wikipedia, found about 2 kg more lean mass and less fat but no benefit to bone density, strength or fitness.[9]"
+   ]
+  },
+  {
+   "h": "Regulatory status and reported risks",
+   "paras": [
+    "Ipamorelin is not an approved drug and is marketed mainly as a research peptide; it is on the WADA prohibited list.[2] The FDA lists ipamorelin acetate in category 2 for 503B compounding, added September 29, 2023, citing possible immunogenicity from aggregation or impurities and a published report of serious adverse events, including death, with intravenous use for gastric motility. For CJC-1295 the FDA lists nominations as withdrawn, notes possible immunogenicity and impurities, and says it has identified serious adverse events including increased heart rate and systemic vasodilatory reactions; for TB-500 it says there are no human exposure data.[17] Commentary on whether these substances have left or entered compounding lists has changed through 2026, so the live FDA page is the record.",
+    "Wikipedia reports that in the US growth hormone is legally available only by prescription and that distributing it for non-disease uses is a felony under a 1990 law; growth hormone excess adverse effects in adults include joint swelling, carpal tunnel syndrome and raised diabetes risk.[9] Forum members raise cancer concerns about growth stimulation.[1] New Zealand's Medsafe has not approved the growth-hormone-boosting type described in the 1News report.[12]"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "year": "2005",
+   "event": "Animal study identifies CJC-1295 as a long-lasting growth-hormone-releasing analogue.[8]"
+  },
+  {
+   "year": "2006",
+   "event": "Healthy-adult study reports prolonged GH and IGF-1 rises with CJC-1295; in August a trial participant dies and the programme is stopped as a precaution.[8]"
+  },
+  {
+   "year": "2010",
+   "event": "Tesamorelin approved in the US as Egrifta for HIV-associated lipodystrophy.[13]"
+  },
+  {
+   "year": "2016",
+   "event": "Medicinal Research Reviews publishes a review of short anabolic peptides for bone growth.[3]"
+  },
+  {
+   "year": "2023",
+   "event": "FDA adds ipamorelin acetate to category 2 for 503B compounding (September 29); CCDH reports steroid-like drug promotion on TikTok.[17][15]"
+  },
+  {
+   "year": "2024",
+   "event": "Looksmax.org 'Ultimate Guide to Peptides for Bone Growth' thread appears.[1]"
+  },
+  {
+   "year": "2026",
+   "event": "Wall Street Journal, 1News and others report on young men using peptides for looksmaxxing.[11][12]"
+  }
+ ],
+ "lore": {
+  "intro": "The topic appears on looksmax.org as a long guide to peptide classes and as part of wider discussion of growth hormone and height or bone changes.[1]",
+  "claims": [
+   {
+    "claim": "Peptide stacks can promote bone growth",
+    "believers": "Thread authors list GH secretagogues, IGF derivatives and thymosins as supporting growth, recovery and repair.[1]",
+    "experts": "No published trial has tested these stacks for bone growth in healthy adults; research on short anabolic peptides concerns osteoporosis.[3]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Growth hormone secretagogues stimulate bone in animals",
+    "believers": "Users cite GH-axis stimulation as a mechanism for bone changes.[1]",
+    "experts": "Ipamorelin has been linked to longitudinal bone growth in rats and raises GH in humans, but it did not show efficacy in its phase II trial for ileus.[2]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Growth-axis peptides can reshape the jaw or frame in adults",
+    "believers": "Posters point to growth hormone's role in bone and to jaw growth in conditions of excess hormone.[1]",
+    "experts": "Excess GH in adults causes acromegaly, with jaw and brow overgrowth and complications such as diabetes and cardiomyopathy; Grimberg warned of disproportionate jaw and tongue growth.[10][11]",
+    "evidence": "harms"
+   },
+   {
+    "claim": "Ipamorelin is a clean, minimal-side-effect secretagogue",
+    "believers": "The guide says it boosts growth hormone without affecting cortisol or prolactin with minimal side effects.[1]",
+    "experts": "Wikipedia confirms selectivity for cortisol and prolactin; the FDA lists immunogenicity and impurity concerns and says clinical data are limited.[2][17]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Research-chemical peptides are as safe as pharmacy products",
+    "believers": "Users cite certificates of analysis and experience.[11]",
+    "experts": "Dr Edwin Lee says sellers can fake certificates of ingredients; the FDA has warned about unapproved products sold for research purposes.[11]",
+    "evidence": "harms"
+   },
+   {
+    "claim": "Check your growth plates first",
+    "believers": "A reply advises an X-ray before use if past the late teens.[1]",
+    "experts": "Growth plate closure marks the point at which excess GH causes acromegaly rather than extra height.[10]",
+    "evidence": "untested"
+   }
+  ]
+ },
+ "refs": [
+  {
+   "id": 1,
+   "title": "The Ultimate Guide to Peptides for Bone Growth",
+   "url": "https://looksmax.org/threads/the-ultimate-guide-to-peptides-for-bone-growth.1254621/",
+   "source": "looksmax.org",
+   "year": 2024,
+   "type": "forum"
+  },
+  {
+   "id": 2,
+   "title": "Ipamorelin",
+   "url": "https://en.wikipedia.org/wiki/Ipamorelin",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 3,
+   "title": "Short Anabolic Peptides for Bone Growth",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27297498/",
+   "source": "Medicinal Research Reviews",
+   "year": 2016,
+   "type": "review"
+  },
+  {
+   "id": 4,
+   "title": "Effect of Growth Hormone on Bone Metabolism in Anorexia Nervosa",
+   "url": "https://clinicaltrials.gov/study/NCT00283595",
+   "source": "ClinicalTrials.gov",
+   "year": 2006,
+   "type": "trial"
+  },
+  {
+   "id": 5,
+   "title": "Study of Growth Hormone and Bone in Obesity",
+   "url": "https://clinicaltrials.gov/study/NCT01724489",
+   "source": "ClinicalTrials.gov",
+   "year": 2013,
+   "type": "trial"
+  },
+  {
+   "id": 6,
+   "title": "Growth Hormone Therapy and Bone Quality in Pediatric Osteoporosis",
+   "url": "https://clinicaltrials.gov/study/NCT00757393",
+   "source": "ClinicalTrials.gov",
+   "year": 2008,
+   "type": "trial"
+  },
+  {
+   "id": 7,
+   "title": "Testosterone and Growth Hormone for Bone Loss in Men",
+   "url": "https://clinicaltrials.gov/study/NCT00080483",
+   "source": "ClinicalTrials.gov",
+   "year": 2004,
+   "type": "trial"
+  },
+  {
+   "id": 8,
+   "title": "CJC-1295",
+   "url": "https://en.wikipedia.org/wiki/CJC-1295",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 9,
+   "title": "Growth hormone",
+   "url": "https://en.wikipedia.org/wiki/Growth_hormone",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 10,
+   "title": "Acromegaly",
+   "url": "https://en.wikipedia.org/wiki/Acromegaly",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 11,
+   "title": "Teen Boys and Young Men Are Injecting Peptides in Search of Perfection",
+   "url": "https://www.tovima.com/wsj/teen-boys-and-young-men-are-injecting-peptides-in-search-of-perfection/",
+   "source": "Wall Street Journal via To Vima",
+   "year": 2026,
+   "type": "news"
+  },
+  {
+   "id": 12,
+   "title": "Warning over young Kiwi men using looksmaxxing synthetic peptides",
+   "url": "https://www.1news.co.nz/2026/04/24/warning-over-young-kiwi-men-using-looksmaxxing-synthetic-peptides/",
+   "source": "1News",
+   "year": 2026,
+   "type": "news"
+  },
+  {
+   "id": 13,
+   "title": "Tesamorelin",
+   "url": "https://en.wikipedia.org/wiki/Tesamorelin",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 14,
+   "title": "Growth hormone secretagogue",
+   "url": "https://en.wikipedia.org/wiki/Growth_hormone_secretagogue",
+   "source": "Wikipedia",
+   "year": 2025,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 15,
+   "title": "TikTok steroids bodybuilding CCDH report",
+   "url": "https://techcrunch.com/2023/09/28/tiktok-steroids-bodybuilding-ccdh-report",
+   "source": "TechCrunch",
+   "year": 2023,
+   "type": "news"
+  },
+  {
+   "id": 16,
+   "title": "Peptides, Supplements, and the Pentastack: The Unholy Guide to Looksmaxxing",
+   "url": "https://bioethics.com/archives/102378",
+   "source": "bioethics.com",
+   "year": 2026,
+   "type": "news"
+  },
+  {
+   "id": 17,
+   "title": "Certain Bulk Drug Substances for Use in Compounding that May Present Significant Safety Risks",
+   "url": "https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks?pg=3",
+   "source": "US FDA",
+   "year": 2026,
+   "type": "guideline"
+  }
+ ],
+ "webSources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Ipamorelin",
+   "title": "Ipamorelin"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/CJC-1295",
+   "title": "CJC-1295"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Growth_hormone",
+   "title": "Growth hormone"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Acromegaly",
+   "title": "Acromegaly"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Tesamorelin",
+   "title": "Tesamorelin"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Growth_hormone_secretagogue",
+   "title": "Growth hormone secretagogue"
+  },
+  {
+   "url": "https://www.tovima.com/wsj/teen-boys-and-young-men-are-injecting-peptides-in-search-of-perfection/",
+   "title": "Teen Boys and Young Men Are Injecting Peptides in Search of Perfection"
+  },
+  {
+   "url": "https://www.1news.co.nz/2026/04/24/warning-over-young-kiwi-men-using-looksmaxxing-synthetic-peptides/",
+   "title": "Warning over young Kiwi men using looksmaxxing synthetic peptides"
+  },
+  {
+   "url": "https://bioethics.com/archives/102378",
+   "title": "Peptides, Supplements, and the Pentastack"
+  },
+  {
+   "url": "https://techcrunch.com/2023/09/28/tiktok-steroids-bodybuilding-ccdh-report",
+   "title": "TikTok steroids bodybuilding CCDH report"
+  },
+  {
+   "url": "https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks?pg=3",
+   "title": "FDA bulk drug substances safety risks"
+  }
+ ]
 }

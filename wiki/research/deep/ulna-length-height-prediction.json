@@ -17,19 +17,19 @@
   "risks": "There is no physical risk. Predictions can be off for an individual because of proportions, ancestry, growth disorders or measurement error, which can cause confusion when results differ from measured height."
  },
  "lead": [
-  "Ulna length height prediction is a way of estimating standing height from the length of the ulna. It is used in clinical settings when height cannot be measured directly because of spinal deformity, muscle weakness or being bedridden, and an arm-based measure such as the ulna is more reliable than arm span [1][2].",
-  "In looksmaxxing and height-focused communities, people use ulna calculators, often the one in the malnutrition screening tool MUST, to check what their height 'should' be, compare it with a stadiometer reading, or judge whether they are done growing [3]. It supports height maxxing indirectly, by giving a reference number, rather than changing height itself.",
-  "Research has examined ulna-based equations in Australian schoolchildren, African-Caribbean children and critically ill adults, with results that vary by population [1][4][5]."
+  "Ulna length height prediction is a way of estimating standing height from the length of the ulna, the long forearm bone on the little-finger side that runs from the elbow to the wrist.[6] It was developed for clinical settings in which height cannot be measured directly, for example because of spinal deformity, muscle weakness or being bedridden, and in those settings an ulna measurement has been reported to be more reliable than arm span.[2]",
+  "In looksmaxxing and height-focused communities, people run ulna calculators, most often the one built around the malnutrition screening tool MUST, to see what their height 'should' be, compare it with a stadiometer reading, or judge whether they have finished growing.[3][9] It supports height maxxing by giving a reference number for a stat that the community cares about; it does not change height itself.[15]",
+  "Published research on ulna-based equations covers Australian schoolchildren, African-Caribbean children, critically ill adults and other groups, with results that depend on the population studied.[1][2][4][5][13] The equations predict an average height for a given bone length and age; they were not designed to forecast how tall a growing teenager will become.[2]"
  ],
  "angle": {
   "goal": "Height",
   "chain": [
-   "Measure ulna length",
-   "Enter into a prediction equation",
-   "Compare the estimate with measured height"
+   "Measure ulna length from the elbow point to the wrist bump",
+   "Enter it with age and sex into a prediction equation or calculator",
+   "Compare the estimate with a stadiometer measurement"
   ],
   "effect": "claimed",
-  "text": "The method gives people an estimate of their height from a bone length. Some use it as a reference point for how tall they are or might be; it does not change height."
+  "text": "The method gives people a reference estimate of their height from a bone length. Height-focused users employ it as a second opinion on measured height or as one input when asking whether growth is complete; it does not add height."
  },
  "infobox": [
   [
@@ -41,12 +41,24 @@
    "Ulna (elbow point to wrist bump)"
   ],
   [
+   "Inputs",
+   "Ulna length, age, sex"
+  ],
+  [
    "Clinical uses",
    "Height estimate when standing is impossible"
   ],
   [
-   "Studied in",
-   "Children, ICU patients, cerebral palsy"
+   "Landmark equations",
+   "Melbourne schoolchildren, 2004 (R2 0.94-0.96)"
+  ],
+  [
+   "Also studied in",
+   "Critically ill adults, African-Caribbean children, cerebral palsy"
+  ],
+  [
+   "Common online tool",
+   "MUST calculator (BAPEN)"
   ],
   [
    "Equipment",
@@ -57,56 +69,128 @@
   {
    "h": "Description",
    "paras": [
-    "The ulna is the long bone on the little-finger side of the forearm, running from the elbow to the wrist [6]. Because long bones scale with stature, regression equations can convert ulna length, with age and sex, into a height estimate."
+    "The ulna is the longer and thinner of the two forearm bones. Its upper end forms the bony tip of the elbow, the olecranon, and its lower end ends in a rounded head and a small projection called the styloid process at the wrist.[6] Because long bones scale with overall stature, regression equations can convert ulna length, with age and sex, into an estimate of standing height.",
+    "The measurement is attractive in practice because the forearm is usually accessible, rarely affected by spinal curvature, and easy to measure with a tape or calipers. Surrogate measures for height listed in general references include arm span, sitting height, ulna length and knee-height equations used for hospitalised patients.[11][12]"
    ]
   },
   {
-   "h": "Clinical background",
+   "h": "Clinical use",
    "paras": [
-    "A validation study of 1,144 boys and 1,199 girls aged about 5 to 19 in Melbourne developed height prediction equations from ulna, forearm, tibia and lower leg lengths, and sought a limb measurement that predicts height precisely when height is hard to measure [2]. The same group used ulna length to predict lung function in children [1].",
-    "Equations have also been tested in 358 African-Caribbean children, in whom the researchers hypothesised that equations from non-African children would give lower predictions [5], and in 100 critically ill Brazilian adults [4]. Registered studies have examined ulna length in Black children and in predicting tidal volume in Egyptian adults [7][8]."
+    "Nutrition screening tools use the ulna when a patient cannot be measured standing. The MUST toolkit published by BAPEN includes an alternative-measurements resource that describes how to estimate height from ulna length, alongside a method for estimating BMI category from mid-upper arm circumference.[3]",
+    "Respiratory medicine uses it too, because normal lung-function values in children are referenced to height. Researchers in Melbourne showed that equations using ulna length and age predicted children's FEV1 and FVC with precision similar to equations using height (r2 about 0.83 to 0.86), which is useful when scoliosis or neuromuscular weakness makes height unreliable.[1]"
+   ]
+  },
+  {
+   "h": "Key studies and accuracy",
+   "paras": [
+    "The landmark paper is a 2004 validation study in Developmental Medicine and Child Neurology. The team measured 1,144 boys and 1,199 girls aged about 5 to 19 in Melbourne schools with a stadiometer and anthropometer and developed equations from ulna length and age. For males the equation was height in cm = 4.605 x ulna length + 1.308 x age + 28.003 (R2 = 0.96), and for females 4.459 x ulna + 1.315 x age + 31.485 (R2 = 0.94). Intra- and inter-observer variability was 0.41 and 0.61 percent, and the authors concluded that ulna measurement is reproducible and appeared superior to arm span when neuromuscular disease is present.[2]",
+    "In adults, a Brazilian study of 100 intensive-care patients whose height had been measured before admission derived the equation height = 153.492 - (7.97 x sex code) + (0.974 x ulna length in cm). The mean estimated and measured heights were nearly identical (166.30 versus 166.26 cm), with a correlation of 0.624, although a Bland-Altman analysis showed a significant bias, meaning individual errors could be sizeable.[4]",
+    "A study of 242 adult men aged 18 to 44 split into a derivation group and a cross-validation group built ulna-based formulas and then developed separate formulas for short, medium and tall subgroups. The authors reported that group-specific formulas gave more accurate estimates than the general formula, with the largest gain for men who were notably short or tall for the population.[13]",
+    "A 2015 study examined agreement between actual and estimated height using segmental limb lengths in people with cerebral palsy, a group in whom measuring standing height is difficult.[10]"
+   ]
+  },
+  {
+   "h": "Population differences",
+   "paras": [
+    "Equations are built on particular reference samples. A 2022 study of 358 African-Caribbean children, measured prospectively in two pulmonary-function laboratories, tested whether equations from non-African children would predict lower heights. The researchers found low inter-observer variability for ulna measurement, and geographic-origin group within the sample had no influence on their model; they then validated the new equation in 107 further children.[5] Registered studies have also examined ulna length in Black children and used it to predict tidal volume in Egyptian adults.[7][8]",
+    "For users, the practical point made by these papers is that a calculator's output reflects the sample used to derive it, and that individual proportions can differ from the average."
+   ]
+  },
+  {
+   "h": "Growth and 'done growing' questions",
+   "paras": [
+    "Height-focused communities often use the calculator to ask whether growth is finished. General references describe the age at which growth stops as varying by person: average male growth velocity reaches zero at about 18 or 19, and growth plates typically close between about 15 and 17 in boys and 14 and 15 in girls, with earlier and later ages possible.[11][14] Ulna-based equations take age as an input, but the published studies validated them for estimating current height, not remaining growth.[2][4]",
+    "Measured height also varies with the time of day and the technique used; one study cited in a general reference found an average decrease of about 1.5 cm in children from morning to late afternoon, and typical measurement error of 0.5 cm is described in growth monitoring.[11] A barefoot stadiometer reading, ulna measurement and calculator result can therefore differ for reasons unrelated to growth."
    ]
   },
   {
    "h": "Use in looksmaxxing communities",
    "paras": [
-    "A looksmax.org thread asks how accurate ulna prediction is and invites users to report calculator results against measured height. The original poster described a calculator result well above his barefoot height at 17 and asked whether growth was stunted; a reply said he was almost certainly done growing [9]."
+    "A looksmax.org thread asks how accurate ulna prediction is and invites users who have finished growing to report calculator results against measured height. The original poster, 17 years old, described an ulna of 27.5 cm that the MUST calculator converted to about 176 cm, against a barefoot measurement of 165 cm, and asked whether a late growth spurt was possible or growth had been stunted. A reply said he was almost certainly done growing and that his growth had been stunted at some point.[9]",
+    "Height matters in these communities because it is one of the physical stats most often discussed. A 2023 set of studies by Pazhoohi, Garza and Kingstone, with 659 heterosexual women rating figures of varying height and shoulder-to-hip ratio, found that taller men were rated as more attractive and masculine, and that a higher shoulder-to-hip ratio raised attractiveness ratings for taller men but not shorter ones.[16] Wikipedia's overview of the culture notes that height is one of the external qualities prized by black pill ideology and that hardmaxxing includes aims such as a taller stature.[15]"
+   ]
+  },
+  {
+   "h": "Limitations",
+   "paras": [
+    "The published equations were derived to give an average height for a given bone length, age and sex. Studies report population-specific differences, and the paediatric studies cover children whose bones were still growing and whose ulna was measured by trained staff.[2][5][13] Measurement technique matters: the Melbourne team reported low observer variability using standardised landmarks and instruments, while online tools rely on self-measurement.[2]",
+    "Individual forearm-to-height proportions vary, and the Brazilian intensive-care study found bias in agreement analysis even though mean values matched.[4]"
    ]
   },
   {
    "h": "Clinical studies",
    "paras": [
-    "Studies in children and hospital patients have developed and validated ulna-based height equations [2][4][5]. No study has tested ulna prediction as a forecast of future adult height in growing teenagers who want to know how tall they will become."
+    "Studies in children and hospital patients have developed and validated ulna-based height equations and applied ulna length to lung-function prediction.[1][2][4][5][10][13] No study has tested ulna prediction as a forecast of future adult height in growing teenagers who want to know how tall they will become."
    ]
   }
  ],
  "timeline": [
   {
-   "year": "2003-2004",
-   "event": "Melbourne group publishes ulna-based equations for lung function and height in children [1][2]."
+   "year": "2003",
+   "event": "Melbourne researchers publish equations predicting children's lung function from ulna length and age.[1]"
+  },
+  {
+   "year": "2004",
+   "event": "The same group publishes ulna-based height equations from 2,343 schoolchildren (R2 0.94-0.96) and describes ulna as superior to arm span in neuromuscular disease.[2]"
+  },
+  {
+   "year": "2006",
+   "event": "A study of 242 adult men in Anthropological Science compares general and stature-group-specific ulna formulas.[13]"
+  },
+  {
+   "year": "2015",
+   "event": "Segmental limb lengths, including ulna, are tested for estimating height in people with cerebral palsy.[10]"
   },
   {
    "year": "2018",
-   "event": "Ulna-based height equation evaluated in critically ill adults [4]."
+   "event": "A Brazilian ICU study derives an ulna-based height equation for critically ill adults; a registered study of ulna length in Black children starts in April.[4][7]"
+  },
+  {
+   "year": "2020",
+   "event": "A study registered in October examines ulna length to predict tidal volume in adult Egyptians.[8]"
   },
   {
    "year": "2022",
-   "event": "Ulna equations tested in African-Caribbean children [5]."
+   "event": "Ulna-based equations are developed and validated in 358 African-Caribbean children.[5]"
   }
  ],
  "lore": {
-  "intro": "Height-focused forum users run ulna calculators as a check on measured height or growth [9].",
+  "intro": "Height-focused forum users run ulna calculators as a check on measured height or growth, and treat the output as one data point among arm span, parental height and bone-age discussions.[9]",
   "claims": [
    {
     "claim": "Ulna length shows how tall you 'should' be",
-    "believers": "Users enter ulna length into a calculator and treat a higher result than their measured height as a sign of lost growth [9].",
-    "experts": "The equations were built to estimate height in people who cannot stand and predict average height for a given bone length [2][4].",
+    "believers": "Users enter ulna length into a calculator and treat a higher result than their measured height as a sign of lost growth, or a lower one as a sign of room to grow.[9]",
+    "experts": "The equations were built to estimate current height in people who cannot stand and predict average height for a given bone length, age and sex; individual agreement can show bias.[2][4]",
     "evidence": "mixed"
    },
    {
     "claim": "Ulna length can tell whether you are done growing",
-    "believers": "Some forum replies treat the calculator and age together as indicating finished growth [9].",
-    "experts": "No published study has tested ulna length as a predictor of remaining growth.",
+    "believers": "Some forum replies treat the calculator and age together as indicating finished growth.[9]",
+    "experts": "No published study has tested ulna length as a predictor of remaining growth. General references describe growth plate closure as varying by person and sex.[11][14]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "A gap between predicted and measured height means growth was stunted",
+    "believers": "The 17-year-old poster and a respondent interpret an 11 cm gap as stunting.[9]",
+    "experts": "Studies report that equations are population-specific and that group-specific formulas are more accurate at the short and tall extremes, so gaps can reflect proportions or the reference sample.[5][13]",
+    "evidence": "untested"
+   },
+   {
+    "claim": "Ulna is more reliable than arm span",
+    "believers": "The MUST toolkit presents ulna-based estimation as an alternative measurement when standing height cannot be taken, and some users prefer it to arm span for that reason.[3]",
+    "experts": "The Melbourne authors reported ulna measurement to be reproducible and appeared superior to arm span when neuromuscular disease is present; general references note arm span is usually slightly longer than height (ratios of about 1.03 in men and 1.01 in women).[2][12]",
+    "evidence": "supported"
+   },
+   {
+    "claim": "One calculator works for everyone",
+    "believers": "Users post results from a single online calculator as a universal check.[9]",
+    "experts": "A 2022 study tested whether African-Caribbean children needed their own equations, and a study of adult men found that group-specific formulas outperform general ones for notably short or tall men.[5][13]",
+    "evidence": "mixed"
+   },
+   {
+    "claim": "Height can be improved after the ulna says you are 'short'",
+    "believers": "Height-focused communities discuss height-increase options for those who measure below predicted values.[15]",
+    "experts": "The ulna equations estimate stature; they make no claim about treatments and no study has linked the measure to height-increase interventions.",
     "evidence": "untested"
    }
   ]
@@ -183,6 +267,62 @@
    "source": "looksmax.org",
    "year": 2024,
    "type": "forum"
+  },
+  {
+   "id": 10,
+   "title": "Agreement Between Actual Height and Estimated Height Using Segmental Limb Lengths for Individuals with Cerebral Palsy",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25299521/",
+   "source": "Am J Phys Med Rehabil",
+   "year": 2015,
+   "type": "study"
+  },
+  {
+   "id": 11,
+   "title": "Human height",
+   "url": "https://en.wikipedia.org/wiki/Human_height",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 12,
+   "title": "Arm span",
+   "url": "https://en.wikipedia.org/wiki/Arm_span",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 13,
+   "title": "Anthropological Science 114(1):23-27, stature formulae from ulna and tibia length in adult men",
+   "url": "https://www.jstage.jst.go.jp/article/ase/114/1/114_1_23/_article/-char/en",
+   "source": "Anthropological Science",
+   "year": 2006,
+   "type": "study"
+  },
+  {
+   "id": 14,
+   "title": "Epiphyseal plate",
+   "url": "https://en.wikipedia.org/wiki/Epiphyseal_plate",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 15,
+   "title": "Looksmaxxing",
+   "url": "https://en.wikipedia.org/wiki/Looksmaxxing",
+   "source": "Wikipedia",
+   "year": null,
+   "type": "encyclopedia"
+  },
+  {
+   "id": 16,
+   "title": "Interactions between height and shoulder-to-hip ratio influence women's perceptions of men's attractiveness and masculinity",
+   "url": "https://www.psypost.org/2023/01/interactions-between-height-and-shoulder‑to‑hip-ratio-influence-womens-perceptions-of-mens-attractiveness-and-masculinity-64769",
+   "source": "PsyPost (reporting Arch Sex Behav)",
+   "year": 2023,
+   "type": "news"
   }
  ],
  "webSources": [
@@ -193,6 +333,30 @@
   {
    "url": "https://www.bapen.org.uk/screening-and-must/must/must-toolkit/the-must-itself/",
    "title": "MUST toolkit - BAPEN"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Human_height",
+   "title": "Human height - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Arm_span",
+   "title": "Arm span - Wikipedia"
+  },
+  {
+   "url": "https://www.jstage.jst.go.jp/article/ase/114/1/114_1_23/_article/-char/en",
+   "title": "Anthropological Science 114(1) 23-27"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Epiphyseal_plate",
+   "title": "Epiphyseal plate - Wikipedia"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Looksmaxxing",
+   "title": "Looksmaxxing - Wikipedia"
+  },
+  {
+   "url": "https://www.psypost.org/2023/01/interactions-between-height-and-shoulder‑to‑hip-ratio-influence-womens-perceptions-of-mens-attractiveness-and-masculinity-64769",
+   "title": "PsyPost: height and shoulder-to-hip ratio study"
   }
  ]
 }
