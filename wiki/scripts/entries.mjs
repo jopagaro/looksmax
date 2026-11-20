@@ -1,6 +1,6 @@
 // Shared entry list for every script: the app's Index (assets/data.js) plus wiki-only
 // entries (assets/wiki-entries.js — new compounds, gear and metas discovered for the wiki).
-import { readFileSync, existsSync } from 'node:fs';
+import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import vm from 'node:vm';
@@ -56,12 +56,18 @@ export function socialFilter(item, raw) {
 const WSTOP = new Set(['the', 'and', 'for', 'with', 'your', 'from', 'that', 'this', 'into', 'diet', 'method', 'protocol', 'routine', 'therapy', 'treatment', 'training', 'face', 'facial', 'hair', 'skin', 'body', 'oil', 'use', 'kit', 'theory', 'style', 'look', 'looks', 'max', 'maxxing', 'home', 'natural', 'daily', 'black', 'white', 'cream', 'mask', 'supplement', 'supplements', 'extract', 'serum', 'gel', 'products', 'product', 'device', 'tool', 'tools', 'test', 'high', 'low', 'deep', 'mini', 'shaping', 'growth', 'loss']);
 const wstem = (w) => w.replace(/(ings?|es|s|ed)$/, '');
 const wtoks = (s) => String(s || '').toLowerCase().replace(/[α]/g, 'alpha').split(/[^a-z0-9]+/).filter((w) => w.length >= 4 && !WSTOP.has(w)).map(wstem);
-let WKEEP = null; // hand-reviewed matches the word check would wrongly reject (broader topic, alias spelling)
+let WKEEP = null, WREJECT = null; // hand-reviewed matches the word check would wrongly reject (broader topic, alias spelling)
 export function wikiRelevant(item, raw, W) {
   if (!W || !W.title) return false;
   if (/^(List|Lists|Index|Outline) of /i.test(W.title)) return false;
   if (!WKEEP) { try { WKEEP = new Set(JSON.parse(readFileSync(join(root, 'research', 'wiki-keep.json'), 'utf8'))); } catch { WKEEP = new Set(); } }
-  if (WKEEP.has(slug(item?.name || raw?.name || ''))) return true;
+  if (!WREJECT) { // reviewed wrong-topic matches (research/wikireview/out-*.json: slug -> "wrong")
+    WREJECT = new Set();
+    try { for (const f of readdirSync(join(root, 'research', 'wikireview')).filter((f) => /^out-\d+\.json$/.test(f))) for (const [k, v] of Object.entries(JSON.parse(readFileSync(join(root, 'research', 'wikireview', f), 'utf8')))) if (v === 'wrong') WREJECT.add(k); } catch {}
+  }
+  const sl = slug(item?.name || raw?.name || '');
+  if (WREJECT.has(sl)) return false;
+  if (WKEEP.has(sl)) return true;
   const mine = new Set([item?.name, item?.aka, raw?.name, raw?.aka, ...(item?.terms || []), ...(raw?.terms || [])].flatMap(wtoks));
   if (!mine.size) return true;
   const near = (w) => mine.has(w) || [...mine].some((m) => m.length >= 5 && w.length >= 5 && (w.startsWith(m) || m.startsWith(w)));

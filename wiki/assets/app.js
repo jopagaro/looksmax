@@ -369,7 +369,7 @@
     // ── Infobox image (top of the box, like Wikipedia)
     let visual;
     if (R.image) {
-      visual = `<div class="ib-img"><img src="${esc(R.image.url)}" alt="${esc(item.name)}" loading="lazy" data-photo></div><p class="ib-cap">${esc(R.image.caption || item.name)}${R.image.credit ? ` · <a href="${esc(R.image.credit)}" target="_blank" rel="noopener">${esc(R.image.source || 'Wikimedia Commons')}</a>` : ''}</p>`;
+      visual = `<div class="ib-img"><img src="${esc(R.image.url)}" alt="${esc(item.name)}" loading="lazy" data-photo></div><p class="ib-cap">${esc(R.image.caption || item.name)}${R.image.credit ? ` · <a href="${esc(R.image.credit)}" target="_blank" rel="noopener">${esc(R.image.source || 'Wikimedia Commons')}</a>` : ''}${R.image.creator ? ` · ${esc(R.image.creator)}` : ''}${R.image.license ? ` · ${R.image.licenseUrl ? `<a href="${esc(R.image.licenseUrl)}" target="_blank" rel="noopener">${esc(R.image.license)}</a>` : esc(R.image.license)}` : ''}</p>`;
     } else if (kind === 'compound' && item.structure) {
       visual = `<div class="ib-img"><img src="${structureUrl(item.structure)}" alt="${esc(item.name)} chemical structure" loading="lazy" data-structure></div><p class="ib-cap">2D structure · PubChem</p>`;
     } else {
@@ -738,15 +738,15 @@
     app.querySelectorAll('img[data-structure]').forEach((img) =>
       img.addEventListener('error', () => {
         img.parentElement.innerHTML = '<div class="ph"><b>★</b>No 2D structure<br>(biologic, blend, or too big to draw)</div>';
-        const cap = app.querySelector('.infobox .cap');
+        const cap = app.querySelector('.infobox .ib-cap');
         if (cap) cap.remove();
       })
     );
     app.querySelectorAll('img[data-gal]').forEach((img) => img.addEventListener('error', () => img.closest('figure').remove()));
     app.querySelectorAll('img[data-photo]').forEach((img) =>
       img.addEventListener('error', () => {
-        img.parentElement.innerHTML = '<div class="ph"><b>★</b>Product shot coming soon</div>';
-        const cap = app.querySelector('.infobox .cap');
+        img.parentElement.innerHTML = '<div class="ph"><b>★</b>Image unavailable</div>';
+        const cap = app.querySelector('.infobox .ib-cap');
         if (cap) cap.remove();
       })
     );

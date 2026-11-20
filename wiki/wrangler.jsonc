@@ -1,0 +1,10 @@
+// Cloudflare Workers (static assets) config for the LOOKSMAX Wiki.
+// Cloudflare runs `node scripts/build-public.mjs` (builds dist/), then `npx wrangler deploy` uploads dist/.
+{
+  "name": "looksmax-wiki",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}

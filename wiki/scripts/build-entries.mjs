@@ -25,6 +25,7 @@ for (const f of readdirSync(join(root, 'research')).filter((f) => /^\d\d-.*\.jso
 
 // Looksmax angle (research/angles/out/*.json): why each entry matters for appearance — shown at the top of every article.
 // Hand/agent-reviewed photo picks (research/imgreview/out-*.json): slug → { lead: bool|null, keep: [gallery indices] }.
+const IMAGE_OVERRIDES = readJSON(join(root, 'research', 'image-overrides.json')) || {};
 const IMGOK = {};
 try { for (const f of readdirSync(join(root, 'research', 'imgreview')).filter((f) => /^out-\d+\.json$/.test(f))) Object.assign(IMGOK, readJSON(join(root, 'research', 'imgreview', f)) || {}); } catch {}
 const ANGLES = {};
@@ -106,6 +107,12 @@ for (const { kind, item } of ENTRIES) {
   image = kind === 'compound' ? wImg : (fImg || wImg || null);
   if (image && rv && rv.lead === false) image = null;
   if (!image && kind !== 'compound' && gImg) image = { url: gImg.url, credit: gImg.page, caption: gImg.title, source: gImg.source };
+  // Explicit reviewed choices take precedence over keyword matches and survive rebuilds.
+  if (Object.hasOwn(IMAGE_OVERRIDES, s)) {
+    const choice = IMAGE_OVERRIDES[s];
+    image = choice.image;
+    if (choice.gallery !== undefined) gallery = choice.gallery;
+  }
   if (image) stats.images++;
 
   // ── Allowed citation URLs = everything we actually scraped or the first pass verified

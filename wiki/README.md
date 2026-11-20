@@ -21,6 +21,13 @@ Plain HTML/CSS/JS — no build step, no dependencies. Every Index entry gets a W
 | `research/batches/*.json` | Research work split into 9 batches |
 | `research/NN-*.json` | Research output per batch |
 
+## Images
+
+- `research/image-overrides.json` stores reviewed lead-image choices. The entry builder applies these last, so approved images survive regeneration.
+- `assets/images/curated/` contains the local display copies used by those choices.
+- `research/image-audit/missing-images.csv` is the current queue of entries that still have no lead image or structure fallback.
+- Run `node scripts/audit-images.mjs` after changing images to refresh the inventory and summary.
+
 ## Updating
 
     node wiki/scripts/sync-data.mjs            # re-pull entries after editing looksmax/lib/compounds.ts or gear.ts
