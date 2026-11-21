@@ -2078,7 +2078,7 @@ window.LM_DATA = {
   }
  ],
  "affiliates": {
-  "amazonTag": "",
+  "amazonTag": "conviviumllc-20",
   "rxPartners": {
    "Finasteride": {
     "partner": "Hims",
