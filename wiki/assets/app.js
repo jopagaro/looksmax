@@ -329,6 +329,9 @@
 
   // ───────── entry article (Wikipedia-style) ─────────
   // Quick take (default) vs In-depth — remembered per viewer.
+  // Image source: just "Source: <domain>" — creator and licence (needed for CC attribution) sit in the hover tooltip.
+  const srcLabel = (url, fallback) => { try { return esc(new URL(url).hostname.replace(/^www\./, '')); } catch { return esc(fallback && fallback !== 'Used with permission' ? fallback : 'source'); } };
+  const srcCap = (im) => (im && im.credit ? `<p class="ib-cap">Source: <a href="${esc(im.credit)}" target="_blank" rel="noopener" title="${esc([im.creator, im.license].filter(Boolean).join(' · '))}">${srcLabel(im.credit, im.source)}</a></p>` : '');
   const socialLi = (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc(r.site)} · ▲ ${r.score} · ${r.comments} comments${r.year ? ' · ' + r.year : ''} ↗</span></a></li>`;
   const newsLi = (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc(r.site || '')}${r.date ? ' · ' + esc(r.date.slice(0, 4)) : ''} ↗</span></a></li>`;
   let VIEW = 'quick'; // set by the router: #/<kind>/<slug> = quick take, #/<kind>/<slug>/deep = in-depth
@@ -369,7 +372,7 @@
     // ── Infobox image (top of the box, like Wikipedia)
     let visual;
     if (R.image) {
-      visual = `<div class="ib-img"><img src="${esc(R.image.url)}" alt="${esc(item.name)}" loading="lazy" data-photo></div><p class="ib-cap">${esc(R.image.caption || item.name)}${R.image.credit ? ` · <a href="${esc(R.image.credit)}" target="_blank" rel="noopener">${esc(R.image.source || 'Wikimedia Commons')}</a>` : ''}${R.image.creator ? ` · ${esc(R.image.creator)}` : ''}${R.image.license ? ` · ${R.image.licenseUrl ? `<a href="${esc(R.image.licenseUrl)}" target="_blank" rel="noopener">${esc(R.image.license)}</a>` : esc(R.image.license)}` : ''}</p>`;
+      visual = `<div class="ib-img"><img src="${esc(R.image.url)}" alt="${esc(item.name)}" loading="lazy" data-photo></div>${srcCap(R.image)}`;
     } else if (kind === 'compound' && item.structure) {
       visual = `<div class="ib-img"><img src="${structureUrl(item.structure)}" alt="${esc(item.name)} chemical structure" loading="lazy" data-structure></div><p class="ib-cap">2D structure · PubChem</p>`;
     } else {
@@ -444,7 +447,7 @@
         ? `<p class="mute" style="font-size:13px">Top ${Math.min(10, top.length)} of ${top.length} threads by popularity. Forum posts are personal accounts.</p><ul class="linklist forum">${top.slice(0, 10).map((x) => x.li).join('')}</ul>${seeAll(top.length, 'threads')}`
         : `<p>No community discussion found.</p>`]);
       if ((L.news || []).length) S.push(['news', 'In the news', `<p class="mute" style="font-size:13px">Media coverage mentioning ${esc(item.name)}, via the GDELT news index.</p><ul class="linklist">${L.news.slice(0, 10).map(newsLi).join('')}</ul>${seeAll(L.news.length, 'articles')}`]);
-      if ((R.gallery || []).length) S.push(['gallery', 'Gallery', `<div class="gallery">${R.gallery.slice(0, 8).map((g) => `<figure><a href="${esc(g.page)}" target="_blank" rel="noopener"><img src="${esc(g.url)}" alt="${esc(g.title)}" loading="lazy" data-gal></a><figcaption>${esc(g.title)}<span>${esc([g.creator, g.license, g.source].filter(Boolean).join(' · '))}</span></figcaption></figure>`).join('')}</div>`]);
+      if ((R.gallery || []).length) S.push(['gallery', 'Gallery', `<div class="gallery">${R.gallery.slice(0, 8).map((g) => `<figure><a href="${esc(g.page)}" target="_blank" rel="noopener" title="${esc([g.creator, g.license].filter(Boolean).join(' · '))}"><img src="${esc(g.url)}" alt="${esc(item.name)}" loading="lazy" data-gal></a><figcaption>${srcLabel(g.page, g.source)}</figcaption></figure>`).join('')}</div>`]);
     } else {
       S.push(['research', 'Clinical studies', R.studies.length
         ? `<ul class="linklist">${R.studies.map((r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc([r.kind, r.source, r.year].filter(Boolean).join(' · '))} ↗</span></a></li>`).join('')}</ul>`
