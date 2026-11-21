@@ -168,7 +168,6 @@
     if (e.kind === 'compound' && item.status !== 'otc') t += `<span class="tag">${esc(D.statusMeta[item.status].label)}</span>`;
     if (e.kind === 'gear') {
       if (item.outcome !== 'unsupported') t += `<span class="tag">${esc(D.outcomeMeta[item.outcome].label)}</span>`;
-      if (item.price) t += `<span class="tag tag-white">${esc(item.price)}</span>`;
     }
     return t;
   }
@@ -424,7 +423,7 @@
     else if (kind === 'compound' && item.status === 'rx') action = `<div class="statusbox cream"><b>℞ Prescription only</b><span>This one goes through a doctor, not a cart.</span></div>`;
     else if (kind === 'compound' && item.status === 'research') action = `<div class="statusbox dark"><b>⚠ Research compound</b><span>Not approved for human use. We don't sell it.</span></div>`;
     else if (kind === 'meta') action = `<div class="statusbox cream"><b>A practice, not a product</b><span>Nothing to buy — the method is in the article.</span></div>`;
-    else if (buy) { const price = kind === 'gear' ? item.price : null; action = `<a class="btn popb lg block" href="${esc(buy.url)}" target="_blank" rel="noopener noreferrer sponsored">${esc(price ? `${buy.label} · ${price}` : buy.label)} ↗</a><p class="fine">${buy.kind === 'amazon' ? 'Amazon search · may earn a commission' : 'May earn a commission · not an endorsement'}</p>`; }
+    else if (buy) { const price = null; /* no prices next to Amazon links unless they come from Amazon's API */ action = `<a class="btn popb lg block" href="${esc(buy.url)}" target="_blank" rel="noopener noreferrer sponsored">${esc(price ? `${buy.label} · ${price}` : buy.label)} ↗</a><p class="fine">${buy.kind === 'amazon' ? 'Amazon search · may earn a commission' : 'May earn a commission · not an endorsement'}</p>`; }
     else action = `<div class="statusbox"><b>Sourced in person</b><span>No link for this one.</span></div>`;
 
     // ── Infobox rows, grouped like Wikipedia
@@ -435,7 +434,6 @@
     const helps = HELPS.get(item.name.toLowerCase()) || [];
     if (helps.length) basics.push(row('Topics', helps.map((i) => `<a href="#/topic/${i.id}">${esc(i.name)}</a>`).join(', '), true));
     if (R.angle && R.angle.goal) basics.splice(1, 0, row('Looksmax goal', esc(R.angle.goal), true));
-    if (kind === 'gear' && item.price) basics.push(row('Street price', item.price));
     const rating = [kind === 'compound' ? row('Legal status', esc(D.statusMeta[item.status].label), true) : kind === 'gear' && item.outcome !== 'unsupported' ? row('Effect', esc(D.outcomeMeta[item.outcome].label), true) : null].filter(Boolean);
     const mentions = item.mentions || R.mentions;
     if (mentions) rating.push(row('Forum mentions', `${Number(mentions).toLocaleString()} looksmax.org thread titles`));
