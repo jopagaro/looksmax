@@ -387,3 +387,11 @@ sup.ref a { border: 0; font-weight: 700; color: var(--pop-dark); }
 .angle .chain li { font-weight: 700; font-size: 13px; border: 2px solid var(--ink); background: var(--cream); padding: 3px 8px; margin: 0; }
 .angle .chain li + li::before { content: "→ "; color: var(--pop); }
 .angle p { margin: 0; font-size: 15px; line-height: 1.55; }
+
+/* "Shop this" (metas) */
+.infobox .act .shop-btn { margin-bottom: 8px; font-size: 13px; text-align: left; }
+.shopgrid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); }
+.shopcard { border: var(--b); background: var(--paper, #fff); padding: 12px; display: flex; flex-direction: column; gap: 6px; box-shadow: var(--sh-xs); }
+.shopcard b { font-family: var(--display); font-size: 13px; text-transform: uppercase; line-height: 1.2; }
+.shopcard span, .shopcard a.wl { font-size: 12px; font-weight: 700; color: var(--ink-mute); }
+.shopcard .shop-btn.sm { margin-top: auto; font-size: 12px; padding: 8px 10px; }

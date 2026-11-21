@@ -242,3 +242,6 @@ console.log(JSON.stringify(stats));
 
 // Regenerate the in-text link list (assets/autolink.js) whenever entries are rebuilt.
 await import('./build-autolinks.mjs');
+
+// Regenerate the meta "Shop this" buttons (assets/shop.js).
+await import('./build-shop.mjs');

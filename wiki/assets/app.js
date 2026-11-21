@@ -124,6 +124,24 @@
     return { kind: 'amazon', url, label: 'Find on Amazon' };
   }
 
+  // ───────── "Shop this" for metas ─────────
+  // assets/shop.js (scripts/build-shop.mjs): meta slug -> {p: [[kind, slug], ...] wiki products, q: [extra Amazon searches]}
+  const SHOP = window.LM_SHOP || {};
+  const amazonSearchUrl = (q) => { const t = D.affiliates && D.affiliates.amazonTag; return `https://www.amazon.com/s?k=${encodeURIComponent(q)}${t ? `&tag=${encodeURIComponent(t)}` : ''}`; };
+  function shopFor(e) {
+    const s = SHOP[e.slug];
+    if (!s) return [];
+    const out = [];
+    for (const [k, sl] of s.p || []) {
+      const pe = bySlug[k] && bySlug[k].get(sl);
+      const buy = pe && buyActionFor(pe);
+      if (buy && buy.kind !== 'telehealth') out.push({ label: pe.item.name, url: buy.url, entry: pe });
+    }
+    for (const q of s.q || []) out.push({ label: q.replace(/^./, (c) => c.toUpperCase()), url: amazonSearchUrl(q), entry: null });
+    return out;
+  }
+  const shopBtn = (x, cls = '') => `<a class="btn popb block shop-btn ${cls}" href="${esc(x.url)}" target="_blank" rel="noopener noreferrer sponsored">${esc(x.label)} ↗</a>`;
+
   // ───────── wiki-link markup ─────────
   function resolveLink(target) {
     if (target.startsWith('guide:')) {
@@ -418,10 +436,12 @@
 
     // ── Buy now slot
     const buy = buyActionFor(e);
+    const shop = kind === 'meta' ? shopFor(e) : [];
     let action;
     if (buy && buy.kind === 'telehealth') action = `<a class="btn popb lg block" href="${esc(buy.url)}" target="_blank" rel="noopener noreferrer sponsored">${esc(buy.label)} ↗</a><p class="fine">℞ A licensed provider decides if it's right for you</p>`;
     else if (kind === 'compound' && item.status === 'rx') action = `<div class="statusbox cream"><b>℞ Prescription only</b><span>This one goes through a doctor, not a cart.</span></div>`;
     else if (kind === 'compound' && item.status === 'research') action = `<div class="statusbox dark"><b>⚠ Research compound</b><span>Not approved for human use. We don't sell it.</span></div>`;
+    else if (kind === 'meta' && shop.length) action = `${shop.slice(0, 4).map((x) => shopBtn(x)).join('')}<p class="fine">Amazon · may earn a commission${shop.length > 4 ? ` · ${shop.length - 4} more below` : ''}</p>`;
     else if (kind === 'meta') action = `<div class="statusbox cream"><b>A practice, not a product</b><span>Nothing to buy — the method is in the article.</span></div>`;
     else if (buy) { const price = null; /* no prices next to Amazon links unless they come from Amazon's API */ action = `<a class="btn popb lg block" href="${esc(buy.url)}" target="_blank" rel="noopener noreferrer sponsored">${esc(price ? `${buy.label} · ${price}` : buy.label)} ↗</a><p class="fine">${buy.kind === 'amazon' ? 'Amazon search · may earn a commission' : 'May earn a commission · not an endorsement'}</p>`; }
     else action = `<div class="statusbox"><b>Sourced in person</b><span>No link for this one.</span></div>`;
@@ -447,7 +467,7 @@
       <div class="ib-title">${esc(item.name)}</div>
       ${visual}
       <table>${group('Overview', basics)}${group(kind === 'compound' ? 'Clinical & chemical data' : 'Details', details)}${group('Status & discussion', rating)}${group('Sources', links)}</table>
-      <div class="act"><span class="kicker" style="margin-bottom:8px">${kind === 'meta' ? 'How to do it' : 'Buy now'}</span>${action}</div>
+      <div class="act"><span class="kicker" style="margin-bottom:8px">${kind === 'meta' ? (shop.length ? 'Shop this' : 'How to do it') : 'Buy now'}</span>${action}</div>
     </aside>`;
 
     // ── Body sections
@@ -495,6 +515,7 @@
         : `<p>${loading ? 'Loading…' : 'No community discussion found.'}</p>`]);
     }
     if (kind !== 'meta') S.push(['where', 'Where to buy', `<div class="buyslot">${action}</div>`]);
+    else if (shop.length) S.push(['shop', 'What to buy for it', `<div class="shopgrid">${shop.map((x) => `<div class="shopcard"><b>${esc(x.label)}</b>${x.entry ? `<a class="wl" href="${entryHref(x.entry)}">Read the article</a>` : '<span>Amazon search</span>'}${shopBtn(x, 'sm')}</div>`).join('')}</div><p class="fine" style="margin-top:10px">Links go to Amazon · as an Amazon Associate we earn from qualifying purchases</p>`]);
     if (related.length) S.push(['see-also', 'See also', `<div class="grid">${related.map(entryCard).join('')}</div>${back.length ? `<p class="backlinks" style="margin-top:14px">Mentioned in: ${back.map((g) => `<a href="#/wiki/${g.slug}">${esc(g.title)}</a>`).join(', ')}</p>` : ''}`]);
     if (R.refs.length) S.push(['references', 'References', `<ol class="refs">${R.refs.map((r, i) => `<li id="ref-${i + 1}"><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>${r.source ? `. <i>${esc(r.source)}</i>` : ''}${r.year ? ` (${r.year})` : ''}.</li>`).join('')}</ol>`]);
     const ext = [
