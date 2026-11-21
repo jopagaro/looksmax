@@ -54,6 +54,43 @@
   const KIND_LABEL = { compound: 'Compounds', gear: 'Gear', meta: 'Metas' };
   const indexHref = (kind) => (kind === 'compound' ? '#/index' : `#/index?kind=${kind}`);
   const entryHref = (e) => `#/${e.kind}/${e.slug}`;
+
+  // ───────── in-text links (Wikipedia-style): first mention of another entry links to its article ─────────
+  // Phrases come from assets/autolink.js (scripts/build-autolinks.mjs). Indexed by first word for a fast scan.
+  const AL_FIRST = new Map();
+  for (const [p, k, s, ci] of window.LM_AUTOLINK || []) {
+    const e = bySlug[k] && bySlug[k].get(s);
+    const fw = p.toLowerCase().match(/^[a-z0-9]+/);
+    if (!e || !fw) continue;
+    if (!AL_FIRST.has(fw[0])) AL_FIRST.set(fw[0], []);
+    AL_FIRST.get(fw[0]).push({ p, low: p.toLowerCase(), ci, e });
+  }
+  const isWordCh = (ch) => !!ch && /[A-Za-z0-9]/.test(ch);
+  function linkify(text, used) { // raw text in, escaped HTML out
+    text = String(text || '');
+    let out = '', last = 0, m;
+    const re = /[A-Za-z0-9]+/g;
+    while ((m = re.exec(text))) {
+      const i = m.index;
+      if (isWordCh(text[i - 1])) continue;
+      const cands = AL_FIRST.get(m[0].toLowerCase());
+      if (!cands) continue;
+      for (const c of cands) {
+        let seg = text.substr(i, c.p.length);
+        if (seg.length < c.p.length || (c.ci ? seg.toLowerCase() !== c.low : seg !== c.p)) continue;
+        let end = i + c.p.length;
+        if (text[end] === 's' && !isWordCh(text[end + 1])) end++; // plural
+        else if (text.substr(end, 2) === 'es' && !isWordCh(text[end + 2])) end += 2;
+        if (isWordCh(text[end])) continue;
+        if (used.has(c.e.slug) || used.size > 90) break;
+        used.add(c.e.slug);
+        out += esc(text.slice(last, i)) + `<a class="wl" href="${entryHref(c.e)}">${esc(text.slice(i, end))}</a>`;
+        last = end; re.lastIndex = end;
+        break;
+      }
+    }
+    return out + esc(text.slice(last));
+  }
   const catHref = (kind, id) => `#/category/${kind}/${id}`;
 
   function structureUrl(q) {
@@ -366,7 +403,8 @@
     const back = [...(BACKLINKS.get(kind + ':' + e.slug) || [])].map((g) => guideBySlug.get(g));
     const here = `#/${kind}/${e.slug}${VIEW === 'deep' ? '/deep' : ''}`;
     // Escaped prose with [n] → superscript citation links
-    const cite = (t) => esc(t).replace(/\[(\d+)\]/g, (m, n) => (R.refs[n - 1] ? `<sup class="ref"><a href="${here}" data-jump="ref-${n}" title="${esc(R.refs[n - 1].title)}">[${n}]</a></sup>` : ''));
+    const linked = new Set([e.slug]); // each other entry is linked once per page, at its first mention
+    const cite = (t) => linkify(t, linked).replace(/\[(\d+)\]/g, (m, n) => (R.refs[n - 1] ? `<sup class="ref"><a href="${here}" data-jump="ref-${n}" title="${esc(R.refs[n - 1].title)}">[${n}]</a></sup>` : ''));
     const P = (arr) => (arr || []).map((p) => `<p>${cite(p)}</p>`).join('');
 
     // ── Infobox image (top of the box, like Wikipedia)
