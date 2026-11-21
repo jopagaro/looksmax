@@ -28,6 +28,15 @@ for (const f of readdirSync(join(root, 'research')).filter((f) => /^\d\d-.*\.jso
 const IMAGE_OVERRIDES = readJSON(join(root, 'research', 'image-overrides.json')) || {};
 const IMGOK = {};
 try { for (const f of readdirSync(join(root, 'research', 'imgreview')).filter((f) => /^out-\d+\.json$/.test(f))) Object.assign(IMGOK, readJSON(join(root, 'research', 'imgreview', f)) || {}); } catch {}
+// Owner-licensed photos supplied for the wiki (assets/photos/<slug>.webp, made from photo-context/images by the
+// photo import). They become the entry's lead image; the manifest gives the original source page for the credit link.
+const PHOTOS = new Set(existsSync(join(root, 'assets', 'photos')) ? readdirSync(join(root, 'assets', 'photos')).filter((f) => f.endsWith('.webp')).map((f) => f.slice(0, -5)) : []);
+const PHOTO_SRC = {};
+try {
+  const lines = readFileSync(join(root, 'photo-context', 'images-manifest.csv'), 'utf8').split('\n').slice(1);
+  const parse = (l) => { const out = []; let cur = '', q = false; for (let i = 0; i < l.length; i++) { const ch = l[i]; if (q) { if (ch === '"' && l[i + 1] === '"') { cur += '"'; i++; } else if (ch === '"') q = false; else cur += ch; } else if (ch === '"') q = true; else if (ch === ',') { out.push(cur); cur = ''; } else cur += ch; } out.push(cur); return out; };
+  for (const l of lines) { const c = parse(l); if (c.length > 5 && c[1]) PHOTO_SRC[c[1]] = c[5]; }
+} catch {}
 const ANGLES = {};
 try { for (const f of readdirSync(join(root, 'research', 'angles', 'out')).filter((f) => f.endsWith('.json'))) Object.assign(ANGLES, readJSON(join(root, 'research', 'angles', 'out', f)) || {}); } catch {}
 // Quick take rewrite ("how it helps") — research/quick2/out/*.json: slug → { summary, quick: { overview, how, risks } }.
@@ -107,6 +116,7 @@ for (const { kind, item } of ENTRIES) {
   image = kind === 'compound' ? wImg : (fImg || wImg || null);
   if (image && rv && rv.lead === false) image = null;
   if (!image && kind !== 'compound' && gImg) image = { url: gImg.url, credit: gImg.page, caption: gImg.title, source: gImg.source };
+  if (PHOTOS.has(s)) image = { url: `assets/photos/${s}.webp`, credit: /^https?:\/\//.test(PHOTO_SRC[s] || '') ? PHOTO_SRC[s] : null, caption: item.name, source: 'Used with permission' };
   // Explicit reviewed choices take precedence over keyword matches and survive rebuilds.
   if (Object.hasOwn(IMAGE_OVERRIDES, s)) {
     const choice = IMAGE_OVERRIDES[s];
