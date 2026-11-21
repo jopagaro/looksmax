@@ -582,7 +582,7 @@
   function pageIssue(id) {
     const t = ISSUES.find((i) => i.id === id);
     if (!t) return pageNotFound();
-    const q = (new URLSearchParams(location.hash.split('?')[1] || '').get('q') || '').toLowerCase();
+    const q = (new URLSearchParams(curHash().split('?')[1] || '').get('q') || '').toLowerCase();
     const others = ISSUES.filter((i) => i.group === t.group && i.id !== t.id);
     return `<div class="page">
       ${crumbs([['Wiki', '#/'], ['Topics', '#/topics'], [t.name]])}
@@ -607,7 +607,7 @@
     const R = X && X !== 'error' ? X : {};
     const L = R.links || {};
     const meta = catMeta(kind)[item.category];
-    const q = (new URLSearchParams(location.hash.split('?')[1] || '').get('q') || '').toLowerCase();
+    const q = (new URLSearchParams(curHash().split('?')[1] || '').get('q') || '').toLowerCase();
     const f = (arr) => (q ? arr.filter((x) => JSON.stringify(x).toLowerCase().includes(q)) : arr);
     const groups = [
       ['studies', 'Related literature', 'PubMed / Europe PMC search results, most-cited first', f(L.studies || []), (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc([r.kind, r.source, r.year, r.cites != null ? `cited ${Number(r.cites).toLocaleString()}×` : null].filter(Boolean).join(' · '))} ↗</span></a></li>`],
@@ -729,9 +729,21 @@
     ${ENTRIES.some((e) => e.kind === 'meta') ? `<div><h5>Metas</h5>${Object.entries(WIKI.metaCategories).slice(0, 5).map(([k, m]) => `<a href="${catHref('meta', k)}">${esc(m.name)}</a>`).join('')}</div>` : ''}`;
   document.getElementById('yr').textContent = new Date().getFullYear();
 
+  // ───────── clean URLs ─────────
+  // The site routes on the real path (lookmaxxin.com/meta/mewing) so search engines see every article as its own page.
+  // Templates still write "#/..." hrefs; the click handler below turns them into path navigation, and old shared
+  // "#/..." links are converted on load. curHash() gives the current location in the old "#/..." form.
+  const curHash = () => '#' + ((location.pathname.replace(/\/+$/, '') || '/')) + location.search;
+  // Rewrite template hrefs "#/x" to real paths "/x" so crawlers (and open-in-new-tab) get clean URLs.
+  function cleanLinks(rootEl) { rootEl.querySelectorAll('a[href^="#/"]').forEach((a) => a.setAttribute('href', a.getAttribute('href').slice(1) || '/')); }
+  function go(h, replace) {
+    const p = String(h).replace(/^#/, '') || '/';
+    history[replace ? 'replaceState' : 'pushState'](null, '', p);
+    route();
+  }
   // ───────── router ─────────
   function route() {
-    const h = location.hash.replace(/^#\/?/, '');
+    const h = curHash().replace(/^#\/?/, '');
     const [path, qs] = h.split('?');
     const params = new URLSearchParams(qs || '');
     const seg = path.split('/').filter(Boolean).map(decodeURIComponent);
@@ -739,36 +751,42 @@
 
     if (seg[0] === 'random') {
       const all = [...ENTRIES.map(entryHref), ...GUIDES.map((g) => `#/wiki/${g.slug}`)];
-      location.replace(all[Math.floor(Math.random() * all.length)]);
+      go(all[Math.floor(Math.random() * all.length)], true);
       return;
     }
     switch (seg[0]) {
       case undefined: html = pageHome(); break;
       case 'index': html = pageIndex(params); title = 'The Index'; nav = 'index'; break;
-      case 'guides': location.replace('#/az'); return;
-      case 'guide': location.replace('#/wiki/' + (seg[1] || '')); return;
+      case 'guides': go('#/az', true); return;
+      case 'guide': go('#/wiki/' + (seg[1] || ''), true); return;
       case 'wiki': { const g = guideBySlug.get(seg[1]); html = pageGuide(seg[1]); title = g ? g.title : 'Not found'; break; }
       case 'compound':
       case 'gear':
       case 'meta': {
         const e = bySlug[seg[0]].get(seg[1]); html = seg[2] === 'links' ? pageLinks(seg[0], seg[1]) : pageEntry(seg[0], seg[1], seg[2]); title = e ? e.item.name + (seg[2] === 'deep' ? ' (in-depth)' : seg[2] === 'links' ? ' — all links' : '') : 'Not found'; nav = 'index';
         if (e && !DETAIL.has(e.slug)) {
-          const want = location.hash;
-          loadDetail(e.slug).then(() => { if (location.hash === want) { keepScroll = true; route(); } });
+          const want = curHash();
+          loadDetail(e.slug).then(() => { if (curHash() === want) { keepScroll = true; route(); } });
         }
         break;
       }
       case 'category': { const ck = KINDS.includes(seg[1]) ? seg[1] : 'compound'; const m = catMeta(ck)[seg[2]]; html = pageCategory(ck, seg[2]); title = m ? m.name : 'Not found'; nav = 'index'; break; }
       case 'az': html = pageAZ(); title = 'A–Z'; nav = 'az'; break;
-      case 'issues': location.replace('#/topics'); return;
-      case 'issue': location.replace('#/topic/' + (seg[1] || '')); return;
+      case 'issues': go('#/topics', true); return;
+      case 'issue': go('#/topic/' + (seg[1] || ''), true); return;
       case 'topics': html = pageIssues(); title = 'Topics'; nav = 'topics'; break;
       case 'topic': { const i = ISSUES.find((x) => x.id === seg[1]); html = pageIssue(seg[1]); title = i ? i.name : 'Not found'; nav = 'topics'; break; }
       case 'search': html = pageSearch(params); title = 'Search'; break;
       default: html = pageNotFound(); title = 'Not found';
     }
     app.innerHTML = html;
+    cleanLinks(app);
     document.title = title === 'LOOKSMAX Wiki' ? 'LOOKSMAX Wiki — The looksmaxxing encyclopedia' : `${title} — LOOKSMAX Wiki`;
+    // Canonical URL: one address per article (the in-depth and links views point back to the main article page).
+    let canon = document.querySelector('link[rel=canonical]');
+    if (!canon) { canon = document.createElement('link'); canon.rel = 'canonical'; document.head.appendChild(canon); }
+    const cpath = (['compound', 'gear', 'meta'].includes(seg[0]) && seg[1]) ? `/${seg[0]}/${seg[1]}` : '/' + path.replace(/^\/+|\/+$/g, '');
+    canon.href = 'https://lookmaxxin.com' + (cpath === '/' ? '/' : cpath);
     document.querySelectorAll('[data-nav]').forEach((a) => (a.dataset.nav === nav ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current')));
     closeMenu();
     if (!keepScroll) window.scrollTo(0, 0);
@@ -798,14 +816,14 @@
     if (f.matches('[data-search]')) {
       ev.preventDefault();
       const q = f.q.value.trim();
-      if (q) location.hash = '#/search?q=' + encodeURIComponent(q);
+      if (q) go('#/search?q=' + encodeURIComponent(q));
     }
     if (f.matches('[data-index-search]')) ev.preventDefault();
     if (f.matches('[data-links-search]')) {
       ev.preventDefault();
-      const base = location.hash.split('?')[0];
+      const base = curHash().split('?')[0];
       const v = f.q.value.trim();
-      location.hash = base + (v ? '?q=' + encodeURIComponent(v) : '');
+      go(base + (v ? '?q=' + encodeURIComponent(v) : ''));
     }
   });
   // Live filter on the Index search input (keeps focus)
@@ -815,13 +833,13 @@
     if (!f || !f.matches('[data-index-search]')) return;
     clearTimeout(t);
     t = setTimeout(() => {
-      const p = new URLSearchParams(location.hash.split('?')[1] || '');
+      const p = new URLSearchParams(curHash().split('?')[1] || '');
       const v = ev.target.value;
       v ? p.set('q', v) : p.delete('q');
       const s = p.toString();
       const pos = ev.target.selectionStart;
       keepScroll = true;
-      history.replaceState(null, '', '#/index' + (s ? '?' + s : ''));
+      history.replaceState(null, '', '/index' + (s ? '?' + s : ''));
       route();
       const inp = app.querySelector('[data-index-search] input');
       if (inp) { inp.focus(); inp.setSelectionRange(pos, pos); }
@@ -851,6 +869,19 @@
     }
   });
 
-  window.addEventListener('hashchange', route);
+  // Internal links navigate by path without a reload; new-tab / modified clicks fall through to the browser.
+  document.addEventListener('click', (ev) => {
+    if (ev.defaultPrevented || ev.button !== 0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+    const a = ev.target.closest('a[href]');
+    if (!a || a.target === '_blank' || a.hasAttribute('data-jump') || a.hasAttribute('download')) return;
+    const href = a.getAttribute('href');
+    if (href.startsWith('#/')) { ev.preventDefault(); return go(href); }
+    if (/^\/(?!\/)/.test(href) && !/^\/(assets|data)\//.test(href) && !/\.(xml|txt)$/.test(href)) { ev.preventDefault(); go('#' + href); }
+  });
+  cleanLinks(document);
+  window.addEventListener('popstate', route);
+  // Old shared links like lookmaxxin.com/#/meta/mewing → lookmaxxin.com/meta/mewing
+  if (location.hash.startsWith('#/')) history.replaceState(null, '', location.hash.slice(1) || '/');
+  window.addEventListener('hashchange', () => { if (location.hash.startsWith('#/')) go(location.hash, true); });
   route();
 })();

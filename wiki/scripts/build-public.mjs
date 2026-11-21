@@ -23,15 +23,16 @@ writeFileSync(join(out, 'index.html'), html);
 const appPath = join(out, 'assets', 'app.js');
 writeFileSync(appPath, readFileSync(appPath, 'utf8').replace('fetch(`data/entries/${s}.json`', 'fetch(`data/entries/${s}.json?v=' + ver + '`'));
 
-// Long cache for versioned files, short for the page itself (Cloudflare Pages / Netlify read _headers).
+// Long cache for versioned files; the page itself is always revalidated so updates show on the next load (Cloudflare Pages / Netlify read _headers).
 writeFileSync(join(out, '_headers'), [
-  '/index.html', '  Cache-Control: public, max-age=300',
-  '/', '  Cache-Control: public, max-age=300',
+  '/index.html', '  Cache-Control: no-cache',
+  '/', '  Cache-Control: no-cache',
   '/assets/*', '  Cache-Control: public, max-age=31536000, immutable',
   '/data/*', '  Cache-Control: public, max-age=31536000, immutable',
   '',
 ].join('\n'));
-writeFileSync(join(out, 'robots.txt'), 'User-agent: *\nAllow: /\n');
+// Per-article pages, sitemap and robots.txt for search engines.
+await import('./build-seo.mjs');
 if (existsSync(join(root, 'CNAME'))) cpSync(join(root, 'CNAME'), join(out, 'CNAME'));
 
 const count = execSync(`find "${out}" -type f | wc -l`).toString().trim();
