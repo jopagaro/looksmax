@@ -11,6 +11,8 @@ if (!existsSync(dir)) { console.log('shop: no affiliate/map folder, keeping exis
 const map = {};
 for (const f of readdirSync(dir).filter((f) => /^out2-\d+\.json$/.test(f))) Object.assign(map, JSON.parse(readFileSync(join(dir, f), 'utf8')));
 
+// Hand-curated boxes (research/shop-overrides.json) replace the automatic match for that meta.
+try { for (const [k, v] of Object.entries(JSON.parse(readFileSync(join(root, 'research', 'shop-overrides.json'), 'utf8')))) if (!k.startsWith('_')) map[k] = v; } catch {}
 const byName = new Map();
 for (const { kind, item } of allEntries()) {
   const s = slug(item.name);
