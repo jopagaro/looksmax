@@ -1,5 +1,5 @@
 #!/bin/zsh
-# Stamp a LOOKSMAXXIN.COM watermark onto videos or images (any number of files).
+# Stamp a LOOKMAXXIN.COM watermark onto videos or images (any number of files).
 #
 #   brand/watermark.sh clip1.mp4 clip2.mov photo.jpg
 #   STYLE=pill-orange-star POS=bottom SIZE=0.5 brand/watermark.sh clip.mp4

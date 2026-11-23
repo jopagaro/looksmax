@@ -1,4 +1,4 @@
-"""Makes transparent LOOKSMAXXIN.COM watermark PNGs in the site's brand style (Archivo Black, orange #ff4d00,
+"""Makes transparent LOOKMAXXIN.COM watermark PNGs in the site's brand style (Archivo Black, orange #ff4d00,
 hard black offset shadow like the site's buttons). Run: python3 brand/make-watermarks.py  -> brand/watermarks/*.png"""
 from PIL import Image, ImageDraw, ImageFont
 import os, math
@@ -61,13 +61,13 @@ def outlined(text, size, fill, name):
 
 
 made = [
-    pill('LOOKSMAXXIN.COM', 72, ORANGE, WHITE, stroke=0, name='pill-orange.png'),            # main bug: orange bubble, white text
-    pill('LOOKSMAXXIN.COM', 72, ORANGE, INK, name='pill-orange-ink.png'),                     # orange bubble, black text (site button look)
-    pill('LOOKSMAXXIN.COM', 72, CREAM, INK, shadow=ORANGE, name='pill-cream.png'),            # cream bubble, orange shadow (site card look)
-    pill('LOOKSMAXXIN.COM', 72, ORANGE, WHITE, star=True, name='pill-orange-star.png'),       # with the site's star
-    pill('LOOKSMAXXIN.COM', 40, ORANGE, WHITE, name='pill-orange-small.png'),                 # small corner bug
-    outlined('LOOKSMAXXIN.COM', 90, ORANGE, 'text-orange.png'),                               # bare outlined text
-    outlined('LOOKSMAXXIN.COM', 90, WHITE, 'text-white.png'),
-    pill('FULL BREAKDOWN ON LOOKSMAXXIN.COM', 54, ORANGE, WHITE, name='cta-orange.png'),     # end-card / caption call to action
+    pill('LOOKMAXXIN.COM', 72, ORANGE, WHITE, stroke=0, name='pill-orange.png'),            # main bug: orange bubble, white text
+    pill('LOOKMAXXIN.COM', 72, ORANGE, INK, name='pill-orange-ink.png'),                     # orange bubble, black text (site button look)
+    pill('LOOKMAXXIN.COM', 72, CREAM, INK, shadow=ORANGE, name='pill-cream.png'),            # cream bubble, orange shadow (site card look)
+    pill('LOOKMAXXIN.COM', 72, ORANGE, WHITE, star=True, name='pill-orange-star.png'),       # with the site's star
+    pill('LOOKMAXXIN.COM', 40, ORANGE, WHITE, name='pill-orange-small.png'),                 # small corner bug
+    outlined('LOOKMAXXIN.COM', 90, ORANGE, 'text-orange.png'),                               # bare outlined text
+    outlined('LOOKMAXXIN.COM', 90, WHITE, 'text-white.png'),
+    pill('FULL BREAKDOWN ON LOOKMAXXIN.COM', 54, ORANGE, WHITE, name='cta-orange.png'),     # end-card / caption call to action
 ]
 print('\n'.join(os.path.join(OUT, m) for m in made))
