@@ -32,6 +32,9 @@
   const slug = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
   // ───────── unified entries ─────────
+  // Reviewed label corrections (assets/status-fix.js) for the app's own Index compounds.
+  const STATUS_FIX = window.LM_STATUS_FIX || {};
+  D.compounds.forEach((c) => { if (STATUS_FIX[c.name]) c.status = STATUS_FIX[c.name]; });
   const ENTRIES = [
     ...D.compounds.map((item) => ({ kind: 'compound', item, slug: slug(item.name) })),
     ...D.gear.map((item) => ({ kind: 'gear', item, slug: slug(item.name) })),
@@ -118,7 +121,8 @@
     if (okLink(slot)) return { kind: 'direct', url: slot.trim(), label: 'Buy now' };
     if (item.buyLink) return { kind: 'direct', url: item.buyLink, label: 'Buy now' };
     if (A.noBuy.includes(item.name)) return null;
-    const q = A.queryOverrides[item.name] ?? item.name;
+    // Search term: explicit override, else the name without a trailing "for …" ("Biotin for hair" → "Biotin").
+    const q = A.queryOverrides[item.name] ?? (item.name.replace(/\s+for\s+[^()]+$/i, '').trim() || item.name);
     let url = `https://www.amazon.com/s?k=${encodeURIComponent(q)}`;
     if (A.amazonTag) url += `&tag=${encodeURIComponent(A.amazonTag)}`;
     return { kind: 'amazon', url, label: 'Find on Amazon' };

@@ -13,6 +13,10 @@ export function loadData() {
   vm.runInNewContext(readFileSync(join(root, 'assets', 'data.js'), 'utf8'), ctx);
   const w = join(root, 'assets', 'wiki-entries.js');
   if (existsSync(w)) vm.runInNewContext(readFileSync(w, 'utf8'), ctx);
+  try { // reviewed label corrections (research/status-overrides.json) apply everywhere
+    const fix = JSON.parse(readFileSync(join(root, 'research', 'status-overrides.json'), 'utf8'));
+    for (const c of [...ctx.window.LM_DATA.compounds, ...((ctx.window.LM_WIKI && ctx.window.LM_WIKI.entries) || [])]) if (fix[c.name] && (!c.kind || c.kind === 'compound')) c.status = fix[c.name];
+  } catch {}
   return { D: ctx.window.LM_DATA, W: ctx.window.LM_WIKI || { entries: [], metaCategories: {} } };
 }
 

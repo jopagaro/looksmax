@@ -2126,6 +2126,7 @@ window.LM_DATA = {
    }
   },
   "queryOverrides": {
+    "Antarctic shilajit": "shilajit resin",
    "Pro clippers + edge trimmer": "hair clippers edge trimmer set",
    "Blow dryer + round brush": "hair dryer round brush set",
    "Nasal dilator / strips": "nasal breathing strips",
@@ -2185,6 +2186,6 @@ window.LM_DATA = {
    "Tailoring (any clothes)",
    "Clear aligners",
    "UV tanning bed"
-  ]
+  , "Cannabis / CBD for sleep"]
  }
 };

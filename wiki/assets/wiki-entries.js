@@ -325,7 +325,7 @@ window.LM_WIKI = {
    "summary": "The classic oral bulking steroid (Dianabol): small controlled trials show lean-mass gain, with liver, blood-pressure and hormonal costs.",
    "note": "17-alpha-alkylated oral steroid with documented liver, blood-pressure and hormonal effects; controlled in many jurisdictions and prohibited in sport.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Metandienone"
   },
   {
@@ -349,7 +349,7 @@ window.LM_WIKI = {
    "summary": "Masteron: a DHT-derived injectable once used against breast cancer and now used by bodybuilders for a dry, hard look, with no appearance trials.",
    "note": "Historic breast-cancer drug; forum users raise hair-loss concerns, and its effects on appearance have not been studied.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Drostanolone"
   },
   {
@@ -361,7 +361,7 @@ window.LM_WIKI = {
    "summary": "Proviron: a mild oral DHT derivative used in medicine for male hypogonadism and fertility, and by forum users as an add-on for hardness and libido; appearance effects are untested.",
    "note": "Fertility trials are mixed; forum reports describe small or no physique effects.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Mesterolone"
   },
   {
@@ -397,7 +397,7 @@ window.LM_WIKI = {
    "summary": "Primobolan: a mild DHT-derived steroid prized in bodybuilding for lean gains with fewer side effects; human trials exist only in anemia, cancer and rehabilitation.",
    "note": "One small stroke-rehabilitation RCT shows thigh-muscle gain; forum claims of mildness are not trial-tested.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Metenolone"
   },
   {
@@ -445,7 +445,7 @@ window.LM_WIKI = {
    "summary": "A weak natural androgen once sold as the 90s baseball-era testosterone-booster supplement; trials found no strength or muscle gains at ordinary doses.",
    "note": "US Schedule III since 2005; banned in sport; estrogenic and androgenic side effects reported.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Androstenedione"
   },
   {
@@ -684,7 +684,7 @@ window.LM_WIKI = {
    "summary": "Asthma-drug stimulant used as a gray-market cutting pill, with a documented record of heart problems.",
    "note": "Not approved for humans in the US; case reports of arrhythmia, myocarditis and death; banned in sport.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Clenbuterol"
   },
   {
@@ -708,7 +708,7 @@ window.LM_WIKI = {
    "summary": "The stimulant in the classic ECA stack: modest fat loss in trials, but a pulse-and-pressure raiser that the FDA banned from supplements.",
    "note": "Raises heart rate and blood pressure; ephedrine-alkaloid supplements banned in the US since 2004.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Ephedrine"
   },
   {
@@ -720,7 +720,7 @@ window.LM_WIKI = {
    "summary": "A withdrawn prescription appetite suppressant that worked modestly for weight loss but raised cardiovascular risk in high-risk patients.",
    "note": "Withdrawn in the EU and US in 2010 after the SCOUT cardiovascular trial; undeclared in some supplements.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Sibutramine"
   },
   {
@@ -8992,7 +8992,7 @@ window.LM_WIKI = {
    "summary": "Weekly GLP-1/glucagon dual agonist approved in China for weight loss; strong trial data, but regional approval only.",
    "note": "Approved only in China; investigational elsewhere. Trials mostly in Chinese adults.",
    "wiki": true,
-   "status": "rx"
+   "status": "research"
   },
   {
    "name": "Orforglipron",
@@ -9561,7 +9561,7 @@ window.LM_WIKI = {
    "summary": "Steroid precursors once sold as supplements; androstenedione was banned in the US in 2004 and studies found little muscle benefit.",
    "note": "Androstenedione is a controlled substance in the US since 2005 and banned by sports bodies.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Androstenedione"
   },
   {
@@ -14166,7 +14166,7 @@ window.LM_WIKI = {
    "summary": "A Soviet-era GABA-B tranquilizer sold online as a 'nootropic' and used for social ease; tolerance and withdrawal are well documented, human trial data are scarce.",
    "note": "Documented tolerance, dependence and serious withdrawal; unapproved as a supplement in the US.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Phenibut"
   },
   {
@@ -14190,7 +14190,7 @@ window.LM_WIKI = {
    "summary": "Cannabis and cannabidiol are used for sleep onset, but clinical evidence is limited and CBD supplements are not FDA-approved for sleep.",
    "note": "CBD products are often mislabeled; FDA has raised liver, drug-interaction and fertility concerns.",
    "wiki": true,
-   "status": "research",
+   "status": "otc",
    "structure": "Cannabidiol"
   },
   {
@@ -19360,7 +19360,7 @@ window.LM_WIKI = {
    "summary": "A withdrawn oral steroid, a dimer of methasterone, that resurfaced in gray-market supplements; no human studies exist.",
    "note": "FDA has taken legal action against supplements containing it.",
    "wiki": true,
-   "status": "rx"
+   "status": "research"
   },
   {
    "name": "Mestanolone",
@@ -19371,7 +19371,7 @@ window.LM_WIKI = {
    "summary": "An old oral 17-methyl DHT steroid: strongly androgenic, weakly anabolic, mostly discontinued; no modern trials.",
    "note": "US Schedule III; hepatotoxic like other 17-alkylated steroids.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Mestanolone"
   },
   {
@@ -19383,7 +19383,7 @@ window.LM_WIKI = {
    "summary": "A DHT-derived anabolic steroid whose acetate ester was an old injectable; known today mostly from metabolism studies.",
    "note": "Little human data beyond metabolism.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Stenbolone"
   },
   {
@@ -19395,7 +19395,7 @@ window.LM_WIKI = {
    "summary": "Japanese oral prodrug of the antiestrogen steroid epitiostanol, sold as a breast-cancer and renal-anemia drug; no appearance studies exist.",
    "note": "Prescription drug in Japan; listed as prohibited by the World Anti-Doping Agency; virilizing effects reported in women.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Mepitiostane"
   },
   {
@@ -19407,7 +19407,7 @@ window.LM_WIKI = {
    "summary": "Injectable Japanese antiestrogen steroid (Thiodrol) used for breast cancer; the muscle-building angle has no human data behind it.",
    "note": "Oral epitiostanol is largely destroyed by first-pass metabolism; the oral prodrug is mepitiostane.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Epitiostanol"
   },
   {
@@ -19419,7 +19419,7 @@ window.LM_WIKI = {
    "summary": "Oral Japanese anabolic steroid, close cousin of stanozolol, best known in the West from the Ben Johnson doping inquiry; no modern human trials.",
    "note": "17α-alkylated steroid with possible liver toxicity; controlled in the US (Schedule III) and Canada (Schedule IV).",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Furazabol"
   },
   {
@@ -19431,7 +19431,7 @@ window.LM_WIKI = {
    "summary": "Obscure injectable 19-nor steroid ester once marketed in Europe as Steranabol; almost nothing is published about it.",
    "note": "Very thin literature; one case report links the parent compound to mucosal hyperpigmentation.",
    "wiki": true,
-   "status": "rx"
+   "status": "research"
   },
   {
    "name": "Ethylestrenol (Maxibolin)",
@@ -19442,7 +19442,7 @@ window.LM_WIKI = {
    "summary": "Old oral 19-nor anabolic steroid, now veterinary-only; Wikipedia calls it a very weak muscle-builder and there are no appearance trials.",
    "note": "Schedule III in the US; 17α-alkylated, so liver toxicity is possible; may masculinize a female fetus.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Ethylestrenol"
   },
   {
@@ -19454,7 +19454,7 @@ window.LM_WIKI = {
    "summary": "One of the first oral anabolic steroids (1950s); documented cholestasis and liver injury ended most use, and only a 1959 weight-gain study speaks to muscle.",
    "note": "Cholestasis and peliosis hepatis reported in treated patients; withdrawn in many countries in the 1980s.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Norethandrolone"
   },
   {
@@ -19466,7 +19466,7 @@ window.LM_WIKI = {
    "summary": "A veterinary oral steroid for dogs that circulates in bodybuilding circles as a hyper-potent pre-workout; no human trials exist.",
    "note": "Controlled substance in several countries; never studied in humans for appearance or performance.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Mibolerone"
   },
   {
@@ -19478,7 +19478,7 @@ window.LM_WIKI = {
    "summary": "An obscure Upjohn-era veterinary oral steroid, now mostly a name in anti-doping detection papers.",
    "note": "WADA-banned; no human trials found.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Bolasterone"
   },
   {
@@ -19490,7 +19490,7 @@ window.LM_WIKI = {
    "summary": "The oral steroid of East German doping fame; well documented in history and detection science, untested as a treatment.",
    "note": "Banned in sport; controlled in the US, UK and Brazil.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Chlorodehydromethyltestosterone"
   },
   {
@@ -19502,7 +19502,7 @@ window.LM_WIKI = {
    "summary": "A chlorinated testosterone mostly known from skin creams and doping cases, with no appearance trials.",
    "note": "WADA-banned; positives have sometimes been traced to contamination.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Clostebol"
   },
   {
@@ -19526,7 +19526,7 @@ window.LM_WIKI = {
    "summary": "A menopause drug with weak androgenic activity; heavily trialled for menopause, never for looks.",
    "note": "Not approved in the US; trials link it to stroke and breast cancer recurrence in specific groups.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Tibolone"
   },
   {
@@ -19538,7 +19538,7 @@ window.LM_WIKI = {
    "summary": "A weakly androgenic endometriosis steroid and the parent of the THG designer steroid; nothing studied for looks.",
    "note": "Banned in sport; androgenic effects such as voice deepening may be irreversible; not available in the US.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Gestrinone"
   },
   {
@@ -19562,7 +19562,7 @@ window.LM_WIKI = {
    "summary": "An injectable steroidal aromatase inhibitor for breast cancer, now withdrawn; nothing tested for looks.",
    "note": "Never FDA-approved; European injectable withdrawn.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Formestane"
   },
   {
@@ -19574,7 +19574,7 @@ window.LM_WIKI = {
    "summary": "A nonsteroidal aromatase inhibitor used for breast cancer in Japan and as a lab tool; nothing tested for looks.",
    "note": "No appearance studies; sources give little on side effects.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Fadrozole"
   },
   {
@@ -19713,7 +19713,7 @@ window.LM_WIKI = {
    "summary": "A Chinese BPH drug of the finasteride family; hair-loss use was explored but never approved.",
    "note": "No published hair-loss trial results found; sold in China as a BPH drug.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Epristeride"
   },
   {
@@ -19725,7 +19725,7 @@ window.LM_WIKI = {
    "summary": "A weak topical estrogen sold in Germany for hair loss; seems to slow loss but regrows little.",
    "note": "Not FDA approved; weaker than minoxidil in a head-to-head trial in women.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Alfatradiol"
   },
   {
@@ -19737,7 +19737,7 @@ window.LM_WIKI = {
    "summary": "A topical antiandrogen sold in the Czech Republic and Slovakia for hair loss, with little published trial data.",
    "note": "Not FDA or EMA approved; evidence limited to small older studies.",
    "wiki": true,
-   "status": "rx"
+   "status": "research"
   },
   {
    "name": "Dimethylcurcumin (ASC-J9)",
@@ -19784,7 +19784,7 @@ window.LM_WIKI = {
    "summary": "An antiandrogenic progestin in some European contraceptive pills used for acne and oily skin, supported by open-label data rather than large trials.",
    "note": "Prescription-only; not marketed in the US; meningioma has been reported with prolonged high-dose progestin use.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Chlormadinone acetate"
   },
   {
@@ -19796,7 +19796,7 @@ window.LM_WIKI = {
    "summary": "A mildly antiandrogenic progestin in European pills; any acne benefit is suggested by its pharmacology, with no acne trial found.",
    "note": "Prescription-only; not available in the US or Canada; meningioma risk reported with prolonged therapeutic doses.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Nomegestrol acetate"
   },
   {
@@ -19880,7 +19880,7 @@ window.LM_WIKI = {
    "summary": "A topical quinolone antibiotic cream for acne used in Japan, parts of Europe and Asia but not the US.",
    "note": "Not US-approved; concern about quinolone resistance.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Nadifloxacin"
   },
   {
@@ -20244,7 +20244,7 @@ window.LM_WIKI = {
    "summary": "A short-acting beta-2 agonist asthma medicine that some people discuss alongside clenbuterol for fat loss and a leaner look.",
    "note": "Prescription bronchodilator; linked to heart-rate effects and to 1980s asthma-mortality studies.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Fenoterol"
   },
   {
@@ -20268,7 +20268,7 @@ window.LM_WIKI = {
    "summary": "Isoxsuprine is a beta-agonist vasodilator that people interested in leaner physiques discuss because of its beta-agonist class.",
    "note": "Prescription vasodilator; can lower blood pressure and raise heart rate.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Isoxsuprine"
   },
   {
@@ -20280,7 +20280,7 @@ window.LM_WIKI = {
    "summary": "A withdrawn prescription weight-loss pill that blocks the CB1 receptor; it produced weight loss in trials but was pulled in 2008 over depression and suicidality.",
    "note": "Withdrawn worldwide in 2008-2009 over psychiatric adverse events; never approved in the US.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Rimonabant"
   },
   {
@@ -20292,7 +20292,7 @@ window.LM_WIKI = {
    "summary": "An FDA-approved prescription weight-loss pill (Belviq) that modestly outperformed placebo in trials and was pulled in 2020 over a cancer signal.",
    "note": "Withdrawn from the US market in 2020 after a trial found more cancer diagnoses on the drug.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Lorcaserin"
   },
   {
@@ -20304,7 +20304,7 @@ window.LM_WIKI = {
    "summary": "A 1990s prescription weight-loss drug pairing withdrawn in 1997 after heart valve damage and pulmonary hypertension were linked to it.",
    "note": "Fenfluramine and dexfenfluramine were withdrawn from the US market in 1997 over valvular heart disease.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Fenfluramine"
   },
   {
@@ -20316,7 +20316,7 @@ window.LM_WIKI = {
    "summary": "The 1990s serotonin diet pill pulled from the market in 1997 after heart-valve and lung-pressure harms.",
    "note": "Withdrawn worldwide after valvular heart disease and pulmonary hypertension reports.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Dexfenfluramine"
   },
   {
@@ -20328,7 +20328,7 @@ window.LM_WIKI = {
    "summary": "Former OTC decongestant and diet-pill stimulant pulled in the early 2000s after a hemorrhagic stroke link.",
    "note": "Withdrawn in the US, Canada and Australia over hemorrhagic stroke risk.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Phenylpropanolamine"
   },
   {
@@ -20351,7 +20351,7 @@ window.LM_WIKI = {
    "summary": "An orlistat-style fat-blocking pill with phase 2 data and limited availability outside Japan.",
    "note": "Fat-blocker with orlistat-like GI side effects; not broadly approved.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Cetilistat"
   },
   {
@@ -20456,7 +20456,7 @@ window.LM_WIKI = {
    "summary": "Oral ghrelin-receptor drug studied for cancer cachexia; it raised lean mass in trials but has no appearance-use data.",
    "note": "Studied only in cancer patients; not authorised in the EU; on the WADA prohibited list.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Anamorelin"
   },
   {
@@ -20480,7 +20480,7 @@ window.LM_WIKI = {
    "summary": "Oral ghrelin agonist sold as a pet appetite stimulant; a human older-adult trial showed modest lean mass change and was not pursued.",
    "note": "Veterinary product; not approved for humans.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Capromorelin"
   },
   {
@@ -20555,7 +20555,7 @@ window.LM_WIKI = {
    "summary": "A veterinary GnRH-agonist implant with some pediatric endocrine research; nothing tests it for looks.",
    "note": "Veterinary drug; not approved for general human use.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Deslorelin"
   },
   {
@@ -20611,7 +20611,7 @@ window.LM_WIKI = {
    "summary": "A porcine brain-derived peptide mixture approved for stroke and dementia in many countries, discussed by forum users as an \"iqmaxxing\" nootropic.",
    "note": "Injectable prescription product; nootropic use in healthy people is not studied.",
    "wiki": true,
-   "status": "rx"
+   "status": "research"
   },
   {
    "name": "FOXO4-DRI",
@@ -20666,7 +20666,7 @@ window.LM_WIKI = {
    "summary": "The original racetam nootropic, taken for focus and memory to support study, work and training routines.",
    "note": "Not FDA-approved in the US; reduce intake with kidney impairment.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Piracetam"
   },
   {
@@ -20690,7 +20690,7 @@ window.LM_WIKI = {
    "summary": "A racetam nootropic used for focus and memory, which users fold into their performance and recovery routines.",
    "note": "Prescription medicine in some countries; not FDA-approved in the US.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Oxiracetam"
   },
   {
@@ -20702,7 +20702,7 @@ window.LM_WIKI = {
    "summary": "A racetam nootropic taken orally for focus and memory, which people use to support study, work and consistent training.",
    "note": "Not FDA-approved; prescription medicine in a few European countries.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Pramiracetam"
   },
   {
@@ -20714,7 +20714,7 @@ window.LM_WIKI = {
    "summary": "A stimulant-leaning racetam used for energy, motivation and stamina to support training and long working days.",
    "note": "Prohibited in competitive sport; unapproved in the US.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Phenylpiracetam"
   },
   {
@@ -20925,7 +20925,7 @@ window.LM_WIKI = {
    "summary": "DMAE ester nootropic with 1970s elderly-memory studies and a mouse-lifespan claim behind its \"anti-aging\" reputation; no studies of skin.",
    "note": "Not FDA-approved; prescription-only in places such as Germany and Japan; sold as a supplement in the US.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Meclofenoxate"
   },
   {
@@ -21288,7 +21288,7 @@ window.LM_WIKI = {
    "summary": "A diol the body converts into the ketone beta-hydroxybutyrate; human evidence for appearance or fat loss is not established in the sources.",
    "note": "Do not confuse with 1,4-butanediol, which converts to GHB.",
    "wiki": true,
-   "status": "research",
+   "status": "otc",
    "structure": "(R)-1,3-Butanediol"
   },
   {
@@ -21300,7 +21300,7 @@ window.LM_WIKI = {
    "summary": "A stable glutamine dipeptide studied mainly in hospital nutrition, with no trials found for physique or appearance goals.",
    "note": "Research is in surgery, critical illness and gut disease; trial results are mixed.",
    "wiki": true,
-   "status": "rx",
+   "status": "otc",
    "structure": "Alanyl-glutamine"
   },
   {
@@ -21510,7 +21510,7 @@ window.LM_WIKI = {
    "summary": "A melatonin-linked antidepressant sold in Europe, not the US; no appearance evidence.",
    "note": "Liver enzyme monitoring is part of prescribing; not FDA approved.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Agomelatine"
   },
   {
@@ -21606,7 +21606,7 @@ window.LM_WIKI = {
    "summary": "A prescription Z-drug sleeping pill (Imovane); not US-approved and untested for looks.",
    "note": "Dependence and tolerance risks; not approved in the US.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Zopiclone"
   },
   {
@@ -21786,7 +21786,7 @@ window.LM_WIKI = {
    "summary": "A thyroid-hormone analogue now approved for a rare genetic disorder, once sold as a fat-burner with case reports of thyroid dysfunction.",
    "note": "US label carries a boxed warning against use for obesity or weight loss.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Tiratricol"
   },
   {
@@ -21869,7 +21869,7 @@ window.LM_WIKI = {
    "summary": "A beta-2 agonist medicine for asthma and labour suppression, in the same class as fat-loss stimulants like clenbuterol.",
    "note": "Prescription-only; cardiovascular effects possible; not FDA-approved.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Hexoprenaline"
   },
   {
@@ -21881,7 +21881,7 @@ window.LM_WIKI = {
    "summary": "A once-daily beta-2 agonist skin patch approved in Japan for asthma, discussed in fat-loss circles as a gentler cousin of clenbuterol-type compounds.",
    "note": "Prescription bronchodilator; beta agonists can cause tremor and palpitations.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Tulobuterol"
   },
   {
@@ -22035,7 +22035,7 @@ window.LM_WIKI = {
    "summary": "Quinine appears in reports of unregulated skin-lightening products, but no research supports it as a lightening agent and its documented effects are those of an antimalarial drug.",
    "note": "Documented only as an ingredient reported in some illicit lightening products; quinine itself is a prescription drug with serious adverse effects.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Quinine"
   },
   {
@@ -22250,7 +22250,7 @@ window.LM_WIKI = {
    "summary": "A Russian cattle-brain peptide injection used for neurological conditions, with some local trials and no appearance data.",
    "note": "Animal-derived injectable; regional prescription drug.",
    "wiki": true,
-   "status": "rx"
+   "status": "research"
   },
   {
    "name": "Retinalamin",
@@ -22393,7 +22393,7 @@ window.LM_WIKI = {
    "summary": "A thymus-derived immune peptide studied for infections and skin disease, with no appearance trials behind it.",
    "note": "Studied as an immune drug; no appearance or longevity outcomes have been tested.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Thymopentin"
   },
   {
@@ -22904,7 +22904,7 @@ window.LM_WIKI = {
    "summary": "An obscure nandrolone-family anabolic steroid that was never marketed itself and is banned in sport, with almost no published research.",
    "note": "Prohibited by WADA; one case report links it to mucosal hyperpigmentation.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Oxabolone"
   },
   {
@@ -23041,7 +23041,7 @@ window.LM_WIKI = {
    "summary": "A classic ephedrine, caffeine and aspirin cutting stack with modest reported fat-loss effects and a long regulatory history.",
    "note": "Ephedrine-alkaloid supplements are banned in the US; cardiovascular events have been reported.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Ephedrine"
   },
   {
@@ -23238,7 +23238,7 @@ window.LM_WIKI = {
    "summary": "A withdrawn once-weekly GLP-1 diabetes drug; it was never a weight-loss product and produced modest weight effects in trials.",
    "note": "No longer marketed anywhere; approved only for type 2 diabetes.",
    "wiki": true,
-   "status": "rx"
+   "status": "research"
   },
   {
    "name": "Peptide YY",
@@ -23260,7 +23260,7 @@ window.LM_WIKI = {
    "summary": "An anti-myostatin antibody from Chugai/Roche tested to build or preserve muscle, including alongside weight-loss drugs.",
    "note": "Investigational only; Roche ended development in FSHD, SMA and obesity in 2026.",
    "wiki": true,
-   "status": "rx"
+   "status": "research"
   },
   {
    "name": "ACE-031",
@@ -23410,7 +23410,7 @@ window.LM_WIKI = {
    "summary": "Synthetic VIP used for erectile dysfunction and tested in COVID-19 lung failure; no appearance evidence.",
    "note": "Investigational for lung disease; large COVID-19 trial reported no significant benefit.",
    "wiki": true,
-   "status": "rx"
+   "status": "research"
   },
   {
    "name": "Ara-290",
@@ -23767,7 +23767,7 @@ window.LM_WIKI = {
    "summary": "A collagen-derived tripeptide found in supplements; absorbed in animals, with no human skin trials of the peptide itself.",
    "note": "Evidence for appearance use is essentially absent for the isolated peptide.",
    "wiki": true,
-   "status": "research",
+   "status": "otc",
    "structure": "Gly-Pro-Hyp"
   },
   {
@@ -23779,7 +23779,7 @@ window.LM_WIKI = {
    "summary": "A copper tripeptide marketed for hair growth, backed so far only by cell-culture research.",
    "note": "No human hair-growth trial found.",
    "wiki": true,
-   "status": "research"
+   "status": "otc"
   },
   {
    "name": "LL-37",
@@ -23800,7 +23800,7 @@ window.LM_WIKI = {
    "summary": "A Cuban injectable EGF for diabetic foot ulcers; wound-healing evidence is small-scale and nothing exists for cosmetic use.",
    "note": "Prescription wound drug; no appearance studies.",
    "wiki": true,
-   "status": "rx"
+   "status": "research"
   },
   {
    "name": "Palifermin",
@@ -23886,7 +23886,7 @@ window.LM_WIKI = {
    "summary": "A tesamorelin plus ipamorelin injectable peptide stack for fat loss; each part has some history, the combination has no trials.",
    "note": "Tesamorelin is Rx-only; ipamorelin is unapproved and WADA-prohibited.",
    "wiki": true,
-   "status": "rx"
+   "status": "research"
   },
   {
    "name": "GT20029",
@@ -25372,7 +25372,7 @@ window.LM_WIKI = {
    "summary": "An old stomach-acid drug with weak antiandrogen activity that was tried for acne decades ago, with little supporting evidence.",
    "note": "Inhibits many drug-metabolizing enzymes; acne evidence is limited to small, dated studies.",
    "wiki": true,
-   "status": "rx",
+   "status": "otc",
    "structure": "Cimetidine"
   },
   {
@@ -26334,7 +26334,7 @@ window.LM_WIKI = {
    "summary": "Vesicle-based regeneration serums with promising biology but almost no published human skin data.",
    "note": "Product composition is hard to standardize; no published efficacy results found.",
    "wiki": true,
-   "status": "research"
+   "status": "otc"
   },
   {
    "name": "Mesenchymal stem cell conditioned media",
@@ -26345,7 +26345,7 @@ window.LM_WIKI = {
    "summary": "Stem-cell secretome liquid sold for regeneration; lab promise, only early-phase human trials.",
    "note": "Secreted factors can have effects beyond repair in lab studies; no cosmetic efficacy trials found.",
    "wiki": true,
-   "status": "research"
+   "status": "otc"
   },
   {
    "name": "Fibroblast growth factor (FGF)",
@@ -30833,7 +30833,7 @@ window.LM_WIKI = {
    "summary": "An older oral anabolic steroid, a methylated derivative of androstenediol, discussed in bodybuilding circles for muscle growth.",
    "note": "Controlled anabolic steroid; 17-alpha-alkylated oral steroids carry liver-related warnings.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Methandriol"
   },
   {
@@ -30845,7 +30845,7 @@ window.LM_WIKI = {
    "summary": "A long-acting ester of the anabolic steroid trenbolone (sold as Parabolan), used by bodybuilders in pursuit of greater muscle mass and leanness.",
    "note": "Controlled substance in many countries; no longer marketed as a human drug.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Trenbolone"
   },
   {
@@ -30951,7 +30951,7 @@ window.LM_WIKI = {
    "summary": "An old oral anabolic steroid that converts to boldenone in the body, studied for muscle-building effects and now rarely seen.",
    "note": "Controlled substance in the US and banned in most competitive sports.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Quinbolone"
   },
   {
@@ -31904,7 +31904,7 @@ window.LM_WIKI = {
    "summary": "A prescription steroid-synthesis blocker (Vetoryl in dogs) that some bodybuilders have discussed as a way to curb cortisol and estrogen for a leaner, drier physique.",
    "note": "Prescription veterinary drug; withdrawn for human use in the US; not an aromatase inhibitor.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Trilostane"
   },
   {
@@ -45915,7 +45915,7 @@ window.LM_WIKI = {
    "summary": "Illicitly sold creams containing inorganic mercury compounds that are marketed to lighten and even skin tone, at documented cost to kidney and nervous-system health.",
    "note": "Banned in many countries; mercury is often undeclared on labels and has caused kidney and neurological harm.",
    "wiki": true,
-   "status": "rx"
+   "status": "research"
   },
   {
    "name": "Honey and olive oil skin bleaching",
@@ -49581,7 +49581,7 @@ window.LM_WIKI = {
    "summary": "A Romanian procaine preparation (GH3) promoted since the 1950s to counter aging and keep people looking and feeling younger.",
    "note": "The FDA has barred its importation since 1982 as an unapproved drug.",
    "wiki": true,
-   "status": "rx",
+   "status": "research",
    "structure": "Procaine"
   },
   {
@@ -49998,7 +49998,7 @@ window.LM_WIKI = {
    "summary": "A mumioid, a shilajit-like mineral-organic substance, listed with shilajit-type materials; shilajit is taken as a supplement for energy and testosterone support that users link to training and vitality.",
    "note": "Little is documented about this specific material; shilajit samples from other sources have contained heavy metals.",
    "wiki": true,
-   "status": "research"
+   "status": "otc"
   },
   {
    "name": "Ozokerite mumioid",
